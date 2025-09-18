@@ -36,12 +36,13 @@ Aegis uses GitHub-based versioning and automation to stay up to date without man
 
 ## *Download Links**
 
-| **Name**        | **Link**                                                     | **Description**              | **Status** |
-| --------------- | ------------------------------------------------------------ | ---------------------------- | ---------- |
-| SurgeAegis      | [SurgeAegis](https://raw.githubusercontent.com/Thoseyearsbrian/SurgeAegis) | Surge firewall configuration | Complete   |
-| ClashAegis      | [ClashAegis](https://raw.githubusercontent.com/Thoseyearsbrian/ClashAegis) | Clash firewall configuration | Building   |
-| QuantumultAegis | [QuantumultAegis](https://raw.githubusercontent.com/Thoseyearsbrian/QuantumultAegis) | QuantumultX firewall rules   | Building   |
-| RouterAegis     | [RouterAegis](https://raw.githubusercontent.com/Thoseyearsbrian/RouterAegis) | Router-based configuration   | Building   |
+| **Name**         | **Link**                                                     | **Description**              | **Status** |
+| ---------------- | ------------------------------------------------------------ | ---------------------------- | ---------- |
+| SurgeAegis（CN） | https://raw.githubusercontent.com/Thoseyearsbrian/SurgeAegis/config/Spec/SurgeAegis_CN.conf | Surge firewall configuration | Complete   |
+| SurgeAegis（EN） | https://raw.githubusercontent.com/Thoseyearsbrian/SurgeAegis/config/Spec/SurgeAegis_EN.conf | Surge firewall configuration | Complete   |
+| ClashAegis       | [ClashAegis](https://raw.githubusercontent.com/Thoseyearsbrian/ClashAegis) | Clash firewall configuration | Building   |
+| QuantumultAegis  | [QuantumultAegis](https://raw.githubusercontent.com/Thoseyearsbrian/QuantumultAegis) | QuantumultX firewall rules   | Building   |
+| RouterAegis      | [RouterAegis](https://raw.githubusercontent.com/Thoseyearsbrian/RouterAegis) | Router-based configuration   | Building   |
 
 ## **Configuration Guide**
 

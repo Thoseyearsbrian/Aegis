@@ -29,14 +29,15 @@ Aegis 是一个坚持技术中立、信息透明、自主独立的安全规则�
 
 Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最新状态，支持 Surge、Clash 、QuantumultX等工具远程订阅使用。
 
-## 下载地址
+## 配置链接
 
-|    文件名称     |                           下载地址                           | 示例用途                  | 项目进度 |
-| :-------------: | :----------------------------------------------------------: | ------------------------- | :------: |
-|   SurgeAegis    | [SurgeAegis](https://raw.githubusercontent.com/Thoseyearsbrian/SurgeAegis) | Surge个人防火墙配置       |  已完成  |
-|   ClashAegis    | [ClashAegis](https://raw.githubusercontent.com/Thoseyearsbrian/ClashAegis) | Clash个人防火墙配置       |  开发中  |
-| QuantumultAegis | [QuantumultAegis](https://raw.githubusercontent.com/Thoseyearsbrian/QuantumultAegis) | QuantumultX个人防火墙配置 |  开发中  |
-|   RouterAegis   | [RouterAegis](https://raw.githubusercontent.com/Thoseyearsbrian/RouterAegis) | Router个人防火墙配置      |  开发中  |
+|     文件名称     |                           链接地址                           | 示例用途                  | 项目进度 |
+| :--------------: | :----------------------------------------------------------: | ------------------------- | :------: |
+| SurgeAegis（CN） | https://raw.githubusercontent.com/Thoseyearsbrian/SurgeAegis/config/Spec/SurgeAegis_CN.conf | Surge个人防火墙配置       |  已完成  |
+| SurgeAegis（EN） | https://raw.githubusercontent.com/Thoseyearsbrian/SurgeAegis/config/Spec/SurgeAegis_EN.conf | Surge个人防火墙配置       |  已完成  |
+|    ClashAegis    | https://raw.githubusercontent.com/Thoseyearsbrian/ClashAegis | Clash个人防火墙配置       |  开发中  |
+| QuantumultAegis  | https://raw.githubusercontent.com/Thoseyearsbrian/QuantumultAegis | QuantumultX个人防火墙配置 |  开发中  |
+|   RouterAegis    | https://raw.githubusercontent.com/Thoseyearsbrian/RouterAegis | Router个人防火墙配置      |  开发中  |
 
 ## 配置方式
 
