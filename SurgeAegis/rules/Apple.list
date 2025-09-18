@@ -1,0 +1,80 @@
+# > 苹果服务规则集（Apple_Services.list）
+# > 规则说明：用于识别 Apple 官方服务相关域名及 IP 段，适用于策略分流或白名单放行
+# > 建议：绑定至 Surge 策略组 Apple / DIRECT 或 Apple / PROXY，根据用户需求设置
+
+# > Apple 官方 IP 地址段（全球基础设施）
+IP-CIDR,17.0.0.0/8
+IP-CIDR,139.178.128.0/18
+IP-CIDR,144.178.0.0/19
+IP-CIDR,144.178.36.0/22
+IP-CIDR,144.178.48.0/20
+IP-CIDR,192.35.50.0/24
+IP-CIDR,198.183.17.0/24
+IP-CIDR,205.180.175.0/24
+IP-CIDR,63.92.224.0/19
+IP-CIDR,65.199.22.0/23
+
+# > Apple 官方主域名（基础服务）
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mac.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple-dns.cn
+DOMAIN-SUFFIX,apple-darwin.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+
+# > CDN 与边缘服务（用于内容分发 / 镜像）
+DOMAIN-SUFFIX,apple.comscoreresearch.com
+DOMAIN-SUFFIX,appleworldwidedeveloper.hb-api.omtrdc.net
+DOMAIN-SUFFIX,appleworldwidedeveloper.sc.omtrdc.net
+DOMAIN-SUFFIX,beatselectronicsllc.tt.omtrdc.net
+DOMAIN,appldnld.apple.com.edgesuite.net
+DOMAIN,e16991.b.akamaiedge.net
+DOMAIN,lookup-api.apple.com.edgekey.net
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,apple.com.edgekey.net
+DOMAIN-SUFFIX,apple-com.akamaized.net
+
+# > 开发者相关
+DOMAIN-SUFFIX,developer.apple.com
+DOMAIN-SUFFIX,testflight.apple.com
+DOMAIN-KEYWORD,testflight
+
+# > 安全验证与支付
+DOMAIN-SUFFIX,apple-pay.com
+DOMAIN-SUFFIX,appleid.apple.com
+DOMAIN-SUFFIX,securemetrics.apple.com
+DOMAIN-SUFFIX,safebrowsing.apple
+
+# > 内容服务：Apple Music / iCloud / App Store
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,applemusicconnect.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,mzstatic.com
+
+# > 推送通知 / iMessage / 时间同步（系统服务）
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,ess.apple.com
+DOMAIN-SUFFIX,imessage-analysis.apple.com
+DOMAIN-SUFFIX,time-ios.apple.com
+
+# > 初始配置 / 激活 / Siri（系统启动阶段）
+DOMAIN-SUFFIX,configuration.apple.com
+DOMAIN-SUFFIX,init-p01md.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+
+# > Apple Maps 与 JS 服务（地图定位）
+DOMAIN-SUFFIX,mapkitjs.apple.com
+DOMAIN-SUFFIX,cdn-apple-mapkit.com
+
+# > 辅助与匿名域名（可能存在误判，但系统常用）
+DOMAIN,edge.apple
+DOMAIN,icons.axm-usercontent-apple.com

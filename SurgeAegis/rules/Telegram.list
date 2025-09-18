@@ -1,0 +1,60 @@
+# > Telegram 服务规则集（Telegram.list）
+# > 规则说明：识别 Telegram 相关域名、IP 段及 ASN，用于精准分流或封锁
+# > 建议绑定策略组：Telegram / PROXY
+
+# > Telegram 域名规则
+DOMAIN,api.imem.app
+DOMAIN,api.swiftgram.app
+DOMAIN-KEYWORD,nicegram
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,mbrx.app
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,stel.com
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegramdownload.com
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
+DOMAIN-SUFFIX,usercontent.dev
+
+# > Telegram ASN
+IP-ASN,211157
+IP-ASN,44907
+IP-ASN,59930
+IP-ASN,62014
+IP-ASN,62041
+
+# > Telegram IPv4
+IP-CIDR,109.239.140.0/24
+IP-CIDR,139.59.210.98/32
+IP-CIDR,149.154.160.0/20
+IP-CIDR,196.55.216.167/32
+IP-CIDR,5.28.192.0/18
+IP-CIDR,91.108.0.0/16
+IP-CIDR,95.161.64.0/20
+
+# > Telegram IPv6
+IP-CIDR6,2001:67c:4e8::/48
+IP-CIDR6,2001:b28:f23c::/47
+IP-CIDR6,2001:b28:f23d::/48
+IP-CIDR6,2001:b28:f23f::/48
+IP-CIDR6,2a0a:f280::/29
+
+# > Telegram ASN 聚合匹配
+IP-ASN,44907
+IP-ASN,59930
+IP-ASN,62014
+IP-ASN,62041
+IP-ASN,211157

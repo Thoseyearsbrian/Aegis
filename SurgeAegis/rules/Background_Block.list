@@ -1,0 +1,6 @@
+# # **可疑后台服务与域名** - 与具体设备无关，具有回传、监听或未知用途的域名和服务（含厂商服务与第三方SDK）（建议封锁）
+
+DOMAIN,scproxy.ws.samsung.com // Samsung SmartConnect：三星设备连接代理，如无使用场景，可选封锁
+DOMAIN-SUFFIX,yahoo.com // Yahoo：含广告追踪与 SDK 接入，如无业务需求，可选封锁
+DOMAIN-SUFFIX,flurry.com // Flurry：Yahoo 旗下广告SDK监听域名，如无需要场景，可选封锁
+DOMAIN-SUFFIX,cftoken.net // 疑似钓鱼或后门行为域名（可与APT或伪装回连相关）

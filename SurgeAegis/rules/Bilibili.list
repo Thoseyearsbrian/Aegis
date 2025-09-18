@@ -1,0 +1,5 @@
+# > 哔哩哔哩平台域名
+# > 用于识别 Bilibili 视频、直播、评论等功能服务
+
+DOMAIN-SUFFIX,bilibili.com // Bilibili 主站
+DOMAIN-SUFFIX,hdslb.com // Bilibili 静态资源与视频流

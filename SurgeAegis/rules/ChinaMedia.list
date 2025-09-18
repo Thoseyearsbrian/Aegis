@@ -1,0 +1,44 @@
+# > 国内流媒体平台规则集（ChinaMedia.list）
+# > 包含中国大陆主流视频、音乐、电台平台域名
+# > 建议绑定至策略组：Streaming_CN（国内流媒体）
+# > 注意：哔哩哔哩相关域名不在本规则集中，已归类至 Bilibili.list 独立管理
+
+# >> 视频平台
+DOMAIN-SUFFIX,youku.com // 优酷视频
+DOMAIN-SUFFIX,iqiyi.com // 爱奇艺
+DOMAIN-SUFFIX,iq.com // 爱奇艺国际版
+DOMAIN-SUFFIX,tudou.com // 土豆网
+DOMAIN-SUFFIX,v.qq.com // 腾讯视频主域
+DOMAIN-SUFFIX,video.qq.com // 腾讯视频内容域
+DOMAIN-SUFFIX,mgtv.com // 芒果TV
+DOMAIN-SUFFIX,le.com // 乐视视频短域
+DOMAIN-SUFFIX,letv.com // 乐视视频主域
+DOMAIN-SUFFIX,wasu.cn // 华数TV
+DOMAIN-SUFFIX,1905.com // 电影网
+DOMAIN-SUFFIX,fun.tv // 风行网
+DOMAIN-SUFFIX,sohu.com // 搜狐主域（含搜狐视频）
+DOMAIN-SUFFIX,tv.sohu.com // 搜狐视频子域
+DOMAIN-SUFFIX,pptv.com // PPTV 主域
+DOMAIN-SUFFIX,pptv.net // PPTV CDN
+DOMAIN-SUFFIX,joy.cn // 乐视视频旧域
+DOMAIN-SUFFIX,acfun.cn // AcFun 弹幕视频网
+DOMAIN-SUFFIX,cdn.aixifan.com // AcFun CDN 服务
+
+# >> 音乐平台
+DOMAIN-SUFFIX,kuwo.cn // 酷我音乐主域
+DOMAIN-SUFFIX,kuwo.com // 酷我音乐备用域
+DOMAIN-SUFFIX,kwimgs.com // 酷我音乐 CDN
+DOMAIN-SUFFIX,kugou.com // 酷狗音乐
+DOMAIN-SUFFIX,kg.qq.com // 全民K歌
+DOMAIN-SUFFIX,xiami.com // 虾米音乐（已停服）
+DOMAIN-SUFFIX,netease.com // 网易云音乐主域
+DOMAIN-SUFFIX,music.163.com // 网易云音乐
+DOMAIN-SUFFIX,music.126.net // 网易云音乐 API
+DOMAIN-SUFFIX,tingapi.com // 蜻蜓FM 音乐平台
+
+# >> 电台 / 播客平台
+DOMAIN-SUFFIX,qingting.fm // 蜻蜓FM 主域
+DOMAIN-SUFFIX,ximalaya.com // 喜马拉雅FM 主站
+DOMAIN-SUFFIX,himalaya.com // 喜马拉雅国际版
+DOMAIN-SUFFIX,lrts.me // 懒人听书
+DOMAIN-SUFFIX,lishi.fm // 历史FM（播客平台）

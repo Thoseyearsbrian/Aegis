@@ -1,0 +1,9 @@
+# > Disney+ 平台域名
+# > 用于识别 Disney+ 视频播放、验证、登录等服务
+
+# >> Netflix
+DOMAIN-SUFFIX,netflix.com // Netflix 全球官网与服务
+DOMAIN-SUFFIX,netflix.net // Netflix 全球视频流与 API
+DOMAIN-SUFFIX,nflximg.net // Netflix 静态资源
+DOMAIN-SUFFIX,nflxso.net // Netflix CDN 服务
+DOMAIN-SUFFIX,nflxvideo.net // Netflix 视频流分发服务

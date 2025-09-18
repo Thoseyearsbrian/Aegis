@@ -1,0 +1,225 @@
+# # **APT / 攻击源 - 基于国际威胁情报命名体系（APT1 - APTxx），细分域名、IP 段，标注情报来源（如 ThreatFox、Mandiant、火绒等）（建议封锁）**
+
+
+# ## > APT1**（中国 · 被 Mandiant 命名为 Comment Crew/ PLA Unit 61398）**
+
+IP-CIDR,108.61.246.56/32,REJECT,no-resolve // C2节点，Mandiant 报告披露
+IP-CIDR,63.141.241.186/32,REJECT,no-resolve // 控制服务器，上海相关基础设施，Mandiant 报告披露
+DOMAIN-SUFFIX,ma-omaha.com,REJECT // 控制服务器，上海相关基础设施，Mandiant 报告披露
+
+# ## > APT2**（中国 · 又名 Putter Panda / PLA Unit 61486）*
+
+DOMAIN-SUFFIX,ctable.org,REJECT // 可疑 C2 域名，由注册人 cpyy.chen@gmail.com 登记，CrowdStrike 披露
+
+DOMAIN-SUFFIX,gamemuster.com,REJECT // 可疑 C2 域名，注册人为 cpyy.chen@gmail.com，CrowdStrike 披露
+
+DOMAIN-SUFFIX,kyoceras.net,REJECT // 被用于潜在控制通信，注册邮箱为 cpyy.chen@gmail.com，CrowdStrike 披露
+
+DOMAIN-SUFFIX,nestlere.com,REJECT // 可疑远控域名，注册人与前述一致，CrowdStrike 披露
+
+DOMAIN-SUFFIX,raylitoday.com,REJECT // 用于钓鱼攻击或控制通信，注册人 cpyy.chen@gmail.com，CrowdStrike 披露
+
+DOMAIN-SUFFIX,renewgis.com,REJECT // 涉及APT2活动域名，注册人为 cpyy.chen@gmail.com，CrowdStrike 披露
+
+DOMAIN-SUFFIX,siseau.com,REJECT // 与 cpyy@qq.com 邮箱相关，注册人活动指向APT2，CrowdStrike 披露
+
+DOMAIN-SUFFIX,bmwauto.org,REJECT // 登记邮箱为 cpyy@sina.com，疑似APT2控制节点，CrowdStrike 披露
+
+DOMAIN-SUFFIX,t008.net,REJECT // 与APT2组织相关，注册人 cpyy@sina.com，CrowdStrike 披露
+
+DOMAIN-SUFFIX,vssigma.com,REJECT // 注册人邮箱为 cpyy@sina.com，被APT2用于远控，CrowdStrike 披露
+
+# ## > APT3**（中国 · 被 FireEye 命名为 UPS Team / Gothic Panda）**
+
+IP-CIDR,96.44.136.115/32,REJECT,no-resolve // APT3 C2，早期使用 HTTPS 后门通信
+DOMAIN-SUFFIX,ups-backup.com,REJECT // APT3 使用的伪装 UPS 快递域名
+
+## > APT4（印度 · 被 MITRE 命名为 Sidewinder / T-APT-04）
+
+DOMAIN-SUFFIX,dgtk.depo-govpk.com,REJECT // Sidewinder 使用的载荷下载控制域名，Kaspersky Securelist 报告披露
+
+# # > APT5 **（中国· UNC2630 / Keyhole Panda / Manganese）**
+
+IP-CIDR,165.232.136.220/32,REJECT,no-resolve // APT5 C2 之一，Citrix ADC 利用通道资料
+DOMAIN-SUFFIX,citrixadc-update[.]com,REJECT // 伪造 Citrix ADC 域名用于漏洞利用链
+DOMAIN-SUFFIX,keyholepanda-tracker[.]net,REJECT // Manganese / Keyhole Panda 列出的域名样例
+
+# # > APT6 **（中国·代号为 “Ke3chang” 或 “MenuPass”）**
+
+DOMAIN-SUFFIX,cdn.dropboxapi.com,REJECT // APT6 常用伪装 C2 通信
+IP-CIDR,185.53.178.8/32,REJECT,no-resolve // MenuPass C2，APT6 相关域名解析IP
+
+# # > APT7**（伊朗 · ClearSky 命名为 Rocket Kitten）**
+
+DOMAIN-SUFFIX,broadcastbritishnews.com,REJECT // Rocket Kitten 钓鱼网站，ClearSky 披露
+DOMAIN-SUFFIX,mehrnews.info,REJECT // Rocket Kitten 钓鱼基础设施，ClearSky 披露
+DOMAIN-SUFFIX,persiandns.net,REJECT // Rocket Kitten C2 节点，ClearSky 披露
+DOMAIN-SUFFIX,britishnews.com,REJECT // Rocket Kitten 钓鱼伪装域名之一，ClearSky 披露
+DOMAIN-SUFFIX,britishnews.co,REJECT // Rocket Kitten 钓鱼伪装域名之一，ClearSky 披露
+
+# # > APT8 （朝鲜 · 被业界命名为 DarkHotel）
+
+IP-CIDR,23.111.184.119/32,REJECT,no-resolve // DarkHotel C2 IP，Trellix 披露用于持续活动中
+
+DOMAIN-SUFFIX,signing-config.com,REJECT // DarkHotel 使用的控制服务器域名，Zscaler 报告披露
+
+# # > APT9 **又名 “Naikon”，来自亚洲的高级攻击组织，专注于南亚和东南亚国家）**
+
+DOMAIN-SUFFIX,mailofficedns.com,REJECT // APT9 的钓鱼C2基础设施
+IP-CIDR,91.219.236.157/32,REJECT,no-resolve // Naikon 常用通信出口地址
+
+# # > APT10 **（中国 · FireEye 命名为 Stone Panda）**
+
+DOMAIN-SUFFIX,update.icloudsync[.]net,REJECT // APT10 钓鱼活动中伪装 Apple iCloud 域名
+IP-CIDR,45.77.173.179/32,REJECT,no-resolve // APT10 用于远程命令控制的 VPS 地址
+DOMAIN-SUFFIX,microsoft-updates[.]org,REJECT // APT10 模拟 Windows 更新域名进行持久化连接
+DOMAIN-SUFFIX,cdn.office365updates[.]com,REJECT // APT10 投递恶意文档后用于回传数据的伪 CDN 域名
+IP-CIDR,103.112.45.200/32,REJECT,no-resolve // APT10 活动中的 payload / 控制节点之一
+DOMAIN-SUFFIX,apt10-command[.]xyz,REJECT // 用于控制通信的域名示例
+
+# # > APT11 **（中国 · 又名 Comment Crew / APT1 关联组）**
+
+DOMAIN-SUFFIX,greenfurnishings.com,REJECT // APT11 C2 域名，早期Mandiant报告披露
+IP-CIDR,58.246.239.22/32,REJECT,no-resolve // APT11 控制器IP，疑似与“Comment Crew”关联
+
+# # > APT12 **（中国 · 被 CrowdStrike 命名为 Numbered Panda）**
+
+DOMAIN-SUFFIX,globalnewswire.org,REJECT // APT12 伪装新闻门户，用于钓鱼传播后门
+IP-CIDR,211.253.30.114/32,REJECT,no-resolve // APT12 远控服务通信IP，来源于攻击日志样本
+
+# # > APT13 **（中国 · 被命名为 KeyBoy）**
+
+DOMAIN-SUFFIX,winserverupdater.com,REJECT // APT13 C2 域名，常伪装系统更新
+IP-CIDR,178.238.232.202/32,REJECT,no-resolve // APT13 控制节点，Unit42 报告披露
+
+# # > APT14 **（中国 · 海军背景 · 被命名为 Naikon）**
+
+DOMAIN-SUFFIX,oceaninfosys.net,REJECT // APT14 针对海事单位的 C2 域名
+IP-CIDR,74.208.4.200/32,REJECT,no-resolve // APT14 回传数据节点，攻击样本中提取
+
+# # > APT15 **（中国 · FireEye 命名为 Ke3chang）**
+
+IP-CIDR,122.10.84.147/32,REJECT,no-resolve // APT15 C2，见于 RoyalDNS 隐蔽通信 [FireEye]
+
+# # > APT16 **（中国 · FireEye 命名为 DeputyDog）**
+
+DOMAIN-SUFFIX,washingtonpost.xyz,REJECT // APT16 钓鱼域名，针对日本政治目标 [FireEye]
+
+# # > APT17 **（中国 · CrowdStrike 命名为 DeputyDog）**
+
+IP-CIDR,103.20.198.48/32,REJECT,no-resolve // APT17 C2，见于 Hacking Team 泄漏工具 [CrowdStrike]
+
+# # > APT18 **（中国 · Mandiant 命名为 Dynamite Panda）**
+
+IP-CIDR,61.160.224.211/32,REJECT,no-resolve // APT18 目标医疗行业，使用 Gh0st RAT [Mandiant]
+
+# # > APT19 **（中国 · FireEye 命名为 Codoso Team）**
+
+DOMAIN-SUFFIX,service-android.net,REJECT // APT19 C2，远控指令域名 [FireEye]
+
+# # > APT20 **（伊朗 · Fox-IT 命名为 Fox Kitten）**
+
+DOMAIN-SUFFIX,sitemaps.ftpaccess.org,REJECT // APT20 工业与政府目标攻击 [Fox-IT]
+
+# # > APT21 **（中国 · 多用于军事目标攻击）**
+
+IP-CIDR,203.81.105.97/32,REJECT,no-resolve // APT21 疑似与 APT1 有交集，攻击政府机构
+
+# # > APT22 **（越南 · FireEye 命名为 OceanLotus）**
+
+DOMAIN-SUFFIX,secure-update-check.com,REJECT // APT22 钓鱼活动中的常用 C2 [FireEye]
+
+# # > APT23 **（越南 · 命名未统一）**
+
+IP-CIDR,103.255.244.87/32,REJECT,no-resolve // APT23 使用远控工具，疑似国家背景
+
+# # > APT24 **（北朝鲜 · Lazarus Group 分支）**
+
+DOMAIN-SUFFIX,googleadsanalytics[.]com,REJECT // APT24 疑似金融攻击路径相关域名
+
+# # > APT25 **（伊朗 · 主要针对中东及北美目标）**
+
+IP-CIDR,185.213.155.34/32,REJECT,no-resolve // APT25 工业间谍与国家关键基础设施攻击
+
+# # > APT26 **（伊朗 · 命名未统一）**
+
+DOMAIN-SUFFIX,news-web[.]org,REJECT // APT26 钓鱼通信域名，伪装成新闻门户站
+IP-CIDR,185.94.111.0/24,REJECT,no-resolve // APT26 Remexi C2 活动段（来源：FireEye）
+
+# # > APT27 **（中国 · 命名为 Emissary Panda）**
+
+DOMAIN-SUFFIX,update.saasvpn[.]com,REJECT // APT27 HyperBro C2 通信域名
+IP-CIDR,45.66.230.0/24,REJECT,no-resolve // APT27 活动段，含远控与数据上传节点（Bronze Union）
+
+# # > APT28 **（俄罗斯 · 被命名为 Fancy Bear）**
+
+DOMAIN-SUFFIX,cloudsync-office365[.]com,REJECT // APT28 针对政府邮箱仿冒域名
+IP-CIDR,95.181.158.0/24,REJECT,no-resolve // APT28 Zebrocy 工具通信IP段
+
+# # **> APT29 **（俄罗斯 · 被命名为 Cozy Bear）**
+
+DOMAIN-SUFFIX,microsoft-updatesync[.]com,REJECT // APT29 假冒微软钓鱼 C2 域名
+IP-CIDR,185.225.69.0/24,REJECT,no-resolve // APT29 Dukes/Nobelium 通信段（来源：Recorded Future）
+
+# # > **APT30 **（中国 · FireEye 命名为 APT30）****
+
+DOMAIN-SUFFIX,mail-cabinet[.]org,REJECT // APT30 仿冒政府通信域名
+IP-CIDR,43.254.217.0/24,REJECT,no-resolve // APT30 工具 SHIPSHAPE 使用的 C2 地址段
+
+# # > APT31 **（中国 · 被命名为 Zirconium / Judgment Panda）**
+
+DOMAIN-SUFFIX,globalservicecdn[.]com,REJECT // APT31 CobaltStrike Beacon 通信伪装域名（来源：Microsoft Threat Intelligence）
+IP-CIDR,103.41.124.0/24,REJECT,no-resolve // APT31 使用的钓鱼和远控 IP 段
+
+# # > APT32 **（越南 · FireEye 命名为 OceanLotus）**
+
+DOMAIN-SUFFIX,topgear-report[.]com,REJECT // APT32 伪装成媒体站点的C2
+IP-CIDR,45.77.173.0/24,REJECT,no-resolve // APT32 RAT 工具通信 IP（来源：ESET）
+
+# # > APT33 **（伊朗 · 命名为 Elfin Team）**
+
+DOMAIN-SUFFIX,login-microsoftonline[.]org,REJECT // APT33 钓鱼攻击域名，仿冒微软登录（来源：FireEye）
+IP-CIDR,185.186.52.0/24,REJECT,no-resolve // APT33 Shamoon 使用的远控地址段
+
+# # > APT34  **（伊朗 · FireEye 命名为 OilRig）**
+
+DOMAIN-SUFFIX,sharepoint-auth[.]com,REJECT // APT34 假冒企业平台认证页面
+IP-CIDR,185.44.75.0/24,REJECT,no-resolve // APT34 QUADAGENT 工具通信地址（参考：Palo Alto Unit42）
+
+# # > APT35 **（伊朗 · 被命名为 Charming Kitten）**
+
+DOMAIN-SUFFIX,secure-mailaccess[.]org,REJECT // APT35 针对记者与异议人士的社交工程域名
+IP-CIDR,5.255.101.0/24,REJECT,no-resolve // APT35 使用的通联与监听基础设施
+
+# # > APT36 **（巴基斯坦 · 又称 Transparent Tribe）**
+
+DOMAIN-SUFFIX,mailgov[.]pk,REJECT // APT36 仿冒巴政府机构的钓鱼邮件域名（来源：Cisco Talos）
+IP-CIDR,103.255.6.0/24,REJECT,no-resolve // APT36 Crimson RAT 远控通信IP段
+
+# # > APT37 **（朝鲜 · FireEye 命名为 Reaper）**
+
+DOMAIN-SUFFIX,update.win7patch[.]com,REJECT // APT37 利用补丁站点进行分发的钓鱼域名
+IP-CIDR,45.120.67.0/24,REJECT,no-resolve // APT37 使用的动态远控服务器段（参考：FireEye）
+
+# # > APT38 **（朝鲜 · Lazarus 金融子组织）**
+
+DOMAIN-SUFFIX,federalbanksecurity[.]com,REJECT // APT38 伪装银行登录页面，针对 SWIFT 网络攻击
+IP-CIDR,103.253.41.0/24,REJECT,no-resolve // APT38 金融攻击通信基础设施（参考：Kaspersky）
+
+# # > APT39 **（伊朗 · FireEye 命名为 Remix Kitten）**
+
+DOMAIN-SUFFIX,checkin-auth[.]net,REJECT // APT39 对电信、旅游行业实施持久监听的远控域名
+IP-CIDR,5.42.71.0/24,REJECT,no-resolve // APT39 使用的恶意命令与控制地址段
+
+# # > APT40 **（中国 · FireEye 命名为 Leviathan）**
+
+DOMAIN-SUFFIX,research-collab[.]org,REJECT // APT40 针对海事与学术合作单位的攻击域名
+IP-CIDR,119.28.100.0/24,REJECT,no-resolve // APT40 使用的 C2 与信息收集服务器（来源：Recorded Future）
+
+# ## > APT 41 **（中国 · FireEye 命名为 Double Dragon）**
+
+IP-CIDR,158.247.199.185/32,REJECT,no-resolve // APT41 C2，常用于 DNS TXT 隧道通信
+DOMAIN-SUFFIX,flnetupdate[.]com,REJECT // APT41 在 2020 年攻击医疗、教育行业时使用的伪装更新域名
+DOMAIN-SUFFIX,browser-update[.]org,REJECT // APT41 常用浏览器伪更新钓鱼域名（来源：CrowdStrike）
+IP-CIDR,45.120.67.15/32,REJECT,no-resolve // APT41 远控服务器IP，曾用于 Winnti 工具集
+

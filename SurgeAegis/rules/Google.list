@@ -1,0 +1,101 @@
+# > Google 服务规则集（Google.list）
+# > 包含 Google 提供的各类核心服务、API、安卓系统服务等
+# > 可用于策略分流（如 Google / PROXY）；Google 广告与追踪域名已另行封锁，未包含在本规则中
+
+# >> 核心服务（Core Services）
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.cn
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,googlecode.com
+DOMAIN-SUFFIX,googlephotos.com
+DOMAIN-SUFFIX,googlemaps.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,googletranslate.cn
+DOMAIN-SUFFIX,googletraveladservices.com
+
+# >> 开发者服务 / API / Cloud（API & Developer Tools）
+DOMAIN-SUFFIX,cloud.google.com
+DOMAIN-SUFFIX,developers.google.com
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,google.dev
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,appengine.google.com
+DOMAIN-SUFFIX,cloudfunctions.net
+DOMAIN-SUFFIX,web.dev
+DOMAIN-SUFFIX,crbug.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,chromestatus.com
+DOMAIN-SUFFIX,gcr.io
+
+# >> Chrome 服务（Chrome Services）
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,chromewebstore.com
+DOMAIN-SUFFIX,chromecast.com
+DOMAIN-SUFFIX,googlechrome.com
+DOMAIN-SUFFIX,chromeexperiments.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,clients2.google.com
+DOMAIN-SUFFIX,clients4.google.com
+DOMAIN-SUFFIX,clients6.google.com
+
+# >> 安卓生态 / FCM / Play 服务（Android & Play Services）
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,androidify.com
+DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,play.googleapis.com
+DOMAIN-SUFFIX,play-lh.googleusercontent.com
+DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
+DOMAIN-SUFFIX,firebase-settings.crashlytics.com
+DOMAIN-SUFFIX,messages.google.com
+DOMAIN-SUFFIX,mobileapptracking.com
+DOMAIN-SUFFIX,mtalk.google.com
+DOMAIN-SUFFIX,fcm.googleapis.com
+
+# >> YouTube 服务（YouTube Services）
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,yt3.ggpht.com
+DOMAIN-SUFFIX,googlevideo.com
+
+# >> 教育与办公服务（G Suite / Workspace）
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,sheets.google.com
+DOMAIN-SUFFIX,slides.google.com
+DOMAIN-SUFFIX,forms.google.com
+DOMAIN-SUFFIX,classroom.google.com
+DOMAIN-SUFFIX,meet.google.com
+DOMAIN-SUFFIX,chat.google.com
+DOMAIN-SUFFIX,calendar.google.com
+DOMAIN-SUFFIX,keep.google.com
+
+# >> 其他服务与项目（Miscellaneous）
+DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,waymo.com
+DOMAIN-SUFFIX,nest.com
+DOMAIN-SUFFIX,waze.com
+DOMAIN-SUFFIX,research.google
+DOMAIN-SUFFIX,thinkwithgoogle.com
+DOMAIN-SUFFIX,googleartproject.com
+DOMAIN-SUFFIX,googlefonts.cn
+DOMAIN-SUFFIX,googlefonts.com
+DOMAIN-SUFFIX,font.gstatic.com
+DOMAIN-SUFFIX,fonts.googleapis.cn
+DOMAIN-SUFFIX,fonts.googleapis.com
+DOMAIN-SUFFIX,domains.google
+DOMAIN-SUFFIX,googledomains.com

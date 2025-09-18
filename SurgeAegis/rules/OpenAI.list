@@ -1,0 +1,40 @@
+# > 智能助理服务规则集（AI_Services_cleaned.list）
+# > 规则说明：用于识别主流 AI 助理类服务域名，并统一分流至代理策略（如 AI / PROXY 等）
+# > 建议：绑定至 Surge 策略组 AI 或 PROXY
+
+# > OpenAI Chat 系列
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,api.openai.com
+DOMAIN-SUFFIX,cdn.openai.com
+DOMAIN-SUFFIX,platform.openai.com
+
+# > Claude（Anthropic）
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,api.anthropic.com
+DOMAIN-SUFFIX,anthropic.com
+
+# > Gemini / Bard（Google AI）
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,generative language.googleapis.com
+
+# > Copilot 系列（Microsoft）
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,copilot.office.com
+DOMAIN-SUFFIX,copilot.bing.com
+DOMAIN-SUFFIX,services.bingapis.com
+
+# > Perplexity AI
+DOMAIN-SUFFIX,perplexity.ai
+
+# > HuggingFace
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,inference-api.com
+
+# > Poe（Quora）
+DOMAIN-SUFFIX,poe.com
+
+# > Mistral AI
+DOMAIN-SUFFIX,mistral.ai

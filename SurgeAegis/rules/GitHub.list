@@ -1,0 +1,33 @@
+# > GitHub 平台相关服务域名与 IP（建议 DIRECT 或 PROXY，根据访问稳定性选择）
+
+# >> GitHub 主站与基础服务
+DOMAIN-SUFFIX,github.com // GitHub 主站（代码托管/仓库浏览）
+DOMAIN-SUFFIX,githubusercontent.com // GitHub 用户内容、原始文件托管
+DOMAIN-SUFFIX,githubapp.com // GitHub App 服务相关域名
+DOMAIN-SUFFIX,githubassets.com // GitHub 静态资源加载，如 CSS/JS
+
+# >> GitHub API 接口（CLI、Git操作、Webhook、REST/GraphQL）
+DOMAIN-SUFFIX,api.github.com // GitHub API 接口主域（REST/GraphQL）
+DOMAIN-SUFFIX,codeload.github.com // GitHub 文件下载/打包服务
+DOMAIN-SUFFIX,nodeload.github.com // GitHub NodeJS 相关包下载服务
+DOMAIN-KEYWORD,raw.githubusercontent.com // GitHub 原始文件（如 hosts、规则等）
+DOMAIN-KEYWORD,avatars.githubusercontent.com // GitHub 用户头像加载
+
+# >> GitHub Actions 相关服务（Runner下载等）
+DOMAIN-SUFFIX,actions.githubusercontent.com // GitHub Actions 执行服务
+DOMAIN-SUFFIX,ghcr.io // GitHub Container Registry（Docker 镜像）
+DOMAIN-SUFFIX,github.cloud.capriza.com // GitHub 企业服务 API 接入（部分）
+
+# >> GitHub Pages 与静态站点托管
+DOMAIN-SUFFIX,github.io // GitHub Pages 静态站点托管域名（可设 CDN 缓存）
+
+# >> GitHub CDN 加速服务（如 fastly / jsdelivr 等第三方，非强依赖）
+DOMAIN-SUFFIX,github.global.ssl.fastly.net // GitHub 静态 CDN（Fastly）
+DOMAIN-SUFFIX,jsdelivr.net // jsDelivr CDN（GitHub、npm等联合加速）
+
+# >> GitHub 可能使用的 IP 段（可选，动态变化频繁，不建议静态封锁）
+IP-ASN,36459 // GitHub ASN（AS36459 - GitHub, Inc.）
+
+# >> 备注说明
+# 建议将此模块绑定至策略组 `GitHub / PROXY` 或 `GitHub / DIRECT`
+# 若出现 clone 拉取失败 / Actions 运行异常，请优先排查此规则模块
