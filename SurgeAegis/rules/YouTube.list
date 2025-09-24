@@ -7,3 +7,13 @@ DOMAIN-SUFFIX,youtu.be // YouTube 短链
 DOMAIN-SUFFIX,ytimg.com // YouTube 静态资源
 DOMAIN-SUFFIX,yt3.ggpht.com // YouTube 用户头像资源
 DOMAIN-SUFFIX,googlevideo.com // YouTube 视频流服务
+DOMAIN-SUFFIX,findyoutube.com // 第三方 YouTube 查找服务
+DOMAIN-SUFFIX,findyoutube.net // 第三方 YouTube 查找服务
+DOMAIN-SUFFIX,freeyoutubeproxy.net // 第三方 YouTube 代理服务
+DOMAIN-SUFFIX,listentoyoutube.com // YouTube 音频转换服务
+DOMAIN-SUFFIX,withyoutube.com // 第三方 YouTube 工具集成
+DOMAIN-SUFFIX,youtube-nocookie.com // YouTube 隐私增强域（嵌入视频无Cookie）
+DOMAIN-SUFFIX,youtubecn.com // YouTube 中国镜像域（非官方）
+DOMAIN-SUFFIX,youtubeeducation.com // YouTube 教育平台
+DOMAIN-SUFFIX,youtubegaming.com // YouTube 游戏专属平台
+DOMAIN-SUFFIX,youtubekids.com // YouTube 儿童内容平台
