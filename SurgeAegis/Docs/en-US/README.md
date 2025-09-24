@@ -89,7 +89,7 @@ This project is inspired by many outstanding community contributions. Key refere
 - **Rule Scripts**: [@Nebulosa-Cat](https://github.com/Nebulosa-Cat), [@NobyDa](https://github.com/NobyDa), [@LucaLin233](https://github.com/LucaLin233), [@Hyseen](https://github.com/Hyseen), [@congcong0806](https://github.com/congcong0806), [@fishingworld](https://github.com/fishingworld), [@mieqq](https://github.com/mieqq), [@TributePaulWalker](https://github.com/TributePaulWalker)
 - **Routing / Rewrite Rules**: [@blackmatrix7](https://github.com/blackmatrix7)
 - **Apple Unlock Rules**: [@VirgilClyne](https://github.com/VirgilClyne)
-- **Pegasus IOC**: [@Amnesty International](https://amnesty.org/) for Pegasus C2 blocklist sources
+- **Pegasus IOC**: [@AmnestyTech](https://github.com/AmnestyTech)  for Pegasus C2 blocklist sources
 
 If your work was not properly credited, please contact me. I’ll update the acknowledgements promptly.
 
