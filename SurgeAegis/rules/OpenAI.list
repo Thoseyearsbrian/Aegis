@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,cdn.openai.com
 DOMAIN-SUFFIX,platform.openai.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,ios.chat.openai.com
+DOMAIN-SUFFIX,ab.chatgpt.com
 
 # > Claude（Anthropic）
 DOMAIN-SUFFIX,claude.ai
