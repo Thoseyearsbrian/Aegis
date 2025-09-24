@@ -33,8 +33,8 @@ Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最
 
 |     文件名称     |                           链接地址                           | 示例用途                  | 项目进度 |
 | :--------------: | :----------------------------------------------------------: | ------------------------- | :------: |
-| SurgeAegis（CN） | https://raw.githubusercontent.com/Thoseyearsbrian/SurgeAegis/config/Spec/SurgeAegis_CN.conf | Surge个人防火墙配置       |  已完成  |
-| SurgeAegis（EN） | https://raw.githubusercontent.com/Thoseyearsbrian/SurgeAegis/config/Spec/SurgeAegis_EN.conf | Surge个人防火墙配置       |  已完成  |
+| SurgeAegis（CN） | https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_CN.conf | Surge个人防火墙配置       |  已完成  |
+| SurgeAegis（EN） | https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_EN.conf | Surge个人防火墙配置       |  已完成  |
 |    ClashAegis    | | Clash个人防火墙配置       |  开发中  |
 | QuantumultAegis  | | QuantumultX个人防火墙配置 |  开发中  |
 |   RouterAegis    | | Router个人防火墙配置      |  开发中  |
