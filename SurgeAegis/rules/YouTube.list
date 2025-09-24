@@ -1,7 +1,7 @@
 # > YouTube 平台域名
 # > 用于识别 YouTube 视频平台及其相关服务
 
-# >> YouTube / Google 视频服务
+# >> YouTube 服务（YouTube Services）
 DOMAIN-SUFFIX,youtube.com // YouTube 主站
 DOMAIN-SUFFIX,youtu.be // YouTube 短链
 DOMAIN-SUFFIX,ytimg.com // YouTube 静态资源

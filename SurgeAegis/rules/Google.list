@@ -63,13 +63,6 @@ DOMAIN-SUFFIX,mobileapptracking.com
 DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,fcm.googleapis.com
 
-# >> YouTube 服务（YouTube Services）
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,yt3.ggpht.com
-DOMAIN-SUFFIX,googlevideo.com
-
 # >> 教育与办公服务（G Suite / Workspace）
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googledrive.com
