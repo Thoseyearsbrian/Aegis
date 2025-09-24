@@ -59,6 +59,8 @@ DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,icloud.com.cn // 中国大陆区 iCloud 接入服务（云上贵州 · cloudd）
+PROCESS-NAME,cloudd // 中国大陆区 iCloud 接入服务（云上贵州 · cloudd）
 
 # > 推送通知 / iMessage / 时间同步（系统服务）
 DOMAIN-SUFFIX,push.apple.com
