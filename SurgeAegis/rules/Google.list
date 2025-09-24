@@ -1,6 +1,6 @@
 # > Google 服务规则集（Google.list）
 # > 包含 Google 提供的各类核心服务、API、安卓系统服务等
-# > 可用于策略分流（如 Google / PROXY）；Google 广告与追踪域名已另行封锁，未包含在本规则中
+# > 可用于策略分流（如 Google / PROXY）；Google 广告与追踪域名、Youtube已另行封锁，未包含在本规则中
 
 # >> 核心服务（Core Services）
 DOMAIN-SUFFIX,google.com

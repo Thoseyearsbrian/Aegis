@@ -2,25 +2,6 @@
 # > 包含美、欧、日韩、东南亚等主流流媒体平台，可用于策略分流（如 MEDIA_INTL / PROXY）
 # > 注意：YouTube / Google 、Netflix、Disney+视频服务相关域名不在本规则集中，已归类至 Google.list、Netflix.list、DisneyPlus.list 中独立管理
 
-# >> YouTube / Google 视频服务
-DOMAIN-SUFFIX,youtube.com // YouTube 视频平台（全球）
-DOMAIN-SUFFIX,youtu.be // YouTube 短链接跳转
-DOMAIN-SUFFIX,ytimg.com // YouTube 静态资源
-DOMAIN-SUFFIX,googlevideo.com // YouTube 视频流媒体服务
-
-# >> Netflix
-DOMAIN-SUFFIX,netflix.com // Netflix 全球官网与服务
-DOMAIN-SUFFIX,netflix.net // Netflix 全球视频流与 API
-DOMAIN-SUFFIX,nflximg.net // Netflix 静态资源
-DOMAIN-SUFFIX,nflxso.net // Netflix CDN 服务
-DOMAIN-SUFFIX,nflxvideo.net // Netflix 视频流分发服务
-
-# >> Disney+
-DOMAIN-SUFFIX,disneyplus.com // Disney+ 全球视频服务
-DOMAIN-SUFFIX,disney.demdex.net // Disney+ 第三方验证服务
-DOMAIN-SUFFIX,bamgrid.com // Disney+ API 平台
-DOMAIN-SUFFIX,bam.nr-data.net // Disney+ 数据分析平台
-
 # >> Amazon Prime Video
 DOMAIN-SUFFIX,primevideo.com // 亚马逊 Prime Video
 DOMAIN-SUFFIX,primevideo.cc // 亚马逊 Prime 备用域名
