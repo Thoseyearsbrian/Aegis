@@ -81,3 +81,16 @@ DOMAIN-SUFFIX,microsoftstore.com // Microsoft 官方商店
 DOMAIN-SUFFIX,msappproxy.net // 微软应用代理服务
 DOMAIN-SUFFIX,windows.net // 微软通用服务域名
 DOMAIN-SUFFIX,akadns.net // 微软全球 CDN 网络域
+
+# > Microsoft VS Code 主程序与资源服务
+DOMAIN,update.code.visualstudio.com
+DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN-SUFFIX,visualstudio.com
+
+# > 遥测上传服务（Telemetry / 统计分析）
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN,default.exp-tas.com
+DOMAIN,mobile.events.data.microsoft.com
+
+# > 头像服务（可选放行）
+DOMAIN,gravatar.com
