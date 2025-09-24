@@ -71,9 +71,12 @@ DOMAIN-SUFFIX,configuration.apple.com
 DOMAIN-SUFFIX,init-p01md.apple.com
 DOMAIN-SUFFIX,guzzoni.apple.com
 
-# > Apple Maps 与 JS 服务（地图定位）
+# > Apple Maps 、Apple 定位服务与 JS 服务（地图定位）
 DOMAIN-SUFFIX,mapkitjs.apple.com
 DOMAIN-SUFFIX,cdn-apple-mapkit.com
+DOMAIN,gspe1-ssl.ls.apple.com,DIRECT
+DOMAIN,gspe1-ssl.apple.com,DIRECT
+PROCESS-NAME,com.apple.geod,DIRECT
 
 # > 辅助与匿名域名（可能存在误判，但系统常用）
 DOMAIN,edge.apple
