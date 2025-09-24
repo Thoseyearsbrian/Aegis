@@ -76,7 +76,22 @@ DOMAIN-SUFFIX,mapkitjs.apple.com
 DOMAIN-SUFFIX,cdn-apple-mapkit.com
 DOMAIN,gspe1-ssl.ls.apple.com,DIRECT
 DOMAIN,gspe1-ssl.apple.com,DIRECT
-PROCESS-NAME,com.apple.geod,DIRECT
+DOMAIN-SUFFIX,gs-loc-cn.apple.com // 定位服务（locationd · 中国节点）
+DOMAIN-SUFFIX,gs-loc.apple.com // 备用全球定位服务
+
+# > 系统更新与描述文件（macOS Software Update Services）
+DOMAIN,swdist.apple.com
+DOMAIN,swscan.apple.com
+
+# > 实时通信遥测上报（FaceTime / iMessage / Handoff 统计）
+# - 由 rtcreportingd 进程调用，用于报告 RTC 网络质量
+DOMAIN,pancake.apple.com
+PROCESS-NAME,rtcreportingd
+
+# > 时间同步服务（NTP）
+# - 由 timed 进程调用，用于系统时间同步
+DOMAIN,time.apple.com
+PROCESS-NAME,timed
 
 # > 辅助与匿名域名（可能存在误判，但系统常用）
 DOMAIN,edge.apple
