@@ -17,3 +17,6 @@ DOMAIN-SUFFIX,youtubecn.com // YouTube 中国镜像域（非官方）
 DOMAIN-SUFFIX,youtubeeducation.com // YouTube 教育平台
 DOMAIN-SUFFIX,youtubegaming.com // YouTube 游戏专属平台
 DOMAIN-SUFFIX,youtubekids.com // YouTube 儿童内容平台
+DOMAIN-SUFFIX,ggpht.com // YouTube / Google 服务的头像、封面与缩略图资源
+DOMAIN-SUFFIX,gstatic.com // Google 静态资源域名，含字体、JS、缓存图标等
+DOMAIN-SUFFIX,googleusercontent.com // Google/YouTube 的 CDN 内容分发与图片加载域（含 yt3、play-lh 等子域）
