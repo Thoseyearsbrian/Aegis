@@ -60,7 +60,7 @@ Surge最低支持版本 :
 
 **适合 Surge 5 卡片视图**
 
-> **完整版（英文）:** [点击下载](https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_EN.conf)  
+> **完整版（英文）:** [点击下载](https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_EN.conf) 
 
 > **完整版（中文）:** [点击下载](https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_CN.conf)
 
