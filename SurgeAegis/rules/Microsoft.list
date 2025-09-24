@@ -3,7 +3,7 @@
 # > 建议绑定策略组 Microsoft / PROXY 或 Microsoft / DIRECT，根据使用场景配置，Xbox归GamePlatforms
 # > 注意：Xbox 游戏相关域名不在本规则集中，已归类至 GamePlatforms.list 独立管理
 
-# >> 核心服务（Core Services）
+# > 核心服务（Core Services）
 DOMAIN-SUFFIX,microsoft.com // 微软主域名
 DOMAIN-SUFFIX,windows.com // Windows 系统相关服务
 DOMAIN-SUFFIX,msn.com // MSN 服务平台
@@ -12,7 +12,7 @@ DOMAIN-SUFFIX,outlook.com // Outlook 邮箱服务
 DOMAIN-SUFFIX,hotmail.com // Hotmail 邮箱服务
 DOMAIN-SUFFIX,office.com // Office 官方网站
 
-# >> Azure 云服务（Azure Cloud）
+# > Azure 云服务（Azure Cloud）
 DOMAIN-SUFFIX,azure.com // Microsoft Azure 云平台
 DOMAIN-SUFFIX,azureedge.net // Azure CDN 辅助域名
 DOMAIN-SUFFIX,azurefd.net // Azure Front Door 服务
@@ -23,7 +23,7 @@ DOMAIN-SUFFIX,visualstudio.com // Visual Studio 在线服务
 DOMAIN-SUFFIX,windowsazure.com // Windows Azure 旧版域名
 DOMAIN-SUFFIX,skypeassets.com // Skype 静态资源（Azure 托管）
 
-# >> Office 365 / Microsoft 365 服务
+# > Office 365 / Microsoft 365 服务
 DOMAIN-SUFFIX,office365.com // Office 365 官方入口
 DOMAIN-SUFFIX,office.net // Office365 服务域名
 DOMAIN-SUFFIX,sharepoint.com // SharePoint 协作平台
@@ -31,40 +31,40 @@ DOMAIN-SUFFIX,onenote.com // Microsoft OneNote 服务
 DOMAIN-SUFFIX,sway.com // Microsoft Sway 在线演示工具
 DOMAIN-SUFFIX,yammer.com // Microsoft Yammer 企业社交
 
-# >> OneDrive 云存储服务
+# > OneDrive 云存储服务
 DOMAIN-SUFFIX,onedrive.com // 微软云存储服务 OneDrive
 DOMAIN-SUFFIX,1drv.com // OneDrive 缩短域名
 DOMAIN-SUFFIX,storage.live.com // OneDrive 文件托管服务
 
-# >> Microsoft Teams
+# > Microsoft Teams
 DOMAIN-SUFFIX,teams.microsoft.com // Microsoft Teams 协作平台
 DOMAIN-SUFFIX,skypeforbusiness.com // Skype for Business 旧版 Teams 接入
 DOMAIN-SUFFIX,lync.com // Lync 企业通信（Teams 前身）
 
-# >> Skype 通讯服务
+# > Skype 通讯服务
 DOMAIN-SUFFIX,skype.com // Skype 主服务域名
 DOMAIN-SUFFIX,skypeassets.com // Skype 静态资源
 DOMAIN-SUFFIX,skypeforbusiness.com // Skype 企业版本（已并入 Teams）
 
-# >> Microsoft Edge 浏览器服务
+# > Microsoft Edge 浏览器服务
 DOMAIN-SUFFIX,edge.microsoft.com // Edge 浏览器服务域名
 DOMAIN-SUFFIX,edgeservices.bing.com // Edge 内置搜索服务
 DOMAIN-SUFFIX,msedge.net // Edge 更新与辅助资源
 
-# >> Bing 搜索服务
+# > Bing 搜索服务
 DOMAIN-SUFFIX,bing.com // 微软 Bing 搜索引擎
 DOMAIN-SUFFIX,bing.net // Bing CDN 与辅助资源
 DOMAIN-SUFFIX,api.bing.com // Bing 搜索 API 接口
 DOMAIN-SUFFIX,cdn.bing.com // Bing 静态资源
 
-# >> Windows 更新与激活服务
+# > Windows 更新与激活服务
 DOMAIN-SUFFIX,windowsupdate.com // Windows 更新服务
 DOMAIN-SUFFIX,update.microsoft.com // 微软更新中心
 DOMAIN-SUFFIX,msftconnecttest.com // Windows 网络连接测试域
 DOMAIN-SUFFIX,msftncsi.com // Windows 网络状态检测服务
 DOMAIN-SUFFIX,windowsupdate.microsoft.com // 旧版更新服务
 
-# >> 开发者 / 技术支持 / 文档（Developers & Docs）
+# > 开发者 / 技术支持 / 文档（Developers & Docs）
 DOMAIN-SUFFIX,dev.microsoft.com // 微软开发者中心
 DOMAIN-SUFFIX,learn.microsoft.com // Microsoft Learn 学习平台
 DOMAIN-SUFFIX,docs.microsoft.com // 微软官方文档中心
@@ -74,7 +74,7 @@ DOMAIN-SUFFIX,visualstudio.com // Visual Studio 开发平台
 DOMAIN-SUFFIX,nuget.org // 微软开源包管理器 NuGet
 DOMAIN-SUFFIX,codeplex.com // 旧版微软开源项目托管平台
 
-# >> 其他服务（Miscellaneous）
+# > 其他服务（Miscellaneous）
 DOMAIN-SUFFIX,microsoftonline.com // 微软在线认证服务
 DOMAIN-SUFFIX,microsoftonline-p.com // 微软用户账号域
 DOMAIN-SUFFIX,microsoftstore.com // Microsoft 官方商店
@@ -82,7 +82,7 @@ DOMAIN-SUFFIX,msappproxy.net // 微软应用代理服务
 DOMAIN-SUFFIX,windows.net // 微软通用服务域名
 DOMAIN-SUFFIX,akadns.net // 微软全球 CDN 网络域
 
-# > Microsoft VS Code 主程序与资源服务
+# > Microsoft Visual Studio Code 主程序与资源服务
 DOMAIN,update.code.visualstudio.com
 DOMAIN-SUFFIX,vscode-cdn.net
 DOMAIN-SUFFIX,visualstudio.com
