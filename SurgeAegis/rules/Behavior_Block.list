@@ -21,3 +21,5 @@ DOMAIN-SUFFIX,firebase-settings.crashlytics.com // Crashlytics 崩溃报告配�
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com // Crashlytics 崩溃数据主动上传接口
 DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com // Firebase 日志收集与上报服务
 DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com // Firebase 动态链接服务，常用于分享跳转追踪
+DOMAIN,mobile.events.data.microsoft.com // VS Code / Windows / Office 遥测上传行为
+DOMAIN,default.exp-tas.com // 实验分流平台，可能进行 A/B 测试配置注入

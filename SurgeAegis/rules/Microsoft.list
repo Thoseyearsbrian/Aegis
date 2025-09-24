@@ -1,6 +1,6 @@
 # > 微软服务规则集（Microsoft.list）
 # > 包含 Microsoft 提供的各类核心服务、Office 365、OneDrive、Teams、Skype等
-# > 建议绑定策略组 Microsoft / PROXY 或 Microsoft / DIRECT，根据使用场景配置，Xbox归GamePlatforms
+# > 建议绑定策略组 Microsoft / PROXY 或 Microsoft / DIRECT
 # > 注意：Xbox 游戏相关域名不在本规则集中，已归类至 GamePlatforms.list 独立管理
 
 # > 核心服务（Core Services）
@@ -78,6 +78,7 @@ DOMAIN-SUFFIX,codeplex.com // 旧版微软开源项目托管平台
 DOMAIN-SUFFIX,microsoftonline.com // 微软在线认证服务
 DOMAIN-SUFFIX,microsoftonline-p.com // 微软用户账号域
 DOMAIN-SUFFIX,microsoftstore.com // Microsoft 官方商店
+DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,msappproxy.net // 微软应用代理服务
 DOMAIN-SUFFIX,windows.net // 微软通用服务域名
 DOMAIN-SUFFIX,akadns.net // 微软全球 CDN 网络域
@@ -86,11 +87,6 @@ DOMAIN-SUFFIX,akadns.net // 微软全球 CDN 网络域
 DOMAIN,update.code.visualstudio.com
 DOMAIN-SUFFIX,vscode-cdn.net
 DOMAIN-SUFFIX,visualstudio.com
-
-# > 遥测上传服务（Telemetry / 统计分析）
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN,default.exp-tas.com
-DOMAIN,mobile.events.data.microsoft.com
 
 # > 头像服务（可选放行）
 DOMAIN,gravatar.com

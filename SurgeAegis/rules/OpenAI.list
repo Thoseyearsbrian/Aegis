@@ -8,6 +8,8 @@ DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,api.openai.com
 DOMAIN-SUFFIX,cdn.openai.com
 DOMAIN-SUFFIX,platform.openai.com
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
+DOMAIN-SUFFIX,oaiusercontent.com
 
 # > Claude（Anthropic）
 DOMAIN-SUFFIX,claude.ai
