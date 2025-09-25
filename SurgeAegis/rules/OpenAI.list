@@ -3,16 +3,20 @@
 # > 建议：绑定至 Surge 策略组 AI 或 PROXY
 
 # > OpenAI Chat 系列
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,chat.openai.com
-DOMAIN-SUFFIX,api.openai.com
-DOMAIN-SUFFIX,cdn.openai.com
-DOMAIN-SUFFIX,platform.openai.com
-DOMAIN-SUFFIX,browser-intake-datadoghq.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,ios.chat.openai.com
-DOMAIN-SUFFIX,ab.chatgpt.com
+DOMAIN-SUFFIX,openai.com               // OpenAI 主站域名
+DOMAIN-SUFFIX,chat.openai.com          // ChatGPT 网页端
+DOMAIN-SUFFIX,api.openai.com           // OpenAI API 接口
+DOMAIN-SUFFIX,cdn.openai.com           // 静态资源 CDN
+DOMAIN-SUFFIX,platform.openai.com      // OpenAI 开发者平台
+DOMAIN-SUFFIX,chatgpt.com              // ChatGPT 主域
+DOMAIN-SUFFIX,ios.chat.openai.com      // iOS 客户端专用域名
+DOMAIN-SUFFIX,android.chat.openai.com  // Android 客户端专用域名
+DOMAIN-SUFFIX,ws.chatgpt.com           // ChatGPT WebSocket 通道
+DOMAIN,ab.chatgpt.com                  // ChatGPT A/B 实验流量
+DOMAIN-SUFFIX,oaiusercontent.com       // OpenAI 输出内容（图片/文件等）
+DOMAIN-SUFFIX,oaistatic.com            // OpenAI 静态资源域
+DOMAIN-SUFFIX,persistent.oaistatic.com // OpenAI 持久化静态资源
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net // Azure Edge CDN 分发
 
 # > Claude（Anthropic）
 DOMAIN-SUFFIX,claude.ai

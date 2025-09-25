@@ -10,7 +10,6 @@ IP-CIDR,220.181.0.0/16 // DNS 跳转/注入广告内容
 IP-CIDR,111.206.0.0/16 // 响应注入异常段，含链路监控行为
 IP-CIDR,101.6.6.3/32 // 教育网跳转节点
 IP-CIDR,202.106.0.0/16 // DNS 污染记录，存在非标准返回
-IP-CIDR,27.221.0.0/16 // Portal 认证重定向网段，DNS/HTTP异常
 IP-CIDR,203.86.0.0/16 // 教育网/政务出口，曾出现 HTTP 302 插入
 IP-CIDR,61.139.2.69/32 // 四川电信经典 DNS 污染返回 IP（毒池）
 IP-CIDR,202.96.128.166/32 // 广东电信 DNS fallback 回退地址
@@ -30,3 +29,8 @@ DOMAIN-SUFFIX,6pzftj.com // 可疑机场节点主域名，存在潜在代理控�
 IP-CIDR,183.60.123.112/32 // 广东电信疑似投毒/回传节点，建议封锁
 DOMAIN-SUFFIX,snapkit.com // Snap 公司旗下数据收集 SDK，常嵌入第三方 App
 IP-CIDR,104.244.76.13/32 // Tor 出口节点，PONYNET ASN，社区评分极差
+DOMAIN-SUFFIX,browser-intake-datadoghq.com // Datadog 浏览器监控
+DOMAIN-SUFFIX,o33249.ingest.us.sentry.io // Sentry 错误监控上报
+DOMAIN-SUFFIX,statsig.com // GPT功能开关与实验控制
+DOMAIN-SUFFIX,intercom.io // GPT客服系统，仅影响客服系统，不影响核心功能。
+DOMAIN-SUFFIX,intercomcdn.com // GPT客服系统静态资源，仅影响客服系统，不影响核心功能。
