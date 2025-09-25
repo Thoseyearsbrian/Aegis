@@ -34,3 +34,4 @@ DOMAIN-SUFFIX,o33249.ingest.us.sentry.io // Sentry 错误监控上报
 DOMAIN-SUFFIX,statsig.com // GPT功能开关与实验控制
 DOMAIN-SUFFIX,intercom.io // GPT客服系统，仅影响客服系统，不影响核心功能。
 DOMAIN-SUFFIX,intercomcdn.com // GPT客服系统静态资源，仅影响客服系统，不影响核心功能。
+DOMAIN-SUFFIX,radarsubmissions.apple.com  // Apple Radar 缺陷报告提交接口，仅用于开发者反馈，不影响系统核心功能，建议拦截
