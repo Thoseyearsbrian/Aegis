@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,akadns.net
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
 DOMAIN-SUFFIX,apple-com.akamaized.net
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com // Apple iCloud Private Relay 中继节点（Fastly 提供），拦截将导致私密中继不可用
 
 # > 开发者相关
 DOMAIN-SUFFIX,developer.apple.com
