@@ -7,6 +7,8 @@ A high-performance, cross-platform rule repository focused on network-layer defe
 
 本项目全面采用加密 DNS，强制拒绝明文请求，强调通信加密、安全可控与流量透明。即便在如 iPhone 等缺乏传统安全软件支持的设备上，亦可提供流量层级的有效防护。
 
+此外，Aegis 还额外提供一个可选启用的高级模块 —— CA_Block.list，用于拦截全球范围内存在安全争议或曾被公开吊销的 CA 根证书、OCSP 接口与吊销列表（CRL）域名。该模块适用于有更高数字信任要求的用户，可进一步减少中间人攻击与恶意证书链的潜在风险。
+
 ## 项目优势
 
 Aegis 规则集致力于识别与拦截以下高风险通信行为：
@@ -16,6 +18,7 @@ Aegis 规则集致力于识别与拦截以下高风险通信行为：
 - DNS 污染 / 劫持 / 注入行为
 - 僵尸网络、远控后门与恶意控制器
 - 广告追踪、行为监控与监听型 CDN节点
+- 可选启用高级模块 CA_Block.list，屏蔽高风险 CA 根证书验证行为，强化中间人攻击防御能力
 
 Aegis 支持主流平台如 **Surge、Clash、QuantumultX、OpenWrt**，兼容 iOS、macOS、Windows、Android 等多系统环境，具备良好的可读性、可审计性与模块化部署能力，适用于策略分流、防火墙辅助配置等多种应用场景。
 
