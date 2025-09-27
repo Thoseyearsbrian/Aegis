@@ -142,6 +142,8 @@ SurgeAegis（EN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/mai
 - **不得删除或隐藏源代码注释与协议声明**；
 - **不滥用规则集用于闭源或侵犯公共利益的行为。**
 
+此外，Aegis 项目已启用 GPG 签名（Git Commit Signing）机制，以确保项目代码来源真实可信、未被篡改。你可通过 GPG 签名验证每一次提交操作的完整性，从而获得更高的安全保障。
+
 建议您基于本项目结构进行维护与扩展，以避免重复开发，节省时间成本，同时获得后续更新与安全优化支持。
 
 ## 🙌  社区支持
