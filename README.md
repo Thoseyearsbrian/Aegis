@@ -82,11 +82,11 @@ SurgeAegis（EN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/mai
 
 为满足个人网络安全防护需求，本项目在既有规则基础上进行了深度定制与安全优化。为保障项目的完整性、安全性与长期可用性，所有使用的素材与规则均通过本仓库自托管，避免因依赖第三方源而引发的更新失效或信任风险。
 
-## **核心框架参考（Project Foundation）**
+### **核心框架参考（Project Foundation）**
 
 [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 项目整体架构与规则逻辑的主要参考来源，当前版本在此基础上进行了深度重构与安全适配。
 
-## 脚本 / 规则**来源参考**（Script / Rule References）
+### 脚本 / 规则**来源参考**（Script / Rule References）
 
 [@Nebulosa-Cat](https://github.com/Nebulosa-Cat)
 
@@ -104,15 +104,15 @@ SurgeAegis（EN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/mai
 
 [@TributePaulWalker](https://github.com/TributePaulWalker)
 
-## **分流/重写规则维护参考（Routing / Rewrite）**
+### **分流/重写规则维护参考（Routing / Rewrite）**
 
 - [@blackmatrix7](https://github.com/blackmatrix7) 👉  其高质量规则集为部分条目构建与优化提供了参考基础。
 
-## **Apple 服务完整性维护（Apple Service Unlock）**
+### **Apple 服务完整性维护（Apple Service Unlock）**
 
 - [@VirgilClyne](https://github.com/VirgilClyne) 👉  针对 Apple 服务的解锁与规则适配部分提供了重要思路。
 
-## Pegasus 间谍软件 IOC 来源（Pegasus Blocklist）
+### Pegasus 间谍软件 IOC 来源（Pegasus Blocklist）
 
 - [@AmnestyTech](https://github.com/AmnestyTech) 👉  提供 Pegasus 相关 IOC 数据，作为规则构建的重要信息源。
 
