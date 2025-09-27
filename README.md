@@ -38,8 +38,8 @@ Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最
 
 ## 配置链接
 
-SurgeAegis（CN） ：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_CN.conf
-SurgeAegis（EN） ：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_EN.conf
+SurgeAegis（CN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_CN.conf  
+SurgeAegis（EN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_EN.conf  
 
 ## 配置方式
 
