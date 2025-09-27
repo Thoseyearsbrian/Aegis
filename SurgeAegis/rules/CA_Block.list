@@ -1,0 +1,188 @@
+# » CA 信任封锁总模块（CA_Block.list）
+# 高级用户可启用以下 CA 拒信规则，防范伪造证书链 / 国家级监听根证书等隐性风险
+# 包含：以色列 CA、WoSign、中国 CNNIC、俄罗斯等高风险 CA 验证接口封锁
+
+# > Trustwave CA（美国，曾提供监听型中间证书）
+DOMAIN-SUFFIX,trustwave.com,REJECT,no-resolve // Trustwave 主站
+DOMAIN,ocsp.trustwave.com,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.trustwave.com,REJECT,no-resolve // 吊销列表接口
+
+# > Entrust（美国，合规问题曾被质疑）
+DOMAIN-SUFFIX,entrust.net,REJECT,no-resolve // Entrust 主站
+DOMAIN,ocsp.entrust.net,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.entrust.net,REJECT,no-resolve // 吊销列表接口
+
+# > StartCom（原以色列，已被WoSign收购）
+DOMAIN-SUFFIX,startssl.com,REJECT,no-resolve // StartCom 旧主域
+DOMAIN,ocsp.startssl.com,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.startssl.com,REJECT,no-resolve  // 吊销列表接口
+
+# > ComSign CA（以色列 ComSign Ltd.）
+DOMAIN-SUFFIX,comsign.co.il,REJECT,no-resolve // 主站
+DOMAIN,ocsp.comsign.co.il,REJECT,no-resolve // OCSP 验证
+DOMAIN,crl.comsign.co.il,REJECT,no-resolve // 吊销列表
+DOMAIN,secure.comsign.co.il,REJECT,no-resolve // 管理服务接口
+
+# > Comda Ltd.（以色列）
+DOMAIN-SUFFIX,comda.co.il,REJECT,no-resolve // 主站
+DOMAIN,ocsp.comda.co.il,REJECT,no-resolve // OCSP 接口
+DOMAIN,crl.comda.co.il,REJECT,no-resolve // 吊销列表
+
+# > Israel PKI（以色列国家根 CA）
+DOMAIN-SUFFIX,gov.il,REJECT,no-resolve // 国家级服务根域（酌情拦截，风险较大）
+DOMAIN,pki.gov.il,REJECT,no-resolve // 国家根证书站点
+DOMAIN,ocsp.pki.gov.il,REJECT,no-resolve // 国家 OCSP
+DOMAIN,crl.pki.gov.il,REJECT,no-resolve // 国家吊销列表
+
+# > Malam Team CA（以色列，医疗/政府证书签发）
+DOMAIN-SUFFIX,malamteam.com,REJECT,no-resolve // 主站
+DOMAIN,ocsp.malamteam.com,REJECT,no-resolve // OCSP 接口
+DOMAIN,crl.malamteam.com,REJECT,no-resolve // 吊销列表
+
+# > CNNIC（中国互联网络信息中心）
+DOMAIN-SUFFIX,cnnic.cn,REJECT,no-resolve // CNNIC 主站
+DOMAIN,ocsp.cnnic.cn,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.cnnic.cn,REJECT,no-resolve // 吊销列表接口
+
+# > CFCA（中国金融认证中心，广泛用于银行系统）
+DOMAIN-SUFFIX,cfca.com.cn,REJECT,no-resolve // CFCA 主站
+DOMAIN,ocsp.cfca.com.cn,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.cfca.com.cn,REJECT,no-resolve // 吊销列表接口
+
+# > SGCA（国家电网 CA，内部政企系统使用）
+DOMAIN-SUFFIX,sgcc.com.cn,REJECT,no-resolve // 国家电网主域
+DOMAIN,ocsp.sgca.sgcc.com.cn,REJECT,no-resolve // SGCA OCSP 验证接口
+DOMAIN,crl.sgca.sgcc.com.cn,REJECT,no-resolve // SGCA 吊销列表接口
+
+# > GDCA（广东数字证书认证中心）
+DOMAIN-SUFFIX,gdca.com.cn,REJECT,no-resolve // GDCA 主站
+DOMAIN,ocsp.gdca.com.cn,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.gdca.com.cn,REJECT,no-resolve // 吊销列表接口
+
+# > 公安部 CA（公安三所、公安一所签发）
+DOMAIN-SUFFIX,gov.cn,REJECT,no-resolve // 国家域名（仅限 CA 接口用途）
+DOMAIN,pki.gongan.gov.cn,REJECT,no-resolve // 公安部 CA 主站
+DOMAIN,ocsp.gongan.gov.cn,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.gongan.gov.cn,REJECT,no-resolve // 吊销列表接口
+
+# > UnionTech CA / 统信 UOS 系统内置 CA
+DOMAIN-SUFFIX,uos.cn,REJECT,no-resolve // UOS 主站
+DOMAIN,ocsp.uos.cn,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.uos.cn,REJECT,no-resolve // 吊销列表接口
+
+# > WoSign / 深信通电子认证服务有限公司（中国）
+DOMAIN-SUFFIX,wosign.com,REJECT,no-resolve // 深信通主站
+DOMAIN,ocsp.wosign.com,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.wosign.com,REJECT,no-resolve // 吊销列表接口
+
+# > GFW‑related vendors（建议封锁：疑似提供 DPI / 流量监测 / 设备后门的厂商及其证书验证接口）
+# 说明：这些域名对应大型网络设备厂商、流量安全/监控厂商或运营商相关服务。封锁可能影响部分设备管理/固件更新/企业服务，启用前请评估影响。
+
+# > Huawei（华为 —— 网络设备、交换机、路由器、云与安全设备）
+DOMAIN-SUFFIX,huawei.com,REJECT,no-resolve // 华为主站与设备管理域
+DOMAIN,ocsp.huawei.com,REJECT,no-resolve // 华为 OCSP 验证接口
+DOMAIN,crl.huawei.com,REJECT,no-resolve // 华为 吊销列表接口
+
+# > ZTE（中兴 —— 网络通信与运营商设备）
+DOMAIN-SUFFIX,zte.com.cn,REJECT,no-resolve // 中兴主站与设备管理域
+DOMAIN,ocsp.zte.com.cn,REJECT,no-resolve // 中兴 OCSP 验证接口
+DOMAIN,crl.zte.com.cn,REJECT,no-resolve // 中兴 吊销列表接口
+
+# > 360 / Qihoo（安全产品与流量监控能力）
+DOMAIN-SUFFIX,360.cn,REJECT,no-resolve // 360 主域（安全/终端/网关产品线）
+DOMAIN,ocsp.360.cn,REJECT,no-resolve // 360 OCSP 接口
+DOMAIN,crl.360.cn,REJECT,no-resolve // 360 吊销列表接口
+
+# > QiAnXin（启明星辰 / 其中部分业务 Qianxin — 安全厂商，含流量检测产品）
+DOMAIN-SUFFIX,qianxin.com,REJECT,no-resolve // 启明星辰 / 相关安全服务域
+DOMAIN,ocsp.qianxin.com,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.qianxin.com,REJECT,no-resolve // 吊销列表接口
+
+# > Venustech（天融信 / 流量检测、网络安全厂商）
+DOMAIN-SUFFIX,venustech.com.cn,REJECT,no-resolve // 天融信主站
+DOMAIN,ocsp.venustech.com.cn,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.venustech.com.cn,REJECT,no-resolve // 吊销列表接口
+
+# > NSFocus（绿盟/南大/NSFOCUS 类型厂商，流量与安全设备）
+DOMAIN-SUFFIX,nsfocus.com,REJECT,no-resolve // NSFOCUS 主站
+DOMAIN,ocsp.nsfocus.com,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.nsfocus.com,REJECT,no-resolve // 吊销列表接口
+
+# > Topsec（天融/安恒/Topsec 等本地化安全设备厂商）
+DOMAIN-SUFFIX,topsec.com,REJECT,no-resolve // Topsec 主站
+DOMAIN,ocsp.topsec.com,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.topsec.com,REJECT,no-resolve // 吊销列表接口
+
+# > RU / CN 运营商管理域（提示：封锁会影响运营商设备管理/固件更新）
+DOMAIN-SUFFIX,chinaunicom.com,REJECT,no-resolve // 中国联通相关域（酌情）
+DOMAIN-SUFFIX,chinatel.com,REJECT,no-resolve // 运营商管理站点（示例，视具体域名替换）
+
+# > GFW‑related: Geedge Networks（积至 / Geedge Networks Ltd.）与关联服务（建议封锁）
+DOMAIN-SUFFIX,geedgenetworks.com,REJECT,no-resolve // Geedge 官方主站 / 公司域名
+DOMAIN-SUFFIX,geedge.com,REJECT,no-resolve // 备用或商业域（占位，若无请删）
+DOMAIN,ocsp.geedgenetworks.com,REJECT,no-resolve // Geedge OCSP / 证书验证接口（若存在）
+DOMAIN,crl.geedgenetworks.com,REJECT,no-resolve // Geedge CRL / 吊销列表接口（若存在）
+DOMAIN-SUFFIX,tsg.geedgenetworks.com,REJECT,no-resolve // TSG / 天狗安全网关 相关子域（产品线占位）
+DOMAIN-SUFFIX,cybernarrator.geedgenetworks.com,REJECT,no-resolve // Cyber Narrator 产品线占位
+
+# > GFW‑related: MESA 实验室 / 中科院信息工程研究所（处理架构组）相关域（建议封锁或观察）
+DOMAIN-SUFFIX,mesalab.cn,REJECT,no-resolve // MESA 团队 / 实验室站点（中科院信工所 MESA）
+DOMAIN,ocsp.mesalab.cn,REJECT,no-resolve // MESA OCSP 接口（若存在）
+DOMAIN,crl.mesalab.cn,REJECT,no-resolve // MESA CRL 接口（若存在）
+DOMAIN-SUFFIX,iie.ac.cn,REJECT,no-resolve // 中国科学院信息工程研究所主站（酌情封锁/观察）
+DOMAIN,pki.iie.ac.cn,REJECT,no-resolve // IIE PKI / 证书管理接口（占位，若存在请精确替换）
+
+# > GFW‑related: export / deployment / partner endpoints（示例，占位，建议现场核验AIA）
+DOMAIN-SUFFIX,myanmartelecom.com,REJECT,no-resolve // 缅甸合作/部署示例（占位，按实际证书替换）
+DOMAIN-SUFFIX,telecom-partner.example,REJECT,no-resolve // 合作运营商占位，请替换为真实域名
+
+# > TrustCor Systems（巴拿马，关联美国情报承包商）
+DOMAIN-SUFFIX,trustcor.com,REJECT,no-resolve // TrustCor 主站
+DOMAIN,ocsp.trustcor.com,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.trustcor.com,REJECT,no-resolve // 吊销列表接口
+
+# > DigiNotar（荷兰，已被攻破）
+DOMAIN-SUFFIX,diginotar.nl,REJECT,no-resolve // DigiNotar 主站
+DOMAIN,ocsp.diginotar.nl,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.diginotar.nl,REJECT,no-resolve // 吊销列表接口
+
+# > TurkTrust（土耳其，历史中间证书签发事故）
+DOMAIN-SUFFIX,turktrust.com.tr,REJECT,no-resolve // TurkTrust 主站
+DOMAIN,ocsp.turktrust.com.tr,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.turktrust.com.tr,REJECT,no-resolve // 吊销列表接口
+
+# > Camerfirma（西班牙，合规问题频发）
+DOMAIN-SUFFIX,camerfirma.com,REJECT,no-resolve // Camerfirma 主站
+DOMAIN,ocsp.camerfirma.com,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.camerfirma.com,REJECT,no-resolve // 吊销列表接口
+
+# > FSB CA（俄罗斯联邦安全局根证书系统）
+DOMAIN-SUFFIX,fsb.ru,REJECT,no-resolve // 俄罗斯联邦安全局主域
+DOMAIN,ocsp.fsb.ru,REJECT,no-resolve // FSB OCSP 验证接口
+DOMAIN,crl.fsb.ru,REJECT,no-resolve // FSB 吊销列表接口
+
+# > CryptoPro CA（俄罗斯主流加密软件与证书签发商）
+DOMAIN-SUFFIX,cryptopro.ru,REJECT,no-resolve // CryptoPro 主站
+DOMAIN,ocsp.cryptopro.ru,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.cryptopro.ru,REJECT,no-resolve // 吊销列表接口
+
+# > RU-CENTER CA（俄罗斯最大域名注册商，证书签发服务商）
+DOMAIN-SUFFIX,nic.ru,REJECT,no-resolve // RU-CENTER 主站
+DOMAIN,ocsp.nic.ru,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.nic.ru,REJECT,no-resolve // 吊销列表接口
+
+# > Gosuslugi PKI（俄罗斯国家政务服务平台根证书）
+DOMAIN-SUFFIX,gosuslugi.ru,REJECT,no-resolve // 俄罗斯政务服务主站
+DOMAIN,pki.gosuslugi.ru,REJECT,no-resolve // Gosuslugi 根证书服务
+DOMAIN,ocsp.gosuslugi.ru,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.gosuslugi.ru,REJECT,no-resolve // 吊销列表接口
+
+# > SKB Kontur CA（俄罗斯大型商业 CA，用于企业电子签名）
+DOMAIN-SUFFIX,skbkontur.ru,REJECT,no-resolve // SKB Kontur 主站
+DOMAIN,ocsp.skbkontur.ru,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.skbkontur.ru,REJECT,no-resolve // 吊销列表接口
+
+# > Tinkoff CA（俄罗斯本地金融集团，使用自签根证书）
+DOMAIN-SUFFIX,tinkoff.ru,REJECT,no-resolve // Tinkoff 银行官网
+DOMAIN,ocsp.tinkoff.ru,REJECT,no-resolve // OCSP 验证接口
+DOMAIN,crl.tinkoff.ru,REJECT,no-resolve // 吊销列表接口
