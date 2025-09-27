@@ -34,39 +34,17 @@ Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最
 
 ## 配置链接
 
-|     文件名称     |                           链接地址                           | 示例用途                  | 项目进度 |
-| :--------------: | :----------------------------------------------------------: | ------------------------- | :------: |
-| SurgeAegis（CN） | https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_CN.conf | Surge个人防火墙配置       |  已完成  |
-| SurgeAegis（EN） | https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_EN.conf | Surge个人防火墙配置       |  已完成  |
-|    ClashAegis    | | Clash个人防火墙配置       |  开发中  |
-| QuantumultAegis  | | QuantumultX个人防火墙配置 |  开发中  |
-|   RouterAegis    | | Router个人防火墙配置      |  开发中  |
+SurgeAegis（CN） | https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_CN.conf
+SurgeAegis（EN） | https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_EN.conf
 
 ## 配置方式
 
-请参考项目 [Wiki](https://github.com/Thoseyearsbrian/GeoIP2-CN/wiki/Surge) 提供的文档教程，在各个工具中自定义 GeoIP2 数据库。
+复制配置链接 -> 打开 Surge -> 从URL下载配置 -> 粘贴链接 -> 在文本模式中编辑 -> 修改“你的节点”至对应参数 -> 完成!
 
-目前 Wiki 中已经添加了如下工具的配置教程，欢迎大家在 Issues 中补充：
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/Icons/Groups/surge-config-import-guide-step-by-step.png" width="600">
+</p>
 
-[Surge](https://github.com/Thoseyearsbrian/Aegis/wiki/Surge)
-
-* Surge 配置文件修改
-* Surge for iOS 图形化配置
-* Surge for macOS 图形化配置
-
-[Quantumult X](https://github.com/Thoseyearsbrian/GeoIP2-CN/wiki/Quantumult-X)
-
-[Shadowrocket](https://github.com/Thoseyearsbrian/Aegis/wiki/Shadowrocket)
-
-[Clash](https://github.com/Thoseyearsbrian/Aegis/wiki/Clash)
-
-* ClashX / ClashX Pro (macOS)
-* Clash for Windows
-* OpenClash (OpenWRT)
-* Clash for Android
-* Stash (iOS)
-
-[Router](https://github.com/Thoseyearsbrian/Aegis/wiki/Router)
 
 ## ⚠️ 注意事项
 
