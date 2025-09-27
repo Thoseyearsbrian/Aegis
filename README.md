@@ -114,7 +114,7 @@ SurgeAegis（EN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/mai
 
 ## Pegasus 间谍软件 IOC 来源（Pegasus Blocklist）
 
-[@AmnestyTech](https://github.com/AmnestyTech) 👉  提供 Pegasus 相关 IOC 数据，作为规则构建的重要信息源。
+- [@AmnestyTech](https://github.com/AmnestyTech) 👉  提供 Pegasus 相关 IOC 数据，作为规则构建的重要信息源。
 
 以上引用内容排名不分先后，若有遗漏您的项目或贡献，敬请谅解并欢迎联系我，我将第一时间补充致谢。
 
