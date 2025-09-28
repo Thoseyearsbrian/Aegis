@@ -116,7 +116,7 @@ Additionally, the Aegis project has enabled GPG commit signing to ensure the aut
 
 It is recommended to fork or build upon this repository to save time, maintain compatibility, and benefit from future security updates.
 
-## **📣 Aegis Telegram Channels**
+## **🙌  Aegis Telegram Channels**
 
 If you value this project, consider giving it a ⭐️ star and subscribing to updates:
 
