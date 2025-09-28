@@ -3,6 +3,19 @@
 <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/Icons/Groups/group-policy-mobile-1.PNG" width="300"></img>
 <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/Icons/Groups/group-policy-mobile-2.PNG" width="300"></img>
 </p>
+
+<p align="center">
+  <a href="https://github.com/Thoseyearsbrian/Aegis/stargazers">
+    <img src="https://img.shields.io/github/stars/Thoseyearsbrian/Aegis?style=social" />
+  </a>
+  <a href="https://github.com/Thoseyearsbrian/Aegis/commits/main">
+    <img src="https://img.shields.io/github/last-commit/Thoseyearsbrian/Aegis" />
+  </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/Thoseyearsbrian/Aegis" />
+  </a>
+</p>
+
 A high-performance, cross-platform rule repository focused on network-layer defense. Designed for Surge, Clash, QuantumultX and OpenWrt. Protects against APT threats, DNS poisoning, malicious C2 traffic, SDK telemetry, and botnet sources. Supports iOS, macOS, Windows, Android, and router platforms.
 
 ## 项目背景
