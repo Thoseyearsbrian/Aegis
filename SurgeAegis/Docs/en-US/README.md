@@ -27,11 +27,7 @@ It supports **Surge**, **Clash**, **QuantumultX**, **OpenWrt**, and other platfo
 
 ## **Philosophy**
 
-Aegis adheres to technical neutrality, information transparency, and complete independence.
-
-I firmly believe every individual has the right to understand and control their network traffic.
-
-Therefore, Aegis does **not** accept any form of commercial investment or capital control. To ensure purity, trust, and security, all configurations are handcrafted and audited by me, with complete annotations to guarantee every rule is transparent, verifiable, and pollution-free.
+Aegis adheres to technical neutrality, information transparency, and complete independence.I firmly believe every individual has the right to understand and control their network traffic.Therefore, Aegis does **not** accept any form of commercial investment or capital control. To ensure purity, trust, and security, all configurations are handcrafted and audited by me, with complete annotations to guarantee every rule is transparent, verifiable, and pollution-free.
 
 ## **Auto Update**
 
