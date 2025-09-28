@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Thoseyearsbrian/Aegis/stargazers">
-    <img src="https://img.shields.io/github/stars/Thoseyearsbrian/Aegis?style=social" />
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/Thoseyearsbrian/Aegis" alt="License">
   </a>
   <a href="https://github.com/Thoseyearsbrian/Aegis/commits/main">
-    <img src="https://img.shields.io/github/last-commit/Thoseyearsbrian/Aegis" />
+    <img src="https://img.shields.io/github/last-commit/Thoseyearsbrian/Aegis" alt="Last Commit">
   </a>
-  <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/Thoseyearsbrian/Aegis" />
+  <a href="https://github.com/Thoseyearsbrian/Aegis/stargazers">
+    <img src="https://img.shields.io/github/stars/Thoseyearsbrian/Aegis?style=social" alt="GitHub Repo stars">
   </a>
 </p>
 
