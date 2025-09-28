@@ -1,11 +1,17 @@
-# Aegis
-A high-performance, cross-platform rule repository focused on network-layer defense. Designed for Surge, Clash, and OpenWrt. Protects against APT threats, DNS poisoning, malicious C2 traffic, SDK telemetry, and botnet sources. Supports iOS, macOS, Windows, Android, and router platforms.
+<h1 align="center">Aegis — Surge 个人数字防火墙规则集</h1>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/Icons/Groups/group-policy-mobile-1.PNG" width="300"></img>
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/Icons/Groups/group-policy-mobile-2.PNG" width="300"></img>
+</p>
+A high-performance, cross-platform rule repository focused on network-layer defense. Designed for Surge, Clash, QuantumultX and OpenWrt. Protects against APT threats, DNS poisoning, malicious C2 traffic, SDK telemetry, and botnet sources. Supports iOS, macOS, Windows, Android, and router platforms.
 
 ## 项目背景
 
-**Aegis** 是一个完全由个人维护的网络安全规则集，专注于应对现代网络层威胁，帮助全球用户构建本地化的网络防御体系。项目通过封锁DNS 污染、APT 攻击源、SDK回传监听、后门域名、C2 控制器等潜在通信行为，实现本地流量有效识别与拦截。已涵盖多个全球高危威胁源的规则，包括针对 Pegasus（飞马）间谍软件的通信节点与异常行为识别策略。
+[Aegis](https://github.com/Thoseyearsbrian/Aegis)是一个完全由个人维护的网络安全规则集，专注于应对现代网络层威胁，帮助全球用户构建本地化的网络防御体系。项目通过封锁DNS 污染、APT 攻击源、SDK回传监听、后门域名、C2 控制器等潜在通信行为，实现本地流量有效识别与拦截。已涵盖多个全球高危威胁源的规则，包括针对 Pegasus（飞马）间谍软件的通信节点与异常行为识别策略。
 
 本项目全面采用加密 DNS，强制拒绝明文请求，强调通信加密、安全可控与流量透明。即便在如 iPhone 等缺乏传统安全软件支持的设备上，亦可提供流量层级的有效防护。
+
+此外，Aegis 还额外提供一个可选启用的高级模块 — CA_Block.list，用于拦截全球范围内存在安全争议或曾被公开吊销的 CA 根证书、OCSP 接口与吊销列表（CRL）域名。该模块适用于有更高数字信任要求的用户，可进一步减少中间人攻击与恶意证书链的潜在风险。
 
 ## 项目优势
 
@@ -17,13 +23,11 @@ Aegis 规则集致力于识别与拦截以下高风险通信行为：
 - 僵尸网络、远控后门与恶意控制器
 - 广告追踪、行为监控与监听型 CDN节点
 
-Aegis 支持主流平台如 **Surge、Clash、QuantumultX、OpenWrt**，兼容 iOS、macOS、Windows、Android 等多系统环境，具备良好的可读性、可审计性与模块化部署能力，适用于策略分流、防火墙辅助配置等多种应用场景。
+Aegis 支持主流平台如 **Surge、Clash、QuantumultX、OpenWrt**，兼容 iOS、macOS、Windows、Android 等多系统环境，具备良好的可读性、可审计性与模块化部署能力，适用于策略分流、防火墙辅助配置等多种应用场景。你还可以按需启用高级模块 CA_Block.list，用于屏蔽高风险 CA 根证书验证行为，从而进一步强化中间人攻击的防御能力。
 
 ## 项目理念
 
-Aegis 是一个坚持技术中立、信息透明、自主独立的安全规则项目。  我坚信每个人都应拥有对其网络流量的知情权与控制权。
-
-因此，Aegis 不接受任何形式的商业投资或资本控制，为保持纯粹的独立性与安全可信性，所有配置文件完全由本人手工编写与审计，并附带完整注释，以确保每一条拦截规则都公开、真实、可控、无污染。
+Aegis 是一个坚持技术中立、信息透明、自主独立的安全规则项目。  我坚信每个人都应拥有对其网络流量的知情权与控制权。因此，Aegis 不接受任何形式的商业投资或资本控制，为保持纯粹的独立性与安全可信性，所有配置文件完全由本人手工编写与审计，并附带完整注释，以确保每一条拦截规则都公开、真实、可控、无污染。
 
 ## 自动化更新
 
@@ -31,39 +35,17 @@ Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最
 
 ## 配置链接
 
-|     文件名称     |                           链接地址                           | 示例用途                  | 项目进度 |
-| :--------------: | :----------------------------------------------------------: | ------------------------- | :------: |
-| SurgeAegis（CN） | https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_CN.conf | Surge个人防火墙配置       |  已完成  |
-| SurgeAegis（EN） | https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_EN.conf | Surge个人防火墙配置       |  已完成  |
-|    ClashAegis    |  | Clash个人防火墙配置       |  开发中  |
-| QuantumultAegis  |  | QuantumultX个人防火墙配置 |  开发中  |
-|   RouterAegis    |  | Router个人防火墙配置      |  开发中  |
+SurgeAegis（CN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_CN.conf  
+SurgeAegis（EN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_EN.conf  
 
 ## 配置方式
 
-请参考项目 [Wiki](https://github.com/Thoseyearsbrian/GeoIP2-CN/wiki/Surge) 提供的文档教程，在各个工具中自定义 GeoIP2 数据库。
+复制配置链接 -> 打开 Surge -> 从URL下载配置 -> 粘贴链接 -> 在文本模式中编辑 -> 修改“你的节点”至对应参数 -> 完成!
 
-目前 Wiki 中已经添加了如下工具的配置教程，欢迎大家在 Issues 中补充：
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/Icons/Groups/surge-config-import-guide-step-by-step.png" width="600">
+</p>
 
-[Surge](https://github.com/Thoseyearsbrian/Aegis/wiki/Surge)
-
-* Surge 配置文件修改
-* Surge for iOS 图形化配置
-* Surge for macOS 图形化配置
-
-[Quantumult X](https://github.com/Thoseyearsbrian/GeoIP2-CN/wiki/Quantumult-X)
-
-[Shadowrocket](https://github.com/Thoseyearsbrian/Aegis/wiki/Shadowrocket)
-
-[Clash](https://github.com/Thoseyearsbrian/Aegis/wiki/Clash)
-
-* ClashX / ClashX Pro (macOS)
-* Clash for Windows
-* OpenClash (OpenWRT)
-* Clash for Android
-* Stash (iOS)
-
-[Router](https://github.com/Thoseyearsbrian/Aegis/wiki/Router)
 
 ## ⚠️ 注意事项
 
@@ -97,11 +79,11 @@ Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最
 
 为满足个人网络安全防护需求，本项目在既有规则基础上进行了深度定制与安全优化。为保障项目的完整性、安全性与长期可用性，所有使用的素材与规则均通过本仓库自托管，避免因依赖第三方源而引发的更新失效或信任风险。
 
-## **核心框架参考（Project Foundation）**
+### **核心框架参考（Project Foundation）**
 
 [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 项目整体架构与规则逻辑的主要参考来源，当前版本在此基础上进行了深度重构与安全适配。
 
-## 脚本 / 规则**来源参考**（Script / Rule References）
+### 脚本 / 规则**来源参考**（Script / Rule References）
 
 [@Nebulosa-Cat](https://github.com/Nebulosa-Cat)
 
@@ -119,17 +101,17 @@ Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最
 
 [@TributePaulWalker](https://github.com/TributePaulWalker)
 
-## **分流/重写规则维护参考（Routing / Rewrite）**
+### **分流/重写规则维护参考（Routing / Rewrite）**
 
 - [@blackmatrix7](https://github.com/blackmatrix7) 👉  其高质量规则集为部分条目构建与优化提供了参考基础。
 
-## **Apple 服务完整性维护（Apple Service Unlock）**
+### **Apple 服务完整性维护（Apple Service Unlock）**
 
 - [@VirgilClyne](https://github.com/VirgilClyne) 👉  针对 Apple 服务的解锁与规则适配部分提供了重要思路。
 
-## Pegasus 间谍软件 IOC 来源（Pegasus Blocklist）
+### Pegasus 间谍软件 IOC 来源（Pegasus Blocklist）
 
-[@AmnestyTech](https://github.com/AmnestyTech)  👉  提供 Pegasus 相关 IOC 数据，作为规则构建的重要信息源。
+- [@AmnestyTech](https://github.com/AmnestyTech) 👉  提供 Pegasus 相关 IOC 数据，作为规则构建的重要信息源。
 
 以上引用内容排名不分先后，若有遗漏您的项目或贡献，敬请谅解并欢迎联系我，我将第一时间补充致谢。
 
@@ -139,7 +121,7 @@ Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最
 
 1. **第三方来源说明**：本项目部分内容参考公开威胁情报（如安全社区报告、威胁数据库、GitHub 项目等），所有相关引用均已注明出处。如有异议，请联系我进行修正或删除。
 2. **误杀风险提示**：鉴于规则集中可能涉及通用封锁策略，使用者应在部署前充分测试，确保不影响正常业务。如因误拦截造成连接异常、功能缺失或其他后果，项目作者不承担任何责任。
-3. **非商业用途**：本项目内容仅供个人或研究用途，严禁用于任何形式的商业部署、收费产品、再分发或带有盈利性质的衍生行为。如需商业授权，请联系作者获取书面许可。
+3. **商业用途说明**：本项目本项目以 MIT 协议开源发布，您可以自由用于商业与非商业目的，但请务必遵守许可证条款，保留原始作者署名与注释说明。我们反对滥用规则集用于闭源、侵害公共利益或违背开源精神的商业行为。
 4. **无担保条款**：本项目以“按现状”形式提供，不对其完整性、准确性、实时性或适配性做出任何明示或暗示的担保。使用者应自行判断适用性并承担所有使用风险。
 5. **用途限定**：所有规则与配置文件仅供用于合法的网络防御、流量控制与安全研究。严禁将本项目用于任何攻击性行为、逆向工程、绕过审计等违法或灰色用途。
 6. **责任限制**：对因使用、复制或传播本项目内容所产生的任何直接或间接损失（包括但不限于数据泄漏、业务中断、安全故障等），项目作者不承担任何法律责任。
@@ -157,15 +139,18 @@ Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最
 - **不得删除或隐藏源代码注释与协议声明**；
 - **不滥用规则集用于闭源或侵犯公共利益的行为。**
 
+此外，Aegis 项目已启用 GPG 签名（Git Commit Signing）机制，以确保项目代码来源真实可信、未被篡改。你可通过 GPG 签名验证每一次提交操作的完整性，从而获得更高的安全保障。
+
 建议您基于本项目结构进行维护与扩展，以避免重复开发，节省时间成本，同时获得后续更新与安全优化支持。
 
-## 6ttt665t56
+## 🙌  社区支持
 
 如果你认可本项目的价值，欢迎 Star ⭐️ 支持，所有规则更新将同步与频道，欢迎订阅关注。
 
- [Aegis Updates](https://t.me/AegisUpdates) —— **版本更新通知频道**：用于发布最新规则版本、更新日志与重要公告
 
- [Aegis Discussion](https://t.me/+xxxxxxxxx) —— **用户共建交流群**：欢迎提交建议、反馈误杀、参与规则共建
+ - [Aegis Updates](https://t.me/AegisUpdates) —— **版本更新通知频道**：用于发布最新规则版本、更新日志与重要公告
+
+ - [Aegis Discussion](https://t.me/+xxxxxxxxx) —— **用户共建交流群**：欢迎提交建议、反馈误杀、参与规则共建
 
 **申请须知**：
 
@@ -173,10 +158,10 @@ Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最
 
 **群组守则**：
 
-本群为纯技术交流平台，严禁发布涉政、涉黄、涉毒、涉枪、涉弹、赌博、诈骗、炒币、广告推销、人身攻击等违法违规或破坏性内容（包括但不限于辱骂、挑衅、刷屏、钓鱼链接等）。一经发现，视情节严重程度立即处理，严重者将被永久封禁。
+- 本群为纯技术交流平台，严禁发布涉政、涉黄、涉毒、涉枪、涉弹、赌博、诈骗、炒币、广告推销、人身攻击等违法违规或破坏性内容（包括但不限于辱骂、挑衅、刷屏、钓鱼链接等）。一经发现，视情节严重程度立即处理，严重者将被永久封禁。
 
-为确保交流安全，请勿上传任何未经检查或来源不明的可执行文件、压缩包、脚本或链接等内容，违者一经查实将予以封禁处理，并纳入黑名单留档。群内所有上传的文件与内容将由 Dr.Web 杀毒机器人等安全工具自动检测与扫描，以防止恶意内容传播。
+- 为确保交流安全，请勿上传任何未经检查或来源不明的可执行文件、压缩包、脚本或链接等内容，违者一经查实将予以封禁处理，并纳入黑名单留档。群内所有上传的文件与内容将由 Dr.Web 杀毒机器人等安全工具自动检测与扫描，以防止恶意内容传播。
 
-请所有成员自觉维护技术氛围，聚焦网络安全与规则共建，共同营造清朗、有序、互信的社区环境。
+- 请所有成员自觉维护技术氛围，聚焦网络安全与规则共建，共同营造清朗、有序、互信的社区环境。
 
-群组守则适用于所有成员，无任何例外，欢迎大家共同监督与维护。 
+- 群组守则适用于所有成员，无任何例外，欢迎大家共同监督与维护。 
