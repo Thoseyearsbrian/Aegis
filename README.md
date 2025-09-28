@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/Thoseyearsbrian/Aegis" alt="License">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
   </a>
   <a href="https://github.com/Thoseyearsbrian/Aegis/commits/main">
     <img src="https://img.shields.io/github/last-commit/Thoseyearsbrian/Aegis" alt="Last Commit">
