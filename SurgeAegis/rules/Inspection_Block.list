@@ -29,8 +29,8 @@ IP-CIDR,143.244.49.177/32 // 美西匿名 VPS，HTTPS 心跳特征
 IP-CIDR,143.244.49.180/32 // 同上，持续 TLS 通信，疑似控制通道
 IP-CIDR,79.133.171.16/32 // 欧洲段远控节点
 IP-CIDR,79.133.171.0/24 // 欧洲段 VPS 区段，灰产项目常用
-IP-CIDR,59.37.173.72/32,REJECT,no-resolve // 可疑回传上传出口，已建立多个上传连接
-IP-CIDR,58.152.119.49/32,REJECT,no-resolve // 可疑反复连接 IP，可能是监听或后门连接
+IP-CIDR,59.37.173.72/32 // 可疑回传上传出口，已建立多个上传连接
+IP-CIDR,58.152.119.49/32 // 可疑反复连接 IP，可能是监听或后门连接
 DOMAIN-SUFFIX,stun.l.google.com // Google STUN 服务，常用于 WebRTC/UDP 打洞通信
 DOMAIN-KEYWORD,p2p // 匹配含 p2p 的域名，用于封锁点对点连接行为
 DOMAIN-SUFFIX,6pzftj.com // 可疑机场节点主域名，存在潜在代理控制风险
