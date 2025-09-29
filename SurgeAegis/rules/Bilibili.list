@@ -1,5 +1,10 @@
-# > 哔哩哔哩平台域名
-# > 用于识别 Bilibili 视频、直播、评论等功能服务
+# » Bilibili.list（哔哩哔哩平台服务规则集）
+# - 分类：国内流媒体 / 视频平台 / 社区互动服务
+# - 来源：实测抓包 / 用户反馈 / 社区整理
+# - 特征：涵盖 Bilibili 视频播放、直播服务、评论互动、账号系统等核心域名与网络行为
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 DOMAIN-SUFFIX,bilibili.com // Bilibili 主站
 DOMAIN-SUFFIX,hdslb.com // Bilibili 静态资源与视频流
+DOMAIN-SUFFIX,acg.tv // Bilibili 旧版短链接域名

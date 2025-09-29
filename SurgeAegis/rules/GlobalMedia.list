@@ -1,6 +1,10 @@
-# > 国外流媒体服务域名规则集（Streaming_INTL.list）
-# > 包含美、欧、日韩、东南亚等主流流媒体平台，可用于策略分流（如 MEDIA_INTL / PROXY）
-# > 注意：YouTube / Google 、Netflix、Disney+视频服务相关域名不在本规则集中，已归类至 Google.list、Netflix.list、DisneyPlus.list 中独立管理
+# » Streaming_INTL.list（国外流媒体平台规则集）
+# - 分类：国际流媒体平台 / 视频音乐服务 / 策略识别用途
+# - 来源：各地区主流平台域名抓包 / 社区规则整理 / 手动校验补充
+# - 特征：涵盖美洲、欧洲、日韩、东南亚等常见流媒体服务域名，便于策略分流与访问控制
+# - 注意：YouTube（Google）、Netflix、Disney+ 等平台已独立归类至对应模块：Google.list、Netflix.list、DisneyPlus.list
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 # >> Amazon Prime Video
 DOMAIN-SUFFIX,primevideo.com // 亚马逊 Prime Video

@@ -1,4 +1,9 @@
-# # **行为指纹与云服务分析** - 基于 DNS 查询模式、TLS 指纹（如Client Hello）等行为模式进行封锁，配合灰产SDK与分析节点识别（建议封锁）
+# » Behavior_Fingerprint.list（行为指纹与云服务分析规则集）
+# - 分类：行为指纹 / 云服务分析 / SDK 监控节点
+# - 来源：实际 DNS/TLS 抓包分析 / 安全社区情报 / 灰产 SDK 行为溯源
+# - 特征：基于 DNS 查询模式、TLS 指纹（如 Client Hello）等行为模式识别并封锁，配合灰产 SDK 与分析节点检测
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 DOMAIN-SUFFIX,ssl-images-amazon.com // CDN隐匿式回传 或 伪装图像传输
 DOMAIN-SUFFIX,app-measurement.com // 指纹监听 + 流量分析回传

@@ -1,5 +1,9 @@
-# # **APT / 攻击源 - 基于国际威胁情报命名体系（APT1 - APTxx），细分域名、IP 段，标注情报来源（如 ThreatFox、Mandiant、火绒等）（建议封锁）**
-
+# » APT.list（国际APT攻击组织域名/IP规则集）
+# - 分类：APT 攻击组织 / 网络间谍行为 / 国家级攻击源
+# - 来源：ThreatFox / Mandiant / 火绒威胁情报 / 公共IOC披露报告
+# - 特征：涵盖 APT1 ~ APTxx 等组织使用的C2控制器、钓鱼跳转域、后门通信节点与攻击基础设施
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 # ## > APT1**（中国 · 被 Mandiant 命名为 Comment Crew/ PLA Unit 61398）**
 
@@ -10,23 +14,14 @@ DOMAIN-SUFFIX,ma-omaha.com,REJECT // 控制服务器，上海相关基础设施�
 # ## > APT2**（中国 · 又名 Putter Panda / PLA Unit 61486）*
 
 DOMAIN-SUFFIX,ctable.org,REJECT // 可疑 C2 域名，由注册人 cpyy.chen@gmail.com 登记，CrowdStrike 披露
-
 DOMAIN-SUFFIX,gamemuster.com,REJECT // 可疑 C2 域名，注册人为 cpyy.chen@gmail.com，CrowdStrike 披露
-
 DOMAIN-SUFFIX,kyoceras.net,REJECT // 被用于潜在控制通信，注册邮箱为 cpyy.chen@gmail.com，CrowdStrike 披露
-
 DOMAIN-SUFFIX,nestlere.com,REJECT // 可疑远控域名，注册人与前述一致，CrowdStrike 披露
-
 DOMAIN-SUFFIX,raylitoday.com,REJECT // 用于钓鱼攻击或控制通信，注册人 cpyy.chen@gmail.com，CrowdStrike 披露
-
 DOMAIN-SUFFIX,renewgis.com,REJECT // 涉及APT2活动域名，注册人为 cpyy.chen@gmail.com，CrowdStrike 披露
-
 DOMAIN-SUFFIX,siseau.com,REJECT // 与 cpyy@qq.com 邮箱相关，注册人活动指向APT2，CrowdStrike 披露
-
 DOMAIN-SUFFIX,bmwauto.org,REJECT // 登记邮箱为 cpyy@sina.com，疑似APT2控制节点，CrowdStrike 披露
-
 DOMAIN-SUFFIX,t008.net,REJECT // 与APT2组织相关，注册人 cpyy@sina.com，CrowdStrike 披露
-
 DOMAIN-SUFFIX,vssigma.com,REJECT // 注册人邮箱为 cpyy@sina.com，被APT2用于远控，CrowdStrike 披露
 
 # ## > APT3**（中国 · 被 FireEye 命名为 UPS Team / Gothic Panda）**

@@ -1,4 +1,9 @@
-# > GitHub 平台相关服务域名与 IP（建议 DIRECT 或 PROXY，根据访问稳定性选择）
+# » GitHub.list（GitHub 平台服务规则集）
+# - 分类：开发者平台 / 代码托管服务 / 策略识别用途
+# - 来源：GitHub 官方文档 / 实测抓包 / 社区规则整理
+# - 特征：涵盖 GitHub 主域名、子服务与 CDN 资源，便于访问分流与稳定性优化
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 # >> GitHub 主站与基础服务
 DOMAIN-SUFFIX,github.com // GitHub 主站（代码托管/仓库浏览）

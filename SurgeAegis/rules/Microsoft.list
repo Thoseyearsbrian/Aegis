@@ -1,7 +1,9 @@
-# > 微软服务规则集（Microsoft.list）
-# > 包含 Microsoft 提供的各类核心服务、Office 365、OneDrive、Teams、Skype等
-# > 建议绑定策略组 Microsoft / PROXY 或 Microsoft / DIRECT
-# > 注意：Xbox 游戏相关域名不在本规则集中，已归类至 GamePlatforms.list 独立管理
+# » Microsoft.list（微软服务识别规则集）
+# - 分类：Microsoft 核心服务 / 云办公组件 / 网络通信平台
+# - 来源：微软官方文档 / 实测抓包 / 社区整理
+# - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 # > 核心服务（Core Services）
 DOMAIN-SUFFIX,microsoft.com // 微软主域名

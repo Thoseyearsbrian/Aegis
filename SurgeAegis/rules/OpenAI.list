@@ -1,6 +1,9 @@
-# > 智能助理服务规则集（AI_Services_cleaned.list）
-# > 规则说明：用于识别主流 AI 助理类服务域名，并统一分流至代理策略（如 AI / PROXY 等）
-# > 建议：绑定至 Surge 策略组 AI 或 PROXY
+# » AI_Services_cleaned.list（智能助理服务规则集）
+# - 分类：智能助理 / AI 服务平台 / 云端推理接口
+# - 来源：主流服务域名抓包 / 社区整理 / 手动校验
+# - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 # > OpenAI Chat 系列
 DOMAIN-SUFFIX,openai.com               // OpenAI 主站域名

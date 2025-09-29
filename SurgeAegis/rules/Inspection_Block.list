@@ -1,4 +1,9 @@
-# # 监控 / 审计/DPI 节点 - 涉及机场节点、可疑开放端口、非正常 VPS 使用行为、涉及 DPI或疑似 GFW 操作段（建议封锁）
+# » DPI_Surveillance.list（监控 / 审计 / DPI 节点规则集）
+# - 分类：流量审计节点 / DPI 探测端口 / 异常 VPS 行为
+# - 来源：实测数据分析 / 网络安全社区披露 / GFW 泄露信息
+# - 特征：涵盖机场节点异常端口暴露、VPS 非正常通信行为、疑似 DPI 扫描与 GFW 控制段
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 IP-CIDR,121.204.244.100/32 // OCSP 劫持监听节点（DigiCert · Quanzhou · AS133776）
 IP-CIDR,104.18.12.123/32 // C2 通信疑似

@@ -1,4 +1,9 @@
-# # **后门行为与恶意活动** -  识别已知回连域名、伪装更新、污染DNS回连等行为，覆盖后门程序常用域名与行为模式（建议封锁）
+# » Backdoor.list（后门行为与恶意活动规则集）
+# - 分类：后门程序 / 恶意连接 / 可疑网络活动
+# - 来源：ThreatFox / Abuse.ch / 安全厂商分析 / 实际回连行为捕获
+# - 特征：涵盖伪装更新服务、DNS 污染重定向、远控连接、C2 回连等恶意通信行为
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 DOMAIN-SUFFIX,topmicrosoftmarketing.com // 疑似仿冒微软营销域名，疑似用于钓鱼回连
 DOMAIN-SUFFIX,intanschools.py628fxjlk-gok67gvk2652.p.temp-site.link // 一次性临时域名，疑似远控或恶意落地页

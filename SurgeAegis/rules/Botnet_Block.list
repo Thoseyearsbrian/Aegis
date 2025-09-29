@@ -1,4 +1,9 @@
-# # 僵尸网络 / 控制器 IP（建议封锁）
+# » Botnet.list（僵尸网络 / 控制器 IP 规则集）
+# - 分类：僵尸网络 / 木马控制器 / 持久化攻击节点
+# - 来源：ThreatFox / AbuseIPDB / 安全厂商黑名单 / 社区共享威胁情报
+# - 特征：涵盖常见僵尸网络控制器、命令与控制（C2）IP、横向移动与扫描节点等行为特征
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 IP-CIDR,222.186.181.100/32,REJECT,no-resolve // UDP/443 长连，徐州段，C2 常用
 IP-CIDR,222.187.225.3/32,REJECT,no-resolve // 江苏已知恶意 C2 控制节点

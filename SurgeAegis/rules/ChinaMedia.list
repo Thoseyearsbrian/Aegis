@@ -1,7 +1,9 @@
-# > 国内流媒体平台规则集（ChinaMedia.list）
-# > 包含中国大陆主流视频、音乐、电台平台域名
-# > 建议绑定至策略组：Streaming_CN（国内流媒体）
-# > 注意：哔哩哔哩相关域名不在本规则集中，已归类至 Bilibili.list 独立管理
+# » ChinaMedia.list（国内流媒体平台规则集）
+# - 分类：中国大陆流媒体平台 / 视频音乐服务 / 策略识别用途
+# - 来源：主流平台域名抓包 / 社区规则整理 / 手动校验补充
+# - 特征：涵盖常用大陆视频、音乐、电台平台域名，便于策略识别与分流（哔哩哔哩已独立归类至 Bilibili.list）
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 # >> 视频平台
 DOMAIN-SUFFIX,youku.com // 优酷视频

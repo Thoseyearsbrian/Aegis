@@ -1,4 +1,9 @@
-# > PayPal 相关服务域名与 IP（建议 PROXY 或直连）
+# » PayPal.list（PayPal 支付平台规则集）
+# - 分类：支付平台 / 金融服务 / 网络结算
+# - 来源：官方文档 / 社区整理 / 流量实测
+# - 特征：涵盖 PayPal 支付接口、结算平台、用户账户系统相关域名与 IP
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 # >> PayPal 主服务域名
 DOMAIN-SUFFIX,paypal.com // PayPal 官方主站及支付入口
