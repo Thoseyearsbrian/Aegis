@@ -6,32 +6,32 @@
 # - 更新时间：2025-09-29
 
 # » 通用代理订阅平台 / 节点服务
-DOMAIN-SUFFIX,api.subs.ee,Proxy # 常见订阅转换服务平台
-DOMAIN-SUFFIX,subconverter,Proxy # Sub-Converter 节点格式转换工具
-DOMAIN-SUFFIX,sub-web.netlify.app,Proxy # Sub-Web 可视化订阅前端
-DOMAIN-SUFFIX,sub-web.vercel.app,Proxy # Sub-Web 部署版本（Vercel）
-DOMAIN-SUFFIX,sub.pmsub.me,Proxy # PMSUB 节点订阅服务
-DOMAIN-SUFFIX,cfmem.com,Proxy # cfmem.com 节点分发平台
-DOMAIN-SUFFIX,nexitally.com,Proxy # Nexitally 节点/订阅服务平台
+DOMAIN-SUFFIX,api.subs.ee // 常见订阅转换服务平台
+DOMAIN-SUFFIX,subconverter // Sub-Converter 节点格式转换工具
+DOMAIN-SUFFIX,sub-web.netlify.app // Sub-Web 可视化订阅前端
+DOMAIN-SUFFIX,sub-web.vercel.app // Sub-Web 部署版本（Vercel）
+DOMAIN-SUFFIX,sub.pmsub.me // PMSUB 节点订阅服务
+DOMAIN-SUFFIX,cfmem.com // cfmem.com 节点分发平台
+DOMAIN-SUFFIX,nexitally.com // Nexitally 节点/订阅服务平台
 
 # » VPN / 科学上网工具相关域名
-DOMAIN-SUFFIX,getoutline.org,Proxy # Outline VPN 官方域名
-DOMAIN-SUFFIX,surfshark.com,Proxy # Surfshark VPN 官网
-DOMAIN-SUFFIX,nordvpn.com,Proxy # NordVPN 官网与服务接口
-DOMAIN-SUFFIX,expressvpn.com,Proxy # ExpressVPN 官网
-DOMAIN-SUFFIX,privateinternetaccess.com,Proxy # PIA VPN 提供商
+DOMAIN-SUFFIX,getoutline.org // Outline VPN 官方域名
+DOMAIN-SUFFIX,surfshark.com // Surfshark VPN 官网
+DOMAIN-SUFFIX,nordvpn.com // NordVPN 官网与服务接口
+DOMAIN-SUFFIX,expressvpn.com // ExpressVPN 官网
+DOMAIN-SUFFIX,privateinternetaccess.com  // PIA VPN 提供商
 
 # » 代理软件 / 中转平台相关服务
-DOMAIN-SUFFIX,fastly.net,Proxy # Fastly CDN，常被用于代理服务加速中转
-DOMAIN-SUFFIX,relay.firefox.com,Proxy # Firefox Relay 服务（匿名邮箱与中转）
-DOMAIN-SUFFIX,cloudcone.com,Proxy # CloudCone VPS 提供商
-DOMAIN-SUFFIX,cloudways.com,Proxy # Cloudways 云平台，部分代理部署平台
-DOMAIN-SUFFIX,v2rayssr.com,Proxy # v2ray+ssr 综合配置下载站
+DOMAIN-SUFFIX,fastly.net // Fastly CDN，常被用于代理服务加速中转
+DOMAIN-SUFFIX,relay.firefox.com // Firefox Relay 服务（匿名邮箱与中转）
+DOMAIN-SUFFIX,cloudcone.com // CloudCone VPS 提供商
+DOMAIN-SUFFIX,cloudways.com // Cloudways 云平台，部分代理部署平台
+DOMAIN-SUFFIX,v2rayssr.com // v2ray+ssr 综合配置下载站
 
 # » 其他第三方托管与节点来源
-DOMAIN-SUFFIX,recloudstream.github.io,Proxy # CloudStream 项目 Github Pages 托管
-DOMAIN-SUFFIX,freefq.com,Proxy # 免费节点分享网站
-DOMAIN-SUFFIX,dlj.tf,Proxy # Telegram Bot 或订阅地址常见跳转域
+DOMAIN-SUFFIX,recloudstream.github.io // CloudStream 项目 Github Pages 托管
+DOMAIN-SUFFIX,freefq.com // 免费节点分享网站
+DOMAIN-SUFFIX,dlj.tf // Telegram Bot 或订阅地址常见跳转域
 DOMAIN,steambroadcast.akamaized.net
 DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,steampipe.akamaized.net
