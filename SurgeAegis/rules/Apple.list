@@ -1,101 +1,110 @@
-# > 苹果服务规则集（Apple_Services.list）
-# > 规则说明：用于识别 Apple 官方服务相关域名及 IP 段，适用于策略分流或白名单放行
-# > 建议：绑定至 Surge 策略组 Apple / DIRECT 或 Apple / PROXY，根据用户需求设置
+# » Apple_Services.list（苹果服务识别与策略规则集）
+# - 分类：Apple 官方服务 / 系统组件 / 网络行为
+# - 来源：Apple 官方文档 / 实测抓包 / 社区整理
+# - 特征：涵盖 Apple ID 登录、iCloud 同步、推送通知、地图服务、激活更新等常见网络行为
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-09-29
 
 # > Apple 官方 IP 地址段（全球基础设施）
-IP-CIDR,17.0.0.0/8
-IP-CIDR,139.178.128.0/18
-IP-CIDR,144.178.0.0/19
-IP-CIDR,144.178.36.0/22
-IP-CIDR,144.178.48.0/20
-IP-CIDR,192.35.50.0/24
-IP-CIDR,198.183.17.0/24
-IP-CIDR,205.180.175.0/24
-IP-CIDR,63.92.224.0/19
-IP-CIDR,65.199.22.0/23
+IP-CIDR,17.0.0.0/8 # Apple 主体 AS 编号（AS714）
+IP-CIDR,139.178.128.0/18 # Apple iCloud 数据中心段
+IP-CIDR,144.178.0.0/19 # Apple 边缘服务段
+IP-CIDR,144.178.36.0/22 # Apple CDN 节点段
+IP-CIDR,144.178.48.0/20 # Apple Fastly 相关边缘段
+IP-CIDR,192.35.50.0/24 # Apple 服务节点（包括 swdist）
+IP-CIDR,198.183.17.0/24 # Apple 服务节点（旧）
+IP-CIDR,205.180.175.0/24 # Apple 技术服务
+IP-CIDR,63.92.224.0/19 # Apple Maps / CDN 服务段
+IP-CIDR,65.199.22.0/23 # Apple Relay / 配置相关段
+IP-CIDR,17.253.0.0/16 # iCloud 内容同步段
+IP-CIDR,17.250.0.0/16 # Apple Push & Activation 服务
+IP-CIDR,17.248.0.0/16 # Apple CDN 服务段
 
 # > Apple 官方主域名（基础服务）
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mac.com
-DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,apple-dns.cn
-DOMAIN-SUFFIX,apple-darwin.com
-DOMAIN-SUFFIX,apple-mapkit.com
-DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apple.com # Apple 主域名
+DOMAIN-SUFFIX,icloud.com # iCloud 云服务
+DOMAIN-SUFFIX,me.com # Apple 旧邮箱服务
+DOMAIN-SUFFIX,mac.com # Apple 旧域名服务
+DOMAIN-SUFFIX,itunes.com # iTunes 内容服务
+DOMAIN-SUFFIX,apple-dns.net # Apple 公共 DNS 域名
+DOMAIN-SUFFIX,apple-dns.cn # Apple 中国区 DNS 域名
+DOMAIN-SUFFIX,apple-darwin.com # Apple Darwin 内核相关服务
+DOMAIN-SUFFIX,apple-mapkit.com # Apple MapKit 地图服务
+DOMAIN-SUFFIX,apple-livephotoskit.com # Live Photos 相关服务
+DOMAIN-SUFFIX,apple-cloudkit.com # iCloud CloudKit 后端服务
 
 # > CDN 与边缘服务（用于内容分发 / 镜像）
-DOMAIN-SUFFIX,apple.comscoreresearch.com
-DOMAIN-SUFFIX,appleworldwidedeveloper.hb-api.omtrdc.net
-DOMAIN-SUFFIX,appleworldwidedeveloper.sc.omtrdc.net
-DOMAIN-SUFFIX,beatselectronicsllc.tt.omtrdc.net
-DOMAIN,appldnld.apple.com.edgesuite.net
-DOMAIN,e16991.b.akamaiedge.net
-DOMAIN,lookup-api.apple.com.edgekey.net
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-KEYWORD,apple.com.akadns.net
-DOMAIN-KEYWORD,apple.com.edgekey.net
-DOMAIN-SUFFIX,apple-com.akamaized.net
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com // Apple iCloud Private Relay 中继节点（Fastly 提供），拦截将导致私密中继不可用
+DOMAIN-SUFFIX,appleworldwidedeveloper.hb-api.omtrdc.net # Adobe Omniture 分析平台中转（WWDC）
+DOMAIN-SUFFIX,appleworldwidedeveloper.sc.omtrdc.net # 同上，南加州节点
+DOMAIN-SUFFIX,beatselectronicsllc.tt.omtrdc.net # Beats by Dre 服务统计
+DOMAIN,appldnld.apple.com.edgesuite.net # Apple 下载边缘节点（Akamaized）
+DOMAIN,e16991.b.akamaiedge.net # Akamai CDN Apple 下载节点
+DOMAIN,lookup-api.apple.com.edgekey.net # DNS 加速服务节点（akamai）
+DOMAIN-SUFFIX,akadns.net # Akamai 公用 DNS
+DOMAIN-KEYWORD,apple.com.akadns.net # Apple CDN DNS 加速服务
+DOMAIN-KEYWORD,apple.com.edgekey.net # Apple 边缘镜像服务（Akamai）
+DOMAIN-SUFFIX,apple-com.akamaized.net # Apple CDN 主通道
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com # Apple iCloud Relay 中继服务（Fastly）
 
 # > 开发者相关
-DOMAIN-SUFFIX,developer.apple.com
-DOMAIN-SUFFIX,testflight.apple.com
-DOMAIN-KEYWORD,testflight
+DOMAIN-SUFFIX,developer.apple.com # Apple 开发者网站
+DOMAIN-SUFFIX,testflight.apple.com # TestFlight 测试分发平台
+DOMAIN-KEYWORD,testflight # TestFlight 流量匹配关键字
 
 # > 安全验证与支付
-DOMAIN-SUFFIX,apple-pay.com
-DOMAIN-SUFFIX,appleid.apple.com
-DOMAIN-SUFFIX,securemetrics.apple.com
-DOMAIN-SUFFIX,safebrowsing.apple
+DOMAIN-SUFFIX,apple-pay.com # Apple Pay 支付域名
+DOMAIN-SUFFIX,appleid.apple.com # Apple ID 登录验证域名
+DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
+DOMAIN-SUFFIX,safebrowsing.apple # Apple 安全浏览服务
+DOMAIN-SUFFIX,itunesconnect.apple.com # 开发者上传与管理平台
+DOMAIN-SUFFIX,sandbox.itunes.apple.com # 支付沙盒环境
 
 # > 内容服务：Apple Music / iCloud / App Store
-DOMAIN-SUFFIX,applemusic.com
-DOMAIN-SUFFIX,applemusicconnect.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,apps.apple.com
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,icloud.com.cn // 中国大陆区 iCloud 接入服务（云上贵州 · cloudd）
-PROCESS-NAME,cloudd // 中国大陆区 iCloud 接入服务（云上贵州 · cloudd）
+DOMAIN-SUFFIX,applemusic.com # Apple Music 官方服务
+DOMAIN-SUFFIX,applemusicconnect.com # Apple Music 社交功能（已下线）
+DOMAIN-SUFFIX,itunes.apple.com # iTunes 访问入口
+DOMAIN-SUFFIX,apps.apple.com # App Store 应用商店页面
+DOMAIN-SUFFIX,appstore.com # Apple App Store 快捷域名
+DOMAIN-SUFFIX,appsto.re # App Store 短链服务
+DOMAIN-SUFFIX,icloud-content.com # iCloud 内容下载域名
+DOMAIN-SUFFIX,mzstatic.com # iTunes/App Store 内容分发 CDN
+DOMAIN-SUFFIX,icloud.com.cn # 中国大陆 iCloud 接入服务（云上贵州）
+PROCESS-NAME,cloudd # 云上贵州 iCloud 同步进程（本地标识）
 
 # > 推送通知 / iMessage / 时间同步（系统服务）
-DOMAIN-SUFFIX,push.apple.com
-DOMAIN-SUFFIX,ess.apple.com
-DOMAIN-SUFFIX,imessage-analysis.apple.com
-DOMAIN-SUFFIX,time-ios.apple.com
+DOMAIN-SUFFIX,push.apple.com # Apple 推送服务（APNS）
+DOMAIN-SUFFIX,ess.apple.com # iMessage / FaceTime 服务器
+DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
+DOMAIN-SUFFIX,time-ios.apple.com # iOS 时间同步服务（辅助）
 
 # > 初始配置 / 激活 / Siri（系统启动阶段）
-DOMAIN-SUFFIX,configuration.apple.com
-DOMAIN-SUFFIX,init-p01md.apple.com
-DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,configuration.apple.com # 系统初始化配置服务
+DOMAIN-SUFFIX,init-p01md.apple.com # Apple 初始激活域名
+DOMAIN-SUFFIX,guzzoni.apple.com # Siri 请求服务
 
 # > Apple Maps 、Apple 定位服务与 JS 服务（地图定位）
-DOMAIN-SUFFIX,mapkitjs.apple.com
-DOMAIN-SUFFIX,cdn-apple-mapkit.com
-DOMAIN,gspe1-ssl.ls.apple.com,DIRECT
-DOMAIN,gspe1-ssl.apple.com,DIRECT
-DOMAIN-SUFFIX,gs-loc-cn.apple.com // 定位服务（locationd · 中国节点）
-DOMAIN-SUFFIX,gs-loc.apple.com // 备用全球定位服务
+DOMAIN-SUFFIX,mapkitjs.apple.com # Apple MapKit JavaScript 服务
+DOMAIN-SUFFIX,cdn-apple-mapkit.com # Apple 地图 CDN 服务
+DOMAIN,gspe1-ssl.ls.apple.com,DIRECT # Apple 定位服务器（全球）
+DOMAIN,gspe1-ssl.apple.com,DIRECT # Apple 定位服务器（备用）
+DOMAIN-SUFFIX,gs-loc-cn.apple.com # Apple 中国区定位服务
+DOMAIN-SUFFIX,gs-loc.apple.com # Apple 全球定位服务（备用）
 
 # > 系统更新与描述文件（macOS Software Update Services）
-DOMAIN,swdist.apple.com
-DOMAIN,swscan.apple.com
+DOMAIN,swdist.apple.com # macOS 系统软件分发服务器
+DOMAIN,swscan.apple.com # macOS 系统更新索引服务
 
 # > 实时通信遥测上报（FaceTime / iMessage / Handoff 统计）
-# - 由 rtcreportingd 进程调用，用于报告 RTC 网络质量
-DOMAIN,pancake.apple.com
-PROCESS-NAME,rtcreportingd
+DOMAIN,pancake.apple.com # Apple RTC 网络质量上报服务
+PROCESS-NAME,rtcreportingd # 实时通信上报进程
 
 # > 时间同步服务（NTP）
-# - 由 timed 进程调用，用于系统时间同步
-DOMAIN,time.apple.com
-PROCESS-NAME,timed
+DOMAIN,time.apple.com # Apple 时间同步主服务
+PROCESS-NAME,timed # 系统时间同步进程
 
 # > 辅助与匿名域名（可能存在误判，但系统常用）
-DOMAIN,edge.apple
-DOMAIN,icons.axm-usercontent-apple.com
+DOMAIN,edge.apple # Apple 边缘服务匿名域名
+DOMAIN,icons.axm-usercontent-apple.com # Apple 用户内容托管域名
+PROCESS-NAME,apsd # Apple Push 服务进程
+PROCESS-NAME,locationd # Apple 定位组件进程
+PROCESS-NAME,syncdefaultsd # Apple iCloud 同步进程

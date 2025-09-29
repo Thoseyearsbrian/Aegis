@@ -37,3 +37,4 @@ DOMAIN-SUFFIX,intercom.io // GPT客服系统，仅影响客服系统，不影响
 DOMAIN-SUFFIX,intercomcdn.com // GPT客服系统静态资源，仅影响客服系统，不影响核心功能。
 DOMAIN-SUFFIX,radarsubmissions.apple.com  // Apple Radar 缺陷报告提交接口，仅用于开发者反馈，不影响系统核心功能，建议拦截
 IP-CIDR,180.163.117.165/32,REJECT,no-resolve // 上海电信 · TLS 会话注入行为 · 可疑 DPI 节点
+DOMAIN-SUFFIX,comscoreresearch.com  # 第三方统计公司 comScore，与 Apple 并无强关联
