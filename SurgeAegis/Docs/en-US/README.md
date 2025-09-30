@@ -16,11 +16,11 @@ A high-performance, cross-platform rule repository focused on network-layer defe
 
 ## **Project Background**
 
-[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a fully self-maintained, open-source rule set project focused on modern network-layer threats. It helps users worldwide build localized, client-side firewall systems by blocking DNS pollution, APT attack infrastructures, SDK tracking domains, backdoor communications, and malicious C2 servers. It includes rules against global high-risk threats such as Pegasus spyware C2 infrastructure and anomalous behavior patterns.
+[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a fully community-maintained network security rule set focused on defending against modern network-layer threats. It aims to help global users build localized and efficient defense systems. The project blocks DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, and C2 controllers, and further extends coverage to major global ad and tracking domains, enabling precise local traffic identification and efficient interception. It also includes rules for multiple high-risk attack sources worldwide, including infrastructure and behavioral signatures related to Pegasus spyware.
 
-The project enforces encrypted DNS usage and explicitly blocks plaintext DNS requests to ensure communication security, transparency, and full user-side traffic control. Even on devices such as iPhones, which lack traditional endpoint protection, Aegis provides effective flow-level protection.
+The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
 
-Additionally, the project provides an optional high-trust module — CA_Block.list — which blocks controversial or publicly revoked root CAs, OCSP endpoints, and CRL domains worldwide. This is intended for users with high digital trust requirements and helps reduce risks related to man-in-the-middle attacks or malicious certificate chains.
+In addition, Aegis offers an optional advanced module — CA_Block.list — which targets controversial or revoked root certificate authorities, OCSP endpoints, and CRL domains worldwide. This module is designed for users with higher digital trust requirements, helping to reduce the risk of man-in-the-middle attacks and malicious certificate chains.
 
 ## **Key Features**
 
