@@ -1,7 +1,7 @@
 <h1 align="center">Aegis — Surge 个人数字防火墙规则集</h1>
 <p align="center">
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-1.PNG" width="300"></img>
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-2.PNG" width="300"></img>
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-1.png" width="300"></img>
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-2.png" width="300"></img>
 </p>
 
 <p align="center">
