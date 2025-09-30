@@ -1,7 +1,7 @@
 <h1 align="center">Aegis — Surge 个人数字防火墙规则集</h1>
 <p align="center">
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/Icons/Groups/group-policy-mobile-1.PNG" width="300"></img>
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/Icons/Groups/group-policy-mobile-2.PNG" width="300"></img>
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-1.PNG" width="300"></img>
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-2.PNG" width="300"></img>
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@ SurgeAegis（EN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/mai
 复制配置链接 -> 打开 Surge -> 从URL下载配置 -> 粘贴链接 -> 在文本模式中编辑 -> 修改“你的节点”至对应参数 -> 完成!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/Icons/Groups/surge-config-import-guide-step-by-step.png" width="600">
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step.png" width="600">
 </p>
 
 
@@ -61,7 +61,7 @@ SurgeAegis（EN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/mai
 1. **禁用或删除** 与 **中国大陆 IP 地址段** 相关的规则或规则集
 
    ``` bash
-   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/rules/China.list, DIRECT # 禁用或删除类似规则
+   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list, DIRECT # 禁用或删除类似规则
    GEOIP,CN,DIRECT # 与上一条类似的规则与本条规则不可共存
    ```
 
@@ -140,7 +140,7 @@ SurgeAegis（EN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/mai
 
 ## 🏅 版权声明
 
-**版权与分发**：本项目采用 [MIT License](https://github.com/EAlyce/conf/blob/main/LICENSE) 授权。你可以自由使用、修改与分发本项目内容，包括用于商业用途。
+**版权与分发**：本项目采用 [MIT License](https://github.com/Thoseyearsbrian/Aegis/main/LICENSE) 授权。你可以自由使用、修改与分发本项目内容，包括用于商业用途。
 
 我们鼓励你遵循开源精神：
 
