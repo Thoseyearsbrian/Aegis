@@ -1,47 +1,10 @@
-# » DPI_Surveillance.list（监控 / 审计 / DPI 节点规则集）
+# » Inspection_Bolck.list（监控 / 审计 / DPI 节点规则集）
 # - 分类：流量审计节点 / DPI 探测端口 / 异常 VPS 行为
 # - 来源：实测数据分析 / 网络安全社区披露 / GFW 泄露信息
 # - 特征：涵盖机场节点异常端口暴露、VPS 非正常通信行为、疑似 DPI 扫描与 GFW 控制段
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-09-30
 
-IP-CIDR,121.204.244.100/32 // OCSP 劫持监听节点（DigiCert · Quanzhou · AS133776）
-IP-CIDR,104.18.12.123/32 // C2 通信疑似
-IP-CIDR,59.37.173.74 // C2 通信疑似
-IP-CIDR,172.67.193.45/32 // Cloudflare 假名服务器
-IP-CIDR,36.110.0.0/16 // DPI/审计设备出口段，常见注入特征
-IP-CIDR,27.221.0.0/16 // Portal 认证重定向段，DNS/HTTP异常返回
-IP-CIDR,123.125.0.0/16 // 搜索引擎解析段，存在 DNS 污染特征
-IP-CIDR,220.181.0.0/16 // DNS 跳转/注入广告内容
-IP-CIDR,111.206.0.0/16 // 响应注入异常段，含链路监控行为
-IP-CIDR,101.6.6.3/32 // 教育网跳转节点
-IP-CIDR,202.106.0.0/16 // DNS 污染记录，存在非标准返回
-IP-CIDR,203.86.0.0/16 // 教育网/政务出口，曾出现 HTTP 302 插入
-IP-CIDR,61.139.2.69/32 // 四川电信经典 DNS 污染返回 IP（毒池）
-IP-CIDR,202.96.128.166/32 // 广东电信 DNS fallback 回退地址
-IP-CIDR,202.103.24.68/32 // 湖北电信回退地址，常见于 DNS 劫持回源
-DOMAIN-SUFFIX,flurry.com // Flurry：广告SDK监听域名，常被用于用户行为分析与上传
-DOMAIN-SUFFIX,zscaler.net // Zscaler：云审计代理域名，如非企业接入，建议封锁
-DOMAIN-SUFFIX,pwnz.io // Pwnz：疑似用于APT测试或灰产节点，可疑，建议拦截
-DOMAIN-SUFFIX,m.baidu.com // 百度移动搜索跳转页，含广告/灰产跳转链，建议封锁
-IP-CIDR,143.244.50.0/24 // 匿名 VPS 区段，常用于反代 / 控制器部署
-IP-CIDR,143.244.49.177/32 // 美西匿名 VPS，HTTPS 心跳特征
-IP-CIDR,143.244.49.180/32 // 同上，持续 TLS 通信，疑似控制通道
-IP-CIDR,79.133.171.16/32 // 欧洲段远控节点
-IP-CIDR,79.133.171.0/24 // 欧洲段 VPS 区段，灰产项目常用
-IP-CIDR,59.37.173.72/32 // 可疑回传上传出口，已建立多个上传连接
-IP-CIDR,58.152.119.49/32 // 可疑反复连接 IP，可能是监听或后门连接
-DOMAIN-SUFFIX,stun.l.google.com // Google STUN 服务，常用于 WebRTC/UDP 打洞通信
-DOMAIN-KEYWORD,p2p // 匹配含 p2p 的域名，用于封锁点对点连接行为
-DOMAIN-SUFFIX,6pzftj.com // 可疑机场节点主域名，存在潜在代理控制风险
-IP-CIDR,183.60.123.112/32 // 广东电信疑似投毒/回传节点，建议封锁
-DOMAIN-SUFFIX,snapkit.com // Snap 公司旗下数据收集 SDK，常嵌入第三方 App
-IP-CIDR,104.244.76.13/32 // Tor 出口节点，PONYNET ASN，社区评分极差
-DOMAIN-SUFFIX,browser-intake-datadoghq.com // Datadog 浏览器监控
-DOMAIN-SUFFIX,o33249.ingest.us.sentry.io // Sentry 错误监控上报
-DOMAIN-SUFFIX,statsig.com // GPT功能开关与实验控制
-DOMAIN-SUFFIX,intercom.io // GPT客服系统，仅影响客服系统，不影响核心功能。
-DOMAIN-SUFFIX,intercomcdn.com // GPT客服系统静态资源，仅影响客服系统，不影响核心功能。
-DOMAIN-SUFFIX,radarsubmissions.apple.com  // Apple Radar 缺陷报告提交接口，仅用于开发者反馈，不影响系统核心功能，建议拦截
-IP-CIDR,180.163.117.165/32,REJECT,no-resolve // 上海电信 · TLS 会话注入行为 · 可疑 DPI 节点
-DOMAIN-SUFFIX,comscoreresearch.com  # 第三方统计公司 comScore，与 Apple 并无强关联
+IP-CIDR,104.244.76.13/32 // Tor 出口节点（PONYNET ASN），在 AbuseIPDB 上有数千次滥用举报，存在高风险通信行为，建议封锁
+DOMAIN-SUFFIX,flurry.com // Flurry 广告行为分析 SDK，常用于用户行为上传，可用于广告识别监控，建议用于追踪控制分流
+DOMAIN-SUFFIX,zscaler.net // 云代理服务 Zscaler，若非企业环境建议封锁以避免隧道式通信通道
