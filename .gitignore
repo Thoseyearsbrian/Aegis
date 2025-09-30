@@ -1,2 +1,38 @@
-# 忽略 macOS 系统生成的临时文件
+# macOS 系统文件
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS 文件服务元数据
+._*
+
+# macOS 文件夹自定义设置（如背景图）
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# VS Code 项目设置
+.vscode/
+
+# Typora / Markdown 图床缓存
+assets/
+*.assets/
+
+# Surge 临时缓存或错误日志（如有）
+*.log
+*.tmp
+
+# Node.js / npm 临时缓存（如你以后使用）
+node_modules/
+npm-debug.log*
+
+# Python 虚拟环境（如果用 Python 工具处理规则）
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+
+# Git 忽略规则本身
+.gitignore
