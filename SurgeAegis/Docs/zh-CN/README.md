@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="./SurgeAegis/Docs/en-US/README.md"><b>【English Documentation Here】</b></a>
+  <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/SurgeAegis/Docs/en-US/README.md"><b>【English Documentation Here】</b></a>
 </p>
 
 A high-performance, cross-platform rule repository focused on network-layer defense. Designed for Surge, Clash, QuantumultX and OpenWrt. Protects against APT threats, DNS poisoning, malicious C2 traffic, SDK telemetry, and botnet sources. Supports iOS, macOS, Windows, Android, and router platforms.
