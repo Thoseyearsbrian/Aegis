@@ -1,4 +1,4 @@
-<h1 align="center">Aegis — Surge 个人数字防火墙规则集</h1>
+<h1 align="center">Aegis — Personal Firewall Rule Set for Surge</h1>
 <p align="center">
 <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-1.png" width="300"></img>
 <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-2.png" width="300"></img>
@@ -12,146 +12,147 @@
   <img src="https://img.shields.io/github/last-commit/Thoseyearsbrian/Aegis" alt="Last Commit" />
 </p>
 
-A high-performance, cross-platform rule repository focused on network-layer defense. Designed for Surge, Clash, QuantumultX and OpenWrt. Protects against APT threats, DNS poisoning, malicious C2 traffic, SDK telemetry, and botnet sources. Supports iOS, macOS, Windows, Android, and router platforms.
+<p align="center">
+  <a href="./SurgeAegis/Docs/zh-CN/README.md"><b>【中文文档点此进入】</b></a>
+</p>
 
-## 项目背景
+A high-performance, cross-platform rule repository focused on network-layer defense. Designed for Surge, Clash, QuantumultX, and OpenWrt. Protects against APT threats, DNS poisoning, malicious C2 traffic, SDK telemetry, and botnet sources. Supports iOS, macOS, Windows, Android, and router platforms.
 
-[Aegis](https://github.com/Thoseyearsbrian/Aegis)是一个完全由个人维护的网络安全规则集，专注于应对现代网络层威胁，旨在帮助全球用户构建本地化的网络防御体系。项目通过封锁DNS 污染、APT 攻击源、SDK回传监听、后门域名、C2 控制器等潜在通信行为，并进一步扩展至全球主流广告与追踪域名的拦截，实现本地流量精准识别与高效阻断。同时，项目已收录多个全球高风险攻击源的规则集，其中包括 Pegasus（飞马）间谍软件的相关通信基础设施与行为特征识别策略。
+## **Project Background**
 
-本项目全面采用加密 DNS，拒绝明文请求，确保通信加密与隐私安全。即便在如 iPhone 等缺乏传统安全软件支持的设备上，亦可提供流量层级的有效防护。
+[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a fully community-maintained network security rule set focused on defending against modern network-layer threats. It aims to help global users build localized and efficient defense systems. The project blocks DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, and C2 controllers, and further extends coverage to major global ad and tracking domains, enabling precise local traffic identification and efficient interception. It also includes rules for multiple high-risk attack sources worldwide, including infrastructure and behavioral signatures related to Pegasus spyware.
 
-此外，Aegis 还额外提供一个可选启用的高级模块 — CA_Block.list，用于拦截全球范围内存在安全争议或曾被公开吊销的 CA 根证书、OCSP 接口与吊销列表（CRL）域名。该模块适用于有更高数字信任要求的用户，可进一步减少中间人攻击与恶意证书链的潜在风险。
+The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
 
-## 项目优势
+In addition, Aegis offers an optional advanced module — CA_Block.list — which targets controversial or revoked root certificate authorities, OCSP endpoints, and CRL domains worldwide. This module is designed for users with higher digital trust requirements, helping to reduce the risk of man-in-the-middle attacks and malicious certificate chains.
 
-Aegis 规则集致力于识别与拦截以下高风险通信行为：
+## **Key Features**
 
-- APT 攻击组织的 C2 基础设施
-- SDK 行为指纹与回传监听域名
-- DNS 污染 / 劫持 / 注入行为
-- 僵尸网络、远控后门与恶意控制器
-- 广告追踪、行为监控与监听型 CDN节点
+Aegis is designed to detect and block the following high-risk communications:
 
-Aegis 支持主流平台如 **Surge、Clash、QuantumultX、OpenWrt**，兼容 iOS、macOS、Windows、Android 等多系统环境，具备良好的可读性、可审计性与模块化部署能力，适用于策略分流、防火墙辅助配置等多种应用场景。你还可以按需启用高级模块 CA_Block.list，用于屏蔽高风险 CA 根证书验证行为，从而进一步强化中间人攻击的防御能力。
+- APT command-and-control (C2) infrastructure
+- SDK telemetry and behavioral fingerprinting
+- DNS poisoning / injection / hijacking behavior
+- Botnets, remote access Trojans, and malware C2 channels
+- Ad tracking, behavior analytics, and listening CDNs
 
-## 项目理念
+It supports **Surge**, **Clash**, **QuantumultX**, **OpenWrt**, and other platforms, and works on iOS, macOS, Windows, Android, and router environments. Rules follow a unified structure with professional annotations, making them readable, auditable, and easy to integrate.You can optionally enable the advanced module CA_Block.list, which blocks high-risk root CA validation behaviors to further strengthen protection against man-in-the-middle (MITM) attacks.
 
-Aegis 是一个坚持技术中立、信息透明、自主独立的安全规则项目。  我坚信每个人都应拥有对其网络流量的知情权与控制权。因此，Aegis 不接受任何形式的商业投资或资本控制，为保持纯粹的独立性与安全可信性，所有配置文件完全由本人手工编写与审计，并附带完整注释，以确保每一条拦截规则都公开、真实、可控、无污染。
+## **Philosophy**
 
-## 自动化更新
+Aegis adheres to technical neutrality, information transparency, and complete independence. I firmly believe every individual has the right to understand and control their network traffic. Therefore, Aegis does **not** accept any form of commercial investment or capital control. To ensure purity, trust, and security, all configurations are handcrafted and audited by me, with complete annotations to guarantee every rule is transparent, verifiable, and pollution-free.
 
-Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最新状态，支持 Surge、Clash 、QuantumultX等工具远程订阅使用。
+## **Auto Update**
 
-## 配置链接
+Aegis uses GitHub-based versioning and automation to stay up to date without manual intervention. It supports remote subscription through Surge, Clash, QuantumultX, and other tools.
+
+## **Configuration Links**
 
 SurgeAegis（CN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_CN.conf  
 SurgeAegis（EN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_EN.conf  
 
-## 配置方式
+## **Configuration Guide**
 
-复制配置链接 -> 打开 Surge -> 从URL下载配置 -> 粘贴链接 -> 在文本模式中编辑 -> 修改“你的节点”至对应参数 -> 完成!
+Copy the configuration link → Open Surge → Download from URL → Paste the link → Edit in Text Mode → Replace your node with the correct parameter → Done!
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step.png" width="600">
 </p>
 
+## **⚠️ Notes**
 
-## ⚠️ 注意事项
+1. **Disable or remove** CN-specific rules such as:
 
-1. **禁用或删除** 与 **中国大陆 IP 地址段** 相关的规则或规则集
+```
+RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list,DIRECT
+GEOIP,CN,DIRECT
+```
 
-   ``` bash
-   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list, DIRECT # 禁用或删除类似规则
-   GEOIP,CN,DIRECT # 与上一条类似的规则与本条规则不可共存
-   ```
+2. Place GEOIP,CN rule right before the final rule:
 
-2.  GEOIP-CN 查询规则建议**紧随最终规则之上**，以避免域名规则被忽略导致判断错误。
+```
+GEOIP,CN,DIRECT
+FINAL,REJECT
+```
 
-    ``` bash
-    # ... 省略其他规则 ...
-    GEOIP,CN,DIRECT # 建议在这里使用规则
-    FINAL,REJECT # 最终规则
-    ```
+3. The GeoIP database only includes **mainland China** IPs. Avoid querying other countries:
 
-3. 规则中**不可以**存在其他国家或地区的 `GEOIP` 查询规则，因为项目提供的数据库中**仅包含中国大陆地区的 IP 地址段记录**
 
-   ``` bash
-   GEOIP, US, PROXY # 错误，无法查询到相关记录
-   GEOIP, AU, PROXY # 错误，无法查询到相关记录
-   GEOIP, HK, PROXY # 错误，无法查询到相关记录
-   GEOIP, CN, DIRECT # 正确
-   ```
 
-## 🌟 特别致谢
+```
+GEOIP,US,PROXY  # Invalid
+GEOIP,HK,PROXY  # Invalid
+GEOIP,CN,DIRECT # Valid
+```
 
-本项目在设计与整理过程中，参考并借鉴了 GitHub 社区中众多优秀开源项目，谨向所有为开源社区作出贡献的开发者致以诚挚感谢。
+## **🌟 Special Thanks**
 
-为满足个人网络安全防护需求，本项目在既有规则基础上进行了深度定制与安全优化。为保障项目的完整性、安全性与长期可用性，所有使用的素材与规则均通过本仓库自托管，避免因依赖第三方源而引发的更新失效或信任风险。
+This project is inspired by many outstanding community contributions. Key references include:
 
-### **核心框架参考**
+- **Project Structure**: 
 
-[@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 项目整体架构与规则逻辑的主要参考来源，当前版本在此基础上进行了深度重构与安全适配。
+- [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 The primary reference for the overall project architecture and rule logic. The current version has undergone extensive restructuring and security adaptation based on this foundation.
 
-### **脚本 / 规则来源参考**
+- **Rule Scripts**: 
 
-[@Nebulosa-Cat](https://github.com/Nebulosa-Cat)
+- [@Nebulosa-Cat](https://github.com/Nebulosa-Cat)
 
-[@NobyDa](https://github.com/NobyDa)
+- [@NobyDa](https://github.com/NobyDa)
 
-[@LucaLin233](https://github.com/LucaLin233)
+- [@LucaLin233](https://github.com/LucaLin233)
 
-[@Hyseen](https://github.com/Hyseen)
+- [@Hyseen](https://github.com/Hyseen)
 
-[@congcong0806](https://github.com/congcong0806)
+- [@congcong0806](https://github.com/congcong0806)
 
-[@fishingworld](https://github.com/fishingworld)
+- [@fishingworld](https://github.com/fishingworld)
 
-[@mieqq](https://github.com/mieqq)
+- [@mieqq](https://github.com/mieqq)
 
-[@TributePaulWalker](https://github.com/TributePaulWalker)
+- [@TributePaulWalker](https://github.com/TributePaulWalker)
 
-### **分流/重写规则维护参考**
+- **Routing / Rewrite Rules**: 
 
-- [@blackmatrix7](https://github.com/blackmatrix7) 👉  其高质量规则集为部分条目构建与优化提供了参考基础。
+- [@blackmatrix7](https://github.com/blackmatrix7) 👉 Its high‑quality rule sets have served as a foundational reference for building and optimizing certain entries.
 
-### **Apple 服务完整性维护**
+- **Apple Unlock Rules**: 
 
-- [@VirgilClyne](https://github.com/VirgilClyne) 👉  针对 Apple 服务的解锁与规则适配部分提供了重要思路。
+- [@VirgilClyne](https://github.com/VirgilClyne) 👉 Provided key insights for unlocking Apple services and adapting related rule configurations.
 
-### **Pegasus 间谍软件 IOC 来源**
+- **Pegasus IOC**: 
 
-- [@AmnestyTech](https://github.com/AmnestyTech) 👉  提供 Pegasus 相关 IOC 数据，作为规则构建的重要信息源。
+- [@AmnestyTech](https://github.com/AmnestyTech)  👉 Provided Pegasus-related IOC data as a critical source for rule construction.
 
-以上引用内容排名不分先后，若有遗漏您的项目或贡献，敬请谅解并欢迎联系我，我将第一时间补充致谢。
+If you believe your work is missing from the acknowledgements, please feel free to contact me — I will add it promptly.
 
-## 🔐 免责声明
+## **🔐 Disclaimer**
 
-本项目为公益性质的开源安全规则集，旨在帮助用户提升网络安全防护能力，使用本项目即表示您已阅读、理解并同意以下条款：
+This project is a non-profit, open-source security rule set aimed at helping users enhance their network defense capabilities. By using this project, you acknowledge that you have read, understood, and agreed to the following terms:
 
-1. **第三方来源说明**：本项目部分内容参考公开威胁情报（如安全社区报告、威胁数据库、GitHub 项目等），所有相关引用均已注明出处。如有异议，请联系我进行修正或删除。
-2. **误杀风险提示**：鉴于规则集中可能涉及通用封锁策略，使用者应在部署前充分测试，确保不影响正常业务。如因误拦截造成连接异常、功能缺失或其他后果，项目作者不承担任何责任。
-3. **商业用途说明**：本项目本项目以 MIT 协议开源发布，您可以自由用于商业与非商业目的，但请务必遵守许可证条款，保留原始作者署名与注释说明。我们反对滥用规则集用于闭源、侵害公共利益或违背开源精神的商业行为。
-4. **无担保条款**：本项目以“按现状”形式提供，不对其完整性、准确性、实时性或适配性做出任何明示或暗示的担保。使用者应自行判断适用性并承担所有使用风险。
-5. **用途限定**：所有规则与配置文件仅供用于合法的网络防御、流量控制与安全研究。严禁将本项目用于任何攻击性行为、逆向工程、绕过审计等违法或灰色用途。
-6. **责任限制**：对因使用、复制或传播本项目内容所产生的任何直接或间接损失（包括但不限于数据泄漏、业务中断、安全故障等），项目作者不承担任何法律责任。
-7. **变更权利**：项目作者保留随时更新、修改或删除项目内容与本免责声明的权利，恕不另行通知。建议您定期检查仓库以获取最新版本。
+1. **Third-Party Sources**: Some rules are based on publicly available threat intelligence (e.g., security reports, threat databases, GitHub projects). All references are properly cited. If you believe any content is inappropriate, please contact the author for revision or removal.
+2. **False Positive Warning**: As the rule set may include generalized blocking strategies, users must conduct thorough testing before deployment to ensure normal functionality is not impacted. The project author assumes no responsibility for issues caused by false positives, including connection failures or feature disruptions.
+3. **Commercial Use Notice**: This project is released under the MIT License. You are free to use it for both commercial and non-commercial purposes, provided that you comply with the license terms and retain proper attribution and annotations. We oppose misuse of the rules for closed-source, anti-public-interest, or anti-open-source practices.
+4. **No Warranty**: This project is provided “as is”, without any express or implied warranties regarding its completeness, accuracy, timeliness, or suitability. Users bear full responsibility for any risks incurred from its use.
+5. **Usage Restrictions**: All rules and configuration files are strictly intended for legal purposes, including network defense, traffic control, and security research. Any use for offensive actions, reverse engineering, audit evasion, or other illicit activities is strictly prohibited.
+6. **Liability Limitation**: The project author shall not be held liable for any direct or indirect losses (including but not limited to data breaches, service interruptions, or security failures) arising from the use, duplication, or distribution of this project.
+7. **Right to Modify**: The project author reserves the right to update, modify, or remove any part of this project or disclaimer at any time without prior notice. You are advised to regularly check the repository for the latest version.
 
-本人郑重声明：本项目不作恶、不夹带私货，不推荐任何代理节点部署、不涉及流量劫持或监听机制，亦不包含任何恶意逻辑或隐藏行为。所有规则内容均以明文形式提供，结构清晰、注释完整、不依赖第三方源，所有规则文件均托管于本仓库，便于社区成员审阅、溯源与监督。
+Author’s Statement: This project does not engage in malicious activities, does not include hidden backdoors or monitoring mechanisms, does not promote proxy services, and contains no obfuscated or harmful logic. All rule contents are written in plain text, fully commented, structured clearly, and hosted solely within this repository for community review, audit, and traceability.
 
-## 🏅 版权声明
+## **🏅 License**
 
-**版权与分发**：本项目采用 [MIT License](https://github.com/Thoseyearsbrian/Aegis/main/LICENSE) 授权。你可以自由使用、修改与分发本项目内容，包括用于商业用途。
+This project is licensed under the [MIT License](https://github.com/Thoseyearsbrian/Aegis/main/LICENSE). You are free to use, modify, and distribute this project, even for commercial purposes.
 
-我们鼓励你遵循开源精神：
+We ask you to respect the spirit of open source:
 
-- **保留原始作者署名及完整许可证内容；**
-- **不得删除或隐藏源代码注释与协议声明**；
-- **不滥用规则集用于闭源或侵犯公共利益的行为。**
+- Keep original author credits and license text intact.
+- Do not remove annotations or license statements.
+- Do not exploit the rule set for closed-source monetization or abusive purposes.
 
-此外，Aegis 项目已启用 GPG 签名（Git Commit Signing）机制，以确保项目代码来源真实可信、未被篡改。你可通过 GPG 签名验证每一次提交操作的完整性，从而获得更高的安全保障。
+Additionally, the Aegis project has enabled GPG commit signing to ensure the authenticity and integrity of its codebase. You can verify each commit via GPG signatures to gain higher assurance that the code has not been tampered with.
 
-建议您基于本项目结构进行维护与扩展，以避免重复开发，节省时间成本，同时获得后续更新与安全优化支持。
+It is recommended to fork or build upon this repository to save time, maintain compatibility, and benefit from future security updates.
 
-## 🙌  社区支持
+## **🙌  Aegis Telegram Channels**
 
-如果你认可本项目的价值，欢迎 Star ⭐️ 支持，所有规则更新将同步与频道，欢迎订阅关注。
+If you value this project, consider giving it a ⭐️ star and subscribing to updates.
