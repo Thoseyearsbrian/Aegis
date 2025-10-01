@@ -86,7 +86,9 @@ GEOIP,CN,DIRECT # Valid
 This project is inspired by many outstanding community contributions. Key references include:
 
 - **Project Structure**: 
+
 - [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 The primary reference for the overall project architecture and rule logic. The current version has undergone extensive restructuring and security adaptation based on this foundation.
+
 - **Rule Scripts**: 
 
 - [@Nebulosa-Cat](https://github.com/Nebulosa-Cat)
