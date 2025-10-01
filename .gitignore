@@ -7,7 +7,10 @@
 ._*
 
 # macOS 文件夹自定义设置（如背景图）
-Icon?
+Icons/.DS_Store
+Icons/Groups/.DS_Store
+Icons/Flags/.DS_Store
+Icons/Services/.DS_Store
 ehthumbs.db
 Thumbs.db
 
