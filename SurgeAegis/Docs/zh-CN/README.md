@@ -16,7 +16,7 @@
   <a href="https://github.com/Thoseyearsbrian/Aegis"><b>【English Documentation Here】</b></a>
 </p>
 
-A high-performance, cross-platform rule repository focused on network-layer defense. Designed for Surge, Clash, QuantumultX and OpenWrt. Protects against APT threats, DNS poisoning, malicious C2 traffic, SDK telemetry, and botnet sources. Supports iOS, macOS, Windows, Android, and router platforms.
+一个高性能、跨平台的规则仓库，专注于网络层防御。适配 Surge、Clash、QuantumultX 和 OpenWrt。可防御 APT 威胁、DNS 污染、恶意 C2 通信、SDK 回传和僵尸网络来源。支持 iOS、macOS、Windows、Android 以及路由器等平台。
 
 ## 项目背景
 
