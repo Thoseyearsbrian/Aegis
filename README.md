@@ -1,7 +1,7 @@
 <h1 align="center">Aegis — Personal Firewall Rule Set for Surge</h1>
 <p align="center">
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-1.png" width="300"></img>
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-2.png" width="300"></img>
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-1.png" width="300"></img>
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-2.png" width="300"></img>
 </p>
 
 <p align="center">
@@ -56,7 +56,7 @@ SurgeAegis（EN）：https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/mai
 Copy the configuration link → Open Surge → Download from URL → Paste the link → Edit in Text Mode → Replace your node with the correct parameter → Done!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step.png" width="600">
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step-en.png" width="600">
 </p>
 
 ## **⚠️ Notes**
