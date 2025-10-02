@@ -51,6 +51,10 @@ DOMAIN-SUFFIX,apple-com.akamaized.net # Apple CDN 主通道
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com # Apple iCloud Relay 中继服务（Fastly）
 DOMAIN,lcdn-locator.apple.com # Apple CDN 节点定位服务
 DOMAIN,cp10.cloudflare.com # Apple 软件透明性服务日志中继节点，通过 Cloudflare CDN 分发，建议放行
+DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com # Apple 软件透明性服务使用的 OHTTP 中继节点，由 Fastly 提供，承担流量混淆转发功能
+DOMAIN-SUFFIX,apple-relay.cloudflare.com # Apple 软件透明性日志服务的 Cloudflare 中继节点，用于中转日志请求与加密数据
+DOMAIN-SUFFIX,api.smoot.apple.cn # Apple 中国区透明性平台 API，可能与日志提交、软件验证或更新机制相关
+DOMAIN-SUFFIX,cp10.cloudflare.com # Apple 在 Cloudflare 托管的日志或中继服务节点，参与 Apple CA 透明日志结构
 
 # > 开发者相关
 DOMAIN-SUFFIX,developer.apple.com # Apple 开发者网站
