@@ -24,3 +24,4 @@ DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 监控上报域名，GPT �
 DOMAIN-SUFFIX,o33249.ingest.us.sentry.io    # Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
 DOMAIN-SUFFIX,segment.io # 用户行为追踪服务，广泛嵌入于 App 与网页中，采集分析数据
 DOMAIN,api.segment.io # Segment 数据采集 API，发送用户操作、点击事件、设备信息等行为数据
+DOMAIN,dataflow.biliapi.com # Bilibili 数据流分析接口，用于用户行为收集、推荐算法训练等
