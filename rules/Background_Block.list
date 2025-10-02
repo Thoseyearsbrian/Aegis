@@ -19,3 +19,5 @@ DOMAIN,supportmetrics.apple.com # Apple 支持行为追踪接口
 DOMAIN,bag.itunes.apple.com # Apple Store 推荐分析与行为接口
 DOMAIN-SUFFIX,metrics.icloud.com # Apple iCloud 使用数据分析域名
 DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
+# DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上报接口（官方遥测）
+# DOMAIN-SUFFIX,weather-analytics-events.apple.com # Apple 天气应用分析事件接口（官方遥测）

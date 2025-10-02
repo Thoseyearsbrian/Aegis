@@ -2,7 +2,7 @@
 # - 分类：Apple 官方服务 / 系统组件 / 网络行为
 # - 来源：Apple 官方文档 / 实测抓包 / 社区整理
 # - 特征：涵盖 Apple ID 登录、iCloud 同步、推送通知、地图服务、激活更新等常见网络行为
-# - 说明：部分 Apple 上报/分析类域名（如 sylvan.apple.com等）已加入 Background_Block.list，行为探测域名（如 dns.apple.com等）已列入 Behavior_Block.list 详见最后明细
+# - 说明：部分 Apple 上报/分析类域名已加入 Background_Block.list，行为探测域名已列入 Behavior_Block.list,广告类已加入 AdTracking_Block.list 详见最后明细
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-10-02
@@ -128,7 +128,14 @@ PROCESS-NAME,syncdefaultsd # Apple iCloud 同步控制器
 # DOMAIN,bag.itunes.apple.com # Apple Store 推荐分析与行为接口
 # DOMAIN-SUFFIX,metrics.icloud.com # Apple iCloud 使用数据分析域名
 # DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
+# DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上报接口（官方遥测）
+# DOMAIN-SUFFIX,weather-analytics-events.apple.com # Apple 天气应用分析事件接口（官方遥测）
 
 # >> 已列入 Behavior_Block.list明细：
 # DOMAIN-SUFFIX,dns.apple.com // Apple 网络状态探测域，非必须服务，可疑行为分析用
 # DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
+
+# >> 已列入 AdTracking_Block.list明细：
+DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
+DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，已停用但可能残留请求）
+DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）
