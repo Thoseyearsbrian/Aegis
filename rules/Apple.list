@@ -75,6 +75,7 @@ DOMAIN-SUFFIX,icloud-content.com # iCloud 内容下载域名
 DOMAIN-SUFFIX,mzstatic.com # iTunes/App Store 内容分发 CDN
 DOMAIN-SUFFIX,icloud.com.cn # 中国大陆 iCloud 接入服务（云上贵州）
 PROCESS-NAME,cloudd # 云上贵州 iCloud 同步进程（本地标识）
+DOMAIN,bag.itunes.apple.com # App Store 后台内容接口（收据验证与资源调度，禁止拦截）
 
 # > 推送通知 / iMessage / 时间同步（系统服务）
 DOMAIN-SUFFIX,push.apple.com # Apple 推送服务（APNS）
@@ -125,7 +126,6 @@ PROCESS-NAME,syncdefaultsd # Apple iCloud 同步控制器
 # DOMAIN,feedbackws.apple.com # Apple 用户反馈与错误日志上报
 # DOMAIN,crashlytics.apple.com # Apple 应用崩溃日志收集服务
 # DOMAIN,supportmetrics.apple.com # Apple 支持行为追踪接口
-# DOMAIN,bag.itunes.apple.com # Apple Store 推荐分析与行为接口
 # DOMAIN-SUFFIX,metrics.icloud.com # Apple iCloud 使用数据分析域名
 # DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
 # DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上报接口（官方遥测）

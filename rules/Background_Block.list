@@ -16,7 +16,6 @@ DOMAIN,analytics.edge.apple # Apple 分析数据上报服务
 DOMAIN,feedbackws.apple.com # Apple 用户反馈与错误日志上报
 DOMAIN,crashlytics.apple.com # Apple 应用崩溃日志收集服务
 DOMAIN,supportmetrics.apple.com # Apple 支持行为追踪接口
-DOMAIN,bag.itunes.apple.com # Apple Store 推荐分析与行为接口
 DOMAIN-SUFFIX,metrics.icloud.com # Apple iCloud 使用数据分析域名
 DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
 # DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上报接口（官方遥测）
