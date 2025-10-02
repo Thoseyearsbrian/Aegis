@@ -6,261 +6,256 @@
 # - 更新时间：2025-09-29
 
 # > 通用广告追踪域名（General Ad Tracking）
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,ads.google.cn
-DOMAIN-SUFFIX,adservice.google.com
-DOMAIN-SUFFIX,adservice.google.cn
-DOMAIN-SUFFIX,googleads.g.doubleclick.net
-DOMAIN-SUFFIX,securepubads.g.doubleclick.net
-DOMAIN-SUFFIX,pagead2.googlesyndication.com
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googleadservices-cn.com
-DOMAIN-SUFFIX,googleads.g.doubleclick-cn.net
-DOMAIN-SUFFIX,ads.pubmatic.com
-DOMAIN-SUFFIX,moatads.com
-DOMAIN-SUFFIX,s.amazon-adsystem.com
-DOMAIN-SUFFIX,adcolony.com
-DOMAIN-SUFFIX,gemini.yahoo.com
-DOMAIN-SUFFIX,advertising-api.amazon.com
-DOMAIN-SUFFIX,advertising.apple.com
-DOMAIN-SUFFIX,ad.doubleclick.net
-DOMAIN-SUFFIX,bingads.microsoft.com
-DOMAIN-SUFFIX,ads.servebom.com
-DOMAIN-SUFFIX,ads.raidrive.com
-DOMAIN-SUFFIX,adservice.sigmob.cn
-DOMAIN-SUFFIX,adx.ads.oppomobile.com
-DOMAIN-SUFFIX,adview.cn
-DOMAIN-SUFFIX,adx.appsdk.com.cn
-DOMAIN-SUFFIX,adsense.google.cn
-DOMAIN-SUFFIX,advertising-api-eu.amazon.com
-DOMAIN-SUFFIX,advertising-api-fe.amazon.com
-DOMAIN-SUFFIX,adx.open-service.youku.com
-DOMAIN-SUFFIX,adx-server.ad.cmvideo.cn
-DOMAIN-SUFFIX,adx-drcn.op.dbankcloud.cn
-DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn
-DOMAIN-SUFFIX,ads.pinterest.com
-DOMAIN-SUFFIX,ads.service.kugou.com
-DOMAIN-SUFFIX,ads.zhinengxiyifang.cn
-DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com
-DOMAIN-SUFFIX,recommend-drcn.hms.dbankcloud.cn
-DOMAIN-SUFFIX,report.tv.kohesport.qq.com
-DOMAIN-SUFFIX,res1.applovin.com
-DOMAIN-SUFFIX,review.gdtimg.com
-DOMAIN-SUFFIX,rev.aiclk.com
-DOMAIN-SUFFIX,rlog.popin.cc
-DOMAIN-SUFFIX,rps.hpplay.cn
-DOMAIN-SUFFIX,widgets.pinterest.com
-DOMAIN-SUFFIX,win.gdt.qq.com
-DOMAIN-SUFFIX,ws.sj.qq.com
-DOMAIN-SUFFIX,wxsnsad.tc.qq.com
-DOMAIN-SUFFIX,wxsnsdy.tc.qq.com
-DOMAIN-SUFFIX,xc.gdt.qq.com
-DOMAIN-SUFFIX,union.baidu.cn
-DOMAIN-SUFFIX,union.baidu.com
-DOMAIN-SUFFIX,usr-api.aiclk.com
-DOMAIN-SUFFIX,v.adintl.cn
-DOMAIN-SUFFIX,ytx-file.110route.cn
-DOMAIN-SUFFIX,rpt.gdt.qq.com
-DOMAIN-SUFFIX,canvas-cdn.gdt.qq.com
-DOMAIN-SUFFIX,click.liftoff.io
-DOMAIN-SUFFIX,click.chinaliftoff.io
-DOMAIN-SUFFIX,click4.chinaliftoff.io
-DOMAIN-SUFFIX,cdn.liftoff-creatives.io
-DOMAIN-SUFFIX,cdn.chinaliftoff-creatives.io
-DOMAIN-SUFFIX,cdn.aiclk.com
-DOMAIN-SUFFIX,cbjs.baidu.com
-DOMAIN-SUFFIX,ccc-x.jd.com
-DOMAIN-SUFFIX,skdisplay.jd.com
-DOMAIN-SUFFIX,commdata.v.qq.com
-DOMAIN-SUFFIX,cfg.imtt.qq.com
-DOMAIN-SUFFIX,clog.miguvideo.com
-DOMAIN-SUFFIX,chat1.jd.com
-DOMAIN-SUFFIX,catalog.fjwhcbsh.com
-DOMAIN-SUFFIX,cdn-ad.wtzw.com
-DOMAIN-SUFFIX,hexagon-analytics.com
-DOMAIN-SUFFIX,1rtb.com
-DOMAIN-SUFFIX,8le8le.com
-DOMAIN-SUFFIX,8rn1y79f02-1.algolianet.com
-DOMAIN-SUFFIX,abtest-ch.com
-DOMAIN-SUFFIX,saxysec.com
-DOMAIN-SUFFIX,cdn.ad.wtzw.com
-DOMAIN-SUFFIX,cn-api.anythinktech.com
-DOMAIN-SUFFIX,cnzz.com
-DOMAIN-SUFFIX,c2.gdt.qq.com
-DOMAIN-SUFFIX,ck.ads.oppomobile.com
-DOMAIN-SUFFIX,config.unityads.unity3d.com
-DOMAIN-SUFFIX,data.ads.oppomobile.com
-DOMAIN-SUFFIX,doubleclick-cn.net
-DOMAIN-SUFFIX,edge.ads.twitch.tv
-DOMAIN-SUFFIX,googleads.g.doubleclick.com
-DOMAIN-SUFFIX,litchiads.com
-DOMAIN-SUFFIX,mobads-logs.baidu.com
-DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
-DOMAIN-SUFFIX,res.hubcloud.com.cn
-DOMAIN-SUFFIX,res1.hubcloud.com.cn
-DOMAIN-SUFFIX,res2.hubcloud.com.cn
-DOMAIN-SUFFIX,res3.hubcloud.com.cn
-DOMAIN-SUFFIX,rms-drcn.platform.dbankcloud.cn
-DOMAIN-SUFFIX,roi.soulapp.cn
-DOMAIN-SUFFIX,rt.applovin.com
-DOMAIN-SUFFIX,rt.applvn.com
-DOMAIN-SUFFIX,saad.ms.zhangyue.net
-DOMAIN-SUFFIX,saas.hpplay.cn
-DOMAIN-SUFFIX,scs.openspeech.cn
-DOMAIN-SUFFIX,samsung-com.112.2o7.net
-DOMAIN-SUFFIX,sanme2.taisantech.com
-DOMAIN-SUFFIX,cdn-aiclk.com
-DOMAIN-SUFFIX,click.oneplus.cn
-DOMAIN-SUFFIX,impression-asia.chinaliftoff.io
-DOMAIN-SUFFIX,impression-asia.liftoff.io
-DOMAIN-SUFFIX,impression.appsflyer.com
-DOMAIN-SUFFIX,collect.kugou.com
-DOMAIN-SUFFIX,adserver.unityads.unity3d.com
-DOMAIN-SUFFIX,adsmind.gdtimg.com
-DOMAIN-SUFFIX,adsmart.konka.com
-DOMAIN-SUFFIX,rp.hpplay.cn
-DOMAIN-SUFFIX,sdk-cache.video.ptqy.gitv.tv
-DOMAIN-SUFFIX,cdn.hpplay.com.cn
-DOMAIN-SUFFIX,cdn.ynuf.aliapp.org
-DOMAIN-SUFFIX,chiq-cloud.com
-DOMAIN-SUFFIX,conf.hpplay.cn
-DOMAIN-SUFFIX,images.outbrainimg.com
-DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com
-DOMAIN-SUFFIX,adsfile.qq.com
-DOMAIN-SUFFIX,adsfilebssdlbig.ali.kugou.com
-DOMAIN-SUFFIX,config.chsmarttv.com
-DOMAIN-SUFFIX,adsmind.ugdtimg.com
-DOMAIN-SUFFIX,image.hpplay.cn
-DOMAIN-SUFFIX,ipv4.kkmh.com
-DOMAIN-SUFFIX,adserviceretry.kugou.com
-DOMAIN-SUFFIX,ads.95516.com
-DOMAIN-SUFFIX,ads.inmobi.com
-DOMAIN-SUFFIX,ads.linkedin.com
-DOMAIN-SUFFIX,adse.test.ximalaya.com
-DOMAIN-SUFFIX,adsebs.ximalaya.com
-DOMAIN-SUFFIX,update0.aiclk.com
-DOMAIN-SUFFIX,adsdk.vivo.com.cn
-DOMAIN-SUFFIX,v.110route.cn
-DOMAIN-SUFFIX,v.adx.hubcloud.com.cn
-DOMAIN-SUFFIX,vhp.hpplay.cn
-DOMAIN-SUFFIX,vhp.hpplay.cn.v.adx.hubcloud.com.cn
-DOMAIN-SUFFIX,vip.hpplay.cn
-DOMAIN-SUFFIX,vmkt.hpplay.cn
-DOMAIN-SUFFIX,vungle.com
-DOMAIN-SUFFIX,vv.video.qq.com
-DOMAIN-SUFFIX,vvxlog.hunantv.com
-DOMAIN-SUFFIX,w1.hoopchina.com.cn
-DOMAIN-SUFFIX,wallet-api.hismarttv.com
-DOMAIN-SUFFIX,wallet.gdt.qq.com
-DOMAIN-SUFFIX,wbapp.mobile.sina.cn
-DOMAIN-SUFFIX,web.clewm.net
-DOMAIN-SUFFIX,web-stat.cn
-DOMAIN-SUFFIX,web.wrating.com
-DOMAIN-SUFFIX,webtrack.ad.intl.xiaomi.com
-DOMAIN-SUFFIX,whhxrc.com
-DOMAIN-SUFFIX,widget.diditaxi.com.cn
-DOMAIN-SUFFIX,wj.qq.com
-DOMAIN-SUFFIX,wlog.dianping.com
-DOMAIN-SUFFIX,wmcloud-ads.cn
-DOMAIN-SUFFIX,wspeed.qq.com
-DOMAIN-SUFFIX,wspeed.qq.com.cn
-DOMAIN-SUFFIX,xgfe.umeng.com
-DOMAIN-SUFFIX,xiaoshuo.sogou.com
-DOMAIN-SUFFIX,xs.l.qq.com
-DOMAIN-SUFFIX,update.lejiao.tv
-DOMAIN-SUFFIX,wbapp.m.baidu.com
-DOMAIN-SUFFIX,wxcj.tanke.tv
-DOMAIN-SUFFIX,xyzpop.xyz
-DOMAIN-SUFFIX,y.applovin.com
-DOMAIN-SUFFIX,yeahmobi.com
-DOMAIN-SUFFIX,yes.youmi.net
-DOMAIN-SUFFIX,yt-adpater.bytedance.com
-DOMAIN-SUFFIX,yt-adapter.bytedance.com
-DOMAIN-SUFFIX,yt-adapter.corp.growingio.com
-DOMAIN-SUFFIX,yui-x.com
-DOMAIN-SUFFIX,zeus.adsprediction.com
-DOMAIN-SUFFIX,zeus.igexin.com
-DOMAIN-SUFFIX,zeus.int.sigmob.net
-DOMAIN-SUFFIX,zs.adfurikun.jp
-DOMAIN-SUFFIX,img2.360buyimg.com
-DOMAIN-SUFFIX,irc.qubiankeji.com
-DOMAIN-SUFFIX,janapi.jd.com
-DOMAIN-SUFFIX,000webhost.com
-DOMAIN-SUFFIX,0019x.com
-DOMAIN-SUFFIX,00404850.xyz
-DOMAIN-SUFFIX,00771944.xyz
-DOMAIN-SUFFIX,00857731.xyz
-DOMAIN-SUFFIX,00f8c4bb25.com
-DOMAIN-SUFFIX,01045395.xyz
-DOMAIN-SUFFIX,01955ad1f7.com
-DOMAIN-SUFFIX,01counter.com
-DOMAIN-SUFFIX,02085170.xyz
-DOMAIN-SUFFIX,0214217ebc.com
-DOMAIN-SUFFIX,023e6510cc.com
-DOMAIN-SUFFIX,024e3caef2.com
-DOMAIN-SUFFIX,029519cbdc.com
-DOMAIN-SUFFIX,0300acdff2.com
-DOMAIN-SUFFIX,039858f297.com
-DOMAIN-SUFFIX,03b5f525af.com
-DOMAIN-SUFFIX,03d756a534.com
-DOMAIN-SUFFIX,04-f-bmf.com
-DOMAIN-SUFFIX,0407137f3d.com
-DOMAIN-SUFFIX,04424170.xyz
-DOMAIN-SUFFIX,044da016b3.com
-DOMAIN-SUFFIX,04b9055b2a.com
-DOMAIN-SUFFIX,05420795.xyz
-DOMAIN-SUFFIX,05454674.xyz
-DOMAIN-SUFFIX,054ii.com
-DOMAIN-SUFFIX,05e4bd1819.com
-DOMAIN-SUFFIX,05f3b6b187.com
-DOMAIN-SUFFIX,05fa754f24.com
-DOMAIN-SUFFIX,063c37123a.com
-DOMAIN-SUFFIX,0645405ef4.com
-DOMAIN-SUFFIX,067f87da09.com
-DOMAIN-SUFFIX,06969451.xyz
-DOMAIN-SUFFIX,06cffaae87.com
-DOMAIN-SUFFIX,070880.com
-DOMAIN-SUFFIX,07327127.xyz
-DOMAIN-SUFFIX,07421283.xyz
-DOMAIN-SUFFIX,079e158914.com
-DOMAIN-SUFFIX,07c225f3.online
-DOMAIN-SUFFIX,07d0bc4a48.com
-DOMAIN-SUFFIX,08082c0ad5.com
-DOMAIN-SUFFIX,08256602.xyz
-DOMAIN-SUFFIX,087f389ba8.com
-DOMAIN-SUFFIX,091kdjn7.xyz
-DOMAIN-SUFFIX,0926a687679d337e9d.com
-DOMAIN-SUFFIX,095f2fc218.com
-DOMAIN-SUFFIX,096243309f.com
-DOMAIN-SUFFIX,09745951.xyz
-DOMAIN-SUFFIX,0980b6e8fe.com
-DOMAIN-SUFFIX,0af2a962b0102942d9a7df351b20be55.com
-DOMAIN-SUFFIX,0b63fb1aad.com
-DOMAIN-SUFFIX,0b6e17a630.com
-DOMAIN-SUFFIX,0b74655a28.com
-DOMAIN-SUFFIX,0b8601f291.com
-DOMAIN-SUFFIX,0b8c767b16.com
-DOMAIN-SUFFIX,0ba2b70e8c.com
-DOMAIN-SUFFIX,0bd18cc899.com
-DOMAIN-SUFFIX,0c6be7f968.com
-DOMAIN-SUFFIX,0ca5b8dbfd.com
-DOMAIN-SUFFIX,0cc29a3ac1.com
-DOMAIN-SUFFIX,0cdn.xyz
-DOMAIN-SUFFIX,0cf.io
-DOMAIN-SUFFIX,0d0705c152.com
-DOMAIN-SUFFIX,0d076be0f4.com
-DOMAIN-SUFFIX,0d22ca5caa.com
-DOMAIN-SUFFIX,0d25b79bea.com
-DOMAIN-SUFFIX,0d9539106a.com
-DOMAIN-SUFFIX,0da6b9c880.com
-DOMAIN-SUFFIX,0e4256d4f1.com
-DOMAIN-SUFFIX,0e4a4c9e4e.com
-DOMAIN-SUFFIX,0emn.com
-DOMAIN-SUFFIX,0f461325bf56c3e1b9.com
-DOMAIN-SUFFIX,0f8eec5673.com
-DOMAIN-SUFFIX,0fe5096a4c.com
-DOMAIN-SUFFIX,0ffaf504b2.com
+DOMAIN-SUFFIX,ads.raidrive.com # RaiDrive 软件内广告展示域，用于加载横幅与推广信息
+DOMAIN-SUFFIX,adx.appsdk.com.cn # appsdk 程序化广告平台接口，含 SDK 回传与广告加载行为
+DOMAIN-SUFFIX,adx-server.ad.cmvideo.cn # 咪咕视频广告交换平台，用于 IPTV / 盒子广告分发与竞价回传
+DOMAIN-SUFFIX,adx-drcn.op.dbankcloud.cn # 华为广告平台 ADX 节点，含 SDK 回传与程序化广告分发功能
+DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn # Vivo 广告平台日志节点，用于曝光点击回传与广告行为分析
+DOMAIN-SUFFIX,ads.zhinengxiyifang.cn # 可疑广告分发域名，用于低质 App 跳转与激励广告加载
+DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com # 字节跳动穿山甲广告接口，用于 App 内广告加载与策略分发
+DOMAIN-SUFFIX,v.adintl.cn # 可疑国际广告平台，用于激励视频广告加载与跳转行为
+DOMAIN-SUFFIX,report.tv.kohesport.qq.com # 腾讯广告追踪域，用于 TV 端广告播放行为日志上报
+DOMAIN-SUFFIX,ytx-file.110route.cn # 可疑资源分发域名，用于广告素材缓存与激励视频加载，归属不明
+DOMAIN-SUFFIX,advertising-api-fe.amazon.com # Amazon 广告平台前端接口，用于广告请求与行为回传
+DOMAIN-SUFFIX,rps.hpplay.cn # 乐播投屏广告回传接口，用于广告播放与行为日志上报
+DOMAIN-SUFFIX,ws.sj.qq.com # 腾讯应用宝广告接口，用于 App 推荐加载与行为统计上报
+DOMAIN-SUFFIX,doubleclick.net # Google / DoubleClick 广告服务主域，用于广告加载与行为追踪
+DOMAIN-SUFFIX,googlesyndication.com # Google 广告 / 内容分发 + 追踪服务
+DOMAIN-SUFFIX,ads.google.cn # Google 在中国的广告域名
+DOMAIN-SUFFIX,adservice.google.com # Google 广告服务接口 / 跳转域
+DOMAIN-SUFFIX,adservice.google.cn # Google 在中国的广告服务接口
+DOMAIN-SUFFIX,googleads.g.doubleclick.net # Google DoubleClick 子域广告投放
+DOMAIN-SUFFIX,securepubads.g.doubleclick.net # Google 安全广告发布接口域
+DOMAIN-SUFFIX,pagead2.googlesyndication.com # Google 展示广告 / 广告素材域
+DOMAIN-SUFFIX,googleadservices.com # Google 广告服务接口
+DOMAIN-SUFFIX,googleadservices-cn.com # Google 中国广告服务接口
+DOMAIN-SUFFIX,googleads.g.doubleclick-cn.net # Google 在中国地区的 DoubleClick 子域
+DOMAIN-SUFFIX,ads.pubmatic.com # PubMatic 广告平台
+DOMAIN-SUFFIX,moatads.com # Moat（广告性能 / 监测服务）广告域
+DOMAIN-SUFFIX,s.amazon-adsystem.com # Amazon 广告系统
+DOMAIN-SUFFIX,adcolony.com # AdColony 广告 SDK 平台
+DOMAIN-SUFFIX,gemini.yahoo.com # Yahoo Gemini 广告平台
+DOMAIN-SUFFIX,advertising-api.amazon.com # Amazon 广告 API 接口
+DOMAIN-SUFFIX,advertising.apple.com # Apple 广告 / 广告 API 接口
+DOMAIN-SUFFIX,ad.doubleclick.net # Google / DoubleClick 广告子域
+DOMAIN-SUFFIX,bingads.microsoft.com # Microsoft Bing 广告服务域
+DOMAIN-SUFFIX,ads.servebom.com # Servebom 广告子域
+DOMAIN-SUFFIX,adservice.sigmob.cn # SigMob（中国广告平台）广告服务接口
+DOMAIN-SUFFIX,adx.ads.oppomobile.com # OPPO 广告平台 ADX 子域
+DOMAIN-SUFFIX,adview.cn # AdView（国内广告 / SDK 服务）主域
+DOMAIN-SUFFIX,adsense.google.cn # Google AdSense 在中国的广告服务域
+DOMAIN-SUFFIX,advertising-api-eu.amazon.com # Amazon 在欧洲的广告 API 接口
+DOMAIN-SUFFIX,adx.open-service.youku.com # Youku 的广告 / 开放服务 ADX 子域
+DOMAIN-SUFFIX,ads.pinterest.com # Pinterest 官方广告服务域
+DOMAIN-SUFFIX,ads.service.kugou.com # 酷狗音乐广告服务端子域
+DOMAIN-SUFFIX,recommend-drcn.hms.dbankcloud.cn # 推荐系统接口，可能包含广告分发
+DOMAIN-SUFFIX,res1.applovin.com # AppLovin 广告平台素材 CDN 子域  
+DOMAIN-SUFFIX,review.gdtimg.com # 腾讯广点通广告资源域  
+DOMAIN-SUFFIX,rev.aiclk.com # AICLK 广告日志或资源上报子域  
+DOMAIN-SUFFIX,rlog.popin.cc # PopIn 日志接口，用于广告 / 内容推荐系统
+DOMAIN-SUFFIX,widgets.pinterest.com # Pinterest 页面小部件域，含广告成分  
+DOMAIN-SUFFIX,win.gdt.qq.com # 腾讯广点通广告子域 
+DOMAIN-SUFFIX,wxsnsad.tc.qq.com # 微信朋友圈广告推送域名  
+DOMAIN-SUFFIX,wxsnsdy.tc.qq.com # 微信广告视频内容分发域名  
+DOMAIN-SUFFIX,xc.gdt.qq.com # 腾讯广告展示内容控制域名  
+DOMAIN-SUFFIX,union.baidu.cn # 百度广告联盟域名  
+DOMAIN-SUFFIX,union.baidu.com # 百度广告联盟主域  
+DOMAIN-SUFFIX,usr-api.aiclk.com # AICLK 用户行为追踪或 API 接口  
+DOMAIN-SUFFIX,rpt.gdt.qq.com # 腾讯广点通广告统计 / 上报域名  
+DOMAIN-SUFFIX,canvas-cdn.gdt.qq.com # 广点通广告素材 CDN 域名  
+DOMAIN-SUFFIX,click.liftoff.io # Liftoff 广告点击追踪域
+DOMAIN-SUFFIX,click.chinaliftoff.io # China Liftoff 广告点击追踪域
+DOMAIN-SUFFIX,click4.chinaliftoff.io # China Liftoff 点击追踪子域
+DOMAIN-SUFFIX,cdn.liftoff-creatives.io # Liftoff 广告素材 CDN
+DOMAIN-SUFFIX,cdn.chinaliftoff-creatives.io # Liftoff 广告平台素材 CDN，用于视频激励与插屏广告加载
+DOMAIN-SUFFIX,cdn.aiclk.com # AICLK 广告平台素材 CDN
+DOMAIN-SUFFIX,cbjs.baidu.com # 百度广告组件加载域
+DOMAIN-SUFFIX,ccc-x.jd.com # 京东广告分析 / 推荐域名
+DOMAIN-SUFFIX,skdisplay.jd.com # 京东广告展示控制域
+DOMAIN-SUFFIX,commdata.v.qq.com # 腾讯视频广告监测 / 统计域
+DOMAIN-SUFFIX,cfg.imtt.qq.com # QQ 浏览器广告配置接口
+DOMAIN-SUFFIX,clog.miguvideo.com # 咪咕视频广告日志收集域
+DOMAIN-SUFFIX,chat1.jd.com # 京东客服与推荐系统接口
+DOMAIN-SUFFIX,catalog.fjwhcbsh.com # 可疑广告资源域名，用于落地页跳转与激励视频加载
+DOMAIN-SUFFIX,cdn-ad.wtzw.com # 小说聚合平台广告 CDN，用于插屏图片与跳转脚本加载
+DOMAIN-SUFFIX,hexagon-analytics.com # Hexagon 第三方广告分析平台
+DOMAIN-SUFFIX,1rtb.com # RTB 实时竞价广告平台
+DOMAIN-SUFFIX,8le8le.com # 可疑广告域名，用于激励视频与推广跳转，归属不明
+DOMAIN-SUFFIX,8rn1y79f02-1.algolianet.com # Algolia 广告 / 推荐数据 CDN 子域
+DOMAIN-SUFFIX,abtest-ch.com # AB 测试与广告效果分析域
+DOMAIN-SUFFIX,saxysec.com # 可疑域名，疑似灰产跳转或脚本统计用途，归属不明
+DOMAIN-SUFFIX,cdn.ad.wtzw.com # 小说站广告 CDN，用于加载插屏图片与跳转脚本
+DOMAIN-SUFFIX,cn-api.anythinktech.com # AnyThink 移动广告平台接口
+DOMAIN-SUFFIX,cnzz.com # CNZZ 站长统计与广告分析服务
+DOMAIN-SUFFIX,c2.gdt.qq.com # 腾讯广点通广告控制子域
+DOMAIN-SUFFIX,ck.ads.oppomobile.com # OPPO 广告点击跟踪接口
+DOMAIN-SUFFIX,config.unityads.unity3d.com # Unity Ads 配置接口域
+DOMAIN-SUFFIX,data.ads.oppomobile.com # OPPO 广告数据接口域
+DOMAIN-SUFFIX,doubleclick-cn.net # Google DoubleClick 广告域（中国镜像）
+DOMAIN-SUFFIX,edge.ads.twitch.tv # Twitch 广告边缘分发子域
+DOMAIN-SUFFIX,googleads.g.doubleclick.com # Google 广告服务子域
+DOMAIN-SUFFIX,litchiads.com # 荔枝广告平台主域
+DOMAIN-SUFFIX,mobads-logs.baidu.com # 百度移动广告日志收集域
+DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com # 百度广告预配置 CDN 子域
+DOMAIN-SUFFIX,res.hubcloud.com.cn # hubcloud 资源域名，可能包含广告素材
+DOMAIN-SUFFIX,res1.hubcloud.com.cn # HubCloud 子域，用于广告脚本与弹窗资源托管
+DOMAIN-SUFFIX,res2.hubcloud.com.cn # HubCloud 子域，曾被用于第三方广告落地页加载
+DOMAIN-SUFFIX,res3.hubcloud.com.cn # HubCloud 子域，用于低质站点广告图层分发
+DOMAIN-SUFFIX,rms-drcn.platform.dbankcloud.cn # 华为广告 / 推荐系统资源平台域
+DOMAIN-SUFFIX,roi.soulapp.cn # Soul App 广告转化追踪接口
+DOMAIN-SUFFIX,rt.applovin.com # AppLovin 实时广告投放接口
+DOMAIN-SUFFIX,rt.applvn.com # AppLovin 广告子域（拼写变体）
+DOMAIN-SUFFIX,saad.ms.zhangyue.net # 掌阅广告服务域名
+DOMAIN-SUFFIX,saas.hpplay.cn # 海报工厂广告 / 日志相关接口
+DOMAIN-SUFFIX,scs.openspeech.cn # 科大讯飞广告或数据上传接口
+DOMAIN-SUFFIX,samsung-com.112.2o7.net # Adobe Omniture 分析服务（三星渠道）
+DOMAIN-SUFFIX,sanme2.taisantech.com # 泰晟科技广告平台子域，用于激励视频与策略配置加载
+DOMAIN-SUFFIX,cdn-aiclk.com # 可疑广告素材 CDN，疑似 AICLK 广告平台拼写变体域名
+DOMAIN-SUFFIX,click.oneplus.cn # OnePlus 广告点击追踪接口，用于广告跳转与行为统计
+DOMAIN-SUFFIX,impression-asia.chinaliftoff.io # China Liftoff 广告曝光记录接口
+DOMAIN-SUFFIX,impression-asia.liftoff.io # Liftoff 亚洲广告曝光记录接口
+DOMAIN-SUFFIX,impression.appsflyer.com # AppsFlyer 广告曝光 / 成效追踪域
+DOMAIN-SUFFIX,collect.kugou.com # 酷狗广告数据收集接口
+DOMAIN-SUFFIX,adserver.unityads.unity3d.com # Unity Ads 广告服务器域名
+DOMAIN-SUFFIX,adsmind.gdtimg.com # 腾讯广点通广告资源分发域
+DOMAIN-SUFFIX,adsmart.konka.com # 康佳智能广告投放平台域名
+DOMAIN-SUFFIX,rp.hpplay.cn # 乐播投屏广告日志接口，用于曝光点击等行为上报
+DOMAIN-SUFFIX,sdk-cache.video.ptqy.gitv.tv # 爱奇艺广告 SDK 缓存资源域
+DOMAIN-SUFFIX,cdn.hpplay.com.cn # hpplay 素材 CDN 域名
+DOMAIN-SUFFIX,cdn.ynuf.aliapp.org # 阿里 App 广告素材 CDN 子域
+DOMAIN-SUFFIX,chiq-cloud.com # CHiQ 智能终端云平台域名，含广告策略与行为上报功能
+DOMAIN-SUFFIX,conf.hpplay.cn # hpplay 配置服务接口，可能用于广告或设备管理
+DOMAIN-SUFFIX,images.outbrainimg.com # Outbrain 广告平台图片素材域
+DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com # 可疑图像广告域名，嵌套伪 CDN 用于广告素材加载与跳转
+DOMAIN-SUFFIX,adsfile.qq.com # 腾讯广告文件服务域
+DOMAIN-SUFFIX,adsfilebssdlbig.ali.kugou.com # 酷狗广告素材下载接口
+DOMAIN-SUFFIX,config.chsmarttv.com # 长虹智能电视配置接口，含广告启用与展示策略参数
+DOMAIN-SUFFIX,adsmind.ugdtimg.com # 腾讯广告资源分发 CDN 域名
+DOMAIN-SUFFIX,image.hpplay.cn # hpplay 素材资源接口，可能包含广告图片
+DOMAIN-SUFFIX,ipv4.kkmh.com # 快看漫画 IPv4 API 接口，可能用于广告追踪
+DOMAIN-SUFFIX,adserviceretry.kugou.com # 酷狗广告服务重试接口
+DOMAIN-SUFFIX,ads.95516.com # 银联 95516 广告或宣传服务接口
+DOMAIN-SUFFIX,ads.inmobi.com # InMobi 广告投放平台域名
+DOMAIN-SUFFIX,ads.linkedin.com # LinkedIn 官方广告服务接口
+DOMAIN-SUFFIX,adse.test.ximalaya.com # 喜马拉雅测试广告服务接口
+DOMAIN-SUFFIX,adsebs.ximalaya.com # 喜马拉雅广告行为上报接口
+DOMAIN-SUFFIX,update0.aiclk.com # AICLK 更新 / 广告资源上报接口
+DOMAIN-SUFFIX,adsdk.vivo.com.cn # vivo 广告 SDK 服务接口
+DOMAIN-SUFFIX,v.110route.cn # 可疑视频广告域名，用于激励广告内容加载与跳转行为，归属不明
+DOMAIN-SUFFIX,v.adx.hubcloud.com.cn # hubcloud 广告投放平台子域
+DOMAIN-SUFFIX,vhp.hpplay.cn # hpplay 视频广告或播放控制接口
+DOMAIN-SUFFIX,vhp.hpplay.cn.v.adx.hubcloud.com.cn # 嵌套域名，可能为广告或中转接口
+DOMAIN-SUFFIX,vip.hpplay.cn # hpplay VIP 权限接口，可能含推广逻辑
+DOMAIN-SUFFIX,vmkt.hpplay.cn # hpplay 市场营销或广告平台接口
+DOMAIN-SUFFIX,vungle.com # Vungle 视频广告平台主域
+DOMAIN-SUFFIX,vv.video.qq.com # 腾讯视频广告播放或内容接口
+DOMAIN-SUFFIX,vvxlog.hunantv.com # 芒果 TV 日志上报 / 广告行为追踪接口
+DOMAIN-SUFFIX,w1.hoopchina.com.cn # 虎扑广告或追踪相关接口
+DOMAIN-SUFFIX,wallet-api.hismarttv.com # 海信电视钱包服务接口，可能含推广内容
+DOMAIN-SUFFIX,wallet.gdt.qq.com # 腾讯广点通钱包广告接口
+DOMAIN-SUFFIX,wbapp.mobile.sina.cn # 新浪微博 App 广告或推广接口
+DOMAIN-SUFFIX,web.clewm.net # 清博舆情监测平台接口，可能涉及数据采集 / 广告统计
+DOMAIN-SUFFIX,web-stat.cn # 可疑网页统计服务域名，用于访问行为追踪与广告点击上报，归属不明
+DOMAIN-SUFFIX,web.wrating.com # 万瑞通网站分析平台，常用于广告投放效果评估
+DOMAIN-SUFFIX,webtrack.ad.intl.xiaomi.com # 小米国际版广告追踪接口
+DOMAIN-SUFFIX,whhxrc.com # 可疑广告跳转域名，归属不明，曾用于激励广告与中转页面加载
+DOMAIN-SUFFIX,widget.diditaxi.com.cn # 滴滴出行嵌入式组件接口，可能含推广内容
+DOMAIN-SUFFIX,wj.qq.com # 腾讯问卷平台，部分用作行为分析与广告活动收集
+DOMAIN-SUFFIX,wlog.dianping.com # 大众点评行为日志上报接口，含广告追踪成分
+DOMAIN-SUFFIX,wmcloud-ads.cn # 可疑广告平台域名，归属不明，用于广告请求与点击追踪
+DOMAIN-SUFFIX,wspeed.qq.com # 腾讯广告监测 / 日志收集接口
+DOMAIN-SUFFIX,wspeed.qq.com.cn # 腾讯广告监测服务域名（备用域）
+DOMAIN-SUFFIX,xgfe.umeng.com # 友盟广告组件日志接口
+DOMAIN-SUFFIX,xiaoshuo.sogou.com # 搜狗小说服务接口，可能含内嵌广告模块
+DOMAIN-SUFFIX,xs.l.qq.com # 腾讯广告视频预加载域
+DOMAIN-SUFFIX,update.lejiao.tv # 乐角 TV 更新接口，可能含广告内容推送
+DOMAIN-SUFFIX,wbapp.m.baidu.com # 百度 App 广告加载接口
+DOMAIN-SUFFIX,wxcj.tanke.tv # 可疑视频广告配置域名，用于影视类 App 弹窗与激励广告策略分发
+DOMAIN-SUFFIX,xyzpop.xyz # 高风险弹窗广告域名，用于跳转诱导与恶意推广，归属不明
+DOMAIN-SUFFIX,y.applovin.com # AppLovin 广告服务主域下的子接口
+DOMAIN-SUFFIX,yeahmobi.com # YeahMobi 移动广告平台主域
+DOMAIN-SUFFIX,yes.youmi.net # 有米广告平台主域名
+DOMAIN-SUFFIX,yt-adpater.bytedance.com # 字节跳动广告适配接口（拼写疑似错误，应为 adapter）
+DOMAIN-SUFFIX,yt-adapter.bytedance.com # 字节跳动广告适配器接口
+DOMAIN-SUFFIX,yt-adapter.corp.growingio.com # GrowingIO 广告适配 / 用户行为分析模块
+DOMAIN-SUFFIX,yui-x.com # 可疑广告跳转与脚本加载域名，归属不明，疑似用于灰产广告平台
+DOMAIN-SUFFIX,zeus.adsprediction.com # Zeus 广告预测服务域名
+DOMAIN-SUFFIX,zeus.igexin.com # 个推广告策略接口，含远程配置与用户行为回传，高风险 SDK 组件域名
+DOMAIN-SUFFIX,zeus.int.sigmob.net # Sigmob 广告智能投放预测模块
+DOMAIN-SUFFIX,zs.adfurikun.jp # Adfurikun 日本广告平台子域
+DOMAIN-SUFFIX,img2.360buyimg.com # 京东图片 CDN，部分用于广告素材加载
+DOMAIN-SUFFIX,irc.qubiankeji.com # 可疑广告回传接口域名，用于日志上报与策略配置，归属不明
+DOMAIN-SUFFIX,janapi.jd.com # 京东广告 / 推荐相关接口（JanAPI 模块）
+DOMAIN-SUFFIX,000webhost.com # 免费网站托管平台，曾大量被用于广告跳转与钓鱼页面托管
+DOMAIN-SUFFIX,0019x.com # 高风险广告跳转域名，用于色情诱导与推广落地页，归属不明
+DOMAIN-SUFFIX,00404850.xyz # 高风险广告跳转域名，用于色情诱导与 iframe 加载，归属不明
+DOMAIN-SUFFIX,00771944.xyz # 高风险跳转域名，用于色情广告与诱导页面加载，归属不明
+DOMAIN-SUFFIX,00857731.xyz # 高风险跳转域名，用于色情广告与诱导落地页加载，归属不明
+DOMAIN-SUFFIX,00f8c4bb25.com # 高风险自动注册域名，用于广告跳转与诱导行为，归属不明
+DOMAIN-SUFFIX,01045395.xyz # 高风险跳转域名，用于广告诱导与色情推广，归属不明
+DOMAIN-SUFFIX,01955ad1f7.com # 高风险跳转域名，具广告诱导与 iframe 加载行为，归属不明
+DOMAIN-SUFFIX,01counter.com # 国外老牌网页计数器 / 追踪服务，含广告统计功能
+DOMAIN-SUFFIX,02085170.xyz # 高风险匿名跳转域名，疑似广告劫持或诱导用途
+DOMAIN-SUFFIX,0214217ebc.com # 高风险匿名域名，具跳转行为与广告诱导用途
+DOMAIN-SUFFIX,023e6510cc.com # 高风险匿名跳转域名，已被多来源标记为广告诱导平台
+DOMAIN-SUFFIX,024e3caef2.com # 高风险匿名域名，具跳转诱导潜在用途
+DOMAIN-SUFFIX,029519cbdc.com # 高风险随机域名，疑似广告落地页跳转用途
+DOMAIN-SUFFIX,0300acdff2.com # 随机生成域名，疑似广告跳转落地页
+DOMAIN-SUFFIX,039858f297.com # 高风险随机域名，命中多项广告/跳转拦截规则
+DOMAIN-SUFFIX,03b5f525af.com # 高风险字符型域名，用于广告跳转与追踪用途
+DOMAIN-SUFFIX,03d756a534.com # 高风险伪装域名，用于广告跳转与追踪
+DOMAIN-SUFFIX,04-f-bmf.com # 广告跳转域名，含追踪与重定向行为
+DOMAIN-SUFFIX,0407137f3d.com # 高风险随机广告域名，命中多条追踪/跳转规则
+DOMAIN-SUFFIX,04424170.xyz # 随机数字域名，用于广告跳转与追踪
+DOMAIN-SUFFIX,044da016b3.com # 随机字符型广告跳转域名，存在跳转与广告行为
+DOMAIN-SUFFIX,04b9055b2a.com # 可疑字符型域名，曾用于广告跳转或 iframe 注入
+DOMAIN-SUFFIX,05420795.xyz # 数字型随机域名，曾用于广告跳转与资源加载
+DOMAIN-SUFFIX,05454674.xyz # 数字型随机域名，用于广告跳转与内容重定向
+DOMAIN-SUFFIX,054ii.com # 重定向广告域名，曾用于跳转至推广落地页
+DOMAIN-SUFFIX,05e4bd1819.com # 广告跳转
+DOMAIN-SUFFIX,05f3b6b187.com # 广告跳转
+DOMAIN-SUFFIX,05fa754f24.com # 广告跳转
+DOMAIN-SUFFIX,063c37123a.com # 广告跳转
+DOMAIN-SUFFIX,0645405ef4.com # 广告跳转
+DOMAIN-SUFFIX,067f87da09.com # 广告跳转
+DOMAIN-SUFFIX,06969451.xyz # 广告跳转
+DOMAIN-SUFFIX,06cffaae87.com # 广告跳转
+DOMAIN-SUFFIX,07327127.xyz # 广告跳转
+DOMAIN-SUFFIX,07421283.xyz # 广告跳转
+DOMAIN-SUFFIX,079e158914.com # 广告跳转
+DOMAIN-SUFFIX,07c225f3.online # 广告跳转
+DOMAIN-SUFFIX,07d0bc4a48.com # 广告跳转
+DOMAIN-SUFFIX,08082c0ad5.com # 广告跳转
+DOMAIN-SUFFIX,08256602.xyz # 广告跳转
+DOMAIN-SUFFIX,087f389ba8.com # 广告跳转
+DOMAIN-SUFFIX,091kdjn7.xyz # 广告跳转
+DOMAIN-SUFFIX,0926a687679d337e9d.com # 广告跳转
+DOMAIN-SUFFIX,095f2fc218.com # 广告跳转
+DOMAIN-SUFFIX,096243309f.com # 广告跳转
+DOMAIN-SUFFIX,0980b6e8fe.com # 广告跳转
+DOMAIN-SUFFIX,0af2a962b0102942d9a7df351b20be55.com # 广告跳转
+DOMAIN-SUFFIX,0b63fb1aad.com # 广告跳转
+DOMAIN-SUFFIX,0b6e17a630.com # 广告跳转
+DOMAIN-SUFFIX,0b74655a28.com # 广告跳转
+DOMAIN-SUFFIX,0b8601f291.com # 广告跳转
+DOMAIN-SUFFIX,0b8c767b16.com # 广告跳转
+DOMAIN-SUFFIX,0ba2b70e8c.com # 广告跳转
+DOMAIN-SUFFIX,0bd18cc899.com # 广告跳转
+DOMAIN-SUFFIX,0c6be7f968.com # 广告跳转
+DOMAIN-SUFFIX,0ca5b8dbfd.com # 广告跳转
+DOMAIN-SUFFIX,0cf.io # 恶意跳转 / 广告重定向
+DOMAIN-SUFFIX,0d0705c152.com # 广告跳转
+DOMAIN-SUFFIX,0d076be0f4.com # 广告跳转
+DOMAIN-SUFFIX,0d22ca5caa.com # 广告跳转
+DOMAIN-SUFFIX,0d25b79bea.com # 广告跳转
+DOMAIN-SUFFIX,0d9539106a.com # 广告跳转
+DOMAIN-SUFFIX,0da6b9c880.com # 广告跳转
+DOMAIN-SUFFIX,0e4256d4f1.com # 广告跳转
+DOMAIN-SUFFIX,0e4a4c9e4e.com # 广告跳转
+DOMAIN-SUFFIX,0f461325bf56c3e1b9.com # 广告跳转
+DOMAIN-SUFFIX,0f8eec5673.com # 广告跳转
+DOMAIN-SUFFIX,0fe5096a4c.com # 广告跳转
+DOMAIN-SUFFIX,0ffaf504b2.com # 广告跳转
 DOMAIN-SUFFIX,0fmm.com
 DOMAIN-SUFFIX,0gw7e6s3wrao9y3q.pro
 DOMAIN-SUFFIX,0i0i0i0.com
@@ -46620,30 +46615,14 @@ DOMAIN-SUFFIX,zaim.net
 DOMAIN-SUFFIX,zdnet.com
 DOMAIN-SUFFIX,023hysj.com
 DOMAIN-SUFFIX,1mp.mobi
-DOMAIN-SUFFIX,23.224.199.74
-DOMAIN-SUFFIX,23.224.199.96
 DOMAIN-SUFFIX,247realmedia.com
-DOMAIN-SUFFIX,31.14.252.148
-DOMAIN-SUFFIX,54.222.186.106
 DOMAIN-SUFFIX,883.engine.mobileapptracking.com
-DOMAIN-SUFFIX,Ads on some Chinese smartphones
-DOMAIN-SUFFIX,AfreecaTV
-DOMAIN-SUFFIX,Appnext
-DOMAIN-SUFFIX,Appodeal
-DOMAIN-SUFFIX,Apps by Ketchapp
-DOMAIN-SUFFIX,Criteo mobile ads
-DOMAIN-SUFFIX,DU ads
-DOMAIN-SUFFIX,Dcard app
-DOMAIN-SUFFIX,Duodian
 DOMAIN-SUFFIX,For DNS filtering
 DOMAIN-SUFFIX,Hawk Internet
 DOMAIN-SUFFIX,Micromax India
 DOMAIN-SUFFIX,MoboTap
 DOMAIN-SUFFIX,Samsung mobile ads
 DOMAIN-SUFFIX,Supership.jp
-DOMAIN-SUFFIX,Watch ABC
-DOMAIN-SUFFIX,Yandex ads in apps
-DOMAIN-SUFFIX,Yandex apps
 DOMAIN-SUFFIX,a.applvn.com
 DOMAIN-SUFFIX,aag.yahooapis.jp
 DOMAIN-SUFFIX,aan.amazon.
