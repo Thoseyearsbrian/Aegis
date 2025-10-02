@@ -1,7 +1,8 @@
 # » Telegram.list（Telegram 服务识别规则集）
 # - 分类：即时通信平台 / 加密通讯服务 / 策略分流用途
 # - 来源：Telegram 官方文档 / 实测抓包 / 安全社区整理
-# - 特征：识别 Telegram 相关的域名、IP 地址段与 ASN，可用于精准分流或封锁策略配置
+# - 特征：识别 Telegram 相关的域名、IP 地址段与 ASN
+# - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-09-29
 

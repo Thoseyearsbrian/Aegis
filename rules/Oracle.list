@@ -2,6 +2,7 @@
 # - 分类：Oracle 云平台 / 企业服务 / Java 生态域名
 # - 来源：Oracle 官网 / 社区规则整理 / 实际流量抓包
 # - 特征：涵盖 Oracle Cloud、Eloqua、BlueKai、AddThis、Java 等服务域名
+# - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-09-29
 

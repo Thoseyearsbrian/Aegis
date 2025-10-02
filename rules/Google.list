@@ -3,6 +3,7 @@
 # - 来源：Google 官方文档 / 抓包识别 / 社区规则整理
 # - 特征：涵盖 Google 搜索、Gmail、安卓系统服务、开发者 API 等域名，适用于策略识别与分流
 # - 注意：广告追踪相关域名与 YouTube 已独立归类至 GoogleAds.list 与 YouTube.list，未包含在本规则中
+# - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-09-29
 
