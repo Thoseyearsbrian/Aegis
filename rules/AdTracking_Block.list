@@ -2503,7 +2503,7 @@ DOMAIN-SUFFIX,adtotal.pl
 DOMAIN-SUFFIX,adtpix.com
 DOMAIN-SUFFIX,adtrace.org
 DOMAIN-SUFFIX,adtraction.com
-DOMAIN-SUFFIX,adtrafficquality.google
+DOMAIN-SUFFIX,adtrafficquality.google  # Google 广告质量评估域名（用于检测广告流量质量，归属于广告服务组件）
 DOMAIN-SUFFIX,adtrcdn.io
 DOMAIN-SUFFIX,adtrgt.com
 DOMAIN-SUFFIX,adtrieval.com
@@ -5958,7 +5958,6 @@ DOMAIN-SUFFIX,bloctarsals.shop
 DOMAIN-SUFFIX,blogads.com
 DOMAIN-SUFFIX,blogatus.com
 DOMAIN-SUFFIX,blogclans.com
-DOMAIN-SUFFIX,blogger.googleusercontent.com
 DOMAIN-SUFFIX,blogherads.com
 DOMAIN-SUFFIX,blogostock.com
 DOMAIN-SUFFIX,blomanazilut.world
@@ -16354,14 +16353,6 @@ DOMAIN-SUFFIX,goodoffer24.com
 DOMAIN-SUFFIX,goodsvalvemumble.com
 DOMAIN-SUFFIX,goodwillnourishmentcousins.com
 DOMAIN-SUFFIX,googie-anaiytics.com
-DOMAIN-SUFFIX,googleadapis.l.google.com
-DOMAIN-SUFFIX,googleads-cn.com
-DOMAIN-SUFFIX,googleadsserving.cn
-DOMAIN-SUFFIX,googleapi.club
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googletagservices.com
-DOMAIN-SUFFIX,googlevads-cn.com
-DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,goolahwhirrs.life
 DOMAIN-SUFFIX,goomaphy.com
 DOMAIN-SUFFIX,goonsupper.com
@@ -18646,7 +18637,6 @@ DOMAIN-SUFFIX,imaginemothcurved.com
 DOMAIN-SUFFIX,imagingforay.cfd
 DOMAIN-SUFFIX,imagingkneelankiness.com
 DOMAIN-SUFFIX,imagingprelawpuzzle.com
-DOMAIN-SUFFIX,imasdk.googleapis.com
 DOMAIN-SUFFIX,imaxcash.com
 DOMAIN-SUFFIX,imbandptoses.world
 DOMAIN-SUFFIX,imbasedswigger.shop
@@ -23443,7 +23433,7 @@ DOMAIN-SUFFIX,maidr.pro
 DOMAIN-SUFFIX,maidsagainst.shop
 DOMAIN-SUFFIX,maiglair.net
 DOMAIN-SUFFIX,maihigre.net
-DOMAIN-SUFFIX,mail-ads.google.com
+DOMAIN-SUFFIX,mail-ads.google.com # Google Gmail 内部邮件广告服务域名，用于展示嵌入广告模块（属于广告域名）
 DOMAIN-SUFFIX,mail-spinner.com
 DOMAIN-SUFFIX,mail.aol.com
 DOMAIN-SUFFIX,mailboxboynutrition.com
@@ -27122,7 +27112,6 @@ DOMAIN-SUFFIX,ofxbxiqadouwo.space
 DOMAIN-SUFFIX,ofxvhxsanqpw.com
 DOMAIN-SUFFIX,ofyuxfqhsexkj.online
 DOMAIN-SUFFIX,ofzaqfcrfyaqd.com
-DOMAIN-SUFFIX,ogads-pa.googleapis.com
 DOMAIN-SUFFIX,ogaku.site
 DOMAIN-SUFFIX,ogbmkjmbznzww.top
 DOMAIN-SUFFIX,ogckadnsqwwng.store
@@ -28641,7 +28630,6 @@ DOMAIN-SUFFIX,partleyshut.cyou
 DOMAIN-SUFFIX,partner-ads.com
 DOMAIN-SUFFIX,partner-app.softwareselect.com
 DOMAIN-SUFFIX,partner-dateconnects.com
-DOMAIN-SUFFIX,partner.googleadservices.com
 DOMAIN-SUFFIX,partner.loveplanet.ru
 DOMAIN-SUFFIX,partner.pcloud.com
 DOMAIN-SUFFIX,partner.vecteezy.com
@@ -36436,7 +36424,6 @@ DOMAIN-SUFFIX,stophurtfulunconscious.com
 DOMAIN-SUFFIX,stopsoverreactcollations.com
 DOMAIN-SUFFIX,storader.com
 DOMAIN-SUFFIX,storage-ad.com
-DOMAIN-SUFFIX,storage.googleapis.com
 DOMAIN-SUFFIX,storageimagedisplay.com
 DOMAIN-SUFFIX,store-api.mumuglobal.com
 DOMAIN-SUFFIX,storecomplexion.com
@@ -38061,7 +38048,6 @@ DOMAIN-SUFFIX,toxtren.com
 DOMAIN-SUFFIX,toxtysjglzklk.site
 DOMAIN-SUFFIX,toyedvictory.cyou
 DOMAIN-SUFFIX,tozoruaon.com
-DOMAIN-SUFFIX,tpc.googlesyndication.com
 DOMAIN-SUFFIX,tpcserve.com
 DOMAIN-SUFFIX,tpdads.com
 DOMAIN-SUFFIX,tpfjpdizmvpaz.store
@@ -43420,10 +43406,19 @@ DOMAIN-SUFFIX,zzxrrcacgcsjf.site
 DOMAIN-SUFFIX,zzyxhvqjjtgxj.online
 DOMAIN-SUFFIX,zzzjhkyprpsvl.store
 DOMAIN-SUFFIX,zzzjvqzmkayve.top
+DOMAIN-SUFFIX,googleads-cn.com # Google 中国广告服务主域名（广告分发与跟踪）
+DOMAIN-SUFFIX,googleadsserving.cn # Google 广告投放服务（中国镜像）
+DOMAIN-SUFFIX,googletagservices.com # Google 广告标签服务（常用于广告脚本加载）
+DOMAIN-SUFFIX,partner.googleadservices.com # Google 广告联盟域名（第三方广告合作分发）
+DOMAIN-SUFFIX,tpc.googlesyndication.com # Google 广告脚本加载平台（Google AdSense 分发）
+DOMAIN-SUFFIX,imasdk.googleapis.com # Google 互动媒体广告 SDK（视频广告服务）
+DOMAIN-SUFFIX,ogads-pa.googleapis.com # Google 广告相关 SDK 接口，常见于移动 App 广告上报
+DOMAIN-SUFFIX,googlevads-cn.com # Google 视频广告服务中国节点（YouTube 相关）
 
 # > 分析与统计服务（Analytics & Tracking）
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,click.googleanalytics.com
+DOMAIN-SUFFIX,google-analytics.com # Google Analytics 分析服务主域名，用于网站访问行为追踪
+DOMAIN-SUFFIX,click.googleanalytics.com # Google Analytics 点击事件追踪域名
+DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com # Firebase 日志分析服务
 DOMAIN-SUFFIX,analytics.tiktok.com
 DOMAIN-SUFFIX,analytics.pinterest.com
 DOMAIN-SUFFIX,analytics.query.yahoo.com
@@ -43445,7 +43440,6 @@ DOMAIN-SUFFIX,frontend-perf-service.e.kuaishou.com
 DOMAIN-SUFFIX,metrics2.data.hicloud.com
 DOMAIN-SUFFIX,stats.wp.com
 DOMAIN-SUFFIX,analytics.rayjump.com
-DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
 DOMAIN-SUFFIX,metrics.mzstatic.com
 DOMAIN-SUFFIX,log.fc.yahoo.com
 DOMAIN-SUFFIX,applog.lc.quark.cn
@@ -43671,7 +43665,6 @@ DOMAIN-SUFFIX,adstore-index-1252524079.file.myqcloud.com
 DOMAIN-SUFFIX,ggx01.miguvideo.com
 DOMAIN-SUFFIX,ggx03.miguvideo.com
 DOMAIN-SUFFIX,globalapi.ad.xiaomi.com
-DOMAIN-SUFFIX,googletagservices-cn.com
 DOMAIN-SUFFIX,xiaomi-dtv.m.cn.miaozhen.com
 DOMAIN-SUFFIX,tytx.m.cn.miaozhen.com
 DOMAIN-SUFFIX,tz.sec.xiaomi.com
@@ -44321,7 +44314,6 @@ DOMAIN-SUFFIX,adserver.waggonerguide.com
 DOMAIN-SUFFIX,adserver01.de
 DOMAIN-SUFFIX,adserversolutions.com
 DOMAIN-SUFFIX,adserverxxl.de
-DOMAIN-SUFFIX,adservice.google.com.mt
 DOMAIN-SUFFIX,adservingfront.com
 DOMAIN-SUFFIX,adservrs.com.edgekey.net
 DOMAIN-SUFFIX,adsfeed.brabys.com
@@ -44443,7 +44435,6 @@ DOMAIN-SUFFIX,analytics.bitrix.info
 DOMAIN-SUFFIX,analytics.cloudron.io
 DOMAIN-SUFFIX,analytics.emarketer.com
 DOMAIN-SUFFIX,analytics.ext.go-tellm.com
-DOMAIN-SUFFIX,analytics.google.com
 DOMAIN-SUFFIX,analytics.htmedia.in
 DOMAIN-SUFFIX,analytics.icons8.com
 DOMAIN-SUFFIX,analytics.inlinemanual.com
@@ -44802,7 +44793,6 @@ DOMAIN-SUFFIX,clicktrade.com
 DOMAIN-SUFFIX,clickyab.com
 DOMAIN-SUFFIX,clickz.com
 DOMAIN-SUFFIX,clientgear.com
-DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com
 DOMAIN-SUFFIX,clikerz.net
 DOMAIN-SUFFIX,cliksolution.com
 DOMAIN-SUFFIX,clixgalore.com
@@ -44875,7 +44865,6 @@ DOMAIN-SUFFIX,crabbychin.com
 DOMAIN-SUFFIX,craktraffic.com
 DOMAIN-SUFFIX,crashchance.com
 DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 DOMAIN-SUFFIX,cratecamera.com
 DOMAIN-SUFFIX,crawlability.com
 DOMAIN-SUFFIX,crazyegg.com
@@ -45166,8 +45155,6 @@ DOMAIN-SUFFIX,godseedband.com
 DOMAIN-SUFFIX,goingplatinum.com
 DOMAIN-SUFFIX,goldstats.com
 DOMAIN-SUFFIX,gondolagnome.com
-DOMAIN-SUFFIX,googleanalytics.com
-DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,gostats.com
 DOMAIN-SUFFIX,gothamads.com
 DOMAIN-SUFFIX,gotraffic.net
@@ -45704,7 +45691,6 @@ DOMAIN-SUFFIX,oxen.hillcountrytexas.com
 DOMAIN-SUFFIX,p-n.io
 DOMAIN-SUFFIX,paa-reporting-advertising.amazon
 DOMAIN-SUFFIX,page-redirect.eu
-DOMAIN-SUFFIX,pagead.l.google.com
 DOMAIN-SUFFIX,pagefair.com
 DOMAIN-SUFFIX,pagerank-ranking.de
 DOMAIN-SUFFIX,pageranktop.com
@@ -45718,7 +45704,6 @@ DOMAIN-SUFFIX,parentpicture.com
 DOMAIN-SUFFIX,parsely.com
 DOMAIN-SUFFIX,parsimoniouspolice.com
 DOMAIN-SUFFIX,partner.pelikan.cz
-DOMAIN-SUFFIX,partnerad.l.google.com
 DOMAIN-SUFFIX,partnerads.ysm.yahoo.com
 DOMAIN-SUFFIX,partnerlinks.io
 DOMAIN-SUFFIX,partners.priceline.com
@@ -46441,7 +46426,6 @@ DOMAIN-SUFFIX,vervewireless.com
 DOMAIN-SUFFIX,vgnp3trk.com
 DOMAIN-SUFFIX,vibrantsundown.com
 DOMAIN-SUFFIX,vid.pubmatic.com
-DOMAIN-SUFFIX,video-stats.video.google.com
 DOMAIN-SUFFIX,videoadex.com
 DOMAIN-SUFFIX,videoegg.com
 DOMAIN-SUFFIX,videostats.kakao.com
@@ -46504,7 +46488,6 @@ DOMAIN-SUFFIX,widget.privy.com
 DOMAIN-SUFFIX,wikia-ads.wikia.com
 DOMAIN-SUFFIX,win.iqm.com
 DOMAIN-SUFFIX,window.nixnet.cz
-DOMAIN-SUFFIX,wintricksbanner.googlepages.com
 DOMAIN-SUFFIX,wirecomic.com
 DOMAIN-SUFFIX,wirypaste.com
 DOMAIN-SUFFIX,wisepops.com
@@ -46519,7 +46502,6 @@ DOMAIN-SUFFIX,worriednumber.com
 DOMAIN-SUFFIX,wt-eu02.net
 DOMAIN-SUFFIX,wt.bankmillennium.pl
 DOMAIN-SUFFIX,www-banner.chat.ru
-DOMAIN-SUFFIX,www-google-analytics.l.google.com
 DOMAIN-SUFFIX,www.dnps.com
 DOMAIN-SUFFIX,www.kaplanindex.com
 DOMAIN-SUFFIX,www.photo-ads.co.uk
@@ -46562,3 +46544,15 @@ DOMAIN-SUFFIX,zonewedgeshaft.com
 DOMAIN-SUFFIX,zpu.samsungelectronics.com
 DOMAIN-SUFFIX,zqtk.net
 DOMAIN-SUFFIX,zy16eoat1w.com
+DOMAIN-SUFFIX,googletagservices-cn.com # Google 广告标签服务（中国镜像）
+DOMAIN-SUFFIX,adservice.google.com.mt # Google 广告服务（马耳他地区）
+DOMAIN-SUFFIX,analytics.google.com # Google 分析平台主域（行为追踪）
+DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com # Google 客户端指标收集（Telemetry）
+DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com # Google 应用崩溃分析（Crashlytics）
+DOMAIN-SUFFIX,googleanalytics.com # Google Analytics 广告分析平台
+DOMAIN-SUFFIX,googletagmanager.com # Google Tag Manager 标签管理器
+DOMAIN-SUFFIX,pagead.l.google.com # Google 广告服务子域（页面广告）
+DOMAIN-SUFFIX,partnerad.l.google.com # Google 合作广告平台（partner 广告）
+DOMAIN-SUFFIX,video-stats.video.google.com # Google 视频广告统计接口（YouTube 视频前贴广告统计）
+DOMAIN-SUFFIX,wintricksbanner.googlepages.com # Google Pages 网站上的广告内容托管
+DOMAIN-SUFFIX,www-google-analytics.l.google.com # Google Analytics 辅助域名
