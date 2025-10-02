@@ -4,7 +4,7 @@
 # - 特征：基于 DNS 查询模式、TLS 指纹（如 Client Hello）等行为模式识别并封锁，配合灰产 SDK 与分析节点检测
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-02
 
 DOMAIN-SUFFIX,dns.apple.com // Apple 网络状态探测域，非必须服务，可疑行为分析用
 DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
