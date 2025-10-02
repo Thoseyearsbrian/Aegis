@@ -90,6 +90,8 @@ DOMAIN-SUFFIX,akadns.net // 微软全球 CDN 网络域
 DOMAIN,update.code.visualstudio.com
 DOMAIN-SUFFIX,vscode-cdn.net
 DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,gallery.vsassets.io # VS Code 插件库主域，用于插件元数据分发与管理
+DOMAIN-SUFFIX,gallerycdn.vsassets.io # VS Code 插件 CDN 加速域名，用于插件资源下载
 
 # > 头像服务（可选放行）
 DOMAIN,gravatar.com
