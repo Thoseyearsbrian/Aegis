@@ -4,7 +4,7 @@
 # - 特征：用于识别代理客户端、订阅 API、节点管理平台等域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-02
 
 # » 通用代理订阅平台 / 节点服务
 DOMAIN-SUFFIX,api.subs.ee // 常见订阅转换服务平台
@@ -30,7 +30,6 @@ DOMAIN-SUFFIX,cloudways.com // Cloudways 云平台，部分代理部署平台
 DOMAIN-SUFFIX,v2rayssr.com // v2ray+ssr 综合配置下载站
 
 # » 其他第三方托管与节点来源
-DOMAIN-SUFFIX,recloudstream.github.io // CloudStream 项目 Github Pages 托管
 DOMAIN-SUFFIX,freefq.com // 免费节点分享网站
 DOMAIN-SUFFIX,dlj.tf // Telegram Bot 或订阅地址常见跳转域
 DOMAIN,steambroadcast.akamaized.net
@@ -49,7 +48,6 @@ DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,instagram
@@ -2468,14 +2466,6 @@ DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,gitbooks.io
 DOMAIN-SUFFIX,githack.com
-DOMAIN-SUFFIX,github.blog
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubapp.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,githubmemory.com
-DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,gitlab.net
@@ -5139,7 +5129,6 @@ DOMAIN-SUFFIX,rateyourmusic.com
 DOMAIN-SUFFIX,rationalwiki.org
 DOMAIN-SUFFIX,raw.githack.com
 DOMAIN-SUFFIX,rawgit.com
-DOMAIN-SUFFIX,rawgithub.com
 DOMAIN-SUFFIX,raxcdn.com
 DOMAIN-SUFFIX,razyboard.com
 DOMAIN-SUFFIX,rcam.target.com

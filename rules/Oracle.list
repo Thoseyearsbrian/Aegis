@@ -4,7 +4,7 @@
 # - 特征：涵盖 Oracle Cloud、Eloqua、BlueKai、AddThis、Java 等服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-02
 
 # > Oracle 主域名与电商子域
 DOMAIN,shop.oracle.com // Oracle 官方商城
@@ -34,7 +34,7 @@ DOMAIN-SUFFIX,bkrtx.com // Oracle 旗下广告追踪服务
 # > Oracle 营销/广告平台（Eloqua、BlueKai、Responsys 等）
 DOMAIN-SUFFIX,bluekai.com // Oracle BlueKai 数据管理平台
 DOMAIN-SUFFIX,bronto.com // Oracle Bronto 营销平台
-DOMAIN-SUFFIX,eloqua.com   // Oracle Eloqua 营销平台
+DOMAIN-SUFFIX,eloqua.com // Oracle Eloqua 营销平台
 DOMAIN-SUFFIX,eloquaeditors.com // Eloqua 编辑器服务
 DOMAIN-SUFFIX,eloquapreview.com // Eloqua 预览子域
 DOMAIN-SUFFIX,en25.com // Eloqua 第三方跟踪服务

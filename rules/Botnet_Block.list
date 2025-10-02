@@ -6,10 +6,10 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-09-29
 
-IP-CIDR,222.186.181.100/32,REJECT,no-resolve // UDP/443 长连，徐州段，C2 常用
-IP-CIDR,222.187.225.3/32,REJECT,no-resolve // 江苏已知恶意 C2 控制节点
-IP-CIDR,119.255.133.28/32,REJECT,no-resolve // CDN 被滥用，持续 HTTPS 长连
-IP-CIDR,119.255.133.16/32,REJECT,no-resolve // Kerberods 控制器节点
-IP-CIDR,221.228.217.0/24,REJECT,no-resolve // 多次 TIME_WAIT，疑似扫描器
-IP-CIDR,221.229.203.225/32,REJECT,no-resolve // 疑似被控肉鸡，活跃残留连接
-IP-CIDR,183.60.123.112/32,REJECT,no-resolve // 腾讯云段异常探测，UDP 高端口扫描
+IP-CIDR,222.186.181.100/32 // UDP/443 长连，徐州段，C2 常用
+IP-CIDR,222.187.225.3/32 // 江苏已知恶意 C2 控制节点
+IP-CIDR,119.255.133.28/32 // CDN 被滥用，持续 HTTPS 长连
+IP-CIDR,119.255.133.16/32 // Kerberods 控制器节点
+IP-CIDR,221.228.217.0/24 // 多次 TIME_WAIT，疑似扫描器
+IP-CIDR,221.229.203.225/32 // 疑似被控肉鸡，活跃残留连接
+IP-CIDR,183.60.123.112/32 // 腾讯云段异常探测，UDP 高端口扫描
