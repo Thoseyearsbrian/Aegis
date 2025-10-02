@@ -4,9 +4,18 @@
 # - 特征：与具体设备无关，包含数据回传、行为监听、植入式 SDK 服务等潜在风险通信
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-02
 
 DOMAIN,scproxy.ws.samsung.com // Samsung SmartConnect：三星设备连接代理，如无使用场景，可选封锁
 DOMAIN-SUFFIX,yahoo.com // Yahoo：含广告追踪与 SDK 接入，如无业务需求，可选封锁
 DOMAIN-SUFFIX,flurry.com // Flurry：Yahoo 旗下广告SDK监听域名，如无需要场景，可选封锁
 DOMAIN-SUFFIX,cftoken.net // 疑似钓鱼或后门行为域名（可与APT或伪装回连相关）
+DOMAIN,sylvan.apple.com # Apple iCloud 行为遥测服务（后台统计，建议拦截）
+DOMAIN,sylvan.apple.com # Apple iCloud 行为遥测服务
+DOMAIN,analytics.edge.apple # Apple 分析数据上报服务
+DOMAIN,feedbackws.apple.com # Apple 用户反馈与错误日志上报
+DOMAIN,crashlytics.apple.com # Apple 应用崩溃日志收集服务
+DOMAIN,supportmetrics.apple.com # Apple 支持行为追踪接口
+DOMAIN,bag.itunes.apple.com # Apple Store 推荐分析与行为接口
+DOMAIN-SUFFIX,metrics.icloud.com # Apple iCloud 使用数据分析域名
+DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务

@@ -6,15 +6,15 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-09-29
 
+DOMAIN-SUFFIX,dns.apple.com // Apple 网络状态探测域，非必须服务，可疑行为分析用
+DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
 DOMAIN-SUFFIX,ssl-images-amazon.com // CDN隐匿式回传 或 伪装图像传输
 DOMAIN-SUFFIX,app-measurement.com // 指纹监听 + 流量分析回传
 DOMAIN-SUFFIX,crashlytics.com // 被大量灰产 SDK 使用
 DOMAIN-SUFFIX,dns.msftncsi.com // Microsoft 网络连通性检查域，用于探测联网状态
 DOMAIN-SUFFIX,dns.google // Google DoH/DoT 域名，用于行为探测与回传
-DOMAIN-SUFFIX,dns.apple.com // Apple 网络状态探测域，非必须服务，可疑行为分析用
 DOMAIN-SUFFIX,sentry.cloudflare.com // 行为分析追踪系统
 DOMAIN-SUFFIX,track.adform.net // Adform：广告行为监听器
-DOMAIN-SUFFIX,metrics.icloud.com // Apple 端行为数据上传
 DOMAIN-SUFFIX,graph.facebook.com // Facebook Graph API，行为上报接口
 DOMAIN-SUFFIX,api.branch.io // Branch SDK，含行为回传能力
 DOMAIN-SUFFIX,snapkit.com // 若非主动使用 Snapchat，可屏蔽
