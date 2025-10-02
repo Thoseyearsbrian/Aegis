@@ -50,6 +50,7 @@ DOMAIN-KEYWORD,apple.com.edgekey.net # Apple 边缘镜像服务（Akamai）
 DOMAIN-SUFFIX,apple-com.akamaized.net # Apple CDN 主通道
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com # Apple iCloud Relay 中继服务（Fastly）
 DOMAIN,lcdn-locator.apple.com # Apple CDN 节点定位服务
+DOMAIN,cp10.cloudflare.com # Apple 软件透明性服务日志中继节点，通过 Cloudflare CDN 分发，建议放行
 
 # > 开发者相关
 DOMAIN-SUFFIX,developer.apple.com # Apple 开发者网站
