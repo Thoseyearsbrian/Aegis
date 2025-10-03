@@ -10,19 +10,4 @@ DOMAIN,scproxy.ws.samsung.com // Samsung SmartConnect：三星设备连接代理
 DOMAIN-SUFFIX,yahoo.com // Yahoo：含广告追踪与 SDK 接入，如无业务需求，可选封锁
 DOMAIN-SUFFIX,flurry.com // Flurry：Yahoo 旗下广告SDK监听域名，如无需要场景，可选封锁
 DOMAIN-SUFFIX,cftoken.net // 疑似钓鱼或后门行为域名（可与APT或伪装回连相关）
-DOMAIN,sylvan.apple.com # Apple iCloud 行为遥测服务（后台统计，建议拦截）
-DOMAIN,sylvan.apple.com # Apple iCloud 行为遥测服务
-DOMAIN,analytics.edge.apple # Apple 分析数据上报服务
-DOMAIN,feedbackws.apple.com # Apple 用户反馈与错误日志上报
-DOMAIN,crashlytics.apple.com # Apple 应用崩溃日志收集服务
-DOMAIN,supportmetrics.apple.com # Apple 支持行为追踪接口
-DOMAIN-SUFFIX,metrics.icloud.com # Apple iCloud 使用数据分析域名
-DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
-DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上报接口（官方遥测）
-DOMAIN-SUFFIX,weather-analytics-events.apple.com # Apple 天气应用分析事件接口（官方遥测）
-DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 监控上报域名，GPT 应用用于收集前端性能指标与异常信息
-DOMAIN-SUFFIX,o33249.ingest.us.sentry.io    # Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
-DOMAIN-SUFFIX,segment.io # 用户行为追踪服务，广泛嵌入于 App 与网页中，采集分析数据
-DOMAIN,api.segment.io # Segment 数据采集 API，发送用户操作、点击事件、设备信息等行为数据
-DOMAIN,dataflow.biliapi.com # Bilibili 数据流分析接口，用于用户行为收集、推荐算法训练等
 DOMAIN-SUFFIX,xinqiucc.com # 新球广告平台域名，常见于移动广告 SDK，用于广告素材下发与行为回传，建议封锁
