@@ -1,10 +1,10 @@
 # » Background_Block.list（可疑后台服务与域名规则集）
 # - 分类：未知行为 / 数据回传 / 第三方后台服务
-# - 来源：实际抓包分析 / SDK 行为溯源 / 安全社区举报
+# - 来源：流量捕获分析 / SDK 通信归属分析 / 社区规则整合与实证补充
 # - 特征：与具体设备无关，包含数据回传、行为监听、植入式 SDK 服务等潜在风险通信
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-02
+# - 更新时间：2025-10-03
 
 DOMAIN,scproxy.ws.samsung.com // Samsung SmartConnect：三星设备连接代理，如无使用场景，可选封锁
 DOMAIN-SUFFIX,yahoo.com // Yahoo：含广告追踪与 SDK 接入，如无业务需求，可选封锁

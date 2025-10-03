@@ -1,10 +1,10 @@
 # » APT.list（国际APT攻击组织域名/IP规则集）
 # - 分类：APT 攻击组织 / 网络间谍行为 / 国家级攻击源
-# - 来源：ThreatFox / Mandiant / 火绒威胁情报 / 360及其他公共IOC披露报告（公开披露，不代表制表者立场）
+# - 来源：ThreatFox / Mandiant / 火绒威胁情报 / 360及其他公共IOC披露报告（公开披露不代表制表者立场）
 # - 特征：涵盖 APT1 ~ APTxx 等组织使用的C2控制器、钓鱼跳转域、后门通信节点与攻击基础设施
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-02
+# - 更新时间：2025-10-03
 
 # > APT1（中国 · 被 Mandiant 命名为 Comment Crew）
 
