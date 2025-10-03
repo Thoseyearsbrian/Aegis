@@ -7443,3 +7443,8 @@ DOMAIN,storage.googleapis.com # Dr.Web 云托管内容（用于更新、规则�
 DOMAIN-SUFFIX,drweb.cn # Dr.Web 中文资讯 RSS 订阅接口（新闻推送）
 DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源 CDN，用于加载 UI 样式、脚本等前端文件
 DOMAIN-SUFFIX,downloads.zohocdn.com # Zoho 安装包与工具下载地址，用于分发客户端安装器、驱动等文件
+DOMAIN-SUFFIX,zohocdn.com # Zoho 静态资源 CDN 域名，用于加载 Zoho Mail、Desk、CRM 等应用的前端资源
+DOMAIN,downloads.zohocdn.com # Zoho 官方软件下载资源域名，用于分发客户端、插件等文件
+DOMAIN,static.zohocdn.com # Zoho 静态资源加载域名，服务于 Zoho 各模块前端界面
+DOMAIN,static-zayo1.zohocdn.com # Zoho CDN 加速节点，可能归属 Zayo 网络（用于全球分发）
+DOMAIN,static-lumen1.zohocdn.com # Zoho CDN 加速节点，可能归属 Lumen 网络（用于全球分发）
