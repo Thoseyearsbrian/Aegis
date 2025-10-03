@@ -16,19 +16,8 @@ DOMAIN,feedback.qnap.com # 用户反馈与系统行为回传接口
 DOMAIN,myqnapcloud.com # 远程访问服务，如无使用建议封锁
 
 # >> Hikvision 海康威视相关接口
-DOMAIN,cloud.hikvision.com # 云控制与设备远程配置接口
 DOMAIN,dev.hik-connect.com # Hik-Connect 远程接入通道，默认开启，建议封锁
 DOMAIN-SUFFIX,hik-connect.com # 远程连接穿透服务
-
-# >> TP-Link / 华硕 / 小米等路由器云管理与回传接口
-DOMAIN,us-wap.tplinkcloud.com # TP-Link 云端 API 接口（设备注册、遥测）
-DOMAIN,aicloud.asus.com # 华硕 AiCloud 远程同步与控制接口
-DOMAIN-SUFFIX,router.ctc.xiaomi.net # 小米路由器远程配置与更新服务
-DOMAIN,config.miwifi.com # 小米路由器配置与遥测接口
-
-# >> Netgear / D-Link 等其他厂商设备回传
-DOMAIN,eu.mydlink.com # D-Link 云端登录与控制接口
-DOMAIN,wifi.linksyssmartwifi.com # Linksys 智能云配置接口
 
 # >> Ubiquiti / UniFi 设备远程控制与遥测接口
 DOMAIN,network.unifi.ui.com # UniFi 网络远程配置服务，默认开启建议封锁
@@ -38,10 +27,6 @@ DOMAIN,trace.svc.ui.com # 行为与系统日志上传接口
 DOMAIN,telemetry.wdc.com # WD 系统行为遥测接口
 DOMAIN,storage.toshiba.com # 存储设备日志服务接口
 
-# >> 第三方插件平台遥测接口（部分固件默认内置）
-DOMAIN-SUFFIX,fwupdate.com # 第三方固件更新服务，可能存在中间人下载行为
-DOMAIN-SUFFIX,routerupdate.com # 某些国产固件使用的远程更新接口，潜在后门风险
-
 # >> 可疑第三方服务（已被社区标注为存在监听风险）
 DOMAIN,config.router7.cn # 可能用于自动配置下发，建议封锁
 DOMAIN,update.routerupdate.net # 第三方路由器远程管理接口，存在风险
@@ -49,12 +34,6 @@ DOMAIN,update.routerupdate.net # 第三方路由器远程管理接口，存在�
 # >> 其他通用远程日志与固件平台
 DOMAIN,telemetry.malavida.com # 非主流设备日志平台，疑似行为采集
 DOMAIN-SUFFIX,firmware-updates.net # 第三方固件中继域名（疑似回传中转） 
-
-# >> 智能家居设备（Smart Home Devices）
-DOMAIN,ot.io.mi.com # 小米 OTA 与设备遥测通信服务
-DOMAIN-SUFFIX,home.mi.com # 米家平台控制与行为回传接口
-DOMAIN-SUFFIX,iotsmart.aliyun.com # 阿里智能家居设备通信服务
-DOMAIN-SUFFIX,support-tuya.com # 涂鸦设备后台支持域
 
 # >> IoT 摄像头与安防设备（Smart Cameras / CCTV）
 DOMAIN-SUFFIX,security.tencent.com # 腾讯云摄像头行为分析与上传接口
