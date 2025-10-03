@@ -4,9 +4,10 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-03
 
 # > OpenAI Chat 系列
+
 DOMAIN-SUFFIX,openai.com // OpenAI 主站域名
 DOMAIN-SUFFIX,chat.openai.com // ChatGPT 网页端
 DOMAIN-SUFFIX,api.openai.com // OpenAI API 接口
@@ -23,31 +24,37 @@ DOMAIN-SUFFIX,persistent.oaistatic.com // OpenAI 持久化静态资源
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net // Azure Edge CDN 分发
 
 # > Claude（Anthropic）
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,api.anthropic.com
-DOMAIN-SUFFIX,anthropic.com
+
+DOMAIN-SUFFIX,claude.ai # Claude AI 官方访问域名，用于网页前端与用户交互界面
+DOMAIN-SUFFIX,api.anthropic.com # Anthropic Claude 模型调用与 API 接入地址
+DOMAIN-SUFFIX,anthropic.com # Anthropic 官方主页及附属服务域名
 
 # > Gemini / Bard（Google AI）
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,generative language.googleapis.com
+
+DOMAIN-SUFFIX,gemini.google.com # Google Gemini AI：谷歌新一代多模态智能助手平台，整合 Bard 与 Duet AI
+DOMAIN-SUFFIX,bard.google.com # Google Bard：谷歌推出的 AI 对话助手，现已并入 Gemini
+DOMAIN-SUFFIX,generativeai.google # Google Generative AI 平台主页，用于推广与接入 AI 模型服务
+DOMAIN-SUFFIX,generative-language.googleapis.com # Google 生成式语言 API 接口，Gemini 等模型对话后端服务节点
 
 # > Copilot 系列（Microsoft）
-DOMAIN-SUFFIX,copilot.microsoft.com
-DOMAIN-SUFFIX,copilot.office.com
-DOMAIN-SUFFIX,copilot.bing.com
-DOMAIN-SUFFIX,services.bingapis.com
+
+DOMAIN-SUFFIX,claude.ai # Claude 主站访问域名（由 Anthropic 提供）
+DOMAIN-SUFFIX,api.anthropic.com # Claude 后端 API 请求接口（对话与模型通信）
+DOMAIN-SUFFIX,anthropic.com # Anthropic 官方域名（含登录、帮助文档等服务）
 
 # > Perplexity AI
-DOMAIN-SUFFIX,perplexity.ai
+
+DOMAIN-SUFFIX,perplexity.ai # Perplexity AI 主站与 API 服务
 
 # > HuggingFace
-DOMAIN-SUFFIX,huggingface.co
-DOMAIN-SUFFIX,inference-api.com
+
+DOMAIN-SUFFIX,huggingface.co # HuggingFace 官网与模型平台主域名
+DOMAIN-SUFFIX,inference-api.com # HuggingFace 推理 API 接口域名
 
 # > Poe（Quora）
-DOMAIN-SUFFIX,poe.com
+
+DOMAIN-SUFFIX,poe.com # Poe：Quora 推出的 AI 聊天聚合平台，集成多个大模型（如GPT、Claude）
 
 # > Mistral AI
-DOMAIN-SUFFIX,mistral.ai
+
+DOMAIN-SUFFIX,mistral.ai # Mistral：法国大模型初创公司，致力于开源 Transformer 模型开发（如 Mistral 7B）
