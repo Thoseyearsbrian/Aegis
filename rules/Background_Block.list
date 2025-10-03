@@ -25,3 +25,4 @@ DOMAIN-SUFFIX,o33249.ingest.us.sentry.io    # Sentry 错误追踪与日志采集
 DOMAIN-SUFFIX,segment.io # 用户行为追踪服务，广泛嵌入于 App 与网页中，采集分析数据
 DOMAIN,api.segment.io # Segment 数据采集 API，发送用户操作、点击事件、设备信息等行为数据
 DOMAIN,dataflow.biliapi.com # Bilibili 数据流分析接口，用于用户行为收集、推荐算法训练等
+DOMAIN-SUFFIX,xinqiucc.com # 新球广告平台域名，常见于移动广告 SDK，用于广告素材下发与行为回传，建议封锁
