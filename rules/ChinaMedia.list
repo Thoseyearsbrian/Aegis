@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名，便于策略识别与分流（哔哩哔哩已独立归类至 Bilibili.list）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-04
 
 # >> 视频平台
 DOMAIN-SUFFIX,youku.com // 优酷视频
@@ -45,3 +45,20 @@ DOMAIN-SUFFIX,ximalaya.com // 喜马拉雅FM 主站
 DOMAIN-SUFFIX,himalaya.com // 喜马拉雅国际版
 DOMAIN-SUFFIX,lrts.me // 懒人听书
 DOMAIN-SUFFIX,lishi.fm // 历史FM（播客平台）
+
+# >> 短视频平台
+DOMAIN-SUFFIX,douyin.com // 抖音主站域名
+DOMAIN-SUFFIX,amemv.com // 抖音视频资源域名
+DOMAIN-SUFFIX,iesdouyin.com // 抖音内容接口域名
+DOMAIN-SUFFIX,snssdk.com // 字节跳动旗下通用 SDK 接口
+DOMAIN-SUFFIX,pstatp.com // 抖音静态资源 CDN 域名
+DOMAIN-SUFFIX,toutiao.com // 今日头条主站（抖音广告分发源）
+DOMAIN-SUFFIX,ixigua.com // 西瓜视频主站（字节系）
+
+DOMAIN-SUFFIX,kuaishou.com // 快手主站
+DOMAIN-SUFFIX,ksyun.com // 快手 CDN 内容分发域名
+DOMAIN-SUFFIX,static.yximgs.com // 快手静态资源域名
+
+# >> 社交视频图文平台
+DOMAIN-SUFFIX,xiaohongshu.com // 小红书主站
+DOMAIN-SUFFIX,xhslink.com // 小红书跳转短链域名

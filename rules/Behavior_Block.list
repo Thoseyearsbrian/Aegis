@@ -6,31 +6,10 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-10-02
 
+# >> Apple 行为遥测服务
 DOMAIN-SUFFIX,dns.apple.com // Apple 网络状态探测域，非必须服务，可疑行为分析用
 DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
-DOMAIN-SUFFIX,ssl-images-amazon.com // CDN隐匿式回传 或 伪装图像传输
-DOMAIN-SUFFIX,app-measurement.com // 指纹监听 + 流量分析回传
-DOMAIN-SUFFIX,crashlytics.com // 被大量灰产 SDK 使用
-DOMAIN-SUFFIX,dns.msftncsi.com // Microsoft 网络连通性检查域，用于探测联网状态
-DOMAIN-SUFFIX,dns.google // Google DoH/DoT 域名，用于行为探测与回传
-DOMAIN-SUFFIX,sentry.cloudflare.com // 行为分析追踪系统
-DOMAIN-SUFFIX,track.adform.net // Adform：广告行为监听器
-DOMAIN-SUFFIX,graph.facebook.com // Facebook Graph API，行为上报接口
-DOMAIN-SUFFIX,api.branch.io // Branch SDK，含行为回传能力
-DOMAIN-SUFFIX,snapkit.com // 若非主动使用 Snapchat，可屏蔽
-DOMAIN-SUFFIX,inews.qq.com // 建议封锁，防监听
-DOMAIN-SUFFIX,config.app-measurement.com // Firebase GMP 远程配置域名，用于热更新/灰度控制
-DOMAIN-SUFFIX,firebaseinstallations.googleapis.com // Firebase 安装 ID（FID）初始化接口
-DOMAIN-SUFFIX,google-analytics.com // Google Analytics 通用网页行为统计域名
-DOMAIN-SUFFIX,analytics.google.com // Google Analytics GA4 数据上报域名
-DOMAIN-SUFFIX,firebase-settings.crashlytics.com // Crashlytics 崩溃报告配置拉取接口
-DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com // Crashlytics 崩溃数据主动上传接口
-DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com // Firebase 日志收集与上报服务
-DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com // Firebase 动态链接服务，常用于分享跳转追踪
-DOMAIN,mobile.events.data.microsoft.com // VS Code / Windows / Office 遥测上传行为
-DOMAIN,default.exp-tas.com // 实验分流平台，可能进行 A/B 测试配置注入
 DOMAIN,sylvan.apple.com # Apple iCloud 行为遥测服务（后台统计，建议拦截）
-DOMAIN,sylvan.apple.com # Apple iCloud 行为遥测服务
 DOMAIN,analytics.edge.apple # Apple 分析数据上报服务
 DOMAIN,feedbackws.apple.com # Apple 用户反馈与错误日志上报
 DOMAIN,crashlytics.apple.com # Apple 应用崩溃日志收集服务
@@ -39,9 +18,86 @@ DOMAIN-SUFFIX,metrics.icloud.com # Apple iCloud 使用数据分析域名
 DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
 DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上报接口（官方遥测）
 DOMAIN-SUFFIX,weather-analytics-events.apple.com # Apple 天气应用分析事件接口（官方遥测）
-DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 监控上报域名，GPT 应用用于收集前端性能指标与异常信息
-DOMAIN-SUFFIX,o33249.ingest.us.sentry.io    # Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
+
+# >> Google / Firebase / Crashlytics 相关行为指纹
+DOMAIN-SUFFIX,app-measurement.com // 指纹监听 + 流量分析回传
+DOMAIN-SUFFIX,config.app-measurement.com // Firebase GMP 远程配置域名，用于热更新/灰度控制
+DOMAIN-SUFFIX,firebaseinstallations.googleapis.com // Firebase 安装 ID（FID）初始化接口
+DOMAIN-SUFFIX,google-analytics.com // Google Analytics 通用网页行为统计域名
+DOMAIN-SUFFIX,analytics.google.com // Google Analytics GA4 数据上报域名
+DOMAIN-SUFFIX,firebase-settings.crashlytics.com // Crashlytics 崩溃报告配置拉取接口
+DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com // Crashlytics 崩溃数据主动上传接口
+DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com // Firebase 日志收集与上报服务
+DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com // Firebase 动态链接服务，常用于分享跳转追踪
+DOMAIN-SUFFIX,crashlytics.com // 被大量灰产 SDK 使用
+
+# >> Microsoft 相关遥测与探测行为
+DOMAIN-SUFFIX,dns.msftncsi.com // Microsoft 网络连通性检查域，用于探测联网状态
+DOMAIN,mobile.events.data.microsoft.com // VS Code / Windows / Office 遥测上传行为
+
+# >> Amazon / Cloudflare / Sentry 行为分析服务
+DOMAIN-SUFFIX,ssl-images-amazon.com // CDN隐匿式回传 或 伪装图像传输
+DOMAIN-SUFFIX,sentry.cloudflare.com // 行为分析追踪系统
+DOMAIN-SUFFIX,o33249.ingest.us.sentry.io // Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
+DOMAIN-SUFFIX,browser-intake-datadoghq.com // Datadog 监控上报域名，GPT 应用用于收集前端性能指标与异常信息
+
+# >> Facebook / Branch / Snapchat 等社交平台行为接口
+DOMAIN-SUFFIX,graph.facebook.com // Facebook Graph API，行为上报接口
+DOMAIN-SUFFIX,api.branch.io // Branch SDK，含行为回传能力
+DOMAIN-SUFFIX,snapkit.com // 若非主动使用 Snapchat，可屏蔽
+
+# >> Segment 行为追踪服务
 DOMAIN-SUFFIX,segment.io # 用户行为追踪服务，广泛嵌入于 App 与网页中，采集分析数据
 DOMAIN,api.segment.io # Segment 数据采集 API，发送用户操作、点击事件、设备信息等行为数据
+
+# >> Adform 行为监听器
+DOMAIN-SUFFIX,track.adform.net // Adform：广告行为监听器
+
+# >> 实验分流与行为测试平台
+DOMAIN,default.exp-tas.com // 实验分流平台，可能进行 A/B 测试配置注入
+
+# >> 其他非归类通用域名
+DOMAIN-SUFFIX,dns.google // Google DoH/DoT 域名，用于行为探测与回传
+DOMAIN-SUFFIX,inews.qq.com // 建议封锁，防监听
 DOMAIN,dataflow.biliapi.com # Bilibili 数据流分析接口，用于用户行为收集、推荐算法训练等
 DOMAIN,alarmsone.manageengine.com # ManageEngine 告警通知服务接口，用于设备/用户行为的后台告警与遥测
+
+# >> 抖音 / 字节跳动相关行为指纹
+DOMAIN-SUFFIX,mon.snssdk.com // 字节跳动行为统计与设备指纹接口
+DOMAIN-SUFFIX,log.snssdk.com // 字节跳动行为日志与事件上传接口
+DOMAIN-SUFFIX,api5-normal-lf.amemv.com // 抖音行为监控接口（API5 通道）
+DOMAIN-SUFFIX,api5-normal-lq.amemv.com // 抖音行为监控接口（备用线路）
+DOMAIN-SUFFIX,sf16-muse-va.ibytedtos.com // 字节跳动日志上报与 SDK 签名验证域
+DOMAIN-SUFFIX,ib.snssdk.com // 字节跳动行为数据回传主站
+DOMAIN-SUFFIX,data.bytedance.net // 字节跳动数据上传与分析平台
+
+# >> 快手行为监控与指纹采集
+DOMAIN-SUFFIX,log-sdk.ksapisrv.com // 快手行为日志采集接口
+DOMAIN-SUFFIX,reportlog.corp.kuaishou.com // 快手内部日志回传平台（行为上报）
+DOMAIN-SUFFIX,apm-collector.scs.kuaishou.com // 快手前端性能 / APM 指标采集服务
+DOMAIN-SUFFIX,conv-infra.kuaishou.com // 快手推荐系统行为特征训练服务
+
+# >> 小红书指纹与日志收集行为
+DOMAIN-SUFFIX,log.xiaohongshu.com // 小红书行为日志与用户数据采集接口
+DOMAIN-SUFFIX,ark.xiaohongshu.com // 小红书策略分发与行为回传接口
+DOMAIN-SUFFIX,sns-web.xiaohongshu.com // 小红书社交数据行为接口
+DOMAIN-SUFFIX,referee.xiaohongshu.com // 小红书内容审核与行为风险评估接口
+
+# >> 百度行为分析服务
+DOMAIN-SUFFIX,hm.baidu.com // 百度统计（常用于嵌入式网页行为追踪）
+DOMAIN-SUFFIX,tcbox.baidu.com // 百度 App 行为日志接口
+DOMAIN-SUFFIX,log.re.baidu.com // 百度推荐系统行为日志上报接口
+DOMAIN-SUFFIX,mbd.baidu.com // 百度行为组件与内容分发策略接口
+
+# >> 微博行为日志与遥测接口
+DOMAIN-SUFFIX,wbapp.mobile.sina.cn // 微博移动行为监控接口
+DOMAIN-SUFFIX,logmix.sina.cn // 微博行为日志上传通道
+DOMAIN-SUFFIX,appmonitor.sina.cn // 微博 App 性能与行为分析服务
+DOMAIN-SUFFIX,sdkapp.uve.weibo.com // 微博 SDK 远程日志采集服务
+DOMAIN-SUFFIX,trace.sina.cn // 微博用户行为轨迹上报接口
+
+# >> Bilibili 行为分析补充
+DOMAIN-SUFFIX,dataflow.biliapi.com // Bilibili 用户行为分析数据接口
+DOMAIN-SUFFIX,grpc.biliapi.net // Bilibili gRPC 行为请求通道（含用户行为上传）
+DOMAIN-SUFFIX,app.biliapi.net // Bilibili App 级行为接口
+DOMAIN-SUFFIX,api.bilibili.com // Bilibili 核心行为接口，含点赞、点击、追番等事件上报

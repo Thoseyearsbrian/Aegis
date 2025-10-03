@@ -320,14 +320,15 @@ DOMAIN-SUFFIX,1437953666.rsc.cdn77.org # CDN 子域托管可疑内容，历史�
 DOMAIN-SUFFIX,14381834.xyz # 广告跳转 / 可疑域名，疑似用于恶意重定向与灰产内容推广
 DOMAIN-SUFFIX,api5-normal-lq.amemv.com # 抖音 / TikTok 视频服务接口，涉及广告加载与内容分发
 DOMAIN-SUFFIX,14474f114f.com # 广告跳转 / 可疑域名，疑似参与恶意重定向与诱导推广行为
-DOMAIN-SUFFIX,149b5a6b84.com
-DOMAIN-SUFFIX,14cpoff22.de
-DOMAIN-SUFFIX,14fefmsjd.de
-DOMAIN-SUFFIX,14i8trbbx4.com
-DOMAIN-SUFFIX,150791bf69.com
-DOMAIN-SUFFIX,15223102.xyz
-DOMAIN-SUFFIX,15272973.xyz
-DOMAIN-SUFFIX,1529462937.rsc.cdn77.org
+DOMAIN-SUFFIX,149b5a6b84.com # 广告跳转 / 可疑域名，疑似参与恶意广告链或弹窗诱导行为
+DOMAIN-SUFFIX,14cpoff22.de # 广告跳转 / 可疑域名，疑似用于恶意推广或诱导点击行为
+DOMAIN-SUFFIX,14fefmsjd.de # 广告跳转 / 可疑域名，常见于诱导下载与重定向页面
+DOMAIN-SUFFIX,14i8trbbx4.com # 广告跳转 / 可疑域名，结构混淆，常用于诱导页面与弹窗广告
+DOMAIN-SUFFIX,150791bf69.com # 广告跳转 / 可疑域名，结构混淆，疑似参与恶意广告重定向行为
+DOMAIN-SUFFIX,15223102.xyz # 广告跳转 / 可疑域名，域名结构混淆，疑似用于诱导跳转与广告加载行为
+DOMAIN-SUFFIX,15272973.xyz # 广告跳转 / 可疑域名，域名结构异常，疑似用于广告加载与中转重定向
+DOMAIN-SUFFIX,1529462937.rsc.cdn77.org # CDN 子域托管疑似广告或灰产内容，命名结构随机，存在诱导或跳转行为风险
+DOMAIN,vc-brian.ndcpp.com # 可疑子域 / 无公开背景信息，疑似伪造命名结构用于广告或钓鱼页面加载
 DOMAIN-SUFFIX,152media.com
 DOMAIN-SUFFIX,153c349024.com
 DOMAIN-SUFFIX,1548164934.rsc.cdn77.org
