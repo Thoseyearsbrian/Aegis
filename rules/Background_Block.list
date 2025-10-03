@@ -6,35 +6,3 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-10-04
 
-# >> Synology 群晖设备行为回传与更新接口
-DOMAIN,global.quickconnect.to # QuickConnect 穿透服务，建议禁用如无远程使用需求
-DOMAIN,ocsp.synology.com # Synology 自建 OCSP 回调接口（证书验证），建议封锁防监听
-DOMAIN,support.synology.com # 后台支持日志回传接口，建议封锁
-
-# >> QNAP 威联通设备后台行为
-DOMAIN,feedback.qnap.com # 用户反馈与系统行为回传接口
-DOMAIN,myqnapcloud.com # 远程访问服务，如无使用建议封锁
-
-# >> Hikvision 海康威视相关接口
-DOMAIN,dev.hik-connect.com # Hik-Connect 远程接入通道，默认开启，建议封锁
-DOMAIN-SUFFIX,hik-connect.com # 远程连接穿透服务
-
-# >> Ubiquiti / UniFi 设备远程控制与遥测接口
-DOMAIN,network.unifi.ui.com # UniFi 网络远程配置服务，默认开启建议封锁
-DOMAIN,trace.svc.ui.com # 行为与系统日志上传接口
-
-# >> WD / Seagate / Toshiba 存储设备远程接口
-DOMAIN,telemetry.wdc.com # WD 系统行为遥测接口
-DOMAIN,storage.toshiba.com # 存储设备日志服务接口
-
-# >> 可疑第三方服务（已被社区标注为存在监听风险）
-DOMAIN,config.router7.cn # 可能用于自动配置下发，建议封锁
-DOMAIN,update.routerupdate.net # 第三方路由器远程管理接口，存在风险
-
-# >> 其他通用远程日志与固件平台
-DOMAIN,telemetry.malavida.com # 非主流设备日志平台，疑似行为采集
-DOMAIN-SUFFIX,firmware-updates.net # 第三方固件中继域名（疑似回传中转） 
-
-# >> IoT 摄像头与安防设备（Smart Cameras / CCTV）
-DOMAIN-SUFFIX,security.tencent.com # 腾讯云摄像头行为分析与上传接口
-DOMAIN-SUFFIX,monitoring.alicdn.com # 阿里云视频监控数据回传服务
