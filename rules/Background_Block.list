@@ -7,97 +7,40 @@
 # - 更新时间：2025-10-04
 
 # >> Synology 群晖设备行为回传与更新接口
-DOMAIN-SUFFIX,synology.com # Synology 主域，用于认证与更新服务
-DOMAIN,global.download.synology.com # 固件 / 软件远程下载接口
-DOMAIN,global.update.synology.com # 固件更新检测服务接口
 DOMAIN,global.quickconnect.to # QuickConnect 穿透服务，建议禁用如无远程使用需求
 DOMAIN,ocsp.synology.com # Synology 自建 OCSP 回调接口（证书验证），建议封锁防监听
 DOMAIN,support.synology.com # 后台支持日志回传接口，建议封锁
 
 # >> QNAP 威联通设备后台行为
-DOMAIN-SUFFIX,qnap.com # QNAP 主域，含管理与更新服务
-DOMAIN,update.qnap.com # QTS 更新检查接口
-DOMAIN,download.qnap.com # QNAP 官方软件下载接口
 DOMAIN,feedback.qnap.com # 用户反馈与系统行为回传接口
 DOMAIN,myqnapcloud.com # 远程访问服务，如无使用建议封锁
 
 # >> Hikvision 海康威视相关接口
-DOMAIN-SUFFIX,hikvision.com # 海康威视主域，含远程维护与日志服务
-DOMAIN,update.hikvision.com # 固件与软件更新接口
 DOMAIN,cloud.hikvision.com # 云控制与设备远程配置接口
 DOMAIN,dev.hik-connect.com # Hik-Connect 远程接入通道，默认开启，建议封锁
 DOMAIN-SUFFIX,hik-connect.com # 远程连接穿透服务
 
 # >> TP-Link / 华硕 / 小米等路由器云管理与回传接口
-DOMAIN-SUFFIX,tplinkcloud.com # TP-Link 云管理接口，含远程设备配置
 DOMAIN,us-wap.tplinkcloud.com # TP-Link 云端 API 接口（设备注册、遥测）
-DOMAIN-SUFFIX,asus.com # 华硕主域，含后台远程设置与固件更新
 DOMAIN,aicloud.asus.com # 华硕 AiCloud 远程同步与控制接口
 DOMAIN-SUFFIX,router.ctc.xiaomi.net # 小米路由器远程配置与更新服务
 DOMAIN,config.miwifi.com # 小米路由器配置与遥测接口
 
-# >> Netgear / D-Link / Linksys 等其他厂商设备回传
-DOMAIN-SUFFIX,netgear.com # Netgear 主域，含遥测接口
-DOMAIN,my.netgear.com # 用户登录与云端配置接口
-DOMAIN-SUFFIX,dlink.com # D-Link 主域，部分设备固件含回传逻辑
+# >> Netgear / D-Link 等其他厂商设备回传
 DOMAIN,eu.mydlink.com # D-Link 云端登录与控制接口
-DOMAIN-SUFFIX,linksys.com # Linksys 主域
 DOMAIN,wifi.linksyssmartwifi.com # Linksys 智能云配置接口
 
 # >> Ubiquiti / UniFi 设备远程控制与遥测接口
-DOMAIN-SUFFIX,ui.com # Ubiquiti 统一管理平台域
-DOMAIN,firmware.ui.com # 固件自动更新接口
 DOMAIN,network.unifi.ui.com # UniFi 网络远程配置服务，默认开启建议封锁
 DOMAIN,trace.svc.ui.com # 行为与系统日志上传接口
 
 # >> WD / Seagate / Toshiba 存储设备远程接口
-DOMAIN-SUFFIX,wdc.com # Western Digital 主域
-DOMAIN,device-cloud.wdc.com # WD My Cloud 云同步接口
 DOMAIN,telemetry.wdc.com # WD 系统行为遥测接口
-DOMAIN-SUFFIX,seagate.com # Seagate 主域
-DOMAIN,update.seagate.com # 固件升级与设备行为检测
-DOMAIN-SUFFIX,toshiba.com # Toshiba 存储主域
 DOMAIN,storage.toshiba.com # 存储设备日志服务接口
-
-# >> OpenWRT / LEDE / Padavan 等后台行为与回传接口
-
-DOMAIN-SUFFIX,openwrt.org # OpenWRT 官方主域（默认源与文档服务）
-DOMAIN,downloads.openwrt.org # OpenWRT 官方固件及软件包源
-DOMAIN,sysupgrade.openwrt.org # OpenWRT 系统升级检查接口，默认启用
-DOMAIN,firmware-selector.openwrt.org # OpenWRT 固件选择器页面（含远程 JSON 配置）
-
-DOMAIN,lede-project.org # LEDE 项目旧版域名，部分固件仍使用
-DOMAIN,downloads.lede-project.org # LEDE 下载源（弃用中，但部分固件仍内嵌）
-
-DOMAIN-SUFFIX,opkg.org # 第三方 opkg 包管理镜像源，部分版本内嵌
-DOMAIN,mirror-01.infra.openwrt.org # OpenWRT CDN 下载镜像节点
-DOMAIN,mirror-02.infra.openwrt.org # OpenWRT CDN 下载镜像节点
-
-DOMAIN-SUFFIX,bintray.com # 早期固件可能使用的 opkg 镜像服务（JFrog 提供，已下线）
-
-DOMAIN-SUFFIX,luci.subsignal.org # luci Web UI 官方开发接口 / 文档服务器
-DOMAIN-SUFFIX,openwrt.lan # 局域网默认域名，如已替换或未使用可屏蔽
-
-# >> 常见 OpenWRT 插件远程回传服务
-DOMAIN-SUFFIX,v2ray.com # v2ray 更新、核心接口（多数插件含自动下载）
-DOMAIN-SUFFIX,xray.com # xray 核心远程拉取服务
-DOMAIN,api.github.com # 多数插件通过 GitHub 接口拉取 release
-DOMAIN,raw.githubusercontent.com # 用于拉取 config、update 脚本（如 passwall、helloworld）
-DOMAIN,ghproxy.com # 第三方 GitHub 加速中转接口（部分国内镜像使用）
 
 # >> 第三方插件平台遥测接口（部分固件默认内置）
 DOMAIN-SUFFIX,fwupdate.com # 第三方固件更新服务，可能存在中间人下载行为
 DOMAIN-SUFFIX,routerupdate.com # 某些国产固件使用的远程更新接口，潜在后门风险
-DOMAIN-SUFFIX,padavan.net # Padavan 项目相关域名（含旧版远程更新）
-DOMAIN,dl.panda-wrt.com # PandoraBox 固件插件更新服务接口
-DOMAIN,api.pandorabox.com.cn # PandoraBox 插件版本更新检测域
-
-# >> OpenClash / PassWall / SSR-Plus 等常用插件行为特征
-DOMAIN-SUFFIX,subconverter.workers.dev # OpenClash 配置转换远程接口
-DOMAIN,meta.ssrcloud.org # SSR-Plus 核心更新地址
-DOMAIN,update.v2fly.org # V2Fly 项目更新检查域
-DOMAIN,check.trojan-gfw.com # Trojan 插件更新检查域
-DOMAIN,update.miwifi.com # 部分插件可能调用小米路由器的核心库（需特别注意）
 
 # >> 可疑第三方服务（已被社区标注为存在监听风险）
 DOMAIN,config.router7.cn # 可能用于自动配置下发，建议封锁
@@ -105,41 +48,14 @@ DOMAIN,update.routerupdate.net # 第三方路由器远程管理接口，存在�
 
 # >> 其他通用远程日志与固件平台
 DOMAIN,telemetry.malavida.com # 非主流设备日志平台，疑似行为采集
-DOMAIN-SUFFIX,firmware-updates.net # 第三方固件中继域名（疑似回传中转）
+DOMAIN-SUFFIX,firmware-updates.net # 第三方固件中继域名（疑似回传中转） 
 
 # >> 智能家居设备（Smart Home Devices）
 DOMAIN,ot.io.mi.com # 小米 OTA 与设备遥测通信服务
-DOMAIN-SUFFIX,miio.io # 米家设备远程通信主域
-DOMAIN-SUFFIX,miot-spec.org # 米家通信协议服务域
 DOMAIN-SUFFIX,home.mi.com # 米家平台控制与行为回传接口
 DOMAIN-SUFFIX,iotsmart.aliyun.com # 阿里智能家居设备通信服务
 DOMAIN-SUFFIX,support-tuya.com # 涂鸦设备后台支持域
-DOMAIN-SUFFIX,tuyacn.com # 涂鸦智能家居主域（含多品牌 OEM）
-DOMAIN-SUFFIX,life-smart.com # LifeSmart 智能家居后台服务
-
-# >> 打印机与扫描仪（Printers / Scanners）
-DOMAIN-SUFFIX,hpconnected.com # HP 打印机远程通信域名
-DOMAIN-SUFFIX,hpsmart.com # HP Smart 应用行为与设备管理接口
-DOMAIN-SUFFIX,hp.com # HP 打印设备后台服务入口
-DOMAIN-SUFFIX,brother.com # Brother 打印机云端通信服务
-DOMAIN-SUFFIX,epson.net # Epson 打印机远程状态上报接口
-DOMAIN-SUFFIX,support.epson.net # Epson 打印服务后台接口
-DOMAIN-SUFFIX,printanywhere.cn # 国内智能打印远程服务平台
-
-# >> 工业控制设备（Industrial Control Systems）
-DOMAIN-SUFFIX,siemens.com # Siemens 工控设备远程服务接口
-DOMAIN-SUFFIX,honeywell.com # Honeywell 工业与楼宇控制通信域
-DOMAIN-SUFFIX,rockwellautomation.com # 罗克韦尔自动化后台通信服务
-DOMAIN-SUFFIX,advantech.com # 研华工控设备远程平台接口
-DOMAIN-SUFFIX,emerson.com # Emerson 工业远程支持服务
-DOMAIN-SUFFIX,schneider-electric.com # 施耐德工控设备管理服务通信域
 
 # >> IoT 摄像头与安防设备（Smart Cameras / CCTV）
-DOMAIN-SUFFIX,cloudlinks.cn # TP-Link 安防设备远程服务
-DOMAIN-SUFFIX,tplogin.cn # TP-Link 设备远程管理接口
-DOMAIN-SUFFIX,cloud.mi.com # 小米摄像头云回传服务
-DOMAIN-SUFFIX,mipush.mi.com # 小米设备远程推送控制接口
-DOMAIN-SUFFIX,yi.io # 小蚁摄像头云服务主域
-DOMAIN-SUFFIX,kamihome.com # Kami 国际版摄像头远程通信域
 DOMAIN-SUFFIX,security.tencent.com # 腾讯云摄像头行为分析与上传接口
 DOMAIN-SUFFIX,monitoring.alicdn.com # 阿里云视频监控数据回传服务
