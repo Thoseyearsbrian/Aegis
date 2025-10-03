@@ -257,36 +257,31 @@ DOMAIN-SUFFIX,0f461325bf56c3e1b9.com # 广告跳转
 DOMAIN-SUFFIX,0f8eec5673.com # 广告跳转
 DOMAIN-SUFFIX,0fe5096a4c.com # 广告跳转
 DOMAIN-SUFFIX,0ffaf504b2.com # 广告跳转
-DOMAIN-SUFFIX,0fmm.com
-DOMAIN-SUFFIX,0gw7e6s3wrao9y3q.pro
-DOMAIN-SUFFIX,0i0i0i0.com
-DOMAIN-SUFFIX,0l1201s548b2.top
-DOMAIN-SUFFIX,0sntp7dnrr.com
-DOMAIN-SUFFIX,0sywjs4r1x.com
-DOMAIN-SUFFIX,0td6sdkfq.com
-DOMAIN-SUFFIX,0ul1wlo58s-vu69us-r1u.xyz
-DOMAIN-SUFFIX,0x01n2ptpuz3.com
-DOMAIN-SUFFIX,0xtracker.com
-DOMAIN-SUFFIX,100kia.xyz
-DOMAIN-SUFFIX,101000.shop
-DOMAIN-SUFFIX,101047.shop
-DOMAIN-SUFFIX,101m3.com
-DOMAIN-SUFFIX,1023f6e00d.com
-DOMAIN-SUFFIX,10288299.xyz
-DOMAIN-SUFFIX,103092804.com
-DOMAIN-SUFFIX,10523745.xyz
-DOMAIN-SUFFIX,10614305.xyz
-DOMAIN-SUFFIX,1069jp.com
-DOMAIN-SUFFIX,10753990.xyz
-DOMAIN-SUFFIX,107e9a08a8.com
-DOMAIN-SUFFIX,1080872514.rsc.cdn77.org
-DOMAIN-SUFFIX,1090pjopm.de
-DOMAIN-SUFFIX,10c26a1dd6.com
-DOMAIN-SUFFIX,10desires.com
-DOMAIN-SUFFIX,10f55ab5ed.com
-DOMAIN-SUFFIX,10k8ovyv.art
-DOMAIN-SUFFIX,10q6e9ne5.de
-DOMAIN-SUFFIX,10sn95to9.de
+DOMAIN-SUFFIX,0fmm.com # 曾被 Green Web Tracker 列为第三方广告域名索引
+DOMAIN-SUFFIX,0gw7e6s3wrao9y3q.pro # 广告跳转
+DOMAIN-SUFFIX,0i0i0i0.com # 广告跳转 / 恶意重定向域名
+DOMAIN-SUFFIX,0l1201s548b2.top # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,0sntp7dnrr.com # 广告跳转 / 弹窗诱导域名
+DOMAIN-SUFFIX,0sywjs4r1x.com # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,0td6sdkfq.com # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,0ul1wlo58s-vu69us-r1u.xyz # 广告跳转 / 可疑广告主机
+DOMAIN-SUFFIX,0x01n2ptpuz3.com # 广告中转 / 重定向域名
+DOMAIN-SUFFIX,0xtracker.com # 正在作为 DeFi / 加密项目 “0x Tracker” 的域名使用
+DOMAIN-SUFFIX,101047.shop # 广告 / 跳转域名
+DOMAIN-SUFFIX,101m3.com # 可疑域名
+DOMAIN-SUFFIX,1023f6e00d.com # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,10288299.xyz # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,103092804.com # 可疑广告跳转 / 嵌入广告域名
+DOMAIN-SUFFIX,10523745.xyz # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,10614305.xyz # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,10753990.xyz # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,107e9a08a8.com # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,1080872514.rsc.cdn77.org # 可疑 CDN 子域，属于 cdn77.org 资源分发结构，历史中部分子域曾用于劫持 / 虚假支持用途
+DOMAIN-SUFFIX,1090pjopm.de # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,10c26a1dd6.com # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,10k8ovyv.art # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,10q6e9ne5.de # 广告 / 可疑域名
+DOMAIN-SUFFIX,10sn95to9.de # 广告跳转 / 可疑域名
 DOMAIN-SUFFIX,11006451.xyz
 DOMAIN-SUFFIX,11152646.xyz
 DOMAIN-SUFFIX,11778562.xyz
