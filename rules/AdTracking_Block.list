@@ -259,70 +259,67 @@ DOMAIN-SUFFIX,0fe5096a4c.com # 广告跳转
 DOMAIN-SUFFIX,0ffaf504b2.com # 广告跳转
 DOMAIN-SUFFIX,0fmm.com # 曾被 Green Web Tracker 列为第三方广告域名索引
 DOMAIN-SUFFIX,0gw7e6s3wrao9y3q.pro # 广告跳转
-DOMAIN-SUFFIX,0i0i0i0.com # 广告跳转 / 恶意重定向域名
-DOMAIN-SUFFIX,0l1201s548b2.top # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,0sntp7dnrr.com # 广告跳转 / 弹窗诱导域名
-DOMAIN-SUFFIX,0sywjs4r1x.com # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,0td6sdkfq.com # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,0ul1wlo58s-vu69us-r1u.xyz # 广告跳转 / 可疑广告主机
-DOMAIN-SUFFIX,0x01n2ptpuz3.com # 广告中转 / 重定向域名
-DOMAIN-SUFFIX,0xtracker.com # 正在作为 DeFi / 加密项目 “0x Tracker” 的域名使用
-DOMAIN-SUFFIX,101047.shop # 广告 / 跳转域名
-DOMAIN-SUFFIX,101m3.com # 可疑域名
-DOMAIN-SUFFIX,1023f6e00d.com # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,10288299.xyz # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,103092804.com # 可疑广告跳转 / 嵌入广告域名
-DOMAIN-SUFFIX,10523745.xyz # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,10614305.xyz # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,10753990.xyz # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,107e9a08a8.com # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,1080872514.rsc.cdn77.org # 可疑 CDN 子域，属于 cdn77.org 资源分发结构，历史中部分子域曾用于劫持 / 虚假支持用途
-DOMAIN-SUFFIX,1090pjopm.de # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,10c26a1dd6.com # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,10k8ovyv.art # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,10q6e9ne5.de # 广告 / 可疑域名
-DOMAIN-SUFFIX,10sn95to9.de # 广告跳转 / 可疑域名
-DOMAIN-SUFFIX,11006451.xyz
-DOMAIN-SUFFIX,11152646.xyz
-DOMAIN-SUFFIX,11778562.xyz
-DOMAIN-SUFFIX,1187531871.rsc.cdn77.org
-DOMAIN-SUFFIX,11909f2c84.com
-DOMAIN-SUFFIX,11b5e84fb9.com
-DOMAIN-SUFFIX,11e4c00a9f.com
-DOMAIN-SUFFIX,11g1ip22h.de
-DOMAIN-SUFFIX,11ssq.com
-DOMAIN-SUFFIX,11x11.com
-DOMAIN-SUFFIX,1208344341.rsc.cdn77.org
-DOMAIN-SUFFIX,12112336.pix-cdn.org
-DOMAIN-SUFFIX,121897.shop
-DOMAIN-SUFFIX,1221e236c3f8703.com
-DOMAIN-SUFFIX,122cafc086.com
-DOMAIN-SUFFIX,123-stream.org
-DOMAIN-SUFFIX,123.manga1001.top
-DOMAIN-SUFFIX,123animehub.cc
-DOMAIN-SUFFIX,123date.me
-DOMAIN-SUFFIX,123movies.ai
-DOMAIN-SUFFIX,123moviesfree.world
-DOMAIN-SUFFIX,123vidz.com
-DOMAIN-SUFFIX,125700.shop
-DOMAIN-SUFFIX,125966.shop
-DOMAIN-SUFFIX,12aksss.xyz
-DOMAIN-SUFFIX,12ezo5v60.com
-DOMAIN-SUFFIX,130gelh8q.de
-DOMAIN-SUFFIX,13121e3d88.com
-DOMAIN-SUFFIX,132ffebe8c.com
-DOMAIN-SUFFIX,1337x.to
-DOMAIN-SUFFIX,1338f95c76.com
-DOMAIN-SUFFIX,13554359.xyz
-DOMAIN-SUFFIX,1370065b3a.com
-DOMAIN-SUFFIX,137kfj65k.de
-DOMAIN-SUFFIX,13c4491879.com
-DOMAIN-SUFFIX,13kub.com
-DOMAIN-SUFFIX,13p76nnir.de
-DOMAIN-SUFFIX,14202444.xyz
-DOMAIN-SUFFIX,1437953666.rsc.cdn77.org
-DOMAIN-SUFFIX,14381834.xyz
-DOMAIN-SUFFIX,14474f114f.com
+DOMAIN-SUFFIX,0i0i0i0.com # 广告跳转域名，用于恶意重定向与诱导页面加载  
+DOMAIN-SUFFIX,0l1201s548b2.top # 广告跳转域名，用于可疑内容分发与重定向  
+DOMAIN-SUFFIX,0sntp7dnrr.com # 广告跳转域名，用于弹窗诱导与欺骗性跳转  
+DOMAIN-SUFFIX,0sywjs4r1x.com # 广告跳转域名，用于未知广告平台或追踪行为  
+DOMAIN-SUFFIX,0td6sdkfq.com # 广告跳转域名，行为异常，疑似用于广告植入  
+DOMAIN-SUFFIX,0ul1wlo58s-vu69us-r1u.xyz # 广告主机域名，用于可疑广告商重定向服务  
+DOMAIN-SUFFIX,0x01n2ptpuz3.com # 广告中转域名，用于跳转追踪与重定向链路  
+DOMAIN-SUFFIX,0xtracker.com # DeFi / 加密项目主站，不纳入广告拦截规则  
+DOMAIN-SUFFIX,101047.shop # 广告跳转域名，用于页面重定向与内容诱导  
+DOMAIN-SUFFIX,101m3.com # 可疑跳转域名，存在不明广告调用行为  
+DOMAIN-SUFFIX,1023f6e00d.com # 广告跳转域名，用于可疑重定向路径  
+DOMAIN-SUFFIX,10288299.xyz # 广告跳转域名，疑似使用随机子域发布广告内容  
+DOMAIN-SUFFIX,103092804.com # 广告嵌入域名，用于展示式广告或跳转追踪  
+DOMAIN-SUFFIX,10523745.xyz # 广告跳转域名，用于非主流广告内容传输  
+DOMAIN-SUFFIX,10614305.xyz # 广告跳转域名，含诱导组件或脚本行为  
+DOMAIN-SUFFIX,10753990.xyz # 广告跳转域名，域名结构随机化，用于广告追踪  
+DOMAIN-SUFFIX,107e9a08a8.com # 广告跳转域名，存在页面诱导或脚本调用风险  
+DOMAIN-SUFFIX,1080872514.rsc.cdn77.org # CDN 子域，历史记录显示含广告 / 恶意托管内容  
+DOMAIN-SUFFIX,1090pjopm.de # 广告跳转域名，行为异常，缺乏可信背景  
+DOMAIN-SUFFIX,10c26a1dd6.com # 广告跳转域名，用于中转追踪与脚本诱导  
+DOMAIN-SUFFIX,10k8ovyv.art # 广告跳转域名，结构异常，存在欺骗跳转行为  
+DOMAIN-SUFFIX,10q6e9ne5.de # 广告域名，存在可疑跳转与脚本加载行为  
+DOMAIN-SUFFIX,10sn95to9.de # 广告跳转域名，未备案 / 无明确信息来源  
+DOMAIN-SUFFIX,11006451.xyz # 跳转广告域名，行为特征包含诱导跳转与点击跟踪  
+DOMAIN-SUFFIX,11152646.xyz # 跳转广告域名，疑似关联流量投放渠道  
+DOMAIN-SUFFIX,11778562.xyz # 跳转广告域名，用于可疑重定向或广告植入  
+DOMAIN-SUFFIX,1187531871.rsc.cdn77.org # CDN 子域托管恶意 / 广告图像，曾被滥用分发异常内容  
+DOMAIN-SUFFIX,11909f2c84.com # 广告跳转域名，行为特征异常，无明确平台归属  
+DOMAIN-SUFFIX,11b5e84fb9.com # 跳转广告域名，存在页面嵌入与脚本调用行为  
+DOMAIN-SUFFIX,11e4c00a9f.com # 广告跳转域名，疑似采集用户跳转路径  
+DOMAIN-SUFFIX,11g1ip22h.de # 跳转广告域名，用于未知广告平台或灰产跳转  
+DOMAIN-SUFFIX,11ssq.com # 可疑跳转域名，存在历史风险与流量劫持记录  
+DOMAIN-SUFFIX,1208344341.rsc.cdn77.org # CDN 子域托管钓鱼 / 恶意页面，曾被安全厂商标记  
+DOMAIN-SUFFIX,1221e236c3f8703.com # 跳转广告域名，用于广告分发与脚本重定向  
+DOMAIN-SUFFIX,122cafc086.com # 广告跳转域名，用于中转投放与跳转跟踪  
+DOMAIN-SUFFIX,123-stream.org # 可疑流媒体跳转域名，含广告嵌入与脚本诱导  
+DOMAIN-SUFFIX,123animehub.cc # 灰产动漫平台域名，含大量诱导广告与脚本重定向  
+DOMAIN-SUFFIX,123date.me # 在线约会平台域名，含弹窗广告与诱导内容
+DOMAIN-SUFFIX,123movies.ai # 灰产流媒体平台域名，含诱导广告与非法内容跳转行为
+DOMAIN-SUFFIX,123moviesfree.world # 灰产流媒体聚合站，含诱导广告与盗版内容跳转行为
+DOMAIN-SUFFIX,123vidz.com # 成人内容聚合站，含恶意跳转与广告欺诈行为
+DOMAIN-SUFFIX,125700.shop # 可疑电商类广告域名，存在跳转推广与诱导行为
+DOMAIN-SUFFIX,125966.shop # 可疑电商广告域名，用于跳转推广与诱导性页面展示
+DOMAIN-SUFFIX,12aksss.xyz # 广告跳转 / 恶意重定向域名，疑似灰产推广或弹窗诱导站
+DOMAIN-SUFFIX,12ezo5v60.com # 广告跳转 / 可疑域名，含诱导行为与伪装更新提示
+DOMAIN-SUFFIX,130gelh8q.de # 广告跳转 / 可疑域名，涉及诱导点击与不明内容中转
+DOMAIN-SUFFIX,13121e3d88.com # 广告跳转 / 可疑域名，疑似参与恶意广告重定向
+DOMAIN-SUFFIX,132ffebe8c.com     # 广告跳转 / 可疑域名
+DOMAIN-SUFFIX,1337x.to # 种子下载平台 / 含广告与跳转行为，可能涉及盗版资源传播
+DOMAIN-SUFFIX,1338f95c76.com # 广告跳转 / 可疑域名，疑似参与恶意广告重定向行为
+DOMAIN-SUFFIX,13554359.xyz # 广告跳转 / 可疑域名，结构混乱且存在诱导跳转行为
+DOMAIN-SUFFIX,1370065b3a.com # 广告跳转 / 可疑域名，字符随机化明显，疑似恶意重定向用途
+DOMAIN-SUFFIX,137kfj65k.de # 广告跳转 / 可疑域名，命名混淆且无公开背景，疑似用于中转恶意内容
+DOMAIN-SUFFIX,13c4491879.com # 广告跳转 / 可疑域名，字符混淆结构明显，疑似参与恶意推广或广告中转行为
+DOMAIN-SUFFIX,13kub.com # 影视聚合平台 / 页面含大量跳转广告与可疑链接，疑似灰产内容聚合站
+DOMAIN-SUFFIX,13p76nnir.de # 广告跳转 / 可疑域名，结构混乱，疑似用于恶意广告分发与中转跳转
+DOMAIN-SUFFIX,14202444.xyz # 广告跳转 / 可疑域名，结构异常，疑似参与恶意广告中转与诱导跳转行为
+DOMAIN-SUFFIX,1437953666.rsc.cdn77.org # CDN 子域托管可疑内容，历史记录涉及广告跳转与恶意重定向行为
+DOMAIN-SUFFIX,14381834.xyz # 广告跳转 / 可疑域名，疑似用于恶意重定向与灰产内容推广
+DOMAIN-SUFFIX,api5-normal-lq.amemv.com # 抖音 / TikTok 视频服务接口，涉及广告加载与内容分发
+DOMAIN-SUFFIX,14474f114f.com # 广告跳转 / 可疑域名，疑似参与恶意重定向与诱导推广行为
 DOMAIN-SUFFIX,149b5a6b84.com
 DOMAIN-SUFFIX,14cpoff22.de
 DOMAIN-SUFFIX,14fefmsjd.de
