@@ -43,6 +43,57 @@ DOMAIN-SUFFIX,malamteam.com // 主站
 DOMAIN,ocsp.malamteam.com // OCSP 接口
 DOMAIN,crl.malamteam.com // 吊销列表
 
+# > TrustCor Systems（巴拿马，关联美国情报承包商）
+DOMAIN-SUFFIX,trustcor.com // TrustCor 主站
+DOMAIN,ocsp.trustcor.com // OCSP 验证接口
+DOMAIN,crl.trustcor.com // 吊销列表接口
+
+# > DigiNotar（荷兰，已被攻破）
+DOMAIN-SUFFIX,diginotar.nl // DigiNotar 主站
+DOMAIN,ocsp.diginotar.nl // OCSP 验证接口
+DOMAIN,crl.diginotar.nl // 吊销列表接口
+
+# > TurkTrust（土耳其，历史中间证书签发事故）
+DOMAIN-SUFFIX,turktrust.com.tr // TurkTrust 主站
+DOMAIN,ocsp.turktrust.com.tr // OCSP 验证接口
+DOMAIN,crl.turktrust.com.tr // 吊销列表接口
+
+# > Camerfirma（西班牙，合规问题频发）
+DOMAIN-SUFFIX,camerfirma.com // Camerfirma 主站
+DOMAIN,ocsp.camerfirma.com // OCSP 验证接口
+DOMAIN,crl.camerfirma.com // 吊销列表接口
+
+# > FSB CA（俄罗斯联邦安全局根证书系统）
+DOMAIN-SUFFIX,fsb.ru // 俄罗斯联邦安全局主域
+DOMAIN,ocsp.fsb.ru // FSB OCSP 验证接口
+DOMAIN,crl.fsb.ru // FSB 吊销列表接口
+
+# > CryptoPro CA（俄罗斯主流加密软件与证书签发商）
+DOMAIN-SUFFIX,cryptopro.ru // CryptoPro 主站
+DOMAIN,ocsp.cryptopro.ru // OCSP 验证接口
+DOMAIN,crl.cryptopro.ru // 吊销列表接口
+
+# > RU-CENTER CA（俄罗斯最大域名注册商，证书签发服务商）
+DOMAIN-SUFFIX,nic.ru // RU-CENTER 主站
+DOMAIN,ocsp.nic.ru // OCSP 验证接口
+DOMAIN,crl.nic.ru // 吊销列表接口
+
+# > Gosuslugi PKI（俄罗斯国家政务服务平台根证书）
+DOMAIN-SUFFIX,gosuslugi.ru // 俄罗斯政务服务主站
+DOMAIN,pki.gosuslugi.ru // Gosuslugi 根证书服务
+DOMAIN,ocsp.gosuslugi.ru // OCSP 验证接口
+DOMAIN,crl.gosuslugi.ru // 吊销列表接口
+
+# > SKB Kontur CA（俄罗斯大型商业 CA，用于企业电子签名）
+DOMAIN-SUFFIX,skbkontur.ru // SKB Kontur 主站
+DOMAIN,ocsp.skbkontur.ru // OCSP 验证接口
+DOMAIN,crl.skbkontur.ru // 吊销列表接口
+
+# > Tinkoff CA（俄罗斯本地金融集团，使用自签根证书）
+DOMAIN-SUFFIX,tinkoff.ru // Tinkoff 银行官网
+DOMAIN,ocsp.tinkoff.ru // OCSP 验证接口
+DOMAIN,crl.tinkoff.ru // 吊销列表接口
+
 # > CNNIC（中国互联网络信息中心）
 DOMAIN-SUFFIX,cnnic.cn // CNNIC 主站
 DOMAIN,ocsp.cnnic.cn // OCSP 验证接口
@@ -139,54 +190,3 @@ DOMAIN,pki.iie.ac.cn // IIE PKI / 证书管理接口（占位，若存在请精�
 # > GFW‑related: export / deployment / partner endpoints（示例，占位，建议现场核验AIA）
 DOMAIN-SUFFIX,myanmartelecom.com // 缅甸合作/部署示例（占位，按实际证书替换）
 DOMAIN-SUFFIX,telecom-partner.example // 合作运营商占位，请替换为真实域名
-
-# > TrustCor Systems（巴拿马，关联美国情报承包商）
-DOMAIN-SUFFIX,trustcor.com // TrustCor 主站
-DOMAIN,ocsp.trustcor.com // OCSP 验证接口
-DOMAIN,crl.trustcor.com // 吊销列表接口
-
-# > DigiNotar（荷兰，已被攻破）
-DOMAIN-SUFFIX,diginotar.nl // DigiNotar 主站
-DOMAIN,ocsp.diginotar.nl // OCSP 验证接口
-DOMAIN,crl.diginotar.nl // 吊销列表接口
-
-# > TurkTrust（土耳其，历史中间证书签发事故）
-DOMAIN-SUFFIX,turktrust.com.tr // TurkTrust 主站
-DOMAIN,ocsp.turktrust.com.tr // OCSP 验证接口
-DOMAIN,crl.turktrust.com.tr // 吊销列表接口
-
-# > Camerfirma（西班牙，合规问题频发）
-DOMAIN-SUFFIX,camerfirma.com // Camerfirma 主站
-DOMAIN,ocsp.camerfirma.com // OCSP 验证接口
-DOMAIN,crl.camerfirma.com // 吊销列表接口
-
-# > FSB CA（俄罗斯联邦安全局根证书系统）
-DOMAIN-SUFFIX,fsb.ru // 俄罗斯联邦安全局主域
-DOMAIN,ocsp.fsb.ru // FSB OCSP 验证接口
-DOMAIN,crl.fsb.ru // FSB 吊销列表接口
-
-# > CryptoPro CA（俄罗斯主流加密软件与证书签发商）
-DOMAIN-SUFFIX,cryptopro.ru // CryptoPro 主站
-DOMAIN,ocsp.cryptopro.ru // OCSP 验证接口
-DOMAIN,crl.cryptopro.ru // 吊销列表接口
-
-# > RU-CENTER CA（俄罗斯最大域名注册商，证书签发服务商）
-DOMAIN-SUFFIX,nic.ru // RU-CENTER 主站
-DOMAIN,ocsp.nic.ru // OCSP 验证接口
-DOMAIN,crl.nic.ru // 吊销列表接口
-
-# > Gosuslugi PKI（俄罗斯国家政务服务平台根证书）
-DOMAIN-SUFFIX,gosuslugi.ru // 俄罗斯政务服务主站
-DOMAIN,pki.gosuslugi.ru // Gosuslugi 根证书服务
-DOMAIN,ocsp.gosuslugi.ru // OCSP 验证接口
-DOMAIN,crl.gosuslugi.ru // 吊销列表接口
-
-# > SKB Kontur CA（俄罗斯大型商业 CA，用于企业电子签名）
-DOMAIN-SUFFIX,skbkontur.ru // SKB Kontur 主站
-DOMAIN,ocsp.skbkontur.ru // OCSP 验证接口
-DOMAIN,crl.skbkontur.ru // 吊销列表接口
-
-# > Tinkoff CA（俄罗斯本地金融集团，使用自签根证书）
-DOMAIN-SUFFIX,tinkoff.ru // Tinkoff 银行官网
-DOMAIN,ocsp.tinkoff.ru // OCSP 验证接口
-DOMAIN,crl.tinkoff.ru // 吊销列表接口
