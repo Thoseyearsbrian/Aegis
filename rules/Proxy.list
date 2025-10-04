@@ -18,7 +18,6 @@ DOMAIN-SUFFIX,nexitally.com // Nexitally 节点/订阅服务平台
 # >> 安全工具 / 加密服务（Security Tools / Encryption Services）
 DOMAIN,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下载、密钥同步与更新服务
 
-
 # >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
 DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）
 DOMAIN,ocsp.digicert.com # Digicert 证书吊销检查（OCSP）
@@ -7458,3 +7457,5 @@ DOMAIN,downloads.zohocdn.com # Zoho 官方软件下载资源域名，用于分�
 DOMAIN,static.zohocdn.com # Zoho 静态资源加载域名，服务于 Zoho 各模块前端界面
 DOMAIN,static-zayo1.zohocdn.com # Zoho CDN 加速节点，可能归属 Zayo 网络（用于全球分发）
 DOMAIN,static-lumen1.zohocdn.com # Zoho CDN 加速节点，可能归属 Lumen 网络（用于全球分发）
+DOMAIN,fba02.fbsubcn01.cc # 代理节点域名（属于机场服务提供商）
+DOMAIN,lk02.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
