@@ -7446,9 +7446,11 @@ IP-CIDR,91.108.0.0/16
 IP-CIDR6,2001:67c:4e8::/48
 IP-CIDR6,2001:b28:f23d::/48
 IP-CIDR6,2001:b28:f23f::/48
+DOMAIN,drweb.com # Dr.Web 官方网站，用于产品介绍、下载、防护功能说明等
 DOMAIN,update.geo.drweb.com # Dr.Web 杀毒软件更新接口（地理分布式更新服务器）
 DOMAIN,storage.googleapis.com # Dr.Web 云托管内容（用于更新、规则或静态资源分发，可能与其他服务共用）
 DOMAIN-SUFFIX,drweb.cn # Dr.Web 中文资讯 RSS 订阅接口（新闻推送）
+DOMAIN,forum.drweb.com # Dr.Web 杀毒软件官方用户论坛，用于技术支持与社区交流
 DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源 CDN，用于加载 UI 样式、脚本等前端文件
 DOMAIN-SUFFIX,downloads.zohocdn.com # Zoho 安装包与工具下载地址，用于分发客户端安装器、驱动等文件
 DOMAIN-SUFFIX,zohocdn.com # Zoho 静态资源 CDN 域名，用于加载 Zoho Mail、Desk、CRM 等应用的前端资源
