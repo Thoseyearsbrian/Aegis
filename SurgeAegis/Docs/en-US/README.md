@@ -1,4 +1,4 @@
-<h1 align="center">Aegis — Personal Firewall Rule Set for Surge</h1>
+<h1 align="center">Aegis — Rule Set for Surge-based Network Traffic Defense</h1>
 <p align="center">
 <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-1.png" width="300"></img>
 <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-2.png" width="300"></img>
@@ -16,11 +16,11 @@
   <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/SurgeAegis/Docs/zh-CN/README.md"><b>【中文文档点此进入】</b></a>
 </p>
 
-A high-performance, cross-platform rule repository focused on network-layer defense. Designed for Surge, Clash, QuantumultX, and OpenWrt. Protects against APT threats, DNS poisoning, malicious C2 traffic, SDK telemetry, and botnet sources. Supports iOS, macOS, Windows, Android, and router platforms.
+A high-performance rule set specifically designed for Surge, focusing on application-layer and transport-layer defenses. It covers threats such as DNS poisoning, APT command-and-control infrastructure, SDK telemetry, backdoor communications, and malicious C2 servers. The project also extends to blocking global advertising and tracking domains, aiming to achieve precise identification and efficient blocking of local traffic on iOS and macOS devices.
 
 ## **Project Background**
 
-[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a fully community-maintained network security rule set focused on defending against modern network-layer threats. It aims to help global users build localized and efficient defense systems. The project blocks DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, and C2 controllers, and further extends coverage to major global ad and tracking domains, enabling precise local traffic identification and efficient interception. It also includes rules for multiple high-risk attack sources worldwide, including infrastructure and behavioral signatures related to Pegasus spyware.
+[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a fully individually maintained network security rule set focused on defending against modern network-layer threats. It aims to help global users build localized and efficient defense systems. The project blocks DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, and C2 controllers, and further extends coverage to major global ad and tracking domains, enabling precise local traffic identification and efficient interception. It also includes rules for multiple high-risk attack sources worldwide, including infrastructure and behavioral signatures related to Pegasus spyware.
 
 The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
 
@@ -30,21 +30,21 @@ In addition, Aegis offers an optional advanced module — CA_Block.list — whic
 
 Aegis is designed to detect and block the following high-risk communications:
 
+- Ad tracking, behavior analytics, and listening CDNs
+- Botnets, remote access Trojans, and malware C2 channels
+- DNS poisoning / injection / hijacking behavior
 - APT command-and-control (C2) infrastructure
 - SDK telemetry and behavioral fingerprinting
-- DNS poisoning / injection / hijacking behavior
-- Botnets, remote access Trojans, and malware C2 channels
-- Ad tracking, behavior analytics, and listening CDNs
 
-It supports **Surge**, **Clash**, **QuantumultX**, **OpenWrt**, and other platforms, and works on iOS, macOS, Windows, Android, and router environments. Rules follow a unified structure with professional annotations, making them readable, auditable, and easy to integrate.You can optionally enable the advanced module CA_Block.list, which blocks high-risk root CA validation behaviors to further strengthen protection against man-in-the-middle (MITM) attacks.
+Aegis is specifically designed for the Surge platform, fully compatible with both iOS and macOS systems. It offers excellent readability, auditability, and modular deployment capabilities, making it ideal for various use cases such as policy routing and firewall-assisted configurations.You may optionally enable the advanced module CA_Block.list to block high-risk certificate validation behaviors and CA-related traffic, further enhancing your defense against man-in-the-middle attacks.
 
 ## **Philosophy**
 
-Aegis adheres to technical neutrality, information transparency, and complete independence. I firmly believe every individual has the right to understand and control their network traffic. Therefore, Aegis does **not** accept any form of commercial investment or capital control. To ensure purity, trust, and security, all configurations are handcrafted and audited by me, with complete annotations to guarantee every rule is transparent, verifiable, and pollution-free.
+Aegis adheres to technical neutrality, information transparency, and complete independence. I firmly believe every individual has the right to understand and control their network traffic. Therefore, Aegis does not accept any form of commercial investment or capital control. To ensure purity, trust, and security, all configurations are handcrafted and audited by me, with complete annotations to guarantee every rule is transparent, verifiable, and pollution-free.
 
 ## **Auto Update**
 
-Aegis uses GitHub-based versioning and automation to stay up to date without manual intervention. It supports remote subscription through Surge, Clash, QuantumultX, and other tools.
+Aegis uses GitHub-based versioning and automation to stay up to date without manual intervention.  It fully supports remote rule subscription for Surge.
 
 ## **Configuration Links**
 
@@ -157,8 +157,8 @@ It is recommended to fork or build upon this repository to save time, maintain c
 
 If you value this project, consider giving it a ⭐️ star and subscribing to updates:
 
-- [Aegis Updates](https://t.me/AegisUpdates) – **Release & Announcements Channel**
-- [Aegis Discussion](https://t.me/+xxxxxxxxx) – **Community Group (Invite Only)**
+- [Aegis Updates](https://t.me/AegisUpdates) – **Release & Announcements Channel** (Coming Soon)
+- [Aegis Discussion](https://t.me/+xxxxxxxxx) – **Community Group (Invite Only)** (Coming Soon)
 
 **Group Rules:**
 
