@@ -329,710 +329,673 @@ DOMAIN-SUFFIX,15223102.xyz # 广告跳转 / 可疑域名，域名结构混淆，
 DOMAIN-SUFFIX,15272973.xyz # 广告跳转 / 可疑域名，域名结构异常，疑似用于广告加载与中转重定向
 DOMAIN-SUFFIX,1529462937.rsc.cdn77.org # CDN 子域托管疑似广告或灰产内容，命名结构随机，存在诱导或跳转行为风险
 DOMAIN,vc-brian.ndcpp.com # 可疑子域 / 无公开背景信息，疑似伪造命名结构用于广告或钓鱼页面加载
-DOMAIN-SUFFIX,152media.com
-DOMAIN-SUFFIX,153c349024.com
-DOMAIN-SUFFIX,1548164934.rsc.cdn77.org
-DOMAIN-SUFFIX,15752525.xyz
-DOMAIN-SUFFIX,15946bfe8d.com
-DOMAIN-SUFFIX,15gga.com
-DOMAIN-SUFFIX,16211973.xyz
-DOMAIN-SUFFIX,16327739.xyz
-DOMAIN-SUFFIX,1668420cbb.com
-DOMAIN-SUFFIX,1675450967.rsc.cdn77.org
-DOMAIN-SUFFIX,167999d759.com
-DOMAIN-SUFFIX,168523.shop
-DOMAIN-SUFFIX,16972675.xyz
-DOMAIN-SUFFIX,16iis7i2p.de
-DOMAIN-SUFFIX,16pr72tb5.de
-DOMAIN-SUFFIX,17022993.xyz
-DOMAIN-SUFFIX,17180d187e.com
-DOMAIN-SUFFIX,17199874.xyz
-DOMAIN-SUFFIX,171c856581.com
-DOMAIN-SUFFIX,17282cd89c.com
-DOMAIN-SUFFIX,173726e958.com
-DOMAIN-SUFFIX,17c2791ec2.com
-DOMAIN-SUFFIX,17co2k5a.de
-DOMAIN-SUFFIX,17do048qm.de
-DOMAIN-SUFFIX,17ed256d85.com
-DOMAIN-SUFFIX,181m2fscr.de
-DOMAIN-SUFFIX,184c4i95p.de
-DOMAIN-SUFFIX,18adultgames.com
-DOMAIN-SUFFIX,18e6f131f9.com
-DOMAIN-SUFFIX,18e86316dc.com
-DOMAIN-SUFFIX,18naked.com
-DOMAIN-SUFFIX,18onlygirls.tv
-DOMAIN-SUFFIX,18porn.sex
-DOMAIN-SUFFIX,18pussy.porn
-DOMAIN-SUFFIX,18teensex.tv
-DOMAIN-SUFFIX,18tlm4jee.de
-DOMAIN-SUFFIX,19009143.xyz
-DOMAIN-SUFFIX,190b1f9880.com
-DOMAIN-SUFFIX,19199675.xyz
-DOMAIN-SUFFIX,19515bia.de
-DOMAIN-SUFFIX,19706903.xyz
-DOMAIN-SUFFIX,198636861c.com
-DOMAIN-SUFFIX,19b7f4f4d8.com
-DOMAIN-SUFFIX,19d7fd2ed2.com
-DOMAIN-SUFFIX,1a0b76c793.com
-DOMAIN-SUFFIX,1a8f9rq9c.de
-DOMAIN-SUFFIX,1aacb6bb9f.com
-DOMAIN-SUFFIX,1af24010cb.com
-DOMAIN-SUFFIX,1aqi93ml4.de
-DOMAIN-SUFFIX,1asb.com
-DOMAIN-SUFFIX,1ato.com
-DOMAIN-SUFFIX,1av.to
-DOMAIN-SUFFIX,1b14e0ee42d5e195c9aa1a2f5b42c710.com
-DOMAIN-SUFFIX,1b384556ae.com
-DOMAIN-SUFFIX,1b3tmfcbq.de
-DOMAIN-SUFFIX,1b87094b09.com
-DOMAIN-SUFFIX,1b9e934cbd.com
-DOMAIN-SUFFIX,1be953d1cc.com
-DOMAIN-SUFFIX,1betandgonow.com
-DOMAIN-SUFFIX,1bm3n8sld.de
-DOMAIN-SUFFIX,1c0c3fde9d.com
-DOMAIN-SUFFIX,1c6fd11ca2.com
-DOMAIN-SUFFIX,1ccbt.com
-DOMAIN-SUFFIX,1cctcm1gq.de
-DOMAIN-SUFFIX,1ckbfk08k.de
-DOMAIN-SUFFIX,1db9fede5f.com
-DOMAIN-SUFFIX,1dtdsln1j.de
-DOMAIN-SUFFIX,1ep.co
-DOMAIN-SUFFIX,1ep2l1253.de
-DOMAIN-SUFFIX,1f3912cb04.com
-DOMAIN-SUFFIX,1f63b94163.com
-DOMAIN-SUFFIX,1fa107ed6e.com
-DOMAIN-SUFFIX,1fcf60d54c.com
-DOMAIN-SUFFIX,1fd92n6t8.de
-DOMAIN-SUFFIX,1fims.com
-DOMAIN-SUFFIX,1fkx796mw.com
-DOMAIN-SUFFIX,1fwjpdwguvqs.com
-DOMAIN-SUFFIX,1g46ls536.de
-DOMAIN-SUFFIX,1gbjadpsq.de
-DOMAIN-SUFFIX,1hkmr7jb0.de
-DOMAIN-SUFFIX,1i8c0f11.de
-DOMAIN-SUFFIX,1igare0jn.de
-DOMAIN-SUFFIX,1itot7tm.de
-DOMAIN-SUFFIX,1j5syuz0.xyz
-DOMAIN-SUFFIX,1j771bhgi.de
-DOMAIN-SUFFIX,1jpbh5iht.de
-DOMAIN-SUFFIX,1jutu5nnx.com
-DOMAIN-SUFFIX,1k0ed0c7.xyz
-DOMAIN-SUFFIX,1knhg4mmq.de
-DOMAIN-SUFFIX,1lbk62l5c.de
-DOMAIN-SUFFIX,1lj11b2ii.de
-DOMAIN-SUFFIX,1lzz.com
-DOMAIN-SUFFIX,1m72cfole.de
-DOMAIN-SUFFIX,1mrmsp0ki.de
-DOMAIN-SUFFIX,1nfltpsbk.de
-DOMAIN-SUFFIX,1nimo.com
-DOMAIN-SUFFIX,1nqrqa.de
-DOMAIN-SUFFIX,1ns1rosb.de
-DOMAIN-SUFFIX,1odi7j43c.de
-DOMAIN-SUFFIX,1p8ln1dtr.de
-DOMAIN-SUFFIX,1pqfa71mc.de
-DOMAIN-SUFFIX,1push.io
-DOMAIN-SUFFIX,1qgxtxd2n.com
-DOMAIN-SUFFIX,1r4g65b63.de
-DOMAIN-SUFFIX,1r8435gsqldr.com
-DOMAIN-SUFFIX,1redirb.com
-DOMAIN-SUFFIX,1rx.io
-DOMAIN-SUFFIX,1rxntv.io
-DOMAIN-SUFFIX,1s1r7hr1k.de
-DOMAIN-SUFFIX,1sqfobn52.de
-DOMAIN-SUFFIX,1tds26q95.de
-DOMAIN-SUFFIX,1ts03.top
-DOMAIN-SUFFIX,1ts07.top
-DOMAIN-SUFFIX,1ts11.top
-DOMAIN-SUFFIX,1ts17.top
-DOMAIN-SUFFIX,1ts19.top
-DOMAIN-SUFFIX,1web.me
-DOMAIN-SUFFIX,1wincdn.b-cdn.net
-DOMAIN-SUFFIX,1winpb.com
-DOMAIN-SUFFIX,1wnurc.com
-DOMAIN-SUFFIX,1x001.com
-DOMAIN-SUFFIX,1xlite-522762.top
-DOMAIN-SUFFIX,1xzf53lo.xyz
-DOMAIN-SUFFIX,2-05.com
-DOMAIN-SUFFIX,2020mustang.com
-DOMAIN-SUFFIX,2022welcome.com
-DOMAIN-SUFFIX,2024jphatomenesys35.top
-DOMAIN-SUFFIX,2024jphatomenesys36.top
-DOMAIN-SUFFIX,2024tv.ru
-DOMAIN-SUFFIX,20382207.xyz
-DOMAIN-SUFFIX,2042be5d8c.com
-DOMAIN-SUFFIX,206ads.com
-DOMAIN-SUFFIX,20729617.xyz
-DOMAIN-SUFFIX,20dollars2surf.com
-DOMAIN-SUFFIX,20l2ldrn2.de
-DOMAIN-SUFFIX,20tracks.com
-DOMAIN-SUFFIX,21162611f8.com
-DOMAIN-SUFFIX,21274758.xyz
-DOMAIN-SUFFIX,2137dc12f9d8.com
-DOMAIN-SUFFIX,215a043303.com
-DOMAIN-SUFFIX,218emo1t.de
-DOMAIN-SUFFIX,21b95312a1.com
-DOMAIN-SUFFIX,21hn4b64m.de
-DOMAIN-SUFFIX,21sexturycash.com
-DOMAIN-SUFFIX,21wiz.com
-DOMAIN-SUFFIX,22117898.xyz
-DOMAIN-SUFFIX,224cc86d.xyz
-DOMAIN-SUFFIX,22a008da69.com
-DOMAIN-SUFFIX,22b664d9ce.com
-DOMAIN-SUFFIX,22bettracking.online
-DOMAIN-SUFFIX,22blqkmkg.de
-DOMAIN-SUFFIX,22c29c62b3.com
-DOMAIN-SUFFIX,22cbbac9cd.com
-DOMAIN-SUFFIX,22hgc.com
-DOMAIN-SUFFIX,22lmsi1t5.de
-DOMAIN-SUFFIX,22media.world
-DOMAIN-SUFFIX,22yy6.com
-DOMAIN-SUFFIX,2377192920.com
-DOMAIN-SUFFIX,23879858.xyz
-DOMAIN-SUFFIX,23907453.xyz
-DOMAIN-SUFFIX,23hssicm9.de
-DOMAIN-SUFFIX,24-sportnews.com
-DOMAIN-SUFFIX,2443march2024.com
-DOMAIN-SUFFIX,2449march2024.com
-DOMAIN-SUFFIX,244kecmb3.de
-DOMAIN-SUFFIX,2463april2024.com
-DOMAIN-SUFFIX,2465april2024.com
-DOMAIN-SUFFIX,2467april2024.com
-DOMAIN-SUFFIX,2469april2024.com
-DOMAIN-SUFFIX,2475april2024.com
-DOMAIN-SUFFIX,2477april2024.com
-DOMAIN-SUFFIX,2479april2024.com
-DOMAIN-SUFFIX,2481april2024.com
-DOMAIN-SUFFIX,24837724.xyz
-DOMAIN-SUFFIX,2483may2024.com
-DOMAIN-SUFFIX,2485may2024.com
-DOMAIN-SUFFIX,2489may2024.com
-DOMAIN-SUFFIX,2491may2024.com
-DOMAIN-SUFFIX,2493may2024.com
-DOMAIN-SUFFIX,2495may2024.com
-DOMAIN-SUFFIX,2497may2024.com
-DOMAIN-SUFFIX,2499may2024.com
-DOMAIN-SUFFIX,24affiliates.com
-DOMAIN-SUFFIX,24click.top
-DOMAIN-SUFFIX,24df4bd648.com
-DOMAIN-SUFFIX,24newstech.com
-DOMAIN-SUFFIX,24s1b0et1.de
-DOMAIN-SUFFIX,24x7adservice.com
-DOMAIN-SUFFIX,24x7report.com
-DOMAIN-SUFFIX,2501may2024.com
-DOMAIN-SUFFIX,250f0ma86.de
-DOMAIN-SUFFIX,2514june2024.com
-DOMAIN-SUFFIX,2516june2024.com
-DOMAIN-SUFFIX,2520june2024.com
-DOMAIN-SUFFIX,254a.com
-DOMAIN-SUFFIX,25ed3d6f24.com
-DOMAIN-SUFFIX,25obpfr.de
-DOMAIN-SUFFIX,2639iqjkl.de
-DOMAIN-SUFFIX,26e8841da4.com
-DOMAIN-SUFFIX,26ea4af114.com
-DOMAIN-SUFFIX,26fc4b0b38.com
-DOMAIN-SUFFIX,26q4nn691.de
-DOMAIN-SUFFIX,27352a740a.com
-DOMAIN-SUFFIX,27igqr8b.de
-DOMAIN-SUFFIX,2830022a41.com
-DOMAIN-SUFFIX,2838a86e6c.com
-DOMAIN-SUFFIX,28b905d522.com
-DOMAIN-SUFFIX,28c15cf09c.com
-DOMAIN-SUFFIX,28f810077f.com
-DOMAIN-SUFFIX,291hkcido.de
-DOMAIN-SUFFIX,29a7397be5.com
-DOMAIN-SUFFIX,29acdc6212.com
-DOMAIN-SUFFIX,29apfjmg2.de
-DOMAIN-SUFFIX,29b124c44a.com
-DOMAIN-SUFFIX,29s55bf2.de
-DOMAIN-SUFFIX,2a2k3aom6.de
-DOMAIN-SUFFIX,2a4snhmtm.de
-DOMAIN-SUFFIX,2aefgbf.de
-DOMAIN-SUFFIX,2annalea.com
-DOMAIN-SUFFIX,2b8fa02c00.com
-DOMAIN-SUFFIX,2ba0f6361c.com
-DOMAIN-SUFFIX,2bc533c900.com
-DOMAIN-SUFFIX,2bd77addac.com
-DOMAIN-SUFFIX,2beno.com
-DOMAIN-SUFFIX,2bps53igop02.com
-DOMAIN-SUFFIX,2c4rrl8pe.de
-DOMAIN-SUFFIX,2c5d30b6f1.com
-DOMAIN-SUFFIX,2cba2742a4.com
-DOMAIN-SUFFIX,2cjlj3c15.de
-DOMAIN-SUFFIX,2cnjuh34jbman.com
-DOMAIN-SUFFIX,2cnjuh34jbstar.com
-DOMAIN-SUFFIX,2cvnmbxnc.com
-DOMAIN-SUFFIX,2d1f81ac8e.com
-DOMAIN-SUFFIX,2d439ab93e.com
-DOMAIN-SUFFIX,2d5ac65613.com
-DOMAIN-SUFFIX,2d6g0ag5l.de
-DOMAIN-SUFFIX,2d979880.xyz
-DOMAIN-SUFFIX,2e5e4544c4.com
-DOMAIN-SUFFIX,2edef809.xyz
-DOMAIN-SUFFIX,2f2d60b8b5.com
-DOMAIN-SUFFIX,2f44166f35.com
-DOMAIN-SUFFIX,2f5de272ff.com
-DOMAIN-SUFFIX,2f7f58d605.com
-DOMAIN-SUFFIX,2f8a651b12.com
-DOMAIN-SUFFIX,2fb8or7ai.de
-DOMAIN-SUFFIX,2fgrrc9t0.de
-DOMAIN-SUFFIX,2fnptjci.de
-DOMAIN-SUFFIX,2g2kaa598.de
-DOMAIN-SUFFIX,2gg6ebbhh.de
-DOMAIN-SUFFIX,2h4els889.com
-DOMAIN-SUFFIX,2h6skj2da.de
-DOMAIN-SUFFIX,2hpb1i5th.de
-DOMAIN-SUFFIX,2i30i8h6i.de
-DOMAIN-SUFFIX,2i87bpcbf.de
-DOMAIN-SUFFIX,2iiyrxk0.com
-DOMAIN-SUFFIX,2imon4qar.de
-DOMAIN-SUFFIX,2jmis11eq.de
-DOMAIN-SUFFIX,2jod3cl3j.de
-DOMAIN-SUFFIX,2k6eh90gs.de
-DOMAIN-SUFFIX,2kn40j226.de
-DOMAIN-SUFFIX,2leep.com
-DOMAIN-SUFFIX,2linkpath.com
-DOMAIN-SUFFIX,2llmonds4ehcr93nb.com
-DOMAIN-SUFFIX,2lqcd8s9.de
-DOMAIN-SUFFIX,2ltm627ho.com
-DOMAIN-SUFFIX,2m3gdt0gc.de
-DOMAIN-SUFFIX,2m55gqleg.de
-DOMAIN-SUFFIX,2mdn-cn.net
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,2merkato.com
-DOMAIN-SUFFIX,2mf9kkbhab31.com
-DOMAIN-SUFFIX,2mg2ibr6b.de
-DOMAIN-SUFFIX,2mke5l187.de
-DOMAIN-SUFFIX,2mo3neop.de
-DOMAIN-SUFFIX,2nn7r6bh1.de
-DOMAIN-SUFFIX,2oceansvibe.com
-DOMAIN-SUFFIX,2om93s33n.de
-DOMAIN-SUFFIX,2p1kreiqg.de
-DOMAIN-SUFFIX,2pc6q54ga.de
-DOMAIN-SUFFIX,2qj7mq3w4uxe.com
-DOMAIN-SUFFIX,2rb5hh5t6.de
-DOMAIN-SUFFIX,2re6rpip2.de
-DOMAIN-SUFFIX,2rlgdkf7s.de
-DOMAIN-SUFFIX,2rmifan7n.de
-DOMAIN-SUFFIX,2s02keqc1.com
-DOMAIN-SUFFIX,2s2enegt0.de
-DOMAIN-SUFFIX,2smarttracker.com
-DOMAIN-SUFFIX,2spdo6g9h.de
-DOMAIN-SUFFIX,2t4f7g9a.de
-DOMAIN-SUFFIX,2ta5l5rc0.de
-DOMAIN-SUFFIX,2tfg9bo2i.de
-DOMAIN-SUFFIX,2tlc698ma.de
-DOMAIN-SUFFIX,2tq7pgs0f.de
-DOMAIN-SUFFIX,2track.info
-DOMAIN-SUFFIX,2ts55ek00.de
-DOMAIN-SUFFIX,2watchmygf.com
-DOMAIN-SUFFIX,2wu0m0ms098w7148.xyz
-DOMAIN-SUFFIX,300daytravel.com
-DOMAIN-SUFFIX,301redirect.site
-DOMAIN-SUFFIX,302kslgdl.de
-DOMAIN-SUFFIX,303ag0nc7.de
-DOMAIN-SUFFIX,303marketplace.com
-DOMAIN-SUFFIX,307i6i7do.de
-DOMAIN-SUFFIX,30937261.xyz
-DOMAIN-SUFFIX,30986g8ab.de
-DOMAIN-SUFFIX,30d5shnjq.de
-DOMAIN-SUFFIX,30e4a37eb7.com
-DOMAIN-SUFFIX,30e7ff2c41.com
-DOMAIN-SUFFIX,30hccor10.de
-DOMAIN-SUFFIX,30koqnlks.de
-DOMAIN-SUFFIX,30m4hpei1.de
-DOMAIN-SUFFIX,30p70ar8m.de
-DOMAIN-SUFFIX,30pk41r1i.de
-DOMAIN-SUFFIX,30se9p8a0.de
-DOMAIN-SUFFIX,30tgh64jp.de
-DOMAIN-SUFFIX,3103cf02ec.com
-DOMAIN-SUFFIX,3120jpllh.de
-DOMAIN-SUFFIX,314b24ffc5.com
-DOMAIN-SUFFIX,314gqd3es.de
-DOMAIN-SUFFIX,3163ba76f7.com
-DOMAIN-SUFFIX,316feq0nc.de
-DOMAIN-SUFFIX,317796hmh.de
-DOMAIN-SUFFIX,317aba2b18.com
-DOMAIN-SUFFIX,318pmmtrp.de
-DOMAIN-SUFFIX,3192a7tqk.de
-DOMAIN-SUFFIX,31aceidfj.de
-DOMAIN-SUFFIX,31aqn13o6.de
-DOMAIN-SUFFIX,31bqljnla.de
-DOMAIN-SUFFIX,31cm5fq78.de
-DOMAIN-SUFFIX,31d6gphkr.de
-DOMAIN-SUFFIX,31daa5lnq.de
-DOMAIN-SUFFIX,31def61c3.de
-DOMAIN-SUFFIX,31o0jl63.de
-DOMAIN-SUFFIX,31v1scl527hm.shop
-DOMAIN-SUFFIX,32472254.xyz
-DOMAIN-SUFFIX,32596c0d85.com
-DOMAIN-SUFFIX,32ae2295ab.com
-DOMAIN-SUFFIX,33109166.xyz
-DOMAIN-SUFFIX,331f7bf198.com
-DOMAIN-SUFFIX,33747538f3.com
-DOMAIN-SUFFIX,33848102.xyz
-DOMAIN-SUFFIX,33862684.xyz
-DOMAIN-SUFFIX,33across.com
-DOMAIN-SUFFIX,33e70fcb8e.com
-DOMAIN-SUFFIX,342ef7c20e.com
-DOMAIN-SUFFIX,3434849c2e.com
-DOMAIN-SUFFIX,34475780.xyz
-DOMAIN-SUFFIX,34c72d94d3.com
-DOMAIN-SUFFIX,34y26s47.cfd
-DOMAIN-SUFFIX,34ys.com
-DOMAIN-SUFFIX,3503c6c81a.com
-DOMAIN-SUFFIX,350c2478fb.com
-DOMAIN-SUFFIX,35452888.xyz
-DOMAIN-SUFFIX,3575e2d4e6.com
-DOMAIN-SUFFIX,36006ca3dd.com
-DOMAIN-SUFFIX,360ads.com
-DOMAIN-SUFFIX,360degreesprojects.com
-DOMAIN-SUFFIX,360installer.com
-DOMAIN-SUFFIX,360playvid.com
-DOMAIN-SUFFIX,360playvid.info
-DOMAIN-SUFFIX,360protected.com
-DOMAIN-SUFFIX,360yield-basic.com
-DOMAIN-SUFFIX,360yield.com
-DOMAIN-SUFFIX,3622911ae3.com
-DOMAIN-SUFFIX,365.freeonlinegayporn.com
-DOMAIN-SUFFIX,366378fd1d.com
-DOMAIN-SUFFIX,367p.com
-DOMAIN-SUFFIX,36833185.xyz
-DOMAIN-SUFFIX,37066957.xyz
-DOMAIN-SUFFIX,37243211.xyz
-DOMAIN-SUFFIX,372ae6b830.com
-DOMAIN-SUFFIX,3807bf7acf.com
-DOMAIN-SUFFIX,38167473.xyz
-DOMAIN-SUFFIX,382be190f4.com
-DOMAIN-SUFFIX,38835571.xyz
-DOMAIN-SUFFIX,388533c5eb.com
-DOMAIN-SUFFIX,3890e014d2.com
-DOMAIN-SUFFIX,38941752.xyz
-DOMAIN-SUFFIX,38ds89f8.de
-DOMAIN-SUFFIX,38g2n1ww.icu
-DOMAIN-SUFFIX,38hgc.com
-DOMAIN-SUFFIX,3936fb9cdf.com
-DOMAIN-SUFFIX,39489ef6ae.com
-DOMAIN-SUFFIX,39e6p9p7.de
-DOMAIN-SUFFIX,3aa2de320e.com
-DOMAIN-SUFFIX,3ac1b30a18.com
-DOMAIN-SUFFIX,3ad2ae645c.com
-DOMAIN-SUFFIX,3ae7054c01.com
-DOMAIN-SUFFIX,3b15e41dab.com
-DOMAIN-SUFFIX,3b374de2ee.com
-DOMAIN-SUFFIX,3b3e638ac2.com
-DOMAIN-SUFFIX,3b687a4e49.com
-DOMAIN-SUFFIX,3c241b2b3e.com
-DOMAIN-SUFFIX,3ca9dc59cc.com
-DOMAIN-SUFFIX,3cb9b57efc.com
-DOMAIN-SUFFIX,3cd03be731.com
-DOMAIN-SUFFIX,3cg6sa78w.com
-DOMAIN-SUFFIX,3ckz.com
-DOMAIN-SUFFIX,3cxs.com
-DOMAIN-SUFFIX,3dbe0d1f5f.com
-DOMAIN-SUFFIX,3dedca7f84.com
-DOMAIN-SUFFIX,3dfcff2ec15099df0a24ad2cee74f21a.com
-DOMAIN-SUFFIX,3e0605983a.com
-DOMAIN-SUFFIX,3e1898dbbe.com
-DOMAIN-SUFFIX,3fa3d4c288.com
-DOMAIN-SUFFIX,3fee216537.com
-DOMAIN-SUFFIX,3g25ko2.de
-DOMAIN-SUFFIX,3gbqdci2.de
-DOMAIN-SUFFIX,3j8c56p9.de
-DOMAIN-SUFFIX,3lift.com
-DOMAIN-SUFFIX,3movs.com
-DOMAIN-SUFFIX,3movs.xxx
-DOMAIN-SUFFIX,3myad.com
-DOMAIN-SUFFIX,3ng6p6m0.de
-DOMAIN-SUFFIX,3pkf5m0gd.com
-DOMAIN-SUFFIX,3prn.com
-DOMAIN-SUFFIX,3qfe1gfa.de
-DOMAIN-SUFFIX,3redlightfix.com
-DOMAIN-SUFFIX,3vetz.com
-DOMAIN-SUFFIX,3wr110.net
-DOMAIN-SUFFIX,3xplanetimg2.com
-DOMAIN-SUFFIX,3xtraffic.com
-DOMAIN-SUFFIX,3zap7emt4.com
-DOMAIN-SUFFIX,40451343.xyz
-DOMAIN-SUFFIX,4058e46800.com
-DOMAIN-SUFFIX,4088846d50.com
-DOMAIN-SUFFIX,40ceexln7929.com
-DOMAIN-SUFFIX,40ee7f0644.com
-DOMAIN-SUFFIX,4126fe80.xyz
-DOMAIN-SUFFIX,4135375d6a.com
-DOMAIN-SUFFIX,4164d5b6eb.com
-DOMAIN-SUFFIX,4171ea7508.com
-DOMAIN-SUFFIX,41b5062d22.com
-DOMAIN-SUFFIX,4239cc7770.com
-DOMAIN-SUFFIX,425kmk7n9wn21pwvl18.xyz
-DOMAIN-SUFFIX,42869755.xyz
-DOMAIN-SUFFIX,429men.com
-DOMAIN-SUFFIX,42d9c0e6fb.com
-DOMAIN-SUFFIX,42jdbcb.de
-DOMAIN-SUFFIX,4302118d1a.com
-DOMAIN-SUFFIX,433bcaa83b.com
-DOMAIN-SUFFIX,43478y.online
-DOMAIN-SUFFIX,436df5b953.com
-DOMAIN-SUFFIX,439f4b8c75.com
-DOMAIN-SUFFIX,43a0e1ae69.com
-DOMAIN-SUFFIX,43ors1osh.com
-DOMAIN-SUFFIX,43t53c9e.de
-DOMAIN-SUFFIX,44216f3fdf.com
-DOMAIN-SUFFIX,444.bussyhunter.com
-DOMAIN-SUFFIX,444.thebussybandit.com
-DOMAIN-SUFFIX,4446k.com
-DOMAIN-SUFFIX,4497e71924.com
-DOMAIN-SUFFIX,452tapgn.de
-DOMAIN-SUFFIX,4547u5qms0m2um3rrum2wuo.xyz
-DOMAIN-SUFFIX,45564736.xyz
-DOMAIN-SUFFIX,455t.com
-DOMAIN-SUFFIX,459b6951ca.com
-DOMAIN-SUFFIX,45cb7b8453.com
-DOMAIN-SUFFIX,45f467a9d4.com
-DOMAIN-SUFFIX,4602306b.xyz
-DOMAIN-SUFFIX,460e19ebd6.com
-DOMAIN-SUFFIX,46186911.vtt
-DOMAIN-SUFFIX,46222568.xyz
-DOMAIN-SUFFIX,46276192.xyz
-DOMAIN-SUFFIX,4690y10pvpq8.com
-DOMAIN-SUFFIX,46a30abd78.com
-DOMAIN-SUFFIX,46f4vjo86.com
-DOMAIN-SUFFIX,47206262.xyz
-DOMAIN-SUFFIX,47235645.xyz
-DOMAIN-SUFFIX,47296536.xyz
-DOMAIN-SUFFIX,47415889.xyz
-DOMAIN-SUFFIX,479d24d9fd.com
-DOMAIN-SUFFIX,47c50e31a9.com
-DOMAIN-SUFFIX,47cb693fa6.com
-DOMAIN-SUFFIX,47f0db81c9.com
-DOMAIN-SUFFIX,481516ca1d.com
-DOMAIN-SUFFIX,48304789.xyz
-DOMAIN-SUFFIX,484l.com
-DOMAIN-SUFFIX,487ed86ea3.com
-DOMAIN-SUFFIX,4885e2e6f7.com
-DOMAIN-SUFFIX,48a11e6b12.com
-DOMAIN-SUFFIX,48d368a6f7.com
-DOMAIN-SUFFIX,49333767.xyz
-DOMAIN-SUFFIX,49706204.xyz
-DOMAIN-SUFFIX,49709796.xyz
-DOMAIN-SUFFIX,49766251.xyz
-DOMAIN-SUFFIX,49d4db4864.com
-DOMAIN-SUFFIX,4a41fff8a6.com
-DOMAIN-SUFFIX,4a4ac32960.com
-DOMAIN-SUFFIX,4a4c8a3bdd.com
-DOMAIN-SUFFIX,4afa45f1.xyz
-DOMAIN-SUFFIX,4afe4f94c5.com
-DOMAIN-SUFFIX,4affiliate.net
-DOMAIN-SUFFIX,4armn.com
-DOMAIN-SUFFIX,4b6994dfa47cee4.com
-DOMAIN-SUFFIX,4ba48a7822.com
-DOMAIN-SUFFIX,4c32ecfead.com
-DOMAIN-SUFFIX,4c35d6c7f6.com
-DOMAIN-SUFFIX,4c81b78eca.com
-DOMAIN-SUFFIX,4c935d6a244f.com
-DOMAIN-SUFFIX,4cinsights.com
-DOMAIN-SUFFIX,4co7mbsb.de
-DOMAIN-SUFFIX,4cz7ypl3.xyz
-DOMAIN-SUFFIX,4d33a4adbc.com
-DOMAIN-SUFFIX,4d3f87f705.com
-DOMAIN-SUFFIX,4dc005d17a.com
-DOMAIN-SUFFIX,4dex.io
-DOMAIN-SUFFIX,4dsbanner.net
-DOMAIN-SUFFIX,4dsply.com
-DOMAIN-SUFFIX,4dtrk.com
-DOMAIN-SUFFIX,4e0c0b1247.com
-DOMAIN-SUFFIX,4e5902f95e.com
-DOMAIN-SUFFIX,4f.to
-DOMAIN-SUFFIX,4f2sm1y1ss.com
-DOMAIN-SUFFIX,4f31c6ef07.com
-DOMAIN-SUFFIX,4f9566374d.com
-DOMAIN-SUFFIX,4f9fbf3477.com
-DOMAIN-SUFFIX,4fee6d013f.com
-DOMAIN-SUFFIX,4g0b1inr.de
-DOMAIN-SUFFIX,4gforkh4.icu
-DOMAIN-SUFFIX,4iazoa.xyz
-DOMAIN-SUFFIX,4link.it
-DOMAIN-SUFFIX,4m4ones1q.com
-DOMAIN-SUFFIX,4p74i5b6.de
-DOMAIN-SUFFIX,4rabettraff.com
-DOMAIN-SUFFIX,4rfv.co.uk
-DOMAIN-SUFFIX,4tr3sopq592o7svp1q6mn3.xyz
-DOMAIN-SUFFIX,4tube.com
-DOMAIN-SUFFIX,4wank.com
-DOMAIN-SUFFIX,4wank.net
-DOMAIN-SUFFIX,4wnet.com
-DOMAIN-SUFFIX,4wnetwork.com
-DOMAIN-SUFFIX,502ac4420f.com
-DOMAIN-SUFFIX,50368ce0a6.com
-DOMAIN-SUFFIX,50873vmk3263-7sk.xyz
-DOMAIN-SUFFIX,50deb82526.com
-DOMAIN-SUFFIX,50f0ac5daf.com
-DOMAIN-SUFFIX,5134d63209.com
-DOMAIN-SUFFIX,5170064c2d.com
-DOMAIN-SUFFIX,519fa5be1d.com
-DOMAIN-SUFFIX,51e3337e65.com
-DOMAIN-SUFFIX,51f7cf32cd.com
-DOMAIN-SUFFIX,5201l41kuvl7.top
-DOMAIN-SUFFIX,52588314e4.com
-DOMAIN-SUFFIX,526d43cc6c.com
-DOMAIN-SUFFIX,52992ea523.com
-DOMAIN-SUFFIX,52dvzo62i.com
-DOMAIN-SUFFIX,5308675c79.com
-DOMAIN-SUFFIX,53469662.xyz
-DOMAIN-SUFFIX,536435ba94.com
-DOMAIN-SUFFIX,538d99dc8d.com
-DOMAIN-SUFFIX,53c2dtzsj7t1.top
-DOMAIN-SUFFIX,53ff0e58f9.com
-DOMAIN-SUFFIX,54019033.xyz
-DOMAIN-SUFFIX,540252a00b.com
-DOMAIN-SUFFIX,540484935e.com
-DOMAIN-SUFFIX,540f8cca2b.com
-DOMAIN-SUFFIX,54199287.xyz
-DOMAIN-SUFFIX,548f23e472.com
-DOMAIN-SUFFIX,551ba6c442.com
-DOMAIN-SUFFIX,5534a1fe5d.com
-DOMAIN-SUFFIX,554koaylwga7.top
-DOMAIN-SUFFIX,55766925.xyz
-DOMAIN-SUFFIX,558ao12sqrok.top
-DOMAIN-SUFFIX,55b6be9d8f.com
-DOMAIN-SUFFIX,55f4605f6d.com
-DOMAIN-SUFFIX,5608c7633c.com
-DOMAIN-SUFFIX,562i7aqkxu.com
-DOMAIN-SUFFIX,56514411.xyz
-DOMAIN-SUFFIX,567bets10.com
-DOMAIN-SUFFIX,569f43f295.com
-DOMAIN-SUFFIX,56bfc388bf12.com
-DOMAIN-SUFFIX,56gbgkvtd.xyz
-DOMAIN-SUFFIX,56rt2692.de
-DOMAIN-SUFFIX,5707f9766c.com
-DOMAIN-SUFFIX,57473094.xyz
-DOMAIN-SUFFIX,579eede9ca.com
-DOMAIN-SUFFIX,582582.xyz
-DOMAIN-SUFFIX,58686728.xyz
-DOMAIN-SUFFIX,590578zugbr8.com
-DOMAIN-SUFFIX,59644010.xyz
-DOMAIN-SUFFIX,59768910.xyz
-DOMAIN-SUFFIX,5978ef8c9a.com
-DOMAIN-SUFFIX,5a5751fd6a.com
-DOMAIN-SUFFIX,5a8a1b39d4.com
-DOMAIN-SUFFIX,5adde1db4b.com
-DOMAIN-SUFFIX,5advertise.com
-DOMAIN-SUFFIX,5ae3a94233.com
-DOMAIN-SUFFIX,5bb66f161d.com
-DOMAIN-SUFFIX,5be7319a8b.com
-DOMAIN-SUFFIX,5bf6d94b92.com
-DOMAIN-SUFFIX,5btekl14.de
-DOMAIN-SUFFIX,5c4ccd56c9.com
-DOMAIN-SUFFIX,5cb79f17b9.com
-DOMAIN-SUFFIX,5cd9ca94fb.com
-DOMAIN-SUFFIX,5d32q.com
-DOMAIN-SUFFIX,5dariyanews.com
-DOMAIN-SUFFIX,5db016ba6b.com
-DOMAIN-SUFFIX,5dimes.com
-DOMAIN-SUFFIX,5e49fd4c08.com
-DOMAIN-SUFFIX,5e9cb65c2c.com
-DOMAIN-SUFFIX,5ea36e0eb5.com
-DOMAIN-SUFFIX,5ed55e7208.com
-DOMAIN-SUFFIX,5f242f7db1.com
-DOMAIN-SUFFIX,5f631bb110.com
-DOMAIN-SUFFIX,5f6dmzflgqso.com
-DOMAIN-SUFFIX,5fbc7e29cd.com
-DOMAIN-SUFFIX,5fet4fni.de
-DOMAIN-SUFFIX,5h3oyhv838.com
-DOMAIN-SUFFIX,5icim50.de
-DOMAIN-SUFFIX,5ivy3ikkt.com
-DOMAIN-SUFFIX,5mno3.com
-DOMAIN-SUFFIX,5nfc.net
-DOMAIN-SUFFIX,5nt1gx7o57.com
-DOMAIN-SUFFIX,5o8aj5nt.de
-DOMAIN-SUFFIX,5pi13h3q.de
-DOMAIN-SUFFIX,5toft8or7on8tt.com
-DOMAIN-SUFFIX,5vbs96dea.com
-DOMAIN-SUFFIX,5vpbnbkiey24.com
-DOMAIN-SUFFIX,5wuefo9haif3.com
-DOMAIN-SUFFIX,5wzgtq8dpk.com
-DOMAIN-SUFFIX,5xd3jfwl9e8v.com
-DOMAIN-SUFFIX,5xp6lcaoz.com
-DOMAIN-SUFFIX,6-partner.com
-DOMAIN-SUFFIX,600z.com
-DOMAIN-SUFFIX,60571086.xyz
-DOMAIN-SUFFIX,60576949.xyz
-DOMAIN-SUFFIX,60dxug5hu.click
-DOMAIN-SUFFIX,60ecf22b99.com
-DOMAIN-SUFFIX,61011fc558.com
-DOMAIN-SUFFIX,611b2ec55c.com
-DOMAIN-SUFFIX,613f15a070.com
-DOMAIN-SUFFIX,61847b1398.com
-DOMAIN-SUFFIX,61d7a302a1.com
-DOMAIN-SUFFIX,61e564cc00.com
-DOMAIN-SUFFIX,62842068.xyz
-DOMAIN-SUFFIX,62a77005fb.com
-DOMAIN-SUFFIX,62ad.com
-DOMAIN-SUFFIX,634263882b.com
-DOMAIN-SUFFIX,635571329b.com
-DOMAIN-SUFFIX,63715207.xyz
-DOMAIN-SUFFIX,63801782.xyz
-DOMAIN-SUFFIX,639c909d45.com
-DOMAIN-SUFFIX,63r2vxacp0pr.com
-DOMAIN-SUFFIX,63voy9ciyi14.com
-DOMAIN-SUFFIX,64236b1b40.com
-DOMAIN-SUFFIX,64580df84b.com
-DOMAIN-SUFFIX,646499.shop
-DOMAIN-SUFFIX,64786087.xyz
-DOMAIN-SUFFIX,64fe1cbf9e.com
-DOMAIN-SUFFIX,65035033.xyz
-DOMAIN-SUFFIX,65122038.xyz
-DOMAIN-SUFFIX,6570131a3f.com
-DOMAIN-SUFFIX,65894140.xyz
-DOMAIN-SUFFIX,65a16dd098.com
-DOMAIN-SUFFIX,65spy7rgcu.com
-DOMAIN-SUFFIX,65wenv5f.xyz
-DOMAIN-SUFFIX,6657e4f5c2.com
-DOMAIN-SUFFIX,666777888abc.com
-DOMAIN-SUFFIX,66a3413a7e.com
-DOMAIN-SUFFIX,66a5e92d66.com
-DOMAIN-SUFFIX,66f5dd9691.com
-DOMAIN-SUFFIX,6764a4b67d.com
-DOMAIN-SUFFIX,676759a2a4.com
-DOMAIN-SUFFIX,678b4c02d9.com
-DOMAIN-SUFFIX,67fad39954.com
-DOMAIN-SUFFIX,680642cdf3.com
-DOMAIN-SUFFIX,68amt53h.de
-DOMAIN-SUFFIX,68aq8q352.com
-DOMAIN-SUFFIX,68d48e2725.com
-DOMAIN-SUFFIX,68s8.com
-DOMAIN-SUFFIX,693085b049.com
-DOMAIN-SUFFIX,697a3aa509.com
-DOMAIN-SUFFIX,69games.xxx
-DOMAIN-SUFFIX,69v.club
-DOMAIN-SUFFIX,6a7e08c01b.com
-DOMAIN-SUFFIX,6a7eac2034.com
-DOMAIN-SUFFIX,6angebot.ch
-DOMAIN-SUFFIX,6b6c1b838a.com
-DOMAIN-SUFFIX,6b902da043.com
-DOMAIN-SUFFIX,6bgaput9ullc.com
-DOMAIN-SUFFIX,6c32ad026d.com
-DOMAIN-SUFFIX,6ca9278a53.com
-DOMAIN-SUFFIX,6d092bcd12.com
-DOMAIN-SUFFIX,6d7486ee46.com
-DOMAIN-SUFFIX,6dbc7ad876.com
-DOMAIN-SUFFIX,6dc2699b37.com
-DOMAIN-SUFFIX,6e5e20f3c0.com
-DOMAIN-SUFFIX,6e67e233a2.com
-DOMAIN-SUFFIX,6e6cd153a6.com
-DOMAIN-SUFFIX,6ef14e40a9.com
-DOMAIN-SUFFIX,6fbce8ec59.com
-DOMAIN-SUFFIX,6gi0edui.xyz
-DOMAIN-SUFFIX,6glece4homah8dweracea.com
-DOMAIN-SUFFIX,6j296m8k.de
-DOMAIN-SUFFIX,6oi7mfa1w.com
-DOMAIN-SUFFIX,6ped2nd3yp.com
-DOMAIN-SUFFIX,6r9ahe6qb.com
-DOMAIN-SUFFIX,6ujk8x9soxhm.com
-DOMAIN-SUFFIX,6v41p4bsq.com
-DOMAIN-SUFFIX,6zy9yqe1ew.com
-DOMAIN-SUFFIX,7-7-7-partner.com
-DOMAIN-SUFFIX,7003128946.com
-DOMAIN-SUFFIX,700f312054.com
+DOMAIN-SUFFIX,152media.com # 第三方广告投放域名，用于 JS 插件式广告加载与行为追踪
+DOMAIN-SUFFIX,153c349024.com # 程序化广告平台域名，用于插屏广告资源加载与行为统计
+DOMAIN-SUFFIX,1548164934.rsc.cdn77.org # 第三方 CDN 广告资源分发域，用于视频与插屏广告加载
+DOMAIN-SUFFIX,15752525.xyz # 垃圾广告跳转中继域，用于诱导跳转与插码行为，已多次被拦截记录
+DOMAIN-SUFFIX,15946bfe8d.com # 垃圾追踪域，用于广告脚本跳转与数据回传，随机注册域名，建议封锁
+DOMAIN-SUFFIX,15gga.com # 中继广告跳转域，用于加载广告脚本与诱导跳转行为，疑似恶意用途，建议封锁
+DOMAIN-SUFFIX,16211973.xyz # 广告中继域名，用于跳转链构建与页面注入行为，常见于低质广告联盟，建议封锁
+DOMAIN-SUFFIX,16327739.xyz # 广告跳转域名，具批量注册与多层重定向特征
+DOMAIN-SUFFIX,1668420cbb.com # 广告跳转域名，批量注册用于页面重定向
+DOMAIN-SUFFIX,1675450967.rsc.cdn77.org # 广告资源分发节点，用于动态素材加载
+DOMAIN-SUFFIX,167999d759.com # 跳转式广告域名，含恶意重定向行为
+DOMAIN-SUFFIX,168523.shop # 可疑广告站点，用于推广和追踪脚本注入
+DOMAIN-SUFFIX,16972675.xyz # 批量注册广告域名，关联追踪与重定向服务
+DOMAIN-SUFFIX,16iis7i2p.de # 可疑广告域名，用于跳转与追踪脚本注入
+DOMAIN-SUFFIX,16pr72tb5.de # 广告跳转节点，参与欺诈类广告跳板行为
+DOMAIN-SUFFIX,17022993.xyz # 批量注册广告域名，含聚合追踪脚本
+DOMAIN-SUFFIX,17180d187e.com # 广告中转域，含欺诈及下载风险行为
+DOMAIN-SUFFIX,17199874.xyz # 广告追踪域名，用于用户行为与来源收集
+DOMAIN-SUFFIX,171c856581.com # 广告跳转中继域名，含行为追踪与脚本注入
+DOMAIN-SUFFIX,17282cd89c.com # 隐匿广告跟踪域名，采集行为与点击来源
+DOMAIN-SUFFIX,173726e958.com # 潜在恶意广告域名，用于重定向与资源加载
+DOMAIN-SUFFIX,17c2791ec2.com # 广告脚本加载域名，含第三方跟踪组件
+DOMAIN-SUFFIX,17co2k5a.de # 可疑广告跳板域名，含诱导与重定向行为
+DOMAIN-SUFFIX,17do048qm.de # 可疑跳转域名，使用随机字符构造，疑似广告重定向链成员
+DOMAIN-SUFFIX,17ed256d85.com # 广告中转域名，常嵌入 iframe 用于行为跟踪与点击分析
+DOMAIN-SUFFIX,181m2fscr.de # 隐匿广告跳板，存在诱导性页面加载与脚本注入行为
+DOMAIN-SUFFIX,184c4i95p.de # 随机命名域名，广告脚本加载中频繁出现，具追踪特征
+DOMAIN-SUFFIX,18adultgames.com # 成人类广告聚合页，嵌入追踪脚本与弹窗行为
+DOMAIN-SUFFIX,18e6f131f9.com # 行为分析接口域名，用于广告重定向与用户采样
+DOMAIN-SUFFIX,18e86316dc.com # 广告跟踪跳转域，具诱导式加载与行为记录特征
+DOMAIN-SUFFIX,18naked.com # 成人广告联盟域名，包含追踪组件与跳转逻辑
+DOMAIN-SUFFIX,18onlygirls.tv # 成人广告平台域名，用于传播色情内容与追踪行为脚本
+DOMAIN-SUFFIX,18porn.sex # 成人内容聚合页，含大量第三方追踪器与脚本注入
+DOMAIN-SUFFIX,18pussy.porn # 成人类广告跳转页面，具追踪和指纹采集行为
+DOMAIN-SUFFIX,18teensex.tv # 色情广告入口，涉及行为追踪与外链跳转
+DOMAIN-SUFFIX,18tlm4jee.de # 可疑域名，字符无含义，广告分发链中的中转节点
+DOMAIN-SUFFIX,19009143.xyz # 随机数字命名域名，行为异常，疑似广告或恶意跳板
+DOMAIN-SUFFIX,190b1f9880.com # 高风险广告域，曾用于重定向与恶意下载诱导
+DOMAIN-SUFFIX,19199675.xyz # 可疑广告脚本托管域，存在行为监听与跳转逻辑
+DOMAIN-SUFFIX,19515bia.de # 潜在广告跳转入口，使用混淆命名，关联行为未明
+DOMAIN-SUFFIX,19706903.xyz # 匿名广告流量入口域，疑似短期投放用，含监测组件
+DOMAIN-SUFFIX,198636861c.com  # 可疑跳转域名，含恶意字符，疑似广告重定向使用
+DOMAIN-SUFFIX,19b7f4f4d8.com  # 动态生成域名，行为特征异常，疑似JS注入平台
+DOMAIN-SUFFIX,19d7fd2ed2.com  # 疑似用于色情/低质内容跳转广告接口
+DOMAIN-SUFFIX,1a0b76c793.com  # 不规则短链式域名，曾用于点击欺诈广告分发
+DOMAIN-SUFFIX,1aacb6bb9f.com  # 动态恶意广告域，社区列入黑名单
+DOMAIN-SUFFIX,1af24010cb.com  # 被标记为含不良脚本注入行为的流量跳转平台
+DOMAIN-SUFFIX,1aqi93ml4.de # 德国注册，结构可疑，疑似中继伪装CDN用于广告回传
+DOMAIN-SUFFIX,1asb.com # 短链跳转域，曾被用于色情广告中转
+DOMAIN-SUFFIX,1ato.com # 多个恶意重定向分析平台收录，存在隐蔽广告行为
+DOMAIN-SUFFIX,1b14e0ee42d5e195c9aa1a2f5b42c710.com # 可疑广告跳转 / 长域名混淆域名
+DOMAIN-SUFFIX,1b384556ae.com # 被 AdGuard 等规则列为广告 / 跳转域名
+DOMAIN-SUFFIX,1b3tmfcbq.de # 被列入过滤规则集，疑似广告域
+DOMAIN-SUFFIX,1b87094b09.com # 被社区标注为广告跳转域名
+DOMAIN-SUFFIX,1b9e934cbd.com # 广告 / 跳转域名，存在于多个规则集中
+DOMAIN-SUFFIX,1be953d1cc.com # 广告跳转 / 脚本注入风险域名
+DOMAIN-SUFFIX,1betandgonow.com # 跳转广告 / 联盟推广域名
+DOMAIN-SUFFIX,1bm3n8sld.de # 被 AdGuard 列为过滤目标，疑似广告用途
+DOMAIN-SUFFIX,1c0c3fde9d.com # 被多个规则集封锁，疑似广告脚本域名
+DOMAIN-SUFFIX,1c6fd11ca2.com # 广告 / 跳转用途域名，常见于 SDK 调用链
+DOMAIN-SUFFIX,1b14e0ee42d5e195c9aa1a2f5b42c710.com # 可疑广告跳转 / 长域名混淆域名
+DOMAIN-SUFFIX,1b384556ae.com # 被 AdGuard 等规则列为广告 / 跳转域名
+DOMAIN-SUFFIX,1b3tmfcbq.de # 被列入过滤规则集，疑似广告域
+DOMAIN-SUFFIX,1b87094b09.com # 被社区标注为广告跳转域名
+DOMAIN-SUFFIX,1b9e934cbd.com # 广告 / 跳转域名，存在于多个规则集中
+DOMAIN-SUFFIX,1be953d1cc.com # 广告跳转 / 脚本注入风险域名
+DOMAIN-SUFFIX,1betandgonow.com # 跳转广告 / 联盟推广域名
+DOMAIN-SUFFIX,1bm3n8sld.de # 被 AdGuard 列为过滤目标，疑似广告用途
+DOMAIN-SUFFIX,1c0c3fde9d.com # 被多个规则集封锁，疑似广告脚本域名
+DOMAIN-SUFFIX,1c6fd11ca2.com # 广告 / 跳转用途域名，常见于 SDK 调用链
+DOMAIN-SUFFIX,1fcf60d54c.com # 可疑广告跳转域名，待验证行为特征
+DOMAIN-SUFFIX,1fd92n6t8.de # 可疑广告 / 跳转域名，结构异常
+DOMAIN-SUFFIX,1fims.com # 可疑域名，尚无公开情报，建议观察
+DOMAIN-SUFFIX,1fkx796mw.com # 可疑广告 / 跳转域名，命名混淆
+DOMAIN-SUFFIX,1fwjpdwguvqs.com # 欺诈行为域名，Malwarebytes 列为 Fraud 拦截对象
+DOMAIN-SUFFIX,1g46ls536.de # 已被 AdGuard 过滤，疑似广告追踪域名
+DOMAIN-SUFFIX,1gbjadpsq.de # 被广告过滤规则集包含，建议封锁
+DOMAIN-SUFFIX,1hkmr7jb0.de # 被广告规则列入目标域名，风险较高
+DOMAIN-SUFFIX,1i8c0f11.de # 被列为广告 / 跟踪节点，建议封锁
+DOMAIN-SUFFIX,1igare0jn.de # 在 AdGuard 过滤集中，疑似广告脚本域名
+DOMAIN-SUFFIX,1itot7tm.de # 可疑跳转 / 广告节点域名
+DOMAIN-SUFFIX,1j5syuz0.xyz # 纯数字+随机字符 .xyz 域，广告 / 跳转可疑
+DOMAIN-SUFFIX,1j771bhgi.de # 随机字符域名，行为未知，建议观察
+DOMAIN-SUFFIX,1jpbh5iht.de # 广告中转 / 跳转性质域名
+DOMAIN-SUFFIX,1jutu5nnx.com # 可疑广告 / 跳转用途域名
+DOMAIN-SUFFIX,1k0ed0c7.xyz # 多处广告过滤规则包含，疑似广告域
+DOMAIN-SUFFIX,1knhg4mmq.de # 隐匿式广告 / 跳板性质域名
+DOMAIN-SUFFIX,1lbk62l5c.de # 中间跳转 / 嵌入脚本用途可疑域名
+DOMAIN-SUFFIX,1lj11b2ii.de # 可疑广告跳转域名，结构混淆特征
+DOMAIN-SUFFIX,1lzz.com # 简短域名，可能被用于跳转 / 掩盖用途，建议观察
+DOMAIN-SUFFIX,1m72cfole.de # 可疑广告跳转域名，结构混淆，疑似流量劫持用途
+DOMAIN-SUFFIX,1mrmsp0ki.de # 随机字符伪装域名，多现于广告中转与伪装脚本
+DOMAIN-SUFFIX,1nfltpsbk.de # 德国托管伪装域名，广告监测与跳转接口特征
+DOMAIN-SUFFIX,1nimo.com # 多国访问记录，存在隐匿 JS 注入行为，疑似广告劫持
+DOMAIN-SUFFIX,1nqrqa.de # 无主站解析记录，广告伪装跳板特征明显
+DOMAIN-SUFFIX,1ns1rosb.de # 行为混淆域名，多次出现在弹窗广告上下游
+DOMAIN-SUFFIX,1odi7j43c.de # 动态跳转接口使用域名，部分恶意广告库中出现
+DOMAIN-SUFFIX,1p8ln1dtr.de # 广告链中常见跳板域名，结构异常
+DOMAIN-SUFFIX,1pqfa71mc.de # 可疑伪造 CDN 节点域名，疑似跟踪用途
+DOMAIN-SUFFIX,1push.io # 已知推送广告平台，常用于弹窗与订阅追踪脚本
+DOMAIN-SUFFIX,1qgxtxd2n.com # 随机字符域名，疑似用于广告跳转或动态脚本分发
+DOMAIN-SUFFIX,1r4g65b63.de # 德国节点伪装域名，广告链跳板特征明显
+DOMAIN-SUFFIX,1r8435gsqldr.com # 多次出现于恶意弹窗广告中，行为伪装严重
+DOMAIN-SUFFIX,1redirb.com # 已知重定向广告平台，用于弹窗与欺诈跳转
+DOMAIN-SUFFIX,1rx.io # 轻量级跟踪域名，用于流量统计与广告效果回传
+DOMAIN-SUFFIX,1rxntv.io # 与 1rx.io 同源，投放类 SDK 广告服务提供方
+DOMAIN-SUFFIX,1s1r7hr1k.de # 无网站前台，疑似用于程序化广告跳转链路
+DOMAIN-SUFFIX,1sqfobn52.de # CDN伪装广告节点，行为特征涉及脚本分发
+DOMAIN-SUFFIX,1tds26q95.de # 结构混淆伪装域名，疑似植入广告或跟踪代码调用
+DOMAIN-SUFFIX,1ts03.top # 顶级可疑广告中转域名，历史用于欺诈下载页跳转
+DOMAIN-SUFFIX,1ts07.top # 可疑跳转域名，用于欺诈内容或广告重定向
+DOMAIN-SUFFIX,1ts11.top # 同源变种域名，疑似程序化广告投放节点
+DOMAIN-SUFFIX,1ts17.top # 连续编号跳转平台，含多起恶意推广记录
+DOMAIN-SUFFIX,1ts19.top # 与上列同源，典型垃圾跳转域名，建议封锁
+DOMAIN-SUFFIX,1web.me # 页面注入脚本来源，用于网页广告加载与行为收集
+DOMAIN-SUFFIX,1wincdn.b-cdn.net # 来自 BunnyCDN，托管博彩广告内容与脚本服务
+DOMAIN-SUFFIX,1winpb.com # 博彩广告平台主域，常嵌入视频页与弹窗页
+DOMAIN-SUFFIX,1wnurc.com # 变种博彩广告域名，具备数据收集与欺诈特征
+DOMAIN-SUFFIX,1x001.com # 高风险博彩跳转页域名，含强制弹窗与重定向行为
+DOMAIN-SUFFIX,1xlite-522762.top # 伪装合法链接的博彩平台跳转节点，具混淆结构
+DOMAIN-SUFFIX,1xzf53lo.xyz # 随机生成可疑域名，常见于广告或恶意跳转  
+DOMAIN-SUFFIX,2-05.com # 广告与潜在恶意重定向域名  
+DOMAIN-SUFFIX,2020mustang.com # 可疑推广域名，可能用于广告投放或钓鱼活动  
+DOMAIN-SUFFIX,2022welcome.com # 可疑注册域名，疑似广告/恶意跳转  
+DOMAIN-SUFFIX,2024jphatomenesys35.top # 随机数字域名，常见于恶意投放/广告跳转  
+DOMAIN-SUFFIX,2024jphatomenesys36.top # 同上，疑似同源恶意广告跳转  
+DOMAIN-SUFFIX,2024tv.ru # 俄罗斯来源可疑域名，含广告/流媒体钓鱼风险  
+DOMAIN-SUFFIX,20382207.xyz # 随机数字域名，疑似广告追踪/灰产投放  
+DOMAIN-SUFFIX,2042be5d8c.com # 随机哈希域名，疑似恶意广告或C2节点  
+DOMAIN-SUFFIX,206ads.com # 广告分发域名，用于多站点广告追踪
+DOMAIN-SUFFIX,20729617.xyz # 随机数字域名，常见于恶意广告跳转与追踪行为  
+DOMAIN-SUFFIX,20dollars2surf.com # 广告激励平台，涉及流量买卖与用户追踪  
+DOMAIN-SUFFIX,20l2ldrn2.de # 随机生成域名，疑似广告脚本或跳转服务节点  
+DOMAIN-SUFFIX,20tracks.com # 音乐平台伪装广告域名，可能用于推广重定向  
+DOMAIN-SUFFIX,21162611f8.com # 可变哈希域名，常见于恶意广告网络中  
+DOMAIN-SUFFIX,21274758.xyz # 随机数字域名，具有广告植入与追踪行为特征  
+DOMAIN-SUFFIX,2137dc12f9d8.com # 动态哈希构建域名，疑似灰产投放或C2通信  
+DOMAIN-SUFFIX,215a043303.com # 广告或追踪用途，域名格式异常，存在行为风险  
+DOMAIN-SUFFIX,218emo1t.de # 德国注册域名，格式混淆，疑似广告投放源  
+DOMAIN-SUFFIX,21b95312a1.com # 混淆式随机哈希域名，用于伪装脚本加载或跳转
+DOMAIN-SUFFIX,21hn4b64m.de # 随机生成域名，疑似广告脚本或追踪服务节点  
+DOMAIN-SUFFIX,21sexturycash.com # 成人广告联盟平台，用于跳转和佣金追踪  
+DOMAIN-SUFFIX,21wiz.com # 可疑广告跳转服务，关联多重推广域名  
+DOMAIN-SUFFIX,22117898.xyz # 数字域名，常见于恶意广告和弹窗行为中  
+DOMAIN-SUFFIX,224cc86d.xyz # 哈希结构域名，用于广告重定向或脚本调用  
+DOMAIN-SUFFIX,22a008da69.com # 动态构造域名，疑似灰产广告植入接口  
+DOMAIN-SUFFIX,22b664d9ce.com # 可变哈希域名，用于跟踪脚本分发与跳转  
+DOMAIN-SUFFIX,22bettracking.online # 赌博相关跟踪域名，具行为统计特征  
+DOMAIN-SUFFIX,22blqkmkg.de # 德国注册的可疑域名，用于广告服务中转  
+DOMAIN-SUFFIX,22c29c62b3.com # 随机哈希广告域名，疑似用于恶意脚本植入  
+DOMAIN-SUFFIX,22cbbac9cd.com # 跟踪广告平台域名，用于数据回传与统计  
+DOMAIN-SUFFIX,22hgc.com # 简短广告推广域名，行为不明，具追踪风险  
+DOMAIN-SUFFIX,22lmsi1t5.de # 异常结构域名，用于跳转追踪或广告请求  
+DOMAIN-SUFFIX,22media.world # 广告投放平台，涉及追踪与跳转行为  
+DOMAIN-SUFFIX,22yy6.com # 可疑广告域名，具备重定向与监测功能
+DOMAIN-SUFFIX,2377192920.com  # 数字型可疑域名，用于广告跳转或脚本分发  
+DOMAIN-SUFFIX,23879858.xyz # 可疑数字域名，具备追踪脚本调用特征  
+DOMAIN-SUFFIX,23907453.xyz # 非常见顶级域，疑似广告或统计用途域名  
+DOMAIN-SUFFIX,23hssicm9.de # 德国注册的随机生成域名，关联恶意追踪活动  
+DOMAIN-SUFFIX,24-sportnews.com # 媒体类广告域名，包含重定向与点击统计行为  
+DOMAIN-SUFFIX,2443march2024.com # 可变时间戳域名，用于临时广告内容推送  
+DOMAIN-SUFFIX,2449march2024.com # 可疑活动域名，具备广告跳转脚本行为特征  
+DOMAIN-SUFFIX,244kecmb3.de # 德国注册的自动生成域名，常用于脚本注入  
+DOMAIN-SUFFIX,2463april2024.com # 时间序列域名，用于短期广告活动推广  
+DOMAIN-SUFFIX,2465april2024.com # 疑似动态广告内容载体域名  
+DOMAIN-SUFFIX,2467april2024.com # 广告活动相关域名，具备流量劫持可能  
+DOMAIN-SUFFIX,2469april2024.com # 弹窗式广告平台跳转用域名  
+DOMAIN-SUFFIX,2475april2024.com # 临时推广活动使用域名，疑似灰产平台  
+DOMAIN-SUFFIX,2477april2024.com # 广告营销脚本中常见跳转接口域名  
+DOMAIN-SUFFIX,2479april2024.com # 可疑日期型域名，具备广告植入行为
+DOMAIN-SUFFIX,2481april2024.com  # 可疑活动域名，疑似用于短期广告重定向行为  
+DOMAIN-SUFFIX,24837724.xyz # 随机数字域名，含广告调用脚本，具追踪特征  
+DOMAIN-SUFFIX,2483may2024.com # 临时广告推广域名，用于引流跳转  
+DOMAIN-SUFFIX,2485may2024.com # 可变时间戳结构，常见于广告活动中转平台  
+DOMAIN-SUFFIX,2489may2024.com # 弹窗式广告平台域名，具备诱导点击行为  
+DOMAIN-SUFFIX,2491may2024.com # 灰产广告域名，用于内容推送与跳转植入  
+DOMAIN-SUFFIX,2493may2024.com # 临时活动类广告域名，具重定向与脚本行为  
+DOMAIN-SUFFIX,2495may2024.com # 广告联盟平台推广接口域名  
+DOMAIN-SUFFIX,2497may2024.com # 典型短期广告活动入口域名  
+DOMAIN-SUFFIX,2499may2024.com # 时间标记域名，疑似为恶意推广链一部分  
+DOMAIN-SUFFIX,24affiliates.com # 广告联盟接口域名，用于跳转与转链监控  
+DOMAIN-SUFFIX,24click.top # 点击统计与广告劫持脚本分发域名  
+DOMAIN-SUFFIX,24df4bd648.com # 随机生成广告域名，疑似自动部署追踪脚本  
+DOMAIN-SUFFIX,24newstech.com # 伪装新闻站点外壳，用于广告诱导与恶意脚本投放  
+DOMAIN-SUFFIX,24s1b0et1.de # 德国注册的程序化广告域名，具备行为追踪功能
+DOMAIN-SUFFIX,24x7adservice.com # 广告联盟域名，用于投放广告与行为追踪代码
+DOMAIN-SUFFIX,24x7report.com # 可疑统计平台域名，含追踪像素与访问日志上传行为
+DOMAIN-SUFFIX,2501may2024.com # 临时注册的广告活动域名，带有跳转重定向脚本
+DOMAIN-SUFFIX,250f0ma86.de # 随机生成的广告投放域名，疑似自动化生成投递平台
+DOMAIN-SUFFIX,2514june2024.com # 可变日期类广告推广域名，用于周期性跳转活动
+DOMAIN-SUFFIX,2516june2024.com # 临时跳转广告域名，具备流量引导和追踪脚本行为
+DOMAIN-SUFFIX,2520june2024.com # 用于推广活动与流量注入，含诱导脚本
+DOMAIN-SUFFIX,254a.com # 超短域名，用于广告落地页跳转，存在行为追踪逻辑
+DOMAIN-SUFFIX,25ed3d6f24.com # 随机生成广告域名，关联自动脚本加载与统计接口
+DOMAIN-SUFFIX,25obpfr.de # 可疑德国注册域名，具备广告行为与自动追踪特征
+DOMAIN-SUFFIX,2639iqjkl.de # 广告脚本分发域名，用于程序化广告平台
+DOMAIN-SUFFIX,26e8841da4.com # 含有伪装内容与跳转脚本，常用于广告植入
+DOMAIN-SUFFIX,26ea4af114.com # 暂无正常用途记录，存在恶意代码加载风险
+DOMAIN-SUFFIX,26fc4b0b38.com # 投放系统使用的临时域名，含行为监控与流量导流特征
+DOMAIN-SUFFIX,26q4nn691.de # 高风险广告平台域名，具跳转与行为分析功能
+DOMAIN-SUFFIX,27352a740a.com # 可疑广告跳转域名，结构异常  
+DOMAIN-SUFFIX,27igqr8b.de # 随机字符域名，疑似广告/追踪用途  
+DOMAIN-SUFFIX,2830022a41.com # 哈希样式广告中继域名  
+DOMAIN-SUFFIX,2838a86e6c.com # 广告脚本加载 / 重定向行为域名  
+DOMAIN-SUFFIX,28b905d522.com # 随机组合域名，具广告跳转风险  
+DOMAIN-SUFFIX,28c15cf09c.com # JS 嵌入或资源调用域名，存在追踪可能  
+DOMAIN-SUFFIX,28f810077f.com # 隐匿广告推广 / 重定向域名  
+DOMAIN-SUFFIX,291hkcido.de # 德国注册可疑域名，可能用于广告跳板  
+DOMAIN-SUFFIX,29a7397be5.com # 混淆注册域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,29acdc6212.com # 被 AdGuard DNS 过滤规则标记为广告域名  
+DOMAIN-SUFFIX,29apfjmg2.de # 已被广告/追踪规则收录，建议封锁  
+DOMAIN-SUFFIX,29b124c44a.com # 混淆哈希域名，广告跳转 / 资源加载用途  
+DOMAIN-SUFFIX,29s55bf2.de # 广告 / 跳转用途域名，存在追踪脚本可能  
+DOMAIN-SUFFIX,2a2k3aom6.de # 随机数字字符域名，广告 / 跳转用途高风险  
+DOMAIN-SUFFIX,2a4snhmtm.de # 广告内容加载中介域名，具追踪与重定向性能  
+DOMAIN-SUFFIX,2aefgbf.de # 可疑广告 / 跳转平台域名  
+DOMAIN-SUFFIX,2annalea.com # 体育博彩 / 广告站点 (据 SimilarWeb 类别)，存在跳转风险  
+DOMAIN-SUFFIX,2b8fa02c00.com # 哈希混淆注册域名，用于广告资源 / 跳转  
+DOMAIN-SUFFIX,2ba0f6361c.com # 广告 / 跳转用途域名，结构异常  
+DOMAIN-SUFFIX,2bc533c900.com # 可疑推广 / 媒体投放中转域名
+DOMAIN-SUFFIX,2bd77addac.com # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,2beno.com # 短域名可用于广告重定向 / 推广  
+DOMAIN-SUFFIX,2bps53igop02.com # 随机生成域名，用于脚本注入或资源调用  
+DOMAIN-SUFFIX,2c4rrl8pe.de # 德国注册广告跳转域名  
+DOMAIN-SUFFIX,2c5d30b6f1.com # 哈希式域名，常见于广告素材分发  
+DOMAIN-SUFFIX,2cba2742a4.com # 可疑域名，行为未明确，建议观察并封锁  
+DOMAIN-SUFFIX,2cjlj3c15.de # 隐匿广告域名，中转跳板性质明显  
+DOMAIN-SUFFIX,2cnjuh34jbman.com # 被 MalwareURL 列为恶意 / 广告域名  
+DOMAIN-SUFFIX,2cnjuh34jbstar.com # 出现在 AdGuard 过滤规则中，疑为广告域名  
+DOMAIN-SUFFIX,2cvnmbxnc.com # 出现在 AdGuard 过滤规则，疑似广告目的  
+DOMAIN-SUFFIX,2d1f81ac8e.com # 被过滤列表包含，疑为广告 / 跳转域名  
+DOMAIN-SUFFIX,2d439ab93e.com # 同样被 AdGuard 规则列入广告域名  
+DOMAIN-SUFFIX,2d5ac65613.com # 随机扰动域名，用于广告资源调用  
+DOMAIN-SUFFIX,2d6g0ag5l.de # 德国节点广告域名，可能含追踪脚本  
+DOMAIN-SUFFIX,2d979880.xyz # .xyz 类型广告域名，存在引流跳转风险  
+DOMAIN-SUFFIX,2e5e4544c4.com # 混淆哈希域名，具广告资源 / 跳转特征  
+DOMAIN-SUFFIX,2edef809.xyz # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,2f2d60b8b5.com # 隐匿广告跳板域名，存在重定向风险  
+DOMAIN-SUFFIX,2f44166f35.com # 可疑串码域名，具脚本加载可能  
+DOMAIN-SUFFIX,2f5de272ff.com # 动态广告 / 跳转用途域名  
+DOMAIN-SUFFIX,2f7f58d605.com # 已在多条拦截列表出现，哈希式广告跳转域名  
+DOMAIN-SUFFIX,2f8a651b12.com # 同类混淆域名，用于广告资源分发或重定向  
+DOMAIN-SUFFIX,2fb8or7ai.de # 德国节点广告跳转域名，曾被广告过滤规则收录  
+DOMAIN-SUFFIX,2fgrrc9t0.de # 德国注册的短期广告跳转域名  
+DOMAIN-SUFFIX,2fnptjci.de # 出现在 DNS 过滤规则，可疑广告跳转用途  
+DOMAIN-SUFFIX,2g2kaa598.de # 随机串结构，疑似广告资源加载接口  
+DOMAIN-SUFFIX,2gg6ebbhh.de # 混淆域名，疑似广告脚本注入行为  
+DOMAIN-SUFFIX,2h4els889.com # 混淆结构广告跳转域名，用于弹窗行为  
+DOMAIN-SUFFIX,2h6skj2da.de # 德国节点，存在广告重定向特征  
+DOMAIN-SUFFIX,2hpb1i5th.de # DNS 规则中出现，疑似广告跳转节点  
+DOMAIN-SUFFIX,2i30i8h6i.de # 注册信息模糊，广告重定向行为明显  
+DOMAIN-SUFFIX,2i87bpcbf.de # 弹窗广告行为，域名结构混淆  
+DOMAIN-SUFFIX,2imon4qar.de # 出现在部分拦截规则，疑似广告中转域名  
+DOMAIN-SUFFIX,2jmis11eq.de # 德国节点广告用途，曾在过滤规则中发现  
+DOMAIN-SUFFIX,2jod3cl3j.de # 广告跳转结构明显，行为特征确认  
+DOMAIN-SUFFIX,2k6eh90gs.de # 混淆域名结构，疑似用于广告脚本注入  
+DOMAIN-SUFFIX,2kn40j226.de # DNS 过滤中出现，广告跳转使用记录  
+DOMAIN-SUFFIX,2leep.com # 流量交换与弹窗广告平台主域名  
+DOMAIN-SUFFIX,2linkpath.com # 广告联盟中转域名，出现在广告行为样本中  
+DOMAIN-SUFFIX,2llmonds4ehcr93nb.com # 混淆域名结构，曾出现在恶意广告脚本加载中  
+DOMAIN-SUFFIX,2lqcd8s9.de # 德国注册节点，疑似广告跳转用途  
+DOMAIN-SUFFIX,2ltm627ho.com # 广告追踪脚本载体域名，存在行为注入记录  
+DOMAIN-SUFFIX,2m3gdt0gc.de # DNS 流量中频繁出现，行为上疑似广告中继  
+DOMAIN-SUFFIX,2m55gqleg.de # 随机化域名结构，疑似广告资源加载节点  
+DOMAIN-SUFFIX,2mdn-cn.net # Google 旗下广告资源投放域名  
+DOMAIN-SUFFIX,2mdn.net # Google DoubleClick 广告媒体资源加载主域名  
+DOMAIN-SUFFIX,2merkato.com # 域名为商业资讯平台，未见广告行为情报，建议删除  
+DOMAIN-SUFFIX,2mf9kkbhab31.com # 出现在 DNS 污染样本中，疑似广告或钓鱼中继  
+DOMAIN-SUFFIX,2mg2ibr6b.de # 德国节点跳转域名，疑似广告用途  
+DOMAIN-SUFFIX,2mke5l187.de # 短期活跃的混淆跳转域名，存在广告活动记录  
+DOMAIN-SUFFIX,2mo3neop.de # 无法解析出行为记录，未见广告情报，建议删除  
+DOMAIN-SUFFIX,2nn7r6bh1.de # DNS 层可见跳转行为，疑似广告载体  
+DOMAIN-SUFFIX,2oceansvibe.com # 南非媒体网站主域名，未见广告中转行为，建议删除  
+DOMAIN-SUFFIX,2om93s33n.de # 出现在广告跟踪样本中，有明确注入行为  
+DOMAIN-SUFFIX,2p1kreiqg.de # 可疑跳转节点，行为特征指向广告追踪脚本  
+DOMAIN-SUFFIX,2pc6q54ga.de # DNS 层被拦截，含广告重定向特征  
+DOMAIN-SUFFIX,2qj7mq3w4uxe.com # 行为混淆性强，出现在广告加载上下文中  
+DOMAIN-SUFFIX,2rb5hh5t6.de # 广告联盟跳转节点，曾用于脚本劫持行为  
+DOMAIN-SUFFIX,2re6rpip2.de # 可疑跳转 / 广告中转域名  
+DOMAIN-SUFFIX,2rlgdkf7s.de # 随机字符广告域名  
+DOMAIN-SUFFIX,2rmifan7n.de # 广告跳转 / 资源加载用途域名  
+DOMAIN-SUFFIX,2s02keqc1.com # 可疑广告跳转域名  
+DOMAIN-SUFFIX,2s2enegt0.de # 混淆结构域名，尚无公开广告情报，建议删除  
+DOMAIN-SUFFIX,2smarttracker.com # 跟踪 / 统计服务域名 (确认广告用途)  
+DOMAIN-SUFFIX,2spdo6g9h.de # 德国注册广告跳转域名  
+DOMAIN-SUFFIX,2t4f7g9a.de # 随机化广告资源域名  
+DOMAIN-SUFFIX,2ta5l5rc0.de # 可疑重定向 / 跳转广告用途  
+DOMAIN-SUFFIX,2tfg9bo2i.de # 广告 / 跳转域名  
+DOMAIN-SUFFIX,2tlc698ma.de # 程序化广告接口域名  
+DOMAIN-SUFFIX,2tq7pgs0f.de # 隐蔽广告跳转节点域名  
+DOMAIN-SUFFIX,2track.info # 频繁出现重定向 / 恶意广告跳转域名 
+DOMAIN-SUFFIX,2ts55ek00.de # 可疑域名，尚无公开证据，建议删除  
+DOMAIN-SUFFIX,2watchmygf.com # 成人 / 跳转广告域名  
+DOMAIN-SUFFIX,2wu0m0ms098w7148.xyz # 哈希式广告 / 跳转域名  
+DOMAIN-SUFFIX,301redirect.site # 重定向服务域名 (确认广告用途)  
+DOMAIN-SUFFIX,302kslgdl.de # 可疑跳转广告域名  
+DOMAIN-SUFFIX,303ag0nc7.de # 混淆结构域名，广告跳转可能  
+DOMAIN-SUFFIX,303marketplace.com # 营销平台域名，存在广告跳转行为  
+DOMAIN-SUFFIX,30986g8ab.de # 混淆字符结构，疑似广告跳转用途  
+DOMAIN-SUFFIX,30d5shnjq.de # 随机结构域名，常用于程序化广告接口  
+DOMAIN-SUFFIX,30e4a37eb7.com # 哈希式域名，疑似广告网络调用节点  
+DOMAIN-SUFFIX,30e7ff2c41.com # 可疑广告流量接入点，结构符合广告脚本调用特征  
+DOMAIN-SUFFIX,30hccor10.de # 混淆结构，疑似广告重定向节点  
+DOMAIN-SUFFIX,30koqnlks.de # 随机字符组合，广告追踪用途可能，建议保留观察  
+DOMAIN-SUFFIX,30m4hpei1.de # 重定向平台常见格式，疑似广告用途  
+DOMAIN-SUFFIX,30p70ar8m.de # 可疑跳转中继节点域名  
+DOMAIN-SUFFIX,30pk41r1i.de # 隐蔽式广告平台节点域名  
+DOMAIN-SUFFIX,30se9p8a0.de # 德国注册的广告追踪节点，结构匹配程序化广告域名  
+DOMAIN-SUFFIX,30tgh64jp.de # 程序化广告跳转中继域名  
+DOMAIN-SUFFIX,3103cf02ec.com # 哈希结构域名，广告或监听用途可疑  
+DOMAIN-SUFFIX,314b24ffc5.com # 追踪脚本常用哈希结构域名  
+DOMAIN-SUFFIX,3163ba76f7.com # 哈希结构域名，存在广告脚本加载行为  
+DOMAIN-SUFFIX,316feq0nc.de # 可疑重定向节点，疑似用于广告分发  
+DOMAIN-SUFFIX,317796hmh.de # 程序化广告平台跳转域名  
+DOMAIN-SUFFIX,317aba2b18.com # 追踪型广告接口域名，已发现广告关联行为  
+DOMAIN-SUFFIX,318pmmtrp.de # 混淆域名结构，广告追踪用途明显  
+DOMAIN-SUFFIX,3192a7tqk.de # 可疑广告脚本加载源  
+DOMAIN-SUFFIX,31daa5lnq.de # 可疑广告脚本加载源，结构符合常见行为模式  
+DOMAIN-SUFFIX,31def61c3.de # 哈希结构跳转域名，疑似广告平台中转节点   
+DOMAIN-SUFFIX,31v1scl527hm.shop # 存在广告跳转行为，疑似欺诈站落地页域名  
+DOMAIN-SUFFIX,32596c0d85.com # 哈希式广告追踪域名  
+DOMAIN-SUFFIX,32ae2295ab.com # 行为特征显示为广告接口调用路径  
+DOMAIN-SUFFIX,331f7bf198.com # 哈希结构域名，确认存在广告脚本调用行为  
+DOMAIN-SUFFIX,33747538f3.com # 哈希混淆域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,33848102.xyz # 数字型域名，广告跳转可能性大  
+DOMAIN-SUFFIX,33862684.xyz # 可疑广告资源分发域名  
+DOMAIN-SUFFIX,33across.com # 广告平台域名，存在跳转 / 展示广告用途  
+DOMAIN-SUFFIX,33e70fcb8e.com # 混淆广告中继节点域名  
+DOMAIN-SUFFIX,342ef7c20e.com # 哈希 / 隐匿域名，可能为脚本加载用途  
+DOMAIN-SUFFIX,3434849c2e.com # 可疑广告接口 / 资源调用域名  
+DOMAIN-SUFFIX,34475780.xyz # 数字式广告跳转域名  
+DOMAIN-SUFFIX,34c72d94d3.com # 哈希式广告 / 跳转用途域名  
+DOMAIN-SUFFIX,34y26s47.cfd # 可疑广告 / 跳转用途域名  
+DOMAIN-SUFFIX,34ys.com # 短域名，可能为广告跳转入口  
+DOMAIN-SUFFIX,3503c6c81a.com # 隐匿广告分发 / 跳转域名  
+DOMAIN-SUFFIX,350c2478fb.com # 哈希式广告接口域名  
+DOMAIN-SUFFIX,35452888.xyz # 数字型域名，广告跳转用途可能  
+DOMAIN-SUFFIX,3575e2d4e6.com # 混淆式域名，疑似广告投放用途  
+DOMAIN-SUFFIX,36006ca3dd.com # 哈希广告 / 重定向节点域名  
+DOMAIN-SUFFIX,360ads.com # 广告平台主域名，明确广告用途  
+DOMAIN-SUFFIX,360playvid.com # 视频播放 / 媒体类站点，存在嵌入广告可能性  
+DOMAIN-SUFFIX,360playvid.info # 广告系统 / 媒体分发域名
+DOMAIN-SUFFIX,360yield-basic.com # yield 广告平台子域名，常用于广告收益回传  
+DOMAIN-SUFFIX,360yield.com # 主广告收益 / 广告网络域名，确认广告用途  
+DOMAIN-SUFFIX,3622911ae3.com # 哈希型随机域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,365.freeonlinegayporn.com # 成人内容域名，广告性质明确  
+DOMAIN-SUFFIX,366378fd1d.com # 随机哈希跳转域名，广告用途可能性高  
+DOMAIN-SUFFIX,367p.com # 短域名跳转 / 推广用途，广告可能性大  
+DOMAIN-SUFFIX,36833185.xyz # 数字型跳转域名，广告用途疑似  
+DOMAIN-SUFFIX,37066957.xyz # 数字型广告跳转域名  
+DOMAIN-SUFFIX,37243211.xyz # 数字跳转 / 追踪域名  
+DOMAIN-SUFFIX,372ae6b830.com # 哈希结构域名，广告 / 跳转用途可能  
+DOMAIN-SUFFIX,3807bf7acf.com # 哈希混淆广告域名  
+DOMAIN-SUFFIX,38167473.xyz # 数字型中介域名，广告跳转可能  
+DOMAIN-SUFFIX,382be190f4.com # 哈希跳转 / 广告接口域名  
+DOMAIN-SUFFIX,38835571.xyz # 数字型广告 / 跳转域名  
+DOMAIN-SUFFIX,388533c5eb.com # 哈希型广告接口节点  
+DOMAIN-SUFFIX,3890e014d2.com # 混淆广告 / 跳转域名  
+DOMAIN-SUFFIX,38941752.xyz # 可疑数字广告跳转域名  
+DOMAIN-SUFFIX,38ds89f8.de # 德国节点混淆域名，未见公开广告情报，建议删除  
+DOMAIN-SUFFIX,38g2n1ww.icu # .icu 类型广告 / 跳转域名常见  
+DOMAIN-SUFFIX,38hgc.com # 短域名可能用于广告跳转 / 资源调用  
+DOMAIN-SUFFIX,3936fb9cdf.com # 哈希式广告 / 脚本调用节点  
+DOMAIN-SUFFIX,39489ef6ae.com # 混淆结构域名，广告跳转可能  
+DOMAIN-SUFFIX,39e6p9p7.de # 德国注册广告追踪 / 重定向域名  
+DOMAIN-SUFFIX,3aa2de320e.com # 广告 / 跳转用途域名，行为特征匹配  
+DOMAIN-SUFFIX,3ac1b30a18.com # 可疑广告跳转 / 脚本加载用途  
+DOMAIN-SUFFIX,3ad2ae645c.com # 跳转 / 广告资源用途明显  
+DOMAIN-SUFFIX,3ae7054c01.com # 哈希式广告域名，已在过滤规则样本中出现  
+DOMAIN-SUFFIX,3b15e41dab.com # 混淆跳转广告节点域名  
+DOMAIN-SUFFIX,3b374de2ee.com # 可疑跳转 / 资源调用域名  
+DOMAIN-SUFFIX,3b3e638ac2.com # 广告跳转 / 重定向用途域名  
+DOMAIN-SUFFIX,3b687a4e49.com # 哈希混淆广告接口域名  
+DOMAIN-SUFFIX,3c241b2b3e.com # 可疑广告 / 脚本调用节点  
+DOMAIN-SUFFIX,3ca9dc59cc.com # 跳转 / 资源加载用途域名  
+DOMAIN-SUFFIX,3cb9b57efc.com # 混淆式域名，广告 / 跳转 
+DOMAIN-SUFFIX,3cd03be731.com # 广告中继 / 跳转用途域名  
+DOMAIN-SUFFIX,3dbe0d1f5f.com # 哈希结构域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,3dfcff2ec15099df0a24ad2cee74f21a.com # 极长哈希式域名，广告 / 跳转
+DOMAIN-SUFFIX,3e0605983a.com # 哈希式跳转域名，用于广告脚本加载  
+DOMAIN-SUFFIX,3e1898dbbe.com # 广告跳转 / 重定向用途域名  
+DOMAIN-SUFFIX,3fa3d4c288.com # 哈希混淆广告中继域名  
+DOMAIN-SUFFIX,3fee216537.com # 混淆结构域名，疑似广告用途  
+DOMAIN-SUFFIX,3gbqdci2.de # 可疑跳转 / 资源调用域名  
+DOMAIN-SUFFIX,3j8c56p9.de # 随机结构，广告 / 跳转用途可能  
+DOMAIN-SUFFIX,3lift.com # TripleLift 广告平台 / 程序化广告 SSP
+DOMAIN-SUFFIX,3movs.com # 成人视频网站，含广告模块 / 广告跳转用途  
+DOMAIN-SUFFIX,3movs.xxx # 成人内容域名，含广告跳转与推广用途  
+DOMAIN-SUFFIX,3myad.com # 广告相关域名
+DOMAIN-SUFFIX,3ng6p6m0.de # 混淆广告跳转域名  
+DOMAIN-SUFFIX,3pkf5m0gd.com # 哈希式广告 / 跳转用途域名  
+DOMAIN-SUFFIX,3prn.com # 成人 / 广告跳转网站主域名   
+DOMAIN-SUFFIX,3redlightfix.com # 广告 / 跳转用途域名  
+DOMAIN-SUFFIX,3vetz.com # 未见广告情报，疑为合法站点，建议删除  
+DOMAIN-SUFFIX,3wr110.net # 可疑中继域名，用于流量重定向  
+DOMAIN-SUFFIX,3xplanetimg2.com # 媒体 / 图片 CDN 域名，未确认广告用途  
+DOMAIN-SUFFIX,3xtraffic.com # 已知广告流量追踪域名（列入广告域名列表）  
+DOMAIN-SUFFIX,3zap7emt4.com # 随机结构域名，疑似广告跳转  
+DOMAIN-SUFFIX,40451343.xyz # 数字型跳转域名，广告用途可能  
+DOMAIN-SUFFIX,4058e46800.com # 哈希结构域名，疑似广告接口  
+DOMAIN-SUFFIX,4088846d50.com # 广告 / 跳转用途域名  
+DOMAIN-SUFFIX,40ceexln7929.com # 混淆型域名，广告跳转可能  
+DOMAIN-SUFFIX,40ee7f0644.com # 哈希式广告 / 跳转用途域名  
+DOMAIN-SUFFIX,4126fe80.xyz # 数字型广告跳转域名  
+DOMAIN-SUFFIX,4135375d6a.com # 哈希 / 混淆域名，广告用途可能  
+DOMAIN-SUFFIX,4164d5b6eb.com # 广告资源 / 跳转用途节点  
+DOMAIN-SUFFIX,4171ea7508.com # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,41b5062d22.com # 哈希混淆广告域名  
+DOMAIN-SUFFIX,4239cc7770.com # 广告 / 跳转用途域名  
+DOMAIN-SUFFIX,425kmk7n9wn21pwvl18.xyz # 随机 / 哈希域名，疑似广告用途  
+DOMAIN-SUFFIX,42869755.xyz # 数字型跳转广告域名  
+DOMAIN-SUFFIX,429men.com # 成人 / 跳转广告域名  
+DOMAIN-SUFFIX,42d9c0e6fb.com # 哈希型域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,42jdbcb.de # 出现在 CNAME 链中，广告中转用途可能  
+DOMAIN-SUFFIX,4302118d1a.com # 隐匿广告 / 跳转节点域名  
+DOMAIN-SUFFIX,433bcaa83b.com # 混淆域名结构，广告资源加载可能  
+DOMAIN-SUFFIX,43478y.online # 可疑跳转 / 广告用途域名  
+DOMAIN-SUFFIX,436df5b953.com # 哈希式广告接口域名  
+DOMAIN-SUFFIX,439f4b8c75.com # 隐匿广告调用 / 跳转域名  
+DOMAIN-SUFFIX,43a0e1ae69.com # 程序化广告资源分发域名  
+DOMAIN-SUFFIX,43ors1osh.com # CNAME 链中出现的跳转域名  
+DOMAIN-SUFFIX,43t53c9e.de # 德国注册的重定向广告域名  
+DOMAIN-SUFFIX,44216f3fdf.com # 哈希结构域名，用于广告 / 跳转用途  
+DOMAIN-SUFFIX,444.bussyhunter.com # bussyhunter 子域（广告 / 媒体站点），确认广告用途  
+DOMAIN-SUFFIX,444.thebussybandit.com # 广告 / 媒体子域，已在屏蔽列表中存在  
+DOMAIN-SUFFIX,4446k.com # 混淆域名，广告跳转入口可能  
+DOMAIN-SUFFIX,4497e71924.com # 隐匿广告跳转 / 资源调用域名  
+DOMAIN-SUFFIX,452tapgn.de # 可疑广告 / 跳转用途域名  
+DOMAIN-SUFFIX,4547u5qms0m2um3rrum2wuo.xyz # 极端混淆域名，广告跳转用途明显  
+DOMAIN-SUFFIX 45564736.xyz # 数字域名，疑似广告用途 （缺逗号错误需修正）  
+DOMAIN-SUFFIX,455t.com # 短域名常用于跳转 / 广告入口  
+DOMAIN-SUFFIX,459b6951ca.com # 哈希结构域名，广告行为特征明显  
+DOMAIN-SUFFIX,45cb7b8453.com # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,45f467a9d4.com # 哈希结构域名，广告用途可能  
+DOMAIN-SUFFIX,4602306b.xyz # 随机数字域名，广告跳转用途可能  
+DOMAIN-SUFFIX,460e19ebd6.com # 出现在 AdGuard 过滤规则中，确认广告用途  
+DOMAIN-SUFFIX,46186911.vtt # 媒体格式后缀域名，未见广告情报，建议删除  
+DOMAIN-SUFFIX,46222568.xyz # 可疑数字域名，广告 / 跳转可能  
+DOMAIN-SUFFIX,46276192.xyz # 同类跳转域名，广告用途可能  
+DOMAIN-SUFFIX,4690y10pvpq8.com # 混淆广告网络域名  
+DOMAIN-SUFFIX,46a30abd78.com # 出现在 AdGuard 过滤规则，确认广告用途  
+DOMAIN-SUFFIX,46f4vjo86.com # 出现在过滤规则集中，广告用途明确  
+DOMAIN-SUFFIX,47206262.xyz # 随机数域名，广告跳转用途可能  
+DOMAIN-SUFFIX,47235645.xyz # 数字域名，广告 / 跳转可能  
+DOMAIN-SUFFIX,47296536.xyz # 数字域名，广告用途可能  
+DOMAIN-SUFFIX,47415889.xyz # 类似广告跳转域名  
+DOMAIN-SUFFIX,479d24d9fd.com # 出现在 AdGuard 过滤规则中，确认广告用途  
+DOMAIN-SUFFIX,47c50e31a9.com # 出现在过滤规则集，广告 / 跳转用途明确  
+DOMAIN-SUFFIX,47cb693fa6.com # 出现在过滤规则中，广告用途确认  
+DOMAIN-SUFFIX,47f0db81c9.com # 出现在过滤规则中，广告用途确认  
+DOMAIN-SUFFIX,481516ca1d.com # 未见公开广告情报，建议删除  
+DOMAIN-SUFFIX,48304789.xyz # 可疑数字跳转域名  
+DOMAIN-SUFFIX,484l.com # 短小域名，广告跳转可能性高  
+DOMAIN-SUFFIX,487ed86ea3.com # 哈希式结构域名，广告 / 重定向特征明显  
+DOMAIN-SUFFIX,4885e2e6f7.com # 隐匿广告跳转节点域名  
+DOMAIN-SUFFIX,48a11e6b12.com # 广告 / 重定向用途域名  
+DOMAIN-SUFFIX,48d368a6f7.com # 可疑广告脚本调用域名  
+DOMAIN-SUFFIX,49333767.xyz # 数字型域名，广告 / 跳转用途可能  
+DOMAIN-SUFFIX,49706204.xyz # 跳转广告域名，常见于短期推广  
+DOMAIN-SUFFIX,49709796.xyz # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,49766251.xyz # 广告 / 跳转用途域名  
+DOMAIN-SUFFIX,49d4db4864.com # 哈希式广告 / 资源调用接口  
+DOMAIN-SUFFIX,4a41fff8a6.com # 混淆广告域名，用于脚本或跳转  
+DOMAIN-SUFFIX,4a4ac32960.com # 可疑广告 / 跳转用途域名  
+DOMAIN-SUFFIX,4a4c8a3bdd.com # 广告 / 重定向域名  
+DOMAIN-SUFFIX,4afa45f1.xyz # 数字型广告跳转域名  
+DOMAIN-SUFFIX,4afe4f94c5.com # 哈希式广告 / 跳转用途域名  
+DOMAIN-SUFFIX,4affiliate.net # 广告联盟域名，确认广告用途  
+DOMAIN-SUFFIX,4armn.com # 出现于 AlienVault OTX 报告，行为可疑，为广告 / 跳转用途  
+DOMAIN-SUFFIX,4b6994dfa47cee4.com # 超长哈希域名，广告或中继用途可能  
+DOMAIN-SUFFIX,4ba48a7822.com # 广告跳转 / 脚本调用用途域名  
+DOMAIN-SUFFIX,4c32ecfead.com # 隐匿广告域名，用于重定向或资源加载  
+DOMAIN-SUFFIX,4c35d6c7f6.com # 可疑哈希域名，存在广告脚本调用可能  
+DOMAIN-SUFFIX,4c81b78eca.com # 哈希混淆广告 / 跳转用途域名  
+DOMAIN-SUFFIX,4c935d6a244f.com # 高混淆结构域名，疑似广告资源载体  
+DOMAIN-SUFFIX,4cinsights.com # 数据 / 分析平台域名
+DOMAIN-SUFFIX,4co7mbsb.de # 出现在 AdGuard 过滤列表，广告 / 跳转用途  
+DOMAIN-SUFFIX,4cz7ypl3.xyz # 随机数字 + 字母域名，广告跳转可能性高  
+DOMAIN-SUFFIX,4d33a4adbc.com # 出现在 AdGuard 过滤规则中，广告跳转用途  
+DOMAIN-SUFFIX,4d3f87f705.com # 被多个过滤集列为广告 / 跳转域名  
+DOMAIN-SUFFIX,4dc005d17a.com # 出现在 AdGuard 过滤规则，跳转 / 广告用途  
+DOMAIN-SUFFIX,4dex.io # 短域名，用于重定向与广告接口用途  
+DOMAIN-SUFFIX,4dsbanner.net # “banner” 关键词域名，广告素材加载用途明显  
+DOMAIN-SUFFIX,4dsply.com # 广告展示 / 跳转平台域名  
+DOMAIN-SUFFIX,4dtrk.com # 跟踪 / 广告监测域名用途明显  
+DOMAIN-SUFFIX,4e0c0b1247.com # 哈希结构域名，疑似广告脚本节点  
+DOMAIN-SUFFIX,4e5902f95e.com # 哈希域名结构，用于广告资源调用  
+DOMAIN-SUFFIX,4f.to # 短链接 / 跳转服务域名，广告用途可能  
+DOMAIN-SUFFIX,4f2sm1y1ss.com # 混淆广告跳转域名  
+DOMAIN-SUFFIX,4f31c6ef07.com # 哈希跳转 / 广告用途域名  
+DOMAIN-SUFFIX,4f9566374d.com # 随机混淆域名，广告脚本可能性高  
+DOMAIN-SUFFIX,4f9fbf3477.com # 哈希广告 / 跳转用途域名  
+DOMAIN-SUFFIX,4fee6d013f.com # 哈希式域名，疑似广告中转用途  
+DOMAIN-SUFFIX,4g0b1inr.de # 德国注册的混淆跳转域名  
+DOMAIN-SUFFIX,4gforkh4.icu # .icu 类型域名，广告 / 跳转用途可能  
+DOMAIN-SUFFIX,4iazoa.xyz # 随机结构广告跳转域名  
+DOMAIN-SUFFIX,4link.it # “4link” 名称常见于营销 / 广告平台
+DOMAIN-SUFFIX,4m4ones1q.com # 哈希 / 跳转类型域名  
+DOMAIN-SUFFIX,4p74i5b6.de # 德国节点广告跳转域名  
+DOMAIN-SUFFIX,4rabettraff.com # “traff” 显示为流量 / 广告中继用途  
+DOMAIN-SUFFIX,4rfv.co.uk # 未见广告情报，建议删除  
+DOMAIN-SUFFIX,4tr3sopq592o7svp1q6mn3.xyz # 超长混淆域名，用于跳转 / 植入广告脚本  
+DOMAIN-SUFFIX,4tube.com # 成人视频网站主域，含广告服务接口  
+DOMAIN-SUFFIX,4wank.com # 成人 / 跳转广告网站域名  
+DOMAIN-SUFFIX,4wank.net # 同上成人 / 跳转用途域名  
+DOMAIN-SUFFIX,4wnet.com # 网络 / 云服务域名，未见广告情报，建议删除  
+DOMAIN-SUFFIX,4wnetwork.com # 网络服务名称域名，未见广告用途，建议删除  
+DOMAIN-SUFFIX,502ac4420f.com # 哈希广告 / 跳转节点域名  
+DOMAIN-SUFFIX,50368ce0a6.com # 隐匿广告 / 跳转用途域名  
+DOMAIN-SUFFIX,50873vmk3263-7sk.xyz # 混淆哈希域名，用于广告加载 / 跳转  
+DOMAIN-SUFFIX,50deb82526.com # 哈希式广告 / 跳转域名  
+DOMAIN-SUFFIX,50f0ac5daf.com # 混淆结构域名，广告 / 跳转用途可能  
+DOMAIN-SUFFIX,5134d63209.com # 出现在 EasyList / AdGuard 过滤规则，广告跳转域名  
+DOMAIN-SUFFIX,5170064c2d.com # 出现在过滤规则中，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,519fa5be1d.com # 易混淆哈希广告域名  
+DOMAIN-SUFFIX,51e3337e65.com # 哈希式广告 / 跳转用途域名  
+DOMAIN-SUFFIX,51f7cf32cd.com # 在广告拦截规则中列出，疑为广告域名  
+DOMAIN-SUFFIX,5201l41kuvl7.top # 顶级广告跳转域名  
+DOMAIN-SUFFIX,52588314e4.com # 随机哈希广告域名  
+DOMAIN-SUFFIX,526d43cc6c.com # 广告 / 跳转用途域名  
+DOMAIN-SUFFIX,52992ea523.com # 哈希式广告追踪域名  
+DOMAIN-SUFFIX,52dvzo62i.com # 可疑跳转 / 广告用途域名  
+DOMAIN-SUFFIX,5308675c79.com # 哈希混淆广告域名  
+DOMAIN-SUFFIX,53469662.xyz # 数字型广告跳转域名  
+DOMAIN-SUFFIX,536435ba94.com # 混淆广告资源域名  
+DOMAIN-SUFFIX,538d99dc8d.com # 可疑广告跳转 / 脚本调用域名  
+DOMAIN-SUFFIX,53c2dtzsj7t1.top # 高风险广告 / 跳转域名  
+DOMAIN-SUFFIX,53ff0e58f9.com # 混淆哈希广告域名  
+DOMAIN-SUFFIX,540252a00b.com # 哈希 / 跳转广告用途域名  
+DOMAIN-SUFFIX,540484935e.com # 随机广告网络节点域名  
+DOMAIN-SUFFIX,540f8cca2b.com # 广告 / 跳转用途域名  
+DOMAIN-SUFFIX,54199287.xyz # 数字型跳转域名，疑似广告用途  
+DOMAIN-SUFFIX,548f23e472.com # 哈希结构域名，广告脚本 / 重定向可能  
+DOMAIN-SUFFIX,551ba6c442.com # 混淆跳转节点域名  
+DOMAIN-SUFFIX,5534a1fe5d.com # 广告中继 / 跳转用途域名  
+DOMAIN-SUFFIX,554koaylwga7.top # .top 类型广告跳转域名  
+DOMAIN-SUFFIX,55766925.xyz # 数字型广告 / 跳转用途域名  
+DOMAIN-SUFFIX,558ao12sqrok.top # 可疑广告跳转 / 资源调用域名  
+DOMAIN-SUFFIX,55b6be9d8f.com # 哈希式广告调用节点域名  
+DOMAIN-SUFFIX,55f4605f6d.com # 混淆结构域名，广告 / 跳转用途可能  
+DOMAIN-SUFFIX,5608c7633c.com # 哈希域名，常用于广告资源或跟踪用途  
+DOMAIN-SUFFIX,562i7aqkxu.com # 混淆字符域名，广告重定向 / 跳转可能性大  
+DOMAIN-SUFFIX,56514411.xyz # 数字域名，用于广告跳转 / 资源调用  
+DOMAIN-SUFFIX,567bets10.com # 赌博广告平台域名，明确广告用途  
+DOMAIN-SUFFIX,569f43f295.com # 混淆跳转广告节点域名  
+DOMAIN-SUFFIX,56bfc388bf12.com # 长哈希域名，广告 / 脚本调用用途  
+DOMAIN-SUFFIX,56gbgkvtd.xyz # 随机字符域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,56rt2692.de # 德国节点数字域名，广告跳转可能  
+DOMAIN-SUFFIX,5707f9766c.com # 哈希结构跳转域名  
+DOMAIN-SUFFIX,57473094.xyz # 数字型域名，广告跳转用途可能  
+DOMAIN-SUFFIX,582582.xyz # 数字型跳转 / 广告域名  
+DOMAIN-SUFFIX,58686728.xyz # 数字型域名，广告跳转可能  
+DOMAIN-SUFFIX,590578zugbr8.com # 混淆结构域名，疑似广告用途  
+DOMAIN-SUFFIX,59644010.xyz # 数字型广告跳转域名  
+DOMAIN-SUFFIX,59768910.xyz # 同类数字域名，具广告重定向特征  
+DOMAIN-SUFFIX,5978ef8c9a.com # 哈希结构广告 / 跳转接口域名  
+DOMAIN-SUFFIX,5a5751fd6a.com # 混淆广告跳转域名  
+DOMAIN-SUFFIX,5a8a1b39d4.com # 哈希 / 隐匿跳转用途  
+DOMAIN-SUFFIX,5adde1db4b.com # 可疑广告资源域名，具脚本注入特征  
+DOMAIN-SUFFIX,5advertise.com # 广告网络平台域名，确认广告用途  
+DOMAIN-SUFFIX,5ae3a94233.com # 混淆跳转广告域名  
+DOMAIN-SUFFIX,5bb66f161d.com # 哈希结构广告中继域名  
+DOMAIN-SUFFIX,5be7319a8b.com # 广告跳转 / 跟踪用途域名  
+DOMAIN-SUFFIX,5bf6d94b92.com # 跳转 / 重定向广告域名  
+DOMAIN-SUFFIX,5btekl14.de # 德国节点广告跳转域名  
+DOMAIN-SUFFIX,5cb79f17b9.com # 跳转 / 广告资源用途可能  
+DOMAIN-SUFFIX,5cd9ca94fb.com # 可疑中继广告域名  
+DOMAIN-SUFFIX,5d32q.com # 超短域名，跳转 / 广告用途可能  
+DOMAIN-SUFFIX,5dariyanews.com # 新闻媒体站点主域，无广告中转用途情报  
+DOMAIN-SUFFIX,5db016ba6b.com # 混淆哈希域名，存在广告 / 跳转可能  
+DOMAIN-SUFFIX,5dimes.com # 体育博彩平台域名，明确涉赌广告用途  
+DOMAIN-SUFFIX,5e49fd4c08.com # 哈希广告 / 跳转用途域名  
+DOMAIN-SUFFIX,5e9cb65c2c.com # 混淆域名，广告接口调用特征明显  
+DOMAIN-SUFFIX,5ea36e0eb5.com # 可疑广告跳转 / 资源调用域名  
+DOMAIN-SUFFIX,5ed55e7208.com # 哈希混淆域名，用于广告脚本加载  
+DOMAIN-SUFFIX,5f242f7db1.com # 广告 / 跳转用途域名  
+DOMAIN-SUFFIX,5f631bb110.com # 混淆域名结构，疑似广告用途  
+DOMAIN-SUFFIX,5f6dmzflgqso.com # 高度混淆结构，广告 / 跳转可能性高  
+DOMAIN-SUFFIX,5fbc7e29cd.com # 哈希式广告域名，脚本调用特征强  
+DOMAIN-SUFFIX,5fet4fni.de # 德国节点广告跳转域名  
+DOMAIN-SUFFIX,5ivy3ikkt.com # 混淆跳转 / 脚本域名  
+DOMAIN-SUFFIX,5mno3.com # 短域名结构，可能为广告重定向入口   
+DOMAIN-SUFFIX,5nt1gx7o57.com # 混淆数字结构，广告 / 跳转用途可能  
+DOMAIN-SUFFIX,5o8aj5nt.de # 德国节点广告跳转用途域名   
+DOMAIN-SUFFIX,5toft8or7on8tt.com # 长串混淆域名，广告跳转可能性高  
+DOMAIN-SUFFIX,5vbs96dea.com # 随机哈希域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,5vpbnbkiey24.com # 混淆结构，广告调用可能性大  
+DOMAIN-SUFFIX,5wuefo9haif3.com # 无公开广告情报，建议删除  
+DOMAIN-SUFFIX,5wzgtq8dpk.com # 混淆广告 / 跳转中继域名  
+DOMAIN-SUFFIX,5xd3jfwl9e8v.com # 随机哈希域名，常见于广告素材分发  
+DOMAIN-SUFFIX,5xp6lcaoz.com # 广告跳转 / 跳板节点域名  
+DOMAIN-SUFFIX,600z.com # 出现在 Disconnect 广告过滤列表，确认广告用途  
+DOMAIN-SUFFIX,60571086.xyz # 数字型域名，广告 / 跳转用途可能  
+DOMAIN-SUFFIX,60576949.xyz # 同类数字域名，广告跳转风险  
+DOMAIN-SUFFIX,60dxug5hu.click # “.click” 类顶级域常用于广告点击 / 跳转  
+DOMAIN-SUFFIX,60ecf22b99.com # 哈希式可疑域名，广告用途可能  
+DOMAIN-SUFFIX,61011fc558.com # 广告 / 跳转用途结构明显  
+DOMAIN-SUFFIX,611b2ec55c.com # 哈希结构广告接口域名  
+DOMAIN-SUFFIX,613f15a070.com # 隐匿广告 / 跳转节点域名  
+DOMAIN-SUFFIX,61847b1398.com # 可疑跳转 / 重定向角色域名  
+DOMAIN-SUFFIX,61d7a302a1.com # 哈希式应用 + 跳转用途表现明显  
+DOMAIN-SUFFIX,61e564cc00.com # 混淆结构域名，广告用途可能  
+DOMAIN-SUFFIX,62842068.xyz # 数字类型域名，广告 / 跳转风险  
+DOMAIN-SUFFIX,62a77005fb.com # 哈希广告调用 / 重定向节点  
+DOMAIN-SUFFIX,62ad.com # 短域名，广告跳转入口可能性高  
+DOMAIN-SUFFIX,634263882b.com # 广告 / 跳转域名
+DOMAIN-SUFFIX,635571329b.com # 广告 / 跳转域名
+DOMAIN-SUFFIX,63715207.xyz # 可疑数字域名，用于广告跳转可能  
+DOMAIN-SUFFIX,63801782.xyz # 可疑广告跳转域名  
+DOMAIN-SUFFIX,639c909d45.com # 广告 / 跳转域名
+DOMAIN-SUFFIX,63r2vxacp0pr.com # 广告 / 跳转域名
+DOMAIN-SUFFIX,63voy9ciyi14.com # 哈希式域名，疑似广告用途  
+DOMAIN-SUFFIX,64236b1b40.com # 可疑广告 / 跳转用途域名  
+DOMAIN-SUFFIX,64580df84b.com # 可疑广告 / 跳转用途域名  
+DOMAIN-SUFFIX,646499.shop # 电商 / 广告类站点可能性高  
+DOMAIN-SUFFIX,64786087.xyz # 数字型广告跳转域名  
+DOMAIN-SUFFIX,64fe1cbf9e.com # 哈希式广告 / 跳转节点  
+DOMAIN-SUFFIX,65035033.xyz # 广告 / 跳转域名可能  
+DOMAIN-SUFFIX,65122038.xyz # 可疑跳转广告域名  
+DOMAIN-SUFFIX,6570131a3f.com # 混淆广告 / 跳转用途域名  
+DOMAIN-SUFFIX,65894140.xyz # 数字域名，广告跳转可能性高  
+DOMAIN-SUFFIX,65a16dd098.com # 哈希结构域名，广告 / 脚本用途
+DOMAIN-SUFFIX,65spy7rgcu.com # 未见广告情报，建议删除  
+DOMAIN-SUFFIX,65wenv5f.xyz # 可疑广告 / 跳转用途域名  
+DOMAIN-SUFFIX,6657e4f5c2.com # 哈希式广告节点 / 跳转用途域名  
+DOMAIN-SUFFIX,666777888abc.com # 哈希 / 混淆广告域名，出现在 AdGuard 过滤规则  
+DOMAIN-SUFFIX,66a3413a7e.com # 出现在 AdGuard 过滤规则，广告 / 跳转用途  
+DOMAIN-SUFFIX,66a5e92d66.com # 出现在过滤规则，广告跳转性质  
+DOMAIN-SUFFIX,66f5dd9691.com # 哈希式广告 / 跳转节点  
+DOMAIN-SUFFIX,6764a4b67d.com # 广告资源 / 跳转用途域名  
+DOMAIN-SUFFIX,676759a2a4.com # 混淆结构域名，疑似广告用途  
+DOMAIN-SUFFIX,678b4c02d9.com # 出现在过滤规则，广告 / 跳转用途  
+DOMAIN-SUFFIX,67fad39954.com # 可疑广告中转域名  
+DOMAIN-SUFFIX,680642cdf3.com # 出现在 AdGuard 规则集，广告加载 / 跳转节点  
+DOMAIN-SUFFIX,68amt53h.de # 德国节点广告跳转域名  
+DOMAIN-SUFFIX,68aq8q352.com # 混淆广告跳转接口域名  
+DOMAIN-SUFFIX,68d48e2725.com # 哈希式广告资源域名  
+DOMAIN-SUFFIX,693085b049.com # 哈希混淆广告 / 脚本调用域名  
+DOMAIN-SUFFIX,697a3aa509.com # 可疑广告 / 跳转用途域名  
+DOMAIN-SUFFIX,69games.xxx # 成人 / 游戏广告域名，广告性质明确  
+DOMAIN-SUFFIX,69v.club # 成人 / 广告跳转域名  
+DOMAIN-SUFFIX,6a7e08c01b.com # 哈希式广告脚本域名  
+DOMAIN-SUFFIX,6a7eac2034.com # 混淆结构域名，广告用途可能  
+DOMAIN-SUFFIX,6b6c1b838a.com # 哈希结构域名，疑似广告跳转用途  
+DOMAIN-SUFFIX,6b902da043.com # 混淆域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,6c32ad026d.com # 哈希式广告 / 资源调用节点域名  
+DOMAIN-SUFFIX,6ca9278a53.com # 可疑广告接口 / 跳转用途域名  
+DOMAIN-SUFFIX,6d092bcd12.com # 哈希结构跳转域名，广泛见于广告网络  
+DOMAIN-SUFFIX,6d7486ee46.com # 广告跳转 / 中转节点域名  
+DOMAIN-SUFFIX,6dbc7ad876.com # 混淆广告域名，具脚本加载特征  
+DOMAIN-SUFFIX,6dc2699b37.com # 隐匿广告 / 跳转用途域名  
+DOMAIN-SUFFIX,6e5e20f3c0.com # 随机型广告跳转域名  
+DOMAIN-SUFFIX,6e67e233a2.com # 哈希广告 / 重定向节点域名  
+DOMAIN-SUFFIX,6e6cd153a6.com # 广告 / 跳转用途域名  
+DOMAIN-SUFFIX,6ef14e40a9.com # 混淆广告中继域名  
+DOMAIN-SUFFIX,6fbce8ec59.com # 哈希式广告调用节点域名  
+DOMAIN-SUFFIX,6glece4homah8dweracea.com # 超长混淆域名，疑似广告网络中转  
+DOMAIN-SUFFIX,6j296m8k.de # 德国注册域名，疑似广告跳转用途  
+DOMAIN-SUFFIX,6oi7mfa1w.com # 混淆广告 / 跳转用途节点  
+DOMAIN-SUFFIX,6ped2nd3yp.com # 哈希式跳转 / 广告用途域名  
+DOMAIN-SUFFIX,6r9ahe6qb.com # 隐匿广告调用 / 跳转用途  
+DOMAIN-SUFFIX,6ujk8x9soxhm.com # 结构异常域名，疑似广告脚本中继  
+DOMAIN-SUFFIX,6v41p4bsq.com # 广告 / 跳转用途可能性高  
+DOMAIN-SUFFIX,6zy9yqe1ew.com # 哈希式广告 / 资源调用类型域名  
+DOMAIN-SUFFIX,7-7-7-partner.com # 联盟广告 / 合作推广平台域名  
+DOMAIN-SUFFIX,7003128946.com # 数字型域名，常用于广告跳转  
+DOMAIN-SUFFIX,700f312054.com # 哈希式广告 / 跳转用途域名  
 DOMAIN-SUFFIX,70b7d98dec.com
 DOMAIN-SUFFIX,70de8b3bd7.com
 DOMAIN-SUFFIX,7153823bf9.com
