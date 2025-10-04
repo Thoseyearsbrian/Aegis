@@ -7459,3 +7459,5 @@ DOMAIN,static-zayo1.zohocdn.com # Zoho CDN 加速节点，可能归属 Zayo 网�
 DOMAIN,static-lumen1.zohocdn.com # Zoho CDN 加速节点，可能归属 Lumen 网络（用于全球分发）
 DOMAIN,fba02.fbsubcn01.cc # 代理节点域名（属于机场服务提供商）
 DOMAIN,lk02.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
+DOMAIN,lk01.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
+DOMAIN-SUFFIX,fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
