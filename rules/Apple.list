@@ -87,6 +87,7 @@ DOMAIN-SUFFIX,mzstatic.com # iTunes/App Store 内容分发 CDN
 DOMAIN-SUFFIX,icloud.com.cn # 中国大陆 iCloud 接入服务（云上贵州）
 PROCESS-NAME,cloudd # 云上贵州 iCloud 同步进程（本地标识）
 DOMAIN,bag.itunes.apple.com # App Store 后台内容接口（收据验证与资源调度，禁止拦截）
+DOMAIN,api.apple-cloudkit.com  # Apple CloudKit 主接口，提供 iCloud 数据同步、云存储与开发者 API 支持
 
 # > 推送通知 / iMessage / 时间同步（系统服务）
 
