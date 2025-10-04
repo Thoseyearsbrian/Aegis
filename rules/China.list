@@ -117,6 +117,3 @@ DOMAIN-SUFFIX,sasac.gov.cn // 国务院国资委
 DOMAIN-SUFFIX,court.gov.cn // 中国法院网
 DOMAIN-SUFFIX,people.com.cn // 人民网（党媒）
 DOMAIN-SUFFIX,xinhuanet.com // 新华网（党媒）
-
-# >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
-DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）

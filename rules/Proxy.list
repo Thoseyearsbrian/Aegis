@@ -15,6 +15,14 @@ DOMAIN-SUFFIX,sub.pmsub.me // PMSUB 节点订阅服务
 DOMAIN-SUFFIX,cfmem.com // cfmem.com 节点分发平台
 DOMAIN-SUFFIX,nexitally.com // Nexitally 节点/订阅服务平台
 
+# >> 安全工具 / 加密服务（Security Tools / Encryption Services）
+DOMAIN,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下载、密钥同步与更新服务
+
+
+# >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
+DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）
+DOMAIN,ocsp.digicert.com # Digicert 证书吊销检查（OCSP）
+
 # » VPN / 科学上网工具相关域名
 DOMAIN-SUFFIX,getoutline.org // Outline VPN 官方域名
 DOMAIN-SUFFIX,surfshark.com // Surfshark VPN 官网

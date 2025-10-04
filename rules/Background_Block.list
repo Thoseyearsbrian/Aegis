@@ -6,3 +6,4 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-10-04
 
+IP-CIDR,95.216.203.236 # Dr.Web 更新镜像节点（托管于 Hetzner，使用明文 HTTP 通信，存在中间人风险）

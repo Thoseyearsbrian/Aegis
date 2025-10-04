@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,crashlytics.com // 被大量灰产 SDK 使用
 # >> Microsoft 相关遥测与探测行为
 DOMAIN-SUFFIX,dns.msftncsi.com // Microsoft 网络连通性检查域，用于探测联网状态
 DOMAIN,mobile.events.data.microsoft.com // VS Code / Windows / Office 遥测上传行为
+DOMAIN,in.appcenter.ms  # Microsoft AppCenter 移动应用分析 SDK 域名，用于遥测统计与行为数据上报
 
 # >> 华为系行为分析与遥测接口
 DOMAIN-SUFFIX,hispace.hicloud.com // 华为 App 行为与更新统计接口
@@ -183,3 +184,6 @@ DOMAIN-SUFFIX,api.geedge.net // 内部 API 接口 / 模块通信域名
 DOMAIN-SUFFIX,tsggw.geedge.net // Tiangou Gateway 网关接入域名
 DOMAIN-SUFFIX,mirror.mesa-lab.net // MESA Lab 镜像 / 工具服务域
 DOMAIN-SUFFIX,control.mesa-lab.net // MESA 控制 / 任务下发接口
+
+# >> 迅雷行为分析接口
+DOMAIN,dlandroid.rcv.sandai.net  # 迅雷 Android 客户端行为监听接口，使用 HTTP 明文通信，上报遥测数据
