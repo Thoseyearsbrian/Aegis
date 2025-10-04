@@ -11,4 +11,8 @@ DOMAIN-SUFFIX,flurry.com // Flurry 广告行为分析 SDK，常用于用户行�
 DOMAIN-SUFFIX,zscaler.net // 云代理服务 Zscaler，若非企业环境建议封锁以避免隧道式通信通道
 IP-CIDR,180.101.242.0/24 # 中国移动号码认证服务（明文通信）
 IP-CIDR,101.91.0.0/24 # 中国移动号码认证服务（明文通信）
+IP-CIDR,101.91.37.36/32  # 中国移动 mmtls 明文通信节点，用于手机号预认证或 App 快捷登录接口
 IP-CIDR,180.111.196.240/32 # 中国电信运营商认证节点，用于手机号识别与SDK探测行为
+IP-CIDR,117.89.182.41/32 # 江苏电信 mmtls 一键登录接口
+IP-CIDR,180.111.196.239/32 # 安徽电信 mmtls 号卡预认证节点
+DOMAIN-KEYWORD,mmtls  # 匹配所有与 mmtls（手机号认证协议）相关域名
