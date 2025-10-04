@@ -59,7 +59,6 @@ SurgeAegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Su
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step.png" width="600">
 </p>
 
-
 ## ⚠️ 注意事项
 
 1. **禁用或删除** 与 **中国大陆 IP 地址段** 相关的规则或规则集
@@ -160,9 +159,9 @@ SurgeAegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Su
 
 如果你认可本项目的价值，欢迎 Star ⭐️ 支持，所有规则更新将同步与频道，欢迎订阅关注。
 
- - [Aegis Updates](https://t.me/AegisUpdates) —— **版本更新通知频道**：用于发布最新规则版本、更新日志与重要公告
+ - [Aegis Updates](https://t.me/AegisUpdates) —— **版本更新通知频道**：用于发布最新规则版本、更新日志与重要公告 （即将上线）
 
- - [Aegis Discussion](https://t.me/+xxxxxxxxx) —— **用户共建交流群**：欢迎提交建议、反馈误杀、参与规则共建
+ - [Aegis Discussion](https://t.me/+xxxxxxxxx) —— **用户共建交流群**：欢迎提交建议、反馈误杀、参与规则共建 （即将上线）
 
 **申请须知**：
 

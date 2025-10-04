@@ -16,7 +16,7 @@
   <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/SurgeAegis/Docs/zh-CN/README.md"><b>【中文文档点此进入】</b></a>
 </p>
 
-A high-performance rule set specifically designed for Surge, focusing on application-layer and transport-layer defenses. It covers threats such as DNS poisoning, APT command-and-control infrastructure, SDK telemetry, backdoor communications, and malicious C2 servers. The project also extends to blocking global advertising and tracking domains, aiming to achieve precise identification and efficient blocking of local traffic on iOS and macOS devices.
+A high-performance rule set for Surge, focusing on application and transport layer defenses. It blocks DNS poisoning, APT C2 infrastructure, SDK telemetry, and malicious backdoor traffic. Also includes global ad/tracker blocking for precise and efficient local traffic filtering on iOS and macOS.
 
 ## **Project Background**
 
@@ -76,8 +76,6 @@ FINAL,REJECT
 ```
 
 3. The GeoIP database only includes **mainland China** IPs. Avoid querying other countries:
-
-
 
 ```
 GEOIP,US,PROXY  # Invalid
