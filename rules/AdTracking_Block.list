@@ -744,8 +744,7 @@ DOMAIN-SUFFIX,429men.com # 成人 / 跳转广告域名
 DOMAIN-SUFFIX,42d9c0e6fb.com # 哈希型域名，疑似广告 / 跳转用途  
 DOMAIN-SUFFIX,42jdbcb.de # 出现在 CNAME 链中，广告中转用途可能  
 DOMAIN-SUFFIX,4302118d1a.com # 隐匿广告 / 跳转节点域名  
-DOMAIN-SUFFIX,433bcaa83b.com # 混淆域名结构，广告资源加载可能  
-DOMAIN-SUFFIX,43478y.online # 可疑跳转 / 广告用途域名  
+DOMAIN-SUFFIX,433bcaa83b.com # 混淆域名结构，广告资源加载可能    
 DOMAIN-SUFFIX,436df5b953.com # 哈希式广告接口域名  
 DOMAIN-SUFFIX,439f4b8c75.com # 隐匿广告调用 / 跳转域名  
 DOMAIN-SUFFIX,43a0e1ae69.com # 程序化广告资源分发域名  
@@ -758,23 +757,15 @@ DOMAIN-SUFFIX,4446k.com # 混淆域名，广告跳转入口可能
 DOMAIN-SUFFIX,4497e71924.com # 隐匿广告跳转 / 资源调用域名  
 DOMAIN-SUFFIX,452tapgn.de # 可疑广告 / 跳转用途域名  
 DOMAIN-SUFFIX,4547u5qms0m2um3rrum2wuo.xyz # 极端混淆域名，广告跳转用途明显  
-DOMAIN-SUFFIX 45564736.xyz # 数字域名，疑似广告用途 （缺逗号错误需修正）  
 DOMAIN-SUFFIX,455t.com # 短域名常用于跳转 / 广告入口  
 DOMAIN-SUFFIX,459b6951ca.com # 哈希结构域名，广告行为特征明显  
 DOMAIN-SUFFIX,45cb7b8453.com # 可疑广告 / 跳转域名  
 DOMAIN-SUFFIX,45f467a9d4.com # 哈希结构域名，广告用途可能  
-DOMAIN-SUFFIX,4602306b.xyz # 随机数字域名，广告跳转用途可能  
 DOMAIN-SUFFIX,460e19ebd6.com # 出现在 AdGuard 过滤规则中，确认广告用途  
 DOMAIN-SUFFIX,46186911.vtt # 媒体格式后缀域名，未见广告情报，建议删除  
-DOMAIN-SUFFIX,46222568.xyz # 可疑数字域名，广告 / 跳转可能  
-DOMAIN-SUFFIX,46276192.xyz # 同类跳转域名，广告用途可能  
 DOMAIN-SUFFIX,4690y10pvpq8.com # 混淆广告网络域名  
 DOMAIN-SUFFIX,46a30abd78.com # 出现在 AdGuard 过滤规则，确认广告用途  
 DOMAIN-SUFFIX,46f4vjo86.com # 出现在过滤规则集中，广告用途明确  
-DOMAIN-SUFFIX,47206262.xyz # 随机数域名，广告跳转用途可能  
-DOMAIN-SUFFIX,47235645.xyz # 数字域名，广告 / 跳转可能  
-DOMAIN-SUFFIX,47296536.xyz # 数字域名，广告用途可能  
-DOMAIN-SUFFIX,47415889.xyz # 类似广告跳转域名  
 DOMAIN-SUFFIX,479d24d9fd.com # 出现在 AdGuard 过滤规则中，确认广告用途  
 DOMAIN-SUFFIX,47c50e31a9.com # 出现在过滤规则集，广告 / 跳转用途明确  
 DOMAIN-SUFFIX,47cb693fa6.com # 出现在过滤规则中，广告用途确认  
