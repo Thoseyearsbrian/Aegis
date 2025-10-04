@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/SurgeAegis/Docs/zh-CN/README.md"><b>【中文文档点此进入】</b></a>
+  <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-CN/README.md"><b>【中文文档点此进入】</b></a>
 </p>
 
 A high-performance rule set for Surge, focusing on application and transport layer defenses. It blocks DNS poisoning, APT C2 infrastructure, SDK telemetry, and malicious backdoor traffic. Also includes global ad/tracker blocking for precise and efficient local traffic filtering on iOS and macOS.
