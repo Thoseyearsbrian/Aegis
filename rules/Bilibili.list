@@ -9,3 +9,5 @@
 DOMAIN-SUFFIX,bilibili.com // Bilibili 主站
 DOMAIN-SUFFIX,hdslb.com // Bilibili 静态资源与视频流
 DOMAIN-SUFFIX,acg.tv // Bilibili 旧版短链接域名
+DOMAIN,upos-sz-mirror08c.bilvideo.com # 哔哩哔哩视频 CDN 加速节点
+DOMAIN,upos-sz-mirror08c.bilvideo.com # 哔哩哔哩视频 CDN 加速节点
