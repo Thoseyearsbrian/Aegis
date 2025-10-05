@@ -73,6 +73,7 @@ DOMAIN-SUFFIX,sandbox.itunes.apple.com # 支付沙盒环境
 DOMAIN-SUFFIX,ocsp2.apple.com # Apple 安全证书验证服务（OCSP）
 DOMAIN,valid.apple.com # Apple 证书有效性验证域名（OCSP / 激活服务）
 DOMAIN,xp.apple.com  # Apple 证书验证与设备注册相关接口，可能涉及 MDM 配置与系统激活通信
+DOMAIN,kt-prod.ess.apple.com # Apple 设备安全服务域，用于设备密钥验证与安全认证流程，建议放行以确保系统功能正常
 
 # > 内容服务：Apple Music / iCloud / App Store
 
@@ -148,7 +149,6 @@ PROCESS-NAME,syncdefaultsd # Apple iCloud 同步控制器
 # DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
 # DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上报接口（官方遥测）
 # DOMAIN-SUFFIX,weather-analytics-events.apple.com # Apple 天气应用分析事件接口（官方遥测）
-# DOMAIN,sequoia.apple.com # Apple 日志遥测平台，用于 macOS/iOS 系统崩溃报告、诊断数据上传与分析服务
 
 # >> 已列入 Behavior_Block.list明细：
 
@@ -163,3 +163,4 @@ DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期�
 
 # >> 已列入 Proxy.list明细：
 DOMAIN,translation.apple.com # Apple 翻译主服务
+DOMAIN,sequoia.apple.com # Apple 日志遥测平台，用于 macOS/iOS 系统崩溃报告、诊断数据上传与分析服务

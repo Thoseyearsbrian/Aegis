@@ -24,14 +24,14 @@ DOMAIN-SUFFIX,ocsp.digicert.com # Digicert 证书吊销检查（OCSP）
 DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国 OCSP 响应服务，用于证书撤销状态查询
 
 # Safari 翻译相关（Apple + Microsoft）
-DOMAIN,translation.apple.com       # Apple 翻译主服务
-DOMAIN,sequoia.apple.com           # 日志分析/遥测（翻译可能依赖）
-DOMAIN,xp.apple.com                # 证书/注册平台
-DOMAIN,api.cognitive.microsoft.com  # 微软翻译接口
-DOMAIN,microsofttranslator.com     # 微软翻译主域
+DOMAIN,translation.apple.com # Apple 翻译主服务
+DOMAIN,sequoia.apple.com # 日志分析/遥测（翻译可能依赖）
+DOMAIN,xp.apple.com # 证书/注册平台
+DOMAIN,api.cognitive.microsoft.com # 微软翻译接口
+DOMAIN,microsofttranslator.com # 微软翻译主域
 DOMAIN,api.translate.microsoft.com
 DOMAIN,cdn.translate.microsoft.com
-DOMAIN,edge.microsoft.com          # Edge 浏览器相关内容
+DOMAIN,edge.microsoft.com # Edge 浏览器相关内容
 DOMAIN,translatoruser.intl.microsoft.com
 
 # Google 翻译（如你 Safari 配置中启用 Google 服务）

@@ -16,4 +16,3 @@ DOMAIN-SUFFIX,metrics.icloud.com # Apple iCloud 使用数据分析域名
 DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
 DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上报接口（官方遥测）
 DOMAIN-SUFFIX,weather-analytics-events.apple.com # Apple 天气应用分析事件接口（官方遥测）
-DOMAIN,sequoia.apple.com # Apple 日志遥测平台，用于 macOS/iOS 系统崩溃报告、诊断数据上传与分析服务
