@@ -20,7 +20,8 @@ DOMAIN,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下载、�
 
 # >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
 DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）
-DOMAIN,ocsp.digicert.com # Digicert 证书吊销检查（OCSP）
+DOMAIN-SUFFIX,ocsp.digicert.com # Digicert 证书吊销检查（OCSP）
+DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国 OCSP 响应服务，用于证书撤销状态查询
 
 # » VPN / 科学上网工具相关域名
 DOMAIN-SUFFIX,getoutline.org // Outline VPN 官方域名
