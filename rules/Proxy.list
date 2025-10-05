@@ -25,7 +25,7 @@ DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国 OCSP 响应服务，用于证�
 
 # Safari 翻译相关（Apple + Microsoft）
 DOMAIN,translation.apple.com # Apple 翻译主服务
-DOMAIN,sequoia.apple.com # 日志分析/遥测（翻译可能依赖）
+DOMAIN,sequoia.apple.com # 日志分析/遥测（Safari翻译依赖）
 DOMAIN,xp.apple.com # 证书/注册平台
 DOMAIN,api.cognitive.microsoft.com # 微软翻译接口
 DOMAIN,microsofttranslator.com # 微软翻译主域

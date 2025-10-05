@@ -162,5 +162,6 @@ DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，�
 DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）
 
 # >> 已列入 Proxy.list明细：
+
 DOMAIN,translation.apple.com # Apple 翻译主服务
-DOMAIN,sequoia.apple.com # Apple 日志遥测平台，用于 macOS/iOS 系统崩溃报告、诊断数据上传与分析服务
+DOMAIN,sequoia.apple.com # 日志分析/遥测（Safari翻译依赖）
