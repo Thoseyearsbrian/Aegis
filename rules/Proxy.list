@@ -7485,3 +7485,7 @@ DOMAIN,nodejs.org # Node.js 官方网站，提供运行时环境下载、文档�
 DOMAIN,getbootstrap.com # Bootstrap 前端框架官方网站，提供组件文档与 CSS/JS 框架资源
 DOMAIN,tailwindcss.com # Tailwind CSS 官方站点，提供原子化 CSS 框架文档与资源，适用于前端开发
 DOMAIN,editsvgcode.com # SVG 编辑与查看在线工具，支持实时修改 SVG 代码并渲染结果，常用于前端图标设计
+DOMAIN-SUFFIX,16map.com # 第三方地图服务平台，提供位置定位与地图嵌入服务，部分应用可能调用其进行地理位置采集
+DOMAIN,map.s-jl.com # 吉林省地图服务平台子域，提供区域地图加载与定位服务，部分本地应用或网页可能调用，建议代理直连视使用场景而定
+DOMAIN,16map.com # 第三方地图服务平台主页，提供位置定位与地图嵌入服务，涉及地理位置采集行为
+DOMAIN,api.16map.com # 第三方地图服务平台 API 接口，用于地理定位、坐标转换等数据请求，部分应用可能存在位置回传行为

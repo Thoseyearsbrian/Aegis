@@ -17,7 +17,3 @@ DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
 DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上报接口（官方遥测）
 DOMAIN-SUFFIX,weather-analytics-events.apple.com # Apple 天气应用分析事件接口（官方遥测）
 DOMAIN,sequoia.apple.com # Apple 日志遥测平台，用于 macOS/iOS 系统崩溃报告、诊断数据上传与分析服务
-DOMAIN-SUFFIX,16map.com # 第三方地图服务平台，提供位置定位与地图嵌入服务，部分应用可能调用其进行地理位置采集
-DOMAIN,map.s-jl.com # 吉林省地图服务平台子域，提供区域地图加载与定位服务，部分本地应用或网页可能调用，建议代理直连视使用场景而定
-DOMAIN,16map.com # 第三方地图服务平台主页，提供位置定位与地图嵌入服务，涉及地理位置采集行为
-DOMAIN,api.16map.com # 第三方地图服务平台 API 接口，用于地理定位、坐标转换等数据请求，部分应用可能存在位置回传行为
