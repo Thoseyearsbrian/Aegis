@@ -5,7 +5,7 @@
 # - 说明：部分 Apple 上报/分析类域名已加入 Background_Block.list，行为探测域名已列入 Behavior_Block.list,广告类已加入 AdTracking_Block.list 详见最后明细
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-05
+# - 更新时间：2025-10-06
 
 # > Apple 官方 IP 地址段（全球基础设施）
 
@@ -89,6 +89,11 @@ DOMAIN-SUFFIX,icloud.com.cn # 中国大陆 iCloud 接入服务（云上贵州）
 PROCESS-NAME,cloudd # 云上贵州 iCloud 同步进程（本地标识）
 DOMAIN,bag.itunes.apple.com # App Store 后台内容接口（收据验证与资源调度，禁止拦截）
 DOMAIN,api.apple-cloudkit.com  # Apple CloudKit 主接口，提供 iCloud 数据同步、云存储与开发者 API 支持
+DOMAIN,setup.icloud.com # Apple iCloud 设备配置与注册入口服务，用于设备激活、iCloud 设置流程
+DOMAIN,search.itunes.apple.com # iTunes / App Store 搜索服务接口，用于在 App Store 中检索应用
+DOMAIN,amp-api-search-edge.apps.apple.com # App Store 边缘搜索 API 服务，用于提升 App 搜索响应速度  
+DOMAIN,amp-api.apps.apple.com # Apple 应用相关 API 后端服务，用于应用数据同步、更新请求等  
+DOMAIN,configuration.apple.com # Apple 设备配置服务接口，常见于 Apple Hardware / MDM /初始配置阶段
 
 # > 推送通知 / iMessage / 时间同步（系统服务）
 

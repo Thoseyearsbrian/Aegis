@@ -4,7 +4,15 @@
 # - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-06
+
+# > Microsoft Visual Studio Code 主程序与资源服务
+DOMAIN,update.code.visualstudio.com
+DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,gallery.vsassets.io # VS Code 插件库主域，用于插件元数据分发与管理
+DOMAIN-SUFFIX,gallerycdn.vsassets.io # VS Code 插件 CDN 加速域名，用于插件资源下载
+DOMAIN-SUFFIX,main.vscode-cdn.net # VS Code 官方 CDN 服务，用于扩展加载、资源分发，影响编辑器功能
 
 # > 核心服务（Core Services）
 DOMAIN-SUFFIX,microsoft.com // 微软主域名
@@ -86,12 +94,5 @@ DOMAIN-SUFFIX,msappproxy.net // 微软应用代理服务
 DOMAIN-SUFFIX,windows.net // 微软通用服务域名
 DOMAIN-SUFFIX,akadns.net // 微软全球 CDN 网络域
 
-# > Microsoft Visual Studio Code 主程序与资源服务
-DOMAIN,update.code.visualstudio.com
-DOMAIN-SUFFIX,vscode-cdn.net
-DOMAIN-SUFFIX,visualstudio.com
-DOMAIN-SUFFIX,gallery.vsassets.io # VS Code 插件库主域，用于插件元数据分发与管理
-DOMAIN-SUFFIX,gallerycdn.vsassets.io # VS Code 插件 CDN 加速域名，用于插件资源下载
-
 # > 头像服务（可选放行）
-DOMAIN,gravatar.com
+DOMAIN,gravatar.com # Gravatar 头像服务，用于在多个网站上显示与用户邮箱绑定的个人头像 
