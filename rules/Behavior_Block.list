@@ -4,7 +4,7 @@
 # - 特征：基于 DNS 查询模式、TLS 指纹（如 Client Hello）等行为模式识别并封锁，配合灰产 SDK 与分析节点检测
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-02
+# - 更新时间：2025-10-06
 
 # >> Apple 行为遥测服务
 DOMAIN-SUFFIX,dns.apple.com // Apple 网络状态探测域，非必须服务，可疑行为分析用
@@ -51,7 +51,6 @@ DOMAIN-SUFFIX,browser-intake-datadoghq.com // Datadog 监控上报域名，GPT �
 
 # >> Facebook / Branch / Snapchat 等社交平台行为接口
 DOMAIN-SUFFIX,graph.facebook.com // Facebook Graph API，行为上报接口
-DOMAIN-SUFFIX,api.branch.io // Branch SDK，含行为回传能力
 DOMAIN-SUFFIX,snapkit.com // 若非主动使用 Snapchat，可屏蔽
 
 # >> Segment 行为追踪服务
@@ -107,7 +106,6 @@ DOMAIN-SUFFIX,trace.sina.cn // 微博用户行为轨迹上报接口
 DOMAIN-SUFFIX,dataflow.biliapi.com // Bilibili 用户行为分析数据接口
 DOMAIN-SUFFIX,grpc.biliapi.net // Bilibili gRPC 行为请求通道（含用户行为上传）
 DOMAIN-SUFFIX,app.biliapi.net // Bilibili App 级行为接口
-DOMAIN-SUFFIX,api.bilibili.com // Bilibili 核心行为接口，含点赞、点击、追番等事件上报
 
 # >> 高德地图（AutoNavi / AMap）行为分析与指纹上传
 DOMAIN-SUFFIX,logs.amap.com // 高德地图行为日志上传接口
