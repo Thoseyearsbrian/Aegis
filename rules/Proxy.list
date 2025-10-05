@@ -7478,3 +7478,10 @@ DOMAIN-SUFFIX,lk02.fbsubcn01.pro # 代理机场相关域名，可能用于配置
 DOMAIN-SUFFIX,lk01.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,fbsubcn01.cc # 代理机场相关域名，可能用于配置拉取或节点测速
+DOMAIN,iterm2.com # macOS 平台终端模拟器 iTerm2 官方网站，提供软件下载与更新信息
+DOMAIN,asdf-vm.com # 多语言版本管理工具 asdf 官方主页，支持 Node.js、Python、Elixir 等环境版本统一管理
+DOMAIN,ohmyz.sh # oh-my-zsh 项目官网，提供 zsh 插件管理工具与配置模板，用于提升终端使用体验
+DOMAIN,nodejs.org # Node.js 官方网站，提供运行时环境下载、文档与 LTS 版本发布
+DOMAIN,getbootstrap.com # Bootstrap 前端框架官方网站，提供组件文档与 CSS/JS 框架资源
+DOMAIN,tailwindcss.com # Tailwind CSS 官方站点，提供原子化 CSS 框架文档与资源，适用于前端开发
+DOMAIN,editsvgcode.com # SVG 编辑与查看在线工具，支持实时修改 SVG 代码并渲染结果，常用于前端图标设计
