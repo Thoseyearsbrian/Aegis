@@ -5,7 +5,7 @@
 # - 说明：部分 Apple 上报/分析类域名已加入 Background_Block.list，行为探测域名已列入 Behavior_Block.list,广告类已加入 AdTracking_Block.list 详见最后明细
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-03
+# - 更新时间：2025-10-05
 
 # > Apple 官方 IP 地址段（全球基础设施）
 
@@ -160,3 +160,6 @@ PROCESS-NAME,syncdefaultsd # Apple iCloud 同步控制器
 DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
 DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，已停用但可能残留请求）
 DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）
+
+# >> 已列入 Proxy.list明细：
+DOMAIN,translation.apple.com # Apple 翻译主服务

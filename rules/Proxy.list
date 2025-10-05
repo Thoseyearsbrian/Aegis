@@ -4,7 +4,7 @@
 # - 特征：用于识别代理客户端、订阅 API、节点管理平台等域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-03
+# - 更新时间：2025-10-05
 
 # » 通用代理订阅平台 / 节点服务
 DOMAIN-SUFFIX,api.subs.ee // 常见订阅转换服务平台
@@ -22,6 +22,21 @@ DOMAIN,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下载、�
 DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）
 DOMAIN-SUFFIX,ocsp.digicert.com # Digicert 证书吊销检查（OCSP）
 DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国 OCSP 响应服务，用于证书撤销状态查询
+
+# Safari 翻译相关（Apple + Microsoft）
+DOMAIN,translation.apple.com       # Apple 翻译主服务
+DOMAIN,sequoia.apple.com           # 日志分析/遥测（翻译可能依赖）
+DOMAIN,xp.apple.com                # 证书/注册平台
+DOMAIN,api.cognitive.microsoft.com  # 微软翻译接口
+DOMAIN,microsofttranslator.com     # 微软翻译主域
+DOMAIN,api.translate.microsoft.com
+DOMAIN,cdn.translate.microsoft.com
+DOMAIN,edge.microsoft.com          # Edge 浏览器相关内容
+DOMAIN,translatoruser.intl.microsoft.com
+
+# Google 翻译（如你 Safari 配置中启用 Google 服务）
+DOMAIN,translate.googleapis.com
+DOMAIN,translate.google.com
 
 # » VPN / 科学上网工具相关域名
 DOMAIN-SUFFIX,getoutline.org // Outline VPN 官方域名
