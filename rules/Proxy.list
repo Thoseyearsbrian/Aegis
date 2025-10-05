@@ -4,7 +4,7 @@
 # - 特征：用于识别代理客户端、订阅 API、节点管理平台等域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-05
+# - 更新时间：2025-10-06
 
 # » 通用代理订阅平台 / 节点服务
 DOMAIN-SUFFIX,api.subs.ee // 常见订阅转换服务平台
@@ -16,7 +16,7 @@ DOMAIN-SUFFIX,cfmem.com // cfmem.com 节点分发平台
 DOMAIN-SUFFIX,nexitally.com // Nexitally 节点/订阅服务平台
 
 # >> 安全工具 / 加密服务（Security Tools / Encryption Services）
-DOMAIN,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下载、密钥同步与更新服务
+DOMAIN-SUFFIX,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下载、密钥同步与更新服务
 
 # >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
 DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）
@@ -24,19 +24,19 @@ DOMAIN-SUFFIX,ocsp.digicert.com # Digicert 证书吊销检查（OCSP）
 DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国 OCSP 响应服务，用于证书撤销状态查询
 
 # Safari 翻译相关（Apple + Microsoft）
-DOMAIN,translation.apple.com # Apple 翻译主服务
-DOMAIN,sequoia.apple.com # 日志分析/遥测（Safari翻译依赖）
-DOMAIN,xp.apple.com # 证书/注册平台
-DOMAIN,api.cognitive.microsoft.com # 微软翻译接口
-DOMAIN,microsofttranslator.com # 微软翻译主域
-DOMAIN,api.translate.microsoft.com
-DOMAIN,cdn.translate.microsoft.com
-DOMAIN,edge.microsoft.com # Edge 浏览器相关内容
-DOMAIN,translatoruser.intl.microsoft.com
+DOMAIN-SUFFIX,translation.apple.com # Apple 翻译主服务
+DOMAIN-SUFFIX,sequoia.apple.com # 日志分析/遥测（Safari翻译依赖）
+DOMAIN-SUFFIX,xp.apple.com # 证书/注册平台
+DOMAIN-SUFFIX,api.cognitive.microsoft.com # 微软翻译接口
+DOMAIN-SUFFIX,microsofttranslator.com # 微软翻译主域
+DOMAIN-SUFFIX,api.translate.microsoft.com
+DOMAIN-SUFFIX,cdn.translate.microsoft.com
+DOMAIN-SUFFIX,edge.microsoft.com # Edge 浏览器相关内容
+DOMAIN-SUFFIX,translatoruser.intl.microsoft.com
 
 # Google 翻译（如你 Safari 配置中启用 Google 服务）
-DOMAIN,translate.googleapis.com
-DOMAIN,translate.google.com
+DOMAIN-SUFFIX,translate.googleapis.com
+DOMAIN-SUFFIX,translate.google.com
 
 # » VPN / 科学上网工具相关域名
 DOMAIN-SUFFIX,getoutline.org // Outline VPN 官方域名
@@ -55,12 +55,12 @@ DOMAIN-SUFFIX,v2rayssr.com // v2ray+ssr 综合配置下载站
 # » 其他第三方托管与节点来源
 DOMAIN-SUFFIX,freefq.com // 免费节点分享网站
 DOMAIN-SUFFIX,dlj.tf // Telegram Bot 或订阅地址常见跳转域
-DOMAIN,steambroadcast.akamaized.net
-DOMAIN,steamcommunity-a.akamaihd.net
-DOMAIN,steampipe.akamaized.net
-DOMAIN,steamstore-a.akamaihd.net
-DOMAIN,steamusercontent-a.akamaihd.net
-DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN-SUFFIX,steambroadcast.akamaized.net
+DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+DOMAIN-SUFFIX,steampipe.akamaized.net
+DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
+DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,abema
@@ -7478,14 +7478,14 @@ DOMAIN-SUFFIX,lk02.fbsubcn01.pro # 代理机场相关域名，可能用于配置
 DOMAIN-SUFFIX,lk01.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,fbsubcn01.cc # 代理机场相关域名，可能用于配置拉取或节点测速
-DOMAIN,iterm2.com # macOS 平台终端模拟器 iTerm2 官方网站，提供软件下载与更新信息
-DOMAIN,asdf-vm.com # 多语言版本管理工具 asdf 官方主页，支持 Node.js、Python、Elixir 等环境版本统一管理
-DOMAIN,ohmyz.sh # oh-my-zsh 项目官网，提供 zsh 插件管理工具与配置模板，用于提升终端使用体验
-DOMAIN,nodejs.org # Node.js 官方网站，提供运行时环境下载、文档与 LTS 版本发布
-DOMAIN,getbootstrap.com # Bootstrap 前端框架官方网站，提供组件文档与 CSS/JS 框架资源
-DOMAIN,tailwindcss.com # Tailwind CSS 官方站点，提供原子化 CSS 框架文档与资源，适用于前端开发
-DOMAIN,editsvgcode.com # SVG 编辑与查看在线工具，支持实时修改 SVG 代码并渲染结果，常用于前端图标设计
+DOMAIN-SUFFIX,iterm2.com # macOS 平台终端模拟器 iTerm2 官方网站，提供软件下载与更新信息
+DOMAIN-SUFFIX,asdf-vm.com # 多语言版本管理工具 asdf 官方主页，支持 Node.js、Python、Elixir 等环境版本统一管理
+DOMAIN-SUFFIX,ohmyz.sh # oh-my-zsh 项目官网，提供 zsh 插件管理工具与配置模板，用于提升终端使用体验
+DOMAIN-SUFFIX,nodejs.org # Node.js 官方网站，提供运行时环境下载、文档与 LTS 版本发布
+DOMAIN-SUFFIX,getbootstrap.com # Bootstrap 前端框架官方网站，提供组件文档与 CSS/JS 框架资源
+DOMAIN-SUFFIX,tailwindcss.com # Tailwind CSS 官方站点，提供原子化 CSS 框架文档与资源，适用于前端开发
+DOMAIN-SUFFIX,editsvgcode.com # SVG 编辑与查看在线工具，支持实时修改 SVG 代码并渲染结果，常用于前端图标设计
 DOMAIN-SUFFIX,16map.com # 第三方地图服务平台，提供位置定位与地图嵌入服务，部分应用可能调用其进行地理位置采集
-DOMAIN,map.s-jl.com # 吉林省地图服务平台子域，提供区域地图加载与定位服务，部分本地应用或网页可能调用，建议代理直连视使用场景而定
-DOMAIN,16map.com # 第三方地图服务平台主页，提供位置定位与地图嵌入服务，涉及地理位置采集行为
-DOMAIN,api.16map.com # 第三方地图服务平台 API 接口，用于地理定位、坐标转换等数据请求，部分应用可能存在位置回传行为
+DOMAIN-SUFFIX,map.s-jl.com # 吉林省地图服务平台子域，提供区域地图加载与定位服务，部分本地应用或网页可能调用，建议代理直连视使用场景而定
+DOMAIN-SUFFIX,16map.com # 第三方地图服务平台主页，提供位置定位与地图嵌入服务，涉及地理位置采集行为
+DOMAIN-SUFFIX,api.16map.com # 第三方地图服务平台 API 接口，用于地理定位、坐标转换等数据请求，部分应用可能存在位置回传行为

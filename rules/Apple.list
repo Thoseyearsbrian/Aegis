@@ -44,7 +44,7 @@ DOMAIN-SUFFIX,gateway.icloud.com.cn # iCloud 通信中继服务（中国）
 DOMAIN-SUFFIX,appleworldwidedeveloper.hb-api.omtrdc.net # Adobe Omniture 分析平台中转（WWDC）
 DOMAIN-SUFFIX,appleworldwidedeveloper.sc.omtrdc.net # 同上，南加州节点
 DOMAIN-SUFFIX,beatselectronicsllc.tt.omtrdc.net # Beats by Dre 服务统计
-DOMAIN,appldnld.apple.com.edgesuite.net # Apple 下载边缘节点（Akamaized）
+DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net # Apple 下载边缘节点（Akamaized）
 DOMAIN-SUFFIX,e16991.b.akamaiedge.net # Akamai CDN Apple 下载节点
 DOMAIN-SUFFIX,lookup-api.apple.com.edgekey.net # DNS 加速服务节点（akamai）
 DOMAIN-SUFFIX,akadns.net # Akamai 公用 DNS
@@ -52,7 +52,7 @@ DOMAIN-KEYWORD,apple.com.akadns.net # Apple CDN DNS 加速服务
 DOMAIN-KEYWORD,apple.com.edgekey.net # Apple 边缘镜像服务（Akamai）
 DOMAIN-SUFFIX,apple-com.akamaized.net # Apple CDN 主通道
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com # Apple iCloud Relay 中继服务（Fastly）
-DOMAIN,lcdn-locator.apple.com # Apple CDN 节点定位服务
+DOMAIN-SUFFIX,lcdn-locator.apple.com # Apple CDN 节点定位服务
 DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com # Apple 软件透明性服务使用的 OHTTP 中继节点，由 Fastly 提供，承担流量混淆转发功能
 DOMAIN-SUFFIX,apple-relay.cloudflare.com # Apple 软件透明性日志服务的 Cloudflare 中继节点，用于中转日志请求与加密数据
 DOMAIN-SUFFIX,api.smoot.apple.cn # Apple 中国区透明性平台 API，可能与日志提交、软件验证或更新机制相关
@@ -71,9 +71,9 @@ DOMAIN-SUFFIX,safebrowsing.apple # Apple 安全浏览服务
 DOMAIN-SUFFIX,itunesconnect.apple.com # 开发者上传与管理平台
 DOMAIN-SUFFIX,sandbox.itunes.apple.com # 支付沙盒环境
 DOMAIN-SUFFIX,ocsp2.apple.com # Apple 安全证书验证服务（OCSP）
-DOMAIN,valid.apple.com # Apple 证书有效性验证域名（OCSP / 激活服务）
-DOMAIN,xp.apple.com  # Apple 证书验证与设备注册相关接口，可能涉及 MDM 配置与系统激活通信
-DOMAIN,kt-prod.ess.apple.com # Apple 设备安全服务域，用于设备密钥验证与安全认证流程，建议放行以确保系统功能正常
+DOMAIN-SUFFIX,valid.apple.com # Apple 证书有效性验证域名（OCSP / 激活服务）
+DOMAIN-SUFFIX,xp.apple.com  # Apple 证书验证与设备注册相关接口，可能涉及 MDM 配置与系统激活通信
+DOMAIN-SUFFIX,kt-prod.ess.apple.com # Apple 设备安全服务域，用于设备密钥验证与安全认证流程，建议放行以确保系统功能正常
 
 # > 内容服务：Apple Music / iCloud / App Store
 
@@ -87,13 +87,13 @@ DOMAIN-SUFFIX,icloud-content.com # iCloud 内容下载域名
 DOMAIN-SUFFIX,mzstatic.com # iTunes/App Store 内容分发 CDN
 DOMAIN-SUFFIX,icloud.com.cn # 中国大陆 iCloud 接入服务（云上贵州）
 PROCESS-NAME,cloudd # 云上贵州 iCloud 同步进程（本地标识）
-DOMAIN,bag.itunes.apple.com # App Store 后台内容接口（收据验证与资源调度，禁止拦截）
-DOMAIN,api.apple-cloudkit.com  # Apple CloudKit 主接口，提供 iCloud 数据同步、云存储与开发者 API 支持
-DOMAIN,setup.icloud.com # Apple iCloud 设备配置与注册入口服务，用于设备激活、iCloud 设置流程
-DOMAIN,search.itunes.apple.com # iTunes / App Store 搜索服务接口，用于在 App Store 中检索应用
-DOMAIN,amp-api-search-edge.apps.apple.com # App Store 边缘搜索 API 服务，用于提升 App 搜索响应速度  
-DOMAIN,amp-api.apps.apple.com # Apple 应用相关 API 后端服务，用于应用数据同步、更新请求等  
-DOMAIN,configuration.apple.com # Apple 设备配置服务接口，常见于 Apple Hardware / MDM /初始配置阶段
+DOMAIN-SUFFIX,bag.itunes.apple.com # App Store 后台内容接口（收据验证与资源调度，禁止拦截）
+DOMAIN-SUFFIX,api.apple-cloudkit.com  # Apple CloudKit 主接口，提供 iCloud 数据同步、云存储与开发者 API 支持
+DOMAIN-SUFFIX,setup.icloud.com # Apple iCloud 设备配置与注册入口服务，用于设备激活、iCloud 设置流程
+DOMAIN-SUFFIX,search.itunes.apple.com # iTunes / App Store 搜索服务接口，用于在 App Store 中检索应用
+DOMAIN-SUFFIX,amp-api-search-edge.apps.apple.com # App Store 边缘搜索 API 服务，用于提升 App 搜索响应速度  
+DOMAIN-SUFFIX,amp-api.apps.apple.com # Apple 应用相关 API 后端服务，用于应用数据同步、更新请求等  
+DOMAIN-SUFFIX,configuration.apple.com # Apple 设备配置服务接口，常见于 Apple Hardware / MDM /初始配置阶段
 
 # > 推送通知 / iMessage / 时间同步（系统服务）
 
@@ -101,55 +101,55 @@ DOMAIN-SUFFIX,push.apple.com # Apple 推送服务（APNS）
 DOMAIN-SUFFIX,ess.apple.com # iMessage / FaceTime 服务器
 DOMAIN-SUFFIX,time-ios.apple.com # iOS 时间同步服务（辅助）
 DOMAIN-SUFFIX,courier.push.apple.com # Apple 推送中转服务器通配
-DOMAIN,gdmf.apple.com # Apple 配置描述文件与设备管理服务（GDMF）
+DOMAIN-SUFFIX,gdmf.apple.com # Apple 配置描述文件与设备管理服务（GDMF）
 
 # > 初始配置 / 激活 / Siri（系统启动阶段）
 
 DOMAIN-SUFFIX,configuration.apple.com # 系统初始化配置服务
 DOMAIN-SUFFIX,init-p01md.apple.com # Apple 初始激活域名
-DOMAIN,configuration.ls.apple.com # Apple 启动配置服务
+DOMAIN-SUFFIX,configuration.ls.apple.com # Apple 启动配置服务
 DOMAIN-SUFFIX,guzzoni.apple.com # Siri 请求服务
-DOMAIN,init.push.apple.com # 初始推送配置服务
+DOMAIN-SUFFIX,init.push.apple.com # 初始推送配置服务
 
 # > Apple Maps 、Apple 定位服务与 JS 服务（地图定位）
 
 DOMAIN-SUFFIX,mapkitjs.apple.com # Apple MapKit JavaScript 服务
 DOMAIN-SUFFIX,cdn-apple-mapkit.com # Apple 地图 CDN 服务
-DOMAIN,gspe1-ssl.ls.apple.com,DIRECT # Apple 定位服务器
-DOMAIN,gspe1-ssl.apple.com,DIRECT # Apple 定位服务器
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,DIRECT # Apple 定位服务器
+DOMAIN-SUFFIX,gspe1-ssl.apple.com,DIRECT # Apple 定位服务器
 DOMAIN-SUFFIX,gs-loc-cn.apple.com # Apple 中国区定位服务
 DOMAIN-SUFFIX,gs-loc.apple.com # Apple 全球定位服务
-DOMAIN,gspe35-ssl.ls.apple.com # Apple 定位服务器
+DOMAIN-SUFFIX,gspe35-ssl.ls.apple.com # Apple 定位服务器
 
 # > 系统更新与描述文件（macOS Software Update Services）
 
-DOMAIN,swdist.apple.com # macOS 系统软件分发服务器
-DOMAIN,swscan.apple.com # macOS 系统更新索引服务
+DOMAIN-SUFFIX,swdist.apple.com # macOS 系统软件分发服务器
+DOMAIN-SUFFIX,swscan.apple.com # macOS 系统更新索引服务
 
 # > 实时通信遥测上报（FaceTime / iMessage / Handoff 统计）
-DOMAIN,pancake.apple.com # Apple RTC 网络质量上报服务
+DOMAIN-SUFFIX,pancake.apple.com # Apple RTC 网络质量上报服务
 PROCESS-NAME,rtcreportingd # 实时通信上报进程
 
 # > 时间同步服务（NTP）
 
-DOMAIN,time.apple.com # Apple 时间同步主服务
+DOMAIN-SUFFIX,time.apple.com # Apple 时间同步主服务
 PROCESS-NAME,timed # 系统时间同步进程
 
 # > 系统常驻组件 / 非核心服务域名
 
-DOMAIN,edge.apple # Apple Edge Cache 边缘服务域名（内容缓存 / 辅助分发）
-DOMAIN,icons.axm-usercontent-apple.com # Apple 用户内容托管（头像等）
+DOMAIN-SUFFIX,edge.apple # Apple Edge Cache 边缘服务域名（内容缓存 / 辅助分发）
+DOMAIN-SUFFIX,icons.axm-usercontent-apple.com # Apple 用户内容托管（头像等）
 PROCESS-NAME,apsd # Apple Push 相关进程（推送维持连接）
 PROCESS-NAME,locationd # Apple 定位系统核心组件
 PROCESS-NAME,syncdefaultsd # Apple iCloud 同步控制器
 
 # >> 已列入 Background_Block.list明细：
 
-# DOMAIN,sylvan.apple.com # Apple iCloud 行为遥测服务
-# DOMAIN,analytics.edge.apple # Apple 分析数据上报服务
-# DOMAIN,feedbackws.apple.com # Apple 用户反馈与错误日志上报
-# DOMAIN,crashlytics.apple.com # Apple 应用崩溃日志收集服务
-# DOMAIN,supportmetrics.apple.com # Apple 支持行为追踪接口
+# DOMAIN-SUFFIX,sylvan.apple.com # Apple iCloud 行为遥测服务
+# DOMAIN-SUFFIX,analytics.edge.apple # Apple 分析数据上报服务
+# DOMAIN-SUFFIX,feedbackws.apple.com # Apple 用户反馈与错误日志上报
+# DOMAIN-SUFFIX,crashlytics.apple.com # Apple 应用崩溃日志收集服务
+# DOMAIN-SUFFIX,supportmetrics.apple.com # Apple 支持行为追踪接口
 # DOMAIN-SUFFIX,metrics.icloud.com # Apple iCloud 使用数据分析域名
 # DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
 # DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上报接口（官方遥测）
@@ -168,5 +168,5 @@ DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期�
 
 # >> 已列入 Proxy.list明细：
 
-DOMAIN,translation.apple.com # Apple 翻译主服务
-DOMAIN,sequoia.apple.com # 日志分析/遥测（Safari翻译依赖）
+DOMAIN-SUFFIX,translation.apple.com # Apple 翻译主服务
+DOMAIN-SUFFIX,sequoia.apple.com # 日志分析/遥测（Safari翻译依赖）
