@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-04
+# - 更新时间：2025-10-05
 
 # >> 搜索引擎（Search Engines）
 DOMAIN-SUFFIX,baidu.com // 百度搜索引擎
@@ -117,3 +117,5 @@ DOMAIN-SUFFIX,sasac.gov.cn // 国务院国资委
 DOMAIN-SUFFIX,court.gov.cn // 中国法院网
 DOMAIN-SUFFIX,people.com.cn // 人民网（党媒）
 DOMAIN-SUFFIX,xinhuanet.com // 新华网（党媒）
+
+DOMAIN,ps.gaoding.com # 稿定设计平台图片处理与资源加载接口，部分网页编辑与预览功能依赖
