@@ -16,7 +16,7 @@
   <a href="https://github.com/Thoseyearsbrian/Aegis"><b>【English Documentation Here】</b></a>
 </p>
 
-一个专为 Surge 打造的高性能网络规则集，聚焦应用层与传输层防御，涵盖 DNS 污染、APT 攻击源、SDK 回传监听、后门通信、C2 控制器等潜在威胁，同时扩展至全球主流广告与追踪域名拦截，旨在实现 iOS 或 macOS 本地流量的精准识别与高效阻断。
+一个专为 Surge 精心维护的网络规则集，聚焦应用层与传输层防御，涵盖 DNS 污染、APT 攻击源、SDK 回传监听、后门通信、C2 控制器等潜在威胁，同时扩展至全球主流广告与追踪域名拦截，旨在实现 iOS 或 macOS 本地流量的精准识别与高效阻断。
 
 ## 项目背景
 
