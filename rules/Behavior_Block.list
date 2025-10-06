@@ -51,11 +51,9 @@ DOMAIN-SUFFIX,browser-intake-datadoghq.com // Datadog 监控上报域名，GPT �
 
 # >> Facebook / Branch / Snapchat 等社交平台行为接口
 DOMAIN-SUFFIX,graph.facebook.com // Facebook Graph API，行为上报接口
-DOMAIN-SUFFIX,snapkit.com // 若非主动使用 Snapchat，可屏蔽
 
 # >> Segment 行为追踪服务
 DOMAIN-SUFFIX,segment.io # 用户行为追踪服务，广泛嵌入于 App 与网页中，采集分析数据
-DOMAIN,api.segment.io # Segment 数据采集 API，发送用户操作、点击事件、设备信息等行为数据
 
 # >> Adform 行为监听器
 DOMAIN-SUFFIX,track.adform.net // Adform：广告行为监听器
@@ -132,7 +130,6 @@ DOMAIN-SUFFIX,dap.alipay.com // 支付宝数据分析与页面行为追踪域名
 # >> 知乎 Zhihu 行为分析与指纹上传域名
 DOMAIN-SUFFIX,suger.zhihu.com // 知乎行为分析与推荐系统接口
 DOMAIN-SUFFIX,udata.zhihu.com // 知乎用户数据收集接口（User Data）
-DOMAIN-SUFFIX,api.zhihu.com // App 行为与设备信息上报接口
 DOMAIN-SUFFIX,collector.zhihu.com // 行为日志采集与分析中心
 DOMAIN-SUFFIX,crash2.zhihu.com // 崩溃日志与性能监控接口（类似友盟）
 

@@ -5,7 +5,7 @@
 # - 注意：YouTube（Google）、Netflix、Disney+ 等平台已独立归类至对应模块：Google.list、Netflix.list、DisneyPlus.list
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-06
 
 # >> Amazon Prime Video
 DOMAIN-SUFFIX,primevideo.com // 亚马逊 Prime Video
@@ -16,6 +16,42 @@ DOMAIN-SUFFIX,aiv-cdn.net // Prime Video CDN
 # >> Apple TV+
 DOMAIN-SUFFIX,tv.apple.com // Apple TV+ 正式域名
 DOMAIN-SUFFIX,apple.com.edgesuite.net // Apple TV+ CDN 辅助域名
+
+# >> YouTube 服务（YouTube Services）
+DOMAIN-SUFFIX,youtube.com // YouTube 主站
+DOMAIN-SUFFIX,youtu.be // YouTube 短链
+DOMAIN-SUFFIX,ytimg.com // YouTube 静态资源
+DOMAIN-SUFFIX,yt3.ggpht.com // YouTube 用户头像资源
+DOMAIN-SUFFIX,googlevideo.com // YouTube 视频流服务
+DOMAIN-SUFFIX,findyoutube.com // 第三方 YouTube 查找服务
+DOMAIN-SUFFIX,findyoutube.net // 第三方 YouTube 查找服务
+DOMAIN-SUFFIX,freeyoutubeproxy.net // 第三方 YouTube 代理服务
+DOMAIN-SUFFIX,listentoyoutube.com // YouTube 音频转换服务
+DOMAIN-SUFFIX,withyoutube.com // 第三方 YouTube 工具集成
+DOMAIN-SUFFIX,youtube-nocookie.com // YouTube 隐私增强域（嵌入视频无Cookie）
+DOMAIN-SUFFIX,youtubecn.com // YouTube 中国镜像域（非官方）
+DOMAIN-SUFFIX,youtubeeducation.com // YouTube 教育平台
+DOMAIN-SUFFIX,youtubegaming.com // YouTube 游戏专属平台
+DOMAIN-SUFFIX,youtubekids.com // YouTube 儿童内容平台
+DOMAIN-SUFFIX,ggpht.com // YouTube / Google 服务的头像、封面与缩略图资源
+DOMAIN-SUFFIX,gstatic.com // Google 静态资源域名，含字体、JS、缓存图标等
+DOMAIN-SUFFIX,googleusercontent.com // Google/YouTube 的 CDN 内容分发与图片加载域（含 yt3、play-lh 等子域）
+
+# >> Netflix
+DOMAIN-SUFFIX,netflix.com // Netflix 全球官网与服务
+DOMAIN-SUFFIX,netflix.net // Netflix 全球视频流与 API
+DOMAIN-SUFFIX,nflximg.net // Netflix 静态资源
+DOMAIN-SUFFIX,nflxso.net // Netflix CDN 服务
+DOMAIN-SUFFIX,nflxvideo.net // Netflix 视频流分发服务
+
+# > Disney+
+DOMAIN-SUFFIX,disneyplus.com // Disney+ 主站域名
+DOMAIN-SUFFIX,dssott.com // Disney+ 媒体流服务域名
+DOMAIN-SUFFIX,bamgrid.com // Disney+ 内容传输服务域名（CDN）
+DOMAIN-SUFFIX,disney-plus.net // Disney+ 辅助登录与认证服务域名
+DOMAIN-SUFFIX,disneyhub.go.com // Disney+ 用户资料与播放数据域名
+DOMAIN-SUFFIX,edge.bamgrid.com // Disney+ 边缘服务节点域名
+DOMAIN-SUFFIX,cdn.registerdisney.go.com // Disney+ 注册服务与资源加载域名
 
 # >> Hulu
 DOMAIN-SUFFIX,hulu.com // Hulu 美国流媒体平台

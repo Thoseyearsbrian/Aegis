@@ -4,7 +4,7 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-10-03
+# - 更新时间：2025-10-06
 
 # > 通用广告追踪域名（General Ad Tracking）
 DOMAIN-SUFFIX,ads.raidrive.com # RaiDrive 软件内广告展示域，用于加载横幅与推广信息
