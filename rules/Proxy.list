@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下�
 DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）
 DOMAIN-SUFFIX,ocsp.digicert.com # Digicert 证书吊销检查（OCSP）
 DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国 OCSP 响应服务，用于证书撤销状态查询
+DOMAIN-SUFFIX,ocsp.usertrust.com # 用户信任证书状态查询服务（OCSP，UserTrust 证书吊销列表接口）
 
 # Safari 翻译相关（Apple + Microsoft）
 DOMAIN-SUFFIX,translation.apple.com # Apple 翻译主服务

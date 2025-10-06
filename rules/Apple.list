@@ -22,6 +22,8 @@ IP-CIDR,65.199.22.0/23 # Apple Relay / 配置相关段
 IP-CIDR,17.253.0.0/16 # iCloud 内容同步段
 IP-CIDR,17.250.0.0/16 # Apple Push & Activation 服务
 IP-CIDR,17.248.0.0/16 # Apple CDN 服务段
+IP-CIDR,17.253.86.211/32 # Apple 系统服务端口映射节点（Port Map 服务，可能用于远程调试或 iOS 设备端口转发）
+IP-CIDR,17.253.150.10/32 # Apple Tether 服务节点，tether.edge.apple（用于热点共享连接或设备链路控制）
 
 # > Apple 官方主域名（基础服务）
 
@@ -94,10 +96,13 @@ DOMAIN-SUFFIX,search.itunes.apple.com # iTunes / App Store 搜索服务接口，
 DOMAIN-SUFFIX,amp-api-search-edge.apps.apple.com # App Store 边缘搜索 API 服务，用于提升 App 搜索响应速度  
 DOMAIN-SUFFIX,amp-api.apps.apple.com # Apple 应用相关 API 后端服务，用于应用数据同步、更新请求等  
 DOMAIN-SUFFIX,configuration.apple.com # Apple 设备配置服务接口，常见于 Apple Hardware / MDM /初始配置阶段
+DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com # Fastly OHTTP Relay 节点，常用于 Apple Private Relay 等隐私传输服务中继
 
 # > 推送通知 / iMessage / 时间同步（系统服务）
 
 DOMAIN-SUFFIX,push.apple.com # Apple 推送服务（APNS）
+DOMAIN-SUFFIX,48-courier.push.apple.com # Apple 推送服务节点，补充匹配 DOMAIN-SUFFIX 遗漏情况
+DOMAIN-SUFFIX,45-courier.push.apple.com # Apple 推送服务节点，补充匹配 DOMAIN-SUFFIX 遗漏情况
 DOMAIN-SUFFIX,ess.apple.com # iMessage / FaceTime 服务器
 DOMAIN-SUFFIX,time-ios.apple.com # iOS 时间同步服务（辅助）
 DOMAIN-SUFFIX,courier.push.apple.com # Apple 推送中转服务器通配
