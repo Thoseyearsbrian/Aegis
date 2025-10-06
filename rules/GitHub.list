@@ -35,6 +35,3 @@ DOMAIN-SUFFIX,github.io // GitHub Pages 静态站点托管域名（可设 CDN �
 DOMAIN-SUFFIX,recloudstream.github.io // CloudStream 项目 Github Pages 托管
 DOMAIN-SUFFIX,rawgithub.com # 第三方 GitHub Raw 文件镜像站（非官方，存在安全隐患）
 DOMAIN-SUFFIX,githubmemory.com # GitHub issues & discussions 社区镜像服务（非官方工具，可能存在缓存）
-
-# > GitHub 可能使用的 IP 段（可选，动态变化频繁，不建议静态封锁）
-IP-ASN,36459 // GitHub ASN（AS36459 - GitHub, Inc.）
