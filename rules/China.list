@@ -12,6 +12,7 @@ DOMAIN,mp.weixin.qq.com # 微信公众平台，主要用于公众号内容加载
 DOMAIN,es.wx.qq.com # 微信安全检测与状态验证接口
 DOMAIN,badjs.weixinbridge.com  # 微信小程序错误日志收集平台（BadJS 行为分析）
 DOMAIN,dns.weixin.qq.com.cn # 微信专用 DNS 解析节点（可能用于绕过系统 DNS）
+DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com # 腾讯安全浏览服务域名，用于检测钓鱼网站、恶意链接等内容威胁（多用于 QQ 浏览器与微信内置浏览器）
 
 # » 微信 mmtls 加密通信节点（疑似行为分析与设备指纹上报通道）
 IP-CIDR,180.101.242.227 # MMTLS 通信节点，微信加密通道（多次出现）
