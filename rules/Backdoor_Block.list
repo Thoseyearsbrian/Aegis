@@ -10,7 +10,3 @@ DOMAIN-SUFFIX,topmicrosoftmarketing.com // 疑似仿冒微软营销域名，疑�
 DOMAIN-SUFFIX,intanschools.py628fxjlk-gok67gvk2652.p.temp-site.link // 一次性临时域名，疑似远控或恶意落地页
 DOMAIN-SUFFIX,dscriy.chtq.net // chtq.net 下级域名，疑似恶意指令控制节点
 DOMAIN-SUFFIX,cybaq.chtq.net // 与上域名同源，疑似僵尸网络或APT测试指令服务
-IP-CIDR,183.60.123.112/32 // 腾讯云节点，疑似 SDK 监听或灰产心跳
-IP-CIDR,183.60.123.0/24 // 持续连接、反复重连，疑似后门行为
-IP-CIDR,101.91.37.18/32 // 8080 端口通信，疑似代理/命令下发服务器
-IP-CIDR,117.89.176.31/32 // 江苏电信认证服务接口，使用 HTTP 明文通信，存在信息泄露与劫持风险
