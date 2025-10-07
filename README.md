@@ -16,7 +16,7 @@
   <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-CN/README.md"><b>【中文文档点此进入】</b></a>
 </p>
 
-A meticulously maintained rule set for Surge, focused on application- and transport-layer defense. It blocks DNS poisoning, APT infrastructure, SDK telemetry, backdoor traffic, and global tracking domains — enabling precise, verifiable, and privacy-focused local traffic filtering for iOS and macOS.
+A security ruleset meticulously maintained for Surge, focused on application- and transport-layer defense. It blocks DNS poisoning, APT infrastructure, SDK telemetry, backdoor traffic, and global tracking domains — enabling precise, verifiable, and privacy-focused local traffic filtering for iOS and macOS.
 
 ## **Project Background**
 
