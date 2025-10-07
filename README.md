@@ -18,7 +18,7 @@
 
 A network security ruleset meticulously maintained for Surge, focused on application- and transport-layer defense. It blocks DNS poisoning, APT infrastructure, SDK telemetry, backdoor traffic, and global tracking domains — enabling precise, verifiable, and privacy-focused local traffic filtering for iOS and macOS.
 
-## **Project Background**
+## **Overview**
 
 [Aegis](https://github.com/Thoseyearsbrian/Aegis) is a fully individually maintained network security rule set focused on defending against modern network-layer threats. It aims to help global users build localized and efficient defense systems. The project blocks DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, and C2 controllers, and further extends coverage to major global ad and tracking domains, enabling precise local traffic identification and efficient interception. It also includes rules for multiple high-risk attack sources worldwide, including infrastructure and behavioral signatures related to Pegasus spyware.
 
