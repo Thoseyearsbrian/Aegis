@@ -333,9 +333,9 @@ DOMAIN-SUFFIX,152media.com # 第三方广告投放域名，用于 JS 插件式�
 DOMAIN-SUFFIX,153c349024.com # 程序化广告平台域名，用于插屏广告资源加载与行为统计
 DOMAIN-SUFFIX,1548164934.rsc.cdn77.org # 第三方 CDN 广告资源分发域，用于视频与插屏广告加载
 DOMAIN-SUFFIX,15752525.xyz # 垃圾广告跳转中继域，用于诱导跳转与插码行为，已多次被拦截记录
-DOMAIN-SUFFIX,15946bfe8d.com # 垃圾追踪域，用于广告脚本跳转与数据回传，随机注册域名，建议封锁
-DOMAIN-SUFFIX,15gga.com # 中继广告跳转域，用于加载广告脚本与诱导跳转行为，疑似恶意用途，建议封锁
-DOMAIN-SUFFIX,16211973.xyz # 广告中继域名，用于跳转链构建与页面注入行为，常见于低质广告联盟，建议封锁
+DOMAIN-SUFFIX,15946bfe8d.com # 垃圾追踪域，用于广告脚本跳转与数据回传，随机注册域名
+DOMAIN-SUFFIX,15gga.com # 中继广告跳转域，用于加载广告脚本与诱导跳转行为，疑似恶意用途
+DOMAIN-SUFFIX,16211973.xyz # 广告中继域名，用于跳转链构建与页面注入行为，常见于低质广告联盟
 DOMAIN-SUFFIX,16327739.xyz # 广告跳转域名，具批量注册与多层重定向特征
 DOMAIN-SUFFIX,1668420cbb.com # 广告跳转域名，批量注册用于页面重定向
 DOMAIN-SUFFIX,1675450967.rsc.cdn77.org # 广告资源分发节点，用于动态素材加载
@@ -401,24 +401,21 @@ DOMAIN-SUFFIX,1c0c3fde9d.com # 被多个规则集封锁，疑似广告脚本域�
 DOMAIN-SUFFIX,1c6fd11ca2.com # 广告 / 跳转用途域名，常见于 SDK 调用链
 DOMAIN-SUFFIX,1fcf60d54c.com # 可疑广告跳转域名，待验证行为特征
 DOMAIN-SUFFIX,1fd92n6t8.de # 可疑广告 / 跳转域名，结构异常
-DOMAIN-SUFFIX,1fims.com # 可疑域名，尚无公开情报，建议观察
 DOMAIN-SUFFIX,1fkx796mw.com # 可疑广告 / 跳转域名，命名混淆
 DOMAIN-SUFFIX,1fwjpdwguvqs.com # 欺诈行为域名，Malwarebytes 列为 Fraud 拦截对象
 DOMAIN-SUFFIX,1g46ls536.de # 已被 AdGuard 过滤，疑似广告追踪域名
-DOMAIN-SUFFIX,1gbjadpsq.de # 被广告过滤规则集包含，建议封锁
+DOMAIN-SUFFIX,1gbjadpsq.de # 被广告过滤规则集包含
 DOMAIN-SUFFIX,1hkmr7jb0.de # 被广告规则列入目标域名，风险较高
-DOMAIN-SUFFIX,1i8c0f11.de # 被列为广告 / 跟踪节点，建议封锁
+DOMAIN-SUFFIX,1i8c0f11.de # 被列为广告 / 跟踪节点
 DOMAIN-SUFFIX,1igare0jn.de # 在 AdGuard 过滤集中，疑似广告脚本域名
 DOMAIN-SUFFIX,1itot7tm.de # 可疑跳转 / 广告节点域名
 DOMAIN-SUFFIX,1j5syuz0.xyz # 纯数字+随机字符 .xyz 域，广告 / 跳转可疑
-DOMAIN-SUFFIX,1j771bhgi.de # 随机字符域名，行为未知，建议观察
 DOMAIN-SUFFIX,1jpbh5iht.de # 广告中转 / 跳转性质域名
 DOMAIN-SUFFIX,1jutu5nnx.com # 可疑广告 / 跳转用途域名
 DOMAIN-SUFFIX,1k0ed0c7.xyz # 多处广告过滤规则包含，疑似广告域
 DOMAIN-SUFFIX,1knhg4mmq.de # 隐匿式广告 / 跳板性质域名
 DOMAIN-SUFFIX,1lbk62l5c.de # 中间跳转 / 嵌入脚本用途可疑域名
 DOMAIN-SUFFIX,1lj11b2ii.de # 可疑广告跳转域名，结构混淆特征
-DOMAIN-SUFFIX,1lzz.com # 简短域名，可能被用于跳转 / 掩盖用途，建议观察
 DOMAIN-SUFFIX,1m72cfole.de # 可疑广告跳转域名，结构混淆，疑似流量劫持用途
 DOMAIN-SUFFIX,1mrmsp0ki.de # 随机字符伪装域名，多现于广告中转与伪装脚本
 DOMAIN-SUFFIX,1nfltpsbk.de # 德国托管伪装域名，广告监测与跳转接口特征
@@ -442,7 +439,7 @@ DOMAIN-SUFFIX,1ts03.top # 顶级可疑广告中转域名，历史用于欺诈下
 DOMAIN-SUFFIX,1ts07.top # 可疑跳转域名，用于欺诈内容或广告重定向
 DOMAIN-SUFFIX,1ts11.top # 同源变种域名，疑似程序化广告投放节点
 DOMAIN-SUFFIX,1ts17.top # 连续编号跳转平台，含多起恶意推广记录
-DOMAIN-SUFFIX,1ts19.top # 与上列同源，典型垃圾跳转域名，建议封锁
+DOMAIN-SUFFIX,1ts19.top # 连续编号跳转平台，含多起恶意推广记录
 DOMAIN-SUFFIX,1web.me # 页面注入脚本来源，用于网页广告加载与行为收集
 DOMAIN-SUFFIX,1wincdn.b-cdn.net # 来自 BunnyCDN，托管博彩广告内容与脚本服务
 DOMAIN-SUFFIX,1winpb.com # 博彩广告平台主域，常嵌入视频页与弹窗页
@@ -554,7 +551,6 @@ DOMAIN-SUFFIX,2beno.com # 短域名可用于广告重定向 / 推广
 DOMAIN-SUFFIX,2bps53igop02.com # 随机生成域名，用于脚本注入或资源调用  
 DOMAIN-SUFFIX,2c4rrl8pe.de # 德国注册广告跳转域名  
 DOMAIN-SUFFIX,2c5d30b6f1.com # 哈希式域名，常见于广告素材分发  
-DOMAIN-SUFFIX,2cba2742a4.com # 可疑域名，行为未明确，建议观察并封锁  
 DOMAIN-SUFFIX,2cjlj3c15.de # 隐匿广告域名，中转跳板性质明显  
 DOMAIN-SUFFIX,2cnjuh34jbman.com # 被 MalwareURL 列为恶意 / 广告域名  
 DOMAIN-SUFFIX,2cnjuh34jbstar.com # 出现在 AdGuard 过滤规则中，疑为广告域名  
@@ -595,13 +591,10 @@ DOMAIN-SUFFIX,2m3gdt0gc.de # DNS 流量中频繁出现，行为上疑似广告�
 DOMAIN-SUFFIX,2m55gqleg.de # 随机化域名结构，疑似广告资源加载节点  
 DOMAIN-SUFFIX,2mdn-cn.net # Google 旗下广告资源投放域名  
 DOMAIN-SUFFIX,2mdn.net # Google DoubleClick 广告媒体资源加载主域名  
-DOMAIN-SUFFIX,2merkato.com # 域名为商业资讯平台，未见广告行为情报，建议删除  
 DOMAIN-SUFFIX,2mf9kkbhab31.com # 出现在 DNS 污染样本中，疑似广告或钓鱼中继  
 DOMAIN-SUFFIX,2mg2ibr6b.de # 德国节点跳转域名，疑似广告用途  
 DOMAIN-SUFFIX,2mke5l187.de # 短期活跃的混淆跳转域名，存在广告活动记录  
-DOMAIN-SUFFIX,2mo3neop.de # 无法解析出行为记录，未见广告情报，建议删除  
 DOMAIN-SUFFIX,2nn7r6bh1.de # DNS 层可见跳转行为，疑似广告载体  
-DOMAIN-SUFFIX,2oceansvibe.com # 南非媒体网站主域名，未见广告中转行为，建议删除  
 DOMAIN-SUFFIX,2om93s33n.de # 出现在广告跟踪样本中，有明确注入行为  
 DOMAIN-SUFFIX,2p1kreiqg.de # 可疑跳转节点，行为特征指向广告追踪脚本  
 DOMAIN-SUFFIX,2pc6q54ga.de # DNS 层被拦截，含广告重定向特征  
@@ -611,7 +604,6 @@ DOMAIN-SUFFIX,2re6rpip2.de # 可疑跳转 / 广告中转域名
 DOMAIN-SUFFIX,2rlgdkf7s.de # 随机字符广告域名  
 DOMAIN-SUFFIX,2rmifan7n.de # 广告跳转 / 资源加载用途域名  
 DOMAIN-SUFFIX,2s02keqc1.com # 可疑广告跳转域名  
-DOMAIN-SUFFIX,2s2enegt0.de # 混淆结构域名，尚无公开广告情报，建议删除  
 DOMAIN-SUFFIX,2smarttracker.com # 跟踪 / 统计服务域名 (确认广告用途)  
 DOMAIN-SUFFIX,2spdo6g9h.de # 德国注册广告跳转域名  
 DOMAIN-SUFFIX,2t4f7g9a.de # 随机化广告资源域名  
@@ -620,7 +612,6 @@ DOMAIN-SUFFIX,2tfg9bo2i.de # 广告 / 跳转域名
 DOMAIN-SUFFIX,2tlc698ma.de # 程序化广告接口域名  
 DOMAIN-SUFFIX,2tq7pgs0f.de # 隐蔽广告跳转节点域名  
 DOMAIN-SUFFIX,2track.info # 频繁出现重定向 / 恶意广告跳转域名 
-DOMAIN-SUFFIX,2ts55ek00.de # 可疑域名，尚无公开证据，建议删除  
 DOMAIN-SUFFIX,2watchmygf.com # 成人 / 跳转广告域名  
 DOMAIN-SUFFIX,2wu0m0ms098w7148.xyz # 哈希式广告 / 跳转域名  
 DOMAIN-SUFFIX,301redirect.site # 重定向服务域名 (确认广告用途)  
@@ -632,7 +623,6 @@ DOMAIN-SUFFIX,30d5shnjq.de # 随机结构域名，常用于程序化广告接口
 DOMAIN-SUFFIX,30e4a37eb7.com # 哈希式域名，疑似广告网络调用节点  
 DOMAIN-SUFFIX,30e7ff2c41.com # 可疑广告流量接入点，结构符合广告脚本调用特征  
 DOMAIN-SUFFIX,30hccor10.de # 混淆结构，疑似广告重定向节点  
-DOMAIN-SUFFIX,30koqnlks.de # 随机字符组合，广告追踪用途可能，建议保留观察  
 DOMAIN-SUFFIX,30m4hpei1.de # 重定向平台常见格式，疑似广告用途  
 DOMAIN-SUFFIX,30p70ar8m.de # 可疑跳转中继节点域名  
 DOMAIN-SUFFIX,30pk41r1i.de # 隐蔽式广告平台节点域名  
@@ -688,7 +678,6 @@ DOMAIN-SUFFIX,38835571.xyz # 数字型广告 / 跳转域名
 DOMAIN-SUFFIX,388533c5eb.com # 哈希型广告接口节点  
 DOMAIN-SUFFIX,3890e014d2.com # 混淆广告 / 跳转域名  
 DOMAIN-SUFFIX,38941752.xyz # 可疑数字广告跳转域名  
-DOMAIN-SUFFIX,38ds89f8.de # 德国节点混淆域名，未见公开广告情报，建议删除  
 DOMAIN-SUFFIX,38g2n1ww.icu # .icu 类型广告 / 跳转域名常见  
 DOMAIN-SUFFIX,38hgc.com # 短域名可能用于广告跳转 / 资源调用  
 DOMAIN-SUFFIX,3936fb9cdf.com # 哈希式广告 / 脚本调用节点  
@@ -722,7 +711,6 @@ DOMAIN-SUFFIX,3ng6p6m0.de # 混淆广告跳转域名
 DOMAIN-SUFFIX,3pkf5m0gd.com # 哈希式广告 / 跳转用途域名  
 DOMAIN-SUFFIX,3prn.com # 成人 / 广告跳转网站主域名   
 DOMAIN-SUFFIX,3redlightfix.com # 广告 / 跳转用途域名  
-DOMAIN-SUFFIX,3vetz.com # 未见广告情报，疑为合法站点，建议删除  
 DOMAIN-SUFFIX,3wr110.net # 可疑中继域名，用于流量重定向  
 DOMAIN-SUFFIX,3xplanetimg2.com # 媒体 / 图片 CDN 域名，未确认广告用途  
 DOMAIN-SUFFIX,3xtraffic.com # 已知广告流量追踪域名（列入广告域名列表）  
@@ -762,7 +750,6 @@ DOMAIN-SUFFIX,459b6951ca.com # 哈希结构域名，广告行为特征明显
 DOMAIN-SUFFIX,45cb7b8453.com # 可疑广告 / 跳转域名  
 DOMAIN-SUFFIX,45f467a9d4.com # 哈希结构域名，广告用途可能  
 DOMAIN-SUFFIX,460e19ebd6.com # 出现在 AdGuard 过滤规则中，确认广告用途  
-DOMAIN-SUFFIX,46186911.vtt # 媒体格式后缀域名，未见广告情报，建议删除  
 DOMAIN-SUFFIX,4690y10pvpq8.com # 混淆广告网络域名  
 DOMAIN-SUFFIX,46a30abd78.com # 出现在 AdGuard 过滤规则，确认广告用途  
 DOMAIN-SUFFIX,46f4vjo86.com # 出现在过滤规则集中，广告用途明确  
@@ -770,7 +757,6 @@ DOMAIN-SUFFIX,479d24d9fd.com # 出现在 AdGuard 过滤规则中，确认广告�
 DOMAIN-SUFFIX,47c50e31a9.com # 出现在过滤规则集，广告 / 跳转用途明确  
 DOMAIN-SUFFIX,47cb693fa6.com # 出现在过滤规则中，广告用途确认  
 DOMAIN-SUFFIX,47f0db81c9.com # 出现在过滤规则中，广告用途确认  
-DOMAIN-SUFFIX,481516ca1d.com # 未见公开广告情报，建议删除  
 DOMAIN-SUFFIX,48304789.xyz # 可疑数字跳转域名  
 DOMAIN-SUFFIX,484l.com # 短小域名，广告跳转可能性高  
 DOMAIN-SUFFIX,487ed86ea3.com # 哈希式结构域名，广告 / 重定向特征明显  
@@ -820,13 +806,10 @@ DOMAIN-SUFFIX,4link.it # “4link” 名称常见于营销 / 广告平台
 DOMAIN-SUFFIX,4m4ones1q.com # 哈希 / 跳转类型域名  
 DOMAIN-SUFFIX,4p74i5b6.de # 德国节点广告跳转域名  
 DOMAIN-SUFFIX,4rabettraff.com # “traff” 显示为流量 / 广告中继用途  
-DOMAIN-SUFFIX,4rfv.co.uk # 未见广告情报，建议删除  
 DOMAIN-SUFFIX,4tr3sopq592o7svp1q6mn3.xyz # 超长混淆域名，用于跳转 / 植入广告脚本  
 DOMAIN-SUFFIX,4tube.com # 成人视频网站主域，含广告服务接口  
 DOMAIN-SUFFIX,4wank.com # 成人 / 跳转广告网站域名  
-DOMAIN-SUFFIX,4wank.net # 同上成人 / 跳转用途域名  
-DOMAIN-SUFFIX,4wnet.com # 网络 / 云服务域名，未见广告情报，建议删除  
-DOMAIN-SUFFIX,4wnetwork.com # 网络服务名称域名，未见广告用途，建议删除  
+DOMAIN-SUFFIX,4wank.net # 同上成人 / 跳转用途域名   
 DOMAIN-SUFFIX,502ac4420f.com # 哈希广告 / 跳转节点域名  
 DOMAIN-SUFFIX,50368ce0a6.com # 隐匿广告 / 跳转用途域名  
 DOMAIN-SUFFIX,50873vmk3263-7sk.xyz # 混淆哈希域名，用于广告加载 / 跳转  
@@ -907,7 +890,6 @@ DOMAIN-SUFFIX,5o8aj5nt.de # 德国节点广告跳转用途域名
 DOMAIN-SUFFIX,5toft8or7on8tt.com # 长串混淆域名，广告跳转可能性高  
 DOMAIN-SUFFIX,5vbs96dea.com # 随机哈希域名，疑似广告 / 跳转用途  
 DOMAIN-SUFFIX,5vpbnbkiey24.com # 混淆结构，广告调用可能性大  
-DOMAIN-SUFFIX,5wuefo9haif3.com # 无公开广告情报，建议删除  
 DOMAIN-SUFFIX,5wzgtq8dpk.com # 混淆广告 / 跳转中继域名  
 DOMAIN-SUFFIX,5xd3jfwl9e8v.com # 随机哈希域名，常见于广告素材分发  
 DOMAIN-SUFFIX,5xp6lcaoz.com # 广告跳转 / 跳板节点域名  
@@ -942,7 +924,6 @@ DOMAIN-SUFFIX,65122038.xyz # 可疑跳转广告域名
 DOMAIN-SUFFIX,6570131a3f.com # 混淆广告 / 跳转用途域名  
 DOMAIN-SUFFIX,65894140.xyz # 数字域名，广告跳转可能性高  
 DOMAIN-SUFFIX,65a16dd098.com # 哈希结构域名，广告 / 脚本用途
-DOMAIN-SUFFIX,65spy7rgcu.com # 未见广告情报，建议删除  
 DOMAIN-SUFFIX,65wenv5f.xyz # 可疑广告 / 跳转用途域名  
 DOMAIN-SUFFIX,6657e4f5c2.com # 哈希式广告节点 / 跳转用途域名  
 DOMAIN-SUFFIX,666777888abc.com # 哈希 / 混淆广告域名，出现在 AdGuard 过滤规则  
@@ -1109,7 +1090,7 @@ DOMAIN-SUFFIX,88cb0eb486.com # 已记录用于广告加载脚本传输
 DOMAIN-SUFFIX,88d3a9a9a1.com # 明确为广告数据回传域名  
 DOMAIN-SUFFIX,88d7b6aa44fb8eb.com # 广告平台生成域名，确认追踪用途  
 DOMAIN-SUFFIX,88ddebd3d3.com # 程序化广告相关接口域名  
-DOMAIN-SUFFIX,88eq7spm.de # 可疑广告中转节点，具跳转行为，建议保留观察    
+DOMAIN-SUFFIX,88eq7spm.de # 可疑广告中转节点，具跳转行为
 DOMAIN-SUFFIX,89sa.com # 可疑跳转域名，存在历史广告劫持行为  
 DOMAIN-SUFFIX,8a41766c30.com # 哈希结构广告脚本接口域名  
 DOMAIN-SUFFIX,8a53b29c07.com # 已发现广告平台调用行为  
@@ -1136,7 +1117,7 @@ DOMAIN-SUFFIX,8ffea74ec5.com # 被用于广告平台数据传输
 DOMAIN-SUFFIX,8muses.com # 成人内容站点，含大量第三方广告追踪代码  
 DOMAIN-SUFFIX,8nximzje.xyz # 疑似程序化广告跳转页，暂无确切证据  
 DOMAIN-SUFFIX,8po6fdwjsym3.com # 哈希结构域名，疑似广告脚本分发平台  
-DOMAIN-SUFFIX,8s32e590un.com # 广告平台接口调用记录明确，建议收录  
+DOMAIN-SUFFIX,8s32e590un.com # 广告平台接口调用记录明确
 DOMAIN-SUFFIX,8s5s.com # 存在广告跳转与跟踪行为，已确认广告用途  
 DOMAIN-SUFFIX,8wtkfxiss1o2.com # 行为特征疑似广告跳转，但暂无确切记录  
 DOMAIN-SUFFIX,900bets10.com # 博彩平台域名，含广告推广与追踪脚本  
@@ -1173,7 +1154,7 @@ DOMAIN-SUFFIX,97ce98c219.com # 广告平台中转节点域名
 DOMAIN-SUFFIX,97e7f92376.com # 确认用于广告脚本加载  
 DOMAIN-SUFFIX,9832d75ae3.com # 确认广告行为，常用于跳转路径  
 DOMAIN-SUFFIX,9862271b2d.com # 哈希结构域名，存在广告接口调用行为  
-DOMAIN-SUFFIX,987f9e203d.com # 哈希式结构域名，疑似广告中转接口，建议保留   
+DOMAIN-SUFFIX,987f9e203d.com # 哈希式结构域名，疑似广告中转接口
 DOMAIN-SUFFIX,9891a36e37.com # 程序化广告平台使用域名，存在脚本植入行为  
 DOMAIN-SUFFIX,98cbb83e14.com # 广告追踪使用域名，存在广告SDK调用记录  
 DOMAIN-SUFFIX,990828ab3d.com # 哈希结构域名，已用于广告跳转落地页  
@@ -1284,7 +1265,6 @@ DOMAIN-SUFFIX,aaa.vidox.net # vidox.net 被识为浏览器劫持 / 弹窗广告�
 DOMAIN-SUFFIX,aaa8f4d18b.com # 哈希结构域名，可用于广告资源分发  
 DOMAIN-SUFFIX,aaaaaco.com # 短域名，可用于跳转或广告用途  
 DOMAIN-SUFFIX,aaaacdn.com # CDN 命名风格广告素材分发可能性高  
-DOMAIN-SUFFIX,aaacompany.net # 通用公司域名风格，未见广告用途情报，建议删除  
 DOMAIN-SUFFIX,aab.taboohome.com # 子域广告用途可能，未见确切情报  
 DOMAIN-SUFFIX,aabproxydomaintests.top # “proxy” + “tests” 命名，跳转 / 测试接口可能，未见情报  
 DOMAIN-SUFFIX,aabproxytests.top # 与上条同源可能性高，命名测试接口域名  
@@ -1439,12 +1419,12 @@ DOMAIN-SUFFIX,activate-game.com # 疑似盗版游戏激活页面，存在广告�
 DOMAIN-SUFFIX,activatormanorplausible.com # 可疑自动生成域名，关联跳转行为   
 DOMAIN-SUFFIX,activedancer.com # 色情广告平台域名，含跟踪脚本和推广链接  
 DOMAIN-SUFFIX,activejavgg124.fun # 明确用于色情广告页面跳转与追踪行为  
-DOMAIN-SUFFIX,activelymoonlight.com # 混淆式域名，结构与广告平台一致，建议保留观察  
+DOMAIN-SUFFIX,activelymoonlight.com # 混淆式域名，结构与广告平台一致
 DOMAIN-SUFFIX,activelysmileintimate.com # 高风险组合词域名，常见于广告重定向中  
 DOMAIN-SUFFIX,activepoststale.com # 可疑站群自动生成域名，疑似跳转广告落地页  
 DOMAIN-SUFFIX,actpx.com # 广告追踪域名，用于点击监控与重定向  
 DOMAIN-SUFFIX,actressdoleful.com # 色情广告中继域名，曾被用于流量投放  
-DOMAIN-SUFFIX,actrkn.com # 短链形式域名，可能涉及广告跳转，建议保留观察  
+DOMAIN-SUFFIX,actrkn.com # 短链形式域名，可能涉及广告跳转
 DOMAIN-SUFFIX,actscattydecode.com # 结构高度混淆，行为指向广告跳转用途  
 DOMAIN-SUFFIX,acuerdobedight.life # .life后缀+奇异结构，疑似投放用广告域名  
 DOMAIN-SUFFIX,acufjnlheepma.website # 可疑自动生成域名，用于程序化广告或恶意跳转  
@@ -2067,10 +2047,6 @@ DOMAIN-SUFFIX,adtegrity.net # Adtegrity 广告平台公司域名，具广告服�
 DOMAIN-SUFFIX,adtelligent.com # Adtelligent 广告平台域名，有公开广告业务  
 DOMAIN-SUFFIX,adteractive.com # 广告 / 互动广告平台域名  
 DOMAIN-SUFFIX,adthrive.com # AdThrive 广告网络域名，具广告服务用途  
-DOMAIN-SUFFIX,adtival.com # 广告平台域名（未见公开行为情报），建议删除  
-DOMAIN-SUFFIX,adtival.network # 同上，网络变种域名，未见广告情报，建议删除  
-DOMAIN-SUFFIX,adtlgc.com # 广告 / 网络技术域名 (未查到确凿证据)  
-DOMAIN-SUFFIX,adtng.com # 广告 / 网络域名 (未查到确凿证据)  
 DOMAIN-SUFFIX,adtoma.com # 广告追踪 / 媒体优化域名  
 DOMAIN-SUFFIX,adtotal.pl # 广告平台 / 总投放域名  
 DOMAIN-SUFFIX,adtpix.com # 广告像素 / 跟踪域名  
@@ -2104,7 +2080,6 @@ DOMAIN-SUFFIX,adultsense.com # 广告服务平台主域，含广告回传与素�
 DOMAIN-SUFFIX,adultsense.net # 广告平台域名，用于广告展示与数据回传  
 DOMAIN-SUFFIX,adultsense.org # 广告网络域名，与 adultsense.com 同一系统  
 DOMAIN-SUFFIX,adultsjuniorfling.com # 成人交友 / 广告推广站点  
-DOMAIN-SUFFIX,adultswim.com # 正式动画 / 媒体平台，未见广告服务器用途，建议删除  
 DOMAIN-SUFFIX,adup-tech.com # 广告 / 推广技术服务域名  
 DOMAIN-SUFFIX,adv-adserver.com # 广告服务器域名，包含广告分发功能  
 DOMAIN-SUFFIX,advancedadblocker.pro # 启用“广告屏蔽”字样域名，可能为反屏蔽工具或诱导站点  
@@ -2161,13 +2136,11 @@ DOMAIN-SUFFIX,advisedlycourier.com # 广告 / 跳转用途域名
 DOMAIN-SUFFIX,advisedwhenever.com # 广告 / 推广用途域名  
 DOMAIN-SUFFIX,adviseshakethrilled.com # 广告 / 营销用途域名  
 DOMAIN-SUFFIX,advisorthrowbible.com # 广告 / 推广用途域名  
-DOMAIN-SUFFIX,adviva.net # 未见公开广告情报，建议删除  
 DOMAIN-SUFFIX,advmaker.ru # 俄罗斯广告网络 Advmaker 平台域名  
 DOMAIN-SUFFIX,advmaker.su # 同属 Advmaker 系列广告网络域名  
 DOMAIN-SUFFIX,advmd.com # 可疑广告 / 跳转域名  
 DOMAIN-SUFFIX,advmedialtd.com # 广告媒体公司域名，存在广告接口用途  
 DOMAIN-SUFFIX,advmonie.com # 可疑广告跳转域名  
-DOMAIN-SUFFIX,advocate420.fun # 未见广告情报，建议删除  
 DOMAIN-SUFFIX,advombat.ru # 可疑广告域名  
 DOMAIN-SUFFIX,advon.net # 可疑广告 / 跳转用途域名  
 DOMAIN-SUFFIX,advotionhot.com # 可疑域名，含 “adv” 前缀，疑似广告用途  
@@ -2408,7 +2381,6 @@ DOMAIN-SUFFIX,aidsatsoung.net # 混淆域名结构，可疑广告用途
 DOMAIN-SUFFIX,aidsgeodist.com # 地理分发 / 跟踪名称暗示用途，可能广告  
 DOMAIN-SUFFIX,aiflxsntchukk.space # 随机字符域名，可疑跳转 / 广告用途  
 DOMAIN-SUFFIX,aifmpdaqommzn.store # 商用后缀域名，可能电商 / 广告用途  
-DOMAIN-SUFFIX,aifolr.com # 短域名结构，不确定用途，建议删除  
 DOMAIN-SUFFIX,aifteerdaiglu.com # 混淆域名，广告 / 跳转用途可能  
 DOMAIN-SUFFIX,aigaithojo.com # 混淆结构域名，猜为广告用途  
 DOMAIN-SUFFIX,aigeersoagay.net # 包含 “gay” 等成人关键词，高风险广告关联  
@@ -2461,7 +2433,6 @@ DOMAIN-SUFFIX,aj2550.bid # 可疑广告 / 跳转域名
 DOMAIN-SUFFIX,aj2555.bid # 可疑广告跳转域名  
 DOMAIN-SUFFIX,aj2635.bid # 可疑广告中转域名  
 DOMAIN-SUFFIX,ajcafpjuhur.xyz # 随机化广告跳转域名  
-DOMAIN-SUFFIX,ajdmejdqgf.com # 混淆结构域名，未见广告情报，建议 delete  
 DOMAIN-SUFFIX,ajecnqdbdef.com # 哈希式域名，疑似广告或资源中继  
 DOMAIN-SUFFIX,ajewzcsnmnjex.site # 混淆跳转域名，可能用于广告诱导  
 DOMAIN-SUFFIX,ajfnee.com # 简短域名，可能用于广告跳转，建议监控  
@@ -2634,7 +2605,6 @@ DOMAIN-SUFFIX,amfgozboqtpjf.online # 可疑广告 / 跳转域名
 DOMAIN-SUFFIX,amfzugolptnpo.space # 可疑广告 / 跳转域名  
 DOMAIN-SUFFIX,amgdgt.com # 出现在 AdGuard 过滤规则集，广告 / 跳转域名  
 DOMAIN-SUFFIX,amiabledelinquent.com # 广告 / 跳转域名（urlscan 多次扫描记录）  
-DOMAIN-SUFFIX,amicoustubular.rest # 随机域名结构，未见公开广告情报，建议删除  
 DOMAIN-SUFFIX,amicronpile.shop # 可疑广告 / 跳转域名  
 DOMAIN-SUFFIX,amididsodaic.cfd # 可疑广告 / 跳转域名  
 DOMAIN-SUFFIX,amidotringle.click # .click 后缀易用于广告跳转，疑似广告用途  
@@ -2853,8 +2823,7 @@ DOMAIN-SUFFIX,ar.lesbianbliss.com # 成人 / 情感广告域名，确认广告�
 DOMAIN-SUFFIX,ar.thepornstar.com # 成人内容域名，含广告营销 / 情色推广  
 DOMAIN-SUFFIX,arabycestida.click # “cestida” 类拼写误导域名，疑似广告诱导  
 DOMAIN-SUFFIX,arainscranet.click # 可疑广告 / 跳转域名  
-DOMAIN-SUFFIX,arakcdn.com # CDN 样式域名，可能用于广告资源分发  
-DOMAIN-SUFFIX,aralego.com # 未见广告情报，建议删除  
+DOMAIN-SUFFIX,arakcdn.com # CDN 样式域名，可能用于广告资源分发   
 DOMAIN-SUFFIX,aralomomolachan.com # 组合色情 / 营销域名，含推广性质  
 DOMAIN-SUFFIX,arbiscan.io # 跟踪 / 扫描性质域名，存在被用于广告监测可能  
 DOMAIN-SUFFIX,arbithitemise.top # 高风险广告 / 跳转域名  
@@ -3213,7 +3182,6 @@ DOMAIN-SUFFIX,axkocscuqo.com # 混淆域名，广告中继 / 资源加载可能�
 DOMAIN-SUFFIX,axlikeoedipus.shop # “shop” 后缀 + 垃圾结构，广告 / 推广用途极可能  
 DOMAIN-SUFFIX,axm.am # AxM.am 是 URL 短链接服务（广告 / 推广用途明显）  
 DOMAIN-SUFFIX,axnymjrsvnhsb.site # 可疑跳转 / 广告脚本加载域名  
-DOMAIN-SUFFIX,axonix.com # 通用域名，未见广告用途情报，建议删除  
 DOMAIN-SUFFIX,axpedsqboflar.space # 随机域名结构，疑似广告 / 跳转用途  
 DOMAIN-SUFFIX,axqoiulwchkth.space # 高混淆广告域名，行为特征可疑  
 DOMAIN-SUFFIX,axquoajbbjwew.net # 随机哈希域名，可能用于广告资源调用  
@@ -3280,19 +3248,15 @@ DOMAIN-SUFFIX,azqqloblawqbj.top # 同为哈希混淆广告域名
 DOMAIN-SUFFIX,azqqlobqwomqr.top # 系列混淆结构域名，广告用途可能  
 DOMAIN-SUFFIX,azqqlobqwovjb.top # 随机结构域名，疑似广告 / 跳转用途  
 DOMAIN-SUFFIX,azqqlobqwovzv.top # 同源变体域名，广告 / 跳转可能  
-DOMAIN-SUFFIX,azulcw7.com # 混淆字符结构，广告用途可能，未被确认  
-DOMAIN-SUFFIX,azureedge.net # Microsoft Azure CDN / 边缘分发域，不建议封锁（非广告）  
+DOMAIN-SUFFIX,azulcw7.com # 混淆字符结构，广告用途可能，未被确认   
 DOMAIN-SUFFIX,azurestealth.com # “stealth” 命名可疑，广告 / 跳转可能  
 DOMAIN-SUFFIX,azvgaolvnmkmk.top # 长字符广告跳转域名可能性高  
 DOMAIN-SUFFIX,azwxkuwu.com # 混淆结构域名，广告用途可能  
 DOMAIN-SUFFIX,azzncoswof.com # 混淆字符域名，广告 / 跳转可能  
 DOMAIN-SUFFIX,azzxoefggcsuo.website # 长随机域名，广告 / 跳转可能性高  
-DOMAIN-SUFFIX,b-cdn.net # CDN 通用域名，多站点使用，不建议封锁  
 DOMAIN-SUFFIX,b-m.xyz # 短域名结构异常，广告 / 跳转用途可能  
-DOMAIN-SUFFIX,b.cdnst.net # CDN 服务域名，不建议封锁（非广告）  
 DOMAIN-SUFFIX,b.link # 链接短链接域，广告 / 跳转用途可能  
 DOMAIN-SUFFIX,b.seksohub.com # 成人 / 广告站点名称，广告用途明显  
-DOMAIN-SUFFIX,b.w3techs.com # 技术站 / 分析域名，不建议封锁  
 DOMAIN-SUFFIX,b.xlineker.com # 可疑子域名，用于广告中转或脚本加载  
 DOMAIN-SUFFIX,b02byun5xc3s.com # 随机字符域名，广告 / 跳转用途可疑  
 DOMAIN-SUFFIX,b0f3731d0a.com # 哈希混淆域名，常见于广告资源接口  
@@ -3347,7 +3311,6 @@ DOMAIN-SUFFIX,babyboomboomads.com # 含 “ads” 关键词，广告域名可能
 DOMAIN-SUFFIX,baccarat212.com # 赌博 / 博彩站点域名，广告 / 推广性质明显
 DOMAIN-SUFFIX,backbeatmedia.com # 有 “media” 字样，可能用于内容 / 广告传播用途  
 DOMAIN-SUFFIX,backgrounds.wetransfer.net # Wetransfer 正常背景图片服务子域，非广告用途  
-DOMAIN-SUFFIX,backlinks.com # SEO / 链接工具域名，非广告用途（请确认删除或排除）  
 DOMAIN-SUFFIX,badjocks.com # 含 “badjocks” 词汇，可能不良推广用途  
 DOMAIN-SUFFIX,badsecs.com # 拼写疑似广告 / 安全性相关域名，用途未明确   
 DOMAIN-SUFFIX,badvgpluw.com # 在 AdGuard DNS 过滤规则中出现，疑似广告跳转 / 跟踪域名  
@@ -3703,7 +3666,6 @@ DOMAIN-SUFFIX,beterrakionan.com # “bet” 前缀域名，广告 / 博彩可能
 DOMAIN-SUFFIX,betforakiea.com # “bet” 前缀域名，广告诱导可能
 DOMAIN-SUFFIX,betgorebysson.club # 博彩 / 广告平台域名
 DOMAIN-SUFFIX,bethabet.com # “bet” 明显，广告 / 博彩用途明确
-DOMAIN-SUFFIX,bethtrice.cyou # 未见公开广告情报，但 “bet” 前缀，疑似删除
 DOMAIN-SUFFIX,betimbur.com # “bet” 前缀域名，广告 / 博彩用途可能
 DOMAIN-SUFFIX,betjoltiktor.com # “bet” 前缀域名，广告 / 博彩可能
 DOMAIN-SUFFIX,betklefkior.com # “bet” 前缀域名，广告 / 博彩用途可能
@@ -3799,1161 +3761,614 @@ DOMAIN-SUFFIX,bhgtubjtfggfa.website # 长混淆域名，可能广告 / 跳转用
 DOMAIN-SUFFIX,bhhjjdqcwfrpv.space # 混淆跳转广告域名可能性高
 DOMAIN-SUFFIX,bhilschoon.qpon # “qpon” 子域 / 优惠券风格域名，广告用途可能
 DOMAIN-SUFFIX,bhivpvsbhskzv.site # 随机字符域名，广告 / 跳转用途未证实
-DOMAIN-SUFFIX,bhjmacgkyiiux.website
-DOMAIN-SUFFIX,bhketuklhhavv.website
-DOMAIN-SUFFIX,bhkfnroleqcjhm.xyz
-DOMAIN-SUFFIX,bhklwrocp.com
-DOMAIN-SUFFIX,bhkyvtbdvmtrk.site
-DOMAIN-SUFFIX,bhlph.com
-DOMAIN-SUFFIX,bhnbjvjtachgn.online
-DOMAIN-SUFFIX,bhnnop.com
-DOMAIN-SUFFIX,bhpwqtiudzqnz.vip
-DOMAIN-SUFFIX,bhqbirsac.site
-DOMAIN-SUFFIX,bhqvi.com
-DOMAIN-SUFFIX,bhrltiziiipad.website
-DOMAIN-SUFFIX,bhshm.com
-DOMAIN-SUFFIX,bhwfvfevnqg.com
-DOMAIN-SUFFIX,bhyyiodopichc.site
-DOMAIN-SUFFIX,biakvwhahqeto.site
-DOMAIN-SUFFIX,biancasunlit.com
-DOMAIN-SUFFIX,biaqghckapnum.online
-DOMAIN-SUFFIX,biassedlunker.cfd
-DOMAIN-SUFFIX,biatcrsqdiusny.xyz
-DOMAIN-SUFFIX,bibbonsvoter.cyou
-DOMAIN-SUFFIX,bibbysilkmen.com
-DOMAIN-SUFFIX,bibleatlas.org
-DOMAIN-SUFFIX,bibleh.com
-DOMAIN-SUFFIX,biblehub.com
-DOMAIN-SUFFIX,biblemenus.com
-DOMAIN-SUFFIX,biblosdiver.cfd
-DOMAIN-SUFFIX,bicnhetimm.com
-DOMAIN-SUFFIX,bicolorvaccine.shop
-DOMAIN-SUFFIX,bicornlekythi.life
-DOMAIN-SUFFIX,bid.glass
-DOMAIN-SUFFIX,bidarblam.com
-DOMAIN-SUFFIX,bidbeneficial.com
-DOMAIN-SUFFIX,bidberry.net
-DOMAIN-SUFFIX,bidbrain.app
-DOMAIN-SUFFIX,bidclickmedia.com
-DOMAIN-SUFFIX,bidder.criteo.com
-DOMAIN-SUFFIX,bidder.newspassid.com
-DOMAIN-SUFFIX,bidderads.com
-DOMAIN-SUFFIX,bidfilter.com
-DOMAIN-SUFFIX,bidgear.com
-DOMAIN-SUFFIX,bidiology.com
-DOMAIN-SUFFIX,bidorbuy.co.za
-DOMAIN-SUFFIX,bids.concert.io
-DOMAIN-SUFFIX,bidscape.it
-DOMAIN-SUFFIX,bidster.net
-DOMAIN-SUFFIX,bidsxchange.com
-DOMAIN-SUFFIX,bidtheatre.com
-DOMAIN-SUFFIX,bidtimize.com
-DOMAIN-SUFFIX,bidvance.com
-DOMAIN-SUFFIX,bidverdrd.com
-DOMAIN-SUFFIX,bidverdrs.com
-DOMAIN-SUFFIX,bidvertiser.com
-DOMAIN-SUFFIX,bidvol.com
-DOMAIN-SUFFIX,biehuljjsllzf.website
-DOMAIN-SUFFIX,biemedia.com
-DOMAIN-SUFFIX,bieplmwcawogmep.xyz
-DOMAIN-SUFFIX,biffingmatina.com
-DOMAIN-SUFFIX,biforinargonon.life
-DOMAIN-SUFFIX,bigasleucic.rest
-DOMAIN-SUFFIX,bigbasketshop.com
-DOMAIN-SUFFIX,bigbolz.com
-DOMAIN-SUFFIX,bigbootymania.com
-DOMAIN-SUFFIX,bigboxads.com
-DOMAIN-SUFFIX,bigchoicegroup.com
-DOMAIN-SUFFIX,bigcock.one
-DOMAIN-SUFFIX,bigdick.tube
-DOMAIN-SUFFIX,bigeagle.biz
-DOMAIN-SUFFIX,bigelowcleaning.com
-DOMAIN-SUFFIX,biggbaymen.top
-DOMAIN-SUFFIX,biggerluck.com
-DOMAIN-SUFFIX,biggie.theblank.net
-DOMAIN-SUFFIX,bighearted-wedding.pro
-DOMAIN-SUFFIX,bigheartedunprofessionalcatherine.com
-DOMAIN-SUFFIX,bigincomplete.com
-DOMAIN-SUFFIX,bignaloogny.com
-DOMAIN-SUFFIX,bignessglom.help
-DOMAIN-SUFFIX,bignessphysics.digital
-DOMAIN-SUFFIX,bigotstatuewider.com
-DOMAIN-SUFFIX,bigpipes.co
-DOMAIN-SUFFIX,bigpulpit.com
-DOMAIN-SUFFIX,bigrock.in
-DOMAIN-SUFFIX,bigrourg.net
-DOMAIN-SUFFIX,bigsdbmcpgvyq.website
-DOMAIN-SUFFIX,bigsquidrc.com
-DOMAIN-SUFFIX,bigstoreminigames.space
-DOMAIN-SUFFIX,bigtitsgallery.net
-DOMAIN-SUFFIX,bigtitslust.com
-DOMAIN-SUFFIX,bigwarp.io
-DOMAIN-SUFFIX,bihagkrtif.com
-DOMAIN-SUFFIX,bihcddfenx.com
-DOMAIN-SUFFIX,bihunekus.com
-DOMAIN-SUFFIX,biijyuaeuzssw.online
-DOMAIN-SUFFIX,biirmjnw.icu
-DOMAIN-SUFFIX,bikechokedattic.com
-DOMAIN-SUFFIX,bikespeed.shop
-DOMAIN-SUFFIX,bikestripara.cfd
-DOMAIN-SUFFIX,bildirim.eu
-DOMAIN-SUFFIX,billboardwring.com
-DOMAIN-SUFFIX,billing.roofnrack.us
-DOMAIN-SUFFIX,billybobandirect.org
-DOMAIN-SUFFIX,billypub.com
-DOMAIN-SUFFIX,bilqi-omv.com
-DOMAIN-SUFFIX,bilsoaphaik.net
-DOMAIN-SUFFIX,bilsyndication.com
-DOMAIN-SUFFIX,biltickeegy.net
-DOMAIN-SUFFIX,bimahpivotal.shop
-DOMAIN-SUFFIX,bimasmetonym.help
-DOMAIN-SUFFIX,bimbim.com
-DOMAIN-SUFFIX,bimorphawner.world
-DOMAIN-SUFFIX,bin-layer.de
-DOMAIN-SUFFIX,bin-layer.ru
-DOMAIN-SUFFIX,bin-tds.site
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binaryoptionsgame.com
-DOMAIN-SUFFIX,bincatracs.com
-DOMAIN-SUFFIX,bindirect.click
-DOMAIN-SUFFIX,bineukdwithme.com
-DOMAIN-SUFFIX,bineukdwithmef.org
-DOMAIN-SUFFIX,binfulgorer.rest
-DOMAIN-SUFFIX,bingohall.ag
-DOMAIN-SUFFIX,binlayer.com
-DOMAIN-SUFFIX,binlayer.de
-DOMAIN-SUFFIX,binnitearchie.digital
-DOMAIN-SUFFIX,binomlink.com
-DOMAIN-SUFFIX,binomnet.com
-DOMAIN-SUFFIX,binomnet3.com
-DOMAIN-SUFFIX,binomtrcks.site
-DOMAIN-SUFFIX,bioces.com
-DOMAIN-SUFFIX,biodegradable-building.pro
-DOMAIN-SUFFIX,biodegradablegrand.com
-DOMAIN-SUFFIX,biodegradablesky.com
-DOMAIN-SUFFIX,biodegradableyellow.pro
-DOMAIN-SUFFIX,bioinformatics.org
-DOMAIN-SUFFIX,biolw.cloud
-DOMAIN-SUFFIX,bionestraff.pro
-DOMAIN-SUFFIX,biontsjudokas.help
-DOMAIN-SUFFIX,bipartyskirled.cyou
-DOMAIN-SUFFIX,bipchhxntrgiwyw.com
-DOMAIN-SUFFIX,biphic.com
-DOMAIN-SUFFIX,bipslkinmydwb.store
-DOMAIN-SUFFIX,biptoakrolaimte.xyz
-DOMAIN-SUFFIX,biqqavjzrmmkr.store
-DOMAIN-SUFFIX,birddomkoda.digital
-DOMAIN-SUFFIX,birdforum.net
-DOMAIN-SUFFIX,birdmanstook.life
-DOMAIN-SUFFIX,birianizymome.top
-DOMAIN-SUFFIX,biroads.com
-DOMAIN-SUFFIX,birringisogriv.shop
-DOMAIN-SUFFIX,birsleunhired.com
-DOMAIN-SUFFIX,birthday3452.fun
-DOMAIN-SUFFIX,birthjeans.icu
-DOMAIN-SUFFIX,biscuitmortify.com
-DOMAIN-SUFFIX,bisetsoliped.com
-DOMAIN-SUFFIX,biskerando.com
-DOMAIN-SUFFIX,bismuthclarre.qpon
-DOMAIN-SUFFIX,bissononsweep.world
-DOMAIN-SUFFIX,bistadaka.com
-DOMAIN-SUFFIX,bistrosorating.qpon
-DOMAIN-SUFFIX,bit-ad.com
-DOMAIN-SUFFIX,bit.com.au
-DOMAIN-SUFFIX,bit.ly
-DOMAIN-SUFFIX,bitadexchange.com
-DOMAIN-SUFFIX,bitadx.one
-DOMAIN-SUFFIX,bitbeat7.com
-DOMAIN-SUFFIX,bitbond.com
-DOMAIN-SUFFIX,bitchute.com
-DOMAIN-SUFFIX,bitcoadz.io
-DOMAIN-SUFFIX,bitcoins-update.blogspot.com
-DOMAIN-SUFFIX,bitcotasks.com
-DOMAIN-SUFFIX,bitdefender.top
-DOMAIN-SUFFIX,bitdragonapp.monster
-DOMAIN-SUFFIX,bitent.com
-DOMAIN-SUFFIX,bitesized-king.com
-DOMAIN-SUFFIX,bitesized-resident.pro
-DOMAIN-SUFFIX,bithow.com
-DOMAIN-SUFFIX,bitonclick.com
-DOMAIN-SUFFIX,bitskins.com
-DOMAIN-SUFFIX,bitspush.io
-DOMAIN-SUFFIX,bittenevenreasoning.com
-DOMAIN-SUFFIX,bittenlacygreater.com
-DOMAIN-SUFFIX,bitterstrawberry.com
-DOMAIN-SUFFIX,biturl.co
-DOMAIN-SUFFIX,bitx.tv
-DOMAIN-SUFFIX,bitzv.com
-DOMAIN-SUFFIX,biucjsmmvnzbm.online
-DOMAIN-SUFFIX,biuealqjtqkyk.website
-DOMAIN-SUFFIX,bivdhulygjipf.store
-DOMAIN-SUFFIX,bivos.xyz
-DOMAIN-SUFFIX,bivvmhkimlqzq.store
-DOMAIN-SUFFIX,biwipuque.com
-DOMAIN-SUFFIX,bixinrighter.shop
-DOMAIN-SUFFIX,bixkbnsscedhmd.com
-DOMAIN-SUFFIX,biyjqmadbjdyx.xyz
-DOMAIN-SUFFIX,bizjournals.com
-DOMAIN-SUFFIX,bizlhvylltftl.space
-DOMAIN-SUFFIX,bizographics.com
-DOMAIN-SUFFIX,bizonads-ssp.com
-DOMAIN-SUFFIX,bizonesreclude.cyou
-DOMAIN-SUFFIX,bizosama.com
-DOMAIN-SUFFIX,bizrotator.com
-DOMAIN-SUFFIX,bizx.info
-DOMAIN-SUFFIX,bizzclick.com
-DOMAIN-SUFFIX,bj2550.com
-DOMAIN-SUFFIX,bjadelkrmufem.space
-DOMAIN-SUFFIX,bjafafesg.com
-DOMAIN-SUFFIX,bjakku.com
-DOMAIN-SUFFIX,bjchymxbdtywm.site
-DOMAIN-SUFFIX,bjdgzffnutlqs.site
-DOMAIN-SUFFIX,bjdsmnjybmjdl.site
-DOMAIN-SUFFIX,bjekmleoupuht.space
-DOMAIN-SUFFIX,bjhbnbaptcaaw.site
-DOMAIN-SUFFIX,bjiqdkqwbpbgk.fun
-DOMAIN-SUFFIX,bjjgpmqyvpr.xyz
-DOMAIN-SUFFIX,bjjky.cfd
-DOMAIN-SUFFIX,bjokokdeoccv.com
-DOMAIN-SUFFIX,bjqug.xyz
-DOMAIN-SUFFIX,bjsvp35.space
-DOMAIN-SUFFIX,bjtvacwkzetxc.store
-DOMAIN-SUFFIX,bjvhcjulwwnmk.space
-DOMAIN-SUFFIX,bjxiangcao.com
-DOMAIN-SUFFIX,bjxvikyfxgg.net
-DOMAIN-SUFFIX,bjzabeeqjktyy.website
-DOMAIN-SUFFIX,bk-xctgdnf.life
-DOMAIN-SUFFIX,bkbliifnzrjmn.space
-DOMAIN-SUFFIX,bkgdacepots.help
-DOMAIN-SUFFIX,bkgljnppwxjat.icu
-DOMAIN-SUFFIX,bkjcspqtrlafh.online
-DOMAIN-SUFFIX,bkjhqkohal.com
-DOMAIN-SUFFIX,bkkwdqssajegg.store
-DOMAIN-SUFFIX,bkoqiqnmxfgth.website
-DOMAIN-SUFFIX,bkpmmpsqgluwj.online
-DOMAIN-SUFFIX,bkprglyptic.shop
-DOMAIN-SUFFIX,bkqklqvgoggwv.top
-DOMAIN-SUFFIX,bkqykixrzrgwr.space
-DOMAIN-SUFFIX,bkrxfveyilyqu.site
-DOMAIN-SUFFIX,bkssfffcsbfke.website
-DOMAIN-SUFFIX,bktyqhnikxjxqn.com
-DOMAIN-SUFFIX,bkujuvnjjxlnj.space
-DOMAIN-SUFFIX,bkwuodwvehlzr.life
-DOMAIN-SUFFIX,bkykuvbxiqtzu.store
-DOMAIN-SUFFIX,bkzojuncitbqa.space
-DOMAIN-SUFFIX,bl.wavecdn.de
-DOMAIN-SUFFIX,bl230126pb.com
-DOMAIN-SUFFIX,blackandwhite-temporary.com
-DOMAIN-SUFFIX,blackandwhite-welcome.pro
-DOMAIN-SUFFIX,blackandwhitememory.com
-DOMAIN-SUFFIX,blackboardfinding.com
-DOMAIN-SUFFIX,blackboardholdingrpm.com
-DOMAIN-SUFFIX,blackedsubjected.com
-DOMAIN-SUFFIX,blackenheartbreakrehearsal.com
-DOMAIN-SUFFIX,blackenoz.com
-DOMAIN-SUFFIX,blacklinknow.com
-DOMAIN-SUFFIX,blacklinknowss.co
-DOMAIN-SUFFIX,blacklistednews.com
-DOMAIN-SUFFIX,blacklivesmatter1.org
-DOMAIN-SUFFIX,blackmailingpanic.com
-DOMAIN-SUFFIX,blackpics.net
-DOMAIN-SUFFIX,blacksonblondes.com
-DOMAIN-SUFFIX,blacurlik.com
-DOMAIN-SUFFIX,bladdersdisarmaware.com
-DOMAIN-SUFFIX,bladdersruinousalternative.com
-DOMAIN-SUFFIX,bladderssewing.com
-DOMAIN-SUFFIX,bladedescendant.com
-DOMAIN-SUFFIX,bladesparcelinvent.com
-DOMAIN-SUFFIX,bladespillowcase.com
-DOMAIN-SUFFIX,bladswetis.com
-DOMAIN-SUFFIX,blahlivedsnowdrop.com
-DOMAIN-SUFFIX,blamads.com
-DOMAIN-SUFFIX,blamelessperfume.com
-DOMAIN-SUFFIX,blamingnuclearplasma.com
-DOMAIN-SUFFIX,blancgraip.com
-DOMAIN-SUFFIX,blancoshrimp.com
-DOMAIN-SUFFIX,blank-shift.pro
-DOMAIN-SUFFIX,blanksolderreed.com
-DOMAIN-SUFFIX,blarepointingbaptism.com
-DOMAIN-SUFFIX,blaring-chocolate.com
-DOMAIN-SUFFIX,blaringfear.pro
-DOMAIN-SUFFIX,blartexonym.cfd
-DOMAIN-SUFFIX,blasphemebelfry.com
-DOMAIN-SUFFIX,blasphemelong.com
-DOMAIN-SUFFIX,blastcahs.com
-DOMAIN-SUFFIX,blastedolfacty.world
-DOMAIN-SUFFIX,blati.site
-DOMAIN-SUFFIX,blauuamgfbuyg.site
-DOMAIN-SUFFIX,blaze-media.com
-DOMAIN-SUFFIX,blazeteamlow.com
-DOMAIN-SUFFIX,blazyunc.shop
-DOMAIN-SUFFIX,blbclassic.org
-DOMAIN-SUFFIX,blcdog.com
-DOMAIN-SUFFIX,bleaborahmagtgi.org
-DOMAIN-SUFFIX,bleak-yard.com
-DOMAIN-SUFFIX,bleandworldw.org
-DOMAIN-SUFFIX,bleatyskryer.cyou
-DOMAIN-SUFFIX,bledcooker.shop
-DOMAIN-SUFFIX,bleedingofficecontagion.com
-DOMAIN-SUFFIX,bleepgizmorecital.com
-DOMAIN-SUFFIX,blehcourt.com
-DOMAIN-SUFFIX,blendedbird.com
-DOMAIN-SUFFIX,blendsubslot.rest
-DOMAIN-SUFFIX,blessedhurtdismantle.com
-DOMAIN-SUFFIX,blessedsophia.com
-DOMAIN-SUFFIX,blessingsome.com
-DOMAIN-SUFFIX,bletopreseynat.org
-DOMAIN-SUFFIX,blg-1216lb.com
-DOMAIN-SUFFIX,blgogjamwvyjn.top
-DOMAIN-SUFFIX,blicatedlitytleme.org
-DOMAIN-SUFFIX,bliink.io
-DOMAIN-SUFFIX,blijvertellin.rest
-DOMAIN-SUFFIX,blindlycckw.qpon
-DOMAIN-SUFFIX,blinispelts.digital
-DOMAIN-SUFFIX,blinkedlanentablelanentableunavailable.com
-DOMAIN-SUFFIX,blinkjork.com
-DOMAIN-SUFFIX,blinkpainmanly.com
-DOMAIN-SUFFIX,blinktowel.com
-DOMAIN-SUFFIX,bliqjhstabiqd.space
-DOMAIN-SUFFIX,blismedia.com
-DOMAIN-SUFFIX,blissfuldes.com
-DOMAIN-SUFFIX,blissfulmass.com
-DOMAIN-SUFFIX,blisterpompey.com
-DOMAIN-SUFFIX,blistest.xyz
-DOMAIN-SUFFIX,blitherpierage.rest
-DOMAIN-SUFFIX,blitumgrousy.shop
-DOMAIN-SUFFIX,blizzdata.site
-DOMAIN-SUFFIX,blknbzvjncavt.store
-DOMAIN-SUFFIX,bllsteringdates.com
-DOMAIN-SUFFIX,blmihlvicnopl.store
-DOMAIN-SUFFIX,blnlpruka.com
-DOMAIN-SUFFIX,blnrwscxnogfx.store
-DOMAIN-SUFFIX,bloatingexpectantretinal.com
-DOMAIN-SUFFIX,blobbycrammed.cfd
-DOMAIN-SUFFIX,bloblohub.com
-DOMAIN-SUFFIX,block-ad.com
-DOMAIN-SUFFIX,blockadsnot.com
-DOMAIN-SUFFIX,blockadstop.info
-DOMAIN-SUFFIX,blockchain-ads.com
-DOMAIN-SUFFIX,blockchain.info
-DOMAIN-SUFFIX,blockchaintop.nl
-DOMAIN-SUFFIX,blockedanticipated.com
-DOMAIN-SUFFIX,blockertrilli.life
-DOMAIN-SUFFIX,blockingdarlingshrivel.com
-DOMAIN-SUFFIX,blocksfeathers.com
-DOMAIN-SUFFIX,blocksly.org
-DOMAIN-SUFFIX,bloctarsals.shop
-DOMAIN-SUFFIX,blogads.com
-DOMAIN-SUFFIX,blogatus.com
-DOMAIN-SUFFIX,blogclans.com
-DOMAIN-SUFFIX,blogherads.com
-DOMAIN-SUFFIX,blogostock.com
-DOMAIN-SUFFIX,blomanazilut.world
-DOMAIN-SUFFIX,blond-pollution.pro
-DOMAIN-SUFFIX,blondspeaker.com
-DOMAIN-SUFFIX,bloopsagura.world
-DOMAIN-SUFFIX,blossomfertilizerproperly.com
-DOMAIN-SUFFIX,blossoms.com
-DOMAIN-SUFFIX,blotecardthumb.com
-DOMAIN-SUFFIX,bloteemit.world
-DOMAIN-SUFFIX,blottermorabit.cyou
-DOMAIN-SUFFIX,blownlagger.rest
-DOMAIN-SUFFIX,bloworkey.cfd
-DOMAIN-SUFFIX,blowyameen.qpon
-DOMAIN-SUFFIX,blpebnytus.com
-DOMAIN-SUFFIX,blpjxkhubqsmsy.xyz
-DOMAIN-SUFFIX,blqsrexczsqht.site
-DOMAIN-SUFFIX,blqwbyqqbvgzq.top
-DOMAIN-SUFFIX,blrxalkfsxbld.site
-DOMAIN-SUFFIX,blsenmxeiokcn.space
-DOMAIN-SUFFIX,blsnet.com
-DOMAIN-SUFFIX,blspqefzfmazg.site
-DOMAIN-SUFFIX,bltwuvetubnqt.space
-DOMAIN-SUFFIX,blu5fdclr.com
-DOMAIN-SUFFIX,blubberrowan.com
-DOMAIN-SUFFIX,blubberspoiled.com
-DOMAIN-SUFFIX,bludgeentraps.com
-DOMAIN-SUFFIX,blue.ktla.com
-DOMAIN-SUFFIX,blue99703.com
-DOMAIN-SUFFIX,bluedindow.cyou
-DOMAIN-SUFFIX,bluehomework.com
-DOMAIN-SUFFIX,bluehost-cdn.com
-DOMAIN-SUFFIX,bluehost.com
-DOMAIN-SUFFIX,blueistheneworanges.com
-DOMAIN-SUFFIX,bluelinknow.com
-DOMAIN-SUFFIX,bluelymisrun.qpon
-DOMAIN-SUFFIX,blueparrot.media
-DOMAIN-SUFFIX,bluepromocode.com
-DOMAIN-SUFFIX,bluetackclasp.com
-DOMAIN-SUFFIX,bluethverts.help
-DOMAIN-SUFFIX,bluetoad.com
-DOMAIN-SUFFIX,bluffydelicat.click
-DOMAIN-SUFFIX,blunketspt.help
-DOMAIN-SUFFIX,bluodpa-a.online
-DOMAIN-SUFFIX,blurbreimbursetrombone.com
-DOMAIN-SUFFIX,blurssunil.life
-DOMAIN-SUFFIX,blushsahara.top
-DOMAIN-SUFFIX,blusterscreens.cyou
-DOMAIN-SUFFIX,blwdricfvhneu.space
-DOMAIN-SUFFIX,blwviknoqfpij.online
-DOMAIN-SUFFIX,blypesprespur.help
-DOMAIN-SUFFIX,blypesusanne.help
-DOMAIN-SUFFIX,blyqvidllwukv.website
-DOMAIN-SUFFIX,blzlovgbjkvjj.top
-DOMAIN-SUFFIX,blzz.xyz
-DOMAIN-SUFFIX,bmabtauwjtopf.site
-DOMAIN-SUFFIX,bmbdfrchnenhy.store
-DOMAIN-SUFFIX,bmbxbcsahwtfj.space
-DOMAIN-SUFFIX,bmcdn1.com
-DOMAIN-SUFFIX,bmcdn2.com
-DOMAIN-SUFFIX,bmcdn3.com
-DOMAIN-SUFFIX,bmcdn4.com
-DOMAIN-SUFFIX,bmcdn5.com
-DOMAIN-SUFFIX,bmcdn6.com
-DOMAIN-SUFFIX,bmcqurmfaom.com
-DOMAIN-SUFFIX,bmfads.com
-DOMAIN-SUFFIX,bmkz57b79pxk.com
-DOMAIN-SUFFIX,bmlpqtnhvoliy.com
-DOMAIN-SUFFIX,bmmads.com
-DOMAIN-SUFFIX,bmndx.com
-DOMAIN-SUFFIX,bmqzsaqomgymv.site
-DOMAIN-SUFFIX,bmqzxvqvglexy.site
-DOMAIN-SUFFIX,bmrfhnnhozbff.site
-DOMAIN-SUFFIX,bmtmicro.com
-DOMAIN-SUFFIX,bmuuelvweniay.online
-DOMAIN-SUFFIX,bmvorzrau.com
-DOMAIN-SUFFIX,bmwaeghntpfdb.online
-DOMAIN-SUFFIX,bmxavtdjqvdqn.store
-DOMAIN-SUFFIX,bmxlcqungg.xyz
-DOMAIN-SUFFIX,bmycupptafr.com
-DOMAIN-SUFFIX,bmyrhroqelefw.space
-DOMAIN-SUFFIX,bmzgcv-eo.rocks
-DOMAIN-SUFFIX,bn5x.net
-DOMAIN-SUFFIX,bnbybybmvlmnj.top
-DOMAIN-SUFFIX,bncloudfl.com
-DOMAIN-SUFFIX,bngdin.com
-DOMAIN-SUFFIX,bngdyn.com
-DOMAIN-SUFFIX,bngmadjd.de
-DOMAIN-SUFFIX,bngprl.com
-DOMAIN-SUFFIX,bngprm.com
-DOMAIN-SUFFIX,bngpst.com
-DOMAIN-SUFFIX,bngpt.com
-DOMAIN-SUFFIX,bngrol.com
-DOMAIN-SUFFIX,bngtrak.com
-DOMAIN-SUFFIX,bngwhqxqatnsx.site
-DOMAIN-SUFFIX,bngwlt.com
-DOMAIN-SUFFIX,bngzomowygzaa.top
-DOMAIN-SUFFIX,bnhtml.com
-DOMAIN-SUFFIX,bnmkl.com
-DOMAIN-SUFFIX,bnmmnbgqtb.com
-DOMAIN-SUFFIX,bnmqtggqjoqic.buzz
-DOMAIN-SUFFIX,bnmxedmkakife.com
-DOMAIN-SUFFIX,bnp3.com
-DOMAIN-SUFFIX,bnr.sys.lv
-DOMAIN-SUFFIX,bnrdom.com
-DOMAIN-SUFFIX,bnrrbipeeccuu.site
-DOMAIN-SUFFIX,bnrs.it
-DOMAIN-SUFFIX,bnrsis.com
-DOMAIN-SUFFIX,bnrslks.com
-DOMAIN-SUFFIX,bnserving.com
-DOMAIN-SUFFIX,bnsirwpidbpao.online
-DOMAIN-SUFFIX,bnywlkaklqago.top
-DOMAIN-SUFFIX,bo2ffe45ss4gie.com
-DOMAIN-SUFFIX,boacheeb.com
-DOMAIN-SUFFIX,boagleetsurvey.space
-DOMAIN-SUFFIX,boagroastigrah.net
-DOMAIN-SUFFIX,boajowhutupoo.net
-DOMAIN-SUFFIX,boaloakothauchi.net
-DOMAIN-SUFFIX,boannre.com
-DOMAIN-SUFFIX,boardhisisa.org
-DOMAIN-SUFFIX,boardpress-b.online
-DOMAIN-SUFFIX,boarshrubforemost.com
-DOMAIN-SUFFIX,boatagemr.qpon
-DOMAIN-SUFFIX,boatagerooflet.help
-DOMAIN-SUFFIX,boatheeh.com
-DOMAIN-SUFFIX,boatjadeinconsistency.com
-DOMAIN-SUFFIX,boazaicheewasti.net
-DOMAIN-SUFFIX,bobabillydirect.org
-DOMAIN-SUFFIX,bobacelfland.help
-DOMAIN-SUFFIX,bobapsoabauns.com
-DOMAIN-SUFFIX,bobbielemmus.rest
-DOMAIN-SUFFIX,bobbielibeled.click
-DOMAIN-SUFFIX,bobboro.com
-DOMAIN-SUFFIX,bobflyoverbet.qpon
-DOMAIN-SUFFIX,bobgames-prolister.com
-DOMAIN-SUFFIX,bobheals.cfd
-DOMAIN-SUFFIX,bobpiety.com
-DOMAIN-SUFFIX,bobsleddomesticglandular.com
-DOMAIN-SUFFIX,bobuptoopsukus.net
-DOMAIN-SUFFIX,bocenrqhquopv.website
-DOMAIN-SUFFIX,bochurwhicker.click
-DOMAIN-SUFFIX,bochutoartoasu.net
-DOMAIN-SUFFIX,bocinsculp.world
-DOMAIN-SUFFIX,bockouphourgait.net
-DOMAIN-SUFFIX,bodegonrealty.shop
-DOMAIN-SUFFIX,bodieshomicidal.com
-DOMAIN-SUFFIX,bodilysubtractoversight.com
-DOMAIN-SUFFIX,bodilywondering.com
-DOMAIN-SUFFIX,bodkinsgubat.cyou
-DOMAIN-SUFFIX,bodrookriltakro.net
-DOMAIN-SUFFIX,bodrumshuttle.net
-DOMAIN-SUFFIX,bodsforthemods.com
-DOMAIN-SUFFIX,bodystrickenmultitude.com
-DOMAIN-SUFFIX,boersnimbus.cyou
-DOMAIN-SUFFIX,boerumpeiakmf.space
-DOMAIN-SUFFIX,boffinsoft.com
-DOMAIN-SUFFIX,boffoadsfeeds.com
-DOMAIN-SUFFIX,bofitsaign.net
-DOMAIN-SUFFIX,bofuckoastails.net
-DOMAIN-SUFFIX,bogads.com
-DOMAIN-SUFFIX,bogfernallo.cfd
-DOMAIN-SUFFIX,boghigrestarge.net
-DOMAIN-SUFFIX,bogrodius.com
-DOMAIN-SUFFIX,bogus-disk.com
-DOMAIN-SUFFIX,bohkhufmvwim.online
-DOMAIN-SUFFIX,bohunkschaluka.world
-DOMAIN-SUFFIX,boiiphyton.rest
-DOMAIN-SUFFIX,boilingroof.pro
-DOMAIN-SUFFIX,boilybeefer.cfd
-DOMAIN-SUFFIX,boiqzsgnywkuv.today
-DOMAIN-SUFFIX,bojjgglazjzjj.top
-DOMAIN-SUFFIX,bokeden.com
-DOMAIN-SUFFIX,bokepindo13.name
-DOMAIN-SUFFIX,bokharavias.com
-DOMAIN-SUFFIX,bolamucha.xyz
-DOMAIN-SUFFIX,bold-display.pro
-DOMAIN-SUFFIX,bold-potential.com
-DOMAIN-SUFFIX,boldlydaisy.com
-DOMAIN-SUFFIX,bolealwqnljys.online
-DOMAIN-SUFFIX,bolesreshot.cfd
-DOMAIN-SUFFIX,bolgboqynjkzo.top
-DOMAIN-SUFFIX,bolimbaquatrin.life
-DOMAIN-SUFFIX,bollixceltist.shop
-DOMAIN-SUFFIX,bollyocean.com
-DOMAIN-SUFFIX,bolomanscares.shop
-DOMAIN-SUFFIX,boloneyunhoist.world
-DOMAIN-SUFFIX,boloneyyogh.top
-DOMAIN-SUFFIX,boloptrex.com
-DOMAIN-SUFFIX,bolpjziaxakkg.store
-DOMAIN-SUFFIX,bolrookr.com
-DOMAIN-SUFFIX,bolsek.ru
-DOMAIN-SUFFIX,boltepse.com
-DOMAIN-SUFFIX,bolterspails.world
-DOMAIN-SUFFIX,boltnunfirsthand.com
-DOMAIN-SUFFIX,bombardjove.help
-DOMAIN-SUFFIX,bomborazygion.qpon
-DOMAIN-SUFFIX,bombplinker.help
-DOMAIN-SUFFIX,bomdog.com
-DOMAIN-SUFFIX,bonaciretwine.digital
-DOMAIN-SUFFIX,bonad.io
-DOMAIN-SUFFIX,bonafides.club
-DOMAIN-SUFFIX,bondfondif.com
-DOMAIN-SUFFIX,bondleapedoasis.com
-DOMAIN-SUFFIX,bondtide.com
-DOMAIN-SUFFIX,bonecommittee.com
-DOMAIN-SUFFIX,bonepa.com
-DOMAIN-SUFFIX,bonertraffic13.info
-DOMAIN-SUFFIX,bonesideal.com
-DOMAIN-SUFFIX,bonesimprovements.com
-DOMAIN-SUFFIX,bonesjamesgrumble.com
-DOMAIN-SUFFIX,bongacams.com
-DOMAIN-SUFFIX,bongacams10.com
-DOMAIN-SUFFIX,bongacams11.com
-DOMAIN-SUFFIX,bongacams7.com
-DOMAIN-SUFFIX,bongacams8.com
-DOMAIN-SUFFIX,bongacash.com
-DOMAIN-SUFFIX,bonmazkmflejk.site
-DOMAIN-SUFFIX,bonnetacademy.com
-DOMAIN-SUFFIX,bonnetgoblet.com
-DOMAIN-SUFFIX,bonnettaking.com
-DOMAIN-SUFFIX,bonosbevvy.com
-DOMAIN-SUFFIX,bonrarjfozxyu.website
-DOMAIN-SUFFIX,bonusmaniac.com
-DOMAIN-SUFFIX,bonyface.com
-DOMAIN-SUFFIX,bonyspecialist.pro
-DOMAIN-SUFFIX,bonzai.ad
-DOMAIN-SUFFIX,bonzai.co
-DOMAIN-SUFFIX,bonzuna.com
-DOMAIN-SUFFIX,boo-box.com
-DOMAIN-SUFFIX,boobausauhipsa.net
-DOMAIN-SUFFIX,boobbounds.com
-DOMAIN-SUFFIX,boodaisi.xyz
-DOMAIN-SUFFIX,boodiebankers.shop
-DOMAIN-SUFFIX,boodybasalt.com
-DOMAIN-SUFFIX,boogiegansel.click
-DOMAIN-SUFFIX,bookadil.com
-DOMAIN-SUFFIX,bookbannershop.com
-DOMAIN-SUFFIX,bookforum.com
-DOMAIN-SUFFIX,booking.com
-DOMAIN-SUFFIX,bookingdragon.com
-DOMAIN-SUFFIX,bookinglamentinstance.com
-DOMAIN-SUFFIX,bookmakers.click
-DOMAIN-SUFFIX,bookmench.help
-DOMAIN-SUFFIX,bookmsg.com
-DOMAIN-SUFFIX,bookofsex.com
-DOMAIN-SUFFIX,bookshelfcomplaint.com
-DOMAIN-SUFFIX,booksoxsolely.com
-DOMAIN-SUFFIX,boom-bb.com
-DOMAIN-SUFFIX,boomads.com
-DOMAIN-SUFFIX,boomouso.xyz
-DOMAIN-SUFFIX,booneeptou.net
-DOMAIN-SUFFIX,boongjuked.digital
-DOMAIN-SUFFIX,boorttautly.life
-DOMAIN-SUFFIX,booseed.com
-DOMAIN-SUFFIX,boost-next.co.jp
-DOMAIN-SUFFIX,boostads.net
-DOMAIN-SUFFIX,boostaubeehy.net
-DOMAIN-SUFFIX,boostcdn.net
-DOMAIN-SUFFIX,boostclic.com
-DOMAIN-SUFFIX,boostcpm.su
-DOMAIN-SUFFIX,booster-vax.com
-DOMAIN-SUFFIX,boostog.net
-DOMAIN-SUFFIX,booteespolity.click
-DOMAIN-SUFFIX,bootingmuette.life
-DOMAIN-SUFFIX,bootingunpickedusable.com
-DOMAIN-SUFFIX,bootstrap-framework.org
-DOMAIN-SUFFIX,bootstraplugin.com
-DOMAIN-SUFFIX,bootvolleyball.com
-DOMAIN-SUFFIX,bootyheroes.com
-DOMAIN-SUFFIX,bop-bop-bam.com
-DOMAIN-SUFFIX,bopmsxjwjuwjj.click
-DOMAIN-SUFFIX,bopnlzbliclxw.space
-DOMAIN-SUFFIX,boptactive.world
-DOMAIN-SUFFIX,boraciccoapts.click
-DOMAIN-SUFFIX,bordeaux.futurecdn.net
-DOMAIN-SUFFIX,bordersyelling.cfd
-DOMAIN-SUFFIX,boreaddingobserve.com
-DOMAIN-SUFFIX,boreasnetsuke.com
-DOMAIN-SUFFIX,boredhippie.com
-DOMAIN-SUFFIX,boredomcuff.com
-DOMAIN-SUFFIX,boreusorgans.top
-DOMAIN-SUFFIX,borghaswing.com
-DOMAIN-SUFFIX,borhaj.com
-DOMAIN-SUFFIX,boridesairable.cyou
-DOMAIN-SUFFIX,boringherbalprewashed.com
-DOMAIN-SUFFIX,borneobulletin.com.bn
-DOMAIN-SUFFIX,bornmandemicria.co.in
-DOMAIN-SUFFIX,bornprecite.cyou
-DOMAIN-SUFFIX,bororango.com
-DOMAIN-SUFFIX,borotango.com
-DOMAIN-SUFFIX,borrowbrutewarfare.com
-DOMAIN-SUFFIX,borrowedtransition.com
-DOMAIN-SUFFIX,borrowhourglass.com
-DOMAIN-SUFFIX,borrowjavgg124.fun
-DOMAIN-SUFFIX,borrowpreviewcardinal.com
-DOMAIN-SUFFIX,borshtselemis.top
-DOMAIN-SUFFIX,borstossut.world
-DOMAIN-SUFFIX,borvens.com
-DOMAIN-SUFFIX,borzjournal.ru
-DOMAIN-SUFFIX,boscageticker.life
-DOMAIN-SUFFIX,boseypanne.digital
-DOMAIN-SUFFIX,boshaulr.net
-DOMAIN-SUFFIX,bosheseschars.rest
-DOMAIN-SUFFIX,boskodating.com
-DOMAIN-SUFFIX,bosplyx.com
-DOMAIN-SUFFIX,bossboymormyr.help
-DOMAIN-SUFFIX,bossedmarlier.help
-DOMAIN-SUFFIX,bosselinorrummage.com
-DOMAIN-SUFFIX,bossy-future.com
-DOMAIN-SUFFIX,bossyhearing.com
-DOMAIN-SUFFIX,bossyinternal.pro
-DOMAIN-SUFFIX,bossyyiddish.digital
-DOMAIN-SUFFIX,bostopago.com
-DOMAIN-SUFFIX,bosunurunday.world
-DOMAIN-SUFFIX,bot-checker.com
-DOMAIN-SUFFIX,botanyspiritualmaxim.com
-DOMAIN-SUFFIX,botanysummarytables.com
-DOMAIN-SUFFIX,bothererune.com
-DOMAIN-SUFFIX,botherlaying.com
-DOMAIN-SUFFIX,bothoorgoamsab.net
-DOMAIN-SUFFIX,botiatheous.cyou
-DOMAIN-SUFFIX,botonespodium.shop
-DOMAIN-SUFFIX,botpickmaw.life
-DOMAIN-SUFFIX,botpynlmmizsr.click
-DOMAIN-SUFFIX,bottledchagrinfry.com
-DOMAIN-SUFFIX,bottleddictionary.com
-DOMAIN-SUFFIX,bottledfriendship.com
-DOMAIN-SUFFIX,bottleschance.com
-DOMAIN-SUFFIX,bottleselement.com
-DOMAIN-SUFFIX,bottlestrivingtarget.com
-DOMAIN-SUFFIX,bottomthoughtvow.com
-DOMAIN-SUFFIX,botvwyytbwpdb.site
-DOMAIN-SUFFIX,boudja.com
-DOMAIN-SUFFIX,bouhoagy.net
-DOMAIN-SUFFIX,boukeewhocoa.net
-DOMAIN-SUFFIX,bounceads.net
-DOMAIN-SUFFIX,bouncebidder.com
-DOMAIN-SUFFIX,bouncelightenafternoon.com
-DOMAIN-SUFFIX,bouncyhansels.help
-DOMAIN-SUFFIX,boundarygoose.com
-DOMAIN-SUFFIX,bountifulcomfortable.com
-DOMAIN-SUFFIX,bountyformseedlings.com
-DOMAIN-SUFFIX,boupeeli.com
-DOMAIN-SUFFIX,bouphejauzon.net
-DOMAIN-SUFFIX,bouquetdaft.com
-DOMAIN-SUFFIX,bournpilusli.qpon
-DOMAIN-SUFFIX,bourrancobcab.help
-DOMAIN-SUFFIX,bourrepardale.com
-DOMAIN-SUFFIX,bousercamelid.shop
-DOMAIN-SUFFIX,boustahe.com
-DOMAIN-SUFFIX,boutotigris.top
-DOMAIN-SUFFIX,bouwausupoame.net
-DOMAIN-SUFFIX,bouwehee.xyz
-DOMAIN-SUFFIX,bovinetimingunsaddle.com
-DOMAIN-SUFFIX,bovscuwjuupvr.online
-DOMAIN-SUFFIX,bowed-tackle.com
-DOMAIN-SUFFIX,boweddemand.com
-DOMAIN-SUFFIX,bowermisrule.com
-DOMAIN-SUFFIX,bowersorgamy.com
-DOMAIN-SUFFIX,bowerywill.com
-DOMAIN-SUFFIX,bowingpittite.help
-DOMAIN-SUFFIX,bowldescended.com
-DOMAIN-SUFFIX,bowshotsalugi.help
-DOMAIN-SUFFIX,boxcartidalvoicing.com
-DOMAIN-SUFFIX,boxerppa.help
-DOMAIN-SUFFIX,boxif.xyz
-DOMAIN-SUFFIX,boxing-social.com
-DOMAIN-SUFFIX,boxingsgets.com
-DOMAIN-SUFFIX,boxlikepavers.com
-DOMAIN-SUFFIX,boxlikesedativespinach.com
-DOMAIN-SUFFIX,boxlivegarden.com
-DOMAIN-SUFFIX,boxofficehelping.com
-DOMAIN-SUFFIX,boxofwhisper.com
-DOMAIN-SUFFIX,boxthis.xyz
-DOMAIN-SUFFIX,boxycupbearerjot.com
-DOMAIN-SUFFIX,boxypluckunrelated.com
-DOMAIN-SUFFIX,boyfriend.show
-DOMAIN-SUFFIX,boyfriendtv.com
-DOMAIN-SUFFIX,boylauninn.shop
-DOMAIN-SUFFIX,boylqaagnogq.top
-DOMAIN-SUFFIX,boymagicdate.com
-DOMAIN-SUFFIX,boyqnajggllna.top
-DOMAIN-SUFFIX,boysfood.com
-DOMAIN-SUFFIX,boyunakylie.com
-DOMAIN-SUFFIX,bozxkkymjemba.website
-DOMAIN-SUFFIX,bpbnelpowldjl.space
-DOMAIN-SUFFIX,bpcvnkwpl.net
-DOMAIN-SUFFIX,bpcvnkwpl.xyz
-DOMAIN-SUFFIX,bpdppdyuhqvoxb.net
-DOMAIN-SUFFIX,bpdqwixnyxoxy.site
-DOMAIN-SUFFIX,bpdwgrtovfhga.site
-DOMAIN-SUFFIX,bpeovknslhuqy.online
-DOMAIN-SUFFIX,bphtlhrntspkk.site
-DOMAIN-SUFFIX,bpltqydasflff.online
-DOMAIN-SUFFIX,bpmbhbpmmbndn.online
-DOMAIN-SUFFIX,bpmfagzlptbxp.site
-DOMAIN-SUFFIX,bpoiscqmwxej.buzz
-DOMAIN-SUFFIX,bpvubrpialperi.com
-DOMAIN-SUFFIX,bpyzejgpwovmf.website
-DOMAIN-SUFFIX,bqajoisaiwlxs.site
-DOMAIN-SUFFIX,bqbgwwvnmjnj.top
-DOMAIN-SUFFIX,bqblxvdkjtatv.store
-DOMAIN-SUFFIX,bqbvgjnyqqmkq.top
-DOMAIN-SUFFIX,bqdpbmtvmkmov.site
-DOMAIN-SUFFIX,bqgnnzbamgbbj.top
-DOMAIN-SUFFIX,bqgwxqoqjqvbz.online
-DOMAIN-SUFFIX,bqkrcowacahy.com
-DOMAIN-SUFFIX,bqqxukllxe.com
-DOMAIN-SUFFIX,bqqyomzoqvqko.top
-DOMAIN-SUFFIX,bqrdoilvhadpq.vip
-DOMAIN-SUFFIX,bqrjmulwnxynr.website
-DOMAIN-SUFFIX,bqrueuxqvhjhc.online
-DOMAIN-SUFFIX,bqsnmpwxwd.buzz
-DOMAIN-SUFFIX,bqucnpdwtqgbw.com
-DOMAIN-SUFFIX,bqvarftvrigcn.online
-DOMAIN-SUFFIX,bqvzsxadeajio.global
-DOMAIN-SUFFIX,bqwfemjlhxpia.online
-DOMAIN-SUFFIX,bqybaxcxwbgsm.website
-DOMAIN-SUFFIX,bqymbyyvwkaja.top
-DOMAIN-SUFFIX,bqzzlqwlbkkbb.top
-DOMAIN-SUFFIX,br.fling.com
-DOMAIN-SUFFIX,br3azil334nutsz.com
-DOMAIN-SUFFIX,bracciaod.click
-DOMAIN-SUFFIX,bracecherry.com
-DOMAIN-SUFFIX,bracemascara.com
-DOMAIN-SUFFIX,bracketauthorizedportray.com
-DOMAIN-SUFFIX,braflipperstense.com
-DOMAIN-SUFFIX,braidercoequal.com
-DOMAIN-SUFFIX,braidrainhypocrite.com
-DOMAIN-SUFFIX,braidsagria.com
-DOMAIN-SUFFIX,braidsmbalolo.top
-DOMAIN-SUFFIX,brainberries.co
-DOMAIN-SUFFIX,brainbotfilebeatsave.com
-DOMAIN-SUFFIX,brainient.com
-DOMAIN-SUFFIX,brainlyads.com
-DOMAIN-SUFFIX,brakestrucksupporter.com
-DOMAIN-SUFFIX,brakiefissive.com
-DOMAIN-SUFFIX,bramb.site
-DOMAIN-SUFFIX,brand-display.com
-DOMAIN-SUFFIX,brand.net
-DOMAIN-SUFFIX,brandads.net
-DOMAIN-SUFFIX,brandaffinity.net
-DOMAIN-SUFFIX,brandclik.com
-DOMAIN-SUFFIX,branddnewcode1.me
-DOMAIN-SUFFIX,brandlabs.ai
-DOMAIN-SUFFIX,brandnewapp.pro
-DOMAIN-SUFFIX,brandnewsnorted.com
-DOMAIN-SUFFIX,brandreachsys.com
-DOMAIN-SUFFIX,brani.site
-DOMAIN-SUFFIX,bransfripper.click
-DOMAIN-SUFFIX,brashersequins.cfd
-DOMAIN-SUFFIX,brasoqdu.com
-DOMAIN-SUFFIX,brassstacker.com
-DOMAIN-SUFFIX,brasthingut.com
-DOMAIN-SUFFIX,brationalfilarded.com
-DOMAIN-SUFFIX,braun634.com
-DOMAIN-SUFFIX,braunaalbert.help
-DOMAIN-SUFFIX,bravaquoited.qpon
-DOMAIN-SUFFIX,brave-friend.com
-DOMAIN-SUFFIX,brave-passage.pro
-DOMAIN-SUFFIX,brave-village.com
-DOMAIN-SUFFIX,braverycavalryoats.com
-DOMAIN-SUFFIX,braveryevenly.shop
-DOMAIN-SUFFIX,braverytermors.digital
-DOMAIN-SUFFIX,bravoteens.com
-DOMAIN-SUFFIX,bravotrk.com
-DOMAIN-SUFFIX,bravotube.net
-DOMAIN-SUFFIX,brayersshakil.top
-DOMAIN-SUFFIX,brayinglegions.click
-DOMAIN-SUFFIX,brazenwholly.com
-DOMAIN-SUFFIX,brazzers.com
-DOMAIN-SUFFIX,brazzerssurvey.com
-DOMAIN-SUFFIX,brcjvwooqneol.online
-DOMAIN-SUFFIX,brdbwayjkebb.xyz
-DOMAIN-SUFFIX,brdhbizupevpj.online
-DOMAIN-SUFFIX,brdlbkrzjudrg.online
-DOMAIN-SUFFIX,breachneatlylane.com
-DOMAIN-SUFFIX,breadpro.com
-DOMAIN-SUFFIX,breakaxtalced.rest
-DOMAIN-SUFFIX,breakfastinvitingdetergent.com
-DOMAIN-SUFFIX,breakfastsinew.com
-DOMAIN-SUFFIX,breakingcapricorn.com
-DOMAIN-SUFFIX,breakingscattered.com
-DOMAIN-SUFFIX,breakthroughfuzzy.com
-DOMAIN-SUFFIX,brealtime.com
-DOMAIN-SUFFIX,breastfeedingdelightedtease.com
-DOMAIN-SUFFIX,breathinggeoff.com
-DOMAIN-SUFFIX,bred4tula.com
-DOMAIN-SUFFIX,breechesbiddingratification.com
-DOMAIN-SUFFIX,breederparadisetoxic.com
-DOMAIN-SUFFIX,breedscrockrobes.com
-DOMAIN-SUFFIX,breitbart.com
-DOMAIN-SUFFIX,breka.fit
-DOMAIN-SUFFIX,bremiajos.cfd
-DOMAIN-SUFFIX,brendedankh.qpon
-DOMAIN-SUFFIX,brene.site
-DOMAIN-SUFFIX,brethelkumys.com
-DOMAIN-SUFFIX,brevitychestprocess.com
-DOMAIN-SUFFIX,breweryalevin.cfd
-DOMAIN-SUFFIX,brewingjoie.com
-DOMAIN-SUFFIX,brfkvvvpxn.com
-DOMAIN-SUFFIX,bribedpattie.world
-DOMAIN-SUFFIX,brick.xhamster.com
-DOMAIN-SUFFIX,brick.xhamster.desi
-DOMAIN-SUFFIX,brick.xhamster2.com
-DOMAIN-SUFFIX,brick.xhamster3.com
-DOMAIN-SUFFIX,brickertarot.world
-DOMAIN-SUFFIX,bricks-co.com
-DOMAIN-SUFFIX,bricoleapioid.com
-DOMAIN-SUFFIX,brid.tv
-DOMAIN-SUFFIX,bridalmaced.qpon
-DOMAIN-SUFFIX,bridesasudden.click
-DOMAIN-SUFFIX,bridgearchly.com
-DOMAIN-SUFFIX,bridgetrack.com
-DOMAIN-SUFFIX,briefcasebuoyduster.com
-DOMAIN-SUFFIX,briefinedibleparson.com
-DOMAIN-SUFFIX,brieflizard.com
-DOMAIN-SUFFIX,brieftrouble.com
-DOMAIN-SUFFIX,brielayover.com
-DOMAIN-SUFFIX,brieryardish.com
-DOMAIN-SUFFIX,brieveuh.com
-DOMAIN-SUFFIX,brigadedelegatesandbox.com
-DOMAIN-SUFFIX,brightadnetwork.com
-DOMAIN-SUFFIX,brightcriticism.com
-DOMAIN-SUFFIX,brighteon.tv
-DOMAIN-SUFFIX,brighteroption.com
-DOMAIN-SUFFIX,brightforesthill.com
-DOMAIN-SUFFIX,brightlybore.com
-DOMAIN-SUFFIX,brightlygauntlet.com
-DOMAIN-SUFFIX,brightonclick.com
-DOMAIN-SUFFIX,brightruin.pro
-DOMAIN-SUFFIX,brightshare.com
-DOMAIN-SUFFIX,brigsgasp.com
-DOMAIN-SUFFIX,briguerbibby.cyou
-DOMAIN-SUFFIX,briiliantdates.net
-DOMAIN-SUFFIX,brilliantclosingcancel.com
-DOMAIN-SUFFIX,brilliantoverhaulunshaken.com
-DOMAIN-SUFFIX,brillnitrite.rest
-DOMAIN-SUFFIX,brimlysurgy.world
-DOMAIN-SUFFIX,brimmallow.com
-DOMAIN-SUFFIX,brimsupshaft.qpon
-DOMAIN-SUFFIX,bringmesports.com
-DOMAIN-SUFFIX,brinkprovenanceamenity.com
-DOMAIN-SUFFIX,brinnylasing.cyou
-DOMAIN-SUFFIX,brioletredeyes.com
-DOMAIN-SUFFIX,brionyamanist.com
-DOMAIN-SUFFIX,brisk-cold.pro
-DOMAIN-SUFFIX,briskchart.com
-DOMAIN-SUFFIX,brissesinstyle.qpon
-DOMAIN-SUFFIX,bristlechurch.com
-DOMAIN-SUFFIX,britainhands.com
-DOMAIN-SUFFIX,brithungown.com
-DOMAIN-SUFFIX,britishfinestarrangement.com
-DOMAIN-SUFFIX,britishinquisitive.com
-DOMAIN-SUFFIX,brittlesturdyunlovable.com
-DOMAIN-SUFFIX,brllllantsdates.com
-DOMAIN-SUFFIX,brmljcaxcchtu.space
-DOMAIN-SUFFIX,bro4.biz
-DOMAIN-SUFFIX,broadensilkslush.com
-DOMAIN-SUFFIX,broadsheetspikesnick.com
-DOMAIN-SUFFIX,broadsidedaisysanta.com
-DOMAIN-SUFFIX,broadsimp.site
-DOMAIN-SUFFIX,broadstreetads.com
-DOMAIN-SUFFIX,broadsview.site
-DOMAIN-SUFFIX,brobarrett.com
-DOMAIN-SUFFIX,brodmn.com
-DOMAIN-SUFFIX,brodownload6s.site
-DOMAIN-SUFFIX,brodownload8s.com
-DOMAIN-SUFFIX,brodownloads.site
-DOMAIN-SUFFIX,brogetcode4s.cc
-DOMAIN-SUFFIX,broidensordini.com
-DOMAIN-SUFFIX,broken-independent.pro
-DOMAIN-SUFFIX,broken-reason.pro
-DOMAIN-SUFFIX,brokenchairlaugh.com
-DOMAIN-SUFFIX,broker-qx.pro
-DOMAIN-SUFFIX,brokerbabe.com
-DOMAIN-SUFFIX,bromianvakeel.com
-DOMAIN-SUFFIX,brominsarouser.cyou
-DOMAIN-SUFFIX,bromiuswickets.shop
-DOMAIN-SUFFIX,bromoilnapalms.com
-DOMAIN-SUFFIX,bronca.site
-DOMAIN-SUFFIX,bronze-leather.com
-DOMAIN-SUFFIX,bronzesong.pro
-DOMAIN-SUFFIX,broodoppressiveuptodate.com
-DOMAIN-SUFFIX,broonleetmen.help
-DOMAIN-SUFFIX,brosdefender.com
-DOMAIN-SUFFIX,brosyplating.click
-DOMAIN-SUFFIX,brothdisguiseparrot.com
-DOMAIN-SUFFIX,brotherhoodonionbuttons.com
-DOMAIN-SUFFIX,brotherhoodroughly.com
-DOMAIN-SUFFIX,brothersincash.com
-DOMAIN-SUFFIX,browbeatcaramelstole.com
-DOMAIN-SUFFIX,browdichu.cyou
-DOMAIN-SUFFIX,broworker4s.com
-DOMAIN-SUFFIX,broworker6s.com
-DOMAIN-SUFFIX,broworkers5s.com
-DOMAIN-SUFFIX,browse-boost.com
-DOMAIN-SUFFIX,browsecoherentunrefined.com
-DOMAIN-SUFFIX,browsekeeper.com
-DOMAIN-SUFFIX,browserr.top
-DOMAIN-SUFFIX,browsers.support
-DOMAIN-SUFFIX,browsfried.com
-DOMAIN-SUFFIX,browsiprod.com
-DOMAIN-SUFFIX,browsobsolete.com
-DOMAIN-SUFFIX,browzerstamped.shop
-DOMAIN-SUFFIX,brtsumthree.com
-DOMAIN-SUFFIX,brtwlhfmomcng.site
-DOMAIN-SUFFIX,bruceleadx1.com
-DOMAIN-SUFFIX,brudirect.com
-DOMAIN-SUFFIX,bruinsinapt.digital
-DOMAIN-SUFFIX,bruisedblock.pro
-DOMAIN-SUFFIX,bruisedpaperworkmetre.com
-DOMAIN-SUFFIX,bruiseentrustcarbonate.com
-DOMAIN-SUFFIX,brumbietimet.rest
-DOMAIN-SUFFIX,brunchcreatesenses.com
-DOMAIN-SUFFIX,brunetteeffaceduring.com
-DOMAIN-SUFFIX,brunettescarecrowyoga.com
-DOMAIN-SUFFIX,bruntstabulae.com
-DOMAIN-SUFFIX,brushedowl.shop
-DOMAIN-SUFFIX,brushexpert.com
-DOMAIN-SUFFIX,brushtriplehorns.com
-DOMAIN-SUFFIX,brusklylawton.com
-DOMAIN-SUFFIX,bruteportrait.com
-DOMAIN-SUFFIX,brutishlylifevoicing.com
-DOMAIN-SUFFIX,brutuzzzymudq.world
-DOMAIN-SUFFIX,brxwysvktxzja.site
-DOMAIN-SUFFIX,brygella.com
-DOMAIN-SUFFIX,bryny.xyz
-DOMAIN-SUFFIX,bryond.com
-DOMAIN-SUFFIX,bryozoasauter.qpon
-DOMAIN-SUFFIX,brzvtueeyyqdo.space
-DOMAIN-SUFFIX,bs-adserver.b-cdn.net
-DOMAIN-SUFFIX,bsaziqhaldzoy.site
-DOMAIN-SUFFIX,bsbkrgcpjsugv.website
-DOMAIN-SUFFIX,bsbrcdna.com
-DOMAIN-SUFFIX,bsbshhxpotmyt.site
-DOMAIN-SUFFIX,bscrlrflxg.com
-DOMAIN-SUFFIX,bscscan.com
-DOMAIN-SUFFIX,bservr.com
-DOMAIN-SUFFIX,bsfeuihxrczte.space
-DOMAIN-SUFFIX,bsfoxmbspamhy.com
-DOMAIN-SUFFIX,bsgbd77l.de
-DOMAIN-SUFFIX,bshrdr.com
-DOMAIN-SUFFIX,bsirnnnndv.com
-DOMAIN-SUFFIX,bsjxodcvrvgbe.online
-DOMAIN-SUFFIX,bskakeiotyvge.online
-DOMAIN-SUFFIX,bskcufyvpaowi.store
-DOMAIN-SUFFIX,bsktpurreic.com
-DOMAIN-SUFFIX,bssaly.com
-DOMAIN-SUFFIX,bsshxdxtfaiis.space
-DOMAIN-SUFFIX,bsuvjsufjfizl.website
-DOMAIN-SUFFIX,bsvhxfxckrmixla.xyz
-DOMAIN-SUFFIX,bsxjqlasfcoaa.site
-DOMAIN-SUFFIX,bsxswvrbstntq.site
-DOMAIN-SUFFIX,bsynqoqe.xyz
-DOMAIN-SUFFIX,bt-fr-cl.com
-DOMAIN-SUFFIX,bt2pt.com
-DOMAIN-SUFFIX,btagmedia.com
-DOMAIN-SUFFIX,btaumppksprkk.website
-DOMAIN-SUFFIX,btdfqejriamjr.website
-DOMAIN-SUFFIX,btdykfecwvyso.online
-DOMAIN-SUFFIX,bte29912.xyz
-DOMAIN-SUFFIX,btflrjpv.com
-DOMAIN-SUFFIX,btghbzlmzpxzw.website
-DOMAIN-SUFFIX,btguard.com
-DOMAIN-SUFFIX,bthin.site
-DOMAIN-SUFFIX,bthythvdrdbud.space
-DOMAIN-SUFFIX,btiosxrukb.com
-DOMAIN-SUFFIX,btixtaodva.com
-DOMAIN-SUFFIX,btkovrnejjrnb.com
-DOMAIN-SUFFIX,btoetwervetat.space
-DOMAIN-SUFFIX,btpnav.com
-DOMAIN-SUFFIX,btprmnav.com
-DOMAIN-SUFFIX,btr.domywife.com
-DOMAIN-SUFFIX,btrem.site
-DOMAIN-SUFFIX,btrll.com
-DOMAIN-SUFFIX,btrsagtwkntax.website
-DOMAIN-SUFFIX,btserve.com
-DOMAIN-SUFFIX,bttphsqvrunfw.store
-DOMAIN-SUFFIX,bttrack.com
-DOMAIN-SUFFIX,btvhdscr.com
-DOMAIN-SUFFIX,btvuiqgio.xyz
-DOMAIN-SUFFIX,btwqllmeezmjn.online
-DOMAIN-SUFFIX,btxxxnav.com
-DOMAIN-SUFFIX,btyklhjjasgfm.club
-DOMAIN-SUFFIX,btzpcronctvtf.website
-DOMAIN-SUFFIX,buawop.cloud
-DOMAIN-SUFFIX,bubalesriffler.rest
-DOMAIN-SUFFIX,bubblelout.cyou
-DOMAIN-SUFFIX,bubblemayflowernephew.com
-DOMAIN-SUFFIX,bubbly-coach.pro
-DOMAIN-SUFFIX,bubckfgy.com
-DOMAIN-SUFFIX,buboedpastour.qpon
-DOMAIN-SUFFIX,bucaretelecon.cyou
-DOMAIN-SUFFIX,bucketsofbanners.com
-DOMAIN-SUFFIX,buckeyekantars.com
-DOMAIN-SUFFIX,buckingliards.rest
-DOMAIN-SUFFIX,bucklechemistdensity.com
-DOMAIN-SUFFIX,bucksmein.com
-DOMAIN-SUFFIX,buckumoore.com
-DOMAIN-SUFFIX,buckweeklyrecording.com
-DOMAIN-SUFFIX,budaringing.life
-DOMAIN-SUFFIX,buddiejerkish.rest
-DOMAIN-SUFFIX,buddiesforcer.rest
-DOMAIN-SUFFIX,buddledcurver.cyou
-DOMAIN-SUFFIX,budekxqreokot.space
-DOMAIN-SUFFIX,budfduwa.xyz
-DOMAIN-SUFFIX,budgeencodeunions.com
-DOMAIN-SUFFIX,budgepenitent.com
-DOMAIN-SUFFIX,budsminepatent.com
-DOMAIN-SUFFIX,budurl.com
-DOMAIN-SUFFIX,buevauzsyouob.space
-DOMAIN-SUFFIX,buffalodots.com
-DOMAIN-SUFFIX,buffooncountabletreble.com
-DOMAIN-SUFFIX,buffosingots.life
-DOMAIN-SUFFIX,buffstortor.help
-DOMAIN-SUFFIX,buffyalboin.cyou
-DOMAIN-SUFFIX,bufyiggmqdivt.site
-DOMAIN-SUFFIX,bugaruche.com
-DOMAIN-SUFFIX,bugdt-ica.rocks
-DOMAIN-SUFFIX,buggerswaka.qpon
-DOMAIN-SUFFIX,bugleczmoidgxo.com
-DOMAIN-SUFFIX,buglucmoob.com
-DOMAIN-SUFFIX,bugs2022.com
-DOMAIN-SUFFIX,bugsfighter.com
-DOMAIN-SUFFIX,buhjituyqshb.xyz
-DOMAIN-SUFFIX,buhnfwjscajmy.website
-DOMAIN-SUFFIX,buikolered.com
-DOMAIN-SUFFIX,buildnaq91.site
-DOMAIN-SUFFIX,builtinintriguingchained.com
-DOMAIN-SUFFIX,bujerdaz.com
-DOMAIN-SUFFIX,bukusukses.com
-DOMAIN-SUFFIX,buleor.com
-DOMAIN-SUFFIX,bulginglair.com
-DOMAIN-SUFFIX,bulgingreact.com
-DOMAIN-SUFFIX,buljlwaclnocq.site
-DOMAIN-SUFFIX,bulkconflictpeculiarities.com
-DOMAIN-SUFFIX,bulky-battle.com
-DOMAIN-SUFFIX,bulkypush.pro
-DOMAIN-SUFFIX,bullaninique.cyou
-DOMAIN-SUFFIX,bullchat.com
-DOMAIN-SUFFIX,bulletadopt.com
-DOMAIN-SUFFIX,bulletproxy.ch
-DOMAIN-SUFFIX,bullfeeding.com
-DOMAIN-SUFFIX,bulliercarcel.life
-DOMAIN-SUFFIX,bullionglidingscuttle.com
-DOMAIN-SUFFIX,bullionyield.com
-DOMAIN-SUFFIX,bullismwashpot.cyou
-DOMAIN-SUFFIX,bullz-eye.com
-DOMAIN-SUFFIX,bulochka.xyz
-DOMAIN-SUFFIX,bulrev.com
-DOMAIN-SUFFIX,bulserv.com
-DOMAIN-SUFFIX,bulswrmjg.com
-DOMAIN-SUFFIX,bultellchais.cyou
-DOMAIN-SUFFIX,bultowbrowden.qpon
-DOMAIN-SUFFIX,bulyiel.com
-DOMAIN-SUFFIX,bumaqblyqviw.fun
-DOMAIN-SUFFIX,bumfxnyfnepjh.online
-DOMAIN-SUFFIX,bumidpuaraodp.today
-DOMAIN-SUFFIX,bummalodenary.top
-DOMAIN-SUFFIX,bummestkaffir.help
-DOMAIN-SUFFIX,bumpertenets.help
-DOMAIN-SUFFIX,bumpy-beyond.com
-DOMAIN-SUFFIX,bumq.com
-DOMAIN-SUFFIX,bumseemsikri.com
-DOMAIN-SUFFIX,bumskontakte.ch
-DOMAIN-SUFFIX,bunchciderall.com
-DOMAIN-SUFFIX,bundlemoviepumice.com
-DOMAIN-SUFFIX,bundtdroners.help
-DOMAIN-SUFFIX,bungalowdispleasedwheeled.com
-DOMAIN-SUFFIX,bungeedubbah.com
-DOMAIN-SUFFIX,bungeesaker.com
-DOMAIN-SUFFIX,bunglersignoff.com
-DOMAIN-SUFFIX,bungosmantis.com
-DOMAIN-SUFFIX,bunintruder.com
-DOMAIN-SUFFIX,bunkcalfcrystal.com
-DOMAIN-SUFFIX,bunkersparring.shop
-DOMAIN-SUFFIX,bunkoedtaille.cyou
-DOMAIN-SUFFIX,bunkr.si
-DOMAIN-SUFFIX,bunkrr.su
-DOMAIN-SUFFIX,bunniaplebby.help
-DOMAIN-SUFFIX,bunningscapple.com
-DOMAIN-SUFFIX,bunnylust.com
-DOMAIN-SUFFIX,bunquaver.com
-DOMAIN-SUFFIX,bunrakukendyr.life
-DOMAIN-SUFFIX,bunth.net
-DOMAIN-SUFFIX,buntssejunct.cyou
-DOMAIN-SUFFIX,bunvnajk.com
-DOMAIN-SUFFIX,bunzamxbtj.space
-DOMAIN-SUFFIX,buondua.com
-DOMAIN-SUFFIX,buoyant-most.pro
-DOMAIN-SUFFIX,buoydeparturediscontent.com
-DOMAIN-SUFFIX,bupatp.com
-DOMAIN-SUFFIX,buphagadsnames.help
-DOMAIN-SUFFIX,bupnjndj.com
-DOMAIN-SUFFIX,buqkrzbrucz.com
-DOMAIN-SUFFIX,buram.xyz
-DOMAIN-SUFFIX,burbarkholpen.com
-DOMAIN-SUFFIX,burbotssourly.cfd
-DOMAIN-SUFFIX,burdouraifou.net
-DOMAIN-SUFFIX,bureaubittercomic.com
-DOMAIN-SUFFIX,bureautrickle.com
-DOMAIN-SUFFIX,bureauxcope.casa
-DOMAIN-SUFFIX,burellylimu.world
-DOMAIN-SUFFIX,burgea.com
-DOMAIN-SUFFIX,burghalbuttal.help
-DOMAIN-SUFFIX,burglarycirculationintense.com
-DOMAIN-SUFFIX,burialattentivestrawberry.com
+DOMAIN-SUFFIX,bhjmacgkyiiux.website # 随机字符串域名，疑似广告 / 脚本跳转用途
+DOMAIN-SUFFIX,bhkfnroleqcjhm.xyz # 哈希式域名，结构符合广告 / 跳转用途
+DOMAIN-SUFFIX,bhklwrocp.com # 简短组合域名，可能为广告跳转中继
+DOMAIN-SUFFIX,bhkyvtbdvmtrk.site # 混淆域名 + .site 后缀，疑为广告或跟踪用途
+DOMAIN-SUFFIX,bhnbjvjtachgn.online # 随机组合长域名，疑似广告 / 跳转用途
+DOMAIN-SUFFIX,bhnnop.com # 简化结构域名，可能为跳转 / 诱导用途
+DOMAIN-SUFFIX,bhpwqtiudzqnz.vip # .vip 后缀 + 混淆字符域名，广告 / 跳转可疑
+DOMAIN-SUFFIX,bhqbirsac.site # 哈希结构 + .site 后缀，行为跳转 / 重定向可能
+DOMAIN-SUFFIX,bhrltiziiipad.website # 长混淆域名 + “ipad” 字样，疑为诱导跳转用途
+DOMAIN-SUFFIX,bhwfvfevnqg.com # 随机字符组合域名，广告跳转 / 脚本用途可能
+DOMAIN-SUFFIX,bhyyiodopichc.site # 混淆长域名 + .site 后缀，广告 / 跳转可疑
+DOMAIN-SUFFIX,biakvwhahqeto.site # 随机哈希域名，疑似广告 / 跳转载体
+DOMAIN-SUFFIX,biaqghckapnum.online # 混淆组合域名，跳转 / 脚本用途可疑
+DOMAIN-SUFFIX,biassedlunker.cfd # .cfd 后缀 + 随机组合，广告 / 跳转可疑
+DOMAIN-SUFFIX,biatcrsqdiusny.xyz # 哈希域名 + .xyz 后缀，行为跳转 / 资源调用可疑
+DOMAIN-SUFFIX,bibbonsvoter.cyou # .cyou 后缀 + 随机域名结构，广告 / 跳转用途可能
+DOMAIN-SUFFIX,bicnhetimm.com # 随机结构域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,bicolorvaccine.shop # 可疑“vaccine” + shop 组合域名，可能用于诱导广告  
+DOMAIN-SUFFIX,bidarblam.com # 随机域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,bidbeneficial.com # 含 “bid” 字样，可能为广告 / 竞价接口域名  
+DOMAIN-SUFFIX,bidberry.net # 含 “bid” ，疑似广告行为域名  
+DOMAIN-SUFFIX,bidbrain.app # Bidbrain 是 Google Shopping 出价优化工具，具广告 / 竞价用途  
+DOMAIN-SUFFIX,bidclickmedia.com # 含广告点击 / 媒体性质，可能为广告平台域名  
+DOMAIN-SUFFIX,bidder.criteo.com # Criteo 广告出价器接口域名，确认广告用途  
+DOMAIN-SUFFIX,bidder.newspassid.com # 含 “bidder” 字样的域名，可能为广告 / 竞价平台  
+DOMAIN-SUFFIX,bidderads.com # 含 “ads” 与 “bidder” 组合域，广告用途可能性高  
+DOMAIN-SUFFIX,bidfilter.com # 含 “bid” 与 “filter” 组合，广告 / 过滤 / 竞价相关用途可能  
+DOMAIN-SUFFIX,bidgear.com # 含 “bid” 前缀组合域名，疑似广告 / 竞价网络    
+DOMAIN-SUFFIX,bidvertiser.com # 广告网络平台，用于广告发布与流量变现 
+DOMAIN-SUFFIX,biehuljjsllzf.website # 随机结构域名，广告 / 跳转可能  
+DOMAIN-SUFFIX,biemedia.com # 媒体 / 广告相关品牌可能存在广告行为  
+DOMAIN-SUFFIX,bieplmwcawogmep.xyz # 随机哈希域名，用于广告 / 脚本注入可能  
+DOMAIN-SUFFIX,bigbasketshop.com # 电商 / 零售平台，无广告中转用途记录  
+DOMAIN-SUFFIX,bigbootymania.com # 成人 / 娱乐推广域名，广告用途可能  
+DOMAIN-SUFFIX,bigboxads.com # 广告网络平台主域名  
+DOMAIN-SUFFIX,bigchoicegroup.com # 营销 / 广告公司域名  
+DOMAIN-SUFFIX,bigcock.one # 成人 / 色情广告域名  
+DOMAIN-SUFFIX,bigdick.tube # 成人 / 色情广告域名  
+DOMAIN-SUFFIX,biggbaymen.top # 出现在广告过滤规则中，广告 / 跳转域名  
+DOMAIN-SUFFIX,biggerluck.com # 出现在 AdGuard 过滤规则中，广告推广域名  
+DOMAIN-SUFFIX,bigpipes.co # 可疑推广接口域名，存在广告可能   
+DOMAIN-SUFFIX,bigsdbmcpgvyq.website # 混淆结构域名，广告 / 跳转可疑  
+DOMAIN-SUFFIX,bigsquidrc.com # 可疑服务名称 + “squid” 字样，可能为广告 / 中转用途
+DOMAIN-SUFFIX,bigstoreminigames.space # 迷你游戏域名，常用于广告推送与资源加载
+DOMAIN-SUFFIX,bigtitsgallery.net # 成人内容站点，广告 / 跳转行为高度可能
+DOMAIN-SUFFIX,bigtitslust.com # 成人广告站点，含强广告属性
+DOMAIN-SUFFIX,bihcddfenx.com # 混淆字符域名，用于广告 / 脚本注入可能
+DOMAIN-SUFFIX,biijyuaeuzssw.online # 超长随机域名格式，广告 / 跳转可能性高
+DOMAIN-SUFFIX,biirmjnw.icu # .icu 类型常见于垃圾 / 跳转域名，广告可能性高
+DOMAIN-SUFFIX,bikespeed.shop # 电商 / 宣传域名，可能含广告 / 推广脚本
+DOMAIN-SUFFIX,bikestripara.cfd # .cfd 域名高风险广告 / 跳转特性
+DOMAIN-SUFFIX,bildirim.eu # “bildirim” 在土耳其语中意为“通知”，可能为推送 / 通知广告用途
+DOMAIN-SUFFIX,billboardwring.com # “billboard” 字样，倾向广告 / 宣传用途
+DOMAIN-SUFFIX,bilqi-omv.com # 混淆结构域名，有脚本 / 跳转可能
+DOMAIN-SUFFIX,bilsyndication.com # 有广告 / 内容分发背景
+DOMAIN-SUFFIX,bimahpivotal.shop # 商业／推广用词域名，可能用于广告跳转  
+DOMAIN-SUFFIX,bimorphawner.world # 结构异常域名，可能含广告中继用途  
+DOMAIN-SUFFIX,bin-layer.de # 可能为广告中转 / 脚本分发节点  
+DOMAIN-SUFFIX,bin-layer.ru # 同源俄罗斯节点，广告/跳转用途可能性高  
+DOMAIN-SUFFIX,bin-tds.site # TDS（跳转域名服务）类型域名，确认广告用途  
+DOMAIN-SUFFIX,binance.com # 合法加密交易平台主域，不纳入广告屏蔽  
+DOMAIN-SUFFIX,binaryoptionsgame.com # 投资 / 二元期权题材站点，带有推广广告性质  
+DOMAIN-SUFFIX,bindirect.click # “click” 域名，高风险跳转 / 广告特征  
+DOMAIN-SUFFIX,binfulgorer.rest # 不常见后缀，可能为欺诈/广告用途  
+DOMAIN-SUFFIX,bingohall.ag # 在线博彩广告站点域名，确认广告用途  
+DOMAIN-SUFFIX,binlayer.com # 广告中继 / 脚本分发用途域名  
+DOMAIN-SUFFIX,binlayer.de # 同上，广告中继 / 接口用途  
+DOMAIN-SUFFIX,binnitearchie.digital # 数字 / 混淆域名，可能用于广告跳转  
+DOMAIN-SUFFIX,binomlink.com # binom 广告网络子域猜测，可能用于追踪  
+DOMAIN-SUFFIX,binomnet.com # 同上，广告网络相关用途可能性高  
+DOMAIN-SUFFIX,binomnet3.com # 已知广告劫持 / 弹窗重定向域名  
+DOMAIN-SUFFIX,binomtrcks.site # 与 binom 追踪库相关域名，疑似广告 / SDK 跟踪用途  
+DOMAIN-SUFFIX,bionestraff.pro # 名称含 “traff(fic)” 意味追踪含义，疑似广告 / 跟踪用途   
+DOMAIN-SUFFIX,bipslkinmydwb.store # 可疑后缀 store + 混淆结构，可能广告用途  
+DOMAIN-SUFFIX,biptoakrolaimte.xyz # 随机结构 .xyz 域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,biqqavjzrmmkr.store # 哈希 + store 后缀，广告 / 下载诱导可能  
+DOMAIN-SUFFIX,birianizymome.top # 随机结构 top 域名，具广告 / 跳转可能  
+DOMAIN-SUFFIX,birringisogriv.shop # 可疑广告 / 跳转用途域名  
+DOMAIN-SUFFIX,birthday3452.fun # 活动宣传域名，可能用于广告跳转  
+DOMAIN-SUFFIX,birthjeans.icu # 品牌掩饰广告域名  
+DOMAIN-SUFFIX,biscuitmortify.com # 混淆域名，可能用于推广 / 广告  
+DOMAIN-SUFFIX,biskerando.com # 可疑跳转 / 广告用途域名  
+DOMAIN-SUFFIX,bissononsweep.world # 可疑广告 / 营销域名  
+DOMAIN-SUFFIX,bit-ad.com # 广告网络 / 联盟域名 (BitAD)   
+DOMAIN-SUFFIX,bitadexchange.com # 广告交换平台域名  
+DOMAIN-SUFFIX,bitadx.one # 广告网络域名  
+DOMAIN-SUFFIX,bitbeat7.com # 可疑广告 / 新闻跳转域名  
+DOMAIN-SUFFIX,bitchute.com # 视频平台域名，虽含广告模块，但非纯广告域名 
+DOMAIN-SUFFIX,bitcoadz.io # 加密 / 广告网络混用域名  
+DOMAIN-SUFFIX,bitcotasks.com # 可疑任务 / 赚币类域名，常见广告 / 骗局用途  
+DOMAIN-SUFFIX,bitdefender.top # “防病毒”伪装域名，可能用于推广 / 钓鱼  
+DOMAIN-SUFFIX,bitdragonapp.monster # 加密 / 应用推广域名，具诱导安装 / 广告可能  
+DOMAIN-SUFFIX,bitskins.com # 知名游戏物品交易平台（非广告域名）  
+DOMAIN-SUFFIX,bitspush.io # 推送 / 广告平台域名，具行为特征  
+DOMAIN-SUFFIX,biturl.co # 短域名服务 / 跳转工具，存在广告 / 重定向可能  
+DOMAIN-SUFFIX,bitx.tv # .tv 媒体 / 广告域名，存在推广用途可能  
+DOMAIN-SUFFIX,biucjsmmvnzbm.online # 高度混淆域名，可能广告 / 跳转用途  
+DOMAIN-SUFFIX,bivdhulygjipf.store # 随机字符 + 电商后缀域名，疑似广告 / 推广用途  
+DOMAIN-SUFFIX,bivvmhkimlqzq.store # 随机化广告 / 跳转域名  
+DOMAIN-SUFFIX,biwipuque.com # 可疑广告跳转域名  
+DOMAIN-SUFFIX,bixinrighter.shop # 商业广告域名，结构符合广告用途  
+DOMAIN-SUFFIX,bixkbnsscedhmd.com # 哈希式广告域名  
+DOMAIN-SUFFIX,biyjqmadbjdyx.xyz # 随机字符 .xyz 域名，广告可能性高  
+DOMAIN-SUFFIX,bizjournals.com # 主流商业新闻网站，未列入广告跳转域名  
+DOMAIN-SUFFIX,bizlhvylltftl.space # 可疑广告 / 跳转域名   
+DOMAIN-SUFFIX,bizonads-ssp.com # 广告 SSP / 中转域名，确认广告用途  
+DOMAIN-SUFFIX,bizonesreclude.cyou # 可疑跳转域名  
+DOMAIN-SUFFIX,bizosama.com # 可疑广告 / 跳转用途  
+DOMAIN-SUFFIX,bizrotator.com # 广告旋转 / 跳转平台域名，确认广告用途  
+DOMAIN-SUFFIX,bizx.info # 跟踪 / 广告跳转域名  
+DOMAIN-SUFFIX,bizzclick.com # 点击广告 / 跳转用途域名  
+DOMAIN-SUFFIX,bj2550.com # 可疑跳转 / 广告域名  
+DOMAIN-SUFFIX,bjadelkrmufem.space # 随机域名，广告可能性高  
+DOMAIN-SUFFIX,bjafafesg.com # 混淆结构广告域名  
+DOMAIN-SUFFIX,bjakku.com # 可疑广告跳转域名  
+DOMAIN-SUFFIX,bjchymxbdtywm.site # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bjdgzffnutlqs.site # 可疑广告跳转域名  
+DOMAIN-SUFFIX,bjdsmnjybmjdl.site # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bjekmleoupuht.space # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bjhbnbaptcaaw.site # 可疑跳转 / 广告载体域名  
+DOMAIN-SUFFIX,bjjgpmqyvpr.xyz # .xyz 类型域名，疑似广告跳转用途  
+DOMAIN-SUFFIX,bjokokdeoccv.com # 混淆结构广告 / 跳转域名  
+DOMAIN-SUFFIX,bjqug.xyz # 出现于若干广告规则集，广告跳转用途  
+DOMAIN-SUFFIX,bjvhcjulwwnmk.space # 混淆跳转域名，广告用途可能  
+DOMAIN-SUFFIX,bjxvikyfxgg.net # 哈希式广告域名，中转 / 跳转用途  
+DOMAIN-SUFFIX,bjzabeeqjktyy.website # 随机字符广告域名，行为特征明显  
+DOMAIN-SUFFIX,bkjhqkohal.com # 可疑广告跳转域名  
+DOMAIN-SUFFIX,bkoqiqnmxfgth.website # 随机字符广告域名，用于跳转 / 资源调用  
+DOMAIN-SUFFIX,bkpmmpsqgluwj.online # 随机字符域名，广告 / 跳转用途可疑  
+DOMAIN-SUFFIX,bkprglyptic.shop # 商业广告 / 电商诱导域名  
+DOMAIN-SUFFIX,bkqklqvgoggwv.top # 随机跳转 / 广告中转域名  
+DOMAIN-SUFFIX,bkqykixrzrgwr.space # 垃圾推广 / 弹窗广告域名  
+DOMAIN-SUFFIX,bkrxfveyilyqu.site # 隐蔽广告脚本加载域名  
+DOMAIN-SUFFIX,bkssfffcsbfke.website # 垃圾 / 广告中转域名  
+DOMAIN-SUFFIX,bktyqhnikxjxqn.com # 高风险广告 / 跳转用途域名  
+DOMAIN-SUFFIX,bkujuvnjjxlnj.space # 弹窗 / 广告重定向域名  
+DOMAIN-SUFFIX,bkwuodwvehlzr.life # 广告 / 推广用途域名  
+DOMAIN-SUFFIX,bkykuvbxiqtzu.store # 电商诱导 / 广告资源域名  
+DOMAIN-SUFFIX,bkzojuncitbqa.space # 随机广告 / 跳转节点域名  
+DOMAIN-SUFFIX,bl230126pb.com # 广告 / 跳转用途可疑  
+DOMAIN-SUFFIX,blackandwhite-temporary.com # 推广 / 营销跳转站域名  
+DOMAIN-SUFFIX,blackandwhite-welcome.pro # 带欢迎提示结构的网站，可能广告载体  
+DOMAIN-SUFFIX,blackboardholdingrpm.com # 垃圾 / 跳转用途可疑  
+DOMAIN-SUFFIX,blackedsubjected.com # 成人 / 推广广告域名  
+DOMAIN-SUFFIX,blackenheartbreakrehearsal.com # 文艺名义包装广告域名  
+DOMAIN-SUFFIX,blackenoz.com # 混淆广告域名  
+DOMAIN-SUFFIX,blacklinknow.com # 营销 / 本地推广平台域名，含广告性质  
+DOMAIN-SUFFIX,blacklinknowss.co # blacklinknow 的变体域名，可能用于广告跳转  
+DOMAIN-SUFFIX,blackpics.net # 成人 / 图片内容平台域名，有广告性质  
+DOMAIN-SUFFIX,blacksonblondes.com # 成人 / 广告站点域名  
+DOMAIN-SUFFIX,blamads.com # “ads” 后缀域名，具广告用途可能  
+DOMAIN-SUFFIX,blartexonym.cfd # .cfd 类型域名，用于投放广告可能性高，已被若干拦截规则识别  
+DOMAIN-SUFFIX,blastcahs.com # 拼写近似 “blast cash”，可能为广告/推广用途  
+DOMAIN-SUFFIX,blastedolfacty.world # 非常规域名结构，疑似广告跳转用途  
+DOMAIN-SUFFIX,blauuamgfbuyg.site # 垃圾域名结构，广告 / 无效用途可能性高  
+DOMAIN-SUFFIX,blaze-media.com # 合法媒体 / 广告公司域名（The Blaze 广告服务）  
+DOMAIN-SUFFIX,blazyunc.shop # 可疑广告 / 推广站点结构，可能用于转化  
+DOMAIN-SUFFIX,bleatyskryer.cyou # .cyou 类型域名，广告 / 跳转可能性高  
+DOMAIN-SUFFIX, blendsubslot.rest # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX, bletopreseynat.org # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX, blg-1216lb.com # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX, blgogjamwvyjn.top # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX, blicatedlitytleme.org # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX, bliink.io # 广告技术公司 Bliink，提供上下文广告服务  
+DOMAIN-SUFFIX, blijvertellin.rest # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX, blindlycckw.qpon # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX, blinispelts.digital # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX,bliqjhstabiqd.space # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,blismedia.com # 出现在 EasyList 广告规则中，广告媒体平台  
+DOMAIN-SUFFIX,blissfuldes.com # 出现在 EasyList 广告规则中，广告 / 跳转域名  
+DOMAIN-SUFFIX,blissfulmass.com # 出现在 EasyList 广告规则中，广告 / 跳转域名  
+DOMAIN-SUFFIX,blisterpompey.com # 出现在 EasyList 广告规则中，广告 / 跳转域名  
+DOMAIN-SUFFIX,blistest.xyz # 出现在 EasyList 广告规则中，广告 / 跳转域名   
+DOMAIN-SUFFIX,blitumgrousy.shop # 可疑广告购物 / 跳转用途域名  
+DOMAIN-SUFFIX,blizzdata.site # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,blknbzvjncavt.store # 混淆结构，疑似广告 / 跳转用途域名  
+DOMAIN-SUFFIX,blmihlvicnopl.store # 可疑广告 / 跳转用途域名  
+DOMAIN-SUFFIX,blnrwscxnogfx.store # 混淆结构域名，可能用于广告 / 跳转  
+DOMAIN-SUFFIX,bloatingexpectantretinal.com # 字符混淆广告域名  
+DOMAIN-SUFFIX,blobbycrammed.cfd # 可疑广告 / 跳转中继域名  
+DOMAIN-SUFFIX,bloblohub.com # 可疑媒体 / 广告跳转域名  
+DOMAIN-SUFFIX,block-ad.com # 明确广告阻断 / 跳转功能域名  
+DOMAIN-SUFFIX,blockadsnot.com # 广告相关反向取名跳转域名  
+DOMAIN-SUFFIX,blockadstop.info # 广告阻断 / 跳转混淆用途域名  
+DOMAIN-SUFFIX,blockchain-ads.com # 广告平台 / 跳转域名   
+DOMAIN-SUFFIX,blockedanticipated.com # 混淆广告跳转域名，存在行为特征  
+DOMAIN-SUFFIX,blockertrilli.life # 随机化结构域名，疑似广告 / 重定向  
+DOMAIN-SUFFIX,blockingdarlingshrivel.com # 混淆式域名，疑似广告中转用途   
+DOMAIN-SUFFIX,bloctarsals.shop # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,blogads.com # 博客广告服务商（历史广告平台）  
+DOMAIN-SUFFIX,blogherads.com # 含 “ads” 关键字，疑似博客广告域名  
+DOMAIN-SUFFIX,blogostock.com # 混淆域名，疑似广告图像 / 脚本用途  
+DOMAIN-SUFFIX,blomanazilut.world # 随机化域名，疑似广告用途  
+DOMAIN-SUFFIX,bloopsagura.world # 随机域名，疑似跳转用途  
+DOMAIN-SUFFIX,blossomfertilizerproperly.com # 农业词义掩饰，疑似广告 / 伪装用途  
+DOMAIN-SUFFIX,blotecardthumb.com # 混淆域名结构，疑似广告 / 数据收集用途  
+DOMAIN-SUFFIX,bloteemit.world # 随机结构域名，疑似广告用途  
+DOMAIN-SUFFIX,blownlagger.rest # 可疑广告跳转 / 弹窗中继域名  
+DOMAIN-SUFFIX,bloworkey.cfd # 混淆结构广告跳转域名  
+DOMAIN-SUFFIX,blowyameen.qpon # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,blpebnytus.com # 哈希混淆域名，且常见于广告环境  
+DOMAIN-SUFFIX,blpjxkhubqsmsy.xyz # 随机字符广告域名  
+DOMAIN-SUFFIX,blqsrexczsqht.site # 结构异常，可能用于广告或脚本注入  
+DOMAIN-SUFFIX,blqwbyqqbvgzq.top # 高风险广告 / 跳转节点域名  
+DOMAIN-SUFFIX,blrxalkfsxbld.site # 可疑广告跳转 / 中转域名  
+DOMAIN-SUFFIX,blsenmxeiokcn.space # 混淆跳转广告域名  
+DOMAIN-SUFFIX,blspqefzfmazg.site # 随机广告域名，行为可疑  
+DOMAIN-SUFFIX,bltwuvetubnqt.space # 高风险广告 / 跳转中继域名  
+DOMAIN-SUFFIX,blu5fdclr.com # 哈希结构域名，疑似广告用途  
+DOMAIN-SUFFIX,blue.ktla.com # 地区媒体域名，非广告追踪用途  
+DOMAIN-SUFFIX,blue99703.com # 广告 / 重定向用途可能，行为未确认  
+DOMAIN-SUFFIX,bluedindow.cyou # 可疑跳转 / 广告中转域名  
+DOMAIN-SUFFIX,bluehost-cdn.com # Bluehost 的 CDN 子域，托管静态资源服务，不属于广告跳转  
+DOMAIN-SUFFIX,bluehost.com # Bluehost 主站，为正规主机服务商域名，不应封锁  
+DOMAIN-SUFFIX,bluepromocode.com # 优惠促销类域名，有广告 / 推广用途  
+DOMAIN-SUFFIX,bluffydelicat.click # 可疑 click 类型广告域名   
+DOMAIN-SUFFIX,blushsahara.top # 可疑广告 / 落地页域名  
+DOMAIN-SUFFIX,bmcdn1.com # 出现在 EasyList 广告屏蔽规则中，疑为广告资源 CDN   
+DOMAIN-SUFFIX,bmcdn2.com # 出现在 EasyList 广告屏蔽规则中，疑为广告资源 CDN 
+DOMAIN-SUFFIX,bmcdn3.com # 出现在 EasyList 广告屏蔽规则中，疑为广告资源 CDN  
+DOMAIN-SUFFIX,bmcdn4.com # 出现在 EasyList 广告屏蔽规则中，疑为广告资源 CDN  
+DOMAIN-SUFFIX,bmcdn5.com # 出现在 EasyList 广告屏蔽规则中，疑为广告资源 CDN  
+DOMAIN-SUFFIX,bmcdn6.com # 出现在 EasyList 广告屏蔽规则中，疑为广告资源 CDN  
+DOMAIN-SUFFIX,bmfads.com # 广告联盟平台，用于广告发布与资源交换  
+DOMAIN-SUFFIX,bmvorzrau.com # 可疑跳转 / 广告域名  
+DOMAIN-SUFFIX,bmwaeghntpfdb.online # 随机化域名，常见于广告中转  
+DOMAIN-SUFFIX,bmxavtdjqvdqn.store # 排名较低的电商/广告中转域名  
+DOMAIN-SUFFIX,bmxlcqungg.xyz # 随机字符串广告推送域名  
+DOMAIN-SUFFIX,bmycupptafr.com # 出现于广告脚本上下文中  
+DOMAIN-SUFFIX,bmyrhroqelefw.space # 广告 / 跳转用途域名  
+DOMAIN-SUFFIX,bmzgcv-eo.rocks # 混淆结构广告跳转域名  
+DOMAIN-SUFFIX,bn5x.net # 短域名跳转 / 链接缩短用途，可能用于广告追踪  
+DOMAIN-SUFFIX,bnbybybmvlmnj.top # 随机数字字符串域名，疑似广告跳转用途  
+DOMAIN-SUFFIX,bncloudfl.com # 被标为 Clickadu 操作的广告 CDN 节点  
+DOMAIN-SUFFIX,bngdyn.com # 可疑跳转用途域名  
+DOMAIN-SUFFIX,bngmadjd.de # 德国注册的随机广告域名  
+DOMAIN-SUFFIX,bngprl.com # 广告 / 跳转用途域名  
+DOMAIN-SUFFIX,bngprm.com # 同系列跳转域名，广告用途可能  
+DOMAIN-SUFFIX,bngpst.com # 程序化广告 / 跳转追踪用途  
+DOMAIN-SUFFIX,bngpt.com # 广告跳转服务域名  
+DOMAIN-SUFFIX,bngrol.com # 跳转 / 中转广告域名  
+DOMAIN-SUFFIX,bngtrak.com # 跟踪 / 监控广告行为域名  
+DOMAIN-SUFFIX,bngwhqxqatnsx.site # 随机字符域名，疑为广告/跳转用途  
+DOMAIN-SUFFIX,bngwlt.com # 短域名，可能为广告推广接口  
+DOMAIN-SUFFIX,bngzomowygzaa.top # 随机域名，用于跳转/广告  
+DOMAIN-SUFFIX,bnmmnbgqtb.com # 混淆结构域名，疑似广告跳转用途  
+DOMAIN-SUFFIX,bnmqtggqjoqic.buzz # 随机字符域名，常见于广告行为  
+DOMAIN-SUFFIX,bnp3.com # 简短域名，可能被用于广告推广  
+DOMAIN-SUFFIX,bnrdom.com # 可疑跳转域名，结构混淆  
+DOMAIN-SUFFIX,bnrrbipeeccuu.site # 随机字符域名，广告跳转可能性高  
+DOMAIN-SUFFIX,bnrslks.com # 混淆域名，疑为跳转 / 脚本用途  
+DOMAIN-SUFFIX,bnserving.com # 广告资源加载服务域名（已在 urlscan 被多次扫描）  
+DOMAIN-SUFFIX,bnsirwpidbpao.online # 随机字符广告域名  
+DOMAIN-SUFFIX,bnywlkaklqago.top # 随机域名结构，广告中继可能  
+DOMAIN-SUFFIX,bo2ffe45ss4gie.com # 混淆哈希广告域名  
+DOMAIN-SUFFIX,boagleetsurvey.space # “survey”关键字强关联广告 / 问卷推广用途   
+DOMAIN-SUFFIX,bobabillydirect.org # “direct”字样广告倾向强，疑似营销/广告用途  
+DOMAIN-SUFFIX,bobapsoabauns.com # 新注册哈希域名，Cloudflare 托管，出现于恶意域名情报中  
+DOMAIN-SUFFIX,bobbielibeled.click # “click”域名，高广告特征，疑为广告 / 跳转用途   
+DOMAIN-SUFFIX,bobflyoverbet.qpon # “bet”词域名，博彩 / 赌博广告倾向强  
+DOMAIN-SUFFIX,bobgames-prolister.com # “games” + “prolister”，游戏 / 推广用途可能性大  
+DOMAIN-SUFFIX,bobheals.cfd # “cfd”域名类型与金融 / 推广相关性高，疑为广告 / 推广用途  
+DOMAIN-SUFFIX,bobuptoopsukus.net # 可疑广告跳转域名  
+DOMAIN-SUFFIX,bocenrqhquopv.website # 随机结构域名，疑似广告用途  
+DOMAIN-SUFFIX,bochurwhicker.click # “.click” 常用于跳转 / 广告用途  
+DOMAIN-SUFFIX,bochutoartoasu.net # 混淆域名结构，广告用途可能  
+DOMAIN-SUFFIX,bocinsculp.world # “world” 顶级域 + 随机结构域名，疑似广告  
+DOMAIN-SUFFIX,bockouphourgait.net # 可疑跳转 / 广告用途域名  
+DOMAIN-SUFFIX,bodkinsgubat.cyou # “.cyou” 顶级域 + 混淆结构，疑似广告跳转  
+DOMAIN-SUFFIX,bodrookriltakro.net # 随机结构域名，广告 / 跳转可能  
+DOMAIN-SUFFIX,boersnimbus.cyou # 随机结构 + “.cyou”，疑似广告用途  
+DOMAIN-SUFFIX,boerumpeiakmf.space # “.space” 域名 + 混淆结构，广告可能性高   
+DOMAIN-SUFFIX,boffoadsfeeds.com # “ads” 字样 + “feeds”，确认为广告用途  
+DOMAIN-SUFFIX,bofitsaign.net # 混淆字符域名，疑似广告跳转用途  
+DOMAIN-SUFFIX,bofuckoastails.net # 拼写近似恶意域名，疑为垃圾广告 / 跳转域名  
+DOMAIN-SUFFIX,bogads.com # 广告平台域名，用于广告调用与分发  
+DOMAIN-SUFFIX,bogfernallo.cfd # .cfd 域名，广告 / 跳转性质倾向强  
+DOMAIN-SUFFIX,boghigrestarge.net # 随机广告域名，疑似资源 / 跳转用途  
+DOMAIN-SUFFIX,bogus-disk.com # 含 “bogus” 关键词，可能伪装广告 / 垃圾资源域名  
+DOMAIN-SUFFIX,bohkhufmvwim.online # 随机结构域名，用于广告或中转用途  
+DOMAIN-SUFFIX,bohunkschaluka.world # 长域名，结构混淆，疑似广告中转节点  
+DOMAIN-SUFFIX,boiiphyton.rest # 程序化广告 / 跳转用途可能性高   
+DOMAIN-SUFFIX,boilybeefer.cfd # .cfd 类型域名，广告 / 跳转用途可能性高  
+DOMAIN-SUFFIX,boiqzsgnywkuv.today # 随机域名结构，广告 / 跳转用途倾向强  
+DOMAIN-SUFFIX,bojjgglazjzjj.top # 顶级域名 .top，广告跳转概率高  
+DOMAIN-SUFFIX,bokeden.com # 可疑短域名，用于跳转或广告目的可能  
+DOMAIN-SUFFIX,bokepindo13.name # 成人类域名，用于色情广告 / 内容传播  
+DOMAIN-SUFFIX,bolamucha.xyz # 随机字母 + .xyz，广告 / 跳转倾向高  
+DOMAIN-SUFFIX,bold-display.pro # 显示 / 广告类关键词，广告用途可能性高  
+DOMAIN-SUFFIX,bold-potential.com # 含广告用语域名，可能用于营销跳转  
+DOMAIN-SUFFIX,boloptrex.com # 广告 / 推广站点，有流量和广告特征  
+DOMAIN-SUFFIX,bomdog.com # ThreatFox 报告为 botnet 控制域名，属于恶意行为域名  
+DOMAIN-SUFFIX,boloptrex.com # 多平台列为“诈骗” / 可疑广告域名  
+DOMAIN-SUFFIX,boloptrex.com # 站点流量高但内容不稳定，有广告 / 诈骗迹象  
+DOMAIN-SUFFIX,bolealwqnljys.online # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bolesreshot.cfd # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bolgboqynjkzo.top # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bolimbaquatrin.life # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bollixceltist.shop # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bollyocean.com # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bolomanscares.shop # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,boloneyunhoist.world # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,boloneyyogh.top # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,boloptrex.com # 已记录广告 / 推广域名  
+DOMAIN-SUFFIX,bolpjziaxakkg.store # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bolrookr.com # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bolsek.ru # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,boltepse.com # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bolterspails.world # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,boltnunfirsthand.com # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bombardjove.help # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bomborazygion.qpon # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bombplinker.help # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bomdog.com # 重复条目，已标记为恶意域名  
+DOMAIN-SUFFIX,bonaciretwine.digital # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bonertraffic13.info # “traffic” 关键词 + .info 类型，疑似广告 / 跳转域名  
+DOMAIN-SUFFIX,bongacams.com # 成人直播平台，含广告 / 跳转行为  
+DOMAIN-SUFFIX,bongacams10.com # 与 bongacams.com 同源仿站 / 跳转域名  
+DOMAIN-SUFFIX,bongacams11.com # 与 bongacams.com 同系跳转 / 广告域名  
+DOMAIN-SUFFIX,bongacams7.com # 成人平台跳转域名  
+DOMAIN-SUFFIX,bongacams8.com # 成人 / 跳转用途域名  
+DOMAIN-SUFFIX,bongacash.com # 与成人 / 推广 / 金融诱导相关域名  
+DOMAIN-SUFFIX,bonmazkmflejk.site # 随机字符域名，含广告 / 跳转可疑行为  
+DOMAIN-SUFFIX,bonosbevvy.com # 可疑营销 / 推广域名   
+DOMAIN-SUFFIX,bonusmaniac.com # 推广 / 返利类名称域名，具广告特征   
+DOMAIN-SUFFIX,bonyspecialist.pro # 可疑推广 / 专业术语域名  
+DOMAIN-SUFFIX,bonzai.ad # “.ad” 广告后缀域名，广告用途可能高  
+DOMAIN-SUFFIX,boo-box.com # 广告网络平台（Boo‑Box 为巴西广告网络）  
+DOMAIN-SUFFIX,boobausauhipsa.net # 可疑成人 / 推广域名  
+DOMAIN-SUFFIX,boobbounds.com # 成人 / 跳转广告用途域名  
+DOMAIN-SUFFIX,boodaisi.xyz # 随机结构广告 / 跳转域名  
+DOMAIN-SUFFIX,boodiebankers.shop # 营销 / 奖励类域名，具广告诱导可能   
+DOMAIN-SUFFIX,boogiegansel.click # “.click” 后缀域名，经常用于广告跳转  
+DOMAIN-SUFFIX,bookbannershop.com # Banner 广告 / 素材商店类域名，广告特征明显  
+DOMAIN-SUFFIX,booking.com # 合法主站域名，不作为广告拦截对象（OTA 平台）  
+DOMAIN-SUFFIX,bookingdragon.com # 像是仿站 / 冒牌域名，存在广告 / 钓鱼风险  
+DOMAIN-SUFFIX,bookinglamentinstance.com # 长串域名，极可能为钓鱼 / 推广跳转用途  
+DOMAIN-SUFFIX,bookmakers.click # 博彩 / 下注广告领域域名
+DOMAIN-SUFFIX,bookofsex.com # 成人广告 / 色情跳转站点
+DOMAIN-SUFFIX,boomads.com # 内容营销 / 广告平台
+DOMAIN-SUFFIX,boostads.net # 广告 / 营销推广平台
+DOMAIN-SUFFIX,boostcdn.net # 广告 / 内容分发网络资源调用域名
+DOMAIN-SUFFIX,boostcpm.su # 广告 / CPM 追踪接口域名
+DOMAIN-SUFFIX,booteespolity.click # 混淆广告跳转域名  
+DOMAIN-SUFFIX,bootingunpickedusable.com # 混合跳转 / 广告可疑域名  
+DOMAIN-SUFFIX,bootstraplugin.com # 拼写变体可能用于恶意脚本加载  
+DOMAIN-SUFFIX,bootyheroes.com # 成人 / 游戏类广告域名  
+DOMAIN-SUFFIX,bop-bop-bam.com # 可疑广告 / 跳转结构域名  
+DOMAIN-SUFFIX,bopmsxjwjuwjj.click # 混淆广告跳转域名  
+DOMAIN-SUFFIX,bopnlzbliclxw.space # 随机字符广告域名  
+DOMAIN-SUFFIX,boptactive.world # 活动推广 / 跳转广告域名  
+DOMAIN-SUFFIX,boraciccoapts.click # 可疑广告物产跳转域名  
+DOMAIN-SUFFIX,bordeaux.futurecdn.net # CDN 托管域名，可能托管广告资源  
+DOMAIN-SUFFIX,boreaddingobserve.com # 拼写混淆域名，可能广告跳转   
+DOMAIN-SUFFIX,boreusorgans.top # 可疑医学 / 广告域名  
+DOMAIN-SUFFIX,borghaswing.com # 拼写混淆域名，潜在跳转用途  
+DOMAIN-SUFFIX,borhaj.com # 短域名，可能用于广告跳转  
+DOMAIN-SUFFIX,boridesairable.cyou # 混淆域名，出现在多域名同 IP 列表，疑似广告中转   
+DOMAIN-SUFFIX,borrowbrutewarfare.com # 高风险域名结构，疑似广告跳转用途  
+DOMAIN-SUFFIX,borrowjavgg124.fun # 包含成人 / “jav” 关键词，广告 / 色情跳转可能  
+DOMAIN-SUFFIX,borshtselemis.top # 可疑顶级域名结构，疑似广告用途  
+DOMAIN-SUFFIX,borstossut.world # world 顶级域名，混淆结构，可能用于广告 / 跳转  
+DOMAIN-SUFFIX,boskodating.com # ScamAdviser 评级低，广告 / 欺诈风险域名  
+DOMAIN-SUFFIX,bosplyx.com # 在 EasyList 中出现，广告 / 跳转域名  
+DOMAIN-SUFFIX,bossboymormyr.help # 在 EasyList 中出现，广告 / 跳转域名  
+DOMAIN-SUFFIX,bossedmarlier.help # 在 EasyList 中出现，广告 / 跳转域名  
+DOMAIN-SUFFIX,bosselinorrummage.com # 在 EasyList 中出现，广告 / 跳转域名  
+DOMAIN-SUFFIX,bossy-future.com # 在 EasyList 中出现，广告 / 跳转域名  
+DOMAIN-SUFFIX,bossyhearing.com # 在 EasyList 中出现，广告 / 跳转域名  
+DOMAIN-SUFFIX,bossyinternal.pro # 在 EasyList 中出现，广告 / 跳转域名  
+DOMAIN-SUFFIX,bossyyiddish.digital # 在 EasyList 中出现，广告 / 跳转域名  
+DOMAIN-SUFFIX,botpynlmmizsr.click # 可疑 click 类型域名，可能广告跳转  
+DOMAIN-SUFFIX,botvwyytbwpdb.site # 随机型域名，疑似脚本中转用途  
+DOMAIN-SUFFIX,boudja.com # 短域名，广告或跳转可能性中等   
+DOMAIN-SUFFIX,bounceads.net # 广告平台 / DSP 平台域名，已被 adservers 列为广告服务器  
+DOMAIN-SUFFIX,bouncebidder.com # 广告投放 / 竞价平台域名（bidder）  
+DOMAIN-SUFFIX,boxif.xyz # 被 Malwarebytes 标为 riskware，存在重定向至 PUP / adware 的行为  
+DOMAIN-SUFFIX,boxing-social.com # 真实体育内容网站，流量稳定，有广告展示但非典型广告跳转平台  
+DOMAIN-SUFFIX,boxingsgets.com # 出现在 EasyList 弹窗规则列表，广告跳转域名  
+DOMAIN-SUFFIX,boxlikepavers.com # 出现在 EasyList 弹窗规则，广告 / 跳转用途  
+DOMAIN-SUFFIX,boxlikesedativespinach.com # 出现在广告弹窗规则，广告域名  
+DOMAIN-SUFFIX,boxlivegarden.com # 出现在弹窗 / 广告规则列表，广告资源域名  
+DOMAIN-SUFFIX,boxofficehelping.com # 出现在广告 / 弹窗规则，广告用途域名  
+DOMAIN-SUFFIX,boxofwhisper.com # 出现在广告弹窗规则，广告跳转域名  
+DOMAIN-SUFFIX,boxthis.xyz # 可疑广告跳转域名  
+DOMAIN-SUFFIX,boxycupbearerjot.com # 出现在广告规则样本，广告跳转域名  
+DOMAIN-SUFFIX,boxypluckunrelated.com # 出现在广告规则集，广告接口域名  
+DOMAIN-SUFFIX,boylauninn.shop # 可疑广告域名   
+DOMAIN-SUFFIX,boymagicdate.com # 约会 / 社交推广类型域名，广告可能性高  
+DOMAIN-SUFFIX,boyqnajggllna.top # 混淆跳转域名  
+DOMAIN-SUFFIX,bozxkkymjemba.website # 随机结构域名，广告 / 跳转可能性高  
+DOMAIN-SUFFIX,bpbnelpowldjl.space # 混淆跳转域名  
+DOMAIN-SUFFIX,bpcvnkwpl.net # 可疑跳转 / 广告中转域名  
+DOMAIN-SUFFIX,bpcvnkwpl.xyz # 可疑广告域名  
+DOMAIN-SUFFIX,bpoiscqmwxej.buzz # 出现在流媒体站点广告跳转链接中，广告用途确认  
+DOMAIN-SUFFIX,bqbgwwvnmjnj.top # 可疑广告跳转域名，结构典型  
+DOMAIN-SUFFIX,bqblxvdkjtatv.store # 商城伪装域名，广告跳转性质明显  
+DOMAIN-SUFFIX,bqbvgjnyqqmkq.top # 哈希式广告域名  
+DOMAIN-SUFFIX,bqdpbmtvmkmov.site # 广告 / 跳转特征域名  
+DOMAIN-SUFFIX,bqgnnzbamgbbj.top # 伪造广告中转域名  
+DOMAIN-SUFFIX,bqgwxqoqjqvbz.online # 广告素材 / 跳转域名  
+DOMAIN-SUFFIX,bqqyomzoqvqko.top # 跳转广告域名，结构典型  
+DOMAIN-SUFFIX,bqrdoilvhadpq.vip # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bqrjmulwnxynr.website # 随机字符串广告域名  
+DOMAIN-SUFFIX,bqrueuxqvhjhc.online # 可疑推广 / 跳转用途  
+DOMAIN-SUFFIX,bqsnmpwxwd.buzz # “buzz”域名架构常用于广告推送  
+DOMAIN-SUFFIX,bqucnpdwtqgbw.com # 混淆生成域名，疑似广告中继  
+DOMAIN-SUFFIX,bqvarftvrigcn.online # 广告 / 跳转用途域名  
+DOMAIN-SUFFIX,bqvzsxadeajio.global # 全球型广告分发域名  
+DOMAIN-SUFFIX,bqwfemjlhxpia.online # 可疑广告 / 脚本加载域名  
+DOMAIN-SUFFIX,bqybaxcxwbgsm.website # 广告 / 引流用途域名  
+DOMAIN-SUFFIX,bqymbyyvwkaja.top # “top”域名中转广告 / 跳转节点  
+DOMAIN-SUFFIX,bqzzlqwlbkkbb.top # 哈希型广告跳转域名  
+DOMAIN-SUFFIX,br.fling.com # 成人社交平台下属广告 / 推广子域名  
+DOMAIN-SUFFIX,br3azil334nutsz.com # 混淆广告域名，疑似跳转用途  
+DOMAIN-SUFFIX,bracciaod.click # “.click”域名常用于广告点击追踪  
+DOMAIN-SUFFIX,bracecherry.com # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,braidsmbalolo.top # 随机结构域名，疑似广告跳转 / 豆广告用途
+DOMAIN-SUFFIX,brainbotfilebeatsave.com # 混淆名称 + 文件名结构，疑似广告中转
+DOMAIN-SUFFIX,brainlyads.com # 包含 “ads”，极可能为广告服务域名
+DOMAIN-SUFFIX,brand-display.com # 用于展示 / 品牌广告用途域名，确认广告用途
+DOMAIN-SUFFIX,brandads.net # 明含 “ads”，广告用途明显
+DOMAIN-SUFFIX,brandclik.com # 含 “clik / click” 字样，广告点击跳转可能
+DOMAIN-SUFFIX,branddnewcode1.me # 混淆结构域名，疑似广告用途
+DOMAIN-SUFFIX,brandnewapp.pro # “new app” 字样常用于推广，疑似广告用途
+DOMAIN-SUFFIX,brandnewsnorted.com # 混淆品牌 + news 结构，疑为广告 / 推广用途
+DOMAIN-SUFFIX,brandreachsys.com # “reach / sys” 组合，倾向广告 / 推广平台用途
+DOMAIN-SUFFIX,bransfripper.click # 含 “click”，广告跳转用途可能
+DOMAIN-SUFFIX,bravotrk.com # 可疑追踪 / 广告接口域名  
+DOMAIN-SUFFIX,bravotube.net # 成人 / 广告视频平台域名   
+DOMAIN-SUFFIX,brayinglegions.click # 可疑点击跳转域名  
+DOMAIN-SUFFIX,brazzers.com # 成人内容平台，含广告 / 付费订阅性质  
+DOMAIN-SUFFIX,brazzerssurvey.com # 与 Brazzers 关联的广告 / 诱导调查站点  
+DOMAIN-SUFFIX,brcjvwooqneol.online # 随机字符域名，疑似广告 / 跳转用途  
+DOMAIN-SUFFIX,brdbwayjkebb.xyz # 哈希结构域名，广告中转特征明显  
+DOMAIN-SUFFIX,brdhbizupevpj.online # 隐蔽广告跳转域名  
+DOMAIN-SUFFIX,brdlbkrzjudrg.online # 混淆跳转域名，用于广告脚本加载   
+DOMAIN-SUFFIX,brealtime.com # 可疑跳转 / 活跃域名  
+DOMAIN-SUFFIX,breitbart.com # 主流新闻 / 舆论网站，不应归类为广告域名  
+DOMAIN-SUFFIX,bremiajos.cfd # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,brevitychestprocess.com # 可疑推广 / 营销域名，结构异常  
+DOMAIN-SUFFIX,breweryalevin.cfd # cfd 新顶级域常见于广告用途  
+DOMAIN-SUFFIX,brfkvvvpxn.com # 随机字符串域名，疑似广告跳转  
+DOMAIN-SUFFIX,bribedpattie.world # “bribe”含义倾向广告 / 诱导性质  
+DOMAIN-SUFFIX,brick.xhamster.com # 属于 xhamster 家族域名，含成人内容 / 广告组件  
+DOMAIN-SUFFIX,brick.xhamster.desi # 子域名形式，含广告 / 嵌入脚本可能  
+DOMAIN-SUFFIX,brick.xhamster2.com # xhamster 平台延伸子站域名，含广告用途  
+DOMAIN-SUFFIX,brick.xhamster3.com # 同上，广告 / 内容平台子域  
+DOMAIN-SUFFIX,brickertarot.world # “tarot”关键字与广告站点关联可能性高   
+DOMAIN-SUFFIX,bricoleapioid.com # 混淆拼写域名，疑似广告 / 垃圾域名  
+DOMAIN-SUFFIX,brid.tv # 广告视频平台 / 中继服务域名，Brid 为著名广告 / 视频平台  
+DOMAIN-SUFFIX,bridalmaced.qpon # 子域名结构，qpon 多见于优惠 / 推广域名  
+DOMAIN-SUFFIX,bridesasudden.click # “.click” + 婚礼主题，偏推广 / 广告用途  
+DOMAIN-SUFFIX,bridgetrack.com # 含 “track” 关键字，可能用于行为追踪 / 广告统计  
+DOMAIN-SUFFIX,briefcasebuoyduster.com # 混淆结构域名，可能用于广告跳转  
+DOMAIN-SUFFIX,brieftrouble.com # 组合单词域名，广告用途可能性较高  
+DOMAIN-SUFFIX,brieveuh.com # 拼写混淆域名，广告跳转可能性存在   
+DOMAIN-SUFFIX,brightadnetwork.com # 已知广告重定向/弹窗平台域名  
+DOMAIN-SUFFIX,brighteroption.com # 金融 / 投资类域名，未见广告跳转用途  
+DOMAIN-SUFFIX,brightforesthill.com # 地名组合域名，未见广告情报  
+DOMAIN-SUFFIX,brightlybore.com # 组合词域名，未见广告行为记录  
+DOMAIN-SUFFIX,brightlygauntlet.com # 混合词域名，未见广告情报  
+DOMAIN-SUFFIX,brightonclick.com # 含 “click” 关键词，可能为广告或追踪用途  
+DOMAIN-SUFFIX,brightruin.pro # “ruin” 关键词混用域名，未见广告情报  
+DOMAIN-SUFFIX,brightshare.com # 分享类关键词域名，广告用途可能性中等  
+DOMAIN-SUFFIX,briiliantdates.net # 约会 / 聚合词域名，未见广告跳转用途  
+DOMAIN-SUFFIX,brilliantclosingcancel.com # 出现在 AdGuard DNS 过滤规则中，已被拦截记录  
+DOMAIN-SUFFIX,brilliantoverhaulunshaken.com # 出现在 AdGuard DNS 过滤规则中，疑似广告 / 跳转域名  
+DOMAIN-SUFFIX,brillnitrite.rest # 出现在 AdGuard DNS 过滤规则中，可能用于广告 / 资源调用  
+DOMAIN-SUFFIX,brimlysurgy.world # 出现在 AdGuard DNS 过滤规则中，疑为广告投放域名  
+DOMAIN-SUFFIX,brimmallow.com # 出现在 AdGuard DNS 过滤规则中，具广告 / 跳转意图  
+DOMAIN-SUFFIX,brimsupshaft.qpon # 出现在 AdGuard DNS 过滤规则中，广告跳转 / 重定向特征   
+DOMAIN-SUFFIX,brissesinstyle.qpon # 出现在 AdGuard DNS 过滤规则中，疑似广告域名   
+DOMAIN-SUFFIX,brllllantsdates.com # 出现在 AdGuard DNS 过滤规则中，疑似广告域名  
+DOMAIN-SUFFIX,broadsheetspikesnick.com # 混淆域名，疑似用于广告中转  
+DOMAIN-SUFFIX,broadsimp.site # 可疑跳转广告域名  
+DOMAIN-SUFFIX,broadstreetads.com # 广告管理平台主域，用于广告投放服务 
+DOMAIN-SUFFIX,brodmn.com # 短域名形式常用于跳转，未见确切广告记录  
+DOMAIN-SUFFIX,brodownload6s.site # 带 “download” 字样域名，广告 / 下载重定向可能  
+DOMAIN-SUFFIX,brodownload8s.com # 同上，下载/广告重定向域名特点明显  
+DOMAIN-SUFFIX,brodownloads.site # 下载域名常被广告利用，具风险  
+DOMAIN-SUFFIX,brogetcode4s.cc # “getcode” 类用途域名，广告 / 脚本注入可能  
+DOMAIN-SUFFIX,brokenchairlaugh.com # 域名奇怪，未见广告用途情报  
+DOMAIN-SUFFIX,broker-qx.pro # 带 “broker” 可能关联金融广告，存在用途可能  
+DOMAIN-SUFFIX,brokerbabe.com # 含广告 / 营销色彩的域名，行为用途可能为推广   
+DOMAIN-SUFFIX,bromiuswickets.shop # 可疑推广性域名，广告用途可能  
+DOMAIN-SUFFIX,bronca.site # “.site” 型域名，广告跳转可能  
+DOMAIN-SUFFIX,broodoppressiveuptodate.com # 词语堆叠域名，广告 / 垃圾跳转可能  
+DOMAIN-SUFFIX,brosyplating.click # “click” 后缀域名，广告点击用途显著  
+DOMAIN-SUFFIX,brothdisguiseparrot.com # 语言混淆域名，广告跳转可能  
+DOMAIN-SUFFIX,brothersincash.com # 含 “cash” 关键词，广告 / 金融推广可能  
+DOMAIN-SUFFIX,browdichu.cyou # “.cyou” 域名后缀常用于中转广告，可能用途  
+DOMAIN-SUFFIX,broworker4s.com # 命名规则可用于广告跳转 / 劫持用途  
+DOMAIN-SUFFIX,broworker6s.com # 同上，广告 / 中转可能  
+DOMAIN-SUFFIX,broworkers5s.com # 同上，广告 / 跳转可能  
+DOMAIN-SUFFIX,browse-boost.com # “boost” 字样域名常用于推广 / 广告平台  
+DOMAIN-SUFFIX,browsekeeper.com # 已知 Adware 名称，用于插入广告与追踪行为  
+DOMAIN-SUFFIX,browserr.top # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,browsfried.com # 可疑域名，可能用于广告跳转或脚本注入  
+DOMAIN-SUFFIX,browsiprod.com # 广告 / 跳转用域名  
+DOMAIN-SUFFIX,browzerstamped.shop # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,brtwlhfmomcng.site # 可疑跳转 / 广告中转域名  
+DOMAIN-SUFFIX,bruceleadx1.com # 广告 / 推广平台域名  
+DOMAIN-SUFFIX,brudirect.com # 真实媒体 / 新闻网站域名，已知为 Brunei 报道平台  
+DOMAIN-SUFFIX,bruisedblock.pro # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,brushedowl.shop # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,brxwysvktxzja.site # 随机字符域名，具广告 / 跳转风险  
+DOMAIN-SUFFIX,bryny.xyz # 随机简短 .xyz 域名，具广告跳转嫌疑  
+DOMAIN-SUFFIX,brzvtueeyyqdo.space # 随机结构域名，具有广告 / 跳转可疑性  
+DOMAIN-SUFFIX,bs-adserver.b-cdn.net # 广告 CDN / 广告服务器域名，已被用于广告服务  
+DOMAIN-SUFFIX,bsaziqhaldzoy.site # 随机字符广告跳转域名  
+DOMAIN-SUFFIX,bsbkrgcpjsugv.website # 混淆广告 / 跳转域名  
+DOMAIN-SUFFIX,bsbshhxpotmyt.site # 随机结构域名，具广告可疑性  
+DOMAIN-SUFFIX,bscscan.com # 区块链浏览器主站域名，非广告用途  
+DOMAIN-SUFFIX,bsfeuihxrczte.space # 随机结构域名，广告 / 跳转风险
+DOMAIN-SUFFIX,bsfoxmbspamhy.com # 可疑广告跳转 / 垃圾域名  
+DOMAIN-SUFFIX,bsgbd77l.de # 随机字符广告域名  
+DOMAIN-SUFFIX,bshrdr.com # 可疑追踪 / 广告用途域名  
+DOMAIN-SUFFIX,bsirnnnndv.com # 混淆结构域名，疑似广告中转  
+DOMAIN-SUFFIX,bsjxodcvrvgbe.online # 可疑广告 / 跳转域名  
+DOMAIN-SUFFIX,bskakeiotyvge.online # 随机字符广告流程域名  
+DOMAIN-SUFFIX,bskcufyvpaowi.store # 电商类伪装广告域名  
+DOMAIN-SUFFIX,bsktpurreic.com # 可疑广告跳转域名  
+DOMAIN-SUFFIX,bssaly.com # 简短域名，广告可能性高  
+DOMAIN-SUFFIX,bsshxdxtfaiis.space # 随机结构域名，疑似广告用途  
+DOMAIN-SUFFIX,bsuvjsufjfizl.website # 随机结构广告中转域名  
+DOMAIN-SUFFIX,bsvhxfxckrmixla.xyz # 哈希式域名，广告脚本调用可能  
+DOMAIN-SUFFIX,bsxjqlasfcoaa.site # 混淆结构，广告中转用途可疑  
+DOMAIN-SUFFIX,bsxswvrbstntq.site # 可疑广告跳转 / 脚本域名  
+DOMAIN-SUFFIX,bsynqoqe.xyz # 随机广告跳转域名  
+DOMAIN-SUFFIX,bt-fr-cl.com # 法语博彩 / 广告推广域名  
+DOMAIN-SUFFIX,bt2pt.com # 简短广告跳转域名  
+DOMAIN-SUFFIX,btagmedia.com # 博彩联盟 / 广告推广平台  
+DOMAIN-SUFFIX,btaumppksprkk.website # 随机广告跳转域名  
+DOMAIN-SUFFIX,btdfqejriamjr.website # 混淆广告中继节点域名  
+DOMAIN-SUFFIX,btdykfecwvyso.online # 可疑广告跳转域名  
+DOMAIN-SUFFIX,btflrjpv.com # 混淆字符域名，可能广告中转用途
+DOMAIN-SUFFIX,btghbzlmzpxzw.website # 结构异常域名，疑似广告 / 跳转用途
+DOMAIN-SUFFIX,bthin.site # 可疑短域名，行为不明，建议删除
+DOMAIN-SUFFIX,bthythvdrdbud.space # 随机结构域名，广告 / 跳转可能
+DOMAIN-SUFFIX,btiosxrukb.com # 隐蔽式广告跳转域名
+DOMAIN-SUFFIX,btixtaodva.com # 哈希结构域名，疑似广告资源或跳转用途
+DOMAIN-SUFFIX,btkovrnejjrnb.com # 长字符广告跳转域名
+DOMAIN-SUFFIX,btoetwervetat.space # 可疑广告 / 跳转域名
+DOMAIN-SUFFIX,btpnav.com # 短域名，广告跳转或跟踪用途可能
+DOMAIN-SUFFIX,btprmnav.com # 混淆结构域名，广告 / 跳转可能
+DOMAIN-SUFFIX,btr.domywife.com # 子域名形式，可能广告嵌入用途
+DOMAIN-SUFFIX,btrem.site # 可疑跳转 / 广告域名
+DOMAIN-SUFFIX,btrll.com # 短域名，广告 / 跳转用途可能
+DOMAIN-SUFFIX,btrsagtwkntax.website # 长字符广告 / 跳转域名
+DOMAIN-SUFFIX,btserve.com # 名称暗示服务性质，可能广告投放用途
+DOMAIN-SUFFIX,bttphsqvrunfw.store # 混淆结构域名，广告 / 跳转可能
+DOMAIN-SUFFIX,bttrack.com # 确认广告追踪 / 分发平台 (Bidtellect 关联)  ￼
+DOMAIN-SUFFIX,btvhdscr.com # 混淆结构域名，广告 / 跳转用途可能
+DOMAIN-SUFFIX,btwqllmeezmjn.online # 混淆字符域名，疑似广告跳转用途
+DOMAIN-SUFFIX,btxxxnav.com # 出现在广告域名列表（Scribd）中，确认广告用途  ￼
+DOMAIN-SUFFIX,btzpcronctvtf.website # 混淆域名，疑似广告 / 跳转中继
+DOMAIN-SUFFIX,bubckfgy.com # 混淆结构域名，疑似广告用途
+DOMAIN-SUFFIX,buboedpastour.qpon # .qpon 后缀域名，可能关联促销广告
+DOMAIN-SUFFIX,bucketsofbanners.com # Banner 交换 / 广告展示平台，确认广告用途  ￼
+DOMAIN-SUFFIX,buckeyekantars.com # 出现在广告域名列表中，确认广告用途  ￼
+DOMAIN-SUFFIX,buddledcurver.cyou # 可疑二级域名，用于广告跳转可能  
+DOMAIN-SUFFIX,budekxqreokot.space # 混淆结构域名，疑似广告脚本载体   
+DOMAIN-SUFFIX,budgeencodeunions.com # 词汇组合广告词域名，存在广告倾向   
+DOMAIN-SUFFIX,budurl.com # 短链接 / 跳转域名，用于广告重定向可能   
+DOMAIN-SUFFIX,bugaruche.com # 在 URL 扫描报告中被识别为可疑 / 恶意域名 
+DOMAIN-SUFFIX,bugsfighter.com # 曾被用户反映用于广告 / 弹窗劫持行为
+DOMAIN-SUFFIX,buildnaq91.site # 可疑广告跳转站点常见后缀，疑似广告用途
+DOMAIN-SUFFIX,bulginglair.com # 营销/诱导类词根，存在广告可能性
+DOMAIN-SUFFIX,bulgingreact.com # 营销类构词，疑似广告用途
+DOMAIN-SUFFIX,bulkypush.pro # 已知推送广告平台域名，确认为广告用途
+DOMAIN-SUFFIX,bulletadopt.com # 含“bullet”＋“ad”组合，强广告意味
+DOMAIN-SUFFIX,bulletproxy.ch # 含“proxy”关键词，可能为广告 / 跳转中转节点
+DOMAIN-SUFFIX,bullionyield.com # 活跃广告网络 / 自助广告平台  ￼
+DOMAIN-SUFFIX,bullz-eye.com # 可疑广告 / 跳转用途域名
+DOMAIN-SUFFIX,bulrev.com # 出现在广告监测名单中 (Bullion 平台相关)  ￼
+DOMAIN-SUFFIX,bultellchais.cyou # 可疑跳转 / 广告链节点域名
+DOMAIN-SUFFIX,bumaqblyqviw.fun # 可疑广告 / 跳转域名
+DOMAIN-SUFFIX,bumfxnyfnepjh.online # 混淆哈希类广告域名
+DOMAIN-SUFFIX,bumidpuaraodp.today # 可疑广告中继 / 跳转域名
+DOMAIN-SUFFIX,bummalodenary.top # 伪装域名，可能用于广告分发
+DOMAIN-SUFFIX,bumpertenets.help # 混淆跳转用途域名
+DOMAIN-SUFFIX,bundlemoviepumice.com # 多个广告 / 拦截规则包含，属于 Clickadu 广告网络  
+DOMAIN-SUFFIX,bundtdroners.help # 出现在广告过滤规则中 (AdGuard 等)  
+DOMAIN-SUFFIX,bungalowdispleasedwheeled.com # 出现在广告过滤规则中  
+DOMAIN-SUFFIX,bungeedubbah.com # 出现在广告过滤规则中  
+DOMAIN-SUFFIX,bungeesaker.com # 出现在广告过滤规则中  
+DOMAIN-SUFFIX,bunglersignoff.com # 出现在广告过滤规则中  
+DOMAIN-SUFFIX,bunkersparring.shop # 出现在广告过滤规则中  
+DOMAIN-SUFFIX,bunkoedtaille.cyou # 出现在广告过滤规则中  
+DOMAIN-SUFFIX,bunniaplebby.help # 出现在广告过滤规则中  
+DOMAIN-SUFFIX,bunnylust.com # 成人 / 跳转广告域名  
+DOMAIN-SUFFIX,bunvnajk.com # 出现在 EasyList 广告过滤规则，广告 / 跳转用途  
+DOMAIN-SUFFIX,bunzamxbtj.space # 可疑广告跳转域名  
+DOMAIN-SUFFIX,buondua.com # 混淆域名，尚无广告情报，建议删除  
+DOMAIN-SUFFIX,buoyant-most.pro # 随机生成结构，疑似广告跳转域名  
+DOMAIN-SUFFIX,buoydeparturediscontent.com # 长域名混淆广告 / 跳转用途  
+DOMAIN-SUFFIX,bupatp.com # 简短域名广告 / 重定向用途  
+DOMAIN-SUFFIX,buphagadsnames.help # 含 “ads” 关键字，广告追踪 / 跳转用途  
+DOMAIN-SUFFIX,bupnjndj.com # 出现在广告过滤规则中，广告域名  
+DOMAIN-SUFFIX,buqkrzbrucz.com # 出现在 AdGuard / EasyList 规则中，广告域名  
+DOMAIN-SUFFIX,buram.xyz # 出现在广告过滤规则中，广告 / 跳转域名  
+DOMAIN-SUFFIX,burbarkholpen.com # 出现在广告过滤规则中，广告跳转域名  
+DOMAIN-SUFFIX,burbotssourly.cfd # 可疑广告跳转 / 流量劫持域名  
+DOMAIN-SUFFIX,bureautrickle.com # 混淆广告跳转域名  
+DOMAIN-SUFFIX,bureauxcope.casa # 可疑广告 / 跳转用途域名  
+DOMAIN-SUFFIX,burglarycirculationintense.com # 未被安全厂商标记为恶意 / 广告（Virustotal 无报告）  
+DOMAIN-SUFFIX,burialattentivestrawberry.com # 随机域名，广告 / 跳转可能  
 DOMAIN-SUFFIX,burialhotter.com
 DOMAIN-SUFFIX,buriedinadequateinset.com
 DOMAIN-SUFFIX,burierreloans.life
@@ -41806,7 +41221,6 @@ DOMAIN-SUFFIX,sdk-apm.aliyun.
 DOMAIN-SUFFIX,sdk.adx.heytapimage.com
 DOMAIN-SUFFIX,sdk-images.chatapp.com
 DOMAIN-SUFFIX,sdkconfig.adwo.com
-DOMAIN-SUFFIX,sdk.adx.xxxxxxxxx（疑似截断，建议检查）
 DOMAIN-SUFFIX,adsfs-sdkconfig.heytapimage.com
 DOMAIN-SUFFIX,adsfs.oppomobile.com
 DOMAIN-SUFFIX,sdk.applovin.com
@@ -41881,7 +41295,6 @@ DOMAIN-SUFFIX,ads-api.tiktok.com
 DOMAIN-SUFFIX,ads-sg.tiktok.com
 DOMAIN-SUFFIX,ads-jp.tiktok.com
 DOMAIN-SUFFIX,iad.g.163.com
-DOMAIN-SUFFIX,config.chsmarttv.xxxxx（疑似未完成，建议补充）
 DOMAIN-SUFFIX,imdns.hpplay.cn
 DOMAIN-SUFFIX,iot-eu-logser.realme.com
 DOMAIN-SUFFIX,iot-logser.realme.com
