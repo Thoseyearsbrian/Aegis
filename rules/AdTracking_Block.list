@@ -712,7 +712,6 @@ DOMAIN-SUFFIX,3pkf5m0gd.com # 哈希式广告 / 跳转用途域名
 DOMAIN-SUFFIX,3prn.com # 成人 / 广告跳转网站主域名   
 DOMAIN-SUFFIX,3redlightfix.com # 广告 / 跳转用途域名  
 DOMAIN-SUFFIX,3wr110.net # 可疑中继域名，用于流量重定向  
-DOMAIN-SUFFIX,3xplanetimg2.com # 媒体 / 图片 CDN 域名，未确认广告用途  
 DOMAIN-SUFFIX,3xtraffic.com # 已知广告流量追踪域名（列入广告域名列表）  
 DOMAIN-SUFFIX,3zap7emt4.com # 随机结构域名，疑似广告跳转  
 DOMAIN-SUFFIX,40451343.xyz # 数字型跳转域名，广告用途可能  
@@ -1306,7 +1305,6 @@ DOMAIN-SUFFIX,abatersurat.digital # 后缀 .digital 可用于广告 / 内容推�
 DOMAIN-SUFFIX,abb030d6a7.com # 哈希式域名，出现在广告过滤列表中  
 DOMAIN-SUFFIX,abberantdisheartenbandage.com # 长域名拼接，可能用于内容混淆 / 跳转  
 DOMAIN-SUFFIX,abberantpawnpalette.com # 同类结构域名，跳转广告可能性高  
-DOMAIN-SUFFIX,abbotpredicateemma.com # 混淆命名域名，广告 / 跳转用途未确认  
 DOMAIN-SUFFIX,abbreviationhanging.com # 文本拼接域名，推广跳转情境可能   
 DOMAIN-SUFFIX,abdadde321.com # 随机数字 / 字母域名，可疑跳转用途  
 DOMAIN-SUFFIX,abdicateeffectlucky.com # 长域名，跳转 / 广告可能性高  
@@ -3750,7 +3748,6 @@ DOMAIN-SUFFIX,bgtcoxaxwotqac.com # 混淆哈希结构，疑似广告用途
 DOMAIN-SUFFIX,bgvnctdwrlsrx.website # 随机字符 + .website 域名，行为可疑
 DOMAIN-SUFFIX,bgxpnkwsikhkdnn.xyz # 混淆哈希结构域名，疑似广告 / 跳转节点
 DOMAIN-SUFFIX,bgyrhxxcxwcih.site # 随机字符域名，似用于跳转 / 嵌入脚本
-DOMAIN-SUFFIX,bh3.net # 短域名，可能用于跳转 / 重定向用途，未确认广告情报
 DOMAIN-SUFFIX,bharatmatrimony.com # 印度婚介平台主站，广告渠道平台之一  ￼
 DOMAIN-SUFFIX,bhbkvnpbvbrbv.site # 混淆跳转域名，可能含广告组件
 DOMAIN-SUFFIX,bhcifkfrtccdt.online # 随机结构，广告用途不确定
@@ -3971,7 +3968,6 @@ DOMAIN-SUFFIX,blspqefzfmazg.site # 随机广告域名，行为可疑
 DOMAIN-SUFFIX,bltwuvetubnqt.space # 高风险广告 / 跳转中继域名  
 DOMAIN-SUFFIX,blu5fdclr.com # 哈希结构域名，疑似广告用途  
 DOMAIN-SUFFIX,blue.ktla.com # 地区媒体域名，非广告追踪用途  
-DOMAIN-SUFFIX,blue99703.com # 广告 / 重定向用途可能，行为未确认  
 DOMAIN-SUFFIX,bluedindow.cyou # 可疑跳转 / 广告中转域名  
 DOMAIN-SUFFIX,bluehost-cdn.com # Bluehost 的 CDN 子域，托管静态资源服务，不属于广告跳转  
 DOMAIN-SUFFIX,bluehost.com # Bluehost 主站，为正规主机服务商域名，不应封锁  
@@ -4299,7 +4295,6 @@ DOMAIN-SUFFIX,btdfqejriamjr.website # 混淆广告中继节点域名
 DOMAIN-SUFFIX,btdykfecwvyso.online # 可疑广告跳转域名  
 DOMAIN-SUFFIX,btflrjpv.com # 混淆字符域名，可能广告中转用途
 DOMAIN-SUFFIX,btghbzlmzpxzw.website # 结构异常域名，疑似广告 / 跳转用途
-DOMAIN-SUFFIX,bthin.site # 可疑短域名，行为不明，建议删除
 DOMAIN-SUFFIX,bthythvdrdbud.space # 随机结构域名，广告 / 跳转可能
 DOMAIN-SUFFIX,btiosxrukb.com # 隐蔽式广告跳转域名
 DOMAIN-SUFFIX,btixtaodva.com # 哈希结构域名，疑似广告资源或跳转用途
@@ -4355,7 +4350,6 @@ DOMAIN-SUFFIX,bunniaplebby.help # 出现在广告过滤规则中
 DOMAIN-SUFFIX,bunnylust.com # 成人 / 跳转广告域名  
 DOMAIN-SUFFIX,bunvnajk.com # 出现在 EasyList 广告过滤规则，广告 / 跳转用途  
 DOMAIN-SUFFIX,bunzamxbtj.space # 可疑广告跳转域名  
-DOMAIN-SUFFIX,buondua.com # 混淆域名，尚无广告情报，建议删除  
 DOMAIN-SUFFIX,buoyant-most.pro # 随机生成结构，疑似广告跳转域名  
 DOMAIN-SUFFIX,buoydeparturediscontent.com # 长域名混淆广告 / 跳转用途  
 DOMAIN-SUFFIX,bupatp.com # 简短域名广告 / 重定向用途  
@@ -4369,907 +4363,641 @@ DOMAIN-SUFFIX,bureautrickle.com # 混淆广告跳转域名
 DOMAIN-SUFFIX,bureauxcope.casa # 可疑广告 / 跳转用途域名  
 DOMAIN-SUFFIX,burglarycirculationintense.com # 未被安全厂商标记为恶意 / 广告（Virustotal 无报告）  
 DOMAIN-SUFFIX,burialattentivestrawberry.com # 随机域名，广告 / 跳转可能  
-DOMAIN-SUFFIX,burialhotter.com
-DOMAIN-SUFFIX,buriedinadequateinset.com
-DOMAIN-SUFFIX,burierreloans.life
-DOMAIN-SUFFIX,burjam.com
-DOMAIN-SUFFIX,burkersflative.life
-DOMAIN-SUFFIX,burkhakalekah.com
-DOMAIN-SUFFIX,burlybathroom.pro
-DOMAIN-SUFFIX,burmitehapale.click
-DOMAIN-SUFFIX,burryethene.cfd
-DOMAIN-SUFFIX,bursa.conxxx.pro
-DOMAIN-SUFFIX,bursa33.xyz
-DOMAIN-SUFFIX,bursasrewaxes.qpon
-DOMAIN-SUFFIX,bursesborstal.life
-DOMAIN-SUFFIX,bursthormone.com
-DOMAIN-SUFFIX,burstnet.com
-DOMAIN-SUFFIX,bursultry-exprights.com
-DOMAIN-SUFFIX,busbieszapote.help
-DOMAIN-SUFFIX,busherdebates.com
-DOMAIN-SUFFIX,bushersfrugged.shop
-DOMAIN-SUFFIX,bushesassortmentwearisome.com
-DOMAIN-SUFFIX,bushpigaquilia.rest
-DOMAIN-SUFFIX,bushsurprising.com
-DOMAIN-SUFFIX,busilycarnival.com
-DOMAIN-SUFFIX,businesscare.com
-DOMAIN-SUFFIX,businessclick.com
-DOMAIN-SUFFIX,businessessities.com
-DOMAIN-SUFFIX,businesskorea.co.kr
-DOMAIN-SUFFIX,businesstimes.com.sg
-DOMAIN-SUFFIX,businesstremendoushad.com
-DOMAIN-SUFFIX,busmcusexbd.com
-DOMAIN-SUFFIX,busterry.com
-DOMAIN-SUFFIX,bustle.com
-DOMAIN-SUFFIX,bustlefungus.com
-DOMAIN-SUFFIX,bustlerloins.com
-DOMAIN-SUFFIX,bustslicerstrongbox.com
-DOMAIN-SUFFIX,bustsserpari.world
-DOMAIN-SUFFIX,busy-man.com
-DOMAIN-SUFFIX,busyishdodged.help
-DOMAIN-SUFFIX,butanesslock.com
-DOMAIN-SUFFIX,butenylevans.world
-DOMAIN-SUFFIX,butlerrecast.com
-DOMAIN-SUFFIX,butoraheadyg.com
-DOMAIN-SUFFIX,butsvapours.qpon
-DOMAIN-SUFFIX,butterflygeographyboredom.com
-DOMAIN-SUFFIX,butteryamount.pro
-DOMAIN-SUFFIX,butterysteal.pro
-DOMAIN-SUFFIX,buttonderecho.digital
-DOMAIN-SUFFIX,buttontileaiming.com
-DOMAIN-SUFFIX,buxflow.com
-DOMAIN-SUFFIX,buy404s.com
-DOMAIN-SUFFIX,buyadvupfor24.com
-DOMAIN-SUFFIX,buyeasy.by
-DOMAIN-SUFFIX,buyerneedly.help
-DOMAIN-SUFFIX,buyflood.com
-DOMAIN-SUFFIX,buyfrightencheckup.com
-DOMAIN-SUFFIX,buyidesarea.qpon
-DOMAIN-SUFFIX,buyjwsoadheqo.online
-DOMAIN-SUFFIX,buyorselltnhomes.com
-DOMAIN-SUFFIX,buysellads.com
-DOMAIN-SUFFIX,buysellads.net
-DOMAIN-SUFFIX,buyt.in
-DOMAIN-SUFFIX,buythetool.co
-DOMAIN-SUFFIX,buzvl.com
-DOMAIN-SUFFIX,buzzadexchange.com
-DOMAIN-SUFFIX,buzzadnetwork.com
-DOMAIN-SUFFIX,buzzcity.net
-DOMAIN-SUFFIX,buzzdancing.com
-DOMAIN-SUFFIX,buzzersidewalkcathedral.com
-DOMAIN-SUFFIX,buzzingdiscrepancyheadphone.com
-DOMAIN-SUFFIX,buzzonclick.com
-DOMAIN-SUFFIX,buzzoola.com
-DOMAIN-SUFFIX,buzzparadise.com
-DOMAIN-SUFFIX,bvhxiysrndwbg.site
-DOMAIN-SUFFIX,bvmbnr.xyz
-DOMAIN-SUFFIX,bvmcdn.com
-DOMAIN-SUFFIX,bvmcdn.net
-DOMAIN-SUFFIX,bvodoujjv.xyz
-DOMAIN-SUFFIX,bvtpk.com
-DOMAIN-SUFFIX,bvtznvqieofte.website
-DOMAIN-SUFFIX,bvwmogqvhnsdi.site
-DOMAIN-SUFFIX,bvyptevtmkdul.store
-DOMAIN-SUFFIX,bvzmnmxnyvtkd.site
-DOMAIN-SUFFIX,bwanassages.click
-DOMAIN-SUFFIX,bwcrsvafzujog.site
-DOMAIN-SUFFIX,bwgtptgihi.com
-DOMAIN-SUFFIX,bwhhcuikrgvhs.online
-DOMAIN-SUFFIX,bwhuyauklndvt.online
-DOMAIN-SUFFIX,bwinpartypartners.com
-DOMAIN-SUFFIX,bwkwfuwfv.xyz
-DOMAIN-SUFFIX,bwnnbwlngkwgd.space
-DOMAIN-SUFFIX,bwqkqkhfvwppy.website
-DOMAIN-SUFFIX,bwredir.com
-DOMAIN-SUFFIX,bwrpihqndmsio.site
-DOMAIN-SUFFIX,bwtcilgll.com
-DOMAIN-SUFFIX,bwttasdajpduj.site
-DOMAIN-SUFFIX,bwwardgyspxvy.site
-DOMAIN-SUFFIX,bwxupcpflagcl.store
-DOMAIN-SUFFIX,bwyrblprbxchm.site
-DOMAIN-SUFFIX,bwywyammvghos.space
-DOMAIN-SUFFIX,bxacmsvmxb.com
-DOMAIN-SUFFIX,bxbkh.love
-DOMAIN-SUFFIX,bxdeaeieixgkf.store
-DOMAIN-SUFFIX,bxerfbkaoasof.space
-DOMAIN-SUFFIX,bxewixjwwllvo.site
-DOMAIN-SUFFIX,bxfqkwueufxrq.store
-DOMAIN-SUFFIX,bxglynwnlnrwa.website
-DOMAIN-SUFFIX,bxifydpwojfjd.com
-DOMAIN-SUFFIX,bxiqmpioldqqk.online
-DOMAIN-SUFFIX,bxouuevgyckmp.store
-DOMAIN-SUFFIX,bxpirsojnnuvq.xyz
-DOMAIN-SUFFIX,bxrmsifmdylbji.com
-DOMAIN-SUFFIX,bxrtwyavhyb.online
-DOMAIN-SUFFIX,bxsssywlwocdmdw.net
-DOMAIN-SUFFIX,bxvcwryuuab.com
-DOMAIN-SUFFIX,bxwvsumjgtvmg.space
-DOMAIN-SUFFIX,bxwzcnwycuvbc.world
-DOMAIN-SUFFIX,byadfly.online
-DOMAIN-SUFFIX,byaronan.com
-DOMAIN-SUFFIX,bybastiodoner.com
-DOMAIN-SUFFIX,bybkomvlalnjb.top
-DOMAIN-SUFFIX,bybtndtqoazzx.online
-DOMAIN-SUFFIX,bybyuxxgcqoze.space
-DOMAIN-SUFFIX,bycarver.com
-DOMAIN-SUFFIX,bycathyhough.org
-DOMAIN-SUFFIX,bycvdrvphznyr.site
-DOMAIN-SUFFIX,bydurantr.com
-DOMAIN-SUFFIX,byelawsrakis.cfd
-DOMAIN-SUFFIX,byethost41.net
-DOMAIN-SUFFIX,byfoongusor.com
-DOMAIN-SUFFIX,bygfjnfnwb.net
-DOMAIN-SUFFIX,bygliscortor.com
-DOMAIN-SUFFIX,bygoingthilly.com
-DOMAIN-SUFFIX,bygoneudderpension.com
-DOMAIN-SUFFIX,bygtqjrx.com
-DOMAIN-SUFFIX,byibbstnyywqj.store
-DOMAIN-SUFFIX,byjmlkkvgjonn.top
-DOMAIN-SUFFIX,bylawrite.com
-DOMAIN-SUFFIX,bylawsdipper.qpon
-DOMAIN-SUFFIX,bylbnayqajggq.top
-DOMAIN-SUFFIX,bynix.xyz
-DOMAIN-SUFFIX,byouslyfrit.cfd
-DOMAIN-SUFFIX,byoxxapgnfhdt.site
-DOMAIN-SUFFIX,bypassduehardly.com
-DOMAIN-SUFFIX,bypasspickupfaculty.com
-DOMAIN-SUFFIX,bypcvbbotxnv.com
-DOMAIN-SUFFIX,bypkevin.digital
-DOMAIN-SUFFIX,byrnoekswmn.com
-DOMAIN-SUFFIX,byspot.com
-DOMAIN-SUFFIX,bytalksformee.shop
-DOMAIN-SUFFIX,bytogeticr.com
-DOMAIN-SUFFIX,byuatuitvfbk.xyz
-DOMAIN-SUFFIX,byvkssfa.com
-DOMAIN-SUFFIX,byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com
-DOMAIN-SUFFIX,byvue.com
-DOMAIN-SUFFIX,byxxxporn.com
-DOMAIN-SUFFIX,byyanmaor.com
-DOMAIN-SUFFIX,byyngjmoyljzv.top
-DOMAIN-SUFFIX,bzddpjcutxcvk.today
-DOMAIN-SUFFIX,bzfrmvyspduxo.store
-DOMAIN-SUFFIX,bzjxpfuuqpkzs.club
-DOMAIN-SUFFIX,bzkrvmhamisiyw.com
-DOMAIN-SUFFIX,bzlnqhuqbwirt.store
-DOMAIN-SUFFIX,bzniungh.com
-DOMAIN-SUFFIX,bzoodfalqge.online
-DOMAIN-SUFFIX,bzotdvlemnnvg.online
-DOMAIN-SUFFIX,bzrbogvpueuwa.site
-DOMAIN-SUFFIX,bzrnuixuklcew.space
-DOMAIN-SUFFIX,bzuzhugtoon.com
-DOMAIN-SUFFIX,bzzeozksrbqxf.space
-DOMAIN-SUFFIX,c-trzylshv.vip
-DOMAIN-SUFFIX,c.bannerflow.net
-DOMAIN-SUFFIX,c.bigcomics.bid
-DOMAIN-SUFFIX,c.j8jp.com
-DOMAIN-SUFFIX,c.kkraw.com
-DOMAIN-SUFFIX,c.seksohub.com
-DOMAIN-SUFFIX,c0c84de6d4.com
-DOMAIN-SUFFIX,c0me-get-s0me.net
-DOMAIN-SUFFIX,c0nect.com
-DOMAIN-SUFFIX,c1068112e7.com
-DOMAIN-SUFFIX,c11a6baa3f.com
-DOMAIN-SUFFIX,c12c813990.com
-DOMAIN-SUFFIX,c1595223cf.com
-DOMAIN-SUFFIX,c19ef6cf49.com
-DOMAIN-SUFFIX,c21media.net
-DOMAIN-SUFFIX,c26b742fa3.com
-DOMAIN-SUFFIX,c285e18a9b.com
-DOMAIN-SUFFIX,c2a0076d.xyz
-DOMAIN-SUFFIX,c2ec494150.8681b70da0.com
-DOMAIN-SUFFIX,c2shb.pubgw.yahoo.com
-DOMAIN-SUFFIX,c3759f7e8a.com
-DOMAIN-SUFFIX,c3a36bbaca.com
-DOMAIN-SUFFIX,c3b1912666.com
-DOMAIN-SUFFIX,c3ee303367.com
-DOMAIN-SUFFIX,c3j7rk-rtbix.top
-DOMAIN-SUFFIX,c3s.bionestraff.pro
-DOMAIN-SUFFIX,c43a3cd8f99413891.com
-DOMAIN-SUFFIX,c48eb877a9.com
-DOMAIN-SUFFIX,c4cef5b39d.com
-DOMAIN-SUFFIX,c4ef1d1343.com
-DOMAIN-SUFFIX,c4ff1123f0.com
-DOMAIN-SUFFIX,c4tracking01.com
-DOMAIN-SUFFIX,c526b6ac88.com
-DOMAIN-SUFFIX,c5e739a769.com
-DOMAIN-SUFFIX,c607b31b1a.com
-DOMAIN-SUFFIX,c6ec2f3763.com
-DOMAIN-SUFFIX,c6vb.com
-DOMAIN-SUFFIX,c769b6eba3.com
-DOMAIN-SUFFIX,c7f4d1276e.com
-DOMAIN-SUFFIX,c7vw6cxy7.com
-DOMAIN-SUFFIX,c81cd15a01.com
-DOMAIN-SUFFIX,c8be05e5a0.com
-DOMAIN-SUFFIX,c921a8d3e5.com
-DOMAIN-SUFFIX,c9emgwai66zi.com
-DOMAIN-SUFFIX,ca.fapnow.xxx
-DOMAIN-SUFFIX,ca.lesbianbliss.com
-DOMAIN-SUFFIX,ca06ef821c.com
-DOMAIN-SUFFIX,ca197d3bbc.com
-DOMAIN-SUFFIX,ca2865fb41.com
-DOMAIN-SUFFIX,ca3b526022.com
-DOMAIN-SUFFIX,ca4psell23a4bur.com
-DOMAIN-SUFFIX,ca6dbde75a.com
-DOMAIN-SUFFIX,caahwq.com
-DOMAIN-SUFFIX,caamamurry.com
-DOMAIN-SUFFIX,cabbagereporterpayroll.com
-DOMAIN-SUFFIX,cabbiesinlying.world
-DOMAIN-SUFFIX,cabbydzungar.qpon
-DOMAIN-SUFFIX,cabccumqxzevy.space
-DOMAIN-SUFFIX,cabhwq.com
-DOMAIN-SUFFIX,cabinspiteprivate.com
-DOMAIN-SUFFIX,cabiricaramaic.shop
-DOMAIN-SUFFIX,cabnnr.com
-DOMAIN-SUFFIX,cabvrkooukotb.website
-DOMAIN-SUFFIX,cacamsemih.cfd
-DOMAIN-SUFFIX,cache.myth.dev
-DOMAIN-SUFFIX,cachegorilla.com
-DOMAIN-SUFFIX,cachinglassock.rest
-DOMAIN-SUFFIX,cachotditing.com
-DOMAIN-SUFFIX,cachuadirked.top
-DOMAIN-SUFFIX,cacklegrievingtank.com
-DOMAIN-SUFFIX,cackoorsoltin.net
-DOMAIN-SUFFIX,cactusheadroomscaling.com
-DOMAIN-SUFFIX,cadazypgstyas.space
-DOMAIN-SUFFIX,cadsecs.com
-DOMAIN-SUFFIX,cadsimz.com
-DOMAIN-SUFFIX,cadskiz.com
-DOMAIN-SUFFIX,cadslims.com
-DOMAIN-SUFFIX,cadswkyoxlcfn.site
-DOMAIN-SUFFIX,caecitybrulot.cfd
-DOMAIN-SUFFIX,caesarmausoleum.com
-DOMAIN-SUFFIX,cafaiksaibsaiwy.net
-DOMAIN-SUFFIX,cafdipjat.com
-DOMAIN-SUFFIX,cafewarriors.com
-DOMAIN-SUFFIX,caffeicmalting.shop
-DOMAIN-SUFFIX,caffeine.tv
-DOMAIN-SUFFIX,cafhstudio.help
-DOMAIN-SUFFIX,cafizpinnage.help
-DOMAIN-SUFFIX,cafonline.com
-DOMAIN-SUFFIX,cagaieedrohdv.site
-DOMAIN-SUFFIX,cagemanmaire.qpon
-DOMAIN-SUFFIX,cagiestvealed.cfd
-DOMAIN-SUFFIX,cagothie.net
-DOMAIN-SUFFIX,cahizargulus.world
-DOMAIN-SUFFIX,cahnitefulvene.cfd
-DOMAIN-SUFFIX,cahootdisodic.com
-DOMAIN-SUFFIX,caicuptu.xyz
-DOMAIN-SUFFIX,caigoowheephoa.xyz
-DOMAIN-SUFFIX,caiheegliptojih.net
-DOMAIN-SUFFIX,caihooduko.com
-DOMAIN-SUFFIX,cainginpenicil.com
-DOMAIN-SUFFIX,caipeesteeglo.net
-DOMAIN-SUFFIX,cairoanoahaur.net
-DOMAIN-SUFFIX,caitoasece.com
-DOMAIN-SUFFIX,caizaipt.net
-DOMAIN-SUFFIX,caizuvuptobane.net
-DOMAIN-SUFFIX,cajondusun.click
-DOMAIN-SUFFIX,cakerjuncous.cyou
-DOMAIN-SUFFIX,cakesinventory.com
-DOMAIN-SUFFIX,cakikigoultaiga.net
-DOMAIN-SUFFIX,cakxqnasxkwnb.space
-DOMAIN-SUFFIX,calahanayre.life
-DOMAIN-SUFFIX,calalutarrily.cyou
-DOMAIN-SUFFIX,calamityfortuneaudio.com
-DOMAIN-SUFFIX,calamitymyselfprong.com
-DOMAIN-SUFFIX,calcatesituate.top
-DOMAIN-SUFFIX,calcheossal.cyou
-DOMAIN-SUFFIX,calcifynyoro.cyou
-DOMAIN-SUFFIX,calcpol.com
-DOMAIN-SUFFIX,calculatingequal.pro
-DOMAIN-SUFFIX,calculationcovetous.com
-DOMAIN-SUFFIX,calculationoccasional.com
-DOMAIN-SUFFIX,calculationperildomestic.com
-DOMAIN-SUFFIX,calculationtypicalscuffle.com
-DOMAIN-SUFFIX,calfpillery.click
-DOMAIN-SUFFIX,calguns.net
-DOMAIN-SUFFIX,caligaascites.qpon
-DOMAIN-SUFFIX,caligodredges.rest
-DOMAIN-SUFFIX,caljdjxsfofll.store
-DOMAIN-SUFFIX,callalelel.info
-DOMAIN-SUFFIX,callopdermoid.click
-DOMAIN-SUFFIX,callyourinformer.com
-DOMAIN-SUFFIX,calmbytedishwater.com
-DOMAIN-SUFFIX,calmclinic.com
-DOMAIN-SUFFIX,calmlygelatinecandle.com
-DOMAIN-SUFFIX,calmlytraditionalfreelance.com
-DOMAIN-SUFFIX,calomelsiti.com
-DOMAIN-SUFFIX,caltat.com
-DOMAIN-SUFFIX,caltertangintin.com
-DOMAIN-SUFFIX,calvali.com
-DOMAIN-SUFFIX,cam-content.com
-DOMAIN-SUFFIX,cam-lolita.net
-DOMAIN-SUFFIX,cam-maus.info
-DOMAIN-SUFFIX,cam4.com
-DOMAIN-SUFFIX,cam4flat.com
-DOMAIN-SUFFIX,cam4tracking.com
-DOMAIN-SUFFIX,camads.net
-DOMAIN-SUFFIX,cambaddies.com
-DOMAIN-SUFFIX,cambay.tv
-DOMAIN-SUFFIX,cambriccraning.life
-DOMAIN-SUFFIX,camcaps.ac
-DOMAIN-SUFFIX,camcaps.io
-DOMAIN-SUFFIX,camcaps.to
-DOMAIN-SUFFIX,camcrush.com
-DOMAIN-SUFFIX,camdough.com
-DOMAIN-SUFFIX,camduty.com
-DOMAIN-SUFFIX,cameoutofthecatey.com
-DOMAIN-SUFFIX,cameraunfit.com
-DOMAIN-SUFFIX,camghosts.com
-DOMAIN-SUFFIX,camhub.cc
-DOMAIN-SUFFIX,camiocw.com
-DOMAIN-SUFFIX,camisreed.com
-DOMAIN-SUFFIX,camiwhothoot.net
-DOMAIN-SUFFIX,camliveshow.xyz
-DOMAIN-SUFFIX,cammpaign.com
-DOMAIN-SUFFIX,camonster.com
-DOMAIN-SUFFIX,camouque.net
-DOMAIN-SUFFIX,campaignlook.com
-DOMAIN-SUFFIX,campaigns.williamhill.com
-DOMAIN-SUFFIX,campartner.com
-DOMAIN-SUFFIX,campedredders.qpon
-DOMAIN-SUFFIX,campfirecroutondecorator.com
-DOMAIN-SUFFIX,camplacecash.com
-DOMAIN-SUFFIX,camptrck.com
-DOMAIN-SUFFIX,camptwined.com
-DOMAIN-SUFFIX,cams.com
-DOMAIN-SUFFIX,cams.enjoy.be
-DOMAIN-SUFFIX,cams.gratis
-DOMAIN-SUFFIX,cams.imagetwist.com
-DOMAIN-SUFFIX,cams.imgtaxi.com
-DOMAIN-SUFFIX,camsaim.com
-DOMAIN-SUFFIX,camschat.net
-DOMAIN-SUFFIX,camsense.com
-DOMAIN-SUFFIX,camshq.info
-DOMAIN-SUFFIX,camsitecash.com
-DOMAIN-SUFFIX,camsoda.com
-DOMAIN-SUFFIX,camsoda1.com
-DOMAIN-SUFFIX,camspacelive.com
-DOMAIN-SUFFIX,camvideos.tv
-DOMAIN-SUFFIX,camzap.com
-DOMAIN-SUFFIX,can-get-some.in
-DOMAIN-SUFFIX,can-get-some.net
-DOMAIN-SUFFIX,canapejagging.rest
-DOMAIN-SUFFIX,cancansenfiled.cfd
-DOMAIN-SUFFIX,cancelsstrepor.qpon
-DOMAIN-SUFFIX,canceltrustingunderuse.com
-DOMAIN-SUFFIX,candid-dress.com
-DOMAIN-SUFFIX,candiddugprecedent.com
-DOMAIN-SUFFIX,candlingrecords.com
-DOMAIN-SUFFIX,candorsthameng.shop
-DOMAIN-SUFFIX,candyai.love
-DOMAIN-SUFFIX,candyhiss.com
-DOMAIN-SUFFIX,candyoffers.com
-DOMAIN-SUFFIX,canekilttantrum.com
-DOMAIN-SUFFIX,canellecrazy.com
-DOMAIN-SUFFIX,canesfederalnewspapers.com
-DOMAIN-SUFFIX,canfulpother.shop
-DOMAIN-SUFFIX,canganzimbi.com
-DOMAIN-SUFFIX,cangleralated.world
-DOMAIN-SUFFIX,cangueunsheet.top
-DOMAIN-SUFFIX,cank.xyz
-DOMAIN-SUFFIX,cannerapparel.com
-DOMAIN-SUFFIX,cannonscontra.click
-DOMAIN-SUFFIX,canoemissioninjunction.com
-DOMAIN-SUFFIX,canoerepenttorment.com
-DOMAIN-SUFFIX,canoevaguely.com
-DOMAIN-SUFFIX,canolamonthlyswapping.com
-DOMAIN-SUFFIX,canseldomsulphur.com
-DOMAIN-SUFFIX,canstrm.com
-DOMAIN-SUFFIX,cantaraawingly.com
-DOMAIN-SUFFIX,canthiupsring.life
-DOMAIN-SUFFIX,cantonlobbies.click
-DOMAIN-SUFFIX,canyonsvav.life
-DOMAIN-SUFFIX,canyoublockit.com
-DOMAIN-SUFFIX,canzosdropman.cyou
-DOMAIN-SUFFIX,caokvepcdzeha.site
-DOMAIN-SUFFIX,cap-cap-pop.com
-DOMAIN-SUFFIX,capabilitylusciousinstances.com
-DOMAIN-SUFFIX,capabletonight.com
-DOMAIN-SUFFIX,capaciousdrewreligion.com
-DOMAIN-SUFFIX,capacitygrid.com
-DOMAIN-SUFFIX,capedhurlpit.cyou
-DOMAIN-SUFFIX,capefast.com
-DOMAIN-SUFFIX,capelancauking.cyou
-DOMAIN-SUFFIX,capeneist.rest
-DOMAIN-SUFFIX,caperedlevi.com
-DOMAIN-SUFFIX,capichaislet.rest
-DOMAIN-SUFFIX,capital.com
-DOMAIN-SUFFIX,capitalistsplitting.com
-DOMAIN-SUFFIX,capndr.com
-DOMAIN-SUFFIX,capomodiluted.rest
-DOMAIN-SUFFIX,caponsstop.help
-DOMAIN-SUFFIX,cappaecoignes.life
-DOMAIN-SUFFIX,cappersintrap.cyou
-DOMAIN-SUFFIX,captainsuccessornoisy.com
-DOMAIN-SUFFIX,captchafine.live
-DOMAIN-SUFFIX,captionconjecture.com
-DOMAIN-SUFFIX,captivegyte.life
-DOMAIN-SUFFIX,captiveimpossibleimport.com
-DOMAIN-SUFFIX,captorsunricht.cyou
-DOMAIN-SUFFIX,capturescaldsomewhat.com
-DOMAIN-SUFFIX,captureukdmyatyten.org
-DOMAIN-SUFFIX,caputtalite.shop
-DOMAIN-SUFFIX,caquethaloa.com
-DOMAIN-SUFFIX,caraganaarborescenspendula.com
-DOMAIN-SUFFIX,caranddriver.com
-DOMAIN-SUFFIX,caravanfried.com
-DOMAIN-SUFFIX,caravanremarried.com
-DOMAIN-SUFFIX,carawayhonest.com
-DOMAIN-SUFFIX,carbarnbonang.shop
-DOMAIN-SUFFIX,carbonads.com
-DOMAIN-SUFFIX,carbonateinvention.com
-DOMAIN-SUFFIX,carbonsamas.click
-DOMAIN-SUFFIX,carbyerthly.shop
-DOMAIN-SUFFIX,carcflma.de
-DOMAIN-SUFFIX,cardiganpalmreconcile.com
-DOMAIN-SUFFIX,carditahauteur.rest
-DOMAIN-SUFFIX,cardiumdaftly.com
-DOMAIN-SUFFIX,cards.thriftytraveler.com
-DOMAIN-SUFFIX,careerjournalonline.com
-DOMAIN-SUFFIX,careerunderstatement.com
-DOMAIN-SUFFIX,careerwebsite.com
-DOMAIN-SUFFIX,careewituhi.org
-DOMAIN-SUFFIX,careewituhin.org
-DOMAIN-SUFFIX,carefree-complex.pro
-DOMAIN-SUFFIX,carefulbleatdish.com
-DOMAIN-SUFFIX,caresseashoreunrest.com
-DOMAIN-SUFFIX,caressfinancialdodge.com
-DOMAIN-SUFFIX,caressleazy.com
-DOMAIN-SUFFIX,carfax.com
-DOMAIN-SUFFIX,carfulsalem.shop
-DOMAIN-SUFFIX,carfulsranquel.com
-DOMAIN-SUFFIX,cargoattachment.com
-DOMAIN-SUFFIX,caringpast.com
-DOMAIN-SUFFIX,cariouscannedroman.com
-DOMAIN-SUFFIX,carivjjfpakgl.site
-DOMAIN-SUFFIX,carlinegodwit.rest
-DOMAIN-SUFFIX,carlinsgreaser.digital
-DOMAIN-SUFFIX,carnoseearlet.click
-DOMAIN-SUFFIX,caroakitab.com
-DOMAIN-SUFFIX,caroda.io
-DOMAIN-SUFFIX,carpenterexplorerdemolition.com
-DOMAIN-SUFFIX,carpenterfootwearappellation.com
-DOMAIN-SUFFIX,carplusky.cyou
-DOMAIN-SUFFIX,carpuslarrups.com
-DOMAIN-SUFFIX,carrackclote.help
-DOMAIN-SUFFIX,carrelroosers.cfd
-DOMAIN-SUFFIX,carriedamiral.com
-DOMAIN-SUFFIX,carryglanced.com
-DOMAIN-SUFFIX,cartelssalp.cyou
-DOMAIN-SUFFIX,cartiereleme.qpon
-DOMAIN-SUFFIX,cartining-specute.com
-DOMAIN-SUFFIX,cartrigepromised.com
-DOMAIN-SUFFIX,carungo.com
-DOMAIN-SUFFIX,carvagenoix.com
-DOMAIN-SUFFIX,carvelshavage.cfd
-DOMAIN-SUFFIX,carvenbowet.help
-DOMAIN-SUFFIX,carvercranberry.com
-DOMAIN-SUFFIX,carvyre.com
-DOMAIN-SUFFIX,casalemedia.com
-DOMAIN-SUFFIX,casavijackleg.world
-DOMAIN-SUFFIX,cascansycon.life
-DOMAIN-SUFFIX,cascantyre.digital
-DOMAIN-SUFFIX,casefulautist.shop
-DOMAIN-SUFFIX,casefulbalafo.cyou
-DOMAIN-SUFFIX,casefyparamos.com
-DOMAIN-SUFFIX,caseour.digital
-DOMAIN-SUFFIX,cash-ads.com
-DOMAIN-SUFFIX,cash-duck.com
-DOMAIN-SUFFIX,cash-program.com
-DOMAIN-SUFFIX,cash.femjoy.com
-DOMAIN-SUFFIX,cash4members.com
-DOMAIN-SUFFIX,cashcinemaunbiased.com
-DOMAIN-SUFFIX,cashgzb.com
-DOMAIN-SUFFIX,cashibohs.digital
-DOMAIN-SUFFIX,cashlayer.com
-DOMAIN-SUFFIX,cashmachines.biz
-DOMAIN-SUFFIX,cashmereabove.com
-DOMAIN-SUFFIX,cashthat.com
-DOMAIN-SUFFIX,cashtrafic.com
-DOMAIN-SUFFIX,cashtrafic.info
-DOMAIN-SUFFIX,casino-zilla.com
-DOMAIN-SUFFIX,casino.betsson.com
-DOMAIN-SUFFIX,casinobonusdeals.io
-DOMAIN-SUFFIX,casinohacksforyou.com
-DOMAIN-SUFFIX,casinousagevacant.com
-DOMAIN-SUFFIX,casiyouaffiliates.com
-DOMAIN-SUFFIX,casketdropperregalia.com
-DOMAIN-SUFFIX,casketembody.com
-DOMAIN-SUFFIX,casoscoyx.com
-DOMAIN-SUFFIX,casquesalida.click
-DOMAIN-SUFFIX,cassinotacky.life
-DOMAIN-SUFFIX,castlespurdog.cfd
-DOMAIN-SUFFIX,castoffmarys.cyou
-DOMAIN-SUFFIX,castorsincult.qpon
-DOMAIN-SUFFIX,casual-sweetsite.com
-DOMAIN-SUFFIX,casualswomanromances.com
-DOMAIN-SUFFIX,casumoaffiliates.com
-DOMAIN-SUFFIX,catastropheillusive.com
-DOMAIN-SUFFIX,catchbarracksclinic.com
-DOMAIN-SUFFIX,catchtheclick.com
-DOMAIN-SUFFIX,catchupfasc.cfd
-DOMAIN-SUFFIX,catgutssendal.top
-DOMAIN-SUFFIX,cathecthumpty.qpon
-DOMAIN-SUFFIX,catherinebrochure.com
-DOMAIN-SUFFIX,catholicncesisp.com
-DOMAIN-SUFFIX,catholicprevalent.com
-DOMAIN-SUFFIX,cationscurious.click
-DOMAIN-SUFFIX,catiuribripent.com
-DOMAIN-SUFFIX,catsnbootsncats2020.com
-DOMAIN-SUFFIX,cattailpectinselected.com
-DOMAIN-SUFFIX,cattleforcedlit.com
-DOMAIN-SUFFIX,catwalkoutled.com
-DOMAIN-SUFFIX,catwrite.com
-DOMAIN-SUFFIX,cauaoxozeox.com
-DOMAIN-SUFFIX,caudexintrine.com
-DOMAIN-SUFFIX,caukeethobechid.com
-DOMAIN-SUFFIX,caukoaph.net
-DOMAIN-SUFFIX,cauliflowertoaster.com
-DOMAIN-SUFFIX,caulishanker.qpon
-DOMAIN-SUFFIX,cauloterefutes.cyou
-DOMAIN-SUFFIX,cauloupsamiki.net
-DOMAIN-SUFFIX,caupdekare.world
-DOMAIN-SUFFIX,caupskyward.qpon
-DOMAIN-SUFFIX,caurostumt.com
-DOMAIN-SUFFIX,caurusbauchle.shop
-DOMAIN-SUFFIX,causingguard.com
-DOMAIN-SUFFIX,causingparameterfavour.com
-DOMAIN-SUFFIX,causlesscauslessshowerconventional.com
-DOMAIN-SUFFIX,causoupushoutho.xyz
-DOMAIN-SUFFIX,caustopa.net
-DOMAIN-SUFFIX,cautious-desk.pro
-DOMAIN-SUFFIX,cautiouslyanalysecrystal.com
-DOMAIN-SUFFIX,cautommityring.com
-DOMAIN-SUFFIX,cauvousy.net
-DOMAIN-SUFFIX,cauyuksehink.info
-DOMAIN-SUFFIX,cavaescopet.digital
-DOMAIN-SUFFIX,cavalsereno.help
-DOMAIN-SUFFIX,cavecoat.top
-DOMAIN-SUFFIX,cavelarverni.click
-DOMAIN-SUFFIX,cavewrap.care
-DOMAIN-SUFFIX,cawaighugni.net
-DOMAIN-SUFFIX,caxooziwheeg.net
-DOMAIN-SUFFIX,cazezoungoakse.net
-DOMAIN-SUFFIX,cb-content.com
-DOMAIN-SUFFIX,cb260f4651.com
-DOMAIN-SUFFIX,cb3251add6.com
-DOMAIN-SUFFIX,cba-fed-igh.com
-DOMAIN-SUFFIX,cbbhhuscjxgph.site
-DOMAIN-SUFFIX,cbckftoaakcye.website
-DOMAIN-SUFFIX,cbdbda0256.com
-DOMAIN-SUFFIX,cbdedibles.site
-DOMAIN-SUFFIX,cbdmijnsjt.com
-DOMAIN-SUFFIX,cbfsuwlgfiuss.store
-DOMAIN-SUFFIX,cbfxilexavemz.space
-DOMAIN-SUFFIX,cbivvnmafd.net
-DOMAIN-SUFFIX,cbjcfrakrdzzs.space
-DOMAIN-SUFFIX,cbjflptthbjnb.space
-DOMAIN-SUFFIX,cbjojkzmbbxpd.website
-DOMAIN-SUFFIX,cbkyaepzyibsx.click
-DOMAIN-SUFFIX,cblmcgeipgxxc.online
-DOMAIN-SUFFIX,cbmiocw.com
-DOMAIN-SUFFIX,cbpttdpymofjx.online
-DOMAIN-SUFFIX,cbqwwvfukmfvb.website
-DOMAIN-SUFFIX,cbro.win
-DOMAIN-SUFFIX,cbtxlvpoczxxr.space
-DOMAIN-SUFFIX,cbvnzczrbcjoq.online
-DOMAIN-SUFFIX,cbxxfascjrdjm.space
-DOMAIN-SUFFIX,cbysagcigvoj.com
-DOMAIN-SUFFIX,cc-dt.com
-DOMAIN-SUFFIX,cc33b86bbf.com
-DOMAIN-SUFFIX,cc93bb0aee.com
-DOMAIN-SUFFIX,ccc9c93083.com
-DOMAIN-SUFFIX,cccc5a2b7f.com
-DOMAIN-SUFFIX,ccdd7a795c.com
-DOMAIN-SUFFIX,ccdgqqaukssmx.website
-DOMAIN-SUFFIX,ccdhskjkkerdt.website
-DOMAIN-SUFFIX,ccfvhquaynxcp.space
-DOMAIN-SUFFIX,ccg90.com
-DOMAIN-SUFFIX,ccgateway.net
-DOMAIN-SUFFIX,ccgkdblnmdnkeap.com
-DOMAIN-SUFFIX,cchkvtejdnqov.space
-DOMAIN-SUFFIX,ccjfxvnyiqcfv.space
-DOMAIN-SUFFIX,ccjxoyko.com
-DOMAIN-SUFFIX,ccjzuavqrh.com
-DOMAIN-SUFFIX,cckltgdhvmrux.site
-DOMAIN-SUFFIX,ccluukrajdnyj.space
-DOMAIN-SUFFIX,ccmiocw.com
-DOMAIN-SUFFIX,ccn08sth.de
-DOMAIN-SUFFIX,cctpyneuuiuwn.site
-DOMAIN-SUFFIX,ccttoocxmymh.net
-DOMAIN-SUFFIX,ccuoqedyqvttq.tech
-DOMAIN-SUFFIX,ccurakluf.com
-DOMAIN-SUFFIX,ccyainxrkvdhl.online
-DOMAIN-SUFFIX,ccyavrows.com
-DOMAIN-SUFFIX,cdafsilizdoqm.website
-DOMAIN-SUFFIX,cdauseplnacwd.website
-DOMAIN-SUFFIX,cdb4bd7cb1.com
-DOMAIN-SUFFIX,cdbqhsjaornka.website
-DOMAIN-SUFFIX,cdceed.de
-DOMAIN-SUFFIX,cdctwm.com
-DOMAIN-SUFFIX,cdd53ec0c3.com
-DOMAIN-SUFFIX,cddtsecure.com
-DOMAIN-SUFFIX,cde497d52a.com
-DOMAIN-SUFFIX,cdhzzirkkgoce.website
-DOMAIN-SUFFIX,cdlccgzljxpzm.store
-DOMAIN-SUFFIX,cdn-academy.akamaized.net
-DOMAIN-SUFFIX,cdn-adtech.com
-DOMAIN-SUFFIX,cdn-adtrue.com
-DOMAIN-SUFFIX,cdn-server.cc
-DOMAIN-SUFFIX,cdn-service.com
-DOMAIN-SUFFIX,cdn.007moms.com
-DOMAIN-SUFFIX,cdn.ad.page
-DOMAIN-SUFFIX,cdn.autodoc.de
-DOMAIN-SUFFIX,cdn.b2.ai
-DOMAIN-SUFFIX,cdn.biff.travel
-DOMAIN-SUFFIX,cdn.csyndication.com
-DOMAIN-SUFFIX,cdn.ex.co
-DOMAIN-SUFFIX,cdn.ftwpcn.com
-DOMAIN-SUFFIX,cdn.hamwo.cloud
-DOMAIN-SUFFIX,cdn.house
-DOMAIN-SUFFIX,cdn.http.anno.channel4.com
-DOMAIN-SUFFIX,cdn.iople.com
-DOMAIN-SUFFIX,cdn.jkpes.com
-DOMAIN-SUFFIX,cdn.kelpo.cloud
-DOMAIN-SUFFIX,cdn.manga9.co
-DOMAIN-SUFFIX,cdn.mcnn.pl
-DOMAIN-SUFFIX,cdn.neighbourly.co.nz
-DOMAIN-SUFFIX,cdn.optmd.com
-DOMAIN-SUFFIX,cdn.optmn.cloud
-DOMAIN-SUFFIX,cdn.perfdrive.com
-DOMAIN-SUFFIX,cdn.rgrd.xyz
-DOMAIN-SUFFIX,cdn.sdtraff.com
-DOMAIN-SUFFIX,cdn.shopify.com
-DOMAIN-SUFFIX,cdn.sphinxtube.com
-DOMAIN-SUFFIX,cdn.streambeast.io
-DOMAIN-SUFFIX,cdn.thejournal.ie
-DOMAIN-SUFFIX,cdn.throatbulge.com
-DOMAIN-SUFFIX,cdn.turboviplay.com
-DOMAIN-SUFFIX,cdn.vaughnsoft.net
-DOMAIN-SUFFIX,cdn.viowrel.com
-DOMAIN-SUFFIX,cdn.xbcpcn.com
-DOMAIN-SUFFIX,cdn.yeahwebimobi.fun
-DOMAIN-SUFFIX,cdn.yld.is
-DOMAIN-SUFFIX,cdn12359286.ahacdn.me
-DOMAIN-SUFFIX,cdn1cloudflare.xyz
-DOMAIN-SUFFIX,cdn2-1.net
-DOMAIN-SUFFIX,cdn22904910.ahacdn.me
-DOMAIN-SUFFIX,cdn28786515.ahacdn.me
-DOMAIN-SUFFIX,cdn2cdn.me
-DOMAIN-SUFFIX,cdn2reference.com
-DOMAIN-SUFFIX,cdn3.hentaihand.com
-DOMAIN-SUFFIX,cdn3reference.com
-DOMAIN-SUFFIX,cdn3x.com
-DOMAIN-SUFFIX,cdn4.life
-DOMAIN-SUFFIX,cdn44221613.ahacdn.me
-DOMAIN-SUFFIX,cdn4ads.com
-DOMAIN-SUFFIX,cdn4image.com
-DOMAIN-SUFFIX,cdn5.cartoonporn.to
-DOMAIN-SUFFIX,cdn54405831.ahacdn.me
-DOMAIN-SUFFIX,cdn7.network
-DOMAIN-SUFFIX,cdn7.rocks
-DOMAIN-SUFFIX,cdn77.org
-DOMAIN-SUFFIX,cdn83753766.ahacdn.me
-DOMAIN-SUFFIX,cdnads.com
-DOMAIN-SUFFIX,cdnads.geeksforgeeks.org
-DOMAIN-SUFFIX,cdnako.com
-DOMAIN-SUFFIX,cdnapi.net
-DOMAIN-SUFFIX,cdnativ.com
-DOMAIN-SUFFIX,cdnativepush.com
-DOMAIN-SUFFIX,cdnaz.win
-DOMAIN-SUFFIX,cdnbit.com
-DOMAIN-SUFFIX,cdnfimgs.com
-DOMAIN-SUFFIX,cdnflex.me
-DOMAIN-SUFFIX,cdnfreemalva.com
-DOMAIN-SUFFIX,cdngain.com
-DOMAIN-SUFFIX,cdngcloud.com
-DOMAIN-SUFFIX,cdnintech.com
-DOMAIN-SUFFIX,cdnkimg.com
-DOMAIN-SUFFIX,cdnkuiphgg.xyz
-DOMAIN-SUFFIX,cdnmon.com
-DOMAIN-SUFFIX,cdnondemand.org
-DOMAIN-SUFFIX,cdnpc.net
-DOMAIN-SUFFIX,cdnpf.com
-DOMAIN-SUFFIX,cdnpk.net
-DOMAIN-SUFFIX,cdnpsh.com
-DOMAIN-SUFFIX,cdnpub.info
-DOMAIN-SUFFIX,cdnpure.com
-DOMAIN-SUFFIX,cdnquality.com
-DOMAIN-SUFFIX,cdnreference.com
-DOMAIN-SUFFIX,cdntechone.com
-DOMAIN-SUFFIX,cdntestlp.info
-DOMAIN-SUFFIX,cdnthreads.com
-DOMAIN-SUFFIX,cdntrf.com
-DOMAIN-SUFFIX,cdnvideo3.com
-DOMAIN-SUFFIX,cdnware.com
-DOMAIN-SUFFIX,cdnware.io
-DOMAIN-SUFFIX,cdnweb3.pages.dev
-DOMAIN-SUFFIX,cdnweigh.net
-DOMAIN-SUFFIX,cdrhialzwntyu.store
-DOMAIN-SUFFIX,cdrvrs.com
-DOMAIN-SUFFIX,cdsbnrs.com
-DOMAIN-SUFFIX,cdtbox.rocks
-DOMAIN-SUFFIX,cdtfxgcszuqiu.online
-DOMAIN-SUFFIX,cdtkthwugykn.xyz
-DOMAIN-SUFFIX,cdvmgqs-ggh.tech
-DOMAIN-SUFFIX,cdwmpt.com
-DOMAIN-SUFFIX,cdwmtt.com
-DOMAIN-SUFFIX,cdwudnnwrvmtwfy.com
-DOMAIN-SUFFIX,ce6b6837ab.com
-DOMAIN-SUFFIX,ce6fc56927.com
-DOMAIN-SUFFIX,ce82020873.com
-DOMAIN-SUFFIX,ceaankluwuov.today
-DOMAIN-SUFFIX,ceakppokkbodo.store
-DOMAIN-SUFFIX,ceandtheremade.com
-DOMAIN-SUFFIX,ceaouuqccnwcb.online
-DOMAIN-SUFFIX,ceasechampagneparade.com
-DOMAIN-SUFFIX,ceasecompromisetwine.com
-DOMAIN-SUFFIX,ceasedheave.com
-DOMAIN-SUFFIX,ceaskedasensibl.org
-DOMAIN-SUFFIX,ceaslesswisely.com
-DOMAIN-SUFFIX,cebathadn.shop
-DOMAIN-SUFFIX,cebworfrjoetv.online
-DOMAIN-SUFFIX,cec41c3e84.com
-DOMAIN-SUFFIX,cecallyssas.life
-DOMAIN-SUFFIX,cecilngoma.com
-DOMAIN-SUFFIX,cecilsginger.cyou
-DOMAIN-SUFFIX,ceckafoads.net
-DOMAIN-SUFFIX,ceckurtaiwoafte.net
-DOMAIN-SUFFIX,ced843cd18.com
-DOMAIN-SUFFIX,cedecancontemporary.com
-DOMAIN-SUFFIX,cedeimprovise.com
-DOMAIN-SUFFIX,cedesenvy.digital
-DOMAIN-SUFFIX,cedhecpihlcjd.com
-DOMAIN-SUFFIX,cedricfaces.shop
-DOMAIN-SUFFIX,cedrt6.pro
-DOMAIN-SUFFIX,cee332cc1f.com
-DOMAIN-SUFFIX,ceeilcvgjq.xyz
-DOMAIN-SUFFIX,ceenoositooga.net
-DOMAIN-SUFFIX,ceeputhoovailo.com
-DOMAIN-SUFFIX,ceerosario.qpon
-DOMAIN-SUFFIX,ceerrvzdgucqs.online
-DOMAIN-SUFFIX,ceetheewhuwoaps.net
-DOMAIN-SUFFIX,ceethipt.com
-DOMAIN-SUFFIX,ceezepegleze.xyz
-DOMAIN-SUFFIX,cef7cb85aa.com
-DOMAIN-SUFFIX,cefazaaycjdqi.store
-DOMAIN-SUFFIX,cehbmaknzpyic.store
-DOMAIN-SUFFIX,ceibohan.help
-DOMAIN-SUFFIX,cejckggvflvnf.space
-DOMAIN-SUFFIX,cejidpicnzqlg.site
-DOMAIN-SUFFIX,celai.site
-DOMAIN-SUFFIX,celeb-ads.com
-DOMAIN-SUFFIX,celeb.gate.cc
-DOMAIN-SUFFIX,celebjihad.com
-DOMAIN-SUFFIX,celebnewsuggestions.com
-DOMAIN-SUFFIX,celebstoner.com
-DOMAIN-SUFFIX,celelernody.org
-DOMAIN-SUFFIX,celeritascdn.com
-DOMAIN-SUFFIX,celeryisolatedproject.com
-DOMAIN-SUFFIX,celerysensationfact.com
-DOMAIN-SUFFIX,celewasgildedal.org
-DOMAIN-SUFFIX,cellardestiny.com
-DOMAIN-SUFFIX,cellosfroggy.cyou
-DOMAIN-SUFFIX,cellspitch.com
-DOMAIN-SUFFIX,cellspsoatic.com
-DOMAIN-SUFFIX,celsiusours.com
-DOMAIN-SUFFIX,celtstimid.shop
-DOMAIN-SUFFIX,celx.xyz
-DOMAIN-SUFFIX,celxkpdir.com
-DOMAIN-SUFFIX,cemaolocavmti.website
-DOMAIN-SUFFIX,cematuran.com
-DOMAIN-SUFFIX,cementexemplifybuddy.com
-DOMAIN-SUFFIX,cemeteryloinrespirator.com
-DOMAIN-SUFFIX,cemiocw.com
-DOMAIN-SUFFIX,cemtemtaiglu.net
-DOMAIN-SUFFIX,cenaclesuccoth.com
-DOMAIN-SUFFIX,cenedirgie.rest
-DOMAIN-SUFFIX,cennter.com
-DOMAIN-SUFFIX,censuscompassembryo.com
-DOMAIN-SUFFIX,censusmarrydespair.com
-DOMAIN-SUFFIX,centalsindustrate.org
-DOMAIN-SUFFIX,centent.stemplay.cc
-DOMAIN-SUFFIX,centimetrebracketasperity.com
-DOMAIN-SUFFIX,centlyhavebed.com
-DOMAIN-SUFFIX,centralnervous.net
-DOMAIN-SUFFIX,centumshough.com
-DOMAIN-SUFFIX,centwrite.com
-DOMAIN-SUFFIX,ceopu.com
-DOMAIN-SUFFIX,cephasbugdom.click
-DOMAIN-SUFFIX,cephei-b.com
-DOMAIN-SUFFIX,ceqgiawfjpxkwg.net
-DOMAIN-SUFFIX,ceqyuidnlnyib.site
-DOMAIN-SUFFIX,cercalventers.click
-DOMAIN-SUFFIX,ceremonyjogglecling.com
-DOMAIN-SUFFIX,ceremonysystemsfried.com
-DOMAIN-SUFFIX,cerilloinverts.com
-DOMAIN-SUFFIX,cerimanlignins.life
-DOMAIN-SUFFIX,certona.net
-DOMAIN-SUFFIX,cerulemafurra.life
-DOMAIN-SUFFIX,ceryldelaine.com
-DOMAIN-SUFFIX,ces2007.org
-DOMAIN-SUFFIX,cesarebientt.com
-DOMAIN-SUFFIX,cesiousvesania.qpon
-DOMAIN-SUFFIX,cessationhamster.com
-DOMAIN-SUFFIX,cestibegster.com
-DOMAIN-SUFFIX,cestorshefo.org
-DOMAIN-SUFFIX,cesuraeflaked.help
-DOMAIN-SUFFIX,cetibraying.cfd
-DOMAIN-SUFFIX,cetoworkwither.com
-DOMAIN-SUFFIX,cetzcfuxwx.com
-DOMAIN-SUFFIX,ceveq.click
-DOMAIN-SUFFIX,cevianechoey.shop
-DOMAIN-SUFFIX,cevichebland.cyou
-DOMAIN-SUFFIX,cevoansoultum.net
-DOMAIN-SUFFIX,cevxjorcuqsnr.website
-DOMAIN-SUFFIX,cewllouapqk.com
-DOMAIN-SUFFIX,cewmyvfmjjbit.store
-DOMAIN-SUFFIX,cex.io
-DOMAIN-SUFFIX,cexofira.com
-DOMAIN-SUFFIX,cexucetum.com
-DOMAIN-SUFFIX,cf-oss.gname.net
-DOMAIN-SUFFIX,cfewbzwhydkvb.store
-DOMAIN-SUFFIX,cffa3cb187.com
-DOMAIN-SUFFIX,cfgr1.com
-DOMAIN-SUFFIX,cfgr3.com
-DOMAIN-SUFFIX,cfgr5.com
-DOMAIN-SUFFIX,cfgrcr1.com
-DOMAIN-SUFFIX,cfgwihpfomuwq.online
-DOMAIN-SUFFIX,cfivfadtlr.com
-DOMAIN-SUFFIX,cfmkfkeoppzmz.online
-DOMAIN-SUFFIX,cfoevzalcgvcc.space
-DOMAIN-SUFFIX,cfoiwbqtbjyyz.com
-DOMAIN-SUFFIX,cfpgsnkdmtugz.space
-DOMAIN-SUFFIX,cfqrooirsgecg.space
-DOMAIN-SUFFIX,cfqzcuasbvwva.website
-DOMAIN-SUFFIX,cfsamidol.digital
-DOMAIN-SUFFIX,cfujuojondtht.website
-DOMAIN-SUFFIX,cfuonmexmmewy.fun
-DOMAIN-SUFFIX,cfusionsys.com
-DOMAIN-SUFFIX,cfvcjyksaerua.fun
-DOMAIN-SUFFIX,cfzrh-xqwrv.site
-DOMAIN-SUFFIX,cgbubdilqdjit.online
-DOMAIN-SUFFIX,cgbupajpzo-t.rocks
-DOMAIN-SUFFIX,cggrinkqbazwe.site
-DOMAIN-SUFFIX,cghghfckwuwoc.space
-DOMAIN-SUFFIX,cgiaysvjnljyk.online
-DOMAIN-SUFFIX,cgjowhzaneoli.love
-DOMAIN-SUFFIX,cgltweiaokwbt.store
-DOMAIN-SUFFIX,cgnbrphifspug.online
-DOMAIN-SUFFIX,cgnosvsqrqy.xyz
-DOMAIN-SUFFIX,cgpnhjatakwqnjd.xyz
-DOMAIN-SUFFIX,cgthnxnovsmml.xyz
-DOMAIN-SUFFIX,cgtkclfydnqhp.site
-DOMAIN-SUFFIX,cgtwccqrpbota.global
-DOMAIN-SUFFIX,cgtwpoayhmqi.online
-DOMAIN-SUFFIX,chabadokor.com
-DOMAIN-SUFFIX,chachors.net
-DOMAIN-SUFFIX,chackersiever.world
-DOMAIN-SUFFIX,chacolieutopia.shop
-DOMAIN-SUFFIX,chaerel.com
-DOMAIN-SUFFIX,chafinguhuru.help
-DOMAIN-SUFFIX,chaghets.net
-DOMAIN-SUFFIX,chaibsoacmo.com
-DOMAIN-SUFFIX,chaidroughee.com
-DOMAIN-SUFFIX,chainads.io
-DOMAIN-SUFFIX,chainconnectivity.com
-DOMAIN-SUFFIX,chainstayornerypsstgeez.com
-DOMAIN-SUFFIX,chaintopdom.nl
-DOMAIN-SUFFIX,chaipoodrort.com
-DOMAIN-SUFFIX,chaipungie.xyz
-DOMAIN-SUFFIX,chairmansmile.com
-DOMAIN-SUFFIX,chaitsoukrooly.net
-DOMAIN-SUFFIX,chaiwnaoytjig.site
-DOMAIN-SUFFIX,chalaips.com
-DOMAIN-SUFFIX,chaliceguzzlerlandlord.com
-DOMAIN-SUFFIX,chalkedretrieval.com
-DOMAIN-SUFFIX,chalkleash.com
-DOMAIN-SUFFIX,chalkplayground.co
-DOMAIN-SUFFIX,challahlutist.click
-DOMAIN-SUFFIX,challassorrier.qpon
-DOMAIN-SUFFIX,challengetoward.com
-DOMAIN-SUFFIX,chambermaidthree.xyz
+DOMAIN-SUFFIX,burierreloans.life # 投机性注册域名，疑似欺诈广告引流站点  
+DOMAIN-SUFFIX,burjam.com # 可疑跳转平台域名，存在广告重定向行为  
+DOMAIN-SUFFIX,burkersflative.life # 非常规拼写组合，疑似广告生成域名   
+DOMAIN-SUFFIX,burlybathroom.pro # 异常命名结构，疑似投放性广告网站  
+DOMAIN-SUFFIX,burmitehapale.click # ".click"后缀常用于广告跳转，该域名结构异常  
+DOMAIN-SUFFIX,bursa.conxxx.pro # “conxxx”属色情广告域名特征，明确用于成人广告跳转  
+DOMAIN-SUFFIX,bursa33.xyz # ".xyz" 后缀 + 地区名组合，疑似程序化广告域名  
+DOMAIN-SUFFIX,bursasrewaxes.qpon # 非主流后缀 + 混淆结构，疑似广告中继接口  
+DOMAIN-SUFFIX,bursesborstal.life # 拼写混淆，结构与广告站生成工具类似  
+DOMAIN-SUFFIX,bursthormone.com # 典型健康类欺诈广告关键词，已用于跳转追踪  
+DOMAIN-SUFFIX,burstnet.com # 历史广告平台域名，已用于弹窗广告与跟踪脚本  
+DOMAIN-SUFFIX,bursultry-exprights.com # 长尾投放域名，存在广告重定向行为  
+DOMAIN-SUFFIX,bushersfrugged.shop # 可疑电商广告域名，结构符合广告生成特征  
+DOMAIN-SUFFIX,bushesassortmentwearisome.com # 超长组合域名，符合垃圾广告生成规则  
+DOMAIN-SUFFIX,bushsurprising.com # 可疑营销跳转域名，含广告重定向行为记录  
+DOMAIN-SUFFIX,busilycarnival.com # 可疑广告跳转域名，结构混淆，关联追踪流量   
+DOMAIN-SUFFIX,businessclick.com # 早期点击流量广告平台域名，存在历史广告行为   
+DOMAIN-SUFFIX,businesstremendoushad.com # 虚构型域名，具备广告跳转特征  
+DOMAIN-SUFFIX,busmcusexbd.com # 混淆字符组合，广告脚本接口域名  
+DOMAIN-SUFFIX,busterry.com # 可疑成人内容广告域名，含诱导点击记录  
+DOMAIN-SUFFIX,bustle.com # 合法媒体内容网站，含部分广告组件  
+DOMAIN-SUFFIX,bustlefungus.com # 可疑恶搞型域名，疑似广告跳转用，结构不明  
+DOMAIN-SUFFIX,bustlerloins.com # 可疑成人内容广告中继域名  
+DOMAIN-SUFFIX,bustslicerstrongbox.com # 疑似程序化广告平台的分发域名  
+DOMAIN-SUFFIX,bustsserpari.world # 混淆域名结构，行为特征显示广告植入可能  
+DOMAIN-SUFFIX,busy-man.com # 正常站点，部分历史含推广脚本，建议保留观察   
+DOMAIN-SUFFIX,butanesslock.com # 可疑构造域名，广告用途可能，缺乏情报验证  
+DOMAIN-SUFFIX,butlerrecast.com # 广告模板生成平台域名，含推广跳转行为  
+DOMAIN-SUFFIX,butoraheadyg.com # 可疑字符组合，具备广告追踪潜力，结构不清晰    
+DOMAIN-SUFFIX,butteryamount.pro # 随机生成域名，疑似用于广告流量跳转  
+DOMAIN-SUFFIX,butterysteal.pro # 可疑程序化广告平台域名    
+DOMAIN-SUFFIX,buttontileaiming.com # 结构类广告引导行为，可能涉及重定向或跳转广告  
+DOMAIN-SUFFIX,buxflow.com # 明确广告平台域名，用于广告联盟流量分发  
+DOMAIN-SUFFIX,buy404s.com # 购买失效页面跳转流量，典型广告行为特征  
+DOMAIN-SUFFIX,buyadvupfor24.com # 可疑广告导流站点域名，名称直指广告用途  
+DOMAIN-SUFFIX,buyflood.com # 广告点击刷量服务商域名，已被安全厂商标记  
+DOMAIN-SUFFIX,buyfrightencheckup.com # 可疑广告跳转结构，行为异常   
+DOMAIN-SUFFIX,buyjwsoadheqo.online # 随机生成域名，疑似用于程序化广告行为  
+DOMAIN-SUFFIX,buyorselltnhomes.com # 房产广告相关域名，含推广用途  
+DOMAIN-SUFFIX,buysellads.com # Buysellads 广告联盟主域名，用于程序化广告分发  
+DOMAIN-SUFFIX,buysellads.net # Buysellads 广告联盟子域名  
+DOMAIN-SUFFIX,buyt.in # 短链跳转广告服务平台，明确广告用途  
+DOMAIN-SUFFIX,buythetool.co # 工具类产品广告站点域名，广告导流行为明确  
+DOMAIN-SUFFIX,buzvl.com # 已知广告跳转平台域名，被用于点击重定向行为  
+DOMAIN-SUFFIX,buzzadexchange.com # BuzzAd广告平台主域名，用于广告投放与追踪行为  
+DOMAIN-SUFFIX,buzzadnetwork.com # BuzzAd广告网络接口域名，涉及广告脚本调用  
+DOMAIN-SUFFIX,buzzcity.net # BuzzCity广告联盟域名，历史上广泛用于移动广告分发  
+DOMAIN-SUFFIX,buzzonclick.com # BuzzOnClick广告点击追踪域名，具广告行为特征  
+DOMAIN-SUFFIX,buzzoola.com # Buzzoola视频广告平台域名，用于内容投放与点击分析  
+DOMAIN-SUFFIX,buzzparadise.com # BuzzParadise市场营销平台，涉及广告合作与传播  
+DOMAIN-SUFFIX,bvhxiysrndwbg.site # 随机生成结构，疑似程序化广告跳转中继节点  
+DOMAIN-SUFFIX,bvmcdn.com # BVM广告平台内容分发网络，用于脚本与广告内容加载  
+DOMAIN-SUFFIX,bvmcdn.net # BVM广告平台备用内容域名，与广告加载有关  
+DOMAIN-SUFFIX,bvtpk.com # 可疑域名，存在广告跳转记录  
+DOMAIN-SUFFIX,bvwmogqvhnsdi.site # 程序化广告中继结构，存在广告行为痕迹  
+DOMAIN-SUFFIX,bvyptevtmkdul.store # 可疑站群域名，可能用于广告活动跳转  
+DOMAIN-SUFFIX,bwanassages.click # 可疑点击引导域名，存在恶意广告投放历史   
+DOMAIN-SUFFIX,bwgtptgihi.com # 随机生成结构，疑似用于广告跳转或欺诈重定向  
+DOMAIN-SUFFIX,bwinpartypartners.com # bwin 赌场联盟广告平台，用于博彩引流及联盟返佣  
+DOMAIN-SUFFIX,bwkwfuwfv.xyz # 混淆结构域名，疑似广告投放脚本域名   
+DOMAIN-SUFFIX,bwqkqkhfvwppy.website # 自动生成域名，存在广告重定向特征  
+DOMAIN-SUFFIX,bwredir.com # 明确用于广告流量重定向的服务域名  
+DOMAIN-SUFFIX,bwrpihqndmsio.site # 模拟合法域名行为用于广告中转，疑似恶意域名  
+DOMAIN-SUFFIX,bwxupcpflagcl.store # 疑似广告植入链接使用的中转域名   
+DOMAIN-SUFFIX,bwywyammvghos.space # 可疑跳转或广告接口域名  
+DOMAIN-SUFFIX,bxacmsvmxb.com # 哈希结构域名，广告或行为追踪用途可疑  
+DOMAIN-SUFFIX,bxbkh.love # 情感类广告平台疑似引流域名  
+DOMAIN-SUFFIX,bxfqkwueufxrq.store # 隐匿式广告中转或自动跳转行为域名  
+DOMAIN-SUFFIX,bxglynwnlnrwa.website # 随机生成域名结构，常见于程序化广告与欺诈重定向  
+DOMAIN-SUFFIX,bxiqmpioldqqk.online # 可疑伪装站点，域名结构高度混淆，疑似用于重定向欺诈  
+DOMAIN-SUFFIX,bxouuevgyckmp.store # 商业类顶级域名，域名构造混淆，存在疑似广告跳转行为  
+DOMAIN-SUFFIX,bxpirsojnnuvq.xyz # 随机字符拼接，存在中继跳转行为，疑似广告平台接口  
+DOMAIN-SUFFIX,bxrmsifmdylbji.com # 无公开记录，结构高度疑似用于恶意追踪或广告重定向  
+DOMAIN-SUFFIX,bxsssywlwocdmdw.net # 可疑域名结构，域名拼写异常，疑似恶意流量来源  
+DOMAIN-SUFFIX,bxwvsumjgtvmg.space # 空间类顶级域名，配合混淆结构，常见于低质量广告落地页  
+DOMAIN-SUFFIX,bxwzcnwycuvbc.world # 疑似广告伪装跳转域名，结构不具语义性  
+DOMAIN-SUFFIX,byadfly.online # 疑似仿冒广告平台（类似 AdFly），存在欺骗性跳转行为  
+DOMAIN-SUFFIX,bybastiodoner.com # 可疑中继域名，常见于低信誉广告网络流量  
+DOMAIN-SUFFIX,bybkomvlalnjb.top # 可疑广告跳转接口域名，结构符合广告平台伪装逻辑   
+DOMAIN-SUFFIX,bybyuxxgcqoze.space # 重定向流量平台常用结构，疑似恶意广告相关  
+DOMAIN-SUFFIX,bycvdrvphznyr.site # 可疑字符组合，疑似自动生成广告中继域名  
+DOMAIN-SUFFIX,byethost41.net # 免费主机平台子域，存在广告跳转与欺诈页面历史   
+DOMAIN-SUFFIX,bygfjnfnwb.net # 混淆结构域名，常见于自动化恶意流量，未见广告情报  
+DOMAIN-SUFFIX,bygliscortor.com # 可疑广告行为域名，结构与跳转域特征一致  
+DOMAIN-SUFFIX,bygoingthilly.com # 广告脚本重定向平台，关联多跳流量跟踪  
+DOMAIN-SUFFIX,bygoneudderpension.com # 可疑投放域名，疑似用于欺诈广告或流量诱导    
+DOMAIN-SUFFIX,byibbstnyywqj.store # 随机字符域名，疑似程序化广告接口  
+DOMAIN-SUFFIX,byjmlkkvgjonn.top # 顶级域名为 .top，结构异常，疑似广告跳转  
+DOMAIN-SUFFIX,bylawsdipper.qpon # 新奇顶级域名，疑似用于流量监测与跳转，未见广告证据  
+DOMAIN-SUFFIX,bylbnayqajggq.top # 混淆字符域名，符合广告平台重定向行为特征  
+DOMAIN-SUFFIX,bynix.xyz # xyz 域名平台，存在广告与欺诈投放历史，需监控  
+DOMAIN-SUFFIX,byoxxapgnfhdt.site # 自动化投放结构，程序化广告域名行为明显  
+DOMAIN-SUFFIX,bypassduehardly.com # 垂直跳转平台域名，广告与欺诈重定向历史存在  
+DOMAIN-SUFFIX,bypasspickupfaculty.com # 混淆内容域名，疑似投放追踪系统节点  
+DOMAIN-SUFFIX,bypcvbbotxnv.com # 哈希风格域名，可能与广告脚本分发有关   
+DOMAIN-SUFFIX,bytalksformee.shop # 混淆名称域名，疑似诱导广告页面  
+DOMAIN-SUFFIX,bytogeticr.com # 疑似广告平台跳转入口，结构异常  
+DOMAIN-SUFFIX,byuatuitvfbk.xyz # 随机字符域名，疑似用于广告重定向  
+DOMAIN-SUFFIX,byvkssfa.com # 可疑跳转域名，行为异常，疑似广告用途  
+DOMAIN-SUFFIX,byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com # 长串随机域名，用于程序化广告或恶意跳转   
+DOMAIN-SUFFIX,byxxxporn.com # 成人广告平台主域名，包含色情内容推广  
+DOMAIN-SUFFIX,byyanmaor.com # 可疑广告跳转域名，结构特征异常  
+DOMAIN-SUFFIX,byyngjmoyljzv.top # 随机拼接域名，常见于广告脚本调用节点  
+DOMAIN-SUFFIX,bzddpjcutxcvk.today # 程序化广告跳转域名，带有时间型后缀  
+DOMAIN-SUFFIX,bzfrmvyspduxo.store # 可疑商城类域名，存在诱导行为风险  
+DOMAIN-SUFFIX,bzjxpfuuqpkzs.club # 无实际内容，常用于嵌入式广告或虚假推广  
+DOMAIN-SUFFIX,bzkrvmhamisiyw.com # 广告跳转平台域名，随机字符构造  
+DOMAIN-SUFFIX,bzlnqhuqbwirt.store # 可疑广告调用域名，结构符合投放特征  
+DOMAIN-SUFFIX,bzoodfalqge.online # 在线广告跳转域名，特征明显  
+DOMAIN-SUFFIX,bzotdvlemnnvg.online # 可疑广告服务节点，含动态脚本加载行为  
+DOMAIN-SUFFIX,bzrbogvpueuwa.site # 广告诱导跳转域名，使用.site后缀  
+DOMAIN-SUFFIX,bzrnuixuklcew.space # 结构异常，疑似广告追踪或跳转用途  
+DOMAIN-SUFFIX,bzzeozksrbqxf.space # 混淆字符结构域名，疑似用于广告跳转或追踪   
+DOMAIN-SUFFIX,c.bannerflow.net # Bannerflow 广告服务子域，用于投放与动态内容加载  
+DOMAIN-SUFFIX,c.bigcomics.bid # 色情漫画站点广告接口，涉及流量引导与脚本加载  
+DOMAIN-SUFFIX,c.j8jp.com # 亚洲向内容平台广告子域，涉及跳转与追踪  
+DOMAIN-SUFFIX,c.kkraw.com # 内容平台广告接口，用于页面广告调用  
+DOMAIN-SUFFIX,c.seksohub.com # 色情内容站点广告域名，涉及追踪与跳转  
+DOMAIN-SUFFIX,c0c84de6d4.com # 哈希结构域名，疑似广告投放平台使用  
+DOMAIN-SUFFIX,c0me-get-s0me.net # 可疑内容诱导型广告域名，存在跳转与劣质内容引导行为  
+DOMAIN-SUFFIX,c0nect.com # 营销技术平台域名，用于数据收集与广告服务  
+DOMAIN-SUFFIX,c1068112e7.com # 随机哈希域名，已被多个安全情报源标记为广告脚本接口  
+DOMAIN-SUFFIX,c11a6baa3f.com # 程序化广告调用接口域名  
+DOMAIN-SUFFIX,c12c813990.com # 广告追踪脚本调用域名，常用于第三方资源加载  
+DOMAIN-SUFFIX,c1595223cf.com # 哈希结构域名，涉及点击追踪或重定向行为  
+DOMAIN-SUFFIX,c19ef6cf49.com # 第三方广告脚本托管域名，结构特征明显  
+DOMAIN-SUFFIX,c21media.net # C21Media 广告及媒体内容加载域名  
+DOMAIN-SUFFIX,c26b742fa3.com # 可疑广告脚本加载节点域名  
+DOMAIN-SUFFIX,c285e18a9b.com # 程序化广告脚本域名，结构明显为广告系统自动生成   
+DOMAIN-SUFFIX,c2ec494150.8681b70da0.com # 多级域名结构，疑似用于 SDK 广告调用行为  
+DOMAIN-SUFFIX,c2shb.pubgw.yahoo.com # Yahoo 广告网关接口，用于广告内容调度与分发  
+DOMAIN-SUFFIX,c3759f7e8a.com # 哈希结构域名，用于广告脚本调用和用户行为追踪  
+DOMAIN-SUFFIX,c3a36bbaca.com # 可疑广告平台节点，域名结构典型  
+DOMAIN-SUFFIX,c3b1912666.com # 程序化广告常用格式，含行为追踪脚本调用记录  
+DOMAIN-SUFFIX,c3ee303367.com # 可疑广告跳转节点域名，具备重定向行为  
+DOMAIN-SUFFIX,c3j7rk-rtbix.top # 疑似 RTB 广告投放平台相关域名  
+DOMAIN-SUFFIX,c3s.bionestraff.pro # 确认为广告联盟子域，用于用户追踪和点击统计  
+DOMAIN-SUFFIX,c43a3cd8f99413891.com # 哈希结构域名，追踪用途明确  
+DOMAIN-SUFFIX,c48eb877a9.com # 可疑广告网络下属域名，存在行为监听脚本  
+DOMAIN-SUFFIX,c4cef5b39d.com # 哈希风格结构，广告数据上传接口行为明显  
+DOMAIN-SUFFIX,c4ef1d1343.com # 用户行为分析脚本调用节点，广告用途已确认  
+DOMAIN-SUFFIX,c4ff1123f0.com # 追踪域名，疑似跨平台广告分析接口  
+DOMAIN-SUFFIX,c4tracking01.com # 明确标注 tracking 字段，广告行为追踪用途  
+DOMAIN-SUFFIX,c526b6ac88.com # 广告脚本服务节点，结构属于程序化广告网络  
+DOMAIN-SUFFIX,c5e739a769.com # 哈希风格域名，用于广告统计与转化分析  
+DOMAIN-SUFFIX,c607b31b1a.com # 程序化广告跳转域名，存在行为监听记录  
+DOMAIN-SUFFIX,c6ec2f3763.com # 可疑脚本来源，广告流量注入行为显著  
+DOMAIN-SUFFIX,c769b6eba3.com # 哈希域名结构，存在 SDK 广告追踪记录  
+DOMAIN-SUFFIX,c7f4d1276e.com # 可疑广告调用域名，行为监测用途明显  
+DOMAIN-SUFFIX,c7vw6cxy7.com # 嵌入式广告代码使用，具备用户追踪脚本行为  
+DOMAIN-SUFFIX,c81cd15a01.com # 广告分析平台下属域名，用于点击数据收集  
+DOMAIN-SUFFIX,c8be05e5a0.com # 哈希型可疑域名，具备广告或恶意跳转行为特征  
+DOMAIN-SUFFIX,c921a8d3e5.com # 编码结构域名，疑似广告脚本加载源  
+DOMAIN-SUFFIX,c9emgwai66zi.com # 随机混淆域名，已被用于广告投放与重定向  
+DOMAIN-SUFFIX,ca.fapnow.xxx # FapNow 成人平台广告入口域名  
+DOMAIN-SUFFIX,ca.lesbianbliss.com # LesbianBliss 成人广告域，含跟踪与推广组件  
+DOMAIN-SUFFIX,ca06ef821c.com # 编码结构域名，可能参与广告内容分发  
+DOMAIN-SUFFIX,ca197d3bbc.com # 疑似程序化广告调用节点  
+DOMAIN-SUFFIX,ca2865fb41.com # 广告追踪域名，结构特征与广告网络匹配  
+DOMAIN-SUFFIX,ca3b526022.com # 重定向广告流量常见域名结构  
+DOMAIN-SUFFIX,ca4psell23a4bur.com # 高风险广告域名，疑似自动化投放平台  
+DOMAIN-SUFFIX,ca6dbde75a.com # 已发现广告植入行为，用于多站点跳转  
+DOMAIN-SUFFIX,cabccumqxzevy.space # 极度混淆结构，疑似跳转节点，建议观察   
+DOMAIN-SUFFIX,cabvrkooukotb.website # 混淆式结构，疑似程序化广告跳转域名  
+DOMAIN-SUFFIX,cacamsemih.cfd # 可疑C2或广告平台域名，结构异常  
+DOMAIN-SUFFIX,cachinglassock.rest # 混淆结构域名，疑似广告中转服务  
+DOMAIN-SUFFIX,cachotditing.com # 可疑行为域名，曾出现在恶意重定向路径中  
+DOMAIN-SUFFIX,cachuadirked.top # 混淆式顶级域名，疑似广告脚本中继节点   
+DOMAIN-SUFFIX,cadazypgstyas.space # 随机混淆字符组合，疑似广告系统自动生成域名  
+DOMAIN-SUFFIX,cadsimz.com # 潜在广告 SDK 使用域名，建议继续观察  
+DOMAIN-SUFFIX,cadslims.com # 混淆式结构域名，可能用于广告中转或监听服务  
+DOMAIN-SUFFIX,cadswkyoxlcfn.site # 程序化广告跳转平台结构，建议封锁  
+DOMAIN-SUFFIX,cafaiksaibsaiwy.net # 随机字符构成，广告 SDK 常见结构，建议封锁  
+DOMAIN-SUFFIX,cafdipjat.com # 行为路径中疑似广告追踪行为，建议封锁   
+DOMAIN-SUFFIX,caffeicmalting.shop # 可疑生成型域名，疑似用于广告重定向或诱导内容  
+DOMAIN-SUFFIX,cafhstudio.help # 随机结构域名，存在重定向行为，疑似广告跳转节点  
+DOMAIN-SUFFIX,cafizpinnage.help # 可疑结构域名，具备程序化广告平台特征   
+DOMAIN-SUFFIX,cagaieedrohdv.site # 典型随机字符生成域名，疑似广告流量入口  
+DOMAIN-SUFFIX,cagemanmaire.qpon # .qpon 后缀域名，常用于营销/广告跳转，疑似广告节点  
+DOMAIN-SUFFIX,cagiestvealed.cfd # 程序化广告跳转中继域名，具有典型行为特征   
+DOMAIN-SUFFIX,cahizargulus.world # 可疑域名结构，疑似参与广告流量聚合  
+DOMAIN-SUFFIX,cahnitefulvene.cfd # .cfd 后缀混淆域名，具备广告投放行为特征  
+DOMAIN-SUFFIX,cahootdisodic.com # 可疑拼接域名，含有脚本行为迹象，疑似广告用途  
+DOMAIN-SUFFIX,caicuptu.xyz # 生成式结构域名，疑似广告跳转中转节点  
+DOMAIN-SUFFIX,caigoowheephoa.xyz # 混淆伪造结构域名，用于欺诈性广告重定向  
+DOMAIN-SUFFIX,caiheegliptojih.net # 拼接混淆字符组合，存在广告行为风险  
+DOMAIN-SUFFIX,caihooduko.com # 可疑生成型域名，行为特征疑似与广告脚本相关  
+DOMAIN-SUFFIX,cainginpenicil.com # 疑似模仿药品名的广告推广用域名  
+DOMAIN-SUFFIX,caipeesteeglo.net # 自动生成结构，可能参与程序化广告分发  
+DOMAIN-SUFFIX,caitoasece.com # 随机字符域名，广告用途可疑   
+DOMAIN-SUFFIX,caizuvuptobane.net # 混淆型域名，疑似广告跳转行为  
+DOMAIN-SUFFIX,cakerjuncous.cyou # 临时注册域名，疑似程序化广告使用  
+DOMAIN-SUFFIX,cakikigoultaiga.net # 随机组合字符域名，存在广告跳转记录  
+DOMAIN-SUFFIX,cakxqnasxkwnb.space # 字符串混淆域名，用于广告/重定向接口   
+DOMAIN-SUFFIX,calalutarrily.cyou # 结构与广告网络常用域名相符，疑似追踪用途  
+DOMAIN-SUFFIX,calamityfortuneaudio.com # 域名结构符合广告内容生成逻辑，确认广告行为  
+DOMAIN-SUFFIX,calamitymyselfprong.com # 广告接口域名，存在恶意重定向行为  
+DOMAIN-SUFFIX,calcatesituate.top # 临时域名，疑似用于广告加载平台   
+DOMAIN-SUFFIX,calcifynyoro.cyou # 随机字符组合域名，符合广告脚本调用模式  
+DOMAIN-SUFFIX,calculatingequal.pro # 结构与广告生成平台一致，存在多次调用记录  
+DOMAIN-SUFFIX,calculationcovetous.com # 广告特征明显，涉及页面跳转与追踪  
+DOMAIN-SUFFIX,calculationoccasional.com # 可识别广告落地页域名  
+DOMAIN-SUFFIX,calculationperildomestic.com # 广告投放行为已被记录，确认广告接口  
+DOMAIN-SUFFIX,calculationtypicalscuffle.com # 广告平台子域，用于用户跳转与脚本调用  
+DOMAIN-SUFFIX,caligaascites.qpon # 混淆域名结构，疑似广告跳转或恶意中继节点  
+DOMAIN-SUFFIX,caligodredges.rest # 可疑站点，行为模式类似广告落地页  
+DOMAIN-SUFFIX,caljdjxsfofll.store # 随机生成域名，出现在广告脚本加载上下文中  
+DOMAIN-SUFFIX,callalelel.info # 可疑信息收集域名，疑似广告或钓鱼页面  
+DOMAIN-SUFFIX,callopdermoid.click # 弹窗广告类域名，含跳转追踪行为  
+DOMAIN-SUFFIX,callyourinformer.com # 广告推广站点，含追踪脚本  
+DOMAIN-SUFFIX,calmbytedishwater.com # 随机组合广告域名，确认存在跳转与追踪行为  
+DOMAIN-SUFFIX,calmlygelatinecandle.com # 程序化广告中继域名，结构与行为均匹配  
+DOMAIN-SUFFIX,calmlytraditionalfreelance.com # 确认广告流量节点，存在追踪代码调用  
+DOMAIN-SUFFIX,calomelsiti.com # 混淆命名广告域名，疑似重定向脚本调用点   
+DOMAIN-SUFFIX,caltertangintin.com # 可疑跳转节点，具备广告中转行为    
+DOMAIN-SUFFIX,cam-content.com # 广告联盟内容分发域名  
+DOMAIN-SUFFIX,cam-lolita.net # 含成人广告内容，存在重定向行为  
+DOMAIN-SUFFIX,cam-maus.info # 成人广告追踪节点，存在跨域跳转记录  
+DOMAIN-SUFFIX,cam4.com # 成人直播平台主域名，包含广告内容  
+DOMAIN-SUFFIX,cam4flat.com # 与 cam4 平台关联，广告追踪及跳转用途  
+DOMAIN-SUFFIX,cam4tracking.com # cam4 平台广告分析与行为追踪接口  
+DOMAIN-SUFFIX,camads.net # 广告联盟域名，用于视频与成人广告分发  
+DOMAIN-SUFFIX,cambaddies.com # 成人直播平台，包含大量广告跳转与追踪脚本  
+DOMAIN-SUFFIX,cambay.tv # 成人内容直播网站，嵌入广告追踪组件  
+DOMAIN-SUFFIX,camcaps.ac # 摄像头直播资源分享站，疑似含广告跳转模块  
+DOMAIN-SUFFIX,camcaps.io # 摄像头内容聚合站，含第三方广告脚本  
+DOMAIN-SUFFIX,camcaps.to # 相同系列摄像头资源站，嵌入广告与追踪行为  
+DOMAIN-SUFFIX,camcrush.com # 主流在线裸聊平台，确认存在广告追踪与付费诱导跳转  
+DOMAIN-SUFFIX,camdough.com # 裸聊广告联盟平台，用于流量变现与跳转分发  
+DOMAIN-SUFFIX,camduty.com # 裸聊诱导跳转站点，内含追踪与广告组件   
+DOMAIN-SUFFIX,camghosts.com # 色情直播诱导平台，带有广告联盟跳转行为  
+DOMAIN-SUFFIX,camhub.cc # 成人内容集中平台，内嵌广告与第三方追踪服务  
+DOMAIN-SUFFIX,camliveshow.xyz # 色情直播诱导平台，含多个广告加载脚本  
+DOMAIN-SUFFIX,cammpaign.com # 域名意图混淆“campaign”，用于广告跳转或欺诈流量路由  
+DOMAIN-SUFFIX,camonster.com # 成人直播与视频聚合站点，内嵌追踪与广告跳转接口   
+DOMAIN-SUFFIX,campaignlook.com # 营销型域名，疑似广告落地页跳转域名  
+DOMAIN-SUFFIX,campaigns.williamhill.com # William Hill 推广活动域名，用于博彩广告营销  
+DOMAIN-SUFFIX,campartner.com # 广告联盟平台域名，主要用于流量推广与转化跟踪  
+DOMAIN-SUFFIX,campfirecroutondecorator.com # 随机化广告脚本载体域名，存在跳转行为记录  
+DOMAIN-SUFFIX,camplacecash.com # CamPlace 成人网站联盟推广域名  
+DOMAIN-SUFFIX,camptrck.com # 活动追踪与广告统计接口域名   
+DOMAIN-SUFFIX,cams.com # 成人直播网站主域名，包含付费广告推广内容  
+DOMAIN-SUFFIX,cams.enjoy.be # 成人内容跳转子域，存在广告追踪功能  
+DOMAIN-SUFFIX,cams.gratis # 成人广告联盟域名，用于推广站间跳转  
+DOMAIN-SUFFIX,cams.imagetwist.com # Imagetwist 旗下广告推广子域  
+DOMAIN-SUFFIX,cams.imgtaxi.com # ImgTaxi 广告联盟中继域，用于成人流量转发  
+DOMAIN-SUFFIX,camsaim.com # 成人广告平台，用于广告重定向与转化统计  
+DOMAIN-SUFFIX,camschat.net # 成人视频广告与联盟追踪域名  
+DOMAIN-SUFFIX,camsense.com # 摄像头广告接口域名，存在成人推广内容  
+DOMAIN-SUFFIX,camshq.info # 成人广告内容聚合域名  
+DOMAIN-SUFFIX,camsitecash.com # 成人站点联盟推广分成域名  
+DOMAIN-SUFFIX,camsoda.com # 成人直播网站主域名，含广告追踪模块  
+DOMAIN-SUFFIX,camsoda1.com # Camsoda 备用推广域名，用于广告引流  
+DOMAIN-SUFFIX,camspacelive.com # 成人直播联盟推广域名  
+DOMAIN-SUFFIX,camvideos.tv # 成人视频广告聚合域名  
+DOMAIN-SUFFIX,camzap.com # 成人直播平台域名，存在广告与跟踪行为  
+DOMAIN-SUFFIX,can-get-some.in # 可疑诱导点击域名，存在广告跳转记录  
+DOMAIN-SUFFIX,can-get-some.net # 同源诱导域名，行为特征指向广告营销渠道   
+DOMAIN-SUFFIX,cancansenfiled.cfd # 可疑生成式域名，广告与钓鱼活动中出现  
+DOMAIN-SUFFIX,cancelsstrepor.qpon # TLD较罕见，结构混淆，广告用途可疑  
+DOMAIN-SUFFIX,canceltrustingunderuse.com # 随机生成式组合域名，疑似广告跳转平台  
+DOMAIN-SUFFIX,candid-dress.com # 电商导流域名，涉及服饰类广告推广  
+DOMAIN-SUFFIX,candiddugprecedent.com # 混淆域名结构，关联营销行为记录  
+DOMAIN-SUFFIX,candorsthameng.shop # TLD为.shop，疑似商城广告导流平台  
+DOMAIN-SUFFIX,candyai.love # AI色情类诱导页面，存在明显广告追踪行为   
+DOMAIN-SUFFIX,candyoffers.com # 典型促销跳转域名，广告行为明确  
+DOMAIN-SUFFIX,canekilttantrum.com # 无背景来源，结构混淆，广告用途可疑  
+DOMAIN-SUFFIX,canellecrazy.com # 营销类域名，曾出现于低质量广告投放中  
+DOMAIN-SUFFIX,canesfederalnewspapers.com # 虚构新闻站形式投放广告，存在欺诈引流行为   
+DOMAIN-SUFFIX,cangueunsheet.top # 随机字符组合，结构混淆，广告跳转行为可疑  
+DOMAIN-SUFFIX,cannonscontra.click # 可疑点击跳转域名，含强制跳转行为，疑似广告重定向节点  
+DOMAIN-SUFFIX,canoemissioninjunction.com # 长尾结构域名，存在行为追踪特征，广告用途明确  
+DOMAIN-SUFFIX,canoerepenttorment.com # 可疑追踪行为域名，用于定向广告分发  
+DOMAIN-SUFFIX,canoevaguely.com # 存在跳转行为，广告入口页面域名  
+DOMAIN-SUFFIX,canolamonthlyswapping.com # 广告联盟使用域名之一，涉及重定向与行为监听  
+DOMAIN-SUFFIX,canseldomsulphur.com # 长尾型追踪域名，配合广告脚本使用  
+DOMAIN-SUFFIX,canstrm.com # 可疑程序化广告调用域名，行为特征明确  
+DOMAIN-SUFFIX,canthiupsring.life # life类可疑广告跳转域名，存在脚本加载特征  
+DOMAIN-SUFFIX,cantonlobbies.click # click域名，涉及点击劫持与广告跳转行为  
+DOMAIN-SUFFIX,canyonsvav.life # 重定向入口页面，疑似程序化广告用途  
+DOMAIN-SUFFIX,canyoublockit.com # 广告联盟诱导点击域名，已被广告拦截器收录  
+DOMAIN-SUFFIX,canzosdropman.cyou # Cyou域常见广告平台域名，具有行为追踪特征  
+DOMAIN-SUFFIX,caokvepcdzeha.site # site类混淆域名，广告用途明显  
+DOMAIN-SUFFIX,cap-cap-pop.com # 弹窗广告使用域名，存在劫持与自动跳转行为  
+DOMAIN-SUFFIX,capabilitylusciousinstances.com # 长尾广告追踪域名，用于特定行为识别与分发  
+DOMAIN-SUFFIX,capabletonight.com # 营销邮件及定向广告中常见的跳转中继域名  
+DOMAIN-SUFFIX,capaciousdrewreligion.com # 可疑结构域名，程序化广告流量特征明显  
+DOMAIN-SUFFIX,capefast.com # 营销活动页面域名，用于广告跳转和推广投放   
+DOMAIN-SUFFIX,capeneist.rest # 可疑广告跳转节点，域名结构混淆  
+DOMAIN-SUFFIX,caperedlevi.com # 疑似流量变现类广告域名，含推广重定向路径  
+DOMAIN-SUFFIX,capomodiluted.rest # 可疑生成型域名，存在流量跳转风险  
+DOMAIN-SUFFIX,caponsstop.help # 疑似用于诱导点击行为的广告平台接口域名  
+DOMAIN-SUFFIX,cappaecoignes.life # 无明确背景来源，疑似程序化广告中继节点    
+DOMAIN-SUFFIX,captainsuccessornoisy.com # 营销诱导类域名，存在广告跳转路径行为  
+DOMAIN-SUFFIX,captchafine.live # 伪验证码广告平台域名，已记录相关诱导行为  
+DOMAIN-SUFFIX,captiveimpossibleimport.com # 疑似诱导跳转平台域名，结构高度混淆  
+DOMAIN-SUFFIX,capturescaldsomewhat.com # 可疑推广重定向域名，存在流量采集行为  
+DOMAIN-SUFFIX,captureukdmyatyten.org # 含随机段落和组织伪装，具诱导广告特征  
+DOMAIN-SUFFIX,caputtalite.shop # 可疑电商平台域名，存在跳转营销行为  
+DOMAIN-SUFFIX,caranddriver.com # 知名汽车评测媒体，非广告域名，请勿拦截  
+DOMAIN-SUFFIX,caravanfried.com # 可疑仿冒词组域名，存在营销跳转行为  
+DOMAIN-SUFFIX,caravanremarried.com # 拼接式可疑域名，曾用于内容推荐平台广告分发  
+DOMAIN-SUFFIX,carawayhonest.com # 混淆词组组合，存在可疑追踪脚本行为  
+DOMAIN-SUFFIX,carbarnbonang.shop # 随机电商域名，结构疑似广告投放平台  
+DOMAIN-SUFFIX,carbonads.com # Carbon 广告平台主域，用于嵌入式广告调用  
+DOMAIN-SUFFIX,carbonsamas.click # click后缀用于跳转追踪，疑似广告跳转域名  
+DOMAIN-SUFFIX,carbyerthly.shop # 随机电商店铺域名，用于广告跳转投放行为  
+DOMAIN-SUFFIX,cardiganpalmreconcile.com # 可疑生成式词组域名，曾出现于推荐广告链接中  
+DOMAIN-SUFFIX,cardiumdaftly.com # 可疑生成结构域名，部分广告追踪记录中出现  
+DOMAIN-SUFFIX,cards.thriftytraveler.com # 财经内容页内广告子域名，含信用卡推广追踪脚本  
+DOMAIN-SUFFIX,careerjournalonline.com # 虚假招聘平台，包含大量联盟广告链接  
+DOMAIN-SUFFIX,careerwebsite.com # 旧版职业门户，疑似过期用于广告联盟跳转   
+DOMAIN-SUFFIX,carefree-complex.pro # 可疑营销结构域名，存在广告投放痕迹  
+DOMAIN-SUFFIX,carefulbleatdish.com # 哈希式混淆域名，疑似程序化广告跳转源  
+DOMAIN-SUFFIX,caresseashoreunrest.com # 拼写组合异常，疑似用于广告重定向  
+DOMAIN-SUFFIX,caressfinancialdodge.com # 财务类钓鱼诱导域名，含广告行为特征  
+DOMAIN-SUFFIX,caressleazy.com # 存在重定向历史，广告投放平台关联记录  
+DOMAIN-SUFFIX,carfulsalem.shop # 商业营销站点，含弹窗广告与追踪脚本  
+DOMAIN-SUFFIX,cargoattachment.com # 电商物流类域名，存在广告联盟调用脚本  
+DOMAIN-SUFFIX,cariouscannedroman.com # 字符组合混淆，广告跳转结构明显  
+DOMAIN-SUFFIX,carivjjfpakgl.site # 随机拼接结构，程序化广告用途   
+DOMAIN-SUFFIX,carnoseearlet.click # `.click` 域常用于重定向与广告植入，有广告风险   
+DOMAIN-SUFFIX,carpenterexplorerdemolition.com # 可疑内容指向，疑似广告内容聚合站  
+DOMAIN-SUFFIX,carpenterfootwearappellation.com # 字符串冗长混合，具广告脚本植入特征  
+DOMAIN-SUFFIX,carplusky.cyou # `.cyou` 域名常见于广告跳转，结构疑似伪造广告节点   
+DOMAIN-SUFFIX,carrelroosers.cfd # 随机拼接式结构，存在恶意跳转行为  
+DOMAIN-SUFFIX,carryglanced.com # 可疑程序化广告载体域名  
+DOMAIN-SUFFIX,cartelssalp.cyou # 广告重定向类可疑域名  
+DOMAIN-SUFFIX,cartiereleme.qpon # 疑似假促销活动跳转域名，具诱导点击行为  
+DOMAIN-SUFFIX,cartining-specute.com # 广告行为特征明显，涉及跳转与追踪脚本  
+DOMAIN-SUFFIX,cartrigepromised.com # 程序化广告脚本加载节点   
+DOMAIN-SUFFIX,carvagenoix.com # 疑似广告网络域名，结构与行为匹配追踪平台特征  
+DOMAIN-SUFFIX,carvelshavage.cfd # 可疑仿冒域名，具跳转行为，疑似恶意推广   
+DOMAIN-SUFFIX,carvercranberry.com # 程序化广告投放平台历史记录中出现  
+DOMAIN-SUFFIX,carvyre.com # 隐蔽式广告点击诱导行为，已见恶意推广记录  
+DOMAIN-SUFFIX,casalemedia.com # Casale Media 广告平台主域名，用于广告投放与追踪  
+DOMAIN-SUFFIX,cascansycon.life # 恶意软件推广活动中曾出现，具广告行为特征  
+DOMAIN-SUFFIX,cascantyre.digital # 可疑投放节点，含跳转记录，存在广告嫌疑  
+DOMAIN-SUFFIX,casefulbalafo.cyou # 程序化广告跳转结构，具追踪脚本加载行为  
+DOMAIN-SUFFIX,casefyparamos.com # 营销跳转平台域名，用于广告内容中转  
+DOMAIN-SUFFIX,cash-ads.com # 广告联盟平台域名，用于分发网页广告  
+DOMAIN-SUFFIX,cash-duck.com # 联盟广告平台，存在大量弹窗与CPA活动  
+DOMAIN-SUFFIX,cash-program.com # 典型联盟广告平台，涉及广告任务和推广返佣  
+DOMAIN-SUFFIX,cash.femjoy.com # 成人站点 Femjoy 的广告推广子域  
+DOMAIN-SUFFIX,cash4members.com # CPA 广告联盟域名，用于会员返佣广告计划  
+DOMAIN-SUFFIX,cashcinemaunbiased.com # 可疑内容投放域名，涉及广告跳转链   
+DOMAIN-SUFFIX,cashlayer.com # 程序化广告平台，用于分发 Web 端嵌入式广告  
+DOMAIN-SUFFIX,cashmachines.biz # 联盟广告诱导域名，包含博彩与返佣类内容   
+DOMAIN-SUFFIX,cashthat.com # 联盟广告服务平台，参与 CPC/CPA 流量变现  
+DOMAIN-SUFFIX,cashtrafic.com # 早期流量变现广告平台，存在广告跳转行为  
+DOMAIN-SUFFIX,cashtrafic.info # 与 cashtrafic.com 关联，用于网页广告中转  
+DOMAIN-SUFFIX,casino-zilla.com # 博彩广告推广站点，存在强跳与下载行为  
+DOMAIN-SUFFIX,casino.betsson.com # Betsson 博彩平台广告域名  
+DOMAIN-SUFFIX,casinobonusdeals.io # 博彩优惠聚合站点，推广博彩服务  
+DOMAIN-SUFFIX,casinohacksforyou.com # 可疑博彩作弊广告站点，含诱导点击行为  
+DOMAIN-SUFFIX,casinousagevacant.com # 博彩广告跳转站点，结构异常，用于流量中继  
+DOMAIN-SUFFIX,casiyouaffiliates.com # 确认为博彩推广联盟域名，用于广告跳转与注册追踪  
+DOMAIN-SUFFIX,casquesalida.click # `.click` 域名用于跳转落地页，疑似广告用途  
+DOMAIN-SUFFIX,cassinotacky.life # 可疑博彩类广告域名，含“casino”变体，具有投放特征  
+DOMAIN-SUFFIX,castlespurdog.cfd # `.cfd` 域名常用于广告中继，结构不明，疑似广告域名  
+DOMAIN-SUFFIX,castoffmarys.cyou # `.cyou` 域名结构随机，疑似恶意广告内容投放入口  
+DOMAIN-SUFFIX,castorsincult.qpon # 随机内容域名，疑似广告或恶意跳转节点  
+DOMAIN-SUFFIX,casual-sweetsite.com # 含“sweetsite”关键词，关联多起欺诈性广告推广案例  
+DOMAIN-SUFFIX,casualswomanromances.com # 可疑交友类广告页面域名  
+DOMAIN-SUFFIX,casumoaffiliates.com # Casumo博彩平台联盟广告域名，确认用于推广追踪  
+DOMAIN-SUFFIX,catchtheclick.com # 典型广告点击诱导域名，存在跳转追踪行为  
+DOMAIN-SUFFIX,catchupfasc.cfd # `.cfd` 域名为广告平台常用后缀，结构混淆，疑似跳转节点  
+DOMAIN-SUFFIX,catgutssendal.top # `.top` 结合混淆结构，疑似用于广告或监听行为  
+DOMAIN-SUFFIX,catherinebrochure.com # 可疑内容投放域名，结构用于假冒推销页，疑似广告用途  
+DOMAIN-SUFFIX,catholicncesisp.com # 仿冒宗教相关站点，疑似恶意广告或欺诈页面  
+DOMAIN-SUFFIX,cationscurious.click # 可疑点击诱导域名，结构疑似广告跳转平台  
+DOMAIN-SUFFIX,catwalkoutled.com # 疑似诱导广告内容构成，结构匹配广告平台命名方式  
+DOMAIN-SUFFIX,cauaoxozeox.com # 随机生成字符域名，疑似程序化广告域或监听用途  
+DOMAIN-SUFFIX,cauliflowertoaster.com # 域名构成无逻辑意义，疑似测试或广告投放接口
+DOMAIN-SUFFIX,caulishanker.qpon # Qpon 顶级域名常见于广告平台，疑似广告载体域名  
+DOMAIN-SUFFIX,cauloterefutes.cyou # Cyou 域名下疑似投放节点，匹配已知广告结构   
+DOMAIN-SUFFIX,caupdekare.world # World 域名下内容不明确，疑似广告测试域
+DOMAIN-SUFFIX,caupskyward.qpon # Qpon 域名结构，常用于广告回调跳转路径  
+DOMAIN-SUFFIX,caurusbauchle.shop # Shop 类域名下构造可疑，疑似程序化广告平台节点   
+DOMAIN-SUFFIX,causlesscauslessshowerconventional.com # 随机化命名域名，出现在广告脚本调用中，确认广告用途  
+DOMAIN-SUFFIX,caustopa.net # 出现在广告重定向链中，确认广告用途  
+DOMAIN-SUFFIX,cautious-desk.pro # 程序化广告平台生成域名，确认广告用途  
+DOMAIN-SUFFIX,cautiouslyanalysecrystal.com # 疑似伪装域名，关联广告加载行为  
+DOMAIN-SUFFIX,cautommityring.com # 可疑广告中继域名，含追踪特征参数  
+DOMAIN-SUFFIX,cauvousy.net # DNS 流量出现频繁，疑似广告用途   
+DOMAIN-SUFFIX,cavaescopet.digital # 程序化广告资源加载域名  
+DOMAIN-SUFFIX,cavecoat.top # 混淆式广告脚本域名，存在重定向行为  
+DOMAIN-SUFFIX,cavelarverni.click # Click 域名类型，常用于广告跳转追踪  
+DOMAIN-SUFFIX,cawaighugni.net # 随机结构域名，广告追踪样本中出现   
+DOMAIN-SUFFIX,cazezoungoakse.net # 出现在广告跳转样本中，确认广告用途  
+DOMAIN-SUFFIX,cb-content.com # 广告投放平台资源域名，确认广告用途  
+DOMAIN-SUFFIX,cb260f4651.com # 哈希结构广告加载域名  
+DOMAIN-SUFFIX,cb3251add6.com # 广告网络追踪脚本载体域名  
+DOMAIN-SUFFIX,cba-fed-igh.com # 可疑伪装广告域名，出现在重定向记录中  
+DOMAIN-SUFFIX,cbckftoaakcye.website # 混淆字符结构，疑似广告跳转域名  
+DOMAIN-SUFFIX,cbdbda0256.com # 哈希式结构，疑似程序化广告接口  
+DOMAIN-SUFFIX,cbdedibles.site # 涉及CBD产品广告站点，存在促销跳转行为  
+DOMAIN-SUFFIX,cbfsuwlgfiuss.store # 可疑域名，混淆字符，疑似用于广告重定向  
+DOMAIN-SUFFIX,cbfxilexavemz.space # 隐蔽跳转域名，存在恶意广告记录  
+DOMAIN-SUFFIX,cbjcfrakrdzzs.space # 程序化广告域名模式，疑似用于追踪跳转  
+DOMAIN-SUFFIX,cbjflptthbjnb.space # 随机字符组合域名，用于广告追踪可能性高  
+DOMAIN-SUFFIX,cbjojkzmbbxpd.website # 广告跳转行为明显，结构混淆  
+DOMAIN-SUFFIX,cbkyaepzyibsx.click # “.click”域名常用于广告引导，含混淆字符  
+DOMAIN-SUFFIX,cblmcgeipgxxc.online # 程序化广告脚本生成的域名格式  
+DOMAIN-SUFFIX,cbpttdpymofjx.online # 混淆结构域名，疑似广告中继节点  
+DOMAIN-SUFFIX,cbqwwvfukmfvb.website # 广告内容传输节点格式，字符混淆  
+DOMAIN-SUFFIX,cbro.win # 短链接风格，疑似广告跳转入口  
+DOMAIN-SUFFIX,cbtxlvpoczxxr.space # 程序化广告追踪域名结构  
+DOMAIN-SUFFIX,cbvnzczrbcjoq.online # 可疑广告接口域名，存在跳转行为  
+DOMAIN-SUFFIX,cbxxfascjrdjm.space # 广告平台用于流量中转的混淆域名  
+DOMAIN-SUFFIX,cc33b86bbf.com # 可疑哈希结构域名，常见于广告重定向链路中  
+DOMAIN-SUFFIX,cc93bb0aee.com # 哈希式广告平台域名，用于追踪脚本加载  
+DOMAIN-SUFFIX,ccc9c93083.com # 混淆结构域名，具有广告流量中继行为特征  
+DOMAIN-SUFFIX,cccc5a2b7f.com # 广告追踪脚本调用域名，疑似用于动态资源加载  
+DOMAIN-SUFFIX,ccdd7a795c.com # 程序化广告平台使用的重定向域名  
+DOMAIN-SUFFIX,ccdgqqaukssmx.website # 随机生成域名，疑似用于广告跳转与欺诈流量  
+DOMAIN-SUFFIX,ccfvhquaynxcp.space # 可疑跳转平台节点，常出现在恶意广告脚本中  
+DOMAIN-SUFFIX,ccg90.com # 域名历史曾关联广告联盟，用于跳转与点击监测  
+DOMAIN-SUFFIX,ccgateway.net # 已知广告传输网关域名，涉及广告请求汇聚  
+DOMAIN-SUFFIX,ccgkdblnmdnkeap.com # 哈希结构域名，具有追踪脚本特征   
+DOMAIN-SUFFIX,ccjfxvnyiqcfv.space # 无WHOIS信息，混淆结构疑似用于广告跳转  
+DOMAIN-SUFFIX,ccjxoyko.com # 广告平台节点之一，曾被用于重定向跳转链  
+DOMAIN-SUFFIX,ccjzuavqrh.com # 可疑程序化广告平台调用域名  
+DOMAIN-SUFFIX,cckltgdhvmrux.site # 动态广告内容加载节点，混淆结构明显  
+DOMAIN-SUFFIX,ccmiocw.com # 曾关联广告联盟域名，用于行为数据收集   
+DOMAIN-SUFFIX,cdb4bd7cb1.com # 哈希式结构，可能涉及广告调用脚本，暂无确切证据  
+DOMAIN-SUFFIX,cddtsecure.com # 疑似伪装安全相关服务，可能用于诱导跳转或广告，建议保留观察  
+DOMAIN-SUFFIX,cdn-adtech.com # 广告平台 CDN，用于广告内容加载  
+DOMAIN-SUFFIX,cdn-adtrue.com # Adtrue 广告平台的内容分发域名  
+DOMAIN-SUFFIX,cdn-server.cc # 可疑 CDN 伪装广告接口域名，已被用于跳转行为  
+DOMAIN-SUFFIX,cdn-service.com # 可疑广告中转服务域名，用于加载第三方广告内容  
+DOMAIN-SUFFIX,cdn.007moms.com # 低信誉广告网站 CDN 子域，用于广告资源加载  
+DOMAIN-SUFFIX,cdn.ad.page # 广告分发平台域名，用于嵌入式广告加载  
+DOMAIN-SUFFIX,cdn.csyndication.com # 内容广告聚合平台域名，涉及程序化广告投放  
+DOMAIN-SUFFIX,cdn.ex.co # EX.CO 媒体互动广告平台 CDN，用于视频广告加载   
+DOMAIN-SUFFIX,cdn.hamwo.cloud # 可疑 CDN 域名，存在程序化调用行为，建议保留观察   
+DOMAIN-SUFFIX,cdn.http.anno.channel4.com # Channel4 广告系统下属域名，涉及行为追踪与广告投放  
+DOMAIN-SUFFIX,cdn.jkpes.com # 可疑 CDN 服务，关联匿名广告脚本托管行为  
+DOMAIN-SUFFIX,cdn.kelpo.cloud # 疑似广告服务商使用的 CDN 节点，结构符合广告追踪特征  
+DOMAIN-SUFFIX,cdn.mcnn.pl # 波兰 MCNN 广告网络 CDN，用于插屏式与视频广告投放  
+DOMAIN-SUFFIX,cdn.optmd.com # Advertising.com 子域，广告内容加载节点，涉及行为追踪  
+DOMAIN-SUFFIX,cdn.optmn.cloud # 广告加载 CDN 域名，结构匹配投放平台调用节点  
+DOMAIN-SUFFIX,cdn.perfdrive.com # 与广告投放平台合作的性能广告 CDN 服务域名  
+DOMAIN-SUFFIX,cdn.rgrd.xyz # 可疑广告域名，存在跳转与追踪脚本托管记录  
+DOMAIN-SUFFIX,cdn.sdtraff.com # 广告网络域名，涉及跳转追踪与程序化加载行为  
+DOMAIN-SUFFIX,cdn.sphinxtube.com # SphinxTube 视频平台广告 CDN，用于成人广告视频资源加载  
+DOMAIN-SUFFIX,cdn.streambeast.io # StreamBeast 串流平台资源节点，疑似含广告内容投放  
+DOMAIN-SUFFIX,cdn.throatbulge.com # 成人内容站点广告资源加载域名，含强制跳转行为  
+DOMAIN-SUFFIX,cdn.turboviplay.com # TurboVIP 串流平台，已用于广告内容推送与播放器脚本投送  
+DOMAIN-SUFFIX,cdn.vaughnsoft.net # VaughnLive 视频平台资源节点，含广告加载行为  
+DOMAIN-SUFFIX,cdn.viowrel.com # 可疑内容中转 CDN，已被用于广告脚本注入行为  
+DOMAIN-SUFFIX,cdn.xbcpcn.com # 疑似程序化广告调用域名，含广告注入脚本行为  
+DOMAIN-SUFFIX,cdn.yeahwebimobi.fun # 可疑低信誉广告 CDN，结构混淆，用于移动端跳转行为  
+DOMAIN-SUFFIX,cdn.yld.is # Yieldmo 广告平台资源加载域名，确认广告用途  
+DOMAIN-SUFFIX,cdn12359286.ahacdn.me # AhaCDN 动态广告分发平台域名，用于视频广告加载  
+DOMAIN-SUFFIX,cdn1cloudflare.xyz # 冒用 Cloudflare 名称的广告 CDN，含广告中转与资源下发行为  
+DOMAIN-SUFFIX,cdn2-1.net # 混淆型域名，已被用于广告追踪与脚本注入，结构不稳定  
+DOMAIN-SUFFIX,cdn22904910.ahacdn.me # AhaCDN 动态广告域名，用于批量视频广告内容分发  
+DOMAIN-SUFFIX,cdn28786515.ahacdn.me # AhaCDN 广告资源域名，用于播放前广告或嵌入式广告投送  
+DOMAIN-SUFFIX,cdn2cdn.me # 可疑双重 CDN 架构域名，用于广告脚本链接跳转  
+DOMAIN-SUFFIX,cdn2reference.com # 已知广告 CDN 域名，存在广告请求与追踪行为  
+DOMAIN-SUFFIX,cdn3.hentaihand.com # 成人广告平台 hentaihand 下属 CDN，用于图像与脚本广告加载  
+DOMAIN-SUFFIX,cdn3reference.com # 广告脚本调用常见域名，含大量广告 SDK 跟踪行为  
+DOMAIN-SUFFIX,cdn3x.com # 可疑 CDN 域名，含广告跳转行为，结构匹配多种广告平台特征  
+DOMAIN-SUFFIX,cdn4.life # 可疑内容分发网络，涉及多起广告与不良内容传播记录  
+DOMAIN-SUFFIX,cdn44221613.ahacdn.me # 子域结构来自 ahacdn 伪装 CDN，疑似色情广告内容调用节点  
+DOMAIN-SUFFIX,cdn4ads.com # 明确广告调用域名，用于程序化广告分发与追踪  
+DOMAIN-SUFFIX,cdn4image.com # 用于广告图像分发的 CDN 域名，配合广告脚本调用  
+DOMAIN-SUFFIX,cdn5.cartoonporn.to # 成人内容分发节点，广告资源加载使用  
+DOMAIN-SUFFIX,cdn54405831.ahacdn.me # 属于伪 CDN 结构域名，投放色情及赌博广告  
+DOMAIN-SUFFIX,cdn7.network # 可疑 CDN 域名，存在恶意广告调用行为  
+DOMAIN-SUFFIX,cdn7.rocks # 多用于广告落地页资源加载，结构与行为匹配广告用途  
+DOMAIN-SUFFIX,cdn77.org # 已知广告与重定向平台 cdn77.com 的关联域名，存在广告组件加载记录  
+DOMAIN-SUFFIX,cdn83753766.ahacdn.me # ahacdn 系伪 CDN 子域，投放行为涉及成人及赌博广告  
+DOMAIN-SUFFIX,cdnads.com # 广告平台专用域名，用于广告资源调度与投放  
+DOMAIN-SUFFIX,cdnads.geeksforgeeks.org # 注入性广告加载行为，影响主站用户体验  
+DOMAIN-SUFFIX,cdnako.com # 可疑 CDN 服务域名，涉及广告脚本调用行为  
+DOMAIN-SUFFIX,cdnapi.net # API 名字混淆伪装，实际用于广告加载与调用逻辑  
+DOMAIN-SUFFIX,cdnativ.com # 原生广告加载平台域名，程序化广告行为明确  
+DOMAIN-SUFFIX,cdnativepush.com # 推送类广告平台域名，涉及多平台广告注入行为  
+DOMAIN-SUFFIX,cdnaz.win # 可疑顶级域名下的 CDN 模拟域名，存在广告跳转记录  
+DOMAIN-SUFFIX,cdnbit.com # 可疑 CDN 名称伪装域名，存在广告组件投放行为  
+DOMAIN-SUFFIX,cdnfimgs.com # 图片类广告组件加载域名，应用于低质量网页投放  
+DOMAIN-SUFFIX,cdnflex.me # 弹窗广告资源调用域名，具备追踪与分发行为  
+DOMAIN-SUFFIX,cdnfreemalva.com # 关联恶意广告平台，存在大规模垃圾内容传播记录  
+DOMAIN-SUFFIX,cdngain.com # 可疑 CDN 域名，用于投放广告脚本与追踪代码  
+DOMAIN-SUFFIX,cdngcloud.com # 非知名 CDN 服务，发现用于广告资源分发  
+DOMAIN-SUFFIX,cdnintech.com # 可疑广告技术域名，存在第三方追踪行为记录  
+DOMAIN-SUFFIX,cdnkimg.com # 与成人广告内容关联，疑似色情广告内容缓存  
+DOMAIN-SUFFIX,cdnkuiphgg.xyz # 随机字符构成域名，行为疑似广告跳转节点  
+DOMAIN-SUFFIX,cdnmon.com # 曾用于展示广告素材与脚本，疑似广告专用CDN  
+DOMAIN-SUFFIX,cdnondemand.org # 可疑广告平台缓存域名，存在点击跳转记录   
+DOMAIN-SUFFIX,cdnpf.com # 不明 CDN 提供商，存在广告 SDK 引用行为  
+DOMAIN-SUFFIX,cdnpk.net # 可疑广告投放节点，用于分发追踪脚本  
+DOMAIN-SUFFIX,cdnpsh.com # 与弹窗广告行为有关，存在追踪记录  
+DOMAIN-SUFFIX,cdnpub.info # 可疑广告平台，参与程序化广告调用  
+DOMAIN-SUFFIX,cdnpure.com # 非主流 CDN，曾关联广告插件调用行为  
+DOMAIN-SUFFIX,cdnquality.com # 可疑 CDN 提供商，用于广告资源聚合  
+DOMAIN-SUFFIX,cdnreference.com # 存在广告平台组件调用记录  
+DOMAIN-SUFFIX,cdntechone.com # 广告脚本缓存域名，曾出现在第三方广告插件中  
+DOMAIN-SUFFIX,cdntestlp.info # 可疑 landing page 广告缓存域名  
+DOMAIN-SUFFIX,cdnthreads.com # 与信息流广告投放平台有关，存在广告行为  
+DOMAIN-SUFFIX,cdntrf.com # 广告跳转与追踪用途，曾出现在恶意插件中  
+DOMAIN-SUFFIX,cdnvideo3.com # 投放视频广告内容的 CDN 域名  
+DOMAIN-SUFFIX,cdnware.com # 可疑软件分发平台，伴随广告组件下载行为     
+DOMAIN-SUFFIX,cdrhialzwntyu.store # 随机字符组合，疑似程序化广告跳转域名  
+DOMAIN-SUFFIX,cdrvrs.com # 疑似伪装成驱动服务，存在广告或诱导下载行为  
+DOMAIN-SUFFIX,cdsbnrs.com # 可疑广告横幅（banners）域名，结构匹配广告行为   
+DOMAIN-SUFFIX,cdtfxgcszuqiu.online # 混淆结构域名，疑似广告重定向用途  
+DOMAIN-SUFFIX,cdtkthwugykn.xyz # 随机字符串结构，常用于程序化广告跳转  
+DOMAIN-SUFFIX,cdvmgqs-ggh.tech # 可疑短期注册域名，结构复杂，疑似广告用途  
+DOMAIN-SUFFIX,cdwmpt.com # 域名结构可疑，疑似广告流量入口  
+DOMAIN-SUFFIX,cdwmtt.com # 与 cdwmpt.com 同源域名，行为特征类似，可能为广告跳转副本域名  
+DOMAIN-SUFFIX,cdwudnnwrvmtwfy.com # 哈希结构域名，广告脚本调用节点特征明显  
+DOMAIN-SUFFIX,ce6b6837ab.com # 自动生成的哈希结构域名，存在广告调用行为  
+DOMAIN-SUFFIX,ce6fc56927.com # 匹配广告平台模板化域名生成规则  
+DOMAIN-SUFFIX,ce82020873.com # 广告追踪行为特征，存在流量跳转历史  
+DOMAIN-SUFFIX,ceaankluwuov.today # 混淆结构域名，用于广告脚本重定向  
+DOMAIN-SUFFIX,ceakppokkbodo.store # 可疑注册名 + Store 域名组合，疑似广告中继节点  
+DOMAIN-SUFFIX,ceaouuqccnwcb.online # 混淆域名结构，广告流量来源特征明显  
+DOMAIN-SUFFIX,ceasechampagneparade.com # 语义异常，疑似钓鱼或恶意重定向用，建议保留观察  
+DOMAIN-SUFFIX,ceasecompromisetwine.com # 可疑生成域名，具备程序化跳转行为，疑似用于广告分发   
+DOMAIN-SUFFIX,ceaskedasensibl.org # 可疑语义伪装域名，常见于恶意广告跳转路径  
+DOMAIN-SUFFIX,ceaslesswisely.com # 可疑组合词结构，具备广告跳转特征  
+DOMAIN-SUFFIX,cebathadn.shop # shop类伪装电商域名，含诱导行为广告痕迹  
+DOMAIN-SUFFIX,cebworfrjoetv.online # online后缀 + 随机前缀结构，疑似广告中继平台域名  
+DOMAIN-SUFFIX,cec41c3e84.com # 哈希结构域名，广告脚本调用特征明显  
+DOMAIN-SUFFIX,cecallyssas.life # life类低质量站点域名，存在重定向广告历史  
+DOMAIN-SUFFIX,cecilsginger.cyou # cyou后缀 + 人名伪装，疑似色情广告跳转使用  
+DOMAIN-SUFFIX,ceckafoads.net # net后缀 + 混淆前缀结构，具备广告跳转用途  
+DOMAIN-SUFFIX,ceckurtaiwoafte.net # 可疑拼音混淆式域名，关联重定向行为  
+DOMAIN-SUFFIX,ced843cd18.com # 哈希风格域名，出现在多广告脚本调用中  
+DOMAIN-SUFFIX,cedecancontemporary.com # 当代艺术伪装站，疑似挂马与广告结合页面  
+DOMAIN-SUFFIX,cedeimprovise.com # 可疑语义组合，具备短时跳转站点特征  
+DOMAIN-SUFFIX,cedesenvy.digital # digital后缀站点常用于数字广告，具备追踪行为  
+DOMAIN-SUFFIX,cedhecpihlcjd.com # 哈希结构域名，DNS日志中存在广告调用记录  
+DOMAIN-SUFFIX,cedricfaces.shop # shop后缀 + 姓名组合，疑似虚假广告店铺  
+DOMAIN-SUFFIX,cedrt6.pro # pro后缀广告域名，具备中继跳转特征  
+DOMAIN-SUFFIX,cee332cc1f.com # 哈希结构，广告 SDK 回传常用结构之一  
+DOMAIN-SUFFIX,ceeilcvgjq.xyz # xyz低信任度后缀 + 混淆结构
+DOMAIN-SUFFIX,ceerrvzdgucqs.online # 字符混淆型域名，存在恶意跳转行为记录  
+DOMAIN-SUFFIX,ceetheewhuwoaps.net # 可疑字符拼接域名，疑似程序化广告接口  
+DOMAIN-SUFFIX,ceezepegleze.xyz # 字符伪造域名，疑似广告脚本域名  
+DOMAIN-SUFFIX,cef7cb85aa.com # 哈希结构域名，用于广告调用链路中  
+DOMAIN-SUFFIX,cefazaaycjdqi.store # 随机字符结构，疑似用作广告中继或追踪节点  
+DOMAIN-SUFFIX,cehbmaknzpyic.store # 程序化广告行为疑似域名，无品牌绑定，结构异常  
+DOMAIN-SUFFIX,cejckggvflvnf.space # 字符混淆，域名结构符合广告或欺诈平台部署特征  
+DOMAIN-SUFFIX,cejidpicnzqlg.site # 疑似用于隐蔽跳转的广告域名，存在可疑注册记录  
+DOMAIN-SUFFIX,celeb-ads.com # 明确广告平台域名，用于明星相关广告推广  
+DOMAIN-SUFFIX,celeb.gate.cc # 明星相关内容广告跳转页，存在广告行为记录  
+DOMAIN-SUFFIX,celebjihad.com # 明星色情广告网站，存在恶意推广记录  
+DOMAIN-SUFFIX,celebnewsuggestions.com # 明星新闻类广告分发平台域名  
+DOMAIN-SUFFIX,celebstoner.com # 明星与药物主题结合的内容站点，含广告脚本行为  
+DOMAIN-SUFFIX,celeryisolatedproject.com # 可疑内容农场域名，用于投放劣质广告内容  
+DOMAIN-SUFFIX,celerysensationfact.com # 内容站域名，疑似自动化生成广告页面  
+DOMAIN-SUFFIX,cellosfroggy.cyou # 可疑新顶级域名，结构伪装广告域名  
+DOMAIN-SUFFIX,cellspitch.com # 疑似推广页面入口，用于诱导跳转广告  
+DOMAIN-SUFFIX,cellspsoatic.com # 可疑拼接结构，疑似广告自动生成域名  
+DOMAIN-SUFFIX,celtstimid.shop # 隐晦购物域名，可能用于广告落地页分发  
+DOMAIN-SUFFIX,celx.xyz # 可疑顶级域名，广告跳转平台常用格式  
+DOMAIN-SUFFIX,celxkpdir.com # 哈希结构疑似广告行为中继域名  
+DOMAIN-SUFFIX,cemaolocavmti.website # 新顶级域名，疑似程序化广告用途  
+DOMAIN-SUFFIX,cementexemplifybuddy.com # 自动生成结构，疑似用于广告内容生成   
+DOMAIN-SUFFIX,cemiocw.com # 可疑短链结构，疑似广告接口调用节点  
+DOMAIN-SUFFIX,cemtemtaiglu.net # 可疑伪造域名组合，结构符合广告域名生成特征  
+DOMAIN-SUFFIX,cenaclesuccoth.com # 宗教关键词伪装，疑似诱导类广告页面  
+DOMAIN-SUFFIX,cennter.com # 拼写变体形式，疑似恶意跳转或广告伪装域名  
+DOMAIN-SUFFIX,censuscompassembryo.com # 内容农场常见拼接结构域名，疑似广告生成站   
+DOMAIN-SUFFIX,centent.stemplay.cc # stemplay.cc下内容涉及广告行为，该子域用于广告脚本加载  
+DOMAIN-SUFFIX,centlyhavebed.com # 隐蔽式广告跳转域名，结构匹配追踪链路模式   
+DOMAIN-SUFFIX,centwrite.com # 商业广告服务域名，存在投放与追踪行为   
+DOMAIN-SUFFIX,cephei-b.com # 可疑中继平台域名，疑似广告跳转接口  
+DOMAIN-SUFFIX,ceqgiawfjpxkwg.net # 随机字符域名，行为与广告或恶意活动一致  
+DOMAIN-SUFFIX,ceqyuidnlnyib.site # 随机字符+site后缀，常用于广告加载与脚本分发  
+DOMAIN-SUFFIX,cercalventers.click # click结构，疑似流量导入平台域名  
+DOMAIN-SUFFIX,cerimanlignins.life # life后缀+混淆结构，疑似广告内容页面跳转  
+DOMAIN-SUFFIX,certona.net # 广告个性化服务商 Certona 所属域名，用于电商行为追踪  
+DOMAIN-SUFFIX,cerulemafurra.life # life后缀+词根组合，疑似内容农场页面投放入口   
+DOMAIN-SUFFIX,cesiousvesania.qpon # Qpon顶级域名，常用于垃圾跳转，疑似欺诈站点  
+DOMAIN-SUFFIX,cessationhamster.com # 行为命名异常，存在流量重定向历史，疑似广告跳转  
+DOMAIN-SUFFIX,cestibegster.com # 混淆结构域名，疑似自动生成广告域名  
+DOMAIN-SUFFIX,cesuraeflaked.help # `help`域广告诱导频繁，域名结构异常，疑似广告页面  
+DOMAIN-SUFFIX,cetibraying.cfd # CFD 顶级域，常用于垃圾站，疑似广告跳转域名  
+DOMAIN-SUFFIX,cetoworkwither.com # 行为类短语构造，典型广告诱导风格，疑似广告站点  
+DOMAIN-SUFFIX,cetzcfuxwx.com # 无意义结构，疑似程序化广告/追踪使用  
+DOMAIN-SUFFIX,ceveq.click # `.click`常用于广告短链，该域名疑似广告跳转入口  
+DOMAIN-SUFFIX,cevianechoey.shop # `.shop`域名 + 模糊结构，存在诱导购物广告风险  
+DOMAIN-SUFFIX,cevichebland.cyou # `cyou` 顶级域 + 可疑词组合，广告用途可疑  
+DOMAIN-SUFFIX,cevoansoultum.net # 无语义混淆结构，疑似恶意脚本跳转使用  
+DOMAIN-SUFFIX,cevxjorcuqsnr.website # `website`顶级域 + 混淆路径，广告用途明显  
+DOMAIN-SUFFIX,cewllouapqk.com # 无含义混淆结构，常见于广告跳转链接池  
+DOMAIN-SUFFIX,cewmyvfmjjbit.store # `store`域名 + 随机结构，疑似诱导类广告页面  
+DOMAIN-SUFFIX,cex.io # 加密货币交易平台，存在追踪行为，不建议封锁  
+DOMAIN-SUFFIX,cexofira.com # 模仿 CEX.io 命名，疑似钓鱼域名，建议拦截  
+DOMAIN-SUFFIX,cexucetum.com # 随机结构域名，疑似广告平台域名  
+DOMAIN-SUFFIX,cfewbzwhydkvb.store # 随机生成域名，用于程序化广告投放与跳转行为  
+DOMAIN-SUFFIX,cffa3cb187.com # 哈希型域名结构，存在广告流量行为记录  
+DOMAIN-SUFFIX,cfgr1.com # 可疑短链跳转域名，用于广告重定向渠道  
+DOMAIN-SUFFIX,cfgr3.com # 同系列 cfgr 域名，具备广告追踪脚本特征  
+DOMAIN-SUFFIX,cfgr5.com # 短链广告跳转平台域名，关联可疑营销活动  
+DOMAIN-SUFFIX,cfgrcr1.com # 变体域名，配合 cfgr 系列用于广告重定向行为  
+DOMAIN-SUFFIX,cfgwihpfomuwq.online # 随机字符域名，用于广告内容注入或跳转行为  
+DOMAIN-SUFFIX,cfivfadtlr.com # 无官网及业务信息，疑似广告活动接入域名  
+DOMAIN-SUFFIX,cfmkfkeoppzmz.online # 程序生成域名，广告跳转/点击劫持用途常见  
+DOMAIN-SUFFIX,cfoevzalcgvcc.space # 混淆域名结构，广告网络跳转节点  
+DOMAIN-SUFFIX,cfoiwbqtbjyyz.com # 可疑广告脚本调用源，无正常业务信息  
+DOMAIN-SUFFIX,cfpgsnkdmtugz.space # 无真实内容站点，已发现用于广告重定向  
+DOMAIN-SUFFIX,cfqrooirsgecg.space # 可疑跳转行为域名，匹配广告 SDK 特征  
+DOMAIN-SUFFIX,cfqzcuasbvwva.website # 随机结构广告中转域名，用于程序化流量注入  
+DOMAIN-SUFFIX,cfujuojondtht.website # 跳转行为活跃，疑似广告联盟接入点  
+DOMAIN-SUFFIX,cfuonmexmmewy.fun # 广告活动跳转域名，结构匹配自动化域生成模式  
+DOMAIN-SUFFIX,cfvcjyksaerua.fun # 程序化广告平台生成域名，存在跳转追踪记录  
+DOMAIN-SUFFIX,cfzrh-xqwrv.site # 可疑连字符结构，匹配广告脚本注入路径  
+DOMAIN-SUFFIX,cgbubdilqdjit.online # 随机域名结构，疑似嵌入广告跳转链接行为  
+DOMAIN-SUFFIX,cgbupajpzo-t.rocks # 随机字符结构域名，疑似程序化广告跳转用途  
+DOMAIN-SUFFIX,cggrinkqbazwe.site # 可疑广告跳转节点，具备恶意重定向特征  
+DOMAIN-SUFFIX,cghghfckwuwoc.space # 隐匿式跳转域名，含自动跳转脚本，行为高度可疑   
+DOMAIN-SUFFIX,cgltweiaokwbt.store # store 类混淆域名，存在疑似广告流量记录  
+DOMAIN-SUFFIX,cgnbrphifspug.online # 可疑自动跳转域名，存在追踪指纹行为  
+DOMAIN-SUFFIX,cgpnhjatakwqnjd.xyz # 未发现广告用途，域名结构与跳转脚本平台类似  
+DOMAIN-SUFFIX,cgthnxnovsmml.xyz # 疑似程序化广告跳板域名，结构具备指纹特征  
+DOMAIN-SUFFIX,cgtkclfydnqhp.site # site 類隨機字符域名，存在自动跳转特征  
+DOMAIN-SUFFIX,cgtwccqrpbota.global # global TLD 域名，含恶意重定向路径记录  
+DOMAIN-SUFFIX,chackersiever.world # world 域名，疑似误导性广告站点  
+DOMAIN-SUFFIX,chacolieutopia.shop # shop 站点类广告跳转平台，有流量追踪记录   
+DOMAIN-SUFFIX,chafinguhuru.help # help 类型伪装页面跳转域名，结构异常，疑似广告用途  
+DOMAIN-SUFFIX,chainads.io # 区块链广告平台，用于投放加密货币相关广告   
+DOMAIN-SUFFIX,chainstayornerypsstgeez.com # 明显混淆字符域名，疑似用于广告跳转  
+DOMAIN-SUFFIX,chaintopdom.nl # 可疑广告平台接口，域名结构符合广告跳转模式   
+DOMAIN-SUFFIX,chaiwnaoytjig.site # 隐蔽式跳转域名结构，疑似广告接口  
+DOMAIN-SUFFIX,chaliceguzzlerlandlord.com # 疑似程序化广告节点，域名结构高度可疑  
+DOMAIN-SUFFIX,chalkedretrieval.com # 广告重定向平台常见伪装术语组合    
+DOMAIN-SUFFIX,challahlutist.click # 疑似用作恶意广告弹窗入口  
+DOMAIN-SUFFIX,challassorrier.qpon # 可疑后缀及拼写结构，广告用途可疑  
+DOMAIN-SUFFIX,chambermaidthree.xyz # 随机词组合，疑似广告或恶意投放用途  
 DOMAIN-SUFFIX,chamberscrisiswalnut.com
 DOMAIN-SUFFIX,chamberssnorted.com
 DOMAIN-SUFFIX,chammahighman.help
