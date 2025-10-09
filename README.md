@@ -162,7 +162,10 @@ If you value this project, consider giving it a ⭐️ star and subscribing to u
 
 **Group Rules:**
 
-- All members must follow the community guidelines. Offensive, illegal, or spammy behavior will result in permanent ban.
-- All uploaded files are scanned by tools such as Dr.Web Bot to prevent malware or trojans.
-- No politics, no advertising, no flame wars.
-- GitHub account verification is required for contributor access. Help us build a safe, collaborative security community. 
+- This group is a pure technical discussion platform. It is strictly forbidden to post content involving politics, pornography, drugs, firearms, explosives, gambling, scams, cryptocurrency speculation, advertising, personal attacks, or any illegal or disruptive behavior (including but not limited to abuse, provocation, spamming, or phishing links). Violators will be dealt with immediately based on the severity of the situation, with serious offenders permanently banned.
+
+- To ensure communication safety, do not upload any unchecked or unverified executable files, archives, scripts, or links of unknown origin. Any confirmed violations will result in immediate banning and blacklisting. All uploaded files and content in the group will be automatically scanned by security tools such as the Dr.Web antivirus bot to prevent the spread of malicious content.
+
+- All members are expected to uphold a professional and respectful environment, focusing on cybersecurity topics and collaborative rule development. Let us work together to build a clean, orderly, and trustworthy community.
+
+- These rules apply to all members without exception. Community supervision and joint maintenance are highly encouraged.
