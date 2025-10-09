@@ -20,7 +20,7 @@ A network security ruleset meticulously maintained for Surge, focused on applica
 
 ## **Overview**
 
-[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a fully individually maintained network security rule set focused on defending against modern network-layer threats. It aims to help global users build localized and efficient defense systems. The project blocks DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, and C2 controllers, and further extends coverage to major global ad and tracking domains, enabling precise local traffic identification and efficient interception. It also includes rules for multiple high-risk attack sources worldwide, including infrastructure and behavioral signatures related to Pegasus spyware.
+[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a network security rule set developed and maintained long-term by an independent developer. It focuses on countering modern network-layer threats and aims to help global users build localized and effective defense systems. The project blocks DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, and C2 controllers, and further extends its coverage to major global advertising and tracking domains—enabling precise identification and efficient interception of local traffic. It also includes rules for numerous high-risk attack sources worldwide, including communication infrastructure and behavioral signatures related to Pegasus spyware.
 
 The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
 
@@ -85,7 +85,9 @@ GEOIP,CN,DIRECT # Valid
 
 ## **🌟 Special Thanks**
 
-This project is inspired by many outstanding community contributions. Key references include:
+This project is built upon inspiration and reference from numerous outstanding open-source initiatives within the GitHub community. We extend our sincere gratitude to all developers who have contributed to the open-source ecosystem.
+
+To meet personal cybersecurity requirements, this project has been deeply customized and optimized for enhanced security based on existing rule sets. In order to ensure the integrity, safety, and long-term availability of the project, all materials and rule files are self-hosted within this repository, thereby avoiding issues such as update failures or trust concerns arising from third-party dependencies.
 
 - **Project Structure**: 
 
@@ -149,7 +151,7 @@ We ask you to respect the spirit of open source:
 
 Additionally, the Aegis project has enabled GPG commit signing to ensure the authenticity and integrity of its codebase. You can verify each commit via GPG signatures to gain higher assurance that the code has not been tampered with.
 
-It is recommended to fork or build upon this repository to save time, maintain compatibility, and benefit from future security updates.
+We recommend maintaining and extending your configurations based on the structure of this project, to avoid duplicated efforts, reduce time costs, and benefit from ongoing updates and security optimizations.
 
 ## **🙌  Aegis Telegram Channels**
 
