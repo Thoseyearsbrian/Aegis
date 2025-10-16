@@ -6273,7 +6273,7 @@ DOMAIN-SUFFIX,duchesscakeresumed.com # 与恶意／恶意重定向有关（被�
 DOMAIN-SUFFIX,duchesspleasurelollipop.com # 在 EasyList 广告规则中出现为拦截目标 
 DOMAIN-SUFFIX,dukingdraon.com # 被报告为广告重定向 / 弹窗跳转域名（重定向至假扩展、调查、成人内容等）
 DOMAIN-SUFFIX,dumbpop.com # 被 Malwarebytes 标记为与 “malvertising”（广告型恶意行为）有关 
-DOMAIN-SUFFIX,dumpei.click # 属于 “.click” 类垃圾域名段,背景可疑；在 BGP 路由中与色情 / 垃圾域名共现
+DOMAIN-SUFFIX,dumpei.click # 属于 “.click” 类垃圾域名段,背景可疑,在 BGP 路由中与色情 / 垃圾域名共现
 DOMAIN-SUFFIX,dunderaffiliates.com # 联盟 / 推广用途可能
 DOMAIN-SUFFIX,durhbvlfkhnln.store # 出现在 AdGuard 广告过滤名单中,可能为广告/跳转用途 
 DOMAIN-SUFFIX,duringcereal.com # 虽被 Scamadviser 评为“较可信”,但同服务器存在多个可疑站点,仍有潜在风险 
@@ -8234,12 +8234,12 @@ DOMAIN-SUFFIX,submissivejuice.com # 同样可能为成人流量 / 广告入口
 DOMAIN-SUFFIX,supervisortoplessstyle.com # “topless” 暗示成人 / 内容用途,可能广告用途  
 DOMAIN-SUFFIX,superxxxfree.com # 明显成人内容 / 广告入口域名  
 DOMAIN-SUFFIX,support.streamjav.top # 与 “jav” 成人内容暗示 + “support” 组合,可能为广告入口  
-DOMAIN‑SUFFIX,svyksa.info # 垃圾广告域名；已被列入 AdGuard 列表作为广告域名   
+DOMAIN‑SUFFIX,svyksa.info # 垃圾广告域名,已被列入 AdGuard 列表作为广告域名   
 DOMAIN‑SUFFIX,switchadhub.com # 已有黑名单 / 恶意行为报告
 DOMAIN‑SUFFIX,taboola.com # 属于 Taboola 广告平台域名,明确为广告系统域名,建议纳入规则屏蔽  
 DOMAIN‑SUFFIX,tacoda.net  # 于已知广告 /用户行为跟踪 /广告技术域名,建议纳入广告屏蔽规则  
 DOMAIN‑SUFFIX,tapjoyads.com # 属于已知广告平台 /广告系统域名 (Tapjoy) ,建议纳入广告屏蔽规则  
-DOMAIN‑SUFFIX,taplingnoonlit.click # 未见公开情报；“.click” + 组合词,建议屏蔽  
+DOMAIN‑SUFFIX,taplingnoonlit.click # 未见公开情报,“.click” + 组合词,建议屏蔽  
 DOMAIN‑SUFFIX,tapnative.com # 属于已知广告 /移动广告网络（TapNative）域名,建议纳入屏蔽规则  
 DOMAIN‑SUFFIX,targeting.vdo.ai # 属于 vdo.ai 广告 /视频 /广告平台子域,风险较高,建议屏蔽  
 DOMAIN‑SUFFIX,targetspot.com # 属于已知广告 /广告网络 (TargetSpot) 域名,建议纳入屏蔽规则  
