@@ -3842,15 +3842,15 @@ DOMAIN-SUFFIX,blauuamgfbuyg.site # 垃圾域名结构，广告 / 无效用途可
 DOMAIN-SUFFIX,blaze-media.com # 合法媒体 / 广告公司域名（The Blaze 广告服务）  
 DOMAIN-SUFFIX,blazyunc.shop # 可疑广告 / 推广站点结构，可能用于转化  
 DOMAIN-SUFFIX,bleatyskryer.cyou # .cyou 类型域名，广告 / 跳转可能性高  
-DOMAIN-SUFFIX, blendsubslot.rest # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
-DOMAIN-SUFFIX, bletopreseynat.org # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
-DOMAIN-SUFFIX, blg-1216lb.com # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
-DOMAIN-SUFFIX, blgogjamwvyjn.top # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
-DOMAIN-SUFFIX, blicatedlitytleme.org # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
-DOMAIN-SUFFIX, bliink.io # 广告技术公司 Bliink，提供上下文广告服务  
-DOMAIN-SUFFIX, blijvertellin.rest # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
-DOMAIN-SUFFIX, blindlycckw.qpon # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
-DOMAIN-SUFFIX, blinispelts.digital # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX,blendsubslot.rest # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX,bletopreseynat.org # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX,blg-1216lb.com # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX,blgogjamwvyjn.top # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX,blicatedlitytleme.org # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX,bliink.io # 广告技术公司 Bliink，提供上下文广告服务  
+DOMAIN-SUFFIX,blijvertellin.rest # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX,blindlycckw.qpon # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
+DOMAIN-SUFFIX,blinispelts.digital # 出现在 EasyList 拦截规则中，广告 / 跳转用途  
 DOMAIN-SUFFIX,bliqjhstabiqd.space # 可疑广告 / 跳转域名  
 DOMAIN-SUFFIX,blismedia.com # 出现在 EasyList 广告规则中，广告媒体平台  
 DOMAIN-SUFFIX,blissfuldes.com # 出现在 EasyList 广告规则中，广告 / 跳转域名  
@@ -8246,71 +8246,71 @@ DOMAIN‑SUFFIX,taplingnoonlit.click # 未见公开情报；“.click” + 组�
 DOMAIN‑SUFFIX,tapnative.com # 属于已知广告 /移动广告网络（TapNative）域名，建议纳入屏蔽规则  
 DOMAIN‑SUFFIX,targeting.vdo.ai # 属于 vdo.ai 广告 /视频 /广告平台子域，风险较高，建议屏蔽  
 DOMAIN‑SUFFIX,targetspot.com # 属于已知广告 /广告网络 (TargetSpot) 域名，建议纳入屏蔽规则  
-DOMAIN-SUFFIX,tatrck.com  # 可疑跟踪域名，建议屏蔽  
-DOMAIN-SUFFIX,tattepush.com  # 含 “push” 可能用于通知/推送广告，建议屏蔽  
-DOMAIN-SUFFIX,tattered-sale.com  # 含 “sale” 可能用于促销广告，建议屏蔽  
-DOMAIN-SUFFIX,tatxbrshtjgfs.site  # 高风险 .site + 随机字符串，建议屏蔽  
-DOMAIN-SUFFIX,tauliparrock.cyou  # 高风险 .cyou，建议屏蔽  
-DOMAIN-SUFFIX,tautogsatafter.cyou  # 高风险 .cyou，建议屏蔽  
-DOMAIN-SUFFIX,tauzo.xyz  # 高风险 .xyz，建议屏蔽  
+DOMAIN-SUFFIX,tatrck.com # 可疑跟踪域名，建议屏蔽  
+DOMAIN-SUFFIX,tattepush.com # 含 “push” 可能用于通知/推送广告，建议屏蔽  
+DOMAIN-SUFFIX,tattered-sale.com # 含 “sale” 可能用于促销广告，建议屏蔽  
+DOMAIN-SUFFIX,tatxbrshtjgfs.site # 高风险 .site + 随机字符串，建议屏蔽  
+DOMAIN-SUFFIX,tauliparrock.cyou # 高风险 .cyou，建议屏蔽  
+DOMAIN-SUFFIX,tautogsatafter.cyou # 高风险 .cyou，建议屏蔽  
+DOMAIN-SUFFIX,tauzo.xyz # 高风险 .xyz，建议屏蔽  
 DOMAIN-SUFFIX,taxidrivermovie.com  # 含 “movie” 可能用于内容广告，建议屏蔽  
 DOMAIN-SUFFIX,taxinenaives.cfd  # 高风险 .cfd，建议屏蔽  
 DOMAIN-SUFFIX,taxitesgyal.top  # 高风险 .top，建议屏蔽   
 DOMAIN-SUFFIX,taypwqoprmcap.space  # 高风险 .space + 随机字符串，建议屏蔽  
-DOMAIN-SUFFIX,tbaffiliate.com  # 含 “affiliate” 有推广意味，建议屏蔽  
-DOMAIN-SUFFIX,tbavixmkrnspx.space  # 高风险 .space，建议屏蔽  
-DOMAIN-SUFFIX,tbdhrjsywgjcq.tech  # 高风险 .tech，建议屏蔽  
-DOMAIN-SUFFIX,tbgoqplabnhkb.site  # 高风险 .site，建议屏蔽  
-DOMAIN-SUFFIX,tbguudxflcfub.site  # 高风险 .site，建议屏蔽  
-DOMAIN-SUFFIX,tbimsmdlxsiam.website  # 高风险 .website，建议屏蔽  
-DOMAIN-SUFFIX,tbjrtcoqldf.site  # 高风险 .site，建议屏蔽  
-DOMAIN-SUFFIX,tbspraffe.rest  # 高风险 .rest，建议屏蔽  
-DOMAIN-SUFFIX,tbsxkmwsmksjj.buzz  # 高风险 .buzz，建议屏蔽  
+DOMAIN-SUFFIX,tbaffiliate.com # 含 “affiliate” 有推广意味，建议屏蔽  
+DOMAIN-SUFFIX,tbavixmkrnspx.space # 高风险 .space，建议屏蔽  
+DOMAIN-SUFFIX,tbdhrjsywgjcq.tech # 高风险 .tech，建议屏蔽  
+DOMAIN-SUFFIX,tbgoqplabnhkb.site # 高风险 .site，建议屏蔽  
+DOMAIN-SUFFIX,tbguudxflcfub.site # 高风险 .site，建议屏蔽  
+DOMAIN-SUFFIX,tbimsmdlxsiam.website # 高风险 .website，建议屏蔽  
+DOMAIN-SUFFIX,tbjrtcoqldf.site # 高风险 .site，建议屏蔽  
+DOMAIN-SUFFIX,tbspraffe.rest # 高风险 .rest，建议屏蔽  
+DOMAIN-SUFFIX,tbsxkmwsmksjj.buzz # 高风险 .buzz，建议屏蔽  
 DOMAIN-SUFFIX,tcadserver.rain-digital.ca  # 含 “adserver” 高度疑似广告中转域名，建议屏蔽  
-DOMAIN-SUFFIX,tcbtwfvquujgd.website  # 高风险 .website，建议屏蔽  
-DOMAIN-SUFFIX,tcpedpdcfkcgo.rocks  # 高风险 .rocks，建议屏蔽  
-DOMAIN-SUFFIX,tcrtidleivyai.space  # 高风险 .space，建议屏蔽  
-DOMAIN-SUFFIX,tctrbtdxbscuw.site  # 高风险 .site，建议屏蔽  
-DOMAIN-SUFFIX,tcvlrtqsfqkbo.store  # 高风险 .store，建议屏蔽  
-DOMAIN-SUFFIX,tcwgmjsjgtsrm.space  # 高风险 .space，建议屏蔽  
-DOMAIN-SUFFIX,tdanmfpcnlaxh.store  # 高风险 .store，建议屏蔽  
-DOMAIN-SUFFIX,tdbcctiulenif.site  # 高风险 .site，建议屏蔽  
-DOMAIN-SUFFIX,tdbvqojmutjqt.website  # 高风险 .website，建议屏蔽  
-DOMAIN-SUFFIX,tdoqiajej.xyz  # 高风险 .xyz，建议屏蔽  
-DOMAIN-SUFFIX,tdrczdscckdwu.online  # 高风险 .online，建议屏蔽  
-DOMAIN-SUFFIX,tdsafe.org  # 含 “safe” 伪装意味，建议屏蔽  
-DOMAIN-SUFFIX,tdslinetraffic.com  # 含 “traffic” 可能用于流量/广告监控，建议屏蔽  
-DOMAIN-SUFFIX,tdspa.top  # 高风险 .top，建议屏蔽  
-DOMAIN-SUFFIX,tdzegpeatygun.tech  # 高风险 .tech，建议屏蔽  
-DOMAIN-SUFFIX,teacherspivvy.cfd  # 高风险 .cfd，建议屏蔽  
-DOMAIN-SUFFIX,tealsxenicus.click  # 高风险 .click，建议屏蔽  
-DOMAIN-SUFFIX,teamskeetimages.com  # 成人 / 图片资源广告域名，建议屏蔽  
-DOMAIN-SUFFIX,techporn.ph  # 明确成人内容域名，建议屏蔽  
-DOMAIN-SUFFIX,teenfinder.com  # 成人内容平台域名，建议屏蔽  
-DOMAIN-SUFFIX,teenporno.xxx  # 明确色情域名，建议屏蔽  
-DOMAIN-SUFFIX,teensexgfs.com  # 色情广告域名，建议屏蔽  
-DOMAIN-SUFFIX,teentitsass.com  # 色情暗示域名，建议屏蔽  
-DOMAIN-SUFFIX,teeteryschelm.click  # 高风险 .click，建议屏蔽  
-DOMAIN-SUFFIX,teethellos.rest  # 高风险 .rest，建议屏蔽  
-DOMAIN-SUFFIX,teetusee.xyz  # 高风险 .xyz，建议屏蔽  
-DOMAIN-SUFFIX,terraclicks.com  # 可疑点击 / 广告域名，建议屏蔽
-DOMAIN-SUFFIX,terrapush.com  # 可疑推送广告域名，建议屏蔽
-DOMAIN-SUFFIX,tgp1.brazzersnetwork.com  # 涉及成人 /付费网络，建议屏蔽
-DOMAIN-SUFFIX,th.milftube.mobi  # 色情成人类域名，强烈建议屏蔽
-DOMAIN-SUFFIX,the-adult-company.com  # 涉及成人 /成人产品，建议屏蔽
-DOMAIN-SUFFIX,thebigadsstore.com  # 可疑广告商店域名，建议屏蔽
-DOMAIN-SUFFIX,thebtrads.top  # 可疑广告 / 推广域名，建议屏蔽
-DOMAIN-SUFFIX,thegay.com  # 涉及成人／LGBT 主题域名，视策略可屏蔽
-DOMAIN-SUFFIX,theporndude.com  # 成人色情 / 导航站点，建议屏蔽
+DOMAIN-SUFFIX,tcbtwfvquujgd.website # 高风险 .website，建议屏蔽  
+DOMAIN-SUFFIX,tcpedpdcfkcgo.rocks # 高风险 .rocks，建议屏蔽  
+DOMAIN-SUFFIX,tcrtidleivyai.space # 高风险 .space，建议屏蔽  
+DOMAIN-SUFFIX,tctrbtdxbscuw.site # 高风险 .site，建议屏蔽  
+DOMAIN-SUFFIX,tcvlrtqsfqkbo.store # 高风险 .store，建议屏蔽  
+DOMAIN-SUFFIX,tcwgmjsjgtsrm.space # 高风险 .space，建议屏蔽  
+DOMAIN-SUFFIX,tdanmfpcnlaxh.store # 高风险 .store，建议屏蔽  
+DOMAIN-SUFFIX,tdbcctiulenif.site # 高风险 .site，建议屏蔽  
+DOMAIN-SUFFIX,tdbvqojmutjqt.website # 高风险 .website，建议屏蔽  
+DOMAIN-SUFFIX,tdoqiajej.xyz # 高风险 .xyz，建议屏蔽  
+DOMAIN-SUFFIX,tdrczdscckdwu.online # 高风险 .online，建议屏蔽  
+DOMAIN-SUFFIX,tdsafe.org # 含 “safe” 伪装意味，建议屏蔽  
+DOMAIN-SUFFIX,tdslinetraffic.com # 含 “traffic” 可能用于流量/广告监控，建议屏蔽  
+DOMAIN-SUFFIX,tdspa.top # 高风险 .top，建议屏蔽  
+DOMAIN-SUFFIX,tdzegpeatygun.tech # 高风险 .tech，建议屏蔽  
+DOMAIN-SUFFIX,teacherspivvy.cfd # 高风险 .cfd，建议屏蔽  
+DOMAIN-SUFFIX,tealsxenicus.click # 高风险 .click，建议屏蔽  
+DOMAIN-SUFFIX,teamskeetimages.com # 成人 / 图片资源广告域名，建议屏蔽  
+DOMAIN-SUFFIX,techporn.ph # 明确成人内容域名，建议屏蔽  
+DOMAIN-SUFFIX,teenfinder.com # 成人内容平台域名，建议屏蔽  
+DOMAIN-SUFFIX,teenporno.xxx # 明确色情域名，建议屏蔽  
+DOMAIN-SUFFIX,teensexgfs.com # 色情广告域名，建议屏蔽  
+DOMAIN-SUFFIX,teentitsass.com # 色情暗示域名，建议屏蔽  
+DOMAIN-SUFFIX,teeteryschelm.click # 高风险 .click，建议屏蔽  
+DOMAIN-SUFFIX,teethellos.rest # 高风险 .rest，建议屏蔽  
+DOMAIN-SUFFIX,teetusee.xyz # 高风险 .xyz，建议屏蔽  
+DOMAIN-SUFFIX,terraclicks.com # 可疑点击 / 广告域名，建议屏蔽
+DOMAIN-SUFFIX,terrapush.com # 可疑推送广告域名，建议屏蔽
+DOMAIN-SUFFIX,tgp1.brazzersnetwork.com # 涉及成人 /付费网络，建议屏蔽
+DOMAIN-SUFFIX,th.milftube.mobi # 色情成人类域名，强烈建议屏蔽
+DOMAIN-SUFFIX,the-adult-company.com # 涉及成人 /成人产品，建议屏蔽
+DOMAIN-SUFFIX,thebigadsstore.com # 可疑广告商店域名，建议屏蔽
+DOMAIN-SUFFIX,thebtrads.top # 可疑广告 / 推广域名，建议屏蔽
+DOMAIN-SUFFIX,thegay.com # 涉及成人／LGBT 主题域名，视策略可屏蔽
+DOMAIN-SUFFIX,theporndude.com # 成人色情 / 导航站点，建议屏蔽
 DOMAIN-SUFFIX,thesocialsexnetwork.com  # 成人 / 社交色情，建议屏蔽
-DOMAIN-SUFFIX,tinyadz.com  # 可疑广告域名，建议屏蔽
-DOMAIN-SUFFIX,titanads1.com  # 可疑广告网络域名，建议屏蔽
-DOMAIN-SUFFIX,titanads2.com  # 可疑广告网络域名，建议屏蔽
-DOMAIN-SUFFIX,titanads3.com  # 可疑广告网络域名，建议屏蔽
-DOMAIN-SUFFIX,titanads4.com  # 可疑广告网络域名，建议屏蔽
-DOMAIN-SUFFIX,titanads5.com  # 可疑广告网络域名，建议屏蔽
-DOMAIN-SUFFIX,tits-guru.com  # 成人 / 色情推广域名，建议屏蔽
-DOMAIN-SUFFIX,titsintops.com  # 成人 / 色情推广域名，建议屏蔽 
+DOMAIN-SUFFIX,tinyadz.com # 可疑广告域名，建议屏蔽
+DOMAIN-SUFFIX,titanads1.com # 可疑广告网络域名，建议屏蔽
+DOMAIN-SUFFIX,titanads2.com # 可疑广告网络域名，建议屏蔽
+DOMAIN-SUFFIX,titanads3.com # 可疑广告网络域名，建议屏蔽
+DOMAIN-SUFFIX,titanads4.com # 可疑广告网络域名，建议屏蔽
+DOMAIN-SUFFIX,titanads5.com # 可疑广告网络域名，建议屏蔽
+DOMAIN-SUFFIX,tits-guru.com # 成人 / 色情推广域名，建议屏蔽
+DOMAIN-SUFFIX,titsintops.com # 成人 / 色情推广域名，建议屏蔽 
 DOMAIN-SUFFIX,tivatingotherem.org # 可疑伪造域名，疑似钓鱼  
 DOMAIN-SUFFIX,tivqggcgnqlom.space # 随机生成域名，疑似僵尸网络  
 DOMAIN-SUFFIX,tiymvltgbllto.site # 可疑域名结构，疑似 C2 节点  
