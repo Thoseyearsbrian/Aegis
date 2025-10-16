@@ -8235,20 +8235,20 @@ DOMAIN-SUFFIX,submissivejuice.com # 同样可能为成人流量 / 广告入口
 DOMAIN-SUFFIX,supervisortoplessstyle.com # “topless” 暗示成人 / 内容用途，可能广告用途  
 DOMAIN-SUFFIX,superxxxfree.com # 明显成人内容 / 广告入口域名  
 DOMAIN-SUFFIX,support.streamjav.top # 与 “jav” 成人内容暗示 + “support” 组合，可能为广告入口  
-DOMAIN‑SUFFIX,svrgcqgtpe.com 垃圾广告域名；已被 AdGuard / AdList 列为广告过滤规则背景域名  
-DOMAIN‑SUFFIX,svrlejjh.com 垃圾广告域名；已出现在 EasyList 过滤规则中作为广告域名  
-DOMAIN‑SUFFIX,svstfplolhlll.website 垃圾广告类域名；背景不明但域名结构极其异常，建议屏蔽  
-DOMAIN‑SUFFIX,svswyokrievoe.space 垃圾广告/潜在劫持域名；被列入 AdGuard 屏蔽列表  
-DOMAIN‑SUFFIX,svtefnjwxtoto.site 垃圾广告域名；与上述同类高频垃圾域名模式一致  
-DOMAIN‑SUFFIX,svyksa.info 垃圾广告域名；已被列入 AdGuard 列表作为广告域名   
-DOMAIN‑SUFFIX,switchadhub.com 已有黑名单 / 恶意行为报告
-DOMAIN‑SUFFIX,taboola.com 属于 Taboola 广告平台域名，明确为广告系统域名，建议纳入规则屏蔽  
-DOMAIN‑SUFFIX,tacoda.net 属于已知广告 /用户行为跟踪 /广告技术域名，建议纳入广告屏蔽规则  
-DOMAIN‑SUFFIX,tapjoyads.com 属于已知广告平台 /广告系统域名 (Tapjoy) ，建议纳入广告屏蔽规则  
-DOMAIN‑SUFFIX,taplingnoonlit.click 未见公开情报；“.click” + 组合词，建议屏蔽  
-DOMAIN‑SUFFIX,tapnative.com 属于已知广告 /移动广告网络（TapNative）域名，建议纳入屏蔽规则  
-DOMAIN‑SUFFIX,targeting.vdo.ai 属于 vdo.ai 广告 /视频 /广告平台子域，风险较高，建议屏蔽  
-DOMAIN‑SUFFIX,targetspot.com 属于已知广告 /广告网络 (TargetSpot) 域名，建议纳入屏蔽规则  
+DOMAIN‑SUFFIX,svrgcqgtpe.com # 垃圾广告域名；已被 AdGuard / AdList 列为广告过滤规则背景域名  
+DOMAIN‑SUFFIX,svrlejjh.com # 垃圾广告域名；已出现在 EasyList 过滤规则中作为广告域名  
+DOMAIN‑SUFFIX,svstfplolhlll.website # 垃圾广告类域名；背景不明但域名结构极其异常，建议屏蔽  
+DOMAIN‑SUFFIX,svswyokrievoe.space # 垃圾广告/潜在劫持域名；被列入 AdGuard 屏蔽列表  
+DOMAIN‑SUFFIX,svtefnjwxtoto.site # 垃圾广告域名；与上述同类高频垃圾域名模式一致  
+DOMAIN‑SUFFIX,svyksa.info # 垃圾广告域名；已被列入 AdGuard 列表作为广告域名   
+DOMAIN‑SUFFIX,switchadhub.com # 已有黑名单 / 恶意行为报告
+DOMAIN‑SUFFIX,taboola.com # 属于 Taboola 广告平台域名，明确为广告系统域名，建议纳入规则屏蔽  
+DOMAIN‑SUFFIX,tacoda.net  # 于已知广告 /用户行为跟踪 /广告技术域名，建议纳入广告屏蔽规则  
+DOMAIN‑SUFFIX,tapjoyads.com # 属于已知广告平台 /广告系统域名 (Tapjoy) ，建议纳入广告屏蔽规则  
+DOMAIN‑SUFFIX,taplingnoonlit.click # 未见公开情报；“.click” + 组合词，建议屏蔽  
+DOMAIN‑SUFFIX,tapnative.com # 属于已知广告 /移动广告网络（TapNative）域名，建议纳入屏蔽规则  
+DOMAIN‑SUFFIX,targeting.vdo.ai # 属于 vdo.ai 广告 /视频 /广告平台子域，风险较高，建议屏蔽  
+DOMAIN‑SUFFIX,targetspot.com # 属于已知广告 /广告网络 (TargetSpot) 域名，建议纳入屏蔽规则  
 DOMAIN-SUFFIX,tatrck.com  # 可疑跟踪域名，建议屏蔽  
 DOMAIN-SUFFIX,tattepush.com  # 含 “push” 可能用于通知/推送广告，建议屏蔽  
 DOMAIN-SUFFIX,tattered-sale.com  # 含 “sale” 可能用于促销广告，建议屏蔽  
