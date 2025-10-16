@@ -1,0 +1,890 @@
+# » Adult_Block.list（成人阻止规则集）
+# - 分类：成人内容 / 成人广告 / NSFW 域名
+# - 来源：社区规则整理 / 实测抓包 / 自定义收集
+# - 特征：涵盖成人网站、成人广告服务、NSFW 内容域名
+# - 用途：本规则集用于拦截成人相关域名，禁止用于任何非法用途
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-10-16
+
+# > 成人相关域名
+DOMAIN-SUFFIX,69games.xxx # 成人 / 游戏广告域名,广告性质明确  
+DOMAIN-SUFFIX,69v.club # 成人 / 广告跳转域名 
+DOMAIN-SUFFIX,777av.cc # 成人内容广告跳转域名  
+DOMAIN-SUFFIX,8muses.com # 成人内容站点,含大量第三方广告追踪代码  
+DOMAIN-SUFFIX,9japride.com # 涉及成人与博彩推广页面,广告用途明确  
+DOMAIN-SUFFIX,a.1film.to # 成人平台广告调用接口域名  
+DOMAIN-SUFFIX,a.shemale99.com # 成人内容域名,含广告 / 跳转行为
+DOMAIN-SUFFIX,a.suptube.com # 成人视频站前缀子站,用于广告 / 内容分发
+DOMAIN-SUFFIX,a.teencfnm.com # 成人 / 跳转广告域名
+DOMAIN-SUFFIX,a.xvidxxx.com # 成人视频网站子域,含广告与视频分发
+DOMAIN-SUFFIX,aa.fapnado.xxx # 成人广告 / 内容平台域名
+DOMAIN-SUFFIX,ab.fapnado.xxx # 成人内容域名,含广告 / 引流风险 
+DOMAIN-SUFFIX,absoluporn.com # 成人广告 / 色情内容域名,已在 URLQuery 报告列出风险 
+DOMAIN-SUFFIX,abusedbabysitters.com # 成人 / 色情广告跳转域名  
+DOMAIN-SUFFIX,aceporntube.com # 明确成人内容平台域名,存在大量广告跳转行为  
+DOMAIN-SUFFIX,acmexxx.com # 含 “xxx” 暗示成人 / 广告域名  
+DOMAIN-SUFFIX,acrobaticcouple.com # 成人内容疑似诱导域名,可能用于广告重定向  
+DOMAIN-SUFFIX,ad.play-lust.com # 成人广告展示域名  
+DOMAIN-SUFFIX,ad69.com # 广告 / 成人推广域名  
+DOMAIN-SUFFIX,ads.sexier.com # 成人广告平台域名  
+DOMAIN-SUFFIX,adsexo.com # 成人广告 / 跳转服务域名  
+DOMAIN-SUFFIX,adsexse.com # 成人广告 / 跳转用途域名  
+DOMAIN-SUFFIX,adspyglass.com # 成人 / 广告监控网络域名 
+DOMAIN-SUFFIX,adultlinkexchange.com # 成人广告 / 链接交换平台  
+DOMAIN-SUFFIX,adultmoviegroup.com # 成人内容网站,含广告 / 视频分发行为  
+DOMAIN-SUFFIX,adult-sex-games.com # 成人内容广告域名  
+DOMAIN-SUFFIX,adult.xyz # 成人广告 / 内容平台域名  
+DOMAIN-SUFFIX,adult3dcomics.com # 成人漫画广告域名  
+DOMAIN-SUFFIX,adultadvertising.net # 成人广告网络域名  
+DOMAIN-SUFFIX,adultadworld.com # 成人广告平台域名  
+DOMAIN-SUFFIX,adultasianporn.com # 成人内容 / 广告域名  
+DOMAIN-SUFFIX,adultcamchatfree.com # 成人直播 / 广告域名  
+DOMAIN-SUFFIX,adultcamfree.com # 成人直播 / 广告域名  
+DOMAIN-SUFFIX,adultcamliveweb.com # 成人直播 / 广告域名  
+DOMAIN-SUFFIX,adultfilmdatabase.com # 成人内容 / 广告域名  
+DOMAIN-SUFFIX,adultforce.com # 成人广告 / 跳转域名  
+DOMAIN-SUFFIX,adultfriendfinder.com # 成人社交 / 广告域名  
+DOMAIN-SUFFIX,adultgameexchange.com # 成人游戏 / 广告域名  
+DOMAIN-SUFFIX,adultsjuniorfling.com # 成人交友 / 广告推广站点  
+DOMAIN-SUFFIX,adxxx.biz # 广告 / 成人广告平台域名  
+DOMAIN-SUFFIX,affiliates.thrixxx.com # 成人 / 色情联盟平台域名 
+DOMAIN-SUFFIX,agedbitch.com # 成人广告用途  
+DOMAIN-SUFFIX,ahqpqagt.gay # 非主流顶级域,含广告或成人内容可能性高  
+DOMAIN-SUFFIX,aigeersoagay.net # 包含 “gay” 等成人关键词,高风险广告关联  
+DOMAIN-SUFFIX,alaska.xhamster.com # 成人内容域名,含广告与跳转性质
+DOMAIN-SUFFIX,alaska.xhamster.desi # 同上,成人站点域名,具广告 / 跳转性质
+DOMAIN-SUFFIX,alaska.xhamster2.com # 成人站点变种域名,广告 / 内容跳转性质
+DOMAIN-SUFFIX,alaska.xhamster3.com # 成人变体域名,具广告 / 跳转性质
+DOMAIN-SUFFIX,allpornovids.com # 成人视频广告聚合域名  
+DOMAIN-SUFFIX,almostextrudingmanhood.com # 含成人指向词,可能用于广告跳转  
+DOMAIN-SUFFIX,amateur.cash # 成人 / 色情广告用域名（确认广告）  
+DOMAIN-SUFFIX,amateur.tv # 成人内容域名,常用于广告推广  
+DOMAIN-SUFFIX,amateurcouplewebcam.com # 成人广告平台域名  
+DOMAIN-SUFFIX,amateurhub.cam # 成人广告 / 摄像头平台域名  
+DOMAIN-SUFFIX,amateurporn.net # 成人色情广告主域名  
+DOMAIN-SUFFIX,amazingblackened.com # 成人广告 / 黑暗推广内容域名 
+DOMAIN-SUFFIX,anacams.com # “cams” 表示摄像 / 直播,可能含成人 / 推广用途   
+DOMAIN-SUFFIX,analdin.xxx # 成人内容域名,含广告 / 推广用途  
+DOMAIN-SUFFIX,analsexstars.com # 成人内容 + 广告 / 推广性质  
+DOMAIN-SUFFIX,anyporn.com # 成人内容域名,广告 / 跳转属性明显  
+DOMAIN-SUFFIX,anysex.com # 成人内容站点域名,强广告 / 跳转可能  
+DOMAIN-SUFFIX,anytimespurt.com # 成人 / 跳转广告性质域名  
+DOMAIN-SUFFIX,api.adultdeepfakes.cam # 成人 + 深度伪造,广告 / 色情 跳转用途几乎可确认  
+DOMAIN-SUFFIX,apu.hentaibox.xyz # “hentai” 术语可能关联成人广告 / 内容
+DOMAIN-SUFFIX,ar.429men.com # “429men” 含成人站点特征,可能用于广告跳转  
+DOMAIN-SUFFIX,ar.4wank.com # wank 关键词指成人 / 广告性质,确认广告用途  
+DOMAIN-SUFFIX,ar.fapnow.xxx # 成人广告域名,确认广告用途  
+DOMAIN-SUFFIX,ar.lesbianbliss.com # 成人 / 情感广告域名,确认广告用途  
+DOMAIN-SUFFIX,ar.thepornstar.com # 成人内容域名,含广告营销 / 情色推广  
+DOMAIN-SUFFIX,arrestjav182.fun # JAV / 成人关键词域名,广告 / 色情跳转可能 
+DOMAIN-SUFFIX,as.hobby.porn # 成人内容网站主站域名 
+DOMAIN-SUFFIX,asg.bhabhiporn.pro # 成人广告 / 视频域名 (确定广告)  
+DOMAIN-SUFFIX,asg.faperoni.com # 成人内容域名,可能含广告推广  
+DOMAIN-SUFFIX,asg.pornvids.fr # 成人视频网站域名 (确定广告)  
+DOMAIN-SUFFIX,asiafriendfinder.com # 成人 / 交友 / 约会平台,存在付费 / 广告推广逻辑  
+DOMAIN-SUFFIX,asianbutterflies.com # 成人 / 交友 / 模特内容站点,可能含广告推广  
+DOMAIN-SUFFIX,asiandolls.co.uk # 成人 / 模型 / 模特站点,广告 / 推广用途可能性高  
+DOMAIN-SUFFIX,asiangfsex.com # 种类为成人内容域,广告 / 推广用途明确  
+DOMAIN-SUFFIX,atube.xxx # “tube + xxx” 结合,可能用于成人广告 / 内容
+DOMAIN-SUFFIX,av.sharktube.net # 视频 / 成人内容分发站点,含广告组件  
+DOMAIN-SUFFIX,avocams.com # 与 “cams” 组合典型成人 / 摄像头诱导形式域名,确认广告用途  
+DOMAIN-SUFFIX,avorgy3431.fun # 含 “orgy” 等敏感词 + 数字,广告 / 成人倾向域名,确认广告用途  
+DOMAIN-SUFFIX,avouerosiest.help # 可疑成人 / 视频跳转域名  
+DOMAIN-SUFFIX,awaitinggirl.net # 成人 / 媒体跳转可能性强 
+DOMAIN-SUFFIX,awestatic.com # 出现在成人 / 冷门站点引用记录,存在素材托管用途  
+DOMAIN-SUFFIX,awokenerect.help # 含敏感词,“erect” 字段很可疑,可能成人／广告用途  
+DOMAIN-SUFFIX,b.seksohub.com # 成人 / 广告站点名称,广告用途明显  
+DOMAIN-SUFFIX,babepedia.com # 成人 / 色情类站点域名,含广告展示与资源调用
+DOMAIN-SUFFIX,babes-mansion.s3.amazonaws.com # 托管在 AWS S3 的成人内容资源,具广告 / 内容分发性质
+DOMAIN-SUFFIX,babesandstars.com # 成人 / 模特类站点域名,广告成分明显
+DOMAIN-SUFFIX,babeshows.co.uk # 成人视频 / 表演类站点域名,涉及广告分发
+DOMAIN-SUFFIX,babesinporn.com # 成人内容平台域名,广告 / 跳转行为明确
+DOMAIN-SUFFIX,babesmachine.com # 成人 / 模特站点,广告性质明显
+DOMAIN-SUFFIX,babesroulette.com # 成人内容 / 社交 / 视频跳转域名
+DOMAIN-SUFFIX,banners.nostringsattached.com # 成人交友 Banner 接口  
+DOMAIN-SUFFIX,banners.fuckbookhookups.com # 成人广告 Banner 接口 
+DOMAIN-SUFFIX,banners.cams.com # 成人直播平台 Banner / 广告接口域名  
+DOMAIN-SUFFIX,baseporno.com # 已被多个广告 / 内容列表收录,广告 / 成人内容平台域名
+DOMAIN-SUFFIX,belamicash.com # 属成人联盟推广平台 BelAmiCash,确认广告用途  
+DOMAIN-SUFFIX,benaughty.com # 成人交友平台,含广告与付费内容  
+DOMAIN-SUFFIX,bend-me-over.com # 成人诱导域名,广告 / 跳转风险高  
+DOMAIN-SUFFIX,best-girls-around.com # 成人 / 诱导类广告域名
+DOMAIN-SUFFIX,best4fuck.com # 成人 / 低俗广告域名
+DOMAIN-SUFFIX,bestfuckapps.com # 成人广告 / 应用推广域名
+DOMAIN-SUFFIX,bestgirlsjourneys.com # 成人 / 广告诱导域名
+DOMAIN-SUFFIX,between-legs.com # 成人 / 广告关联域名  
+DOMAIN-SUFFIX,beyourxfriend.com # 成人内容 / 推广性质域名  
+DOMAIN-SUFFIX,bigbootymania.com # 成人 / 娱乐推广域名,广告用途可能  
+DOMAIN-SUFFIX,bigcock.one # 成人 / 色情广告域名  
+DOMAIN-SUFFIX,bigdick.tube # 成人 / 色情广告域名  
+DOMAIN-SUFFIX,bigtitsgallery.net # 成人内容站点,广告 / 跳转行为高度可能
+DOMAIN-SUFFIX,bigtitslust.com # 成人广告站点,含强广告属性
+DOMAIN-SUFFIX,blackedsubjected.com # 成人 / 推广广告域名  
+DOMAIN-SUFFIX,blackpics.net # 成人 / 图片内容平台域名,有广告性质  
+DOMAIN-SUFFIX,blacksonblondes.com # 成人 / 广告站点域名  
+DOMAIN-SUFFIX,bokepindo13.name # 成人类域名,用于色情广告 / 内容传播  
+DOMAIN-SUFFIX,bongacams.com # 成人直播平台,含广告 / 跳转行为  
+DOMAIN-SUFFIX,bongacams7.com # 成人平台跳转域名  
+DOMAIN-SUFFIX,bongacams8.com # 成人 / 跳转用途域名  
+DOMAIN-SUFFIX,bongacash.com # 与成人 / 推广 / 金融诱导相关域名  
+DOMAIN-SUFFIX,boobausauhipsa.net # 可疑成人 / 推广域名  
+DOMAIN-SUFFIX,boobbounds.com # 成人 / 跳转广告用途域名 
+DOMAIN-SUFFIX,bookofsex.com # 成人广告 / 色情跳转站点
+DOMAIN-SUFFIX,bootyheroes.com # 成人 / 游戏类广告域名  
+DOMAIN-SUFFIX,borrowjavgg124.fun # 包含成人 / “jav” 关键词,广告 / 色情跳转可能
+DOMAIN-SUFFIX,br.fling.com # 成人社交平台下属广告 / 推广子域名    
+DOMAIN-SUFFIX,bravotube.net # 成人 / 广告视频平台域名  
+DOMAIN-SUFFIX,brazzers.com # 成人内容平台,含广告 / 付费订阅性质  
+DOMAIN-SUFFIX,brick.xhamster.com # 属于 xhamster 家族域名,含成人内容 / 广告组件  
+DOMAIN-SUFFIX,bunnylust.com # 成人 / 跳转广告域名 
+DOMAIN-SUFFIX,bursa.conxxx.pro # “conxxx”属色情广告域名特征,明确用于成人广告跳转 
+DOMAIN-SUFFIX,busterry.com # 可疑成人内容广告域名,含诱导点击记录   
+DOMAIN-SUFFIX,bustlerloins.com # 可疑成人内容广告中继域名  
+DOMAIN-SUFFIX,byxxxporn.com # 成人广告平台主域名,包含色情内容推广  
+DOMAIN-SUFFIX,ca.fapnow.xxx # FapNow 成人平台广告入口域名  
+DOMAIN-SUFFIX,ca.lesbianbliss.com # LesbianBliss 成人广告域,含跟踪与推广组件  
+DOMAIN-SUFFIX,cam-lolita.net # 含成人广告内容,存在重定向行为  
+DOMAIN-SUFFIX,cam-maus.info # 成人广告追踪节点,存在跨域跳转记录  
+DOMAIN-SUFFIX,cam4.com # 成人直播平台主域名,包含广告内容  
+DOMAIN-SUFFIX,camads.net # 广告联盟域名,用于视频与成人广告分发  
+DOMAIN-SUFFIX,cambaddies.com # 成人直播平台,包含大量广告跳转与追踪脚本  
+DOMAIN-SUFFIX,cambay.tv # 成人内容直播网站,嵌入广告追踪组件 
+DOMAIN-SUFFIX,camhub.cc # 成人内容集中平台,内嵌广告与第三方追踪服务 
+DOMAIN-SUFFIX,camonster.com # 成人直播与视频聚合站点,内嵌追踪与广告跳转接口   
+DOMAIN-SUFFIX,camplacecash.com # CamPlace 成人网站联盟推广域名  
+DOMAIN-SUFFIX,cams.com # 成人直播网站主域名,包含付费广告推广内容  
+DOMAIN-SUFFIX,cams.enjoy.be # 成人内容跳转子域,存在广告追踪功能  
+DOMAIN-SUFFIX,cams.gratis # 成人广告联盟域名,用于推广站间跳转  
+DOMAIN-SUFFIX,cams.imgtaxi.com # ImgTaxi 广告联盟中继域,用于成人流量转发  
+DOMAIN-SUFFIX,camsaim.com # 成人广告平台,用于广告重定向与转化统计  
+DOMAIN-SUFFIX,camschat.net # 成人视频广告与联盟追踪域名  
+DOMAIN-SUFFIX,camsense.com # 摄像头广告接口域名,存在成人推广内容  
+DOMAIN-SUFFIX,camshq.info # 成人广告内容聚合域名  
+DOMAIN-SUFFIX,camsitecash.com # 成人站点联盟推广分成域名  
+DOMAIN-SUFFIX,camsoda.com # 成人直播网站主域名,含广告追踪模块  
+DOMAIN-SUFFIX,camspacelive.com # 成人直播联盟推广域名  
+DOMAIN-SUFFIX,camvideos.tv # 成人视频广告聚合域名  
+DOMAIN-SUFFIX,camzap.com # 成人直播平台域名,存在广告与跟踪行为 
+DOMAIN-SUFFIX,cash.femjoy.com # 成人站点 Femjoy 的广告推广子域  
+DOMAIN-SUFFIX,cdn.sphinxtube.com # SphinxTube 视频平台广告 CDN,用于成人广告视频资源加载 
+DOMAIN-SUFFIX,cdn.throatbulge.com # 成人内容站点广告资源加载域名,含强制跳转行为 
+DOMAIN-SUFFIX,cdn3.hentaihand.com # 成人广告平台 hentaihand 下属 CDN,用于图像与脚本广告加载 
+DOMAIN-SUFFIX,cdn5.cartoonporn.to # 成人内容分发节点,广告资源加载使用  
+DOMAIN-SUFFIX,cdn83753766.ahacdn.me # ahacdn 系伪 CDN 子域,投放行为涉及成人及赌博广告  
+DOMAIN-SUFFIX,cdnkimg.com # 与成人广告内容关联,疑似色情广告内容缓存  
+DOMAIN-SUFFIX,changejav128.fun # 含“jav”关键词,为成人视频站跳转入口,广告用途  
+DOMAIN-SUFFIX,chaturbate.com # 成人直播平台,存在大量广告与追踪行为  
+DOMAIN-SUFFIX,checkitoutxx.com # 含露骨暗示的可疑域名,存在成人广告行为  
+DOMAIN-SUFFIX,cheerpantyhose.com # 成人内容广告域名,含弹窗与重定向行为  
+DOMAIN-SUFFIX,cheesydrinks.com # 含成人及博彩类广告跳转,确认为广告域名  
+DOMAIN-SUFFIX,cherrynudes.com # 成人内容平台域名,涉及裸露与色情广告行为  
+DOMAIN-SUFFIX,chicks4date.com # 明确成人广告平台域名,用于约会诱导类广告  
+DOMAIN-SUFFIX,chikiporn.com # 明确色情内容广告域名,归属成人广告类封锁范围  
+DOMAIN-SUFFIX,cityofsin3d.com # 成人内容平台域名,含追踪与重定向广告行为  
+DOMAIN-SUFFIX,clickadilla.com # 成人广告与推送联盟主域  
+DOMAIN-SUFFIX,clips4sale.com # 成人内容平台,含大量广告与跳转追踪脚本  
+DOMAIN-SUFFIX,cloud.hentai-moon.com # 成人内容站广告分发子域,含跟踪脚本行为 
+DOMAIN-SUFFIX,coedmediagroup.com # 成人内容广告联盟主域名,存在广告追踪行为
+DOMAIN-SUFFIX,come-get-s0me.com # 含成人广告重定向记录,确认广告用途  
+DOMAIN-SUFFIX,comedyjav128.fun # 含成人视频内容及广告脚本加载行为,确定广告用途  
+DOMAIN-SUFFIX,comprehensive3x.fun # 可疑.fun后缀成人内容跳转域名,存在广告劫持历史  
+DOMAIN-SUFFIX,cooch.tv # 成人广告与流量导向域名 
+DOMAIN-SUFFIX,cosshencoital.com # 带 “coital” 暗色情或成人内容倾向  
+DOMAIN-SUFFIX,coursejavgg124.fun # 含 “jav” 关键字,疑似成人内容广告用途  
+DOMAIN-SUFFIX,creative.141live.com # 成人直播站点常见广告子域名,行为特征明显  
+DOMAIN-SUFFIX,creative.camonade.com # 成人 / Cams 平台广告域名,具跳转与素材加载用途  
+DOMAIN-SUFFIX,creative.camsplanetlive.com # 成人直播广告跳转 / 素材分发域名  
+DOMAIN-SUFFIX,creative.favy.cam # 成人广告 / 跳转用途域名  
+DOMAIN-SUFFIX,creative.imagetwistcams.com # 成人直播 / 广告跳转服务域名  
+DOMAIN-SUFFIX,creative.javhdporn.live # 明确为成人广告 / 跳转域名    
+DOMAIN-SUFFIX,creative.live.javdock.com # 成人直播 / 广告中转域名  
+DOMAIN-SUFFIX,creative.live.javmix.tv # 成人 / 跳转广告域名  
+DOMAIN-SUFFIX,creative.live.missav.com # 成人 / 跳转广告用途明显  
+DOMAIN-SUFFIX,creative.live.tktube.com # 成人直播广告跳转域名  
+DOMAIN-SUFFIX,creative.live7mm.tv # 成人 / 直播广告跳转域名  
+DOMAIN-SUFFIX,creative.myasian.live # 成人 / 直播广告跳转域名  
+DOMAIN-SUFFIX,creative.myavlive.com # 成人直播广告 / 跳转域名  
+DOMAIN-SUFFIX,creative.nangilive.com # 成人 / 广告跳转域名  
+DOMAIN-SUFFIX,creative.nudelive.store # 明显为成人广告 / 跳转用途  
+DOMAIN-SUFFIX,creative.ohmycams.com # 成人直播 / 广告跳转域名   
+DOMAIN-SUFFIX,creative.thefaplive.com # 成人广告 / 跳转域名
+DOMAIN-SUFFIX,creative.upskirtlive.com # 成人 / 广告跳转域名  
+DOMAIN-SUFFIX,creative.usasexcams.com # 成人广告 / 跳转域名  
+DOMAIN-SUFFIX,creative.yesporn.cam # 成人广告 / 跳转域名 
+DOMAIN-SUFFIX,creatives.livejasmin.com # 成人 / 广告域名,多个广告规则列表包含    
+DOMAIN-SUFFIX,creepgrandpa.com # 带有“creep”特征域名,可能用于成人广告  
+DOMAIN-SUFFIX,crmapt.livejasmin.com # 成人流量 / 重定向接口域名  
+DOMAIN-SUFFIX,crmpt.livejasmin.com # 成人流量 / 重定向接口域名  
+DOMAIN-SUFFIX,crmt.livejasmin.com # 成人流量 / 跳转接口域名 
+DOMAIN-SUFFIX,crossdresserhub.com # 成人 / 社区类域名,广告性质可能性存在
+DOMAIN-SUFFIX,crpdt.livejasmin.com # 子域名隶属于成人直播平台 livejasmin.com,具有推广 / 嵌入广告可能 
+DOMAIN-SUFFIX,crumpet.xxxpornhd.pro # 成人广告 / 淫秽跳转域名  
+DOMAIN-SUFFIX,cuckoldland.com # 成人内容平台,用于投放跳转类广告与跟踪脚本
+DOMAIN-SUFFIX,cuddlywomanrl.com # 成人擦边主题站点,存在广告脚本植入,建议纳入封锁
+DOMAIN-SUFFIX,cumlouder.com # 成人内容广告平台,含弹窗广告与追踪脚本
+DOMAIN-SUFFIX,cuntlick.net # 成人内容站点,含第三方广告及追踪组件
+DOMAIN-SUFFIX,d.seksohub.com # 成人广告平台,含重定向脚本与追踪代码,用于色情类广告投放
+DOMAIN-SUFFIX,dads-banging-teens.com # 色情广告平台,用于成人广告投放与跳转脚本
+DOMAIN-SUFFIX,dailyporn.club # 成人广告聚合站点,含跳转行为与追踪脚本
+DOMAIN-SUFFIX,daiporno.com # 成人广告跳转页,存在可疑脚本与重定向链
+DOMAIN-SUFFIX,darknessporn.com # 明确成人广告平台域名,涉及视频内容与引流接口
+DOMAIN-SUFFIX,date-4-fuck.com # 成人广告平台域名,用于约会类内容推广
+DOMAIN-SUFFIX,date-for-more.com # 成人广告跳转域名,常用于诱导注册行为
+DOMAIN-SUFFIX,date-till-late.us # 成人交友广告平台,存在追踪与跳转行为
+DOMAIN-SUFFIX,date2024.com # 成人广告主域名,用于注册引导与跳转
+DOMAIN-SUFFIX,date4sex.pro # 明确成人广告域名,带有追踪与行为记录
+DOMAIN-SUFFIX,dateguys.online # 交友引流平台广告域名,用于跳转至成人速配类站点
+DOMAIN-SUFFIX,datepleasure.com # 成人交友网站广告入口,用于吸引流量注册行为
+DOMAIN-SUFFIX,dateskeitai.com # 针对日语地区的成人广告域名,用于速配广告传播
+DOMAIN-SUFFIX,datesnsluts.com # 成人内容广告域名,包含交友诱导及内容跳转行为
+DOMAIN-SUFFIX,dating-amour-club.com # 成人交友服务广告域名,含表单采集与推送脚本
+DOMAIN-SUFFIX,dating-masters-haven.com # 成人交友社区广告域名,用于虚假社交引导注册
+DOMAIN-SUFFIX,datingcensored.com # 成人速配广告入口域名,含强制跳转与信息采集
+DOMAIN-SUFFIX,datinggold.com # 老牌成人交友站点,主打情色聊天与会员付费服务
+DOMAIN-SUFFIX,datoporn.com # 成人色情网站,提供视频与直播内容,存在追踪与第三方广告行为
+DOMAIN-SUFFIX,dedating.online # 成人约会类广告站点,存在诱导点击与推广内容
+DOMAIN-SUFFIX,deepxtube.com # 成人内容站点域名,含广告组件与追踪行为
+DOMAIN-SUFFIX,definebabe.com # 成人广告追踪域名,用于色情内容推广与重定向广告
+DOMAIN-SUFFIX,digitaldesire.com # 成人内容平台,含内嵌广告追踪与推荐模块
+DOMAIN-SUFFIX,dinejav11.fun # 疑似诱导类成人资源站点,有潜在广告分发行为,建议保留进一步监控
+DOMAIN-SUFFIX,dirty-messenger.com # 广告诱导平台,用于引导用户访问成人交友类站点
+DOMAIN-SUFFIX,dirty.games # 成人内容平台入口域名,含嵌入式广告追踪行为
+DOMAIN-SUFFIX,dirtyvideo.fun # 成人广告跳转页,用于加载视频内容及广告追踪代码
+DOMAIN-SUFFIX,dixyporn.com # 色情广告平台域名,涉及成人广告内容投放
+DOMAIN-SUFFIX,dl.4kporn.xxx # 成人内容域名,用于 porn 视频分发,已确认为成人内容／广告性质
+DOMAIN-SUFFIX,dl.crazyporn.xxx # 成人内容域名,用于色情视频资源分发或广告载体
+DOMAIN-SUFFIX,dl.hoes.tube # 成人内容域名,用于色情视频／流媒体内容分发
+DOMAIN-SUFFIX,dl.love4porn.com # 带 “porn” 关键词,强烈指向成人广告或内容站点
+DOMAIN-SUFFIX,doseofporn.com # 明显成人内容域名,用于色情／成人流量,建议屏蔽  
+DOMAIN-SUFFIX,doublepimp.com # 含不良词汇,可能用于不良/成人广告用途,建议屏蔽
+DOMAIN-SUFFIX,doublepimpssl.com # 同上,成人暗示 + SSL 拼写结构,可用于不良广告,建议屏蔽
+DOMAIN-SUFFIX,dporn.com # 成人内容站点,可能包含广告 / 跟踪组件,具有较高风险,建议严格拦截或分类处理 
+DOMAIN-SUFFIX,drtuber.com # 成人内容网站 / 非典型广告用途
+DOMAIN-SUFFIX,dscgirls.live # “girls.live” 类域名倾向于诱导 / 成人方向
+DOMAIN-SUFFIX,dukingdraon.com # 被报告为广告重定向 / 弹窗跳转域名（重定向至假扩展、调查、成人内容等）
+DOMAIN-SUFFIX,dyn.empflix.com # empflix 可能是成人流媒体站点,存在高风险广告 / 内容性质,建议拦截
+DOMAIN-SUFFIX,e.seksohub.com # 含敏感词 “sekso”,潜在成人 / 非法内容风险,建议封禁  
+DOMAIN-SUFFIX,easyjav12.fun # “jav” 暗示成人视频,建议拦截
+DOMAIN-SUFFIX,easyporn.xxx # 明确成人内容 + “porn”,广告 / 色情风险极高,建议拦截
+DOMAIN-SUFFIX,easyfag.com # 存在不良语义,潜入成人内容或侮辱性用途,建议拦截
+DOMAIN-SUFFIX,easyflirt-partners.biz # 明显为交友 / 成人服务类域名,广告性较强,建议拦截
+DOMAIN-SUFFIX,easyflirt.com # 交友 / 成人服务域名,广告可能性高,建议拦截
+DOMAIN-SUFFIX,easyfreesex.com # 明确成人＋免费性服务诱导,广告 / 欺诈风险极高,建议拦截
+DOMAIN-SUFFIX,engine.eroge.com # 属于子域 “eroge.com” 子站,可能为成人或游戏内容站点
+DOMAIN-SUFFIX,enginejav182.fun # 含“jav”关键词,多为成人内容/广告可能,具有高风险倾向,建议拦截  
+DOMAIN-SUFFIX,enporn.org # 成人内容域名,强烈为色情站点,建议直接阻断 
+DOMAIN-SUFFIX,enter.javhd.com # 被列为成人内容域名,可能有广告 / 色情重定向风险,建议屏蔽  
+DOMAIN-SUFFIX,ero-advertising.com # 明确广告平台域名,提供成人广告服务
+DOMAIN-SUFFIX,ero-cupid.com # 成人广告平台域名,用于引流至约会类站点
+DOMAIN-SUFFIX,ero-labs.com # 成人内容分发平台域名,含广告组件
+DOMAIN-SUFFIX,ero-match.site # 成人交友广告站点,存在重定向与追踪行为
+DOMAIN-SUFFIX,eroadvertising.com # 成人广告网络,投放广告追踪脚本
+DOMAIN-SUFFIX,eroge.com # 日本成人游戏分发平台,含广告与追踪脚本
+DOMAIN-SUFFIX,eroidere.com # 成人内容网站,含广告跳转与追踪行为
+DOMAIN-SUFFIX,erokuni.xyz # 成人向内容站点,存在广告调用记录
+DOMAIN-SUFFIX,eroterest.net # 成人广告站点,投放重定向与追踪脚本
+DOMAIN-SUFFIX,erotikdating.com # 成人交友广告平台,具有行为追踪功能
+DOMAIN-SUFFIX,erovation.com # 成人广告分发站点,具有明显广告特征
+DOMAIN-SUFFIX,erowall.com # 成人内容门户,含弹窗广告与追踪脚本
+DOMAIN-SUFFIX,escortdirectory.com # 明确广告用途,全球成人服务黄页与引流平台
+DOMAIN-SUFFIX,escortlist.pro # 明确广告用途,成人引流网站,用于推广约会服务
+DOMAIN-SUFFIX,exclusivepussy.com # 成人内容域名,涉及色情广告跳转,建议封锁
+DOMAIN-SUFFIX,exgirl.net # 明确成人内容投放站点,含弹窗与广告脚本,建议封锁
+DOMAIN-SUFFIX,fakings.com # 成人内容广告平台,用于付费内容营销与流量分发
+DOMAIN-SUFFIX,fanza.cc # 确认为 DMM 旗下成人平台（原 DMM.R18）,含追踪与广告组件
+DOMAIN-SUFFIX,fapality.com # 知名成人站点,含多重广告及追踪组件,建议封锁
+DOMAIN-SUFFIX,fapcandy.com # 成人色情平台,含跳转与追踪,建议封锁
+DOMAIN-SUFFIX,fapcat.com # 成人站点,含大量广告行为,建议封锁
+DOMAIN-SUFFIX,familyborn.com # 成人广告平台域名,用于引流与内容展示
+DOMAIN-SUFFIX,familyporner.com # 成人内容站点,含广告与追踪代码,建议封锁
+DOMAIN-SUFFIX,fansign.streamray.com # Streamray 成人广告平台子域名,涉及追踪和点击欺诈
+DOMAIN-SUFFIX,fantasti.cc # 成人人气站点变体域,含广告与重定向行为
+DOMAIN-SUFFIX,fastfuckgames.com # 色情游戏广告平台域名,包含成人内容推广行为,建议封锁
+DOMAIN-SUFFIX,feeds.videosz.com # 视频平台广告内容加载地址,用于成人内容追踪
+DOMAIN-SUFFIX,fetishshrine.com # 色情广告网站,用于推广成人内容订阅服务
+DOMAIN-SUFFIX,festaporno.com # 明确色情广告网站,用于成人内容分发与流量牟利
+DOMAIN-SUFFIX,festtube.com # 色情视频网站,含明确成人广告行为,流量重定向
+DOMAIN-SUFFIX,fleshcash.com # 成人广告联盟域名,用于色情站变现广告分发
+DOMAIN-SUFFIX,fleshlight.com # 成人用品品牌官网,包含广告组件与追踪脚本
+DOMAIN-SUFFIX,flingforyou.com # 确认为成人交友广告站点,用于色情推广与跳转行为
+DOMAIN-SUFFIX,flirt4free.com # 成人直播平台,含弹窗广告与追踪脚本
+DOMAIN-SUFFIX,flirting-place.com # 成人交友广告站,含行为追踪脚本
+DOMAIN-SUFFIX,free-datings.com # 成人交友广告平台,含多跳转追踪行为
+DOMAIN-SUFFIX,freedatinghookup.com # 成人交友平台广告域名,行为特征明确
+DOMAIN-SUFFIX,freelivesex.tv # 成人内容平台域名,存在追踪脚本与嵌入广告行为
+DOMAIN-SUFFIX,friendfinder.com # 成人广告平台主域名,常用于弹窗重定向及引流推广
+DOMAIN-SUFFIX,fundatingquest.fun # 疑似成人交友推广站,具备欺诈广告特征,建议加入广告规则集
+DOMAIN-SUFFIX,funkydaters.com # 成人交友广告域名,存在诱导跳转行为,建议加入广告规则集
+DOMAIN-SUFFIX,fuwn782kk.alphaporno.com # 成人内容子域名,具追踪风险,建议独立封锁
+DOMAIN-SUFFIX,galleries-pornstar.com # 色情内容站点,涉及成人广告内容
+DOMAIN-SUFFIX,gamcore.com # 成人游戏广告平台,含大量追踪与诱导行为
+DOMAIN-SUFFIX,gaming-adult.com # 成人游戏广告投放平台,含重定向与行为追踪模块
+DOMAIN-SUFFIX,gatejav12.fun # 含有成人内容指向关键词,存在色情广告风险,建议封锁
+DOMAIN-SUFFIX,gay.bingo # 成人娱乐网站,含第三方广告投放模块,建议加入广告规则集
+DOMAIN-SUFFIX,gay4porn.com # 成人广告站点,包含多种追踪与跳转行为,建议加入广告规则集
+DOMAIN-SUFFIX,gaygo.tv # 成人广告内容平台,包含行为追踪代码,建议加入广告规则集
+DOMAIN-SUFFIX,gaystream.pw # 成人内容广告平台域名,存在第三方追踪与跳转行为
+DOMAIN-SUFFIX,gayxperience.com # 成人向广告跳转站点,用于流量引导与嵌入式推广
+DOMAIN-SUFFIX,geobanner.adultfriendfinder.com # 成人广告平台区域定位域名,确认广告用途
+DOMAIN-SUFFIX,geobanner.alt.com # 成人广告平台区域定位域名,确认广告用途
+DOMAIN-SUFFIX,geobanner.blacksexmatch.com # 成人广告平台区域定位域名,确认广告用途
+DOMAIN-SUFFIX,geobanner.friendfinder.com # 成人广告平台区域定位域名,确认广告用途
+DOMAIN-SUFFIX,geobanner.fuckbookhookups.com # 成人广告平台区域定位域名,确认广告用途
+DOMAIN-SUFFIX,geobanner.hornywife.com # 成人广告平台区域定位域名,确认广告用途
+DOMAIN-SUFFIX,geobanner.sexfinder.com # 成人广告平台区域定位域名,确认广告用途
+DOMAIN-SUFFIX,gloporn.com # 在广告屏蔽列表中出现,具明显成人 / 广告用途,建议收录  
+DOMAIN-SUFFIX,go.pornav.net # 包含 “porn” 元素,极可能为成人广告 / 跳转用途  
+DOMAIN-SUFFIX,go.xhamsterlive.com # xhamster 是成人平台,go.xhamsterlive.com 很可能用于推广 / 跳转 
+DOMAIN-SUFFIX,go.redgifs.com # redgifs 是成人内容平台,go.redgifs.com 很可能用于广告 / 跳转  
+DOMAIN-SUFFIX,go.stripchat.beeg.com # 包含成人平台名称,极可能为广告 / 跳转用途  
+DOMAIN-SUFFIX,gpt.milftube.mobi # 确认为成人广告 / 成人内容域名,建议屏蔽  
+DOMAIN-SUFFIX,gpt.throatbulge.com # 确认为成人广告 / 色情诱导域名,建议屏蔽  
+DOMAIN-SUFFIX,gpt.tubetruck.com # 确认为诱导点击 / 成人相关广告域名,建议屏蔽  
+DOMAIN-SUFFIX,growjav11.fun # 明确为成人内容广告落地域名,建议封锁
+DOMAIN-SUFFIX,hanime.xxx # 成人内容站点,属于高风险类别（非典型广告）  
+DOMAIN-SUFFIX,harborjavgg124.fun # “jav” 关键词 + .fun 后缀,高风险成人 / 非法内容可能性   
+DOMAIN-SUFFIX,hdporn24.org # 明确色情/成人域名,用于成人内容推广或诱导,应加入屏蔽  
+DOMAIN-SUFFIX,hdpornfree.xxx # 明确成人 / 色情域名,应加入屏蔽  
+DOMAIN-SUFFIX,hdpornmax.com # 明确成人 / 色情域名,应加入屏蔽  
+DOMAIN-SUFFIX,hdpornphotos.com # 明确成人 / 色情域名,应加入屏蔽  
+DOMAIN-SUFFIX,hdpreview.com # 有可能为成人预览站点,具有诱导性质,应屏蔽  
+DOMAIN-SUFFIX,hdtube.porn # .porn 后缀,明显成人视频用途,应屏蔽  
+DOMAIN-SUFFIX,hellporno.com # 已知成人内容站点,有广告 / 流量变现用途  
+DOMAIN-SUFFIX,hentai2w.com # 成人内容域名,有色情／成人倾向,建议屏蔽  
+DOMAIN-SUFFIX,hentaianimezone.com # 成人内容域名,有色情倾向,建议屏蔽  
+DOMAIN-SUFFIX,hentaiasmr.moe # 成人内容域名,有色情倾向,建议屏蔽  
+DOMAIN-SUFFIX,hentaibaka.one # 成人内容域名,有强明显色情倾向,建议屏蔽  
+DOMAIN-SUFFIX,hentaiboner.com # 成人内容域名,有强明显色情倾向,建议屏蔽  
+DOMAIN-SUFFIX,hentaibooty.com # 成人内容域名,有强明显色情倾向,建议屏蔽  
+DOMAIN-SUFFIX,hentaidude.xxx # 成人内容域名,有强明显色情倾向,建议屏蔽  
+DOMAIN-SUFFIX,hentaifap.land # 成人内容域名,有强明显色情倾向,建议屏蔽  
+DOMAIN-SUFFIX,hentaifox.com # 成人内容域名,有色情倾向,建议屏蔽  
+DOMAIN-SUFFIX,hentaigold.net # 成人内容域名,有色情倾向,建议屏蔽  
+DOMAIN-SUFFIX,hentaihere.com # 成人内容域名,有色情倾向,建议屏蔽  
+DOMAIN-SUFFIX,hentaiheroes.com # 已知成人内容站点,常见广告 / 恶意跳转源,建议封禁  
+DOMAIN-SUFFIX,hentaikey.com # 成人类域名高风险,建议封禁  
+DOMAIN-SUFFIX,hentaini.com # 成人内容性质,建议封禁  
+DOMAIN-SUFFIX,hentaionline.net # 成人内容站点可能含恶意广告,建议封禁  
+DOMAIN-SUFFIX,hentairider.com # 成人内容域名,建议封禁  
+DOMAIN-SUFFIX,hentaiworld.tv # 成人流媒体站点高风险,建议封禁  
+DOMAIN-SUFFIX,hentaiworldtv.b-cdn.net # CDN 子域承载成人域名内容,建议封禁  
+DOMAIN-SUFFIX,heretopgirls.net # 含 “topgirls” 关键词,有成人诱导特征,建议封禁  
+DOMAIN-SUFFIX,herexxxtube.com # 明显成人视频网站域名,广告/恶意跳转高风险,建议封禁  
+DOMAIN-SUFFIX,hitprn.com # 域名带 “prn”（porn）含义,可能与成人内容、广告流量有关,建议拦截  
+DOMAIN-SUFFIX,hitslut.b-cdn.net # 含 “slut” 关键词,可能用于成人内容广告或素材分发,建议拦截  
+DOMAIN-SUFFIX,home-xxx-videos.com # 含 “xxx” 指向成人内容／色情视频用途,高风险,确认广告 / 成人内容
+DOMAIN-SUFFIX,homemade.xxx # .xxx 顶级域主要用于成人内容站点,确认为成人 / 色情用途,建议屏蔽
+DOMAIN-SUFFIX,homeprivatevids.com # 明示 “private vids” (私人视频) 含义偏成人内容,高风险,确认屏蔽
+DOMAIN-SUFFIX,honeywomenflirt.com # 含 “flirt” 有成人 / 诱导倾向,可能为广告用途,高风险,建议屏蔽
+DOMAIN-SUFFIX,hookjav12.fun # 确认为成人 / 色情内容域名（被列入广告 / 成人过滤规则）  
+DOMAIN-SUFFIX,horny.su # 潜在成人 / 色情站点,建议拦截  
+DOMAIN-SUFFIX,hornyjourney.com # 名称暗示成人 / 色情内容,建议拦截  
+DOMAIN-SUFFIX,hornymatches.com # 成人交友／付费诱导平台,多处用户反馈为欺诈或诱导付费行为  
+DOMAIN-SUFFIX,hosted.x-art.com # 成人艺术站点子域,可能含内容服务性质,建议检查用途  
+DOMAIN-SUFFIX,hot-sex-tube.com # 成人内容站点,用于色情视频推广,广告性质明确  
+DOMAIN-SUFFIX,hotadultvids.com # 成人视频网站域名,广告 / 内容推广用途明确  
+DOMAIN-SUFFIX,hotboysnearby.net # 成人/交友 / 地域暗示 “hot boys nearby”,高度可疑广告用途  
+DOMAIN-SUFFIX,hotgirlclub.com # 属于成人 / 视频流量站点,有广告变现倾向,建议拦截
+DOMAIN-SUFFIX,hotkinkyjo.xxx # 成人内容域名,广告 / 内容变现可能性高,建议拦截
+DOMAIN-SUFFIX,hotmovies.com # 成人 / 视频站点,广告变现倾向大,建议拦截
+DOMAIN-SUFFIX,hotmovs.com # 成人 / 视频站点变体名,广告或流量诱导可能,建议拦截
+DOMAIN-SUFFIX,hottest-girls-online.com # 明显诱导 / 成人类广告域名,建议拦截
+DOMAIN-SUFFIX,hqporn.su # 成人内容站点 / 色情服务域,存在高风险广告 / 内容行为  
+DOMAIN-SUFFIX,hqpornstream.com # 成人流媒体 / 色情内容站点,广告 / 推广风险高  
+DOMAIN-SUFFIX,iceporn.com # 含成人内容关键词,有高风险为广告/成人诱导,建议收录  
+DOMAIN-SUFFIX,icgirls.com # “girls” 关键词有成人/诱导可能性
+DOMAIN-SUFFIX,icyporno.com # 确认为成人 / XXX 内容域名,具有广告 / 不良内容分发风险  
+DOMAIN-SUFFIX,idolbucks.com # 确认为成人广告/联盟网络平台,用于付费推广与流量变现
+DOMAIN-SUFFIX,ifuckedyourgf.com # 域名带有敏感 / 成人诱导成分,极可能用于色情 / 诱导广告  
+DOMAIN-SUFFIX,ignore.hot-bbw-tube.com # 含 “bbw” 成人字样,可能为成人广告内容,建议屏蔽
+DOMAIN-SUFFIX,ihookup.com # 包含 “hookup” 字样,可能关联成人 / 牵线广告内容,建议屏蔽
+DOMAIN-SUFFIX,imgadult.com # 潜在成人内容 / 广告性质,建议屏蔽 
+DOMAIN-SUFFIX,imhentai.xxx # 成人内容站点,可能含广告,但无公开广告追踪身份,标记为“可疑色情 / 广告” 
+DOMAIN-SUFFIX,imperiohentai.com # 含 “hentai” 指向成人内容可能性高,应标注风险,建议屏蔽  
+DOMAIN-SUFFIX,io.fapnow.xxx # 色情站点后缀域名,用于成人内容广告或诱导,建议加入拦截
+DOMAIN-SUFFIX,ipornia.com # 成人 / 影视类域名,具有高风险广告性质,建议纳入拦截 
+DOMAIN-SUFFIX,istripper.com # 成人内容／付费秀平台,有明确商业性质服务,建议屏蔽  
+DOMAIN-SUFFIX,javacid.fun # 涉及成人内容暗示,具风险,建议封禁  
+DOMAIN-SUFFIX,javfor.tv # 涉及成人内容站点,建议封禁  
+DOMAIN-SUFFIX,javgenetic11.fun # 涉及成人内容暗示,具风险,建议封禁  
+DOMAIN-SUFFIX,javgg.eu # 域名含 “jav” （日本成人）,存在成人内容可能性,标记为成人域名  
+DOMAIN-SUFFIX,javgg.me # 同上,含 “jav” 指向成人内容,建议纳入成人过滤  
+DOMAIN-SUFFIX,javgulf.fun # 同样含 “jav” 关键词,可能用于成人内容,建议纳入过滤 
+DOMAIN-SUFFIX,javhd.com # 成人视频网站域名,有广告/重定向记录,建议过滤  
+DOMAIN-SUFFIX,javhub.net # 成人聚合站点可能性高,建议纳入过滤  
+DOMAIN-SUFFIX,javideo.net # 成人 / 视频类域名倾向,建议过滤  
+DOMAIN-SUFFIX,javlibrary.com # 成人影片库可能站点,建议过滤  
+DOMAIN-SUFFIX,javlicense11.fun # 含 “jav” + license,成人营销可能性高,建议过滤  
+DOMAIN-SUFFIX,javmanager11.fun # 同上,成人资源管理 / 推广用途可能,建议过滤  
+DOMAIN-SUFFIX,javmg.com # “jav” + mg,可能成人站点,建议过滤  
+DOMAIN-SUFFIX,javmost.com # 成人影片分享站点可能,建议过滤  
+DOMAIN-SUFFIX,javnine.fun # 含 “jav” + 数字,成人站点常见命名
+DOMAIN-SUFFIX,javpornclub.com # 明确含 “porn” 词汇,为成人内容域名
+DOMAIN-SUFFIX,javslon.com # 含 “jav” 词根,可能成人站点
+DOMAIN-SUFFIX,javynow.com # 含 “jav” + now,可能成人站点
+DOMAIN-SUFFIX,jizzberry.com # 含 “jizz” 关键词高度可疑,可能为成人内容或广告站点,建议封禁  
+DOMAIN-SUFFIX,jizzy.org # 含 “jizz” 变体形式,可疑成人内容站点,建议封禁  
+DOMAIN-SUFFIX,juicyads.com # 知名广告 / 成人广告网络域名,确认广告用途  
+DOMAIN-SUFFIX,justfullporn.net # 确认为色情 / 成人内容站点,具有高风险,应加入屏蔽规则  
+DOMAIN-SUFFIX,justjav11.fun # 确认可能为成人 / JAV 内容站,属于高风险类别,应加入屏蔽 
+DOMAIN-SUFFIX,kawai-jav.com # 涉及 “jav” 关键词,可能成人/诱导内容
+DOMAIN-SUFFIX,labeldollars.com # 确认为成人/白标推广平台,提供白标成人站点服务  
+DOMAIN-SUFFIX,lacessateens.com # 可能成人诱导 
+DOMAIN-SUFFIX,landing.candynetwork.ai # 可疑站点,有用户评价低、域名托管链路复杂,存在诱导、成人含义可能,建议拦截  
+DOMAIN-SUFFIX,landing1.brazzersnetwork.com # 含 “Brazzers” 成人品牌标识,高风险广告或成人内容重定向,建议拦截  
+DOMAIN-SUFFIX,larasub.conxxx.pro # 含 “conxxx” 暗示成人内容,建议拦截  
+DOMAIN-SUFFIX,leche69.com # 包含 “69” 数字倾向成人内容,可能存在诱导广告,建议屏蔽  
+DOMAIN-SUFFIX,letsporn.com # 含 “porn” 关键词,极可能色情 / 成人内容／广告用途,建议屏蔽  
+DOMAIN-SUFFIX,letstry69.xyz # 含 “69” 暗示成人内容,极可能成人广告用途,建议屏蔽  
+DOMAIN-SUFFIX,level.18huhu.com # 成人 / 娱乐站点  
+DOMAIN-SUFFIX,lifeporn.net # 高风险色情 / 成人内容域名,可能带广告或弹窗,建议封锁  
+DOMAIN-SUFFIX,livecam.com # 常见成人 / 视频直播域名
+DOMAIN-SUFFIX,livehotty.com # 性暗示站点域名,极可能用于成人广告或诱导内容,建议拦截  
+DOMAIN-SUFFIX,livejasmin.com # 成人直播／成人内容平台,已被列入广告与成人内容拦截列表,确认广告类  
+DOMAIN-SUFFIX,livejasmin.tv # livejasmin 的 TV 后缀变体,与 livejasmin 平台相关,确认广告 / 成人内容  
+DOMAIN-SUFFIX,liveprivates.com # 成人内容 / 私密直播暗示,可能用于广告或诱导,建议拦截 
+DOMAIN-SUFFIX,livesexasian.com # 明显成人内容域名,确认广告 / 成人推广用途  
+DOMAIN-SUFFIX,livesexbar.com # 明显成人内容域名,确认广告 / 成人推广用途  
+DOMAIN-SUFFIX,livexxx.me # “xxx” 明显指向成人内容,确认广告 / 成人用途  
+DOMAIN-SUFFIX,localsnaughty.com # 含 “naughty” 性暗示词,可能用于成人推广 / 广告用途,建议保留  
+DOMAIN-SUFFIX,locatejav182.fun # 含 “jav” 和数字,极可能为成人内容推广用途,建议保留  
+DOMAIN-SUFFIX,lovecam.com.br # “cam” 暗示摄像 / 成人内容
+DOMAIN-SUFFIX,lovense.com # 已有安全漏洞曝光,隐私/安全风险高,属于成人设备制造商
+DOMAIN-SUFFIX,makingnude.com # 用于成人 / 诱导广告
+DOMAIN-SUFFIX,manga1001.top # 成人/漫画类网站,通常含广告插入可能性高 
+DOMAIN-SUFFIX,manga18.me # 成人/漫画类网站,通常含广告插入可能性高  
+DOMAIN-SUFFIX,manga18fx.com # 成人/漫画类网站,通常含广告插入可能性高   
+DOMAIN-SUFFIX,manhwa18.cc # 与成人/漫画相关（“18”暗示成人内容）,可能有诱导广告风险  
+DOMAIN-SUFFIX,manysex.com # 涉及成人内容,“manysex” 表明可能为成人/色情站点,风险较高  
+DOMAIN-SUFFIX,manysex.tube # 明确为成人内容域名,广告/诱导风险高  
+DOMAIN-SUFFIX,marine.xhamster.com # 含 xhamster,可能为成人内容域名,属于风险域名  
+DOMAIN-SUFFIX,marine.xhamster.desi # 含 xhamster,可能为成人内容域名,属于风险域名  
+DOMAIN-SUFFIX,marine.xhamster2.com # 含 xhamster,可能为成人内容域名,属于风险域名  
+DOMAIN-SUFFIX,marine.xhamster3.com # 含 xhamster,可能为成人内容域名,属于风险域名  
+DOMAIN-SUFFIX,markswebcams.com # 含 “webcams” 关键词,可能为成人 / 视频监控相关风险  
+DOMAIN-SUFFIX,mature-chicks.com # 可能为成人内容站点,具潜在风险,建议屏蔽或进一步核查  
+DOMAIN-SUFFIX,maturesimages.com # 可能为成人内容 / 图片站点,具风险,建议屏蔽或进一步核查  
+DOMAIN-SUFFIX,matureworld.ws # 可能为成人站点,具风险,建议屏蔽或进一步核查  
+DOMAIN-SUFFIX,meetsexygirls.org # 确认为成人 / 交友推广域名,建议屏蔽  
+DOMAIN-SUFFIX,megatube.xxx # 成人 / 视频站性质明显,建议屏蔽  
+DOMAIN-SUFFIX,mildjav11.fun # 含 “jav” 关键词,可能为成人内容诱导站点
+DOMAIN-SUFFIX,mileporn.com # 包含 “porn”,极有可能为成人内容站点
+DOMAIN-SUFFIX,milffox.com # 含 “milf” 关键词,极有可能为成人诱导 / 内容站点
+DOMAIN-SUFFIX,milfnut.net # 含 “milf” 关键词,可能成人内容 / 诱导站点 
+DOMAIN-SUFFIX,milftube.mob # 含 “milf” + “tube”,极有可能为成人内容平台
+DOMAIN-SUFFIX,momentjav182.fun # 带 “jav182” 关键词,高风险为成人 / 视频内容用途,应默认屏蔽   
+DOMAIN-SUFFIX,momvids.com # 带 “vids” 关键词,可能为视频 / 成人 / 推广用途,建议屏蔽 
+DOMAIN-SUFFIX,mrporngeek.com # 名称含 “porn” 高风险成人内容域名 
+DOMAIN-SUFFIX,my-dirty-hobby.com # 成人娱乐站点域名,可能包含付费广告或色情广告
+DOMAIN-SUFFIX,myadultimpressions.com # “adult” + “impressions” 暗示成人广告投放用途  
+DOMAIN-SUFFIX,mydirtyhobby.com # 成人 / 兴趣站点名,可能含广告  
+DOMAIN-SUFFIX,mylust.com # 成人 / 情感类域名,可能带广告  
+DOMAIN-SUFFIX,mysexgames.com # 明显为成人 / 游戏广告内容域名,建议封禁  
+DOMAIN-SUFFIX,mysexjourney.com # 明显为成人 / 情趣性质域名,建议封禁  
+DOMAIN-SUFFIX,mysweethoneygirls.com # 明显为成人 / 诱导类内容域名,建议封禁  
+DOMAIN-SUFFIX,n.clips4sale.com # clips4sale 为成人/付费内容平台,可能包含广告联动,建议封禁  
+DOMAIN-SUFFIX,n.hnntube.com # 可能为视频 / 成人站点,建议封禁  
+DOMAIN-SUFFIX,nativexxx.com # 含成人暗示,可能为成人广告
+DOMAIN-SUFFIX,naughty-black.com # 含成人 / 暗示词 “naughty”,可能为成人广告内容 
+DOMAIN-SUFFIX,naughty-industry.pro # 含成人 / 行业词,可能为成人 / 色情广告用途
+DOMAIN-SUFFIX,naughtyblog.org # 可能成人内容 / 广告
+DOMAIN-SUFFIX,naughtydate.com # 含 “date”,可能为成人 / 约会广告用途
+DOMAIN-SUFFIX,net.sexstories69.com # 带 “sexstories” 字样,涉嫌成人内容推广,建议拦截  
+DOMAIN-SUFFIX,new.plus-eromanga.com # 含 “eromanga”（成人漫画）词汇,可能内容 / 成人推广用途,建议拦截  
+DOMAIN-SUFFIX,newads.bangbros.com # 名字含 “newads”,且属于成人网络平台 BangBros,确认广告用途  
+DOMAIN-SUFFIX,newdosug.eu # 含 “dosug”（俄语休闲暗示含义）,可能成人 / 内容推广,建议拦截  
+DOMAIN-SUFFIX,newnudecash.com # 含 “nude” 与 “cash”,可能成人 + 推广用途,建议拦截  
+DOMAIN-SUFFIX,nhentai.net # 成人内容域名
+DOMAIN-SUFFIX,nsfwalbum.com # 含 nsfw,可能与成人/广告相关,但无确切记录,标为可疑 
+DOMAIN-SUFFIX,nubileforward.com # “nubile forward” 含性暗示词汇,可能成人广告用途,但无确切记录,标为可疑  
+DOMAIN-SUFFIX,nubiles.net # 含 “nubiles” 成人词汇,可能为成人/广告域名,建议收录  
+DOMAIN-SUFFIX,nudapp.com # 含 “nud app” 可疑,可能成人 / 推广用途,但无公开记录,标为可疑  
+DOMAIN-SUFFIX,nude.hu # “nude” 关键词明确成人词汇,域名本身可能成人站点,建议收录  
+DOMAIN-SUFFIX,nudecorvees.com # 含 “nude” 前缀,可疑成人/广告用途,建议收录  
+DOMAIN-SUFFIX,nudedworld.com # 含 “nude” 前缀,可能成人/广告用途,建议收录  
+DOMAIN-SUFFIX,nudeghogukwhx.store # 含 nude 前缀 + store 后缀,极可能为成人/广告用途,建议收录  
+DOMAIN-SUFFIX,nudepatch.net # 含 “nude patch” 可能广告/成人用途,建议收录  
+DOMAIN-SUFFIX,nudesgirlsx.com # 含 nudes / girls 关键词,明显成人广告性质,建议收录  
+DOMAIN-SUFFIX,nudgesplityowza.com # 含 “nudges” 但不确定成人意图,标为可疑  
+DOMAIN-SUFFIX,nudiebutin.click # 含 “nudie” 成人暗示 + .click 后缀,极可能广告用途,建议收录  
+DOMAIN-SUFFIX,nudipedfavelas.cyou # 含 “nudi ped” 词根 + .cyou 后缀,极可能成人广告用途,建议收录 
+DOMAIN-SUFFIX,nutaku.net # “nutaku” 为知名成人 / 游戏门户域名,可能含广告/关联用途,建议收录 
+DOMAIN-SUFFIX,nylonsporno.com # 含 “porno” 成人词汇,明显成人广告性质,建议收录
+DOMAIN-SUFFIX,nylonhighlyculture.com # 含 “nylon” 关键词, 可能成人 / 材料内容, 无广告记录, 标为可疑  
+DOMAIN-SUFFIX,nylons-models.com # 含 “nylons” 词根, 可用于成人 / 模特广告, 标为可疑  
+DOMAIN-SUFFIX,nylons-porno.com # 含 “porno” 明确成人广告词汇,需要收录  
+DOMAIN-SUFFIX,onlineporno.fun # 明显成人内容 / 诱导性质,属于风险广告类别  
+DOMAIN-SUFFIX,openadultdirectory.com # 色情/成人导向目录站点,广告属性很强  
+DOMAIN-SUFFIX,pantyhosecool.com # 潜在成人内容 / 诱导域名,可能包含广告 or 成人推广用途  
+DOMAIN-SUFFIX,pantyhosepornstars.com # 明显成人 / 色情导向,确认广告 / 不良内容用途  
+DOMAIN-SUFFIX,pantyhoseposing.com # 成人内容导向域名,可能为推广用途  
+DOMAIN-SUFFIX,pantyhoseshow.com # 成人 / 模特展示性质域名,推广用途可能性高  
+DOMAIN-SUFFIX,pantyhoseteases.com # 成人 / 吸引性质域名,可能为广告用途  
+DOMAIN-SUFFIX,pimpandhost.com # 知名成人/图像托管服务,可能含广告或成人内容风险,建议屏蔽  
+DOMAIN-SUFFIX,pisshamster.com # 含 “piss”,可能成人内容 & 广告风险,建议屏蔽
+DOMAIN-SUFFIX,playgirl.com # 成人娱乐网站名
+DOMAIN-SUFFIX,plx.porndig.com # 关联成人内容平台子域,存在广告 / 内容倾向风险  
+DOMAIN-SUFFIX,porn-star.com # 含 “porn”,属于成人内容域名,应视为风险 / 过滤类别  
+DOMAIN-SUFFIX,porn300.com # 成人内容域名,应过滤  
+DOMAIN-SUFFIX,porn369.net # 成人内容域名,应过滤  
+DOMAIN-SUFFIX,porn99.net # 成人内容域名,应过滤  
+DOMAIN-SUFFIX,pornalin.com # 成人内容域名,应过滤  
+DOMAIN-SUFFIX,pornattitude.com # 成人内容域名,应过滤  
+DOMAIN-SUFFIX,pornconversions.com # 混合成人 + 转化广告用途域名,应过滤  
+DOMAIN-SUFFIX,porndeals.com # 成人广告交易域名,应过滤  
+DOMAIN-SUFFIX,porndoe.com # 成人内容域名,应过滤  
+DOMAIN-SUFFIX,porndroids.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,porndude.link # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornearn.com # 成人 + 盈利域名,应过滤  
+DOMAIN-SUFFIX,pornerbros.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornforrelax.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,porngals4.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,porngames.adult # 成人游戏域名,应过滤  
+DOMAIN-SUFFIX,porngames.tv # 成人游戏域名,应过滤  
+DOMAIN-SUFFIX,porngamespass.com # 成人游戏域名,应过滤  
+DOMAIN-SUFFIX,pornglee.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,porngo.tube # 成人域名,应过滤  
+DOMAIN-SUFFIX,porngray.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornhat.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornhb.me # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornicom.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornj.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornjam.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornjv.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornkings.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornktube.tv # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornleep.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornmix.org # 成人域名,应过滤  
+DOMAIN-SUFFIX,porno666.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornoegg.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornogramxxx.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornohans.net # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornoheat.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornoio.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornpapa.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornpics.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornpics.de # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornpoppy.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornrabbit.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornsex.rocks # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornstargold.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,porntrack.com # 成人 + 跟踪用途域名,应过滤  
+DOMAIN-SUFFIX,porntry.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornv.xxx # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornve.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornvideos.casa # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornxbox.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornxp.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornxp.net # 成人域名,应过滤  
+DOMAIN-SUFFIX,pornyhd.com # 成人域名,应过滤  
+DOMAIN-SUFFIX,port7.xhamster.com # 属于成人视频平台子域
+DOMAIN-SUFFIX,port7.xhamster.desi # 属于成人视频平台子域
+DOMAIN-SUFFIX,port7.xhamster2.com # 属于成人视频平台子域
+DOMAIN-SUFFIX,port7.xhamster3.com # 属于成人视频平台子域
+DOMAIN-SUFFIX,pretty-sluts-nearby.com # 成人
+DOMAIN-SUFFIX,proeroclips.pro # 含 “ero” 暗示成人内容倾向,建议封禁  
+DOMAIN-SUFFIX,projectjav.com # 成人内容
+DOMAIN-SUFFIX,promo.blackdatehookup.com # 含 “promo + hookup” 字样,可能为交友 / 成人推广,建议加入规则  
+DOMAIN-SUFFIX,promo.cams.com # 属于成人直播 / cams 平台,强广告推广用途,建议加入规则  
+DOMAIN-SUFFIX,public.porn.fr # 成人内容域名,可能用于成人广告 / 内容投放,建议纳入   
+DOMAIN-SUFFIX,puporn.com # 含 “porn” 词义,可能成人 / 广告内容用途,建议纳入 
+DOMAIN-SUFFIX,purp.sukaporn.com # 含 “porn” 子域 / 可能成人用途,建议纳入  
+DOMAIN-SUFFIX,pusscatgelose.life # 含敏感词汇,可能成人内容 / 广告用途  
+DOMAIN-SUFFIX,pussiesactives.shop # 含敏感词汇,可能成人 / 广告用途  
+DOMAIN-SUFFIX,pusslyoxalato.help # 含敏感词汇,可能为广告 / 成人用途  
+DOMAIN-SUFFIX,pussy-pics.net # 明显成人 / 图片站点性质,推荐屏蔽  
+DOMAIN-SUFFIX,pussycash.com # 名称暗示成人 / 变现用途,应纳入广告过滤  
+DOMAIN-SUFFIX,pussycatxx.com # 含成人词汇,可能为成人 / 广告用途  
+DOMAIN-SUFFIX,pussyeatingclub.com # 明显成人内容站点,应屏蔽  
+DOMAIN-SUFFIX,pussysaga.com # 含成人词汇,可能成人 / 广告用途  
+DOMAIN-SUFFIX,pussyspace.com # 含成人词汇,可能成人 / 广告用途  
+DOMAIN-SUFFIX,quadrinhoseroticos.net # 成人内容 / 广告辅助
+DOMAIN-SUFFIX,rabbitporno.com # 含“porno”敏感关键词,可能为成人／违规站点,建议屏蔽  
+DOMAIN-SUFFIX,rambo.xhamster.com # 属成人内容子域名,建议屏蔽  
+DOMAIN-SUFFIX,realgfporn.com # 包含 “porn”,为成人内容垃圾域名,属于高风险广告用途  
+DOMAIN-SUFFIX,realitykings.com # 含 “kings”,但为成人影视品牌名,风险较高应阻断  
+DOMAIN-SUFFIX,realromanceplace.com # 含 “romance” 字样,有成人 / 交友倾向,建议观察  
+DOMAIN-SUFFIX,redtube.com # 成人视频网站,含商业 / 广告变现用途,应拦截  
+DOMAIN-SUFFIX,redtube.fm # 成人 / 媒体站点变体,可能为跳转 / 副站,建议拦截  
+DOMAIN-SUFFIX,rockpoint.xhamster.com # 成人内容站点域名（xh 是 xhamster 关联）,应纳入屏蔽  
+DOMAIN-SUFFIX,rockpoint.xhamster.desi # 成人内容相关域名,应纳入屏蔽  
+DOMAIN-SUFFIX,rockpoint.xhamster2.com # 成人内容相关域名,应纳入屏蔽  
+DOMAIN-SUFFIX,rockpoint.xhamster3.com # 成人内容相关域名,应纳入屏蔽  
+DOMAIN-SUFFIX,rockpoint.xhamster42.desi # 成人内容相关域名,应纳入屏蔽 
+DOMAIN-SUFFIX,rotatejavgg124.fun # 名称含 “jav” & .fun 后缀,高风险成人或诱导用途,应纳入规则  
+DOMAIN-SUFFIX,rst.pornyhd.com # 含 “porn” 关键词,高风险成人内容导向,建议拦截   
+DOMAIN-SUFFIX,rtb-1.jizzberry.com # 含成人或低俗关键词,高风险,建议拦截  
+DOMAIN-SUFFIX,rtb-1.mylust.com # 含成人 / 欲望词汇,高风险域名,建议拦截  
+DOMAIN-SUFFIX,rule34.xxx # 成人内容域名,已知为色情 / 成人领域,建议屏蔽  
+DOMAIN-SUFFIX,rule34.xyz # 成人 / 色情相关域名,建议屏蔽  
+DOMAIN-SUFFIX,rule34hentai.net # 成人 / Hentai 相关域名,建议屏蔽 
+DOMAIN-SUFFIX,ruscams.com # 含 “cams” 字样,可能成人 / 摄像头用途,建议屏蔽  
+DOMAIN-SUFFIX,rusdosug.com # 含 “dosug”（俄语约炮 / 娱乐词汇）暗示成人内容,建议屏蔽   
+DOMAIN-SUFFIX,scatxxxporn.com # 已确认成人 / 不良内容域名,广告 / 色情诱导风险高  
+DOMAIN-SUFFIX,sdhentai.com # 已确认成人 / Hentai 内容域名
+DOMAIN-SUFFIX,s.everydayporn.co # 内容暗示色情方向,可能为成人内容 / 引流用途,建议阻断   
+DOMAIN-SUFFIX,ser.everydayporn.co # 含 “porn” 成人内容域名,高风险   
+DOMAIN-SUFFIX,serve.freeonlinegayporn.com # 含 porn 内容,成人网站类别,高风险 / 广告倾向  
+DOMAIN-SUFFIX,service.iwara.tv # ivara.tv 是成人 / 视频站点,可能用于广告 / 内容分发  
+DOMAIN-SUFFIX,sex-and-flirt.com # 成人 / 约会类站点,广告 / 成人内容倾向强  
+DOMAIN-SUFFIX,sex-chat.me # 成人聊天类域名,广告 / 推广倾向强  
+DOMAIN-SUFFIX,sex-techniques-and-positions.com # 成人内容域名,广告 / 推广性质强  
+DOMAIN-SUFFIX,sex3.com # 成人 / 性内容域名,广告 / 成人倾向绝对强  
+DOMAIN-SUFFIX,sexad.net # 含 ad + sex,成人广告站点,确认广告用途  
+DOMAIN-SUFFIX,sexbuggishbecome.info # 成人 / 性内容域名,广告 / 内容倾向强  
+DOMAIN-SUFFIX,sexcelebrity.net # 成人 / 名人性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexclic.com # 成人 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexcooldating.com # 成人 / 约会类域名,广告用途明显  
+DOMAIN-SUFFIX,sexdatecash.com # 成人 / 约会 + 金钱结合,广告 / 推广性质强  
+DOMAIN-SUFFIX,sexei.net # 成人 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexemulator.com # 成人 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexemulator.tube-sexs.com # 成人 / 性视频网站域名,广告 / 内容性质强  
+DOMAIN-SUFFIX,sexfamilysim.net # 成人 / 性模拟类域名,广告倾向  
+DOMAIN-SUFFIX,sexfg.com # 成人 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexflirtbook.com # 成人 / 约会性质,广告倾向  
+DOMAIN-SUFFIX,sexgangsters.com # 成人 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexhay69.top # 成人 / 69 含义,广告 / 成人内容倾向强  
+DOMAIN-SUFFIX,sexiba.com # 成人 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexintheuk.com # 成人 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexlist.com # 成人 / 约会 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexmature.fun # 成人 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexmoney.com # 成人 / 金钱 + 性内容域名,广告 / 推广性质强  
+DOMAIN-SUFFIX,sexmotors.com # 虽为 motors 后缀,但包含 sex,极可能用于成人 / 广告用途  
+DOMAIN-SUFFIX,sexpennyauctions.com # 成人 + 拍卖 / 钱结合,广告倾向  
+DOMAIN-SUFFIX,sexpin.net # 成人 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexplaycam.com # 成人 / 摄像 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexsearch.com # 成人 / 搜索类域名,广告倾向  
+DOMAIN-SUFFIX,sextadate.net # 成人 / 约会 + 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sextf.com # 成人 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sextracker.com # 成人 / 性内容域名 + “tracker”,广告 / 追踪用途可能  
+DOMAIN-SUFFIX,sextubebox.com # 成人 / 视频站域名,广告性质强  
+DOMAIN-SUFFIX,sextubepromo.com # 成人 / 视频 + 推广,广告性质强  
+DOMAIN-SUFFIX,sextubeweb.com # 成人 / 视频站域名,广告性质强  
+DOMAIN-SUFFIX,sextvx.com # 成人 / 视频站域名,广告性质强  
+DOMAIN-SUFFIX,sexualpitfall.com # 性相关词域名,广告 / 吸引点击倾向强  
+DOMAIN-SUFFIX,sexuhot.com # 成人 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexvertise.com # sex + advertise 组合,广告 / 推广性质极强  
+DOMAIN-SUFFIX,sexvid.pro # 成人 / 视频站点,广告性质强  
+DOMAIN-SUFFIX,sexvid.xxx # 成人 / 视频站点 / 色情内容,广告性质强  
+DOMAIN-SUFFIX,sexy-ch.com # 成人 / 约会 / 自拍内容域名,广告倾向  
+DOMAIN-SUFFIX,sexy.fling.com # 成人 / 约会 / 性内容域名,广告倾向  
+DOMAIN-SUFFIX,sexycams.com # 成人 / 摄像 / 直播类内容域名,广告性质强  
+DOMAIN-SUFFIX,shadowjav182.fun # 含 jav（日本成人影片） + 数字,成人内容倾向强  
+DOMAIN-SUFFIX,she-want-fuck.com # 含成人诱导关键词,有高风险广告 / 色情用途可能性,建议拦截  
+DOMAIN-SUFFIX,shemalenova.com # 含 “shemale” 关键词,高风险成人 / 色情用途可能,建议拦截  
+DOMAIN-SUFFIX,shemalesofhentai.com # 明显为成人 / 色情域名,确认广告 / 色情用途,建议拦截 
+DOMAIN-SUFFIX,showjav11.fun # 包含 “jav” 关键词（成人视频网站常用缩写）,高风险成人 / 色情用途可能,建议拦截  
+DOMAIN-SUFFIX,simply-hentai.com # 成人内容域名,属于高风险类别,建议拦截 
+DOMAIN-SUFFIX,singlesexdates.com # 成人交友/约会域名,高风险,建议拦截  
+DOMAIN-SUFFIX,sk.fapnow.xxx # 成人 / 色情内容域名,高风险,建议拦截  
+DOMAIN-SUFFIX,sketchjav182.fun # 含 “jav” + 成人暗示,高风险,建议拦截  
+DOMAIN-SUFFIX,skyprivate.com # 私密 / 隐私暗示域名,可能为成人 / 高风险用途,建议拦截  
+DOMAIN-SUFFIX,slabjav12.fun # “jav” 暗示成人内容,建议拦截
+DOMAIN-SUFFIX,sli.crazyporn.xxx # 成人内容域名,高风险,建议拦截  
+DOMAIN-SUFFIX,slut2fuck.net # 成人 / 淫秽域名,高风险,建议拦截  
+DOMAIN-SUFFIX,slutymilf.net # 成人 / 淫秽域名,高风险,建议拦截 
+DOMAIN-SUFFIX,socialsex.biz # 含性暗示,可能用于成人 / 宣传用途  
+DOMAIN-SUFFIX,socialsex.com # 含性暗示,可能用于成人 / 推广用途  
+DOMAIN-SUFFIX,socialsexnetwork.net # 同上,成人 / 社交网络倾向  
+DOMAIN-SUFFIX,spankmasters.com # 含成人内容可能,暂无具体广告记录,建议拦截  
+DOMAIN-SUFFIX,starjav11.fun # 成人或广告域名
+DOMAIN-SUFFIX,stream-69.com # 与色情 / 成人内容暗示相关,可能为成人流量入口域名  
+DOMAIN-SUFFIX,strikebreaker3x.fun # 含 “strike breaker” + 3x,多为促销 / 游戏类暗示,可能广告用途  
+DOMAIN-SUFFIX,stripchat.com # 成人直播平台,有广告 / 内容收入模式,确认属于含广告站点  
+DOMAIN-SUFFIX,stripsaver.com # 与 “strip” 相关,可能为成人 / 跳转广告入口域名  
+DOMAIN-SUFFIX,sub.xxx-porn-tube.com # 明显为色情 / 成人导向域名,确认广告 / 内容站点  
+DOMAIN-SUFFIX,sub2.avgle.com # avgle 是成人 / 视频门户,可能为广告 / 流媒体关联  
+DOMAIN-SUFFIX,submissive-quarter.pro # 含 “submissive” 暗示成人 / 性感方向,可能广告用途  
+DOMAIN-SUFFIX,submissive-spirit.pro # 同上,可能成人 / 广告用途  
+DOMAIN-SUFFIX,submissivejuice.com # 同样可能为成人流量 / 广告入口  
+DOMAIN-SUFFIX,supervisortoplessstyle.com # “topless” 暗示成人 / 内容用途,可能广告用途  
+DOMAIN-SUFFIX,superxxxfree.com # 明显成人内容 / 广告入口域名  
+DOMAIN-SUFFIX,support.streamjav.top # 与 “jav” 成人内容暗示 + “support” 组合,可能为广告入口  
+DOMAIN-SUFFIX,teamskeetimages.com # 成人 / 图片资源广告域名,建议屏蔽  
+DOMAIN-SUFFIX,techporn.ph # 明确成人内容域名,建议屏蔽  
+DOMAIN-SUFFIX,teenfinder.com # 成人内容平台域名,建议屏蔽  
+DOMAIN-SUFFIX,thegay.com # 涉及成人／LGBT 主题域名,视策略可屏蔽
+DOMAIN-SUFFIX,theporndude.com # 成人色情 / 导航站点,建议屏蔽
+DOMAIN-SUFFIX,thesocialsexnetwork.com  # 成人 / 社交色情,建议屏蔽
+DOMAIN-SUFFIX,tgp1.brazzersnetwork.com # 涉及成人 /付费网络,建议屏蔽
+DOMAIN-SUFFIX,th.milftube.mobi # 色情成人类域名,强烈建议屏蔽
+DOMAIN-SUFFIX,the-adult-company.com # 涉及成人 /成人产品,建议屏蔽
+DOMAIN-SUFFIX,tits-guru.com # 成人 / 色情推广域名,建议屏蔽
+DOMAIN-SUFFIX,titsintops.com # 成人 / 色情推广域名,建议屏蔽 
+DOMAIN-SUFFIX,tools.bongacams.com # 属于成人 / 广告网络域名
+DOMAIN-SUFFIX,topescort.com # 成人 / 广告站域名
+DOMAIN-SUFFIX,topsexcams.club # 成人 / 广告站域名 
+DOMAIN-SUFFIX,topsexmovs.com # 成人 / 视频广告域名
+DOMAIN-SUFFIX,tranny.one # 成人相关域名,建议阻止  
+DOMAIN-SUFFIX,trannygem.com # 成人相关域名,建议阻止  
+DOMAIN-SUFFIX,travelsplayboy.com # 成人 / 娱乐词汇域名,建议阻止  
+DOMAIN-SUFFIX,tube.hentaistream.com # 成人 + “tube”,应拦截 
+DOMAIN-SUFFIX,urgayporn.com # 成人内容域名
+DOMAIN-SUFFIX,vfreecams.com # 成人／色情广告站点,建议阻止  
+DOMAIN-SUFFIX,vikiporn.com # 成人／色情站点,建议阻止   
+DOMAIN-SUFFIX,vipergirls.to # 成人／色情广告站点,建议阻止  
+DOMAIN-SUFFIX,virtuagirlhd.com # 成人／色情广告站点,建议阻止  
+DOMAIN-SUFFIX,virtualhottie2.com # 成人／色情广告站点,建议阻止  
+DOMAIN-SUFFIX,warashi-asian-pornstars.fr # 成人 / 色情站点,建议保留阻止  
+DOMAIN-SUFFIX,watch-my-gf.com # 成人 / 色情导向,建议保留阻止  
+DOMAIN-SUFFIX,watchmygf.com # 成人 / 色情导向,建议保留阻止  
+DOMAIN-SUFFIX,watchmygf.mobi # 成人导向,建议保留阻止  
+DOMAIN-SUFFIX,watchmygf.to # 成人导向,建议保留阻止  
+DOMAIN-SUFFIX,wonder.xhamster.com # 成人站点域名
+DOMAIN-SUFFIX,xis.vipergirls.to # 成人 / 色情相关,建议保留阻止  
+DOMAIN-SUFFIX,xjav.tube # 成人 / 色情类域名,建议保留阻止  
+DOMAIN-SUFFIX,xlgirls.com # 成人 / 色情相关,建议保留阻止  
+DOMAIN-SUFFIX,xlivesex.com # 成人 / 色情相关,建议保留阻止  
+DOMAIN-SUFFIX,xlovecam.com # 成人 / 色情相关,建议保留阻止  
+DOMAIN-SUFFIX,xmilf.com # 成人 / 色情相关,建议保留阻止 
+DOMAIN-SUFFIX,xnxx.army # 成人 / 色情相关,建议保留阻止  
+DOMAIN-SUFFIX,xnxx.tv # 成人 / 色情相关,建议保留阻止  
+DOMAIN-SUFFIX,xnxxporn.video # 成人 / 色情相关,建议保留阻止  
+DOMAIN-SUFFIX,xogogowebcams.com # 可视为成人 / 摄像头流媒体跳转相关,建议保留阻止  
+DOMAIN-SUFFIX,xporn.in # 成人 / 色情相关,建议保留阻止  
+DOMAIN-SUFFIX,xvideos.com # 成人 / 色情网站,建议保留阻止  
+DOMAIN-SUFFIX,xvideos.es # 成人 / 色情网站,建议保留阻止  
+DOMAIN-SUFFIX,xvideos.name # 成人 / 色情网站,建议保留阻止  
+DOMAIN-SUFFIX,xxxhd.cc # 成人 / 色情类,建议保留阻止  
+DOMAIN-SUFFIX,y.sphinxtube.com # 成人 / 色情相关,建议保留阻止   
+DOMAIN-SUFFIX,yespornpleasexxx.com # 成人 / 色情相关,建议保留阻止   
+DOMAIN-SUFFIX,you-porn.com # 成人 / 色情域名,保留阻止注释  
+DOMAIN-SUFFIX,youjizz.com # 成人 / 色情域名,保留阻止注释   
+DOMAIN-SUFFIX,youporn.com # 成人 / 色情域名,保留阻止注释   
+DOMAIN-SUFFIX,your-sugar-girls.com # 保留阻止注释（与成人 / 诱导相关）  
+DOMAIN-SUFFIX,zbporn.com # 成人 / 色情域名,保留阻止注释  
+DOMAIN-SUFFIX,ads.adultfriendfinder.com # 保留阻止,成人广告域名  
+DOMAIN-SUFFIX,newt1.adultadworld.com # 含 “adultadworld”,明确成人广告用途
+DOMAIN-SUFFIX,newt1.adultworld.com # 含 “adultworld”,成人广告用途
+DOMAIN-SUFFIX,porngraph.com # 成人内容 + 潜在广告 / 不良流量
+DOMAIN-SUFFIX,123vidz.com # 成人内容聚合站,含恶意跳转与广告欺诈行为
+DOMAIN-SUFFIX,18adultgames.com # 成人类广告聚合页,嵌入追踪脚本与弹窗行为
+DOMAIN-SUFFIX,18naked.com # 成人广告联盟域名,包含追踪组件与跳转逻辑
+DOMAIN-SUFFIX,18onlygirls.tv # 成人广告平台域名,用于传播色情内容与追踪行为脚本
+DOMAIN-SUFFIX,18porn.sex # 成人内容聚合页,含大量第三方追踪器与脚本注入
+DOMAIN-SUFFIX,18pussy.porn # 成人类广告跳转页面,具追踪和指纹采集行为
+DOMAIN-SUFFIX,21sexturycash.com # 成人广告联盟平台,用于跳转和佣金追踪  
+DOMAIN-SUFFIX,2watchmygf.com # 成人 / 跳转广告域名  
+DOMAIN-SUFFIX,365.freeonlinegayporn.com # 成人内容域名,广告性质明确  
+DOMAIN-SUFFIX,3movs.com # 成人视频网站,含广告模块 / 广告跳转用途  
+DOMAIN-SUFFIX,3movs.xxx # 成人内容域名,含广告跳转与推广用途 
+DOMAIN-SUFFIX,3prn.com # 成人 / 广告跳转网站主域名 
+DOMAIN-SUFFIX,429men.com # 成人 / 跳转广告域名  
+DOMAIN-SUFFIX,4tube.com # 成人视频网站主域,含广告服务接口  
+DOMAIN-SUFFIX,4wank.com # 成人 / 跳转广告网站域名  
+DOMAIN-SUFFIX,4wank.net # 同上成人 / 跳转用途域名 
+DOMAIN-SUFFIX,8boobs.com # 色情广告平台主站域名  
+DOMAIN-SUFFIX,a.crazyporn.xxx # 色情站广告分发域名,含追踪与跳转行为  
+DOMAIN-SUFFIX,activedancer.com # 色情广告平台域名,含跟踪脚本和推广链接  
+DOMAIN-SUFFIX,activejavgg124.fun # 明确用于色情广告页面跳转与追踪行为  
+DOMAIN-SUFFIX,actressdoleful.com # 色情广告中继域名,曾被用于流量投放  
+DOMAIN-SUFFIX,ad.pornimg.xyz # 色情素材广告域名  
+DOMAIN-SUFFIX,amarotic.com # 含色情暗示域名,广告 / 内容推广可能  
+DOMAIN-SUFFIX,angelesperiod.com # 含 period 词根,可能为色情 / 健康类广告域 
+DOMAIN-SUFFIX,aralomomolachan.com # 组合色情 / 营销域名,含推广性质  
+DOMAIN-SUFFIX,c.bigcomics.bid # 色情漫画站点广告接口,涉及流量引导与脚本加载  
+DOMAIN-SUFFIX,c.seksohub.com # 色情内容站点广告域名,涉及追踪与跳转  
+DOMAIN-SUFFIX,camghosts.com # 色情直播诱导平台,带有广告联盟跳转行为   
+DOMAIN-SUFFIX,camliveshow.xyz # 色情直播诱导平台,含多个广告加载脚本  
+DOMAIN-SUFFIX,candyai.love # AI色情类诱导页面,存在明显广告追踪行为
+DOMAIN-SUFFIX,cdn44221613.ahacdn.me # 子域结构来自 ahacdn 伪装 CDN,疑似色情广告内容调用节点  
+DOMAIN-SUFFIX,cdn54405831.ahacdn.me # 属于伪 CDN 结构域名,投放色情及赌博广告 
+DOMAIN-SUFFIX,cecilsginger.cyou # cyou后缀 + 人名伪装,疑似色情广告跳转使用  
+DOMAIN-SUFFIX,celebjihad.com # 明星色情广告网站,存在恶意推广记录 
+DOMAIN-SUFFIX,chantysubking.cyou # `.cyou` 高风险域名,疑似色情站内容跳转,广告用途   
+DOMAIN-SUFFIX,cheemsporn.com # 明确色情内容平台域名,存在广告与追踪行为 
+DOMAIN-SUFFIX,cherrytv.media # 色情直播平台,存在广告与追踪脚本行为  
+DOMAIN-SUFFIX,chubbymess.pro # 用于色情广告跳转,含恶意广告分发记录  
+DOMAIN-SUFFIX,circlejavgg124.fun # fun后缀 + adult关键词组合,疑似色情广告跳转域名  
+DOMAIN-SUFFIX,comefukmendat.com # 含色情及弹窗广告行为,广告追踪域名 
+DOMAIN-SUFFIX,complexionbootydistinction.com # 广告跳转平台常见结构,存在色情广告投放行为
+DOMAIN-SUFFIX,concedehorny.com # 含明显色情词汇,存在广告跳转行为
+DOMAIN-SUFFIX,cutegurlz.com # 色情广告投放站,含追踪脚本与跳转行为
+DOMAIN-SUFFIX,dadsats.com # 可疑色情类域名,含广告脚本与跳转行为
+DOMAIN-SUFFIX,dadsimz.com # 无背景信息,疑似色情类推广站,含跳转行为
+DOMAIN-SUFFIX,dadsoks.com # 色情引流域名,存在广告页面跳转与追踪特征
+DOMAIN-SUFFIX,daftporn.com # 色情站点广告跳转域名,常见于色情聚合广告平台
+DOMAIN-SUFFIX,daily-datehere.com # 典型色情广告跳转域名,用于诱导注册与欺诈
+DOMAIN-SUFFIX,danzhallfes.com # 疑似钓鱼/跳转域名,有指向色情内容记录
+DOMAIN-SUFFIX,datingstyle.top # 色情交友广告站点,内容导向明确为情色会面引流
+DOMAIN-SUFFIX,datingtoday.top # 色情交友广告入口,域名为站群一部分,具有泛滥跳转行为
+DOMAIN-SUFFIX,datingtop-flirt.com # 色情交友服务页面,存在诱导手机号注册与虚假定位行为
+DOMAIN-SUFFIX,datingtop-flirtses.com # 色情广告投放用站群页面,域名结构异常,行为高度可疑
+DOMAIN-SUFFIX,datingtopgirls.com # 色情内容入口,含动态跳转与聊天室伪装,存在诈骗风险
+DOMAIN-SUFFIX,datingtorrid.top # 色情类推广站,图文露骨,伪装交友对话界面诱导行为
+DOMAIN-SUFFIX,datinglovepartner.com # 色情交友站,行为特征包括弹窗诱导与反复跳转
+DOMAIN-SUFFIX,datingmeetnet.com # 色情广告跳板页,具有短链跳转与内容欺骗特征
+DOMAIN-SUFFIX,datingprudethimble.com # 隐晦域名下色情广告内容,存在非法擦边图片推广
+DOMAIN-SUFFIX,datingero.com # 交友诱导类色情广告站,含大量露骨图片与伪装聊天室页面
+DOMAIN-SUFFIX,datingflirt-spots.com # 虚假交友平台跳转页,用于色情或约炮广告投放
+DOMAIN-SUFFIX,datingforyour4.site # 不明来源的约会类广告域名,疑似色情类站群跳转入口
+DOMAIN-SUFFIX,datinghoneygirls.com # 色情引流网站,内容包含露骨交友广告与诱导注册
+DOMAIN-SUFFIX,datingamateurs.com # 色情交友广告平台域名,用于视频弹窗和注册引导
+DOMAIN-SUFFIX,delivery.porn.com # 色情广告内容分发域名,用于重定向与嵌入追踪代码
+DOMAIN-SUFFIX,dumpei.click # 属于 “.click” 类垃圾域名段,背景可疑,在 BGP 路由中与色情 / 垃圾域名共现
+DOMAIN-SUFFIX,exciting-meetcasual.com # 色情诱导类广告域名,涉及跳转与伪装广告活动,建议封锁
+DOMAIN-SUFFIX,exemptjav128.fun # 色情跳转域名,疑似诱导性广告平台
+DOMAIN-SUFFIX,eyeofporn.com # 色情平台类域名,包含广告跳转行为,建议拦截
+DOMAIN-SUFFIX,f5w.prettytube.net # 视频内容站点子域,用于色情广告资源分发
+DOMAIN-SUFFIX,fapclub.sex # 色情内容站点,包含大量广告跳转与付费诱导行为
+DOMAIN-SUFFIX,faphouse.com # 色情视频网站,含嵌入式追踪广告与页面跳转
+DOMAIN-SUFFIX,fapmeth.com # 色情域名,伴随可疑广告加载行为
+DOMAIN-SUFFIX,fapnado.com # 色情内容平台,存在广告跳转与追踪脚本
+DOMAIN-SUFFIX,fappenist.com # 色情内容网站,含诱导注册与第三方广告跳转
+DOMAIN-SUFFIX,faptdsway.ru # 色情类跳转中转站,具备广告与恶意重定向行为
+DOMAIN-SUFFIX,faptor.com # 色情站点入口,含嵌入式广告追踪与诱导链接
+DOMAIN-SUFFIX,faptrex.com # 色情内容平台,使用广告重定向加载机制
+DOMAIN-SUFFIX,fapturbo.com # 原为色情广告系统页面,现跳转不明,建议保留观察
+DOMAIN-SUFFIX,fbooksluts.com # 色情广告站点域名,具备广告诱导特征
+DOMAIN-SUFFIX,femalehunt.pro # 疑似诱导类站点,具色情广告特征,建议封锁
+DOMAIN-SUFFIX,fetisecorsak.click # 色情重定向平台,诱导点击并加载跟踪器,已确认广告用途
+DOMAIN-SUFFIX,findgirlsdream.com # 色情类约会广告平台,含明显行为特征,建议封锁
+DOMAIN-SUFFIX,findgirlsflirting.com # 色情类广告引导站点,涉及多国跳转行为,建议封锁
+DOMAIN-SUFFIX,findmanloverse.com # 色情交友广告站域名,已在部分广告封锁列表中出现
+DOMAIN-SUFFIX,findpartnerthefinder.com # 色情约会广告域名,具有典型行为特征
+DOMAIN-SUFFIX,finds-girls-junction.com # 色情类广告引流站,已被部分拦截工具收录
+DOMAIN-SUFFIX,flirt-hotlady.com # 明确色情交友广告域名,用于诱导注册与推广行为
+DOMAIN-SUFFIX,flirt-women.com # 色情交友广告站点,用于投放虚假女性资料页面
+DOMAIN-SUFFIX,flirt4e.com # 色情交友站点,用于引导注册及付费功能,广告属性明显
+DOMAIN-SUFFIX,flirtatiousmoviesbrightly.com # 色情诱导型广告域名,拼接结构伪装,行为明确
+DOMAIN-SUFFIX,flirtclick-matches.com # 色情交友广告平台,用于点击欺诈与注册诱导
+DOMAIN-SUFFIX,flirtgirles-romances.com # 色情类广告网站,使用拼接域名吸引点击
+DOMAIN-SUFFIX,flirthits.com # 色情交友引流广告域名,含注册诱导行为
+DOMAIN-SUFFIX,flirtingsms.com # 色情短信诱导平台,带强广告属性
+DOMAIN-SUFFIX,flirtmydating.com # 色情交友平台,投放广告引导注册行为
+DOMAIN-SUFFIX,flirtyj0y.com # 色情类虚假交友站,广告性质明显
+DOMAIN-SUFFIX,flowerdicks.com # 色情内容跳转站,存在恶意广告特征
+DOMAIN-SUFFIX,freeadultcomix.com # 色情漫画类广告网站,含强追踪与跳转脚本
+DOMAIN-SUFFIX,freecamsexposed.com # 色情直播广告站点,跳转行为明显
+DOMAIN-SUFFIX,freehookupaffair.com # 色情类交友广告站点,行为特征明显
+DOMAIN-SUFFIX,freenightlady.com # 色情交友广告站点,含诱导点击与多跳转追踪行为
+DOMAIN-SUFFIX,freeones.com # 成熟色情内容平台,包含广告联盟及跟踪器
+DOMAIN-SUFFIX,freepornxxx.mobi # 色情内容聚合站点,嵌入多个广告追踪模块
+DOMAIN-SUFFIX,freesexcam365.com # 色情直播平台,含广告投放与追踪代码
+DOMAIN-SUFFIX,freepublicporn.com # 色情内容平台,含多个广告商脚本与重定向行为
+DOMAIN-SUFFIX,freeuseporn.com # 色情内容网站,含广告联盟调用与脚本追踪
+DOMAIN-SUFFIX,freewebcams.com # 色情直播聚合平台,含追踪脚本与弹窗广告行为
+DOMAIN-SUFFIX,freeteen.sex # 色情内容域名,存在广告联盟及数据回传行为
+DOMAIN-SUFFIX,fuck-dating.com # 色情站点,涉及引流与不良内容,建议封锁
+DOMAIN-SUFFIX,fuckbook.cm # 色情交友平台,具有广告与诱导特征
+DOMAIN-SUFFIX,fuckbookdating.com # 色情交友站点,包含大量广告跳转
+DOMAIN-SUFFIX,fuckedbyme.com # 色情内容站点,包含广告投放与不良引流
+DOMAIN-SUFFIX,fuckyoucash.com # 明确为色情与欺诈广告平台,建议封锁
+DOMAIN-SUFFIX,ga.tubepork.com # 明确色情广告投放平台域名,属于不良追踪内容,建议封锁
+DOMAIN-SUFFIX,gallonjav128.fun # 含诱导关键词“jav”,存在色情跳转风险,建议封锁
+DOMAIN-SUFFIX,gamingadlt.com # 色情游戏广告域名,伪装拼写,含恶意跳转行为
+DOMAIN-SUFFIX,heatjav12.fun # 后缀 .fun + “jav12” 字样强关联不良 / 色情内容,建议拦截 
+DOMAIN-SUFFIX,jizzarchives.com # 含 “jizz” 关键词高度可疑,为色情内容或诱导站点,建议封禁 
+DOMAIN-SUFFIX,plx.tik.porn # 属于色情域名后缀,存在内容 + 广告风险  
+DOMAIN-SUFFIX,rest.sexypornvideo.net # 已确认：色情 / 成瘾内容域名 
+DOMAIN-SUFFIX,teenporno.xxx # 明确色情域名,建议屏蔽  
+DOMAIN-SUFFIX,teensexgfs.com # 色情广告域名,建议屏蔽  
+DOMAIN-SUFFIX,teentitsass.com # 色情暗示域名,建议屏蔽 
+DOMAIN-SUFFIX,0019x.com # 高风险广告跳转域名,用于色情诱导与推广落地页,归属不明
+DOMAIN-SUFFIX,00404850.xyz # 高风险广告跳转域名,用于色情诱导与 iframe 加载,归属不明
+DOMAIN-SUFFIX,00771944.xyz # 高风险跳转域名,用于色情广告与诱导页面加载,归属不明
+DOMAIN-SUFFIX,00857731.xyz # 高风险跳转域名,用于色情广告与诱导落地页加载,归属不明
+DOMAIN-SUFFIX,01045395.xyz # 高风险跳转域名,用于广告诱导与色情推广,归属不明
+DOMAIN-SUFFIX,18teensex.tv # 色情广告入口,涉及行为追踪与外链跳转
+DOMAIN-SUFFIX,19d7fd2ed2.com  # 疑似用于色情/低质内容跳转广告接口
+DOMAIN-SUFFIX,1asb.com # 短链跳转域,曾被用于色情广告中转
