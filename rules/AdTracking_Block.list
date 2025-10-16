@@ -8234,15 +8234,15 @@ DOMAIN-SUFFIX,submissivejuice.com # 同样可能为成人流量 / 广告入口
 DOMAIN-SUFFIX,supervisortoplessstyle.com # “topless” 暗示成人 / 内容用途,可能广告用途  
 DOMAIN-SUFFIX,superxxxfree.com # 明显成人内容 / 广告入口域名  
 DOMAIN-SUFFIX,support.streamjav.top # 与 “jav” 成人内容暗示 + “support” 组合,可能为广告入口  
-DOMAIN‑SUFFIX,svyksa.info # 垃圾广告域名,已被列入 AdGuard 列表作为广告域名   
-DOMAIN‑SUFFIX,switchadhub.com # 已有黑名单 / 恶意行为报告
-DOMAIN‑SUFFIX,taboola.com # 属于 Taboola 广告平台域名,明确为广告系统域名,建议纳入规则屏蔽  
-DOMAIN‑SUFFIX,tacoda.net  # 于已知广告 /用户行为跟踪 /广告技术域名,建议纳入广告屏蔽规则  
-DOMAIN‑SUFFIX,tapjoyads.com # 属于已知广告平台 /广告系统域名 (Tapjoy) ,建议纳入广告屏蔽规则  
-DOMAIN‑SUFFIX,taplingnoonlit.click # 未见公开情报,“.click” + 组合词,建议屏蔽  
-DOMAIN‑SUFFIX,tapnative.com # 属于已知广告 /移动广告网络（TapNative）域名,建议纳入屏蔽规则  
-DOMAIN‑SUFFIX,targeting.vdo.ai # 属于 vdo.ai 广告 /视频 /广告平台子域,风险较高,建议屏蔽  
-DOMAIN‑SUFFIX,targetspot.com # 属于已知广告 /广告网络 (TargetSpot) 域名,建议纳入屏蔽规则  
+DOMAIN-SUFFIX,svyksa.info # 垃圾广告域名,已被列入 AdGuard 列表作为广告域名   
+DOMAIN-SUFFIX,switchadhub.com # 已有黑名单 / 恶意行为报告
+DOMAIN-SUFFIX,taboola.com # 属于 Taboola 广告平台域名,明确为广告系统域名,建议纳入规则屏蔽  
+DOMAIN-SUFFIX,tacoda.net  # 于已知广告 /用户行为跟踪 /广告技术域名,建议纳入广告屏蔽规则  
+DOMAIN-SUFFIX,tapjoyads.com # 属于已知广告平台 /广告系统域名 (Tapjoy) ,建议纳入广告屏蔽规则  
+DOMAIN-SUFFIX,taplingnoonlit.click # 未见公开情报,“.click” + 组合词,建议屏蔽  
+DOMAIN-SUFFIX,tapnative.com # 属于已知广告 /移动广告网络（TapNative）域名,建议纳入屏蔽规则  
+DOMAIN-SUFFIX,targeting.vdo.ai # 属于 vdo.ai 广告 /视频 /广告平台子域,风险较高,建议屏蔽  
+DOMAIN-SUFFIX,targetspot.com # 属于已知广告 /广告网络 (TargetSpot) 域名,建议纳入屏蔽规则  
 DOMAIN-SUFFIX,tatrck.com # 可疑跟踪域名,建议屏蔽  
 DOMAIN-SUFFIX,tattepush.com # 含 “push” 可能用于通知/推送广告,建议屏蔽  
 DOMAIN-SUFFIX,tattered-sale.com # 含 “sale” 可能用于促销广告,建议屏蔽  
@@ -8911,8 +8911,8 @@ DOMAIN-SUFFIX,pixel.watch # 含 “pixel”,可能跟踪 / 分析用途域名
 DOMAIN-SUFFIX,pokkt.com # 移动广告平台（POKKT 为广告 / 视频变现平台） 
 DOMAIN-SUFFIX,porngraph.com # 成人内容 + 潜在广告 / 不良流量
 DOMAIN-SUFFIX,tracker.bannerflow.com # 出现在 anti‑adblock 过滤规则中,可确认其为广告/追踪域名  
-DOMAIN‑SUFFIX,svrgcqgtpe.com # 垃圾广告域名
-DOMAIN‑SUFFIX,svrlejjh.com # 垃圾广告域名
+DOMAIN-SUFFIX,svrgcqgtpe.com # 垃圾广告域名
+DOMAIN-SUFFIX,svrlejjh.com # 垃圾广告域名
 DOMAIN-SUFFIX,googletagservices-cn.com # Google 广告标签服务（中国镜像）
 DOMAIN-SUFFIX,adservice.google.com.mt # Google 广告服务（马耳他地区）
 DOMAIN-SUFFIX,analytics.google.com # Google 分析平台主域（行为追踪）
