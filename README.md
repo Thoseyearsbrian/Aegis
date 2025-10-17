@@ -16,11 +16,11 @@
   <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-CN/README.md"><b>【中文文档点此进入】</b></a>
 </p>
 
-A network security ruleset meticulously maintained for Surge, focused on application- and transport-layer defense. It blocks DNS poisoning, APT infrastructure, SDK telemetry, backdoor traffic, and global tracking domains — enabling precise, verifiable, and privacy-focused local traffic filtering for iOS and macOS.
+A network security ruleset meticulously maintained for Surge, focused on application- and transport-layer defense. It blocks DNS poisoning, APT infrastructure, SDK telemetry, backdoor communications, and C2 controllers. The ruleset also extends to block global advertising, behavioral tracking, and adult content domains — enabling precise, verifiable, and privacy-focused local traffic filtering for iOS and macOS.
 
 ## **Overview**
 
-[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a network security rule set developed and maintained long-term by an independent developer. It focuses on countering modern network-layer threats and aims to help global users build localized and effective defense systems. The project blocks DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, and C2 controllers, and further extends its coverage to major global advertising and tracking domains—enabling precise identification and efficient interception of local traffic. It also includes rules for numerous high-risk attack sources worldwide, including communication infrastructure and behavioral signatures related to Pegasus spyware.
+[Aegis](https://github.com/Thoseyearsbrian/Aegis)is a network security rule set developed and maintained long-term by an independent developer. It focuses on countering modern network-layer threats and aims to help global users build localized and effective defense systems. The project blocks DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, and C2 controllers, and further extends its coverage to major global advertising, behavioral tracking, and adult content domains — enabling precise identification and efficient interception of local traffic. It also includes rules for numerous high-risk attack sources worldwide, including communication infrastructure and behavioral signatures related to Pegasus spyware.
 
 The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
 
