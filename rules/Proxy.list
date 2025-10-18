@@ -4,7 +4,7 @@
 # - 特征：用于识别代理客户端、订阅 API、节点管理平台等域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-17
+# - 更新时间：2025-10-18
 
 # » 通用代理订阅平台 / 节点服务
 DOMAIN-SUFFIX,api.subs.ee // 常见订阅转换服务平台
@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,nexitally.com // Nexitally 节点/订阅服务平台
 DOMAIN-SUFFIX,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下载、密钥同步与更新服务
 DOMAIN,www.wireshark.org # Wireshark 官方网站，用于网络抓包工具下载、协议文档与社区支持等服务
 DOMAIN,2.na.dl.wireshark.org # Wireshark 下载节点，用于软件下载与版本更新
+DOMAIN,sw-update.obdev.at  # Little Snitch 更新服务域名，用于版本检查与更新下载
 
 # >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
 DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）
