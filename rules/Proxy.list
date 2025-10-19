@@ -42,6 +42,8 @@ DOMAIN,2.na.dl.wireshark.org # Wireshark 下载节点，用于软件下载与版
 DOMAIN,sw-update.obdev.at  # Little Snitch 更新服务域名，用于版本检查与更新下载
 DOMAIN,geolocation.obdev.at # Little Snitch 地理定位服务，用于地图定位与连接判断
 DOMAIN,dispatcher.is.autonavi.com # 高德地图调度接口域名，用于定位与路径分发
+DOMAIN-SUFFIX,nektony.com  # Nektony 官网及应用服务域名，用于Mac系统清理、磁盘管理与隐私保护工具通信
+DOMAIN-SUFFIX,maxmind.com  # MaxMind 数据服务域名，用于 IP 地理定位与 GeoIP 数据接口
 
 # >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
 DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）
