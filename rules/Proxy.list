@@ -4,7 +4,7 @@
 # - 特征：用于识别代理客户端、订阅 API、节点管理平台等域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-18
+# - 更新时间：2025-10-19
 
 # » 通用代理订阅平台 / 节点服务
 DOMAIN-SUFFIX,api.subs.ee // 常见订阅转换服务平台
@@ -14,6 +14,26 @@ DOMAIN-SUFFIX,sub-web.vercel.app // Sub-Web 部署版本（Vercel）
 DOMAIN-SUFFIX,sub.pmsub.me // PMSUB 节点订阅服务
 DOMAIN-SUFFIX,cfmem.com // cfmem.com 节点分发平台
 DOMAIN-SUFFIX,nexitally.com // Nexitally 节点/订阅服务平台
+
+# » Kaspersky 相关域名（建议代理，避免连接失败）
+DOMAIN-SUFFIX,kaspersky.com # 卡巴斯基主站域名，用于访问官网及通用服务
+DOMAIN-SUFFIX,kaspersky-labs.com # 卡巴斯基实验室官网旧域名，部分服务仍在使用
+DOMAIN-SUFFIX,kaspersky-lab.com # 卡巴斯基旧版官方域名，存在部分残留服务
+DOMAIN-SUFFIX,kasperskycontent.com # 卡巴斯基更新内容与规则库资源域名
+DOMAIN-SUFFIX,kasperskyapi.com # 卡巴斯基 API 接口调用域名
+DOMAIN-SUFFIX,kasperskyupdate.com # 卡巴斯基更新服务使用的辅助域名
+DOMAIN-SUFFIX,kasperskylabs.net # 卡巴斯基国际服务域名，部分 CDN 使用
+DOMAIN-SUFFIX,kaspersky.ru # 卡巴斯基俄罗斯官网，默认面向俄语地区
+DOMAIN-SUFFIX,kas.pr # 卡巴斯基缩写域名，用于跳转与内部识别
+DOMAIN,telemetry.kaspersky.com # 卡巴斯基遥测数据回传接口
+DOMAIN,ssl.kaspersky-labs.com # 卡巴斯基 HTTPS 安全更新通道
+DOMAIN,dnl-05.geo.kaspersky.com # 卡巴斯基全球更新 CDN 节点之一
+DOMAIN,dnl-06.geo.kaspersky.com # 卡巴斯基全球更新 CDN 节点之二
+DOMAIN,redirect.kaspersky-labs.com # 卡巴斯基跳转与重定向服务域名
+DOMAIN,rthosts.kaspersky-labs.com # 卡巴斯基威胁情报与实时主机通信域名
+DOMAIN,login.kaspersky.com # 卡巴斯基账户登录服务域名
+DOMAIN,activation-v2.kaspersky.com # 卡巴斯基授权激活服务域名
+DOMAIN,screenshots-v2.kaspersky.com # 卡巴斯基截图上传与远程分析接口
 
 # >> 安全工具 / 加密服务（Security Tools / Encryption Services）
 DOMAIN-SUFFIX,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下载、密钥同步与更新服务
