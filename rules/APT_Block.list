@@ -236,10 +236,10 @@ DOMAIN-SUFFIX,7d769bb7.space # 攻击中发现的 C2 域名，安全客披露
 
 # > APT45 黄金鼠 （ 中东地区组织· 360命名）
 
-DOMAIN,bbbb4.noip.me # 第一阶段 C2，部署 njRAT，2014–2015，360 披露  
-DOMAIN,basharalassad1sea.noip.me # 第二阶段 C2，部署 DarkKomet、AndroRAT，2015–2016，360 披露  
-DOMAIN,telgram.strangled.net # 第三阶段钓鱼域名，伪装 Telegram，2017 起，360 披露  
-DOMAIN,chatsecurelite.us.to # 第四阶段 C2，伪装安全通信工具，2017 起，360 披露  
+DOMAIN-SUFFIX,bbbb4.noip.me # 第一阶段 C2，部署 njRAT，2014–2015，360 披露  
+DOMAIN-SUFFIX,basharalassad1sea.noip.me # 第二阶段 C2，部署 DarkKomet、AndroRAT，2015–2016，360 披露  
+DOMAIN-SUFFIX,telgram.strangled.net # 第三阶段钓鱼域名，伪装 Telegram，2017 起，360 披露  
+DOMAIN-SUFFIX,chatsecurelite.us.to # 第四阶段 C2，伪装安全通信工具，2017 起，360 披露  
 IP-CIDR,31.9.48.183 # 第一/二阶段 C2 控制器，360 披露  
 IP-CIDR,82.137.255.56 # 第三阶段 Android/PC 控制器，2017 起，360 披露
 
@@ -475,7 +475,7 @@ IP-CIDR,213.109.192.230 # Asylum Ambuscade 控制节点
 
 # > Attor（中东与欧洲 · USB 模块化植入 · Onion C2 通信）
 
-DOMAIN,idayqh3zhj5j243t.lonion  # Tor 网络 C2 域名，仅在 Onion 网络中用于模块通信
+DOMAIN-SUFFIX,idayqh3zhj5j243t.lonion  # Tor 网络 C2 域名，仅在 Onion 网络中用于模块通信
 
 # > BackdoorDiplomacy
 
@@ -525,3 +525,365 @@ DOMAIN-SUFFIX,pz8.in # Badiis 控制域名，提供初始连接页面
 DOMAIN-SUFFIX,pz9.in # Badiis 控制域名，伪装跳转服务
 DOMAIN-SUFFIX,wlaspsd.com # Badiis 控制域名，用于加载远程 JS 与命令模块
 IP-CIDR,202.100.206.136 # Badiis 控制服务器，开放 443 端口用于 TLS 通信
+
+# > Ballistic Bobcat
+
+IP-CIDR,162.55.137.20 # PowerLess C&C 控制服务器，用于远程控制与通信
+IP-CIDR,37.120.222.168 # Sponsor C&C 控制服务器，Ballistic Bobcat 使用的命令与控制基础设施
+IP-CIDR,198.144.189.74 # 支持工具下载站点（Support Tools），用于投递或加载辅助攻击组件
+IP-CIDR,5.255.97.172 # 支持工具下载站点（Support Tools），用于提供后续攻击所需资源
+
+# > Bandook
+
+DOMAIN-SUFFIX,r2.panjoclub # Bandook 后门通信节点，用于数据回传与远程控制（端口 7892）
+DOMAIN-SUFFIX,d1.ngobmcom # Bandook 后门命令控制通道，监听端口 7891
+DOMAIN-SUFFIX,d2.ngobmcom # Bandook 控制基础设施，用于多主机指令分发（端口 7892）
+DOMAIN-SUFFIX,pronews.licu # 诱导性新闻站点域名，可能用于钓鱼或社工传播
+DOMAIN-SUFFIX,ladvsal.club # 恶意加载站点域名，常用于传送 Bandook 恶意组件
+DOMAIN-SUFFIX,d1.p2020.club # Bandook 使用的变种控制通道，监听端口 5670
+DOMAIN-SUFFIX,d2.p2020.club # Bandook 控制基础设施节点，用于数据投送（端口 5671）
+DOMAIN-SUFFIX,s1.fikofiko1.top # Bandook 后门通信域名，监听端口 5672，伪装为普通服务
+DOMAIN-SUFFIX,s2.fikofiko1.top # 与 Bandook 后门通信相关的变种通道节点（端口 5673）
+DOMAIN-SUFFIX,s3.fikofiko1.top # Bandook 控制流量分发节点，监听端口 5674
+DOMAIN-SUFFIX,d1.megawoc1.com # Bandook 控制器主节点之一，监听端口 7891
+DOMAIN-SUFFIX,s2.megawoc1.com # Bandook 二级通信主机，监听端口 7892
+DOMAIN-SUFFIX,s3.megawoc1.com # Bandook 控制通道，伪装为常规服务（端口 7893）
+DOMAIN-SUFFIX,hellofromtheotherside.club # Bandook 模拟正常网站的伪装 C2 域名
+DOMAIN-SUFFIX,medialog.top # 用于传播 Bandook 恶意软件的中转域名
+DOMAIN-SUFFIX,nahlabahla.hopto.org # Bandook 后门监听主机，端口 9005
+DOMAIN-SUFFIX,dianaojeil.hopto.org # Bandook C2 服务器节点，端口 8021
+DOMAIN-SUFFIX,nathashadarin.hopto.org # Bandook 控制节点，监听端口 8022
+DOMAIN-SUFFIX,laraasaker.hopto.org # Bandook 后门连接点之一，监听端口 5553
+DOMAIN-SUFFIX,mayataboush.hopto.org # Bandook 控制器分布式节点，监听端口 5552
+DOMAIN-SUFFIX,jhonny1.hopto.org # 已知 Bandook 控制节点，监听端口 7401
+DOMAIN-SUFFIX,j2.premiumdns.top # 用于 Bandook 通信的控制节点（端口 7402）
+DOMAIN-SUFFIX,j3.newoneok.top # Bandook 控制器域名，监听端口 9903
+DOMAIN-SUFFIX,p2020.xyz # Bandook 样本常用域名之一，可能用于误导追踪
+DOMAIN-SUFFIX,vdsm1.xyz # 疑似 Bandook 投递载体服务域名
+DOMAIN-SUFFIX,www.blueberry2017.com # 模拟食品类站点伪装的恶意载体域名
+DOMAIN-SUFFIX,www.watermelon2017.com # Bandook 恶意样本加载点，伪装为正常商业站
+DOMAIN-SUFFIX,www.orange2017.com # 用于 Bandook 后门下载行为的诱导页面
+DOMAIN-SUFFIX,dbclavel.info # Bandook 控制站点重定向跳板域名
+DOMAIN-SUFFIX,panel.newoneok.top # Bandook 后门控制面板域名
+
+# > BlackLotus
+
+DOMAIN-SUFFIX,harrysucksdick.com # BlackLotus 加载器接口域名，路径含 /API/hpb_gate.php
+DOMAIN-SUFFIX,erdjknfweklsgwfmewfgref.com # BlackLotus 恶意网关域名，用于后门通信
+DOMAIN-SUFFIX,egscorp.net # BlackLotus 恶意控制接口域名，存在 /API/hpb_gate.php 路径
+DOMAIN-SUFFIX,heikickgn.com # BlackLotus 通信节点，挂载后门数据接口路径
+DOMAIN-SUFFIX,frassirishiproc.com # BlackLotus 使用的伪装域名，含 API 控制接口
+DOMAIN-SUFFIX,myrepository.name # BlackLotus 控制路径为 /network/API/hpb_gate.php
+DOMAIN-SUFFIX,myrepositoryx.com # BlackLotus 网关控制节点，伪装为资源仓库域名
+DOMAIN-SUFFIX,xrepositoryx.name # BlackLotus 使用的 API 控制服务端点域名
+
+# > BlackWood
+
+IP-CIDR,104.193.88.123 # 合法站点 baidu.com 所属 IP，被后门组件用于下载载荷，HTTP 请求被中间人拦截（AitM）
+IP-CIDR,183.134.93.171 # 合法软件从该 IP 的 URL 路径 dl_dir.qq.com 下载样本，被滥用于投递
+
+# > Buhtrap
+
+DOMAIN-SUFFIX,hdfilm-seyret.com # Buhtrap 使用的 C&C 控制服务器域名，伪装为影视类站点
+DOMAIN-SUFFIX,corp-microsoft.com # Buhtrap 使用的伪造微软企业域名进行后门通信
+DOMAIN-SUFFIX,ipv6-microsoft.org # Buhtrap 利用伪装的 DNS 域名建立命令与控制通道
+DOMAIN-SUFFIX,services-glbdns2.com # Buhtrap 使用的加密链接 C&C 服务器域名，用于远程控制和数据收集
+DOMAIN-SUFFIX,secure-telemetry.net # Buhtrap 伪装为遥测服务的 C&C 控制节点域名
+
+# > Casbaneiro
+
+DOMAIN-SUFFIX,hostsize.sytes.net # Casbaneiro C&C 控制服务器，监听端口 7880
+DOMAIN-SUFFIX,agosto2019.servepics.com # Casbaneiro 命令控制节点，监听端口 2456
+DOMAIN-SUFFIX,noturnis.zapto.org # Casbaneiro 用于远程指令传递的 C&C 域名
+DOMAIN-SUFFIX,4d9p5678.myvnc.com # Casbaneiro 使用的动态 DNS 控制节点
+DOMAIN-SUFFIX,seradessavez.ddns.net # Casbaneiro C&C 服务器，监听端口 14875
+
+# > CdrThief
+
+IP-CIDR,119.29.173.65 # CdrThief 使用的 C&C 控制节点，疑似托管于腾讯云
+IP-CIDR,129.211.157.244 # CdrThief 控制服务器节点，活跃于远程植入与数据窃取
+IP-CIDR,129.226.134.180 # 被用于 CdrThief 恶意组件与命令通信的控制地址
+IP-CIDR,150.109.79.136 # CdrThief 后门通信基础设施，来源 IP 属于中国运营商
+IP-CIDR,34.94.199.142 # CdrThief 使用的谷歌云托管 C&C 节点之一
+IP-CIDR,35.236.173.187 # CdrThief 控制端点，部署于 GCP 基础设施
+
+# > CeranaKeeper
+
+IP-CIDR,104.21.81.233 # CeranaKeeper 控制服务器 IP，部署于 Cloudflare 网络
+IP-CIDR,172.67.165.197 # CeranaKeeper C&C 基础设施节点，位于 Cloudflare Anycast 区段
+IP-CIDR,103.245.165.237 # CeranaKeeper 恶意样本通信目标，亚洲托管服务提供商段
+IP-CIDR,103.27.202.185 # CeranaKeeper C2 控制流量节点，用于样本远程管理
+DOMAIN-SUFFIX,toptipvideo.com # CeranaKeeper C&C 控制服务器域名，伪装为视频内容服务
+DOMAIN-SUFFIX,dljmp2p.com # CeranaKeeper 使用的伪装域名，存在后门组件通信记录
+DOMAIN-SUFFIX,inly5sf.com # CeranaKeeper 控制基础设施域名，用于样本指令接收
+DOMAIN-SUFFIX,dl6yfsl.com # CeranaKeeper 使用的动态下载域名，疑似分发远控指令
+DOMAIN-SUFFIX,uvfr4ep.com # CeranaKeeper 样本连接的控制域名之一，行为具后门特征
+
+# > CosmicBeetle
+
+IP-CIDR,3.76.107.228 # Spacecolon C&C server.
+IP-CIDR,87.251.64.19 # Spacecolon C&C server.
+IP-CIDR,87.251.64.57 # Spacecolon C&C server.
+IP-CIDR,87.251.67.163 # Spacecolon C&C server.
+IP-CIDR,162.255.119.146 # Spacecolon C&C server.
+IP-CIDR,185.170.144.190 # Spacecolon C&C server.
+IP-CIDR,185.202.0.149 # Spacecolon C&C server.
+IP-CIDR,193.37.69.152 # Spacecolon C&C server.
+IP-CIDR,193.37.69.153 # Spacecolon C&C server.
+IP-CIDR,193.149.185.23 # Spacecolon C&C server.
+IP-CIDR,206.188.196.104 # Spacecolon C&C server.
+IP-CIDR,213.232.255.131 # Spacecolon C&C server.
+DOMAIN-SUFFIX,piiif.net # Spacecolon C&C server.
+DOMAIN-SUFFIX,up.awiki1.org # Spacecolon C&C server.
+DOMAIN-SUFFIX,ss.688.org # Spacecolon C&C server.
+DOMAIN-SUFFIX,akamaicdnup.com # Spacecolon C&C server.
+DOMAIN-SUFFIX,sys.688.org # Spacecolon C&C server.
+DOMAIN-SUFFIX,update.inet2.org # Spacecolon C&C server.
+DOMAIN-SUFFIX,up.vcetel.com # Spacecolon C&C server.
+DOMAIN-SUFFIX,u.cbu.net # Spacecolon C&C server.
+DOMAIN-SUFFIX,update.cbu.net # Spacecolon C&C server.
+DOMAIN-SUFFIX,cdnupdate.net # Spacecolon C&C server.
+
+# > Danabot
+
+IP-CIDR,38.180.137.43 # Danabot C&C server
+IP-CIDR,89.185.80.189 # Danabot C&C server
+IP-CIDR,185.42.163.8 # Danabot C&C server
+IP-CIDR,194.32.76.77 # Danabot C&C server
+IP-CIDR,45.76.251.57 # Danabot C&C server
+IP-CIDR,23.137.105.251 # Danabot C&C server
+IP-CIDR,23.137.105.250 # Danabot C&C server
+IP-CIDR,23.137.105.249 # Danabot C&C server
+IP-CIDR,91.242.163.44 # Danabot C&C server
+IP-CIDR,87.121.221.68 # Danabot C&C server
+IP-CIDR,194.102.104.73 # Danabot C&C server
+IP-CIDR,212.22.82.33 # Danabot C&C server
+IP-CIDR,89.208.97.7 # Danabot C&C server
+IP-CIDR,31.177.108.229 # Danabot C&C server
+IP-CIDR,88.151.192.8 # Danabot C&C server
+IP-CIDR,178.253.55.80 # Danabot C&C server
+IP-CIDR,91.242.163.37 # Danabot C&C server
+IP-CIDR,51.159.226.6 # Danabot C&C server
+IP-CIDR,95.183.51.15 # Danabot C&C server
+IP-CIDR,95.183.50.85 # Danabot C&C server
+IP-CIDR,89.185.80.159 # Danabot C&C server
+IP-CIDR,89.185.80.87 # Danabot C&C server
+IP-CIDR,89.185.80.116 # Danabot C&C server
+IP-CIDR,212.111.89.174 # Danabot C&C server
+IP-CIDR,195.26.224.34 # Danabot C&C server
+IP-CIDR,77.238.250.130 # Danabot C&C server
+IP-CIDR,185.245.107.212 # Danabot C&C server
+IP-CIDR,81.19.140.67 # Danabot C&C server
+IP-CIDR,45.95.233.253 # Danabot C&C server
+IP-CIDR,185.39.207.8 # Danabot C&C server
+IP-CIDR,85.208.139.8 # Danabot C&C server
+IP-CIDR,87.121.221.124 # Danabot C&C server
+IP-CIDR,193.150.70.54 # Danabot C&C server
+IP-CIDR,95.164.55.3 # Danabot C&C server
+IP-CIDR,195.26.227.134 # Danabot C&C server
+IP-CIDR,93.123.109.71 # Danabot C&C server
+IP-CIDR,196.251.116.36 # Danabot C&C server
+IP-CIDR,77.91.76.17 # Danabot C&C server
+IP-CIDR,77.239.101.139 # Danabot C&C server
+IP-CIDR,77.239.99.248 # Danabot C&C server
+IP-CIDR,196.251.86.101 # Danabot C&C server
+IP-CIDR,196.251.86.102 # Danabot C&C server
+IP-CIDR,185.122.171.132 # Danabot C&C server
+IP-CIDR,46.229.55.74 # Danabot C&C server
+IP-CIDR,185.38.142.253 # Danabot C&C server
+IP-CIDR,185.45.195.110 # Danabot C&C server
+IP-CIDR,91.202.233.244 # Danabot C&C server
+IP-CIDR,95.164.55.20 # Danabot C&C server
+IP-CIDR,212.18.104.129 # Danabot C&C server
+IP-CIDR,138.124.78.173 # Danabot C&C server
+IP-CIDR,45.150.34.9 # Danabot C&C server
+IP-CIDR,89.23.103.52 # Danabot C&C server
+IP-CIDR,194.156.102.24 # Danabot C&C server
+IP-CIDR,212.18.104.245 # Danabot C&C server
+IP-CIDR,212.18.104.246 # Danabot C&C server
+IP-CIDR,185.33.87.221 # Danabot C&C server
+IP-CIDR,78.47.15.143 # Danabot C&C server
+IP-CIDR,135.125.225.51 # Danabot C&C server
+IP-CIDR,38.146.25.235 # Danabot C&C server
+IP-CIDR,185.14.31.210 # Danabot C&C server
+IP-CIDR,86.54.42.5 # Danabot C&C server
+IP-CIDR,176.113.115.220 # Danabot C&C server
+IP-CIDR,185.81.68.133 # Danabot C&C server
+IP-CIDR,185.81.68.2 # Danabot C&C server
+IP-CIDR,35.199.78.101 # Danabot C&C server
+IP-CIDR,34.86.163.86 # Danabot C&C server
+IP-CIDR,35.188.245.50 # Danabot C&C server
+IP-CIDR,34.88.132.37 # Danabot C&C server
+IP-CIDR,34.39.133.178 # Danabot C&C server
+IP-CIDR,34.145.152.177 # Danabot C&C server
+IP-CIDR,34.147.254.81 # Danabot C&C server
+IP-CIDR,34.65.186.210 # Danabot C&C server
+IP-CIDR,35.228.203.62 # Danabot C&C server
+IP-CIDR,34.48.14.112 # Danabot C&C server
+IP-CIDR,35.199.48.244 # Danabot C&C server
+IP-CIDR,34.139.186.110 # Danabot C&C server
+IP-CIDR,34.130.235.182 # Danabot C&C server
+IP-CIDR,34.168.204.101 # Danabot C&C server
+IP-CIDR,34.65.47.39 # Danabot C&C server
+IP-CIDR,34.88.131.212 # Danabot C&C server
+IP-CIDR,34.168.202.91 # Danabot C&C server
+IP-CIDR,34.66.104.146 # Danabot C&C server
+IP-CIDR,34.85.143.191 # Danabot C&C server
+IP-CIDR,8.215.11.96 # Danabot C&C server
+IP-CIDR,8.222.178.224 # Danabot C&C server
+IP-CIDR,35.243.180.101 # Danabot C&C server
+IP-CIDR,34.22.151.45 # Danabot C&C server
+IP-CIDR,34.77.22.163 # Danabot C&C server
+IP-CIDR,104.199.4.160 # Danabot C&C server
+IP-CIDR,35.237.76.147 # Danabot C&C server
+IP-CIDR,34.125.95.100 # Danabot C&C server
+IP-CIDR,34.65.245.112 # Danabot C&C server
+IP-CIDR,34.130.217.52 # Danabot C&C server
+IP-CIDR,34.125.235.184 # Danabot C&C server
+IP-CIDR,34.65.101.100 # Danabot C&C server
+IP-CIDR,34.83.30.53 # Danabot C&C server
+IP-CIDR,35.243.202.240 # Danabot C&C server
+IP-CIDR,35.196.59.72 # Danabot C&C server
+IP-CIDR,34.22.185.224 # Danabot C&C server
+IP-CIDR,34.130.190.88 # Danabot C&C server
+IP-CIDR,34.16.215.110 # Danabot C&C server
+IP-CIDR,34.65.116.208 # Danabot C&C server
+IP-CIDR,34.22.185.239 # Danabot C&C server
+IP-CIDR,34.19.91.158 # Danabot C&C server
+IP-CIDR,34.173.227.183 # Danabot C&C server
+IP-CIDR,34.55.79.212 # Danabot C&C server
+IP-CIDR,35.229.82.243 # Danabot C&C server
+IP-CIDR,34.118.84.190 # Danabot C&C server
+IP-CIDR,35.237.124.176 # Danabot C&C server
+IP-CIDR,34.65.151.241 # Danabot C&C server
+IP-CIDR,34.48.98.228 # Danabot C&C server
+IP-CIDR,34.65.43.145 # Danabot C&C server
+IP-CIDR,34.116.129.66 # Danabot C&C server
+IP-CIDR,35.185.234.134 # Danabot C&C server
+IP-CIDR,34.65.57.162 # Danabot C&C server
+IP-CIDR,34.118.88.103 # Danabot C&C server
+IP-CIDR,34.56.177.4 # Danabot C&C server
+IP-CIDR,34.56.126.5 # Danabot C&C server
+IP-CIDR,34.75.145.157 # Danabot C&C server
+IP-CIDR,34.168.233.46 # Danabot C&C server
+IP-CIDR,34.125.118.20 # Danabot C&C server
+IP-CIDR,35.225.11.131 # Danabot C&C server
+IP-CIDR,34.77.245.191 # Danabot C&C server
+IP-CIDR,34.22.169.101 # Danabot C&C server
+IP-CIDR,34.41.167.204 # Danabot C&C server
+IP-CIDR,34.76.196.66 # Danabot C&C server
+IP-CIDR,34.169.131.165 # Danabot C&C server
+IP-CIDR,34.118.110.116 # Danabot C&C server
+IP-CIDR,34.168.100.35 # Danabot C&C server
+IP-CIDR,34.75.119.225 # Danabot C&C server
+IP-CIDR,35.237.63.108 # Danabot C&C server
+IP-CIDR,35.197.94.36 # Danabot C&C server
+IP-CIDR,35.233.91.250 # Danabot C&C server
+IP-CIDR,34.168.203.116 # Danabot C&C server
+IP-CIDR,35.205.12.222 # Danabot C&C server
+IP-CIDR,34.22.161.131 # Danabot C&C server
+IP-CIDR,35.223.14.193 # Danabot C&C server
+IP-CIDR,34.34.145.103 # Danabot C&C server
+IP-CIDR,34.169.99.17 # Danabot C&C server
+IP-CIDR,34.83.67.185 # Danabot C&C server
+IP-CIDR,35.195.45.98 # Danabot C&C server
+IP-CIDR,34.118.58.27 # Danabot C&C server
+IP-CIDR,34.118.99.223 # Danabot C&C server
+IP-CIDR,190.97.165.214 # Danabot C&C server
+IP-CIDR,85.239.62.80 # Danabot C&C server
+IP-CIDR,162.0.223.164 # Danabot C&C server
+IP-CIDR,69.49.244.37 # Danabot C&C server
+IP-CIDR,65.38.120.39 # Danabot C&C server
+IP-CIDR,79.110.52.60 # Danabot C&C server
+IP-CIDR,176.117.68.39 # Danabot C&C server
+IP-CIDR,46.30.45.192 # Danabot C&C server
+IP-CIDR,91.92.246.63 # Danabot C&C server
+IP-CIDR,95.142.39.217 # Danabot C&C server
+IP-CIDR,176.117.68.38 # Danabot C&C server
+IP-CIDR,85.208.108.134 # Danabot C&C server
+IP-CIDR,45.80.158.189 # Danabot C&C server
+IP-CIDR,89.32.41.41 # Danabot C&C server
+IP-CIDR,217.28.130.18 # Danabot C&C server
+IP-CIDR,176.105.253.65 # Danabot C&C server
+IP-CIDR,78.40.116.123 # Danabot C&C server
+DOMAIN-SUFFIX,advanced-ip-scanned.com # Danabot 恶意程序分发站点
+DOMAIN-SUFFIX,gfind.org # Danabot 恶意软件传播域名
+DOMAIN-SUFFIX,mic-tests.com # Danabot 使用的钓鱼或下载站点
+
+# > DazzleSpy
+
+IP-CIDR,88.218.192.128 # DazzleSpy C&C 控制服务器，监听端口 5633
+
+# > DeceptiveDevelopment
+
+IP-CIDR,199.188.200.147 # DeceptiveDevelopment C&C 服务节点，对应域名 driverservices.store
+IP-CIDR,103.231.75.101 # DeceptiveDevelopment 控制节点，托管于 THE-HOSTING-MNT
+IP-CIDR,45.159.248.110 # DeceptiveDevelopment 恶意组件托管服务器，THE-HOSTING-MNT 段
+IP-CIDR,45.8.146.93 # DeceptiveDevelopment C&C 节点，托管于 STARK INDUSTRIES SOLUTIONS LTD
+IP-CIDR,86.104.72.247 # DeceptiveDevelopment 控制基础设施服务器，STARK INDUSTRIES 网络
+IP-CIDR,103.35.190.170 # DeceptiveDevelopment 样本通信节点，归属于 STARK INDUSTRIES 网络
+IP-CIDR,116.125.126.38 # DeceptiveDevelopment 被用于投递恶意内容的节点，对应 royalsevres.com
+DOMAIN-SUFFIX,driverservices.store # DeceptiveDevelopment 使用的 C&C 控制域名
+DOMAIN-SUFFIX,royalsevres.com # DeceptiveDevelopment 使用的合法域名伪装站点
+DOMAIN-SUFFIX,n34kr3zz6f3jzp4ckmwuv5ipayatumdxhgjgsmucc65jac56khdy5zqd.onion # DeceptiveDevelopment 在 Tor 网络中的 .onion 控制域名
+
+# > DePriMon
+
+IP-CIDR,138.59.32.72 # DePriMon C&C server.
+IP-CIDR,88.119.179.17 # DePriMon C&C server.
+IP-CIDR,190.0.226.147 # DePriMon C&C server.
+IP-CIDR,185.56.89.196 # DePriMon C&C server.
+IP-CIDR,188.241.60.109 # DePriMon C&C server.
+IP-CIDR,5.226.168.124 # DePriMon C&C server.
+IP-CIDR,185.225.17.77 # DePriMon C&C server.
+IP-CIDR,46.151.212.202 # DePriMon C&C server.
+IP-CIDR,46.151.212.201 # DePriMon C&C server.
+DOMAIN-SUFFIX,img.dealscienters.net # DePriMon C&C server.
+DOMAIN-SUFFIX,teknikgorus.com # DePriMon C&C server.
+DOMAIN-SUFFIX,wnupdnew.com # DePriMon C&C server.
+DOMAIN-SUFFIX,babmaftuh.com # DePriMon C&C server.
+DOMAIN-SUFFIX,alwatantrade.com # DePriMon C&C server.
+DOMAIN-SUFFIX,shayalyawm.com # DePriMon C&C server.
+DOMAIN-SUFFIX,elehenishing.com # DePriMon C&C server.
+DOMAIN-SUFFIX,almawaddrial.com # DePriMon C&C server.
+DOMAIN-SUFFIX,mdeastserv.com # DePriMon C&C server.
+
+# > DnsBirthday
+
+IP-CIDR,176.31.106.50 # Rogue DNS 服务器（已失效），用于操控 DNS 查询重定向
+IP-CIDR,188.165.205.99 # DnsBirthday C&C 服务对应 IP 地址
+IP-CIDR,188.214.30.97 # DnsBirthday 用于投放广告的恶意广告服务器
+IP-CIDR,188.214.30.98 # DnsBirthday 恶意广告服务器，用于页面注入或跳转
+DOMAIN-SUFFIX,updates.rqztech.com # DnsBirthday C&C 控制服务器，曾解析至 188.165.205.99
+DOMAIN-SUFFIX,smoke # DnsBirthday 使用的 DGA 域名后缀，前缀为 60 位十六进制字符串（如 [0-9a-f]{60}.smoke）
+
+# > DoNot
+
+DOMAIN-SUFFIX,submitonline.club # DoNot 下载服务器（路径：/orderme/）
+DOMAIN-SUFFIX,oceansurvey.club # DoNot 数据回传服务器（路径：/upload/<VICTIM_ID>）
+DOMAIN-SUFFIX,soundedge.live # DoNot 数据外传服务器（路径：/<COMPUTERNAME>/uload）
+IP-CIDR,80.255.3.67 # DoNot 反向 Shell 控制服务器
+IP-CIDR,37.48.122.145 # DoNot 反向 Shell C&C 节点
+
+# > Dukes
+
+DOMAIN-SUFFIX,acciaio.com.br # Dukes 使用的 C&C 控制域名
+DOMAIN-SUFFIX,ceycarb.com # Dukes 使用的后门通信服务器域名
+DOMAIN-SUFFIX,coachandcook.at # Dukes 恶意组件通过该域进行控制通信
+DOMAIN-SUFFIX,fisioterapiabb.it # Dukes 使用的伪装域名之一
+DOMAIN-SUFFIX,lorriratzlaff.com # Dukes 构造的恶意控制服务
+DOMAIN-SUFFIX,mavin21c.dothome.co.kr # Dukes 使用的韩国托管站点伪装 C2
+DOMAIN-SUFFIX,motherlodebulldogclub.com # Dukes 后门通信节点
+DOMAIN-SUFFIX,powerpolymerindustry.com # Dukes C2 控制域名
+DOMAIN-SUFFIX,publiccouncil.org # Dukes 伪装为机构组织域名，用于远程控制
+DOMAIN-SUFFIX,rulourialuminiu.co.uk # Dukes 控制端伪装站点
+DOMAIN-SUFFIX,sistemikan.com # Dukes C2 控制服务
+DOMAIN-SUFFIX,varuhusmc.org # Dukes 后门通信域名
+DOMAIN-SUFFIX,ecolesndmessines.org # MiniDuke 使用的 C&C 控制域名
+DOMAIN-SUFFIX,salesappliances.com # MiniDuke 使用的伪装下载服务器
+DOMAIN-SUFFIX,busseylawoffice.com # FatDuke 使用的 C&C 域名
+DOMAIN-SUFFIX,fairfieldsch.org # FatDuke 恶意活动中的伪装控制服务器
+DOMAIN-SUFFIX,ministernetwork.org # FatDuke 远程控制基础设施
+DOMAIN-SUFFIX,skagenyoga.com # FatDuke 恶意组件加载点
+DOMAIN-SUFFIX,westmedicalgroup.net # FatDuke 用于指令获取的伪装医疗服务站点
+DOMAIN-SUFFIX,bandabonga.fr # LiteDuke 使用的 C&C 控制服务器域名
