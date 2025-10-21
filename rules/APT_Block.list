@@ -332,19 +332,19 @@ IP-CIDR,103.251.112.11 # GhostRedirector 单独节点 IP（无明确域名绑定
 
 DOMAIN-SUFFIX,wcssetl.com # PlushDaemon 相关域名，用于 agent.mod / soc.mod 工具通信
 DOMAIN-SUFFIX,360safe1.company # SlowStepper 利用该域名进行 DNS TXT 记录查询与 C2 通信
-IP-CIDR,202.189.8.172 # soc.mod 组件使用的反向代理节点（PlushDaemon）
-IP-CIDR,47.96.17.123 # agent.mod 使用的通信服务器（PlushDaemon）
+IP-CIDR,202.189.8.72 # soc.mod 组件使用的反向代理节点（PlushDaemon）
+IP-CIDR,47.96.17.237 # agent.mod 使用的通信服务器（PlushDaemon）
 IP-CIDR,202.105.1.187 # SlowStepper 后备 C2 节点
 IP-CIDR,47.74.159.166 # SlowStepper 控制节点
-IP-CIDR,8.130.87.1195 # SlowStepper 控制节点（IP格式疑似错误，待确认）
-IP-CIDR,47.108.162.1218 # SlowStepper 控制节点（IP格式疑似错误，待确认）
-IP-CIDR,47.113.200.118 # SlowStepper 控制节点
-IP-CIDR,47.104.138.1190 # SlowStepper 控制节点（IP格式疑似错误，待确认）
-IP-CIDR,120.24.193.158 # SlowStepper 控制节点
-IP-CIDR,202.189.8.187 # SlowStepper 控制节点
-IP-CIDR,202.189.8.169 # SlowStepper 控制节点
+IP-CIDR,8.130.87.195 # SlowStepper 控制节点（IP格式疑似错误，待确认）
+IP-CIDR,47.108.162.18 # SlowStepper 控制节点（IP格式疑似错误，待确认）
+IP-CIDR,47.113.200.18 # SlowStepper 控制节点
+IP-CIDR,47.104.138.190 # SlowStepper 控制节点（IP格式疑似错误，待确认）
+IP-CIDR,120.24.193.58 # SlowStepper 控制节点
+IP-CIDR,202.189.8.87 # SlowStepper 控制节点
+IP-CIDR,202.189.8.69 # SlowStepper 控制节点
 IP-CIDR,202.189.8.193 # SlowStepper 控制节点
-IP-CIDR,47.92.6.164 # SlowStepper 控制节点
+IP-CIDR,47.92.6.64 # SlowStepper 控制节点
 
 # > Amavaldo 银行木马（拉丁美洲 · C2 控制节点）
 
@@ -356,7 +356,7 @@ DOMAIN-SUFFIX,newcharlesxl.scrapping.cc # Amavaldo 控制节点，端口 3844
 # > APT_C_60（归属不明 · C2 控制节点，IOC 来自样本分析）
 
 DOMAIN-SUFFIX,rammenale.com  # APT_C_60 控制域名，作为 C2 回连目标
-IP-CIDR,162.222.214.148 # APT_C_60 控制服务器 IP，样本中记录的 C2 地址
+IP-CIDR,162.222.214.48 # APT_C_60 控制服务器 IP，样本中记录的 C2 地址
 IP-CIDR,131.153.206.231 # APT_C_60 控制服务器 IP，C2 通信节点
 
 # > AridSpy（中东地区 · 安卓间谍软件 · 多平台 Firebase / 自建域名混用）
@@ -497,22 +497,23 @@ DOMAIN-SUFFIX,web.vpnkerio.com # BackdoorDiplomacy 控制平台伪装域名
 DOMAIN-SUFFIX,winupdate.ns02.us # BackdoorDiplomacy C2域名，模拟系统更新服务
 DOMAIN-SUFFIX,www.freedns02.dns2.us # BackdoorDiplomacy 控制域名，搭建动态回连平台
 DOMAIN-SUFFIX,www.intelupdate.dns1.us # BackdoorDiplomacy 控制节点，模拟Intel更新服务
-IP-CIDR,23.83.224.178 # BackdoorDiplomacy 控制节点IP
-IP-CIDR,23.106.140.207 # BackdoorDiplomacy 回连服务器，部署远控行为
-IP-CIDR,23.228.203.130 # BackdoorDiplomacy 控制端IP，用于命令下发
-IP-CIDR,43.225.126.179 # BackdoorDiplomacy 控制节点IP
-IP-CIDR,43.251.105.139 # BackdoorDiplomacy 控制IP，重复部署多个任务
-IP-CIDR,43.251.105.218 # BackdoorDiplomacy 回连服务器，执行远控通信
-IP-CIDR,43.251.105.222 # BackdoorDiplomacy 控制端节点IP
-IP-CIDR,45.76.120.84 # BackdoorDiplomacy 控制IP，部署后门通信模块
-IP-CIDR,45.77.215.53 # BackdoorDiplomacy 控制服务器，用于命令与数据交互
-IP-CIDR,78.141.196.159 # BackdoorDiplomacy 控制IP，部署远程监听行为
-IP-CIDR,78.141.243.45 # BackdoorDiplomacy 控制节点，用于命令控制
-IP-CIDR,152.32.180.34 # BackdoorDiplomacy 控制服务器IP
-IP-CIDR,162.209.167.154 # BackdoorDiplomacy C2控制端IP
-IP-CIDR,162.209.167.189 # BackdoorDiplomacy 控制节点，用于远程任务推送
-IP-CIDR,199.247.9.67 # BackdoorDiplomacy 控制节点IP
-IP-CIDR,207.148.8.82 # BackdoorDiplomacy 回连节点，伪装正常流量
+IP-CIDR,199.247.9.67 # BackdoorDiplomacy C2 控制节点  
+IP-CIDR,43.251.105.218 # BackdoorDiplomacy C2 控制节点  
+IP-CIDR,43.251.105.222 # BackdoorDiplomacy C2 控制节点  
+IP-CIDR,162.209.167.154 # BackdoorDiplomacy 控制服务器  
+IP-CIDR,43.225.126.179 # BackdoorDiplomacy 控制节点  
+IP-CIDR,23.247.47.252 # BackdoorDiplomacy 控制服务器  
+IP-CIDR,162.209.167.189 # BackdoorDiplomacy 控制服务器  
+IP-CIDR,23.83.224.178 # BackdoorDiplomacy 控制服务器  
+IP-CIDR,23.106.140.207 # BackdoorDiplomacy 控制服务器  
+IP-CIDR,45.76.120.84 # BackdoorDiplomacy 控制节点  
+IP-CIDR,78.141.243.45 # BackdoorDiplomacy 控制服务器  
+IP-CIDR,78.141.196.159 # BackdoorDiplomacy 控制节点  
+IP-CIDR,45.77.215.53 # BackdoorDiplomacy 控制节点  
+IP-CIDR,207.148.8.82 # BackdoorDiplomacy 控制服务器  
+IP-CIDR,43.251.105.139 # BackdoorDiplomacy 控制节点  
+IP-CIDR,152.32.180.34 # BackdoorDiplomacy 控制服务器  
+IP-CIDR,23.228.203.130 # BackdoorDiplomacy 控制节点 
 
 # > Badiis（中国目标 · 木马控制通信 · 多域名回连平台）
 
@@ -522,5 +523,5 @@ DOMAIN-SUFFIX,g666.org # Badiis 控制域名，用于图像资源与 C2 指令
 DOMAIN-SUFFIX,goudie.in # Badiis 控制域名，C2 通信端口为 1024
 DOMAIN-SUFFIX,pz8.in # Badiis 控制域名，提供初始连接页面
 DOMAIN-SUFFIX,pz9.in # Badiis 控制域名，伪装跳转服务
-DOMAIN-SUFFIX,wlaspsd.com  # Badiis 控制域名，用于加载远程 JS 与命令模块
-IP-CIDR,202.100.206.136/32  # Badiis 控制服务器，开放 443 端口用于 TLS 通信
+DOMAIN-SUFFIX,wlaspsd.com # Badiis 控制域名，用于加载远程 JS 与命令模块
+IP-CIDR,202.100.206.136 # Badiis 控制服务器，开放 443 端口用于 TLS 通信
