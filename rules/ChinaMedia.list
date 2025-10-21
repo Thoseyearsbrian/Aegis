@@ -61,6 +61,7 @@ DOMAIN-SUFFIX,upos-sz-mirror08c.bilvideo.com // 哔哩哔哩视频 CDN 加速节
 DOMAIN-SUFFIX,upos-sz-mirror08c.bilvideo.com // 哔哩哔哩视频 CDN 加速节点
 DOMAIN-SUFFIX,api.bilibili.com // 哔哩哔哩主站核心接口，用于内容获取、用户交互与功能请求
 DOMAIN-SUFFIX,archive.biliimg.com # Bilibili 静态资源域名，用于加载历史图像与媒体内容
+DOMAIN-SUFFIX,mcdn.bilivideo.cn # 哔哩哔哩视频 CDN 域名，用于分发视频内容
 DOMAIN-SUFFIX,xy223x247x68x214xy.mcdn.bilivideo.cn // Bilibili 视频分发 CDN 节点（移动端专用）
 DOMAIN-SUFFIX,xy36x163x193x66xy.mcdn.bilivideo.cn # 哔哩哔哩视频 CDN 域名，分发高清视频内容
 DOMAIN-SUFFIX,aecj3mcuk4jou6cs.nexusedgeio.com // Bilibili 视频内容加速节点，托管于第三方 CDN 服务（NexusEdge）
