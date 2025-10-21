@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名，便于策略识别与分流（哔哩哔哩已独立归类至 Bilibili.list）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-09
+# - 更新时间：2025-10-21
 
 # >> 视频平台
 DOMAIN-SUFFIX,youku.com // 优酷视频
@@ -62,6 +62,7 @@ DOMAIN-SUFFIX,upos-sz-mirror08c.bilvideo.com // 哔哩哔哩视频 CDN 加速节
 DOMAIN-SUFFIX,api.bilibili.com // 哔哩哔哩主站核心接口，用于内容获取、用户交互与功能请求
 DOMAIN-SUFFIX,archive.biliimg.com # Bilibili 静态资源域名，用于加载历史图像与媒体内容
 DOMAIN-SUFFIX,xy223x247x68x214xy.mcdn.bilivideo.cn // Bilibili 视频分发 CDN 节点（移动端专用）
+DOMAIN-SUFFIX,xy36x163x193x66xy.mcdn.bilivideo.cn # 哔哩哔哩视频 CDN 域名，分发高清视频内容
 DOMAIN-SUFFIX,aecj3mcuk4jou6cs.nexusedgeio.com // Bilibili 视频内容加速节点，托管于第三方 CDN 服务（NexusEdge）
 DOMAIN-SUFFIX,upos-sz-302ppio.bilivideo.com // Bilibili UPOS 上传/下载服务节点（深圳分区）
 DOMAIN-SUFFIX,kuaishou.com // 快手主站
