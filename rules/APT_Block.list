@@ -8,8 +8,8 @@
 
 # > APT1（中国 · 被 Mandiant 命名为 Comment Crew）
 
-IP-CIDR,108.61.246.56/32 # C2节点，Mandiant 报告披露
-IP-CIDR,63.141.241.186/32 # 控制服务器，上海相关基础设施，Mandiant 报告披露
+IP-CIDR,108.61.246.56 # C2节点，Mandiant 报告披露
+IP-CIDR,63.141.241.186 # 控制服务器，上海相关基础设施，Mandiant 报告披露
 DOMAIN-SUFFIX,ma-omaha.com # 控制服务器，上海相关基础设施，Mandiant 报告披露
 
 # > APT2（中国 · 又名 Putter Panda）
@@ -27,7 +27,7 @@ DOMAIN-SUFFIX,vssigma.com # 注册人邮箱为 cpyy@sina.com，被APT2用于远�
 
 # > APT3（中国 · 被 FireEye 命名为 UPS Team / Gothic Panda）
 
-IP-CIDR,96.44.136.115/32 # C2，早期使用 HTTPS 后门通信
+IP-CIDR,96.44.136.115 # C2，早期使用 HTTPS 后门通信
 DOMAIN-SUFFIX,ups-backup.com # 使用的伪装 UPS 快递域名
 
 # > APT4（印度 · 被 MITRE 命名为 Sidewinder / T-APT-04）
@@ -36,14 +36,14 @@ DOMAIN-SUFFIX,dgtk.depo-govpk.com # Sidewinder 使用的载荷下载控制域名
 
 # > APT5 （中国· UNC2630 / Keyhole Panda / Manganese）
 
-IP-CIDR,165.232.136.220/32 # C2 之一，Citrix ADC 利用通道资料
+IP-CIDR,165.232.136.220 # C2 之一，Citrix ADC 利用通道资料
 DOMAIN-SUFFIX,citrixadc-update.com # 伪造 Citrix ADC 域名用于漏洞利用链
 DOMAIN-SUFFIX,keyholepanda-tracker.net # Manganese / Keyhole Panda 列出的域名样例
 
 # > APT6 （中国 · 又名 “Ke3chang” 或 “MenuPass”）
 
 DOMAIN-SUFFIX,cdn.dropboxapi.com # 常用伪装 C2 通信
-IP-CIDR,185.53.178.8/32 # MenuPass C2，相关域名解析IP
+IP-CIDR,185.53.178.8 # MenuPass C2，相关域名解析IP
 
 # > APT7（伊朗 · ClearSky 命名为 Rocket Kitten）
 
@@ -55,46 +55,46 @@ DOMAIN-SUFFIX,britishnews.co # Rocket Kitten 钓鱼伪装域名之一，ClearSky
 
 # > APT8 （朝鲜 · 又名为 DarkHotel）
 
-IP-CIDR,23.111.184.119/32 # DarkHotel C2 IP，Trellix 披露用于持续活动中
+IP-CIDR,23.111.184.119 # DarkHotel C2 IP，Trellix 披露用于持续活动中
 
 DOMAIN-SUFFIX,signing-config.com # DarkHotel 使用的控制服务器域名，Zscaler 报告披露
 
 # > APT9 (亚洲 · 又名 “Naikon”)
 
 DOMAIN-SUFFIX,mailofficedns.com # APT9 的钓鱼C2基础设施
-IP-CIDR,91.219.236.157/32 # Naikon 常用通信出口地址
+IP-CIDR,91.219.236.157 # Naikon 常用通信出口地址
 
 # > APT10 （中国 · FireEye 命名为 Stone Panda）
 
 DOMAIN-SUFFIX,update.icloudsync.net # APT10 钓鱼活动中伪装 Apple iCloud 域名
-IP-CIDR,45.77.173.179/32 # 用于远程命令控制的 VPS 地址
+IP-CIDR,45.77.173.179 # 用于远程命令控制的 VPS 地址
 DOMAIN-SUFFIX,microsoft-updates.org # 模拟 Windows 更新域名进行持久化连接
 DOMAIN-SUFFIX,cdn.office365updates.com # 投递恶意文档后用于回传数据的伪 CDN 域名
-IP-CIDR,103.112.45.200/32 # 活动中的 payload / 控制节点之一
+IP-CIDR,103.112.45.200 # 活动中的 payload / 控制节点之一
 
 # > APT11 （中国 · 又名 Comment Crew / APT1 关联组）
 
 DOMAIN-SUFFIX,greenfurnishings.com # APT11 C2 域名，Mandiant 报告披露
-IP-CIDR,58.246.239.22/32 # APT11 控制器IP，疑似与“Comment Crew”关联
+IP-CIDR,58.246.239.22 # APT11 控制器IP，疑似与“Comment Crew”关联
 
 # > APT12 （中国 · 被 CrowdStrike 命名为 Numbered Panda）
 
 DOMAIN-SUFFIX,globalnewswire.org # APT12 伪装新闻门户，用于钓鱼传播后门
-IP-CIDR,211.253.30.114/32 # APT12 远控服务通信IP，来源于攻击日志样本
+IP-CIDR,211.253.30.114 # APT12 远控服务通信IP，来源于攻击日志样本
 
 # > APT13 （中国 · 被命名为 KeyBoy）
 
 DOMAIN-SUFFIX,winserverupdater.com # C2 域名，常伪装系统更新
-IP-CIDR,178.238.232.202/32 # 控制节点，Unit42 报告披露
+IP-CIDR,178.238.232.202 # 控制节点，Unit42 报告披露
 
 # > APT14 （中国 · 被命名为 Naikon）
 
 DOMAIN-SUFFIX,oceaninfosys.net # 针对海事单位的 C2 域名
-IP-CIDR,74.208.4.200/32 # 回传数据节点，攻击样本中提取
+IP-CIDR,74.208.4.200 # 回传数据节点，攻击样本中提取
 
 # > APT15（中国 · FireEye 命名为 Ke3chang / Secureworks 命名为 BRONZE PRESIDENT）
 
-IP-CIDR,122.10.84.147/32 # C2 控制器，使用 DNS 隧道进行隐蔽通信，FireEye 报告披露
+IP-CIDR,122.10.84.147 # C2 控制器，使用 DNS 隧道进行隐蔽通信，FireEye 报告披露
 
 # > APT16 （中国 · FireEye 命名为 DeputyDog）
 
@@ -102,11 +102,11 @@ DOMAIN-SUFFIX,washingtonpost.xyz # 钓鱼域名，针对日本政治目标,  Fir
 
 # > APT17 （中国 · CrowdStrike 命名为 DeputyDog）
 
-IP-CIDR,103.20.198.48/32 # C2 控制器，关联 Hacking Team 泄漏工具组件, CrowdStrike  报告披露
+IP-CIDR,103.20.198.48 # C2 控制器，关联 Hacking Team 泄漏工具组件, CrowdStrike  报告披露
 
 # > APT18 （中国 · Mandiant 命名为 Dynamite Panda）
 
-IP-CIDR,61.160.224.211/32 # C2 控制器，攻击医疗行业，使用 Gh0st RAT，Mandiant 报告披露
+IP-CIDR,61.160.224.211 # C2 控制器，攻击医疗行业，使用 Gh0st RAT，Mandiant 报告披露
 
 # > APT19 （中国 · FireEye 命名为 Codoso Team）
 
@@ -118,7 +118,7 @@ DOMAIN-SUFFIX,sitemaps.ftpaccess.org # C2 域名，用于攻击工业与政府�
 
 # > APT21 （中国 · 未正式命名）
 
-IP-CIDR,203.81.105.97/32 # APT21 疑似与 APT1 有交集，攻击政府机构
+IP-CIDR,203.81.105.97 # APT21 疑似与 APT1 有交集，攻击政府机构
 
 # > APT22 （越南 · FireEye 命名为 OceanLotus）
 
@@ -126,7 +126,7 @@ DOMAIN-SUFFIX,secure-update-check.com # 钓鱼活动中的常用 C2 FireEye
 
 # > APT23 （越南 · 未正式命名）
 
-IP-CIDR,103.255.244.87/32 # C2 控制器，使用远控工具
+IP-CIDR,103.255.244.87 # C2 控制器，使用远控工具
 
 # > APT24 （北朝鲜 · Lazarus Group 分支）
 
@@ -134,7 +134,7 @@ DOMAIN-SUFFIX,googleadsanalytics.com # 疑似金融攻击路径相关域名
 
 # > APT25 （伊朗 · 未正式命名）
 
-IP-CIDR,185.213.155.34/32 # C2 控制器，用于工业间谍与国家关键基础设施攻击
+IP-CIDR,185.213.155.34 # C2 控制器，用于工业间谍与国家关键基础设施攻击
 
 # > APT26 （伊朗 · 未正式命名）
 
@@ -213,10 +213,10 @@ IP-CIDR,119.28.100.0/24 # 使用的 C2 与信息收集服务器, Recorded Future
 
 # > APT41 （中国 · FireEye 命名为 Double Dragon）
 
-IP-CIDR,158.247.199.185/32 # C2，常用于 DNS TXT 隧道通信
+IP-CIDR,158.247.199.185 # C2，常用于 DNS TXT 隧道通信
 DOMAIN-SUFFIX,flnetupdate.com # 在 2020 年攻击医疗、教育行业时使用的伪装更新域名
 DOMAIN-SUFFIX,browser-update.org # 常用浏览器伪更新钓鱼域名, CrowdStrike 报告披露
-IP-CIDR,45.120.67.15/32 # 远控服务器IP，曾用于 Winnti 工具集
+IP-CIDR,45.120.67.15 # 远控服务器IP，曾用于 Winnti 工具集
 
 # > APT42 双尾蝎（中东地区组织· 360命名）
 
@@ -240,8 +240,8 @@ DOMAIN,bbbb4.noip.me # 第一阶段 C2，部署 njRAT，2014–2015，360 披露
 DOMAIN,basharalassad1sea.noip.me # 第二阶段 C2，部署 DarkKomet、AndroRAT，2015–2016，360 披露  
 DOMAIN,telgram.strangled.net # 第三阶段钓鱼域名，伪装 Telegram，2017 起，360 披露  
 DOMAIN,chatsecurelite.us.to # 第四阶段 C2，伪装安全通信工具，2017 起，360 披露  
-IP-CIDR,31.9.48.183/32 # 第一/二阶段 C2 控制器，360 披露  
-IP-CIDR,82.137.255.56/32 # 第三阶段 Android/PC 控制器，2017 起，360 披露
+IP-CIDR,31.9.48.183 # 第一/二阶段 C2 控制器，360 披露  
+IP-CIDR,82.137.255.56 # 第三阶段 Android/PC 控制器，2017 起，360 披露
 
 # > APT46 拍羽蛇 （中东地区组织 · 360命名）
 
@@ -263,11 +263,11 @@ IP-CIDR,82.137.255.56/32 # 第三阶段 Android/PC 控制器，2017 起，360 �
 
 # > APT55 WellMess （俄罗斯 · 360命名）
 
-IP-CIDR,103.73.188.101/32 # 控制服务器 IP，CISA MAR 报告披露  
-IP-CIDR,141.98.212.55/32 # C2 控制器 IP，CISA 报告披露  
-IP-CIDR,192.48.88.107/32 # C2 通信节点 IP，CISA 报告披露  
-IP-CIDR,209.58.186.196/32 # 控制节点 IP，CISA 报告披露  
-IP-CIDR,85.93.2.116/32 # 控制节点 IP，CISA 报告披露  
+IP-CIDR,103.73.188.101 # 控制服务器 IP，CISA MAR 报告披露  
+IP-CIDR,141.98.212.55 # C2 控制器 IP，CISA 报告披露  
+IP-CIDR,192.48.88.107 # C2 通信节点 IP，CISA 报告披露  
+IP-CIDR,209.58.186.196 # 控制节点 IP，CISA 报告披露  
+IP-CIDR,85.93.2.116 # 控制节点 IP，CISA 报告披露  
 
 # > APT56 Gamaredon （俄罗斯 · 360命名）
 
@@ -287,7 +287,7 @@ DOMAIN-SUFFIX,storyonboard.net # 历史活动中使用的 C2 控制域名
 DOMAIN-SUFFIX,tisone360.org # C2 域名，常与 Flash 漏洞利用及伪装组件相关  
 DOMAIN-SUFFIX,openofficev.info # 用于投递载荷与伪装更新的通信域名
 DOMAIN-SUFFIX,saytargetworld.net # 被用于历史攻击中的控制通信 
-IP-CIDR,23.111.184.119/32 # 新攻击活动中的 C2 控制器，Trellix 报告披露
+IP-CIDR,23.111.184.119 # 新攻击活动中的 C2 控制器，Trellix 报告披露
 
 # > APT63 蓝箭组织 （朝鲜 · 360命名）
 
@@ -323,32 +323,32 @@ DOMAIN-SUFFIX,868id.com # GhostRedirector 及 Gamshen 使用的跳板域名集�
 DOMAIN-SUFFIX,881vn.com # GhostRedirector 节点域名，PEG TECH 托管
 DOMAIN-SUFFIX,822th.com # GhostRedirector 节点域名，PEG TECH 托管
 DOMAIN-SUFFIX,cs01.shop # Comdai 控制节点域名，用于远控通信
-IP-CIDR,104.233.192.1/32 # GhostRedirector 节点 IP，PEG TECH 托管
-IP-CIDR,104.233.210.229/32 # GhostRedirector 节点 IP，复用于多个域名
-IP-CIDR,43.228.126.4/32 # Comdai 控制节点 IP
-IP-CIDR,103.251.112.11/32 # GhostRedirector 单独节点 IP（无明确域名绑定）
+IP-CIDR,104.233.192.1 # GhostRedirector 节点 IP，PEG TECH 托管
+IP-CIDR,104.233.210.229 # GhostRedirector 节点 IP，复用于多个域名
+IP-CIDR,43.228.126.4 # Comdai 控制节点 IP
+IP-CIDR,103.251.112.11 # GhostRedirector 单独节点 IP（无明确域名绑定）
 
 # > PlushDaemon / SlowStepper C2 节点（APT工具链，包括 SlowStepper、agent.mod、soc.mod）- APT15
 
 DOMAIN-SUFFIX,wcssetl.com # PlushDaemon 相关域名，用于 agent.mod / soc.mod 工具通信
 DOMAIN-SUFFIX,360safe1.company # SlowStepper 利用该域名进行 DNS TXT 记录查询与 C2 通信
-IP-CIDR,202.189.8.172/32 # soc.mod 组件使用的反向代理节点（PlushDaemon）
-IP-CIDR,47.96.17.123/32 # agent.mod 使用的通信服务器（PlushDaemon）
-IP-CIDR,202.105.1.187/32 # SlowStepper 后备 C2 节点
-IP-CIDR,47.74.159.166/32 # SlowStepper 控制节点
-IP-CIDR,8.130.87.1195/32 # SlowStepper 控制节点（IP格式疑似错误，待确认）
-IP-CIDR,47.108.162.1218/32 # SlowStepper 控制节点（IP格式疑似错误，待确认）
-IP-CIDR,47.113.200.118/32 # SlowStepper 控制节点
-IP-CIDR,47.104.138.1190/32 # SlowStepper 控制节点（IP格式疑似错误，待确认）
-IP-CIDR,120.24.193.158/32 # SlowStepper 控制节点
-IP-CIDR,202.189.8.187/32 # SlowStepper 控制节点
-IP-CIDR,202.189.8.169/32 # SlowStepper 控制节点
-IP-CIDR,202.189.8.193/32 # SlowStepper 控制节点
-IP-CIDR,47.92.6.164/32 # SlowStepper 控制节点
+IP-CIDR,202.189.8.172 # soc.mod 组件使用的反向代理节点（PlushDaemon）
+IP-CIDR,47.96.17.123 # agent.mod 使用的通信服务器（PlushDaemon）
+IP-CIDR,202.105.1.187 # SlowStepper 后备 C2 节点
+IP-CIDR,47.74.159.166 # SlowStepper 控制节点
+IP-CIDR,8.130.87.1195 # SlowStepper 控制节点（IP格式疑似错误，待确认）
+IP-CIDR,47.108.162.1218 # SlowStepper 控制节点（IP格式疑似错误，待确认）
+IP-CIDR,47.113.200.118 # SlowStepper 控制节点
+IP-CIDR,47.104.138.1190 # SlowStepper 控制节点（IP格式疑似错误，待确认）
+IP-CIDR,120.24.193.158 # SlowStepper 控制节点
+IP-CIDR,202.189.8.187 # SlowStepper 控制节点
+IP-CIDR,202.189.8.169 # SlowStepper 控制节点
+IP-CIDR,202.189.8.193 # SlowStepper 控制节点
+IP-CIDR,47.92.6.164 # SlowStepper 控制节点
 
 # > Amavaldo 银行木马（拉丁美洲 · C2 控制节点）
 
-DOMAIN-SUFFIX,clausdomain.homeunix.com  # Amavaldo C2 控制服务器，使用动态 DNS 域名，端口 3928
+DOMAIN-SUFFIX,clausdomain.homeunix.com # Amavaldo C2 控制服务器，使用动态 DNS 域名，端口 3928
 DOMAIN-SUFFIX,balacimed.mine.nu # Amavaldo C2 控制服务器，端口 3579
 DOMAIN-SUFFIX,fbclinica.game-server.cc # Amavaldo 控制节点，端口 3351
 DOMAIN-SUFFIX,newcharlesxl.scrapping.cc # Amavaldo 控制节点，端口 3844
@@ -356,8 +356,8 @@ DOMAIN-SUFFIX,newcharlesxl.scrapping.cc # Amavaldo 控制节点，端口 3844
 # > APT_C_60（归属不明 · C2 控制节点，IOC 来自样本分析）
 
 DOMAIN-SUFFIX,rammenale.com  # APT_C_60 控制域名，作为 C2 回连目标
-IP-CIDR,162.222.214.148/32 # APT_C_60 控制服务器 IP，样本中记录的 C2 地址
-IP-CIDR,131.153.206.231/32 # APT_C_60 控制服务器 IP，C2 通信节点
+IP-CIDR,162.222.214.148 # APT_C_60 控制服务器 IP，样本中记录的 C2 地址
+IP-CIDR,131.153.206.231 # APT_C_60 控制服务器 IP，C2 通信节点
 
 # > AridSpy（中东地区 · 安卓间谍软件 · 多平台 Firebase / 自建域名混用）
 
@@ -381,97 +381,146 @@ DOMAIN-SUFFIX,nortirchats.com # AridSpy 控制域名，疑似通信平台伪装
 DOMAIN-SUFFIX,ultraversion.com # AridSpy 控制域名，可能用于版本更新诱导安装
 
 # > Asylum Ambuscade
-DOMAIN-SUFFIX,snowzet.com  # Asylum Ambuscade C2域名，用于部署Cobalt Strike工具
-DOMAIN-SUFFIX,namesilo.my.id  # Asylum Ambuscade 回连域名，常用于指向Cloudflare接入节点
-IP-CIDR,5.39.222.150/32  # Asylum Ambuscade 控制节点，未绑定域名
-IP-CIDR,5.44.42.27/32  # Cobalt Strike服务器，对应域名 snowzet.com
-IP-CIDR,5.230.68.137/32  # Asylum Ambuscade 回连IP，常用于远程控制连接
-IP-CIDR,5.230.71.166/32  # Asylum Ambuscade 活跃C2地址
-IP-CIDR,5.230.72.38/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,5.230.72.148/32  # Asylum Ambuscade 回连C2节点
-IP-CIDR,5.230.73.57/32  # Asylum Ambuscade 回连IP
-IP-CIDR,5.230.73.63/32  # Asylum Ambuscade 控制节点
-IP-CIDR,5.230.73.241/32  # Asylum Ambuscade 活跃节点
-IP-CIDR,5.230.73.247/32  # Asylum Ambuscade 控制节点
-IP-CIDR,5.230.73.248/32  # Asylum Ambuscade 回连节点
-IP-CIDR,5.230.73.250/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,5.252.118.132/32  # Asylum Ambuscade 回连服务器
-IP-CIDR,5.252.118.204/32  # Asylum Ambuscade 控制端
-IP-CIDR,5.255.88.222/32  # Asylum Ambuscade C2节点
-IP-CIDR,23.106.123.119/32  # Asylum Ambuscade 控制IP
-IP-CIDR,31.192.105.28/32  # Asylum Ambuscade 回连节点
-IP-CIDR,45.76.211.131/32  # Asylum Ambuscade 控制地址
-IP-CIDR,45.77.185.151/32  # Asylum Ambuscade Cobalt Strike部署节点
-IP-CIDR,45.132.1.238/32  # Asylum Ambuscade 活跃IP
-IP-CIDR,45.147.229.20/32  # Asylum Ambuscade 控制节点
-IP-CIDR,46.17.98.190/32  # Asylum Ambuscade 回连IP
-IP-CIDR,46.151.24.197/32  # Asylum Ambuscade 控制地址
-IP-CIDR,46.151.24.226/32  # Asylum Ambuscade 控制节点
-IP-CIDR,46.151.25.15/32  # Asylum Ambuscade 活跃IP
-IP-CIDR,46.151.25.49/32  # Asylum Ambuscade 控制地址
-IP-CIDR,46.151.28.18/32  # Asylum Ambuscade 回连地址
-IP-CIDR,51.83.182.153/32  # Asylum Ambuscade C2服务器
-IP-CIDR,51.83.189.185/32  # Asylum Ambuscade 控制端
-IP-CIDR,62.84.99.195/32  # Asylum Ambuscade 回连节点
-IP-CIDR,62.204.41.171/32  # Asylum Ambuscade 控制节点
-IP-CIDR,77.83.197.138/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,79.137.196.121/32  # Asylum Ambuscade 回连端点
-IP-CIDR,79.137.197.187/32  # Asylum Ambuscade 控制地址
-IP-CIDR,80.66.88.155/32  # Asylum Ambuscade 控制IP
-IP-CIDR,84.32.188.29/32  # Asylum Ambuscade 控制节点
-IP-CIDR,84.32.188.96/32  # Asylum Ambuscade 活跃IP
-IP-CIDR,85.192.49.106/32  # Asylum Ambuscade 控制节点
-IP-CIDR,85.192.63.13/32  # Asylum Ambuscade 回连地址
-IP-CIDR,85.192.63.126/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,85.239.60.40/32  # Asylum Ambuscade 控制端
-IP-CIDR,88.210.10.62/32  # Asylum Ambuscade 回连服务器
-IP-CIDR,89.41.182.94/32  # Asylum Ambuscade 控制节点
-IP-CIDR,89.107.10.7/32  # Asylum Ambuscade 控制地址
-IP-CIDR,89.208.105.255/32  # Asylum Ambuscade 控制IP
-IP-CIDR,91.245.253.112/32  # Asylum Ambuscade 控制端点
-IP-CIDR,94.103.83.46/32  # Asylum Ambuscade 控制节点
-IP-CIDR,94.140.114.133/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,94.140.114.230/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,94.140.115.44/32  # Asylum Ambuscade 控制IP
-IP-CIDR,94.232.41.96/32  # Asylum Ambuscade 控制节点
-IP-CIDR,94.232.41.108/32  # Asylum Ambuscade 控制节点
-IP-CIDR,94.232.43.214/32  # Asylum Ambuscade 控制端
-IP-CIDR,98.142.251.26/32  # Asylum Ambuscade 控制地址
-IP-CIDR,98.142.251.226/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,104.234.118.163/32  # Asylum Ambuscade 控制节点
-IP-CIDR,104.248.149.122/32  # Asylum Ambuscade 控制端
-IP-CIDR,109.107.173.72/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,116.203.252.67/32  # Asylum Ambuscade 控制节点
-IP-CIDR,128.199.82.141/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,139.162.116.148/32  # Asylum Ambuscade 控制地址
-IP-CIDR,141.105.64.121/32  # Asylum Ambuscade 控制端点
-IP-CIDR,146.0.77.15/32  # Asylum Ambuscade 控制IP
-IP-CIDR,146.70.79.117/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,157.254.194.225/32  # Asylum Ambuscade 控制节点
-IP-CIDR,157.254.194.238/32  # Asylum Ambuscade 控制节点
-IP-CIDR,172.64.80.1/32  # Cloudflare节点，对应 namesilo.my.id 回连行为
-IP-CIDR,172.86.75.49/32  # Asylum Ambuscade 控制地址
-IP-CIDR,172.104.94.104/32  # Asylum Ambuscade 控制节点
-IP-CIDR,172.105.235.94/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,172.105.253.139/32  # Asylum Ambuscade 控制节点
-IP-CIDR,176.124.214.229/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,176.124.217.20/32  # Asylum Ambuscade 控制节点
-IP-CIDR,185.70.184.44/32  # Asylum Ambuscade 控制IP
-IP-CIDR,185.82.126.133/32  # Asylum Ambuscade 控制地址
-IP-CIDR,185.123.53.49/32  # Asylum Ambuscade 控制节点
-IP-CIDR,185.150.117.122/32  # Asylum Ambuscade 控制节点
-IP-CIDR,185.163.45.221/32  # Asylum Ambuscade 控制节点
-IP-CIDR,193.109.69.52/32  # Asylum Ambuscade 控制端
-IP-CIDR,193.142.59.152/32  # Asylum Ambuscade 控制端
-IP-CIDR,193.142.59.169/32  # Asylum Ambuscade 控制端
-IP-CIDR,194.180.174.51/32  # Asylum Ambuscade 控制服务器
-IP-CIDR,195.2.81.70/32  # Asylum Ambuscade 控制节点
-IP-CIDR,195.133.196.230/32  # Asylum Ambuscade 控制节点
-IP-CIDR,212.113.106.27/32  # Asylum Ambuscade 控制地址
-IP-CIDR,212.113.116.147/32  # Asylum Ambuscade 控制节点
-IP-CIDR,212.118.43.231/32  # Asylum Ambuscade 控制节点
-IP-CIDR,213.109.192.230/32  # Asylum Ambuscade 控制节点
+
+DOMAIN-SUFFIX,snowzet.com # Asylum Ambuscade C2域名，用于部署Cobalt Strike工具
+DOMAIN-SUFFIX,namesilo.my.id # Asylum Ambuscade 回连域名，常用于指向Cloudflare接入节点
+IP-CIDR,5.39.222.150 # Asylum Ambuscade 控制节点，未绑定域名
+IP-CIDR,5.44.42.27 # Cobalt Strike服务器，对应域名 snowzet.com
+IP-CIDR,5.230.68.137 # Asylum Ambuscade 回连IP，常用于远程控制连接
+IP-CIDR,5.230.71.166 # Asylum Ambuscade 活跃C2地址
+IP-CIDR,5.230.72.38 # Asylum Ambuscade 控制服务器
+IP-CIDR,5.230.72.148 # Asylum Ambuscade 回连C2节点
+IP-CIDR,5.230.73.57 # Asylum Ambuscade 回连IP
+IP-CIDR,5.230.73.63 # Asylum Ambuscade 控制节点
+IP-CIDR,5.230.73.241 # Asylum Ambuscade 活跃节点
+IP-CIDR,5.230.73.247 # Asylum Ambuscade 控制节点
+IP-CIDR,5.230.73.248 # Asylum Ambuscade 回连节点
+IP-CIDR,5.230.73.250 # Asylum Ambuscade 控制服务器
+IP-CIDR,5.252.118.132 # Asylum Ambuscade 回连服务器
+IP-CIDR,5.252.118.204 # Asylum Ambuscade 控制端
+IP-CIDR,5.255.88.222 # Asylum Ambuscade C2节点
+IP-CIDR,23.106.123.119 # Asylum Ambuscade 控制IP
+IP-CIDR,31.192.105.28 # Asylum Ambuscade 回连节点
+IP-CIDR,45.76.211.131 # Asylum Ambuscade 控制地址
+IP-CIDR,45.77.185.151 # Asylum Ambuscade Cobalt Strike部署节点
+IP-CIDR,45.132.1.238 # Asylum Ambuscade 活跃IP
+IP-CIDR,45.147.229.20 # Asylum Ambuscade 控制节点
+IP-CIDR,46.17.98.190 # Asylum Ambuscade 回连IP
+IP-CIDR,46.151.24.197 # Asylum Ambuscade 控制地址
+IP-CIDR,46.151.24.226 # Asylum Ambuscade 控制节点
+IP-CIDR,46.151.25.15 # Asylum Ambuscade 活跃IP
+IP-CIDR,46.151.25.49 # Asylum Ambuscade 控制地址
+IP-CIDR,46.151.28.18 # Asylum Ambuscade 回连地址
+IP-CIDR,51.83.182.153 # Asylum Ambuscade C2服务器
+IP-CIDR,51.83.189.185 # Asylum Ambuscade 控制端
+IP-CIDR,62.84.99.195 # Asylum Ambuscade 回连节点
+IP-CIDR,62.204.41.171 # Asylum Ambuscade 控制节点
+IP-CIDR,77.83.197.138 # Asylum Ambuscade 控制服务器
+IP-CIDR,79.137.196.121 # Asylum Ambuscade 回连端点
+IP-CIDR,79.137.197.187 # Asylum Ambuscade 控制地址
+IP-CIDR,80.66.88.155 # Asylum Ambuscade 控制IP
+IP-CIDR,84.32.188.29 # Asylum Ambuscade 控制节点
+IP-CIDR,84.32.188.96 # Asylum Ambuscade 活跃IP
+IP-CIDR,85.192.49.106 # Asylum Ambuscade 控制节点
+IP-CIDR,85.192.63.13 # Asylum Ambuscade 回连地址
+IP-CIDR,85.192.63.126 # Asylum Ambuscade 控制服务器
+IP-CIDR,85.239.60.40 # Asylum Ambuscade 控制端
+IP-CIDR,88.210.10.62 # Asylum Ambuscade 回连服务器
+IP-CIDR,89.41.182.94 # Asylum Ambuscade 控制节点
+IP-CIDR,89.107.10.7 # Asylum Ambuscade 控制地址
+IP-CIDR,89.208.105.255 # Asylum Ambuscade 控制IP
+IP-CIDR,91.245.253.112 # Asylum Ambuscade 控制端点
+IP-CIDR,94.103.83.46 # Asylum Ambuscade 控制节点
+IP-CIDR,94.140.114.133 # Asylum Ambuscade 控制服务器
+IP-CIDR,94.140.114.230 # Asylum Ambuscade 控制服务器
+IP-CIDR,94.140.115.44 # Asylum Ambuscade 控制IP
+IP-CIDR,94.232.41.96 # Asylum Ambuscade 控制节点
+IP-CIDR,94.232.41.108 # Asylum Ambuscade 控制节点
+IP-CIDR,94.232.43.214 # Asylum Ambuscade 控制端
+IP-CIDR,98.142.251.26 # Asylum Ambuscade 控制地址
+IP-CIDR,98.142.251.226 # Asylum Ambuscade 控制服务器
+IP-CIDR,104.234.118.163 # Asylum Ambuscade 控制节点
+IP-CIDR,104.248.149.122 # Asylum Ambuscade 控制端
+IP-CIDR,109.107.173.72 # Asylum Ambuscade 控制服务器
+IP-CIDR,116.203.252.67 # Asylum Ambuscade 控制节点
+IP-CIDR,128.199.82.141 # Asylum Ambuscade 控制服务器
+IP-CIDR,139.162.116.148 # Asylum Ambuscade 控制地址
+IP-CIDR,141.105.64.121 # Asylum Ambuscade 控制端点
+IP-CIDR,146.0.77.15 # Asylum Ambuscade 控制IP
+IP-CIDR,146.70.79.117 # Asylum Ambuscade 控制服务器
+IP-CIDR,157.254.194.225 # Asylum Ambuscade 控制节点
+IP-CIDR,157.254.194.238 # Asylum Ambuscade 控制节点
+IP-CIDR,172.64.80.1 # Cloudflare节点，对应 namesilo.my.id 回连行为
+IP-CIDR,172.86.75.49 # Asylum Ambuscade 控制地址
+IP-CIDR,172.104.94.104 # Asylum Ambuscade 控制节点
+IP-CIDR,172.105.235.94 # Asylum Ambuscade 控制服务器
+IP-CIDR,172.105.253.139 # Asylum Ambuscade 控制节点
+IP-CIDR,176.124.214.229 # Asylum Ambuscade 控制服务器
+IP-CIDR,176.124.217.20 # Asylum Ambuscade 控制节点
+IP-CIDR,185.70.184.44 # Asylum Ambuscade 控制IP
+IP-CIDR,185.82.126.133 # Asylum Ambuscade 控制地址
+IP-CIDR,185.123.53.49 # Asylum Ambuscade 控制节点
+IP-CIDR,185.150.117.122 # Asylum Ambuscade 控制节点
+IP-CIDR,185.163.45.221 # Asylum Ambuscade 控制节点
+IP-CIDR,193.109.69.52 # Asylum Ambuscade 控制端
+IP-CIDR,193.142.59.152 # Asylum Ambuscade 控制端
+IP-CIDR,193.142.59.169 # Asylum Ambuscade 控制端
+IP-CIDR,194.180.174.51 # Asylum Ambuscade 控制服务器
+IP-CIDR,195.2.81.70 # Asylum Ambuscade 控制节点
+IP-CIDR,195.133.196.230 # Asylum Ambuscade 控制节点
+IP-CIDR,212.113.106.27 # Asylum Ambuscade 控制地址
+IP-CIDR,212.113.116.147 # Asylum Ambuscade 控制节点
+IP-CIDR,212.118.43.231 # Asylum Ambuscade 控制节点
+IP-CIDR,213.109.192.230 # Asylum Ambuscade 控制节点
 
 # > Attor（中东与欧洲 · USB 模块化植入 · Onion C2 通信）
 
 DOMAIN,idayqh3zhj5j243t.lonion  # Tor 网络 C2 域名，仅在 Onion 网络中用于模块通信
+
+# > BackdoorDiplomacy
+
+DOMAIN-SUFFIX,bill.microsoftbuys.com # BackdoorDiplomacy C2域名，用于伪装微软更新服务器行为
+DOMAIN-SUFFIX,buffetfactory.oicp.io # BackdoorDiplomacy 控制域名，常用于回连通信
+DOMAIN-SUFFIX,dnsupdate.dns2.us # BackdoorDiplomacy DNS更新类C2域名
+DOMAIN-SUFFIX,dynsystem.imbbs.in # BackdoorDiplomacy 控制域名，用于动态系统信息回传
+DOMAIN-SUFFIX,icta.worldmessg.com # BackdoorDiplomacy 控制域名，伪装官方通信服务
+DOMAIN-SUFFIX,infoafrica.top # BackdoorDiplomacy 控制域名，疑似针对非洲机构投放
+DOMAIN-SUFFIX,officeupdate.ns01.us # BackdoorDiplomacy C2域名，模拟微软更新服务
+DOMAIN-SUFFIX,officeupdates.cleansite.us # BackdoorDiplomacy 控制端域名，用于后门部署
+DOMAIN-SUFFIX,pmdskm.top # BackdoorDiplomacy 控制域名，用于植入通信
+DOMAIN-SUFFIX,szsz.pmdskm.top # BackdoorDiplomacy 控制子域名，部署后门通信节点
+DOMAIN-SUFFIX,systeminfo.cleansite.info # BackdoorDiplomacy 控制域名，用于系统信息收集
+DOMAIN-SUFFIX,systeminfo.myftp.name # BackdoorDiplomacy 回连域名，用于信息同步
+DOMAIN-SUFFIX,systeminfo.oicp.net # BackdoorDiplomacy 控制端节点，执行远程命令
+DOMAIN-SUFFIX,updateip.onmypc.net # BackdoorDiplomacy 控制域名，用于更新回连通道
+DOMAIN-SUFFIX,web.vpnkerio.com # BackdoorDiplomacy 控制平台伪装域名
+DOMAIN-SUFFIX,winupdate.ns02.us # BackdoorDiplomacy C2域名，模拟系统更新服务
+DOMAIN-SUFFIX,www.freedns02.dns2.us # BackdoorDiplomacy 控制域名，搭建动态回连平台
+DOMAIN-SUFFIX,www.intelupdate.dns1.us # BackdoorDiplomacy 控制节点，模拟Intel更新服务
+IP-CIDR,23.83.224.178 # BackdoorDiplomacy 控制节点IP
+IP-CIDR,23.106.140.207 # BackdoorDiplomacy 回连服务器，部署远控行为
+IP-CIDR,23.228.203.130 # BackdoorDiplomacy 控制端IP，用于命令下发
+IP-CIDR,43.225.126.179 # BackdoorDiplomacy 控制节点IP
+IP-CIDR,43.251.105.139 # BackdoorDiplomacy 控制IP，重复部署多个任务
+IP-CIDR,43.251.105.218 # BackdoorDiplomacy 回连服务器，执行远控通信
+IP-CIDR,43.251.105.222 # BackdoorDiplomacy 控制端节点IP
+IP-CIDR,45.76.120.84 # BackdoorDiplomacy 控制IP，部署后门通信模块
+IP-CIDR,45.77.215.53 # BackdoorDiplomacy 控制服务器，用于命令与数据交互
+IP-CIDR,78.141.196.159 # BackdoorDiplomacy 控制IP，部署远程监听行为
+IP-CIDR,78.141.243.45 # BackdoorDiplomacy 控制节点，用于命令控制
+IP-CIDR,152.32.180.34 # BackdoorDiplomacy 控制服务器IP
+IP-CIDR,162.209.167.154 # BackdoorDiplomacy C2控制端IP
+IP-CIDR,162.209.167.189 # BackdoorDiplomacy 控制节点，用于远程任务推送
+IP-CIDR,199.247.9.67 # BackdoorDiplomacy 控制节点IP
+IP-CIDR,207.148.8.82 # BackdoorDiplomacy 回连节点，伪装正常流量
+
+# > Badiis（中国目标 · 木马控制通信 · 多域名回连平台）
+
+DOMAIN-SUFFIX,allsoulu.com # Badiis 控制域名，部署多个子域与伪装网页
+DOMAIN-SUFFIX,asmkpo.com # Badiis 控制节点域名，用于端口 80 C2 通信
+DOMAIN-SUFFIX,g666.org # Badiis 控制域名，用于图像资源与 C2 指令
+DOMAIN-SUFFIX,goudie.in # Badiis 控制域名，C2 通信端口为 1024
+DOMAIN-SUFFIX,pz8.in # Badiis 控制域名，提供初始连接页面
+DOMAIN-SUFFIX,pz9.in # Badiis 控制域名，伪装跳转服务
+DOMAIN-SUFFIX,wlaspsd.com  # Badiis 控制域名，用于加载远程 JS 与命令模块
+IP-CIDR,202.100.206.136/32  # Badiis 控制服务器，开放 443 端口用于 TLS 通信
