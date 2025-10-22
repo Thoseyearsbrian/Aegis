@@ -4,16 +4,16 @@
 # - 特征：基于 DNS 查询模式、TLS 指纹（如 Client Hello）等行为模式识别并封锁，配合灰产 SDK 与分析节点检测
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-18
+# - 更新时间：2025-10-22
 
 # >> Apple 行为遥测服务
 DOMAIN-SUFFIX,dns.apple.com // Apple 网络状态探测域，非必须服务，可疑行为分析用
 DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
-DOMAIN,sylvan.apple.com # Apple iCloud 行为遥测服务（后台统计，建议拦截）
-DOMAIN,analytics.edge.apple # Apple 分析数据上报服务
-DOMAIN,feedbackws.apple.com # Apple 用户反馈与错误日志上报
-DOMAIN,crashlytics.apple.com # Apple 应用崩溃日志收集服务
-DOMAIN,supportmetrics.apple.com # Apple 支持行为追踪接口
+DOMAIN-SUFFIX,sylvan.apple.com # Apple iCloud 行为遥测服务（后台统计，建议拦截）
+DOMAIN-SUFFIX,analytics.edge.apple # Apple 分析数据上报服务
+DOMAIN-SUFFIX,feedbackws.apple.com # Apple 用户反馈与错误日志上报
+DOMAIN-SUFFIX,crashlytics.apple.com # Apple 应用崩溃日志收集服务
+DOMAIN-SUFFIX,supportmetrics.apple.com # Apple 支持行为追踪接口
 DOMAIN-SUFFIX,metrics.icloud.com # Apple iCloud 使用数据分析域名
 DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全统计上报服务
 DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上报接口（官方遥测）
@@ -60,12 +60,12 @@ DOMAIN-SUFFIX,segment.io # 用户行为追踪服务，广泛嵌入于 App 与网
 DOMAIN-SUFFIX,track.adform.net // Adform：广告行为监听器
 
 # >> 实验分流与行为测试平台
-DOMAIN,default.exp-tas.com // 实验分流平台，可能进行 A/B 测试配置注入
+DOMAIN-SUFFIX,default.exp-tas.com // 实验分流平台，可能进行 A/B 测试配置注入
 
 # >> 其他非归类通用域名
 DOMAIN-SUFFIX,inews.qq.com // 建议封锁，防监听
-DOMAIN,dataflow.biliapi.com # Bilibili 数据流分析接口，用于用户行为收集、推荐算法训练等
-DOMAIN,alarmsone.manageengine.com # ManageEngine 告警通知服务接口，用于设备/用户行为的后台告警与遥测
+DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流分析接口，用于用户行为收集、推荐算法训练等
+DOMAIN-SUFFIX,alarmsone.manageengine.com # ManageEngine 告警通知服务接口，用于设备/用户行为的后台告警与遥测
 
 # >> 抖音 / 字节跳动相关行为指纹
 DOMAIN-SUFFIX,mon.snssdk.com // 字节跳动行为统计与设备指纹接口
@@ -182,4 +182,4 @@ DOMAIN-SUFFIX,mirror.mesa-lab.net // MESA Lab 镜像 / 工具服务域
 DOMAIN-SUFFIX,control.mesa-lab.net // MESA 控制 / 任务下发接口
 
 # >> 迅雷行为分析接口
-DOMAIN,dlandroid.rcv.sandai.net  # 迅雷 Android 客户端行为监听接口，使用 HTTP 明文通信，上报遥测数据
+DOMAIN-SUFFIX,dlandroid.rcv.sandai.net  # 迅雷 Android 客户端行为监听接口，使用 HTTP 明文通信，上报遥测数据
