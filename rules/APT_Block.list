@@ -1267,7 +1267,7 @@ DOMAIN-SUFFIX,flygram.org # FlyGram C&C 控制服务器
 DOMAIN-SUFFIX,proxy1.signalplus.org # Signal Plus 代理服务器  
 DOMAIN-SUFFIX,www.flygram.org # FlyGram 恶意分发网站  
 
-» GreyEnergy - 远控基础设施 IOC
+# » GreyEnergy - 远控基础设施 IOC
 
 IP-CIDR,109.200.202.7 # GreyEnergy C&C 控制服务器  
 IP-CIDR,193.105.134.68 # GreyEnergy C&C 控制服务器  
