@@ -74,35 +74,37 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step-en.png" width="600">
 </p>
 
-## **⚠️ Notes**
+## ⚠️ Notes
 
 1. **Rule Mode must be enabled; otherwise, the Aegis rule set will not function properly**
 
-   ``` bash
-   Aegis is a personal firewall system specifically designed for Rule Mode. It only works correctly when Surge is set to Rule Mode. If you use Global Mode or Direct Mode, rules will not match, domain/IP classification will fail, and all protection and routing functionalities will be lost.
+   ```bash
+   Aegis is a personal firewall system specifically designed for Rule Mode. It only works correctly when Surge is set to Rule Mode. 
+   If you use Global Mode or Direct Mode, rules will not match, domain/IP classification will fail, and all protection and routing functionalities will be lost.
    ```
 
 2. **Disable or remove CN-specific rules such as:**
 
-   ``` bash
-   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list,DIRECT
-   GEOIP,CN,DIRECT
+   ```bash
+   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list,DIRECT   # Disable or remove similar rules
+   GEOIP,CN,DIRECT                                                                                  # Cannot coexist with the rule above
    ```
-
 
 3. **Place GEOIP,CN rule right before the final rule:**
 
-   ``` bash
-   GEOIP,CN,DIRECT
-   FINAL,REJECT
+   ```bash
+   # ... other rules ...
+   GEOIP,CN,DIRECT   # Recommended to place here
+   FINAL,REJECT      # Final rule
    ```
 
-4. **The GeoIP database only includes **mainland China** IPs. Avoid querying other countries:**
+4. **The GeoIP database only includes mainland China IPs. Avoid querying other countries:**
 
-   ``` bash
-   GEOIP,US,PROXY  # Invalid
-   GEOIP,HK,PROXY  # Invalid
-   GEOIP,CN,DIRECT # Valid
+   ```bash
+   GEOIP,US,PROXY   # Invalid, no matching records
+   GEOIP,AU,PROXY   # Invalid, no matching records
+   GEOIP,HK,PROXY   # Invalid, no matching records
+   GEOIP,CN,DIRECT  # Valid
    ```
 
 ## **🌟 Special Thanks**
