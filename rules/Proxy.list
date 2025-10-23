@@ -4,7 +4,7 @@
 # - 特征：用于识别代理客户端、订阅 API、节点管理平台等域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-22
+# - 更新时间：2025-10-23
 
 # » 通用代理订阅平台 / 节点服务
 DOMAIN-SUFFIX,api.subs.ee // 常见订阅转换服务平台
@@ -80,7 +80,7 @@ DOMAIN-SUFFIX,cloudcone.com // CloudCone VPS 提供商
 DOMAIN-SUFFIX,cloudways.com // Cloudways 云平台，部分代理部署平台
 DOMAIN-SUFFIX,v2rayssr.com // v2ray+ssr 综合配置下载站
 
-# » 其他第三方托管与节点来源
+# » 其他第三方域名
 DOMAIN-SUFFIX,freefq.com // 免费节点分享网站
 DOMAIN-SUFFIX,dlj.tf // Telegram Bot 或订阅地址常见跳转域
 DOMAIN-SUFFIX,steambroadcast.akamaized.net
@@ -7503,6 +7503,7 @@ DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源加载域名，服务于 Zoh
 DOMAIN-SUFFIX,static-zayo1.zohocdn.com # Zoho CDN 加速节点，可能归属 Zayo 网络（用于全球分发）
 DOMAIN-SUFFIX,static-lumen1.zohocdn.com # Zoho CDN 加速节点，可能归属 Lumen 网络（用于全球分发）
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
+DOMAIN-SUFFIX,pockyt.io # Pockyt 跨境支付平台官网域名，用于商户付款、提现与钱包服务
 DOMAIN-SUFFIX,fba02.fbsubcn01.cc # 代理节点域名（属于机场服务提供商）
 DOMAIN-SUFFIX,lk02.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,lk01.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
