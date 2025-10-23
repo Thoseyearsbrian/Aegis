@@ -83,11 +83,11 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
    If you use Global Mode or Direct Mode, rules will not match, domain/IP classification will fail, and all protection and routing functionalities will be lost.
    ```
 
-2. **Disable or remove CN-specific rules such as:**
+2. **GEOIP,CN and China domain rules can coexist and are processed in order**
 
    ```bash
-   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list,DIRECT   # Disable or remove similar rules
-   GEOIP,CN,DIRECT                                                                                 # Cannot coexist with the rule above
+   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list,DIRECT   # Precise match for CN-based domains
+   GEOIP,CN,DIRECT                                                                                 # Applies to unmatched traffic from CN IP ranges
    ```
 
 3. **Place GEOIP,CN rule right before the final rule:**

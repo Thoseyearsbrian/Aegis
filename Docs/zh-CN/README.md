@@ -83,11 +83,11 @@ SurgeAegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Su
    若使用全局模式或直连模式，将导致规则无法匹配，域名与 IP 无法识别分类，进而失去所有防护与分流能力。
    ```
 
-2. **禁用或删除 与 中国大陆 IP 地址段 相关的规则或规则集**
+2. **GEOIP,CN 与 中国大陆域名规则可共存,按顺序依次匹配**
 
    ```bash
-   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list, DIRECT   # 禁用或删除类似规则
-   GEOIP,CN,DIRECT                                                                                  # 与上一条类似的规则与本条规则不可共存
+   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list, DIRECT   # 精确匹配中国域名
+   GEOIP,CN,DIRECT                                                                                  # 用于未匹配域名的中国 IP 段流量
    ```
 
 3. **GEOIP-CN 查询规则建议紧随最终规则之上，以避免域名规则被忽略导致判断错误。**
