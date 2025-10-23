@@ -87,7 +87,7 @@ SurgeAegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Su
 
    ```bash
    RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list, DIRECT   # 禁用或删除类似规则
-   GEOIP,CN,DIRECT                                                                                   # 与上一条类似的规则与本条规则不可共存
+   GEOIP,CN,DIRECT                                                                                  # 与上一条类似的规则与本条规则不可共存
    ```
 
 3. **GEOIP-CN 查询规则建议紧随最终规则之上，以避免域名规则被忽略导致判断错误。**

@@ -87,7 +87,7 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
 
    ```bash
    RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list,DIRECT   # Disable or remove similar rules
-   GEOIP,CN,DIRECT                                                                                  # Cannot coexist with the rule above
+   GEOIP,CN,DIRECT                                                                                 # Cannot coexist with the rule above
    ```
 
 3. **Place GEOIP,CN rule right before the final rule:**
