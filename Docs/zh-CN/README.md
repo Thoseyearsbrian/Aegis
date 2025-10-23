@@ -76,7 +76,7 @@ SurgeAegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Su
 
 ## ⚠️ 注意事项
 
-1. **必须启用规则模式（Rule Mode），否则 Aegis 规则集无法生效**
+1. **必须启用规则模式（Rule Mode），否则 Aegis 规则集可能无法实现完整防护功能**
 
    ```bash
    Aegis 是一套基于规则模式设计的个人数字防火墙体系，仅在 Surge 的规则模式下才能完整生效。

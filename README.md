@@ -76,7 +76,7 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
 
 ## ⚠️ Notes
 
-1. **Rule Mode must be enabled; otherwise, the Aegis rule set will not function properly**
+1. **Rule Mode must be enabled; otherwise, the Aegis rule set may not provide complete protection functionality**
 
    ```bash
    Aegis is a personal firewall system specifically designed for Rule Mode. It only works correctly when Surge is set to Rule Mode. 
