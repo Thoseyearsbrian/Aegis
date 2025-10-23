@@ -55,7 +55,7 @@ Aegis 是一个坚持技术中立、信息透明、自主独立的安全规则�
 |    ⑦     | 后门行为与恶意活动 | Backdoor_Block.list | 涵盖具有反连、心跳、远控特征的后门控制基础设施，如 RAT、Sliver、Metasploit 等 | 明确具备恶意通信特征或与植入攻击活动直接关联 |
 |    ⑧     | 僵尸网络 / 控制器 / 扫描器 | Botnet_Block.list | 收录 DDoS 肉鸡、Botnet 控制节点、UDP 扫描源及批量控制基础设施 | 通信高频、分布广泛、已被安全机构确认为 Botnet 组件 |
 |    ⑨     | APT 攻击源 | APT_Block.list | 收录安全厂商披露的 APT 攻击组织 IOC（域名 / IP），并标明编号、国家与命名组织 | 来源于公开报告，具备明确归属与可验证情报链 |
-|    ⑩     | Pegasus 间谍软件 | Pegasus_Block.list | Amnesty 披露的 Pegasus 控制器与 C2 节点，用于全球高危目标监听 | 来自 Pegasus 项目的官方 IOC 披露数据，必须强制封锁 |
+|    ⑩     | Pegasus 间谍软件 | Pegasus_Block.list | Amnesty 披露的 Pegasus 控制器与 C2 节点，用于全球高危目标监听 | 基于 Amnesty 公开披露的 Pegasus 控制节点，具监听风险，建议严格封锁 |
 
 ## 自动化更新
 

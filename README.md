@@ -55,7 +55,7 @@ Aegis adheres to technical neutrality, information transparency, and complete in
 | ⑦     | Backdoor & Malicious Infra     | Backdoor_Block.list    | Includes C2 infra of backdoors like RAT, Sliver, Metasploit etc., used for remote access      | Confirmed malicious traffic or infrastructure directly tied to implant attacks    |
 | ⑧     | Botnets / Scanners / C2        | Botnet_Block.list      | Aggregates botnet C2s, DDoS nodes, mass scanners, UDP flooders                               | High-frequency, broad distribution, verified as botnet nodes                      |
 | ⑨     | APT Threat Actors              | APT_Block.list         | IOC from public APT disclosures with clear org/country labels (APT1 ~ APTxx)                 | Verified by public threat reports and attribution                                  |
-| ⑩     | Pegasus Spyware Infrastructure | Pegasus_Block.list     | IOC from Amnesty’s Pegasus reports: C2 nodes, redirects, spyware domains                     | Derived from official Pegasus disclosure, mandatory block                         |
+| ⑩     | Pegasus Spyware Infrastructure | Pegasus_Block.list     | IOC from Amnesty’s Pegasus reports: C2 nodes, redirects, spyware domains                     | Amnesty-disclosed Pegasus C2s with surveillance risk. Recommended to block                       |
 
 ## **Auto Update**
 
