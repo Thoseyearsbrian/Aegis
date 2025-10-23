@@ -76,14 +76,18 @@ SurgeAegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Su
 
 ## ⚠️ 注意事项
 
-1. **禁用或删除** 与 **中国大陆 IP 地址段** 相关的规则或规则集
+1. **必须启用规则模式（Rule Mode），否则 Aegis 规则集无法生效**
+
+Aegis 是一套基于规则模式设计的个人数字防火墙体系，仅在 Surge 的规则模式下才能完整生效。若使用全局模式或直连模式，将导致规则无法匹配，域名与 IP 无法识别分类，进而失去所有防护与分流能力。
+
+2.  **禁用或删除** 与 **中国大陆 IP 地址段** 相关的规则或规则集
 
    ``` bash
    RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list, DIRECT # 禁用或删除类似规则
    GEOIP,CN,DIRECT # 与上一条类似的规则与本条规则不可共存
    ```
 
-2.  GEOIP-CN 查询规则建议**紧随最终规则之上**，以避免域名规则被忽略导致判断错误。
+3. GEOIP-CN 查询规则建议**紧随最终规则之上**，以避免域名规则被忽略导致判断错误。
 
     ``` bash
     # ... 省略其他规则 ...
@@ -91,7 +95,7 @@ SurgeAegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Su
     FINAL,REJECT # 最终规则
     ```
 
-3. 规则中**不可以**存在其他国家或地区的 `GEOIP` 查询规则，因为项目提供的数据库中**仅包含中国大陆地区的 IP 地址段记录**
+4. 规则中**不可以**存在其他国家或地区的 `GEOIP` 查询规则，因为项目提供的数据库中**仅包含中国大陆地区的 IP 地址段记录**
 
    ``` bash
    GEOIP, US, PROXY # 错误，无法查询到相关记录

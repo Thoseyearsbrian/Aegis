@@ -76,21 +76,25 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
 
 ## **⚠️ Notes**
 
-1. **Disable or remove** CN-specific rules such as:
+1. **Rule Mode must be enabled; otherwise, the Aegis rule set will not function properly**
+
+Aegis is a personal firewall system specifically designed for Rule Mode. It only works correctly when Surge is set to Rule Mode. If you use Global Mode or Direct Mode, rules will not match, domain/IP classification will fail, and all protection and routing functionalities will be lost.
+
+2. **Disable or remove CN-specific rules such as:**
 
 ```
 RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list,DIRECT
 GEOIP,CN,DIRECT
 ```
 
-2. Place GEOIP,CN rule right before the final rule:
+3. **Place GEOIP,CN rule right before the final rule:**
 
 ```
 GEOIP,CN,DIRECT
 FINAL,REJECT
 ```
 
-3. The GeoIP database only includes **mainland China** IPs. Avoid querying other countries:
+4. **The GeoIP database only includes **mainland China** IPs. Avoid querying other countries:**
 
 ```
 GEOIP,US,PROXY  # Invalid
