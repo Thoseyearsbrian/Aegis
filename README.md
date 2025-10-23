@@ -42,6 +42,21 @@ Aegis is specifically designed for the Surge platform, fully compatible with bot
 
 Aegis adheres to technical neutrality, information transparency, and complete independence. I firmly believe every individual has the right to understand and control their network traffic. Therefore, Aegis does not accept any form of commercial investment or capital control. To ensure purity, trust, and security, all configurations are handcrafted and audited by me, with complete annotations to guarantee every rule is transparent, verifiable, and pollution-free.
 
+## **Aegis Main Rule Modules**
+
+| Index |          Module Name           | File Name              | Description                                                                                   | Detection Criteria                                                                 |
+| :---: | :----------------------------: | ---------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| ①     | CA Trust Anomalies             | CA_Block.list          | Blocks untrusted, misused, or revoked Certificate Authorities and related OCSP/CRL endpoints | Involves cases of certificate abuse, rogue issuance, or public revocation records  |
+| ②     | Advertisement Tracking         | AdTracking_Block.list  | Covers commercial ad domains, social pixels, analytics SDKs, and third-party tracking scripts | Clear ad-targeted or profiling-related communications, excluding surveillance SDKs |
+| ③     | Adult Content Block            | Adult_Block.list       | Domains of major global adult content platforms                                               | Explicit pornography and adult content platforms                                  |
+| ④     | Interception & Injection Nodes | Inspection_Block.list  | Blocks link-layer or upstream manipulations like DPI, DNS poisoning, HTTP injection, MITM     | Identified manipulation from ISPs or middleboxes altering/redirecting traffic     |
+| ⑤     | Behavioral Fingerprinting      | Behavior_Block.list    | Blocks SDKs or cloud services with telemetry/analytics traits based on DNS/TLS/QUIC/CDN cues  | Based on behavioral patterns, protocol fingerprints, excludes ad or passive SDKs  |
+| ⑥     | Background Connections         | Background_Block.list  | Blocks silent background callbacks, config uploads, device-to-cloud comms, IoT/NAS SDKs       | Based on frequency, reconnection patterns, and telemetry behavior                 |
+| ⑦     | Backdoor & Malicious Infra     | Backdoor_Block.list    | Includes C2 infra of backdoors like RAT, Sliver, Metasploit etc., used for remote access      | Confirmed malicious traffic or infrastructure directly tied to implant attacks    |
+| ⑧     | Botnets / Scanners / C2        | Botnet_Block.list      | Aggregates botnet C2s, DDoS nodes, mass scanners, UDP flooders                               | High-frequency, broad distribution, verified as botnet nodes                      |
+| ⑨     | APT Threat Actors              | APT_Block.list         | IOC from public APT disclosures with clear org/country labels (APT1 ~ APTxx)                 | Verified by public threat reports and attribution                                  |
+| ⑩     | Pegasus Spyware Infrastructure | Pegasus_Block.list     | IOC from Amnesty’s Pegasus reports: C2 nodes, redirects, spyware domains                     | Derived from official Pegasus disclosure, mandatory block                         |
+
 ## **Auto Update**
 
 Aegis uses GitHub-based versioning and automation to stay up to date without manual intervention.  It fully supports remote rule subscription for Surge.
