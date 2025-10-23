@@ -4,33 +4,33 @@
 # - 特征：涵盖 PayPal 支付接口、结算平台、用户账户系统相关域名与 IP
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-23
 
 # >> PayPal 主服务域名
-DOMAIN-SUFFIX,paypal.com // PayPal 官方主站及支付入口
-DOMAIN-SUFFIX,paypalobjects.com // PayPal 静态资源与 JS 文件
-DOMAIN-SUFFIX,paypal.me // PayPal 快捷支付页面
+DOMAIN-SUFFIX,paypal.com # PayPal 官方主站及支付入口
+DOMAIN-SUFFIX,paypalobjects.com # PayPal 静态资源与 JS 文件
+DOMAIN-SUFFIX,paypal.me # PayPal 快捷支付页面
 
 # >> PayPal 托管服务与支付验证域名
-DOMAIN-SUFFIX,paypal-mktg.com // PayPal 营销与推广页面
-DOMAIN-SUFFIX,pypl.com // PayPal 缩写域名，用户登录与验证相关
-DOMAIN-SUFFIX,braintreegateway.com // Braintree（PayPal旗下）网关服务域名
-DOMAIN-SUFFIX,paypal.co.uk // PayPal 英国子域
-DOMAIN-SUFFIX,paypal.cn // PayPal 中国区域名（限部分业务）
+DOMAIN-SUFFIX,paypal-mktg.com # PayPal 营销与推广页面
+DOMAIN-SUFFIX,pypl.com # PayPal 缩写域名，用户登录与验证相关
+DOMAIN-SUFFIX,braintreegateway.com # Braintree（PayPal旗下）网关服务域名
+DOMAIN-SUFFIX,paypal.co.uk # PayPal 英国子域
+DOMAIN-SUFFIX,paypal.cn # PayPal 中国区域名（限部分业务）
 
 # >> PayPal 相关 API 服务
-DOMAIN-KEYWORD,api-m.paypal // PayPal 移动 API 端点
-DOMAIN-KEYWORD,api.paypal // PayPal 通用 API 网关
-DOMAIN-KEYWORD,ipnpb.paypal // IPN / PDT 支付确认回调服务
+DOMAIN-KEYWORD,api-m.paypal # PayPal 移动 API 端点
+DOMAIN-KEYWORD,api.paypal # PayPal 通用 API 网关
+DOMAIN-KEYWORD,ipnpb.paypal # IPN / PDT 支付确认回调服务
 
 # >> IP 段（仅供参考，实际可能 CDN 动态变化，建议用域名规则为主）
-IP-CIDR,64.4.240.0/21 // PayPal 核心支付 IP（历史）
-IP-CIDR,66.211.160.0/19 // PayPal C2 服务段（来源：BGPView）
-IP-CIDR,173.0.80.0/20 // PayPal AWS 服务节点
-IP-CIDR,91.243.72.0/22 // PayPal 欧洲段（NetRange）
+IP-CIDR,64.4.240.0/21 # PayPal 核心支付 IP（历史）
+IP-CIDR,66.211.160.0/19 # PayPal C2 服务段（来源：BGPView）
+IP-CIDR,173.0.80.0/20 # PayPal AWS 服务节点
+IP-CIDR,91.243.72.0/22 # PayPal 欧洲段（NetRange）
 
 # >> PayPal ASN（部分为历史/未验证，可选）
-IP-ASN,17012 // ASN for PayPal Inc. (部分历史记录)
+IP-ASN,17012 # ASN for PayPal Inc. (部分历史记录)
 
 # >> 注意事项
 # PayPal 的部分验证请求使用 Akamai CDN，可在其它 CDN 模块中额外定义

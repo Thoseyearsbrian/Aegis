@@ -4,61 +4,60 @@
 # - 特征：识别 Telegram 相关的域名、IP 地址段与 ASN
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-23
 
 # > Telegram 域名规则
-DOMAIN,api.imem.app
-DOMAIN,api.swiftgram.app
-DOMAIN-KEYWORD,nicegram
-DOMAIN-SUFFIX,cdn-telegram.org
-DOMAIN-SUFFIX,comments.app
-DOMAIN-SUFFIX,contest.com
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,legra.ph
-DOMAIN-SUFFIX,mbrx.app
-DOMAIN-SUFFIX,quiz.directory
-DOMAIN-SUFFIX,stel.com
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telega.one
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,telegramdownload.com
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,tx.me
-DOMAIN-SUFFIX,usercontent.dev
+DOMAIN-SUFFIX,telegram.org # Telegram 主站域名
+DOMAIN-SUFFIX,t.me # Telegram 短链服务（频道、用户跳转）
+DOMAIN-SUFFIX,telegram.me # Telegram 历史短链服务
+DOMAIN-SUFFIX,telegram.dog # Telegram 镜像跳转域名
+DOMAIN-SUFFIX,telegram-cdn.org # Telegram CDN 内容分发域名
+DOMAIN-SUFFIX,cdn-telegram.org # Telegram CDN 加速域名
+DOMAIN-SUFFIX,tdesktop.com # Telegram Desktop 客户端服务
+DOMAIN-SUFFIX,telegra.ph # Telegram Telegraph 图文服务
+DOMAIN-SUFFIX,legra.ph # Telegraph 镜像跳转域名
+DOMAIN-SUFFIX,stel.com # Telegram 历史短链跳转
+DOMAIN-SUFFIX,tx.me # Telegram 静态资源服务域名
+DOMAIN-SUFFIX,contest.com # Telegram 开发者竞赛平台
+DOMAIN-SUFFIX,graph.org # Telegram 内嵌图床与图文链接跳转
+DOMAIN-SUFFIX,comments.app # Telegram 评论插件服务（频道 / Telegraph）
+DOMAIN-SUFFIX,quiz.directory # Telegram 互动问卷与小程序服务
+DOMAIN-SUFFIX,usercontent.dev # Telegram 内容托管服务（小程序等）
+DOMAIN-SUFFIX,tg.dev # Telegram 开发者平台服务
+DOMAIN-SUFFIX,telegram.space # Telegram 备用跳转域名
+DOMAIN-SUFFIX,telegramdownload.com # Telegram 客户端下载安装地址
+
+# > Telegram 第三方客户端域名
+DOMAIN-SUFFIX,api.swiftgram.app # Swiftgram 客户端 API 接口
+DOMAIN-SUFFIX,api.imem.app # iMe 客户端 API 接口
+DOMAIN-KEYWORD,nicegram # Nicegram 客户端相关通信域名
 
 # > Telegram ASN
-IP-ASN,211157
-IP-ASN,44907
-IP-ASN,59930
-IP-ASN,62014
-IP-ASN,62041
+IP-ASN,211157 # Telegram ASN（荷兰）
+IP-ASN,44907 # Telegram ASN（瑞士）
+IP-ASN,59930 # Telegram ASN（英国）
+IP-ASN,62014 # Telegram ASN（俄罗斯）
+IP-ASN,62041 # Telegram ASN（亚洲节点）
 
 # > Telegram IPv4
-IP-CIDR,109.239.140.0/24
-IP-CIDR,139.59.210.98/32
-IP-CIDR,149.154.160.0/20
-IP-CIDR,196.55.216.167/32
-IP-CIDR,5.28.192.0/18
-IP-CIDR,91.108.0.0/16
-IP-CIDR,95.161.64.0/20
+IP-CIDR,91.108.0.0/16 # Telegram 核心通信网段
+IP-CIDR,149.154.160.0/20 # Telegram 通信备用网段
+IP-CIDR,5.28.192.0/18 # Telegram 历史使用通信段
+IP-CIDR,109.239.140.0/24 # Telegram CDN / 文件节点
+IP-CIDR,196.55.216.167/32 # Telegram 数据上传接口
+IP-CIDR,139.59.210.98/32 # Telegram 静态资源 CDN 节点
+IP-CIDR,95.161.64.0/20 # Telegram 文件服务节点
 
 # > Telegram IPv6
-IP-CIDR6,2001:67c:4e8::/48
-IP-CIDR6,2001:b28:f23c::/47
-IP-CIDR6,2001:b28:f23d::/48
-IP-CIDR6,2001:b28:f23f::/48
-IP-CIDR6,2a0a:f280::/29
+IP-CIDR6,2001:67c:4e8::/48 # Telegram 欧洲 IPv6 通信段
+IP-CIDR6,2001:b28:f23c::/47 # Telegram CDN IPv6 网段
+IP-CIDR6,2001:b28:f23d::/48 # Telegram 通信 IPv6 备用段
+IP-CIDR6,2001:b28:f23f::/48 # Telegram IPv6 备用通信段
+IP-CIDR6,2a0a:f280::/29 # Telegram 欧洲备用 IPv6 节点段
 
-# > Telegram ASN 聚合匹配
-IP-ASN,44907
-IP-ASN,59930
-IP-ASN,62014
-IP-ASN,62041
-IP-ASN,211157
+# > Telegram ASN 聚合匹配（冗余防漏匹配）
+IP-ASN,44907 # Telegram 欧洲通信 ASN
+IP-ASN,59930 # Telegram 英国 CDN ASN
+IP-ASN,62014 # Telegram 俄语区服务 ASN
+IP-ASN,62041 # Telegram 亚洲区域服务 ASN
+IP-ASN,211157 # Telegram 荷兰通信 ASN

@@ -1,13 +1,13 @@
-# » Behavior_Fingerprint.list（行为指纹与云服务分析规则集）
-# - 分类：行为指纹 / 云服务分析 / SDK 监控节点
-# - 来源：实际 DNS/TLS 抓包分析 / 安全社区情报 / 灰产 SDK 行为溯源
-# - 特征：基于 DNS 查询模式、TLS 指纹（如 Client Hello）等行为模式识别并封锁，配合灰产 SDK 与分析节点检测
+# » Behavior_Block.list（行为指纹与云服务分析规则集）
+# - 分类：通信行为指纹 / 云服务遥测 / SDK 分析节点
+# - 来源：DNS/TLS 抓包分析 / 安全研究情报 / SDK 回连行为溯源
+# - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-22
+# - 更新时间：2025-10-23
 
 # >> Apple 行为遥测服务
-DOMAIN-SUFFIX,dns.apple.com // Apple 网络状态探测域，非必须服务，可疑行为分析用
+DOMAIN-SUFFIX,dns.apple.com # Apple 网络状态探测域，非必须服务，可疑行为分析用
 DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
 DOMAIN-SUFFIX,sylvan.apple.com # Apple iCloud 行为遥测服务（后台统计，建议拦截）
 DOMAIN-SUFFIX,analytics.edge.apple # Apple 分析数据上报服务
@@ -20,166 +20,166 @@ DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple 备忘录分析事件上�
 DOMAIN-SUFFIX,weather-analytics-events.apple.com # Apple 天气应用分析事件接口（官方遥测）
 
 # >> Google / Firebase / Crashlytics 相关行为指纹
-DOMAIN-SUFFIX,app-measurement.com // 指纹监听 + 流量分析回传
-DOMAIN-SUFFIX,config.app-measurement.com // Firebase GMP 远程配置域名，用于热更新/灰度控制
-DOMAIN-SUFFIX,firebaseinstallations.googleapis.com // Firebase 安装 ID（FID）初始化接口
-DOMAIN-SUFFIX,google-analytics.com // Google Analytics 通用网页行为统计域名
-DOMAIN-SUFFIX,analytics.google.com // Google Analytics GA4 数据上报域名
-DOMAIN-SUFFIX,firebase-settings.crashlytics.com // Crashlytics 崩溃报告配置拉取接口
-DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com // Crashlytics 崩溃数据主动上传接口
-DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com // Firebase 日志收集与上报服务
-DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com // Firebase 动态链接服务，常用于分享跳转追踪
-DOMAIN-SUFFIX,crashlytics.com // 被大量灰产 SDK 使用
+DOMAIN-SUFFIX,app-measurement.com # 指纹监听 + 流量分析回传
+DOMAIN-SUFFIX,config.app-measurement.com # Firebase GMP 远程配置域名，用于热更新/灰度控制
+DOMAIN-SUFFIX,firebaseinstallations.googleapis.com # Firebase 安装 ID（FID）初始化接口
+DOMAIN-SUFFIX,google-analytics.com # Google Analytics 通用网页行为统计域名
+DOMAIN-SUFFIX,analytics.google.com # Google Analytics GA4 数据上报域名
+DOMAIN-SUFFIX,firebase-settings.crashlytics.com # Crashlytics 崩溃报告配置拉取接口
+DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com # Crashlytics 崩溃数据主动上传接口
+DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com # Firebase 日志收集与上报服务
+DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com # Firebase 动态链接服务，常用于分享跳转追踪
+DOMAIN-SUFFIX,crashlytics.com # 被大量灰产 SDK 使用
 
 # >> Microsoft 相关遥测与探测行为
-DOMAIN-SUFFIX,dns.msftncsi.com // Microsoft 网络连通性检查域，用于探测联网状态
-DOMAIN-SUFFIX,mobile.events.data.microsoft.com // VS Code / Windows / Office 遥测上传行为
+DOMAIN-SUFFIX,dns.msftncsi.com # Microsoft 网络连通性检查域，用于探测联网状态
+DOMAIN-SUFFIX,mobile.events.data.microsoft.com # VS Code / Windows / Office 遥测上传行为
 DOMAIN-SUFFIX,in.appcenter.ms  # Microsoft AppCenter 移动应用分析 SDK 域名，用于遥测统计与行为数据上报
 DOMAIN-SUFFIX,otelrules.svc.static.microsoft # 微软远程遥测服务域名，用于采集 OpenTelemetry 规则与应用遥测数据  
 
 # >> 华为系行为分析与遥测接口
-DOMAIN-SUFFIX,hispace.hicloud.com // 华为 App 行为与更新统计接口
-DOMAIN-SUFFIX,logservice.hicloud.com // 崩溃日志与遥测上报服务
-DOMAIN-SUFFIX,metrics1.data.hicloud.com // HMS Core 行为数据统计接口
-DOMAIN-SUFFIX,config.hicloud.com // 配置下发与灰度测试控制接口
-DOMAIN-SUFFIX,push-api.cloud.huawei.com // 华为 Push 行为上报通道
+DOMAIN-SUFFIX,hispace.hicloud.com # 华为 App 行为与更新统计接口
+DOMAIN-SUFFIX,logservice.hicloud.com # 崩溃日志与遥测上报服务
+DOMAIN-SUFFIX,metrics1.data.hicloud.com # HMS Core 行为数据统计接口
+DOMAIN-SUFFIX,config.hicloud.com # 配置下发与灰度测试控制接口
+DOMAIN-SUFFIX,push-api.cloud.huawei.com # 华为 Push 行为上报通道
 
 # >> Amazon / Cloudflare / Sentry 行为分析服务
-DOMAIN-SUFFIX,ssl-images-amazon.com // CDN隐匿式回传 或 伪装图像传输
-DOMAIN-SUFFIX,sentry.cloudflare.com // 行为分析追踪系统
-DOMAIN-SUFFIX,o33249.ingest.us.sentry.io // Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
-DOMAIN-SUFFIX,browser-intake-datadoghq.com // Datadog 监控上报域名，GPT 应用用于收集前端性能指标与异常信息
+DOMAIN-SUFFIX,ssl-images-amazon.com # CDN隐匿式回传 或 伪装图像传输
+DOMAIN-SUFFIX,sentry.cloudflare.com # 行为分析追踪系统
+DOMAIN-SUFFIX,o33249.ingest.us.sentry.io # Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
+DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 监控上报域名，GPT 应用用于收集前端性能指标与异常信息
 
 # >> Facebook / Branch / Snapchat 等社交平台行为接口
-DOMAIN-SUFFIX,graph.facebook.com // Facebook Graph API，行为上报接口
+DOMAIN-SUFFIX,graph.facebook.com # Facebook Graph API，行为上报接口
 
 # >> Segment 行为追踪服务
 DOMAIN-SUFFIX,segment.io # 用户行为追踪服务，广泛嵌入于 App 与网页中，采集分析数据
 
 # >> Adform 行为监听器
-DOMAIN-SUFFIX,track.adform.net // Adform：广告行为监听器
+DOMAIN-SUFFIX,track.adform.net # Adform：广告行为监听器
 
 # >> 实验分流与行为测试平台
-DOMAIN-SUFFIX,default.exp-tas.com // 实验分流平台，可能进行 A/B 测试配置注入
+DOMAIN-SUFFIX,default.exp-tas.com # 实验分流平台，可能进行 A/B 测试配置注入
 
 # >> 其他非归类通用域名
-DOMAIN-SUFFIX,inews.qq.com // 建议封锁，防监听
+DOMAIN-SUFFIX,inews.qq.com # 建议封锁，防监听
 DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流分析接口，用于用户行为收集、推荐算法训练等
 DOMAIN-SUFFIX,alarmsone.manageengine.com # ManageEngine 告警通知服务接口，用于设备/用户行为的后台告警与遥测
 
 # >> 抖音 / 字节跳动相关行为指纹
-DOMAIN-SUFFIX,mon.snssdk.com // 字节跳动行为统计与设备指纹接口
-DOMAIN-SUFFIX,log.snssdk.com // 字节跳动行为日志与事件上传接口
-DOMAIN-SUFFIX,api5-normal-lf.amemv.com // 抖音行为监控接口（API5 通道）
-DOMAIN-SUFFIX,api5-normal-lq.amemv.com // 抖音行为监控接口（备用线路）
-DOMAIN-SUFFIX,sf16-muse-va.ibytedtos.com // 字节跳动日志上报与 SDK 签名验证域
-DOMAIN-SUFFIX,ib.snssdk.com // 字节跳动行为数据回传主站
-DOMAIN-SUFFIX,data.bytedance.net // 字节跳动数据上传与分析平台
+DOMAIN-SUFFIX,mon.snssdk.com # 字节跳动行为统计与设备指纹接口
+DOMAIN-SUFFIX,log.snssdk.com # 字节跳动行为日志与事件上传接口
+DOMAIN-SUFFIX,api5-normal-lf.amemv.com # 抖音行为监控接口（API5 通道）
+DOMAIN-SUFFIX,api5-normal-lq.amemv.com # 抖音行为监控接口（备用线路）
+DOMAIN-SUFFIX,sf16-muse-va.ibytedtos.com # 字节跳动日志上报与 SDK 签名验证域
+DOMAIN-SUFFIX,ib.snssdk.com # 字节跳动行为数据回传主站
+DOMAIN-SUFFIX,data.bytedance.net # 字节跳动数据上传与分析平台
 
 # >> 快手行为监控与指纹采集
-DOMAIN-SUFFIX,log-sdk.ksapisrv.com // 快手行为日志采集接口
-DOMAIN-SUFFIX,reportlog.corp.kuaishou.com // 快手内部日志回传平台（行为上报）
-DOMAIN-SUFFIX,apm-collector.scs.kuaishou.com // 快手前端性能 / APM 指标采集服务
-DOMAIN-SUFFIX,conv-infra.kuaishou.com // 快手推荐系统行为特征训练服务
+DOMAIN-SUFFIX,log-sdk.ksapisrv.com # 快手行为日志采集接口
+DOMAIN-SUFFIX,reportlog.corp.kuaishou.com # 快手内部日志回传平台（行为上报）
+DOMAIN-SUFFIX,apm-collector.scs.kuaishou.com # 快手前端性能 / APM 指标采集服务
+DOMAIN-SUFFIX,conv-infra.kuaishou.com # 快手推荐系统行为特征训练服务
 
 # >> 小红书指纹与日志收集行为
-DOMAIN-SUFFIX,log.xiaohongshu.com // 小红书行为日志与用户数据采集接口
-DOMAIN-SUFFIX,ark.xiaohongshu.com // 小红书策略分发与行为回传接口
-DOMAIN-SUFFIX,sns-web.xiaohongshu.com // 小红书社交数据行为接口
-DOMAIN-SUFFIX,referee.xiaohongshu.com // 小红书内容审核与行为风险评估接口
+DOMAIN-SUFFIX,log.xiaohongshu.com # 小红书行为日志与用户数据采集接口
+DOMAIN-SUFFIX,ark.xiaohongshu.com # 小红书策略分发与行为回传接口
+DOMAIN-SUFFIX,sns-web.xiaohongshu.com # 小红书社交数据行为接口
+DOMAIN-SUFFIX,referee.xiaohongshu.com # 小红书内容审核与行为风险评估接口
 
 # >> 百度行为分析服务
-DOMAIN-SUFFIX,hm.baidu.com // 百度统计（常用于嵌入式网页行为追踪）
-DOMAIN-SUFFIX,tcbox.baidu.com // 百度 App 行为日志接口
-DOMAIN-SUFFIX,log.re.baidu.com // 百度推荐系统行为日志上报接口
-DOMAIN-SUFFIX,mbd.baidu.com // 百度行为组件与内容分发策略接口
+DOMAIN-SUFFIX,hm.baidu.com # 百度统计（常用于嵌入式网页行为追踪）
+DOMAIN-SUFFIX,tcbox.baidu.com # 百度 App 行为日志接口
+DOMAIN-SUFFIX,log.re.baidu.com # 百度推荐系统行为日志上报接口
+DOMAIN-SUFFIX,mbd.baidu.com # 百度行为组件与内容分发策略接口
 
 # >> 微博行为日志与遥测接口
-DOMAIN-SUFFIX,wbapp.mobile.sina.cn // 微博移动行为监控接口
-DOMAIN-SUFFIX,logmix.sina.cn // 微博行为日志上传通道
-DOMAIN-SUFFIX,appmonitor.sina.cn // 微博 App 性能与行为分析服务
-DOMAIN-SUFFIX,sdkapp.uve.weibo.com // 微博 SDK 远程日志采集服务
-DOMAIN-SUFFIX,trace.sina.cn // 微博用户行为轨迹上报接口
+DOMAIN-SUFFIX,wbapp.mobile.sina.cn # 微博移动行为监控接口
+DOMAIN-SUFFIX,logmix.sina.cn # 微博行为日志上传通道
+DOMAIN-SUFFIX,appmonitor.sina.cn # 微博 App 性能与行为分析服务
+DOMAIN-SUFFIX,sdkapp.uve.weibo.com # 微博 SDK 远程日志采集服务
+DOMAIN-SUFFIX,trace.sina.cn # 微博用户行为轨迹上报接口
 
 # >> Bilibili 行为分析补充
-DOMAIN-SUFFIX,dataflow.biliapi.com // Bilibili 用户行为分析数据接口
-DOMAIN-SUFFIX,grpc.biliapi.net // Bilibili gRPC 行为请求通道（含用户行为上传）
-DOMAIN-SUFFIX,app.biliapi.net // Bilibili App 级行为接口
-DOMAIN-SUFFIX,h​​w-v2-web-player-tracker.biliapi.net // Bilibili 网页播放器追踪接口，用于收集播放行为与观看数据
+DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 用户行为分析数据接口
+DOMAIN-SUFFIX,grpc.biliapi.net # Bilibili gRPC 行为请求通道（含用户行为上传）
+DOMAIN-SUFFIX,app.biliapi.net # Bilibili App 级行为接口
+DOMAIN-SUFFIX,h​​w-v2-web-player-tracker.biliapi.net # Bilibili 网页播放器追踪接口，用于收集播放行为与观看数据
 
 # >> 高德地图（AutoNavi / AMap）行为分析与指纹上传
-DOMAIN-SUFFIX,logs.amap.com // 高德地图行为日志上传接口
-DOMAIN-SUFFIX,loc.amap.com // 高德定位接口，含用户位置行为分析
-DOMAIN-SUFFIX,m5.amap.com // 高德地图 SDK 回传数据服务
-DOMAIN-SUFFIX,dualstack-logos.amap.com // SDK 日志与图片请求行为收集接口
-DOMAIN-SUFFIX,dsp.amap.com // 广告请求及用户行为采集接口
-DOMAIN-SUFFIX,stats.amap.com // 高德地图统计上报服务（页面访问、点击事件）
+DOMAIN-SUFFIX,logs.amap.com # 高德地图行为日志上传接口
+DOMAIN-SUFFIX,loc.amap.com # 高德定位接口，含用户位置行为分析
+DOMAIN-SUFFIX,m5.amap.com # 高德地图 SDK 回传数据服务
+DOMAIN-SUFFIX,dualstack-logos.amap.com # SDK 日志与图片请求行为收集接口
+DOMAIN-SUFFIX,dsp.amap.com # 广告请求及用户行为采集接口
+DOMAIN-SUFFIX,stats.amap.com # 高德地图统计上报服务（页面访问、点击事件）
 
 # >> 闲鱼（Xianyu）与阿里系遥测接口
-DOMAIN-SUFFIX,xlog.snssdk.com // 闲鱼集成字节跳动 xlog 模块的行为上传接口
-DOMAIN-SUFFIX,umeng.com // 阿里巴巴友盟行为分析与 SDK 遥测主域
-DOMAIN-SUFFIX,alog.umeng.com // 友盟行为日志主上报接口（淘宝、支付宝等常嵌入）
-DOMAIN-SUFFIX,applog.uc.cn // UC 系产品行为分析与遥测数据上传
-DOMAIN-SUFFIX,errlog.umeng.com // 应用错误/崩溃日志上报接口（友盟 SDK）
+DOMAIN-SUFFIX,xlog.snssdk.com # 闲鱼集成字节跳动 xlog 模块的行为上传接口
+DOMAIN-SUFFIX,umeng.com # 阿里巴巴友盟行为分析与 SDK 遥测主域
+DOMAIN-SUFFIX,alog.umeng.com # 友盟行为日志主上报接口（淘宝、支付宝等常嵌入）
+DOMAIN-SUFFIX,applog.uc.cn # UC 系产品行为分析与遥测数据上传
+DOMAIN-SUFFIX,errlog.umeng.com # 应用错误/崩溃日志上报接口（友盟 SDK）
 
 # >> 支付宝 / 淘宝 App 内行为上传模块（嵌套式遥测）
-DOMAIN-SUFFIX,acjs.aliyun.com // 阿里云前端日志采集服务接口（含前端 JS 报错）
-DOMAIN-SUFFIX,trace.aliyun.com // 阿里追踪系统，用户操作行为分析
-DOMAIN-SUFFIX,spm.aliyun.com // SPM 埋点追踪系统域名
-DOMAIN-SUFFIX,log-mmserver.alibaba.com // 阿里巴巴移动端日志系统接口
-DOMAIN-SUFFIX,dap.alipay.com // 支付宝数据分析与页面行为追踪域名
+DOMAIN-SUFFIX,acjs.aliyun.com # 阿里云前端日志采集服务接口（含前端 JS 报错）
+DOMAIN-SUFFIX,trace.aliyun.com # 阿里追踪系统，用户操作行为分析
+DOMAIN-SUFFIX,spm.aliyun.com # SPM 埋点追踪系统域名
+DOMAIN-SUFFIX,log-mmserver.alibaba.com # 阿里巴巴移动端日志系统接口
+DOMAIN-SUFFIX,dap.alipay.com # 支付宝数据分析与页面行为追踪域名
 
 # >> 知乎 Zhihu 行为分析与指纹上传域名
-DOMAIN-SUFFIX,suger.zhihu.com // 知乎行为分析与推荐系统接口
-DOMAIN-SUFFIX,udata.zhihu.com // 知乎用户数据收集接口（User Data）
-DOMAIN-SUFFIX,collector.zhihu.com // 行为日志采集与分析中心
-DOMAIN-SUFFIX,crash2.zhihu.com // 崩溃日志与性能监控接口（类似友盟）
+DOMAIN-SUFFIX,suger.zhihu.com # 知乎行为分析与推荐系统接口
+DOMAIN-SUFFIX,udata.zhihu.com # 知乎用户数据收集接口（User Data）
+DOMAIN-SUFFIX,collector.zhihu.com # 行为日志采集与分析中心
+DOMAIN-SUFFIX,crash2.zhihu.com # 崩溃日志与性能监控接口（类似友盟）
 
 # >> 第三方 SDK / 广告模块（知乎内嵌常见）
-DOMAIN-SUFFIX,umeng.com // 阿里系友盟统计 SDK
-DOMAIN-SUFFIX,alog.umeng.com // 应用行为分析接口（友盟核心域名）
-DOMAIN-SUFFIX,track.zhihu.com // 知乎站内行为埋点日志上传接口
-DOMAIN-SUFFIX,t.zhihu.com // 轻量级追踪埋点接口（类似 CDN 回传行为）
+DOMAIN-SUFFIX,umeng.com # 阿里系友盟统计 SDK
+DOMAIN-SUFFIX,alog.umeng.com # 应用行为分析接口（友盟核心域名）
+DOMAIN-SUFFIX,track.zhihu.com # 知乎站内行为埋点日志上传接口
+DOMAIN-SUFFIX,t.zhihu.com # 轻量级追踪埋点接口（类似 CDN 回传行为）
 
 # >> 腾讯行为指纹与设备日志接口（Tencent Fingerprint & Telemetry）
-DOMAIN-SUFFIX,bugly.qq.com // Bugly 崩溃日志与异常上报接口
-DOMAIN-SUFFIX,mta.qq.com // MTA 移动分析平台（行为埋点与性能数据）
-DOMAIN-SUFFIX,beacon.qq.com // Beacon 行为数据采集平台（追踪分析）
-DOMAIN-SUFFIX,tracking.qq.com // 用户行为追踪接口
-DOMAIN-SUFFIX,log.tbs.qq.com // TBS（腾讯浏览服务）行为日志与崩溃上报
-DOMAIN-SUFFIX,tdid.qq.com // Tencent Device ID 设备指纹系统
-DOMAIN-SUFFIX,sngdia.qq.com // 腾讯广告行为记录接口
-DOMAIN-SUFFIX,tajs.qq.com // Tencent Analytics JS 埋点日志
-DOMAIN-SUFFIX,dldir1.qq.com // 安装包与更新接口（含行为采样）
-DOMAIN-SUFFIX,oth.eve.mdt.qq.com // 多端设备行为同步接口
-DOMAIN-SUFFIX,report.qq.com // 应用行为上报中心（接口通用）
+DOMAIN-SUFFIX,bugly.qq.com # Bugly 崩溃日志与异常上报接口
+DOMAIN-SUFFIX,mta.qq.com # MTA 移动分析平台（行为埋点与性能数据）
+DOMAIN-SUFFIX,beacon.qq.com # Beacon 行为数据采集平台（追踪分析）
+DOMAIN-SUFFIX,tracking.qq.com # 用户行为追踪接口
+DOMAIN-SUFFIX,log.tbs.qq.com # TBS（腾讯浏览服务）行为日志与崩溃上报
+DOMAIN-SUFFIX,tdid.qq.com # Tencent Device ID 设备指纹系统
+DOMAIN-SUFFIX,sngdia.qq.com # 腾讯广告行为记录接口
+DOMAIN-SUFFIX,tajs.qq.com # Tencent Analytics JS 埋点日志
+DOMAIN-SUFFIX,dldir1.qq.com # 安装包与更新接口（含行为采样）
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com # 多端设备行为同步接口
+DOMAIN-SUFFIX,report.qq.com # 应用行为上报中心（接口通用）
 
 # >> 微信 / QQ 小程序行为监听模块
-DOMAIN-SUFFIX,report.servicewechat.com // 微信服务接口（含行为分析组件）
-DOMAIN-SUFFIX,myqcloud.com // 腾讯云小程序行为上传域（常用于 SDK）
-DOMAIN-SUFFIX,wxapp.tc.qq.com // 小程序平台日志与崩溃分析服务
-DOMAIN-SUFFIX,miniapp.qq.com // QQ 小程序相关行为数据域名
+DOMAIN-SUFFIX,report.servicewechat.com # 微信服务接口（含行为分析组件）
+DOMAIN-SUFFIX,myqcloud.com # 腾讯云小程序行为上传域（常用于 SDK）
+DOMAIN-SUFFIX,wxapp.tc.qq.com # 小程序平台日志与崩溃分析服务
+DOMAIN-SUFFIX,miniapp.qq.com # QQ 小程序相关行为数据域名
 
 # >> 广告追踪与行为分析平台（优量汇 / 广点通）
-DOMAIN-SUFFIX,e.qq.com // 优量汇广告请求与行为采样接口
-DOMAIN-SUFFIX,gdt.qq.com // 广点通广告 SDK 回传域
-DOMAIN-SUFFIX,l.qq.com // 广告落地页行为分析接口
-DOMAIN-SUFFIX,ad.qq.com // 腾讯广告行为日志
+DOMAIN-SUFFIX,e.qq.com # 优量汇广告请求与行为采样接口
+DOMAIN-SUFFIX,gdt.qq.com # 广点通广告 SDK 回传域
+DOMAIN-SUFFIX,l.qq.com # 广告落地页行为分析接口
+DOMAIN-SUFFIX,ad.qq.com # 腾讯广告行为日志
 
 # >> 腾讯云行为分析接口（用于商业 / SDK 接入）
-DOMAIN-SUFFIX,sandbox.api.qq.com // SDK 模拟测试行为回传（可能用于调试监听）
+DOMAIN-SUFFIX,sandbox.api.qq.com # SDK 模拟测试行为回传（可能用于调试监听）
 
 # >> GFW / Geedge 自有基础设施域名（泄露推测 / 待验证）
-DOMAIN-SUFFIX,tsg.geedge.net // Tiangou Secure Gateway 控制 / 下发接口
-DOMAIN-SUFFIX,mirror.geedge.net // Geedge 包 / 部署镜像服务域名
-DOMAIN-SUFFIX,repo.geedge.net // 包管理 / 源代码发布服务域
-DOMAIN-SUFFIX,update.geedge.net // 固件 / 软件更新接口（GFW 内部模块更新）
-DOMAIN-SUFFIX,config.geedge.net // 配置下发 / 参数同步接口
-DOMAIN-SUFFIX,logsrv.geedge.net // 日志汇集 / 监控上传服务入口
-DOMAIN-SUFFIX,api.geedge.net // 内部 API 接口 / 模块通信域名
-DOMAIN-SUFFIX,tsggw.geedge.net // Tiangou Gateway 网关接入域名
-DOMAIN-SUFFIX,mirror.mesa-lab.net // MESA Lab 镜像 / 工具服务域
-DOMAIN-SUFFIX,control.mesa-lab.net // MESA 控制 / 任务下发接口
+DOMAIN-SUFFIX,tsg.geedge.net # Tiangou Secure Gateway 控制 / 下发接口
+DOMAIN-SUFFIX,mirror.geedge.net # Geedge 包 / 部署镜像服务域名
+DOMAIN-SUFFIX,repo.geedge.net # 包管理 / 源代码发布服务域
+DOMAIN-SUFFIX,update.geedge.net # 固件 / 软件更新接口（GFW 内部模块更新）
+DOMAIN-SUFFIX,config.geedge.net # 配置下发 / 参数同步接口
+DOMAIN-SUFFIX,logsrv.geedge.net # 日志汇集 / 监控上传服务入口
+DOMAIN-SUFFIX,api.geedge.net # 内部 API 接口 / 模块通信域名
+DOMAIN-SUFFIX,tsggw.geedge.net # Tiangou Gateway 网关接入域名
+DOMAIN-SUFFIX,mirror.mesa-lab.net # MESA Lab 镜像 / 工具服务域
+DOMAIN-SUFFIX,control.mesa-lab.net # MESA 控制 / 任务下发接口
 
 # >> 迅雷行为分析接口
 DOMAIN-SUFFIX,dlandroid.rcv.sandai.net  # 迅雷 Android 客户端行为监听接口，使用 HTTP 明文通信，上报遥测数据

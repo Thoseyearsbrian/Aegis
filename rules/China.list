@@ -4,13 +4,13 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-06
+# - 更新时间：2025-10-23
 
 # > WeChat 服务通信与行为上报（含 mmtls 加密传输）
 DOMAIN,weixin.qq.com # 微信官网主站，用于跳转、注册与信息展示
 DOMAIN,mp.weixin.qq.com # 微信公众平台，主要用于公众号内容加载
 DOMAIN,es.wx.qq.com # 微信安全检测与状态验证接口
-DOMAIN,badjs.weixinbridge.com  # 微信小程序错误日志收集平台（BadJS 行为分析）
+DOMAIN,badjs.weixinbridge.com # 微信小程序错误日志收集平台（BadJS 行为分析）
 DOMAIN,dns.weixin.qq.com.cn # 微信专用 DNS 解析节点（可能用于绕过系统 DNS）
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com # 腾讯安全浏览服务域名，用于检测钓鱼网站、恶意链接等内容威胁（多用于 QQ 浏览器与微信内置浏览器）
 
@@ -32,115 +32,115 @@ IP-CIDR,123.6.40.187 # QQ 与微信共用 CDN（dldir1v6.qq.com）
 # 注：mmtls 通信为微信使用的自研加密通道，与普通 HTTPS 不同，可能用于规避检测、行为指纹上传等行为
 
 # >> 搜索引擎（Search Engines）
-DOMAIN-SUFFIX,baidu.com // 百度搜索引擎
-DOMAIN-SUFFIX,baiducontent.com // 百度内容服务
-DOMAIN-SUFFIX,sogou.com // 搜狗搜索
-DOMAIN-SUFFIX,so.com // 360 搜索引擎
-DOMAIN-SUFFIX,sm.cn // 神马搜索（UC）
+DOMAIN-SUFFIX,baidu.com # 百度搜索引擎
+DOMAIN-SUFFIX,baiducontent.com # 百度内容服务
+DOMAIN-SUFFIX,sogou.com # 搜狗搜索
+DOMAIN-SUFFIX,so.com # 360 搜索引擎
+DOMAIN-SUFFIX,sm.cn # 神马搜索（UC）
 
 # >> 电商平台（E-commerce）
-DOMAIN-SUFFIX,taobao.com // 淘宝网
-DOMAIN-SUFFIX,tmall.com // 天猫商城
-DOMAIN-SUFFIX,tmall.hk // 天猫国际
-DOMAIN-SUFFIX,jd.com // 京东商城
-DOMAIN-SUFFIX,suning.com // 苏宁易购
-DOMAIN-SUFFIX,pinduoduo.com // 拼多多
-DOMAIN-SUFFIX,kaola.com // 网易考拉海购
+DOMAIN-SUFFIX,taobao.com # 淘宝网
+DOMAIN-SUFFIX,tmall.com # 天猫商城
+DOMAIN-SUFFIX,tmall.hk # 天猫国际
+DOMAIN-SUFFIX,jd.com # 京东商城
+DOMAIN-SUFFIX,suning.com # 苏宁易购
+DOMAIN-SUFFIX,pinduoduo.com # 拼多多
+DOMAIN-SUFFIX,kaola.com # 网易考拉海购
 
 # >> 支付服务（Payment / Finance）
-DOMAIN-SUFFIX,alipay.com // 支付宝主域名
-DOMAIN-SUFFIX,alipayobjects.com // 支付宝资源文件域名
-DOMAIN-SUFFIX,tenpay.com // 财付通（微信支付上游）
-DOMAIN-SUFFIX,wechatpay.com // 微信支付官方域名
-DOMAIN-SUFFIX,unionpay.com // 银联支付
+DOMAIN-SUFFIX,alipay.com # 支付宝主域名
+DOMAIN-SUFFIX,alipayobjects.com # 支付宝资源文件域名
+DOMAIN-SUFFIX,tenpay.com # 财付通（微信支付上游）
+DOMAIN-SUFFIX,wechatpay.com # 微信支付官方域名
+DOMAIN-SUFFIX,unionpay.com # 银联支付
 
 # >> 社交媒体（Social Media）
-DOMAIN-SUFFIX,wechat.com // 微信
-DOMAIN-SUFFIX,qq.com // QQ主域名
-DOMAIN-SUFFIX,qpic.cn // 腾讯图片资源域名
-DOMAIN-SUFFIX,qzone.qq.com // QQ空间
-DOMAIN-SUFFIX,xiaohongshu.com // 小红书
-DOMAIN-SUFFIX,zhihu.com // 知乎
-DOMAIN-SUFFIX,zhimg.com // 知乎图片资源
-DOMAIN-SUFFIX,weibo.com // 新浪微博
+DOMAIN-SUFFIX,wechat.com # 微信
+DOMAIN-SUFFIX,qq.com # QQ主域名
+DOMAIN-SUFFIX,qpic.cn # 腾讯图片资源域名
+DOMAIN-SUFFIX,qzone.qq.com # QQ空间
+DOMAIN-SUFFIX,xiaohongshu.com # 小红书
+DOMAIN-SUFFIX,zhihu.com # 知乎
+DOMAIN-SUFFIX,zhimg.com # 知乎图片资源
+DOMAIN-SUFFIX,weibo.com # 新浪微博
 
 # >> 地图与导航（Maps & Navigation）
-DOMAIN-SUFFIX,map.baidu.com // 百度地图
-DOMAIN-SUFFIX,amap.com // 高德地图
-DOMAIN-SUFFIX,didiglobal.com // 滴滴出行（国际）
-DOMAIN-SUFFIX,didistatic.com // 滴滴资源域名
+DOMAIN-SUFFIX,map.baidu.com # 百度地图
+DOMAIN-SUFFIX,amap.com # 高德地图
+DOMAIN-SUFFIX,didiglobal.com # 滴滴出行（国际）
+DOMAIN-SUFFIX,didistatic.com # 滴滴资源域名
 
 # >> 云服务与CDN（Cloud Services & CDN）
-DOMAIN-SUFFIX,aliyun.com // 阿里云
-DOMAIN-SUFFIX,alicloud.com // 阿里云国际站
-DOMAIN-SUFFIX,aliyuncs.com // 阿里云对象存储等服务
-DOMAIN-SUFFIX,hicloud.com // 华为云
-DOMAIN-SUFFIX,baidubce.com // 百度智能云
-DOMAIN-SUFFIX,tencentcloud.com // 腾讯云
-DOMAIN-SUFFIX,qcloud.com // 腾讯云老域名
-DOMAIN-SUFFIX,cloud.tencent.com // 腾讯云控制台
-DOMAIN-SUFFIX,myqcloud.com // 腾讯 COS 服务域名
+DOMAIN-SUFFIX,aliyun.com # 阿里云
+DOMAIN-SUFFIX,alicloud.com # 阿里云国际站
+DOMAIN-SUFFIX,aliyuncs.com # 阿里云对象存储等服务
+DOMAIN-SUFFIX,hicloud.com # 华为云
+DOMAIN-SUFFIX,baidubce.com # 百度智能云
+DOMAIN-SUFFIX,tencentcloud.com # 腾讯云
+DOMAIN-SUFFIX,qcloud.com # 腾讯云老域名
+DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云控制台
+DOMAIN-SUFFIX,myqcloud.com # 腾讯 COS 服务域名
 
 # >> 内容平台（Content/Streaming）
-DOMAIN-SUFFIX,bilibili.com // 哔哩哔哩主站
-DOMAIN-SUFFIX,acgvideo.com // B站视频资源域名
-DOMAIN-SUFFIX,iqiyi.com // 爱奇艺
-DOMAIN-SUFFIX,video.qq.com // 腾讯视频
-DOMAIN-SUFFIX,youku.com // 优酷
-DOMAIN-SUFFIX,le.com // 乐视视频
-DOMAIN-SUFFIX,mgtv.com // 芒果TV
+DOMAIN-SUFFIX,bilibili.com # 哔哩哔哩主站
+DOMAIN-SUFFIX,acgvideo.com # B站视频资源域名
+DOMAIN-SUFFIX,iqiyi.com # 爱奇艺
+DOMAIN-SUFFIX,video.qq.com # 腾讯视频
+DOMAIN-SUFFIX,youku.com # 优酷
+DOMAIN-SUFFIX,le.com # 乐视视频
+DOMAIN-SUFFIX,mgtv.com # 芒果TV
 
 # >> 邮箱服务（Email）
-DOMAIN-SUFFIX,mail.qq.com // QQ邮箱
-DOMAIN-SUFFIX,email.163.com // 网易邮箱
-DOMAIN-SUFFIX,126.com // 网易126邮箱
-DOMAIN-SUFFIX,yeah.net // 网易yeah邮箱
-DOMAIN-SUFFIX,sina.com.cn // 新浪邮箱
+DOMAIN-SUFFIX,mail.qq.com # QQ邮箱
+DOMAIN-SUFFIX,email.163.com # 网易邮箱
+DOMAIN-SUFFIX,126.com # 网易126邮箱
+DOMAIN-SUFFIX,yeah.net # 网易yeah邮箱
+DOMAIN-SUFFIX,sina.com.cn # 新浪邮箱
 
 # >> 工具/其他服务（Tools / Misc）
-DOMAIN-SUFFIX,csdn.net // CSDN 技术社区
-DOMAIN-SUFFIX,gtimg.cn // 腾讯静态资源域名
-DOMAIN-SUFFIX,gtimg.com // 腾讯静态资源域名
-DOMAIN-SUFFIX,gov.cn // 政府机构总入口
-DOMAIN-SUFFIX,edu.cn // 教育机构总入口
+DOMAIN-SUFFIX,csdn.net # CSDN 技术社区
+DOMAIN-SUFFIX,gtimg.cn # 腾讯静态资源域名
+DOMAIN-SUFFIX,gtimg.com # 腾讯静态资源域名
+DOMAIN-SUFFIX,gov.cn # 政府机构总入口
+DOMAIN-SUFFIX,edu.cn # 教育机构总入口
 
 # >> 游戏服务（Gaming Services）
-DOMAIN-SUFFIX,game.qq.com // 腾讯游戏
-DOMAIN-SUFFIX,dlied1.qq.com // 腾讯游戏下载 CDN
-DOMAIN-SUFFIX,dlied2.qq.com // 腾讯游戏下载 CDN
-DOMAIN-SUFFIX,play.dl.360.cn // 360游戏平台
-DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubionline.com // 育碧中国区 CDN
-DOMAIN-SUFFIX,egame.qq.com // 腾讯先游 / 电竞平台
-DOMAIN-SUFFIX,xboxlive.cn // Xbox 中国
-DOMAIN-SUFFIX,steampowered.cn // Steam 中国站
-DOMAIN-SUFFIX,steamchina.com // Steam 中国站备用域名
-DOMAIN-SUFFIX,wg.163.com // 网易游戏
-DOMAIN-SUFFIX,4399.com // 4399小游戏平台
-DOMAIN-SUFFIX,7k7k.com // 7k7k小游戏平台
+DOMAIN-SUFFIX,game.qq.com # 腾讯游戏
+DOMAIN-SUFFIX,dlied1.qq.com # 腾讯游戏下载 CDN
+DOMAIN-SUFFIX,dlied2.qq.com # 腾讯游戏下载 CDN
+DOMAIN-SUFFIX,play.dl.360.cn # 360游戏平台
+DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubionline.com # 育碧中国区 CDN
+DOMAIN-SUFFIX,egame.qq.com # 腾讯先游 / 电竞平台
+DOMAIN-SUFFIX,xboxlive.cn # Xbox 中国
+DOMAIN-SUFFIX,steampowered.cn # Steam 中国站
+DOMAIN-SUFFIX,steamchina.com # Steam 中国站备用域名
+DOMAIN-SUFFIX,wg.163.com # 网易游戏
+DOMAIN-SUFFIX,4399.com # 4399小游戏平台
+DOMAIN-SUFFIX,7k7k.com # 7k7k小游戏平台
 
 # >> 企业服务 / 办公平台（Enterprise / Productivity）
-DOMAIN-SUFFIX,aliyun.com // 阿里云（办公场景）
-DOMAIN-SUFFIX,tencentcloud.com // 腾讯云
-DOMAIN-SUFFIX,huaweicloud.com // 华为云
-DOMAIN-SUFFIX,dingtalk.com // 钉钉
-DOMAIN-SUFFIX,feishu.cn // 飞书（国内）
-DOMAIN-SUFFIX,feishu.net // 飞书国际
-DOMAIN-SUFFIX,work.weixin.qq.com // 企业微信
-DOMAIN-SUFFIX,mi.com // 小米企业站
-DOMAIN-SUFFIX,xiaomi.net // 小米企业服务
-DOMAIN-SUFFIX,hikvision.com // 海康威视（政企市场）
+DOMAIN-SUFFIX,aliyun.com # 阿里云（办公场景）
+DOMAIN-SUFFIX,tencentcloud.com # 腾讯云
+DOMAIN-SUFFIX,huaweicloud.com # 华为云
+DOMAIN-SUFFIX,dingtalk.com # 钉钉
+DOMAIN-SUFFIX,feishu.cn # 飞书（国内）
+DOMAIN-SUFFIX,feishu.net # 飞书国际
+DOMAIN-SUFFIX,work.weixin.qq.com # 企业微信
+DOMAIN-SUFFIX,mi.com # 小米企业站
+DOMAIN-SUFFIX,xiaomi.net # 小米企业服务
+DOMAIN-SUFFIX,hikvision.com # 海康威视（政企市场）
 
 # >> 政府 / 教育 / 公共机构域名（Gov / Edu / Public Service）
-DOMAIN-SUFFIX,gov.cn // 中国政府网站总入口
-DOMAIN-SUFFIX,edu.cn // 教育部 / 高校
-DOMAIN-SUFFIX,moe.gov.cn // 教育部官网
-DOMAIN-SUFFIX,customs.gov.cn // 中国海关
-DOMAIN-SUFFIX,mps.gov.cn // 公安部
-DOMAIN-SUFFIX,chinatax.gov.cn // 国家税务总局
-DOMAIN-SUFFIX,stats.gov.cn // 国家统计局
-DOMAIN-SUFFIX,sasac.gov.cn // 国务院国资委
-DOMAIN-SUFFIX,court.gov.cn // 中国法院网
-DOMAIN-SUFFIX,people.com.cn // 人民网（党媒）
-DOMAIN-SUFFIX,xinhuanet.com // 新华网（党媒）
+DOMAIN-SUFFIX,gov.cn # 中国政府网站总入口
+DOMAIN-SUFFIX,edu.cn # 教育部 / 高校
+DOMAIN-SUFFIX,moe.gov.cn # 教育部官网
+DOMAIN-SUFFIX,customs.gov.cn # 中国海关
+DOMAIN-SUFFIX,mps.gov.cn # 公安部
+DOMAIN-SUFFIX,chinatax.gov.cn # 国家税务总局
+DOMAIN-SUFFIX,stats.gov.cn # 国家统计局
+DOMAIN-SUFFIX,sasac.gov.cn # 国务院国资委
+DOMAIN-SUFFIX,court.gov.cn # 中国法院网
+DOMAIN-SUFFIX,people.com.cn # 人民网（党媒）
+DOMAIN-SUFFIX,xinhuanet.com # 新华网（党媒）
 
 DOMAIN,ps.gaoding.com # 稿定设计平台图片处理与资源加载接口，部分网页编辑与预览功能依赖

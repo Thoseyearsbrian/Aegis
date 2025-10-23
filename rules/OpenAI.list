@@ -4,24 +4,24 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-03
+# - 更新时间：2025-10-23
 
 # > OpenAI Chat 系列
 
-DOMAIN-SUFFIX,openai.com // OpenAI 主站域名
-DOMAIN-SUFFIX,chat.openai.com // ChatGPT 网页端
-DOMAIN-SUFFIX,api.openai.com // OpenAI API 接口
-DOMAIN-SUFFIX,cdn.openai.com // 静态资源 CDN
-DOMAIN-SUFFIX,platform.openai.com // OpenAI 开发者平台
-DOMAIN-SUFFIX,chatgpt.com // ChatGPT 主域
-DOMAIN-SUFFIX,ios.chat.openai.com // iOS 客户端专用域名
-DOMAIN-SUFFIX,android.chat.openai.com // Android 客户端专用域名
-DOMAIN-SUFFIX,ws.chatgpt.com // ChatGPT WebSocket 通道
-DOMAIN-SUFFIX,ab.chatgpt.com  // ChatGPT A/B 实验流量
-DOMAIN-SUFFIX,oaiusercontent.com // OpenAI 输出内容（图片/文件等）
-DOMAIN-SUFFIX,oaistatic.com // OpenAI 静态资源域
-DOMAIN-SUFFIX,persistent.oaistatic.com // OpenAI 持久化静态资源
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net // Azure Edge CDN 分发
+DOMAIN-SUFFIX,openai.com # OpenAI 主站域名
+DOMAIN-SUFFIX,chat.openai.com # ChatGPT 网页端
+DOMAIN-SUFFIX,api.openai.com # OpenAI API 接口
+DOMAIN-SUFFIX,cdn.openai.com # 静态资源 CDN
+DOMAIN-SUFFIX,platform.openai.com # OpenAI 开发者平台
+DOMAIN-SUFFIX,chatgpt.com # ChatGPT 主域
+DOMAIN-SUFFIX,ios.chat.openai.com # iOS 客户端专用域名
+DOMAIN-SUFFIX,android.chat.openai.com # Android 客户端专用域名
+DOMAIN-SUFFIX,ws.chatgpt.com # ChatGPT WebSocket 通道
+DOMAIN-SUFFIX,ab.chatgpt.com  # ChatGPT A/B 实验流量
+DOMAIN-SUFFIX,oaiusercontent.com # OpenAI 输出内容（图片/文件等）
+DOMAIN-SUFFIX,oaistatic.com # OpenAI 静态资源域
+DOMAIN-SUFFIX,persistent.oaistatic.com # OpenAI 持久化静态资源
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net # Azure Edge CDN 分发
 DOMAIN-SUFFIX,ab.chatgpt.com # OpenAI AB 测试服务，可能用于实验性功能路由与测试
 DOMAIN-SUFFIX,cdn.oaistatic.com # OpenAI 静态资源 CDN，服务于 ChatGPT 与 API 文档等页面加载
 

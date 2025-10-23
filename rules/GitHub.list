@@ -4,34 +4,34 @@
 # - 特征：涵盖 GitHub 主域名、子服务与 CDN 资源
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-06
+# - 更新时间：2025-10-23
 
 # > GitHub 主站与基础服务
-DOMAIN-SUFFIX,github.com // GitHub 主站（代码托管/仓库浏览）
-DOMAIN-SUFFIX,githubusercontent.com // GitHub 用户内容、原始文件托管
-DOMAIN-SUFFIX,githubapp.com // GitHub App 服务相关域名
-DOMAIN-SUFFIX,githubassets.com // GitHub 静态资源加载，如 CSS/JS
-DOMAIN,alive.github.com // GitHub 保活/连接测试服务
+DOMAIN-SUFFIX,github.com # GitHub 主站（代码托管/仓库浏览）
+DOMAIN-SUFFIX,githubusercontent.com # GitHub 用户内容、原始文件托管
+DOMAIN-SUFFIX,githubapp.com # GitHub App 服务相关域名
+DOMAIN-SUFFIX,githubassets.com # GitHub 静态资源加载，如 CSS/JS
+DOMAIN,alive.github.com # GitHub 保活/连接测试服务
 DOMAIN-SUFFIX,github.blog # GitHub 官方博客平台（产品动态 / 公告）
 DOMAIN-SUFFIX,githubcopilot.com # GitHub Copilot AI 编程助手服务
 DOMAIN,alive.github.com # GitHub 实时通知 / WebSocket 接口子域，用于事件推送与仓库通知等功能
 
 # >> GitHub API 接口（CLI、Git操作、Webhook、REST/GraphQL）
-DOMAIN-SUFFIX,api.github.com // GitHub API 接口主域（REST/GraphQL）
-DOMAIN-SUFFIX,codeload.github.com // GitHub 文件下载/打包服务
-DOMAIN-SUFFIX,nodeload.github.com // GitHub NodeJS 相关包下载服务
-DOMAIN-KEYWORD,raw.githubusercontent.com // GitHub 原始文件（如 hosts、规则等）
-DOMAIN-KEYWORD,avatars.githubusercontent.com // GitHub 用户头像加载
+DOMAIN-SUFFIX,api.github.com # GitHub API 接口主域（REST/GraphQL）
+DOMAIN-SUFFIX,codeload.github.com # GitHub 文件下载/打包服务
+DOMAIN-SUFFIX,nodeload.github.com # GitHub NodeJS 相关包下载服务
+DOMAIN-KEYWORD,raw.githubusercontent.com # GitHub 原始文件（如 hosts、规则等）
+DOMAIN-KEYWORD,avatars.githubusercontent.com # GitHub 用户头像加载
 
 # >> GitHub Actions 相关服务（Runner下载等）
-DOMAIN-SUFFIX,actions.githubusercontent.com // GitHub Actions 执行服务
-DOMAIN-SUFFIX,ghcr.io // GitHub Container Registry（Docker 镜像）
-DOMAIN-SUFFIX,github.cloud.capriza.com // GitHub 企业服务 API 接入（部分）
+DOMAIN-SUFFIX,actions.githubusercontent.com # GitHub Actions 执行服务
+DOMAIN-SUFFIX,ghcr.io # GitHub Container Registry（Docker 镜像）
+DOMAIN-SUFFIX,github.cloud.capriza.com # GitHub 企业服务 API 接入（部分）
 
 # > GitHub CDN 加速服务（如 fastly / jsdelivr 等第三方，非强依赖）
-DOMAIN-SUFFIX,github.global.ssl.fastly.net // GitHub 静态 CDN（Fastly）
-DOMAIN-SUFFIX,jsdelivr.net // jsDelivr CDN（GitHub、npm等联合加速）
-DOMAIN-SUFFIX,github.io // GitHub Pages 静态站点托管域名（可设 CDN 缓存）
-DOMAIN-SUFFIX,recloudstream.github.io // CloudStream 项目 Github Pages 托管
+DOMAIN-SUFFIX,github.global.ssl.fastly.net # GitHub 静态 CDN（Fastly）
+DOMAIN-SUFFIX,jsdelivr.net # jsDelivr CDN（GitHub、npm等联合加速）
+DOMAIN-SUFFIX,github.io # GitHub Pages 静态站点托管域名（可设 CDN 缓存）
+DOMAIN-SUFFIX,recloudstream.github.io # CloudStream 项目 Github Pages 托管
 DOMAIN-SUFFIX,rawgithub.com # 第三方 GitHub Raw 文件镜像站（非官方，存在安全隐患）
 DOMAIN-SUFFIX,githubmemory.com # GitHub issues & discussions 社区镜像服务（非官方工具，可能存在缓存）

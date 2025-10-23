@@ -4,107 +4,107 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具，便于策略识别与分流（建议绑定策略 Crypto / PROXY 或用于行为审计）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-23
 
 # >> 追踪与推送平台
-DOMAIN,access.pushsdk.com // 极光推送，常用于交易App通知
-DOMAIN-KEYWORD,appsflayer // Appsflyer SDK，多用于营销追踪与广告监测
+DOMAIN,access.pushsdk.com # 极光推送，常用于交易App通知
+DOMAIN-KEYWORD,appsflayer # Appsflyer SDK，多用于营销追踪与广告监测
 
 # >> 加密交易所 / 钱包平台关键词识别
-DOMAIN-KEYWORD,binance // 币安交易所
-DOMAIN-KEYWORD,bitget // Bitget 交易所
-DOMAIN-KEYWORD,bnbstatic // 币安相关静态资源
-DOMAIN-KEYWORD,bybit // Bybit 衍生品平台
-DOMAIN-KEYWORD,coinbase // Coinbase 美国最大交易所
-DOMAIN-KEYWORD,gate // Gate.io 虎符交易所
-DOMAIN-KEYWORD,huobi // 火币
-DOMAIN-KEYWORD,mexc // MEXC 全球交易平台
-DOMAIN-KEYWORD,okx // OKX 平台
-DOMAIN-KEYWORD,pionex // 量化交易机器人平台
+DOMAIN-KEYWORD,binance # 币安交易所
+DOMAIN-KEYWORD,bitget # Bitget 交易所
+DOMAIN-KEYWORD,bnbstatic # 币安相关静态资源
+DOMAIN-KEYWORD,bybit # Bybit 衍生品平台
+DOMAIN-KEYWORD,coinbase # Coinbase 美国最大交易所
+DOMAIN-KEYWORD,gate # Gate.io 虎符交易所
+DOMAIN-KEYWORD,huobi # 火币
+DOMAIN-KEYWORD,mexc # MEXC 全球交易平台
+DOMAIN-KEYWORD,okx # OKX 平台
+DOMAIN-KEYWORD,pionex # 量化交易机器人平台
 
 # >> 区块链与DeFi关键词识别
-DOMAIN-KEYWORD,ethereum // 以太坊
-DOMAIN-KEYWORD,metamask // MetaMask 钱包
-DOMAIN-KEYWORD,crypto // 通用加密关键词
-DOMAIN-KEYWORD,mdex // Mdex 去中心化交易
+DOMAIN-KEYWORD,ethereum # 以太坊
+DOMAIN-KEYWORD,metamask # MetaMask 钱包
+DOMAIN-KEYWORD,crypto # 通用加密关键词
+DOMAIN-KEYWORD,mdex # Mdex 去中心化交易
 
 # >> 土耳其地区相关支付与交易平台（关键词）
-DOMAIN-KEYWORD,byabcde // 可疑交易平台标记
-DOMAIN-KEYWORD,bybdc6 // 可疑交易平台标记
-DOMAIN-KEYWORD,com.tr // .tr 后缀服务域名
-DOMAIN-KEYWORD,epin // 电码充值类平台
-DOMAIN-KEYWORD,fups // 土耳其支付服务
-DOMAIN-KEYWORD,ininal // 土耳其虚拟卡支付
-DOMAIN-KEYWORD,iyzico // 支付网关
-DOMAIN-KEYWORD,iyzipay // 土耳其金融科技
-DOMAIN-KEYWORD,ozan // 土耳其虚拟银行
-DOMAIN-KEYWORD,papara // 土耳其虚拟支付卡
-DOMAIN-KEYWORD,redotpay // 加密支付平台
-DOMAIN-KEYWORD,saasexch // SaaS 接口网关
-DOMAIN-KEYWORD,sipay // 本地支付处理器
-DOMAIN-KEYWORD,yingwangtech // 可疑 SDK / 第三方服务
+DOMAIN-KEYWORD,byabcde # 可疑交易平台标记
+DOMAIN-KEYWORD,bybdc6 # 可疑交易平台标记
+DOMAIN-KEYWORD,com.tr # .tr 后缀服务域名
+DOMAIN-KEYWORD,epin # 电码充值类平台
+DOMAIN-KEYWORD,fups # 土耳其支付服务
+DOMAIN-KEYWORD,ininal # 土耳其虚拟卡支付
+DOMAIN-KEYWORD,iyzico # 支付网关
+DOMAIN-KEYWORD,iyzipay # 土耳其金融科技
+DOMAIN-KEYWORD,ozan # 土耳其虚拟银行
+DOMAIN-KEYWORD,papara # 土耳其虚拟支付卡
+DOMAIN-KEYWORD,redotpay # 加密支付平台
+DOMAIN-KEYWORD,saasexch # SaaS 接口网关
+DOMAIN-KEYWORD,sipay # 本地支付处理器
+DOMAIN-KEYWORD,yingwangtech # 可疑 SDK / 第三方服务
 
 # >> 已知加密项目 / 钱包 / 浏览器 / 区块链资源
-DOMAIN-SUFFIX,1inch.io // 1inch DEX 聚合器
-DOMAIN-SUFFIX,aave.com // 去中心化借贷
-DOMAIN-SUFFIX,arbitrum.io // 二层扩展
-DOMAIN-SUFFIX,avax.network // Avalanche 网络
-DOMAIN-SUFFIX,bscscan.com // BSC 浏览器
-DOMAIN-SUFFIX,blockchain.com // 加密钱包 & 浏览器
-DOMAIN-SUFFIX,etherscan.io // Ethereum 浏览器
-DOMAIN-SUFFIX,defillama.com // DeFi 数据聚合
-DOMAIN-SUFFIX,dappradar.com // DApp 热度排行
-DOMAIN-SUFFIX,myetherwallet.com // 以太坊钱包
-DOMAIN-SUFFIX,tokenpocket.pro // TokenPocket 钱包
-DOMAIN-SUFFIX,phantom.app // Solana 钱包
-DOMAIN-SUFFIX,metalpha.finance // 金融平台
-DOMAIN-SUFFIX,coingecko.com // 行情平台
-DOMAIN-SUFFIX,coinmarketcap.com // 行情平台
-DOMAIN-SUFFIX,nansen.ai // 数据分析
-DOMAIN-SUFFIX,zapper.fi // 资产组合管理
-DOMAIN-SUFFIX,uniswap.org // DEX 去中心化交易
-DOMAIN-SUFFIX,opensea.io // NFT 交易平台
-DOMAIN-SUFFIX,tether.to // 泰达币官方
-DOMAIN-SUFFIX,trustwalletapp.com // Trust 钱包
-DOMAIN-SUFFIX,tronscan.org // TRON 浏览器
-DOMAIN-SUFFIX,curve.fi // 曲线协议
-DOMAIN-SUFFIX,sushiswap.org // 去中心化交易所
-DOMAIN-SUFFIX,raydium.io // Solana 上的 AMM
-DOMAIN-SUFFIX,kraken.com // Kraken 交易所
-DOMAIN-SUFFIX,coinbase.com // Coinbase
-DOMAIN-SUFFIX,bitfinex.com // Bitfinex
-DOMAIN-SUFFIX,bitstamp.net // Bitstamp
-DOMAIN-SUFFIX,bithumb.com // 韩国交易所
-DOMAIN-SUFFIX,huobi.com // 火币
-DOMAIN-SUFFIX,mexc.com // MEXC
-DOMAIN-SUFFIX,okx.com // OKX
+DOMAIN-SUFFIX,1inch.io # 1inch DEX 聚合器
+DOMAIN-SUFFIX,aave.com # 去中心化借贷
+DOMAIN-SUFFIX,arbitrum.io # 二层扩展
+DOMAIN-SUFFIX,avax.network # Avalanche 网络
+DOMAIN-SUFFIX,bscscan.com # BSC 浏览器
+DOMAIN-SUFFIX,blockchain.com # 加密钱包 & 浏览器
+DOMAIN-SUFFIX,etherscan.io # Ethereum 浏览器
+DOMAIN-SUFFIX,defillama.com # DeFi 数据聚合
+DOMAIN-SUFFIX,dappradar.com # DApp 热度排行
+DOMAIN-SUFFIX,myetherwallet.com # 以太坊钱包
+DOMAIN-SUFFIX,tokenpocket.pro # TokenPocket 钱包
+DOMAIN-SUFFIX,phantom.app # Solana 钱包
+DOMAIN-SUFFIX,metalpha.finance # 金融平台
+DOMAIN-SUFFIX,coingecko.com # 行情平台
+DOMAIN-SUFFIX,coinmarketcap.com # 行情平台
+DOMAIN-SUFFIX,nansen.ai # 数据分析
+DOMAIN-SUFFIX,zapper.fi # 资产组合管理
+DOMAIN-SUFFIX,uniswap.org # DEX 去中心化交易
+DOMAIN-SUFFIX,opensea.io # NFT 交易平台
+DOMAIN-SUFFIX,tether.to # 泰达币官方
+DOMAIN-SUFFIX,trustwalletapp.com # Trust 钱包
+DOMAIN-SUFFIX,tronscan.org # TRON 浏览器
+DOMAIN-SUFFIX,curve.fi # 曲线协议
+DOMAIN-SUFFIX,sushiswap.org # 去中心化交易所
+DOMAIN-SUFFIX,raydium.io # Solana 上的 AMM
+DOMAIN-SUFFIX,kraken.com # Kraken 交易所
+DOMAIN-SUFFIX,coinbase.com # Coinbase
+DOMAIN-SUFFIX,bitfinex.com # Bitfinex
+DOMAIN-SUFFIX,bitstamp.net # Bitstamp
+DOMAIN-SUFFIX,bithumb.com # 韩国交易所
+DOMAIN-SUFFIX,huobi.com # 火币
+DOMAIN-SUFFIX,mexc.com # MEXC
+DOMAIN-SUFFIX,okx.com # OKX
 
 # >> 区块链底层工具 / 浏览器 / 文件存储
-DOMAIN-SUFFIX,infura.io // 区块链 API 网关
-DOMAIN-SUFFIX,ipfs.io // 分布式文件系统
-DOMAIN-SUFFIX,filecoin.io // Filecoin 存储
-DOMAIN-SUFFIX,ethgasstation.info // 以太坊 Gas 信息
-DOMAIN-SUFFIX,myqcloud.com // CDN 平台，部分钱包依赖
+DOMAIN-SUFFIX,infura.io # 区块链 API 网关
+DOMAIN-SUFFIX,ipfs.io # 分布式文件系统
+DOMAIN-SUFFIX,filecoin.io # Filecoin 存储
+DOMAIN-SUFFIX,ethgasstation.info # 以太坊 Gas 信息
+DOMAIN-SUFFIX,myqcloud.com # CDN 平台，部分钱包依赖
 
 # >> 可疑或未知用途域名（需后续审计）
-DOMAIN-SUFFIX,bnappzh.co // 可疑交易平台
-DOMAIN-SUFFIX,bnappzh.mobi // 可疑移动端平台
-DOMAIN-SUFFIX,log.bntrace.com // 跟踪系统日志接口
+DOMAIN-SUFFIX,bnappzh.co # 可疑交易平台
+DOMAIN-SUFFIX,bnappzh.mobi # 可疑移动端平台
+DOMAIN-SUFFIX,log.bntrace.com # 跟踪系统日志接口
 
 # >> IP-CIDR（常见交易平台或钱包服务IP）
-IP-CIDR,120.24.233.110/32 // Binance
-IP-CIDR,120.76.205.62/32 // Binance
-IP-CIDR,120.78.229.149/32 // Binance
-IP-CIDR,120.79.3.17/32 // Binance
-IP-CIDR,13.248.135.87/32 // Coinbase
-IP-CIDR,35.77.148.188/32 // OKX
-IP-CIDR,47.107.127.135/32 // 火币相关
-IP-CIDR,47.107.32.31/32 // 火币相关
-IP-CIDR,47.107.72.24/32 // 火币相关
-IP-CIDR,47.107.82.99/32 // 火币相关
-IP-CIDR,47.107.98.27/32 // 火币相关
-IP-CIDR,52.68.117.1/32 // Coinbase
-IP-CIDR,54.150.106.1/32 // Coinbase
+IP-CIDR,120.24.233.110/32 # Binance
+IP-CIDR,120.76.205.62/32 # Binance
+IP-CIDR,120.78.229.149/32 # Binance
+IP-CIDR,120.79.3.17/32 # Binance
+IP-CIDR,13.248.135.87/32 # Coinbase
+IP-CIDR,35.77.148.188/32 # OKX
+IP-CIDR,47.107.127.135/32 # 火币相关
+IP-CIDR,47.107.32.31/32 # 火币相关
+IP-CIDR,47.107.72.24/32 # 火币相关
+IP-CIDR,47.107.82.99/32 # 火币相关
+IP-CIDR,47.107.98.27/32 # 火币相关
+IP-CIDR,52.68.117.1/32 # Coinbase
+IP-CIDR,54.150.106.1/32 # Coinbase
 
 # >> 预留
 # （如需添加 NFT 市场 / BTC 浏览器 / 波卡生态，可创建子模块 Crypto_NFT.list / Crypto_BTC.list）

@@ -4,108 +4,108 @@
 # - 特征：涵盖 Steam、Epic、PlayStation、Nintendo 等主流游戏平台访问域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-10-23
 
 # >> Steam 平台（Valve 旗下）
-DOMAIN-SUFFIX,steampowered.com // Steam 官方域名
-DOMAIN-SUFFIX,steamcommunity.com // Steam 社区
-DOMAIN-SUFFIX,steamusercontent.com // Steam 静态资源
-DOMAIN-SUFFIX,steamcontent.com // Steam 内容分发
-DOMAIN-SUFFIX,steamgames.com // Steam 备用域名
-DOMAIN-SUFFIX,valvesoftware.com // Valve 官方网站
-DOMAIN-SUFFIX,csgo.com // CS:GO 游戏相关
-DOMAIN-SUFFIX,dota2.com // Dota2 游戏相关
-DOMAIN-SUFFIX,teamfortress.com // TF2 游戏相关
-DOMAIN-SUFFIX,underlords.com // Dota Underlords
-DOMAIN-SUFFIX,artifact.game // Artifact 卡牌游戏
+DOMAIN-SUFFIX,steampowered.com # Steam 官方域名
+DOMAIN-SUFFIX,steamcommunity.com # Steam 社区
+DOMAIN-SUFFIX,steamusercontent.com # Steam 静态资源
+DOMAIN-SUFFIX,steamcontent.com # Steam 内容分发
+DOMAIN-SUFFIX,steamgames.com # Steam 备用域名
+DOMAIN-SUFFIX,valvesoftware.com # Valve 官方网站
+DOMAIN-SUFFIX,csgo.com # CS:GO 游戏相关
+DOMAIN-SUFFIX,dota2.com # Dota2 游戏相关
+DOMAIN-SUFFIX,teamfortress.com # TF2 游戏相关
+DOMAIN-SUFFIX,underlords.com # Dota Underlords
+DOMAIN-SUFFIX,artifact.game # Artifact 卡牌游戏
 
 # >> Epic Games 平台
-DOMAIN-SUFFIX,epicgames.com // Epic 官方域名
-DOMAIN-SUFFIX,epicgames.dev // Epic 开发者服务
-DOMAIN-SUFFIX,fortnite.com // Fortnite 官方网站
-DOMAIN-SUFFIX,unrealengine.com // 虚幻引擎
-DOMAIN-SUFFIX,rocketleague.com // Rocket League 官方
-DOMAIN-SUFFIX,picaresquest.com // Epic 游戏资源
+DOMAIN-SUFFIX,epicgames.com # Epic 官方域名
+DOMAIN-SUFFIX,epicgames.dev # Epic 开发者服务
+DOMAIN-SUFFIX,fortnite.com # Fortnite 官方网站
+DOMAIN-SUFFIX,unrealengine.com # 虚幻引擎
+DOMAIN-SUFFIX,rocketleague.com # Rocket League 官方
+DOMAIN-SUFFIX,picaresquest.com # Epic 游戏资源
 
 # >> Sony PlayStation 平台
-DOMAIN-SUFFIX,playstation.com // PlayStation 官网
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com // 索尼娱乐网络
-DOMAIN-SUFFIX,playstation.net // 索尼游戏网络域名
-DOMAIN-SUFFIX,pscdn.co // PlayStation 静态资源
-DOMAIN-SUFFIX,pscp.tv // PlayStation 流媒体服务
-DOMAIN-SUFFIX,psnprofiles.com // PSN 玩家社区（第三方）
+DOMAIN-SUFFIX,playstation.com # PlayStation 官网
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com # 索尼娱乐网络
+DOMAIN-SUFFIX,playstation.net # 索尼游戏网络域名
+DOMAIN-SUFFIX,pscdn.co # PlayStation 静态资源
+DOMAIN-SUFFIX,pscp.tv # PlayStation 流媒体服务
+DOMAIN-SUFFIX,psnprofiles.com # PSN 玩家社区（第三方）
 
 # >> Nintendo 平台
-DOMAIN-SUFFIX,nintendo.com // 任天堂主域名
-DOMAIN-SUFFIX,nintendoswitch.com // Nintendo Switch 官方网站
-DOMAIN-SUFFIX,nintendo.net // Nintendo 服务域
-DOMAIN-SUFFIX,nintendo.co.jp // 任天堂日本官网
-DOMAIN-SUFFIX,nshop.nintendo.net // Nintendo eShop
-DOMAIN-SUFFIX,nsu.nintendo.net // Nintendo 系统更新服务
+DOMAIN-SUFFIX,nintendo.com # 任天堂主域名
+DOMAIN-SUFFIX,nintendoswitch.com # Nintendo Switch 官方网站
+DOMAIN-SUFFIX,nintendo.net # Nintendo 服务域
+DOMAIN-SUFFIX,nintendo.co.jp # 任天堂日本官网
+DOMAIN-SUFFIX,nshop.nintendo.net # Nintendo eShop
+DOMAIN-SUFFIX,nsu.nintendo.net # Nintendo 系统更新服务
 
 # >> Xbox 与游戏服务（Xbox / Gaming）
-DOMAIN-SUFFIX,xbox.com // Xbox 官方网站
-DOMAIN-SUFFIX,xboxlive.com // Xbox Live 服务
-DOMAIN-SUFFIX,xboxservices.com // Xbox 相关服务
-DOMAIN-SUFFIX,xboxab.com // Xbox 广告相关域名
-DOMAIN-SUFFIX,xbox360.com // Xbox 360 官方域名
-DOMAIN-SUFFIX,xboxone.com // Xbox One 官方域名
-DOMAIN-SUFFIX,msxbox.com // Xbox 静态资源
+DOMAIN-SUFFIX,xbox.com # Xbox 官方网站
+DOMAIN-SUFFIX,xboxlive.com # Xbox Live 服务
+DOMAIN-SUFFIX,xboxservices.com # Xbox 相关服务
+DOMAIN-SUFFIX,xboxab.com # Xbox 广告相关域名
+DOMAIN-SUFFIX,xbox360.com # Xbox 360 官方域名
+DOMAIN-SUFFIX,xboxone.com # Xbox One 官方域名
+DOMAIN-SUFFIX,msxbox.com # Xbox 静态资源
 
 # >> Riot Games（英雄联盟等）
-DOMAIN-SUFFIX,riotgames.com // Riot 官方域名
-DOMAIN-SUFFIX,lolstatic.com // LOL 静态资源
-DOMAIN-SUFFIX,leagueoflegends.com // 英雄联盟官网
-DOMAIN-SUFFIX,lolvvv.com // 第三方战绩查询
-DOMAIN-SUFFIX,wildrift.leagueoflegends.com // LOL手游
-DOMAIN-SUFFIX,valorant.com // Valorant 战术射击游戏
-DOMAIN-SUFFIX,teamfighttactics.leagueoflegends.com // 云顶之弈
+DOMAIN-SUFFIX,riotgames.com # Riot 官方域名
+DOMAIN-SUFFIX,lolstatic.com # LOL 静态资源
+DOMAIN-SUFFIX,leagueoflegends.com # 英雄联盟官网
+DOMAIN-SUFFIX,lolvvv.com # 第三方战绩查询
+DOMAIN-SUFFIX,wildrift.leagueoflegends.com # LOL手游
+DOMAIN-SUFFIX,valorant.com # Valorant 战术射击游戏
+DOMAIN-SUFFIX,teamfighttactics.leagueoflegends.com # 云顶之弈
 
 # >> Blizzard 暴雪娱乐
-DOMAIN-SUFFIX,battle.net // 暴雪战网
-DOMAIN-SUFFIX,blizzard.com // 暴雪官网
-DOMAIN-SUFFIX,overwatch.blizzard.com // 守望先锋
-DOMAIN-SUFFIX,diablo.blizzard.com // 暗黑破坏神
-DOMAIN-SUFFIX,hearthstone.blizzard.com // 炉石传说
-DOMAIN-SUFFIX,starcraft2.com // 星际争霸2
-DOMAIN-SUFFIX,worldofwarcraft.com // 魔兽世界
+DOMAIN-SUFFIX,battle.net # 暴雪战网
+DOMAIN-SUFFIX,blizzard.com # 暴雪官网
+DOMAIN-SUFFIX,overwatch.blizzard.com # 守望先锋
+DOMAIN-SUFFIX,diablo.blizzard.com # 暗黑破坏神
+DOMAIN-SUFFIX,hearthstone.blizzard.com # 炉石传说
+DOMAIN-SUFFIX,starcraft2.com # 星际争霸2
+DOMAIN-SUFFIX,worldofwarcraft.com # 魔兽世界
 
 # >> Ubisoft 育碧
-DOMAIN-SUFFIX,ubisoft.com // 育碧官网
-DOMAIN-SUFFIX,ubi.com // Uplay 游戏服务
-DOMAIN-SUFFIX,uplayconnect.com // Uplay 连接服务
-DOMAIN-SUFFIX,ubisoftconnect.com // Ubisoft Connect 平台
-DOMAIN-SUFFIX,ubisoftgroup.com // 育碧集团
+DOMAIN-SUFFIX,ubisoft.com # 育碧官网
+DOMAIN-SUFFIX,ubi.com # Uplay 游戏服务
+DOMAIN-SUFFIX,uplayconnect.com # Uplay 连接服务
+DOMAIN-SUFFIX,ubisoftconnect.com # Ubisoft Connect 平台
+DOMAIN-SUFFIX,ubisoftgroup.com # 育碧集团
 
 # >> EA / Origin / Apex Legends
-DOMAIN-SUFFIX,ea.com // EA 官方网站
-DOMAIN-SUFFIX,origin.com // Origin 平台
-DOMAIN-SUFFIX,apexlegends.com // Apex 英雄
-DOMAIN-SUFFIX,fut.gg // FIFA Ultimate Team 第三方
-DOMAIN-SUFFIX,battlefield.com // 战地系列
+DOMAIN-SUFFIX,ea.com # EA 官方网站
+DOMAIN-SUFFIX,origin.com # Origin 平台
+DOMAIN-SUFFIX,apexlegends.com # Apex 英雄
+DOMAIN-SUFFIX,fut.gg # FIFA Ultimate Team 第三方
+DOMAIN-SUFFIX,battlefield.com # 战地系列
 
 # >> Rockstar Games / RGL
-DOMAIN-SUFFIX,rockstargames.com // Rockstar 官方网站
-DOMAIN-SUFFIX,socialclub.rockstargames.com // Rockstar 社区
-DOMAIN-SUFFIX,gtavicecity.ru // GTA 系列信息站
-DOMAIN-SUFFIX,rsg.sc // Rockstar 缩短域名
+DOMAIN-SUFFIX,rockstargames.com # Rockstar 官方网站
+DOMAIN-SUFFIX,socialclub.rockstargames.com # Rockstar 社区
+DOMAIN-SUFFIX,gtavicecity.ru # GTA 系列信息站
+DOMAIN-SUFFIX,rsg.sc # Rockstar 缩短域名
 
 # >> Bethesda / Doom / Fallout
-DOMAIN-SUFFIX,bethesda.net // Bethesda 游戏发行商
-DOMAIN-SUFFIX,doom.com // Doom 系列
-DOMAIN-SUFFIX,fallout.bethesda.net // 辐射系列
+DOMAIN-SUFFIX,bethesda.net # Bethesda 游戏发行商
+DOMAIN-SUFFIX,doom.com # Doom 系列
+DOMAIN-SUFFIX,fallout.bethesda.net # 辐射系列
 
 # >> GOG.com
-DOMAIN-SUFFIX,gog.com // GOG 数字游戏平台
-DOMAIN-SUFFIX,gog-statics.com // GOG 静态资源
+DOMAIN-SUFFIX,gog.com # GOG 数字游戏平台
+DOMAIN-SUFFIX,gog-statics.com # GOG 静态资源
 
 # >> itch.io / 独立游戏
-DOMAIN-SUFFIX,itch.io // 独立游戏平台
-DOMAIN-SUFFIX,itch.zone // itch.io 游戏资源
+DOMAIN-SUFFIX,itch.io # 独立游戏平台
+DOMAIN-SUFFIX,itch.zone # itch.io 游戏资源
 
 # >> 其他游戏资源站点
-DOMAIN-SUFFIX,curseforge.com // Mod 下载站点
-DOMAIN-SUFFIX,nexusmods.com // Mod 资源站
-DOMAIN-SUFFIX,moddb.com // Mod 数据库
-DOMAIN-SUFFIX,unity.com // Unity 引擎
-DOMAIN-SUFFIX,gameloft.com // Gameloft 移动游戏开发商
+DOMAIN-SUFFIX,curseforge.com # Mod 下载站点
+DOMAIN-SUFFIX,nexusmods.com # Mod 资源站
+DOMAIN-SUFFIX,moddb.com # Mod 数据库
+DOMAIN-SUFFIX,unity.com # Unity 引擎
+DOMAIN-SUFFIX,gameloft.com # Gameloft 移动游戏开发商
