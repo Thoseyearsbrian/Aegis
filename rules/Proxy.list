@@ -7504,6 +7504,7 @@ DOMAIN-SUFFIX,static-zayo1.zohocdn.com # Zoho CDN 加速节点，可能归属 Za
 DOMAIN-SUFFIX,static-lumen1.zohocdn.com # Zoho CDN 加速节点，可能归属 Lumen 网络（用于全球分发）
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
 DOMAIN-SUFFIX,pockyt.io # Pockyt 跨境支付平台官网域名，用于商户付款、提现与钱包服务
+DOMAIN-SUFFIX,oss.yuansfer.com  # Pockyt 资源托管域名，用于静态资源加载与支付服务文件分发
 DOMAIN-SUFFIX,fba02.fbsubcn01.cc # 代理节点域名（属于机场服务提供商）
 DOMAIN-SUFFIX,lk02.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,lk01.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
