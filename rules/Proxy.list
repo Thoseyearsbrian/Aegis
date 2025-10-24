@@ -4,7 +4,7 @@
 # - 特征：识别需依赖境外网络访问的服务接口、功能模块及订阅/节点回源类域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-23
+# - 更新时间：2025-10-24
 
 # » 通用代理订阅平台 / 节点服务
 DOMAIN-SUFFIX,api.subs.ee // 常见订阅转换服务平台
@@ -44,6 +44,8 @@ DOMAIN-SUFFIX,geolocation.obdev.at # Little Snitch 地理定位服务，用于�
 DOMAIN-SUFFIX,dispatcher.is.autonavi.com # 高德地图调度接口域名，用于定位与路径分发
 DOMAIN-SUFFIX,nektony.com  # Nektony 官网及应用服务域名，用于Mac系统清理、磁盘管理与隐私保护工具通信
 DOMAIN-SUFFIX,maxmind.com  # MaxMind 数据服务域名，用于 IP 地理定位与 GeoIP 数据接口
+DOMAIN-SUFFIX,kali.org  # Kali Linux 官网及更新服务，常用于渗透测试与安全工具下载
+DOMAIN-SUFFIX,mac.getutm.app  # UTM 虚拟机管理器 macOS 官方下载站点，部分资源需代理访问
 
 # >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
 DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）
@@ -57,14 +59,14 @@ DOMAIN-SUFFIX,sequoia.apple.com # 日志分析/遥测（Safari翻译依赖）
 DOMAIN-SUFFIX,xp.apple.com # 证书/注册平台
 DOMAIN-SUFFIX,api.cognitive.microsoft.com # 微软翻译接口
 DOMAIN-SUFFIX,microsofttranslator.com # 微软翻译主域
-DOMAIN-SUFFIX,api.translate.microsoft.com
-DOMAIN-SUFFIX,cdn.translate.microsoft.com
+DOMAIN-SUFFIX,api.translate.microsoft.com  # 微软翻译 API 接口，用于机器翻译功能请求
+DOMAIN-SUFFIX,cdn.translate.microsoft.com  # 微软翻译 CDN 资源分发域名，用于加载翻译结果相关静态内容
 DOMAIN-SUFFIX,edge.microsoft.com # Edge 浏览器相关内容
-DOMAIN-SUFFIX,translatoruser.intl.microsoft.com
+DOMAIN-SUFFIX,translatoruser.intl.microsoft.com  # 微软翻译服务用户会话管理接口域名
 
 # Google 翻译（如你 Safari 配置中启用 Google 服务）
-DOMAIN-SUFFIX,translate.googleapis.com
-DOMAIN-SUFFIX,translate.google.com
+DOMAIN-SUFFIX,translate.googleapis.com  # Google 翻译 API 接口，用于机器翻译请求处理
+DOMAIN-SUFFIX,translate.google.com  # Google 翻译网页前端服务，用于用户界面与交互展示
 
 # » VPN / 科学上网工具相关域名
 DOMAIN-SUFFIX,getoutline.org // Outline VPN 官方域名
