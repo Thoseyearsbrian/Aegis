@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-23
+# - 更新时间：2025-10-25
 
 # >> Apple 行为遥测服务
 DOMAIN-SUFFIX,dns.apple.com # Apple 网络状态探测域，非必须服务，可疑行为分析用
@@ -65,7 +65,6 @@ DOMAIN-SUFFIX,default.exp-tas.com # 实验分流平台，可能进行 A/B 测试
 # >> 其他非归类通用域名
 DOMAIN-SUFFIX,inews.qq.com # 建议封锁，防监听
 DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流分析接口，用于用户行为收集、推荐算法训练等
-DOMAIN-SUFFIX,alarmsone.manageengine.com # ManageEngine 告警通知服务接口，用于设备/用户行为的后台告警与遥测
 
 # >> 抖音 / 字节跳动相关行为指纹
 DOMAIN-SUFFIX,mon.snssdk.com # 字节跳动行为统计与设备指纹接口
