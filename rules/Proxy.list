@@ -48,7 +48,7 @@ DOMAIN-SUFFIX,static-lumen1.zohocdn.com # Zoho CDN 加速节点，可能归属 L
 DOMAIN-SUFFIX,murphy.zoho.com # Zoho Mail 子域 — 企业邮件服务端点  
 DOMAIN-SUFFIX,us4‑wms1.zoho.com # Zoho Mail “US4”数据中心邮件服务节点  
 DOMAIN-SUFFIX,mailwsorg.zoho.com # Zoho Mail 子域 — “mailwsorg” 客户定制邮箱服务  
-DOMAIN-SUFFIX,us4‑ofzm.zoho.com # Zoho Mail “US4”数据中心定制子域邮箱服务  
+DOMAIN-SUFFIX,us4-ofzm.zoho.com # Zoho Mail “US4”数据中心定制子域邮箱服务  
 DOMAIN-SUFFIX,mail.zoho.com # Zoho Mail 官方邮件服务主域  
 DOMAIN-SUFFIX,alarmsone.manageengine.com # ZohoMail 生态服务域名，用于系统告警邮件与通知推送
 DOMAIN-SUFFIX,profile.zoho.com # ZohoMail 用户身份配置域名，用于账户资料与登录信息同步  
