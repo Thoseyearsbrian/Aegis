@@ -46,6 +46,7 @@ DOMAIN-SUFFIX,nektony.com  # Nektony 官网及应用服务域名，用于Mac系�
 DOMAIN-SUFFIX,maxmind.com  # MaxMind 数据服务域名，用于 IP 地理定位与 GeoIP 数据接口
 DOMAIN-SUFFIX,kali.org  # Kali Linux 官网及更新服务，常用于渗透测试与安全工具下载
 DOMAIN-SUFFIX,mac.getutm.app  # UTM 虚拟机管理器 macOS 官方下载站点，部分资源需代理访问
+DOMAIN-SUFFIX,tails.net  # Tails 操作系统官网及服务平台，需代理访问以确保连接成功与更新获取
 
 # >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
 DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）
