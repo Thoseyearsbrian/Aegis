@@ -7511,6 +7511,7 @@ DOMAIN-SUFFIX,oss.yuansfer.com  # Pockyt 资源托管域名，用于静态资源
 DOMAIN-SUFFIX,fba02.fbsubcn01.cc # 代理节点域名（属于机场服务提供商）
 DOMAIN-SUFFIX,lk02.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,lk01.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
+DOMAIN-SUFFIX,aff01.fyb-aff01.com # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,fbsubcn01.cc # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,iterm2.com # macOS 平台终端模拟器 iTerm2 官方网站，提供软件下载与更新信息
