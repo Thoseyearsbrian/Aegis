@@ -36,6 +36,21 @@ DOMAIN-SUFFIX,drweb.cn # Dr.Web 中文资讯 RSS 订阅接口（新闻推送）
 DOMAIN-SUFFIX,DOforum.drweb.com # Dr.Web 杀毒软件官方用户论坛，用于技术支持与社区交流
 IP-CIDR,95.216.203.236 # Dr.Web 杀毒软件更新服务器 IP
 
+# » Zohomail 相关域名
+
+DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源 CDN，用于加载 UI 样式、脚本等前端文件
+DOMAIN-SUFFIX,downloads.zohocdn.com # Zoho 安装包与工具下载地址，用于分发客户端安装器、驱动等文件
+DOMAIN-SUFFIX,zohocdn.com # Zoho 静态资源 CDN 域名，用于加载 Zoho Mail、Desk、CRM 等应用的前端资源
+DOMAIN-SUFFIX,downloads.zohocdn.com # Zoho 官方软件下载资源域名，用于分发客户端、插件等文件
+DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源加载域名，服务于 Zoho 各模块前端界面
+DOMAIN-SUFFIX,static-zayo1.zohocdn.com # Zoho CDN 加速节点，可能归属 Zayo 网络（用于全球分发）
+DOMAIN-SUFFIX,static-lumen1.zohocdn.com # Zoho CDN 加速节点，可能归属 Lumen 网络（用于全球分发）
+DOMAIN-SUFFIX,murphy.zoho.com # Zoho Mail 子域 — 企业邮件服务端点  
+DOMAIN-SUFFIX,us4‑wms1.zoho.com # Zoho Mail “US4”数据中心邮件服务节点  
+DOMAIN-SUFFIX,mailwsorg.zoho.com # Zoho Mail 子域 — “mailwsorg” 客户定制邮箱服务  
+DOMAIN-SUFFIX,us4‑ofzm.zoho.com # Zoho Mail “US4”数据中心定制子域邮箱服务  
+DOMAIN-SUFFIX,mail.zoho.com # Zoho Mail 官方邮件服务主域  
+
 # >> 安全工具 / 加密服务（Security Tools / Encryption Services）
 
 DOMAIN-SUFFIX,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下载、密钥同步与更新服务
@@ -104,13 +119,6 @@ DOMAIN-SUFFIX,translate.google.com  # Google 翻译网页前端服务，用于�
 # » 其他 (暂未分类)
 
 DOMAIN-SUFFIX,nssurge.com # Surge 官方服务域名，用于激活验证与模块更新通信
-DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源 CDN，用于加载 UI 样式、脚本等前端文件
-DOMAIN-SUFFIX,downloads.zohocdn.com # Zoho 安装包与工具下载地址，用于分发客户端安装器、驱动等文件
-DOMAIN-SUFFIX,zohocdn.com # Zoho 静态资源 CDN 域名，用于加载 Zoho Mail、Desk、CRM 等应用的前端资源
-DOMAIN-SUFFIX,downloads.zohocdn.com # Zoho 官方软件下载资源域名，用于分发客户端、插件等文件
-DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源加载域名，服务于 Zoho 各模块前端界面
-DOMAIN-SUFFIX,static-zayo1.zohocdn.com # Zoho CDN 加速节点，可能归属 Zayo 网络（用于全球分发）
-DOMAIN-SUFFIX,static-lumen1.zohocdn.com # Zoho CDN 加速节点，可能归属 Lumen 网络（用于全球分发）
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
 DOMAIN-SUFFIX,pockyt.io # Pockyt 跨境支付平台官网域名，用于商户付款、提现与钱包服务
 DOMAIN-SUFFIX,oss.yuansfer.com  # Pockyt 资源托管域名，用于静态资源加载与支付服务文件分发
