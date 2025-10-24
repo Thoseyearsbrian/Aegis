@@ -49,7 +49,7 @@ DOMAIN-SUFFIX,maxmind.com  # MaxMind 数据服务域名，用于 IP 地理定位
 DOMAIN-SUFFIX,kali.org  # Kali Linux 官网及更新服务，常用于渗透测试与安全工具下载
 DOMAIN-SUFFIX,mac.getutm.app  # UTM 虚拟机管理器 macOS 官方下载站点，部分资源需代理访问
 DOMAIN-SUFFIX,tails.net  # Tails 操作系统官网及服务平台，需代理访问以确保连接成功与更新获取
-DOMAIN‑SUFFIX,challenges.cloudflare.com  # Cloudflare 验证挑战页面域名，用于机器人识别与访问验证机制  
+DOMAIN-KEYWORD,challenges.cloudflare.com  # Cloudflare 验证挑战页面域名，用于机器人识别与访问验证机制  
 
 # » 通用 VPN／节点订阅／中转服务／翻墙工具域名集合
 

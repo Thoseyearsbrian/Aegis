@@ -8,8 +8,8 @@
 
 # > Microsoft Visual Studio Code 主程序与资源服务
 DOMAIN,update.code.visualstudio.com # VS Code 自动更新服务器 
-DOMAIN‑SUFFIX,vscode‑cdn.net # VS Code 静态资源与扩展下载 CDN 域名
-DOMAIN‑SUFFIX,visualstudio.com # 微软 Visual Studio 官方站点 
+DOMAIN-KEYWORD,vscode‑cdn.net # VS Code 静态资源与扩展下载 CDN 域名
+DOMAIN-KEYWORD,visualstudio.com # 微软 Visual Studio 官方站点 
 DOMAIN-SUFFIX,gallery.vsassets.io # VS Code 插件库主域，用于插件元数据分发与管理
 DOMAIN-SUFFIX,gallerycdn.vsassets.io # VS Code 插件 CDN 加速域名，用于插件资源下载
 DOMAIN-SUFFIX,main.vscode-cdn.net # VS Code 官方 CDN 服务，用于扩展加载、资源分发，影响编辑器功能
