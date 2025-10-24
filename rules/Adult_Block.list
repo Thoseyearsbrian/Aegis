@@ -4,9 +4,10 @@
 # - 特征：涵盖成人网站、成人广告服务、NSFW 内容域名
 # - 用途：本规则集用于拦截成人相关域名，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-18
+# - 更新时间：2025-10-24
 
 # > 成人相关域名
+DOMAIN-SUFFIX,onlyfans.com # 色情广告域名,建议屏蔽
 DOMAIN-SUFFIX,4tube.com # 色情广告域名,建议屏蔽
 DOMAIN-SUFFIX,91.video.ws # 色情广告域名,建议屏蔽
 DOMAIN-SUFFIX,absoluporn.com # 色情广告域名,建议屏蔽
