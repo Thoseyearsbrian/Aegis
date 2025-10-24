@@ -8060,7 +8060,7 @@ DOMAIN-SUFFIX,2linkpath.com # 出现在广告／追踪域名黑名单中，确�
 DOMAIN-SUFFIX,2mdn.net # 出现在广告／追踪域名黑名单中，确认为广告追踪域名  
 DOMAIN-SUFFIX,2o7.net # 出现在广告／追踪域名黑名单中，确认为广告追踪域名  
 DOMAIN-SUFFIX,2znp09oa.com # 出现在广告／追踪域名黑名单中，确认为广告追踪域名  
-DOMAIN‑SUFFIX,89‑64.org # 89‑64.org 社会／政治纪念站点 
+DOMAIN‑SUFFIX,89.64.org # 89‑64.org # 社会／政治运动网站  
 DOMAIN‑SUFFIX,89.64.charter.constitutionalism.solutions # 社会／政治意识形态域名 
 DOMAIN‑SUFFIX,8964museum.com # 社会／政治纪念馆式站点
 DOMAIN‑SUFFIX,64museum.org # 涉政博物馆或纪念站点
@@ -8117,13 +8117,13 @@ DOMAIN-SUFFIX,daozhongxing.org # 社会／政治运动网站
 DOMAIN-SUFFIX,dagelijksestandaard.nl # 社会／政治运动网站
 DOMAIN‑SUFFIX,dit‑inc.us # 社会／政治运动网站
 DOMAIN‑SUFFIX,diyin.org # 社会／政治运动网站
-DOMAIN‑SUFFIX,democrats.org #  社会／政治运动网站 
-DOMAIN‑SUFFIX,demosisto.hk #  社会／政治运动网站  
-DOMAIN‑SUFFIX,dontfilter.us  # 社会／政治运动网站   
-DOMAIN‑SUFFIX,dongtaiwang.com  # 社会／政治运动网站   
-DOMAIN‑SUFFIX,dongtaiwang.net  # 社会／政治运动网站 
-DOMAIN‑SUFFIX,dontmovetochina.com  # 社会／政治运动网站 
-DOMAIN‑SUFFIX,dorjeshugden.com  # 社会／政治运动网站 
+DOMAIN‑SUFFIX,democrats.org # 社会／政治运动网站 
+DOMAIN‑SUFFIX,demosisto.hk # 社会／政治运动网站  
+DOMAIN‑SUFFIX,dontfilter.us # 社会／政治运动网站   
+DOMAIN‑SUFFIX,dongtaiwang.com # 社会／政治运动网站   
+DOMAIN‑SUFFIX,dongtaiwang.net # 社会／政治运动网站 
+DOMAIN‑SUFFIX,dontmovetochina.com # 社会／政治运动网站 
+DOMAIN‑SUFFIX,dorjeshugden.com # 社会／政治运动网站 
 DOMAIN‑SUFFIX,dwnews.com # 社会／政治运动网站  
 DOMAIN‑SUFFIX,duihua.org # 社会／政治运动网站  
 DOMAIN‑SUFFIX,duihuahrjournal.org # 社会／政治运动网站  
@@ -8147,7 +8147,7 @@ DOMAIN‑SUFFIX,fanglizhi.info # 社会／政治运动网站
 DOMAIN‑SUFFIX,fangmincn.org # 社会／政治运动网站  
 DOMAIN‑SUFFIX,fangong.forums‑free.com # 社会／政治运动网站 
 DOMAIN‑SUFFIX,fangong.org # 社会／政治运动网站  
-DOMAIN‑SUFFIX, falungong.club # 社会／政治运动网站  
+DOMAIN‑SUFFIX,falungong.club # 社会／政治运动网站  
 DOMAIN‑SUFFIX,falungong.de # 社会／政治运动网站  
 DOMAIN‑SUFFIX,falungong.org.uk # 社会／政治运动网站  
 DOMAIN‑SUFFIX,falunhr.org # 社会／政治运动网站  
