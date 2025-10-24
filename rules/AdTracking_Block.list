@@ -4,9 +4,10 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-10-18
+# - 更新时间：2025-10-24
 
 # > 通用广告追踪域名（General Ad Tracking）
+DOMAIN-SUFFIX,blog.csdn.net  # CSDN 技术博客平台，内容劣质、广告导向、含追踪与误导跳转行为
 DOMAIN-SUFFIX,api.ad.xiaomi.com # 小米广告接口，用于推送商业广告与系统内嵌推荐内容  
 DOMAIN-SUFFIX,data.mistat.xiaomi.com # 小米统计接口，用于设备使用统计与应用行为收集  
 DOMAIN-SUFFIX,data.video.ptqy.gitv.tv # 爱奇艺广告数据接口，用于视频播放前后广告投放与回传  
