@@ -4,7 +4,14 @@
 # - 特征：封锁具备反连、心跳、远程控制特征的通信节点，涵盖 RAT、Sliver、Metasploit 等常见后门工具所依赖的 C2 基础设施
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-23
+# - 更新时间：2025-10-25
+
+# > Telegram 后门通信域名
+
+DOMAIN-SUFFIX,ft.2x5.xyz # TG 植入后门控制通道
+DOMAIN-SUFFIX,s.2x5.xyz # 同组域名，用于命令回连
+DOMAIN-SUFFIX,aks.ugho.com # 控制服务器
+DOMAIN-SUFFIX,taobc.tv # 用于远程指令或日志上报
 
 DOMAIN-SUFFIX,topmicrosoftmarketing.com # 疑似仿冒微软营销域名，疑似用于钓鱼回连
 DOMAIN-SUFFIX,intanschools.py628fxjlk-gok67gvk2652.p.temp-site.link # 一次性临时域名，疑似远控或恶意落地页

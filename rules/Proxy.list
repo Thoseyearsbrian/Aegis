@@ -139,3 +139,6 @@ DOMAIN-SUFFIX,16map.com # 第三方地图服务平台，提供位置定位与地
 DOMAIN-SUFFIX,map.s-jl.com # 吉林省地图服务平台子域，提供区域地图加载与定位服务，部分本地应用或网页可能调用，建议代理直连视使用场景而定
 DOMAIN-SUFFIX,16map.com # 第三方地图服务平台主页，提供位置定位与地图嵌入服务，涉及地理位置采集行为
 DOMAIN-SUFFIX,api.16map.com # 第三方地图服务平台 API 接口，用于地理定位、坐标转换等数据请求，部分应用可能存在位置回传行为
+DOMAIN-SUFFIX,v2ex.com # V2EX 技术社区平台域名，用于用户讨论与信息发布
+DOMAIN-SUFFIX,linux.do # Linux.do 技术社区域名，用于 Linux 教程与资讯分享
+DOMAIN-SUFFIX,hostloc.com # Hostloc 论坛主域名，用于海外主机与网络资源讨论

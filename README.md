@@ -46,16 +46,16 @@ Aegis adheres to technical neutrality, information transparency, and complete in
 
 | Index |          Module Name           | File Name              | Description                                                                                   | Detection Criteria                                                                 |
 | :---: | :----------------------------: | ---------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| ①     | CA Trust Anomalies             | CA_Block.list          | Blocks untrusted, misused, or revoked Certificate Authorities and related OCSP/CRL endpoints | Involves cases of certificate abuse, rogue issuance, or public revocation records  |
-| ②     | Advertisement Tracking         | AdTracking_Block.list  | Covers commercial ad domains, social pixels, analytics SDKs, and third-party tracking scripts | Clear ad-targeted or profiling-related communications, excluding surveillance SDKs |
-| ③     | Adult Content Block            | Adult_Block.list       | Includes domains related to major global adult platforms                                              | Explicit pornography and adult content platforms                                  |
-| ④     | Interception & Injection Nodes | Inspection_Block.list  | Blocks link-layer or upstream manipulations like DPI, DNS poisoning, HTTP injection, MITM     | Identified manipulation from ISPs or middleboxes altering/redirecting traffic     |
-| ⑤     | Behavioral Fingerprinting      | Behavior_Block.list    | Blocks SDKs or cloud services with telemetry/analytics traits based on DNS/TLS/QUIC/CDN cues  | Based on behavioral patterns, protocol fingerprints, excludes ad or passive SDKs  |
-| ⑥     | Background Connections         | Background_Block.list  | Blocks silent background callbacks, config uploads, device-to-cloud comms, IoT/NAS SDKs       | Based on frequency, reconnection patterns, and telemetry behavior                 |
-| ⑦     | Backdoor & Malicious Infra     | Backdoor_Block.list    | Includes C2 infra of backdoors like RAT, Sliver, Metasploit etc., used for remote access      | Confirmed malicious traffic or infrastructure directly tied to implant attacks    |
-| ⑧     | Botnets / Scanners / C2        | Botnet_Block.list      | Aggregates botnet C2s, DDoS nodes, mass scanners, UDP flooders                               | High-frequency, broad distribution, verified as botnet nodes                      |
-| ⑨     | APT Threat Actors              | APT_Block.list         | IOC from public APT disclosures with clear org/country labels (APT1 ~ APTxx)                 | Verified by public threat reports and attribution                                  |
-| ⑩     | Pegasus Spyware Infrastructure | Pegasus_Block.list     | IOC from Amnesty’s Pegasus reports: C2 nodes, redirects, spyware domains                     | Amnesty-disclosed Pegasus C2s with surveillance risk. Recommended to block                       |
+| ①     | Untrusted Certificate Authorities            | CA_Block.list          | Blocks untrusted, misused, or revoked Certificate Authorities and related OCSP/CRL endpoints | Involves cases of certificate abuse, rogue issuance, or public revocation records  |
+| ②     | Ad Block       | AdTracking_Block.list  | Covers commercial ad domains, social pixels, analytics SDKs, and third-party tracking scripts | Clear ad-targeted or profiling-related communications, excluding surveillance SDKs |
+| ③     | Adult Block           | Adult_Block.list       | Includes domains related to major global adult platforms                                              | Explicit pornography and adult content platforms                                  |
+| ④     | Interception of Surveillance Nodes | Inspection_Block.list  | Blocks link-layer or upstream manipulations like DPI, DNS poisoning, HTTP injection, MITM     | Identified manipulation from ISPs or middleboxes altering/redirecting traffic     |
+| ⑤     | Behavioral Analysis and Telemetry Node Interception      | Behavior_Block.list    | Blocks SDKs or cloud services with telemetry/analytics traits based on DNS/TLS/QUIC/CDN cues  | Based on behavioral patterns, protocol fingerprints, excludes ad or passive SDKs  |
+| ⑥     | Background Callback and Silent Communication Node Blocking         | Background_Block.list  | Blocks silent background callbacks, config uploads, device-to-cloud comms, IoT/NAS SDKs       | Based on frequency, reconnection patterns, and telemetry behavior                 |
+| ⑦     | Backdoor Command and Implant Communication Node Blocking     | Backdoor_Block.list    | Includes C2 infra of backdoors like RAT, Sliver, Metasploit etc., used for remote access      | Confirmed malicious traffic or infrastructure directly tied to implant attacks    |
+| ⑧     | Botnet Infrastructure and Command Node Blocking        | Botnet_Block.list      | Aggregates botnet C2s, DDoS nodes, mass scanners, UDP flooders                               | High-frequency, broad distribution, verified as botnet nodes                      |
+| ⑨     | APT Threat Source Blocking              | APT_Block.list         | IOC from public APT disclosures with clear org/country labels (APT1 ~ APTxx)                 | Verified by public threat reports and attribution                                  |
+| ⑩     | Pegasus Spyware Communication Node Blocking | Pegasus_Block.list     | IOC from Amnesty’s Pegasus reports: C2 nodes, redirects, spyware domains                     | Amnesty-disclosed Pegasus C2s with surveillance risk. Recommended to block                       |
 
 ## **Auto Update**
 
@@ -181,8 +181,9 @@ We recommend maintaining and extending your configurations based on the structur
 
 If you value this project, consider giving it a ⭐️ star and subscribing to updates:
 
-- [Aegis Updates](https://t.me/AegisUpdates) – **Release & Announcements Channel** (Coming Soon)
-- [Aegis Discussion](https://t.me/+xxxxxxxxx) – **Community Group (Invite Only)** (Coming Soon)
+ - [Aegis Updates](https://t.me/aegisupdates) – **Release & Announcements Channel** 
+
+ - [Aegis Discussion](https://t.me/aegisdiscussion) – **Community Group (Invite Only)** 
 
 **Group Rules:**
 
