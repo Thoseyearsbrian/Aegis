@@ -1,10 +1,10 @@
-# » Proxy.list（代理 / VPN / 节点平台识别规则集）
-# - 分类：依赖代理连接的服务平台 / 国内直连失败的功能接口 / 节点回源依赖服务
-# - 来源：社区整理 / 实测抓包 / 安全研究报告
-# - 特征：识别需依赖境外网络访问的服务接口、功能模块及订阅/节点回源类域名
+# » Proxy.list（国外常用服务代理识别规则集）
+# - 分类：日常办公 / 远程协作 / 社区交流 / 云存储 / 学术工具 / 娱乐平台等国外常用服务
+# - 来源：按照分类自主整理
+# - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-25
+# - 更新时间：2025-10-26
 
 # » Kaspersky 相关域名
 
@@ -56,6 +56,56 @@ DOMAIN-SUFFIX,phonebridge.zoho.com # ZohoMail 电话整合服务域名，用于�
 DOMAIN-SUFFIX,contacts.zoho.com # ZohoMail 通讯录服务域名，用于联系人管理与同步  
 DOMAIN-SUFFIX,calendar.zoho.com # ZohoMail 日历服务域名，用于日程管理与事件提醒  
 DOMAIN-SUFFIX,zmupload.zoho.com # ZohoMail 附件上传接口域名，用于邮件文件上传与存储
+
+# >> PayPal 主服务域名
+DOMAIN-SUFFIX,paypal.com # PayPal 官方主站及支付入口
+DOMAIN-SUFFIX,paypalobjects.com # PayPal 静态资源与 JS 文件
+DOMAIN-SUFFIX,paypal.me # PayPal 快捷支付页面
+DOMAIN-SUFFIX,paypal-mktg.com # PayPal 营销与推广页面
+DOMAIN-SUFFIX,pypl.com # PayPal 缩写域名，用户登录与验证相关
+DOMAIN-SUFFIX,braintreegateway.com # Braintree（PayPal旗下）网关服务域名
+DOMAIN-SUFFIX,paypal.co.uk # PayPal 英国子域
+DOMAIN-SUFFIX,paypal.cn # PayPal 中国区域名（限部分业务）
+DOMAIN-KEYWORD,api-m.paypal # PayPal 移动 API 端点
+DOMAIN-KEYWORD,api.paypal # PayPal 通用 API 网关
+DOMAIN-KEYWORD,ipnpb.paypal # IPN / PDT 支付确认回调服务
+IP-CIDR,64.4.240.0/21 # PayPal 核心支付 IP（历史）
+IP-CIDR,66.211.160.0/19 # PayPal C2 服务段（来源：BGPView）
+IP-CIDR,173.0.80.0/20 # PayPal AWS 服务节点
+IP-CIDR,91.243.72.0/22 # PayPal 欧洲段（NetRange）
+IP-ASN,17012 # ASN for PayPal Inc. (部分历史记录)
+
+# > Oracle 相关域名
+
+DOMAIN-SUFFIX,shop.oracle.com # Oracle 官方商城
+DOMAIN-SUFFIX,shop.oraclecloud.com # Oracle 云商城
+DOMAIN-SUFFIX,oracle # 非标准 Oracle 顶级域名
+DOMAIN-SUFFIX,oracle.com # Oracle 官方主域
+DOMAIN-SUFFIX,oraclecloud.com # Oracle 云服务域名
+DOMAIN-SUFFIX,oraclecorp.com # Oracle 公司相关子域
+DOMAIN-SUFFIX,oraclefoundation.org # Oracle 基金会
+DOMAIN-SUFFIX,oracleimg.com # Oracle 静态资源（图片等）
+DOMAIN-SUFFIX,oracleinfinity.io # Oracle Infinity 分析平台
+DOMAIN-SUFFIX,java # Java 顶级域名
+DOMAIN-SUFFIX,java.com # Java 官网
+DOMAIN-SUFFIX,java.net # Java 技术平台
+DOMAIN-SUFFIX,sun.com # Sun Microsystems（Oracle 收购）
+DOMAIN-SUFFIX,ateam-oracle.com # Oracle 技术支持团队域
+DOMAIN-SUFFIX,atgsvcs.com  # Oracle ATG Web Commerce 平台
+DOMAIN-SUFFIX,bkrtx.com # Oracle 旗下广告追踪服务
+DOMAIN-SUFFIX,bluekai.com # Oracle BlueKai 数据管理平台
+DOMAIN-SUFFIX,bronto.com # Oracle Bronto 营销平台
+DOMAIN-SUFFIX,eloqua.com # Oracle Eloqua 营销平台
+DOMAIN-SUFFIX,eloquaeditors.com # Eloqua 编辑器服务
+DOMAIN-SUFFIX,eloquapreview.com # Eloqua 预览子域
+DOMAIN-SUFFIX,en25.com # Eloqua 第三方跟踪服务
+DOMAIN-SUFFIX,custhelp.com # Oracle 客服支持系统
+DOMAIN-SUFFIX,responsys.net  # Oracle Responsys 营销自动化
+DOMAIN-SUFFIX,rnengage.com # Responsys Engage 组件
+DOMAIN-SUFFIX,addthis.com # AddThis 主域
+DOMAIN-SUFFIX,addthis.com.edgekey.net # AddThis CDN 节点
+DOMAIN-SUFFIX,addthiscdn.com # AddThis 静态资源
+DOMAIN-SUFFIX,addthisedge.com # AddThis 边缘 CDN 服务
 
 # >> 安全工具 / 加密服务（Security Tools / Encryption Services）
 
