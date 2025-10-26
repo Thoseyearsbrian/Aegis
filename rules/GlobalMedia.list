@@ -5,7 +5,7 @@
 # - 注意：YouTube（Google）、Netflix、Disney+ 等平台已独立归类至对应模块：Google.list、Netflix.list、DisneyPlus.list
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-23
+# - 更新时间：2025-10-26
 
 # >> Amazon Prime Video
 DOMAIN-SUFFIX,primevideo.com # 亚马逊 Prime Video
@@ -53,20 +53,98 @@ DOMAIN-SUFFIX,disneyhub.go.com # Disney+ 用户资料与播放数据域名
 DOMAIN-SUFFIX,edge.bamgrid.com # Disney+ 边缘服务节点域名
 DOMAIN-SUFFIX,cdn.registerdisney.go.com # Disney+ 注册服务与资源加载域名
 
-# >> Hulu
-DOMAIN-SUFFIX,hulu.com # Hulu 美国流媒体平台
-DOMAIN-SUFFIX,hulustream.com # Hulu CDN 服务
-DOMAIN-SUFFIX,huluim.com # Hulu 静态内容
+# » Hulu 相关域名
 
-# >> HBO / Max
-DOMAIN-SUFFIX,hbomax.com # HBO Max 视频服务
-DOMAIN-SUFFIX,hbo.com # HBO 官网及服务
-DOMAIN-SUFFIX,hbogo.com # HBO Go 服务
-DOMAIN-SUFFIX,hbonow.com # HBO Now 老版服务
+DOMAIN-SUFFIX,hulu.com # Hulu 主站域名（视频观看、账户、订阅服务等）
+DOMAIN-SUFFIX,huluim.com # Hulu 图像与媒体资源加载域
+DOMAIN-SUFFIX,hulustream.com # Hulu 流媒体播放资源域名
+DOMAIN-SUFFIX,hulu.jp # Hulu 日本站域名（本地化服务）
+DOMAIN-SUFFIX,hulu.qa # Hulu QA / 开发测试子域（部分请求记录）
+DOMAIN-SUFFIX,hulustreaming.net # Hulu CDN 服务域（资源投递与播放）
+DOMAIN-SUFFIX,hulu.hb.omtrdc.net # Hulu 与 Adobe Omniture 分析相关域名
+DOMAIN-SUFFIX,hulu.sc.omtrdc.net  # Hulu 行为分析数据上传节点
+IP-CIDR,34.213.0.0/16 # Hulu AWS 托管节点（美西视频播放与账户服务）
+IP-CIDR,52.89.0.0/16 # Hulu 播放与资源请求服务段（AWS 美国区域）
 
-# >> Paramount+
-DOMAIN-SUFFIX,paramountplus.com # Paramount+ 官方网站
-DOMAIN-SUFFIX,pplusstatic.com # Paramount+ 静态资源
+# » HBO Max / Max 视频平台相关域名
+
+DOMAIN-SUFFIX,hbomax.com # HBO Max 主站与账户服务（含订阅、登录、用户管理等）
+DOMAIN-SUFFIX,www.hbomax.com # HBO Max 网页入口域名（主页、视频导航、播放接口等）
+DOMAIN-SUFFIX,max.com # Max 品牌重命名后主域名（前身为 HBO Max，现归属 Warner Bros. Discovery）
+DOMAIN-SUFFIX,play.max.com # Max 视频播放接口主域名（直播与点播播放入口）
+DOMAIN-SUFFIX,static-max.adobe.io # Max 使用的 Adobe 静态资源加载域（字体、样式、配置等）
+DOMAIN-SUFFIX,bamgrid.com # Max 使用的 BAM Streaming 认证平台（Disney/ESPN/Max 通用登录系统）
+DOMAIN-SUFFIX,discomax.com # Warner Bros Discovery 旗下 Max 相关授权与服务平台域名
+DOMAIN-SUFFIX,dcuniverse.com # DC 影视内容入口（部分 Max 独占 DC 内容跳转域）
+DOMAIN-SUFFIX,hbo.com # HBO 品牌主域名（节目介绍、品牌内容聚合，部分内容重定向至 Max）
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com # Max 使用的 AWS 授权验证接口（播放授权与身份令牌验证）
+IP-CIDR,149.174.0.0/16 # Max / HBO 主力内容服务段（CDN / 播放流传输）
+
+# » Paramount+ 派拉蒙流媒体平台相关域名
+
+DOMAIN-SUFFIX,paramountplus.com # Paramount+ 主站域名（节目浏览、订阅、账户管理等）
+DOMAIN-SUFFIX,www.paramountplus.com # 主站首页与播放入口（网页访问）
+DOMAIN-SUFFIX,prod-api.viacomcbs.com # Paramount+ 内容服务 API（由 ViacomCBS 维护）
+DOMAIN-SUFFIX,cbsi.com # CBS Interactive 服务平台（登录验证与播放模块）
+DOMAIN-SUFFIX,cbsivideo.com # CBS 视频播放子域（视频流与 CDN 分发）
+DOMAIN-SUFFIX,cbsaavideo.com # CBS 音视频播放组件加载域
+DOMAIN-SUFFIX,cbsimg.net # Paramount+ 图片、海报资源域（内容图像加载）
+DOMAIN-SUFFIX,cbs.com # CBS 品牌主站（派拉蒙集团旗下）
+DOMAIN-SUFFIX,pplusstatic.com # Paramount+ 静态资源加载域（字体、脚本、配置等）
+DOMAIN-SUFFIX,paramountnetwork.com # 派拉蒙电视网络（可能与 Paramount+ 内容共享）
+DOMAIN-SUFFIX,akamaized.net # Akamai CDN 节点，用于 Paramount+ 播放流分发（多个服务共用）
+
+# » FOX One / FOX.com / FOX News / Sports / TV 相关域名
+
+DOMAIN-SUFFIX,fox.com # FOX 美国官网，覆盖新闻、体育、娱乐内容
+DOMAIN-SUFFIX,foxnews.com # FOX News 新闻频道
+DOMAIN-SUFFIX,video.foxnews.com # FOX News 视频直播 / 点播服务
+DOMAIN-SUFFIX,foxbusiness.com # FOX 商业频道（财经新闻）
+DOMAIN-SUFFIX,foxsports.com # FOX Sports 体育直播与点播平台
+DOMAIN-SUFFIX,static.foxsports.com # FOX Sports 静态资源 CDN
+DOMAIN-SUFFIX,foxdcg.com # FOX Digital Consumer Group，流媒体播放基础设施
+DOMAIN-SUFFIX,foxtv.com # FOX 电视台域名（剧集、综艺、直播等）
+DOMAIN-SUFFIX,go.fox.com # FOX NOW / FOX One 登录与播放入口（TV Everywhere 认证）
+DOMAIN-SUFFIX,login.fox.com # FOX 登录服务（账户管理与订阅验证）
+DOMAIN-SUFFIX,api.fox.com # FOX 流媒体调用 API 接口
+
+# » Amazon Prime Video 流媒体相关域名
+
+DOMAIN-SUFFIX,primevideo.com # Amazon Prime Video 主站
+DOMAIN-SUFFIX,video.amazon.com # 美国区主入口（部分用户重定向）
+DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net # Prime Video 视频内容 CDN 分发
+DOMAIN-SUFFIX,fls-na.amazon.com # 视频播放与统计接口
+DOMAIN-SUFFIX,aiv-cdn.net # Amazon Instant Video CDN 辅助域
+DOMAIN-SUFFIX,aiv-delivery.net # Amazon Video 内容交付域
+DOMAIN-SUFFIX,media-amazon.com # 媒体资源，如海报、缩略图、预览图
+DOMAIN-SUFFIX,amazonvideo.com # Amazon Video 历史主站（部分地区保留）
+DOMAIN-SUFFIX,amazonprimevideo.com # Prime Video 市场/宣传站（跳转主站）
+DOMAIN-SUFFIX,primevideo.cc # 第三方地区入口域名（存在 CDN 路由）
+
+# » Tubi 相关域名
+
+DOMAIN-SUFFIX,tubitv.com # Tubi 官方主站域名（点播服务、内容推荐、账户管理等）
+DOMAIN-SUFFIX,api.tubitv.com # Tubi 内容服务 API 接口（用于加载影视数据、播放列表等）
+DOMAIN-SUFFIX,img.tubitv.com # Tubi 静态图片资源域（封面图、界面素材等）
+DOMAIN-SUFFIX,vid.tubitv.com # Tubi 视频流媒体内容分发域（视频文件加载）
+DOMAIN-SUFFIX,tubivideo.com # Tubi 视频播放 CDN 域名（用于部分客户端播放路径）
+DOMAIN-SUFFIX,foxdigitaldev.com # Fox 旗下 Tubi 平台的开发与测试服务域名（可用于设备注册、调试）
+
+# » Peacock TV 流媒体平台相关域名
+
+DOMAIN-SUFFIX,peacocktv.com # Peacock TV 主站域名（视频播放与会员功能）
+DOMAIN-SUFFIX,www.peacocktv.com # Peacock TV 官网首页入口（登录、导航）
+DOMAIN-SUFFIX,api.peacocktv.com # Peacock TV API 服务接口（播放、用户验证）
+DOMAIN-SUFFIX,streaming.peacocktv.com # Peacock 视频流服务子域（CDN/内容分发）
+DOMAIN-SUFFIX,peacock.cloud-nbcuni.com # NBCU 云服务节点（内容传输与存储）
+DOMAIN-SUFFIX,peacock-prod.s3.amazonaws.com # Peacock AWS 内容资源托管（图像/封面等）
+
+# » DramaBox 相关域名
+
+DOMAIN-SUFFIX,dramaboxapp.com # DramaBox 官方主站（剧集播放、首页访问等）
+DOMAIN-SUFFIX,www.dramaboxapp.com # DramaBox 主站入口域名
+DOMAIN-SUFFIX,api.dramaboxapp.com # DramaBox API 接口（内容数据、用户请求等）
+DOMAIN-SUFFIX,cdn.dramaboxapp.com # 静态资源与剧集内容 CDN 分发域
 
 # >> Peacock
 DOMAIN-SUFFIX,peacocktv.com # NBC Peacock 流媒体服务

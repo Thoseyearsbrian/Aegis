@@ -49,6 +49,18 @@ DOMAIN-SUFFIX,ssl-images-amazon.com # CDN隐匿式回传 或 伪装图像传输
 DOMAIN-SUFFIX,sentry.cloudflare.com # 行为分析追踪系统
 DOMAIN-SUFFIX,o33249.ingest.us.sentry.io # Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
 DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 监控上报域名，GPT 应用用于收集前端性能指标与异常信息
+DOMAIN-SUFFIX,fls-na.amazon.com # Amazon 用户行为数据统计与日志上传接口
+
+# » Ticketmaster 分析与广告服务（可选是否归入行为分析）
+DOMAIN-SUFFIX,analytics.ticketmaster.com # 用户行为分析与数据收集
+DOMAIN-SUFFIX,ads.ticketmaster.com # 广告与推广服务接口
+
+# » Cash App 广告与行为追踪（可移入其他模块）
+DOMAIN-SUFFIX,analytics.cash.app # 用户行为数据与分析系统
+DOMAIN-SUFFIX,ads.cash.app # 推广与广告平台接口
+
+# » SHEIN
+DOMAIN-SUFFIX,uberinternal.com # Uber 内部服务域（日志与行为上报）
 
 # >> Facebook / Branch / Snapchat 等社交平台行为接口
 DOMAIN-SUFFIX,graph.facebook.com # Facebook Graph API，行为上报接口
