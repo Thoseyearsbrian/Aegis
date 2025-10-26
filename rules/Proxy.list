@@ -2190,6 +2190,10 @@ DOMAIN-SUFFIX,addthis.com.edgekey.net # AddThis CDN 节点
 DOMAIN-SUFFIX,addthiscdn.com # AddThis 静态资源
 DOMAIN-SUFFIX,addthisedge.com # AddThis 边缘 CDN 服务
 
+# >> 开源社区与协议说明服务（Open Source / License Services）
+
+DOMAIN-SUFFIX,choosealicense.com # GitHub 官方开源协议选型指南站点，用于查阅 MIT / Apache / GPL 等标准许可证内容与适用建议
+
 # >> 安全工具 / 加密服务（Security Tools / Encryption Services）
 
 DOMAIN-SUFFIX,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下载、密钥同步与更新服务
