@@ -299,6 +299,7 @@ DOMAIN-SUFFIX,meta.com # Meta 公司官网与 Facebook 品牌重组平台
 DOMAIN-SUFFIX,metafbsbx.com # Facebook 存储服务域名（如文件下载、缓存等）
 DOMAIN-SUFFIX,fb.watch # Facebook Watch 视频平台域名
 IP-CIDR,157.240.0.0/16 # Facebook 所属 Meta 通讯网段（用户连接、内容加载、身份认证等）
+DOMAIN-SUFFIX,graph.facebook.com  # Facebook Graph API 接口，提供用户信息、动态数据与内容读取服务
 
 # » Messenger（Meta 即时通信平台）相关域名
 
