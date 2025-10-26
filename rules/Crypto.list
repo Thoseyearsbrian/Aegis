@@ -70,6 +70,16 @@ DOMAIN-KEYWORD,ethermine.org # 加密货币挖矿矿池
 DOMAIN-KEYWORD,etherscan.com # 加密货币以太坊区块浏览器 
 DOMAIN-KEYWORD,exmo.com # 加密货币交易平台 EXMO 官方域名
 
+# » Coinbase 加密货币平台相关域名
+
+DOMAIN-SUFFIX,coinbase.com  # Coinbase 官方主站（交易、资产管理、账户服务）
+DOMAIN-SUFFIX,www.coinbase.com  # Coinbase 官网入口，常用于登录与界面跳转
+DOMAIN-SUFFIX,pro.coinbase.com  # Coinbase Pro 专业版交易平台（高频/挂单交易界面）
+DOMAIN-SUFFIX,api.coinbase.com  # Coinbase API 接口（价格查询、订单提交、身份验证等）
+DOMAIN-SUFFIX,help.coinbase.com  # Coinbase 帮助中心与用户支持页面
+DOMAIN-SUFFIX,blog.coinbase.com  # Coinbase 官方博客与公告域名
+DOMAIN-SUFFIX,cdn.coinbase.com  # Coinbase 静态资源 CDN 分发域名（图标、脚本等）
+
 # >> 区块链与DeFi关键词识别
 DOMAIN-KEYWORD,ethereum # 以太坊
 DOMAIN-KEYWORD,metamask # MetaMask 钱包

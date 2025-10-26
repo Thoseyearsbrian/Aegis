@@ -62,6 +62,9 @@ DOMAIN-SUFFIX,ads.cash.app # 推广与广告平台接口
 # » SHEIN
 DOMAIN-SUFFIX,uberinternal.com # Uber 内部服务域（日志与行为上报）
 
+# » Coinbase 加密货币平台
+DOMAIN-SUFFIX,analytics.coinbase.com  # Coinbase 用户行为分析与打点服务
+
 # >> Segment 行为追踪服务
 DOMAIN-SUFFIX,segment.io # 用户行为追踪服务，广泛嵌入于 App 与网页中，采集分析数据
 
