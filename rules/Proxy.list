@@ -1892,11 +1892,11 @@ DOMAIN-SUFFIX,static.octobrowser.net  # Octo Browser 静态资源加载域
 
 # » DeepL 翻译平台相关域名
 
-DOMAIN‑SUFFIX,deepl.com  # DeepL 主站域名，国际化翻译服务入口
-DOMAIN‑SUFFIX,www.deepl.com  # DeepL 官网首页与登录入口
-DOMAIN‑SUFFIX,api.deepl.com  # DeepL 开发者接口与 API 服务域名
-DOMAIN‑SUFFIX,static.deepl.com  # DeepL 静态资源加载域（图像、脚本、样式等）
-DOMAIN‑SUFFIX,login.deepl.com  # DeepL 登录及账户认证服务子域
+DOMAIN-SUFFIX,deepl.com  # DeepL 主站域名，国际化翻译服务入口
+DOMAIN-SUFFIX,www.deepl.com  # DeepL 官网首页与登录入口
+DOMAIN-SUFFIX,api.deepl.com  # DeepL 开发者接口与 API 服务域名
+DOMAIN-SUFFIX,static.deepl.com  # DeepL 静态资源加载域（图像、脚本、样式等）
+DOMAIN-SUFFIX,login.deepl.com  # DeepL 登录及账户认证服务子域
 
 # » Ozon 跨境电商平台相关域名
 
@@ -1910,22 +1910,22 @@ DOMAIN-SUFFIX,global.ozon.com  # Ozon Global 国际业务入口域（面向海�
 
 # » 美客多（Mercari）跨境二手交易平台相关域名
 
-DOMAIN‑SUFFIX,mercari.com  # Mercari 主站域名，日本起家全球二手交易平台  
-DOMAIN‑SUFFIX,www.mercari.com  # Mercari 官网首页与用户入口  
-DOMAIN‑SUFFIX,api.mercari.com  # Mercari 应用/API 接口服务（商品、账户、交易接口）  
-DOMAIN‑SUFFIX,static.mercari.com  # Mercari 静态资源加载域（JS、CSS、图片等）  
-DOMAIN‑SUFFIX,login.mercari.com  # Mercari 登录与账户认证子域  
-DOMAIN‑SUFFIX,help.mercari.com  # Mercari 帮助中心与客户支持子域  
-DOMAIN‑SUFFIX,mercari.jp  # Mercari 日本本土域名（主要市场）  
+DOMAIN-SUFFIX,mercari.com  # Mercari 主站域名，日本起家全球二手交易平台  
+DOMAIN-SUFFIX,www.mercari.com  # Mercari 官网首页与用户入口  
+DOMAIN-SUFFIX,api.mercari.com  # Mercari 应用/API 接口服务（商品、账户、交易接口）  
+DOMAIN-SUFFIX,static.mercari.com  # Mercari 静态资源加载域（JS、CSS、图片等）  
+DOMAIN-SUFFIX,login.mercari.com  # Mercari 登录与账户认证子域  
+DOMAIN-SUFFIX,help.mercari.com  # Mercari 帮助中心与客户支持子域  
+DOMAIN-SUFFIX,mercari.jp  # Mercari 日本本土域名（主要市场）  
 
 # » eMAG 跨境电商平台相关域名
 
-DOMAIN‑SUFFIX,emag.ro  # eMAG 罗马尼亚站点主域名
-DOMAIN‑SUFFIX,www.emag.ro  # eMAG 罗马尼亚站官网入口
-DOMAIN‑SUFFIX,emag.pl  # eMAG 波兰站域名
-DOMAIN‑SUFFIX,www.emag.pl  # eMAG 波兰站官网入口
-DOMAIN‑SUFFIX,api.emag.ro  # eMAG 应用/API 接口服务域名
-DOMAIN‑SUFFIX,static.emag.ro  # eMAG 静态资源加载域（JS、CSS、图片等）
+DOMAIN-SUFFIX,emag.ro  # eMAG 罗马尼亚站点主域名
+DOMAIN-SUFFIX,www.emag.ro  # eMAG 罗马尼亚站官网入口
+DOMAIN-SUFFIX,emag.pl  # eMAG 波兰站域名
+DOMAIN-SUFFIX,www.emag.pl  # eMAG 波兰站官网入口
+DOMAIN-SUFFIX,api.emag.ro  # eMAG 应用/API 接口服务域名
+DOMAIN-SUFFIX,static.emag.ro  # eMAG 静态资源加载域（JS、CSS、图片等）
 
 # » Hepsiburada 土耳其电商平台相关域名
 
