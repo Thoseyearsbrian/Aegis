@@ -15,17 +15,21 @@ Pull requests are disabled, and branch protection rules are enforced to prevent 
 
 我们已在 GitHub Issues 页面提供了以下结构化模板，欢迎通过对应模板提交反馈、建议或安全问题：
 We have provided the following structured templates on the GitHub Issues page. Please use the appropriate template to report issues, request features, or submit security concerns:
-	•	🐞 Bug Report：报告规则问题、配置错误或使用异常
-Report rule issues, config errors, or functional anomalies.
-	•	✨ Feature Request：提交新功能或增强建议
-Propose new features or enhancements.
-	•	📦 Rule Contribution：提交新的规则条目或补充现有规则
-Contribute new rule entries or suggest improvements.
-	•	🔐 Security Policy：私下报告安全漏洞、DNS污染、后门行为等问题
-Privately report vulnerabilities (e.g., DNS hijacking, backdoors, rule bypasses).
+- 🐞 **Bug Report**  
+  报告规则问题、配置错误或使用异常  
+  *Report rule issues, config errors, or functional anomalies.*
 
-请勿使用 Discussions 或 Telegram 群组提交反馈，避免遗漏或处理不及时。
-Please do not use Discussions or the Telegram group to submit feedback, in order to ensure nothing is missed.
+- ✨ **Feature Request**  
+  提交新功能或增强建议  
+  *Propose new features or enhancements.*
+
+- 📦 **Rule Contribution**  
+  提交新的规则条目或补充现有规则  
+  *Contribute new rule entries or suggest improvements.*
+
+- 🔐 **Security Policy**  
+  私下报告安全漏洞、DNS 污染、后门行为等问题  
+  *Privately report vulnerabilities (e.g., DNS hijacking, backdoors, rule bypasses).*
 
 ## 🔐 提交政策
 ## 🔐 Commit Policy  
