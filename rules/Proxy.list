@@ -2151,6 +2151,97 @@ DOMAIN-SUFFIX,login.skype.com  # Skype 登录验证域名
 DOMAIN-SUFFIX,api.skype.com  # Skype API 接口服务  
 DOMAIN-SUFFIX,swx.cdn.skype.com  # Skype 静态资源与客户端加载域名  
 
+# » MSN 微软新闻平台相关域名
+
+DOMAIN-SUFFIX,msn.com  # MSN 主域名，用于新闻聚合与服务分发  
+DOMAIN-SUFFIX,www.msn.com  # MSN 网站首页入口与内容服务  
+DOMAIN-SUFFIX,assets.msn.com  # MSN 静态资源加载域名（JS/CSS/图片等）  
+DOMAIN-SUFFIX,msn.cn  # MSN 中国区主域名，提供本地化新闻内容  
+DOMAIN-SUFFIX,edge.msn.com  # Edge 浏览器默认首页及资讯推送服务  
+
+# » mIRC / IRC 聊天协议相关域名与连接端口
+
+DOMAIN-SUFFIX,efnet.org  # EFnet IRC 网络
+DOMAIN-SUFFIX,libera.chat  # Libera IRC 网络
+DOMAIN-SUFFIX,dal.net  # DALnet IRC 网络
+DOMAIN-SUFFIX,rizon.net  # Rizon IRC 网络
+DOMAIN-SUFFIX,undernet.org  # Undernet IRC 网络
+DOMAIN-SUFFIX,irccloud.com  # IRCCloud 客户端平台
+
+# » Trillian 多协议聊天客户端相关域名
+
+DOMAIN-SUFFIX,trillian.im  # Trillian 主域名，用于官网与聊天平台服务
+DOMAIN-SUFFIX,trillianastra.com  # Trillian Astra 云服务域名
+DOMAIN-SUFFIX,trillianpro.com  # Trillian Pro 企业服务域名
+DOMAIN-SUFFIX,secure.trillian.im  # Trillian 安全连接服务
+DOMAIN-SUFFIX,updates.trillian.im  # Trillian 客户端更新服务
+DOMAIN-SUFFIX,cdn.trillian.im  # Trillian 静态资源 CDN 加载域名
+
+# » PalTalk 即时通讯与视频聊天室服务相关域名
+
+DOMAIN-SUFFIX,paltalk.com  # PalTalk 主域名，用于登录、下载、聊天室入口等
+DOMAIN-SUFFIX,paltalkcdn.com  # PalTalk 静态资源与多媒体内容 CDN 域名
+DOMAIN-SUFFIX,paltalk.net  # PalTalk 历史遗留域名，用于部分服务调用
+DOMAIN-SUFFIX,media.paltalk.com  # PalTalk 媒体服务器与视频流传输
+DOMAIN-SUFFIX,updates.paltalk.com  # 客户端版本更新检查域名
+
+# » Odigo 即时通讯平台相关域名
+
+DOMAIN-SUFFIX,odigo.com  # Odigo 主域名，用于登录、聊天服务与用户管理
+DOMAIN-SUFFIX,odigo.net  # Odigo 辅助域名，用于通信协议中继与资源访问
+
+# » Gadu-Gadu 即时通讯平台相关域名
+
+DOMAIN-SUFFIX,gadu-gadu.pl  # Gadu-Gadu 主域名，用于登录、消息通信与账户服务  
+DOMAIN-SUFFIX,gg.pl  # Gadu-Gadu 简写主域名，用于客户端连接与资源访问  
+
+# » Yahoo! Messenger 即时通讯平台相关域名
+
+DOMAIN-SUFFIX,yahoo.com  # Yahoo! 主域名，历史上用于 Messenger 通信服务  
+DOMAIN-SUFFIX,msg.yahoo.com  # Yahoo! Messenger 消息服务专用子域（已停用）  
+DOMAIN-SUFFIX,im.yahoo.com  # Yahoo! Messenger 登录与客户端连接接口（历史接口）  
+
+# » AOL Instant Messenger（AIM）即时通讯平台相关域名
+
+DOMAIN-SUFFIX,aim.com  # AIM 主域名，用于登录、通信与服务接入（已终止服务）  
+DOMAIN-SUFFIX,aimcdn.com  # AIM 内容分发与静态资源加载域名  
+DOMAIN-SUFFIX,toc.aol.com  # AIM 使用的 TOC 协议服务端域名（协议连接节点）  
+DOMAIN-SUFFIX,login.oscar.aol.com  # AIM 登录验证接口，基于 OSCAR 协议  
+
+# » iChat（Apple 早期即时通讯工具）相关域名
+
+DOMAIN-SUFFIX,ichat.com  # iChat 服务旧域名，曾用于登录与消息同步（现多已停用）  
+DOMAIN-SUFFIX,aim.com  # iChat 默认支持的 AIM 服务域名（AOL 协议集成）  
+DOMAIN-SUFFIX,apple.com  # Apple 官方域名，部分 iChat 功能调用 Apple 账户服务  
+
+# » MySpace IM 即时通讯服务相关域名
+
+DOMAIN-SUFFIX,myspace.com  # MySpace 主域名，IM 服务曾基于主站账号体系运行  
+DOMAIN-SUFFIX,im.myspace.com  # MySpace IM 子域，用于消息通信与好友服务（已停用）  
+
+# » ICQ 即时通讯服务相关域名
+
+DOMAIN-SUFFIX,icq.com  # ICQ 主域名，用于账户服务、软件下载与通信接入  
+DOMAIN-SUFFIX,mail.ru  # 母公司 Mail.ru 域名，用于账户体系整合与资源调用  
+DOMAIN-SUFFIX,my.com  # ICQ 移动服务相关域名，部分资源与消息路由通过该域传输  
+DOMAIN-SUFFIX,icq.net  # ICQ 历史通信域名，部分旧客户端可能依赖（多已废弃）  
+
+# » BBM（BlackBerry Messenger）服务相关域名
+
+DOMAIN-SUFFIX,bbm.com  # BBM 主域名，曾用于消息服务与账号管理（现多已关闭）  
+DOMAIN-SUFFIX,blackberry.com  # BlackBerry 官方域名，部分 BBM 服务通过此域名集成  
+DOMAIN-SUFFIX,bbis.blackberry.com  # BlackBerry 网络服务接入点，用于企业通信同步  
+DOMAIN-SUFFIX,smp.blackberry.com  # BBM 安全消息协议与推送相关接口域名  
+
+# » KakaoTalk 韩国即时通讯平台相关域名
+
+DOMAIN-SUFFIX,kakao.com  # Kakao 主域名，用于账号系统、消息服务与平台管理  
+DOMAIN-SUFFIX,kakaocorp.com  # Kakao 公司官网域名，用于企业信息与品牌资源加载  
+DOMAIN-SUFFIX,talk.kakao.com  # KakaoTalk 消息平台子域，负责通信服务与多端同步  
+DOMAIN-SUFFIX,dn.kakao.com  # Kakao 静态资源域名，用于图片、语音等媒体内容加载  
+DOMAIN-SUFFIX,kakaoimg.com  # Kakao 图片 CDN，用于聊天图像与贴图加载  
+DOMAIN-SUFFIX,daum.net  # Kakao 集团旗下门户 Daum，用于部分服务整合与跳转  
+
 # » Zohomail 相关域名
 
 DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源 CDN，用于加载 UI 样式、脚本等前端文件
