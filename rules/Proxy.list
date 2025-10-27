@@ -2955,6 +2955,17 @@ DOMAIN-SUFFIX,ghcr.io  # GitHub 容器注册中心，Homebrew 使用该服务拉
 DOMAIN-SUFFIX,githubusercontent.com  # 用于下载 Homebrew Tap 仓库中软件资源文件  
 DOMAIN-SUFFIX,raw.githubusercontent.com  # Homebrew Tap 配置与脚本源地址  
 
+# » Cloudflare 内容分发与安全加速平台
+
+DOMAIN-SUFFIX,cloudflare.com  # Cloudflare 官方主域名，用于控制台访问与账户管理
+DOMAIN-SUFFIX,cloudflare.net  # Cloudflare 辅助域名，用于 DNS、WAF、CDN 服务通信
+DOMAIN-SUFFIX,cloudflareinsights.com  # Cloudflare Insights 分析平台，用于性能与安全监控
+DOMAIN-SUFFIX,cf.cloudflare.com  # Cloudflare 静态资源加载域名，用于网页前端优化
+DOMAIN-SUFFIX,workers.dev  # Cloudflare Workers 服务域名，用于无服务器计算平台
+DOMAIN-SUFFIX,cf-ipfs.com  # Cloudflare IPFS 网关服务域名，用于访问分布式内容
+DOMAIN-SUFFIX,1.1.1.1  # Cloudflare 公共 DNS 服务 IPv4 地址，用于加密 DNS 查询
+DOMAIN-SUFFIX,1.0.0.1  # Cloudflare 公共 DNS 备用 IPv4 地址，提供冗余 DNS 解析能力
+
 # » 其他 (暂未分类)
 
 DOMAIN-SUFFIX,nssurge.com # Surge 官方服务域名，用于激活验证与模块更新通信
