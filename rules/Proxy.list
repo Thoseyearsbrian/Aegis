@@ -2938,7 +2938,13 @@ DOMAIN-SUFFIX,virustotal.com  # VirusTotal 主站域名，用于文件、URL、�
 
 # » IDIDHUB 虚拟号码与账号服务平台  
 
-DOMAIN-SUFFIX,ididhub.com  # IDIDHUB 网站，用于提供美国 Google Voice 号码、苹果礼品卡、邮箱账号等数字服务  
+DOMAIN-SUFFIX,ididhub.com  # IDIDHUB 网站，用于提供美国 Google Voice 号码、苹果礼品卡、邮箱账号等数字服务 
+
+# » npm 公共软件包注册服务  
+
+DOMAIN-SUFFIX,npmjs.com  # npm 主站域名，用于 JavaScript/Node.js 软件包搜索与管理  
+DOMAIN-SUFFIX,registry.npmjs.org  # npm 公共注册中心域名，用于包元数据与下载请求  
+DOMAIN-SUFFIX,api.npmjs.com  # npm API 接口域名，用于注册、发布与访问控制  
 
 # » 其他 (暂未分类)
 
