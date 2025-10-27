@@ -4,8 +4,8 @@
 感谢你对本项目的关注。为了确保项目的独立性、安全性与可控性，**本项目不接受任何形式的 Pull Request（PR）或外部代码贡献**。  
 Thank you for your interest in this project. To maintain the integrity, security, and independence of this repository, **pull requests (PRs) and external code contributions are not accepted**.
 
-## 🚫 Pull Requests  
-## 🚫 不接受 PR
+## 🚫 不接受 PR  
+## 🚫 Pull Requests
 
 我们已关闭 PR 通道，并启用了主分支保护，防止任何未经授权的更改。  
 Pull requests are disabled, and branch protection rules are enforced to prevent unauthorized changes.
@@ -27,8 +27,8 @@ Privately report vulnerabilities (e.g., DNS hijacking, backdoors, rule bypasses)
 请勿使用 Discussions 或 Telegram 群组提交反馈，避免遗漏或处理不及时。
 Please do not use Discussions or the Telegram group to submit feedback, in order to ensure nothing is missed.
 
-## 🔐 Commit Policy  
 ## 🔐 提交政策
+## 🔐 Commit Policy  
 
 所有提交均由项目维护者本人进行，且使用 **PGP/GPG 签名** 验证身份。  
 All commits are made by the project maintainer and are **PGP/GPG signed** to verify authenticity.
