@@ -2303,6 +2303,51 @@ DOMAIN-SUFFIX,yotpo.com  # Yotpo 主域名，支持评论、UGC、Loyalty 营销
 DOMAIN-SUFFIX,staticw2.yotpo.com  # Yotpo 静态资源与嵌入脚本加载域名  
 DOMAIN-SUFFIX,api.yotpo.com  # Yotpo API 接入点，用于商家与前端调用评论数据  
 
+# » Mailgun 邮件发送平台相关域名
+
+DOMAIN-SUFFIX,mailgun.com  # Mailgun 邮件服务主域名，用于控制台、API 与域名管理  
+DOMAIN-SUFFIX,mx.mailgun.org  # Mailgun 邮件投递域名，用于 SMTP 出站服务与邮件处理  
+
+# » SendGrid 邮件发送平台相关域名
+
+DOMAIN-SUFFIX,sendgrid.net  # SendGrid 邮件服务主域名，用于邮件发送与日志追踪  
+DOMAIN-SUFFIX,u.sendgrid.com  # SendGrid 链接追踪服务域名，用于邮件中嵌入式统计  
+DOMAIN-SUFFIX,smtp.sendgrid.net  # SendGrid SMTP 邮件服务器域名，用于事务型发信  
+
+# » Mailchimp 邮件营销平台相关域名
+
+DOMAIN-SUFFIX,mailchimp.com  # Mailchimp 主域名，用于账户管理、模板配置与发信服务  
+DOMAIN-SUFFIX,mandrillapp.com  # Mandrill（Mailchimp 子服务）域名，用于事务型邮件发送  
+
+# » Postmark 邮件 API 服务平台相关域名
+
+DOMAIN-SUFFIX,postmarkapp.com  # Postmark 邮件服务主域名，用于控制台与事务型邮件发送  
+DOMAIN-SUFFIX,smtp.postmarkapp.com  # Postmark SMTP 服务器域名，用于安全出站发信通道  
+
+# » ProtonMail 加密邮件服务相关域名
+
+DOMAIN-SUFFIX,proton.me  # Proton 主域名，涵盖 ProtonMail、VPN、Drive 等服务  
+DOMAIN-SUFFIX,protonmail.com  # ProtonMail 邮箱主域名，用于网页版、客户端与身份认证  
+DOMAIN-SUFFIX,mail.protonmail.ch  # ProtonMail SMTP 投递服务器域名  
+DOMAIN-SUFFIX,protonmail.ch  # ProtonMail 瑞士域名备用入口  
+
+# » Tutanota 匿名加密邮件服务相关域名
+
+DOMAIN-SUFFIX,tutanota.com  # Tutanota 主域名，用于邮箱服务、注册与身份验证  
+DOMAIN-SUFFIX,tutanota.de  # Tutanota 德国本地化主域名，提供相同功能服务  
+
+# » StartMail 隐私保护邮件服务相关域名
+
+DOMAIN-SUFFIX,startmail.com  # StartMail 主域名，用于邮箱登录、管理与发送服务  
+
+# » Mailfence 安全邮件与文档服务相关域名
+
+DOMAIN-SUFFIX,mailfence.com  # Mailfence 主域名，提供加密邮箱、文档、日历与密钥服务  
+
+# » SecureMyEmail 端对端邮件加密服务相关域名
+
+DOMAIN-SUFFIX,securemyemail.com  # SecureMyEmail 主域名，用于客户端配置与密钥服务接入  
+
 # » Zohomail 相关域名
 
 DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源 CDN，用于加载 UI 样式、脚本等前端文件
