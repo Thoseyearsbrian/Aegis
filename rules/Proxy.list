@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-26
+# - 更新时间：2025-10-27
 
 # » Kaspersky 相关域名
 
@@ -2829,6 +2829,115 @@ DOMAIN-SUFFIX,translate.google.com  # Google 翻译网页前端服务，用于�
 DOMAIN-SUFFIX,nssurge.com # NSSurge 官方主站域名，用于配置托管、规则订阅与用户服务  
 DOMAIN-SUFFIX,cdn.nssurge.com # NSSurge 静态资源域名，用于分发规则文件与远程模块  
 DOMAIN-SUFFIX,api.nssurge.com # NSSurge 接口域名，用于配置拉取、订阅验证与更新服务  
+
+# » IINA 视频播放器
+
+DOMAIN-SUFFIX,iina.io # IINA 官网域名，用于软件下载、文档与版本发布
+DOMAIN-SUFFIX,api.iina.io # IINA API 服务域名，用于检测更新与远程配置
+DOMAIN-SUFFIX,cdn.iina.io # IINA 静态资源 CDN，用于加载界面资源与图标文件
+
+# » Downie 视频下载工具
+
+DOMAIN-SUFFIX,software.charliemonroe.net # Downie 官网主域名，用于软件下载、激活与版本检查
+DOMAIN-SUFFIX,api.charliemonroe.net # Downie API 接口，用于授权验证与更新请求
+DOMAIN-SUFFIX,update.charliemonroe.net # Downie 更新服务域名，用于拉取最新版本信息
+
+# » Permute 媒体格式转换工具
+
+DOMAIN-SUFFIX,software.charliemonroe.net  # Permute 官网主域名，用于软件下载、激活与版本检查
+DOMAIN-SUFFIX,api.charliemonroe.net  # Permute API 接口，用于授权验证与更新请求
+DOMAIN-SUFFIX,update.charliemonroe.net  # Permute 更新服务域名，用于拉取最新版本信息
+
+# » VMware 虚拟化与企业解决方案服务
+
+DOMAIN-SUFFIX,vmware.com  # VMware 官方主站域名，用于产品信息、软件下载与账户服务
+DOMAIN-SUFFIX,vmwareidentity.com  # VMware 身份验证与单点登录服务域名
+DOMAIN-SUFFIX,cloud.vmware.com  # VMware Cloud 云平台入口，提供企业级云服务访问
+DOMAIN-SUFFIX,cdn.vmware.com  # VMware 静态资源 CDN 域名，用于更新分发与界面加载
+DOMAIN-SUFFIX,download3.vmware.com  # VMware 软件与镜像下载节点
+DOMAIN-SUFFIX,learn.vmware.com  # VMware 在线培训与认证学习平台
+DOMAIN-SUFFIX,support.vmware.com  # VMware 技术支持与知识库服务
+DOMAIN-SUFFIX,customerconnect.vmware.com  # VMware 客户中心服务域名，用于产品授权与下载管理
+
+# » Intuitibits 网络工具（含 WiFi Explorer 系列）
+
+DOMAIN-SUFFIX,intuitibits.com  # Intuitibits 官方网站，用于展示 WiFi Explorer 等网络分析工具
+DOMAIN-SUFFIX,updates.intuitibits.com  # Intuitibits 应用更新服务域名，用于软件版本检查与升级
+DOMAIN-SUFFIX,api.intuitibits.com  # Intuitibits 应用数据接口，用于许可证验证与信息交互
+DOMAIN-SUFFIX,cdn.intuitibits.com  # Intuitibits 静态资源域名，用于加载前端文件与数据资源
+
+# » Couleurs 色彩辅助工具（macOS）
+
+DOMAIN-SUFFIX,couleursapp.com # Couleurs 官方网站，用于色彩选择与颜色值转换工具展示与下载
+DOMAIN-SUFFIX,www.couleursapp.com # Couleurs 网站主域名，提供产品介绍与更新信息
+
+# » Lizhi Store 在线小工具平台
+
+DOMAIN-SUFFIX,store.lizhi.io # Lizhi Store 在线工具平台，提供多种前端开发与效率工具服务
+
+# » OBS 开源直播录制软件
+
+DOMAIN-SUFFIX,obsproject.com  # OBS 官方站点域名，提供软件下载、插件扩展与文档支持
+DOMAIN-SUFFIX,cdn.obsproject.com  # OBS 静态资源域名，用于分发安装包、更新组件等文件
+
+# » vMix 专业视频直播与切换软件
+
+DOMAIN-SUFFIX,vmix.com.au  # vMix 官方主站域名，提供软件下载、功能介绍与购买授权服务
+DOMAIN-SUFFIX,forums.vmix.com  # vMix 官方论坛域名，用于用户交流、技术支持与插件资源分享
+
+# » OpenWrt 开源路由系统相关域名
+
+DOMAIN-SUFFIX,openwrt.org  # OpenWrt 官方主站域名，用于下载固件、文档与社区支持  
+DOMAIN-SUFFIX,downloads.openwrt.org  # OpenWrt 固件与软件包镜像下载服务  
+DOMAIN-SUFFIX,forum.openwrt.org  # OpenWrt 官方技术支持论坛，用户交流与问题解答  
+DOMAIN-SUFFIX,bugs.openwrt.org  # OpenWrt Bug 追踪与问题反馈系统  
+DOMAIN-SUFFIX,git.openwrt.org  # OpenWrt Git 仓库域名，托管源代码与补丁提交记录  
+
+# » Everything 文件搜索工具（Voidtools）
+
+DOMAIN-SUFFIX,voidtools.com  # Everything 官方网站，用于软件下载、更新与文档支持
+
+# » 一个工匠（yigegongjiang.com）设计资源平台
+
+DOMAIN-SUFFIX,yigegongjiang.com  # 一个工匠主站域名，用于提供 UI 素材、图标、插画等设计资源下载  
+
+# » Little Snitch 网络监控软件（Objective Development 出品）
+
+DOMAIN-SUFFIX,obdev.at  # Little Snitch 官方网站主域名，用于官网访问与软件下载  
+DOMAIN-SUFFIX,updates.obdev.at  # Little Snitch 软件更新服务域名，用于检查与下载更新  
+DOMAIN-SUFFIX,static.obdev.at  # Little Snitch 静态资源域名，用于加载界面组件等前端内容  
+
+# » BrowserLeaks 浏览器隐私测试平台
+
+DOMAIN-SUFFIX,browserleaks.com  # 浏览器泄露测试平台，用于检测 IP、指纹、WebRTC 等隐私暴露信息
+
+# » DNSLeakTest DNS 泄漏检测平台
+
+DOMAIN-SUFFIX,dnsleaktest.com  # DNS 泄漏检测工具网站，用于测试 DNS 查询是否经过代理或存在信息泄露风险
+
+# » Whoer 隐私测试平台（IP／指纹检测）
+
+DOMAIN-SUFFIX,whoer.net  # Whoer 官方主站，用于 IP 地址、DNS 泄漏、浏览器指纹等隐私检测工具  
+
+# » VoidSec IP/泄漏检测平台
+
+DOMAIN-SUFFIX,ip.voidsec.com  # VoidSec 网站，用于检测 VPN/代理是否泄漏真实 IP 地址  
+
+# » Speedtest 网络测速平台
+
+DOMAIN-SUFFIX,speedtest.net  # Speedtest 主站域名，由 Ookla 运营，用于测量互联网下载／上传速度与延迟  
+
+# » SMS‑Activate 虚拟号码接收服务
+
+DOMAIN-SUFFIX,sms‑activate.org  # SMS‑Activate 官方网站，用于租用或购买虚拟手机号码接收 SMS 验证及注册服务 
+
+# » VirusTotal 安全分析与威胁情报平台  
+
+DOMAIN-SUFFIX,virustotal.com  # VirusTotal 主站域名，用于文件、URL、域名及 IP 的多引擎扫描与安全报告  
+
+# » IDIDHUB 虚拟号码与账号服务平台  
+
+DOMAIN-SUFFIX,ididhub.com  # IDIDHUB 网站，用于提供美国 Google Voice 号码、苹果礼品卡、邮箱账号等数字服务  
 
 # » 其他 (暂未分类)
 

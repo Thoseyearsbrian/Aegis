@@ -4,7 +4,7 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具，便于策略识别与分流（建议绑定策略 Crypto / PROXY 或用于行为审计）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-25
+# - 更新时间：2025-10-27
 
 # >> 追踪与推送平台
 DOMAIN,access.pushsdk.com # 极光推送，常用于交易App通知
@@ -69,6 +69,23 @@ DOMAIN-KEYWORD,etherdelta.com # 加密货币交易平台
 DOMAIN-KEYWORD,ethermine.org # 加密货币挖矿矿池 
 DOMAIN-KEYWORD,etherscan.com # 加密货币以太坊区块浏览器 
 DOMAIN-KEYWORD,exmo.com # 加密货币交易平台 EXMO 官方域名
+
+# » Electrum 比特币轻钱包客户端
+
+DOMAIN-SUFFIX,electrum.org  # Electrum 官方主站域名，用于软件下载与项目介绍  
+DOMAIN-SUFFIX,electrum-sv.org  # ElectrumSV 分支钱包项目域名，支持比特币 SV 网络  
+DOMAIN-SUFFIX,check.electrum.org  # Electrum 软件版本验证服务域名，用于检测更新完整性  
+
+# » Sparrow Wallet 比特币钱包客户端
+
+DOMAIN-SUFFIX,sparrowwallet.com  # Sparrow Wallet 官方网站，用于软件下载、项目介绍与文档支持  
+DOMAIN-SUFFIX,sparrowwallet.io  # Sparrow Wallet 辅助域名，部分文档或镜像页面使用  
+
+# » Keystone 硬件钱包（原 Cobo Vault）
+
+DOMAIN-SUFFIX,keyst.one  # Keystone 官方网站，用于产品介绍、固件下载与用户支持
+DOMAIN-SUFFIX,s3.keyst.one  # Keystone 固件与资源文件 CDN，加速下载与更新服务
+DOMAIN-SUFFIX,update.keyst.one  # Keystone OTA 更新检查接口，验证最新固件版本信息
 
 # » Coinbase 加密货币平台相关域名
 
