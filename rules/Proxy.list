@@ -2666,6 +2666,24 @@ DOMAIN-SUFFIX,dlpanda.com # DLPanda 资源下载站，提供图像、设计模�
 DOMAIN-SUFFIX,semrush.com # SEMrush 专业 SEO 工具平台，提供关键词分析、竞品监测与网站审计服务
 DOMAIN-SUFFIX,seoptimer.com # SEOptimer SEO 优化与站点评分平台，用于网站性能与可见性分析
 
+# » Blender 官方与社区平台
+
+DOMAIN-SUFFIX,blender.org # Blender 官方主站域名，用于软件下载、文档与项目介绍  
+DOMAIN-SUFFIX,cloud.blender.org # Blender Cloud 平台域名，提供素材、教程与制作协作  
+DOMAIN-SUFFIX,studio.blender.org # Blender Studio 域名，用于展示官方动画项目与创作资源  
+DOMAIN-SUFFIX,developer.blender.org # Blender 开发者平台域名，托管开发文档与 Bug 跟踪系统  
+DOMAIN-SUFFIX,fund.blender.org # Blender 基金会支持页面域名，用于用户捐赠与资助说明  
+DOMAIN-SUFFIX,projects.blender.org # Blender 项目管理域名，用于任务协作与版本管理  
+DOMAIN-SUFFIX,code.blender.org # Blender 源码博客域名，发布开发进展与技术分析  
+DOMAIN-SUFFIX,docs.blender.org # Blender 官方文档域名，提供使用手册与 API 指南  
+
+# » Telestream 媒体处理与流媒体解决方案平台
+
+DOMAIN-SUFFIX,telestream.net # Telestream 官方主站域名，用于产品介绍、下载与支持  
+DOMAIN-SUFFIX,cloud.telestream.net # Telestream 云服务平台，用于转码与实时视频工作流程  
+DOMAIN-SUFFIX,license.telestream.net # Telestream 授权服务器域名，用于产品激活与许可证验证  
+DOMAIN-SUFFIX,static.telestream.net # Telestream 静态资源域名，用于加载网页所需的脚本与样式  
+
 # » Zohomail 相关域名
 
 DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源 CDN，用于加载 UI 样式、脚本等前端文件
@@ -2805,6 +2823,12 @@ DOMAIN-SUFFIX,translatoruser.intl.microsoft.com  # 微软翻译服务用户会�
 
 DOMAIN-SUFFIX,translate.googleapis.com  # Google 翻译 API 接口，用于机器翻译请求处理
 DOMAIN-SUFFIX,translate.google.com  # Google 翻译网页前端服务，用于用户界面与交互展示
+
+# » Nssurge 配置托管与增强服务平台
+
+DOMAIN-SUFFIX,nssurge.com # NSSurge 官方主站域名，用于配置托管、规则订阅与用户服务  
+DOMAIN-SUFFIX,cdn.nssurge.com # NSSurge 静态资源域名，用于分发规则文件与远程模块  
+DOMAIN-SUFFIX,api.nssurge.com # NSSurge 接口域名，用于配置拉取、订阅验证与更新服务  
 
 # » 其他 (暂未分类)
 
