@@ -2242,6 +2242,67 @@ DOMAIN-SUFFIX,dn.kakao.com  # Kakao 静态资源域名，用于图片、语音�
 DOMAIN-SUFFIX,kakaoimg.com  # Kakao 图片 CDN，用于聊天图像与贴图加载  
 DOMAIN-SUFFIX,daum.net  # Kakao 集团旗下门户 Daum，用于部分服务整合与跳转  
 
+# » SiteGround 建站与托管平台相关域名
+
+DOMAIN-SUFFIX,siteground.com  # SiteGround 官网域名，用于用户后台、客服与建站管理  
+DOMAIN-SUFFIX,sg-host.com  # SiteGround 分配的用户网站二级域名，用于站点实际访问解析  
+DOMAIN-SUFFIX,siteground.net  # SiteGround 技术与内部服务域名，部分解析与CDN调用  
+
+# » Bluehost 建站与主机服务相关域名
+
+DOMAIN-SUFFIX,bluehost.com  # Bluehost 官网及客户后台服务域名  
+DOMAIN-SUFFIX,bluehost.in  # Bluehost 印度子站，用于本地建站与服务管理  
+DOMAIN-SUFFIX,bluehost.international  # Bluehost 国际业务相关域名  
+
+# » DigitalOcean 云主机与托管平台相关域名
+
+DOMAIN-SUFFIX,digitalocean.com  # DigitalOcean 主域名，用于控制台、API 与开发者文档服务  
+DOMAIN-SUFFIX,do.co  # DigitalOcean 短链服务与跳转域名  
+
+# » Judge.me 电商评论插件相关域名
+
+DOMAIN-SUFFIX,judge.me  # Judge.me 主站域名，用于评论加载、商户后台与数据服务  
+DOMAIN-SUFFIX,cdn.judge.me  # Judge.me 静态资源 CDN 域名，用于脚本与前端加载优化  
+
+# » Yotpo 电商评论与营销服务相关域名
+
+DOMAIN-SUFFIX,yotpo.com  # Yotpo 主域名，用于用户后台、评论管理、营销自动化等服务  
+DOMAIN-SUFFIX,yotpoemail.com  # Yotpo 邮件服务域名，用于触发式营销邮件与通知系统  
+DOMAIN-SUFFIX,ugc.yotpo.com  # Yotpo 用户生成内容服务域名，用于评论加载与展示组件  
+DOMAIN-SUFFIX,staticw2.yotpo.com  # Yotpo 静态资源加载域名，包含前端脚本与样式资源  
+
+# » Trustpilot 评论系统相关域名
+
+DOMAIN-SUFFIX,trustpilot.com  # Trustpilot 主域名，用户用于浏览、发布和管理评论内容  
+DOMAIN-SUFFIX,tp-cdn.com  # Trustpilot 静态资源 CDN 域名，用于加载前端脚本与样式  
+DOMAIN-SUFFIX,widget.trustpilot.com  # Trustpilot 评论展示组件，用于商家嵌入式页面调用  
+
+# » Loox 商品评论系统相关域名
+
+DOMAIN-SUFFIX,loox.io  # Loox 主域名，提供评论展示、采集与客户管理功能  
+DOMAIN-SUFFIX,looxcdn.com  # Loox 静态资源 CDN，用于嵌入组件加载与客户展示页面  
+
+# » Stamped 评论系统相关域名
+
+DOMAIN-SUFFIX,stamped.io  # Stamped.io 主域名，提供邮件评价、评论采集与展示功能  
+DOMAIN-SUFFIX,stamped.com  # Stamped.com 营销官网及后台管理域名  
+
+# » Stamped 评论系统相关域名
+
+DOMAIN-SUFFIX,stamped.io  # Stamped.io 主域名，提供邮件评价、评论采集与展示功能  
+DOMAIN-SUFFIX,stamped.com  # Stamped.com 营销官网及后台管理域名  
+
+# » Reviews.io 评论系统相关域名
+
+DOMAIN-SUFFIX,reviews.io  # Reviews.io 主域名，提供评论管理、展示与 Google Feed 服务  
+DOMAIN-SUFFIX,static.reviews.io  # 静态资源与小部件加载域名  
+
+# » Yotpo 评论与用户生成内容平台相关域名
+
+DOMAIN-SUFFIX,yotpo.com  # Yotpo 主域名，支持评论、UGC、Loyalty 营销与后台管理  
+DOMAIN-SUFFIX,staticw2.yotpo.com  # Yotpo 静态资源与嵌入脚本加载域名  
+DOMAIN-SUFFIX,api.yotpo.com  # Yotpo API 接入点，用于商家与前端调用评论数据  
+
 # » Zohomail 相关域名
 
 DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源 CDN，用于加载 UI 样式、脚本等前端文件
