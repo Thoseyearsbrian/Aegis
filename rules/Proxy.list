@@ -2418,7 +2418,15 @@ DOMAIN-SUFFIX,maxmind.com  # MaxMind 数据服务域名，用于 IP 地理定位
 DOMAIN-SUFFIX,kali.org  # Kali Linux 官网及更新服务，常用于渗透测试与安全工具下载
 DOMAIN-SUFFIX,mac.getutm.app  # UTM 虚拟机管理器 macOS 官方下载站点，部分资源需代理访问
 DOMAIN-SUFFIX,tails.net  # Tails 操作系统官网及服务平台，需代理访问以确保连接成功与更新获取
-DOMAIN-KEYWORD,challenges.cloudflare.com  # Cloudflare 验证挑战页面域名，用于机器人识别与访问验证机制  
+DOMAIN-SUFFIX,challenges.cloudflare.com  # Cloudflare 验证挑战页面域名，用于机器人识别与访问验证机制  
+DOMAIN-SUFFIX,gpgtools.org # macOS 平台 GPG 密钥管理工具 GPGTools 官网  
+DOMAIN-SUFFIX,openpgp.org # OpenPGP 官方网站，用于规范与协议发布  
+DOMAIN-SUFFIX,keys.openpgp.org # OpenPGP 公钥查找服务器，用于密钥交换  
+DOMAIN-SUFFIX,keyserver.ubuntu.com # Ubuntu 公钥服务器，支持 GPG 密钥上传与检索  
+DOMAIN-SUFFIX,keybase.io # 去中心化身份与公钥托管平台，支持聊天与文件加密  
+DOMAIN-SUFFIX,mailvelope.com # 网页端 PGP 加密浏览器扩展（支持 Gmail 等）  
+DOMAIN-SUFFIX,pgpi.org # PGP 协议历史文档与软件归档镜像站  
+DOMAIN-SUFFIX,sequoia-pgp.org # Rust 编写的现代 PGP 加密实现项目 Sequoia  
 
 # » 通用 VPN／节点订阅／中转服务／翻墙工具域名集合
 
