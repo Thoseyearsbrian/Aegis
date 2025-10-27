@@ -2637,6 +2637,14 @@ DOMAIN-SUFFIX,mkrf.ru        # 俄罗斯文化部旧域名，用于文化事务�
 
 DOMAIN-SUFFIX,runivers.ru  # Runivers 主站域名，在线提供俄罗斯历史、档案、照片与文化资料  
 
+# » Notion 笔记与协作平台
+
+DOMAIN-SUFFIX,notion.so # Notion 主站域名，用于笔记、知识库与协作服务
+DOMAIN-SUFFIX,notion.site # Notion 自托管页面域名，常用于公开分享或嵌入站点
+DOMAIN-SUFFIX,notion-static.com # Notion 静态资源域名，用于加载图片、脚本等前端文件
+DOMAIN-SUFFIX,api.notion.com # Notion API 接口，用于第三方集成与数据读写
+DOMAIN-SUFFIX,auth.notion.com # Notion 登录与授权服务域名
+
 # » Zohomail 相关域名
 
 DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源 CDN，用于加载 UI 样式、脚本等前端文件
