@@ -1,6 +1,7 @@
 ---
 name: Feature Request
-about: Describe this issue template's purpose here.
+about: Suggest new features or improvements to enhance rule logic, modularity, and
+  user experience.
 title: "[FEATURE] 功能建议 - 请简述主题"
 labels: ''
 assignees: ''
