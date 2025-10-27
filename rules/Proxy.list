@@ -2645,7 +2645,7 @@ DOMAIN-SUFFIX,notion-static.com # Notion 静态资源域名，用于加载图片
 DOMAIN-SUFFIX,api.notion.com # Notion API 接口，用于第三方集成与数据读写
 DOMAIN-SUFFIX,auth.notion.com # Notion 登录与授权服务域名
 
-# » Flag Icons（国旗 SVG 库）相关域名
+# » Flag Icons 相关域名
 
 DOMAIN-SUFFIX,flagicons.lipis.dev # FlagIcons项目官网，用于免费获取全世界国家国旗的SVG图标
 
