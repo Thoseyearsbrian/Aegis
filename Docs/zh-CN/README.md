@@ -164,7 +164,7 @@ SurgeAegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Su
 
 ## 🏅 版权声明
 
-**版权与分发**：本项目采用 [MIT License](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE) 授权。你可以自由使用、修改与分发本项目内容，包括用于商业用途。
+**版权与分发**：本项目采用 [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE) 授权。你可以自由使用、修改与分发本项目内容，包括用于商业用途。
 
 我们鼓励你遵循开源精神：
 

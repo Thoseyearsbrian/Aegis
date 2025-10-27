@@ -164,7 +164,7 @@ Author’s Statement: This project does not engage in malicious activities, does
 
 ## **🏅 License**
 
-This project is licensed under the [MIT License](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE). You are free to use, modify, and distribute this project, even for commercial purposes.
+This project is licensed under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE). You are free to use, modify, and distribute this project, even for commercial purposes.
 
 We ask you to respect the spirit of open source:
 
