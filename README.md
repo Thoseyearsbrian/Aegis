@@ -76,35 +76,34 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
 
 ## ⚠️ Notes
 
-1. **Rule Mode must be enabled, otherwise the Aegis rule set may not provide complete protection functionality.**
+1. **Rule Mode is mandatory — Aegis cannot perform any filtering, routing, or protection without it**
 
    ```bash
-   Aegis is a personal firewall system specifically designed for Rule Mode. It only works correctly when Surge is set to Rule Mode. 
-   If you use Global Mode or Direct Mode, rules will not match, domain/IP classification will fail, and all protection and routing functionalities will be lost.
+   Aegis is a personal digital firewall system built entirely on Surge’s Rule Mode. It relies on rule-based matching to classify domains, enforce policies, and block malicious traffic.
+
+   Full functionality is only available when Surge is running in **Rule Mode**. If you switch to Global Mode or Direct Mode, while network access may still work, all rule matching will be bypassed, leading to the following risks:
+
+   • Domains and IPs will not be classified correctly  
+   • All filtering mechanisms and strategy modules will be disabled  
+   • Core functions like traffic splitting, threat protection, and ad blocking will stop working
+
+   If you encounter a domain temporarily inaccessible due to unmatched rules, you may **switch to Global Mode or Direct Mode temporarily** to regain access. However, we strongly recommend submitting an Issue immediately, so we can update the corresponding rule set and prevent future disruption.
    ```
 
-2. **GEOIP,CN and China domain rules can coexist and are processed in order**
+2. **It is recommended to combine China.list (for domain matching) and GEOIP,CN (for IP segments) for accurate detection of Chinese traffic:**
 
    ```bash
-   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list,DIRECT   # Precise match for CN-based domains
-   GEOIP,CN,DIRECT                                                                                 # Applies to unmatched traffic from CN IP ranges
+   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list, DIRECT   # Precisely matches Chinese domains
+   GEOIP,CN,DIRECT                                                                                  # Matches traffic from Chinese IPs not in domain list
+   FINAL,REJECT                                                                                     # Final fallback rule (do NOT place GEOIP below this)
    ```
 
-3. **Place GEOIP,CN rule right before the final rule:**
+3. **Do NOT use GEOIP rules for countries outside mainland China — the current database only supports CN records**
 
    ```bash
-   # ... other rules ...
-   GEOIP,CN,DIRECT   # Recommended to place here
-   FINAL,REJECT      # Final rule
-   ```
-
-4. **The GeoIP database only includes mainland China IPs. Avoid querying other countries:**
-
-   ```bash
-   GEOIP,US,PROXY   # Invalid, no matching records
-   GEOIP,AU,PROXY   # Invalid, no matching records
-   GEOIP,HK,PROXY   # Invalid, no matching records
-   GEOIP,CN,DIRECT  # Valid
+   GEOIP, US, PROXY   # Invalid — No matching records available
+   GEOIP, AU, PROXY   # Invalid — No matching records available
+   GEOIP, CN, DIRECT  # Valid — Supported and recognized
    ```
 
 ## **🌟 Special Thanks**

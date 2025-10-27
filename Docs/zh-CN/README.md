@@ -76,34 +76,33 @@ SurgeAegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Su
 
 ## ⚠️ 注意事项
 
-1. **必须启用规则模式（Rule Mode），否则 Aegis 规则集可能无法实现完整防护功能**
+1. **务必启用规则模式（Rule Mode），否则 Aegis 规则集可能无法执行任何防护、分流或拦截机制**
 
    ```bash
-   Aegis 是一套基于规则模式设计的个人数字防火墙体系，仅在 Surge 的规则模式下才能完整生效。
-   若使用全局模式或直连模式，将导致规则无法匹配，域名与 IP 无法识别分类，进而失去所有防护与分流能力。
+   Aegis 是一套基于规则模式构建的个人数字防火墙体系，依赖 Surge 的规则匹配机制进行域名分类、策略分流与恶意拦截。
+
+   仅在启用规则模式（Rule Mode）时，Aegis 才能实现完整功能。若使用“全局模式”或“直连模式”，虽然仍可按策略访问外部网络，但将跳过全部规则匹配流程，导致以下风险：
+
+   • 域名与 IP 无法被识别分类  
+   • 所有拦截机制与模块策略失效  
+   • 无法发挥分流、防护、去广告等核心能力
+
+   如遇某些域名因规则匹配失败而暂时无法访问，可**临时切换为“全局模式”或“直连模式”**应急处理。同时，强烈建议在第一时间提交 Issue，我们将尽快补充至对应规则集中，以确保下次访问无需绕行。
    ```
 
-2. **GEOIP,CN 与 中国大陆域名规则可共存,按顺序依次匹配**
+2. **推荐将`China.list`（域名）与 `GEOIP,CN`（IP段）规则组合使用，以提高对中国流量的匹配准确性：**
 
    ```bash
    RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list, DIRECT   # 精确匹配中国域名
-   GEOIP,CN,DIRECT                                                                                  # 用于未匹配域名的中国 IP 段流量
+   GEOIP,CN,DIRECT                                                                                  # 匹配未在域名规则中出现的中国大陆 IP
+   FINAL,REJECT                                                                                     # 最终默认拒绝规则（请勿将 GEOIP 放于其后）
    ```
 
-3. **GEOIP-CN 查询规则建议紧随最终规则之上，以避免域名规则被忽略导致判断错误。**
-
-   ```bash
-   # ... 省略其他规则 ...
-   GEOIP,CN,DIRECT   # 建议在这里使用规则
-   FINAL,REJECT      # 最终规则
-   ```
-
-4. **规则中不可以存在其他国家或地区的 `GEOIP` 查询规则，因为项目提供的数据库中仅包含中国大陆地区的 IP 地址段记录**
+3. **严禁使用非中国大陆国家的 GEOIP 查询规则，因为目前使用的数据库中仅支持 CN 段落**
 
    ```bash
    GEOIP, US, PROXY   # 错误，无法查询到相关记录
    GEOIP, AU, PROXY   # 错误，无法查询到相关记录
-   GEOIP, HK, PROXY   # 错误，无法查询到相关记录
    GEOIP, CN, DIRECT  # 正确
    ```
 
