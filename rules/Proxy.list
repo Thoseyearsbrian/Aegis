@@ -2491,6 +2491,7 @@ DOMAIN-SUFFIX,forum.4pda.ru  # 4PDA 论坛子域，用于用户讨论与资源�
 DOMAIN-SUFFIX,static.4pda.ru  # 4PDA 静态资源域名，用于图片、脚本、样式加载  
 
 # » Xakep.ru 俄罗斯网络安全与黑客文化资讯平台相关域名  
+
 DOMAIN-SUFFIX,xakep.ru  # Xakep 主站域名，用于网络安全、逆向工程、黑客文化报道与技术文章  
 DOMAIN-SUFFIX,shop.xakep.ru  # Xakep 商店子域，用于杂志订阅、黑客文化商品销售  
 DOMAIN-SUFFIX,static.xakep.ru  # Xakep 静态资源子域，用于图片、脚本与样式加载  
@@ -2547,10 +2548,12 @@ DOMAIN-SUFFIX,partner.market.yandex.com  # Yandex Market 卖家入口域名，
 DOMAIN-SUFFIX,yandex.ru  # Yandex 主站域名，涵盖搜索、广告、市场生态  
 
 # » Joom 电商平台相关域名  
+
 DOMAIN-SUFFIX,joom.com  # Joom 主域名，国际跨境电商平台  
 DOMAIN-SUFFIX,joom.ru   # Joom 俄罗斯市场域名，用于俄语用户与本地化服务  
 
 # » AliExpress 俄罗斯市场相关域名  
+
 DOMAIN-SUFFIX,aliexpress.ru      # AliExpress 俄罗斯主站域名，针对俄语区域买家  
 DOMAIN-SUFFIX,aliexpress.com     # AliExpress 国际主站域名，支持全球买家  
 DOMAIN-SUFFIX,acs.aliexpress.ru  # AliExpress 俄罗斯市场应用程序相关域名  
@@ -2603,6 +2606,7 @@ DOMAIN-SUFFIX,customs.gov.ru  # 俄罗斯联邦海关服务主域名，用于进
 DOMAIN-SUFFIX,eec.eaeunion.org  # 欧亚经济联盟官方网站主域名，用于成员国法规、技术标准与合规登记  
 
 # » Avito 俄罗斯大型分类广告平台相关域名  
+
 DOMAIN-SUFFIX,avito.ru  # Avito 主域名，用于俄罗斯地区商品、车辆、房产、服务等分类广告发布与浏览  
 DOMAIN-SUFFIX,www.avito.ru  # Avito 主站入口子域，用于普通用户访问与浏览界面  
 DOMAIN-SUFFIX,static.avito.ru  # Avito 静态资源加载域名，用于图片、脚本与样式文件  
