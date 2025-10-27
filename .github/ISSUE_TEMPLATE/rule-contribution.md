@@ -1,6 +1,7 @@
 ---
 name: Rule Contribution
-about: Describe this issue template's purpose here.
+about: Submit new rule entries or suggest modifications to existing ones to enhance
+  detection accuracy and modular completeness.
 title: "[Rule] 规则贡献 - 请填写标题"
 labels: ''
 assignees: ''
