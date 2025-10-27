@@ -2946,6 +2946,15 @@ DOMAIN-SUFFIX,npmjs.com  # npm 主站域名，用于 JavaScript/Node.js 软件�
 DOMAIN-SUFFIX,registry.npmjs.org  # npm 公共注册中心域名，用于包元数据与下载请求  
 DOMAIN-SUFFIX,api.npmjs.com  # npm API 接口域名，用于注册、发布与访问控制  
 
+# » Homebrew 包管理器
+
+DOMAIN-SUFFIX,brew.sh  # Homebrew 官方主页，用于展示文档与项目入口  
+DOMAIN-SUFFIX,homebrew.sh  # Homebrew 核心域名，用于软件包安装与版本管理  
+DOMAIN-SUFFIX,formulae.brew.sh  # Homebrew 软件包查询页面，提供版本与依赖信息  
+DOMAIN-SUFFIX,ghcr.io  # GitHub 容器注册中心，Homebrew 使用该服务拉取软件包  
+DOMAIN-SUFFIX,githubusercontent.com  # 用于下载 Homebrew Tap 仓库中软件资源文件  
+DOMAIN-SUFFIX,raw.githubusercontent.com  # Homebrew Tap 配置与脚本源地址  
+
 # » 其他 (暂未分类)
 
 DOMAIN-SUFFIX,nssurge.com # Surge 官方服务域名，用于激活验证与模块更新通信
