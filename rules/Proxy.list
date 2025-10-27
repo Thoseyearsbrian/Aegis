@@ -2137,6 +2137,20 @@ DOMAIN-SUFFIX,secure.tumblr.com  # Tumblr 登录与账户管理服务
 DOMAIN-SUFFIX,va.tumblr.com  # Tumblr 内容分发与访问控制子域
 DOMAIN-SUFFIX,assets.tumblr.com  # Tumblr 静态资源加载（JS、CSS 等）
 
+# » Wikipedia 维基百科平台相关域名
+
+DOMAIN-SUFFIX,wikipedia.org  # Wikipedia 主域名，开放式百科全书项目  
+DOMAIN-SUFFIX,upload.wikimedia.org  # Wikipedia 媒体上传与资源加载域名  
+DOMAIN-SUFFIX,meta.wikimedia.org  # Wikipedia 协作管理平台（元维基）  
+DOMAIN-SUFFIX,commons.wikimedia.org  # Wikipedia 公共媒体资料库  
+
+# » Skype 微软语音通信平台相关域名
+
+DOMAIN-SUFFIX,skype.com  # Skype 主域名，语音视频通话与聊天服务  
+DOMAIN-SUFFIX,login.skype.com  # Skype 登录验证域名  
+DOMAIN-SUFFIX,api.skype.com  # Skype API 接口服务  
+DOMAIN-SUFFIX,swx.cdn.skype.com  # Skype 静态资源与客户端加载域名  
+
 # » Zohomail 相关域名
 
 DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源 CDN，用于加载 UI 样式、脚本等前端文件
