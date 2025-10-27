@@ -1,7 +1,7 @@
 ---
 name: Bug Report
-about: 用于报告规则配置中的错误问题、误拦截行为或路径加载失败等情况。 Use this template to report bugs in rules,
-  false positives, module loading failures, etc.e this issue template's purpose here.
+about: Use this template to report bugs in rules, false positives, module loading
+  failures, etc.e this issue template's purpose here.
 title: "[BUG] 错误报告 - 请简述问题"
 labels: ''
 assignees: ''
