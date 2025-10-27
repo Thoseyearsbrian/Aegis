@@ -2326,27 +2326,312 @@ DOMAIN-SUFFIX,smtp.postmarkapp.com  # Postmark SMTP 服务器域名，用于安�
 
 # » ProtonMail 加密邮件服务相关域名
 
-DOMAIN-SUFFIX,proton.me  # Proton 主域名，涵盖 ProtonMail、VPN、Drive 等服务  
-DOMAIN-SUFFIX,protonmail.com  # ProtonMail 邮箱主域名，用于网页版、客户端与身份认证  
-DOMAIN-SUFFIX,mail.protonmail.ch  # ProtonMail SMTP 投递服务器域名  
-DOMAIN-SUFFIX,protonmail.ch  # ProtonMail 瑞士域名备用入口  
+DOMAIN-SUFFIX,protonmail.com  # ProtonMail 主域名，用于官网访问与账户登录  
+DOMAIN-SUFFIX,mail.protonmail.com  # ProtonMail Webmail 邮箱服务域名  
+DOMAIN-SUFFIX,api.protonmail.ch  # ProtonMail API 接口，用于账户操作与邮件服务  
+DOMAIN-SUFFIX,proton.me  # Proton 官方统一服务域名，用于邮箱与VPN整合服务  
+DOMAIN-SUFFIX,mail.proton.me  # ProtonMail 邮箱登录与通信专用域名  
+DOMAIN-SUFFIX,protonmail.ch  # ProtonMail 瑞士主站域名，用于部分服务与身份验证  
+DOMAIN-SUFFIX,pub.protonmail.ch  # Proton 公钥分发域名，用于 PGP 加密邮件通信  
 
-# » Tutanota 匿名加密邮件服务相关域名
+# » Tutanota 加密邮件服务相关域名
 
-DOMAIN-SUFFIX,tutanota.com  # Tutanota 主域名，用于邮箱服务、注册与身份验证  
-DOMAIN-SUFFIX,tutanota.de  # Tutanota 德国本地化主域名，提供相同功能服务  
+DOMAIN-SUFFIX,tutanota.com  # Tutanota 主域名，用于官网访问与账户登录  
+DOMAIN-SUFFIX,mail.tutanota.com  # Tutanota 邮箱 Webmail 服务，用于发送与接收加密邮件  
+DOMAIN-SUFFIX,secure.tutanota.com  # Tutanota 安全通信域名，用于身份验证与加密会话  
+DOMAIN-SUFFIX,push.tutanota.com  # Tutanota 推送服务域名，用于新邮件提醒与同步更新  
+DOMAIN-SUFFIX,tuta.io  # Tutanota 自定义邮箱域名，用于个性化邮件地址  
+DOMAIN-SUFFIX,tutanota.de  # Tutanota 德国注册域名，部分旧服务仍可能使用  
 
-# » StartMail 隐私保护邮件服务相关域名
+# » StartMail 加密邮件服务相关域名
 
-DOMAIN-SUFFIX,startmail.com  # StartMail 主域名，用于邮箱登录、管理与发送服务  
+DOMAIN-SUFFIX,startmail.com  # StartMail 主域名，用于官网访问、账户登录与服务入口  
+DOMAIN-SUFFIX,webmail.startmail.com  # StartMail Webmail 服务域名，用于邮件管理界面  
+DOMAIN-SUFFIX,secure.startmail.com  # StartMail 安全通信入口，用于加密传输与身份验证  
+DOMAIN-SUFFIX,auth.startmail.com  # StartMail 身份验证域名，用于登录与多因素认证  
+DOMAIN-SUFFIX,smtp.startmail.com  # StartMail SMTP 服务域名，用于加密邮件发送  
+DOMAIN-SUFFIX,imap.startmail.com  # StartMail IMAP 服务域名，用于邮件接收与同步  
 
-# » Mailfence 安全邮件与文档服务相关域名
+# » Mailfence 加密邮件服务相关域名
 
-DOMAIN-SUFFIX,mailfence.com  # Mailfence 主域名，提供加密邮箱、文档、日历与密钥服务  
+DOMAIN-SUFFIX,mailfence.com  # Mailfence 主域名，用于官网访问、账户登录与服务入口  
+DOMAIN-SUFFIX,smtp.mailfence.com  # Mailfence SMTP 服务域名，用于加密邮件发送  
+DOMAIN-SUFFIX,imap.mailfence.com  # Mailfence IMAP 服务域名，用于安全邮件接收  
+DOMAIN-SUFFIX,webmail.mailfence.com  # Mailfence Webmail 界面服务域名  
+DOMAIN-SUFFIX,keys.mailfence.com  # Mailfence PGP 公钥托管服务域名  
 
-# » SecureMyEmail 端对端邮件加密服务相关域名
+# » SecureMyEmail 加密邮件服务相关域名
 
-DOMAIN-SUFFIX,securemyemail.com  # SecureMyEmail 主域名，用于客户端配置与密钥服务接入  
+DOMAIN-SUFFIX,securemyemail.com  # SecureMyEmail 主域名，用于官网访问、账户登录与配置服务  
+DOMAIN-SUFFIX,smtp.securemyemail.com  # SecureMyEmail SMTP 服务域名，用于安全邮件发送  
+DOMAIN-SUFFIX,imap.securemyemail.com  # SecureMyEmail IMAP 服务域名，用于加密邮件收取  
+
+# » Mail.ru 邮件服务平台相关域名
+
+DOMAIN-SUFFIX,mail.ru  # Mail.ru 主域名，用于邮箱登录、邮件收发与用户服务  
+DOMAIN-SUFFIX,e.mail.ru  # Mail.ru 邮件服务使用的邮件推送与营销子域  
+DOMAIN-SUFFIX,my.mail.ru  # Mail.ru 用户门户与邮件附属服务页面  
+DOMAIN-SUFFIX,img.mail.ru  # Mail.ru 静态资源域名，用于加载图片和样式  
+DOMAIN-SUFFIX,auth.mail.ru  # Mail.ru 认证与登录服务接口  
+
+# » Fandom 社区百科平台相关域名
+
+DOMAIN-SUFFIX,fandom.com  # Fandom 主站域名，用于访问各类社区百科与内容平台  
+DOMAIN-SUFFIX,wikia.org  # Wikia 历史旧域名，现跳转至 Fandom，用于旧内容迁移兼容  
+DOMAIN-SUFFIX,static.wikia.nocookie.net  # Fandom 静态资源加载域名（图片/脚本等）  
+DOMAIN-SUFFIX,services.fandom.com  # Fandom 接口服务域名，用于数据加载与用户交互  
+DOMAIN-SUFFIX,tracking.fandom.com  # Fandom 追踪与广告相关域名，用于分析用户行为  
+
+# » Microsoft Live 服务相关域名
+
+DOMAIN-SUFFIX,live.com  # Microsoft Live 主域名，包含登录、Outlook、OneDrive 等服务  
+DOMAIN-SUFFIX,login.live.com  # Microsoft Live 登录验证域名，用于账户身份验证流程  
+DOMAIN-SUFFIX,profile.live.com  # Live 账户资料与社交功能接口域名  
+DOMAIN-SUFFIX,mail.live.com  # Outlook.com 邮箱服务旧版入口域名  
+DOMAIN-SUFFIX,onedrive.live.com  # OneDrive 网盘服务专用子域，用于文件同步与访问  
+DOMAIN-SUFFIX,people.live.com  # Live 联系人管理服务域名  
+DOMAIN-SUFFIX,calendar.live.com  # Live 日历服务接口域名  
+DOMAIN-SUFFIX,storage.live.com  # Live 云端存储接口域名，用于同步和上传  
+
+# » Naver 韩国网络服务相关域名
+
+DOMAIN-SUFFIX,naver.com  # Naver 主域名，提供搜索引擎、新闻、邮箱、博客等综合服务  
+DOMAIN-SUFFIX,navercorp.com  # Naver 旗下公司域名，涉及企业官网、开发者平台等内容  
+DOMAIN-SUFFIX,line.naver.jp  # Line Japan 服务相关子域，与 Naver Japan 联动的通讯平台入口  
+DOMAIN-SUFFIX,cloud.naver.com  # Naver Cloud 云服务平台域名，用于托管与 API 访问  
+DOMAIN-SUFFIX,mail.naver.com  # Naver Mail 邮箱服务专用子域  
+DOMAIN-SUFFIX,blog.naver.com  # Naver Blog 博客平台子域，提供用户内容创作与浏览  
+DOMAIN-SUFFIX,search.naver.com  # Naver 搜索引擎接口域名  
+DOMAIN-SUFFIX,news.naver.com  # Naver 新闻服务专用子域，提供韩国本地与国际新闻  
+
+# » DuckDuckGo 搜索与隐私工具相关域名
+
+DOMAIN-SUFFIX,duckduckgo.com  # DuckDuckGo 主域名，用于隐私搜索引擎与相关网页服务  
+DOMAIN-SUFFIX,duckduckgo-owned-server.com  # DuckDuckGo 官方服务器域名，涉及 API 与内容托管服务  
+DOMAIN-SUFFIX,duck.com  # DuckDuckGo 所有短链域名，用于重定向与快速搜索访问  
+
+# » Weather 天气服务相关域名
+
+DOMAIN-SUFFIX,accuweather.com  # AccuWeather 天气预报服务平台，提供全球天气查询与 API  
+DOMAIN-SUFFIX,weather.com  # The Weather Channel 主站域名，提供天气预报与雷达图像服务  
+DOMAIN-SUFFIX,weatherbug.com  # WeatherBug 天气与雷达服务，包含实时雷达与预警通知  
+DOMAIN-SUFFIX,wttr.in  # wttr.in 命令行天气工具服务域名，适用于程序自动化天气查询  
+DOMAIN-SUFFIX,weatherapi.com  # WeatherAPI 天气数据 API 提供商，常用于网站插件与应用接入  
+DOMAIN-SUFFIX,openweathermap.org  # OpenWeatherMap 开源天气平台，广泛用于天气应用开发  
+DOMAIN-SUFFIX,met.no  # 挪威气象研究所（met.no）提供权威天气 API 服务，支持全球数据  
+DOMAIN-SUFFIX,weatherunderground.com  # Weather Underground 高级天气观测平台，支持地图与社区数据  
+DOMAIN-SUFFIX,yr.no  # YR.no 挪威广播公司与气象研究所联合提供的天气预报平台  
+
+# » Yahoo! 雅虎服务相关域名
+
+DOMAIN-SUFFIX,yahoo.com  # Yahoo! 主站域名，涵盖邮箱、新闻、财经、搜索等核心服务  
+DOMAIN-SUFFIX,yahoo.co.jp  # Yahoo! 日本站主域名，提供本地化搜索与内容服务  
+DOMAIN-SUFFIX,yimg.com  # 雅虎图片与静态资源加载域名  
+DOMAIN-SUFFIX,yahooapis.com  # 雅虎 API 服务域名，常用于数据抓取与集成  
+DOMAIN-SUFFIX,yahoo.net  # 雅虎备用域名，部分历史服务仍使用  
+DOMAIN-SUFFIX,yahoodns.net  # Yahoo! DNS 解析服务域名  
+DOMAIN-SUFFIX,yahoogroups.com  # 雅虎群组（已停用）历史服务域名  
+DOMAIN-SUFFIX,ymail.com  # Yahoo! 邮箱子域名，提供邮箱地址别名服务  
+
+# » Yandex 俄罗斯雅虎式服务平台相关域名
+
+DOMAIN-SUFFIX,yandex.com  # Yandex 国际主站域名，提供搜索、邮箱与云服务  
+DOMAIN-SUFFIX,yandex.ru  # Yandex 俄罗斯本地主站域名，涵盖全套服务  
+DOMAIN-SUFFIX,yandex.net  # Yandex 网络服务相关备用域名  
+DOMAIN-SUFFIX,yandex.kz  # Yandex 哈萨克斯坦地区域名，服务中亚用户  
+DOMAIN-SUFFIX,yandex.ua  # Yandex 乌克兰地区域名（部分服务已终止）  
+DOMAIN-SUFFIX,yandex.by  # Yandex 白俄罗斯地区服务域名  
+DOMAIN-SUFFIX,yandex.md  # Yandex 摩尔多瓦地区域名，覆盖语义搜索与广告服务  
+DOMAIN-SUFFIX,yandex.st  # Yandex 静态资源加载域名（如 JS、CSS、图像等）  
+DOMAIN-SUFFIX,yandexcloud.net  # Yandex Cloud 云服务域名，用于存储、计算与 API 服务  
+DOMAIN-SUFFIX,ya.ru  # Yandex 短链域名，常用于重定向与快速访问  
+DOMAIN-SUFFIX,mail.yandex.com  # Yandex 邮件服务国际域名，用于 IMAP/SMTP 通信  
+DOMAIN-SUFFIX,mail.yandex.ru  # Yandex 邮箱服务俄罗斯域名  
+DOMAIN-SUFFIX,yastatic.net  # Yandex 静态内容分发域名，支持广告与内容加载  
+
+# » Bing 微软搜索引擎相关域名
+
+DOMAIN-SUFFIX,bing.com  # Bing 主站域名，提供全球搜索、图像搜索、新闻等服务  
+DOMAIN-SUFFIX,bing.net  # Bing 辅助资源加载域名，用于广告与服务追踪等功能  
+DOMAIN-SUFFIX,api.bing.com  # Bing API 接口域名，用于图像识别、搜索集成等开发服务  
+DOMAIN-SUFFIX,cn.bing.com  # Bing 中国版搜索服务入口，可能受限或重定向  
+DOMAIN-SUFFIX,ssl.bing.com  # Bing 加密搜索服务域名，用于 HTTPS 搜索结果传输  
+DOMAIN-SUFFIX,bingads.microsoft.com  # Bing 广告管理平台域名，用于广告投放与统计  
+DOMAIN-SUFFIX,bingapis.com  # Bing API 服务独立域名，用于程序化调用（地图/搜索/翻译等）  
+DOMAIN-SUFFIX,bingmapsportal.com  # Bing 地图开发者门户域名，用于应用接入与地图服务管理  
+DOMAIN-SUFFIX,bingpreview.com  # Bing 网页预览与抓取服务域名，用于搜索索引收录  
+
+# » RuTracker 俄罗斯大型 BT 种子分享平台相关域名
+
+DOMAIN-SUFFIX,rutracker.org  # RuTracker 主域名，俄罗斯语种类最大 BT 种子追踪器  
+DOMAIN-SUFFIX,rutracker.net  # RuTracker 备用域名或镜像，用于种子索引与下载  
+DOMAIN-SUFFIX,www.rutracker.org  # RuTracker 主站入口子域  
+DOMAIN-SUFFIX,static.rutracker.org  # RuTracker 静态资源与广告加载域名  
+DOMAIN-SUFFIX,mail.rutracker.org  # RuTracker 邮件或用户通知服务域名  
+
+# » Z‑Library / BookFi 非法电子书资源平台相关域名
+
+DOMAIN-SUFFIX,zlibrary.st  # Z‑Library 镜像域名，用于免费访问大量电子书与学术文章  
+DOMAIN-SUFFIX,z‑lib.fm    # Z‑Library 镜像域名之一，用于用户登录与资源下载  
+DOMAIN-SUFFIX,zlibrary.co  # Z‑Library 新迁移域名，用于继续电子书与文章分享   
+DOMAIN-SUFFIX,bookfi.net   # BookFi 主域名之一，俄罗斯背景电子书共享平台    
+DOMAIN-SUFFIX,b‑ok.cc      # Z‑Library／BookFi 系列镜像域名，用于非法书籍资源获取   
+
+# » PlayGround.ru 俄罗斯游戏资讯与资源平台相关域名
+
+DOMAIN-SUFFIX,playground.ru  # PlayGround.ru 俄罗斯语电子游戏新闻、攻略与资源平台  
+DOMAIN-SUFFIX,www.playground.ru  # PlayGround.ru 主站入口子域，用于内容访问与论坛互动  
+DOMAIN-SUFFIX,static.playground.ru  # PlayGround.ru 静态资源加载域名，用于图像、脚本、样式表  
+
+# » 4PDA 俄罗斯安卓设备论坛与软件资源平台相关域名
+
+DOMAIN-SUFFIX,4pda.ru  # 4PDA 主域名，俄罗斯语安卓设备论坛与软件资源平台  
+DOMAIN-SUFFIX,4pda.to  # 4PDA 新域名迁移站点，用于绕过域名封锁  
+DOMAIN-SUFFIX,forum.4pda.ru  # 4PDA 论坛子域，用于用户讨论与资源分享  
+DOMAIN-SUFFIX,static.4pda.ru  # 4PDA 静态资源域名，用于图片、脚本、样式加载  
+
+# » Xakep.ru 俄罗斯网络安全与黑客文化资讯平台相关域名  
+DOMAIN-SUFFIX,xakep.ru  # Xakep 主站域名，用于网络安全、逆向工程、黑客文化报道与技术文章  
+DOMAIN-SUFFIX,shop.xakep.ru  # Xakep 商店子域，用于杂志订阅、黑客文化商品销售  
+DOMAIN-SUFFIX,static.xakep.ru  # Xakep 静态资源子域，用于图片、脚本与样式加载  
+
+# » Habr 俄罗斯技术博客与社区
+
+DOMAIN-SUFFIX,habr.com  # Habr 俄罗斯技术博客平台，涵盖编程、安全、CTF、科技等内容  
+
+# » CTF Writeups 社区域名
+
+DOMAIN-SUFFIX,ctftime.org  # CTFTime 国际CTF比赛组织平台，发布赛程与战队积分  
+DOMAIN-SUFFIX,ctfwriteups.com  # CTF Writeups 分享社区，用于存档各类比赛题解与技术思路 
+
+# » Yandex Translate 翻译服务相关域名
+
+DOMAIN-SUFFIX,translate.yandex.com  # Yandex Translate 国际域名，用于网页翻译与图片文字翻译功能  
+DOMAIN-SUFFIX,translate.yandex.ru   # Yandex Translate 俄罗斯本地化域名  
+DOMAIN-SUFFIX,translate.yandex.net  # Yandex Translate 备用/镜像域名  
+DOMAIN-SUFFIX,yandex.com             # Yandex 主站域名，提供搜索、翻译、邮箱等综合服务  
+
+# » nalog.gov.ru 俄罗斯税务服务平台相关域名
+
+DOMAIN-SUFFIX,nalog.gov.ru  # 俄罗斯联邦税务局官网，用于税务登记者、企业注册、在线服务  
+DOMAIN-SUFFIX,nalog.ru       # 俄罗斯税务局旧主域名，用于补充访问与服务入口  
+
+# » gosuslugi.ru 俄罗斯国家公共服务门户相关域名
+
+DOMAIN-SUFFIX,gosuslugi.ru  # Госуслуги 主站域名，用于在线获取俄罗斯联邦政府各类公共与政务服务  
+DOMAIN-SUFFIX,esia.gosuslugi.ru  # ЕСИА（统一身份验证系统）子域，用于用户身份认证与登录流程  
+DOMAIN-SUFFIX,m.gosuslugi.ru  # 移动访问子域，用于手机客户端或移动浏览器访问政务服务  
+DOMAIN-SUFFIX,help.gosuslugi.ru  # 应用支持与帮助子域，用于服务指南与技术支持  
+
+# » egrul.nalog.ru 俄罗斯企业／个体工商户注册信息查询平台相关域名
+
+DOMAIN-SUFFIX,egrul.nalog.ru  # ЕГРЮЛ/ЕГРИП 查询服务主域名，用于获取俄罗斯企业与个体工商户登记信息 
+DOMAIN-SUFFIX,service.nalog.ru  # 俄罗斯税务局服务平台子域，用于查询企业注册状态与登记表格 
+
+# » tsouz.ru 欧亚经济联盟 / 俄罗斯注册平台相关域名
+
+DOMAIN-SUFFIX,tsouz.ru  # 欧亚经济联盟原官方域名，用于发布技术法规与注册信息  
+DOMAIN-SUFFIX,eec.eaeunion.org  # 欧亚经济联盟新官方域名，用于成员国法规及公开资源  
+
+# » Wildberries 俄罗斯电商平台相关域名
+
+DOMAIN-SUFFIX,wildberries.ru  # Wildberries 俄罗斯主站，用于商品浏览、下单与账户管理  
+DOMAIN-SUFFIX,wb.ru # Wildberries 简化域名，用于快速访问与重定向  
+DOMAIN-SUFFIX,static.wbstatic.net # Wildberries 静态资源域名，用于图片、脚本与样式加载  
+DOMAIN-SUFFIX,wbx.ru # Wildberries 仓储服务或合作子域，用于物流状态与卖家后台访问  
+
+# » Yandex Market 俄罗斯电商平台相关域名
+
+DOMAIN-SUFFIX,market.yandex.ru  # Yandex Market 主站域名，用于商品浏览、下单与卖家平台  
+DOMAIN-SUFFIX,partner.market.yandex.com  # Yandex Market 卖家入口域名，用于海外卖家注册与业务接入  
+DOMAIN-SUFFIX,yandex.ru  # Yandex 主站域名，涵盖搜索、广告、市场生态  
+
+# » Joom 电商平台相关域名  
+DOMAIN-SUFFIX,joom.com  # Joom 主域名，国际跨境电商平台  
+DOMAIN-SUFFIX,joom.ru   # Joom 俄罗斯市场域名，用于俄语用户与本地化服务  
+
+# » AliExpress 俄罗斯市场相关域名  
+DOMAIN-SUFFIX,aliexpress.ru      # AliExpress 俄罗斯主站域名，针对俄语区域买家  
+DOMAIN-SUFFIX,aliexpress.com     # AliExpress 国际主站域名，支持全球买家  
+DOMAIN-SUFFIX,acs.aliexpress.ru  # AliExpress 俄罗斯市场应用程序相关域名  
+
+# » YooMoney 俄罗斯电子支付服务相关域名
+
+DOMAIN-SUFFIX,yoomoney.ru  # YooMoney 主域名，用于俄国电子钱包、在线支付与商户接入  
+DOMAIN-SUFFIX,yookassa.ru  # YooKassa（YooMoney 支付平台）主域名，用于商户支付接受与 API 接入  
+DOMAIN-SUFFIX,api.yoomoney.ru  # YooMoney API 接口域名，用于开发者调用与集成  
+
+# » QIWI 俄罗斯电子支付服务相关域名
+
+DOMAIN-SUFFIX,qiwi.com  # QIWI 主站域名，用于钱包服务与在线支付接口  
+DOMAIN-SUFFIX,qiwi.ru   # QIWI 俄罗斯本地服务域名  
+DOMAIN-SUFFIX,qiwi.net  # QIWI 备用域名，用于支付与账户访问  
+
+# » Tinkoff Bank 俄罗斯数字银行相关域名
+
+DOMAIN-SUFFIX,tinkoff.ru  # Tinkoff Bank 主站域名，用于数字银行服务与在线账户管理  
+DOMAIN-SUFFIX,tinkoff.ru  # Tinkoff 的另一入口（如果有别子域请补充）  
+DOMAIN-SUFFIX,tinkoffbank.ru # Tinkoff Bank 可能使用的银行域名（需确认）  
+
+# » WebMoney 俄罗斯在线支付系统相关域名
+
+DOMAIN-SUFFIX,webmoney.com  # WebMoney 主站域名，用于账户、转账与在线支付  
+DOMAIN-SUFFIX,wmtransfer.com # WebMoney 旧主域，用于国际结算与服务入口  
+DOMAIN-SUFFIX,webmoney.ru  # WebMoney 俄罗斯本地域名，用于俄语服务访问  
+
+# » CDEK 俄罗斯物流快递服务相关域名 
+
+DOMAIN-SUFFIX,cdek.ru  # CDEK 快递与物流服务主域名，用于俄罗斯国内和国际包裹投递  
+DOMAIN-SUFFIX,logistics.cdek.ru  # CDEK 物流服务子域，用于电商集成与国际物流支持  
+
+# » Boxberry 俄罗斯电商物流服务相关域名  
+
+DOMAIN-SUFFIX,boxberry.ru  # Boxberry 快递与电商物流平台主域名，用于俄罗斯及跨境发货服务  
+DOMAIN-SUFFIX,bxb.delivery  # BXB by Boxberry 跨境物流服务域名，用于国际发往俄罗斯电商订单  
+
+# » Russian Post 俄罗斯邮政服务相关域名  
+
+DOMAIN-SUFFIX,pochta.ru  # Russian Post 国家邮政服务主域名，用于国家邮政包裹和邮政局服务  
+
+# » RSKRF 俄罗斯注册与认证机构相关域名  
+
+DOMAIN-SUFFIX,rskrf.ru  # Russian Register 认证协会主域名，用于产品合规与认证服务  
+
+# » Russia Customs 海关及认证服务相关域名  
+
+DOMAIN-SUFFIX,customs.gov.ru  # 俄罗斯联邦海关服务主域名，用于进出口申报与海关信息  
+DOMAIN-SUFFIX,eec.eaeunion.org  # 欧亚经济联盟官方网站主域名，用于成员国法规、技术标准与合规登记  
+
+# » Avito 俄罗斯大型分类广告平台相关域名  
+DOMAIN-SUFFIX,avito.ru  # Avito 主域名，用于俄罗斯地区商品、车辆、房产、服务等分类广告发布与浏览  
+DOMAIN-SUFFIX,www.avito.ru  # Avito 主站入口子域，用于普通用户访问与浏览界面  
+DOMAIN-SUFFIX,static.avito.ru  # Avito 静态资源加载域名，用于图片、脚本与样式文件  
+DOMAIN-SUFFIX,ads.avito.ru  # Avito 广告服务子域，用于平台内广告投放与展示  
+
+# » RuTube 俄罗斯主流视频平台相关域名  
+DOMAIN-SUFFIX,rutube.ru  # RuTube 主站域名，用于俄罗斯地区在线视频托管与播放服务  
+DOMAIN-SUFFIX,www.rutube.ru  # RuTube 入口子域，用于用户界面访问  
+DOMAIN-SUFFIX,static.rutube.ru  # RuTube 静态资源域名，用于脚本、图片、样式加载  
+DOMAIN-SUFFIX,api.rutube.ru  # RuTube API 接口域名，用于服务调用与数据交互  
+
+# » RIA Novosti 俄罗斯国家新闻通讯社相关域名
+
+DOMAIN-SUFFIX,ria.ru  # RIA Novosti 主站域名，用于俄语/国际新闻发布、报道分发  
+DOMAIN-SUFFIX,rian.ru  # RIA Novosti 旧域名或缩写入口，用于访问其俄语服务  
+DOMAIN-SUFFIX,news.rian.ru  # RIA Novosti 新闻子域，用于专题报道与即时新闻流   
+
+# » Russia Beyond 俄罗斯文化与旅游综合门户相关域名  
+
+DOMAIN-SUFFIX,rbth.com  # Russia Beyond 主站域名，用于俄罗斯文化、旅游、语言学习与商业内容  
+
+# » Ministry of Culture of the Russian Federation 俄罗斯文化部政务平台相关域名  
+
+DOMAIN-SUFFIX,culture.gov.ru  # 俄罗斯联邦文化部官网，用于文化政策、遗产保护与国家档案服务  
+DOMAIN-SUFFIX,mkrf.ru        # 俄罗斯文化部旧域名，用于文化事务公开与历史资料  
+
+# » Runivers 俄罗斯历史与文化在线资料库相关域名  
+
+DOMAIN-SUFFIX,runivers.ru  # Runivers 主站域名，在线提供俄罗斯历史、档案、照片与文化资料  
 
 # » Zohomail 相关域名
 
