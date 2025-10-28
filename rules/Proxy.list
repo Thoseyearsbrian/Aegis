@@ -2686,9 +2686,14 @@ DOMAIN-SUFFIX,static.telestream.net # Telestream 静态资源域名，用于加�
 
 # » Zohomail 相关域名
 
-DOMAIN-SUFFIX,zohomail.com  # Zoho Mail 主站域名，用于组织邮件托管、协作功能与域名邮箱服务 
-DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源 CDN，用于加载 UI 样式、脚本等前端文件
-DOMAIN-SUFFIX,downloads.zohocdn.com # Zoho 安装包与工具下载地址，用于分发客户端安装器、驱动等文件
+DOMAIN-SUFFIX,zoho.com # Zoho 主域名，包含邮件、文档、CRM 等服务入口 
+DOMAIN-SUFFIX,mail.zoho.com  # ZohoMail 邮箱主页面，用于访问收发邮件功能  
+DOMAIN-SUFFIX,accounts.zoho.com  # Zoho 用户登录与身份验证服务  
+DOMAIN-SUFFIX,zoho.in # Zoho 印度站域名，用于服务本地用户  
+DOMAIN-SUFFIX,zoho.eu # Zoho 欧洲数据中心域名，适用于欧盟用户  
+DOMAIN-SUFFIX,zohoapis.com # Zoho API 接口域名，用于第三方集成与同步  
+DOMAIN-SUFFIX,zohousercontent.com # Zoho 静态资源域名，用于加载图片、附件等  
+DOMAIN-SUFFIX,zohomail.com # Zoho Mail 主站域名，用于组织邮件托管、协作功能与域名邮箱服务 
 DOMAIN-SUFFIX,zohocdn.com # Zoho 静态资源 CDN 域名，用于加载 Zoho Mail、Desk、CRM 等应用的前端资源
 DOMAIN-SUFFIX,downloads.zohocdn.com # Zoho 官方软件下载资源域名，用于分发客户端、插件等文件
 DOMAIN-SUFFIX,static.zohocdn.com # Zoho 静态资源加载域名，服务于 Zoho 各模块前端界面
