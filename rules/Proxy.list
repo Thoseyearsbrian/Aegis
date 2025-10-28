@@ -2714,6 +2714,11 @@ DOMAIN-SUFFIX,phonebridge.zoho.com # ZohoMail 电话整合服务域名，用于�
 DOMAIN-SUFFIX,contacts.zoho.com # ZohoMail 通讯录服务域名，用于联系人管理与同步  
 DOMAIN-SUFFIX,calendar.zoho.com # ZohoMail 日历服务域名，用于日程管理与事件提醒  
 DOMAIN-SUFFIX,zmupload.zoho.com # ZohoMail 附件上传接口域名，用于邮件文件上传与存储
+DOMAIN-SUFFIX,accounts.zoho.sa # Zoho 沙特地区账号登录服务域名，用于身份验证与账户接入
+DOMAIN-SUFFIX,accounts.zoho.jp # Zoho 日本地区账号登录服务域名，用于身份验证与账户接入
+DOMAIN-SUFFIX,accounts.zoho.com.au # Zoho 澳大利亚地区账号登录服务域名，用于身份验证与账户接入
+DOMAIN-SUFFIX,accounts.zohocloud.ca # Zoho 加拿大地区账号登录服务域名，用于身份验证与账户接入
+DOMAIN-SUFFIX,zohotagmanager.cdn-in.pagesense.io  # Zoho PageSense 标签管理与数据收集域名，用于网页行为追踪与分析服务
 
 # > Oracle 相关域名
 
