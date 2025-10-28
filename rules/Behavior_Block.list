@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-25
+# - 更新时间：2025-10-28
 
 # >> Apple 行为遥测服务
 DOMAIN-SUFFIX,dns.apple.com # Apple 网络状态探测域，非必须服务，可疑行为分析用
@@ -45,7 +45,7 @@ DOMAIN-SUFFIX,config.hicloud.com # 配置下发与灰度测试控制接口
 DOMAIN-SUFFIX,push-api.cloud.huawei.com # 华为 Push 行为上报通道
 
 # >> Amazon / Cloudflare / Sentry 行为分析服务
-DOMAIN-SUFFIX,ssl-images-amazon.com # CDN隐匿式回传 或 伪装图像传输
+
 DOMAIN-SUFFIX,sentry.cloudflare.com # 行为分析追踪系统
 DOMAIN-SUFFIX,o33249.ingest.us.sentry.io # Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
 DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 监控上报域名，GPT 应用用于收集前端性能指标与异常信息
