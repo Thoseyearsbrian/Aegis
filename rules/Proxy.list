@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-27
+# - 更新时间：2025-10-28
 
 # » Kaspersky 相关域名
 
@@ -3012,6 +3012,16 @@ DOMAIN-SUFFIX,one.one.one.one # Cloudflare 公共 DNS 帮助页面，用于配�
 
 DOMAIN-SUFFIX,similarweb.com  # SimilarWeb 官方域名，用于流量分析、竞争情报与网站排名服务  
 DOMAIN-SUFFIX,similarweb.io   # SimilarWeb 辅助域名，用于 API 接入或企业版本支持  
+
+# » SHEIN 全球速时尚电商平台
+
+DOMAIN-SUFFIX,shein.com # SHEIN 主站域名，用于全球电商入口及用户访问  
+DOMAIN-SUFFIX,us.shein.com # SHEIN 美国站点域名，用于针对美国用户的本地化服务  
+DOMAIN-SUFFIX,ltwebstatic.com # SHEIN 静态资源域名，用于加载图片、样式及前端内容  
+DOMAIN-SUFFIX,sc.ltwebstatic.com # SHEIN 静态资源节点，用于加载前端脚本及样式  
+DOMAIN-SUFFIX,armor.ltwebstatic.com # SHEIN 静态资源加速域名，可能用于分发安全组件或加速加载  
+DOMAIN-SUFFIX,common.ltwebstatic.com # SHEIN 通用静态资源域名，用于图像、背景、公共接口资源  
+DOMAIN-SUFFIX,shein.ltwebstatic.com # SHEIN 主站资源域名，包含首页、商品页等核心页面静态资源
 
 # » 其他 (暂未分类)
 
