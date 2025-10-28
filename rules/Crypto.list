@@ -4,71 +4,71 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具，便于策略识别与分流（建议绑定策略 Crypto / PROXY 或用于行为审计）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-27
+# - 更新时间：2025-10-28
 
 # >> 追踪与推送平台
-DOMAIN,access.pushsdk.com # 极光推送，常用于交易App通知
-DOMAIN-KEYWORD,appsflayer # Appsflyer SDK，多用于营销追踪与广告监测
+DOMAIN-SUFFIX,access.pushsdk.com # 极光推送，常用于交易App通知
+DOMAIN-SUFFIX,appsflayer # Appsflyer SDK，多用于营销追踪与广告监测
 
 # >> 加密交易所 / 钱包平台关键词识别
-DOMAIN-KEYWORD,binance # 币安交易所
-DOMAIN-KEYWORD,bitget # Bitget 交易所
-DOMAIN-KEYWORD,bnbstatic # 币安相关静态资源
-DOMAIN-KEYWORD,bybit # Bybit 衍生品平台
-DOMAIN-KEYWORD,coinbase # Coinbase 美国最大交易所
-DOMAIN-KEYWORD,gate # Gate.io 虎符交易所
-DOMAIN-KEYWORD,huobi # 火币
-DOMAIN-KEYWORD,mexc # MEXC 全球交易平台
-DOMAIN-KEYWORD,okx # OKX 平台
-DOMAIN-KEYWORD,pionex # 量化交易机器人平台
-DOMAIN-KEYWORD,adcex.com # 加密货币／交易平台域名  
-DOMAIN-KEYWORD,aex.com # 加密货币交易所／服务站点 
-DOMAIN-KEYWORD,allcoin.com # AllCoin 加密货币／交易服务站点  
-DOMAIN-KEYWORD,antpool.com # 加密货币矿池平台域名  
-DOMAIN-KEYWORD,bitcointalk.org # 加密货币讨论论坛  
-DOMAIN-KEYWORD,bitcoinworld.com # 加密货币资讯平台  
-DOMAIN-KEYWORD,bitfinex.com # 加密货币交易所  
-DOMAIN-KEYWORD,bitget.com # 加密货币交易所  
-DOMAIN-KEYWORD,bithumb.com # 加密货币交易所  
-DOMAIN-KEYWORD,bitbay.net # 加密货币交易所平台  
-DOMAIN-KEYWORD,binance.com # 加密货币交易所 “Binance” 主站  
-DOMAIN-KEYWORD,binance.org # 加密货币平台相关域名  
-DOMAIN-KEYWORD,binance.us # 加密货币交易平台 美国版  
-DOMAIN-KEYWORD,binancezh.cc # 加密货币平台 中文域名或镜像站  
-DOMAIN-KEYWORD,bigone.com # 加密货币交易所或平台  
-DOMAIN-KEYWORD,bibox.com # 加密货币交易所或平台  
-DOMAIN-KEYWORD,bit‑z.com # 加密货币交易所平台  
-DOMAIN-KEYWORD,bitz.ai # 加密货币交易平台  
-DOMAIN-KEYWORD,blockcn.com # 区块链／加密货币资讯站域名  
-DOMAIN-KEYWORD,btspread.com # 加密货币／衍生品资讯域名  
-DOMAIN-KEYWORD,btsynckeys.com # 加密软件或密钥分发相关域名  
-DOMAIN-KEYWORD,btc.com # 比特币主域／加密货币信息门户  
-DOMAIN-KEYWORD,btc98.com # 加密货币资讯／交易平台域名  
-DOMAIN-KEYWORD,btcbank.bank # 加密货币银行／金融服务域名  
-DOMAIN-KEYWORD,btctrade.im # 加密货币交易平台域名
-DOMAIN-KEYWORD,bybit.com # 加密货币交易平台域名  
-DOMAIN-KEYWORD,c2cx.com # 加密货币交易所或服务域名  
-DOMAIN-KEYWORD,c3pool.com # 加密货币矿池平台域名 
-DOMAIN-KEYWORD,chaoex.com # 加密货币交易所域名 
-DOMAIN-KEYWORD,cex.io # 加密货币交易平台域名  
-DOMAIN-KEYWORD,coin2co.in # 加密货币交易／服务平台域名  
-DOMAIN-KEYWORD,coinbase.com # 大型加密货币交易所平台域名  
-DOMAIN-KEYWORD,coinbene.com # 加密货币交易平台域名  
-DOMAIN-KEYWORD,coinegg.com # 加密货币交易／交换平台域名  
-DOMAIN-KEYWORD,coinex.com # 加密货币交易所域名  
-DOMAIN-KEYWORD,coingecko.com # 加密货币行情／数据平台域名  
-DOMAIN-KEYWORD,coingi.com # 加密货币交易平台域名  
-DOMAIN-KEYWORD,coinmarketcap.com # 加密货币数据与排行平台域名  
-DOMAIN-KEYWORD,coinrail.co.kr # 韩国加密货币交易平台域名  
-DOMAIN-KEYWORD,cointiger.com # 加密货币交易平台域名  
-DOMAIN-KEYWORD,cointobe.com # 加密货币交易平台域名  
-DOMAIN-KEYWORD,coinut.com # 加密货币交易平台域名  
-DOMAIN-KEYWORD,cruxpool.com # 加密货币挖矿矿池 Cruxpool 域名  
-DOMAIN-KEYWORD,ddex.io # 加密货币交易平台 DDEX 官方域名 
-DOMAIN-KEYWORD,etherdelta.com # 加密货币交易平台 
-DOMAIN-KEYWORD,ethermine.org # 加密货币挖矿矿池 
-DOMAIN-KEYWORD,etherscan.com # 加密货币以太坊区块浏览器 
-DOMAIN-KEYWORD,exmo.com # 加密货币交易平台 EXMO 官方域名
+DOMAIN-SUFFIX,binance # 币安交易所
+DOMAIN-SUFFIX,bitget # Bitget 交易所
+DOMAIN-SUFFIX,bnbstatic # 币安相关静态资源
+DOMAIN-SUFFIX,bybit # Bybit 衍生品平台
+DOMAIN-SUFFIX,coinbase # Coinbase 美国最大交易所
+DOMAIN-SUFFIX,gate # Gate.io 虎符交易所
+DOMAIN-SUFFIX,huobi # 火币
+DOMAIN-SUFFIX,mexc # MEXC 全球交易平台
+DOMAIN-SUFFIX,okx # OKX 平台
+DOMAIN-SUFFIX,pionex # 量化交易机器人平台
+DOMAIN-SUFFIX,adcex.com # 加密货币／交易平台域名  
+DOMAIN-SUFFIX,aex.com # 加密货币交易所／服务站点 
+DOMAIN-SUFFIX,allcoin.com # AllCoin 加密货币／交易服务站点  
+DOMAIN-SUFFIX,antpool.com # 加密货币矿池平台域名  
+DOMAIN-SUFFIX,bitcointalk.org # 加密货币讨论论坛  
+DOMAIN-SUFFIX,bitcoinworld.com # 加密货币资讯平台  
+DOMAIN-SUFFIX,bitfinex.com # 加密货币交易所  
+DOMAIN-SUFFIX,bitget.com # 加密货币交易所  
+DOMAIN-SUFFIX,bithumb.com # 加密货币交易所  
+DOMAIN-SUFFIX,bitbay.net # 加密货币交易所平台  
+DOMAIN-SUFFIX,binance.com # 加密货币交易所 “Binance” 主站  
+DOMAIN-SUFFIX,binance.org # 加密货币平台相关域名  
+DOMAIN-SUFFIX,binance.us # 加密货币交易平台 美国版  
+DOMAIN-SUFFIX,binancezh.cc # 加密货币平台 中文域名或镜像站  
+DOMAIN-SUFFIX,bigone.com # 加密货币交易所或平台  
+DOMAIN-SUFFIX,bibox.com # 加密货币交易所或平台  
+DOMAIN-SUFFIX,bit‑z.com # 加密货币交易所平台  
+DOMAIN-SUFFIX,bitz.ai # 加密货币交易平台  
+DOMAIN-SUFFIX,blockcn.com # 区块链／加密货币资讯站域名  
+DOMAIN-SUFFIX,btspread.com # 加密货币／衍生品资讯域名  
+DOMAIN-SUFFIX,btsynckeys.com # 加密软件或密钥分发相关域名  
+DOMAIN-SUFFIX,btc.com # 比特币主域／加密货币信息门户  
+DOMAIN-SUFFIX,btc98.com # 加密货币资讯／交易平台域名  
+DOMAIN-SUFFIX,btcbank.bank # 加密货币银行／金融服务域名  
+DOMAIN-SUFFIX,btctrade.im # 加密货币交易平台域名
+DOMAIN-SUFFIX,bybit.com # 加密货币交易平台域名  
+DOMAIN-SUFFIX,c2cx.com # 加密货币交易所或服务域名  
+DOMAIN-SUFFIX,c3pool.com # 加密货币矿池平台域名 
+DOMAIN-SUFFIX,chaoex.com # 加密货币交易所域名 
+DOMAIN-SUFFIX,cex.io # 加密货币交易平台域名  
+DOMAIN-SUFFIX,coin2co.in # 加密货币交易／服务平台域名  
+DOMAIN-SUFFIX,coinbase.com # 大型加密货币交易所平台域名  
+DOMAIN-SUFFIX,coinbene.com # 加密货币交易平台域名  
+DOMAIN-SUFFIX,coinegg.com # 加密货币交易／交换平台域名  
+DOMAIN-SUFFIX,coinex.com # 加密货币交易所域名  
+DOMAIN-SUFFIX,coingecko.com # 加密货币行情／数据平台域名  
+DOMAIN-SUFFIX,coingi.com # 加密货币交易平台域名  
+DOMAIN-SUFFIX,coinmarketcap.com # 加密货币数据与排行平台域名  
+DOMAIN-SUFFIX,coinrail.co.kr # 韩国加密货币交易平台域名  
+DOMAIN-SUFFIX,cointiger.com # 加密货币交易平台域名  
+DOMAIN-SUFFIX,cointobe.com # 加密货币交易平台域名  
+DOMAIN-SUFFIX,coinut.com # 加密货币交易平台域名  
+DOMAIN-SUFFIX,cruxpool.com # 加密货币挖矿矿池 Cruxpool 域名  
+DOMAIN-SUFFIX,ddex.io # 加密货币交易平台 DDEX 官方域名 
+DOMAIN-SUFFIX,etherdelta.com # 加密货币交易平台 
+DOMAIN-SUFFIX,ethermine.org # 加密货币挖矿矿池 
+DOMAIN-SUFFIX,etherscan.com # 加密货币以太坊区块浏览器 
+DOMAIN-SUFFIX,exmo.com # 加密货币交易平台 EXMO 官方域名
 
 # » Electrum 比特币轻钱包客户端
 
@@ -98,26 +98,26 @@ DOMAIN-SUFFIX,blog.coinbase.com  # Coinbase 官方博客与公告域名
 DOMAIN-SUFFIX,cdn.coinbase.com  # Coinbase 静态资源 CDN 分发域名（图标、脚本等）
 
 # >> 区块链与DeFi关键词识别
-DOMAIN-KEYWORD,ethereum # 以太坊
-DOMAIN-KEYWORD,metamask # MetaMask 钱包
-DOMAIN-KEYWORD,crypto # 通用加密关键词
-DOMAIN-KEYWORD,mdex # Mdex 去中心化交易
+DOMAIN-SUFFIX,ethereum # 以太坊
+DOMAIN-SUFFIX,metamask # MetaMask 钱包
+DOMAIN-SUFFIX,crypto # 通用加密关键词
+DOMAIN-SUFFIX,mdex # Mdex 去中心化交易
 
 # >> 土耳其地区相关支付与交易平台（关键词）
-DOMAIN-KEYWORD,byabcde # 可疑交易平台标记
-DOMAIN-KEYWORD,bybdc6 # 可疑交易平台标记
-DOMAIN-KEYWORD,com.tr # .tr 后缀服务域名
-DOMAIN-KEYWORD,epin # 电码充值类平台
-DOMAIN-KEYWORD,fups # 土耳其支付服务
-DOMAIN-KEYWORD,ininal # 土耳其虚拟卡支付
-DOMAIN-KEYWORD,iyzico # 支付网关
-DOMAIN-KEYWORD,iyzipay # 土耳其金融科技
-DOMAIN-KEYWORD,ozan # 土耳其虚拟银行
-DOMAIN-KEYWORD,papara # 土耳其虚拟支付卡
-DOMAIN-KEYWORD,redotpay # 加密支付平台
-DOMAIN-KEYWORD,saasexch # SaaS 接口网关
-DOMAIN-KEYWORD,sipay # 本地支付处理器
-DOMAIN-KEYWORD,yingwangtech # 可疑 SDK / 第三方服务
+DOMAIN-SUFFIX,byabcde # 可疑交易平台标记
+DOMAIN-SUFFIX,bybdc6 # 可疑交易平台标记
+DOMAIN-SUFFIX,com.tr # .tr 后缀服务域名
+DOMAIN-SUFFIX,epin # 电码充值类平台
+DOMAIN-SUFFIX,fups # 土耳其支付服务
+DOMAIN-SUFFIX,ininal # 土耳其虚拟卡支付
+DOMAIN-SUFFIX,iyzico # 支付网关
+DOMAIN-SUFFIX,iyzipay # 土耳其金融科技
+DOMAIN-SUFFIX,ozan # 土耳其虚拟银行
+DOMAIN-SUFFIX,papara # 土耳其虚拟支付卡
+DOMAIN-SUFFIX,redotpay # 加密支付平台
+DOMAIN-SUFFIX,saasexch # SaaS 接口网关
+DOMAIN-SUFFIX,sipay # 本地支付处理器
+DOMAIN-SUFFIX,yingwangtech # 可疑 SDK / 第三方服务
 
 # >> 已知加密项目 / 钱包 / 浏览器 / 区块链资源
 DOMAIN-SUFFIX,1inch.io # 1inch DEX 聚合器
