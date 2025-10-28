@@ -2851,6 +2851,8 @@ DOMAIN-SUFFIX,cdn.iina.io # IINA 静态资源 CDN，用于加载界面资源与�
 DOMAIN-SUFFIX,software.charliemonroe.net # Downie 官网主域名，用于软件下载、激活与版本检查
 DOMAIN-SUFFIX,api.charliemonroe.net # Downie API 接口，用于授权验证与更新请求
 DOMAIN-SUFFIX,update.charliemonroe.net # Downie 更新服务域名，用于拉取最新版本信息
+DOMAIN-SUFFIX,licensing.charliemonroe.net # Downie 授权验证服务器，用于许可证校验行为
+DOMAIN-SUFFIX,downiestatistics.com # Downie 应用行为分析服务域名，用于收集用户使用数据
 
 # » Permute 媒体格式转换工具
 
