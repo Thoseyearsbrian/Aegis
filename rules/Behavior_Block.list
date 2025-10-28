@@ -49,7 +49,6 @@ DOMAIN-SUFFIX,push-api.cloud.huawei.com # 华为 Push 行为上报通道
 DOMAIN-SUFFIX,sentry.cloudflare.com # 行为分析追踪系统
 DOMAIN-SUFFIX,o33249.ingest.us.sentry.io # Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
 DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 监控上报域名，GPT 应用用于收集前端性能指标与异常信息
-DOMAIN-SUFFIX,fls-na.amazon.com # Amazon 用户行为数据统计与日志上传接口
 
 # » Ticketmaster 分析与广告服务（可选是否归入行为分析）
 DOMAIN-SUFFIX,analytics.ticketmaster.com # 用户行为分析与数据收集
