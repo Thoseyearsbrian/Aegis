@@ -198,7 +198,7 @@ IP-CIDR,176.32.103.0/24 # Amazon 全球主站 CDN 与广告域解析段（欧洲
 IP-CIDR,54.239.0.0/16 # Amazon CloudFront 加速节点（网页与图像资源分发）
 DOMAIN-SUFFIX,ssl‑images.amazon.com # Amazon 图片资源子域，用于加载登录页/商品页安全图像
 DOMAIN-SUFFIX,m.media-amazon.com  # Amazon 媒体内容或加速服务域名，用于内容分发与媒体加载
-DOMAIN-SUFFIX,images‑na.ssl‑images.amazon.com  # Amazon 北美区域图片 CDN，用于产品页面、登录界面及静态资源加载 
+DOMAIN-SUFFIX,images-na.ssl-images-amazon.com # Amazon 北美区域图片 CDN，用于产品页面、登录界面及静态资源加载 
 
 # » Walmart（沃尔玛）相关域名
 
