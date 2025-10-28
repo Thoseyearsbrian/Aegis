@@ -2966,6 +2966,24 @@ DOMAIN-SUFFIX,cf-ipfs.com  # Cloudflare IPFS 网关服务域名，用于访问�
 DOMAIN-SUFFIX,1.1.1.1  # Cloudflare 公共 DNS 服务 IPv4 地址，用于加密 DNS 查询
 DOMAIN-SUFFIX,1.0.0.1  # Cloudflare 公共 DNS 备用 IPv4 地址，提供冗余 DNS 解析能力
 
+# » 迅雷下载与云服务
+
+DOMAIN-SUFFIX,xunlei.com  # 迅雷主站域名，用于下载器官网与账户服务  
+DOMAIN-SUFFIX,sandai.net  # 迅雷早期关联域名，仍用于部分服务通信  
+DOMAIN-SUFFIX,xlpan.com  # 迅雷云盘域名，提供在线存储与资源转存服务  
+DOMAIN-SUFFIX,xlpan.cn  # 迅雷云盘备用域名，用于资源访问与跳转  
+DOMAIN-SUFFIX,xlpanfile.com  # 迅雷云盘文件资源域名，用于下载加速与分发  
+DOMAIN-SUFFIX,xlpanimg.com  # 迅雷云盘静态资源域名，用于加载图像等内容  
+DOMAIN-SUFFIX,xunleiweb.com  # 迅雷相关子站域名，用于扩展服务与活动页面  
+
+# » IDM（Internet Download Manager）下载器服务
+
+DOMAIN-SUFFIX,tonec.com  # IDM 官方网站域名，用于软件下载、激活验证与更新服务
+DOMAIN-SUFFIX,mirror2.internetdownloadmanager.com  # IDM 下载镜像服务器，用于分发软件与补丁
+DOMAIN-SUFFIX,mirror.internetdownloadmanager.com  # IDM 主镜像节点，提供安装包与补丁下载
+DOMAIN-SUFFIX,secure.internetdownloadmanager.com  # IDM 授权验证与安全更新服务
+DOMAIN-SUFFIX,registeridm.com  # IDM 注册验证域名，用于许可证检查与激活流程
+
 # » Atlas 数据平台与云服务
 
 DOMAIN-SUFFIX,mongodb.com  # MongoDB 官方主域名，包含 Atlas 云数据库服务入口

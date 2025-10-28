@@ -103,6 +103,7 @@ DOMAIN-SUFFIX,gtimg.cn # 腾讯静态资源域名
 DOMAIN-SUFFIX,gtimg.com # 腾讯静态资源域名
 DOMAIN-SUFFIX,gov.cn # 政府机构总入口
 DOMAIN-SUFFIX,edu.cn # 教育机构总入口
+DOMAIN-SUFFIX,ps.gaoding.com # 稿定设计平台图片处理与资源加载接口，部分网页编辑与预览功能依赖
 
 # >> 游戏服务（Gaming Services）
 DOMAIN-SUFFIX,game.qq.com # 腾讯游戏
@@ -143,4 +144,12 @@ DOMAIN-SUFFIX,court.gov.cn # 中国法院网
 DOMAIN-SUFFIX,people.com.cn # 人民网（党媒）
 DOMAIN-SUFFIX,xinhuanet.com # 新华网（党媒）
 
-DOMAIN,ps.gaoding.com # 稿定设计平台图片处理与资源加载接口，部分网页编辑与预览功能依赖
+# » 百度网盘（Baidu Netdisk）主服务域名
+
+DOMAIN-SUFFIX,baidupcs.com  # 百度网盘主文件下载与上传服务域名
+DOMAIN-SUFFIX,pan.baidu.com  # 百度网盘网页版主域名，用于资源浏览与分享管理
+DOMAIN-SUFFIX,d.pcs.baidu.com  # 百度网盘资源分发节点，用于文件传输与预览
+DOMAIN-SUFFIX,n.pcs.baidu.com  # 百度网盘节点域名，用于内容分发与流量调度
+DOMAIN-SUFFIX,issuecdn.baidupcs.com  # 百度网盘客户端下载与更新服务
+DOMAIN-SUFFIX,yun.baidu.com  # 百度网盘登录跳转与推广入口域名
+DOMAIN-SUFFIX,pcs.baidu.com  # 百度网盘旧版服务接口域名，兼容部分客户端请求
