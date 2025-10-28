@@ -3022,6 +3022,8 @@ DOMAIN-SUFFIX,sc.ltwebstatic.com # SHEIN 静态资源节点，用于加载前端
 DOMAIN-SUFFIX,armor.ltwebstatic.com # SHEIN 静态资源加速域名，可能用于分发安全组件或加速加载  
 DOMAIN-SUFFIX,common.ltwebstatic.com # SHEIN 通用静态资源域名，用于图像、背景、公共接口资源  
 DOMAIN-SUFFIX,shein.ltwebstatic.com # SHEIN 主站资源域名，包含首页、商品页等核心页面静态资源
+DOMAIN-SUFFIX,srmdata-us.com  # SHEIN 数据服务相关域名，可能用于市场分析、跨境数据处理与舆情系统  
+DOMAIN-SUFFIX,www.srmdata-us.com  # SHEIN 数据平台主站域名，用于展示数据服务与接口说明  
 
 # » 其他 (暂未分类)
 
