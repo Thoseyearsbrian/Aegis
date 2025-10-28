@@ -2995,6 +2995,10 @@ DOMAIN-SUFFIX,atlas.mongodb.com  # MongoDB Atlas 子域名，部分用户用于�
 DOMAIN-SUFFIX,chatgpt.com  # ChatGPT Atlas 官方下载站点域名，用于获取浏览器安装包与产品介绍  
 DOMAIN-SUFFIX,chatgpt.com/atlas  # ChatGPT Atlas 专用页面路径，用于了解产品功能与安装步骤  
 
+# » 1.1.1.1 公共 DNS 助手页面  
+
+DOMAIN-SUFFIX,one.one.one.one # Cloudflare 公共 DNS 帮助页面，用于配置与状态检测服务  
+
 # » 其他 (暂未分类)
 
 DOMAIN-SUFFIX,nssurge.com # Surge 官方服务域名，用于激活验证与模块更新通信
