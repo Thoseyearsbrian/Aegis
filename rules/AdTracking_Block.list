@@ -7,11 +7,10 @@
 # - 更新时间：2025-10-28
 
 # > 通用广告追踪域名（General Ad Tracking）
-DOMAIN-SUFFIX,blog.csdn.net  # CSDN 技术博客平台，内容劣质、广告导向、含追踪与误导跳转行为
-DOMAIN-SUFFIX,api.ad.xiaomi.com # 小米广告接口，用于推送商业广告与系统内嵌推荐内容  
+
+DOMAIN-SUFFIX,blog.csdn.net  # CSDN 技术博客平台，内容劣质、广告导向、含追踪与误导跳转行为 
 DOMAIN-SUFFIX,data.mistat.xiaomi.com # 小米统计接口，用于设备使用统计与应用行为收集  
 DOMAIN-SUFFIX,data.video.ptqy.gitv.tv # 爱奇艺广告数据接口，用于视频播放前后广告投放与回传  
-DOMAIN-SUFFIX,diagnosis.ad.xiaomi.com # 小米诊断广告接口，用于广告诊断与设备状态上报  
 DOMAIN-SUFFIX,doh.ptqy.gitv.tv # 爱奇艺 DoH 接口，用于视频域名解析与内容分发监控  
 DOMAIN-SUFFIX,media.ptmi.gitv.tv # 爱奇艺媒体接口，用于视频媒体加载与广告内容请求  
 DOMAIN-SUFFIX,msg.ptqy.gitv.tv # 爱奇艺消息接口，用于广告消息推送与播放状态上报  
