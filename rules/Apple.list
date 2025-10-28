@@ -5,7 +5,7 @@
 # - 说明：部分 Apple 上报/分析类域名已加入 Background_Block.list，行为探测域名已列入 Behavior_Block.list,广告类已加入 AdTracking_Block.list 详见最后明细
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-11
+# - 更新时间：2025-10-28
 
 # > Apple 官方 IP 地址段（全球基础设施）
 
@@ -50,8 +50,8 @@ DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net # Apple 下载边缘节点（Akam
 DOMAIN-SUFFIX,e16991.b.akamaiedge.net # Akamai CDN Apple 下载节点
 DOMAIN-SUFFIX,lookup-api.apple.com.edgekey.net # DNS 加速服务节点（akamai）
 DOMAIN-SUFFIX,akadns.net # Akamai 公用 DNS
-DOMAIN-KEYWORD,apple.com.akadns.net # Apple CDN DNS 加速服务
-DOMAIN-KEYWORD,apple.com.edgekey.net # Apple 边缘镜像服务（Akamai）
+DOMAIN-SUFFIX,apple.com.akadns.net # Apple CDN DNS 加速服务
+DOMAIN-SUFFIX,apple.com.edgekey.net # Apple 边缘镜像服务（Akamai）
 DOMAIN-SUFFIX,apple-com.akamaized.net # Apple CDN 主通道
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com # Apple iCloud Relay 中继服务（Fastly）
 DOMAIN-SUFFIX,lcdn-locator.apple.com # Apple CDN 节点定位服务
@@ -59,8 +59,9 @@ DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com # Apple 软件透明性服务使用�
 DOMAIN-SUFFIX,apple-relay.cloudflare.com # Apple 软件透明性日志服务的 Cloudflare 中继节点，用于中转日志请求与加密数据
 DOMAIN-SUFFIX,api.smoot.apple.cn # Apple 中国区透明性平台 API，可能与日志提交、软件验证或更新机制相关
 DOMAIN-SUFFIX,cp10.cloudflare.com # Apple 在 Cloudflare 托管的日志或中继服务节点，建议放行
-DOMAIN,gsa.apple.com # Apple GSA（全局服务访问）节点，用于多项后台服务协调
-DOMAIN,wps.apple.com # Apple 后台 WPS 服务接口，具体用途涉及协议校验或配置同步
+DOMAIN-SUFFIX,gsa.apple.com # Apple GSA（全局服务访问）节点，用于多项后台服务协调
+DOMAIN-SUFFIX,wps.apple.com # Apple 后台 WPS 服务接口，具体用途涉及协议校验或配置同步
+DOMAIN-SUFFIX,app-site-association.cdn-apple.com # Apple Universal Links 验证域名，用于 App 与网页关联配置下发
 
 # > 开发者相关
 
