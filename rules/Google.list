@@ -5,7 +5,7 @@
 # - 注意：广告追踪相关域名与 YouTube 已独立归类至 GoogleAds.list 与 YouTube.list，未包含在本规则中
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-03
+# - 更新时间：2025-10-29
 
 # >> 核心服务（Core Services）
 
@@ -95,8 +95,9 @@ DOMAIN-SUFFIX,thinkwithgoogle.com # Google 市场洞察与广告资源平台
 DOMAIN-SUFFIX,googleartproject.com # Google 艺术计划平台
 DOMAIN-SUFFIX,googlefonts.cn # Google 字体 CDN（中国域名）
 DOMAIN-SUFFIX,googlefonts.com # Google 字体服务主页
-DOMAIN-SUFFIX,font.gstatic.com # Google 字体静态资源 CDN 域名
+DOMAIN-SUFFIX,fonts.gstatic.com # Google 字体库，前端可能调用 Web 字体加载资源
 DOMAIN-SUFFIX,fonts.googleapis.cn # Google 字体服务中国镜像
 DOMAIN-SUFFIX,fonts.googleapis.com # Google 字体 API 接口
 DOMAIN-SUFFIX,domains.google # Google 域名注册服务官网
 DOMAIN-SUFFIX,googledomains.com # Google Domains 官网入口
+DOMAIN-SUFFIX,play.google.com # Google Play 应用服务，部分推文中包含链接时涉及
