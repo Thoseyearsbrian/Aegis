@@ -4,7 +4,7 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-10-28
+# - 更新时间：2025-10-29
 
 # > 通用广告追踪域名（General Ad Tracking）
 
@@ -8177,3 +8177,4 @@ DOMAIN-SUFFIX,dafagood.com # 博彩推广相关子站／跳转域名
 DOMAIN-SUFFIX,eucasino.com # 欧洲博彩平台域名
 DOMAIN-SUFFIX,analytics.roku.com # Roku 分析系统，用于用户行为分析与广告反馈
 DOMAIN-SUFFIX,track.sr.roku.com # Roku 内嵌行为追踪接口（广告点击反馈）
+DOMAIN-SUFFIX,cm.g.doubleclick.net  # DoubleClick 广告同步域名，用于跨站追踪与广告识别匹配
