@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-26
+# - 更新时间：2025-10-29
 
 # > OpenAI Chat 系列
 
@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,grok.x.com # Grok 在 X 平台的入口链接
 DOMAIN-SUFFIX,xusercontent.com # Grok 聊天资源载入（xAI 与 X 共用）
 DOMAIN-SUFFIX,api.grok.x.ai # Grok API 接口（模型调用）
 DOMAIN-SUFFIX,cdn.x.ai # xAI 静态资源服务
+DOMAIN-SUFFIX,grok.com # Grok AI 官方域名（xAI 所属），用于实时聊天助手服务与趋势分析
 
 # » Meta AI 相关域名
 
