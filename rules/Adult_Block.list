@@ -4,7 +4,7 @@
 # - 特征：涵盖成人网站、成人广告服务、NSFW 内容域名
 # - 用途：本规则集用于拦截成人相关域名，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-25
+# - 更新时间：2025-10-29
 
 # > 成人相关域名
 DOMAIN-SUFFIX,onlyfans.com # 色情广告域名,建议屏蔽
@@ -51990,7 +51990,6 @@ DOMAIN-SUFFIX,video.pornvideoxo.net # 色情广告域名,建议屏蔽
 DOMAIN-SUFFIX,video.redwap2.com # 色情广告域名,建议屏蔽
 DOMAIN-SUFFIX,video.redwap3.com # 色情广告域名,建议屏蔽
 DOMAIN-SUFFIX,video.szex.hu # 色情广告域名,建议屏蔽
-DOMAIN-SUFFIX,video.twimg.com # 色情广告域名,建议屏蔽
 DOMAIN-SUFFIX,video.vxxxcdn.net # 色情广告域名,建议屏蔽
 DOMAIN-SUFFIX,video.xhcdn.com # 色情广告域名,建议屏蔽
 DOMAIN-SUFFIX,video.xnxx.com # 色情广告域名,建议屏蔽
