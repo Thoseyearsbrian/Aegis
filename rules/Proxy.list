@@ -233,6 +233,7 @@ DOMAIN-SUFFIX,ton.twitter.com # Twitter 媒体分发域（图片、视频、直�
 DOMAIN-SUFFIX,t.co # Twitter/X 使用的短链接服务
 DOMAIN-SUFFIX,twimg.com # Twitter 统一 CDN 根域（包括图像、字体、CSS等）
 DOMAIN-SUFFIX,help.x.help # X（原 Twitter）帮助中心子域名，用于用户支持与平台功能说明页面加载
+DOMAIN-SUFFIX,cdn.cms-twdigitalassets.com  # X（原 Twitter）静态资源 CDN，用于加载图片、视频或样式等组件
 
 # » Lyft（网约车平台）相关域名
 
