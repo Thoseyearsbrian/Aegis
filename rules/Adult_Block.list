@@ -8,7 +8,6 @@
 
 # > 成人相关域名
 
-DOMAIN-SUFFIX,video.twimg.com # Twitter 视频 CDN 服务，包含大量色情内容传播
 DOMAIN-SUFFIX,onlyfans.com # 色情广告域名,建议屏蔽
 DOMAIN-SUFFIX,4tube.com # 色情广告域名,建议屏蔽
 DOMAIN-SUFFIX,91.video.ws # 色情广告域名,建议屏蔽
