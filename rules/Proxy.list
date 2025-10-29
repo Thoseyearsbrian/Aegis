@@ -232,6 +232,7 @@ DOMAIN-SUFFIX,abs-0.twimg.com # Twitter 样式与字体等静态资源服务节�
 DOMAIN-SUFFIX,ton.twitter.com # Twitter 媒体分发域（图片、视频、直播等）
 DOMAIN-SUFFIX,t.co # Twitter/X 使用的短链接服务
 DOMAIN-SUFFIX,twimg.com # Twitter 统一 CDN 根域（包括图像、字体、CSS等）
+DOMAIN-SUFFIX,help.x.help # X（原 Twitter）帮助中心子域名，用于用户支持与平台功能说明页面加载
 
 # » Lyft（网约车平台）相关域名
 
@@ -2781,7 +2782,7 @@ DOMAIN-SUFFIX,keybase.io # 去中心化身份与公钥托管平台，支持聊�
 DOMAIN-SUFFIX,mailvelope.com # 网页端 PGP 加密浏览器扩展（支持 Gmail 等）  
 DOMAIN-SUFFIX,tracker.aegis-ver122.net # Aegis 追踪验证用域名
 DOMAIN-SUFFIX,pgpi.org # PGP 协议历史文档与软件归档镜像站  
-DOMAIN-SUFFIX,sequoia-pgp.org # Rust 编写的现代 PGP 加密实现项目 Sequoia  
+DOMAIN-SUFFIX,sequoia-pgp.org # Rust 编写的现代 PGP 加密实现项目 Sequoia
 
 # » Telegram 频道/群组目录与分析服务相关域名
 
