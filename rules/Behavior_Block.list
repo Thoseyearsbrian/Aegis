@@ -203,3 +203,8 @@ DOMAIN-SUFFIX,events.redditmedia.com # Reddit 媒体内容统计与事件上报�
 
 DOMAIN-SUFFIX,tool.chinaz.com # 站长工具主站服务域名，提供 IP 查询、SEO 分析等站长工具功能
 DOMAIN-SUFFIX,csstools.chinaz.com # 站长工具 CSS 前端工具子域，用于网页样式调试与生成服务
+
+# » Atlassian 云平台域名（Jira / Confluence / Bitbucket 等服务）-可疑
+
+DOMAIN-SUFFIX,atl-paas.net # Atlassian 云平台基础设施域名，用于前端资源分发与服务接入（如 Jira、Confluence）
+DOMAIN-SUFFIX,ds-cdn.prod-east.frontend.public.atl-paas.net # Atlassian 前端资源 CDN 域名（Jira 页面 UI 加载等）
