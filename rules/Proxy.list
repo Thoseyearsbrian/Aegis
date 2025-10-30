@@ -789,6 +789,7 @@ DOMAIN-SUFFIX,api.reddit.com # Reddit 公共 API 接口，提供数据查询、�
 DOMAIN-SUFFIX,gql.reddit.com  # Reddit 图数据库查询接口（用于前端内容加载）
 DOMAIN-SUFFIX,ads.reddit.com # Reddit 广告投放与跟踪域名
 DOMAIN-SUFFIX,redditmedia.com  # Reddit 媒体资源加载域（图片、视频等）
+DOMAIN-SUFFIX,redditstatic.com # Reddit 静态资源域名（用于加载图像、样式表、脚本等前端内容）
 DOMAIN-SUFFIX,external-preview.redd.it # Reddit 外链内容预览生成域名
 DOMAIN-SUFFIX,preview.redd.it  # Reddit 帖子预览资源域（媒体预加载与缩略图服务）
 DOMAIN-SUFFIX,redditstatic.com # Reddit 静态资源托管域名，用于前端加载与性能优化
