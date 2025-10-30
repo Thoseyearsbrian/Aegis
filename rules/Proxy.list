@@ -2820,13 +2820,6 @@ DOMAIN-SUFFIX,aff01.fyb-aff01.com # 代理机场相关域名，可能用于配�
 DOMAIN-SUFFIX,fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,fbsubcn01.cc # 代理机场相关域名，可能用于配置拉取或节点测速
 
-# >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
-
-DOMAIN-SUFFIX,gigicert.com # GigiCert CA 证书吊销检查域名（OCSP）
-DOMAIN-SUFFIX,ocsp.digicert.com # Digicert 证书吊销检查（OCSP）
-DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国 OCSP 响应服务，用于证书撤销状态查询
-DOMAIN-SUFFIX,ocsp.usertrust.com # 用户信任证书状态查询服务（OCSP，UserTrust 证书吊销列表接口）
-
 # Microsoft 翻译相关
 
 DOMAIN-SUFFIX,api.cognitive.microsoft.com # 微软翻译接口
