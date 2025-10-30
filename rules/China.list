@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-23
+# - 更新时间：2025-10-30
 
 # > WeChat 服务通信与行为上报（含 mmtls 加密传输）
 DOMAIN,weixin.qq.com # 微信官网主站，用于跳转、注册与信息展示
@@ -153,3 +153,7 @@ DOMAIN-SUFFIX,n.pcs.baidu.com  # 百度网盘节点域名，用于内容分发�
 DOMAIN-SUFFIX,issuecdn.baidupcs.com  # 百度网盘客户端下载与更新服务
 DOMAIN-SUFFIX,yun.baidu.com  # 百度网盘登录跳转与推广入口域名
 DOMAIN-SUFFIX,pcs.baidu.com  # 百度网盘旧版服务接口域名，兼容部分客户端请求
+
+# >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
+
+DOMAIN-SUFFIX,ocsp.digicert.com,DIRECT # DigiCert 证书吊销状态查询（OCSP）
