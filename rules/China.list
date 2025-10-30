@@ -158,3 +158,7 @@ DOMAIN-SUFFIX,pcs.baidu.com  # 百度网盘旧版服务接口域名，兼容部�
 
 DOMAIN-SUFFIX,ocsp.digicert.com,DIRECT # DigiCert 证书吊销状态查询（OCSP）
 DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国区证书吊销检查服务（OCSP，用于验证证书有效性）
+DOMAIN-SUFFIX,ocsp.comodoca.com # Comodo 证书吊销状态查询服务（OCSP，用于验证证书有效性）
+DOMAIN-SUFFIX,ocsp.comodoca.com # Sectigo OCSP 证书吊销状态查询服务（用于验证证书有效性）
+DOMAIN-SUFFIX,crt.comodoca.com # Sectigo 根证书与中间证书分发平台（包含 .crt 下载）
+DOMAIN-SUFFIX,crl.comodoca.com # Sectigo CRL 吊销列表服务（提供证书撤销状态下载）
