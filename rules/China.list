@@ -30,6 +30,10 @@ IP-CIDR,117.89.182.41 # 微信 mmtls 通信节点，涉及小程序与消息传�
 IP-CIDR,123.6.40.187 # QQ 与微信共用 CDN（dldir1v6.qq.com）
 IP-CIDR,183.61.169.120 # 微信头像资源 CDN（wx.qlogo.cn），用于加载用户头像等静态内容，属于腾讯官方 CDN 节点  
 IP-CIDR,61.170.65.76 # 腾讯软件下载 CDN（dldir1v6.qq.com），用于下载安装微信等客户端，为上海电信节点  
+IP-CIDR,183.61.169.120 # 广东深圳腾讯网络，域名 wx.qlogo.cn 对应头像拉取服务，常见于微信启动或联系人加载
+IP-CIDR,61.170.65.76 # 江苏苏州电信网络，域名 dldir1v6.qq.com 对应 CDN 分发节点（443 端口）
+DOMAIN-SUFFIX,res.servicewechat.com # 微信客户端资源拉取域名，用于配置、热更新与 JS SDK 等模块加载
+DOMAIN-SUFFIX,dldir1v6.qq.com # 腾讯 CDN 下载域名（支持 IPv6），用于软件分发与自动更新，如 QQ / 微信客户端资源加载
 
 # 注：mmtls 通信为微信使用的自研加密通道，与普通 HTTPS 不同，可能用于规避检测、行为指纹上传等行为
 
