@@ -784,13 +784,21 @@ DOMAIN-SUFFIX,video.mychart.com  # MyChart 视频远程问诊接口（部分医�
 # » Reddit 社区平台相关域名
 
 DOMAIN-SUFFIX,reddit.com  # Reddit 主站域名（社区浏览、帖子互动、用户管理等）
-DOMAIN-SUFFIX,www.reddit.com  # Reddit 主站入口（网页主页、帖子展示等）
 DOMAIN-SUFFIX,oauth.reddit.com  # Reddit 登录验证与 API 授权接口
+DOMAIN-SUFFIX,api.reddit.com # Reddit 公共 API 接口，提供数据查询、评论拉取等功能
 DOMAIN-SUFFIX,gql.reddit.com  # Reddit 图数据库查询接口（用于前端内容加载）
+DOMAIN-SUFFIX,ads.reddit.com # Reddit 广告投放与跟踪域名
 DOMAIN-SUFFIX,redditmedia.com  # Reddit 媒体资源加载域（图片、视频等）
+DOMAIN-SUFFIX,external-preview.redd.it # Reddit 外链内容预览生成域名
 DOMAIN-SUFFIX,preview.redd.it  # Reddit 帖子预览资源域（媒体预加载与缩略图服务）
+DOMAIN-SUFFIX,redditstatic.com # Reddit 静态资源托管域名，用于前端加载与性能优化
 DOMAIN-SUFFIX,external-preview.redd.it  # Reddit 外部资源预览接口（多媒体展示）
+DOMAIN-SUFFIX,styles.redditmedia.com # Reddit 前端样式与内容渲染域名
 DOMAIN-SUFFIX,v.redd.it  # Reddit 视频内容直链域名
+DOMAIN-SUFFIX,redd.it # Reddit 官方短链域名（如分享链接）
+DOMAIN-SUFFIX,ssl.reddit.com # Reddit SSL 入口，用于 HTTPS 服务与认证接口
+IP-CIDR,151.101.1.140/32 # Reddit CDN 节点 IP（Fastly 平台）
+IP-CIDR,151.101.65.140/32 # Reddit CDN 节点 IP（Fastly 平台）
 
 # » Expedia 在线旅游平台相关域名
 

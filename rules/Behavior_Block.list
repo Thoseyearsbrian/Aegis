@@ -194,3 +194,7 @@ DOMAIN-SUFFIX,control.mesa-lab.net # MESA 控制 / 任务下发接口
 
 # >> 迅雷行为分析接口
 DOMAIN-SUFFIX,dlandroid.rcv.sandai.net  # 迅雷 Android 客户端行为监听接口，使用 HTTP 明文通信，上报遥测数据
+
+# » Reddit 行为指纹与事件上报服务
+
+DOMAIN-SUFFIX,events.redditmedia.com # Reddit 媒体内容统计与事件上报服务（广告行为追踪）
