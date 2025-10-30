@@ -198,3 +198,8 @@ DOMAIN-SUFFIX,dlandroid.rcv.sandai.net  # 迅雷 Android 客户端行为监听�
 # » Reddit 行为指纹与事件上报服务
 
 DOMAIN-SUFFIX,events.redditmedia.com # Reddit 媒体内容统计与事件上报服务（广告行为追踪）
+
+# » 行为分析与网站工具相关域名
+
+DOMAIN-SUFFIX,tool.chinaz.com # 站长工具主站服务域名，提供 IP 查询、SEO 分析等站长工具功能
+DOMAIN-SUFFIX,csstools.chinaz.com # 站长工具 CSS 前端工具子域，用于网页样式调试与生成服务
