@@ -2827,11 +2827,8 @@ DOMAIN-SUFFIX,ocsp.digicert.com # Digicert 证书吊销检查（OCSP）
 DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国 OCSP 响应服务，用于证书撤销状态查询
 DOMAIN-SUFFIX,ocsp.usertrust.com # 用户信任证书状态查询服务（OCSP，UserTrust 证书吊销列表接口）
 
-# Safari 翻译相关（Apple + Microsoft）
+# Microsoft 翻译相关
 
-DOMAIN-SUFFIX,translation.apple.com # Apple 翻译主服务
-DOMAIN-SUFFIX,sequoia.apple.com # 日志分析/遥测（Safari翻译依赖）
-DOMAIN-SUFFIX,xp.apple.com # 证书/注册平台
 DOMAIN-SUFFIX,api.cognitive.microsoft.com # 微软翻译接口
 DOMAIN-SUFFIX,microsofttranslator.com # 微软翻译主域
 DOMAIN-SUFFIX,api.translate.microsoft.com  # 微软翻译 API 接口，用于机器翻译功能请求
@@ -2839,7 +2836,7 @@ DOMAIN-SUFFIX,cdn.translate.microsoft.com  # 微软翻译 CDN 资源分发域名
 DOMAIN-SUFFIX,edge.microsoft.com # Edge 浏览器相关内容
 DOMAIN-SUFFIX,translatoruser.intl.microsoft.com  # 微软翻译服务用户会话管理接口域名
 
-# Google 翻译（如你 Safari 配置中启用 Google 服务）
+# Google 翻译相关
 
 DOMAIN-SUFFIX,translate.googleapis.com  # Google 翻译 API 接口，用于机器翻译请求处理
 DOMAIN-SUFFIX,translate.google.com  # Google 翻译网页前端服务，用于用户界面与交互展示
