@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-30
+# - 更新时间：2025-10-31
 
 # >> Apple 行为遥测服务
 DOMAIN-SUFFIX,dns.apple.com # Apple 网络状态探测域，非必须服务，可疑行为分析用
@@ -170,6 +170,11 @@ DOMAIN-SUFFIX,report.servicewechat.com # 微信服务接口（含行为分析组
 DOMAIN-SUFFIX,myqcloud.com # 腾讯云小程序行为上传域（常用于 SDK）
 DOMAIN-SUFFIX,wxapp.tc.qq.com # 小程序平台日志与崩溃分析服务
 DOMAIN-SUFFIX,miniapp.qq.com # QQ 小程序相关行为数据域名
+
+# » 高危端口监听主机 - 可疑监听行为（与微信使用同时出现）
+
+IP-CIDR,58.212.47.187 # 江苏宿迁电信公网主机，高位端口暴露（20581），疑似运行端口映射或远控监听服务
+IP-CIDR,175.6.84.70 # 福建厦门电信网络，开放非常规端口 64863，具备高危远程接入可能性
 
 # >> 广告追踪与行为分析平台（优量汇 / 广点通）
 DOMAIN-SUFFIX,e.qq.com # 优量汇广告请求与行为采样接口
