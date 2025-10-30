@@ -2772,7 +2772,6 @@ DOMAIN-SUFFIX,dispatcher.is.autonavi.com # 高德地图调度接口域名，用�
 DOMAIN-SUFFIX,nektony.com  # Nektony 官网及应用服务域名，用于Mac系统清理、磁盘管理与隐私保护工具通信
 DOMAIN-SUFFIX,maxmind.com  # MaxMind 数据服务域名，用于 IP 地理定位与 GeoIP 数据接口
 DOMAIN-SUFFIX,kali.org  # Kali Linux 官网及更新服务，常用于渗透测试与安全工具下载
-DOMAIN-SUFFIX,mac.getutm.app  # UTM 虚拟机管理器 macOS 官方下载站点，部分资源需代理访问
 DOMAIN-SUFFIX,tails.net  # Tails 操作系统官网及服务平台，需代理访问以确保连接成功与更新获取
 DOMAIN-SUFFIX,challenges.cloudflare.com  # Cloudflare 验证挑战页面域名，用于机器人识别与访问验证机制  
 DOMAIN-SUFFIX,gpgtools.org # macOS 平台 GPG 密钥管理工具 GPGTools 官网  
@@ -3034,6 +3033,12 @@ DOMAIN-SUFFIX,api.cupshe.com # Cupshe 接口服务域名，用于 App 与前端�
 DOMAIN-SUFFIX,tracking.cupshe.com # Cupshe 第三方追踪与订单状态上报接口  
 DOMAIN-SUFFIX,cdn.cupshe.com # Cupshe 内容分发网络节点，用于资源加载加速  
 DOMAIN-SUFFIX,review.cupshe.com # Cupshe 用户评论服务域名，用于加载商品评价内容  
+
+# » UTM 相关域名
+
+DOMAIN-SUFFIX,mac.getutm.app  # UTM 虚拟机管理器 macOS 官方下载站点，部分资源需代理访问
+DOMAIN-SUFFIX,getutm.app # UTM 虚拟机项目主域名，用于软件下载、项目主页与资源访问
+DOMAIN-SUFFIX,docs.getutm.app # UTM 项目文档站点，用于 macOS 虚拟机软件安装、配置与使用说明
 
 # » 其他 (暂未分类)
 
