@@ -105,6 +105,7 @@ DOMAIN-SUFFIX,p212-contacts.icloud.com.cn # iCloud 中国区通讯录同步服�
 DOMAIN-SUFFIX,p212-quota.icloud.com.cn # iCloud 中国区配额管理服务，涉及存储容量分配与请求
 DOMAIN-SUFFIX,p212-mcc.icloud.com.cn # iCloud 中国区配置管理节点，涉及设备与区域参数下发
 DOMAIN-SUFFIX,gateway.icloud.com.cn # iCloud 中国区网关入口节点，处理多项同步请求
+DOMAIN-SUFFIX,keyvalueservice.icloud.com # Apple iCloud 同步配置服务，用于同步设置、钥匙串与偏好等信息，属于系统级后台通信行为
 
 # > 推送通知 / iMessage / 时间同步（系统服务）
 
