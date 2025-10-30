@@ -301,13 +301,31 @@ DOMAIN-SUFFIX,facebook.com # Facebook 主站与账号服务（含动态、好友
 DOMAIN-SUFFIX,www.facebook.com # Facebook 主站入口域名（跳转、登录、注册等）
 DOMAIN-SUFFIX,fb.com # Facebook 官方短链与跳转域名（如 fb.me、fb.watch 等）
 DOMAIN-SUFFIX,fbcdn.net # Facebook 静态资源分发域名（图像、视频、脚本等）
+DOMAIN-SUFFIX,fb.me # Facebook 官方短链服务（内容分享链接跳转）
+DOMAIN-SUFFIX,fbsbx.com # Facebook 文件与资源中转平台（Messenger 文件下载与语音附件）
 DOMAIN-SUFFIX,facebook.net # Facebook 接口与数据收集域（含图像加载、社交插件等）
+DOMAIN-SUFFIX,m.facebook.com # Facebook 移动版域名（适配移动浏览器）
 DOMAIN-SUFFIX,facebookcorewwwi.onion # Facebook Tor 网络专用访问地址（匿名服务）
 DOMAIN-SUFFIX,meta.com # Meta 公司官网与 Facebook 品牌重组平台
 DOMAIN-SUFFIX,metafbsbx.com # Facebook 存储服务域名（如文件下载、缓存等）
 DOMAIN-SUFFIX,fb.watch # Facebook Watch 视频平台域名
-IP-CIDR,157.240.0.0/16 # Facebook 所属 Meta 通讯网段（用户连接、内容加载、身份认证等）
 DOMAIN-SUFFIX,graph.facebook.com  # Facebook Graph API 接口，提供用户信息、动态数据与内容读取服务
+DOMAIN-SUFFIX,developers.facebook.com # Facebook 开发者平台（API 文档、SDK等）
+DOMAIN-SUFFIX,connect.facebook.net # Facebook Connect 登录与追踪服务（用于第三方网站集成）
+DOMAIN-SUFFIX,staticxx.facebook.com # Facebook 静态资源子域（内容加载加速）
+DOMAIN-SUFFIX,star.facebook.com # Facebook 星赞助系统（Creator 打赏系统）
+DOMAIN-SUFFIX,business.facebook.com # Facebook 广告与商务后台（广告管理、推广、Meta 账户中心）
+DOMAIN-SUFFIX,ads.facebook.com # Facebook 广告平台入口（广告创建与追踪）
+DOMAIN-SUFFIX,upload.facebook.com # Facebook 内容上传子域（视频、图片、媒体资源）
+DOMAIN-SUFFIX,scontent.xx.fbcdn.net # Facebook CDN 静态内容（个人资料图像与视频）
+DOMAIN-SUFFIX,workplace.com # Facebook Workplace 企业协作平台（Slack 类服务）
+DOMAIN-SUFFIX,workplaceusercontent.com # Facebook Workplace 附件资源域名（图片、文件）
+DOMAIN-SUFFIX,about.fb.com # Facebook 官方资讯站（品牌信息与新闻）
+DOMAIN-SUFFIX,newsroom.fb.com # Facebook 新闻发布页面
+DOMAIN-SUFFIX,research.fb.com # Facebook AI 与研究项目子站
+DOMAIN-SUFFIX,facebookmail.com # Facebook 系统邮件通知发送域（如账户安全、好友动态等）
+DOMAIN-SUFFIX,fbwatch.com # Facebook Watch 视频平台域名
+IP-CIDR,157.240.0.0/16 # Facebook 所属 Meta 通讯网段（用户连接、内容加载、身份认证等）
 
 # » Messenger（Meta 即时通信平台）相关域名
 
