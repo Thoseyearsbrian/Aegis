@@ -24,7 +24,7 @@ IP-CIDR,17.250.0.0/16 # Apple Push & Activation 服务
 IP-CIDR,17.248.0.0/16 # Apple CDN 服务段
 IP-CIDR,17.253.86.211/32 # Apple 系统服务端口映射节点（Port Map 服务，可能用于远程调试或 iOS 设备端口转发）
 IP-CIDR,17.253.150.10/32 # Apple Tether 服务节点，tether.edge.apple（用于热点共享连接或设备链路控制）
-IP‑CIDR,104.83.196.219 # Apple 官方面向中国/亚太用户的 HTTPS 节点，www.apple.com 域名对应，可能用于官网访问或资源镜像服务
+IP-CIDR,104.83.196.219 # Apple 官方面向中国/亚太用户的 HTTPS 节点，www.apple.com 域名对应，可能用于官网访问或资源镜像服务
 
 # > Apple 官方主域名（基础服务）
 
