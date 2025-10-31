@@ -221,3 +221,7 @@ DOMAIN-SUFFIX,csstools.chinaz.com # 站长工具 CSS 前端工具子域，用于
 
 DOMAIN-SUFFIX,atl-paas.net # Atlassian 云平台基础设施域名，用于前端资源分发与服务接入（如 Jira、Confluence）
 DOMAIN-SUFFIX,ds-cdn.prod-east.frontend.public.atl-paas.net # Atlassian 前端资源 CDN 域名（Jira 页面 UI 加载等）
+
+# » 潜在远程控制或监听节点（SoftLayer）
+
+IP-CIDR,74.86.151.167 # 美国 SoftLayer 数据中心公网主机，开放 HTTPS 服务（443 端口），疑似运行端口映射或远程控制组件，存在潜在监听风险
