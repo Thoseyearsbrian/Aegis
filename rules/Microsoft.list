@@ -4,7 +4,7 @@
 # - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-31
+# - 更新时间：2025-11-1
 
 # > Microsoft Visual Studio Code 主程序与资源服务
 DOMAIN,update.code.visualstudio.com # VS Code 自动更新服务器 
@@ -12,7 +12,8 @@ DOMAIN-SUFFIX,vscode‑cdn.net # VS Code 静态资源与扩展下载 CDN 域�
 DOMAIN-SUFFIX,visualstudio.com # 微软 Visual Studio 官方站点 
 DOMAIN-SUFFIX,gallery.vsassets.io # VS Code 插件库主域，用于插件元数据分发与管理
 DOMAIN-SUFFIX,gallerycdn.vsassets.io # VS Code 插件 CDN 加速域名，用于插件资源下载
-DOMAIN-SUFFIX,main.vscode-cdn.net # VS Code 官方 CDN 服务，用于扩展加载、资源分发，影响编辑器功能
+DOMAIN-SUFFIX,main.vscode-cdn.net # VS Code 官方 CDN 
+DOMAIN-SUFFIX,vscode-unpkg.net  # Visual Studio Code 插件资源镜像域名，用于从 unpkg CDN 拉取扩展资源，可能用于中国大陆用户访问优化
 
 # > 核心服务（Core Services）
 DOMAIN-SUFFIX,microsoft.com # 微软主域名
