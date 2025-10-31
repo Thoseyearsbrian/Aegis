@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-29
+# - 更新时间：2025-10-31
 
 # » Kaspersky 相关域名
 
@@ -3067,6 +3067,11 @@ DOMAIN-SUFFIX,review.cupshe.com # Cupshe 用户评论服务域名，用于加载
 DOMAIN-SUFFIX,mac.getutm.app  # UTM 虚拟机管理器 macOS 官方下载站点，部分资源需代理访问
 DOMAIN-SUFFIX,getutm.app # UTM 虚拟机项目主域名，用于软件下载、项目主页与资源访问
 DOMAIN-SUFFIX,docs.getutm.app # UTM 项目文档站点，用于 macOS 虚拟机软件安装、配置与使用说明
+
+# » HelloGitHub 平台服务域名（开源项目推荐）
+
+DOMAIN-SUFFIX,api.hellogithub.com # HelloGitHub 官方 API 接口域名，用于项目数据调用与用户交互（开源项目推荐平台）
+DOMAIN-SUFFIX,hellogithub.com # HelloGitHub 官网主域名，用于展示优质开源项目与技术文章
 
 # » 其他 (暂未分类)
 
