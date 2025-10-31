@@ -7,6 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0" />
   <img src="https://github.com/Thoseyearsbrian/GeoIP2-CN/actions/workflows/update.yml/badge.svg" alt="GeoIP Auto Update Status" />
+  <img src="https://img.shields.io/github/downloads/Thoseyearsbrian/Aegis/total?label=downloads" />
   <img src="https://img.shields.io/github/stars/Thoseyearsbrian/Aegis?style=social" alt="GitHub stars" />
   <img src="https://img.shields.io/github/v/release/Thoseyearsbrian/Aegis?include_prereleases&label=version" alt="Version" />
   <img src="https://img.shields.io/github/last-commit/Thoseyearsbrian/Aegis" alt="Last Commit" />
@@ -178,11 +179,17 @@ We recommend maintaining and extending your configurations based on the structur
 
 ## **🙌  Aegis Telegram Channels**
 
-If you value this project, consider giving it a ⭐️ star and subscribing to updates:
+If you find value in this project, feel free to Star ⭐️ and show your support.
+All rule updates will be simultaneously published to the [Aegis Updates](https://t.me/aegisupdates)￼ notification channel — you’re welcome to subscribe and stay informed.
 
- - [Aegis Updates](https://t.me/aegisupdates) – **Release & Announcements Channel** 
+ - [Aegis Updates](https://t.me/aegisupdates) – **Release Notification Channel** :Used for publishing the latest rule versions, changelogs, and important announcements.
 
- - [Aegis Discussion](https://t.me/aegisdiscussion) – **Community Group (Invite Only)** 
+ - [Aegis Discussion](https://t.me/aegisdiscussion) – **Community Collaboration Group** :Open to suggestions, false-positive reports, and contributions to rule building.
+
+ **Application Notice:**
+
+To ensure the quality of collaboration, please include your GitHub account link when requesting to join the community group (for identity verification only).
+We welcome developers with real contribution records and active participation in the open-source ecosystem to join us in advancing rule development, clarifying copyright attribution, and preventing spam accounts or disruptive behavior.
 
 **Group Rules:**
 
