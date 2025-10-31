@@ -4,7 +4,7 @@
 # - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-25
+# - 更新时间：2025-10-31
 
 # > Microsoft Visual Studio Code 主程序与资源服务
 DOMAIN,update.code.visualstudio.com # VS Code 自动更新服务器 
@@ -41,6 +41,8 @@ DOMAIN-SUFFIX,sharepoint.com # SharePoint 协作平台
 DOMAIN-SUFFIX,onenote.com # Microsoft OneNote 服务
 DOMAIN-SUFFIX,sway.com # Microsoft Sway 在线演示工具
 DOMAIN-SUFFIX,yammer.com # Microsoft Yammer 企业社交
+DOMAIN-SUFFIX,res.public.onecdn.static.microsoft # Microsoft CDN 资源分发节点，服务于 Windows / Office / Store 等产品的静态资源下载与内容缓存
+DOMAIN-SUFFIX,roaming.svc.cloud.microsoft # Microsoft 云服务漫游配置接口，涉及账户设置同步（如 Office、Edge、Windows 设置跨设备同步）
 
 # > OneDrive 云存储服务
 DOMAIN-SUFFIX,onedrive.com # 微软云存储服务 OneDrive

@@ -36,7 +36,8 @@ DOMAIN-SUFFIX,crashlytics.com # 被大量灰产 SDK 使用
 DOMAIN-SUFFIX,dns.msftncsi.com # Microsoft 网络连通性检查域，用于探测联网状态
 DOMAIN-SUFFIX,mobile.events.data.microsoft.com # VS Code / Windows / Office 遥测上传行为
 DOMAIN-SUFFIX,in.appcenter.ms  # Microsoft AppCenter 移动应用分析 SDK 域名，用于遥测统计与行为数据上报
-DOMAIN-SUFFIX,otelrules.svc.static.microsoft # 微软远程遥测服务域名，用于采集 OpenTelemetry 规则与应用遥测数据  
+DOMAIN-SUFFIX,otelrules.svc.static.microsoft # 微软远程遥测服务域名，用于采集 OpenTelemetry 规则与应用遥测数据 
+DOMAIN-SUFFIX,officeci.azurewebsites.net # Microsoft Office Telemetry 数据上报接口，部署于 Azure Web 应用服务，可能用于 Beta/Insider 版本行为采集与测试反馈 
 
 # >> 华为系行为分析与遥测接口
 DOMAIN-SUFFIX,hispace.hicloud.com # 华为 App 行为与更新统计接口
