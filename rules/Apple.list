@@ -9,7 +9,6 @@
 
 # > Apple 官方 IP 地址段（全球基础设施）
 
-IP-CIDR,17.0.0.0/8 # Apple 主体 AS 编号（AS714）
 IP-CIDR,139.178.128.0/18 # Apple iCloud 数据中心段
 IP-CIDR,144.178.0.0/19 # Apple 边缘服务段
 IP-CIDR,144.178.36.0/22 # Apple CDN 节点段
@@ -19,7 +18,6 @@ IP-CIDR,198.183.17.0/24 # Apple 服务节点（旧）
 IP-CIDR,205.180.175.0/24 # Apple 技术服务
 IP-CIDR,63.92.224.0/19 # Apple Maps / CDN 服务段
 IP-CIDR,65.199.22.0/23 # Apple Relay / 配置相关段
-IP-CIDR,17.253.0.0/16 # iCloud 内容同步段
 IP-CIDR,17.250.0.0/16 # Apple Push & Activation 服务
 IP-CIDR,17.248.0.0/16 # Apple CDN 服务段
 IP-CIDR,17.253.86.211 # Apple 系统服务端口映射节点（Port Map 服务，可能用于远程调试或 iOS 设备端口转发）
@@ -41,6 +39,7 @@ DOMAIN-SUFFIX,apple-livephotoskit.com # Live Photos 相关服务
 DOMAIN-SUFFIX,apple-cloudkit.com # iCloud CloudKit 后端服务
 DOMAIN-SUFFIX,gateway.icloud.com # iCloud 通信中继服务（国际）
 DOMAIN-SUFFIX,gateway.icloud.com.cn # iCloud 通信中继服务（中国）
+DOMAIN-SUFFIX,content.icloud.com,DIRECT # iCloud 云盘与同步服务核心接口，用于存储内容的上传与下载通信
 
 # > CDN 与边缘服务（用于内容分发 / 镜像）
 
