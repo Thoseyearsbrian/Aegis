@@ -61,10 +61,10 @@ Aegis 是一个坚持技术中立、信息透明、自主独立的安全规则�
 
 Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最新状态，支持 Surge 远程订阅使用。
 
-## 配置链接
+## Surge 配置链接
 
-SurgeAegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_CN.conf  
-SurgeAegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/SurgeAegis/config/Spec/SurgeAegis_EN.conf  
+Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf  
+Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_EN.conf  
 
 ## 配置方式
 
