@@ -5,7 +5,7 @@
 # - 说明：部分 Apple 上报/分析类域名已加入 Background_Block.list，行为探测域名已列入 Behavior_Block.list,广告类已加入 AdTracking_Block.list 详见最后明细
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-30
+# - 更新时间：2025-10-31
 
 # > Apple 官方 IP 地址段（全球基础设施）
 
@@ -24,6 +24,7 @@ IP-CIDR,17.250.0.0/16 # Apple Push & Activation 服务
 IP-CIDR,17.248.0.0/16 # Apple CDN 服务段
 IP-CIDR,17.253.86.211/32 # Apple 系统服务端口映射节点（Port Map 服务，可能用于远程调试或 iOS 设备端口转发）
 IP-CIDR,17.253.150.10/32 # Apple Tether 服务节点，tether.edge.apple（用于热点共享连接或设备链路控制）
+IP‑CIDR,104.83.196.219 # Apple 官方面向中国/亚太用户的 HTTPS 节点，www.apple.com 域名对应，可能用于官网访问或资源镜像服务
 
 # > Apple 官方主域名（基础服务）
 
