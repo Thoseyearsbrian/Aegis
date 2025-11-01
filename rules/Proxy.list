@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-1
+# - 更新时间：2025-11-2
 
 # » Kaspersky 相关域名
 
@@ -3084,8 +3084,23 @@ DOMAIN-SUFFIX,rsms.me # Inter 字体作者个人域名，用于托管字体 CSS 
 DOMAIN-SUFFIX,bandisoft.com # Bandisoft 官方网站，提供 Bandizip、Honeycam 等工具下载与版本更新
 DOMAIN-SUFFIX,bz.aegis.download # Bandizip 软件更新与资源分发 CDN，加速器服务域名（由 Bandisoft 使用）
 DOMAIN-SUFFIX,cdn.bandisoft.com # Bandisoft 静态资源 CDN，用于图标、界面组件与内置广告内容加载
-DOMAIN-SUFFIX,icon.bandisoft.com # Bandizip 图标资源接口，用于文件图标替换功能（右键菜单增强等）
-DOMAIN-SUFFIX,update.bandisoft.com  # Bandisoft 软件更新检查接口，Bandizip 启动时调用
+DOMAIN-SUFFIX,icon.bandisoft.com # Bandizip 图标资源接口，用于文件图标替换功能（右键菜单增
+
+# » Anker相关域名
+
+DOMAIN-SUFFIX,anker.com # Anker 主品牌官网，消费电子产品展示与销售
+DOMAIN-SUFFIX,anker-in.com # Anker Innovations（母公司）域名，用于企业官网与投资者信息
+DOMAIN-SUFFIX,anker.com.cn # Anker 中国地区域名，面向国内市场销售与售后支持
+DOMAIN-SUFFIX,anker.com.sg # Anker 新加坡地区域名，东南亚市场入口
+DOMAIN-SUFFIX,ankerjapan.com # Anker 日本地区域名，本地化品牌网站
+DOMAIN-SUFFIX,soundcore.com # Anker 子品牌 Soundcore（音频类设备）
+DOMAIN-SUFFIX,eufy.com # Anker 子品牌 eufy（智能家居与安防摄像头）
+DOMAIN-SUFFIX,nebulaapod.com # Anker 子品牌 Nebula（投影设备）
+DOMAIN-SUFFIX,ankerwork.com # Anker 子品牌 AnkerWork（会议设备）
+DOMAIN-SUFFIX,solix.anker.com # Anker 能源子品牌 SOLIX（储能产品线）
+DOMAIN-SUFFIX,ankerus.com # Anker 北美地区市场域名（警惕仿冒变体）
+DOMAIN-SUFFIX,ankerindia.com # Anker 印度地区市场域名
+DOMAIN-SUFFIX,anker-store.com # 官方授权电商域名（部分地区用于销售渠道）
 
 # » 其他 (暂未分类)
 
