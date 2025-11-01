@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Thoseyearsbrian/Aegis/tree/main/Docs/en-US"><b>English Documentation Here</b></a>
+  <a href="https://github.com/Thoseyearsbrian/Aegis"><b>【English Documentation Here】</b></a>
 </p>
 
 一个专为 Surge 精心维护的网络安全规则集，聚焦应用层与传输层防御，涵盖 DNS 污染、APT 攻击源、SDK 回传监听、后门通信、C2 控制器等潜在威胁，同时扩展至全球主流广告、行为追踪及成人内容平台的域名封锁，旨在实现 iOS 或 macOS 本地流量的精准识别与高效阻断。
@@ -105,13 +105,13 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
    GEOIP, AU, PROXY   # 错误，无法查询到相关记录
    GEOIP, CN, DIRECT  # 正确
    ```
+4. **出现 “tun-excluded-routes 参数已配置，该参数可能导致切换网络后出现异常，请谨慎使用” 的说明**
 
-4.	**出现 “tun-excluded-routes 参数已配置，该参数可能导致切换网络后出现异常，请谨慎使用” 的说明**
-
-       ```bash
-    该提示并非错误或冲突，而是 Surge 的系统级提醒。在固定网络环境下，此提示可安全忽略。
-    若切换网络（如 Wi-Fi ↔ 热点）后出现 AirDrop、Bonjour、NAS 等局域网通信异常，可在菜单中选择「停止代理」→「启动代理」以重建路由表并恢复连接。
+   ```bash
+   该提示并非错误或冲突，而是 Surge 的系统级提醒。在固定网络环境下，此提示可安全忽略。
+   若切换网络（如 Wi-Fi ↔ 热点）后出现 AirDrop、Bonjour、NAS 等局域网通信异常，可在菜单中选择「停止代理」→「启动代理」以重建路由表并恢复连接。
    ```
+
 
 ## 🌟 特别致谢
 
