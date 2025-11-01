@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Thoseyearsbrian/Aegis"><b>【English Documentation Here】</b></a>
+  <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/en-US/README.md"><b>【English Documentation Here】</b></a>
 </p>
 
 一个专为 Surge 精心维护的网络安全规则集，聚焦应用层与传输层防御，涵盖 DNS 污染、APT 攻击源、SDK 回传监听、后门通信、C2 控制器等潜在威胁，同时扩展至全球主流广告、行为追踪及成人内容平台的域名封锁，旨在实现 iOS 或 macOS 本地流量的精准识别与高效阻断。
