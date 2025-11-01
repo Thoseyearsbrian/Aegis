@@ -73,8 +73,11 @@ DOMAIN-SUFFIX,xy183x94x183x71xy.mcdn.bilivideo.cn # Bilibili CDN 子域，疑似
 DOMAIN-SUFFIX,upos-sz-mirrorcoso1.bilivideo.com # Bilibili 
 DOMAIN-SUFFIX,upos-sz-estgcos.bilivideo.com # 哔哩哔哩 CDN 节点（深圳区域），用于视频内容上传与分发（UP 主上传 / 点播资源）
 DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net # 哔哩哔哩播放器行为追踪域名，用于收集网页播放器使用数据（行为分析与监控模块）
-IP-CIDR,112.43.126.86 # 广东电信公网主机，开放 14181 端口，疑似运行端口映射服务或 CDN 辅助传输节点（潜在监听风险）
 DOMAIN-SUFFIX,cn-gddg-ct-01-10.bilivideo.com # 哔哩哔哩中国节点 CDN 域名（广东电信），用于内容分发与缓存服务（可能涉及 HTTPS 流量代理）
+DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 用户行为分析数据接口
+DOMAIN-SUFFIX,grpc.biliapi.net # Bilibili gRPC 行为请求通道（含用户行为上传）
+DOMAIN-SUFFIX,app.biliapi.net # Bilibili App 级行为接口
+DOMAIN-SUFFIX,h​​w-v2-web-player-tracker.biliapi.net # Bilibili 网页播放器追踪接口，用于收集播放行为与观看数据
 
 # >> 社交视频图文平台
 DOMAIN-SUFFIX,xiaohongshu.com # 小红书主站

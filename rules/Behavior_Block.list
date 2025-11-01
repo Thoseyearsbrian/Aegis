@@ -113,12 +113,6 @@ DOMAIN-SUFFIX,appmonitor.sina.cn # 微博 App 性能与行为分析服务
 DOMAIN-SUFFIX,sdkapp.uve.weibo.com # 微博 SDK 远程日志采集服务
 DOMAIN-SUFFIX,trace.sina.cn # 微博用户行为轨迹上报接口
 
-# >> Bilibili 行为分析补充
-DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 用户行为分析数据接口
-DOMAIN-SUFFIX,grpc.biliapi.net # Bilibili gRPC 行为请求通道（含用户行为上传）
-DOMAIN-SUFFIX,app.biliapi.net # Bilibili App 级行为接口
-DOMAIN-SUFFIX,h​​w-v2-web-player-tracker.biliapi.net # Bilibili 网页播放器追踪接口，用于收集播放行为与观看数据
-
 # >> 高德地图（AutoNavi / AMap）行为分析与指纹上传
 DOMAIN-SUFFIX,logs.amap.com # 高德地图行为日志上传接口
 DOMAIN-SUFFIX,loc.amap.com # 高德定位接口，含用户位置行为分析
