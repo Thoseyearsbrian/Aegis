@@ -5,7 +5,7 @@
 # - 说明：部分 Apple 上报/分析类域名已加入 Background_Block.list，行为探测域名已列入 Behavior_Block.list,广告类已加入 AdTracking_Block.list 详见最后明细
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-31
+# - 更新时间：2025-11-2
 
 # > Apple 官方 IP 地址段（全球基础设施）
 
@@ -40,6 +40,21 @@ DOMAIN-SUFFIX,apple-cloudkit.com # iCloud CloudKit 后端服务
 DOMAIN-SUFFIX,gateway.icloud.com # iCloud 通信中继服务（国际）
 DOMAIN-SUFFIX,gateway.icloud.com.cn # iCloud 通信中继服务（中国）
 DOMAIN-SUFFIX,content.icloud.com,DIRECT # iCloud 云盘与同步服务核心接口，用于存储内容的上传与下载通信
+
+# » Apple iCloud 邮箱隐私中转服务（Hide My Email）
+
+DOMAIN-SUFFIX,mask.icloud.com # Apple iCloud 邮件隐私中转服务域名，用于“隐藏我的邮箱”功能的地址转发与匿名邮件投递
+
+# » Apple iCloud / Push / CDN / iTunes 服务相关域名
+
+DOMAIN-SUFFIX,sequoia.cdn-apple.com # Apple 官方 CDN 内容分发节点，用于分发资源文件、配置或更新数据等内容
+DOMAIN-SUFFIX,mask-h2.icloud.com # iCloud “隐藏我的邮箱”服务的 HTTP/2 通道域名，用于匿名邮件地址转发与隐私中继通信
+DOMAIN-SUFFIX,gateway.icloud.com # Apple iCloud 核心网关服务域名，涉及身份验证、设备同步、云服务通信等功能
+DOMAIN-SUFFIX,sequoia.cdn-apple.com # Apple CDN 节点完整域名（与上方 DOMAIN-SUFFIX 兼容，部分系统会显式请求完整域名）
+DOMAIN-SUFFIX,mask-h2.icloud.com # 与 iCloud 邮箱隐私服务关联的域名（HTTP/2 接入点）
+DOMAIN-SUFFIX,gateway.icloud.com # iCloud 云服务主要入口（重复为确保完整收录）
+DOMAIN-SUFFIX,18-courier.push.apple.com # Apple Push Notification Service（APNs）服务域名，负责 iOS/macOS 的推送通信（第 18 区节点）
+DOMAIN-SUFFIX,bag.itunes.apple.com # iTunes Store / App Store 商品信息查询与配置接口域名，用于拉取价格、国家区信息等元数据
 
 # > CDN 与边缘服务（用于内容分发 / 镜像）
 
