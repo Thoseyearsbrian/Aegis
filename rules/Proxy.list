@@ -3078,6 +3078,15 @@ DOMAIN-SUFFIX,hellogithub.com # HelloGitHub 官网主域名，用于展示优质
 
 DOMAIN-SUFFIX,rsms.me # Inter 字体作者个人域名，用于托管字体 CSS 与字体文件，常见于网页前端调用（可能引发隐式行为指纹加载）
 
+
+# » Bandizip 软件服务与资源域名（Bandisoft 出品）
+
+DOMAIN-SUFFIX,bandisoft.com # Bandisoft 官方网站，提供 Bandizip、Honeycam 等工具下载与版本更新
+DOMAIN-SUFFIX,bz.aegis.download # Bandizip 软件更新与资源分发 CDN，加速器服务域名（由 Bandisoft 使用）
+DOMAIN-SUFFIX,cdn.bandisoft.com # Bandisoft 静态资源 CDN，用于图标、界面组件与内置广告内容加载
+DOMAIN-SUFFIX,icon.bandisoft.com # Bandizip 图标资源接口，用于文件图标替换功能（右键菜单增强等）
+DOMAIN-SUFFIX,update.bandisoft.com  # Bandisoft 软件更新检查接口，Bandizip 启动时调用
+
 # » 其他 (暂未分类)
 
 DOMAIN-SUFFIX,nssurge.com # Surge 官方服务域名，用于激活验证与模块更新通信
