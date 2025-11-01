@@ -2752,6 +2752,7 @@ DOMAIN-SUFFIX,accounts.zoho.jp # Zoho 日本地区账号登录服务域名，用
 DOMAIN-SUFFIX,accounts.zoho.com.au # Zoho 澳大利亚地区账号登录服务域名，用于身份验证与账户接入
 DOMAIN-SUFFIX,accounts.zohocloud.ca # Zoho 加拿大地区账号登录服务域名，用于身份验证与账户接入
 DOMAIN-SUFFIX,zohotagmanager.cdn-in.pagesense.io  # Zoho PageSense 标签管理与数据收集域名，用于网页行为追踪与分析服务
+DOMAIN-SUFFIX,accounts.zoho.uk # Zoho 英国账户登录与身份验证服务域名，用于提供用户认证、会话管理与账户接入功能（适用于 Zoho Mail、CRM 等服务）
 
 # > Oracle 相关域名
 
