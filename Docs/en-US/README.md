@@ -106,6 +106,14 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
    GEOIP, CN, DIRECT  # Valid — Supported and recognized
    ```
 
+4. **Explanation for the message “tun-excluded-routes parameter configured, may cause issues after switching networks”**
+
+   ```bash
+   This message is not an error or conflict but a system-level reminder from Surge.  
+   It can be safely ignored in a fixed network environment.  
+   If you experience temporary LAN communication issues (e.g., AirDrop, Bonjour, or NAS) after switching networks such as Wi-Fi ↔ hotspot, select “Stop Proxy” → “Start Proxy” in the menu to rebuild the routing table and restore connectivity.
+   ```
+
 ## **🌟 Special Thanks**
 
 This project is built upon inspiration and reference from numerous outstanding open-source initiatives within the GitHub community. We extend our sincere gratitude to all developers who have contributed to the open-source ecosystem.

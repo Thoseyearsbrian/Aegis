@@ -106,6 +106,13 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
    GEOIP, CN, DIRECT  # 正确
    ```
 
+4.	**出现 “tun-excluded-routes 参数已配置，该参数可能导致切换网络后出现异常，请谨慎使用” 的说明**
+
+       ```bash
+    该提示并非错误或冲突，而是 Surge 的系统级提醒。在固定网络环境下，此提示可安全忽略。
+    若切换网络（如 Wi-Fi ↔ 热点）后出现 AirDrop、Bonjour、NAS 等局域网通信异常，可在菜单中选择「停止代理」→「启动代理」以重建路由表并恢复连接。
+   ```
+
 ## 🌟 特别致谢
 
 本项目在设计与整理过程中，参考并借鉴了 GitHub 社区中众多优秀开源项目，谨向所有为开源社区作出贡献的开发者致以诚挚感谢。
