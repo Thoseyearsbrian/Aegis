@@ -56,6 +56,7 @@ DOMAIN-SUFFIX,cloudcone.com // CloudCone VPS 提供商
 DOMAIN-SUFFIX,cloudways.com // Cloudways 云平台，部分代理部署平台
 DOMAIN-SUFFIX,v2rayssr.com // v2ray+ssr 综合配置下载站
 DOMAIN-SUFFIX,VK6kTpJBIO.solastme.cc # 代理节点域名
+DOMAIN-SUFFIX,vk6tpjbio.solastme.cc # 代理节点域名
 DOMAIN-SUFFIX,fba02.fbsubcn01.cc # 代理节点域名
 DOMAIN-SUFFIX,lk02.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,lk01.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
