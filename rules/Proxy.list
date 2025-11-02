@@ -2859,16 +2859,34 @@ DOMAIN-SUFFIX,cdn.translate.microsoft.com  # 微软翻译 CDN 资源分发域名
 DOMAIN-SUFFIX,edge.microsoft.com # Edge 浏览器相关内容
 DOMAIN-SUFFIX,translatoruser.intl.microsoft.com  # 微软翻译服务用户会话管理接口域名
 
-# Google 翻译相关
+# >> Google 翻译相关
 
 DOMAIN-SUFFIX,translate.googleapis.com  # Google 翻译 API 接口，用于机器翻译请求处理
 DOMAIN-SUFFIX,translate.google.com  # Google 翻译网页前端服务，用于用户界面与交互展示
 
-# » Nssurge 配置托管与增强服务平台
+# » Surge 相关域名
 
 DOMAIN-SUFFIX,nssurge.com # NSSurge 官方主站域名，用于配置托管、规则订阅与用户服务  
 DOMAIN-SUFFIX,cdn.nssurge.com # NSSurge 静态资源域名，用于分发规则文件与远程模块  
 DOMAIN-SUFFIX,api.nssurge.com # NSSurge 接口域名，用于配置拉取、订阅验证与更新服务  
+DOMAIN-SUFFIX,surge.run # Surge 官方域名，用于配置托管、模块加载与订阅链接  
+DOMAIN-SUFFIX,dl.surge.run # Surge 模块与脚本下载接口，用于 Surge 模块更新服务  
+DOMAIN-SUFFIX,panel.surge.run # Surge 仪表盘服务域名，用于 UI 控制面板远程管理  
+DOMAIN-SUFFIX,conf.surge.run # Surge 远程配置订阅服务接口  
+DOMAIN-SUFFIX,static.surge.run # Surge 静态资源与图标加载服务（如 policy-path 图标）
+
+# » 第三方订阅与模块平台
+
+DOMAIN-SUFFIX,mieqq.com # Mieqq 规则与模块托管域名，含流量统计与远程模块接口  
+DOMAIN-SUFFIX,cdn.jsdelivr.net # jsDelivr 公共 CDN，用于托管 Surge/Clash 规则与模块  
+DOMAIN-SUFFIX,ghproxy.com # GitHub 加速镜像服务，常用于拉取规则与脚本  
+DOMAIN-SUFFIX,ghps.cc # GitHub Proxy 服务，用于远程托管加速（含 Surge 配置）  
+DOMAIN-SUFFIX,jsd.cdn.zzko.cn # 非官方 jsDelivr 镜像，常用于加速规则下载  
+DOMAIN-SUFFIX,raw.githubusercontent.com # GitHub 原始文件托管路径，部分规则引用此处  
+DOMAIN-SUFFIX,raw.fastgit.org # FastGit 镜像服务，已停用但仍有历史引用链接  
+DOMAIN-SUFFIX,fastly.jsdelivr.net # jsDelivr 的 Fastly CDN 节点，部分模块请求路径指向此处  
+DOMAIN-SUFFIX,mirror.ghproxy.com # ghproxy 镜像节点，部分 Surge 配置通过此节点加速拉取  
+DOMAIN-SUFFIX,cf.jsdelivr.net # jsDelivr 的 Cloudflare CDN 节点，用于规则与图标分发  
 
 # » IINA 视频播放器
 
