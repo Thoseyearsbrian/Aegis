@@ -209,6 +209,10 @@ DOMAIN-SUFFIX,msp.meituan.com # 美团安全 SDK 接口，用于设备指纹识�
 DOMAIN-SUFFIX,apimobile.meituan.com # 移动 App API 接口，提供订单、支付等服务  
 DOMAIN-SUFFIX,analytics.meituan.net # 数据分析与用户行为上报接口  
 DOMAIN-SUFFIX,mobile.meituan.com # 美团移动端服务域名，用于移动站访问与交互  
+IP-CIDR,101.227.131.171 # Meituan Port Map 接口 IP，用于定位服务或地图数据分发  
+DOMAIN-SUFFIX,maplocatesdksnapshot.d.meituan.net # 美团地图 SDK 快照定位服务接口  
+DOMAIN-SUFFIX,metrics-picture.d.meituan.net # 美团 Metrics 图片监测与上传服务  
+DOMAIN-SUFFIX,al-log.d.meituan.net # 美团行为日志上报接口，用于埋点与性能分析  
 
 # > 美团众包相关域名（Meituan Crowdsource Delivery）
 
