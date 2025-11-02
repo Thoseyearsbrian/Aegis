@@ -161,6 +161,12 @@ DOMAIN-SUFFIX,pancake.apple.com # RTC 网络质量上报服务，建议封锁
 DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名，建议封锁
 DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务，建议封锁（涉及系统认证）
 
+# > Apple广告追踪
+
+DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
+DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，已停用但可能残留请求）
+DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）
+
 # > 已列入 Behavior_Block.list明细：--建议封锁
 
 # DOMAIN-SUFFIX,sylvan.apple.com # Apple iCloud 行为遥测服务
@@ -173,8 +179,4 @@ DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务，建议封锁�
 # DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 # DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
 
-# > 已列入 AdTracking_Block.list明细：--建议封锁
 
-DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
-DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，已停用但可能残留请求）
-DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）

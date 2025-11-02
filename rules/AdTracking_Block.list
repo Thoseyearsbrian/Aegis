@@ -6,12 +6,6 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
 # - 更新时间：2025-11-2
 
-# > 苹果广告追踪域名（Apple Ad Tracking Domains）
-
-DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告归因 API
-DOMAIN-SUFFIX,iadsdk.apple.com # iAd 广告 SDK
-DOMAIN-SUFFIX,iad.apple.com # iAd 广告平台主域
-
 # > 通用广告追踪域名（General Ad Tracking）
 
 DOMAIN-SUFFIX,blog.csdn.net  # CSDN 技术博客平台，内容劣质、广告导向、含追踪与误导跳转行为 
