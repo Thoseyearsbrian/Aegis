@@ -2862,6 +2862,21 @@ DOMAIN-SUFFIX,conf.surge.run # Surge 远程配置订阅服务接口
 DOMAIN-SUFFIX,static.surge.run # Surge 静态资源与图标加载服务（如 policy-path 图标）
 DOMAIN-SUFFIX,kb.nssurge.com # Surge 官方知识库域名，用于访问产品常见问题、使用指南与发行说明  
 
+# > GitBook 相关服务域名  
+
+DOMAIN-SUFFIX,gitbook.com # GitBook 官方主站域名，用于账户登录、项目管理与团队协作  
+DOMAIN-SUFFIX,gitbook.io # GitBook 文档托管平台主域名，用于访问项目文档与知识库内容  
+DOMAIN-SUFFIX,cdn.gitbook.io # GitBook 静态资源 CDN，用于分发图片、脚本与样式文件  
+DOMAIN-SUFFIX,static-1v.gitbook.com # GitBook 静态资源节点 1，用于托管前端内容与附件  
+DOMAIN-SUFFIX,static-2v.gitbook.com # GitBook 静态资源节点 2，用于托管文档中的图片、脚本等静态内容  
+
+# > Font Awesome 图标资源域名  
+
+DOMAIN-SUFFIX,fontawesome.com # Font Awesome 官方主站，用于账户管理与图标库文档访问  
+DOMAIN-SUFFIX,use.fontawesome.com # Font Awesome 免费图标资源加载域名，用于网页端字体与样式分发  
+DOMAIN-SUFFIX,pro.fontawesome.com # Font Awesome 专业版订阅域名，提供高级图标与私有 CDN 服务  
+DOMAIN-SUFFIX,ka-p.fontawesome.com # Font Awesome 当前活跃 CDN 节点，用于图标与字体加速加载  
+
 # > 第三方订阅与模块平台
 
 DOMAIN-SUFFIX,mieqq.com # Mieqq 规则与模块托管域名，含流量统计与远程模块接口  
