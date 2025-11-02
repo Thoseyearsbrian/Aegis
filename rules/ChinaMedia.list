@@ -4,10 +4,11 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名，便于策略识别与分流（哔哩哔哩已独立归类至 Bilibili.list）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-1
+# - 更新时间：2025-11-2
 
 # >> 视频平台
 DOMAIN-SUFFIX,youku.com # 优酷视频
+DOMAIN,xpis-tel-xcdn.youku.com # 优酷登录验证接口域名，用于账户登录与 token 校验服务 
 DOMAIN-SUFFIX,iqiyi.com # 爱奇艺
 DOMAIN-SUFFIX,iq.com # 爱奇艺国际版
 DOMAIN-SUFFIX,tudou.com # 土豆网
