@@ -1,10 +1,12 @@
 # » APT.list（国际APT攻击组织域名/IP规则集）
 # - 分类：APT 攻击组织 / 网络间谍行为 / 国家级攻击源 / 威胁IOC拦截
-# - 来源：公开威胁情报平台 / 国家级攻击活动披露 / 安全研究社区IOC报告 / 实测补充分析（公开披露不代表制表者立场）
+# - 来源：公开威胁情报平台 / 国家级攻击活动披露 / 安全研究社区IOC报告 / 实测补充分析
 # - 特征：涵盖 APT1 ~ APTxx 等组织使用的C2控制器、钓鱼跳转域、后门通信节点与攻击基础设施
+# - 命名：包含主流厂商命名与自定义编号，归属清晰，编号连续，注释规范
+# - 声明：所有情报信息基于公开披露，相关归属与内容不代表制表者立场
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-23
+# - 更新时间：2025-11-2
 
 # > APT1（中国 · 被 Mandiant 命名为 Comment Crew）
 
@@ -232,9 +234,9 @@ DOMAIN-SUFFIX,9378fa9b.space # 攻击活动控制基础设施，安全客披露
 DOMAIN-SUFFIX,0a71ab21.space # 恶意 Android 应用回传通信域名，样本分析披露  
 DOMAIN-SUFFIX,7d769bb7.space # 攻击中发现的 C2 域名，安全客披露
 
-# > APT44 人面狮 （中东地区组织· 360命名）
+# > APT44 人面狮 （中东地区组织· 360命名）【暂无有效 IOC，待补充】
 
-# > APT45 黄金鼠 （ 中东地区组织· 360命名）
+# > APT45 黄金鼠 
 
 DOMAIN-SUFFIX,bbbb4.noip.me # 第一阶段 C2，部署 njRAT，2014–2015，360 披露  
 DOMAIN-SUFFIX,basharalassad1sea.noip.me # 第二阶段 C2，部署 DarkKomet、AndroRAT，2015–2016，360 披露  
@@ -243,25 +245,25 @@ DOMAIN-SUFFIX,chatsecurelite.us.to # 第四阶段 C2，伪装安全通信工具�
 IP-CIDR,31.9.48.183 # 第一/二阶段 C2 控制器，360 披露  
 IP-CIDR,82.137.255.56 # 第三阶段 Android/PC 控制器，2017 起，360 披露
 
-# > APT46 拍羽蛇 （中东地区组织 · 360命名）
+# > APT46 拍羽蛇 （中东地区组织 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT47 圣刀源 （中东地区组织· 360命名）
+# > APT47 圣刀源 （中东地区组织· 360命名）【暂无有效 IOC，待补充】
 
-# > APT48 ArmaRat （中东地区组织· 360命名）
+# > APT48 ArmaRat （中东地区组织· 360命名）【暂无有效 IOC，待补充】
 
-# > APT49 DomesticKitten （中东地区组织 · 360命名）
+# > APT49 DomesticKitten （中东地区组织 · 360命名）【暂无有效 IOC，待补充】
 
-# > AP50 圣龛幽默 （中东地区组织· 360命名）
+# > AP50 圣龛幽默 （中东地区组织· 360命名）【暂无有效 IOC，待补充】
 
-# > APT51 SandCat（中东地区组织 · 360命名）
+# > APT51 SandCat（中东地区组织 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT52  Turla （俄罗斯 · 360命名）
+# > APT52  Turla （俄罗斯 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT53 沙虫 （俄罗斯 · 360命名）
+# > APT53 沙虫 （俄罗斯 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT54 奇点熊 （俄罗斯 · 360命名）
+# > APT54 奇点熊 （俄罗斯 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT55 WellMess （俄罗斯 · 360命名）
+# > APT55 WellMess
 
 IP-CIDR,103.73.188.101 # 控制服务器 IP，CISA MAR 报告披露  
 IP-CIDR,141.98.212.55 # C2 控制器 IP，CISA 报告披露  
@@ -269,19 +271,19 @@ IP-CIDR,192.48.88.107 # C2 通信节点 IP，CISA 报告披露
 IP-CIDR,209.58.186.196 # 控制节点 IP，CISA 报告披露  
 IP-CIDR,85.93.2.116 # 控制节点 IP，CISA 报告披露  
 
-# > APT56 Gamaredon （俄罗斯 · 360命名）
+# > APT56 Gamaredon （俄罗斯 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT57 Carbanak （俄罗斯 · 360命名）
+# > APT57 Carbanak （俄罗斯 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT58 卢甘斯克组织 （俄罗斯 · 360命名）
+# > APT58 卢甘斯克组织 （俄罗斯 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT59 Lazarus （朝鲜 · 360命名）
+# > APT59 Lazarus （朝鲜 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT60 ScarCruft （朝鲜 · 360命名）
+# > APT60 ScarCruft （朝鲜 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT61 Kimsuky （朝鲜 · 360命名）
+# > APT61 Kimsuky （朝鲜 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT62 Darkhotel （朝鲜 · 360命名）
+# > APT62 Darkhotel
 
 DOMAIN-SUFFIX,storyonboard.net # 历史活动中使用的 C2 控制域名  
 DOMAIN-SUFFIX,tisone360.org # C2 域名，常与 Flash 漏洞利用及伪装组件相关  
@@ -289,33 +291,33 @@ DOMAIN-SUFFIX,openofficev.info # 用于投递载荷与伪装更新的通信域�
 DOMAIN-SUFFIX,saytargetworld.net # 被用于历史攻击中的控制通信 
 IP-CIDR,23.111.184.119 # 新攻击活动中的 C2 控制器，Trellix 报告披露
 
-# > APT63 蓝箭组织 （朝鲜 · 360命名）
+# > APT63 蓝箭组织 （朝鲜 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT64 蓝宝石 （朝鲜 · 360命名）
+# > APT64 蓝宝石 （朝鲜 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT65 摩诃草 （印度 · 360命名）
+# > APT65 摩诃草 （印度 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT66 嘉罗花 （印度 · 360命名）
+# > APT66 嘉罗花 （印度 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT67 拉贾镇 （印度 · 360命名）
+# > APT67 拉贾镇 （印度 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT68 飞狼 （印度 · 360命名）
+# > APT68 飞狼 （印度 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT69 响角象 （印度 · 360命名）
+# > APT69 响角象 （印度 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT70 CNC （印度 · 360命名）
+# > APT70 CNC （印度 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT71 万灵教（美国 · 360命名）
+# > APT71 万灵教（美国 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT72 诡蛇之眼 （美国 · 360命名）
+# > APT72 诡蛇之眼 （美国 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT73 CIA （美国 · 360命名）
+# > APT73 CIA （美国 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT74 蓝雾 （美国 · 360命名）
+# > APT74 蓝雾 （美国 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT75 雷霆眼 （美国 · 360命名）
+# > APT75 雷霆眼 （美国 · 360命名）【暂无有效 IOC，待补充】
 
-# > APT76 Machete （美国 · 360命名）
+# > APT76 Machete （美国 · 360命名）【暂无有效 IOC，待补充】
 
 # > GhostRedirector 节点（伪装跳板，用于 C2 中转或恶意载荷跳转）
 
@@ -336,10 +338,10 @@ IP-CIDR,202.189.8.72 # soc.mod 组件使用的反向代理节点（PlushDaemon�
 IP-CIDR,47.96.17.237 # agent.mod 使用的通信服务器（PlushDaemon）
 IP-CIDR,202.105.1.187 # SlowStepper 后备 C2 节点
 IP-CIDR,47.74.159.166 # SlowStepper 控制节点
-IP-CIDR,8.130.87.195 # SlowStepper 控制节点（IP格式疑似错误，待确认）
-IP-CIDR,47.108.162.18 # SlowStepper 控制节点（IP格式疑似错误，待确认）
+IP-CIDR,8.130.87.195 # SlowStepper 控制节点
+IP-CIDR,47.108.162.18 # SlowStepper 控制节点
 IP-CIDR,47.113.200.18 # SlowStepper 控制节点
-IP-CIDR,47.104.138.190 # SlowStepper 控制节点（IP格式疑似错误，待确认）
+IP-CIDR,47.104.138.190 # SlowStepper 控制节点
 IP-CIDR,120.24.193.58 # SlowStepper 控制节点
 IP-CIDR,202.189.8.87 # SlowStepper 控制节点
 IP-CIDR,202.189.8.69 # SlowStepper 控制节点
