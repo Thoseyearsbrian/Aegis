@@ -141,6 +141,7 @@ IP-CIDR,192.35.50.0/24 # Apple 服务节点（swdist）
 IP-CIDR,198.183.17.0/24 # Apple 服务节点（旧）
 IP-CIDR,205.180.175.0/24 # Apple 技术服务段
 IP-CIDR,104.83.196.219 # Apple 亚太 HTTPS 节点
+IP-CIDR,23.220.75.249 # Akamai 节点 IP，可能托管 Apple、Adobe 等服务内容
 
 # > 地图与定位服务（Maps & Location）
 
@@ -168,6 +169,7 @@ DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServi
 DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，已停用但可能残留请求）
 DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）
 DOMAIN-SUFFIX,ca.iadsdk.apple.com # Apple iAd 广告 SDK 子域，用于广告归因/跟踪服务
+DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple CDN 域名，用于 Crash 报告与诊断日志收集（可能影响系统稳定性，建议谨慎封锁）
 
 # > 已列入 Behavior_Block.list明细：--建议封锁
 

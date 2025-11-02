@@ -8,6 +8,8 @@
 
 # > 通用广告追踪域名（General Ad Tracking）
 
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com # 巨量引擎 Pangolin 广告 SDK 接口域名，用于广告归因与用户行为采集
+DOMAIN-SUFFIX,sdk.e.qq.com # 腾讯广告联盟 SDK 域名，常用于 App 内广告展示与点击追踪
 DOMAIN-SUFFIX,blog.csdn.net  # CSDN 技术博客平台，内容劣质、广告导向、含追踪与误导跳转行为 
 DOMAIN-SUFFIX,data.mistat.xiaomi.com # 小米统计接口，用于设备使用统计与应用行为收集  
 DOMAIN-SUFFIX,data.video.ptqy.gitv.tv # 爱奇艺广告数据接口，用于视频播放前后广告投放与回传  
