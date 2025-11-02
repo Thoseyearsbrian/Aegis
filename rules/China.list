@@ -195,6 +195,175 @@ DOMAIN-SUFFIX,apimobile.meituan.com # 移动 App API 接口，提供订单、支
 DOMAIN-SUFFIX,analytics.meituan.net # 数据分析与用户行为上报接口  
 DOMAIN-SUFFIX,mobile.meituan.com # 美团移动端服务域名，用于移动站访问与交互  
 
+# > 美团众包相关域名（Meituan Crowdsource Delivery）
+
+DOMAIN-SUFFIX,zhenguo.meituan.com # 美团众包主服务域名，用于骑手任务调度与信息交互  
+DOMAIN-SUFFIX,open.meituan.com # 美团开放平台接口，部分众包业务对接与数据回传  
+DOMAIN-SUFFIX,peisong.meituan.com # 美团配送调度平台，处理订单分发与骑手定位  
+DOMAIN-SUFFIX,ptstar.meituan.com # 美团众包骑手评分与绩效分析系统  
+DOMAIN-SUFFIX,gaea.meituan.com # 美团账号登录鉴权平台，含骑手端认证服务  
+DOMAIN-SUFFIX,mdn.meituan.com # 美团 CDN 服务域名，分发骑手端资源文件  
+DOMAIN-SUFFIX,logistics.meituan.com # 美团物流系统接口，支持订单履约与异常上报  
+DOMAIN-SUFFIX,dreport.meituan.net # 美团数据报表平台，用于任务统计与绩效报表生成  
+
+# > 美团专送相关域名（Meituan Express Delivery）
+
+DOMAIN-SUFFIX,cainiao.meituan.com # 美团专送物流接口，与菜鸟等平台对接骑手配送任务  
+DOMAIN-SUFFIX,dispatch.meituan.com # 美团专送订单调度平台，处理实时订单分配与骑手分发  
+DOMAIN-SUFFIX,logistics.meituan.com # 美团物流系统主接口，支持配送全流程管理与异常处理  
+DOMAIN-SUFFIX,locate.meituan.com # 美团专送定位服务域名，用于骑手实时位置上传与地图服务  
+DOMAIN-SUFFIX,dm.meituan.com # 美团数据服务域名，含配送轨迹与调度分析模块  
+DOMAIN-SUFFIX,mdn.meituan.com # 美团静态资源 CDN，服务骑手 App 的 UI 与资源加载  
+DOMAIN-SUFFIX,peisong.meituan.com # 美团配送开放平台，用于骑手 App 与调度平台交互  
+DOMAIN-SUFFIX,star.meituan.com # 美团绩效与评级系统，管理骑手星级与服务质量评估  
+
+# > 美团乐跑相关域名（Meituan LePao Delivery）
+
+DOMAIN-SUFFIX,lepaotask.meituan.com # 美团乐跑任务系统域名，用于骑手任务派发与状态上报  
+DOMAIN-SUFFIX,lepaologin.meituan.com # 美团乐跑登录与认证接口，用于骑手身份验证  
+DOMAIN-SUFFIX,lepaoapi.meituan.com # 美团乐跑业务接口域名，处理订单接收与结果回传  
+DOMAIN-SUFFIX,lepaocdn.meituan.com # 美团乐跑资源 CDN 域名，服务骑手端页面与图片加载  
+DOMAIN-SUFFIX,lepaolog.meituan.com # 美团乐跑日志与行为分析接口，用于平台监控与运营分析  
+
+# > 蜂鸟众包相关域名（Ele.me Crowdsource Delivery）
+
+DOMAIN-SUFFIX,fengniao.waimai.me # 蜂鸟众包主服务域名，用于骑手任务调度与订单分发  
+DOMAIN-SUFFIX,fengniao.com # 蜂鸟配送系统主域名，处理账号认证与配送行为记录  
+DOMAIN-SUFFIX,falconapi.fengniao.com # 蜂鸟数据接口域名，涉及骑手接单与轨迹上传  
+DOMAIN-SUFFIX,tracking.fengniao.com # 蜂鸟轨迹系统接口，用于实时定位与异常追踪  
+DOMAIN-SUFFIX,resource.fengniao.com # 蜂鸟前端资源服务域名，提供骑手端 UI 资源加载  
+DOMAIN-SUFFIX,rider.elenet.me # 饿了么骑手系统子域名，用于账户管理与登录服务  
+DOMAIN-SUFFIX,cainiao.com # 菜鸟网络主域名，蜂鸟配送依赖基础设施服务接口  
+
+# > 蜂鸟专送相关域名（Ele.me Delivery Service）
+
+DOMAIN-SUFFIX,ele.me # 饿了么主站域名，提供专送服务入口及下单功能  
+DOMAIN-SUFFIX,waimai.taobao.com # 饿了么淘宝入口页面域名，用于订单聚合与跳转  
+DOMAIN-SUFFIX,h5.ele.me # 饿了么 H5 移动页面服务，支持专送下单与订单查询  
+DOMAIN-SUFFIX,restapi.ele.me # 饿了么后端接口服务，处理用户订单、配送状态等功能  
+DOMAIN-SUFFIX,open-api.ele.me # 饿了么开放平台接口，供商户与配送系统对接使用  
+DOMAIN-SUFFIX,api-rider.ele.me # 饿了么骑手端接口域名，处理骑手任务分发与轨迹上报  
+DOMAIN-SUFFIX,tracking.ele.me # 饿了么配送轨迹系统，支持专送实时定位与异常上报  
+DOMAIN-SUFFIX,assets.ele.me # 饿了么前端资源域名，用于加载 UI、地图、组件等静态资源  
+DOMAIN-SUFFIX,log.waimai.meituan.com # 美团数据分析平台，部分专送行为日志可能回传至该域名  
+
+# > 蜂鸟优选相关域名（Ele.me Preferred Delivery）
+
+DOMAIN-SUFFIX,home.ele.me # 蜂鸟优选主页入口，用于用户选品、下单与配送服务  
+DOMAIN-SUFFIX,choice.ele.me # 蜂鸟优选活动与推荐页，含商品促销与定向内容  
+DOMAIN-SUFFIX,ele-static.ele.me # 蜂鸟优选静态资源域名，用于加载图片、脚本等页面内容  
+DOMAIN-SUFFIX,productapi.ele.me # 蜂鸟优选商品与库存 API 接口，用于商品信息请求  
+DOMAIN-SUFFIX,shopping.ele.me # 蜂鸟优选购物流程接口，支持下单、支付与订单查询  
+DOMAIN-SUFFIX,logstore.ele.me # 蜂鸟优选行为数据收集接口，用于用户行为分析与推荐优化  
+DOMAIN-SUFFIX,feedback.ele.me # 用户反馈与售后支持接口，用于服务评价与问题提交  
+
+# > 每日优鲜相关域名（MissFresh Grocery Delivery）
+
+DOMAIN-SUFFIX,missfresh.cn # 每日优鲜主站域名，用于官网展示与用户服务入口  
+DOMAIN-SUFFIX,api.missfresh.cn # 每日优鲜主 API 接口域名，用于商品查询、订单处理等核心功能  
+DOMAIN-SUFFIX,img.missfresh.cn # 每日优鲜图片 CDN 域名，负责商品图片与页面资源加载  
+DOMAIN-SUFFIX,static.missfresh.cn # 每日优鲜静态资源服务域名，用于前端页面组件加载  
+DOMAIN-SUFFIX,track.missfresh.cn # 每日优鲜行为追踪与埋点分析域名，用于数据采集与广告归因  
+DOMAIN-SUFFIX,log.missfresh.cn # 每日优鲜客户端日志上报接口，用于故障分析与性能监控  
+DOMAIN-SUFFIX,wx.missfresh.cn # 每日优鲜微信服务域名，用于小程序与微信登录相关功能  
+DOMAIN-SUFFIX,passport.missfresh.cn # 每日优鲜账号认证域名，用于用户注册、登录与身份校验  
+
+# > 盒马鲜生相关域名（Hema Fresh by Alibaba）
+
+DOMAIN-SUFFIX,hemaos.com # 盒马鲜生主域名，用于官网、商城与下单服务  
+DOMAIN-SUFFIX,hemaapp.com # 盒马鲜生 App 使用的辅助域名，用于接口与埋点服务  
+DOMAIN-SUFFIX,himalaya-h5.hemaos.com # 盒马小程序与H5页面加载服务  
+DOMAIN-SUFFIX,api.hemaos.com # 盒马 API 接口域名，支持下单、支付、物流等核心服务  
+DOMAIN-SUFFIX,cdn.hemaos.com # 盒马静态资源 CDN 域名，用于分发商品图片与页面资源  
+DOMAIN-SUFFIX,passport.hemaos.com # 盒马用户身份认证域名，支持登录与权限验证  
+DOMAIN-SUFFIX,log.hemaos.com # 盒马客户端日志与错误上报服务域名  
+DOMAIN-SUFFIX,track.hemaos.com # 盒马用户行为追踪与广告归因域名  
+DOMAIN-SUFFIX,alilog.hemaos.com # 盒马日志采集与性能分析域名，接入阿里云日志服务  
+DOMAIN-SUFFIX,ucdl.hemamax.com # 盒马下载中心域名，可能涉及 APK 分发与更新逻辑  
+
+# > 叮咚买菜相关域名（Dingdong Maicai）
+
+DOMAIN-SUFFIX,ddxq.mobi # 叮咚买菜主域名，用于下单、支付、用户操作等核心服务  
+DOMAIN-SUFFIX,front.ddxq.mobi # 叮咚买菜前端页面加载服务，用于商品浏览与页面渲染  
+DOMAIN-SUFFIX,static.ddxq.mobi # 叮咚买菜静态资源 CDN，用于图片、脚本与样式加载  
+DOMAIN-SUFFIX,activity.ddxq.mobi # 叮咚买菜活动与营销接口域名，用于优惠与推广  
+DOMAIN-SUFFIX,api.ddxq.mobi # 叮咚买菜 API 接口域名，支持下单、用户数据、商品信息等  
+DOMAIN-SUFFIX,track.ddxq.mobi # 叮咚买菜埋点与行为追踪域名，用于广告归因与用户分析  
+DOMAIN-SUFFIX,log.ddxq.mobi # 叮咚买菜客户端日志采集与异常上报服务  
+DOMAIN-SUFFIX,img.ddxq.mobi # 叮咚买菜图片资源域名，用于商品图加载与资源展示  
+DOMAIN-SUFFIX,passport.ddxq.mobi # 叮咚买菜身份认证域名，用于登录、Token 验证等服务  
+DOMAIN-SUFFIX,appdl.ddxq.mobi # 叮咚买菜客户端下载与更新域名  
+
+# > 达达骑士相关域名（Dada Delivery Rider）
+
+DOMAIN-SUFFIX,dada.cn # 达达配送主域名，用于骑手任务调度、账户服务等  
+DOMAIN-SUFFIX,newretail.dada.cn # 达达新零售平台接口，含订单接收与调度服务  
+DOMAIN-SUFFIX,static.dada.cn # 达达静态资源服务域名，用于脚本、样式、图片加载  
+DOMAIN-SUFFIX,track.dada.cn # 达达位置轨迹与行为上报接口，用于骑手定位与任务追踪  
+DOMAIN-SUFFIX,cdn.dada.cn # 达达 CDN 加速服务，用于资源分发与性能优化  
+DOMAIN-SUFFIX,passport.dada.cn # 达达用户认证与登录鉴权服务  
+DOMAIN-SUFFIX,report.dada.cn # 达达任务完成与异常上报接口  
+DOMAIN-SUFFIX,appdl.dada.cn # 达达 App 下载与更新服务域名  
+
+# > 顺丰骑士相关域名（SF Express Rider）
+
+DOMAIN-SUFFIX,sfrexpress.com # 顺丰速运主站域名，用于物流业务与用户服务  
+DOMAIN-SUFFIX,sf-express.com # 顺丰速运国际/旧版域名，部分服务仍在使用  
+DOMAIN-SUFFIX,ic-dev.sf-express.com # 顺丰骑士 APP 测试与接口联调域名  
+DOMAIN-SUFFIX,courier.sf-express.com # 顺丰骑士任务管理接口，用于派单、签到与轨迹上报  
+DOMAIN-SUFFIX,courierapp.sf-express.com # 顺丰骑士 App 更新与服务入口域名  
+DOMAIN-SUFFIX,dl-cdn.sf-express.com # 顺丰 CDN 加速服务域名，用于客户端资源下载与更新  
+DOMAIN-SUFFIX,app.sf-express.com # 顺丰客户端服务入口，用于用户端与骑士端共用服务调用
+
+# > 闪送相关域名（Shansong Express）
+
+DOMAIN-SUFFIX,shansong.cn # 闪送主站域名，用于官网、用户服务与骑手登录入口  
+DOMAIN-SUFFIX,api.shansong.cn # 闪送核心 API 接口域名，处理订单分发、位置上报等服务  
+DOMAIN-SUFFIX,oss.shansong.cn # 闪送图片与文件存储服务域名  
+DOMAIN-SUFFIX,passport.shansong.cn # 闪送统一身份认证平台，涉及登录验证与用户信息管理  
+DOMAIN-SUFFIX,h5.shansong.cn # 闪送移动端页面入口，用于活动页、订单详情等 H5 页面加载  
+DOMAIN-SUFFIX,cdn.shansong.cn # 闪送静态资源 CDN 域名，用于加速骑手端与用户端页面加载  
+DOMAIN-SUFFIX,activity.shansong.cn # 闪送活动平台域名，用于优惠券发放、骑手激励等活动逻辑  
+
+# > 点我达相关域名（Dianwoda Delivery）
+
+DOMAIN-SUFFIX,dianwoda.com # 点我达主站域名，用于官网展示、用户服务与骑手入口  
+DOMAIN-SUFFIX,api.dianwoda.com # 点我达核心 API 接口域名，处理订单调度、位置同步与骑手操作  
+DOMAIN-SUFFIX,passport.dianwoda.com # 点我达统一身份认证平台，用于登录验证与用户管理  
+DOMAIN-SUFFIX,cdn.dianwoda.com # 点我达静态资源 CDN 域名，用于骑手端与用户端资源分发  
+DOMAIN-SUFFIX,activity.dianwoda.com # 点我达活动平台域名，用于优惠活动与激励政策展示  
+DOMAIN-SUFFIX,oss.dianwoda.com # 点我达对象存储服务域名，用于图片与文件存储加载  
+DOMAIN-SUFFIX,h5.dianwoda.com # 点我达 H5 页面域名，支持移动端订单详情与任务处理  
+
+# > 达达骑士相关域名（Dada Delivery）
+
+DOMAIN-SUFFIX,imdada.cn # 达达骑士服务主域名，用于调度、任务处理与位置同步  
+DOMAIN-SUFFIX,newimdada.cn # 达达新版服务接口域名，用于订单处理与骑手平台功能  
+DOMAIN-SUFFIX,passport.imdada.cn # 达达身份验证与统一登录平台  
+DOMAIN-SUFFIX,api.imdada.cn # 达达 API 服务接口，处理骑手任务调度与订单信息  
+DOMAIN-SUFFIX,track.imdada.cn # 达达实时位置上报与轨迹追踪接口  
+DOMAIN-SUFFIX,cdn.imdada.cn # 达达静态资源 CDN，提供 APP 资源与 H5 页面加载  
+DOMAIN-SUFFIX,activity.imdada.cn # 达达骑士端激励与奖励活动域名  
+DOMAIN-SUFFIX,imfile.imdada.cn # 达达文件服务域名，用于上传图片、文件等资源  
+
+# > UU 跑腿相关域名（UU Runner）
+
+DOMAIN-SUFFIX,uupaotui.com # UU 跑腿主域名，用于官网、业务入口与订单处理  
+DOMAIN-SUFFIX,api.uupaotui.com # UU 跑腿 API 接口域名，用于任务调度与骑手操作  
+DOMAIN-SUFFIX,passport.uupaotui.com # UU 跑腿统一身份验证平台  
+DOMAIN-SUFFIX,cdn.uupaotui.com # UU 跑腿 CDN 域名，用于客户端静态资源分发  
+DOMAIN-SUFFIX,h5.uupaotui.com # UU 跑腿 H5 页面域名，支持任务查看与状态更新  
+DOMAIN-SUFFIX,oss.uupaotui.com # UU 跑腿对象存储域名，用于图像与附件上传  
+
+# > 顺丰同城骑士相关域名（SF City Delivery）
+
+DOMAIN-SUFFIX,sfccdn.com # 顺丰同城服务 CDN 域名，用于资源分发与前端静态页面加载  
+DOMAIN-SUFFIX,sfcityrush.com # 顺丰同城骑士主域名，用于骑手任务管理与调度系统  
+DOMAIN-SUFFIX,api.sfcityrush.com # 顺丰同城 API 接口域名，用于订单处理与状态同步  
+DOMAIN-SUFFIX,h5.sfcityrush.com # 顺丰同城 H5 页面域名，提供骑手操作与任务详情查看  
+DOMAIN-SUFFIX,passport.sfcityrush.com # 顺丰同城登录与身份验证服务  
+DOMAIN-SUFFIX,oss.sfcityrush.com # 顺丰同城对象存储服务，用于文件、图片上传与下载  
+
 # > 饿了么相关域名（Ele.me 本地生活服务）
 
 DOMAIN-SUFFIX,ele.me # 饿了么主站域名，用于点餐与外卖服务入口  
