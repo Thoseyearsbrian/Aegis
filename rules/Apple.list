@@ -74,6 +74,8 @@ DOMAIN-SUFFIX,mzstatic.com # 内容分发 CDN
 DOMAIN-SUFFIX,applemusic.com # Apple Music 官方服务
 DOMAIN-SUFFIX,applemusicconnect.com # Apple Music 社交功能（历史服务）
 DOMAIN-SUFFIX,apple-livephotoskit.com # Live Photos 相关服务
+DOMAIN-SUFFIX,amp-api-edge.apps.apple.com # Apple App Store 内容接口（边缘 API 加速节点）
+DOMAIN-SUFFIX,is1-ssl.mzstatic.com # Apple 媒体资源 CDN（iTunes / App Store 图标与封面）
 
 # > 推送与通知服务（Push Services）
 
