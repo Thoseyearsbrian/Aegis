@@ -289,7 +289,7 @@ DOMAIN-SUFFIX,cdn.hemaos.com # 盒马静态资源 CDN 域名，用于分发商�
 DOMAIN-SUFFIX,passport.hemaos.com # 盒马用户身份认证域名，支持登录与权限验证  
 DOMAIN-SUFFIX,log.hemaos.com # 盒马客户端日志与错误上报服务域名  
 DOMAIN-SUFFIX,track.hemaos.com # 盒马用户行为追踪与广告归因域名  
-DOMAIN-SUFFIX,alilog.hemaos.com # 盒马日志采集与性能分析域名，接入阿里云日志服务  
+DOMAIN-SUFFIX,alilog.hemaos.com # 盒马日志采集与性能分析域名
 DOMAIN-SUFFIX,ucdl.hemamax.com # 盒马下载中心域名，可能涉及 APK 分发与更新逻辑  
 
 # > 叮咚买菜相关域名（Dingdong Maicai）
@@ -879,8 +879,7 @@ DOMAIN-SUFFIX,tmall.com # 天猫商城主域名，为品牌商家提供零售平
 DOMAIN-SUFFIX,tmall.hk # 天猫国际站，面向海外品牌与用户  
 DOMAIN-SUFFIX,alipay.com # 支付宝支付平台域名  
 DOMAIN-SUFFIX,taobaocdn.com # 淘宝CDN静态资源分发域名  
-DOMAIN-SUFFIX,alicdn.com # 阿里全系产品内容分发域名  
-DOMAIN-SUFFIX,alibabacloud.com # 阿里云服务接口，提供图像识别、登录验证等功能  
+DOMAIN-SUFFIX,alicdn.com # 阿里全系产品内容分发域名   
 DOMAIN-SUFFIX,mmstat.com # 阿里数据分析与埋点上报域名  
 DOMAIN-SUFFIX,amdc.alipay.com # 移动设备配置服务域名，涉及风控与认证逻辑  
 
@@ -959,12 +958,18 @@ DOMAIN-SUFFIX,alibabausercontent.com # 阿里巴巴图片与静态资源内容�
 DOMAIN-SUFFIX,aliapp.org # 阿里系 App 公共接口域名，含监控与安全服务  
 DOMAIN-SUFFIX,aliimg.com # 阿里巴巴集团图像资源加载域名  
 DOMAIN-SUFFIX,alimama.com # 阿里妈妈广告联盟服务域名  
-DOMAIN-SUFFIX,alihealth.com # 阿里健康服务平台域名，用于医疗电商与健康服务  
-DOMAIN-SUFFIX,alicloud.com # 阿里云国际站主域名，提供全球云计算服务  
-DOMAIN-SUFFIX,aliyun.com # 阿里云中国站主域名，包含云计算、DNS、CDN 等服务  
-DOMAIN-SUFFIX,aliyuncs.com # 阿里云存储与 API 服务接口域名  
-DOMAIN-SUFFIX,alicdn.com # 阿里云 CDN 内容分发与静态资源加载域名  
+DOMAIN-SUFFIX,alihealth.com # 阿里健康服务平台域名，用于医疗电商与健康服务   
 DOMAIN-SUFFIX,yuque.com # 语雀文档平台，阿里巴巴旗下在线文档与知识库服务  
+
+# > 阿里云（Alibaba Cloud）
+
+DOMAIN-SUFFIX,aliyun.com # 阿里云官网及控制台主域名  
+DOMAIN-SUFFIX,alicloud.com # 阿里云国际站主域名，提供全球云计算服务   
+DOMAIN-SUFFIX,aliyuncs.com # 阿里云对象存储 OSS 与 CDN 服务域名  
+DOMAIN-SUFFIX,alicdn.com # 阿里云 CDN 内容分发与静态资源加载域名  
+DOMAIN-SUFFIX,alibabacloud.com # 阿里云国际站域名，服务海外用户  
+DOMAIN-SUFFIX,hichina.com # 阿里云旗下万网服务，涉及域名注册与管理  
+DOMAIN-SUFFIX,alibabacloud.com # 阿里云服务接口，提供图像识别、登录验证等功能 
 
 # > 转转平台相关域名（Zhuanzhuan）
 
@@ -1198,13 +1203,6 @@ DOMAIN-SUFFIX,adx.uc.cn # UC 广告投放平台接口，负责商业广告内容
 DOMAIN-SUFFIX,track.uc.cn # UC 用户行为数据追踪与归集接口  
 DOMAIN-SUFFIX,uc.ucweb.com # UC 浏览器初始化与配置服务接口  
 
-# > 阿里云（Alibaba Cloud）
-
-DOMAIN-SUFFIX,aliyun.com # 阿里云官网及控制台主域名  
-DOMAIN-SUFFIX,aliyuncs.com # 阿里云对象存储 OSS 与 CDN 服务域名  
-DOMAIN-SUFFIX,alibabacloud.com # 阿里云国际站域名，服务海外用户  
-DOMAIN-SUFFIX,hichina.com # 阿里云旗下万网服务，涉及域名注册与管理  
-
 # > 腾讯云（Tencent Cloud）
 
 DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名  
@@ -1262,7 +1260,6 @@ DOMAIN-SUFFIX,7k7k.com # 7k7k小游戏平台
 
 # > 企业服务 / 办公平台（Enterprise / Productivity）
 
-DOMAIN-SUFFIX,aliyun.com # 阿里云（办公场景）
 DOMAIN-SUFFIX,tencentcloud.com # 腾讯云
 DOMAIN-SUFFIX,huaweicloud.com # 华为云
 DOMAIN-SUFFIX,dingtalk.com # 钉钉

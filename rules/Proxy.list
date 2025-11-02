@@ -166,7 +166,6 @@ DOMAIN-SUFFIX,muscdn.com # TikTok 历史内容分发域（旧版本视频、音�
 DOMAIN-SUFFIX,byteoversea.com # 字节跳动国际服务平台域名（TikTok 母公司海外 CDN 与接口）
 DOMAIN-SUFFIX,bytedance.com # 字节跳动官网与底层接口平台（账号、云服务等通用支持）
 IP-CIDR,161.117.0.0/16 # TikTok / ByteDance 海外服务通信段（新加坡集群）
-IP-CIDR,47.246.0.0/16 # TikTok 全球 CDN 与边缘服务（Akash + 阿里云节点，常见于视频加载）
 
 # » GoWish 平台相关域名（愿望清单服务）
 
