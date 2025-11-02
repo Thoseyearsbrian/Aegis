@@ -36,7 +36,12 @@ DOMAIN-SUFFIX,audio.chat.qq.com # 音频通话相关接口
 DOMAIN-SUFFIX,dl.music.qq.com # 音乐小程序音频资源域名
 DOMAIN-SUFFIX,res.servicewechat.com # 配置、热更新、JS SDK 模块加载
 DOMAIN-SUFFIX,dldir1v6.qq.com # 微信/QQ 客户端资源下载（支持 IPv6）
-IP-CIDR,101.226.142.218 # 微信视频内容或广告接口使用的 CDN 节点，归属 UCloud，部分通信可能用于视频加载与内容推送
+IP-CIDR,101.226.142.218 # 微信视频内容 CDN 节点，UCloud  
+IP-CIDR,183.61.169.163 # 微信 CDN 节点，腾讯云  
+IP-CIDR,101.227.132.113 # 微信通信节点，中国移动  
+IP-CIDR,101.227.132.75 # 微信音视频接口节点  
+IP-CIDR,180.102.99.108 # 微信内容接口节点，中国电信  
+IP-CIDR,106.39.206.70 # 微信接入节点，中国联通  
 
 # > 小程序 / 微信支付 / 微信广告（Mini Programs / Pay / Ads）
 
@@ -115,3 +120,4 @@ IP-CIDR,58.212.47.187 # 微信媒体节点
 IP-CIDR,175.6.84.70 # 微信长连接通信  
 IP-CIDR,117.89.177.107 # 微信消息通道  
 IP-CIDR,112.65.193.165 # 微信 MMTLS 通道节点
+IP-CIDR,112.65.193.165   # 微信 MMTLS 加密节点，阿里云  
