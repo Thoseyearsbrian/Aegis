@@ -31,6 +31,15 @@ DOMAIN-SUFFIX,clientlog.alipay.com # 客户端调试与日志接口，记录崩�
 DOMAIN-SUFFIX,securitysdk.alipay.com # 支付宝安全 SDK 相关服务接口  
 DOMAIN-SUFFIX,loggw-external.alipay.com # 第三方数据统计专用日志网关  
 
+# > 中国银联相关域名（China UnionPay）
+
+DOMAIN-SUFFIX,cup.com.cn # 中国银联主域名，用于官网、支付系统及多项服务
+DOMAIN-SUFFIX,95516.com # 中国银联客服与支付相关门户网站域名
+DOMAIN-SUFFIX,acpstatic.cup.com.cn # 银联 ACP 支付平台静态资源域名，用于支付页面与接口加载
+DOMAIN-SUFFIX,open.95516.com # 银联开放平台 API 接口域名，用于商户接入与服务对接
+DOMAIN-SUFFIX,upapi.95516.com # 银联在线支付 API 域名，用于订单验证与交易请求处理
+DOMAIN-SUFFIX,cdn.cup.com.cn # 中国银联 CDN 加速服务域名，服务于官网与支付系统资源加载
+
 # > 云闪付相关域名（UnionPay App）
 
 DOMAIN-SUFFIX,95516.com # 银联官方主站域名，用于云闪付门户、账户登录等服务  
