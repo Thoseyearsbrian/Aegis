@@ -6,6 +6,10 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-11-2
 
+# > iPhone 热点
+
+IP-CIDR,172.20.10.0/24
+
 # > 搜索引擎（Search Engines）
 
 DOMAIN-SUFFIX,baidu.com # 百度搜索引擎
