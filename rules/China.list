@@ -971,6 +971,15 @@ DOMAIN-SUFFIX,alibabacloud.com # 阿里云国际站域名，服务海外用户
 DOMAIN-SUFFIX,hichina.com # 阿里云旗下万网服务，涉及域名注册与管理  
 DOMAIN-SUFFIX,alibabacloud.com # 阿里云服务接口，提供图像识别、登录验证等功能 
 
+# > 腾讯云（Tencent Cloud）
+
+DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名  
+DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云 API 接口调用域名  
+DOMAIN-SUFFIX,myqcloud.com # 腾讯云 COS 对象存储服务域名  
+DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云品牌官网入口  
+DOMAIN-SUFFIX,gtimg.cn # 腾讯静态资源域名
+DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net # 腾讯云 TEG 平台下属服务域名
+
 # > 转转平台相关域名（Zhuanzhuan）
 
 DOMAIN-SUFFIX,zhuanzhuan.com # 转转主站域名，二手交易与平台服务  
@@ -1202,15 +1211,6 @@ DOMAIN-SUFFIX,adashx4serv.uc.cn # UC SDK 广告行为分析与回传
 DOMAIN-SUFFIX,adx.uc.cn # UC 广告投放平台接口，负责商业广告内容加载  
 DOMAIN-SUFFIX,track.uc.cn # UC 用户行为数据追踪与归集接口  
 DOMAIN-SUFFIX,uc.ucweb.com # UC 浏览器初始化与配置服务接口  
-
-# > 腾讯云（Tencent Cloud）
-
-DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名  
-DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云 API 接口调用域名  
-DOMAIN-SUFFIX,myqcloud.com # 腾讯云 COS 对象存储服务域名  
-DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云品牌官网入口  
-DOMAIN-SUFFIX,gtimg.cn # 腾讯静态资源域名
-DOMAIN-SUFFIX,gtimg.com # 腾讯静态资源域名
 
 # > 百度智能云（Baidu Cloud）
 
