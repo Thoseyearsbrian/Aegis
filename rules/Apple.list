@@ -85,6 +85,7 @@ DOMAIN-SUFFIX,47-courier.push.apple.com # 推送节点（第 47 区）
 DOMAIN-SUFFIX,48-courier.push.apple.com # 推送节点（第 48 区）
 DOMAIN-SUFFIX,gateway.push.apple.com # 推送通信网关
 DOMAIN-SUFFIX,init.push.apple.com # 初始推送配置服务
+DOMAIN-SUFFIX,2-courier.push.apple.com  # 推送通知服务子域
 
 # > Relay / 隐私保护服务（Relay & Privacy Services）
 
