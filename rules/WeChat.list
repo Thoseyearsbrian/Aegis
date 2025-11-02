@@ -22,7 +22,8 @@ DOMAIN-SUFFIX,mp.weixin.qq.com # 微信公众平台，公众号内容加载（�
 DOMAIN-SUFFIX,zhida.baidu.com # 微信内搜索调用（嵌入百度）
 DOMAIN-SUFFIX,hmma.baidu.com # 微信内嵌浏览器使用百度统计
 DOMAIN-SUFFIX,weixin.qq.com # 微信主域名，所有核心服务的入口，包括登录、同步、通信等功能  
-DOMAIN-SUFFIX,dns.weixin.qq.com.cn # 微信专用 DNS 接入域名，服务于加密通道与通信节点的域名解析，部分场景用于规避传统解析流程
+DOMAIN-SUFFIX,dns.weixin.qq.com.cn # 微信专用 DNS 解析域名  
+DOMAIN-SUFFIX,add-pcdnwxlogin.teg.tencent-cloud.net # 微信登录加速域名  
 
 # > 多媒体与文件传输（Media & File Transfer）
 
@@ -108,4 +109,8 @@ IP-CIDR,101.91.37.39 # 微信专用加密通信节点
 IP-CIDR,61.151.230.226 # 微信加密通信服务节点
 IP-CIDR,101.91.37.18 # 微信音视频传输节点，部署于 UCloud  
 IP-CIDR,101.226.142.218 # 微信视频与广告内容 CDN，归属 UCloud  
-IP-CIDR,101.91.37.36 # 微信多媒体内容分发节点  
+IP-CIDR,101.91.37.36 # 微信多媒体内容分发节点 
+IP-CIDR,140.249.64.107 # 微信内容节点  
+IP-CIDR,58.212.47.187 # 微信媒体节点  
+IP-CIDR,175.6.84.70 # 微信长连接通信  
+IP-CIDR,117.89.177.107 # 微信消息通道  
