@@ -54,6 +54,7 @@ DOMAIN-SUFFIX,p212-mcc.icloud.com.cn # 配置管理节点
 DOMAIN-SUFFIX,mask.icloud.com # 隐私邮箱转发服务（隐藏我的邮箱）
 DOMAIN-SUFFIX,mask-h2.icloud.com # 隐私邮箱 HTTP/2 通道
 DOMAIN-SUFFIX,mail.icloud.com.cn  # Apple iCloud 国区邮件服务域名
+DOMAIN-SUFFIX,p212-imap.mail.icloud.com.cn # Apple iCloud 国区邮件服务域名
 IP-CIDR,139.178.128.0/18 # Apple iCloud 数据中心段
 
 # > App Store / 内容分发与媒体（App Store & Media）
