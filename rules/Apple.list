@@ -82,6 +82,7 @@ DOMAIN-SUFFIX,is1-ssl.mzstatic.com # Apple 媒体资源 CDN（iTunes / App Store
 DOMAIN-SUFFIX,push.apple.com # Apple 推送主域名
 DOMAIN-SUFFIX,courier.push.apple.com # 推送中转服务器
 DOMAIN-SUFFIX,18-courier.push.apple.com # 推送节点（第 18 区）
+DOMAIN-SUFFIX,37-courier.push.apple.com # 推送节点（第 37 区）
 DOMAIN-SUFFIX,45-courier.push.apple.com # 推送节点（第 45 区）
 DOMAIN-SUFFIX,47-courier.push.apple.com # 推送节点（第 47 区）
 DOMAIN-SUFFIX,48-courier.push.apple.com # 推送节点（第 48 区）
@@ -166,6 +167,7 @@ DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务，建议封锁�
 DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
 DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，已停用但可能残留请求）
 DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）
+DOMAIN-SUFFIX,ca.iadsdk.apple.com # Apple iAd 广告 SDK 子域，用于广告归因/跟踪服务
 
 # > 已列入 Behavior_Block.list明细：--建议封锁
 
