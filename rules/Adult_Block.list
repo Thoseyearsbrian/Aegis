@@ -4,7 +4,7 @@
 # - 特征：涵盖成人网站、成人广告服务、NSFW 内容域名
 # - 用途：本规则集用于拦截成人相关域名，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-1
+# - 更新时间：2025-11-2
 
 # > 成人相关域名
 
@@ -1134,7 +1134,6 @@ DOMAIN-SUFFIX,15b37.skroc.pl # 成人相关域名
 DOMAIN-SUFFIX,15gts.tumblr.com # 成人相关域名
 DOMAIN-SUFFIX,15minadlt.hit.gemius.pl # 成人相关域名
 DOMAIN-SUFFIX,161sex.com # 成人相关域名
-DOMAIN-SUFFIX,163.com # 成人相关域名
 DOMAIN-SUFFIX,165013.cc # 成人相关域名
 DOMAIN-SUFFIX,165a7.v.fwmrm.net # 成人相关域名
 DOMAIN-SUFFIX,16honeys.com # 成人相关域名
