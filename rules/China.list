@@ -137,6 +137,14 @@ DOMAIN-SUFFIX,nav.map.qq.com # 腾讯地图导航模块接口，提供路径导�
 DOMAIN-SUFFIX,photo.map.qq.com # 腾讯地图街景与地理照片加载服务  
 DOMAIN-SUFFIX,conf.map.qq.com # 地图组件动态配置接口，用于小程序与 SDK 调用  
 
+# > 16map 地图服务平台（第三方地图嵌入与位置服务）
+
+DOMAIN-SUFFIX,16map.com # 第三方地图服务平台主页，提供位置定位与地图嵌入服务
+DOMAIN-SUFFIX,api.16map.com # 地图服务 API 接口，用于坐标转换与位置解析，可能涉及位置回传
+DOMAIN-SUFFIX,static.16map.com # 静态资源子域，加载地图相关的 JS / CSS / 图片等前端资源
+DOMAIN-SUFFIX,cache.16map.com # 地图缓存节点，提升地图加载效率，常用于客户端离线资源管理
+DOMAIN-SUFFIX,jsapi.16map.com # JavaScript API 控件接口，供网页嵌入地图与调用定位服务
+
 # > 滴滴出行相关域名（DiDi Chuxing）
 
 DOMAIN-SUFFIX,didiglobal.com # 滴滴国际站主域名，提供海外出行业务服务  
