@@ -4,7 +4,13 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-10-29
+# - 更新时间：2025-11-2
+
+# > 苹果广告追踪域名（Apple Ad Tracking Domains）
+
+DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告归因 API
+DOMAIN-SUFFIX,iadsdk.apple.com # iAd 广告 SDK
+DOMAIN-SUFFIX,iad.apple.com # iAd 广告平台主域
 
 # > 通用广告追踪域名（General Ad Tracking）
 
