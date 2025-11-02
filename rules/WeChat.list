@@ -11,6 +11,7 @@
 
 DOMAIN-SUFFIX,wxapp.tc.qq.com # 小程序运行时通信入口
 DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com # 微信 SNS 资源接口（头像、状态）
+DOMAIN-SUFFIX,thirdqq.qlogo.cn # 微信与 QQ 头像加载域名  
 DOMAIN-SUFFIX,connect.wechat.com # 微信账号连接服务组件
 DOMAIN-SUFFIX,routerlong.weixin.qq.com # 多地域长连接接入服务
 DOMAIN-SUFFIX,notifylong.weixin.qq.com # 长连接通知备用入口
@@ -105,3 +106,6 @@ IP-CIDR,123.151.48.193 # 联通网络，北京 mmtls 上报路径
 IP-CIDR,112.65.193.167 # 微信 MMTLS 加密通道节点  
 IP-CIDR,101.91.37.39 # 微信专用加密通信节点 
 IP-CIDR,61.151.230.226 # 微信加密通信服务节点
+IP-CIDR,101.91.37.18 # 微信音视频传输节点，部署于 UCloud  
+IP-CIDR,101.226.142.218 # 微信视频与广告内容 CDN，归属 UCloud  
+IP-CIDR,101.91.37.36 # 微信多媒体内容分发节点  
