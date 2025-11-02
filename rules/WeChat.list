@@ -25,7 +25,9 @@ DOMAIN-SUFFIX,weixin.qq.com # 微信主域名，所有核心服务的入口，�
 DOMAIN-SUFFIX,dns.weixin.qq.com.cn # 微信专用 DNS 解析域名  
 DOMAIN-SUFFIX,add-pcdnwxlogin.teg.tencent-cloud.net # 微信登录加速域名  
 DOMAIN-SUFFIX,wxsmw.wxs.qq.com # 微信小程序安全模块接口，用于防篡改与验证机制 
+DOMAIN-SUFFIX,paydns.wechatpay.cn # 微信支付 DNS 服务域名，用于 mmtls 接入认证与加密通道初始化
 IP-CIDR,124.95.167.111 # 微信安全模块节点 wxsmw.wxs.qq.com 的通信 IP，部署于腾讯云
+
 
 # > 多媒体与文件传输（Media & File Transfer）
 
