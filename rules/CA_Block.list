@@ -1,10 +1,10 @@
-# » CA_Block.list（CA 信任封锁总模块）
+# > CA_Block.list（CA 信任封锁总模块）
 # - 分类：根证书信任控制 / 国家级监听防护 / CA 滥用阻断
 # - 来源：CA 证书吊销历史 / Mozilla Root Program / Chrome 根信任政策 / 安全社区情报
 # - 特征：封锁已被吊销或具有争议的根证书机构（如以色列、CNNIC、WoSign、俄罗斯等）相关验证域名与接口，防止伪造证书链中间人攻击
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-23
+# - 更新时间：2025-11-2
 
 # > Trustwave CA（美国，曾提供监听型中间证书）
 DOMAIN-SUFFIX,trustwave.com # Trustwave 主站

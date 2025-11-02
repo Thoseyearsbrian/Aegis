@@ -1,4 +1,4 @@
-# » Behavior_Block.list（行为指纹与云服务分析规则集）
+# > Behavior_Block.list（行为指纹与云服务分析规则集）
 # - 分类：通信行为指纹 / 云服务遥测 / SDK 分析节点
 # - 来源：DNS/TLS 抓包分析 / 安全研究情报 / SDK 回连行为溯源
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
@@ -53,21 +53,21 @@ DOMAIN-SUFFIX,sentry.cloudflare.com # 行为分析追踪系统
 DOMAIN-SUFFIX,o33249.ingest.us.sentry.io # Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
 DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 监控上报域名，GPT 应用用于收集前端性能指标与异常信息
 
-# » Ticketmaster 分析与广告服务（可选是否归入行为分析）
+# > Ticketmaster 分析与广告服务（可选是否归入行为分析）
 
 DOMAIN-SUFFIX,analytics.ticketmaster.com # 用户行为分析与数据收集
 DOMAIN-SUFFIX,ads.ticketmaster.com # 广告与推广服务接口
 
-# » Cash App 广告与行为追踪（可移入其他模块）
+# > Cash App 广告与行为追踪（可移入其他模块）
 
 DOMAIN-SUFFIX,analytics.cash.app # 用户行为数据与分析系统
 DOMAIN-SUFFIX,ads.cash.app # 推广与广告平台接口
 
-# » SHEIN
+# > SHEIN
 
 DOMAIN-SUFFIX,uberinternal.com # Uber 内部服务域（日志与行为上报）
 
-# » Coinbase 加密货币平台
+# > Coinbase 加密货币平台
 
 DOMAIN-SUFFIX,analytics.coinbase.com  # Coinbase 用户行为分析与打点服务
 
@@ -214,20 +214,20 @@ DOMAIN-SUFFIX,control.mesa-lab.net # MESA 控制 / 任务下发接口
 
 DOMAIN-SUFFIX,dlandroid.rcv.sandai.net  # 迅雷 Android 客户端行为监听接口，使用 HTTP 明文通信，上报遥测数据
 
-# » Reddit 行为指纹与事件上报服务
+# > Reddit 行为指纹与事件上报服务
 
 DOMAIN-SUFFIX,events.redditmedia.com # Reddit 媒体内容统计与事件上报服务（广告行为追踪）
 
-# » 行为分析与网站工具相关域名
+# > 行为分析与网站工具相关域名
 
 DOMAIN-SUFFIX,tool.chinaz.com # 站长工具主站服务域名，提供 IP 查询、SEO 分析等站长工具功能
 DOMAIN-SUFFIX,csstools.chinaz.com # 站长工具 CSS 前端工具子域，用于网页样式调试与生成服务
 
-# » Atlassian 云平台域名（Jira / Confluence / Bitbucket 等服务）-可疑
+# > Atlassian 云平台域名（Jira / Confluence / Bitbucket 等服务）-可疑
 
 DOMAIN-SUFFIX,atl-paas.net # Atlassian 云平台基础设施域名，用于前端资源分发与服务接入（如 Jira、Confluence）
 DOMAIN-SUFFIX,ds-cdn.prod-east.frontend.public.atl-paas.net # Atlassian 前端资源 CDN 域名（Jira 页面 UI 加载等）
 
-# » 潜在远程控制或监听节点（SoftLayer）
+# > 潜在远程控制或监听节点（SoftLayer）
 
 IP-CIDR,74.86.151.167 # 美国 SoftLayer 数据中心公网主机，开放 HTTPS 服务（443 端口），疑似运行端口映射或远程控制组件，存在潜在监听风险

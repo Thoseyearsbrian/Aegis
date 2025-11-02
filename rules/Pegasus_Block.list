@@ -1,10 +1,10 @@
-# » Pegasus_Block.list（飞马间谍软件高风险域名规则集）
+# > Pegasus_Block.list（飞马间谍软件高风险域名规则集）
 # - 分类：APT 攻击 / 间谍软件 / 高危监听行为
 # - 来源：[@AmnestyTech](https://github.com/AmnestyTech) Pegasus IOC 报告 / 安全社区分析 / 实际公开 IOC 披露
 # - 特征：涵盖 Pegasus 使用的 C2 控制器、重定向节点、监听投递域名等高风险基础设施
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-09-29
+# - 更新时间：2025-11-2
 
 DOMAIN-SUFFIX,regularhours.net
 DOMAIN-SUFFIX,123tramites.com

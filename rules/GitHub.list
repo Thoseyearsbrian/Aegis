@@ -1,4 +1,4 @@
-# » GitHub.list（GitHub 平台服务规则集）
+# > GitHub.list（GitHub 平台服务规则集）
 # - 分类：开发者平台 / 代码托管服务 / 策略识别用途
 # - 来源：GitHub 官方文档 / 实测抓包 / 社区规则整理
 # - 特征：涵盖 GitHub 主域名、子服务与 CDN 资源
@@ -16,14 +16,14 @@ DOMAIN-SUFFIX,github.blog # GitHub 官方博客平台（产品动态 / 公告）
 DOMAIN-SUFFIX,githubcopilot.com # GitHub Copilot AI 编程助手服务
 DOMAIN,alive.github.com # GitHub 实时通知 / WebSocket 接口子域，用于事件推送与仓库通知等功能
 
-# >> GitHub API 接口（CLI、Git操作、Webhook、REST/GraphQL）
+# > GitHub API 接口（CLI、Git操作、Webhook、REST/GraphQL）
 DOMAIN-SUFFIX,api.github.com # GitHub API 接口主域（REST/GraphQL）
 DOMAIN-SUFFIX,codeload.github.com # GitHub 文件下载/打包服务
 DOMAIN-SUFFIX,nodeload.github.com # GitHub NodeJS 相关包下载服务
 DOMAIN-KEYWORD,raw.githubusercontent.com # GitHub 原始文件（如 hosts、规则等）
 DOMAIN-KEYWORD,avatars.githubusercontent.com # GitHub 用户头像加载
 
-# >> GitHub Actions 相关服务（Runner下载等）
+# > GitHub Actions 相关服务（Runner下载等）
 DOMAIN-SUFFIX,actions.githubusercontent.com # GitHub Actions 执行服务
 DOMAIN-SUFFIX,ghcr.io # GitHub Container Registry（Docker 镜像）
 DOMAIN-SUFFIX,github.cloud.capriza.com # GitHub 企业服务 API 接入（部分）

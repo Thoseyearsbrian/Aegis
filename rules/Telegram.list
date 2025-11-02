@@ -1,4 +1,4 @@
-# » Telegram.list（Telegram 服务识别规则集）
+# > Telegram.list（Telegram 服务识别规则集）
 # - 分类：即时通信平台 / 加密通讯服务 / 策略分流用途
 # - 来源：Telegram 官方文档 / 实测抓包 / 安全社区研究报
 # - 特征：识别 Telegram 相关的域名、IP 地址段与 ASN
@@ -7,6 +7,7 @@
 # - 更新时间：2025-11-2
 
 # > Telegram 域名规则
+
 DOMAIN-SUFFIX,telegram.org # Telegram 主站域名
 DOMAIN-SUFFIX,t.me # Telegram 短链服务（频道、用户跳转）
 DOMAIN-SUFFIX,telegram.me # Telegram 历史短链服务
@@ -28,11 +29,13 @@ DOMAIN-SUFFIX,telegram.space # Telegram 备用跳转域名
 DOMAIN-SUFFIX,telegramdownload.com # Telegram 客户端下载安装地址
 
 # > Telegram 第三方客户端域名
+
 DOMAIN-SUFFIX,api.swiftgram.app # Swiftgram 客户端 API 接口
 DOMAIN-SUFFIX,api.imem.app # iMe 客户端 API 接口
 DOMAIN-KEYWORD,nicegram # Nicegram 客户端相关通信域名
 
 # > Telegram ASN
+
 IP-ASN,211157 # Telegram ASN（荷兰）
 IP-ASN,44907 # Telegram ASN（瑞士）
 IP-ASN,59930 # Telegram ASN（英国）
@@ -40,6 +43,7 @@ IP-ASN,62014 # Telegram ASN（俄罗斯）
 IP-ASN,62041 # Telegram ASN（亚洲节点）
 
 # > Telegram IPv4
+
 IP-CIDR,91.108.0.0/16 # Telegram 核心通信网段
 IP-CIDR,149.154.160.0/20 # Telegram 通信备用网段
 IP-CIDR,5.28.192.0/18 # Telegram 历史使用通信段
@@ -49,6 +53,7 @@ IP-CIDR,139.59.210.98/32 # Telegram 静态资源 CDN 节点
 IP-CIDR,95.161.64.0/20 # Telegram 文件服务节点
 
 # > Telegram IPv6
+
 IP-CIDR6,2001:67c:4e8::/48 # Telegram 欧洲 IPv6 通信段
 IP-CIDR6,2001:b28:f23c::/47 # Telegram CDN IPv6 网段
 IP-CIDR6,2001:b28:f23d::/48 # Telegram 通信 IPv6 备用段
@@ -56,6 +61,7 @@ IP-CIDR6,2001:b28:f23f::/48 # Telegram IPv6 备用通信段
 IP-CIDR6,2a0a:f280::/29 # Telegram 欧洲备用 IPv6 节点段
 
 # > Telegram ASN 聚合匹配（冗余防漏匹配）
+
 IP-ASN,44907 # Telegram 欧洲通信 ASN
 IP-ASN,59930 # Telegram 英国 CDN ASN
 IP-ASN,62014 # Telegram 俄语区服务 ASN

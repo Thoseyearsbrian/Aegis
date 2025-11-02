@@ -1,13 +1,13 @@
-# » Google.list（Google 服务规则集）
+# > Google.list（Google 服务规则集）
 # - 分类：Google 核心服务 / 系统组件 / API 调用
 # - 来源：Google 官方文档 / 抓包识别 / 社区规则整理
 # - 特征：涵盖 Google 搜索、Gmail、安卓系统服务、开发者 API 等域名，适用于策略识别与分流
 # - 注意：广告追踪相关域名与 YouTube 已独立归类至 GoogleAds.list 与 YouTube.list，未包含在本规则中
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-29
+# - 更新时间：2025-11-2
 
-# >> 核心服务（Core Services）
+# > 核心服务（Core Services）
 
 DOMAIN-SUFFIX,google.com # Google 主域名（用于搜索、账户等核心服务）
 DOMAIN-SUFFIX,google.cn # Google 中国地区域名（已下线，但可能残留请求）
@@ -23,7 +23,7 @@ DOMAIN-SUFFIX,googletranslate.cn # Google 翻译服务中国区接口（非广�
 DOMAIN-SUFFIX,googletraveladservices.com # Google 旅游广告与搜索服务接口（归类为服务而非广告）
 DOMAIN-SUFFIX,blogger.googleusercontent.com # Google Blogger 静态内容托管域名（如图片、资源等），不属于广告域名
 
-# >> 开发者服务 / API / Cloud（API & Developer Tools）
+# > 开发者服务 / API / Cloud（API & Developer Tools）
 
 DOMAIN-SUFFIX,cloud.google.com # Google Cloud 云服务平台主域名（GCP 控制台）
 DOMAIN-SUFFIX,developers.google.com # Google 开发者文档与平台服务（含 API 文档）
@@ -40,7 +40,7 @@ DOMAIN-SUFFIX,chromium.org # Chromium 浏览器项目官方主站
 DOMAIN-SUFFIX,chromestatus.com # Chromium 功能发布状态跟踪平台
 DOMAIN-SUFFIX,gcr.io # Google Container Registry 容器镜像仓库（Kubernetes 相关）
 
-# >> Chrome 服务（Chrome Services）
+# > Chrome 服务（Chrome Services）
 
 DOMAIN-SUFFIX,chrome.com # Google Chrome 官方主页（浏览器主站）
 DOMAIN-SUFFIX,chromewebstore.com # Google Chrome 扩展商店（Chrome Web Store）
@@ -53,7 +53,7 @@ DOMAIN-SUFFIX,clients6.google.com # Google Chrome/安卓客户端更新接口（
 DOMAIN,notifications-pa.googleapis.com # Google 通知推送接口（Gmail、日历提醒、FCM 等）
 DOMAIN-SUFFIX,googleadapis.l.google.com # Google API 服务域名（内部/广告相关 API 调用）
 
-# >> 安卓生态 / FCM / Play 服务（Android & Play Services）
+# > 安卓生态 / FCM / Play 服务（Android & Play Services）
 
 DOMAIN-SUFFIX,android.com # Android 官方主站域名
 DOMAIN-SUFFIX,androidify.com # Androidify 项目域名（头像生成器，已停更）
@@ -69,7 +69,7 @@ DOMAIN-SUFFIX,mobileapptracking.com # Appsflyer 旗下归因分析平台域名�
 DOMAIN-SUFFIX,mtalk.google.com # FCM 推送服务主机域名（Firebase Cloud Messaging）
 DOMAIN-SUFFIX,fcm.googleapis.com # FCM 推送 API 接口（Firebase Cloud Messaging）
 
-# >> 教育与办公服务（G Suite / Workspace）
+# > 教育与办公服务（G Suite / Workspace）
 
 DOMAIN-SUFFIX,googleusercontent.com # Google 文件服务统一资源域名，用于 Drive、Docs 等静态资源托管
 DOMAIN-SUFFIX,googledrive.com # Google Drive 网页访问主域名
@@ -84,7 +84,7 @@ DOMAIN-SUFFIX,chat.google.com # Google Chat 即时通讯服务
 DOMAIN-SUFFIX,calendar.google.com # Google Calendar 日历服务
 DOMAIN-SUFFIX,keep.google.com # Google Keep 便签笔记服务
 
-# >> 其他服务与项目（Miscellaneous）
+# > 其他服务与项目（Miscellaneous）
 
 DOMAIN-SUFFIX,abc.xyz # Alphabet 母公司官网域名
 DOMAIN-SUFFIX,waymo.com # Waymo 自动驾驶项目主页

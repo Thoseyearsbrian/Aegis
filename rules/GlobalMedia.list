@@ -1,23 +1,23 @@
-# » Streaming_INTL.list（国外流媒体平台规则集）
+# > Streaming_INTL.list（国外流媒体平台规则集）
 # - 分类：国际流媒体平台 / 视频音乐服务 / 策略识别用途
 # - 来源：各地区主流平台域名抓包 / 社区规则整理 / 手动校验补充
 # - 特征：涵盖美洲、欧洲、日韩、东南亚等常见流媒体服务域名
 # - 注意：YouTube（Google）、Netflix、Disney+ 等平台已独立归类至对应模块：Google.list、Netflix.list、DisneyPlus.list
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-26
+# - 更新时间：2025-11-2
 
-# >> Amazon Prime Video
+# > Amazon Prime Video
 DOMAIN-SUFFIX,primevideo.com # 亚马逊 Prime Video
 DOMAIN-SUFFIX,primevideo.cc # 亚马逊 Prime 备用域名
 DOMAIN-SUFFIX,amazonvideo.com # Prime Video 内容播放平台
 DOMAIN-SUFFIX,aiv-cdn.net # Prime Video CDN
 
-# >> Apple TV+
+# > Apple TV+
 DOMAIN-SUFFIX,tv.apple.com # Apple TV+ 正式域名
 DOMAIN-SUFFIX,apple.com.edgesuite.net # Apple TV+ CDN 辅助域名
 
-# >> YouTube 服务（YouTube Services）
+# > YouTube 服务（YouTube Services）
 DOMAIN-SUFFIX,youtube.com # YouTube 主站
 DOMAIN-SUFFIX,youtu.be # YouTube 短链
 DOMAIN-SUFFIX,ytimg.com # YouTube 静态资源
@@ -37,7 +37,7 @@ DOMAIN-SUFFIX,ggpht.com # YouTube / Google 服务的头像、封面与缩略图�
 DOMAIN-SUFFIX,gstatic.com # Google 静态资源域名，含字体、JS、缓存图标等
 DOMAIN-SUFFIX,googleusercontent.com # Google/YouTube 的 CDN 内容分发与图片加载域（含 yt3、play-lh 等子域）
 
-# >> Netflix
+# > Netflix
 DOMAIN-SUFFIX,netflix.com # Netflix 全球官网与服务
 DOMAIN-SUFFIX,netflix.net # Netflix 全球视频流与 API
 DOMAIN-SUFFIX,nflximg.net # Netflix 静态资源
@@ -146,67 +146,67 @@ DOMAIN-SUFFIX,www.dramaboxapp.com # DramaBox 主站入口域名
 DOMAIN-SUFFIX,api.dramaboxapp.com # DramaBox API 接口（内容数据、用户请求等）
 DOMAIN-SUFFIX,cdn.dramaboxapp.com # 静态资源与剧集内容 CDN 分发域
 
-# >> Peacock
+# > Peacock
 DOMAIN-SUFFIX,peacocktv.com # NBC Peacock 流媒体服务
 
-# >> Discovery+
+# > Discovery+
 DOMAIN-SUFFIX,discoveryplus.com # Discovery+ 流媒体服务
 DOMAIN-SUFFIX,dnitv.com # Discovery 静态内容分发域
 
-# >> Crunchyroll
+# > Crunchyroll
 DOMAIN-SUFFIX,crunchyroll.com # Crunchyroll 日本动漫流媒体
 DOMAIN-SUFFIX,crunchyrollcdn.com # Crunchyroll CDN 静态服务
 
-# >> U-NEXT（日本）
+# > U-NEXT（日本）
 DOMAIN-SUFFIX,unext.jp # U-NEXT 日本视频平台
 
-# >> AbemaTV（日本）
+# > AbemaTV（日本）
 DOMAIN-SUFFIX,abema.tv # AbemaTV 日本流媒体服务
 
-# >> bilibili.tv（国际版）
+# > bilibili.tv（国际版）
 DOMAIN-SUFFIX,bilibili.tv # 哔哩哔哩国际版平台
 DOMAIN-SUFFIX,hdslb.com # 哔哩哔哩视频静态资源（共用）
 
-# >> VIU（香港 / 东南亚）
+# > VIU（香港 / 东南亚）
 DOMAIN-SUFFIX,viu.com # Viu 视频平台（香港 / 新加坡等）
 
-# >> WeTV 国际版
+# > WeTV 国际版
 DOMAIN-SUFFIX,wetv.vip # 腾讯 WeTV 国际版视频平台
 
-# >> iQIYI 国际版
+# > iQIYI 国际版
 DOMAIN-SUFFIX,iq.com # 爱奇艺国际版域名
 
-# >> MyTV SUPER（香港）
+# > MyTV SUPER（香港）
 DOMAIN-SUFFIX,mytvsuper.com # 香港 TVB MyTV SUPER 服务
 
-# >> Astro（马来西亚）
+# > Astro（马来西亚）
 DOMAIN-SUFFIX,astro.com.my # Astro 马来西亚电视服务
 
-# >> iflix（马来西亚）
+# > iflix（马来西亚）
 DOMAIN-SUFFIX,iflix.com # iflix 东南亚视频平台
 
-# >> Viki（美日韩）
+# > Viki（美日韩）
 DOMAIN-SUFFIX,viki.com # Viki 视频平台（韩剧/综艺）
 DOMAIN-SUFFIX,vikibuilder.com # Viki 静态资源
 
-# >> Rakuten TV（欧洲）
+# > Rakuten TV（欧洲）
 DOMAIN-SUFFIX,rakuten.tv # 日本乐天旗下欧洲视频平台
 
-# >> ZDF / ARD（德国）
+# > ZDF / ARD（德国）
 DOMAIN-SUFFIX,zdf.de # 德国 ZDF 公共电视台
 DOMAIN-SUFFIX,ard.de # 德国 ARD 公共电视台
 
-# >> TF1 / M6（法国）
+# > TF1 / M6（法国）
 DOMAIN-SUFFIX,tf1.fr # 法国 TF1 视频平台
 DOMAIN-SUFFIX,m6.fr # 法国 M6 视频平台
 
-# >> BBC / ITV（英国）
+# > BBC / ITV（英国）
 DOMAIN-SUFFIX,bbc.co.uk # 英国 BBC 官方网站
 DOMAIN-SUFFIX,bbc.com # BBC 国际站
 DOMAIN-SUFFIX,itv.com # 英国 ITV 电视台平台
 DOMAIN-SUFFIX,itvstatic.com # ITV 静态资源
 
-# >> SBS / KBS / JTBC / TVING（韩国）
+# > SBS / KBS / JTBC / TVING（韩国）
 DOMAIN-SUFFIX,sbs.co.kr # 韩国 SBS
 DOMAIN-SUFFIX,kbs.co.kr # 韩国 KBS
 DOMAIN-SUFFIX,jtbc.co.kr # 韩国 JTBC

@@ -887,7 +887,7 @@ DOMAIN-SUFFIX,alicdn.com # 阿里全系产品内容分发域名
 DOMAIN-SUFFIX,mmstat.com # 阿里数据分析与埋点上报域名  
 DOMAIN-SUFFIX,amdc.alipay.com # 移动设备配置服务域名，涉及风控与认证逻辑  
 
-# » 电商平台域名规则集（Tmall / Suning / Kaola）
+# > 电商平台域名规则集（Tmall / Suning / Kaola）
 
 # > 天猫（Tmall）
 DOMAIN-SUFFIX,tmall.com # 天猫主站域名，用于商品展示与下单交易  
@@ -1082,9 +1082,15 @@ DOMAIN-SUFFIX,deppon.com # 德邦物流主站域名，用于大件运输与快�
 DOMAIN-SUFFIX,jdl.cn # 京东物流服务域名，涵盖运力、查询与配送服务  
 DOMAIN-SUFFIX,jdl.com # 京东物流国际/企业服务域名  
 
-# > 菜鸟网络（Cainiao Network）
+# > Cainiao 菜鸟网络物流平台相关域名
 
-DOMAIN-SUFFIX,cainiao.com # 菜鸟物流平台主站域名，统一快递追踪与服务接口  
+DOMAIN-SUFFIX,cainiao.com  # 菜鸟网络主站域名（含物流服务入口与介绍页面）
+DOMAIN-SUFFIX,global.cainiao.com  # 菜鸟国际物流子域（全球包裹追踪服务）
+DOMAIN-SUFFIX,track.cainiao.com  # 菜鸟物流追踪服务（物流单号解析与节点状态查询）
+DOMAIN-SUFFIX,logistics.cainiao.com  # 菜鸟商家物流服务管理后台
+DOMAIN-SUFFIX,gw.cainiao.com  # 菜鸟开放平台 API 网关（商家/开发者接口调用）
+DOMAIN-SUFFIX,img.cainiao.com  # 菜鸟图片资源加载域（图标、商品图等）
+DOMAIN-SUFFIX,cnalbs.com  # Cainiao 全局 CDN 内容加速域（JS、CSS、图片等静态资源）
 DOMAIN-SUFFIX,alilogistics.com # 阿里物流关联平台域名  
 
 # > 中国邮政速递（EMS）
@@ -1096,7 +1102,7 @@ DOMAIN-SUFFIX,ems.com.cn # EMS 官方主域名，用于邮政快递追踪与服�
 DOMAIN-SUFFIX,jtexpress.com.cn # 极兔速递中国服务站域名  
 DOMAIN-SUFFIX,jtexpress.my # 极兔速递马来西亚/国际站域名  
 
-# » QQ 相关域名
+# > QQ 相关域名
 
 DOMAIN-SUFFIX,qq.com # 腾讯 QQ 主域名，涵盖通信、邮箱、开放平台等服务  
 DOMAIN-SUFFIX,myqq.com # QQ 账号管理与辅助服务域名  
@@ -1118,7 +1124,7 @@ DOMAIN-SUFFIX,ovscdns.com # QQ 云服务与跳转中转节点
 DOMAIN-SUFFIX,qlogo.cn # QQ 头像 CDN 与标识服务域名  
 DOMAIN-SUFFIX,icq.com # 旧版 QQ 国际服务（ICQ）跳转域名  
 
-# » 知乎 相关域名
+# > 知乎 相关域名
 
 DOMAIN-SUFFIX,zhihu.com # 知乎主站域名，涵盖内容浏览、提问、回答等服务  
 DOMAIN-SUFFIX,zhimg.com # 知乎图片与静态资源 CDN 域名  
@@ -1171,7 +1177,7 @@ DOMAIN-SUFFIX,pv.sogou.com # 搜狗页面访问记录上报接口
 DOMAIN-SUFFIX,adx.sogou.com # 搜狗广告展示平台接口，用于投放与追踪  
 DOMAIN-SUFFIX,ie.sogou.com # 搜狗搜索推广相关落地页接口  
 
-# » 360 搜索引擎相关域名规则集（360 Search）
+# > 360 搜索引擎相关域名规则集（360 Search）
 
 DOMAIN-SUFFIX,so.com # 360 搜索主域名，用于搜索门户与结果展示  
 DOMAIN-SUFFIX,s.360.cn # 360 搜索相关接口域名，用于请求转发与行为采集  
@@ -1186,7 +1192,7 @@ DOMAIN-SUFFIX,p4papi.so.360.cn # 360 搜索商业广告投放平台接口
 DOMAIN-SUFFIX,srpapi.so.com # 360 搜索结果页面请求接口  
 DOMAIN-SUFFIX,click.so.360.cn # 360 搜索广告点击统计与追踪接口  
 
-# » 神马搜索引擎相关域名规则集（Shenma Search）
+# > 神马搜索引擎相关域名规则集（Shenma Search）
 
 DOMAIN-SUFFIX,sm.cn # 神马搜索主站域名，由阿里与UC联合推出  
 DOMAIN-SUFFIX,m.sm.cn # 神马搜索移动端主域名  
@@ -1198,7 +1204,7 @@ DOMAIN-SUFFIX,s0.sm.cn # 神马搜索结果资源加载域名
 DOMAIN-SUFFIX,wap.sm.cn # 神马搜索移动 WAP 页面入口  
 DOMAIN-SUFFIX,push.sm.cn # 神马搜索推送服务接口  
 
-# » UC 浏览器相关域名规则集（UC Browser / 阿里移动服务）
+# > UC 浏览器相关域名规则集（UC Browser / 阿里移动服务）
 
 DOMAIN-SUFFIX,uc.cn # UC 浏览器主域名，访问主页与资讯入口  
 DOMAIN-SUFFIX,ucweb.com # UC 国际站主域名，用于全球版浏览器服务  

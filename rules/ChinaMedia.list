@@ -1,4 +1,4 @@
-# » ChinaMedia.list（国内流媒体平台规则集）
+# > ChinaMedia.list（国内流媒体平台规则集）
 # - 分类：中国大陆流媒体平台 / 视频音乐服务 / 策略识别用途
 # - 来源：主流平台域名抓包 / 社区规则整理 / 手动校验补充
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名，便于策略识别与分流（哔哩哔哩已独立归类至 Bilibili.list）
@@ -6,7 +6,7 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-11-2
 
-# >> 视频平台
+# > 视频平台
 DOMAIN-SUFFIX,youku.com # 优酷视频
 DOMAIN,xpis-tel-xcdn.youku.com # 优酷登录验证接口域名，用于账户登录与 token 校验服务 
 DOMAIN-SUFFIX,iqiyi.com # 爱奇艺
@@ -28,7 +28,7 @@ DOMAIN-SUFFIX,joy.cn # 乐视视频旧域
 DOMAIN-SUFFIX,acfun.cn # AcFun 弹幕视频网
 DOMAIN-SUFFIX,cdn.aixifan.com # AcFun CDN 服务
 
-# >> 音乐平台
+# > 音乐平台
 DOMAIN-SUFFIX,kuwo.cn # 酷我音乐主域
 DOMAIN-SUFFIX,kuwo.com # 酷我音乐备用域
 DOMAIN-SUFFIX,kwimgs.com # 酷我音乐 CDN
@@ -40,14 +40,14 @@ DOMAIN-SUFFIX,music.163.com # 网易云音乐
 DOMAIN-SUFFIX,music.126.net # 网易云音乐 API
 DOMAIN-SUFFIX,tingapi.com # 蜻蜓FM 音乐平台
 
-# >> 电台 / 播客平台
+# > 电台 / 播客平台
 DOMAIN-SUFFIX,qingting.fm # 蜻蜓FM 主域
 DOMAIN-SUFFIX,ximalaya.com # 喜马拉雅FM 主站
 DOMAIN-SUFFIX,himalaya.com # 喜马拉雅国际版
 DOMAIN-SUFFIX,lrts.me # 懒人听书
 DOMAIN-SUFFIX,lishi.fm # 历史FM（播客平台）
 
-# >> 短视频平台
+# > 短视频平台
 DOMAIN-SUFFIX,douyin.com # 抖音主站域名
 DOMAIN-SUFFIX,amemv.com # 抖音视频资源域名
 DOMAIN-SUFFIX,iesdouyin.com # 抖音内容接口域名
@@ -80,6 +80,6 @@ DOMAIN-SUFFIX,grpc.biliapi.net # Bilibili gRPC 行为请求通道（含用户行
 DOMAIN-SUFFIX,app.biliapi.net # Bilibili App 级行为接口
 DOMAIN-SUFFIX,h​​w-v2-web-player-tracker.biliapi.net # Bilibili 网页播放器追踪接口，用于收集播放行为与观看数据
 
-# >> 社交视频图文平台
+# > 社交视频图文平台
 DOMAIN-SUFFIX,xiaohongshu.com # 小红书主站
 DOMAIN-SUFFIX,xhslink.com # 小红书跳转短链域名
