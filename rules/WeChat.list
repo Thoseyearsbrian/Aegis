@@ -1,0 +1,101 @@
+# » WeChat.list（微信相关域名规则集）
+# - 分类：即时通信平台 / 加密通讯服务 / 策略分流用途
+# - 来源：微信客户端抓包分析 / 实机通信日志 / 安全社区研究报告
+# - 特征：识别微信主域名、通信节点、功能接口与遥测通道，覆盖核心服务、SDK 回传、小程序行为及长连接机制
+# - 说明：微信域名结构庞大，通信行为复杂，部分服务采用自研加密协议 mmtls（区别于标准 HTTPS），具有规避检测与指纹识别的特征。因此本规则集单独列出，便于持续追踪、行为识别与分类更新。
+# - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-11-2
+
+# > 核心通信服务（Core Communication）
+
+DOMAIN-SUFFIX,wxapp.tc.qq.com # 小程序运行时通信入口
+DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com # 微信 SNS 资源接口（头像、状态）
+DOMAIN-SUFFIX,connect.wechat.com # 微信账号连接服务组件
+DOMAIN-SUFFIX,routerlong.weixin.qq.com # 多地域长连接接入服务
+DOMAIN-SUFFIX,notifylong.weixin.qq.com # 长连接通知备用入口
+DOMAIN-SUFFIX,es.wx.qq.com # 微信安全检测与状态验证接口
+DOMAIN-SUFFIX,dns.weixin.qq.com.cn # 微信专用 DNS 解析节点（绕过系统 DNS）
+DOMAIN-SUFFIX,weixin.qq.com # 微信官网主站，用于跳转、注册与信息展示
+DOMAIN-SUFFIX,mp.weixin.qq.com # 微信公众平台，公众号内容加载（重复保留归类）
+DOMAIN-SUFFIX,zhida.baidu.com # 微信内搜索调用（嵌入百度）
+DOMAIN-SUFFIX,hmma.baidu.com # 微信内嵌浏览器使用百度统计
+
+# > 多媒体与文件传输（Media & File Transfer）
+
+DOMAIN-SUFFIX,mmcdn.qpic.cn # 多媒体 CDN 分发服务
+DOMAIN-SUFFIX,mmchatpic.qpic.cn # 聊天图片 CDN 接口
+DOMAIN-SUFFIX,vd.qq.com # 视频分发服务（视频号、聊天视频）
+DOMAIN-SUFFIX,video.store.qq.com # 视频上传与资源库接口
+DOMAIN-SUFFIX,dl.stream.qqmusic.qq.com # 音频文件资源调用
+DOMAIN-SUFFIX,audio.chat.qq.com # 音频通话相关接口
+DOMAIN-SUFFIX,dl.music.qq.com # 音乐小程序音频资源域名
+DOMAIN-SUFFIX,res.servicewechat.com # 配置、热更新、JS SDK 模块加载
+DOMAIN-SUFFIX,dldir1v6.qq.com # 微信/QQ 客户端资源下载（支持 IPv6）
+
+# > 小程序 / 微信支付 / 微信广告（Mini Programs / Pay / Ads）
+
+DOMAIN-SUFFIX,mp.weixin.qq.com # 微信公众平台主域
+DOMAIN-SUFFIX,apdcdn.tc.qq.com # 小程序广告拉取服务
+DOMAIN-SUFFIX,adsmind.apdcdn.tc.qq.com # 广告策略下发接口
+DOMAIN-SUFFIX,admaterial.gdtimg.com # 广告素材分发服务
+DOMAIN-SUFFIX,adtrack.qq.com # 广告点击与曝光追踪上报
+DOMAIN-SUFFIX,lcs.dev.sns.weixin.qq.com # 广告链路监控服务
+DOMAIN-SUFFIX,pingjs.qq.com # 性能与广告埋点上报服务
+DOMAIN-SUFFIX,badjs.weixinbridge.com # 小程序错误日志收集平台（BadJS）
+
+# > 微信 PC / Web（WeChat Desktop & Web）
+
+DOMAIN-SUFFIX,login.weixin.qq.com # 微信网页登录入口
+DOMAIN-SUFFIX,passport.wechat.com # 多端登录验证中转接口
+DOMAIN-SUFFIX,support.wechat.com # 微信帮助中心 Web 页面
+DOMAIN-SUFFIX,filehelper.weixin.qq.com # 文件助手 Web 接口
+DOMAIN-SUFFIX,update.wechat.com # 客户端更新检查接口
+DOMAIN-SUFFIX,dl.wechat.com # 安装包与客户端下载服务
+DOMAIN-SUFFIX,wework.qpic.cn # 企业微信图像资源域名
+
+# > 微信 SDK 接口（WeChat SDKs & Tracking）
+
+DOMAIN-SUFFIX,isdspeed.qq.com # SDK 网络测速上传接口
+DOMAIN-SUFFIX,report.qq.com # SDK 日志行为上报域名
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com # SDK 数据上传接口（EVE）
+DOMAIN-SUFFIX,oth.str.mdt.qq.com # SDK 数据上传接口（STR）
+DOMAIN-SUFFIX,support.weixin.qq.com # 微信开放平台支持文档页
+
+# > 数据统计与遥测（Telemetry & Metrics）
+
+DOMAIN-SUFFIX,tmts.qq.com # 用户行为遥测接口
+DOMAIN-SUFFIX,log.tbs.qq.com # X5 内核日志上报服务
+DOMAIN-SUFFIX,monitor.qq.com # 实时运行状态上传接口
+DOMAIN-SUFFIX,tajs.qq.com # JS 性能埋点服务
+DOMAIN-SUFFIX,privacy.qq.com # 隐私协议确认与上报组件
+DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com # 腾讯安全浏览钓鱼/恶意链接拦截
+
+# > 实验性 / 模糊用途域名（Obscure or Fronted Domains）
+
+DOMAIN-SUFFIX,sglong.weixin.qq.com # 新加坡备用长连接域名
+DOMAIN-SUFFIX,frlong.weixin.qq.com # 法国备用长连接域名
+DOMAIN-SUFFIX,cdn-wechat.com # 疑似微信前置流量域名
+DOMAIN-SUFFIX,staticwechat.com # 第三方伪装微信缓存域名
+DOMAIN-SUFFIX,cdnwechat.net # 疑似第三方接入/仿冒域名
+
+# > 微信通信 IP 段（MMTLS / CDN / 遥测上传）
+
+IP-CIDR,180.101.242.227 # MMTLS 通信节点（多次出现）
+IP-CIDR,180.101.242.212 # 微信 mmtls 通信节点，涉及小程序加密通道
+IP-CIDR,180.163.200.126 # 腾讯云下载资源节点（支持 CDN 分发）
+IP-CIDR,101.227.131.167 # 微信 MMTLS 上报节点，TCP/443
+IP-CIDR,101.227.132.63 # 微信 MMTLS 通信节点
+IP-CIDR,101.226.142.218 # 微信主服务通信 IP
+IP-CIDR,101.226.144.240 # 微信行为上报地址（加密）
+IP-CIDR,101.226.142.171 # 微信 CDN 资源节点
+IP-CIDR,61.151.230.185 # 行为上报加密节点（江苏联通）
+IP-CIDR,61.151.230.226 # SDK MMTLS 通信 IP
+IP-CIDR,180.111.196.240 # 公共通信服务 IP
+IP-CIDR,117.89.176.31 # 疑似微信行为加密通信节点
+IP-CIDR,117.89.182.41 # MMTLS 通道，用于小程序通信
+IP-CIDR,123.6.40.187 # 微信 / QQ 共用 CDN 资源节点
+IP-CIDR,183.61.169.120 # 微信头像资源 CDN（wx.qlogo.cn）
+IP-CIDR,61.170.65.76 # 腾讯软件下载 CDN（江苏电信）
+IP-CIDR,106.39.206.21 # 疑似 mmtls 非标准通信通道
+IP-CIDR,123.151.48.193 # 联通网络，北京 mmtls 上报路径

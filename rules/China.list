@@ -1,51 +1,21 @@
-# » China.list（中国大陆常见服务域名规则集）
+# > China.list（中国大陆常见服务域名规则集）
 # - 分类：中国大陆互联网服务 / 应用识别 / 策略分流用途
 # - 来源：主流平台域名归属 / 实测抓包 / 社区维护数据
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-31
+# - 更新时间：2025-11-2
 
-# > WeChat 服务通信与行为上报（含 mmtls 加密传输）
-DOMAIN,weixin.qq.com # 微信官网主站，用于跳转、注册与信息展示
-DOMAIN,mp.weixin.qq.com # 微信公众平台，主要用于公众号内容加载
-DOMAIN,es.wx.qq.com # 微信安全检测与状态验证接口
-DOMAIN,badjs.weixinbridge.com # 微信小程序错误日志收集平台（BadJS 行为分析）
-DOMAIN,dns.weixin.qq.com.cn # 微信专用 DNS 解析节点（可能用于绕过系统 DNS）
-DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com # 腾讯安全浏览服务域名，用于检测钓鱼网站、恶意链接等内容威胁（多用于 QQ 浏览器与微信内置浏览器）
-DOMAIN-SUFFIX,res.servicewechat.com # 微信客户端资源拉取域名，用于配置、热更新与 JS SDK 等模块加载
-DOMAIN-SUFFIX,dldir1v6.qq.com # 腾讯 CDN 下载域名（支持 IPv6），用于软件分发与自动更新，如 QQ / 微信客户端资源加载
-IP-CIDR,180.101.242.227 # MMTLS 通信节点，微信加密通道（多次出现）
-IP-CIDR,180.101.242.212 # 微信 mmtls 通信节点，涉及小程序与消息传输加密通道
-IP-CIDR,180.163.200.126 # 腾讯云下载资源节点（dldir1v6.qq.com），用于微信 / QQ 客户端的更新下载，支持 CDN 分发与自动升级
-IP-CIDR,101.227.131.167 # 微信 MMTLS 上报节点，TCP/443
-IP-CIDR,101.227.132.63 # 微信 MMTLS 通信节点
-IP-CIDR,101.226.142.218 # 微信主服务通信 IP
-IP-CIDR,101.226.144.240 # 微信 MMTLS 行为上报地址
-IP-CIDR,101.226.142.171 # 微信 CDN 节点，可能用于资源加载或前向通信路径
-IP-CIDR,61.151.230.185 # 微信行为上报加密节点
-IP-CIDR,61.151.230.226 # 微信 SDK MMTLS 通信 IP
-IP-CIDR,180.111.196.240 # 微信公共通信 IP
-IP-CIDR,117.89.176.31 # 疑似微信行为加密通信节点
-IP-CIDR,117.89.182.41 # 微信 mmtls 通信节点，涉及小程序与消息传输加密通道
-IP-CIDR,123.6.40.187 # QQ 与微信共用 CDN（dldir1v6.qq.com）
-IP-CIDR,183.61.169.120 # 微信头像资源 CDN（wx.qlogo.cn），用于加载用户头像等静态内容，属于腾讯官方 CDN 节点  
-IP-CIDR,61.170.65.76 # 腾讯软件下载 CDN（dldir1v6.qq.com），用于下载安装微信等客户端，为上海电信节点  
-IP-CIDR,183.61.169.120 # 广东深圳腾讯网络，域名 wx.qlogo.cn 对应头像拉取服务，常见于微信启动或联系人加载
-IP-CIDR,61.170.65.76 # 江苏苏州电信网络，域名 dldir1v6.qq.com 对应 CDN 分发节点（443 端口）
-IP-CIDR,106.39.206.21 # 疑似微信 mmtls 加密通信通道，使用非标准 HTTPS，可能用于行为指纹或设备数据上传
-IP-CIDR,123.151.48.193/32 # 联通网络，北京节点，mmtls 上报路径 /mmtls/... 出现于微信客户端运行期间
+# > 搜索引擎（Search Engines）
 
-# 注：mmtls 通信为微信使用的自研加密通道，与普通 HTTPS 不同，可能用于规避检测、行为指纹上传等行为
-
-# >> 搜索引擎（Search Engines）
 DOMAIN-SUFFIX,baidu.com # 百度搜索引擎
 DOMAIN-SUFFIX,baiducontent.com # 百度内容服务
 DOMAIN-SUFFIX,sogou.com # 搜狗搜索
 DOMAIN-SUFFIX,so.com # 360 搜索引擎
 DOMAIN-SUFFIX,sm.cn # 神马搜索（UC）
 
-# >> 电商平台（E-commerce）
+# > 电商平台（E-commerce）
+
 DOMAIN-SUFFIX,taobao.com # 淘宝网
 DOMAIN-SUFFIX,tmall.com # 天猫商城
 DOMAIN-SUFFIX,tmall.hk # 天猫国际
@@ -54,14 +24,16 @@ DOMAIN-SUFFIX,suning.com # 苏宁易购
 DOMAIN-SUFFIX,pinduoduo.com # 拼多多
 DOMAIN-SUFFIX,kaola.com # 网易考拉海购
 
-# >> 支付服务（Payment / Finance）
+# > 支付服务（Payment / Finance）
+
 DOMAIN-SUFFIX,alipay.com # 支付宝主域名
 DOMAIN-SUFFIX,alipayobjects.com # 支付宝资源文件域名
 DOMAIN-SUFFIX,tenpay.com # 财付通（微信支付上游）
 DOMAIN-SUFFIX,wechatpay.com # 微信支付官方域名
 DOMAIN-SUFFIX,unionpay.com # 银联支付
 
-# >> 社交媒体（Social Media）
+# > 社交媒体（Social Media）
+
 DOMAIN-SUFFIX,wechat.com # 微信
 DOMAIN-SUFFIX,qq.com # QQ主域名
 DOMAIN-SUFFIX,qpic.cn # 腾讯图片资源域名
@@ -71,13 +43,15 @@ DOMAIN-SUFFIX,zhihu.com # 知乎
 DOMAIN-SUFFIX,zhimg.com # 知乎图片资源
 DOMAIN-SUFFIX,weibo.com # 新浪微博
 
-# >> 地图与导航（Maps & Navigation）
+# > 地图与导航（Maps & Navigation）
+
 DOMAIN-SUFFIX,map.baidu.com # 百度地图
 DOMAIN-SUFFIX,amap.com # 高德地图
 DOMAIN-SUFFIX,didiglobal.com # 滴滴出行（国际）
 DOMAIN-SUFFIX,didistatic.com # 滴滴资源域名
 
-# >> 云服务与CDN（Cloud Services & CDN）
+# > 云服务与CDN（Cloud Services & CDN）
+
 DOMAIN-SUFFIX,aliyun.com # 阿里云
 DOMAIN-SUFFIX,alicloud.com # 阿里云国际站
 DOMAIN-SUFFIX,aliyuncs.com # 阿里云对象存储等服务
@@ -88,7 +62,8 @@ DOMAIN-SUFFIX,qcloud.com # 腾讯云老域名
 DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云控制台
 DOMAIN-SUFFIX,myqcloud.com # 腾讯 COS 服务域名
 
-# >> 内容平台（Content/Streaming）
+# > 内容平台（Content/Streaming）
+
 DOMAIN-SUFFIX,bilibili.com # 哔哩哔哩主站
 DOMAIN-SUFFIX,acgvideo.com # B站视频资源域名
 DOMAIN-SUFFIX,iqiyi.com # 爱奇艺
@@ -97,14 +72,16 @@ DOMAIN-SUFFIX,youku.com # 优酷
 DOMAIN-SUFFIX,le.com # 乐视视频
 DOMAIN-SUFFIX,mgtv.com # 芒果TV
 
-# >> 邮箱服务（Email）
+# > 邮箱服务（Email）
+
 DOMAIN-SUFFIX,mail.qq.com # QQ邮箱
 DOMAIN-SUFFIX,email.163.com # 网易邮箱
 DOMAIN-SUFFIX,126.com # 网易126邮箱
 DOMAIN-SUFFIX,yeah.net # 网易yeah邮箱
 DOMAIN-SUFFIX,sina.com.cn # 新浪邮箱
 
-# >> 工具/其他服务（Tools / Misc）
+# > 工具/其他服务（Tools / Misc）
+
 DOMAIN-SUFFIX,csdn.net # CSDN 技术社区
 DOMAIN-SUFFIX,gtimg.cn # 腾讯静态资源域名
 DOMAIN-SUFFIX,gtimg.com # 腾讯静态资源域名
@@ -112,7 +89,8 @@ DOMAIN-SUFFIX,gov.cn # 政府机构总入口
 DOMAIN-SUFFIX,edu.cn # 教育机构总入口
 DOMAIN-SUFFIX,ps.gaoding.com # 稿定设计平台图片处理与资源加载接口，部分网页编辑与预览功能依赖
 
-# >> 游戏服务（Gaming Services）
+# > 游戏服务（Gaming Services）
+
 DOMAIN-SUFFIX,game.qq.com # 腾讯游戏
 DOMAIN-SUFFIX,dlied1.qq.com # 腾讯游戏下载 CDN
 DOMAIN-SUFFIX,dlied2.qq.com # 腾讯游戏下载 CDN
@@ -126,7 +104,8 @@ DOMAIN-SUFFIX,wg.163.com # 网易游戏
 DOMAIN-SUFFIX,4399.com # 4399小游戏平台
 DOMAIN-SUFFIX,7k7k.com # 7k7k小游戏平台
 
-# >> 企业服务 / 办公平台（Enterprise / Productivity）
+# > 企业服务 / 办公平台（Enterprise / Productivity）
+
 DOMAIN-SUFFIX,aliyun.com # 阿里云（办公场景）
 DOMAIN-SUFFIX,tencentcloud.com # 腾讯云
 DOMAIN-SUFFIX,huaweicloud.com # 华为云
@@ -138,7 +117,8 @@ DOMAIN-SUFFIX,mi.com # 小米企业站
 DOMAIN-SUFFIX,xiaomi.net # 小米企业服务
 DOMAIN-SUFFIX,hikvision.com # 海康威视（政企市场）
 
-# >> 政府 / 教育 / 公共机构域名（Gov / Edu / Public Service）
+# > 政府 / 教育 / 公共机构域名（Gov / Edu / Public Service）
+
 DOMAIN-SUFFIX,gov.cn # 中国政府网站总入口
 DOMAIN-SUFFIX,edu.cn # 教育部 / 高校
 DOMAIN-SUFFIX,moe.gov.cn # 教育部官网
@@ -151,7 +131,7 @@ DOMAIN-SUFFIX,court.gov.cn # 中国法院网
 DOMAIN-SUFFIX,people.com.cn # 人民网（党媒）
 DOMAIN-SUFFIX,xinhuanet.com # 新华网（党媒）
 
-# » 百度网盘（Baidu Netdisk）主服务域名
+#  > 百度网盘（Baidu Netdisk）主服务域名
 
 DOMAIN-SUFFIX,baidupcs.com  # 百度网盘主文件下载与上传服务域名
 DOMAIN-SUFFIX,pan.baidu.com  # 百度网盘网页版主域名，用于资源浏览与分享管理
@@ -161,7 +141,7 @@ DOMAIN-SUFFIX,issuecdn.baidupcs.com  # 百度网盘客户端下载与更新服�
 DOMAIN-SUFFIX,yun.baidu.com  # 百度网盘登录跳转与推广入口域名
 DOMAIN-SUFFIX,pcs.baidu.com  # 百度网盘旧版服务接口域名，兼容部分客户端请求
 
-# >> 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
+# > 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
 
 DOMAIN-SUFFIX,ocsp.digicert.com,DIRECT # DigiCert 证书吊销状态查询（OCSP）
 DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国区证书吊销检查服务（OCSP，用于验证证书有效性）
