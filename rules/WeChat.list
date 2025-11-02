@@ -28,7 +28,6 @@ DOMAIN-SUFFIX,wxsmw.wxs.qq.com # 微信小程序安全模块接口，用于防�
 DOMAIN-SUFFIX,paydns.wechatpay.cn # 微信支付 DNS 服务域名，用于 mmtls 接入认证与加密通道初始化
 IP-CIDR,124.95.167.111 # 微信安全模块节点 wxsmw.wxs.qq.com 的通信 IP，部署于腾讯云
 
-
 # > 多媒体与文件传输（Media & File Transfer）
 
 DOMAIN-SUFFIX,mmcdn.qpic.cn # 多媒体 CDN 分发服务
