@@ -89,7 +89,7 @@ DOMAIN-SUFFIX,log.amap.com # 高德日志采集与行为上报服务
 DOMAIN-SUFFIX,ctr.autonavi.com # 广告/内容推荐控制接口，用于广告展示策略  
 DOMAIN-SUFFIX,tracking.autonavi.com # 用户移动轨迹采集与分析服务接口  
 DOMAIN-SUFFIX,amap.com # 高德地图主域名，包含导航、定位、API 服务等
-DOMAIN-SUFFIX,m5-x.amap.com # 高德地图主域名，m5-x 子域用于地图瓦片加载及定位服务
+DOMAIN-SUFFIX,m5-x.amap.com # 高德地图主域名，用于地图瓦片加载及定位服务
 DOMAIN-SUFFIX,dispatcher.is.autonavi.com # 高德地图调度服务接口，用于获取导航服务节点与网络调度信息
 
 # > 百度相关域名（含百度地图 / Baidu & Baidu Maps）
