@@ -36,6 +36,9 @@ DOMAIN-SUFFIX,audio.chat.qq.com # 音频通话相关接口
 DOMAIN-SUFFIX,dl.music.qq.com # 音乐小程序音频资源域名
 DOMAIN-SUFFIX,res.servicewechat.com # 配置、热更新、JS SDK 模块加载
 DOMAIN-SUFFIX,dldir1v6.qq.com # 微信/QQ 客户端资源下载（支持 IPv6）
+DOMAIN-SUFFIX,cdn-wechat.com # 微信相关 CDN 资源域名，用于静态内容分发  
+DOMAIN-SUFFIX,staticwechat.com # 微信相关静态资源域名，可能用于前端页面或组件加载  
+DOMAIN-SUFFIX,cdnwechat.net # 微信第三方内容分发域名，涉及图像或脚本资源加载 
 IP-CIDR,101.226.142.218 # 微信视频内容 CDN 节点，UCloud  
 IP-CIDR,101.226.153.110 # 微信 CDN 节点，UCloud
 IP-CIDR,101.91.34.241 # 微信通信中转节点，UCloud
@@ -91,14 +94,12 @@ DOMAIN-SUFFIX,monitor.qq.com # 实时运行状态上传接口
 DOMAIN-SUFFIX,tajs.qq.com # JS 性能埋点服务
 DOMAIN-SUFFIX,privacy.qq.com # 隐私协议确认与上报组件
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com # 腾讯安全浏览钓鱼/恶意链接拦截
+DOMAIN-SUFFIX,longcloud.weixin.com  # 微信日志与数据回传接口域名
 
 # > 实验性 / 模糊用途域名（Obscure or Fronted Domains）
 
 DOMAIN-SUFFIX,sglong.weixin.qq.com # 新加坡备用长连接域名
-DOMAIN-SUFFIX,frlong.weixin.qq.com # 法国备用长连接域名
-DOMAIN-SUFFIX,cdn-wechat.com # 疑似微信前置流量域名
-DOMAIN-SUFFIX,staticwechat.com # 第三方伪装微信缓存域名
-DOMAIN-SUFFIX,cdnwechat.net # 疑似第三方接入/仿冒域名
+DOMAIN-SUFFIX,frlong.weixin.qq.com # 法国备用长连接域名 
 
 # > 微信通信 IP 段（MMTLS / CDN / 遥测上传）
 
