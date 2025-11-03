@@ -61,10 +61,17 @@ Aegis 是一个坚持技术中立、信息透明、自主独立的安全规则�
 
 Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最新状态，支持 Surge 远程订阅使用。
 
-## Surge 配置链接
+## Surge IPv4 配置链接
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf  
-Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_EN.conf  
+Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_EN.conf
+
+## Surge IPv6 配置链接
+
+Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_IPv6_CN.conf  
+Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_IPv6_EN.conf
+
+> 💡 配置说明：请根据网络环境选择对应配置,如您的网络环境原生支持 IPv6，请使用 IPv6 配置；否则请使用 IPv4 配置。禁止混用，否则将导致请求异常或 DNS 解析失败。
 
 ## 配置方式
 
