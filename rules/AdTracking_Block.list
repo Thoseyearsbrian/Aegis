@@ -4,7 +4,24 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-11-2
+# - 更新时间：2025-11-04
+
+# > 阿里系开屏广告（高德 / 闲鱼 / 淘宝）
+
+DOMAIN-SUFFIX,adashx.m.taobao.com # 淘宝广告监测 SDK 接口
+DOMAIN-SUFFIX,atanx.alicdn.com # 阿里广告素材 CDN
+DOMAIN-SUFFIX,gdkj.gaodun.com # 高德广告 SDK 接口
+DOMAIN-SUFFIX,arms-retcode.aliyuncs.com # 阿里前端行为日志采集（广告 SDK 用于追踪）
+DOMAIN-SUFFIX,ynuf.alipay.com # 支付宝广告与活动调度接口
+DOMAIN-SUFFIX,open-adash.alipay.com # 闲鱼 / 支付宝广告监控接口
+DOMAIN-SUFFIX,g-adashx.ut.taobao.com # 淘宝广告追踪
+DOMAIN-SUFFIX,log.mmstat.com # 阿里广告打点服务器
+DOMAIN-SUFFIX,sdkapplog.51ping.com # 可能涉及咸鱼行为分析
+DOMAIN-SUFFIX,adash-c.ut.taobao.com # 淘宝 / 天猫广告 SDK 主入口
+DOMAIN-SUFFIX,adashx4yt.m.taobao.com # 淘宝广告日志收集节点
+DOMAIN-SUFFIX,track.alicdn.com # 阿里广告追踪链接
+DOMAIN-SUFFIX,gw.alicdn.com # 阿里广告资源服务器（含动态图）
+DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志上传服务器
 
 # > 通用广告追踪域名（General Ad Tracking）
 
