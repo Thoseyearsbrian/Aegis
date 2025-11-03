@@ -71,7 +71,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_IPv6_CN.conf  
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_IPv6_EN.conf
 
-> 💡 配置说明：请根据网络环境选择对应配置,如您的网络环境原生支持 IPv6，请使用 IPv6 配置；否则请使用 IPv4 配置。禁止混用，否则将导致请求异常或 DNS 解析失败。
+ 💡 **配置说明**：请根据网络环境选择对应配置。如您的网络环境原生支持 IPv6，请使用 IPv6 配置；否则请使用 IPv4 配置。**禁止混用**，否则将导致请求异常或 DNS 解析失败。
 
 ## 配置方式
 
