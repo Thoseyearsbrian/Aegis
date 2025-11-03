@@ -2860,7 +2860,8 @@ DOMAIN-SUFFIX,dl.surge.run # Surge 模块与脚本下载接口，用于 Surge �
 DOMAIN-SUFFIX,panel.surge.run # Surge 仪表盘服务域名，用于 UI 控制面板远程管理  
 DOMAIN-SUFFIX,conf.surge.run # Surge 远程配置订阅服务接口  
 DOMAIN-SUFFIX,static.surge.run # Surge 静态资源与图标加载服务（如 policy-path 图标）
-DOMAIN-SUFFIX,kb.nssurge.com # Surge 官方知识库域名，用于访问产品常见问题、使用指南与发行说明  
+DOMAIN-SUFFIX,kb.nssurge.com # Surge 官方知识库域名，用于访问产品常见问题、使用指南与发行说明 
+DOMAIN-SUFFIX,manual.nssurge.com # Surge 官方文档站点，用于访问配置手册与功能说明 
 
 # > GitBook 相关服务域名  
 
