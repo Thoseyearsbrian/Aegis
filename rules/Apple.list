@@ -106,6 +106,7 @@ IP-CIDR,65.199.22.0/23 # Apple Relay 与配置服务段
 
 DOMAIN-SUFFIX,developer.apple.com # Apple 开发者网站
 DOMAIN-SUFFIX,testflight.apple.com # TestFlight 测试分发平台
+DOMAIN-SUFFIX,testflight.apple.com.cn # TestFlight 中国加速镜像域名
 DOMAIN-SUFFIX,appleworldwidedeveloper.hb-api.omtrdc.net # WWDC 分析节点（高带宽）
 DOMAIN-SUFFIX,appleworldwidedeveloper.sc.omtrdc.net # WWDC 分析节点（南加州）
 DOMAIN-SUFFIX,beatselectronicsllc.tt.omtrdc.net # Beats by Dre 服务统计
