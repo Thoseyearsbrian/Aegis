@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,adash-c.ut.taobao.com # 淘宝 / 天猫广告 SDK 主入口
 DOMAIN-SUFFIX,adashx4yt.m.taobao.com # 淘宝广告日志收集节点
 DOMAIN-SUFFIX,track.alicdn.com # 阿里广告追踪链接
 DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志上传服务器
+IP-CIDR,114.80.179.230 # 阿里系广告投放节点，疑似用于高德地图开屏广告内容分发
 
 # > 通用广告追踪域名（General Ad Tracking）
 
