@@ -212,7 +212,12 @@ DOMAIN-SUFFIX,mobile.meituan.com # 美团移动端服务域名，用于移动站
 IP-CIDR,101.227.131.171 # Meituan Port Map 接口 IP，用于定位服务或地图数据分发  
 DOMAIN-SUFFIX,maplocatesdksnapshot.d.meituan.net # 美团地图 SDK 快照定位服务接口  
 DOMAIN-SUFFIX,metrics-picture.d.meituan.net # 美团 Metrics 图片监测与上传服务  
-DOMAIN-SUFFIX,al-log.d.meituan.net # 美团行为日志上报接口，用于埋点与性能分析  
+DOMAIN-SUFFIX,al-log.d.meituan.net # 美团行为日志上报接口，用于埋点与性能分析 
+DOMAIN-SUFFIX,p0.pipi.cn # 美团旗下 Pipi 视频内容服务域名，涉及多媒体加载 
+IP-CIDR,101.227.131.171 # Meituan Port Map 接口 IP，用于定位服务或地图数据分发 
+IP-CIDR,61.172.180.223 # 美团 CDN 节点，对应 s3plus.meituan.net 静态资源分发
+IP-CIDR,61.170.111.238 # 美团资源节点 IP，对应 p1.meituan.net 图像资源加载
+IP-CIDR,61.170.55.7 # 美团主站接口节点，对应 w.meituan.net
 
 # > 美团众包相关域名（Meituan Crowdsource Delivery）
 
