@@ -3127,7 +3127,6 @@ DOMAIN-SUFFIX,anker-store.com # 官方授权电商域名（部分地区用于销
 
 # > 其他 (暂未分类)
 
-DOMAIN-SUFFIX,nssurge.com # Surge 官方服务域名，用于激活验证与模块更新通信
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
 DOMAIN-SUFFIX,pockyt.io # Pockyt 跨境支付平台官网域名，用于商户付款、提现与钱包服务
 DOMAIN-SUFFIX,oss.yuansfer.com  # Pockyt 资源托管域名，用于静态资源加载与支付服务文件分发
@@ -3145,3 +3144,9 @@ DOMAIN-SUFFIX,combot.org # Telegram 群组管理机器人服务
 DOMAIN-SUFFIX,ygkkk.blogspot.com # 博客站点域名
 DOMAIN-SUFFIX,static.mastergo.com # MasterGo 在线设计工具静态资源域名，用于加载图标、字体、脚本等前端组件
 DOMAIN-SUFFIX,typora.io # Typora 官方主站域名，用于下载、激活与 Markdown 编辑器内容同步服务
+
+# > 第三方独立站
+
+DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
+DOMAIN-SUFFIX,yotobike.com # Yotobike 独立站
+
