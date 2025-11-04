@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-2
+# - 更新时间：2025-11-04
 
 # > Apple 行为遥测服务
 
@@ -97,6 +97,9 @@ DOMAIN-SUFFIX,api5-normal-lq.amemv.com # 抖音行为监控接口（备用线路
 DOMAIN-SUFFIX,sf16-muse-va.ibytedtos.com # 字节跳动日志上报与 SDK 签名验证域
 DOMAIN-SUFFIX,ib.snssdk.com # 字节跳动行为数据回传主站
 DOMAIN-SUFFIX,data.bytedance.net # 字节跳动数据上传与分析平台
+DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接口
+DOMAIN-SUFFIX,is.snssdk.com # 今日头条内容推荐请求接口
+IP-CIDR,59.82.121.221 # 字节跳动行为分析节点
 
 # > 快手行为监控与指纹采集
 
@@ -136,21 +139,25 @@ DOMAIN-SUFFIX,dualstack-logos.amap.com # SDK 日志与图片请求行为收集�
 DOMAIN-SUFFIX,dsp.amap.com # 广告请求及用户行为采集接口
 DOMAIN-SUFFIX,stats.amap.com # 高德地图统计上报服务（页面访问、点击事件）
 
-# > 闲鱼（Xianyu）与阿里系遥测接口
+# > 阿里系遥测接口
 
 DOMAIN-SUFFIX,xlog.snssdk.com # 闲鱼集成字节跳动 xlog 模块的行为上传接口
 DOMAIN-SUFFIX,umeng.com # 阿里巴巴友盟行为分析与 SDK 遥测主域
 DOMAIN-SUFFIX,alog.umeng.com # 友盟行为日志主上报接口（淘宝、支付宝等常嵌入）
 DOMAIN-SUFFIX,applog.uc.cn # UC 系产品行为分析与遥测数据上传
 DOMAIN-SUFFIX,errlog.umeng.com # 应用错误/崩溃日志上报接口（友盟 SDK）
-
-# > 支付宝 / 淘宝 App 内行为上传模块（嵌套式遥测）
-
 DOMAIN-SUFFIX,acjs.aliyun.com # 阿里云前端日志采集服务接口（含前端 JS 报错）
 DOMAIN-SUFFIX,trace.aliyun.com # 阿里追踪系统，用户操作行为分析
 DOMAIN-SUFFIX,spm.aliyun.com # SPM 埋点追踪系统域名
 DOMAIN-SUFFIX,log-mmserver.alibaba.com # 阿里巴巴移动端日志系统接口
 DOMAIN-SUFFIX,dap.alipay.com # 支付宝数据分析与页面行为追踪域名
+DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 日志接口
+DOMAIN-SUFFIX,gm.mmstat.com # 阿里巴巴统计平台域名，用于埋点与行为分析接口 
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com  # 淘宝 Adash 数据分析接口，用于用户行为上报
+IP-CIDR,101.226.28.238  # 支付宝 datagw 边缘网关，涉及数据分析与链路调度
+DOMAIN-SUFFIX,gm.mmstat.com  # 阿里巴巴统计平台域名，用于行为分析与数据回传
+IP-CIDR,119.42.231.59  # 支付宝 mdap 域名解析节点，涉及设备信息采集
+DOMAIN-SUFFIX,nr-op.elemecdn.com  # 饿了么运营 CDN 资源节点，包含埋点与广告数据
 
 # > 知乎 Zhihu 行为分析与指纹上传域名
 
@@ -179,6 +186,7 @@ DOMAIN-SUFFIX,tajs.qq.com # Tencent Analytics JS 埋点日志
 DOMAIN-SUFFIX,dldir1.qq.com # 安装包与更新接口（含行为采样）
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com # 多端设备行为同步接口
 DOMAIN-SUFFIX,report.qq.com # 应用行为上报中心（接口通用）
+DOMAIN-SUFFIX,sdk.e.qq.com  # 腾讯广告 SDK 域名，用于广告拉取与行为采集
 
 # > 微信 / QQ 小程序行为监听模块
 
@@ -231,3 +239,7 @@ DOMAIN-SUFFIX,ds-cdn.prod-east.frontend.public.atl-paas.net # Atlassian 前端�
 # > 潜在远程控制或监听节点（SoftLayer）
 
 IP-CIDR,74.86.151.167 # 美国 SoftLayer 数据中心公网主机，开放 HTTPS 服务（443 端口），疑似运行端口映射或远程控制组件，存在潜在监听风险
+
+# > 中国电信
+
+IP-CIDR,59.82.121.221  # 疑似中国电信数据采集节点，用于行为监控
