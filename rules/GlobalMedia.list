@@ -2,6 +2,7 @@
 # - 分类：国际流媒体平台 / 视频音乐服务 / 策略识别用途
 # - 来源：各地区主流平台域名抓包 / 社区规则整理 / 手动校验补充
 # - 特征：涵盖美洲、欧洲、日韩、东南亚等常见流媒体服务域名
+# - 说明：YouTube 域名已迁移至 Google.list 统一管理
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-11-04
@@ -17,36 +18,6 @@ DOMAIN-SUFFIX,aiv-cdn.net # Prime Video CDN
 
 DOMAIN-SUFFIX,tv.apple.com # Apple TV+ 正式域名
 DOMAIN-SUFFIX,apple.com.edgesuite.net # Apple TV+ CDN 辅助域名
-
-# > YouTube 服务（YouTube Services）
-
-DOMAIN-SUFFIX,youtube.com # YouTube 主站
-DOMAIN-SUFFIX,youtu.be # YouTube 短链
-DOMAIN-SUFFIX,ytimg.com # YouTube 静态资源
-DOMAIN-SUFFIX,findyoutube.com # 第三方 YouTube 查找服务
-DOMAIN-SUFFIX,findyoutube.net # 第三方 YouTube 查找服务
-DOMAIN-SUFFIX,freeyoutubeproxy.net # 第三方 YouTube 代理服务
-DOMAIN-SUFFIX,listentoyoutube.com # YouTube 音频转换服务
-DOMAIN-SUFFIX,withyoutube.com # 第三方 YouTube 工具集成
-DOMAIN-SUFFIX,youtube-nocookie.com # YouTube 隐私增强域（嵌入视频无Cookie）
-DOMAIN-SUFFIX,youtubecn.com # YouTube 中国镜像域（非官方）
-DOMAIN-SUFFIX,youtubeeducation.com # YouTube 教育平台
-DOMAIN-SUFFIX,youtubegaming.com # YouTube 游戏专属平台
-DOMAIN-SUFFIX,youtubekids.com # YouTube 儿童内容平台
-DOMAIN-SUFFIX,ggpht.com # YouTube / Google 服务的头像、封面与缩略图资源
-DOMAIN-SUFFIX,googleusercontent.com # Google/YouTube 的 CDN 内容分发与图片加载域（含 yt3、play-lh 等子域）
-DOMAIN-SUFFIX,ytimg.com # YouTube 视频缩略图与资源图像服务域名  
-DOMAIN-SUFFIX,s.youtube.com # YouTube 服务通信子域，用于订阅与内容推荐接口   
-DOMAIN-SUFFIX,googlevideo.com # YouTube 视频内容分发网络（CDN）主域  
-DOMAIN-SUFFIX,accountcapabilities-pa.googleapis.com # Google 账户权限验证接口，支持 YouTube Premium 等服务  
-DOMAIN-SUFFIX,suggestqueries.google.com # Google/Youtube 联想搜索建议服务接口  
-DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com # Google OAuth 账户管理接口，用于登录与绑定服务  
-DOMAIN-SUFFIX,googleadservices.com # Google 广告投放与追踪接口，可能用于 YouTube 广告投送  
-DOMAIN-SUFFIX,yt3.ggpht.com # YouTube 头像与频道封面资源图像 CDN 域名  
-DOMAIN-SUFFIX,iosantiabuse-pa.googleapis.com # Google 移动端反滥用检测接口，服务于 YouTube iOS 客户端  
-DOMAIN-SUFFIX,oauth2.googleapis.com # Google OAuth 2.0 授权接口，常用于 YouTube 登录与验证  
-DOMAIN-SUFFIX,play.googleapis.com # Google Play 服务接口，可能用于 YouTube 更新与订阅校验  
-DOMAIN-SUFFIX,gstatic.com # Google 静态资源服务，用于加载 YouTube 公共资源与字体文件  
 
 # > Netflix
 

@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,google-analytics.com # Google Analytics 通用网页行为统计�
 DOMAIN-SUFFIX,analytics.google.com # Google Analytics GA4 数据上报域名
 DOMAIN-SUFFIX,firebase-settings.crashlytics.com # Crashlytics 崩溃报告配置拉取接口
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com # Crashlytics 崩溃数据主动上传接口
+DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com # Google 客户端指标收集（Telemetry）
 DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com # Firebase 日志收集与上报服务
 DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com # Firebase 动态链接服务，常用于分享跳转追踪
 DOMAIN-SUFFIX,crashlytics.com # 被大量灰产 SDK 使用

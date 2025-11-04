@@ -7,71 +7,104 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-11-04
 
-# > 核心服务（Core Services）
+# > 核心服务（Google Core Services）
 
 DOMAIN-SUFFIX,google.com # Google 主域名（用于搜索、账户等核心服务）
 DOMAIN-SUFFIX,google.cn # Google 中国地区域名（已下线，但可能残留请求）
-DOMAIN-SUFFIX,googleapis.com # Google API 网关：Gmail、Drive、YouTube 等服务统一调用接口
 DOMAIN-SUFFIX,gmail.com # Gmail 邮箱服务主域名
 DOMAIN-SUFFIX,googlemail.com # Gmail 替代域名（部分地区历史使用）
-DOMAIN-SUFFIX,googlecode.com # Google Code 项目托管平台（已停用，但部分资源可能存续）
 DOMAIN-SUFFIX,googlephotos.com # Google Photos 在线照片服务
-DOMAIN-SUFFIX,googlemaps.com # Google Maps 地图服务
-DOMAIN-SUFFIX,google-analytics.com # Google Analytics 网站分析平台主域（非广告平台，但涉及行为统计）
 DOMAIN-SUFFIX,withgoogle.com # Google 品牌项目展示平台（非广告用途）
 DOMAIN-SUFFIX,googletranslate.cn # Google 翻译服务中国区接口（非广告）
 DOMAIN-SUFFIX,googletraveladservices.com # Google 旅游广告与搜索服务接口（归类为服务而非广告）
-DOMAIN-SUFFIX,blogger.googleusercontent.com # Google Blogger 静态内容托管域名（如图片、资源等），不属于广告域名
+DOMAIN-SUFFIX,notifications-pa.googleapis.com # Google 通知推送接口（Gmail、日历提醒、FCM 等）
+DOMAIN-SUFFIX,messages.google.com # Google Messages（短信 / 聊天）服务域名
+DOMAIN-SUFFIX,abc.xyz # Alphabet 母公司官网域名
+DOMAIN-SUFFIX,research.google # Google Research 官方研究页面
+DOMAIN-SUFFIX,thinkwithgoogle.com # Google 市场洞察与广告资源平台
+DOMAIN-SUFFIX,googleartproject.com # Google 艺术计划平台
+DOMAIN-SUFFIX,domains.google # Google 域名注册服务官网
+DOMAIN-SUFFIX,googledomains.com # Google Domains 官网入口
+DOMAIN-SUFFIX,google-analytics.com # Google Analytics 网站分析平台主域
+DOMAIN-SUFFIX,googleanalytics.com # Google Analytics 广告分析平台
+DOMAIN-SUFFIX,www-google-analytics.l.google.com # Google Analytics 辅助域名
+DOMAIN-SUFFIX,adsense.google.cn # Google AdSense 在中国的广告服务域
+DOMAIN-SUFFIX,googletagmanager.com # Google Tag Manager 标签管理器
+DOMAIN-SUFFIX,analytics.google.com # Google 分析平台主域
 
-# > 开发者服务 / API / Cloud（API & Developer Tools）
+# > YouTube 服务（YouTube Services）
 
-DOMAIN-SUFFIX,cloud.google.com # Google Cloud 云服务平台主域名（GCP 控制台）
-DOMAIN-SUFFIX,developers.google.com # Google 开发者文档与平台服务（含 API 文档）
-DOMAIN-SUFFIX,googleapis.cn # Google API 国内访问接口（服务兼容版）
-DOMAIN-SUFFIX,google.dev # Google 开发者社区域名（dev.google 官方项目）
-DOMAIN-SUFFIX,firebaseio.com # Firebase 实时数据库与身份认证服务
-DOMAIN-SUFFIX,firebaseapp.com # Firebase 托管服务域名（前端静态站点等）
-DOMAIN-SUFFIX,appspot.com # Google App Engine 托管平台子域（应用部署域名）
-DOMAIN-SUFFIX,appengine.google.com # Google App Engine 控制台与管理面板
-DOMAIN-SUFFIX,cloudfunctions.net # Google Cloud Functions 函数计算域名
-DOMAIN-SUFFIX,web.dev # Google 推出的 Web 开发最佳实践与标准平台
+DOMAIN-SUFFIX,youtube.com # YouTube 主站
+DOMAIN-SUFFIX,youtu.be # YouTube 短链
+DOMAIN-SUFFIX,ytimg.com # YouTube 静态资源
+DOMAIN-SUFFIX,findyoutube.com # 第三方 YouTube 查找服务
+DOMAIN-SUFFIX,findyoutube.net # 第三方 YouTube 查找服务
+DOMAIN-SUFFIX,freeyoutubeproxy.net # 第三方 YouTube 代理服务
+DOMAIN-SUFFIX,listentoyoutube.com # YouTube 音频转换服务
+DOMAIN-SUFFIX,withyoutube.com # 第三方 YouTube 工具集成
+DOMAIN-SUFFIX,youtube-nocookie.com # YouTube 隐私增强域（嵌入视频无Cookie）
+DOMAIN-SUFFIX,youtubecn.com # YouTube 中国镜像域（非官方）
+DOMAIN-SUFFIX,youtubeeducation.com # YouTube 教育平台
+DOMAIN-SUFFIX,youtubegaming.com # YouTube 游戏专属平台
+DOMAIN-SUFFIX,youtubekids.com # YouTube 儿童内容平台
+DOMAIN-SUFFIX,ggpht.com # YouTube / Google 服务的头像、封面与缩略图资源
+DOMAIN-SUFFIX,yt3.ggpht.com # YouTube 头像与频道封面资源图像 CDN 域名
+DOMAIN-SUFFIX,s.youtube.com # YouTube 服务通信子域，用于订阅与内容推荐接口
+DOMAIN-SUFFIX,googlevideo.com # YouTube 视频内容分发网络（CDN）主域
+DOMAIN-SUFFIX,iosantiabuse-pa.googleapis.com # Google 移动端反滥用检测接口，服务于 YouTube iOS 客户端
+DOMAIN-SUFFIX,accountcapabilities-pa.googleapis.com # Google 账户权限验证接口，支持 YouTube Premium 等服务
+DOMAIN-SUFFIX,suggestqueries.google.com # Google/Youtube 联想搜索建议服务接口
+DOMAIN-SUFFIX,oauth2.googleapis.com # Google OAuth 2.0 授权接口，常用于 YouTube 登录与验证
+DOMAIN-SUFFIX,play.googleapis.com # Google Play 服务接口，可能用于 YouTube 更新与订阅校验
+
+# > Chrome & 浏览器更新（Chrome & Update Services）
+
+DOMAIN-SUFFIX,chrome.com # Google Chrome 官方主页（浏览器主站）
+DOMAIN-SUFFIX,googlechrome.com # Google Chrome 品牌/宣传站点
+DOMAIN-SUFFIX,chromewebstore.com # Google Chrome 扩展商店（Chrome Web Store）
+DOMAIN-SUFFIX,chromecast.com # Google Chromecast 投屏/流媒体服务
+DOMAIN-SUFFIX,chromeexperiments.com # Google Chrome 实验项目展示站点
 DOMAIN-SUFFIX,crbug.com # Chromium 项目官方 Bug 跟踪平台（Redirect 到 bugs.chromium.org）
 DOMAIN-SUFFIX,chromium.org # Chromium 浏览器项目官方主站
 DOMAIN-SUFFIX,chromestatus.com # Chromium 功能发布状态跟踪平台
-DOMAIN-SUFFIX,gcr.io # Google Container Registry 容器镜像仓库（Kubernetes 相关）
-
-# > Chrome 服务（Chrome Services）
-
-DOMAIN-SUFFIX,chrome.com # Google Chrome 官方主页（浏览器主站）
-DOMAIN-SUFFIX,chromewebstore.com # Google Chrome 扩展商店（Chrome Web Store）
-DOMAIN-SUFFIX,chromecast.com # Google Chromecast 投屏/流媒体服务
-DOMAIN-SUFFIX,googlechrome.com # Google Chrome 品牌/宣传站点
-DOMAIN-SUFFIX,chromeexperiments.com # Google Chrome 实验项目展示站点
 DOMAIN-SUFFIX,clients2.google.com # Google Chrome/安卓客户端更新接口（系统组件）
 DOMAIN-SUFFIX,clients4.google.com # Google Chrome/安卓客户端更新接口（系统组件）
 DOMAIN-SUFFIX,clients6.google.com # Google Chrome/安卓客户端更新接口（系统组件）
-DOMAIN,notifications-pa.googleapis.com # Google 通知推送接口（Gmail、日历提醒、FCM 等）
-DOMAIN-SUFFIX,googleadapis.l.google.com # Google API 服务域名（内部/广告相关 API 调用）
 
-# > 安卓生态 / FCM / Play 服务（Android & Play Services）
+# > Android & Play 服务（Android & Play Services）
 
 DOMAIN-SUFFIX,android.com # Android 官方主站域名
 DOMAIN-SUFFIX,androidify.com # Androidify 项目域名（头像生成器，已停更）
 DOMAIN-SUFFIX,googleplay.com # Google Play 官方网站
+DOMAIN-SUFFIX,play.google.com # Google Play 应用服务，部分推文中包含链接时涉及
 DOMAIN-SUFFIX,gvt1.com # Google CDN 内容分发域名，用于 Play 下载等
 DOMAIN-SUFFIX,gvt2.com # Google CDN 辅助域名，常用于媒体资源分发
 DOMAIN-SUFFIX,play.googleapis.com # Google Play 服务核心 API，用于应用更新、验证、推送等
 DOMAIN-SUFFIX,play-lh.googleusercontent.com # Google Play 应用图片、Logo 等资源托管
-DOMAIN-SUFFIX,firebaseinstallations.googleapis.com # Firebase 安装标识注册与管理服务
-DOMAIN-SUFFIX,firebase-settings.crashlytics.com # Firebase Crashlytics 设置服务域名
-DOMAIN-SUFFIX,messages.google.com # Google Messages（短信 / 聊天）服务域名
-DOMAIN-SUFFIX,mobileapptracking.com # Appsflyer 旗下归因分析平台域名（常用于广告 SDK，存在追踪用途）
-DOMAIN-SUFFIX,mtalk.google.com # FCM 推送服务主机域名（Firebase Cloud Messaging）
-DOMAIN-SUFFIX,fcm.googleapis.com # FCM 推送 API 接口（Firebase Cloud Messaging）
 
-# > 教育与办公服务（G Suite / Workspace）
+# > 开发者服务（Google Developer Services）
 
-DOMAIN-SUFFIX,googleusercontent.com # Google 文件服务统一资源域名，用于 Drive、Docs 等静态资源托管
+DOMAIN-SUFFIX,googleapis.com # Google API 网关：Gmail、Drive、YouTube 等服务统一调用接口
+DOMAIN-SUFFIX,cloud.google.com # Google Cloud 云服务平台主域名（GCP 控制台）
+DOMAIN-SUFFIX,developers.google.com # Google 开发者文档与平台服务（含 API 文档）
+DOMAIN-SUFFIX,googleapis.cn # Google API 国内访问接口（服务兼容版）
+DOMAIN-SUFFIX,google.dev # Google 开发者社区域名（dev.google 官方项目）
+DOMAIN-SUFFIX,web.dev # Google 推出的 Web 开发最佳实践与标准平台
+DOMAIN-SUFFIX,appspot.com # Google App Engine 托管平台子域（应用部署域名）
+DOMAIN-SUFFIX,appengine.google.com # Google App Engine 控制台与管理面板
+DOMAIN-SUFFIX,cloudfunctions.net # Google Cloud Functions 函数计算域名
+DOMAIN-SUFFIX,gcr.io # Google Container Registry 容器镜像仓库（Kubernetes 相关）
+
+# > Google Fonts & 字体库（Google Fonts & Assets）
+
+DOMAIN-SUFFIX,googlefonts.cn # Google 字体 CDN（中国域名）
+DOMAIN-SUFFIX,googlefonts.com # Google 字体服务主页
+DOMAIN-SUFFIX,fonts.gstatic.com # Google 字体库，前端可能调用 Web 字体加载资源
+DOMAIN-SUFFIX,fonts.googleapis.cn # Google 字体服务中国镜像
+DOMAIN-SUFFIX,fonts.googleapis.com # Google 字体 API 接口
+
+# > 教育与办公套件（Google Workspace / Education）
+
 DOMAIN-SUFFIX,googledrive.com # Google Drive 网页访问主域名
 DOMAIN-SUFFIX,drive.google.com # Google Drive 核心服务接口，用于文件浏览、下载与同步
 DOMAIN-SUFFIX,docs.google.com # Google Docs 在线文档编辑服务
@@ -84,20 +117,24 @@ DOMAIN-SUFFIX,chat.google.com # Google Chat 即时通讯服务
 DOMAIN-SUFFIX,calendar.google.com # Google Calendar 日历服务
 DOMAIN-SUFFIX,keep.google.com # Google Keep 便签笔记服务
 
-# > 其他服务与项目（Miscellaneous）
+# > 地图与定位服务（Maps & Geo Services）
 
-DOMAIN-SUFFIX,abc.xyz # Alphabet 母公司官网域名
-DOMAIN-SUFFIX,waymo.com # Waymo 自动驾驶项目主页
-DOMAIN-SUFFIX,nest.com # Google Nest 智能家居产品官网
+DOMAIN-SUFFIX,googlemaps.com # Google Maps 地图服务
 DOMAIN-SUFFIX,waze.com # Waze 社交导航服务
-DOMAIN-SUFFIX,research.google # Google Research 官方研究页面
-DOMAIN-SUFFIX,thinkwithgoogle.com # Google 市场洞察与广告资源平台
-DOMAIN-SUFFIX,googleartproject.com # Google 艺术计划平台
-DOMAIN-SUFFIX,googlefonts.cn # Google 字体 CDN（中国域名）
-DOMAIN-SUFFIX,googlefonts.com # Google 字体服务主页
-DOMAIN-SUFFIX,fonts.gstatic.com # Google 字体库，前端可能调用 Web 字体加载资源
-DOMAIN-SUFFIX,fonts.googleapis.cn # Google 字体服务中国镜像
-DOMAIN-SUFFIX,fonts.googleapis.com # Google 字体 API 接口
-DOMAIN-SUFFIX,domains.google # Google 域名注册服务官网
-DOMAIN-SUFFIX,googledomains.com # Google Domains 官网入口
-DOMAIN-SUFFIX,play.google.com # Google Play 应用服务，部分推文中包含链接时涉及
+
+# > 第三方嵌入与 SDK 服务（Google SDKs & Embedded）
+
+DOMAIN-SUFFIX,firebaseio.com # Firebase 实时数据库与身份认证服务
+DOMAIN-SUFFIX,firebaseapp.com # Firebase 托管服务域名（前端静态站点等）
+DOMAIN-SUFFIX,firebaseinstallations.googleapis.com # Firebase 安装标识注册与管理服务
+DOMAIN-SUFFIX,firebase-settings.crashlytics.com # Firebase Crashlytics 设置服务域名
+DOMAIN-SUFFIX,mtalk.google.com # FCM 推送服务主机域名（Firebase Cloud Messaging）
+DOMAIN-SUFFIX,fcm.googleapis.com # FCM 推送 API 接口（Firebase Cloud Messaging）
+DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com # Google OAuth 账户管理接口，用于登录与绑定服务
+
+# > CDN 与内容加载（Google CDN & Delivery）
+
+DOMAIN-SUFFIX,googlecode.com # Google Code 项目托管平台（已停用，但部分资源可能存续）
+DOMAIN-SUFFIX,blogger.googleusercontent.com # Google Blogger 静态内容托管域名（如图片、资源等），不属于广告域名
+DOMAIN-SUFFIX,googleusercontent.com # Google/YouTube 的 CDN 内容分发与图片加载域（含 yt3、play-lh 等子域）
+DOMAIN-SUFFIX,gstatic.com # Google 静态资源服务，用于加载 YouTube 公共资源与字体文件
