@@ -4,7 +4,7 @@
 # - 特征：封锁具备反连、心跳、远程控制特征的通信节点，涵盖 RAT、Sliver、Metasploit 等常见后门工具所依赖的 C2 基础设施
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-2
+# - 更新时间：2025-11-04
 
 # > Telegram 后门通信域名
 

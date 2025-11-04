@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名，便于策略识别与分流（哔哩哔哩已独立归类至 Bilibili.list）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-2
+# - 更新时间：2025-11-04
 
 # > 视频平台
 DOMAIN-SUFFIX,youku.com # 优酷视频

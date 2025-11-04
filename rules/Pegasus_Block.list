@@ -4,7 +4,7 @@
 # - 特征：涵盖 Pegasus 使用的 C2 控制器、重定向节点、监听投递域名等高风险基础设施
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-2
+# - 更新时间：2025-11-04
 
 DOMAIN-SUFFIX,regularhours.net
 DOMAIN-SUFFIX,123tramites.com
