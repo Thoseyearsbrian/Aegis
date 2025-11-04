@@ -138,3 +138,4 @@ DOMAIN-SUFFIX,googlecode.com # Google Code 项目托管平台（已停用，但�
 DOMAIN-SUFFIX,blogger.googleusercontent.com # Google Blogger 静态内容托管域名（如图片、资源等），不属于广告域名
 DOMAIN-SUFFIX,googleusercontent.com # Google/YouTube 的 CDN 内容分发与图片加载域（含 yt3、play-lh 等子域）
 DOMAIN-SUFFIX,gstatic.com # Google 静态资源服务，用于加载 YouTube 公共资源与字体文件
+DOMAIN-SUFFIX,encrypted-tbn1.gstatic.com # Google 图片搜索缩略图资源域名
