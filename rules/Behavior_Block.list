@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com # Crashlytics 崩溃数据主
 DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com # Firebase 日志收集与上报服务
 DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com # Firebase 动态链接服务，常用于分享跳转追踪
 DOMAIN-SUFFIX,crashlytics.com # 被大量灰产 SDK 使用
+DOMAIN-SUFFIX,app-analytics-services.com # YouTube 应用行为统计接口，常用于用户操作数据收集
 
 # > Microsoft 相关遥测与探测行为
 
