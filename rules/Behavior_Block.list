@@ -159,6 +159,7 @@ IP-CIDR,101.226.28.238  # 支付宝 datagw 边缘网关，涉及数据分析与�
 DOMAIN-SUFFIX,gm.mmstat.com  # 阿里巴巴统计平台域名，用于行为分析与数据回传
 IP-CIDR,119.42.231.59  # 支付宝 mdap 域名解析节点，涉及设备信息采集
 DOMAIN-SUFFIX,nr-op.elemecdn.com  # 饿了么运营 CDN 资源节点，包含埋点与广告数据
+DOMAIN-SUFFIX,loggw.alipay.com # 支付宝客户端日志网关，上报用户行为数据  
 
 # > 知乎 Zhihu 行为分析与指纹上传域名
 

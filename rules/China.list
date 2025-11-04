@@ -37,7 +37,6 @@ DOMAIN-SUFFIX,alipayobjects.com # 支付宝静态资源 CDN，JS/CSS 脚本等�
 DOMAIN-SUFFIX,alipaylog.com # 支付宝日志与行为上报服务  
 DOMAIN-SUFFIX,amdc.alipay.com # 设备识别与环境检测接口，配合风控使用  
 DOMAIN-SUFFIX,amdc-sibling.alipay.com.cn # 设备指纹识别辅助节点  
-DOMAIN-SUFFIX,loggw.alipay.com # 支付宝客户端日志网关，上报用户行为数据  
 DOMAIN-SUFFIX,sdklog.alipay.com # 支付宝 SDK 运行日志上报接口  
 DOMAIN-SUFFIX,open.alipay.com # 支付宝开放平台域名，供第三方接入与调试使用  
 DOMAIN-SUFFIX,intl.alipay.com # 支付宝国际版服务入口  
