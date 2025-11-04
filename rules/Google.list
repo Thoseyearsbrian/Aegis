@@ -55,7 +55,7 @@ DOMAIN-SUFFIX,iosantiabuse-pa.googleapis.com # Google 移动端反滥用检测�
 DOMAIN-SUFFIX,accountcapabilities-pa.googleapis.com # Google 账户权限验证接口，支持 YouTube Premium 等服务
 DOMAIN-SUFFIX,suggestqueries.google.com # Google/Youtube 联想搜索建议服务接口
 DOMAIN-SUFFIX,oauth2.googleapis.com # Google OAuth 2.0 授权接口，常用于 YouTube 登录与验证
-DOMAIN-SUFFIX,play.googleapis.com # Google Play 服务接口，可能用于 YouTube 更新与订阅校验
+DOMAIN-SUFFIX,play.googleapis.com # Google Play 服务核心 API，用于应用更新、验证、推送等
 
 # > Chrome & 浏览器更新（Chrome & Update Services）
 
@@ -79,7 +79,6 @@ DOMAIN-SUFFIX,googleplay.com # Google Play 官方网站
 DOMAIN-SUFFIX,play.google.com # Google Play 应用服务，部分推文中包含链接时涉及
 DOMAIN-SUFFIX,gvt1.com # Google CDN 内容分发域名，用于 Play 下载等
 DOMAIN-SUFFIX,gvt2.com # Google CDN 辅助域名，常用于媒体资源分发
-DOMAIN-SUFFIX,play.googleapis.com # Google Play 服务核心 API，用于应用更新、验证、推送等
 DOMAIN-SUFFIX,play-lh.googleusercontent.com # Google Play 应用图片、Logo 等资源托管
 
 # > 开发者服务（Google Developer Services）
