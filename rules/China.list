@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,alibabacloud.com # 阿里云国际站域名，服务海外用户
 DOMAIN-SUFFIX,hichina.com # 阿里云旗下万网服务，涉及域名注册与管理  
 DOMAIN-SUFFIX,alibabacloud.com # 阿里云服务接口，提供图像识别、登录验证等功能 
 DOMAIN-SUFFIX,alicdn.com # 阿里 CDN 静态资源加载（含国际站资源）
+IP-CIDR,61.170.77.212  # 阿里巴巴 CDN 节点
 
 
 # > AliPay相关域名
