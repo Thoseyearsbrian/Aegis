@@ -4,37 +4,11 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-2
+# - 更新时间：2025-11-04
 
 # > iPhone 热点
 
 IP-CIDR,172.20.10.0/24
-
-# > AliPay相关域名
-
-DOMAIN-SUFFIX,alipay.com # 支付宝主站域名，用于支付、账户、活动等服务  
-DOMAIN-SUFFIX,alipayobjects.com # 支付宝静态资源 CDN，JS/CSS 脚本等文件分发  
-DOMAIN-SUFFIX,alipaylog.com # 支付宝日志与行为上报服务  
-DOMAIN-SUFFIX,amdc.alipay.com # 设备识别与环境检测接口，配合风控使用  
-DOMAIN-SUFFIX,amdc-sibling.alipay.com.cn # 设备指纹识别辅助节点  
-DOMAIN-SUFFIX,loggw.alipay.com # 支付宝客户端日志网关，上报用户行为数据  
-DOMAIN-SUFFIX,sdklog.alipay.com # 支付宝 SDK 运行日志上报接口  
-DOMAIN-SUFFIX,open.alipay.com # 支付宝开放平台域名，供第三方接入与调试使用  
-DOMAIN-SUFFIX,intl.alipay.com # 支付宝国际版服务入口  
-DOMAIN-SUFFIX,intl.alipay.com.cn # 支付宝国际版（中国大陆镜像）接口域名  
-DOMAIN-SUFFIX,dzq.alipay.com # 支付宝营销活动与数据服务接口  
-DOMAIN-SUFFIX,datametrics.alipay.com # 数据监测与指标接口  
-DOMAIN-SUFFIX,dl.django.t.alipayobjects.com # 支付宝 SDK 文件下载域名  
-DOMAIN-SUFFIX,gw.alipayobjects.com # 支付宝通用资源加载入口  
-DOMAIN-SUFFIX,ac.alipay.com # 支付宝账户中心服务  
-DOMAIN-SUFFIX,clientlog.alipay.com # 客户端调试与日志接口，记录崩溃与埋点  
-DOMAIN-SUFFIX,securitysdk.alipay.com # 支付宝安全 SDK 相关服务接口  
-DOMAIN-SUFFIX,loggw-external.alipay.com # 第三方数据统计专用日志网关  
-DOMAIN-SUFFIX,wgo.mmstat.com # 阿里巴巴数据采集域名，用于行为分析与用户交互追踪  
-IP-CIDR,203.209.230.36 # mgw.alipay.com 归属 IP，支付宝移动网关接口  
-IP-CIDR,101.226.28.237 # datagw-edge.alipay.com 归属节点，支付宝数据边缘服务  
-IP-CIDR,180.163.145.241 # 阿里云加速服务节点，可能涉及静态内容或广告加载
-IP-CIDR,59.82.34.148  # 阿里巴巴 AMDC 移动调度接口，用于设备接入分流与网络调度
 
 # > 中国银联相关域名（China UnionPay）
 
@@ -886,17 +860,6 @@ DOMAIN-SUFFIX,jdl.cn # 京东物流服务域名，涉及快递追踪与调度系
 DOMAIN-SUFFIX,jingxi.com # 京东旗下“京喜”社交电商平台域名  
 DOMAIN-SUFFIX,joybuy.com # 京东国际站英文平台域名  
 
-# > 淘宝相关域名（Taobao / 阿里巴巴集团）
-
-DOMAIN-SUFFIX,taobao.com # 淘宝主站域名，涵盖商品浏览、订单管理等服务  
-DOMAIN-SUFFIX,tmall.com # 天猫商城主域名，为品牌商家提供零售平台  
-DOMAIN-SUFFIX,tmall.hk # 天猫国际站，面向海外品牌与用户  
-DOMAIN-SUFFIX,alipay.com # 支付宝支付平台域名  
-DOMAIN-SUFFIX,taobaocdn.com # 淘宝CDN静态资源分发域名  
-DOMAIN-SUFFIX,alicdn.com # 阿里全系产品内容分发域名   
-DOMAIN-SUFFIX,mmstat.com # 阿里数据分析与埋点上报域名  
-DOMAIN-SUFFIX,amdc.alipay.com # 移动设备配置服务域名，涉及风控与认证逻辑  
-
 # > 电商平台域名规则集（Tmall / Suning / Kaola）
 
 # > 天猫（Tmall）
@@ -940,14 +903,6 @@ DOMAIN-SUFFIX,vipp.com # 唯品会短链与活动跳转域名
 DOMAIN-SUFFIX,vipshop.com # 唯品会旧版域名，部分接口与跳转仍在使用  
 DOMAIN-SUFFIX,vipimg.com # 唯品会图像资源分发域名  
 
-# > 闲鱼相关域名（Xianyu / 阿里巴巴二手交易）
-
-DOMAIN-SUFFIX,xiangyu.m.taobao.com # 闲鱼移动端跳转路径，托管于淘宝移动站  
-DOMAIN-SUFFIX,taobao.com # 淘宝主站域名，闲鱼交易流程需依托淘宝支付系统  
-DOMAIN-SUFFIX,alipay.com # 支付宝域名，用于闲鱼订单结算与担保交易  
-DOMAIN-SUFFIX,xianyuapp.com # 闲鱼官方主域名，客户端服务与接口调用核心域名  
-DOMAIN-SUFFIX,xianyuapi.com # 闲鱼 API 接口域名，用于消息通知与交易状态同步  
-
 # > 得物相关域名（Dewu / 毒 App）
 
 DOMAIN-SUFFIX,dewu.com # 得物主站域名，商品展示、下单与用户社区服务  
@@ -964,7 +919,7 @@ DOMAIN-SUFFIX,e.kuaishou.com # 快手电商服务子域名，商家与订单处�
 DOMAIN-SUFFIX,kwai.com # 快手海外品牌 Kwai 使用域名  
 DOMAIN-SUFFIX,kwaicdn.com # 快手 CDN 内容分发域名  
 
-# > 阿里巴巴集团相关域名（Alibaba Group）
+# > 阿里相关域名（Alibaba Group）
 
 DOMAIN-SUFFIX,alibaba.com # 阿里巴巴国际站主域名，B2B 贸易平台  
 DOMAIN-SUFFIX,alibabagroup.com # 阿里巴巴集团官网与企业信息发布  
@@ -974,9 +929,6 @@ DOMAIN-SUFFIX,aliimg.com # 阿里巴巴集团图像资源加载域名
 DOMAIN-SUFFIX,alimama.com # 阿里妈妈广告联盟服务域名  
 DOMAIN-SUFFIX,alihealth.com # 阿里健康服务平台域名，用于医疗电商与健康服务   
 DOMAIN-SUFFIX,yuque.com # 语雀文档平台，阿里巴巴旗下在线文档与知识库服务  
-
-# > 阿里云（Alibaba Cloud）
-
 DOMAIN-SUFFIX,aliyun.com # 阿里云官网及控制台主域名  
 DOMAIN-SUFFIX,alicloud.com # 阿里云国际站主域名，提供全球云计算服务   
 DOMAIN-SUFFIX,aliyuncs.com # 阿里云对象存储 OSS 与 CDN 服务域名  
@@ -984,6 +936,52 @@ DOMAIN-SUFFIX,alicdn.com # 阿里云 CDN 内容分发与静态资源加载域名
 DOMAIN-SUFFIX,alibabacloud.com # 阿里云国际站域名，服务海外用户  
 DOMAIN-SUFFIX,hichina.com # 阿里云旗下万网服务，涉及域名注册与管理  
 DOMAIN-SUFFIX,alibabacloud.com # 阿里云服务接口，提供图像识别、登录验证等功能 
+DOMAIN-SUFFIX,alicdn.com # 阿里 CDN 静态资源加载（含国际站资源）
+
+# > AliPay相关域名
+
+DOMAIN-SUFFIX,alipay.com # 支付宝主站域名，用于支付、账户、活动等服务  
+DOMAIN-SUFFIX,alipayobjects.com # 支付宝静态资源 CDN，JS/CSS 脚本等文件分发  
+DOMAIN-SUFFIX,alipaylog.com # 支付宝日志与行为上报服务  
+DOMAIN-SUFFIX,amdc.alipay.com # 设备识别与环境检测接口，配合风控使用  
+DOMAIN-SUFFIX,amdc-sibling.alipay.com.cn # 设备指纹识别辅助节点  
+DOMAIN-SUFFIX,loggw.alipay.com # 支付宝客户端日志网关，上报用户行为数据  
+DOMAIN-SUFFIX,sdklog.alipay.com # 支付宝 SDK 运行日志上报接口  
+DOMAIN-SUFFIX,open.alipay.com # 支付宝开放平台域名，供第三方接入与调试使用  
+DOMAIN-SUFFIX,intl.alipay.com # 支付宝国际版服务入口  
+DOMAIN-SUFFIX,intl.alipay.com.cn # 支付宝国际版（中国大陆镜像）接口域名  
+DOMAIN-SUFFIX,dzq.alipay.com # 支付宝营销活动与数据服务接口  
+DOMAIN-SUFFIX,datametrics.alipay.com # 数据监测与指标接口  
+DOMAIN-SUFFIX,dl.django.t.alipayobjects.com # 支付宝 SDK 文件下载域名  
+DOMAIN-SUFFIX,gw.alipayobjects.com # 支付宝通用资源加载入口  
+DOMAIN-SUFFIX,ac.alipay.com # 支付宝账户中心服务  
+DOMAIN-SUFFIX,clientlog.alipay.com # 客户端调试与日志接口，记录崩溃与埋点  
+DOMAIN-SUFFIX,securitysdk.alipay.com # 支付宝安全 SDK 相关服务接口  
+DOMAIN-SUFFIX,loggw-external.alipay.com # 第三方数据统计专用日志网关  
+DOMAIN-SUFFIX,wgo.mmstat.com # 阿里巴巴数据采集域名，用于行为分析与用户交互追踪  
+IP-CIDR,203.209.230.36 # mgw.alipay.com 归属 IP，支付宝移动网关接口  
+IP-CIDR,101.226.28.237 # datagw-edge.alipay.com 归属节点，支付宝数据边缘服务  
+IP-CIDR,180.163.145.241 # 阿里云加速服务节点，可能涉及静态内容或广告加载
+IP-CIDR,59.82.34.148  # 阿里巴巴 AMDC 移动调度接口，用于设备接入分流与网络调度
+
+# > 淘宝相关域名（Taobao / 阿里巴巴集团）
+
+DOMAIN-SUFFIX,taobao.com # 淘宝主站域名，涵盖商品浏览、订单管理等服务  
+DOMAIN-SUFFIX,tmall.com # 天猫商城主域名，为品牌商家提供零售平台  
+DOMAIN-SUFFIX,tmall.hk # 天猫国际站，面向海外品牌与用户  
+DOMAIN-SUFFIX,alipay.com # 支付宝支付平台域名  
+DOMAIN-SUFFIX,taobaocdn.com # 淘宝CDN静态资源分发域名  
+DOMAIN-SUFFIX,alicdn.com # 阿里全系产品内容分发域名   
+DOMAIN-SUFFIX,mmstat.com # 阿里数据分析与埋点上报域名  
+DOMAIN-SUFFIX,amdc.alipay.com # 移动设备配置服务域名，涉及风控与认证逻辑  
+
+# > 闲鱼相关域名（Xianyu / 阿里巴巴二手交易）
+
+DOMAIN-SUFFIX,xiangyu.m.taobao.com # 闲鱼移动端跳转路径，托管于淘宝移动站  
+DOMAIN-SUFFIX,taobao.com # 淘宝主站域名，闲鱼交易流程需依托淘宝支付系统  
+DOMAIN-SUFFIX,alipay.com # 支付宝域名，用于闲鱼订单结算与担保交易  
+DOMAIN-SUFFIX,xianyuapp.com # 闲鱼官方主域名，客户端服务与接口调用核心域名  
+DOMAIN-SUFFIX,xianyuapi.com # 闲鱼 API 接口域名，用于消息通知与交易状态同步 
 
 # > 腾讯云（Tencent Cloud）
 

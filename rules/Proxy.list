@@ -540,8 +540,7 @@ DOMAIN-SUFFIX,login.alibaba.com # 账户登录接口
 DOMAIN-SUFFIX,msg.alibaba.com # 在线沟通与询盘服务
 DOMAIN-SUFFIX,coupon.alibaba.com # 优惠券服务接口
 DOMAIN-SUFFIX,analytics.alibaba.com # 数据分析与行为统计接口
-DOMAIN-SUFFIX,intl.alibaba.com # Alibaba 国际站多语言子站入口
-DOMAIN-SUFFIX,alicdn.com # 阿里 CDN 静态资源加载（含国际站资源）
+DOMAIN-SUFFIX,intl.alibaba.com # Alibaba 国际站多语言子站入口 
 
 # > Capital One Shopping 相关域名
 
