@@ -174,7 +174,7 @@ DOMAIN-SUFFIX,alog.umeng.com # 应用行为分析接口（友盟核心域名）
 DOMAIN-SUFFIX,track.zhihu.com # 知乎站内行为埋点日志上传接口
 DOMAIN-SUFFIX,t.zhihu.com # 轻量级追踪埋点接口（类似 CDN 回传行为）
 
-# > 腾讯行为指纹与设备日志接口（Tencent Fingerprint & Telemetry）
+# > 腾讯行为追踪与遥测服务（Tencent Behavior & Telemetry Services）
 
 DOMAIN-SUFFIX,bugly.qq.com # Bugly 崩溃日志与异常上报接口
 DOMAIN-SUFFIX,mta.qq.com # MTA 移动分析平台（行为埋点与性能数据）
@@ -184,31 +184,19 @@ DOMAIN-SUFFIX,log.tbs.qq.com # TBS（腾讯浏览服务）行为日志与崩溃�
 DOMAIN-SUFFIX,tdid.qq.com # Tencent Device ID 设备指纹系统
 DOMAIN-SUFFIX,sngdia.qq.com # 腾讯广告行为记录接口
 DOMAIN-SUFFIX,tajs.qq.com # Tencent Analytics JS 埋点日志
-DOMAIN-SUFFIX,dldir1.qq.com # 安装包与更新接口（含行为采样）
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com # 多端设备行为同步接口
 DOMAIN-SUFFIX,report.qq.com # 应用行为上报中心（接口通用）
 DOMAIN-SUFFIX,sdk.e.qq.com  # 腾讯广告 SDK 域名，用于广告拉取与行为采集
-
-# > 微信 / QQ 小程序行为监听模块
-
+DOMAIN-SUFFIX,dldir1.qq.com # 安装包与更新接口（含行为采样）
 DOMAIN-SUFFIX,report.servicewechat.com # 微信服务接口（含行为分析组件）
 DOMAIN-SUFFIX,myqcloud.com # 腾讯云小程序行为上传域（常用于 SDK）
 DOMAIN-SUFFIX,wxapp.tc.qq.com # 小程序平台日志与崩溃分析服务
 DOMAIN-SUFFIX,miniapp.qq.com # QQ 小程序相关行为数据域名
+DOMAIN-SUFFIX,sandbox.api.qq.com # SDK 模拟测试行为回传（可能用于调试监听）
 DOMAIN-SUFFIX,inews.qq.com # 建议封锁，防监听
 
-# > 广告追踪与行为分析平台（优量汇 / 广点通）
-
-DOMAIN-SUFFIX,e.qq.com # 优量汇广告请求与行为采样接口
-DOMAIN-SUFFIX,gdt.qq.com # 广点通广告 SDK 回传域
-DOMAIN-SUFFIX,l.qq.com # 广告落地页行为分析接口
-DOMAIN-SUFFIX,ad.qq.com # 腾讯广告行为日志
-
-# > 腾讯云行为分析接口（用于商业 / SDK 接入）
-
-DOMAIN-SUFFIX,sandbox.api.qq.com # SDK 模拟测试行为回传（可能用于调试监听）
-
 # > GFW / Geedge 自有基础设施域名（泄露推测 / 待验证）
+
 DOMAIN-SUFFIX,tsg.geedge.net # Tiangou Secure Gateway 控制 / 下发接口
 DOMAIN-SUFFIX,mirror.geedge.net # Geedge 包 / 部署镜像服务域名
 DOMAIN-SUFFIX,repo.geedge.net # 包管理 / 源代码发布服务域
