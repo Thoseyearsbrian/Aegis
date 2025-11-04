@@ -136,6 +136,8 @@ DOMAIN-SUFFIX,cdn-apple-mapkit.com # 地图 CDN 服务
 DOMAIN-SUFFIX,swdist.apple.com # macOS 系统软件分发服务器
 DOMAIN-SUFFIX,swscan.apple.com # macOS 系统更新索引服务
 DOMAIN-SUFFIX,publicassets.cdn-apple.com # Apple 公共资源 CDN 节点
+DOMAIN-SUFFIX,updates.cdn-apple.com  # Apple 更新服务 CDN 域名
+IP-CIDR,151.101.3.8  # Apple 更新服务的 CDN 加速节点 IP
 IP-CIDR,17.248.0.0/16 # Apple CDN 主服务段
 IP-CIDR,144.178.0.0/19 # Apple 边缘服务段
 IP-CIDR,144.178.36.0/22 # Apple CDN 节点段
