@@ -3127,6 +3127,7 @@ DOMAIN-SUFFIX,hub.docker.com # Docker Hub 网站服务域名，用于镜像浏�
 DOMAIN-SUFFIX,registry-1.docker.io # Docker 官方镜像注册服务节点，用于容器镜像拉取
 DOMAIN-SUFFIX,auth.docker.io # Docker 身份认证服务，用于镜像拉取授权验证
 DOMAIN-SUFFIX,index.docker.io # Docker Hub 索引服务域名，用于镜像元数据解析
+DOMAIN-SUFFIX,dockerstatic.com # Docker 静态资源域名，用于图标、样式与前端组件加载
 
 # > Anker相关域名
 
