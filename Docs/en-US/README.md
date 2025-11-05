@@ -66,11 +66,13 @@ Aegis uses GitHub-based versioning and automation to stay up to date without man
 ## Surge IPv4 Configuration Links
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf  
+
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_EN.conf
 
 ## Surge IPv6 Configuration Links
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_IPv6_CN.conf  
+
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_IPv6_EN.conf
 
  💡 Note: Please choose the appropriate configuration based on your network environment. If your network natively supports IPv6, use the IPv6 version; otherwise, use the IPv4 version. **Do not mix configurations**, as this may result in request failures or DNS resolution issues.
