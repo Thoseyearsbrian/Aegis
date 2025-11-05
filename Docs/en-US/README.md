@@ -20,7 +20,9 @@ A network security ruleset meticulously maintained for Surge, focused on applica
 
 ## **Overview**
 
-[Aegis](https://github.com/Thoseyearsbrian/Aegis)is a network security rule set developed and maintained long-term by an independent developer. It focuses on countering modern network-layer threats and aims to help global users build localized and effective defense systems. The project blocks DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, and C2 controllers, and further extends its coverage to major global advertising, behavioral tracking, and adult content domains — enabling precise identification and efficient interception of local traffic. It also includes rules for numerous high-risk attack sources worldwide, including communication infrastructure and behavioral signatures related to Pegasus spyware.
+[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a meticulously maintained security rule set tailored for Surge, designed to address modern network-layer threats and help users worldwide build localized digital defense systems.The project focuses on blocking DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, C2 controllers, and other potentially malicious communications. It also extends to cover major global advertising networks, behavioral tracking platforms, and adult content domains, enabling precise traffic identification and efficient interception on local devices.  
+
+Aegis includes rule sets targeting high-risk infrastructures used by advanced threat actors worldwide — notably featuring detection strategies and domain blocks related to Pegasus spyware and its associated communication behaviors.
 
 The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
 
@@ -191,26 +193,10 @@ Additionally, the Aegis project has enabled GPG commit signing to ensure the aut
 
 We recommend maintaining and extending your configurations based on the structure of this project, to avoid duplicated efforts, reduce time costs, and benefit from ongoing updates and security optimizations.
 
-## **🙌  Aegis Telegram Channels**
+## 🙌 Community Support
 
-If you find value in this project, feel free to Star ⭐️ and show your support.
-All rule updates will be simultaneously published to the [Aegis Updates](https://t.me/aegisupdates)￼ notification channel — you’re welcome to subscribe and stay informed.
+If you find this project valuable, feel free to Star ⭐️ it. All rule updates are announced through our Telegram channels — you're welcome to subscribe and stay informed:
 
- - [Aegis Updates](https://t.me/aegisupdates) – **Release Notification Channel** :Used for publishing the latest rule versions, changelogs, and important announcements.
+- [Aegis Updates](https://t.me/aegisupdates) — **Telegram Release Channel**: Publishes the latest rule versions, changelogs, and important announcements  
 
- - [Aegis Discussion](https://t.me/aegisdiscussion) – **Community Collaboration Group** :Open to suggestions, false-positive reports, and contributions to rule building.
-
- **Application Notice:**
-
-To ensure the quality of collaboration, please include your GitHub account link when requesting to join the community group (for identity verification only).
-We welcome developers with real contribution records and active participation in the open-source ecosystem to join us in advancing rule development, clarifying copyright attribution, and preventing spam accounts or disruptive behavior.
-
-**Group Rules:**
-
-- This group is a pure technical discussion platform. It is strictly forbidden to post content involving politics, pornography, drugs, firearms, explosives, gambling, scams, cryptocurrency speculation, advertising, personal attacks, or any illegal or disruptive behavior (including but not limited to abuse, provocation, spamming, or phishing links). Violators will be dealt with immediately based on the severity of the situation, with serious offenders permanently banned.
-
-- To ensure communication safety, do not upload any unchecked or unverified executable files, archives, scripts, or links of unknown origin. Any confirmed violations will result in immediate banning and blacklisting. All uploaded files and content in the group will be automatically scanned by security tools such as the Dr.Web antivirus bot to prevent the spread of malicious content.
-
-- All members are expected to uphold a professional and respectful environment, focusing on cybersecurity topics and collaborative rule development. Let us work together to build a clean, orderly, and trustworthy community.
-
-- These rules apply to all members without exception. Community supervision and joint maintenance are highly encouraged.
+- [Aegis Discussion](https://t.me/aegisdiscussion) — **Telegram Community Group**: Share suggestions, report false positives, and participate in collaborative rule development
