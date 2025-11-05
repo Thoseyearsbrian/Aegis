@@ -1,6 +1,6 @@
 <!-- Aegis Cover Image -->
 <p align="center">
-  <img src="../assets/Aegis_Cover_Image.png" alt="Aegis Cover Image" width="1200"/>
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/Aegis_Cover_Image.png" alt="Aegis Cover Image" width="1200"/>
 </p>
 
 <h1 align="center">Aegis — Personal Digital Firewall Ruleset for Surge</h1>
