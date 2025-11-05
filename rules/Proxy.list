@@ -3164,6 +3164,7 @@ DOMAIN-SUFFIX,combot.org # Telegram 群组管理机器人服务
 DOMAIN-SUFFIX,ygkkk.blogspot.com # 博客站点域名
 DOMAIN-SUFFIX,static.mastergo.com # MasterGo 在线设计工具静态资源域名，用于加载图标、字体、脚本等前端组件
 DOMAIN-SUFFIX,typora.io # Typora 官方主站域名，用于下载、激活与 Markdown 编辑器内容同步服务
+DOMAIN-SUFFIX,crt.usertrust.com # USERTrust 根证书下载域名，用于 Apple 等平台的证书链请求
 
 # > 第三方独立站
 
