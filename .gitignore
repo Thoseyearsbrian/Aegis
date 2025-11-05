@@ -18,7 +18,7 @@ Thumbs.db
 .vscode/
 
 # Typora / Markdown 图床缓存
-assets/
+# assets/
 *.assets/
 
 # Surge 临时缓存或错误日志（如有）
