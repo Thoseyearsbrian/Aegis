@@ -2863,6 +2863,7 @@ DOMAIN-SUFFIX,kb.nssurge.com # Surge 官方知识库域名，用于访问产品�
 DOMAIN-SUFFIX,manual.nssurge.com # Surge 官方文档站点，用于访问配置手册与功能说明 
 DOMAIN-SUFFIX,wiki.surge.community # Surge 官方文档站，用于配置说明与功能参考
 DOMAIN-SUFFIX,nssurge.zendesk.com # Surge 官方客服支持中心，用于工单处理与技术支持
+DOMAIN-SUFFIX,divineengine.net # DivineEngine 站点 –“Surge 专题”页面，用于第三方用户教程与工具介绍
 
 # > GitBook 相关服务域名  
 
