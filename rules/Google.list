@@ -31,6 +31,7 @@ DOMAIN-SUFFIX,www-google-analytics.l.google.com # Google Analytics 辅助域名
 DOMAIN-SUFFIX,adsense.google.cn # Google AdSense 在中国的广告服务域
 DOMAIN-SUFFIX,googletagmanager.com # Google Tag Manager 标签管理器
 DOMAIN-SUFFIX,analytics.google.com # Google 分析平台主域
+DOMAIN-SUFFIX,g.co # Google 官方短链接域名，用于跳转至各类产品与服务页面 
 
 # > YouTube 服务（YouTube Services）
 
