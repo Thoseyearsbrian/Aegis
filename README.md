@@ -1,6 +1,6 @@
-<!-- Aegis Cover Image -->
+<!-- Aegis Logo -->
 <p align="center">
-  <img src="./assets/Aegis_Cover_Image.png" alt="Aegis Cover Image" width="1200"/>
+  <img src="./assets/Aegis_logo.png" alt="Aegis Logo" width="1200"/>
 </p>
 
 <h1 align="center">Aegis — Surge 个人数字防火墙规则集</h1>
