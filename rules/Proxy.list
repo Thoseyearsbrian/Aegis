@@ -3119,6 +3119,15 @@ DOMAIN-SUFFIX,proxy.gitbook.com # GitBook 内容代理服务域名，用于图�
 DOMAIN-SUFFIX,assets.gitbook.com # GitBook 静态资源域名，用于样式表、字体与脚本加载
 DOMAIN-SUFFIX,cdn.gitbook.io # GitBook CDN 内容分发节点，用于文档静态资源加速
 
+# > Docker Hub 服务相关域名
+
+DOMAIN-SUFFIX,docker.com # Docker 官方主站域名，用于账户登录与产品访问
+DOMAIN-SUFFIX,docker.io # Docker Hub 镜像仓库主域名，用于容器镜像下载与推送
+DOMAIN-SUFFIX,hub.docker.com # Docker Hub 网站服务域名，用于镜像浏览与用户仓库访问
+DOMAIN-SUFFIX,registry-1.docker.io # Docker 官方镜像注册服务节点，用于容器镜像拉取
+DOMAIN-SUFFIX,auth.docker.io # Docker 身份认证服务，用于镜像拉取授权验证
+DOMAIN-SUFFIX,index.docker.io # Docker Hub 索引服务域名，用于镜像元数据解析
+
 # > Anker相关域名
 
 DOMAIN-SUFFIX,anker.com # Anker 主品牌官网，消费电子产品展示与销售
