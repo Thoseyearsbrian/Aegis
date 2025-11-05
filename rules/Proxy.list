@@ -3111,6 +3111,14 @@ DOMAIN-SUFFIX,bz.aegis.download # Bandizip 软件更新与资源分发 CDN，加
 DOMAIN-SUFFIX,cdn.bandisoft.com # Bandisoft 静态资源 CDN，用于图标、界面组件与内置广告内容加载
 DOMAIN-SUFFIX,icon.bandisoft.com # Bandizip 图标资源接口，用于文件图标替换功能（右键菜单增
 
+# > GitBook 服务相关域名
+
+DOMAIN-SUFFIX,gitbook.com # GitBook 主站域名，用于文档托管与账户服务
+DOMAIN-SUFFIX,gitbook.io # GitBook 文档内容域名，用于用户发布的静态文档加载
+DOMAIN-SUFFIX,proxy.gitbook.com # GitBook 内容代理服务域名，用于图像与资源中转加载
+DOMAIN-SUFFIX,assets.gitbook.com # GitBook 静态资源域名，用于样式表、字体与脚本加载
+DOMAIN-SUFFIX,cdn.gitbook.io # GitBook CDN 内容分发节点，用于文档静态资源加速
+
 # > Anker相关域名
 
 DOMAIN-SUFFIX,anker.com # Anker 主品牌官网，消费电子产品展示与销售
