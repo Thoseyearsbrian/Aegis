@@ -2861,7 +2861,8 @@ DOMAIN-SUFFIX,conf.surge.run # Surge 远程配置订阅服务接口
 DOMAIN-SUFFIX,static.surge.run # Surge 静态资源与图标加载服务（如 policy-path 图标）
 DOMAIN-SUFFIX,kb.nssurge.com # Surge 官方知识库域名，用于访问产品常见问题、使用指南与发行说明 
 DOMAIN-SUFFIX,manual.nssurge.com # Surge 官方文档站点，用于访问配置手册与功能说明 
-DOMAIN-SUFFIX,wiki.surge.community,PROXY # Surge 官方文档站，用于配置说明与功能参考
+DOMAIN-SUFFIX,wiki.surge.community # Surge 官方文档站，用于配置说明与功能参考
+DOMAIN-SUFFIX,nssurge.zendesk.com # Surge 官方客服支持中心，用于工单处理与技术支持
 
 # > GitBook 相关服务域名  
 
