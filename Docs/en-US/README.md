@@ -197,6 +197,6 @@ We recommend maintaining and extending your configurations based on the structur
 
 If you find this project valuable, feel free to Star ⭐️ it. All rule updates are announced through our Telegram channels — you're welcome to subscribe and stay informed:
 
-- [Aegis Updates](https://t.me/aegisupdates) — **Telegram Release Channel**: Publishes the latest rule versions, changelogs, and important announcements  
+**Telegram Release Channel** - [Aegis Updates](https://t.me/aegisupdates) : Publishes the latest rule versions, changelogs, and important announcements  
 
-- [Aegis Discussion](https://t.me/aegisdiscussion) — **Telegram Community Group**: Share suggestions, report false positives, and participate in collaborative rule development
+**Telegram Community Group** - [Aegis Discussion](https://t.me/aegisdiscussion) : Share suggestions, report false positives, and participate in collaborative rule development

@@ -194,6 +194,6 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 如果你认可本项目的价值，欢迎 Star ⭐️ 支持，所有规则更新将同步发布至 Telegram 通知频道，欢迎订阅关注。
 
- - [Aegis Updates](https://t.me/aegisupdates) —— ** Telegram 版本更新频道**：用于发布最新规则版本、更新日志与重要公告 
+ **Telegram 版本更新频道** - [Aegis Updates](https://t.me/aegisupdates) : 用于发布最新规则版本、更新日志与重要公告 
 
- - [Aegis Discussion](https://t.me/aegisdiscussion) —— ** Telegram 用户共建群组**：欢迎提交建议、反馈误杀、参与规则共建 
+ **Telegram 用户共建群组** - [Aegis Discussion](https://t.me/aegisdiscussion) : 欢迎提交建议、反馈误杀、参与规则共建 
