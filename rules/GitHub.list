@@ -4,7 +4,7 @@
 # - 特征：涵盖 GitHub 主域名、子服务与 CDN 资源
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-10-23
+# - 更新时间：2025-11-06
 
 # > GitHub 主站与基础服务
 DOMAIN-SUFFIX,github.com # GitHub 主站（代码托管/仓库浏览）
@@ -35,3 +35,4 @@ DOMAIN-SUFFIX,github.io # GitHub Pages 静态站点托管域名（可设 CDN 缓
 DOMAIN-SUFFIX,recloudstream.github.io # CloudStream 项目 Github Pages 托管
 DOMAIN-SUFFIX,rawgithub.com # 第三方 GitHub Raw 文件镜像站（非官方，存在安全隐患）
 DOMAIN-SUFFIX,githubmemory.com # GitHub issues & discussions 社区镜像服务（非官方工具，可能存在缓存）
+DOMAIN-SUFFIX,camo.githubusercontent.com # GitHub 图片代理服务域名，用于展示外链图像资源
