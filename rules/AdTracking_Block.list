@@ -25,6 +25,7 @@ IP-CIDR,114.80.179.230 # 阿里系广告投放节点，疑似用于高德地图�
 DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告数据监测域名，用于广告点击与用户行为追踪
 IP-CIDR,203.119.238.0/24 # 阿里广告基础设施段（杭州机房）
 IP-CIDR,58.221.74.9 # 出现在咸鱼启动后回传通道中,疑似用于广告／行为回传 
+DOMAIN-SUFFIX,mxhichina.com # 阿里系域名，与咸鱼开屏广告有关
 
 # > 广告与追踪服务（Google Ads & Tracking）
 
