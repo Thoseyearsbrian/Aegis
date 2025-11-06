@@ -137,7 +137,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 项目整体架构与规则逻辑的主要参考来源，当前版本在此基础上进行了深度重构与安全适配。
 
-[@AmnestyTech](https://github.com/AmnestyTech) 👉  提供 Pegasus 相关 IOC 数据，作为规则构建的重要信息源（[CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/)）。
+[@AmnestyTech](https://github.com/AmnestyTech) 👉  提供 Pegasus 相关 IOC 数据，作为规则构建的重要信息源([CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/))。
 
 [@ESET](https://github.com/eset) 👉 提供 malware-ioc 公共仓库数据，作为 APT 相关规则的重要信息源([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE))。
 
