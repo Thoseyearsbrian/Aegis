@@ -29,8 +29,6 @@ Aegis includes rule sets targeting high-risk infrastructures used by advanced th
 
 The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
 
-In addition, Aegis offers an optional advanced module — CA_Block.list — which targets controversial or revoked root certificate authorities, OCSP endpoints, and CRL domains worldwide. This module is designed for users with higher digital trust requirements, helping to reduce the risk of man-in-the-middle attacks and malicious certificate chains.
-
 ## **Key Features**
 
 Aegis is designed to detect and block the following high-risk communications:
@@ -41,7 +39,9 @@ Aegis is designed to detect and block the following high-risk communications:
 - APT command-and-control (C2) infrastructure
 - SDK telemetry and behavioral fingerprinting
 
-Aegis is specifically designed for the Surge platform, fully compatible with both iOS and macOS systems. It offers excellent readability, auditability, and modular deployment capabilities, making it ideal for various use cases such as policy routing and firewall-assisted configurations.You may optionally enable the advanced module CA_Block.list to block high-risk certificate validation behaviors and CA-related traffic, further enhancing your defense against man-in-the-middle attacks.
+Aegis is purpose-built for the Surge platform, with full compatibility across both iOS and macOS systems. It features clear readability, audit-friendly structure, and modular deployment, making it suitable for policy-based routing, firewall integration, and other advanced use cases.
+
+An optional advanced module — CA_Block.list — is also available, aimed at blocking globally controversial or publicly revoked root certificate authorities, OCSP responders, and CRL domains. This module is intended for users with heightened digital trust requirements, offering additional protection against man-in-the-middle attacks and malicious certificate chains.
 
 ## **Philosophy**
 
