@@ -23,6 +23,9 @@ DOMAIN-SUFFIX,track.alicdn.com # 阿里广告追踪链接
 DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志上传服务器
 IP-CIDR,114.80.179.230 # 阿里系广告投放节点，疑似用于高德地图开屏广告内容分发
 DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告数据监测域名，用于广告点击与用户行为追踪
+DOMAIN-SUFFIX,mxhichina.com # 万网域名系统部分广告平台跳转链使用
+IP-CIDR,203.119.238.0/24 # 阿里广告基础设施段（杭州机房）
+IP-CIDR,58.221.74.9 # 出现在咸鱼启动后回传通道中,疑似用于广告／行为回传 
 
 # > 广告与追踪服务（Google Ads & Tracking）
 
