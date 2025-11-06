@@ -170,8 +170,6 @@ We ask you to respect the spirit of open source:
 
 Additionally, the Aegis project has enabled GPG commit signing to ensure the authenticity and integrity of its codebase. You can verify each commit via GPG signatures to gain higher assurance that the code has not been tampered with.
 
-We recommend maintaining and extending your configurations based on the structure of this project, to avoid duplicated efforts, reduce time costs, and benefit from ongoing updates and security optimizations.
-
 ## 🙌 Community Support
 
 If you find this project valuable, feel free to Star ⭐️ it. All rule updates are announced through our Telegram channels — you're welcome to subscribe and stay informed:

@@ -167,8 +167,6 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 此外，Aegis 项目已启用 GPG 签名（Git Commit Signing）机制，以确保项目代码来源真实可信、未被篡改。你可通过 GPG 签名验证每一次提交操作的完整性，从而获得更高的安全保障。
 
-建议您基于本项目结构进行维护与扩展，以避免重复开发，节省时间成本，同时获得后续更新与安全优化支持。
-
 ## 🙌  社区支持
 
 如果你认可本项目的价值，欢迎 Star ⭐️ 支持，所有规则更新将同步发布至 Telegram 通知频道，欢迎订阅关注。
