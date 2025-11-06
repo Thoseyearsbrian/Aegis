@@ -140,7 +140,7 @@ To meet personal cybersecurity requirements, this project has been deeply custom
 
 [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 The primary reference for the overall project architecture and rule logic. The current version has undergone extensive restructuring and security adaptation based on this foundation.
 
-[@AmnestyTech](https://github.com/AmnestyTech)  👉 Provided Pegasus-related IOC data as a critical source for rule construction（[CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/)）。
+[@AmnestyTech](https://github.com/AmnestyTech)  👉 Provided Pegasus-related IOC data as a critical source for rule construction（[CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/)）.
 
 [@ESET](https://github.com/eset) 👉 Provides data from the public malware-ioc repository, serving as an important source of intelligence for APT-related rule development ([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE)).
 
