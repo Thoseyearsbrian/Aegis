@@ -71,7 +71,80 @@ DOMAIN-SUFFIX,taobao.com # 淘宝主站域名，闲鱼交易流程需依托淘�
 DOMAIN-SUFFIX,alipay.com # 支付宝域名，用于闲鱼订单结算与担保交易  
 DOMAIN-SUFFIX,xianyuapp.com # 闲鱼官方主域名，客户端服务与接口调用核心域名  
 DOMAIN-SUFFIX,xianyuapi.com # 闲鱼 API 接口域名，用于消息通知与交易状态同步
+DOMAIN,dypnsapi.aliyuncs.com # 阿里云号码认证接口域名，用于一键登录与运营商认证服务
 IP-CIDR,61.170.77.212  # 中国上海电信网络节点，被用于 tb.alicdn.com 解析
+
+# > 中国电信服务相关域名
+
+DOMAIN-SUFFIX,21cn.com # 中国电信旗下 21CN 网站与业务域名，用于企业服务与通信接口
+DOMAIN-SUFFIX,api-e189.21cn.com # 中国电信号码认证接口域名，用于本机校验与三网认证服务
+DOMAIN-SUFFIX,e189.cn # 中国电信统一服务入口域名，用于官网、App 接入等在线服务
+DOMAIN-SUFFIX,ct10000.com # 中国电信 10000 号门户域名，用于用户服务、宽带业务查询
+DOMAIN-SUFFIX,chinatelecom-h.com # 中国电信控股公司域名，用于集团官网及资本市场信息披露
+DOMAIN-SUFFIX,chinatelecomglobal.com # 中国电信国际公司域名，用于全球业务与网络接入
+DOMAIN-SUFFIX,chinatelecom.com.cn # 中国电信主官网域名，涵盖公司介绍、业务入口与公共服务
+
+# > 中国联通服务相关域名
+
+DOMAIN-SUFFIX,wo.cn # 中国联通主服务域名，用于官网、用户入口与统一认证平台
+DOMAIN-SUFFIX,10010.com # 中国联通官方网站域名，用于业务办理、套餐查询与客户服务
+DOMAIN-SUFFIX,chinaunicom.com # 中国联通集团域名，用于集团官网、投资者关系与企业信息发布
+DOMAIN-SUFFIX,chinaunicom.cn # 中国联通公司主域名，用于政企服务、宽带接入与账户体系
+DOMAIN-SUFFIX,chinaunicombidding.cn # 中国联通招标平台域名，用于采购信息发布与投标管理
+DOMAIN-SUFFIX,chinaunicominternational.com # 中国联通国际公司域名，用于海外通信服务与网络接入
+DOMAIN-SUFFIX,chinaunicomglobal.com # 中国联通全球服务平台域名，用于全球漫游与国际业务拓展
+DOMAIN-SUFFIX,api.wo.cn # 中国联通 API 服务域名，用于认证服务、短信网关与业务对接接口
+
+# > 中国移动服务相关域名
+
+DOMAIN-SUFFIX,10086.cn # 中国移动统一服务域名，用于官网、App 接入与业务办理入口
+DOMAIN-SUFFIX,cmpassport.com # 中国移动认证平台域名，用于一键登录与本机号码校验服务
+DOMAIN-SUFFIX,chinamobile.com # 中国移动集团官网域名，用于企业介绍、公告披露与新闻发布
+DOMAIN-SUFFIX,monternet.com # 中国移动梦网平台域名，用于早期移动增值服务与内容接入
+DOMAIN-SUFFIX,cmcc # 中国移动网络识别标识域名，用于特定内部网络与配置服务
+DOMAIN-SUFFIX,cmvideo.cn # 中国移动咪咕视频主域名，用于视频内容服务与客户端加载
+DOMAIN-SUFFIX,miguvideo.com # 咪咕视频品牌域名，用于内容播放与账户登录服务
+DOMAIN-SUFFIX,api.cmpassport.com # 中国移动号码认证 API 接口域名，用于移动端快速登录与身份验证
+
+# > 中国广电服务相关域名
+
+DOMAIN-SUFFIX,cbn.cn # 中国广电（China Broadcasting Network）主站域名，用于业务介绍与政企服务
+DOMAIN-SUFFIX,china-bn.com # 中国广电官方域名，用于宽带、电视与政务信息服务
+DOMAIN-SUFFIX,chinabroadcast.cn # 中国广播电视网络公司域名，用于全国一体化广播电视服务平台
+DOMAIN-SUFFIX,gdtv.cn # 广东广电网络公司域名，用于区域广电业务与视频服务
+DOMAIN-SUFFIX,cbncloud.cn # 中国广电云平台域名，用于云网融合、广播电视云服务入口
+
+# > 工信部及下属机构服务相关域名
+
+DOMAIN-SUFFIX,miit.gov.cn # 工业和信息化部官网域名，用于政策发布、行业监管与服务入口
+DOMAIN-SUFFIX,beian.miit.gov.cn # 工信部ICP备案查询系统域名，用于备案号状态与主体信息核验
+DOMAIN-SUFFIX,gov.cn # 中国政府主站通用顶级域名，用于各级政府机关与政务平台
+DOMAIN-SUFFIX,chinadevelopment.com.cn # 工信部下属中国产业发展促进会域名，用于产业政策研究与报告发布
+DOMAIN-SUFFIX,sdpc.gov.cn # 国家发展改革委员会官网域名，涉及通信行业监管与资费政策协同
+DOMAIN-SUFFIX,cert.org.cn # 国家互联网应急中心（CNCERT）域名，用于网络安全事件通报与漏洞信息披露
+DOMAIN-SUFFIX,isc.org.cn # 中国互联网协会域名，用于行业协调、白名单系统与违规举报平台
+
+# > 中国信息通信研究院服务相关域名
+
+DOMAIN-SUFFIX,caict.ac.cn # 中国信息通信研究院主站域名，用于政策研究、标准发布与服务平台入口
+DOMAIN-SUFFIX,imt-2020.cn # 信通院主导的 IMT-2020（5G）推进组官网域名，用于技术评测与产业协同
+DOMAIN-SUFFIX,trustai.cn # 信通院可信 AI 评测平台域名，用于大模型评估与算法可信研究
+DOMAIN-SUFFIX,tdis.cn # 可信数字身份标准体系域名，由信通院主导建设
+DOMAIN-SUFFIX,taas.cn # 测试即服务（Test-as-a-Service）平台域名，用于软硬件互通性测评
+DOMAIN-SUFFIX,robotics.ac.cn # 信通院机器人研究平台域名，用于智能制造与机器人系统研究
+DOMAIN-SUFFIX,cstc.org.cn # 中国通信标准化协会（TC）域名，由信通院牵头管理，用于标准协调与发布
+
+# > 通信监管与基础网络服务相关域名
+
+DOMAIN-SUFFIX,miit.gov.cn # 工业和信息化部官网域名，用于政策发布与备案查询
+DOMAIN-SUFFIX,beian.miit.gov.cn # 工信部网站备案查询子域名，用于 ICP 备案状态验证
+DOMAIN-SUFFIX,caict.ac.cn # 中国信息通信研究院主域名，用于标准制定与政策解读
+DOMAIN-SUFFIX,cert.org.cn # 国家互联网应急中心域名，用于漏洞通报与安全预警
+DOMAIN-SUFFIX,apnic.net # 亚太网络信息中心域名，用于 IP 分配与 WHOIS 查询
+DOMAIN-SUFFIX,arin.net # 美国地区网络注册管理机构域名，用于 IP/ASN 查询
+DOMAIN-SUFFIX,ripe.net # 欧洲 IP 地址分配机构域名，用于网络基础服务
+DOMAIN-SUFFIX,ipip.net # IPIP 数据服务平台域名，常用于 IP 属地查询与测速
+DOMAIN-SUFFIX,ip.cn # IP 查询与定位服务域名，常用于公网 IP 探测服务
 
 # > 中国银联相关域名（China UnionPay）
 

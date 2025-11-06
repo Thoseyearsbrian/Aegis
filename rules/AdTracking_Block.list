@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告数据监测域名，用于广�
 IP-CIDR,203.119.238.0/24 # 阿里广告基础设施段（杭州机房）
 IP-CIDR,58.221.74.9 # 出现在咸鱼启动后回传通道中,疑似用于广告／行为回传 
 DOMAIN-SUFFIX,mxhichina.com # 阿里系域名，与咸鱼开屏广告有关
+DOMAIN,api-access.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接入域名，用于广告加载与统计回传
 
 # > 广告与追踪服务（Google Ads & Tracking）
 
