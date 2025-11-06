@@ -21,8 +21,6 @@
   <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-CN/README.md"><b>【中文文档点此进入】</b></a>
 </p>
 
-A network security ruleset meticulously maintained for Surge, focused on application- and transport-layer defense. It blocks DNS poisoning, APT infrastructure, SDK telemetry, backdoor communications, and C2 controllers. The ruleset also extends to block global advertising, behavioral tracking, and adult content domains — enabling precise, verifiable, and privacy-focused local traffic filtering for iOS and macOS.
-
 ## **Overview**
 
 [Aegis](https://github.com/Thoseyearsbrian/Aegis) is a meticulously maintained security rule set tailored for Surge, designed to address modern network-layer threats and help users worldwide build localized digital defense systems.The project focuses on blocking DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, C2 controllers, and other potentially malicious communications. It also extends to cover major global advertising networks, behavioral tracking platforms, and adult content domains, enabling precise traffic identification and efficient interception on local devices.  
@@ -136,39 +134,13 @@ This project is built upon inspiration and reference from numerous outstanding o
 
 To meet personal cybersecurity requirements, this project has been deeply customized and optimized for enhanced security based on existing rule sets. In order to ensure the integrity, safety, and long-term availability of the project, all materials and rule files are self-hosted within this repository, thereby avoiding issues such as update failures or trust concerns arising from third-party dependencies.
 
-- **Project Structure**: 
+**Project Structure**: 
 
-- [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 The primary reference for the overall project architecture and rule logic. The current version has undergone extensive restructuring and security adaptation based on this foundation.
+[@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 The primary reference for the overall project architecture and rule logic. The current version has undergone extensive restructuring and security adaptation based on this foundation.
 
-- **Rule Scripts**: 
+**Pegasus IOC**: 
 
-- [@Nebulosa-Cat](https://github.com/Nebulosa-Cat)
-
-- [@NobyDa](https://github.com/NobyDa)
-
-- [@LucaLin233](https://github.com/LucaLin233)
-
-- [@Hyseen](https://github.com/Hyseen)
-
-- [@congcong0806](https://github.com/congcong0806)
-
-- [@fishingworld](https://github.com/fishingworld)
-
-- [@mieqq](https://github.com/mieqq)
-
-- [@TributePaulWalker](https://github.com/TributePaulWalker)
-
-- **Routing / Rewrite Rules**: 
-
-- [@blackmatrix7](https://github.com/blackmatrix7) 👉 Its high‑quality rule sets have served as a foundational reference for building and optimizing certain entries.
-
-- **Apple Unlock Rules**: 
-
-- [@VirgilClyne](https://github.com/VirgilClyne) 👉 Provided key insights for unlocking Apple services and adapting related rule configurations.
-
-- **Pegasus IOC**: 
-
-- [@AmnestyTech](https://github.com/AmnestyTech)  👉 Provided Pegasus-related IOC data as a critical source for rule construction.
+[@AmnestyTech](https://github.com/AmnestyTech)  👉 Provided Pegasus-related IOC data as a critical source for rule construction.
 
 If you believe your work is missing from the acknowledgements, please feel free to contact me — I will add it promptly.
 

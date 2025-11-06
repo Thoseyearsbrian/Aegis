@@ -21,8 +21,6 @@
   <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/en-US/README.md"><b>【English Documentation Here】</b></a>
 </p>
 
-一个专为 Surge 精心维护的网络安全规则集，聚焦应用层与传输层防御，涵盖 DNS 污染、APT 攻击源、SDK 回传监听、后门通信、C2 控制器等潜在威胁，同时扩展至全球主流广告、行为追踪及成人内容平台的域名封锁，旨在实现 iOS 或 macOS 本地流量的精准识别与高效阻断。
-
 ## 项目概述
 
 [Aegis](https://github.com/Thoseyearsbrian/Aegis)是一个专为 Surge 精心维护的网络安全规则集，专注于应对现代网络层威胁，旨在帮助全球用户构建本地化的网络防御体系。项目通过封锁DNS 污染、APT 攻击源、SDK回传监听、后门域名、C2 控制器等潜在通信行为，并进一步扩展至全球主流广告、行为追踪及成人内容平台的域名封锁，实现本地流量精准识别与高效阻断。同时，项目已收录多个全球高风险攻击源的规则集，其中包括飞马间谍软件（Pegasus）的相关通信基础设施与行为特征识别策略。
@@ -137,35 +135,9 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 项目整体架构与规则逻辑的主要参考来源，当前版本在此基础上进行了深度重构与安全适配。
 
-### **脚本 / 规则来源参考**
-
-[@Nebulosa-Cat](https://github.com/Nebulosa-Cat)
-
-[@NobyDa](https://github.com/NobyDa)
-
-[@LucaLin233](https://github.com/LucaLin233)
-
-[@Hyseen](https://github.com/Hyseen)
-
-[@congcong0806](https://github.com/congcong0806)
-
-[@fishingworld](https://github.com/fishingworld)
-
-[@mieqq](https://github.com/mieqq)
-
-[@TributePaulWalker](https://github.com/TributePaulWalker)
-
-### **分流/重写规则维护参考**
-
-- [@blackmatrix7](https://github.com/blackmatrix7) 👉  其高质量规则集为部分条目构建与优化提供了参考基础。
-
-### **Apple 服务完整性维护**
-
-- [@VirgilClyne](https://github.com/VirgilClyne) 👉  针对 Apple 服务的解锁与规则适配部分提供了重要思路。
-
 ### **Pegasus 间谍软件 IOC 来源**
 
-- [@AmnestyTech](https://github.com/AmnestyTech) 👉  提供 Pegasus 相关 IOC 数据，作为规则构建的重要信息源。
+[@AmnestyTech](https://github.com/AmnestyTech) 👉  提供 Pegasus 相关 IOC 数据，作为规则构建的重要信息源。
 
 以上引用内容排名不分先后，若有遗漏您的项目或贡献，敬请谅解并欢迎联系我，我将第一时间补充致谢。
 
