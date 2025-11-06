@@ -18,6 +18,32 @@
 # DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 # DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
 
+# > 阿里系遥测接口
+
+DOMAIN-SUFFIX,xlog.snssdk.com # 闲鱼集成字节跳动 xlog 模块的行为上传接口
+DOMAIN-SUFFIX,umeng.com # 阿里巴巴友盟行为分析与 SDK 遥测主域
+DOMAIN-SUFFIX,alog.umeng.com # 友盟行为日志主上报接口（淘宝、支付宝等常嵌入）
+DOMAIN-SUFFIX,applog.uc.cn # UC 系产品行为分析与遥测数据上传
+DOMAIN-SUFFIX,errlog.umeng.com # 应用错误/崩溃日志上报接口（友盟 SDK）
+DOMAIN-SUFFIX,acjs.aliyun.com # 阿里云前端日志采集服务接口（含前端 JS 报错）
+DOMAIN-SUFFIX,trace.aliyun.com # 阿里追踪系统，用户操作行为分析
+DOMAIN-SUFFIX,spm.aliyun.com # SPM 埋点追踪系统域名
+DOMAIN-SUFFIX,log-mmserver.alibaba.com # 阿里巴巴移动端日志系统接口
+DOMAIN-SUFFIX,dap.alipay.com # 支付宝数据分析与页面行为追踪域名
+DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 日志接口
+DOMAIN-SUFFIX,gm.mmstat.com # 阿里巴巴统计平台域名，用于埋点与行为分析接口 
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com  # 淘宝 Adash 数据分析接口，用于用户行为上报
+IP-CIDR,101.226.28.238  # 支付宝 datagw 边缘网关，涉及数据分析与链路调度
+DOMAIN-SUFFIX,gm.mmstat.com  # 阿里巴巴统计平台域名，用于行为分析与数据回传
+IP-CIDR,119.42.231.59  # 支付宝 mdap 域名解析节点，涉及设备信息采集
+DOMAIN-SUFFIX,nr-op.elemecdn.com  # 饿了么运营 CDN 资源节点，包含埋点与广告数据
+DOMAIN-SUFFIX,loggw.alipay.com # 支付宝客户端日志网关，上报用户行为数据  
+DOMAIN-SUFFIX,alivc-aio.cn-hangzhou.dualstack.log.aliyuncs.com # 阿里云视频日志收集接口域名，用于日志上报与行为分析
+DOMAIN,px.ucweb.com # UC 浏览器追踪服务域名，用于行为分析与广告数据回传
+IP-CIDR,203.119.238.180 # 阿里广告网络归属 IP，疑似用于行为分析与广告数据传输
+IP-CIDR,59.82.113.36 # 杭州阿里广告公司网络段，疑似用于广告或行为回传通信
+DOMAIN-SUFFIX,loggw-external.alipay.com # 第三方数据统计专用日志网关   
+
 # > Google / Firebase / Crashlytics 相关行为指纹
 
 DOMAIN-SUFFIX,app-measurement.com # 指纹监听 + 流量分析回传
@@ -138,31 +164,6 @@ DOMAIN-SUFFIX,m5.amap.com # 高德地图 SDK 回传数据服务
 DOMAIN-SUFFIX,dualstack-logos.amap.com # SDK 日志与图片请求行为收集接口
 DOMAIN-SUFFIX,dsp.amap.com # 广告请求及用户行为采集接口
 DOMAIN-SUFFIX,stats.amap.com # 高德地图统计上报服务（页面访问、点击事件）
-
-# > 阿里系遥测接口
-
-DOMAIN-SUFFIX,xlog.snssdk.com # 闲鱼集成字节跳动 xlog 模块的行为上传接口
-DOMAIN-SUFFIX,umeng.com # 阿里巴巴友盟行为分析与 SDK 遥测主域
-DOMAIN-SUFFIX,alog.umeng.com # 友盟行为日志主上报接口（淘宝、支付宝等常嵌入）
-DOMAIN-SUFFIX,applog.uc.cn # UC 系产品行为分析与遥测数据上传
-DOMAIN-SUFFIX,errlog.umeng.com # 应用错误/崩溃日志上报接口（友盟 SDK）
-DOMAIN-SUFFIX,acjs.aliyun.com # 阿里云前端日志采集服务接口（含前端 JS 报错）
-DOMAIN-SUFFIX,trace.aliyun.com # 阿里追踪系统，用户操作行为分析
-DOMAIN-SUFFIX,spm.aliyun.com # SPM 埋点追踪系统域名
-DOMAIN-SUFFIX,log-mmserver.alibaba.com # 阿里巴巴移动端日志系统接口
-DOMAIN-SUFFIX,dap.alipay.com # 支付宝数据分析与页面行为追踪域名
-DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 日志接口
-DOMAIN-SUFFIX,gm.mmstat.com # 阿里巴巴统计平台域名，用于埋点与行为分析接口 
-DOMAIN-SUFFIX,h-adashx.ut.taobao.com  # 淘宝 Adash 数据分析接口，用于用户行为上报
-IP-CIDR,101.226.28.238  # 支付宝 datagw 边缘网关，涉及数据分析与链路调度
-DOMAIN-SUFFIX,gm.mmstat.com  # 阿里巴巴统计平台域名，用于行为分析与数据回传
-IP-CIDR,119.42.231.59  # 支付宝 mdap 域名解析节点，涉及设备信息采集
-DOMAIN-SUFFIX,nr-op.elemecdn.com  # 饿了么运营 CDN 资源节点，包含埋点与广告数据
-DOMAIN-SUFFIX,loggw.alipay.com # 支付宝客户端日志网关，上报用户行为数据  
-DOMAIN-SUFFIX,alivc-aio.cn-hangzhou.dualstack.log.aliyuncs.com # 阿里云视频日志收集接口域名，用于日志上报与行为分析
-DOMAIN,px.ucweb.com # UC 浏览器追踪服务域名，用于行为分析与广告数据回传
-IP-CIDR,203.119.238.180 # 阿里广告网络归属 IP，疑似用于行为分析与广告数据传输
-IP-CIDR,59.82.113.36 # 杭州阿里广告公司网络段，疑似用于广告或行为回传通信
 
 # > 知乎 Zhihu 行为分析与指纹上传域名
 

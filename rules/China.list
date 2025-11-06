@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-04
+# - 更新时间：2025-11-06
 
 # > iPhone 热点
 
@@ -28,8 +28,7 @@ DOMAIN-SUFFIX,alibabacloud.com # 阿里云国际站域名，服务海外用户
 DOMAIN-SUFFIX,hichina.com # 阿里云旗下万网服务，涉及域名注册与管理  
 DOMAIN-SUFFIX,alibabacloud.com # 阿里云服务接口，提供图像识别、登录验证等功能 
 DOMAIN-SUFFIX,alicdn.com # 阿里 CDN 静态资源加载（含国际站资源）
-IP-CIDR,61.170.77.212  # 阿里巴巴 CDN 节点
-
+IP-CIDR,61.170.77.212  # 阿里巴巴 CDN 节点 
 
 # > AliPay相关域名
 
@@ -49,8 +48,6 @@ DOMAIN-SUFFIX,gw.alipayobjects.com # 支付宝通用资源加载入口
 DOMAIN-SUFFIX,ac.alipay.com # 支付宝账户中心服务  
 DOMAIN-SUFFIX,clientlog.alipay.com # 客户端调试与日志接口，记录崩溃与埋点  
 DOMAIN-SUFFIX,securitysdk.alipay.com # 支付宝安全 SDK 相关服务接口  
-DOMAIN-SUFFIX,loggw-external.alipay.com # 第三方数据统计专用日志网关  
-DOMAIN-SUFFIX,wgo.mmstat.com # 阿里巴巴数据采集域名，用于行为分析与用户交互追踪  
 IP-CIDR,203.209.230.36 # mgw.alipay.com 归属 IP，支付宝移动网关接口  
 IP-CIDR,101.226.28.237 # datagw-edge.alipay.com 归属节点，支付宝数据边缘服务  
 IP-CIDR,180.163.145.241 # 阿里云加速服务节点，可能涉及静态内容或广告加载

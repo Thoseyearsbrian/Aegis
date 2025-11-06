@@ -4,7 +4,7 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-11-04
+# - 更新时间：2025-11-06
 
 # > 阿里系开屏广告（高德 / 闲鱼 / 淘宝）
 
@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,adashx4yt.m.taobao.com # 淘宝广告日志收集节点
 DOMAIN-SUFFIX,track.alicdn.com # 阿里广告追踪链接
 DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志上传服务器
 IP-CIDR,114.80.179.230 # 阿里系广告投放节点，疑似用于高德地图开屏广告内容分发
+DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告数据监测域名，用于广告点击与用户行为追踪
 
 # > 广告与追踪服务（Google Ads & Tracking）
 
