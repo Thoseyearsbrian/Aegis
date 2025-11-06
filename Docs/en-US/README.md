@@ -66,6 +66,8 @@ Aegis adheres to technical neutrality, information transparency, and complete in
 
 Aegis uses GitHub-based versioning and automation to stay up to date without manual intervention.  It fully supports remote rule subscription for Surge.
 
+If configuration auto-reload is not enabled, you can manually refresh external resources or reload the profile to ensure the ruleset stays up to date.
+
 ## Surge IPv4 Configuration Links
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf  

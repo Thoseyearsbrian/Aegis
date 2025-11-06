@@ -64,6 +64,8 @@ Aegis 是一个坚持技术中立、信息透明、自主独立的安全规则�
 
 Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最新状态，支持 Surge 远程订阅使用。
 
+若未启用配置变更自动重载功能，亦可手动刷新外部资源或重新载入配置，以确保规则集保持最新状态。
+
 ## Surge IPv4 配置链接
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf  
