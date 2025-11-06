@@ -138,8 +138,6 @@ To meet personal cybersecurity requirements, this project has been deeply custom
 
 [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 The primary reference for the overall project architecture and rule logic. The current version has undergone extensive restructuring and security adaptation based on this foundation.
 
-**Pegasus IOC**: 
-
 [@AmnestyTech](https://github.com/AmnestyTech)  👉 Provided Pegasus-related IOC data as a critical source for rule construction.
 
 If you believe your work is missing from the acknowledgements, please feel free to contact me — I will add it promptly.
