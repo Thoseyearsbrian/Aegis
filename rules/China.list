@@ -67,7 +67,8 @@ DOMAIN-SUFFIX,taobao.com # 淘宝主站域名，闲鱼交易流程需依托淘�
 DOMAIN-SUFFIX,alipay.com # 支付宝域名，用于闲鱼订单结算与担保交易  
 DOMAIN-SUFFIX,xianyuapp.com # 闲鱼官方主域名，客户端服务与接口调用核心域名  
 DOMAIN-SUFFIX,xianyuapi.com # 闲鱼 API 接口域名，用于消息通知与交易状态同步
-DOMAIN,dypnsapi.aliyuncs.com # 阿里云号码认证接口域名，用于一键登录与运营商认证服务
+DOMAIN-SUFFIX,dypnsapi.aliyuncs.com # 阿里云号码认证接口域名，用于一键登录与运营商认证服务
+DOMAIN-SUFFIX,img.alicdn.com # 阿里CDN图像域名，包含用户头像 / 商品图等关键内容
 IP-CIDR,61.170.77.212  # 中国上海电信网络节点，被用于 tb.alicdn.com 解析
 
 # > 中国电信服务相关域名
