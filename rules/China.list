@@ -69,6 +69,7 @@ DOMAIN-SUFFIX,xianyuapp.com # 闲鱼官方主域名，客户端服务与接口�
 DOMAIN-SUFFIX,xianyuapi.com # 闲鱼 API 接口域名，用于消息通知与交易状态同步
 DOMAIN-SUFFIX,dypnsapi.aliyuncs.com # 阿里云号码认证接口域名，用于一键登录与运营商认证服务
 DOMAIN-SUFFIX,img.alicdn.com # 阿里CDN图像域名，包含用户头像 / 商品图等关键内容
+DOMAIN-SUFFIX,gw.alicdn.com # 阿里CDN资源域名，用于闲鱼前端广告图片与图标加载  
 IP-CIDR,61.170.77.212  # 中国上海电信网络节点，被用于 tb.alicdn.com 解析
 
 # > 中国电信服务相关域名

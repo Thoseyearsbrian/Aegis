@@ -29,7 +29,6 @@ DOMAIN-SUFFIX,mxhichina.com # 阿里系域名，与咸鱼开屏广告有关
 DOMAIN-SUFFIX,acs.m.goofish.com # 阿里系域名，与闲鱼主广告接口及开屏广告加载相关  
 DOMAIN-SUFFIX,g-acs.m.goofish.com # 阿里系域名，用于闲鱼搜索与广告数据请求接口  
 DOMAIN-SUFFIX,h5.m.goofish.com # 阿里系域名，用于闲鱼活动页与页面跳转广告接口  
-DOMAIN-SUFFIX,gw.alicdn.com # 阿里CDN资源域名，用于闲鱼前端广告图片与图标加载  
 DOMAIN,api-access.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接入域名，用于广告加载与统计回传
 
 # > 广告与追踪服务（Google Ads & Tracking）
