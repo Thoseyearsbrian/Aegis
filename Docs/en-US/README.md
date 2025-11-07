@@ -23,7 +23,7 @@
 
 ## **Overview**
 
-[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a meticulously maintained security rule set tailored for Surge, designed to address modern network-layer threats and help users worldwide build localized digital defense systems.The project focuses on blocking DNS poisoning, APT threat sources, SDK telemetry, backdoor domains, C2 controllers, and other potentially malicious communications. It also extends to cover major global advertising networks, behavioral tracking platforms, and adult content domains, enabling precise traffic identification and efficient interception on local devices.  
+[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a meticulously maintained security rule set tailored for [Surge](https://nssurge.com), designed to address modern network-layer threats and help users worldwide build localized digital defense systems.The project focuses on blocking [DNS poisoning]((https://en.wikipedia.org/wiki/DNS_hijacking)), [APT threat sources](https://en.wikipedia.org/wiki/Advanced_persistent_threat), [SDK telemetry](https://en.wikipedia.org/wiki/Software_development_kit), [backdoor domains](https://en.wikipedia.org/wiki/Back_door), [C2 controllers]((https://en.wikipedia.org/?redirect=no&title=Command_and_control)), and other potentially malicious communications. It also extends to cover major global advertising networks, behavioral tracking platforms, and adult content domains, enabling precise traffic identification and efficient interception on local devices.  
 
 Aegis includes rule sets targeting high-risk infrastructures used by advanced threat actors worldwide — notably featuring detection strategies and domain blocks related to Pegasus spyware and its associated communication behaviors.
 
@@ -64,7 +64,7 @@ Aegis adheres to technical neutrality, information transparency, and complete in
 
 ## **Auto Update**
 
-Aegis uses GitHub-based versioning and automation to stay up to date without manual intervention.  It fully supports remote rule subscription for Surge.
+Aegis is hosted on [GitHub](https://github.com) with an automated update mechanism, ensuring that all rule sets remain up-to-date and are fully compatible with remote subscription in Surge.
 
 If configuration auto-reload is not enabled, you can manually refresh external resources or reload the profile to ensure the ruleset stays up to date.
 
@@ -132,7 +132,7 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
 
 ## **🌟 Special Thanks**
 
-This project is built upon inspiration and reference from numerous outstanding open-source initiatives within the GitHub community. We extend our sincere gratitude to all developers who have contributed to the open-source ecosystem.
+This project is built upon inspiration and reference from numerous outstanding open-source initiatives within the [GitHub](https://github.com) community. We extend our sincere gratitude to all developers who have contributed to the open-source ecosystem.
 
 To meet personal cybersecurity requirements, this project has been deeply customized and optimized for enhanced security based on existing rule sets. In order to ensure the integrity, safety, and long-term availability of the project, all materials and rule files are self-hosted within this repository, thereby avoiding issues such as update failures or trust concerns arising from third-party dependencies.
 
@@ -142,7 +142,7 @@ To meet personal cybersecurity requirements, this project has been deeply custom
 
 [@AmnestyTech](https://github.com/AmnestyTech)  👉 Provided Pegasus-related IOC data as a critical source for rule construction([CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/)).
 
-[@ESET](https://github.com/eset) 👉 Provides data from the public malware-ioc repository, serving as an important source of intelligence for APT-related rule development ([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE)).
+[@ESET](https://github.com/eset) 👉 Provides data from the public [malware-ioc](https://github.com/eset/malware-ioc) repository, serving as an important source of intelligence for APT-related rule development ([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE)).
 
 If you believe your work is missing from the acknowledgements, please feel free to contact me — I will add it promptly.
 
@@ -152,7 +152,7 @@ This project is a non-profit, open-source security rule set aimed at helping use
 
 1. **Third-Party Sources**: Some rules are based on publicly available threat intelligence (e.g., security reports, threat databases, GitHub projects). All references are properly cited. If you believe any content is inappropriate, please contact the author for revision or removal.
 2. **False Positive Warning**: As the rule set may include generalized blocking strategies, users must conduct thorough testing before deployment to ensure normal functionality is not impacted. The project author assumes no responsibility for issues caused by false positives, including connection failures or feature disruptions.
-3. **Commercial Use Notice**: This project is released under the MIT License. You are free to use it for both commercial and non-commercial purposes, provided that you comply with the license terms and retain proper attribution and annotations. We oppose misuse of the rules for closed-source, anti-public-interest, or anti-open-source practices.
+3. **Commercial Use Notice**: This project is released under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE) License. You are free to use it for both commercial and non-commercial purposes, provided that you comply with the license terms and retain proper attribution and annotations. We oppose misuse of the rules for closed-source, anti-public-interest, or anti-open-source practices.
 4. **No Warranty**: This project is provided “as is”, without any express or implied warranties regarding its completeness, accuracy, timeliness, or suitability. Users bear full responsibility for any risks incurred from its use.
 5. **Usage Restrictions**: All rules and configuration files are strictly intended for legal purposes, including network defense, traffic control, and security research. Any use for offensive actions, reverse engineering, audit evasion, or other illicit activities is strictly prohibited.
 6. **Liability Limitation**: The project author shall not be held liable for any direct or indirect losses (including but not limited to data breaches, service interruptions, or security failures) arising from the use, duplication, or distribution of this project.
@@ -166,11 +166,11 @@ This project is licensed under the [Apache License 2.0](https://github.com/Those
 
 We ask you to respect the spirit of open source:
 
-- Keep original author credits and license text intact.
-- Do not remove annotations or license statements.
-- Do not exploit the rule set for closed-source monetization or abusive purposes.
+- **Keep original author credits and license text intact.**
+- **Do not remove annotations or license statements.**
+- **Do not exploit the rule set for closed-source monetization or abusive purposes.**
 
-Additionally, the Aegis project has enabled GPG commit signing to ensure the authenticity and integrity of its codebase. You can verify each commit via GPG signatures to gain higher assurance that the code has not been tampered with.
+Additionally, the Aegis project has enabled [GPG](https://gnupg.org) commit signing to ensure the authenticity and integrity of its codebase. You can verify each commit via GPG signatures to gain higher assurance that the code has not been tampered with.
 
 ## 🙌 Community Support
 

@@ -6,10 +6,6 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-11-06
 
-# > iPhone 热点
-
-IP-CIDR,172.20.10.0/24
-
 # > 阿里相关域名（Alibaba Group）
 
 DOMAIN-SUFFIX,alibaba.com # 阿里巴巴国际站主域名，B2B 贸易平台  

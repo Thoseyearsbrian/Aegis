@@ -1,4 +1,4 @@
-<!-- Aegis Cover Image -->
+<!-- Aegis Logo -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/Aegis_Cover_Image.png" alt="Aegis Cover Image" width="1200"/>
 </p>
@@ -23,7 +23,7 @@
 
 ## 项目概述
 
-[Aegis](https://github.com/Thoseyearsbrian/Aegis)是一个专为 Surge 精心维护的网络安全规则集，专注于应对现代网络层威胁，旨在帮助全球用户构建本地化的网络防御体系。项目通过封锁DNS 污染、APT 攻击源、SDK回传监听、后门域名、C2 控制器等潜在通信行为，并进一步扩展至全球主流广告、行为追踪及成人内容平台的域名封锁，实现本地流量精准识别与高效阻断。同时，项目已收录多个全球高风险攻击源的规则集，其中包括飞马间谍软件（Pegasus）的相关通信基础设施与行为特征识别策略。
+[Aegis](https://github.com/Thoseyearsbrian/Aegis)是一个专为 [Surge](https://nssurge.com) 精心维护的网络安全规则集，专注于应对现代网络层威胁，旨在帮助全球用户构建本地化的网络防御体系。项目通过封锁 [DNS污染](https://zh.wikipedia.org/wiki/域名服务器缓存污染)、[APT 攻击源](https://zh.wikipedia.org/wiki/高级长期威胁)、[SDK回传监听](https://en.wikipedia.org/wiki/Software_development_kit)、[后门域名](https://en.wikipedia.org/wiki/Back_door)、[C2 控制器](https://zh.wikipedia.org/wiki/殭屍網絡)等潜在通信行为，并进一步扩展至全球主流广告、行为追踪及成人内容平台的域名封锁，实现本地流量精准识别与高效阻断。同时，项目已收录多个全球高风险攻击源的规则集，其中包括飞马间谍软件（[Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware))）的相关通信基础设施与行为特征识别策略。
 
 本项目全面采用加密 DNS，拒绝明文请求，确保通信加密与隐私安全。即便在如 iPhone 等缺乏传统安全软件支持的设备上，亦可提供流量层级的有效防护。
 
@@ -62,7 +62,7 @@ Aegis 是一个坚持技术中立、信息透明、自主独立的安全规则�
 
 ## 自动化更新
 
-Aegis 采用 GitHub 托管实现自动更新机制，确保数据始终处于最新状态，支持 Surge 远程订阅使用。
+Aegis 采用 [GitHub](https://github.com) 托管实现自动更新机制，确保数据始终处于最新状态，支持 Surge 远程订阅使用。
 
 若未启用配置变更自动重载功能，亦可手动刷新外部资源或重新载入配置，以确保规则集保持最新状态。
 
@@ -78,7 +78,7 @@ Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_IPv6_EN.conf
 
- 💡 **配置说明**：请根据网络环境选择对应配置。如您的网络环境原生支持 IPv6，请使用 IPv6 配置；否则请使用 IPv4 配置。**禁止混用**，否则将导致请求异常或 DNS 解析失败。
+ 💡 配置说明：请根据网络环境选择对应配置,如您的网络环境原生支持 IPv6，请使用 IPv6 配置；否则请使用 IPv4 配置。禁止混用，否则将导致请求异常或 DNS 解析失败。
 
 ## 配置方式
 
@@ -129,7 +129,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 ## 🌟 特别致谢
 
-本项目在设计与整理过程中，参考并借鉴了 GitHub 社区中众多优秀开源项目，谨向所有为开源社区作出贡献的开发者致以诚挚感谢。
+本项目在设计与整理过程中，参考并借鉴了 [GitHub](https://github.com) 社区中众多优秀开源项目，谨向所有为开源社区作出贡献的开发者致以诚挚感谢。
 
 为满足个人网络安全防护需求，本项目在既有规则基础上进行了深度定制与安全优化。为保障项目的完整性、安全性与长期可用性，所有使用的素材与规则均通过本仓库自托管，避免因依赖第三方源而引发的更新失效或信任风险。
 
@@ -139,7 +139,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 [@AmnestyTech](https://github.com/AmnestyTech) 👉  提供 Pegasus 相关 IOC 数据，作为规则构建的重要信息源([CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/))。
 
-[@ESET](https://github.com/eset) 👉 提供 malware-ioc 公共仓库数据，作为 APT 相关规则的重要信息源([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE))。
+[@ESET](https://github.com/eset) 👉 提供 [malware-ioc](https://github.com/eset/malware-ioc) 公共仓库数据，作为 APT 相关规则的重要信息源([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE))。
 
 以上引用内容排名不分先后，若有遗漏您的项目或贡献，敬请谅解并欢迎联系我，我将第一时间补充致谢。
 
@@ -149,7 +149,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 1. **第三方来源说明**：本项目部分内容参考公开威胁情报（如安全社区报告、威胁数据库、GitHub 项目等），所有相关引用均已注明出处。如有异议，请联系我进行修正或删除。
 2. **误杀风险提示**：鉴于规则集中可能涉及通用封锁策略，使用者应在部署前充分测试，确保不影响正常业务。如因误拦截造成连接异常、功能缺失或其他后果，项目作者不承担任何责任。
-3. **商业用途说明**：本项目本项目以 MIT 协议开源发布，您可以自由用于商业与非商业目的，但请务必遵守许可证条款，保留原始作者署名与注释说明。我们反对滥用规则集用于闭源、侵害公共利益或违背开源精神的商业行为。
+3. **商业用途说明**：本项目本项目以 [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE) 协议开源发布，您可以自由用于商业与非商业目的，但请务必遵守许可证条款，保留原始作者署名与注释说明。我们反对滥用规则集用于闭源、侵害公共利益或违背开源精神的商业行为。
 4. **无担保条款**：本项目以“按现状”形式提供，不对其完整性、准确性、实时性或适配性做出任何明示或暗示的担保。使用者应自行判断适用性并承担所有使用风险。
 5. **用途限定**：所有规则与配置文件仅供用于合法的网络防御、流量控制与安全研究。严禁将本项目用于任何攻击性行为、逆向工程、绕过审计等违法或灰色用途。
 6. **责任限制**：对因使用、复制或传播本项目内容所产生的任何直接或间接损失（包括但不限于数据泄漏、业务中断、安全故障等），项目作者不承担任何法律责任。
@@ -167,7 +167,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 - **不得删除或隐藏源代码注释与协议声明**；
 - **不滥用规则集用于闭源或侵犯公共利益的行为。**
 
-此外，Aegis 项目已启用 GPG 签名（Git Commit Signing）机制，以确保项目代码来源真实可信、未被篡改。你可通过 GPG 签名验证每一次提交操作的完整性，从而获得更高的安全保障。
+此外，Aegis 项目已启用 [GPG](https://gnupg.org) 签名（Git Commit Signing）机制，以确保项目代码来源真实可信、未被篡改。你可通过 GPG 签名验证每一次提交操作的完整性，从而获得更高的安全保障。
 
 ## 🙌  社区支持
 
