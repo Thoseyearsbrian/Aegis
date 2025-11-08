@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-04
+# - 更新时间：2025-11-08
 
 # > Kaspersky 相关域名
 
@@ -3145,6 +3145,31 @@ DOMAIN-SUFFIX,ankerus.com # Anker 北美地区市场域名（警惕仿冒变体�
 DOMAIN-SUFFIX,ankerindia.com # Anker 印度地区市场域名
 DOMAIN-SUFFIX,anker-store.com # 官方授权电商域名（部分地区用于销售渠道）
 
+# > OFTC（Open and Free Technology Community）相关域名
+
+DOMAIN-SUFFIX,oftc.net # OFTC 官方主域名，用于开源社区 IRC 服务与基础设施
+DOMAIN-SUFFIX,irc.oftc.net # OFTC IRC 主服务器域名，用于聊天与开发者实时交流
+DOMAIN-SUFFIX,webchat.oftc.net # OFTC WebChat 网页端域名，用于浏览器访问 IRC 网络
+DOMAIN-SUFFIX,services.oftc.net # OFTC 服务管理子域名，用于 IRC 用户账户与网络注册
+DOMAIN-SUFFIX,oftc.debian.net # Debian 项目使用的 OFTC 子域名，用于开源项目沟通与支持
+
+# > V2EX 相关域名
+
+DOMAIN-SUFFIX,v2ex.com # V2EX 主站域名，用于开发者/程序员社区交流平台
+DOMAIN-SUFFIX,v2ex.co # V2EX 替代域名，用于国际访问与备用入口
+DOMAIN-SUFFIX,v2ex.net # V2EX 可能备用域名，用于社区资源与镜像服务
+DOMAIN-SUFFIX,forum.v2ex.com # V2EX 社区论坛子域，用于帖子浏览与用户互动
+DOMAIN-SUFFIX,cdn.v2ex.com # V2EX 静态资源 CDN 域名，用于加载图片、样式与脚本
+
+# > Linux DO 相关域名
+
+DOMAIN-SUFFIX,linux.do # Linux DO 社区主域名，用于论坛交流与技术分享门户
+
+# > Hostloc 相关域名
+
+DOMAIN-SUFFIX,hostloc.com # Hostloc 主站域名，用于全球主机交流论坛与 VPS/服务器主题讨论
+DOMAIN-SUFFIX,www.hostloc.com # Hostloc 主站子域，用于论坛网页入口与用户互动页面
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
@@ -3157,9 +3182,6 @@ DOMAIN-SUFFIX,nodejs.org # Node.js 官方网站，提供运行时环境下载、
 DOMAIN-SUFFIX,getbootstrap.com # Bootstrap 前端框架官方网站，提供组件文档与 CSS/JS 框架资源
 DOMAIN-SUFFIX,tailwindcss.com # Tailwind CSS 官方站点，提供原子化 CSS 框架文档与资源，适用于前端开发
 DOMAIN-SUFFIX,editsvgcode.com # SVG 编辑与查看在线工具，支持实时修改 SVG 代码并渲染结果，常用于前端图标设计
-DOMAIN-SUFFIX,v2ex.com # V2EX 技术社区平台域名，用于用户讨论与信息发布
-DOMAIN-SUFFIX,linux.do # Linux.do 技术社区域名，用于 Linux 教程与资讯分享
-DOMAIN-SUFFIX,hostloc.com # Hostloc 论坛主域名，用于海外主机与网络资源讨论
 DOMAIN-SUFFIX,combot.org # Telegram 群组管理机器人服务
 DOMAIN-SUFFIX,ygkkk.blogspot.com # 博客站点域名
 DOMAIN-SUFFIX,static.mastergo.com # MasterGo 在线设计工具静态资源域名，用于加载图标、字体、脚本等前端组件
