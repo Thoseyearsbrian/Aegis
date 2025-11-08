@@ -13,12 +13,6 @@ DOMAIN-SUFFIX,trustwave.com # Trustwave 主站，历史签发监听中间证书
 DOMAIN-SUFFIX,ocsp.trustwave.com # OCSP 验证接口
 DOMAIN-SUFFIX,crl.trustwave.com # 吊销列表接口
 
-# > StartCom（原以色列，已被WoSign收购，信任已被撤销）
-
-DOMAIN-SUFFIX,startssl.com # StartCom 旧主域，已遭吊销
-DOMAIN-SUFFIX,ocsp.startssl.com # OCSP 验证接口
-DOMAIN-SUFFIX,crl.startssl.com  # 吊销列表接口
-
 # > TrustCor Systems（巴拿马，关联美国情报承包商）
 
 DOMAIN-SUFFIX,trustcor.com # TrustCor 主站，已被 Mozilla/Apple 吊销信任
@@ -43,7 +37,13 @@ DOMAIN-SUFFIX,wosign.com # 深信通主站，签发历史可疑证书
 DOMAIN-SUFFIX,ocsp.wosign.com # OCSP 验证接口
 DOMAIN-SUFFIX,crl.wosign.com # 吊销列表接口
 
-# > GFW‑related: Geedge Networks（GFW核心厂商，设备可信链行为可疑）
+# > StartCom（原以色列，已被WoSign收购，信任已被撤销）
+
+DOMAIN-SUFFIX,startssl.com # StartCom 旧主域，已遭吊销
+DOMAIN-SUFFIX,ocsp.startssl.com # OCSP 验证接口
+DOMAIN-SUFFIX,crl.startssl.com  # 吊销列表接口
+
+# > GFW‑related: Geedge Networks
 
 DOMAIN-SUFFIX,geedgenetworks.com # Geedge 官方主站，涉监听设备供应
 DOMAIN-SUFFIX,ocsp.geedgenetworks.com # Geedge OCSP 验证接口
@@ -51,9 +51,9 @@ DOMAIN-SUFFIX,crl.geedgenetworks.com # Geedge CRL 吊销列表接口
 DOMAIN-SUFFIX,tsg.geedgenetworks.com # 天狗安全网关产品域名
 DOMAIN-SUFFIX,cybernarrator.geedgenetworks.com # Cyber Narrator 产品线域名
 
-# > GFW‑related: MESA 项目（中科院 MESA 实验室，监听系统研发单位）
+# > GFW‑related: MESA 项目
 
 DOMAIN-SUFFIX,mesalab.cn # MESA 项目组主站
 DOMAIN-SUFFIX,ocsp.mesalab.cn # MESA OCSP 接口
 DOMAIN-SUFFIX,crl.mesalab.cn # MESA CRL 接口
-DOMAIN-SUFFIX,pki.iie.ac.cn # 中科院 IIE PKI 子域（监听信任链构建模块）
+DOMAIN-SUFFIX,pki.iie.ac.cn # 中科院 IIE PKI 子域

@@ -6,13 +6,14 @@
 # - 声明：所有情报信息基于公开披露，相关归属与内容不代表制表者立场
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-04
+# - 更新时间：2025-11-08
 
 # > APT1（中国 · 被 Mandiant 命名为 Comment Crew）
 
+DOMAIN-SUFFIX,ma-omaha.com # 控制服务器，上海相关基础设施，Mandiant 报告披露
 IP-CIDR,108.61.246.56 # C2节点，Mandiant 报告披露
 IP-CIDR,63.141.241.186 # 控制服务器，上海相关基础设施，Mandiant 报告披露
-DOMAIN-SUFFIX,ma-omaha.com # 控制服务器，上海相关基础设施，Mandiant 报告披露
+
 
 # > APT2（中国 · 又名 Putter Panda）
 
@@ -29,8 +30,8 @@ DOMAIN-SUFFIX,vssigma.com # 注册人邮箱为 cpyy@sina.com，被APT2用于远�
 
 # > APT3（中国 · 被 FireEye 命名为 UPS Team / Gothic Panda）
 
-IP-CIDR,96.44.136.115 # C2，早期使用 HTTPS 后门通信
 DOMAIN-SUFFIX,ups-backup.com # 使用的伪装 UPS 快递域名
+IP-CIDR,96.44.136.115 # C2，早期使用 HTTPS 后门通信
 
 # > APT4（印度 · 被 MITRE 命名为 Sidewinder / T-APT-04）
 
@@ -38,9 +39,9 @@ DOMAIN-SUFFIX,dgtk.depo-govpk.com # Sidewinder 使用的载荷下载控制域名
 
 # > APT5 （中国· UNC2630 / Keyhole Panda / Manganese）
 
-IP-CIDR,165.232.136.220 # C2 之一，Citrix ADC 利用通道资料
 DOMAIN-SUFFIX,citrixadc-update.com # 伪造 Citrix ADC 域名用于漏洞利用链
 DOMAIN-SUFFIX,keyholepanda-tracker.net # Manganese / Keyhole Panda 列出的域名样例
+IP-CIDR,165.232.136.220 # C2 之一，Citrix ADC 利用通道资料
 
 # > APT6 （中国 · 又名 “Ke3chang” 或 “MenuPass”）
 
@@ -57,9 +58,8 @@ DOMAIN-SUFFIX,britishnews.co # Rocket Kitten 钓鱼伪装域名之一，ClearSky
 
 # > APT8 （朝鲜 · 又名为 DarkHotel）
 
-IP-CIDR,23.111.184.119 # DarkHotel C2 IP，Trellix 披露用于持续活动中
-
 DOMAIN-SUFFIX,signing-config.com # DarkHotel 使用的控制服务器域名，Zscaler 报告披露
+IP-CIDR,23.111.184.119 # DarkHotel C2 IP，Trellix 披露用于持续活动中
 
 # > APT9 (亚洲 · 又名 “Naikon”)
 
@@ -69,10 +69,10 @@ IP-CIDR,91.219.236.157 # Naikon 常用通信出口地址
 # > APT10 （中国 · FireEye 命名为 Stone Panda）
 
 DOMAIN-SUFFIX,update.icloudsync.net # APT10 钓鱼活动中伪装 Apple iCloud 域名
-IP-CIDR,45.77.173.179 # 用于远程命令控制的 VPS 地址
 DOMAIN-SUFFIX,microsoft-updates.org # 模拟 Windows 更新域名进行持久化连接
 DOMAIN-SUFFIX,cdn.office365updates.com # 投递恶意文档后用于回传数据的伪 CDN 域名
 IP-CIDR,103.112.45.200 # 活动中的 payload / 控制节点之一
+IP-CIDR,45.77.173.179 # 用于远程命令控制的 VPS 地址
 
 # > APT11 （中国 · 又名 Comment Crew / APT1 关联组）
 
@@ -215,10 +215,10 @@ IP-CIDR,119.28.100.0/24 # 使用的 C2 与信息收集服务器, Recorded Future
 
 # > APT41 （中国 · FireEye 命名为 Double Dragon）
 
-IP-CIDR,158.247.199.185 # C2，常用于 DNS TXT 隧道通信
 DOMAIN-SUFFIX,flnetupdate.com # 在 2020 年攻击医疗、教育行业时使用的伪装更新域名
 DOMAIN-SUFFIX,browser-update.org # 常用浏览器伪更新钓鱼域名, CrowdStrike 报告披露
 IP-CIDR,45.120.67.15 # 远控服务器IP，曾用于 Winnti 工具集
+IP-CIDR,158.247.199.185 # C2，常用于 DNS TXT 隧道通信
 
 # > APT42 双尾蝎（中东地区组织· 360命名）
 
@@ -530,8 +530,8 @@ IP-CIDR,202.100.206.136 # Badiis 控制服务器，开放 443 端口用于 TLS �
 
 # > Ballistic Bobcat
 
-IP-CIDR,162.55.137.20 # PowerLess C&C 控制服务器，用于远程控制与通信
-IP-CIDR,37.120.222.168 # Sponsor C&C 控制服务器，Ballistic Bobcat 使用的命令与控制基础设施
+IP-CIDR,162.55.137.20 # PowerLess C2 控制服务器，用于远程控制与通信
+IP-CIDR,37.120.222.168 # Sponsor C2 控制服务器，Ballistic Bobcat 使用的命令与控制基础设施
 IP-CIDR,198.144.189.74 # 支持工具下载站点（Support Tools），用于投递或加载辅助攻击组件
 IP-CIDR,5.255.97.172 # 支持工具下载站点（Support Tools），用于提供后续攻击所需资源
 
@@ -586,278 +586,278 @@ IP-CIDR,183.134.93.171 # 合法软件从该 IP 的 URL 路径 dl_dir.qq.com 下�
 
 # > Buhtrap
 
-DOMAIN-SUFFIX,hdfilm-seyret.com # Buhtrap 使用的 C&C 控制服务器域名，伪装为影视类站点
+DOMAIN-SUFFIX,hdfilm-seyret.com # Buhtrap 使用的 C2 控制服务器域名，伪装为影视类站点
 DOMAIN-SUFFIX,corp-microsoft.com # Buhtrap 使用的伪造微软企业域名进行后门通信
 DOMAIN-SUFFIX,ipv6-microsoft.org # Buhtrap 利用伪装的 DNS 域名建立命令与控制通道
-DOMAIN-SUFFIX,services-glbdns2.com # Buhtrap 使用的加密链接 C&C 服务器域名，用于远程控制和数据收集
-DOMAIN-SUFFIX,secure-telemetry.net # Buhtrap 伪装为遥测服务的 C&C 控制节点域名
+DOMAIN-SUFFIX,services-glbdns2.com # Buhtrap 使用的加密链接 C2 服务器域名，用于远程控制和数据收集
+DOMAIN-SUFFIX,secure-telemetry.net # Buhtrap 伪装为遥测服务的 C2 控制节点域名
 
 # > Casbaneiro
 
-DOMAIN-SUFFIX,hostsize.sytes.net # Casbaneiro C&C 控制服务器，监听端口 7880
+DOMAIN-SUFFIX,hostsize.sytes.net # Casbaneiro C2 控制服务器，监听端口 7880
 DOMAIN-SUFFIX,agosto2019.servepics.com # Casbaneiro 命令控制节点，监听端口 2456
-DOMAIN-SUFFIX,noturnis.zapto.org # Casbaneiro 用于远程指令传递的 C&C 域名
+DOMAIN-SUFFIX,noturnis.zapto.org # Casbaneiro 用于远程指令传递的 C2 域名
 DOMAIN-SUFFIX,4d9p5678.myvnc.com # Casbaneiro 使用的动态 DNS 控制节点
-DOMAIN-SUFFIX,seradessavez.ddns.net # Casbaneiro C&C 服务器，监听端口 14875
+DOMAIN-SUFFIX,seradessavez.ddns.net # Casbaneiro C2 服务器，监听端口 14875
 
 # > CdrThief
 
-IP-CIDR,119.29.173.65 # CdrThief 使用的 C&C 控制节点，疑似托管于腾讯云
+IP-CIDR,119.29.173.65 # CdrThief 使用的 C2 控制节点，疑似托管于腾讯云
 IP-CIDR,129.211.157.244 # CdrThief 控制服务器节点，活跃于远程植入与数据窃取
 IP-CIDR,129.226.134.180 # 被用于 CdrThief 恶意组件与命令通信的控制地址
 IP-CIDR,150.109.79.136 # CdrThief 后门通信基础设施，来源 IP 属于中国运营商
-IP-CIDR,34.94.199.142 # CdrThief 使用的谷歌云托管 C&C 节点之一
+IP-CIDR,34.94.199.142 # CdrThief 使用的谷歌云托管 C2 节点之一
 IP-CIDR,35.236.173.187 # CdrThief 控制端点，部署于 GCP 基础设施
 
 # > CeranaKeeper
 
-IP-CIDR,104.21.81.233 # CeranaKeeper 控制服务器 IP，部署于 Cloudflare 网络
-IP-CIDR,172.67.165.197 # CeranaKeeper C&C 基础设施节点，位于 Cloudflare Anycast 区段
-IP-CIDR,103.245.165.237 # CeranaKeeper 恶意样本通信目标，亚洲托管服务提供商段
-IP-CIDR,103.27.202.185 # CeranaKeeper C2 控制流量节点，用于样本远程管理
-DOMAIN-SUFFIX,toptipvideo.com # CeranaKeeper C&C 控制服务器域名，伪装为视频内容服务
+DOMAIN-SUFFIX,toptipvideo.com # CeranaKeeper C2 控制服务器域名，伪装为视频内容服务
 DOMAIN-SUFFIX,dljmp2p.com # CeranaKeeper 使用的伪装域名，存在后门组件通信记录
 DOMAIN-SUFFIX,inly5sf.com # CeranaKeeper 控制基础设施域名，用于样本指令接收
 DOMAIN-SUFFIX,dl6yfsl.com # CeranaKeeper 使用的动态下载域名，疑似分发远控指令
 DOMAIN-SUFFIX,uvfr4ep.com # CeranaKeeper 样本连接的控制域名之一，行为具后门特征
+IP-CIDR,104.21.81.233 # CeranaKeeper 控制服务器 IP，部署于 Cloudflare 网络
+IP-CIDR,172.67.165.197 # CeranaKeeper C2 基础设施节点，位于 Cloudflare Anycast 区段
+IP-CIDR,103.245.165.237 # CeranaKeeper 恶意样本通信目标，亚洲托管服务提供商段
+IP-CIDR,103.27.202.185 # CeranaKeeper C2 控制流量节点，用于样本远程管理
 
 # > CosmicBeetle
 
-IP-CIDR,3.76.107.228 # Spacecolon C&C server.
-IP-CIDR,87.251.64.19 # Spacecolon C&C server.
-IP-CIDR,87.251.64.57 # Spacecolon C&C server.
-IP-CIDR,87.251.67.163 # Spacecolon C&C server.
-IP-CIDR,162.255.119.146 # Spacecolon C&C server.
-IP-CIDR,185.170.144.190 # Spacecolon C&C server.
-IP-CIDR,185.202.0.149 # Spacecolon C&C server.
-IP-CIDR,193.37.69.152 # Spacecolon C&C server.
-IP-CIDR,193.37.69.153 # Spacecolon C&C server.
-IP-CIDR,193.149.185.23 # Spacecolon C&C server.
-IP-CIDR,206.188.196.104 # Spacecolon C&C server.
-IP-CIDR,213.232.255.131 # Spacecolon C&C server.
-DOMAIN-SUFFIX,piiif.net # Spacecolon C&C server.
-DOMAIN-SUFFIX,up.awiki1.org # Spacecolon C&C server.
-DOMAIN-SUFFIX,ss.688.org # Spacecolon C&C server.
-DOMAIN-SUFFIX,akamaicdnup.com # Spacecolon C&C server.
-DOMAIN-SUFFIX,sys.688.org # Spacecolon C&C server.
-DOMAIN-SUFFIX,update.inet2.org # Spacecolon C&C server.
-DOMAIN-SUFFIX,up.vcetel.com # Spacecolon C&C server.
-DOMAIN-SUFFIX,u.cbu.net # Spacecolon C&C server.
-DOMAIN-SUFFIX,update.cbu.net # Spacecolon C&C server.
-DOMAIN-SUFFIX,cdnupdate.net # Spacecolon C&C server.
+OMAIN-SUFFIX,piiif.net # Spacecolon C2 server.
+DOMAIN-SUFFIX,up.awiki1.org # Spacecolon C2 server.
+DOMAIN-SUFFIX,ss.688.org # Spacecolon C2 server.
+DOMAIN-SUFFIX,akamaicdnup.com # Spacecolon C2 server.
+DOMAIN-SUFFIX,sys.688.org # Spacecolon C2 server.
+DOMAIN-SUFFIX,update.inet2.org # Spacecolon C2 server.
+DOMAIN-SUFFIX,up.vcetel.com # Spacecolon C2 server.
+DOMAIN-SUFFIX,u.cbu.net # Spacecolon C2 server.
+DOMAIN-SUFFIX,update.cbu.net # Spacecolon C2 server.
+DOMAIN-SUFFIX,cdnupdate.net # Spacecolon C2 server.
+IP-CIDR,3.76.107.228 # Spacecolon C2 server.
+IP-CIDR,87.251.64.19 # Spacecolon C2 server.
+IP-CIDR,87.251.64.57 # Spacecolon C2 server.
+IP-CIDR,87.251.67.163 # Spacecolon C2 server.
+IP-CIDR,162.255.119.146 # Spacecolon C2 server.
+IP-CIDR,185.170.144.190 # Spacecolon C2 server.
+IP-CIDR,185.202.0.149 # Spacecolon C2 server.
+IP-CIDR,193.37.69.152 # Spacecolon C2 server.
+IP-CIDR,193.37.69.153 # Spacecolon C2 server.
+IP-CIDR,193.149.185.23 # Spacecolon C2 server.
+IP-CIDR,206.188.196.104 # Spacecolon C2 server.
+IP-CIDR,213.232.255.131 # Spacecolon C2 server.
 
 # > Danabot
 
-IP-CIDR,38.180.137.43 # Danabot C&C server
-IP-CIDR,89.185.80.189 # Danabot C&C server
-IP-CIDR,185.42.163.8 # Danabot C&C server
-IP-CIDR,194.32.76.77 # Danabot C&C server
-IP-CIDR,45.76.251.57 # Danabot C&C server
-IP-CIDR,23.137.105.251 # Danabot C&C server
-IP-CIDR,23.137.105.250 # Danabot C&C server
-IP-CIDR,23.137.105.249 # Danabot C&C server
-IP-CIDR,91.242.163.44 # Danabot C&C server
-IP-CIDR,87.121.221.68 # Danabot C&C server
-IP-CIDR,194.102.104.73 # Danabot C&C server
-IP-CIDR,212.22.82.33 # Danabot C&C server
-IP-CIDR,89.208.97.7 # Danabot C&C server
-IP-CIDR,31.177.108.229 # Danabot C&C server
-IP-CIDR,88.151.192.8 # Danabot C&C server
-IP-CIDR,178.253.55.80 # Danabot C&C server
-IP-CIDR,91.242.163.37 # Danabot C&C server
-IP-CIDR,51.159.226.6 # Danabot C&C server
-IP-CIDR,95.183.51.15 # Danabot C&C server
-IP-CIDR,95.183.50.85 # Danabot C&C server
-IP-CIDR,89.185.80.159 # Danabot C&C server
-IP-CIDR,89.185.80.87 # Danabot C&C server
-IP-CIDR,89.185.80.116 # Danabot C&C server
-IP-CIDR,212.111.89.174 # Danabot C&C server
-IP-CIDR,195.26.224.34 # Danabot C&C server
-IP-CIDR,77.238.250.130 # Danabot C&C server
-IP-CIDR,185.245.107.212 # Danabot C&C server
-IP-CIDR,81.19.140.67 # Danabot C&C server
-IP-CIDR,45.95.233.253 # Danabot C&C server
-IP-CIDR,185.39.207.8 # Danabot C&C server
-IP-CIDR,85.208.139.8 # Danabot C&C server
-IP-CIDR,87.121.221.124 # Danabot C&C server
-IP-CIDR,193.150.70.54 # Danabot C&C server
-IP-CIDR,95.164.55.3 # Danabot C&C server
-IP-CIDR,195.26.227.134 # Danabot C&C server
-IP-CIDR,93.123.109.71 # Danabot C&C server
-IP-CIDR,196.251.116.36 # Danabot C&C server
-IP-CIDR,77.91.76.17 # Danabot C&C server
-IP-CIDR,77.239.101.139 # Danabot C&C server
-IP-CIDR,77.239.99.248 # Danabot C&C server
-IP-CIDR,196.251.86.101 # Danabot C&C server
-IP-CIDR,196.251.86.102 # Danabot C&C server
-IP-CIDR,185.122.171.132 # Danabot C&C server
-IP-CIDR,46.229.55.74 # Danabot C&C server
-IP-CIDR,185.38.142.253 # Danabot C&C server
-IP-CIDR,185.45.195.110 # Danabot C&C server
-IP-CIDR,91.202.233.244 # Danabot C&C server
-IP-CIDR,95.164.55.20 # Danabot C&C server
-IP-CIDR,212.18.104.129 # Danabot C&C server
-IP-CIDR,138.124.78.173 # Danabot C&C server
-IP-CIDR,45.150.34.9 # Danabot C&C server
-IP-CIDR,89.23.103.52 # Danabot C&C server
-IP-CIDR,194.156.102.24 # Danabot C&C server
-IP-CIDR,212.18.104.245 # Danabot C&C server
-IP-CIDR,212.18.104.246 # Danabot C&C server
-IP-CIDR,185.33.87.221 # Danabot C&C server
-IP-CIDR,78.47.15.143 # Danabot C&C server
-IP-CIDR,135.125.225.51 # Danabot C&C server
-IP-CIDR,38.146.25.235 # Danabot C&C server
-IP-CIDR,185.14.31.210 # Danabot C&C server
-IP-CIDR,86.54.42.5 # Danabot C&C server
-IP-CIDR,176.113.115.220 # Danabot C&C server
-IP-CIDR,185.81.68.133 # Danabot C&C server
-IP-CIDR,185.81.68.2 # Danabot C&C server
-IP-CIDR,35.199.78.101 # Danabot C&C server
-IP-CIDR,34.86.163.86 # Danabot C&C server
-IP-CIDR,35.188.245.50 # Danabot C&C server
-IP-CIDR,34.88.132.37 # Danabot C&C server
-IP-CIDR,34.39.133.178 # Danabot C&C server
-IP-CIDR,34.145.152.177 # Danabot C&C server
-IP-CIDR,34.147.254.81 # Danabot C&C server
-IP-CIDR,34.65.186.210 # Danabot C&C server
-IP-CIDR,35.228.203.62 # Danabot C&C server
-IP-CIDR,34.48.14.112 # Danabot C&C server
-IP-CIDR,35.199.48.244 # Danabot C&C server
-IP-CIDR,34.139.186.110 # Danabot C&C server
-IP-CIDR,34.130.235.182 # Danabot C&C server
-IP-CIDR,34.168.204.101 # Danabot C&C server
-IP-CIDR,34.65.47.39 # Danabot C&C server
-IP-CIDR,34.88.131.212 # Danabot C&C server
-IP-CIDR,34.168.202.91 # Danabot C&C server
-IP-CIDR,34.66.104.146 # Danabot C&C server
-IP-CIDR,34.85.143.191 # Danabot C&C server
-IP-CIDR,8.215.11.96 # Danabot C&C server
-IP-CIDR,8.222.178.224 # Danabot C&C server
-IP-CIDR,35.243.180.101 # Danabot C&C server
-IP-CIDR,34.22.151.45 # Danabot C&C server
-IP-CIDR,34.77.22.163 # Danabot C&C server
-IP-CIDR,104.199.4.160 # Danabot C&C server
-IP-CIDR,35.237.76.147 # Danabot C&C server
-IP-CIDR,34.125.95.100 # Danabot C&C server
-IP-CIDR,34.65.245.112 # Danabot C&C server
-IP-CIDR,34.130.217.52 # Danabot C&C server
-IP-CIDR,34.125.235.184 # Danabot C&C server
-IP-CIDR,34.65.101.100 # Danabot C&C server
-IP-CIDR,34.83.30.53 # Danabot C&C server
-IP-CIDR,35.243.202.240 # Danabot C&C server
-IP-CIDR,35.196.59.72 # Danabot C&C server
-IP-CIDR,34.22.185.224 # Danabot C&C server
-IP-CIDR,34.130.190.88 # Danabot C&C server
-IP-CIDR,34.16.215.110 # Danabot C&C server
-IP-CIDR,34.65.116.208 # Danabot C&C server
-IP-CIDR,34.22.185.239 # Danabot C&C server
-IP-CIDR,34.19.91.158 # Danabot C&C server
-IP-CIDR,34.173.227.183 # Danabot C&C server
-IP-CIDR,34.55.79.212 # Danabot C&C server
-IP-CIDR,35.229.82.243 # Danabot C&C server
-IP-CIDR,34.118.84.190 # Danabot C&C server
-IP-CIDR,35.237.124.176 # Danabot C&C server
-IP-CIDR,34.65.151.241 # Danabot C&C server
-IP-CIDR,34.48.98.228 # Danabot C&C server
-IP-CIDR,34.65.43.145 # Danabot C&C server
-IP-CIDR,34.116.129.66 # Danabot C&C server
-IP-CIDR,35.185.234.134 # Danabot C&C server
-IP-CIDR,34.65.57.162 # Danabot C&C server
-IP-CIDR,34.118.88.103 # Danabot C&C server
-IP-CIDR,34.56.177.4 # Danabot C&C server
-IP-CIDR,34.56.126.5 # Danabot C&C server
-IP-CIDR,34.75.145.157 # Danabot C&C server
-IP-CIDR,34.168.233.46 # Danabot C&C server
-IP-CIDR,34.125.118.20 # Danabot C&C server
-IP-CIDR,35.225.11.131 # Danabot C&C server
-IP-CIDR,34.77.245.191 # Danabot C&C server
-IP-CIDR,34.22.169.101 # Danabot C&C server
-IP-CIDR,34.41.167.204 # Danabot C&C server
-IP-CIDR,34.76.196.66 # Danabot C&C server
-IP-CIDR,34.169.131.165 # Danabot C&C server
-IP-CIDR,34.118.110.116 # Danabot C&C server
-IP-CIDR,34.168.100.35 # Danabot C&C server
-IP-CIDR,34.75.119.225 # Danabot C&C server
-IP-CIDR,35.237.63.108 # Danabot C&C server
-IP-CIDR,35.197.94.36 # Danabot C&C server
-IP-CIDR,35.233.91.250 # Danabot C&C server
-IP-CIDR,34.168.203.116 # Danabot C&C server
-IP-CIDR,35.205.12.222 # Danabot C&C server
-IP-CIDR,34.22.161.131 # Danabot C&C server
-IP-CIDR,35.223.14.193 # Danabot C&C server
-IP-CIDR,34.34.145.103 # Danabot C&C server
-IP-CIDR,34.169.99.17 # Danabot C&C server
-IP-CIDR,34.83.67.185 # Danabot C&C server
-IP-CIDR,35.195.45.98 # Danabot C&C server
-IP-CIDR,34.118.58.27 # Danabot C&C server
-IP-CIDR,34.118.99.223 # Danabot C&C server
-IP-CIDR,190.97.165.214 # Danabot C&C server
-IP-CIDR,85.239.62.80 # Danabot C&C server
-IP-CIDR,162.0.223.164 # Danabot C&C server
-IP-CIDR,69.49.244.37 # Danabot C&C server
-IP-CIDR,65.38.120.39 # Danabot C&C server
-IP-CIDR,79.110.52.60 # Danabot C&C server
-IP-CIDR,176.117.68.39 # Danabot C&C server
-IP-CIDR,46.30.45.192 # Danabot C&C server
-IP-CIDR,91.92.246.63 # Danabot C&C server
-IP-CIDR,95.142.39.217 # Danabot C&C server
-IP-CIDR,176.117.68.38 # Danabot C&C server
-IP-CIDR,85.208.108.134 # Danabot C&C server
-IP-CIDR,45.80.158.189 # Danabot C&C server
-IP-CIDR,89.32.41.41 # Danabot C&C server
-IP-CIDR,217.28.130.18 # Danabot C&C server
-IP-CIDR,176.105.253.65 # Danabot C&C server
-IP-CIDR,78.40.116.123 # Danabot C&C server
 DOMAIN-SUFFIX,advanced-ip-scanned.com # Danabot 恶意程序分发站点
 DOMAIN-SUFFIX,gfind.org # Danabot 恶意软件传播域名
 DOMAIN-SUFFIX,mic-tests.com # Danabot 使用的钓鱼或下载站点
+IP-CIDR,38.180.137.43 # Danabot C2 server
+IP-CIDR,89.185.80.189 # Danabot C2 server
+IP-CIDR,185.42.163.8 # Danabot C2 server
+IP-CIDR,194.32.76.77 # Danabot C2 server
+IP-CIDR,45.76.251.57 # Danabot C2 server
+IP-CIDR,23.137.105.251 # Danabot C2 server
+IP-CIDR,23.137.105.250 # Danabot C2 server
+IP-CIDR,23.137.105.249 # Danabot C2 server
+IP-CIDR,91.242.163.44 # Danabot C2 server
+IP-CIDR,87.121.221.68 # Danabot C2 server
+IP-CIDR,194.102.104.73 # Danabot C2 server
+IP-CIDR,212.22.82.33 # Danabot C2 server
+IP-CIDR,89.208.97.7 # Danabot C2 server
+IP-CIDR,31.177.108.229 # Danabot C2 server
+IP-CIDR,88.151.192.8 # Danabot C2 server
+IP-CIDR,178.253.55.80 # Danabot C2 server
+IP-CIDR,91.242.163.37 # Danabot C2 server
+IP-CIDR,51.159.226.6 # Danabot C2 server
+IP-CIDR,95.183.51.15 # Danabot C2 server
+IP-CIDR,95.183.50.85 # Danabot C2 server
+IP-CIDR,89.185.80.159 # Danabot C2 server
+IP-CIDR,89.185.80.87 # Danabot C2 server
+IP-CIDR,89.185.80.116 # Danabot C2 server
+IP-CIDR,212.111.89.174 # Danabot C2 server
+IP-CIDR,195.26.224.34 # Danabot C2 server
+IP-CIDR,77.238.250.130 # Danabot C2 server
+IP-CIDR,185.245.107.212 # Danabot C2 server
+IP-CIDR,81.19.140.67 # Danabot C2 server
+IP-CIDR,45.95.233.253 # Danabot C2 server
+IP-CIDR,185.39.207.8 # Danabot C2 server
+IP-CIDR,85.208.139.8 # Danabot C2 server
+IP-CIDR,87.121.221.124 # Danabot C2 server
+IP-CIDR,193.150.70.54 # Danabot C2 server
+IP-CIDR,95.164.55.3 # Danabot C2 server
+IP-CIDR,195.26.227.134 # Danabot C2 server
+IP-CIDR,93.123.109.71 # Danabot C2 server
+IP-CIDR,196.251.116.36 # Danabot C2 server
+IP-CIDR,77.91.76.17 # Danabot C2 server
+IP-CIDR,77.239.101.139 # Danabot C2 server
+IP-CIDR,77.239.99.248 # Danabot C2 server
+IP-CIDR,196.251.86.101 # Danabot C2 server
+IP-CIDR,196.251.86.102 # Danabot C2 server
+IP-CIDR,185.122.171.132 # Danabot C2 server
+IP-CIDR,46.229.55.74 # Danabot C2 server
+IP-CIDR,185.38.142.253 # Danabot C2 server
+IP-CIDR,185.45.195.110 # Danabot C2 server
+IP-CIDR,91.202.233.244 # Danabot C2 server
+IP-CIDR,95.164.55.20 # Danabot C2 server
+IP-CIDR,212.18.104.129 # Danabot C2 server
+IP-CIDR,138.124.78.173 # Danabot C2 server
+IP-CIDR,45.150.34.9 # Danabot C2 server
+IP-CIDR,89.23.103.52 # Danabot C2 server
+IP-CIDR,194.156.102.24 # Danabot C2 server
+IP-CIDR,212.18.104.245 # Danabot C2 server
+IP-CIDR,212.18.104.246 # Danabot C2 server
+IP-CIDR,185.33.87.221 # Danabot C2 server
+IP-CIDR,78.47.15.143 # Danabot C2 server
+IP-CIDR,135.125.225.51 # Danabot C2 server
+IP-CIDR,38.146.25.235 # Danabot C2 server
+IP-CIDR,185.14.31.210 # Danabot C2 server
+IP-CIDR,86.54.42.5 # Danabot C2 server
+IP-CIDR,176.113.115.220 # Danabot C2 server
+IP-CIDR,185.81.68.133 # Danabot C2 server
+IP-CIDR,185.81.68.2 # Danabot C2 server
+IP-CIDR,35.199.78.101 # Danabot C2 server
+IP-CIDR,34.86.163.86 # Danabot C2 server
+IP-CIDR,35.188.245.50 # Danabot C2 server
+IP-CIDR,34.88.132.37 # Danabot C2 server
+IP-CIDR,34.39.133.178 # Danabot C2 server
+IP-CIDR,34.145.152.177 # Danabot C2 server
+IP-CIDR,34.147.254.81 # Danabot C2 server
+IP-CIDR,34.65.186.210 # Danabot C2 server
+IP-CIDR,35.228.203.62 # Danabot C2 server
+IP-CIDR,34.48.14.112 # Danabot C2 server
+IP-CIDR,35.199.48.244 # Danabot C2 server
+IP-CIDR,34.139.186.110 # Danabot C2 server
+IP-CIDR,34.130.235.182 # Danabot C2 server
+IP-CIDR,34.168.204.101 # Danabot C2 server
+IP-CIDR,34.65.47.39 # Danabot C2 server
+IP-CIDR,34.88.131.212 # Danabot C2 server
+IP-CIDR,34.168.202.91 # Danabot C2 server
+IP-CIDR,34.66.104.146 # Danabot C2 server
+IP-CIDR,34.85.143.191 # Danabot C2 server
+IP-CIDR,8.215.11.96 # Danabot C2 server
+IP-CIDR,8.222.178.224 # Danabot C2 server
+IP-CIDR,35.243.180.101 # Danabot C2 server
+IP-CIDR,34.22.151.45 # Danabot C2 server
+IP-CIDR,34.77.22.163 # Danabot C2 server
+IP-CIDR,104.199.4.160 # Danabot C2 server
+IP-CIDR,35.237.76.147 # Danabot C2 server
+IP-CIDR,34.125.95.100 # Danabot C2 server
+IP-CIDR,34.65.245.112 # Danabot C2 server
+IP-CIDR,34.130.217.52 # Danabot C2 server
+IP-CIDR,34.125.235.184 # Danabot C2 server
+IP-CIDR,34.65.101.100 # Danabot C2 server
+IP-CIDR,34.83.30.53 # Danabot C2 server
+IP-CIDR,35.243.202.240 # Danabot C2 server
+IP-CIDR,35.196.59.72 # Danabot C2 server
+IP-CIDR,34.22.185.224 # Danabot C2 server
+IP-CIDR,34.130.190.88 # Danabot C2 server
+IP-CIDR,34.16.215.110 # Danabot C2 server
+IP-CIDR,34.65.116.208 # Danabot C2 server
+IP-CIDR,34.22.185.239 # Danabot C2 server
+IP-CIDR,34.19.91.158 # Danabot C2 server
+IP-CIDR,34.173.227.183 # Danabot C2 server
+IP-CIDR,34.55.79.212 # Danabot C2 server
+IP-CIDR,35.229.82.243 # Danabot C2 server
+IP-CIDR,34.118.84.190 # Danabot C2 server
+IP-CIDR,35.237.124.176 # Danabot C2 server
+IP-CIDR,34.65.151.241 # Danabot C2 server
+IP-CIDR,34.48.98.228 # Danabot C2 server
+IP-CIDR,34.65.43.145 # Danabot C2 server
+IP-CIDR,34.116.129.66 # Danabot C2 server
+IP-CIDR,35.185.234.134 # Danabot C2 server
+IP-CIDR,34.65.57.162 # Danabot C2 server
+IP-CIDR,34.118.88.103 # Danabot C2 server
+IP-CIDR,34.56.177.4 # Danabot C2 server
+IP-CIDR,34.56.126.5 # Danabot C2 server
+IP-CIDR,34.75.145.157 # Danabot C2 server
+IP-CIDR,34.168.233.46 # Danabot C2 server
+IP-CIDR,34.125.118.20 # Danabot C2 server
+IP-CIDR,35.225.11.131 # Danabot C2 server
+IP-CIDR,34.77.245.191 # Danabot C2 server
+IP-CIDR,34.22.169.101 # Danabot C2 server
+IP-CIDR,34.41.167.204 # Danabot C2 server
+IP-CIDR,34.76.196.66 # Danabot C2 server
+IP-CIDR,34.169.131.165 # Danabot C2 server
+IP-CIDR,34.118.110.116 # Danabot C2 server
+IP-CIDR,34.168.100.35 # Danabot C2 server
+IP-CIDR,34.75.119.225 # Danabot C2 server
+IP-CIDR,35.237.63.108 # Danabot C2 server
+IP-CIDR,35.197.94.36 # Danabot C2 server
+IP-CIDR,35.233.91.250 # Danabot C2 server
+IP-CIDR,34.168.203.116 # Danabot C2 server
+IP-CIDR,35.205.12.222 # Danabot C2 server
+IP-CIDR,34.22.161.131 # Danabot C2 server
+IP-CIDR,35.223.14.193 # Danabot C2 server
+IP-CIDR,34.34.145.103 # Danabot C2 server
+IP-CIDR,34.169.99.17 # Danabot C2 server
+IP-CIDR,34.83.67.185 # Danabot C2 server
+IP-CIDR,35.195.45.98 # Danabot C2 server
+IP-CIDR,34.118.58.27 # Danabot C2 server
+IP-CIDR,34.118.99.223 # Danabot C2 server
+IP-CIDR,190.97.165.214 # Danabot C2 server
+IP-CIDR,85.239.62.80 # Danabot C2 server
+IP-CIDR,162.0.223.164 # Danabot C2 server
+IP-CIDR,69.49.244.37 # Danabot C2 server
+IP-CIDR,65.38.120.39 # Danabot C2 server
+IP-CIDR,79.110.52.60 # Danabot C2 server
+IP-CIDR,176.117.68.39 # Danabot C2 server
+IP-CIDR,46.30.45.192 # Danabot C2 server
+IP-CIDR,91.92.246.63 # Danabot C2 server
+IP-CIDR,95.142.39.217 # Danabot C2 server
+IP-CIDR,176.117.68.38 # Danabot C2 server
+IP-CIDR,85.208.108.134 # Danabot C2 server
+IP-CIDR,45.80.158.189 # Danabot C2 server
+IP-CIDR,89.32.41.41 # Danabot C2 server
+IP-CIDR,217.28.130.18 # Danabot C2 server
+IP-CIDR,176.105.253.65 # Danabot C2 server
+IP-CIDR,78.40.116.123 # Danabot C2 server
 
 # > DazzleSpy
 
-IP-CIDR,88.218.192.128 # DazzleSpy C&C 控制服务器，监听端口 5633
+IP-CIDR,88.218.192.128 # DazzleSpy C2 控制服务器，监听端口 5633
 
 # > DeceptiveDevelopment
 
-IP-CIDR,199.188.200.147 # DeceptiveDevelopment C&C 服务节点，对应域名 driverservices.store
+DOMAIN-SUFFIX,driverservices.store # DeceptiveDevelopment 使用的 C2 控制域名
+DOMAIN-SUFFIX,royalsevres.com # DeceptiveDevelopment 使用的合法域名伪装站点
+DOMAIN-SUFFIX,n34kr3zz6f3jzp4ckmwuv5ipayatumdxhgjgsmucc65jac56khdy5zqd.onion # DeceptiveDevelopment 在 Tor 网络中的 .onion 控制域名
+IP-CIDR,199.188.200.147 # DeceptiveDevelopment C2 服务节点，对应域名 driverservices.store
 IP-CIDR,103.231.75.101 # DeceptiveDevelopment 控制节点，托管于 THE-HOSTING-MNT
 IP-CIDR,45.159.248.110 # DeceptiveDevelopment 恶意组件托管服务器，THE-HOSTING-MNT 段
-IP-CIDR,45.8.146.93 # DeceptiveDevelopment C&C 节点，托管于 STARK INDUSTRIES SOLUTIONS LTD
+IP-CIDR,45.8.146.93 # DeceptiveDevelopment C2 节点，托管于 STARK INDUSTRIES SOLUTIONS LTD
 IP-CIDR,86.104.72.247 # DeceptiveDevelopment 控制基础设施服务器，STARK INDUSTRIES 网络
 IP-CIDR,103.35.190.170 # DeceptiveDevelopment 样本通信节点，归属于 STARK INDUSTRIES 网络
 IP-CIDR,116.125.126.38 # DeceptiveDevelopment 被用于投递恶意内容的节点，对应 royalsevres.com
-DOMAIN-SUFFIX,driverservices.store # DeceptiveDevelopment 使用的 C&C 控制域名
-DOMAIN-SUFFIX,royalsevres.com # DeceptiveDevelopment 使用的合法域名伪装站点
-DOMAIN-SUFFIX,n34kr3zz6f3jzp4ckmwuv5ipayatumdxhgjgsmucc65jac56khdy5zqd.onion # DeceptiveDevelopment 在 Tor 网络中的 .onion 控制域名
 
 # > DePriMon
 
-IP-CIDR,138.59.32.72 # DePriMon C&C server.
-IP-CIDR,88.119.179.17 # DePriMon C&C server.
-IP-CIDR,190.0.226.147 # DePriMon C&C server.
-IP-CIDR,185.56.89.196 # DePriMon C&C server.
-IP-CIDR,188.241.60.109 # DePriMon C&C server.
-IP-CIDR,5.226.168.124 # DePriMon C&C server.
-IP-CIDR,185.225.17.77 # DePriMon C&C server.
-IP-CIDR,46.151.212.202 # DePriMon C&C server.
-IP-CIDR,46.151.212.201 # DePriMon C&C server.
-DOMAIN-SUFFIX,img.dealscienters.net # DePriMon C&C server.
-DOMAIN-SUFFIX,teknikgorus.com # DePriMon C&C server.
-DOMAIN-SUFFIX,wnupdnew.com # DePriMon C&C server.
-DOMAIN-SUFFIX,babmaftuh.com # DePriMon C&C server.
-DOMAIN-SUFFIX,alwatantrade.com # DePriMon C&C server.
-DOMAIN-SUFFIX,shayalyawm.com # DePriMon C&C server.
-DOMAIN-SUFFIX,elehenishing.com # DePriMon C&C server.
-DOMAIN-SUFFIX,almawaddrial.com # DePriMon C&C server.
-DOMAIN-SUFFIX,mdeastserv.com # DePriMon C&C server.
+DOMAIN-SUFFIX,img.dealscienters.net # DePriMon C2 server.
+DOMAIN-SUFFIX,teknikgorus.com # DePriMon C2 server.
+DOMAIN-SUFFIX,wnupdnew.com # DePriMon C2 server.
+DOMAIN-SUFFIX,babmaftuh.com # DePriMon C2 server.
+DOMAIN-SUFFIX,alwatantrade.com # DePriMon C2 server.
+DOMAIN-SUFFIX,shayalyawm.com # DePriMon C2 server.
+DOMAIN-SUFFIX,elehenishing.com # DePriMon C2 server.
+DOMAIN-SUFFIX,almawaddrial.com # DePriMon C2 server.
+DOMAIN-SUFFIX,mdeastserv.com # DePriMon C2 server.
+IP-CIDR,138.59.32.72 # DePriMon C2 server.
+IP-CIDR,88.119.179.17 # DePriMon C2 server.
+IP-CIDR,190.0.226.147 # DePriMon C2 server.
+IP-CIDR,185.56.89.196 # DePriMon C2 server.
+IP-CIDR,188.241.60.109 # DePriMon C2 server.
+IP-CIDR,5.226.168.124 # DePriMon C2 server.
+IP-CIDR,185.225.17.77 # DePriMon C2 server.
+IP-CIDR,46.151.212.202 # DePriMon C2 server.
+IP-CIDR,46.151.212.201 # DePriMon C2 server.
 
 # > DnsBirthday
 
+DOMAIN-SUFFIX,updates.rqztech.com # DnsBirthday C2 控制服务器，曾解析至 188.165.205.99
+DOMAIN-SUFFIX,smoke # DnsBirthday 使用的 DGA 域名后缀，前缀为 60 位十六进制字符串（如 [0-9a-f]{60}.smoke）
 IP-CIDR,176.31.106.50 # Rogue DNS 服务器（已失效），用于操控 DNS 查询重定向
-IP-CIDR,188.165.205.99 # DnsBirthday C&C 服务对应 IP 地址
+IP-CIDR,188.165.205.99 # DnsBirthday C2 服务对应 IP 地址
 IP-CIDR,188.214.30.97 # DnsBirthday 用于投放广告的恶意广告服务器
 IP-CIDR,188.214.30.98 # DnsBirthday 恶意广告服务器，用于页面注入或跳转
-DOMAIN-SUFFIX,updates.rqztech.com # DnsBirthday C&C 控制服务器，曾解析至 188.165.205.99
-DOMAIN-SUFFIX,smoke # DnsBirthday 使用的 DGA 域名后缀，前缀为 60 位十六进制字符串（如 [0-9a-f]{60}.smoke）
 
 # > DoNot
 
@@ -865,11 +865,11 @@ DOMAIN-SUFFIX,submitonline.club # DoNot 下载服务器（路径：/orderme/）
 DOMAIN-SUFFIX,oceansurvey.club # DoNot 数据回传服务器（路径：/upload/<VICTIM_ID>）
 DOMAIN-SUFFIX,soundedge.live # DoNot 数据外传服务器（路径：/<COMPUTERNAME>/uload）
 IP-CIDR,80.255.3.67 # DoNot 反向 Shell 控制服务器
-IP-CIDR,37.48.122.145 # DoNot 反向 Shell C&C 节点
+IP-CIDR,37.48.122.145 # DoNot 反向 Shell C2 节点
 
 # > Dukes
 
-DOMAIN-SUFFIX,acciaio.com.br # Dukes 使用的 C&C 控制域名
+DOMAIN-SUFFIX,acciaio.com.br # Dukes 使用的 C2 控制域名
 DOMAIN-SUFFIX,ceycarb.com # Dukes 使用的后门通信服务器域名
 DOMAIN-SUFFIX,coachandcook.at # Dukes 恶意组件通过该域进行控制通信
 DOMAIN-SUFFIX,fisioterapiabb.it # Dukes 使用的伪装域名之一
@@ -881,40 +881,40 @@ DOMAIN-SUFFIX,publiccouncil.org # Dukes 伪装为机构组织域名，用于远�
 DOMAIN-SUFFIX,rulourialuminiu.co.uk # Dukes 控制端伪装站点
 DOMAIN-SUFFIX,sistemikan.com # Dukes C2 控制服务
 DOMAIN-SUFFIX,varuhusmc.org # Dukes 后门通信域名
-DOMAIN-SUFFIX,ecolesndmessines.org # MiniDuke 使用的 C&C 控制域名
+DOMAIN-SUFFIX,ecolesndmessines.org # MiniDuke 使用的 C2 控制域名
 DOMAIN-SUFFIX,salesappliances.com # MiniDuke 使用的伪装下载服务器
-DOMAIN-SUFFIX,busseylawoffice.com # FatDuke 使用的 C&C 域名
+DOMAIN-SUFFIX,busseylawoffice.com # FatDuke 使用的 C2 域名
 DOMAIN-SUFFIX,fairfieldsch.org # FatDuke 恶意活动中的伪装控制服务器
 DOMAIN-SUFFIX,ministernetwork.org # FatDuke 远程控制基础设施
 DOMAIN-SUFFIX,skagenyoga.com # FatDuke 恶意组件加载点
 DOMAIN-SUFFIX,westmedicalgroup.net # FatDuke 用于指令获取的伪装医疗服务站点
-DOMAIN-SUFFIX,bandabonga.fr # LiteDuke 使用的 C&C 控制服务器域名
+DOMAIN-SUFFIX,bandabonga.fr # LiteDuke 使用的 C2 控制服务器域名
 
 # > Especter
 
-IP-CIDR,196.1.2.111 # Especter 木马使用的 C&C 控制服务器 IP  
-IP-CIDR,103.212.69.175 # Especter 后门通信 IP，来自配置提取  
-IP-CIDR,183.90.187.165 # Especter 配置中的远程命令与数据上传地址  
-IP-CIDR,61.178.79.169 # Especter 使用的 C2 控制地址，疑似中国托管资源  
 DOMAIN-SUFFIX,qicp.net # Especter 使用的动态 DNS 域名托管平台（swj02.qicp.net）  
 DOMAIN-SUFFIX,microsoftassistant.com # Especter 使用的伪装域名，冒充微软服务以逃避检测  
 DOMAIN-SUFFIX,justdied.com # Especter 使用的动态 DNS 域名服务（yspak.justdied.com）  
 DOMAIN-SUFFIX,crystalnba.com # Especter 后门通信域名之一，已被安全厂商收录为恶意 IOC  
+IP-CIDR,196.1.2.111 # Especter 木马使用的 C2 控制服务器 IP  
+IP-CIDR,103.212.69.175 # Especter 后门通信 IP，来自配置提取  
+IP-CIDR,183.90.187.165 # Especter 配置中的远程命令与数据上传地址  
+IP-CIDR,61.178.79.169 # Especter 使用的 C2 控制地址，疑似中国托管资源  
 
 # > Evasive Panda（中国 · Avast 命名）# Nightdoor 木马使用的通信与下载服务器
 
 DOMAIN-SUFFIX,tibetpost.net # 被入侵网站，用作跳转或恶意组件托管  
 DOMAIN-SUFFIX,monlamit.com # 被入侵网站，作为攻击链的一部分  
-DOMAIN-SUFFIX,devicebug.com # update.devicebug.com 为 Nightdoor 后门的 C&C 控制服务器  
+DOMAIN-SUFFIX,devicebug.com # update.devicebug.com 为 Nightdoor 后门的 C2 控制服务器  
 IP-CIDR,188.208.141.204 # Nightdoor 木马下载组件服务器，活动记录于 2024 年初  
 
 # > Evilnum（不明归属 · 攻击欧洲金融与加密公司）
 
-IP-CIDR,139.28.39.165 # Evilnum C&C 控制服务器  
-IP-CIDR,139.28.37.63 # Evilnum C&C 控制服务器  
+IP-CIDR,139.28.39.165 # Evilnum C2 控制服务器  
+IP-CIDR,139.28.37.63 # Evilnum C2 控制服务器  
 IP-CIDR,185.62.190.89 # Evilnum 后门通信节点  
 IP-CIDR,176.107.176.237 # Evilnum 多次使用的 C2 基础设施  
-IP-CIDR,185.20.186.75 # Evilnum C&C 服务，活跃于金融钓鱼攻击中  
+IP-CIDR,185.20.186.75 # Evilnum C2 服务，活跃于金融钓鱼攻击中  
 IP-CIDR,45.9.239.50 # Evilnum 控制信标通信地址  
 IP-CIDR,185.61.137.141 # Evilnum 后门数据收集通道  
 IP-CIDR,185.62.189.210 # Evilnum 攻击基础设施节点  
@@ -926,38 +926,40 @@ DOMAIN-SUFFIX,infinityhackscharan.ddns.net # EvilVideo 攻击者使用的钓鱼�
 
 # > Exchange Exploitation - 恶意通信 IOC
 
-IP-CIDR,34.90.207.123 # LuckyMouse SysUpdate C&C server  
-DOMAIN-SUFFIX,yolkish.com # Calypso C&C server  
-DOMAIN-SUFFIX,rawfuns.com # Calypso C&C server  
-IP-CIDR,86.105.18.116 # Opera Cobalt Strike C&C & distribution server  
+DOMAIN-SUFFIX,yolkish.com # Calypso C2 server  
+DOMAIN-SUFFIX,rawfuns.com # Calypso C2 server  
+DOMAIN-SUFFIX,averyspace.net # Tick Delphi backdoor C2 server  
+DOMAIN-SUFFIX,komdsecko.net # Tick Delphi backdoor C2 server  
+DOMAIN-SUFFIX,symantescafe.org # Tonto Team ShadowPad C2 server  
+DOMAIN-SUFFIX,portonmail.com # Winnti Group PlugX C2 server  
+DOMAIN-SUFFIX,rooter.ltk # Winnti Group PlugX C2 server  
+DOMAIN-SUFFIX,rtechs.org # Unclassified ShadowPad C2 server  
+DOMAIN-SUFFIX,mssysinfo.xyz # Unclassified ShadowPad C2 server  
+DOMAIN-SUFFIX,estonine.com # DLTMiner C2 server  
+IP-CIDR,86.105.18.116 # Opera Cobalt Strike C2 & distribution server  
 IP-CIDR,89.34.111.11 # Opera Cobalt Strike distribution server  
-IP-CIDR,172.105.18.72 # Mikroceen RAT C&C server  
-IP-CIDR,194.68.44.19 # Mikroceen proxy C&C server  
-DOMAIN-SUFFIX,averyspace.net # Tick Delphi backdoor C&C server  
-DOMAIN-SUFFIX,komdsecko.net # Tick Delphi backdoor C&C server  
+IP-CIDR,34.90.207.123 # LuckyMouse SysUpdate C2 server 
 IP-CIDR,77.83.159.15 # Tonto Team distribution server  
-DOMAIN-SUFFIX,symantescafe.org # Tonto Team ShadowPad C&C server  
-DOMAIN-SUFFIX,portonmail.com # Winnti Group PlugX C&C server  
-DOMAIN-SUFFIX,rooter.ltk # Winnti Group PlugX C&C server  
-IP-CIDR,161.129.64.124 # Winnti malware C&C server  
-DOMAIN-SUFFIX,rtechs.org # Unclassified ShadowPad C&C server  
-DOMAIN-SUFFIX,mssysinfo.xyz # Unclassified ShadowPad C&C server  
-DOMAIN-SUFFIX,estonine.com # DLTMiner C&C server  
+IP-CIDR,161.129.64.124 # Winnti malware C2 server  
+IP-CIDR,194.68.44.19 # Mikroceen proxy C2 server  
+IP-CIDR,172.105.18.72 # Mikroceen RAT C2 server  
+ 
 
-# > FamousSparrow - C&C 与投递域名 IOC
 
-DOMAIN-SUFFIX,offices-analytics.com # C&C 服务器域名（credits 子域名）  
+# > FamousSparrow - C2 与投递域名 IOC
+
+DOMAIN-SUFFIX,offices-analytics.com # C2 服务器域名（credits 子域名）  
 IP-CIDR,27.102.113.240 # 恶意投递域名对应 IP  
 
-# > Fishmonger - C&C 通信与后门服务器 IOC
+# > Fishmonger - C2 通信与后门服务器 IOC
 
-DOMAIN-SUFFIX,googleauthenticatoronline.com  # ShadowPad C&C 伪装域名（伪冒 Google 身份验证器）
-IP-CIDR,213.59.118.124 # ShadowPad C&C server
-IP-CIDR,61.238.103.165 # Spyder C&C server
-IP-CIDR,162.33.178.23 # SodaMaster C&C server
-IP-CIDR,78.141.202.70 # SodaMaster C&C server
-IP-CIDR,192.46.223.211 # SodaMaster C&C server
-IP-CIDR,168.100.10.136 # SodaMaster C&C server
+DOMAIN-SUFFIX,googleauthenticatoronline.com  # ShadowPad C2 伪装域名（伪冒 Google 身份验证器）
+IP-CIDR,213.59.118.124 # ShadowPad C2 server
+IP-CIDR,61.238.103.165 # Spyder C2 server
+IP-CIDR,162.33.178.23 # SodaMaster C2 server
+IP-CIDR,78.141.202.70 # SodaMaster C2 server
+IP-CIDR,192.46.223.211 # SodaMaster C2 server
+IP-CIDR,168.100.10.136 # SodaMaster C2 server
 
 # > Gamaredon - 恶意域名 IOC
 
@@ -1099,12 +1101,10 @@ DOMAIN-SUFFIX,erythrina.space # Gamaredon 恶意基础设施域名
 DOMAIN-SUFFIX,europaea.ru # Gamaredon 恶意基础设施域名
 DOMAIN-SUFFIX,excelsa.space # Gamaredon 恶意基础设施域名
 
-# > Gelsemium - C&C 与恶意活动 IOC
+# > Gelsemium - C2 与恶意活动 IOC
 
 DOMAIN-SUFFIX,dsdsei.com # Gelsemium 使用的恶意控制域名  
 DOMAIN-SUFFIX,asidomain.com # 恶意通信域名，与 Gelsemium 活动关联  
-IP-CIDR,149.248.14.53 # 已知 Gelsemium C&C 服务器 IP  
-IP-CIDR,210.209.72.180 # 恶意基础设施 IP，用于远程控制  
 DOMAIN-SUFFIX,4vw37z.cn # Gelsemium 恶意投递站域名  
 DOMAIN-SUFFIX,ns1.name # 用作伪造 NS 的恶意域名结构（acro 子域）  
 DOMAIN-SUFFIX,dns04.com # 用作伪造 DNS 通道的通信域名（多个子域）  
@@ -1113,40 +1113,44 @@ DOMAIN-SUFFIX,dns1.us # 模仿 Microsoft 服务名的恶意通信域名
 DOMAIN-SUFFIX,otzo.com # 动态 DNS 平台，Gelsemium 恶意使用（pctftp 子域）  
 DOMAIN-SUFFIX,hopto.org # Gelsemium 使用的动态 DNS 域名（多个子域）  
 DOMAIN-SUFFIX,dynamic-dns.net # 动态 DNS 域名服务平台（sitesafecdn 子域） 
+IP-CIDR,149.248.14.53 # 已知 Gelsemium C2 服务器 IP  
+IP-CIDR,210.209.72.180 # 恶意基础设施 IP，用于远程控制  
 
-# > Glupteba - 僵尸网络 C&C 服务器与投递基础设施
+# > Glupteba - 僵尸网络 C2 服务器与投递基础设施
 
-IP-CIDR,5.101.6.132 # Glupteba 僵尸网络 C&C IP  
-IP-CIDR,5.79.87.139 # Glupteba 僵尸网络 C&C IP  
-IP-CIDR,5.79.87.153 # Glupteba 僵尸网络 C&C IP  
+DOMAIN-SUFFIX,financialtimesguru.com # Agent.SVE 恶意控制域名  
+DOMAIN-SUFFIX,burnandfire5.com # Agent.SVE 僵尸网络伪装域名  
+IP-CIDR,5.101.6.132 # Glupteba 僵尸网络 C2 IP  
+IP-CIDR,5.79.87.139 # Glupteba 僵尸网络 C2 IP  
+IP-CIDR,5.79.87.153 # Glupteba 僵尸网络 C2 IP  
 IP-CIDR,5.8.10.194 # Glupteba 僵尸网络控制节点  
 IP-CIDR,37.48.81.151 # Glupteba 恶意通信地址  
-IP-CIDR,46.165.244.129 # Glupteba C&C 控制器  
+IP-CIDR,46.165.244.129 # Glupteba C2 控制器  
 IP-CIDR,46.165.249.167 # Glupteba 僵尸网络 IP 节点  
 IP-CIDR,46.165.249.195 # Glupteba 僵尸网络 IP 节点  
 IP-CIDR,46.165.249.201 # Glupteba 僵尸网络控制服务器  
 IP-CIDR,46.165.249.203 # Glupteba 控制节点  
 IP-CIDR,46.165.250.25 # Glupteba 恶意基础设施  
-IP-CIDR,78.31.67.205 # Glupteba 僵尸网络 C&C  
+IP-CIDR,78.31.67.205 # Glupteba 僵尸网络 C2  
 IP-CIDR,78.31.67.206 # Glupteba 僵尸网络控制端  
 IP-CIDR,80.93.90.27 # Glupteba 控制服务器  
 IP-CIDR,80.93.90.32 # Glupteba 投递节点 IP  
-IP-CIDR,80.93.90.69 # Glupteba C&C 节点  
+IP-CIDR,80.93.90.69 # Glupteba C2 节点  
 IP-CIDR,80.93.90.72 # Glupteba 僵尸网络通信节点  
-IP-CIDR,80.93.90.78 # Glupteba C&C 地址  
+IP-CIDR,80.93.90.78 # Glupteba C2 地址  
 IP-CIDR,80.93.90.84 # Glupteba 恶意服务器 IP  
-IP-CIDR,81.30.152.25 # Glupteba C&C 节点  
+IP-CIDR,81.30.152.25 # Glupteba C2 节点  
 IP-CIDR,85.114.135.113 # Glupteba 控制器通信 IP  
 IP-CIDR,85.114.141.81 # Glupteba 恶意控制服务器  
 IP-CIDR,89.163.206.137 # Glupteba 僵尸网络 IP  
-IP-CIDR,89.163.206.174 # Glupteba C&C 节点  
+IP-CIDR,89.163.206.174 # Glupteba C2 节点  
 IP-CIDR,89.163.212.9 # Glupteba 控制基础设施  
 IP-CIDR,91.121.65.98 # Glupteba 通信服务器  
 IP-CIDR,91.216.93.126 # Glupteba 恶意节点  
 IP-CIDR,91.216.93.20 # Glupteba 控制器 IP  
 IP-CIDR,109.238.10.78 # Glupteba 后门通信服务器  
 IP-CIDR,178.162.193.193 # Glupteba 僵尸网络控制端  
-IP-CIDR,178.162.193.195 # Glupteba C&C 节点  
+IP-CIDR,178.162.193.195 # Glupteba C2 节点  
 IP-CIDR,178.162.193.66 # Glupteba 控制 IP  
 IP-CIDR,178.162.193.86 # Glupteba 僵尸网络通信 IP  
 IP-CIDR,193.111.140.238 # Glupteba 投递基础设施  
@@ -1154,12 +1158,10 @@ IP-CIDR,193.111.141.213 # Glupteba 控制通信地址
 IP-CIDR,212.92.100.114 # Glupteba 恶意服务器  
 IP-CIDR,212.92.100.115 # Glupteba 控制节点  
 IP-CIDR,213.202.254.161 # Glupteba 僵尸网络服务器  
-IP-CIDR,213.5.70.9 # Glupteba C&C 地址  
+IP-CIDR,213.5.70.9 # Glupteba C2 地址  
 IP-CIDR,217.79.189.227 # Glupteba 僵尸网络控制服务器  
-DOMAIN-SUFFIX,financialtimesguru.com # Agent.SVE 恶意控制域名  
-DOMAIN-SUFFIX,burnandfire5.com # Agent.SVE 僵尸网络伪装域名  
 
-# > Gmera - 虚假加密交易平台与 C&C 服务器 IOC
+# > Gmera - 虚假加密交易平台与 C2 服务器 IOC
 
 DOMAIN-SUFFIX,apperdenta.com # Gmera 虚假应用投放域名  
 DOMAIN-SUFFIX,cointrazer.com # Gmera 伪装加密平台域名  
@@ -1175,61 +1177,55 @@ DOMAIN-SUFFIX,repbaerray.pw # Gmera 僵尸网络初始接入域名
 DOMAIN-SUFFIX,stepbystepby.com # Gmera 假冒教程引导平台  
 DOMAIN-SUFFIX,trezarus.com # Gmera 虚假交易平台主域名  
 DOMAIN-SUFFIX,trezarus.net # Gmera 虚假交易平台备用域名  
-IP-CIDR,85.209.88.123 # Gmera C&C 控制器 IP  
+IP-CIDR,85.209.88.123 # Gmera C2 控制器 IP  
 IP-CIDR,85.217.171.87 # Gmera 投递服务器 IP  
 IP-CIDR,193.37.212.97 # Gmera 僵尸网络通信节点  
 IP-CIDR,193.37.214.7 # Gmera 后门通信控制端  
 
-# > GoldenJackal - C&C 控制服务器与被入侵站点 IOC
+# > GoldenJackal - C2 控制服务器与被入侵站点 IOC
 
-IP-CIDR,83.24.9.124 # GoldenJackal 主控服务器 IP（2019 年使用）  
-IP-CIDR,196.29.32.210 # GoldenJackal 次级 C&C 控制服务器 IP（2019 年使用）  
 DOMAIN-SUFFIX,assistance.uz # 被入侵网站用于恶意软件下载  
-DOMAIN-SUFFIX,thehistore.com # 被入侵网站用作 C&C 服务器  
-DOMAIN-SUFFIX,xgraphic.ro # 被入侵网站用作 C&C 控制域名  
+DOMAIN-SUFFIX,thehistore.com # 被入侵网站用作 C2 服务器  
+DOMAIN-SUFFIX,xgraphic.ro # 被入侵网站用作 C2 控制域名  
+IP-CIDR,83.24.9.124 # GoldenJackal 主控服务器 IP（2019 年使用）  
+IP-CIDR,196.29.32.210 # GoldenJackal 次级 C2 控制服务器 IP（2019 年使用）  
 
 # > Grandoreiro - DGA 控制服务器与恶意分发基础设施
 
-IP-CIDR,3.144.135.247 # Grandoreiro DGA C&C 服务器（托管于 AWS）  
-IP-CIDR,18.215.238.53 # Grandoreiro DGA C&C 控制节点（AWS）  
+IP-CIDR,3.144.135.247 # Grandoreiro DGA C2 服务器（托管于 AWS）  
+IP-CIDR,18.215.238.53 # Grandoreiro DGA C2 控制节点（AWS）  
 IP-CIDR,20.120.249.43 # Grandoreiro 控制服务器（DGA 生成，Azure 托管）  
 IP-CIDR,20.151.89.252 # Grandoreiro 恶意软件分发服务器（Azure 托管）  
 IP-CIDR,20.237.166.161 # Grandoreiro 控制通信节点（DGA 生成，Azure）  
 IP-CIDR,52.161.154.239 # Grandoreiro 控制基础设施（DGA 域名，Azure 托管）  
 IP-CIDR,54.219.169.167 # Grandoreiro DGA 控制节点（托管于 AWS）  
 IP-CIDR,62.84.100.225 # Grandoreiro 分发服务器 IP（托管于 VDSina）  
-IP-CIDR,66.70.160.251 # Grandoreiro C&C 服务器（DGA 域名，OVH 托管）  
+IP-CIDR,66.70.160.251 # Grandoreiro C2 服务器（DGA 域名，OVH 托管）  
 IP-CIDR,77.246.96.204 # Grandoreiro DGA 控制节点（VDSina 托管）  
-IP-CIDR,78.114.138.249 # Grandoreiro C&C 控制服务器（OVH 托管）  
+IP-CIDR,78.114.138.249 # Grandoreiro C2 控制服务器（OVH 托管）  
 IP-CIDR,85.228.72.138 # Grandoreiro 僵尸网络通信节点（Master da Web 托管）  
 IP-CIDR,167.114.4.175 # Grandoreiro 控制服务器（DGA 域名，OVH 托管）  
-IP-CIDR,185.228.72.138 # Grandoreiro 僵尸网络 C&C 节点（Master da Web）  
+IP-CIDR,185.228.72.138 # Grandoreiro 僵尸网络 C2 节点（Master da Web）  
 
-# > Grandoreiro - 僵尸网络 C&C 与投递服务器 IOC
+# > Grandoreiro - 僵尸网络 C2 与投递服务器 IOC
 
-IP-CIDR,20.237.166.116 # Azure 托管的 DGA C&C 服务器  
-IP-CIDR,20.120.249.143 # Azure 托管的 DGA C&C 服务器  
-IP-CIDR,52.161.154.239 # Azure 托管的 DGA C&C 服务器  
-IP-CIDR,167.114.138.249 # OVH 托管的 DGA C&C 服务器  
-IP-CIDR,66.70.160.251 # OVH 托管的 DGA C&C 服务器  
-IP-CIDR,167.114.4.175 # OVH 托管的 DGA C&C 服务器  
-IP-CIDR,18.215.238.53 # AWS 托管的 DGA C&C 服务器  
-IP-CIDR,54.219.169.167 # AWS 托管的 DGA C&C 服务器  
-IP-CIDR,3.144.135.247 # AWS 托管的 DGA C&C 服务器  
-IP-CIDR,77.246.96.204 # VDSina 托管的 DGA C&C 服务器  
-IP-CIDR,185.228.72.38 # Master da Web 托管的 DGA C&C 服务器  
+IP-CIDR,20.237.166.116 # Azure 托管的 DGA C2 服务器  
+IP-CIDR,20.120.249.143 # Azure 托管的 DGA C2 服务器  
+IP-CIDR,52.161.154.239 # Azure 托管的 DGA C2 服务器  
+IP-CIDR,167.114.138.249 # OVH 托管的 DGA C2 服务器  
+IP-CIDR,66.70.160.251 # OVH 托管的 DGA C2 服务器  
+IP-CIDR,167.114.4.175 # OVH 托管的 DGA C2 服务器  
+IP-CIDR,18.215.238.53 # AWS 托管的 DGA C2 服务器  
+IP-CIDR,54.219.169.167 # AWS 托管的 DGA C2 服务器  
+IP-CIDR,3.144.135.247 # AWS 托管的 DGA C2 服务器  
+IP-CIDR,77.246.96.204 # VDSina 托管的 DGA C2 服务器  
+IP-CIDR,185.228.72.38 # Master da Web 托管的 DGA C2 服务器  
 IP-CIDR,62.84.100.225 # VDSina 托管的分发服务器  
 IP-CIDR,20.151.89.252 # Azure 托管的分发服务器  
 
-# > GravityRAT - 远控木马 C&C 与投递服务器 IOC
+# > GravityRAT - 远控木马 C2 与投递服务器 IOC
 
-IP-CIDR,75.2.37.224 # jre.jdklibraries.com C&C 服务器  
-IP-CIDR,104.21.12.211 # cld.androidadbserver.com 与 adb.androidadbserver.com C&C 服务器  
-IP-CIDR,104.21.24.109 # dev.jdklibraries.com C&C 服务器  
-IP-CIDR,104.21.41.147 # chatico.co.uk 恶意分发网站  
-IP-CIDR,172.67.196.90 # dev.androidadbserver.com 与 ping.androidadbserver.com C&C 控制节点  
-IP-CIDR,172.67.203.168 # bingechat.net 恶意分发平台  
-DOMAIN-SUFFIX,jre.jdklibraries.com # GravityRAT C&C 控制域名  
+DOMAIN-SUFFIX,jre.jdklibraries.com # GravityRAT C2 控制域名  
 DOMAIN-SUFFIX,cld.androidadbserver.com # GravityRAT 控制域名  
 DOMAIN-SUFFIX,adb.androidadbserver.com # GravityRAT 控制域名  
 DOMAIN-SUFFIX,dev.jdklibraries.com # GravityRAT 后门通信域名  
@@ -1237,27 +1233,18 @@ DOMAIN-SUFFIX,chatico.co.uk # GravityRAT 恶意分发网站
 DOMAIN-SUFFIX,dev.androidadbserver.com # GravityRAT 控制服务器  
 DOMAIN-SUFFIX,ping.androidadbserver.com # GravityRAT 控制服务器  
 DOMAIN-SUFFIX,bingechat.net # GravityRAT 木马分发站点  
+IP-CIDR,75.2.37.224 # jre.jdklibraries.com C2 服务器  
+IP-CIDR,104.21.12.211 # cld.androidadbserver.com 与 adb.androidadbserver.com C2 服务器  
+IP-CIDR,104.21.24.109 # dev.jdklibraries.com C2 服务器  
+IP-CIDR,104.21.41.147 # chatico.co.uk 恶意分发网站  
+IP-CIDR,172.67.196.90 # dev.androidadbserver.com 与 ping.androidadbserver.com C2 控制节点  
+IP-CIDR,172.67.203.168 # bingechat.net 恶意分发平台  
 
 # > Gref - Signal Plus 与 FlyGram 远控活动 IOC
 
-IP-CIDR,45.63.89.238 # FlyGram 代理服务器  
-IP-CIDR,45.133.238.92 # FlyGram 代理服务器  
-IP-CIDR,45.154.12.132 # Signal Plus C&C 控制服务器  
-IP-CIDR,45.154.12.151 # Signal Plus 代理服务器  
-IP-CIDR,45.154.12.202 # Signal Plus 代理服务器  
-IP-CIDR,62.210.28.116 # FlyGram 代理服务器  
-IP-CIDR,82.180.174.230 # Signal Plus 恶意分发网站  
-IP-CIDR,92.118.189.164 # Signal Plus 代理服务器  
-IP-CIDR,103.27.186.156 # Signal Plus 代理服务器  
-IP-CIDR,103.27.186.195 # Signal Plus 代理服务器  
-IP-CIDR,148.251.87.245 # FlyGram C&C 控制服务器  
-IP-CIDR,154.202.59.169 # Signal Plus 代理服务器  
-IP-CIDR,156.67.73.71 # FlyGram 恶意分发网站  
-IP-CIDR,185.239.227.14 # FlyGram 代理服务器  
-IP-CIDR,217.163.29.84 # FlyGram 代理服务器  
 DOMAIN-SUFFIX,45.63.89.238.vultrusercontent.com # FlyGram 代理服务器  
 DOMAIN-SUFFIX,mail.pmumail.com # FlyGram 代理服务器  
-DOMAIN-SUFFIX,signalplus.org # Signal Plus C&C 控制服务器  
+DOMAIN-SUFFIX,signalplus.org # Signal Plus C2 控制服务器  
 DOMAIN-SUFFIX,proxy3.signalplus.org # Signal Plus 代理服务器  
 DOMAIN-SUFFIX,proxy4.signalplus.org # Signal Plus 代理服务器  
 DOMAIN-SUFFIX,62-210-28-116.rev.poneytelecom.eu # FlyGram 代理服务器  
@@ -1265,117 +1252,132 @@ DOMAIN-SUFFIX,www.signalplus.org # Signal Plus 恶意分发网站
 DOMAIN-SUFFIX,proxy2.signalplus.org # Signal Plus 代理服务器  
 DOMAIN-SUFFIX,proxy6.signalplus.org # Signal Plus 代理服务器  
 DOMAIN-SUFFIX,proxy5.signalplus.org # Signal Plus 代理服务器  
-DOMAIN-SUFFIX,flygram.org # FlyGram C&C 控制服务器  
+DOMAIN-SUFFIX,flygram.org # FlyGram C2 控制服务器  
 DOMAIN-SUFFIX,proxy1.signalplus.org # Signal Plus 代理服务器  
-DOMAIN-SUFFIX,www.flygram.org # FlyGram 恶意分发网站  
+DOMAIN-SUFFIX,www.flygram.org # FlyGram 恶意分发网站 
+IP-CIDR,45.63.89.238 # FlyGram 代理服务器  
+IP-CIDR,45.133.238.92 # FlyGram 代理服务器  
+IP-CIDR,45.154.12.132 # Signal Plus C2 控制服务器  
+IP-CIDR,45.154.12.151 # Signal Plus 代理服务器  
+IP-CIDR,45.154.12.202 # Signal Plus 代理服务器  
+IP-CIDR,62.210.28.116 # FlyGram 代理服务器  
+IP-CIDR,82.180.174.230 # Signal Plus 恶意分发网站  
+IP-CIDR,92.118.189.164 # Signal Plus 代理服务器  
+IP-CIDR,103.27.186.156 # Signal Plus 代理服务器  
+IP-CIDR,103.27.186.195 # Signal Plus 代理服务器  
+IP-CIDR,148.251.87.245 # FlyGram C2 控制服务器  
+IP-CIDR,154.202.59.169 # Signal Plus 代理服务器  
+IP-CIDR,156.67.73.71 # FlyGram 恶意分发网站  
+IP-CIDR,185.239.227.14 # FlyGram 代理服务器  
+IP-CIDR,217.163.29.84 # FlyGram 代理服务器   
 
 # > GreyEnergy - 远控基础设施 IOC
 
-IP-CIDR,109.200.202.7 # GreyEnergy C&C 控制服务器  
-IP-CIDR,193.105.134.68 # GreyEnergy C&C 控制服务器  
-IP-CIDR,163.172.7.195 # GreyEnergy C&C 控制服务器  
-IP-CIDR,163.172.7.196 # GreyEnergy C&C 控制服务器  
-IP-CIDR,5.149.248.77 # GreyEnergy C&C 控制服务器  
-IP-CIDR,31.148.220.112 # GreyEnergy C&C 控制服务器  
-IP-CIDR,62.210.77.169 # GreyEnergy C&C 控制服务器  
-IP-CIDR,85.25.211.10 # GreyEnergy C&C 控制服务器  
-IP-CIDR,138.201.198.164 # GreyEnergy C&C 控制服务器  
-IP-CIDR,124.217.254.55 # GreyEnergy C&C 控制服务器  
-IP-CIDR,46.249.49.231 # GreyEnergy C&C 控制服务器  
-IP-CIDR,37.59.14.94 # GreyEnergy C&C 控制服务器  
-IP-CIDR,213.239.202.149 # GreyEnergy C&C 控制服务器  
-IP-CIDR,88.198.13.116 # GreyEnergy C&C 控制服务器  
-IP-CIDR,217.12.202.111 # GreyEnergy C&C 控制服务器  
-IP-CIDR,176.31.116.140 # GreyEnergy C&C 控制服务器  
-IP-CIDR,185.217.0.121 # GreyEnergy C&C 控制服务器  
-IP-CIDR,178.150.0.200 # GreyEnergy C&C 控制服务器  
-IP-CIDR,176.121.10.137 # GreyEnergy C&C 控制服务器  
-IP-CIDR,178.255.40.194 # GreyEnergy C&C 控制服务器  
-IP-CIDR,193.105.134.56 # GreyEnergy C&C 控制服务器  
-IP-CIDR,94.130.88.50 # GreyEnergy C&C 控制服务器  
-IP-CIDR,185.216.33.126 # GreyEnergy C&C 控制服务器  
+IP-CIDR,109.200.202.7 # GreyEnergy C2 控制服务器  
+IP-CIDR,193.105.134.68 # GreyEnergy C2 控制服务器  
+IP-CIDR,163.172.7.195 # GreyEnergy C2 控制服务器  
+IP-CIDR,163.172.7.196 # GreyEnergy C2 控制服务器  
+IP-CIDR,5.149.248.77 # GreyEnergy C2 控制服务器  
+IP-CIDR,31.148.220.112 # GreyEnergy C2 控制服务器  
+IP-CIDR,62.210.77.169 # GreyEnergy C2 控制服务器  
+IP-CIDR,85.25.211.10 # GreyEnergy C2 控制服务器  
+IP-CIDR,138.201.198.164 # GreyEnergy C2 控制服务器  
+IP-CIDR,124.217.254.55 # GreyEnergy C2 控制服务器  
+IP-CIDR,46.249.49.231 # GreyEnergy C2 控制服务器  
+IP-CIDR,37.59.14.94 # GreyEnergy C2 控制服务器  
+IP-CIDR,213.239.202.149 # GreyEnergy C2 控制服务器  
+IP-CIDR,88.198.13.116 # GreyEnergy C2 控制服务器  
+IP-CIDR,217.12.202.111 # GreyEnergy C2 控制服务器  
+IP-CIDR,176.31.116.140 # GreyEnergy C2 控制服务器  
+IP-CIDR,185.217.0.121 # GreyEnergy C2 控制服务器  
+IP-CIDR,178.150.0.200 # GreyEnergy C2 控制服务器  
+IP-CIDR,176.121.10.137 # GreyEnergy C2 控制服务器  
+IP-CIDR,178.255.40.194 # GreyEnergy C2 控制服务器  
+IP-CIDR,193.105.134.56 # GreyEnergy C2 控制服务器  
+IP-CIDR,94.130.88.50 # GreyEnergy C2 控制服务器  
+IP-CIDR,185.216.33.126 # GreyEnergy C2 控制服务器  
 
 # > Groundbait - 鱼叉钓鱼与远控木马活动 IOC
 
-DOMAIN-SUFFIX,disk-fulldatabase.rhcloud.com # Groundbait C&C 控制服务器  
-DOMAIN-SUFFIX,wallejob.in.ua # Groundbait C&C 控制服务器  
-DOMAIN-SUFFIX,wallex.ho.ua # Groundbait C&C 控制服务器  
-DOMAIN-SUFFIX,gils.ho.ua # Groundbait C&C 控制服务器  
-DOMAIN-SUFFIX,literat.ho.ua # Groundbait C&C 控制服务器  
-DOMAIN-SUFFIX,lefting.org # Groundbait C&C 控制服务器  
-DOMAIN-SUFFIX,celebrat.net # Groundbait C&C 控制服务器  
-DOMAIN-SUFFIX,bolepaund.com # Groundbait C&C 控制服务器  
+DOMAIN-SUFFIX,disk-fulldatabase.rhcloud.com # Groundbait C2 控制服务器  
+DOMAIN-SUFFIX,wallejob.in.ua # Groundbait C2 控制服务器  
+DOMAIN-SUFFIX,wallex.ho.ua # Groundbait C2 控制服务器  
+DOMAIN-SUFFIX,gils.ho.ua # Groundbait C2 控制服务器  
+DOMAIN-SUFFIX,literat.ho.ua # Groundbait C2 控制服务器  
+DOMAIN-SUFFIX,lefting.org # Groundbait C2 控制服务器  
+DOMAIN-SUFFIX,celebrat.net # Groundbait C2 控制服务器  
+DOMAIN-SUFFIX,bolepaund.com # Groundbait C2 控制服务器  
+DOMAIN-SUFFIX,server-eacloud.rhcloud.com # Groundbait 鱼叉钓鱼邮件服务器  
+DOMAIN-SUFFIX,easerver-fulldatabase.rhcloud.com # Groundbait 鱼叉钓鱼邮件服务器 
 IP-CIDR,54.175.208.187 # disk-fulldatabase.rhcloud.com 控制服务器 IP  
 IP-CIDR,23.22.38.222 # disk-fulldatabase.rhcloud.com 控制服务器 IP  
-IP-CIDR,185.68.16.35 # wallejob.in.ua C&C 控制节点  
+IP-CIDR,185.68.16.35 # wallejob.in.ua C2 控制节点  
 IP-CIDR,91.228.146.13 # wallex.ho.ua / literat.ho.ua 控制服务器 IP  
 IP-CIDR,91.228.146.12 # gils.ho.ua / bolepaund.com 控制服务器 IP  
-IP-CIDR,91.228.146.11 # lefting.org / celebrat.net 控制服务器 IP  
-DOMAIN-SUFFIX,server-eacloud.rhcloud.com # Groundbait 鱼叉钓鱼邮件服务器  
-DOMAIN-SUFFIX,easerver-fulldatabase.rhcloud.com # Groundbait 鱼叉钓鱼邮件服务器  
+IP-CIDR,91.228.146.11 # lefting.org / celebrat.net 控制服务器 IP   
 IP-CIDR,54.152.171.48 # server-eacloud.rhcloud.com 发送服务器 IP  
 IP-CIDR,54.163.210.39 # server-eacloud.rhcloud.com 发送服务器 IP  
 IP-CIDR,52.23.164.7 # easerver-fulldatabase.rhcloud.com 邮件服务器 IP  
 IP-CIDR,23.22.221.237 # easerver-fulldatabase.rhcloud.com 邮件服务器 IP 
 
-# > Guildma - 银行木马 C&C 控制服务器 IOC
+# > Guildma - 银行木马 C2 控制服务器 IOC
 
-DOMAIN-SUFFIX,zvatrswtsrw.ml # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,xskcjzamlkxwo.gq # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,vhguyeu.ml # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,carnataldez.ml # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,movbmog.ga # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,iuiuytrytrewrqw.gq # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,gucinowertr.tk # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,equilibrios.ga # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,clooinfor.cf # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,ambirsr.tk # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,dbuhcbudyu.tk # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,nvfjvtntt.cf # Guildma C&C 控制服务器  
-DOMAIN-SUFFIX,acquafufheirybveru.online # Guildma C&C 控制服务器  
+DOMAIN-SUFFIX,zvatrswtsrw.ml # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,xskcjzamlkxwo.gq # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,vhguyeu.ml # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,carnataldez.ml # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,movbmog.ga # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,iuiuytrytrewrqw.gq # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,gucinowertr.tk # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,equilibrios.ga # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,clooinfor.cf # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,ambirsr.tk # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,dbuhcbudyu.tk # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,nvfjvtntt.cf # Guildma C2 控制服务器  
+DOMAIN-SUFFIX,acquafufheirybveru.online # Guildma C2 控制服务器  
 
 # > HamKombat
 
-IP-CIDR,77.91.124.14 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.86.106 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.11.250 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.89.202 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.95.19 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.76.102 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.74.118 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.55.248 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.22.94 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.63.189 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.74.169 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.59.152 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.76.157 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.71.242 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.53.89 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.16.251 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.62.244 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.75.100 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.30.167 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.28.32 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.92.10 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.52.185 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.32.80 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.76.185 # HamKombat C&C 控制服务器  
-IP-CIDR,104.21.26.6 # HamKombat C&C 控制服务器  
-IP-CIDR,146.19.207.14 # HamKombat C&C 控制服务器 
+IP-CIDR,77.91.124.14 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.86.106 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.11.250 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.89.202 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.95.19 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.76.102 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.74.118 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.55.248 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.22.94 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.63.189 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.74.169 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.59.152 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.76.157 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.71.242 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.53.89 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.16.251 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.62.244 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.75.100 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.30.167 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.28.32 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.92.10 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.52.185 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.32.80 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.76.185 # HamKombat C2 控制服务器  
+IP-CIDR,104.21.26.6 # HamKombat C2 控制服务器  
+IP-CIDR,146.19.207.14 # HamKombat C2 控制服务器 
 
 # > HotPage
 
-IP-CIDR,61.147.93.49 # HotPage C&C 控制服务器  
-IP-CIDR,140.210.24.33 # HotPage C&C 控制服务器  
-IP-CIDR,202.189.5.222 # HotPage C&C 控制服务器  
+IP-CIDR,61.147.93.49 # HotPage C2 控制服务器  
+IP-CIDR,140.210.24.33 # HotPage C2 控制服务器  
+IP-CIDR,202.189.5.222 # HotPage C2 控制服务器  
 
 # > Industroyer
 
-IP-CIDR,195.16.88.6 # Industroyer C&C 控制服务器（Tor 节点，可能误报）  
-IP-CIDR,46.28.200.132 # Industroyer C&C 控制服务器（Tor 节点，可能误报）  
-IP-CIDR,188.42.253.43 # Industroyer C&C 控制服务器（Tor 节点，可能误报）  
-IP-CIDR,5.39.218.152 # Industroyer C&C 控制服务器（Tor 节点，可能误报）  
-IP-CIDR,93.115.27.57 # Industroyer C&C 控制服务器（Tor 节点，可能误报）  
+IP-CIDR,195.16.88.6 # Industroyer C2 控制服务器（Tor 节点，可能误报）  
+IP-CIDR,46.28.200.132 # Industroyer C2 控制服务器（Tor 节点，可能误报）  
+IP-CIDR,188.42.253.43 # Industroyer C2 控制服务器（Tor 节点，可能误报）  
+IP-CIDR,5.39.218.152 # Industroyer C2 控制服务器（Tor 节点，可能误报）  
+IP-CIDR,93.115.27.57 # Industroyer C2 控制服务器（Tor 节点，可能误报）  
 
 # > Interception（网络拦截样本 · 多语言伪装资源投递）
 
@@ -1396,37 +1398,37 @@ DOMAIN-SUFFIX,casacam.net # Interception 样本通信域名
 
 # > InvisiMole（间谍活动样本 · 高级定向远控行为）
 
-IP-CIDR,46.165.220.228 # InvisiMole C&C 控制服务器  
-IP-CIDR,80.255.3.66 # InvisiMole C&C 控制服务器  
-IP-CIDR,85.17.26.174 # InvisiMole C&C 控制服务器  
-IP-CIDR,185.193.38.55 # InvisiMole C&C 控制服务器  
-IP-CIDR,194.187.249.157 # InvisiMole C&C 控制服务器  
-IP-CIDR,195.154.255.211 # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,153.re # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,adstat.red # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,adtrax.net # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,akamai.sytes.net # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,amz-eu401.com # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,blabla234342.sytes.net # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,mx1.be # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,statad.de # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,time.servehttp.com # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,upd.re # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,update.xn—​6frz82g # InvisiMole C&C 控制服务器  # ⚠ 可疑伪造域名，建议复核  
-DOMAIN-SUFFIX,updatecloud.sytes.net # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,updchecking.sytes.net # InvisiMole C&C 控制服务器  
-DOMAIN-SUFFIX,wlsts.net # InvisiMole C&C 控制服务器  
+DOMAIN-SUFFIX,153.re # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,adstat.red # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,adtrax.net # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,akamai.sytes.net # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,amz-eu401.com # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,blabla234342.sytes.net # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,mx1.be # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,statad.de # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,time.servehttp.com # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,upd.re # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,update.xn—​6frz82g # InvisiMole C2 控制服务器  # ⚠ 可疑伪造域名，建议复核  
+DOMAIN-SUFFIX,updatecloud.sytes.net # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,updchecking.sytes.net # InvisiMole C2 控制服务器  
+DOMAIN-SUFFIX,wlsts.net # InvisiMole C2 控制服务器  
+IP-CIDR,46.165.220.228 # InvisiMole C2 控制服务器  
+IP-CIDR,80.255.3.66 # InvisiMole C2 控制服务器  
+IP-CIDR,85.17.26.174 # InvisiMole C2 控制服务器  
+IP-CIDR,185.193.38.55 # InvisiMole C2 控制服务器  
+IP-CIDR,194.187.249.157 # InvisiMole C2 控制服务器  
+IP-CIDR,195.154.255.211 # InvisiMole C2 控制服务器  
 
 # > Janeleiro（银行木马 · 拉美地区活动）
 
-IP-CIDR,52.204.58.11 # Janeleiro C&C 控制服务器  
-IP-CIDR,35.174.60.172 # Janeleiro C&C 控制服务器  
 DOMAIN-SUFFIX,tasoofile.us-east-1.elasticbeanstalk.com # Janeleiro 安装阶段信息上报域名  
 DOMAIN-SUFFIX,slkvemnemim.us-east-1.elasticbeanstalk.com # Janeleiro 安装阶段信息上报域名  
 DOMAIN-SUFFIX,checa-env.cf3tefmhmr.eu-north-1.elasticbeanstalk.com # Janeleiro 安装阶段信息上报域名  
 DOMAIN-SUFFIX,comunicador.duckdns.org # Janeleiro 数据外传域名  
-IP-CIDR,178.79.178.203 # Janeleiro C&C 控制服务器  
-IP-CIDR,138.197.101.4 # Janeleiro C&C 控制服务器 
+IP-CIDR,52.204.58.11 # Janeleiro C2 控制服务器  
+IP-CIDR,35.174.60.172 # Janeleiro C2 控制服务器  
+IP-CIDR,178.79.178.203 # Janeleiro C2 控制服务器  
+IP-CIDR,138.197.101.4 # Janeleiro C2 控制服务器 
 
 # > Keydnap（macOS 平台后门 · 基于 Tor 的远控通信）
 
@@ -1435,31 +1437,6 @@ DOMAIN-SUFFIX,r2elajikcosf7zee.onion.to # Keydnap 后门通信域名
 
 # > King_Tut（区域性远控活动 · 多国攻击基础设施）
 
-IP-CIDR,45.142.213.108 # King_Tut 控制服务器  
-IP-CIDR,45.142.214.31 # King_Tut 控制服务器  
-IP-CIDR,46.246.4.12 # King_Tut 控制服务器  
-IP-CIDR,46.246.84.23 # King_Tut 控制服务器  
-IP-CIDR,103.75.191.120 # King_Tut 控制服务器  
-IP-CIDR,152.169.70.42 # King_Tut 控制服务器  
-IP-CIDR,177.255.91.167 # King_Tut 控制服务器  
-IP-CIDR,179.13.5.158 # King_Tut 控制服务器  
-IP-CIDR,181.58.154.33 # King_Tut 控制服务器  
-IP-CIDR,181.58.155.117 # King_Tut 控制服务器  
-IP-CIDR,181.140.202.66 # King_Tut 控制服务器  
-IP-CIDR,186.112.198.62 # King_Tut 控制服务器  
-IP-CIDR,186.145.214.167 # King_Tut 控制服务器  
-IP-CIDR,186.145.214.199 # King_Tut 控制服务器  
-IP-CIDR,186.146.240.244 # King_Tut 控制服务器  
-IP-CIDR,186.147.55.19 # King_Tut 控制服务器  
-IP-CIDR,186.153.208.136 # King_Tut 控制服务器  
-IP-CIDR,186.169.37.205 # King_Tut 控制服务器  
-IP-CIDR,186.169.43.60 # King_Tut 控制服务器  
-IP-CIDR,190.28.131.156 # King_Tut 控制服务器  
-IP-CIDR,190.28.202.144 # King_Tut 控制服务器  
-IP-CIDR,190.138.41.31 # King_Tut 控制服务器  
-IP-CIDR,194.5.250.103 # King_Tut 控制服务器  
-IP-CIDR,194.36.190.73 # King_Tut 控制服务器  
-IP-CIDR,201.212.123.212 # King_Tut 控制服务器  
 DOMAIN-SUFFIX,ladvsa.club # King_Tut 通信域名  
 DOMAIN-SUFFIX,r2.panjo.club # King_Tut 通信域名  
 DOMAIN-SUFFIX,yursos.duckdns.org # King_Tut 通信域名  
@@ -1491,208 +1468,233 @@ DOMAIN-SUFFIX,d1.ngobmc.com # King_Tut 通信域名
 DOMAIN-SUFFIX,d2.ngobmc.com # King_Tut 通信域名  
 DOMAIN-SUFFIX,pronews.icu # King_Tut 通信域名  
 DOMAIN-SUFFIX,jamaica123.ddns.net # King_Tut 通信域名  
+IP-CIDR,45.142.213.108 # King_Tut 控制服务器  
+IP-CIDR,45.142.214.31 # King_Tut 控制服务器  
+IP-CIDR,46.246.4.12 # King_Tut 控制服务器  
+IP-CIDR,46.246.84.23 # King_Tut 控制服务器  
+IP-CIDR,103.75.191.120 # King_Tut 控制服务器  
+IP-CIDR,152.169.70.42 # King_Tut 控制服务器  
+IP-CIDR,177.255.91.167 # King_Tut 控制服务器  
+IP-CIDR,179.13.5.158 # King_Tut 控制服务器  
+IP-CIDR,181.58.154.33 # King_Tut 控制服务器  
+IP-CIDR,181.58.155.117 # King_Tut 控制服务器  
+IP-CIDR,181.140.202.66 # King_Tut 控制服务器  
+IP-CIDR,186.112.198.62 # King_Tut 控制服务器  
+IP-CIDR,186.145.214.167 # King_Tut 控制服务器  
+IP-CIDR,186.145.214.199 # King_Tut 控制服务器  
+IP-CIDR,186.146.240.244 # King_Tut 控制服务器  
+IP-CIDR,186.147.55.19 # King_Tut 控制服务器  
+IP-CIDR,186.153.208.136 # King_Tut 控制服务器  
+IP-CIDR,186.169.37.205 # King_Tut 控制服务器  
+IP-CIDR,186.169.43.60 # King_Tut 控制服务器  
+IP-CIDR,190.28.131.156 # King_Tut 控制服务器  
+IP-CIDR,190.28.202.144 # King_Tut 控制服务器  
+IP-CIDR,190.138.41.31 # King_Tut 控制服务器  
+IP-CIDR,194.5.250.103 # King_Tut 控制服务器  
+IP-CIDR,194.36.190.73 # King_Tut 控制服务器  
+IP-CIDR,201.212.123.212 # King_Tut 控制服务器  
 
 # > KryptoCibule（加密货币相关木马 · 多功能远控）
-
-IP-CIDR,198.211.34.151 # KryptoCibule 控制服务器  
+ 
 DOMAIN-SUFFIX,rlwryismmgjijryr55u5rqlbqghqvrwxe5qgxupuviyysxkky5wah6yd.onion.to # KryptoCibule REST API 服务器  
 DOMAIN-SUFFIX,4dtu3lxrpx6nn7snjovoc3ldiy4x67k7qsrgzftvkrttoqbwnsuirhqd.onion.to # KryptoCibule 文件服务器  
 DOMAIN-SUFFIX,v6lajszeqfkt3h2nptorindpf3mow5p3thrx2vuqbqzbv3tjrcqmgdqd.onion.to # KryptoCibule 挖矿服务器  
+IP-CIDR,198.211.34.151 # KryptoCibule 控制服务器 
 
 # > LummaStealer（信息窃取器 · 大规模伪装通信行为）
 
-DOMAIN-SUFFIX,cooperatvassquaidmew.xyz # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,crisisrottenyjs.xyz # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,deadtrainingactioniw.xyz # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,tamedgeesy.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,nighetwhisper.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,exuberanttjdkwo.xyz # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,grandcommonyktsju.xyz # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,qualificationjdwko.xyz # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,sweetcalcutangkdow.xyz # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,wordingnatturedowo.xyz # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,bigmouthudiop.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,froytnewqowv.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,locatedblsoqp.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,stagedchheiqwo.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,callosallsaospz.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,indexterityszcoxp.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,lariatedzugspd.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,liernessfornicsa.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,outpointsozp.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,shepherdlyopzc.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,unseaffarignsk.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,upknittsoappz.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,bassizcellskz.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,byteplusx.digital # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,sparkiob.digital # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,longitudde.digital # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,celebratioopz.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,complaintsipzzx.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,deallerospfosu.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,languagedscie.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,mennyudosirso.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,quialitsuzoxm.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,writerospzm.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,caffegclasiqwp.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,condedqpwqm.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,evoliutwoqm.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,millyscroqwp.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,stamppreewntnq.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,advennture.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,traineiwnqo.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,achievenmtynwjq.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,carrtychaintnyw.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,chickerkuso.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,metallygaricwo.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,milldymarskwom.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,opponnentduei.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,puredoffustow.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,quotamkdsdqo.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,bemuzzeki.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,exemplarou.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,exilepolsiy.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,frizzettei.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,invinjurhey.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,isoplethui.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,laddyirekyi.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,wickedneatr.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,usseorganizedw.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,bellflamre.click # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,tripfflux.world # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,beerishint.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,1212tank.activitydmy.icu # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,brownieyuz.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,ducksringjk.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,explainvees.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,relalingj.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,repostebhu.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,rottieud.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,thinkyyokej.sbs # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,bashfulacid.lat # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,tentabatte.lat # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,curverpluch.lat # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,lev-tolstoi.com # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,manyrestro.lat # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,toppyneedus.biz # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,shapestickyr.lat # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,slipperyloo.lat # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,talkynicer.lat # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,wordyfindy.lat # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,beevasyeip.bond # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,broadecatez.bond # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,encirelk.cyou # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,granystearr.bond # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,quarrelepek.bond # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,rockemineu.bond # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,suggestyuoz.biz # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,tranuqlekper.bond # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,codxefusion.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,earthsymphzony.today # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,climatologfy.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,experimentalideas.today # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,gadgethgfub.icu # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,hardrwarehaven.run # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,hardswarehub.today # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,pixtreev.run # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,quietswtreams.life # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,socialsscesforum.icu # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,techmindzs.live # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,techspherxe.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,appgridn.live # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,lunoxorn.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,skynetxc.live # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,targett.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,travewlio.shop # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,changeaie.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,clarmodq.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,liftally.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,piratetwrath.run # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,quilltayle.live # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,salaccgfa.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,starofliught.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,zestmodp.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,equatorf.run # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,hemispherexz.top # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,latitudert.live # LummaStealer C&C 控制服务器  
-DOMAIN-SUFFIX,sectorecoo.live # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.134.100 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.175.165 # LummaStealer C&C 控制服务器  
-IP-CIDR,188.114.96.1 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.141.43 # LummaStealer C&C 控制服务器  
-IP-CIDR,188.114.96.3 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.92.96 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.209.200 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.49.80 # LummaStealer C&C 控制服务器  
-IP-CIDR,188.114.97.0 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.19.156 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.153.40 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.192.52 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.213.85 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.137.78 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.221.214 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.204.158 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.178.194 # LummaStealer C&C 控制服务器  
-IP-CIDR,188.114.97.3 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.47.141 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.158.159 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.204.20 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.35.48 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.73.43 # LummaStealer C&C 控制服务器  
-IP-CIDR,188.114.97.9 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.166.231 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.16.180 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.146.35 # LummaStealer C&C 控制服务器  
-IP-CIDR,188.114.96.0 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.67.155 # LummaStealer C&C 控制服务器  
-IP-CIDR,94.140.14.33 # LummaStealer C&C 控制服务器  
-IP-CIDR,188.114.97.4 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.44.84 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.64.84 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.93.246 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.189.210 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.146.64 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.90.226 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.14.17 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.192.43 # LummaStealer C&C 控制服务器  
-IP-CIDR,188.114.97.1 # LummaStealer C&C 控制服务器  
-IP-CIDR,188.114.97.7 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.86.54 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.66.86 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.64.80.1 # LummaStealer C&C 控制服务器  
-IP-CIDR,188.114.97.2 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.192.247 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.146.68 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.184.241 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.19.91 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.69.194 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.80.1 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.88.16 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.146.181 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.48.238 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.16.1 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.39.95 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.222.46 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.191.187 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.214.226 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.26.124 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.178.7 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.47.117 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.102.106.105 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.72.121 # LummaStealer C&C 控制服务器  
-IP-CIDR,188.114.96.2 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.42.7 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.85.126 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.161.40 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.176.107 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.215.114 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.143.12 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.5.146 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.32.1 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.147.123 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.112.1 # LummaStealer C&C 控制服务器  
-IP-CIDR,104.21.20.106 # LummaStealer C&C 控制服务器  
-IP-CIDR,172.67.216.12 # LummaStealer C&C 控制服务器  
+DOMAIN-SUFFIX,cooperatvassquaidmew.xyz # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,crisisrottenyjs.xyz # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,deadtrainingactioniw.xyz # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,tamedgeesy.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,nighetwhisper.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,exuberanttjdkwo.xyz # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,grandcommonyktsju.xyz # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,qualificationjdwko.xyz # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,sweetcalcutangkdow.xyz # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,wordingnatturedowo.xyz # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,bigmouthudiop.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,froytnewqowv.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,locatedblsoqp.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,stagedchheiqwo.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,callosallsaospz.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,indexterityszcoxp.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,lariatedzugspd.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,liernessfornicsa.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,outpointsozp.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,shepherdlyopzc.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,unseaffarignsk.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,upknittsoappz.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,bassizcellskz.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,byteplusx.digital # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,sparkiob.digital # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,longitudde.digital # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,celebratioopz.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,complaintsipzzx.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,deallerospfosu.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,languagedscie.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,mennyudosirso.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,quialitsuzoxm.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,writerospzm.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,caffegclasiqwp.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,condedqpwqm.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,evoliutwoqm.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,millyscroqwp.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,stamppreewntnq.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,advennture.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,traineiwnqo.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,achievenmtynwjq.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,carrtychaintnyw.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,chickerkuso.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,metallygaricwo.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,milldymarskwom.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,opponnentduei.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,puredoffustow.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,quotamkdsdqo.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,bemuzzeki.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,exemplarou.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,exilepolsiy.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,frizzettei.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,invinjurhey.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,isoplethui.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,laddyirekyi.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,wickedneatr.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,usseorganizedw.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,bellflamre.click # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,tripfflux.world # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,beerishint.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,1212tank.activitydmy.icu # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,brownieyuz.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,ducksringjk.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,explainvees.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,relalingj.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,repostebhu.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,rottieud.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,thinkyyokej.sbs # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,bashfulacid.lat # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,tentabatte.lat # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,curverpluch.lat # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,lev-tolstoi.com # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,manyrestro.lat # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,toppyneedus.biz # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,shapestickyr.lat # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,slipperyloo.lat # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,talkynicer.lat # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,wordyfindy.lat # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,beevasyeip.bond # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,broadecatez.bond # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,encirelk.cyou # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,granystearr.bond # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,quarrelepek.bond # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,rockemineu.bond # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,suggestyuoz.biz # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,tranuqlekper.bond # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,codxefusion.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,earthsymphzony.today # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,climatologfy.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,experimentalideas.today # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,gadgethgfub.icu # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,hardrwarehaven.run # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,hardswarehub.today # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,pixtreev.run # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,quietswtreams.life # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,socialsscesforum.icu # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,techmindzs.live # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,techspherxe.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,appgridn.live # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,lunoxorn.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,skynetxc.live # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,targett.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,travewlio.shop # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,changeaie.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,clarmodq.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,liftally.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,piratetwrath.run # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,quilltayle.live # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,salaccgfa.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,starofliught.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,zestmodp.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,equatorf.run # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,hemispherexz.top # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,latitudert.live # LummaStealer C2 控制服务器  
+DOMAIN-SUFFIX,sectorecoo.live # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.134.100 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.175.165 # LummaStealer C2 控制服务器  
+IP-CIDR,188.114.96.1 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.141.43 # LummaStealer C2 控制服务器  
+IP-CIDR,188.114.96.3 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.92.96 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.209.200 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.49.80 # LummaStealer C2 控制服务器  
+IP-CIDR,188.114.97.0 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.19.156 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.153.40 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.192.52 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.213.85 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.137.78 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.221.214 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.204.158 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.178.194 # LummaStealer C2 控制服务器  
+IP-CIDR,188.114.97.3 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.47.141 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.158.159 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.204.20 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.35.48 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.73.43 # LummaStealer C2 控制服务器  
+IP-CIDR,188.114.97.9 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.166.231 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.16.180 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.146.35 # LummaStealer C2 控制服务器  
+IP-CIDR,188.114.96.0 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.67.155 # LummaStealer C2 控制服务器  
+IP-CIDR,94.140.14.33 # LummaStealer C2 控制服务器  
+IP-CIDR,188.114.97.4 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.44.84 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.64.84 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.93.246 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.189.210 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.146.64 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.90.226 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.14.17 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.192.43 # LummaStealer C2 控制服务器  
+IP-CIDR,188.114.97.1 # LummaStealer C2 控制服务器  
+IP-CIDR,188.114.97.7 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.86.54 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.66.86 # LummaStealer C2 控制服务器  
+IP-CIDR,172.64.80.1 # LummaStealer C2 控制服务器  
+IP-CIDR,188.114.97.2 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.192.247 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.146.68 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.184.241 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.19.91 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.69.194 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.80.1 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.88.16 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.146.181 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.48.238 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.16.1 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.39.95 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.222.46 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.191.187 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.214.226 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.26.124 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.178.7 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.47.117 # LummaStealer C2 控制服务器  
+IP-CIDR,104.102.106.105 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.72.121 # LummaStealer C2 控制服务器  
+IP-CIDR,188.114.96.2 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.42.7 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.85.126 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.161.40 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.176.107 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.215.114 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.143.12 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.5.146 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.32.1 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.147.123 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.112.1 # LummaStealer C2 控制服务器  
+IP-CIDR,104.21.20.106 # LummaStealer C2 控制服务器  
+IP-CIDR,172.67.216.12 # LummaStealer C2 控制服务器  
 
 # > Machete（间谍工具集 · 拉美地区定向攻击）
 
@@ -1736,11 +1738,11 @@ DOMAIN-SUFFIX,mcdonalds.promoscupom.cf # MirrorFace 钓鱼域名（麦当劳优�
 
 # > Mispadu（银行木马 · 拉美定向活动）
 
+DOMAIN-SUFFIX,promoscupom.cf # Mispadu 虚假促销域名  
+DOMAIN-SUFFIX,mcdonalds.promoscupom.cf # Mispadu 伪装麦当劳优惠券页面  
 IP-CIDR,18.219.25.133 # Mispadu 控制服务器  
 IP-CIDR,3.19.223.147 # Mispadu 控制服务器  
 IP-CIDR,51.75.95.179 # Mispadu 控制服务器  
-DOMAIN-SUFFIX,promoscupom.cf # Mispadu 虚假促销域名  
-DOMAIN-SUFFIX,mcdonalds.promoscupom.cf # Mispadu 伪装麦当劳优惠券页面  
 
 # > Moose（Linux 僵尸网络 · 多国基础设施）
 
@@ -1807,20 +1809,20 @@ IP-CIDR,217.23.12.124 # Moose 通信服务器
 
 # > MoustachedBouncer（针对白俄罗斯监听行动）
 
-DOMAIN-SUFFIX,centrocspupdate.com # NightClub C&C 控制服务器  
+DOMAIN-SUFFIX,centrocspupdate.com # NightClub C2 控制服务器  
 DOMAIN-SUFFIX,dervasopssec.com # NightClub 可疑控制服务器  
 DOMAIN-SUFFIX,ocsp-atomsecure.com # NightClub 可疑控制服务器  
-DOMAIN-SUFFIX,securityocspdev.com # NightClub C&C 控制服务器  
+DOMAIN-SUFFIX,securityocspdev.com # NightClub C2 控制服务器  
 DOMAIN-SUFFIX,updates.microsoft.com # NightClub AitM 拦截域名  
 DOMAIN-SUFFIX,windows.network.troubleshooter.com # NightClub AitM 拦截域名  
 IP-CIDR,24.9.51.94 # NightClub SMB 重定向流量地址  
 IP-CIDR,35.214.56.2 # NightClub SMB 重定向流量地址  
 IP-CIDR,38.9.8.78 # NightClub SMB 重定向流量地址  
-IP-CIDR,45.136.199.67 # NightClub C&C 控制服务器  
+IP-CIDR,45.136.199.67 # NightClub C2 控制服务器  
 IP-CIDR,45.136.199.129 # NightClub 可疑控制服务器  
 IP-CIDR,52.3.8.25 # NightClub SMB 重定向流量地址  
 IP-CIDR,59.6.8.25 # NightClub SMB 重定向流量地址  
-IP-CIDR,185.87.148.86 # NightClub C&C 控制服务器  
+IP-CIDR,185.87.148.86 # NightClub C2 控制服务器  
 IP-CIDR,185.87.151.130 # NightClub 可疑控制服务器  
 IP-CIDR,209.19.37.184 # NightClub SMB 重定向流量地址  
 
@@ -1844,20 +1846,20 @@ DOMAIN-SUFFIX,upespr.com # 下载服务器
 DOMAIN-SUFFIX,urmsec.com # 下载服务器  
 DOMAIN-SUFFIX,zyber-i.com # 下载服务器  
 IP-CIDR,43.254.218.42 # 下载服务器  
-IP-CIDR,45.131.179.179 # Korplug C&C 控制服务器  
+IP-CIDR,45.131.179.179 # Korplug C2 控制服务器  
 IP-CIDR,45.154.14.235 # upespr.com 域名对应下载服务器  
-IP-CIDR,92.118.188.78 # Korplug C&C 控制服务器  
-IP-CIDR,101.36.125.203 # Korplug C&C 控制服务器  
-IP-CIDR,103.56.53.120 # Korplug C&C 控制服务器  
+IP-CIDR,92.118.188.78 # Korplug C2 控制服务器  
+IP-CIDR,101.36.125.203 # Korplug C2 控制服务器  
+IP-CIDR,103.56.53.120 # Korplug C2 控制服务器  
 IP-CIDR,103.79.120.66 # locvnpt.com 域名对应下载服务器  
 IP-CIDR,107.178.71.211 # zyber-i.com 域名对应下载服务器  
-IP-CIDR,154.204.27.130 # Korplug C&C 控制服务器  
-IP-CIDR,154.204.27.181 # Korplug C&C 控制服务器  
+IP-CIDR,154.204.27.130 # Korplug C2 控制服务器  
+IP-CIDR,154.204.27.181 # Korplug C2 控制服务器  
 IP-CIDR,156.226.173.23 # urmsec.com 域名对应下载服务器  
-IP-CIDR,176.113.69.91 # Korplug C&C 控制服务器  
+IP-CIDR,176.113.69.91 # Korplug C2 控制服务器  
 IP-CIDR,185.207.153.208 # 下载服务器  
 
-# > NGate（使用加密支付伪装 C&C 与分发网站）
+# > NGate（使用加密支付伪装 C2 与分发网站）
 
 DOMAIN-SUFFIX,app.mobil-csob-cz.eu # NGate 恶意软件分发网站  
 DOMAIN-SUFFIX,client.nfcpay.workers.dev # NGate 控制服务器伪装为支付平台  
@@ -1870,42 +1872,42 @@ DOMAIN-SUFFIX,app.mobil-csob-cz.eu # 伪装捷克银行名义的钓鱼分发域�
 DOMAIN-SUFFIX,client.nfcpay.workers.dev # Cloudflare Workers 上托管的远程配置服务  
 DOMAIN-SUFFIX,nfc.cryptomaker.info # 加密货币名义的钓鱼传播网站  
 DOMAIN-SUFFIX,raiffeisen-cz.eu # 仿冒 Raiffeisen 银行的恶意分发域名  
-IP-CIDR,172.187.98.211 # 与 NGate 控制基础设施关联的 C&C 地址  
+IP-CIDR,172.187.98.211 # 与 NGate 控制基础设施关联的 C2 地址  
 
 # > NightScout（远控木马控制基础设施）
 
-DOMAIN-SUFFIX,cdn.cloudistcdn.com # NightScout C&C 控制服务器域名  
-DOMAIN-SUFFIX,q.cloudistcdn.com # NightScout C&C 控制服务器域名  
+DOMAIN-SUFFIX,cdn.cloudistcdn.com # NightScout C2 控制服务器域名  
+DOMAIN-SUFFIX,q.cloudistcdn.com # NightScout C2 控制服务器域名  
 DOMAIN-SUFFIX,update.boshiamys.com # NightScout 更新回连服务器域名  
-IP-CIDR,103.255.177.138 # NightScout C&C 控制服务器 IP  
-IP-CIDR,185.239.226.172 # NightScout C&C 控制服务器 IP  
-IP-CIDR,210.209.72.180 # NightScout C&C 控制服务器 IP  
-IP-CIDR,45.158.32.65 # NightScout C&C 控制服务器 IP  
+IP-CIDR,103.255.177.138 # NightScout C2 控制服务器 IP  
+IP-CIDR,185.239.226.172 # NightScout C2 控制服务器 IP  
+IP-CIDR,210.209.72.180 # NightScout C2 控制服务器 IP  
+IP-CIDR,45.158.32.65 # NightScout C2 控制服务器 IP  
 
 # > NukeSped（Lazarus 针对性远控部署基础设施）
 
-DOMAIN-SUFFIX,barsaji.com.mx # 被入侵的合法站点，用于托管 NukeSped C&C  
-DOMAIN-SUFFIX,bug.restoroad.com # 被入侵的合法站点，用于托管 NukeSped C&C  
-DOMAIN-SUFFIX,hurricanepub.com # 被入侵的合法站点，用于托管 NukeSped C&C  
-DOMAIN-SUFFIX,kapata-arkeologi.kemdikbud.go.id # 被入侵的合法站点，用于托管 NukeSped C&C  
-DOMAIN-SUFFIX,kerstpakketten.horesca-meppel.nl # 被入侵的 WordPress 网站，用于托管 NukeSped C&C  
-DOMAIN-SUFFIX,kittimasszazs.hu # 被入侵的合法站点，用于托管 NukeSped C&C  
-DOMAIN-SUFFIX,mantis.quick.net.pl # 被入侵的合法站点，用于托管 NukeSped C&C  
-DOMAIN-SUFFIX,nrfm.lk # 被入侵的 WordPress 网站，用于托管 NukeSped C&C  
-DOMAIN-SUFFIX,radiographers.org # 被入侵的合法站点，用于托管 NukeSped C&C  
-DOMAIN-SUFFIX,turnscor.com # 被入侵的 WordPress 网站，用于托管 NukeSped C&C  
-DOMAIN-SUFFIX,www.keewoom.co.kr # 被入侵的合法站点，用于托管 NukeSped C&C  
-IP-CIDR,118.98.221.14 # kapata-arkeologi.kemdikbud.go.id 域名对应的 C&C IP  
-IP-CIDR,160.153.33.195 # barsaji.com.mx 域名对应的 C&C IP  
-IP-CIDR,175.207.13.231 # www.keewoom.co.kr 域名对应的 C&C IP  
-IP-CIDR,178.251.26.65 # kerstpakketten.horesca-meppel.nl 域名对应的 C&C IP  
-IP-CIDR,185.51.65.233 # kittimasszazs.hu 域名对应的 C&C IP  
-IP-CIDR,199.188.206.75 # nrfm.lk 域名对应的 C&C IP  
-IP-CIDR,46.105.57.169 # bug.restoroad.com 域名对应的 C&C IP  
-IP-CIDR,50.192.28.29 # hurricanepub.com 域名对应的 C&C IP  
-IP-CIDR,67.225.140.4 # turnscor.com 域名对应的 C&C IP  
-IP-CIDR,78.11.12.13 # mantis.quick.net.pl 域名对应的 C&C IP  
-IP-CIDR,89.187.86.214 # radiographers.org 域名对应的 C&C IP  
+DOMAIN-SUFFIX,barsaji.com.mx # 被入侵的合法站点，用于托管 NukeSped C2  
+DOMAIN-SUFFIX,bug.restoroad.com # 被入侵的合法站点，用于托管 NukeSped C2  
+DOMAIN-SUFFIX,hurricanepub.com # 被入侵的合法站点，用于托管 NukeSped C2  
+DOMAIN-SUFFIX,kapata-arkeologi.kemdikbud.go.id # 被入侵的合法站点，用于托管 NukeSped C2  
+DOMAIN-SUFFIX,kerstpakketten.horesca-meppel.nl # 被入侵的 WordPress 网站，用于托管 NukeSped C2  
+DOMAIN-SUFFIX,kittimasszazs.hu # 被入侵的合法站点，用于托管 NukeSped C2  
+DOMAIN-SUFFIX,mantis.quick.net.pl # 被入侵的合法站点，用于托管 NukeSped C2  
+DOMAIN-SUFFIX,nrfm.lk # 被入侵的 WordPress 网站，用于托管 NukeSped C2  
+DOMAIN-SUFFIX,radiographers.org # 被入侵的合法站点，用于托管 NukeSped C2  
+DOMAIN-SUFFIX,turnscor.com # 被入侵的 WordPress 网站，用于托管 NukeSped C2  
+DOMAIN-SUFFIX,www.keewoom.co.kr # 被入侵的合法站点，用于托管 NukeSped C2  
+IP-CIDR,118.98.221.14 # kapata-arkeologi.kemdikbud.go.id 域名对应的 C2 IP  
+IP-CIDR,160.153.33.195 # barsaji.com.mx 域名对应的 C2 IP  
+IP-CIDR,175.207.13.231 # www.keewoom.co.kr 域名对应的 C2 IP  
+IP-CIDR,178.251.26.65 # kerstpakketten.horesca-meppel.nl 域名对应的 C2 IP  
+IP-CIDR,185.51.65.233 # kittimasszazs.hu 域名对应的 C2 IP  
+IP-CIDR,199.188.206.75 # nrfm.lk 域名对应的 C2 IP  
+IP-CIDR,46.105.57.169 # bug.restoroad.com 域名对应的 C2 IP  
+IP-CIDR,50.192.28.29 # hurricanepub.com 域名对应的 C2 IP  
+IP-CIDR,67.225.140.4 # turnscor.com 域名对应的 C2 IP  
+IP-CIDR,78.11.12.13 # mantis.quick.net.pl 域名对应的 C2 IP  
+IP-CIDR,89.187.86.214 # radiographers.org 域名对应的 C2 IP  
 
 # > Numando（针对 拉丁美洲 · 银行木马家族）
 
@@ -2008,27 +2010,27 @@ IP-CIDR,198.50.234.96 # OceanLotus C2 控制服务器
 IP-CIDR,198.50.234.111 # OceanLotus C2 控制服务器  
 
 # > OilRig（APT34 · 伊朗背景 · 网络间谍组织）
-
-IP-CIDR,185.76.78.177 # OilRig 使用的 C&C 服务器（Spearal 工具）  
+ 
+DOMAIN-SUFFIX,gtempurl.com # OilRig 使用的临时 C2 域名托管平台  
+DOMAIN-SUFFIX,tecforsc-001-site1.gtempurl.com # OilRig C2 控制域名（Laret 工具使用） 
+IP-CIDR,185.76.78.177 # OilRig 使用的 C2 服务器（Spearal 工具）  
 IP-CIDR,178.209.51.61 # OilRig 分发服务器（BladedFeline 的 Laret 隧道）  
 IP-CIDR,188.114.96.2 # 被 OilRig 利用的 Cloudflare 回落 C2 服务器（合法站点被劫持）  
-IP-CIDR,199.102.48.42 # OilRig 使用的 C&C 域名托管 IP（gtempurl.com 子域）  
-DOMAIN-SUFFIX,gtempurl.com # OilRig 使用的临时 C&C 域名托管平台  
-DOMAIN-SUFFIX,tecforsc-001-site1.gtempurl.com # OilRig C2 控制域名（Laret 工具使用） 
+IP-CIDR,199.102.48.42 # OilRig 使用的 C2 域名托管 IP（gtempurl.com 子域） 
 
 # > Ke3chang / Okrum（APT15 · 中国 · ESET 命名）  
 
-DOMAIN-SUFFIX,audioexp.com # Ke3chang 控制的恶意 C&C 域名（APT15 关联）  
+DOMAIN-SUFFIX,audioexp.com # Ke3chang 控制的恶意 C2 域名（APT15 关联）  
 DOMAIN-SUFFIX,allionhealth.com # Ke3chang 使用的伪装医疗站点域名  
 DOMAIN-SUFFIX,amazonout.com # Ke3chang 控制的假冒 Amazon 子域，用于 C2  
 DOMAIN-SUFFIX,babytoy-online.com # Ke3chang 使用的多级子域名投递平台  
 DOMAIN-SUFFIX,beleimprensa.org # Ke3chang 使用的伪装葡语媒体站点域名  
 DOMAIN-SUFFIX,burgermap.org # Ke3chang 控制的恶意导航站点域名  
 DOMAIN-SUFFIX,compatsec.com # Ke3chang 使用的短链接型控制域名  
-DOMAIN-SUFFIX,deltimesweb.com # Ke3chang C&C 伪装新闻网站  
+DOMAIN-SUFFIX,deltimesweb.com # Ke3chang C2 伪装新闻网站  
 DOMAIN-SUFFIX,europemis.com # Ke3chang 使用的多个子域伪装欧洲站点  
 DOMAIN-SUFFIX,freetaxbar.com # Ke3chang 用于伪装税务服务网站的域名  
-DOMAIN-SUFFIX,globaleducat.com # Okrum 阶段控制的 C&C 伪装教育类站点  
+DOMAIN-SUFFIX,globaleducat.com # Okrum 阶段控制的 C2 伪装教育类站点  
 DOMAIN-SUFFIX,hausblow.com # Ke3chang 使用的假冒建材网站域名  
 DOMAIN-SUFFIX,huntereim.com # Ke3chang 使用的伪装组织名控制域名  
 DOMAIN-SUFFIX,iniciohali.com # Ke3chang 投递或交互型域名  
@@ -2048,36 +2050,36 @@ DOMAIN-SUFFIX,menorustru.com # 孤立发现的 Ke3chang 关联 C2 域名，无�
 # > Operation Jacana（使用 DinodasRAT）  
 
 DOMAIN-SUFFIX,fta.moit.gov.vn # 伪装越南工业贸易部站点，用于托管 DinodasRAT  
-DOMAIN-SUFFIX,microsoft-settings.com # 仿冒 Microsoft 设置服务，作为 DinodasRAT C&C  
+DOMAIN-SUFFIX,microsoft-settings.com # 仿冒 Microsoft 设置服务，作为 DinodasRAT C2  
 IP-CIDR,23.106.122.5 # 恶意组件托管服务器
 IP-CIDR,23.106.122.46 # 恶意组件托管服务器
 IP-CIDR,23.106.123.166 # 恶意组件托管服务器
 IP-CIDR,42.119.111.97 # 用于托管 DinodasRAT 压缩包，伪装越南政府站点子域  
 IP-CIDR,115.126.98.204 # DinodasRAT 控制服务器
 IP-CIDR,118.99.6.202 # DinodasRAT 控制服务器
-IP-CIDR,199.231.211.19 # 用于 C&C 通信的仿冒 Microsoft 域名服务器  
+IP-CIDR,199.231.211.19 # 用于 C2 通信的仿冒 Microsoft 域名服务器  
 
-# > Operation RoundPress（SpyPress C&C 控制基础设施）
+# > Operation RoundPress（SpyPress C2 控制基础设施）
 
-DOMAIN-SUFFIX,hfuu.de # SpyPress C&C 控制服务器  
-DOMAIN-SUFFIX,hijx.xyz # SpyPress C&C 控制服务器  
-DOMAIN-SUFFIX,ikses.net # SpyPress C&C 控制服务器  
-DOMAIN-SUFFIX,jiaw.shop # SpyPress C&C 控制服务器  
-DOMAIN-SUFFIX,lsjb.digital # SpyPress C&C 控制服务器  
-DOMAIN-SUFFIX,raxia.top # SpyPress C&C 控制服务器  
-DOMAIN-SUFFIX,rnl.world # SpyPress C&C 控制服务器  
-DOMAIN-SUFFIX,sqj.fr # SpyPress C&C 控制服务器  
-DOMAIN-SUFFIX,tgh24.xyz # SpyPress C&C 控制服务器  
-DOMAIN-SUFFIX,tuo.world # SpyPress C&C 控制服务器  
-IP-CIDR,45.137.222.24 # SpyPress C&C 控制服务器  
-IP-CIDR,89.44.9.74 # SpyPress C&C 控制服务器  
-IP-CIDR,91.237.124.153 # SpyPress C&C 控制服务器  
-IP-CIDR,91.237.124.164 # SpyPress C&C 控制服务器  
-IP-CIDR,111.90.151.167 # SpyPress C&C 控制服务器  
-IP-CIDR,146.70.125.79 # SpyPress C&C 控制服务器  
-IP-CIDR,185.195.237.106 # SpyPress C&C 控制服务器  
-IP-CIDR,185.225.69.223 # SpyPress C&C 控制服务器  
-IP-CIDR,193.29.104.152 # SpyPress C&C 控制服务器  
+DOMAIN-SUFFIX,hfuu.de # SpyPress C2 控制服务器  
+DOMAIN-SUFFIX,hijx.xyz # SpyPress C2 控制服务器  
+DOMAIN-SUFFIX,ikses.net # SpyPress C2 控制服务器  
+DOMAIN-SUFFIX,jiaw.shop # SpyPress C2 控制服务器  
+DOMAIN-SUFFIX,lsjb.digital # SpyPress C2 控制服务器  
+DOMAIN-SUFFIX,raxia.top # SpyPress C2 控制服务器  
+DOMAIN-SUFFIX,rnl.world # SpyPress C2 控制服务器  
+DOMAIN-SUFFIX,sqj.fr # SpyPress C2 控制服务器  
+DOMAIN-SUFFIX,tgh24.xyz # SpyPress C2 控制服务器  
+DOMAIN-SUFFIX,tuo.world # SpyPress C2 控制服务器  
+IP-CIDR,45.137.222.24 # SpyPress C2 控制服务器  
+IP-CIDR,89.44.9.74 # SpyPress C2 控制服务器  
+IP-CIDR,91.237.124.153 # SpyPress C2 控制服务器  
+IP-CIDR,91.237.124.164 # SpyPress C2 控制服务器  
+IP-CIDR,111.90.151.167 # SpyPress C2 控制服务器  
+IP-CIDR,146.70.125.79 # SpyPress C2 控制服务器  
+IP-CIDR,185.195.237.106 # SpyPress C2 控制服务器  
+IP-CIDR,185.225.69.223 # SpyPress C2 控制服务器  
+IP-CIDR,193.29.104.152 # SpyPress C2 控制服务器  
 
 # > Operation_Texonto（网络钓鱼与邮件攻击活动）
 
@@ -2110,20 +2112,20 @@ IP-CIDR,154.49.137.16 # choicelive 钓鱼域名使用的 IP
 
 # > Polonium（以色列目标定向攻击 / 多个自研恶意工具）
 
-IP-CIDR,37.120.233.89 # PapaCreep C&C 控制服务器
+IP-CIDR,37.120.233.89 # PapaCreep C2 控制服务器
 IP-CIDR,45.80.148.119 # 反弹 Shell 服务器（端口 8080）
 IP-CIDR,45.80.148.167 # 数据外传服务器（端口 21 / 5055）
 IP-CIDR,45.80.148.186 # 反弹 Shell 服务器（端口 8080）
-IP-CIDR,45.80.149.22 # CreepySnail C&C 控制服务器（端口 8080）
-IP-CIDR,45.80.149.108 # CreepySnail C&C 控制服务器（端口 8080）
-IP-CIDR,45.80.149.68 # CreepySnail C&C 控制服务器（端口 63047）
-IP-CIDR,45.80.149.71 # CreepySnail C&C 控制服务器（端口 80）
-IP-CIDR,185.244.129.79 # CreepySnail C&C 控制服务器（端口 63047）
-IP-CIDR,45.80.149.154 # TechnoCreep C&C 及数据外传服务器（端口 21 / 1302）
+IP-CIDR,45.80.149.22 # CreepySnail C2 控制服务器（端口 8080）
+IP-CIDR,45.80.149.108 # CreepySnail C2 控制服务器（端口 8080）
+IP-CIDR,45.80.149.68 # CreepySnail C2 控制服务器（端口 63047）
+IP-CIDR,45.80.149.71 # CreepySnail C2 控制服务器（端口 80）
+IP-CIDR,185.244.129.79 # CreepySnail C2 控制服务器（端口 63047）
+IP-CIDR,45.80.149.154 # TechnoCreep C2 及数据外传服务器（端口 21 / 1302）
 IP-CIDR,185.244.129.216 # 数据外传服务器（端口 5055）
 IP-CIDR,146.70.86.6 # 数据外传服务器（端口 1433）
 IP-CIDR,195.166.100.23 # 数据外传服务器（端口 5055）
-IP-CIDR,45.137.148.7 # FlipCreep C&C 控制服务器（端口 2121）
+IP-CIDR,45.137.148.7 # FlipCreep C2 控制服务器（端口 2121）
 IP-CIDR,185.203.119.99 # 反弹 Shell 服务器（端口 8080）
 IP-CIDR,212.73.150.174 # 隧道通信服务器
 IP-CIDR,94.156.189.103 # 隧道通信服务器
@@ -2176,7 +2178,7 @@ IP-CIDR,190.228.169.253 # Potao 控制服务器 IP
 IP-CIDR,194.15.126.123 # Potao 控制服务器 IP
 IP-CIDR,188.127.249.19 # Potao 控制服务器 IP
 
-# > PowerPool（C&C 控制基础设施 / 可能具东欧渗透背景）
+# > PowerPool（C2 控制基础设施 / 可能具东欧渗透背景）
 
 DOMAIN-SUFFIX,newsrental.net # PowerPool 控制服务器域名
 DOMAIN-SUFFIX,rosbusiness.eu # PowerPool 控制服务器域名
@@ -2186,9 +2188,9 @@ IP-CIDR,27.102.106.149 # PowerPool 控制服务器 IP
 
 # > ProSpyToSpy（Totok 变种间谍软件 / 多个伪装更新与通信控制域名）
 
-DOMAIN-SUFFIX,noblico.net # ProSpyToSpy C&C 控制服务器域名
-DOMAIN-SUFFIX,ai-messenger.co # ProSpyToSpy C&C 控制服务器域名
-DOMAIN-SUFFIX,spiralkey.co # ProSpyToSpy C&C 控制服务器域名
+DOMAIN-SUFFIX,noblico.net # ProSpyToSpy C2 控制服务器域名
+DOMAIN-SUFFIX,ai-messenger.co # ProSpyToSpy C2 控制服务器域名
+DOMAIN-SUFFIX,spiralkey.co # ProSpyToSpy C2 控制服务器域名
 DOMAIN-SUFFIX,store.latestversion.ai # 伪装系统更新接口，Totok 间谍通信域名
 DOMAIN-SUFFIX,store.appupdate.ai # 伪装系统更新接口，Totok 间谍通信域名
 DOMAIN-SUFFIX,totokupdate.ai # 伪装 Totok 更新接口，ProSpyToSpy 控制域名
@@ -2199,45 +2201,45 @@ DOMAIN-SUFFIX,encryption-plug-in-signal.com-ae.net # 加密通信插件伪装域
 DOMAIN-SUFFIX,totokapp.info # Totok 应用仿冒域名，用于远程监听
 DOMAIN-SUFFIX,totok-pro.io # Totok Pro 伪装升级版本控制服务器
 
-# > PWA_Phishing（伪装 Android PWA 应用的网络钓鱼 / C&C 与分发服务器）
+# > PWA_Phishing（伪装 Android PWA 应用的网络钓鱼 / C2 与分发服务器）
 
-DOMAIN-SUFFIX,hide-me.online # PWA 钓鱼 C&C 控制域名（Serverius 托管）
-DOMAIN-SUFFIX,cyrptomaker.info # PWA 钓鱼 C&C 控制域名（NETH LLC 托管）
-DOMAIN-SUFFIX,blackrockapp.eu # PWA 钓鱼 C&C 控制域名（Cloudflare 托管）
+DOMAIN-SUFFIX,hide-me.online # PWA 钓鱼 C2 控制域名（Serverius 托管）
+DOMAIN-SUFFIX,cyrptomaker.info # PWA 钓鱼 C2 控制域名（NETH LLC 托管）
+DOMAIN-SUFFIX,blackrockapp.eu # PWA 钓鱼 C2 控制域名（Cloudflare 托管）
 DOMAIN-SUFFIX,csas.georgecz.online # PWA 钓鱼分发服务器域名（Hosting Ukraine LTD）
 DOMAIN-SUFFIX,play-protect.pro # PWA 钓鱼分发服务器域名（Cloudflare 托管）
-IP-CIDR,46.175.145.67 # PWA 钓鱼 C&C 控制服务器
-IP-CIDR,185.181.165.124 # PWA 钓鱼 C&C 控制服务器
-IP-CIDR,172.67.182.151 # PWA 钓鱼 C&C 控制服务器（Cloudflare）
+IP-CIDR,46.175.145.67 # PWA 钓鱼 C2 控制服务器
+IP-CIDR,185.181.165.124 # PWA 钓鱼 C2 控制服务器
+IP-CIDR,172.67.182.151 # PWA 钓鱼 C2 控制服务器（Cloudflare）
 IP-CIDR,185.68.16.56 # PWA 钓鱼分发服务器 IP（Hosting Ukraine）
 IP-CIDR,188.114.96.9 # PWA 钓鱼分发服务器 IP（Cloudflare）
 
 # > PyPI_Backdoor（开源软件供应链攻击 / 伪装为 PyPI 模块的后门组件）
 
-DOMAIN-SUFFIX,blazywound.ignorelist.com # PyPI 后门模块通信域名（C&C 控制服务器）
-IP-CIDR,204.152.203.78 # PyPI 后门组件使用的 C&C 控制服务器 IP
+DOMAIN-SUFFIX,blazywound.ignorelist.com # PyPI 后门模块通信域名（C2 控制服务器）
+IP-CIDR,204.152.203.78 # PyPI 后门组件使用的 C2 控制服务器 IP
 
 # > Rakos（僵尸网络组件 / 利用 SSH 弱口令进行横向传播）
 
-IP-CIDR,217.12.208.28 # Rakos 僵尸网络 C&C 控制服务器
-IP-CIDR,217.12.203.31 # Rakos 僵尸网络 C&C 控制服务器
-IP-CIDR,193.169.245.68 # Rakos 僵尸网络 C&C 控制服务器
-IP-CIDR,46.8.44.55 # Rakos 僵尸网络 C&C 控制服务器
-IP-CIDR,195.123.210.100 # Rakos 僵尸网络 C&C 控制服务器
-IP-CIDR,5.34.183.231 # Rakos 僵尸网络 C&C 控制服务器
-IP-CIDR,5.34.180.64 # Rakos 僵尸网络 C&C 控制服务器
-IP-CIDR,185.82.216.125 # Rakos 僵尸网络 C&C 控制服务器
-IP-CIDR,185.14.30.78 # Rakos 僵尸网络 C&C 控制服务器
-IP-CIDR,185.14.29.65 # Rakos 僵尸网络 C&C 控制服务器
-IP-CIDR,185.20.184.117 # Rakos 僵尸网络 C&C 控制服务器
+IP-CIDR,217.12.208.28 # Rakos 僵尸网络 C2 控制服务器
+IP-CIDR,217.12.203.31 # Rakos 僵尸网络 C2 控制服务器
+IP-CIDR,193.169.245.68 # Rakos 僵尸网络 C2 控制服务器
+IP-CIDR,46.8.44.55 # Rakos 僵尸网络 C2 控制服务器
+IP-CIDR,195.123.210.100 # Rakos 僵尸网络 C2 控制服务器
+IP-CIDR,5.34.183.231 # Rakos 僵尸网络 C2 控制服务器
+IP-CIDR,5.34.180.64 # Rakos 僵尸网络 C2 控制服务器
+IP-CIDR,185.82.216.125 # Rakos 僵尸网络 C2 控制服务器
+IP-CIDR,185.14.30.78 # Rakos 僵尸网络 C2 控制服务器
+IP-CIDR,185.14.29.65 # Rakos 僵尸网络 C2 控制服务器
+IP-CIDR,185.20.184.117 # Rakos 僵尸网络 C2 控制服务器
 
 # > RansomHub（勒索团伙 / 部署远控工具与后门服务）
 
 IP-CIDR,130.185.75.198 # 部署 PuTTY 恶意版本的服务器
 IP-CIDR,79.124.58.130 # 托管 MeshAgent 工具的远控服务器
-IP-CIDR,45.32.210.151 # SystemBC C&C 控制服务器
+IP-CIDR,45.32.210.151 # SystemBC C2 控制服务器
 IP-CIDR,149.154.158.222 # BianLian 后门服务器
-IP-CIDR,92.243.64.200 # BianLian 后门 C&C 控制节点
+IP-CIDR,92.243.64.200 # BianLian 后门 C2 控制节点
 IP-CIDR,45.32.206.169 # WKTools 与 EDRKillShifter 工具托管服务器
 
 # > RedLine（信息窃取木马 / 后端基础设施）
@@ -2247,81 +2249,80 @@ DOMAIN-SUFFIX,fivto.online # RedLine 木马后端 REST 控制服务器
 
 # > RomCom（乌克兰冲突背景 / 针对政府与军事组织的远控木马活动）
 
-DOMAIN-SUFFIX,journalctd.live # RomCom 二阶段 C&C 控制域名
-DOMAIN-SUFFIX,correctiv.sbs # RomCom 二阶段 C&C 控制域名
-DOMAIN-SUFFIX,cwise.store # RomCom 二阶段 C&C 控制域名
+DOMAIN-SUFFIX,journalctd.live # RomCom 二阶段 C2 控制域名
+DOMAIN-SUFFIX,correctiv.sbs # RomCom 二阶段 C2 控制域名
+DOMAIN-SUFFIX,cwise.store # RomCom 二阶段 C2 控制域名
 DOMAIN-SUFFIX,redircorrectiv.com # RomCom 漏洞投递控制域名
 DOMAIN-SUFFIX,devolredir.com # RomCom 漏洞投递控制域名
 DOMAIN-SUFFIX,redirconnectwise.cloud # RomCom 漏洞投递控制域名
 DOMAIN-SUFFIX,redjournal.cloud # RomCom 漏洞投递控制域名
 DOMAIN-SUFFIX,1drv.us.com # RomCom 恶意载荷分发控制域名
 DOMAIN-SUFFIX,economistjournal.cloud # RomCom 漏洞重定向控制域名
-
-IP-CIDR,194.87.189.171 # RomCom 二阶段 C&C 控制服务器 IP
-IP-CIDR,178.236.246.241 # RomCom 二阶段 C&C 控制服务器 IP
-IP-CIDR,62.60.238.81 # RomCom 二阶段 C&C 控制服务器 IP
+IP-CIDR,194.87.189.171 # RomCom 二阶段 C2 控制服务器 IP
+IP-CIDR,178.236.246.241 # RomCom 二阶段 C2 控制服务器 IP
+IP-CIDR,62.60.238.81 # RomCom 二阶段 C2 控制服务器 IP
 IP-CIDR,147.45.78.102 # RomCom 漏洞投递控制服务器 IP
 IP-CIDR,46.226.163.67 # RomCom 漏洞投递控制服务器 IP
 IP-CIDR,62.60.237.116 # RomCom 漏洞投递控制服务器 IP
 IP-CIDR,62.60.237.38 # RomCom 漏洞投递控制服务器 IP
 IP-CIDR,194.87.189.19 # RomCom 恶意载荷分发服务器 IP
 IP-CIDR,45.138.74.238 # RomCom 重定向控制服务器 IP
-IP-CIDR,176.124.206.88 # RomCom 二阶段 C&C 控制服务器 IP
+IP-CIDR,176.124.206.88 # RomCom 二阶段 C2 控制服务器 IP
 
 # > RTM（俄罗斯银行木马家族 / 针对东欧金融行业定向攻击）
 
-DOMAIN-SUFFIX,webstatisticaonline.tech # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,vpntap.top # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,rtm.dev # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,cainmoon.net # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,micro4n.top # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,ssdcool.top # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,cash-money-analitica.bit # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,money-cash-analitica.bit # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,vpnomnet.bit # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,vpnkeep.bit # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,fde05d0573da.bit # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,d47ea26b7faa.bit # RTM 木马 C&C 域名
-DOMAIN-SUFFIX,f72bba81c921.livejournal.com # RTM 木马 C&C 域名
-IP-CIDR,5.154.190.167 # RTM 木马 C&C 服务器 IP
-IP-CIDR,5.154.190.168 # RTM 木马 C&C 服务器 IP
-IP-CIDR,5.154.190.189 # RTM 木马 C&C 服务器 IP
-IP-CIDR,5.154.191.57 # RTM 木马 C&C 服务器 IP
-IP-CIDR,5.154.191.154 # RTM 木马 C&C 服务器 IP
-IP-CIDR,5.154.191.174 # RTM 木马 C&C 服务器 IP
-IP-CIDR,5.154.191.225 # RTM 木马 C&C 服务器 IP
-IP-CIDR,37.1.206.78 # RTM 木马 C&C 服务器 IP
-IP-CIDR,88.208.28.147 # RTM 木马 C&C 服务器 IP
-IP-CIDR,91.207.7.69 # RTM 木马 C&C 服务器 IP
-IP-CIDR,91.215.153.31 # RTM 木马 C&C 服务器 IP
-IP-CIDR,93.170.168.218 # RTM 木马 C&C 服务器 IP
-IP-CIDR,93.190.139.66 # RTM 木马 C&C 服务器 IP
-IP-CIDR,95.183.52.182 # RTM 木马 C&C 服务器 IP
-IP-CIDR,109.236.82.150 # RTM 木马 C&C 服务器 IP
-IP-CIDR,109.248.32.152 # RTM 木马 C&C 服务器 IP
-IP-CIDR,131.72.138.169 # RTM 木马 C&C 服务器 IP
-IP-CIDR,138.201.104.161 # RTM 木马 C&C 服务器 IP
-IP-CIDR,154.70.153.125 # RTM 木马 C&C 服务器 IP
-IP-CIDR,158.255.6.150 # RTM 木马 C&C 服务器 IP
-IP-CIDR,158.255.208.197 # RTM 木马 C&C 服务器 IP
-IP-CIDR,185.61.149.70 # RTM 木马 C&C 服务器 IP
-IP-CIDR,185.61.149.78 # RTM 木马 C&C 服务器 IP
-IP-CIDR,185.82.201.45 # RTM 木马 C&C 服务器 IP
-IP-CIDR,185.82.216.14 # RTM 木马 C&C 服务器 IP
-IP-CIDR,185.128.42.237 # RTM 木马 C&C 服务器 IP
-IP-CIDR,185.141.27.249 # RTM 木马 C&C 服务器 IP
-IP-CIDR,185.169.229.42 # RTM 木马 C&C 服务器 IP
-IP-CIDR,188.138.71.117 # RTM 木马 C&C 服务器 IP
-IP-CIDR,200.74.240.80 # RTM 木马 C&C 服务器 IP
-IP-CIDR,200.74.240.134 # RTM 木马 C&C 服务器 IP
-IP-CIDR,212.48.90.155 # RTM 木马 C&C 服务器 IP
-IP-CIDR,213.184.127.137 # RTM 木马 C&C 服务器 IP
-IP-CIDR,217.23.6.29 # RTM 木马 C&C 服务器 IP
+DOMAIN-SUFFIX,webstatisticaonline.tech # RTM 木马 C2 域名
+DOMAIN-SUFFIX,vpntap.top # RTM 木马 C2 域名
+DOMAIN-SUFFIX,rtm.dev # RTM 木马 C2 域名
+DOMAIN-SUFFIX,cainmoon.net # RTM 木马 C2 域名
+DOMAIN-SUFFIX,micro4n.top # RTM 木马 C2 域名
+DOMAIN-SUFFIX,ssdcool.top # RTM 木马 C2 域名
+DOMAIN-SUFFIX,cash-money-analitica.bit # RTM 木马 C2 域名
+DOMAIN-SUFFIX,money-cash-analitica.bit # RTM 木马 C2 域名
+DOMAIN-SUFFIX,vpnomnet.bit # RTM 木马 C2 域名
+DOMAIN-SUFFIX,vpnkeep.bit # RTM 木马 C2 域名
+DOMAIN-SUFFIX,fde05d0573da.bit # RTM 木马 C2 域名
+DOMAIN-SUFFIX,d47ea26b7faa.bit # RTM 木马 C2 域名
+DOMAIN-SUFFIX,f72bba81c921.livejournal.com # RTM 木马 C2 域名
+IP-CIDR,5.154.190.167 # RTM 木马 C2 服务器 IP
+IP-CIDR,5.154.190.168 # RTM 木马 C2 服务器 IP
+IP-CIDR,5.154.190.189 # RTM 木马 C2 服务器 IP
+IP-CIDR,5.154.191.57 # RTM 木马 C2 服务器 IP
+IP-CIDR,5.154.191.154 # RTM 木马 C2 服务器 IP
+IP-CIDR,5.154.191.174 # RTM 木马 C2 服务器 IP
+IP-CIDR,5.154.191.225 # RTM 木马 C2 服务器 IP
+IP-CIDR,37.1.206.78 # RTM 木马 C2 服务器 IP
+IP-CIDR,88.208.28.147 # RTM 木马 C2 服务器 IP
+IP-CIDR,91.207.7.69 # RTM 木马 C2 服务器 IP
+IP-CIDR,91.215.153.31 # RTM 木马 C2 服务器 IP
+IP-CIDR,93.170.168.218 # RTM 木马 C2 服务器 IP
+IP-CIDR,93.190.139.66 # RTM 木马 C2 服务器 IP
+IP-CIDR,95.183.52.182 # RTM 木马 C2 服务器 IP
+IP-CIDR,109.236.82.150 # RTM 木马 C2 服务器 IP
+IP-CIDR,109.248.32.152 # RTM 木马 C2 服务器 IP
+IP-CIDR,131.72.138.169 # RTM 木马 C2 服务器 IP
+IP-CIDR,138.201.104.161 # RTM 木马 C2 服务器 IP
+IP-CIDR,154.70.153.125 # RTM 木马 C2 服务器 IP
+IP-CIDR,158.255.6.150 # RTM 木马 C2 服务器 IP
+IP-CIDR,158.255.208.197 # RTM 木马 C2 服务器 IP
+IP-CIDR,185.61.149.70 # RTM 木马 C2 服务器 IP
+IP-CIDR,185.61.149.78 # RTM 木马 C2 服务器 IP
+IP-CIDR,185.82.201.45 # RTM 木马 C2 服务器 IP
+IP-CIDR,185.82.216.14 # RTM 木马 C2 服务器 IP
+IP-CIDR,185.128.42.237 # RTM 木马 C2 服务器 IP
+IP-CIDR,185.141.27.249 # RTM 木马 C2 服务器 IP
+IP-CIDR,185.169.229.42 # RTM 木马 C2 服务器 IP
+IP-CIDR,188.138.71.117 # RTM 木马 C2 服务器 IP
+IP-CIDR,200.74.240.80 # RTM 木马 C2 服务器 IP
+IP-CIDR,200.74.240.134 # RTM 木马 C2 服务器 IP
+IP-CIDR,212.48.90.155 # RTM 木马 C2 服务器 IP
+IP-CIDR,213.184.127.137 # RTM 木马 C2 服务器 IP
+IP-CIDR,217.23.6.29 # RTM 木马 C2 服务器 IP
 
 # > SignSight（APT-C-23 越南政府签名系统供应链攻击 / 伪造 Office365 钓鱼域名）
 
-DOMAIN-SUFFIX,office365.blogdns.com # SignSight C&C 控制域名，伪装成 Office365
-DOMAIN-SUFFIX,vgca.homeunix.org # SignSight C&C 控制域名，伪装成 VGCA 越南政府认证中心
+DOMAIN-SUFFIX,office365.blogdns.com # SignSight C2 控制域名，伪装成 Office365
+DOMAIN-SUFFIX,vgca.homeunix.org # SignSight C2 控制域名，伪装成 VGCA 越南政府认证中心
 
 # > Spalax（哥伦比亚定向攻击 / 滥用 DuckDNS 与动态域名服务）
 
@@ -2553,23 +2554,22 @@ IP-CIDR,52.15.222.174 # Stantinko 挖矿代理服务器 IP
 
 # > Stealth_Falcon（阿联酋支持的网络间谍组织 / 针对媒体与异议人士）
 
-DOMAIN-SUFFIX,chessandlinkss.com # Stealth Falcon C&C 域名
-DOMAIN-SUFFIX,easymathpath.com # Stealth Falcon C&C 域名
-DOMAIN-SUFFIX,joinushealth.com # Stealth Falcon C&C 域名
+DOMAIN-SUFFIX,chessandlinkss.com # Stealth Falcon C2 域名
+DOMAIN-SUFFIX,easymathpath.com # Stealth Falcon C2 域名
+DOMAIN-SUFFIX,joinushealth.com # Stealth Falcon C2 域名
 
 # > StealthyTrident（与 PhantomLance 有关联的 Android 定向攻击活动）
 
 DOMAIN-SUFFIX,developer.firefoxapi.com # C2 域名，伪装为 Firefox API 开发接口
-
 IP-CIDR,45.77.173.124 # StealthyTrident C2 控制服务器 IP
 IP-CIDR,45.77.55.145 # StealthyTrident C2 控制服务器 IP
 IP-CIDR,139.180.208.225 # StealthyTrident C2 控制服务器 IP
 
 # > SWC-Candiru（以色列间谍软件 Sourgum / DevilsTongue 使用的控制基础设施）
 
-DOMAIN-SUFFIX,piwiks.com # Candiru C&C 控制域名
-DOMAIN-SUFFIX,rebrandly.site # Candiru C&C 控制域名
-DOMAIN-SUFFIX,medica-tradefair.co # Candiru C&C 控制域名
+DOMAIN-SUFFIX,piwiks.com # Candiru C2 控制域名
+DOMAIN-SUFFIX,rebrandly.site # Candiru C2 控制域名
+DOMAIN-SUFFIX,medica-tradefair.co # Candiru C2 控制域名
 DOMAIN-SUFFIX,bitly.bz # Candiru 伪造短链控制域名
 DOMAIN-SUFFIX,tinyurl.ist # Candiru 伪造短链控制域名
 DOMAIN-SUFFIX,tinyurl.bz # Candiru 伪造短链控制域名
@@ -2638,80 +2638,80 @@ IP-CIDR,188.93.233.149 # Candiru 控制服务器 IP
 IP-CIDR,83.171.236.166 # Candiru 控制服务器 IP
 IP-CIDR,109.70.236.107 # Candiru 控制服务器 IP
 
-# > TA410（中国· APT 组织 / 多平台后门与 C&C 架构）
+# > TA410（中国· APT 组织 / 多平台后门与 C2 架构）
 
-DOMAIN-SUFFIX,cahe.microsofts.com # QuasarRAT 木马 C&C 控制域名
-DOMAIN-SUFFIX,ffca.caibi379.com # QuasarRAT 下载器 C&C 域名
-DOMAIN-SUFFIX,smtp.nsfwgo.com # Korplug（PlugX）远控木马 C&C 域名
-DOMAIN-SUFFIX,dlaxpcmghd.com # LookBack 木马 C&C 控制域名
+DOMAIN-SUFFIX,smtp.nsfwgo.com # Korplug（PlugX）远控木马 C2 域名
+DOMAIN-SUFFIX,cahe.microsofts.com # QuasarRAT 木马 C2 控制域名
+DOMAIN-SUFFIX,ffca.caibi379.com # QuasarRAT 下载器 C2 域名
+DOMAIN-SUFFIX,dlaxpcmghd.com # LookBack 木马 C2 控制域名
 DOMAIN-SUFFIX,wwww.dlmum.com # FlowCloud 木马控制域名
 IP-CIDR,43.254.216.104 # TA410 早期投递服务器（Delivery Server）
-IP-CIDR,45.124.115.103 # LookBack / Delivery C&C 控制服务器
-IP-CIDR,161.82.181.4 # TA410 投递控制服务器
-IP-CIDR,43.254.219.153 # X4 后门 C&C 控制服务器
-IP-CIDR,154.223.141.36 # HTran 数据隧道 C&C 控制服务器
-IP-CIDR,103.139.2.93 # Tendyron 后门木马控制服务器
-IP-CIDR,185.225.19.17 # LookBack 木马控制服务器
-IP-CIDR,94.158.245.249 # LookBack 木马控制服务器
-IP-CIDR,5.252.179.227 # LookBack 木马控制服务器
+IP-CIDR,45.124.115.103 # LookBack / Delivery C2 控制服务器
 IP-CIDR,222.186.151.141 # FlowCloud 后门木马控制服务器
-IP-CIDR,47.111.22.65 # FlowCross 后门木马控制服务器
+IP-CIDR,154.223.141.36 # HTran 数据隧道 C2 控制服务器
 IP-CIDR,114.55.109.199 # FlowCloud 后门木马控制服务器
+IP-CIDR,47.111.22.65 # FlowCross 后门木马控制服务器
+IP-CIDR,103.139.2.93 # Tendyron 后门木马控制服务器
+IP-CIDR,94.158.245.249 # LookBack 木马控制服务器
 IP-CIDR,185.225.17.39 # LookBack 木马控制服务器
+IP-CIDR,185.225.19.17 # LookBack 木马控制服务器
+IP-CIDR,5.252.179.227 # LookBack 木马控制服务器
+IP-CIDR,43.254.219.153 # X4 后门 C2 控制服务器
+IP-CIDR,161.82.181.4 # TA410 投递控制服务器
 
 # > TeleBots（乌克兰定向攻击组织 / 继承自 BlackEnergy）
 
-IP-CIDR,93.190.137.212 # TeleBots C&C 控制服务器
-IP-CIDR,95.141.37.3 # TeleBots C&C 控制服务器
-IP-CIDR,80.233.134.147 # TeleBots C&C 控制服务器
-DOMAIN-SUFFIX,srv70.putdrive.com # 被恶意程序滥用的云服务域名（用于数据中转）
-IP-CIDR,188.165.14.185 # putdrive.com 实际使用的服务器 IP
 DOMAIN-SUFFIX,api.telegram.org # 被 TeleBots 恶意程序滥用进行 C2 通信的 Telegram 接口
+DOMAIN-SUFFIX,srv70.putdrive.com # 被恶意程序滥用的云服务域名（用于数据中转）
+DOMAIN-SUFFIX,smtp-mail.outlook.com # 被滥用的邮件接口域名（用于投递或中转）
+IP-CIDR,65.55.176.126 # outlook SMTP 接口 IP，遭滥用作为数据通道
 IP-CIDR,149.154.167.200 # api.telegram.org IP，用于伪装通信通道
 IP-CIDR,149.154.167.197 # api.telegram.org IP，用于伪装通信通道
 IP-CIDR,149.154.167.198 # api.telegram.org IP，用于伪装通信通道
 IP-CIDR,149.154.167.199 # api.telegram.org IP，用于伪装通信通道
-DOMAIN-SUFFIX,smtp-mail.outlook.com # 被滥用的邮件接口域名（用于投递或中转）
-IP-CIDR,65.55.176.126 # outlook SMTP 接口 IP，遭滥用作为数据通道
+IP-CIDR,188.165.14.185 # putdrive.com 实际使用的服务器 IP
+IP-CIDR,93.190.137.212 # TeleBots C2 控制服务器
+IP-CIDR,80.233.134.147 # TeleBots C2 控制服务器
+IP-CIDR,95.141.37.3 # TeleBots C2 控制服务器
 
 # > Telekopye（俄罗斯 Telegram 钓鱼套件 / 针对个人用户与平台交易诈骗）
 
+DOMAIN-SUFFIX,pay-sacure4ds.ru # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,id23352352.ru # Telekopye 用于钓鱼测试或欺诈的域名
+DOMAIN-SUFFIX,id2918.site # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,id8092.ru # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,id2770.ru # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,id83792.ru # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,id39103.ru # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,2cdx.site # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,3inf.site # Telekopye 用于钓鱼测试或欺诈的域名
-DOMAIN-SUFFIX,pay-sacure4ds.ru # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,id7423.ru # Telekopye 用于钓鱼测试或欺诈的域名
-DOMAIN-SUFFIX,id2918.site # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,formaa.ga # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,id0391.ru # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,id66410.ru # Telekopye 用于钓鱼测试或欺诈的域名
 DOMAIN-SUFFIX,id82567.ru # Telekopye 用于钓鱼测试或欺诈的域名
 
-# > TheWizards（Spellbinder / WizardNet / DarkNights 相关 C&C 与恶意更新服务器）
+# > TheWizards（Spellbinder / WizardNet / DarkNights 相关 C2 与恶意更新服务器）
 
 DOMAIN-SUFFIX,hao.com # Spellbinder 利用的伪造更新服务器域名
 DOMAIN-SUFFIX,ssl-dns.com # Spellbinder 利用的伪造更新服务器域名
-DOMAIN-SUFFIX,mkdmcdn.com # WizardNet 使用的 C&C 控制服务器域名
-DOMAIN-SUFFIX,assetsqq.com # DarkNights 使用的 C&C 控制服务器域名
+DOMAIN-SUFFIX,mkdmcdn.com # WizardNet 使用的 C2 控制服务器域名
+DOMAIN-SUFFIX,assetsqq.com # DarkNights 使用的 C2 控制服务器域名
+IP-CIDR,111.13.100.92 # DarkNights 使用的历史控制服务器 IP
+IP-CIDR,103.243.181.120 # DarkNights C2 控制服务器 IP
 IP-CIDR,43.155.116.7 # Spellbinder 恶意更新服务器 IP
 IP-CIDR,43.155.62.54 # Spellbinder 恶意更新服务器 IP
-IP-CIDR,43.135.35.84 # WizardNet C&C 控制服务器 IP
-IP-CIDR,103.243.181.120 # DarkNights C&C 控制服务器 IP
-IP-CIDR,111.13.100.92 # DarkNights 使用的历史控制服务器 IP
+IP-CIDR,43.135.35.84 # WizardNet C2 控制服务器 IP
 
 # > Tick（中国 · Bronze Butler / 情报窃取与持久化攻击 / 多种自研后门工具）
 
-IP-CIDR,115.144.69.108 # ShadowPY 后门 C&C（伪装域名 travelasist.com）
-IP-CIDR,110.10.16.56 # Netboy 后门 C&C（伪装域名 mssql.waterglue.org）
-IP-CIDR,103.127.124.117 # 被恶意更新程序访问，用于密钥解密
-IP-CIDR,103.127.124.119 # ReVBShell A 版后门 C&C（伪装域名 slientship.com）
-IP-CIDR,103.127.124.76 # ReVBShell B 版后门 C&C
 IP-CIDR,58.230.118.78 # Ghostdown 后门服务器（伪装域名 oracle.eneygylakes.com）
+IP-CIDR,103.127.124.119 # ReVBShell A 版后门 C2（伪装域名 slientship.com）
+IP-CIDR,115.144.69.108 # ShadowPY 后门 C2（伪装域名 travelasist.com）
+IP-CIDR,110.10.16.56 # Netboy 后门 C2（伪装域名 mssql.waterglue.org）
 IP-CIDR,192.185.89.178 # 被 32 位恶意安装器访问，用于加载远程 payload
+IP-CIDR,103.127.124.117 # 被恶意更新程序访问，用于密钥解密
+IP-CIDR,103.127.124.76 # ReVBShell B 版后门 C2
 
 # > ToolShell（利用 SharePoint 漏洞入侵 / 后门植入活动）
 
@@ -2737,61 +2737,61 @@ IP-CIDR,124.56.42.75 # 利用 SharePoint 漏洞的攻击源 IP
 
 # > Turla（俄罗斯 / Snake 框架变种 / 武器化网站插件投递）
 
-DOMAIN-SUFFIX,daybreakhealthcare.co.uk # Turla C&C 控制服务器（伪装 WordPress 组件）
-DOMAIN-SUFFIX,simplecreative.design # Turla C&C 控制服务器（伪装 WordPress 插件路径）
-IP-CIDR,169.255.137.203 # Turla C&C 控制服务器 IP（rss_0.php 端点）
-DOMAIN-SUFFIX,outletpiumini.springwaterfeatures.com # Turla C&C 控制服务器（伪装插件设置路径）
-DOMAIN-SUFFIX,zerogov.com # Turla C&C 控制服务器（伪装 PayPal 插件路径）
-DOMAIN-SUFFIX,ball-mill.es # Turla C&C 控制服务器（伪装 CKFinder 后门路径）
-DOMAIN-SUFFIX,dyskurs.com.ua # Turla C&C 控制服务器（map-menu.php 木马）
-DOMAIN-SUFFIX,warrixmalaysia.com.my # Turla C&C 控制服务器（Grunion 表单注入）
-IP-CIDR,217.171.86.137 # Turla C&C 控制服务器 IP（多个后门端点 config.php / rss_0.php）
-DOMAIN-SUFFIX,shinestars-lifestyle.com # Turla C&C 控制服务器（伪造前台组件路径）
-DOMAIN-SUFFIX,aviasiya.com # Turla C&C 控制服务器（伪装 WordPress 会计插件）
-DOMAIN-SUFFIX,greenweb.co.il # Turla C&C 控制服务器（admin.php 后门）
-DOMAIN-SUFFIX,soligro.com # Turla C&C 控制服务器（伪造 WordPress db.php）
-DOMAIN-SUFFIX,giadinhvabe.net # Turla C&C 控制服务器（class.php 注入）
-DOMAIN-SUFFIX,tekfordummies.com # Turla C&C 控制服务器（Delicious.php 木马）
-DOMAIN-SUFFIX,kennynguyen.esy.es # Turla C&C 控制服务器（MaxMind test 脚本注入）
-DOMAIN-SUFFIX,sonneteck.com # Turla C&C 控制服务器（YITH 激活模板）
-DOMAIN-SUFFIX,chagiocaxuanson.esy.es # Turla C&C 控制服务器（NextGen 图库注入）
-DOMAIN-SUFFIX,hotnews.16mb.com # Turla C&C 控制服务器（伪造 header.php）
-DOMAIN-SUFFIX,zszinhyosz.pe.hu # Turla C&C 控制服务器（full-hight.php 页面模板）
-DOMAIN-SUFFIX,weandcats.com # Turla C&C 控制服务器（broken-link-checker 注入）
+DOMAIN-SUFFIX,daybreakhealthcare.co.uk # Turla C2 控制服务器（伪装 WordPress 组件）
+DOMAIN-SUFFIX,simplecreative.design # Turla C2 控制服务器（伪装 WordPress 插件路径）
+DOMAIN-SUFFIX,outletpiumini.springwaterfeatures.com # Turla C2 控制服务器（伪装插件设置路径）
+DOMAIN-SUFFIX,zerogov.com # Turla C2 控制服务器（伪装 PayPal 插件路径）
+DOMAIN-SUFFIX,ball-mill.es # Turla C2 控制服务器（伪装 CKFinder 后门路径）
+DOMAIN-SUFFIX,dyskurs.com.ua # Turla C2 控制服务器（map-menu.php 木马）
+DOMAIN-SUFFIX,warrixmalaysia.com.my # Turla C2 控制服务器（Grunion 表单注入）
+DOMAIN-SUFFIX,shinestars-lifestyle.com # Turla C2 控制服务器（伪造前台组件路径）
+DOMAIN-SUFFIX,aviasiya.com # Turla C2 控制服务器（伪装 WordPress 会计插件）
+DOMAIN-SUFFIX,greenweb.co.il # Turla C2 控制服务器（admin.php 后门）
+DOMAIN-SUFFIX,soligro.com # Turla C2 控制服务器（伪造 WordPress db.php）
+DOMAIN-SUFFIX,giadinhvabe.net # Turla C2 控制服务器（class.php 注入）
+DOMAIN-SUFFIX,tekfordummies.com # Turla C2 控制服务器（Delicious.php 木马）
+DOMAIN-SUFFIX,kennynguyen.esy.es # Turla C2 控制服务器（MaxMind test 脚本注入）
+DOMAIN-SUFFIX,sonneteck.com # Turla C2 控制服务器（YITH 激活模板）
+DOMAIN-SUFFIX,chagiocaxuanson.esy.es # Turla C2 控制服务器（NextGen 图库注入）
+DOMAIN-SUFFIX,hotnews.16mb.com # Turla C2 控制服务器（伪造 header.php）
+DOMAIN-SUFFIX,zszinhyosz.pe.hu # Turla C2 控制服务器（full-hight.php 页面模板）
+DOMAIN-SUFFIX,weandcats.com # Turla C2 控制服务器（broken-link-checker 注入）
+IP-CIDR,217.171.86.137 # Turla C2 控制服务器 IP（多个后门端点 config.php / rss_0.php）
+IP-CIDR,169.255.137.203 # Turla C2 控制服务器 IP（rss_0.php 端点）
 
 # > Vadokrist（高度疑似俄罗斯· C2 基础设施 / 与信息窃取与远控相关）
 
-IP-CIDR,104.41.26.216 # Vadokrist C&C 控制服务器
-IP-CIDR,104.41.41.216 # Vadokrist C&C 控制服务器
-IP-CIDR,104.41.47.53 # Vadokrist C&C 控制服务器
-IP-CIDR,191.232.212.242 # Vadokrist C&C 控制服务器
-IP-CIDR,191.232.243.100 # Vadokrist C&C 控制服务器
-IP-CIDR,191.235.78.249 # Vadokrist C&C 控制服务器
-IP-CIDR,191.237.255.155 # Vadokrist C&C 控制服务器
-IP-CIDR,191.239.244.141 # Vadokrist C&C 控制服务器
-IP-CIDR,191.239.245.87 # Vadokrist C&C 控制服务器
-IP-CIDR,191.239.255.102 # Vadokrist C&C 控制服务器
+IP-CIDR,104.41.26.216 # Vadokrist C2 控制服务器
+IP-CIDR,104.41.41.216 # Vadokrist C2 控制服务器
+IP-CIDR,104.41.47.53 # Vadokrist C2 控制服务器
+IP-CIDR,191.232.212.242 # Vadokrist C2 控制服务器
+IP-CIDR,191.232.243.100 # Vadokrist C2 控制服务器
+IP-CIDR,191.235.78.249 # Vadokrist C2 控制服务器
+IP-CIDR,191.237.255.155 # Vadokrist C2 控制服务器
+IP-CIDR,191.239.244.141 # Vadokrist C2 控制服务器
+IP-CIDR,191.239.245.87 # Vadokrist C2 控制服务器
+IP-CIDR,191.239.255.102 # Vadokrist C2 控制服务器
 
-# > VajraSpy（南亚移动端间谍软件 / 利用 Firebase 作 C&C 通信）
+# > VajraSpy（南亚移动端间谍软件 / 利用 Firebase 作 C2 通信）
 
-DOMAIN-SUFFIX,hello-chat-c47ad-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C&C 域名
-DOMAIN-SUFFIX,chit-chat-e9053-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C&C 域名
-DOMAIN-SUFFIX,meetme-abc03-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C&C 域名
-DOMAIN-SUFFIX,chatapp-6b96e-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C&C 域名
-DOMAIN-SUFFIX,tiktalk-2fc98-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C&C 域名
-DOMAIN-SUFFIX,wave-chat-e52fe-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C&C 域名
-DOMAIN-SUFFIX,privchat-6cc58-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C&C 域名
-DOMAIN-SUFFIX,glowchat-33103-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C&C 域名
-DOMAIN-SUFFIX,letschat-5d5e3-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C&C 域名
-DOMAIN-SUFFIX,quick-chat-1d242-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C&C 域名
-DOMAIN-SUFFIX,yooho-c3345-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C&C 域名
-DOMAIN-SUFFIX,rafaqat-d131f-default-rtdb.asia-southeast1.firebasedatabase.app # VajraSpy 使用的 Firebase C&C 域名
+DOMAIN-SUFFIX,rafaqat-d131f-default-rtdb.asia-southeast1.firebasedatabase.app # VajraSpy 使用的 Firebase C2 域名
+DOMAIN-SUFFIX,hello-chat-c47ad-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C2 域名
+DOMAIN-SUFFIX,quick-chat-1d242-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C2 域名
+DOMAIN-SUFFIX,chit-chat-e9053-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C2 域名
+DOMAIN-SUFFIX,wave-chat-e52fe-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C2 域名
+DOMAIN-SUFFIX,privchat-6cc58-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C2 域名
+DOMAIN-SUFFIX,glowchat-33103-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C2 域名
+DOMAIN-SUFFIX,letschat-5d5e3-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C2 域名
+DOMAIN-SUFFIX,tiktalk-2fc98-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C2 域名
+DOMAIN-SUFFIX,chatapp-6b96e-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C2 域名
+DOMAIN-SUFFIX,meetme-abc03-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C2 域名
+DOMAIN-SUFFIX,yooho-c3345-default-rtdb.firebaseio.com # VajraSpy 使用的 Firebase C2 域名
 IP-CIDR,160.20.147.67 # VajraSpy 控制服务器 IP
 
-# > Virtual_Invaders（社交软件钓鱼传播 / ngrok 分发与 C&C 隧道控制）
+# > Virtual_Invaders（社交软件钓鱼传播 / ngrok 分发与 C2 隧道控制）
 
-DOMAIN-SUFFIX,phpdownload.ngrok.io # ngrok C&C 控制端域名
-DOMAIN-SUFFIX,3.tcp.ngrok.io # ngrok TCP 隧道 C&C 域名
+DOMAIN-SUFFIX,phpdownload.ngrok.io # ngrok C2 控制端域名
+DOMAIN-SUFFIX,3.tcp.ngrok.io # ngrok TCP 隧道 C2 域名
 DOMAIN-SUFFIX,zee.xylonn.com # 虚假通信控制端域名（Xylonn 基础设施）
 
 DOMAIN-SUFFIX,chitchat.ngrok.io # ngrok 分发站点，用于恶意聊天应用传播
@@ -2835,42 +2835,42 @@ IP-CIDR,103.19.3.21 # Winnti 控制服务器 IP
 
 # > Winter_Vivern（东欧情报攻击组织 / 使用钓鱼与仿冒基础设施）
 
-DOMAIN-SUFFIX,recsecas.com # Winter Vivern C&C 域名，用于控制通信
-IP-CIDR,38.180.76.31 # Winter Vivern C&C 服务器 IP
+DOMAIN-SUFFIX,recsecas.com # Winter Vivern C2 域名，用于控制通信
+IP-CIDR,38.180.76.31 # Winter Vivern C2 服务器 IP
 
 # > Worok（定向攻击亚洲及中东政府机构 / 多级加载木马）
 
-DOMAIN-SUFFIX,airplane.travel-commercials.agency # Worok C&C 控制域名
-DOMAIN-SUFFIX,central.suhypercloud.org # Worok C&C 控制域名
-IP-CIDR,118.193.78.22 # Worok C&C 控制服务器 IP
-IP-CIDR,118.193.78.57 # Worok C&C 控制服务器 IP
-IP-CIDR,5.183.101.9 # Worok C&C 控制服务器 IP
-IP-CIDR,45.77.36.243 # Worok C&C 控制服务器 IP
+DOMAIN-SUFFIX,airplane.travel-commercials.agency # Worok C2 控制域名
+DOMAIN-SUFFIX,central.suhypercloud.org # Worok C2 控制域名
+IP-CIDR,118.193.78.22 # Worok C2 控制服务器 IP
+IP-CIDR,118.193.78.57 # Worok C2 控制服务器 IP
+IP-CIDR,5.183.101.9 # Worok C2 控制服务器 IP
+IP-CIDR,45.77.36.243 # Worok C2 控制服务器 IP
 
 # > XDSpy（东欧目标定向攻击 / 使用恶意下载诱导木马）
 
-DOMAIN-SUFFIX,downloadsprimary.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,filedownload.email # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,file-download.org # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,minisnowhair.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,download-365.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,365downloading.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,officeupdtcentr.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,dropsklad.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,getthatupdate.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,boborux.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,easytosay.org # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,daftsync.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,documentsklad.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,wildboarcontest.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,nomatterwhat.info # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,maiwegwurst.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,migration-info.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,jerseygameengine.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,seatwowave.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,cracratutu.com # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,chtcc.net # XDSpy C&C 域名（2019–2020 活跃）
-DOMAIN-SUFFIX,ferrariframework.com # XDSpy C&C 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,downloadsprimary.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,filedownload.email # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,file-download.org # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,minisnowhair.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,download-365.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,365downloading.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,officeupdtcentr.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,dropsklad.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,getthatupdate.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,boborux.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,easytosay.org # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,daftsync.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,documentsklad.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,wildboarcontest.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,nomatterwhat.info # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,maiwegwurst.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,migration-info.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,jerseygameengine.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,seatwowave.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,cracratutu.com # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,chtcc.net # XDSpy C2 域名（2019–2020 活跃）
+DOMAIN-SUFFIX,ferrariframework.com # XDSpy C2 域名（2019–2020 活跃）
 DOMAIN-SUFFIX,forgeron.tk # XDSpy 旧版基础设施域名
 DOMAIN-SUFFIX,jahre999.tk # XDSpy 旧版基础设施域名
 DOMAIN-SUFFIX,omgtech.000space.com # XDSpy 旧版基础设施域名
