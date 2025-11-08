@@ -623,7 +623,7 @@ IP-CIDR,103.27.202.185 # CeranaKeeper C2 控制流量节点，用于样本远程
 
 # > CosmicBeetle
 
-OMAIN-SUFFIX,piiif.net # Spacecolon C2 server.
+DOMAIN-SUFFIX,piiif.net # Spacecolon C2 server.
 DOMAIN-SUFFIX,up.awiki1.org # Spacecolon C2 server.
 DOMAIN-SUFFIX,ss.688.org # Spacecolon C2 server.
 DOMAIN-SUFFIX,akamaicdnup.com # Spacecolon C2 server.
