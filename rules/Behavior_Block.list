@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-06
+# - 更新时间：2025-11-08
 
 # > Apple 行为遥测服务
 
@@ -239,3 +239,10 @@ IP-CIDR,74.86.151.167 # 美国 SoftLayer 数据中心公网主机，开放 HTTPS
 # > 中国电信
 
 IP-CIDR,59.82.121.221  # 疑似中国电信数据采集节点，用于行为监控
+
+# > Twilio & Segment（通信与行为分析 SDK 域名封锁）
+
+DOMAIN-SUFFIX,twilio.com # Twilio 主域名，用于全球通信 API 服务（短信、语音、视频等）
+DOMAIN-SUFFIX,segment.com # Segment 控制台及配置服务入口域名
+DOMAIN-SUFFIX,api.segment.io # Segment 数据收集 API 接口，用于行为事件追踪上传
+DOMAIN-SUFFIX,mobile.segment.com # Segment 移动端 SDK 上报接口（iOS/Android App常见）
