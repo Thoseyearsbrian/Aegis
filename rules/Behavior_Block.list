@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-08
+# - 更新时间：2025-11-09
 
 # > Apple 行为遥测服务
 
@@ -418,3 +418,7 @@ DOMAIN-SUFFIX,cdn.smartlook.com # Smartlook 脚本／SDK 分发节点，用于�
 DOMAIN-SUFFIX,mouseflow.com # Mouseflow 主域名，用于网页用户行为热图与会话录制服务
 DOMAIN-SUFFIX,cdn.mouseflow.com # Mouseflow 脚本／资源分发节点，用于前端加载与行为追踪
 DOMAIN-SUFFIX,api.mouseflow.com # Mouseflow 数据收集接口，用于事件上传与用户行为分析
+
+# > InfluxData 行为遥测服务域名
+
+DOMAIN-SUFFIX,eu-central-1-1.aws.cloud2.influxdata.com # InfluxData 云服务节点域名，用于 InfluxDB 远程数据写入与监控分析（欧盟中部数据中心）

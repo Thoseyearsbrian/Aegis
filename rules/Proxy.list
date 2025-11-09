@@ -3171,6 +3171,10 @@ DOMAIN-SUFFIX,hostloc.com # Hostloc 主站域名，用于全球主机交流论�
 DOMAIN-SUFFIX,www.hostloc.com # Hostloc 主站子域，用于论坛网页入口与用户互动页面
 IP-CIDR,103.181.165.251 # Hostloc 主站服务器 IP，用于论坛主页面与访问服务
 
+# > mitmproxy 相关域名
+
+DOMAIN-SUFFIX,downloads.mitmproxy.org # mitmproxy 官方下载源域名，用于下载安装包与更新文件获取
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）

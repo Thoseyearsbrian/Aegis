@@ -4,7 +4,7 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-11-06
+# - 更新时间：2025-11-09
 
 # > 阿里系开屏广告（高德 / 闲鱼 / 淘宝）
 
@@ -28,7 +28,7 @@ IP-CIDR,58.221.74.9 # 出现在咸鱼启动后回传通道中,疑似用于广告
 DOMAIN-SUFFIX,mxhichina.com # 阿里系域名，与咸鱼开屏广告有关
 DOMAIN,api-access.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接入域名，用于广告加载与统计回传
 
-# > 广告与追踪服务（Google Ads & Tracking）
+# > Google 广告与追踪服务（Google Ads & Tracking）
 
 DOMAIN-SUFFIX,googleadservices.com # Google 广告服务接口
 DOMAIN-SUFFIX,googleadapis.l.google.com # Google API 服务域名（内部/广告相关 API 调用）
