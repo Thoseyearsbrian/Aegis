@@ -4,7 +4,7 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-11-09
+# - 更新时间：2025-11-10
 
 # > 阿里系开屏广告（高德 / 闲鱼 / 淘宝）
 
@@ -48,6 +48,10 @@ DOMAIN-SUFFIX,pagead.l.google.com # Google 广告服务子域（页面广告）
 DOMAIN-SUFFIX,partnerad.l.google.com # Google 合作广告平台（partner 广告）
 DOMAIN-SUFFIX,video-stats.video.google.com # Google 视频广告统计接口（YouTube 视频前贴广告统计）
 DOMAIN-SUFFIX,wintricksbanner.googlepages.com # Google Pages 网站上的广告内容托管
+
+# > 哔哩哔哩广告视频资源域名（Bilibili Ad Video Resources）
+
+DOMAIN-SUFFIX,bvc.bilivideo.com # 哔哩哔哩广告视频资源域名，用于开屏广告与贴片加载
 
 # > 通用广告追踪域名（General Ad Tracking）
 
