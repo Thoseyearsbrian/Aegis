@@ -3184,6 +3184,13 @@ DOMAIN-SUFFIX,fonts.useso.com # 360 搜索提供的早期 Google Fonts 镜像服
 DOMAIN-SUFFIX,fonts.staticfile.org # 又拍云 CDN 提供的 Google Fonts 字体资源加速
 DOMAIN-SUFFIX,cdn.bootcdn.net # BootCDN 加速服务，用于字体与开源资源分发
 
+# > Judge.me 相关域名
+
+DOMAIN-SUFFIX,judge.me # Judge.me 主站域名，用于商品评价系统与用户交互平台
+DOMAIN-SUFFIX,cdn.judge.me # Judge.me 静态资源 CDN，用于加载评价组件样式与脚本
+DOMAIN-SUFFIX,reviewcdn.judge.me # Judge.me 评论组件资源域名，用于用户评价与媒体内容加载
+DOMAIN-SUFFIX,judgeme.imgix.net # Judge.me 图片加载服务，用于商品评价组件中的用户头像与媒体展示资源加载
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
