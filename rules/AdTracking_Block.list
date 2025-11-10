@@ -53,6 +53,14 @@ DOMAIN-SUFFIX,wintricksbanner.googlepages.com # Google Pages 网站上的广告�
 
 DOMAIN-SUFFIX,bvc.bilivideo.com # 哔哩哔哩广告视频资源域名，用于开屏广告与贴片加载
 
+# > MediaGo 广告追踪与数据采集平台域名
+
+DOMAIN-SUFFIX,gtrace.mediago.io # gtrace 数据上报域名，用于广告点击追踪与转化率分析（隶属百度 MediaGo）
+
+# > MeetSocial 广告追踪与转化统计域名（MeetSocial Tracking Services）
+
+DOMAIN-SUFFIX,tracking.meetsocial.com # tracking.meetsocial 广告追踪域名，用于用户行为分析与转化统计（隶属 MeetSocial 营销平台）
+
 # > 通用广告追踪域名（General Ad Tracking）
 
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com # 巨量引擎 Pangolin 广告 SDK 接口域名，用于广告归因与用户行为采集
