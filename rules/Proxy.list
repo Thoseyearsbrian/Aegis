@@ -3191,6 +3191,13 @@ DOMAIN-SUFFIX,cdn.judge.me # Judge.me 静态资源 CDN，用于加载评价组�
 DOMAIN-SUFFIX,reviewcdn.judge.me # Judge.me 评论组件资源域名，用于用户评价与媒体内容加载
 DOMAIN-SUFFIX,judgeme.imgix.net # Judge.me 图片加载服务，用于商品评价组件中的用户头像与媒体展示资源加载
 
+# > Trustpilot 相关域名
+
+DOMAIN-SUFFIX,trustpilot.com # Trustpilot 主站域名，用于用户评价与商品评分展示
+DOMAIN-SUFFIX,widgets.trustpilot.com # Trustpilot 小组件加载域名，用于嵌入式评分展示与互动
+DOMAIN-SUFFIX,cdn.trustpilot.com # Trustpilot 静态资源 CDN 域名，用于脚本、样式与图标加载
+DOMAIN-SUFFIX,invite.trustpilot.com # Trustpilot 评价邀请接口域名，用于邮件邀请与链接跳转
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
