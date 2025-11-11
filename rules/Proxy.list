@@ -3198,6 +3198,16 @@ DOMAIN-SUFFIX,widgets.trustpilot.com # Trustpilot 小组件加载域名，用于
 DOMAIN-SUFFIX,cdn.trustpilot.com # Trustpilot 静态资源 CDN 域名，用于脚本、样式与图标加载
 DOMAIN-SUFFIX,invite.trustpilot.com # Trustpilot 评价邀请接口域名，用于邮件邀请与链接跳转
 
+# > Contentful 媒体资源域名
+
+DOMAIN-SUFFIX,videos.ctfassets.net # Contentful 媒体资源 CDN，用于分发嵌入视频内容
+DOMAIN-SUFFIX,images.ctfassets.net # Contentful 媒体资源 CDN，用于分发图片资源（Images）
+DOMAIN-SUFFIX,assets.ctfassets.net # Contentful 媒体资源 CDN，用于分发通用附件／资源（Assets）
+DOMAIN-SUFFIX,downloads.ctfassets.net # Contentful 媒体资源 CDN，用于分发可下载文件（Downloads）
+DOMAIN-SUFFIX,images.secure.ctfassets.net # Contentful Embargoed 模式下安全图片资源 CDN（Secure Images）
+DOMAIN-SUFFIX,assets.secure.ctfassets.net # Contentful Embargoed 模式下安全附件资源 CDN（Secure Assets）
+DOMAIN-SUFFIX,downloads.secure.ctfassets.net # Contentful Embargoed 模式下安全下载资源 CDN（Secure Downloads）
+
 # > USERTrust OCSP 证书状态验证服务域名
 
 DOMAIN-SUFFIX,ocsp.usertrust.com # USERTrust / Sectigo 提供的证书吊销检查接口，用于 OCSP 协议验证 SSL/TLS 证书有效性
