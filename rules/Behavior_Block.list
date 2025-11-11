@@ -66,6 +66,10 @@ DOMAIN-SUFFIX,youtube-nocookie.com # YouTube 嵌入播放器的隐私增强模�
 
 DOMAIN-SUFFIX,monorail-edge.shopifysvc.com # Shopify Monorail 事件追踪域名，用于收集用户交互行为与页面性能指标
 
+# > 极光推送平台相关域名
+
+DOMAIN-SUFFIX,access.pushsdk.com # 极光推送通信接口域名，用于 App 通知推送与用户行为上报（常见于交易类应用）
+
 # > Microsoft 相关遥测与探测行为
 
 DOMAIN-SUFFIX,dns.msftncsi.com # Microsoft 网络连通性检查域，用于探测联网状态
