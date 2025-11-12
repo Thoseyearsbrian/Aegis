@@ -978,16 +978,24 @@ DOMAIN-SUFFIX,log.waimai.meituan.com # 饿了么前身 / 接入美团前历史�
 
 # > 小红书相关域名（Xiaohongshu / RED）
 
+DOMAIN-SUFFIX,picasso-static.xiaohongshu.com # 小红书 Picasso UI 库资源域名，用于加载组件样式与图形资源
+DOMAIN-SUFFIX,rn-resource-app.xiaohongshu.com # 小红书 RN 资源接口，用于移动端小程序与模块动态加载
+DOMAIN-SUFFIX,ci.xiaohongshu.com # 小红书 CI 数据接口，用于前端配置、环境参数与调试信息加载
+DOMAIN-SUFFIX,rec.xiaohongshu.com # 小红书推荐算法接口域名，用于获取首页推荐、瀑布流内容分发
+DOMAIN-SUFFIX,qimg.xiaohongshu.com # 小红书图像加载服务，用于笔记封面与社区图片内容展示
+DOMAIN-SUFFIX,growth-img.xhscdn.com # 小红书增长运营图像 CDN，用于用户成长任务、积分奖励等活动图像加载
+DOMAIN-SUFFIX,fe-platform.xhscdn.com # 小红书平台级静态资源加载域名，用于页面公共组件与框架初始化
+DOMAIN-SUFFIX,apm-fe.xiaohongshu.com # 小红书前端性能监控域名，用于上报页面加载性能与前端错误信息
 DOMAIN-SUFFIX,xiaohongshu.com # 小红书主站域名，涵盖社区、电商、笔记等服务  
 DOMAIN-SUFFIX,xhsurl.com # 小红书短链跳转域名，用于外链分享与 App 跳转  
 DOMAIN-SUFFIX,shuwen.com # 小红书早期注册公司主域名，部分老旧服务仍在使用  
 DOMAIN-SUFFIX,xiaohongshucloud.com # 小红书云服务接口，支持日志与内容缓存  
 DOMAIN-SUFFIX,redcdn.net # 小红书内容分发 CDN，用于加载图像与视频资源
 DOMAIN-SUFFIX,api.xiaohongshu.com # 小红书核心 API 接口，用于加载笔记、评论等动态内容
-DOMAIN-SUFFIX,ark.xiaohongshu.com # 小红书“ARK”服务接口，用于数据采集与用户推荐算法
 DOMAIN-SUFFIX,thumbnails.xhscdn.com # 小红书图像缩略图 CDN 域名
 DOMAIN-SUFFIX,fe-video-qc.xhscdn.com # 小红书前端视频资源 CDN，加速视频内容加载
 DOMAIN-SUFFIX,sns-webpic-qc.xhscdn.com # 小红书社交媒体图像 CDN，承载图文笔记中的嵌入图片
+DOMAIN-SUFFIX,fe-static.xhscdn.com # 小红书前端静态资源域名，用于页面样式与框架加载
 DOMAIN-SUFFIX,pages.xiaohongshu.com # 小红书活动页与商品页跳转域名
 DOMAIN-SUFFIX,sns-na-i6.xhscdn.com # 小红书图片加载 CDN
 DOMAIN-SUFFIX,sns-video-qc.xhscdn.com # 小红书视频加载 CDN
@@ -997,8 +1005,7 @@ DOMAIN-SUFFIX,link.xiaohongshu.com # 小红书内容跳转与短链中转域名�
 DOMAIN-SUFFIX,sns-img-qc.xhscdn.com # 小红书图像 CDN 子域，用于图片加载（与 sns-na-i6 平行存在）
 DOMAIN-SUFFIX,edith.xiaohongshu.com # 小红书编辑器与内容管理接口，笔记编辑、封面上传等均依赖此域名
 DOMAIN-SUFFIX,store.xiaohongshu.com # 小红书商城系统入口，用于商品页加载与电商服务
-DOMAIN-SUFFIX,data-api.xiaohongshu.com # 小红书推荐引擎 / 行为打点接口，数据抓取请求入口
-DOMAIN-SUFFIX,log.xiaohongshu.com # 小红书日志收集服务，用于用户行为追踪与异常分析
+IP-CIDR,115.227.40.106 # mall.xiaohongshu.com 对应服务节点 IP，用于小红书电商模块通信
 
 # > 京东相关域名（JD.com）
 

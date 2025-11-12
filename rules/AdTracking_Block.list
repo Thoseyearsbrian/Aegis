@@ -49,6 +49,10 @@ DOMAIN-SUFFIX,partnerad.l.google.com # Google 合作广告平台（partner 广�
 DOMAIN-SUFFIX,video-stats.video.google.com # Google 视频广告统计接口（YouTube 视频前贴广告统计）
 DOMAIN-SUFFIX,wintricksbanner.googlepages.com # Google Pages 网站上的广告内容托管
 
+# > 小红书 广告与追踪服务（Xiaohongshu Ads & Tracking）
+
+DOMAIN-SUFFIX,ads-i4.xhscdn.com # 小红书广告资源 CDN，用于推送首页与笔记页广告组件
+
 # > Appsflyer 营销追踪平台相关域名
 
 DOMAIN-SUFFIX,appsflyer.com # Appsflyer 主站域名，用于 SDK 接入与营销分析服务
