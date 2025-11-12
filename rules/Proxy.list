@@ -3221,6 +3221,10 @@ DOMAIN-SUFFIX,ocsp.usertrust.com # USERTrust / Sectigo 提供的证书吊销检�
 
 DOMAIN-SUFFIX,crt.usertrust.com # USERTrust 根证书与中间证书下载域名，用于 Apple/Windows 等平台建立 SSL 证书信任链
 
+# > GoDaddy CA 吊销验证服务（GoDaddy Certificate Revocation Validation Service）
+
+DOMAIN-SUFFIX,ocsp.godaddy.com # GoDaddy OCSP 吊销验证接口，用于查询 SSL 证书状态，确保 HTTPS 连接合法性
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
