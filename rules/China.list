@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-12
+# - 更新时间：2025-11-13
 
 # > 阿里相关域名（Alibaba Group）
 
@@ -1375,3 +1375,12 @@ DOMAIN-SUFFIX,ocsp.comodoca.com # Comodo 证书吊销状态查询服务（OCSP�
 DOMAIN-SUFFIX,ocsp.comodoca.com # Sectigo OCSP 证书吊销状态查询服务（用于验证证书有效性）
 DOMAIN-SUFFIX,crt.comodoca.com # Sectigo 根证书与中间证书分发平台（包含 .crt 下载）
 DOMAIN-SUFFIX,crl.comodoca.com # Sectigo CRL 吊销列表服务（提供证书撤销状态下载）
+
+# > Dianxiaomi（店小秘）相关服务域名
+
+DOMAIN-SUFFIX,www.dianxiaomi.com  # 店小秘主站域名，涵盖跨境电商服务与平台功能接口  
+DOMAIN-SUFFIX,b.cdnst.net  # Dianxiaomi 使用的第三方 CDN 域名，用于加载后台静态资源与图标文件  
+DOMAIN-SUFFIX,login.dianxiaomi.com  # 登录认证入口，用于用户身份验证与后台访问控制  
+DOMAIN-SUFFIX,erp.dianxiaomi.com  # ERP 模块子域，承载订单、物流、发货、库存等业务操作  
+DOMAIN-SUFFIX,static.dianxiaomi.com  # 前端静态资源域名，用于加载 JS、CSS、图像等内容  
+DOMAIN-SUFFIX,img.dianxiaomi.com  # 图像资源 CDN，主要用于平台上传图片、物流标签预览等  
