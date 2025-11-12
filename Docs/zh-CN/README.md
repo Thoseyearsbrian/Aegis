@@ -23,7 +23,7 @@
 
 ## 项目概述
 
-[Aegis](https://github.com/Thoseyearsbrian/Aegis)是一个专为 [Surge](https://nssurge.com) 精心维护的网络安全规则集，专注于应对现代网络层威胁，旨在帮助全球用户构建本地化的网络防御体系。项目通过封锁 [DNS污染](https://zh.wikipedia.org/wiki/域名服务器缓存污染)、[APT 攻击源](https://zh.wikipedia.org/wiki/高级长期威胁)、[SDK回传监听](https://en.wikipedia.org/wiki/Software_development_kit)、[后门域名](https://en.wikipedia.org/wiki/Back_door)、[PCDN 链路通信](https://en.wikipedia.org/wiki/P2P_caching)、[C2 控制器](https://zh.wikipedia.org/wiki/殭屍網絡)等潜在通信行为，并进一步扩展至全球主流广告、行为追踪及成人内容平台的域名封锁，实现本地流量精准识别与高效阻断。同时，项目已收录多个全球高风险攻击源的规则集，其中包括飞马间谍软件（[Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware))）的相关通信基础设施与行为特征识别策略。
+[Aegis](https://github.com/Thoseyearsbrian/Aegis)是一个专为 [Surge](https://nssurge.com) 精心维护的网络安全规则集，专注于应对现代网络层威胁，旨在帮助全球用户构建本地化的网络防御体系。项目通过封锁 [DNS污染](https://zh.wikipedia.org/wiki/域名服务器缓存污染)、[APT 攻击源](https://zh.wikipedia.org/wiki/高级长期威胁)、[SDK回传监听](https://en.wikipedia.org/wiki/Software_development_kit)、[后门通信](https://en.wikipedia.org/wiki/Back_door)、[PCDN 链路通信](https://en.wikipedia.org/wiki/P2P_caching)、[C2 控制器](https://zh.wikipedia.org/wiki/殭屍網絡)等潜在通信行为，并进一步扩展至全球主流广告、行为追踪及成人内容平台的域名封锁，实现本地流量精准识别与高效阻断。同时，项目已收录多个全球高风险攻击源的规则集，其中包括飞马间谍软件（[Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware))）的相关通信基础设施与行为特征识别策略。
 
 本项目全面采用加密 DNS，拒绝明文请求，确保通信加密与隐私安全。即便在如 iPhone 等缺乏传统安全软件支持的设备上，亦可提供流量层级的有效防护。
 
