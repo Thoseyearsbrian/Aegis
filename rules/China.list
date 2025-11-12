@@ -593,6 +593,8 @@ DOMAIN-SUFFIX,mybank.icbc.com.cn # 工行个人网银服务平台，提供账户
 DOMAIN-SUFFIX,corporbank.icbc.com.cn # 工行企业网银服务平台，涉及转账、报销等接口  
 DOMAIN-SUFFIX,mail.icbc.com.cn # 工行企业邮箱服务域名，用于内部通信与通知发送  
 DOMAIN-SUFFIX,bill.icbc.com.cn # 工行票据业务接口，服务于电子票据与报表查询  
+DOMAIN-SUFFIX,mywap2.icbc.com.cn # 工商银行移动端主页面接口，支持账户信息展示与功能导航   
+DOMAIN-SUFFIX,image.mybank.icbc.com.cn # 工行图像加载接口，提供登录验证码与图片资源  
 
 # > 建设银行相关域名（China Construction Bank）
 
