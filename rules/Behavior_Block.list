@@ -171,6 +171,7 @@ DOMAIN-SUFFIX,sns-web.xiaohongshu.com # 小红书社交数据行为接口
 DOMAIN-SUFFIX,referee.xiaohongshu.com # 小红书内容审核与行为风险评估接口
 DOMAIN-SUFFIX,data-api.xiaohongshu.com # 小红书推荐引擎行为打点接口，用于采集用户操作并上传至推荐系统
 DOMAIN-SUFFIX,log.xiaohongshu.com # 小红书日志收集服务，用于用户行为追踪与异常数据分析
+DOMAIN-SUFFIX,spider-tracker.xiaohongshu.com # 小红书爬虫行为追踪接口，用于监控访问频率与异常请求行为
 
 # > 小红书内嵌第三方 SDK 行为（Third-Party SDKs Embedded in Xiaohongshu）
 
