@@ -5,7 +5,7 @@
 # - 注意：广告追踪相关域名与 YouTube 已独立归类至 AdTracking.list 与 YouTube.list，未包含在本规则中
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-11
+# - 更新时间：2025-11-13
 
 # > 核心服务（Google Core Services）
 
@@ -140,3 +140,4 @@ DOMAIN-SUFFIX,googleusercontent.com # Google/YouTube 的 CDN 内容分发与图�
 DOMAIN-SUFFIX,gstatic.com # Google 静态资源服务，用于加载 YouTube 公共资源与字体文件
 DOMAIN-SUFFIX,encrypted-tbn1.gstatic.com # Google 图片搜索缩略图资源域名
 DOMAIN-SUFFIX,lh3.google.com # Google 图片内容分发域名，用于加载头像、媒体缩略图与内容图片（常见于 Gmail、Google Photos 等服务）
+IP-CIDR,74.125.130.188 # Google 内容服务 IPv4 地址，常用于 API 与内容加载请求
