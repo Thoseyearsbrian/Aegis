@@ -1378,9 +1378,16 @@ DOMAIN-SUFFIX,crl.comodoca.com # Sectigo CRL 吊销列表服务（提供证书�
 
 # > Dianxiaomi（店小秘）相关服务域名
 
-DOMAIN-SUFFIX,www.dianxiaomi.com  # 店小秘主站域名，涵盖跨境电商服务与平台功能接口  
-DOMAIN-SUFFIX,b.cdnst.net  # Dianxiaomi 使用的第三方 CDN 域名，用于加载后台静态资源与图标文件  
-DOMAIN-SUFFIX,login.dianxiaomi.com  # 登录认证入口，用于用户身份验证与后台访问控制  
-DOMAIN-SUFFIX,erp.dianxiaomi.com  # ERP 模块子域，承载订单、物流、发货、库存等业务操作  
-DOMAIN-SUFFIX,static.dianxiaomi.com  # 前端静态资源域名，用于加载 JS、CSS、图像等内容  
-DOMAIN-SUFFIX,img.dianxiaomi.com  # 图像资源 CDN，主要用于平台上传图片、物流标签预览等  
+DOMAIN-SUFFIX,www.dianxiaomi.com # 店小秘主站域名，涵盖跨境电商服务与平台功能接口  
+DOMAIN-SUFFIX,b.cdnst.net # Dianxiaomi 使用的第三方 CDN 域名，用于加载后台静态资源与图标文件  
+DOMAIN-SUFFIX,login.dianxiaomi.com # 登录认证入口，用于用户身份验证与后台访问控制  
+DOMAIN-SUFFIX,erp.dianxiaomi.com # ERP 模块子域，承载订单、物流、发货、库存等业务操作  
+DOMAIN-SUFFIX,static.dianxiaomi.com # 前端静态资源域名，用于加载 JS、CSS、图像等内容  
+DOMAIN-SUFFIX,img.dianxiaomi.com # 图像资源 CDN，主要用于平台上传图片、物流标签预览等 
+
+# > YunExpress（云途物流）服务域名
+
+DOMAIN-SUFFIX,passport.yunexpress.cn # YunExpress 登录认证接口，用于用户身份验证与平台权限访问  
+DOMAIN-SUFFIX,openapi.yunexpress.com # YunExpress 开放 API 接口，用于物流数据查询与服务对接  
+DOMAIN-SUFFIX,track.yunexpress.com # YunExpress 物流轨迹追踪服务，用于查询包裹状态与派送进度  
+DOMAIN-SUFFIX,www.yunexpress.com # YunExpress 官方网站主站，用于平台展示与入口跳转  
