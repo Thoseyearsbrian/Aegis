@@ -3231,6 +3231,11 @@ DOMAIN-SUFFIX,shields.io # Shields.io 主域名，用于生成所有徽章请求
 DOMAIN-SUFFIX,img.shields.io # Shields.io 图像资源域名，用于加载 PNG/SVG 徽章图标  
 DOMAIN-SUFFIX,static.shields.io  # Shields.io 静态内容域名，部分图标缓存资源来源  
 
+# > Cloudflare CDN 节点（Cloudflare CDN Edge Nodes）
+
+IP-CIDR,162.159.61.3 # Cloudflare CDN 节点，用于边缘加速与资源代理  
+IP-CIDR,172.64.41.3  # Cloudflare CDN 节点，用于边缘加速与资源代理  
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
