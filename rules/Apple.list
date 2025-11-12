@@ -26,6 +26,8 @@ DOMAIN-SUFFIX,guzzoni.apple.com # Siri 请求服务
 DOMAIN-SUFFIX,time.apple.com # 时间同步主服务
 DOMAIN-SUFFIX,time-ios.apple.com # iOS 时间同步接口
 DOMAIN-SUFFIX,translation.apple.com # Apple 翻译主服务
+DOMAIN-SUFFIX,sequoia.apple.com # Apple 翻译服务接口
+DOMAIN-SUFFIX,sequoia.cdn-apple.com # Apple 翻译服务 CDN 节点
 DOMAIN-SUFFIX,icons.axm-usercontent-apple.com # 用户内容托管（头像）
 DOMAIN-SUFFIX,edge.apple # Edge 边缘服务域名
 PROCESS-NAME,apsd # Apple Push 相关进程
@@ -181,8 +183,6 @@ PROCESS-NAME,locationd # Apple 定位系统核心进程
 # DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 # DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
 # DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple CDN 域名，用于 Crash 报告与诊断日志收集
-# DOMAIN-SUFFIX,sequoia.apple.com # Apple 日志分析接口，建议封锁
-# DOMAIN-SUFFIX,sequoia.cdn-apple.com # Apple 日志分发节点，建议封锁
 # DOMAIN-SUFFIX,pancake.apple.com # RTC 网络质量上报服务，建议封锁
 # DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名，建议封锁
 # DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务，建议封锁（涉及系统认证）
