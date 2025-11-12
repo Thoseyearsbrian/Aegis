@@ -23,7 +23,6 @@ DOMAIN-SUFFIX,pancake.apple.com # RTC 网络质量上报服务，建议封锁
 DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名，建议封锁
 DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务，建议封锁（涉及系统认证）
 
-
 # > 阿里系遥测接口
 
 DOMAIN-SUFFIX,xlog.snssdk.com # 闲鱼集成字节跳动 xlog 模块的行为上传接口
@@ -75,6 +74,10 @@ DOMAIN-SUFFIX,mobileapm.icbc.com.cn # 工行移动端性能监测与崩溃日志
 DOMAIN-SUFFIX,mimscmp.icbc.com.cn # 工行综合营销管理系统接口，用于营销数据采集与推送  
 DOMAIN-SUFFIX,devreaf.icbc.com.cn # 工行开发测试域名，使用非常规端口 8098，可能为调试接口或非正式服务  
 DOMAIN-SUFFIX,tic.eiop.icbc.com.cn # 工行 TIC 安全接入接口，涉及设备指纹与安全校验行为  
+
+# > 行为指纹与回传节点（Behavior-Based Fingerprint）
+
+IP-CIDR,119.29.29.90 # 腾讯公共 DNS 明文查询接口，常由 SDK 用于回传解析请求与设备信息
 
 # > Knak 埋点行为与邮件追踪服务（Knak Behavioral & Email Tracking Services）
 
