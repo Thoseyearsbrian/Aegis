@@ -6,6 +6,13 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
 # - 更新时间：2025-11-12
 
+# > Apple广告追踪
+
+DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
+DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，已停用但可能残留请求）
+DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）
+DOMAIN-SUFFIX,ca.iadsdk.apple.com # Apple iAd 广告 SDK 子域，用于广告归因/跟踪服务
+
 # > 阿里系开屏广告（高德 / 闲鱼 / 淘宝）
 
 DOMAIN-SUFFIX,adashx.m.taobao.com # 淘宝广告监测 SDK 接口

@@ -170,13 +170,12 @@ DOMAIN-SUFFIX,pancake.apple.com # RTC 网络质量上报服务，建议封锁
 DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名，建议封锁
 DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务，建议封锁（涉及系统认证）
 
-# > Apple广告追踪
+# > 已列入AdTracking_Block.list明细:--建议封锁
 
-DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
-DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，已停用但可能残留请求）
-DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）
-DOMAIN-SUFFIX,ca.iadsdk.apple.com # Apple iAd 广告 SDK 子域，用于广告归因/跟踪服务
-DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple CDN 域名，用于 Crash 报告与诊断日志收集（可能影响系统稳定性，建议谨慎封锁）
+# DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
+# DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，已停用但可能残留请求）
+# DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）
+# DOMAIN-SUFFIX,ca.iadsdk.apple.com # Apple iAd 广告 SDK 子域，用于广告归因/跟踪服务
 
 # > 已列入 Behavior_Block.list明细：--建议封锁
 
@@ -189,5 +188,6 @@ DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple CDN 域名，用于 Crash 报告与诊
 # DOMAIN-SUFFIX,weather-analytics-events.apple.com # 天气应用分析事件接口
 # DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 # DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
+# DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple CDN 域名，用于 Crash 报告与诊断日志收集（可能影响系统稳定性，建议谨慎封锁）
 
 

@@ -17,6 +17,7 @@
 # DOMAIN-SUFFIX,weather-analytics-events.apple.com # 天气应用分析事件接口
 # DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 # DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
+DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple CDN 域名，用于 Crash 报告与诊断日志收集
 
 # > 阿里系遥测接口
 
