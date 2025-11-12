@@ -72,6 +72,78 @@ DOMAIN-SUFFIX,img.alicdn.com # 阿里CDN图像域名，包含用户头像 / 商�
 DOMAIN-SUFFIX,gw.alicdn.com # 阿里CDN资源域名，用于闲鱼前端广告图片与图标加载  
 IP-CIDR,61.170.77.212  # 中国上海电信网络节点，被用于 tb.alicdn.com 解析
 
+# > 腾讯云（Tencent Cloud）
+
+DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net # 腾讯云 TEG 平台下属服务域名
+DOMAIN-SUFFIX,myqcloud.com # 腾讯云小程序行为上传域（常用于 SDK）
+DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云 API 接口调用域名  
+DOMAIN-SUFFIX,myqcloud.com # 腾讯云 COS 对象存储服务域名  
+DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云品牌官网入口  
+DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名  
+DOMAIN-SUFFIX,gtimg.cn # 腾讯静态资源域名
+DOMAIN-SUFFIX,tencentcloud.com # 腾讯云
+
+# > QQ邮箱（Tencent Mail）
+
+DOMAIN-SUFFIX,mail.qq.com # QQ邮箱网页主入口与邮件服务接口  
+DOMAIN-SUFFIX,foxmail.com # 腾讯旗下 Foxmail 邮件客户端服务域名  
+DOMAIN-SUFFIX,mywebmail.mail.qq.com # QQ邮箱网页版接口，用于收发邮件等操作  
+DOMAIN-SUFFIX,imgcache.qq.com # 邮箱加载邮件图片的 CDN 域名  
+
+# > 腾讯地图相关域名（Tencent Maps）
+
+DOMAIN-SUFFIX,map.qq.com # 腾讯地图主站域名，提供地图展示、路径规划等服务  
+DOMAIN-SUFFIX,apis.map.qq.com # 腾讯地图 API 接口服务，用于第三方应用接入地图数据  
+DOMAIN-SUFFIX,mapsdk.map.qq.com # 腾讯地图 SDK 接口域名，用于移动端地图加载与交互  
+DOMAIN-SUFFIX,confinfo.map.qq.com # 腾讯地图配置信息服务接口，用于动态加载设置与参数  
+DOMAIN-SUFFIX,poi.map.qq.com # 腾讯地图 POI（兴趣点）搜索与展示接口  
+DOMAIN-SUFFIX,rtq.map.qq.com # 腾讯地图实时交通信息服务接口  
+DOMAIN-SUFFIX,tracking.map.qq.com # 腾讯地图轨迹服务接口，主要用于路线追踪与分析  
+DOMAIN-SUFFIX,ugc.map.qq.com # 用户生成内容上传与检索服务，如标注、评论等  
+DOMAIN-SUFFIX,nav.map.qq.com # 腾讯地图导航模块接口，提供路径导航功能  
+DOMAIN-SUFFIX,photo.map.qq.com # 腾讯地图街景与地理照片加载服务  
+DOMAIN-SUFFIX,conf.map.qq.com # 地图组件动态配置接口，用于小程序与 SDK 调用  
+
+# > 腾讯游戏域名（王者荣耀 / 和平精英）
+
+DOMAIN-SUFFIX,tencentgames.com # 腾讯游戏主站域名，用于游戏介绍与活动展示  
+DOMAIN-SUFFIX,igame.qq.com # 腾讯游戏平台入口，涵盖多款热门游戏  
+DOMAIN-SUFFIX,gamecenter.qq.com # 腾讯游戏中心服务域名，用于用户信息与启动器交互  
+DOMAIN-SUFFIX,kgame.qq.com # 王者荣耀登录与活动接口域名  
+DOMAIN-SUFFIX,king.qq.com # 王者荣耀官网主域名  
+DOMAIN-SUFFIX,webstatic.mihoyo.com # 王者荣耀部分活动页使用的 Web 托管域名  
+DOMAIN-SUFFIX,api.kg.qq.com # 王者荣耀语音房、战绩服务等接口  
+DOMAIN-SUFFIX,pg.qq.com # 和平精英官网主域名  
+DOMAIN-SUFFIX,fp.ps.qq.com # 和平精英反作弊服务接口（鹰眼系统）  
+DOMAIN-SUFFIX,syzs.qq.com # 和平精英实名认证与安全登录接口  
+DOMAIN-SUFFIX,gvoice.tencent.com # 腾讯 GVoice 语音通信服务，用于游戏内语音功能  
+DOMAIN-SUFFIX,bugly.qq.com # 腾讯 Bugly 崩溃日志与错误上报平台，多个游戏接入  
+DOMAIN-SUFFIX,dlied1.qq.com # 腾讯游戏下载 CDN
+DOMAIN-SUFFIX,dlied2.qq.com # 腾讯游戏下载 CDN
+DOMAIN-SUFFIX,egame.qq.com # 腾讯先游 / 电竞平台
+
+# > QQ 相关域名
+
+DOMAIN-SUFFIX,qq.com # 腾讯 QQ 主域名，涵盖通信、邮箱、开放平台等服务  
+DOMAIN-SUFFIX,myqq.com # QQ 账号管理与辅助服务域名  
+DOMAIN-SUFFIX,tenpay.com # QQ 钱包支付接口域名  
+DOMAIN-SUFFIX,qpic.cn # QQ 静态资源 CDN 域名（头像、图片等）  
+DOMAIN-SUFFIX,gtimg.cn # 腾讯通用 CDN 域名，覆盖 QQ 各类资源  
+DOMAIN-SUFFIX,mail.qq.com # QQ 邮箱主站域名  
+DOMAIN-SUFFIX,foxmail.com # 腾讯旗下 Foxmail 邮件服务域名  
+DOMAIN-SUFFIX,qqmail.com # QQ 邮箱服务跳转与别名域名  
+DOMAIN-SUFFIX,mqqpay.com # QQ 钱包支付相关接口域名  
+DOMAIN-SUFFIX,open.tenpay.com # QQ 钱包开放平台接口域名  
+DOMAIN-SUFFIX,aq.qq.com # QQ 安全中心域名，用于登录保护与异常提示  
+DOMAIN-SUFFIX,btrace.qq.com # QQ 行为分析与打点服务域名  
+DOMAIN-SUFFIX,isdspeed.qq.com # QQ 客户端测速与上报接口  
+DOMAIN-SUFFIX,sngapm.qq.com # QQ 性能监测与 SDK 行为上报接口  
+DOMAIN-SUFFIX,connect.qq.com # QQ 互联登录与 OAuth 接口域名  
+DOMAIN-SUFFIX,imgcache.qq.com # QQ 图片缓存与 CDN 加速域名  
+DOMAIN-SUFFIX,ovscdns.com # QQ 云服务与跳转中转节点  
+DOMAIN-SUFFIX,qlogo.cn # QQ 头像 CDN 与标识服务域名  
+DOMAIN-SUFFIX,icq.com # 旧版 QQ 国际服务（ICQ）跳转域名  
+
 # > 中国电信服务相关域名
 
 DOMAIN-SUFFIX,21cn.com # 中国电信旗下 21CN 网站与业务域名，用于企业服务与通信接口
@@ -235,20 +307,6 @@ DOMAIN-SUFFIX,n.pcs.baidu.com  # 百度网盘节点域名，用于内容分发�
 DOMAIN-SUFFIX,issuecdn.baidupcs.com  # 百度网盘客户端下载与更新服务
 DOMAIN-SUFFIX,yun.baidu.com  # 百度网盘登录跳转与推广入口域名
 DOMAIN-SUFFIX,pcs.baidu.com  # 百度网盘旧版服务接口域名，兼容部分客户端请求
-
-# > 腾讯地图相关域名（Tencent Maps）
-
-DOMAIN-SUFFIX,map.qq.com # 腾讯地图主站域名，提供地图展示、路径规划等服务  
-DOMAIN-SUFFIX,apis.map.qq.com # 腾讯地图 API 接口服务，用于第三方应用接入地图数据  
-DOMAIN-SUFFIX,mapsdk.map.qq.com # 腾讯地图 SDK 接口域名，用于移动端地图加载与交互  
-DOMAIN-SUFFIX,confinfo.map.qq.com # 腾讯地图配置信息服务接口，用于动态加载设置与参数  
-DOMAIN-SUFFIX,poi.map.qq.com # 腾讯地图 POI（兴趣点）搜索与展示接口  
-DOMAIN-SUFFIX,rtq.map.qq.com # 腾讯地图实时交通信息服务接口  
-DOMAIN-SUFFIX,tracking.map.qq.com # 腾讯地图轨迹服务接口，主要用于路线追踪与分析  
-DOMAIN-SUFFIX,ugc.map.qq.com # 用户生成内容上传与检索服务，如标注、评论等  
-DOMAIN-SUFFIX,nav.map.qq.com # 腾讯地图导航模块接口，提供路径导航功能  
-DOMAIN-SUFFIX,photo.map.qq.com # 腾讯地图街景与地理照片加载服务  
-DOMAIN-SUFFIX,conf.map.qq.com # 地图组件动态配置接口，用于小程序与 SDK 调用  
 
 # > 16map 地图服务平台（第三方地图嵌入与位置服务）
 
@@ -1084,16 +1142,6 @@ DOMAIN-SUFFIX,e.kuaishou.com # 快手电商服务子域名，商家与订单处�
 DOMAIN-SUFFIX,kwai.com # 快手海外品牌 Kwai 使用域名  
 DOMAIN-SUFFIX,kwaicdn.com # 快手 CDN 内容分发域名  
 
-# > 腾讯云（Tencent Cloud）
-
-DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net # 腾讯云 TEG 平台下属服务域名
-DOMAIN-SUFFIX,myqcloud.com # 腾讯云小程序行为上传域（常用于 SDK）
-DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云 API 接口调用域名  
-DOMAIN-SUFFIX,myqcloud.com # 腾讯云 COS 对象存储服务域名  
-DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云品牌官网入口  
-DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名  
-DOMAIN-SUFFIX,gtimg.cn # 腾讯静态资源域名
-
 # > 转转平台相关域名（Zhuanzhuan）
 
 DOMAIN-SUFFIX,zhuanzhuan.com # 转转主站域名，二手交易与平台服务  
@@ -1138,21 +1186,6 @@ DOMAIN-SUFFIX,connectivity.hicloud.com # 华为设备间互联互通服务接口
 DOMAIN-SUFFIX,servicesupport.huawei.com # 华为售后支持与服务入口域名  
 DOMAIN-SUFFIX,update.dbankcdn.com # 华为系统与应用更新 CDN 节点，用于推送升级包  
 DOMAIN-SUFFIX,dbankcloud.cn # 华为云 CDN 节点域名，用于内容分发与资源加载  
-
-# > 腾讯游戏域名（王者荣耀 / 和平精英）
-
-DOMAIN-SUFFIX,tencentgames.com # 腾讯游戏主站域名，用于游戏介绍与活动展示  
-DOMAIN-SUFFIX,igame.qq.com # 腾讯游戏平台入口，涵盖多款热门游戏  
-DOMAIN-SUFFIX,gamecenter.qq.com # 腾讯游戏中心服务域名，用于用户信息与启动器交互  
-DOMAIN-SUFFIX,kgame.qq.com # 王者荣耀登录与活动接口域名  
-DOMAIN-SUFFIX,king.qq.com # 王者荣耀官网主域名  
-DOMAIN-SUFFIX,webstatic.mihoyo.com # 王者荣耀部分活动页使用的 Web 托管域名  
-DOMAIN-SUFFIX,api.kg.qq.com # 王者荣耀语音房、战绩服务等接口  
-DOMAIN-SUFFIX,pg.qq.com # 和平精英官网主域名  
-DOMAIN-SUFFIX,fp.ps.qq.com # 和平精英反作弊服务接口（鹰眼系统）  
-DOMAIN-SUFFIX,syzs.qq.com # 和平精英实名认证与安全登录接口  
-DOMAIN-SUFFIX,gvoice.tencent.com # 腾讯 GVoice 语音通信服务，用于游戏内语音功能  
-DOMAIN-SUFFIX,bugly.qq.com # 腾讯 Bugly 崩溃日志与错误上报平台，多个游戏接入  
 
 # > 顺丰速运（SF Express）
 
@@ -1211,28 +1244,6 @@ DOMAIN-SUFFIX,ems.com.cn # EMS 官方主域名，用于邮政快递追踪与服�
 
 DOMAIN-SUFFIX,jtexpress.com.cn # 极兔速递中国服务站域名  
 DOMAIN-SUFFIX,jtexpress.my # 极兔速递马来西亚/国际站域名  
-
-# > QQ 相关域名
-
-DOMAIN-SUFFIX,qq.com # 腾讯 QQ 主域名，涵盖通信、邮箱、开放平台等服务  
-DOMAIN-SUFFIX,myqq.com # QQ 账号管理与辅助服务域名  
-DOMAIN-SUFFIX,tenpay.com # QQ 钱包支付接口域名  
-DOMAIN-SUFFIX,qpic.cn # QQ 静态资源 CDN 域名（头像、图片等）  
-DOMAIN-SUFFIX,gtimg.cn # 腾讯通用 CDN 域名，覆盖 QQ 各类资源  
-DOMAIN-SUFFIX,mail.qq.com # QQ 邮箱主站域名  
-DOMAIN-SUFFIX,foxmail.com # 腾讯旗下 Foxmail 邮件服务域名  
-DOMAIN-SUFFIX,qqmail.com # QQ 邮箱服务跳转与别名域名  
-DOMAIN-SUFFIX,mqqpay.com # QQ 钱包支付相关接口域名  
-DOMAIN-SUFFIX,open.tenpay.com # QQ 钱包开放平台接口域名  
-DOMAIN-SUFFIX,aq.qq.com # QQ 安全中心域名，用于登录保护与异常提示  
-DOMAIN-SUFFIX,btrace.qq.com # QQ 行为分析与打点服务域名  
-DOMAIN-SUFFIX,isdspeed.qq.com # QQ 客户端测速与上报接口  
-DOMAIN-SUFFIX,sngapm.qq.com # QQ 性能监测与 SDK 行为上报接口  
-DOMAIN-SUFFIX,connect.qq.com # QQ 互联登录与 OAuth 接口域名  
-DOMAIN-SUFFIX,imgcache.qq.com # QQ 图片缓存与 CDN 加速域名  
-DOMAIN-SUFFIX,ovscdns.com # QQ 云服务与跳转中转节点  
-DOMAIN-SUFFIX,qlogo.cn # QQ 头像 CDN 与标识服务域名  
-DOMAIN-SUFFIX,icq.com # 旧版 QQ 国际服务（ICQ）跳转域名  
 
 # > 知乎 相关域名
 
@@ -1338,13 +1349,6 @@ DOMAIN-SUFFIX,baidubce.com # 百度智能云 API 与服务接口主域名
 DOMAIN-SUFFIX,bdstatic.com # 百度云静态资源域名（含 AI/图像识别等模块）  
 DOMAIN-SUFFIX,cloud.baidu.com # 百度智能云官网与控制台访问入口  
 
-# > QQ邮箱（Tencent Mail）
-
-DOMAIN-SUFFIX,mail.qq.com # QQ邮箱网页主入口与邮件服务接口  
-DOMAIN-SUFFIX,foxmail.com # 腾讯旗下 Foxmail 邮件客户端服务域名  
-DOMAIN-SUFFIX,mywebmail.mail.qq.com # QQ邮箱网页版接口，用于收发邮件等操作  
-DOMAIN-SUFFIX,imgcache.qq.com # 邮箱加载邮件图片的 CDN 域名  
-
 # > 网易邮箱（NetEase Mail）
 
 DOMAIN-SUFFIX,mail.163.com # 网易163邮箱主入口  
@@ -1365,12 +1369,8 @@ DOMAIN-SUFFIX,ps.gaoding.com # 稿定设计平台图片处理与资源加载接�
 
 # > 游戏服务（Gaming Services）
 
-DOMAIN-SUFFIX,game.qq.com # 腾讯游戏
-DOMAIN-SUFFIX,dlied1.qq.com # 腾讯游戏下载 CDN
-DOMAIN-SUFFIX,dlied2.qq.com # 腾讯游戏下载 CDN
 DOMAIN-SUFFIX,play.dl.360.cn # 360游戏平台
 DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubionline.com # 育碧中国区 CDN
-DOMAIN-SUFFIX,egame.qq.com # 腾讯先游 / 电竞平台
 DOMAIN-SUFFIX,xboxlive.cn # Xbox 中国
 DOMAIN-SUFFIX,steampowered.cn # Steam 中国站
 DOMAIN-SUFFIX,steamchina.com # Steam 中国站备用域名
@@ -1380,7 +1380,6 @@ DOMAIN-SUFFIX,7k7k.com # 7k7k小游戏平台
 
 # > 企业服务 / 办公平台（Enterprise / Productivity）
 
-DOMAIN-SUFFIX,tencentcloud.com # 腾讯云
 DOMAIN-SUFFIX,huaweicloud.com # 华为云
 DOMAIN-SUFFIX,dingtalk.com # 钉钉
 DOMAIN-SUFFIX,feishu.cn # 飞书（国内）
