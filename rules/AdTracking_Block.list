@@ -4,7 +4,7 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-11-11
+# - 更新时间：2025-11-12
 
 # > 阿里系开屏广告（高德 / 闲鱼 / 淘宝）
 
@@ -56,6 +56,12 @@ DOMAIN-SUFFIX,appsflyer.cn # Appsflyer 中国区域服务域名，用于本地�
 DOMAIN-SUFFIX,events.appsflyer.com # Appsflyer 事件上报接口域名，用于用户行为与广告转化追踪
 DOMAIN-SUFFIX,t.appsflyer.com # Appsflyer 精简追踪域名，用于 SDK 回传与广告统计
 DOMAIN-SUFFIX,monitorsdk.appsflyer.com # Appsflyer SDK 监控域名，用于崩溃日志与性能数据回传
+
+# > Salesforce 广告追踪与邮件点击行为域名（Salesforce Ad Tracking & Click Monitoring）
+
+DOMAIN-SUFFIX,click.messaging.metamail.com # Metamail 营销跳转追踪域名，用于邮件活动中的点击行为记录与重定向
+DOMAIN-SUFFIX,email.salesforce.com # Salesforce 邮件服务主域名，用于投递广告邮件与承载行为跟踪链接
+DOMAIN-SUFFIX,links.email.salesforce.com # Salesforce 邮件点击追踪域名，用于用户点击行为监控与跳转链路分析
 
 # > 哔哩哔哩广告视频资源域名（Bilibili Ad Video Resources）
 

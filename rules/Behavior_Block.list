@@ -70,6 +70,11 @@ DOMAIN-SUFFIX,email.knak.io # Knak 邮件服务跳转域名，用于邮件链接
 DOMAIN-SUFFIX,app.knak.io # Knak 应用控制台域名，用于活动配置与营销模板管理
 DOMAIN-SUFFIX,knak.io # Knak 主域名，企业邮件营销平台，用于发送与追踪 B2B 邮件活动
 
+# > Salesforce 行为分析与自动化遥测服务（Salesforce Behavioral Analytics & Telemetry）
+
+DOMAIN-SUFFIX,salesforceiq.com # SalesforceIQ 主域名，用于客户行为数据采集与销售活动跟踪
+DOMAIN-SUFFIX,einstein.ai # Salesforce Einstein AI 域名，用于营销行为预测与自动化模型调用
+
 # > Shopify 行为分析与数据遥测域名
 
 DOMAIN-SUFFIX,monorail-edge.shopifysvc.com # Shopify Monorail 事件追踪域名，用于收集用户交互行为与页面性能指标

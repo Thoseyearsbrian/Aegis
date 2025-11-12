@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-11
+# - 更新时间：2025-11-12
 
 # > Kaspersky 相关域名
 
@@ -3207,6 +3207,11 @@ DOMAIN-SUFFIX,downloads.ctfassets.net # Contentful 媒体资源 CDN，用于分�
 DOMAIN-SUFFIX,images.secure.ctfassets.net # Contentful Embargoed 模式下安全图片资源 CDN（Secure Images）
 DOMAIN-SUFFIX,assets.secure.ctfassets.net # Contentful Embargoed 模式下安全附件资源 CDN（Secure Assets）
 DOMAIN-SUFFIX,downloads.secure.ctfassets.net # Contentful Embargoed 模式下安全下载资源 CDN（Secure Downloads）
+
+# > SalesforceIQ 控制台与资源加载服务（SalesforceIQ Console & Resource Delivery Services）
+
+DOMAIN-SUFFIX,app.salesforceiq.com # SalesforceIQ 应用控制台域名，用于加载客户行为管理面板与交互界面
+DOMAIN-SUFFIX,static.cdn.salesforceiq.com # SalesforceIQ 静态资源域名，用于加载行为控制界面所需样式与脚本资源
 
 # > USERTrust OCSP 证书状态验证服务域名
 
