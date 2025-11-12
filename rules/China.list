@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-06
+# - 更新时间：2025-11-12
 
 # > 阿里相关域名（Alibaba Group）
 
@@ -982,6 +982,23 @@ DOMAIN-SUFFIX,xiaohongshu.com # 小红书主站域名，涵盖社区、电商、
 DOMAIN-SUFFIX,xhsurl.com # 小红书短链跳转域名，用于外链分享与 App 跳转  
 DOMAIN-SUFFIX,shuwen.com # 小红书早期注册公司主域名，部分老旧服务仍在使用  
 DOMAIN-SUFFIX,xiaohongshucloud.com # 小红书云服务接口，支持日志与内容缓存  
+DOMAIN-SUFFIX,redcdn.net # 小红书内容分发 CDN，用于加载图像与视频资源
+DOMAIN-SUFFIX,api.xiaohongshu.com # 小红书核心 API 接口，用于加载笔记、评论等动态内容
+DOMAIN-SUFFIX,ark.xiaohongshu.com # 小红书“ARK”服务接口，用于数据采集与用户推荐算法
+DOMAIN-SUFFIX,thumbnails.xhscdn.com # 小红书图像缩略图 CDN 域名
+DOMAIN-SUFFIX,fe-video-qc.xhscdn.com # 小红书前端视频资源 CDN，加速视频内容加载
+DOMAIN-SUFFIX,sns-webpic-qc.xhscdn.com # 小红书社交媒体图像 CDN，承载图文笔记中的嵌入图片
+DOMAIN-SUFFIX,pages.xiaohongshu.com # 小红书活动页与商品页跳转域名
+DOMAIN-SUFFIX,sns-na-i6.xhscdn.com # 小红书图片加载 CDN
+DOMAIN-SUFFIX,sns-video-qc.xhscdn.com # 小红书视频加载 CDN
+DOMAIN-SUFFIX,sns-avatar-qc.xhscdn.com # 小红书用户头像 CDN
+DOMAIN-SUFFIX,passport.xiaohongshu.com # 小红书登录与认证接口域名，用于账号验证与会话维护
+DOMAIN-SUFFIX,link.xiaohongshu.com # 小红书内容跳转与短链中转域名（link服务），常用于 App 内跳转逻辑
+DOMAIN-SUFFIX,sns-img-qc.xhscdn.com # 小红书图像 CDN 子域，用于图片加载（与 sns-na-i6 平行存在）
+DOMAIN-SUFFIX,edith.xiaohongshu.com # 小红书编辑器与内容管理接口，笔记编辑、封面上传等均依赖此域名
+DOMAIN-SUFFIX,store.xiaohongshu.com # 小红书商城系统入口，用于商品页加载与电商服务
+DOMAIN-SUFFIX,data-api.xiaohongshu.com # 小红书推荐引擎 / 行为打点接口，数据抓取请求入口
+DOMAIN-SUFFIX,log.xiaohongshu.com # 小红书日志收集服务，用于用户行为追踪与异常分析
 
 # > 京东相关域名（JD.com）
 
