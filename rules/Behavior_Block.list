@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-11
+# - 更新时间：2025-11-12
 
 # > Apple 行为遥测服务
 
@@ -61,6 +61,14 @@ DOMAIN-SUFFIX,crashlytics.com # 被大量灰产 SDK 使用
 DOMAIN-SUFFIX,app-analytics-services.com # YouTube 应用行为统计接口，常用于用户操作数据收集
 DOMAIN-SUFFIX,s.youtube.com # YouTube 广告控制与追踪接口，用于广告推荐、点击记录与个性化订阅行为
 DOMAIN-SUFFIX,youtube-nocookie.com # YouTube 嵌入播放器的隐私增强模式域名，仍存在行为追踪功能，建议拦截
+
+# > Knak 埋点行为与邮件追踪服务（Knak Behavioral & Email Tracking Services）
+
+DOMAIN-SUFFIX,client-data.knak.io # Knak 客户数据接口，用于营销活动中的用户行为记录与分析
+DOMAIN-SUFFIX,assets.knak.io # Knak 静态资源加载域名，用于加载邮件模板中的样式与脚本
+DOMAIN-SUFFIX,email.knak.io # Knak 邮件服务跳转域名，用于邮件链接追踪与跳转统计
+DOMAIN-SUFFIX,app.knak.io # Knak 应用控制台域名，用于活动配置与营销模板管理
+DOMAIN-SUFFIX,knak.io # Knak 主域名，企业邮件营销平台，用于发送与追踪 B2B 邮件活动
 
 # > Shopify 行为分析与数据遥测域名
 
