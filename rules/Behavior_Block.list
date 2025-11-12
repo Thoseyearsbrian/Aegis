@@ -39,7 +39,7 @@ IP-CIDR,119.42.231.59  # 支付宝 mdap 域名解析节点，涉及设备信息�
 DOMAIN-SUFFIX,nr-op.elemecdn.com  # 饿了么运营 CDN 资源节点，包含埋点与广告数据
 DOMAIN-SUFFIX,loggw.alipay.com # 支付宝客户端日志网关，上报用户行为数据  
 DOMAIN-SUFFIX,alivc-aio.cn-hangzhou.dualstack.log.aliyuncs.com # 阿里云视频日志收集接口域名，用于日志上报与行为分析
-DOMAIN,px.ucweb.com # UC 浏览器追踪服务域名，用于行为分析与广告数据回传
+DOMAIN-SUFFIX,px.ucweb.com # UC 浏览器追踪服务域名，用于行为分析与广告数据回传
 IP-CIDR,203.119.238.180 # 阿里广告网络归属 IP，疑似用于行为分析与广告数据传输
 IP-CIDR,59.82.113.36 # 杭州阿里广告公司网络段，疑似用于广告或行为回传通信
 DOMAIN-SUFFIX,loggw-external.alipay.com # 第三方数据统计专用日志网关   

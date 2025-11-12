@@ -26,7 +26,7 @@ DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告数据监测域名，用于广�
 IP-CIDR,203.119.238.0/24 # 阿里广告基础设施段（杭州机房）
 IP-CIDR,58.221.74.9 # 出现在咸鱼启动后回传通道中,疑似用于广告／行为回传 
 DOMAIN-SUFFIX,mxhichina.com # 阿里系域名，与咸鱼开屏广告有关
-DOMAIN,api-access.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接入域名，用于广告加载与统计回传
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接入域名，用于广告加载与统计回传
 
 # > Google 广告与追踪服务（Google Ads & Tracking）
 
@@ -396,7 +396,7 @@ DOMAIN-SUFFIX,150791bf69.com # 广告跳转 / 可疑域名,结构混淆,疑似�
 DOMAIN-SUFFIX,15223102.xyz # 广告跳转 / 可疑域名,域名结构混淆,疑似用于诱导跳转与广告加载行为
 DOMAIN-SUFFIX,15272973.xyz # 广告跳转 / 可疑域名,域名结构异常,疑似用于广告加载与中转重定向
 DOMAIN-SUFFIX,1529462937.rsc.cdn77.org # CDN 子域托管疑似广告或灰产内容,命名结构随机,存在诱导或跳转行为风险
-DOMAIN,vc-brian.ndcpp.com # 可疑子域 / 无公开背景信息,疑似伪造命名结构用于广告或钓鱼页面加载
+DOMAIN-SUFFIX,vc-brian.ndcpp.com # 可疑子域 / 无公开背景信息,疑似伪造命名结构用于广告或钓鱼页面加载
 DOMAIN-SUFFIX,152media.com # 第三方广告投放域名,用于 JS 插件式广告加载与行为追踪
 DOMAIN-SUFFIX,153c349024.com # 程序化广告平台域名,用于插屏广告资源加载与行为统计
 DOMAIN-SUFFIX,1548164934.rsc.cdn77.org # 第三方 CDN 广告资源分发域,用于视频与插屏广告加载
