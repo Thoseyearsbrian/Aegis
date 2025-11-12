@@ -164,6 +164,11 @@ DOMAIN-SUFFIX,referee.xiaohongshu.com # 小红书内容审核与行为风险评�
 DOMAIN-SUFFIX,data-api.xiaohongshu.com # 小红书推荐引擎行为打点接口，用于采集用户操作并上传至推荐系统
 DOMAIN-SUFFIX,log.xiaohongshu.com # 小红书日志收集服务，用于用户行为追踪与异常数据分析
 
+# > 小红书内嵌第三方 SDK 行为（Third-Party SDKs Embedded in Xiaohongshu）
+
+DOMAIN-SUFFIX,sd-gl.xinqiucc.com # 星球 SDK 数据上报接口，用于广告行为追踪与策略投放参数获取（getseeds_v3），由小红书 App 内嵌调用
+DOMAIN-SUFFIX,sdkgen.data.tianwenca.com # 天闻 SDK 广告平台回传接口，用于采集移动端行为与广告策略回传（o_live_p2p_mobilesdk），小红书内置集成
+
 # > 百度行为分析服务
 
 DOMAIN-SUFFIX,hm.baidu.com # 百度统计（常用于嵌入式网页行为追踪）
