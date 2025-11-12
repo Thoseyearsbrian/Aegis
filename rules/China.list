@@ -1070,6 +1070,7 @@ DOMAIN-SUFFIX,sns-na-i8.xhscdn.com # 小红书图像 CDN 域名，承载图文�
 DOMAIN-SUFFIX,sns-na-i4.xhscdn.com # 小红书内容分发 CDN 节点（北美线路 I4），用于视频加载  
 DOMAIN-SUFFIX,sns-na-i3.xhscdn.com # 小红书内容分发 CDN 节点（北美线路 I3），用于视频加载  
 DOMAIN-SUFFIX,sns-na-i2.xhscdn.com # 小红书内容分发 CDN 节点（北美线路 I2），用于视频加载 
+DOMAIN-SUFFIX,sns-na-i2.xhscdn.com # 小红书内容分发 CDN 节点（北美线路 I1），用于视频加载 
 IP-CIDR,115.227.40.106 # mall.xiaohongshu.com 对应服务节点 IP，用于小红书电商模块通信
 IP-CIDR,222.73.33.13 # sns-video-al.xhscdn.com 对应 CDN 节点 IP，用于小红书视频内容分发与加载
 IP-CIDR,180.153.82.67 # sns-video-qc.xhscdn.com 对应 CDN 节点 IP，承载小红书视频内容分发服务
@@ -1080,6 +1081,11 @@ IP-CIDR,111.172.236.90 # 小红书视频 CDN 节点（sns-video-qc.xhscdn.com，
 IP-CIDR,61.170.100.67 # 小红书视频 CDN 节点（sns-video-hw.xhscdn.com，华为云）
 IP-CIDR,114.80.252.202 # 小红书视频 CDN 节点（sns-video-hs.xhscdn.com，上海电信）
 IP-CIDR,222.73.33.9 # 小红书视频 CDN 节点（sns-video-bd.xhscdn.com，百度云加速）
+IP-CIDR,114.80.26.88 # 小红书视频 CDN 节点（sns-video-qc.xhscdn.com，青浦电信）
+IP-CIDR,61.170.100.68 # 小红书视频 CDN 节点（sns-video-hw.xhscdn.com，华为云）
+IP-CIDR,115.223.25.191 # 小红书视频 CDN 节点（sns-video-hs.xhscdn.com，杭州电信）
+IP-CIDR,222.73.33.11 # 小红书视频 CDN 节点（sns-video-bd.xhscdn.com / sns-video-al.xhscdn.com，百度 / 阿里共用）
+IP-CIDR,101.132.183.67 # 小红书内容 CDN 节点（疑似阿里云托管）
 IP-CIDR,140.249.108.28 # 小红书视频 CDN 节点（sns-video-al.xhscdn.com，阿里云） 
 IP-CIDR,1.13.117.181/32 # gslb.xiaohongshu.com，小红书 GSLB 负载均衡服务接口  
 IP-CIDR,117.88.123.99/32 # edith.xiaohongshu.com，小红书 API 主接口之一，用于用户数据与内容请求  
