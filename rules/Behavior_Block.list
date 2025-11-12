@@ -222,7 +222,6 @@ DOMAIN-SUFFIX,report.qq.com # 应用行为上报中心（接口通用）
 DOMAIN-SUFFIX,sdk.e.qq.com  # 腾讯广告 SDK 域名，用于广告拉取与行为采集
 DOMAIN-SUFFIX,dldir1.qq.com # 安装包与更新接口（含行为采样）
 DOMAIN-SUFFIX,report.servicewechat.com # 微信服务接口（含行为分析组件）
-DOMAIN-SUFFIX,myqcloud.com # 腾讯云小程序行为上传域（常用于 SDK）
 DOMAIN-SUFFIX,wxapp.tc.qq.com # 小程序平台日志与崩溃分析服务
 DOMAIN-SUFFIX,miniapp.qq.com # QQ 小程序相关行为数据域名
 DOMAIN-SUFFIX,sandbox.api.qq.com # SDK 模拟测试行为回传（可能用于调试监听）

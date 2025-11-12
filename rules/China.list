@@ -1086,12 +1086,13 @@ DOMAIN-SUFFIX,kwaicdn.com # 快手 CDN 内容分发域名
 
 # > 腾讯云（Tencent Cloud）
 
-DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名  
+DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net # 腾讯云 TEG 平台下属服务域名
+DOMAIN-SUFFIX,myqcloud.com # 腾讯云小程序行为上传域（常用于 SDK）
 DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云 API 接口调用域名  
 DOMAIN-SUFFIX,myqcloud.com # 腾讯云 COS 对象存储服务域名  
 DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云品牌官网入口  
+DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名  
 DOMAIN-SUFFIX,gtimg.cn # 腾讯静态资源域名
-DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net # 腾讯云 TEG 平台下属服务域名
 
 # > 转转平台相关域名（Zhuanzhuan）
 
