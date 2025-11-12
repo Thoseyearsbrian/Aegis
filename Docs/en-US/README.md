@@ -34,6 +34,7 @@ The project fully enforces encrypted DNS, rejecting plaintext queries to ensure 
 Aegis is designed to detect and block the following high-risk communications:
 
 - Ad tracking, behavior analytics, and listening CDNs
+- PCDN relay traffic and shared-bandwidth transmission
 - Botnets, remote access Trojans, and malware C2 channels
 - DNS poisoning / injection / hijacking behavior
 - APT command-and-control (C2) infrastructure
@@ -61,6 +62,7 @@ Aegis adheres to technical neutrality, information transparency, and complete in
 | ⑧     | Botnet Infrastructure and Command Node Blocking        | Botnet_Block.list      | Aggregates botnet C2s, DDoS nodes, mass scanners, UDP flooders                               | High-frequency, broad distribution, verified as botnet nodes                      |
 | ⑨     | APT Threat Source Blocking              | APT_Block.list         | IOC from public APT disclosures with clear org/country labels (APT1 ~ APTxx)                 | Verified by public threat reports and attribution                                  |
 | ⑩     | Pegasus Spyware Communication Node Blocking | Pegasus_Block.list     | IOC from Amnesty’s Pegasus reports: C2 nodes, redirects, spyware domains                     | Amnesty-disclosed Pegasus C2s with surveillance risk. Recommended to block                       |
+| ⑪ | PCDN Content Delivery Network Blocking | `PCDN_Block.list` | Blocks suspicious PCDN nodes using shared-bandwidth models, including caching, relaying, and chain distribution | Involves opaque P2P forwarding with risks of bandwidth abuse, privacy leaks, and misuse; recommended to block |
 
 ## **Auto Update**
 

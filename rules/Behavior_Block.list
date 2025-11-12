@@ -76,6 +76,11 @@ DOMAIN-SUFFIX,mimscmp.icbc.com.cn # 工行综合营销管理系统接口，用�
 DOMAIN-SUFFIX,devreaf.icbc.com.cn # 工行开发测试域名，使用非常规端口 8098，可能为调试接口或非正式服务  
 DOMAIN-SUFFIX,tic.eiop.icbc.com.cn # 工行 TIC 安全接入接口，涉及设备指纹与安全校验行为  
 
+# > 网易云 相关行为指纹
+
+DOMAIN-SUFFIX,ac.dun.163.com # 网易易盾接入认证节点，涉及设备指纹与内容授权校验  
+DOMAIN-SUFFIX,fp-upload.dun.163.com # 网易云上传服务接口，用于日志、内容或行为数据回传  
+
 # > 行为指纹与回传节点（Behavior-Based Fingerprint）
 
 IP-CIDR,119.29.29.90 # 腾讯公共 DNS 明文查询接口，常由 SDK 用于回传解析请求与设备信息
