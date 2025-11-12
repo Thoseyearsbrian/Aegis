@@ -1005,8 +1005,14 @@ DOMAIN-SUFFIX,link.xiaohongshu.com # 小红书内容跳转与短链中转域名�
 DOMAIN-SUFFIX,sns-img-qc.xhscdn.com # 小红书图像 CDN 子域，用于图片加载（与 sns-na-i6 平行存在）
 DOMAIN-SUFFIX,edith.xiaohongshu.com # 小红书编辑器与内容管理接口，笔记编辑、封面上传等均依赖此域名
 DOMAIN-SUFFIX,store.xiaohongshu.com # 小红书商城系统入口，用于商品页加载与电商服务
+DOMAIN-SUFFIX,sns-na-i11.xhscdn.com # 小红书图像加载 CDN 节点，用于笔记内容中图片资源加载
+DOMAIN-SUFFIX,sns-na-i8.xhscdn.com # 小红书图像 CDN 域名，承载图文笔记中图片资源加载与分发任务
 IP-CIDR,115.227.40.106 # mall.xiaohongshu.com 对应服务节点 IP，用于小红书电商模块通信
 IP-CIDR,222.73.33.13 # sns-video-al.xhscdn.com 对应 CDN 节点 IP，用于小红书视频内容分发与加载
+IP-CIDR,180.153.82.67 # sns-video-qc.xhscdn.com 对应 CDN 节点 IP，承载小红书视频内容分发服务
+IP-CIDR,61.170.100.69 # sns-video-hw.xhscdn.com 对应 CDN 节点 IP，用于视频加载与区域加速服务
+IP-CIDR,222.73.33.12 # sns-video-bd.xhscdn.com 对应视频 CDN 节点，用于分发社区短视频内容
+IP-CIDR,222.73.33.15 # sns-video-al.xhscdn.com 对应 CDN 节点 IP，用于视频内容多区域缓存分发
 
 # > 京东相关域名（JD.com）
 
