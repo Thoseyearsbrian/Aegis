@@ -62,7 +62,7 @@ Aegis adheres to technical neutrality, information transparency, and complete in
 | ⑧     | Botnet Infrastructure and Command Node Blocking        | Botnet_Block.list      | Aggregates botnet C2s, DDoS nodes, mass scanners, UDP flooders                               | High-frequency, broad distribution, verified as botnet nodes                      |
 | ⑨     | APT Threat Source Blocking              | APT_Block.list         | IOC from public APT disclosures with clear org/country labels (APT1 ~ APTxx)                 | Verified by public threat reports and attribution                                  |
 | ⑩     | Pegasus Spyware Communication Node Blocking | Pegasus_Block.list     | IOC from Amnesty’s Pegasus reports: C2 nodes, redirects, spyware domains                     | Amnesty-disclosed Pegasus C2s with surveillance risk. Recommended to block                       |
-| ⑪ | PCDN Content Delivery Network Blocking | `PCDN_Block.list` | Blocks suspicious PCDN nodes using shared-bandwidth models, including caching, relaying, and chain distribution | Involves opaque P2P forwarding with risks of bandwidth abuse, privacy leaks, and misuse; recommended to block |
+| ⑪ | PCDN Content Delivery Network Blocking | PCDN_Block.list | Blocks suspicious PCDN nodes using shared-bandwidth models, including caching, relaying, and chain distribution | Involves opaque P2P forwarding with risks of bandwidth abuse, privacy leaks, and misuse; recommended to block |
 
 ## **Auto Update**
 
