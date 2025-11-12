@@ -4,7 +4,7 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具，便于策略识别与分流（建议绑定策略 Crypto / PROXY 或用于行为审计）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-11
+# - 更新时间：2025-11-12
 
 # > Exchanges（加密交易所 / 矿池服务）
 
@@ -84,7 +84,6 @@ DOMAIN-SUFFIX,tronscan.org # TRON 浏览器
 DOMAIN-SUFFIX,blockchain.com # Blockchain 浏览器与钱包
 DOMAIN-SUFFIX,infura.io # Infura 区块链 API
 DOMAIN-SUFFIX,ethgasstation.info # ETH Gas 信息平台
-DOMAIN-SUFFIX,myqcloud.com # 钱包资源依赖 CDN
 DOMAIN-SUFFIX,ipfs.io # IPFS 分布式系统
 DOMAIN-SUFFIX,filecoin.io # Filecoin 存储网络
 
