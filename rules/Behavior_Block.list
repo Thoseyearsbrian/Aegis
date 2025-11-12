@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,sequoia.cdn-apple.com # Apple 日志分发节点，建议封锁
 DOMAIN-SUFFIX,pancake.apple.com # RTC 网络质量上报服务，建议封锁
 DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名，建议封锁
 DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务，建议封锁（涉及系统认证）
+DOMAIN-SUFFIX,bag.itunes.apple.com # Apple 服务配置同步接口，用于 App Store 与广告推荐逻辑初始化
 
 # > 阿里系遥测接口
 

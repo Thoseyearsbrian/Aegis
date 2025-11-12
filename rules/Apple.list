@@ -67,7 +67,6 @@ DOMAIN-SUFFIX,itunes.com # iTunes 内容服务
 DOMAIN-SUFFIX,apps.apple.com # App Store 应用页面
 DOMAIN-SUFFIX,appstore.com # App Store 快捷域名
 DOMAIN-SUFFIX,appsto.re # App Store 短链
-DOMAIN-SUFFIX,bag.itunes.apple.com # App Store 商品信息查询接口
 DOMAIN-SUFFIX,search.itunes.apple.com # App Store 搜索接口
 DOMAIN-SUFFIX,amp-api.apps.apple.com # App API 后端服务
 DOMAIN-SUFFIX,amp-api-search-edge.apps.apple.com # App 搜索加速 API
