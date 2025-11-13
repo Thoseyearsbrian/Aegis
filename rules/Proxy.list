@@ -1491,6 +1491,15 @@ DOMAIN-SUFFIX,app.shopify.com  # Shopify 应用市场与第三方插件服务
 DOMAIN-SUFFIX,shopifycdn.com  # Shopify 静态资源专用 CDN 域名
 DOMAIN-SUFFIX,shopifycloud.com  # Shopify 云服务与 API 网关平台
 DOMAIN-SUFFIX,shopifycs.com  # Shopify 客服系统域名（交互与反馈收集）
+DOMAIN-SUFFIX,sc-static.net # Shopify 相关资源域名，用于加载商店样式文件与前端组件资源 
+
+# > GoAffPro 联盟推广平台
+
+DOMAIN-SUFFIX,widgets.goaffpro.app # GoAffPro 联盟推广插件前端组件域名，用于加载推荐与返利小组件
+DOMAIN-SUFFIX,goaffpro.com # GoAffPro 官方域名，用于提供联盟推广平台及追踪服务   
+DOMAIN-SUFFIX,app.goaffpro.com # GoAffPro 应用程序域名，用于商户后台管理与联盟入口  
+DOMAIN-SUFFIX,track.goaffpro.com # GoAffPro 跟踪链接域名，用于访问来源统计与转化监控  
+
 
 # > Zendesk 客服支持平台相关域名
 
