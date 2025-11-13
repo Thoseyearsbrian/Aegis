@@ -68,6 +68,7 @@ DOMAIN-SUFFIX,youtube-nocookie.com # YouTube 嵌入播放器的隐私增强模�
 # > Bilibili 行为分析服务域名
 
 DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流日志接口域名，用于客户端事件上报与行为分析  
+DOMAIN-SUFFIX,data.bilibili.com # Bilibili 数据采集与分析接口，用于用户行为统计与日志上传  
 
 # > 工商银行 相关行为指纹
 
