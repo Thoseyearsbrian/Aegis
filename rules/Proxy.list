@@ -34,7 +34,7 @@ DOMAIN-SUFFIX,update.geo.drweb.com # Dr.Web 杀毒软件更新接口（地理分
 DOMAIN-SUFFIX,storage.googleapis.com # Dr.Web 云托管内容（用于更新、规则或静态资源分发，可能与其他服务共用）
 DOMAIN-SUFFIX,drweb.cn # Dr.Web 中文资讯 RSS 订阅接口（新闻推送）
 DOMAIN-SUFFIX,DOforum.drweb.com # Dr.Web 杀毒软件官方用户论坛，用于技术支持与社区交流
-IP-CIDR,95.216.203.236 # Dr.Web 杀毒软件更新服务器 IP
+IP-CIDR,95.216.203.236 # Dr.Web 更新镜像节点,托管于 Hetzner
 
 # > 通用 VPN／节点订阅／中转服务／翻墙工具域名集合
 
