@@ -76,6 +76,7 @@ DOMAIN-SUFFIX,bilibili.com # Bilibili 主站
 DOMAIN-SUFFIX,hdslb.com # Bilibili 静态资源与视频流
 DOMAIN-SUFFIX,acg.tv # Bilibili 旧版短链接域名
 DOMAIN-SUFFIX,member.bilibili.com # 哔哩哔哩用户中心域名，用于会员信息、账户管理与身份认证服务
+DOMAIN-SUFFIX,mall.bilibili.com # 哔哩哔哩会员购商城域名，用于加载商品详情与交易页面  
 DOMAIN-SUFFIX,upos-sz-mirror08c.bilvideo.com # 哔哩哔哩视频 CDN 加速节点
 DOMAIN-SUFFIX,upos-sz-mirror08c.bilvideo.com # 哔哩哔哩视频 CDN 加速节点
 DOMAIN-SUFFIX,api.bilibili.com # 哔哩哔哩主站核心接口，用于内容获取、用户交互与功能请求
