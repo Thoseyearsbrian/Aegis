@@ -21,3 +21,7 @@ IP-CIDR,49.7.72.98 # 中国电信公网 IP，端口 44863，行为异常，疑�
 # > 中国电信系统后台服务接口（China Telecom System Background Services）
 
 DOMAIN-SUFFIX,applecsb.crm.189.cn # 电信 CRM 自启动接口，疑似用于 iOS 系统级服务绑定与后台行为监控
+
+# > 支付宝后台监听与诊断行为（AliPay Background Services）
+
+IP-CIDR,203.209.250.41 # amdc-thirdparty.alipay.com 对应接口服务 IP，用于设备信息采集与网络诊断通道  
