@@ -153,7 +153,6 @@ DOMAIN-SUFFIX,ct10000.com # 中国电信 10000 号门户域名，用于用户服
 DOMAIN-SUFFIX,chinatelecom-h.com # 中国电信控股公司域名，用于集团官网及资本市场信息披露
 DOMAIN-SUFFIX,chinatelecomglobal.com # 中国电信国际公司域名，用于全球业务与网络接入
 DOMAIN-SUFFIX,chinatelecom.com.cn # 中国电信主官网域名，涵盖公司介绍、业务入口与公共服务
-DOMAIN-SUFFIX,applecsb.crm.189.cn # 中国电信客服业务接口，用于 App 客服对话与客户支持服务
 
 # > 中国联通服务相关域名
 
