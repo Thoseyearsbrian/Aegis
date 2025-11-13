@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-12
+# - 更新时间：2025-11-13
 
 # > Kaspersky 相关域名
 
@@ -336,7 +336,7 @@ DOMAIN-SUFFIX,facebookcorewwwi.onion # Facebook Tor 网络专用访问地址（�
 DOMAIN-SUFFIX,meta.com # Meta 公司官网与 Facebook 品牌重组平台
 DOMAIN-SUFFIX,metafbsbx.com # Facebook 存储服务域名（如文件下载、缓存等）
 DOMAIN-SUFFIX,fb.watch # Facebook Watch 视频平台域名
-DOMAIN-SUFFIX,graph.facebook.com  # Facebook Graph API 接口，提供用户信息、动态数据与内容读取服务
+DOMAIN-SUFFIX,graph.facebook.com # Facebook 图谱 API 接口，用于第三方登录、数据同步等功能
 DOMAIN-SUFFIX,developers.facebook.com # Facebook 开发者平台（API 文档、SDK等）
 DOMAIN-SUFFIX,connect.facebook.net # Facebook Connect 登录与追踪服务（用于第三方网站集成）
 DOMAIN-SUFFIX,staticxx.facebook.com # Facebook 静态资源子域（内容加载加速）
