@@ -3257,6 +3257,10 @@ DOMAIN-SUFFIX,creativecommons.org # Creative Commons 官网域名，用于开源
 DOMAIN-SUFFIX,dns.google # Google DoH / DoT 解析服务接口，用于加密 DNS 查询与解析请求
 DOMAIN-SUFFIX,cfcdn.apowersoft.info # Apowersoft CDN 加速域名，用于软件下载与资源分发服务
 DOMAIN-SUFFIX,techrepublic.com # TechRepublic 在线 IT 资讯与技术论坛，提供行业新闻、最佳实践与工具评估
+DOMAIN-SUFFIX,spamhaus.org # Spamhaus 域名声誉服务，提供全球域名/IP 滥用列表与黑名单查询  
+DOMAIN-SUFFIX,sitecheck.sucuri.net # Sucuri SiteCheck 网站安全扫描器，用于检测网站是否含恶意代码、已被列黑名单或存在安全漏洞  
+DOMAIN-SUFFIX,urlvoid.com # URLVoid 多引擎域名/IP 检测工具，汇总黑名单来源与声誉评分  
+DOMAIN-SUFFIX,talosintelligence.com # Cisco Talos 声誉中心，查询域名/IP 历史、滥用记录与整体信誉  
 
 # > 第三方独立站
 
