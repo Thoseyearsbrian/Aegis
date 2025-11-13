@@ -3256,6 +3256,7 @@ DOMAIN-SUFFIX,typora.io # Typora 官方主站域名，用于下载、激活与 M
 DOMAIN-SUFFIX,creativecommons.org # Creative Commons 官网域名，用于开源协议授权说明与访问
 DOMAIN-SUFFIX,dns.google # Google DoH / DoT 解析服务接口，用于加密 DNS 查询与解析请求
 DOMAIN-SUFFIX,cfcdn.apowersoft.info # Apowersoft CDN 加速域名，用于软件下载与资源分发服务
+DOMAIN-SUFFIX,techrepublic.com # TechRepublic 在线 IT 资讯与技术论坛，提供行业新闻、最佳实践与工具评估
 
 # > 第三方独立站
 

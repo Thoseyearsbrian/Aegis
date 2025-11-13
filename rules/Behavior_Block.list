@@ -74,6 +74,11 @@ IP-CIDR,123.151.48.171 # WeChat 自启行为连接的中国节点，ASN 属于 T
 DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流日志接口域名，用于客户端事件上报与行为分析  
 DOMAIN-SUFFIX,data.bilibili.com # Bilibili 数据采集与分析接口，用于用户行为统计与日志上传  
 
+# > Crisp 聊天客服与行为监听服务（Crisp Chat & Behavior Service）
+
+DOMAIN-SUFFIX,crisp.chat # Crisp 聊天客服系统主域名，用于嵌入式客服、访客追踪与消息通信
+DOMAIN-SUFFIX,client.crisp.chat # Crisp 客户端接口域名，用于网页嵌入、用户身份识别与实时对话连接
+
 # > 工商银行 相关行为指纹
 
 DOMAIN-SUFFIX,pageviewp.icbc.com.cn # 工行行为埋点与页面浏览上报接口，用于用户交互追踪 
