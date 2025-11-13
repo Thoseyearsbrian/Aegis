@@ -65,6 +65,10 @@ DOMAIN-SUFFIX,app-analytics-services.com # YouTube 应用行为统计接口，�
 DOMAIN-SUFFIX,s.youtube.com # YouTube 广告控制与追踪接口，用于广告推荐、点击记录与个性化订阅行为
 DOMAIN-SUFFIX,youtube-nocookie.com # YouTube 嵌入播放器的隐私增强模式域名，仍存在行为追踪功能，建议拦截
 
+# > 微信行为连接 IP（疑似环境探测 / 信令通信）
+
+IP-CIDR,123.151.48.171 # WeChat 自启行为连接的中国节点，ASN 属于 Tianjii，疑似信令回传通道
+
 # > Bilibili 行为分析服务域名
 
 DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流日志接口域名，用于客户端事件上报与行为分析  
