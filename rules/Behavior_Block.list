@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-12
+# - 更新时间：2025-11-13
 
 # > Apple 行为遥测服务
 
@@ -20,7 +20,6 @@ DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple CDN 域名，用于 Crash 报告与诊
 DOMAIN-SUFFIX,pancake.apple.com # RTC 网络质量上报服务，建议封锁
 DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名，建议封锁
 DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务，建议封锁（涉及系统认证）
-DOMAIN-SUFFIX,bag.itunes.apple.com # Apple 服务配置同步接口，用于 App Store 与广告推荐逻辑初始化
 
 # > 阿里系遥测接口
 

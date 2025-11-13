@@ -5,7 +5,7 @@
 # - 说明：部分 Apple 行为探测域名已列入 Behavior_Block.list,广告类已加入 AdTracking_Block.list 详见最后明细
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-12
+# - 更新时间：2025-11-13
 
 # > 系统服务（System Services）
 
@@ -80,6 +80,7 @@ DOMAIN-SUFFIX,applemusicconnect.com # Apple Music 社交功能（历史服务）
 DOMAIN-SUFFIX,apple-livephotoskit.com # Live Photos 相关服务
 DOMAIN-SUFFIX,amp-api-edge.apps.apple.com # Apple App Store 内容接口（边缘 API 加速节点）
 DOMAIN-SUFFIX,is1-ssl.mzstatic.com # Apple 媒体资源 CDN（iTunes / App Store 图标与封面）
+DOMAIN-SUFFIX,bag.itunes.apple.com # Apple 服务配置同步接口，用于 App Store 与广告推荐逻辑初始化
 
 # > 推送与通知服务（Push Services）
 
