@@ -1,12 +1,12 @@
 # > ChinaMedia.list（国内流媒体平台规则集）
 # - 分类：中国大陆流媒体平台 / 视频音乐服务 / 策略识别用途
 # - 来源：主流平台域名抓包 / 社区规则整理 / 手动校验补充
-# - 特征：涵盖常用大陆视频、音乐、电台平台域名，便于策略识别与分流（哔哩哔哩已独立归类至 Bilibili.list）
+# - 特征：涵盖常用大陆视频、音乐、电台平台域名，便于策略识别与分流
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-12
+# - 更新时间：2025-11-13
 
-# > 小红书相关域名（Xiaohongshu / RED）
+# > 小红书 相关域名（Xiaohongshu / RED）
 
 DOMAIN-SUFFIX,xiaohongshu.com # 小红书主站
 DOMAIN-SUFFIX,xhslink.com # 小红书跳转短链域名
@@ -70,6 +70,35 @@ IP-CIDR,117.88.123.99 # 小红书主接口节点, 中国电信，江苏南京
 IP-CIDR,101.227.133.99 # 小红书主站服务节点, 中国联通，上海  
 IP-CIDR,61.170.100.65 # 小红书视频 CDN 节点, 中国电信，江苏常州  
 
+# > Bilibili 相关域名
+
+DOMAIN-SUFFIX,bilibili.com # Bilibili 主站
+DOMAIN-SUFFIX,hdslb.com # Bilibili 静态资源与视频流
+DOMAIN-SUFFIX,acg.tv # Bilibili 旧版短链接域名
+DOMAIN-SUFFIX,upos-sz-mirror08c.bilvideo.com # 哔哩哔哩视频 CDN 加速节点
+DOMAIN-SUFFIX,upos-sz-mirror08c.bilvideo.com # 哔哩哔哩视频 CDN 加速节点
+DOMAIN-SUFFIX,api.bilibili.com # 哔哩哔哩主站核心接口，用于内容获取、用户交互与功能请求
+DOMAIN-SUFFIX,archive.biliimg.com # Bilibili 静态资源域名，用于加载历史图像与媒体内容
+DOMAIN-SUFFIX,mcdn.bilivideo.cn # 哔哩哔哩视频 CDN 域名，用于分发视频内容
+DOMAIN-SUFFIX,xy223x247x68x214xy.mcdn.bilivideo.cn # Bilibili 视频分发 CDN 节点（移动端专用）
+DOMAIN-SUFFIX,xy36x163x193x66xy.mcdn.bilivideo.cn # 哔哩哔哩视频 CDN 域名，分发高清视频内容
+DOMAIN-SUFFIX,aecj3mcuk4jou6cs.nexusedgeio.com # Bilibili 视频内容加速节点，托管于第三方 CDN 服务（NexusEdge）
+DOMAIN-SUFFIX,upos-sz-302ppio.bilivideo.com # Bilibili UPOS 上传/下载服务节点（深圳分区）
+DOMAIN-SUFFIX,xy183x94x183x71xy.mcdn.bilivideo.cn # Bilibili CDN 子域，疑似混淆节点，用于视频传输与请求分析
+DOMAIN-SUFFIX,upos-sz-mirrorcoso1.bilivideo.com # Bilibili 视频 CDN 镜像节点，用于深圳区域内容分发与资源加载  
+DOMAIN-SUFFIX,upos-sz-estgcos.bilivideo.com # 哔哩哔哩 CDN 节点（深圳区域），用于视频内容上传与分发（UP 主上传 / 点播资源）
+DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net # 哔哩哔哩播放器行为追踪域名，用于收集网页播放器使用数据（行为分析与监控模块）
+DOMAIN-SUFFIX,cn-gddg-ct-01-10.bilivideo.com # 哔哩哔哩中国节点 CDN 域名（广东电信），用于内容分发与缓存服务（可能涉及 HTTPS 流量代理）
+DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 用户行为分析数据接口
+DOMAIN-SUFFIX,grpc.biliapi.net # Bilibili gRPC 行为请求通道（含用户行为上传）
+DOMAIN-SUFFIX,app.biliapi.net # Bilibili App 级行为接口
+DOMAIN-SUFFIX,h​​w-v2-web-player-tracker.biliapi.net # Bilibili 网页播放器追踪接口，用于收集播放行为与观看数据
+DOMAIN-SUFFIX,upos-sz-mirrorcos.bilivideo.com # Bilibili 视频 CDN 节点，用于内容分发与资源镜像加载  
+DOMAIN-SUFFIX,upos-sz-estghw.bilivideo.com # Bilibili 视频 CDN 节点，用于内容分发与边缘资源加速  
+DOMAIN-SUFFIX,upos-sz-mirrorcos.bilivideo.com # Bilibili 视频内容分发节点（华南 COS 镜像）
+DOMAIN-SUFFIX,upos-sz-estghw.bilivideo.com # Bilibili 视频内容分发节点（华南 EST 节点）
+DOMAIN-SUFFIX,upos-sz-mirrorcoso1.bilivideo.com # Bilibili 视频内容分发节点（COSo1 镜像备用）
+
 # > 视频平台
 
 DOMAIN-SUFFIX,youku.com # 优酷视频
@@ -123,27 +152,6 @@ DOMAIN-SUFFIX,snssdk.com # 字节跳动旗下通用 SDK 接口
 DOMAIN-SUFFIX,pstatp.com # 抖音静态资源 CDN 域名
 DOMAIN-SUFFIX,toutiao.com # 今日头条主站（抖音广告分发源）
 DOMAIN-SUFFIX,ixigua.com # 西瓜视频主站（字节系）
-DOMAIN-SUFFIX,bilibili.com # Bilibili 主站
-DOMAIN-SUFFIX,hdslb.com # Bilibili 静态资源与视频流
-DOMAIN-SUFFIX,acg.tv # Bilibili 旧版短链接域名
-DOMAIN-SUFFIX,upos-sz-mirror08c.bilvideo.com # 哔哩哔哩视频 CDN 加速节点
-DOMAIN-SUFFIX,upos-sz-mirror08c.bilvideo.com # 哔哩哔哩视频 CDN 加速节点
-DOMAIN-SUFFIX,api.bilibili.com # 哔哩哔哩主站核心接口，用于内容获取、用户交互与功能请求
-DOMAIN-SUFFIX,archive.biliimg.com # Bilibili 静态资源域名，用于加载历史图像与媒体内容
-DOMAIN-SUFFIX,mcdn.bilivideo.cn # 哔哩哔哩视频 CDN 域名，用于分发视频内容
-DOMAIN-SUFFIX,xy223x247x68x214xy.mcdn.bilivideo.cn # Bilibili 视频分发 CDN 节点（移动端专用）
-DOMAIN-SUFFIX,xy36x163x193x66xy.mcdn.bilivideo.cn # 哔哩哔哩视频 CDN 域名，分发高清视频内容
-DOMAIN-SUFFIX,aecj3mcuk4jou6cs.nexusedgeio.com # Bilibili 视频内容加速节点，托管于第三方 CDN 服务（NexusEdge）
-DOMAIN-SUFFIX,upos-sz-302ppio.bilivideo.com # Bilibili UPOS 上传/下载服务节点（深圳分区）
 DOMAIN-SUFFIX,kuaishou.com # 快手主站
 DOMAIN-SUFFIX,ksyun.com # 快手 CDN 内容分发域名
 DOMAIN-SUFFIX,static.yximgs.com # 快手静态资源域名
-DOMAIN-SUFFIX,xy183x94x183x71xy.mcdn.bilivideo.cn # Bilibili CDN 子域，疑似混淆节点，用于视频传输与请求分析
-DOMAIN-SUFFIX,upos-sz-mirrorcoso1.bilivideo.com # Bilibili 
-DOMAIN-SUFFIX,upos-sz-estgcos.bilivideo.com # 哔哩哔哩 CDN 节点（深圳区域），用于视频内容上传与分发（UP 主上传 / 点播资源）
-DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net # 哔哩哔哩播放器行为追踪域名，用于收集网页播放器使用数据（行为分析与监控模块）
-DOMAIN-SUFFIX,cn-gddg-ct-01-10.bilivideo.com # 哔哩哔哩中国节点 CDN 域名（广东电信），用于内容分发与缓存服务（可能涉及 HTTPS 流量代理）
-DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 用户行为分析数据接口
-DOMAIN-SUFFIX,grpc.biliapi.net # Bilibili gRPC 行为请求通道（含用户行为上传）
-DOMAIN-SUFFIX,app.biliapi.net # Bilibili App 级行为接口
-DOMAIN-SUFFIX,h​​w-v2-web-player-tracker.biliapi.net # Bilibili 网页播放器追踪接口，用于收集播放行为与观看数据
