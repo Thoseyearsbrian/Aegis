@@ -7,7 +7,7 @@
 # - 更新时间：2025-11-13
 
 DOMAIN-SUFFIX,breached.to # 数据泄露／账号资料暴露平台，高风险建议封锁
-DOMAIN-SUFFIX,idunlock.cfd # 仿冒解锁平台域名，用于诱导输入账户信息与设备标识，疑似社工钓鱼行为
+DOMAIN-SUFFIX,idunlock.cfd # 仿冒解锁平台域名，用于诱导输入账户信息与设备标识，已确认存在社工钓鱼行为
 DOMAIN-SUFFIX,asiassn.com # 可疑亚洲安全会议仿冒域名，疑似用于分发恶意加载器或收集研究人员信息
 IP-CIDR,101.226.28.238  # 支付宝 datagw 接口，隶属 Ant Group Edge 架构，用于链路追踪与数据分发（后台静默通信）
 IP-CIDR,17.252.203.211 # Apple 官方 IP，使用非常规端口 3490，疑似远程管理或私有服务通信节点-可疑
