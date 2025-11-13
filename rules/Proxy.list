@@ -63,6 +63,7 @@ DOMAIN-SUFFIX,lk01.fbsubcn01.pro # 代理机场相关域名，可能用于配置
 DOMAIN-SUFFIX,aff01.fyb-aff01.com # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,fbsubcn01.cc # 代理机场相关域名，可能用于配置拉取或节点测速
+DOMAIN-SUFFIX,bygcloud.com # Bygcloud 商用代理服务域名，常用于 Trojan/Vmess 等协议节点分发平台
 
 # > Sora by OpenAI 相关域名
 
