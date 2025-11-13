@@ -4,7 +4,7 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-11-12
+# - 更新时间：2025-11-13
 
 # > Apple广告追踪
 
@@ -74,9 +74,10 @@ DOMAIN-SUFFIX,click.messaging.metamail.com # Metamail 营销跳转追踪域名�
 DOMAIN-SUFFIX,email.salesforce.com # Salesforce 邮件服务主域名，用于投递广告邮件与承载行为跟踪链接
 DOMAIN-SUFFIX,links.email.salesforce.com # Salesforce 邮件点击追踪域名，用于用户点击行为监控与跳转链路分析
 
-# > 哔哩哔哩广告视频资源域名（Bilibili Ad Video Resources）
+# > 哔哩哔哩 广告投放与追踪域名
 
 DOMAIN-SUFFIX,bvc.bilivideo.com # 哔哩哔哩广告视频资源域名，用于开屏广告与贴片加载
+DOMAIN-SUFFIX,cm.bilibili.com # Bilibili 广告接口域名，用于商业推荐内容加载与广告投放策略下发
 
 # > MediaGo 广告追踪与数据采集平台域名
 
