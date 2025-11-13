@@ -3261,6 +3261,10 @@ DOMAIN-SUFFIX,spamhaus.org # Spamhaus 域名声誉服务，提供全球域名/IP
 DOMAIN-SUFFIX,sitecheck.sucuri.net # Sucuri SiteCheck 网站安全扫描器，用于检测网站是否含恶意代码、已被列黑名单或存在安全漏洞  
 DOMAIN-SUFFIX,urlvoid.com # URLVoid 多引擎域名/IP 检测工具，汇总黑名单来源与声誉评分  
 DOMAIN-SUFFIX,talosintelligence.com # Cisco Talos 声誉中心，查询域名/IP 历史、滥用记录与整体信誉  
+DOMAIN‑SUFFIX,bitdefender.com # Bitdefender 全球知名网络安全软件与威胁情报平台  
+DOMAIN‑SUFFIX,fortiguard.com # FortiGuard Labs 安全情报服务平台，提供域名/威胁监测与情报报告  
+DOMAIN‑SUFFIX,gridinsoft.com # GridinSoft 反恶意软件与域名声誉检测工具服务  
+DOMAIN‑SUFFIX,crdf.fr # CRDF Labs 法国独立网络安全研究实验室，提供公共 CTI 与威胁数据  
 
 # > 第三方独立站
 
