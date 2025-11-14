@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-13
+# - 更新时间：2025-11-14
 
 # > 阿里相关域名（Alibaba Group）
 
@@ -1395,3 +1395,15 @@ DOMAIN-SUFFIX,passport.yunexpress.cn # YunExpress 登录认证接口，用于用
 DOMAIN-SUFFIX,openapi.yunexpress.com # YunExpress 开放 API 接口，用于物流数据查询与服务对接  
 DOMAIN-SUFFIX,track.yunexpress.com # YunExpress 物流轨迹追踪服务，用于查询包裹状态与派送进度  
 DOMAIN-SUFFIX,www.yunexpress.com # YunExpress 官方网站主站，用于平台展示与入口跳转  
+
+# > 今日头条服务域名（Toutiao / ByteDance News）
+
+DOMAIN-SUFFIX,toutiao.com # 今日头条主站域名，用于内容分发、个性化推荐与账号体系  
+DOMAIN-SUFFIX,toutiaoimg.com # 今日头条图像 CDN 域名，用于加载封面、图文内容等媒体资源  
+DOMAIN-SUFFIX,toutiaocloud.com # 今日头条云服务平台域名，托管部分 API 与中间层服务  
+DOMAIN-SUFFIX,snssdk.com # 字节跳动通用 SDK 接口域名，涵盖埋点分析、激活验证等功能  
+DOMAIN-SUFFIX,pstatp.com # 今日头条与字节跳动系列产品静态资源域名，含图像、脚本与样式加载  
+DOMAIN-SUFFIX,bytedance.net # 字节跳动基础设施与服务接口域名，用于数据上传、远程配置等用途  
+DOMAIN-SUFFIX,ibytedapm.com # 字节跳动 APM 性能监测接口域名，用于采集客户端运行数据  
+DOMAIN-SUFFIX,byteimg.com # 字节跳动图像 CDN 域名，用于图片压缩与内容加速  
+DOMAIN-SUFFIX,bytedns.net # 字节跳动内容加速与调度服务域名，用于智能 DNS 分流与负载均衡  
