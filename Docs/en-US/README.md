@@ -1,7 +1,8 @@
-<!-- Aegis Cover Image -->
+<!-- Aegis Logo -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/Aegis_Cover_Image.png" alt="Aegis Cover Image" width="1200"/>
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/Aegis_Cover_Image.png" alt="Aegis Cover Image" height="300"/>
 </p>
+
 <h1 align="center">Aegis — Personal Digital Firewall Ruleset for Surge</h1>
 <p align="center">
 <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-1.png" width="300"></img>
