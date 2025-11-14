@@ -3283,6 +3283,7 @@ DOMAIN-SUFFIX,fortiguard.com # FortiGuard Labs 安全情报服务平台，提�
 DOMAIN-SUFFIX,gridinsoft.com # GridinSoft 反恶意软件与域名声誉检测工具服务  
 DOMAIN-SUFFIX,crdf.fr # CRDF Labs 法国独立网络安全研究实验室，提供公共 CTI 与威胁数据  
 DOMAIN-SUFFIX,freedidi.com # 零度博客
+DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 媒体资源 CDN 域名，用于分发 PCMag、TechRepublic、Speedtest 等站点静态资源
 
 # > 第三方独立站
 
