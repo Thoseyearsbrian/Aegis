@@ -3949,6 +3949,11 @@ DOMAIN-SUFFIX,dageyun.lol # 大哥云备用域名，用于主站访问与登录�
 DOMAIN-SUFFIX,link.dageyun.cc # 大哥云节点订阅链接域名，用于导入配置到各类客户端  
 DOMAIN-SUFFIX,api.dageyun.cc # 大哥云 API 接口域名，用于账户信息、流量状态与公告获取  
 
+# > 一元机场（Yiyuan VPN Service）
+
+DOMAIN-SUFFIX,6pzftj.com # 一元机场主域名，用于代理节点与用户管理面板服务  
+DOMAIN-SUFFIX,6pzfwf.com # 一元机场备用域名，提供代理节点与订阅链接分发服务  
+
 # > Fofa（安全资产搜索平台 / 安全社区服务）
 
 DOMAIN-SUFFIX,fofa.info  # Fofa 主站，用于全球资产检索与指纹识别服务  
