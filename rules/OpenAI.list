@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-04
+# - 更新时间：2025-11-14
 
 # > OpenAI Chat 系列
 
@@ -80,3 +80,10 @@ DOMAIN-SUFFIX,poe.com # Poe：Quora 推出的 AI 聊天聚合平台，集成多�
 # > Mistral AI
 
 DOMAIN-SUFFIX,mistral.ai # Mistral：法国大模型初创公司，致力于开源 Transformer 模型开发（如 Mistral 7B）
+
+# > Haruka AI
+
+DOMAIN-SUFFIX,ai.haruka.cloud # Haruka：基于大语言模型的在线对话平台，提供 Web 端 AI 接口服务
+DOMAIN-SUFFIX,api.ai.haruka.cloud  # Haruka AI 平台 API 接口域名，用于智能回复与客服机器人服务
+DOMAIN-SUFFIX,cdn.ai.haruka.cloud  # Haruka AI 的静态资源 CDN 域名，用于平台前端脚本与样式加载
+DOMAIN-SUFFIX,assets.ai.haruka.cloud  # Haruka AI 平台资源域名，用于多媒体与团队协作模块
