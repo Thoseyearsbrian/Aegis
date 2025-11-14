@@ -3698,6 +3698,239 @@ DOMAIN-SUFFIX,smtp.vultr.com # Vultr 邮件发送网关域名，部分实例 SMT
 DOMAIN-SUFFIX,dns.vultr.com # Vultr 主 DNS 服务器域名，用于默认域名解析服务  
 DOMAIN-SUFFIX,mirror.vultr.com # Vultr 软件镜像站点域名，用于 Linux 包更新与操作系统安装源  
 
+# > 奶昔机场服务域名（Naixise / 奶昔加速）
+
+DOMAIN-SUFFIX,naixise.com # 奶昔机场主域名，用于控制面板访问与账户管理  
+DOMAIN-SUFFIX,naixise.app # 奶昔机场订阅分发域名，用于获取节点订阅配置  
+DOMAIN-SUFFIX,speed.naixise.com # 奶昔测速服务域名，用于节点测速与延迟测试  
+DOMAIN-SUFFIX,cdn.naixise.com # 奶昔机场静态资源 CDN，用于加载面板前端资源  
+DOMAIN-SUFFIX,link.naixise.com # 奶昔短链跳转域名，用于分享邀请链接与节点分发  
+DOMAIN-SUFFIX,web.naixise.com # 奶昔旧版面板 Web 端入口，部分老用户仍使用  
+
+# > Hutao 加速服务域名（胡桃云加速 / HutaoCloud）
+
+DOMAIN-SUFFIX,hutao.cloud # Hutao 加速主域名，用于用户注册与面板登录  
+DOMAIN-SUFFIX,api.hutao.cloud # Hutao 面板 API 接口域名，用于账户管理与订阅信息获取  
+DOMAIN-SUFFIX,cdn.hutao.cloud # Hutao 静态资源 CDN 域名，用于前端资源加载与加速  
+DOMAIN-SUFFIX,status.hutao.cloud # Hutao 网络状态监控页面域名  
+DOMAIN-SUFFIX,sub.hutao.cloud # Hutao 节点订阅服务域名，用于客户端配置导入  
+DOMAIN-SUFFIX,speed.hutao.cloud # Hutao 节点测速服务域名，用于测速延迟与丢包监控  
+
+# > Catnet 加速服务域名（猫网加速 / CatnetCloud）
+
+DOMAIN-SUFFIX,catnet.cloud # Catnet 官网主域名，用于用户访问与套餐管理  
+DOMAIN-SUFFIX,api.catnet.cloud # Catnet 面板 API 域名，用于用户登录、订阅验证与节点拉取  
+DOMAIN-SUFFIX,cdn.catnet.cloud # Catnet 静态资源 CDN 域名，用于前端面板加载与缓存加速  
+DOMAIN-SUFFIX,sub.catnet.cloud # Catnet 节点订阅链接域名，支持 Surge / Clash 等导入  
+DOMAIN-SUFFIX,status.catnet.cloud # Catnet 网络状态与节点监控面板  
+DOMAIN-SUFFIX,speedtest.catnet.cloud # Catnet 节点测速服务域名，用于延迟/带宽测试  
+
+# > LightYear 加速服务域名（光年加速 / LightYearVPN）
+
+DOMAIN-SUFFIX,lightyearvpn.com # LightYear 官网主域名，用于展示服务、用户注册与购买套餐  
+DOMAIN-SUFFIX,api.lightyearvpn.com # LightYear API 接口域名，用于账户认证与节点管理  
+DOMAIN-SUFFIX,cdn.lightyearvpn.com # LightYear 静态资源 CDN 域名，用于加载前端页面资源  
+DOMAIN-SUFFIX,sub.lightyearvpn.com # LightYear 节点订阅域名，支持 Clash / Surge 等客户端导入  
+DOMAIN-SUFFIX,status.lightyearvpn.com # LightYear 节点运行状态监控面板  
+DOMAIN-SUFFIX,speedtest.lightyearvpn.com # LightYear 节点测速服务域名  
+
+# > MoeCloud 加速服务域名（萌云加速）
+
+DOMAIN-SUFFIX,moecloud.link # MoeCloud 主站域名，用于官网展示、用户注册与订阅面板  
+DOMAIN-SUFFIX,api.moecloud.link # MoeCloud API 接口域名，用于登录验证、节点信息获取等功能  
+DOMAIN-SUFFIX,sub.moecloud.link # MoeCloud 节点订阅服务域名，支持 Clash / Surge / Shadowrocket 客户端导入  
+DOMAIN-SUFFIX,cdn.moecloud.link # MoeCloud 静态资源 CDN 加速域名，用于加载前端资源与图标  
+DOMAIN-SUFFIX,speed.moecloud.link # MoeCloud SpeedTest 节点测速服务域名  
+DOMAIN-SUFFIX,status.moecloud.link # MoeCloud 节点监控与在线状态查看面板  
+
+# > RedDotCloud 加速服务域名（红点云）
+
+DOMAIN-SUFFIX,reddotcloud.com # RedDotCloud 主站域名，用于展示、账户登录与套餐订阅  
+DOMAIN-SUFFIX,api.reddotcloud.com # RedDotCloud API 接口域名，用于用户数据同步与服务调用  
+DOMAIN-SUFFIX,sub.reddotcloud.com # RedDotCloud 节点订阅接口域名，支持多客户端接入  
+DOMAIN-SUFFIX,status.reddotcloud.com # RedDotCloud 节点状态监控面板域名  
+DOMAIN-SUFFIX,speedtest.reddotcloud.com # RedDotCloud 节点测速服务域名  
+DOMAIN-SUFFIX,cdn.reddotcloud.com # RedDotCloud 静态资源 CDN 域名，用于控制台样式与图标加载  
+
+# > StellarLink 加速服务域名（星链加速）
+
+DOMAIN-SUFFIX,stellarlink.pro # StellarLink 主站域名，用于用户注册、购买套餐与查看信息  
+DOMAIN-SUFFIX,api.stellarlink.pro # StellarLink API 接口域名，用于账户验证与数据交互  
+DOMAIN-SUFFIX,sub.stellarlink.pro # StellarLink 节点订阅接口域名，支持多客户端配置导入  
+DOMAIN-SUFFIX,status.stellarlink.pro # StellarLink 节点运行状态面板域名  
+DOMAIN-SUFFIX,speedtest.stellarlink.pro # StellarLink 测速服务接口，用于测试延迟与带宽表现  
+DOMAIN-SUFFIX,cdn.stellarlink.pro # StellarLink 静态资源 CDN，用于加载控制台样式与图标资源  
+
+# > OwOCloud 加速服务域名（喔窝云）
+
+DOMAIN-SUFFIX,owocloud.com # OwOCloud 主站域名，用于套餐购买、账户管理等功能  
+DOMAIN-SUFFIX,api.owocloud.com # OwOCloud API 接口域名，用于用户验证、流量信息同步  
+DOMAIN-SUFFIX,sub.owocloud.com # OwOCloud 节点订阅接口域名，支持 Clash / Surge 等客户端导入  
+DOMAIN-SUFFIX,cdn.owocloud.com # OwOCloud 静态资源域名，用于控制台页面加载与样式资源  
+DOMAIN-SUFFIX,status.owocloud.com # OwOCloud 节点状态监控面板域名  
+
+# > ShadowLink 加速服务域名（影连）
+
+DOMAIN-SUFFIX,shadowlink.pro # ShadowLink 主站域名，用于注册登录与服务管理  
+DOMAIN-SUFFIX,api.shadowlink.pro # ShadowLink API 接口域名，用于节点信息、流量同步等交互  
+DOMAIN-SUFFIX,sub.shadowlink.pro # ShadowLink 节点订阅接口域名，支持多客户端导入  
+DOMAIN-SUFFIX,cdn.shadowlink.pro # ShadowLink 静态资源加载域名，用于控制台样式与前端资源加载  
+DOMAIN-SUFFIX,status.shadowlink.pro # ShadowLink 状态监控域名，用于展示节点运行状态  
+
+# > 狸猫加速服务域名（Limiao）
+
+DOMAIN-SUFFIX,limiao.link # 狸猫加速主站域名，用于官网访问与服务入口  
+DOMAIN-SUFFIX,api.limiao.link # 狸猫加速 API 接口域名，用于节点拉取与用户交互  
+DOMAIN-SUFFIX,sub.limiao.link # 狸猫加速节点订阅接口域名，适配 Surge / Clash 等客户端  
+DOMAIN-SUFFIX,status.limiao.link # 狸猫加速节点状态监控域名，用于显示在线状态与延迟信息  
+DOMAIN-SUFFIX,cdn.limiao.link # 狸猫加速静态资源域名，用于控制台前端资源加载  
+
+# > KoCloud 机场服务域名（Ko 云）
+
+DOMAIN-SUFFIX,kocloud.cc # KoCloud 官网主域名，用于用户注册、登录与服务入口  
+DOMAIN-SUFFIX,www.kocloud.cc # KoCloud 官网子域，用于跳转首页与兼容旧客户端入口  
+DOMAIN-SUFFIX,api.kocloud.cc # KoCloud 接口服务域名，用于节点信息获取与账户管理  
+DOMAIN-SUFFIX,sub.kocloud.cc # KoCloud 节点订阅接口域名，适配 Surge / Clash / Shadowrocket  
+DOMAIN-SUFFIX,cdn.kocloud.cc # KoCloud 静态资源 CDN 域名，用于控制台样式与前端加载  
+DOMAIN-SUFFIX,status.kocloud.cc # KoCloud 节点监控与测速状态页面  
+
+# > ClashMetaX 机场服务域名（原 ClashX Meta 项目）
+
+DOMAIN-SUFFIX,clashmeta.net # ClashMetaX 主域名，用于用户访问官网与注册登录服务  
+DOMAIN-SUFFIX,www.clashmeta.net # ClashMetaX 官网子域，用于主站兼容访问  
+DOMAIN-SUFFIX,api.clashmeta.net # ClashMetaX 用户接口服务域名，用于账户信息与节点数据管理  
+DOMAIN-SUFFIX,sub.clashmeta.net # ClashMetaX 节点订阅服务接口，适配 Clash / Surge 等客户端  
+DOMAIN-SUFFIX,status.clashmeta.net # ClashMetaX 节点状态监控页面域名，用于测速与节点可用性展示  
+DOMAIN-SUFFIX,cdn.clashmeta.net # ClashMetaX 静态资源 CDN，用于前端样式与 JS 加载优化  
+
+# > BoostNet 加速器机场服务域名
+
+DOMAIN-SUFFIX,boostnet.cloud # BoostNet 主站域名，用于官网访问、注册与账户管理  
+DOMAIN-SUFFIX,www.boostnet.cloud # BoostNet 官网兼容域名，跳转至主页面  
+DOMAIN-SUFFIX,api.boostnet.cloud # BoostNet API 接口域名，用于账户登录、订阅生成与后端通信  
+DOMAIN-SUFFIX,cdn.boostnet.cloud # BoostNet 静态资源 CDN，用于前端样式与 JS 资源加载  
+DOMAIN-SUFFIX,sub.boostnet.cloud # BoostNet 节点订阅服务域名，适配 Surge / Clash 等客户端  
+DOMAIN-SUFFIX,status.boostnet.cloud # BoostNet 状态页域名，用于节点在线监测与故障公告  
+
+# > 悠兔加速器（YouToo）机场服务域名
+
+DOMAIN-SUFFIX,youtoo.run # 悠兔加速器主站域名，用于官网访问与用户登录  
+DOMAIN-SUFFIX,www.youtoo.run # 悠兔加速器官网兼容域名，跳转至主页面  
+DOMAIN-SUFFIX,api.youtoo.run # 悠兔 API 接口域名，用于账户验证、订阅管理与节点请求  
+DOMAIN-SUFFIX,cdn.youtoo.run # 悠兔前端资源 CDN，加速样式表与静态文件加载  
+DOMAIN-SUFFIX,sub.youtoo.run # 悠兔订阅服务域名，适配 Surge、Clash 等客户端导入  
+DOMAIN-SUFFIX,status.youtoo.run # 悠兔节点状态监控与公告服务域名  
+
+# > WgetCloud 加速服务域名（WgetCloud Accelerator）
+
+DOMAIN-SUFFIX,wgetcloud.ltd # WgetCloud 主站域名，用于用户注册、购买与仪表盘访问  
+DOMAIN-SUFFIX,www.wgetcloud.ltd # WgetCloud 兼容访问域名，跳转至官网主页  
+DOMAIN-SUFFIX,cdn.jsdelivr.net # 前端样式与脚本加载所依赖的 CDN（第三方资源）  
+DOMAIN-SUFFIX,sub.wgetcloud.ltd # WgetCloud 订阅服务接口，用于 Clash / Surge / Shadowrocket 客户端导入订阅  
+DOMAIN-SUFFIX,status.wgetcloud.ltd # WgetCloud 节点状态与网络公告服务域名  
+DOMAIN-SUFFIX,api.wgetcloud.ltd # WgetCloud 后台 API 接口域名，用于账户数据交互与服务控制  
+
+# > TAG（The Airport Global）加速服务域名
+
+DOMAIN-SUFFIX,theairport.cloud # TAG 主站域名，用于官网访问、用户注册与服务购买  
+DOMAIN-SUFFIX,api.theairport.cloud # TAG 后端 API 接口域名，用于用户认证、服务请求与节点数据  
+DOMAIN-SUFFIX,status.theairport.cloud # TAG 节点状态与公告服务域名，用于实时查看节点运行状态  
+DOMAIN-SUFFIX,cdn.theairport.cloud # TAG 静态资源 CDN 域名，用于加载官网前端资源  
+DOMAIN-SUFFIX,sub.theairport.cloud # TAG 订阅接口域名，用于导入 Clash / Surge / Shadowrocket 配置  
+
+# > 贝贝云（BeibeiYun）加速服务域名
+
+DOMAIN-SUFFIX,beibeiyun.vip # 贝贝云主站域名，用于用户注册、官网访问与服务管理  
+DOMAIN-SUFFIX,api.beibeiyun.vip # 贝贝云后端接口域名，用于账号验证、服务状态与节点信息交互  
+DOMAIN-SUFFIX,sub.beibeiyun.vip # 贝贝云订阅接口域名，用于导入 Clash / Surge / Shadowrocket 等配置  
+DOMAIN-SUFFIX,status.beibeiyun.vip # 贝贝云节点状态监控域名，用于实时查看服务器在线情况  
+DOMAIN-SUFFIX,cdn.beibeiyun.vip # 贝贝云静态资源 CDN 域名，用于加载前端页面与图标资源  
+
+# > Kycloud 加速服务域名（KY Cloud）
+
+DOMAIN-SUFFIX,kycloud.xyz # Kycloud 主站域名，用于官网访问、账户管理与服务入口  
+DOMAIN-SUFFIX,api.kycloud.xyz # Kycloud 后端 API 接口域名，用于订阅校验与用户操作请求  
+DOMAIN-SUFFIX,sub.kycloud.xyz # Kycloud 订阅服务接口域名，用于导入 Surge / Clash 等代理配置  
+DOMAIN-SUFFIX,status.kycloud.xyz # Kycloud 节点状态监控域名，用于展示节点延迟与在线情况  
+DOMAIN-SUFFIX,cdn.kycloud.xyz # Kycloud 静态资源 CDN 域名，用于前端资源与图像加载  
+
+# > 海獭加速服务域名（Haitun / OtterNet）
+
+DOMAIN-SUFFIX,haitun.io # 海獭加速主站域名，用于官网访问、用户中心与节点订阅  
+DOMAIN-SUFFIX,www.haitun.io # 海獭加速主站别名域名，用于访问入口与跳转  
+DOMAIN-SUFFIX,api.haitun.io # 海獭加速 API 接口域名，用于用户操作与信息交互  
+DOMAIN-SUFFIX,sub.haitun.io # 海獭加速订阅链接接口域名，用于 Clash/Surge 等客户端导入配置  
+DOMAIN-SUFFIX,cdn.haitun.io # 海獭加速静态资源 CDN，用于加载前端页面与图标等资源  
+DOMAIN-SUFFIX,status.haitun.io # 海獭加速节点状态检测页面域名，用于实时查看节点连通性与速度  
+
+# > 龙猫云服务域名（TotoroCloud）
+
+DOMAIN-SUFFIX,totoro-cloud.com # 龙猫云主站域名，用于官网访问、用户注册与购买服务  
+DOMAIN-SUFFIX,www.totoro-cloud.com # 龙猫云主站别名域名，支持访问入口跳转  
+DOMAIN-SUFFIX,sub.totoro-cloud.com # 龙猫云订阅链接接口域名，用于客户端导入 Clash / Surge 配置  
+DOMAIN-SUFFIX,status.totoro-cloud.com # 龙猫云节点状态监测页面域名，用于查看各线路运行状态  
+DOMAIN-SUFFIX,cdn.totoro-cloud.com # 龙猫云静态资源 CDN，用于加载前端界面与图标等内容  
+DOMAIN-SUFFIX,api.totoro-cloud.com # 龙猫云 API 接口域名，用于用户中心数据交互与配置下发  
+
+# > 老猫云服务域名（OldCat Cloud）
+
+DOMAIN-SUFFIX,laocat.net # 老猫云主站域名，用于用户注册、登录与购买服务  
+DOMAIN-SUFFIX,www.laocat.net # 老猫云主站别名域名，支持多入口访问与跳转  
+DOMAIN-SUFFIX,sub.laocat.net # 老猫云订阅接口域名，用于客户端导入 Surge / Clash 配置  
+DOMAIN-SUFFIX,cdn.laocat.net # 老猫云静态资源 CDN，用于加载图标、样式与控制台界面  
+DOMAIN-SUFFIX,status.laocat.net # 老猫云节点状态监测页面域名，用于查看服务运行状态与线路健康  
+DOMAIN-SUFFIX,api.laocat.net # 老猫云 API 接口域名，用于用户中心与配置下发等数据交互  
+
+# > STC-SERVER 服务域名
+
+DOMAIN-SUFFIX,stcserver.net # STC-SERVER 主站域名，用于官网访问、用户登录与服务订阅  
+DOMAIN-SUFFIX,www.stcserver.net # STC-SERVER 主站别名域名，用于多线路访问与入口备份  
+DOMAIN-SUFFIX,sub.stcserver.net # STC-SERVER 节点订阅接口域名，用于导入 Surge / Clash 等客户端配置  
+DOMAIN-SUFFIX,status.stcserver.net # STC-SERVER 节点状态监测页面域名，用于查看各地区线路延迟与可用性  
+DOMAIN-SUFFIX,cdn.stcserver.net # STC-SERVER 静态资源 CDN 域名，用于加载控制面板资源与图标界面  
+DOMAIN-SUFFIX,api.stcserver.net # STC-SERVER API 接口域名，用于控制台交互与订阅更新请求  
+
+# > E-IX 服务域名
+
+DOMAIN-SUFFIX,e-ix.net # E-IX 主站域名，用于官网访问、用户注册与登录  
+DOMAIN-SUFFIX,www.e-ix.net # E-IX 主站别名域名，用于入口分流与访问容灾  
+DOMAIN-SUFFIX,sub.e-ix.net # E-IX 节点订阅接口域名，用于导入 Surge / Clash / Shadowrocket 等客户端配置  
+DOMAIN-SUFFIX,status.e-ix.net # E-IX 节点状态页面，用于实时查看节点可用性与测速信息  
+DOMAIN-SUFFIX,cdn.e-ix.net # E-IX 静态资源 CDN 域名，用于加载仪表盘、图标与公告界面  
+DOMAIN-SUFFIX,api.e-ix.net # E-IX API 接口域名，用于客户端与控制台数据交互与状态验证  
+
+# > 万达云服务域名（WandCloud）
+
+DOMAIN-SUFFIX,wandcloud.net # 万达云主站域名，用于官网访问、账户管理与服务订阅  
+DOMAIN-SUFFIX,www.wandcloud.net # 万达云主站别名域名，用于多入口访问与负载均衡  
+DOMAIN-SUFFIX,cdn.wandcloud.net # 万达云前端资源 CDN 域名，用于加载控制面板界面与公告组件  
+DOMAIN-SUFFIX,sub.wandcloud.net # 万达云订阅链接域名，用于导入 Clash / Surge 等客户端配置  
+DOMAIN-SUFFIX,status.wandcloud.net # 万达云节点状态页面，用于展示实时连通性与服务器负载情况  
+DOMAIN-SUFFIX,api.wandcloud.net # 万达云 API 接口域名，用于控制台与客户端请求交互  
+
+# > Web3加速器服务域名（Web3 Accelerator）
+
+DOMAIN-SUFFIX,web3.network # Web3加速器主站域名，用于用户登录、节点订阅与账户管理  
+DOMAIN-SUFFIX,cdn.web3.network # Web3加速器前端资源 CDN 域名，用于加载控制台、公告与资源文件  
+DOMAIN-SUFFIX,sub.web3.network # Web3加速器订阅链接域名，用于导入 Clash / Surge / Shadowrocket 等客户端配置  
+DOMAIN-SUFFIX,status.web3.network # Web3加速器节点状态监测域名，用于展示线路稳定性与实时负载  
+DOMAIN-SUFFIX,api.web3.network # Web3加速器 API 接口域名，用于客户端通信与控制台功能操作 
+
+# > Just My Sock 服务域名（JustMySock）
+
+DOMAIN-SUFFIX,justmysock.net # Just My Sock 主站域名，用于账户注册、节点订阅与控制台访问  
+DOMAIN-SUFFIX,portal.justmysock.net # Just My Sock 控制台入口域名，用于用户登录与服务管理  
+DOMAIN-SUFFIX,link.justmysock.net # Just My Sock 节点订阅链接域名，用于导入配置到各类客户端  
+
+# > 大哥云服务域名（Dageyun）
+
+DOMAIN-SUFFIX,dageyun.cc # 大哥云主站域名，用于用户注册、服务订阅与后台访问  
+DOMAIN-SUFFIX,dageyun.lol # 大哥云备用域名，用于主站访问与登录分流（动态轮换）  
+DOMAIN-SUFFIX,link.dageyun.cc # 大哥云节点订阅链接域名，用于导入配置到各类客户端  
+DOMAIN-SUFFIX,api.dageyun.cc # 大哥云 API 接口域名，用于账户信息、流量状态与公告获取  
+
+
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
