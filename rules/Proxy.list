@@ -39,6 +39,7 @@ DOMAIN-SUFFIX,c.speedtestcustom.com # Ookla Speedtest 自定义测速域名，�
 DOMAIN-SUFFIX,speed.cloudflare.com # Cloudflare 官方测速服务域名，用于测试 CDN 网络质量  
 DOMAIN-SUFFIX,fast.com # Netflix 旗下 Fast 测速服务主站域名，用于快速测速页面加载  
 DOMAIN-SUFFIX,api.fast.com # Fast 测速服务接口域名，用于测速数据交换与节点测试调度  
+DOMAIN-SUFFIX,logos.speedtestcustom.com # Ookla Speedtest 自定义测速平台图标域名，用于加载测速页面品牌标识与图像资源
 
 # > Kaspersky 相关域名
 
