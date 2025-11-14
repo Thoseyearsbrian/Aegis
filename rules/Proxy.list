@@ -3963,6 +3963,20 @@ DOMAIN-SUFFIX,uc.fofa.info  # Fofa 用户中心服务，用于账户与订单信
 DOMAIN-SUFFIX,member.fofa.info  # Fofa 会员功能节点，用于权限控制与服务管理  
 DOMAIN-SUFFIX,link.fofa.info  # Fofa 跳转短链服务，用于外链与链接追踪  
 
+# > Mozilla 功能性访问服务（Mozilla Access Services）
+
+DOMAIN-SUFFIX,mozilla.org # Mozilla 官网主域名，用于产品介绍、开发者文档与下载  
+DOMAIN-SUFFIX,firefox.com # Firefox 浏览器官网与产品门户网站  
+DOMAIN-SUFFIX,addons.mozilla.org # Firefox 插件商店域名，浏览器用户用于安装扩展插件  
+DOMAIN-SUFFIX,monitor.mozilla.org # Firefox Monitor 账号安全检测服务，用于邮件泄露监控  
+DOMAIN-SUFFIX,accounts.firefox.com # Firefox 用户账户登录与同步服务接口  
+DOMAIN-SUFFIX,oauth.accounts.firefox.com # Firefox OAuth 授权认证服务  
+DOMAIN-SUFFIX,profile.accounts.firefox.com # Firefox 账户资料管理与配置服务  
+DOMAIN-SUFFIX,download.mozilla.org # Firefox 安装包跳转与分发页面  
+DOMAIN-SUFFIX,aus5.mozilla.org # Firefox 自动更新接口，用于检测与下载更新版本  
+DOMAIN-SUFFIX,updates.cdn.mozilla.net # Firefox 更新 CDN 节点，支持组件和浏览器资源加载  
+DOMAIN-SUFFIX,mozilla.net # Mozilla CDN 域名，用于分发更新与浏览器内资源  
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
