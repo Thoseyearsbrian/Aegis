@@ -6,6 +6,31 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-11-14
 
+# > Speedtest 网络测速平台
+
+DOMAIN-SUFFIX,speedtest.net  # Speedtest 主站域名，由 Ookla 运营，用于测量互联网下载／上传速度与延迟 
+DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 媒体资源 CDN 域名，用于分发 PCMag、TechRepublic、Speedtest 等站点静态资源
+DOMAIN-SUFFIX,stosat-utah-01.sys.comcast.net.prod.hosts.ooklaserver.net  # Comcast 犹他州服务器测速节点，Ookla 专用域  
+DOMAIN-SUFFIX,speedtest.firstdigital.com.prod.hosts.ooklaserver.net  # FirstDigital 通信公司测速节点，位于犹他州  
+DOMAIN-SUFFIX,salt-lake-city.speedtest.centurylink.net  # CenturyLink 盐湖城测速节点，支持 Ookla 平台  
+DOMAIN-SUFFIX,speedtest.sumofiber.com.prod.hosts.ooklaserver.net  # SumoFiber 光纤测速节点，Salt Lake City 地区  
+DOMAIN-SUFFIX,speedtest.xmission.com.prod.hosts.ooklaserver.net  # XMission 本地 ISP 测速节点，支持 Ookla 客户端  
+DOMAIN-SUFFIX,speedtest2.avative.net.prod.hosts.ooklaserver.net  # Avative ISP 第二测速节点，位于犹他州  
+DOMAIN-SUFFIX,speedtest.utopiafiber.com.prod.hosts.ooklaserver.net  # Utopia Fiber 网络测速节点，用于本地测速  
+DOMAIN-SUFFIX,speedtest.hicountry.net.prod.hosts.ooklaserver.net  # HiCountry ISP 测速服务器，犹他州地区  
+DOMAIN-SUFFIX,yourspeed.allwest.com  # AllWest 通信测速子域，用于测速服务  
+DOMAIN-SUFFIX,speedtest.wifipros.co.prod.hosts.ooklaserver.net  # WifiPros 网络测速节点，支持 Ookla 测试平台  
+
+# > Google Fiber 主服务域名（GFiber / Google 宽带）
+
+DOMAIN-SUFFIX,gstaticcnapps.cn # GFiber CDN 中国节点域名，主要用于资源分发与测速验证  
+DOMAIN-SUFFIX,fiber.google.com # Google Fiber 主官网域名，用于服务介绍与用户登录  
+DOMAIN-SUFFIX,gigabit.google.com # GFiber 旧版本访问入口域名，部分地区仍在使用  
+DOMAIN-SUFFIX,fiberstatus.com # Google Fiber 网络状态查询平台，用于服务中断信息公告  
+DOMAIN-SUFFIX,gfiber.com # Google Fiber 品牌辅助域名，早期注册用于重定向或宣传页  
+DOMAIN-SUFFIX,gfiber.tv # GFiber 电视服务相关域名，主要用于流媒体与点播业务  
+DOMAIN-SUFFIX,gfiber.speedtestcustom.com # GFiber 定制测速平台域名，用于测速页面与回传数据通信  
+
 # > Kaspersky 相关域名
 
 DOMAIN-SUFFIX,kaspersky.com # 卡巴斯基主站域名，用于访问官网及通用服务
@@ -2997,21 +3022,6 @@ DOMAIN-SUFFIX,whoer.net  # Whoer 官方主站，用于 IP 地址、DNS 泄漏�
 # > VoidSec IP/泄漏检测平台
 
 DOMAIN-SUFFIX,ip.voidsec.com  # VoidSec 网站，用于检测 VPN/代理是否泄漏真实 IP 地址  
-
-# > Speedtest 网络测速平台
-
-DOMAIN-SUFFIX,speedtest.net  # Speedtest 主站域名，由 Ookla 运营，用于测量互联网下载／上传速度与延迟 
-DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 媒体资源 CDN 域名，用于分发 PCMag、TechRepublic、Speedtest 等站点静态资源
-DOMAIN-SUFFIX,stosat-utah-01.sys.comcast.net.prod.hosts.ooklaserver.net  # Comcast 犹他州服务器测速节点，Ookla 专用域  
-DOMAIN-SUFFIX,speedtest.firstdigital.com.prod.hosts.ooklaserver.net  # FirstDigital 通信公司测速节点，位于犹他州  
-DOMAIN-SUFFIX,salt-lake-city.speedtest.centurylink.net  # CenturyLink 盐湖城测速节点，支持 Ookla 平台  
-DOMAIN-SUFFIX,speedtest.sumofiber.com.prod.hosts.ooklaserver.net  # SumoFiber 光纤测速节点，Salt Lake City 地区  
-DOMAIN-SUFFIX,speedtest.xmission.com.prod.hosts.ooklaserver.net  # XMission 本地 ISP 测速节点，支持 Ookla 客户端  
-DOMAIN-SUFFIX,speedtest2.avative.net.prod.hosts.ooklaserver.net  # Avative ISP 第二测速节点，位于犹他州  
-DOMAIN-SUFFIX,speedtest.utopiafiber.com.prod.hosts.ooklaserver.net  # Utopia Fiber 网络测速节点，用于本地测速  
-DOMAIN-SUFFIX,speedtest.hicountry.net.prod.hosts.ooklaserver.net  # HiCountry ISP 测速服务器，犹他州地区  
-DOMAIN-SUFFIX,yourspeed.allwest.com  # AllWest 通信测速子域，用于测速服务  
-DOMAIN-SUFFIX,speedtest.wifipros.co.prod.hosts.ooklaserver.net  # WifiPros 网络测速节点，支持 Ookla 测试平台  
 
 # > SMS‑Activate 虚拟号码接收服务
 
