@@ -1373,7 +1373,7 @@ DOMAIN-SUFFIX,xinhuanet.com # 新华网（党媒）
 
 # > 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
 
-DOMAIN-SUFFIX,ocsp.digicert.com,DIRECT # DigiCert 证书吊销状态查询（OCSP）
+DOMAIN-SUFFIX,ocsp.digicert.com # DigiCert 证书吊销状态查询（OCSP）
 DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国区证书吊销检查服务（OCSP，用于验证证书有效性）
 DOMAIN-SUFFIX,ocsp.comodoca.com # Comodo 证书吊销状态查询服务（OCSP，用于验证证书有效性）
 DOMAIN-SUFFIX,ocsp.comodoca.com # Sectigo OCSP 证书吊销状态查询服务（用于验证证书有效性）
