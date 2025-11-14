@@ -31,6 +31,15 @@ DOMAIN-SUFFIX,gfiber.com # Google Fiber 品牌辅助域名，早期注册用于�
 DOMAIN-SUFFIX,gfiber.tv # GFiber 电视服务相关域名，主要用于流媒体与点播业务  
 DOMAIN-SUFFIX,gfiber.speedtestcustom.com # GFiber 定制测速平台域名，用于测速页面与回传数据通信  
 
+# > Speedtest 测速平台域名（Ookla / Fast / Cloudflare）
+
+DOMAIN-SUFFIX,speedtest.net # Ookla 主站测速服务域名，用户访问网页测速主入口  
+DOMAIN-SUFFIX,ooklaserver.net # Ookla 测速服务器分发域名，用于测速节点就近选择与数据上传  
+DOMAIN-SUFFIX,c.speedtestcustom.com # Ookla Speedtest 自定义测速域名，用于加载测速页面组件与通信脚本  
+DOMAIN-SUFFIX,speed.cloudflare.com # Cloudflare 官方测速服务域名，用于测试 CDN 网络质量  
+DOMAIN-SUFFIX,fast.com # Netflix 旗下 Fast 测速服务主站域名，用于快速测速页面加载  
+DOMAIN-SUFFIX,api.fast.com # Fast 测速服务接口域名，用于测速数据交换与节点测试调度  
+
 # > Kaspersky 相关域名
 
 DOMAIN-SUFFIX,kaspersky.com # 卡巴斯基主站域名，用于访问官网及通用服务
