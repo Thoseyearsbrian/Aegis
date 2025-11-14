@@ -3954,19 +3954,36 @@ DOMAIN-SUFFIX,api.dageyun.cc # 大哥云 API 接口域名，用于账户信息�
 DOMAIN-SUFFIX,6pzftj.com # 一元机场主域名，用于代理节点与用户管理面板服务  
 DOMAIN-SUFFIX,6pzfwf.com # 一元机场备用域名，提供代理节点与订阅链接分发服务  
 
+# > 四杰机场（Sijie VPN Service）
+
+DOMAIN-SUFFIX,sjjslink.xyz # 四杰机场主域名，用于订阅链接与用户管理面板服务  
+DOMAIN-SUFFIX,sjjsapi.xyz # 四杰机场 API 与控制接口域名，用于订阅信息下发与节点配置  
+DOMAIN-SUFFIX,sjnode.xyz # 四杰机场节点分发域名，用于代理服务器连接与节点中转  
+
+# > Dler 机场服务（Dler VPN Service）
+
+DOMAIN-SUFFIX,dler.cloud # Dler 主域名，用于订阅链接、用户面板与代理节点分发服务  
+DOMAIN-SUFFIX,dlerss.com # Dler 备用域名，用于代理节点订阅与服务状态分发  
+
+# > 花云机场服务（Huayun VPN Service）
+
+DOMAIN-SUFFIX,huayun.net # 花云主域名，用于代理节点分发、用户订阅与面板服务  
+DOMAIN-SUFFIX,huayun.tech # 花云备用域名，用于服务镜像与备用节点订阅接口  
+DOMAIN-SUFFIX,huayuncloud.xyz # 花云历史使用域名之一，可能仍被部分客户端调用  
+
 # > Fofa（安全资产搜索平台 / 安全社区服务）
 
 DOMAIN-SUFFIX,fofa.info  # Fofa 主站，用于全球资产检索与指纹识别服务  
-DOMAIN-SUFFIX,api.fofa.info  # Fofa API 接口，用于程序化访问与数据交互  
-DOMAIN-SUFFIX,cdn.fofa.info  # Fofa 静态资源 CDN，用于镜像分发与前端加载  
-DOMAIN-SUFFIX,static.fofa.info  # Fofa 页面静态资源，用于组件与脚本支持  
-DOMAIN-SUFFIX,search.fofa.info  # Fofa 搜索节点，用于资产检索与跳转服务  
-DOMAIN-SUFFIX,auth.fofa.info  # Fofa 登录与验证接口，用于身份认证与用户授权  
-DOMAIN-SUFFIX,push.fofa.info  # Fofa 推送接口，用于通知与数据刷新  
-DOMAIN-SUFFIX,graph.fofa.info  # Fofa 资产图谱服务，用于资产关联可视化  
-DOMAIN-SUFFIX,uc.fofa.info  # Fofa 用户中心服务，用于账户与订单信息管理  
-DOMAIN-SUFFIX,member.fofa.info  # Fofa 会员功能节点，用于权限控制与服务管理  
-DOMAIN-SUFFIX,link.fofa.info  # Fofa 跳转短链服务，用于外链与链接追踪  
+DOMAIN-SUFFIX,api.fofa.info # Fofa API 接口，用于程序化访问与数据交互  
+DOMAIN-SUFFIX,cdn.fofa.info # Fofa 静态资源 CDN，用于镜像分发与前端加载  
+DOMAIN-SUFFIX,static.fofa.info # Fofa 页面静态资源，用于组件与脚本支持  
+DOMAIN-SUFFIX,search.fofa.info # Fofa 搜索节点，用于资产检索与跳转服务  
+DOMAIN-SUFFIX,auth.fofa.info # Fofa 登录与验证接口，用于身份认证与用户授权  
+DOMAIN-SUFFIX,push.fofa.info # Fofa 推送接口，用于通知与数据刷新  
+DOMAIN-SUFFIX,graph.fofa.info # Fofa 资产图谱服务，用于资产关联可视化  
+DOMAIN-SUFFIX,uc.fofa.info # Fofa 用户中心服务，用于账户与订单信息管理  
+DOMAIN-SUFFIX,member.fofa.info # Fofa 会员功能节点，用于权限控制与服务管理  
+DOMAIN-SUFFIX,link.fofa.info # Fofa 跳转短链服务，用于外链与链接追踪  
 
 # > Mozilla 功能性访问服务（Mozilla Access Services）
 
