@@ -3929,7 +3929,19 @@ DOMAIN-SUFFIX,dageyun.lol # 大哥云备用域名，用于主站访问与登录�
 DOMAIN-SUFFIX,link.dageyun.cc # 大哥云节点订阅链接域名，用于导入配置到各类客户端  
 DOMAIN-SUFFIX,api.dageyun.cc # 大哥云 API 接口域名，用于账户信息、流量状态与公告获取  
 
+# > Fofa（安全资产搜索平台 / 安全社区服务）
 
+DOMAIN-SUFFIX,fofa.info  # Fofa 主站，用于全球资产检索与指纹识别服务  
+DOMAIN-SUFFIX,api.fofa.info  # Fofa API 接口，用于程序化访问与数据交互  
+DOMAIN-SUFFIX,cdn.fofa.info  # Fofa 静态资源 CDN，用于镜像分发与前端加载  
+DOMAIN-SUFFIX,static.fofa.info  # Fofa 页面静态资源，用于组件与脚本支持  
+DOMAIN-SUFFIX,search.fofa.info  # Fofa 搜索节点，用于资产检索与跳转服务  
+DOMAIN-SUFFIX,auth.fofa.info  # Fofa 登录与验证接口，用于身份认证与用户授权  
+DOMAIN-SUFFIX,push.fofa.info  # Fofa 推送接口，用于通知与数据刷新  
+DOMAIN-SUFFIX,graph.fofa.info  # Fofa 资产图谱服务，用于资产关联可视化  
+DOMAIN-SUFFIX,uc.fofa.info  # Fofa 用户中心服务，用于账户与订单信息管理  
+DOMAIN-SUFFIX,member.fofa.info  # Fofa 会员功能节点，用于权限控制与服务管理  
+DOMAIN-SUFFIX,link.fofa.info  # Fofa 跳转短链服务，用于外链与链接追踪  
 
 # > 其他 (暂未分类)
 
