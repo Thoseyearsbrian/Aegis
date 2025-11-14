@@ -3265,6 +3265,439 @@ DOMAIN-SUFFIX,bwh8.net # 搬瓦工备用跳转域名，部分地区用于控制�
 DOMAIN-SUFFIX,vpsbench.net # 搬瓦工性能测试站点域名，用于全球节点测速与网络延迟检测  
 DOMAIN-SUFFIX,letshost.pw # 搬瓦工关联销售域名，用于部分促销活动与跳转入口  
 
+# > Vultr 服务域名
+
+DOMAIN-SUFFIX,vultr.com # Vultr 官方主域名，用于账户注册、登录与面板访问
+DOMAIN-SUFFIX,www.vultr.com # Vultr 官网前端展示域名（重定向主站）
+DOMAIN-SUFFIX,api.vultr.com # Vultr 公共 API 接口，用于资源管理、实例创建与自动部署
+DOMAIN-SUFFIX,metadata.vultr.com # Vultr 元数据服务域名，用于实例初始化与配置（cloud-init）
+DOMAIN-SUFFIX,console.vultr.com # Vultr 控制台管理界面域名，提供图形化控制与登录台操作
+DOMAIN-SUFFIX,my.vultr.com # Vultr 客户账户管理子域名，包含账单、实例管理等功能
+DOMAIN-SUFFIX,ns.vultr.com # Vultr 官方 DNS 解析服务域名（NS1 ~ NS5）
+DOMAIN-SUFFIX,assets.vultrcdn.com # Vultr CDN 分发资源域名，用于加载前端静态资源
+DOMAIN-SUFFIX,static.vultrcdn.com # Vultr 静态内容分发域名（图标、样式等）
+DOMAIN-SUFFIX,status.vultr.com # Vultr 系统状态监控页面域名
+
+# > Linode 服务域名
+
+DOMAIN-SUFFIX,linode.com # Linode 主官网与账户面板，用于登录、购买、控制台管理等核心服务
+DOMAIN-SUFFIX,www.linode.com # Linode 官网首页域名（常作入口页跳转）
+DOMAIN-SUFFIX,api.linode.com # Linode 公共 API 接口，用于自动部署、VPS 资源操作等场景
+DOMAIN-SUFFIX,cloud.linode.com # Linode 控制面板前端域名，提供图形化控制台与实例管理
+DOMAIN-SUFFIX,login.linode.com # Linode 登录验证与账户管理子域，用于身份认证与多因素登录
+DOMAIN-SUFFIX,manager.linode.com # Linode 老版面板跳转域名（现已重定向至 cloud.linode.com）
+DOMAIN-SUFFIX,metadata.linode.com # Linode 元数据服务域名，用于实例 cloud-init 初始化与配置信息读取
+DOMAIN-SUFFIX,stats.linode.com # Linode 性能监控子域名，用于采集 CPU、网络、磁盘等状态数据
+DOMAIN-SUFFIX,status.linode.com # Linode 全平台状态页，用于服务中断、故障公告等监控发布
+DOMAIN-SUFFIX,support.linode.com # Linode 支持中心与文档系统域名
+DOMAIN-SUFFIX,objects-us-east-1.linodeobjects.com # Linode 对象存储服务（S3兼容），示例区域为 us-east-1
+DOMAIN-SUFFIX,linodeobjects.com # Linode 对象存储统一域名（多区域子域形式存在）
+DOMAIN-SUFFIX,linodeusercontent.com # Linode 用户上传内容托管域名（例如图片、日志、代码包等）
+
+# > DigitalOcean 服务域名
+
+DOMAIN-SUFFIX,digitalocean.com # DigitalOcean 官网与账户管理面板，主入口域名
+DOMAIN-SUFFIX,www.digitalocean.com # DigitalOcean 官网首页域名，用于跳转与营销页
+DOMAIN-SUFFIX,cloud.digitalocean.com # 控制台域名，提供 Droplets、Kubernetes、存储等服务管理
+DOMAIN-SUFFIX,api.digitalocean.com # DigitalOcean API 服务入口，用于 CLI 与自动化部署
+DOMAIN-SUFFIX,metadata.digitalocean.com # 实例元数据服务域名，Droplet 云初始化过程使用
+DOMAIN-SUFFIX,spaces.digitaloceanspaces.com # DigitalOcean Spaces 对象存储服务（兼容 S3），常用于静态资源托管
+DOMAIN-SUFFIX,digitaloceanspaces.com # Spaces 对象存储统一域名，支持多区域与多租户结构
+DOMAIN-SUFFIX,do-api.dev # DigitalOcean 内部 API 测试域名，偶尔用于 SDK 与内部服务调用
+DOMAIN-SUFFIX,do-user-content.com # DigitalOcean 用户托管内容域名（如 App Platform 托管页面）
+DOMAIN-SUFFIX,do.co # DigitalOcean 官方短链服务域名，用于跳转、文档与营销页面
+DOMAIN-SUFFIX,status.digitalocean.com # DigitalOcean 服务状态页面，用于发布中断与维护公告
+DOMAIN-SUFFIX,docs.digitalocean.com # 官方文档站点，用于查阅 API、部署、云服务配置等指南
+DOMAIN-SUFFIX,slugs.digitalocean.com # Droplet 镜像与系统映像识别子域（镜像分发用途）
+
+# > Hetzner 服务域名
+
+DOMAIN-SUFFIX,hetzner.com # Hetzner 官网主域名，用于账户注册、产品购买与服务说明
+DOMAIN-SUFFIX,robot.your-server.de # Hetzner Robot 控制台域名，主要用于专用服务器管理
+DOMAIN-SUFFIX,cloud.hetzner.com # Hetzner Cloud 控制台域名，用于虚拟机与存储管理
+DOMAIN-SUFFIX,docs.hetzner.cloud # Hetzner Cloud 官方文档域名，用于 API 与配置指南说明
+DOMAIN-SUFFIX,status.hetzner.com # Hetzner 服务状态页，用于实时维护通告与中断信息
+DOMAIN-SUFFIX,upload.hetzner.com # Hetzner 文件上传服务域名，常用于 ISOs 上传等任务
+DOMAIN-SUFFIX,install.hetzner.com # Hetzner 系统安装器接口，用于自动化重装与模板部署
+DOMAIN-SUFFIX,mirror.hetzner.com # Hetzner 镜像源节点域名，用于 Linux 系统组件更新与同步
+DOMAIN-SUFFIX,static.hetzner.com # Hetzner 静态资源 CDN 域名，用于加载控制台前端组件
+DOMAIN-SUFFIX,hel1.hetzner.com # Hetzner 芬兰（HEL1）节点标识域名，部分测速与认证服务使用
+DOMAIN-SUFFIX,nuremberg.hetzner.com # Hetzner 纽伦堡（NBG）数据中心相关域名
+DOMAIN-SUFFIX,fsn1.hetzner.com # Hetzner Falkenstein（FSN1）数据中心内部域名
+DOMAIN-SUFFIX,nbg1.hetzner.com # Hetzner Nuremberg（NBG1）节点域名，用于 CDN 与工具服务
+DOMAIN-SUFFIX,cloud.hetzner.online # Hetzner Cloud API 与 OAuth 鉴权域名（部分服务仍使用该结构）
+DOMAIN-SUFFIX,accounts.hetzner.com # Hetzner 账户登录与验证接口域名（SSO 服务）
+DOMAIN-SUFFIX,console.hetzner.cloud # Hetzner Cloud 控制台前端入口域名，常用于前端 SPA 页面加载
+
+# > Oracle Cloud 服务域名
+
+DOMAIN-SUFFIX,oracle.com # Oracle 官网主域名，用于账户登录、产品订阅与服务导航  
+DOMAIN-SUFFIX,cloud.oracle.com # Oracle Cloud 控制台主入口，用于创建与管理云资源  
+DOMAIN-SUFFIX,oci.oraclecloud.com # Oracle Cloud Infrastructure（OCI）主控制域名  
+DOMAIN-SUFFIX,objectstorage.oraclecloud.com # Oracle 对象存储服务接口（Object Storage）  
+DOMAIN-SUFFIX,identity.oraclecloud.com # Oracle 身份验证服务接口（IAM 身份与访问管理）  
+DOMAIN-SUFFIX,compute.oraclecloud.com # Oracle 计算资源接口（Compute 实例与管理 API）  
+DOMAIN-SUFFIX,console.oraclecloud.com # Oracle Cloud 控制台 Web 前端加载与交互资源  
+DOMAIN-SUFFIX,auth.oraclecloud.com # Oracle Cloud 登录与身份认证接口  
+DOMAIN-SUFFIX,iaas.us-ashburn-1.oraclecloud.com # Oracle IaaS 区域节点（示例：美国东部 Ashburn）  
+DOMAIN-SUFFIX,iaas.ap-tokyo-1.oraclecloud.com # Oracle IaaS 区域节点（示例：日本东京）  
+DOMAIN-SUFFIX,iaas.ap-hyderabad-1.oraclecloud.com # Oracle IaaS 区域节点（示例：印度 Hyderabad）  
+DOMAIN-SUFFIX,iaas.cn-shanghai-1.oraclecloud.com # Oracle IaaS 区域节点（示例：中国上海）  
+DOMAIN-SUFFIX,tenancy.oraclecloud.com # Oracle 多租户与控制面接口域名  
+DOMAIN-SUFFIX,docs.oracle.com # Oracle 官方文档域名，用于产品手册与 API 指南  
+DOMAIN-SUFFIX,status.oraclecloud.com # Oracle Cloud 服务状态页，用于查看区域服务可用性  
+DOMAIN-SUFFIX,oc-signin.oraclecloud.com # Oracle 登录界面前端资源域名  
+DOMAIN-SUFFIX,cdn.oracle.com # Oracle 静态资源 CDN 域名，用于加载控制台图标与样式文件  
+DOMAIN-SUFFIX,oc-cdn.oraclecloud.com # Oracle Cloud 专属 CDN 加速域名（用于控制台与接口响应）  
+DOMAIN-SUFFIX,oraclecloud.com # Oracle Cloud 通配主域，用于覆盖各区域与服务子域  
+
+# > Amazon Lightsail 服务域名
+
+DOMAIN-SUFFIX,lightsail.aws.amazon.com # Amazon Lightsail 控制台主域名，用于管理虚拟机与网络资源  
+DOMAIN-SUFFIX,lightsail.com # Amazon Lightsail 品牌入口域名，部分跳转页面与说明文档使用  
+DOMAIN-SUFFIX,amazonlightsail.com # Amazon Lightsail 品牌宣传与资源域名  
+DOMAIN-SUFFIX,api.lightsail.aws.amazon.com # Lightsail API 接口域名，用于 CLI 与 SDK 远程控制实例  
+DOMAIN-SUFFIX,static-lightsail.aws.amazon.com # Lightsail 控制台静态资源加载域名  
+DOMAIN-SUFFIX,lightsail.amazonaws.com # 兼容 AWS API 的旧版本接口，部分 SDK 调用保留使用  
+DOMAIN-SUFFIX,us-west-1.lightsail.aws.amazon.com # Amazon Lightsail 区域节点域名（示例：美国西部）  
+DOMAIN-SUFFIX,ap-northeast-1.lightsail.aws.amazon.com # Amazon Lightsail 区域节点域名（示例：东京）  
+DOMAIN-SUFFIX,cdn.lightsail.com # Lightsail 网站静态资源 CDN 加速域名  
+DOMAIN-SUFFIX,lightsail-status.aws.amazon.com # Lightsail 服务状态页，用于查看各区域运行状况  
+
+# > GreenCloud VPS 服务域名
+
+DOMAIN-SUFFIX,greencloudvps.com # GreenCloud 官网主域名，用于 VPS 产品浏览、账号管理与订单处理  
+DOMAIN-SUFFIX,billing.greencloudvps.com # GreenCloud 客户中心域名，用于账户登录、开票与服务管理  
+DOMAIN-SUFFIX,cp.greencloudvps.com # GreenCloud 控制面板入口，用于 VPS 启动、重装、重启等操作  
+DOMAIN-SUFFIX,lg.greencloudvps.com # GreenCloud Looking Glass 站点，用于全球节点测速与回程路由测试  
+DOMAIN-SUFFIX,aff.greencloudvps.com # GreenCloud 联盟营销子域名，用于推广链接与佣金系统访问  
+DOMAIN-SUFFIX,greencloudvps.net # GreenCloud 品牌备用域名，部分跳转页面与镜像服务使用  
+DOMAIN-SUFFIX,static.greencloudvps.com # GreenCloud 静态资源加载域名，用于网站样式与图片加载  
+DOMAIN-SUFFIX,status.greencloudvps.com # GreenCloud 服务状态监控域名，用于查询各地区节点运行状况  
+
+# > LightNode VPS 服务域名
+
+DOMAIN-SUFFIX,lightnode.com # LightNode 官网主域名，用于 VPS 浏览、用户注册与购买服务  
+DOMAIN-SUFFIX,portal.lightnode.com # LightNode 控制面板域名，用于 VPS 开关机、重装、资源监控等操作  
+DOMAIN-SUFFIX,billing.lightnode.com # LightNode 账户与账单管理中心，用于充值、发票与订阅管理  
+DOMAIN-SUFFIX,status.lightnode.com # LightNode 服务状态监控域名，用于各地机房与 API 状态展示  
+DOMAIN-SUFFIX,cdn.lightnode.com # LightNode 静态资源加载域名，用于控制台图标与样式等前端资源  
+DOMAIN-SUFFIX,help.lightnode.com # LightNode 帮助中心与工单系统，用于用户自助排障与联系客服支持  
+
+# > RackNerd VPS 服务域名
+
+DOMAIN-SUFFIX,racknerd.com # RackNerd 官方主域名，用于 VPS 浏览、购买、官网宣传与活动页面  
+DOMAIN-SUFFIX,my.racknerd.com # RackNerd 客户面板域名，用于 VPS 管理、账单支付与服务工单提交  
+DOMAIN-SUFFIX,lg.racknerd.com # RackNerd Looking Glass 测速站，用于测试全球机房的网络延迟与带宽性能  
+DOMAIN-SUFFIX,status.racknerd.com # RackNerd 服务状态监控页面域名，用于查看各数据中心运行状态  
+DOMAIN-SUFFIX,mail.racknerd.com # RackNerd 邮件服务域名，用于发送注册验证、账单通知等系统邮件  
+DOMAIN-SUFFIX,billing.racknerd.com # RackNerd 账单系统入口域名（部分页面与 my.racknerd.com 重定向关联） 
+
+# > InterServer VPS 服务域名
+
+DOMAIN-SUFFIX,interserver.net # InterServer 官方主域名，用于官网访问、VPS 产品浏览与订购服务  
+DOMAIN-SUFFIX,my.interserver.net # InterServer 客户管理面板域名，用于账户登录、VPS 管理与账单工单处理  
+DOMAIN-SUFFIX,support.interserver.net # InterServer 客服支持系统域名，用于提交与跟踪技术支持请求  
+DOMAIN-SUFFIX,status.interserver.net # InterServer 服务运行状态页面，用于监控服务器与网络状态  
+DOMAIN-SUFFIX,mail.interserver.net # InterServer 邮件相关域名，用于系统邮件发送与通知收取  
+DOMAIN-SUFFIX,blog.interserver.net # InterServer 官方博客域名，用于发布公告、维护计划与服务更新日志  
+DOMAIN-SUFFIX,cp.interserver.net # InterServer 控制面板入口域名（部分客户使用此入口登录 VPS 控制台）  
+DOMAIN-SUFFIX,lg.interserver.net # InterServer Looking Glass 测速站，用于测试美国等节点的网络连接质量  
+
+# > BuyVM VPS 服务域名
+
+DOMAIN-SUFFIX,frantech.ca # BuyVM 母公司 Frantech Solutions 官方主域名，用于公司介绍与联系信息  
+DOMAIN-SUFFIX,buyvm.net # BuyVM 官网主域名，用于 VPS 订购、账户管理与产品浏览  
+DOMAIN-SUFFIX,manage.buyvm.net # BuyVM 客户面板入口域名，用于管理 VPS 实例、账单与技术支持  
+DOMAIN-SUFFIX,stallion.buyvm.net # BuyVM Stallion 控制面板域名，用于远程重启、挂载 ISO、资源监控等 VPS 管理操作  
+DOMAIN-SUFFIX,lg.las.buyvm.net # BuyVM Looking Glass 测试站（拉斯维加斯），用于查看网络路由与延迟  
+DOMAIN-SUFFIX,lg.nyc.buyvm.net # BuyVM Looking Glass 测试站（纽约），用于测速与节点延迟测试  
+DOMAIN-SUFFIX,lg.lux.buyvm.net # BuyVM Looking Glass 测试站（卢森堡），用于欧洲节点网络测试  
+
+# > HostHatch VPS 服务域名
+
+DOMAIN-SUFFIX,hosthatch.com # HostHatch 官网主域名，用于账户注册、VPS 订购与公告信息  
+DOMAIN-SUFFIX,cp.hosthatch.com # HostHatch 控制面板域名，用于 VPS 实例管理、重装系统与查看使用情况  
+DOMAIN-SUFFIX,lg.ams.hosthatch.com # HostHatch Looking Glass 测试站（阿姆斯特丹），用于网络延迟与路由分析  
+DOMAIN-SUFFIX,lg.mia.hosthatch.com # HostHatch Looking Glass 测试站（迈阿密），提供美国节点的测速服务  
+DOMAIN-SUFFIX,lg.sto.hosthatch.com # HostHatch Looking Glass 测试站（斯德哥尔摩），用于欧洲 VPS 网络测试  
+DOMAIN-SUFFIX,status.hosthatch.com # HostHatch 服务状态页，用于监控节点运行状态与系统公告  
+
+# > OVHcloud VPS 服务域名
+
+DOMAIN-SUFFIX,ovh.com # OVHcloud 官网主域名，涵盖 VPS/独服/云计算等服务入口  
+DOMAIN-SUFFIX,ovhcloud.com # OVHcloud 全球统一品牌域名，用于用户登录、服务订购与全球资源调度  
+DOMAIN-SUFFIX,api.ovh.com # OVHcloud API 主接口域名，用于开发者远程管理资源与服务  
+DOMAIN-SUFFIX,billing.ovh.com # OVHcloud 账单系统域名，用于查看订单、发票与续费管理  
+DOMAIN-SUFFIX,ca.ovh.com # OVH 加拿大官网入口，用于北美用户服务访问  
+DOMAIN-SUFFIX,eu.ovhcloud.com # OVHcloud 欧洲服务接口域名，用于欧盟地区的面板与资源访问  
+DOMAIN-SUFFIX,status.ovhcloud.com # OVHcloud 服务状态页，用于查看各服务运行状态与维护通告  
+DOMAIN-SUFFIX,docs.ovh.com # OVHcloud 官方文档与开发者指南域名  
+DOMAIN-SUFFIX,control.ovh.com # OVH 控制面板入口（部分老用户仍在使用）  
+DOMAIN-SUFFIX,manager.ovh.com # OVHcloud 新版服务管理面板，整合所有产品控制与监控功能  
+DOMAIN-SUFFIX,support.ovhcloud.com # OVHcloud 官方工单与支持平台域名  
+
+# > IONOS（1&1 IONOS）VPS 服务域名
+
+DOMAIN-SUFFIX,ionos.com # IONOS 全球主站域名，提供 VPS、独立服务器与托管云解决方案  
+DOMAIN-SUFFIX,ionos.ca # IONOS 加拿大站点，提供本地化 VPS 与主机服务  
+DOMAIN-SUFFIX,ionos.de # IONOS 德国站点，面向 DACH 地区提供本地服务器与管理服务  
+DOMAIN-SUFFIX,my.ionos.com # IONOS 用户控制面板入口，用于管理 VPS、域名与邮箱服务  
+DOMAIN-SUFFIX,api.ionos.com # IONOS 公共 API 接口域名，供开发者远程调用管理资源  
+DOMAIN-SUFFIX,cloud.ionos.com # IONOS 云控制平台域名，用于云实例与存储管理  
+DOMAIN-SUFFIX,status.ionos.com # IONOS 官方服务状态页面，查看节点故障与维护公告  
+DOMAIN-SUFFIX,hosting.ionos.de # IONOS 主机管理服务接口（德国站）  
+DOMAIN-SUFFIX,mail.ionos.com # IONOS 邮件服务域名，部分 VPS 客户搭配使用  
+DOMAIN-SUFFIX,support.ionos.com # IONOS 客服支持平台，用于提交工单与查询服务状态  
+DOMAIN-SUFFIX,ionos-status.com # IONOS 备用状态页域名，用于多区域冗余通知通道  
+
+# > RamNode VPS 服务域名
+
+DOMAIN-SUFFIX,ramnode.com # RamNode 官网主域名，提供 VPS 销售、客户服务与产品介绍  
+DOMAIN-SUFFIX,clientarea.ramnode.com # RamNode 客户中心域名，用于订单管理与服务器控制面板登录  
+DOMAIN-SUFFIX,solusvm.ramnode.com # RamNode SolusVM 控制面板，用于 VPS 实例重启、重装与资源监控  
+DOMAIN-SUFFIX,atl.ramnode.com # RamNode 亚特兰大数据中心节点域名，用于部分资源分发  
+DOMAIN-SUFFIX,nyc.ramnode.com # RamNode 纽约数据中心节点域名，部分区域用于 API 或状态查询  
+DOMAIN-SUFFIX,sea.ramnode.com # RamNode 西雅图节点域名，用于部分北美用户服务调度  
+DOMAIN-SUFFIX,nl.ramnode.com # RamNode 荷兰阿姆斯特丹节点域名，适用于欧洲 VPS 实例管理  
+DOMAIN-SUFFIX,sg.ramnode.com # RamNode 新加坡节点服务域名，用于亚洲 VPS 控制与内容分发  
+DOMAIN-SUFFIX,la.ramnode.com # RamNode 洛杉矶节点域名，覆盖部分亚太 / 美西地区用户服务  
+DOMAIN-SUFFIX,las.ramnode.com # RamNode 洛杉矶备用节点域名，用于服务分流与资源调度  
+DOMAIN-SUFFIX,status.ramnode.com # RamNode 服务状态页面，用于查看服务器运行状态与维护信息  
+DOMAIN-SUFFIX,mirror.ramnode.com # RamNode 软件镜像与系统镜像分发站，用于 VPS 系统安装源获取  
+
+# > DMIT VPS 服务域名
+
+DOMAIN-SUFFIX,dmit.io # DMIT 官网主域名，用于 VPS 订购、账户管理与支持服务  
+DOMAIN-SUFFIX,dmit.hk # DMIT 香港站跳转域名，部分区域用于面板访问优化  
+DOMAIN-SUFFIX,dmithost.com # DMIT 早期注册域名，部分老用户控制面板仍在使用  
+DOMAIN-SUFFIX,portal.dmit.io # DMIT 客户门户域名，用于账单、开票、VPS 操作等功能  
+DOMAIN-SUFFIX,status.dmit.io # DMIT 服务状态页，用于监控节点运行与维护状态  
+DOMAIN-SUFFIX,cloud.dmit.io # DMIT Cloud 控制台，用于部分高配独立服务器与专属面板管理  
+DOMAIN-SUFFIX,cdn.dmit.io # DMIT 静态资源 CDN，用于加载官网与控制台资源  
+DOMAIN-SUFFIX,api.dmit.io # DMIT API 接口域名，用于自动化部署与控制功能调用  
+DOMAIN-SUFFIX,dmithosting.com # DMIT 关联品牌域名，历史促销活动中可能使用  
+
+# > LOCVPS 服务域名
+
+DOMAIN-SUFFIX,locvps.com # LOCVPS 官网主域名，用于 VPS 订购、账户中心与服务管理  
+DOMAIN-SUFFIX,locvps.net # LOCVPS 辅助域名，用于跳转、支付处理与部分静态资源加载  
+DOMAIN-SUFFIX,cp.locvps.com # LOCVPS 控制面板域名，用于 VPS 实例管理与远程控制  
+DOMAIN-SUFFIX,bbs.locvps.com # LOCVPS 官方论坛域名，用于用户讨论与服务公告  
+DOMAIN-SUFFIX,status.locvps.com # LOCVPS 状态监控域名，用于查看服务运行状况与维护通知  
+DOMAIN-SUFFIX,pay.locvps.com # LOCVPS 支付中心域名，用于账单处理与支付接口跳转  
+DOMAIN-SUFFIX,static.locvps.com # LOCVPS 静态资源加载域名，用于控制台界面与文档资源  
+
+# > JustHost 服务域名
+
+DOMAIN-SUFFIX,justhost.com # JustHost 官网主域名，用于产品浏览、账户管理与服务订购  
+DOMAIN-SUFFIX,my.justhost.com # JustHost 用户面板域名，用于主机管理、域名绑定与账单操作  
+DOMAIN-SUFFIX,cpanel.justhost.com # JustHost 控制面板域名，提供 cPanel 管理界面访问  
+DOMAIN-SUFFIX,mail.justhost.com # JustHost 邮件服务域名，用于 Webmail 与邮件客户端连接  
+DOMAIN-SUFFIX,secure.justhost.com # JustHost 安全连接入口，用于登录与支付等加密交互  
+DOMAIN-SUFFIX,help.justhost.com # JustHost 帮助中心与支持文档域名  
+DOMAIN-SUFFIX,chat.justhost.com # JustHost 在线客服聊天系统域名  
+
+# > 恒创科技 HengHost 服务域名
+
+DOMAIN-SUFFIX,henghost.com # 恒创科技主官网域名，用于产品介绍、VPS 订购与企业官网访问  
+DOMAIN-SUFFIX,cloud.henghost.com # 恒创云控制台域名，用于云主机、云服务器等服务管理  
+DOMAIN-SUFFIX,vps.henghost.com # 恒创科技 VPS 控制面板入口，用于虚拟服务器管理操作  
+DOMAIN-SUFFIX,idc.henghost.com # 恒创数据中心业务子域名，用于托管、租用等 IDC 服务  
+DOMAIN-SUFFIX,billing.henghost.com # 恒创科技账单系统域名，用于用户充值、开票与付款  
+DOMAIN-SUFFIX,support.henghost.com # 恒创客户支持系统入口，用于工单提交与服务咨询  
+DOMAIN-SUFFIX,monitor.henghost.com # 恒创云监控平台域名，用于资源监控与性能分析  
+DOMAIN-SUFFIX,status.henghost.com # 恒创科技状态页域名，用于查看各服务运行状态  
+DOMAIN-SUFFIX,cdn.henghost.com # 恒创 CDN 内容分发节点域名，用于加速与缓存服务资源  
+
+# > 青云 QingCloud 服务域名
+
+DOMAIN-SUFFIX,qingcloud.com # 青云主官网域名，用于产品介绍、文档与平台入口  
+DOMAIN-SUFFIX,console.qingcloud.com # 青云控制台主域名，用于创建与管理云资源  
+DOMAIN-SUFFIX,api.qingcloud.com # 青云 API 接口域名，用于 CLI、SDK 与第三方集成调用  
+DOMAIN-SUFFIX,docs.qingcloud.com # 青云官方文档平台域名，包含产品使用说明与开发指南  
+DOMAIN-SUFFIX,monitor.qingcloud.com # 青云监控服务域名，用于资源状态查看与告警配置  
+DOMAIN-SUFFIX,billing.qingcloud.com # 青云计费系统域名，用于账单查看、支付与续费操作  
+DOMAIN-SUFFIX,status.qingcloud.com # 青云服务状态页域名，用于查看服务运行状况  
+DOMAIN-SUFFIX,image.qingcloud.com # 青云镜像服务域名，用于系统镜像与模板管理  
+DOMAIN-SUFFIX,network.qingcloud.com # 青云网络服务域名，涉及 VPC、公网 IP、LB 等组件  
+DOMAIN-SUFFIX,iot.qingcloud.com # 青云物联网平台入口域名，用于管理 IoT 设备与服务  
+DOMAIN-SUFFIX,cdn.qingcloud.com # 青云 CDN 服务节点域名，用于内容分发与加速服务  
+DOMAIN-SUFFIX,login.qingcloud.com # 青云统一登录认证域名，适用于控制台与服务间跳转  
+DOMAIN-SUFFIX,webshell.qingcloud.com # 青云 WebShell 管理控制台域名，用于远程主机操作  
+
+# > 华为云国际站 Huawei Cloud International 服务域名
+
+DOMAIN-SUFFIX,huaweicloud.com # 华为云国际站主域名，用于全球用户访问官网、服务与支持  
+DOMAIN-SUFFIX,console.huaweicloud.com # 华为云控制台入口域名，用于账户资源管理与服务配置  
+DOMAIN-SUFFIX,api.huaweicloud.com # 华为云 API 接口主域名，用于 SDK、CLI 与远程控制调用  
+DOMAIN-SUFFIX,iam.myhuaweicloud.com # 华为云 IAM 身份与权限认证域名，用于登录与账号验证  
+DOMAIN-SUFFIX,bss.myhuaweicloud.com # 华为云账单与计费系统域名，用于账单管理、支付与发票  
+DOMAIN-SUFFIX,ecs.myhuaweicloud.com # 华为云弹性云服务器服务域名，用于创建与管理实例资源  
+DOMAIN-SUFFIX,obs.myhuaweicloud.com # 华为云对象存储服务（OBS）域名，用于上传与下载数据  
+DOMAIN-SUFFIX,cce.myhuaweicloud.com # 华为云容器引擎服务域名（CCE），用于 Kubernetes 集群管理  
+DOMAIN-SUFFIX,dns.myhuaweicloud.com # 华为云 DNS 服务域名，用于域名解析与解析记录管理  
+DOMAIN-SUFFIX,vpc.myhuaweicloud.com # 华为云虚拟私有云（VPC）服务域名，用于网络配置与子网划分  
+DOMAIN-SUFFIX,elb.myhuaweicloud.com # 华为云弹性负载均衡（ELB）服务域名  
+DOMAIN-SUFFIX,swr.myhuaweicloud.com # 华为云软件仓库（SWR）域名，用于镜像托管与部署管理  
+DOMAIN-SUFFIX,smn.myhuaweicloud.com # 华为云消息通知服务域名（SMN）  
+DOMAIN-SUFFIX,dms.myhuaweicloud.com # 华为云分布式消息服务域名（DMS）  
+DOMAIN-SUFFIX,sdr.huaweicloud.com # 华为云智能接入网关服务域名（SD-WAN 场景）  
+DOMAIN-SUFFIX,support.huaweicloud.com # 华为云国际站技术支持平台域名  
+DOMAIN-SUFFIX,status.huaweicloud.com # 华为云服务状态监控页域名  
+
+# > OneVPS 服务域名
+
+DOMAIN-SUFFIX,onevps.com # OneVPS 官方主站域名，用于展示产品、套餐与用户登录  
+DOMAIN-SUFFIX,billing.onevps.com # OneVPS 用户管理与账单系统域名，用于注册、支付与服务管理  
+DOMAIN-SUFFIX,status.onevps.com # OneVPS 服务状态监控域名，用于查看服务器运行与维护情况  
+DOMAIN-SUFFIX,api.onevps.com # OneVPS 控制接口域名，用于实例开关、远程命令与自动化管理（部分服务场景）  
+
+# > GigsGigsCloud 服务域名
+
+DOMAIN-SUFFIX,gigsgigscloud.com # GigsGigsCloud 官网主域名，用于浏览套餐、注册账户与查看服务信息  
+DOMAIN-SUFFIX,billing.gigsgigscloud.com # GigsGigsCloud 用户管理与账单系统，用于服务开通、续费与支持请求  
+DOMAIN-SUFFIX,api.gigsgigscloud.com # GigsGigsCloud 接口服务域名，用于控制面板交互与自动化实例操作  
+DOMAIN-SUFFIX,portal.gigsgigscloud.com # GigsGigsCloud 控制台门户域名，用于实例管理、网络配置与工单处理  
+DOMAIN-SUFFIX,status.gigsgigscloud.com # GigsGigsCloud 服务状态监控平台，用于查询各区域节点运行情况  
+DOMAIN-SUFFIX,lg.gigsgigscloud.com # GigsGigsCloud Looking Glass 站点，用于网络延迟测试与路由诊断  
+
+# > TeraSwitch Networks 服务域名
+
+DOMAIN-SUFFIX,teraswitch.com # TeraSwitch 官网主域名，用于产品介绍、企业信息展示与支持文档  
+DOMAIN-SUFFIX,portal.teraswitch.com # TeraSwitch 用户控制台域名，用于开通服务、管理服务器与提交工单  
+DOMAIN-SUFFIX,billing.teraswitch.com # TeraSwitch 账单与账户系统域名，用于付款、续费与服务订单管理  
+DOMAIN-SUFFIX,api.teraswitch.com # TeraSwitch API 接口域名，用于自动化部署与程序化资源调用  
+DOMAIN-SUFFIX,status.teraswitch.com # TeraSwitch 服务状态监控平台域名，用于查看节点运行状态与维护通知  
+DOMAIN-SUFFIX,lg.teraswitch.com # TeraSwitch Looking Glass 测试站域名，用于网络延迟与路由追踪测试  
+
+# > Contabo 服务域名
+
+DOMAIN-SUFFIX,contabo.com # Contabo 官网主域名，用于产品介绍、账号管理与控制台登录  
+DOMAIN-SUFFIX,customer.contabo.com # Contabo 客户控制面板域名，用于 VPS 配置、账单与技术支持  
+DOMAIN-SUFFIX,api.contabo.com # Contabo API 接口域名，用于远程创建、管理与自动化部署云资源  
+DOMAIN-SUFFIX,docs.contabo.com # Contabo 文档中心域名，用于查看操作指南与开发者文档  
+DOMAIN-SUFFIX,status.contabo.com # Contabo 服务状态页面，用于查看服务器与网络运行状况  
+DOMAIN-SUFFIX,login.contabo.com # Contabo 登录入口域名，用于统一认证服务  
+DOMAIN-SUFFIX,support.contabo.com # Contabo 工单与客户支持页面域名  
+DOMAIN-SUFFIX,images.contabo.com # Contabo 云镜像服务域名，用于 VPS / VDS 部署模板加载  
+DOMAIN-SUFFIX,backup.contabo.com # Contabo 远程备份服务域名，用于自动备份管理（部分套餐专用）  
+DOMAIN-SUFFIX,cdn.contabo.com # Contabo 静态资源加载域名，用于官网图标与公共文件加速  
+
+# > UpCloud 服务域名
+
+DOMAIN-SUFFIX,upcloud.com # UpCloud 官网主域名，用于产品浏览、价格查询与账户注册  
+DOMAIN-SUFFIX,hub.upcloud.com # UpCloud 控制台主域名，用于创建、管理云服务器与网络资源  
+DOMAIN-SUFFIX,api.upcloud.com # UpCloud API 接口域名，用于远程调用创建实例、自动化部署等操作  
+DOMAIN-SUFFIX,status.upcloud.com # UpCloud 服务状态监控页面，用于查看全球节点运行情况  
+DOMAIN-SUFFIX,fi-hel1.upcloud.com # UpCloud 芬兰赫尔辛基节点域名
+DOMAIN-SUFFIX,de-fra1.upcloud.com # UpCloud 德国法兰克福节点域名
+DOMAIN-SUFFIX,nl-ams1.upcloud.com # UpCloud 荷兰阿姆斯特丹节点域名
+DOMAIN-SUFFIX,sg-sin1.upcloud.com # UpCloud 新加坡节点域名
+DOMAIN-SUFFIX,us-nyc1.upcloud.com # UpCloud 美国纽约节点域名
+DOMAIN-SUFFIX,uk-lon1.upcloud.com # UpCloud 英国伦敦节点域名
+
+# > VPSDime 服务域名
+
+DOMAIN-SUFFIX,vpsdime.com # VPSDime 官网主域名，用于产品浏览、注册与管理后台登录  
+DOMAIN-SUFFIX,client.vpsdime.com # VPSDime 客户控制面板，用于 VPS 管理、账单支付与服务请求  
+DOMAIN-SUFFIX,manage.vpsdime.com # VPSDime 实例管理域名，用于重装系统、网络监控等高级操作  
+DOMAIN-SUFFIX,lg.vpsdime.com # VPSDime 测速测试域名，用于各地节点网络延迟测试  
+DOMAIN-SUFFIX,mirror.vpsdime.com # VPSDime 公共软件镜像源，用于提供常用系统包下载（部分 VPS 预装）  
+DOMAIN-SUFFIX,status.vpsdime.com # VPSDime 状态监控页面，用于查看数据中心服务运行状况  
+DOMAIN-SUFFIX,la.vpsdime.com # VPSDime 美国洛杉矶节点测速域名
+DOMAIN-SUFFIX,dal.vpsdime.com # VPSDime 美国达拉斯节点测速域名
+DOMAIN-SUFFIX,uk.vpsdime.com # VPSDime 英国节点测速域名
+
+# > CloudCone 服务域名
+
+DOMAIN-SUFFIX,cloudcone.com # CloudCone 官网主域名，用于产品信息展示、注册与登录  
+DOMAIN-SUFFIX,app.cloudcone.com # CloudCone 用户控制台，用于 VPS 创建、续费、监控与管理操作  
+DOMAIN-SUFFIX,status.cloudcone.com # CloudCone 服务状态页，用于各节点运行状态与网络通告查看  
+DOMAIN-SUFFIX,test.cloudcone.com # CloudCone 测试节点域名，用于提供全球数据中心测速文件与 Ping 测试  
+DOMAIN-SUFFIX,lg.cloudc.one # CloudCone Looking Glass 测试域名，供用户查看各地路由信息与网络质量  
+DOMAIN-SUFFIX,api.cloudcone.com # CloudCone API 接口域名，用于 CLI 工具或第三方服务调用  
+DOMAIN-SUFFIX,billing.cloudcone.com # CloudCone 财务账单系统域名，用于充值与账单管理  
+DOMAIN-SUFFIX,cdn.cloudcone.com # CloudCone 静态资源 CDN 域名，用于官网前端与控制台资源加载  
+
+# > CloudCone 服务域名
+
+DOMAIN-SUFFIX,cloudcone.com # CloudCone 官网主域名，用于产品信息展示、注册与登录  
+DOMAIN-SUFFIX,app.cloudcone.com # CloudCone 用户控制台，用于 VPS 创建、续费、监控与管理操作  
+DOMAIN-SUFFIX,status.cloudcone.com # CloudCone 服务状态页，用于各节点运行状态与网络通告查看  
+DOMAIN-SUFFIX,test.cloudcone.com # CloudCone 测试节点域名，用于提供全球数据中心测速文件与 Ping 测试  
+DOMAIN-SUFFIX,lg.cloudc.one # CloudCone Looking Glass 测试域名，供用户查看各地路由信息与网络质量  
+DOMAIN-SUFFIX,api.cloudcone.com # CloudCone API 接口域名，用于 CLI 工具或第三方服务调用  
+DOMAIN-SUFFIX,billing.cloudcone.com # CloudCone 财务账单系统域名，用于充值与账单管理  
+DOMAIN-SUFFIX,cdn.cloudcone.com # CloudCone 静态资源 CDN 域名，用于官网前端与控制台资源加载  
+
+# > AlphaVPS 服务域名
+
+DOMAIN-SUFFIX,alphavps.com # AlphaVPS 官方主站域名，用于 VPS 产品展示、账户登录与服务购买  
+DOMAIN-SUFFIX,my.alphavps.com # AlphaVPS 控制面板域名，用于实例管理、账单支付与支持工单处理  
+DOMAIN-SUFFIX,status.alphavps.com # AlphaVPS 网络状态监控页面，用于公告节点维护与系统故障  
+DOMAIN-SUFFIX,test.alphavps.com # AlphaVPS 网络测试站点，用于测速下载与路由追踪等连接测试  
+DOMAIN-SUFFIX,api.alphavps.com # AlphaVPS 自动化 API 接口域名，用于远程服务控制与自动化部署任务  
+
+# > Hostwinds 服务域名
+
+DOMAIN-SUFFIX,hostwinds.com # Hostwinds 官网主域名，用于产品展示、账户登录与虚拟服务器订购  
+DOMAIN-SUFFIX,clients.hostwinds.com # Hostwinds 客户管理后台域名，用于账单支付、实例管理与支持工单  
+DOMAIN-SUFFIX,status.hostwinds.com # Hostwinds 网络状态监控域名，用于服务可用性查看与故障通告  
+DOMAIN-SUFFIX,cdn.hostwinds.com # Hostwinds 静态资源 CDN 域名，用于官网加载图片与脚本资源  
+DOMAIN-SUFFIX,test.hostwinds.com # Hostwinds 网络测试节点，用于全球下载测速与延迟测试  
+DOMAIN-SUFFIX,api.hostwinds.com # Hostwinds 自动化 API 接口，用于程序化控制实例与部署脚本调用  
+
+# > UpCloud 服务域名
+
+DOMAIN-SUFFIX,upcloud.com # UpCloud 官网主域名，用于产品介绍、账户注册与服务订购  
+DOMAIN-SUFFIX,hub.upcloud.com # UpCloud 控制台主域名，用于管理云服务器、存储与网络资源  
+DOMAIN-SUFFIX,api.upcloud.com # UpCloud API 接口域名，用于 CLI 工具与第三方平台的自动化操作  
+DOMAIN-SUFFIX,status.upcloud.com # UpCloud 网络状态监控域名，用于查看服务运行情况与维护通告  
+DOMAIN-SUFFIX,resources.upcloud.com # UpCloud 静态资源域名，用于加载官网图片与脚本内容  
+DOMAIN-SUFFIX,test.upcloud.com # UpCloud 测速与下载测试节点域名，用于网络延迟与带宽测试  
+DOMAIN-SUFFIX,backup.upcloud.com # UpCloud 备份服务域名，用于数据快照与恢复管理操作  
+
+# > WebNX 服务域名
+
+DOMAIN-SUFFIX,webnx.com # WebNX 官网主域名，用于服务器租用、产品展示与客户入口  
+DOMAIN-SUFFIX,portal.webnx.com # WebNX 客户服务入口域名，用于账单、服务管理与工单支持  
+DOMAIN-SUFFIX,lg.webnx.com # WebNX Looking Glass 测速与网络探测工具页面，用于测试延迟与路由情况  
+DOMAIN-SUFFIX,lg.la.webnx.com # WebNX 洛杉矶机房 Looking Glass 测试域名  
+DOMAIN-SUFFIX,lg.dal.webnx.com # WebNX 达拉斯机房 Looking Glass 测试域名  
+DOMAIN-SUFFIX,lg.nj.webnx.com # WebNX 新泽西机房 Looking Glass 测试域名  
+DOMAIN-SUFFIX,test.webnx.com # WebNX 网络测速与样本下载测试域名  
+
+# > CloudCone 服务域名
+
+DOMAIN-SUFFIX,cloudcone.com # CloudCone 官网主域名，用于产品介绍、账户注册与服务访问  
+DOMAIN-SUFFIX,app.cloudcone.com # CloudCone 控制面板域名，用于 VPS 实例管理与开关操作  
+DOMAIN-SUFFIX,client.cloudcone.com # CloudCone 客户门户域名，用于账单、工单与用户中心  
+DOMAIN-SUFFIX,lg.cloudcone.com # CloudCone Looking Glass 网络测试页面域名  
+DOMAIN-SUFFIX,status.cloudcone.com # CloudCone 服务状态监控页面域名，用于查看节点运行情况  
+DOMAIN-SUFFIX,testcloudcone.com # CloudCone 官方测试域名，用于下载测速与样本文件传输  
+DOMAIN-SUFFIX,api.cloudcone.com # CloudCone API 接口域名，用于自动化管理与第三方工具调用  
+
+# > LunaNode 服务域名
+
+DOMAIN-SUFFIX,lunanode.com # LunaNode 官网主域名，用于产品介绍、账户注册与云服务展示  
+DOMAIN-SUFFIX,dynamic.lunanode.com # LunaNode 动态 DNS 服务域名，用于用户配置自动更新的子域名  
+DOMAIN-SUFFIX,api.lunanode.com # LunaNode API 接口域名，用于 CLI 工具与第三方自动化管理访问  
+DOMAIN-SUFFIX,console.lunanode.com # LunaNode 控制台域名，用于 VPS 启停、创建、快照等操作  
+DOMAIN-SUFFIX,status.lunanode.com # LunaNode 服务状态监控域名，用于节点运行状态与公告查看  
+DOMAIN-SUFFIX,lg.lunanode.com # LunaNode Looking Glass 网络测试页面，用于全球访问延迟与下载测试  
+
+# > Vultr 辅助服务域名（CDN / Edge DNS）
+
+DOMAIN-SUFFIX,cdn.vultr.com # Vultr CDN 加速资源域名，用于镜像分发与控制台静态资源加载  
+DOMAIN-SUFFIX,edgevultr.com # Vultr Edge DNS 服务域名，用于分布式 DNS 解析与边缘节点绑定  
+DOMAIN-SUFFIX,objectstorage.vultr.com # Vultr 对象存储访问域名，用于上传、读取存储桶数据  
+DOMAIN-SUFFIX,metadata.vultr.com # Vultr 实例元数据服务，用于云主机内部获取配置信息（user-data）  
+DOMAIN-SUFFIX,ipv6.vultr.com # Vultr IPv6 路由测试域名，用于验证 IPv6 网络连通性  
+DOMAIN-SUFFIX,smtp.vultr.com # Vultr 邮件发送网关域名，部分实例 SMTP 服务需使用此网关  
+DOMAIN-SUFFIX,dns.vultr.com # Vultr 主 DNS 服务器域名，用于默认域名解析服务  
+DOMAIN-SUFFIX,mirror.vultr.com # Vultr 软件镜像站点域名，用于 Linux 包更新与操作系统安装源  
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
