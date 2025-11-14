@@ -4,7 +4,7 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-11-13
+# - 更新时间：2025-11-14
 
 # > Apple广告追踪
 
@@ -55,6 +55,13 @@ DOMAIN-SUFFIX,pagead.l.google.com # Google 广告服务子域（页面广告）
 DOMAIN-SUFFIX,partnerad.l.google.com # Google 合作广告平台（partner 广告）
 DOMAIN-SUFFIX,video-stats.video.google.com # Google 视频广告统计接口（YouTube 视频前贴广告统计）
 DOMAIN-SUFFIX,wintricksbanner.googlepages.com # Google Pages 网站上的广告内容托管
+DOMAIN-SUFFIX,doubleclick.net # Google 广告平台域名，用于投放广告与行为追踪
+DOMAIN-SUFFIX,ad.doubleclick.net # Google / DoubleClick 广告子域
+DOMAIN-SUFFIX,doubleclick-cn.net # Google DoubleClick 广告域（中国镜像）
+DOMAIN-SUFFIX,2mdn.net # Google DoubleClick 广告媒体资源加载主域名  
+DOMAIN-SUFFIX,fls.doubleclick.net # Google DoubleClick 广告域名,用于广告点击记录与追踪分析
+DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告同步域名，用于跨站追踪与广告识别匹配
+IP-CIDR,172.217.194.149 # DoubleClick 广告服务 IP，用于广告内容加载与用户行为追踪
 
 # > 小红书 广告与追踪服务（Xiaohongshu Ads & Tracking）
 
@@ -114,7 +121,6 @@ DOMAIN-SUFFIX,ytx-file.110route.cn # 可疑资源分发域名,用于广告素材
 DOMAIN-SUFFIX,advertising-api-fe.amazon.com # Amazon 广告平台前端接口,用于广告请求与行为回传
 DOMAIN-SUFFIX,rps.hpplay.cn # 乐播投屏广告回传接口,用于广告播放与行为日志上报
 DOMAIN-SUFFIX,ws.sj.qq.com # 腾讯应用宝广告接口,用于 App 推荐加载与行为统计上报
-DOMAIN-SUFFIX,doubleclick.net # Google / DoubleClick 广告服务主域,用于广告加载与行为追踪
 DOMAIN-SUFFIX,securepubads.g.doubleclick.net # Google 安全广告发布接口域
 DOMAIN-SUFFIX,ads.pubmatic.com # PubMatic 广告平台
 DOMAIN-SUFFIX,moatads.com # Moat（广告性能 / 监测服务）广告域
@@ -123,7 +129,6 @@ DOMAIN-SUFFIX,adcolony.com # AdColony 广告 SDK 平台
 DOMAIN-SUFFIX,gemini.yahoo.com # Yahoo Gemini 广告平台
 DOMAIN-SUFFIX,advertising-api.amazon.com # Amazon 广告 API 接口
 DOMAIN-SUFFIX,advertising.apple.com # Apple 广告 / 广告 API 接口
-DOMAIN-SUFFIX,ad.doubleclick.net # Google / DoubleClick 广告子域
 DOMAIN-SUFFIX,bingads.microsoft.com # Microsoft Bing 广告服务域
 DOMAIN-SUFFIX,ads.servebom.com # Servebom 广告子域
 DOMAIN-SUFFIX,adservice.sigmob.cn # SigMob（中国广告平台）广告服务接口
@@ -176,7 +181,6 @@ DOMAIN-SUFFIX,c2.gdt.qq.com # 腾讯广点通广告控制子域
 DOMAIN-SUFFIX,ck.ads.oppomobile.com # OPPO 广告点击跟踪接口
 DOMAIN-SUFFIX,config.unityads.unity3d.com # Unity Ads 配置接口域
 DOMAIN-SUFFIX,data.ads.oppomobile.com # OPPO 广告数据接口域
-DOMAIN-SUFFIX,doubleclick-cn.net # Google DoubleClick 广告域（中国镜像）
 DOMAIN-SUFFIX,edge.ads.twitch.tv # Twitch 广告边缘分发子域
 DOMAIN-SUFFIX,litchiads.com # 荔枝广告平台主域
 DOMAIN-SUFFIX,mobads-logs.baidu.com # 百度移动广告日志收集域
@@ -647,7 +651,6 @@ DOMAIN-SUFFIX,2ltm627ho.com # 广告追踪脚本载体域名,存在行为注入�
 DOMAIN-SUFFIX,2m3gdt0gc.de # DNS 流量中频繁出现,行为上疑似广告中继  
 DOMAIN-SUFFIX,2m55gqleg.de # 随机化域名结构,疑似广告资源加载节点  
 DOMAIN-SUFFIX,2mdn-cn.net # Google 旗下广告资源投放域名  
-DOMAIN-SUFFIX,2mdn.net # Google DoubleClick 广告媒体资源加载主域名  
 DOMAIN-SUFFIX,2mf9kkbhab31.com # 出现在 DNS 污染样本中,疑似广告或钓鱼中继  
 DOMAIN-SUFFIX,2mg2ibr6b.de # 德国节点跳转域名,疑似广告用途  
 DOMAIN-SUFFIX,2mke5l187.de # 短期活跃的混淆跳转域名,存在广告活动记录  
@@ -6239,7 +6242,6 @@ DOMAIN-SUFFIX,flocdn.com # CDN 内容交付平台,存在广告脚本加载行为
 DOMAIN-SUFFIX,flower-ads.com # 广告联盟域名,用于植入广告组件与分发跟踪内容
 DOMAIN-SUFFIX,flowplayer.com # 视频播放器提供商官网,包含追踪与广告 SDK 模块
 DOMAIN-SUFFIX,flowsearch.info # 可疑搜索引擎站点,用于广告跳转与流量劫持
-DOMAIN-SUFFIX,fls.doubleclick.net # Google DoubleClick 广告域名,用于广告点击记录与追踪分析
 DOMAIN-SUFFIX,fluxads.com # 广告投放平台域名,用于追踪和广告分发行为
 DOMAIN-SUFFIX,flyads1.com # 广告平台域名,明确用于广告投放和重定向服务
 DOMAIN-SUFFIX,flyingadvert.com # 广告主题域名,用于广告服务和跳转页面生成
@@ -8237,6 +8239,5 @@ DOMAIN-SUFFIX,dafagood.com # 博彩推广相关子站／跳转域名
 DOMAIN-SUFFIX,eucasino.com # 欧洲博彩平台域名
 DOMAIN-SUFFIX,analytics.roku.com # Roku 分析系统，用于用户行为分析与广告反馈
 DOMAIN-SUFFIX,track.sr.roku.com # Roku 内嵌行为追踪接口（广告点击反馈）
-DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告同步域名，用于跨站追踪与广告识别匹配
 DOMAIN-SUFFIX,iizhi.cn # 爱知广告域名，阿里广告服务平台旗下，用于移动端广告加载与用户行为回传
 DOMAIN-SUFFIX,hm.baidu.com # 百度统计服务域名，用于用户行为追踪与页面访问统计，常见于嵌入型第三方统计脚本
