@@ -2799,6 +2799,15 @@ DOMAIN-SUFFIX,fund.blender.org # Blender 基金会支持页面域名，用于用
 DOMAIN-SUFFIX,projects.blender.org # Blender 项目管理域名，用于任务协作与版本管理  
 DOMAIN-SUFFIX,code.blender.org # Blender 源码博客域名，发布开发进展与技术分析  
 DOMAIN-SUFFIX,docs.blender.org # Blender 官方文档域名，提供使用手册与 API 指南  
+DOMAIN-SUFFIX,store.blender.org  # Blender 官方商店，用于购买周边、支持基金会运营
+DOMAIN-SUFFIX,developer.blender.org  # Blender 开发者平台，用于任务追踪、代码审查与开发管理
+DOMAIN-SUFFIX,download.blender.org  # Blender 下载源站点，用于分发安装包、测试版本与旧版本构建
+
+# > Freedif 镜像站相关域名（Freedif Open Source Mirror）
+
+DOMAIN-SUFFIX,home.freedif.org # Freedif 镜像主页子域，用于镜像管理与访问指引  
+DOMAIN-SUFFIX,de.freedif.org # Freedif 在德国的镜像入口，用于欧洲镜像节点 
+DOMAIN-SUFFIX,mirror.freedif.org  # Freedif 镜像站域名，用于分发开源软件包与技术文档
 
 # > Telestream 媒体处理与流媒体解决方案平台
 
