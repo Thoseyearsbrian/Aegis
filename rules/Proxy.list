@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-14
+# - 更新时间：2025-11-15
 
 # > Speedtest 网络测速平台
 
@@ -493,6 +493,20 @@ DOMAIN-SUFFIX,static.canva.com # Canva 静态资源加载域（图片、JS、字
 DOMAIN-SUFFIX,brandfetch.io # Canva 品牌识别服务依赖域（用于企业 Logo 与风格拉取）
 DOMAIN-SUFFIX,canva-apps.cn # Canva 中国地区适配域（部分功能接入中国本地 CDN）
 DOMAIN-SUFFIX,canva.cn # Canva 中国官方域名（跳转或信息展示页面）
+
+# > Affinity（Affinity Studio / Photo / Designer / Publisher）相关域名与服务节点
+
+DOMAIN-SUFFIX,affinity.studio # Affinity 官方主站域名，用于产品介绍、版本发布与购买入口  
+DOMAIN-SUFFIX,affinity.serif.com # Serif 旗下 Affinity 产品主域名，用于账户系统与服务交互  
+DOMAIN-SUFFIX,store.serif.com # Affinity 官方商店域名，用于应用购买、授权与账单处理  
+DOMAIN-SUFFIX,resources.affinity.serif.com # Affinity 资源内容域名，用于字体、素材、模板等资源下载  
+DOMAIN-SUFFIX,license.affinity.serif.com # Affinity 授权验证域名，用于序列号激活与授权状态校验  
+DOMAIN-SUFFIX,api.seriflabs.com # Serif 后端 API 服务接口，用于应用更新、服务交互与产品信息拉取  
+DOMAIN-SUFFIX,cdn.seriflabs.com # Affinity 静态资源 CDN，加速软件下载、更新包与应用素材分发  
+DOMAIN-SUFFIX,affinity.help # Affinity 官方文档与在线帮助系统，用于教程、指南与知识库  
+IP-CIDR,185.18.139.0/24 # Serif 官方服务段，用于 API、授权、更新等服务节点（托管于 Datacamp Ltd）  
+IP-CIDR,185.18.138.0/24 # Serif 官方服务段，用于产品主域名与 CDN 访问（托管于 Datacamp Ltd）  
+IP-CIDR,13.107.246.0/24 # 微软 CDN 节点，用于 store.serif.com 电商前端与 Edge 交付加速  
 
 # > Dave's Hot Chicken 相关域名
 
