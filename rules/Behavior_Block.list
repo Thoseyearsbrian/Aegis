@@ -77,6 +77,9 @@ DOMAIN-SUFFIX,data.bilibili.com # Bilibili 数据采集与分析接口，用于�
 # > Affinity 相关域名
 
 DOMAIN-SUFFIX,events.api.serifservices.com # Affinity 服务事件收集接口，用于用户行为、使用统计与崩溃日志分析
+IP-CIDR,108.156.144.96 # Affinity 行为分析域名 IP，用于事件统计与崩溃日志采集（events.api.serifservices.com）
+IP-CIDR,108.156.144.121 # Affinity 行为分析域名 IP，用于事件统计与崩溃日志采集（events.api.serifservices.com）
+IP-CIDR,108.156.144.120 # Affinity 行为分析域名 IP，用于事件统计与崩溃日志采集（events.api.serifservices.com）
 
 # > Mozilla 遥测与用户行为分析域名（Telemetry & Behavioral Fingerprinting）
 
