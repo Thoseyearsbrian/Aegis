@@ -36,9 +36,9 @@ Aegis is designed to detect and block the following high-risk communications:
 - Ad tracking, behavior analytics, and listening CDNs
 - PCDN relay traffic and shared-bandwidth transmission
 - Botnets, remote access Trojans, and malware C2 channels
-- DNS poisoning / injection / hijacking behavior
-- APT command-and-control (C2) infrastructure
 - SDK telemetry and behavioral fingerprinting
+- APT command-and-control (C2) infrastructure
+- DNS poisoning / injection / hijacking behavior
 
 Aegis is purpose-built for the Surge platform, with full compatibility across both iOS and macOS systems. It features clear readability, audit-friendly structure, and modular deployment, making it suitable for policy-based routing, firewall integration, and other advanced use cases.
 
