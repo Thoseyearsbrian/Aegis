@@ -135,13 +135,17 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 为满足个人网络安全防护需求，本项目在既有规则基础上进行了深度定制与安全优化。为保障项目的完整性、安全性与长期可用性，所有使用的素材与规则均通过本仓库自托管，避免因依赖第三方源而引发的更新失效或信任风险。
 
-### **核心框架参考**
+### 核心框架参考
 
 [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 项目整体架构与规则逻辑的主要参考来源，当前版本在此基础上进行了深度重构与安全适配。
 
 [@AmnestyTech](https://github.com/AmnestyTech) 👉  提供 [Pegasus](https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt) 相关 IOC 数据，作为规则构建的重要信息源([CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/))。
 
 [@ESET](https://github.com/eset) 👉 提供 [malware-ioc](https://github.com/eset/malware-ioc) 公共仓库数据，作为 APT 相关规则的重要信息源([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE))。
+
+### 🎖️ 特别致敬
+
+[@mieqq](https://github.com/mieqq) 👉 Surge 中文社区的重要推动者，其[mieqq](https://github.com/mieqq/mieqq) 仓库长期维护多种规则与模块,对早期生态建设与推广使用做出突出贡献。
 
 以上引用内容排名不分先后，若有遗漏您的项目或贡献，敬请谅解并欢迎联系我，我将第一时间补充致谢。
 

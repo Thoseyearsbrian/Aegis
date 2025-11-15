@@ -138,7 +138,7 @@ This project is built upon inspiration and reference from numerous outstanding o
 
 To meet personal cybersecurity requirements, this project has been deeply customized and optimized for enhanced security based on existing rule sets. In order to ensure the integrity, safety, and long-term availability of the project, all materials and rule files are self-hosted within this repository, thereby avoiding issues such as update failures or trust concerns arising from third-party dependencies.
 
-**Project Structure**: 
+### Project Structure: 
 
 [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 The primary reference for the overall project architecture and rule logic. The current version has undergone extensive restructuring and security adaptation based on this foundation.
 
@@ -146,7 +146,11 @@ To meet personal cybersecurity requirements, this project has been deeply custom
 
 [@ESET](https://github.com/eset) 👉 Provides data from the public [malware-ioc](https://github.com/eset/malware-ioc) repository, serving as an important source of intelligence for APT-related rule development ([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE)).
 
-If you believe your work is missing from the acknowledgements, please feel free to contact me — I will add it promptly.
+### 🎖️ Special Acknowledgment
+
+[@mieqq](https://github.com/mieqq)￼ 👉 A key contributor to the Chinese Surge community. The [mieqq repository](https://github.com/mieqq/mieqq)￼ has consistently maintained a variety of rules and modules, playing a significant role in the early development and promotion of the ecosystem.
+
+The above acknowledgements are listed in no particular order.If you believe your work is missing from the acknowledgements, please feel free to contact me — I will add it promptly.
 
 ## **🔐 Disclaimer**
 

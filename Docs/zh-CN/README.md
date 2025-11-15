@@ -143,6 +143,10 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 [@ESET](https://github.com/eset) 👉 提供 [malware-ioc](https://github.com/eset/malware-ioc) 公共仓库数据，作为 APT 相关规则的重要信息源([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE))。
 
+### 🎖️ 特别致敬
+
+[@mieqq](https://github.com/mieqq) 👉 Surge 中文社区的重要推动者，其[mieqq](https://github.com/mieqq/mieqq) 仓库长期维护多种规则与模块,对早期生态建设与推广使用做出突出贡献。
+
 以上引用内容排名不分先后，若有遗漏您的项目或贡献，敬请谅解并欢迎联系我，我将第一时间补充致谢。
 
 ## 🔐 免责声明
