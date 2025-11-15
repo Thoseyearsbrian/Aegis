@@ -146,7 +146,7 @@ To meet personal cybersecurity requirements, this project has been deeply custom
 
 [@ESET](https://github.com/eset) 👉 Provides data from the public [malware-ioc](https://github.com/eset/malware-ioc) repository, serving as an important source of intelligence for APT-related rule development ([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE)).
 
-### 🎖️ Special Acknowledgment
+### 🎖️ Major Contributors
 
 [@mieqq](https://github.com/mieqq)￼ 👉 A key contributor to the Chinese Surge community. The [mieqq repository](https://github.com/mieqq/mieqq)￼ has consistently maintained a variety of rules and modules, playing a significant role in the early development and promotion of the ecosystem.
 
