@@ -71,6 +71,15 @@ DOMAIN-SUFFIX,drweb.cn # Dr.Web 中文资讯 RSS 订阅接口（新闻推送）
 DOMAIN-SUFFIX,DOforum.drweb.com # Dr.Web 杀毒软件官方用户论坛，用于技术支持与社区交流
 IP-CIDR,95.216.203.236 # Dr.Web 更新镜像节点,托管于 Hetzner
 
+# > AMZ123 跨境电商平台相关域名
+
+DOMAIN-SUFFIX,amz123.com # AMZ123 跨境电商卖家工具平台，提供资讯、选品、运营与社群服务
+DOMAIN-SUFFIX,www.amz123.com # AMZ123 主站域名，用于新闻发布、行业动态与教程内容
+DOMAIN-SUFFIX,cdn.amz123.com # AMZ123 静态资源加载域名，用于图像、JS/CSS 分发
+DOMAIN-SUFFIX,api.amz123.com # AMZ123 接口域名，用于内容加载、用户互动与工具调用
+DOMAIN-SUFFIX,tool.amz123.com # AMZ123 工具模块子域名，包含选品分析、广告评估等功能
+DOMAIN-SUFFIX,forum.amz123.com # AMZ123 社区论坛，供跨境卖家交流与经验分享
+
 # > 通用 VPN／节点订阅／中转服务／翻墙工具域名集合
 
 DOMAIN-SUFFIX,api.subs.ee // 常见订阅转换服务平台
