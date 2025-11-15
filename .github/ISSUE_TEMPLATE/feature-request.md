@@ -1,52 +1,79 @@
 ---
 name: Feature Request
-about: Suggest new features or improvements to enhance rule logic, modularity, and
-  user experience.
-title: "[FEATURE] 功能建议 - 请简述主题"
-labels: ''
+about: Suggest new features or improvements to enhance rule logic, modularity, and user experience.
+title: "[FEATURE] <功能建议 - 请简述主题>"
+labels: ['enhancement']
 assignees: ''
+---
+
+💡 Feature Request  -  功能建议
+
+Thank you for your suggestion! Please complete the form below to help us evaluate and improve project features.  -  感谢你的建议！请根据以下格式填写，以帮助我们评估并改进项目功能。
 
 ---
 
-💡 Feature Request | 功能建议
+🗂️ Affected Module  -  相关模块
 
-Thank you for your suggestion! Please complete the form below to help us evaluate and improve project features.
+Please select the module(s) this suggestion relates to.  -  请选择你希望新增或改进的模块（可多选）
 
-感谢你的建议！请根据以下格式填写，以帮助我们评估并改进项目功能。
+Tip: Type a lowercase `x` inside `[ ]` to check the box, like `[x]`.  -  提示：在 `[ ]` 内输入小写 `x` 即可勾选，例如 `[x]`
 
-🎯 建议内容 | Suggested Feature
+- [ ] AdTracking_Block.list  
+- [ ] Adult_Block.list  
+- [ ] Apple.list  
+- [ ] APT_Block.list  
+- [ ] Backdoor_Block.list  
+- [ ] Background_Block.list  
+- [ ] Behavior_Block.list  
+- [ ] Botnet_Block.list  
+- [ ] CA_Block.list  
+- [ ] China.list  
+- [ ] ChinaMedia.list  
+- [ ] Crypto.list  
+- [ ] GamePlatforms.list  
+- [ ] GitHub.list  
+- [ ] GlobalMedia.list  
+- [ ] Google.list  
+- [ ] Inspection_Block.list  
+- [ ] Microsoft.list  
+- [ ] OpenAI.list  
+- [ ] PCDN_Block.list  
+- [ ] Pegasus_Block.list  
+- [ ] Proxy.list  
+- [ ] Telegram.list  
+- [ ] WeChat.list  
+- [ ] Others (please specify): `_____________`  
 
-Clearly describe the feature you are requesting or want to see improved.
+---
 
-请清晰描述你希望新增或优化的功能。
+📱 Platform  -  使用平台 （可选）
+ 
+Select the platform(s) where the issue occurred:  -  请选择你使用的平台环境（可多选） 
 
-📌 使用场景 | Use Case
+- [ ] Surge (iOS)  
+- [ ] Surge (macOS)  
 
-Explain what problem this feature would solve or how it improves the experience.
+---
 
-请说明你遇到的问题、使用中的困扰或该功能将带来的改进。
+🎯 Suggested Feature  -  建议内容
 
-🗂️ 相关模块（可选）| Related Module (Optional)
-	•	Proxy.list
-	•	APT.list
-	•	CA_Block.list
-	•	AdTracking_Block.list
-	•	Background_Block.list
-	•	Behavior_Fingerprint.list
-	•	Others (please specify) / 其他（请注明）: _____________
+Please clearly describe the feature or improvement you are requesting.  -  请清晰描述你希望新增或优化的功能点。
 
-🔍 Tried Alternatives (Optional) | 你尝试过的替代方案（可选）
+> Describe here...  -  在此填写描述...
 
-Have you tried any alternatives or workarounds?
+`__________________________________________________________________________________________________________________________________`
+`__________________________________________________________________________________________________________________________________`
+`__________________________________________________________________________________________________________________________________`
+`__________________________________________________________________________________________________________________________________`
 
-你是否尝试过其他方法？是否已有类似实现但不理想？
+---
 
-🙌  Additional Context (Optional)| 附加信息（可选）
+📎 Additional Context (Optional)  -  附加信息（可选）
 
-Include any relevant references, mockups, or sources of inspiration if available.
+If you have any relevant references, screenshots, mockups, or sources of inspiration, please include them here.  -  如果你有参考资料、截图或灵感来源，请一并附上。
 
-如果你有参考资料、截图或灵感来源，也请一并附上。
+👉 Paste, drop, or click to add files below.  -  可直接粘贴、拖拽文件，或点击下方“Attach files”图标上传。
 
-🤝 Thanks for your support! We’ll review all feature requests and consider them in future releases where applicable.
+---
 
-🤝 感谢你的支持！我们会认真评估每一条功能建议，并在合适版本中考虑采纳。
+🤝 Thank you for your support! We’ll review all feature requests and consider them in future updates.  -  感谢你的支持！我们会认真评估每一条功能建议，并在合适版本中考虑采纳。
