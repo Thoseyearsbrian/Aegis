@@ -4,7 +4,7 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-11-16
+# - 更新时间：2025-11-17
 
 # > Apple广告追踪
 
@@ -96,6 +96,11 @@ DOMAIN-SUFFIX,tracker.zdbb.net # ZDBB 广告追踪接口域名，用于记录广
 # > 小红书 广告与追踪服务（Xiaohongshu Ads & Tracking）
 
 DOMAIN-SUFFIX,ads-i4.xhscdn.com # 小红书广告资源 CDN，用于推送首页与笔记页广告组件
+
+# > Whoer 页面加载的第三方广告与追踪脚本域名
+
+DOMAIN-SUFFIX,cdn.botfaqtor.ru  # botfaqtor.ru 第三方广告脚本 CDN，存在植入式脚本加载行为  
+DOMAIN-SUFFIX,scripts.pubnation.com  # PubNation 广告脚本域名，用于广告加载与用户行为回传  
 
 # > Appsflyer 营销追踪平台相关域名
 

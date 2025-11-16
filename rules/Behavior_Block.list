@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-16
+# - 更新时间：2025-11-17
 
 # > Apple 行为遥测服务
 
@@ -72,6 +72,13 @@ IP-CIDR,123.151.48.171 # WeChat 自启行为连接的中国节点，ASN 属于 T
 
 DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流日志接口域名，用于客户端事件上报与行为分析  
 DOMAIN-SUFFIX,data.bilibili.com # Bilibili 数据采集与分析接口，用于用户行为统计与日志上传  
+
+# > Whoer 行为分析接口域名（IP识别与环境探测服务）
+
+DOMAIN-SUFFIX,api.ipify.org  # ipify 公网 IP 查询接口，被 Whoer 用于检测当前网络出口地址  
+DOMAIN-SUFFIX,api-main.whox.is  # WHOX 接口域名，用于识别 ASN、运营商、国家等连接特征信息  
+DOMAIN-SUFFIX,code.jquery.com  # jQuery CDN 域名，Whoer 页面用于加载前端识别逻辑脚本  
+DOMAIN-SUFFIX,stackpath.bootstrapcdn.com  # Bootstrap 框架 CDN，Whoer 页面用于样式测试与客户端环境检测  
 
 # > Affinity 相关域名
 
