@@ -80,6 +80,10 @@ DOMAIN-SUFFIX,api-main.whox.is  # WHOX 接口域名，用于识别 ASN、运营�
 DOMAIN-SUFFIX,code.jquery.com  # jQuery CDN 域名，Whoer 页面用于加载前端识别逻辑脚本  
 DOMAIN-SUFFIX,stackpath.bootstrapcdn.com  # Bootstrap 框架 CDN，Whoer 页面用于样式测试与客户端环境检测  
 
+# > Datadog 行为分析与性能监控服务域名（Browser Monitoring & Behavior Analytics）
+
+DOMAIN-SUFFIX,www.datadoghq-browser-agent.com  # Datadog 浏览器代理域名，用于前端性能监测、用户行为分析与日志采集
+
 # > Affinity 相关域名
 
 DOMAIN-SUFFIX,events.api.serifservices.com # Affinity 服务事件收集接口，用于用户行为、使用统计与崩溃日志分析
