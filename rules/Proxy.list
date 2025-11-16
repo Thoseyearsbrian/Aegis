@@ -3086,6 +3086,7 @@ DOMAIN-SUFFIX,whoer.net  # Whoer 官方主站，用于 IP 地址、DNS 泄漏�
 # > VoidSec IP/泄漏检测平台
 
 DOMAIN-SUFFIX,ip.voidsec.com  # VoidSec 网站，用于检测 VPN/代理是否泄漏真实 IP 地址  
+DOMAIN-SUFFIX,voidsec.com  # VoidSec 安全研究平台主域名，提供 WebRTC 泄漏检测、VPN 匿名性验证与漏洞分析博客内容
 
 # > SMS‑Activate 虚拟号码接收服务
 
