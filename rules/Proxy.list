@@ -4112,7 +4112,7 @@ DOMAIN-SUFFIX,gridinsoft.com # GridinSoft 反恶意软件与域名声誉检测�
 DOMAIN-SUFFIX,crdf.fr # CRDF Labs 法国独立网络安全研究实验室，提供公共 CTI 与威胁数据  
 DOMAIN-SUFFIX,freedidi.com # 零度博客
 DOMAIN-SUFFIX,blog.skk.moe # Sukka 的技术博客，内容涵盖前端开发、网络优化、DNS 解析与代理工具使用
-DOMAIN‑SUFFIX,blog.1ris.win  # Blog 1RIS 个人博客主域名，用于技术分享、日志发布与项目更新
+DOMAIN-SUFFIX,blog.1ris.win  # Blog 1RIS 个人博客主域名，用于技术分享、日志发布与项目更新
 
 # > 第三方独立站
 
