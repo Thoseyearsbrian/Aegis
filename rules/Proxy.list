@@ -21,6 +21,12 @@ DOMAIN-SUFFIX,speedtest.hicountry.net.prod.hosts.ooklaserver.net  # HiCountry IS
 DOMAIN-SUFFIX,yourspeed.allwest.com  # AllWest 通信测速子域，用于测速服务  
 DOMAIN-SUFFIX,speedtest.wifipros.co.prod.hosts.ooklaserver.net  # WifiPros 网络测速节点，支持 Ookla 测试平台  
 
+# > Test-IPv6 服务域名（IPv6 网络连通性测试平台）
+
+DOMAIN-SUFFIX,test-ipv6.com # Test-IPv6 官方测试域名，用于检测客户端对 IPv6 网络协议的支持能力与连通性评估
+DOMAIN-SUFFIX,cdn.cookielaw.org # CookieLaw 内容分发域名，用于加载 Cookie 合规弹窗与隐私政策模块  
+DOMAIN-SUFFIX,pg.ziffstatic.com # Ziff Davis 静态资源域名，主要用于技术与媒体网站的内容加载（如 PCMag、IGN）  
+
 # > Google Fiber 主服务域名（GFiber / Google 宽带）
 
 DOMAIN-SUFFIX,gstaticcnapps.cn # GFiber CDN 中国节点域名，主要用于资源分发与测速验证  

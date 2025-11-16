@@ -4,7 +4,7 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-11-14
+# - 更新时间：2025-11-16
 
 # > Apple广告追踪
 
@@ -63,6 +63,26 @@ DOMAIN-SUFFIX,fls.doubleclick.net # Google DoubleClick 广告域名,用于广告
 DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告同步域名，用于跨站追踪与广告识别匹配
 IP-CIDR,172.217.194.149 # DoubleClick 广告服务 IP，用于广告内容加载与用户行为追踪
 IP-CIDR,172.217.194.148 # Google DoubleClick 广告服务 IP（备用节点），用于广告内容加载与行为识别
+
+# > Criteo 广告平台相关域名（用户行为追踪与广告重定向）
+
+DOMAIN-SUFFIX,criteo.com # Criteo 广告平台主域名，用于广告服务与追踪系统  
+DOMAIN-SUFFIX,gum.criteo.com # Criteo 用户标识接口域名，用于 Cookie 同步与重定向广告投放  
+DOMAIN-SUFFIX,rtax.criteo.com # Criteo 实时广告交换接口域名，用于行为分析与广告投放  
+DOMAIN-SUFFIX,bidder.criteo.com # Criteo 出价与竞价系统域名，用于广告竞价行为逻辑  
+DOMAIN-SUFFIX,cas.criteo.com # Criteo 分析与同步接口域名，用于跨平台用户追踪与数据整合  
+DOMAIN-SUFFIX,event.criteo.com # Criteo 事件记录域名，用于用户操作追踪与行为数据上报  
+DOMAIN-SUFFIX,tracking.criteo.com # Criteo 追踪系统接口域名，用于监控广告点击与转化路径  
+DOMAIN-SUFFIX,delivery.criteo.com # Criteo 广告内容分发域名，用于广告素材加载与个性化内容推送  
+
+# > LiveRamp 广告数据平台相关域名（用户标识与跨站行为追踪）
+
+DOMAIN-SUFFIX,rlcdn.com # LiveRamp 主域名，用于广告数据服务与身份同步平台  
+DOMAIN-SUFFIX,api.rlcdn.com # LiveRamp API 接口域名，用于用户标识查询与行为数据同步  
+DOMAIN-SUFFIX,pixel.rlcdn.com # LiveRamp 像素追踪接口域名，用于广告曝光与用户识别  
+DOMAIN-SUFFIX,ads.rlcdn.com # LiveRamp 广告传送接口，用于定向广告展示与追踪统计  
+DOMAIN-SUFFIX,track.rlcdn.com # LiveRamp 跟踪系统域名，用于跨站行为分析与身份映射  
+DOMAIN-SUFFIX,sync.rlcdn.com # LiveRamp 同步平台接口，用于多个广告平台间用户身份统一  
 
 # > 小红书 广告与追踪服务（Xiaohongshu Ads & Tracking）
 
