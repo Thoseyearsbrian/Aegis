@@ -153,6 +153,7 @@ DOMAIN-SUFFIX,push-api.cloud.huawei.com # 华为 Push 行为上报通道
 DOMAIN-SUFFIX,sentry.cloudflare.com # 行为分析追踪系统
 DOMAIN-SUFFIX,o33249.ingest.us.sentry.io # Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
 DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 监控上报域名，GPT 应用用于收集前端性能指标与异常信息
+IP-CIDR,3.233.158.112  # Datadog 浏览器监控数据采集节点，用于前端性能追踪与用户行为分析（browser-intake）
 
 # > Ticketmaster 分析与广告服务（可选是否归入行为分析）
 
@@ -376,66 +377,79 @@ DOMAIN-SUFFIX,api.clevertap.com # CleverTap 数据收集接口，用于事件上
 DOMAIN-SUFFIX,pushclevertap.com # CleverTap 推送与通知接口，用于移动端用户活跃及上报
 
 # > Adobe Analytics（Adobe 行为分析与用户洞察平台封锁）
+
 DOMAIN-SUFFIX,adobe.com # Adobe 主域名，用于旗下行为分析服务入口
 DOMAIN-SUFFIX,adobedc.net # Adobe 数据收集端域名，用于用户事件上传
 DOMAIN-SUFFIX,adobedc.io # Adobe 数据收集域名，用于分析与用户洞察服务
 
 # > Appsflyer（移动归因与用户行为追踪平台封锁）
+
 DOMAIN-SUFFIX,appsflyer.com # AppsFlyer 主域名，用于移动归因及行为追踪服务
 DOMAIN-SUFFIX,myappsflyer.com # AppsFlyer 客户数据平台接口，用于事件上报
 DOMAIN-SUFFIX,events.appsflyer.com # AppsFlyer 事件收集域名，用于 SDK 上传数据
 
 # > Branch Metrics（深链接与行为分析平台封锁）
+
 DOMAIN-SUFFIX,branch.io # Branch 主域名，用于深链接与用户行为分析服务
 DOMAIN-SUFFIX,api.branch.io # Branch 数据收集接口，用于用户点击与行为追踪
 DOMAIN-SUFFIX,cdn.branch.io # Branch SDK 及脚本分发节点，用于前端事件上报
 
 # > Heap Analytics（自动捕捉事件的用户行为分析平台封锁）
+
 DOMAIN-SUFFIX,heap.io # Heap 主域名，用于自动事件分析与行为追踪服务
 DOMAIN-SUFFIX,collect.heapanalytics.com # Heap 数据上传接口，用于用户行为捕捉与分析
 DOMAIN-SUFFIX,cdn.heapanalytics.com # Heap SDK／脚本分发域名，用于前端事件采集
 
 # > UXCam（移动与网页用户行为录制与分析平台封锁）
+
 DOMAIN-SUFFIX,uxcam.com # UXCam 主域名，用于移动／网页应用行为录制与用户路径跟踪服务
 DOMAIN-SUFFIX,cdn.uxcam.com # UXCam SDK 与脚本分发节点，用于前端埋点与数据上报
 DOMAIN-SUFFIX,track.uxcam.com # UXCam 数据收集接口，用于用户会话数据上传
 
 # > Glassbox（全程会话录像与用户体验分析平台封锁）
+
 DOMAIN-SUFFIX,glassbox.com # Glassbox 主域名，用于会话复现与用户行为监控服务
 DOMAIN-SUFFIX,tracking.glassbox.com # Glassbox 行为数据收集接口，用于前端／移动事件上传
 DOMAIN-SUFFIX,cdn.glassbox.com # Glassbox 脚本／SDK 分发域名，用于嵌入应用中
 
 # > FullStory（行为分析与用户互动回放平台封锁）
+
 DOMAIN-SUFFIX,fullstory.com # FullStory 主域名，用于用户行为分析与互动回放服务
 DOMAIN-SUFFIX,events.fullstory.com # FullStory 事件数据上传接口，用于前端用户行为追踪
 DOMAIN-SUFFIX,cdn.fullstory.com # FullStory 脚本／资源分发节点，用于行为埋点
 
 # > Hotjar（网页用户行为分析与热图／录屏平台封锁）
+
 DOMAIN-SUFFIX,hotjar.com # Hotjar 主域名，用于热图、录屏与用户反馈行为分析
 DOMAIN-SUFFIX,static.hotjar.com # Hotjar 脚本／资源分发节点，用于前端行为收集
 DOMAIN-SUFFIX,vars.hotjar.com # Hotjar 数据上传接口，用于用户行为与反馈事件上报
 
 # > Pendo（产品分析、用户行为与用户反馈平台封锁）
+
 DOMAIN-SUFFIX,pendo.io # Pendo 主域名，用于产品行为分析与用户反馈服务
 DOMAIN-SUFFIX,api.pendo.io # Pendo 数据收集接口，用于事件追踪与属性上传
 DOMAIN-SUFFIX,cdn.pendo.io # Pendo SDK／脚本分发节点，用于前端嵌入与数据回传
 
 # > UXCam（移动／网页用户行为录制与分析平台封锁）
+
 DOMAIN-SUFFIX,uxcam.com # UXCam 主域名，用于移动／网页应用行为录制与用户路径跟踪服务
 DOMAIN-SUFFIX,cdn.uxcam.com # UXCam SDK 与脚本分发节点，用于前端埋点与数据上报
 DOMAIN-SUFFIX,track.uxcam.com # UXCam 数据收集接口，用于用户会话数据上传
 
 # > Heap Analytics（自动捕捉事件的用户行为分析平台封锁）
+
 DOMAIN-SUFFIX,heap.io # Heap 主域名，用于自动事件分析与行为追踪服务
 DOMAIN-SUFFIX,collect.heapanalytics.com # Heap 数据上传接口，用于用户行为捕捉与分析
 DOMAIN-SUFFIX,cdn.heapanalytics.com # Heap SDK／脚本分发域名，用于前端事件采集
 
 # > FullStory（行为分析与用户互动回放平台封锁）
+
 DOMAIN-SUFFIX,fullstory.com # FullStory 主域名，用于用户行为分析与互动回放服务
 DOMAIN-SUFFIX,events.fullstory.com # FullStory 事件数据上传接口，用于前端用户行为追踪
 DOMAIN-SUFFIX,cdn.fullstory.com # FullStory 脚本／资源分发节点，用于行为埋点
 
 # > Hotjar（网页用户行为分析与热图／录屏平台封锁）
+
 DOMAIN-SUFFIX,hotjar.com # Hotjar 主域名，用于热图、录屏与用户反馈行为分析
 DOMAIN-SUFFIX,static.hotjar.com # Hotjar 脚本／资源分发节点，用于前端行为收集
 DOMAIN-SUFFIX,vars.hotjar.com # Hotjar 数据上传接口，用于用户行为与反馈事件上报
@@ -453,45 +467,54 @@ DOMAIN-SUFFIX,api.cooladata.com # CoolaData 数据收集接口，用于事件上
 DOMAIN-SUFFIX,cdn.cooladata.com # CoolaData SDK 与脚本分发节点，用于前端行为采集
 
 # > Synerise（客户行为分析与事件追踪平台封锁）
+
 DOMAIN-SUFFIX,synerise.com # Synerise 主域名，用于客户行为分析与自动化营销服务
 DOMAIN-SUFFIX,api.synerise.com # Synerise 数据收集接口，用于移动／网页事件上报
 DOMAIN-SUFFIX,tracker.synerise.com # Synerise 前端埋点与追踪接口，用于会话与交互数据上传
 
 # > Heap（自动事件捕捉与用户行为分析平台封锁）
+
 DOMAIN-SUFFIX,heap.io # Heap 主域名，用于用户行为分析与产品洞察服务
 DOMAIN-SUFFIX,collect.heapanalytics.com # Heap 数据上传接口，用于自动捕捉用户事件
 DOMAIN-SUFFIX,cdn.heapanalytics.com # Heap SDK／脚本分发节点，用于前端埋点与资源加载
 
 # > FullStory（用户互动回放与行为分析平台封锁）
+
 DOMAIN-SUFFIX,fullstory.com # FullStory 主域名，用于用户互动录屏与行为分析服务
 DOMAIN-SUFFIX,events.fullstory.com # FullStory 事件上报接口，用于行为数据采集
 DOMAIN-SUFFIX,cdn.fullstory.com # FullStory SDK／资源分发节点，用于前端嵌入与追踪脚本
 
 # > Hotjar（网页用户热图／行为分析平台封锁）
+
 DOMAIN-SUFFIX,hotjar.com # Hotjar 主域名，用于网页热图、录屏与用户反馈分析服务
 DOMAIN-SUFFIX,static.hotjar.com # Hotjar 脚本／资源分发节点，用于前端行为收集
 DOMAIN-SUFFIX,vars.hotjar.com # Hotjar 数据上传接口，用于用户行为与反馈事件上报
 
 # > Pendo（产品行为分析与用户反馈平台封锁）
+
 DOMAIN-SUFFIX,pendo.io # Pendo 主域名，用于产品分析与用户反馈服务
 DOMAIN-SUFFIX,api.pendo.io # Pendo 数据收集接口，用于事件追踪与属性上传
 
 # > Usermaven（用户行为分析与漏斗追踪平台封锁）
+
 DOMAIN-SUFFIX,usermaven.com # Usermaven 主域名，用于用户行为分析与漏斗追踪服务
 DOMAIN-SUFFIX,analytics.usermaven.com # Usermaven 数据收集接口，用于事件上报与用户行为采集
 DOMAIN-SUFFIX,cdn.usermaven.com # Usermaven SDK 脚本／资源分发节点，用于前端嵌入与行为采集
 
 # > Lucky Orange（网页会话录制与热图行为分析平台封锁）
+
 DOMAIN-SUFFIX,luckyorange.com # Lucky Orange 主域名，用于网页会话录制、热图及用户行为分析服务
 DOMAIN-SUFFIX,lr‑cdn.com # Lucky Orange 脚本／资源分发节点，用于前端嵌入与行为收集
 DOMAIN-SUFFIX,cdn.luckyorange.com # Lucky Orange 数据脚本分发域名，用于埋点加载与用户互动捕捉
 
 # > Smartlook（网页／移动行为录制与分析平台封锁）
+
 DOMAIN-SUFFIX,smartlook.com # Smartlook 主域名，用于网页与移动行为录制、热图与用户互动分析
 DOMAIN-SUFFIX,share.smartlook.com # Smartlook 会话分享／录制接口，用于用户行为捕捉与回放
 DOMAIN-SUFFIX,cdn.smartlook.com # Smartlook 脚本／SDK 分发节点，用于前端嵌入行为追踪
 
 # > Mouseflow（网页用户行为热图、会话录制平台封锁）
+
 DOMAIN-SUFFIX,mouseflow.com # Mouseflow 主域名，用于网页用户行为热图与会话录制服务
 DOMAIN-SUFFIX,cdn.mouseflow.com # Mouseflow 脚本／资源分发节点，用于前端加载与行为追踪
 DOMAIN-SUFFIX,api.mouseflow.com # Mouseflow 数据收集接口，用于事件上传与用户行为分析
