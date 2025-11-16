@@ -84,6 +84,15 @@ DOMAIN-SUFFIX,ads.rlcdn.com # LiveRamp 广告传送接口，用于定向广告�
 DOMAIN-SUFFIX,track.rlcdn.com # LiveRamp 跟踪系统域名，用于跨站行为分析与身份映射  
 DOMAIN-SUFFIX,sync.rlcdn.com # LiveRamp 同步平台接口，用于多个广告平台间用户身份统一  
 
+# > ZDBB 广告网络相关域名（Ziff Davis Digital Ad Services）
+
+DOMAIN-SUFFIX,zdbb.net # ZDBB 广告网络主域名，用于 Ziff Davis 广告服务与用户行为追踪  
+DOMAIN-SUFFIX,cdn.static.zdbb.net # ZDBB 静态资源加载域名，广告素材与脚本分发节点  
+DOMAIN-SUFFIX,gurgle.zdbb.net # ZDBB 广告描述平台子域，用于广告加载与网页追踪延迟实例  
+DOMAIN-SUFFIX,jogger.zdbb.net # ZDBB 追踪子域，用于广告点击与交互事件记录  
+DOMAIN-SUFFIX,ns.zdbb.net # ZDBB 广告平台名称服务器子域，用于广告资源的域名解析与引导  
+DOMAIN-SUFFIX,tracker.zdbb.net # ZDBB 广告追踪接口域名，用于记录广告点击与用户行为追踪  
+
 # > 小红书 广告与追踪服务（Xiaohongshu Ads & Tracking）
 
 DOMAIN-SUFFIX,ads-i4.xhscdn.com # 小红书广告资源 CDN，用于推送首页与笔记页广告组件
