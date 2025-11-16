@@ -5,7 +5,7 @@
 # - 说明：部分 Apple 行为探测域名已列入 Behavior_Block.list,广告类已加入 AdTracking_Block.list 详见最后明细
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-13
+# - 更新时间：2025-11-16
 
 # > 系统服务（System Services）
 
@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,translation.apple.com # Apple 翻译主服务
 DOMAIN-SUFFIX,sequoia.apple.com # Apple 翻译服务接口
 DOMAIN-SUFFIX,sequoia.cdn-apple.com # Apple 翻译服务 CDN 节点
 DOMAIN-SUFFIX,icons.axm-usercontent-apple.com # 用户内容托管（头像）
+DOMAIN-SUFFIX,sylvan.apple.com  # Apple 官方壁纸/屏保视频服务域名
 DOMAIN-SUFFIX,edge.apple # Edge 边缘服务域名
 PROCESS-NAME,apsd # Apple Push 相关进程
 PROCESS-NAME,timed # 系统时间同步进程
@@ -175,7 +176,6 @@ PROCESS-NAME,locationd # Apple 定位系统核心进程
 
 # > 已列入 Behavior_Block.list明细：--建议封锁
 
-# DOMAIN-SUFFIX,sylvan.apple.com # Apple iCloud 行为遥测服务
 # DOMAIN-SUFFIX,analytics.edge.apple # Apple 分析数据上报服务
 # DOMAIN-SUFFIX,feedbackws.apple.com # 用户反馈与错误日志上报
 # DOMAIN-SUFFIX,crashlytics.apple.com # 应用崩溃日志收集服务

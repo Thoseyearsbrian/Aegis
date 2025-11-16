@@ -8,7 +8,6 @@
 
 # > Apple 行为遥测服务
 
-DOMAIN-SUFFIX,sylvan.apple.com # Apple iCloud 行为遥测服务
 DOMAIN-SUFFIX,analytics.edge.apple # Apple 分析数据上报服务
 DOMAIN-SUFFIX,feedbackws.apple.com # 用户反馈与错误日志上报
 DOMAIN-SUFFIX,crashlytics.apple.com # 应用崩溃日志收集服务
