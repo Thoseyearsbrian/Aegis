@@ -42,6 +42,13 @@ DOMAIN-SUFFIX,de.foursquare.com  # Foursquare 德国子域名，Whoer 页面用�
 DOMAIN-SUFFIX,www.academia.edu  # Academia 学术资源平台，Whoer 页面引用用于环境兼容性测试  
 DOMAIN-SUFFIX,secure.meetup.com  # Meetup 安全登录子域名，Whoer 页面用于会话测试与安全验证  
 
+# > Academia 教育平台主域名（学术论文访问与学术资源交流）
+
+DOMAIN-SUFFIX,academia.edu  # Academia 学术社交平台主域名，用于论文发布、学术交流与研究资料访问
+DOMAIN-SUFFIX,www.academia.edu  # Academia 主站访问域名，用于加载用户上传的学术论文与研究页面内容
+DOMAIN-SUFFIX,a.academia-assets.com  # Academia 教育平台静态资源子域，用于加载图像、脚本与样式等前端依赖
+DOMAIN-SUFFIX,secure.academia.edu  # Academia 安全连接域名，用于登录、注册等敏感操作的 HTTPS 认证流程
+
 # > Google Fiber 主服务域名（GFiber / Google 宽带）
 
 DOMAIN-SUFFIX,gstaticcnapps.cn # GFiber CDN 中国节点域名，主要用于资源分发与测速验证  
