@@ -44,10 +44,14 @@ DOMAIN-SUFFIX,secure.meetup.com  # Meetup 安全登录子域名，Whoer 页面�
 
 # > Academia 教育平台主域名（学术论文访问与学术资源交流）
 
-DOMAIN-SUFFIX,academia.edu  # Academia 学术社交平台主域名，用于论文发布、学术交流与研究资料访问
-DOMAIN-SUFFIX,www.academia.edu  # Academia 主站访问域名，用于加载用户上传的学术论文与研究页面内容
-DOMAIN-SUFFIX,a.academia-assets.com  # Academia 教育平台静态资源子域，用于加载图像、脚本与样式等前端依赖
-DOMAIN-SUFFIX,secure.academia.edu  # Academia 安全连接域名，用于登录、注册等敏感操作的 HTTPS 认证流程
+DOMAIN-SUFFIX,academia.edu # Academia 学术社交平台主域名，用于论文发布、学术交流与研究资料访问
+DOMAIN-SUFFIX,www.academia.edu # Academia 主站访问域名，用于加载用户上传的学术论文与研究页面内容
+DOMAIN-SUFFIX,a.academia-assets.com # Academia 教育平台静态资源子域，用于加载图像、脚本与样式等前端依赖
+DOMAIN-SUFFIX,secure.academia.edu # Academia 安全连接域名，用于登录、注册等敏感操作的 HTTPS 认证流程
+DOMAIN-SUFFIX,a.academia-assets.com # Academia 静态资源域名，用于加载样式、脚本与前端组件等网页依赖  
+DOMAIN-SUFFIX,0.academia-photos.com # Academia 图像内容资源域名，用于加载用户上传的论文图像与预览内容
+IP-CIDR,65.8.76.64 # Academia 图像资源 CDN 节点，归属 AWS CloudFront（0.academia-photos.com）  
+IP-CIDR,65.8.76.121 # Academia 图像资源 CDN 节点，归属 AWS CloudFront（0.academia-photos.com）  
 
 # > Google Fiber 主服务域名（GFiber / Google 宽带）
 
