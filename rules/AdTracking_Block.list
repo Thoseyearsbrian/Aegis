@@ -117,6 +117,7 @@ DOMAIN-SUFFIX,tracking.meetsocial.com # tracking.meetsocial 广告追踪域名�
 
 # > 通用广告追踪域名（General Ad Tracking）
 
+DOMAIN-SUFFIX,qsearch-a.akamaihd.net  # Akamai CDN 下属 QSearch 跟踪域名，用于广告重定向与用户行为收集
 DOMAIN-SUFFIX,secure-us.imrworldwide.com # Nielsen 行为追踪平台域名，用于网页访问统计与受众分析  
 DOMAIN-SUFFIX,geolocation.onetrust.com # OneTrust 定位接口域名，用于依据地理位置展示隐私合规弹窗  
 DOMAIN-SUFFIX,diffuser-cdn.app-us1.com # ActiveCampaign 内容投放域名，用于推送营销内容与追踪行为  
