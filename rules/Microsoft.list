@@ -4,7 +4,7 @@
 # - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-12
+# - 更新时间：2025-11-17
 
 # > Microsoft Visual Studio Code 主程序与资源服务
 
@@ -112,3 +112,8 @@ DOMAIN-SUFFIX,akadns.net # 微软全球 CDN 网络域
 # > 头像服务（可选放行）
 
 DOMAIN-SUFFIX,gravatar.com # Gravatar 头像服务，用于在多个网站上显示与用户邮箱绑定的个人头像 
+
+# > Microsoft 身份验证与登录资源域名（Authentication & Login Assets）
+
+DOMAIN-SUFFIX,acctcdn.msftauth.net  # Microsoft 身份验证静态资源域名，用于加载登录页面样式与脚本资源  
+DOMAIN-SUFFIX,logincdn.msftauth.net  # Microsoft 登录界面资源域名，用于身份验证流程中的界面渲染与交互组件加载
