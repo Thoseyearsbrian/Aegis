@@ -26,6 +26,10 @@ DOMAIN-SUFFIX,speedtest.wifipros.co.prod.hosts.ooklaserver.net  # WifiPros 网�
 DOMAIN-SUFFIX,test-ipv6.com # Test-IPv6 官方测试域名，用于检测客户端对 IPv6 网络协议的支持能力与连通性评估
 DOMAIN-SUFFIX,cdn.cookielaw.org # CookieLaw 内容分发域名，用于加载 Cookie 合规弹窗与隐私政策模块  
 DOMAIN-SUFFIX,pg.ziffstatic.com # Ziff Davis 静态资源域名，主要用于技术与媒体网站的内容加载（如 PCMag、IGN）  
+DOMAIN-SUFFIX,mtu1280.losangeles.test-ipv6.com # Test-IPv6 美国洛杉矶 MTU 检测子域，用于 IPv6 网络最大传输单元测试  
+DOMAIN-SUFFIX,ipv6.losangeles.test-ipv6.com # Test-IPv6 洛杉矶节点 IPv6 连通性测试域名  
+DOMAIN-SUFFIX,ds.v6ns.losangeles.test-ipv6.com # Test-IPv6 洛杉矶节点 DNSSEC 验证测试域名  
+DOMAIN-SUFFIX,ipv6.lookup.test-ipv6.com # Test-IPv6 域名解析行为测试子域，用于 IPv6 优先级与响应行为分析  
 
 # > Google Fiber 主服务域名（GFiber / Google 宽带）
 
