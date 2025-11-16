@@ -51,7 +51,22 @@ DOMAIN-SUFFIX,secure.academia.edu # Academia 安全连接域名，用于登录�
 DOMAIN-SUFFIX,a.academia-assets.com # Academia 静态资源域名，用于加载样式、脚本与前端组件等网页依赖  
 DOMAIN-SUFFIX,0.academia-photos.com # Academia 图像内容资源域名，用于加载用户上传的论文图像与预览内容
 IP-CIDR,65.8.76.64 # Academia 图像资源 CDN 节点，归属 AWS CloudFront（0.academia-photos.com）  
-IP-CIDR,65.8.76.121 # Academia 图像资源 CDN 节点，归属 AWS CloudFront（0.academia-photos.com）  
+IP-CIDR,65.8.76.121 # Academia 图像资源 CDN 节点，归属 AWS CloudFront（0.academia-photos.com） 
+
+# > IT狗（ITdog）网络运维工具平台域名
+
+DOMAIN-SUFFIX,itdog.cn # IT狗主域名，用于在线 ping/tcping 、网站测速、HTTP/API 测速、DNS 污染检测 等网络运维工具服务  
+DOMAIN-SUFFIX,www.itdog.cn # IT狗主站子域名，用于服务器/网络技术交流、教程文章、运维资源分享  
+
+# > 3UE 数字营销平台域名
+
+DOMAIN-SUFFIX,3ue.com  # 3UE 主域名，用于数字营销、数据分析与服务产品展示
+DOMAIN-SUFFIX,dash.3ue.com  # 3UE Dashboard 子域，用于用户登录、数据可视化及营销报告页面
+
+# > 和兴国际通关查询服务域名（E-KC 编码查询平台）
+
+DOMAIN-SUFFIX,e-kc.vip # 和兴国际货运平台主域名，用于展示公司服务、物流方案与通关工具入口  
+DOMAIN-SUFFIX,inspection.e-kc.vip # 深圳市和兴国际货运代理有限公司 “个人通关编码查询”服务域名，用于进口/出口通关信息查询  
 
 # > Google Fiber 主服务域名（GFiber / Google 宽带）
 
@@ -2410,6 +2425,7 @@ DOMAIN-SUFFIX,daum.net  # Kakao 集团旗下门户 Daum，用于部分服务整�
 DOMAIN-SUFFIX,siteground.com  # SiteGround 官网域名，用于用户后台、客服与建站管理  
 DOMAIN-SUFFIX,sg-host.com  # SiteGround 分配的用户网站二级域名，用于站点实际访问解析  
 DOMAIN-SUFFIX,siteground.net  # SiteGround 技术与内部服务域名，部分解析与CDN调用  
+DOMAIN-SUFFIX,login.siteground.com # SiteGround 登录资源域名，用于账户认证、控制面板登录及用户服务管理
 
 # > Bluehost 建站与主机服务相关域名
 
@@ -2826,6 +2842,7 @@ DOMAIN-SUFFIX,dlpanda.com # DLPanda 资源下载站，提供图像、设计模�
 
 DOMAIN-SUFFIX,semrush.com # SEMrush 专业 SEO 工具平台，提供关键词分析、竞品监测与网站审计服务
 DOMAIN-SUFFIX,seoptimer.com # SEOptimer SEO 优化与站点评分平台，用于网站性能与可见性分析
+DOMAIN-SUFFIX,zh.semrush.com # Semrush 中文版主站域名，用于 SEO 工具、关键词研究与网站分析服务
 
 # > Blender 官方与社区平台
 
