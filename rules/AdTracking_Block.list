@@ -117,6 +117,15 @@ DOMAIN-SUFFIX,tracking.meetsocial.com # tracking.meetsocial 广告追踪域名�
 
 # > 通用广告追踪域名（General Ad Tracking）
 
+DOMAIN-SUFFIX,secure-us.imrworldwide.com # Nielsen 行为追踪平台域名，用于网页访问统计与受众分析  
+DOMAIN-SUFFIX,geolocation.onetrust.com # OneTrust 定位接口域名，用于依据地理位置展示隐私合规弹窗  
+DOMAIN-SUFFIX,diffuser-cdn.app-us1.com # ActiveCampaign 内容投放域名，用于推送营销内容与追踪行为  
+DOMAIN-SUFFIX,btlr.sharethrough.com # Sharethrough 广告平台接口域名，用于原生广告请求与渲染  
+DOMAIN-SUFFIX,cdn.static.zdbb.net # Zdbb 广告静态资源加载域名，用于第三方页面广告内容展示  
+DOMAIN-SUFFIX,hb.yellowblue.io # Yellowblue 广告竞价服务域名，用于 Header Bidding 广告逻辑执行  
+DOMAIN-SUFFIX,pg.cdnst.net # Cdnst 广告资源加载域名，用于页面中嵌入式广告投放  
+DOMAIN-SUFFIX,rp.liadm.com # LIADM 广告重定向接口，用于广告链路追踪与用户识别  
+DOMAIN-SUFFIX,i.liadm.com # LIADM 图像加载域名，用于广告内容展示与行为记录  
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com # 巨量引擎 Pangolin 广告 SDK 接口域名，用于广告归因与用户行为采集
 DOMAIN-SUFFIX,sdk.e.qq.com # 腾讯广告联盟 SDK 域名，常用于 App 内广告展示与点击追踪
 DOMAIN-SUFFIX,blog.csdn.net  # CSDN 技术博客平台，内容劣质、广告导向、含追踪与误导跳转行为 
