@@ -52,6 +52,12 @@ DOMAIN-SUFFIX,fast.com # Netflix 旗下 Fast 测速服务主站域名，用于�
 DOMAIN-SUFFIX,api.fast.com # Fast 测速服务接口域名，用于测速数据交换与节点测试调度  
 DOMAIN-SUFFIX,logos.speedtestcustom.com # Ookla Speedtest 自定义测速平台图标域名，用于加载测速页面品牌标识与图像资源
 
+# > Scamalytics 服务域名（IP 纯净度与匿名性检测平台）
+
+DOMAIN-SUFFIX,scamalytics.com  # Scamalytics 主站域名，用于访问风险评分页面与检测服务入口  
+DOMAIN-SUFFIX,api.scamalytics.com  # Scamalytics API 接口域名，用于机器查询当前 IP 风险与匿名属性评分  
+DOMAIN-SUFFIX,cdn.scamalytics.com  # Scamalytics 静态资源域名，用于加载前端页面组件与图表渲染服务  
+
 # > Kaspersky 相关域名
 
 DOMAIN-SUFFIX,kaspersky.com # 卡巴斯基主站域名，用于访问官网及通用服务
