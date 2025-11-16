@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,speedtest.utopiafiber.com.prod.hosts.ooklaserver.net  # Utopia Fib
 DOMAIN-SUFFIX,speedtest.hicountry.net.prod.hosts.ooklaserver.net  # HiCountry ISP 测速服务器，犹他州地区  
 DOMAIN-SUFFIX,yourspeed.allwest.com  # AllWest 通信测速子域，用于测速服务  
 DOMAIN-SUFFIX,speedtest.wifipros.co.prod.hosts.ooklaserver.net  # WifiPros 网络测速节点，支持 Ookla 测试平台  
+IP-CIDR,66.205.243.2 # Speedtest Fallback 测速节点（Rackspace 托管），使用端口8080用于测速验证-待持续验证
 
 # > Test-IPv6 服务域名（IPv6 网络连通性测试平台）
 
