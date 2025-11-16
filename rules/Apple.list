@@ -30,13 +30,13 @@ DOMAIN-SUFFIX,sequoia.apple.com # Apple 翻译服务接口
 DOMAIN-SUFFIX,sequoia.cdn-apple.com # Apple 翻译服务 CDN 节点
 DOMAIN-SUFFIX,icons.axm-usercontent-apple.com # 用户内容托管（头像）
 DOMAIN-SUFFIX,sylvan.apple.com  # Apple 官方壁纸/屏保视频服务域名
-DOMAIN-SUFFIX,edge.apple # Edge 边缘服务域名
+DOMAIN-SUFFIX,sfss.cdn-apple.com  # Apple 安全框架服务资源域名
+DOMAIN-SUFFIX,ampaeservices.com # Apple 认证服务相关域名
+DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 PROCESS-NAME,apsd # Apple Push 相关进程
 PROCESS-NAME,timed # 系统时间同步进程
 PROCESS-NAME,syncdefaultsd # iCloud 同步控制器进程
 PROCESS-NAME,cloudd # 云上贵州 iCloud 同步进程
-DOMAIN-SUFFIX,ampaeservices.com # Apple 认证服务相关域名
-DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 IP-CIDR,17.252.203.235 # Apple 验证与激活服务节点，常用于 iOS 激活与证书验证流程 
 IP-CIDR,17.250.0.0/16 # Apple Push 与激活服务段
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
