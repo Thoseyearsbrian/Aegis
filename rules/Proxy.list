@@ -4116,6 +4116,13 @@ DOMAIN-SUFFIX,ripe.net # 欧洲 IP 地址分配机构域名，用于网络基础
 DOMAIN-SUFFIX,sms-activate.org # sms-activate 主域名，用于租用虚拟手机号接收短信验证码（SMS 接码服务）
 DOMAIN-SUFFIX,sms-activate.io # sms-activate 官方备用访问域名，用于虚拟手机号租用与短信验证码接收服务（SMS 接码服务）
 
+# > JivoChat 在线客服系统相关域名（jivosite.com）
+
+DOMAIN-SUFFIX,jivosite.com # JivoChat 主站域名，用于官网展示、用户管理与客服服务面板  
+DOMAIN-SUFFIX,code-ya.jivosite.com # JivoChat 嵌入脚本加载域名，用于加载在线聊天窗口与初始化前端客服模块  
+DOMAIN-SUFFIX,widget-jivo.com # JivoChat 客服组件资源域名，用于渲染聊天窗口 UI 与用户侧组件加载  
+DOMAIN-SUFFIX,jivochat.com # JivoChat 国际通用入口域名，用于多语言平台与国际化客服管理系统  
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
