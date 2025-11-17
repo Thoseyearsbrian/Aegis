@@ -4114,6 +4114,7 @@ DOMAIN-SUFFIX,ripe.net # 欧洲 IP 地址分配机构域名，用于网络基础
 # > SMS 虚拟短信接码平台域名（sms-activate.org）
 
 DOMAIN-SUFFIX,sms-activate.org # sms-activate 主域名，用于租用虚拟手机号接收短信验证码（SMS 接码服务）
+DOMAIN-SUFFIX,sms-activate.io # sms-activate 官方备用访问域名，用于虚拟手机号租用与短信验证码接收服务（SMS 接码服务）
 
 # > 其他 (暂未分类)
 
