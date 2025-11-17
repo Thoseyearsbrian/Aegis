@@ -294,7 +294,6 @@ DOMAIN-SUFFIX,passport.baidu.com # 百度账户登录与身份验证接口
 DOMAIN-SUFFIX,pan.baidu.com # 百度网盘主入口，提供用户存储服务  
 DOMAIN-SUFFIX,zhanzhang.baidu.com # 百度站长平台域名，提供网站接入与分析  
 DOMAIN-SUFFIX,sp0.baidu.com # 百度加速/内容分发节点，部分用于广告加载  
-DOMAIN-SUFFIX,hm.baidu.com # 百度统计（Baidu Tongji）接口，进行用户行为追踪  
 DOMAIN-SUFFIX,cpro.baidu.com # 百度广告联盟接口，投放与加载商业广告  
 DOMAIN-SUFFIX,pos.baidu.com # 广告位追踪与点击行为采集接口  
 DOMAIN-SUFFIX,nsclick.baidu.com # 百度广告点击跟踪接口  
@@ -864,7 +863,6 @@ DOMAIN-SUFFIX,h5.health.zj.gov.cn # 健康码 H5 页面加载入口
 DOMAIN-SUFFIX,interface.meituan.com # 健康码扫码对接接口（美团平台健康服务集成）  
 DOMAIN-SUFFIX,c-ncap.org.cn # 中国健康码体系安全与接入验证域名  
 DOMAIN-SUFFIX,epidemic.zjzwfw.gov.cn # 国家政务服务网疫情防控接口（核酸/疫苗/健康码联动）  
-DOMAIN-SUFFIX,hm.baidu.com # 百度健康码相关行为监测接口  
 DOMAIN-SUFFIX,ehallapp.com # 智慧校园健康打卡系统，用于部分省市健康申报  
 DOMAIN-SUFFIX,yqtb.gz.gov.cn # 广州健康申报平台，疫情填报系统  
 DOMAIN-SUFFIX,yqtb.sh.gov.cn # 上海健康申报平台，疫情时期健康码与通行证数据平台  
@@ -1251,6 +1249,11 @@ DOMAIN-SUFFIX,news.baidu.com # 百度新闻频道，内容聚合服务页面入�
 DOMAIN-SUFFIX,searchbox.baidu.com # 百度 App 内部搜索框模块接口  
 DOMAIN-SUFFIX,ic.snssdk.com # 字节跳动内容服务 SDK，被百度部分内容页嵌入调用  
 DOMAIN-SUFFIX,tcbox.baidu.com # 百度内容推送接口，涉及 App 内新闻/视频等模块加载  
+DOMAIN-SUFFIX,baidubce.com # 百度智能云 API 与服务接口主域名  
+DOMAIN-SUFFIX,bdstatic.com # 百度云静态资源域名（含 AI/图像识别等模块）  
+DOMAIN-SUFFIX,cloud.baidu.com # 百度智能云官网与控制台访问入口  
+DOMAIN-SUFFIX,sp0.baidu.com # 百度搜索内容分发与资源加载域名 
+DOMAIN-SUFFIX,mbd.baidu.com # 百度行为组件与内容分发策略接口
 
 # > 搜狗搜索主服务域名
 DOMAIN-SUFFIX,sogou.com # 搜狗主域名，涵盖搜索门户、导航入口等  
@@ -1307,13 +1310,6 @@ DOMAIN-SUFFIX,adashx4serv.uc.cn # UC SDK 广告行为分析与回传
 DOMAIN-SUFFIX,adx.uc.cn # UC 广告投放平台接口，负责商业广告内容加载  
 DOMAIN-SUFFIX,track.uc.cn # UC 用户行为数据追踪与归集接口  
 DOMAIN-SUFFIX,uc.ucweb.com # UC 浏览器初始化与配置服务接口  
-
-# > 百度智能云（Baidu Cloud）
-
-DOMAIN-SUFFIX,baidubce.com # 百度智能云 API 与服务接口主域名  
-DOMAIN-SUFFIX,bdstatic.com # 百度云静态资源域名（含 AI/图像识别等模块）  
-DOMAIN-SUFFIX,cloud.baidu.com # 百度智能云官网与控制台访问入口  
-DOMAIN-SUFFIX,sp0.baidu.com # 百度搜索内容分发与资源加载域名，用于搜索结果页接口调用与导航跳转  
 
 # > 网易邮箱（NetEase Mail）
 

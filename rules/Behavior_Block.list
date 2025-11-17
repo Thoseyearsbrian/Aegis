@@ -251,7 +251,6 @@ DOMAIN-SUFFIX,sdkgen.data.tianwenca.com # 天闻 SDK 广告平台回传接口，
 DOMAIN-SUFFIX,hm.baidu.com # 百度统计（常用于嵌入式网页行为追踪）
 DOMAIN-SUFFIX,tcbox.baidu.com # 百度 App 行为日志接口
 DOMAIN-SUFFIX,log.re.baidu.com # 百度推荐系统行为日志上报接口
-DOMAIN-SUFFIX,mbd.baidu.com # 百度行为组件与内容分发策略接口
 
 # > 微博行为日志与遥测接口
 
