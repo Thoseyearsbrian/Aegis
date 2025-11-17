@@ -86,8 +86,8 @@ DOMAIN-SUFFIX,www.datadoghq-browser-agent.com  # Datadog 浏览器代理域名�
 
 # > AWS WAF（Web 应用防火墙）行为识别服务域名
 
-DOMAIN-SUFFIX,edge.sdk.awswaf.com  # AWS WAF SDK 通用子域，用于加载 Web 应用防火墙前端指令与行为检测配置  
-DOMAIN-SUFFIX,de5282c3ca0c.edge.sdk.awswaf.com  # AWS WAF SDK 实例节点，用于采集用户行为特征、指纹数据与安全挑战反馈  
+DOMAIN-SUFFIX,edge.sdk.awswaf.com # AWS WAF SDK 通用子域，用于加载 Web 应用防火墙前端指令与行为检测配置  
+DOMAIN-SUFFIX,de5282c3ca0c.edge.sdk.awswaf.com # AWS WAF SDK 实例节点，用于采集用户行为特征、指纹数据与安全挑战反馈  
 
 # > Affinity 相关域名
 
