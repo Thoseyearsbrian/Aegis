@@ -3929,6 +3929,10 @@ DOMAIN-SUFFIX,widget-jivo.com # JivoChat 客服组件资源域名，用于渲染
 DOMAIN-SUFFIX,jivochat.com # JivoChat 国际通用入口域名，用于多语言平台与国际化客服管理系统  
 DOMAIN-SUFFIX,code.jivo.ru # JivoChat 脚本加载域名，用于嵌入在线客服组件与初始化聊天窗口  
 
+# > VirScan 在线病毒扫描平台（中国开发的多引擎检测服务）
+
+DOMAIN-SUFFIX,virscan.org # VirScan 主站域名，用于在线提交文件进行病毒扫描与检测报告查询
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
