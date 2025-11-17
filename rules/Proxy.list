@@ -3933,6 +3933,10 @@ DOMAIN-SUFFIX,code.jivo.ru # JivoChat 脚本加载域名，用于嵌入在线客
 
 DOMAIN-SUFFIX,virscan.org # VirScan 主站域名，用于在线提交文件进行病毒扫描与检测报告查询
 
+# > Geetest 极验验证服务（前端验证码资源加载）
+
+DOMAIN-SUFFIX,static.geetest.com # 极验滑动验证码静态资源域名，用于加载前端脚本、样式与验证码组件
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
