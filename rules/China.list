@@ -1313,6 +1313,7 @@ DOMAIN-SUFFIX,uc.ucweb.com # UC 浏览器初始化与配置服务接口
 DOMAIN-SUFFIX,baidubce.com # 百度智能云 API 与服务接口主域名  
 DOMAIN-SUFFIX,bdstatic.com # 百度云静态资源域名（含 AI/图像识别等模块）  
 DOMAIN-SUFFIX,cloud.baidu.com # 百度智能云官网与控制台访问入口  
+DOMAIN-SUFFIX,sp0.baidu.com # 百度搜索内容分发与资源加载域名，用于搜索结果页接口调用与导航跳转  
 
 # > 网易邮箱（NetEase Mail）
 
