@@ -4099,6 +4099,11 @@ DOMAIN-SUFFIX,aus5.mozilla.org # Firefox 自动更新接口，用于检测与下
 DOMAIN-SUFFIX,updates.cdn.mozilla.net # Firefox 更新 CDN 节点，支持组件和浏览器资源加载  
 DOMAIN-SUFFIX,mozilla.net # Mozilla CDN 域名，用于分发更新与浏览器内资源  
 
+# > Meetup 活动社交平台域名（Meetup.com）
+
+DOMAIN-SUFFIX,meetup.com # Meetup 主域名，用于组织线下聚会、兴趣小组与本地活动社交平台服务  
+DOMAIN-SUFFIX,www.meetup.com # Meetup 主站入口域名，提供活动浏览、群组加入、账户注册与管理功能  
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
