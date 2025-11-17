@@ -1408,3 +1408,8 @@ DOMAIN-SUFFIX,bytedns.net # 字节跳动内容加速与调度服务域名，用�
 # > 菜鸟教程平台域名（Runoob.com）
 
 DOMAIN-SUFFIX,runoob.com # 菜鸟教程主域名，用于提供编程语言、前端后端开发、数据库等在线技术教程与实例演示  
+
+# > Iconfont 图标字体服务平台域名（iconfont.cn）
+
+DOMAIN-SUFFIX,iconfont.cn # 阿里巴巴 Iconfont 图标字体平台域名，用于网页图标托管、字体资源加载与设计师图标分发服务
+DOMAIN-SUFFIX,www.iconfont.cn # Iconfont 网站主站入口域名，提供图标搜索、字体管理与用户账户功能
