@@ -4111,6 +4111,10 @@ DOMAIN-SUFFIX,arin.net # 美国地区网络注册管理机构域名，用于 IP/
 DOMAIN-SUFFIX,rdap.arin.net  # ARIN RDAP 服务接口，用于 WHOIS 查询与 IP 地址归属信息解析（北美区域注册管理机构）
 DOMAIN-SUFFIX,ripe.net # 欧洲 IP 地址分配机构域名，用于网络基础服务
 
+# > SMS 虚拟短信接码平台域名（sms-activate.org）
+
+DOMAIN-SUFFIX,sms-activate.org # sms-activate 主域名，用于租用虚拟手机号接收短信验证码（SMS 接码服务）
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
