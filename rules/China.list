@@ -214,9 +214,6 @@ DOMAIN-SUFFIX,miit.gov.cn # 工业和信息化部官网域名，用于政策发�
 DOMAIN-SUFFIX,beian.miit.gov.cn # 工信部网站备案查询子域名，用于 ICP 备案状态验证
 DOMAIN-SUFFIX,caict.ac.cn # 中国信息通信研究院主域名，用于标准制定与政策解读
 DOMAIN-SUFFIX,cert.org.cn # 国家互联网应急中心域名，用于漏洞通报与安全预警
-DOMAIN-SUFFIX,apnic.net # 亚太网络信息中心域名，用于 IP 分配与 WHOIS 查询
-DOMAIN-SUFFIX,arin.net # 美国地区网络注册管理机构域名，用于 IP/ASN 查询
-DOMAIN-SUFFIX,ripe.net # 欧洲 IP 地址分配机构域名，用于网络基础服务
 DOMAIN-SUFFIX,ipip.net # IPIP 数据服务平台域名，常用于 IP 属地查询与测速
 DOMAIN-SUFFIX,ip.cn # IP 查询与定位服务域名，常用于公网 IP 探测服务
 

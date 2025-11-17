@@ -4104,6 +4104,13 @@ DOMAIN-SUFFIX,mozilla.net # Mozilla CDN 域名，用于分发更新与浏览器�
 DOMAIN-SUFFIX,meetup.com # Meetup 主域名，用于组织线下聚会、兴趣小组与本地活动社交平台服务  
 DOMAIN-SUFFIX,www.meetup.com # Meetup 主站入口域名，提供活动浏览、群组加入、账户注册与管理功能  
 
+# > 通信监管与基础网络服务相关域名
+
+DOMAIN-SUFFIX,apnic.net # 亚太网络信息中心域名，用于 IP 分配与 WHOIS 查询
+DOMAIN-SUFFIX,arin.net # 美国地区网络注册管理机构域名，用于 IP/ASN 查询
+DOMAIN-SUFFIX,rdap.arin.net  # ARIN RDAP 服务接口，用于 WHOIS 查询与 IP 地址归属信息解析（北美区域注册管理机构）
+DOMAIN-SUFFIX,ripe.net # 欧洲 IP 地址分配机构域名，用于网络基础服务
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
