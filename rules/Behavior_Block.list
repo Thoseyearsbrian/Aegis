@@ -63,6 +63,11 @@ DOMAIN-SUFFIX,crashlytics.com # 被大量灰产 SDK 使用
 DOMAIN-SUFFIX,app-analytics-services.com # YouTube 应用行为统计接口，常用于用户操作数据收集
 DOMAIN-SUFFIX,s.youtube.com # YouTube 广告控制与追踪接口，用于广告推荐、点击记录与个性化订阅行为
 DOMAIN-SUFFIX,youtube-nocookie.com # YouTube 嵌入播放器的隐私增强模式域名，仍存在行为追踪功能，建议拦截
+DOMAIN-SUFFIX,mpc-prod-11-s6uit34pua-uc.a.run.app # Cloud Run 托管脚本服务，用于行为收集或营销事件处理  
+
+# > Facebook 相关行为指纹
+
+DOMAIN-SUFFIX,demo-1.conversionsapigateway.com # 服务端转化事件追踪演示域名  
 
 # > 微信行为连接 IP（疑似环境探测 / 信令通信）
 
@@ -83,6 +88,11 @@ DOMAIN-SUFFIX,stackpath.bootstrapcdn.com  # Bootstrap 框架 CDN，Whoer 页面�
 # > Datadog 行为分析与性能监控服务域名（Browser Monitoring & Behavior Analytics）
 
 DOMAIN-SUFFIX,www.datadoghq-browser-agent.com  # Datadog 浏览器代理域名，用于前端性能监测、用户行为分析与日志采集
+
+# > OptinMonster 相关域名
+
+DOMAIN-SUFFIX,a.omappapi.com # 弹窗与用户行为触发脚本加载域名  
+
 
 # > AWS WAF（Web 应用防火墙）行为识别服务域名
 
