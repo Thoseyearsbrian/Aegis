@@ -10,7 +10,7 @@ If you discover a security vulnerability (e.g. backdoor, DNS hijacking, rule exp
 ## 📧 Contact  -  联系方式
 
 Please mention @admin in the group https://t.me/aegisdiscussion to report your issue. I will contact you via private message within 24 hours.
-Kindly avoid repeated mentions or off-topic messages unrelated to the project.  -  请在群组https://t.me/aegisdiscussion中 @管理员说明问题，我会在 24 小时内私信联系你。请勿频繁滥用或与项目无关内容打扰。
+Kindly avoid repeated mentions or off-topic messages unrelated to the project.  -  请在群组 https://t.me/aegisdiscussion 中@管理员说明问题，我会在 24 小时内私信联系你。请勿频繁滥用或与项目无关内容打扰。
 
 ## ⏱️ Response Time  -  响应时间
 
