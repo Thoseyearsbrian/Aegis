@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-14
+# - 更新时间：2025-11-17
 
 # > OpenAI Chat 系列
 
@@ -72,6 +72,9 @@ DOMAIN-SUFFIX,perplexity.ai # Perplexity AI 主站与 API 服务
 
 DOMAIN-SUFFIX,huggingface.co # HuggingFace 官网与模型平台主域名
 DOMAIN-SUFFIX,inference-api.com # HuggingFace 推理 API 接口域名
+DOMAIN-SUFFIX,cdn-lfs.huggingface.co # Hugging Face LFS（Large File Storage）内容分发域名，用于下载权重文件、数据集与模型资源  
+DOMAIN-SUFFIX,huggingfaceusercontent.com # Hugging Face 用户生成内容域名，用于存储用户上传的模型、Demo、Spaces 应用等  
+DOMAIN-SUFFIX,huggingface.tech # Hugging Face 技术子域，用于内部服务接口、部署服务及云端处理组件（用途较为隐蔽）  
 
 # > Poe（Quora）
 
