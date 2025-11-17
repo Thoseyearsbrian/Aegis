@@ -5,7 +5,7 @@
 # - 注意：广告追踪相关域名与 YouTube 已独立归类至 AdTracking.list 与 YouTube.list，未包含在本规则中
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-16
+# - 更新时间：2025-11-17
 
 # > 核心服务（Google Core Services）
 
@@ -27,12 +27,12 @@ DOMAIN-SUFFIX,domains.google # Google 域名注册服务官网
 DOMAIN-SUFFIX,googledomains.com # Google Domains 官网入口
 DOMAIN-SUFFIX,google-analytics.com # Google Analytics 网站分析平台主域
 DOMAIN-SUFFIX,googleanalytics.com # Google Analytics 广告分析平台
-DOMAIN-SUFFIX,www-google-analytics.l.google.com # Google Analytics 辅助域名
+DOMAIN-SUFFIX,www-google-analytics.l.google.com # Google Analytics 辅助域名 -待验证,,可能错误
 DOMAIN-SUFFIX,adsense.google.cn # Google AdSense 在中国的广告服务域
 DOMAIN-SUFFIX,googletagmanager.com # Google Tag Manager 标签管理器
 DOMAIN-SUFFIX,analytics.google.com # Google 分析平台主域
 DOMAIN-SUFFIX,g.co # Google 官方短链接域名，用于跳转至各类产品与服务页面 
-IP-CIDR,142.250.4.0/24  # www.google.com 服务器节点，用于 Google 搜索与服务访问
+IP-CIDR,142.250.4.0/24  # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
 

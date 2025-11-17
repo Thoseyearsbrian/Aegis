@@ -87,7 +87,7 @@ DOMAIN-SUFFIX,stackpath.bootstrapcdn.com  # Bootstrap 框架 CDN，Whoer 页面�
 
 # > Datadog 行为分析与性能监控服务域名（Browser Monitoring & Behavior Analytics）
 
-DOMAIN-SUFFIX,www.datadoghq-browser-agent.com  # Datadog 浏览器代理域名，用于前端性能监测、用户行为分析与日志采集
+DOMAIN-SUFFIX,datadoghq-browser-agent.com  # Datadog 浏览器代理域名，用于前端性能监测、用户行为分析与日志采集
 
 # > OptinMonster 相关域名
 

@@ -6,7 +6,7 @@
 # - 声明：所有情报信息基于公开披露，相关归属与内容不代表制表者立场
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-08
+# - 更新时间：2025-11-17
 
 # > APT1（中国 · 被 Mandiant 命名为 Comment Crew）
 
@@ -371,12 +371,11 @@ DOMAIN-SUFFIX,proj-95dae.firebaseio.com # AridSpy 使用的 Firebase 实例域�
 DOMAIN-SUFFIX,proj-2bedf.firebaseio.com # AridSpy 使用的 Firebase 实例域名
 DOMAIN-SUFFIX,proj-54ca0.firebaseio.com # AridSpy 使用的 Firebase 实例域名
 DOMAIN-SUFFIX,project44-5ebbd.firebaseio.com # AridSpy 使用的 Firebase 实例域名
-DOMAIN-SUFFIX,www.palcivilreg.com # AridSpy C2 域名，可能与巴勒斯坦相关主题伪装
+DOMAIN-SUFFIX,palcivilreg.com # AridSpy C2 域名，可能与巴勒斯坦相关主题伪装
 DOMAIN-SUFFIX,analyticsandroid.com # AridSpy 控制域名，伪装为数据分析服务
 DOMAIN-SUFFIX,almoshell.website # AridSpy 控制域名，命名风格指向阿拉伯语环境
 DOMAIN-SUFFIX,orientflags.com # AridSpy 控制域名，具区域政治暗示性
 DOMAIN-SUFFIX,elsilvercloud.com # AridSpy 控制域名，使用常规云服务名称伪装
-DOMAIN-SUFFIX,www.lapizachat.com # AridSpy 控制域名，仿冒聊天平台
 DOMAIN-SUFFIX,lapizachat.com # AridSpy 控制域名，仿冒聊天平台
 DOMAIN-SUFFIX,alwaysgoodidea.com # AridSpy 控制域名，命名为通用正面词组
 DOMAIN-SUFFIX,nortirchats.com # AridSpy 控制域名，疑似通信平台伪装
@@ -497,8 +496,8 @@ DOMAIN-SUFFIX,systeminfo.oicp.net # BackdoorDiplomacy 控制端节点，执行�
 DOMAIN-SUFFIX,updateip.onmypc.net # BackdoorDiplomacy 控制域名，用于更新回连通道
 DOMAIN-SUFFIX,web.vpnkerio.com # BackdoorDiplomacy 控制平台伪装域名
 DOMAIN-SUFFIX,winupdate.ns02.us # BackdoorDiplomacy C2域名，模拟系统更新服务
-DOMAIN-SUFFIX,www.freedns02.dns2.us # BackdoorDiplomacy 控制域名，搭建动态回连平台
-DOMAIN-SUFFIX,www.intelupdate.dns1.us # BackdoorDiplomacy 控制节点，模拟Intel更新服务
+DOMAIN-SUFFIX,freedns02.dns2.us # BackdoorDiplomacy 控制域名，搭建动态回连平台
+DOMAIN-SUFFIX,intelupdate.dns1.us # BackdoorDiplomacy 控制节点，模拟Intel更新服务
 IP-CIDR,199.247.9.67 # BackdoorDiplomacy C2 控制节点  
 IP-CIDR,43.251.105.218 # BackdoorDiplomacy C2 控制节点  
 IP-CIDR,43.251.105.222 # BackdoorDiplomacy C2 控制节点  
@@ -562,9 +561,9 @@ DOMAIN-SUFFIX,j2.premiumdns.top # 用于 Bandook 通信的控制节点（端口 
 DOMAIN-SUFFIX,j3.newoneok.top # Bandook 控制器域名，监听端口 9903
 DOMAIN-SUFFIX,p2020.xyz # Bandook 样本常用域名之一，可能用于误导追踪
 DOMAIN-SUFFIX,vdsm1.xyz # 疑似 Bandook 投递载体服务域名
-DOMAIN-SUFFIX,www.blueberry2017.com # 模拟食品类站点伪装的恶意载体域名
-DOMAIN-SUFFIX,www.watermelon2017.com # Bandook 恶意样本加载点，伪装为正常商业站
-DOMAIN-SUFFIX,www.orange2017.com # 用于 Bandook 后门下载行为的诱导页面
+DOMAIN-SUFFIX,blueberry2017.com # 模拟食品类站点伪装的恶意载体域名
+DOMAIN-SUFFIX,watermelon2017.com # Bandook 恶意样本加载点，伪装为正常商业站
+DOMAIN-SUFFIX,orange2017.com # 用于 Bandook 后门下载行为的诱导页面
 DOMAIN-SUFFIX,dbclavel.info # Bandook 控制站点重定向跳板域名
 DOMAIN-SUFFIX,panel.newoneok.top # Bandook 后门控制面板域名
 
@@ -1248,13 +1247,11 @@ DOMAIN-SUFFIX,signalplus.org # Signal Plus C2 控制服务器
 DOMAIN-SUFFIX,proxy3.signalplus.org # Signal Plus 代理服务器  
 DOMAIN-SUFFIX,proxy4.signalplus.org # Signal Plus 代理服务器  
 DOMAIN-SUFFIX,62-210-28-116.rev.poneytelecom.eu # FlyGram 代理服务器  
-DOMAIN-SUFFIX,www.signalplus.org # Signal Plus 恶意分发网站  
 DOMAIN-SUFFIX,proxy2.signalplus.org # Signal Plus 代理服务器  
 DOMAIN-SUFFIX,proxy6.signalplus.org # Signal Plus 代理服务器  
 DOMAIN-SUFFIX,proxy5.signalplus.org # Signal Plus 代理服务器  
 DOMAIN-SUFFIX,flygram.org # FlyGram C2 控制服务器  
 DOMAIN-SUFFIX,proxy1.signalplus.org # Signal Plus 代理服务器  
-DOMAIN-SUFFIX,www.flygram.org # FlyGram 恶意分发网站 
 IP-CIDR,45.63.89.238 # FlyGram 代理服务器  
 IP-CIDR,45.133.238.92 # FlyGram 代理服务器  
 IP-CIDR,45.154.12.132 # Signal Plus C2 控制服务器  
@@ -1896,10 +1893,10 @@ DOMAIN-SUFFIX,mantis.quick.net.pl # 被入侵的合法站点，用于托管 Nuke
 DOMAIN-SUFFIX,nrfm.lk # 被入侵的 WordPress 网站，用于托管 NukeSped C2  
 DOMAIN-SUFFIX,radiographers.org # 被入侵的合法站点，用于托管 NukeSped C2  
 DOMAIN-SUFFIX,turnscor.com # 被入侵的 WordPress 网站，用于托管 NukeSped C2  
-DOMAIN-SUFFIX,www.keewoom.co.kr # 被入侵的合法站点，用于托管 NukeSped C2  
+DOMAIN-SUFFIX,keewoom.co.kr # 被入侵的合法站点，用于托管 NukeSped C2  
 IP-CIDR,118.98.221.14 # kapata-arkeologi.kemdikbud.go.id 域名对应的 C2 IP  
 IP-CIDR,160.153.33.195 # barsaji.com.mx 域名对应的 C2 IP  
-IP-CIDR,175.207.13.231 # www.keewoom.co.kr 域名对应的 C2 IP  
+IP-CIDR,175.207.13.231 # keewoom.co.kr 域名对应的 C2 IP  
 IP-CIDR,178.251.26.65 # kerstpakketten.horesca-meppel.nl 域名对应的 C2 IP  
 IP-CIDR,185.51.65.233 # kittimasszazs.hu 域名对应的 C2 IP  
 IP-CIDR,199.188.206.75 # nrfm.lk 域名对应的 C2 IP  
@@ -2476,7 +2473,7 @@ IP-CIDR,193.38.54.110 # SparklingGoblin 控制服务器 IP
 # > SpyLoan（恶意贷款类间谍应用 / 针对安卓用户的金融诱骗行为）
 
 DOMAIN-SUFFIX,pss.aakredit.in # SpyLoan 控制域名
-DOMAIN-SUFFIX,www.guayabacash.com # SpyLoan 控制域名
+DOMAIN-SUFFIX,guayabacash.com # SpyLoan 控制域名
 DOMAIN-SUFFIX,eg.easycredit-app.com # SpyLoan 控制域名
 DOMAIN-SUFFIX,ag.ahymvoxxg.com # SpyLoan 控制域名
 DOMAIN-SUFFIX,hwpamjvk.whcashph.com # SpyLoan 控制域名
@@ -2487,7 +2484,7 @@ DOMAIN-SUFFIX,mpx.mpxoptim.com # SpyLoan 控制域名
 DOMAIN-SUFFIX,oy.oyeqctus.com # SpyLoan 控制域名
 DOMAIN-SUFFIX,iu.iuuaufbt.com # SpyLoan 控制域名
 DOMAIN-SUFFIX,kk.softheartlend2.com # SpyLoan 控制域名
-DOMAIN-SUFFIX,www.credibusco.com # SpyLoan 控制域名
+DOMAIN-SUFFIX,credibusco.com # SpyLoan 控制域名
 DOMAIN-SUFFIX,cy.amorcash.com # SpyLoan 控制域名
 DOMAIN-SUFFIX,api.yumicash.com # SpyLoan 控制域名
 DOMAIN-SUFFIX,app.truenaira.co # SpyLoan 控制域名
@@ -2644,7 +2641,7 @@ DOMAIN-SUFFIX,smtp.nsfwgo.com # Korplug（PlugX）远控木马 C2 域名
 DOMAIN-SUFFIX,cahe.microsofts.com # QuasarRAT 木马 C2 控制域名
 DOMAIN-SUFFIX,ffca.caibi379.com # QuasarRAT 下载器 C2 域名
 DOMAIN-SUFFIX,dlaxpcmghd.com # LookBack 木马 C2 控制域名
-DOMAIN-SUFFIX,wwww.dlmum.com # FlowCloud 木马控制域名
+DOMAIN-SUFFIX,dlmum.com # FlowCloud 木马控制域名
 IP-CIDR,43.254.216.104 # TA410 早期投递服务器（Delivery Server）
 IP-CIDR,45.124.115.103 # LookBack / Delivery C2 控制服务器
 IP-CIDR,222.186.151.141 # FlowCloud 后门木马控制服务器

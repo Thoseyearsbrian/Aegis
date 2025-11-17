@@ -37,15 +37,14 @@ DOMAIN-SUFFIX,ipv6.lookup.test-ipv6.com # Test-IPv6 域名解析行为测试子�
 DOMAIN-SUFFIX,slack.com  # Slack 协作平台主域名，Whoer 页面引用，用于身份测试与资源加载  
 DOMAIN-SUFFIX,500px.com  # 500px 摄影平台主站域名，Whoer 页面引用，用于图像展示测试  
 DOMAIN-SUFFIX,medium.com  # Medium 博客平台域名，Whoer 页面引用，用于嵌入测试与内容加载  
-DOMAIN-SUFFIX,www.expedia.de  # Expedia 德国站域名，Whoer 页面引用，用于跨境兼容性检测  
+DOMAIN-SUFFIX,expedia.de  # Expedia 德国站域名，Whoer 页面引用，用于跨境兼容性检测  
 DOMAIN-SUFFIX,de.foursquare.com  # Foursquare 德国子域名，Whoer 页面用于地理定位测试  
-DOMAIN-SUFFIX,www.academia.edu  # Academia 学术资源平台，Whoer 页面引用用于环境兼容性测试  
+DOMAIN-SUFFIX,academia.edu  # Academia 学术资源平台，Whoer 页面引用用于环境兼容性测试  
 DOMAIN-SUFFIX,secure.meetup.com  # Meetup 安全登录子域名，Whoer 页面用于会话测试与安全验证  
 
 # > Academia 教育平台主域名（学术论文访问与学术资源交流）
 
 DOMAIN-SUFFIX,academia.edu # Academia 学术社交平台主域名，用于论文发布、学术交流与研究资料访问
-DOMAIN-SUFFIX,www.academia.edu # Academia 主站访问域名，用于加载用户上传的学术论文与研究页面内容
 DOMAIN-SUFFIX,a.academia-assets.com # Academia 教育平台静态资源子域，用于加载图像、脚本与样式等前端依赖
 DOMAIN-SUFFIX,secure.academia.edu # Academia 安全连接域名，用于登录、注册等敏感操作的 HTTPS 认证流程
 DOMAIN-SUFFIX,a.academia-assets.com # Academia 静态资源域名，用于加载样式、脚本与前端组件等网页依赖  
@@ -56,7 +55,6 @@ IP-CIDR,65.8.76.121 # Academia 图像资源 CDN 节点，归属 AWS CloudFront�
 # > IT狗（ITdog）网络运维工具平台域名
 
 DOMAIN-SUFFIX,itdog.cn # IT狗主域名，用于在线 ping/tcping 、网站测速、HTTP/API 测速、DNS 污染检测 等网络运维工具服务  
-DOMAIN-SUFFIX,www.itdog.cn # IT狗主站子域名，用于服务器/网络技术交流、教程文章、运维资源分享  
 
 # > 3UE 数字营销平台域名
 
@@ -127,7 +125,6 @@ IP-CIDR,95.216.203.236 # Dr.Web 更新镜像节点,托管于 Hetzner
 # > AMZ123 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,amz123.com # AMZ123 跨境电商卖家工具平台，提供资讯、选品、运营与社群服务
-DOMAIN-SUFFIX,www.amz123.com # AMZ123 主站域名，用于新闻发布、行业动态与教程内容
 DOMAIN-SUFFIX,cdn.amz123.com # AMZ123 静态资源加载域名，用于图像、JS/CSS 分发
 DOMAIN-SUFFIX,api.amz123.com # AMZ123 接口域名，用于内容加载、用户互动与工具调用
 DOMAIN-SUFFIX,tool.amz123.com # AMZ123 工具模块子域名，包含选品分析、广告评估等功能
@@ -256,7 +253,6 @@ DOMAIN-SUFFIX,foxdcg.com # FOX Digital Consumer Group，内容分发与广告系
 # > TikTok 相关域名
 
 DOMAIN-SUFFIX,tiktok.com # TikTok 主站与账号服务（含主页、视频浏览、创作者功能等）
-DOMAIN-SUFFIX,www.tiktok.com # TikTok 官方入口域名（登录、注册、个人主页等）
 DOMAIN-SUFFIX,tiktokcdn.com # TikTok 静态资源 CDN（视频文件、图像封面、脚本加载）
 DOMAIN-SUFFIX,tiktokv.com # TikTok 视频内容短链跳转域名（用于外链视频分享）
 DOMAIN-SUFFIX,ttwstatic.com # TikTok 第三方托管静态资源域名（脚本、插件组件等）
@@ -306,7 +302,6 @@ IP-CIDR,157.240.0.0/16 # Instagram 所属 Meta 网络段（图片加载与互动
 # > Amazon 相关域名
 
 DOMAIN-SUFFIX,amazon.com # Amazon 美国主站（购物、订单、账户服务等）
-DOMAIN-SUFFIX,www.amazon.com # Amazon 主站入口域名（登录、首页、分类导航等）
 DOMAIN-SUFFIX,amazon.co.uk # Amazon 英国站（英国区域购物与配送服务）
 DOMAIN-SUFFIX,amazon.de # Amazon 德国站（欧洲站点之一）
 DOMAIN-SUFFIX,amazon.co.jp # Amazon 日本站（本地配送与日语界面）
@@ -402,7 +397,6 @@ DOMAIN-SUFFIX,support.roku.com # Roku 技术支持页面与文档服务
 # > Ticketmaster 相关域名
 
 DOMAIN-SUFFIX,ticketmaster.com # Ticketmaster 官方主站（演出门票、活动销售）
-DOMAIN-SUFFIX,www.ticketmaster.com # Ticketmaster 主站首页入口
 DOMAIN-SUFFIX,ticketmaster.ca # Ticketmaster 加拿大站
 DOMAIN-SUFFIX,ticketmaster.co.uk # Ticketmaster 英国站（欧洲市场）
 DOMAIN-SUFFIX,ticketmaster.de # Ticketmaster 德国站
@@ -423,7 +417,6 @@ DOMAIN-SUFFIX,app.ticketmaster.com # Ticketmaster 移动端接口（购票、搜
 # > Facebook 相关域名
 
 DOMAIN-SUFFIX,facebook.com # Facebook 主站与账号服务（含动态、好友、主页等功能）
-DOMAIN-SUFFIX,www.facebook.com # Facebook 主站入口域名（跳转、登录、注册等）
 DOMAIN-SUFFIX,fb.com # Facebook 官方短链与跳转域名（如 fb.me、fb.watch 等）
 DOMAIN-SUFFIX,fbcdn.net # Facebook 静态资源分发域名（图像、视频、脚本等）
 DOMAIN-SUFFIX,fb.me # Facebook 官方短链服务（内容分享链接跳转）
@@ -464,7 +457,6 @@ DOMAIN-SUFFIX,workmessenger.com # Messenger 企业版服务入口（Meta Work �
 # > Cash App 相关域名
 
 DOMAIN-SUFFIX,cash.app # Cash App 主站域名（用户主页、支付入口）
-DOMAIN-SUFFIX,www.cash.app # Cash App 首页入口域名
 DOMAIN-SUFFIX,cash.me # Cash App 历史支付链接跳转域（已整合至 cash.app）
 DOMAIN-SUFFIX,squareup.com # Block Inc. 母公司 Square 的核心服务域名（支付支持）
 DOMAIN-SUFFIX,api.cash.app # Cash App 接口服务（身份验证、转账、账户操作）
@@ -488,7 +480,6 @@ DOMAIN-SUFFIX,discord.new # Discord 新建服务器快捷跳转域
 # > BigFuture School 相关域名
 
 DOMAIN-SUFFIX,bigfutureschool.org # BigFuture School 官方主域（学生职业/升学规划平台）
-DOMAIN-SUFFIX,www.bigfutureschool.org # BigFuture School 官网入口页
 DOMAIN-SUFFIX,collegeboard.org # College Board 主域名（SAT/PSAT 等考试管理机构，BigFuture 上级平台）
 DOMAIN-SUFFIX,cb.org # College Board 缩写跳转域
 DOMAIN-SUFFIX,bigfuture.collegeboard.org # BigFuture 原版主站（前身网站，提供大学搜索、奖学金资源）
@@ -509,7 +500,6 @@ DOMAIN-SUFFIX,pinterest.at # Pinterest 奥地利站，本地化入口
 # > Venmo 相关域名
 
 DOMAIN-SUFFIX,venmo.com # Venmo 官方主域名（首页、转账、账户设置等）
-DOMAIN-SUFFIX,www.venmo.com # Venmo 官网入口页
 DOMAIN-SUFFIX,api.venmo.com # Venmo 移动 App 接口（支付、账户验证、好友同步等）
 DOMAIN-SUFFIX,cdn.venmo.com # Venmo 静态资源加载域（图标、脚本等）
 DOMAIN-SUFFIX,help.venmo.com # Venmo 客服与支持中心
@@ -519,7 +509,6 @@ DOMAIN-SUFFIX,venmoassets.com # Venmo 图像/样式资源托管（CDN 域）
 # > Taco Bell 相关域名
 
 DOMAIN-SUFFIX,tacobell.com # Taco Bell 官方主站（菜单、门店定位、订餐等服务）
-DOMAIN-SUFFIX,www.tacobell.com # Taco Bell 官网入口页面
 DOMAIN-SUFFIX,order.tacobell.com # 在线点餐与外送平台入口
 DOMAIN-SUFFIX,tacobell.ca # Taco Bell 加拿大地区站点
 DOMAIN-SUFFIX,tacobelluk.co.uk # Taco Bell 英国地区官网
@@ -549,7 +538,6 @@ IP-ASN,17012 # ASN for PayPal Inc. (部分历史记录)
 # > Canva 相关域名
 
 DOMAIN-SUFFIX,canva.com # Canva 官方主域（网页端设计、模板、账户等功能）
-DOMAIN-SUFFIX,www.canva.com # Canva 主站入口域名（登录、编辑器加载等）
 DOMAIN-SUFFIX,api.canva.com # Canva 接口服务域名（用户、项目、存储、登录等）
 DOMAIN-SUFFIX,static.canva.com # Canva 静态资源加载域（图片、JS、字体等）
 DOMAIN-SUFFIX,brandfetch.io # Canva 品牌识别服务依赖域（用于企业 Logo 与风格拉取）
@@ -587,7 +575,6 @@ DOMAIN-SUFFIX,media.dominos.com # Domino's 官网媒体资源加载域名（图�
 # > Snapchat 相关域名
 
 DOMAIN-SUFFIX,snapchat.com # Snapchat 主站与账号服务（注册、登录、快拍、好友系统等）
-DOMAIN-SUFFIX,www.snapchat.com # Snapchat 网页主入口（浏览、下载、账户中心）
 DOMAIN-SUFFIX,snapcdn.com # Snapchat 静态资源 CDN 域名（图像、视频、脚本等）
 DOMAIN-SUFFIX,sc-cdn.net # Snapchat 内容分发加速节点（Live Stories、广告、镜头资源）
 DOMAIN-SUFFIX,snapads.com # Snapchat 广告平台与竞价接口域名（营销追踪、广告内容加载）
@@ -600,7 +587,6 @@ IP-CIDR,13.224.0.0/16 # Snapchat 使用的 CloudFront 加速 CDN 段（视频与
 # > T-Life 相关域名
 
 DOMAIN-SUFFIX,tlife.com.tw # T-Life 官方主站域名（中华电信电商平台）
-DOMAIN-SUFFIX,www.tlife.com.tw # T-Life 主站入口域名（首页、商品浏览等）
 DOMAIN-SUFFIX,img.tlife.com.tw # T-Life 静态资源域（商品图、图标等）
 DOMAIN-SUFFIX,ecapi.tlife.com.tw # T-Life 电商 API 接口（商品数据、下单流程等）
 DOMAIN-SUFFIX,login.tlife.com.tw # T-Life 用户登录接口域
@@ -608,7 +594,6 @@ DOMAIN-SUFFIX,login.tlife.com.tw # T-Life 用户登录接口域
 # > Duolingo 多邻国相关域名
 
 DOMAIN-SUFFIX,duolingo.com # Duolingo 主站（网页版课程与账户管理）
-DOMAIN-SUFFIX,www.duolingo.com # Duolingo 网站首页及跳转入口
 DOMAIN-SUFFIX,duolingo.cn # Duolingo 中国域名跳转（历史用途）
 DOMAIN-SUFFIX,duolingo.net # Duolingo CDN/资源服务域名（图片/媒体加载）
 DOMAIN-SUFFIX,duolingo.io # Duolingo 实验性接口或 CDN 加速节点
@@ -617,7 +602,6 @@ DOMAIN-SUFFIX,duolingo360.cn # 多邻国市场活动与品牌运营页面（中�
 # > Indeed 求职平台相关域名
 
 DOMAIN-SUFFIX,indeed.com # Indeed 全球主站（职位搜索与招聘服务）
-DOMAIN-SUFFIX,www.indeed.com # Indeed 主站首页、登录注册与职位入口
 DOMAIN-SUFFIX,indeed.jobs # Indeed 招聘发布平台域名（公司岗位发布）
 DOMAIN-SUFFIX,indeedemail.com # Indeed 系统邮件投递域名（职位推荐、通知等）
 DOMAIN-SUFFIX,indeedusercontent.com # Indeed 静态资源与附件加载域（PDF 简历/图像等）
@@ -627,7 +611,6 @@ DOMAIN-SUFFIX,indeedcdn.com # Indeed CDN 分发资源（样式、脚本等加载
 # > Uber Eats 相关域名
 
 DOMAIN-SUFFIX,ubereats.com # Uber Eats 官方主站域名（订餐、账户、配送等）
-DOMAIN-SUFFIX,www.ubereats.com # Uber Eats 官网入口（区域识别、用户登录）
 DOMAIN-SUFFIX,m.ubereats.com # Uber Eats 移动端子域（APP 接口或响应式前端）
 DOMAIN-SUFFIX,api.uber.com # Uber/Uber Eats 通用 API 接口（下单、状态同步等）
 DOMAIN-SUFFIX,cn.ubereats.com # Uber Eats 中国地区专用子域（现多为跳转）
@@ -636,7 +619,6 @@ DOMAIN-SUFFIX,delivery.uber.com # Uber 外卖与配送统一调度接口
 # > SHEIN 相关域名
 
 DOMAIN-SUFFIX,shein.com # SHEIN 官方主站（商品浏览、下单、账户服务）
-DOMAIN-SUFFIX,www.shein.com # SHEIN 首页与主入口
 DOMAIN-SUFFIX,m.shein.com # SHEIN 移动端网页域名
 DOMAIN-SUFFIX,api-service.shein.com # SHEIN 主 API 服务接口（商品/订单/用户等）
 DOMAIN-SUFFIX,us.shein.com # SHEIN 美国站
@@ -649,7 +631,6 @@ DOMAIN-SUFFIX,storage.googleapis.com # SHEIN 静态资源托管（使用 Google 
 # > Alibaba.com（国际站）相关域名
 
 DOMAIN-SUFFIX,alibaba.com # Alibaba 国际站主域名（商品浏览、供应商联系、采购下单）
-DOMAIN-SUFFIX,www.alibaba.com # Alibaba 主站入口
 DOMAIN-SUFFIX,sourcing.alibaba.com # 采购与供应链管理服务平台
 DOMAIN-SUFFIX,service.alibaba.com # Alibaba 国际站客服与帮助中心
 DOMAIN-SUFFIX,passport.alibaba.com # 用户登录与身份认证服务
@@ -691,7 +672,6 @@ DOMAIN-SUFFIX,cdn.mypurina.com # myPurina 静态资源 CDN 域名（图像、脚
 # > AliExpress 相关域名
 
 DOMAIN-SUFFIX,aliexpress.com # AliExpress 全球速卖通主站
-DOMAIN-SUFFIX,www.aliexpress.com # AliExpress 首页、搜索与用户登录模块
 DOMAIN-SUFFIX,aepps.com # AliExpress App 内资源服务接口
 DOMAIN-SUFFIX,aemob.net # AliExpress 移动端广告与跳转跟踪域
 DOMAIN-SUFFIX,aliexpress.ru # AliExpress 俄罗斯站定制版（已合并主站）
@@ -706,14 +686,12 @@ DOMAIN-SUFFIX,gm.mmstat.com # 阿里妈妈流量追踪统计服务（用于速�
 # > PrizePicks 相关域名
 
 DOMAIN-SUFFIX,prizepicks.com # PrizePicks 官方主站，用于账户管理、下注、数据展示等
-DOMAIN-SUFFIX,www.prizepicks.com # PrizePicks 网页前端主入口，含赛事与统计页面
 DOMAIN-SUFFIX,api.prizepicks.com # PrizePicks 移动 App 与前端页面所用 API 接口
 DOMAIN-SUFFIX,cdn.prizepicks.com # PrizePicks 静态资源与媒体加载 CDN 域名
 
 # > Sam's Club 相关域名
 
 DOMAIN-SUFFIX,samsclub.com # Sam's Club 美国主站（购物、账户管理、会员服务等）
-DOMAIN-SUFFIX,www.samsclub.com # Sam's Club 官网主入口
 DOMAIN-SUFFIX,api.samsclub.com # Sam's Club 官方 API 接口（用于购物、订单、商品数据等）
 DOMAIN-SUFFIX,samsclubscene7.com # Sam's Club 图片与媒体资源 CDN（Scene7 服务）
 DOMAIN-SUFFIX,samsclub.tt.omtrdc.net # Sam's Club 用户行为与营销分析域名（Adobe 旗下）
@@ -721,7 +699,6 @@ DOMAIN-SUFFIX,samsclub.tt.omtrdc.net # Sam's Club 用户行为与营销分析域
 # > Costco 相关域名
 
 DOMAIN-SUFFIX,costco.com # Costco 美国主站（购物、会员、服务等）
-DOMAIN-SUFFIX,www.costco.com # Costco 美国官网主入口
 DOMAIN-SUFFIX,costco.ca # Costco 加拿大站（本地配送与加币结算）
 DOMAIN-SUFFIX,costco.co.uk # Costco 英国站（欧洲区购物服务）
 DOMAIN-SUFFIX,costco.com.mx # Costco 墨西哥站
@@ -749,7 +726,6 @@ DOMAIN-SUFFIX,fanduelcasino.com # FanDuel 旗下在线赌场服务站点
 # > Target 相关域名（美国零售百货平台）
 
 DOMAIN-SUFFIX,target.com # Target 官方主站（购物、促销、账户服务）
-DOMAIN-SUFFIX,www.target.com # Target 网站主入口（分类浏览、登录、结账）
 DOMAIN-SUFFIX,targetassets.com # Target 静态资源加载域（图片、脚本、样式表等）
 DOMAIN-SUFFIX,targetimg1.com # Target CDN 图像资源域（商品图等媒体内容）
 DOMAIN-SUFFIX,redcardtarget.com # Target RedCard 信用账户服务入口（支付、账单等）
@@ -759,7 +735,6 @@ DOMAIN-SUFFIX,cartwheel.target.com # Target 促销/优惠模块服务域
 # > Airbnb 相关域名（全球短租平台）
 
 DOMAIN-SUFFIX,airbnb.com # Airbnb 官方主域（全球短租预订服务）
-DOMAIN-SUFFIX,www.airbnb.com # Airbnb 官网入口（登录、房源浏览等）
 DOMAIN-SUFFIX,api.airbnb.com # Airbnb 移动应用接口与账户验证服务
 DOMAIN-SUFFIX,assets.airbnb.com # Airbnb 静态资源加载（图标、样式等）
 DOMAIN-SUFFIX,a0.muscache.com # Airbnb 资源分发 CDN 域名（房源图像等）
@@ -772,12 +747,10 @@ DOMAIN-SUFFIX,airbnb.com.au # Airbnb 澳大利亚站
 # > Tea App for Women 相关域名（女性社交平台）
 
 DOMAIN-SUFFIX,teawithyou.com # Tea App 官方主站与账户服务接口
-DOMAIN-SUFFIX,www.teawithyou.com # Tea App 官网首页入口
 
 # > Bible Chat 相关域名（圣经聊天与AI辅助解经工具）
 
 DOMAIN-SUFFIX,biblechat.ai # Bible Chat 官方主站与服务接口
-DOMAIN-SUFFIX,www.biblechat.ai # Bible Chat 主站入口（用户交互界面）
 
 # > Dunkin' 相关域名（甜甜圈 / 咖啡连锁品牌）
 
@@ -809,7 +782,6 @@ IP-CIDR,35.190.0.0/16  # Waze 多区域数据中心 IP（导航与 CDN 分发）
 # > eBay 相关域名
 
 DOMAIN-SUFFIX,ebay.com  # eBay 全球主站（商品搜索、下单、支付、账户服务等）
-DOMAIN-SUFFIX,www.ebay.com  # eBay 主站首页与跳转入口域名
 DOMAIN-SUFFIX,ebay.co.uk  # eBay 英国站（本地化商品与物流服务）
 DOMAIN-SUFFIX,ebay.de  # eBay 德国站
 DOMAIN-SUFFIX,ebay.ca  # eBay 加拿大站
@@ -827,7 +799,6 @@ DOMAIN-SUFFIX,ebayrtm.com  # eBay 实时数据与分析追踪服务接口
 # > Etsy 相关域名
 
 DOMAIN-SUFFIX,etsy.com  # Etsy 全球主站（手工艺品、创意商品的在线交易平台）
-DOMAIN-SUFFIX,www.etsy.com  # Etsy 主站首页与跳转入口域名
 DOMAIN-SUFFIX,etsyimg.com  # Etsy 商品图片与图像资源加载域
 DOMAIN-SUFFIX,etsystatic.com  # Etsy 静态资源托管域（CSS、JS、字体等）
 DOMAIN-SUFFIX,geo.etsy.com  # Etsy 区域定位与服务分发接口
@@ -851,7 +822,6 @@ DOMAIN-SUFFIX,klarna.net  # Klarna 技术与运营相关服务域
 # > Tinder 相关域名
 
 DOMAIN-SUFFIX,tinder.com # Tinder 主站与账号服务（含登录、匹配、消息功能）
-DOMAIN-SUFFIX,www.tinder.com # Tinder 网页版主入口（适配桌面与移动设备）
 DOMAIN-SUFFIX,assets.tinder.com # Tinder 静态资源加载域名（JS、CSS、图片等）
 DOMAIN-SUFFIX,img.tinder.com # Tinder 用户头像与媒体图片加载域名
 DOMAIN-SUFFIX,tindersparks.com # Tinder 内部服务跳转与内容分发域名
@@ -880,7 +850,6 @@ DOMAIN-SUFFIX,affirm.app.link  # Affirm 移动端深度链接跳转服务
 # > LinkedIn 相关域名
 
 DOMAIN-SUFFIX,linkedin.com # LinkedIn 主站与账号服务（职业资料、动态、消息等）
-DOMAIN-SUFFIX,www.linkedin.com # LinkedIn 网页入口域名（登录、职位搜索、首页等）
 DOMAIN-SUFFIX,media.licdn.com # LinkedIn 静态资源 CDN（头像、图像、视频等媒体加载）
 DOMAIN-SUFFIX,static.licdn.com # LinkedIn 样式脚本等静态资源（JS、CSS、图标）
 DOMAIN-SUFFIX,licdn.com # LinkedIn 内容加载总域（包含媒体与脚本加载子域）
@@ -893,7 +862,6 @@ IP-CIDR,108.174.0.0/15 # LinkedIn 全球通信主网段（数据同步、媒体�
 # > NBA 相关域名
 
 DOMAIN-SUFFIX,nba.com  # NBA 官方主站（比赛资讯、球队信息、球员数据等）
-DOMAIN-SUFFIX,www.nba.com  # NBA 官网入口域名
 DOMAIN-SUFFIX,watch.nba.com  # NBA 视频直播与回放平台（需订阅，支持多平台访问）
 DOMAIN-SUFFIX,api.nba.com  # NBA 官方 API 服务接口（比赛数据、用户信息、会员验证等）
 DOMAIN-SUFFIX,assets.nba.com  # NBA 静态资源加载域名（图像、样式文件、图标等）
@@ -903,7 +871,6 @@ DOMAIN-SUFFIX,secure.nba.com  # NBA 账户登录与支付功能相关接口
 # > Starbucks 相关域名
 
 DOMAIN-SUFFIX,starbucks.com  # Starbucks 全球官网主域名（品牌介绍、门店定位、咖啡产品信息等）
-DOMAIN-SUFFIX,www.starbucks.com  # Starbucks 官网入口（会员登录、商品浏览等）
 DOMAIN-SUFFIX,app.starbucks.com  # Starbucks 应用服务接口（用户账户、订单管理、支付验证等）
 DOMAIN-SUFFIX,rewards.starbucks.com  # Starbucks 会员奖励系统接口（星积分累计、兑换记录等）
 DOMAIN-SUFFIX,sbux.com  # Starbucks 内部短链跳转域名（市场活动、会员链接等）
@@ -911,7 +878,6 @@ DOMAIN-SUFFIX,sbux.com  # Starbucks 内部短链跳转域名（市场活动、�
 # > Wayfair 相关域名
 
 DOMAIN-SUFFIX,wayfair.com  # Wayfair 官网主域名（家具家居电商平台，支持美国等多国发货）
-DOMAIN-SUFFIX,www.wayfair.com  # Wayfair 官网首页与登录入口（用户账户、订单管理等）
 DOMAIN-SUFFIX,secure.wayfair.com  # Wayfair 安全支付与用户验证接口
 DOMAIN-SUFFIX,api.wayfair.com  # Wayfair 移动端与网页 API 服务（商品数据、库存查询、物流追踪等）
 DOMAIN-SUFFIX,wayfaircdn.com  # Wayfair 静态资源域（商品图片、样式文件等）
@@ -919,7 +885,6 @@ DOMAIN-SUFFIX,wayfaircdn.com  # Wayfair 静态资源域（商品图片、样式�
 # > MyChart 医疗平台相关域名
 
 DOMAIN-SUFFIX,mychart.com  # MyChart 医疗服务平台主域名（由 Epic Systems 提供，用于健康数据访问）
-DOMAIN-SUFFIX,www.mychart.com  # MyChart 网页入口（登录、预约、报告查看等功能）
 DOMAIN-SUFFIX,api.mychart.com  # MyChart 接口域名（用户数据同步、远程看诊服务等）
 DOMAIN-SUFFIX,login.mychart.com  # MyChart 登录验证与会话管理接口
 DOMAIN-SUFFIX,video.mychart.com  # MyChart 视频远程问诊接口（部分医院支持）
@@ -948,7 +913,6 @@ IP-CIDR,151.101.65.140/32 # Reddit CDN 节点 IP（Fastly 平台）
 # > Expedia 在线旅游平台相关域名
 
 DOMAIN-SUFFIX,expedia.com  # Expedia 主站域名（机票、酒店、租车等旅行服务预订）
-DOMAIN-SUFFIX,www.expedia.com  # Expedia 主站入口（首页、账户登录、搜索等）
 DOMAIN-SUFFIX,expedia.ca  # Expedia 加拿大站点
 DOMAIN-SUFFIX,expedia.com.au  # Expedia 澳大利亚站点
 DOMAIN-SUFFIX,expedia.co.uk  # Expedia 英国站点（面向英国用户的旅行服务）
@@ -987,7 +951,6 @@ DOMAIN-SUFFIX,try.doordash.com # 营销推广页（含首次下单优惠）
 
 DOMAIN-SUFFIX,threads.net # Threads 官方主域（主页、内容浏览、登录服务）
 DOMAIN-SUFFIX,cdn.threads.net # Threads 静态资源加载域（头像、图片、JS 脚本等）
-DOMAIN-SUFFIX,www.threads.net # Threads 网页版主入口
 DOMAIN-SUFFIX,meta.com # Meta 公司主域（OAuth 登录与用户验证相关服务）
 DOMAIN-SUFFIX,facebook.com # Meta 登录集成（登录跳转、账号同步模块）
 DOMAIN-SUFFIX,instagram.com # Threads 同步 Instagram 账号（账号继承、内容联动）
@@ -997,7 +960,6 @@ DOMAIN-SUFFIX,cdninstagram.com # Instagram 图像与视频内容加载，Threads
 # > Bumble 相关域名
 
 DOMAIN-SUFFIX,bumble.com # Bumble 主站与账号服务（含注册、登录、匹配、消息等功能）
-DOMAIN-SUFFIX,www.bumble.com # Bumble 网页主入口（移动端与桌面网页版访问）
 DOMAIN-SUFFIX,api.bumble.com # Bumble 核心 API 接口服务（账户同步、行为操作等）
 DOMAIN-SUFFIX,photos.bumble.com # Bumble 用户图片与头像资源加载域名
 DOMAIN-SUFFIX,assets.bumble.com # Bumble 静态资源加载域名（JS、CSS、图标等）
@@ -1010,7 +972,6 @@ IP-CIDR,99.86.0.0/16 # CloudFront 加速节点，用于加载头像、图片与�
 # > Twitch 相关域名
 
 DOMAIN-SUFFIX,twitch.tv # Twitch 主站与账号服务（视频直播、注册登录、频道访问等）
-DOMAIN-SUFFIX,www.twitch.tv # Twitch 网页主入口（频道首页、主播主页、节目目录等）
 DOMAIN-SUFFIX,player.twitch.tv # Twitch 视频播放器核心域名（嵌入式播放器、弹幕显示等）
 DOMAIN-SUFFIX,static.twitchcdn.net # Twitch 静态资源 CDN 域名（样式、图标、脚本等）
 DOMAIN-SUFFIX,ttvnw.net # Twitch 媒体内容分发节点域名（视频流、封面、广告内容）
@@ -1023,7 +984,6 @@ IP-CIDR,52.223.192.0/18 # Twitch 使用的 AWS Global Accelerator 加速段（�
 # > Dropbox 相关域名
 
 DOMAIN-SUFFIX,dropbox.com # Dropbox 主站与账号服务（登录、文件管理、分享等）
-DOMAIN-SUFFIX,www.dropbox.com # Dropbox 官方网页入口（注册、团队协作、下载等）
 DOMAIN-SUFFIX,dl.dropbox.com # Dropbox 文件直链下载域名（用于公开文件传输）
 DOMAIN-SUFFIX,dl.dropboxusercontent.com # Dropbox 用户内容直链 CDN（嵌入共享、预览等）
 DOMAIN-SUFFIX,dropboxapi.com # Dropbox API 接口服务（第三方调用、应用内嵌等）
@@ -1034,7 +994,6 @@ IP-CIDR,162.125.0.0/16 # Dropbox 全球服务主通信网段（Web 接入、API�
 # > ESPN 相关域名
 
 DOMAIN-SUFFIX,espn.com # ESPN 主站与账号服务（新闻、比分、赛事内容等）
-DOMAIN-SUFFIX,www.espn.com # ESPN 主站入口域名（首页、频道导航、登录注册等）
 DOMAIN-SUFFIX,espncdn.com # ESPN 静态资源 CDN（样式、图片、脚本加载等）
 DOMAIN-SUFFIX,secure.espn.com # ESPN 安全验证与会员登录接口
 DOMAIN-SUFFIX,watch.espn.com # ESPN 视频播放平台入口（需要授权登录）
@@ -1054,7 +1013,6 @@ DOMAIN-SUFFIX,cdn.flightyapp.com  # Flighty 静态资源加载（图标、界面
 # > Fiverr 自由职业平台相关域名
 
 DOMAIN-SUFFIX,fiverr.com  # Fiverr 主站域名，提供自由职业服务浏览、下单与账户管理等功能
-DOMAIN-SUFFIX,www.fiverr.com  # Fiverr 主站入口，处理用户登录与导航跳转
 DOMAIN-SUFFIX,assets.fiverr.com  # Fiverr 静态资源加载域名，用于图标、样式等前端内容分发
 DOMAIN-SUFFIX,hub.fiverr.com  # Fiverr Hub 子服务域名，提供博客、社区、平台指南等内容
 DOMAIN-SUFFIX,track.fiverr.com  # Fiverr 用户行为追踪与转化统计域名（用于推广分析）
@@ -1069,7 +1027,6 @@ DOMAIN-SUFFIX,h5.redteago.com  # RedteaGo 移动端 Web 接口，套餐购买与
 # > Wish 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,wish.com  # Wish 主站域名，用于购物浏览、商品详情、用户账户等核心功能
-DOMAIN-SUFFIX,www.wish.com  # Wish 主站入口域名，处理登录、跳转与前端加载
 DOMAIN-SUFFIX,seller.wish.com  # Wish 商家平台入口，用于商户管理、商品上架与订单处理
 DOMAIN-SUFFIX,static.wish.com  # Wish 静态资源加载域名（图片、脚本、样式等）
 DOMAIN-SUFFIX,api.wish.com  # Wish 移动端与网页端共用接口域名，用于商品信息与用户交互等请求
@@ -1077,7 +1034,6 @@ DOMAIN-SUFFIX,api.wish.com  # Wish 移动端与网页端共用接口域名，用
 # > Zoom 视频会议平台相关域名
 
 DOMAIN-SUFFIX,zoom.us  # Zoom 主站与服务入口域名（会议连接、下载、登录等）
-DOMAIN-SUFFIX,www.zoom.us  # Zoom 官网入口，用于会议入口、软件下载等页面跳转
 DOMAIN-SUFFIX,zoom.com  # Zoom 品牌保护域名，跳转至主站
 DOMAIN-SUFFIX,us04web.zoom.us  # Zoom 视频会议连接域名（用于会议通信接入）
 DOMAIN-SUFFIX,us05web.zoom.us  # Zoom 新接入节点域名（部分账号会使用此域）
@@ -1105,7 +1061,6 @@ DOMAIN-SUFFIX,bdsmcdn.com  # Badoo 第三方内容托管域名，用于媒体资
 # > Grindr 社交平台相关域名
 
 DOMAIN-SUFFIX,grindr.com  # Grindr 主域名，全球最大 LGBTQ+ 交友平台
-DOMAIN-SUFFIX,www.grindr.com  # Grindr 官网入口域名
 DOMAIN-SUFFIX,api.grindr.com  # Grindr 移动应用 API 请求接口
 DOMAIN-SUFFIX,cdn.grindr.com  # Grindr 静态资源加载域名
 DOMAIN-SUFFIX,media.grindr.com  # Grindr 媒体内容加载服务（图片、视频等）
@@ -1113,7 +1068,6 @@ DOMAIN-SUFFIX,media.grindr.com  # Grindr 媒体内容加载服务（图片、视
 # > Hily 交友平台相关域名
 
 DOMAIN-SUFFIX,hily.com  # Hily 主域名，全球社交与约会平台，主打 AI 匹配功能
-DOMAIN-SUFFIX,www.hily.com  # Hily 官网入口域名
 DOMAIN-SUFFIX,api.hily.com  # Hily 移动应用 API 请求接口
 DOMAIN-SUFFIX,cdn.hily.com  # Hily 静态资源加载域名（图片、视频等）
 DOMAIN-SUFFIX,img.hilycdn.com  # Hily 媒体内容图片 CDN 域名
@@ -1121,7 +1075,6 @@ DOMAIN-SUFFIX,img.hilycdn.com  # Hily 媒体内容图片 CDN 域名
 # > OkCupid 交友平台相关域名
 
 DOMAIN-SUFFIX,okcupid.com  # OkCupid 主域名，全球知名约会社交平台，隶属 Match Group
-DOMAIN-SUFFIX,www.okcupid.com  # OkCupid 官网入口域名
 DOMAIN-SUFFIX,api.okcupid.com  # OkCupid 移动端 API 通信接口
 DOMAIN-SUFFIX,cdn.okcimg.com  # OkCupid 静态资源 CDN 域名（图像与前端资源）
 DOMAIN-SUFFIX,media.okcimg.com  # OkCupid 媒体内容加载域名（用户图片与视频）
@@ -1129,7 +1082,6 @@ DOMAIN-SUFFIX,media.okcimg.com  # OkCupid 媒体内容加载域名（用户图�
 # > Plenty of Fish (POF) 社交平台相关域名
 
 DOMAIN-SUFFIX,pof.com  # POF 主域名，全球知名在线约会平台，隶属 Match Group
-DOMAIN-SUFFIX,www.pof.com  # POF 官网入口域名
 DOMAIN-SUFFIX,cdn.pof.com  # POF 静态资源加载域名（前端脚本、样式等）
 DOMAIN-SUFFIX,media.pof.com  # POF 媒体内容加载域名（用户上传图片、视频等）
 DOMAIN-SUFFIX,api.pof.com  # POF 移动端应用接口域名
@@ -1137,7 +1089,6 @@ DOMAIN-SUFFIX,api.pof.com  # POF 移动端应用接口域名
 # > Tagged 社交平台相关域名
 
 DOMAIN-SUFFIX,tagged.com  # Tagged 主域名，面向全球用户的兴趣交友平台
-DOMAIN-SUFFIX,www.tagged.com  # Tagged 官网入口域名
 DOMAIN-SUFFIX,cdn.tagged.com  # Tagged 静态资源加载域名（JS、CSS 等）
 DOMAIN-SUFFIX,api.tagged.com  # Tagged 移动端 API 请求接口
 DOMAIN-SUFFIX,media.tagged.com  # Tagged 媒体资源域名（图片、视频等内容加载）
@@ -1145,7 +1096,6 @@ DOMAIN-SUFFIX,media.tagged.com  # Tagged 媒体资源域名（图片、视频等
 # > MeetMe 社交平台相关域名
 
 DOMAIN-SUFFIX,meetme.com  # MeetMe 主域名，社交聊天与在线约会平台
-DOMAIN-SUFFIX,www.meetme.com  # MeetMe 官网入口域名
 DOMAIN-SUFFIX,cdn.meetme.com  # MeetMe 静态资源加载域名（JS、CSS 等）
 DOMAIN-SUFFIX,api.meetme.com  # MeetMe 移动客户端 API 请求接口
 DOMAIN-SUFFIX,media.meetme.com  # MeetMe 媒体资源域名（用户上传内容、图像等）
@@ -1153,7 +1103,6 @@ DOMAIN-SUFFIX,media.meetme.com  # MeetMe 媒体资源域名（用户上传内容
 # > Clover Dating 交友平台相关域名
 
 DOMAIN-SUFFIX,clover.co  # Clover Dating 主域名，用于服务介绍与注册登录
-DOMAIN-SUFFIX,www.clover.co  # Clover Dating 官网入口域名
 DOMAIN-SUFFIX,api.clover.co  # Clover 移动应用 API 请求接口
 DOMAIN-SUFFIX,cdn.clover.co  # Clover 静态资源加载域名（图片、JS、CSS）
 DOMAIN-SUFFIX,media.clover.co  # Clover 媒体资源服务域名（头像、聊天图片等）
@@ -1161,7 +1110,6 @@ DOMAIN-SUFFIX,media.clover.co  # Clover 媒体资源服务域名（头像、聊�
 # > We Heart It 图片社交平台相关域名
 
 DOMAIN-SUFFIX,weheartit.com  # We Heart It 主域名，图片分享与社交社区
-DOMAIN-SUFFIX,www.weheartit.com  # We Heart It 官网入口域名
 DOMAIN-SUFFIX,api.weheartit.com  # We Heart It 应用 API 接口，用户内容加载与交互
 DOMAIN-SUFFIX,cdn.weheartit.com  # 静态资源加载域名（JS/CSS/图片）
 DOMAIN-SUFFIX,img.weheartit.com  # 图片资源分发域名（内容分片加载）
@@ -1169,7 +1117,6 @@ DOMAIN-SUFFIX,img.weheartit.com  # 图片资源分发域名（内容分片加载
 # > Clubhouse 音频社交平台相关域名
 
 DOMAIN-SUFFIX,clubhouse.com  # Clubhouse 主域名，语音聊天室社交平台
-DOMAIN-SUFFIX,www.clubhouse.com  # Clubhouse 官网入口域名
 DOMAIN-SUFFIX,joinclubhouse.com  # Clubhouse 推广与落地页域名（常用于邀请链接）
 DOMAIN-SUFFIX,api.clubhouse.com  # Clubhouse 应用 API 接口，用户资料与房间管理等功能
 DOMAIN-SUFFIX,media.clubhouse.com  # Clubhouse 音频媒体内容加载域名
@@ -1178,7 +1125,6 @@ DOMAIN-SUFFIX,cdn.joinclubhouse.com  # Clubhouse 静态资源 CDN 域名
 # > BeReal 实拍社交平台相关域名
 
 DOMAIN-SUFFIX,bereal.com  # BeReal 主域名，照片社交平台
-DOMAIN-SUFFIX,www.bereal.com  # BeReal 官网入口
 DOMAIN-SUFFIX,api.bereal.com  # BeReal 移动应用 API 接口（拍摄上传、好友互动等）
 DOMAIN-SUFFIX,img.bereal.com  # BeReal 图片内容加载域名（用户照片）
 DOMAIN-SUFFIX,video.bereal.com  # BeReal 视频内容加载域名（短视频/实拍素材等）
@@ -1186,7 +1132,6 @@ DOMAIN-SUFFIX,video.bereal.com  # BeReal 视频内容加载域名（短视频/�
 # > Yubo 实时社交平台相关域名
 
 DOMAIN-SUFFIX,yubo.live  # Yubo 主域名，面向青少年的视频直播交友平台
-DOMAIN-SUFFIX,www.yubo.live  # Yubo 官网入口
 DOMAIN-SUFFIX,api.yubo.live  # Yubo 移动应用 API 接口（注册、互动、匹配等）
 DOMAIN-SUFFIX,cdn.yubo.live  # Yubo 静态资源加载域名（图片、视频、前端资源等）
 DOMAIN-SUFFIX,chat.yubo.live  # Yubo 聊天消息通信域名
@@ -1194,7 +1139,6 @@ DOMAIN-SUFFIX,chat.yubo.live  # Yubo 聊天消息通信域名
 # > Marco Polo 视频通讯应用相关域名
 
 DOMAIN-SUFFIX,marcopolo.me  # Marco Polo 主域名，支持异步视频聊天与信息交换
-DOMAIN-SUFFIX,www.marcopolo.me  # Marco Polo 官网入口（介绍、登录、下载等）
 DOMAIN-SUFFIX,api.marcopolo.me  # Marco Polo API 接口（视频消息、账户管理等）
 DOMAIN-SUFFIX,cdn.marcopolo.me  # Marco Polo 静态资源与媒体内容加载域名
 DOMAIN-SUFFIX,video.marcopolo.me  # Marco Polo 视频消息播放与存储域名
@@ -1202,7 +1146,6 @@ DOMAIN-SUFFIX,video.marcopolo.me  # Marco Polo 视频消息播放与存储域名
 # > Viber 即时通讯工具相关域名
 
 DOMAIN-SUFFIX,viber.com  # Viber 主域名，支持语音、视频通话与消息功能
-DOMAIN-SUFFIX,www.viber.com  # Viber 官网入口（客户端下载、功能介绍）
 DOMAIN-SUFFIX,api.viber.com  # Viber 应用 API 接口（消息同步、用户信息等）
 DOMAIN-SUFFIX,ads.viber.com  # Viber 内嵌广告服务接口
 DOMAIN-SUFFIX,media.viber.com  # Viber 多媒体内容服务（图片、视频、语音）
@@ -1213,7 +1156,6 @@ DOMAIN-SUFFIX,viber.me  # Viber 简化跳转域，用于邀请链接与个人页
 # > Kik 聊天应用相关域名
 
 DOMAIN-SUFFIX,kik.com  # Kik 主域名，支持匿名聊天与青少年社交
-DOMAIN-SUFFIX,www.kik.com  # Kik 官网入口域名（产品介绍与下载页面）
 DOMAIN-SUFFIX,api.kik.com  # Kik 应用 API 接口（消息同步、用户资料等）
 DOMAIN-SUFFIX,cdn.kik.com  # Kik 静态内容分发网络域名
 DOMAIN-SUFFIX,chat.kik.com  # Kik 在线聊天服务域名
@@ -1221,7 +1163,6 @@ DOMAIN-SUFFIX,chat.kik.com  # Kik 在线聊天服务域名
 # > LINE 通讯应用相关域名
 
 DOMAIN-SUFFIX,line.me  # LINE 主域名，提供消息服务、社交与内容平台
-DOMAIN-SUFFIX,www.line.me  # LINE 官网入口域名
 DOMAIN-SUFFIX,line.naver.jp  # LINE 日本官方服务域名（登录、主页、设置等）
 DOMAIN-SUFFIX,api.line.me  # LINE API 请求接口（登录授权、资料获取等）
 DOMAIN-SUFFIX,dl.profile.line.naver.jp  # LINE 用户头像与资料图像加载域
@@ -1236,7 +1177,6 @@ DOMAIN-SUFFIX,ad.line.me  # LINE 广告投放主服务域名（行为追踪与�
 # > Zalo 通讯应用相关域名
 
 DOMAIN-SUFFIX,zalo.me  # Zalo 主域名，越南本土主流即时通讯平台
-DOMAIN-SUFFIX,www.zalo.me  # Zalo 官方主页入口
 DOMAIN-SUFFIX,api.zalo.me  # Zalo 移动应用 API 服务（消息、好友、状态等）
 DOMAIN-SUFFIX,cdn.zalo.me  # Zalo 静态资源内容分发网络（头像、文件等）
 DOMAIN-SUFFIX,zaloapp.com  # Zalo 应用服务主域（包含账户、存储等功能）
@@ -1248,7 +1188,6 @@ DOMAIN-SUFFIX,zadn.vn  # Zalo 广告投放与追踪平台域名（Zalo Ad Networ
 # > VK 社交平台相关域名
 
 DOMAIN-SUFFIX,vk.com  # VK 主域名，俄罗斯最大社交媒体平台
-DOMAIN-SUFFIX,www.vk.com  # VK 官网入口域名
 DOMAIN-SUFFIX,api.vk.com  # VK 移动与桌面应用 API 接口
 DOMAIN-SUFFIX,login.vk.com  # VK 登录与身份验证服务
 DOMAIN-SUFFIX,oauth.vk.com  # VK 第三方授权与 OAuth 接口
@@ -1262,14 +1201,11 @@ DOMAIN-SUFFIX,ad.mail.ru  # VK 广告投放合作平台（Mail.ru 关联域）
 # > Weverse / VLive 社交平台与内容服务相关域名
 
 DOMAIN-SUFFIX,weverse.io  # Weverse 主域名，粉丝社区与艺人互动平台（HYBE 旗下）
-DOMAIN-SUFFIX,www.weverse.io  # Weverse 官网入口域名
 DOMAIN-SUFFIX,weverseapp.com  # Weverse 移动应用相关服务域名
-DOMAIN-SUFFIX,www.weverseapp.com  # Weverse App 官网首页域名
 DOMAIN-SUFFIX,cdn.weverse.io  # Weverse 静态资源 CDN 域名（图像、脚本等）
 DOMAIN-SUFFIX,api.weverse.io  # Weverse API 接口（动态加载、评论、互动行为等）
 DOMAIN-SUFFIX,static.weverse.io  # Weverse 静态脚本与样式资源
 DOMAIN-SUFFIX,vlive.tv  # VLive 主站域名（原 Naver Live 视频平台，现已并入 Weverse）
-DOMAIN-SUFFIX,www.vlive.tv  # VLive 官网入口域名
 DOMAIN-SUFFIX,api.vlive.tv  # VLive API 接口（用于内容分发、用户互动等）
 DOMAIN-SUFFIX,channel.vlive.tv  # VLive 频道页面域名
 DOMAIN-SUFFIX,cdn.vlive.tv  # VLive 静态资源 CDN 域名
@@ -1277,7 +1213,6 @@ DOMAIN-SUFFIX,cdn.vlive.tv  # VLive 静态资源 CDN 域名
 # > Gaia Online 社交平台相关域名
 
 DOMAIN-SUFFIX,gaiaonline.com  # Gaia Online 主域名，美国虚拟社区与论坛平台
-DOMAIN-SUFFIX,www.gaiaonline.com  # Gaia Online 官网入口
 DOMAIN-SUFFIX,avatar.gaiaonline.com  # Gaia Online 虚拟形象编辑与展示服务
 DOMAIN-SUFFIX,forums.gaiaonline.com  # Gaia Online 社区论坛功能入口
 DOMAIN-SUFFIX,img.gaiaonline.com  # Gaia Online 图像加载与资源展示域名
@@ -1286,7 +1221,6 @@ DOMAIN-SUFFIX,cash.gaiaonline.com  # Gaia Online 内购与虚拟货币交易接�
 # > Tandem 语言学习社交平台相关域名
 
 DOMAIN-SUFFIX,tandem.net  # Tandem 主站域名，提供语言交换与社交学习服务
-DOMAIN-SUFFIX,www.tandem.net  # Tandem 官网入口
 DOMAIN-SUFFIX,api.tandem.net  # Tandem 移动应用 API 通信接口
 DOMAIN-SUFFIX,cdn.tandem.net  # Tandem 静态资源加载域名（图像、脚本等）
 DOMAIN-SUFFIX,chat.tandem.net  # Tandem 聊天与消息系统接口
@@ -1294,7 +1228,6 @@ DOMAIN-SUFFIX,chat.tandem.net  # Tandem 聊天与消息系统接口
 # > Rakuten 乐天购物平台相关域名
 
 DOMAIN-SUFFIX,rakuten.co.jp  # Rakuten 日本主站域名（购物、账户、物流服务）
-DOMAIN-SUFFIX,www.rakuten.co.jp  # Rakuten 主站首页与用户中心
 DOMAIN-SUFFIX,infoseek.co.jp  # Rakuten 搜索与信息服务子品牌（乐天资讯）
 DOMAIN-SUFFIX,gora.golf.rakuten.co.jp  # Rakuten 高尔夫预订服务（B2C 生活服务）
 DOMAIN-SUFFIX,travel.rakuten.co.jp  # Rakuten 旅行与酒店预订平台（乐天旅游）
@@ -1310,7 +1243,6 @@ DOMAIN-SUFFIX,mail.rakuten.co.jp  # Rakuten 邮件推送与账号通知服务
 # > Lazada 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,lazada.com  # Lazada 全球主站跳转域（含地区分发）
-DOMAIN-SUFFIX,www.lazada.com  # Lazada 主站首页与账户服务入口
 DOMAIN-SUFFIX,lazada.sg  # Lazada 新加坡站（本地购物与配送）
 DOMAIN-SUFFIX,lazada.co.id  # Lazada 印尼站（印尼本地购物服务）
 DOMAIN-SUFFIX,lazada.com.my  # Lazada 马来西亚站
@@ -1326,7 +1258,6 @@ DOMAIN-SUFFIX,lazada-assets.com  # Lazada 静态资源分发域（JS、CSS 等�
 # > Shopee 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,shopee.com  # Shopee 全球主站跳转域（含区域自动分发）
-DOMAIN-SUFFIX,www.shopee.com  # Shopee 主站首页与账户服务入口
 DOMAIN-SUFFIX,shopee.sg  # Shopee 新加坡站（本地购物与配送）
 DOMAIN-SUFFIX,shopee.co.id  # Shopee 印尼站
 DOMAIN-SUFFIX,shopee.com.my  # Shopee 马来西亚站
@@ -1356,7 +1287,6 @@ DOMAIN-SUFFIX,api.jd.hk  # 京东国际站 API 接口（订单、物流、账户
 # > Coupang 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,coupang.com  # Coupang 主站域名（韩国本地电商服务，含商品浏览与账户系统）
-DOMAIN-SUFFIX,www.coupang.com  # Coupang 首页入口与用户中心
 DOMAIN-SUFFIX,thacoupang.com  # Coupang 泰国站（Coupang 跨境拓展市场）
 DOMAIN-SUFFIX,static.coupangcdn.com  # Coupang 静态资源 CDN 域名（JS、CSS、图片等）
 DOMAIN-SUFFIX,image.coupangcdn.com  # Coupang 商品图片加载服务（用于商品列表与详情页展示）
@@ -1367,7 +1297,6 @@ DOMAIN-SUFFIX,api.coupang.com  # Coupang 移动应用与网站 API 接口（购�
 # > 17TRACK 全球物流追踪平台相关域名
 
 DOMAIN-SUFFIX,17track.net  # 17TRACK 主站域名（全球物流单号查询服务）
-DOMAIN-SUFFIX,www.17track.net  # 17TRACK 官网首页与用户入口
 DOMAIN-SUFFIX,apiv4.17track.net  # 17TRACK API 接口域名（订单数据拉取、状态更新）
 DOMAIN-SUFFIX,cdn.17track.net  # 17TRACK 静态资源分发节点（JS、CSS、图标等）
 DOMAIN-SUFFIX,secure.17track.net  # 17TRACK 安全登录与支付相关域名
@@ -1376,14 +1305,12 @@ DOMAIN-SUFFIX,t.17track.net  # 17TRACK 推广短链服务（用于电商平台�
 # > ParcelApp 包裹追踪平台相关域名
 
 DOMAIN-SUFFIX,parcelapp.com  # ParcelApp 主站域名，用于全球包裹查询与账户服务
-DOMAIN-SUFFIX,www.parcelapp.com  # ParcelApp 网站首页与用户入口
 DOMAIN-SUFFIX,api.parcelapp.com  # ParcelApp API 接口域名（物流信息查询、状态推送等）
 DOMAIN-SUFFIX,cdn.parcelapp.com  # ParcelApp 静态资源加载（JS、CSS、图片等）
 
 # > AfterShip 包裹追踪平台相关域名
 
 DOMAIN-SUFFIX,aftership.com  # AfterShip 主站域名（全球物流追踪服务）
-DOMAIN-SUFFIX,www.aftership.com  # AfterShip 官网入口与服务介绍页面
 DOMAIN-SUFFIX,tracking.aftership.com  # AfterShip 用户包裹查询与追踪页面
 DOMAIN-SUFFIX,api.aftership.com  # AfterShip 物流信息查询与开发者 API 接口
 DOMAIN-SUFFIX,cdn.aftership.com  # AfterShip 静态资源加载域（图标、JS、CSS 等）
@@ -1393,18 +1320,15 @@ DOMAIN-SUFFIX,webhook.aftership.com  # AfterShip 物流状态变更回调推送�
 # > Wise 跨境转账平台相关域名
 
 DOMAIN-SUFFIX,wise.com  # Wise 主站域名（原 TransferWise，支持国际汇款与多币种账户）
-DOMAIN-SUFFIX,www.wise.com  # Wise 官网首页与用户服务入口
 DOMAIN-SUFFIX,borderless.wise.com  # Wise 多币种账户服务子域（原 Borderless Account）
 DOMAIN-SUFFIX,api.wise.com  # Wise API 接口服务（开发者接入与账户操作）
 DOMAIN-SUFFIX,assets.wise.com  # Wise 静态资源加载域（图标、前端脚本等）
 DOMAIN-SUFFIX,cdn.wise.com  # Wise CDN 分发节点（JS、CSS、图片等）
 DOMAIN-SUFFIX,transferwise.com  # Wise 旧品牌域名（部分重定向与历史服务兼容）
-DOMAIN-SUFFIX,www.transferwise.com  # Wise 旧站入口，现多跳转至 wise.com
 
 # > Revolut 金融科技平台相关域名
 
 DOMAIN-SUFFIX,revolut.com  # Revolut 主站域名（多币种账户、汇款、投资等服务）
-DOMAIN-SUFFIX,www.revolut.com  # Revolut 官网首页与账户服务入口
 DOMAIN-SUFFIX,api.revolut.com  # Revolut API 接口服务（用户身份验证与资金操作）
 DOMAIN-SUFFIX,app.revolut.com  # Revolut Web 应用与账户管理页面
 DOMAIN-SUFFIX,cdn.revolut.com  # Revolut 静态资源加载域（JS、CSS、图标等）
@@ -1415,7 +1339,6 @@ DOMAIN-SUFFIX,revolut.cards  # Revolut 虚拟与实体卡片管理服务域名
 # > Payoneer 跨境收款平台相关域名
 
 DOMAIN-SUFFIX,payoneer.com  # Payoneer 主站域名（账户管理、付款、收款等服务）
-DOMAIN-SUFFIX,www.payoneer.com  # Payoneer 官网入口（登录、产品介绍等）
 DOMAIN-SUFFIX,myaccount.payoneer.com  # Payoneer 账户后台服务（收付款与交易历史）
 DOMAIN-SUFFIX,api.payoneer.com  # Payoneer API 接口（第三方平台接入与身份验证）
 DOMAIN-SUFFIX,secure.payoneer.com  # Payoneer 登录与支付安全验证接口
@@ -1425,7 +1348,6 @@ DOMAIN-SUFFIX,cdn.payoneer.com  # Payoneer 静态资源加载域（CSS、图标�
 # > WorldRemit 国际汇款平台相关域名
 
 DOMAIN-SUFFIX,worldremit.com  # WorldRemit 主站域名（登录、汇款服务入口）
-DOMAIN-SUFFIX,www.worldremit.com  # WorldRemit 官网首页与账户管理
 DOMAIN-SUFFIX,transfer.worldremit.com  # WorldRemit 汇款操作与收款人填写服务接口
 DOMAIN-SUFFIX,api.worldremit.com  # WorldRemit API 接口（验证、交易处理等）
 DOMAIN-SUFFIX,auth.worldremit.com  # WorldRemit 登录与身份认证服务域
@@ -1435,7 +1357,6 @@ DOMAIN-SUFFIX,cdn.worldremit.com  # WorldRemit CDN 加速节点（图像与脚�
 # > Xoom 国际汇款平台相关域名
 
 DOMAIN-SUFFIX,xoom.com  # Xoom 主站域名（PayPal 旗下国际汇款服务）
-DOMAIN-SUFFIX,www.xoom.com  # Xoom 官网首页与汇款入口
 DOMAIN-SUFFIX,api.xoom.com  # Xoom API 接口服务（账户验证、交易处理）
 DOMAIN-SUFFIX,static.xoom.com  # Xoom 静态资源加载域（图标、脚本等）
 DOMAIN-SUFFIX,secure.xoom.com  # Xoom 安全通信接口（登录验证、交易授权）
@@ -1443,7 +1364,6 @@ DOMAIN-SUFFIX,secure.xoom.com  # Xoom 安全通信接口（登录验证、交易
 # > Upwork 自由职业平台相关域名
 
 DOMAIN-SUFFIX,upwork.com  # Upwork 主站域名（自由职业项目发布与服务撮合）
-DOMAIN-SUFFIX,www.upwork.com  # Upwork 官网首页与账户服务入口
 DOMAIN-SUFFIX,api.upwork.com  # Upwork API 接口服务（账户、项目与聊天等）
 DOMAIN-SUFFIX,community.upwork.com  # Upwork 用户社区与平台公告
 DOMAIN-SUFFIX,sso.upwork.com  # Upwork 单点登录接口
@@ -1454,7 +1374,6 @@ DOMAIN-SUFFIX,upwork-files.com  # Upwork 文件传输与静态资源加载域
 # > Toptal 自由职业平台相关域名
 
 DOMAIN-SUFFIX,toptal.com  # Toptal 主站域名（精英开发者/设计师/财务顾问撮合平台）
-DOMAIN-SUFFIX,www.toptal.com  # Toptal 官网首页与服务介绍
 DOMAIN-SUFFIX,talents.toptal.com  # Toptal 人才登录与项目管理后台
 DOMAIN-SUFFIX,blog.toptal.com  # Toptal 官方博客与技术文章发布
 DOMAIN-SUFFIX,cdn.toptal.io  # Toptal 静态资源 CDN 加载域（图像、脚本等）
@@ -1462,28 +1381,24 @@ DOMAIN-SUFFIX,cdn.toptal.io  # Toptal 静态资源 CDN 加载域（图像、脚�
 # > PeoplePerHour 自由职业平台相关域名
 
 DOMAIN-SUFFIX,peopleperhour.com  # PeoplePerHour 主站域名（项目发布与按小时雇佣服务）
-DOMAIN-SUFFIX,www.peopleperhour.com  # PeoplePerHour 官网入口与账户服务
 DOMAIN-SUFFIX,cdn.peopleperhour.com  # PeoplePerHour 静态资源 CDN 加载域（图像、JS、样式等）
 DOMAIN-SUFFIX,blog.peopleperhour.com  # PeoplePerHour 官方博客与平台动态
 
 # > Guru 自由职业平台相关域名
 
 DOMAIN-SUFFIX,guru.com  # Guru 主站域名（自由职业者服务市场与项目发布）
-DOMAIN-SUFFIX,www.guru.com  # Guru 官网入口与登录、账户管理等服务
 DOMAIN-SUFFIX,cdn.guru.com  # Guru 静态资源加载域名（图像、脚本、样式等）
 DOMAIN-SUFFIX,blog.guru.com  # Guru 官方博客与新闻动态
 
 # > RemoteOK 远程工作平台相关域名
 
 DOMAIN-SUFFIX,remoteok.com  # RemoteOK 主站域名，用于浏览与发布远程职位
-DOMAIN-SUFFIX,www.remoteok.com  # RemoteOK 官网入口域名（含职位搜索与筛选功能）
 DOMAIN-SUFFIX,api.remoteok.com  # RemoteOK API 接口服务（数据查询与职位同步）
 DOMAIN-SUFFIX,cdn.remoteok.com  # RemoteOK 静态资源加载域（图标、脚本等内容）
 
 # > Skyscanner 跨境航旅搜索平台相关域名
 
 DOMAIN-SUFFIX,skyscanner.net  # Skyscanner 主站域名（全球机票、酒店与租车搜索服务）
-DOMAIN-SUFFIX,www.skyscanner.net  # Skyscanner 官网入口与首页导航
 DOMAIN-SUFFIX,api.skyscanner.net  # Skyscanner API 接口服务（航班查询、价格更新等）
 DOMAIN-SUFFIX,partners.skyscanner.net  # Skyscanner 商业合作与跳转跟踪域名
 DOMAIN-SUFFIX,images.skyscn.com  # Skyscanner 静态资源加载域（图片、图标等）
@@ -1493,7 +1408,6 @@ DOMAIN-SUFFIX,skyscn.com  # Skyscanner CDN 与短链服务域（跳转与内容�
 # > KAYAK 跨境航旅搜索平台相关域名
 
 DOMAIN-SUFFIX,kayak.com  # KAYAK 主站域名（全球机票、酒店、租车比价服务）
-DOMAIN-SUFFIX,www.kayak.com  # KAYAK 官网首页与账户服务入口
 DOMAIN-SUFFIX,api.kayak.com  # KAYAK API 接口服务（航旅搜索、实时价格等）
 DOMAIN-SUFFIX,travel.kayak.com  # KAYAK 行程管理与预订详情服务域
 DOMAIN-SUFFIX,images.kayak.com  # KAYAK 静态资源加载域（图片、图标等）
@@ -1504,7 +1418,6 @@ DOMAIN-SUFFIX,click.kayak.com  # KAYAK 跳转与广告追踪子域
 # > Agoda 跨境酒店与航旅平台相关域名
 
 DOMAIN-SUFFIX,agoda.com  # Agoda 主站域名（全球酒店预订与航旅服务）
-DOMAIN-SUFFIX,www.agoda.com  # Agoda 官网首页与用户账户服务
 DOMAIN-SUFFIX,secure.agoda.com  # Agoda 安全支付与订单管理服务
 DOMAIN-SUFFIX,api.agoda.com  # Agoda API 接口服务（价格查询、预订操作等）
 DOMAIN-SUFFIX,pages.agoda.com  # Agoda 活动页面与推广着陆页
@@ -1515,7 +1428,6 @@ DOMAIN-SUFFIX,aff.agoda.com  # Agoda 联盟推广与跳转追踪域
 # > Trip.com 跨境航旅平台相关域名
 
 DOMAIN-SUFFIX,trip.com  # Trip.com 主站域名（全球酒店、机票、火车票等预订服务）
-DOMAIN-SUFFIX,www.trip.com  # Trip.com 官网首页与账户服务入口
 DOMAIN-SUFFIX,secure.trip.com  # Trip.com 安全支付与订单管理子域
 DOMAIN-SUFFIX,flights.trip.com  # Trip.com 机票预订与航班查询服务
 DOMAIN-SUFFIX,hotels.trip.com  # Trip.com 酒店预订服务页面
@@ -1530,7 +1442,6 @@ DOMAIN-SUFFIX,m.trip.com  # Trip.com 移动端页面入口域名
 # > Trivago 跨境酒店比价平台相关域名
 
 DOMAIN-SUFFIX,trivago.com  # Trivago 主站域名，全球多语言支持的酒店比价服务
-DOMAIN-SUFFIX,www.trivago.com  # Trivago 官网首页入口
 DOMAIN-SUFFIX,checkin.trivago.com  # Trivago 账号登录与用户验证服务
 DOMAIN-SUFFIX,hotelimages.trivago.com  # Trivago 酒店图片资源加载域
 DOMAIN-SUFFIX,imgcy.trivago.com  # Trivago 静态资源加载域（图标、JS、CSS 等）
@@ -1541,7 +1452,6 @@ DOMAIN-SUFFIX,trivago.net  # Trivago 海外跳转与广告联盟域名
 # > Western Union 全球汇款服务平台相关域名
 
 DOMAIN-SUFFIX,westernunion.com  # Western Union 主站域名（全球汇款服务与账户管理）
-DOMAIN-SUFFIX,www.westernunion.com  # Western Union 官网首页入口
 DOMAIN-SUFFIX,locations.westernunion.com  # Western Union 全球网点查询子域
 DOMAIN-SUFFIX,wu.com  # Western Union 官方短域名跳转（账户、活动等）
 DOMAIN-SUFFIX,api.westernunion.com  # Western Union 移动应用与网页服务 API 接口
@@ -1553,7 +1463,6 @@ DOMAIN-SUFFIX,assets.westernunion.com  # Western Union 图像与样式资源加�
 # > Remitly 国际汇款服务平台相关域名
 
 DOMAIN-SUFFIX,remitly.com  # Remitly 主站域名（跨境汇款服务与账户管理）
-DOMAIN-SUFFIX,www.remitly.com  # Remitly 官网首页与服务入口
 DOMAIN-SUFFIX,api.remitly.com  # Remitly 应用 API 与交易请求接口
 DOMAIN-SUFFIX,secure.remitly.com  # Remitly 安全登录与支付认证域名
 DOMAIN-SUFFIX,cdn.remitly.com  # Remitly 静态资源分发 CDN 节点
@@ -1563,7 +1472,6 @@ DOMAIN-SUFFIX,remitly.app.link  # Remitly 移动 App 短链跳转域（第三方
 # > Glovo 国际外卖配送平台相关域名
 
 DOMAIN-SUFFIX,glovoapp.com  # Glovo 主域名（全球外卖与本地快递服务）
-DOMAIN-SUFFIX,www.glovoapp.com  # Glovo 官网首页与账户服务入口
 DOMAIN-SUFFIX,api.glovoapp.com  # Glovo 移动 App 与网页 API 请求接口
 DOMAIN-SUFFIX,img.glovoapp.com  # Glovo 图像资源加载域（商品图、头像等）
 DOMAIN-SUFFIX,static.glovoapp.com  # Glovo 静态资源加载域（JS、CSS 等）
@@ -1572,14 +1480,12 @@ DOMAIN-SUFFIX,glovoapp.link  # Glovo 推广短链与 App 跳转链接域
 # > Just Eat 外卖订餐平台相关域名
 
 DOMAIN-SUFFIX,just-eat.com  # Just Eat 全球主站域名（含地区跳转与账户服务）
-DOMAIN-SUFFIX,www.just-eat.com  # Just Eat 首页入口与国家选择页
 DOMAIN-SUFFIX,just-eat.co.uk  # Just Eat 英国站（本地外卖服务）
 DOMAIN-SUFFIX,just-eat.ie  # Just Eat 爱尔兰站
 DOMAIN-SUFFIX,just-eat.dk  # Just Eat 丹麦站
 DOMAIN-SUFFIX,just-eat.fr  # Just Eat 法国站
 DOMAIN-SUFFIX,just-eat.ch  # Just Eat 瑞士站
 DOMAIN-SUFFIX,justeattakeaway.com  # Just Eat Takeaway 集团母公司域名
-DOMAIN-SUFFIX,www.justeattakeaway.com  # Just Eat Takeaway 官网介绍页
 DOMAIN-SUFFIX,assets.just-eat.com  # Just Eat 静态资源加载域（图标、样式等）
 DOMAIN-SUFFIX,media.just-eat.com  # Just Eat 媒体内容加载域（商户图、广告素材）
 DOMAIN-SUFFIX,api.just-eat.com  # Just Eat API 接口（账户、菜单、订单请求等）
@@ -1587,7 +1493,6 @@ DOMAIN-SUFFIX,api.just-eat.com  # Just Eat API 接口（账户、菜单、订单
 # > Bolt 网约车与配送平台相关域名
 
 DOMAIN-SUFFIX,bolt.eu  # Bolt 欧洲主站域名（含用户注册与服务介绍）
-DOMAIN-SUFFIX,www.bolt.eu  # Bolt 官网首页入口
 DOMAIN-SUFFIX,bolt.com  # Bolt 全球跳转域与国际化业务入口
 DOMAIN-SUFFIX,partners.bolt.eu  # Bolt 司机与商家合作平台（注册、管理）
 DOMAIN-SUFFIX,media.bolt.eu  # Bolt 静态媒体资源加载域（图标、宣传图等）
@@ -1598,7 +1503,6 @@ DOMAIN-SUFFIX,assets.bolt.eu  # Bolt 前端资源加载域（CSS、JS 等）
 # > Shopify 跨境电商建站平台相关域名
 
 DOMAIN-SUFFIX,shopify.com  # Shopify 全球主域名（含建站服务与管理后台）
-DOMAIN-SUFFIX,www.shopify.com  # Shopify 官网首页与功能介绍页
 DOMAIN-SUFFIX,accounts.shopify.com  # Shopify 用户身份验证与账户服务
 DOMAIN-SUFFIX,admin.shopify.com  # Shopify 店铺后台管理系统（控制面板）
 DOMAIN-SUFFIX,cdn.shopify.com  # Shopify 全局 CDN 静态资源加载域
@@ -1620,7 +1524,6 @@ DOMAIN-SUFFIX,track.goaffpro.com # GoAffPro 跟踪链接域名，用于访问来
 # > Zendesk 客服支持平台相关域名
 
 DOMAIN-SUFFIX,zendesk.com  # Zendesk 全球主站域名（产品官网与管理入口）
-DOMAIN-SUFFIX,www.zendesk.com  # Zendesk 官网首页与服务介绍
 DOMAIN-SUFFIX,api.zendesk.com  # Zendesk 公共 API 接口与数据交互服务
 DOMAIN-SUFFIX,static.zdassets.com  # Zendesk 静态资源加载（JS、CSS、图标等）
 DOMAIN-SUFFIX,theme.zdassets.com  # Zendesk 界面模板与主题资源加载
@@ -1633,7 +1536,6 @@ DOMAIN-SUFFIX,zendesk-mail.com  # Zendesk 邮件通知与支持信件服务
 # > Stripe 支付平台相关域名
 
 DOMAIN-SUFFIX,stripe.com  # Stripe 全球主站域名（官网与控制面板入口）
-DOMAIN-SUFFIX,www.stripe.com  # Stripe 官网首页与商户注册/管理服务
 DOMAIN-SUFFIX,api.stripe.com  # Stripe API 接口（支付请求、验证、结算等）
 DOMAIN-SUFFIX,checkout.stripe.com  # Stripe Checkout 支付页托管服务
 DOMAIN-SUFFIX,pay.stripe.com  # Stripe 安全支付流程入口（支付信息收集）
@@ -1646,7 +1548,6 @@ DOMAIN-SUFFIX,stripe-camo.global.ssl.fastly.net  # Stripe 使用的 Fastly CDN �
 # > Klaviyo 行为分析与邮件营销平台相关域名
 
 DOMAIN-SUFFIX,klaviyo.com  # Klaviyo 主站域名（提供行为分析与邮件营销）
-DOMAIN-SUFFIX,www.klaviyo.com  # Klaviyo 官网入口
 DOMAIN-SUFFIX,api.klaviyo.com  # Klaviyo 数据上传与行为采集接口
 DOMAIN-SUFFIX,analytics.klaviyo.com  # Klaviyo 用户行为追踪与统计分析服务
 DOMAIN-SUFFIX,img.klaviyo.com  # Klaviyo 邮件与网页嵌入图片加载域
@@ -1656,7 +1557,6 @@ DOMAIN-SUFFIX,track.klaviyo.com  # Klaviyo 嵌入式追踪脚本回连域
 # > Mailchimp 营销自动化与邮件分发平台相关域名
 
 DOMAIN-SUFFIX,mailchimp.com  # Mailchimp 主站域名（邮件发送与营销平台）
-DOMAIN-SUFFIX,www.mailchimp.com  # Mailchimp 官网与用户控制面板
 DOMAIN-SUFFIX,login.mailchimp.com  # Mailchimp 登录服务
 DOMAIN-SUFFIX,api.mailchimp.com  # Mailchimp API 接口调用（列表管理、自动发送等）
 DOMAIN-SUFFIX,cdn-images.mailchimp.com  # Mailchimp 邮件内容中加载的图片资源域
@@ -1668,7 +1568,6 @@ DOMAIN-SUFFIX,mcsv.net  # Mailchimp 分发使用的 CDN 与追踪跳转服务域
 # > Banggood 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,banggood.com  # Banggood 主站域名，全球跨境销售平台
-DOMAIN-SUFFIX,www.banggood.com  # Banggood 网站首页与账户服务入口
 DOMAIN-SUFFIX,api.banggood.com  # Banggood API 服务接口（含登录、订单等）
 DOMAIN-SUFFIX,img.banggood.com  # Banggood 商品图片与资源加载域名
 DOMAIN-SUFFIX,cximg.banggood.com  # Banggood 客户中心资源加载域名
@@ -1683,7 +1582,6 @@ DOMAIN-SUFFIX,content.banggood.com  # Banggood 内容分发与促销活动页面
 # > Gearbest 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,gearbest.com  # Gearbest 主站域名，跨境消费电子与杂货平台
-DOMAIN-SUFFIX,www.gearbest.com  # Gearbest 网站首页与用户登录服务
 DOMAIN-SUFFIX,m.gearbest.com  # Gearbest 移动端页面入口
 DOMAIN-SUFFIX,app.gearbest.com  # Gearbest 移动应用服务接口
 DOMAIN-SUFFIX,myaccount.gearbest.com  # Gearbest 用户账户管理子域
@@ -1699,7 +1597,6 @@ DOMAIN-SUFFIX,js.gearbest.com  # Gearbest JavaScript 脚本资源域
 # > DHgate（敦煌网）跨境电商平台相关域名
 
 DOMAIN-SUFFIX,dhgate.com  # DHgate 敦煌网主站域名，B2B 跨境电商平台
-DOMAIN-SUFFIX,www.dhgate.com  # DHgate 网站首页与商品浏览入口
 DOMAIN-SUFFIX,m.dhgate.com  # DHgate 移动端页面入口
 DOMAIN-SUFFIX,login.dhgate.com  # DHgate 用户登录服务域名
 DOMAIN-SUFFIX,passport.dhgate.com  # DHgate 统一身份认证服务域名
@@ -1716,7 +1613,6 @@ DOMAIN-SUFFIX,js.dhgate.com  # DHgate 脚本资源服务域名
 # > LightInTheBox（兰亭集势）跨境电商平台相关域名
 
 DOMAIN-SUFFIX,lightinthebox.com  # LightInTheBox 主站域名，全球在线零售平台
-DOMAIN-SUFFIX,www.lightinthebox.com  # LightInTheBox 首页与账户入口
 DOMAIN-SUFFIX,m.lightinthebox.com  # LightInTheBox 移动端入口域名
 DOMAIN-SUFFIX,checkout.lightinthebox.com  # LightInTheBox 结算与支付流程页面
 DOMAIN-SUFFIX,my.lightinthebox.com  # LightInTheBox 用户中心与订单管理页面
@@ -1729,7 +1625,6 @@ DOMAIN-SUFFIX,seller.lightinthebox.com  # LightInTheBox 商家后台与商品管
 # > Tomtop 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,tomtop.com  # Tomtop 主站域名，涵盖消费电子、家居用品等跨境销售
-DOMAIN-SUFFIX,www.tomtop.com  # Tomtop 首页与用户服务入口
 DOMAIN-SUFFIX,m.tomtop.com  # Tomtop 移动端商城入口
 DOMAIN-SUFFIX,img.tomtop.com  # Tomtop 商品图片与资源加载域
 DOMAIN-SUFFIX,my.tomtop.com  # Tomtop 用户账户与订单管理系统
@@ -1740,7 +1635,6 @@ DOMAIN-SUFFIX,cart.tomtop.com  # Tomtop 购物车与结算系统
 # > Joom 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,joom.com  # Joom 主站域名，跨境购物平台，主打欧洲与全球市场
-DOMAIN-SUFFIX,www.joom.com  # Joom 官网首页与商品浏览入口
 DOMAIN-SUFFIX,m.joom.com  # Joom 移动端商城入口
 DOMAIN-SUFFIX,img.joomcdn.net  # Joom 商品图片与静态资源 CDN 域名
 DOMAIN-SUFFIX,api.joom.com  # Joom 移动应用与网站核心 API 请求接口
@@ -1751,7 +1645,6 @@ DOMAIN-SUFFIX,joomcdn.net  # Joom 公共 CDN 内容加速节点
 # > Cdiscount 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,cdiscount.com  # Cdiscount 法国主站域名，欧洲领先电商平台
-DOMAIN-SUFFIX,www.cdiscount.com  # Cdiscount 官网首页与商品浏览入口
 DOMAIN-SUFFIX,static.cdiscount.com  # Cdiscount 静态资源加载域（JS、CSS、图片等）
 DOMAIN-SUFFIX,media.cdiscount.com  # Cdiscount 商品媒体图片与展示资源加载
 DOMAIN-SUFFIX,clients.cdiscount.com  # Cdiscount 客户中心与订单管理入口
@@ -1761,7 +1654,6 @@ DOMAIN-SUFFIX,cdn.cdiscount.com  # Cdiscount CDN 内容分发节点（全球加�
 # > Allegro 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,allegro.pl  # Allegro 波兰本土主站域名，东欧最大电商平台
-DOMAIN-SUFFIX,www.allegro.pl  # Allegro 网站首页与账户服务入口
 DOMAIN-SUFFIX,allegrostatic.com  # Allegro 静态资源加载域（JS、CSS、图片等）
 DOMAIN-SUFFIX,assets.allegrostatic.com  # Allegro 前端资源加载与图标文件服务
 DOMAIN-SUFFIX,img.allegroimg.com  # Allegro 商品图片加载 CDN 域名
@@ -1773,7 +1665,6 @@ DOMAIN-SUFFIX,allegrogroup.com  # Allegro 集团总部域名，用于企业服�
 # > Noon 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,noon.com  # Noon 跨境电商主域名，面向中东市场（阿联酋、沙特等）
-DOMAIN-SUFFIX,www.noon.com  # Noon 主站首页与购物入口
 DOMAIN-SUFFIX,uae.noon.com  # Noon 阿联酋站点（本地化购物与物流）
 DOMAIN-SUFFIX,saudi.noon.com  # Noon 沙特阿拉伯站点
 DOMAIN-SUFFIX,egypt.noon.com  # Noon 埃及站点
@@ -1786,7 +1677,6 @@ DOMAIN-SUFFIX,sellerhub.noon.com  # Noon 商家管理后台入口
 # > Mercado Libre 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,mercadolibre.com  # Mercado Libre 主域名（拉美地区跳转页）
-DOMAIN-SUFFIX,www.mercadolibre.com  # Mercado Libre 全球官网入口页
 DOMAIN-SUFFIX,mercadolibre.com.ar  # Mercado Libre 阿根廷站（总部所在地）
 DOMAIN-SUFFIX,mercadolivre.com.br  # Mercado Livre 巴西站（葡语站点）
 DOMAIN-SUFFIX,mercadolibre.cl  # Mercado Libre 智利站
@@ -1798,17 +1688,14 @@ DOMAIN-SUFFIX,api.mercadolibre.com  # Mercado Libre 站内 API 请求服务
 DOMAIN-SUFFIX,static.mlstatic.com  # Mercado Libre 静态资源 CDN 域名
 DOMAIN-SUFFIX,images.mlstatic.com  # Mercado Libre 商品图片资源加载域
 DOMAIN-SUFFIX,mercadopago.com  # Mercado Pago 旗下支付服务平台（拉美主流支付工具）
-DOMAIN-SUFFIX,www.mercadopago.com  # Mercado Pago 首页与账户服务入口
 
 # > Blinq 电商平台相关域名
 
 DOMAIN-SUFFIX,blinq.com  # Blinq 主站域名，美国折扣电商平台，主营清仓与返修品销售
-DOMAIN-SUFFIX,www.blinq.com  # Blinq 官网入口与用户账户服务
 
 # > Yanwen 燕文物流平台相关域名
 
 DOMAIN-SUFFIX,yanwen.com  # Yanwen 官方主站域名，用于服务介绍与用户登录
-DOMAIN-SUFFIX,www.yanwen.com  # Yanwen 官网首页与服务入口
 DOMAIN-SUFFIX,track.yw56.com.cn  # Yanwen 国际物流追踪服务接口，常用于电商物流跟踪
 DOMAIN-SUFFIX,yw56.com.cn  # Yanwen 国内服务主域名，含物流服务与包裹状态查询
 DOMAIN-SUFFIX,img.yw56.com.cn  # Yanwen 静态资源加载域名（图片、样式等）
@@ -1816,7 +1703,6 @@ DOMAIN-SUFFIX,img.yw56.com.cn  # Yanwen 静态资源加载域名（图片、样�
 # > UBI Smart Parcel 智能物流平台相关域名
 
 DOMAIN-SUFFIX,ubi-logistics.com  # UBI 智能物流主站域名（服务介绍与国际物流业务）
-DOMAIN-SUFFIX,www.ubi-logistics.com  # UBI 官网首页与客户服务入口
 DOMAIN-SUFFIX,track.ubismartparcel.com  # UBI 包裹追踪服务（国际物流单号查询）
 DOMAIN-SUFFIX,ubismartparcel.com  # UBI 智能物流子域，用于用户操作与查询接口
 DOMAIN-SUFFIX,img.ubismartparcel.com  # UBI 物流图片与静态资源加载服务
@@ -1825,7 +1711,6 @@ DOMAIN-SUFFIX,globaltracktrace.com  # UBI 全局追踪重定向平台，用于�
 # > Shipito 跨境包裹转运平台相关域名
 
 DOMAIN-SUFFIX,shipito.com  # Shipito 主站域名，提供美国/欧洲地址转运服务
-DOMAIN-SUFFIX,www.shipito.com  # Shipito 官网入口与用户账户服务
 DOMAIN-SUFFIX,api.shipito.com  # Shipito 移动端与 Web 端 API 接口
 DOMAIN-SUFFIX,static.shipito.com  # Shipito 静态资源加载域（JS/CSS）
 DOMAIN-SUFFIX,cdn.shipito.com  # Shipito CDN 内容分发域，用于加速全球访问
@@ -1834,7 +1719,6 @@ DOMAIN-SUFFIX,track.shipito.com  # Shipito 包裹追踪与物流状态查询接�
 # > MyUS 跨境包裹转运平台相关域名
 
 DOMAIN-SUFFIX,myus.com  # MyUS 主站域名，提供美国仓储与全球转运服务
-DOMAIN-SUFFIX,www.myus.com  # MyUS 官网入口与用户账户服务
 DOMAIN-SUFFIX,api.myus.com  # MyUS 移动端 / Web API 接口，用于订单、物流等操作
 DOMAIN-SUFFIX,cdn.myus.com  # MyUS CDN 加速节点（静态资源加载）
 DOMAIN-SUFFIX,track.myus.com  # MyUS 包裹追踪与物流状态查询接口
@@ -1844,7 +1728,6 @@ DOMAIN-SUFFIX,support.myus.com  # MyUS 客服支持页面与知识库服务
 # > Stackry 跨境包裹转运平台相关域名
 
 DOMAIN-SUFFIX,stackry.com  # Stackry 主站域名，提供美国仓储与全球转运服务
-DOMAIN-SUFFIX,www.stackry.com  # Stackry 官网入口与用户账户中心
 DOMAIN-SUFFIX,cdn.stackry.com  # Stackry 静态资源加载服务（JS、CSS、图片等）
 DOMAIN-SUFFIX,support.stackry.com  # Stackry 客服支持系统与帮助中心
 DOMAIN-SUFFIX,app.stackry.com  # Stackry 在线操作面板与包裹管理界面
@@ -1852,7 +1735,6 @@ DOMAIN-SUFFIX,app.stackry.com  # Stackry 在线操作面板与包裹管理界面
 # > SF International（顺丰国际）跨境物流平台相关域名
 
 DOMAIN-SUFFIX,sf-international.com  # 顺丰国际主站域名（含全球站点跳转）
-DOMAIN-SUFFIX,www.sf-international.com  # 顺丰国际官网首页与服务入口
 DOMAIN-SUFFIX,track.sf-international.com  # 顺丰国际包裹追踪服务（物流单号查询）
 DOMAIN-SUFFIX,api.sf-international.com  # 顺丰国际 API 接口服务（商家系统对接）
 DOMAIN-SUFFIX,int.sf-express.com  # 顺丰国际旧版主站入口域名（部分国家仍使用）
@@ -1863,7 +1745,6 @@ DOMAIN-SUFFIX,sms.sf-express.com  # 顺丰系统消息与通知接口（物流�
 # > ECMS Express（易客满）跨境物流平台相关域名
 
 DOMAIN-SUFFIX,ecmsglobal.com  # ECMS Express 主站域名（全球服务入口）
-DOMAIN-SUFFIX,www.ecmsglobal.com  # ECMS 官网首页（含查询与注册入口）
 DOMAIN-SUFFIX,track.ecmsglobal.com  # ECMS 包裹追踪查询服务接口
 DOMAIN-SUFFIX,api.ecmsglobal.com  # ECMS 商家与系统对接 API 接口
 DOMAIN-SUFFIX,cdn.ecmsglobal.com  # ECMS 静态资源加载与 CDN 内容分发节点
@@ -1872,7 +1753,6 @@ DOMAIN-SUFFIX,img.ecmsglobal.com  # ECMS 图片资源加载域名
 # > Yanwen Logistics（燕文物流）跨境物流平台相关域名
 
 DOMAIN-SUFFIX,yw56.com.cn  # Yanwen Logistics 主站域名（燕文物流官网）
-DOMAIN-SUFFIX,www.yw56.com.cn  # Yanwen 官网首页与服务入口（含包裹查询）
 DOMAIN-SUFFIX,track.yw56.com.cn  # Yanwen 包裹追踪服务接口
 DOMAIN-SUFFIX,int.yw56.com.cn  # Yanwen 国际物流子站（含跨境包裹与服务）
 DOMAIN-SUFFIX,api.yw56.com.cn  # Yanwen 商家 API 对接服务（含轨迹推送与发货）
@@ -1882,7 +1762,6 @@ DOMAIN-SUFFIX,cdn.yw56.com.cn  # Yanwen CDN 分发节点（用于前端静态资
 # > Paysend 跨境转账与支付平台相关域名
 
 DOMAIN-SUFFIX,paysend.com  # Paysend 官方主域名（全球汇款服务入口）
-DOMAIN-SUFFIX,www.paysend.com  # Paysend 官网首页与用户账户服务
 DOMAIN-SUFFIX,api.paysend.com  # Paysend API 服务接口（支付请求、身份验证等）
 DOMAIN-SUFFIX,cdn.paysend.com  # Paysend 静态资源加载域名（JS、CSS、图标等）
 DOMAIN-SUFFIX,paysend.net  # Paysend 附属域名（部分支付节点与服务分发使用）
@@ -1890,21 +1769,18 @@ DOMAIN-SUFFIX,paysend.net  # Paysend 附属域名（部分支付节点与服务�
 # > Remit2India 跨境汇款平台相关域名
 
 DOMAIN-SUFFIX,remit2india.com  # Remit2India 官方主域名（印度汇款平台）
-DOMAIN-SUFFIX,www.remit2india.com  # Remit2India 官网入口与账户服务
 DOMAIN-SUFFIX,secure.remit2india.com  # Remit2India 安全登录与支付页面
 DOMAIN-SUFFIX,api.remit2india.com  # Remit2India API 接口（身份验证与汇款操作）
 
 # > Ria Money Transfer 跨境汇款平台相关域名
 
 DOMAIN-SUFFIX,riamoneytransfer.com  # Ria 官方主域名（全球汇款服务入口）
-DOMAIN-SUFFIX,www.riamoneytransfer.com  # Ria 官网与账户登录服务
 DOMAIN-SUFFIX,secure.riamoneytransfer.com  # Ria 安全支付与身份验证接口
 DOMAIN-SUFFIX,api.riamoneytransfer.com  # Ria API 服务（汇款请求与用户数据交互）
 
 # > Skrill（前 Moneybookers）电子钱包平台相关域名
 
 DOMAIN-SUFFIX,skrill.com  # Skrill 官方主域名（原 Moneybookers）
-DOMAIN-SUFFIX,www.skrill.com  # Skrill 官网入口与用户中心
 DOMAIN-SUFFIX,checkout.skrill.com  # Skrill 付款与结算网关接口
 DOMAIN-SUFFIX,account.skrill.com  # Skrill 用户账户管理服务
 DOMAIN-SUFFIX,api.skrill.com  # Skrill 开发者 API 接口
@@ -1913,7 +1789,6 @@ DOMAIN-SUFFIX,skrillcdn.com  # Skrill 静态资源加载域名
 # > Neteller 电子钱包与在线支付平台相关域名
 
 DOMAIN-SUFFIX,neteller.com  # Neteller 官方主域名（电子钱包与转账服务）
-DOMAIN-SUFFIX,www.neteller.com  # Neteller 官网与账户服务
 DOMAIN-SUFFIX,secure.neteller.com  # Neteller 登录与支付验证接口
 DOMAIN-SUFFIX,account.neteller.com  # Neteller 用户账户后台
 DOMAIN-SUFFIX,api.neteller.com  # Neteller API 服务接口
@@ -1922,7 +1797,6 @@ DOMAIN-SUFFIX,netellercdn.com  # Neteller 静态资源加载域名
 # > Airwallex 跨境收付与外汇结算平台相关域名
 
 DOMAIN-SUFFIX,airwallex.com  # Airwallex 官方主域名（全球商户跨境支付服务）
-DOMAIN-SUFFIX,www.airwallex.com  # Airwallex 官网首页与产品介绍
 DOMAIN-SUFFIX,api.airwallex.com  # Airwallex API 接口（外汇、结算、账单等）
 DOMAIN-SUFFIX,dashboard.airwallex.com  # Airwallex 商户后台控制台
 DOMAIN-SUFFIX,cdn.airwallex.com  # Airwallex 静态资源加载域
@@ -1930,7 +1804,6 @@ DOMAIN-SUFFIX,cdn.airwallex.com  # Airwallex 静态资源加载域
 # > PingPong Payments 跨境收款服务平台相关域名
 
 DOMAIN-SUFFIX,pingpongx.com  # PingPong 官方主域名（跨境收款与结汇服务）
-DOMAIN-SUFFIX,www.pingpongx.com  # PingPong 官网入口与用户平台
 DOMAIN-SUFFIX,api.pingpongx.com  # PingPong API 接口服务（账户、汇率、提现）
 DOMAIN-SUFFIX,secure.pingpongx.com  # PingPong 安全登录与支付请求通道
 DOMAIN-SUFFIX,pingpongcdn.com  # PingPong 静态资源加载服务
@@ -1938,7 +1811,6 @@ DOMAIN-SUFFIX,pingpongcdn.com  # PingPong 静态资源加载服务
 # > Oceanpayment 跨境收单与支付解决方案平台相关域名
 
 DOMAIN-SUFFIX,oceanpayment.com  # Oceanpayment 官方主域名（支付解决方案服务）
-DOMAIN-SUFFIX,www.oceanpayment.com  # Oceanpayment 官网介绍与商户接入页面
 DOMAIN-SUFFIX,pay.oceanpayment.com  # Oceanpayment 在线支付接口网关
 DOMAIN-SUFFIX,secure.oceanpayment.com  # Oceanpayment 安全交易通道
 DOMAIN-SUFFIX,api.oceanpayment.com  # Oceanpayment 商户 API 接口服务
@@ -1946,28 +1818,24 @@ DOMAIN-SUFFIX,api.oceanpayment.com  # Oceanpayment 商户 API 接口服务
 # > Freelancer.com 全球自由职业平台相关域名
 
 DOMAIN-SUFFIX,freelancer.com  # Freelancer 主域名，全球自由职业市场平台
-DOMAIN-SUFFIX,www.freelancer.com  # Freelancer 官网与用户入口
 DOMAIN-SUFFIX,api.freelancer.com  # Freelancer 开发者接口与服务请求
 DOMAIN-SUFFIX,cdn.freelancer.com  # Freelancer 静态资源加载域名
 
 # > Workana 拉美与全球自由职业平台相关域名
 
 DOMAIN-SUFFIX,workana.com  # Workana 主域名，自由职业者与项目匹配平台
-DOMAIN-SUFFIX,www.workana.com  # Workana 官网入口与账户管理
 DOMAIN-SUFFIX,api.workana.com  # Workana 后台 API 接口
 DOMAIN-SUFFIX,workanastatic.com  # Workana 静态资源加载域名
 
 # > DesignCrowd 设计类众包与自由职业平台相关域名
 
 DOMAIN-SUFFIX,designcrowd.com  # DesignCrowd 主域名，设计类项目外包平台
-DOMAIN-SUFFIX,www.designcrowd.com  # DesignCrowd 官网与项目浏览入口
 DOMAIN-SUFFIX,api.designcrowd.com  # DesignCrowd API 接口
 DOMAIN-SUFFIX,designcrowdassets.com  # DesignCrowd 静态资源与图像加载域名
 
 # > CrowdWorks 日本本地自由职业平台相关域名
 
 DOMAIN-SUFFIX,crowdworks.jp  # CrowdWorks 主域名，日本自由职业者平台
-DOMAIN-SUFFIX,www.crowdworks.jp  # CrowdWorks 官网入口与用户控制台
 DOMAIN-SUFFIX,api.crowdworks.jp  # CrowdWorks 开发者与接口服务域
 DOMAIN-SUFFIX,crowdworksstatic.jp  # CrowdWorks 静态资源加载（JS/CSS）
 
@@ -1980,14 +1848,12 @@ DOMAIN-SUFFIX,freelancermapstatic.com  # freelancermap 静态资源加载域
 # > Hotwire 出行预订平台相关域名
 
 DOMAIN-SUFFIX,hotwire.com  # Hotwire 主域名，提供折扣机票、酒店、租车等服务
-DOMAIN-SUFFIX,www.hotwire.com  # Hotwire 官网首页与账户管理
 DOMAIN-SUFFIX,api.hotwire.com  # Hotwire 应用程序接口（预订服务）
 DOMAIN-SUFFIX,images.hotwire.com  # Hotwire 静态图像资源加载域名
 
 # > Priceline 综合旅游与酒店预订平台相关域名
 
 DOMAIN-SUFFIX,priceline.com  # Priceline 主域名，酒店、航班、租车预订服务
-DOMAIN-SUFFIX,www.priceline.com  # Priceline 官网入口与用户账户管理
 DOMAIN-SUFFIX,secure.priceline.com  # Priceline 安全支付与结算页面
 DOMAIN-SUFFIX,api.priceline.com  # Priceline 应用接口服务
 DOMAIN-SUFFIX,priceline-cn.com  # Priceline 中文服务站（含亚洲预订服务）
@@ -1995,28 +1861,24 @@ DOMAIN-SUFFIX,priceline-cn.com  # Priceline 中文服务站（含亚洲预订服
 # > Hostelworld 青年旅舍与经济型住宿预订平台相关域名
 
 DOMAIN-SUFFIX,hostelworld.com  # Hostelworld 主域名，专注全球青年旅舍预订
-DOMAIN-SUFFIX,www.hostelworld.com  # Hostelworld 官网入口与住宿筛选服务
 DOMAIN-SUFFIX,secure.hostelworld.com  # Hostelworld 安全支付与订单处理域
 DOMAIN-SUFFIX,cdn.hostelworld.com  # Hostelworld 静态内容加载域名
 
 # > Busbud 全球长途与跨境巴士车票预订平台相关域名
 
 DOMAIN-SUFFIX,busbud.com  # Busbud 主域名，全球跨国与本地巴士服务平台
-DOMAIN-SUFFIX,www.busbud.com  # Busbud 官网首页与车票预订入口
 DOMAIN-SUFFIX,api.busbud.com  # Busbud 接口请求服务（车票、路线、价格）
 DOMAIN-SUFFIX,static.busbud.com  # Busbud 静态资源加载服务（JS/CSS）
 
 # > 12Go Asia 亚洲地区交通综合预订平台相关域名
 
 DOMAIN-SUFFIX,12go.asia  # 12Go Asia 主域名，涵盖东南亚多种交通方式预订
-DOMAIN-SUFFIX,www.12go.asia  # 12Go Asia 官网入口（火车、巴士、渡轮等）
 DOMAIN-SUFFIX,secure.12go.asia  # 12Go Asia 安全支付与结算页面
 DOMAIN-SUFFIX,cdn.12go.asia  # 12Go Asia 静态资源与图像加载域名
 
 # > 紫鸟浏览器相关域名（SuperBrowser）
 
 DOMAIN-SUFFIX,superbrowser.com  # 紫鸟浏览器主站域名，用于产品介绍与用户登录
-DOMAIN-SUFFIX,www.superbrowser.com  # 紫鸟浏览器官网首页与控制台入口
 DOMAIN-SUFFIX,static.superbrowser.com  # 紫鸟浏览器静态资源加载域（JS/CSS）
 DOMAIN-SUFFIX,account.superbrowser.com  # 紫鸟浏览器账户系统与认证接口
 DOMAIN-SUFFIX,api.superbrowser.com  # 紫鸟浏览器 API 接口域名（任务调度、代理请求等）
@@ -2026,8 +1888,7 @@ DOMAIN-SUFFIX,location.superbrowser.com  # 紫鸟浏览器地理位置/IP节点�
 
 # > AdsPower 反检测浏览器相关域名
 
-DOMAIN-SUFFIX,adspower.com  # AdsPower 主站域名，多账号反检测浏览器工具  
-DOMAIN-SUFFIX,www.adspower.com  # AdsPower 官网入口与下载页面  
+DOMAIN-SUFFIX,adspower.com  # AdsPower 主站域名，多账号反检测浏览器工具   
 DOMAIN-SUFFIX,app.adspower.com  # AdsPower 在线平台入口（账户管理、授权等）  
 DOMAIN-SUFFIX,static.adspower.com  # AdsPower 静态资源加载域（JS、CSS、图标等）  
 DOMAIN-SUFFIX,api.adspower.com  # AdsPower 公共 API 接口（配置、任务、代理设置等）  
@@ -2036,42 +1897,36 @@ DOMAIN-SUFFIX,adspower.net  # AdsPower 备用域名，官方认可副域
 # > Multilogin 反指纹/多账号浏览器相关域名
 
 DOMAIN-SUFFIX,multilogin.com  # Multilogin 主站域名（antidetect 浏览器 & 多账户管理）  
-DOMAIN-SUFFIX,www.multilogin.com  # Multilogin 官网入口与产品页面
 DOMAIN-SUFFIX,api.multilogin.com  # Multilogin API 接口（浏览器配置、管理、代理集成）  
 DOMAIN-SUFFIX,static.multilogin.com  # Multilogin 静态资源加载域（JS、图标、样式等）
 
 # > Incogniton 反指纹浏览器相关域名
 
 DOMAIN-SUFFIX,incogniton.com  # Incogniton 主站域名（antidetect 浏览器工具） 
-DOMAIN-SUFFIX,www.incogniton.com  # Incogniton 官网页面与用户入口
 DOMAIN-SUFFIX,api.incogniton.com  # Incogniton API 接口（多账户管理、脚本接口等）
 DOMAIN-SUFFIX,static.incogniton.com  # Incogniton 静态资源加载域
 
 # > GoLogin 反指纹浏览器相关域名
 
 DOMAIN-SUFFIX,gologin.com  # GoLogin 主站域名（多账户浏览器 & antidetect 工具） 
-DOMAIN-SUFFIX,www.gologin.com  # GoLogin 官网入口与账户服务
 DOMAIN-SUFFIX,api.gologin.com  # GoLogin API 接口域（浏览器配置、代理接口等）
 DOMAIN-SUFFIX,static.gologin.com  # GoLogin 静态资源加载域
 
 # > Kameleo 反指纹浏览器相关域名
 
 DOMAIN-SUFFIX,kameleo.io  # Kameleo 主站域名（antidetect 浏览器，多账户 & 指纹伪装） 
-DOMAIN-SUFFIX,www.kameleo.io  # Kameleo 官网入口
 DOMAIN-SUFFIX,api.kameleo.io  # Kameleo API 接口（浏览器配置、自动化脚本等）  
 DOMAIN-SUFFIX,static.kameleo.io  # Kameleo 静态资源加载域
 
 # > Octo Browser 多账号反指纹浏览器相关域名
 
 DOMAIN-SUFFIX,octobrowser.net  # Octo Browser 主站域名（多账户管理、反检测浏览器）  
-DOMAIN-SUFFIX,www.octobrowser.net  # Octo Browser 官网入口
 DOMAIN-SUFFIX,api.octobrowser.net  # Octo Browser API 接口（多账户、脚本配置、代理管理） 
 DOMAIN-SUFFIX,static.octobrowser.net  # Octo Browser 静态资源加载域 
 
 # > DeepL 翻译平台相关域名
 
 DOMAIN-SUFFIX,deepl.com  # DeepL 主站域名，国际化翻译服务入口
-DOMAIN-SUFFIX,www.deepl.com  # DeepL 官网首页与登录入口
 DOMAIN-SUFFIX,api.deepl.com  # DeepL 开发者接口与 API 服务域名
 DOMAIN-SUFFIX,static.deepl.com  # DeepL 静态资源加载域（图像、脚本、样式等）
 DOMAIN-SUFFIX,login.deepl.com  # DeepL 登录及账户认证服务子域
@@ -2079,7 +1934,6 @@ DOMAIN-SUFFIX,login.deepl.com  # DeepL 登录及账户认证服务子域
 # > Ozon 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,ozon.ru  # Ozon 主站域名，俄罗斯领先电商平台  
-DOMAIN-SUFFIX,www.ozon.ru  # Ozon 官网首页与用户入口  
 DOMAIN-SUFFIX,api.ozon.ru  # Ozon 应用/API 接口（商品、订单、用户服务）  
 DOMAIN-SUFFIX,static.ozon.ru  # Ozon 静态资源加载域（JS、CSS、图片等）  
 DOMAIN-SUFFIX,images.mlstatic.com  # Ozon 商品图像资源加载节点（R&D、CDN 可能共用）  
@@ -2088,8 +1942,7 @@ DOMAIN-SUFFIX,global.ozon.com  # Ozon Global 国际业务入口域（面向海�
 
 # > 美客多（Mercari）跨境二手交易平台相关域名
 
-DOMAIN-SUFFIX,mercari.com  # Mercari 主站域名，日本起家全球二手交易平台  
-DOMAIN-SUFFIX,www.mercari.com  # Mercari 官网首页与用户入口  
+DOMAIN-SUFFIX,mercari.com  # Mercari 主站域名，日本起家全球二手交易平台   
 DOMAIN-SUFFIX,api.mercari.com  # Mercari 应用/API 接口服务（商品、账户、交易接口）  
 DOMAIN-SUFFIX,static.mercari.com  # Mercari 静态资源加载域（JS、CSS、图片等）  
 DOMAIN-SUFFIX,login.mercari.com  # Mercari 登录与账户认证子域  
@@ -2099,16 +1952,13 @@ DOMAIN-SUFFIX,mercari.jp  # Mercari 日本本土域名（主要市场）
 # > eMAG 跨境电商平台相关域名
 
 DOMAIN-SUFFIX,emag.ro  # eMAG 罗马尼亚站点主域名
-DOMAIN-SUFFIX,www.emag.ro  # eMAG 罗马尼亚站官网入口
 DOMAIN-SUFFIX,emag.pl  # eMAG 波兰站域名
-DOMAIN-SUFFIX,www.emag.pl  # eMAG 波兰站官网入口
 DOMAIN-SUFFIX,api.emag.ro  # eMAG 应用/API 接口服务域名
 DOMAIN-SUFFIX,static.emag.ro  # eMAG 静态资源加载域（JS、CSS、图片等）
 
 # > Hepsiburada 土耳其电商平台相关域名
 
 DOMAIN-SUFFIX,hepsiburada.com  # Hepsiburada 主站域名
-DOMAIN-SUFFIX,www.hepsiburada.com  # Hepsiburada 主页与账户服务
 DOMAIN-SUFFIX,cdn.hepsiburada.com  # Hepsiburada 静态资源加载 CDN
 DOMAIN-SUFFIX,img.hepsiburada.com  # Hepsiburada 商品图片加载
 DOMAIN-SUFFIX,api.hepsiburada.com  # Hepsiburada 接口服务（移动端/网页）
@@ -2116,14 +1966,12 @@ DOMAIN-SUFFIX,api.hepsiburada.com  # Hepsiburada 接口服务（移动端/网页
 # > 12Go Asia 东南亚交通出行平台相关域名
 
 DOMAIN-SUFFIX,12go.asia  # 12Go Asia 主域名（含火车、巴士、轮渡票务）
-DOMAIN-SUFFIX,www.12go.asia  # 12Go Asia 官网入口
 DOMAIN-SUFFIX,cdn.12go.asia  # 12Go 静态资源加载服务
 DOMAIN-SUFFIX,api.12go.asia  # 12Go 移动应用 API 接口服务
 
 # > Miravia 电商平台相关域名（Lazada 母公司阿里投资）
 
 DOMAIN-SUFFIX,miravia.es  # Miravia 西班牙站主域名
-DOMAIN-SUFFIX,www.miravia.es  # Miravia 官网首页
 DOMAIN-SUFFIX,cdn.miravia.es  # Miravia 静态资源加载服务
 DOMAIN-SUFFIX,api.miravia.es  # Miravia 应用接口
 DOMAIN-SUFFIX,img.miravia.es  # Miravia 图片资源加载域
@@ -2131,7 +1979,6 @@ DOMAIN-SUFFIX,img.miravia.es  # Miravia 图片资源加载域
 # > ManoMano 法国家居工具电商平台相关域名
 
 DOMAIN-SUFFIX,manomano.fr  # ManoMano 法国主站
-DOMAIN-SUFFIX,www.manomano.fr  # ManoMano 官网首页与账户服务
 DOMAIN-SUFFIX,cdn.manomano.fr  # ManoMano 静态资源加载服务
 DOMAIN-SUFFIX,img.manomano.fr  # ManoMano 商品图像域
 DOMAIN-SUFFIX,api.manomano.fr  # ManoMano API 接口调用
@@ -2139,7 +1986,6 @@ DOMAIN-SUFFIX,api.manomano.fr  # ManoMano API 接口调用
 # > Tokopedia 印尼电商平台相关域名
 
 DOMAIN-SUFFIX,tokopedia.com  # Tokopedia 主站域名
-DOMAIN-SUFFIX,www.tokopedia.com  # Tokopedia 官网首页与用户中心
 DOMAIN-SUFFIX,accounts.tokopedia.com  # Tokopedia 登录与账户认证服务
 DOMAIN-SUFFIX,ecs.tokopedia.net  # Tokopedia CDN 与静态资源分发服务
 DOMAIN-SUFFIX,images.tokopedia.net  # Tokopedia 商品图片加载域
@@ -2148,7 +1994,6 @@ DOMAIN-SUFFIX,api.tokopedia.com  # Tokopedia 移动端与网页接口
 # > Wildberries 俄罗斯电商平台相关域名
 
 DOMAIN-SUFFIX,wildberries.ru  # Wildberries 俄罗斯主站
-DOMAIN-SUFFIX,www.wildberries.ru  # Wildberries 主页与账户服务
 DOMAIN-SUFFIX,static.wbstatic.net  # Wildberries 静态资源域（JS/CSS）
 DOMAIN-SUFFIX,img.wbstatic.net  # Wildberries 商品图像 CDN 加载域
 DOMAIN-SUFFIX,api.wildberries.ru  # Wildberries 接口服务
@@ -2156,7 +2001,6 @@ DOMAIN-SUFFIX,api.wildberries.ru  # Wildberries 接口服务
 # > OTTO 德国家居百货类电商平台相关域名
 
 DOMAIN-SUFFIX,otto.de  # OTTO 德国主站
-DOMAIN-SUFFIX,www.otto.de  # OTTO 官网首页
 DOMAIN-SUFFIX,shopping-service.otto.de  # OTTO 用户购物与订单服务接口
 DOMAIN-SUFFIX,static.otto.de  # OTTO 静态资源加载服务
 DOMAIN-SUFFIX,images.otto.de  # OTTO 商品图片加载 CDN
@@ -2164,7 +2008,6 @@ DOMAIN-SUFFIX,images.otto.de  # OTTO 商品图片加载 CDN
 # > Cdiscount 法国电商平台相关域名
 
 DOMAIN-SUFFIX,cdiscount.com  # Cdiscount 法国主站
-DOMAIN-SUFFIX,www.cdiscount.com  # Cdiscount 官网首页
 DOMAIN-SUFFIX,clients.cdiscount.com  # Cdiscount 客户服务与订单接口
 DOMAIN-SUFFIX,img.cdiscount.com  # Cdiscount 商品图像 CDN 加载域
 DOMAIN-SUFFIX,static.cdiscount.com  # Cdiscount 静态资源加载域
@@ -2172,7 +2015,6 @@ DOMAIN-SUFFIX,static.cdiscount.com  # Cdiscount 静态资源加载域
 # > Takealot 南非跨境电商平台相关域名
 
 DOMAIN-SUFFIX,takealot.com  # Takealot 南非主站域名
-DOMAIN-SUFFIX,www.takealot.com  # Takealot 官网首页与用户服务
 DOMAIN-SUFFIX,static.takealot.com  # Takealot 静态资源服务域
 DOMAIN-SUFFIX,media.takealot.com  # Takealot 商品图像 CDN 加载
 DOMAIN-SUFFIX,api.takealot.com  # Takealot 移动端/网页 API 接口
@@ -2198,7 +2040,6 @@ DOMAIN-SUFFIX,pubapps.uspto.gov  # USPTO 申请状态与资料公开查询系统
 # > Blibli 印尼电商平台相关域名
 
 DOMAIN-SUFFIX,blibli.com  # Blibli 印尼主站
-DOMAIN-SUFFIX,www.blibli.com  # Blibli 官网首页与用户服务
 DOMAIN-SUFFIX,merchant.blibli.com  # Blibli 商家管理后台
 DOMAIN-SUFFIX,static.blibli.com  # Blibli 静态资源服务域
 DOMAIN-SUFFIX,img.blibli.com  # Blibli 商品图片加载 CDN
@@ -2207,14 +2048,12 @@ DOMAIN-SUFFIX,api.blibli.com  # Blibli API 接口服务
 # > BOL 荷兰电商平台相关域名
 
 DOMAIN-SUFFIX,bol.com  # BOL 荷兰主站
-DOMAIN-SUFFIX,www.bol.com  # BOL 官网首页与账户服务
 DOMAIN-SUFFIX,media.s-bol.com  # BOL 商品图像与静态资源 CDN
 DOMAIN-SUFFIX,api.bol.com  # BOL API 接口服务
 
 # > Wayfair 美国家居电商平台相关域名
 
 DOMAIN-SUFFIX,wayfair.com  # Wayfair 美国主站
-DOMAIN-SUFFIX,www.wayfair.com  # Wayfair 官网首页与用户服务
 DOMAIN-SUFFIX,s.wayfair.com  # Wayfair 静态资源加载服务
 DOMAIN-SUFFIX,c.wayfair.com  # Wayfair 跟踪与转化监控服务
 DOMAIN-SUFFIX,img.wfrcdn.com  # Wayfair 商品图像 CDN
@@ -2222,14 +2061,12 @@ DOMAIN-SUFFIX,img.wfrcdn.com  # Wayfair 商品图像 CDN
 # > Kaufland 德国电商平台相关域名
 
 DOMAIN-SUFFIX,kaufland.de  # Kaufland 德国主站
-DOMAIN-SUFFIX,www.kaufland.de  # Kaufland 官网首页与购物服务
 DOMAIN-SUFFIX,static.kaufland.de  # Kaufland 静态资源加载服务
 DOMAIN-SUFFIX,media.kaufland.de  # Kaufland 商品图像 CDN 域名
 
 # > 法国乐天电商平台（Rakuten France）相关域名
 
 DOMAIN-SUFFIX,rakuten.fr  # Rakuten 法国站主域名
-DOMAIN-SUFFIX,www.rakuten.fr  # Rakuten 法国官网首页
 DOMAIN-SUFFIX,api.rakuten.tv  # Rakuten 相关 API 接口服务
 DOMAIN-SUFFIX,img.rakuten.tv  # Rakuten 商品与视频资源图像加载域
 
@@ -2237,7 +2074,6 @@ DOMAIN-SUFFIX,img.rakuten.tv  # Rakuten 商品与视频资源图像加载域
 
 DOMAIN-SUFFIX,mercari.com  # Mercari 全球跳转入口
 DOMAIN-SUFFIX,mercari.jp  # Mercari 日本主站
-DOMAIN-SUFFIX,www.mercari.jp  # Mercari 日本官网首页与用户服务
 DOMAIN-SUFFIX,static.mercdn.net  # Mercari 静态资源加载服务
 DOMAIN-SUFFIX,media.mercdn.net  # Mercari 商品图片与媒体资源 CDN
 DOMAIN-SUFFIX,api.mercari.jp  # Mercari API 接口服务
@@ -2245,21 +2081,18 @@ DOMAIN-SUFFIX,api.mercari.jp  # Mercari API 接口服务
 # > 美国煤炉 Mercari US 平台相关域名
 
 DOMAIN-SUFFIX,mercari.com  # Mercari 全球主站（含美国站入口）
-DOMAIN-SUFFIX,www.mercari.com  # Mercari 美国站官网
 DOMAIN-SUFFIX,api.mercari.com  # Mercari 美国 API 服务
 DOMAIN-SUFFIX,img.mercari.com  # Mercari 商品图片加载域
 
 # > 新蛋中国跨境电商平台相关域名
 
 DOMAIN-SUFFIX,newegg.cn  # 新蛋中国主站
-DOMAIN-SUFFIX,www.newegg.cn  # 新蛋中国官网首页与用户服务
 DOMAIN-SUFFIX,img.newegg.cn  # 新蛋中国商品图像加载域
 DOMAIN-SUFFIX,static.newegg.cn  # 新蛋中国静态资源加载服务
 
 # > Hepsiburada 土耳其电商平台相关域名
 
 DOMAIN-SUFFIX,hepsiburada.com  # Hepsiburada 主站域名（含购物服务与商家后台）
-DOMAIN-SUFFIX,www.hepsiburada.com  # Hepsiburada 官网首页与账户服务
 DOMAIN-SUFFIX,img.hepsiburada.net  # Hepsiburada 商品图像 CDN 加载域
 DOMAIN-SUFFIX,static.hepsiburada.net  # Hepsiburada 静态资源加载域（JS/CSS 等）
 DOMAIN-SUFFIX,api.hepsiburada.com  # Hepsiburada API 接口服务
@@ -2267,7 +2100,6 @@ DOMAIN-SUFFIX,api.hepsiburada.com  # Hepsiburada API 接口服务
 # > Miravia 西班牙时尚电商平台相关域名（阿里巴巴集团）
 
 DOMAIN-SUFFIX,miravia.es  # Miravia 西班牙主站域名
-DOMAIN-SUFFIX,www.miravia.es  # Miravia 官网首页与用户服务
 DOMAIN-SUFFIX,api.miravia.es  # Miravia API 接口服务（含商品与账户相关）
 DOMAIN-SUFFIX,img.miravia.es  # Miravia 商品图片与媒体资源加载
 DOMAIN-SUFFIX,static.miravia.es  # Miravia 静态资源加载（样式、脚本等）
@@ -2275,7 +2107,6 @@ DOMAIN-SUFFIX,static.miravia.es  # Miravia 静态资源加载（样式、脚本�
 # > ManoMano 法国家居与建材电商平台相关域名
 
 DOMAIN-SUFFIX,manomano.fr  # ManoMano 法国站主域名
-DOMAIN-SUFFIX,www.manomano.fr  # ManoMano 官网首页与购物服务
 DOMAIN-SUFFIX,img.manomano.com  # ManoMano 商品图像加载 CDN
 DOMAIN-SUFFIX,static.manomano.com  # ManoMano 静态资源加载域（脚本/样式等）
 DOMAIN-SUFFIX,api.manomano.com  # ManoMano API 接口服务
@@ -2283,7 +2114,6 @@ DOMAIN-SUFFIX,api.manomano.com  # ManoMano API 接口服务
 # > 賀佰狮 Hypebeast 潮流电商平台相关域名（香港）
 
 DOMAIN-SUFFIX,hbx.com  # HBX 贺佰狮主站（Hypebeast 电商平台）
-DOMAIN-SUFFIX,www.hbx.com  # HBX 官网首页与商品服务
 DOMAIN-SUFFIX,static.hbxcdn.com  # HBX 静态资源与图像 CDN 加载域
 DOMAIN-SUFFIX,img.hbxcdn.com  # HBX 商品图片资源加载域
 DOMAIN-SUFFIX,api.hbx.com  # HBX API 服务接口（用户/订单/商品）
@@ -2291,7 +2121,6 @@ DOMAIN-SUFFIX,api.hbx.com  # HBX API 服务接口（用户/订单/商品）
 # > 店匠 Shoplazza 跨境建站平台相关域名（SaaS 独立站建站服务商）
 
 DOMAIN-SUFFIX,shoplazza.com  # 店匠 Shoplazza 官方主域名
-DOMAIN-SUFFIX,www.shoplazza.com  # 店匠官网首页与解决方案入口
 DOMAIN-SUFFIX,myshoplazza.com  # 店匠商户后台与店铺绑定域名
 DOMAIN-SUFFIX,cdn.shoplazza.com  # 店匠静态资源 CDN（JS/CSS/图片等加载）
 DOMAIN-SUFFIX,api.shoplazza.com  # 店匠 SaaS 服务相关 API 接口
@@ -2300,7 +2129,6 @@ DOMAIN-SUFFIX,img.shoplazza.com  # 店匠商品图片与图像加载服务
 # > Quora 问答平台相关域名（全球知名知识问答与内容分享社区）
 
 DOMAIN-SUFFIX,quora.com  # Quora 主域名，用户提问与回答的核心平台
-DOMAIN-SUFFIX,www.quora.com  # Quora 官网主页入口
 DOMAIN-SUFFIX,ads.quora.com  # Quora 广告投放与分析域名（用于追踪与转化统计）
 DOMAIN-SUFFIX,cdn.quora.com  # Quora 静态资源 CDN（JS、CSS、字体等加载）
 DOMAIN-SUFFIX,log.quora.com  # Quora 日志与用户行为收集服务（用于内部分析）
@@ -2309,7 +2137,6 @@ DOMAIN-SUFFIX,q.quora.com  # Quora 子域重定向与内容加载节点
 # > Tumblr 博客社交平台相关域名（轻博客 + 内容创作型社区）
 
 DOMAIN-SUFFIX,tumblr.com  # Tumblr 主站域名，博客内容展示与用户主页入口
-DOMAIN-SUFFIX,www.tumblr.com  # Tumblr 官网首页与发现频道
 DOMAIN-SUFFIX,media.tumblr.com  # Tumblr 媒体资源服务（图片、视频等加载）
 DOMAIN-SUFFIX,secure.tumblr.com  # Tumblr 登录与账户管理服务
 DOMAIN-SUFFIX,va.tumblr.com  # Tumblr 内容分发与访问控制子域
@@ -2331,8 +2158,7 @@ DOMAIN-SUFFIX,swx.cdn.skype.com  # Skype 静态资源与客户端加载域名
 
 # > MSN 微软新闻平台相关域名
 
-DOMAIN-SUFFIX,msn.com  # MSN 主域名，用于新闻聚合与服务分发  
-DOMAIN-SUFFIX,www.msn.com  # MSN 网站首页入口与内容服务  
+DOMAIN-SUFFIX,msn.com  # MSN 主域名，用于新闻聚合与服务分发   
 DOMAIN-SUFFIX,assets.msn.com  # MSN 静态资源加载域名（JS/CSS/图片等）  
 DOMAIN-SUFFIX,msn.cn  # MSN 中国区主域名，提供本地化新闻内容  
 DOMAIN-SUFFIX,edge.msn.com  # Edge 浏览器默认首页及资讯推送服务  
@@ -2643,8 +2469,7 @@ DOMAIN-SUFFIX,bingpreview.com  # Bing 网页预览与抓取服务域名，用于
 # > RuTracker 俄罗斯大型 BT 种子分享平台相关域名
 
 DOMAIN-SUFFIX,rutracker.org  # RuTracker 主域名，俄罗斯语种类最大 BT 种子追踪器  
-DOMAIN-SUFFIX,rutracker.net  # RuTracker 备用域名或镜像，用于种子索引与下载  
-DOMAIN-SUFFIX,www.rutracker.org  # RuTracker 主站入口子域  
+DOMAIN-SUFFIX,rutracker.net  # RuTracker 备用域名或镜像，用于种子索引与下载   
 DOMAIN-SUFFIX,static.rutracker.org  # RuTracker 静态资源与广告加载域名  
 DOMAIN-SUFFIX,mail.rutracker.org  # RuTracker 邮件或用户通知服务域名  
 
@@ -2658,8 +2483,7 @@ DOMAIN-SUFFIX,b‑ok.cc      # Z‑Library／BookFi 系列镜像域名，用于�
 
 # > PlayGround.ru 俄罗斯游戏资讯与资源平台相关域名
 
-DOMAIN-SUFFIX,playground.ru  # PlayGround.ru 俄罗斯语电子游戏新闻、攻略与资源平台  
-DOMAIN-SUFFIX,www.playground.ru  # PlayGround.ru 主站入口子域，用于内容访问与论坛互动  
+DOMAIN-SUFFIX,playground.ru  # PlayGround.ru 俄罗斯语电子游戏新闻、攻略与资源平台   
 DOMAIN-SUFFIX,static.playground.ru  # PlayGround.ru 静态资源加载域名，用于图像、脚本、样式表  
 
 # > 4PDA 俄罗斯安卓设备论坛与软件资源平台相关域名
@@ -2787,13 +2611,11 @@ DOMAIN-SUFFIX,eec.eaeunion.org  # 欧亚经济联盟官方网站主域名，用�
 # > Avito 俄罗斯大型分类广告平台相关域名  
 
 DOMAIN-SUFFIX,avito.ru  # Avito 主域名，用于俄罗斯地区商品、车辆、房产、服务等分类广告发布与浏览  
-DOMAIN-SUFFIX,www.avito.ru  # Avito 主站入口子域，用于普通用户访问与浏览界面  
 DOMAIN-SUFFIX,static.avito.ru  # Avito 静态资源加载域名，用于图片、脚本与样式文件  
 DOMAIN-SUFFIX,ads.avito.ru  # Avito 广告服务子域，用于平台内广告投放与展示  
 
 # > RuTube 俄罗斯主流视频平台相关域名  
 DOMAIN-SUFFIX,rutube.ru  # RuTube 主站域名，用于俄罗斯地区在线视频托管与播放服务  
-DOMAIN-SUFFIX,www.rutube.ru  # RuTube 入口子域，用于用户界面访问  
 DOMAIN-SUFFIX,static.rutube.ru  # RuTube 静态资源域名，用于脚本、图片、样式加载  
 DOMAIN-SUFFIX,api.rutube.ru  # RuTube API 接口域名，用于服务调用与数据交互  
 
@@ -2944,7 +2766,7 @@ DOMAIN-SUFFIX,choosealicense.com # GitHub 官方开源协议选型指南站点�
 # >> 安全工具 / 加密服务（Security Tools / Encryption Services）
 
 DOMAIN-SUFFIX,gpgtools.com # macOS 第三方 GPG 加密工具官网，用于下载、密钥同步与更新服务
-DOMAIN-SUFFIX,www.wireshark.org # Wireshark 官方网站，用于网络抓包工具下载、协议文档与社区支持等服务
+DOMAIN-SUFFIX,wireshark.org # Wireshark 官方网站，用于网络抓包工具下载、协议文档与社区支持等服务
 DOMAIN-SUFFIX,2.na.dl.wireshark.org # Wireshark 下载节点，用于软件下载与版本更新
 DOMAIN-SUFFIX,sw-update.obdev.at  # Little Snitch 更新服务域名，用于版本检查与更新下载
 DOMAIN-SUFFIX,geolocation.obdev.at # Little Snitch 地理定位服务，用于地图定位与连接判断
@@ -3071,7 +2893,6 @@ DOMAIN-SUFFIX,cdn.intuitibits.com  # Intuitibits 静态资源域名，用于加�
 # > Couleurs 色彩辅助工具（macOS）
 
 DOMAIN-SUFFIX,couleursapp.com # Couleurs 官方网站，用于色彩选择与颜色值转换工具展示与下载
-DOMAIN-SUFFIX,www.couleursapp.com # Couleurs 网站主域名，提供产品介绍与更新信息
 
 # > Lizhi Store 在线小工具平台
 
@@ -3302,7 +3123,6 @@ DOMAIN-SUFFIX,linux.do # Linux DO 社区主域名，用于论坛交流与技�
 # > Hostloc 相关域名
 
 DOMAIN-SUFFIX,hostloc.com # Hostloc 主站域名，用于全球主机交流论坛与 VPS/服务器主题讨论
-DOMAIN-SUFFIX,www.hostloc.com # Hostloc 主站子域，用于论坛网页入口与用户互动页面
 IP-CIDR,103.181.165.251 # Hostloc 主站服务器 IP，用于论坛主页面与访问服务
 
 # > mitmproxy 相关域名
@@ -3381,7 +3201,6 @@ DOMAIN-SUFFIX,letshost.pw # 搬瓦工关联销售域名，用于部分促销活�
 # > Vultr 服务域名
 
 DOMAIN-SUFFIX,vultr.com # Vultr 官方主域名，用于账户注册、登录与面板访问
-DOMAIN-SUFFIX,www.vultr.com # Vultr 官网前端展示域名（重定向主站）
 DOMAIN-SUFFIX,api.vultr.com # Vultr 公共 API 接口，用于资源管理、实例创建与自动部署
 DOMAIN-SUFFIX,metadata.vultr.com # Vultr 元数据服务域名，用于实例初始化与配置（cloud-init）
 DOMAIN-SUFFIX,console.vultr.com # Vultr 控制台管理界面域名，提供图形化控制与登录台操作
@@ -3394,7 +3213,6 @@ DOMAIN-SUFFIX,status.vultr.com # Vultr 系统状态监控页面域名
 # > Linode 服务域名
 
 DOMAIN-SUFFIX,linode.com # Linode 主官网与账户面板，用于登录、购买、控制台管理等核心服务
-DOMAIN-SUFFIX,www.linode.com # Linode 官网首页域名（常作入口页跳转）
 DOMAIN-SUFFIX,api.linode.com # Linode 公共 API 接口，用于自动部署、VPS 资源操作等场景
 DOMAIN-SUFFIX,cloud.linode.com # Linode 控制面板前端域名，提供图形化控制台与实例管理
 DOMAIN-SUFFIX,login.linode.com # Linode 登录验证与账户管理子域，用于身份认证与多因素登录
@@ -3410,7 +3228,6 @@ DOMAIN-SUFFIX,linodeusercontent.com # Linode 用户上传内容托管域名（�
 # > DigitalOcean 服务域名
 
 DOMAIN-SUFFIX,digitalocean.com # DigitalOcean 官网与账户管理面板，主入口域名
-DOMAIN-SUFFIX,www.digitalocean.com # DigitalOcean 官网首页域名，用于跳转与营销页
 DOMAIN-SUFFIX,cloud.digitalocean.com # 控制台域名，提供 Droplets、Kubernetes、存储等服务管理
 DOMAIN-SUFFIX,api.digitalocean.com # DigitalOcean API 服务入口，用于 CLI 与自动化部署
 DOMAIN-SUFFIX,metadata.digitalocean.com # 实例元数据服务域名，Droplet 云初始化过程使用
@@ -3901,7 +3718,6 @@ DOMAIN-SUFFIX,cdn.limiao.link # 狸猫加速静态资源域名，用于控制台
 # > KoCloud 机场服务域名（Ko 云）
 
 DOMAIN-SUFFIX,kocloud.cc # KoCloud 官网主域名，用于用户注册、登录与服务入口  
-DOMAIN-SUFFIX,www.kocloud.cc # KoCloud 官网子域，用于跳转首页与兼容旧客户端入口  
 DOMAIN-SUFFIX,api.kocloud.cc # KoCloud 接口服务域名，用于节点信息获取与账户管理  
 DOMAIN-SUFFIX,sub.kocloud.cc # KoCloud 节点订阅接口域名，适配 Surge / Clash / Shadowrocket  
 DOMAIN-SUFFIX,cdn.kocloud.cc # KoCloud 静态资源 CDN 域名，用于控制台样式与前端加载  
@@ -3909,8 +3725,7 @@ DOMAIN-SUFFIX,status.kocloud.cc # KoCloud 节点监控与测速状态页面
 
 # > ClashMetaX 机场服务域名（原 ClashX Meta 项目）
 
-DOMAIN-SUFFIX,clashmeta.net # ClashMetaX 主域名，用于用户访问官网与注册登录服务  
-DOMAIN-SUFFIX,www.clashmeta.net # ClashMetaX 官网子域，用于主站兼容访问  
+DOMAIN-SUFFIX,clashmeta.net # ClashMetaX 主域名，用于用户访问官网与注册登录服务   
 DOMAIN-SUFFIX,api.clashmeta.net # ClashMetaX 用户接口服务域名，用于账户信息与节点数据管理  
 DOMAIN-SUFFIX,sub.clashmeta.net # ClashMetaX 节点订阅服务接口，适配 Clash / Surge 等客户端  
 DOMAIN-SUFFIX,status.clashmeta.net # ClashMetaX 节点状态监控页面域名，用于测速与节点可用性展示  
@@ -3919,7 +3734,6 @@ DOMAIN-SUFFIX,cdn.clashmeta.net # ClashMetaX 静态资源 CDN，用于前端样�
 # > BoostNet 加速器机场服务域名
 
 DOMAIN-SUFFIX,boostnet.cloud # BoostNet 主站域名，用于官网访问、注册与账户管理  
-DOMAIN-SUFFIX,www.boostnet.cloud # BoostNet 官网兼容域名，跳转至主页面  
 DOMAIN-SUFFIX,api.boostnet.cloud # BoostNet API 接口域名，用于账户登录、订阅生成与后端通信  
 DOMAIN-SUFFIX,cdn.boostnet.cloud # BoostNet 静态资源 CDN，用于前端样式与 JS 资源加载  
 DOMAIN-SUFFIX,sub.boostnet.cloud # BoostNet 节点订阅服务域名，适配 Surge / Clash 等客户端  
@@ -3928,7 +3742,6 @@ DOMAIN-SUFFIX,status.boostnet.cloud # BoostNet 状态页域名，用于节点在
 # > 悠兔加速器（YouToo）机场服务域名
 
 DOMAIN-SUFFIX,youtoo.run # 悠兔加速器主站域名，用于官网访问与用户登录  
-DOMAIN-SUFFIX,www.youtoo.run # 悠兔加速器官网兼容域名，跳转至主页面  
 DOMAIN-SUFFIX,api.youtoo.run # 悠兔 API 接口域名，用于账户验证、订阅管理与节点请求  
 DOMAIN-SUFFIX,cdn.youtoo.run # 悠兔前端资源 CDN，加速样式表与静态文件加载  
 DOMAIN-SUFFIX,sub.youtoo.run # 悠兔订阅服务域名，适配 Surge、Clash 等客户端导入  
@@ -3937,7 +3750,6 @@ DOMAIN-SUFFIX,status.youtoo.run # 悠兔节点状态监控与公告服务域名
 # > WgetCloud 加速服务域名（WgetCloud Accelerator）
 
 DOMAIN-SUFFIX,wgetcloud.ltd # WgetCloud 主站域名，用于用户注册、购买与仪表盘访问  
-DOMAIN-SUFFIX,www.wgetcloud.ltd # WgetCloud 兼容访问域名，跳转至官网主页  
 DOMAIN-SUFFIX,cdn.jsdelivr.net # 前端样式与脚本加载所依赖的 CDN（第三方资源）  
 DOMAIN-SUFFIX,sub.wgetcloud.ltd # WgetCloud 订阅服务接口，用于 Clash / Surge / Shadowrocket 客户端导入订阅  
 DOMAIN-SUFFIX,status.wgetcloud.ltd # WgetCloud 节点状态与网络公告服务域名  
@@ -3970,7 +3782,6 @@ DOMAIN-SUFFIX,cdn.kycloud.xyz # Kycloud 静态资源 CDN 域名，用于前端�
 # > 海獭加速服务域名（Haitun / OtterNet）
 
 DOMAIN-SUFFIX,haitun.io # 海獭加速主站域名，用于官网访问、用户中心与节点订阅  
-DOMAIN-SUFFIX,www.haitun.io # 海獭加速主站别名域名，用于访问入口与跳转  
 DOMAIN-SUFFIX,api.haitun.io # 海獭加速 API 接口域名，用于用户操作与信息交互  
 DOMAIN-SUFFIX,sub.haitun.io # 海獭加速订阅链接接口域名，用于 Clash/Surge 等客户端导入配置  
 DOMAIN-SUFFIX,cdn.haitun.io # 海獭加速静态资源 CDN，用于加载前端页面与图标等资源  
@@ -3979,7 +3790,6 @@ DOMAIN-SUFFIX,status.haitun.io # 海獭加速节点状态检测页面域名，�
 # > 龙猫云服务域名（TotoroCloud）
 
 DOMAIN-SUFFIX,totoro-cloud.com # 龙猫云主站域名，用于官网访问、用户注册与购买服务  
-DOMAIN-SUFFIX,www.totoro-cloud.com # 龙猫云主站别名域名，支持访问入口跳转  
 DOMAIN-SUFFIX,sub.totoro-cloud.com # 龙猫云订阅链接接口域名，用于客户端导入 Clash / Surge 配置  
 DOMAIN-SUFFIX,status.totoro-cloud.com # 龙猫云节点状态监测页面域名，用于查看各线路运行状态  
 DOMAIN-SUFFIX,cdn.totoro-cloud.com # 龙猫云静态资源 CDN，用于加载前端界面与图标等内容  
@@ -3988,7 +3798,6 @@ DOMAIN-SUFFIX,api.totoro-cloud.com # 龙猫云 API 接口域名，用于用户�
 # > 老猫云服务域名（OldCat Cloud）
 
 DOMAIN-SUFFIX,laocat.net # 老猫云主站域名，用于用户注册、登录与购买服务  
-DOMAIN-SUFFIX,www.laocat.net # 老猫云主站别名域名，支持多入口访问与跳转  
 DOMAIN-SUFFIX,sub.laocat.net # 老猫云订阅接口域名，用于客户端导入 Surge / Clash 配置  
 DOMAIN-SUFFIX,cdn.laocat.net # 老猫云静态资源 CDN，用于加载图标、样式与控制台界面  
 DOMAIN-SUFFIX,status.laocat.net # 老猫云节点状态监测页面域名，用于查看服务运行状态与线路健康  
@@ -3997,7 +3806,6 @@ DOMAIN-SUFFIX,api.laocat.net # 老猫云 API 接口域名，用于用户中心�
 # > STC-SERVER 服务域名
 
 DOMAIN-SUFFIX,stcserver.net # STC-SERVER 主站域名，用于官网访问、用户登录与服务订阅  
-DOMAIN-SUFFIX,www.stcserver.net # STC-SERVER 主站别名域名，用于多线路访问与入口备份  
 DOMAIN-SUFFIX,sub.stcserver.net # STC-SERVER 节点订阅接口域名，用于导入 Surge / Clash 等客户端配置  
 DOMAIN-SUFFIX,status.stcserver.net # STC-SERVER 节点状态监测页面域名，用于查看各地区线路延迟与可用性  
 DOMAIN-SUFFIX,cdn.stcserver.net # STC-SERVER 静态资源 CDN 域名，用于加载控制面板资源与图标界面  
@@ -4005,8 +3813,7 @@ DOMAIN-SUFFIX,api.stcserver.net # STC-SERVER API 接口域名，用于控制台�
 
 # > E-IX 服务域名
 
-DOMAIN-SUFFIX,e-ix.net # E-IX 主站域名，用于官网访问、用户注册与登录  
-DOMAIN-SUFFIX,www.e-ix.net # E-IX 主站别名域名，用于入口分流与访问容灾  
+DOMAIN-SUFFIX,e-ix.net # E-IX 主站域名，用于官网访问、用户注册与登录    
 DOMAIN-SUFFIX,sub.e-ix.net # E-IX 节点订阅接口域名，用于导入 Surge / Clash / Shadowrocket 等客户端配置  
 DOMAIN-SUFFIX,status.e-ix.net # E-IX 节点状态页面，用于实时查看节点可用性与测速信息  
 DOMAIN-SUFFIX,cdn.e-ix.net # E-IX 静态资源 CDN 域名，用于加载仪表盘、图标与公告界面  
@@ -4015,7 +3822,6 @@ DOMAIN-SUFFIX,api.e-ix.net # E-IX API 接口域名，用于客户端与控制台
 # > 万达云服务域名（WandCloud）
 
 DOMAIN-SUFFIX,wandcloud.net # 万达云主站域名，用于官网访问、账户管理与服务订阅  
-DOMAIN-SUFFIX,www.wandcloud.net # 万达云主站别名域名，用于多入口访问与负载均衡  
 DOMAIN-SUFFIX,cdn.wandcloud.net # 万达云前端资源 CDN 域名，用于加载控制面板界面与公告组件  
 DOMAIN-SUFFIX,sub.wandcloud.net # 万达云订阅链接域名，用于导入 Clash / Surge 等客户端配置  
 DOMAIN-SUFFIX,status.wandcloud.net # 万达云节点状态页面，用于展示实时连通性与服务器负载情况  
@@ -4102,7 +3908,6 @@ DOMAIN-SUFFIX,mozilla.net # Mozilla CDN 域名，用于分发更新与浏览器�
 # > Meetup 活动社交平台域名（Meetup.com）
 
 DOMAIN-SUFFIX,meetup.com # Meetup 主域名，用于组织线下聚会、兴趣小组与本地活动社交平台服务  
-DOMAIN-SUFFIX,www.meetup.com # Meetup 主站入口域名，提供活动浏览、群组加入、账户注册与管理功能  
 
 # > 通信监管与基础网络服务相关域名
 

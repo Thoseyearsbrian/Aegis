@@ -61,8 +61,7 @@ DOMAIN-SUFFIX,doubleclick-cn.net # Google DoubleClick 广告域（中国镜像�
 DOMAIN-SUFFIX,2mdn.net # Google DoubleClick 广告媒体资源加载主域名  
 DOMAIN-SUFFIX,fls.doubleclick.net # Google DoubleClick 广告域名,用于广告点击记录与追踪分析
 DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告同步域名，用于跨站追踪与广告识别匹配
-DOMAIN-SUFFIX,googletagservices.com # Google Tag Services 广告标签管理平台域名，用于广告投放策略匹配与标签调用
-DOMAIN-SUFFIX,www.googletagservices.com # Google 标签服务主站入口，用于加载广告资源与控制广告位策略脚本
+DOMAIN-SUFFIX,googletagservices.com # Google 标签服务主站入口，用于加载广告资源与控制广告位策略脚本
 IP-CIDR,172.217.194.149 # DoubleClick 广告服务 IP，用于广告内容加载与用户行为追踪
 IP-CIDR,172.217.194.148 # Google DoubleClick 广告服务 IP（备用节点），用于广告内容加载与行为识别
 

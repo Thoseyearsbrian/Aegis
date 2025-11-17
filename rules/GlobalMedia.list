@@ -5,7 +5,7 @@
 # - 说明：YouTube 域名已迁移至 Google.list 统一管理
 # - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-04
+# - 更新时间：2025-11-17
 
 # > Amazon Prime Video
 
@@ -53,7 +53,6 @@ IP-CIDR,52.89.0.0/16 # Hulu 播放与资源请求服务段（AWS 美国区域）
 # > HBO Max / Max 视频平台相关域名
 
 DOMAIN-SUFFIX,hbomax.com # HBO Max 主站与账户服务（含订阅、登录、用户管理等）
-DOMAIN-SUFFIX,www.hbomax.com # HBO Max 网页入口域名（主页、视频导航、播放接口等）
 DOMAIN-SUFFIX,max.com # Max 品牌重命名后主域名（前身为 HBO Max，现归属 Warner Bros. Discovery）
 DOMAIN-SUFFIX,play.max.com # Max 视频播放接口主域名（直播与点播播放入口）
 DOMAIN-SUFFIX,static-max.adobe.io # Max 使用的 Adobe 静态资源加载域（字体、样式、配置等）
@@ -67,7 +66,6 @@ IP-CIDR,149.174.0.0/16 # Max / HBO 主力内容服务段（CDN / 播放流传输
 # > Paramount+ 派拉蒙流媒体平台相关域名
 
 DOMAIN-SUFFIX,paramountplus.com # Paramount+ 主站域名（节目浏览、订阅、账户管理等）
-DOMAIN-SUFFIX,www.paramountplus.com # 主站首页与播放入口（网页访问）
 DOMAIN-SUFFIX,prod-api.viacomcbs.com # Paramount+ 内容服务 API（由 ViacomCBS 维护）
 DOMAIN-SUFFIX,cbsi.com # CBS Interactive 服务平台（登录验证与播放模块）
 DOMAIN-SUFFIX,cbsivideo.com # CBS 视频播放子域（视频流与 CDN 分发）
@@ -117,7 +115,6 @@ DOMAIN-SUFFIX,foxdigitaldev.com # Fox 旗下 Tubi 平台的开发与测试服务
 # > Peacock TV 流媒体平台相关域名
 
 DOMAIN-SUFFIX,peacocktv.com # Peacock TV 主站域名（视频播放与会员功能）
-DOMAIN-SUFFIX,www.peacocktv.com # Peacock TV 官网首页入口（登录、导航）
 DOMAIN-SUFFIX,api.peacocktv.com # Peacock TV API 服务接口（播放、用户验证）
 DOMAIN-SUFFIX,streaming.peacocktv.com # Peacock 视频流服务子域（CDN/内容分发）
 DOMAIN-SUFFIX,peacock.cloud-nbcuni.com # NBCU 云服务节点（内容传输与存储）
@@ -126,7 +123,6 @@ DOMAIN-SUFFIX,peacock-prod.s3.amazonaws.com # Peacock AWS 内容资源托管（�
 # > DramaBox 相关域名
 
 DOMAIN-SUFFIX,dramaboxapp.com # DramaBox 官方主站（剧集播放、首页访问等）
-DOMAIN-SUFFIX,www.dramaboxapp.com # DramaBox 主站入口域名
 DOMAIN-SUFFIX,api.dramaboxapp.com # DramaBox API 接口（内容数据、用户请求等）
 DOMAIN-SUFFIX,cdn.dramaboxapp.com # 静态资源与剧集内容 CDN 分发域
 

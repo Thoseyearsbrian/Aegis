@@ -783,8 +783,7 @@ DOMAIN-SUFFIX,guojianchina.com # 国家政务服务平台相关解析与跳转�
 DOMAIN-SUFFIX,gjzwfw.gov.cn # 国家政务服务平台主域名（国务院主导）  
 DOMAIN-SUFFIX,api.gjzwfw.gov.cn # 国家政务服务接口域名，涉及统一身份认证与办事接口  
 DOMAIN-SUFFIX,sso.gjzwfw.gov.cn # 国家政务平台统一身份登录系统接口  
-DOMAIN-SUFFIX,static.gjzwfw.gov.cn # 国家政务平台静态资源加载域名  
-DOMAIN-SUFFIX,www.gjzwfw.gov.cn # 国家政务服务主站入口，提供政务办事与政策查询  
+DOMAIN-SUFFIX,static.gjzwfw.gov.cn # 国家政务平台静态资源加载域名   
 DOMAIN-SUFFIX,peopleapp.com # 人民日报旗下平台，支持政务移动端接入  
 DOMAIN-SUFFIX,people.cn # 人民日报官网，政务类信息发布源站之一  
 
@@ -1224,7 +1223,6 @@ DOMAIN-SUFFIX,captcha.zhihu.com # 知乎安全验证与图形验证码服务接�
 # > 百度搜索主服务
 
 DOMAIN-SUFFIX,baidu.com # 百度主域名，搜索引擎与门户服务入口  
-DOMAIN-SUFFIX,www.baidu.com # 百度搜索主页面与结果页服务  
 DOMAIN-SUFFIX,s1.baidu.com # 百度静态资源加载域名  
 DOMAIN-SUFFIX,s2.baidu.com # 百度搜索图片等模块资源接口  
 DOMAIN-SUFFIX,s3.baidu.com # 百度云端内容与脚本服务  
@@ -1376,7 +1374,7 @@ DOMAIN-SUFFIX,crl.comodoca.com # Sectigo CRL 吊销列表服务（提供证书�
 
 # > Dianxiaomi（店小秘）相关服务域名
 
-DOMAIN-SUFFIX,www.dianxiaomi.com # 店小秘主站域名，涵盖跨境电商服务与平台功能接口  
+DOMAIN-SUFFIX,dianxiaomi.com # 店小秘主站域名，涵盖跨境电商服务与平台功能接口  
 DOMAIN-SUFFIX,b.cdnst.net # Dianxiaomi 使用的第三方 CDN 域名，用于加载后台静态资源与图标文件  
 DOMAIN-SUFFIX,login.dianxiaomi.com # 登录认证入口，用于用户身份验证与后台访问控制  
 DOMAIN-SUFFIX,erp.dianxiaomi.com # ERP 模块子域，承载订单、物流、发货、库存等业务操作  
@@ -1388,7 +1386,7 @@ DOMAIN-SUFFIX,img.dianxiaomi.com # 图像资源 CDN，主要用于平台上传�
 DOMAIN-SUFFIX,passport.yunexpress.cn # YunExpress 登录认证接口，用于用户身份验证与平台权限访问  
 DOMAIN-SUFFIX,openapi.yunexpress.com # YunExpress 开放 API 接口，用于物流数据查询与服务对接  
 DOMAIN-SUFFIX,track.yunexpress.com # YunExpress 物流轨迹追踪服务，用于查询包裹状态与派送进度  
-DOMAIN-SUFFIX,www.yunexpress.com # YunExpress 官方网站主站，用于平台展示与入口跳转  
+DOMAIN-SUFFIX,yunexpress.com # YunExpress 官方网站主站，用于平台展示与入口跳转  
 
 # > 今日头条服务域名（Toutiao / ByteDance News）
 
@@ -1409,7 +1407,6 @@ DOMAIN-SUFFIX,runoob.com # 菜鸟教程主域名，用于提供编程语言、�
 # > Iconfont 图标字体服务平台域名（iconfont.cn）
 
 DOMAIN-SUFFIX,iconfont.cn # 阿里巴巴 Iconfont 图标字体平台域名，用于网页图标托管、字体资源加载与设计师图标分发服务
-DOMAIN-SUFFIX,www.iconfont.cn # Iconfont 网站主站入口域名，提供图标搜索、字体管理与用户账户功能
 
 # > 爱知网盘资源搜索引擎域名（iizhi.cn）
 
