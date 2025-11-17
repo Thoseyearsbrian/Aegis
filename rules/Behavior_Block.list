@@ -81,6 +81,7 @@ DOMAIN-SUFFIX,data.bilibili.com # Bilibili 数据采集与分析接口，用于�
 # > 极验验证服务行为接口（GeeTest Behavior Services）
 
 DOMAIN-SUFFIX,gcaptcha4.geetest.com # 极验新版验证码接口域名，用于获取验证码验证令牌与验证交互逻辑 
+DOMAIN-SUFFIX,gcaptcha4.geevisit.com  # 极验验证接口子域，用于加载新版滑动验证码交互脚本与验证令牌（geevisit CDN 节点）
 
 # > Ecosyste.ms SDK 行为域名
 
