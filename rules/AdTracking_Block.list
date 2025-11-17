@@ -8286,4 +8286,3 @@ DOMAIN-SUFFIX,dafagood.com # 博彩推广相关子站／跳转域名
 DOMAIN-SUFFIX,eucasino.com # 欧洲博彩平台域名
 DOMAIN-SUFFIX,analytics.roku.com # Roku 分析系统，用于用户行为分析与广告反馈
 DOMAIN-SUFFIX,track.sr.roku.com # Roku 内嵌行为追踪接口（广告点击反馈）
-DOMAIN-SUFFIX,hm.baidu.com # 百度统计服务域名，用于用户行为追踪与页面访问统计，常见于嵌入型第三方统计脚本
