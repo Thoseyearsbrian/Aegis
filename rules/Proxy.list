@@ -4122,6 +4122,7 @@ DOMAIN-SUFFIX,jivosite.com # JivoChat 主站域名，用于官网展示、用户
 DOMAIN-SUFFIX,code-ya.jivosite.com # JivoChat 嵌入脚本加载域名，用于加载在线聊天窗口与初始化前端客服模块  
 DOMAIN-SUFFIX,widget-jivo.com # JivoChat 客服组件资源域名，用于渲染聊天窗口 UI 与用户侧组件加载  
 DOMAIN-SUFFIX,jivochat.com # JivoChat 国际通用入口域名，用于多语言平台与国际化客服管理系统  
+DOMAIN-SUFFIX,code.jivo.ru # JivoChat 脚本加载域名，用于嵌入在线客服组件与初始化聊天窗口  
 
 # > 其他 (暂未分类)
 
