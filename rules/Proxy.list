@@ -3951,6 +3951,15 @@ DOMAIN-SUFFIX,openvpn.asus.com # ASUS VPN 远程访问服务接口，适用于�
 DOMAIN-SUFFIX,router.asus.com # ASUS 路由器管理面板默认跳转域名（本地解析）
 IP-CIDR,103.10.4.0/24 # ASUS 官网与相关服务托管网段，包含部分 API 与 CDN 节点
 
+# > Monotype 字体资源与服务域名（fonts.com / fonts.net / myfonts.com）
+
+DOMAIN-SUFFIX,fonts.com # Monotype 主站域名，用于商用字体展示、购买与嵌入服务  
+DOMAIN-SUFFIX,fonts.net # Monotype 字体分发域名，常用于网页字体加载（Webfont）  
+DOMAIN-SUFFIX,cdn.fonts.net # Monotype 字体资源 CDN，用于网站嵌入字体文件加载  
+DOMAIN-SUFFIX,myfonts.com # Monotype 旗下 MyFonts 字体销售平台，提供字体授权与下载服务  
+DOMAIN-SUFFIX,fast.fonts.net # Monotype CDN 子域，提供加速字体分发服务，嵌入于多种商业网页中  
+DOMAIN-SUFFIX,cloud.typography.com # Monotype 子品牌服务，提供定制字体托管与加载平台  
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
