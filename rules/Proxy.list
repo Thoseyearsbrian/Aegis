@@ -3966,6 +3966,11 @@ DOMAIN-SUFFIX,akamaized.net # Akamai CDN 内容分发网络主域名，用于图
 DOMAIN-SUFFIX,edgekey.net # Akamai CDN 边缘节点域名，常用于内容分发与缓存加载  
 DOMAIN-SUFFIX,edgesuite.net # Akamai CDN 加速域名，常与大型平台集成用于资源加载  
 
+# > 在线平台资源加载域名（Lark / Vimeo）
+
+DOMAIN-SUFFIX,cdn.lrkt-in.com # Lark/Feishu 登录页使用的 CDN 域名，用于加载界面资源与样式文件  
+DOMAIN-SUFFIX,player.vimeo.com # Vimeo 嵌入式播放器域名，用于加载 iframe 视频播放器组件  
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）

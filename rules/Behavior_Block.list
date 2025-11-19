@@ -177,6 +177,7 @@ DOMAIN-SUFFIX,mobile.events.data.microsoft.com # VS Code / Windows / Office 遥�
 DOMAIN-SUFFIX,in.appcenter.ms  # Microsoft AppCenter 移动应用分析 SDK 域名，用于遥测统计与行为数据上报
 DOMAIN-SUFFIX,otelrules.svc.static.microsoft # 微软远程遥测服务域名，用于采集 OpenTelemetry 规则与应用遥测数据 
 DOMAIN-SUFFIX,officeci.azurewebsites.net # Microsoft Office Telemetry 数据上报接口，部署于 Azure Web 应用服务，可能用于 Beta/Insider 版本行为采集与测试反馈 
+DOMAIN-SUFFIX,clarity.ms # Microsoft Clarity 埋点追踪平台，用于用户行为记录与热图生成  
 
 # > 华为系行为分析与遥测接口
 

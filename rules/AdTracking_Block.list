@@ -4,7 +4,7 @@
 # - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
 # - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-11-17
+# - 更新时间：2025-11-19
 
 # > Apple广告追踪
 
@@ -129,6 +129,10 @@ DOMAIN-SUFFIX,gtrace.mediago.io # gtrace 数据上报域名，用于广告点击
 # > MeetSocial 广告追踪与转化统计域名（MeetSocial Tracking Services）
 
 DOMAIN-SUFFIX,tracking.meetsocial.com # tracking.meetsocial 广告追踪域名，用于用户行为分析与转化统计（隶属 MeetSocial 营销平台）
+
+# > Oktopost 广告行为追踪与内容分发平台域名（Oktopost）
+
+DOMAIN-SUFFIX,static.oktopost.com # Oktopost 静态脚本追踪域名，用于 B2B 广告内容加载与行为分析  
 
 # > 通用广告追踪域名（General Ad Tracking）
 
