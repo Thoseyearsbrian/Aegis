@@ -127,67 +127,91 @@ DOMAIN-SUFFIX,api.dramaboxapp.com # DramaBox API 接口（内容数据、用户�
 DOMAIN-SUFFIX,cdn.dramaboxapp.com # 静态资源与剧集内容 CDN 分发域
 
 # > Peacock
+
 DOMAIN-SUFFIX,peacocktv.com # NBC Peacock 流媒体服务
 
 # > Discovery+
+
 DOMAIN-SUFFIX,discoveryplus.com # Discovery+ 流媒体服务
 DOMAIN-SUFFIX,dnitv.com # Discovery 静态内容分发域
 
 # > Crunchyroll
+
 DOMAIN-SUFFIX,crunchyroll.com # Crunchyroll 日本动漫流媒体
 DOMAIN-SUFFIX,crunchyrollcdn.com # Crunchyroll CDN 静态服务
 
 # > U-NEXT（日本）
+
 DOMAIN-SUFFIX,unext.jp # U-NEXT 日本视频平台
 
 # > AbemaTV（日本）
+
 DOMAIN-SUFFIX,abema.tv # AbemaTV 日本流媒体服务
 
 # > bilibili.tv（国际版）
+
 DOMAIN-SUFFIX,bilibili.tv # 哔哩哔哩国际版平台
 DOMAIN-SUFFIX,hdslb.com # 哔哩哔哩视频静态资源（共用）
 
 # > VIU（香港 / 东南亚）
+
 DOMAIN-SUFFIX,viu.com # Viu 视频平台（香港 / 新加坡等）
 
 # > WeTV 国际版
+
 DOMAIN-SUFFIX,wetv.vip # 腾讯 WeTV 国际版视频平台
 
 # > iQIYI 国际版
+
 DOMAIN-SUFFIX,iq.com # 爱奇艺国际版域名
 
 # > MyTV SUPER（香港）
+
 DOMAIN-SUFFIX,mytvsuper.com # 香港 TVB MyTV SUPER 服务
 
 # > Astro（马来西亚）
+
 DOMAIN-SUFFIX,astro.com.my # Astro 马来西亚电视服务
 
 # > iflix（马来西亚）
+
 DOMAIN-SUFFIX,iflix.com # iflix 东南亚视频平台
 
 # > Viki（美日韩）
+
 DOMAIN-SUFFIX,viki.com # Viki 视频平台（韩剧/综艺）
 DOMAIN-SUFFIX,vikibuilder.com # Viki 静态资源
 
 # > Rakuten TV（欧洲）
+
 DOMAIN-SUFFIX,rakuten.tv # 日本乐天旗下欧洲视频平台
 
 # > ZDF / ARD（德国）
+
 DOMAIN-SUFFIX,zdf.de # 德国 ZDF 公共电视台
 DOMAIN-SUFFIX,ard.de # 德国 ARD 公共电视台
 
 # > TF1 / M6（法国）
+
 DOMAIN-SUFFIX,tf1.fr # 法国 TF1 视频平台
 DOMAIN-SUFFIX,m6.fr # 法国 M6 视频平台
 
 # > BBC / ITV（英国）
+
 DOMAIN-SUFFIX,bbc.co.uk # 英国 BBC 官方网站
 DOMAIN-SUFFIX,bbc.com # BBC 国际站
 DOMAIN-SUFFIX,itv.com # 英国 ITV 电视台平台
 DOMAIN-SUFFIX,itvstatic.com # ITV 静态资源
 
 # > SBS / KBS / JTBC / TVING（韩国）
+
 DOMAIN-SUFFIX,sbs.co.kr # 韩国 SBS
 DOMAIN-SUFFIX,kbs.co.kr # 韩国 KBS
 DOMAIN-SUFFIX,jtbc.co.kr # 韩国 JTBC
 DOMAIN-SUFFIX,tving.com # 韩国 TVING 流媒体平台
+
+# > Vimeo 视频平台相关域名（Vimeo）
+
+DOMAIN-SUFFIX,vimeo.com # Vimeo 主域名，用于在线播放、用户账户与视频管理等核心服务  
+DOMAIN-SUFFIX,player.vimeo.com # Vimeo 视频播放器接口，用于嵌入式播放与视频加载  
+DOMAIN-SUFFIX,i.vimeocdn.com # Vimeo 内容分发网络 CDN 域名，用于加载视频封面、播放器资源与嵌入式内容  
