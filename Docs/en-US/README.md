@@ -183,7 +183,7 @@ Additionally, the Aegis project has enabled [GPG](https://gnupg.org) commit sign
 
 ## 🙌 Community Support
 
-If you find this project valuable, feel free to Star ⭐️ it. All rule updates are announced through our Telegram channels — you're welcome to subscribe and stay informed:
+If you find this project valuable, feel free to Star ⭐️ it. All rule updates are announced through our [Telegram](https://telegram.org) channels — you're welcome to subscribe and stay informed:
 
 **Telegram Release Channel** - <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a> : Publishes the latest rule versions, changelogs, and important announcements  
 
