@@ -27,7 +27,9 @@ DOMAIN-SUFFIX,sdkapplog.51ping.com # 可能涉及咸鱼行为分析
 DOMAIN-SUFFIX,adash-c.ut.taobao.com # 淘宝 / 天猫广告 SDK 主入口
 DOMAIN-SUFFIX,adashx4yt.m.taobao.com # 淘宝广告日志收集节点
 DOMAIN-SUFFIX,track.alicdn.com # 阿里广告追踪链接
-DOMAIN-SUFFIX,mmstat.com # 阿里巴巴行为数据统计平台主域名，用于埋点、页面分析与性能日志回传
+# DOMAIN-SUFFIX,mmstat.com # 阿里巴巴行为数据统计平台主域名，用于埋点、页面分析与性能日志回传
+# DOMAIN-SUFFIX,yt.mmstat.com # 优酷行为追踪接口，拦截可能导致视频播放失败
+# DOMAIN-SUFFIX,gm.mmstat.com # 淘宝行为埋点接口，拦截可能影响页面跳转
 DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志上传服务器
 DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告数据监测域名，用于广告点击与用户行为追踪
 DOMAIN-SUFFIX,mxhichina.com # 阿里系域名，与咸鱼开屏广告有关
