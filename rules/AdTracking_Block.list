@@ -27,13 +27,14 @@ DOMAIN-SUFFIX,sdkapplog.51ping.com # 可能涉及咸鱼行为分析
 DOMAIN-SUFFIX,adash-c.ut.taobao.com # 淘宝 / 天猫广告 SDK 主入口
 DOMAIN-SUFFIX,adashx4yt.m.taobao.com # 淘宝广告日志收集节点
 DOMAIN-SUFFIX,track.alicdn.com # 阿里广告追踪链接
+DOMAIN-SUFFIX,mmstat.com # 阿里巴巴行为数据统计平台主域名，用于埋点、页面分析与性能日志回传
 DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志上传服务器
-IP-CIDR,114.80.179.230 # 阿里系广告投放节点，疑似用于高德地图开屏广告内容分发
 DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告数据监测域名，用于广告点击与用户行为追踪
-IP-CIDR,203.119.238.0/24 # 阿里广告基础设施段（杭州机房）
-IP-CIDR,58.221.74.9 # 出现在咸鱼启动后回传通道中,疑似用于广告／行为回传 
 DOMAIN-SUFFIX,mxhichina.com # 阿里系域名，与咸鱼开屏广告有关
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接入域名，用于广告加载与统计回传
+IP-CIDR,203.119.238.0/24 # 阿里广告基础设施段（杭州机房）
+IP-CIDR,58.221.74.9 # 出现在咸鱼启动后回传通道中,疑似用于广告／行为回传 
+IP-CIDR,114.80.179.230 # 阿里系广告投放节点，疑似用于高德地图开屏广告内容分发
 
 # > Google 广告与追踪服务（Google Ads & Tracking）
 
@@ -8086,7 +8087,6 @@ DOMAIN-SUFFIX,mixpanel.com # Mixpanel 是用户行为 / 分析工具,确认为�
 DOMAIN-SUFFIX,mkto-ab410147.com # “mkto” 是 Marketo 营销平台子域,典型营销 / 跟踪用途  
 DOMAIN-SUFFIX,mktoresp.com # 同样,营销 / 跟踪用途域名  
 DOMAIN-SUFFIX,mltrk.io # 含 “trk”,可能为追踪服务域名
-DOMAIN-SUFFIX,mmstat.com # mmstat 出现在多个广告 / 渠道分析脚本中
 DOMAIN-SUFFIX,moat.com # Moat 是广告 / 媒体测量 / 广告验证平台域名,确认为广告 / 测量用途  
 DOMAIN-SUFFIX,moatpixel.com # 属于 Moat 像素域名,典型广告测量用途
 DOMAIN-SUFFIX,mobclix.com # MobClix 是移动广告平台,确认为广告域名  
