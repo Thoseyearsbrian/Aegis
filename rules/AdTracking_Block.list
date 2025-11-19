@@ -142,6 +142,41 @@ DOMAIN-SUFFIX,tracking.meetsocial.com # tracking.meetsocial 广告追踪域名�
 
 DOMAIN-SUFFIX,static.oktopost.com # Oktopost 静态脚本追踪域名，用于 B2B 广告内容加载与行为分析  
 
+# > 优量汇（广告变现平台）相关域名
+
+DOMAIN-SUFFIX,gdtimg.com # 优量汇主资源域名，用于广告素材、SDK脚本及图片资源加载
+DOMAIN-SUFFIX,qzs.gdtimg.com # 优量汇 H5 SDK 资源 CDN，用于广告 H5 页面脚本加载与调用   
+DOMAIN-SUFFIX,union.gdtimg.com # 优量汇统一广告资源域名，用于广告位调用与素材拉取
+DOMAIN-SUFFIX,adnet.qq.com # 优量汇开发者平台域名，用于广告主／媒体注册、账户管理接口   
+DOMAIN-SUFFIX,media.qq.com # 优量汇媒体侧报告与结算域名，用于媒体广告收入查询与报表查看
+DOMAIN-SUFFIX,report.gdtimg.com # 优量汇广告数据上报及收益报表域名，用于广告效果数据上报
+DOMAIN-SUFFIX,sdk.gdtimg.com # 优量汇移动 SDK 资源域名，用于 App 内广告 SDK 脚本与资源加载   
+DOMAIN-SUFFIX,ads.qq.com # 优量汇广告请求终端域名，用于广告实际展示请求与点击跳转
+DOMAIN-SUFFIX,tracking.gdtimg.com # 优量汇广告点击与转化追踪域名，用于用户点击、转化事件回传与归因
+
+# > 腾讯 相关域名
+
+DOMAIN-SUFFIX,sdk.e.qq.com # 腾讯广告联盟 SDK 域名，常用于 App 内广告展示与点击追踪
+DOMAIN-SUFFIX,report.tv.kohesport.qq.com # 腾讯广告追踪域,用于 TV 端广告播放行为日志上报
+DOMAIN-SUFFIX,ws.sj.qq.com # 腾讯应用宝广告接口,用于 App 推荐加载与行为统计上报
+DOMAIN-SUFFIX,review.gdtimg.com # 腾讯广点通广告资源域  
+DOMAIN-SUFFIX,win.gdt.qq.com # 腾讯广点通广告子域 
+DOMAIN-SUFFIX,xc.gdt.qq.com # 腾讯广告展示内容控制域名
+DOMAIN-SUFFIX,rpt.gdt.qq.com # 腾讯广点通广告统计 / 上报域名    
+DOMAIN-SUFFIX,commdata.v.qq.com # 腾讯视频广告监测 / 统计域
+DOMAIN-SUFFIX,c2.gdt.qq.com # 腾讯广点通广告控制子域
+DOMAIN-SUFFIX,adsmind.gdtimg.com # 腾讯广点通广告资源分发域
+DOMAIN-SUFFIX,adsfile.qq.com # 腾讯广告文件服务域
+DOMAIN-SUFFIX,adsmind.ugdtimg.com # 腾讯广告资源分发 CDN 域名
+DOMAIN-SUFFIX,vv.video.qq.com # 腾讯视频广告播放或内容接口
+DOMAIN-SUFFIX,wallet.gdt.qq.com # 腾讯广点通钱包广告接口
+DOMAIN-SUFFIX,wj.qq.com # 腾讯问卷平台,部分用作行为分析与广告活动收集
+DOMAIN-SUFFIX,wspeed.qq.com # 腾讯广告监测 / 日志收集接口
+DOMAIN-SUFFIX,wspeed.qq.com.cn # 腾讯广告监测服务域名（备用域）
+DOMAIN-SUFFIX,xs.l.qq.com # 腾讯广告视频预加载域
+DOMAIN-SUFFIX,wxsnsad.tc.qq.com # 微信朋友圈广告推送域名  
+DOMAIN-SUFFIX,wxsnsdy.tc.qq.com # 微信广告视频内容分发域名  
+
 # > 通用广告追踪域名（General Ad Tracking）
 
 DOMAIN-SUFFIX,qsearch-a.akamaihd.net  # Akamai CDN 下属 QSearch 跟踪域名，用于广告重定向与用户行为收集
@@ -155,7 +190,6 @@ DOMAIN-SUFFIX,pg.cdnst.net # Cdnst 广告资源加载域名，用于页面中嵌
 DOMAIN-SUFFIX,rp.liadm.com # LIADM 广告重定向接口，用于广告链路追踪与用户识别  
 DOMAIN-SUFFIX,i.liadm.com # LIADM 图像加载域名，用于广告内容展示与行为记录  
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com # 巨量引擎 Pangolin 广告 SDK 接口域名，用于广告归因与用户行为采集
-DOMAIN-SUFFIX,sdk.e.qq.com # 腾讯广告联盟 SDK 域名，常用于 App 内广告展示与点击追踪
 DOMAIN-SUFFIX,blog.csdn.net  # CSDN 技术博客平台，内容劣质、广告导向、含追踪与误导跳转行为 
 DOMAIN-SUFFIX,data.mistat.xiaomi.com # 小米统计接口，用于设备使用统计与应用行为收集  
 DOMAIN-SUFFIX,data.video.ptqy.gitv.tv # 爱奇艺广告数据接口，用于视频播放前后广告投放与回传  
@@ -174,11 +208,9 @@ DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn # Vivo 广告平台日志节点,用于曝
 DOMAIN-SUFFIX,ads.zhinengxiyifang.cn # 可疑广告分发域名,用于低质 App 跳转与激励广告加载
 DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com # 字节跳动穿山甲广告接口,用于 App 内广告加载与策略分发
 DOMAIN-SUFFIX,v.adintl.cn # 可疑国际广告平台,用于激励视频广告加载与跳转行为
-DOMAIN-SUFFIX,report.tv.kohesport.qq.com # 腾讯广告追踪域,用于 TV 端广告播放行为日志上报
 DOMAIN-SUFFIX,ytx-file.110route.cn # 可疑资源分发域名,用于广告素材缓存与激励视频加载,归属不明
 DOMAIN-SUFFIX,advertising-api-fe.amazon.com # Amazon 广告平台前端接口,用于广告请求与行为回传
 DOMAIN-SUFFIX,rps.hpplay.cn # 乐播投屏广告回传接口,用于广告播放与行为日志上报
-DOMAIN-SUFFIX,ws.sj.qq.com # 腾讯应用宝广告接口,用于 App 推荐加载与行为统计上报
 DOMAIN-SUFFIX,securepubads.g.doubleclick.net # Google 安全广告发布接口域
 DOMAIN-SUFFIX,ads.pubmatic.com # PubMatic 广告平台
 DOMAIN-SUFFIX,moatads.com # Moat（广告性能 / 监测服务）广告域
@@ -198,18 +230,12 @@ DOMAIN-SUFFIX,ads.pinterest.com # Pinterest 官方广告服务域
 DOMAIN-SUFFIX,ads.service.kugou.com # 酷狗音乐广告服务端子域
 DOMAIN-SUFFIX,recommend-drcn.hms.dbankcloud.cn # 推荐系统接口,可能包含广告分发
 DOMAIN-SUFFIX,res1.applovin.com # AppLovin 广告平台素材 CDN 子域  
-DOMAIN-SUFFIX,review.gdtimg.com # 腾讯广点通广告资源域  
 DOMAIN-SUFFIX,rev.aiclk.com # AICLK 广告日志或资源上报子域  
 DOMAIN-SUFFIX,rlog.popin.cc # PopIn 日志接口,用于广告 / 内容推荐系统
 DOMAIN-SUFFIX,widgets.pinterest.com # Pinterest 页面小部件域,含广告成分  
-DOMAIN-SUFFIX,win.gdt.qq.com # 腾讯广点通广告子域 
-DOMAIN-SUFFIX,wxsnsad.tc.qq.com # 微信朋友圈广告推送域名  
-DOMAIN-SUFFIX,wxsnsdy.tc.qq.com # 微信广告视频内容分发域名  
-DOMAIN-SUFFIX,xc.gdt.qq.com # 腾讯广告展示内容控制域名  
 DOMAIN-SUFFIX,union.baidu.cn # 百度广告联盟域名  
 DOMAIN-SUFFIX,union.baidu.com # 百度广告联盟主域  
 DOMAIN-SUFFIX,usr-api.aiclk.com # AICLK 用户行为追踪或 API 接口  
-DOMAIN-SUFFIX,rpt.gdt.qq.com # 腾讯广点通广告统计 / 上报域名  
 DOMAIN-SUFFIX,canvas-cdn.gdt.qq.com # 广点通广告素材 CDN 域名  
 DOMAIN-SUFFIX,click.liftoff.io # Liftoff 广告点击追踪域
 DOMAIN-SUFFIX,click.chinaliftoff.io # China Liftoff 广告点击追踪域
@@ -220,7 +246,6 @@ DOMAIN-SUFFIX,cdn.aiclk.com # AICLK 广告平台素材 CDN
 DOMAIN-SUFFIX,cbjs.baidu.com # 百度广告组件加载域
 DOMAIN-SUFFIX,ccc-x.jd.com # 京东广告分析 / 推荐域名
 DOMAIN-SUFFIX,skdisplay.jd.com # 京东广告展示控制域
-DOMAIN-SUFFIX,commdata.v.qq.com # 腾讯视频广告监测 / 统计域
 DOMAIN-SUFFIX,cfg.imtt.qq.com # QQ 浏览器广告配置接口
 DOMAIN-SUFFIX,clog.miguvideo.com # 咪咕视频广告日志收集域
 DOMAIN-SUFFIX,chat1.jd.com # 京东客服与推荐系统接口
@@ -235,7 +260,6 @@ DOMAIN-SUFFIX,saxysec.com # 可疑域名,疑似灰产跳转或脚本统计用途
 DOMAIN-SUFFIX,cdn.ad.wtzw.com # 小说站广告 CDN,用于加载插屏图片与跳转脚本
 DOMAIN-SUFFIX,cn-api.anythinktech.com # AnyThink 移动广告平台接口
 DOMAIN-SUFFIX,cnzz.com # CNZZ 站长统计与广告分析服务
-DOMAIN-SUFFIX,c2.gdt.qq.com # 腾讯广点通广告控制子域
 DOMAIN-SUFFIX,ck.ads.oppomobile.com # OPPO 广告点击跟踪接口
 DOMAIN-SUFFIX,config.unityads.unity3d.com # Unity Ads 配置接口域
 DOMAIN-SUFFIX,data.ads.oppomobile.com # OPPO 广告数据接口域
@@ -263,7 +287,6 @@ DOMAIN-SUFFIX,impression-asia.liftoff.io # Liftoff 亚洲广告曝光记录接�
 DOMAIN-SUFFIX,impression.appsflyer.com # AppsFlyer 广告曝光 / 成效追踪域
 DOMAIN-SUFFIX,collect.kugou.com # 酷狗广告数据收集接口
 DOMAIN-SUFFIX,adserver.unityads.unity3d.com # Unity Ads 广告服务器域名
-DOMAIN-SUFFIX,adsmind.gdtimg.com # 腾讯广点通广告资源分发域
 DOMAIN-SUFFIX,adsmart.konka.com # 康佳智能广告投放平台域名
 DOMAIN-SUFFIX,rp.hpplay.cn # 乐播投屏广告日志接口,用于曝光点击等行为上报
 DOMAIN-SUFFIX,sdk-cache.video.ptqy.gitv.tv # 爱奇艺广告 SDK 缓存资源域
@@ -273,10 +296,8 @@ DOMAIN-SUFFIX,chiq-cloud.com # CHiQ 智能终端云平台域名,含广告策略�
 DOMAIN-SUFFIX,conf.hpplay.cn # hpplay 配置服务接口,可能用于广告或设备管理
 DOMAIN-SUFFIX,images.outbrainimg.com # Outbrain 广告平台图片素材域
 DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com # 可疑图像广告域名,嵌套伪 CDN 用于广告素材加载与跳转
-DOMAIN-SUFFIX,adsfile.qq.com # 腾讯广告文件服务域
 DOMAIN-SUFFIX,adsfilebssdlbig.ali.kugou.com # 酷狗广告素材下载接口
 DOMAIN-SUFFIX,config.chsmarttv.com # 长虹智能电视配置接口,含广告启用与展示策略参数
-DOMAIN-SUFFIX,adsmind.ugdtimg.com # 腾讯广告资源分发 CDN 域名
 DOMAIN-SUFFIX,image.hpplay.cn # hpplay 素材资源接口,可能包含广告图片
 DOMAIN-SUFFIX,ipv4.kkmh.com # 快看漫画 IPv4 API 接口,可能用于广告追踪
 DOMAIN-SUFFIX,adserviceretry.kugou.com # 酷狗广告服务重试接口
@@ -294,11 +315,9 @@ DOMAIN-SUFFIX,vhp.hpplay.cn.v.adx.hubcloud.com.cn # 嵌套域名,可能为广告
 DOMAIN-SUFFIX,vip.hpplay.cn # hpplay VIP 权限接口,可能含推广逻辑
 DOMAIN-SUFFIX,vmkt.hpplay.cn # hpplay 市场营销或广告平台接口
 DOMAIN-SUFFIX,vungle.com # Vungle 视频广告平台主域
-DOMAIN-SUFFIX,vv.video.qq.com # 腾讯视频广告播放或内容接口
 DOMAIN-SUFFIX,vvxlog.hunantv.com # 芒果 TV 日志上报 / 广告行为追踪接口
 DOMAIN-SUFFIX,w1.hoopchina.com.cn # 虎扑广告或追踪相关接口
 DOMAIN-SUFFIX,wallet-api.hismarttv.com # 海信电视钱包服务接口,可能含推广内容
-DOMAIN-SUFFIX,wallet.gdt.qq.com # 腾讯广点通钱包广告接口
 DOMAIN-SUFFIX,wbapp.mobile.sina.cn # 新浪微博 App 广告或推广接口
 DOMAIN-SUFFIX,web.clewm.net # 清博舆情监测平台接口,可能涉及数据采集 / 广告统计
 DOMAIN-SUFFIX,web-stat.cn # 可疑网页统计服务域名,用于访问行为追踪与广告点击上报,归属不明
@@ -306,14 +325,10 @@ DOMAIN-SUFFIX,web.wrating.com # 万瑞通网站分析平台,常用于广告投�
 DOMAIN-SUFFIX,webtrack.ad.intl.xiaomi.com # 小米国际版广告追踪接口
 DOMAIN-SUFFIX,whhxrc.com # 可疑广告跳转域名,归属不明,曾用于激励广告与中转页面加载
 DOMAIN-SUFFIX,widget.diditaxi.com.cn # 滴滴出行嵌入式组件接口,可能含推广内容
-DOMAIN-SUFFIX,wj.qq.com # 腾讯问卷平台,部分用作行为分析与广告活动收集
 DOMAIN-SUFFIX,wlog.dianping.com # 大众点评行为日志上报接口,含广告追踪成分
 DOMAIN-SUFFIX,wmcloud-ads.cn # 可疑广告平台域名,归属不明,用于广告请求与点击追踪
-DOMAIN-SUFFIX,wspeed.qq.com # 腾讯广告监测 / 日志收集接口
-DOMAIN-SUFFIX,wspeed.qq.com.cn # 腾讯广告监测服务域名（备用域）
 DOMAIN-SUFFIX,xgfe.umeng.com # 友盟广告组件日志接口
 DOMAIN-SUFFIX,xiaoshuo.sogou.com # 搜狗小说服务接口,可能含内嵌广告模块
-DOMAIN-SUFFIX,xs.l.qq.com # 腾讯广告视频预加载域
 DOMAIN-SUFFIX,update.lejiao.tv # 乐角 TV 更新接口,可能含广告内容推送
 DOMAIN-SUFFIX,wbapp.m.baidu.com # 百度 App 广告加载接口
 DOMAIN-SUFFIX,wxcj.tanke.tv # 可疑视频广告配置域名,用于影视类 App 弹窗与激励广告策略分发
