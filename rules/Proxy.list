@@ -3960,6 +3960,12 @@ DOMAIN-SUFFIX,myfonts.com # Monotype 旗下 MyFonts 字体销售平台，提供�
 DOMAIN-SUFFIX,fast.fonts.net # Monotype CDN 子域，提供加速字体分发服务，嵌入于多种商业网页中  
 DOMAIN-SUFFIX,cloud.typography.com # Monotype 子品牌服务，提供定制字体托管与加载平台  
 
+# > Akamai CDN 内容加速域名（Akamai CDN）
+
+DOMAIN-SUFFIX,akamaized.net # Akamai CDN 内容分发网络主域名，用于图片、脚本、媒体资源等加载  
+DOMAIN-SUFFIX,edgekey.net # Akamai CDN 边缘节点域名，常用于内容分发与缓存加载  
+DOMAIN-SUFFIX,edgesuite.net # Akamai CDN 加速域名，常与大型平台集成用于资源加载  
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
