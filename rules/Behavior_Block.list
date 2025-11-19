@@ -567,6 +567,8 @@ DOMAIN-SUFFIX,go-mpulse.net # Akamai mPulse 实时性能监控服务域名，用
 DOMAIN-SUFFIX,s.go-mpulse.net # Akamai mPulse 性能数据采集子域，用于 JS 脚本加载与用户行为上报  
 DOMAIN-SUFFIX,akstat.io # Akamai 行为与性能监控服务域名，用于测速脚本加载与浏览行为采集  
 
-# > lrkt-in.com 行为追踪与数据采集接口
+# > lrkt-in.com 域名与监听节点（行为追踪平台）
 
-DOMAIN-SUFFIX,r.lrkt-in.com  # 用于嵌入式网页行为采集与性能追踪，常见于第三方营销与分析服务平台集成  
+DOMAIN-SUFFIX,lrkt-in.com # lrkt-in.com 域名，属于行为追踪与分析平台，用于收集网页访问与用户行为数据  
+DOMAIN-SUFFIX,r.lrkt-in.com # lrkt-in.com 的监听节点域名，用于回传行为追踪事件、设备标识等  
+IP-CIDR,104.198.23.205 # r.lrkt-in.com 对应监听服务节点，部署于 Google Cloud（us-central1），用于行为日志回传与数据收集  
