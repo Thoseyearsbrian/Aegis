@@ -124,11 +124,11 @@ DOMAIN-SUFFIX,cm.bilibili.com # Bilibili 广告接口域名，用于商业推荐
 
 # > 优酷广告与营销域名（AdTracking）
 
-DOMAIN-SUFFIX,hz.youku.com # 优酷活动与营销平台接口，用于加载 H5 活动页与广告入口
-DOMAIN-SUFFIX,atm.youku.com # 优酷广告资源加载接口，用于贴片广告与展示素材
-DOMAIN-SUFFIX,yk-ssp.youku.com # 优酷 SSP 广告平台接口，用于广告请求与素材拉取
-DOMAIN-SUFFIX,mf.atm.youku.com # 优酷广告监测接口，用于广告展示与点击行为追踪
-DOMAIN-SUFFIX,yk.ad.youku.com # 优酷广告策略与分发接口，用于展示与推荐广告
+# DOMAIN-SUFFIX,hz.youku.com # 优酷活动与营销平台接口，用于加载 H5 活动页与广告入口
+# DOMAIN-SUFFIX,atm.youku.com # 优酷广告资源加载接口，用于贴片广告与展示素材
+# DOMAIN-SUFFIX,yk-ssp.youku.com # 优酷 SSP 广告平台接口，用于广告请求与素材拉取
+# DOMAIN-SUFFIX,mf.atm.youku.com # 优酷广告监测接口，用于广告展示与点击行为追踪
+# DOMAIN-SUFFIX,yk.ad.youku.com # 优酷广告策略与分发接口，用于展示与推荐广告
 
 # > MediaGo 广告追踪与数据采集平台域名
 
