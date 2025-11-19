@@ -26,10 +26,6 @@ DOMAIN-SUFFIX,sdkapplog.51ping.com # 可能涉及咸鱼行为分析
 DOMAIN-SUFFIX,adash-c.ut.taobao.com # 淘宝 / 天猫广告 SDK 主入口
 DOMAIN-SUFFIX,adashx4yt.m.taobao.com # 淘宝广告日志收集节点
 DOMAIN-SUFFIX,track.alicdn.com # 阿里广告追踪链接
-# DOMAIN-SUFFIX,mmstat.com # 阿里巴巴行为数据统计平台主域名，用于埋点、页面分析与性能日志回传
-# DOMAIN-SUFFIX,yt.mmstat.com # 优酷行为追踪接口，拦截可能导致视频播放失败
-# DOMAIN-SUFFIX,gm.mmstat.com # 淘宝行为埋点接口，拦截可能影响页面跳转
-# DOMAIN-SUFFIX,log.mmstat.com # 阿里广告打点服务器，拦截可能影响页面跳转
 DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志上传服务器
 DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告数据监测域名，用于广告点击与用户行为追踪
 DOMAIN-SUFFIX,mxhichina.com # 阿里系域名，与咸鱼开屏广告有关
@@ -124,14 +120,6 @@ DOMAIN-SUFFIX,links.email.salesforce.com # Salesforce 邮件点击追踪域名�
 
 DOMAIN-SUFFIX,bvc.bilivideo.com # 哔哩哔哩广告视频资源域名，用于开屏广告与贴片加载
 DOMAIN-SUFFIX,cm.bilibili.com # Bilibili 广告接口域名，用于商业推荐内容加载与广告投放策略下发
-
-# > 优酷广告与营销域名（AdTracking）
-
-# DOMAIN-SUFFIX,hz.youku.com # 优酷活动与营销平台接口，用于加载 H5 活动页与广告入口
-# DOMAIN-SUFFIX,atm.youku.com # 优酷广告资源加载接口，用于贴片广告与展示素材
-# DOMAIN-SUFFIX,yk-ssp.youku.com # 优酷 SSP 广告平台接口，用于广告请求与素材拉取
-# DOMAIN-SUFFIX,mf.atm.youku.com # 优酷广告监测接口，用于广告展示与点击行为追踪
-# DOMAIN-SUFFIX,yk.ad.youku.com # 优酷广告策略与分发接口，用于展示与推荐广告
 
 # > MediaGo 广告追踪与数据采集平台域名
 
@@ -228,7 +216,6 @@ DOMAIN-SUFFIX,adservice.sigmob.cn # SigMob（中国广告平台）广告服务�
 DOMAIN-SUFFIX,adx.ads.oppomobile.com # OPPO 广告平台 ADX 子域
 DOMAIN-SUFFIX,adview.cn # AdView（国内广告 / SDK 服务）主域
 DOMAIN-SUFFIX,advertising-api-eu.amazon.com # Amazon 在欧洲的广告 API 接口
-DOMAIN-SUFFIX,adx.open-service.youku.com # Youku 的广告 / 开放服务 ADX 子域
 DOMAIN-SUFFIX,ads.pinterest.com # Pinterest 官方广告服务域
 DOMAIN-SUFFIX,ads.service.kugou.com # 酷狗音乐广告服务端子域
 DOMAIN-SUFFIX,recommend-drcn.hms.dbankcloud.cn # 推荐系统接口,可能包含广告分发
