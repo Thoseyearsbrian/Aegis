@@ -221,3 +221,4 @@ DOMAIN-SUFFIX,f.vimeocdn.com  # Vimeo 视频平台内容加载域名，用于传
 DOMAIN-SUFFIX,skyfire.vimeocdn.com # Vimeo Skyfire 服务节点域名，用于视频上传、传输与优化分发  
 DOMAIN-SUFFIX,vod-progressive-ak.vimeocdn.com # Vimeo VOD 进度式视频加载域名，用于常规文件分段下载  
 DOMAIN-SUFFIX,vod-adaptive-ak.vimeocdn.com # Vimeo 自适应码率视频加载域名，用于不同网络条件下的视频流服务  
+DOMAIN-SUFFIX,download-video-ak.vimeocdn.com # Vimeo 视频下载 CDN 域名，提供 MP4 文件的下载与存储分发服务 
