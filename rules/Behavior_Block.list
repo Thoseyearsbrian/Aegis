@@ -566,3 +566,7 @@ DOMAIN-SUFFIX,eu-central-1-1.aws.cloud2.influxdata.com # InfluxData 云服务节
 DOMAIN-SUFFIX,go-mpulse.net # Akamai mPulse 实时性能监控服务域名，用于采集用户性能指标与行为分析  
 DOMAIN-SUFFIX,s.go-mpulse.net # Akamai mPulse 性能数据采集子域，用于 JS 脚本加载与用户行为上报  
 DOMAIN-SUFFIX,akstat.io # Akamai 行为与性能监控服务域名，用于测速脚本加载与浏览行为采集  
+
+# > lrkt-in.com 行为追踪与数据采集接口
+
+DOMAIN-SUFFIX,r.lrkt-in.com  # 用于嵌入式网页行为采集与性能追踪，常见于第三方营销与分析服务平台集成  
