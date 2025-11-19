@@ -223,3 +223,4 @@ DOMAIN-SUFFIX,vod-progressive-ak.vimeocdn.com # Vimeo VOD 进度式视频加载�
 DOMAIN-SUFFIX,vod-adaptive-ak.vimeocdn.com # Vimeo 自适应码率视频加载域名，用于不同网络条件下的视频流服务  
 DOMAIN-SUFFIX,download-video-ak.vimeocdn.com # Vimeo 视频下载 CDN 域名，提供 MP4 文件的下载与存储分发服务 
 DOMAIN-SUFFIX,videoapi-sprites.vimeocdn.com # Vimeo 视频播放组件资源域名，用于加载封面、控制栏图标与字幕快照等前端精细化元素
+DOMAIN-SUFFIX,vimeo.bynder.com # Vimeo 与 Bynder 品牌管理平台集成域名，用于存储与调度品牌视频资产与视觉内容资源  

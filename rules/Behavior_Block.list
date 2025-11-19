@@ -576,3 +576,11 @@ IP-CIDR,104.198.23.205 # r.lrkt-in.com 对应监听服务节点，部署于 Goog
 # > Vimeo 多媒体与事件追踪子域名（Vimeo.com）
 
 DOMAIN-SUFFIX,fresnel-events.vimeocdn.com # Vimeo 事件采集子域名，用于记录播放器行为、加载性能与交互日志（Fresnel 系统）  
+
+# > Wirewax 视频交互组件与嵌入式 SDK 服务域名
+
+DOMAIN-SUFFIX,embedder-sdk.wirewax.video # Wirewax 嵌入式交互视频 SDK 接口域名，提供 Vimeo 等平台的视频增强功能与内容嵌入能力  
+
+# > Transcend 数据隐私与用户追踪控制平台域名
+
+DOMAIN-SUFFIX,transcend-cdn.com # Transcend 隐私合规平台内容分发域名，用于加载 Cookie 通知、追踪控制脚本与合规组件资源  
