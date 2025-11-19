@@ -584,3 +584,10 @@ DOMAIN-SUFFIX,embedder-sdk.wirewax.video # Wirewax 嵌入式交互视频 SDK 接
 # > Transcend 数据隐私与用户追踪控制平台域名
 
 DOMAIN-SUFFIX,transcend-cdn.com # Transcend 隐私合规平台内容分发域名，用于加载 Cookie 通知、追踪控制脚本与合规组件资源  
+
+# > 优酷行为上报与日志域名（Behavior）
+
+DOMAIN-SUFFIX,log.youku.com # 优酷播放行为与事件日志上报接口
+DOMAIN-SUFFIX,stat.tudou.com # 土豆行为统计与播放数据接口（Youku Tudou 共用）
+DOMAIN-SUFFIX,quark.sm.cn # UC/Quark 行为链路解析接口，优酷移动端部分功能依赖
+DOMAIN-SUFFIX,acs4baichuan.m.taobao.com # 阿里百川账号组件上报接口，含部分行为数据

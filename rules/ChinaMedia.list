@@ -107,9 +107,28 @@ DOMAIN-SUFFIX,upos-sz-staticcos.bilivideo.com # Bilibili 视频存储 CDN 节点
 IP-CIDR,203.107.1.65 # 阿里云公共解析节点（AliDNS），用于域名 upos-sz-mirrorcos.bilivideo.com 的解析请求
 IP-CIDR,61.170.65.76 # Bilibili 静态内容 CDN 节点，对应域名 upos-sz-staticcos.bilivideo.com，用于分发视频与资源文件
 
+# > 优酷视频（China 媒体服务）
+
+DOMAIN-SUFFIX,youku.com # 优酷主站域名，用于视频播放、首页内容加载
+DOMAIN-SUFFIX,ykimg.com # 优酷图像资源域名，用于封面图、缩略图与 UI 图标加载
+DOMAIN-SUFFIX,ykimgv2.com # 优酷图像 CDN 域名，用于新版封面、用户头像与内容图集加载
+DOMAIN-SUFFIX,ykimg.alicdn.com # 优酷阿里云图像 CDN 节点，用于封面、缩略图与运营素材分发
+DOMAIN-SUFFIX,player.youku.com # 优酷播放器内核与播放组件加载接口
+DOMAIN-SUFFIX,v.youku.com # 优酷视频播放页子域，用于内容分发与推荐
+DOMAIN-SUFFIX,api.youku.com # 优酷核心 API 接口，用于视频详情、评论、推荐、互动数据
+DOMAIN-SUFFIX,ups.youku.com # 优酷播放地址解析接口（UPS 服务），用于获取分辨率与码流
+DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net # 优酷（CIBN）认证与视频播放 DRM 校验接口
+DOMAIN-SUFFIX,ykrec.youku.com # 优酷推荐算法接口，用于首页推荐与个性化内容分发
+DOMAIN-SUFFIX,acs.youku.com # 优酷账户系统接口，用于登录、认证、会话维护
+DOMAIN-SUFFIX,ykugc.youku.com # 优酷 UGC 上传与审核接口，用于用户上传视频与草稿管理
+DOMAIN-SUFFIX,ykugc.cp31.ott.cibntv.net # CIBN UGC 服务节点
+DOMAIN-SUFFIX,tudou.com # 土豆主站（Youku Tudou 旗下），旧版视频播放与历史内容加载
+DOMAIN-SUFFIX,api.mobile.youku.com # 优酷移动端 API，用于 App 视频加载与交互
+DOMAIN-SUFFIX,api.cp12.wasu.tv # 优酷 OTT 播放授权回源接口（牌照服务）
+DOMAIN-SUFFIX,youku-ott-live.oss-cn-hangzhou.aliyuncs.com # 优酷直播流 OSS 节点，用于直播内容回源与分发
+
 # > 视频平台
 
-DOMAIN-SUFFIX,youku.com # 优酷视频
 DOMAIN-SUFFIX,xpis-tel-xcdn.youku.com # 优酷登录验证接口域名，用于账户登录与 token 校验服务 
 DOMAIN-SUFFIX,iqiyi.com # 爱奇艺
 DOMAIN-SUFFIX,iq.com # 爱奇艺国际版
