@@ -660,7 +660,7 @@ DOMAIN-SUFFIX,28f810077f.com # 隐匿广告推广 / 重定向域名
 DOMAIN-SUFFIX,291hkcido.de # 德国注册可疑域名,可能用于广告跳板  
 DOMAIN-SUFFIX,29a7397be5.com # 混淆注册域名,疑似广告 / 跳转用途  
 DOMAIN-SUFFIX,29acdc6212.com # 被 AdGuard DNS 过滤规则标记为广告域名  
-DOMAIN-SUFFIX,29apfjmg2.de # 已被广告/追踪规则收录,建议封锁  
+DOMAIN-SUFFIX,29apfjmg2.de # 已被广告/追踪规则收录 
 DOMAIN-SUFFIX,29b124c44a.com # 混淆哈希域名,广告跳转 / 资源加载用途  
 DOMAIN-SUFFIX,29s55bf2.de # 广告 / 跳转用途域名,存在追踪脚本可能  
 DOMAIN-SUFFIX,2a2k3aom6.de # 随机数字字符域名,广告 / 跳转用途高风险  
@@ -4417,9 +4417,9 @@ DOMAIN-SUFFIX,cachuadirked.top # 混淆式顶级域名,疑似广告脚本中继�
 DOMAIN-SUFFIX,cadazypgstyas.space # 随机混淆字符组合,疑似广告系统自动生成域名  
 DOMAIN-SUFFIX,cadsimz.com # 潜在广告 SDK 使用域名,建议继续观察  
 DOMAIN-SUFFIX,cadslims.com # 混淆式结构域名,可能用于广告中转或监听服务  
-DOMAIN-SUFFIX,cadswkyoxlcfn.site # 程序化广告跳转平台结构,建议封锁  
-DOMAIN-SUFFIX,cafaiksaibsaiwy.net # 随机字符构成,广告 SDK 常见结构,建议封锁  
-DOMAIN-SUFFIX,cafdipjat.com # 行为路径中疑似广告追踪行为,建议封锁   
+DOMAIN-SUFFIX,cadswkyoxlcfn.site # 程序化广告跳转平台结构 
+DOMAIN-SUFFIX,cafaiksaibsaiwy.net # 随机字符构成,广告 SDK 常见结构 
+DOMAIN-SUFFIX,cafdipjat.com # 行为路径中疑似广告追踪行为  
 DOMAIN-SUFFIX,caffeicmalting.shop # 可疑生成型域名,疑似用于广告重定向或诱导内容  
 DOMAIN-SUFFIX,cafhstudio.help # 随机结构域名,存在重定向行为,疑似广告跳转节点  
 DOMAIN-SUFFIX,cafizpinnage.help # 可疑结构域名,具备程序化广告平台特征   
@@ -4802,7 +4802,6 @@ DOMAIN-SUFFIX,cevoansoultum.net # 无语义混淆结构,疑似恶意脚本跳转
 DOMAIN-SUFFIX,cevxjorcuqsnr.website # `website`顶级域 + 混淆路径,广告用途明显  
 DOMAIN-SUFFIX,cewllouapqk.com # 无含义混淆结构,常见于广告跳转链接池  
 DOMAIN-SUFFIX,cewmyvfmjjbit.store # `store`域名 + 随机结构,疑似诱导类广告页面  
-DOMAIN-SUFFIX,cex.io # 加密货币交易平台,存在追踪行为,不建议封锁  
 DOMAIN-SUFFIX,cexofira.com # 模仿 CEX.io 命名,疑似钓鱼域名,建议拦截  
 DOMAIN-SUFFIX,cexucetum.com # 随机结构域名,疑似广告平台域名  
 DOMAIN-SUFFIX,cfewbzwhydkvb.store # 随机生成域名,用于程序化广告投放与跳转行为  
@@ -4857,10 +4856,10 @@ DOMAIN-SUFFIX,charkashowling.qpon # .qpon 域名高风险,常被用于广告/欺
 DOMAIN-SUFFIX,charmerpoulter.shop # 可疑商品销售站,存在广告脚本调用记录  
 DOMAIN-SUFFIX,charmhealingcarla.com # 健康主题站,含广告重定向脚本  
 DOMAIN-SUFFIX,charmshoist.com # 可疑跳转域名,广告行为待观察  
-DOMAIN-SUFFIX,charnupock.cfd # .cfd 高风险后缀,常见黑产广告批量注册,建议封锁  
+DOMAIN-SUFFIX,charnupock.cfd # .cfd 高风险后缀,常见黑产广告批量注册 
 DOMAIN-SUFFIX,chaseherbalpasty.com # 草药名义钓鱼广告站点,存在诱导购买行为  
 DOMAIN-SUFFIX,chastehandkerchiefclassified.com # 域名结构混乱,疑似自动生成广告跳转域名  
-DOMAIN-SUFFIX,chauffeurreliancegreek.com # 伪装企业站名,疑似黑产引流站,建议封锁  
+DOMAIN-SUFFIX,chauffeurreliancegreek.com # 伪装企业站名,疑似黑产引流站 
 DOMAIN-SUFFIX,chautcho.com # 可疑跳转平台域名,行为特征异常  
 DOMAIN-SUFFIX,chavamephu.com # 模糊诱导特征,具备广告/钓鱼潜力  
 DOMAIN-SUFFIX,chayotatricker.cfd # 疑似伪装站点跳转域名,广告重定向用途  
@@ -4868,7 +4867,7 @@ DOMAIN-SUFFIX,chbwe.space # 新兴顶级域 + 混淆字符,潜在广告跳转节
 DOMAIN-SUFFIX,cheap-jewelry-online.com # 电商广告站点,存在追踪与弹窗广告行为  
 DOMAIN-SUFFIX,cheapenleaving.com # 无实际内容,疑似广告生成域名  
 DOMAIN-SUFFIX,cheapspulijan.com # 拼写异常,疑似伪装广告域名  
-DOMAIN-SUFFIX,check-out-this.site # 常用于广告钓鱼诱导页面,建议封锁  
+DOMAIN-SUFFIX,check-out-this.site # 常用于广告钓鱼诱导页面 
 DOMAIN-SUFFIX,check-tl-ver-294-2.com # 疑似钓鱼或伪装更新页面广告域名  
 DOMAIN-SUFFIX,checkaf.com # 可疑重定向服务域名,有广告跳转行为  
 DOMAIN-SUFFIX,checkcdn.net # 伪装为 CDN,实为广告脚本加载平台   
