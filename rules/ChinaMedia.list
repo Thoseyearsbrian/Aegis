@@ -127,6 +127,11 @@ DOMAIN-SUFFIX,api.mobile.youku.com # 优酷移动端 API，用于 App 视频加�
 DOMAIN-SUFFIX,api.cp12.wasu.tv # 优酷 OTT 播放授权回源接口（牌照服务）
 DOMAIN-SUFFIX,youku-ott-live.oss-cn-hangzhou.aliyuncs.com # 优酷直播流 OSS 节点，用于直播内容回源与分发
 
+# > 9xsecndns（优酷／土豆图片资源与短视频平台相关域名）
+
+DOMAIN-SUFFIX,9xsecndns.cn # 优酷／土豆短视频平台图片资源基础域名，用于封面抽图、缩略图加载
+DOMAIN-SUFFIX,image.9xsecndns.cn # 优酷／土豆图片资源 CDN，用于短视频／直播平台封面、主播头像、预览图加载
+
 # > 视频平台
 
 DOMAIN-SUFFIX,xpis-tel-xcdn.youku.com # 优酷登录验证接口域名，用于账户登录与 token 校验服务 
