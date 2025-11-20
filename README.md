@@ -186,7 +186,9 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 **Telegram 用户共建群组** - <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a> : 欢迎提交建议、反馈误杀、参与规则共建
 
-🚧 本项目已归档
+---
+
+## 🚧 本项目已归档
 
 本项目现已进入归档状态，不再维护或更新。
 所有内容仅供学习与研究参考，不构成对任何行为的建议或支持。

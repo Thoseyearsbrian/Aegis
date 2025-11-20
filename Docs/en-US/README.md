@@ -189,7 +189,9 @@ If you find this project valuable, feel free to Star ⭐️ it. All rule updates
 
 **Telegram Community Group** - <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a> : Share suggestions, report false positives, and participate in collaborative rule development
 
-🚧 This project is archived
+---
+
+## 🚧 This project is archived
 
 This repository is now archived and no longer actively maintained.
 All contents are preserved for educational and research purposes only.
