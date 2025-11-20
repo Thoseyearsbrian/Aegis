@@ -185,3 +185,24 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 **Telegram 版本更新频道** - <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a> : 用于发布最新规则版本、更新日志与重要公告  
 
 **Telegram 用户共建群组** - <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a> : 欢迎提交建议、反馈误杀、参与规则共建
+
+🚧 本项目已归档
+
+本项目现已进入归档状态，不再维护或更新。
+所有内容仅供学习与研究参考，不构成对任何行为的建议或支持。
+
+🙏 友情提示：若您曾 Fork 本项目，建议尽快删除以规避潜在风险。
+
+感谢所有曾经关注、使用并给予鼓励的朋友们。
+出于审慎考量，我们选择按下暂停键。也许未来，在更适合的时机与环境下，还会有新的开始。
+
+---
+
+写在最后
+
+理想往往丰满，现实却不免残酷。
+我将带着过去的经验和你们的陪伴，重新出发。
+
+顺便说一句，这个项目里其实藏着一个彩蛋。现在，它或许已经没有太多意义，也不会再兑现任何承诺。但如果你找到了，希望那一刻能让你会心一笑。
+
+感谢，祝好。我们江湖再见。

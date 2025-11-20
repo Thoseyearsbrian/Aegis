@@ -188,3 +188,28 @@ If you find this project valuable, feel free to Star ⭐️ it. All rule updates
 **Telegram Release Channel** - <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a> : Publishes the latest rule versions, changelogs, and important announcements  
 
 **Telegram Community Group** - <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a> : Share suggestions, report false positives, and participate in collaborative rule development
+
+🚧 This project is archived
+
+This repository is now archived and no longer actively maintained.
+All contents are preserved for educational and research purposes only.
+
+🙏 Friendly reminder: If you have previously forked this repository, please consider deleting your fork to reduce potential risk.
+
+Thank you to everyone who followed, used, and supported this project along the way.
+Out of an abundance of caution, we have decided to pause development.
+Perhaps in the future, under more suitable circumstances, there may be a new beginning.
+
+---
+
+Final Words
+
+Ideals are often full and beautiful, but reality can be harsh.
+With the experience I’ve gained—and your companionship—I will start anew.
+
+By the way, there’s actually an Easter egg hidden in this project.
+It may no longer hold much meaning, and no promises will be fulfilled even if you find it.
+But if you do, I hope it brings a knowing smile to your face.
+
+Thank you—and farewell.
+Until we meet again.
