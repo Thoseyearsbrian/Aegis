@@ -1,10 +1,10 @@
-# > Adult_Block.list（成人阻止规则集）
+# > AdultDomain.list（成人内容识别规则集）
 # - 分类：成人内容 / NSFW 域名
 # - 来源：社区规则整理 / 实测抓包 / 自定义收集
 # - 特征：涵盖常见成人内容相关网站与域名
-# - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
+# - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-20
+# - 更新时间：2025-11-30
 
 # > 成人相关域名
 
@@ -40384,7 +40384,6 @@ DOMAIN-SUFFIX,porzo.club # 成人相关域名
 DOMAIN-SUFFIX,porzo.com # 成人相关域名
 DOMAIN-SUFFIX,porzo.tv # 成人相关域名
 DOMAIN-SUFFIX,pos-kupang.com # 成人相关域名
-DOMAIN-SUFFIX,pos.baidu.com # 成人相关域名
 DOMAIN-SUFFIX,poseparty.com # 成人相关域名
 DOMAIN-SUFFIX,poshgay.com # 成人相关域名
 DOMAIN-SUFFIX,poshiv-chehol.ru # 成人相关域名

@@ -2,9 +2,9 @@
 # - 分类：智能助理 / AI 服务平台 / 云端推理接口
 # - 来源：主流服务域名抓包 / 社区整理 / 手动校验
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
-# - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
+# - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-17
+# - 更新时间：2025-11-30
 
 # > OpenAI Chat 系列
 

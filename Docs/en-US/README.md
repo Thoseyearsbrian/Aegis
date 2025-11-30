@@ -26,24 +26,24 @@
 
 ## **Overview**
 
-[Aegis](https://github.com/Thoseyearsbrian/Aegis) is a meticulously maintained security rule set tailored for [Surge](https://nssurge.com), designed to address modern network-layer threats and help users worldwide build localized digital defense systems.The project focuses on blocking [DNS poisoning]((https://en.wikipedia.org/wiki/DNS_hijacking)), [APT threat sources](https://en.wikipedia.org/wiki/Advanced_persistent_threat), [SDK telemetry](https://en.wikipedia.org/wiki/Software_development_kit), [Backdoor Communication](https://en.wikipedia.org/wiki/Back_door),[PCDN relay communication](https://en.wikipedia.org/wiki/P2P_caching), [C2 controllers](https://en.wikipedia.org/?redirect=no&title=Command_and_control), and other potentially malicious communications. It also extends to cover major global advertising networks, behavioral tracking platforms, and adult content domains, enabling precise traffic identification and efficient interception on local devices.  
+A security rule set purpose-built for [Surge](https://nssurge.com), focused on identifying potential communication threats at both the application and transport layers. It covers a broad range of suspicious behaviors including [DNS poisoning]((https://en.wikipedia.org/wiki/DNS_hijacking)), [APT threat sources](https://en.wikipedia.org/wiki/Advanced_persistent_threat), [SDK telemetry](https://en.wikipedia.org/wiki/Software_development_kit), [Backdoor Communication](https://en.wikipedia.org/wiki/Back_door),[PCDN relay communication](https://en.wikipedia.org/wiki/P2P_caching), [C2 controllers](https://en.wikipedia.org/?redirect=no&title=Command_and_control), and other potentially malicious communications. The project also extends domain-based identification to major global advertising platforms, behavioral tracking services, and adult content sites — enabling users to perform fine-grained local traffic classification on iOS/macOS and define personalized network policies.  
 
-Aegis includes rule sets targeting high-risk infrastructures used by advanced threat actors worldwide — notably featuring detection strategies and domain blocks related to Pegasus spyware and its associated communication behaviors.
+In addition, the project incorporates rule sets targeting globally recognized high-risk threat infrastructures, including detection strategies for [Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware))￼spyware and its associated command-and-control infrastructure.
 
 The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
 
 ## **Key Features**
 
-Aegis is designed to detect and block the following high-risk communications:
+The Aegis rule set is dedicated to identifying and classifying the following high-risk communication behaviors:
 
-- Ad tracking, behavior analytics, and listening CDNs
+- Ad domain identification, behavioral tracking, and surveillance-style CDN nodes
 - PCDN relay traffic and shared-bandwidth transmission
 - Botnets, remote access Trojans, and malware C2 channels
 - SDK telemetry and behavioral fingerprinting
 - APT command-and-control (C2) infrastructure
 - DNS poisoning / injection / hijacking behavior
 
-Aegis is purpose-built for the Surge platform, with full compatibility across both iOS and macOS systems. It features clear readability, audit-friendly structure, and modular deployment, making it suitable for policy-based routing, firewall integration, and other advanced use cases.
+Aegis is purpose-built for the Surge platform, fully compatible with both iOS and macOS. It offers high readability, auditability, and modular deployment — making it suitable for policy-based routing, communication analysis, and enhanced security configurations.
 
 An optional advanced module — CA_Block.list — is also available, aimed at blocking globally controversial or publicly revoked root certificate authorities, OCSP responders, and CRL domains. This module is intended for users with heightened digital trust requirements, offering additional protection against man-in-the-middle attacks and malicious certificate chains.
 
@@ -53,19 +53,19 @@ Aegis adheres to technical neutrality, information transparency, and independent
 
 ## **Aegis Main Rule Modules**
 
-| Index |          Module Name           | File Name              | Description                                                                                   | Detection Criteria                                                                 |
-| :---: | :----------------------------: | ---------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| ①     | Untrusted Certificate Authorities            | CA_Block.list          | Blocks untrusted, misused, or revoked Certificate Authorities and related OCSP/CRL endpoints | Involves cases of certificate abuse, rogue issuance, or public revocation records  |
-| ②     | Ad Block       | AdTracking_Block.list  | Covers commercial ad domains, social pixels, analytics SDKs, and third-party tracking scripts | Clear ad-targeted or profiling-related communications, excluding surveillance SDKs |
-| ③     | Adult Block           | Adult_Block.list       | Includes domains related to major global adult platforms                                              | Explicit pornography and adult content platforms                                  |
-| ④     | Interception of Surveillance Nodes | Inspection_Block.list  | Blocks link-layer or upstream manipulations like DPI, DNS poisoning, HTTP injection, MITM     | Identified manipulation from ISPs or middleboxes altering/redirecting traffic     |
-| ⑤     | Behavioral Analysis and Telemetry Node Interception      | Behavior_Block.list    | Blocks SDKs or cloud services with telemetry/analytics traits based on DNS/TLS/QUIC/CDN cues  | Based on behavioral patterns, protocol fingerprints, excludes ad or passive SDKs  |
-| ⑥     | Background Callback and Silent Communication Node Blocking         | Background_Block.list  | Blocks silent background callbacks, config uploads, device-to-cloud comms, IoT/NAS SDKs       | Based on frequency, reconnection patterns, and telemetry behavior                 |
-| ⑦     | Backdoor Command and Implant Communication Node Blocking     | Backdoor_Block.list    | Includes C2 infra of backdoors like RAT, Sliver, Metasploit etc., used for remote access      | Confirmed malicious traffic or infrastructure directly tied to implant attacks    |
-| ⑧     | Botnet Infrastructure and Command Node Blocking        | Botnet_Block.list      | Aggregates botnet C2s, DDoS nodes, mass scanners, UDP flooders                               | High-frequency, broad distribution, verified as botnet nodes                      |
-| ⑨     | APT Threat Source Blocking              | APT_Block.list         | IOC from public APT disclosures with clear org/country labels (APT1 ~ APTxx)                 | Verified by public threat reports and attribution                                  |
-| ⑩     | Pegasus Spyware Communication Node Blocking | Pegasus_Block.list     | IOC from Amnesty’s Pegasus reports: C2 nodes, redirects, spyware domains                     | Amnesty-disclosed Pegasus C2s with surveillance risk. Recommended to block                       |
-| ⑪ | PCDN Content Delivery Network Blocking | PCDN_Block.list | Blocks suspicious PCDN nodes using shared-bandwidth models, including caching, relaying, and chain distribution | Involves opaque P2P forwarding with risks of bandwidth abuse, privacy leaks, and misuse; recommended to block |
+| Module ID | Module Name | File Name | Description | Criteria |
+| :-------: | :---------: | :------------------------: | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ① | Untrusted Certificate Authorities (Optional Module) | CA_Block.list | Flags CA root certificates, OCSP endpoints, and CRL domains with known incidents of misuse or revocation. Recommended for scenarios requiring enhanced digital trust. *(Disabled by default)* | Involves cases of certificate misuse, unauthorized issuance, or public revocation records |
+| ② | Advertising Domain Detection | AdDomain.list | Covers domains used in commercial advertising delivery, social pixel tracking, behavioral analytics, and third-party SDK statistics *(Disabled by default)* | Identified based on behavioral patterns and data collection models, distinguished from telemetry-related communications |
+| ③ | Adult Content Domain Detection | AdultDomain.list | Covers domains related to major global adult content platforms *(Disabled by default)* | Domains directly associated with adult content distribution |
+| ④ | PCDN Communication Detection | PCDNDomain.list | Identifies link behaviors suspected to use “shared bandwidth” models, involving device relays, cache nodes, and distributed delivery networks *(Disabled by default)* | Identified based on traffic patterns and node distribution consistent with multi-hop relay and cache characteristics |
+| ⑤ | Traffic Inspection & Node Detection | InspectionDomain.list | Detects active network-level interventions such as DPI probing, DNS poisoning, HTTP injection, and MITM eavesdropping *(Disabled by default)* | Identified based on traffic anomalies like tampering, redirection, and injection, commonly seen in manipulated network environments |
+| ⑥ | Behavioral Analytics / Telemetry Node Detection | BehaviorDomain.list | Flags cloud service nodes with identifiable behavioral fingerprinting, including telemetry SDKs, analytics platforms, and behavioral modeling services *(Disabled by default)* | Focused on behavior-analytic SDK communication patterns via DNS/TLS traffic; excludes ad or data-upload SDKs |
+| ⑦ | Background Reconnections & Silent Communication Blocking | Background_Block.list | Identifies domains used by IoT, NAS, or SDKs for config uploads or device callbacks, aiding detection of stealth telemetry communications *(Disabled by default)* | Focused on background connection behavior via callback frequency, paths, and data uploads; excludes ad and analytics SDKs |
+| ⑧ | Backdoor Control & Implant Communication Blocking | Backdoor_Block.list | Blocks known malicious infrastructure involving remote access tools (RATs), reverse shells, heartbeat signals, etc. *(Enabled by default)* | Clearly associated with malicious traffic or exploit backdoors |
+| ⑨ | Botnet & Command Node Blocking | Botnet_Block.list | Blocks known botnet controllers, DDoS nodes, and mass-control infrastructure *(Enabled by default)* | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
+| ⑩ | APT Threat Source Blocking | APT_Block.list | Blocks C2 infrastructure used by known APT groups, with national attribution tags and intelligence source references *(Enabled by default)* | Derived from public threat intelligence with reliable attribution and IoC chains |
+| ⑪ | Pegasus Spyware Communication Blocking | Pegasus_Block.list | Contains domains disclosed by Amnesty used by Pegasus spyware for C2 communication *(Enabled by default)* | Based on Amnesty’s public disclosures of Pegasus C2 infrastructure, indicating high surveillance risk |
 
 ## **Auto Update**
 
@@ -159,13 +159,16 @@ The above acknowledgements are listed in no particular order.If you believe your
 
 This project is a non-profit, open-source security rule set aimed at helping users enhance their network defense capabilities. By using this project, you acknowledge that you have read, understood, and agreed to the following terms:
 
-1. **Third-Party Sources**: Some rules are based on publicly available threat intelligence (e.g., security reports, threat databases, GitHub projects). All references are properly cited. If you believe any content is inappropriate, please contact the author for revision or removal.
-2. **False Positive Warning**: As the rule set may include generalized blocking strategies, users must conduct thorough testing before deployment to ensure normal functionality is not impacted. The project author assumes no responsibility for issues caused by false positives, including connection failures or feature disruptions.
-3. **Commercial Use Notice**: This project is released under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE) License. You are free to use it for both commercial and non-commercial purposes, provided that you comply with the license terms and retain proper attribution and annotations. We oppose misuse of the rules for closed-source, anti-public-interest, or anti-open-source practices.
-4. **No Warranty**: This project is provided “as is”, without any express or implied warranties regarding its completeness, accuracy, timeliness, or suitability. Users bear full responsibility for any risks incurred from its use.
-5. **Usage Restrictions**: All rules and configuration files are strictly intended for legal purposes, including network defense, traffic control, and security research. Any use for offensive actions, reverse engineering, audit evasion, or other illicit activities is strictly prohibited.
-6. **Liability Limitation**: The project author shall not be held liable for any direct or indirect losses (including but not limited to data breaches, service interruptions, or security failures) arising from the use, duplication, or distribution of this project.
-7. **Right to Modify**: The project author reserves the right to update, modify, or remove any part of this project or disclaimer at any time without prior notice. You are advised to regularly check the repository for the latest version.
+This project is a non-commercial, open-source security rule set intended to help users enhance their network security posture. By using this project, you acknowledge that you have read, understood, and agreed to the following terms:
+
+1. **Third-Party Source Notice**: Portions of this project reference publicly available threat intelligence (e.g., security community reports, threat databases, GitHub projects). All such references are properly cited. If you believe there is an issue, please contact us for correction or removal.
+2. **Module Activation Statement**: This project adheres to principles of technological neutrality and information transparency. The rule sets are designed to assist users in identifying potential communication threats. All detection modules are disabled by default. Policy definition and activation are entirely at the discretion of the user. The project author assumes no responsibility for any communication impact caused by user-defined configurations.
+3. **False Positive Warning**: As the rule sets may include generalized blocking strategies, users are advised to conduct thorough testing before deployment to ensure normal business operations are not affected. The project author bears no responsibility for connection disruptions, functional issues, or other consequences caused by false positives.
+4. **Commercial Use Notice**: This project is released under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE). You are free to use it for both commercial and non-commercial purposes, provided you comply with the license terms, including attribution and documentation requirements. We strongly oppose abuse of the rule set for closed-source development, infringement of public interest, or any actions contrary to the spirit of open-source.
+5. **No Warranty Clause**: This project is provided “as is” without any express or implied warranties regarding its completeness, accuracy, timeliness, or suitability. Users must assess applicability on their own and bear all associated risks.
+6. **Usage Restrictions**: All rules and configuration files are intended solely for lawful purposes such as network defense, traffic identification, and security research. Any use for offensive actions, reverse engineering, audit bypassing, or illegal activities is strictly prohibited.
+7. **Limitation of Liability**: The project author shall not be held liable for any direct or indirect damages (including but not limited to data breaches, business disruption, or security failures) resulting from the use, replication, or distribution of this project.
+8. **Right to Modify**: The project author reserves the right to update, modify, or remove any content or disclaimer clauses at any time without prior notice. It is recommended that users periodically review the repository for the latest version.
 
 **Author’s Statement**: This project does not engage in malicious activities, does not include hidden backdoors or monitoring mechanisms, does not promote proxy services, and contains no obfuscated or harmful logic. All rule contents are written in plain text, fully commented, structured clearly, and hosted solely within this repository for community review, audit, and traceability.
 
@@ -183,35 +186,8 @@ Additionally, the Aegis project has enabled [GPG](https://gnupg.org) commit sign
 
 ## 🙌 Community Support
 
-If you find this project valuable, feel free to Star ⭐️ it. All rule updates are announced through our [Telegram](https://telegram.org) channels — you're welcome to subscribe and stay informed:
+If you find value in this project, please consider giving it a ⭐️ Star. All relevant updates will be announced via our [Telegram](https://telegram.org) notification channels — feel free to subscribe and stay informed.
 
-**Telegram Release Channel** - <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a> : Publishes the latest rule versions, changelogs, and important announcements  
+**Telegram Update Channel** – <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a>: Publishes the latest rule versions, changelogs, and important announcements.
 
-**Telegram Community Group** - <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a> : Share suggestions, report false positives, and participate in collaborative rule development
-
----
-
-## 🚧 This project is archived
-
-This repository is now archived and no longer actively maintained.
-All contents are preserved for educational and research purposes only.
-
-🙏 Friendly reminder: If you have previously forked this repository, please consider deleting your fork to reduce potential risk.
-
-Thank you to everyone who followed, used, and supported this project along the way.
-Out of an abundance of caution, we have decided to pause development.
-Perhaps in the future, under more suitable circumstances, there may be a new beginning.
-
----
-
-Final Words
-
-Ideals are often full and beautiful, but reality can be harsh.
-With the experience I’ve gained—and your companionship—I will start anew.
-
-By the way, there’s actually an Easter egg hidden in this project.
-It may no longer hold much meaning, and no promises will be fulfilled even if you find it.
-But if you do, I hope it brings a knowing smile to your face.
-
-Thank you—and farewell.
-Until we meet again.
+**Telegram Community Group** – <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a>: Open for suggestions, feedback, and collaborative contributions from the community.

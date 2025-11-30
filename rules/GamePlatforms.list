@@ -2,9 +2,9 @@
 # - 分类：游戏平台 / 数字发行平台 / 策略识别用途
 # - 来源：官方平台域名 / 社区整理 / 实测抓包分析
 # - 特征：涵盖 Steam、Epic、PlayStation、Nintendo 等主流游戏平台访问域名
-# - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
+# - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-04
+# - 更新时间：2025-11-30
 
 # > Steam 平台（Valve 旗下）
 DOMAIN-SUFFIX,steampowered.com # Steam 官方域名

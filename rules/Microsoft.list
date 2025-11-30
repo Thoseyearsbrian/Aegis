@@ -2,9 +2,9 @@
 # - 分类：Microsoft 核心服务 / 云办公组件 / 网络通信平台
 # - 来源：微软官方文档 / 实测抓包 / 社区整理
 # - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
-# - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
+# - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-17
+# - 更新时间：2025-11-30
 
 # > Microsoft Visual Studio Code 主程序与资源服务
 

@@ -1,11 +1,11 @@
-# > CA_Block.list（CA 信任封锁总模块）
-# - 分类：根证书信任控制 / 国家级监听防护 / CA 滥用阻断
-# - 来源：Mozilla Root Program / Chrome CA Policy / Apple 信任撤销记录 / 安全社区情报
-# - 特征：封锁已被吊销、签发虚假证书、参与中间人攻击或监听行为的 CA 相关验证域名（如 TrustCor、WoSign、DigiNotar 等）
-# - 提示：本模块封锁内容为已确认不安全的 CA 验证域名，默认不启用，仅建议在安全策略中按需启用
+# > CA_Block.list（CA 信任识别模块）
+# - 分类：根证书信任识别 / CA 风险评估 / 加密通信信任控制
+# - 来源：Mozilla Root Program / Chrome CA Policy / Apple 信任撤销列表 / 安全社区情报
+# - 特征：识别曾存在滥用、误签、信任撤销、或与中间人攻击相关风险事件的 CA 验证域名
+# - 提示：本模块所列内容基于公开信任撤销与安全事件记录，默认不启用，建议根据场景按需启用
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-08
+# - 更新时间：2025-11-30
 
 # > Trustwave CA（美国，曾提供监听型中间证书）
 

@@ -1,10 +1,10 @@
-# > AdTracking_Block.list（广告追踪域名拦截主规则集）  
+# > AdDomain.list（广告识别规则集）  
 # - 分类：广告追踪 / 行为分析 / 数据监听  
 # - 来源：EasyList / 社区规则整理 / 实测抓包分析 / 手动校验补充 / 自定义样本
-# - 特征：拦截追踪脚本、行为分析 SDK、监听型 CDN 请求等
-# - 用途：本规则集用于防御性安全研究,禁止用于任何非法用途
-# - 维护：https://github.com/Thoseyearsbrian/Aegis  
-# - 更新时间：2025-11-19
+# - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
+# - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
+# - 维护：https://github.com/Thoseyearsbrian/Aegis
+# - 更新时间：2025-11-30
 
 # > 广告相关域名
 
@@ -469,7 +469,7 @@ DOMAIN-SUFFIX,1b9e934cbd.com # 广告 / 跳转域名,存在于多个规则集中
 DOMAIN-SUFFIX,1be953d1cc.com # 广告跳转 / 脚本注入风险域名
 DOMAIN-SUFFIX,1betandgonow.com # 跳转广告 / 联盟推广域名
 DOMAIN-SUFFIX,1bm3n8sld.de # 被 AdGuard 列为过滤目标,疑似广告用途
-DOMAIN-SUFFIX,1c0c3fde9d.com # 被多个规则集封锁,疑似广告脚本域名
+DOMAIN-SUFFIX,1c0c3fde9d.com # 广告
 DOMAIN-SUFFIX,1c6fd11ca2.com # 广告 / 跳转用途域名,常见于 SDK 调用链
 DOMAIN-SUFFIX,1fcf60d54c.com # 可疑广告跳转域名,待验证行为特征
 DOMAIN-SUFFIX,1fd92n6t8.de # 可疑广告 / 跳转域名,结构异常
@@ -2435,7 +2435,6 @@ DOMAIN-SUFFIX,ajump2.com # 同样 “jump” 跳转特征域名
 DOMAIN-SUFFIX,ajxx98.online # 随机 + “online” 域名,广告 / 跳转用途可能    
 DOMAIN-SUFFIX,ak-is2.net # DNS 记录显示为广告 / 脚本中继用途（ad-is2.net 架构）  
 DOMAIN-SUFFIX,ak-tracker.com # “tracker” 命名明确指向行为追踪 / 数据监测用途   
-DOMAIN-SUFFIX,akamaized.net # Akamai CDN 服务域名,非广告用途,不应封锁   
 DOMAIN-SUFFIX,akdrclfipxvkj.store # 混淆 + .store 域名,广告 / 营销用途可能  
 DOMAIN-SUFFIX,akespwccvxzsoj.com # 可疑广告 / 跳转域名  
 DOMAIN-SUFFIX,akeuskara.shop # 混淆结构域名,存在广告脚本调用可能  
@@ -3829,7 +3828,6 @@ DOMAIN-SUFFIX,blu5fdclr.com # 哈希结构域名,疑似广告用途
 DOMAIN-SUFFIX,blue.ktla.com # 地区媒体域名,非广告追踪用途  
 DOMAIN-SUFFIX,bluedindow.cyou # 可疑跳转 / 广告中转域名  
 DOMAIN-SUFFIX,bluehost-cdn.com # Bluehost 的 CDN 子域,托管静态资源服务,不属于广告跳转  
-DOMAIN-SUFFIX,bluehost.com # Bluehost 主站,为正规主机服务商域名,不应封锁  
 DOMAIN-SUFFIX,bluepromocode.com # 优惠促销类域名,有广告 / 推广用途  
 DOMAIN-SUFFIX,bluffydelicat.click # 可疑 click 类型广告域名   
 DOMAIN-SUFFIX,blushsahara.top # 可疑广告 / 落地页域名  
@@ -5814,7 +5812,7 @@ DOMAIN-SUFFIX,dating-honey-girls.com # 明确广告用途交友域名,用于女�
 DOMAIN-SUFFIX,dating-honeygirles.com # 针对广告分发的速配平台域名,用于虚假匹配诱导
 DOMAIN-SUFFIX,dating-service.net # 泛用交友平台广告入口域名,用于SDK内嵌推广行为
 DOMAIN-SUFFIX,dating2cloud.org # 第三方广告SDK跳转域名,用于采集与广告行为
-DOMAIN-SUFFIX,datingadvicefree.com # 交友建议包装下的广告域名,含诱导跳转与采集表单
+DOMAIN-SUFFIX,datingadvicefree.com # 交友包装下的广告域名,含诱导跳转与采集表单
 DOMAIN-SUFFIX,datingcentral.top # 多语言交友广告域名,用于点击欺诈与表单诱导
 DOMAIN-SUFFIX,datingkoen.site # 存在约会类广告跳转行为,部分页面疑似仿冒交友服务
 DOMAIN-SUFFIX,datingshall.life # 可疑站点,首页存在交友话术生成器,疑似广告诱导行为
@@ -6018,7 +6016,6 @@ DOMAIN-SUFFIX,dstillery.com # 知名 AdTech 公司,提供定向广告 / 用户�
 DOMAIN-SUFFIX,dtadnetwork.com # 名称包含 “ad network”,高度可疑为广告网络中间域名
 DOMAIN-SUFFIX,dtpngkqmjyuff.store # .store 后缀 + 随机主域名,可能为贩售 / 营销用途,但暂无广告跳转证据  
 DOMAIN-SUFFIX,dtprofit.com # 名称带 “profit”,有利润 / 广告暗示,可能为广告 / 业务推广用途
-DOMAIN-SUFFIX,dtx.click # 可疑短域名 + click,用于跳转或广告可能性较高,但无公开情报确认,标注“可疑广告跳转域名”并建议观察或阻断
 DOMAIN-SUFFIX,dualmarket.info # 出现用户在 Google Ads 上报该域为 “malicious entity” 标记
 DOMAIN-SUFFIX,dubbyamazons.help # 拼接含 “amazon” 字样 + 帮助类域名,极有可能为钓鱼或广告用途
 DOMAIN-SUFFIX,duchesscakeresumed.com # 与恶意／恶意重定向有关（被列为 malware） 
@@ -6304,7 +6301,6 @@ DOMAIN-SUFFIX,ftjcfx.com # 广告跳转服务域名,用于联盟营销统计
 DOMAIN-SUFFIX,ftopx.com # 广告重定向与追踪域名,常用于 affiliate 推广
 DOMAIN-SUFFIX,ftv-publicite.fr # 法国电视广告相关域名,有广告用途特征
 DOMAIN-SUFFIX,funappgames.com # 可疑应用推广站点,存在游戏跳转广告
-DOMAIN-SUFFIX,fungideased.shop # 可疑健康类假站,疑似用于销售虚假药物广告为广告封锁域名
 DOMAIN-SUFFIX,funniestpins.com # 搞笑内容聚合站,存在第三方广告组件
 DOMAIN-SUFFIX,funnyjunk.com # 确认存在广告组件（Banner / Video Ads）
 DOMAIN-SUFFIX,funtoday.info # 内容聚合类站点,存在广告联盟代码
@@ -6460,13 +6456,13 @@ DOMAIN-SUFFIX,gridrelay27.co # 在 AdGuard SDNS 过滤列表中列为广告域�
 DOMAIN-SUFFIX,grievedvicerecord.com # 在 AdGuard SDNS 过滤列表中列为广告域名  
 DOMAIN-SUFFIX,grunoaph.net # 被报告为浏览器重定向 / 弹窗广告域名,关联 Adware / PUP 行为  
 DOMAIN-SUFFIX,gsecurecontent.com # 多处报告为弹窗 / 重定向广告 / PUP 行为,应屏蔽  
-DOMAIN-SUFFIX,gwallet.com # 有情报显示 “rs.gwallet.com” 被列为潜在威胁子域,因此建议拦截  
-DOMAIN-SUFFIX,gypsyairplanereign.com # 在 EasyList 中列为广告域名（与宣传 / 链接跳转相关）  
-DOMAIN-SUFFIX,gypsyimpel.com # 在 EasyList 中列为广告域名  
-DOMAIN-SUFFIX,gypsyproducing.com # 在 EasyList 中列为广告域名  
-DOMAIN-SUFFIX,gypsysidearm.click # 在 EasyList 中列为广告域名  
-DOMAIN-SUFFIX,gyretantrik.cfd # 在 EasyList 中列为广告域名  
-DOMAIN-SUFFIX,gyronsamal.cyou # 在 EasyList 中列为广告域名  
+DOMAIN-SUFFIX,gwallet.com # # 确认在广告规则列表中（广告域名）
+DOMAIN-SUFFIX,gypsyairplanereign.com # 确认在广告规则列表中（广告域名）  
+DOMAIN-SUFFIX,gypsyimpel.com # 确认在广告规则列表中（广告域名）  
+DOMAIN-SUFFIX,gypsyproducing.com # 确认在广告规则列表中（广告域名）  
+DOMAIN-SUFFIX,gypsysidearm.click # 确认在广告规则列表中（广告域名） 
+DOMAIN-SUFFIX,gyretantrik.cfd # 确认在广告规则列表中（广告域名）  
+DOMAIN-SUFFIX,gyronsamal.cyou # 确认在广告规则列表中（广告域名）  
 DOMAIN-SUFFIX,hadrealshoemaker.com # 确认在广告屏蔽规则列表中（广告域名）  
 DOMAIN-SUFFIX,hadronid.net # 确认在广告规则列表中（广告域名）  
 DOMAIN-SUFFIX,hadsanz.com # 确认在广告规则列表中（广告域名）  
@@ -6575,7 +6571,7 @@ DOMAIN-SUFFIX,impactify.media # 同上媒体 / 推广平台命名风格
 DOMAIN-SUFFIX,impactradius-go.com # 与知名广告 / 跟踪平台 “Impact Radius” 结构相似,标记“可疑广告 / 跟踪用途”  
 DOMAIN-SUFFIX,impactradius.com # 确认为广告 / 营销 / 跟踪平台域名（Impact 平台系）  
 DOMAIN-SUFFIX,impactserving.com # 名称直接指 “serving / 服务 / 广告派发” 用途,标记为广告 / 跟踪用途  
-DOMAIN-SUFFIX,impactslam.com # 有用户举报为诈骗电商站点,信任评分偏低,存在欺诈风险,建议收录为屏蔽  
+DOMAIN-SUFFIX,impactslam.com # 有用户举报为诈骗电商站点,信任评分偏低,存在欺诈风险
 DOMAIN-SUFFIX,impropermoleculeshilling.com # 确认广告域名,出现在广告过滤名单中  
 DOMAIN-SUFFIX,improvebin.xyz # 确认广告域名,有广告过滤规则匹配  
 DOMAIN-SUFFIX,in-page-push.com # 确认广告 / 欺诈推送域名,被列为风险域名  
@@ -6974,16 +6970,7 @@ DOMAIN-SUFFIX,nubbycoolly.com # 看似有语义但无广告记录,标为可疑
 DOMAIN-SUFFIX,nubseech.com # 无广告记录,标为可疑  
 DOMAIN-SUFFIX,nuddmuckite.qpon # .qpon 后缀稀有,无广告记录,标为可疑  
 DOMAIN-SUFFIX,nudipedmahouts.cyou # 含 “nudi ped” 词根 + .cyou 后缀,极可能广告用途 
-DOMAIN-SUFFIX,numberium.com # 含 number 词根,可能与流量统计 / 广告用途相关,但无记录,标为可疑  
-DOMAIN-SUFFIX,numbers.md # “numbers.md” 医疗科目后缀,广告用途可能性低,标为可疑  
-DOMAIN-SUFFIX,numbertrck.com # 含 “number track” 可能用于统计/广告追踪用途,可疑  
-DOMAIN-SUFFIX,nutrevahealth.com # 含 health 关键词, 可能为健康类广告用途, 标为可疑   
-DOMAIN-SUFFIX,nutritionpenguinbiopsy.com # 含 nutrition 关键词, 可能为健康/广告用途, 标为可疑  
-DOMAIN-SUFFIX,nutritionrantlullaby.com # 含 nutrition 关键词, 可能为健康/ads, 标为可疑  
-DOMAIN-SUFFIX,nutritiousrush.com # 含 nutritious 词义, 可能为营养 / 健康广告用途, 标为可疑  
-DOMAIN-SUFFIX,nxtpsh.top # 含 “psh” + .top 后缀, 极可能为推送 / 跳转广告用途, 建议收录  
-DOMAIN-SUFFIX,nylaststatary.shop # .shop 后缀 + “statary” 词根, 可能用于广告/商城用途, 标为可疑  
-DOMAIN-SUFFIX,nylonsbeauty.com # 含 “nylons beauty”,可能广告用途,但无确切记录,标为可疑    
+DOMAIN-SUFFIX,nxtpsh.top # 含 “psh” + .top 后缀, 极可能为推送 / 跳转广告用途 
 DOMAIN-SUFFIX,nzme-ads.co.nz # 包含 “ads” 词汇,可能广告用途 
 DOMAIN-SUFFIX,o18.click # 已知用于广告重定向、浏览器劫持跳转行为,应归入拦截规则  
 DOMAIN-SUFFIX,o6z2a2kq8fatj3ch0x5ow6v82ha2gja8x8c7w6pc5gx2ls0zia7bx1n28b5d.com # 恶意用途
@@ -7269,7 +7256,6 @@ DOMAIN-SUFFIX,realcfadsblog.com # 含 “ads” 一词,强广告倾向,应保留
 DOMAIN-SUFFIX,realhumandeals.com # 含 “deals”,有电商 / 推广意图可能 / 保留  
 DOMAIN-SUFFIX,realitytraffic.com # 含 “traffic”,可能为广告 / 推广流量工具域名  
 DOMAIN-SUFFIX,reallyzills.top # .top 后缀 + 拼接词汇,倾向垃圾 / 推广站点  
-DOMAIN-SUFFIX,realssp.co.kr # .co.kr + 含 “ssp”（可能为广告服务平台名缩写）,高风险建议保留  
 DOMAIN-SUFFIX,realtime-bid.com # 含 “bid”,与竞价 / 广告竞价有关,高风险广告用途  
 DOMAIN-SUFFIX,reasonskvutzah.click # .click 后缀 + 拼接结构,倾向推广 / 广告用途  
 DOMAIN-SUFFIX,rebaitgoblet.click # .click 后缀 + 含 “bait”,高诱导 / 广告倾向  
@@ -7374,16 +7360,12 @@ DOMAIN-SUFFIX,romantlcaffair.net # 情感 / 约会方向
 DOMAIN-SUFFIX,roobetaffiliates.com # 涉及 “bet” + “affiliates”,强烈广告/联盟用途 
 DOMAIN-SUFFIX,rootzaffiliates.com # 包含 “affiliates”,可能为联盟 / 广告用途  
 DOMAIN-SUFFIX,rotator.tradetracker.net # tradetracker 为已知广告 / 联盟跟踪网络 
-DOMAIN-SUFFIX,rs-stripe.com # 广告系统域名,用于广告联盟 / ad system   
-DOMAIN-SUFFIX,rtb-1.xcafe.com # 可疑诱导性后缀 / 品牌名,未见明确广告情报   
+DOMAIN-SUFFIX,rs-stripe.com # 广告系统域名,用于广告联盟 / ad system    
 DOMAIN-SUFFIX,rtb-media.me # “rtb” + “media” 组合,很可能为广告系统域名
 DOMAIN-SUFFIX,rtbadsmenetwork.com # 含 “ads” + “network”,极可能广告网络域名
-DOMAIN-SUFFIX,rtbfradhome.com # 可疑域名
-DOMAIN-SUFFIX,rtbfradnow.com # 可疑域名
 DOMAIN-SUFFIX,rtbpop.com # 含 “pop” 弹窗暗示性质
 DOMAIN-SUFFIX,rtbpopd.com # 同上
 DOMAIN-SUFFIX,rtbreachads.com # 含 “ads” + “breach”,广告相关词汇,很可能为广告用途
-DOMAIN-SUFFIX,rufadses.net # “ads” 字样暗示广告用途,但未查到确切用途,标注可疑 
 DOMAIN-SUFFIX,rugbymentalads.com # 含 “ads” 提示广告用途,可能是广告站点 
 DOMAIN-SUFFIX,rummyaffiliates.com # 含 “affiliates” 提示可能是推广 / 联盟营销用途 
 DOMAIN-SUFFIX,run4app.com # 看似 app 推广域名,可能用于流量 / 广告用途 
@@ -7449,25 +7431,18 @@ DOMAIN-SUFFIX,sleazyneasy.com # 含 “sleazy”,暗示不良内容或诱导性�
 DOMAIN-SUFFIX,slickspikeagency.com # 含 “agency”,可能为广告 / 推广中介用途  
 DOMAIN-SUFFIX,smart1adserver.com # 含 “adserver”,广告平台性质明显
 DOMAIN-SUFFIX,smartad.ee # 含 “ad”,广告性质可能
-DOMAIN-SUFFIX,smartads.statsperform.com # 含 “smartads”,广告 / 统计平台用途可能性高
-DOMAIN-SUFFIX,smartcpatrack.com # 可疑为 CPA 跟踪 / 广告跟踪平台,流量分析显示其用于广告追踪    
+DOMAIN-SUFFIX,smartads.statsperform.com # 含 “smartads”,广告 / 统计平台用途可能性高 
 DOMAIN-SUFFIX,sonobi.com # Sonobi 是知名广告 / 程序化广告公司名  
 DOMAIN-SUFFIX,soonpubplatform.online # 名称中含 platform,可能为推广 / 平台用途  
 DOMAIN-SUFFIX,sourcebait.com # 名称含 bait,有诱导 / 钓鱼暗示  
 DOMAIN-SUFFIX,souvlatraffic.com # 名称含 traffic,有跟踪 / 推广暗示  
-DOMAIN-SUFFIX,spamimpunity.com # “spam” 含义强,可疑垃圾邮件 / 广告相关域名
-DOMAIN-SUFFIX,sparta-tracking.xyz # “tracking” 字眼明显为追踪用途,可疑广告行为
 DOMAIN-SUFFIX,special-offers.online # “special-offers” 明显为广告促销用途,广告确认  
 DOMAIN-SUFFIX,special-promotions.online # “special-promotions” 明显为广告用途,广告确认  
 DOMAIN-SUFFIX,special-trending-news.com # 含 “news” + “special” 诱导意义,但暂无确切广告记录
-DOMAIN-SUFFIX,speednetwork14.com # 含 “network” 可疑广告 / 联网用途,但暂无广告记录
 DOMAIN-SUFFIX,spokeoaffiliates.com # “affiliates” 暗示广告 / 联盟营销用途
 DOMAIN-SUFFIX,sponsormob.com # 广告 / 推广网络域名,广告确认  
 DOMAIN-SUFFIX,sponsorpay.com # 广告 / 支付推广平台域名,广告确认  
-DOMAIN-SUFFIX,spoonyqoph.click # “click” 后缀,可疑广告用途
-DOMAIN-SUFFIX,sportradarserving.com # 含 “serving” 表示广告 / 内容分发用途,可疑广告用途
 DOMAIN-SUFFIX,sports-live-streams.club # 体育直播诱导站点样式,可能含广告 / 违规内容
-DOMAIN-SUFFIX,sports-streams-online.best # 同上,体育流媒体诱导用途,可疑广告用途
 DOMAIN-SUFFIX,sports-streams-online.com # 同上
 DOMAIN-SUFFIX,spotx.tv # 广告视频 / 广告平台域名,广告确认  
 DOMAIN-SUFFIX,spotxcdn.com # 与 SpotX 平台 CDN 相关,广告确认  
@@ -7475,10 +7450,7 @@ DOMAIN-SUFFIX,spotxchange.com # 广告 / 程序化广告平台域名,广告确�
 DOMAIN-SUFFIX,spoutable.com # 广告 / 内容推荐平台域名,广告确认  
 DOMAIN-SUFFIX,sppopups.com # “popups” 明显广告 / 弹窗特征域名
 DOMAIN-SUFFIX,springserve.com # 广告技术 / 投放域名,广告确认  
-DOMAIN-SUFFIX,sptrck.com # 含 “trck”（track 缩写）可疑追踪用途
 DOMAIN-SUFFIX,sptrkr.com # 同上
-DOMAIN-SUFFIX,spunkycash.com # “cash” 含义可疑广告 / 推广用途
-DOMAIN-SUFFIX,sqlick.com # “click” 含义可疑广告用途
 DOMAIN-SUFFIX,squirrels.getsquirrel.co # 子域 getsquirrel.co,疑为内容推荐 / 跟踪用途
 DOMAIN-SUFFIX,srv.dynamicyield.com # 动态广告 / DSP 平台域名,广告确认  
 DOMAIN-SUFFIX,stackadapt.com # 知名 DSP 广告平台域名,确认广告用途  
@@ -7491,7 +7463,6 @@ DOMAIN-SUFFIX,taplingnoonlit.click # 未见公开情报,“.click” + 组合词
 DOMAIN-SUFFIX,tapnative.com # 属于已知广告 /移动广告网络（TapNative）域名规则  
 DOMAIN-SUFFIX,targeting.vdo.ai # 属于 vdo.ai 广告 /视频 /广告平台子域,风险较高 
 DOMAIN-SUFFIX,targetspot.com # 属于已知广告 /广告网络 (TargetSpot) 域名规则  
-DOMAIN-SUFFIX,tatrck.com # 可疑跟踪域名 
 DOMAIN-SUFFIX,tattepush.com # 含 “push” 可能用于通知/推送广告 
 DOMAIN-SUFFIX,tattered-sale.com # 含 “sale” 可能用于促销广告 
 DOMAIN-SUFFIX,tatxbrshtjgfs.site # 高风险 .site + 随机字符串 
@@ -7532,27 +7503,13 @@ DOMAIN-SUFFIX,tealsxenicus.click # 高风险 .click
 DOMAIN-SUFFIX,teeteryschelm.click # 高风险 .click 
 DOMAIN-SUFFIX,teethellos.rest # 高风险 .rest 
 DOMAIN-SUFFIX,teetusee.xyz # 高风险 .xyz 
-DOMAIN-SUFFIX,terraclicks.com # 可疑点击 / 广告域名
-DOMAIN-SUFFIX,terrapush.com # 可疑推送广告域名
-DOMAIN-SUFFIX,thebigadsstore.com # 可疑广告商店域名
-DOMAIN-SUFFIX,thebtrads.top # 可疑广告 / 推广域名
-DOMAIN-SUFFIX,tinyadz.com # 可疑广告域名
-DOMAIN-SUFFIX,titanads1.com # 可疑广告网络域名
-DOMAIN-SUFFIX,titanads2.com # 可疑广告网络域名
-DOMAIN-SUFFIX,titanads3.com # 可疑广告网络域名
-DOMAIN-SUFFIX,titanads4.com # 可疑广告网络域名
-DOMAIN-SUFFIX,titanads5.com # 可疑广告网络域名
-DOMAIN-SUFFIX,tivatingotherem.org # 可疑伪造域名,疑似钓鱼  
 DOMAIN-SUFFIX,tivqggcgnqlom.space # 随机生成域名,疑似僵尸网络  
-DOMAIN-SUFFIX,tiymvltgbllto.site # 可疑域名结构,疑似 C2 节点  
 DOMAIN-SUFFIX,tiypa.com # 简短高风险域名,疑似恶意脚本加载  
-DOMAIN-SUFFIX,tjaard11.xyz # 可疑跳转域名,疑似广告站  
 DOMAIN-SUFFIX,tjepekenkccqi.online # 无意义组合,疑似恶意跳板  
 DOMAIN-SUFFIX,tjhoocqyksmsm.site # 随机域名,疑似监听通信  
 DOMAIN-SUFFIX,tjketwpebirwl.net # 恶意记录存在,疑似僵尸网络控制端  
 DOMAIN-SUFFIX,tjldvrjh.com # 简短乱序域名,疑似 C2 控制器  
 DOMAIN-SUFFIX,tjlsvkucubbgl.space # 随机子串域名,具备恶意特征  
-DOMAIN-SUFFIX,tjmsqsemqyshc.website # 可疑构造,疑似绕过检测用途  
 DOMAIN-SUFFIX,tjoomo.com # 出现在广告屏蔽名单中,确认为广告域名   
 DOMAIN-SUFFIX,topadsservices.com # 广告 / 投放服务域名可能性高
 DOMAIN-SUFFIX,topcpmcreativeformat.com # 广告 / CPM 格式域名可能性高 

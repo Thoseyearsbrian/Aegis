@@ -2,9 +2,9 @@
 # - 分类：日常办公 / 远程协作 / 社区交流 / 云存储 / 学术工具 / 娱乐平台等国外常用服务
 # - 来源：按照分类自主整理
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
-# - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
+# - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-19
+# - 更新时间：2025-11-30
 
 # > Speedtest 网络测速平台
 
@@ -3970,6 +3970,19 @@ DOMAIN-SUFFIX,edgesuite.net # Akamai CDN 加速域名，常与大型平台集成
 
 DOMAIN-SUFFIX,cdn.lrkt-in.com # Lark/Feishu 登录页使用的 CDN 域名，用于加载界面资源与样式文件  
 DOMAIN-SUFFIX,player.vimeo.com # Vimeo 嵌入式播放器域名，用于加载 iframe 视频播放器组件  
+
+# > WakaTime 编程时间统计与编辑器活动追踪服务域名（Coding‑Time Tracker）
+
+DOMAIN-SUFFIX,wakatime.com # WakaTime 主域名，用于用户仪表盘、项目时间统计与账户服务  
+DOMAIN-SUFFIX,api.wakatime.com # WakaTime API 接口域名，用于 IDE 插件 / 编辑器 Heartbeat 上传与数据同步
+
+# > GitHub Readme Stats 服务（README 动态统计卡片）
+
+DOMAIN-SUFFIX,github‑readme‑stats‑opal‑alpha‑76.vercel.app # GitHub Readme Stats 的 Vercel 实例域名，用于动态生成 GitHub 仓库／用户统计卡片（stars / commits / languages / contributions 等）
+
+# > Komarev 域名（依赖 / 服务统计 /资源加速）
+
+DOMAIN-SUFFIX,komarev.com # Komarev 公共域名，常用于统计 / CDN / 仓库 README 相关服务或外部资源加载
 
 # > 其他 (暂未分类)
 

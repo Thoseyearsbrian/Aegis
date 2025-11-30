@@ -2,10 +2,10 @@
 # - 分类：Apple 官方服务 / 系统组件 / 网络行为
 # - 来源：Apple 官方文档 / 实测抓包 / 社区整理
 # - 特征：涵盖 Apple ID 登录、iCloud 同步、推送通知、地图服务、激活更新等常见网络行为
-# - 说明：部分 Apple 行为探测域名已列入 Behavior_Block.list,广告类已加入 AdTracking_Block.list 详见最后明细
-# - 用途：本规则集用于流量策略识别与精细化路由，禁止用于任何非法用途
+# - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
+# - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-16
+# - 更新时间：2025-11-30
 
 # > 系统服务（System Services）
 
@@ -167,14 +167,14 @@ DOMAIN-SUFFIX,gs-loc.apple.com # Apple 全球定位服务
 IP-CIDR,63.92.224.0/19 # Apple Maps / CDN 服务段
 PROCESS-NAME,locationd # Apple 定位系统核心进程
 
-# > 已列入AdTracking_Block.list明细:--建议封锁
+# > 已列入AdDomain.list明细:
 
 # DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
 # DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，已停用但可能残留请求）
 # DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）
 # DOMAIN-SUFFIX,ca.iadsdk.apple.com # Apple iAd 广告 SDK 子域，用于广告归因/跟踪服务
 
-# > 已列入 Behavior_Block.list明细：--建议封锁
+# > 已列入 BehaviorDomain.list明细:
 
 # DOMAIN-SUFFIX,analytics.edge.apple # Apple 分析数据上报服务
 # DOMAIN-SUFFIX,feedbackws.apple.com # 用户反馈与错误日志上报
@@ -185,8 +185,8 @@ PROCESS-NAME,locationd # Apple 定位系统核心进程
 # DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 # DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
 # DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple CDN 域名，用于 Crash 报告与诊断日志收集
-# DOMAIN-SUFFIX,pancake.apple.com # RTC 网络质量上报服务，建议封锁
-# DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名，建议封锁
-# DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务，建议封锁（涉及系统认证）
+# DOMAIN-SUFFIX,pancake.apple.com # RTC 网络质量上报服务
+# DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名
+# DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务
 
 
