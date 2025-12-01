@@ -591,3 +591,7 @@ DOMAIN-SUFFIX,api.honeycomb.io # Honeycomb API 服务域名，用于发送与查
 # > Intellimize 相关域名
 
 DOMAIN-SUFFIX,log.intellimize.co # Intellimize 行为日志与事件追踪上报端点
+
+# > Anthropic 相关域名（信任 / 文档 / 状态 / 控制台）
+
+DOMAIN-SUFFIX,events.anthropic.com # Anthropic Telemetry 事件追踪端点，用于客户端行为事件上报

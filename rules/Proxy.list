@@ -4018,6 +4018,10 @@ DOMAIN-SUFFIX,117902971.intellimizeio.com # Intellimize 站点专属域名，用
 
 DOMAIN-SUFFIX,cdn.sanity.io # Sanity 静态资源与内容分发 CDN，用于图片、数据与媒体文件加载
 
+# > Vanta（安全合规 / SOC2）相关域名
+
+DOMAIN-SUFFIX,static.vanta.com # Vanta 静态资源与前端脚本加载域名，用于安全合规与审计页面展示
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）

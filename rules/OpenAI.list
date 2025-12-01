@@ -45,7 +45,7 @@ DOMAIN-SUFFIX,facebookai.com # Meta AI 早期项目站点（Facebook AI Research
 DOMAIN-SUFFIX,fbai.net # Meta AI 研究与模型托管相关域
 DOMAIN-SUFFIX,meta-llama.com # LLaMA 模型下载与授权页面（第三方注册，归属 Meta）
 
-# > Claude（Anthropic）相关域名
+# > Claude 相关域名
 
 DOMAIN-SUFFIX,claude.com # Claude 主域名，用于品牌展示、跳转与相关服务入口
 DOMAIN-SUFFIX,claude.ai # Claude AI 官方访问域名，用于网页前端与用户交互界面
@@ -64,6 +64,19 @@ DOMAIN-SUFFIX,status.anthropic.com # Anthropic 服务状态监控页
 DOMAIN-SUFFIX,claude.io # Claude 辅助域名，用于品牌保护或跳转（不用于 API）
 DOMAIN-SUFFIX,anthropicstatus.com # Anthropic 状态页备用域名
 DOMAIN-SUFFIX,claude.site # Claude 品牌相关域名，用于跳转、展示或备用服务入口
+
+# > Anthropic 相关域名（信任 / 文档 / 状态 / 控制台）
+
+DOMAIN-SUFFIX,trust.anthropic.com # Anthropic 信任与安全中心，用于查看隐私、合规与安全政策等信息
+DOMAIN-SUFFIX,legal.anthropic.com # Anthropic 法律条款站点，包含服务协议、隐私声明等内容
+DOMAIN-SUFFIX,privacy.anthropic.com # Anthropic 隐私政策页面，用于数据收集、处理与用户权利说明
+DOMAIN-SUFFIX,status.anthropic.com # Anthropic 官方系统状态监控页面，用于查看 API/控制台运行情况
+DOMAIN-SUFFIX,console.anthropic.com # Anthropic 控制台，用于管理 API Key、团队、账单等
+DOMAIN-SUFFIX,developer.anthropic.com # Anthropic 开发者中心，API 文档与 SDK 指南
+DOMAIN-SUFFIX,docs.anthropic.com # Anthropic 技术文档站点，模型说明、参数、使用指南等
+DOMAIN-SUFFIX,resources.anthropic.com # Anthropic 资源中心，用于合规材料、白皮书、企业资料下载
+DOMAIN-SUFFIX,assets.anthropic.com # Anthropic 静态资源域名（图标/脚本/样式）
+DOMAIN-SUFFIX,cdn.anthropic.com # Anthropic 内容分发网络（CDN），用于前端静态内容加载
 
 # > Gemini / Bard（Google AI）
 
