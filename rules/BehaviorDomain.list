@@ -587,3 +587,7 @@ DOMAIN-SUFFIX,transcend-cdn.com # Transcend 隐私合规平台内容分发域名
 # > Honeycomb 观察与遥测服务域名
 
 DOMAIN-SUFFIX,api.honeycomb.io # Honeycomb API 服务域名，用于发送与查询应用监控数据（如 trace、metrics、logs），适用于分布式追踪与性能分析工具
+
+> Intellimize 相关域名
+
+DOMAIN-SUFFIX,log.intellimize.co # Intellimize 行为日志与事件追踪上报端点
