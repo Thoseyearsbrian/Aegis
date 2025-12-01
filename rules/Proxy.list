@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2025-12-01
 
 # > Speedtest 网络测速平台
 
@@ -3983,6 +3983,21 @@ DOMAIN-SUFFIX,github‑readme‑stats‑opal‑alpha‑76.vercel.app # GitHub Re
 # > Komarev 域名（依赖 / 服务统计 /资源加速）
 
 DOMAIN-SUFFIX,komarev.com # Komarev 公共域名，常用于统计 / CDN / 仓库 README 相关服务或外部资源加载
+
+# > Intercom 客服 / 聊天 / 用户支持服务域名 (Intercom Customer Chat & Messaging Service)
+
+DOMAIN-SUFFIX,intercom.com # Intercom 官方主域名，用于客服系统官网、文档、账户管理页面  
+DOMAIN-SUFFIX,intercom.io # Intercom 服务主域名，用于 Messenger、聊天功能、API 接口与资源交互  
+DOMAIN-SUFFIX,widget.intercom.io # Intercom 聊天窗口脚本域名，用于加载 Web Chat Widget 与用户交互界面  
+DOMAIN-SUFFIX,api.intercom.io # Intercom 核心 REST API 接口域名，用于用户数据查询、消息同步与后台交互  
+DOMAIN-SUFFIX,api.eu.intercom.io # Intercom 欧洲区域 API 接口域名（区域式分发，用于 EU 数据中心请求）  
+DOMAIN-SUFFIX,api.au.intercom.io # Intercom 澳大利亚区域 API 接口域名，用于 AU 区数据同步／服务调用  
+DOMAIN-SUFFIX,intercomcdn.com # Intercom 内容分发 CDN 域名，用于脚本、样式、图片/资源加载  
+DOMAIN-SUFFIX,js.intercomcdn.com # Intercom CDN 子域，用于加载 JS 脚本资源（Messenger front‑end）  
+DOMAIN-SUFFIX,static.intercomcdn.com  # Intercom CDN 子域 (静态资源，如图标、样式、assets)  
+DOMAIN-SUFFIX,via.intercom.io # Intercom 转发子域（用于 websocket /实时消息中继 /连接机制）  
+DOMAIN-SUFFIX,nexus-websocket-a.intercom.io # Intercom WebSocket 中继节点域名，用于聊天 / 实时连接  
+DOMAIN-SUFFIX,uploads.intercomcdn.com # Intercom CDN 上传/资源托管子域，用于文件/附件上传、图片展示等  
 
 # > 其他 (暂未分类)
 
