@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2025-12-01
 
 # > OpenAI Chat 系列
 
@@ -45,11 +45,24 @@ DOMAIN-SUFFIX,facebookai.com # Meta AI 早期项目站点（Facebook AI Research
 DOMAIN-SUFFIX,fbai.net # Meta AI 研究与模型托管相关域
 DOMAIN-SUFFIX,meta-llama.com # LLaMA 模型下载与授权页面（第三方注册，归属 Meta）
 
-# > Claude（Anthropic）
+# > Claude（Anthropic）相关域名
 
+DOMAIN-SUFFIX,claude.com # Claude 主域名，用于品牌展示、跳转与相关服务入口
 DOMAIN-SUFFIX,claude.ai # Claude AI 官方访问域名，用于网页前端与用户交互界面
 DOMAIN-SUFFIX,api.anthropic.com # Anthropic Claude 模型调用与 API 接入地址
 DOMAIN-SUFFIX,anthropic.com # Anthropic 官方主页及附属服务域名
+DOMAIN-SUFFIX,api.claude.ai # Claude 新版 API 接口（官方逐步统一到该域名）
+DOMAIN-SUFFIX,api.claude.com # Claude API 的备用/过渡域名
+DOMAIN-SUFFIX,claudeusercontent.com # Claude 用户内容存储域名，用于附件、文件处理等
+DOMAIN-SUFFIX,assets.claude.ai # Claude 前端静态资源（JS/CSS/字体文件）加载域名
+DOMAIN-SUFFIX,cdn.claude.ai # Claude 静态资源 CDN 加速域名
+DOMAIN-SUFFIX,events.claude.ai # Claude Telemetry/日志上报与事件追踪域名
+DOMAIN-SUFFIX,console.anthropic.com # Anthropic 控制台（API 密钥管理、账单等）
+DOMAIN-SUFFIX,developer.anthropic.com # Anthropic 开发者文档与 SDK 信息
+DOMAIN-SUFFIX,docs.anthropic.com # 文档站点，模型说明、API 参考等
+DOMAIN-SUFFIX,status.anthropic.com # Anthropic 服务状态监控页
+DOMAIN-SUFFIX,claude.io # Claude 辅助域名，用于品牌保护或跳转（不用于 API）
+DOMAIN-SUFFIX,anthropicstatus.com # Anthropic 状态页备用域名
 
 # > Gemini / Bard（Google AI）
 
