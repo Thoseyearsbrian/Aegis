@@ -73,6 +73,18 @@ Aegis is hosted on [GitHub](https://github.com) with an automated update mechani
 
 If configuration auto-reload is not enabled, you can manually refresh external resources or reload the profile to ensure the ruleset stays up to date.
 
+### Versioning
+
+Aegis uses Semantic Versioning: vMAJOR.MINOR.PATCH  e.g., Aegis v3.0.1
+
+MAJOR (X) : Major changes in structure or compatibility  👉 Requires re-downloading the configuration and re-adding nodes
+
+MINOR (Y) : New policy groups, new modules, or new features  👉 Recommended to re-download the configuration and re-add nodes
+
+PATCH (Z) : Rule fixes, annotation updates, minor improvements  👉 No need to re-download the configuration; updating external resources is sufficient
+
+💡 It is recommended to enable “Automatically reload when configuration is changed by external programs or remote updates” to ensure PATCH updates take effect automatically.
+
 ## Surge IPv4 Configuration Links
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf  

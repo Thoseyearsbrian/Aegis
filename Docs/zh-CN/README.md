@@ -73,6 +73,18 @@ Aegis 采用 [GitHub](https://github.com) 托管实现自动更新机制，确�
 
 若未启用配置变更自动重载功能，亦可手动刷新外部资源或重新载入配置，以确保规则集保持最新状态。
 
+### 版本说明
+
+Aegis 使用语义化版本号：vMAJOR.MINOR.PATCH  示例：Aegis v3.0.1
+
+MAJOR（X）版本（重大更新）: 涉及结构调整 / 兼容性变化  👉 必须重新下载配置，并重新添加节点
+
+MINOR（Y）版本（新增功能）: 新增策略组 / 新模块 / 新能力  👉 建议重新下载配置，并重新添加节点
+
+PATCH（Z）版本（修复更新）: 修复规则 / 注释补全 / 小幅优化  👉 不用重新下载配置，只需更新外部资源即可
+
+💡 建议勾选「当配置从外部程序或远端修改后自动重新载入」以确保 PATCH 版本自动生效。
+
 ## Surge IPv4 配置链接
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf  
