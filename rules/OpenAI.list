@@ -63,6 +63,7 @@ DOMAIN-SUFFIX,docs.anthropic.com # 文档站点，模型说明、API 参考等
 DOMAIN-SUFFIX,status.anthropic.com # Anthropic 服务状态监控页
 DOMAIN-SUFFIX,claude.io # Claude 辅助域名，用于品牌保护或跳转（不用于 API）
 DOMAIN-SUFFIX,anthropicstatus.com # Anthropic 状态页备用域名
+DOMAIN-SUFFIX,claude.site # Claude 品牌相关域名，用于跳转、展示或备用服务入口
 
 # > Gemini / Bard（Google AI）
 

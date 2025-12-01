@@ -4014,6 +4014,10 @@ DOMAIN-SUFFIX,api.intellimize.co # Intellimize API 接口，用于个性化推�
 DOMAIN-SUFFIX,log.intellimize.co # Intellimize 行为日志与事件追踪上报端点
 DOMAIN-SUFFIX,117902971.intellimizeio.com # Intellimize 站点专属域名，用于动态内容与个性化配置加载
 
+# > Sanity（CMS/内容托管）相关域名
+
+DOMAIN-SUFFIX,cdn.sanity.io # Sanity 静态资源与内容分发 CDN，用于图片、数据与媒体文件加载
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
