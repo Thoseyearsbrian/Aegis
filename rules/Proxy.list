@@ -4030,6 +4030,18 @@ DOMAIN-SUFFIX,static.vanta.com # Vanta 静态资源与前端脚本加载域名�
 
 DOMAIN-SUFFIX,hubspotonwebflow.com # HubSpot 与 Webflow 集成使用的服务域名，用于表单、营销脚本与自动化组件加载
 
+# > HubSpot 相关域名
+
+DOMAIN-SUFFIX,js.hsforms.net # HubSpot Forms 表单组件脚本加载，用于前端交互逻辑与表单渲染
+DOMAIN-SUFFIX,forms.hsforms.com # HubSpot 表单提交接口，用于收集用户表单数据
+DOMAIN-SUFFIX,api.hsforms.com # HubSpot Forms API 接口，用于表单验证与数据交互
+DOMAIN-SUFFIX,js.hs-scripts.com # HubSpot 全站脚本加载域名，用于营销脚本、跟踪脚本与 UI 组件
+DOMAIN-SUFFIX,hubspot.com # HubSpot 主站，用于服务访问与后台管理
+DOMAIN-SUFFIX,hubspot.net # HubSpot 资源与服务域名，用于 API、跟踪与静态内容
+DOMAIN-SUFFIX,hsappstatic.net # HubSpot 静态资源 CDN，用于加载前端资源、脚本与样式
+DOMAIN-SUFFIX,hs-banner.com # HubSpot 营销横幅内容域名，用于加载营销 Banner 与推广组件
+DOMAIN-SUFFIX,hsleadflows.net # HubSpot Lead Flows 弹窗与引导组件相关资源域名
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）

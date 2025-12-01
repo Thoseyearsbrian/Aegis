@@ -594,3 +594,9 @@ DOMAIN-SUFFIX,log.intellimize.co # Intellimize 行为日志与事件追踪上报
 # > Anthropic 相关域名（信任 / 文档 / 状态 / 控制台）
 
 DOMAIN-SUFFIX,events.anthropic.com # Anthropic Telemetry 事件追踪端点，用于客户端行为事件上报
+
+# > HubSpot 相关域名
+
+DOMAIN-SUFFIX,hsadspixel.net # HubSpot Ads Pixel 跟踪域名，用于广告监测与投放追踪
+DOMAIN-SUFFIX,hs-analytics.net # HubSpot Analytics 分析域名，用于收集用户访问、事件与页面性能数据
+DOMAIN-SUFFIX,hscollectedforms.net # HubSpot 收集嵌入式表单数据的域名，用于非 HubSpot 表单的行为记录
