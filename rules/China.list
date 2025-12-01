@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-17
+# - 更新时间：2025-12-01
 
 # > 阿里相关域名（Alibaba Group）
 
@@ -821,6 +821,10 @@ DOMAIN-SUFFIX,zhixing.court.gov.cn # 中国执行信息公开网，提供全国�
 DOMAIN-SUFFIX,rmfysszc.gov.cn # 人民法院诉讼资产网，用于司法拍卖、资产转让信息公开  
 DOMAIN-SUFFIX,zgyjsfpt.com # 中国阳光司法平台，聚合司法公开案例与数据接口  
 
+# > 法律与知识产权相关资讯域名
+
+DOMAIN-SUFFIX,ciplawyer.cn # 中国知识产权法律资讯网站，用于查询商标、专利与相关法律内容
+
 # > 国家医保局相关域名（医疗保障服务 / 参保信息 / 政策发布）
 
 DOMAIN-SUFFIX,nhsa.gov.cn # 国家医疗保障局官网，提供医保政策、公告与信息查询  
@@ -828,16 +832,6 @@ DOMAIN-SUFFIX,si-mas.nhsa.gov.cn # 医保电子凭证服务接口，用于身份
 DOMAIN-SUFFIX,ylbz.gov.cn # 国家医保局子域名重定向入口，指向政务服务子系统  
 DOMAIN-SUFFIX,gov-mas.nhsa.gov.cn # 医保数据交换与消息通知接口服务  
 DOMAIN-SUFFIX,ylbznx.cn # 医疗保障能力建设平台，涉及医保系统互联互通能力评估  
-
-# > 司法公开相关域名（裁判文书 / 执行信息 / 司法案例）
-
-DOMAIN-SUFFIX,court.gov.cn # 中国法院网主域名，涵盖法院动态、司法公开、执行公示等服务  
-DOMAIN-SUFFIX,tingshen.court.gov.cn # 中国庭审公开网，用于庭审直播与案件审理公开  
-DOMAIN-SUFFIX,wenshu.court.gov.cn # 裁判文书网，提供公开判决书、裁定书等司法文书查询  
-DOMAIN-SUFFIX,shixin.court.gov.cn # 失信被执行人信息公开网，俗称“老赖”名单查询平台  
-DOMAIN-SUFFIX,zhixing.court.gov.cn # 中国执行信息公开网，提供全国法院被执行人信息  
-DOMAIN-SUFFIX,rmfysszc.gov.cn # 人民法院诉讼资产网，用于司法拍卖、资产转让信息公开  
-DOMAIN-SUFFIX,zgyjsfpt.com # 中国阳光司法平台，聚合司法公开案例与数据接口  
 
 # > 教育部 / 学信网相关域名（学历认证 / 学籍服务 / 教育政务）
 
