@@ -59,6 +59,7 @@ DOMAIN-SUFFIX,accountcapabilities-pa.googleapis.com # Google 账户权限验证�
 DOMAIN-SUFFIX,suggestqueries.google.com # Google/Youtube 联想搜索建议服务接口
 DOMAIN-SUFFIX,oauth2.googleapis.com # Google OAuth 2.0 授权接口，常用于 YouTube 登录与验证
 DOMAIN-SUFFIX,play.googleapis.com # Google Play 服务核心 API，用于应用更新、验证、推送等
+DOMAIN-SUFFIX,youtube-nocookie.com # YouTube 提供的无 Cookie 播放域名，用于隐私增强的视频嵌入模式
 
 # > Chrome & 浏览器更新（Chrome & Update Services）
 

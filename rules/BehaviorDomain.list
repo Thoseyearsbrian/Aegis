@@ -62,7 +62,6 @@ DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com # Firebase 动态链接服务�
 DOMAIN-SUFFIX,crashlytics.com # 被大量灰产 SDK 使用
 DOMAIN-SUFFIX,app-analytics-services.com # YouTube 应用行为统计接口，常用于用户操作数据收集
 DOMAIN-SUFFIX,s.youtube.com # YouTube 广告控制与追踪接口，用于广告推荐、点击记录与个性化订阅行为
-DOMAIN-SUFFIX,youtube-nocookie.com # YouTube 嵌入播放器的隐私增强模式域名，仍存在行为追踪功能
 DOMAIN-SUFFIX,mpc-prod-11-s6uit34pua-uc.a.run.app # Cloud Run 托管脚本服务，用于行为收集或营销事件处理  
 
 # > Facebook 相关行为指纹
