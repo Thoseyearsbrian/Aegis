@@ -4026,10 +4026,6 @@ DOMAIN-SUFFIX,cdn.sanity.io # Sanity 静态资源与内容分发 CDN，用于图
 
 DOMAIN-SUFFIX,static.vanta.com # Vanta 静态资源与前端脚本加载域名，用于安全合规与审计页面展示
 
-# > HubSpot on Webflow 相关域名
-
-DOMAIN-SUFFIX,hubspotonwebflow.com # HubSpot 与 Webflow 集成使用的服务域名，用于表单、营销脚本与自动化组件加载
-
 # > HubSpot 相关域名
 
 DOMAIN-SUFFIX,js.hsforms.net # HubSpot Forms 表单组件脚本加载，用于前端交互逻辑与表单渲染
@@ -4041,6 +4037,8 @@ DOMAIN-SUFFIX,hubspot.net # HubSpot 资源与服务域名，用于 API、跟踪�
 DOMAIN-SUFFIX,hsappstatic.net # HubSpot 静态资源 CDN，用于加载前端资源、脚本与样式
 DOMAIN-SUFFIX,hs-banner.com # HubSpot 营销横幅内容域名，用于加载营销 Banner 与推广组件
 DOMAIN-SUFFIX,hsleadflows.net # HubSpot Lead Flows 弹窗与引导组件相关资源域名
+DOMAIN-SUFFIX,forms-na1.hsforms.com # HubSpot Forms 区域节点域名，用于表单提交与数据交互（NA1 数据中心）
+DOMAIN-SUFFIX,hubspotonwebflow.com # HubSpot 与 Webflow 集成使用的服务域名，用于表单、营销脚本与自动化组件加载
 
 # > 其他 (暂未分类)
 
