@@ -4,11 +4,12 @@
 # - 特征：封锁具备持续回连、配置上传或监听特征的后台服务域名，涵盖 IoT、NAS、SDK 等设备类或应用组件，排除广告与行为分析类通信
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2025-12-01
 
 DOMAIN-SUFFIX,breached.to # 数据泄露／账号资料暴露平台，高风险
 DOMAIN-SUFFIX,idunlock.cfd # 仿冒解锁平台域名，用于诱导输入账户信息与设备标识，已确认存在社工钓鱼行为
 DOMAIN-SUFFIX,asiassn.com # 可疑亚洲安全会议仿冒域名，疑似用于分发恶意加载器或收集研究人员信息
+DOMAIN-SUFFIX,api-production.8-lives-cat.io # 疑似订阅/SDK 后端接口，被安全工具标记为钓鱼（Gridinsoft 评估为 1/100 信任分数，Phishing 风险）
 IP-CIDR,101.226.28.238  # 支付宝 datagw 接口，隶属 Ant Group Edge 架构，用于链路追踪与数据分发（后台静默通信）
 IP-CIDR,17.252.203.211 # Apple 官方 IP，使用非常规端口 3490，疑似远程管理或私有服务通信节点-可疑
 IP-CIDR,218.60.65.58/32 # 疑似中国联通代理节点，辽宁省铁岭市，开放 8082 端口，存在异常连接行为

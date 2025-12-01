@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-01
+# - 更新时间：2025-12-02
 
 # > Apple 行为遥测服务
 
@@ -264,6 +264,7 @@ DOMAIN-SUFFIX,sdkgen.data.tianwenca.com # 天闻 SDK 广告平台回传接口，
 DOMAIN-SUFFIX,hm.baidu.com # 百度统计（常用于嵌入式网页行为追踪）
 DOMAIN-SUFFIX,tcbox.baidu.com # 百度 App 行为日志接口
 DOMAIN-SUFFIX,log.re.baidu.com # 百度推荐系统行为日志上报接口
+DOMAIN-SUFFIX,dig.bdurl.net # 百度短链跳转与行为统计服务域名，用于追踪外链点击、埋点分析与内容跳转行为
 
 # > 微博行为日志与遥测接口
 
