@@ -164,12 +164,21 @@ DOMAIN-SUFFIX,bytedance.net # 字节跳动基础设施与服务接口域名，�
 DOMAIN-SUFFIX,ibytedapm.com # 字节跳动 APM 性能监测接口域名，用于采集客户端运行数据  
 DOMAIN-SUFFIX,byteimg.com # 字节跳动图像 CDN 域名，用于图片压缩与内容加速  
 DOMAIN-SUFFIX,bytedns.net # 字节跳动内容加速与调度服务域名，用于智能 DNS 分流与负载均衡  
+DOMAIN-SUFFIX,v96-sz-daily-b.douyinvod.com # 抖音 / Douyin 视频 CDN 节点  
+DOMAIN-SUFFIX,v11-s.douyinvod.com # 抖音 CDN 子节点，用于内容分发与视频加载  
+DOMAIN-SUFFIX,v9-cold.douyinvod.com # 抖音 “cold” 存储节点，用于视频缓存与冷数据分发  
+DOMAIN-SUFFIX,p9-sign.douyinpic.com # 抖音图片／封面 CDN，用于用户头像/封面/图片资源加载  
+DOMAIN-SUFFIX,lf3-static.bytednsdoc.com # ByteDance 文档 / 静态资源分发域名，可能用于内容／脚本／图片加载  
 IP-CIDR,61.152.119.171/32 # aggr5-normal-s19.amemv.com 抖音聚合服务节点，用于视频分发或通信请求  
 IP-CIDR,180.163.145.52/32 # mon0-misc-hl.amemv.com 字节跳动通用服务节点，可能用于辅助功能加载  
 IP-CIDR,114.80.11.12/32 # ma5-normal-lq.zijieapi.com 字节跳动 API 节点，涉及内容加载与用户请求  
 IP-CIDR,49.7.47.99/32 # frontier.snssdk.com 字节跳动边缘服务节点，用于内容分发与策略调度  
 IP-CIDR,106.38.222.27/32 # bytelink100-ws-hl.amemv.com WebSocket 通信节点，可能用于实时连接（如评论、推送）  
 IP-CIDR,61.155.39.13/32 # frontier-aweme-hj-ipainner.amemv.com 字节跳动边缘节点，涉及数据流转与访问优化
+IP-CIDR,106.38.222.179/32 # webcast100-ws-c-hl.amemv.com 抖音 / 直播 WebSocket 服务节点  
+IP-CIDR,114.80.11.5/32 # webcast-normal-m.amemv.com 抖音 / 直播服务节点  
+IP-CIDR,140.249.108.50/32 # webcast-core-m.amemv.com 抖音 / 直播核心节点  
+IP-CIDR,36.41.168.235/32 # 视频流媒体节点，用于 flv 直播/点播服务  
 
 # > 中国电信服务相关域名
 
