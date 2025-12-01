@@ -4012,7 +4012,7 @@ DOMAIN-SUFFIX,d3js.org # D3.js 官方资源域名，用于图表组件与脚本�
 DOMAIN-SUFFIX,cdn.intellimize.co # Intellimize 静态资源 CDN，用于加载个性化脚本与资源
 DOMAIN-SUFFIX,api.intellimize.co # Intellimize API 接口，用于个性化推荐与实验数据交互
 DOMAIN-SUFFIX,log.intellimize.co # Intellimize 行为日志与事件追踪上报端点
-DOMAIN-SUFFIX,117902971.intellimizeio.com # Intellimize 站点专属域名，用于动态内容与个性化配置加载
+DOMAIN-SUFFIX,intellimizeio.com # Intellimize 站点专属域名，用于动态内容与个性化配置加载
 
 # > Sanity（CMS/内容托管）相关域名
 
@@ -4021,6 +4021,10 @@ DOMAIN-SUFFIX,cdn.sanity.io # Sanity 静态资源与内容分发 CDN，用于图
 # > Vanta（安全合规 / SOC2）相关域名
 
 DOMAIN-SUFFIX,static.vanta.com # Vanta 静态资源与前端脚本加载域名，用于安全合规与审计页面展示
+
+# > HubSpot on Webflow 相关域名
+
+DOMAIN-SUFFIX,hubspotonwebflow.com # HubSpot 与 Webflow 集成使用的服务域名，用于表单、营销脚本与自动化组件加载
 
 # > 其他 (暂未分类)
 
