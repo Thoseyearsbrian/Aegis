@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2025-12-01
 
 # > Apple 行为遥测服务
 
@@ -584,9 +584,6 @@ DOMAIN-SUFFIX,embedder-sdk.wirewax.video # Wirewax 嵌入式交互视频 SDK 接
 
 DOMAIN-SUFFIX,transcend-cdn.com # Transcend 隐私合规平台内容分发域名，用于加载 Cookie 通知、追踪控制脚本与合规组件资源  
 
-# > 优酷行为上报与日志域名（Behavior）
+# > Honeycomb 观察与遥测服务域名
 
-DOMAIN-SUFFIX,log.youku.com # 优酷播放行为与事件日志上报接口
-DOMAIN-SUFFIX,stat.tudou.com # 土豆行为统计与播放数据接口（Youku Tudou 共用）
-DOMAIN-SUFFIX,quark.sm.cn # UC/Quark 行为链路解析接口，优酷移动端部分功能依赖
-DOMAIN-SUFFIX,acs4baichuan.m.taobao.com # 阿里百川账号组件上报接口，含部分行为数据
+DOMAIN-SUFFIX,api.honeycomb.io # Honeycomb API 服务域名，用于发送与查询应用监控数据（如 trace、metrics、logs），适用于分布式追踪与性能分析工具
