@@ -3984,7 +3984,7 @@ DOMAIN-SUFFIX,github‑readme‑stats‑opal‑alpha‑76.vercel.app # GitHub Re
 
 DOMAIN-SUFFIX,komarev.com # Komarev 公共域名，常用于统计 / CDN / 仓库 README 相关服务或外部资源加载
 
-# > Intercom 客服 / 聊天 / 用户支持服务域名 (Intercom Customer Chat & Messaging Service)
+# > Intercom 相关域名
 
 DOMAIN-SUFFIX,intercom.com # Intercom 官方主域名，用于客服系统官网、文档、账户管理页面  
 DOMAIN-SUFFIX,intercom.io # Intercom 服务主域名，用于 Messenger、聊天功能、API 接口与资源交互  
@@ -3998,6 +3998,8 @@ DOMAIN-SUFFIX,static.intercomcdn.com  # Intercom CDN 子域 (静态资源，如�
 DOMAIN-SUFFIX,via.intercom.io # Intercom 转发子域（用于 websocket /实时消息中继 /连接机制）  
 DOMAIN-SUFFIX,nexus-websocket-a.intercom.io # Intercom WebSocket 中继节点域名，用于聊天 / 实时连接  
 DOMAIN-SUFFIX,uploads.intercomcdn.com # Intercom CDN 上传/资源托管子域，用于文件/附件上传、图片展示等  
+DOMAIN-SUFFIX,static.intercomassets.com # Intercom 静态资源 CDN，用于加载聊天组件、图标、脚本与前端资源
+DOMAIN-SUFFIX,intercom.help # Intercom Help Center 域名，用于知识库、帮助文档与客户支持内容
 
 # > Webflow 相关域名
 
