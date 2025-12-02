@@ -243,6 +243,7 @@ DOMAIN-SUFFIX,log-sdk.ksapisrv.com # 快手行为日志采集接口
 DOMAIN-SUFFIX,reportlog.corp.kuaishou.com # 快手内部日志回传平台（行为上报）
 DOMAIN-SUFFIX,apm-collector.scs.kuaishou.com # 快手前端性能 / APM 指标采集服务
 DOMAIN-SUFFIX,conv-infra.kuaishou.com # 快手推荐系统行为特征训练服务
+DOMAIN-SUFFIX,logsdk.kwai-pro.com # 快手系日志/遥测上报端点，用于 SDK 行为事件、性能监控与应用日志采集
 
 # > 小红书指纹与日志收集行为
 
