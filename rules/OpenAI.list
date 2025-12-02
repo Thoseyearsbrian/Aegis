@@ -181,3 +181,11 @@ DOMAIN-SUFFIX,os.cohere.ai # Cohere Command-R / Embed / Rerank 等模型资源�
 DOMAIN-SUFFIX,coral.cohere.com # Cohere Coral 平台相关域名，用于企业级 AI 管理、模型部署与协作功能
 DOMAIN-SUFFIX,studio.cohere.com # Cohere Studio 在线工作台，用于实验、Prompt 编辑与模型测试
 DOMAIN-SUFFIX,docs.cohere.com # Cohere 文档中心，用于 API 文档、模型说明与 SDK 示例
+
+# > Reka AI
+
+DOMAIN-SUFFIX,reka.ai # Reka AI 主站域名，用于模型介绍、产品主页与企业信息
+DOMAIN-SUFFIX,api.reka.ai # Reka AI 官方 API 接口域名，用于模型推理、生成、多模态任务等调用
+DOMAIN-SUFFIX,console.reka.ai # Reka 控制台，用于管理 API Key、账单与使用指标
+DOMAIN-SUFFIX,docs.reka.ai # Reka 开发者文档站点，用于 API 文档、模型能力说明与示例
+DOMAIN-SUFFIX,cdn.reka.ai # Reka 静态资源 CDN，用于加载前端脚本、图标与控制台资源
