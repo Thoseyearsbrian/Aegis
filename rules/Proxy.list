@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-02
+# - 更新时间：2025-12-03
 
 # > Speedtest 网络测速平台
 
@@ -4080,6 +4080,15 @@ DOMAIN-SUFFIX,vtapi.com # VirusTotal API 旧版域名，部分安全工具仍使
 DOMAIN-SUFFIX,virustotalcloud.com # VirusTotal 云存储域，用于托管扫描样本、报告文件与云沙箱分析结果
 DOMAIN-SUFFIX,cdn.virustotal.com # VirusTotal 静态资源 CDN，用于前端脚本、样式以及界面资源加载
 
+# > Cisco Talos Intelligence（威胁情报 / 恶意样本分析）
+
+DOMAIN-SUFFIX,talosintelligence.com # Cisco Talos 官方威胁情报平台，用于恶意域名查询、IP 信誉分析与安全情报检索
+DOMAIN-SUFFIX,intelgraph.talosintelligence.com # Talos IntelGraph 图数据库，用于威胁关联分析、IOC 图谱与攻击链可视化
+DOMAIN-SUFFIX,blog.talosintelligence.com # Talos 官方研究博客，发布漏洞预警、APT 报告与安全研究分析
+DOMAIN-SUFFIX,reputation.talosintelligence.com # Talos IP/域名信誉查询服务端点，用于实时威胁检测与信誉评分
+DOMAIN-SUFFIX,amp.cisco.com # Cisco Secure Endpoint（AMP）关联服务，可用于恶意样本分析与终端威胁检测
+DOMAIN-SUFFIX,cloudsa.talosintelligence.com # Talos 云端情报服务接口，用于安全数据同步、威胁源更新与情报请求
+
 # > Evernote（国际版笔记服务 / 云端同步平台）
 
 DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
@@ -4118,6 +4127,9 @@ DOMAIN-SUFFIX,bitdefender.com # Bitdefender 全球知名网络安全软件与威
 DOMAIN-SUFFIX,fortiguard.com # FortiGuard Labs 安全情报服务平台，提供域名/威胁监测与情报报告  
 DOMAIN-SUFFIX,gridinsoft.com # GridinSoft 反恶意软件与域名声誉检测工具服务  
 DOMAIN-SUFFIX,crdf.fr # CRDF Labs 法国独立网络安全研究实验室，提供公共 CTI 与威胁数据  
+
+# > 第三方博客网站
+
 DOMAIN-SUFFIX,freedidi.com # 零度博客
 DOMAIN-SUFFIX,blog.skk.moe # Sukka 的技术博客，内容涵盖前端开发、网络优化、DNS 解析与代理工具使用
 DOMAIN-SUFFIX,blog.1ris.win # Blog 1RIS 个人博客主域名，用于技术分享、日志发布与项目更新
