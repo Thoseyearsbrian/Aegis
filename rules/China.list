@@ -1445,6 +1445,7 @@ DOMAIN-SUFFIX,cstaticdun-v6.126.net # 网易易盾风控/验证码服务节点�
 
 # > 轻雀文档（Qingque Docs / SaaS 文档平台）
 
+DOMAIN-SUFFIX,docs.qingque.cn # 轻雀文档主站域名，用于文档查看、内容渲染与在线协作编辑
 DOMAIN-SUFFIX,passport.qingque.cn # 轻雀文档账号认证中心，用于用户登录、身份鉴权与安全会话管理
 DOMAIN-SUFFIX,docs-fe.qingque.cn # 轻雀文档前端页面加载域名，用于文档渲染、脚本/样式加载与界面展示
 
