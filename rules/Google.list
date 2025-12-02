@@ -153,6 +153,7 @@ IP-CIDR,142.250.4.188 # Google CDN 内容分发节点，用于静态资源与服
 
 IP-CIDR,74.125.24.188/32  # Google 前端节点，用于 Google 搜索 / Gmail / YouTube 等核心服务访问
 IP-CIDR,64.233.170.188/32 # Google 网络服务节点 IP
+IP-CIDR,142.251.10.188/32 # Google 前端服务节点（GFE），用于搜索、Gmail、YouTube 等核心服务的入口层访问
 
 # > Google 安全验证服务（reCAPTCHA / 安全校验）
 
