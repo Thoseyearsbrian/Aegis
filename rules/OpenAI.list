@@ -341,3 +341,14 @@ DOMAIN-SUFFIX,cdn.suno.ai # Suno 静态资源 CDN，用于加载前端脚本、�
 DOMAIN-SUFFIX,assets.suno.ai # Suno 静态素材域名，用于图标、字体、前端组件等 UI 资源加载
 DOMAIN-SUFFIX,media.suno.ai # Suno 媒体资源域名，用于存放生成的音乐文件、预览音频与用户上传内容
 DOMAIN-SUFFIX,files.suno.ai # Suno 文件接口，用于下载模型生成的音频文件或工程文件
+
+# > ElevenLabs（AI 语音生成 / 文本转语音平台）
+
+DOMAIN-SUFFIX,elevenlabs.io # ElevenLabs 主站入口，用于产品介绍、定价、功能展示与平台登录
+DOMAIN-SUFFIX,app.elevenlabs.io # ElevenLabs Web 应用界面，用于语音生成、语音克隆、项目管理等操作
+DOMAIN-SUFFIX,api.elevenlabs.io # ElevenLabs 官方 API 接口，用于文本转语音（TTS）、语音克隆、音频生成等模型调用
+DOMAIN-SUFFIX,cdn.elevenlabs.io # ElevenLabs 静态资源 CDN，用于加载前端脚本、样式、字体与界面组件
+DOMAIN-SUFFIX,assets.elevenlabs.io # ElevenLabs 静态资源与媒体文件域名，用于音频样本、预览文件与 UI 素材加载
+DOMAIN-SUFFIX,voices.elevenlabs.io # ElevenLabs 语音模型内容域名，用于存放语音示例、语音克隆资源与声音库文件
+DOMAIN-SUFFIX,media.elevenlabs.io # ElevenLabs 媒体资源托管域名，用于存储生成的音频文件与用户上传内容
+
