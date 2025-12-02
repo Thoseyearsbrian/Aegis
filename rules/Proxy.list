@@ -4089,6 +4089,14 @@ DOMAIN-SUFFIX,reputation.talosintelligence.com # Talos IP/域名信誉查询服�
 DOMAIN-SUFFIX,amp.cisco.com # Cisco Secure Endpoint（AMP）关联服务，可用于恶意样本分析与终端威胁检测
 DOMAIN-SUFFIX,cloudsa.talosintelligence.com # Talos 云端情报服务接口，用于安全数据同步、威胁源更新与情报请求
 
+# > IPQualityScore（IPQS 威胁检测 / 欺诈识别）
+
+DOMAIN-SUFFIX,ipqualityscore.com # IPQS 官方站点与服务入口，用于风险评估、IP 信誉评分与恶意流量识别
+DOMAIN-SUFFIX,api.ipqualityscore.com # IPQS API 接口，用于 IP/邮箱/设备指纹校验、欺诈检测与实时风控查询
+DOMAIN-SUFFIX,static.ipqualityscore.com # IPQS 静态资源域名，用于加载前端脚本、资产文件与 SDK 组件
+DOMAIN-SUFFIX,cdn.ipqualityscore.com # IPQS 静态资源 CDN，提供脚本、图标与前端模块的加速分发
+DOMAIN-SUFFIX,resources.ipqualityscore.com # IPQS 资源文件节点，用于文档、SDK、集成指南的加载
+
 # > Evernote（国际版笔记服务 / 云端同步平台）
 
 DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
