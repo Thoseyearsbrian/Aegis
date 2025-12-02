@@ -1694,3 +1694,201 @@ DOMAIN-SUFFIX,www.shengshu.com # 盛数科技官网子域名，用于展示产�
 
 DOMAIN-SUFFIX,yhgfb-static.com # 国内通用静态资源 CDN，用于加载图片、脚本、样式与页面前端资源
 DOMAIN-SUFFIX,lf-rc1.yhgfb-static.com # yhgfb-static 静态资源分发节点，用于前端资源加载与页面渲染加速
+
+# > DeepSeek
+
+DOMAIN-SUFFIX,deepseek.com # DeepSeek 主站与产品介绍
+DOMAIN-SUFFIX,api.deepseek.com # DeepSeek 官方 API 推理接口
+DOMAIN-SUFFIX,deepseek.ai # DeepSeek 品牌与模型展示域名
+DOMAIN-SUFFIX,deepseek.org # DeepSeek 相关跳转与说明页面
+
+# > Kling（快手 AI 视频生成平台）
+
+DOMAIN-SUFFIX,klingai.com # Kling 官方主域名，用于产品介绍、示例展示与平台主入口
+DOMAIN-SUFFIX,app.klingai.com # Kling Web 应用，用于视频生成、素材编辑、项目管理与任务操作
+DOMAIN-SUFFIX,api.klingai.com # Kling API 接口，用于视频生成请求、模型推理调用与渲染任务处理
+DOMAIN-SUFFIX,cdn.klingai.com # Kling 静态资源 CDN，用于脚本、样式、字体等前端界面资源加载
+DOMAIN-SUFFIX,assets.klingai.com # Kling 静态素材资源域名，用于图标、UI组件、模板与页面资源加载
+DOMAIN-SUFFIX,media.klingai.com # Kling 媒体资源域名，用于生成视频、图像文件存储与用户上传内容
+DOMAIN-SUFFIX,files.klingai.com # Kling 文件服务端点，用于上传素材、下载生成视频与项目文件管理
+DOMAIN-SUFFIX,render.klingai.com # Kling 渲染服务域名，用于视频渲染队列处理与后台生成任务执行
+
+# > Vidu（AI 视频生成 / 多模态场景生成平台）
+
+DOMAIN-SUFFIX,vidu.zone # Vidu 多媒体主域名，用于模型生成内容与资源分发
+DOMAIN-SUFFIX,vidu.com # Vidu 官方主站，用于产品介绍、示例展示、登录与控制台入口
+DOMAIN-SUFFIX,app.vidu.com # Vidu Web Studio，用于视频生成、场景编辑、素材管理与项目操作
+DOMAIN-SUFFIX,api.vidu.com # Vidu API 接口，用于视频生成请求、模型推理、任务调度与后台处理
+DOMAIN-SUFFIX,cdn.vidu.com # Vidu 静态资源 CDN，用于加载前端脚本、样式、字体与界面组件
+DOMAIN-SUFFIX,assets.vidu.com # Vidu 静态素材资源域名，用于 UI 图标、模板、前端素材文件加载
+DOMAIN-SUFFIX,media.vidu.com # Vidu 媒体存储域名，用于生成视频、图像、音频文件与用户上传内容
+DOMAIN-SUFFIX,files.vidu.com # Vidu 文件上传/下载域名，用于素材上传、视频导出与项目文件管理
+DOMAIN-SUFFIX,render.vidu.com # Vidu 渲染服务域名，用于视频渲染任务、模型执行与后台生成管线
+DOMAIN-SUFFIX,cf.vidu.studio # Vidu 静态资源 CDN 域名，用于模型推理生成的图片、视频等内容的多媒体分发
+DOMAIN-SUFFIX,image01.cf.vidu.studio # Vidu 多媒体子域名，用于 AI 生成内容的图片资源加载与分发
+DOMAIN-SUFFIX,image01.vidu.zone # Vidu 媒体资源子域名，用于图像与模型生成内容的静态资源加载
+
+# > ByteDance AI（Doubao / VolcEngine）相关域名
+
+DOMAIN-SUFFIX,doubao.com # 豆包大模型主站，用于产品展示、模型介绍与入口跳转
+DOMAIN-SUFFIX,app.doubao.com # 豆包 Web 应用，用于聊天、对话、模型体验与账号管理
+DOMAIN-SUFFIX,api.doubao.com # 豆包 API 接口，用于推理、文本生成、Embedding 与应用集成
+DOMAIN-SUFFIX,cdn.doubao.com # 豆包静态资源 CDN，用于前端脚本、样式、字体与界面组件加载
+DOMAIN-SUFFIX,assets.doubao.com # 豆包静态素材资源，用于图标、界面素材与预设内容
+DOMAIN-SUFFIX,media.doubao.com # 媒体资源服务，用于图片、音频、视频与用户上传内容
+DOMAIN-SUFFIX,files.doubao.com # 文件上传/下载服务，用于模型输入输出文件处理
+DOMAIN-SUFFIX,bytedanceapi.com # 字节跳动统一 API 体系，用于模型调用、授权校验与账户系统集成
+DOMAIN-SUFFIX,polaris.bytedance.com # 字节跳动服务网关，用于云端资源路由与负载调度
+DOMAIN-SUFFIX,volcengineapi.com # 火山引擎 AI API 主域名，用于推理请求、权限验证与企业集成
+DOMAIN-SUFFIX,volces.com # 火山引擎 CDN，用于模型加载、向量检索与资源加速分发
+DOMAIN-SUFFIX,gator.volces.com # 火山引擎边缘加速节点，用于推理加速与静态资源调度
+DOMAIN-SUFFIX,volcimagex.com # ImageX 图像处理服务，用于生成、压缩与模型图像输出
+DOMAIN-SUFFIX,volccdn.com # 火山引擎静态资源 CDN，用于 JS/CSS/组件加速加载
+DOMAIN-SUFFIX,volceapplog.com # 应用日志/埋点上报服务，用于 SDK 行为与性能数据收集
+DOMAIN-SUFFIX,byteimg.com # 字节图像 CDN，用于多媒体与前端资源加载
+DOMAIN-SUFFIX,byted-static.com # 字节跳动静态资源域，用于脚本、字体与样式文件
+DOMAIN-SUFFIX,bytegoofy.com # 字节跳动资源分发域名，用于辅助 API 和静态内容分发
+
+# > ERNIE Bot（文心一言 / Baidu AI 服务）
+
+DOMAIN-SUFFIX,yiyan.baidu.com # 文心一言 Web 主站，用于在线聊天与模型体验
+DOMAIN-SUFFIX,app.yiyan.baidu.com # 文心一言 Web App，对话前端与用户交互界面
+DOMAIN-SUFFIX,api.yiyan.baidu.com # 文心一言 API 接口，用于文本生成、推理与对话服务
+DOMAIN-SUFFIX,cdn.yiyan.baidu.com # 文心一言静态资源 CDN，提供前端脚本与界面资源加载
+
+# > Baidu Qianfan（千帆大模型平台）
+
+DOMAIN-SUFFIX,ai.baidu.com # 百度 AI 平台主入口，包括文心大模型文档与能力介绍
+DOMAIN-SUFFIX,cloud.baidu.com # 百度智能云主域，用于账号、控制台与 API 调用管理
+DOMAIN-SUFFIX,api.baidubce.com # 百度云 Bce（Baidu Cloud Engine）AI API 主域，文心一言调用链依赖
+DOMAIN-SUFFIX,qianfan.run # 千帆推理平台入口域，用于模型托管与推理任务
+DOMAIN-SUFFIX,qianfan.cloud # 千帆平台业务域名，用于模型配置、实验与在线推理管理
+DOMAIN-SUFFIX,qianfanapi.com # 千帆 API 侧域，用于模型推理、调度与开发者访问
+
+# > Baidu AI Infrastructure（文心一言底层依赖）
+
+DOMAIN-SUFFIX,dueros.baidu.com # 百度 DuerOS 语音 AI 平台（部分模型服务共用推理基础设施）
+DOMAIN-SUFFIX,aip.baidubce.com # 百度 AI 开放平台 API，部分旧接口仍走此域名
+DOMAIN-SUFFIX,baidubce.com # 百度云 API 体系根域名，用于权限校验、推理与任务调度
+DOMAIN-SUFFIX,bcebos.com # 百度对象存储 BOS，用于用户上传文件与模型输入输出数据
+DOMAIN-SUFFIX,bdstatic.com # 百度静态资源 CDN，用于前端脚本与模型演示页面资源加载
+
+# > Qwen（通义千问 / Alibaba AI）
+
+DOMAIN-SUFFIX,qwen.ai # 通义千问官方网站，用于模型介绍、产品体验与文档访问
+DOMAIN-SUFFIX,api.qwen.ai # 通义千问 API 主接口，用于推理请求、对话生成与模型调用
+DOMAIN-SUFFIX,console.qwen.ai # 通义千问控制台入口，用于 API Key 管理、账单与模型配置
+DOMAIN-SUFFIX,cdn.qwen.ai # 通义千问静态资源 CDN，用于前端脚本、样式与页面加载
+
+# > Alibaba Cloud DashScope（灵积 / 通义大模型 API 服务）
+
+DOMAIN-SUFFIX,dashscope.aliyuncs.com # DashScope 大模型推理 API 主域名，通义千问底层 API 依赖
+DOMAIN-SUFFIX,modelscope.cn # ModelScope 模型社区，用于模型托管、文档与资源下载（通义官方合作平台）
+DOMAIN-SUFFIX,api.alicloudapi.com # 阿里云统一 API 网关，部分旧版通义 API 走此接口
+DOMAIN-SUFFIX,aliyuncs.com # 阿里云主域名，用于存储、权限校验、API 通道等底层服务
+DOMAIN-SUFFIX,oss-cn-*.aliyuncs.com # 阿里云 OSS 存储，用于上传文件、图片与推理输入输出
+
+# > Tencent Hunyuan（腾讯混元大模型）
+
+DOMAIN-SUFFIX,hunyuan.tencent.com # 腾讯混元大模型官方网站，用于模型介绍、应用示例与产品说明
+DOMAIN-SUFFIX,api.hunyuan.tencent.com # 混元大模型 API 主接口，用于推理、对话生成、图像生成等调用
+DOMAIN-SUFFIX,console.hunyuan.tencent.com # 混元大模型控制台，用于 API Key、调用量与计费管理
+DOMAIN-SUFFIX,cdn.hunyuan.tencent.com # 混元前端静态资源 CDN，用于控制台脚本与样式加载
+
+# > Tencent Cloud AI / OpenAPI
+
+DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云统一 API 网关，混元底层推理接口依赖此通用 API 入口
+DOMAIN-SUFFIX,tencentcloud.com # 腾讯云主域名，用于账户、鉴权与云服务资源访问
+DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云开发者平台（文档、SDK、示例等）
+DOMAIN-SUFFIX,myqcloud.com # 腾讯云对象存储 COS 域，用于文件上传与模型相关资源加载
+DOMAIN-SUFFIX,tcb-api.tencentcloudapi.com # 腾讯云 TCB（云开发）接口，用于混元插件与交互式应用调用
+
+# > SparkDesk（讯飞星火 / iFlytek 大模型）
+
+DOMAIN-SUFFIX,xunfei.cn # 科大讯飞主域名，用于模型产品入口与企业服务承载
+DOMAIN-SUFFIX,xfyun.cn # 讯飞开放平台主域，用于星火 API、控制台与账户体系
+DOMAIN-SUFFIX,sparkdesk.cn # 讯飞星火官方域名，用于产品介绍、模型体验与控制台访问
+DOMAIN-SUFFIX,spark-api.cn # 星火 API 推理入口，用于大模型调用、对话生成与企业集成服务
+DOMAIN-SUFFIX,api.xfyun.cn # 讯飞开放平台 API 主域名，部分星火接口依托该域提供服务
+DOMAIN-SUFFIX,passport.xfyun.cn # 星火账号体系登录入口，用于控制台与 API 授权验证
+DOMAIN-SUFFIX,console.xfyun.cn # 星火控制台，用于 API Key、账单与模型配置管理
+DOMAIN-SUFFIX,download.xfyun.cn # 讯飞资源下载域，用于 SDK、模型配置及相关文件获取
+DOMAIN-SUFFIX,static.xfyun.cn # 星火前端静态资源 CDN，用于控制台脚本、样式与页面加载
+
+# > MiniMax（海螺 / abab 大模型）
+
+DOMAIN-SUFFIX,minimax.ai # MiniMax 官方主站，用于模型产品介绍、体验入口与文档访问
+DOMAIN-SUFFIX,www.minimax.chat # MiniMax 海螺聊天入口，用于在线对话体验与模型示例
+DOMAIN-SUFFIX,minimax.chat # MiniMax 海螺 Chat 主域名，用于 Web 对话与应用入口
+DOMAIN-SUFFIX,api.minimax.chat # MiniMax API 主接口，用于模型推理、对话、语音与多模态调用
+DOMAIN-SUFFIX,api.minimax.ai # MiniMax 企业级 API 接口，用于 Key 管理、计费与模型调用（部分产品使用）
+DOMAIN-SUFFIX,console.minimax.ai # 控制台入口，用于 API Key、账单、使用量监控等
+DOMAIN-SUFFIX,developer.minimax.ai # MiniMax 开发者门户，提供 API 文档与示例代码
+DOMAIN-SUFFIX,static.minimax.chat # MiniMax Web 前端静态资源，用于脚本与界面加载
+DOMAIN-SUFFIX,cdn.minimax.ai # MiniMax 静态资源 CDN，用于控制台、文档与前端组件加载
+DOMAIN-SUFFIX,assets.minimax.ai # 资源托管域，用于图片、模型示例、对话数据等内容加载
+DOMAIN-SUFFIX,passport.minimax.ai # MiniMax 账户系统，用于登录验证与授权流程
+DOMAIN-SUFFIX,auth.minimax.ai # 身份认证服务入口，用于控制台与 API 权限校验
+
+# > Zhipu AI（智谱 AI / ChatGLM）
+
+DOMAIN-SUFFIX,zhipuai.cn # 智谱 AI 主站域名，用于模型介绍、产品概览与企业服务
+DOMAIN-SUFFIX,zhipuai.com # 智谱 AI 国际化域名，用于在线体验与模型产品访问
+DOMAIN-SUFFIX,www.zhipuai.cn # 主站子域，用于模型信息、活动与演示入口
+DOMAIN-SUFFIX,www.zhipuai.com # 产品体验与国际站内容入口
+DOMAIN-SUFFIX,chatglm.cn # ChatGLM 在线对话入口，用于模型交互体验
+DOMAIN-SUFFIX,chatglm.com # ChatGLM 国际站入口，用于体验 GLM 系列模型
+DOMAIN-SUFFIX,glm.cn # GLM 系列品牌域名，用于模型介绍与产品跳转
+DOMAIN-SUFFIX,glm.ai # GLM 大模型相关域名，用于开发者相关内容与介绍
+DOMAIN-SUFFIX,api.zhipuai.cn # 智谱 AI API 主接口，用于模型推理、对话、向量化与多模态调用
+DOMAIN-SUFFIX,api.zhipuai.com # 国际化 API 接口，用于企业与海外访问
+DOMAIN-SUFFIX,open.bigmodel.cn # 大模型开放平台入口，用于 API Key、账单与模型管理（旧版接口）
+DOMAIN-SUFFIX,open.bigmodel.cn # 大模型开放平台控制台，用于 Key 管理、账单与配额
+DOMAIN-SUFFIX,bigmodel.cn # 大模型平台域名，用于文档、开发者资源与产品概览
+DOMAIN-SUFFIX,bigmodel.cn # 通用入口，用于登陆跳转与 API 管理
+DOMAIN-SUFFIX,static.bigmodel.cn # 大模型平台静态资源域，用于脚本、样式、模型示例加载
+DOMAIN-SUFFIX,docs.bigmodel.cn # 文档站点，用于 API 文档、SDK 示例与模型说明
+DOMAIN-SUFFIX,passport.zhipuai.cn # 智谱 AI 登录中心，用于控制台与 API 授权
+DOMAIN-SUFFIX,login.zhipuai.cn # 登录入口，用于账号验证与授权流程
+
+# > Yi-Large / 01.AI（零一万物）
+
+DOMAIN-SUFFIX,01.ai # 零一万物官方网站，用于产品介绍、模型展示与公司信息
+DOMAIN-SUFFIX,yi.ai # Yi 系列大模型品牌域名，用于模型体验入口与示例访问
+DOMAIN-SUFFIX,www.01.ai # 零一万物主站子域，用于产品内容、活动与技术介绍
+DOMAIN-SUFFIX,www.yi.ai # Yi 模型在线体验与相关展示入口
+DOMAIN-SUFFIX,api.01.ai # Yi-Large API 主接口，用于推理、向量化、对话与多模态调用
+DOMAIN-SUFFIX,console.01.ai # 控制台入口，用于 API Key、账单与调用统计管理
+DOMAIN-SUFFIX,platform.01.ai # 开发者平台入口，用于模型配置、使用量查看与资源管理
+DOMAIN-SUFFIX,docs.01.ai # 文档站点，用于 API 文档、SDK 示例与模型说明
+DOMAIN-SUFFIX,cdn.01.ai # 前端静态资源 CDN，用于脚本、样式与模型示例加载
+DOMAIN-SUFFIX,passport.01.ai # 零一万物账号体系登录入口，用于控制台与 API 权限验证
+DOMAIN-SUFFIX,auth.01.ai # 身份认证服务，用于登录过程与授权流程
+
+# > Baichuan（百川智能）
+
+DOMAIN-SUFFIX,baichuan-ai.com # 百川智能官方网站，用于模型介绍、产品概览与技术展示
+DOMAIN-SUFFIX,www.baichuan-ai.com # 官方主站子域，用于产品体验、活动信息与在线展示
+DOMAIN-SUFFIX,api.baichuan-ai.com # 百川大模型 API 主接口，用于对话、生成、向量化与多模态推理
+DOMAIN-SUFFIX,chat.baichuan-ai.com # 在线 Chat 页面入口，用于体验 Baichuan 模型
+DOMAIN-SUFFIX,platform.baichuan-ai.com # 百川开发者平台，用于 API Key、账单与模型管理
+DOMAIN-SUFFIX,console.baichuan-ai.com # 控制台入口，用于调用量、计费与权限管理
+DOMAIN-SUFFIX,docs.baichuan-ai.com # 百川大模型文档站点，用于 API 文档、SDK 示例与模型能力说明
+DOMAIN-SUFFIX,cdn.baichuan-ai.com # 静态资源 CDN，用于前端脚本、样式与页面内容加载
+DOMAIN-SUFFIX,passport.baichuan-ai.com # 百川账号体系登录入口，用于控制台和 API 授权
+DOMAIN-SUFFIX,auth.baichuan-ai.com # 身份认证与授权服务端点，用于登录流程和权限校验
+
+# > Moonshot AI / Kimi Chat（月之暗面）
+
+DOMAIN-SUFFIX,moonshot.cn # 月之暗面官网主域名，用于模型介绍、产品发布与企业服务信息
+DOMAIN-SUFFIX,moonshot.ai # Moonshot 国际化品牌域名，用于模型展示与产品介绍
+DOMAIN-SUFFIX,kimi.moonshot.cn # Kimi Chat 在线对话入口，用于长文本处理与 AI 交互体验
+DOMAIN-SUFFIX,kimi.moonshot.ai # Kimi Chat 海外访问入口，用于模型体验与产品内容访问
+DOMAIN-SUFFIX,api.moonshot.cn # Moonshot API 主接口，用于模型推理、长文本处理与对话生成
+DOMAIN-SUFFIX,api.moonshot.ai # 海外向 API 接口，用于企业与跨境模型调用
+DOMAIN-SUFFIX,console.moonshot.cn # 控制台入口，用于 API Key、调用量、模型配置与账单管理
+DOMAIN-SUFFIX,console.moonshot.ai # 国际化控制台入口，用于企业客户与跨境访问
+DOMAIN-SUFFIX,docs.moonshot.cn # 文档站点，用于 API 文档、SDK 示例与模型能力说明
+DOMAIN-SUFFIX,cdn.moonshot.cn # 前端静态资源 CDN，用于控制台与 Web 端脚本、样式加载
+DOMAIN-SUFFIX,passport.moonshot.cn # Moonshot 账号登录中心，用于控制台与 API 权限验证
+DOMAIN-SUFFIX,auth.moonshot.cn # 统一身份认证服务，用于用户登录与授权流程
