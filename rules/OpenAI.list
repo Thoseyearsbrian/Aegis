@@ -59,6 +59,8 @@ DOMAIN-SUFFIX,assets.vidu.com # Vidu 静态素材资源域名，用于 UI 图标
 DOMAIN-SUFFIX,media.vidu.com # Vidu 媒体存储域名，用于生成视频、图像、音频文件与用户上传内容
 DOMAIN-SUFFIX,files.vidu.com # Vidu 文件上传/下载域名，用于素材上传、视频导出与项目文件管理
 DOMAIN-SUFFIX,render.vidu.com # Vidu 渲染服务域名，用于视频渲染任务、模型执行与后台生成管线
+DOMAIN-SUFFIX,cf.vidu.studio # Vidu 静态资源 CDN 域名，用于模型推理生成的图片、视频等内容的多媒体分发
+DOMAIN-SUFFIX,image01.cf.vidu.studio # Vidu 多媒体子域名，用于 AI 生成内容的图片资源加载与分发
 
 # > ByteDance AI（Doubao / VolcEngine）相关域名
 
