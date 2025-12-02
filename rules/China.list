@@ -1601,3 +1601,14 @@ DOMAIN-SUFFIX,flowusfile.com # FlowUs 文件上传与下载主域名，用于处
 DOMAIN-SUFFIX,flowususercontent.com # FlowUs 用户内容存储域，用于用户生成内容、媒体资源与富文本素材
 DOMAIN-SUFFIX,api.flowus.cn # FlowUs API 接口，用于笔记同步、权限校验、团队协作与数据访问
 DOMAIN-SUFFIX,cdnflowus.com # FlowUs CDN 加速域名，用于页面性能优化与前端资源分发
+
+# > 坚果云（Nutstore / 文件同步·云存储·团队协作）
+
+DOMAIN-SUFFIX,nutstore.cn # 坚果云主站域名，用于文件同步、云存储、团队协作与账号管理
+DOMAIN-SUFFIX,jiyun.feiniu.com # 坚果云文件加速与对象存储服务，用于大文件上传/下载与预览处理
+DOMAIN-SUFFIX,static.nutstore.cn # 坚果云静态资源 CDN，用于脚本、样式、图片与界面组件加载
+DOMAIN-SUFFIX,webdav.nutstore.cn # WebDAV 服务端点，用于跨设备文件同步、挂载与第三方客户端访问
+DOMAIN-SUFFIX,app.nutstore.cn # 坚果云 Web 应用前端，用于在线管理文件、共享链接与团队空间
+DOMAIN-SUFFIX,api.nutstore.cn # 坚果云 API 接口，用于文件查询、传输、权限管理与团队协作
+DOMAIN-SUFFIX,nutstoreusercontent.com # 坚果云用户内容存储域，用于文件下载链接、共享文件及临时资源托管
+
