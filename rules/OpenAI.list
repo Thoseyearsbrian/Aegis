@@ -169,6 +169,19 @@ DOMAIN-SUFFIX,cdn.01.ai # 前端静态资源 CDN，用于脚本、样式与模�
 DOMAIN-SUFFIX,passport.01.ai # 零一万物账号体系登录入口，用于控制台与 API 权限验证
 DOMAIN-SUFFIX,auth.01.ai # 身份认证服务，用于登录过程与授权流程
 
+# > Baichuan（百川智能）
+
+DOMAIN-SUFFIX,baichuan-ai.com # 百川智能官方网站，用于模型介绍、产品概览与技术展示
+DOMAIN-SUFFIX,www.baichuan-ai.com # 官方主站子域，用于产品体验、活动信息与在线展示
+DOMAIN-SUFFIX,api.baichuan-ai.com # 百川大模型 API 主接口，用于对话、生成、向量化与多模态推理
+DOMAIN-SUFFIX,chat.baichuan-ai.com # 在线 Chat 页面入口，用于体验 Baichuan 模型
+DOMAIN-SUFFIX,platform.baichuan-ai.com # 百川开发者平台，用于 API Key、账单与模型管理
+DOMAIN-SUFFIX,console.baichuan-ai.com # 控制台入口，用于调用量、计费与权限管理
+DOMAIN-SUFFIX,docs.baichuan-ai.com # 百川大模型文档站点，用于 API 文档、SDK 示例与模型能力说明
+DOMAIN-SUFFIX,cdn.baichuan-ai.com # 静态资源 CDN，用于前端脚本、样式与页面内容加载
+DOMAIN-SUFFIX,passport.baichuan-ai.com # 百川账号体系登录入口，用于控制台和 API 授权
+DOMAIN-SUFFIX,auth.baichuan-ai.com # 身份认证与授权服务端点，用于登录流程和权限校验
+
 # > OpenAI Chat 系列
 
 DOMAIN-SUFFIX,openai.com # OpenAI 主站域名
