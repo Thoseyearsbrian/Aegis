@@ -372,3 +372,22 @@ DOMAIN-SUFFIX,cdn.play.ht # PlayHT 静态资源 CDN，用于前端脚本、样�
 DOMAIN-SUFFIX,assets.play.ht # PlayHT 静态素材资源域名，用于 UI 组件、图标、模板文件与前端素材加载
 DOMAIN-SUFFIX,media.play.ht # PlayHT 媒体资源域名，用于存储生成的音频文件、语音示例与用户上传内容
 DOMAIN-SUFFIX,files.play.ht # PlayHT 文件服务端点，用于音频文件下载、上传与任务输出处理
+
+# > LOVO.ai / Revoice（AI 语音生成 / 语音克隆平台）
+
+DOMAIN-SUFFIX,lovo.ai # LOVO.ai 主站，用于产品介绍、演示、定价与登录入口
+DOMAIN-SUFFIX,app.lovo.ai # LOVO Web Studio，用于文本转语音（TTS）、语音编辑、克隆管理与音频项目操作
+DOMAIN-SUFFIX,api.lovo.ai # LOVO 官方 API 接口，用于 TTS、语音克隆、批处理任务与生成音频的调用
+DOMAIN-SUFFIX,cdn.lovo.ai # LOVO 静态资源 CDN，用于前端脚本、样式、字体与 Studio 界面资源加载
+DOMAIN-SUFFIX,assets.lovo.ai # LOVO 静态素材域名，用于 UI 图标、模板、字体与组件资源加载
+DOMAIN-SUFFIX,media.lovo.ai # LOVO 媒体域名，用于存储输出音频、语音样本与用户上传内容
+DOMAIN-SUFFIX,files.lovo.ai # LOVO 文件服务端点，用于音频文件上传、下载与任务输出管理
+
+# Revoice 独立入口与服务
+DOMAIN-SUFFIX,revoice.ai # Revoice 主站，用于语音克隆产品介绍、示例与账号入口
+DOMAIN-SUFFIX,app.revoice.ai # Revoice Web 应用，用于录音上传、训练声音模型与克隆语音生成
+DOMAIN-SUFFIX,api.revoice.ai # Revoice API，用于语音克隆模型推理、音频生成与服务集成
+DOMAIN-SUFFIX,cdn.revoice.ai # Revoice 静态资源 CDN，用于加载前端脚本、界面组件与样式资源
+DOMAIN-SUFFIX,assets.revoice.ai # Revoice 静态资源域名，用于图标、页面素材与音频工具相关资源
+DOMAIN-SUFFIX,media.revoice.ai # Revoice 媒体内容存储，用于生成音频文件、训练样本与上传内容
+DOMAIN-SUFFIX,files.revoice.ai # Revoice 文件服务，用于克隆语音素材上传、输出音频下载
