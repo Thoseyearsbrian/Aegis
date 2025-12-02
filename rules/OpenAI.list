@@ -363,3 +363,12 @@ DOMAIN-SUFFIX,media.heygen.com # HeyGen 媒体域名，用于存储输出视频�
 DOMAIN-SUFFIX,files.heygen.com # HeyGen 文件服务端点，用于编辑任务文件、视频下载与上传处理
 DOMAIN-SUFFIX,render.heygen.com # HeyGen 渲染任务域名，用于视频渲染、数字人生成与后台处理调度
 
+# > PlayHT（AI 语音生成 / TTS / 语音克隆平台）
+
+DOMAIN-SUFFIX,play.ht # PlayHT 主站与入口，用于产品介绍、示例音频展示与账号登录
+DOMAIN-SUFFIX,app.play.ht # PlayHT Web Studio，用于文本转语音、语音克隆、音频编辑与项目管理
+DOMAIN-SUFFIX,api.play.ht # PlayHT 官方 API 接口，用于文本转语音（TTS）、语音克隆、音频生成与批处理任务
+DOMAIN-SUFFIX,cdn.play.ht # PlayHT 静态资源 CDN，用于前端脚本、样式、字体与控制台界面资源加载
+DOMAIN-SUFFIX,assets.play.ht # PlayHT 静态素材资源域名，用于 UI 组件、图标、模板文件与前端素材加载
+DOMAIN-SUFFIX,media.play.ht # PlayHT 媒体资源域名，用于存储生成的音频文件、语音示例与用户上传内容
+DOMAIN-SUFFIX,files.play.ht # PlayHT 文件服务端点，用于音频文件下载、上传与任务输出处理
