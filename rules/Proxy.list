@@ -2639,13 +2639,18 @@ DOMAIN-SUFFIX,mkrf.ru        # 俄罗斯文化部旧域名，用于文化事务�
 
 DOMAIN-SUFFIX,runivers.ru  # Runivers 主站域名，在线提供俄罗斯历史、档案、照片与文化资料  
 
-# > Notion 笔记与协作平台
+# > Notion（文档协作 / 知识库 / 项目管理）
 
-DOMAIN-SUFFIX,notion.so # Notion 主站域名，用于笔记、知识库与协作服务
-DOMAIN-SUFFIX,notion.site # Notion 自托管页面域名，常用于公开分享或嵌入站点
-DOMAIN-SUFFIX,notion-static.com # Notion 静态资源域名，用于加载图片、脚本等前端文件
-DOMAIN-SUFFIX,api.notion.com # Notion API 接口，用于第三方集成与数据读写
-DOMAIN-SUFFIX,auth.notion.com # Notion 登录与授权服务域名
+DOMAIN-SUFFIX,notion.so # Notion 主站域名，用于工作区访问、文档编辑与协作管理
+DOMAIN-SUFFIX,notion.site # Notion 公开页面托管域名，用于对外分享的文档与网站
+DOMAIN-SUFFIX,notion-static.com # Notion 静态资源域名，用于加载前端脚本、样式与 UI 组件
+DOMAIN-SUFFIX,notionusercontent.com # Notion 用户内容存储域名，用于附件、图片、文件等资源加载
+DOMAIN-SUFFIX,notion-uploads.com # Notion 上传文件处理端点，用于图片、PDF、视频等素材上传
+DOMAIN-SUFFIX,notion-newtab.com # Notion 浏览器扩展 / New Tab 插件资源域名
+DOMAIN-SUFFIX,notion.services # Notion 后端服务域名，用于同步、数据库查询与实时协作处理
+DOMAIN-SUFFIX,api.notion.com # Notion 官方 API 域名，用于自动化、第三方集成与数据接口
+DOMAIN-SUFFIX,cachefly.net # Notion 使用的缓存网络加速节点，用于静态内容高性能分发
+DOMAIN-SUFFIX,amazonaws.com # Notion 使用的 AWS S3 存储端点（附件、文件、图片资源托管）
 
 # > Flag Icons 相关域名
 
