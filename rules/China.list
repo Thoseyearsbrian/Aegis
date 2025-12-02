@@ -1612,3 +1612,13 @@ DOMAIN-SUFFIX,app.nutstore.cn # 坚果云 Web 应用前端，用于在线管理�
 DOMAIN-SUFFIX,api.nutstore.cn # 坚果云 API 接口，用于文件查询、传输、权限管理与团队协作
 DOMAIN-SUFFIX,nutstoreusercontent.com # 坚果云用户内容存储域，用于文件下载链接、共享文件及临时资源托管
 
+# > Wolai（我来笔记 / 在线知识库与协作平台）
+
+DOMAIN-SUFFIX,wolai.com # Wolai 主站域名，用于笔记编辑、数据库管理、知识库协作与团队空间
+DOMAIN-SUFFIX,wolai.cn # Wolai 中国区服务域名，用于账号登录、团队协作与内容管理
+DOMAIN-SUFFIX,static.wolai.com # Wolai 静态资源 CDN，用于脚本、样式、字体与前端组件加载
+DOMAIN-SUFFIX,wolaipublic.com # Wolai 公共资源域，用于模板库、图标、封面等公共素材加载
+DOMAIN-SUFFIX,wolaiusercontent.com # Wolai 用户内容存储域，用于附件、图片、视频、文件与富文本内容托管
+DOMAIN-SUFFIX,api.wolai.com # Wolai API 接口，用于笔记同步、权限校验、团队协作操作与数据交互
+DOMAIN-SUFFIX,wolaiimg.com # Wolai 图像资源域，用于渲染封面、截图、图标与富媒体内容
+
