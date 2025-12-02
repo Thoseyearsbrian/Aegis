@@ -182,6 +182,21 @@ DOMAIN-SUFFIX,cdn.baichuan-ai.com # 静态资源 CDN，用于前端脚本、样�
 DOMAIN-SUFFIX,passport.baichuan-ai.com # 百川账号体系登录入口，用于控制台和 API 授权
 DOMAIN-SUFFIX,auth.baichuan-ai.com # 身份认证与授权服务端点，用于登录流程和权限校验
 
+# > Moonshot AI / Kimi Chat（月之暗面）
+
+DOMAIN-SUFFIX,moonshot.cn # 月之暗面官网主域名，用于模型介绍、产品发布与企业服务信息
+DOMAIN-SUFFIX,moonshot.ai # Moonshot 国际化品牌域名，用于模型展示与产品介绍
+DOMAIN-SUFFIX,kimi.moonshot.cn # Kimi Chat 在线对话入口，用于长文本处理与 AI 交互体验
+DOMAIN-SUFFIX,kimi.moonshot.ai # Kimi Chat 海外访问入口，用于模型体验与产品内容访问
+DOMAIN-SUFFIX,api.moonshot.cn # Moonshot API 主接口，用于模型推理、长文本处理与对话生成
+DOMAIN-SUFFIX,api.moonshot.ai # 海外向 API 接口，用于企业与跨境模型调用
+DOMAIN-SUFFIX,console.moonshot.cn # 控制台入口，用于 API Key、调用量、模型配置与账单管理
+DOMAIN-SUFFIX,console.moonshot.ai # 国际化控制台入口，用于企业客户与跨境访问
+DOMAIN-SUFFIX,docs.moonshot.cn # 文档站点，用于 API 文档、SDK 示例与模型能力说明
+DOMAIN-SUFFIX,cdn.moonshot.cn # 前端静态资源 CDN，用于控制台与 Web 端脚本、样式加载
+DOMAIN-SUFFIX,passport.moonshot.cn # Moonshot 账号登录中心，用于控制台与 API 权限验证
+DOMAIN-SUFFIX,auth.moonshot.cn # 统一身份认证服务，用于用户登录与授权流程
+
 # > OpenAI Chat 系列
 
 DOMAIN-SUFFIX,openai.com # OpenAI 主站域名
