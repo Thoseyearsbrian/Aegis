@@ -4,7 +4,7 @@
 # - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2025-12-02
 
 # > Microsoft Visual Studio Code 主程序与资源服务
 
@@ -40,14 +40,15 @@ DOMAIN-SUFFIX,skypeassets.com # Skype 静态资源（Azure 托管）
 
 # > Office 365 / Microsoft 365 服务
 
-DOMAIN-SUFFIX,office365.com # Office 365 官方入口
-DOMAIN-SUFFIX,office.net # Office365 服务域名
-DOMAIN-SUFFIX,sharepoint.com # SharePoint 协作平台
-DOMAIN-SUFFIX,onenote.com # Microsoft OneNote 服务
-DOMAIN-SUFFIX,sway.com # Microsoft Sway 在线演示工具
-DOMAIN-SUFFIX,yammer.com # Microsoft Yammer 企业社交
-DOMAIN-SUFFIX,res.public.onecdn.static.microsoft # Microsoft CDN 资源分发节点，服务于 Windows / Office / Store 等产品的静态资源下载与内容缓存
-DOMAIN-SUFFIX,roaming.svc.cloud.microsoft # Microsoft 云服务漫游配置接口，涉及账户设置同步（如 Office、Edge、Windows 设置跨设备同步）
+DOMAIN-SUFFIX,office.com # Microsoft 365 统一入口，用于在线版 Word/Excel/PowerPoint 及账户管理
+DOMAIN-SUFFIX,office365.com # Office 365 官方门户，用于订阅管理与企业入口
+DOMAIN-SUFFIX,office.net # Office 365 / M365 服务资源域名，用于加载应用组件与相关服务
+DOMAIN-SUFFIX,sharepoint.com # SharePoint 协作平台域名，用于文档管理、团队站点与企业内部协作
+DOMAIN-SUFFIX,onenote.com # Microsoft OneNote 在线服务域名，用于笔记同步与内容存储
+DOMAIN-SUFFIX,sway.com # Microsoft Sway 在线演示工具，用于创建网页式演示文稿
+DOMAIN-SUFFIX,yammer.com # Microsoft Yammer 企业社交平台，用于组织内部沟通与社区建设
+DOMAIN-SUFFIX,res.public.onecdn.static.microsoft # Microsoft OneCDN 公共静态资源节点，用于 Windows/Office/Store 等产品的静态内容分发
+DOMAIN-SUFFIX,roaming.svc.cloud.microsoft # Microsoft 云漫游服务接口，用于 Office/Edge/Windows 的跨设备设置同步
 
 # > OneDrive 云存储服务
 
