@@ -1653,3 +1653,13 @@ DOMAIN-SUFFIX,cdn.js.design # 即时设计静态资源 CDN，用于图标库、�
 DOMAIN-SUFFIX,assets.js.design # 即时设计静态素材域名，用于图片、模板、组件素材与资源文件分发
 DOMAIN-SUFFIX,im.js.design # 即时设计内置 IM 服务，用于评论、协作沟通与编辑通知
 DOMAIN-SUFFIX,push.js.design # 即时设计推送/通知域名，用于消息提醒、邀请与协作事件推送
+
+# > 摹客（MockingBot 在线原型设计与协作平台）
+
+DOMAIN-SUFFIX,mockingbot.com # 摹客主站域名，用于产品访问、账户体系与功能入口
+DOMAIN-SUFFIX,app.mockingbot.com # 摹客 Web 应用端，用于原型设计、组件编辑、项目协作
+DOMAIN-SUFFIX,api.mockingbot.com # 摹客 API 接口，用于项目数据交互、版本管理与协作同步
+DOMAIN-SUFFIX,cdn.mockingbot.com # 摹客静态资源 CDN，用于前端脚本、样式、素材库与渲染资源加载
+DOMAIN-SUFFIX,assets.mockingbot.com # 摹客 UI 组件、图片、模板与设计资源素材域名
+DOMAIN-SUFFIX,im.mockingbot.com # 摹客协作通信服务，用于团队评论、通知与协作事件推送
+DOMAIN-SUFFIX,push.mockingbot.com # 摹客推送服务，用于账号提醒、项目变更与邀请通知
