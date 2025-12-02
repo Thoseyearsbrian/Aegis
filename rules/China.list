@@ -1663,3 +1663,11 @@ DOMAIN-SUFFIX,cdn.mockingbot.com # 摹客静态资源 CDN，用于前端脚本�
 DOMAIN-SUFFIX,assets.mockingbot.com # 摹客 UI 组件、图片、模板与设计资源素材域名
 DOMAIN-SUFFIX,im.mockingbot.com # 摹客协作通信服务，用于团队评论、通知与协作事件推送
 DOMAIN-SUFFIX,push.mockingbot.com # 摹客推送服务，用于账号提醒、项目变更与邀请通知
+
+# > 即时工具（JsTool / 即时设计旗下在线工具平台）
+
+DOMAIN-SUFFIX,jiji.tools # 即时工具主站域名，用于访问各种在线工具（PDF、图片处理、格式转换等）
+DOMAIN-SUFFIX,api.jiji.tools # 即时工具 API 接口，用于文件处理、任务队列与云端转换操作
+DOMAIN-SUFFIX,cdn.jiji.tools # 即时工具静态资源 CDN，用于前端脚本、样式、图标与工具界面加载
+DOMAIN-SUFFIX,assets.jiji.tools # 即时工具资源域名，用于素材文件、字体、模板与工具组件资源加载
+DOMAIN-SUFFIX,task.jiji.tools # 即时工具任务服务，用于文件转换、异步处理与状态查询
