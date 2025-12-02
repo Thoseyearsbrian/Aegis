@@ -618,6 +618,7 @@ DOMAIN-SUFFIX,api.showrunner.ai # Showrunner API，用于剧情自动生成、�
 
 # > Dola AI（第三方 AI 对话平台 / 多模型聚合）
 
+DOMAIN-SUFFIX,dola.com # Dola AI 对话平台主域名，用于在线聊天助手、模型聚合与对话界面访问
 DOMAIN-SUFFIX,app.dola.com # Dola AI Web 应用端，用于会话管理、模型切换与界面交互
 DOMAIN-SUFFIX,api.dola.com # Dola AI 后端推理接口，用于模型调用、推理请求与应用集成
 DOMAIN-SUFFIX,cdn.dola.com # Dola 静态资源 CDN，用于前端脚本、样式与素材加载
