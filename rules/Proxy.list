@@ -4181,7 +4181,19 @@ DOMAIN-SUFFIX,api.opentip.kaspersky.com # OpenTIP API 接口，用于自动化�
 DOMAIN-SUFFIX,threats.kaspersky.com # Kaspersky 全球威胁百科（Threat Encyclopedia），用于恶意软件家族、攻击技术与威胁说明
 DOMAIN-SUFFIX,go.kaspersky.com # Kaspersky 在线服务跳转，用于安全报告、情报页面与多服务入口路由
 DOMAIN-SUFFIX,static.kasperskycontenthub.com # 卡巴斯基内容 CDN，用于情报平台文档、图标、CSS 与脚本资源加载
-DOMAIN-SUFFIX,kasperskycontenthub.com # 卡巴斯基内容中心主域名，提供情报文章、安全报告与前端资源
+DOMAIN-SUFFIX,kasperskycontenthub.com # 
+
+# > Spamhaus（全球威胁情报 / 恶意域名与 IP 信誉查询 / DNSBL）
+
+DOMAIN-SUFFIX,spamhaus.org # Spamhaus 官方主站，用于威胁情报、DNSBL 查询、恶意域名/IP 信誉说明
+DOMAIN-SUFFIX,check.spamhaus.org # Spamhaus 黑名单（DNSBL）查询页面，用于 IP/域名信誉检测与垃圾邮件来源分析
+DOMAIN-SUFFIX,zen.spamhaus.org # Spamhaus ZEN 综合黑名单服务，整合多个 DNSBL（SBL/XBL/PBL）；用于恶意流量识别（需通过 DNS 查询）
+DOMAIN-SUFFIX,dbl.spamhaus.org # Spamhaus Domain Block List（DBL），用于恶意域名、钓鱼站点、垃圾邮件域名实时识别
+DOMAIN-SUFFIX,pbl.spamhaus.org # Spamhaus Policy Block List（PBL），用于检测被动威胁来源与非邮件服务器 IP 段
+DOMAIN-SUFFIX,sbl.spamhaus.org # Spamhaus SBL（Spamhaus Block List），用于已知垃圾邮件源与恶意服务器拦截
+DOMAIN-SUFFIX,xbl.spamhaus.org # Spamhaus Exploits Block List（XBL），用于检测恶意软件感染机器、僵尸网络与木马控制节点
+DOMAIN-SUFFIX,spamhaus.com # Spamhaus 商业服务主域，用于付费威胁情报、API 访问与企业安全服务（DQS）
+DOMAIN-SUFFIX,spamhaus.zone # Spamhaus 数据服务域，用于 API 调用、威胁情报同步与信誉数据库更新
 
 # > 其他 (暂未分类)
 
