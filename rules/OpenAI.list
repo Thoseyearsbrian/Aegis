@@ -391,3 +391,15 @@ DOMAIN-SUFFIX,cdn.revoice.ai # Revoice 静态资源 CDN，用于加载前端脚�
 DOMAIN-SUFFIX,assets.revoice.ai # Revoice 静态资源域名，用于图标、页面素材与音频工具相关资源
 DOMAIN-SUFFIX,media.revoice.ai # Revoice 媒体内容存储，用于生成音频文件、训练样本与上传内容
 DOMAIN-SUFFIX,files.revoice.ai # Revoice 文件服务，用于克隆语音素材上传、输出音频下载
+
+# > Synthesia（AI 数字人视频生成 / 企业级虚拟主播平台）
+
+DOMAIN-SUFFIX,synthesia.io # Synthesia 主站入口，用于产品介绍、示例展示、登录与企业解决方案
+DOMAIN-SUFFIX,app.synthesia.io # Synthesia Web Studio，用于视频生成、模板编辑、虚拟人创建与项目管理
+DOMAIN-SUFFIX,api.synthesia.io # Synthesia 官方 API，用于视频生成、脚本处理、数字人渲染与企业级集成
+DOMAIN-SUFFIX,cdn.synthesia.io # Synthesia 静态资源 CDN，用于加载脚本、样式、字体与前端 UI 组件
+DOMAIN-SUFFIX,assets.synthesia.io # Synthesia 静态素材域名，用于图标、模板、数字人素材与前端界面资源
+DOMAIN-SUFFIX,media.synthesia.io # Synthesia 媒体资源域名，用于存储生成的视频、上传的素材文件与音频内容
+DOMAIN-SUFFIX,files.synthesia.io # Synthesia 文件服务端点，用于项目文件上传、下载与生成内容传输
+DOMAIN-SUFFIX,render.synthesia.io # Synthesia 渲染服务域名，用于视频合成、数字人渲染与后台任务调度
+
