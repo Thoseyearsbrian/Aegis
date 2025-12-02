@@ -226,3 +226,14 @@ DOMAIN-SUFFIX,cdn.runwayml.com # Runway 静态资源 CDN，用于前端脚本、
 DOMAIN-SUFFIX,assets.runwayml.com # Runway 资源域名，用于模型素材、示例文件与界面图标加载
 DOMAIN-SUFFIX,storage.googleapis.com # Runway 项目文件与生成视频的云端存储（Google Cloud 托管）
 
+# > Stability AI（Stable Diffusion 官方）
+
+DOMAIN-SUFFIX,stability.ai # Stability AI 主站域名，用于模型发布、产品信息与公司介绍
+DOMAIN-SUFFIX,api.stability.ai # Stability AI 官方 API 接口域名，用于图像生成、视频生成与模型推理
+DOMAIN-SUFFIX,platform.stability.ai # Stability 控制台，用于 API Key 管理、账单与使用数据查看
+DOMAIN-SUFFIX,stability.dev # Stability 开发者子域，用于 SDK、开发工具与技术文档入口
+DOMAIN-SUFFIX,cdn.stability.ai # Stability 静态资源 CDN，用于前端脚本、样式与模型素材加载
+DOMAIN-SUFFIX,stablediffusionapi.com # Stable Diffusion 关联服务域名，用于扩展模型托管与推理服务
+DOMAIN-SUFFIX,clipdrop.co # ClipDrop（Stability 收购产品），用于图像生成、清洁、增强等工具
+DOMAIN-SUFFIX,api.clipdrop.co # ClipDrop 官方 API 接口，用于背景移除、修复与图像增强任务
+
