@@ -4152,6 +4152,17 @@ DOMAIN-SUFFIX,updates.checkpoint.com # Check Point 威胁情报更新节点，�
 DOMAIN-SUFFIX,cloudinfra.checkpoint.com # ThreatCloud 云基础服务，用于 API 调用、云端数据同步与威胁源获取
 DOMAIN-SUFFIX,cpcheckpt.com # Check Point 基础设施辅助域名，用于安全服务、云组件与资源加载
 
+# > CrowdStrike Falcon Intelligence（威胁情报 / IOC 查询 / 入侵检测）
+
+DOMAIN-SUFFIX,crowdstrike.com # CrowdStrike 官方主站，用于产品访问、Falcon 平台登录与情报服务入口
+DOMAIN-SUFFIX,falcon.crowdstrike.com # Falcon 控制台，用于威胁情报管理、IOC 查询、设备监控与安全事件分析
+DOMAIN-SUFFIX,api.crowdstrike.com # Falcon Intelligence API 接口，用于 IOC 查询、攻击链分析、恶意指标检索与情报集成
+DOMAIN-SUFFIX,assets.crowdstrike.com # CrowdStrike 静态资源域名，用于前端组件、脚本、图标与界面素材加载
+DOMAIN-SUFFIX,cdn.crowdstrike.com # CrowdStrike CDN 域名，用于控制台与情报平台的前端静态内容分发加速
+DOMAIN-SUFFIX,falcon.us-2.crowdstrike.com # Falcon Intelligence 区域节点（US-2 区域），用于 API 调用、情报检索与云端同步
+DOMAIN-SUFFIX,falcon.eu-1.crowdstrike.com # Falcon Intelligence 欧洲区域节点，用于欧盟区设备情报查询与合规部署需求
+DOMAIN-SUFFIX,falcon.laggar.gcw.crowdstrike.com # CrowdStrike 全球云（GCW）服务域，用于威胁数据同步、后端逻辑处理与遥测汇聚
+
 # > Evernote（国际版笔记服务 / 云端同步平台）
 
 DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
