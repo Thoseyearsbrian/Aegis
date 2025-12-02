@@ -1546,3 +1546,13 @@ DOMAIN-SUFFIX,static.pingcode.com # PingCode 静态资源 CDN，用于脚本、�
 DOMAIN-SUFFIX,pcusercontent.com # PingCode 用户内容存储域，用于附件、测试截图、文档与项目资源托管
 DOMAIN-SUFFIX,pc-cdn.com # PingCode 静态加速 CDN，用于前端资源、头像、图标与界面素材加载
 DOMAIN-SUFFIX,pingcodeimg.com # PingCode 图片资源域名，用于工作项截图、文件预览与知识库展示
+
+# > TAPD（腾讯敏捷研发协作 / 项目管理平台）
+
+DOMAIN-SUFFIX,tapd.cn # TAPD 主站域名，用于敏捷项目管理、迭代规划、需求与缺陷跟踪
+DOMAIN-SUFFIX,api.tapd.cn # TAPD API 接口域名，用于项目数据、需求/缺陷同步、自动化与第三方集成
+DOMAIN-SUFFIX,static.tapd.cn # TAPD 静态资源 CDN，用于前端脚本、样式、字体与界面组件加载
+DOMAIN-SUFFIX,tapdfile.cn # TAPD 文件资源与附件存储，用于上传截图、文档、设计稿与项目相关文件
+DOMAIN-SUFFIX,tapdcustom.com # TAPD 自定义域名服务，用于企业定制化工作区、登录跳转与专属子域
+DOMAIN-SUFFIX,tencent.com # 腾讯通用服务域名，用于 TAPD 登录体系、权限验证与统一账户认证
+DOMAIN-SUFFIX,qq.com # QQ 登录体系依赖域，用于 TAPD 账号登录、权限校验与单点登录
