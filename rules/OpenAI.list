@@ -86,10 +86,17 @@ DOMAIN-SUFFIX,cdn.anthropic.com # Anthropic 内容分发网络（CDN），用于
 
 # > Gemini / Bard（Google AI）
 
-DOMAIN-SUFFIX,gemini.google.com # Google Gemini AI：谷歌新一代多模态智能助手平台，整合 Bard 与 Duet AI
-DOMAIN-SUFFIX,bard.google.com # Google Bard：谷歌推出的 AI 对话助手，现已并入 Gemini
-DOMAIN-SUFFIX,generativeai.google # Google Generative AI 平台主页，用于推广与接入 AI 模型服务
-DOMAIN-SUFFIX,generative-language.googleapis.com # Google 生成式语言 API 接口，Gemini 等模型对话后端服务节点
+DOMAIN-SUFFIX,gemini.google.com # Google Gemini 主站入口，用于多模态对话与 AI 工具访问
+DOMAIN-SUFFIX,bard.google.com # Google Bard 对话入口（已并入 Gemini，但旧入口仍在使用）
+DOMAIN-SUFFIX,generativeai.google # Google Generative AI 官方主页，介绍模型能力与 API 产品
+DOMAIN-SUFFIX,generative-language.googleapis.com # Google 生成式语言 API，用于 Gemini 文本与对话模型调用
+DOMAIN-SUFFIX,ai.google.dev # Google AI 开发者平台，Gemini API 文档、示例与 SDK
+DOMAIN-SUFFIX,makersuite.google.com # Google MakerSuite 工具，用于 Gemini Prompt 工程、数据集与实验
+DOMAIN-SUFFIX,palm.googleapis.com # PaLM API（Gemini 前身），部分旧 SDK 仍使用此端点
+DOMAIN-SUFFIX,proto.googleapis.com # Google API Protobuf 服务端点（Gemini/PaLM 部分调用链依赖）
+DOMAIN-SUFFIX,staging-bard.google.com # Bard 相关测试环境域名（真实存在）
+DOMAIN-SUFFIX,ai.googleblog.com # Google AI 官方技术博客，发布模型更新与研究成果
+DOMAIN-SUFFIX,deepmind.google # DeepMind 官方域名，Google Research 与 Gemini 研发部门之一
 
 # > Copilot 系列（Microsoft）
 
