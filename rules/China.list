@@ -1556,3 +1556,14 @@ DOMAIN-SUFFIX,tapdfile.cn # TAPD 文件资源与附件存储，用于上传截�
 DOMAIN-SUFFIX,tapdcustom.com # TAPD 自定义域名服务，用于企业定制化工作区、登录跳转与专属子域
 DOMAIN-SUFFIX,tencent.com # 腾讯通用服务域名，用于 TAPD 登录体系、权限验证与统一账户认证
 DOMAIN-SUFFIX,qq.com # QQ 登录体系依赖域，用于 TAPD 账号登录、权限校验与单点登录
+
+# > 有道云笔记（Youdao Note / 网易有道在线笔记与知识管理平台）
+
+DOMAIN-SUFFIX,ydnote.com # 有道云笔记主域名，用于笔记查看、编辑、同步与团队协作
+DOMAIN-SUFFIX,note.youdao.com # 有道云笔记网页版入口，用于文档管理、内容呈现与账号业务
+DOMAIN-SUFFIX,ynote.com # 有道云笔记旧版域名，用于兼容早期客户端与历史服务
+DOMAIN-SUFFIX,ydstatic.com # 有道系静态资源 CDN，用于前端脚本、样式、字体与公共组件加载
+DOMAIN-SUFFIX,ydschool.com # 有道教育关联域，用于部分资源托管与静态内容引用
+DOMAIN-SUFFIX,ydimg.com # 有道图片资源域名，用于笔记图片、截图、插图与富文本内容存储
+DOMAIN-SUFFIX,youdao.com # 网易有道基础服务域名，用于统一登录、账户管理与云端服务关联
+DOMAIN-SUFFIX,api.youdao.com # 有道 API 服务端，用于文档同步、OCR、翻译等功能的接口调用
