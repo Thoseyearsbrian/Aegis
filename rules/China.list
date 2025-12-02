@@ -1715,6 +1715,7 @@ DOMAIN-SUFFIX,assets.klingai.com # Kling 静态素材资源域名，用于图标
 DOMAIN-SUFFIX,media.klingai.com # Kling 媒体资源域名，用于生成视频、图像文件存储与用户上传内容
 DOMAIN-SUFFIX,files.klingai.com # Kling 文件服务端点，用于上传素材、下载生成视频与项目文件管理
 DOMAIN-SUFFIX,render.klingai.com # Kling 渲染服务域名，用于视频渲染队列处理与后台生成任务执行
+DOMAIN-SUFFIX,v4-kling.kechuangai.com # Kling（科创 AI）视频生成服务端点，用于 V4 版本模型的推理请求、视频生成与任务处理
 
 # > Vidu（AI 视频生成 / 多模态场景生成平台）
 
