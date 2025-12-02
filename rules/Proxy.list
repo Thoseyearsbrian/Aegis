@@ -4217,6 +4217,27 @@ DOMAIN-SUFFIX,tmqa.trendmicro.com # 趋势科技质量/检测分析域名，用�
 DOMAIN-SUFFIX,tmcloud.trendmicro.com # 云安全服务节点，用于样本分析、信誉查询与实时威胁拦截策略同步
 DOMAIN-SUFFIX,ws.trendmicro.com # 趋势科技 Web 服务端点，用于 cloud reputation、URL 分析与安全规则更新
 
+# > ESET Threat Intelligence（恶意软件分析 / 威胁信誉服务）
+
+DOMAIN-SUFFIX,eset.com # ESET 官方主站域名，用于安全产品、威胁情报与技术资讯访问
+DOMAIN-SUFFIX,esetstatic.com # ESET 静态资源域名，用于加载网页脚本、界面样式、文档资源与产品更新
+DOMAIN-SUFFIX,eset.eu # ESET 欧洲业务域名，用于区域服务、企业访问与威胁情报相关内容
+DOMAIN-SUFFIX,threatintel.eu # ESET Threat Intelligence 平台域名，用于样本分析、恶意软件检测、IOC 查询与威胁报告访问
+DOMAIN-SUFFIX,livegrid.eset.com # ESET LiveGrid 云端信誉系统，用于文件信誉、URL 信誉与实时威胁数据上报/查询
+DOMAIN-SUFFIX,telemetry.eset.com # ESET 遥测与威胁数据端点，用于上传恶意样本行为、检测日志与威胁情报同步
+DOMAIN-SUFFIX,inspection.eset.com # ESET 远程检测与分析接口，用于样本检验、云端威胁评分与分析任务执行
+
+# > 第三方博客网站
+
+DOMAIN-SUFFIX,freedidi.com # 零度博客
+DOMAIN-SUFFIX,blog.skk.moe # Sukka 的技术博客，内容涵盖前端开发、网络优化、DNS 解析与代理工具使用
+DOMAIN-SUFFIX,blog.1ris.win # Blog 1RIS 个人博客主域名，用于技术分享、日志发布与项目更新
+
+# > 第三方独立站
+
+DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
+DOMAIN-SUFFIX,yotobike.com # Yotobike 独立站
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
@@ -4245,14 +4266,3 @@ DOMAIN-SUFFIX,bitdefender.com # Bitdefender 全球知名网络安全软件与威
 DOMAIN-SUFFIX,fortiguard.com # FortiGuard Labs 安全情报服务平台，提供域名/威胁监测与情报报告  
 DOMAIN-SUFFIX,gridinsoft.com # GridinSoft 反恶意软件与域名声誉检测工具服务  
 DOMAIN-SUFFIX,crdf.fr # CRDF Labs 法国独立网络安全研究实验室，提供公共 CTI 与威胁数据  
-
-# > 第三方博客网站
-
-DOMAIN-SUFFIX,freedidi.com # 零度博客
-DOMAIN-SUFFIX,blog.skk.moe # Sukka 的技术博客，内容涵盖前端开发、网络优化、DNS 解析与代理工具使用
-DOMAIN-SUFFIX,blog.1ris.win # Blog 1RIS 个人博客主域名，用于技术分享、日志发布与项目更新
-
-# > 第三方独立站
-
-DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
-DOMAIN-SUFFIX,yotobike.com # Yotobike 独立站
