@@ -4042,10 +4042,19 @@ DOMAIN-SUFFIX,hsleadflows.net # HubSpot Lead Flows 弹窗与引导组件相关�
 DOMAIN-SUFFIX,forms-na1.hsforms.com # HubSpot Forms 区域节点域名，用于表单提交与数据交互（NA1 数据中心）
 DOMAIN-SUFFIX,hubspotonwebflow.com # HubSpot 与 Webflow 集成使用的服务域名，用于表单、营销脚本与自动化组件加载
 
-# > Prighter 合规与隐私服务（GDPR / Data Protection）
+# > GDPR / 数据保护与隐私合规服务（Data Protection & DSAR Platforms）
 
-DOMAIN-SUFFIX,prighter.com # Prighter 合规服务平台，用于 GDPR / 隐私权请求与企业数据保护处理
-DOMAIN-SUFFIX,api.prighter.com # Prighter API 接口，用于隐私请求提交、数据访问申请与合规流程处理
+DOMAIN-SUFFIX,prighter.com # Prighter 全球隐私合规平台，用于 GDPR 隐私请求、数据访问申请与法律合规
+DOMAIN-SUFFIX,api.prighter.com # Prighter API 接口，用于 DSAR 请求提交、数据处理流程与企业合规验证
+DOMAIN-SUFFIX,trustarc.com # TrustArc 隐私管理与合规平台，用于 Cookie 管理、DSAR 合规与风险评估
+DOMAIN-SUFFIX,privacy.trustarc.com # TrustArc 隐私中心，用于用户数据访问、隐私请求与合规申诉处理
+DOMAIN-SUFFIX,oneTrust.com # OneTrust 隐私管理与数据治理平台，用于 Cookie Banner、DSAR 与 GDPR 合规
+DOMAIN-SUFFIX,trust.oneprivacy.com # OneTrust 数据处理端点，用于企业隐私表单与合规请求处理
+DOMAIN-SUFFIX,osano.com # Osano Cookie Consent 与隐私合规工具，用于用户授权与风险管理
+DOMAIN-SUFFIX,privacyportal.osano.com # Osano 隐私门户，用于用户数据访问、删除申请与 GDPR 流程
+DOMAIN-SUFFIX,dataprotection.com # 数据保护服务平台，用于企业 GDPR 文档托管与风险控制接口
+DOMAIN-SUFFIX,dsarhub.com # DSAR Hub 平台，用于自动化数据访问请求与隐私流程管理
+DOMAIN-SUFFIX,gdprform.io # GDPR 线上隐私请求平台，用于数据访问、删除、限制处理等合规需求处理
 
 # > 其他 (暂未分类)
 
