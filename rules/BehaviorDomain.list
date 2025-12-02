@@ -613,3 +613,12 @@ DOMAIN-SUFFIX,hscollectedforms.net # HubSpot 收集嵌入式表单数据的域�
 # > Moka 行为分析与数据上报（Sensors Data）
 
 DOMAIN-SUFFIX,moka.datasink.sensorsdata.cn # Moka 使用的神策数据上报端点，用于行为事件、埋点数据与使用分析上传
+
+# > TikTok / Kwai 遥测（行为分析）
+
+DOMAIN-SUFFIX,tiktokw.us # TikTok/Kwai 系遥测分析域，用于行为数据、事件日志与性能指标上报
+DOMAIN-SUFFIX,analytics-ipv6.tiktokw.us # TikTok/Kwai IPv6 遥测上报节点，用于采集行为事件与性能数据
+
+# > Shengshu AI（盛数 AI）行为追踪
+
+DOMAIN-SUFFIX,trace.shengshu-ai.com # 盛数 AI 行为追踪与事件日志上报端点，用于埋点收集与性能监控

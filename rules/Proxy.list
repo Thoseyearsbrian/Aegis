@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-01
+# - 更新时间：2025-12-02
 
 # > Speedtest 网络测速平台
 
@@ -2205,6 +2205,8 @@ DOMAIN-SUFFIX,gg.pl  # Gadu-Gadu 简写主域名，用于客户端连接与资�
 DOMAIN-SUFFIX,yahoo.com  # Yahoo! 主域名，历史上用于 Messenger 通信服务  
 DOMAIN-SUFFIX,msg.yahoo.com  # Yahoo! Messenger 消息服务专用子域（已停用）  
 DOMAIN-SUFFIX,im.yahoo.com  # Yahoo! Messenger 登录与客户端连接接口（历史接口）  
+DOMAIN-SUFFIX,yimg.jp # Yahoo Japan 静态资源 CDN
+DOMAIN-SUFFIX,s.yimg.jp # Yahoo Japan 图像/脚本静态资源节点
 
 # > AOL Instant Messenger（AIM）即时通讯平台相关域名
 
@@ -4060,6 +4062,10 @@ DOMAIN-SUFFIX,privacyportal.osano.com # Osano 隐私门户，用于用户数据�
 DOMAIN-SUFFIX,dataprotection.com # 数据保护服务平台，用于企业 GDPR 文档托管与风险控制接口
 DOMAIN-SUFFIX,dsarhub.com # DSAR Hub 平台，用于自动化数据访问请求与隐私流程管理
 DOMAIN-SUFFIX,gdprform.io # GDPR 线上隐私请求平台，用于数据访问、删除、限制处理等合规需求处理
+
+# > AWS WAF Captcha（风控 / 行为验证）
+
+DOMAIN-SUFFIX,edge.captcha-sdk.awswaf.com # AWS WAF Captcha 行为验证端点，用于风险评估、人机验证与风控数据回传
 
 # > 其他 (暂未分类)
 
