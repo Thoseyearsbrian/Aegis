@@ -216,15 +216,17 @@ DOMAIN-SUFFIX,cdn.discordapp.com # Midjourney 图像生成结果依赖的 CDN，
 DOMAIN-SUFFIX,discordapp.com # Midjourney 核心运行平台（模型指令、图像生成均在 Discord Bot 上执行）
 DOMAIN-SUFFIX,discord.com # Midjourney Bot 的主交互平台，用于消息收发与图像生成任务处理
 
-# > Runway（AI 视频生成 / Gen-2 / Gen-3）
+# > Runway（Gen-2 / Gen-3 视频生成平台）
 
-DOMAIN-SUFFIX,runwayml.com # Runway 主站，用于产品访问、账号管理、作品展示与模型介绍
-DOMAIN-SUFFIX,app.runwayml.com # Runway Web App 前端入口，用于视频生成、项目编辑与工作区操作
-DOMAIN-SUFFIX,api.runwayml.com # Runway 官方 API 接口，用于视频生成、图像生成与模型推理服务
-DOMAIN-SUFFIX,runway-api.host # Runway API 托管域，用于推理任务调度与后端处理
-DOMAIN-SUFFIX,cdn.runwayml.com # Runway 静态资源 CDN，用于前端脚本、样式、界面组件加载
-DOMAIN-SUFFIX,assets.runwayml.com # Runway 资源域名，用于模型素材、示例文件与界面图标加载
-DOMAIN-SUFFIX,storage.googleapis.com # Runway 项目文件与生成视频的云端存储（Google Cloud 托管）
+DOMAIN-SUFFIX,runwayml.com # Runway 主站域名，用于模型展示、作品集、功能介绍与登录入口
+DOMAIN-SUFFIX,app.runwayml.com # Runway Web Studio，用于 Gen-2 / Gen-3 视频生成、编辑、项目管理
+DOMAIN-SUFFIX,api.runwayml.com # Runway 官方 API，用于视频生成、图像生成、模型推理与后台任务调度
+DOMAIN-SUFFIX,cdn.runwayml.com # Runway 静态资源 CDN，用于加载脚本、样式、界面组件与前端资源
+DOMAIN-SUFFIX,assets.runwayml.com # Runway 静态素材域名，用于 UI 图标、字体、模型预设与工程资源加载
+DOMAIN-SUFFIX,media.runwayml.com # Runway 媒体资源域名，用于模型生成的图像、视频、音频文件及用户上传内容存储
+DOMAIN-SUFFIX,files.runwayml.com # Runway 文件服务端点，用于项目文件上传、下载、视频导出与中间内容处理
+DOMAIN-SUFFIX,genmo.runwayml.com # Runway 生成式模型服务接口，用于 Gen-2 / Gen-3 的推理管线与后台渲染
+DOMAIN-SUFFIX,render.runwayml.com # Runway 渲染服务域名，用于视频渲染队列、生成任务与输出合成
 
 # > Stability AI（Stable Diffusion 官方）
 
@@ -384,6 +386,7 @@ DOMAIN-SUFFIX,media.lovo.ai # LOVO 媒体域名，用于存储输出音频、语
 DOMAIN-SUFFIX,files.lovo.ai # LOVO 文件服务端点，用于音频文件上传、下载与任务输出管理
 
 # Revoice 独立入口与服务
+
 DOMAIN-SUFFIX,revoice.ai # Revoice 主站，用于语音克隆产品介绍、示例与账号入口
 DOMAIN-SUFFIX,app.revoice.ai # Revoice Web 应用，用于录音上传、训练声音模型与克隆语音生成
 DOMAIN-SUFFIX,api.revoice.ai # Revoice API，用于语音克隆模型推理、音频生成与服务集成
