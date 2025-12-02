@@ -110,7 +110,6 @@ DOMAIN-SUFFIX,fonts.googleapis.com # Google 字体 API 接口
 
 DOMAIN-SUFFIX,googledrive.com # Google Drive 网页访问主域名
 DOMAIN-SUFFIX,drive.google.com # Google Drive 核心服务接口，用于文件浏览、下载与同步
-DOMAIN-SUFFIX,docs.google.com # Google Docs 在线文档编辑服务
 DOMAIN-SUFFIX,sheets.google.com # Google Sheets 在线表格服务
 DOMAIN-SUFFIX,slides.google.com # Google Slides 在线演示文稿服务
 DOMAIN-SUFFIX,forms.google.com # Google Forms 在线表单服务
@@ -119,6 +118,19 @@ DOMAIN-SUFFIX,meet.google.com # Google Meet 视频会议平台
 DOMAIN-SUFFIX,chat.google.com # Google Chat 即时通讯服务
 DOMAIN-SUFFIX,calendar.google.com # Google Calendar 日历服务
 DOMAIN-SUFFIX,keep.google.com # Google Keep 便签笔记服务
+
+# > Google Docs（Google 文档 / Workspace 文档协作平台）
+
+DOMAIN-SUFFIX,docs.google.com # Google Docs 主站，用于在线文档编辑、评论与实时协作
+DOMAIN-SUFFIX,drive.google.com # Google Drive 文件存储服务，Google Docs 文档的实际载体与存储仓库
+DOMAIN-SUFFIX,googleusercontent.com # Google Docs/Drive 用户内容资源域名，用于图片、文件、附件资源加载
+DOMAIN-SUFFIX,doc-0o-xxxxxxxxx.googleusercontent.com # Google Drive 文档加载子域（文档内容分块传输常用）
+DOMAIN-SUFFIX,gstatic.com # Google 静态资源 CDN，用于 Docs 前端脚本、字体、图标与组件加载
+DOMAIN-SUFFIX,workspace.google.com # Google Workspace 控制台与企业文档协作入口
+DOMAIN-SUFFIX,apis.google.com # Google Docs API 服务，用于第三方编辑、文件同步与权限接口
+DOMAIN-SUFFIX,accounts.google.com # Google 账号登录中心，用于 Google Docs 登录与鉴权流程
+DOMAIN-SUFFIX,lens.l.google.com # Google Lens OCR 文本识别服务（Google Docs 的 OCR 上传功能会使用）
+DOMAIN-SUFFIX,googleapis.com # Google Docs 调用的通用 API 端点，用于 Drive/Docs 文件权限与文档读取
 
 # > 地图与定位服务（Maps & Geo Services）
 
