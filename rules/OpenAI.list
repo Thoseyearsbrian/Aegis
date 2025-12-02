@@ -247,3 +247,14 @@ DOMAIN-SUFFIX,assets.pika.art # Pika 资源域名，用于存储示例视频、�
 DOMAIN-SUFFIX,pika-realtime-prod.onrender.com # Pika 实时推理与任务调度服务域名（官方 Render 托管后端）
 DOMAIN-SUFFIX,storage.googleapis.com # Pika 生成视频、临时文件与项目资源的云存储托管（Google Cloud）
 
+# > Leonardo AI（AI 图像生成）
+
+DOMAIN-SUFFIX,leonardo.ai # Leonardo AI 主站，用于产品介绍、登录入口与作品展示
+DOMAIN-SUFFIX,www.leonardo.ai # Leonardo Web App 前端入口，用于图像生成、项目管理与模型编辑
+DOMAIN-SUFFIX,api.leonardo.ai # Leonardo 官方 API 接口，用于图像生成、纹理生成与模型推理服务
+DOMAIN-SUFFIX,cloud.leonardo.ai # Leonardo 云端平台资源域，用于任务调度、模型加载与项目处理
+DOMAIN-SUFFIX,cdn.leonardo.ai # Leonardo 静态资源 CDN，用于脚本、样式与前端界面素材加载
+DOMAIN-SUFFIX,static.leonardo.ai # Leonardo 静态资源扩展域名，用于界面图标、素材文件与模型文件托管
+DOMAIN-SUFFIX,files.leonardo.ai # Leonardo 文件存储域，用于图像生成结果、上传文件与项目资源托管
+DOMAIN-SUFFIX,storage.googleapis.com # Leonardo 生成图像、多媒体资源与项目数据使用 Google Cloud 存储
+
