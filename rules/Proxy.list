@@ -4097,6 +4097,14 @@ DOMAIN-SUFFIX,static.ipqualityscore.com # IPQS 静态资源域名，用于加载
 DOMAIN-SUFFIX,cdn.ipqualityscore.com # IPQS 静态资源 CDN，提供脚本、图标与前端模块的加速分发
 DOMAIN-SUFFIX,resources.ipqualityscore.com # IPQS 资源文件节点，用于文档、SDK、集成指南的加载
 
+# > GreyNoise（互联网噪声分析 / 扫描器威胁情报）
+
+DOMAIN-SUFFIX,greynoise.io # GreyNoise 官方站点，用于查看全球互联网扫描器、探测器与威胁情报分析
+DOMAIN-SUFFIX,api.greynoise.io # GreyNoise API 接口，用于恶意扫描源查询、IP 行为模式识别与威胁标签获取
+DOMAIN-SUFFIX,cdn.greynoise.io # GreyNoise 静态资源 CDN，用于加载前端脚本、图表组件与交互式界面资源
+DOMAIN-SUFFIX,assets.greynoise.io # GreyNoise 资源文件节点，用于文档、图形、SDK 组件与可视化内容加载
+DOMAIN-SUFFIX,developer.greynoise.io # GreyNoise 开发者文档、API 说明与 SDK 参考资料入口
+
 # > Evernote（国际版笔记服务 / 云端同步平台）
 
 DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
