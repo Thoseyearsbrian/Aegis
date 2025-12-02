@@ -171,3 +171,13 @@ DOMAIN-SUFFIX,api.ai.haruka.cloud # Haruka AI 平台 API 接口域名，用于�
 DOMAIN-SUFFIX,cdn.ai.haruka.cloud # Haruka AI 静态资源 CDN 域名，用于前端脚本、样式与界面组件加载
 DOMAIN-SUFFIX,assets.ai.haruka.cloud # Haruka AI 多媒体与附属资源域名，用于图像、音频与团队协作模块内容加载
 DOMAIN-SUFFIX,haruka.cloud # Haruka 平台基础域名，用于账户系统、认证跳转与服务路由
+
+# > Cohere AI
+
+DOMAIN-SUFFIX,cohere.ai # Cohere 主站域名，用于模型介绍、平台入口与产品信息
+DOMAIN-SUFFIX,api.cohere.ai # Cohere 官方 API 接口域名，用于文本生成、嵌入、分类等模型推理调用
+DOMAIN-SUFFIX,cohere.com # Cohere 商业站点与企业服务入口，用于账号管理与文档跳转
+DOMAIN-SUFFIX,os.cohere.ai # Cohere Command-R / Embed / Rerank 等模型资源与官方开源页面
+DOMAIN-SUFFIX,coral.cohere.com # Cohere Coral 平台相关域名，用于企业级 AI 管理、模型部署与协作功能
+DOMAIN-SUFFIX,studio.cohere.com # Cohere Studio 在线工作台，用于实验、Prompt 编辑与模型测试
+DOMAIN-SUFFIX,docs.cohere.com # Cohere 文档中心，用于 API 文档、模型说明与 SDK 示例
