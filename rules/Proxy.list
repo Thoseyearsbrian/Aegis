@@ -4125,6 +4125,15 @@ DOMAIN-SUFFIX,otxapi.alienvault.com # OTX API 接口，用于自动化拉取 IOC
 DOMAIN-SUFFIX,auth.alienvault.com # OTX 认证服务端点，用于登录、令牌管理与权限验证
 DOMAIN-SUFFIX,cdn.alienvault.com # AlienVault 静态资源 CDN，用于加载平台脚本、文档与前端组件
 
+# > Palo Alto Networks Unit42（全球威胁情报 / APT & 恶意流量分析）
+
+DOMAIN-SUFFIX,unit42.paloaltonetworks.com # Unit42 官方威胁情报与研究中心，用于发布 APT 报告、恶意软件分析与 IOC 公告
+DOMAIN-SUFFIX,paloaltonetworks.com # Palo Alto Networks 官方域名，包含安全产品、情报资源与安全运营内容
+DOMAIN-SUFFIX,pan.dev # Palo Alto Networks 开发者平台，提供安全 API、情报接口与自动化文档
+DOMAIN-SUFFIX,threatvault.paloaltonetworks.com # ThreatVault 威胁库查询平台，用于搜索恶意 IP、域名、URL 与签名规则
+DOMAIN-SUFFIX,cloud.pan.dev # PAN Cloud API 接口端点，用于情报查询、策略管理与安全自动化生态
+DOMAIN-SUFFIX,apps.paloaltonetworks.com # PAN 应用服务端点，用于访问安全工具、云端情报与产品集成服务
+
 # > Evernote（国际版笔记服务 / 云端同步平台）
 
 DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
