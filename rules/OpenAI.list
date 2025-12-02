@@ -6,6 +6,26 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-12-02
 
+# > OpenAI Chat 系列
+
+DOMAIN-SUFFIX,openai.com # OpenAI 主站域名
+DOMAIN-SUFFIX,chat.openai.com # ChatGPT 网页端
+DOMAIN-SUFFIX,api.openai.com # OpenAI API 接口
+DOMAIN-SUFFIX,cdn.openai.com # 静态资源 CDN
+DOMAIN-SUFFIX,platform.openai.com # OpenAI 开发者平台
+DOMAIN-SUFFIX,chatgpt.com # ChatGPT 主域
+DOMAIN-SUFFIX,ios.chat.openai.com # iOS 客户端专用域名
+DOMAIN-SUFFIX,android.chat.openai.com # Android 客户端专用域名
+DOMAIN-SUFFIX,ws.chatgpt.com # ChatGPT WebSocket 通道
+DOMAIN-SUFFIX,ab.chatgpt.com  # ChatGPT A/B 实验流量
+DOMAIN-SUFFIX,oaiusercontent.com # OpenAI 输出内容（图片/文件等）
+DOMAIN-SUFFIX,oaistatic.com # OpenAI 静态资源域
+DOMAIN-SUFFIX,persistent.oaistatic.com # OpenAI 持久化静态资源
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net # Azure Edge CDN 分发
+DOMAIN-SUFFIX,ab.chatgpt.com # OpenAI AB 测试服务，可能用于实验性功能路由与测试
+DOMAIN-SUFFIX,cdn.oaistatic.com # OpenAI 静态资源 CDN，服务于 ChatGPT 与 API 文档等页面加载
+IP-CIDR,59.188.250.54/32 # ws.chatgpt.com WebSocket 通信节点，ChatGPT 实时对话与事件推送服务（Cloudflare 边缘）
+
 # > DeepSeek
 
 DOMAIN-SUFFIX,deepseek.com # DeepSeek 主站与产品介绍
@@ -196,25 +216,6 @@ DOMAIN-SUFFIX,docs.moonshot.cn # 文档站点，用于 API 文档、SDK 示例�
 DOMAIN-SUFFIX,cdn.moonshot.cn # 前端静态资源 CDN，用于控制台与 Web 端脚本、样式加载
 DOMAIN-SUFFIX,passport.moonshot.cn # Moonshot 账号登录中心，用于控制台与 API 权限验证
 DOMAIN-SUFFIX,auth.moonshot.cn # 统一身份认证服务，用于用户登录与授权流程
-
-# > OpenAI Chat 系列
-
-DOMAIN-SUFFIX,openai.com # OpenAI 主站域名
-DOMAIN-SUFFIX,chat.openai.com # ChatGPT 网页端
-DOMAIN-SUFFIX,api.openai.com # OpenAI API 接口
-DOMAIN-SUFFIX,cdn.openai.com # 静态资源 CDN
-DOMAIN-SUFFIX,platform.openai.com # OpenAI 开发者平台
-DOMAIN-SUFFIX,chatgpt.com # ChatGPT 主域
-DOMAIN-SUFFIX,ios.chat.openai.com # iOS 客户端专用域名
-DOMAIN-SUFFIX,android.chat.openai.com # Android 客户端专用域名
-DOMAIN-SUFFIX,ws.chatgpt.com # ChatGPT WebSocket 通道
-DOMAIN-SUFFIX,ab.chatgpt.com  # ChatGPT A/B 实验流量
-DOMAIN-SUFFIX,oaiusercontent.com # OpenAI 输出内容（图片/文件等）
-DOMAIN-SUFFIX,oaistatic.com # OpenAI 静态资源域
-DOMAIN-SUFFIX,persistent.oaistatic.com # OpenAI 持久化静态资源
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net # Azure Edge CDN 分发
-DOMAIN-SUFFIX,ab.chatgpt.com # OpenAI AB 测试服务，可能用于实验性功能路由与测试
-DOMAIN-SUFFIX,cdn.oaistatic.com # OpenAI 静态资源 CDN，服务于 ChatGPT 与 API 文档等页面加载
 
 # > Grok（xAI / Elon Musk）AI 服务相关域名
 
