@@ -623,5 +623,15 @@ DOMAIN-SUFFIX,app.dola.com # Dola AI Web 应用端，用于会话管理、模型
 DOMAIN-SUFFIX,api.dola.com # Dola AI 后端推理接口，用于模型调用、推理请求与应用集成
 DOMAIN-SUFFIX,cdn.dola.com # Dola 静态资源 CDN，用于前端脚本、样式与素材加载
 
+# > Ciciai（丝西 AI / 生数科技）相关域名
+
+DOMAIN-SUFFIX,ciciaicdn.com # Ciciai 静态资源 CDN 主域名，用于前端脚本、图片与样式加载
+DOMAIN-SUFFIX,sf-sf-flow-web-cdn-nontt.ciciaicdn.com # Ciciai Web 前端 CDN 节点（非电信线路），用于页面加载与静态资源分发
+DOMAIN-SUFFIX,sf-flow-web-cdn.ciciaicdn.com # Ciciai Web 前端 CDN 节点，用于页面 UI、脚本与资源加速
+DOMAIN-SUFFIX,ciciai.com # Ciciai 主站域名，用于 AI 产品访问、界面渲染与业务入口
+DOMAIN-SUFFIX,opt-i18n.ciciai.com # Ciciai 国际化内容服务端点，用于多语言界面翻译与本地化资源加载
+DOMAIN-SUFFIX,vmweb-sg.ciciai.com # Ciciai 新加坡区域 Web 服务节点，用于推理网络、会话管理与国际线路访问
+DOMAIN-SUFFIX,mcs-sg.ciciai.com # Ciciai 新加坡区域多媒体/后端接口节点，用于文件处理、资源访问与模型处理任务
+
 
 
