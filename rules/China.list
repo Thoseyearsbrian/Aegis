@@ -1685,12 +1685,7 @@ DOMAIN-SUFFIX,api.jsassets.com # 素材库 API 接口，用于素材检索、授
 DOMAIN-SUFFIX,assets.jsassets.com # 素材文件资源节点，用于矢量文件、PNG/SVG、组件包等素材分发
 DOMAIN-SUFFIX,res.jsassets.com # 即时素材内容资源域名，用于展示文件、缩略图与素材预览
 
-# > Evernote（国际版笔记服务 / 云端同步平台）
+# > 盛数科技（Shengshu Technology）官网服务
 
-DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
-DOMAIN-SUFFIX,evernoteusercontent.com # Evernote 用户内容域名，用于笔记附件、图片、音频等文件存储与加载
-DOMAIN-SUFFIX,evernote-staging.com # Evernote 测试/预发布环境域名，用于内部测试与构建
-DOMAIN-SUFFIX,evernote.com.cn # Evernote 中国区服务早期域名（印象笔记迁移前遗留）
-DOMAIN-SUFFIX,evernote.net # Evernote 后端服务域名，用于 API、同步、数据处理等调用
-DOMAIN-SUFFIX,evernoteapi.com # Evernote API 接口域名，用于第三方应用集成与 OAuth 认证
-DOMAIN-SUFFIX,evernote.s3.amazonaws.com # Evernote 使用的 AWS S3 文件资源存储端点（附件、图片、笔记文件）
+DOMAIN-SUFFIX,shengshu.com # 盛数科技主站域名，用于产品介绍、企业官网与业务入口
+DOMAIN-SUFFIX,www.shengshu.com # 盛数科技官网子域名，用于展示产品信息、企业服务与文档入口
