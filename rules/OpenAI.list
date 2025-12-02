@@ -131,12 +131,12 @@ DOMAIN-SUFFIX,inference-api.com # Hugging Face Inference API 域名，用于模�
 DOMAIN-SUFFIX,cdn-lfs.huggingface.co # Hugging Face 大文件分发域名（LFS），用于模型权重、数据集与关联资源的高速下载
 DOMAIN-SUFFIX,huggingfaceusercontent.com # Hugging Face 用户内容域名，用于托管Spaces、Demo资源、模型输出与用户上传内容
 DOMAIN-SUFFIX,huggingface.tech # Hugging Face 技术域/内部服务域，用于后台部署、云端组件与隐式服务接口
-DOMAIN-SUFFIX,hf.co # Hugging Face 官方短链域名，用于模型/Space 快速跳转（真实存在）
+DOMAIN-SUFFIX,hf.co # Hugging Face 官方短链域名，用于模型/Space 快速跳转
 DOMAIN-SUFFIX,api.endpoints.huggingface.cloud # Hugging Face Endpoints 托管推理 API（企业级模型部署接口）
 DOMAIN-SUFFIX,assets.huggingface.co # Hugging Face 静态资源域名（图标、脚本、前端资源加载）
-DOMAIN-SUFFIX,models.huggingface.co # 模型卡、README、元信息文档等内容托管节点（官方解析存在）
+DOMAIN-SUFFIX,models.huggingface.co # 模型卡、README、元信息文档等内容托管节点
 DOMAIN-SUFFIX,datasets.huggingface.co # 数据集文档/预览服务域名
-DOMAIN-SUFFIX,spaces.huggingface.co # Spaces 应用运行、前端加载与 UI 组件域名（真实存在）
+DOMAIN-SUFFIX,spaces.huggingface.co # Spaces 应用运行、前端加载与 UI 组件域名
 
 # > Poe（Quora）
 
@@ -149,7 +149,13 @@ DOMAIN-SUFFIX,quoracdn.net # Quora 静态资源 CDN，用于账号系统、登�
 
 # > Mistral AI
 
-DOMAIN-SUFFIX,mistral.ai # Mistral：法国大模型初创公司，致力于开源 Transformer 模型开发（如 Mistral 7B）
+DOMAIN-SUFFIX,mistral.ai # Mistral AI 官方主站，用于产品介绍、模型发布与公司信息
+DOMAIN-SUFFIX,api.mistral.ai # Mistral 官方 API 接口，用于模型推理、嵌入、生成任务等调用
+DOMAIN-SUFFIX,console.mistral.ai # Mistral 控制台，用于管理 API Keys、账单与使用情况
+DOMAIN-SUFFIX,docs.mistral.ai # Mistral 开发者文档站点，用于 API 文档、SDK 指南与模型说明
+DOMAIN-SUFFIX,cdn.mistral.ai # Mistral 静态资源 CDN，用于加载前端资源与控制台静态内容
+DOMAIN-SUFFIX,mistral-embed.run # Mistral Embedding 推理端点，用于提供向量化推理服务
+DOMAIN-SUFFIX,mistral-medium.run # Mistral Medium 模型推理端点，用于特定模型托管与生产部署
 
 # > Haruka AI
 
