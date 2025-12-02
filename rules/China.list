@@ -1591,3 +1591,13 @@ DOMAIN-SUFFIX,aliyuncs.com # 阿里云资源服务，用于钉钉文档附件存
 DOMAIN-SUFFIX,alipan.com # 阿里云盘文档/附件关联服务，用于部分资源预览与文件托管
 DOMAIN-SUFFIX,oss-cn-hangzhou.aliyuncs.com # 钉钉文档 OSS 存储节点，用于图片、附件、预览文件加载
 
+# > FlowUs（流沙笔记 / FlowUs 在线知识库与协作平台）
+
+DOMAIN-SUFFIX,flowus.cn # FlowUs 主站域名，用于笔记编辑、知识库管理、任务协作与团队空间
+DOMAIN-SUFFIX,flowus.io # FlowUs 国际版/备用访问域，用于跨区域访问与部分资源加载
+DOMAIN-SUFFIX,static.flowus.cn # FlowUs 静态资源 CDN，用于脚本、样式、字体与编辑器组件加载
+DOMAIN-SUFFIX,static.flowusfile.com # FlowUs 文件资源静态域，用于附件、图片、视频与文档预览内容托管
+DOMAIN-SUFFIX,flowusfile.com # FlowUs 文件上传与下载主域名，用于处理笔记附件、图像与资源文件
+DOMAIN-SUFFIX,flowususercontent.com # FlowUs 用户内容存储域，用于用户生成内容、媒体资源与富文本素材
+DOMAIN-SUFFIX,api.flowus.cn # FlowUs API 接口，用于笔记同步、权限校验、团队协作与数据访问
+DOMAIN-SUFFIX,cdnflowus.com # FlowUs CDN 加速域名，用于页面性能优化与前端资源分发
