@@ -1449,3 +1449,12 @@ DOMAIN-SUFFIX,cstaticdun-v6.126.net # 网易易盾风控/验证码服务节点�
 
 DOMAIN-SUFFIX,passport.qingque.cn # 轻雀文档账号认证中心，用于用户登录、身份鉴权与安全会话管理
 DOMAIN-SUFFIX,docs-fe.qingque.cn # 轻雀文档前端页面加载域名，用于文档渲染、脚本/样式加载与界面展示
+
+# > 语雀文档（Yuque / 阿里文档协作平台）
+
+DOMAIN-SUFFIX,yuque.com # 语雀主站域名，用于文档协作、知识库管理与团队空间访问
+DOMAIN-SUFFIX,cdn.yuque.com # 语雀静态资源 CDN，用于图片、脚本、样式与文档渲染资源加载
+DOMAIN-SUFFIX,api.yuque.com # 语雀 API 接口，用于文档读取、编辑、搜索与第三方集成
+DOMAIN-SUFFIX,assets.yuque.com # 语雀静态素材资源，用于图标、附件、富文本内容等资源加载
+DOMAIN-SUFFIX,public.yuque.com # 语雀公共内容访问域名，用于公开文档、知识库展示
+DOMAIN-SUFFIX,office.yuque.com # 语雀在线办公相关接口，用于文档协作与附件在线预览
