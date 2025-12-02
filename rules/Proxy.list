@@ -4070,6 +4070,12 @@ DOMAIN-SUFFIX,token.awswaf.com # AWS WAF Token 风控令牌验证端点，用于
 DOMAIN-SUFFIX,aa91ab2ba082.3f34d406.us-west-1.token.awswaf.com # AWS WAF Token 区域节点，用于风控令牌分发、验证与安全访问判断
 DOMAIN-SUFFIX,aa91ab2ba082.3f34d406.us-west-1.captcha.awswaf.com # AWS WAF Captcha 挑战实例节点，用于风控验证、人机校验与会话安全处理
 
+# > AbuseIPDB（恶意 IP 信誉查询 / 网络安全情报平台）
+
+DOMAIN-SUFFIX,abuseipdb.com # AbuseIPDB 主站域名，用于查询 IP 信誉、恶意报告与安全数据库访问
+DOMAIN-SUFFIX,cdn.abuseipdb.com # AbuseIPDB 静态资源 CDN，用于加载前端脚本、样式与界面组件
+DOMAIN-SUFFIX,api.abuseipdb.com # AbuseIPDB API 接口，用于自动化安全查询、IP 信誉检测与威胁情报调用
+
 # > Evernote（国际版笔记服务 / 云端同步平台）
 
 DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
