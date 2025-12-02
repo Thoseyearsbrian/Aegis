@@ -4291,6 +4291,14 @@ DOMAIN-SUFFIX,cloud.joesandbox.com # Joe Sandbox Cloud 云端分析服务，用�
 DOMAIN-SUFFIX,api.joesandbox.com # Joe Sandbox API 接口，用于自动化分析、IOC 抽取、报告集成与企业安全流程对接
 DOMAIN-SUFFIX,cdn.joesandbox.com # Joe Sandbox 静态资源 CDN，用于前端脚本、样式与展示组件加载
 
+# > URLScan.io（URL 安全扫描 / 恶意链接分析平台）
+
+DOMAIN-SUFFIX,urlscan.io # URLScan 主站域名，用于在线扫描 URL、查看分析报告与威胁情报
+DOMAIN-SUFFIX,api.urlscan.io # URLScan API 接口，用于自动化 URL 提交、报告获取与安全系统集成
+DOMAIN-SUFFIX,static.urlscan.io # URLScan 静态资源 CDN，用于加载前端脚本、样式与分析页面组件
+DOMAIN-SUFFIX,report.urlscan.io # URLScan 报告访问节点，用于查看 URL 扫描结果、截图、网络请求与 IOC 详情
+DOMAIN-SUFFIX,files.urlscan.io # URLScan 文件资源域名，用于托管分析生成的截图、HAR 文件与捕获资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
