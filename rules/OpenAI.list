@@ -140,7 +140,12 @@ DOMAIN-SUFFIX,spaces.huggingface.co # Spaces 应用运行、前端加载与 UI �
 
 # > Poe（Quora）
 
-DOMAIN-SUFFIX,poe.com # Poe：Quora 推出的 AI 聊天聚合平台，集成多个大模型（如GPT、Claude）
+DOMAIN-SUFFIX,poe.com # Poe 主站，用于访问 AI 聊天、多模型切换、会话管理等核心功能
+DOMAIN-SUFFIX,api.poe.com # Poe API 后端接口，用于模型调用、消息推理与账号交互
+DOMAIN-SUFFIX,poecdn.net # Poe 静态资源 CDN，用于前端脚本、样式、模型相关素材加载
+DOMAIN-SUFFIX,poeusercontent.com # Poe 用户内容域名，用于缓存用户生成内容、图像、会话数据与资源文件
+DOMAIN-SUFFIX,quora.com # Quora 主站，Poe 登录、账号整合与 OAuth 认证依赖
+DOMAIN-SUFFIX,quoracdn.net # Quora 静态资源 CDN，用于账号系统、登录页面及通用脚本加载
 
 # > Mistral AI
 
