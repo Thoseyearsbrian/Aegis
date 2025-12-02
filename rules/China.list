@@ -1467,3 +1467,12 @@ DOMAIN-SUFFIX,feishustatic.com # 飞书静态资源域，用于图片、图标�
 DOMAIN-SUFFIX,feishucontent.com # 飞书内容存储域，用于文档附件、图片、富文本与团队素材访问
 DOMAIN-SUFFIX,open.feishu.cn # 飞书开放平台 API，用于文档权限、搜索、机器人与第三方集成
 DOMAIN-SUFFIX,api.feishu.cn # 飞书 API 接口，用于文档读取、编辑、上传与协作管理
+
+# > 腾讯文档（Tencent Docs / 在线协作文档平台）
+
+DOMAIN-SUFFIX,docs.qq.com # 腾讯文档主站域名，用于文档创建、编辑、协作与团队空间管理
+DOMAIN-SUFFIX,doc.weixin.qq.com # 微信文档入口，用于在微信环境中打开与编辑腾讯文档
+DOMAIN-SUFFIX,tdoc.qq.com # 腾讯文档核心服务域名，用于文档实时协作、同步与版本管理
+DOMAIN-SUFFIX,wpscdnqq.com # 腾讯文档静态资源 CDN，用于前端脚本、CSS、字体与文档渲染资源加载
+DOMAIN-SUFFIX,docsfile.qq.com # 文档附件上传/下载域名，用于多媒体、图片、文件内容托管
+DOMAIN-SUFFIX,cdn-docs.qq.com # 腾讯文档页面所依赖的前端资源 CDN，用于脚本与公共组件加速
