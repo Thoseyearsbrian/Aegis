@@ -4042,6 +4042,11 @@ DOMAIN-SUFFIX,hsleadflows.net # HubSpot Lead Flows 弹窗与引导组件相关�
 DOMAIN-SUFFIX,forms-na1.hsforms.com # HubSpot Forms 区域节点域名，用于表单提交与数据交互（NA1 数据中心）
 DOMAIN-SUFFIX,hubspotonwebflow.com # HubSpot 与 Webflow 集成使用的服务域名，用于表单、营销脚本与自动化组件加载
 
+# > Prighter 合规与隐私服务（GDPR / Data Protection）
+
+DOMAIN-SUFFIX,prighter.com # Prighter 合规服务平台，用于 GDPR / 隐私权请求与企业数据保护处理
+DOMAIN-SUFFIX,api.prighter.com # Prighter API 接口，用于隐私请求提交、数据访问申请与合规流程处理
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
