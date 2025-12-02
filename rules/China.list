@@ -1633,3 +1633,12 @@ DOMAIN-SUFFIX,cdnweiyun.com # 微云内容加速 CDN，用于附件下载、在�
 DOMAIN-SUFFIX,qq.com # 腾讯统一账号体系，用于微云登录、鉴权与 SSO（单点登录）
 DOMAIN-SUFFIX,tencent.com # 腾讯通用服务域名，用于微云关联接口、身份系统与内部服务路由
 
+# > MasterGo（在线设计协作平台 / UI 原型设计）
+
+DOMAIN-SUFFIX,mastergo.com # MasterGo 主站域名，用于产品访问、项目管理与登录入口
+DOMAIN-SUFFIX,design.mastergo.com # MasterGo 在线设计编辑器，用于实时协作、画布渲染与组件编辑
+DOMAIN-SUFFIX,api.mastergo.com # MasterGo API 服务端口，用于项目数据同步、团队协作与账户信息处理
+DOMAIN-SUFFIX,cdn.mastergo.com # MasterGo 静态资源 CDN，用于字体库、图标、JS 脚本、样式与组件加载
+DOMAIN-SUFFIX,assets.mastergo.com # MasterGo 静态素材资源，用于图片、模板、预设素材与组件资源分发
+DOMAIN-SUFFIX,push.mastergo.com # MasterGo 推送服务域名，用于协作通知、邀请提醒与编辑事件推送
+DOMAIN-SUFFIX,im.mastergo.com # MasterGo 内置即时通信服务，用于多人协同评论与编辑沟通
