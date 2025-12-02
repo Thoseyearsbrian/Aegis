@@ -117,7 +117,12 @@ DOMAIN-SUFFIX,contoso.com # Microsoft Copilot 官方演示站使用的测试域�
 
 # > Perplexity AI
 
-DOMAIN-SUFFIX,perplexity.ai # Perplexity AI 主站与 API 服务
+DOMAIN-SUFFIX,perplexity.ai # Perplexity AI 主站入口，用于搜索、对话与模型访问
+DOMAIN-SUFFIX,api.perplexity.ai # Perplexity API 后端接口，用于模型调用、推理与集成服务
+DOMAIN-SUFFIX,pplx.ai # Perplexity 官方短链与跳转域名（真实存在）
+DOMAIN-SUFFIX,perplexitylabs.ai # Perplexity Labs 研发相关域名，用于实验功能与技术页面
+DOMAIN-SUFFIX,perplexitychat.ai # Perplexity Chat 入口域名，用于对话体验（真实解析存在）
+DOMAIN-SUFFIX,pplx-res.cloudinary.com # Perplexity 静态资源托管（图像、模型截图等）
 
 # > HuggingFace
 
