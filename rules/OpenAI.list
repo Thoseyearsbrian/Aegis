@@ -278,3 +278,15 @@ DOMAIN-SUFFIX,assets.lumalabs.ai # Luma 静态资源与素材域名，用于模�
 DOMAIN-SUFFIX,files.lumalabs.ai # Luma 文件存储域，用于生成视频、3D 项目文件与上传资源管理
 DOMAIN-SUFFIX,storage.googleapis.com # Luma 使用 Google Cloud 存储视频输出、模型文件与大资源
 
+# > Together AI（开源模型推理 / API 平台）
+
+DOMAIN-SUFFIX,together.ai # Together AI 主站入口，用于产品介绍、模型列表与平台说明
+DOMAIN-SUFFIX,api.together.ai # Together AI 官方 API 接口，用于推理生成、Embedding、LLM 接口调用
+DOMAIN-SUFFIX,app.together.ai # Together AI 控制台（Dashboard），用于管理 API Key、账单、调用监控与模型配置
+DOMAIN-SUFFIX,cdn.together.ai # Together 静态资源 CDN，用于加载前端脚本、样式与控制台界面组件
+DOMAIN-SUFFIX,assets.together.ai # Together 静态素材域名，用于图标、字体、界面资源等前端文件加载
+DOMAIN-SUFFIX,togethercomputer.com # Together AI 早期项目与内部基础域名，仍用于部分服务跳转与文档
+DOMAIN-SUFFIX,togetherlabs.com # Together 研发与实验性服务域名（模型测试、内测版本等）
+DOMAIN-SUFFIX,prod-api.together.ai # Together AI 生产环境 API 节点（部分 SDK 会调用此端点）
+DOMAIN-SUFFIX,static.together.ai # 前端静态资源与控制台辅助脚本加载
+
