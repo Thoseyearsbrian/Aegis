@@ -4105,6 +4105,18 @@ DOMAIN-SUFFIX,cdn.greynoise.io # GreyNoise 静态资源 CDN，用于加载前端
 DOMAIN-SUFFIX,assets.greynoise.io # GreyNoise 资源文件节点，用于文档、图形、SDK 组件与可视化内容加载
 DOMAIN-SUFFIX,developer.greynoise.io # GreyNoise 开发者文档、API 说明与 SDK 参考资料入口
 
+# > FortiGuard Threat Intelligence（飞塔威胁情报 / 恶意源识别）
+
+DOMAIN-SUFFIX,fortiguard.com # FortiGuard 官方威胁情报中心，用于恶意软件、僵尸网络、C2、漏洞与攻击源查询
+DOMAIN-SUFFIX,fsasar.com # Fortinet 安全服务相关域名，用于威胁情报分发、信誉评分与安全检测接口
+DOMAIN-SUFFIX,fortinet.com # Fortinet 主站域名，用于安全报告、产品情报与相关威胁研究内容访问
+DOMAIN-SUFFIX,fortidownload.com # Fortinet 下载资源节点，用于签名库、规则、检测组件等安全资源同步
+DOMAIN-SUFFIX,update.fortiguard.net # FortiGuard 更新接口，用于同步实时威胁情报、信誉库与漏洞签名
+DOMAIN-SUFFIX,service.fortiguard.net # FortiGuard 服务端点，用于威胁查询、信誉评估与安全事件匹配
+DOMAIN-SUFFIX,webfilter.fortiguard.net # FortiGuard WebFilter 服务端点，用于网站类别识别与安全等级查询
+DOMAIN-SUFFIX,ips.fortiguard.net # FortiGuard IPS 情报节点，用于入侵检测、攻击特征匹配与签名更新
+DOMAIN-SUFFIX,antivirus.fortiguard.net # FortiGuard 病毒库更新节点，用于恶意样本、木马、C2 相关特征数据同步
+
 # > Evernote（国际版笔记服务 / 云端同步平台）
 
 DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
