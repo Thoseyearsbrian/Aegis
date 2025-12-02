@@ -1476,3 +1476,14 @@ DOMAIN-SUFFIX,tdoc.qq.com # 腾讯文档核心服务域名，用于文档实时�
 DOMAIN-SUFFIX,wpscdnqq.com # 腾讯文档静态资源 CDN，用于前端脚本、CSS、字体与文档渲染资源加载
 DOMAIN-SUFFIX,docsfile.qq.com # 文档附件上传/下载域名，用于多媒体、图片、文件内容托管
 DOMAIN-SUFFIX,cdn-docs.qq.com # 腾讯文档页面所依赖的前端资源 CDN，用于脚本与公共组件加速
+
+# > 金山文档（WPS Docs / Kingsoft Office 在线文档平台）
+
+DOMAIN-SUFFIX,wps.cn # WPS 中国区主域，用于账号体系、入口跳转与文档服务承载
+DOMAIN-SUFFIX,wpscdn.cn # WPS 文档静态资源 CDN，用于编辑器脚本、样式、字体与前端组件加载
+DOMAIN-SUFFIX,docer.wps.cn # 文档模板库与素材资源服务，用于文档模板、图片与素材加载
+DOMAIN-SUFFIX,kdocs.cn # 金山文档主域名，用于在线文档、表格、PPT 的创建与协作
+DOMAIN-SUFFIX,kdocsapi.cn # 金山文档 API 接口，用于文档访问、权限校验、上传/编辑操作
+DOMAIN-SUFFIX,kuaizhan.com # 金山文档内嵌页面与静态内容加速域名（用于表单、附件与预览）
+DOMAIN-SUFFIX,ksyun.com # 金山云资源服务，用于文档存储、对象资源访问与文件处理
+DOMAIN-SUFFIX,ks-cdn.com # 金山云 CDN 节点，用于提升文档加载、文件下载与静态内容分发速度
