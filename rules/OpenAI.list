@@ -77,6 +77,28 @@ DOMAIN-SUFFIX,baidubce.com # 百度云 API 体系根域名，用于权限校验�
 DOMAIN-SUFFIX,bcebos.com # 百度对象存储 BOS，用于用户上传文件与模型输入输出数据
 DOMAIN-SUFFIX,bdstatic.com # 百度静态资源 CDN，用于前端脚本与模型演示页面资源加载
 
+# > Qwen（通义千问 / Alibaba AI）
+
+DOMAIN-SUFFIX,qwen.ai # 通义千问官方网站，用于模型介绍、产品体验与文档访问
+DOMAIN-SUFFIX,api.qwen.ai # 通义千问 API 主接口，用于推理请求、对话生成与模型调用
+DOMAIN-SUFFIX,console.qwen.ai # 通义千问控制台入口，用于 API Key 管理、账单与模型配置
+DOMAIN-SUFFIX,cdn.qwen.ai # 通义千问静态资源 CDN，用于前端脚本、样式与页面加载
+
+# > Alibaba Cloud DashScope（灵积 / 通义大模型 API 服务）
+
+DOMAIN-SUFFIX,dashscope.aliyuncs.com # DashScope 大模型推理 API 主域名，通义千问底层 API 依赖
+DOMAIN-SUFFIX,modelscope.cn # ModelScope 模型社区，用于模型托管、文档与资源下载（通义官方合作平台）
+DOMAIN-SUFFIX,api.alicloudapi.com # 阿里云统一 API 网关，部分旧版通义 API 走此接口
+DOMAIN-SUFFIX,aliyuncs.com # 阿里云主域名，用于存储、权限校验、API 通道等底层服务
+DOMAIN-SUFFIX,oss-cn-*.aliyuncs.com # 阿里云 OSS 存储，用于上传文件、图片与推理输入输出
+
+# > Alibaba Identity（账号登录体系）
+
+DOMAIN-SUFFIX,alibaba.com # 阿里巴巴集团账号体系
+DOMAIN-SUFFIX,taobao.com # 淘宝系账号联合登录支持
+DOMAIN-SUFFIX,login.taobao.com # 登录中心，用于通义千问账号验证
+DOMAIN-SUFFIX,dingtalk.com # 钉钉登录授权入口，一些企业用户需绑定
+
 # > OpenAI Chat 系列
 
 DOMAIN-SUFFIX,openai.com # OpenAI 主站域名
