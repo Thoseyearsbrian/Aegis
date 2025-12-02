@@ -1514,3 +1514,14 @@ DOMAIN-SUFFIX,lanhu-cdn.com # 蓝湖静态资源 CDN，用于前端脚本、样�
 DOMAIN-SUFFIX,lanhuoss.com # 蓝湖文件存储服务，用于上传/预览设计稿、图片、切图与附件
 DOMAIN-SUFFIX,lanhuimg.com # 蓝湖图片资源域名，用于设计稿截图、缩略图与渲染显示
 DOMAIN-SUFFIX,bluelake.cn # 蓝湖关联品牌域名，用于业务跳转、项目入口与账号体系
+
+# > 墨刀（MockingBot / 原型设计与团队协作平台）
+
+DOMAIN-SUFFIX,mockingbot.com # 墨刀主站域名，用于原型设计、项目协作、团队空间与在线预览
+DOMAIN-SUFFIX,mockplus.cn # 墨刀/Mockplus 中国区服务域，用于账号登录、项目管理与文档协作
+DOMAIN-SUFFIX,mockplus.com # Mockplus 国际版域名，用于原型设计与协作方案
+DOMAIN-SUFFIX,static.mockingbot.com # 墨刀静态资源域名，用于脚本、样式、字体与前端组件加载
+DOMAIN-SUFFIX,assets.mockingbot.com # 墨刀资源存储，用于图标、图片素材、组件库与项目资源
+DOMAIN-SUFFIX,api.mockingbot.com # 墨刀 API 接口域名，用于项目数据、权限验证、设计稿上传与协作管理
+DOMAIN-SUFFIX,mockingbot-cdn.com # 墨刀前端资源 CDN，用于加速 UI 渲染、设计稿加载与图像服务
+DOMAIN-SUFFIX,mbusercontent.com # 墨刀用户内容存储域，用于图片、文件、设计稿与附件托管
