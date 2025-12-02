@@ -1371,8 +1371,6 @@ DOMAIN-SUFFIX,7k7k.com # 7k7k小游戏平台
 
 DOMAIN-SUFFIX,huaweicloud.com # 华为云
 DOMAIN-SUFFIX,dingtalk.com # 钉钉
-DOMAIN-SUFFIX,feishu.cn # 飞书（国内）
-DOMAIN-SUFFIX,feishu.net # 飞书国际
 DOMAIN-SUFFIX,work.weixin.qq.com # 企业微信
 DOMAIN-SUFFIX,mi.com # 小米企业站
 DOMAIN-SUFFIX,xiaomi.net # 小米企业服务
@@ -1458,3 +1456,14 @@ DOMAIN-SUFFIX,api.yuque.com # 语雀 API 接口，用于文档读取、编辑、
 DOMAIN-SUFFIX,assets.yuque.com # 语雀静态素材资源，用于图标、附件、富文本内容等资源加载
 DOMAIN-SUFFIX,public.yuque.com # 语雀公共内容访问域名，用于公开文档、知识库展示
 DOMAIN-SUFFIX,office.yuque.com # 语雀在线办公相关接口，用于文档协作与附件在线预览
+
+# > 飞书文档（Feishu Docs / Lark Suite 文档协作平台）
+
+DOMAIN-SUFFIX,feishu.cn # 飞书中国区主站域名，用于账号登录、文档入口与协作空间访问
+DOMAIN-SUFFIX,feishuapp.cn # 飞书应用服务域名，用于文档协作、消息同步与多端通信
+DOMAIN-SUFFIX,larkoffice.com # 飞书国际版文档服务域名，用于文档协作、权限校验与内容加载
+DOMAIN-SUFFIX,feishucdn.com # 飞书静态资源 CDN，用于前端脚本、样式、字体与界面组件加载
+DOMAIN-SUFFIX,feishustatic.com # 飞书静态资源域，用于图片、图标与文档渲染相关资源
+DOMAIN-SUFFIX,feishucontent.com # 飞书内容存储域，用于文档附件、图片、富文本与团队素材访问
+DOMAIN-SUFFIX,open.feishu.cn # 飞书开放平台 API，用于文档权限、搜索、机器人与第三方集成
+DOMAIN-SUFFIX,api.feishu.cn # 飞书 API 接口，用于文档读取、编辑、上传与协作管理
