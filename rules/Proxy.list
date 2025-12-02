@@ -4068,6 +4068,16 @@ DOMAIN-SUFFIX,gdprform.io # GDPR 线上隐私请求平台，用于数据访问�
 DOMAIN-SUFFIX,edge.captcha-sdk.awswaf.com # AWS WAF Captcha 行为验证端点，用于风险评估、人机验证与风控数据回传
 DOMAIN-SUFFIX,aa91ab2ba082.3f34d406.us-west-1.captcha.awswaf.com # AWS WAF Captcha 挑战实例节点，用于风控验证、人机校验与会话安全处理
 
+# > Evernote（国际版笔记服务 / 云端同步平台）
+
+DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
+DOMAIN-SUFFIX,evernoteusercontent.com # Evernote 用户内容域名，用于附件、图片、音频等文件存储与加载
+DOMAIN-SUFFIX,evernote-staging.com # Evernote 测试/预发布环境域名，用于内部测试与构建
+DOMAIN-SUFFIX,evernote.com.cn # Evernote 中国区服务早期域名（印象笔记迁移前遗留）
+DOMAIN-SUFFIX,evernote.net # Evernote 后端服务域名，用于 API、同步、数据处理等调用
+DOMAIN-SUFFIX,evernoteapi.com # Evernote API 接口域名，用于第三方应用集成与 OAuth 认证
+DOMAIN-SUFFIX,evernote.s3.amazonaws.com # Evernote 使用的 AWS S3 文件资源存储端点（附件、图片、笔记文件）
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
