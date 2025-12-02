@@ -1642,3 +1642,14 @@ DOMAIN-SUFFIX,cdn.mastergo.com # MasterGo 静态资源 CDN，用于字体库、�
 DOMAIN-SUFFIX,assets.mastergo.com # MasterGo 静态素材资源，用于图片、模板、预设素材与组件资源分发
 DOMAIN-SUFFIX,push.mastergo.com # MasterGo 推送服务域名，用于协作通知、邀请提醒与编辑事件推送
 DOMAIN-SUFFIX,im.mastergo.com # MasterGo 内置即时通信服务，用于多人协同评论与编辑沟通
+
+# > 即时设计（JSDesign 在线设计协作平台）
+
+DOMAIN-SUFFIX,js.design # 即时设计主站域名，用于产品访问、账户体系与入口跳转
+DOMAIN-SUFFIX,jsdesign.com # 即时设计国际化域名，用于产品介绍、登录与网页访问
+DOMAIN-SUFFIX,design.js.design # 即时设计在线编辑器，用于实时协作、画布渲染与组件编辑
+DOMAIN-SUFFIX,api.js.design # 即时设计 API 服务，用于项目数据交互、团队协作与资源管理
+DOMAIN-SUFFIX,cdn.js.design # 即时设计静态资源 CDN，用于图标库、字体、脚本与 UI 组件加载
+DOMAIN-SUFFIX,assets.js.design # 即时设计静态素材域名，用于图片、模板、组件素材与资源文件分发
+DOMAIN-SUFFIX,im.js.design # 即时设计内置 IM 服务，用于评论、协作沟通与编辑通知
+DOMAIN-SUFFIX,push.js.design # 即时设计推送/通知域名，用于消息提醒、邀请与协作事件推送
