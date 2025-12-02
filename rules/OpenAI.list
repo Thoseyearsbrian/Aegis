@@ -322,3 +322,12 @@ DOMAIN-SUFFIX,objects.replicate.com # Replicate 对象存储域名，用于模�
 DOMAIN-SUFFIX,r8y.io # Replicate 推理任务加速域名，用于部分模型运行与内部路由
 DOMAIN-SUFFIX,replicate-fileupload.com # Replicate 文件上传端点，用于上传模型输入文件、数据集与预处理资源
 
+# > RunPod（GPU 推理算力 / 模型部署平台）
+
+DOMAIN-SUFFIX,runpod.io # RunPod 主站入口，用于产品介绍、登录、 Pod 管理与账单
+DOMAIN-SUFFIX,api.runpod.ai # RunPod 官方 API 接口，用于任务调用、模型推理、Serverless Pods 与自定义端点
+DOMAIN-SUFFIX,runpod.ai # RunPod 推理平台主域，用于 API 文档、模型管理与开发者入口
+DOMAIN-SUFFIX,imgs.runpod.io # RunPod 静态资源域名，用于加载控制台图片、图标与媒体资源
+DOMAIN-SUFFIX,cdn.runpod.io # RunPod 静态资源 CDN 域名，用于前端脚本、样式、界面资源的高性能分发
+DOMAIN-SUFFIX,runpodusercontent.com # RunPod 用户内容存储域名，用于模型输出、日志文件、数据缓存与对象存储资源
+DOMAIN-SUFFIX,files.runpod.io # RunPod 文件上传/下载域名，用于模型文件、日志或用户数据的传输
