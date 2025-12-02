@@ -4134,6 +4134,14 @@ DOMAIN-SUFFIX,threatvault.paloaltonetworks.com # ThreatVault 威胁库查询平�
 DOMAIN-SUFFIX,cloud.pan.dev # PAN Cloud API 接口端点，用于情报查询、策略管理与安全自动化生态
 DOMAIN-SUFFIX,apps.paloaltonetworks.com # PAN 应用服务端点，用于访问安全工具、云端情报与产品集成服务
 
+# > IBM X-Force Exchange（威胁情报平台 / 恶意样本与 IOC 查询）
+
+DOMAIN-SUFFIX,exchange.xforce.ibmcloud.com # IBM X-Force Exchange 主站，用于查询 IOC、恶意域名/IP、漏洞情报与攻击趋势
+DOMAIN-SUFFIX,api.xforce.ibmcloud.com # X-Force API 接口，用于情报自动化查询、信誉评分与安全集成
+DOMAIN-SUFFIX,ibmcloud.com # IBM Cloud 服务域名，用于鉴权、内容加载与情报资源访问
+DOMAIN-SUFFIX,my.xforce.ibmcloud.com # X-Force 用户仪表盘，用于个性化情报推送、收藏与工作区管理
+DOMAIN-SUFFIX,cdn.xforce.ibmcloud.com # X-Force 静态资源 CDN，用于前端脚本、样式与数据可视化组件加载
+
 # > Evernote（国际版笔记服务 / 云端同步平台）
 
 DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
