@@ -1754,6 +1754,7 @@ DOMAIN-SUFFIX,bytegoofy.com # 字节跳动资源分发域名，用于辅助 API 
 DOMAIN-SUFFIX,zijieapi.com # 字节跳动统一 API 服务域名，用于豆包/火山引擎的业务接口、数据交互与资源请求
 DOMAIN-SUFFIX,vcs.zijieapi.com # 字节跳动 VCS（Video/Content Service）接入端点，用于视频流处理、内容分发与业务通信
 DOMAIN-SUFFIX,mcs.zijieapi.com # 字节跳动 MCS（Media/Content Service）多媒体接口，用于文件上传、内容处理与资源访问
+IP-CIDR,122.14.236.54/32 # 豆包 WebSocket 接入节点（wss100-normal），用于实时对话、长连接会话与推理结果流式传输
 
 # > ERNIE Bot（文心一言 / Baidu AI 服务）
 
