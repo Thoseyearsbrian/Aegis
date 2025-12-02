@@ -35,6 +35,11 @@ DOMAIN-SUFFIX,autopush.mozilla.com # Firefox 推送中继服务，用于消息�
 DOMAIN-SUFFIX,crash-reports.mozilla.com # Firefox 崩溃日志收集与自动上传接口  
 DOMAIN-SUFFIX,detectportal.firefox.com # Firefox 联网状态检测域名，用于探测网络门户页（Captive Portal）
 
-# > PortMap（端口映射 / 内网穿透服务）
+# > 异常扫描流量（Port Scan / 非业务探测）
 
-IP-CIDR,103.97.176.73/32 # PortMap 公网端口映射节点；若未主动使用相关服务，此流量多为应用探测或 SDK 后台连接，可安全阻断
+IP-CIDR,103.97.176.73/32 # 端口扫描来源IP，AbuseIPDB多次报告为 Port Scan；非 PortMap 服务节点，与正常业务无关，可直接阻断
+
+# > Cloudflare 反向代理探测流量（扫描 / 探测类）
+
+IP-CIDR,162.159.61.3/32 # Cloudflare 反向代理扫描节点，常见端口探测 / DoS 相关流量，非正常业务通信，可安全阻断
+IP-CIDR,172.64.41.3/32 # Cloudflare 反向代理探测节点，裸 IP 访问触发 PortMap 行为，非业务流量，可安全阻断
