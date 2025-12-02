@@ -107,6 +107,18 @@ DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云开发者平台（文档、SDK、示�
 DOMAIN-SUFFIX,myqcloud.com # 腾讯云对象存储 COS 域，用于文件上传与模型相关资源加载
 DOMAIN-SUFFIX,tcb-api.tencentcloudapi.com # 腾讯云 TCB（云开发）接口，用于混元插件与交互式应用调用
 
+# > SparkDesk（讯飞星火 / iFlytek 大模型）
+
+DOMAIN-SUFFIX,xunfei.cn # 科大讯飞主域名，用于模型产品入口与企业服务承载
+DOMAIN-SUFFIX,xfyun.cn # 讯飞开放平台主域，用于星火 API、控制台与账户体系
+DOMAIN-SUFFIX,sparkdesk.cn # 讯飞星火官方域名，用于产品介绍、模型体验与控制台访问
+DOMAIN-SUFFIX,spark-api.cn # 星火 API 推理入口，用于大模型调用、对话生成与企业集成服务
+DOMAIN-SUFFIX,api.xfyun.cn # 讯飞开放平台 API 主域名，部分星火接口依托该域提供服务
+DOMAIN-SUFFIX,passport.xfyun.cn # 星火账号体系登录入口，用于控制台与 API 授权验证
+DOMAIN-SUFFIX,console.xfyun.cn # 星火控制台，用于 API Key、账单与模型配置管理
+DOMAIN-SUFFIX,download.xfyun.cn # 讯飞资源下载域，用于 SDK、模型配置及相关文件获取
+DOMAIN-SUFFIX,static.xfyun.cn # 星火前端静态资源 CDN，用于控制台脚本、样式与页面加载
+
 # > OpenAI Chat 系列
 
 DOMAIN-SUFFIX,openai.com # OpenAI 主站域名
