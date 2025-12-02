@@ -189,3 +189,12 @@ DOMAIN-SUFFIX,api.reka.ai # Reka AI 官方 API 接口域名，用于模型推理
 DOMAIN-SUFFIX,console.reka.ai # Reka 控制台，用于管理 API Key、账单与使用指标
 DOMAIN-SUFFIX,docs.reka.ai # Reka 开发者文档站点，用于 API 文档、模型能力说明与示例
 DOMAIN-SUFFIX,cdn.reka.ai # Reka 静态资源 CDN，用于加载前端脚本、图标与控制台资源
+
+# > Voyage AI
+
+DOMAIN-SUFFIX,voyageai.com # Voyage AI 主站域名，用于产品介绍、模型展示与文档入口
+DOMAIN-SUFFIX,api.voyageai.com # Voyage AI 官方 API 接口，用于嵌入向量、重排序（Rerank）等模型推理调用
+DOMAIN-SUFFIX,cdn.voyageai.com # Voyage AI 静态资源域名，用于前端脚本、样式与控制台相关资源加载
+DOMAIN-SUFFIX,docs.voyageai.com # Voyage AI 文档站点，用于 API 文档、模型能力说明、代码示例
+DOMAIN-SUFFIX,console.voyageai.com # Voyage AI 控制台，用于 API Key 管理、账单查看与使用统计
+
