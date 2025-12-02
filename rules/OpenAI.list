@@ -28,6 +28,8 @@ IP-CIDR,59.188.250.54/32 # ws.chatgpt.com WebSocket 通信节点，ChatGPT 实�
 IP-CIDR,31.13.95.18/32 # Meta（Facebook）CDN/GFE 节点，用于 ChatGPT iOS 客户端的资源加载与连接分发
 IP-CIDR,108.160.163.112/32 # OpenAI / ChatGPT Port Mapping 相关节点，用于 API/客户端连接的网络映射与流量中转
 IP-CIDR,31.13.95.18/32 # ChatGPT Port Mapping 使用的 Meta 高性能边缘节点，用于网络加速与 TLS 终端调度
+IP-CIDR,31.13.95.169/32 # OpenAI ChatGPT WebSocket 服务节点（ws.chatgpt.com），用于实时对话与流式响应
+IP-CIDR,108.160.166.61/32 # OpenAI ChatGPT WebSocket 服务节点（ws.chatgpt.com），用于实时对话与流式内容传输
 
 # > DeepSeek
 
