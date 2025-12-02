@@ -126,11 +126,17 @@ DOMAIN-SUFFIX,pplx-res.cloudinary.com # Perplexity 静态资源托管（图像�
 
 # > HuggingFace
 
-DOMAIN-SUFFIX,huggingface.co # HuggingFace 官网与模型平台主域名
-DOMAIN-SUFFIX,inference-api.com # HuggingFace 推理 API 接口域名
-DOMAIN-SUFFIX,cdn-lfs.huggingface.co # Hugging Face LFS（Large File Storage）内容分发域名，用于下载权重文件、数据集与模型资源  
-DOMAIN-SUFFIX,huggingfaceusercontent.com # Hugging Face 用户生成内容域名，用于存储用户上传的模型、Demo、Spaces 应用等  
-DOMAIN-SUFFIX,huggingface.tech # Hugging Face 技术子域，用于内部服务接口、部署服务及云端处理组件（用途较为隐蔽）  
+DOMAIN-SUFFIX,huggingface.co # Hugging Face 主站域名，用于模型托管、Spaces、Datasets、文档与账号管理
+DOMAIN-SUFFIX,inference-api.com # Hugging Face Inference API 域名，用于模型推理、实时推断与托管接口调用
+DOMAIN-SUFFIX,cdn-lfs.huggingface.co # Hugging Face 大文件分发域名（LFS），用于模型权重、数据集与关联资源的高速下载
+DOMAIN-SUFFIX,huggingfaceusercontent.com # Hugging Face 用户内容域名，用于托管Spaces、Demo资源、模型输出与用户上传内容
+DOMAIN-SUFFIX,huggingface.tech # Hugging Face 技术域/内部服务域，用于后台部署、云端组件与隐式服务接口
+DOMAIN-SUFFIX,hf.co # Hugging Face 官方短链域名，用于模型/Space 快速跳转（真实存在）
+DOMAIN-SUFFIX,api.endpoints.huggingface.cloud # Hugging Face Endpoints 托管推理 API（企业级模型部署接口）
+DOMAIN-SUFFIX,assets.huggingface.co # Hugging Face 静态资源域名（图标、脚本、前端资源加载）
+DOMAIN-SUFFIX,models.huggingface.co # 模型卡、README、元信息文档等内容托管节点（官方解析存在）
+DOMAIN-SUFFIX,datasets.huggingface.co # 数据集文档/预览服务域名
+DOMAIN-SUFFIX,spaces.huggingface.co # Spaces 应用运行、前端加载与 UI 组件域名（真实存在）
 
 # > Poe（Quora）
 
