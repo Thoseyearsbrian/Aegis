@@ -1505,3 +1505,12 @@ DOMAIN-SUFFIX,feidai.com # Teambition 文档与素材服务域，用于文件上
 DOMAIN-SUFFIX,teambitionstatic.com # Teambition 静态资源 CDN，用于前端脚本、样式、字体与组件加载
 DOMAIN-SUFFIX,tbfile.oss-cn-hangzhou.aliyuncs.com # Teambition 文档文件托管（阿里云 OSS），用于存储文档附件与预览资源
 DOMAIN-SUFFIX,aliyuncs.com # 阿里云基础资源域，用于存储、加速与鉴权服务（Teambition 文件依赖）
+
+# > 蓝湖（Lanhu / 产品设计协作平台）
+
+DOMAIN-SUFFIX,lanhuapp.com # 蓝湖主站域名，用于设计稿协作、原型查看、团队空间与项目管理
+DOMAIN-SUFFIX,lanhuapp.cn # 蓝湖中国区服务域名，用于登录、项目访问、团队协作等核心功能
+DOMAIN-SUFFIX,lanhu-cdn.com # 蓝湖静态资源 CDN，用于前端脚本、样式、字体与界面组件加载
+DOMAIN-SUFFIX,lanhuoss.com # 蓝湖文件存储服务，用于上传/预览设计稿、图片、切图与附件
+DOMAIN-SUFFIX,lanhuimg.com # 蓝湖图片资源域名，用于设计稿截图、缩略图与渲染显示
+DOMAIN-SUFFIX,bluelake.cn # 蓝湖关联品牌域名，用于业务跳转、项目入口与账号体系
