@@ -53,6 +53,30 @@ DOMAIN-SUFFIX,byteimg.com # 豆包及字节产品的静态资源图像 CDN 节�
 DOMAIN-SUFFIX,bytegoofy.com # 字节跳动资源分发域名，用于静态资源与 API 辅助服务
 DOMAIN-SUFFIX,bytedanceapi.com # 字节跳动 API 集成域，用于模型能力接入与账户系统关联
 
+# > ERNIE Bot（文心一言 / Baidu AI 服务）
+
+DOMAIN-SUFFIX,yiyan.baidu.com # 文心一言 Web 主站，用于在线聊天与模型体验
+DOMAIN-SUFFIX,app.yiyan.baidu.com # 文心一言 Web App，对话前端与用户交互界面
+DOMAIN-SUFFIX,api.yiyan.baidu.com # 文心一言 API 接口，用于文本生成、推理与对话服务
+DOMAIN-SUFFIX,cdn.yiyan.baidu.com # 文心一言静态资源 CDN，提供前端脚本与界面资源加载
+
+# > Baidu Qianfan（千帆大模型平台）
+
+DOMAIN-SUFFIX,ai.baidu.com # 百度 AI 平台主入口，包括文心大模型文档与能力介绍
+DOMAIN-SUFFIX,cloud.baidu.com # 百度智能云主域，用于账号、控制台与 API 调用管理
+DOMAIN-SUFFIX,api.baidubce.com # 百度云 Bce（Baidu Cloud Engine）AI API 主域，文心一言调用链依赖
+DOMAIN-SUFFIX,qianfan.run # 千帆推理平台入口域，用于模型托管与推理任务
+DOMAIN-SUFFIX,qianfan.cloud # 千帆平台业务域名，用于模型配置、实验与在线推理管理
+DOMAIN-SUFFIX,qianfanapi.com # 千帆 API 侧域，用于模型推理、调度与开发者访问
+
+# > Baidu AI Infrastructure（文心一言底层依赖）
+
+DOMAIN-SUFFIX,dueros.baidu.com # 百度 DuerOS 语音 AI 平台（部分模型服务共用推理基础设施）
+DOMAIN-SUFFIX,aip.baidubce.com # 百度 AI 开放平台 API，部分旧接口仍走此域名
+DOMAIN-SUFFIX,baidubce.com # 百度云 API 体系根域名，用于权限校验、推理与任务调度
+DOMAIN-SUFFIX,bcebos.com # 百度对象存储 BOS，用于用户上传文件与模型输入输出数据
+DOMAIN-SUFFIX,bdstatic.com # 百度静态资源 CDN，用于前端脚本与模型演示页面资源加载
+
 # > OpenAI Chat 系列
 
 DOMAIN-SUFFIX,openai.com # OpenAI 主站域名
