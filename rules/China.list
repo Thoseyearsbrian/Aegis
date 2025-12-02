@@ -1432,3 +1432,15 @@ DOMAIN-SUFFIX,iizhi.cn # 爱知网盘搜索引擎主域名，用于聚合百度�
 # > RevenueCat 移动应用内订阅管理服务域名
 
 DOMAIN,api.revenuecat.com:443  # RevenueCat API 接口域名，用于管理订阅、校验交易与用户状态同步  
+
+# > Moka（Mokahr 招聘管理系统）
+
+DOMAIN-SUFFIX,mokahr.com # Moka 招聘管理系统主域名，用于账号模块、后台管理与企业招聘流程
+DOMAIN-SUFFIX,app.mokahr.com # Moka Web 应用端，用于职位投递、招聘流程管理与企业端操作界面
+DOMAIN-SUFFIX,public-cdn.mokahr.com # Moka 静态资源 CDN，用于加载前端脚本、样式、组件与页面素材
+DOMAIN-SUFFIX,sentry-fe.mokahr.com # Moka 前端错误监控与性能日志上报节点，用于追踪前端异常与稳定性数据
+
+# > 网易静态资源与风控服务（Static Assets / Risk Control）
+
+DOMAIN-SUFFIX,126.net # 网易静态资源域，用于加载通用前端内容、字体与图像
+DOMAIN-SUFFIX,cstaticdun-v6.126.net # 网易易盾风控/验证码服务节点，用于表单提交、人机验证与登录安全校验
