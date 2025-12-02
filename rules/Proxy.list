@@ -4066,6 +4066,8 @@ DOMAIN-SUFFIX,gdprform.io # GDPR 线上隐私请求平台，用于数据访问�
 # > AWS WAF Captcha（风控 / 行为验证）
 
 DOMAIN-SUFFIX,edge.captcha-sdk.awswaf.com # AWS WAF Captcha 行为验证端点，用于风险评估、人机验证与风控数据回传
+DOMAIN-SUFFIX,token.awswaf.com # AWS WAF Token 风控令牌验证端点，用于生成、校验人机验证 Token 与访问安全凭证
+DOMAIN-SUFFIX,aa91ab2ba082.3f34d406.us-west-1.token.awswaf.com # AWS WAF Token 区域节点，用于风控令牌分发、验证与安全访问判断
 DOMAIN-SUFFIX,aa91ab2ba082.3f34d406.us-west-1.captcha.awswaf.com # AWS WAF Captcha 挑战实例节点，用于风控验证、人机校验与会话安全处理
 
 # > Evernote（国际版笔记服务 / 云端同步平台）
