@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名与 YouTube 已独立归类至 AdDomain.list 与 YouTube.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-01
+# - 更新时间：2025-12-02
 
 # > 核心服务（Google Core Services）
 
@@ -147,3 +147,7 @@ DOMAIN-SUFFIX,cdn.ampproject.org # Google AMP 框架 CDN 域名，用于加载�
 IP-CIDR,74.125.68.188/32 # Google 服务节点 IP，用于部分地区的内容分发与网络请求解析
 IP-CIDR,74.125.130.188 # Google 内容服务 IPv4 地址，常用于 API 与内容加载请求
 IP-CIDR,142.250.4.188 # Google CDN 内容分发节点，用于静态资源与服务加载
+
+# > Google 服务器节点（Google Frontend / GFE）
+
+IP-CIDR,74.125.24.188/32  # Google 前端节点，用于 Google 搜索 / Gmail / YouTube 等核心服务访问
