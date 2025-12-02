@@ -4240,6 +4240,16 @@ DOMAIN-SUFFIX,fireeye.market # FireEye 技术资源与插件生态域名，用�
 DOMAIN-SUFFIX,mandiantsecurityvalidation.com # Mandiant 安全验证平台域名，用于安全配置检查、红队模拟与攻击链验证
 DOMAIN-SUFFIX,apis.mandiant.com # Mandiant Threat Intelligence API，用于查询 IOC、威胁行为者、恶意文件、URL/IP 信誉等情报数据
 
+# > CrowdSec Threat Intelligence（协同防护 / 威胁 IP 信誉数据库）
+
+DOMAIN-SUFFIX,crowdsec.net # CrowdSec 官方主域名，用于平台访问、威胁情报展示与生态组件介绍
+DOMAIN-SUFFIX,api.crowdsec.net # CrowdSec 威胁情报 API 接口，用于查询恶意 IP、信誉数据、攻击行为特征
+DOMAIN-SUFFIX,cti.crowdsec.net # CrowdSec CTI（Cyber Threat Intelligence）情报中心域名，用于风险评分、攻击者画像与情报检索
+DOMAIN-SUFFIX,hubs.crowdsec.net # CrowdSec 社区规则集与决策中心，用于下载安全规则、行为特征与社区贡献内容
+DOMAIN-SUFFIX,download.crowdsec.net # CrowdSec 组件与规则集下载源，用于本地 Agent 更新、解析器与机器学习模型拉取
+DOMAIN-SUFFIX,metrics.crowdsec.net # CrowdSec 遥测与运行数据端点，用于 Agent 状态检测、统计上报与性能监控
+DOMAIN-SUFFIX,app.crowdsec.net # CrowdSec 后台控制台，用于查看攻击趋势、管理决策集与威胁数据订阅
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
