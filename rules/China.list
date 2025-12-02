@@ -888,6 +888,7 @@ DOMAIN-SUFFIX,pubedu.chsi.com.cn # 教育部合作平台与联合办学信息查
 DOMAIN-SUFFIX,kaoyan.chsi.com.cn # 研究生考试报名系统，含推免信息与报考服务  
 DOMAIN-SUFFIX,xueli.chsi.com.cn # 学历信息专属查询与在线验证平台  
 DOMAIN-SUFFIX,yjsy.chsi.com.cn # 研究生教育与导师信息平台  
+DOMAIN-SUFFIX,portal101.cn # 教育平台登录鉴权域名（fp-it-acc 为账号认证子服务）
 
 # > 健康码 / 国家健康平台相关域名（疫情防控 / 健康上报）
 
