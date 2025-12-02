@@ -55,23 +55,26 @@ DOMAIN-SUFFIX,media.vidu.com # Vidu 媒体存储域名，用于生成视频、�
 DOMAIN-SUFFIX,files.vidu.com # Vidu 文件上传/下载域名，用于素材上传、视频导出与项目文件管理
 DOMAIN-SUFFIX,render.vidu.com # Vidu 渲染服务域名，用于视频渲染任务、模型执行与后台生成管线
 
-# > Doubao（豆包大模型 / 字节跳动 AI 服务）
+# > ByteDance AI（Doubao / VolcEngine）相关域名
 
-DOMAIN-SUFFIX,doubao.com # 豆包主站入口，用于模型介绍、能力展示、产品入口与文档链接
+DOMAIN-SUFFIX,doubao.com # 豆包大模型主站，用于产品展示、模型介绍与入口跳转
 DOMAIN-SUFFIX,app.doubao.com # 豆包 Web 应用，用于聊天、对话、模型体验与账号管理
-DOMAIN-SUFFIX,api.doubao.com # 豆包 API 接口，用于模型推理、文本生成、Embedding 与应用集成
+DOMAIN-SUFFIX,api.doubao.com # 豆包 API 接口，用于推理、文本生成、Embedding 与应用集成
 DOMAIN-SUFFIX,cdn.doubao.com # 豆包静态资源 CDN，用于前端脚本、样式、字体与界面组件加载
-DOMAIN-SUFFIX,assets.doubao.com # 豆包静态素材资源，用于图标、前端界面素材、预设内容加载
-DOMAIN-SUFFIX,media.doubao.com # 豆包媒体资源域名，用于文件、图片、音频与用户上传内容存储
-DOMAIN-SUFFIX,files.doubao.com # 豆包文件上传与下载服务，用于处理模型输入输出文件
-
-# > VolcEngine（豆包底层推理服务域名）
-
-DOMAIN-SUFFIX,volcengineapi.com # 火山引擎 API 主域，用于大模型推理、权限验证与任务处理
-DOMAIN-SUFFIX,volceapplog.com # 火山引擎应用日志服务，用于 SDK 上报与行为监控
-DOMAIN-SUFFIX,byteimg.com # 豆包及字节产品的静态资源图像 CDN 节点
-DOMAIN-SUFFIX,bytegoofy.com # 字节跳动资源分发域名，用于静态资源与 API 辅助服务
-DOMAIN-SUFFIX,bytedanceapi.com # 字节跳动 API 集成域，用于模型能力接入与账户系统关联
+DOMAIN-SUFFIX,assets.doubao.com # 豆包静态素材资源，用于图标、界面素材与预设内容
+DOMAIN-SUFFIX,media.doubao.com # 媒体资源服务，用于图片、音频、视频与用户上传内容
+DOMAIN-SUFFIX,files.doubao.com # 文件上传/下载服务，用于模型输入输出文件处理
+DOMAIN-SUFFIX,bytedanceapi.com # 字节跳动统一 API 体系，用于模型调用、授权校验与账户系统集成
+DOMAIN-SUFFIX,polaris.bytedance.com # 字节跳动服务网关，用于云端资源路由与负载调度
+DOMAIN-SUFFIX,volcengineapi.com # 火山引擎 AI API 主域名，用于推理请求、权限验证与企业集成
+DOMAIN-SUFFIX,volces.com # 火山引擎 CDN，用于模型加载、向量检索与资源加速分发
+DOMAIN-SUFFIX,gator.volces.com # 火山引擎边缘加速节点，用于推理加速与静态资源调度
+DOMAIN-SUFFIX,volcimagex.com # ImageX 图像处理服务，用于生成、压缩与模型图像输出
+DOMAIN-SUFFIX,volccdn.com # 火山引擎静态资源 CDN，用于 JS/CSS/组件加速加载
+DOMAIN-SUFFIX,volceapplog.com # 应用日志/埋点上报服务，用于 SDK 行为与性能数据收集
+DOMAIN-SUFFIX,byteimg.com # 字节图像 CDN，用于多媒体与前端资源加载
+DOMAIN-SUFFIX,byted-static.com # 字节跳动静态资源域，用于脚本、字体与样式文件
+DOMAIN-SUFFIX,bytegoofy.com # 字节跳动资源分发域名，用于辅助 API 和静态内容分发
 
 # > ERNIE Bot（文心一言 / Baidu AI 服务）
 
