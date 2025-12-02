@@ -2654,6 +2654,16 @@ DOMAIN-SUFFIX,api.notion.com # Notion 官方 API 域名，用于自动化、第�
 DOMAIN-SUFFIX,cachefly.net # Notion 使用的缓存网络加速节点，用于静态内容高性能分发
 DOMAIN-SUFFIX,amazonaws.com # Notion 使用的 AWS S3 存储端点（附件、文件、图片资源托管）
 
+# > Evernote（国际版笔记服务 / 云端同步平台）
+
+DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
+DOMAIN-SUFFIX,evernoteusercontent.com # Evernote 用户内容域名，用于附件、图片、音频等文件存储与加载
+DOMAIN-SUFFIX,evernote-staging.com # Evernote 测试/预发布环境域名，用于内部测试与构建
+DOMAIN-SUFFIX,evernote.com.cn # Evernote 中国区服务早期域名（印象笔记迁移前遗留）
+DOMAIN-SUFFIX,evernote.net # Evernote 后端服务域名，用于 API、同步、数据处理等调用
+DOMAIN-SUFFIX,evernoteapi.com # Evernote API 接口域名，用于第三方应用集成与 OAuth 认证
+DOMAIN-SUFFIX,evernote.s3.amazonaws.com # Evernote 使用的 AWS S3 文件资源存储端点（附件、图片、笔记文件）
+
 # > Flag Icons 相关域名
 
 DOMAIN-SUFFIX,flagicons.lipis.dev # FlagIcons项目官网，用于免费获取全世界国家国旗的SVG图标
@@ -4163,15 +4173,15 @@ DOMAIN-SUFFIX,falcon.us-2.crowdstrike.com # Falcon Intelligence 区域节点（U
 DOMAIN-SUFFIX,falcon.eu-1.crowdstrike.com # Falcon Intelligence 欧洲区域节点，用于欧盟区设备情报查询与合规部署需求
 DOMAIN-SUFFIX,falcon.laggar.gcw.crowdstrike.com # CrowdStrike 全球云（GCW）服务域，用于威胁数据同步、后端逻辑处理与遥测汇聚
 
-# > Evernote（国际版笔记服务 / 云端同步平台）
+# > Kaspersky OpenTIP（卡巴斯基开放威胁情报平台 / IOC 查询）
 
-DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
-DOMAIN-SUFFIX,evernoteusercontent.com # Evernote 用户内容域名，用于附件、图片、音频等文件存储与加载
-DOMAIN-SUFFIX,evernote-staging.com # Evernote 测试/预发布环境域名，用于内部测试与构建
-DOMAIN-SUFFIX,evernote.com.cn # Evernote 中国区服务早期域名（印象笔记迁移前遗留）
-DOMAIN-SUFFIX,evernote.net # Evernote 后端服务域名，用于 API、同步、数据处理等调用
-DOMAIN-SUFFIX,evernoteapi.com # Evernote API 接口域名，用于第三方应用集成与 OAuth 认证
-DOMAIN-SUFFIX,evernote.s3.amazonaws.com # Evernote 使用的 AWS S3 文件资源存储端点（附件、图片、笔记文件）
+DOMAIN-SUFFIX,kaspersky.com # 卡巴斯基官方主域名，用于安全产品、威胁情报与 OpenTIP 服务入口
+DOMAIN-SUFFIX,opentip.kaspersky.com # Kaspersky OpenTIP 主站，用于 IOC 查询、恶意文件/URL/IP 检测与威胁信誉分析
+DOMAIN-SUFFIX,api.opentip.kaspersky.com # OpenTIP API 接口，用于自动化查询 IOC、威胁评分、检测结果与情报集成
+DOMAIN-SUFFIX,threats.kaspersky.com # Kaspersky 全球威胁百科（Threat Encyclopedia），用于恶意软件家族、攻击技术与威胁说明
+DOMAIN-SUFFIX,go.kaspersky.com # Kaspersky 在线服务跳转，用于安全报告、情报页面与多服务入口路由
+DOMAIN-SUFFIX,static.kasperskycontenthub.com # 卡巴斯基内容 CDN，用于情报平台文档、图标、CSS 与脚本资源加载
+DOMAIN-SUFFIX,kasperskycontenthub.com # 卡巴斯基内容中心主域名，提供情报文章、安全报告与前端资源
 
 # > 其他 (暂未分类)
 
