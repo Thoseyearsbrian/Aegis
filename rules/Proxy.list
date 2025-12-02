@@ -4117,6 +4117,14 @@ DOMAIN-SUFFIX,webfilter.fortiguard.net # FortiGuard WebFilter 服务端点，用
 DOMAIN-SUFFIX,ips.fortiguard.net # FortiGuard IPS 情报节点，用于入侵检测、攻击特征匹配与签名更新
 DOMAIN-SUFFIX,antivirus.fortiguard.net # FortiGuard 病毒库更新节点，用于恶意样本、木马、C2 相关特征数据同步
 
+# > AlienVault OTX（开源威胁情报社区 / IOC 数据共享）
+
+DOMAIN-SUFFIX,alienvault.com # AlienVault 官方域名，用于安全情报、IOC 查询与威胁研究内容访问
+DOMAIN-SUFFIX,otx.alienvault.com # OTX 主平台，用于查看攻击源、IOC 样本、恶意域名/IP 与社区威胁情报
+DOMAIN-SUFFIX,otxapi.alienvault.com # OTX API 接口，用于自动化拉取 IOC、信誉数据与威胁情报订阅内容
+DOMAIN-SUFFIX,auth.alienvault.com # OTX 认证服务端点，用于登录、令牌管理与权限验证
+DOMAIN-SUFFIX,cdn.alienvault.com # AlienVault 静态资源 CDN，用于加载平台脚本、文档与前端组件
+
 # > Evernote（国际版笔记服务 / 云端同步平台）
 
 DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
