@@ -4275,6 +4275,22 @@ DOMAIN-SUFFIX,cdn.any.run # ANY.RUN 静态资源 CDN，用于加载前端脚本�
 DOMAIN-SUFFIX,storage.any.run # ANY.RUN 样本与分析数据存储域，用于下载报告、行为日志、PCAP 以及相关产物
 DOMAIN-SUFFIX,reports.any.run # ANY.RUN 报告服务节点，用于生成与展示沙箱分析结果
 
+# > Hybrid Analysis（恶意软件在线分析 / Falcon Sandbox）
+
+DOMAIN-SUFFIX,hybrid-analysis.com # Hybrid Analysis 主站，用于提交样本、查看分析报告与威胁情报
+DOMAIN-SUFFIX,hybrid-analysis.org # Hybrid Analysis 附属域名，用于报告访问与历史分析数据浏览
+DOMAIN-SUFFIX,api.hybrid-analysis.com # Hybrid Analysis API 接口，用于样本自动提交流程、下载 IOC 与集成安全系统
+DOMAIN-SUFFIX,cdn.hybrid-analysis.com # Hybrid Analysis 前端静态资源 CDN，用于加载脚本、样式与分析页面组件
+DOMAIN-SUFFIX,falcon-sandbox.com # Falcon Sandbox（原 Hybrid Analysis）域名，用于在线沙箱、行为分析与威胁检测服务
+
+# > Joe Sandbox（高级恶意软件分析平台）
+
+DOMAIN-SUFFIX,joesecurity.org # Joe Sandbox 主站，用于样本上传、报告查看与安全产品介绍
+DOMAIN-SUFFIX,joesandbox.com # Joe Sandbox 在线分析平台入口，用于沙箱任务创建与结果查询
+DOMAIN-SUFFIX,cloud.joesandbox.com # Joe Sandbox Cloud 云端分析服务，用于提交样本与在线沙箱运行
+DOMAIN-SUFFIX,api.joesandbox.com # Joe Sandbox API 接口，用于自动化分析、IOC 抽取、报告集成与企业安全流程对接
+DOMAIN-SUFFIX,cdn.joesandbox.com # Joe Sandbox 静态资源 CDN，用于前端脚本、样式与展示组件加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
