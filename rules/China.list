@@ -1689,3 +1689,8 @@ DOMAIN-SUFFIX,res.jsassets.com # 即时素材内容资源域名，用于展示�
 
 DOMAIN-SUFFIX,shengshu.com # 盛数科技主站域名，用于产品介绍、企业官网与业务入口
 DOMAIN-SUFFIX,www.shengshu.com # 盛数科技官网子域名，用于展示产品信息、企业服务与文档入口
+
+# > YHGFB Static（国内通用静态资源 CDN）
+
+DOMAIN-SUFFIX,yhgfb-static.com # 国内通用静态资源 CDN，用于加载图片、脚本、样式与页面前端资源
+DOMAIN-SUFFIX,lf-rc1.yhgfb-static.com # yhgfb-static 静态资源分发节点，用于前端资源加载与页面渲染加速

@@ -623,3 +623,8 @@ DOMAIN-SUFFIX,analytics-ipv6.tiktokw.us # TikTok/Kwai IPv6 遥测上报节点，
 # > Shengshu AI（盛数 AI）行为追踪
 
 DOMAIN-SUFFIX,trace.shengshu-ai.com # 盛数 AI 行为追踪与事件日志上报端点，用于埋点收集与性能监控
+
+# > ByteDance APM（字节前端性能监控 / 遥测体系）
+
+DOMAIN-SUFFIX,bytedapm.com # 字节跳动 APM（Application Performance Monitoring）性能监控主域，用于前端性能、错误日志与稳定性数据上报
+DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com # 字节 APM 新加坡区域上报节点，用于测速、崩溃日志与实时埋点事件采集

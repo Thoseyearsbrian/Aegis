@@ -625,6 +625,8 @@ DOMAIN-SUFFIX,cdn.dola.com # Dola 静态资源 CDN，用于前端脚本、样式
 
 # > Ciciai（丝西 AI / 生数科技）相关域名
 
+DOMAIN-SUFFIX,cici.com # 商业门户网站主域名，用于企业主页、展示内容与业务入口
+DOMAIN-SUFFIX,www.cici.com # CICI 主站 Web 入口域名，用于内容展示与业务访问
 DOMAIN-SUFFIX,ciciaicdn.com # Ciciai 静态资源 CDN 主域名，用于前端脚本、图片与样式加载
 DOMAIN-SUFFIX,sf-sf-flow-web-cdn-nontt.ciciaicdn.com # Ciciai Web 前端 CDN 节点（非电信线路），用于页面加载与静态资源分发
 DOMAIN-SUFFIX,sf-flow-web-cdn.ciciaicdn.com # Ciciai Web 前端 CDN 节点，用于页面 UI、脚本与资源加速
