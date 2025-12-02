@@ -198,3 +198,12 @@ DOMAIN-SUFFIX,cdn.voyageai.com # Voyage AI 静态资源域名，用于前端脚�
 DOMAIN-SUFFIX,docs.voyageai.com # Voyage AI 文档站点，用于 API 文档、模型能力说明、代码示例
 DOMAIN-SUFFIX,console.voyageai.com # Voyage AI 控制台，用于 API Key 管理、账单查看与使用统计
 
+# > AI21 Labs
+
+DOMAIN-SUFFIX,ai21.com # AI21 Labs 主站域名，用于模型介绍、平台信息与企业服务
+DOMAIN-SUFFIX,api.ai21.com # AI21 官方 API 接口域名，用于文本生成、摘要、改写等语言模型推理
+DOMAIN-SUFFIX,studio.ai21.com # AI21 Studio 在线工作台，用于模型测试、Prompt 调试与交互式开发
+DOMAIN-SUFFIX,docs.ai21.com # AI21 文档站点，用于 API 文档、模型说明与代码示例
+DOMAIN-SUFFIX,platform.ai21.com # AI21 开发者平台入口，用于管理 API Key、账单与使用情况
+DOMAIN-SUFFIX,cdn.ai21.com # AI21 静态资源 CDN，用于加载控制台与前端界面的脚本、样式与图标
+
