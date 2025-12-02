@@ -1525,3 +1525,14 @@ DOMAIN-SUFFIX,assets.mockingbot.com # 墨刀资源存储，用于图标、图片
 DOMAIN-SUFFIX,api.mockingbot.com # 墨刀 API 接口域名，用于项目数据、权限验证、设计稿上传与协作管理
 DOMAIN-SUFFIX,mockingbot-cdn.com # 墨刀前端资源 CDN，用于加速 UI 渲染、设计稿加载与图像服务
 DOMAIN-SUFFIX,mbusercontent.com # 墨刀用户内容存储域，用于图片、文件、设计稿与附件托管
+
+# > CODING（腾讯云 DevOps / 代码托管与项目协作平台）
+
+DOMAIN-SUFFIX,coding.net # CODING 主站域名，用于代码托管、CI/CD、项目管理与团队协作
+DOMAIN-SUFFIX,coding.me # CODING 用户主页与团队空间展示域名，用于个人/企业项目展示
+DOMAIN-SUFFIX,api.coding.net # CODING API 接口域名，用于项目管理、流水线调用、仓库管理与自动化操作
+DOMAIN-SUFFIX,static.coding.net # CODING 静态资源 CDN，用于加载脚本、样式、字体与前端组件
+DOMAIN-SUFFIX,coding-page.com # CODING Pages 静态网站托管服务域名，用于构建与部署团队/个人站点
+DOMAIN-SUFFIX,tencentcs.com # CODING/TencentCloud 依赖的云原生对象存储域名（文件、构建产物、制品库）
+DOMAIN-SUFFIX,codimg.cn # CODING 图片资源加速域名，用于头像、截图、项目展示图加载
+DOMAIN-SUFFIX,codetencent.com # CODING 关联服务域名，用于登录体系、资源分发与服务跳转
