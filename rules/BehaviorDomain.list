@@ -245,6 +245,13 @@ DOMAIN-SUFFIX,apm-collector.scs.kuaishou.com # 快手前端性能 / APM 指标�
 DOMAIN-SUFFIX,conv-infra.kuaishou.com # 快手推荐系统行为特征训练服务
 DOMAIN-SUFFIX,logsdk.kwai-pro.com # 快手系日志/遥测上报端点，用于 SDK 行为事件、性能监控与应用日志采集
 
+# > 4Paradigm / 第四范式（AI 平台与企业智能服务）
+
+DOMAIN-SUFFIX,ap4r.com # 第四范式 AI 平台主域名，用于企业智能应用、推理任务与平台服务入口
+DOMAIN-SUFFIX,g-static.ap4r.com # 第四范式静态资源域名，用于加载前端脚本、样式与界面组件
+DOMAIN-SUFFIX,cdn-static.ap4r.com # 第四范式全站 CDN 加速节点，用于模型前端资源、静态文件与应用页面加载
+DOMAIN-SUFFIX,d15-def.ap4r.com # 第四范式分布式资源节点，用于模型推理任务、流量调度与平台加速服务
+
 # > 小红书指纹与日志收集行为
 
 DOMAIN-SUFFIX,ark.xiaohongshu.com # 小红书策略分发与行为回传接口
