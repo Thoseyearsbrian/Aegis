@@ -1487,3 +1487,12 @@ DOMAIN-SUFFIX,kdocsapi.cn # 金山文档 API 接口，用于文档访问、权�
 DOMAIN-SUFFIX,kuaizhan.com # 金山文档内嵌页面与静态内容加速域名（用于表单、附件与预览）
 DOMAIN-SUFFIX,ksyun.com # 金山云资源服务，用于文档存储、对象资源访问与文件处理
 DOMAIN-SUFFIX,ks-cdn.com # 金山云 CDN 节点，用于提升文档加载、文件下载与静态内容分发速度
+
+# > 石墨文档（Shimo Docs / 在线协作办公平台）
+
+DOMAIN-SUFFIX,shimo.im # 石墨文档主域名，用于文档编辑、表格、PPT、团队协作与云端存储
+DOMAIN-SUFFIX,shimostatic.com # 石墨文档静态资源 CDN，用于脚本、样式、字体与编辑器前端组件加载
+DOMAIN-SUFFIX,shimoapi.com # 石墨文档 API 服务域名，用于文档权限、版本控制、上传/下载与协作管理
+DOMAIN-SUFFIX,shimousercontent.com # 石墨文档用户内容存储域，用于附件、图片、文档快照与预览资源
+DOMAIN-SUFFIX,shimoapps.com # 石墨关联服务域名，用于小程序、移动端资源与内部工具加载
+DOMAIN-SUFFIX,shimo.io # 石墨文档品牌保护与备用访问域，用于跳转与辅助服务
