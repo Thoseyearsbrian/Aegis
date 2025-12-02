@@ -5,7 +5,7 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2025-12-02
 
 # > 系统服务（System Services）
 
@@ -41,6 +41,17 @@ IP-CIDR,17.252.203.235 # Apple 验证与激活服务节点，常用于 iOS 激�
 IP-CIDR,17.250.0.0/16 # Apple Push 与激活服务段
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
 IP-CIDR,17.253.150.10 # Tether 服务节点
+
+# > Siri / Dictation / 智能语音
+
+DOMAIN-SUFFIX,siri.apple.com # Siri 语音交互服务入口（新版 AI Siri 使用此域名）
+DOMAIN-SUFFIX,dictation.apple.com # 语音听写服务，用于在线语音识别与模型处理
+
+# > Private Cloud Compute（苹果云端 AI 安全沙箱）
+
+DOMAIN-SUFFIX,pcc.apple.com # Private Cloud Compute 主域名，用于 AI 推理请求的云端安全处理
+DOMAIN-SUFFIX,pcc-cdn.apple.com # PCC 边缘 CDN，用于模型镜像、策略文件与沙箱资源加载
+DOMAIN-SUFFIX,pcc-support.apple.com # PCC 相关支持域，用于配置文件、模型规则与元数据同步
 
 # > iCloud / 备份同步服务（iCloud Services）
 
@@ -143,6 +154,7 @@ DOMAIN-SUFFIX,swdist.apple.com # macOS 系统软件分发服务器
 DOMAIN-SUFFIX,swscan.apple.com # macOS 系统更新索引服务
 DOMAIN-SUFFIX,publicassets.cdn-apple.com # Apple 公共资源 CDN 节点
 DOMAIN-SUFFIX,updates.cdn-apple.com  # Apple 更新服务 CDN 域名
+DOMAIN-SUFFIX,cdn-apple.com # Apple 静态资源 CDN，用于 AI 前端文件、模型加载与策略同步
 IP-CIDR,151.101.3.8  # Apple 更新服务的 CDN 加速节点 IP
 IP-CIDR,17.248.0.0/16 # Apple CDN 主服务段
 IP-CIDR,144.178.0.0/19 # Apple 边缘服务段
