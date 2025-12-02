@@ -4195,6 +4195,17 @@ DOMAIN-SUFFIX,xbl.spamhaus.org # Spamhaus Exploits Block List（XBL），用于�
 DOMAIN-SUFFIX,spamhaus.com # Spamhaus 商业服务主域，用于付费威胁情报、API 访问与企业安全服务（DQS）
 DOMAIN-SUFFIX,spamhaus.zone # Spamhaus 数据服务域，用于 API 调用、威胁情报同步与信誉数据库更新
 
+# > Abuse.ch（恶意软件追踪 / 僵尸网络监控 / IOC 威胁情报）
+
+DOMAIN-SUFFIX,abuse.ch # Abuse.ch 官方主页，用于查看恶意软件家族、僵尸网络追踪项目与威胁情报资源
+DOMAIN-SUFFIX,feodotracker.abuse.ch # Feodo Tracker 项目主域名，用于 FEODO/Botnet C2 服务器实时监控与 IOC 查询
+DOMAIN-SUFFIX,sslbl.abuse.ch # SSL Blacklist 服务，用于恶意 TLS 证书指纹（JA3/JA3S）与恶意 SSL 流量识别
+DOMAIN-SUFFIX,threatfox.abuse.ch # ThreatFox 恶意 IOC 平台，用于恶意 IP/URL/域名/哈希查询与社区共享情报
+DOMAIN-SUFFIX,urlhaus.abuse.ch # URLHaus 项目主站，用于恶意 URL、恶意文件投放站点监控与 IOC 查询
+DOMAIN-SUFFIX,abuse-sslbl.abuse.ch # SSLBL 附属查询端点，用于恶意证书、命令控制节点与加密流量特征同步
+DOMAIN-SUFFIX,api.threatfox.abuse.ch # ThreatFox API 接口，用于自动化 IOC 获取、威胁同步与安全集成
+DOMAIN-SUFFIX,api.abuse.ch # Abuse.ch 综合 API 端点，用于威胁数据抓取、项目查询与自动化安全集成
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
