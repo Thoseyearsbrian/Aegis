@@ -4310,6 +4310,11 @@ DOMAIN-SUFFIX,abuse.ch # abuse.ch 威胁情报主域名，用于其它项目（�
 DOMAIN-SUFFIX,urlhaus.abuse.ch # URLHaus 主站域名，用于查询恶意 URL、下载 IOC 数据与查看威胁趋势
 DOMAIN-SUFFIX,abuse.ch # abuse.ch 安全研究平台主域名，提供 URLHaus、ThreatFox 等恶意软件与攻击IOC共享服务
 
+# > Feodo Tracker（银行木马 / Botnet C2 威胁情报）
+
+DOMAIN-SUFFIX,feodotracker.abuse.ch # Feodo Tracker 主站域名，用于查询银行木马/僵尸网络的 C2 服务器与实时黑名单
+DOMAIN-SUFFIX,abuse.ch # abuse.ch 主域名，提供 Feodo Tracker、ThreatFox、URLHaus 等恶意软件与攻击情报服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
