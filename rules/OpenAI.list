@@ -311,3 +311,14 @@ DOMAIN-SUFFIX,assets.modal.com # Modal 静态资源域名，用于前端图标�
 DOMAIN-SUFFIX,cdn.modal.com # Modal CDN 加速域名，用于前端脚本与控制台静态资源分发
 DOMAIN-SUFFIX,console.modal.com # Modal 控制台，用于管理 API Key、账单、任务监控等
 
+# > Replicate（模型托管 / 云端推理服务）
+
+DOMAIN-SUFFIX,replicate.com # Replicate 主站，用于模型浏览、部署、演示与账号管理
+DOMAIN-SUFFIX,api.replicate.com # Replicate API 主入口，用于模型推理、异步任务、Webhook 与运行管理
+DOMAIN-SUFFIX,replicate.delivery # Replicate 输出内容分发域名，用于生成图片、视频与模型结果文件的下载
+DOMAIN-SUFFIX,replicatecdn.com # Replicate 静态资源 CDN，用于前端脚本、样式与界面组件加载
+DOMAIN-SUFFIX,cdn.replicate.com # Replicate 静态资源 CDN 备用域名，用于内容加速与控制台资源加载
+DOMAIN-SUFFIX,objects.replicate.com # Replicate 对象存储域名，用于模型输出文件、训练数据与临时内容存储
+DOMAIN-SUFFIX,r8y.io # Replicate 推理任务加速域名，用于部分模型运行与内部路由
+DOMAIN-SUFFIX,replicate-fileupload.com # Replicate 文件上传端点，用于上传模型输入文件、数据集与预处理资源
+
