@@ -601,3 +601,7 @@ DOMAIN-SUFFIX,events.anthropic.com # Anthropic Telemetry 事件追踪端点，�
 DOMAIN-SUFFIX,hsadspixel.net # HubSpot Ads Pixel 跟踪域名，用于广告监测与投放追踪
 DOMAIN-SUFFIX,hs-analytics.net # HubSpot Analytics 分析域名，用于收集用户访问、事件与页面性能数据
 DOMAIN-SUFFIX,hscollectedforms.net # HubSpot 收集嵌入式表单数据的域名，用于非 HubSpot 表单的行为记录
+
+# > Moka 行为分析与数据上报（Sensors Data）
+
+DOMAIN-SUFFIX,moka.datasink.sensorsdata.cn # Moka 使用的神策数据上报端点，用于行为事件、埋点数据与使用分析上传
