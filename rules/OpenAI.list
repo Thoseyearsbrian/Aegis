@@ -290,3 +290,16 @@ DOMAIN-SUFFIX,togetherlabs.com # Together 研发与实验性服务域名（模�
 DOMAIN-SUFFIX,prod-api.together.ai # Together AI 生产环境 API 节点（部分 SDK 会调用此端点）
 DOMAIN-SUFFIX,static.together.ai # 前端静态资源与控制台辅助脚本加载
 
+# > Groq（LPU 推理加速 / R1 推理服务）
+
+DOMAIN-SUFFIX,groq.com # Groq 官方主站，用于产品介绍、LPU 架构说明与企业方案
+DOMAIN-SUFFIX,groqcloud.ai # Groq Cloud 主站，用于 R1/Llama 等模型的在线推理平台入口
+DOMAIN-SUFFIX,api.groq.com # Groq 官方 API 接口，用于模型推理、加速执行与集成调用
+DOMAIN-SUFFIX,console.groq.com # Groq 控制台，用于管理 API Key、账单、使用情况与部署设置
+DOMAIN-SUFFIX,docs.groq.com # Groq 文档站点，提供 API 文档、SDK 说明与模型调用示例
+DOMAIN-SUFFIX,cdn.groq.com # Groq 静态资源 CDN，用于加载前端脚本、样式、图标与控制台资源
+DOMAIN-SUFFIX,assets.groq.com # Groq 静态资源域名，用于图标、字体、前端 UI 素材文件加载
+DOMAIN-SUFFIX,status.groq.com # Groq 服务状态页，用于查看 API / Cloud 服务是否正常运行
+
+
+
