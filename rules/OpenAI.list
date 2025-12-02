@@ -301,5 +301,13 @@ DOMAIN-SUFFIX,cdn.groq.com # Groq 静态资源 CDN，用于加载前端脚本、
 DOMAIN-SUFFIX,assets.groq.com # Groq 静态资源域名，用于图标、字体、前端 UI 素材文件加载
 DOMAIN-SUFFIX,status.groq.com # Groq 服务状态页，用于查看 API / Cloud 服务是否正常运行
 
+# > Modal（AI 无服务器推理 / 云端计算平台）
 
+DOMAIN-SUFFIX,modal.com # Modal 官方主站，用于产品介绍、计算服务说明与企业方案
+DOMAIN-SUFFIX,modal.run # Modal 程序运行域名，用于执行任务、云函数调用与部署的实际运行环境
+DOMAIN-SUFFIX,api.modal.com # Modal 官方 API 接口，用于创建任务、函数调用、执行日志与资源管理
+DOMAIN-SUFFIX,modal-labs.com # Modal Labs 技术域名，用于模型实验、内部测试与孵化项目
+DOMAIN-SUFFIX,assets.modal.com # Modal 静态资源域名，用于前端图标、字体、样式与控制台界面资源加载
+DOMAIN-SUFFIX,cdn.modal.com # Modal CDN 加速域名，用于前端脚本与控制台静态资源分发
+DOMAIN-SUFFIX,console.modal.com # Modal 控制台，用于管理 API Key、账单、任务监控等
 
