@@ -331,3 +331,13 @@ DOMAIN-SUFFIX,imgs.runpod.io # RunPod 静态资源域名，用于加载控制台
 DOMAIN-SUFFIX,cdn.runpod.io # RunPod 静态资源 CDN 域名，用于前端脚本、样式、界面资源的高性能分发
 DOMAIN-SUFFIX,runpodusercontent.com # RunPod 用户内容存储域名，用于模型输出、日志文件、数据缓存与对象存储资源
 DOMAIN-SUFFIX,files.runpod.io # RunPod 文件上传/下载域名，用于模型文件、日志或用户数据的传输
+
+# > Suno（AI 音乐生成平台）
+
+DOMAIN-SUFFIX,suno.ai # Suno 主站，用于产品介绍、示例音乐展示与平台入口
+DOMAIN-SUFFIX,app.suno.ai # Suno Web 应用（Suno Studio），用于音乐生成、编辑与项目管理
+DOMAIN-SUFFIX,api.suno.ai # Suno API 接口，用于音乐生成、任务处理、音频输出与模型调用
+DOMAIN-SUFFIX,cdn.suno.ai # Suno 静态资源 CDN，用于加载前端脚本、样式、图标与界面资产
+DOMAIN-SUFFIX,assets.suno.ai # Suno 静态素材域名，用于图标、字体、前端组件等 UI 资源加载
+DOMAIN-SUFFIX,media.suno.ai # Suno 媒体资源域名，用于存放生成的音乐文件、预览音频与用户上传内容
+DOMAIN-SUFFIX,files.suno.ai # Suno 文件接口，用于下载模型生成的音频文件或工程文件
