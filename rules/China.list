@@ -1622,3 +1622,14 @@ DOMAIN-SUFFIX,wolaiusercontent.com # Wolai 用户内容存储域，用于附件�
 DOMAIN-SUFFIX,api.wolai.com # Wolai API 接口，用于笔记同步、权限校验、团队协作操作与数据交互
 DOMAIN-SUFFIX,wolaiimg.com # Wolai 图像资源域，用于渲染封面、截图、图标与富媒体内容
 
+# > 腾讯微云（Weiyun / 云存储·文件备份·在线预览）
+
+DOMAIN-SUFFIX,weiyun.com # 微云主站域名，用于文件上传、下载、共享、备份与在线预览功能
+DOMAIN-SUFFIX,share.weiyun.com # 微云文件分享与外链访问域名，用于公开链接与页面展示
+DOMAIN-SUFFIX,api.weiyun.com # 微云 API 接口域名，用于文件管理、同步、权限处理与客户端通信
+DOMAIN-SUFFIX,static.weiyun.com # 微云静态资源 CDN，用于脚本、字体、图片、样式与前端 UI 渲染
+DOMAIN-SUFFIX,pc.weiyun.com # 微云网页版入口，用于 Web 文件管理、传输、协作与目录操作
+DOMAIN-SUFFIX,cdnweiyun.com # 微云内容加速 CDN，用于附件下载、在线播放与文件预览
+DOMAIN-SUFFIX,qq.com # 腾讯统一账号体系，用于微云登录、鉴权与 SSO（单点登录）
+DOMAIN-SUFFIX,tencent.com # 腾讯通用服务域名，用于微云关联接口、身份系统与内部服务路由
+
