@@ -268,3 +268,13 @@ DOMAIN-SUFFIX,assets.krea.ai # Krea 资源域名，用于图片素材、模型�
 DOMAIN-SUFFIX,files.krea.ai # Krea 文件存储域，用于生成内容、上传文件与项目缓存
 DOMAIN-SUFFIX,storage.googleapis.com # Krea 使用 Google Cloud 存储生成视频、图像与大文件资源
 
+# > Luma AI（AI 视频生成 / 3D 建模）
+
+DOMAIN-SUFFIX,lumalabs.ai # Luma AI 主站域名，用于产品介绍、模型展示与平台入口
+DOMAIN-SUFFIX,app.lumalabs.ai # Luma Web 应用前端，用于视频生成、3D 模型处理与项目管理
+DOMAIN-SUFFIX,api.lumalabs.ai # Luma 官方 API 接口，用于 Dream Machine 视频生成与 3D 模型推理
+DOMAIN-SUFFIX,cdn.lumalabs.ai # Luma 静态资源 CDN，用于前端脚本、样式、图标等界面资源加载
+DOMAIN-SUFFIX,assets.lumalabs.ai # Luma 静态资源与素材域名，用于模型素材、演示文件与界面资源托管
+DOMAIN-SUFFIX,files.lumalabs.ai # Luma 文件存储域，用于生成视频、3D 项目文件与上传资源管理
+DOMAIN-SUFFIX,storage.googleapis.com # Luma 使用 Google Cloud 存储视频输出、模型文件与大资源
+
