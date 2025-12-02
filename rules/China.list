@@ -1536,3 +1536,13 @@ DOMAIN-SUFFIX,coding-page.com # CODING Pages 静态网站托管服务域名，�
 DOMAIN-SUFFIX,tencentcs.com # CODING/TencentCloud 依赖的云原生对象存储域名（文件、构建产物、制品库）
 DOMAIN-SUFFIX,codimg.cn # CODING 图片资源加速域名，用于头像、截图、项目展示图加载
 DOMAIN-SUFFIX,codetencent.com # CODING 关联服务域名，用于登录体系、资源分发与服务跳转
+
+# > PingCode（研发项目管理 / DevOps 协作平台）
+
+DOMAIN-SUFFIX,pingcode.com # PingCode 主站域名，用于项目管理、需求规划、测试管理与 DevOps 协作
+DOMAIN-SUFFIX,pingcode.cn # PingCode 中国区服务域名，用于账号体系、工作项管理与企业协作
+DOMAIN-SUFFIX,api.pingcode.com # PingCode API 接口域名，用于需求、缺陷、任务、自动化与项目数据操作
+DOMAIN-SUFFIX,static.pingcode.com # PingCode 静态资源 CDN，用于脚本、样式、前端组件与工作台 UI 加载
+DOMAIN-SUFFIX,pcusercontent.com # PingCode 用户内容存储域，用于附件、测试截图、文档与项目资源托管
+DOMAIN-SUFFIX,pc-cdn.com # PingCode 静态加速 CDN，用于前端资源、头像、图标与界面素材加载
+DOMAIN-SUFFIX,pingcodeimg.com # PingCode 图片资源域名，用于工作项截图、文件预览与知识库展示
