@@ -1694,6 +1694,9 @@ DOMAIN-SUFFIX,www.shengshu.com # 盛数科技官网子域名，用于展示产�
 
 DOMAIN-SUFFIX,yhgfb-static.com # 国内通用静态资源 CDN，用于加载图片、脚本、样式与页面前端资源
 DOMAIN-SUFFIX,lf-rc1.yhgfb-static.com # yhgfb-static 静态资源分发节点，用于前端资源加载与页面渲染加速
+DOMAIN-SUFFIX,yhgfb-cn-static.com # 国内通用静态资源 CDN，用于图片、脚本、字体与前端资源加速加载
+DOMAIN-SUFFIX,lf-headquarters-speed.yhgfb-cn-static.com # yhgfb-cn-static 高速分发节点，用于前端页面资源与 UI 内容快速加载
+DOMAIN-SUFFIX,lf-rc1.yhgfb-cn-static.com # yhgfb-cn-static 区域分发节点，用于静态内容缓存、页面渲染资源加载
 
 # > DeepSeek
 
@@ -1748,6 +1751,9 @@ DOMAIN-SUFFIX,volceapplog.com # 应用日志/埋点上报服务，用于 SDK 行
 DOMAIN-SUFFIX,byteimg.com # 字节图像 CDN，用于多媒体与前端资源加载
 DOMAIN-SUFFIX,byted-static.com # 字节跳动静态资源域，用于脚本、字体与样式文件
 DOMAIN-SUFFIX,bytegoofy.com # 字节跳动资源分发域名，用于辅助 API 和静态内容分发
+DOMAIN-SUFFIX,zijieapi.com # 字节跳动统一 API 服务域名，用于豆包/火山引擎的业务接口、数据交互与资源请求
+DOMAIN-SUFFIX,vcs.zijieapi.com # 字节跳动 VCS（Video/Content Service）接入端点，用于视频流处理、内容分发与业务通信
+DOMAIN-SUFFIX,mcs.zijieapi.com # 字节跳动 MCS（Media/Content Service）多媒体接口，用于文件上传、内容处理与资源访问
 
 # > ERNIE Bot（文心一言 / Baidu AI 服务）
 
