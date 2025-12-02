@@ -237,3 +237,13 @@ DOMAIN-SUFFIX,stablediffusionapi.com # Stable Diffusion 关联服务域名，用
 DOMAIN-SUFFIX,clipdrop.co # ClipDrop（Stability 收购产品），用于图像生成、清洁、增强等工具
 DOMAIN-SUFFIX,api.clipdrop.co # ClipDrop 官方 API 接口，用于背景移除、修复与图像增强任务
 
+# > Pika（AI 视频生成）
+
+DOMAIN-SUFFIX,pika.art # Pika 主站域名，用于产品访问、作品展示与账号管理
+DOMAIN-SUFFIX,www.pika.art # Pika Web 前端入口，用于视频生成、项目管理与编辑界面
+DOMAIN-SUFFIX,api.pika.art # Pika 官方 API 接口，用于视频生成、图像生成与多媒体模型推理
+DOMAIN-SUFFIX,cdn.pika.art # Pika 静态资源 CDN，用于加载前端脚本、界面素材与模型资源
+DOMAIN-SUFFIX,assets.pika.art # Pika 资源域名，用于存储示例视频、素材文件与应用图标
+DOMAIN-SUFFIX,pika-realtime-prod.onrender.com # Pika 实时推理与任务调度服务域名（官方 Render 托管后端）
+DOMAIN-SUFFIX,storage.googleapis.com # Pika 生成视频、临时文件与项目资源的云存储托管（Google Cloud）
+
