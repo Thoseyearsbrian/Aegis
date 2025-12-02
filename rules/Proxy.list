@@ -4250,6 +4250,15 @@ DOMAIN-SUFFIX,download.crowdsec.net # CrowdSec 组件与规则集下载源，用
 DOMAIN-SUFFIX,metrics.crowdsec.net # CrowdSec 遥测与运行数据端点，用于 Agent 状态检测、统计上报与性能监控
 DOMAIN-SUFFIX,app.crowdsec.net # CrowdSec 后台控制台，用于查看攻击趋势、管理决策集与威胁数据订阅
 
+# > Cisco Talos Reputation API（威胁情报 / 恶意信誉查询接口）
+
+DOMAIN-SUFFIX,talosintelligence.com # Cisco Talos 官方威胁情报主站，用于展示攻击分析、IOC、恶意软件趋势
+DOMAIN-SUFFIX,api.talosintelligence.com # Talos Reputation API 主接口，用于查询 IP/域名/URL 的信誉评分与威胁分类
+DOMAIN-SUFFIX,cloud.talosintelligence.com # Talos 云端情报服务节点，用于信誉数据获取、威胁名单更新与机器学习模型同步
+DOMAIN-SUFFIX,intelgraph.talosintelligence.com # Talos Intel Graph 图谱接口，用于可视化恶意基础设施关联关系查询
+DOMAIN-SUFFIX,files.talosintelligence.com # Talos 样本与 IOC 数据分发节点，用于威胁报告、攻击样本与分析文档下载
+DOMAIN-SUFFIX,cdn.talosintelligence.com # Cisco Talos 静态 CDN，用于加载文档、脚本、威胁情报页面相关资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
