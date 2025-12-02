@@ -6,6 +6,13 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-12-02
 
+# > DeepSeek
+
+DOMAIN-SUFFIX,deepseek.com # DeepSeek 主站与产品介绍
+DOMAIN-SUFFIX,api.deepseek.com # DeepSeek 官方 API 推理接口
+DOMAIN-SUFFIX,deepseek.ai # DeepSeek 品牌与模型展示域名
+DOMAIN-SUFFIX,deepseek.org # DeepSeek 相关跳转与说明页面
+
 # > OpenAI Chat 系列
 
 DOMAIN-SUFFIX,openai.com # OpenAI 主站域名
