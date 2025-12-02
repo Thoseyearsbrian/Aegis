@@ -4259,6 +4259,14 @@ DOMAIN-SUFFIX,intelgraph.talosintelligence.com # Talos Intel Graph 图谱接口�
 DOMAIN-SUFFIX,files.talosintelligence.com # Talos 样本与 IOC 数据分发节点，用于威胁报告、攻击样本与分析文档下载
 DOMAIN-SUFFIX,cdn.talosintelligence.com # Cisco Talos 静态 CDN，用于加载文档、脚本、威胁情报页面相关资源
 
+# > Cisco Talos Reputation API（扩展版威胁情报查询）
+
+DOMAIN-SUFFIX,talosintelligence.com # Cisco Talos 威胁情报主站，用于查看恶意软件分析、IOC 与安全研究内容
+DOMAIN-SUFFIX,api.talosintelligence.com # Talos Reputation API 主接口，用于查询 IP/域名/URL 信誉评分与威胁分类
+DOMAIN-SUFFIX,cloud.talosintelligence.com # Talos 云端情报服务节点，用于信誉数据同步与威胁数据分发
+DOMAIN-SUFFIX,intelgraph.talosintelligence.com # Talos Intelligence Graph 图谱接口，用于恶意基础设施关联关系查询
+DOMAIN-SUFFIX,cdn.talosintelligence.com # Talos 静态内容 CDN 节点，用于加载前端资源、文档与界面组件
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
