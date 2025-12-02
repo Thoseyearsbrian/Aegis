@@ -4076,6 +4076,15 @@ DOMAIN-SUFFIX,abuseipdb.com # AbuseIPDB 主站域名，用于查询 IP 信誉、
 DOMAIN-SUFFIX,cdn.abuseipdb.com # AbuseIPDB 静态资源 CDN，用于加载前端脚本、样式与界面组件
 DOMAIN-SUFFIX,api.abuseipdb.com # AbuseIPDB API 接口，用于自动化安全查询、IP 信誉检测与威胁情报调用
 
+# > VirusTotal（恶意文件/网址/域名分析平台 · Google 安全部门）
+
+DOMAIN-SUFFIX,virustotal.com # VirusTotal 主站域名，用于文件扫描、URL 检测、报告查询等核心功能
+DOMAIN-SUFFIX,www.virustotal.com # VirusTotal Web 前端入口，用于用户访问、上传文件与查看分析结果
+DOMAIN-SUFFIX,api.virustotal.com # VirusTotal API 接口域名，用于程序化文件扫描、URL 信誉查询与安全自动化
+DOMAIN-SUFFIX,vtapi.com # VirusTotal API 旧版域名，部分安全工具仍使用此端点进行扫描或信誉查询
+DOMAIN-SUFFIX,virustotalcloud.com # VirusTotal 云存储域，用于托管扫描样本、报告文件与云沙箱分析结果
+DOMAIN-SUFFIX,cdn.virustotal.com # VirusTotal 静态资源 CDN，用于前端脚本、样式以及界面资源加载
+
 # > Evernote（国际版笔记服务 / 云端同步平台）
 
 DOMAIN-SUFFIX,evernote.com # Evernote 国际版主域名，用于笔记管理、同步与账户体系
