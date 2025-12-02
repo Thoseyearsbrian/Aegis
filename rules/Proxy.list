@@ -4267,6 +4267,14 @@ DOMAIN-SUFFIX,cloud.talosintelligence.com # Talos 云端情报服务节点，用
 DOMAIN-SUFFIX,intelgraph.talosintelligence.com # Talos Intelligence Graph 图谱接口，用于恶意基础设施关联关系查询
 DOMAIN-SUFFIX,cdn.talosintelligence.com # Talos 静态内容 CDN 节点，用于加载前端资源、文档与界面组件
 
+# > ANY.RUN（交互式恶意软件沙箱分析）
+
+DOMAIN-SUFFIX,any.run # ANY.RUN 官方主站，用于在线提交恶意样本、查看分析报告与访问仪表盘
+DOMAIN-SUFFIX,api.any.run # ANY.RUN API 接口，用于程序化提交样本、获取分析结果与自动化威胁检测
+DOMAIN-SUFFIX,cdn.any.run # ANY.RUN 静态资源 CDN，用于加载前端脚本、样式、界面组件与分析展示内容
+DOMAIN-SUFFIX,storage.any.run # ANY.RUN 样本与分析数据存储域，用于下载报告、行为日志、PCAP 以及相关产物
+DOMAIN-SUFFIX,reports.any.run # ANY.RUN 报告服务节点，用于生成与展示沙箱分析结果
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
