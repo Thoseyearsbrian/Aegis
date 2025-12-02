@@ -134,6 +134,27 @@ DOMAIN-SUFFIX,assets.minimax.ai # 资源托管域，用于图片、模型示例�
 DOMAIN-SUFFIX,passport.minimax.ai # MiniMax 账户系统，用于登录验证与授权流程
 DOMAIN-SUFFIX,auth.minimax.ai # 身份认证服务入口，用于控制台与 API 权限校验
 
+# > Zhipu AI（智谱 AI / ChatGLM）
+
+DOMAIN-SUFFIX,zhipuai.cn # 智谱 AI 主站域名，用于模型介绍、产品概览与企业服务
+DOMAIN-SUFFIX,zhipuai.com # 智谱 AI 国际化域名，用于在线体验与模型产品访问
+DOMAIN-SUFFIX,www.zhipuai.cn # 主站子域，用于模型信息、活动与演示入口
+DOMAIN-SUFFIX,www.zhipuai.com # 产品体验与国际站内容入口
+DOMAIN-SUFFIX,chatglm.cn # ChatGLM 在线对话入口，用于模型交互体验
+DOMAIN-SUFFIX,chatglm.com # ChatGLM 国际站入口，用于体验 GLM 系列模型
+DOMAIN-SUFFIX,glm.cn # GLM 系列品牌域名，用于模型介绍与产品跳转
+DOMAIN-SUFFIX,glm.ai # GLM 大模型相关域名，用于开发者相关内容与介绍
+DOMAIN-SUFFIX,api.zhipuai.cn # 智谱 AI API 主接口，用于模型推理、对话、向量化与多模态调用
+DOMAIN-SUFFIX,api.zhipuai.com # 国际化 API 接口，用于企业与海外访问
+DOMAIN-SUFFIX,open.bigmodel.cn # 大模型开放平台入口，用于 API Key、账单与模型管理（旧版接口）
+DOMAIN-SUFFIX,open.bigmodel.cn # 大模型开放平台控制台，用于 Key 管理、账单与配额
+DOMAIN-SUFFIX,bigmodel.cn # 大模型平台域名，用于文档、开发者资源与产品概览
+DOMAIN-SUFFIX,bigmodel.cn # 通用入口，用于登陆跳转与 API 管理
+DOMAIN-SUFFIX,static.bigmodel.cn # 大模型平台静态资源域，用于脚本、样式、模型示例加载
+DOMAIN-SUFFIX,docs.bigmodel.cn # 文档站点，用于 API 文档、SDK 示例与模型说明
+DOMAIN-SUFFIX,passport.zhipuai.cn # 智谱 AI 登录中心，用于控制台与 API 授权
+DOMAIN-SUFFIX,login.zhipuai.cn # 登录入口，用于账号验证与授权流程
+
 # > OpenAI Chat 系列
 
 DOMAIN-SUFFIX,openai.com # OpenAI 主站域名
