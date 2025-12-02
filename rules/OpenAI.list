@@ -24,6 +24,17 @@ DOMAIN-SUFFIX,media.klingai.com # Kling 媒体资源域名，用于生成视频�
 DOMAIN-SUFFIX,files.klingai.com # Kling 文件服务端点，用于上传素材、下载生成视频与项目文件管理
 DOMAIN-SUFFIX,render.klingai.com # Kling 渲染服务域名，用于视频渲染队列处理与后台生成任务执行
 
+# > Vidu（AI 视频生成 / 多模态场景生成平台）
+
+DOMAIN-SUFFIX,vidu.com # Vidu 官方主站，用于产品介绍、示例展示、登录与控制台入口
+DOMAIN-SUFFIX,app.vidu.com # Vidu Web Studio，用于视频生成、场景编辑、素材管理与项目操作
+DOMAIN-SUFFIX,api.vidu.com # Vidu API 接口，用于视频生成请求、模型推理、任务调度与后台处理
+DOMAIN-SUFFIX,cdn.vidu.com # Vidu 静态资源 CDN，用于加载前端脚本、样式、字体与界面组件
+DOMAIN-SUFFIX,assets.vidu.com # Vidu 静态素材资源域名，用于 UI 图标、模板、前端素材文件加载
+DOMAIN-SUFFIX,media.vidu.com # Vidu 媒体存储域名，用于生成视频、图像、音频文件与用户上传内容
+DOMAIN-SUFFIX,files.vidu.com # Vidu 文件上传/下载域名，用于素材上传、视频导出与项目文件管理
+DOMAIN-SUFFIX,render.vidu.com # Vidu 渲染服务域名，用于视频渲染任务、模型执行与后台生成管线
+
 # > OpenAI Chat 系列
 
 DOMAIN-SUFFIX,openai.com # OpenAI 主站域名
