@@ -258,3 +258,13 @@ DOMAIN-SUFFIX,static.leonardo.ai # Leonardo 静态资源扩展域名，用于界
 DOMAIN-SUFFIX,files.leonardo.ai # Leonardo 文件存储域，用于图像生成结果、上传文件与项目资源托管
 DOMAIN-SUFFIX,storage.googleapis.com # Leonardo 生成图像、多媒体资源与项目数据使用 Google Cloud 存储
 
+# > Krea AI（AI 图像 / 视频生成）
+
+DOMAIN-SUFFIX,krea.ai # Krea AI 主站，用于模型介绍、作品展示、账号管理与平台入口
+DOMAIN-SUFFIX,www.krea.ai # Krea Web App 前端入口，用于图像生成、视频生成、项目管理与实时编辑
+DOMAIN-SUFFIX,api.krea.ai # Krea 官方 API 接口，用于图像生成、视频生成与模型推理任务
+DOMAIN-SUFFIX,cdn.krea.ai # Krea 静态资源 CDN，用于加载前端脚本、样式与界面组件
+DOMAIN-SUFFIX,assets.krea.ai # Krea 资源域名，用于图片素材、模型文件与界面图标加载
+DOMAIN-SUFFIX,files.krea.ai # Krea 文件存储域，用于生成内容、上传文件与项目缓存
+DOMAIN-SUFFIX,storage.googleapis.com # Krea 使用 Google Cloud 存储生成视频、图像与大文件资源
+
