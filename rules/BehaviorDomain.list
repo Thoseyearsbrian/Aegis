@@ -35,17 +35,18 @@ DOMAIN-SUFFIX,dap.alipay.com # 支付宝数据分析与页面行为追踪域名
 DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 日志接口
 DOMAIN-SUFFIX,gm.mmstat.com # 阿里巴巴统计平台域名，用于埋点与行为分析接口 
 DOMAIN-SUFFIX,h-adashx.ut.taobao.com  # 淘宝 Adash 数据分析接口，用于用户行为上报
-IP-CIDR,101.226.28.238  # 支付宝 datagw 边缘网关，涉及数据分析与链路调度
 DOMAIN-SUFFIX,gm.mmstat.com  # 阿里巴巴统计平台域名，用于行为分析与数据回传
-IP-CIDR,119.42.231.59  # 支付宝 mdap 域名解析节点，涉及设备信息采集
 DOMAIN-SUFFIX,nr-op.elemecdn.com  # 饿了么运营 CDN 资源节点，包含埋点与广告数据
 DOMAIN-SUFFIX,loggw.alipay.com # 支付宝客户端日志网关，上报用户行为数据  
 DOMAIN-SUFFIX,alivc-aio.cn-hangzhou.dualstack.log.aliyuncs.com # 阿里云视频日志收集接口域名，用于日志上报与行为分析
 DOMAIN-SUFFIX,px.ucweb.com # UC 浏览器追踪服务域名，用于行为分析与广告数据回传
-IP-CIDR,203.119.238.180 # 阿里广告网络归属 IP，疑似用于行为分析与广告数据传输
-IP-CIDR,59.82.113.36 # 杭州阿里广告公司网络段，疑似用于广告或行为回传通信
 DOMAIN-SUFFIX,loggw-external.alipay.com # 第三方数据统计专用日志网关   
 DOMAIN-SUFFIX,loggw-ex.alipay.com # 支付宝日志收集接口域名，用于客户端行为上报与事件追踪
+DOMAIN-SUFFIX,lf3-config.bytetcc.com # 字节跳动配置下发域名，用于 App 启动参数、A/B 策略、开关配置与 SDK 初始化信息加载
+IP-CIDR,203.119.238.180 # 阿里广告网络归属 IP，疑似用于行为分析与广告数据传输
+IP-CIDR,101.226.28.238  # 支付宝 datagw 边缘网关，涉及数据分析与链路调度
+IP-CIDR,59.82.113.36 # 杭州阿里广告公司网络段，疑似用于广告或行为回传通信
+IP-CIDR,119.42.231.59  # 支付宝 mdap 域名解析节点，涉及设备信息采集
 
 # > Google / Firebase / Crashlytics 相关行为指纹
 
