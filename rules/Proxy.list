@@ -4206,6 +4206,17 @@ DOMAIN-SUFFIX,abuse-sslbl.abuse.ch # SSLBL 附属查询端点，用于恶意证�
 DOMAIN-SUFFIX,api.threatfox.abuse.ch # ThreatFox API 接口，用于自动化 IOC 获取、威胁同步与安全集成
 DOMAIN-SUFFIX,api.abuse.ch # Abuse.ch 综合 API 端点，用于威胁数据抓取、项目查询与自动化安全集成
 
+# > Trend Micro Smart Protection Network（云安全情报 / 威胁分析）
+
+DOMAIN-SUFFIX,trendmicro.com # 趋势科技官方网站，用于产品信息、威胁更新与云安全服务访问
+DOMAIN-SUFFIX,smartprotectionnetwork.com # Smart Protection Network 主域名，用于恶意软件情报、信誉评分与实时威胁查询
+DOMAIN-SUFFIX,smartcheck.trendmicro.com # Trend Micro Smart Check 服务，用于文件/镜像安全扫描与威胁检测
+DOMAIN-SUFFIX,deepsecurity.trendmicro.com # Deep Security 云端管理域名，用于漏洞防护、入侵检测与安全策略同步
+DOMAIN-SUFFIX,cloudone.trendmicro.com # Trend Micro Cloud One 平台，用于云原生安全产品访问与威胁情报集成
+DOMAIN-SUFFIX,tmqa.trendmicro.com # 趋势科技质量/检测分析域名，用于威胁分析、信誉数据与安全验证
+DOMAIN-SUFFIX,tmcloud.trendmicro.com # 云安全服务节点，用于样本分析、信誉查询与实时威胁拦截策略同步
+DOMAIN-SUFFIX,ws.trendmicro.com # 趋势科技 Web 服务端点，用于 cloud reputation、URL 分析与安全规则更新
+
 # > 其他 (暂未分类)
 
 DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
