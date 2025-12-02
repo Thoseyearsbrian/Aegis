@@ -156,6 +156,7 @@ IP-CIDR,64.233.170.188/32 # Google 网络服务节点 IP
 IP-CIDR,142.251.10.188/32 # Google 前端服务节点（GFE），用于搜索、Gmail、YouTube 等核心服务的入口层访问
 IP-CIDR,172.217.70.188/32 # Google 前端服务节点（GFE），用于搜索、Gmail、YouTube 等核心服务的入口层访问
 IP-CIDR,172.253.118.188/32 # Google GFE 节点 IP（用于搜索、认证、静态资源加载等服务的边缘访问入口）
+IP-CIDR,142.251.12.188/32 # Google Frontend（GFE）边缘节点 IP，用于 Google 服务的全球加速与入口调度
 
 # > Google 安全验证服务（reCAPTCHA / 安全校验）
 
