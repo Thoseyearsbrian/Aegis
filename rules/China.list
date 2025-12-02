@@ -1578,3 +1578,16 @@ DOMAIN-SUFFIX,ydstatic.com # 印象笔记依赖的网易静态资源域，用于
 DOMAIN-SUFFIX,evernote.com # Evernote 国际版核心域名，用于同步兼容、历史资源引用与跨区域跳转
 DOMAIN-SUFFIX,evernoteusercontent.com # Evernote 内容存储域，用于附件、图片、录音与富文本内容加载
 DOMAIN-SUFFIX,evernote.com.cn # Evernote 中国区历史域名，用于账号体系与部分旧版客户端兼容
+
+# > 钉钉文档（DingTalk Docs / 阿里巴巴数字办公套件）
+
+DOMAIN-SUFFIX,dingtalk.com # 钉钉主站域名，用于组织协作、文档入口与统一身份体系
+DOMAIN-SUFFIX,alidocs.com # 钉钉文档主域名，用于在线文档、表格、脑图与团队协作
+DOMAIN-SUFFIX,docs.aliyun.com # 阿里云文档服务，用于部分文档渲染、预览与内容承载
+DOMAIN-SUFFIX,dtstatic.com # 钉钉静态资源 CDN，用于脚本、样式、字体与组件加载
+DOMAIN-SUFFIX,alicdn.com # 阿里公共 CDN 域名，用于钉钉文档资源加载与页面依赖
+DOMAIN-SUFFIX,aliwork.com # 阿里协作与组织域，用于身份验证、权限体系与组织管理
+DOMAIN-SUFFIX,aliyuncs.com # 阿里云资源服务，用于钉钉文档附件存储、文件预览与对象资源下载
+DOMAIN-SUFFIX,alipan.com # 阿里云盘文档/附件关联服务，用于部分资源预览与文件托管
+DOMAIN-SUFFIX,oss-cn-hangzhou.aliyuncs.com # 钉钉文档 OSS 存储节点，用于图片、附件、预览文件加载
+
