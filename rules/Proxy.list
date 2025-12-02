@@ -4299,6 +4299,12 @@ DOMAIN-SUFFIX,static.urlscan.io # URLScan 静态资源 CDN，用于加载前端�
 DOMAIN-SUFFIX,report.urlscan.io # URLScan 报告访问节点，用于查看 URL 扫描结果、截图、网络请求与 IOC 详情
 DOMAIN-SUFFIX,files.urlscan.io # URLScan 文件资源域名，用于托管分析生成的截图、HAR 文件与捕获资源
 
+# > ThreatFox（恶意软件 IOC / 恶意基础设施情报平台）
+
+DOMAIN-SUFFIX,threatfox.abuse.ch # ThreatFox 主站域名，用于查询恶意软件 IOC、僵尸网络 C2、钓鱼与恶意基础设施情报
+DOMAIN-SUFFIX,api.threatfox.abuse.ch # ThreatFox API 接口，用于自动化 IOC 拉取、威胁情报同步与安全系统集成
+DOMAIN-SUFFIX,abuse.ch # abuse.ch 威胁情报主域名，用于其它项目（如 URLHaus、FeodoTracker、MalwareBazaar）访问
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
