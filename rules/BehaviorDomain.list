@@ -245,6 +245,7 @@ DOMAIN-SUFFIX,reportlog.corp.kuaishou.com # 快手内部日志回传平台（行
 DOMAIN-SUFFIX,apm-collector.scs.kuaishou.com # 快手前端性能 / APM 指标采集服务
 DOMAIN-SUFFIX,conv-infra.kuaishou.com # 快手推荐系统行为特征训练服务
 DOMAIN-SUFFIX,logsdk.kwai-pro.com # 快手系日志/遥测上报端点，用于 SDK 行为事件、性能监控与应用日志采集
+DOMAIN-SUFFIX,gdfp.gifshow.com # 快手广告/投放相关域名，用于前端曝光数据、广告资源请求与行为事件上报
 
 # > 4Paradigm / 第四范式（AI 平台与企业智能服务）
 

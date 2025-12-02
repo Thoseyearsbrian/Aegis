@@ -1700,7 +1700,7 @@ DOMAIN-SUFFIX,lf-rc1.yhgfb-cn-static.com # yhgfb-cn-static 区域分发节点，
 
 # > DeepSeek
 
-DOMAIN-SUFFIX,deepseek.com # DeepSeek 主站与产品介绍
+DOMAIN-SUFFIX,Zpseek.com # DeepSeek 主站与产品介绍
 DOMAIN-SUFFIX,api.deepseek.com # DeepSeek 官方 API 推理接口
 DOMAIN-SUFFIX,deepseek.ai # DeepSeek 品牌与模型展示域名
 DOMAIN-SUFFIX,deepseek.org # DeepSeek 相关跳转与说明页面
