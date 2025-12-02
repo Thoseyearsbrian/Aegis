@@ -1567,3 +1567,14 @@ DOMAIN-SUFFIX,ydschool.com # 有道教育关联域，用于部分资源托管与
 DOMAIN-SUFFIX,ydimg.com # 有道图片资源域名，用于笔记图片、截图、插图与富文本内容存储
 DOMAIN-SUFFIX,youdao.com # 网易有道基础服务域名，用于统一登录、账户管理与云端服务关联
 DOMAIN-SUFFIX,api.youdao.com # 有道 API 服务端，用于文档同步、OCR、翻译等功能的接口调用
+
+# > 印象笔记（Yinxiang Biji / Evernote China 在线笔记与知识管理平台）
+
+DOMAIN-SUFFIX,yinxiang.com # 印象笔记中国区主域名，用于笔记编辑、笔记本管理与云端同步
+DOMAIN-SUFFIX,app.yinxiang.com # 印象笔记 Web 应用，用于在线编辑、团队协作与内容管理
+DOMAIN-SUFFIX,yinxiangbbs.com # 印象笔记社区与反馈平台，用于用户交流与问题讨论
+DOMAIN-SUFFIX,static.yinxiang.com # 印象笔记静态资源 CDN，用于脚本、样式、字体与前端组件加载
+DOMAIN-SUFFIX,ydstatic.com # 印象笔记依赖的网易静态资源域，用于部分公共脚本与资源加载
+DOMAIN-SUFFIX,evernote.com # Evernote 国际版核心域名，用于同步兼容、历史资源引用与跨区域跳转
+DOMAIN-SUFFIX,evernoteusercontent.com # Evernote 内容存储域，用于附件、图片、录音与富文本内容加载
+DOMAIN-SUFFIX,evernote.com.cn # Evernote 中国区历史域名，用于账号体系与部分旧版客户端兼容
