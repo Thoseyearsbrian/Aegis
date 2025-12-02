@@ -216,3 +216,13 @@ DOMAIN-SUFFIX,cdn.discordapp.com # Midjourney 图像生成结果依赖的 CDN，
 DOMAIN-SUFFIX,discordapp.com # Midjourney 核心运行平台（模型指令、图像生成均在 Discord Bot 上执行）
 DOMAIN-SUFFIX,discord.com # Midjourney Bot 的主交互平台，用于消息收发与图像生成任务处理
 
+# > Runway（AI 视频生成 / Gen-2 / Gen-3）
+
+DOMAIN-SUFFIX,runwayml.com # Runway 主站，用于产品访问、账号管理、作品展示与模型介绍
+DOMAIN-SUFFIX,app.runwayml.com # Runway Web App 前端入口，用于视频生成、项目编辑与工作区操作
+DOMAIN-SUFFIX,api.runwayml.com # Runway 官方 API 接口，用于视频生成、图像生成与模型推理服务
+DOMAIN-SUFFIX,runway-api.host # Runway API 托管域，用于推理任务调度与后端处理
+DOMAIN-SUFFIX,cdn.runwayml.com # Runway 静态资源 CDN，用于前端脚本、样式、界面组件加载
+DOMAIN-SUFFIX,assets.runwayml.com # Runway 资源域名，用于模型素材、示例文件与界面图标加载
+DOMAIN-SUFFIX,storage.googleapis.com # Runway 项目文件与生成视频的云端存储（Google Cloud 托管）
+
