@@ -4305,6 +4305,11 @@ DOMAIN-SUFFIX,threatfox.abuse.ch # ThreatFox 主站域名，用于查询恶意�
 DOMAIN-SUFFIX,api.threatfox.abuse.ch # ThreatFox API 接口，用于自动化 IOC 拉取、威胁情报同步与安全系统集成
 DOMAIN-SUFFIX,abuse.ch # abuse.ch 威胁情报主域名，用于其它项目（如 URLHaus、FeodoTracker、MalwareBazaar）访问
 
+# > URLHaus（恶意 URL 威胁情报平台）
+
+DOMAIN-SUFFIX,urlhaus.abuse.ch # URLHaus 主站域名，用于查询恶意 URL、下载 IOC 数据与查看威胁趋势
+DOMAIN-SUFFIX,abuse.ch # abuse.ch 安全研究平台主域名，提供 URLHaus、ThreatFox 等恶意软件与攻击IOC共享服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
