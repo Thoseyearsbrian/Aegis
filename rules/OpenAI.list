@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-01
+# - 更新时间：2025-12-02
 
 # > OpenAI Chat 系列
 
@@ -38,12 +38,18 @@ DOMAIN-SUFFIX,grok.com # Grok AI 官方域名（xAI 所属），用于实时聊�
 
 # > Meta AI 相关域名
 
-DOMAIN-SUFFIX,meta.ai # Meta AI 官方主页与产品介绍
-DOMAIN-SUFFIX,llama.meta.com # Meta LLaMA 模型相关接口
-DOMAIN-SUFFIX,ai.meta.com # Meta AI 服务子域，用于 AI 助理、演示等功能
-DOMAIN-SUFFIX,facebookai.com # Meta AI 早期项目站点（Facebook AI Research）
-DOMAIN-SUFFIX,fbai.net # Meta AI 研究与模型托管相关域
-DOMAIN-SUFFIX,meta-llama.com # LLaMA 模型下载与授权页面（第三方注册，归属 Meta）
+DOMAIN-SUFFIX,meta.ai # Meta AI 官方主页
+DOMAIN-SUFFIX,ai.meta.com # Meta AI 模型服务与演示子域
+DOMAIN-SUFFIX,llama.meta.com # LLaMA 模型文档与接口
+DOMAIN-SUFFIX,meta-llama.com # LLaMA 模型授权与分发域名
+DOMAIN-SUFFIX,llama.com # Meta LLaMA 品牌域名
+DOMAIN-SUFFIX,llama.dev # Meta LLaMA 开发者域名
+DOMAIN-SUFFIX,facebookai.com # FAIR 早期研究站点
+DOMAIN-SUFFIX,fbai.net # Meta AI 研究/托管相关域
+DOMAIN-SUFFIX,ai.facebook.com # Facebook AI Research 旧站
+DOMAIN-SUFFIX,research.fb.com # Meta 技术研究中心
+DOMAIN-SUFFIX,about.fb.com # Meta 技术博客（AI 公告与研究）
+DOMAIN-SUFFIX,developers.facebook.com # Meta 开发者中心，包括 AI 功能接口
 
 # > Claude 相关域名
 
