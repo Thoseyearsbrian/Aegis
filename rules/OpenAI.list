@@ -403,3 +403,16 @@ DOMAIN-SUFFIX,media.synthesia.io # Synthesia 媒体资源域名，用于存储�
 DOMAIN-SUFFIX,files.synthesia.io # Synthesia 文件服务端点，用于项目文件上传、下载与生成内容传输
 DOMAIN-SUFFIX,render.synthesia.io # Synthesia 渲染服务域名，用于视频合成、数字人渲染与后台任务调度
 
+# > Fable Studio / Showrunner（AI 剧集生成 / AI 角色驱动内容）
+
+DOMAIN-SUFFIX,fable.app # Fable Studio 主站，用于产品介绍、演示、平台入口与登录
+DOMAIN-SUFFIX,app.fable.app # Fable Web Studio，用于角色创建、场景生成、叙事编辑与项目管理
+DOMAIN-SUFFIX,api.fable.app # Fable 官方 API，用于 Showrunner 的剧情生成、视频生产、角色控制与后台任务处理
+DOMAIN-SUFFIX,cdn.fable.app # Fable 静态资源 CDN，用于加载脚本、样式、UI 组件与前端资源
+DOMAIN-SUFFIX,assets.fable.app # Fable 静态素材域名，用于角色素材、图标、界面资源与前端文件加载
+DOMAIN-SUFFIX,media.fable.app # Fable 媒体资源域名，用于存储生成的视频、角色素材、音频与用户上传内容
+DOMAIN-SUFFIX,files.fable.app # Fable 文件服务端点，用于上传与下载项目文件、场景素材与导出内容
+DOMAIN-SUFFIX,showrunner.ai # Showrunner 主站域名，用于 AI 剧集演示、角色展示与 Showrunner 产品入口
+DOMAIN-SUFFIX,app.showrunner.ai # Showrunner Web 应用，用于 AI 剧集生成、对白编辑、角色动作生成与视频渲染管理
+DOMAIN-SUFFIX,api.showrunner.ai # Showrunner API，用于剧情自动生成、视觉渲染、角色行为控制与视频输出
+
