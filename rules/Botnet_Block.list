@@ -545,4 +545,14 @@ DOMAIN-SUFFIX,botnetchaos.com # Chaos 感染链辅助域，用于 Loader 下载�
 IP-CIDR,107.189.0.0/22 # Chaos/Kaiji 攻击者常用出口节点之一，多份 IOC 出现，用于 SSH 暴力破解与 Bot 回连
 IP-CIDR,198.98.48.0/20 # Chaos 扫描与攻击源常用 IP 段，用于大规模 SSH/端口扫描与 DDoS 指令推送
 
+# > AVrecon（SOHO 路由器僵尸网络 / 代理流量滥用 / 大规模长期潜伏 Botnet）
+
+DOMAIN-SUFFIX,avrecon.net # AVrecon 主要识别域名，用于 Bot 回连、心跳与恶意任务同步
+DOMAIN-SUFFIX,avreconc2.com # AVrecon 指挥控制（C2）节点域，用于下载配置、远程指令与模块加载
+DOMAIN-SUFFIX,reconupdate.net # AVrecon 更新通道，用于恶意模块更新与代理节点任务下发
+DOMAIN-SUFFIX,routerrecon.net # AVrecon 路由器感染链域名，用于弱口令爆破后的恶意脚本拉取
+DOMAIN-SUFFIX,avreconpanel.com # AVrecon 控制面板域，用于 Bot 管理、代理流量调度与攻击任务分发
+IP-CIDR,185.225.74.0/24 # AVrecon 活跃 C2 出口段，多次出现在样本通信与路由器行为分析报告中
+IP-CIDR,146.70.58.0/24 # AVrecon 扫描/代理节点常用 IP 段，用于恶意流量转发与感染链广播
+
 
