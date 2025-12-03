@@ -1102,6 +1102,18 @@ IP-CIDR,45.15.156.0/24 # Aurora Stealer 恶意基础设施常用网段，用于 
 IP-CIDR,194.5.98.0/24 # 多家窃密木马共享恶意出口段，被 Aurora 用于数据外传
 IP-CIDR,91.240.120.0/24 # Aurora 活跃 C2 区块，用于快速回连与脚本下发
 
+# > NetSupport RAT / Rogue RAT（远控工具伪装 / 木马化改造版）
+
+DOMAIN-SUFFIX,netsupportmanager.com # NetSupport 官方域名，但木马版常借用品牌伪装远控行为
+DOMAIN-SUFFIX,nsmcad.com # NetSupport Client 通信域，Rogue RAT 版本常用于远控会话与指令下发
+DOMAIN-SUFFIX,nsmsvc.com # 伪装版 NetSupport 服务端域名，用于远程连接与数据上报
+DOMAIN-SUFFIX,netsupportsvc.net # Rogue RAT C2 节点伪装域，用于恶意远控通信
+DOMAIN-SUFFIX,remotesupportpanel.com # 用于钓鱼邮件 / 木马投递链的伪远控管理面板域名
+DOMAIN-SUFFIX,remoteclientpanel.com # Rogue RAT 侧的远控客户端伪装域，用于隐蔽通信与会话保持
+IP-CIDR,185.244.128.0/24 # NetSupport RAT 恶意样本常用 C2 区段，用于远控会话与恶意控制
+IP-CIDR,194.26.29.0/24  # Rogue RAT 攻击活动使用的控制基础设施，用于回连与脚本同步
+IP-CIDR,91.92.109.0/24  # 与伪装 NetSupport RAT 样本相关联的恶意 C2 节点区块
+
 
 
 
