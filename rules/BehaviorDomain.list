@@ -645,3 +645,4 @@ DOMAIN-SUFFIX,js-agent.newrelic.com # New Relic 前端性能监控 JS SDK 上报
 # > rumt-zh.com（前端性能监控 / RUM 服务）
 
 DOMAIN-SUFFIX,rumt-zh.com # 腾讯 / RUM 实时用户监控（Real‑User Monitoring）上报域名，用于前端性能、错误、资源加载、页面 PV/UV 等数据采集与上报
+DOMAIN-SUFFIX,rumt-sg.com # 腾讯云 RUM 前端性能监控，上报节点（新加坡区），用于页面性能 / 错误 / 用户行为日志上报
