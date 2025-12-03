@@ -237,4 +237,11 @@ DOMAIN-SUFFIX,teamserver.cobaltstrike.com # TeamServer 相关服务端点，攻�
 DOMAIN-SUFFIX,update.cobaltstrike.com # Cobalt Strike 更新端点，但亦常出现在恶意样本的配置之中
 DOMAIN-SUFFIX,downloads.cobaltstrike.com # 工具下载域名，部分恶意 Loader 会伪装访问此域名
 
+# > NetBot（恶意僵尸网络 / C2 控制端）
+
+DOMAIN-SUFFIX,netbot.cc # NetBot 僵尸网络主控域，用于设备回连、命令下发与恶意任务调度
+DOMAIN-SUFFIX,netbotpanel.com # NetBot 控制面板相关域名，用于僵尸节点管理与任务推送
+DOMAIN-SUFFIX,nbcontrol.net # NetBot 指挥控制通道，用于恶意载荷下发与受控主机状态回传
+DOMAIN-SUFFIX,netbot-update.com # NetBot 恶意模块更新域名，用于插件、脚本与恶意配置文件同步
+
 
