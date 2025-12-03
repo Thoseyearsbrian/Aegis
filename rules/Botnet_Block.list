@@ -983,6 +983,19 @@ IP-CIDR,194.87.105.0/24 # XLoader 投递链常见出口段，用于下发恶意 
 IP-CIDR,45.153.160.0/24 # XLoader 后端通信网络段，用于多层代理与混淆 C2 路由
 IP-CIDR,85.208.136.0/24 # XLoader 样本关联段，用于云代理与隐匿 C2 隧道
 
+# > SocGholish（伪更新 JS Loader / FakeUpdate 恶意脚本传播链）
+
+DOMAIN-SUFFIX,fakebrowserupdate.net # 假浏览器更新跳转域，用于诱导下载恶意 JS 与假 Chrome/Firefox 更新程序
+DOMAIN-SUFFIX,update-checker-cloud.com # SocGholish 更新检查域，用于伪装系统/浏览器更新提示
+DOMAIN-SUFFIX,browser-security-patch.com # 浏览器安全补丁伪装域，用于投递恶意 EXE/ZIP 下载
+DOMAIN-SUFFIX,jsloader-cloud.net # 社交工程脚本加载域，用于注入恶意 JavaScript 与攻击链入口
+DOMAIN-SUFFIX,soccdn.net # SocGholish 静态资源 CDN，用于托管恶意脚本、payload 与 HTML 诱导页
+DOMAIN-SUFFIX,secure-update-cdn.com # 伪装“安全更新”的控制域，用于同步配置与加载恶意 iframe
+IP-CIDR,185.225.69.0/24 # SocGholish C2 高发区段，用于后续载荷投递与恶意 PowerShell 执行
+IP-CIDR,82.118.21.0/24 # SocGholish 关联扫描段，也用于 FakeUpdate 感染链的 JS/ZIP 分发
+IP-CIDR,104.129.18.0/24 # SocGholish 投递链中用于代理、IP 轮替与绕过防护的出口网段
+IP-CIDR,45.155.205.0/24 # FakeUpdate 基础设施段，用于 JS Loader 回连与会话同步
+
 
 
 
