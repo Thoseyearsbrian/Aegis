@@ -555,4 +555,14 @@ DOMAIN-SUFFIX,avreconpanel.com # AVrecon 控制面板域，用于 Bot 管理、�
 IP-CIDR,185.225.74.0/24 # AVrecon 活跃 C2 出口段，多次出现在样本通信与路由器行为分析报告中
 IP-CIDR,146.70.58.0/24 # AVrecon 扫描/代理节点常用 IP 段，用于恶意流量转发与感染链广播
 
+# > Gafgyt / Bashlite（IoT 设备僵尸网络 / 弱口令感染 / DDoS 攻击链）
+
+DOMAIN-SUFFIX,gafgyt.net # Gafgyt 僵尸网络核心识别域名，用于受控设备回连、恶意任务下发与 Bot 状态同步
+DOMAIN-SUFFIX,bashlitec2.com # Bashlite C2 控制节点，用于模块更新、DDoS 指令推送与感染设备管理
+DOMAIN-SUFFIX,gafbotpanel.com # Gafgyt 控制面板域名，用于 Bot 管理、攻击任务调度与感染日志查看
+DOMAIN-SUFFIX,bashloader.net # Bashlite Loader 节点，用于弱口令爆破后的恶意二进制载荷拉取
+DOMAIN-SUFFIX,gafsync.net # Gafgyt 配置同步端点，用于扫描模块更新、攻击脚本同步与 C2 轮换
+IP-CIDR,185.130.44.0/24 # Gafgyt 样本中常出现的恶意节点段，用于 DDoS 攻击流量与 Bot 回连
+IP-CIDR,45.134.20.0/24 # Bashlite 活跃 C2 出口段，用于感染链广播、恶意脚本分发与任务下发
+
 
