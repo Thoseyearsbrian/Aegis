@@ -1568,6 +1568,7 @@ DOMAIN-SUFFIX,cloudcache.tencentcs.com # 腾讯云 CDN 节点资源域名，用�
 DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云视频点播（VOD）域名，用于视频播放、转码 CDN 加速与播放资源调度
 DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播平台节点域名，用于直播流推送、拉流与播放控制链路
 DOMAIN-SUFFIX,cloudcache.tencentcs.cn # 腾讯云 CloudCache 国内节点，用于前端静态资源的缓存与快速访问  
+DOMAIN-SUFFIX,test-staticintl.cloudcachetci.com # 腾讯云静态资源测试域名，常用于测试环境中的 JS/CSS 资源加载与 CDN 加速验证
 
 # > PingCode（研发项目管理 / DevOps 协作平台）
 
