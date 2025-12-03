@@ -382,4 +382,13 @@ DOMAIN-SUFFIX,gracecontrol.net # FlawedGrace 控制面板域，用于管理受�
 DOMAIN-SUFFIX,graceloader.com # FlawedGrace 加载器域名，用于执行阶段的恶意载荷下载与插件注入
 DOMAIN-SUFFIX,fg-sync.com # FlawedGrace 配置同步域名，用于模块更新与持久化任务调度
 
+# > Pikabot（恶意加载器 / 模块化 RAT / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,pikabot.net # Pikabot 主控域名，用于恶意 Bot 回连、配置同步与远控指令下发
+DOMAIN-SUFFIX,pikac2.com # Pikabot C2 指挥节点，用于窃取数据上传、插件加载与任务执行
+DOMAIN-SUFFIX,pikabotloader.com # Pikabot 初始感染加载器域，用于下载主载荷与执行后续恶意模块
+DOMAIN-SUFFIX,pikasync.net # Pikabot 配置同步端点，用于恶意脚本更新、C2 轮换与持久化任务拉取
+DOMAIN-SUFFIX,pikadrop.net # Pikabot “Dropper” 节点，用于分发恶意 DLL、RAT 模块与后续载荷（如 Cobalt Strike）
+DOMAIN-SUFFIX,pikapanel.com # Pikabot 控制面板域名，用于僵尸主机管理、数据查看与攻击者后台控制
+
 
