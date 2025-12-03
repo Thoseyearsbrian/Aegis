@@ -220,3 +220,12 @@ DOMAIN-SUFFIX,remote-quasar.net # QuasarRAT 远控通道域，用于恶意访问
 DOMAIN-SUFFIX,quasarpanel.org # QuasarRAT 后端管理/面板伪装域名，用于获取插件与执行恶意任务
 DOMAIN-SUFFIX,rat-quasar.net # QuasarRAT 攻击链中常见的域名，用于感染后 C2 初始化
 DOMAIN-SUFFIX,secure-quasar.com # QuasarRAT 使用的伪安全服务域名，用于指令路由与隐蔽回连
+
+# > DarkComet RAT（远控木马 / 监控型间谍工具）
+
+DOMAIN-SUFFIX,darkcomet.cc # DarkComet RAT 控制端伪装域名，用于初始化连接与命令拉取
+DOMAIN-SUFFIX,darkcometrat.com # DarkComet 旧版控制端相关域名，用于恶意远控与信息回传
+DOMAIN-SUFFIX,dcrat.net # DarkComet 派生版相关域名，用于键盘记录、摄像头监控与文件窃取
+DOMAIN-SUFFIX,dc-control.org # DarkComet 控制服务器常用域名，用于指令下发与会话维持
+DOMAIN-SUFFIX,spy-dark.com # DarkComet 恶意活动链中出现的隐蔽域名，用于数据回传与控制通道
+DOMAIN-SUFFIX,dcspy.net # DarkComet RAT 变种的 C2 节点，用于隐蔽通信和后台监控
