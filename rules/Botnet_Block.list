@@ -767,4 +767,15 @@ DOMAIN-SUFFIX,knloader.net # Katana 变体 Loader，用于扫描结果回传与�
 IP-CIDR,185.225.48.0/24 # Katana 活跃控制节点常用 IP 段，用于发送指令与 Bot 心跳维持
 IP-CIDR,91.219.236.0/24 # Katana Loader 公网散布段，用于投递僵尸网络感染载荷
 
+# > Mantis Botnet（Layer7 HTTP DDoS 巨兽 / 云服务器型高性能僵尸网络）
+
+DOMAIN-SUFFIX,mantis-c2.net # Mantis 主 C2 控制端，用于协调大规模 HTTP/HTTPS 攻击任务
+DOMAIN-SUFFIX,mantis-botnet.com # Mantis 公网基础设施域名，用于节点心跳、配置同步与任务下发
+DOMAIN-SUFFIX,mantis-upd.net # Mantis 更新分发节点，用于推送攻击模块与新配置
+DOMAIN-SUFFIX,mts-panel.net # Mantis Botnet 控制面板，用于查看活跃节点和管理攻击指令
+DOMAIN-SUFFIX,cloud-mantis.net # Mantis 伪装云服务的 C2 域，用于隐藏控制流量
+IP-CIDR,45.134.20.0/24 # Mantis 活跃控制器常用网段，用于 C2 下发与配置拉取
+IP-CIDR,82.118.22.0/24 # Mantis Bot Loader 节点段，用于部署新僵尸节点
+IP-CIDR,185.225.50.0/24 # Mantis 攻击节点分布区常见段，用于维持僵尸网络规模
+
 
