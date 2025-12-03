@@ -165,3 +165,11 @@ DOMAIN-SUFFIX,nanocorerat.com # NanoCore 僵尸网络 C2 域，用于恶意指�
 DOMAIN-SUFFIX,nanocorepanel.com # NanoCore RAT 控制台托管域，用于攻击者操作面板与回连管理
 DOMAIN-SUFFIX,nanocorec2.com # NanoCore 恶意回连端点，用于隐蔽 C2 通信与插件指令下发
 DOMAIN-SUFFIX,nanocoreremote.com # 与 NanoCore 分发链路相关的控制域，用于远程负载与后门部署通信
+
+# > NjRAT / Bladabindi（远程访问木马 / 广泛传播的 C2 基础设施）
+
+DOMAIN-SUFFIX,bladabindi.net # Bladabindi 控制面板相关域名，用于远控管理与系统信息回传
+DOMAIN-SUFFIX,njratpanel.com # NjRAT 控制台托管域名，用于 C2 操控、受控主机管理与命令下发
+DOMAIN-SUFFIX,njratserver.com # NjRAT 主控服务器域，用于木马回连通信与恶意指令分发
+DOMAIN-SUFFIX,njratc2.com # NjRAT 僵尸网络 C2 端点，用于插件加载、屏幕捕获与键盘记录指令
+DOMAIN-SUFFIX,njrat-malware.com # NjRAT 感染链相关域名，用于恶意载荷投递与木马更新请求
