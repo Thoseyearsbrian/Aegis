@@ -896,6 +896,24 @@ IP-CIDR,146.70.94.0/24 # Rust 扫描器 + Botnet 混合集群出口段，用于�
 IP-CIDR,179.43.175.0/24 # Rust Bot 家族控制基础设施段，用于多家族共享 C2 与恶意服务
 IP-CIDR,107.172.41.0/24 # Rust-based Scanner/Bot 高危扫描源段，用于批量资产探测与随后的感染链
 
+# > Linux Botnet / SSH Brute（Linux 僵尸网络 / SSH 暴力破解生态）
+
+DOMAIN-SUFFIX,sshbrutec2.net # SSH 暴破型 Botnet 主控端，用于提交弱口令爆破结果与下发攻击任务
+DOMAIN-SUFFIX,linuxbot-c2.net # Linux Botnet 控制域名，用于受控主机回连、DDoS 参数同步与模块更新
+DOMAIN-SUFFIX,ssh-scan.net # SSH 扫描器控制节点，用于端口扫描任务调度与暴力破解引擎同步
+DOMAIN-SUFFIX,linuxdropper.net # Linux Botnet Dropper 下载端，用于初始感染脚本与二进制拉取
+DOMAIN-SUFFIX,bruteloader.com # 暴破感染链 Loader 节点，用于弱口令登录后的恶意二进制投递
+DOMAIN-SUFFIX,botsshpanel.com # Linux/SSH Botnet 控制面板域名，用于 Bot 状态监控与任务管理
+DOMAIN-SUFFIX,sshminer.net # SSH 暴破后植入挖矿模块的 Botnet 运营域，用于矿机参数同步
+DOMAIN-SUFFIX,linuxddos.net # Linux DDoS Botnet 域名，用于推送攻击目标、任务与附加模块
+IP-CIDR,45.9.150.0/24 # 典型 SSH 暴力破解输出节点，用于大规模扫描与弱口令尝试
+IP-CIDR,193.142.59.0/24 # Linux Botnet 共享 C2 基础设施段，常用于 Bot 心跳与命令更新
+IP-CIDR,107.189.3.0/24 # 高危 SSH 扫描源网段，活跃于全球 22 端口暴破活动
+IP-CIDR,194.31.98.0/24 # 常见 Linux Dropper 投递网段，用于 Botnet binary 分发
+IP-CIDR,62.112.9.0/24 # 大规模 SSH 暴破节点段，典型与 Mirai/LinuxBot 并行运作
+IP-CIDR,198.98.46.0/24 # 关联恶意 SSH 扫描器出口段，用于批量资产探测与渗透前置活动
+IP-CIDR,92.63.197.0/24 # Linux Botnet 攻击流量常用出口段，多家 IOC 曾记录 DDoS 与暴破流量
+
 
 
 
