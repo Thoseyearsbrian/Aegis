@@ -640,7 +640,6 @@ DOMAIN-SUFFIX,okanesync.net # Okane 配置同步端点，用于 Bot 参数更新
 DOMAIN-SUFFIX,okanepanel.com # Okane 控制面板域名，用于受控设备监控、攻击任务管理与扫描日志查看
 IP-CIDR,185.244.112.0/24 # 多个 Okane IOC 指向的活动网段，用于 SSH 暴破出口与 Bot 回连
 IP-CIDR,45.14.122.0/24 # Okane 扫描/感染源常用段，多个分析报告中出现，涉及弱口令爆破与恶意脚本托管
-
 DOMAIN-SUFFIX,rapperbot.net # RapperBot 主控域，用于 SSH 爆破、僵尸节点心跳与 DDoS 配置同步
 DOMAIN-SUFFIX,rbcontrol.net # RapperBot C2 节点，用于恶意模块推送、指令下发与感染链通信
 DOMAIN-SUFFIX,rapperpanel.com # RapperBot 控制台域，用于受控设备管理、攻击任务调度与 Bot 状态监控
@@ -653,11 +652,9 @@ IP-CIDR,45.61.184.0/24 # RapperBot 恶意扫描节点常用出口段，用于批
 DOMAIN-SUFFIX,mozievo.net # Mozi Evolution 变体识别域名，用于高级 P2P 节点同步与恶意配置分发
 DOMAIN-SUFFIX,mozi-adv.com # Mozi 高级版控制节点，用于 Bot 心跳、任务分配与精细化扫描指令下达
 DOMAIN-SUFFIX,mozip2p.net # Mozi P2P 扩展节点域，用于分布式感染、节点交换与恶意更新同步
-
 DOMAIN-SUFFIX,kaiji-evo.net # Kaiji 进阶变体（Kaiji Evolution）C2 指挥节点，用于高频 SSH 暴破与 DDoS 配置推送
 DOMAIN-SUFFIX,kaiji-adv.com # Kaiji 高级版控制域名，用于模块更新、恶意脚本分发与攻击链路协调
 DOMAIN-SUFFIX,chaos-extended.net # Chaos 扩展版变体识别域，用于 Go 语言 DDoS 模块加载与 Bot 状态同步
-
 IP-CIDR,188.214.104.0/24 # Mozi/Kaiji 进阶变体常见恶意基础设施段，用于 P2P 中继与 DDoS 回连通信
 IP-CIDR,194.5.98.0/24 # 多份国际 IOC 中出现的 Kaiji 高级变种出口节点，用于 SSH 暴破、扫描与攻击任务执行
 
@@ -668,13 +665,11 @@ DOMAIN-SUFFIX,okane-ddos.com # Okane DoS 指令节点，用于下发 HTTP/UDP Fl
 DOMAIN-SUFFIX,okaneservice.net # Okane 感染链辅助域名，用于恶意脚本拉取、Bot 信息上报与模块更新
 DOMAIN-SUFFIX,okaneloader.net # Okane Loader 节点，用于初始感染后下载 DoS 模块与扩展组件
 DOMAIN-SUFFIX,okanecloud.net # Okane 云代理节点，用于隐藏真实 C2、反向中继与加密通信
-
 DOMAIN-SUFFIX,rapper-ssh.com # RapperBot SSH 暴破控制节点，用于弱口令攻击与僵尸主机登录状态同步
 DOMAIN-SUFFIX,rapper-ddos.net # RapperBot DoS 攻击链域名，用于受控设备接收攻击目标与任务参数
 DOMAIN-SUFFIX,rapperbot-tools.com # RapperBot 感染链工具域，用于恶意二进制下载与攻击模块同步
 DOMAIN-SUFFIX,rb-sync.net # RapperBot 配置同步域名，用于 Bot 状态上报、模块更新与任务协调
 DOMAIN-SUFFIX,rbloader.net # RapperBot Loader 节点，负责初始感染阶段的载荷下发与脚本分发
-
 IP-CIDR,45.155.226.0/24 # Okane/RapperBot 常见 SSH 暴力破解出口段，用于批量扫描与登录尝试
 IP-CIDR,185.225.75.0/24 # RapperBot 活跃 C2 基础设施段，多份 IOC 中涉及 DoS 攻击与 Bot 回连
 
@@ -684,13 +679,11 @@ DOMAIN-SUFFIX,sylexbotnet.com # Sylex 僵尸网络识别域名，用于 Bot 标�
 DOMAIN-SUFFIX,sylexc2.net # Sylex 主控 C2 节点，用于受感染设备心跳、配置擦除命令与破坏任务推送
 DOMAIN-SUFFIX,sylexloader.net # Sylex Loader 节点，用于破坏前阶段的恶意载荷下载、脚本拉取与感染扩散
 DOMAIN-SUFFIX,sylexupdate.net # Sylex 更新域，用于同步破坏脚本、模块更新与恶意指令同步
-
 DOMAIN-SUFFIX,xorddos.net # Xorddos（又名 XOR DDoS）核心控制域名，用于 DDoS 任务、C2 回连与恶意指令执行
 DOMAIN-SUFFIX,xordc2.com # Xorddos C2 节点，用于受控主机心跳、攻击任务调度和模块加载
 DOMAIN-SUFFIX,xordpanel.net # Xorddos 控制面板域，用于僵尸网络管理、系统信息收集与攻击调度
 DOMAIN-SUFFIX,xordupdate.net # Xorddos 更新端点，用于 DDoS 模块、扫描脚本与恶意配置下发
 DOMAIN-SUFFIX,xorddropper.com # Xorddos 投递链 Dropper 节点，用于初始感染载荷与恶意脚本下载
-
 IP-CIDR,103.159.30.0/24 # Xorddos IOC 中频繁出现的恶意节点段，用于 DDoS 出口与 Bot 回连
 IP-CIDR,45.140.168.0/24 # Sylex 相关活动基础设施段，用于扫描、破坏指令下发与感染链同步
 
@@ -808,8 +801,8 @@ DOMAIN-SUFFIX,gpon-loader.net # 恶意 loader 模块托管域，用于下载 bot
 DOMAIN-SUFFIX,gpon-scan.net # GPON 漏洞扫描节点域名，用于批量探测全球 GPON 设备的可利用目标
 DOMAIN-SUFFIX,gpon-shell.net # GPON RCE 获取的 shell 回连域，用于建立反控通道与执行系统命令
 IP-CIDR,185.244.25.0/24 # GPON Botnet 扫描节点常用网段，活跃于全球端口探测和漏洞扫描
-IP-CIDR,91.215.85.0/24  # GPON 控制节点相关网段，用于 C2 回连与 Botnet 管理
-IP-CIDR,46.161.27.0/24  # 恶意载荷托管网段，用于 loader/payload 托管与感染链分发
+IP-CIDR,91.215.85.0/24 # GPON 控制节点相关网段，用于 C2 回连与 Botnet 管理
+IP-CIDR,46.161.27.0/24 # 恶意载荷托管网段，用于 loader/payload 托管与感染链分发
 
 # > FiberHome / ZTE 家宽路由器 Botnet（弱口令 + 后门漏洞 / 扫描 + C2 控制）
 
@@ -836,6 +829,23 @@ DOMAIN-SUFFIX,tendascan.net # Tenda 扫描模块控制域，用于批量扫描�
 IP-CIDR,185.225.18.0/24 # D-Link/Tenda Botnet 常见扫描源段，用于大规模设备探测与漏洞利用
 IP-CIDR,45.155.207.0/24 # 活跃 C2 与 loader 节点网段，用于恶意载荷拉取、模块同步与 Bot 心跳通信
 IP-CIDR,193.56.29.0/24 # 多份 IOC 指向的 Botnet 控制出口段，用于恶意任务下发与感染链协调
+
+# > Bot Loaders（GoLang / Rust）高性能恶意加载器 / 初始感染链
+
+DOMAIN-SUFFIX,goloader.net # 基于 GoLang 的 Loader 恶意域名，用于下载后续模块（扫描器、DDoS 插件）
+DOMAIN-SUFFIX,rustloader.net # Rust 恶意 Loader 主域，用于初始感染后拉取 Bot 主程序
+DOMAIN-SUFFIX,modsyncloader.com # 模块同步 Loader 域，用于配置同步、插件更新与指令下发
+DOMAIN-SUFFIX,golmld.net # GoLang Loader dropper 节点，用于推送 bot 二进制与感染脚本
+DOMAIN-SUFFIX,rsloaderpanel.com # Rust Loader 控制面板域名，用于管理加载请求、任务调度与 Bot 配置更新
+DOMAIN-SUFFIX,gl-dropper.net # GoLang Dropper 节点，用于初始感染链 payload 托管
+DOMAIN-SUFFIX,rustsync.net # Rust Loader 用于同步恶意模块、轮换 C2 与动态配置的域名
+DOMAIN-SUFFIX,botloaderhub.com # Loader 控制集线域名，用于监控感染状态与投递新模块
+DOMAIN-SUFFIX,go-botnet.net # 基于 GoLang 的 Bot Loader/C2 组合域，常用于云服务器攻击链
+DOMAIN-SUFFIX,rustscan-net.com # Rust 扫描 + 载荷模块托管域，用于扫描脚本、漏洞利用模块分发
+IP-CIDR,185.225.32.0/24 # 多个 Go/Rust Loader 样本使用的恶意出口段，用于模块拉取和心跳回连
+IP-CIDR,45.12.146.0/24 # Loader 初始感染节点常用段，用于投递 binary 与托管 dropper
+IP-CIDR,185.158.112.0/24 # Loader 控制基础设施常见 IP 段，用于任务同步与后续恶意模块下载
+
 
 
 
