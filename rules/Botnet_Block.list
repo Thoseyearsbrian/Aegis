@@ -1040,6 +1040,15 @@ IP-CIDR,45.9.20.0/24 # 利用弱口令 + telnet 扫描扩散的感染源段
 IP-CIDR,109.236.82.0/24 # Pandora Botnet 的恶意出口流量段，用于加载恶意二进制与脚本
 IP-CIDR,185.156.73.0/24 # Ymir 相关恶意任务同步节点段，用于更新 payload 与维持僵尸节点
 
+# > Arma / Moobot Pro（Mirai 高级变种 / 企业路由器与 IoT 设备Botnet）
+
+IP-CIDR,194.26.135.0/24 # Arma Botnet 控制节点段，用于下发恶意 Payload 与 DDoS 指令
+IP-CIDR,91.215.85.0/24  # Moobot Pro 感染链常用网段，用于扫描弱口令与设备漏洞
+IP-CIDR,45.61.188.0/24  # Mirai 高级变体任务调度段，用于同步配置与分配攻击目标
+IP-CIDR,146.70.46.0/24  # 常被用于下载恶意二进制（bot loader）和维持 Botnet 活性
+IP-CIDR,185.214.103.0/24 # Arma/Moobot 扫描节点网段，用于扩散 SSH/Telnet 感染
+IP-CIDR,89.117.68.0/24  # Mirai Pro C2 辅助节点，用于备用控制链路与数据同步
+
 
 
 
