@@ -641,3 +641,7 @@ DOMAIN-SUFFIX,api.feelgood.cn # feelgood.cn 服务接口域名，用于行为数
 DOMAIN-SUFFIX,s.dpmsrv.com # DPM 用户行为上报与点击追踪域名，常用于广告平台监控
 DOMAIN-SUFFIX,ak.sail-horizon.com # sail-horizon 第三方行为分析 SDK 接口域名
 DOMAIN-SUFFIX,js-agent.newrelic.com # New Relic 前端性能监控 JS SDK 上报域名
+
+# > rumt-zh.com（前端性能监控 / RUM 服务）
+
+DOMAIN-SUFFIX,rumt-zh.com # 腾讯 / RUM 实时用户监控（Real‑User Monitoring）上报域名，用于前端性能、错误、资源加载、页面 PV/UV 等数据采集与上报
