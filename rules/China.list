@@ -178,6 +178,8 @@ DOMAIN-SUFFIX,p26-sign.douyinpic.com # 抖音图片资源 CDN — 视频封面 /
 DOMAIN-SUFFIX,p3-sign.douyinpic.com # 抖音图片资源 CDN — 封面图 / 缩略图 加载备用域名
 DOMAIN-SUFFIX,v11‑magicarena‑v.365yg.com # 抖音/今日头条生态视频资源 / 内容分发 CDN，用于短视频流与内容加载
 DOMAIN-SUFFIX,v26‑magicarena‑v.365yg.com # 同上 — 视频资源 / 内容分发 CDN，用于短视频流加载
+DOMAIN-SUFFIX,365yg.com # 字节跳动内容服务主域名，覆盖今日头条 / 抖音 / 西瓜视频等内容加载请求
+DOMAIN-SUFFIX,v11-default.365yg.com # 字节跳动 CDN 节点域名，用于视频内容分发与短视频流媒体加载
 IP-CIDR,106.38.222.179/32 # webcast100‑ws‑c‑hl.amemv.com 抖音 / 直播 WebSocket 服务节点  
 IP-CIDR,114.80.11.5/32 # webcast‑normal‑m.amemv.com 抖音 / 直播服务节点  
 IP-CIDR,140.249.108.50/32 # webcast‑core‑m.amemv.com 抖音 / 直播核心节点  
