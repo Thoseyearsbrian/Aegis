@@ -31,3 +31,12 @@ DOMAIN-SUFFIX,emotet.info # Emotet 备用控制端点，用于恶意邮件投递
 DOMAIN-SUFFIX,bankingemotet.com # Emotet 银行木马投递节点，用于钓鱼邮件链接与载荷下载
 DOMAIN-SUFFIX,loaderemotet.net # Emotet 恶意加载器域名，用于下载执行阶段载荷
 DOMAIN-SUFFIX,emotetbotnet.net # Emotet 僵尸网络 C2 主域，负责回连、通信与行为同步
+
+# > QakBot / QuakBot（银行木马 / 僵尸网络 C2 / 恶意投递链）
+
+DOMAIN-SUFFIX,qakbot.com # QakBot 银行木马核心域名，用于僵尸网络控制、指令下发与恶意任务同步
+DOMAIN-SUFFIX,quakbot.net # QakBot 感染链 C2 节点，用于恶意载荷分发与远程控制通信
+DOMAIN-SUFFIX,qbotnet.org # QakBot 僵尸网络主控域，用于受感染主机回连与指令调度
+DOMAIN-SUFFIX,bankingqakbot.com # QakBot 银行凭证窃取链路域名，用于投递伪造邮件与恶意下载
+DOMAIN-SUFFIX,qloader.net # QakBot 恶意加载器域名，用于执行阶段的载荷下载与感染扩散
+DOMAIN-SUFFIX,qakmodule.net # QakBot 模块化插件域名，用于附加恶意模块（键盘记录、凭证窃取等）
