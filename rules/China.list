@@ -1936,3 +1936,7 @@ DOMAIN-SUFFIX,docs.moonshot.cn # 文档站点，用于 API 文档、SDK 示例�
 DOMAIN-SUFFIX,cdn.moonshot.cn # 前端静态资源 CDN，用于控制台与 Web 端脚本、样式加载
 DOMAIN-SUFFIX,passport.moonshot.cn # Moonshot 账号登录中心，用于控制台与 API 权限验证
 DOMAIN-SUFFIX,auth.moonshot.cn # 统一身份认证服务，用于用户登录与授权流程
+
+# > 智齿客服（Sobot）在线服务域名
+
+DOMAIN-SUFFIX,chat.sobot.com # 智齿客服系统通信域名，用于网页端客服聊天、消息推送与用户会话维持
