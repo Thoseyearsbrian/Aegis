@@ -173,3 +173,12 @@ DOMAIN-SUFFIX,njratpanel.com # NjRAT 控制台托管域名，用于 C2 操控、
 DOMAIN-SUFFIX,njratserver.com # NjRAT 主控服务器域，用于木马回连通信与恶意指令分发
 DOMAIN-SUFFIX,njratc2.com # NjRAT 僵尸网络 C2 端点，用于插件加载、屏幕捕获与键盘记录指令
 DOMAIN-SUFFIX,njrat-malware.com # NjRAT 感染链相关域名，用于恶意载荷投递与木马更新请求
+
+# > PlugX / Korplug（APT 支持型后门木马 / 模块化远控）
+
+DOMAIN-SUFFIX,korplug.com # Korplug/PlugX 传统 C2 域名，用于远控、数据回传与模块加载
+DOMAIN-SUFFIX,plugxservice.com # PlugX C2 服务域，用于恶意指令下发与横向控制
+DOMAIN-SUFFIX,pluginconfig.com # PlugX 插件与模块配置下载域名，用于加载扩展模块
+DOMAIN-SUFFIX,updatekorplug.com # PlugX 更新通道域名，用于恶意载荷更新与后门维护
+DOMAIN-SUFFIX,plgxpanel.com # PlugX 控制台面板，用于受控主机管理与APT行动指挥
+DOMAIN-SUFFIX,plxgate.com # PlugX C2 反向代理网关，用于加密回连与流量混淆
