@@ -149,3 +149,11 @@ DOMAIN-SUFFIX,asyncpanel.com # AsyncRAT 控制面板相关域，用于远程命�
 DOMAIN-SUFFIX,asyncc2.com # AsyncRAT 常见的恶意 C2 域名，用于受感染主机回连与控制消息交互
 DOMAIN-SUFFIX,asyncratcontrol.com # AsyncRAT 指挥控制节点，用于文件窃取、屏幕捕获与远程操作
 DOMAIN-SUFFIX,asyncratserver.com # 攻击者用于部署 AsyncRAT 服务端的恶意基础设施节点
+
+# > NetWire RAT（远程访问木马 / 跨平台远控工具）
+
+DOMAIN-SUFFIX,netwrat.com # NetWire RAT 恶意基础设施域名，用于受感染主机回连与远程控制
+DOMAIN-SUFFIX,netwirerat.com # NetWire RAT 常见恶意 C2 域，用于指挥控制、键盘记录与文件窃取
+DOMAIN-SUFFIX,netwirecontrol.com # NetWire RAT 控制面板相关域名，攻击者用于管理受害主机的远控会话
+DOMAIN-SUFFIX,netwirepanel.com # NetWire RAT 控制面板托管域，用于命令下发与恶意任务调度
+DOMAIN-SUFFIX,netwirec2.com # NetWire RAT 僵尸网络指挥控制域名，用于隐蔽回连与恶意通信
