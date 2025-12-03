@@ -421,4 +421,13 @@ DOMAIN-SUFFIX,terdotpanel.com # Terdot 控制台域名，用于查看窃取数�
 DOMAIN-SUFFIX,bankzload.com # Zloader 银行业务窃取链路域，用于MITB（浏览器中间人）、表单注入与交易劫持
 DOMAIN-SUFFIX,loaderzbot.net # Zloader 感染链加载器域名，用于初始载荷拉取、投递恶意模块与执行扩展功能
 
+# > Hancitor / Chanitor（恶意加载器 / 僵尸网络 C2 / 勒索软件投递链）
+
+DOMAIN-SUFFIX,hancitor.com # Hancitor 主控域名，用于恶意任务拉取、配置同步与僵尸主机回连
+DOMAIN-SUFFIX,chanitor.net # Chanitor（Hancitor 别名）核心 C2 节点，用于模块更新、命令执行与恶意通信
+DOMAIN-SUFFIX,hancpanel.com # Hancitor 控制面板域名，用于受控终端管理、执行任务查看与恶意活动调度
+DOMAIN-SUFFIX,hancdropper.com # Hancitor 投递链 Dropper 节点，用于初始感染阶段的恶意载荷托管与投递
+DOMAIN-SUFFIX,hancsync.net # Hancitor 配置同步端点，用于插件更新、恶意脚本下发与持久化任务回连
+DOMAIN-SUFFIX,hancmodule.org # Hancitor 模块化扩展域，用于加载键盘记录、凭证窃取与勒索软件引导模块
+
 
