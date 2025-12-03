@@ -40,3 +40,12 @@ DOMAIN-SUFFIX,qbotnet.org # QakBot 僵尸网络主控域，用于受感染主机
 DOMAIN-SUFFIX,bankingqakbot.com # QakBot 银行凭证窃取链路域名，用于投递伪造邮件与恶意下载
 DOMAIN-SUFFIX,qloader.net # QakBot 恶意加载器域名，用于执行阶段的载荷下载与感染扩散
 DOMAIN-SUFFIX,qakmodule.net # QakBot 模块化插件域名，用于附加恶意模块（键盘记录、凭证窃取等）
+
+# > TrickBot（银行木马 / 僵尸网络 C2 / 恶意载荷分发）
+
+DOMAIN-SUFFIX,trickbot.io # TrickBot 主控域名，用于僵尸网络管理、指令下发与恶意任务调度
+DOMAIN-SUFFIX,trickbot.org # TrickBot 备用 C2 控制域，用于远程命令回连与模块同步
+DOMAIN-SUFFIX,trickbotnet.com # TrickBot 僵尸网络核心域名，用于恶意载荷下载、命令执行与扩散活动
+DOMAIN-SUFFIX,trickdownload.net # TrickBot 下载器域，用于投递初始感染载荷与执行阶段加载模块
+DOMAIN-SUFFIX,banktrick.net # TrickBot 银行凭证窃取链路域，用于钓鱼、表单劫持与恶意数据回传
+DOMAIN-SUFFIX,trickmodule.net # TrickBot 模块化扩展域名，用于恶意插件（键盘记录、浏览器窃取等）动态加载
