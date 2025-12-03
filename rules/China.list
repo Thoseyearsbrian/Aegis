@@ -180,6 +180,12 @@ DOMAIN-SUFFIX,v11‑magicarena‑v.365yg.com # 抖音/今日头条生态视频�
 DOMAIN-SUFFIX,v26‑magicarena‑v.365yg.com # 同上 — 视频资源 / 内容分发 CDN，用于短视频流加载
 DOMAIN-SUFFIX,365yg.com # 字节跳动内容服务主域名，覆盖今日头条 / 抖音 / 西瓜视频等内容加载请求
 DOMAIN-SUFFIX,v11-default.365yg.com # 字节跳动 CDN 节点域名，用于视频内容分发与短视频流媒体加载
+DOMAIN-SUFFIX,lf16-static.bytepluscdn.com # BytePlus 静态资源 CDN，用于加载图片、脚本与 Web 组件资源
+DOMAIN-SUFFIX,vcs-s-sg.byteintl.com # 火山引擎音视频服务节点，用于视频通信（VCS）SDK 的媒体流加载
+DOMAIN-SUFFIX,www.volcengine.com # 火山引擎官网主站，用于产品介绍、文档与控制台跳转
+DOMAIN-SUFFIX,lf3-beecdn.bytetos.com # 字节跳动 CDN 域名，用于 Web 应用脚本、组件、样式加载
+DOMAIN-SUFFIX,console.volcengine.com # 火山引擎控制台登录域名，用于账号认证、资源管理与调用配置
+DOMAIN-SUFFIX,lf-c-flwb.bytetos.com # 字节跳动静态 CDN 节点，用于图像 / 视频预览资源加载
 IP-CIDR,106.38.222.179/32 # webcast100‑ws‑c‑hl.amemv.com 抖音 / 直播 WebSocket 服务节点  
 IP-CIDR,114.80.11.5/32 # webcast‑normal‑m.amemv.com 抖音 / 直播服务节点  
 IP-CIDR,140.249.108.50/32 # webcast‑core‑m.amemv.com 抖音 / 直播核心节点  
