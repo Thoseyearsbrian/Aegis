@@ -31,6 +31,15 @@ DOMAIN-SUFFIX,dl.teamviewer.com # TeamViewer 下载分发域，用于客户端�
 DOMAIN-SUFFIX,router.teamviewer.com # TeamViewer 连接路由节点，用于 NAT 穿透与主机之间的远控会话建立
 DOMAIN-SUFFIX,server.teamviewer.com # TeamViewer 中继服务器，用于会话转发、握手验证与连接中继
 
+# > AnyDesk（合法远控工具 / APT 与入侵者滥用率极高）
+
+DOMAIN-SUFFIX,anydesk.com # AnyDesk 官方主域名，合法远程控制软件，但在攻击事件中高频被用于作为隐藏后门
+DOMAIN-SUFFIX,relay.anydesk.com # AnyDesk 中继路由服务器，用于穿透、连接建立与会话转发
+DOMAIN-SUFFIX,download.anydesk.com # AnyDesk 下载节点，用于客户端与模块分发，亦常被攻击者用于部署远控
+DOMAIN-SUFFIX,api.anydesk.com # AnyDesk API 服务端点，用于授权、设备查询与会话管理
+DOMAIN-SUFFIX,backend.anydesk.com # AnyDesk 后端服务域，用于设备认证、连接维持与会话协调
+DOMAIN-SUFFIX,ws.anydesk.com # AnyDesk WebSocket 通道，用于实时会话、心跳与控制信令
+
 # > Dridex（银行木马 / 高危恶意软件家族 IOC）
 
 DOMAIN-SUFFIX,dridex.com # Dridex 恶意软件家族相关域名，用于 C2 通信、恶意载荷下载与僵尸网络控制
