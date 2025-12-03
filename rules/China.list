@@ -1861,6 +1861,7 @@ DOMAIN-SUFFIX,static.xfyun.cn # 星火前端静态资源 CDN，用于控制台�
 
 # > MiniMax（海螺 / abab 大模型）
 
+DOMAIN-SUFFIX,minimax.io # MiniMax 国际站主域名，用于大模型产品展示、文档、控制台与商业接入入口
 DOMAIN-SUFFIX,minimax.ai # MiniMax 官方主站，用于模型产品介绍、体验入口与文档访问
 DOMAIN-SUFFIX,www.minimax.chat # MiniMax 海螺聊天入口，用于在线对话体验与模型示例
 DOMAIN-SUFFIX,minimax.chat # MiniMax 海螺 Chat 主域名，用于 Web 对话与应用入口
