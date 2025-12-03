@@ -440,4 +440,15 @@ DOMAIN-SUFFIX,necursupdate.com # Necurs 更新节点，用于恶意插件、配�
 DOMAIN-SUFFIX,loadernecurs.net # Necurs 投递链“Loader”节点，用于初始感染、恶意宏文档与后续载荷下载
 DOMAIN-SUFFIX,necurspanel.com # Necurs 控制面板域，用于管理僵尸主机、查看日志与协调恶意行动
 
+# > Mirai（IoT 设备感染链 / 大规模 DDoS 僵尸网络 / 恶意扫描源）
+
+DOMAIN-SUFFIX,mirai-botnet.com # Mirai 僵尸网络核心控制域名，用于 IoT 设备回连、任务下发与 DDoS 指令同步
+DOMAIN-SUFFIX,mirai-c2.net # Mirai C2 指挥节点，用于受感染设备的心跳通信、模块更新与攻击任务下达
+DOMAIN-SUFFIX,miraipanel.com # Mirai 控制面板域名，用于 Bot 管理、僵尸主机监控与攻击流量调度
+DOMAIN-SUFFIX,loader-mirai.net # Mirai Loader 节点，用于 IoT 设备弱口令暴力破解后的恶意固件/载荷投递
+DOMAIN-SUFFIX,botnetmirai.org # Mirai 感染链辅助域，用于扫描器上报、批量感染日志与后续控制信息同步
+DOMAIN-SUFFIX,miraiupdate.net # Mirai 模块更新节点，用于持续更新恶意固件、攻击插件与扫描脚本
+DOMAIN-SUFFIX,iotddos.net # Mirai 变种常用攻击域，用于 DDoS 命令推送与全球僵尸网络协调
+DOMAIN-SUFFIX,miraigate.com # Mirai 远程代理/网关节点，用于隐藏真实 C2 与转发恶意指令
+
 
