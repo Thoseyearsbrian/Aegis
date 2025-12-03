@@ -722,4 +722,16 @@ DOMAIN-SUFFIX,fbotdropper.net # FBot 投递链 Dropper 域名，用于恶意脚�
 IP-CIDR,194.5.98.0/24 # 多份 FBot/PinkBot IOC 指向的恶意出口段，用于挖矿任务同步与代理中转
 IP-CIDR,45.9.148.0/24 # PinkBot 活跃 C2 节点段，用于 Bot 回连、扫描活动与恶意模块更新
 
+# > DemonBot（云服务器挖矿 + DDoS / Hadoop YARN 攻击链）
+
+DOMAIN-SUFFIX,demonbotnet.com # DemonBot 僵尸网络主控域名，用于 Bot 回连、攻击任务分配与挖矿指令下发
+DOMAIN-SUFFIX,demonc2.net # DemonBot C2 控制节点，用于恶意模块更新、心跳通信与 DDoS 命令推送
+DOMAIN-SUFFIX,demonpanel.com # DemonBot 控制面板域名，用于 Bot 状态查看、挖矿收益监控与攻击调度
+DOMAIN-SUFFIX,demonloader.net # DemonBot Loader 节点，用于 Hadoop YARN 命令执行阶段的恶意载荷拉取
+DOMAIN-SUFFIX,minerdemon.net # DemonBot 挖矿模块托管域名，用于恶意 XMR 挖矿程序下载与自动更新
+DOMAIN-SUFFIX,demonupdate.net # DemonBot 更新端点，用于配置同步、扫描脚本更新与持续化任务分发
+
+IP-CIDR,185.244.25.0/24 # 多份 DemonBot IOC 中出现的恶意出口段，用于 DDoS 流量、Bot 回连与扫描活动
+IP-CIDR,104.129.18.0/24 # DemonBot 活跃 C2 节点段，用于 Hadoop YARN 批量攻击与挖矿任务同步
+
 
