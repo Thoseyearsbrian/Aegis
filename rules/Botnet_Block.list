@@ -694,4 +694,19 @@ DOMAIN-SUFFIX,xorddropper.com # Xorddos 投递链 Dropper 节点，用于初始�
 IP-CIDR,103.159.30.0/24 # Xorddos IOC 中频繁出现的恶意节点段，用于 DDoS 出口与 Bot 回连
 IP-CIDR,45.140.168.0/24 # Sylex 相关活动基础设施段，用于扫描、破坏指令下发与感染链同步
 
+# > VPNFilter Industrial Variant（工业路由器定向变种 / ICS 网络后门 / 多阶段恶意模块）
+
+DOMAIN-SUFFIX,vpnf-industrial.net # VPNFilter 工控设备定向变种主控域，用于受感染工业路由器回连与恶意配置同步
+DOMAIN-SUFFIX,icsfilterc2.com # 工控路由器专用 C2 节点，用于设备心跳、后门模块下发与指令执行
+DOMAIN-SUFFIX,indrouter-sync.net # 工业网络路由器同步节点，用于模块更新、VPN 隧道参数刷新与持久化维护
+DOMAIN-SUFFIX,scada-vpnfilter.com # VPNFilter 工控网络（SCADA/ICS）恶意通信域，用于横向移动与流量窃取
+DOMAIN-SUFFIX,factoryfilter.net # 工业环境部署中使用的伪装域，用于恶意扫描、固件修改与后门植入
+DOMAIN-SUFFIX,ics-updatepanel.com # 工控恶意更新节点，用于下载扩展模块（协议嗅探、数据窃取、扫描模块等）
+DOMAIN-SUFFIX,router-industrial.com # 工控路由器感染链入口，用于初始恶意脚本拉取与后门安装
+DOMAIN-SUFFIX,secure-icsdns.net # 恶意伪装 DNS 节点，用于隐藏真实 C2、路由恶意指令与流量包装
+
+IP-CIDR,92.118.36.0/24 # 工控 VPNFilter 变种常见恶意 C2 段，用于心跳回连、命令执行与数据外泄
+IP-CIDR,185.85.190.0/24 # 多个工业路由器样本命中段，用于模块更新、固件劫持与横向探测通信
+IP-CIDR,185.106.92.0/24 # 工控网络攻击者常用出口节点段，用于扫描、渗透与后门持久化行为
+
 
