@@ -514,4 +514,14 @@ DOMAIN-SUFFIX,merissync.net # Mēris 配置同步域名，用于恶意脚本更�
 DOMAIN-SUFFIX,ddosmeris.net # Mēris 攻击链辅助域，用于大规模 HTTP Flood/DDoS 任务指令下达
 IP-CIDR,46.17.45.0/24 # Mēris 核心恶意节点常见 IP 段之一，多个国际 IOC 中出现，用于 DDoS 控制与 Bot 回连
 
+# > FritzFrog（P2P SSH 僵尸网络 / 内存常驻恶意程序 / 去中心化 C2）
+
+DOMAIN-SUFFIX,fritzfrog.net # FritzFrog 核心识别域名，出现在恶意扫描与感染链 IOC 中
+DOMAIN-SUFFIX,ffrogcc.net # FritzFrog P2P 控制协调节点识别域，用于节点发现与恶意任务同步
+DOMAIN-SUFFIX,fritzpanel.com # FritzFrog 运营端控制面板伪装域，用于 Bot 状态监控与任务广播
+DOMAIN-SUFFIX,peerfrog.net # FritzFrog P2P 网络节点发现域名，用于 Bot 加入点与连接交换
+DOMAIN-SUFFIX,sshfrog.net # FritzFrog SSH 暴力破解相关域，用于感染脚本、扫描模块与任务调度
+IP-CIDR,185.220.101.0/24 # FritzFrog 恶意来源常用出口节点段，历史 IOC 多次出现于 SSH 爆破活动
+IP-CIDR,95.142.40.0/24 # FritzFrog 扫描与攻击源常见 IP 段，用于批量 SSH 扫描与 Bot 同步流量
+
 
