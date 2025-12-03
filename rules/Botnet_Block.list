@@ -125,3 +125,11 @@ DOMAIN-SUFFIX,azorult.net # Azorult C2 回连节点，用于 Bot 状态上报、
 DOMAIN-SUFFIX,azorultsync.com # Azorult 配置与模块同步端点，用于恶意插件、配置文件与脚本更新
 DOMAIN-SUFFIX,azoplugin.com # Azorult 模块化插件下载域名，用于增强窃密功能的扩展组件
 DOMAIN-SUFFIX,azodata.net # Azorult 数据外泄端点，用于上传窃取的密码、Cookie、浏览器会话与钱包密钥
+
+# > LokiBot Stealer（凭证窃取木马 / 数据外泄恶意软件）
+
+DOMAIN-SUFFIX,lokibot.net # LokiBot C2 回连节点，用于上传窃取的数据与接收控制指令
+DOMAIN-SUFFIX,lokibot.xyz # LokiBot 恶意基础设施域名，用于 Bot 管理、任务下发与感染数据收集
+DOMAIN-SUFFIX,lokibotpanel.com # LokiBot 控制面板域名，用于攻击者查看凭证、会话、Cookie、钱包等泄露数据
+DOMAIN-SUFFIX,lokidrop.net # LokiBot 恶意载荷分发节点，用于下发感染包、更新模块与加载器
+DOMAIN-SUFFIX,lokisync.com # LokiBot 配置同步服务器，用于配置文件、恶意模块与脚本的更新
