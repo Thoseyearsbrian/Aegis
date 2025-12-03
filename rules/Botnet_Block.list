@@ -756,4 +756,15 @@ DOMAIN-SUFFIX,rapidityc2.com # Rapidity 主控域名，用于 DoS 指令、扫�
 IP-CIDR,185.238.0.0/24 # Yowai/Rapidity 在多个 IOC 中出现的恶意出口段，用于弱口令爆破与 DoS 流量
 IP-CIDR,193.142.112.0/24 # Rapidity 活跃控制节点段，用于僵尸节点心跳通信与任务调度
 
+# > Katana（Mirai 高级化变种 / 模块化 DDoS Botnet）
+
+DOMAIN-SUFFIX,katana-botnet.net # Katana 主 C2 域名，用于 Bot 回连、任务同步与攻击指令下发
+DOMAIN-SUFFIX,katana-loader.net # Katana Loader 节点，用于下发感染模块与多架构载荷
+DOMAIN-SUFFIX,katana-panel.com # Katana 控制面板域名，用于僵尸节点监控与攻击任务管理
+DOMAIN-SUFFIX,katanaupd.net # Katana 更新节点，用于推送模块更新与配置规则同步
+DOMAIN-SUFFIX,kn-botnet.net # Katana 相关变体的备用 C2 域，用于维持持久性连接
+DOMAIN-SUFFIX,knloader.net # Katana 变体 Loader，用于扫描结果回传与新 Bot 部署
+IP-CIDR,185.225.48.0/24 # Katana 活跃控制节点常用 IP 段，用于发送指令与 Bot 心跳维持
+IP-CIDR,91.219.236.0/24 # Katana Loader 公网散布段，用于投递僵尸网络感染载荷
+
 
