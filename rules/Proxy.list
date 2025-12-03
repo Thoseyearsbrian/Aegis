@@ -4330,6 +4330,10 @@ DOMAIN-SUFFIX,eu-images.contentstack.com # Contentstack 静态资源 CDN，用�
 DOMAIN-SUFFIX,widgets.iiris.com # iiris 第三方小部件服务，用于 UI 插件、嵌入组件加载
 DOMAIN-SUFFIX,helps.live # helps.live — 第三方在线帮助 / 客服服务域名，可能用于加载页面嵌入式支持模块或弹窗组件
 
+# > TrustArc / TRUSTe 隐私与合规平台域名
+
+DOMAIN-SUFFIX,privacy-policy.truste.com # TRUSTe / TrustArc 隐私政策页面域名，用于加载隐私协议内容、用户同意管理与合规跳转
+
 # > iris.informa.com（Informa / IIRIS — 企业／行业内容 & 数据分析平台资源）
 
 DOMAIN-SUFFIX,static.iris.informa.com # Informa 静态资源 CDN / 静态内容分发域名，用于加载页面静态文件、图片、脚本等资源  
