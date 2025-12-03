@@ -49,3 +49,12 @@ DOMAIN-SUFFIX,trickbotnet.com # TrickBot 僵尸网络核心域名，用于恶意
 DOMAIN-SUFFIX,trickdownload.net # TrickBot 下载器域，用于投递初始感染载荷与执行阶段加载模块
 DOMAIN-SUFFIX,banktrick.net # TrickBot 银行凭证窃取链路域，用于钓鱼、表单劫持与恶意数据回传
 DOMAIN-SUFFIX,trickmodule.net # TrickBot 模块化扩展域名，用于恶意插件（键盘记录、浏览器窃取等）动态加载
+
+# > IcedID / BokBot（银行木马 / 僵尸网络 C2 / 恶意投递链）
+
+DOMAIN-SUFFIX,icedid.com # IcedID 主控域名，用于僵尸网络管理、远程指令下发与恶意任务执行
+DOMAIN-SUFFIX,icedid.net # IcedID 感染链备用域，用于恶意载荷拉取、C2 回连与模块更新
+DOMAIN-SUFFIX,bokbot.net # BokBot（IcedID 派生家族）核心域名，用于银行凭证窃取与账户信息回传
+DOMAIN-SUFFIX,loaderbot.net # IcedID 加载器域名，用于初始感染载荷下载与执行阶段模块注入
+DOMAIN-SUFFIX,icedloader.org # IcedID 投递链攻击域，用于恶意邮件、文档宏与浏览器劫持的载荷托管
+DOMAIN-SUFFIX,bankingicedid.com # IcedID 银行业务窃取链路域，用于表单劫持、MITB（浏览器中间人）与敏感数据回传
