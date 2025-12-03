@@ -914,6 +914,24 @@ IP-CIDR,62.112.9.0/24 # 大规模 SSH 暴破节点段，典型与 Mirai/LinuxBot
 IP-CIDR,198.98.46.0/24 # 关联恶意 SSH 扫描器出口段，用于批量资产探测与渗透前置活动
 IP-CIDR,92.63.197.0/24 # Linux Botnet 攻击流量常用出口段，多家 IOC 曾记录 DDoS 与暴破流量
 
+# > Malicious Proxy / Residential Proxy Botnet（恶意住宅代理僵尸网络 / 家宽劫持代理池）
+
+DOMAIN-SUFFIX,resipx.net # Residential Proxy Botnet 主控域，用于家庭宽带设备回连与代理任务同步
+DOMAIN-SUFFIX,proxyhijack.com # 家宽设备代理劫持域，用于推送 SOCKS/HTTP 代理模块与持久化脚本
+DOMAIN-SUFFIX,homeproxy-c2.net # 家宽代理 Botnet C2 节点，用于带宽分配、代理任务下发与心跳通信
+DOMAIN-SUFFIX,resnetloader.com # Residential Proxy Loader 节点，用于在路由器/家宽设备上部署恶意代理模块
+DOMAIN-SUFFIX,proxyrotator.net # 恶意代理池调度域，用于轮换出口节点与隐藏真实攻击源
+DOMAIN-SUFFIX,proxyfarm.net # 大规模代理农场（Proxy Farm）控制域，用于管理数万家庭节点
+DOMAIN-SUFFIX,homenetproxy.net # 家宽代理节点同步域，用于设备状态上报与代理配置刷新
+DOMAIN-SUFFIX,home-socks.net # 恶意 SOCKS 代理模块下发域，用于植入代理/中继隧道组件
+DOMAIN-SUFFIX,proxyupdate.net # 恶意代理 Botnet 更新端点，用于同步代理节点、负载均衡与任务参数
+IP-CIDR,45.155.205.0/24 # 多个 Residential Proxy Botnet IOC 中出现的出口节点，常用于隐蔽代理与恶意流量转发
+IP-CIDR,185.225.50.0/24 # 恶意代理 Botnet 常用 C2/回连网段，用于状态同步与任务下发
+IP-CIDR,146.70.58.0/24 # 高强度代理滥用流量出口段，常用于爬虫、刷量与攻击流量匿名化
+IP-CIDR,45.142.220.0/24 # 住宅代理农场扫描/安装节点，用于家宽路由器批量感染
+IP-CIDR,82.118.21.0/24 # 恶意 proxy 网络出口段，活跃于 Credential Stuffing/Spam/OTP bypass
+IP-CIDR,185.134.20.0/24 # Proxy Botnet 扫描器常用节点，用于发现可控家宽设备与弱口令端口
+
 
 
 
