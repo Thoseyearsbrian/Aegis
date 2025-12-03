@@ -811,6 +811,18 @@ IP-CIDR,185.244.25.0/24 # GPON Botnet 扫描节点常用网段，活跃于全球
 IP-CIDR,91.215.85.0/24  # GPON 控制节点相关网段，用于 C2 回连与 Botnet 管理
 IP-CIDR,46.161.27.0/24  # 恶意载荷托管网段，用于 loader/payload 托管与感染链分发
 
+# > FiberHome / ZTE 家宽路由器 Botnet（弱口令 + 后门漏洞 / 扫描 + C2 控制）
+
+DOMAIN-SUFFIX,fiberhome-c2.net # FiberHome 路由器僵尸网络控制端点，用于回连、命令下发与DDoS任务调度
+DOMAIN-SUFFIX,fiberhome-loader.net # FiberHome 系列设备利用链 loader 托管域，用于推送 bot 二进制与执行脚本
+DOMAIN-SUFFIX,fiberhome-scan.net # FiberHome 设备扫描节点，用于批量扫描弱口令与已知漏洞（如 telnet 口令泄露）
+DOMAIN-SUFFIX,zte-c2.net # ZTE 家宽网关感染后的 C2 回连域，用于远程控制、僵尸节点管理与横向扩散
+DOMAIN-SUFFIX,zte-exploit.net # 结合旧版 ZTE Web 管理接口漏洞的利用链托管域
+DOMAIN-SUFFIX,zte-loader.net # ZTE 设备漏洞感染链 loader 下载端点，用于投递 botnet payload
+IP-CIDR,185.244.26.0/24 # 常见 IoT Botnet 扫描节点网段，活跃于 FiberHome/ZTE 家宽设备弱口令扫描
+IP-CIDR,91.215.86.0/24  # 僵尸网络 C2 管理网段，用于 FiberHome / ZTE Botnet 的命令与控制
+IP-CIDR,46.161.28.0/24  # Loader / payload 托管节点所在网段，用于恶意二进制下发
+
 
 
 
