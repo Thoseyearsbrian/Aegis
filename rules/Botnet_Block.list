@@ -1014,6 +1014,17 @@ DOMAIN-SUFFIX,browserupdatecheck.com # 假冒浏览器更新检查域，用于�
 DOMAIN-SUFFIX,content-layers.net # 恶意广告内容托管域，用于展示诱导页面、加载 JS Loader
 DOMAIN-SUFFIX,page-optimizer.net # 恶意 SEO / 流量过滤节点，用于判定环境避免沙箱分析
 
+# > Royal / Black Basta / BlackCat（ALPHV）前置感染链（Initial Access & Loader Delivery）
+
+DOMAIN-SUFFIX,secure-verifyupdate.com # 被用于伪装浏览器/系统更新的钓鱼域名，常用于触发 Loader 下载
+DOMAIN-SUFFIX,updates-checking.com # 用于引导受害者访问“系统更新”页面，结合恶意 JS 下发初始载荷
+DOMAIN-SUFFIX,cloudsync-service.net # Loader 托管节点，常用于 Royal / Black Basta 前期 DLL/Shellcode 分发
+DOMAIN-SUFFIX,system-securityscan.com # 假安全扫描域名，用于欺骗用户点击恶意文件或执行恶意脚本
+DOMAIN-SUFFIX,dl-delivery-cdn.net # 恶意内容投放 CDN，Black Basta 链路用于分发恶意 EXE/DLL
+DOMAIN-SUFFIX,sysverify-online.com # 用于执行环境判断、重定向与恶意 JS Loader 下发
+DOMAIN-SUFFIX,updater-sync.net # BlackCat 相关的初始访问节点，用于下载恶意 PowerShell/Batch Loader
+DOMAIN-SUFFIX,content-delivery-secure.net # 伪装“安全内容 CDN”的恶意基础设施，用于下发 Cobalt Strike/Brute Ratel Beacon
+
 
 
 
