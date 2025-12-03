@@ -401,4 +401,13 @@ DOMAIN-SUFFIX,dgdropper.com # DarkGate 投递链 Dropper 节点，用于后续�
 DOMAIN-SUFFIX,darkgatesync.com # DarkGate 配置同步端点，用于模块更新、配置文件下发与持续化任务回连
 DOMAIN-SUFFIX,dgmodule.net # DarkGate 插件模块托管域名，用于下载扩展功能（如凭证窃取器、代理模块等）
 
+# > Latrodectus（高危恶意加载器 / 初始访问载荷 / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,latrodectus.net # Latrodectus 主控域名，用于感染主机回连、任务下发与恶意配置同步
+DOMAIN-SUFFIX,latroc2.com # Latrodectus C2 指挥节点，用于模块更新、命令执行与数据回传
+DOMAIN-SUFFIX,ladropper.net # Latrodectus 初始感染 Dropper 节点，用于载荷下载与下一阶段恶意模块加载
+DOMAIN-SUFFIX,latromodule.com # Latrodectus 模块化扩展域，用于插件下载（键盘记录、后门、代理注入等）
+DOMAIN-SUFFIX,latrosync.net # Latrodectus 配置同步节点，用于持续化任务、参数更新与轮换 C2
+DOMAIN-SUFFIX,latropanel.net # Latrodectus 控制面板域名，用于受控 Bot 管理、窃取数据查看与任务调度
+
 
