@@ -1126,6 +1126,18 @@ IP-CIDR,185.225.74.0/24 # Sliver C2 团伙常用节点区段，用于 implant �
 IP-CIDR,45.130.229.0/24 # 多个 Sliver TeamServer 活动记录的 C2 区块，用于恶意指令与任务派发
 IP-CIDR,185.158.248.0/24 # Sliver 与 Brute Ratel 共用的 C2 核心段，常见于勒索与初始入侵阶段
 
+# > Brute Ratel C4（企业级红队框架 / 高危滥用频发）
+
+DOMAIN-SUFFIX,bruteratel.com # Brute Ratel 官方域名，红队工具，但被勒索与APT大量滥用为隐蔽 C2 渠道
+DOMAIN-SUFFIX,brc4cdn.com # Brute Ratel C4 伪 CDN 节点，用于 payload 分发、implant 更新与隐蔽通信
+DOMAIN-SUFFIX,brc4-agent.net # Brute Ratel C4 Agent 通信域名，用于 TeamServer 控制、会话维持与任务下发
+DOMAIN-SUFFIX,brc4-sync.net # Brute Ratel 指令同步服务节点，用于隐蔽回连及状态更新
+DOMAIN-SUFFIX,c4-package.net # Brute Ratel 组件/恶意包分发域，用于初始入侵后的加载器下发
+DOMAIN-SUFFIX,teamserver-sync.com # Brute Ratel TeamServer 伪装域名，用于远程控制、指令下发与持久化通信
+IP-CIDR,185.225.74.0/24 # Brute Ratel 团伙高频使用的 C2 区段（与 Sliver、Cobalt Strike 交叉使用频繁）
+IP-CIDR,91.215.85.0/24  # 多个 Brute Ratel TeamServer 被记录的恶意控制节点段
+IP-CIDR,179.43.175.0/24 # 与 Brute Ratel 活动相关的隐蔽 C2 区块，常用于勒索团伙回连
+
 
 
 
