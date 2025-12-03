@@ -410,4 +410,15 @@ DOMAIN-SUFFIX,latromodule.com # Latrodectus 模块化扩展域，用于插件下
 DOMAIN-SUFFIX,latrosync.net # Latrodectus 配置同步节点，用于持续化任务、参数更新与轮换 C2
 DOMAIN-SUFFIX,latropanel.net # Latrodectus 控制面板域名，用于受控 Bot 管理、窃取数据查看与任务调度
 
+# > Zloader / Terdot（银行木马 / 恶意加载器 / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,zloader.net # Zloader 主控域名，用于僵尸网络控制、任务下发与恶意配置同步
+DOMAIN-SUFFIX,zloadc2.com # Zloader C2 节点，用于感染主机回连、模块更新与指令执行
+DOMAIN-SUFFIX,zloadpanel.com # Zloader 控制面板域名，用于受控主机管理、凭证查看与攻击任务调度
+DOMAIN-SUFFIX,zloadsync.net # Zloader 配置同步端点，用于模块更新、恶意脚本加载与持久化任务下发
+DOMAIN-SUFFIX,terdotc2.net # Terdot（Zloader 变种）核心 C2 域，用于银行凭证窃取、浏览器流量劫持与数据回传
+DOMAIN-SUFFIX,terdotpanel.com # Terdot 控制台域名，用于查看窃取数据、管理僵尸节点与配置任务
+DOMAIN-SUFFIX,bankzload.com # Zloader 银行业务窃取链路域，用于MITB（浏览器中间人）、表单注入与交易劫持
+DOMAIN-SUFFIX,loaderzbot.net # Zloader 感染链加载器域名，用于初始载荷拉取、投递恶意模块与执行扩展功能
+
 
