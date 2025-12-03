@@ -823,6 +823,20 @@ IP-CIDR,185.244.26.0/24 # 常见 IoT Botnet 扫描节点网段，活跃于 Fiber
 IP-CIDR,91.215.86.0/24  # 僵尸网络 C2 管理网段，用于 FiberHome / ZTE Botnet 的命令与控制
 IP-CIDR,46.161.28.0/24  # Loader / payload 托管节点所在网段，用于恶意二进制下发
 
+# > D-Link / Tenda RCE Botnet（路由器 0day / 批量感染链 / 控制节点）
+
+DOMAIN-SUFFIX,dlink-rce.net # D-Link 路由器 RCE 漏洞利用链域名，用于分发攻击脚本、恶意载荷与感染模块
+DOMAIN-SUFFIX,dlink-c2.net # D-Link Botnet 指挥控制（C2）节点，用于受控设备回连、任务指令下发与恶意模块同步
+DOMAIN-SUFFIX,dlinkloader.com # D-Link Loader 节点，用于漏洞利用成功后的 Bot 加载器、恶意固件下载与执行
+DOMAIN-SUFFIX,dlinkscan.net # D-Link 扫描节点域名，用于批量探测全球 D-Link 设备的漏洞开放情况与弱口令资产
+DOMAIN-SUFFIX,tenda-rce.com # Tenda 路由器远程命令执行漏洞感染链入口，用于攻击脚本、payload 托管
+DOMAIN-SUFFIX,tendac2.net # Tenda Botnet 主控 C2 节点，用于设备回连、恶意任务同步与后续模块更新
+DOMAIN-SUFFIX,tendaldr.net # Tenda Loader 下载节点，用于下发 bot 二进制组件、后门模块与扫描脚本
+DOMAIN-SUFFIX,tendascan.net # Tenda 扫描模块控制域，用于批量扫描弱口令与漏洞利用目标
+IP-CIDR,185.225.18.0/24 # D-Link/Tenda Botnet 常见扫描源段，用于大规模设备探测与漏洞利用
+IP-CIDR,45.155.207.0/24 # 活跃 C2 与 loader 节点网段，用于恶意载荷拉取、模块同步与 Bot 心跳通信
+IP-CIDR,193.56.29.0/24 # 多份 IOC 指向的 Botnet 控制出口段，用于恶意任务下发与感染链协调
+
 
 
 
