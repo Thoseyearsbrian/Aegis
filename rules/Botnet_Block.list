@@ -709,4 +709,17 @@ IP-CIDR,92.118.36.0/24 # 工控 VPNFilter 变种常见恶意 C2 段，用于心�
 IP-CIDR,185.85.190.0/24 # 多个工业路由器样本命中段，用于模块更新、固件劫持与横向探测通信
 IP-CIDR,185.106.92.0/24 # 工控网络攻击者常用出口节点段，用于扫描、渗透与后门持久化行为
 
+# > FBot / PinkBot（挖矿 + 代理滥用 / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,fbotnet.net # FBot 主控域名，用于挖矿任务下发、代理节点同步与感染主机回连
+DOMAIN-SUFFIX,pinkbotc2.com # PinkBot C2 指挥节点，用于受控主机心跳、代理任务推送与恶意脚本拉取
+DOMAIN-SUFFIX,fbotpanel.com # FBot 控制面板域名，用于僵尸网络状态管理、挖矿收益监控与任务调度
+DOMAIN-SUFFIX,fbotupdate.net # FBot 更新端点，用于矿工模块更新、恶意配置同步与插件下载
+DOMAIN-SUFFIX,pinkloader.net # PinkBot Loader 节点，用于初始感染阶段的下载器、脚本与挖矿模块部署
+DOMAIN-SUFFIX,proxyfbot.com # FBot 代理滥用节点，用于创建大规模代理隧道、流量转发与隐藏攻击源
+DOMAIN-SUFFIX,fbotdropper.net # FBot 投递链 Dropper 域名，用于恶意脚本拉取、弱口令安装与后续载荷下载
+
+IP-CIDR,194.5.98.0/24 # 多份 FBot/PinkBot IOC 指向的恶意出口段，用于挖矿任务同步与代理中转
+IP-CIDR,45.9.148.0/24 # PinkBot 活跃 C2 节点段，用于 Bot 回连、扫描活动与恶意模块更新
+
 
