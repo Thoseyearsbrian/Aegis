@@ -306,4 +306,14 @@ DOMAIN-SUFFIX,poisonrat.com # PoisonRat 后门木马的指挥控制域名，用�
 DOMAIN-SUFFIX,poisonrat.net # PoisonRat Botnet C2 节点，负责管理感染主机与推送恶意载荷
 IP-CIDR,103.148.72.0/24 # Hupigon/PoisonRat 常用恶意 C2 IP 段，涉及远控通道、窃密与木马传播
 
+# > SmokeLoader（恶意加载器 / 僵尸网络 C2 / 恶意投递链）
+
+DOMAIN-SUFFIX,smokeloader.com # SmokeLoader 主控域名，用于僵尸网络管理、恶意任务下发与初始感染控制
+DOMAIN-SUFFIX,smokebot.net # SmokeLoader 关联的 C2 控制节点，用于恶意载荷拉取与模块化命令执行
+DOMAIN-SUFFIX,smokepanel.com # SmokeLoader 控制面板域名，用于 Bot 管理、状态监控与恶意指令调度
+DOMAIN-SUFFIX,smokeloaderpanel.net # SmokeLoader 后端运维域名，用于感染机器回连、任务同步与配置更新
+DOMAIN-SUFFIX,loader-smoke.com # SmokeLoader 在投递链中的加载器域名，用于下载附加恶意模块与后续木马
+DOMAIN-SUFFIX,smokedrop.net # SmokeLoader 投递链“Dropper”节点，用于早期感染阶段的恶意载荷分发
+DOMAIN-SUFFIX,smokec2sync.com # SmokeLoader 配置同步与模块更新端点，用于隐蔽回连与持续化控制
+
 
