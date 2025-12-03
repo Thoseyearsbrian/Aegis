@@ -796,9 +796,21 @@ DOMAIN-SUFFIX,arcadyan-zero.net # Arcadyan 固件 0day Botnet 指挥控制域，
 DOMAIN-SUFFIX,zyxel-c2-panel.com # Zyxel 路由器 Botnet 控制面板域名，用于管理受控节点与上传恶意配置
 DOMAIN-SUFFIX,router-payload.net # 路由器漏洞投递域，用于分发 exploit、loader 与后门模块
 DOMAIN-SUFFIX,soho-scanner.net # 路由器漏洞扫描器控制域，用于大规模 SOHO 设备探测与感染链管理
-
 IP-CIDR,45.146.164.0/24 # Router Botnet 扫描器常用网段，用于 Realtek/Arcadyan 大规模扫描
 IP-CIDR,185.225.19.0/24 # 路由器 Botnet 控制 C2 活跃网段，用于受控设备的指令与状态同步通信
 IP-CIDR,212.192.246.0/24 # 漏洞利用模块托管节点网段，常用于分发 exploit 代码与 loader 二进制文件
+
+# > GPON 路由器 Botnet（家庭网关 0day / 大规模僵尸网络感染链）
+
+DOMAIN-SUFFIX,gpon-exploit.net # GPON 0day 漏洞利用链域名，用于分发 PoC、exploit 脚本与初始感染模块
+DOMAIN-SUFFIX,gpon-c2.net # GPON Botnet 指挥控制域名，用于僵尸节点回连、任务下发与状态同步
+DOMAIN-SUFFIX,gpon-loader.net # 恶意 loader 模块托管域，用于下载 bot 二进制文件与执行后门加载器
+DOMAIN-SUFFIX,gpon-scan.net # GPON 漏洞扫描节点域名，用于批量探测全球 GPON 设备的可利用目标
+DOMAIN-SUFFIX,gpon-shell.net # GPON RCE 获取的 shell 回连域，用于建立反控通道与执行系统命令
+IP-CIDR,185.244.25.0/24 # GPON Botnet 扫描节点常用网段，活跃于全球端口探测和漏洞扫描
+IP-CIDR,91.215.85.0/24  # GPON 控制节点相关网段，用于 C2 回连与 Botnet 管理
+IP-CIDR,46.161.27.0/24  # 恶意载荷托管网段，用于 loader/payload 托管与感染链分发
+
+
 
 
