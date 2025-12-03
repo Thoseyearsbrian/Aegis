@@ -451,4 +451,15 @@ DOMAIN-SUFFIX,miraiupdate.net # Mirai 模块更新节点，用于持续更新恶
 DOMAIN-SUFFIX,iotddos.net # Mirai 变种常用攻击域，用于 DDoS 命令推送与全球僵尸网络协调
 DOMAIN-SUFFIX,miraigate.com # Mirai 远程代理/网关节点，用于隐藏真实 C2 与转发恶意指令
 
+# > Mozi（P2P IoT 僵尸网络 / DHT 去中心化控制 / 弱口令批量感染）
+
+DOMAIN-SUFFIX,mozibotnet.com # Mozi 僵尸网络核心识别域名，用于 Bot 标识、节点分发与恶意配置传播
+DOMAIN-SUFFIX,mozic2.net # Mozi 控制节点辅助域名，用于部分样本的模块更新与感染链落地域名
+DOMAIN-SUFFIX,moziupdate.net # Mozi 更新与指令同步端点，用于 Bot 配置更新、脚本传输与后续任务下发
+DOMAIN-SUFFIX,mozipanel.com # Mozi 控制面板相关域，用于 Bot 状态查看、感染管理与攻击调度
+DOMAIN-SUFFIX,mozi-ddns.net # Mozi 伪 DDNS 域名，用于隐藏节点真实地址并作为溯源混淆层
+DOMAIN-SUFFIX,iotmozi.com # Mozi 物联网感染链域名，用于弱口令扫描后的载荷投递与命令脚本加载
+DOMAIN-SUFFIX,mozi-network.org # Mozi 去中心化网络标识域，用于 DHT 节点同步、恶意流量广播与 Bot 状态更新
+IP-CIDR,45.9.148.0/24 # Mozi 核心恶意节点常用 IP 段之一（全球多份 IOC 中出现），用于 P2P 稳定节点与恶意配置传播
+
 
