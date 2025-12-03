@@ -359,13 +359,14 @@ DOMAIN-SUFFIX,nsclick.baidu.com # 百度广告点击跟踪接口
 DOMAIN-SUFFIX,log.baidu.com # 百度通用日志采集接口  
 DOMAIN-SUFFIX,su.bdimg.com # 百度图片服务节点，用于图像资源加载  
 DOMAIN-SUFFIX,img.baidu.com # 百度图片搜索服务接口 
-DOMAIN-SUFFIX,baidupcs.com  # 百度网盘主文件下载与上传服务域名
-DOMAIN-SUFFIX,pan.baidu.com  # 百度网盘网页版主域名，用于资源浏览与分享管理
-DOMAIN-SUFFIX,d.pcs.baidu.com  # 百度网盘资源分发节点，用于文件传输与预览
-DOMAIN-SUFFIX,n.pcs.baidu.com  # 百度网盘节点域名，用于内容分发与流量调度
-DOMAIN-SUFFIX,issuecdn.baidupcs.com  # 百度网盘客户端下载与更新服务
-DOMAIN-SUFFIX,yun.baidu.com  # 百度网盘登录跳转与推广入口域名
-DOMAIN-SUFFIX,pcs.baidu.com  # 百度网盘旧版服务接口域名，兼容部分客户端请求
+DOMAIN-SUFFIX,baidupcs.com # 百度网盘主文件下载与上传服务域名
+DOMAIN-SUFFIX,pan.baidu.com # 百度网盘网页版主域名，用于资源浏览与分享管理
+DOMAIN-SUFFIX,d.pcs.baidu.com # 百度网盘资源分发节点，用于文件传输与预览
+DOMAIN-SUFFIX,n.pcs.baidu.com # 百度网盘节点域名，用于内容分发与流量调度
+DOMAIN-SUFFIX,issuecdn.baidupcs.com # 百度网盘客户端下载与更新服务
+DOMAIN-SUFFIX,yun.baidu.com # 百度网盘登录跳转与推广入口域名
+DOMAIN-SUFFIX,pcs.baidu.com # 百度网盘旧版服务接口域名，兼容部分客户端请求
+DOMAIN-SUFFIX,m.baeapps.com # 用于广告加载与活动页资源调用，常见于集成 BAE 服务的移动应用
 
 # > 16map 地图服务平台（第三方地图嵌入与位置服务）
 
