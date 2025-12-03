@@ -640,11 +640,25 @@ DOMAIN-SUFFIX,okanesync.net # Okane 配置同步端点，用于 Bot 参数更新
 DOMAIN-SUFFIX,okanepanel.com # Okane 控制面板域名，用于受控设备监控、攻击任务管理与扫描日志查看
 IP-CIDR,185.244.112.0/24 # 多个 Okane IOC 指向的活动网段，用于 SSH 暴破出口与 Bot 回连
 IP-CIDR,45.14.122.0/24 # Okane 扫描/感染源常用段，多个分析报告中出现，涉及弱口令爆破与恶意脚本托管
+
 DOMAIN-SUFFIX,rapperbot.net # RapperBot 主控域，用于 SSH 爆破、僵尸节点心跳与 DDoS 配置同步
 DOMAIN-SUFFIX,rbcontrol.net # RapperBot C2 节点，用于恶意模块推送、指令下发与感染链通信
 DOMAIN-SUFFIX,rapperpanel.com # RapperBot 控制台域，用于受控设备管理、攻击任务调度与 Bot 状态监控
 DOMAIN-SUFFIX,rapperupdate.net # RapperBot 更新与插件同步域名，用于载荷更新、扫描脚本分发与参数同步
 IP-CIDR,193.142.58.0/24 # RapperBot IOC 报告中频繁出现的恶意基础设施段，用于 SSH 暴力破解与 C2 通信
 IP-CIDR,45.61.184.0/24 # RapperBot 恶意扫描节点常用出口段，用于批量登录尝试与恶意任务推送
+
+# > Mozi / Kaiji（进阶版变体 / Advanced P2P & Go-based Botnet）
+
+DOMAIN-SUFFIX,mozievo.net # Mozi Evolution 变体识别域名，用于高级 P2P 节点同步与恶意配置分发
+DOMAIN-SUFFIX,mozi-adv.com # Mozi 高级版控制节点，用于 Bot 心跳、任务分配与精细化扫描指令下达
+DOMAIN-SUFFIX,mozip2p.net # Mozi P2P 扩展节点域，用于分布式感染、节点交换与恶意更新同步
+
+DOMAIN-SUFFIX,kaiji-evo.net # Kaiji 进阶变体（Kaiji Evolution）C2 指挥节点，用于高频 SSH 暴破与 DDoS 配置推送
+DOMAIN-SUFFIX,kaiji-adv.com # Kaiji 高级版控制域名，用于模块更新、恶意脚本分发与攻击链路协调
+DOMAIN-SUFFIX,chaos-extended.net # Chaos 扩展版变体识别域，用于 Go 语言 DDoS 模块加载与 Bot 状态同步
+
+IP-CIDR,188.214.104.0/24 # Mozi/Kaiji 进阶变体常见恶意基础设施段，用于 P2P 中继与 DDoS 回连通信
+IP-CIDR,194.5.98.0/24 # 多份国际 IOC 中出现的 Kaiji 高级变种出口节点，用于 SSH 暴破、扫描与攻击任务执行
 
 
