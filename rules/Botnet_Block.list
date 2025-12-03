@@ -157,3 +157,11 @@ DOMAIN-SUFFIX,netwirerat.com # NetWire RAT 常见恶意 C2 域，用于指挥控
 DOMAIN-SUFFIX,netwirecontrol.com # NetWire RAT 控制面板相关域名，攻击者用于管理受害主机的远控会话
 DOMAIN-SUFFIX,netwirepanel.com # NetWire RAT 控制面板托管域，用于命令下发与恶意任务调度
 DOMAIN-SUFFIX,netwirec2.com # NetWire RAT 僵尸网络指挥控制域名，用于隐蔽回连与恶意通信
+
+# > NanoCore RAT（远程访问木马 / 插件化 C2 基础设施）
+
+DOMAIN-SUFFIX,nanocore.io # NanoCore RAT 控制面板相关域名，用于受控终端管理与命令下发
+DOMAIN-SUFFIX,nanocorerat.com # NanoCore 僵尸网络 C2 域，用于恶意指令、键盘记录与系统控制
+DOMAIN-SUFFIX,nanocorepanel.com # NanoCore RAT 控制台托管域，用于攻击者操作面板与回连管理
+DOMAIN-SUFFIX,nanocorec2.com # NanoCore 恶意回连端点，用于隐蔽 C2 通信与插件指令下发
+DOMAIN-SUFFIX,nanocoreremote.com # 与 NanoCore 分发链路相关的控制域，用于远程负载与后门部署通信
