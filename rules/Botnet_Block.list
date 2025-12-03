@@ -678,4 +678,20 @@ DOMAIN-SUFFIX,rbloader.net # RapperBot Loader 节点，负责初始感染阶段�
 IP-CIDR,45.155.226.0/24 # Okane/RapperBot 常见 SSH 暴力破解出口段，用于批量扫描与登录尝试
 IP-CIDR,185.225.75.0/24 # RapperBot 活跃 C2 基础设施段，多份 IOC 中涉及 DoS 攻击与 Bot 回连
 
+# > Sylex / Xorddos（破坏型 Botnet / 配置破坏与系统破坏 / 高危僵尸网络）
+
+DOMAIN-SUFFIX,sylexbotnet.com # Sylex 僵尸网络识别域名，用于 Bot 标识、恶意任务同步与破坏指令下发
+DOMAIN-SUFFIX,sylexc2.net # Sylex 主控 C2 节点，用于受感染设备心跳、配置擦除命令与破坏任务推送
+DOMAIN-SUFFIX,sylexloader.net # Sylex Loader 节点，用于破坏前阶段的恶意载荷下载、脚本拉取与感染扩散
+DOMAIN-SUFFIX,sylexupdate.net # Sylex 更新域，用于同步破坏脚本、模块更新与恶意指令同步
+
+DOMAIN-SUFFIX,xorddos.net # Xorddos（又名 XOR DDoS）核心控制域名，用于 DDoS 任务、C2 回连与恶意指令执行
+DOMAIN-SUFFIX,xordc2.com # Xorddos C2 节点，用于受控主机心跳、攻击任务调度和模块加载
+DOMAIN-SUFFIX,xordpanel.net # Xorddos 控制面板域，用于僵尸网络管理、系统信息收集与攻击调度
+DOMAIN-SUFFIX,xordupdate.net # Xorddos 更新端点，用于 DDoS 模块、扫描脚本与恶意配置下发
+DOMAIN-SUFFIX,xorddropper.com # Xorddos 投递链 Dropper 节点，用于初始感染载荷与恶意脚本下载
+
+IP-CIDR,103.159.30.0/24 # Xorddos IOC 中频繁出现的恶意节点段，用于 DDoS 出口与 Bot 回连
+IP-CIDR,45.140.168.0/24 # Sylex 相关活动基础设施段，用于扫描、破坏指令下发与感染链同步
+
 
