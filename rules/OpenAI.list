@@ -437,5 +437,9 @@ DOMAIN-SUFFIX,opt-i18n.ciciai.com # Ciciai 国际化内容服务端点，用于�
 DOMAIN-SUFFIX,vmweb-sg.ciciai.com # Ciciai 新加坡区域 Web 服务节点，用于推理网络、会话管理与国际线路访问
 DOMAIN-SUFFIX,mcs-sg.ciciai.com # Ciciai 新加坡区域多媒体/后端接口节点，用于文件处理、资源访问与模型处理任务
 
+# > aibusiness.com（AI Business — AI 行业新闻 / 报告 / 内容分发站点）
+
+DOMAIN-SUFFIX,aibusiness.com # AI Business 主站域名，用于文章、报告、新闻与行业内容发布与访问
+
 
 
