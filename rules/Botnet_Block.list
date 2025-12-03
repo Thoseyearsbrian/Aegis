@@ -482,4 +482,14 @@ DOMAIN-SUFFIX,ratxtreme.net # XtremeRAT 辅助恶意基础设施域，用于隐�
 DOMAIN-SUFFIX,xtremeupdate.com # XtremeRAT 更新节点，用于模块更新、持久化任务拉取与恶意脚本同步
 IP-CIDR,185.244.25.0/24 # XtremeRAT 样本常用恶意 IP 段，用于 C2 通信、命令执行与数据外泄
 
+# > RemNoteRAT（远程控制木马 / 后门植入 / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,remnoterat.com # RemNoteRAT 主控域名，用于远控会话、指令下发与感染主机回连
+DOMAIN-SUFFIX,remnotecontrol.net # RemNoteRAT 控制节点域，用于受控终端管理、行为监控与恶意任务执行
+DOMAIN-SUFFIX,remnotec2.com # RemNoteRAT 常见 C2 域名，用于隐蔽通信、插件加载与配置同步
+DOMAIN-SUFFIX,remnotepanel.com # RemNoteRAT 面板端域名，用于攻击者后台、窃密数据查看与 Bot 管理
+DOMAIN-SUFFIX,rnratloader.net # RemNoteRAT Loader 投递链域名，用于初始感染载荷与模块加载
+DOMAIN-SUFFIX,remnoteupdate.org # RemNoteRAT 更新节点，用于恶意插件、模块与任务调度配置的同步
+IP-CIDR,91.224.140.0/24 # RemNoteRAT 样本常见恶意 IP 段，用于 C2 回连、命令执行与数据外泄
+
 
