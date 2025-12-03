@@ -60,6 +60,13 @@ DOMAIN-SUFFIX,remoteaccess.gotoassist.com # GoToAssist Remote Access 服务域�
 DOMAIN-SUFFIX,goto.com # GoTo（原 LogMeIn）统一主域，包含 GoToAssist、GoToMyPC 等远控服务入口
 DOMAIN-SUFFIX,g2a.goto.com # GoToAssist 后端服务节点，用于远控会话维持、设备注册与连接调度
 
+# > GoToMyPC / LogMeIn（合法远控工具 / 常被用于后门控制）
+
+DOMAIN-SUFFIX,gotomypc.com # GoToMyPC 官方主域名，合法远控工具，但在攻击中常被滥用为隐蔽远程访问渠道
+DOMAIN-SUFFIX,logmein.com # LogMeIn 主域名，GoToMyPC 相关服务的统一入口，常用于身份验证与连接建立
+DOMAIN-SUFFIX,client.gotomypc.com # GoToMyPC 客户端服务域名，用于远控会话建立、主机连接与设备注册
+DOMAIN-SUFFIX,broker.gotomypc.com # GoToMyPC 会话中继/Broker 服务，用于远程桌面连接调度与穿透
+
 # > Dridex（银行木马 / 高危恶意软件家族 IOC）
 
 DOMAIN-SUFFIX,dridex.com # Dridex 恶意软件家族相关域名，用于 C2 通信、恶意载荷下载与僵尸网络控制
