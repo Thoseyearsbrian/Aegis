@@ -107,3 +107,13 @@ DOMAIN-SUFFIX,updatepanel.net # Vidar 感染链中使用的模块更新/插件�
 DOMAIN-SUFFIX,malrack.com # Vidar 投递链相关基础设施，用于初始下载器、恶意载荷与分发渠道
 DOMAIN-SUFFIX,coldclient.net # Vidar C2 备用节点，用于隐蔽回连与 Bot 状态上报
 DOMAIN-SUFFIX,clientpanel.net # Vidar 运营面板域，用于攻击者查看数据、管理受控主机
+
+# > Lumma Stealer（信息窃取木马 / 窃密类恶意软件 C2 基础设施）
+
+DOMAIN-SUFFIX,lummac2.com # Lumma Stealer 主控制端域名，用于任务下发、Bot 管理与配置同步
+DOMAIN-SUFFIX,lummastealer.com # Lumma 感染链主域，用于恶意载荷分发与初始部署
+DOMAIN-SUFFIX,lummafiles.net # Lumma 模块与插件下载端点，用于更新组件与后续恶意任务推送
+DOMAIN-SUFFIX,lummahub.net # Lumma 后台面板，用于攻击者查看窃取数据、管理受控主机
+DOMAIN-SUFFIX,lummahost.net # Lumma 备用 C2 域名，用于隐蔽回连与确保控制稳定性
+DOMAIN-SUFFIX,c2lumma.com # Lumma C2 回连节点，用于 Bot 状态上报、窃取数据上传与命令执行
+DOMAIN-SUFFIX,lummaupload.net # Lumma 数据外泄端点，用于凭证、Cookies、钱包密钥等敏感信息的回传
