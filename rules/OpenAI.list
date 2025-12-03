@@ -442,3 +442,16 @@ DOMAIN-SUFFIX,mcs-sg.ciciai.com # Ciciai 新加坡区域多媒体/后端接口�
 # > aibusiness.com（AI Business — AI 行业新闻 / 报告 / 内容分发站点）
 
 DOMAIN-SUFFIX,aibusiness.com # AI Business 主站域名，用于文章、报告、新闻与行业内容发布与访问
+
+# > Fireworks AI（大模型推理加速 / LLM 托管平台）
+
+DOMAIN-SUFFIX,fireworks.ai # Fireworks AI 官方主站，用于产品介绍、模型体验、控制台入口
+DOMAIN-SUFFIX,api.fireworks.ai # Fireworks API 主端点，用于调用 LLM、Embedding、推理加速等模型服务
+DOMAIN-SUFFIX,app.fireworks.ai # Fireworks 控制台，用于 API Key 管理、账单、项目设置与模型部署管理
+DOMAIN-SUFFIX,docs.fireworks.ai # Fireworks 文档站点，提供 API 文档、示例代码与 SDK 指南
+DOMAIN-SUFFIX,cdn.fireworks.ai # Fireworks 静态资源 CDN，用于前端脚本、样式、界面资源加载
+DOMAIN-SUFFIX,assets.fireworks.ai # Fireworks 静态素材资源域名，用于加载图标、字体与 UI 内容
+DOMAIN-SUFFIX,platform.fireworks.ai # Fireworks 平台级服务入口，用于项目、模型与团队管理
+DOMAIN-SUFFIX,studio.fireworks.ai # Fireworks Studio Web UI，用于在线体验模型、调参与推理测试
+DOMAIN-SUFFIX,chat.fireworks.ai # Fireworks 原生 Chat 界面入口，用于测试 Fireworks 提供的 LLM 聊天服务
+DOMAIN-SUFFIX,status.fireworks.ai # Fireworks 服务状态监控域名，用于查看 API、控制台与推理系统运行情况
