@@ -8201,6 +8201,7 @@ DOMAIN-SUFFIX,servedby-buysellads.com # BuySellAds 广告投放主域名，用�
 DOMAIN-SUFFIX,m.servedby-buysellads.com # BuySellAds 移动端广告分发节点，用于移动页面广告请求与行为追踪
 DOMAIN-SUFFIX,6600d6d98e534115970f9529a45f3195.js.ubembed.com # ubembed.com 第三方广告脚本加载域名
 DOMAIN-SUFFIX,cdn.feathr.co # Feathr 第三方广告 / 受众分析组件 CDN 
+DOMAIN-SUFFIX,m.baeapps.com # BAE 移动端服务域名，用于加载前端页面、广告组件或活动内容，常见于集成百度 App Engine（BAE）服务的应用中
 IP-CIDR,172.217.194.149 # DoubleClick 广告服务 IP，用于广告内容加载与用户行为追踪
 IP-CIDR,172.217.194.148 # Google DoubleClick 广告服务 IP（备用节点），用于广告内容加载与行为识别
 IP-CIDR,203.119.238.0/24 # 阿里广告基础设施段（杭州机房）
