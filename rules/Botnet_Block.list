@@ -534,4 +534,15 @@ DOMAIN-SUFFIX,p2pinfectsync.com # P2PInfect 配置同步域名，用于 Bot 配�
 IP-CIDR,185.246.220.0/24 # P2PInfect IOC 中出现的恶意扫描 IP 段，用于 Redis 爆破与 P2P 节点传播
 IP-CIDR,91.214.124.0/24 # P2PInfect 感染活动常见扫描源，用于 Redis 主从复制攻击与横向移动
 
+# > Chaos / Kaiji（Go 语言编写的 Linux DDoS Botnet / SSH 暴力破解感染链）
+
+DOMAIN-SUFFIX,chaos-ddos.net # Chaos Botnet 主控域名，用于 DDoS 攻击任务下发与感染节点心跳通信
+DOMAIN-SUFFIX,kaijibotnet.com # Kaiji 僵尸网络核心 C2 域名，用于受控设备回连、模块更新与恶意任务同步
+DOMAIN-SUFFIX,chaoscontrol.net # Chaos 控制面板/运营端域名，用于 Bot 管理、攻击流量调度与节点监控
+DOMAIN-SUFFIX,chaossync.net # Chaos 配置同步端点，用于恶意载荷更新、扫描脚本下发与 C2 轮换
+DOMAIN-SUFFIX,kaijic2.net # Kaiji C2 指挥节点，用于 SSH 暴力破解回传、Bot 状态上报与命令执行
+DOMAIN-SUFFIX,botnetchaos.com # Chaos 感染链辅助域，用于 Loader 下载、脚本拉取与攻击模块部署
+IP-CIDR,107.189.0.0/22 # Chaos/Kaiji 攻击者常用出口节点之一，多份 IOC 出现，用于 SSH 暴力破解与 Bot 回连
+IP-CIDR,198.98.48.0/20 # Chaos 扫描与攻击源常用 IP 段，用于大规模 SSH/端口扫描与 DDoS 指令推送
+
 
