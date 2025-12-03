@@ -734,4 +734,15 @@ DOMAIN-SUFFIX,demonupdate.net # DemonBot 更新端点，用于配置同步、扫
 IP-CIDR,185.244.25.0/24 # 多份 DemonBot IOC 中出现的恶意出口段，用于 DDoS 流量、Bot 回连与扫描活动
 IP-CIDR,104.129.18.0/24 # DemonBot 活跃 C2 节点段，用于 Hadoop YARN 批量攻击与挖矿任务同步
 
+# > Hoaxcalls（VoIP Botnet / SIP 扫描 + PBX 攻击链）
+
+DOMAIN-SUFFIX,hoaxcalls.net # Hoaxcalls 僵尸网络识别域，用于受控 VoIP 节点心跳回连与任务同步
+DOMAIN-SUFFIX,hoaxc2.com # Hoaxcalls C2 控制节点，用于 SIP 扫描、大规模 VoIP DDoS 与恶意配置下发
+DOMAIN-SUFFIX,hoaxpanel.net # Hoaxcalls 控制面板域名，用于管理受控 PBX/VoIP 设备与监控攻击任务
+DOMAIN-SUFFIX,voiphoax.net # Hoaxcalls 感染链辅助域，用于恶意 SIP 模块下载与初始攻击脚本拉取
+DOMAIN-SUFFIX,siphoaxcalls.com # Hoaxcalls 扫描链域名，用于 SIP 端口扫描、暴力破解与僵尸节点发现
+DOMAIN-SUFFIX,pbxupdate.net # PBX 攻击链恶意更新节点，用于下载扫描脚本与持续化恶意模块
+IP-CIDR,185.30.168.0/24 # 多份 Hoaxcalls IOC 出现的恶意 VoIP 扫描源段，用于 SIP 认证爆破与攻击指令转发
+IP-CIDR,193.56.28.0/24 # Hoaxcalls 活跃 C2/扫描节点段，用于 PBX 攻击、VoIP DDoS 与僵尸节点回连
+
 
