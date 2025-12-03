@@ -1949,3 +1949,11 @@ DOMAIN-SUFFIX,api-c.sobot.com # 智齿客服 API 接口域名，用于网页聊�
 DOMAIN-SUFFIX,imws.sobot.com # 智齿客服 WebSocket 域名，用于消息实时推送与会话维持
 DOMAIN-SUFFIX,crumb.sobot.com # 智齿客服身份校验与会话凭证服务域名，用于用户状态验证
 DOMAIN-SUFFIX,errorlog.sobot.com # 智齿客服错误日志上报接口域名，用于收集前端异常与诊断数据
+
+# > Koala（GetKoala 前端组件 / 营销工具平台）
+
+DOMAIN-SUFFIX,getkoala.com # Koala（GetKoala）服务主域名，用于营销组件、弹窗系统与站点互动工具入口
+DOMAIN-SUFFIX,cdn.getkoala.com # Koala 静态资源 CDN，用于加载前端脚本、样式、弹窗组件与站点互动控件
+DOMAIN-SUFFIX,api.getkoala.com # Koala API 后端，用于弹窗逻辑、A/B 测试、用户交互配置与组件行为返回
+DOMAIN-SUFFIX,assets.getkoala.com # Koala 静态素材资源域，用于图片、图标、营销组件素材加载
+DOMAIN-SUFFIX,app.getkoala.com # Koala 后台管理控制台，用于站点配置、营销自动化、弹窗编辑与行为数据查看
