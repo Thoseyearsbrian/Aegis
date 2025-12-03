@@ -1760,6 +1760,9 @@ DOMAIN-SUFFIX,render.vidu.com # Vidu 渲染服务域名，用于视频渲染任�
 DOMAIN-SUFFIX,cf.vidu.studio # Vidu 静态资源 CDN 域名，用于模型推理生成的图片、视频等内容的多媒体分发
 DOMAIN-SUFFIX,image01.cf.vidu.studio # Vidu 多媒体子域名，用于 AI 生成内容的图片资源加载与分发
 DOMAIN-SUFFIX,image01.vidu.zone # Vidu 媒体资源子域名，用于图像与模型生成内容的静态资源加载
+DOMAIN-SUFFIX,www.vidu.cn # 即构科技 Vidu 主站域名，用于官网访问、服务介绍与产品文档浏览
+DOMAIN-SUFFIX,static.vidu.cn # 即构科技静态资源域名，用于加载 JS/CSS/图标等前端页面资源
+DOMAIN-SUFFIX,service.vidu.cn # 即构科技服务接口域名，用于视频服务相关的 API 调用与资源请求
 
 # > ByteDance AI（Doubao / VolcEngine）相关域名
 
