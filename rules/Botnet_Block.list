@@ -1043,11 +1043,20 @@ IP-CIDR,185.156.73.0/24 # Ymir 相关恶意任务同步节点段，用于更新 
 # > Arma / Moobot Pro（Mirai 高级变种 / 企业路由器与 IoT 设备Botnet）
 
 IP-CIDR,194.26.135.0/24 # Arma Botnet 控制节点段，用于下发恶意 Payload 与 DDoS 指令
-IP-CIDR,91.215.85.0/24  # Moobot Pro 感染链常用网段，用于扫描弱口令与设备漏洞
-IP-CIDR,45.61.188.0/24  # Mirai 高级变体任务调度段，用于同步配置与分配攻击目标
-IP-CIDR,146.70.46.0/24  # 常被用于下载恶意二进制（bot loader）和维持 Botnet 活性
+IP-CIDR,91.215.85.0/24 # Moobot Pro 感染链常用网段，用于扫描弱口令与设备漏洞
+IP-CIDR,45.61.188.0/24 # Mirai 高级变体任务调度段，用于同步配置与分配攻击目标
+IP-CIDR,146.70.46.0/24 # 常被用于下载恶意二进制（bot loader）和维持 Botnet 活性
 IP-CIDR,185.214.103.0/24 # Arma/Moobot 扫描节点网段，用于扩散 SSH/Telnet 感染
-IP-CIDR,89.117.68.0/24  # Mirai Pro C2 辅助节点，用于备用控制链路与数据同步
+IP-CIDR,89.117.68.0/24 # Mirai Pro C2 辅助节点，用于备用控制链路与数据同步
+
+# > Pysa Loader（Pysa/Mespinoza 勒索软件前置感染链 Loader）
+
+DOMAIN-SUFFIX,pysaloader.net # Pysa 前置载荷下载域，用于拉取恶意 DLL / shellcode / 配置文件
+DOMAIN-SUFFIX,mespinoza-sync.com # Pysa/Mespinoza 配置同步域名，用于任务分发与后续模块下发
+DOMAIN-SUFFIX,pysa-c2panel.com # Pysa Loader C2 面板域，用于管理受害主机与同步勒索阶段任务
+IP-CIDR,185.225.69.0/24 # 常用于 Pysa 基础设施的 C2 网段，托管恶意 loader 与命令控制信道
+IP-CIDR,91.219.236.0/24 # Pysa/Mespinoza 扫描节点网段，用于横向移动与初始渗透
+IP-CIDR,45.154.12.0/24 # Pysa Loader 备用下载网络段，用于拉取第二阶段 Payload
 
 
 
