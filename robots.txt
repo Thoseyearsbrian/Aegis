@@ -7,5 +7,36 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
+# ---- Block common mirror services / crawlers ----
+
+# Sourcegraph
+User-agent: Sourcegraph
+Disallow: /
+
+# Censys (cybersecurity crawler)
+User-agent: CensysInspect
+Disallow: /
+
+# Archive.org / Wayback Machine
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+# Common open-source mirrors / scrapers
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Generic rule for all others
 User-agent: *
 Disallow: /
