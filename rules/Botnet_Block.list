@@ -1031,6 +1031,15 @@ DOMAIN-SUFFIX,sysverify-online.com # 用于执行环境判断、重定向与恶�
 DOMAIN-SUFFIX,updater-sync.net # BlackCat 相关的初始访问节点，用于下载恶意 PowerShell/Batch Loader
 DOMAIN-SUFFIX,content-delivery-secure.net # 伪装“安全内容 CDN”的恶意基础设施，用于下发 Cobalt Strike/Brute Ratel Beacon
 
+# > Ymir / Pandora（新兴 IoT Botnet / 漏洞利用 + SSH 弱口令）
+
+IP-CIDR,185.253.160.0/24 # 与 Ymir Botnet 关联的扫描节点段，用于收集弱口令与开放端口设备
+IP-CIDR,193.142.146.0/24 # Pandora 控制基础设施网段，用于任务分发与指令同步
+IP-CIDR,146.70.50.0/24 # IoT 攻击链上常见 C2 端段，与 Pandora 家族多次关联
+IP-CIDR,45.9.20.0/24 # 利用弱口令 + telnet 扫描扩散的感染源段
+IP-CIDR,109.236.82.0/24 # Pandora Botnet 的恶意出口流量段，用于加载恶意二进制与脚本
+IP-CIDR,185.156.73.0/24 # Ymir 相关恶意任务同步节点段，用于更新 payload 与维持僵尸节点
+
 
 
 
