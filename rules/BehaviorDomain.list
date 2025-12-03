@@ -660,3 +660,4 @@ DOMAIN-SUFFIX,assets.growingio.com # GrowingIO 静态资源域名，用于加载
 # > 科大讯飞 安全分析域名
 
 DOMAIN-SUFFIX,idatalogconf.iflysec.com # 讯飞安全平台数据上报域名，用于采集安全相关日志与行为数据
+DOMAIN-SUFFIX,datalog.iflysec.com # 科大讯飞数据采集接口，用于行为日志、设备信息与交互数据的上报
