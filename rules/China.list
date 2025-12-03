@@ -186,6 +186,7 @@ DOMAIN-SUFFIX,www.volcengine.com # 火山引擎官网主站，用于产品介绍
 DOMAIN-SUFFIX,lf3-beecdn.bytetos.com # 字节跳动 CDN 域名，用于 Web 应用脚本、组件、样式加载
 DOMAIN-SUFFIX,console.volcengine.com # 火山引擎控制台登录域名，用于账号认证、资源管理与调用配置
 DOMAIN-SUFFIX,lf-c-flwb.bytetos.com # 字节跳动静态 CDN 节点，用于图像 / 视频预览资源加载
+DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com # 字节跳动 / ByteDance CDN 域名 — 用于静态资源 / 媒体内容分发与加载  
 IP-CIDR,106.38.222.179/32 # webcast100‑ws‑c‑hl.amemv.com 抖音 / 直播 WebSocket 服务节点  
 IP-CIDR,114.80.11.5/32 # webcast‑normal‑m.amemv.com 抖音 / 直播服务节点  
 IP-CIDR,140.249.108.50/32 # webcast‑core‑m.amemv.com 抖音 / 直播核心节点  

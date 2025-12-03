@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-02
+# - 更新时间：2025-12-03
 
 # > Apple 行为遥测服务
 
@@ -631,3 +631,7 @@ DOMAIN-SUFFIX,trace.shengshu-ai.com # 盛数 AI 行为追踪与事件日志上�
 
 DOMAIN-SUFFIX,bytedapm.com # 字节跳动 APM（Application Performance Monitoring）性能监控主域，用于前端性能、错误日志与稳定性数据上报
 DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com # 字节 APM 新加坡区域上报节点，用于测速、崩溃日志与实时埋点事件采集
+
+# > feelgood.cn（第三方用户行为分析与埋点服务）
+
+DOMAIN-SUFFIX,api.feelgood.cn # feelgood.cn 服务接口域名，用于行为数据收集与体验监控 SDK 上报
