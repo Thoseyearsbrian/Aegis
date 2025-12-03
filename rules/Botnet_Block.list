@@ -211,3 +211,12 @@ DOMAIN-SUFFIX,secure-update.org # ShadowPad 供应链攻击中常见伪装更新
 DOMAIN-SUFFIX,cloudsecurecdn.com # ShadowPad 使用的伪 CDN 域名，用于隐藏恶意 C2 流量
 DOMAIN-SUFFIX,shadow-update.com # ShadowPad 恶意更新入口，用于载荷下载与模块加载
 DOMAIN-SUFFIX,service-runtime.net # ShadowPad 模块通信伪装服务，用于远程控制与插件传输
+
+# > QuasarRAT（远控木马 / 开源工具被武器化）
+
+DOMAIN-SUFFIX,quasarrat.com # QuasarRAT 相关控制端伪装域名，用于远程命令与数据传输
+DOMAIN-SUFFIX,quasarcontrol.net # QuasarRAT C2 控制端域名，用于会话控制与键盘记录回传
+DOMAIN-SUFFIX,remote-quasar.net # QuasarRAT 远控通道域，用于恶意访问、屏幕捕获与文件管理
+DOMAIN-SUFFIX,quasarpanel.org # QuasarRAT 后端管理/面板伪装域名，用于获取插件与执行恶意任务
+DOMAIN-SUFFIX,rat-quasar.net # QuasarRAT 攻击链中常见的域名，用于感染后 C2 初始化
+DOMAIN-SUFFIX,secure-quasar.com # QuasarRAT 使用的伪安全服务域名，用于指令路由与隐蔽回连
