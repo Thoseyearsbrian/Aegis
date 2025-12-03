@@ -472,4 +472,14 @@ DOMAIN-SUFFIX,bifrostdrop.net # Bifrost Dropper 节点，用于恶意载荷托�
 DOMAIN-SUFFIX,ratbifrost.com # Bifrost 感染链辅助域名，用于伪装正常流量的 C2 回连与恶意脚本加载
 IP-CIDR,103.214.72.0/24 # Bifrost 木马活动常见恶意 IP 段，用于 Bot 回连、远程任务与隐蔽
 
+# > XtremeRAT（老牌远控木马 / 窃密后门 / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,xtremerat.com # XtremeRAT 主要控制域名，用于远控会话、键盘记录、屏幕捕获与数据回传
+DOMAIN-SUFFIX,xtremeratpanel.net # XtremeRAT 控制面板域名，用于受控主机管理、命令下发与恶意任务调度
+DOMAIN-SUFFIX,xratc2.com # XtremeRAT 僵尸网络 C2 指挥节点，用于 Bot 回连、配置同步与模块下载
+DOMAIN-SUFFIX,xratserver.net # XtremeRAT 服务端托管域，用于攻击者部署恶意远控与收集窃取数据
+DOMAIN-SUFFIX,ratxtreme.net # XtremeRAT 辅助恶意基础设施域，用于隐蔽回连、流量分发与插件加载
+DOMAIN-SUFFIX,xtremeupdate.com # XtremeRAT 更新节点，用于模块更新、持久化任务拉取与恶意脚本同步
+IP-CIDR,185.244.25.0/24 # XtremeRAT 样本常用恶意 IP 段，用于 C2 通信、命令执行与数据外泄
+
 
