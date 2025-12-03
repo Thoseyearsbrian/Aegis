@@ -14,6 +14,23 @@ IP-CIDR,221.228.217.0/32 # 江苏省高速恶意扫描源，长期参与端口�
 IP-CIDR,221.229.203.225/32 # 江苏高危恶意源，活跃于端口扫描、SSH 暴力破解与僵尸网络传播，非正常业务节点
 IP-CIDR,183.60.123.112/32 # 广东深圳高危恶意源，多次参与端口扫描、SSH 爆破与僵尸网络传播活动
 
+# > RemotelyAnywhere（合法远控工具 / 常被用于后门控制）
+
+DOMAIN-SUFFIX,remotelyanywhere.com # RemotelyAnywhere 官方主域名，合法远控工具，但在攻击中常被滥用为隐蔽远程控制渠道
+DOMAIN-SUFFIX,ra.logmein.com # RemotelyAnywhere/LogMeIn 后端服务域，用于远控连接、主机管理与会话维持
+DOMAIN-SUFFIX,logmein.com # LogMeIn 远程管理平台主域名（包含 RemotelyAnywhere 相关功能与连接）
+
+# > TeamViewer（合法远控软件 / 高危滥用率极高）
+
+DOMAIN-SUFFIX,teamviewer.com # TeamViewer 官方主域名，合法远程控制软件，但被勒索软件与入侵者广泛滥用为持久化后门
+DOMAIN-SUFFIX,teamviewerqs.com # TeamViewer QuickSupport 模块域名，用于快速临时控制，常被攻击者用于隐蔽接入
+DOMAIN-SUFFIX,teamviewerqs.net # TeamViewer QuickSupport 备用域名，用于会话建立与连接维持
+DOMAIN-SUFFIX,teamviewer.com.cn # TeamViewer 中国区域名，用于本地化入口与连接加速
+DOMAIN-SUFFIX,teamviewer.community # TeamViewer 社区域名，提供支持文档与问题讨论（攻击者常利用下载旧版客户端）
+DOMAIN-SUFFIX,dl.teamviewer.com # TeamViewer 下载分发域，用于客户端、模块与更新程序加载
+DOMAIN-SUFFIX,router.teamviewer.com # TeamViewer 连接路由节点，用于 NAT 穿透与主机之间的远控会话建立
+DOMAIN-SUFFIX,server.teamviewer.com # TeamViewer 中继服务器，用于会话转发、握手验证与连接中继
+
 # > Dridex（银行木马 / 高危恶意软件家族 IOC）
 
 DOMAIN-SUFFIX,dridex.com # Dridex 恶意软件家族相关域名，用于 C2 通信、恶意载荷下载与僵尸网络控制
@@ -243,12 +260,6 @@ DOMAIN-SUFFIX,netbot.cc # NetBot 僵尸网络主控域，用于设备回连、�
 DOMAIN-SUFFIX,netbotpanel.com # NetBot 控制面板相关域名，用于僵尸节点管理与任务推送
 DOMAIN-SUFFIX,nbcontrol.net # NetBot 指挥控制通道，用于恶意载荷下发与受控主机状态回传
 DOMAIN-SUFFIX,netbot-update.com # NetBot 恶意模块更新域名，用于插件、脚本与恶意配置文件同步
-
-# > RemotelyAnywhere（合法远控工具 / 常被用于后门控制）
-
-DOMAIN-SUFFIX,remotelyanywhere.com # RemotelyAnywhere 官方主域名，合法远控工具，但在攻击中常被滥用为隐蔽远程控制渠道
-DOMAIN-SUFFIX,ra.logmein.com # RemotelyAnywhere/LogMeIn 后端服务域，用于远控连接、主机管理与会话维持
-DOMAIN-SUFFIX,logmein.com # LogMeIn 远程管理平台主域名（包含 RemotelyAnywhere 相关功能与连接）
 
 # > Backdoor.Hupigon / PoisonRat（老牌远控木马 / 后门家族）
 
