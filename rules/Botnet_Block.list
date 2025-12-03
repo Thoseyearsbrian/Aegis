@@ -339,4 +339,16 @@ DOMAIN-SUFFIX,bumblegate.com # BumbleBee 伪装网关域名，用于加密回连
 DOMAIN-SUFFIX,loaderbee.net # BumbleBee 感染链辅助域名，用于伪装下载器与立足点部署模块加载
 DOMAIN-SUFFIX,bbeeload.com # BumbleBee 初始感染下载节点，用于宏文档/恶意 PDF 的恶意载荷拉取
 
+# > Gozi / Ursnif（银行木马 / 金融凭证窃取器 / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,gozius.com # Gozi 银行木马主控域，用于僵尸网络管理、恶意任务下发与数据外传
+DOMAIN-SUFFIX,ursnif.net # Ursnif（Gozi 派生家族）核心 C2 域名，用于感染主机回连与敏感数据窃取
+DOMAIN-SUFFIX,gozibot.net # Gozi Botnet C2 节点，用于命令执行、插件同步与恶意模块下发
+DOMAIN-SUFFIX,ursnifloader.com # Ursnif 恶意加载器相关域，用于初始感染载荷拉取与执行阶段恶意下载
+DOMAIN-SUFFIX,bankinggozi.com # Gozi 银行业务窃取链路域，用于 MITB（浏览器中间人）、表单劫持与凭证劫取
+DOMAIN-SUFFIX,gozicontrol.net # Gozi 控制台域名，用于僵尸主机管理、行为监控与恶意任务调度
+DOMAIN-SUFFIX,urzpanel.com # Ursnif 控制面板端点，用于窃取日志、凭证、Cookie 等敏感数据回传
+DOMAIN-SUFFIX,goziupdate.net # Gozi 更新节点，用于恶意模块更新、配置同步与持久化维持
+DOMAIN-SUFFIX,ursnifsync.org # Ursnif 配置同步端点，用于插件加载、脚本下发与恶意任务协调
+
 
