@@ -492,4 +492,15 @@ DOMAIN-SUFFIX,rnratloader.net # RemNoteRAT Loader 投递链域名，用于初始
 DOMAIN-SUFFIX,remnoteupdate.org # RemNoteRAT 更新节点，用于恶意插件、模块与任务调度配置的同步
 IP-CIDR,91.224.140.0/24 # RemNoteRAT 样本常见恶意 IP 段，用于 C2 回连、命令执行与数据外泄
 
+# > Glupteba（多功能后门木马 / 区块链 DNS 隧道化 C2 / 僵尸网络）
+
+DOMAIN-SUFFIX,glupteba.com # Glupteba 恶意运营主域名，用于感染主机回连、命令下发与恶意任务调度
+DOMAIN-SUFFIX,gluptebac2.net # Glupteba 核心 C2 域，负责 Bot 管理、配置同步与恶意模块加载
+DOMAIN-SUFFIX,gluptebapanel.com # Glupteba 控制面板域名，用于后台管理受控主机与窃取数据查看
+DOMAIN-SUFFIX,blockchainc2.net # Glupteba 使用区块链技术实现的分布式 C2 节点（常见于恶意样本配置中）
+DOMAIN-SUFFIX,routertraffic.net # Glupteba 代理/流量转发节点，用于恶意流量隐蔽、加密通信与广告欺诈跳转
+DOMAIN-SUFFIX,winsharedll.net # Glupteba 伪装系统 DLL 下载节点，用于持久化组件与恶意模块更新
+DOMAIN-SUFFIX,networksecurecdn.com # Glupteba 恶意 CDN 域名，用于分发感染阶段载荷与辅助组件
+IP-CIDR,45.9.20.0/24 # Glupteba 核心 C2 常见恶意 IP 段，用于命令执行、数据外泄与 Bot 回连
+
 
