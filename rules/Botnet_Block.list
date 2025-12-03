@@ -462,4 +462,14 @@ DOMAIN-SUFFIX,iotmozi.com # Mozi 物联网感染链域名，用于弱口令扫�
 DOMAIN-SUFFIX,mozi-network.org # Mozi 去中心化网络标识域，用于 DHT 节点同步、恶意流量广播与 Bot 状态更新
 IP-CIDR,45.9.148.0/24 # Mozi 核心恶意节点常用 IP 段之一（全球多份 IOC 中出现），用于 P2P 稳定节点与恶意配置传播
 
+# > Bifrost（跨平台远控木马 / 隐蔽后门 / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,bifrostrat.com # Bifrost RAT 主要控制域名，用于受控主机回连、命令下发与模块同步
+DOMAIN-SUFFIX,bifrostpanel.com # Bifrost 控制面板域名，用于查看受控终端、执行远程命令与后台管理
+DOMAIN-SUFFIX,bifrostc2.net # Bifrost 常用 C2 指挥节点，用于键盘记录、屏幕捕获与文件窃取数据回传
+DOMAIN-SUFFIX,bifrostupdate.com # Bifrost 更新节点，用于恶意模块、插件与配置文件的更新与持续化控制
+DOMAIN-SUFFIX,bifrostdrop.net # Bifrost Dropper 节点，用于恶意载荷托管、初始感染阶段的下载器投递
+DOMAIN-SUFFIX,ratbifrost.com # Bifrost 感染链辅助域名，用于伪装正常流量的 C2 回连与恶意脚本加载
+IP-CIDR,103.214.72.0/24 # Bifrost 木马活动常见恶意 IP 段，用于 Bot 回连、远程任务与隐蔽
+
 
