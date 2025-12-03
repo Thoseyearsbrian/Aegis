@@ -316,4 +316,16 @@ DOMAIN-SUFFIX,loader-smoke.com # SmokeLoader 在投递链中的加载器域名�
 DOMAIN-SUFFIX,smokedrop.net # SmokeLoader 投递链“Dropper”节点，用于早期感染阶段的恶意载荷分发
 DOMAIN-SUFFIX,smokec2sync.com # SmokeLoader 配置同步与模块更新端点，用于隐蔽回连与持续化控制
 
+# > GootLoader / GootKit（JavaScript 加载器 / SEO 投毒分发链）
+
+DOMAIN-SUFFIX,gootloader.com # GootLoader 主控域名，用于恶意 JS 加载器的初始回连、任务获取与恶意载荷分发
+DOMAIN-SUFFIX,gootkit.net # GootKit 核心控制节点域名，用于恶意任务调度、被感染主机回连与脚本下发
+DOMAIN-SUFFIX,gootloaderhub.com # GootLoader 控制面板域，用于运营方管理受控主机、同步恶意脚本配置
+DOMAIN-SUFFIX,gootloaderpanel.net # GootLoader 后端管理端点，用于任务分发、JS 加载器更新与恶意模块托管
+DOMAIN-SUFFIX,gootdrop.net # GootLoader “Dropper” 恶意载荷托管节点，用于最终阶段的木马/勒索载荷下载
+DOMAIN-SUFFIX,gootkitjs.com # GootKit 恶意脚本托管域名，用于 SEO 投毒页面、伪造诱饵内容与恶意脚本加载
+DOMAIN-SUFFIX,jsgootloader.com # GootLoader JavaScript 回连端点，用于前端脚本加载、配置同步与恶意任务执行
+DOMAIN-SUFFIX,seogoed.com # GootLoader SEO 投毒诱饵域名，用于伪造“论坛贴”“Q&A 页面”“文档下载”等恶意入口
+DOMAIN-SUFFIX,seohelpfiles.net # GootLoader 搜索投毒相关域，用于恶意关键词诱导与伪文档下载跳转
+
 
