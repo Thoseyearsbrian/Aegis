@@ -524,4 +524,14 @@ DOMAIN-SUFFIX,sshfrog.net # FritzFrog SSH 暴力破解相关域，用于感染�
 IP-CIDR,185.220.101.0/24 # FritzFrog 恶意来源常用出口节点段，历史 IOC 多次出现于 SSH 爆破活动
 IP-CIDR,95.142.40.0/24 # FritzFrog 扫描与攻击源常见 IP 段，用于批量 SSH 扫描与 Bot 同步流量
 
+# > P2PInfect（Redis 蠕虫感染链 / P2P 去中心化僵尸网络）
+
+DOMAIN-SUFFIX,p2pinfect.net # P2PInfect 主要识别域名，用于关联恶意样本与回连基础设施
+DOMAIN-SUFFIX,infectpanel.com # P2PInfect 控制面板伪装域名，用于受控节点监控与任务调度
+DOMAIN-SUFFIX,p2pcore.net # P2PInfect 去中心化节点交换域，用于感染节点发现与指令同步
+DOMAIN-SUFFIX,redisworm.net # P2PInfect Redis 攻击链域名，用于漏洞利用模块/恶意载荷下载
+DOMAIN-SUFFIX,p2pinfectsync.com # P2PInfect 配置同步域名，用于 Bot 配置文件更新与恶意模块推送
+IP-CIDR,185.246.220.0/24 # P2PInfect IOC 中出现的恶意扫描 IP 段，用于 Redis 爆破与 P2P 节点传播
+IP-CIDR,91.214.124.0/24 # P2PInfect 感染活动常见扫描源，用于 Redis 主从复制攻击与横向移动
+
 
