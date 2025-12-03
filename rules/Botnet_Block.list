@@ -40,6 +40,12 @@ DOMAIN-SUFFIX,api.anydesk.com # AnyDesk API 服务端点，用于授权、设备
 DOMAIN-SUFFIX,backend.anydesk.com # AnyDesk 后端服务域，用于设备认证、连接维持与会话协调
 DOMAIN-SUFFIX,ws.anydesk.com # AnyDesk WebSocket 通道，用于实时会话、心跳与控制信令
 
+# > ScreenConnect（合法远控工具 / 多次被入侵者利用为后门渠道）
+
+DOMAIN-SUFFIX,screenconnect.com # ScreenConnect 官方主域名，合法远控工具，但在入侵事件中常被攻击者用作隐藏远程控制渠道
+DOMAIN-SUFFIX,control.screenconnect.com # ScreenConnect 控制端/会话管理域名，用于远控会话建立、设备管理与连接维持
+DOMAIN-SUFFIX,relay.screenconnect.com # ScreenConnect 中继服务域，用于远控连接转发、NAT 穿透与会话协商
+
 # > Dridex（银行木马 / 高危恶意软件家族 IOC）
 
 DOMAIN-SUFFIX,dridex.com # Dridex 恶意软件家族相关域名，用于 C2 通信、恶意载荷下载与僵尸网络控制
