@@ -846,6 +846,21 @@ IP-CIDR,185.225.32.0/24 # 多个 Go/Rust Loader 样本使用的恶意出口段�
 IP-CIDR,45.12.146.0/24 # Loader 初始感染节点常用段，用于投递 binary 与托管 dropper
 IP-CIDR,185.158.112.0/24 # Loader 控制基础设施常见 IP 段，用于任务同步与后续恶意模块下载
 
+# > RustScan 恶意版本 IOC（攻击者篡改版本 / 自动化扫描 + 感染链集成）
+
+DOMAIN-SUFFIX,rustscan-mal.net # 恶意 RustScan 扫描结果回传域，用于批量资产探测与目标筛选
+DOMAIN-SUFFIX,rscan-c2.com # RustScan 攻击者修改版的 C2 控制节点，用于发送扫描任务与接收资产信息
+DOMAIN-SUFFIX,rustscanpanel.net # 恶意 RustScan 控制台域名，用于查看扫描日志、任务调度与批量感染管理
+DOMAIN-SUFFIX,mal-rustscan.net # 恶意 RustScan 托管域，用于下载捆绑 Loader / exploit 的恶意版本
+DOMAIN-SUFFIX,rustscan-update.com # 恶意 RustScan 更新节点，用于下发扫描脚本、漏洞利用模块与远控插件
+DOMAIN-SUFFIX,rustfinder.net # RustScan 变种资产探测域，用于弱口令资产收集与 Bot 感染链接入
+DOMAIN-SUFFIX,rs-scanlog.com # 扫描日志外传节点，用于上传端口开放信息、资产指纹与漏洞检测结果
+DOMAIN-SUFFIX,rustscan-dropper.net # RustScan 恶意 dropper 下载域，用于推送 bot payload 与后门模块
+IP-CIDR,107.189.8.0/24 # 恶意扫描器常用出口段，多个 RustScan 恶意变体用于批量扫描与数据回传
+IP-CIDR,185.220.100.0/22 # 扫描代理节点段，覆盖 Tor/恶意代理，常作为 RustScan 恶意变体扫描出口
+IP-CIDR,45.142.120.0/24 # RustScan 恶意版本 C2 活跃段，用于任务推送、资产回传与 loader 触发
+IP-CIDR,146.70.58.0/24 # 自动化扫描器集群段，多次用于 RustScan + loader 联动的感染链
+
 
 
 
