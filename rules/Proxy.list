@@ -4329,6 +4329,11 @@ DOMAIN-SUFFIX,eu-images.contentstack.com # Contentstack 静态资源 CDN，用�
 
 DOMAIN-SUFFIX,widgets.iiris.com # iiris 第三方小部件服务，用于 UI 插件、嵌入组件加载
 
+# > iris.informa.com（Informa / IIRIS — 企业／行业内容 & 数据分析平台资源）
+
+DOMAIN-SUFFIX,static.iris.informa.com # Informa 静态资源 CDN / 静态内容分发域名，用于加载页面静态文件、图片、脚本等资源  
+DOMAIN-SUFFIX,api.iiris.com # IIRIS 服务接口域名，用于数据请求 / 企业内容查询 / 分析服务 API 调用  
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
