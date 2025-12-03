@@ -789,4 +789,16 @@ IP-CIDR,91.214.124.0/24 # 工控恶意扫描器活跃网段，用于 Modbus/Teln
 IP-CIDR,185.56.80.0/24 # ICS Botnet 控制器所在的常见网段，用于 C2 回连与任务通信
 IP-CIDR,45.155.204.0/24 # 工控后门任务下发节点常用段，指令下发与恶意脚本推送
 
+# > Router 0day Botnet（Realtek / Arcadyan / Zyxel 漏洞利用型路由器僵尸网络）
+
+DOMAIN-SUFFIX,realtek-rce-net.com # Realtek SDK RCE 利用链相关域名，用于漏洞利用脚本与感染模块分发
+DOMAIN-SUFFIX,arcadyan-zero.net # Arcadyan 固件 0day Botnet 指挥控制域，用于任务下发与设备回连
+DOMAIN-SUFFIX,zyxel-c2-panel.com # Zyxel 路由器 Botnet 控制面板域名，用于管理受控节点与上传恶意配置
+DOMAIN-SUFFIX,router-payload.net # 路由器漏洞投递域，用于分发 exploit、loader 与后门模块
+DOMAIN-SUFFIX,soho-scanner.net # 路由器漏洞扫描器控制域，用于大规模 SOHO 设备探测与感染链管理
+
+IP-CIDR,45.146.164.0/24 # Router Botnet 扫描器常用网段，用于 Realtek/Arcadyan 大规模扫描
+IP-CIDR,185.225.19.0/24 # 路由器 Botnet 控制 C2 活跃网段，用于受控设备的指令与状态同步通信
+IP-CIDR,212.192.246.0/24 # 漏洞利用模块托管节点网段，常用于分发 exploit 代码与 loader 二进制文件
+
 
