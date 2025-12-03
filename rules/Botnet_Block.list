@@ -244,4 +244,10 @@ DOMAIN-SUFFIX,netbotpanel.com # NetBot 控制面板相关域名，用于僵尸�
 DOMAIN-SUFFIX,nbcontrol.net # NetBot 指挥控制通道，用于恶意载荷下发与受控主机状态回传
 DOMAIN-SUFFIX,netbot-update.com # NetBot 恶意模块更新域名，用于插件、脚本与恶意配置文件同步
 
+# > RemotelyAnywhere（合法远控工具 / 常被用于后门控制）
+
+DOMAIN-SUFFIX,remotelyanywhere.com # RemotelyAnywhere 官方主域名，合法远控工具，但在攻击中常被滥用为隐蔽远程控制渠道
+DOMAIN-SUFFIX,ra.logmein.com # RemotelyAnywhere/LogMeIn 后端服务域，用于远控连接、主机管理与会话维持
+DOMAIN-SUFFIX,logmein.com # LogMeIn 远程管理平台主域名（包含 RemotelyAnywhere 相关功能与连接）
+
 
