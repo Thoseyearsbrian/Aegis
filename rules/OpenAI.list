@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-02
+# - 更新时间：2025-12-03
 
 # > OpenAI Chat 系列
 
@@ -30,6 +30,8 @@ IP-CIDR,108.160.163.112/32 # OpenAI / ChatGPT Port Mapping 相关节点，用于
 IP-CIDR,31.13.95.18/32 # ChatGPT Port Mapping 使用的 Meta 高性能边缘节点，用于网络加速与 TLS 终端调度
 IP-CIDR,31.13.95.169/32 # OpenAI ChatGPT WebSocket 服务节点（ws.chatgpt.com），用于实时对话与流式响应
 IP-CIDR,108.160.166.61/32 # OpenAI ChatGPT WebSocket 服务节点（ws.chatgpt.com），用于实时对话与流式内容传输
+IP-CIDR,108.160.167.156/32 # ChatGPT iOS 客户端 Edge 节点（ios.chat.openai.com），用于移动端加速与区域访问入口
+IP-CIDR,128.242.240.189/32 # ChatGPT Web 主站 Edge 节点（chatgpt.com），用于网页端连接的全球负载均衡入口
 
 # > Grok（xAI / Elon Musk）AI 服务相关域名
 
