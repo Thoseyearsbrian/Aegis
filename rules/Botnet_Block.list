@@ -230,4 +230,11 @@ DOMAIN-SUFFIX,dc-control.org # DarkComet 控制服务器常用域名，用于指
 DOMAIN-SUFFIX,spy-dark.com # DarkComet 恶意活动链中出现的隐蔽域名，用于数据回传与控制通道
 DOMAIN-SUFFIX,dcspy.net # DarkComet RAT 变种的 C2 节点，用于隐蔽通信和后台监控
 
+# > Cobalt Strike TeamServer（红队框架 / 攻击者常用 C2 基础设施）
+
+DOMAIN-SUFFIX,cobaltstrike.com # 官方站点，但常被用于 TeamServer 伪装访问与基础工具下载
+DOMAIN-SUFFIX,teamserver.cobaltstrike.com # TeamServer 相关服务端点，攻击者常用来伪装 C2 通信
+DOMAIN-SUFFIX,update.cobaltstrike.com # Cobalt Strike 更新端点，但亦常出现在恶意样本的配置之中
+DOMAIN-SUFFIX,downloads.cobaltstrike.com # 工具下载域名，部分恶意 Loader 会伪装访问此域名
+
 

@@ -6,14 +6,13 @@
 # - 声明：所有情报信息基于公开披露，相关归属与内容不代表制表者立场
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2025-12-03
 
 # > APT1（中国 · 被 Mandiant 命名为 Comment Crew）
 
 DOMAIN-SUFFIX,ma-omaha.com # 控制服务器，上海相关基础设施，Mandiant 报告披露
 IP-CIDR,108.61.246.56 # C2节点，Mandiant 报告披露
 IP-CIDR,63.141.241.186 # 控制服务器，上海相关基础设施，Mandiant 报告披露
-
 
 # > APT2（中国 · 又名 Putter Panda）
 
@@ -2897,9 +2896,3 @@ DOMAIN-SUFFIX,posderd.000webhostapp.com # Zimbra 钓鱼页面托管域名
 DOMAIN-SUFFIX,ridddtd.000webhostapp.com # Zimbra 钓鱼页面托管域名
 DOMAIN-SUFFIX,tmaxd.000webhostapp.com # Zimbra 钓鱼页面托管域名
 DOMAIN-SUFFIX,zimbra.y2kportfolio.com # Zimbra 钓鱼页面托管域名
-
-
-
-
-
-
