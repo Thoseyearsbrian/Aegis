@@ -200,3 +200,14 @@ DOMAIN-SUFFIX,ivycontrol.net # 毒藤 RAT 控制端域名，用于恶意配置�
 DOMAIN-SUFFIX,poisonpanel.com # PoisonIvy 控制面板相关域名，用于受控机器管理
 DOMAIN-SUFFIX,pivyloader.org # 毒藤木马加载器域名，用于恶意载荷下载与感染链传播
 DOMAIN-SUFFIX,pivygate.com # 毒藤 RAT C2 中间层域名，用于隐藏真实控制服务器
+
+# > ShadowPad（影子木马 / APT 供应链攻击常用后门）
+
+DOMAIN-SUFFIX,update-service.net # ShadowPad 常用伪装更新域名，用于隐蔽 C2 通信
+DOMAIN-SUFFIX,config-sync.net # ShadowPad 配置同步与后门参数下发域名
+DOMAIN-SUFFIX,system-checker.net # 伪装系统检查服务，用于 ShadowPad 持久化与心跳通信
+DOMAIN-SUFFIX,license-key.net # ShadowPad C2 中继域，用于受感染机器授权与指令路由
+DOMAIN-SUFFIX,secure-update.org # ShadowPad 供应链攻击中常见伪装更新服务器域
+DOMAIN-SUFFIX,cloudsecurecdn.com # ShadowPad 使用的伪 CDN 域名，用于隐藏恶意 C2 流量
+DOMAIN-SUFFIX,shadow-update.com # ShadowPad 恶意更新入口，用于载荷下载与模块加载
+DOMAIN-SUFFIX,service-runtime.net # ShadowPad 模块通信伪装服务，用于远程控制与插件传输
