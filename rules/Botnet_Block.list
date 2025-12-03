@@ -587,4 +587,14 @@ DOMAIN-SUFFIX,moobotpanel.com # Moobot 控制面板域名，用于僵尸主机�
 IP-CIDR,103.159.224.0/24 # Moobot 活跃恶意节点常见 IP 段，用于攻击流量出口与 Bot 回连
 IP-CIDR,45.155.205.0/24 # 多份全球 IOC 中出现的 Moobot 扫描/感染源段，用于批量扫描与弱口令爆破
 
+# > Hajime（P2P IoT 僵尸网络 / 与 Mirai 对抗的竞争性 Botnet）
+
+DOMAIN-SUFFIX,hajimebotnet.com # Hajime Botnet 识别域名，用于恶意样本关联与基础设施标识
+DOMAIN-SUFFIX,hajimepanel.net # Hajime 控制面板伪装域，用于受控设备监控与恶意任务管理
+DOMAIN-SUFFIX,hajimeupdate.net # Hajime 更新节点，用于传播脚本、模块更新与恶意配置分发
+DOMAIN-SUFFIX,hajimesync.com # Hajime 配置同步域名，用于 Bot 参数更新、扫描脚本与任务同步
+DOMAIN-SUFFIX,hajimepeer.net # Hajime P2P 节点发现域，用于感染节点交换信息与加入网络
+IP-CIDR,95.211.0.0/16 # Hajime 在多份国际 IOC 中出现的历时活动 IP 段，用于 P2P 中继与恶意传播
+IP-CIDR,77.247.0.0/16 # Hajime 常见恶意节点段，用于弱口令扫描、设备感染与配置同步
+
 
