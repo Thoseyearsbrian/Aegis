@@ -345,6 +345,14 @@ DOMAIN-SUFFIX,bee-dropper.net # BumbleBee 投递链“Dropper”节点，用于�
 DOMAIN-SUFFIX,bumblegate.com # BumbleBee 伪装网关域名，用于加密回连与隐蔽 C2 通信
 DOMAIN-SUFFIX,loaderbee.net # BumbleBee 感染链辅助域名，用于伪装下载器与立足点部署模块加载
 DOMAIN-SUFFIX,bbeeload.com # BumbleBee 初始感染下载节点，用于宏文档/恶意 PDF 的恶意载荷拉取
+DOMAIN-SUFFIX,bumblebee-sync.net # BumbleBee 2.0 配置同步域，用于任务下发与加载器行为控制
+DOMAIN-SUFFIX,bbloader-cdn.com # BumbleBee 载荷下载域，用于 DLL / shellcode / 反射加载器托管
+DOMAIN-SUFFIX,bbee-update.net # BumbleBee 更新节点域名，用于下发新版 Loader 与加密配置
+DOMAIN-SUFFIX,3p-bumble.net # BumbleBee 外部第三阶段投递域，用于 CS/Sliver Beacon 加载
+IP-CIDR,194.87.216.0/24 # BumbleBee 常用恶意基础设施网段，用于 C2 与任务同步
+IP-CIDR,109.206.241.0/24 # 被用于 BumbleBee 2.0 Loader 的恶意出口网段，托管二阶段模块
+IP-CIDR,82.118.22.0/24 # BumbleBee 扫描与横向移动相关恶意段，用于初始投递与侦察
+
 
 # > Gozi / Ursnif（银行木马 / 金融凭证窃取器 / 僵尸网络 C2）
 
@@ -1057,6 +1065,18 @@ DOMAIN-SUFFIX,pysa-c2panel.com # Pysa Loader C2 面板域，用于管理受害�
 IP-CIDR,185.225.69.0/24 # 常用于 Pysa 基础设施的 C2 网段，托管恶意 loader 与命令控制信道
 IP-CIDR,91.219.236.0/24 # Pysa/Mespinoza 扫描节点网段，用于横向移动与初始渗透
 IP-CIDR,45.154.12.0/24 # Pysa Loader 备用下载网络段，用于拉取第二阶段 Payload
+
+# > MetaStealer（信息窃取木马 / 钓鱼文档加载器）
+
+DOMAIN-SUFFIX,metastealer-upd.com # MetaStealer 更新/任务同步域，用于下发恶意配置与模块更新
+DOMAIN-SUFFIX,metastealer-c2.net # MetaStealer C2 控制域，负责窃取数据回传与远程指令下发
+DOMAIN-SUFFIX,meta-update-checker.com # 假更新提示域，用于通过钓鱼文档或恶意宏加载远程 payload
+DOMAIN-SUFFIX,secure-meta-cloud.net # MetaStealer 伪装“安全云”的跳板域，用于托管恶意 DLL/EXE
+DOMAIN-SUFFIX,meta-filesync.net # 数据同步伪装域，用于上传被盗文件（凭证、浏览器数据、密码保管库等）
+DOMAIN-SUFFIX,update-meta-service.com # 恶意“更新服务”域，用于绕过防护并执行次级载荷
+IP-CIDR,91.215.85.0/24 # MetaStealer 常用恶意出口段，用于数据外传与控制信道通信
+IP-CIDR,185.244.25.0/24 # MetaStealer 投递链使用的恶意基础设施段，常见于钓鱼分发
+IP-CIDR,89.45.67.0/24 # 信息窃取类木马公共 C2 区段，用于代理 Data Exfiltration（外传）
 
 
 
