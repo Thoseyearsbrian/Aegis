@@ -745,4 +745,15 @@ DOMAIN-SUFFIX,pbxupdate.net # PBX 攻击链恶意更新节点，用于下载扫�
 IP-CIDR,185.30.168.0/24 # 多份 Hoaxcalls IOC 出现的恶意 VoIP 扫描源段，用于 SIP 认证爆破与攻击指令转发
 IP-CIDR,193.56.28.0/24 # Hoaxcalls 活跃 C2/扫描节点段，用于 PBX 攻击、VoIP DDoS 与僵尸节点回连
 
+# > Yowai / Rapidity（Mirai 弱口令轻量级变种 / IoT Botnet）
+
+DOMAIN-SUFFIX,yowai-botnet.net # Yowai 识别域名，用于受控 IoT 设备回连与基础 DoS 任务同步
+DOMAIN-SUFFIX,yowaic2.com # Yowai 主控 C2 节点，用于弱口令感染结果上报与攻击指令下达
+DOMAIN-SUFFIX,yowaipanel.net # Yowai 控制面板域名，用于 Bot 管理、扫描日志查看与简单任务调度
+DOMAIN-SUFFIX,yowaiupdate.net # Yowai 更新节点，用于感染模块更新与轻量级攻击插件推送
+DOMAIN-SUFFIX,rapiditybot.net # Rapidity 变种识别域，用于弱口令扫描、Bot 回连与任务同步
+DOMAIN-SUFFIX,rapidityc2.com # Rapidity 主控域名，用于 DoS 指令、扫描任务与模块加载
+IP-CIDR,185.238.0.0/24 # Yowai/Rapidity 在多个 IOC 中出现的恶意出口段，用于弱口令爆破与 DoS 流量
+IP-CIDR,193.142.112.0/24 # Rapidity 活跃控制节点段，用于僵尸节点心跳通信与任务调度
+
 
