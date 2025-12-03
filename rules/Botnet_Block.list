@@ -953,6 +953,23 @@ IP-CIDR,45.9.148.0/24 # 挖矿 Bot C2 节点常见来源，用于矿池同步与
 IP-CIDR,82.118.21.0/24 # 高频恶意挖矿扫描源段，用于 Redis / Docker / Confluence 漏洞利用链
 IP-CIDR,185.130.44.0/24 # 挖矿 & DDoS 混合 Botnet 常见出口 IP 段，用于攻击与挖矿双用途
 
+# > Kinsing（Kubernetes / Docker 挖矿蠕虫 / 云服务器感染链）
+
+DOMAIN-SUFFIX,kinsing-updater.net # Kinsing 更新节点，用于下发最新恶意 shell 脚本与挖矿配置
+DOMAIN-SUFFIX,ksdloader.net # Kinsing Loader 域，用于初始感染后的二次载荷与持久化模块下载
+DOMAIN-SUFFIX,ks-shellsync.com # Kinsing Shell 任务同步域，用于推送新挖矿脚本与横向移动指令
+DOMAIN-SUFFIX,ks-c2panel.net # Kinsing 控制面板域，用于管理受感染容器、调度 Redis/Docker 扫描任务
+DOMAIN-SUFFIX,autoks-runner.com # Kinsing 自动化感染域名，用于批量扫描云主机与推送恶意 payload
+DOMAIN-SUFFIX,ksdocker-exploit.net # Kinsing 利用链域，用于发布 Docker/K8s 弱口令与 RCE 漏洞利用脚本
+DOMAIN-SUFFIX,ks-xmr-sync.com # Kinsing 挖矿池同步域，用于更新矿池地址、密钥与隐藏代理
+DOMAIN-SUFFIX,ksproxy-miner.net # Kinsing 代理挖矿域，用于绕过矿池封禁与混淆恶意流量
+IP-CIDR,185.225.19.0/24 # Kinsing 感染脚本常用 C2 段，频繁出现于 Redis、Docker、Confluence 攻击链
+IP-CIDR,193.169.255.0/24 # Kinsing 扫描与加载二进制常用出口网段，涉及批量横向移动
+IP-CIDR,45.9.20.0/24 # Kinsing 挖矿模块下载段，用于拉取 XMRig 与恶意 bash 脚本
+IP-CIDR,80.66.64.0/24 # 大规模 Kinsing 扫描源，主要攻击 SSH、Docker API、K8s Dashboard
+IP-CIDR,194.150.168.0/24 # Kinsing 使用的反向代理节点，用于隐藏真实 C2 与矿池地址
+IP-CIDR,185.106.94.0/24 # 关联 Kinsing 挖矿 Botnet 的恶意基础设施段，多次用于 XMRig 代理
+
 
 
 
