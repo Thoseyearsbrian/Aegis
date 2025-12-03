@@ -4321,6 +4321,14 @@ DOMAIN-SUFFIX,malwarebazaar.com # MalwareBazaar 主站，用于搜索恶意软�
 DOMAIN-SUFFIX,mb-api.abuse.ch # MalwareBazaar API 端点，用于样本查询、IOC 拉取与自动化情报集成
 DOMAIN-SUFFIX,abuse.ch # abuse.ch 主域，用于访问旗下威胁情报服务（含 MalwareBazaar / FeodoTracker / ThreatFox 等）
 
+# > contentstack.com（CMS 内容分发图片 CDN）
+
+DOMAIN-SUFFIX,eu-images.contentstack.com # Contentstack 静态资源 CDN，用于加载图像与 CMS 内容图片
+
+# > 第三方嵌入式组件 / 小部件资源
+
+DOMAIN-SUFFIX,widgets.iiris.com # iiris 第三方小部件服务，用于 UI 插件、嵌入组件加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
