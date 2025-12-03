@@ -391,4 +391,14 @@ DOMAIN-SUFFIX,pikasync.net # Pikabot 配置同步端点，用于恶意脚本更�
 DOMAIN-SUFFIX,pikadrop.net # Pikabot “Dropper” 节点，用于分发恶意 DLL、RAT 模块与后续载荷（如 Cobalt Strike）
 DOMAIN-SUFFIX,pikapanel.com # Pikabot 控制面板域名，用于僵尸主机管理、数据查看与攻击者后台控制
 
+# > DarkGate（高危恶意加载器 / RAT / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,darkgate.net # DarkGate 主控域名，用于恶意任务拉取、受控主机回连与模块化指令下发
+DOMAIN-SUFFIX,darkgaterat.com # DarkGate RAT 控制域名，用于键盘记录、屏幕捕获、文件窃取与远程命令执行
+DOMAIN-SUFFIX,darkgatepanel.com # DarkGate 控制面板域，用于管理受控主机、查看窃取数据与推送恶意任务
+DOMAIN-SUFFIX,dgloader.net # DarkGate 恶意加载器域名，用于初始感染阶段的载荷下载与恶意 DLL 注入
+DOMAIN-SUFFIX,dgdropper.com # DarkGate 投递链 Dropper 节点，用于后续加载勒索软件、Cobalt Strike 等恶意组件
+DOMAIN-SUFFIX,darkgatesync.com # DarkGate 配置同步端点，用于模块更新、配置文件下发与持续化任务回连
+DOMAIN-SUFFIX,dgmodule.net # DarkGate 插件模块托管域名，用于下载扩展功能（如凭证窃取器、代理模块等）
+
 
