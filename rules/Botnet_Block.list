@@ -608,4 +608,12 @@ DOMAIN-SUFFIX,routerconfigsync.com # VPNFilter 持久化阶段使用的配置同
 IP-CIDR,46.151.209.0/24 # 多份 VPNFilter IOC 中出现的恶意节点段，用于 C2 通信、扫描与后续渗透活动
 IP-CIDR,91.121.0.0/17 # VPNFilter 活跃攻击出口段，用于 DDoS、代理滥用与路由器感染扩散
 
+# > Satori（Mirai 高级变种 / 多次全球性爆发的 IoT Botnet）
+
+DOMAIN-SUFFIX,satori-botnet.com # Satori Botnet 控制节点域，用于受感染设备回连与 Botnet 指令下发
+DOMAIN-SUFFIX,satori-cnc.net # Satori C2 指挥控制服务，用于 Botnet 心跳同步、攻击目标分配与恶意载荷下发
+DOMAIN-SUFFIX,satori-update.net # Satori 更新端点，用于传播阶段的扫描脚本、漏洞利用模组与恶意文件同步
+IP-CIDR,185.244.25.0/24 # 在 Satori IOC 中出现的恶意基础设施段，用于扫描、横向移动与 C2 通信
+IP-CIDR,82.118.21.0/24 # Satori 相关 Botnet 出口节点，用于弱口令爆破、IoT 感染链传播与后续恶意指令执行
+
 
