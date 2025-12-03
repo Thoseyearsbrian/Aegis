@@ -1003,6 +1003,17 @@ IP-CIDR,82.118.21.0/24 # SocGholish 关联扫描段，也用于 FakeUpdate 感�
 IP-CIDR,104.129.18.0/24 # SocGholish 投递链中用于代理、IP 轮替与绕过防护的出口网段
 IP-CIDR,45.155.205.0/24 # FakeUpdate 基础设施段，用于 JS Loader 回连与会话同步
 
+# > TA577 / TA569 恶意广告基础设施（Malvertising Redirect Chain）
+
+DOMAIN-SUFFIX,trafficmanager.net # 恶意广告跳转链常用的流量路由域，用于动态重定向与受害者筛选
+DOMAIN-SUFFIX,adssystems.net # 恶意广告基础设施节点，用于伪装广告投放、载荷跳转与地域过滤
+DOMAIN-SUFFIX,admarketlocation.com # 恶意广告跳转入口，用于构建多层重定向链，提高投放隐蔽性
+DOMAIN-SUFFIX,track-click.net # 钓鱼/恶意广告点击追踪域名，用于监控受害者行为与投放效果
+DOMAIN-SUFFIX,jsdelivercdn.com # 假冒 CDN 域名，用于投放伪更新 JS（SocGholish 常用）
+DOMAIN-SUFFIX,browserupdatecheck.com # 假冒浏览器更新检查域，用于分发假更新页面（TA569 标志性手法）
+DOMAIN-SUFFIX,content-layers.net # 恶意广告内容托管域，用于展示诱导页面、加载 JS Loader
+DOMAIN-SUFFIX,page-optimizer.net # 恶意 SEO / 流量过滤节点，用于判定环境避免沙箱分析
+
 
 
 
