@@ -624,4 +624,12 @@ DOMAIN-SUFFIX,okiru-update.net # 恶意更新端点，用于同步漏洞利用�
 IP-CIDR,45.95.168.0/24 # Okiru 活跃恶意基础设施网段，用于扫描、横向移动与 Botnet 通信
 IP-CIDR,185.53.88.0/24 # Omni 相关疑似 C2 段，用于指令管理与大量 UDP Flood 出口流量
 
+# > Torii（高级 IoT 后门 / 长期潜伏型 Botnet）
+
+DOMAIN-SUFFIX,torii-botnet.net # Torii 主要 C2 控制域，用于设备心跳、任务下发与命令同步
+DOMAIN-SUFFIX,torii-gateway.net # Torii 多层中继网关，用于流量转发、隐藏真实 C2 与逃避检测
+DOMAIN-SUFFIX,torii-update.net # Torii 恶意插件/模块更新端点，用于下发持久化组件与后门脚本
+IP-CIDR,185.225.73.0/24 # Torii 活跃的恶意基础设施段，用于扫描、横向移动与加密通信
+IP-CIDR,185.142.236.0/24 # Torii 中继节点常用网段，承担指令转发与流量混淆
+
 
