@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2025-12-03
 
 # > 小红书 相关域名
 
@@ -161,3 +161,8 @@ DOMAIN-SUFFIX,ixigua.com # 西瓜视频主站（字节系）
 DOMAIN-SUFFIX,kuaishou.com # 快手主站
 DOMAIN-SUFFIX,ksyun.com # 快手 CDN 内容分发域名
 DOMAIN-SUFFIX,static.yximgs.com # 快手静态资源域名
+
+# > Mudu.TV（目睹直播）资源与通信域名
+
+DOMAIN-SUFFIX,msg-ws.mudu.tv # 目睹直播消息通信域名，用于直播间弹幕、评论与互动消息通信
+DOMAIN-SUFFIX,static.mudu.tv # 目睹直播静态资源域名，用于加载前端 JS/CSS 等页面内容

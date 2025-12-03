@@ -650,3 +650,13 @@ DOMAIN-SUFFIX,rumt-sg.com # 腾讯云 RUM 前端性能监控，上报节点（�
 # > 腾讯视频链路追踪与埋点服务域名
 
 DOMAIN-SUFFIX,htrace.wetvinfo.com # 腾讯视频 WeTV 埋点与链路追踪接口，用于客户端日志采集与播放性能监控 
+
+# > GrowingIO 行为分析与数据采集相关域名
+
+DOMAIN-SUFFIX,api-os.growingio.com # GrowingIO 移动端 SDK 接口域名，用于采集用户行为与设备数据
+DOMAIN-SUFFIX,tags.growingio.com # GrowingIO 埋点脚本与标识域名，用于 Web 页面行为采集
+DOMAIN-SUFFIX,assets.growingio.com # GrowingIO 静态资源域名，用于加载埋点 JS 脚本等 SDK 文件
+
+# > 科大讯飞 安全分析域名
+
+DOMAIN-SUFFIX,idatalogconf.iflysec.com # 讯飞安全平台数据上报域名，用于采集安全相关日志与行为数据
