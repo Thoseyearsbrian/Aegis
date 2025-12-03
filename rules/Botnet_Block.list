@@ -19,6 +19,15 @@ IP-CIDR,183.60.123.112/32 # 广东深圳高危恶意源，多次参与端口扫�
 DOMAIN-SUFFIX,dridex.com # Dridex 恶意软件家族相关域名，用于 C2 通信、恶意载荷下载与僵尸网络控制
 DOMAIN-SUFFIX,dridex.net # Dridex 木马控制节点与攻击基础设施常用域名，历史 IOC 源频繁出现
 DOMAIN-SUFFIX,dridex.org # Dridex 关联基础设施域，用于投递链路、恶意脚本与载荷托管
-DOMAIN-SUFFIX,dvsei.com  # 与 Dridex 传播链相关的恶意域名，用于恶意下载器与中继节点
+DOMAIN-SUFFIX,dvsei.com # 与 Dridex 传播链相关的恶意域名，用于恶意下载器与中继节点
 DOMAIN-SUFFIX,fevziisc.com # Dridex IOC 报告中出现的域名，用于样本传播与 C2 回连
 DOMAIN-SUFFIX,fedos.org # Dridex 关联域名，用于恶意代码托管与僵尸网络资源节点
+
+# > Emotet（银行木马 / 僵尸网络 C2 / 恶意投递链）
+
+DOMAIN-SUFFIX,emotet.com # Emotet 恶意控制节点，用于木马远控、指令下发与感染链通信
+DOMAIN-SUFFIX,emotet.org # Emotet 感染链核心域名，用于恶意载荷分发与僵尸网络连接
+DOMAIN-SUFFIX,emotet.info # Emotet 备用控制端点，用于恶意邮件投递与横向扩散
+DOMAIN-SUFFIX,bankingemotet.com # Emotet 银行木马投递节点，用于钓鱼邮件链接与载荷下载
+DOMAIN-SUFFIX,loaderemotet.net # Emotet 恶意加载器域名，用于下载执行阶段载荷
+DOMAIN-SUFFIX,emotetbotnet.net # Emotet 僵尸网络 C2 主域，负责回连、通信与行为同步
