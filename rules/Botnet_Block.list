@@ -117,3 +117,11 @@ DOMAIN-SUFFIX,lummahub.net # Lumma 后台面板，用于攻击者查看窃取数
 DOMAIN-SUFFIX,lummahost.net # Lumma 备用 C2 域名，用于隐蔽回连与确保控制稳定性
 DOMAIN-SUFFIX,c2lumma.com # Lumma C2 回连节点，用于 Bot 状态上报、窃取数据上传与命令执行
 DOMAIN-SUFFIX,lummaupload.net # Lumma 数据外泄端点，用于凭证、Cookies、钱包密钥等敏感信息的回传
+
+# > Azorult Stealer（信息窃取木马 / 窃密类恶意软件）
+
+DOMAIN-SUFFIX,azorult.com # Azorult Stealer 主控制面板相关域名，用于后台管理与感染数据查看
+DOMAIN-SUFFIX,azorult.net # Azorult C2 回连节点，用于 Bot 状态上报、命令下发与数据回传
+DOMAIN-SUFFIX,azorultsync.com # Azorult 配置与模块同步端点，用于恶意插件、配置文件与脚本更新
+DOMAIN-SUFFIX,azoplugin.com # Azorult 模块化插件下载域名，用于增强窃密功能的扩展组件
+DOMAIN-SUFFIX,azodata.net # Azorult 数据外泄端点，用于上传窃取的密码、Cookie、浏览器会话与钱包密钥
