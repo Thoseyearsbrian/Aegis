@@ -4347,6 +4347,12 @@ DOMAIN-SUFFIX,login.auth0.com # Auth0 登录入口域名，用于网页/第三�
 DOMAIN-SUFFIX,okta.com # Okta 官方主域名，用于访问控制台、登录认证与文档服务
 DOMAIN-SUFFIX,oktacdn.com # Okta 静态资源 CDN 域名，用于托管样式、SDK 脚本与 UI 控件资源
 
+# > 腾讯云 CloudCache 国际加速节点（含静态资源 / 图像 CDN）
+
+DOMAIN-SUFFIX,staticintl.cloudcachetci.com # 腾讯云海外静态资源 CDN 节点，用于公共 JS/CSS 等前端资源加载，常见于国际站部署
+DOMAIN-SUFFIX,dscache-intl.cloudcachetci.com # 腾讯云海外 CloudCache 节点，主要用于国际站内容分发与图像缓存  
+DOMAIN-SUFFIX,tci18n.cloudcachetci.com # 腾讯云国际 CDN 域名，服务于国际化页面的图像资源加载与缓存分发  
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

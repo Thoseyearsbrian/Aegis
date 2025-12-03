@@ -1562,12 +1562,12 @@ DOMAIN-SUFFIX,codetencent.com # CODING 关联服务域名，用于登录体系�
 DOMAIN-SUFFIX,cloudcache.tencentcs.com # 腾讯云静态资源 CDN / 缓存加速域名，用于加载 JS/CSS/图片等公共资源或静态文件 
 DOMAIN-SUFFIX,cloudcache.intl.tencent-cloud.com # 腾讯云 Intl 全球 CDN / 静态资源加速域名，用于静态文件、图片、脚本等内容分发与全球加速 
 DOMAIN-SUFFIX,tencentcloud.com # 腾讯云官网主域名，用于控制台访问、服务介绍、文档浏览等
-DOMAIN-SUFFIX,staticintl.cloudcachetci.com # 腾讯云海外静态资源 CDN 节点，用于公共 JS/CSS 等前端资源加载，常见于国际站部署
 DOMAIN-SUFFIX,cloudcache.tencent-cloud.com # 腾讯云静态资源 CDN 域名，用于图像、脚本、样式表等前端资源的分发和缓存
 DOMAIN-SUFFIX,static.cloudcachetci.com # 腾讯云云缓存加速 CDN 域名，用于海外静态资源加载，如 JS/CSS/图像等
 DOMAIN-SUFFIX,cloudcache.tencentcs.com # 腾讯云 CDN 节点资源域名，用于分发公共静态文件如 JS、CSS、图像资源等
 DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云视频点播（VOD）域名，用于视频播放、转码 CDN 加速与播放资源调度
 DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播平台节点域名，用于直播流推送、拉流与播放控制链路
+DOMAIN-SUFFIX,cloudcache.tencentcs.cn # 腾讯云 CloudCache 国内节点，用于前端静态资源的缓存与快速访问  
 
 # > PingCode（研发项目管理 / DevOps 协作平台）
 
