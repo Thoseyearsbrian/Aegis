@@ -861,6 +861,25 @@ IP-CIDR,185.220.100.0/22 # 扫描代理节点段，覆盖 Tor/恶意代理，常
 IP-CIDR,45.142.120.0/24 # RustScan 恶意版本 C2 活跃段，用于任务推送、资产回传与 loader 触发
 IP-CIDR,146.70.58.0/24 # 自动化扫描器集群段，多次用于 RustScan + loader 联动的感染链
 
+# > Cloud Botnet / VPS Botnet（云服务器攻击集群 / 大规模扫描 + DDoS 出口）
+
+DOMAIN-SUFFIX,cloudbotnet.net # 云服务器僵尸网络识别域，用于批量节点管理与恶意任务调度
+DOMAIN-SUFFIX,vps-botnet.com # VPS Botnet 主控域，用于 Bot 回连、攻击指令下发与扫描结果同步
+DOMAIN-SUFFIX,cloud-c2.net # 云端 C2 节点，用于高带宽 DDoS / 自动化扫描任务推送与回连
+DOMAIN-SUFFIX,vpsscan.net # VPS 扫描链域名，用于云节点批量端口探测、弱口令扫描与资产收集
+DOMAIN-SUFFIX,cloudloader.net # 云节点 Loader 托管域，用于恶意二进制下载、payload 分发与模块更新
+DOMAIN-SUFFIX,cloudrelay.net # 云代理中继服务，用于隐藏真实 C2、转发恶意流量与匿名化扫描
+DOMAIN-SUFFIX,cloudsyncpanel.com # 云 Botnet 控制/同步面板，用于任务更新、负载推送与节点状态监控
+DOMAIN-SUFFIX,cloud-dropper.net # 云 Botnet Dropper 节点，用于托管 exploit、扫描脚本与 loader 模块
+IP-CIDR,95.214.52.0/23 # 多份云僵尸网络 IOC 出现的攻击出口段（VPS 批量扫描 + DoS）
+IP-CIDR,89.163.128.0/17 # Contabo 常见滥用段，频繁用于大规模扫描、代理滥用与 DDoS
+IP-CIDR,65.21.0.0/16 # Hetzner 大规模扫描源段，众多 Bot Loader + 扫描器在此段活动
+IP-CIDR,172.234.0.0/16 # Oracle Cloud 频繁滥用的扫描段，用于 SSH 暴破、Redis 攻击链等
+IP-CIDR,152.67.0.0/16 # Oracle 欧洲节点常用于 DDoS、僵尸网络心跳与扫描任务
+IP-CIDR,192.81.208.0/20 # DigitalOcean 常见恶意扫描出口段，用于端口探测/弱口令爆破
+IP-CIDR,146.70.0.0/16 # VPS 污染源段，多个云 Botnet 的扫描节点与 C2 轮换 IP 所在段
+IP-CIDR,104.244.72.0/21 # Bulletproof VPS 滥用段，用于隐蔽 C2、代理恶意流量与扫描活动
+
 
 
 
