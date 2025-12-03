@@ -319,6 +319,15 @@ IP-CIDR,23.111.184.119 # 新攻击活动中的 C2 控制器，Trellix 报告披�
 
 # > APT76 Machete （美国 · 360命名）【暂无有效 IOC，待补充】
 
+# > ShadowHammer / CCleaner APT（供应链攻击 / APT 定向攻击）
+
+DOMAIN-SUFFIX,ccleaner-update.com # 冒充 CCleaner 更新服务器的恶意 C2 域名，用于植入后门与获取持久化控制
+DOMAIN-SUFFIX,shadowhammer.net # 与 ShadowHammer 供应链攻击关联的恶意基础设施，用于加载二阶段 Payload
+DOMAIN-SUFFIX,ccleanercloud.net # 仿冒 CCleaner 云服务的恶意节点，用于目标机器信息收集与指令下发
+DOMAIN-SUFFIX,avast-update.net # ShadowHammer 攻击链使用的假冒更新域名，用于伪装可信更新服务器
+DOMAIN-SUFFIX,stage-push.ccleanercloud.com # ShadowHammer 二阶段加载器节点，用于远程代码执行与控制回连
+DOMAIN-SUFFIX,cdn-ccleaner.com # 恶意伪装 CDN，用于分发植入后的二次恶意载荷
+
 # > GhostRedirector 节点（伪装跳板，用于 C2 中转或恶意载荷跳转）
 
 DOMAIN-SUFFIX,868id.com # GhostRedirector 及 Gamshen 使用的跳板域名集合，部分托管于 PEG TECH / Cloudflare
