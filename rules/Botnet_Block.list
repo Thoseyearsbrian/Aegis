@@ -76,3 +76,13 @@ DOMAIN-SUFFIX,xloader.net # Xloader 主控域名，用于木马回连、模块�
 DOMAIN-SUFFIX,xloaderpanel.com # Xloader 控制台域名，用于僵尸网络监控、受控主机管理及任务控制
 DOMAIN-SUFFIX,xloadermail.com # Xloader 数据外传节点，用于发送窃取的浏览器密码、邮箱账户与会话 Cookie
 DOMAIN-SUFFIX,formxload.com # FormBook/Xloader 共享投递链域名，用于恶意载荷托管与初始感染分发
+
+# > RedLine Stealer（信息窃取木马 / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,redlinestealer.com # RedLine 官方恶意运营域，用于C2回连、任务下发与感染链管理
+DOMAIN-SUFFIX,rlpanelhost.com # RedLine 控制面板域名，用于僵尸主机管理、日志查看与凭证收集
+DOMAIN-SUFFIX,rlstealcontrol.com # RedLine C2 指挥域名，用于数据外传与模块更新
+DOMAIN-SUFFIX,rlbackup.net # RedLine 后备控制节点，用于主控失效后的备用回连
+DOMAIN-SUFFIX,rlc2sync.com # RedLine 配置同步域名，用于僵尸网络配置更新与任务分发
+DOMAIN-SUFFIX,stealpanel.net # RedLine 运营方使用的管理端域名，用于管控受感染终端与外传数据存储
+DOMAIN-SUFFIX,formsteal.net # RedLine 关联投递链域名，用于初始恶意载荷托管与下载执行
