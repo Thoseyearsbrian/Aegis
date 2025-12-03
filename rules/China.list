@@ -1877,6 +1877,9 @@ DOMAIN-SUFFIX,auth.minimax.ai # 身份认证服务入口，用于控制台与 AP
 
 # > Zhipu AI（智谱 AI / ChatGLM）
 
+DOMAIN-SUFFIX,chat.z.ai # 智谱 AI Chat 对话服务域名，用于 Web 端模型交互与会话处理
+DOMAIN-SUFFIX,models.aminer.cn # AMiner 模型服务节点，用于模型权重加载、推理资源访问与数据同步
+DOMAIN-SUFFIX,zhipuaiadmin.aminer.cn # 智谱 AI 管理后台域名，用于平台配置、账号管理与运营控制
 DOMAIN-SUFFIX,zhipuai.cn # 智谱 AI 主站域名，用于模型介绍、产品概览与企业服务
 DOMAIN-SUFFIX,zhipuai.com # 智谱 AI 国际化域名，用于在线体验与模型产品访问
 DOMAIN-SUFFIX,www.zhipuai.cn # 主站子域，用于模型信息、活动与演示入口
