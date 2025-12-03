@@ -182,3 +182,12 @@ DOMAIN-SUFFIX,pluginconfig.com # PlugX 插件与模块配置下载域名，用�
 DOMAIN-SUFFIX,updatekorplug.com # PlugX 更新通道域名，用于恶意载荷更新与后门维护
 DOMAIN-SUFFIX,plgxpanel.com # PlugX 控制台面板，用于受控主机管理与APT行动指挥
 DOMAIN-SUFFIX,plxgate.com # PlugX C2 反向代理网关，用于加密回连与流量混淆
+
+# > Gh0st RAT（APT 使用广泛的远控木马 / C2 后门）
+
+DOMAIN-SUFFIX,ghostrat.com # Gh0st RAT 核心 C2 域名，用于远控会话、命令下发与数据窃取
+DOMAIN-SUFFIX,gh0strat.net # Gh0st 木马家族使用的控制域名，用于恶意连接与远程指挥
+DOMAIN-SUFFIX,ghostpanel.net # Gh0st RAT 控制面板域名，用于受控主机管理与APT行动协调
+DOMAIN-SUFFIX,ghostupdate.org # Gh0st RAT 组件更新与后门持续化维护域名
+DOMAIN-SUFFIX,cringerat.com # Gh0stCringe 派生家族使用的恶意 C2 域名
+DOMAIN-SUFFIX,ghostrpc.com # Gh0st RAT RPC 与模块通信域名，用于横向移动与高级控制模块加载
