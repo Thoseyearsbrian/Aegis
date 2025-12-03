@@ -1939,4 +1939,9 @@ DOMAIN-SUFFIX,auth.moonshot.cn # 统一身份认证服务，用于用户登录�
 
 # > 智齿客服（Sobot）在线服务域名
 
+DOMAIN-SUFFIX,sobot.com # 智齿客服主站域名，用于客服系统页面加载与控制台访问
 DOMAIN-SUFFIX,chat.sobot.com # 智齿客服系统通信域名，用于网页端客服聊天、消息推送与用户会话维持
+DOMAIN-SUFFIX,api-c.sobot.com # 智齿客服 API 接口域名，用于网页聊天窗口与用户信息拉取交互
+DOMAIN-SUFFIX,imws.sobot.com # 智齿客服 WebSocket 域名，用于消息实时推送与会话维持
+DOMAIN-SUFFIX,crumb.sobot.com # 智齿客服身份校验与会话凭证服务域名，用于用户状态验证
+DOMAIN-SUFFIX,errorlog.sobot.com # 智齿客服错误日志上报接口域名，用于收集前端异常与诊断数据
