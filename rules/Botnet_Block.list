@@ -970,6 +970,19 @@ IP-CIDR,80.66.64.0/24 # 大规模 Kinsing 扫描源，主要攻击 SSH、Docker 
 IP-CIDR,194.150.168.0/24 # Kinsing 使用的反向代理节点，用于隐藏真实 C2 与矿池地址
 IP-CIDR,185.106.94.0/24 # 关联 Kinsing 挖矿 Botnet 的恶意基础设施段，多次用于 XMRig 代理
 
+# > XLoader（macOS 信息窃取木马 / FormBook 继任家族）
+
+DOMAIN-SUFFIX,xloader-sync.net # XLoader 配置同步域，用于拉取任务指令、密钥与 C2 配置
+DOMAIN-SUFFIX,xloader-update.net # XLoader 更新节点，用于下发恶意模块与新版信息窃取器
+DOMAIN-SUFFIX,xloaderpanel.net # XLoader 控制面板域，用于管理受感染主机与窃取数据
+DOMAIN-SUFFIX,xloader-dropper.net # XLoader 初始感染 Dropper 域，用于下载载荷与执行恶意脚本
+DOMAIN-SUFFIX,xmacc2.com # macOS XLoader 专属于 C2 域，用于设备回连与数据传输
+DOMAIN-SUFFIX,formbook-xloader.net # FormBook/XLoader 迁移链域名，用于兼容旧版 FormBook 配置与通信
+IP-CIDR,193.106.191.0/24 # XLoader C2 高发段，多次用于 macOS 版控制指令与数据回传
+IP-CIDR,194.87.105.0/24 # XLoader 投递链常见出口段，用于下发恶意 MS Office 文档与 macOS Payload
+IP-CIDR,45.153.160.0/24 # XLoader 后端通信网络段，用于多层代理与混淆 C2 路由
+IP-CIDR,85.208.136.0/24 # XLoader 样本关联段，用于云代理与隐匿 C2 隧道
+
 
 
 
