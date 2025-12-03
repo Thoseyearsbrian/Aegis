@@ -565,4 +565,15 @@ DOMAIN-SUFFIX,gafsync.net # Gafgyt 配置同步端点，用于扫描模块更新
 IP-CIDR,185.130.44.0/24 # Gafgyt 样本中常出现的恶意节点段，用于 DDoS 攻击流量与 Bot 回连
 IP-CIDR,45.134.20.0/24 # Bashlite 活跃 C2 出口段，用于感染链广播、恶意脚本分发与任务下发
 
+# > QSnatch（QNAP NAS 恶意软件 / 凭证窃取 / 持久化后门）
+
+DOMAIN-SUFFIX,qsnatch.net # QSnatch 识别域名，用于恶意回连、任务拉取与感染节点标识
+DOMAIN-SUFFIX,qnapupdate.net # QSnatch 伪装的“QNAP 更新服务器”，用于下发恶意配置与后门模块
+DOMAIN-SUFFIX,qsnc2.com # QSnatch C2 控制节点，用于持久化心跳通信、命令下发与凭证窃取
+DOMAIN-SUFFIX,secureqnap.net # QSnatch 假冒系统安全服务域名，用于隐藏恶意 DNS 回连
+DOMAIN-SUFFIX,qnapsync.org # QSnatch 更新与配置同步域名，用于推送后续感染模块
+DOMAIN-SUFFIX,qnapcloudsync.com # QSnatch C2 伪装域，用于恶意模块下载与持久化维持
+IP-CIDR,185.102.219.0/24 # QSnatch 众多 IOC 中出现的恶意 C2 段，用于控制通信与数据外传
+IP-CIDR,91.214.44.0/24 # QSnatch 样本使用的已知恶意主机，用于回连与模块更新
+
 
