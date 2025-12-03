@@ -1763,6 +1763,7 @@ DOMAIN-SUFFIX,image01.vidu.zone # Vidu 媒体资源子域名，用于图像与�
 DOMAIN-SUFFIX,www.vidu.cn # 即构科技 Vidu 主站域名，用于官网访问、服务介绍与产品文档浏览
 DOMAIN-SUFFIX,static.vidu.cn # 即构科技静态资源域名，用于加载 JS/CSS/图标等前端页面资源
 DOMAIN-SUFFIX,service.vidu.cn # 即构科技服务接口域名，用于视频服务相关的 API 调用与资源请求
+DOMAIN-SUFFIX,files.vidu.cn # 即构科技文件服务域名，用于下载 SDK、文档资源与媒体文件等内容
 
 # > ByteDance AI（Doubao / VolcEngine）相关域名
 
