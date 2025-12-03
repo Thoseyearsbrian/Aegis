@@ -78,6 +78,8 @@ IP-CIDR,61.170.77.212  # 中国上海电信网络节点，被用于 tb.alicdn.co
 
 # > 腾讯云（Tencent Cloud）
 
+DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播 / 实时音视频服务节点域名，用于直播流回源、流媒体推送与播放连接建立  
+DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云 VOD / 点播 / 视频分发 CDN 接入域名，用于视频流 / 播放资源加载与视频播放请求
 DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net # 腾讯云 TEG 平台下属服务域名
 DOMAIN-SUFFIX,myqcloud.com # 腾讯云小程序行为上传域（常用于 SDK）
 DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云 API 接口调用域名  
@@ -1557,6 +1559,8 @@ DOMAIN-SUFFIX,coding-page.com # CODING Pages 静态网站托管服务域名，�
 DOMAIN-SUFFIX,tencentcs.com # CODING/TencentCloud 依赖的云原生对象存储域名（文件、构建产物、制品库）
 DOMAIN-SUFFIX,codimg.cn # CODING 图片资源加速域名，用于头像、截图、项目展示图加载
 DOMAIN-SUFFIX,codetencent.com # CODING 关联服务域名，用于登录体系、资源分发与服务跳转
+DOMAIN-SUFFIX,cloudcache.tencentcs.com # 腾讯云静态资源 CDN / 缓存加速域名，用于加载 JS/CSS/图片等公共资源或静态文件 
+DOMAIN-SUFFIX,cloudcache.intl.tencent-cloud.com # 腾讯云 Intl 全球 CDN / 静态资源加速域名，用于静态文件、图片、脚本等内容分发与全球加速 
 
 # > PingCode（研发项目管理 / DevOps 协作平台）
 
