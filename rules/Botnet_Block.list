@@ -1090,6 +1090,18 @@ IP-CIDR,45.147.229.0/24 # Mystic Stealer 常用恶意基础设施网段（C2/Dro
 IP-CIDR,185.86.149.0/24 # 窃密木马共享 C2 区段，用于匿名代理与任务中转
 IP-CIDR,91.240.118.0/24 # Mystic 感染链相关恶意出口段，用于快速回连与数据外传
 
+# > Aurora Stealer（Go 语言高速信息窃取木马 / 多平台窃密）
+
+DOMAIN-SUFFIX,aurora-upd.net # Aurora 配置与模块更新域名，用于下发任务与 Stealer 插件
+DOMAIN-SUFFIX,aurora-c2.net # Aurora 主 C2 控制端，用于加密回连、窃密数据上报与远程指令
+DOMAIN-SUFFIX,aurora-sync.net # 数据同步伪装域，用于浏览器密码、Cookie、钱包数据外传
+DOMAIN-SUFFIX,aurora-drop.net # Loader 下载节点，用于初始感染与二阶段 payload 部署
+DOMAIN-SUFFIX,aurora-stealth.com # 隐匿通信域名，用于规避沙箱与安全产品检测
+DOMAIN-SUFFIX,aurora-payload.net # Aurora 恶意模块/插件加载域，用于扩展窃取能力
+IP-CIDR,45.15.156.0/24 # Aurora Stealer 恶意基础设施常用网段，用于 C2 与 loader 托管
+IP-CIDR,194.5.98.0/24 # 多家窃密木马共享恶意出口段，被 Aurora 用于数据外传
+IP-CIDR,91.240.120.0/24 # Aurora 活跃 C2 区块，用于快速回连与脚本下发
+
 
 
 
