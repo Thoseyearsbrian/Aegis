@@ -576,4 +576,15 @@ DOMAIN-SUFFIX,qnapcloudsync.com # QSnatch C2 伪装域，用于恶意模块下�
 IP-CIDR,185.102.219.0/24 # QSnatch 众多 IOC 中出现的恶意 C2 段，用于控制通信与数据外传
 IP-CIDR,91.214.44.0/24 # QSnatch 样本使用的已知恶意主机，用于回连与模块更新
 
+# > Moobot（Mirai 变种 / IoT 僵尸网络 / 弱口令感染链）
+
+DOMAIN-SUFFIX,moobot.net # Moobot Botnet 主控域名，用于 IoT 设备回连、任务下发与 DDoS 指令同步
+DOMAIN-SUFFIX,moobc2.com # Moobot C2 指挥节点，用于模块更新、Bot 心跳通信与攻击任务调度
+DOMAIN-SUFFIX,moobotloader.net # Moobot Loader 加载节点，用于弱口令爆破成功后的恶意固件/载荷下载
+DOMAIN-SUFFIX,moobotdropper.com # Moobot 感染链 Dropper 域，用于初始感染载荷与脚本跳转
+DOMAIN-SUFFIX,moobotsync.net # Moobot 配置同步端点，用于 Bot 配置更新、扫描脚本同步与持久化任务
+DOMAIN-SUFFIX,moobotpanel.com # Moobot 控制面板域名，用于僵尸主机管理、攻击流量监控与行动调度
+IP-CIDR,103.159.224.0/24 # Moobot 活跃恶意节点常见 IP 段，用于攻击流量出口与 Bot 回连
+IP-CIDR,45.155.205.0/24 # 多份全球 IOC 中出现的 Moobot 扫描/感染源段，用于批量扫描与弱口令爆破
+
 
