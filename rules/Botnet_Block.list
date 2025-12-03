@@ -616,4 +616,12 @@ DOMAIN-SUFFIX,satori-update.net # Satori 更新端点，用于传播阶段的扫
 IP-CIDR,185.244.25.0/24 # 在 Satori IOC 中出现的恶意基础设施段，用于扫描、横向移动与 C2 通信
 IP-CIDR,82.118.21.0/24 # Satori 相关 Botnet 出口节点，用于弱口令爆破、IoT 感染链传播与后续恶意指令执行
 
+# > Okiru / Omni（面向 ARM / ARC / MIPS 架构的专业 IoT Botnet 变种）
+
+DOMAIN-SUFFIX,okiru-botnet.net # Okiru 主要 C2 指挥控制域，用于受感染设备心跳同步与攻击指令下发
+DOMAIN-SUFFIX,omni-iot.net # Omni 变种相关 C2 节点，用于推送感染模块、扫描脚本与 DDoS 攻击任务
+DOMAIN-SUFFIX,okiru-update.net # 恶意更新端点，用于同步漏洞利用脚本与恶意加载器
+IP-CIDR,45.95.168.0/24 # Okiru 活跃恶意基础设施网段，用于扫描、横向移动与 Botnet 通信
+IP-CIDR,185.53.88.0/24 # Omni 相关疑似 C2 段，用于指令管理与大量 UDP Flood 出口流量
+
 
