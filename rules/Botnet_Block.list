@@ -1114,6 +1114,20 @@ IP-CIDR,185.244.128.0/24 # NetSupport RAT 恶意样本常用 C2 区段，用于�
 IP-CIDR,194.26.29.0/24  # Rogue RAT 攻击活动使用的控制基础设施，用于回连与脚本同步
 IP-CIDR,91.92.109.0/24  # 与伪装 NetSupport RAT 样本相关联的恶意 C2 节点区块
 
+# > Sliver C2（高级红队框架 / 被攻击团伙广泛滥用）
+
+DOMAIN-SUFFIX,sliver.sh # Sliver 框架主站域名，提供 C2 组件与通信模块分发，APT 与黑产常用于恶意控制
+DOMAIN-SUFFIX,slivercdn.com # Sliver C2 伪装 CDN 域名，用于恶意 payload 分发、会话建立与隐蔽通信
+DOMAIN-SUFFIX,sliverpackage.net # Sliver 加载器 / implant 分发节点，常出现在攻击链早期阶段
+DOMAIN-SUFFIX,slivercontrol.net # Sliver C2 控制端伪装域名，用于团队服务器的远控通信
+DOMAIN-SUFFIX,sliver-sync.com # Sliver C2 会话同步与指令下发域名，用于保持 implant 的实时在线
+DOMAIN-SUFFIX,cdn-sliver.net # 用于隐藏 Sliver C2 流量的伪 CDN 域名，APT/黑产均有使用记录
+IP-CIDR,185.225.74.0/24 # Sliver C2 团伙常用节点区段，用于 implant 回连与会话维持
+IP-CIDR,45.130.229.0/24 # 多个 Sliver TeamServer 活动记录的 C2 区块，用于恶意指令与任务派发
+IP-CIDR,185.158.248.0/24 # Sliver 与 Brute Ratel 共用的 C2 核心段，常见于勒索与初始入侵阶段
+
+
+
 
 
 
