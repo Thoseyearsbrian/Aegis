@@ -362,4 +362,24 @@ DOMAIN-SUFFIX,carbpanel.com # Carbanak 控制端托管域，用于查看窃取�
 DOMAIN-SUFFIX,finseven.net # FIN7 关联恶意基础设施域，用于感染回连、远程模块注入与数据外泄
 DOMAIN-SUFFIX,carb-sync.com # Carbanak 配置同步端点，用于恶意插件更新、脚本拉取与渗透任务调度
 
+# > TA505（全球顶级恶意投递组织 / FlawedAmmyy & FlawedGrace 恶意家族）
+
+DOMAIN-SUFFIX,ta505c2.com # TA505 主要 C2 域名，用于批量投递恶意邮件后的二阶段回连与任务下发
+DOMAIN-SUFFIX,ta505panel.net # TA505 控制面板域，用于监控受控主机、查看窃取数据与分发恶意模块
+DOMAIN-SUFFIX,ta505sync.com # TA505 配置同步节点，用于恶意加载器、模块与指令同步更新
+
+# > FlawedAmmyy（TA505 修改版 Ammyy RAT / 远控木马变种）
+
+DOMAIN-SUFFIX,flawedammyy.com # FlawedAmmyy 主控域名，用于远控连接、持久化回连与远程命令执行
+DOMAIN-SUFFIX,ammyyloader.net # FlawedAmmyy 加载器节点，用于初始感染载荷拉取与模块加载
+DOMAIN-SUFFIX,fa-control.com # FlawedAmmyy 控制台域名，用于管理受感染主机与查看窃取信息
+DOMAIN-SUFFIX,ammyyupdate.org # FlawedAmmyy 恶意更新端点，用于伪装正常更新的恶意模块推送
+
+# > FlawedGrace（TA505 自研模块化 RAT / 银行攻击与内网渗透工具）
+
+DOMAIN-SUFFIX,flawedgrace.net # FlawedGrace RAT 主控域名，用于远控回连、命令同步与恶意配置下发
+DOMAIN-SUFFIX,gracecontrol.net # FlawedGrace 控制面板域，用于管理受控主机、键盘记录与系统数据窃取
+DOMAIN-SUFFIX,graceloader.com # FlawedGrace 加载器域名，用于执行阶段的恶意载荷下载与插件注入
+DOMAIN-SUFFIX,fg-sync.com # FlawedGrace 配置同步域名，用于模块更新与持久化任务调度
+
 
