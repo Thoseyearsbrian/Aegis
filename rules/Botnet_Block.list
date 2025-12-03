@@ -520,6 +520,12 @@ DOMAIN-SUFFIX,merispanel.com # Mēris 控制面板域名，用于 Bot 管理、D
 DOMAIN-SUFFIX,merissync.net # Mēris 配置同步域名，用于恶意脚本更新、扫描脚本分发与 Bot 配置维护
 DOMAIN-SUFFIX,ddosmeris.net # Mēris 攻击链辅助域，用于大规模 HTTP Flood/DDoS 任务指令下达
 IP-CIDR,46.17.45.0/24 # Mēris 核心恶意节点常见 IP 段之一，多个国际 IOC 中出现，用于 DDoS 控制与 Bot 回连
+IP-CIDR,45.146.164.0/24 # Mēris 后续控制层常用网段，用于指挥放大攻击与代理链通信
+IP-CIDR,185.216.136.0/24 # 与新一代 Mēris 节点关联的恶意出口段，出现于 DDoS 攻击流量分析中
+IP-CIDR,185.149.120.0/24 # Mēris 扩展版使用的扫描/探测节点段，用于寻找开放的 HTTP/反射放大器
+IP-CIDR,146.70.80.0/24 # 用于反射滥用的辅助节点段，关联 Mēris 攻击基础设施
+IP-CIDR,185.107.44.0/24 # 高危 Botnet 控制段，被用于更新配置、投放任务与横向扩散
+IP-CIDR,89.163.140.0/24 # 与 Mēris 关联的代理链段，用于隐藏真实 C2 与攻击源
 
 # > FritzFrog（P2P SSH 僵尸网络 / 内存常驻恶意程序 / 去中心化 C2）
 
