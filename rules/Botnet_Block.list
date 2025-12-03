@@ -932,6 +932,27 @@ IP-CIDR,45.142.220.0/24 # 住宅代理农场扫描/安装节点，用于家宽�
 IP-CIDR,82.118.21.0/24 # 恶意 proxy 网络出口段，活跃于 Credential Stuffing/Spam/OTP bypass
 IP-CIDR,185.134.20.0/24 # Proxy Botnet 扫描器常用节点，用于发现可控家宽设备与弱口令端口
 
+# > Mining Botnet（XMRig / Proxy Pool / 云服务器滥用 / 挖矿僵尸网络）
+
+DOMAIN-SUFFIX,xmrig-proxy.net # XMRig Proxy 主控域，用于隐藏挖矿池真实地址及代理带宽分配
+DOMAIN-SUFFIX,mining-update.net # 挖矿 Botnet 更新节点，用于下发 XMRig 配置与恶意脚本
+DOMAIN-SUFFIX,minerloader.net # 挖矿 Bot Loader 域名，用于云服务器感染后的恶意挖矿模块下载
+DOMAIN-SUFFIX,cloudminer-c2.com # 云服务器挖矿 C2 控制域，用于任务同步与恶意脚本调度
+DOMAIN-SUFFIX,minerpanel.net # 挖矿控制面板域，用于管理受感染机器与查看非法算力
+DOMAIN-SUFFIX,proxymining.net # 挖矿代理节点域名，用于绕过矿池封禁、混淆流量来源
+DOMAIN-SUFFIX,xmrcloudsync.com # XMRig 云端配置同步域名，用于更新矿池、密钥与 CPU 限制参数
+DOMAIN-SUFFIX,autominers.net # 自动化感染 + 挖矿框架的控制域，常用于批量云主机渗透后部署
+DOMAIN-SUFFIX,miner-dropper.net # 挖矿 Dropper 域名，用于恶意 shell 脚本、XMRig 二进制与持久化组件下载
+DOMAIN-SUFFIX,xmrpool-sync.net # 挖矿池同步域，用于切换备用矿池与规避检测机制
+DOMAIN-SUFFIX,stealthminer.com # 隐蔽挖矿生态常用域，用于 CPU 限频、任务隐藏与代理跳板部署
+IP-CIDR,45.155.204.0/24 # 挖矿 Botnet 样本常用的恶意出口网段，用于下载 XMRig 模块与任务同步
+IP-CIDR,185.225.75.0/24 # 云服务器挖矿群组常用 C2 段，多次出现在 XMRig 恶意配置
+IP-CIDR,104.129.18.0/24 # 挖矿脚本传播源，用于扫描云主机、爆破 SSH 并部署挖矿程序
+IP-CIDR,194.5.98.0/24 # 多个挖矿家族共享的恶意代理节点，用于隐藏流量与转发矿池任务
+IP-CIDR,45.9.148.0/24 # 挖矿 Bot C2 节点常见来源，用于矿池同步与恶意更新
+IP-CIDR,82.118.21.0/24 # 高频恶意挖矿扫描源段，用于 Redis / Docker / Confluence 漏洞利用链
+IP-CIDR,185.130.44.0/24 # 挖矿 & DDoS 混合 Botnet 常见出口 IP 段，用于攻击与挖矿双用途
+
 
 
 
