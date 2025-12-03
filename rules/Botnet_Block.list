@@ -1078,6 +1078,18 @@ IP-CIDR,91.215.85.0/24 # MetaStealer 常用恶意出口段，用于数据外传�
 IP-CIDR,185.244.25.0/24 # MetaStealer 投递链使用的恶意基础设施段，常见于钓鱼分发
 IP-CIDR,89.45.67.0/24 # 信息窃取类木马公共 C2 区段，用于代理 Data Exfiltration（外传）
 
+# > Mystic Stealer（高速信息窃取木马 / 模块化加载器）
+
+DOMAIN-SUFFIX,mystic-upd.net # Mystic Stealer 更新节点，用于下发配置、模块与任务
+DOMAIN-SUFFIX,mystic-c2.com # Mystic Stealer 主 C2 控制域，用于窃取数据上报与远程指令同步
+DOMAIN-SUFFIX,myst-stealth.net # 隐蔽通信域名，用于规避检测与建立加密控制通道
+DOMAIN-SUFFIX,myst-loader.net # Mystic 初始载荷加载域，用于下载次级 payload（DLL/EXE）
+DOMAIN-SUFFIX,myst-sync.net # 数据同步伪装域，用于凭证、Cookie、浏览器数据等外传
+DOMAIN-SUFFIX,mystic-files.net # Stealer 文件上传端点，用于批量窃取文件与文档外传
+IP-CIDR,45.147.229.0/24 # Mystic Stealer 常用恶意基础设施网段（C2/Dropper）
+IP-CIDR,185.86.149.0/24 # 窃密木马共享 C2 区段，用于匿名代理与任务中转
+IP-CIDR,91.240.118.0/24 # Mystic 感染链相关恶意出口段，用于快速回连与数据外传
+
 
 
 
