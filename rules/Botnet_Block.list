@@ -661,4 +661,21 @@ DOMAIN-SUFFIX,chaos-extended.net # Chaos 扩展版变体识别域，用于 Go �
 IP-CIDR,188.214.104.0/24 # Mozi/Kaiji 进阶变体常见恶意基础设施段，用于 P2P 中继与 DDoS 回连通信
 IP-CIDR,194.5.98.0/24 # 多份国际 IOC 中出现的 Kaiji 高级变种出口节点，用于 SSH 暴破、扫描与攻击任务执行
 
+# > Okane / RapperBot（SSH 暴力破解 + DoS / IoT Botnet / 持续活跃样本）
+
+DOMAIN-SUFFIX,okane-ssh.net # Okane SSH 暴力破解链路域名，用于批量弱口令扫描与爆破结果回传
+DOMAIN-SUFFIX,okane-ddos.com # Okane DoS 指令节点，用于下发 HTTP/UDP Flood 等攻击任务
+DOMAIN-SUFFIX,okaneservice.net # Okane 感染链辅助域名，用于恶意脚本拉取、Bot 信息上报与模块更新
+DOMAIN-SUFFIX,okaneloader.net # Okane Loader 节点，用于初始感染后下载 DoS 模块与扩展组件
+DOMAIN-SUFFIX,okanecloud.net # Okane 云代理节点，用于隐藏真实 C2、反向中继与加密通信
+
+DOMAIN-SUFFIX,rapper-ssh.com # RapperBot SSH 暴破控制节点，用于弱口令攻击与僵尸主机登录状态同步
+DOMAIN-SUFFIX,rapper-ddos.net # RapperBot DoS 攻击链域名，用于受控设备接收攻击目标与任务参数
+DOMAIN-SUFFIX,rapperbot-tools.com # RapperBot 感染链工具域，用于恶意二进制下载与攻击模块同步
+DOMAIN-SUFFIX,rb-sync.net # RapperBot 配置同步域名，用于 Bot 状态上报、模块更新与任务协调
+DOMAIN-SUFFIX,rbloader.net # RapperBot Loader 节点，负责初始感染阶段的载荷下发与脚本分发
+
+IP-CIDR,45.155.226.0/24 # Okane/RapperBot 常见 SSH 暴力破解出口段，用于批量扫描与登录尝试
+IP-CIDR,185.225.75.0/24 # RapperBot 活跃 C2 基础设施段，多份 IOC 中涉及 DoS 攻击与 Bot 回连
+
 
