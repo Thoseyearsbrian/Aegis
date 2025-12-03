@@ -503,4 +503,15 @@ DOMAIN-SUFFIX,winsharedll.net # Glupteba 伪装系统 DLL 下载节点，用于�
 DOMAIN-SUFFIX,networksecurecdn.com # Glupteba 恶意 CDN 域名，用于分发感染阶段载荷与辅助组件
 IP-CIDR,45.9.20.0/24 # Glupteba 核心 C2 常见恶意 IP 段，用于命令执行、数据外泄与 Bot 回连
 
+# > Mēris（超大规模 DDoS 僵尸网络 / 利用 MikroTik RouterOS 漏洞构建的高带宽 Botnet）
+
+DOMAIN-SUFFIX,meris-botnet.com # Mēris 僵尸网络识别域名，用于恶意任务调度、DDoS 指令下发与感染节点标识
+DOMAIN-SUFFIX,merisc2.net # Mēris 主要 C2 控制节点，用于攻击任务同步、Bot 心跳与恶意流量协调
+DOMAIN-SUFFIX,mtkb0t.net # Mēris 基于 MikroTik RouterOS 的感染链识别域，用于恶意更新与命令广播
+DOMAIN-SUFFIX,routermeris.com # Mēris 伪装路由管理域，用于跳板、代理节点与扫描活动隐蔽通信
+DOMAIN-SUFFIX,merispanel.com # Mēris 控制面板域名，用于 Bot 管理、DDoS 流量监控与恶意集中控制
+DOMAIN-SUFFIX,merissync.net # Mēris 配置同步域名，用于恶意脚本更新、扫描脚本分发与 Bot 配置维护
+DOMAIN-SUFFIX,ddosmeris.net # Mēris 攻击链辅助域，用于大规模 HTTP Flood/DDoS 任务指令下达
+IP-CIDR,46.17.45.0/24 # Mēris 核心恶意节点常见 IP 段之一，多个国际 IOC 中出现，用于 DDoS 控制与 Bot 回连
+
 
