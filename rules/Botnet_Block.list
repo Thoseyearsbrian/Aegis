@@ -328,4 +328,15 @@ DOMAIN-SUFFIX,jsgootloader.com # GootLoader JavaScript 回连端点，用于前�
 DOMAIN-SUFFIX,seogoed.com # GootLoader SEO 投毒诱饵域名，用于伪造“论坛贴”“Q&A 页面”“文档下载”等恶意入口
 DOMAIN-SUFFIX,seohelpfiles.net # GootLoader 搜索投毒相关域，用于恶意关键词诱导与伪文档下载跳转
 
+# > BumbleBee Loader（高危恶意加载器 / 勒索软件投递链核心组件）
+
+DOMAIN-SUFFIX,bumblebee-loader.com # BumbleBee 主控域名，用于初始感染阶段的恶意任务拉取与配置同步
+DOMAIN-SUFFIX,beecontrolpanel.net # BumbleBee 控制面板域名，用于受控主机管理、任务下发与行为监控
+DOMAIN-SUFFIX,bumblebeec2.net # BumbleBee C2 指挥控制节点，用于回连、模块更新与恶意载荷下载
+DOMAIN-SUFFIX,bloader-sync.com # BumbleBee 配置同步端点，用于模块更新、脚本同步与持久化任务配置
+DOMAIN-SUFFIX,bee-dropper.net # BumbleBee 投递链“Dropper”节点，用于最终阶段载荷（Cobalt Strike / Ransomware）分发
+DOMAIN-SUFFIX,bumblegate.com # BumbleBee 伪装网关域名，用于加密回连与隐蔽 C2 通信
+DOMAIN-SUFFIX,loaderbee.net # BumbleBee 感染链辅助域名，用于伪装下载器与立足点部署模块加载
+DOMAIN-SUFFIX,bbeeload.com # BumbleBee 初始感染下载节点，用于宏文档/恶意 PDF 的恶意载荷拉取
+
 
