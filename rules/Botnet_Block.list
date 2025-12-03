@@ -597,4 +597,15 @@ DOMAIN-SUFFIX,hajimepeer.net # Hajime P2P 节点发现域，用于感染节点�
 IP-CIDR,95.211.0.0/16 # Hajime 在多份国际 IOC 中出现的历时活动 IP 段，用于 P2P 中继与恶意传播
 IP-CIDR,77.247.0.0/16 # Hajime 常见恶意节点段，用于弱口令扫描、设备感染与配置同步
 
+# > VPNFilter（APT 级路由器恶意软件 / 多阶段感染链 / C2 控制节点）
+
+DOMAIN-SUFFIX,vpnfilter.net # VPNFilter 核心识别域名，用于多阶段恶意模块的拉取与 C2 回连
+DOMAIN-SUFFIX,vpnfilterc2.com # VPNFilter C2 指挥节点，用于受控路由器的心跳通信与恶意任务下发
+DOMAIN-SUFFIX,vpnfilterupdate.com # VPNFilter 更新端点，用于模块更新、插件同步与后续阶段载荷下载
+DOMAIN-SUFFIX,phtobucket.com # VPNFilter 曾滥用的伪 Photobucket 域名，用于隐藏 C2 地址、下载配置与恶意图像标签
+DOMAIN-SUFFIX,cloudflarednssec.net # VPNFilter 样本中出现的伪装 Cloudflare 域名，用于恶意 DNS 解析与 C2 路由
+DOMAIN-SUFFIX,routerconfigsync.com # VPNFilter 持久化阶段使用的配置同步域，用于插件加载与恶意脚本更新
+IP-CIDR,46.151.209.0/24 # 多份 VPNFilter IOC 中出现的恶意节点段，用于 C2 通信、扫描与后续渗透活动
+IP-CIDR,91.121.0.0/17 # VPNFilter 活跃攻击出口段，用于 DDoS、代理滥用与路由器感染扩散
+
 
