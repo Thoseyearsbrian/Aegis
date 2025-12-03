@@ -250,4 +250,12 @@ DOMAIN-SUFFIX,remotelyanywhere.com # RemotelyAnywhere 官方主域名，合法�
 DOMAIN-SUFFIX,ra.logmein.com # RemotelyAnywhere/LogMeIn 后端服务域，用于远控连接、主机管理与会话维持
 DOMAIN-SUFFIX,logmein.com # LogMeIn 远程管理平台主域名（包含 RemotelyAnywhere 相关功能与连接）
 
+# > Backdoor.Hupigon / PoisonRat（老牌远控木马 / 后门家族）
+
+DOMAIN-SUFFIX,hupigon.net # Hupigon 后门木马 C2 域名，用于远程控制、键盘记录、文件窃取与命令执行
+DOMAIN-SUFFIX,hupigon.org # Hupigon 控制端通信节点，用于回连指令、恶意任务下发与持久化控制
+DOMAIN-SUFFIX,poisonrat.com # PoisonRat 后门木马的指挥控制域名，用于远程指令下发与敏感数据回传
+DOMAIN-SUFFIX,poisonrat.net # PoisonRat Botnet C2 节点，负责管理感染主机与推送恶意载荷
+IP-CIDR,103.148.72.0/24 # Hupigon/PoisonRat 常用恶意 C2 IP 段，涉及远控通道、窃密与木马传播
+
 
