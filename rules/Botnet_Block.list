@@ -430,4 +430,14 @@ DOMAIN-SUFFIX,hancdropper.com # Hancitor 投递链 Dropper 节点，用于初始
 DOMAIN-SUFFIX,hancsync.net # Hancitor 配置同步端点，用于插件更新、恶意脚本下发与持久化任务回连
 DOMAIN-SUFFIX,hancmodule.org # Hancitor 模块化扩展域，用于加载键盘记录、凭证窃取与勒索软件引导模块
 
+# > Necurs（全球超大规模僵尸网络 / 恶意投递链 / 勒索软件分发平台）
+
+DOMAIN-SUFFIX,necursbotnet.com # Necurs 僵尸网络核心控制域，用于 Bot 回连、任务下发与大规模垃圾邮件投递
+DOMAIN-SUFFIX,necurscontrol.net # Necurs C2 指挥节点，用于恶意活动调度、配置同步与模块更新
+DOMAIN-SUFFIX,necursc2.com # Necurs 远程指挥控制域名，用于下载恶意载荷与后台通信
+DOMAIN-SUFFIX,spamnecurs.net # Necurs 垃圾邮件分发链域名，用于大规模钓鱼邮件、恶意附件传播
+DOMAIN-SUFFIX,necursupdate.com # Necurs 更新节点，用于恶意插件、配置文件和投递模块更新
+DOMAIN-SUFFIX,loadernecurs.net # Necurs 投递链“Loader”节点，用于初始感染、恶意宏文档与后续载荷下载
+DOMAIN-SUFFIX,necurspanel.com # Necurs 控制面板域，用于管理僵尸主机、查看日志与协调恶意行动
+
 
