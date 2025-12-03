@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-02
+# - 更新时间：2025-12-03
 
 # > 阿里相关域名（Alibaba Group）
 
@@ -174,6 +174,10 @@ DOMAIN-SUFFIX,v11‑s.douyinvod.com # 抖音 CDN 子域，用于内容分发与�
 DOMAIN-SUFFIX,v9‑cold.douyinvod.com # 抖音 “cold storage” CDN，用于历史/冷数据分发  
 DOMAIN-SUFFIX,p9‑sign.douyinpic.com # 抖音图片资源 / 封面 CDN，用于用户头像/封面/图片加载  
 DOMAIN-SUFFIX,lf3‑static.bytednsdoc.com # ByteDance 静态资源域名，可能用于脚本 / 图片 / 前端资源加载 
+DOMAIN-SUFFIX,p26-sign.douyinpic.com # 抖音图片资源 CDN — 视频封面 / 缩略图 / 封面图 加载
+DOMAIN-SUFFIX,p3-sign.douyinpic.com # 抖音图片资源 CDN — 封面图 / 缩略图 加载备用域名
+DOMAIN-SUFFIX,v11‑magicarena‑v.365yg.com # 抖音/今日头条生态视频资源 / 内容分发 CDN，用于短视频流与内容加载
+DOMAIN-SUFFIX,v26‑magicarena‑v.365yg.com # 同上 — 视频资源 / 内容分发 CDN，用于短视频流加载
 IP-CIDR,106.38.222.179/32 # webcast100‑ws‑c‑hl.amemv.com 抖音 / 直播 WebSocket 服务节点  
 IP-CIDR,114.80.11.5/32 # webcast‑normal‑m.amemv.com 抖音 / 直播服务节点  
 IP-CIDR,140.249.108.50/32 # webcast‑core‑m.amemv.com 抖音 / 直播核心节点  
