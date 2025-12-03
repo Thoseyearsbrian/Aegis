@@ -96,3 +96,14 @@ DOMAIN-SUFFIX,raccoonlog.net # Raccoon 感染日志与凭证收集端点，用�
 DOMAIN-SUFFIX,stealerpanel.net # Raccoon 相关控制端域名，提供僵尸网络管理界面
 DOMAIN-SUFFIX,acquirepanel.com # Raccoon 关联投递链域名，用于恶意载荷下载与初始感染
 DOMAIN-SUFFIX,rfamilyhost.com # Raccoon 运营方用于备用 C2 与管理端的基础设施
+
+# > Vidar Stealer（信息窃取木马 / 窃密恶意软件 C2 基础设施）
+
+DOMAIN-SUFFIX,vidarcenter.com # Vidar Stealer 主控制端域名，用于任务下发、Bot 管理与恶意配置同步
+DOMAIN-SUFFIX,vidarc2.net # Vidar C2 回连节点，用于窃取数据传输、命令执行与更新模块下载
+DOMAIN-SUFFIX,vidarhost.net # Vidar 备用控制端域，用于感染机器的持久回连与隐藏通信
+DOMAIN-SUFFIX,stealerlogs.com # Vidar 窃取数据上传端点，用于凭证、Cookies、钱包密钥等信息外泄
+DOMAIN-SUFFIX,updatepanel.net # Vidar 感染链中使用的模块更新/插件下载域名
+DOMAIN-SUFFIX,malrack.com # Vidar 投递链相关基础设施，用于初始下载器、恶意载荷与分发渠道
+DOMAIN-SUFFIX,coldclient.net # Vidar C2 备用节点，用于隐蔽回连与 Bot 状态上报
+DOMAIN-SUFFIX,clientpanel.net # Vidar 运营面板域，用于攻击者查看数据、管理受控主机
