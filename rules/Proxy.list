@@ -4339,6 +4339,14 @@ DOMAIN-SUFFIX,privacy-policy.truste.com # TRUSTe / TrustArc 隐私政策页面�
 DOMAIN-SUFFIX,static.iris.informa.com # Informa 静态资源 CDN / 静态内容分发域名，用于加载页面静态文件、图片、脚本等资源  
 DOMAIN-SUFFIX,api.iiris.com # IIRIS 服务接口域名，用于数据请求 / 企业内容查询 / 分析服务 API 调用  
 
+# > Okta / Auth0 身份验证服务域名
+
+DOMAIN-SUFFIX,auth0.com # Okta 旗下身份认证平台 Auth0 主域名，用于 OAuth 登录与身份验证流程
+DOMAIN-SUFFIX,cdn.auth0.com # Auth0 静态资源 CDN 域名，用于加载登录界面、JS SDK 与身份控件脚本
+DOMAIN-SUFFIX,login.auth0.com # Auth0 登录入口域名，用于网页/第三方平台登录重定向与权限授权
+DOMAIN-SUFFIX,okta.com # Okta 官方主域名，用于访问控制台、登录认证与文档服务
+DOMAIN-SUFFIX,oktacdn.com # Okta 静态资源 CDN 域名，用于托管样式、SDK 脚本与 UI 控件资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
