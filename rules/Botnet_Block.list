@@ -141,3 +141,11 @@ DOMAIN-SUFFIX,remcosremoteaccess.com # Remcos RAT 控制面板及恶意流量中
 DOMAIN-SUFFIX,imminentmethods.com # Remcos RAT 样本使用的基础设施域，用于远控功能配置与命令下发
 DOMAIN-SUFFIX,breakingsecurity.net # 被恶意份子利用的托管域名，与 Remcos 分发、支持站点相关
 DOMAIN-SUFFIX,remcoscontrol.com # Remcos RAT C2 通信域名，用于屏幕控制、键盘记录、窃取数据与执行远程命令
+
+# > AsyncRAT（远程访问木马 / C# 远控工具）
+
+DOMAIN-SUFFIX,asyncrat.com # AsyncRAT 恶意样本中常用的基础设施域名，被用于指挥控制与恶意负载托管
+DOMAIN-SUFFIX,asyncpanel.com # AsyncRAT 控制面板相关域，用于远程命令执行、键盘记录与系统控制
+DOMAIN-SUFFIX,asyncc2.com # AsyncRAT 常见的恶意 C2 域名，用于受感染主机回连与控制消息交互
+DOMAIN-SUFFIX,asyncratcontrol.com # AsyncRAT 指挥控制节点，用于文件窃取、屏幕捕获与远程操作
+DOMAIN-SUFFIX,asyncratserver.com # 攻击者用于部署 AsyncRAT 服务端的恶意基础设施节点
