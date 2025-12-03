@@ -33,6 +33,8 @@ DOMAIN-SUFFIX,googletagmanager.com # Google Tag Manager 标签管理器
 DOMAIN-SUFFIX,analytics.google.com # Google 分析平台主域
 DOMAIN-SUFFIX,g.co # Google 官方短链接域名，用于跳转至各类产品与服务页面 
 DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com # Google Safe Browsing 的 OHTTP 中继服务域名，用于隐私保护下的安全浏览请求转发
+DOMAIN-SUFFIX,content-autofill.googleapis.com # Google 内容自动填充服务，用于表单填充、账号辅助输入等功能
+DOMAIN-SUFFIX,mtalk.google.com # Google 消息推送服务（FCM/GCM）域名，用于 Android 设备推送通知的连接维护
 IP-CIDR,142.250.4.0/24  # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
