@@ -67,3 +67,12 @@ DOMAIN-SUFFIX,agent-tesla.com # AgentTesla 恶意投递链路相关域名，用�
 DOMAIN-SUFFIX,teslarelay.com # AgentTesla 凭证窃取数据中继节点，用于邮件、浏览器密码等信息回传
 DOMAIN-SUFFIX,mailagenttesla.com # AgentTesla 邮件外传域名，用于木马通过 SMTP 方式发送被窃取的敏感数据
 DOMAIN-SUFFIX,agentpanel.net # AgentTesla 威胁操控端面板域名，用于僵尸主机状态监控与远程任务管理
+
+# > FormBook / Xloader（信息窃取木马 / 凭证收集器 / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,formbook.com # FormBook 关联控制节点域名，用于木马远程指令、数据回传与任务下发
+DOMAIN-SUFFIX,formbookpanel.com # FormBook 面板端域名，用于僵尸主机管理、键盘记录信息收集与外传
+DOMAIN-SUFFIX,xloader.net # Xloader 主控域名，用于木马回连、模块更新与恶意配置同步
+DOMAIN-SUFFIX,xloaderpanel.com # Xloader 控制台域名，用于僵尸网络监控、受控主机管理及任务控制
+DOMAIN-SUFFIX,xloadermail.com # Xloader 数据外传节点，用于发送窃取的浏览器密码、邮箱账户与会话 Cookie
+DOMAIN-SUFFIX,formxload.com # FormBook/Xloader 共享投递链域名，用于恶意载荷托管与初始感染分发
