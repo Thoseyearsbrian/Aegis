@@ -1827,6 +1827,7 @@ DOMAIN-SUFFIX,tencentcloud.com # 腾讯云主域名，用于账户、鉴权与�
 DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云开发者平台（文档、SDK、示例等）
 DOMAIN-SUFFIX,myqcloud.com # 腾讯云对象存储 COS 域，用于文件上传与模型相关资源加载
 DOMAIN-SUFFIX,tcb-api.tencentcloudapi.com # 腾讯云 TCB（云开发）接口，用于混元插件与交互式应用调用
+DOMAIN-SUFFIX,staticintl.cloudcachetci.com # 腾讯云国际 CDN 静态资源域名，用于加载 JS/CSS 等内容资源，服务于微信/腾讯会议等产品
 
 # > SparkDesk（讯飞星火 / iFlytek 大模型）
 
