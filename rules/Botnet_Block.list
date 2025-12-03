@@ -133,3 +133,11 @@ DOMAIN-SUFFIX,lokibot.xyz # LokiBot 恶意基础设施域名，用于 Bot 管理
 DOMAIN-SUFFIX,lokibotpanel.com # LokiBot 控制面板域名，用于攻击者查看凭证、会话、Cookie、钱包等泄露数据
 DOMAIN-SUFFIX,lokidrop.net # LokiBot 恶意载荷分发节点，用于下发感染包、更新模块与加载器
 DOMAIN-SUFFIX,lokisync.com # LokiBot 配置同步服务器，用于配置文件、恶意模块与脚本的更新
+
+# > Remcos RAT（远程控制木马 / 远控指挥与受害主机控制）
+
+DOMAIN-SUFFIX,remcos.net # Remcos RAT 官方分发与控制相关域名，常被用于恶意版本的购买与下载
+DOMAIN-SUFFIX,remcosremoteaccess.com # Remcos RAT 控制面板及恶意流量中常见的 C2 配置域名
+DOMAIN-SUFFIX,imminentmethods.com # Remcos RAT 样本使用的基础设施域，用于远控功能配置与命令下发
+DOMAIN-SUFFIX,breakingsecurity.net # 被恶意份子利用的托管域名，与 Remcos 分发、支持站点相关
+DOMAIN-SUFFIX,remcoscontrol.com # Remcos RAT C2 通信域名，用于屏幕控制、键盘记录、窃取数据与执行远程命令
