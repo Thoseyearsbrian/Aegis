@@ -191,3 +191,12 @@ DOMAIN-SUFFIX,ghostpanel.net # Gh0st RAT 控制面板域名，用于受控主机
 DOMAIN-SUFFIX,ghostupdate.org # Gh0st RAT 组件更新与后门持续化维护域名
 DOMAIN-SUFFIX,cringerat.com # Gh0stCringe 派生家族使用的恶意 C2 域名
 DOMAIN-SUFFIX,ghostrpc.com # Gh0st RAT RPC 与模块通信域名，用于横向移动与高级控制模块加载
+
+# > PoisonIvy（“毒藤”远控木马 / APT 常用 C2）
+
+DOMAIN-SUFFIX,poisonivyrat.com # PoisonIvy 官方传播与 C2 域，用于远控连接与命令执行
+DOMAIN-SUFFIX,pivyrat.net # PoisonIvy 家族常用 C2 域名，用于受控主机通信
+DOMAIN-SUFFIX,ivycontrol.net # 毒藤 RAT 控制端域名，用于恶意配置下发与指挥控制
+DOMAIN-SUFFIX,poisonpanel.com # PoisonIvy 控制面板相关域名，用于受控机器管理
+DOMAIN-SUFFIX,pivyloader.org # 毒藤木马加载器域名，用于恶意载荷下载与感染链传播
+DOMAIN-SUFFIX,pivygate.com # 毒藤 RAT C2 中间层域名，用于隐藏真实控制服务器
