@@ -86,3 +86,13 @@ DOMAIN-SUFFIX,rlbackup.net # RedLine 后备控制节点，用于主控失效后�
 DOMAIN-SUFFIX,rlc2sync.com # RedLine 配置同步域名，用于僵尸网络配置更新与任务分发
 DOMAIN-SUFFIX,stealpanel.net # RedLine 运营方使用的管理端域名，用于管控受感染终端与外传数据存储
 DOMAIN-SUFFIX,formsteal.net # RedLine 关联投递链域名，用于初始恶意载荷托管与下载执行
+
+# > Raccoon Stealer（信息窃取木马 / 僵尸网络 C2）
+
+DOMAIN-SUFFIX,raccoonstealer.com # Raccoon Stealer 恶意运营主域，用于木马控制与任务管理
+DOMAIN-SUFFIX,raccoonpanel.com # Raccoon 控制面板域名，用于受控终端管理与窃取数据查看
+DOMAIN-SUFFIX,raccoonc2.net # Raccoon C2 控制节点域，用于回连、模块更新与数据外传
+DOMAIN-SUFFIX,raccoonlog.net # Raccoon 感染日志与凭证收集端点，用于上传被窃取的数据
+DOMAIN-SUFFIX,stealerpanel.net # Raccoon 相关控制端域名，提供僵尸网络管理界面
+DOMAIN-SUFFIX,acquirepanel.com # Raccoon 关联投递链域名，用于恶意载荷下载与初始感染
+DOMAIN-SUFFIX,rfamilyhost.com # Raccoon 运营方用于备用 C2 与管理端的基础设施
