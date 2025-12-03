@@ -4315,6 +4315,12 @@ DOMAIN-SUFFIX,abuse.ch # abuse.ch 安全研究平台主域名，提供 URLHaus�
 DOMAIN-SUFFIX,feodotracker.abuse.ch # Feodo Tracker 主站域名，用于查询银行木马/僵尸网络的 C2 服务器与实时黑名单
 DOMAIN-SUFFIX,abuse.ch # abuse.ch 主域名，提供 Feodo Tracker、ThreatFox、URLHaus 等恶意软件与攻击情报服务
 
+# > MalwareBazaar（恶意软件样本数据库 / 恶意样本情报平台）
+
+DOMAIN-SUFFIX,malwarebazaar.com # MalwareBazaar 主站，用于搜索恶意软件样本、哈希查询与威胁分析
+DOMAIN-SUFFIX,mb-api.abuse.ch   # MalwareBazaar API 端点，用于样本查询、IOC 拉取与自动化情报集成
+DOMAIN-SUFFIX,abuse.ch          # abuse.ch 主域，用于访问旗下威胁情报服务（含 MalwareBazaar / FeodoTracker / ThreatFox 等）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
