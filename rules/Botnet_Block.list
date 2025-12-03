@@ -880,6 +880,22 @@ IP-CIDR,192.81.208.0/20 # DigitalOcean 常见恶意扫描出口段，用于端�
 IP-CIDR,146.70.0.0/16 # VPS 污染源段，多个云 Botnet 的扫描节点与 C2 轮换 IP 所在段
 IP-CIDR,104.244.72.0/21 # Bulletproof VPS 滥用段，用于隐蔽 C2、代理恶意流量与扫描活动
 
+# > Rust-based Botnet（Rust 僵尸网络 / RustLoader / RustScanner）
+
+DOMAIN-SUFFIX,rustbotnet.net # Rust 编写的僵尸网络 C2 控制域名，用于任务下发、Bot 保活与感染模块管理
+DOMAIN-SUFFIX,rust-c2.net # Rust Botnet 控制端节点，用于推送扫描任务、DDoS 参数与后门加载指令
+DOMAIN-SUFFIX,rustloader.net # Rust Loader 感染链节点，用于下发恶意 payload、执行后门模块与构建持久化
+DOMAIN-SUFFIX,rustscan-cnc.com # Rust 扫描器衍生 Botnet 的 C2 端，用于回传扫描结果与资产指纹
+DOMAIN-SUFFIX,rustdropper.com # Rust Dropper 下载域名，用于植入后门模块、辅助横向移动与推送恶意插件
+DOMAIN-SUFFIX,rust-payload.net # Rust Botnet 专用 payload 托管域，用于托管 DLL/SO/EXE 等恶意载荷
+DOMAIN-SUFFIX,rustxbot.net # Rust 多功能 Botnet 生态域，用于整合扫描、爆破、木马、DDoS 功能模块
+DOMAIN-SUFFIX,rs-c2panel.com # Rust Botnet 控制面板域，用于 Bot 管理、状态回传与攻击任务配置
+IP-CIDR,185.107.70.0/24 # Rust Botnet 活跃 C2 段，用于分发任务、DDoS 参数与恶意模块
+IP-CIDR,95.214.27.0/24 # RustLoader 典型回连段，用于下载 payload、横向扫描及远控模块通信
+IP-CIDR,146.70.94.0/24 # Rust 扫描器 + Botnet 混合集群出口段，用于大规模端口扫描与目标探测
+IP-CIDR,179.43.175.0/24 # Rust Bot 家族控制基础设施段，用于多家族共享 C2 与恶意服务
+IP-CIDR,107.172.41.0/24 # Rust-based Scanner/Bot 高危扫描源段，用于批量资产探测与随后的感染链
+
 
 
 
