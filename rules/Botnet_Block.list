@@ -68,6 +68,13 @@ DOMAIN-SUFFIX,logmein.com # LogMeIn 主域名，GoToMyPC 相关服务的统一�
 DOMAIN-SUFFIX,client.gotomypc.com # GoToMyPC 客户端服务域名，用于远控会话建立、主机连接与设备注册
 DOMAIN-SUFFIX,broker.gotomypc.com # GoToMyPC 会话中继/Broker 服务，用于远程桌面连接调度与穿透
 
+# > NetSupport Manager（合法远控工具 / 在攻击链中经常被用作后门控制）
+
+DOMAIN-SUFFIX,netsupportsoftware.com # NetSupport 官方主域名，用于合法软件下载、更新与许可验证
+DOMAIN-SUFFIX,netsupportmanager.com # NetSupport Manager 远控产品域，用于连接、中继服务与远程管理
+DOMAIN-SUFFIX,net-support.net # NetSupport 旧版产品服务器域名，用于兼容性服务与更新检查
+DOMAIN-SUFFIX,netsupportdna.com # NetSupport DNA 管理端域，用于部署、策略同步与远控会话管理
+
 # > Dridex（银行木马 / 高危恶意软件家族 IOC）
 
 DOMAIN-SUFFIX,dridex.com # Dridex 恶意软件家族相关域名，用于 C2 通信、恶意载荷下载与僵尸网络控制
@@ -995,6 +1002,8 @@ IP-CIDR,185.225.69.0/24 # SocGholish C2 高发区段，用于后续载荷投递�
 IP-CIDR,82.118.21.0/24 # SocGholish 关联扫描段，也用于 FakeUpdate 感染链的 JS/ZIP 分发
 IP-CIDR,104.129.18.0/24 # SocGholish 投递链中用于代理、IP 轮替与绕过防护的出口网段
 IP-CIDR,45.155.205.0/24 # FakeUpdate 基础设施段，用于 JS Loader 回连与会话同步
+
+
 
 
 
