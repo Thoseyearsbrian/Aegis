@@ -754,3 +754,7 @@ DOMAIN-SUFFIX,events.framer.com # Framer 事件上报接口域名，用于收集
 
 DOMAIN-SUFFIX,px.ads.linkedin.com # LinkedIn 像素追踪域名，用于广告点击记录、转化分析与重定向追踪
 
+# > WDFl 广告追踪跳转域名（Webeye / GWI Group）
+
+DOMAIN-SUFFIX,r.wdfl.co # 用于广告追踪与跳转路径收集，存在行为分析与用户识别风险，常见于网页广告与跳转脚本中
+
