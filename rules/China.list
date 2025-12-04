@@ -1303,6 +1303,7 @@ DOMAIN-SUFFIX,mbd.baidu.com # 百度行为组件与内容分发策略接口
 IP-CIDR,122.228.195.19/32 # m.baike.com 移动端百科服务节点，用于页面加载、搜索与接口请求
 
 # > 搜狗搜索主服务域名
+
 DOMAIN-SUFFIX,sogou.com # 搜狗主域名，涵盖搜索门户、导航入口等  
 DOMAIN-SUFFIX,so.com # 原360搜索域名，部分与搜狗联合展示内容  
 DOMAIN-SUFFIX,v.sogou.com # 搜狗视频搜索服务域名  
