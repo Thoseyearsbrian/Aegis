@@ -4480,6 +4480,8 @@ DOMAIN-SUFFIX,images.squarespace-cdn.com # Squarespace 图像资源 CDN，用于
 DOMAIN-SUFFIX,static1.squarespace.com # Squarespace 静态资源域名，用于加载 JS/CSS 等网站框架资源
 DOMAIN-SUFFIX,assets.squarespace.com # Squarespace 通用资源托管域名，用于模板组件、脚本与字体等加载
 DOMAIN-SUFFIX,definitions.sqspcdn.com # Squarespace 样式定义与脚本配置资源域名，用于主题支持和功能初始化
+DOMAIN-SUFFIX,performance.squarespace.com # Squarespace 网站性能监控与数据上报域名，用于收集站点加载表现和用户交互数据
+DOMAIN-SUFFIX,video.squarespace-cdn.com # Squarespace 视频资源 CDN 域名，用于页面嵌入视频内容的加载与分发
 
 # > 第三方博客网站
 
