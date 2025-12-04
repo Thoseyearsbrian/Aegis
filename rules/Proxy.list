@@ -4454,6 +4454,13 @@ DOMAIN-SUFFIX,ga.jspm.io # JSPM 平台模块加载 CDN 域名，用于前端动�
 DOMAIN-SUFFIX,q7qtb4pt5dq3.statuspage.io # Midjourney 使用的 Statuspage 子域，用于服务运行状态公告和历史事件追踪
 DOMAIN-SUFFIX,statuspage.io # Atlassian Statuspage 主域名，用于加载状态页资源与页面框架，依赖海外节点，建议代理访问
 
+# > Stream Video 实时音视频通信服务域名（WebRTC / Video API）
+
+DOMAIN-SUFFIX,stream-io-video.com # Stream Video 主域名，用于视频服务 API 请求、项目管理与用户认证等
+DOMAIN-SUFFIX,hint.stream-io-video.com # WebRTC 连接提示与协商服务，用于视频会话的连接建立与信令传输
+DOMAIN-SUFFIX,ws.stream-io-video.com # WebSocket 低延迟通道接口，用于音视频会话的实时数据交换（如媒体流控制）
+DOMAIN-SUFFIX,cdn.stream-io-video.com # 静态资源加载 CDN，用于视频组件、播放器脚本等前端文件的加速分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
