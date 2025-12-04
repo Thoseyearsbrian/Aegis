@@ -708,4 +708,4 @@ DOMAIN-SUFFIX,cdn.bizible.com # Bizible 静态资源域名，用于加载前端 
 
 IP-CIDR,3.233.158.114/32 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv4 节点）
 IP-CIDR,3.233.158.111/32 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv4 节点）
-IP-CIDR,[2600:1f18:24e6:b901:fbdc:7182:a89c:6101]/128 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv6 节点）
+IP-CIDR,2600:1f18:24e6:b901:fbdc:7182:a89c:6101 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv6 节点）
