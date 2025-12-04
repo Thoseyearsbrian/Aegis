@@ -169,6 +169,7 @@ DOMAIN-SUFFIX,mistral-medium.run # Mistral Medium 模型推理端点，用于特
 
 # > Haruka AI
 
+DOMAIN-SUFFIX,haruka.ai # Haruka AI 主站域名，用于访问聊天界面、用户设置与模型服务
 DOMAIN-SUFFIX,ai.haruka.cloud # Haruka AI 主站域名，用于在线对话平台与 Web 端服务入口
 DOMAIN-SUFFIX,api.ai.haruka.cloud # Haruka AI 平台 API 接口域名，用于对话推理、消息处理与应用集成
 DOMAIN-SUFFIX,cdn.ai.haruka.cloud # Haruka AI 静态资源 CDN 域名，用于前端脚本、样式与界面组件加载
