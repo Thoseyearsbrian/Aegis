@@ -4411,6 +4411,7 @@ DOMAIN-SUFFIX,api.allorigins.win # AllOrigins 公共 API 接口，用于 CORS �
 # > Lever 招聘平台域名（用于职位申请与招聘流程表单提交）
 
 DOMAIN-SUFFIX,jobs.lever.co # Lever 招聘系统主域名，用于职位展示、简历上传与申请流程页面加载
+DOMAIN-SUFFIX,cdn.lever.co # Lever 招聘平台静态资源域名，用于加载 JS、CSS 与字体文件，提升页面性能与用户体验
 
 # > 第三方博客网站
 
