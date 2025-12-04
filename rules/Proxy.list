@@ -4394,13 +4394,6 @@ DOMAIN-SUFFIX,cloudflare-dns.com # Cloudflare 公共 DNS over HTTPS（DoH）服�
 DOMAIN-SUFFIX,cloudflarestatus.com # Cloudflare 官方服务状态页面，提供 CDN / DNS / 网络节点状态公开信息，用于查看服务运行状况与维护公告
 DOMAIN-SUFFIX,embed.cloudflarestream.com # Cloudflare Stream 嵌入式视频加载服务域名，用于网页内嵌视频播放
 
-# > ItDog 网络监测服务相关域名
-
-DOMAIN-SUFFIX,itdog.cn # ItDog 主站域名，用于访问官网与服务入口  
-DOMAIN-SUFFIX,monitor.itdog.cn # ItDog 网络监测平台子域，用于用户站点的在线监测与报告查看  
-DOMAIN-SUFFIX,api.itdog.cn # ItDog API 接口域名，用于数据查询、监控任务创建与结果推送等  
-DOMAIN-SUFFIX,cdn.itdog.cn # ItDog 静态资源 CDN 域名，用于前端页面静态资源加载，如 JS、CSS 等
-
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
