@@ -421,6 +421,8 @@ DOMAIN-SUFFIX,amplitude.com # Amplitude 主域名，用于产品分析平台服�
 DOMAIN-SUFFIX,api.amplitude.com # Amplitude 数据收集接口，用于上传用户行为事件与属性  
 DOMAIN-SUFFIX,api2.amplitude.com # Amplitude 批量事件上传端点，用于 SDK 后台数据上传 
 DOMAIN-SUFFIX,cdn.amplitude.com # Amplitude SDK 脚本／资源分发节点，用于前端／网页版事件追踪  
+DOMAIN-SUFFIX,api.lab.amplitude.com # Amplitude Lab 子域名下的行为分析接口，主要用于事件上报、实验配置获取和用户行为数据的采集与测试
+
 # > CleverTap（移动用户行为与事件上报平台）
 DOMAIN-SUFFIX,clevertap.com # CleverTap 主域名，用于行为分析与用户参与服务
 DOMAIN-SUFFIX,api.clevertap.com # CleverTap 数据收集接口，用于事件上传与用户行为追踪
@@ -751,3 +753,4 @@ DOMAIN-SUFFIX,events.framer.com # Framer 事件上报接口域名，用于收集
 # > LinkedIn 广告追踪与分析域名
 
 DOMAIN-SUFFIX,px.ads.linkedin.com # LinkedIn 像素追踪域名，用于广告点击记录、转化分析与重定向追踪
+
