@@ -4061,6 +4061,11 @@ DOMAIN-SUFFIX,forms-na1.hsforms.com # HubSpot Forms 区域节点域名，用于�
 DOMAIN-SUFFIX,hubspotonwebflow.com # HubSpot 与 Webflow 集成使用的服务域名，用于表单、营销脚本与自动化组件加载
 DOMAIN-SUFFIX,hs-scripts.com # HubSpot 旗下前端脚本加载域，用于加载客服组件、营销脚本与埋点服务
 DOMAIN-SUFFIX,js-na2.hs-scripts.com # HubSpot 北美区域脚本节点，用于客服组件、行为追踪与前端资源动态加载
+DOMAIN-SUFFIX,26117460.hs-sites-eu1.com # HubSpot 托管页面子域，通常用于构建落地页与营销页面（EU 区域）
+DOMAIN-SUFFIX,perf-eu1.hsforms.com # HubSpot 表单性能分析子域，用于处理用户交互与转化追踪（EU 区域）
+DOMAIN-SUFFIX,js-eu1.hsforms.net # HubSpot 表单组件资源加载域名，用于前端嵌入式表单支持（EU 区域）
+DOMAIN-SUFFIX,hsforms.com # HubSpot 表单组件主域名，用于加载嵌入式表单、营销线索收集及提交处理
+DOMAIN-SUFFIX,hsforms.net # HubSpot 表单静态资源与脚本托管域名，用于加载表单 JS/CSS、验证逻辑及交互脚本
 
 # > Claydar（前端资源服务 / 静态资源 CDN）
 
@@ -4468,6 +4473,13 @@ DOMAIN-SUFFIX,cdn.plyr.io # Plyr 官方 CDN 资源域名，用于加载播放器
 # > Noembed 第三方嵌入式媒体信息提取服务
 
 DOMAIN-SUFFIX,noembed.com # Noembed API 域名，用于提取第三方平台（如 YouTube、Twitter 等）的嵌入式媒体元数据，常用于前端展示优化与信息抓取
+
+# > Squarespace 官方内容分发域名（含静态资源与样式定义）
+
+DOMAIN-SUFFIX,images.squarespace-cdn.com # Squarespace 图像资源 CDN，用于加载用户网站中的媒体内容
+DOMAIN-SUFFIX,static1.squarespace.com # Squarespace 静态资源域名，用于加载 JS/CSS 等网站框架资源
+DOMAIN-SUFFIX,assets.squarespace.com # Squarespace 通用资源托管域名，用于模板组件、脚本与字体等加载
+DOMAIN-SUFFIX,definitions.sqspcdn.com # Squarespace 样式定义与脚本配置资源域名，用于主题支持和功能初始化
 
 # > 第三方博客网站
 

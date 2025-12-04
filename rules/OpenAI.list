@@ -227,6 +227,7 @@ DOMAIN-SUFFIX,render.runwayml.com # Runway 渲染服务域名，用于视频渲�
 
 # > Stability AI（Stable Diffusion 官方）
 
+DOMAIN-SUFFIX,stability.ai # Stability AI 官方主页域名，用于访问公司信息、模型发布、新闻公告与产品入口
 DOMAIN-SUFFIX,stability.ai # Stability AI 主站域名，用于模型发布、产品信息与公司介绍
 DOMAIN-SUFFIX,api.stability.ai # Stability AI 官方 API 接口域名，用于图像生成、视频生成与模型推理
 DOMAIN-SUFFIX,platform.stability.ai # Stability 控制台，用于 API Key 管理、账单与使用数据查看
