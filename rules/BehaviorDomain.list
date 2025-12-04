@@ -614,6 +614,8 @@ DOMAIN-SUFFIX,events.anthropic.com # Anthropic Telemetry 事件追踪端点，�
 DOMAIN-SUFFIX,hsadspixel.net # HubSpot Ads Pixel 跟踪域名，用于广告监测与投放追踪
 DOMAIN-SUFFIX,hs-analytics.net # HubSpot Analytics 分析域名，用于收集用户访问、事件与页面性能数据
 DOMAIN-SUFFIX,hscollectedforms.net # HubSpot 收集嵌入式表单数据的域名，用于非 HubSpot 表单的行为记录
+DOMAIN-SUFFIX,js-na2.hsadspixel.net # HubSpot 像素 JS 脚本加载域名，用于广告数据收集与页面行为分析
+DOMAIN-SUFFIX,api-na2.hubapi.com # HubSpot CRM 与分析服务 API 接口域名，用于数据上传、活动追踪与用户识别
 
 # > Moka 行为分析与数据上报（Sensors Data）
 
@@ -744,5 +746,8 @@ DOMAIN-SUFFIX,assets.trendemon.com # Trendemon 静态资源与脚本加载域名
 
 # > Framer 平台静态资源与事件上报域名
 
-DOMAIN-SUFFIX,app.framerstatic.com # Framer 编辑器前端资源域名，用于加载设计工具页面与脚本
 DOMAIN-SUFFIX,events.framer.com # Framer 事件上报接口域名，用于收集用户行为数据、错误追踪与交互日志
+
+# > LinkedIn 广告追踪与分析域名
+
+DOMAIN-SUFFIX,px.ads.linkedin.com # LinkedIn 像素追踪域名，用于广告点击记录、转化分析与重定向追踪
