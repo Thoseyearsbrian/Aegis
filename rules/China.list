@@ -1965,3 +1965,7 @@ DOMAIN-SUFFIX,static-assets.sxlcdn.com # 神策可视化平台静态资源域名
 DOMAIN-SUFFIX,ajax.sxlcdn.com # 神策数据前端请求接口，用于页面数据请求与交互操作
 DOMAIN-SUFFIX,user-assets.sxlcdn.com # 神策平台用户资源存储域名，用于用户自定义上传的图像、配置等静态文件
 DOMAIN-SUFFIX,static-fonts-css.sxlcdn.com # 神策平台字体样式表资源域名，用于 CSS 样式与字体引用分发
+
+# > hCaptcha 人机验证服务域名（中国节点）
+
+DOMAIN-SUFFIX,cn1.hcaptcha.com # hCaptcha 在中国大陆部署的验证服务节点，用于加载验证组件、挑战任务与安全校验逻辑
