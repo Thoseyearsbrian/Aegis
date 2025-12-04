@@ -4493,6 +4493,10 @@ DOMAIN-SUFFIX,video.squarespace-cdn.com # Squarespace 视频资源 CDN 域名，
 
 DOMAIN-SUFFIX,opencollective.com # Open Collective 主站域名，用于开源项目资金募集、赞助者管理与社区互动平台服务
 
+# > esm.sh（现代前端模块 CDN 加速服务）
+
+DOMAIN-SUFFIX,esm.sh # esm.sh 提供现代 JavaScript/TypeScript 模块的 CDN 分发服务，广泛用于前端构建工具如 Vite、Deno、Bun 等环境，适合纳入代理规则以确保兼容性
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
