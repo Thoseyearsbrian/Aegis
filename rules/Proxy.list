@@ -4449,6 +4449,11 @@ DOMAIN-SUFFIX,framerusercontent.com # Framer 用户内容托管域名，用于�
 
 DOMAIN-SUFFIX,ga.jspm.io # JSPM 平台模块加载 CDN 域名，用于前端动态模块导入与打包优化
 
+# > Atlassian Statuspage 服务状态页域名（包含子域和主域，建议代理访问）
+
+DOMAIN-SUFFIX,q7qtb4pt5dq3.statuspage.io # Midjourney 使用的 Statuspage 子域，用于服务运行状态公告和历史事件追踪
+DOMAIN-SUFFIX,statuspage.io # Atlassian Statuspage 主域名，用于加载状态页资源与页面框架，依赖海外节点，建议代理访问
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
