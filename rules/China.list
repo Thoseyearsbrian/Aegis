@@ -192,6 +192,7 @@ DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com # 字节跳动 / ByteDance CDN 域名 — �
 DOMAIN-SUFFIX,p6-passport.byteacctimg.com # ByteDance 用户头像 CDN 节点 — 用户头像 / 头像缩略图 / 头像资源加载
 DOMAIN-SUFFIX,p3-passport.byteacctimg.com # ByteDance 用户头像 CDN 备用节点 — 用于头像 / 资源加载备用域名
 DOMAIN-SUFFIX,p26-passport.byteacctimg.com # ByteDance 用户头像 CDN 节点 — 用于用户头像 / 资源加载及展示
+DOMAIN-SUFFIX,lf3-cdn-tos.bytescm.com # 字节跳动第三方资源 CDN 节点，用于分发静态脚本、图像、字体等前端资源，广泛用于其系产品如抖音、今日头条等
 IP-CIDR,106.38.222.179/32 # webcast100‑ws‑c‑hl.amemv.com 抖音 / 直播 WebSocket 服务节点  
 IP-CIDR,114.80.11.5/32 # webcast‑normal‑m.amemv.com 抖音 / 直播服务节点  
 IP-CIDR,140.249.108.50/32 # webcast‑core‑m.amemv.com 抖音 / 直播核心节点  
