@@ -1985,3 +1985,7 @@ DOMAIN-SUFFIX,itdog.cn # ItDog 主站域名，用于访问官网与服务入口
 DOMAIN-SUFFIX,monitor.itdog.cn # ItDog 网络监测平台子域，用于用户站点的在线监测与报告查看  
 DOMAIN-SUFFIX,api.itdog.cn # ItDog API 接口域名，用于数据查询、监控任务创建与结果推送等  
 DOMAIN-SUFFIX,cdn.itdog.cn # ItDog 静态资源 CDN 域名，用于前端页面静态资源加载，如 JS、CSS 等
+
+# > Nicolas Hoffmann 可访问性资源域名（用于 Web 可访问性组件加载）
+
+DOMAIN-SUFFIX,a11y.nicolas-hoffmann.net # Web A11y 可访问性组件资源加载域名，用于获取 UI 辅助功能支持文件

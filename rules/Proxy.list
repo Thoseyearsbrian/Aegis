@@ -4400,6 +4400,10 @@ DOMAIN-SUFFIX,cloudflare-dns.com # Cloudflare 公共 DNS over HTTPS（DoH）服�
 DOMAIN-SUFFIX,cloudflarestatus.com # Cloudflare 官方服务状态页面，提供 CDN / DNS / 网络节点状态公开信息，用于查看服务运行状况与维护公告
 DOMAIN-SUFFIX,embed.cloudflarestream.com # Cloudflare Stream 嵌入式视频加载服务域名，用于网页内嵌视频播放
 
+# > AllOrigins 公共代理 API 服务域名（用于前端跨域请求转发）
+
+DOMAIN-SUFFIX,api.allorigins.win # AllOrigins 公共 API 接口，用于 CORS 代理访问第三方网页资源（常用于浏览器端跨域绕过）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
