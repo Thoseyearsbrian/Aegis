@@ -1989,3 +1989,7 @@ DOMAIN-SUFFIX,cdn.itdog.cn # ItDog 静态资源 CDN 域名，用于前端页面�
 # > Nicolas Hoffmann 可访问性资源域名（用于 Web 可访问性组件加载）
 
 DOMAIN-SUFFIX,a11y.nicolas-hoffmann.net # Web A11y 可访问性组件资源加载域名，用于获取 UI 辅助功能支持文件
+
+# > Framer 用户内容分发域名（用户托管页面与资源加载）
+
+DOMAIN-SUFFIX,framerusercontent.com # Framer 平台托管的用户项目与静态资源域名，用于加载网页、图像与 JS 等前端内容，常见于站点预览与个人页面

@@ -4,7 +4,7 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-03
+# - 更新时间：2025-12-04
 
 # > 广告相关域名
 
@@ -8201,6 +8201,7 @@ DOMAIN-SUFFIX,servedby-buysellads.com # BuySellAds 广告投放主域名，用�
 DOMAIN-SUFFIX,m.servedby-buysellads.com # BuySellAds 移动端广告分发节点，用于移动页面广告请求与行为追踪
 DOMAIN-SUFFIX,6600d6d98e534115970f9529a45f3195.js.ubembed.com # ubembed.com 第三方广告脚本加载域名
 DOMAIN-SUFFIX,cdn.feathr.co # Feathr 第三方广告 / 受众分析组件 CDN 
+DOMAIN-SUFFIX,vi.ml314.com # ML314 广告跟踪像素域名，用于收集页面访问、转化率与点击数据，常见于广告投放着陆页
 IP-CIDR,172.217.194.149 # DoubleClick 广告服务 IP，用于广告内容加载与用户行为追踪
 IP-CIDR,172.217.194.148 # Google DoubleClick 广告服务 IP（备用节点），用于广告内容加载与行为识别
 IP-CIDR,203.119.238.0/24 # 阿里广告基础设施段（杭州机房）
