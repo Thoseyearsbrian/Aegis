@@ -77,6 +77,7 @@ IP-CIDR,123.151.48.171 # WeChat 自启行为连接的中国节点，ASN 属于 T
 
 DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流日志接口域名，用于客户端事件上报与行为分析  
 DOMAIN-SUFFIX,data.bilibili.com # Bilibili 数据采集与分析接口，用于用户行为统计与日志上传  
+DOMAIN-SUFFIX,ali-web-player-tracker.biliapi.net # 哔哩哔哩播放器追踪接口，用于采集网页端播放行为、埋点与用户互动数据
 
 # > 极验验证服务行为接口（GeeTest Behavior Services）
 
