@@ -4391,6 +4391,7 @@ DOMAIN-SUFFIX,assets.adobedtm.com # Adobe DTM 静态资源域名，用于标签�
 # > Cloudflare 相关域名
 
 DOMAIN-SUFFIX,cloudflare-dns.com # Cloudflare 公共 DNS over HTTPS（DoH）服务接口域名，用于安全 DNS 查询、提高隐私保护及抗污染解析能力
+DOMAIN-SUFFIX,cloudflarestatus.com # Cloudflare 官方服务状态页面，提供 CDN / DNS / 网络节点状态公开信息，用于查看服务运行状况与维护公告
 
 # > 第三方博客网站
 
