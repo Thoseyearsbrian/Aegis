@@ -104,6 +104,7 @@ DOMAIN-SUFFIX,upos-sz-estghw.bilivideo.com # Bilibili 视频内容分发节点�
 DOMAIN-SUFFIX,upos-sz-mirrorcoso1.bilivideo.com # Bilibili 视频内容分发节点（COSo1 镜像备用）
 DOMAIN-SUFFIX,line3-h5-mobile-api.biligame.com # 哔哩哔哩游戏接口域名，用于移动端登录与游戏数据请求
 DOMAIN-SUFFIX,upos-sz-staticcos.bilivideo.com # Bilibili 视频存储 CDN 节点，用于静态资源加载（如封面图、字幕）
+DOMAIN-SUFFIX,upos-sz-mirrorzos.bilivideo.com # Bilibili 视频内容 CDN 节点，用于视频文件的加速分发与区域镜像
 IP-CIDR,203.107.1.65 # 阿里云公共解析节点（AliDNS），用于域名 upos-sz-mirrorcos.bilivideo.com 的解析请求
 IP-CIDR,61.170.65.76 # Bilibili 静态内容 CDN 节点，对应域名 upos-sz-staticcos.bilivideo.com，用于分发视频与资源文件
 

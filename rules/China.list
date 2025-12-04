@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-03
+# - 更新时间：2025-12-04
 
 # > 阿里相关域名（Alibaba Group）
 
@@ -1901,10 +1901,9 @@ DOMAIN-SUFFIX,open.bigmodel.ai # 智谱 AI BigModel 开放平台 API 主域名�
 
 # > Yi-Large / 01.AI（零一万物）
 
+DOMAIN-SUFFIX,lingyiwanwu.com # 灵犀万物官网主域名，用于官网访问、产品介绍与文档加载
 DOMAIN-SUFFIX,01.ai # 零一万物官方网站，用于产品介绍、模型展示与公司信息
 DOMAIN-SUFFIX,yi.ai # Yi 系列大模型品牌域名，用于模型体验入口与示例访问
-DOMAIN-SUFFIX,www.01.ai # 零一万物主站子域，用于产品内容、活动与技术介绍
-DOMAIN-SUFFIX,www.yi.ai # Yi 模型在线体验与相关展示入口
 DOMAIN-SUFFIX,api.01.ai # Yi-Large API 主接口，用于推理、向量化、对话与多模态调用
 DOMAIN-SUFFIX,console.01.ai # 控制台入口，用于 API Key、账单与调用统计管理
 DOMAIN-SUFFIX,platform.01.ai # 开发者平台入口，用于模型配置、使用量查看与资源管理
@@ -1957,3 +1956,11 @@ DOMAIN-SUFFIX,cdn.getkoala.com # Koala 静态资源 CDN，用于加载前端脚�
 DOMAIN-SUFFIX,api.getkoala.com # Koala API 后端，用于弹窗逻辑、A/B 测试、用户交互配置与组件行为返回
 DOMAIN-SUFFIX,assets.getkoala.com # Koala 静态素材资源域，用于图片、图标、营销组件素材加载
 DOMAIN-SUFFIX,app.getkoala.com # Koala 后台管理控制台，用于站点配置、营销自动化、弹窗编辑与行为数据查看
+
+# > 神策可视化平台相关静态资源 CDN 域名
+
+DOMAIN-SUFFIX,static-fonts.i.sxl.cn # 神策字体资源 CDN，用于加载 Web 字体与界面字体文件
+DOMAIN-SUFFIX,static-assets.sxlcdn.com # 神策可视化平台静态资源域名，用于加载图标、JS、CSS 等前端资源
+DOMAIN-SUFFIX,ajax.sxlcdn.com # 神策数据前端请求接口，用于页面数据请求与交互操作
+DOMAIN-SUFFIX,user-assets.sxlcdn.com # 神策平台用户资源存储域名，用于用户自定义上传的图像、配置等静态文件
+DOMAIN-SUFFIX,static-fonts-css.sxlcdn.com # 神策平台字体样式表资源域名，用于 CSS 样式与字体引用分发

@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-03
+# - 更新时间：2025-12-04
 
 # > Apple 行为遥测服务
 
@@ -673,3 +673,7 @@ DOMAIN-SUFFIX,mintcdn.com # 国内通用静态资源 CDN，用于网站前端脚
 # > Koala（GetKoala 前端组件 / 营销工具平台）
 
 DOMAIN-SUFFIX,events.getkoala.com # Koala 行为事件上报域名，用于记录用户点击、浏览、互动行为（埋点服务）
+
+# > Keen.io 行为分析平台域名（Behavior）
+
+DOMAIN-SUFFIX,api.keen.io # Keen.io API 接口域名，用于事件收集、数据分析与可视化面板请求
