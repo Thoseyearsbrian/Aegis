@@ -3197,6 +3197,12 @@ DOMAIN-SUFFIX,crt.usertrust.com # USERTrust 根证书与中间证书下载域名
 
 DOMAIN-SUFFIX,ocsp.godaddy.com # GoDaddy OCSP 吊销验证接口，用于查询 SSL 证书状态，确保 HTTPS 连接合法性
 
+# > Certum 根证书与吊销链分发节点（波兰 Asseco）
+
+DOMAIN,repository.certum.pl # Certum 根证书与中间证书分发域名，用于获取 CA 根证书、吊销链（CRL）与证书验证服务
+DOMAIN,repository.certum.pl/dvcasha2.cer # Certum DVCASHA2 根证书下载接口，提供数字签名证书的根证书文件
+DOMAIN,repository.certum.pl/ctnca.cer # Certum CTNCA 根证书下载接口，提供中级签名认证证书的下载
+
 # > Shields.io 徽章服务资源（Shields.io Badge Assets）
 
 DOMAIN-SUFFIX,shields.io # Shields.io 主域名，用于生成所有徽章请求入口  
