@@ -4105,6 +4105,10 @@ DOMAIN-SUFFIX,dataprotection.com # 数据保护服务平台，用于企业 GDPR 
 DOMAIN-SUFFIX,dsarhub.com # DSAR Hub 平台，用于自动化数据访问请求与隐私流程管理
 DOMAIN-SUFFIX,gdprform.io # GDPR 线上隐私请求平台，用于数据访问、删除、限制处理等合规需求处理
 
+# > Axeptio（Cookie 同意管理 / GDPR 合规组件）
+
+DOMAIN-SUFFIX,client.axept.io # Axeptio Cookie 同意组件客户端接口域名，用于加载同意弹窗配置、同步用户隐私偏好与合规事件上报
+
 # > AWS WAF Captcha（风控 / 行为验证）
 
 DOMAIN-SUFFIX,edge.captcha-sdk.awswaf.com # AWS WAF Captcha 行为验证端点，用于风险评估、人机验证与风控数据回传
