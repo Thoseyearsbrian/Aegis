@@ -4465,6 +4465,10 @@ DOMAIN-SUFFIX,cdn.stream-io-video.com # 静态资源加载 CDN，用于视频组
 
 DOMAIN-SUFFIX,cdn.plyr.io # Plyr 官方 CDN 资源域名，用于加载播放器的 JS 脚本、样式表与图标等静态资源
 
+# > Noembed 第三方嵌入式媒体信息提取服务
+
+DOMAIN-SUFFIX,noembed.com # Noembed API 域名，用于提取第三方平台（如 YouTube、Twitter 等）的嵌入式媒体元数据，常用于前端展示优化与信息抓取
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
