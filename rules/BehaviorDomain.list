@@ -695,3 +695,11 @@ DOMAIN-SUFFIX,prodregistryv2.org # 疑似恶意软件分发平台域名，可能
 # > FeatureAssets 内容分发域名（疑似内容包装/远程资源注入）
 
 DOMAIN-SUFFIX,featureassets.org # 可疑内容资源加载域名，可能用于远程 JS 注入、图片素材拉取等第三方内容分发
+
+# > Qualified 潜客追踪与转化分析平台（行为追踪）
+
+DOMAIN-SUFFIX,js.qualified.com # Qualified 行为追踪脚本域名，用于网站访客分析、潜在客户识别与营销转化追踪
+
+# > Bizible 营销归因分析平台（Adobe 旗下）
+
+DOMAIN-SUFFIX,cdn.bizible.com # Bizible 静态资源域名，用于加载前端 JS 脚本与分析组件，实现多渠道营销归因与转化追踪
