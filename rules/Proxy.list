@@ -4426,6 +4426,18 @@ DOMAIN-SUFFIX,fastly.mux.com # Mux 使用 Fastly CDN 提供的视频分发加速
 DOMAIN-SUFFIX,manifest-oci-us-ashburn-1-vop1.fastly.mux.com # Mux 视频流媒体播放清单域名，基于 Fastly CDN 加速，常用于 DASH/HLS 等流播放协议的数据分发
 DOMAIN-SUFFIX,manifest-oci-us-ashburn-1-vop1.edgemv.mux.com # Mux 视频流媒体平台的边缘分发节点域名，用于处理用户请求的点播资源和播放控制（位于 Ashburn 区域）
 
+# > Supabase 托管服务实例域名（项目专属子域）
+
+DOMAIN-SUFFIX,hkrjchzilkkbfmdbwyxz.supabase.co # Supabase 项目专属域名，用于数据库访问、身份验证、实时订阅等服务交互
+
+# > JSPM CDN 资源加载域名
+
+DOMAIN-SUFFIX,ga.jspm.io # JSPM（JavaScript Package Manager）CDN 加速域名，用于加载 npm 包的 JS 
+
+# > Clerk 身份验证平台图像资源域名
+
+DOMAIN-SUFFIX,img.clerk.com # Clerk 身份系统头像与图像资源加载域名，常用于登录组件与用户界面展示
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

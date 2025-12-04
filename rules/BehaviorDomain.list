@@ -732,3 +732,17 @@ DOMAIN-SUFFIX,inferred.litix.io # Litix Analytics 数据采集域名，用于追
 # > ChatGPT AB 测试服务相关节点
 
 IP-CIDR,199.59.148.106/32 # ab.chatgpt.com 的服务节点 IP，用于 OpenAI ChatGPT 的 A/B 测试配置与实验性功能分发
+
+# > PostHog 行为分析与可视化平台域名
+
+DOMAIN-SUFFIX,us-assets.i.posthog.com # PostHog 静态资源域名，用于加载分析图表、脚本与样式资源
+DOMAIN-SUFFIX,us.i.posthog.com # PostHog 数据上报与分析 API 接口域名，用于事件追踪、用户行为采集与可视化分析
+
+# > Trendemon 行为分析与内容优化平台域名
+
+DOMAIN-SUFFIX,assets.trendemon.com # Trendemon 静态资源与脚本加载域名，用于网页行为分析与内容推荐组件展示
+
+# > Framer 平台静态资源与事件上报域名
+
+DOMAIN-SUFFIX,app.framerstatic.com # Framer 编辑器前端资源域名，用于加载设计工具页面与脚本
+DOMAIN-SUFFIX,events.framer.com # Framer 事件上报接口域名，用于收集用户行为数据、错误追踪与交互日志
