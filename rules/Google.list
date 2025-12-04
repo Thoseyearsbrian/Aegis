@@ -177,3 +177,7 @@ IP-CIDR,172.217.194.188/32 # Google 服务节点 IP（GFE：Google Frontend）�
 # > Google 安全验证服务（reCAPTCHA / 安全校验）
 
 DOMAIN-SUFFIX,recaptcha.net # Google reCAPTCHA 人机验证备用域名（用于中国地区的验证码与安全校验）
+
+# > Google 旗下 Logo.dev 图像资源加载域名
+
+DOMAIN-SUFFIX,img.logo.dev # Logo.dev 项目的图标资源加载域名，由 Google 提供与托管，常用于前端 UI 品牌展示
