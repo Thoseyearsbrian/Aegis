@@ -4108,6 +4108,8 @@ DOMAIN-SUFFIX,gdprform.io # GDPR 线上隐私请求平台，用于数据访问�
 # > Axeptio（Cookie 同意管理 / GDPR 合规组件）
 
 DOMAIN-SUFFIX,client.axept.io # Axeptio Cookie 同意组件客户端接口域名，用于加载同意弹窗配置、同步用户隐私偏好与合规事件上报
+DOMAIN-SUFFIX,api.axept.io # Axeptio 接口服务域名，用于记录用户 Cookie 授权操作、合法性验证与合规日志同步
+DOMAIN-SUFFIX,axeptio.imgix.net # Axeptio 图片加载加速域名，基于 Imgix CDN 服务用于弹窗 UI 组件资源与图标托管
 
 # > AWS WAF Captcha（风控 / 行为验证）
 
