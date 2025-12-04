@@ -683,3 +683,15 @@ DOMAIN-SUFFIX,api.keen.io # Keen.io API 接口域名，用于事件收集、数�
 
 DOMAIN-SUFFIX,adobedtm.com # Adobe Dynamic Tag Management，用于网页行为采集与追踪脚本加载
 DOMAIN-SUFFIX,demdex.net # Adobe Audience Manager，用于用户画像、行为建模与广告定向
+
+# > Statsig 行为分析与实验平台（行为追踪 SDK）
+
+DOMAIN-SUFFIX,statsigapi.net # Statsig API 接口，用于 App 行为采集、实验分流与动态配置读取
+
+# > Registry 平台伪装域名（疑似恶意分发/可疑 SDK）
+
+DOMAIN-SUFFIX,prodregistryv2.org # 疑似恶意软件分发平台域名，可能用于伪装安装包下载或 SDK 动态加载
+
+# > FeatureAssets 内容分发域名（疑似内容包装/远程资源注入）
+
+DOMAIN-SUFFIX,featureassets.org # 可疑内容资源加载域名，可能用于远程 JS 注入、图片素材拉取等第三方内容分发
