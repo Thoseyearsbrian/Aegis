@@ -703,3 +703,9 @@ DOMAIN-SUFFIX,js.qualified.com # Qualified 行为追踪脚本域名，用于网�
 # > Bizible 营销归因分析平台（Adobe 旗下）
 
 DOMAIN-SUFFIX,cdn.bizible.com # Bizible 静态资源域名，用于加载前端 JS 脚本与分析组件，实现多渠道营销归因与转化追踪
+
+# > Datadog Browser Intake 行为分析上报节点（IP）
+
+IP-CIDR,3.233.158.114/32 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv4 节点）
+IP-CIDR,3.233.158.111/32 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv4 节点）
+IP-CIDR,[2600:1f18:24e6:b901:fbdc:7182:a89c:6101]/128 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv6 节点）
