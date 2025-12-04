@@ -1463,6 +1463,8 @@ DOMAIN-SUFFIX,sentry-fe.mokahr.com # Moka 前端错误监控与性能日志上�
 
 DOMAIN-SUFFIX,126.net # 网易静态资源域，用于加载通用前端内容、字体与图像
 DOMAIN-SUFFIX,cstaticdun-v6.126.net # 网易易盾风控/验证码服务节点，用于表单提交、人机验证与登录安全校验
+DOMAIN-SUFFIX,ir-sdk.dun.163.com # 网易易盾 SDK 上报接口，用于设备指纹、行为识别与风控建模
+DOMAIN-SUFFIX,c.dun.163.com # 网易易盾客户端配置与策略下发接口，用于风控参数更新与策略同步
 
 # > 轻雀文档（Qingque Docs / SaaS 文档平台）
 
@@ -1929,6 +1931,7 @@ DOMAIN-SUFFIX,auth.baichuan-ai.com # 身份认证与授权服务端点，用于�
 
 # > Moonshot AI / Kimi Chat（月之暗面）
 
+DOMAIN-SUFFIX,kimi.com # Kimi 官网主域名，用于模型介绍、注册登录与 Web 页面访问
 DOMAIN-SUFFIX,moonshot.cn # 月之暗面官网主域名，用于模型介绍、产品发布与企业服务信息
 DOMAIN-SUFFIX,moonshot.ai # Moonshot 国际化品牌域名，用于模型展示与产品介绍
 DOMAIN-SUFFIX,kimi.moonshot.cn # Kimi Chat 在线对话入口，用于长文本处理与 AI 交互体验
