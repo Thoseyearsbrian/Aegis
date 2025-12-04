@@ -708,3 +708,19 @@ DOMAIN-SUFFIX,cdn.bizible.com # Bizible 静态资源域名，用于加载前端 
 
 IP-CIDR,3.233.158.114/32 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv4 节点）
 IP-CIDR,3.233.158.111/32 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv4 节点）
+
+# > HockeyStack 行为分析与用户数据追踪平台
+
+DOMAIN-SUFFIX,data.hockeystack.com # HockeyStack 数据采集接口域名，用于网站用户行为分析、事件追踪与营销优化
+
+# > ML Attribution 第三方归因与行为分析服务
+
+DOMAIN-SUFFIX,s.ml-attr.com # ML Attribution 数据追踪子域名，用于营销归因模型与转化路径分析
+
+# > 6SC 行为分析脚本加载域名
+
+DOMAIN-SUFFIX,j.6sc.co # 6SC 行为分析服务脚本托管域名，用于嵌入第三方追踪脚本、事件记录与用户路径分析
+
+# > Zeta Global 第三方追踪脚本域名（zi-scripts）
+
+DOMAIN-SUFFIX,js.zi-scripts.com # Zeta Global 行为追踪脚本加载域名，常见于电商或广告平台的用户活动监控
