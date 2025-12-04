@@ -4483,6 +4483,10 @@ DOMAIN-SUFFIX,definitions.sqspcdn.com # Squarespace 样式定义与脚本配置�
 DOMAIN-SUFFIX,performance.squarespace.com # Squarespace 网站性能监控与数据上报域名，用于收集站点加载表现和用户交互数据
 DOMAIN-SUFFIX,video.squarespace-cdn.com # Squarespace 视频资源 CDN 域名，用于页面嵌入视频内容的加载与分发
 
+# > Open Collective 开源资金赞助平台域名
+
+DOMAIN-SUFFIX,opencollective.com # Open Collective 主站域名，用于开源项目资金募集、赞助者管理与社区互动平台服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
