@@ -4438,9 +4438,12 @@ DOMAIN-SUFFIX,ga.jspm.io # JSPM（JavaScript Package Manager）CDN 加速域名�
 
 DOMAIN-SUFFIX,img.clerk.com # Clerk 身份系统头像与图像资源加载域名，常用于登录组件与用户界面展示
 
-# > Framer 平台静态资源域名
+# > Framer 官方主站与资源加载域名（设计工具平台）
 
-DOMAIN-SUFFIX,app.framerstatic.com # Framer 编辑器与项目预览所需前端资源加载域名，常用于托管构建产物与组件资源
+DOMAIN-SUFFIX,framer.com # Framer 官方主域名，用于访问主页、控制台、功能介绍、博客内容及用户登录等服务  
+DOMAIN-SUFFIX,app.framerstatic.com # Framer 编辑器与项目预览所需前端资源加载域名，常用于托管构建产物与组件资源  
+DOMAIN-SUFFIX,events.framer.com # Framer 官方事件与营销推广域名，用于活动报名、公告页面与追踪像素  
+DOMAIN-SUFFIX,framerusercontent.com # Framer 用户内容托管域名，用于加载用户创建的页面、图像与静态资源（如 JS/CSS）
 
 # > JSPM CDN 模块加载域名
 
