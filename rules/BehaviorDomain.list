@@ -724,3 +724,7 @@ DOMAIN-SUFFIX,j.6sc.co # 6SC 行为分析服务脚本托管域名，用于嵌入
 # > Zeta Global 第三方追踪脚本域名（zi-scripts）
 
 DOMAIN-SUFFIX,js.zi-scripts.com # Zeta Global 行为追踪脚本加载域名，常见于电商或广告平台的用户活动监控
+
+# > Litix Analytics 行为追踪域名
+
+DOMAIN-SUFFIX,inferred.litix.io # Litix Analytics 数据采集域名，用于追踪用户行为、点击路径与转化率分析
