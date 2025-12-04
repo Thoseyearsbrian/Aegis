@@ -4420,7 +4420,9 @@ DOMAIN-SUFFIX,cohere-ai.ghost.io # Cohere AI 使用 Ghost 博客平台的托管�
 
 # > Mux 视频播放服务域名
 
+DOMAIN-SUFFIX,mux.com # Mux 官方主站域名，用于服务介绍、控制台访问、开发文档与登录注册等功能
 DOMAIN-SUFFIX,stream.mux.com # Mux 视频服务节点域名，用于视频播放数据流分发与 CDN 加速
+DOMAIN-SUFFIX,manifest-oci-us-ashburn-1-vop1.fastly.mux.com # Mux 视频流媒体播放清单域名，基于 Fastly CDN 加速，常用于 DASH/HLS 等流播放协议的数据分发
 
 # > 第三方博客网站
 
