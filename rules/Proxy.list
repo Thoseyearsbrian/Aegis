@@ -4461,6 +4461,10 @@ DOMAIN-SUFFIX,hint.stream-io-video.com # WebRTC 连接提示与协商服务，�
 DOMAIN-SUFFIX,ws.stream-io-video.com # WebSocket 低延迟通道接口，用于音视频会话的实时数据交换（如媒体流控制）
 DOMAIN-SUFFIX,cdn.stream-io-video.com # 静态资源加载 CDN，用于视频组件、播放器脚本等前端文件的加速分发
 
+# > Plyr 播放器资源加载域名（HTML5 视频播放器组件）
+
+DOMAIN-SUFFIX,cdn.plyr.io # Plyr 官方 CDN 资源域名，用于加载播放器的 JS 脚本、样式表与图标等静态资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
