@@ -1973,3 +1973,8 @@ DOMAIN-SUFFIX,static-fonts-css.sxlcdn.com # 神策平台字体样式表资源域
 # > hCaptcha 人机验证服务域名（中国节点）
 
 DOMAIN-SUFFIX,cn1.hcaptcha.com # hCaptcha 在中国大陆部署的验证服务节点，用于加载验证组件、挑战任务与安全校验逻辑
+
+# > Adobe 中国服务域名
+
+DOMAIN-SUFFIX,adobe.cn # Adobe 中国主站域名，用于服务介绍、软件下载与本地化运营页面加载
+DOMAIN-SUFFIX,adobelogin.cn # Adobe 中国登录域名，用于账户验证与登录流程

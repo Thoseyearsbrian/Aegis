@@ -4375,6 +4375,19 @@ DOMAIN-SUFFIX,staticintl.cloudcachetci.com # 腾讯云海外静态资源 CDN 节
 DOMAIN-SUFFIX,dscache-intl.cloudcachetci.com # 腾讯云海外 CloudCache 节点，主要用于国际站内容分发与图像缓存  
 DOMAIN-SUFFIX,tci18n.cloudcachetci.com # 腾讯云国际 CDN 域名，服务于国际化页面的图像资源加载与缓存分发  
 
+# > Adobe 国际域名（含主站、认证、API、内容交互、云服务等）
+
+DOMAIN-SUFFIX,adobe.com # Adobe 国际主站域名，用于产品介绍、软件下载、账户系统与文档查看
+DOMAIN-SUFFIX,adobelogin.com # Adobe 统一登录接口域名，用于账户验证、登录与身份认证流程
+DOMAIN-SUFFIX,adobe.io # Adobe API 网关与开发平台域名，用于 SDK 加载、API 调用与资源管理
+DOMAIN-SUFFIX,adobesc.com # Adobe Creative Cloud 内容交互服务域名，用于在线文档、协作与实时编辑
+DOMAIN-SUFFIX,cc-asset.adobe.com # Adobe Creative Cloud 素材内容加载域名，用于云端素材读取与渲染
+DOMAIN-SUFFIX,cc-api-data.adobe.io # Adobe Creative Cloud 接口数据交互域名，用于账户、素材与云盘通信
+DOMAIN-SUFFIX,ims-na1.adobelogin.com # Adobe 身份管理系统接口，用于 OAuth 登录与授权流程（北美服务器）
+DOMAIN-SUFFIX,na1.assets.adobe.com # Adobe Creative Cloud 北美节点，用于云文件与图片资源的分发
+DOMAIN-SUFFIX,typekit.net # Adobe Typekit 字体服务域名，用于网页字体动态加载
+DOMAIN-SUFFIX,assets.adobedtm.com # Adobe DTM 静态资源域名，用于标签脚本加载与容器初始化
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

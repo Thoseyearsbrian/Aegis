@@ -678,3 +678,8 @@ DOMAIN-SUFFIX,events.getkoala.com # Koala 行为事件上报域名，用于记�
 # > Keen.io 行为分析平台域名（Behavior）
 
 DOMAIN-SUFFIX,api.keen.io # Keen.io API 接口域名，用于事件收集、数据分析与可视化面板请求
+
+# > Adobe 行为追踪 / 数据分析 / 广告画像域名
+
+DOMAIN-SUFFIX,adobedtm.com # Adobe Dynamic Tag Management，用于网页行为采集与追踪脚本加载
+DOMAIN-SUFFIX,demdex.net # Adobe Audience Manager，用于用户画像、行为建模与广告定向
