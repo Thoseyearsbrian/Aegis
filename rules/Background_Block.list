@@ -49,4 +49,4 @@ IP-CIDR,104.18.6.91/32 # Cloudflare 反代节点触发的回退连接，常在�
 
 # > SquareRefresh 第三方模板平台域名（与 Squarespace 有关联）
 
-DOMAIN-SUFFIX,squarerefresh.xyz # SquareRefresh 模板与插件聚合平台域名，虽与 Squarespace 官网存在跳转关联，但非官方子域，部分安全检测评级较高，但不同安全软件对此域名评级存在差异，可能存在风险，建议谨慎使用
+DOMAIN-SUFFIX,squarerefresh.xyz # SquareRefresh 模板与插件聚合平台域名，虽与 Squarespace 官网存在跳转关联，但非官方子域，部分安全检测评级较高，但不同安全软件对此域名评级存在差异，存在 Open‑Redirect,可能存在风险，建议谨慎使用
