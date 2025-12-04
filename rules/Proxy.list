@@ -4082,6 +4082,10 @@ DOMAIN-SUFFIX,sdk.cookieyes.com # CookieYes SDK 脚本分发节点，用于前�
 DOMAIN-SUFFIX,api.cookieyes.com # CookieYes API 接口，用于网站扫描、Cookie 分类、合规状态与跨站点配置同步
 DOMAIN-SUFFIX,assets.cookieyes.com # CookieYes 静态资源域，用于图片、样式、图标与前端模块素材加载
 
+# > Axeptio Cookie 同意管理服务域名（用于网站 Cookie 授权弹窗与隐私偏好记录）
+
+DOMAIN-SUFFIX,static.axept.io # Axeptio 前端脚本与样式加载域名，用于展示 Cookie 通知与收集授权信息
+
 # > GDPR / 数据保护与隐私合规服务（Data Protection & DSAR Platforms）
 
 DOMAIN-SUFFIX,prighter.com # Prighter 全球隐私合规平台，用于 GDPR 隐私请求、数据访问申请与法律合规
@@ -4403,6 +4407,10 @@ DOMAIN-SUFFIX,embed.cloudflarestream.com # Cloudflare Stream 嵌入式视频加�
 # > AllOrigins 公共代理 API 服务域名（用于前端跨域请求转发）
 
 DOMAIN-SUFFIX,api.allorigins.win # AllOrigins 公共 API 接口，用于 CORS 代理访问第三方网页资源（常用于浏览器端跨域绕过）
+
+# > Lever 招聘平台域名（用于职位申请与招聘流程表单提交）
+
+DOMAIN-SUFFIX,jobs.lever.co # Lever 招聘系统主域名，用于职位展示、简历上传与申请流程页面加载
 
 # > 第三方博客网站
 
