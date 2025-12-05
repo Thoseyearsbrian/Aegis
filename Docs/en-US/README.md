@@ -198,8 +198,4 @@ Additionally, the Aegis project has enabled [GPG](https://gnupg.org) commit sign
 
 ## 🙌 Community Support
 
-If you find value in this project, please consider giving it a ⭐️ Star. All relevant updates will be announced via our [Telegram](https://telegram.org) notification channels — feel free to subscribe and stay informed.
-
-**Telegram Update Channel** – <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a>: Publishes the latest rule versions, changelogs, and important announcements.
-
-**Telegram Community Group** – <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a>: Open for suggestions, feedback, and collaborative contributions from the community.
+If you find value in this project, please consider giving it a ⭐️ Star. 
