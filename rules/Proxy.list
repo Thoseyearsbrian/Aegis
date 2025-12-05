@@ -4501,6 +4501,10 @@ DOMAIN-SUFFIX,esm.sh # esm.sh 提供现代 JavaScript/TypeScript 模块的 CDN �
 
 DOMAIN-SUFFIX,datatool.vip # DataTool.vip 主站域名，用于解析第三方平台视频链接、下载无水印内容与字幕文件
 
+# > Snappdown 文件分发服务（下载站静态资源）
+
+DOMAIN-SUFFIX,oss.snappdown.com # Snappdown 文件分发 OSS 节点，用于提供软件下载页面的静态资源与 CDN 加速内容
+
 # > Chatway 在线客服组件（网页聊天窗口 / 访客会话模块）
 
 DOMAIN-SUFFIX,chatway.app # Chatway 主域名，用于客服服务调度与业务 API
