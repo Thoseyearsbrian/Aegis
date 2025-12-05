@@ -4497,6 +4497,10 @@ DOMAIN-SUFFIX,opencollective.com # Open Collective 主站域名，用于开源�
 
 DOMAIN-SUFFIX,esm.sh # esm.sh 提供现代 JavaScript/TypeScript 模块的 CDN 分发服务，广泛用于前端构建工具如 Vite、Deno、Bun 等环境，适合纳入代理规则以确保兼容性
 
+# > DataTool.vip 视频解析与下载服务（无水印 / 第三方平台内容抓取）
+
+DOMAIN-SUFFIX,datatool.vip # DataTool.vip 主站域名，用于解析第三方平台视频链接、下载无水印内容与字幕文件
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
