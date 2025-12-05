@@ -4,8 +4,8 @@ Thank you for your interest in this project. To maintain the integrity, security
 
 All commits are made solely by the project maintainer and are PGP/GPG signed to verify authenticity and integrity.
 
+Public interaction is minimal. Be respectful if you choose to communicate.
+
 ## 🙌 Community Support
 
 If you find value in this project, please consider giving it a ⭐️ Star.
-
-Public interaction is minimal. Be respectful if you choose to communicate.
