@@ -8,6 +8,4 @@ All commits are made solely by the project maintainer and are PGP/GPG signed to 
 
 If you find value in this project, please consider giving it a ⭐️ Star.
 
-Public interaction is minimal, and external contributions are not accepted.
-
-Be respectful if you choose to communicate.
+Public interaction is minimal. Be respectful if you choose to communicate.
