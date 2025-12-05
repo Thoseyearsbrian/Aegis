@@ -8,6 +8,4 @@ All commits are made solely by the project maintainer and are **PGP/GPG signed**
 
 ## 🙌 Community Support
 
-If you find value in this project, please consider giving it a ⭐️ Star. 
-
-This project aims to build a trustworthy, clean, and fully controlled network defense system. To ensure consistency and security, all configurations and rules are independently maintained by the project owner. 
+If you find value in this project, please consider giving it a ⭐️ Star.
