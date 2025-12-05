@@ -1137,7 +1137,3 @@ DOMAIN-SUFFIX,teamserver-sync.com # Brute Ratel TeamServer 伪装域名，用于
 IP-CIDR,185.225.74.0/24 # Brute Ratel 团伙高频使用的 C2 区段（与 Sliver、Cobalt Strike 交叉使用频繁）
 IP-CIDR,91.215.85.0/24  # 多个 Brute Ratel TeamServer 被记录的恶意控制节点段
 IP-CIDR,179.43.175.0/24 # 与 Brute Ratel 活动相关的隐蔽 C2 区块，常用于勒索团伙回连
-
-# > 恶意 Botnet 活动相关 IP（扫描 / 僵尸网络 / 暗网通信节点）
-
-IP-CIDR,175.29.22.8/32 # 恶意 Botnet 节点，出现在多起异常扫描与木马通信中，疑似用于横向移动或 C2 控制通信
