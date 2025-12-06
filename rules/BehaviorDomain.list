@@ -803,5 +803,9 @@ DOMAIN-SUFFIX,betterstackdata.com # BetterStack 数据采集与遥测服务主�
 DOMAIN-SUFFIX,s1612477.eu-nbg-1.betterstackdata.com # BetterStack 指定遥测节点，部署于欧洲地区，用于上报站点监控与性能事件
 DOMAIN-SUFFIX,t.betterstack.com # BetterStack 跟踪脚本托管域名，加载轻量级浏览器追踪代码与遥测 SDK
 
+# > Mapbox 遥测与事件追踪接口域名（归入 BehaviorDomain）
+
+DOMAIN-SUFFIX,events.mapbox.com # Mapbox 行为遥测服务域名，用于收集用户交互、地图使用频率与客户端错误日志等数据
+
 
 
