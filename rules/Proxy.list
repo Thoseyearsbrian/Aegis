@@ -4685,6 +4685,10 @@ DOMAIN-SUFFIX,cdnjs.betterstackcdn.com # BetterStack CDNJS 静态资源子域，
 
 DOMAIN-SUFFIX,cdn.weglot.com # Weglot CDN 静态资源服务域名，用于加载语言切换组件、翻译脚本与样式文件
 
+# > Termly 法务合规与用户同意 API 域名
+
+DOMAIN-SUFFIX,us.consent.api.termly.io # Termly 用户同意 API 接口，用于存储访客同意状态、合规日志与 Cookie 配置读取
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
