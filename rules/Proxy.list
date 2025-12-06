@@ -4710,6 +4710,8 @@ DOMAIN-SUFFIX,avatars.slack-edge.com # Slack 头像资源域名，用于加载�
 # > Ashby 招聘管理系统职位投递接口
 
 DOMAIN-SUFFIX,jobs.ashbyhq.com # Ashby 职位页面主域，用于加载招聘岗位、表单提交及跟踪招聘活动
+DOMAIN-SUFFIX,cdn.ashbyprd.com # Ashby 静态资源加载域名，用于前端应用的脚本、样式与图标资源分发
+DOMAIN-SUFFIX,app.ashbyhq.com # Ashby 主应用入口域名，用于访问招聘管理后台与职位发布系统
 
 # > 第三方博客网站
 
