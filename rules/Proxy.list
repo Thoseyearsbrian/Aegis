@@ -4520,6 +4520,36 @@ DOMAIN-SUFFIX,files.buildwithfern.com # Fern 文件资源分发节点，用于�
 
 DOMAIN-SUFFIX,staticassets.goldcast.io # Goldcast 静态资源 CDN，用于前端页面加载、视频组件与活动会场资源加速
 
+# > Algolia 搜索服务域名（实时检索 / 搜索即服务）
+
+DOMAIN-SUFFIX,algolianet.com # Algolia 搜索服务基础域名，用于分发 API 请求与节点分流
+DOMAIN-SUFFIX,p6vyurbgg0-2.algolianet.com # Algolia 客户端实例化节点，承载搜索 API 请求与索引查询
+DOMAIN-SUFFIX,p6vyurbgg0-dsn.algolia.net # Algolia DSN 节点（分布式搜索网络），用于加速用户端搜索交互体验
+
+# > Goldcast 注册组件与活动模块子域名
+
+DOMAIN-SUFFIX,newregbuilder.goldcast.io # Goldcast 注册页面构建模块子域，用于活动会场预注册与表单加载
+
+# > Secureframe 前端资源 CDN 域名
+
+DOMAIN-SUFFIX,secureframe-com.cdn.prismic.io # Secureframe 使用 Prismic 托管的静态内容分发节点，用于官网与合规性展示页资源加载
+
+# > LaunchDarkly 平台服务域名（A/B 测试与特性开关）
+
+DOMAIN-SUFFIX,app.launchdarkly.com # LaunchDarkly 控制台服务域名，用于特性开关配置、AB测试方案管理与实时数据同步
+
+# > Usersnap 用户反馈与可视化问题报告工具域名
+
+DOMAIN-SUFFIX,widget.usersnap.com # Usersnap 小组件服务域名，用于嵌入页面进行用户反馈、截图、Bug 报告收集
+
+# > Zapier 平台静态资源 CDN
+
+DOMAIN-SUFFIX,cdn.zapier.com # Zapier 前端资源 CDN，用于脚本加载、UI 样式与平台组件加速
+
+# > Vitally 客户成功平台静态资源节点
+
+DOMAIN-SUFFIX,cdn.vitally.io # Vitally 前端资源 CDN，用于客户仪表盘、嵌入组件与交互行为收集脚本加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
