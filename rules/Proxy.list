@@ -4705,6 +4705,7 @@ DOMAIN-SUFFIX,avatars.discourse-cdn.com # Discourse 平台用户头像资源节�
 # > Slack 静态资源加载域名
 
 DOMAIN-SUFFIX,a.slack-edge.com # Slack 资源分发子域，用于加载头像、图标、表情等界面资源
+DOMAIN-SUFFIX,avatars.slack-edge.com # Slack 头像资源域名，用于加载用户头像与会话相关图片
 
 # > 第三方博客网站
 
