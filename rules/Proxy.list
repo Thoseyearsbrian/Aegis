@@ -4667,6 +4667,10 @@ DOMAIN-SUFFIX,usercontent.zscdn.net # Zscdn 提供的用户内容分发子域，
 
 DOMAIN-SUFFIX,use1-turn.fpjs.io # FingerprintJS 提供的 TURN 服务子域，用于提升设备指纹识别在复杂网络环境中的连接稳定性
 
+# > Fastly 公共 CDN 节点（151.101.3.6）
+
+IP-CIDR,151.101.3.6/32 # Fastly 公共边缘节点，用于分发多家网站与服务内容（如 GitHub、Reddit、npm 等）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
