@@ -4615,6 +4615,7 @@ DOMAIN-SUFFIX,react-tweet.vercel.app # 开源组件 React-Tweet 的公共服务�
 # > Greenhouse 招聘平台 API 服务域名
 
 DOMAIN-SUFFIX,boards-api.greenhouse.io # Greenhouse 招聘平台提供的职位信息接口域名，常用于嵌入网站中的招聘职位展示与申请功能
+DOMAIN-SUFFIX,job-boards.greenhouse.io # Greenhouse 招聘系统的嵌入式职位看板，用于在第三方网站展示职位申请页面与招聘表单
 
 # > Telescope Magazine 媒体内容网站域名
 
@@ -4714,9 +4715,13 @@ DOMAIN-SUFFIX,jobs.ashbyhq.com # Ashby 职位页面主域，用于加载招聘�
 DOMAIN-SUFFIX,cdn.ashbyprd.com # Ashby 静态资源加载域名，用于前端应用的脚本、样式与图标资源分发
 DOMAIN-SUFFIX,app.ashbyhq.com # Ashby 主应用入口域名，用于访问招聘管理后台与职位发布系统
 
-# > Mapbox 地图服务核心接口域名（归入 Proxy）
+# > Mapbox 地图服务核心接口域名
 
 DOMAIN-SUFFIX,api.mapbox.com # Mapbox 地图 API 主接口，用于地图加载、地理位置渲染与路径计算等功能
+
+# > Kapa.ai AI 支持机器人插件服务域名
+
+DOMAIN-SUFFIX,widget.kapa.ai # Kapa AI 提供的嵌入式问答机器人接口，用于客户支持、文档查询与对话式嵌入功能
 
 # > 第三方博客网站
 
