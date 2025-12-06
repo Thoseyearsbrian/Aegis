@@ -4649,6 +4649,10 @@ DOMAIN-SUFFIX,widget.freshworks.com # Freshworks 客服系统组件域名，用�
 
 DOMAIN-SUFFIX,jobs.gem.com # Gem 招聘平台子域，用于展示职位列表、申请页面与招聘品牌内容
 
+# > Unicorn Studio 静态资源 CDN 域名
+
+DOMAIN-SUFFIX,cdn.unicorn.studio # Unicorn Studio 提供的静态内容分发域名，用于加载前端脚本、图像与 UI 组件等页面资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
