@@ -4572,6 +4572,16 @@ DOMAIN-SUFFIX,resources.usersnap.com # Usersnap 静态资源子域，用于加�
 DOMAIN-SUFFIX,files.readme.io # ReadMe 文档平台文件服务节点，用于托管上传的文档附件与多媒体资源
 DOMAIN-SUFFIX,cdn.readme.io # ReadMe 静态资源 CDN，用于文档平台的前端脚本、样式与图像加载
 
+# > WordPress.com 静态资源 CDN 域名
+
+DOMAIN-SUFFIX,i0.wp.com # 用于图片资源的全球 CDN 加速，常见于 WordPress 博客图像加载
+DOMAIN-SUFFIX,s0.wp.com # 用于前端脚本、样式与字体等静态资源的分发
+DOMAIN-SUFFIX,c0.wp.com # 用于缓存内容、字体和第三方整合组件资源加载
+
+# > WordPress.com 主服务域名
+
+DOMAIN-SUFFIX,wp.com # WordPress.com 主域，用于服务跳转、账号登录、图片缩略与嵌入支持等核心功能
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
