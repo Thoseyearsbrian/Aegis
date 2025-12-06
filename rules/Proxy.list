@@ -4618,6 +4618,19 @@ DOMAIN-SUFFIX,www.telescopemagazine.com # Telescope Magazine 官方内容门户�
 
 DOMAIN-SUFFIX,watchfoom.com # WatchFoom 官方网站域名，由 Runway 推出，提供 AI 文化相关内容的 24/7 在线广播、影片、直播与创意节目
 
+# > UniSVG / SimpleSVG 图标 API 服务域名
+
+DOMAIN-SUFFIX,api.unisvg.com # UniSVG 图标 API，提供 SVG 图标服务，用于图标组件与图标动态加载
+DOMAIN-SUFFIX,api.simplesvg.com # SimpleSVG 图标 API，功能与 UniSVG 类似，用于前端图标加载与嵌入
+
+# > Dub 平台资源服务域名
+
+DOMAIN-SUFFIX,www.dubcdn.com # Dub 平台资源 CDN，用于加载 UI 组件、静态资源与嵌入内容
+
+# > Cloudflare Stream 视频托管服务子域
+
+DOMAIN-SUFFIX,customer-fz5oh80x9qirexi3.cloudflarestream.com # Cloudflare Stream 视频托管子域，用于嵌入视频播放器与加载流媒体内容
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
