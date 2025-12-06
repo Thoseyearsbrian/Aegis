@@ -4606,6 +4606,18 @@ DOMAIN-SUFFIX,www.comeet.co # Comeet 官方主站域名，用于职位发布、�
 
 DOMAIN-SUFFIX,react-tweet.vercel.app # 开源组件 React-Tweet 的公共服务域名，用于在网页中嵌入渲染 Twitter 推文内容
 
+# > Greenhouse 招聘平台 API 服务域名
+
+DOMAIN-SUFFIX,boards-api.greenhouse.io # Greenhouse 招聘平台提供的职位信息接口域名，常用于嵌入网站中的招聘职位展示与申请功能
+
+# > Telescope Magazine 媒体内容网站域名
+
+DOMAIN-SUFFIX,www.telescopemagazine.com # Telescope Magazine 官方内容门户，用于展示文章、专题报道与页面资源加载
+
+# > WatchFoom 流媒体内容平台域名（Runway 出品）
+
+DOMAIN-SUFFIX,watchfoom.com # WatchFoom 官方网站域名，由 Runway 推出，提供 AI 文化相关内容的 24/7 在线广播、影片、直播与创意节目
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
