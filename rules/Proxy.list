@@ -4629,6 +4629,8 @@ DOMAIN-SUFFIX,www.dubcdn.com # Dub 平台资源 CDN，用于加载 UI 组件、�
 
 # > Cloudflare Stream 视频托管服务子域
 
+
+DOMAIN-SUFFIX,cloudflarestream.com # Cloudflare Stream 视频托管主域，用于分发视频流、播放器加载与嵌入功能支持
 DOMAIN-SUFFIX,customer-fz5oh80x9qirexi3.cloudflarestream.com # Cloudflare Stream 视频托管子域，用于嵌入视频播放器与加载流媒体内容
 
 # > 第三方博客网站
