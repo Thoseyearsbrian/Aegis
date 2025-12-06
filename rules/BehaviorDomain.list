@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-04
+# - 更新时间：2025-12-06
 
 # > Apple 行为遥测服务
 
@@ -758,4 +758,8 @@ DOMAIN-SUFFIX,px.ads.linkedin.com # LinkedIn 像素追踪域名，用于广告�
 # > WDFl 广告追踪跳转域名（Webeye / GWI Group）
 
 DOMAIN-SUFFIX,r.wdfl.co # 用于广告追踪与跳转路径收集，存在行为分析与用户识别风险，常见于网页广告与跳转脚本中
+
+# > NSVCS 数据采集服务域名（常用于日志上报 / 用户行为数据收集）
+
+DOMAIN-SUFFIX,ingesteer.services-prod.nsvcs.net # NSVCS 平台的数据接收节点，用于客户端行为数据的实时采集与遥测日志上报
 
