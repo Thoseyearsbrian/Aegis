@@ -330,6 +330,8 @@ DOMAIN-SUFFIX,objects.replicate.com # Replicate 对象存储域名，用于模�
 DOMAIN-SUFFIX,r8y.io # Replicate 推理任务加速域名，用于部分模型运行与内部路由
 DOMAIN-SUFFIX,replicate-fileupload.com # Replicate 文件上传端点，用于上传模型输入文件、数据集与预处理资源
 DOMAIN-SUFFIX,static.replicateassets.com # Replicate 平台资源分发域名，用于加载模型演示、图片预览与前端静态文件
+DOMAIN-SUFFIX,www.replicatestatus.com # Replicate 服务状态页面主域名，用于展示系统可用性、服务运行状态与历史事件
+DOMAIN-SUFFIX,fonts.replicateassets.com # Replicate 字体资源分发域名，用于加载自定义字体、提升界面渲染一致性
 
 # > RunPod（GPU 推理算力 / 模型部署平台）
 
