@@ -4689,6 +4689,10 @@ DOMAIN-SUFFIX,cdn.weglot.com # Weglot CDN 静态资源服务域名，用于加�
 
 DOMAIN-SUFFIX,us.consent.api.termly.io # Termly 用户同意 API 接口，用于存储访客同意状态、合规日志与 Cookie 配置读取
 
+# > DataGrail 合规组件 API 服务域名
+
+DOMAIN-SUFFIX,api.consentjs.datagrail.io # DataGrail Cookie 同意与隐私偏好管理接口，用于收集用户授权状态、Cookie 配置及合规日志数据
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
