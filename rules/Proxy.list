@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-03
+# - 更新时间：2025-12-06
 
 # > Speedtest 网络测速平台
 
@@ -4510,6 +4510,15 @@ DOMAIN-SUFFIX,oss.snappdown.com # Snappdown 文件分发 OSS 节点，用于提�
 DOMAIN-SUFFIX,chatway.app # Chatway 主域名，用于客服服务调度与业务 API
 DOMAIN-SUFFIX,widget.chatway.app # Chatway 客服组件嵌入域，用于加载 Web 聊天窗口脚本与 UI 界面资源
 DOMAIN-SUFFIX,chat.chatway.app # Chatway 实时聊天域名，用于访客消息通信、客服消息中转与连接维护
+
+# > Build with Fern 应用与静态资源域名（开发平台）
+
+DOMAIN-SUFFIX,app.buildwithfern.com # Fern 平台应用服务域名，提供开发者接口配置、项目管理与 SDK 接入
+DOMAIN-SUFFIX,files.buildwithfern.com # Fern 文件资源分发节点，用于上传包、SDK 文件与配置文件的托管与访问
+
+# > Goldcast 虚拟活动平台资源域名
+
+DOMAIN-SUFFIX,staticassets.goldcast.io # Goldcast 静态资源 CDN，用于前端页面加载、视频组件与活动会场资源加速
 
 # > 第三方博客网站
 
