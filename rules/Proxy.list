@@ -4652,6 +4652,7 @@ DOMAIN-SUFFIX,jobs.gem.com # Gem 招聘平台子域，用于展示职位列表�
 # > Unicorn Studio 静态资源 CDN 域名
 
 DOMAIN-SUFFIX,cdn.unicorn.studio # Unicorn Studio 提供的静态内容分发域名，用于加载前端脚本、图像与 UI 组件等页面资源
+DOMAIN-SUFFIX,assets.unicorn.studio # Unicorn Studio 提供的静态资源子域，用于加载网站图像、脚本、字体文件与 UI 组件等内容
 
 # > 第三方博客网站
 
