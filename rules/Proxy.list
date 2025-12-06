@@ -4067,6 +4067,7 @@ DOMAIN-SUFFIX,perf-eu1.hsforms.com # HubSpot 表单性能分析子域，用于�
 DOMAIN-SUFFIX,js-eu1.hsforms.net # HubSpot 表单组件资源加载域名，用于前端嵌入式表单支持（EU 区域）
 DOMAIN-SUFFIX,hsforms.com # HubSpot 表单组件主域名，用于加载嵌入式表单、营销线索收集及提交处理
 DOMAIN-SUFFIX,hsforms.net # HubSpot 表单静态资源与脚本托管域名，用于加载表单 JS/CSS、验证逻辑及交互脚本
+DOMAIN-SUFFIX,ai21-25575448.hs-sites-eu1.com # AI21 官方使用的 HubSpot 托管站点子域名，用于承载市场营销页面、活动引导与用户交互表单等内容
 
 # > Claydar（前端资源服务 / 静态资源 CDN）
 
