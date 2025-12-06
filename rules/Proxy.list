@@ -4681,6 +4681,10 @@ DOMAIN-SUFFIX,betterstackcdn.com # BetterStack 提供的内容分发网络（CDN
 DOMAIN-SUFFIX,uptime.betterstackcdn.com # BetterStack Uptime 服务域，用于网站可用性监控与状态推送
 DOMAIN-SUFFIX,cdnjs.betterstackcdn.com # BetterStack CDNJS 静态资源子域，提供公共 JS 库分发服务
 
+# > Weglot 多语言翻译插件资源加载域名
+
+DOMAIN-SUFFIX,cdn.weglot.com # Weglot CDN 静态资源服务域名，用于加载语言切换组件、翻译脚本与样式文件
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
