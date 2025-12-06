@@ -4662,6 +4662,10 @@ DOMAIN-SUFFIX,maxcdn.bootstrapcdn.com # Bootstrap 官方公共 CDN 域，用于�
 
 DOMAIN-SUFFIX,usercontent.zscdn.net # Zscdn 提供的用户内容分发子域，用于嵌入式文件加载、脚本传输与媒体托管，常见于第三方嵌入服务中
 
+# > FingerprintJS TURN 连接服务域名（设备识别与连接稳定性辅助）
+
+DOMAIN-SUFFIX,use1-turn.fpjs.io # FingerprintJS 提供的 TURN 服务子域，用于提升设备指纹识别在复杂网络环境中的连接稳定性
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
