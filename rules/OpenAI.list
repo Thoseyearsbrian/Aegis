@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-04
+# - 更新时间：2025-12-06
 
 # > OpenAI Chat 系列
 
@@ -186,7 +186,7 @@ DOMAIN-SUFFIX,coral.cohere.com # Cohere Coral 平台相关域名，用于企业�
 DOMAIN-SUFFIX,studio.cohere.com # Cohere Studio 在线工作台，用于实验、Prompt 编辑与模型测试
 DOMAIN-SUFFIX,docs.cohere.com # Cohere 文档中心，用于 API 文档、模型说明与 SDK 示例
 
-# > Voyage AI -- 待校对
+# > Voyage AI
 
 DOMAIN-SUFFIX,voyageai.com # Voyage AI 主站域名，用于产品介绍、模型展示与文档入口
 DOMAIN-SUFFIX,api.voyageai.com # Voyage AI 官方 API 接口，用于嵌入向量、重排序（Rerank）等模型推理调用

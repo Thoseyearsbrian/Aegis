@@ -4567,6 +4567,11 @@ DOMAIN-SUFFIX,backend.goldcast.io # Goldcast 主后端服务域，用于处理�
 
 DOMAIN-SUFFIX,resources.usersnap.com # Usersnap 静态资源子域，用于加载前端嵌入组件、样式文件与功能脚本
 
+# > ReadMe 文档平台相关资源域名
+
+DOMAIN-SUFFIX,files.readme.io # ReadMe 文档平台文件服务节点，用于托管上传的文档附件与多媒体资源
+DOMAIN-SUFFIX,cdn.readme.io # ReadMe 静态资源 CDN，用于文档平台的前端脚本、样式与图像加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
