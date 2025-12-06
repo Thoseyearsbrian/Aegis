@@ -763,3 +763,11 @@ DOMAIN-SUFFIX,r.wdfl.co # 用于广告追踪与跳转路径收集，存在行为
 
 DOMAIN-SUFFIX,ingesteer.services-prod.nsvcs.net # NSVCS 平台的数据接收节点，用于客户端行为数据的实时采集与遥测日志上报
 
+# > Bugsnag 错误追踪与异常报告平台
+
+DOMAIN-SUFFIX,otlp.bugsnag.com # Bugsnag 数据采集节点，用于接收应用程序崩溃日志、性能异常与 OpenTelemetry 上报数据
+
+# > Goldcast 数据分析与功能模块服务域名
+
+DOMAIN-SUFFIX,analytics.goldcast.io # Goldcast 分析与埋点统计子域，用于记录访客行为、活动参与度与转化数据
+

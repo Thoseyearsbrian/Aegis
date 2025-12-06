@@ -4550,6 +4550,16 @@ DOMAIN-SUFFIX,cdn.zapier.com # Zapier 前端资源 CDN，用于脚本加载、UI
 
 DOMAIN-SUFFIX,cdn.vitally.io # Vitally 前端资源 CDN，用于客户仪表盘、嵌入组件与交互行为收集脚本加载
 
+# > AddEvent 日历集成功能服务平台
+
+DOMAIN-SUFFIX,addevent.com # AddEvent 主站域名，用于提供日历事件生成、账号管理与页面跳转服务
+DOMAIN-SUFFIX,cdn.addevent.com # AddEvent 静态资源 CDN，用于加载日历按钮组件、样式文件与脚本
+
+# > Goldcast 数据分析与功能模块服务域名
+
+DOMAIN-SUFFIX,backend-ne.goldcast.io # Goldcast 后端服务节点（东北美区域），用于用户认证、活动数据交互与表单提交处理
+DOMAIN-SUFFIX,sdk.goldcast.io # Goldcast 前端 SDK 服务域名，用于嵌入活动页面与加载核心交互逻辑
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
