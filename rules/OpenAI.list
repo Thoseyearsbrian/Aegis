@@ -277,6 +277,7 @@ DOMAIN-SUFFIX,cdn.lumalabs.ai # Luma 静态资源 CDN，用于前端脚本、样
 DOMAIN-SUFFIX,assets.lumalabs.ai # Luma 静态资源与素材域名，用于模型素材、演示文件与界面资源托管
 DOMAIN-SUFFIX,files.lumalabs.ai # Luma 文件存储域，用于生成视频、3D 项目文件与上传资源管理
 DOMAIN-SUFFIX,storage.googleapis.com # Luma 使用 Google Cloud 存储视频输出、模型文件与大资源
+DOMAIN-SUFFIX,static.cdn-luma.com # Luma 平台静态资源 CDN，用于活动页面脚本、样式与图像等前端内容加载
 
 # > Together AI（开源模型推理 / API 平台）
 

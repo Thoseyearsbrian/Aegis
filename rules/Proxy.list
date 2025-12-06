@@ -4636,6 +4636,10 @@ DOMAIN-SUFFIX,customer-fz5oh80x9qirexi3.cloudflarestream.com # Cloudflare Stream
 
 DOMAIN-SUFFIX,api.iconify.design # Iconify 图标 API 服务域名，用于提供开源图标的检索、加载与前端渲染支持
 
+# > Apollo 客户数据平台资源域名
+
+DOMAIN-SUFFIX,assets.apollo.io # Apollo.io 静态资源子域，用于加载官网图像、前端脚本与跟踪组件
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
