@@ -4602,6 +4602,10 @@ DOMAIN-SUFFIX,fast.trychameleon.com # Chameleon 内嵌用户行为引导组件�
 
 DOMAIN-SUFFIX,www.comeet.co # Comeet 官方主站域名，用于职位发布、候选人管理、招聘流程协作及企业 HR 页面加载
 
+# > React-Tweet 组件服务域名
+
+DOMAIN-SUFFIX,react-tweet.vercel.app # 开源组件 React-Tweet 的公共服务域名，用于在网页中嵌入渲染 Twitter 推文内容
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
