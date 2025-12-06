@@ -4692,6 +4692,12 @@ DOMAIN-SUFFIX,us.consent.api.termly.io # Termly 用户同意 API 接口，用于
 # > DataGrail 合规组件 API 服务域名
 
 DOMAIN-SUFFIX,api.consentjs.datagrail.io # DataGrail Cookie 同意与隐私偏好管理接口，用于收集用户授权状态、Cookie 配置及合规日志数据
+DOMAIN-SUFFIX,assets-production.datagrail.io # DataGrail 平台前端资源加载域名，用于加载合规界面样式、脚本与配置文件
+DOMAIN-SUFFIX,yyz1.discourse-cdn.com # Discourse 社区平台使用的 CDN 节点，用于分发图像、头像与脚本资源，加拿大区域 YYZ1 数据中心
+
+# > Discourse 社区 CDN 节点（Canada1 区域）
+
+DOMAIN-SUFFIX,canada1.discourse-cdn.com # Discourse 社区平台加拿大区域备用 CDN 节点，用于加载页面组件、图像与静态内容
 
 # > 第三方博客网站
 
