@@ -789,6 +789,14 @@ DOMAIN-SUFFIX,t.contentsquare.net # ContentSquare 埋点与热图服务端，用
 
 DOMAIN-SUFFIX,aplo-evnt.com # Aplo Event 主域，用于跨站事件追踪、广告点击归因与用户行为收集
 
+# > UnifyIntent 数据追踪与标签管理服务域名
+
+DOMAIN-SUFFIX,tag.unifyintent.com # UnifyIntent 标准数据收集接口，用于网站行为追踪、转化率统计与用户兴趣建模
+
+# > UnifyIntent 行为追踪与标签管理接口
+
+DOMAIN-SUFFIX,tag.unifyintent.com # UnifyIntent 标准数据收集接口，用于网站行为追踪、转化率统计与用户兴趣建模
+
 
 
 
