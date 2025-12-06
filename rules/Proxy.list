@@ -4581,6 +4581,10 @@ DOMAIN-SUFFIX,c0.wp.com # 用于缓存内容、字体和第三方整合组件资
 # > WordPress.com 主服务域名
 
 DOMAIN-SUFFIX,wp.com # WordPress.com 主域，用于服务跳转、账号登录、图片缩略与嵌入支持等核心功能
+DOMAIN-SUFFIX,i0.wp.com # WordPress.com 图片加速 CDN 节点，用于博客与媒体资源的缩略图快速加载与缓存分发
+DOMAIN-SUFFIX,s0.wp.com # WordPress.com 静态资源 CDN 节点，用于脚本、样式等前端资源加速
+DOMAIN-SUFFIX,c0.wp.com # WordPress.com 内容托管节点，用于博客正文与嵌入组件的加载
+DOMAIN-SUFFIX,stats.wp.com # WordPress.com 的站点统计与访问行为采集服务，用于 Jetpack、WooCommerce 等插件的数据分析 -- 站长查看数据
 
 # > Vanta 合规审计平台主服务域名
 
