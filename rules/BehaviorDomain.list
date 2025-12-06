@@ -807,5 +807,9 @@ DOMAIN-SUFFIX,t.betterstack.com # BetterStack 跟踪脚本托管域名，加载�
 
 DOMAIN-SUFFIX,events.mapbox.com # Mapbox 行为遥测服务域名，用于收集用户交互、地图使用频率与客户端错误日志等数据
 
+# > Vercel Insights 用户体验分析服务域名（归入 BehaviorDomain）
+
+DOMAIN-SUFFIX,vitals.vercel-insights.com # Vercel Web Vitals 数据采集接口，用于收集页面加载性能、用户交互延迟与视觉稳定性等前端指标
+
 
 
