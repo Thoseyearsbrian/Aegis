@@ -4018,6 +4018,7 @@ DOMAIN-SUFFIX,nexus-websocket-a.intercom.io # Intercom WebSocket 中继节点域
 DOMAIN-SUFFIX,uploads.intercomcdn.com # Intercom CDN 上传/资源托管子域，用于文件/附件上传、图片展示等  
 DOMAIN-SUFFIX,static.intercomassets.com # Intercom 静态资源 CDN，用于加载聊天组件、图标、脚本与前端资源
 DOMAIN-SUFFIX,intercom.help # Intercom Help Center 域名，用于知识库、帮助文档与客户支持内容
+DOMAIN-SUFFIX,js-eu1.usemessages.com # Intercom 欧洲区域 JS 脚本服务节点，用于嵌入聊天组件、初始化会话与加载用户沟通功能
 
 # > Webflow 相关域名
 
