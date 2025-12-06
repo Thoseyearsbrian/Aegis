@@ -4702,6 +4702,10 @@ DOMAIN-SUFFIX,canada1.discourse-cdn.com # Discourse 社区平台加拿大区域�
 DOMAIN-SUFFIX,emoji.discourse-cdn.com # Discourse 平台表情图标资源节点，用于渲染社区中使用的 Emoji 表情图标
 DOMAIN-SUFFIX,avatars.discourse-cdn.com # Discourse 平台用户头像资源节点，用于加载用户头像图片
 
+# > Slack 静态资源加载域名
+
+DOMAIN-SUFFIX,a.slack-edge.com # Slack 资源分发子域，用于加载头像、图标、表情等界面资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
