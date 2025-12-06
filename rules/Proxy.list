@@ -4654,6 +4654,14 @@ DOMAIN-SUFFIX,jobs.gem.com # Gem 招聘平台子域，用于展示职位列表�
 DOMAIN-SUFFIX,cdn.unicorn.studio # Unicorn Studio 提供的静态内容分发域名，用于加载前端脚本、图像与 UI 组件等页面资源
 DOMAIN-SUFFIX,assets.unicorn.studio # Unicorn Studio 提供的静态资源子域，用于加载网站图像、脚本、字体文件与 UI 组件等内容
 
+# > BootstrapCDN 静态资源服务域名（StackPath 提供）
+
+DOMAIN-SUFFIX,maxcdn.bootstrapcdn.com # Bootstrap 官方公共 CDN 域，用于加载 Bootstrap 框架、字体图标与组件样式资源
+
+# > Zscdn 用户内容分发域名（第三方资源托管）
+
+DOMAIN-SUFFIX,usercontent.zscdn.net # Zscdn 提供的用户内容分发子域，用于嵌入式文件加载、脚本传输与媒体托管，常见于第三方嵌入服务中
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
