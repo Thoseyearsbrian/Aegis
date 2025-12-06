@@ -4582,6 +4582,10 @@ DOMAIN-SUFFIX,c0.wp.com # 用于缓存内容、字体和第三方整合组件资
 
 DOMAIN-SUFFIX,wp.com # WordPress.com 主域，用于服务跳转、账号登录、图片缩略与嵌入支持等核心功能
 
+# > Vanta 合规审计平台主服务域名
+
+DOMAIN-SUFFIX,app.vanta.com # Vanta 主应用服务域名，用于用户登录、风险控制面板展示、合规审计任务与报告交互
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
