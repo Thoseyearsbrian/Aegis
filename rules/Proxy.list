@@ -445,6 +445,7 @@ DOMAIN-SUFFIX,research.fb.com # Facebook AI 与研究项目子站
 DOMAIN-SUFFIX,facebookmail.com # Facebook 系统邮件通知发送域（如账户安全、好友动态等）
 DOMAIN-SUFFIX,fbwatch.com # Facebook Watch 视频平台域名
 IP-CIDR,157.240.0.0/16 # Facebook 所属 Meta 通讯网段（用户连接、内容加载、身份认证等）
+IP-CIDR,31.13.94.41/32  # 归属 Meta（Facebook），为其公网通信节点之一，广泛用于社交图像资源加载或后端通信
 
 # > Messenger（Meta 即时通信平台）相关域名
 

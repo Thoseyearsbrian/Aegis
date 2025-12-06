@@ -34,6 +34,7 @@ IP-CIDR,108.160.167.156/32 # ChatGPT iOS 客户端 Edge 节点（ios.chat.openai
 IP-CIDR,128.242.240.189/32 # ChatGPT Web 主站 Edge 节点（chatgpt.com），用于网页端连接的全球负载均衡入口
 IP-CIDR,185.45.7.189/32 # chatgpt.com 相关出口节点（Cloudflare / OpenAI 服务）
 IP-CIDR,173.255.209.47/32 # chatgpt.com 相关出口节点（OpenAI 基础设施）
+IP-CIDR,104.244.46.63/32  # 归属 OpenAI，关联 realtime.chatgpt.com，用于实时对话更新与 WebSocket 通信
 
 # > Grok（xAI / Elon Musk）AI 服务相关域名
 
