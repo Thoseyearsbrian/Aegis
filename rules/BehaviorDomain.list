@@ -785,6 +785,10 @@ DOMAIN-SUFFIX,events.launchdarkly.com # LaunchDarkly 数据事件上报域名，
 
 DOMAIN-SUFFIX,t.contentsquare.net # ContentSquare 埋点与热图服务端，用于收集用户行为数据、页面点击轨迹与页面停留分析
 
+# > Aplo Event 事件追踪与广告归因平台域名
+
+DOMAIN-SUFFIX,aplo-evnt.com # Aplo Event 主域，用于跨站事件追踪、广告点击归因与用户行为收集
+
 
 
 
