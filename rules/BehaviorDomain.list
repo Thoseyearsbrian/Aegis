@@ -811,5 +811,13 @@ DOMAIN-SUFFIX,events.mapbox.com # Mapbox 行为遥测服务域名，用于收集
 
 DOMAIN-SUFFIX,vitals.vercel-insights.com # Vercel Web Vitals 数据采集接口，用于收集页面加载性能、用户交互延迟与视觉稳定性等前端指标
 
+# > ipwhois IP 地址地理位置查询接口（归入 BehaviorDomain）
+
+DOMAIN-SUFFIX,ipwho.is # ipwhois.io 提供的 IP 定位 API，用于通过访客 IP 返回地理位置、运营商等信息，常见于用户画像与访问记录分析
+
+# > Webflow HubSpot 集成子服务接口（归入 BehaviorDomain）
+
+DOMAIN-SUFFIX,hubspotv2.use1-marketplace-1p-apps-prod-red.if.webflow.services # Webflow 与 HubSpot 集成的行为收集子服务，用于用户数据上报与营销自动化通信
+
 
 
