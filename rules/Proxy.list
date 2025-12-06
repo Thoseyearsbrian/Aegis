@@ -4707,6 +4707,10 @@ DOMAIN-SUFFIX,avatars.discourse-cdn.com # Discourse 平台用户头像资源节�
 DOMAIN-SUFFIX,a.slack-edge.com # Slack 资源分发子域，用于加载头像、图标、表情等界面资源
 DOMAIN-SUFFIX,avatars.slack-edge.com # Slack 头像资源域名，用于加载用户头像与会话相关图片
 
+# > Ashby 招聘管理系统职位投递接口
+
+DOMAIN-SUFFIX,jobs.ashbyhq.com # Ashby 职位页面主域，用于加载招聘岗位、表单提交及跟踪招聘活动
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
