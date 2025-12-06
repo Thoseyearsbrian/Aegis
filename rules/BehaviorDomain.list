@@ -766,8 +766,13 @@ DOMAIN-SUFFIX,ingesteer.services-prod.nsvcs.net # NSVCS 平台的数据接收节
 # > Bugsnag 错误追踪与异常报告平台
 
 DOMAIN-SUFFIX,otlp.bugsnag.com # Bugsnag 数据采集节点，用于接收应用程序崩溃日志、性能异常与 OpenTelemetry 上报数据
+DOMAIN-SUFFIX,notify.bugsnag.com # Bugsnag 通知上报服务域名，用于错误日志收集、异常捕获与应用崩溃上报
 
 # > Goldcast 数据分析与功能模块服务域名
 
 DOMAIN-SUFFIX,analytics.goldcast.io # Goldcast 分析与埋点统计子域，用于记录访客行为、活动参与度与转化数据
+
+# > Harness 功能标识管理平台域名（Feature Flags）
+
+DOMAIN-SUFFIX,config.ff.harness.io # Harness Feature Flags 配置节点，用于动态功能开关下发与客户端行为收集
 

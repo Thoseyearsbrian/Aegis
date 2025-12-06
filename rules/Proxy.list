@@ -4559,6 +4559,9 @@ DOMAIN-SUFFIX,cdn.addevent.com # AddEvent 静态资源 CDN，用于加载日历�
 
 DOMAIN-SUFFIX,backend-ne.goldcast.io # Goldcast 后端服务节点（东北美区域），用于用户认证、活动数据交互与表单提交处理
 DOMAIN-SUFFIX,sdk.goldcast.io # Goldcast 前端 SDK 服务域名，用于嵌入活动页面与加载核心交互逻辑
+DOMAIN-SUFFIX,form.goldcast.io # Goldcast 表单收集子域，用于收集 RSVP、活动报名信息与问卷反馈
+DOMAIN-SUFFIX,vid.goldcast.io # Goldcast 视频内容服务子域，用于活动直播、点播与嵌入式视频播放加载
+DOMAIN-SUFFIX,backend.goldcast.io # Goldcast 主后端服务域，用于处理活动数据、用户认证与 API 请求
 
 # > 第三方博客网站
 
