@@ -3002,6 +3002,7 @@ DOMAIN-SUFFIX,workers.dev  # Cloudflare Workers 服务域名，用于无服务�
 DOMAIN-SUFFIX,cf-ipfs.com  # Cloudflare IPFS 网关服务域名，用于访问分布式内容
 DOMAIN-SUFFIX,1.1.1.1  # Cloudflare 公共 DNS 服务 IPv4 地址，用于加密 DNS 查询
 DOMAIN-SUFFIX,1.0.0.1  # Cloudflare 公共 DNS 备用 IPv4 地址，提供冗余 DNS 解析能力
+IP-CIDR,104.18.6.91/32 # Cloudflare CDN / Hosting 节点，承载多个域名的静态资源、HTTPS 服务与反向代理
 
 # > 迅雷下载与云服务
 
