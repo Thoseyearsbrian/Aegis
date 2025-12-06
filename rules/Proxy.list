@@ -4091,6 +4091,10 @@ DOMAIN-SUFFIX,sdk.cookieyes.com # CookieYes SDK 脚本分发节点，用于前�
 DOMAIN-SUFFIX,api.cookieyes.com # CookieYes API 接口，用于网站扫描、Cookie 分类、合规状态与跨站点配置同步
 DOMAIN-SUFFIX,assets.cookieyes.com # CookieYes 静态资源域，用于图片、样式、图标与前端模块素材加载
 
+# > Termly 法务合规与 Cookie 通知服务域名
+
+DOMAIN-SUFFIX,app.termly.io # Termly 平台应用主域，用于管理 Cookie 通知、隐私政策弹窗及用户同意收集
+
 # > Axeptio Cookie 同意管理服务域名（用于网站 Cookie 授权弹窗与隐私偏好记录）
 
 DOMAIN-SUFFIX,static.axept.io # Axeptio 前端脚本与样式加载域名，用于展示 Cookie 通知与收集授权信息
