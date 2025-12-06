@@ -4598,6 +4598,10 @@ DOMAIN-SUFFIX,hc.vanta.com # Vanta 帮助中心内容域名，用于展示安全
 
 DOMAIN-SUFFIX,fast.trychameleon.com # Chameleon 内嵌用户行为引导组件域名，用于加载 Onboarding 脚本、功能提示与用户行为追踪
 
+# > Comeet 招聘与人力资源管理平台域名
+
+DOMAIN-SUFFIX,www.comeet.co # Comeet 官方主站域名，用于职位发布、候选人管理、招聘流程协作及企业 HR 页面加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
