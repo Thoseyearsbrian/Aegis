@@ -797,7 +797,11 @@ DOMAIN-SUFFIX,tag.unifyintent.com # UnifyIntent 标准数据收集接口，用�
 
 DOMAIN-SUFFIX,plausible.io # Plausible 主站及分析服务域，用于无 Cookie 的访客行为统计与网站流量分析
 
+# > BetterStack 监控与遥测服务域名
 
+DOMAIN-SUFFIX,betterstackdata.com # BetterStack 数据采集与遥测服务主域，用于系统指标上传与性能数据记录
+DOMAIN-SUFFIX,s1612477.eu-nbg-1.betterstackdata.com # BetterStack 指定遥测节点，部署于欧洲地区，用于上报站点监控与性能事件
+DOMAIN-SUFFIX,t.betterstack.com # BetterStack 跟踪脚本托管域名，加载轻量级浏览器追踪代码与遥测 SDK
 
 
 
