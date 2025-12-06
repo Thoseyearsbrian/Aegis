@@ -793,9 +793,9 @@ DOMAIN-SUFFIX,aplo-evnt.com # Aplo Event 主域，用于跨站事件追踪、广
 
 DOMAIN-SUFFIX,tag.unifyintent.com # UnifyIntent 标准数据收集接口，用于网站行为追踪、转化率统计与用户兴趣建模
 
-# > UnifyIntent 行为追踪与标签管理接口
+# > Plausible.io 轻量级开源网站分析平台域名
 
-DOMAIN-SUFFIX,tag.unifyintent.com # UnifyIntent 标准数据收集接口，用于网站行为追踪、转化率统计与用户兴趣建模
+DOMAIN-SUFFIX,plausible.io # Plausible 主站及分析服务域，用于无 Cookie 的访客行为统计与网站流量分析
 
 
 

@@ -4675,6 +4675,12 @@ DOMAIN-SUFFIX,use1-turn.fpjs.io # FingerprintJS 提供的 TURN 服务子域，�
 
 IP-CIDR,151.101.3.6/32 # Fastly 公共边缘节点，用于分发多家网站与服务内容（如 GitHub、Reddit、npm 等）
 
+# > BetterStackCDN 服务域名
+
+DOMAIN-SUFFIX,betterstackcdn.com # BetterStack 提供的内容分发网络（CDN）主域，用于性能监控、网站静态资源加载与脚本托管
+DOMAIN-SUFFIX,uptime.betterstackcdn.com # BetterStack Uptime 服务域，用于网站可用性监控与状态推送
+DOMAIN-SUFFIX,cdnjs.betterstackcdn.com # BetterStack CDNJS 静态资源子域，提供公共 JS 库分发服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
