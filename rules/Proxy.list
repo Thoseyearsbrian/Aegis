@@ -4563,6 +4563,10 @@ DOMAIN-SUFFIX,form.goldcast.io # Goldcast 表单收集子域，用于收集 RSVP
 DOMAIN-SUFFIX,vid.goldcast.io # Goldcast 视频内容服务子域，用于活动直播、点播与嵌入式视频播放加载
 DOMAIN-SUFFIX,backend.goldcast.io # Goldcast 主后端服务域，用于处理活动数据、用户认证与 API 请求
 
+# > Usersnap 用户反馈与截图组件服务域名
+
+DOMAIN-SUFFIX,resources.usersnap.com # Usersnap 静态资源子域，用于加载前端嵌入组件、样式文件与功能脚本
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

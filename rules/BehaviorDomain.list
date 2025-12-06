@@ -776,3 +776,7 @@ DOMAIN-SUFFIX,analytics.goldcast.io # Goldcast 分析与埋点统计子域，用
 
 DOMAIN-SUFFIX,config.ff.harness.io # Harness Feature Flags 配置节点，用于动态功能开关下发与客户端行为收集
 
+# > LaunchDarkly 客户端行为追踪域名（Feature Flags）
+
+DOMAIN-SUFFIX,events.launchdarkly.com # LaunchDarkly 数据事件上报域名，用于记录客户端行为与功能标识状态变更
+
