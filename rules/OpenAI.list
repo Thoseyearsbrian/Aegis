@@ -302,6 +302,7 @@ DOMAIN-SUFFIX,docs.groq.com # Groq 文档站点，提供 API 文档、SDK 说明
 DOMAIN-SUFFIX,cdn.groq.com # Groq 静态资源 CDN，用于加载前端脚本、样式、图标与控制台资源
 DOMAIN-SUFFIX,assets.groq.com # Groq 静态资源域名，用于图标、字体、前端 UI 素材文件加载
 DOMAIN-SUFFIX,status.groq.com # Groq 服务状态页，用于查看 API / Cloud 服务是否正常运行
+DOMAIN-SUFFIX,phte.groq.io # Groq 提供的远程推理服务节点，用于运行大模型推理任务与高速响应接口
 
 # > Modal（AI 无服务器推理 / 云端计算平台）
 

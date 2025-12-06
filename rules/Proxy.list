@@ -4640,6 +4640,7 @@ DOMAIN-SUFFIX,customer-fz5oh80x9qirexi3.cloudflarestream.com # Cloudflare Stream
 # > Iconify 图标托管服务域名
 
 DOMAIN-SUFFIX,api.iconify.design # Iconify 图标 API 服务域名，用于提供开源图标的检索、加载与前端渲染支持
+DOMAIN-SUFFIX,code.iconify.design # Iconify 平台提供的图标脚本 CDN，用于网页端图标加载与动态插入功能
 
 # > Apollo 客户数据平台资源域名
 
@@ -4698,6 +4699,8 @@ DOMAIN-SUFFIX,yyz1.discourse-cdn.com # Discourse 社区平台使用的 CDN 节�
 # > Discourse 社区 CDN 节点（Canada1 区域）
 
 DOMAIN-SUFFIX,canada1.discourse-cdn.com # Discourse 社区平台加拿大区域备用 CDN 节点，用于加载页面组件、图像与静态内容
+DOMAIN-SUFFIX,emoji.discourse-cdn.com # Discourse 平台表情图标资源节点，用于渲染社区中使用的 Emoji 表情图标
+DOMAIN-SUFFIX,avatars.discourse-cdn.com # Discourse 平台用户头像资源节点，用于加载用户头像图片
 
 # > 第三方博客网站
 
