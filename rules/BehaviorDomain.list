@@ -835,4 +835,12 @@ DOMAIN-SUFFIX,snippet.maze.co # Maze 分析平台嵌入式脚本域名，用于�
 
 DOMAIN-SUFFIX,web-sdk-cdn.singular.net # Singular Web SDK CDN 域名，用于归因分析、营销数据采集与用户行为建模
 
+# > Grsm.io 智能链接跳转服务域名
+
+DOMAIN-SUFFIX,grsm.io # Grsm 提供短链接与跳转服务，用于行为追踪、用户引流与活动页面中转
+
+# > DebugBear 性能监控平台资源域名
+
+DOMAIN-SUFFIX,cdn.debugbear.com # DebugBear 内容分发节点，用于加载网站性能监测与用户行为分析脚本
+
 

@@ -4740,6 +4740,15 @@ DOMAIN-SUFFIX,usw2.frontkb-cdn.com # Front 平台知识库 CDN 资源域名，�
 DOMAIN-SUFFIX,assets.frontapp.com  # Front 应用资源加载域名，用于前端脚本、样式与组件内容的托管与分发
 DOMAIN-SUFFIX,app.frontapp.com # Front 主应用入口，用于加载用户界面、消息管理与团队协作功能
 
+# > hCaptcha 验证服务脚本资源域名
+
+DOMAIN-SUFFIX,js.hcaptcha.com # hCaptcha 前端验证脚本加载域名，用于网页人机验证控件展示与交互功能
+
+# > Cookiebot 同意管理服务接口域名
+
+DOMAIN-SUFFIX,consent.cookiebot.com # Cookiebot API 域名，用于收集用户 Cookie 同意记录与偏好设置
+DOMAIN-SUFFIX,consentcdn.cookiebot.com # Cookiebot 静态资源 CDN，用于加载弹窗 UI 与隐私声明组件资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
