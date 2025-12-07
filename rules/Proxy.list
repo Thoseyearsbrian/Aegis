@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-06
+# - 更新时间：2025-12-07
 
 # > Speedtest 网络测速平台
 
@@ -4726,6 +4726,10 @@ DOMAIN-SUFFIX,widget.kapa.ai # Kapa AI 提供的嵌入式问答机器人接口�
 # > Greenhouse 招聘平台资源加载域名
 
 DOMAIN-SUFFIX,job-boards.cdn.greenhouse.io # Greenhouse 招聘系统的静态资源子域，用于加载嵌入式职位面板的样式、脚本与媒体资源
+
+# > DatoCMS 媒体资源加载域名
+
+DOMAIN-SUFFIX,datocms-assets.com # DatoCMS 媒体资源分发主域，用于托管并加载图片、视频等静态资源，常用于网站前端展示
 
 # > 第三方博客网站
 
