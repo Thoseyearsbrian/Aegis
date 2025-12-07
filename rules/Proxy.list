@@ -4549,6 +4549,7 @@ DOMAIN-SUFFIX,secureframe-com.cdn.prismic.io # Secureframe 使用 Prismic 托管
 # > LaunchDarkly 平台服务域名（A/B 测试与特性开关）
 
 DOMAIN-SUFFIX,app.launchdarkly.com # LaunchDarkly 控制台服务域名，用于特性开关配置、AB测试方案管理与实时数据同步
+DOMAIN-SUFFIX,clientstream.launchdarkly.com # LaunchDarkly 用于客户端实时更新 feature flags 的推送通道域名，支持前端 SDK 实时获取配置变更
 
 # > Usersnap 用户反馈与可视化问题报告工具域名
 
@@ -4784,6 +4785,10 @@ DOMAIN-SUFFIX,cdn.gradual.com # Gradual 静态资源 CDN 域名，用于加载�
 # > Chili Piper 预约调度系统域名
 
 DOMAIN-SUFFIX,heygen.chilipiper.com # Heygen 使用的 Chili Piper 子域名，用于处理销售预约调度与日程安排功能
+
+# > Pusher WebSocket 实时通信域名
+
+DOMAIN-SUFFIX,sockjs-us3.pusher.com # Pusher 提供的 SockJS WebSocket 备用连接节点，用于跨平台实时消息推送与事件广播
 
 # > 第三方博客网站
 
