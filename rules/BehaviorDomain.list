@@ -882,3 +882,7 @@ DOMAIN-SUFFIX,benchmarks.cdn-b.compute-pipe.com # ComputePipe 提供的性能测
 # > Tolt 交互式营销与用户行为追踪脚本加载域名
 
 DOMAIN-SUFFIX,cdn.tolt.io # Tolt 提供嵌入式销售工具，此 CDN 域名用于行为记录脚本的加载和表单交互数据采集
+
+# > Toplyne 用户行为追踪与增长策略分析 SDK 接口域名
+
+DOMAIN-SUFFIX,toplyne-sdk.toplyne.io # Toplyne SDK 接口，用于采集用户行为数据并提供个性化增长策略推荐服务
