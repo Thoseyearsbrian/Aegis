@@ -851,3 +851,7 @@ DOMAIN-SUFFIX,cdn.dreamdata.cloud # Dreamdata CDN 域名，用于加载网站行
 # > G2 用户行为追踪与平台分析接口域名
 
 DOMAIN-SUFFIX,tracking-api.g2.com # G2 平台追踪接口，用于记录用户交互、访客行为与转化路径分析
+
+# > Ahrefs 网站分析行为追踪接口
+
+DOMAIN-SUFFIX,analytics.ahrefs.com # Ahrefs 网站分析平台数据接口，用于收集用户访问行为、来源路径与使用指标

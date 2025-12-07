@@ -4759,6 +4759,14 @@ DOMAIN-SUFFIX,icons.ferndocs.com # Fern 文档平台图标资源加载域名，�
 DOMAIN-SUFFIX,api.feathery.io  # Feathery 表单构建平台 API 主域，用于表单数据交互、配置与加载逻辑处理
 DOMAIN-SUFFIX,cdn.feathery.io  # Feathery 表单构建平台静态资源 CDN，用于表单样式、脚本与媒体内容加载
 
+# > Syft Data 静态资源加载域名
+
+DOMAIN-SUFFIX,cdn.syftdata.com # Syft Data 平台资源 CDN，用于前端页面加载与用户数据可视化组件渲染
+
+# > Heygen 平台动态内容接口
+
+DOMAIN-SUFFIX,dynamic.heygen.ai # Heygen 视频生成平台动态配置接口，用于组件渲染与个性化内容加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
