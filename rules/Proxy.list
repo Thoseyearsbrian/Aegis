@@ -262,6 +262,10 @@ DOMAIN-SUFFIX,byteoversea.com # 字节跳动国际服务平台域名（TikTok �
 DOMAIN-SUFFIX,bytedance.com # 字节跳动官网与底层接口平台（账号、云服务等通用支持）
 IP-CIDR,161.117.0.0/16 # TikTok / ByteDance 海外服务通信段（新加坡集群）
 
+# > 字节跳动视频通话与多媒体通信服务域名（VCS）
+
+DOMAIN-SUFFIX,vcs-s.byteintlapi.com # ByteDance 视频通信服务端节点（VCS-S），用于字节系 App 的音视频通话、实时互动与多媒体数据传输
+
 # > GoWish 平台相关域名（愿望清单服务）
 
 DOMAIN-SUFFIX,gowishlist.com # GoWish 主站，用于愿望清单创建与礼物分享
