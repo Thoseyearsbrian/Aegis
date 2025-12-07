@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名与 YouTube 已独立归类至 AdDomain.list 与 YouTube.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-06
+# - 更新时间：2025-12-08
 
 # > 核心服务（Google Core Services）
 
@@ -37,6 +37,7 @@ DOMAIN-SUFFIX,content-autofill.googleapis.com # Google 内容自动填充服务�
 DOMAIN-SUFFIX,mtalk.google.com # Google 消息推送服务（FCM/GCM）域名，用于 Android 设备推送通知的连接维护
 DOMAIN-SUFFIX,dns.google # Google DoH / DoT 解析服务接口，用于加密 DNS 查询与解析请求
 DOMAIN-SUFFIX,google.com.hk # Google 香港主站域名，用于本地化搜索、登录服务与导航页面加载
+DOMAIN-SUFFIX,google.com.sg # Google 新加坡站点域名，用于区域性搜索结果、语言与地域定制服务
 IP-CIDR,142.250.4.0/24  # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
