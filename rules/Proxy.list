@@ -4629,9 +4629,11 @@ DOMAIN-SUFFIX,react-tweet.vercel.app # 开源组件 React-Tweet 的公共服务�
 
 # > Greenhouse 招聘平台 API 服务域名
 
+DOMAIN-SUFFIX,greenhouse.io # Greenhouse 主服务域名，用于招聘页面托管、职位展示、投递表单与后台管理功能
 DOMAIN-SUFFIX,boards-api.greenhouse.io # Greenhouse 招聘平台提供的职位信息接口域名，常用于嵌入网站中的招聘职位展示与申请功能
 DOMAIN-SUFFIX,job-boards.greenhouse.io # Greenhouse 招聘系统的嵌入式职位看板，用于在第三方网站展示职位申请页面与招聘表单
 DOMAIN-SUFFIX,s7-recruiting.cdn.greenhouse.io # Greenhouse 招聘系统使用的静态资源 CDN 域名，用于加载招聘相关页面内容与前端脚本资源
+DOMAIN-SUFFIX,s9-recruiting.cdn.greenhouse.io # Greenhouse 招聘系统 CDN 子域，用于分发职位列表页、应聘页面静态资源与媒体内容
 
 # > Telescope Magazine 媒体内容网站域名
 
