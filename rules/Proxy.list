@@ -4833,6 +4833,16 @@ DOMAIN-SUFFIX,apps.elfsight.com # Elfsight 插件／小部件服务域名，用�
 # > FastSpring 支付 / 订阅服务结算子域名
 
 DOMAIN-SUFFIX,sbl.onfastspring.com # FastSpring 的结算／订阅服务子域，用于处理付款、订阅与授权验证功能
+DOMAIN-SUFFIX,apis.fastspring.com # FastSpring 支付与授权系统 API，用于处理订阅、购买验证与支付请求
+DOMAIN-SUFFIX,revoicer.onfastspring.com # Revoicer via FastSpring 的子域，用于处理付费、订阅与授权相关请求
+
+# > Elfsight 静态资源托管域名
+
+DOMAIN-SUFFIX,static.elfsight.com # Elfsight 插件 / 小部件资源 CDN，用于加载脚本、样式与静态资源支持前端组件功能
+
+# > Sift 反欺诈与风控服务 CDN / 接口域名
+
+DOMAIN-SUFFIX,cdn.sift.com # Sift 平台公共资源 / 接口域名，用于加载反欺诈 / 风险评估脚本与数据通信
 
 # > 第三方博客网站
 
