@@ -35,6 +35,10 @@ IP-CIDR,185.45.7.189/32 # chatgpt.com 相关出口节点（Cloudflare / OpenAI �
 IP-CIDR,173.255.209.47/32 # chatgpt.com 相关出口节点（OpenAI 基础设施）
 IP-CIDR,104.244.46.63/32  # 归属 OpenAI，关联 realtime.chatgpt.com，用于实时对话更新与 WebSocket 通信
 
+# > Sora — OpenAI 视频生成 / AI 服务主域名
+
+DOMAIN-SUFFIX,sora.com # Sora 官方域名，用于文本到视频模型访问、用户界面与 API 服务入口
+
 # > Grok（xAI / Elon Musk）AI 服务相关域名
 
 DOMAIN-SUFFIX,x.ai # xAI 官方站点，Grok 所属公司
