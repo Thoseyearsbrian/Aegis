@@ -380,6 +380,7 @@ DOMAIN-SUFFIX,static.heygen.ai # Heygen AI 平台静态资源域名，用于加�
 # > PlayHT（AI 语音生成 / TTS / 语音克隆平台）
 
 DOMAIN-SUFFIX,play.ht # PlayHT 主站与入口，用于产品介绍、示例音频展示与账号登录
+DOMAIN-SUFFIX,play.ai # Play.ai 平台主域名，用于 AI 语音对话、模型演示与音频生成等相关功能访问
 DOMAIN-SUFFIX,app.play.ht # PlayHT Web Studio，用于文本转语音、语音克隆、音频编辑与项目管理
 DOMAIN-SUFFIX,api.play.ht # PlayHT 官方 API 接口，用于文本转语音（TTS）、语音克隆、音频生成与批处理任务
 DOMAIN-SUFFIX,cdn.play.ht # PlayHT 静态资源 CDN，用于前端脚本、样式、字体与控制台界面资源加载
