@@ -4028,6 +4028,7 @@ IP-CIDR,128.121.243.77/32 # Intercom WebSocket 服务 IP，绑定域名 nexus-we
 DOMAIN-SUFFIX,cdn.prod.website-files.com # Webflow 静态资源 CDN，用于网站图片、样式与脚本加载
 DOMAIN-SUFFIX,uploads-ssl.webflow.com # Webflow 静态资源托管域名，用于存储网站上传内容如图片、文档和媒体文件等
 DOMAIN-SUFFIX,assets-global.website-files.com # Webflow 旗下静态资源 CDN 域名，用于加载站点图片、样式表、脚本文件等前端内容
+DOMAIN-SUFFIX,assets.website-files.com # Webflow 官方静态资源 CDN 域名，用于托管并加载用户站点的前端资源（如 JS、CSS、图片等）
 
 # > Finsweet（Webflow 插件 / 组件）相关域名
 
@@ -4856,6 +4857,22 @@ DOMAIN-SUFFIX,get.geojs.io # GeoJS 提供的 IP 地址定位与地理位置服�
 # > ProfitWell 商业智能数据可视化平台资源域名
 
 DOMAIN-SUFFIX,public.profitwell.com # ProfitWell 公共静态资源域名，用于展示订阅营收分析、留存趋势等图表组件与仪表板
+
+# > Noticeable 公告系统内容投放域名
+
+DOMAIN-SUFFIX,synthesia.noticeable.news # Noticeable 公告模块为 Synthesia 提供嵌入式新闻、更新日志与发布内容展示服务
+
+# > Tia 相关域名
+
+DOMAIN-SUFFIX,fast.tia-ai.com # Tia AI 提供的静态资源加载域名，用于分发前端脚本、样式与组件资源，加快网页渲染性能
+
+# > Thought Industries 多媒体教学平台资源域名
+
+DOMAIN-SUFFIX,media.thoughtindustries.com # Thought Industries 教育平台媒体内容分发域名，用于提供课程视频、图文教程等静态内容加载
+
+# > Wistia 视频托管平台加速域名
+
+DOMAIN-SUFFIX,fast.wistia.com # Wistia 加速节点域名，负责分发视频播放器脚本与媒体加载组件，加速第三方站点嵌入式视频体验
 
 # > 第三方博客网站
 
