@@ -4862,10 +4862,6 @@ DOMAIN-SUFFIX,public.profitwell.com # ProfitWell 公共静态资源域名，用�
 
 DOMAIN-SUFFIX,synthesia.noticeable.news # Noticeable 公告模块为 Synthesia 提供嵌入式新闻、更新日志与发布内容展示服务
 
-# > Tia 相关域名
-
-DOMAIN-SUFFIX,fast.tia-ai.com # Tia AI 提供的静态资源加载域名，用于分发前端脚本、样式与组件资源，加快网页渲染性能
-
 # > Thought Industries 多媒体教学平台资源域名
 
 DOMAIN-SUFFIX,media.thoughtindustries.com # Thought Industries 教育平台媒体内容分发域名，用于提供课程视频、图文教程等静态内容加载

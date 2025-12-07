@@ -468,3 +468,8 @@ DOMAIN-SUFFIX,platform.fireworks.ai # Fireworks 平台级服务入口，用于�
 DOMAIN-SUFFIX,studio.fireworks.ai # Fireworks Studio Web UI，用于在线体验模型、调参与推理测试
 DOMAIN-SUFFIX,chat.fireworks.ai # Fireworks 原生 Chat 界面入口，用于测试 Fireworks 提供的 LLM 聊天服务
 DOMAIN-SUFFIX,status.fireworks.ai # Fireworks 服务状态监控域名，用于查看 API、控制台与推理系统运行情况
+
+# > Tia AI 官方主站与服务域名
+
+DOMAIN-SUFFIX,tia-ai.com # Tia AI 官方主域名，用于访问平台主页、产品介绍、用户登录与相关功能页面
+DOMAIN-SUFFIX,fast.tia-ai.com # Tia AI 提供的静态资源加载域名，用于分发前端脚本、样式与组件资源，加快网页渲染性能
