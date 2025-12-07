@@ -892,3 +892,7 @@ DOMAIN-SUFFIX,script.crazyegg.com # Crazy Egg 页面热图与用户行为分析�
 # > SegmentStream 内容个性化与行为分析资源域名
 
 DOMAIN-SUFFIX,cdn.segmentstream.com # SegmentStream 提供的前端 JS SDK 与追踪脚本 CDN，用于用户行为采集与个性化推荐建模
+
+# > EscapeTheCave 网站分析与行为追踪接口域名
+
+DOMAIN-SUFFIX,analytics.escapethecave.ai # EscapeTheCave 网站用于行为分析与用户数据收集的 SDK/接口域名，用于访客行为追踪与统计
