@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-04
+# - 更新时间：2025-12-08
 
 # > 阿里相关域名（Alibaba Group）
 
@@ -1727,7 +1727,6 @@ DOMAIN-SUFFIX,www.shengshu.com # 盛数科技官网子域名，用于展示产�
 # > YHGFB Static（国内通用静态资源 CDN）
 
 DOMAIN-SUFFIX,yhgfb-static.com # 国内通用静态资源 CDN，用于加载图片、脚本、样式与页面前端资源
-DOMAIN-SUFFIX,lf-rc1.yhgfb-static.com # yhgfb-static 静态资源分发节点，用于前端资源加载与页面渲染加速
 DOMAIN-SUFFIX,yhgfb-cn-static.com # 国内通用静态资源 CDN，用于图片、脚本、字体与前端资源加速加载
 DOMAIN-SUFFIX,lf-headquarters-speed.yhgfb-cn-static.com # yhgfb-cn-static 高速分发节点，用于前端页面资源与 UI 内容快速加载
 DOMAIN-SUFFIX,lf-rc1.yhgfb-cn-static.com # yhgfb-cn-static 区域分发节点，用于静态内容缓存、页面渲染资源加载

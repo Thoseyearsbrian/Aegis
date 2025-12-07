@@ -266,9 +266,10 @@ IP-CIDR,161.117.0.0/16 # TikTok / ByteDance 海外服务通信段（新加坡集
 
 DOMAIN-SUFFIX,vcs-s.byteintlapi.com # ByteDance 视频通信服务端节点（VCS-S），用于字节系 App 的音视频通话、实时互动与多媒体数据传输
 
-# > 字节跳动静态资源 CDN 域名（iByteIMG）
+# > 字节跳动静态资源 CDN 域名
 
 DOMAIN-SUFFIX,p16-flow-sign-sg.ibyteimg.com # 字节跳动新加坡静态资源节点，用于分发图片、前端脚本与视频预览内容，服务于旗下 App 海外版（如 TikTok、CapCut 等）
+DOMAIN-SUFFIX,lf-rc1.yhgfb-static.com # yhgfb-static 静态资源分发节点，用于前端资源加载与页面渲染加速
 
 # > GoWish 平台相关域名（愿望清单服务）
 
