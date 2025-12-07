@@ -878,3 +878,7 @@ DOMAIN-SUFFIX,fastly.cedexis-test.com # Cedexis 联合 Fastly 的性能采样子
 # > ComputePipe 基准测试与性能分析子域
 
 DOMAIN-SUFFIX,benchmarks.cdn-b.compute-pipe.com # ComputePipe 提供的性能测试与基准分析子域，常用于分布式资源性能评估与客户端数据采集
+
+# > Tolt 交互式营销与用户行为追踪脚本加载域名
+
+DOMAIN-SUFFIX,cdn.tolt.io # Tolt 提供嵌入式销售工具，此 CDN 域名用于行为记录脚本的加载和表单交互数据采集

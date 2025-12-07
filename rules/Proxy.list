@@ -4814,6 +4814,10 @@ DOMAIN-SUFFIX,pub-427794e5f05244109a1fecd983321c1e.r2.dev # 基于 Cloudflare R2
 
 DOMAIN-SUFFIX,ptcfc.com # 官方站点域名
 
+# > Impact 广告与转化追踪服务内容分发域名
+
+DOMAIN-SUFFIX,utt.impactcdn.com # Impact 平台用于转化追踪脚本加载与广告像素传输的 CDN 子域
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
