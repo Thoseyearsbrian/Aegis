@@ -859,3 +859,7 @@ DOMAIN-SUFFIX,analytics.ahrefs.com # Ahrefs 网站分析平台数据接口，用
 # > SyD.io 行为分析与遥测服务域名
 
 DOMAIN-SUFFIX,e.sy-d.io # SyD.io 提供的行为追踪接口，用于收集用户交互事件、页面行为与性能数据，常见于嵌入式分析 SDK
+
+# > Gradual 客户数据平台接口 -- 待校对
+
+DOMAIN-SUFFIX,cdp.gradual-api.com # Gradual 平台的 CDP 接口域名，用于行为数据采集与用户画像构建

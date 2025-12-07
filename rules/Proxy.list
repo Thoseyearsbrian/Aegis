@@ -4772,6 +4772,10 @@ DOMAIN-SUFFIX,dynamic.heygen.ai # Heygen 视频生成平台动态配置接口，
 
 DOMAIN-SUFFIX,i.imgur.com # Imgur 图床静态资源加载域名，广泛用于论坛、社交平台和应用中的图片引用
 
+# > SFELC 社区平台接口
+
+DOMAIN-SUFFIX,api.sfelc.com # SFELC（工程领导力社区）平台 API 接口，主要用于论坛交互与数据获取
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
