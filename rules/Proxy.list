@@ -4731,6 +4731,11 @@ DOMAIN-SUFFIX,job-boards.cdn.greenhouse.io # Greenhouse 招聘系统的静态资
 
 DOMAIN-SUFFIX,datocms-assets.com # DatoCMS 媒体资源分发主域，用于托管并加载图片、视频等静态资源，常用于网站前端展示
 
+# > Front 客服平台资源加载服务域名
+
+DOMAIN-SUFFIX,usw2.frontkb-cdn.com # Front 平台知识库 CDN 资源域名，用于加载文档、FAQ 与嵌入式支持内容  
+DOMAIN-SUFFIX,assets.frontapp.com  # Front 应用资源加载域名，用于前端脚本、样式与组件内容的托管与分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
