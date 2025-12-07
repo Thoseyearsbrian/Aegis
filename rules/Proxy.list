@@ -4822,6 +4822,18 @@ DOMAIN-SUFFIX,utt.impactcdn.com # Impact 平台用于转化追踪脚本加载与
 
 DOMAIN-SUFFIX,cdn.tolt.io # Tolt CDN 域名，用于托管并分发静态资源（脚本、样式、图片等），支持前端页面正常加载
 
+# > Instadoodle 绘图/工具服务域名
+
+DOMAIN-SUFFIX,instadoodle.com # Instadoodle 在线绘图／图像生成网站主域，用于页面加载与图像处理服务
+
+# > Elfsight 插件服务资源域名
+
+DOMAIN-SUFFIX,apps.elfsight.com # Elfsight 插件／小部件服务域名，用于加载页面小组件脚本与样式资源
+
+# > FastSpring 支付 / 订阅服务结算子域名
+
+DOMAIN-SUFFIX,sbl.onfastspring.com # FastSpring 的结算／订阅服务子域，用于处理付款、订阅与授权验证功能
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
