@@ -4838,7 +4838,11 @@ DOMAIN-SUFFIX,revoicer.onfastspring.com # Revoicer via FastSpring 的子域，�
 
 # > Elfsight 静态资源托管域名
 
+DOMAIN-SUFFIX,elfsight.com # Elfsight 小部件平台官网主域，用于展示产品介绍、用户案例与后台入口等内容
 DOMAIN-SUFFIX,static.elfsight.com # Elfsight 插件 / 小部件资源 CDN，用于加载脚本、样式与静态资源支持前端组件功能
+DOMAIN-SUFFIX,storage.elfsight.com # Elfsight 静态资源存储域名，用于小部件组件所需图片、样式与脚本加载
+DOMAIN-SUFFIX,core.service.elfsight.com # Elfsight 核心服务接口，用于小部件初始化与配置加载等关键请求
+DOMAIN-SUFFIX,service-reviews-ultimate.elfsight.com # Elfsight 用户评价小部件服务子域，用于加载 Review 组件内容
 
 # > Sift 反欺诈与风控服务 CDN / 接口域名
 
