@@ -4532,8 +4532,10 @@ DOMAIN-SUFFIX,staticassets.goldcast.io # Goldcast 静态资源 CDN，用于前�
 # > Algolia 搜索服务域名（实时检索 / 搜索即服务）
 
 DOMAIN-SUFFIX,algolianet.com # Algolia 搜索服务基础域名，用于分发 API 请求与节点分流
+DOMAIN-SUFFIX,algolia.net # Algolia 搜索平台主域，用于分发前端搜索请求、索引查询与 CDN 优化服务
 DOMAIN-SUFFIX,p6vyurbgg0-2.algolianet.com # Algolia 客户端实例化节点，承载搜索 API 请求与索引查询
 DOMAIN-SUFFIX,p6vyurbgg0-dsn.algolia.net # Algolia DSN 节点（分布式搜索网络），用于加速用户端搜索交互体验
+DOMAIN-SUFFIX,lh8g077k6x-dsn.algolia.net # Algolia 客户专属 DSN 节点，用于前端实时搜索与结果分发，含缓存优化与索引同步能力
 
 # > Goldcast 注册组件与活动模块子域名
 
