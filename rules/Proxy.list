@@ -4027,6 +4027,7 @@ IP-CIDR,128.121.243.77/32 # Intercom WebSocket 服务 IP，绑定域名 nexus-we
 
 DOMAIN-SUFFIX,cdn.prod.website-files.com # Webflow 静态资源 CDN，用于网站图片、样式与脚本加载
 DOMAIN-SUFFIX,uploads-ssl.webflow.com # Webflow 静态资源托管域名，用于存储网站上传内容如图片、文档和媒体文件等
+DOMAIN-SUFFIX,assets-global.website-files.com # Webflow 旗下静态资源 CDN 域名，用于加载站点图片、样式表、脚本文件等前端内容
 
 # > Finsweet（Webflow 插件 / 组件）相关域名
 

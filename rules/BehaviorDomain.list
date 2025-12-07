@@ -736,6 +736,7 @@ DOMAIN-SUFFIX,js.zi-scripts.com # Zeta Global 行为追踪脚本加载域名，�
 # > Litix Analytics 行为追踪域名
 
 DOMAIN-SUFFIX,inferred.litix.io # Litix Analytics 数据采集域名，用于追踪用户行为、点击路径与转化率分析
+DOMAIN-SUFFIX,gt95otsj0jud3r8lsgrtvfti5.litix.io # Litix 提供的追踪数据采集子域名，用于捕捉用户行为事件、会话数据与转化路径信息
 
 # > ChatGPT AB 测试服务相关节点
 
