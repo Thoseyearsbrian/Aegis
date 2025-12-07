@@ -4810,6 +4810,10 @@ DOMAIN-SUFFIX,cdn-global.configcat.com # ConfigCat 提供的全球配置分发 C
 
 DOMAIN-SUFFIX,pub-427794e5f05244109a1fecd983321c1e.r2.dev # 基于 Cloudflare R2 的静态资源公开对象 URL，常用于托管媒体资源与第三方内容
 
+# > PTCFC 相关域名
+
+DOMAIN-SUFFIX,ptcfc.com # 官方站点域名
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
