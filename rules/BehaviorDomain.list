@@ -855,3 +855,7 @@ DOMAIN-SUFFIX,tracking-api.g2.com # G2 平台追踪接口，用于记录用户�
 # > Ahrefs 网站分析行为追踪接口
 
 DOMAIN-SUFFIX,analytics.ahrefs.com # Ahrefs 网站分析平台数据接口，用于收集用户访问行为、来源路径与使用指标
+
+# > SyD.io 行为分析与遥测服务域名
+
+DOMAIN-SUFFIX,e.sy-d.io # SyD.io 提供的行为追踪接口，用于收集用户交互事件、页面行为与性能数据，常见于嵌入式分析 SDK
