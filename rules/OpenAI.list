@@ -422,6 +422,7 @@ DOMAIN-SUFFIX,render.synthesia.io # Synthesia 渲染服务域名，用于视频�
 
 # > Fable Studio / Showrunner（AI 剧集生成 / AI 角色驱动内容）
 
+DOMAIN-SUFFIX,fable-studio.com # Fable Studio 官网，用于展示公司／产品信息、项目信息、官网页面访问等静态内容与前端资源加载
 DOMAIN-SUFFIX,fable.app # Fable Studio 主站，用于产品介绍、演示、平台入口与登录
 DOMAIN-SUFFIX,app.fable.app # Fable Web Studio，用于角色创建、场景生成、叙事编辑与项目管理
 DOMAIN-SUFFIX,api.fable.app # Fable 官方 API，用于 Showrunner 的剧情生成、视频生产、角色控制与后台任务处理
