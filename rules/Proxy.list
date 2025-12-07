@@ -4874,6 +4874,14 @@ DOMAIN-SUFFIX,fast.wistia.com # Wistia 加速节点域名，负责分发视频�
 
 DOMAIN-SUFFIX,showrunner.xyz # Showrunner 官方主域名，用于访问其网站主页与相关前端资源加载
 
+# > Wix 静态资源与媒体内容分发域名
+
+DOMAIN-SUFFIX,video.wixstatic.com # Wix 平台视频内容分发域名，用于用户网站嵌入视频播放与托管资源加载  
+DOMAIN-SUFFIX,static.wixstatic.com # Wix 静态资源 CDN 域名，用于加载网站脚本、样式、图片等前端资源  
+DOMAIN-SUFFIX,panorama.wixapps.net # Wix 应用资源域名，用于加载扩展组件、JS 插件或嵌入式模块  
+DOMAIN-SUFFIX,frog.wix.com # Wix 平台主站及配置加载域名，用于页面渲染、站点初始化与资源调取  
+DOMAIN-SUFFIX,static.parastorage.com # Wix / Parastorage 通用静态资源与媒体托管域名，用于分发图片、字体、脚本、媒体文件等
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
