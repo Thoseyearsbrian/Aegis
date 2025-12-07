@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-07
+# - 更新时间：2025-12-08
 
 # > Speedtest 网络测速平台
 
@@ -4873,6 +4873,10 @@ DOMAIN-SUFFIX,fast.wistia.com # Wistia 加速节点域名，负责分发视频�
 # > Showrunner 平台主域名
 
 DOMAIN-SUFFIX,showrunner.xyz # Showrunner 官方主域名，用于访问其网站主页与相关前端资源加载
+
+# > Suricata 开源网络入侵检测/防御系统官网域名
+
+DOMAIN-SUFFIX,suricata.io # Suricata 项目官网域名，用于下载 IDS/IPS 引擎、查看文档、社区支持与项目介绍页面
 
 # > Wix 静态资源与媒体内容分发域名
 
