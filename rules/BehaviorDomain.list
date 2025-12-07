@@ -103,6 +103,7 @@ DOMAIN-SUFFIX,stackpath.bootstrapcdn.com  # Bootstrap 框架 CDN，Whoer 页面�
 
 DOMAIN-SUFFIX,datadoghq-browser-agent.com  # Datadog 浏览器代理域名，用于前端性能监测、用户行为分析与日志采集
 DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com # Datadog 浏览器端数据采集节点（US5 区域），用于前端性能监控、日志采集与错误追踪
+DOMAIN-SUFFIX,csp-report.browser-intake-datadoghq.eu # Datadog 浏览器 CSP（内容安全策略）违例与错误信息收集接口，用于记录前端脚本异常、违规资源加载行为等数据
 IP-CIDR6,2600:1f18:24e6:b901:fbdc:7182:a89c:6101/128 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv6 节点）
 
 # > OptinMonster 相关域名
