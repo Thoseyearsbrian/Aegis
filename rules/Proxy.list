@@ -4776,6 +4776,10 @@ DOMAIN-SUFFIX,i.imgur.com # Imgur 图床静态资源加载域名，广泛用于�
 
 DOMAIN-SUFFIX,api.sfelc.com # SFELC（工程领导力社区）平台 API 接口，主要用于论坛交互与数据获取
 
+# > Gradual 平台资源加载域名
+
+DOMAIN-SUFFIX,cdn.gradual.com # Gradual 静态资源 CDN 域名，用于加载平台界面资源、样式文件与脚本组件
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
