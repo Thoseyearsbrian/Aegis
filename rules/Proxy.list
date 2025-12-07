@@ -4796,6 +4796,7 @@ DOMAIN-SUFFIX,ws-us3.pusher.com # Pusher 提供的 WebSocket 节点，用于实�
 
 DOMAIN-SUFFIX,api.drata.com # Drata API 主域，用于平台账户验证、控制台数据获取及合规监控任务通信  
 DOMAIN-SUFFIX,cdn.drata.com # Drata 静态资源加载域名，用于加载前端应用 JS/CSS 文件及 UI 资源
+DOMAIN-SUFFIX,img-prod.dratacdn.com # Drata 用于合规管理平台的静态图片与媒体资源加载
 
 # > 第三方博客网站
 
