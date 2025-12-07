@@ -4818,6 +4818,10 @@ DOMAIN-SUFFIX,ptcfc.com # 官方站点域名
 
 DOMAIN-SUFFIX,utt.impactcdn.com # Impact 平台用于转化追踪脚本加载与广告像素传输的 CDN 子域
 
+# > Tolt 平台静态资源 CDN 域名
+
+DOMAIN-SUFFIX,cdn.tolt.io # Tolt CDN 域名，用于托管并分发静态资源（脚本、样式、图片等），支持前端页面正常加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
