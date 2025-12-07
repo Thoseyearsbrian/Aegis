@@ -4907,6 +4907,11 @@ DOMAIN-SUFFIX,siteassets.parastorage.com # Wix 网站组件资源域名，用于
 DOMAIN-SUFFIX,cdn.oaistatic.com # OpenAI 静态资源 CDN，服务于 ChatGPT 与 API 文档等页面加载
 DOMAIN-SUFFIX,assetsconfigcdn.org # OpenAI 官方使用的资源 CDN 域名，用于前端脚本、样式与模型加载相关静态资源分发
 
+# > Marketo 营销平台服务域名
+
+DOMAIN-SUFFIX,mktoweb.com # Adobe Marketo Engage 所属主域名，用于托管营销活动中的跳转链接、表单提交、转化追踪等功能，常嵌入邮件和网页中
+DOMAIN-SUFFIX,504-swe-347.mktoweb.com # Marketo 自动化营销子域，用于表单交互、转化统计与营销数据加载，若屏蔽可能影响正常表单功能
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
