@@ -4723,6 +4723,10 @@ DOMAIN-SUFFIX,api.mapbox.com # Mapbox 地图 API 主接口，用于地图加载�
 
 DOMAIN-SUFFIX,widget.kapa.ai # Kapa AI 提供的嵌入式问答机器人接口，用于客户支持、文档查询与对话式嵌入功能
 
+# > Greenhouse 招聘平台资源加载域名
+
+DOMAIN-SUFFIX,job-boards.cdn.greenhouse.io # Greenhouse 招聘系统的静态资源子域，用于加载嵌入式职位面板的样式、脚本与媒体资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
