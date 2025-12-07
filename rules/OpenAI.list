@@ -398,8 +398,9 @@ DOMAIN-SUFFIX,assets.lovo.ai # LOVO 静态素材域名，用于 UI 图标、模�
 DOMAIN-SUFFIX,media.lovo.ai # LOVO 媒体域名，用于存储输出音频、语音样本与用户上传内容
 DOMAIN-SUFFIX,files.lovo.ai # LOVO 文件服务端点，用于音频文件上传、下载与任务输出管理
 
-# Revoice 独立入口与服务
+# Revoice 相关域名
 
+DOMAIN-SUFFIX,revoicer.com # Revoicer 主站域名，用于其 AI Text‑To‑Speech 服务，包括文本转语音接口、用户界面与语音合成请求处理
 DOMAIN-SUFFIX,revoice.ai # Revoice 主站，用于语音克隆产品介绍、示例与账号入口
 DOMAIN-SUFFIX,app.revoice.ai # Revoice Web 应用，用于录音上传、训练声音模型与克隆语音生成
 DOMAIN-SUFFIX,api.revoice.ai # Revoice API，用于语音克隆模型推理、音频生成与服务集成
