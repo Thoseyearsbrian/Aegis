@@ -345,6 +345,7 @@ DOMAIN-SUFFIX,files.runpod.io # RunPod 文件上传/下载域名，用于模型�
 
 # > Suno（AI 音乐生成平台）
 
+DOMAIN-SUFFIX,suno.com # Suno AI 官方主站域名，用于用户交互、账号系统与音乐生成请求处理
 DOMAIN-SUFFIX,suno.ai # Suno 主站，用于产品介绍、示例音乐展示与平台入口
 DOMAIN-SUFFIX,app.suno.ai # Suno Web 应用（Suno Studio），用于音乐生成、编辑与项目管理
 DOMAIN-SUFFIX,api.suno.ai # Suno API 接口，用于音乐生成、任务处理、音频输出与模型调用
