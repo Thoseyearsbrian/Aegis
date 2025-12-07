@@ -4848,6 +4848,14 @@ DOMAIN-SUFFIX,service-reviews-ultimate.elfsight.com # Elfsight 用户评价小�
 
 DOMAIN-SUFFIX,cdn.sift.com # Sift 平台公共资源 / 接口域名，用于加载反欺诈 / 风险评估脚本与数据通信
 
+# > GeoJS IP 地理位置服务接口域名
+
+DOMAIN-SUFFIX,get.geojs.io # GeoJS 提供的 IP 地址定位与地理位置服务接口，用于识别访客位置、时区及语言信息
+
+# > ProfitWell 商业智能数据可视化平台资源域名
+
+DOMAIN-SUFFIX,public.profitwell.com # ProfitWell 公共静态资源域名，用于展示订阅营收分析、留存趋势等图表组件与仪表板
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

@@ -886,3 +886,7 @@ DOMAIN-SUFFIX,toplyne-sdk.toplyne.io # Toplyne SDK 接口，用于采集用户�
 # > Crazy Egg 行为分析脚本服务域名
 
 DOMAIN-SUFFIX,script.crazyegg.com # Crazy Egg 页面热图与用户行为分析脚本域名，用于加载监测脚本与用户交互追踪
+
+# > SegmentStream 内容个性化与行为分析资源域名
+
+DOMAIN-SUFFIX,cdn.segmentstream.com # SegmentStream 提供的前端 JS SDK 与追踪脚本 CDN，用于用户行为采集与个性化推荐建模
