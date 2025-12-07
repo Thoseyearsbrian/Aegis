@@ -4788,7 +4788,14 @@ DOMAIN-SUFFIX,heygen.chilipiper.com # Heygen 使用的 Chili Piper 子域名，�
 
 # > Pusher WebSocket 实时通信域名
 
+DOMAIN-SUFFIX,pusher.com # Pusher 官方主站域名，用于平台服务介绍、账户登录与文档访问
 DOMAIN-SUFFIX,sockjs-us3.pusher.com # Pusher 提供的 SockJS WebSocket 备用连接节点，用于跨平台实时消息推送与事件广播
+DOMAIN-SUFFIX,ws-us3.pusher.com # Pusher 提供的 WebSocket 节点，用于实现前端应用的实时通信与消息推送功能
+
+# > Drata 合规性监控与安全评估平台域名
+
+DOMAIN-SUFFIX,api.drata.com # Drata API 主域，用于平台账户验证、控制台数据获取及合规监控任务通信  
+DOMAIN-SUFFIX,cdn.drata.com # Drata 静态资源加载域名，用于加载前端应用 JS/CSS 文件及 UI 资源
 
 # > 第三方博客网站
 
