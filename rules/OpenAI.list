@@ -375,6 +375,7 @@ DOMAIN-SUFFIX,assets.heygen.com # HeyGen 静态素材源，用于图标、Avatar
 DOMAIN-SUFFIX,media.heygen.com # HeyGen 媒体域名，用于存储输出视频、用户上传文件与中间渲染结果
 DOMAIN-SUFFIX,files.heygen.com # HeyGen 文件服务端点，用于编辑任务文件、视频下载与上传处理
 DOMAIN-SUFFIX,render.heygen.com # HeyGen 渲染任务域名，用于视频渲染、数字人生成与后台处理调度
+DOMAIN-SUFFIX,static.heygen.ai # Heygen AI 平台静态资源域名，用于加载前端界面、样式与脚本资源，常用于生成式 AI 视频工具界面加载
 
 # > PlayHT（AI 语音生成 / TTS / 语音克隆平台）
 
