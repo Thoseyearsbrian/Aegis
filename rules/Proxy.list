@@ -4721,6 +4721,8 @@ DOMAIN-SUFFIX,yyz1.discourse-cdn.com # Discourse 社区平台使用的 CDN 节�
 DOMAIN-SUFFIX,canada1.discourse-cdn.com # Discourse 社区平台加拿大区域备用 CDN 节点，用于加载页面组件、图像与静态内容
 DOMAIN-SUFFIX,emoji.discourse-cdn.com # Discourse 平台表情图标资源节点，用于渲染社区中使用的 Emoji 表情图标
 DOMAIN-SUFFIX,avatars.discourse-cdn.com # Discourse 平台用户头像资源节点，用于加载用户头像图片
+DOMAIN-SUFFIX,sea2.discourse-cdn.com # Discourse 论坛静态资源 CDN（亚洲/东南亚节点），用于 JS/CSS/图片加载与页面资源分发  
+DOMAIN-SUFFIX,us1.discourse-cdn.com # Discourse 论坛静态资源 CDN（美国节点），用于论坛站点静态资源加速与全球访问兼容
 
 # > Slack 静态资源加载域名
 
