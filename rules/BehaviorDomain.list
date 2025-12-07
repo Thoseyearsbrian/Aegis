@@ -870,4 +870,11 @@ DOMAIN-SUFFIX,jsv3.recruitics.com # Recruitics 招聘营销平台用于加载 Ja
 
 # > Cedexis 测试与智能流量调度平台域名
 
+DOMAIN-SUFFIX,cedexis-test.com # Cedexis 提供的性能测试与调度评估主域，用于收集客户端网络状态与路径表现数据，广泛用于 CDN 测试与智能路由优化
 DOMAIN-SUFFIX,p36.cedexis-test.com # Cedexis 用于全球 CDN 性能监测、调度策略测试与用户体验优化的探测子域
+DOMAIN-SUFFIX,p29.cedexis-test.com # Cedexis 的调度性能测试子域，用于 CDN 路由优化与用户网络表现监测  
+DOMAIN-SUFFIX,fastly.cedexis-test.com # Cedexis 联合 Fastly 的性能采样子域，用于边缘分发路径评估与 QoE 测试
+
+# > ComputePipe 基准测试与性能分析子域
+
+DOMAIN-SUFFIX,benchmarks.cdn-b.compute-pipe.com # ComputePipe 提供的性能测试与基准分析子域，常用于分布式资源性能评估与客户端数据采集
