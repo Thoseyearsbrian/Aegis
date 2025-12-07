@@ -4900,6 +4900,11 @@ DOMAIN-SUFFIX,staticorigin.wixstatic.com # Wix 平台静态资源 CDN 域名，�
 DOMAIN-SUFFIX,pages.parastorage.com # Wix 页面生成与托管资源加载域名，用于网站页面加载和结构数据分发
 DOMAIN-SUFFIX,siteassets.parastorage.com # Wix 网站组件资源域名，用于加载字体、脚本、图标等静态内容
 
+# > 第三方静态资源 CDN 域名（服务于 OpenAI 等平台）
+
+DOMAIN-SUFFIX,cdn.oaistatic.com # OpenAI 静态资源 CDN，服务于 ChatGPT 与 API 文档等页面加载
+DOMAIN-SUFFIX,assetsconfigcdn.org # OpenAI 官方使用的资源 CDN 域名，用于前端脚本、样式与模型加载相关静态资源分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

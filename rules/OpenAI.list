@@ -23,8 +23,6 @@ DOMAIN-SUFFIX,oaistatic.com # OpenAI 静态资源域
 DOMAIN-SUFFIX,persistent.oaistatic.com # OpenAI 持久化静态资源
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net # Azure Edge CDN 分发
 DOMAIN-SUFFIX,ab.chatgpt.com # OpenAI AB 测试服务，可能用于实验性功能路由与测试
-DOMAIN-SUFFIX,cdn.oaistatic.com # OpenAI 静态资源 CDN，服务于 ChatGPT 与 API 文档等页面加载
-DOMAIN-SUFFIX,assetsconfigcdn.org # OpenAI 官方使用的资源 CDN 域名，用于前端脚本、样式与模型加载相关静态资源分发
 IP-CIDR,59.188.250.54/32 # ws.chatgpt.com WebSocket 通信节点，ChatGPT 实时对话与事件推送服务（Cloudflare 边缘）
 IP-CIDR,31.13.95.18/32 # Meta（Facebook）CDN/GFE 节点，用于 ChatGPT iOS 客户端的资源加载与连接分发
 IP-CIDR,108.160.163.112/32 # OpenAI / ChatGPT Port Mapping 相关节点，用于 API/客户端连接的网络映射与流量中转
