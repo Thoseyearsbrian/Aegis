@@ -896,3 +896,11 @@ DOMAIN-SUFFIX,cdn.segmentstream.com # SegmentStream 提供的前端 JS SDK 与�
 # > EscapeTheCave 网站分析与行为追踪接口域名
 
 DOMAIN-SUFFIX,analytics.escapethecave.ai # EscapeTheCave 网站用于行为分析与用户数据收集的 SDK/接口域名，用于访客行为追踪与统计
+
+# > Visitor Analytics 访客行为分析平台接口域名
+
+DOMAIN-SUFFIX,app-worker.visitor-analytics.io # Visitor Analytics 提供的前端通信接口域名，用于采集页面停留时间、点击路径等行为数据
+
+# > Wix 内部错误追踪与性能监控服务域名
+
+DOMAIN-SUFFIX,sentry.wixpress.com # Wix 集成的 Sentry 服务域名，用于网站前端异常日志、性能追踪与错误上报

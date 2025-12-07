@@ -4881,6 +4881,9 @@ DOMAIN-SUFFIX,static.wixstatic.com # Wix 静态资源 CDN 域名，用于加载�
 DOMAIN-SUFFIX,panorama.wixapps.net # Wix 应用资源域名，用于加载扩展组件、JS 插件或嵌入式模块  
 DOMAIN-SUFFIX,frog.wix.com # Wix 平台主站及配置加载域名，用于页面渲染、站点初始化与资源调取  
 DOMAIN-SUFFIX,static.parastorage.com # Wix / Parastorage 通用静态资源与媒体托管域名，用于分发图片、字体、脚本、媒体文件等
+DOMAIN-SUFFIX,staticorigin.wixstatic.com # Wix 平台静态资源 CDN 域名，负责加载样式表、脚本文件与图像等网站内容
+DOMAIN-SUFFIX,pages.parastorage.com # Wix 页面生成与托管资源加载域名，用于网站页面加载和结构数据分发
+DOMAIN-SUFFIX,siteassets.parastorage.com # Wix 网站组件资源域名，用于加载字体、脚本、图标等静态内容
 
 # > 第三方博客网站
 
