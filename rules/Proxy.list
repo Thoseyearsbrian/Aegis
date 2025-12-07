@@ -4870,6 +4870,10 @@ DOMAIN-SUFFIX,media.thoughtindustries.com # Thought Industries 教育平台媒�
 
 DOMAIN-SUFFIX,fast.wistia.com # Wistia 加速节点域名，负责分发视频播放器脚本与媒体加载组件，加速第三方站点嵌入式视频体验
 
+# > Showrunner 平台主域名
+
+DOMAIN-SUFFIX,showrunner.xyz # Showrunner 官方主域名，用于访问其网站主页与相关前端资源加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
