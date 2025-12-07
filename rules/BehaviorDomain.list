@@ -867,3 +867,7 @@ DOMAIN-SUFFIX,cdp.gradual-api.com # Gradual 平台的 CDP 接口域名，用于�
 # > Recruitics 招聘广告与转化追踪服务域名
 
 DOMAIN-SUFFIX,jsv3.recruitics.com # Recruitics 招聘营销平台用于加载 JavaScript SDK，执行用户行为追踪与转化率统计
+
+# > Cedexis 测试与智能流量调度平台域名
+
+DOMAIN-SUFFIX,p36.cedexis-test.com # Cedexis 用于全球 CDN 性能监测、调度策略测试与用户体验优化的探测子域

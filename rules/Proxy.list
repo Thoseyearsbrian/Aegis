@@ -4798,6 +4798,18 @@ DOMAIN-SUFFIX,api.drata.com # Drata API 主域，用于平台账户验证、控�
 DOMAIN-SUFFIX,cdn.drata.com # Drata 静态资源加载域名，用于加载前端应用 JS/CSS 文件及 UI 资源
 DOMAIN-SUFFIX,img-prod.dratacdn.com # Drata 用于合规管理平台的静态图片与媒体资源加载
 
+# > Vercel Blob 公有资源子域
+
+DOMAIN-SUFFIX,v59co2umwifvddtn.public.blob.vercel-storage.com # Vercel 公共 Blob 存储资源子域，用于静态资源交付与前端加载
+
+# > ConfigCat 远程配置服务全局 CDN 域名
+
+DOMAIN-SUFFIX,cdn-global.configcat.com # ConfigCat 提供的全球配置分发 CDN，用于托管远程参数配置与特性开关文件
+
+# > Cloudflare R2 公共资源对象
+
+DOMAIN-SUFFIX,pub-427794e5f05244109a1fecd983321c1e.r2.dev # 基于 Cloudflare R2 的静态资源公开对象 URL，常用于托管媒体资源与第三方内容
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
