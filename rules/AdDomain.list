@@ -4,10 +4,11 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-04
+# - 更新时间：2025-12-07
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,res4.applovin.com # AppLovin 内容资源加载域名，用于广告素材分发与动态内容展示
 DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
 DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，已停用但可能残留请求）
 DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期内置广告服务）

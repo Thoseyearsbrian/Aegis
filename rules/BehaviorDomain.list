@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-06
+# - 更新时间：2025-12-07
 
 # > Apple 行为遥测服务
 
@@ -803,21 +803,29 @@ DOMAIN-SUFFIX,betterstackdata.com # BetterStack 数据采集与遥测服务主�
 DOMAIN-SUFFIX,s1612477.eu-nbg-1.betterstackdata.com # BetterStack 指定遥测节点，部署于欧洲地区，用于上报站点监控与性能事件
 DOMAIN-SUFFIX,t.betterstack.com # BetterStack 跟踪脚本托管域名，加载轻量级浏览器追踪代码与遥测 SDK
 
-# > Mapbox 遥测与事件追踪接口域名（归入 BehaviorDomain）
+# > Mapbox 遥测与事件追踪接口域名
 
 DOMAIN-SUFFIX,events.mapbox.com # Mapbox 行为遥测服务域名，用于收集用户交互、地图使用频率与客户端错误日志等数据
 
-# > Vercel Insights 用户体验分析服务域名（归入 BehaviorDomain）
+# > Vercel Insights 用户体验分析服务域名
 
 DOMAIN-SUFFIX,vitals.vercel-insights.com # Vercel Web Vitals 数据采集接口，用于收集页面加载性能、用户交互延迟与视觉稳定性等前端指标
 
-# > ipwhois IP 地址地理位置查询接口（归入 BehaviorDomain）
+# > ipwhois IP 地址地理位置查询接口
 
 DOMAIN-SUFFIX,ipwho.is # ipwhois.io 提供的 IP 定位 API，用于通过访客 IP 返回地理位置、运营商等信息，常见于用户画像与访问记录分析
 
-# > Webflow HubSpot 集成子服务接口（归入 BehaviorDomain）
+# > Webflow HubSpot 集成子服务接口
 
 DOMAIN-SUFFIX,hubspotv2.use1-marketplace-1p-apps-prod-red.if.webflow.services # Webflow 与 HubSpot 集成的行为收集子服务，用于用户数据上报与营销自动化通信
+
+# > Axon AI 行为数据采集接口
+
+DOMAIN-SUFFIX,s.axon.ai # Axon.ai 数据收集接口，用于行为建模、转化优化与设备指纹收集
+
+# > Agent.io 用户行为分析平台
+
+DOMAIN-SUFFIX,static.agentio.com # Agent.io 静态资源加载域名，支持前端行为追踪脚本与遥测 SDK 的分发
 
 
 
