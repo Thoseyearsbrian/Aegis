@@ -863,3 +863,7 @@ DOMAIN-SUFFIX,e.sy-d.io # SyD.io 提供的行为追踪接口，用于收集用�
 # > Gradual 客户数据平台接口 -- 待校对
 
 DOMAIN-SUFFIX,cdp.gradual-api.com # Gradual 平台的 CDP 接口域名，用于行为数据采集与用户画像构建
+
+# > Recruitics 招聘广告与转化追踪服务域名
+
+DOMAIN-SUFFIX,jsv3.recruitics.com # Recruitics 招聘营销平台用于加载 JavaScript SDK，执行用户行为追踪与转化率统计
