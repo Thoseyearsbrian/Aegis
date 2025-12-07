@@ -4780,6 +4780,10 @@ DOMAIN-SUFFIX,api.sfelc.com # SFELC（工程领导力社区）平台 API 接口�
 
 DOMAIN-SUFFIX,cdn.gradual.com # Gradual 静态资源 CDN 域名，用于加载平台界面资源、样式文件与脚本组件
 
+# > Chili Piper 预约调度系统域名
+
+DOMAIN-SUFFIX,heygen.chilipiper.com # Heygen 使用的 Chili Piper 子域名，用于处理销售预约调度与日程安排功能
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
