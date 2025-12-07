@@ -592,6 +592,7 @@ IP-CIDR,104.198.23.205 # r.lrkt-in.com 对应监听服务节点，部署于 Goog
 # > Vimeo 多媒体与事件追踪子域名（Vimeo.com）
 
 DOMAIN-SUFFIX,fresnel-events.vimeocdn.com # Vimeo 事件采集子域名，用于记录播放器行为、加载性能与交互日志（Fresnel 系统）  
+DOMAIN-SUFFIX,fresnel.vimeocdn.com # Vimeo Fresnel 脚本资源域名，用于行为追踪、播放事件记录与性能遥测
 
 # > Wirewax 视频交互组件与嵌入式 SDK 服务域名
 
@@ -843,4 +844,10 @@ DOMAIN-SUFFIX,grsm.io # Grsm 提供短链接与跳转服务，用于行为追踪
 
 DOMAIN-SUFFIX,cdn.debugbear.com # DebugBear 内容分发节点，用于加载网站性能监测与用户行为分析脚本
 
+# > Dreamdata 数据分析与归因平台资源域名
 
+DOMAIN-SUFFIX,cdn.dreamdata.cloud # Dreamdata CDN 域名，用于加载网站行为归因与 B2B 数据分析工具的前端资源
+
+# > G2 用户行为追踪与平台分析接口域名
+
+DOMAIN-SUFFIX,tracking-api.g2.com # G2 平台追踪接口，用于记录用户交互、访客行为与转化路径分析
