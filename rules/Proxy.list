@@ -4748,6 +4748,7 @@ DOMAIN-SUFFIX,js.hcaptcha.com # hCaptcha 前端验证脚本加载域名，用于
 
 DOMAIN-SUFFIX,consent.cookiebot.com # Cookiebot API 域名，用于收集用户 Cookie 同意记录与偏好设置
 DOMAIN-SUFFIX,consentcdn.cookiebot.com # Cookiebot 静态资源 CDN，用于加载弹窗 UI 与隐私声明组件资源
+DOMAIN-SUFFIX,imgsct.cookiebot.com # Cookiebot 静态资源加载域名，用于 Cookie 合规弹窗中的图像资源与追踪像素加载
 
 # > 第三方博客网站
 
