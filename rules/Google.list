@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,mtalk.google.com # Google 消息推送服务（FCM/GCM）域名，
 DOMAIN-SUFFIX,dns.google # Google DoH / DoT 解析服务接口，用于加密 DNS 查询与解析请求
 DOMAIN-SUFFIX,google.com.hk # Google 香港主站域名，用于本地化搜索、登录服务与导航页面加载
 DOMAIN-SUFFIX,google.com.sg # Google 新加坡站点域名，用于区域性搜索结果、语言与地域定制服务
+DOMAIN-SUFFIX,carromclash.h5games.usercontent.goog # Google 提供的 H5 游戏托管服务子域，用于加载 Carrom Clash 等小游戏内容
 IP-CIDR,142.250.4.0/24  # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
