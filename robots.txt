@@ -7,6 +7,9 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
+User-agent: Applebot
+Allow: /
+
 # ---- Block common mirror services / crawlers ----
 
 # Sourcegraph
