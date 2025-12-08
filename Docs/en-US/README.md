@@ -131,12 +131,12 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
    FINAL,REJECT                                                                                     # Final fallback rule (do NOT place GEOIP below this)
    ```
 
-3. **Do NOT use GEOIP rules for countries outside mainland China — the current database only supports CN records**
+3. **Supports GEOIP query rules for countries outside mainland China, as the current database supports global country IP ranges.**
 
    ```bash
-   GEOIP, US, PROXY   # Invalid — No matching records available
-   GEOIP, AU, PROXY   # Invalid — No matching records available
-   GEOIP, CN, DIRECT  # Valid — Supported and recognized
+   GEOIP,US, PROXY   # Valid
+   GEOIP,AU, PROXY   # Valid
+   GEOIP,CN, DIRECT  # Valid
    ```
 
 4. **Explanation for the message “tun-excluded-routes parameter configured, may cause issues after switching networks”**
