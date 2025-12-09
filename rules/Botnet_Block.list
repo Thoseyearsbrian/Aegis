@@ -1128,6 +1128,10 @@ IP-CIDR,185.158.248.0/24 # Sliver 与 Brute Ratel 共用的 C2 核心段，常�
 
 # > Brute Ratel C4（企业级红队框架 / 高危滥用频发）
 
+DOMAIN-SUFFIX,bruteratel.io # Brute Ratel 官方站点域名，部分早期样本使用该域名作为远程配置与下载源
+DOMAIN-SUFFIX,cdn.bruteratel.io # Brute Ratel CDN 节点伪装域名，用于模块更新与 C2 通信中转
+DOMAIN-SUFFIX,brc4.tech # Brute Ratel 团队新注册域名，已被多个攻击样本用于命令控制
+DOMAIN-SUFFIX,cdn.brc4.tech # Brute Ratel C4 CDN 子域名，伪装为内容分发节点，实为 C2 回连通道
 DOMAIN-SUFFIX,bruteratel.com # Brute Ratel 官方域名，红队工具，但被勒索与APT大量滥用为隐蔽 C2 渠道
 DOMAIN-SUFFIX,brc4cdn.com # Brute Ratel C4 伪 CDN 节点，用于 payload 分发、implant 更新与隐蔽通信
 DOMAIN-SUFFIX,brc4-agent.net # Brute Ratel C4 Agent 通信域名，用于 TeamServer 控制、会话维持与任务下发
