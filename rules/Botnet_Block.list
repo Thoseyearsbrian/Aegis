@@ -5,7 +5,7 @@
 # - 说明：本列表同时包含被频繁滥用于入侵的合法远控工具域名（如 TeamViewer/AnyDesk 等）；若未使用相关服务，可安全阻断以降低后门风险
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-03
+# - 更新时间：2025-12-09
 
 IP-CIDR,222.186.181.100/32 # 中国江苏常州高危恶意节点（SSH 暴力破解 、端口扫描 、僵尸网络传播）
 IP-CIDR,222.187.225.3/32 # 中国江苏高危攻击源（SSH 暴力破解、端口扫描、僵尸网络扩散）
@@ -1137,3 +1137,11 @@ DOMAIN-SUFFIX,teamserver-sync.com # Brute Ratel TeamServer 伪装域名，用于
 IP-CIDR,185.225.74.0/24 # Brute Ratel 团伙高频使用的 C2 区段（与 Sliver、Cobalt Strike 交叉使用频繁）
 IP-CIDR,91.215.85.0/24  # 多个 Brute Ratel TeamServer 被记录的恶意控制节点段
 IP-CIDR,179.43.175.0/24 # 与 Brute Ratel 活动相关的隐蔽 C2 区块，常用于勒索团伙回连
+
+# > C3Pool（门罗币矿池 / 恶意挖矿通信节点 / 僵尸矿工后门）
+
+DOMAIN-SUFFIX,c3pool.com # C3Pool 根域名，用于矿池平台访问与全部服务子域的绑定
+DOMAIN,mine.c3pool.com # C3Pool 主矿池节点，挖矿客户端默认连接地址，用于任务分发与算力上报
+DOMAIN,ssl.c3pool.com # C3Pool 加密通信矿池节点，部分恶意样本通过此域建立 TLS 通信连接
+DOMAIN,api.c3pool.com # C3Pool 后台控制 API 接口域，用于矿工配置下发与收益回传
+DOMAIN,static.c3pool.com # C3Pool 静态资源托管域，用于恶意配置文件与脚本的远程加载与更新
