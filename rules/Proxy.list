@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-08
+# - 更新时间：2025-12-09
 
 # > Speedtest 网络测速平台
 
@@ -4911,6 +4911,14 @@ DOMAIN-SUFFIX,assetsconfigcdn.org # OpenAI 官方使用的资源 CDN 域名，�
 
 DOMAIN-SUFFIX,mktoweb.com # Adobe Marketo Engage 所属主域名，用于托管营销活动中的跳转链接、表单提交、转化追踪等功能，常嵌入邮件和网页中
 DOMAIN-SUFFIX,504-swe-347.mktoweb.com # Marketo 自动化营销子域，用于表单交互、转化统计与营销数据加载，若屏蔽可能影响正常表单功能
+
+# > Navicat 官方服务相关域名
+
+DOMAIN-SUFFIX,navicat.com # Navicat 官方主站域名，用于产品介绍、账户管理与用户支持
+DOMAIN-SUFFIX,cdn.navicat.com # Navicat 静态资源 CDN 域名，用于分发网页与应用更新资源
+DOMAIN-SUFFIX,download.navicat.com # Navicat 下载服务域名，用于软件安装包与补丁下载
+DOMAIN-SUFFIX,activation.navicat.com # Navicat 激活服务域名，用于软件授权验证与许可激活
+DOMAIN-SUFFIX,update.navicat.com # Navicat 更新检查服务域名，用于版本升级与更新提示
 
 # > 第三方博客网站
 
