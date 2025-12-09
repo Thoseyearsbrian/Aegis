@@ -75,7 +75,7 @@ Aegis 采用 [GitHub](https://github.com) 托管实现自动更新机制，确�
 
 ### 版本说明
 
-Aegis 遵循 [语义化版本](https://semver.org/) 控制规范：vMAJOR.MINOR.PATCH  示例：Aegis v3.0.1,MAJOR=3、MINOR=0、PATCH=1
+Aegis 遵循 [语义化版本](https://semver.org/lang/zh-CN/) 控制规范：vMAJOR.MINOR.PATCH  示例：Aegis v3.0.1,MAJOR=3、MINOR=0、PATCH=1
 
 MAJOR（X）版本（重大更新）: 涉及结构调整 / 兼容性变化  👉 必须重新下载配置，并重新添加节点
 
