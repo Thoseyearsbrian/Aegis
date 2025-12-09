@@ -40,6 +40,7 @@ DOMAIN-SUFFIX,dns.google # Google DoH / DoT 解析服务接口，用于加密 DN
 DOMAIN-SUFFIX,google.com.hk # Google 香港主站域名，用于本地化搜索、登录服务与导航页面加载
 DOMAIN-SUFFIX,google.com.sg # Google 新加坡站点域名，用于区域性搜索结果、语言与地域定制服务
 DOMAIN-SUFFIX,carromclash.h5games.usercontent.goog # Google 提供的 H5 游戏托管服务子域，用于加载 Carrom Clash 等小游戏内容
+DOMAIN-SUFFIX,chromium.googlesource.com # Chromium 项目的源代码托管域名，托管 Google 浏览器相关项目源码
 IP-CIDR,142.250.4.0/24  # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
