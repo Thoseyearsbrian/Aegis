@@ -1141,7 +1141,14 @@ IP-CIDR,179.43.175.0/24 # 与 Brute Ratel 活动相关的隐蔽 C2 区块，常�
 # > C3Pool（门罗币矿池 / 恶意挖矿通信节点 / 僵尸矿工后门）
 
 DOMAIN-SUFFIX,c3pool.com # C3Pool 根域名，用于矿池平台访问与全部服务子域的绑定
-DOMAIN,mine.c3pool.com # C3Pool 主矿池节点，挖矿客户端默认连接地址，用于任务分发与算力上报
-DOMAIN,ssl.c3pool.com # C3Pool 加密通信矿池节点，部分恶意样本通过此域建立 TLS 通信连接
-DOMAIN,api.c3pool.com # C3Pool 后台控制 API 接口域，用于矿工配置下发与收益回传
-DOMAIN,static.c3pool.com # C3Pool 静态资源托管域，用于恶意配置文件与脚本的远程加载与更新
+DOMAIN-SUFFIX,mine.c3pool.com # C3Pool 主矿池节点，挖矿客户端默认连接地址，用于任务分发与算力上报
+DOMAIN-SUFFIX,ssl.c3pool.com # C3Pool 加密通信矿池节点，部分恶意样本通过此域建立 TLS 通信连接
+DOMAIN-SUFFIX,api.c3pool.com # C3Pool 后台控制 API 接口域，用于矿工配置下发与收益回传
+DOMAIN-SUFFIX,static.c3pool.com # C3Pool 静态资源托管域，用于恶意配置文件与脚本的远程加载与更新
+
+# > SupportXMR（公开门罗币矿池 / 被挖矿木马滥用频繁）
+
+DOMAIN-SUFFIX,supportxmr.com # SupportXMR 根域名，公开门罗币矿池平台，已被多起挖矿木马用于 C2 控制与算力上报
+DOMAIN-SUFFIX,pool.supportxmr.com # SupportXMR 主矿池通信域名，挖矿脚本默认连接目标，常见于云服务器被入侵样本
+DOMAIN-SUFFIX,stats.supportxmr.com # SupportXMR 挖矿状态统计域名，被用于恶意矿工收益回传与身份识别
+DOMAIN-SUFFIX,www.supportxmr.com # SupportXMR 站点主访问域，亦用于部分样本投递中引导配置文件加载
