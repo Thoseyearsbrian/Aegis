@@ -107,7 +107,7 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step-en.png" width="600">
 </p>
 
-## ⚠️ Notes
+## ⚠️ Important Notes
 
 1. **Rule Mode is mandatory — Aegis cannot perform any filtering, routing, or protection without it**
 
@@ -153,7 +153,7 @@ This project is built upon inspiration and reference from numerous outstanding o
 
 To meet personal cybersecurity requirements, this project has been deeply customized and optimized for enhanced security based on existing rule sets. In order to ensure the integrity, safety, and long-term availability of the project, all materials and rule files are self-hosted within this repository, thereby avoiding issues such as update failures or trust concerns arising from third-party dependencies.
 
-### ✍️ Project Structure
+### ✍️ Foundational References
 
 [@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 The primary reference for the overall project architecture and rule logic. The current version has undergone extensive restructuring and security adaptation based on this foundation.
 
