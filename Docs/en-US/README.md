@@ -26,7 +26,7 @@
 
 ## **Overview**
 
-A security rule set purpose-built for [Surge](https://nssurge.com), focused on identifying potential communication threats at both the application and transport layers. It covers a broad range of suspicious behaviors including [DNS poisoning]((https://en.wikipedia.org/wiki/DNS_hijacking)), [APT threat sources](https://en.wikipedia.org/wiki/Advanced_persistent_threat), [SDK telemetry](https://en.wikipedia.org/wiki/Software_development_kit), [Backdoor Communication](https://en.wikipedia.org/wiki/Back_door),[PCDN relay communication](https://en.wikipedia.org/wiki/P2P_caching), [C2 controllers](https://en.wikipedia.org/?redirect=no&title=Command_and_control), and other potentially malicious communications. The project also expands domain-based identification to major global advertising platforms, behavioral tracking services, and adult content sites, enabling users to achieve fine-grained local traffic identification and classification on iOS/macOS and define their own network policies. 
+A security rule set purpose-built for [Surge](https://nssurge.com), focused on identifying potential communication threats at both the application and transport layers. It covers a broad range of suspicious behaviors including [DNS poisoning]((https://en.wikipedia.org/wiki/DNS_hijacking)), [APT threat sources](https://en.wikipedia.org/wiki/Advanced_persistent_threat), [SDK telemetry](https://en.wikipedia.org/wiki/Software_development_kit), [Backdoor Communication](https://en.wikipedia.org/wiki/Back_door), [PCDN relay communication](https://en.wikipedia.org/wiki/P2P_caching), [C2 controllers](https://en.wikipedia.org/?redirect=no&title=Command_and_control), and other potentially malicious communications. The project also expands domain-based identification to major global advertising platforms, behavioral tracking services, and adult content sites, enabling users to achieve fine-grained local traffic identification and classification on iOS/macOS and define their own network policies. 
 
 In addition, the project incorporates rule sets targeting globally recognized high-risk threat infrastructures, including detection strategies for [Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware))￼ spyware and its associated command-and-control infrastructure.
 
@@ -75,7 +75,7 @@ If configuration auto-reload is not enabled, you can manually refresh external r
 
 ### Versioning
 
-Aegis follows the [Semantic Versioning](https://semver.org/): vMAJOR.MINOR.PATCH  e.g., Aegis v3.0.1,MAJOR=3、MINOR=0、PATCH=1
+Aegis follows the [Semantic Versioning](https://semver.org/) : vMAJOR.MINOR.PATCH  e.g., Aegis v3.0.1,MAJOR=3、MINOR=0、PATCH=1
 
 MAJOR (X) : Major changes in structure or compatibility  👉 Requires re-downloading the configuration and re-adding nodes
 

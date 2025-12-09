@@ -75,7 +75,7 @@ If configuration auto-reload is not enabled, you can manually refresh external r
 
 ### Versioning
 
-Aegis follows the [Semantic Versioning](https://semver.org/): vMAJOR.MINOR.PATCH  e.g., Aegis v3.0.1,MAJOR=3、MINOR=0、PATCH=1
+Aegis follows the [Semantic Versioning](https://semver.org/) : vMAJOR.MINOR.PATCH  e.g., Aegis v3.0.1,MAJOR=3、MINOR=0、PATCH=1
 
 MAJOR (X) : Major changes in structure or compatibility  👉 Requires re-downloading the configuration and re-adding nodes
 
