@@ -1157,3 +1157,10 @@ DOMAIN-SUFFIX,stats.supportxmr.com # SupportXMR 挖矿状态统计域名，被�
 DOMAIN-SUFFIX,minexmr.com # MineXMR 根域名，曾为主流门罗币矿池，被挖矿木马广泛用作默认通信地址
 DOMAIN-SUFFIX,pool.minexmr.com # MineXMR 主矿池节点，常用于恶意样本默认连接与算力任务下发
 DOMAIN-SUFFIX,stats.minexmr.com # MineXMR 挖矿状态页面域名，被用于远程监控矿机运行与收益统计
+
+# > NanoPool（大型公共门罗币矿池 / 木马样本中频繁连接）
+
+DOMAIN-SUFFIX,nanopool.org # NanoPool 根域名，支持 XMR 等币种的公开矿池，被多起挖矿木马样本连接用于算力上报
+DOMAIN-SUFFIX,xmr-eu1.nanopool.org # NanoPool 欧洲主节点，常用于木马连接与任务同步
+DOMAIN-SUFFIX,xmr-us-east1.nanopool.org # NanoPool 美国东部节点，样本中频繁出现的默认通信地址
+DOMAIN-SUFFIX,xmr-asia1.nanopool.org # NanoPool 亚洲节点，适用于近源连接优化，亦被恶意挖矿工具广泛滥用
