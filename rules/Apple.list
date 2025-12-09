@@ -5,7 +5,7 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-06
+# - 更新时间：2025-12-09
 
 # > 系统服务（System Services）
 
@@ -94,6 +94,7 @@ DOMAIN-SUFFIX,apple-livephotoskit.com # Live Photos 相关服务
 DOMAIN-SUFFIX,amp-api-edge.apps.apple.com # Apple AMP 接口域名，用于 App Store 内容推荐与动态数据加载服务
 DOMAIN-SUFFIX,is1-ssl.mzstatic.com # Apple 媒体资源 CDN（iTunes / App Store 图标与封面）
 DOMAIN-SUFFIX,bag.itunes.apple.com # Apple 服务配置同步接口，用于 App Store 与广告推荐逻辑初始化
+DOMAIN-SUFFIX,apptrailers.itunes.apple.com # Apple iTunes 内容服务，提供 App Store 应用预览视频
 
 # > 推送与通知服务（Push Services）
 
