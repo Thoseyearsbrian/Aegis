@@ -4920,6 +4920,10 @@ DOMAIN-SUFFIX,download.navicat.com # Navicat 下载服务域名，用于软件�
 DOMAIN-SUFFIX,activation.navicat.com # Navicat 激活服务域名，用于软件授权验证与许可激活
 DOMAIN-SUFFIX,update.navicat.com # Navicat 更新检查服务域名，用于版本升级与更新提示
 
+# > Semantic Versioning 官方文档域名（semver.org）
+
+DOMAIN-SUFFIX,semver.org # Semantic Versioning 官方规范文档站点，用于版本控制说明、规范查阅与引用支持
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
