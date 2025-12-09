@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-07
+# - 更新时间：2025-12-09
 
 # > Apple 行为遥测服务
 
@@ -122,6 +122,7 @@ DOMAIN-SUFFIX,events.api.serifservices.com # Affinity 服务事件收集接口�
 IP-CIDR,108.156.144.96 # Affinity 行为分析域名 IP，用于事件统计与崩溃日志采集（events.api.serifservices.com）
 IP-CIDR,108.156.144.121 # Affinity 行为分析域名 IP，用于事件统计与崩溃日志采集（events.api.serifservices.com）
 IP-CIDR,108.156.144.120 # Affinity 行为分析域名 IP，用于事件统计与崩溃日志采集（events.api.serifservices.com）
+IP-CIDR,3.175.207.59/32 # Serif Affinity 应用遥测与事件上报接口（events.api.serifservices.com）
 
 # > Mozilla 遥测与用户行为分析域名（Telemetry & Behavioral Fingerprinting）
 
