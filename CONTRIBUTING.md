@@ -4,8 +4,4 @@ Thank you for your interest in this project. To maintain the integrity, security
 
 ## 🔐 Commit Policy
  
-All commits are made solely by the project maintainer and are **PGP/GPG signed** to verify authenticity and integrity. 
-
-## 🙌 Community Support
-
-If you find value in this project, please consider giving it a ⭐️ Star.
+All commits are made solely by the project maintainer and are **PGP/GPG signed** to verify authenticity and integrity.
