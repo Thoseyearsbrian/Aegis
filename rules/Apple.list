@@ -102,6 +102,7 @@ DOMAIN-SUFFIX,push.apple.com # Apple 推送主域名
 DOMAIN-SUFFIX,courier.push.apple.com # 推送中转服务器
 DOMAIN-SUFFIX,18-courier.push.apple.com # 推送节点（第 18 区）
 DOMAIN-SUFFIX,37-courier.push.apple.com # 推送节点（第 37 区）
+DOMAIN-SUFFIX,42-courier.push.apple.com # 推送节点（第 42 区）
 DOMAIN-SUFFIX,45-courier.push.apple.com # 推送节点（第 45 区）
 DOMAIN-SUFFIX,47-courier.push.apple.com # 推送节点（第 47 区）
 DOMAIN-SUFFIX,48-courier.push.apple.com # 推送节点（第 48 区）
