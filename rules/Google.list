@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名与 YouTube 已独立归类至 AdDomain.list 与 YouTube.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-08
+# - 更新时间：2025-12-10
 
 # > 核心服务（Google Core Services）
 
@@ -179,6 +179,7 @@ IP-CIDR,172.253.118.188/32 # Google GFE 节点 IP（用于搜索、认证、静�
 IP-CIDR,142.251.12.188/32 # Google Frontend（GFE）边缘节点 IP，用于 Google 服务的全球加速与入口调度
 IP-CIDR,172.217.194.188/32 # Google 服务节点 IP（GFE：Google Frontend），用于搜索、静态资源与通用 API 访问
 IP-CIDR,64.233.170.100/32 # Google 公共 IP，用于 HTTPS 服务／通信；端口 443 对应加密 HTTPS 流量
+IP-CIDR,74.125.200.95/32 # Google 服务通信节点 IP，曾被用于端口映射服务 Port Map 或 Google 通用服务（如 GWS、Gmail），实际用途可能依网络环境而异
 
 # > Google 安全验证服务（reCAPTCHA / 安全校验）
 
