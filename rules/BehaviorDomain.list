@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-09
+# - 更新时间：2025-12-10
 
 # > Apple 行为遥测服务
 
@@ -241,9 +241,12 @@ DOMAIN-SUFFIX,sf16-muse-va.ibytedtos.com # 字节跳动日志上报与 SDK 签�
 DOMAIN-SUFFIX,ib.snssdk.com # 字节跳动行为数据回传主站
 DOMAIN-SUFFIX,data.bytedance.net # 字节跳动数据上传与分析平台
 DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接口
-DOMAIN-SUFFIX,is.snssdk.com # 今日头条内容推荐请求接口
-IP-CIDR,59.82.121.221 # 字节跳动行为分析节点
 DOMAIN-SUFFIX,mssdk.volces.com # 火山引擎 MSSDK 数据接口，用于移动行为数据采集与上传
+DOMAIN-SUFFIX,is.snssdk.com # 今日头条内容推荐请求接口
+IP-CIDR,101.226.26.208/32  # mon0-misc-hl.amemv.com，抖音业务通用通信节点，常用于数据服务分发与追踪上报
+IP-CIDR,59.82.121.221 # 字节跳动行为分析节点
+IP-CIDR,49.79.134.231/32  # logbk.amemv.com，抖音日志上报与行为数据上传接口
+IP-CIDR,114.80.13.23/32  # aggr5-normal-s19.amemv.com，字节聚合业务通信节点，用于内容请求与上报
 
 # > 快手行为监控与指纹采集
 
