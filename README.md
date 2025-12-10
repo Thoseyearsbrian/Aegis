@@ -195,3 +195,11 @@ We ask you to respect the spirit of open source:
 - **Do not exploit the rule set for closed-source monetization or abusive purposes.**
 
 Additionally, the Aegis project has enabled [GPG](https://gnupg.org) commit signing to ensure the authenticity and integrity of its codebase. You can verify each commit via GPG signatures to gain higher assurance that the code has not been tampered with.
+
+## 🙌 Community Support
+
+If you find value in this project, please consider giving it a ⭐️ Star. All relevant updates will be announced via our [Telegram](https://telegram.org) notification channels — feel free to subscribe and stay informed.
+
+**Telegram Update Channel** – <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a>: Publishes the latest rule versions, changelogs, and important announcements.
+
+**Telegram Community Group** – <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a>: Open for suggestions, feedback, and collaborative contributions from the community.
