@@ -123,6 +123,9 @@ IP-CIDR,65.199.22.0/23 # Apple Relay 与配置服务段
 
 # > 开发者与测试服务（Developer & Beta Services）
 
+DOMAIN-SUFFIX,download.developer.apple.com # Apple Developer 下载中心，用于获取开发者工具、配置文件、测试版系统资源
+DOMAIN-SUFFIX,swdownload.apple.com # Apple 软件资源下载入口，包含 Xcode、macOS Beta、WWDC 工具等资源包
+DOMAIN-SUFFIX,updates-http.cdn-apple.com # Apple 更新 CDN 节点，用于开发者资源包加速下载
 DOMAIN-SUFFIX,developer.apple.com # Apple 开发者网站
 DOMAIN-SUFFIX,testflight.apple.com # TestFlight 测试分发平台
 DOMAIN-SUFFIX,testflight.apple.com.cn # TestFlight 中国加速镜像域名
