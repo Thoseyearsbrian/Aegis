@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,sylvan.apple.com  # Apple 官方壁纸/屏保视频服务域名
 DOMAIN-SUFFIX,sfss.cdn-apple.com  # Apple 安全框架服务资源域名
 DOMAIN-SUFFIX,ampaeservices.com # Apple 认证服务相关域名
 DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
+DOMAIN-SUFFIX,apple.com.cn # Apple 在中国大陆的本地官网主域名
 PROCESS-NAME,apsd # Apple Push 相关进程
 PROCESS-NAME,timed # 系统时间同步进程
 PROCESS-NAME,syncdefaultsd # iCloud 同步控制器进程
