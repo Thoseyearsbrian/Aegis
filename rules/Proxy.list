@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-09
+# - 更新时间：2025-12-10
 
 # > Speedtest 网络测速平台
 
@@ -4923,6 +4923,14 @@ DOMAIN-SUFFIX,update.navicat.com # Navicat 更新检查服务域名，用于版�
 # > Semantic Versioning 官方文档域名（semver.org）
 
 DOMAIN-SUFFIX,semver.org # Semantic Versioning 官方规范文档站点，用于版本控制说明、规范查阅与引用支持
+
+# > Q4 Inc. 投资者关系平台域名（财经SaaS服务商）
+
+DOMAIN-SUFFIX,q4inc.com # Q4 Inc. 官方主站域名，用于提供投资者关系解决方案、产品介绍与客户支持等服务
+DOMAIN-SUFFIX,s2.q4cdn.com # Q4 平台使用的 CDN 内容分发节点域名，用于加载财报、图表、PDF 等投资者关系材料资源
+DOMAIN-SUFFIX,identity.q4inc.com # Q4 平台身份认证服务接口，用于用户登录与安全验证流程
+DOMAIN-SUFFIX,login.q4inc.com # Q4 登录页面域名，用于用户进入后台管理与 IR 服务控制台
+DOMAIN-SUFFIX,widgets.q4app.com # Q4 平台组件资源加载域名，用于嵌入式图表、股价模块、活动日历等前端组件渲染
 
 # > 第三方博客网站
 
