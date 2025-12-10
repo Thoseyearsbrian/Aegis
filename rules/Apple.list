@@ -5,7 +5,7 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-09
+# - 更新时间：2025-12-10
 
 # > 系统服务（System Services）
 
@@ -183,6 +183,34 @@ IP-CIDR,23.202.34.232/32 # Apple 地理服务节点，隶属 gspe1-ssl.ls.apple.
 IP-CIDR,184.26.91.30/32 # Apple 地理服务备用节点，用于定位服务、Find My 与地图接口通信
 PROCESS-NAME,locationd # Apple 定位系统核心进程
 
+# > Game Center / 游戏社交服务（GameKit）
+
+DOMAIN-SUFFIX,gamecenter.apple.com # Apple Game Center 主域名，用于游戏成就与社交数据同步
+DOMAIN-SUFFIX,gk.apple.com # GameKit 服务域名，用于联机匹配与成就服务
+
+# > Apple Support / 用户支持与文档服务（Support Services）
+
+DOMAIN-SUFFIX,support.apple.com # Apple 官方支持页面入口，包含故障排查、保修查询等服务
+DOMAIN-SUFFIX,getsupport.apple.com # Apple 官方技术支持入口，用于预约 Genius Bar 与在线支持
+
+# > Apple News / Stocks 新闻服务（News & Stocks）
+
+DOMAIN-SUFFIX,news.apple.com # Apple 新闻服务主域名，用于 News App 的内容推送与订阅数据加载
+DOMAIN-SUFFIX,stocks.apple.com # iOS 股票应用服务接口域名
+DOMAIN-SUFFIX,news-events.apple.com # 新闻模块事件数据域名，部分被用于新闻热点分析行为采集
+
+# > 健康 / 健身与 Apple Watch 服务（Health & Fitness）
+
+DOMAIN-SUFFIX,health.apple.com # Apple 健康服务主域名，用于健康数据同步与查询
+DOMAIN-SUFFIX,fitness.apple.com # 健身记录服务接口域名，用于 Fitness 应用与 Watch 联动记录同步
+DOMAIN-SUFFIX,activity.apple.com # Apple Watch 活动数据记录与进度追踪接口
+
+# > 教育服务（Education Services）
+
+DOMAIN-SUFFIX,classroom.apple.com # Apple Classroom 远程教学服务入口
+DOMAIN-SUFFIX,school.apple.com # Apple School 管理平台域名，用于设备配置与教学资源同步
+DOMAIN-SUFFIX,education.apple.com # Apple 教育资源主入口，涵盖课堂管理与学习平台服务
+
 # > 已列入AdDomain.list明细:
 
 # DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
@@ -204,5 +232,3 @@ PROCESS-NAME,locationd # Apple 定位系统核心进程
 # DOMAIN-SUFFIX,pancake.apple.com # RTC 网络质量上报服务
 # DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名
 # DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务
-
-
