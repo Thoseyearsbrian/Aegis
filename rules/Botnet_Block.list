@@ -5,7 +5,7 @@
 # - 说明：本列表同时包含被频繁滥用于入侵的合法远控工具域名（如 TeamViewer/AnyDesk 等）；若未使用相关服务，可安全阻断以降低后门风险
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-09
+# - 更新时间：2025-12-11
 
 IP-CIDR,222.186.181.100/32 # 中国江苏常州高危恶意节点（SSH 暴力破解 、端口扫描 、僵尸网络传播）
 IP-CIDR,222.187.225.3/32 # 中国江苏高危攻击源（SSH 暴力破解、端口扫描、僵尸网络扩散）
@@ -1171,3 +1171,13 @@ DOMAIN-SUFFIX,nanopool.org # NanoPool 根域名，支持 XMR 等币种的公开�
 DOMAIN-SUFFIX,xmr-eu1.nanopool.org # NanoPool 欧洲主节点，常用于木马连接与任务同步
 DOMAIN-SUFFIX,xmr-us-east1.nanopool.org # NanoPool 美国东部节点，样本中频繁出现的默认通信地址
 DOMAIN-SUFFIX,xmr-asia1.nanopool.org # NanoPool 亚洲节点，适用于近源连接优化，亦被恶意挖矿工具广泛滥用
+
+# > EvilQuest（macOS 恶意软件 / 勒索 + 后门 / 多功能木马）
+
+DOMAIN-SUFFIX,thesmartest.space # EvilQuest 恶意样本常用的 C2 控制域名，最早出现在 macOS 平台，支持远程操控与数据回传
+DOMAIN-SUFFIX,mybigeye.org # EvilQuest 样本使用的早期 C2 域名，执行勒索逻辑并回传受害信息
+DOMAIN-SUFFIX,updatenewosx.space # EvilQuest 伪装为系统更新的钓鱼域名，用于诱导用户安装木马程序
+DOMAIN-SUFFIX,applemacupd.com # EvilQuest 仿冒 Apple 更新站点的分发域名，传播带毒 DMG 安装包
+DOMAIN-SUFFIX,macanalytics.info # EvilQuest 数据收集用域名，伪装成统计平台，实为隐私信息窃取通道
+DOMAIN-SUFFIX,osxscript.site # EvilQuest 后门脚本托管域，常配合 Tor 通信提升隐蔽性
+DOMAIN-SUFFIX,securemacos.com # EvilQuest 利用破解软件或伪优化工具植入的常用传播域名，源自非官方软件站
