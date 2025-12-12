@@ -4942,6 +4942,11 @@ DOMAIN-SUFFIX,api2.immersivetranslate.com  # 沉浸式翻译主 API 接口域名
 DOMAIN-SUFFIX,worker.immersivetranslate.com  # 沉浸式翻译任务分发与处理域名，用于后端任务执行调度
 DOMAIN-SUFFIX,s.immersivetranslate.com  # 沉浸式翻译静态资源服务域名，用于加载页面脚本、样式等前端内容
 
+# > Ghost 官方静态资源域名
+
+DOMAIN-SUFFIX,ghost.org # Ghost 博客平台主域名，用于官网访问、文档浏览及服务入口
+DOMAIN-SUFFIX,static.ghost.org  # Ghost 博客平台的官方静态资源域名，用于加载样式、脚本等核心前端资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
