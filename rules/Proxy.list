@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-10
+# - 更新时间：2025-12-12
 
 # > Speedtest 网络测速平台
 
@@ -2707,6 +2707,7 @@ DOMAIN-SUFFIX,docs.blender.org # Blender 官方文档域名，提供使用手册
 DOMAIN-SUFFIX,store.blender.org  # Blender 官方商店，用于购买周边、支持基金会运营
 DOMAIN-SUFFIX,developer.blender.org  # Blender 开发者平台，用于任务追踪、代码审查与开发管理
 DOMAIN-SUFFIX,download.blender.org  # Blender 下载源站点，用于分发安装包、测试版本与旧版本构建
+DOMAIN-SUFFIX,halifax.rwth-aachen.de # Blender 等开源项目官方分发镜像节点，源自德国亚琛工业大学，常用于下载开源软件资源
 
 # > Freedif 镜像站相关域名（Freedif Open Source Mirror）
 
