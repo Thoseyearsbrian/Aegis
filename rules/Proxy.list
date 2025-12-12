@@ -4950,6 +4950,10 @@ DOMAIN-SUFFIX,static.ghost.org  # Ghost 博客平台的官方静态资源域名�
 # > GitLab 官方服务域名
 
 DOMAIN-SUFFIX,gitlab.com # GitLab 官方主站域名，提供 DevOps 工具链服务，包括源代码托管、CI/CD 流水线、项目管理与容器注册表等功能
+DOMAIN-SUFFIX,about.gitlab.com  # GitLab 公司官网及项目介绍页面，用于展示产品概览、开源背景与企业信息
+DOMAIN-SUFFIX,docs.gitlab.com  # GitLab 官方文档中心域名，提供使用指南、API 文档与开发者资源
+DOMAIN-SUFFIX,registry.gitlab.com  # GitLab 容器镜像与构建产物注册中心域名，用于 CI/CD 工具链中产物存储与发布
+DOMAIN-SUFFIX,jwpcdn.gitlab.com  # GitLab 媒体资源加速域名，常用于官网中视频、演示与交互内容的 CDN 分发
 
 # > 第三方博客网站
 
