@@ -912,3 +912,8 @@ DOMAIN-SUFFIX,sentry.wixpress.com # Wix 集成的 Sentry 服务域名，用于�
 # > Immersive Translate 行为分析与追踪域名
 
 DOMAIN-SUFFIX,analytics.immersivetranslate.com  # 沉浸式翻译数据分析与行为追踪域名，用于收集用户交互行为数据
+
+# > GitLab 行为分析与遥测上报域名
+
+DOMAIN-SUFFIX,new-sentry.gitlab.net # GitLab 使用的 Sentry 错误监控上报域名，用于客户端异常捕获、崩溃日志与性能问题追踪
+DOMAIN-SUFFIX,snowplowprd.trx.gitlab.net # GitLab 基于 Snowplow 的行为分析与事件追踪域名，用于用户操作分析、功能使用统计与产品优化
