@@ -4936,6 +4936,9 @@ DOMAIN-SUFFIX,widgets.q4app.com # Q4 平台组件资源加载域名，用于嵌�
 # > 沉浸式翻译（Immersive Translate）产品引导与功能页面域名
 
 DOMAIN-SUFFIX,onboarding.immersivetranslate.com # 沉浸式翻译新手引导页面域名，用于产品初始化配置、功能介绍与使用指引
+DOMAIN-SUFFIX,ai.immersivetranslate.com  # 沉浸式翻译 AI 模型服务域名，用于生成翻译内容或处理相关任务
+DOMAIN-SUFFIX,api2.immersivetranslate.com  # 沉浸式翻译主 API 接口域名，用于前端通信与功能交互
+DOMAIN-SUFFIX,worker.immersivetranslate.com  # 沉浸式翻译任务分发与处理域名，用于后端任务执行调度
 
 # > 第三方博客网站
 
