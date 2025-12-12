@@ -4939,6 +4939,7 @@ DOMAIN-SUFFIX,onboarding.immersivetranslate.com # 沉浸式翻译新手引导页
 DOMAIN-SUFFIX,ai.immersivetranslate.com  # 沉浸式翻译 AI 模型服务域名，用于生成翻译内容或处理相关任务
 DOMAIN-SUFFIX,api2.immersivetranslate.com  # 沉浸式翻译主 API 接口域名，用于前端通信与功能交互
 DOMAIN-SUFFIX,worker.immersivetranslate.com  # 沉浸式翻译任务分发与处理域名，用于后端任务执行调度
+DOMAIN-SUFFIX,s.immersivetranslate.com  # 沉浸式翻译静态资源服务域名，用于加载页面脚本、样式等前端内容
 
 # > 第三方博客网站
 
