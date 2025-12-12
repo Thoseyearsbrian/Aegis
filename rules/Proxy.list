@@ -4947,6 +4947,10 @@ DOMAIN-SUFFIX,s.immersivetranslate.com  # 沉浸式翻译静态资源服务域�
 DOMAIN-SUFFIX,ghost.org # Ghost 博客平台主域名，用于官网访问、文档浏览及服务入口
 DOMAIN-SUFFIX,static.ghost.org  # Ghost 博客平台的官方静态资源域名，用于加载样式、脚本等核心前端资源
 
+# > Blogspot 静态资源域名（用于 Blogger 平台资源加载）
+
+DOMAIN-SUFFIX,resources.blogblog.com  # Blogger（原 Blogspot）平台用于托管样式表、脚本、字体等静态资源的域名，归属于 Google 旗下
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
