@@ -4933,6 +4933,10 @@ DOMAIN-SUFFIX,identity.q4inc.com # Q4 平台身份认证服务接口，用于用
 DOMAIN-SUFFIX,login.q4inc.com # Q4 登录页面域名，用于用户进入后台管理与 IR 服务控制台
 DOMAIN-SUFFIX,widgets.q4app.com # Q4 平台组件资源加载域名，用于嵌入式图表、股价模块、活动日历等前端组件渲染
 
+# > 沉浸式翻译（Immersive Translate）产品引导与功能页面域名
+
+DOMAIN-SUFFIX,onboarding.immersivetranslate.com # 沉浸式翻译新手引导页面域名，用于产品初始化配置、功能介绍与使用指引
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
