@@ -4,7 +4,7 @@
 # - 特征：涵盖常见成人内容相关网站与域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-10
+# - 更新时间：2025-12-12
 
 # > 成人相关域名
 
@@ -54336,7 +54336,6 @@ DOMAIN-SUFFIX,blacksex.pics # 成人相关域名
 DOMAIN-SUFFIX,blacksoncougars.com # 成人相关域名
 DOMAIN-SUFFIX,blacktinyporn.com # 成人相关域名
 DOMAIN-SUFFIX,blackvalleygirls.info # 成人相关域名
-DOMAIN-SUFFIX,blogspot.com # 成人相关域名
 DOMAIN-SUFFIX,blowjobsbabes.com # 成人相关域名
 DOMAIN-SUFFIX,blowpass.com # 成人相关域名
 DOMAIN-SUFFIX,bluechews.com # 成人相关域名
