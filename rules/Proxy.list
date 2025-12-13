@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-12
+# - 更新时间：2025-12-13
 
 # > Speedtest 网络测速平台
 
@@ -4941,6 +4941,7 @@ DOMAIN-SUFFIX,ai.immersivetranslate.com  # 沉浸式翻译 AI 模型服务域名
 DOMAIN-SUFFIX,api2.immersivetranslate.com  # 沉浸式翻译主 API 接口域名，用于前端通信与功能交互
 DOMAIN-SUFFIX,worker.immersivetranslate.com  # 沉浸式翻译任务分发与处理域名，用于后端任务执行调度
 DOMAIN-SUFFIX,s.immersivetranslate.com  # 沉浸式翻译静态资源服务域名，用于加载页面脚本、样式等前端内容
+DOMAIN-SUFFIX,assets.immersivetranslate.cn  # 沉浸式翻译中国大陆静态资源域名，用于加载前端样式、脚本等静态资源
 
 # > Ghost 官方静态资源域名
 
@@ -4966,6 +4967,7 @@ DOMAIN-SUFFIX,beyondwickedmapping.org # 信息安全研究博客域名，用于�
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
 DOMAIN-SUFFIX,yotobike.com # Yotobike 独立站
+DOMAIN-SUFFIX,onemilebike.com # OneMile 独立站
 
 # > 其他 (暂未分类)
 

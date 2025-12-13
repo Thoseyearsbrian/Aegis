@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-12
+# - 更新时间：2025-12-13
 
 # > Apple 行为遥测服务
 
@@ -917,3 +917,7 @@ DOMAIN-SUFFIX,analytics.immersivetranslate.com  # 沉浸式翻译数据分析与
 
 DOMAIN-SUFFIX,new-sentry.gitlab.net # GitLab 使用的 Sentry 错误监控上报域名，用于客户端异常捕获、崩溃日志与性能问题追踪
 DOMAIN-SUFFIX,snowplowprd.trx.gitlab.net # GitLab 基于 Snowplow 的行为分析与事件追踪域名，用于用户操作分析、功能使用统计与产品优化
+
+# > Pullywood 内容创意与营销平台主域名
+
+DOMAIN-SUFFIX,pullywood.com  # Pullywood 内容创意平台域名，提供品牌传播、视频创意等营销服务，含用户数据交互与分析行为
