@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名与 YouTube 已独立归类至 AdDomain.list 与 YouTube.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-12
+# - 更新时间：2025-12-13
 
 # > 核心服务（Google Core Services）
 
@@ -180,6 +180,13 @@ IP-CIDR,142.251.12.188/32 # Google Frontend（GFE）边缘节点 IP，用于 Goo
 IP-CIDR,172.217.194.188/32 # Google 服务节点 IP（GFE：Google Frontend），用于搜索、静态资源与通用 API 访问
 IP-CIDR,64.233.170.100/32 # Google 公共 IP，用于 HTTPS 服务／通信；端口 443 对应加密 HTTPS 流量
 IP-CIDR,74.125.200.95/32 # Google 服务通信节点 IP，曾被用于端口映射服务 Port Map 或 Google 通用服务（如 GWS、Gmail），实际用途可能依网络环境而异
+
+# > Google Merchant Center 商户数据分析域名
+
+DOMAIN-SUFFIX,merchant-center-analytics.goog  # 用于商户商品转化分析与 Google Shopping 数据统计
+DOMAIN-SUFFIX,merchant-center.googleapis.com  # Google Merchant Center 核心 API 接口，用于商品数据同步、审核状态与账户管理
+DOMAIN-SUFFIX,shoppingcontent.googleapis.com  # Google Shopping Content API 域名，用于商品 Feed 上传、更新与库存信息管理
+DOMAIN-SUFFIX,merchants.google.com  # Google Merchant Center Web 控制台域名，用于商户后台登录、商品管理与审核状态查看
 
 # > Google 安全验证服务（reCAPTCHA / 安全校验）
 
