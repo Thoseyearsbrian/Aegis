@@ -4969,6 +4969,18 @@ DOMAIN-SUFFIX,motionographer.com  # Motionographer 官方网站域名，专注�
 
 DOMAIN-SUFFIX,the-brandidentity.com  # The Brand Identity 官方媒体域名，专注品牌视觉识别、平面设计与品牌案例分析内容发布
 
+# > Flodesk 邮件营销平台静态资源域名
+
+DOMAIN-SUFFIX,assets.flodesk.com  # Flodesk 平台用于加载前端样式、脚本与图像等静态资源的 CDN 域名，常见于营销邮件及登录界面
+
+# > PCDN 第三方内容加速节点域名
+
+DOMAIN-SUFFIX,s35726.pcdn.co  # 由 PCDN 提供的内容加速节点域名，通常用于加速加载第三方网站静态内容，来源不明建议代理
+
+# > DataTables 表格库官方 CDN 域名
+
+DOMAIN-SUFFIX,cdn.datatables.net  # DataTables 官方用于提供 jQuery 表格增强功能库的公共 CDN，常用于展示型网站加载脚本资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
