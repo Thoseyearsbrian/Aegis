@@ -4961,6 +4961,14 @@ DOMAIN-SUFFIX,jwpcdn.gitlab.com  # GitLab 媒体资源加速域名，常用于�
 DOMAIN-SUFFIX,koala-apps.io  # Koala Inspector 主域，提供 Shopify 电商店铺数据分析、插件服务与浏览器监控等功能
 DOMAIN-SUFFIX,koala-inspector.koala-apps.io  # Koala Inspector 核心功能接口，提供网页插件服务、商店监控与数据分析等请求
 
+# > Motionographer 动态设计与视觉创意媒体平台
+
+DOMAIN-SUFFIX,motionographer.com  # Motionographer 官方网站域名，专注于动态图形、动画设计与视觉创意内容发布，提供文章、案例与行业资讯
+
+# > The Brand Identity 品牌设计与视觉识别媒体平台
+
+DOMAIN-SUFFIX,the-brandidentity.com  # The Brand Identity 官方媒体域名，专注品牌视觉识别、平面设计与品牌案例分析内容发布
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
