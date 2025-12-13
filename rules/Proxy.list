@@ -4956,6 +4956,11 @@ DOMAIN-SUFFIX,docs.gitlab.com  # GitLab 官方文档中心域名，提供使用�
 DOMAIN-SUFFIX,registry.gitlab.com  # GitLab 容器镜像与构建产物注册中心域名，用于 CI/CD 工具链中产物存储与发布
 DOMAIN-SUFFIX,jwpcdn.gitlab.com  # GitLab 媒体资源加速域名，常用于官网中视频、演示与交互内容的 CDN 分发
 
+# > Koala Inspector 电商监控与竞品分析工具相关域名
+
+DOMAIN-SUFFIX,koala-apps.io  # Koala Inspector 主域，提供 Shopify 电商店铺数据分析、插件服务与浏览器监控等功能
+DOMAIN-SUFFIX,koala-inspector.koala-apps.io  # Koala Inspector 核心功能接口，提供网页插件服务、商店监控与数据分析等请求
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
