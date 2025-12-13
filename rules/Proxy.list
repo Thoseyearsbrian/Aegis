@@ -4969,6 +4969,10 @@ DOMAIN-SUFFIX,motionographer.com  # Motionographer 官方网站域名，专注�
 
 DOMAIN-SUFFIX,the-brandidentity.com  # The Brand Identity 官方媒体域名，专注品牌视觉识别、平面设计与品牌案例分析内容发布
 
+# > Awwwards 网页设计与创意作品评选平台
+
+DOMAIN-SUFFIX,awwwards.com  # Awwwards 官方平台域名，用于展示网页设计获奖作品、行业案例、评审内容与创意资讯
+
 # > Flodesk 邮件营销平台静态资源域名
 
 DOMAIN-SUFFIX,assets.flodesk.com  # Flodesk 平台用于加载前端样式、脚本与图像等静态资源的 CDN 域名，常见于营销邮件及登录界面
