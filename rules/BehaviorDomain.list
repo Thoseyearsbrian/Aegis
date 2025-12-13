@@ -921,3 +921,8 @@ DOMAIN-SUFFIX,snowplowprd.trx.gitlab.net # GitLab 基于 Snowplow 的行为分�
 # > Pullywood 内容创意与营销平台主域名
 
 DOMAIN-SUFFIX,pullywood.com  # Pullywood 内容创意平台域名，提供品牌传播、视频创意等营销服务，含用户数据交互与分析行为
+
+# > Metricool 网站行为追踪与分析域名
+
+DOMAIN-SUFFIX,tracker.metricool.com  # 用于网站访问行为、跳出率与用户路径的追踪分析，广泛嵌入于第三方网站
+DOMAIN-SUFFIX,mpc-prod-15-s6uit34pua-uw.a.run.app  # 托管于 Google Cloud 的子域，疑似用于后端数据收集或事件处理
