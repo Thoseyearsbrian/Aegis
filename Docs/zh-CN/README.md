@@ -107,6 +107,12 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step.png" width="600">
 </p>
 
+### 视频教程
+
+零基础 Surge 教程 · macOS（4K）｜点击封面跳转观看
+
+[![零基础 Surge 教程 · macOS（4K）](https://img.youtube.com/vi/ano6ysBlD5s/maxresdefault.jpg)](https://youtu.be/ano6ysBlD5s)
+
 ## ⚠️ 注意事项
 
 1. **务必启用规则模式（Rule Mode），否则 Aegis 规则集可能无法执行任何防护、分流或拦截机制**

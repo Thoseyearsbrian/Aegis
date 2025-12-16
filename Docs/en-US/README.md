@@ -107,6 +107,12 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step-en.png" width="600">
 </p>
 
+### Video Tutorial
+
+Beginner-Friendly Surge Guide · macOS (4K) ｜Click the thumbnail to watch on YouTube
+
+[![Beginner-Friendly Surge Guide · macOS (4K)](https://img.youtube.com/vi/ano6ysBlD5s/maxresdefault.jpg)](https://youtu.be/ano6ysBlD5s)
+
 ## ⚠️ Important Notes
 
 1. **Rule Mode is mandatory — Aegis cannot perform any filtering, routing, or protection without it**
