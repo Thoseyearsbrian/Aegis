@@ -109,7 +109,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 ### 视频教程
 
-零基础 Surge 教程 · macOS（4K）｜点击封面跳转观看
+零基础 Surge 教程 · macOS（4K）｜点击封面跳转至 YouTube 观看
 
 [![零基础 Surge 教程 · macOS（4K）](https://img.youtube.com/vi/ano6ysBlD5s/maxresdefault.jpg)](https://youtu.be/ano6ysBlD5s)
 
