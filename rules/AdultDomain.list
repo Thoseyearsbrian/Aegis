@@ -4,7 +4,7 @@
 # - 特征：涵盖常见成人内容相关网站与域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-12
+# - 更新时间：2025-12-16
 
 # > 成人相关域名
 
@@ -54283,7 +54283,6 @@ DOMAIN-SUFFIX,bbwbet.com # 成人相关域名
 DOMAIN-SUFFIX,bbwpussypics.com # 成人相关域名
 DOMAIN-SUFFIX,bbwtube.me # 成人相关域名
 DOMAIN-SUFFIX,bcfakes.com # 成人相关域名
-DOMAIN-SUFFIX,be # 成人相关域名
 DOMAIN-SUFFIX,beachjerk.com # 成人相关域名
 DOMAIN-SUFFIX,beatifulleg.com # 成人相关域名
 DOMAIN-SUFFIX,beautifulboobspics.com # 成人相关域名
