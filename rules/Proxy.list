@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-13
+# - 更新时间：2025-12-16
 
 # > Speedtest 网络测速平台
 
@@ -4984,6 +4984,10 @@ DOMAIN-SUFFIX,s35726.pcdn.co  # 由 PCDN 提供的内容加速节点域名，通
 # > DataTables 表格库官方 CDN 域名
 
 DOMAIN-SUFFIX,cdn.datatables.net  # DataTables 官方用于提供 jQuery 表格增强功能库的公共 CDN，常用于展示型网站加载脚本资源
+
+# > Star History 项目趋势可视化服务域名
+
+DOMAIN-SUFFIX,star-history.com # GitHub 项目 Star 数量可视化平台，提供开源项目历史趋势图，常用于项目展示与流行度分析
 
 # > 第三方博客网站
 
