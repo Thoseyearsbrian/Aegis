@@ -4,7 +4,7 @@
 # - 特征：涵盖常见成人内容相关网站与域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-17
+# - 更新时间：2025-12-18
 
 # > 成人相关域名
 
@@ -103,23 +103,18 @@ DOMAIN-SUFFIX,youav.com # 成人相关域名
 DOMAIN-SUFFIX,youjizz.com # 成人相关域名
 DOMAIN-SUFFIX,youporn.com # 成人相关域名
 DOMAIN-SUFFIX,51cg1.com # 成人相关域名
-DOMAIN-SUFFIX,account.nhbirpt.xyz # 成人相关域名
-DOMAIN-SUFFIX,base.nhbirpt.xyz # 成人相关域名
-DOMAIN-SUFFIX,by.nhbirpt.xyz # 成人相关域名
+DOMAIN-SUFFIX,nhbirpt.xyz # 成人相关域名
 DOMAIN-SUFFIX,51baoliao01.com # 成人相关域名
 DOMAIN-SUFFIX,p1.51cg.app # 成人相关域名
 DOMAIN-SUFFIX,69games.xxx # 成人相关域名
-DOMAIN-SUFFIX,69v.club # 成人相关域名
+DOMAIN-SUFFIX,the69lv.club # 成人相关域名
 DOMAIN-SUFFIX,777av.cc # 成人相关域名
 DOMAIN-SUFFIX,8muses.com # 成人相关域名
-DOMAIN-SUFFIX,9japride.com # 成人相关域名
-DOMAIN-SUFFIX,a.1film.to # 成人相关域名
-DOMAIN-SUFFIX,a.shemale99.com # 成人相关域名
-DOMAIN-SUFFIX,a.suptube.com # 成人相关域名
-DOMAIN-SUFFIX,a.teencfnm.com # 成人相关域名
-DOMAIN-SUFFIX,a.xvidxxx.com # 成人相关域名
-DOMAIN-SUFFIX,aa.fapnado.xxx # 成人相关域名
-DOMAIN-SUFFIX,ab.fapnado.xxx # 成人相关域名
+DOMAIN-SUFFIX,shemale99.com # 成人相关域名
+DOMAIN-SUFFIX,suptube.com # 成人相关域名
+DOMAIN-SUFFIX,teencfnm.com # 成人相关域名
+DOMAIN-SUFFIX,xvidxxx.com # 成人相关域名
+DOMAIN-SUFFIX,fapnado.xxx # 成人相关域名
 DOMAIN-SUFFIX,absoluporn.com # 成人相关域名
 DOMAIN-SUFFIX,abusedbabysitters.com # 成人相关域名
 DOMAIN-SUFFIX,aceporntube.com # 成人相关域名

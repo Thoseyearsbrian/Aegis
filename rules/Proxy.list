@@ -5023,6 +5023,10 @@ DOMAIN-SUFFIX,geo.gelacy.app # Gelacy 推荐算法服务域名，用于获取地
 
 DOMAIN-SUFFIX,global.ketchcdn.com # Ketch 隐私管理与用户权限控制服务域名，用于加载同意框架、隐私声明与行为授权追踪组件
 
+# > Scamdoc 风险信誉与域名查询平台
+
+DOMAIN-SUFFIX,scamdoc.com # Scamdoc 风险信誉查询平台，用于检测网站可信度、域名信誉评分与用户举报信息展示
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
