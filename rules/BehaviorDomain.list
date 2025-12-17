@@ -946,3 +946,12 @@ DOMAIN-SUFFIX,cdn.tinypass.com # Tinypass（Piano.io）内容付费系统 CDN �
 
 DOMAIN-SUFFIX,scorecardresearch.com # Comscore 旗下第三方行为追踪平台域名，用于收集用户浏览行为、广告点击与网站流量分析数据
 DOMAIN-SUFFIX,sb.scorecardresearch.com # ScorecardResearch 数据回传子域名，用于收集用户浏览行为、页面访问路径与跨站追踪数据
+
+# > Cxense 个性化内容与行为分析服务
+
+DOMAIN-SUFFIX,cxense.com # Cxense 主域名，用于用户行为分析、内容个性化推荐与广告策略优化，常见于媒体类网站
+DOMAIN-SUFFIX,cdn.cxense.com # Cxense 内容个性化与行为追踪服务的 CDN 域名，用于加载用户行为分析相关的脚本与配置资源
+
+# > Chartbeat 实时行为分析服务
+
+DOMAIN-SUFFIX,static.chartbeat.com # Chartbeat 静态资源域名，用于加载分析脚本与实时监控组件，采集用户行为与页面互动数据
