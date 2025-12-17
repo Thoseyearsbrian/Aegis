@@ -2721,6 +2721,8 @@ DOMAIN-SUFFIX,telestream.net # Telestream 官方主站域名，用于产品介�
 DOMAIN-SUFFIX,cloud.telestream.net # Telestream 云服务平台，用于转码与实时视频工作流程  
 DOMAIN-SUFFIX,license.telestream.net # Telestream 授权服务器域名，用于产品激活与许可证验证  
 DOMAIN-SUFFIX,static.telestream.net # Telestream 静态资源域名，用于加载网页所需的脚本与样式  
+DOMAIN-SUFFIX,inapp.telestream.net # Telestream 应用内服务接口，用于许可校验、功能状态检查与版本验证
+DOMAIN-SUFFIX,cws.telestream.net # Telestream 云服务域名，用于产品授权、注册信息同步与启动时的后台连接
 
 # > Zohomail 相关域名
 
