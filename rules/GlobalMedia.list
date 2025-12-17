@@ -208,6 +208,8 @@ DOMAIN-SUFFIX,bbc.gscontxt.net  # 与 BBC 媒体内容关联的第三方上下�
 DOMAIN-SUFFIX,web-cdn.api.bbci.co.uk # BBC 网站内容交付 CDN 接口域名，用于 API 内容加载与网页组件的动态分发
 DOMAIN-SUFFIX,emp.bbci.co.uk # BBC 嵌入式播放器服务域名，用于新闻与节目播放功能加载
 DOMAIN-SUFFIX,static.bbci.co.uk # BBC 静态资源域名，用于加载样式表、图像与脚本等页面资源
+DOMAIN-SUFFIX,r.bbci.co.uk # BBC 图像与脚本资源域名，用于加载前端页面静态文件（如图标、样式等）
+DOMAIN-SUFFIX,vod-thumb-ww.live.cf.md.bbci.co.uk # BBC VOD 内容缩略图 CDN 域名，用于视频点播页面的封面图加载
 
 # > SBS / KBS / JTBC / TVING（韩国）
 
