@@ -4,10 +4,12 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-16
+# - 更新时间：2025-12-17
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,prebid.the-ozone-project.com # Ozone Project 广告竞价系统域名，用于 Prebid.js 的 Header Bidding 广告请求与投放
+DOMAIN-SUFFIX,uk-script.dotmetrics.net # DotMetrics 广告与用户行为追踪平台域名，用于脚本加载与用户行为分析，常见于嵌入式广告追踪
 DOMAIN-SUFFIX,applovin.com # AppLovin 移动广告 / 广告变现平台
 DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口
 DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告 SDK 服务域名（iAd 平台，历史广告请求）

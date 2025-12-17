@@ -205,6 +205,7 @@ DOMAIN-SUFFIX,itvstatic.com # ITV 静态资源
 DOMAIN-SUFFIX,ichef.bbci.co.uk  # BBC 官方图片资源 CDN，用于加载文章配图、封面图等媒体内容
 DOMAIN-SUFFIX,static.files.bbci.co.uk  # BBC 静态文件资源域名，用于加载样式表、脚本与前端框架等静态内容
 DOMAIN-SUFFIX,bbc.gscontxt.net  # 与 BBC 媒体内容关联的第三方上下文数据服务域名，可能用于内容个性化或行为分析
+DOMAIN-SUFFIX,web-cdn.api.bbci.co.uk # BBC 网站内容交付 CDN 接口域名，用于 API 内容加载与网页组件的动态分发
 
 # > SBS / KBS / JTBC / TVING（韩国）
 
