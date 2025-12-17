@@ -66,6 +66,8 @@ Aegis adheres to technical neutrality, information transparency, and independent
 | ⑨ | Botnet & Command Node Blocking | Botnet_Block.list | Blocks known botnet controllers, DDoS nodes, and mass-control infrastructure (Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
 | ⑩ | APT Threat Source Blocking | APT_Block.list | Blocks C2 infrastructure used by known APT groups, with national attribution tags and intelligence source references (Enabled by Default) | Derived from public threat intelligence with reliable attribution and IoC chains |
 | ⑪ | Pegasus Spyware Communication Blocking | Pegasus_Block.list | Contains domains disclosed by Amnesty used by Pegasus spyware for C2 communication (Enabled by Default) | Based on Amnesty’s public disclosures of Pegasus C2 infrastructure, indicating high surveillance risk |
+| ⑫ | Phishing Domain Blocking | Phishing_Block.list | Blocks domains associated with phishing attacks, including spoofed login pages, fake official sites, and links in deceptive emails. Typical targets of social engineering campaigns. (Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
+| ⑬ | Scam Domain Blocking | Scam_Block.list | Blocks suspicious domains with extremely low reputation, reported fraud, fake services, or user complaints. (Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
 
 ## **Auto Update**
 
