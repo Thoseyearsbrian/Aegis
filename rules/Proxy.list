@@ -5004,6 +5004,10 @@ DOMAIN-SUFFIX,scripts.webcontentassessor.com  # 提供网页内容审查与品�
 
 DOMAIN-SUFFIX,cdn.privacy-mgmt.com  # OneTrust 等隐私偏好管理平台使用的资源 CDN，可能跟踪用户设置与浏览行为
 
+# > Chartbeat 相关域名
+
+DOMAIN-SUFFIX,chartbeat.com # Chartbeat 主站域名，用于官网展示、服务说明、客户仪表板登录等功能
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
