@@ -1543,6 +1543,7 @@ DOMAIN-SUFFIX,ekr.zdassets.com  # Zendesk 托管脚本与配置文件加载（�
 DOMAIN-SUFFIX,zendesk.io  # Zendesk 通信平台域名（后台服务交互）
 DOMAIN-SUFFIX,zendeskcdn.com  # Zendesk 全局 CDN 静态内容分发域
 DOMAIN-SUFFIX,zendesk-mail.com  # Zendesk 邮件通知与支持信件服务
+DOMAIN-SUFFIX,v2.zopim.com # Zendesk Chat（原 Zopim）在线客服脚本加载域名，用于在网页中嵌入实时聊天窗口及相关功能
 
 # > Stripe 支付平台相关域名
 
