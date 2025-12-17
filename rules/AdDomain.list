@@ -8,6 +8,9 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,apps.rokt.com # Rokt 智能电商广告平台接口，用于结账页广告推荐与用户兴趣标签建模
+DOMAIN-SUFFIX,content.snowmachine.me # 电商广告动态素材接口域名，用于加载个性化推荐内容与动态广告组件
+DOMAIN-SUFFIX,bit.ly # Bitly 短链跳转服务域名，常用于广告跳转与用户行为追踪路径
 DOMAIN-SUFFIX,elb.the-ozone-project.com # Ozone 广告平台 ELB 节点域名，用于广告请求分发与竞价通信（Header Bidding）
 DOMAIN-SUFFIX,prebid.the-ozone-project.com # Ozone Project 广告竞价系统域名，用于 Prebid.js 的 Header Bidding 广告请求与投放
 DOMAIN-SUFFIX,uk-script.dotmetrics.net # DotMetrics 广告与用户行为追踪平台域名，用于脚本加载与用户行为分析，常见于嵌入式广告追踪
