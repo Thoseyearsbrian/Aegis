@@ -1523,6 +1523,13 @@ DOMAIN-SUFFIX,shopifycdn.com  # Shopify 静态资源专用 CDN 域名
 DOMAIN-SUFFIX,shopifycloud.com  # Shopify 云服务与 API 网关平台
 DOMAIN-SUFFIX,shopifycs.com  # Shopify 客服系统域名（交互与反馈收集）
 DOMAIN-SUFFIX,sc-static.net # Shopify 相关资源域名，用于加载商店样式文件与前端组件资源 
+DOMAIN-SUFFIX,forms.shopifyapps.com # Shopify 应用表单域名，用于加载第三方应用的嵌入表单与交互逻辑，如订阅、反馈、安装配置等
+
+# > Customily 个性化产品定制平台域名
+
+DOMAIN-SUFFIX,sh.customily.com # Customily 实时预览与配置器域名，用于加载前端商品定制界面与个性化渲染组件
+DOMAIN-SUFFIX,cdn.customily.com # Customily 静态资源 CDN 域名，用于加载样式、脚本与预设图形等页面依赖资源
+DOMAIN-SUFFIX,api.customily.com # Customily 后端接口域名，用于提交定制内容、生成预览图像并同步订单数据
 
 # > GoAffPro 联盟推广平台
 

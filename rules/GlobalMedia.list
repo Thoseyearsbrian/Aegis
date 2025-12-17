@@ -210,6 +210,8 @@ DOMAIN-SUFFIX,emp.bbci.co.uk # BBC 嵌入式播放器服务域名，用于新闻
 DOMAIN-SUFFIX,static.bbci.co.uk # BBC 静态资源域名，用于加载样式表、图像与脚本等页面资源
 DOMAIN-SUFFIX,r.bbci.co.uk # BBC 图像与脚本资源域名，用于加载前端页面静态文件（如图标、样式等）
 DOMAIN-SUFFIX,vod-thumb-ww.live.cf.md.bbci.co.uk # BBC VOD 内容缩略图 CDN 域名，用于视频点播页面的封面图加载
+DOMAIN-SUFFIX,nav.files.bbci.co.uk # BBC 导航静态资源子域，用于加载 BBC 页面导航脚本和资源
+DOMAIN-SUFFIX,britbox.com # BritBox OTT 视频点播服务主域名，用于订阅、登录、流媒体播放与内容浏览等功能,BBC Studios 运营的英国电视与电影流媒体服务
 
 # > SBS / KBS / JTBC / TVING（韩国）
 
