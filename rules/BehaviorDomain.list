@@ -973,3 +973,7 @@ DOMAIN-SUFFIX,et.nytimes.com # 纽约时报事件追踪与数据采集接口，�
 # > Iterate 问卷与用户反馈平台
 
 DOMAIN-SUFFIX,platform.iteratehq.com # Iterate 问卷与用户反馈平台域名，用于弹窗调查、用户满意度收集及行为分析
+
+# > Brand Metrics 品牌广告评估平台
+
+DOMAIN-SUFFIX,cdn.brandmetrics.com # Brand Metrics 广告衡量平台 CDN 域名，用于加载广告分析脚本与性能追踪资源
