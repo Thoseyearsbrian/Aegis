@@ -964,3 +964,8 @@ DOMAIN-SUFFIX,uk01.maru-cdn.com # Maru/Matchbox 用户调研平台 CDN 节点，
 
 DOMAIN-SUFFIX,c5ae3b90-d8c4-4a2f-8774-4856a74d56b8.redfastlabs.com # RedfastLabs 用户行为分析标识域名，用于特定站点用户交互数据采集
 DOMAIN-SUFFIX,redfastlabs.com # RedfastLabs 主站域名，用于行为建模、内容推荐与用户互动分析
+
+
+# > The New York Times（纽约时报）
+
+DOMAIN-SUFFIX,et.nytimes.com # 纽约时报事件追踪与数据采集接口，用于用户行为分析与性能统计
