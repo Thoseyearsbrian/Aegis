@@ -936,3 +936,7 @@ DOMAIN-SUFFIX,browser.covatic.io  # Covatic 提供的个性化推荐与上下文
 
 DOMAIN-SUFFIX,bbc.gscontxt.net  # 与 BBC 媒体内容关联的第三方上下文数据服务域名，可能用于内容个性化或行为分析
 DOMAIN-SUFFIX,dotcom.bbc-reporting-api.app # BBC 报告与遥测数据上报接口，用于收集用户行为、性能数据与交互事件，支持分析与内容优化
+
+# > Piano/Tinypass 内容付费平台域名
+
+DOMAIN-SUFFIX,cdn.tinypass.com # Tinypass（Piano.io）内容付费系统 CDN 资源域名，用于订阅弹窗、验证脚本与 SDK 加载
