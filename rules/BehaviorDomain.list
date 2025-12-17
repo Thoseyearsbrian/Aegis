@@ -222,6 +222,7 @@ DOMAIN-SUFFIX,analytics.coinbase.com  # Coinbase 用户行为分析与打点服�
 # > Segment 行为追踪服务
 
 DOMAIN-SUFFIX,segment.io # 用户行为追踪服务，广泛嵌入于 App 与网页中，采集分析数据
+IP-CIDR,35.166.10.37/32 # Segment 数据分析平台节点 IP（api.segment.io），用于遥测 SDK 的事件采集与用户行为数据上报
 
 # > Adform 行为监听器
 
