@@ -941,3 +941,8 @@ DOMAIN-SUFFIX,mybbc-analytics.files.bbci.co.uk # BBC 用户行为分析资源域
 # > Piano/Tinypass 内容付费平台域名
 
 DOMAIN-SUFFIX,cdn.tinypass.com # Tinypass（Piano.io）内容付费系统 CDN 资源域名，用于订阅弹窗、验证脚本与 SDK 加载
+
+# > ScorecardResearch（Comscore 行为分析平台）
+
+DOMAIN-SUFFIX,scorecardresearch.com # Comscore 旗下第三方行为追踪平台域名，用于收集用户浏览行为、广告点击与网站流量分析数据
+DOMAIN-SUFFIX,sb.scorecardresearch.com # ScorecardResearch 数据回传子域名，用于收集用户浏览行为、页面访问路径与跨站追踪数据
