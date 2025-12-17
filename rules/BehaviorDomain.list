@@ -969,3 +969,7 @@ DOMAIN-SUFFIX,redfastlabs.com # RedfastLabs 主站域名，用于行为建模、
 # > The New York Times（纽约时报）
 
 DOMAIN-SUFFIX,et.nytimes.com # 纽约时报事件追踪与数据采集接口，用于用户行为分析与性能统计
+
+# > Iterate 问卷与用户反馈平台
+
+DOMAIN-SUFFIX,platform.iteratehq.com # Iterate 问卷与用户反馈平台域名，用于弹窗调查、用户满意度收集及行为分析
