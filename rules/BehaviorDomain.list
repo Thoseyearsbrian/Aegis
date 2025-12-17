@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-13
+# - 更新时间：2025-12-17
 
 # > Apple 行为遥测服务
 
@@ -926,3 +926,11 @@ DOMAIN-SUFFIX,pullywood.com  # Pullywood 内容创意平台域名，提供品牌
 
 DOMAIN-SUFFIX,tracker.metricool.com  # 用于网站访问行为、跳出率与用户路径的追踪分析，广泛嵌入于第三方网站
 DOMAIN-SUFFIX,mpc-prod-15-s6uit34pua-uw.a.run.app  # 托管于 Google Cloud 的子域，疑似用于后端数据收集或事件处理
+
+# > 内容个性化服务与上下文分析平台域名
+
+DOMAIN-SUFFIX,browser.covatic.io  # Covatic 提供的个性化推荐与上下文跟踪平台域名，常用于媒体与播客类服务
+
+# > BBC 第三方行为分析集成服务域名
+
+DOMAIN-SUFFIX,bbc.gscontxt.net  # 与 BBC 媒体内容关联的第三方上下文数据服务域名，可能用于内容个性化或行为分析

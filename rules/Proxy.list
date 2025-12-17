@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-16
+# - 更新时间：2025-12-17
 
 # > Speedtest 网络测速平台
 
@@ -4988,6 +4988,18 @@ DOMAIN-SUFFIX,cdn.datatables.net  # DataTables 官方用于提供 jQuery 表格�
 # > Star History 项目趋势可视化服务域名
 
 DOMAIN-SUFFIX,star-history.com # GitHub 项目 Star 数量可视化平台，提供开源项目历史趋势图，常用于项目展示与流行度分析
+
+# > 用户反馈与调研服务域名
+
+DOMAIN-SUFFIX,edigitalsurvey.com  # 电子问卷调查平台域名，BBC 等媒体用于收集用户行为意见与反馈信息
+
+# > 第三方网页内容评分与审查脚本域名
+
+DOMAIN-SUFFIX,scripts.webcontentassessor.com  # 提供网页内容审查与品牌安全评分的脚本服务域名，常用于媒体内容分析与广告商评估
+
+# > 第三方隐私同意管理平台域名（建议加入代理规则集）
+
+DOMAIN-SUFFIX,cdn.privacy-mgmt.com  # OneTrust 等隐私偏好管理平台使用的资源 CDN，可能跟踪用户设置与浏览行为
 
 # > 第三方博客网站
 

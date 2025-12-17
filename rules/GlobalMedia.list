@@ -5,7 +5,7 @@
 # - 说明：YouTube 域名已迁移至 Google.list 统一管理
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2025-12-17
 
 # > Amazon Prime Video
 
@@ -202,6 +202,9 @@ DOMAIN-SUFFIX,bbc.co.uk # 英国 BBC 官方网站
 DOMAIN-SUFFIX,bbc.com # BBC 国际站
 DOMAIN-SUFFIX,itv.com # 英国 ITV 电视台平台
 DOMAIN-SUFFIX,itvstatic.com # ITV 静态资源
+DOMAIN-SUFFIX,ichef.bbci.co.uk  # BBC 官方图片资源 CDN，用于加载文章配图、封面图等媒体内容
+DOMAIN-SUFFIX,static.files.bbci.co.uk  # BBC 静态文件资源域名，用于加载样式表、脚本与前端框架等静态内容
+DOMAIN-SUFFIX,bbc.gscontxt.net  # 与 BBC 媒体内容关联的第三方上下文数据服务域名，可能用于内容个性化或行为分析
 
 # > SBS / KBS / JTBC / TVING（韩国）
 
