@@ -934,3 +934,4 @@ DOMAIN-SUFFIX,browser.covatic.io  # Covatic 提供的个性化推荐与上下文
 # > BBC 第三方行为分析集成服务域名
 
 DOMAIN-SUFFIX,bbc.gscontxt.net  # 与 BBC 媒体内容关联的第三方上下文数据服务域名，可能用于内容个性化或行为分析
+DOMAIN-SUFFIX,dotcom.bbc-reporting-api.app # BBC 报告与遥测数据上报接口，用于收集用户行为、性能数据与交互事件，支持分析与内容优化
