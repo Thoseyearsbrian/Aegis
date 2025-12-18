@@ -5035,6 +5035,10 @@ DOMAIN-SUFFIX,scamdoc.com # Scamdoc 风险信誉查询平台，用于检测网�
 
 DOMAIN-SUFFIX,platform.iteratehq.com  # 第三方调研服务，常用于用户行为采集与界面反馈弹窗
 
+# > AstroPlate 静态站点模板演示页（Netlify 托管）
+
+DOMAIN-SUFFIX,astroplate.netlify.app  # Astro + Netlify 构建的开源模板演示页面
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
