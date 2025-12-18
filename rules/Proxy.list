@@ -3225,6 +3225,10 @@ DOMAIN,repository.certum.pl # Certum 根证书与中间证书分发域名，用�
 DOMAIN,repository.certum.pl/dvcasha2.cer # Certum DVCASHA2 根证书下载接口，提供数字签名证书的根证书文件
 DOMAIN,repository.certum.pl/ctnca.cer # Certum CTNCA 根证书下载接口，提供中级签名认证证书的下载
 
+# > RapidSSL 根证书与吊销链分发节点
+
+DOMAIN-SUFFIX,cacerts.rapidssl.com  # RapidSSL 根证书与中间证书链分发服务域名，用于证书信任建立与吊销验证（CRL）
+
 # > Shields.io 徽章服务资源（Shields.io Badge Assets）
 
 DOMAIN-SUFFIX,shields.io # Shields.io 主域名，用于生成所有徽章请求入口  
