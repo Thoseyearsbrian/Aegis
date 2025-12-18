@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-09
+# - 更新时间：2025-12-19
 
 # > OpenAI Chat 系列
 
@@ -36,6 +36,7 @@ IP-CIDR,173.255.209.47/32 # chatgpt.com 相关出口节点（OpenAI 基础设施
 IP-CIDR,104.244.46.63/32  # 归属 OpenAI，关联 realtime.chatgpt.com，用于实时对话更新与 WebSocket 通信
 IP-CIDR,69.171.247.32/32 # ab.chatgpt.com 所属 IP，第三方 ChatGPT 接入平台流量
 IP-CIDR,173.236.212.42/32 # chatgpt.com 所属 IP，OpenAI 主域名，直接通信流量
+IP-CIDR,69.171.242.11/32 # ab.chatgpt.com（ChatGPT Web 访问与会话通信节点）
 
 # > Sora — OpenAI 视频生成 / AI 服务主域名
 
