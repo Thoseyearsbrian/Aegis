@@ -115,6 +115,10 @@ Beginner-Friendly Surge Guide · macOS (4K) ｜Click the thumbnail to watch on Y
 
 [![Beginner-Friendly Surge Guide · macOS (4K)](https://img.youtube.com/vi/ano6ysBlD5s/maxresdefault.jpg)](https://youtu.be/ano6ysBlD5s)
 
+Beginner-Friendly Surge Guide · iOS (4K) ｜Click the thumbnail to watch on YouTube  
+
+[![Beginner-Friendly Surge Guide · iOS (4K)](https://img.youtube.com/vi/nphFzmEV7qg/maxresdefault.jpg)](https://youtu.be/nphFzmEV7qg)
+
 ## ⚠️ Important Notes
 
 1. **Rule Mode is mandatory — Aegis cannot perform any filtering, routing, or protection without it**
