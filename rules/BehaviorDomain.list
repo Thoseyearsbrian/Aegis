@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-17
+# - 更新时间：2025-12-18
 
 # > Apple 行为遥测服务
 
@@ -63,7 +63,9 @@ DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com # Firebase 动态链接服务�
 DOMAIN-SUFFIX,crashlytics.com # 被大量灰产 SDK 使用
 DOMAIN-SUFFIX,app-analytics-services.com # YouTube 应用行为统计接口，常用于用户操作数据收集
 DOMAIN-SUFFIX,s.youtube.com # YouTube 广告控制与追踪接口，用于广告推荐、点击记录与个性化订阅行为
-DOMAIN-SUFFIX,mpc-prod-11-s6uit34pua-uc.a.run.app # Cloud Run 托管脚本服务，用于行为收集或营销事件处理  
+DOMAIN-SUFFIX,mpc-prod-11-s6uit34pua-uc.a.run.app # Cloud Run 托管脚本服务，用于行为收集或营销事件处理
+DOMAIN-SUFFIX,ep1.adtrafficquality.google # Google 广告 SDK 上报接口，用于行为数据采集与质量评估
+DOMAIN-SUFFIX,ep2.adtrafficquality.google # Google 广告 SDK 上报接口，用于行为数据采集与质量评估
 
 # > Facebook 相关行为指纹
 
