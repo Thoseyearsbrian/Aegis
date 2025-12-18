@@ -4,10 +4,13 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-17
+# - 更新时间：2025-12-18
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,googlesyndication.com  # 广告加载 / 商业投放 / 嵌入式广告组件
+DOMAIN-SUFFIX,pagead2.googlesyndication.com  # 广告脚本 / 动态加载 / 商业投放资源
+DOMAIN-SUFFIX,securepubads.g.doubleclick.net  # 广告加载 / 页面嵌入 / 商业资源脚本
 DOMAIN-SUFFIX,apps.rokt.com # Rokt 智能电商广告平台接口，用于结账页广告推荐与用户兴趣标签建模
 DOMAIN-SUFFIX,content.snowmachine.me # 电商广告动态素材接口域名，用于加载个性化推荐内容与动态广告组件
 DOMAIN-SUFFIX,bit.ly # Bitly 短链跳转服务域名，常用于广告跳转与用户行为追踪路径
