@@ -957,6 +957,7 @@ DOMAIN-SUFFIX,cdn.cxense.com # Cxense 内容个性化与行为追踪服务的 CD
 # > Chartbeat 实时行为分析服务
 
 DOMAIN-SUFFIX,static.chartbeat.com # Chartbeat 静态资源域名，用于加载分析脚本与实时监控组件，采集用户行为与页面互动数据
+DOMAIN-SUFFIX,pnytimes.chartbeat.net # 行为分析平台域名，用于内容加载与用户访问追踪
 
 # > Maru / Matchbox 用户调研与行为分析平台相关域名
 
