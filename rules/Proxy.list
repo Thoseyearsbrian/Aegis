@@ -5031,6 +5031,10 @@ DOMAIN-SUFFIX,global.ketchcdn.com # Ketch 隐私管理与用户权限控制服�
 
 DOMAIN-SUFFIX,scamdoc.com # Scamdoc 风险信誉查询平台，用于检测网站可信度、域名信誉评分与用户举报信息展示
 
+# > Iterate 用户反馈与行为调研平台
+
+DOMAIN-SUFFIX,platform.iteratehq.com  # 第三方调研服务，常用于用户行为采集与界面反馈弹窗
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
