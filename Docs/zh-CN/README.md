@@ -115,10 +115,6 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 [![零基础 Surge 教程 · macOS（4K）](https://img.youtube.com/vi/ano6ysBlD5s/maxresdefault.jpg)](https://youtu.be/ano6ysBlD5s)
 
-零基础 Surge 教程 · iOS（4K）｜点击封面跳转至 YouTube 观看  
-
-[![零基础 Surge 教程 · iOS（4K）](https://img.youtube.com/vi/nphFzmEV7qg/maxresdefault.jpg)](https://youtu.be/nphFzmEV7qg)
-
 ## ⚠️ 注意事项
 
 1. **务必启用规则模式（Rule Mode），否则 Aegis 规则集可能无法执行任何防护、分流或拦截机制**
@@ -204,11 +200,3 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 - **不滥用规则集用于闭源或侵犯公共利益的行为。**
 
 此外，Aegis 项目已启用 [GPG](https://gnupg.org) 签名（Git Commit Signing）机制，以确保项目代码来源真实可信、未被篡改。你可通过 GPG 签名验证每一次提交操作的完整性，从而获得更高的安全保障。
-
-## 🙌  社区支持
-
-如果你认可本项目的价值，欢迎 Star ⭐️ 支持，相关更新将同步发布至 [Telegram](https://telegram.org) 通知频道，欢迎订阅关注。
-
-**Telegram 版本更新频道** - <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a> : 用于发布最新版本、更新日志与重要公告
-
-**Telegram 用户共建群组** - <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a> : 欢迎提交建议、反馈问题、参与社区共建
