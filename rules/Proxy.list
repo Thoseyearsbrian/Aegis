@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-17
+# - 更新时间：2025-12-19
 
 # > Speedtest 网络测速平台
 
@@ -5038,6 +5038,10 @@ DOMAIN-SUFFIX,platform.iteratehq.com  # 第三方调研服务，常用于用户�
 # > AstroPlate 静态站点模板演示页（Netlify 托管）
 
 DOMAIN-SUFFIX,astroplate.netlify.app  # Astro + Netlify 构建的开源模板演示页面
+
+# > AdSpyglass 广告聚合与中介平台
+
+DOMAIN-SUFFIX,adspyglass.com # 广告管理平台主域名
 
 # > 第三方博客网站
 

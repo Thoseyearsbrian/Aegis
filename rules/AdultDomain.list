@@ -4,7 +4,7 @@
 # - 特征：涵盖常见成人内容相关网站与域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-18
+# - 更新时间：2025-12-19
 
 # > 成人相关域名
 
@@ -120,8 +120,6 @@ DOMAIN-SUFFIX,abusedbabysitters.com # 成人相关域名
 DOMAIN-SUFFIX,aceporntube.com # 成人相关域名
 DOMAIN-SUFFIX,ad69.com # 成人相关域名
 DOMAIN-SUFFIX,sexier.com # 成人相关域名
-DOMAIN-SUFFIX,adsexse.com # 成人相关域名
-DOMAIN-SUFFIX,adspyglass.com # 成人相关域名
 DOMAIN-SUFFIX,adultlinkexchange.com # 成人相关域名
 DOMAIN-SUFFIX,adultmoviegroup.com # 成人相关域名
 DOMAIN-SUFFIX,adult-sex-games.com # 成人相关域名
