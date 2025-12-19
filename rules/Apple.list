@@ -5,7 +5,7 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-11
+# - 更新时间：2025-12-19
 
 # > 系统服务（System Services）
 
@@ -116,7 +116,6 @@ DOMAIN-SUFFIX,2-courier.push.apple.com  # 推送通知服务子域
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com # iCloud Relay（Fastly）
 DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com # OHTTP 中继节点（Fastly）
 DOMAIN-SUFFIX,apple-relay.cloudflare.com # 中继节点（Cloudflare）
-DOMAIN-SUFFIX,cp10.cloudflare.com # Cloudflare 托管节点
 DOMAIN-SUFFIX,api.smoot.apple.cn # 中国区透明性平台 API
 DOMAIN-SUFFIX,apple-dns.net # Apple 公共 DNS 域名
 DOMAIN-SUFFIX,apple-dns.cn # Apple 中国区 DNS 域名
