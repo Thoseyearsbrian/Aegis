@@ -379,24 +379,24 @@ DOMAIN-SUFFIX,notice.12306.cn # 12306 系统公告与服务通知发布接口域
 
 # > 携程 / 去哪儿相关域名（在线旅行服务平台）
 
-DOMAIN-SUFFIX,ctrip.com # 携程主站域名，用于机票、酒店、火车票等在线预订服务  
-DOMAIN-SUFFIX,ctrip.com.cn # 携程中国区域名，服务于本地化产品与支付接口  
-DOMAIN-SUFFIX,images3.c-ctrip.com # 携程静态资源加载域名  
-DOMAIN-SUFFIX,hotels.ctrip.com # 携程酒店预订业务子域名  
-DOMAIN-SUFFIX,flights.ctrip.com # 携程机票预订业务子域名  
-DOMAIN-SUFFIX,passport.ctrip.com # 携程登录与账户认证接口  
-DOMAIN-SUFFIX,marketing.ctrip.com # 携程营销与活动推广接口  
-DOMAIN-SUFFIX,tripcdn.com # 携程 CDN 内容分发域名  
-DOMAIN-SUFFIX,trip.com # 携程国际版官网域名  
-DOMAIN-SUFFIX,t.ctrip.cn # 携程短链服务域名，用于活动或分享链接  
-DOMAIN-SUFFIX,qunar.com # 去哪儿网主站域名，用于航旅相关服务  
-DOMAIN-SUFFIX,hotel.qunar.com # 去哪儿酒店预订子域名  
-DOMAIN-SUFFIX,flight.qunar.com # 去哪儿机票查询与预订服务子域名  
-DOMAIN-SUFFIX,dpfile.qunarzz.com # 去哪儿静态资源 CDN 域名  
-DOMAIN-SUFFIX,account.qunar.com # 去哪儿账户服务与登录验证接口  
-DOMAIN-SUFFIX,t.qunar.com # 去哪儿短链服务域名  
-DOMAIN-SUFFIX,img1.qunarzz.com # 去哪儿图像资源加载域名  
-DOMAIN-SUFFIX,qunarzz.com # 去哪儿资源分发主域名，托管图像与脚本资源  
+DOMAIN-SUFFIX,ctrip.com # 携程在线旅行服务主域名，用于旅游产品展示与预订服务
+DOMAIN-SUFFIX,ctrip.com.cn # 携程中国区服务域名，用于本地化业务与相关服务接入
+DOMAIN-SUFFIX,images3.c-ctrip.com # 携程静态资源加载域名，用于图像等前端资源分发
+DOMAIN-SUFFIX,hotels.ctrip.com # 携程酒店相关服务子域名，用于住宿产品展示与预订
+DOMAIN-SUFFIX,flights.ctrip.com # 携程机票相关服务子域名，用于航班信息与预订服务
+DOMAIN-SUFFIX,passport.ctrip.com # 携程账户登录与身份认证服务接口域名
+DOMAIN-SUFFIX,marketing.ctrip.com # 携程相关内容与服务展示支持接口域名
+DOMAIN-SUFFIX,tripcdn.com # 携程内容分发与加速服务 CDN 域名
+DOMAIN-SUFFIX,trip.com # 携程国际业务官方网站域名，用于海外服务与信息访问
+DOMAIN-SUFFIX,t.ctrip.cn # 携程短链与跳转服务域名，用于链接分享与访问引导
+DOMAIN-SUFFIX,qunar.com # 去哪儿在线旅行服务主域名，用于航旅相关产品与服务访问
+DOMAIN-SUFFIX,hotel.qunar.com # 去哪儿住宿相关服务子域名，用于酒店信息与预订服务
+DOMAIN-SUFFIX,flight.qunar.com # 去哪儿航班相关服务子域名，用于机票查询与预订
+DOMAIN-SUFFIX,dpfile.qunarzz.com # 去哪儿静态资源 CDN 域名，用于前端资源分发
+DOMAIN-SUFFIX,account.qunar.com # 去哪儿账户服务与身份认证接口域名
+DOMAIN-SUFFIX,t.qunar.com # 去哪儿短链与跳转服务域名
+DOMAIN-SUFFIX,img1.qunarzz.com # 去哪儿图像资源加载域名
+DOMAIN-SUFFIX,qunarzz.com # 去哪儿资源分发主域名，用于图像与脚本等内容加载
 
 # > 美团相关域名
 
