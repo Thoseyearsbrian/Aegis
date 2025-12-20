@@ -582,12 +582,12 @@ DOMAIN-SUFFIX,oss.uupaotui.com # UU 跑腿平台文件与图像资源存储服�
 
 # > 顺丰同城骑士相关域名（SF City Delivery）
 
-DOMAIN-SUFFIX,sfccdn.com # 顺丰同城服务 CDN 域名，用于资源分发与前端静态页面加载  
-DOMAIN-SUFFIX,sfcityrush.com # 顺丰同城骑士主域名，用于骑手任务管理与调度系统  
-DOMAIN-SUFFIX,api.sfcityrush.com # 顺丰同城 API 接口域名，用于订单处理与状态同步  
-DOMAIN-SUFFIX,h5.sfcityrush.com # 顺丰同城 H5 页面域名，提供骑手操作与任务详情查看  
-DOMAIN-SUFFIX,passport.sfcityrush.com # 顺丰同城登录与身份验证服务  
-DOMAIN-SUFFIX,oss.sfcityrush.com # 顺丰同城对象存储服务，用于文件、图片上传与下载  
+DOMAIN-SUFFIX,sfccdn.com # 顺丰同城相关服务的内容分发与静态资源 CDN 域名
+DOMAIN-SUFFIX,sfcityrush.com # 顺丰同城骑士平台主域名，用于骑手端与平台相关服务访问
+DOMAIN-SUFFIX,api.sfcityrush.com # 顺丰同城骑士平台核心服务 API 接口域名
+DOMAIN-SUFFIX,h5.sfcityrush.com # 顺丰同城骑士移动端 H5 页面服务域名，用于页面展示与轻量化访问
+DOMAIN-SUFFIX,passport.sfcityrush.com # 顺丰同城骑士用户注册、登录与身份认证服务域名
+DOMAIN-SUFFIX,oss.sfcityrush.com # 顺丰同城骑士平台文件与图像资源存储服务域名
 
 # > 饿了么相关域名（Ele.me 本地生活服务）
 
