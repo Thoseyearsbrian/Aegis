@@ -542,13 +542,13 @@ DOMAIN-SUFFIX,app.sf-express.com # 顺丰客户端统一服务入口域名，用
 
 # > 闪送相关域名（Shansong Express）
 
-DOMAIN-SUFFIX,shansong.cn # 闪送主站域名，用于官网、用户服务与骑手登录入口  
-DOMAIN-SUFFIX,api.shansong.cn # 闪送核心 API 接口域名，处理订单分发、位置上报等服务  
-DOMAIN-SUFFIX,oss.shansong.cn # 闪送图片与文件存储服务域名  
-DOMAIN-SUFFIX,passport.shansong.cn # 闪送统一身份认证平台，涉及登录验证与用户信息管理  
-DOMAIN-SUFFIX,h5.shansong.cn # 闪送移动端页面入口，用于活动页、订单详情等 H5 页面加载  
-DOMAIN-SUFFIX,cdn.shansong.cn # 闪送静态资源 CDN 域名，用于加速骑手端与用户端页面加载  
-DOMAIN-SUFFIX,activity.shansong.cn # 闪送活动平台域名，用于优惠券发放、骑手激励等活动逻辑  
+DOMAIN-SUFFIX,shansong.cn # 闪送即时配送平台主域名，用于官网访问与用户、骑手相关服务入口
+DOMAIN-SUFFIX,api.shansong.cn # 闪送平台核心服务 API 接口域名，用于业务系统与功能调用支持
+DOMAIN-SUFFIX,oss.shansong.cn # 闪送平台文件与图像资源存储服务域名
+DOMAIN-SUFFIX,passport.shansong.cn # 闪送用户与骑手统一身份认证服务域名
+DOMAIN-SUFFIX,h5.shansong.cn # 闪送移动端 H5 页面服务域名，用于页面展示与轻量化访问
+DOMAIN-SUFFIX,cdn.shansong.cn # 闪送静态资源与内容分发 CDN 服务域名
+DOMAIN-SUFFIX,activity.shansong.cn # 闪送活动与内容展示相关服务域名
 
 # > 点我达相关域名（Dianwoda Delivery）
 
