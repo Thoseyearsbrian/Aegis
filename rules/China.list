@@ -76,16 +76,15 @@ IP-CIDR,61.170.77.212 # 阿里系内容分发与资源访问相关网络节点 I
 
 # > 腾讯云（Tencent Cloud）
 
-DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播 / 实时音视频服务节点域名，用于直播流回源、流媒体推送与播放连接建立  
-DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云 VOD / 点播 / 视频分发 CDN 接入域名，用于视频流 / 播放资源加载与视频播放请求
-DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net # 腾讯云 TEG 平台下属服务域名
-DOMAIN-SUFFIX,myqcloud.com # 腾讯云小程序行为上传域（常用于 SDK）
-DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云 API 接口调用域名  
-DOMAIN-SUFFIX,myqcloud.com # 腾讯云 COS 对象存储服务域名  
-DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云品牌官网入口  
-DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名  
-DOMAIN-SUFFIX,gtimg.cn # 腾讯静态资源域名
-DOMAIN-SUFFIX,tencentcloud.com # 腾讯云
+DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播与实时音视频服务节点域名，用于流媒体连接建立与数据传输
+DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云视频点播与内容分发服务域名，用于视频资源加载与播放请求
+DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net # 腾讯云 TEG 平台相关服务域名，用于云服务接入与系统调度支持
+DOMAIN-SUFFIX,myqcloud.com # 腾讯云通用服务域名，用于对象存储、云服务访问与相关功能支持
+DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云 API 接口调用域名，用于云资源管理与服务接口访问
+DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云品牌官网入口域名，用于产品文档、技术社区与服务介绍
+DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名，用于云服务管理与用户控制台访问
+DOMAIN-SUFFIX,gtimg.cn # 腾讯系产品通用静态资源与多媒体内容分发域名
+DOMAIN-SUFFIX,tencentcloud.com # 腾讯云国际站与品牌入口域名，面向海外用户提供云服务信息
 
 # > QQ邮箱（Tencent Mail）
 
