@@ -197,14 +197,14 @@ DOMAIN-SUFFIX,chinatelecom.com.cn # 中国电信主官方网站域名，用于�
 
 # > 中国联通服务相关域名
 
-DOMAIN-SUFFIX,wo.cn # 中国联通主服务域名，用于官网、用户入口与统一认证平台
-DOMAIN-SUFFIX,10010.com # 中国联通官方网站域名，用于业务办理、套餐查询与客户服务
-DOMAIN-SUFFIX,chinaunicom.com # 中国联通集团域名，用于集团官网、投资者关系与企业信息发布
-DOMAIN-SUFFIX,chinaunicom.cn # 中国联通公司主域名，用于政企服务、宽带接入与账户体系
-DOMAIN-SUFFIX,chinaunicombidding.cn # 中国联通招标平台域名，用于采购信息发布与投标管理
-DOMAIN-SUFFIX,chinaunicominternational.com # 中国联通国际公司域名，用于海外通信服务与网络接入
-DOMAIN-SUFFIX,chinaunicomglobal.com # 中国联通全球服务平台域名，用于全球漫游与国际业务拓展
-DOMAIN-SUFFIX,api.wo.cn # 中国联通 API 服务域名，用于认证服务、短信网关与业务对接接口
+DOMAIN-SUFFIX,wo.cn # 中国联通主服务域名，用于官网访问、用户入口与统一账号体系支持
+DOMAIN-SUFFIX,10010.com # 中国联通官方服务门户域名，用于业务办理、套餐查询与客户服务入口
+DOMAIN-SUFFIX,chinaunicom.com # 中国联通集团域名，用于集团信息、投资者关系与企业信息发布
+DOMAIN-SUFFIX,chinaunicom.cn # 中国联通公司主域名，用于政企服务、宽带接入与账户相关服务
+DOMAIN-SUFFIX,chinaunicombidding.cn # 中国联通招标采购平台域名，用于采购信息发布与投标管理服务
+DOMAIN-SUFFIX,chinaunicominternational.com # 中国联通国际公司域名，用于海外通信服务与国际网络接入
+DOMAIN-SUFFIX,chinaunicomglobal.com # 中国联通全球业务服务域名，用于国际通信与全球服务支持
+DOMAIN-SUFFIX,api.wo.cn # 中国联通服务接口域名，用于业务系统接入、认证与能力调用
 
 # > 中国移动服务相关域名
 
