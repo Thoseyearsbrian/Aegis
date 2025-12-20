@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-10
+# - 更新时间：2025-12-21
 
 # > 阿里相关域名（Alibaba Group）
 
@@ -193,8 +193,9 @@ DOMAIN-SUFFIX,p6-passport.byteacctimg.com # ByteDance 用户头像 CDN 节点 �
 DOMAIN-SUFFIX,p3-passport.byteacctimg.com # ByteDance 用户头像 CDN 备用节点 — 用于头像 / 资源加载备用域名
 DOMAIN-SUFFIX,p26-passport.byteacctimg.com # ByteDance 用户头像 CDN 节点 — 用于用户头像 / 资源加载及展示
 DOMAIN-SUFFIX,lf3-cdn-tos.bytescm.com # 字节跳动第三方资源 CDN 节点，用于分发静态脚本、图像、字体等前端资源，广泛用于其系产品如抖音、今日头条等
-DOMAIN-SUFFIX,v26-cold.douyinvod.com  # Douyin CDN 内容资源分发域名，用于视频冷数据加载
-DOMAIN-SUFFIX,v5-gzb2-hl-bd-cn-coldy.douyinvod.com  # Douyin CDN 节点，分发抖音视频静态内容（冷存储）
+DOMAIN-SUFFIX,v26-cold.douyinvod.com # Douyin CDN 内容资源分发域名，用于视频冷数据加载
+DOMAIN-SUFFIX,v5-gzb2-hl-bd-cn-coldy.douyinvod.com # Douyin CDN 节点，分发抖音视频静态内容（冷存储）
+DOMAIN-SUFFIX,v27-wha.douyinvod.com # 抖音系视频资源 CDN 加载节点，通常用于 App 视频内容分发
 IP-CIDR,180.163.132.102/32  # p6.douyinpic.com，抖音图片 CDN 节点，承担内容加载任务
 IP-CIDR,117.68.5.176/32  # lf9-font-sign.bytehwm.com，字节跳动字体加载服务节点
 IP-CIDR,106.38.222.179/32 # webcast100‑ws‑c‑hl.amemv.com 抖音 / 直播 WebSocket 服务节点  
