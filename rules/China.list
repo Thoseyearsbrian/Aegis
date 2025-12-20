@@ -433,14 +433,14 @@ DOMAIN-SUFFIX,dreport.meituan.net # 美团平台统计与服务报表相关接�
 
 # > 美团专送相关域名（Meituan Express Delivery）
 
-DOMAIN-SUFFIX,cainiao.meituan.com # 美团专送物流接口，与菜鸟等平台对接骑手配送任务  
-DOMAIN-SUFFIX,dispatch.meituan.com # 美团专送订单调度平台，处理实时订单分配与骑手分发  
-DOMAIN-SUFFIX,logistics.meituan.com # 美团物流系统主接口，支持配送全流程管理与异常处理  
-DOMAIN-SUFFIX,locate.meituan.com # 美团专送定位服务域名，用于骑手实时位置上传与地图服务  
-DOMAIN-SUFFIX,dm.meituan.com # 美团数据服务域名，含配送轨迹与调度分析模块  
-DOMAIN-SUFFIX,mdn.meituan.com # 美团静态资源 CDN，服务骑手 App 的 UI 与资源加载  
-DOMAIN-SUFFIX,peisong.meituan.com # 美团配送开放平台，用于骑手 App 与调度平台交互  
-DOMAIN-SUFFIX,star.meituan.com # 美团绩效与评级系统，管理骑手星级与服务质量评估  
+DOMAIN-SUFFIX,cainiao.meituan.com # 美团专送相关服务域名，用于配送系统对接与平台协同
+DOMAIN-SUFFIX,dispatch.meituan.com # 美团专送订单调度相关服务接口域名
+DOMAIN-SUFFIX,logistics.meituan.com # 美团物流与履约相关服务接口域名
+DOMAIN-SUFFIX,locate.meituan.com # 美团配送定位相关服务接口域名
+DOMAIN-SUFFIX,dm.meituan.com # 美团专送平台相关服务接口域名
+DOMAIN-SUFFIX,mdn.meituan.com # 美团内容分发与静态资源加载 CDN 域名
+DOMAIN-SUFFIX,peisong.meituan.com # 美团配送相关平台服务接口域名
+DOMAIN-SUFFIX,star.meituan.com # 美团配送相关平台服务接口域名
 
 # > 美团乐跑相关域名（Meituan LePao Delivery）
 
