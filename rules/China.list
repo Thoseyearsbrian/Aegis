@@ -247,12 +247,12 @@ DOMAIN-SUFFIX,cstc.org.cn # 中国通信标准化相关组织域名，用于通�
 
 # > 通信监管与基础网络服务相关域名
 
-DOMAIN-SUFFIX,miit.gov.cn # 工业和信息化部官网域名，用于政策发布与备案查询
-DOMAIN-SUFFIX,beian.miit.gov.cn # 工信部网站备案查询子域名，用于 ICP 备案状态验证
-DOMAIN-SUFFIX,caict.ac.cn # 中国信息通信研究院主域名，用于标准制定与政策解读
-DOMAIN-SUFFIX,cert.org.cn # 国家互联网应急中心域名，用于漏洞通报与安全预警
-DOMAIN-SUFFIX,ipip.net # IPIP 数据服务平台域名，常用于 IP 属地查询与测速
-DOMAIN-SUFFIX,ip.cn # IP 查询与定位服务域名，常用于公网 IP 探测服务
+DOMAIN-SUFFIX,miit.gov.cn # 工业和信息化部官方网站域名，用于通信行业政策发布与公共服务入口
+DOMAIN-SUFFIX,beian.miit.gov.cn # 工信部 ICP 备案管理系统域名，用于网站备案信息查询与核验
+DOMAIN-SUFFIX,caict.ac.cn # 中国信息通信研究院官方网站域名，用于行业研究、标准制定与政策解读
+DOMAIN-SUFFIX,cert.org.cn # 国家互联网应急中心域名，用于网络安全事件通告与应急信息发布
+DOMAIN-SUFFIX,ipip.net # 网络地址与基础网络信息服务域名，用于 IP 数据查询与网络测量服务
+DOMAIN-SUFFIX,ip.cn # 公网 IP 查询与网络定位服务域名，用于基础网络信息探测
 
 # > 中国银联相关域名（China UnionPay）
 
