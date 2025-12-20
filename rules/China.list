@@ -265,18 +265,18 @@ DOMAIN-SUFFIX,cdn.cup.com.cn # 中国银联内容分发与加速服务域名，�
 
 # > 云闪付相关域名（UnionPay App）
 
-DOMAIN-SUFFIX,95516.com # 银联官方主站域名，用于云闪付门户、账户登录等服务  
-DOMAIN-SUFFIX,unionpayintl.com # 银联国际服务站点，含国际版云闪付服务  
-DOMAIN-SUFFIX,cn.unionpay.com # 银联中国主站，用于信息展示与业务入口  
-DOMAIN-SUFFIX,open.unionpay.com # 银联开放平台，供第三方接入云闪付服务使用  
-DOMAIN-SUFFIX,ccsbestpay.com # 云闪付接口调用中转域名，涉及交易请求  
-DOMAIN-SUFFIX,cloudpos.cn # 云闪付 POS 终端服务接口与设备连接  
-DOMAIN-SUFFIX,uppay.org # 银联支付组件使用的中转接口域名  
-DOMAIN-SUFFIX,msdp.cn # 云闪付 APP 与 SDK 的行为上报与安全接口  
-DOMAIN-SUFFIX,ysfclient.cn # 云闪付客户端服务接口，用于登录、身份验证等  
-DOMAIN-SUFFIX,ysfjr.com # 云闪付金融服务组件，用于信用卡、借贷等服务  
-DOMAIN-SUFFIX,ysfapp.com # 云闪付相关推广与营销活动域名  
-DOMAIN-SUFFIX,ysfpay.com # 云闪付支付跳转与收银台接口域名  
+DOMAIN-SUFFIX,95516.com # 中国银联服务门户域名，用于云闪付相关服务入口与账户访问
+DOMAIN-SUFFIX,unionpayintl.com # 中国银联国际服务域名，用于国际业务与跨境支付相关服务
+DOMAIN-SUFFIX,cn.unionpay.com # 中国银联中国区主站域名，用于信息展示与业务入口访问
+DOMAIN-SUFFIX,open.unionpay.com # 中国银联开放平台域名，用于第三方系统接入云闪付相关服务
+DOMAIN-SUFFIX,ccsbestpay.com # 云闪付支付服务通信相关域名，用于平台服务请求与接口调用
+DOMAIN-SUFFIX,cloudpos.cn # 云闪付 POS 终端与设备相关服务域名，用于终端接入与服务支持
+DOMAIN-SUFFIX,uppay.org # 银联支付组件相关服务域名，用于支付功能支持与服务通信
+DOMAIN-SUFFIX,msdp.cn # 云闪付客户端运行与服务支持相关接口域名
+DOMAIN-SUFFIX,ysfclient.cn # 云闪付客户端核心服务接口域名，用于应用功能与服务访问
+DOMAIN-SUFFIX,ysfjr.com # 云闪付金融服务相关域名，用于金融功能组件与服务支持
+DOMAIN-SUFFIX,ysfapp.com # 云闪付相关信息展示与推广服务域名
+DOMAIN-SUFFIX,ysfpay.com # 云闪付支付服务入口与收银台相关接口域名
 
 # > 财付通 / QQ 钱包相关域名（Tenpay & QQ Wallet）
 
