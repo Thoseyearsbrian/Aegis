@@ -5044,6 +5044,10 @@ DOMAIN-SUFFIX,astroplate.netlify.app  # Astro + Netlify 构建的开源模板演
 
 DOMAIN-SUFFIX,adspyglass.com # 广告管理平台主域名
 
+# > 奇安信 XLab 安全实验室官方博客站点
+
+DOMAIN-SUFFIX,blog.xlab.qianxin.com  # 奇安信 XLab 出品的安全研究博客平台，发布攻击溯源、APT 报告与漏洞分析等内容
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
