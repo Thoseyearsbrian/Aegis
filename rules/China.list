@@ -95,17 +95,17 @@ DOMAIN-SUFFIX,imgcache.qq.com # 腾讯邮件系统内容缓存与图片资源加
 
 # > 腾讯地图相关域名（Tencent Maps）
 
-DOMAIN-SUFFIX,map.qq.com # 腾讯地图主站域名，提供地图展示、路径规划等服务  
-DOMAIN-SUFFIX,apis.map.qq.com # 腾讯地图 API 接口服务，用于第三方应用接入地图数据  
-DOMAIN-SUFFIX,mapsdk.map.qq.com # 腾讯地图 SDK 接口域名，用于移动端地图加载与交互  
-DOMAIN-SUFFIX,confinfo.map.qq.com # 腾讯地图配置信息服务接口，用于动态加载设置与参数  
-DOMAIN-SUFFIX,poi.map.qq.com # 腾讯地图 POI（兴趣点）搜索与展示接口  
-DOMAIN-SUFFIX,rtq.map.qq.com # 腾讯地图实时交通信息服务接口  
-DOMAIN-SUFFIX,tracking.map.qq.com # 腾讯地图轨迹服务接口，主要用于路线追踪与分析  
-DOMAIN-SUFFIX,ugc.map.qq.com # 用户生成内容上传与检索服务，如标注、评论等  
-DOMAIN-SUFFIX,nav.map.qq.com # 腾讯地图导航模块接口，提供路径导航功能  
-DOMAIN-SUFFIX,photo.map.qq.com # 腾讯地图街景与地理照片加载服务  
-DOMAIN-SUFFIX,conf.map.qq.com # 地图组件动态配置接口，用于小程序与 SDK 调用  
+DOMAIN-SUFFIX,map.qq.com # 腾讯地图主站域名，用于地图展示、搜索与基础地图服务访问
+DOMAIN-SUFFIX,apis.map.qq.com # 腾讯地图 API 服务接口域名，用于第三方应用接入地图与位置数据
+DOMAIN-SUFFIX,mapsdk.map.qq.com # 腾讯地图 SDK 服务接口域名，用于移动端地图加载与功能调用
+DOMAIN-SUFFIX,confinfo.map.qq.com # 腾讯地图配置信息服务接口，用于动态加载系统设置与参数
+DOMAIN-SUFFIX,poi.map.qq.com # 腾讯地图兴趣点（POI）数据查询与展示服务接口
+DOMAIN-SUFFIX,rtq.map.qq.com # 腾讯地图实时交通数据服务接口
+DOMAIN-SUFFIX,tracking.map.qq.com # 腾讯地图轨迹与路线相关数据服务接口
+DOMAIN-SUFFIX,ugc.map.qq.com # 腾讯地图用户生成内容服务接口，用于标注、评论等内容提交与访问
+DOMAIN-SUFFIX,nav.map.qq.com # 腾讯地图导航服务接口，用于路径规划与导航功能支持
+DOMAIN-SUFFIX,photo.map.qq.com # 腾讯地图街景与地理照片资源加载服务接口
+DOMAIN-SUFFIX,conf.map.qq.com # 腾讯地图组件动态配置接口，用于小程序与 SDK 场景调用
 
 # > 腾讯游戏域名（王者荣耀 / 和平精英）
 
