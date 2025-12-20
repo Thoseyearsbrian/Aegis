@@ -53,14 +53,14 @@ IP-CIDR,59.82.34.148 # 支付宝设备接入与网络调度相关节点 IP
 
 # > 淘宝相关域名（Taobao / 阿里巴巴集团）
 
-DOMAIN-SUFFIX,taobao.com # 淘宝主站域名，涵盖商品浏览、订单管理等服务  
-DOMAIN-SUFFIX,tmall.com # 天猫商城主域名，为品牌商家提供零售平台  
-DOMAIN-SUFFIX,tmall.hk # 天猫国际站，面向海外品牌与用户  
-DOMAIN-SUFFIX,alipay.com # 支付宝支付平台域名  
-DOMAIN-SUFFIX,taobaocdn.com # 淘宝CDN静态资源分发域名  
-DOMAIN-SUFFIX,alicdn.com # 阿里全系产品内容分发域名   
-DOMAIN-SUFFIX,mmstat.com # 阿里数据分析与埋点上报域名  
-DOMAIN-SUFFIX,amdc.alipay.com # 移动设备配置服务域名，涉及风控与认证逻辑  
+DOMAIN-SUFFIX,taobao.com # 淘宝主站域名，用于商品浏览、搜索、下单与订单管理等电商服务
+DOMAIN-SUFFIX,tmall.com # 天猫商城主域名，为品牌商家与用户提供综合零售服务
+DOMAIN-SUFFIX,tmall.hk # 天猫国际站域名，面向跨境电商与海外品牌商品展示与销售
+DOMAIN-SUFFIX,alipay.com # 支付宝支付平台域名，用于淘宝与天猫交易的支付与结算服务
+DOMAIN-SUFFIX,taobaocdn.com # 淘宝静态资源与多媒体内容分发 CDN 域名
+DOMAIN-SUFFIX,alicdn.com # 阿里系产品通用 CDN 域名，用于电商页面静态资源与内容分发
+DOMAIN-SUFFIX,mmstat.com # 阿里电商相关数据统计与指标采集服务域名
+DOMAIN-SUFFIX,amdc.alipay.com # 阿里系应用设备环境信息接口，用于客户端接入与服务调度
 
 # > 闲鱼相关域名（Xianyu / 阿里巴巴二手交易）
 
