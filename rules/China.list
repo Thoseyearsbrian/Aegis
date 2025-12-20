@@ -508,16 +508,16 @@ DOMAIN-SUFFIX,ucdl.hemamax.com # 盒马鲜生客户端下载与更新相关服�
 
 # > 叮咚买菜相关域名（Dingdong Maicai）
 
-DOMAIN-SUFFIX,ddxq.mobi # 叮咚买菜主域名，用于下单、支付、用户操作等核心服务  
-DOMAIN-SUFFIX,front.ddxq.mobi # 叮咚买菜前端页面加载服务，用于商品浏览与页面渲染  
-DOMAIN-SUFFIX,static.ddxq.mobi # 叮咚买菜静态资源 CDN，用于图片、脚本与样式加载  
-DOMAIN-SUFFIX,activity.ddxq.mobi # 叮咚买菜活动与营销接口域名，用于优惠与推广  
-DOMAIN-SUFFIX,api.ddxq.mobi # 叮咚买菜 API 接口域名，支持下单、用户数据、商品信息等  
-DOMAIN-SUFFIX,track.ddxq.mobi # 叮咚买菜埋点与行为追踪域名，用于广告归因与用户分析  
-DOMAIN-SUFFIX,log.ddxq.mobi # 叮咚买菜客户端日志采集与异常上报服务  
-DOMAIN-SUFFIX,img.ddxq.mobi # 叮咚买菜图片资源域名，用于商品图加载与资源展示  
-DOMAIN-SUFFIX,passport.ddxq.mobi # 叮咚买菜身份认证域名，用于登录、Token 验证等服务  
-DOMAIN-SUFFIX,appdl.ddxq.mobi # 叮咚买菜客户端下载与更新域名  
+DOMAIN-SUFFIX,ddxq.mobi # 叮咚买菜生鲜零售平台主域名，用于下单、支付与用户服务入口
+DOMAIN-SUFFIX,front.ddxq.mobi # 叮咚买菜前端页面服务域名，用于商品浏览与页面渲染
+DOMAIN-SUFFIX,static.ddxq.mobi # 叮咚买菜静态资源与内容分发 CDN 域名
+DOMAIN-SUFFIX,activity.ddxq.mobi # 叮咚买菜活动与内容展示相关服务域名
+DOMAIN-SUFFIX,api.ddxq.mobi # 叮咚买菜核心服务 API 接口域名，用于商品、订单与业务请求处理
+DOMAIN-SUFFIX,track.ddxq.mobi # 叮咚买菜平台相关服务接口域名
+DOMAIN-SUFFIX,log.ddxq.mobi # 叮咚买菜系统日志与运行状态相关接口域名
+DOMAIN-SUFFIX,img.ddxq.mobi # 叮咚买菜图像与媒体资源加载域名
+DOMAIN-SUFFIX,passport.ddxq.mobi # 叮咚买菜用户注册、登录与身份认证服务域名
+DOMAIN-SUFFIX,appdl.ddxq.mobi # 叮咚买菜客户端应用下载与更新服务域名
 
 # > 达达骑士相关域名（Dada Delivery Rider）
 
