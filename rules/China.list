@@ -532,13 +532,13 @@ DOMAIN-SUFFIX,appdl.dada.cn # 达达客户端应用下载与更新服务域名
 
 # > 顺丰骑士相关域名（SF Express Rider）
 
-DOMAIN-SUFFIX,sfrexpress.com # 顺丰速运主站域名，用于物流业务与用户服务  
-DOMAIN-SUFFIX,sf-express.com # 顺丰速运国际/旧版域名，部分服务仍在使用  
-DOMAIN-SUFFIX,ic-dev.sf-express.com # 顺丰骑士 APP 测试与接口联调域名  
-DOMAIN-SUFFIX,courier.sf-express.com # 顺丰骑士任务管理接口，用于派单、签到与轨迹上报  
-DOMAIN-SUFFIX,courierapp.sf-express.com # 顺丰骑士 App 更新与服务入口域名  
-DOMAIN-SUFFIX,dl-cdn.sf-express.com # 顺丰 CDN 加速服务域名，用于客户端资源下载与更新  
-DOMAIN-SUFFIX,app.sf-express.com # 顺丰客户端服务入口，用于用户端与骑士端共用服务调用
+DOMAIN-SUFFIX,sfrexpress.com # 顺丰速运物流服务主域名，用于物流业务与平台服务访问
+DOMAIN-SUFFIX,sf-express.com # 顺丰速运相关服务域名，用于业务系统与服务接口访问
+DOMAIN-SUFFIX,ic-dev.sf-express.com # 顺丰骑士相关服务接口域名，用于客户端与平台功能支持
+DOMAIN-SUFFIX,courier.sf-express.com # 顺丰骑士平台相关服务接口域名
+DOMAIN-SUFFIX,courierapp.sf-express.com # 顺丰骑士客户端服务与应用支持接口域名
+DOMAIN-SUFFIX,dl-cdn.sf-express.com # 顺丰客户端资源分发与下载 CDN 服务域名
+DOMAIN-SUFFIX,app.sf-express.com # 顺丰客户端统一服务入口域名，用于用户端与骑士端服务访问
 
 # > 闪送相关域名（Shansong Express）
 
