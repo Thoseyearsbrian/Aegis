@@ -367,15 +367,15 @@ DOMAIN-SUFFIX,didialgorithm.com # 滴滴平台相关技术与服务支持域名
 
 # > 12306 铁路相关域名（中国铁路客户服务中心）
 
-DOMAIN-SUFFIX,12306.cn # 中国铁路客户服务中心官网主域名  
-DOMAIN-SUFFIX,kyfw.12306.cn # 12306 客户服务子域名，负责订票、改签、退票等业务  
-DOMAIN-SUFFIX,railway12306.cn # 中国铁路宣传与推广相关域名  
-DOMAIN-SUFFIX,train12306.cn # 第三方合作或早期推广域名，部分仍在使用  
-DOMAIN-SUFFIX,12306media.com # 12306 相关广告与宣传媒介域名  
-DOMAIN-SUFFIX,images12306.cn # 12306 静态资源加载域名，用于图像、验证码等加载  
-DOMAIN-SUFFIX,otn.12306.cn # 12306 统一交易平台域名，核心购票与支付处理入口  
-DOMAIN-SUFFIX,passport.12306.cn # 12306 登录认证与身份验证接口  
-DOMAIN-SUFFIX,notice.12306.cn # 12306 系统公告与服务通知接口  
+DOMAIN-SUFFIX,12306.cn # 中国铁路客户服务中心主域名，用于铁路客运服务与官方入口访问
+DOMAIN-SUFFIX,kyfw.12306.cn # 12306 客运服务子域名，用于购票、改签、退票等核心业务处理
+DOMAIN-SUFFIX,railway12306.cn # 中国铁路相关服务与信息展示域名
+DOMAIN-SUFFIX,train12306.cn # 12306 相关服务与推广支持域名
+DOMAIN-SUFFIX,12306media.com # 12306 相关信息展示与内容服务域名
+DOMAIN-SUFFIX,images12306.cn # 12306 静态资源加载域名，用于图像、验证码等资源分发
+DOMAIN-SUFFIX,otn.12306.cn # 12306 统一交易平台域名，用于购票、支付与订单处理
+DOMAIN-SUFFIX,passport.12306.cn # 12306 用户登录与身份认证服务接口域名
+DOMAIN-SUFFIX,notice.12306.cn # 12306 系统公告与服务通知发布接口域名
 
 # > 携程 / 去哪儿相关域名（在线旅行服务平台）
 
