@@ -552,13 +552,13 @@ DOMAIN-SUFFIX,activity.shansong.cn # 闪送活动与内容展示相关服务域�
 
 # > 点我达相关域名（Dianwoda Delivery）
 
-DOMAIN-SUFFIX,dianwoda.com # 点我达主站域名，用于官网展示、用户服务与骑手入口  
-DOMAIN-SUFFIX,api.dianwoda.com # 点我达核心 API 接口域名，处理订单调度、位置同步与骑手操作  
-DOMAIN-SUFFIX,passport.dianwoda.com # 点我达统一身份认证平台，用于登录验证与用户管理  
-DOMAIN-SUFFIX,cdn.dianwoda.com # 点我达静态资源 CDN 域名，用于骑手端与用户端资源分发  
-DOMAIN-SUFFIX,activity.dianwoda.com # 点我达活动平台域名，用于优惠活动与激励政策展示  
-DOMAIN-SUFFIX,oss.dianwoda.com # 点我达对象存储服务域名，用于图片与文件存储加载  
-DOMAIN-SUFFIX,h5.dianwoda.com # 点我达 H5 页面域名，支持移动端订单详情与任务处理  
+DOMAIN-SUFFIX,dianwoda.com # 点我达即时配送平台主域名，用于官网访问与用户、骑手相关服务入口
+DOMAIN-SUFFIX,api.dianwoda.com # 点我达平台核心服务 API 接口域名，用于业务系统与功能调用支持
+DOMAIN-SUFFIX,passport.dianwoda.com # 点我达用户与骑手统一身份认证服务域名
+DOMAIN-SUFFIX,cdn.dianwoda.com # 点我达静态资源与内容分发 CDN 服务域名
+DOMAIN-SUFFIX,activity.dianwoda.com # 点我达活动与内容展示相关服务域名
+DOMAIN-SUFFIX,oss.dianwoda.com # 点我达平台文件与图像资源存储服务域名
+DOMAIN-SUFFIX,h5.dianwoda.com # 点我达移动端 H5 页面服务域名，用于页面展示与轻量化访问
 
 # > 达达骑士相关域名（Dada Delivery）
 
