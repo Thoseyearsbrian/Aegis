@@ -452,13 +452,13 @@ DOMAIN-SUFFIX,lepaolog.meituan.com # 美团乐跑平台运行状态与服务日�
 
 # > 蜂鸟众包相关域名（Ele.me Crowdsource Delivery）
 
-DOMAIN-SUFFIX,fengniao.waimai.me # 蜂鸟众包主服务域名，用于骑手任务调度与订单分发  
-DOMAIN-SUFFIX,fengniao.com # 蜂鸟配送系统主域名，处理账号认证与配送行为记录  
-DOMAIN-SUFFIX,falconapi.fengniao.com # 蜂鸟数据接口域名，涉及骑手接单与轨迹上传  
-DOMAIN-SUFFIX,tracking.fengniao.com # 蜂鸟轨迹系统接口，用于实时定位与异常追踪  
-DOMAIN-SUFFIX,resource.fengniao.com # 蜂鸟前端资源服务域名，提供骑手端 UI 资源加载  
-DOMAIN-SUFFIX,rider.elenet.me # 饿了么骑手系统子域名，用于账户管理与登录服务  
-DOMAIN-SUFFIX,cainiao.com # 菜鸟网络主域名，蜂鸟配送依赖基础设施服务接口  
+DOMAIN-SUFFIX,fengniao.waimai.me # 蜂鸟众包核心服务域名，用于骑手端与平台相关服务访问
+DOMAIN-SUFFIX,fengniao.com # 蜂鸟配送平台主域名，用于配送系统与相关服务接口
+DOMAIN-SUFFIX,falconapi.fengniao.com # 蜂鸟配送平台相关服务接口域名
+DOMAIN-SUFFIX,tracking.fengniao.com # 蜂鸟配送相关服务接口域名
+DOMAIN-SUFFIX,resource.fengniao.com # 蜂鸟配送前端资源加载与内容分发服务域名
+DOMAIN-SUFFIX,rider.elenet.me # 饿了么骑手系统服务域名，用于骑手账户与服务访问
+DOMAIN-SUFFIX,cainiao.com # 菜鸟网络服务域名，用于物流与平台相关服务支持
 
 # > 蜂鸟专送相关域名（Ele.me Delivery Service）
 
