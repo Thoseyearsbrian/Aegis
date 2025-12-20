@@ -219,11 +219,11 @@ DOMAIN-SUFFIX,miguvideo.com # 咪咕视频品牌服务域名，用于内容播�
 
 # > 中国广电服务相关域名
 
-DOMAIN-SUFFIX,cbn.cn # 中国广电（China Broadcasting Network）主站域名，用于业务介绍与政企服务
-DOMAIN-SUFFIX,china-bn.com # 中国广电官方域名，用于宽带、电视与政务信息服务
-DOMAIN-SUFFIX,chinabroadcast.cn # 中国广播电视网络公司域名，用于全国一体化广播电视服务平台
-DOMAIN-SUFFIX,gdtv.cn # 广东广电网络公司域名，用于区域广电业务与视频服务
-DOMAIN-SUFFIX,cbncloud.cn # 中国广电云平台域名，用于云网融合、广播电视云服务入口
+DOMAIN-SUFFIX,cbn.cn # 中国广电（China Broadcasting Network）主站域名，用于集团信息、业务介绍与政企服务入口
+DOMAIN-SUFFIX,china-bn.com # 中国广电官方服务域名，用于宽带、电视与相关公共服务信息访问
+DOMAIN-SUFFIX,chinabroadcast.cn # 中国广播电视网络公司域名，用于全国广电网络与一体化服务平台访问
+DOMAIN-SUFFIX,gdtv.cn # 广东广电网络公司域名，用于区域性广电业务与视频内容服务
+DOMAIN-SUFFIX,cbncloud.cn # 中国广电云平台域名，用于云网融合服务与广播电视云能力入口
 
 # > 工信部及下属机构服务相关域名
 
