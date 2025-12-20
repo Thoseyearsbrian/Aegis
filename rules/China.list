@@ -495,16 +495,16 @@ DOMAIN-SUFFIX,passport.missfresh.cn # 每日优鲜账号注册、登录与身份
 
 # > 盒马鲜生相关域名（Hema Fresh by Alibaba）
 
-DOMAIN-SUFFIX,hemaos.com # 盒马鲜生主域名，用于官网、商城与下单服务  
-DOMAIN-SUFFIX,hemaapp.com # 盒马鲜生 App 使用的辅助域名，用于接口与埋点服务  
-DOMAIN-SUFFIX,himalaya-h5.hemaos.com # 盒马小程序与H5页面加载服务  
-DOMAIN-SUFFIX,api.hemaos.com # 盒马 API 接口域名，支持下单、支付、物流等核心服务  
-DOMAIN-SUFFIX,cdn.hemaos.com # 盒马静态资源 CDN 域名，用于分发商品图片与页面资源  
-DOMAIN-SUFFIX,passport.hemaos.com # 盒马用户身份认证域名，支持登录与权限验证  
-DOMAIN-SUFFIX,log.hemaos.com # 盒马客户端日志与错误上报服务域名  
-DOMAIN-SUFFIX,track.hemaos.com # 盒马用户行为追踪与广告归因域名  
-DOMAIN-SUFFIX,alilog.hemaos.com # 盒马日志采集与性能分析域名
-DOMAIN-SUFFIX,ucdl.hemamax.com # 盒马下载中心域名，可能涉及 APK 分发与更新逻辑  
+DOMAIN-SUFFIX,hemaos.com # 盒马鲜生生鲜零售平台主域名，用于商城访问、下单与相关服务入口
+DOMAIN-SUFFIX,hemaapp.com # 盒马鲜生客户端相关服务域名，用于应用运行与功能支持接口
+DOMAIN-SUFFIX,himalaya-h5.hemaos.com # 盒马鲜生 H5 页面与小程序相关服务域名
+DOMAIN-SUFFIX,api.hemaos.com # 盒马鲜生核心服务 API 接口域名，用于下单、支付与物流相关业务请求
+DOMAIN-SUFFIX,cdn.hemaos.com # 盒马鲜生静态资源与内容分发 CDN 域名
+DOMAIN-SUFFIX,passport.hemaos.com # 盒马鲜生用户注册、登录与身份认证服务域名
+DOMAIN-SUFFIX,log.hemaos.com # 盒马鲜生平台运行日志与服务状态相关接口域名
+DOMAIN-SUFFIX,track.hemaos.com # 盒马鲜生平台相关服务接口域名
+DOMAIN-SUFFIX,alilog.hemaos.com # 盒马鲜生日志采集与平台服务支持接口域名
+DOMAIN-SUFFIX,ucdl.hemamax.com # 盒马鲜生客户端下载与更新相关服务域名
 
 # > 叮咚买菜相关域名（Dingdong Maicai）
 
