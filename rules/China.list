@@ -521,14 +521,14 @@ DOMAIN-SUFFIX,appdl.ddxq.mobi # 叮咚买菜客户端应用下载与更新服务
 
 # > 达达骑士相关域名（Dada Delivery Rider）
 
-DOMAIN-SUFFIX,dada.cn # 达达配送主域名，用于骑手任务调度、账户服务等  
-DOMAIN-SUFFIX,newretail.dada.cn # 达达新零售平台接口，含订单接收与调度服务  
-DOMAIN-SUFFIX,static.dada.cn # 达达静态资源服务域名，用于脚本、样式、图片加载  
-DOMAIN-SUFFIX,track.dada.cn # 达达位置轨迹与行为上报接口，用于骑手定位与任务追踪  
-DOMAIN-SUFFIX,cdn.dada.cn # 达达 CDN 加速服务，用于资源分发与性能优化  
-DOMAIN-SUFFIX,passport.dada.cn # 达达用户认证与登录鉴权服务  
-DOMAIN-SUFFIX,report.dada.cn # 达达任务完成与异常上报接口  
-DOMAIN-SUFFIX,appdl.dada.cn # 达达 App 下载与更新服务域名  
+DOMAIN-SUFFIX,dada.cn # 达达即时配送平台主域名，用于骑手端与平台相关服务访问
+DOMAIN-SUFFIX,newretail.dada.cn # 达达新零售相关服务接口域名，用于订单与配送业务支持
+DOMAIN-SUFFIX,static.dada.cn # 达达前端静态资源服务域名，用于脚本、样式与图片资源加载
+DOMAIN-SUFFIX,track.dada.cn # 达达配送平台相关服务接口域名
+DOMAIN-SUFFIX,cdn.dada.cn # 达达内容分发与资源加速 CDN 服务域名
+DOMAIN-SUFFIX,passport.dada.cn # 达达用户注册、登录与身份认证服务域名
+DOMAIN-SUFFIX,report.dada.cn # 达达平台运行与业务状态相关服务接口域名
+DOMAIN-SUFFIX,appdl.dada.cn # 达达客户端应用下载与更新服务域名
 
 # > 顺丰骑士相关域名（SF Express Rider）
 
