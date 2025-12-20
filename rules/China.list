@@ -484,14 +484,14 @@ DOMAIN-SUFFIX,feedback.ele.me # 蜂鸟优选用户反馈与售后支持接口，
 
 # > 每日优鲜相关域名（MissFresh Grocery Delivery）
 
-DOMAIN-SUFFIX,missfresh.cn # 每日优鲜主站域名，用于官网展示与用户服务入口  
-DOMAIN-SUFFIX,api.missfresh.cn # 每日优鲜主 API 接口域名，用于商品查询、订单处理等核心功能  
-DOMAIN-SUFFIX,img.missfresh.cn # 每日优鲜图片 CDN 域名，负责商品图片与页面资源加载  
-DOMAIN-SUFFIX,static.missfresh.cn # 每日优鲜静态资源服务域名，用于前端页面组件加载  
-DOMAIN-SUFFIX,track.missfresh.cn # 每日优鲜行为追踪与埋点分析域名，用于数据采集与广告归因  
-DOMAIN-SUFFIX,log.missfresh.cn # 每日优鲜客户端日志上报接口，用于故障分析与性能监控  
-DOMAIN-SUFFIX,wx.missfresh.cn # 每日优鲜微信服务域名，用于小程序与微信登录相关功能  
-DOMAIN-SUFFIX,passport.missfresh.cn # 每日优鲜账号认证域名，用于用户注册、登录与身份校验  
+DOMAIN-SUFFIX,missfresh.cn # 每日优鲜生鲜电商平台主域名，用于官网访问与用户服务入口
+DOMAIN-SUFFIX,api.missfresh.cn # 每日优鲜核心服务 API 接口域名，用于商品信息、订单与业务请求处理
+DOMAIN-SUFFIX,img.missfresh.cn # 每日优鲜图像资源 CDN 域名，用于商品图片与多媒体内容加载
+DOMAIN-SUFFIX,static.missfresh.cn # 每日优鲜前端静态资源服务域名，用于页面组件与脚本资源分发
+DOMAIN-SUFFIX,track.missfresh.cn # 每日优鲜平台相关服务接口域名，用于业务运行与服务支持
+DOMAIN-SUFFIX,log.missfresh.cn # 每日优鲜系统日志与运行状态相关接口域名
+DOMAIN-SUFFIX,wx.missfresh.cn # 每日优鲜微信相关服务域名，用于小程序与微信登录接入
+DOMAIN-SUFFIX,passport.missfresh.cn # 每日优鲜账号注册、登录与身份认证服务域名
 
 # > 盒马鲜生相关域名（Hema Fresh by Alibaba）
 
