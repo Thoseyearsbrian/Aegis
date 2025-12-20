@@ -126,25 +126,25 @@ DOMAIN-SUFFIX,egame.qq.com # 腾讯先游 / 电竞平台服务域名，涉及云
 
 # > QQ 相关域名
 
-DOMAIN-SUFFIX,qq.com # 腾讯 QQ 主域名，涵盖通信、邮箱、开放平台等服务  
-DOMAIN-SUFFIX,myqq.com # QQ 账号管理与辅助服务域名  
-DOMAIN-SUFFIX,tenpay.com # QQ 钱包支付接口域名  
-DOMAIN-SUFFIX,qpic.cn # QQ 静态资源 CDN 域名（头像、图片等）  
-DOMAIN-SUFFIX,gtimg.cn # 腾讯通用 CDN 域名，覆盖 QQ 各类资源  
-DOMAIN-SUFFIX,mail.qq.com # QQ 邮箱主站域名  
-DOMAIN-SUFFIX,foxmail.com # 腾讯旗下 Foxmail 邮件服务域名  
-DOMAIN-SUFFIX,qqmail.com # QQ 邮箱服务跳转与别名域名  
-DOMAIN-SUFFIX,mqqpay.com # QQ 钱包支付相关接口域名  
-DOMAIN-SUFFIX,open.tenpay.com # QQ 钱包开放平台接口域名  
-DOMAIN-SUFFIX,aq.qq.com # QQ 安全中心域名，用于登录保护与异常提示  
-DOMAIN-SUFFIX,btrace.qq.com # QQ 行为分析与打点服务域名  
-DOMAIN-SUFFIX,isdspeed.qq.com # QQ 客户端测速与上报接口  
-DOMAIN-SUFFIX,sngapm.qq.com # QQ 性能监测与 SDK 行为上报接口  
-DOMAIN-SUFFIX,connect.qq.com # QQ 互联登录与 OAuth 接口域名  
-DOMAIN-SUFFIX,imgcache.qq.com # QQ 图片缓存与 CDN 加速域名  
-DOMAIN-SUFFIX,ovscdns.com # QQ 云服务与跳转中转节点  
-DOMAIN-SUFFIX,qlogo.cn # QQ 头像 CDN 与标识服务域名  
-DOMAIN-SUFFIX,icq.com # 旧版 QQ 国际服务（ICQ）跳转域名  
+DOMAIN-SUFFIX,qq.com # 腾讯 QQ 主域名，用于即时通信、账号体系与相关基础服务访问
+DOMAIN-SUFFIX,myqq.com # QQ 账号管理与辅助服务域名，用于用户信息维护与功能支持
+DOMAIN-SUFFIX,tenpay.com # QQ 钱包支付服务域名，用于支付结算与交易相关接口访问
+DOMAIN-SUFFIX,qpic.cn # QQ 系列产品静态资源 CDN 域名，用于头像与图片内容分发
+DOMAIN-SUFFIX,gtimg.cn # 腾讯通用 CDN 域名，用于 QQ 及其他腾讯产品的静态资源加载
+DOMAIN-SUFFIX,mail.qq.com # QQ 邮箱主站域名，用于邮件访问与管理服务
+DOMAIN-SUFFIX,foxmail.com # 腾讯旗下 Foxmail 邮件客户端服务域名
+DOMAIN-SUFFIX,qqmail.com # QQ 邮箱服务跳转与别名域名，用于邮件系统访问
+DOMAIN-SUFFIX,mqqpay.com # QQ 钱包相关支付接口域名，用于客户端支付与结算服务
+DOMAIN-SUFFIX,open.tenpay.com # QQ 钱包开放平台接口域名，用于第三方接入支付服务
+DOMAIN-SUFFIX,aq.qq.com # QQ 安全中心服务域名，用于账号保护提示与安全相关页面访问
+DOMAIN-SUFFIX,btrace.qq.com # QQ 客户端运行数据与状态信息上报接口
+DOMAIN-SUFFIX,isdspeed.qq.com # QQ 客户端网络状态与连接质量信息接口
+DOMAIN-SUFFIX,sngapm.qq.com # QQ 应用性能与运行状态相关服务接口
+DOMAIN-SUFFIX,connect.qq.com # QQ 互联登录与 OAuth 授权服务接口域名
+DOMAIN-SUFFIX,imgcache.qq.com # QQ 图片内容缓存与加速 CDN 域名
+DOMAIN-SUFFIX,ovscdns.com # 腾讯相关网络访问中转与调度节点域名
+DOMAIN-SUFFIX,qlogo.cn # QQ 用户头像与标识资源 CDN 域名
+DOMAIN-SUFFIX,icq.com # 腾讯旗下 ICQ 国际即时通信服务相关域名
 
 # > 字节 相关域名
 
