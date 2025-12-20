@@ -280,19 +280,19 @@ DOMAIN-SUFFIX,ysfpay.com # 云闪付支付服务入口与收银台相关接口�
 
 # > 财付通 / QQ 钱包相关域名（Tenpay & QQ Wallet）
 
-DOMAIN-SUFFIX,tenpay.com # 财付通主域名，用于支付交易、账户管理等服务  
-DOMAIN-SUFFIX,qpay.tenpay.com # QQ 钱包支付接口域名，服务于微信及 QQ 端内支付请求  
-DOMAIN-SUFFIX,api.mch.weixin.qq.com # 微信商户支付接口域名，用于订单创建与支付对账  
-DOMAIN-SUFFIX,api.qpay.qq.com # QQ 钱包商户支付接口，提供扫码、支付通知等功能  
-DOMAIN-SUFFIX,wx.tenpay.com # 微信支付跳转域名，用于网页支付与 H5 跳转收银台  
-DOMAIN-SUFFIX,h5pay.qq.com # QQ 钱包 H5 支付页面域名，用于网页内支付流程  
-DOMAIN-SUFFIX,mqq.tenpay.com # QQ 钱包移动端接口域名，服务于客户端内支付调用  
-DOMAIN-SUFFIX,secure.tenpay.com # 财付通安全验证与登录域名，涉及账户安全验证  
-DOMAIN-SUFFIX,stat.tenpay.com # 财付通行为统计与日志上报域名  
-DOMAIN-SUFFIX,payapp.weixin.qq.com # 微信支付移动端入口域名，用于小程序内支付  
-DOMAIN-SUFFIX,sz.tenpay.com # 财付通深圳机房域名，承担部分支付与验证请求  
+DOMAIN-SUFFIX,tenpay.com # 财付通主域名，用于支付交易、账户管理与清算服务  
+DOMAIN-SUFFIX,qpay.tenpay.com # QQ 钱包支付接口域名，服务于 QQ / 微信体系内的支付请求  
+DOMAIN-SUFFIX,api.mch.weixin.qq.com # 微信商户支付接口域名，用于订单创建、支付通知与对账流程  
+DOMAIN-SUFFIX,api.qpay.qq.com # QQ 钱包商户支付接口，提供扫码支付、支付回调与交易通知功能  
+DOMAIN-SUFFIX,wx.tenpay.com # 微信支付跳转域名，用于网页支付与 H5 场景下的收银台跳转  
+DOMAIN-SUFFIX,h5pay.qq.com # QQ 钱包 H5 支付页面域名，用于网页内嵌支付流程  
+DOMAIN-SUFFIX,mqq.tenpay.com # QQ 钱包移动端支付接口域名，服务于客户端内支付调用  
+DOMAIN-SUFFIX,secure.tenpay.com # 财付通安全验证与风控域名，用于登录校验与支付安全验证  
+DOMAIN-SUFFIX,stat.tenpay.com # 财付通行为统计与交易日志上报域名  
+DOMAIN-SUFFIX,payapp.weixin.qq.com # 微信支付移动端入口域名，用于小程序与 App 内支付流程  
+DOMAIN-SUFFIX,sz.tenpay.com # 财付通深圳机房服务域名，承担部分支付与安全验证请求  
 DOMAIN-SUFFIX,wap.tenpay.com # 财付通 WAP 网页支付入口，用于旧版移动支付页面  
-DOMAIN-SUFFIX,qpay.qq.com # QQ 钱包服务站点，用于活动展示与账户接口调用  
+DOMAIN-SUFFIX,qpay.qq.com # QQ 钱包服务站点域名，用于活动展示、账户服务与支付入口
 
 # > 高德地图相关域名（AutoNavi / AMap）
 
