@@ -573,12 +573,12 @@ DOMAIN-SUFFIX,imfile.imdada.cn # 达达骑士平台文件与媒体资源服务�
 
 # > UU 跑腿相关域名（UU Runner）
 
-DOMAIN-SUFFIX,uupaotui.com # UU 跑腿主域名，用于官网、业务入口与订单处理  
-DOMAIN-SUFFIX,api.uupaotui.com # UU 跑腿 API 接口域名，用于任务调度与骑手操作  
-DOMAIN-SUFFIX,passport.uupaotui.com # UU 跑腿统一身份验证平台  
-DOMAIN-SUFFIX,cdn.uupaotui.com # UU 跑腿 CDN 域名，用于客户端静态资源分发  
-DOMAIN-SUFFIX,h5.uupaotui.com # UU 跑腿 H5 页面域名，支持任务查看与状态更新  
-DOMAIN-SUFFIX,oss.uupaotui.com # UU 跑腿对象存储域名，用于图像与附件上传  
+DOMAIN-SUFFIX,uupaotui.com # UU 跑腿同城即时配送平台主域名，用于官网访问与业务服务入口
+DOMAIN-SUFFIX,api.uupaotui.com # UU 跑腿平台核心服务 API 接口域名，用于系统功能与业务支持
+DOMAIN-SUFFIX,passport.uupaotui.com # UU 跑腿用户与骑手统一身份认证服务域名
+DOMAIN-SUFFIX,cdn.uupaotui.com # UU 跑腿静态资源与内容分发 CDN 服务域名
+DOMAIN-SUFFIX,h5.uupaotui.com # UU 跑腿移动端 H5 页面服务域名，用于页面展示与轻量化访问
+DOMAIN-SUFFIX,oss.uupaotui.com # UU 跑腿平台文件与图像资源存储服务域名
 
 # > 顺丰同城骑士相关域名（SF City Delivery）
 
