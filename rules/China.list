@@ -296,24 +296,23 @@ DOMAIN-SUFFIX,qpay.qq.com # QQ 钱包服务站点域名，用于活动展示、�
 
 # > 高德地图相关域名（AutoNavi / AMap）
 
-DOMAIN-SUFFIX,amap.com # 高德地图主站域名，用于地图服务与业务展示  
-DOMAIN-SUFFIX,autonavi.com # 高德公司主域名，API 与开放平台接入服务  
-DOMAIN-SUFFIX,maps.amap.com # 地图数据渲染服务，含静态瓦片加载  
-DOMAIN-SUFFIX,restapi.amap.com # 核心 API 接口服务（路线规划、地理编码等）  
-DOMAIN-SUFFIX,webapi.amap.com # 高德 Web API 接口服务，供网页地图调用  
-DOMAIN-SUFFIX,apilocate.amap.com # 位置信息获取接口（含基站/WiFi辅助定位）  
-DOMAIN-SUFFIX,alog.umeng.com # 高德内置友盟统计接口（用于埋点与遥测）  
-DOMAIN-SUFFIX,apistore.amap.com # 高德 API 商店与开发者平台入口  
-DOMAIN-SUFFIX,track.amap.com # 高德轨迹上传与用户行为采集服务  
-DOMAIN-SUFFIX,sdk.amap.com # 高德地图 SDK 组件加载与更新接口  
-DOMAIN-SUFFIX,resource.autonavi.com # 地图资源文件与动态模块加载服务  
-DOMAIN-SUFFIX,datalink.autonavi.com # 交通数据、实时路况与行为分析接口  
-DOMAIN-SUFFIX,log.amap.com # 高德日志采集与行为上报服务  
-DOMAIN-SUFFIX,ctr.autonavi.com # 广告/内容推荐控制接口，用于广告展示策略  
-DOMAIN-SUFFIX,tracking.autonavi.com # 用户移动轨迹采集与分析服务接口  
-DOMAIN-SUFFIX,amap.com # 高德地图主域名，包含导航、定位、API 服务等
-DOMAIN-SUFFIX,m5-x.amap.com # 高德地图主域名，用于地图瓦片加载及定位服务
-DOMAIN-SUFFIX,dispatcher.is.autonavi.com # 高德地图调度服务接口，用于获取导航服务节点与网络调度信息
+DOMAIN-SUFFIX,amap.com # 高德地图主域名，用于地图、导航、定位与相关服务访问
+DOMAIN-SUFFIX,autonavi.com # 高德软件公司主域名，用于开放平台、API 与相关服务入口
+DOMAIN-SUFFIX,maps.amap.com # 高德地图数据与瓦片资源加载服务域名
+DOMAIN-SUFFIX,restapi.amap.com # 高德地图核心服务接口域名，用于路线规划、地理编码等功能调用
+DOMAIN-SUFFIX,webapi.amap.com # 高德地图 Web API 接口域名，用于网页端地图功能调用
+DOMAIN-SUFFIX,apilocate.amap.com # 高德定位服务接口域名，用于位置信息获取与定位支持
+DOMAIN-SUFFIX,apistore.amap.com # 高德地图 API 商店与开发者平台服务域名
+DOMAIN-SUFFIX,sdk.amap.com # 高德地图 SDK 组件加载与更新服务接口
+DOMAIN-SUFFIX,resource.autonavi.com # 高德地图资源文件与功能模块加载服务域名
+DOMAIN-SUFFIX,dispatcher.is.autonavi.com # 高德地图服务调度接口域名，用于导航与网络节点调度支持
+DOMAIN-SUFFIX,alog.umeng.com # 高德相关客户端运行日志与服务状态接口
+DOMAIN-SUFFIX,log.amap.com # 高德地图服务日志与运行状态相关接口
+DOMAIN-SUFFIX,track.amap.com # 高德地图轨迹与位置相关数据服务接口
+DOMAIN-SUFFIX,tracking.autonavi.com # 高德地图位置与运行状态相关服务接口
+DOMAIN-SUFFIX,datalink.autonavi.com # 高德地图交通与路况相关数据服务接口
+DOMAIN-SUFFIX,ctr.autonavi.com # 高德地图内容与服务分发相关接口
+DOMAIN-SUFFIX,m5-x.amap.com # 高德地图瓦片与定位相关服务节点域名
 
 # > 百度 相关域名
 
