@@ -208,14 +208,14 @@ DOMAIN-SUFFIX,api.wo.cn # 中国联通服务接口域名，用于业务系统接
 
 # > 中国移动服务相关域名
 
-DOMAIN-SUFFIX,10086.cn # 中国移动统一服务域名，用于官网、App 接入与业务办理入口
-DOMAIN-SUFFIX,cmpassport.com # 中国移动认证平台域名，用于一键登录与本机号码校验服务
-DOMAIN-SUFFIX,chinamobile.com # 中国移动集团官网域名，用于企业介绍、公告披露与新闻发布
-DOMAIN-SUFFIX,monternet.com # 中国移动梦网平台域名，用于早期移动增值服务与内容接入
-DOMAIN-SUFFIX,cmcc # 中国移动网络识别标识域名，用于特定内部网络与配置服务
-DOMAIN-SUFFIX,cmvideo.cn # 中国移动咪咕视频主域名，用于视频内容服务与客户端加载
-DOMAIN-SUFFIX,miguvideo.com # 咪咕视频品牌域名，用于内容播放与账户登录服务
-DOMAIN-SUFFIX,api.cmpassport.com # 中国移动号码认证 API 接口域名，用于移动端快速登录与身份验证
+DOMAIN-SUFFIX,10086.cn # 中国移动统一服务入口域名，用于官网访问、应用接入与业务办理
+DOMAIN-SUFFIX,cmpassport.com # 中国移动统一身份认证平台域名，用于用户接入与账号验证服务
+DOMAIN-SUFFIX,api.cmpassport.com # 中国移动身份认证服务接口域名，用于应用与系统的认证调用
+DOMAIN-SUFFIX,chinamobile.com # 中国移动集团官网域名，用于企业信息、公告披露与新闻发布
+DOMAIN-SUFFIX,monternet.com # 中国移动梦网平台域名，用于移动增值服务与内容接入支持
+DOMAIN-SUFFIX,cmcc.net # 中国移动集团网络与内部系统相关服务域名
+DOMAIN-SUFFIX,cmvideo.cn # 中国移动咪咕视频主域名，用于视频内容服务与客户端访问
+DOMAIN-SUFFIX,miguvideo.com # 咪咕视频品牌服务域名，用于内容播放与账号相关服务
 
 # > 中国广电服务相关域名
 
