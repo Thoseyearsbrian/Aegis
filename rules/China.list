@@ -225,15 +225,15 @@ DOMAIN-SUFFIX,chinabroadcast.cn # 中国广播电视网络公司域名，用于�
 DOMAIN-SUFFIX,gdtv.cn # 广东广电网络公司域名，用于区域性广电业务与视频内容服务
 DOMAIN-SUFFIX,cbncloud.cn # 中国广电云平台域名，用于云网融合服务与广播电视云能力入口
 
-# > 工信部及下属机构服务相关域名
+# > 工信部及相关机构服务域名
 
-DOMAIN-SUFFIX,miit.gov.cn # 工业和信息化部官网域名，用于政策发布、行业监管与服务入口
-DOMAIN-SUFFIX,beian.miit.gov.cn # 工信部ICP备案查询系统域名，用于备案号状态与主体信息核验
-DOMAIN-SUFFIX,gov.cn # 中国政府主站通用顶级域名，用于各级政府机关与政务平台
-DOMAIN-SUFFIX,chinadevelopment.com.cn # 工信部下属中国产业发展促进会域名，用于产业政策研究与报告发布
-DOMAIN-SUFFIX,sdpc.gov.cn # 国家发展改革委员会官网域名，涉及通信行业监管与资费政策协同
-DOMAIN-SUFFIX,cert.org.cn # 国家互联网应急中心（CNCERT）域名，用于网络安全事件通报与漏洞信息披露
-DOMAIN-SUFFIX,isc.org.cn # 中国互联网协会域名，用于行业协调、白名单系统与违规举报平台
+DOMAIN-SUFFIX,miit.gov.cn # 工业和信息化部官方网站域名，用于政策发布、行业管理与公共服务入口
+DOMAIN-SUFFIX,beian.miit.gov.cn # 工信部 ICP 备案管理系统域名，用于网站备案信息查询与核验
+DOMAIN-SUFFIX,gov.cn # 中国政府通用政务域名后缀，用于各级政府机构与政务平台服务
+DOMAIN-SUFFIX,chinadevelopment.com.cn # 中国产业发展促进相关组织域名，用于产业研究、政策交流与信息发布
+DOMAIN-SUFFIX,sdpc.gov.cn # 国家发展改革委员会官方网站域名，用于宏观政策发布与行业政策协同
+DOMAIN-SUFFIX,cert.org.cn # 国家互联网应急中心（CNCERT）域名，用于网络安全事件通告与漏洞信息发布
+DOMAIN-SUFFIX,isc.org.cn # 中国互联网协会域名，用于行业自律、信息通报与公共服务平台
 
 # > 中国信息通信研究院服务相关域名
 
