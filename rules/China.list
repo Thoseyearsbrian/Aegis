@@ -444,11 +444,11 @@ DOMAIN-SUFFIX,star.meituan.com # 美团配送相关平台服务接口域名
 
 # > 美团乐跑相关域名（Meituan LePao Delivery）
 
-DOMAIN-SUFFIX,lepaotask.meituan.com # 美团乐跑任务系统域名，用于骑手任务派发与状态上报  
-DOMAIN-SUFFIX,lepaologin.meituan.com # 美团乐跑登录与认证接口，用于骑手身份验证  
-DOMAIN-SUFFIX,lepaoapi.meituan.com # 美团乐跑业务接口域名，处理订单接收与结果回传  
-DOMAIN-SUFFIX,lepaocdn.meituan.com # 美团乐跑资源 CDN 域名，服务骑手端页面与图片加载  
-DOMAIN-SUFFIX,lepaolog.meituan.com # 美团乐跑日志与行为分析接口，用于平台监控与运营分析  
+DOMAIN-SUFFIX,lepaotask.meituan.com # 美团乐跑任务相关服务域名，用于骑手端业务与平台服务支持
+DOMAIN-SUFFIX,lepaologin.meituan.com # 美团乐跑账号登录与认证服务接口域名
+DOMAIN-SUFFIX,lepaoapi.meituan.com # 美团乐跑平台核心服务接口域名
+DOMAIN-SUFFIX,lepaocdn.meituan.com # 美团乐跑静态资源与内容分发 CDN 域名
+DOMAIN-SUFFIX,lepaolog.meituan.com # 美团乐跑平台运行状态与服务日志相关接口域名
 
 # > 蜂鸟众包相关域名（Ele.me Crowdsource Delivery）
 
