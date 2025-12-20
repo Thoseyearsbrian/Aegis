@@ -353,17 +353,17 @@ DOMAIN-SUFFIX,jsapi.16map.com # 第三方地图 JavaScript API 服务域名，�
 
 # > 滴滴出行相关域名（DiDi Chuxing）
 
-DOMAIN-SUFFIX,didiglobal.com # 滴滴国际站主域名，提供海外出行业务服务  
-DOMAIN-SUFFIX,xiaojukeji.com # 滴滴出行主域名，涵盖司机端、乘客端与管理平台服务  
-DOMAIN-SUFFIX,diditaxi.com.cn # 滴滴早期打车业务域名，用于基础出行服务与调度  
-DOMAIN-SUFFIX,didichuxing.com # 滴滴品牌展示与活动页域名  
-DOMAIN-SUFFIX,map.xiaojukeji.com # 滴滴地图与定位服务接口，提供路线规划与定位  
-DOMAIN-SUFFIX,udache.com # 滴滴快车与专车相关服务域名  
-DOMAIN-SUFFIX,dstatic.map.xiaojukeji.com # 滴滴地图静态资源加载域名  
-DOMAIN-SUFFIX,dimg.xiaojukeji.com # 滴滴图片资源 CDN，用于头像、证件等图像加载  
-DOMAIN-SUFFIX,security.xiaojukeji.com # 滴滴安全与风控服务接口，涉及风控与加密请求  
-DOMAIN-SUFFIX,msg.xiaojukeji.com # 滴滴消息推送与通知服务接口  
-DOMAIN-SUFFIX,didialgorithm.com # 滴滴算法平台域名，涉及模型训练与行为分析  
+DOMAIN-SUFFIX,didiglobal.com # 滴滴出行国际业务主域名，用于海外出行服务与相关平台访问
+DOMAIN-SUFFIX,xiaojukeji.com # 滴滴出行核心服务域名，用于乘客端、司机端与平台相关服务
+DOMAIN-SUFFIX,diditaxi.com.cn # 滴滴早期出行业务域名，用于打车服务与调度相关功能
+DOMAIN-SUFFIX,didichuxing.com # 滴滴品牌展示与官方活动相关域名
+DOMAIN-SUFFIX,map.xiaojukeji.com # 滴滴地图与定位相关服务接口域名，用于路线与位置服务支持
+DOMAIN-SUFFIX,udache.com # 滴滴出行相关服务域名，用于网约车与专车业务支持
+DOMAIN-SUFFIX,dstatic.map.xiaojukeji.com # 滴滴地图静态资源加载服务域名
+DOMAIN-SUFFIX,dimg.xiaojukeji.com # 滴滴图像与媒体资源 CDN 域名，用于图片内容加载
+DOMAIN-SUFFIX,security.xiaojukeji.com # 滴滴平台安全相关服务接口域名，用于基础服务保障与通信支持
+DOMAIN-SUFFIX,msg.xiaojukeji.com # 滴滴平台消息与通知服务接口域名
+DOMAIN-SUFFIX,didialgorithm.com # 滴滴平台相关技术与服务支持域名
 
 # > 12306 铁路相关域名（中国铁路客户服务中心）
 
