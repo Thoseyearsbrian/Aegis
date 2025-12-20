@@ -422,14 +422,14 @@ IP-CIDR,61.170.55.7 # 美团平台服务接口相关节点 IP
 
 # > 美团众包相关域名（Meituan Crowdsource Delivery）
 
-DOMAIN-SUFFIX,zhenguo.meituan.com # 美团众包主服务域名，用于骑手任务调度与信息交互  
-DOMAIN-SUFFIX,open.meituan.com # 美团开放平台接口，部分众包业务对接与数据回传  
-DOMAIN-SUFFIX,peisong.meituan.com # 美团配送调度平台，处理订单分发与骑手定位  
-DOMAIN-SUFFIX,ptstar.meituan.com # 美团众包骑手评分与绩效分析系统  
-DOMAIN-SUFFIX,gaea.meituan.com # 美团账号登录鉴权平台，含骑手端认证服务  
-DOMAIN-SUFFIX,mdn.meituan.com # 美团 CDN 服务域名，分发骑手端资源文件  
-DOMAIN-SUFFIX,logistics.meituan.com # 美团物流系统接口，支持订单履约与异常上报  
-DOMAIN-SUFFIX,dreport.meituan.net # 美团数据报表平台，用于任务统计与绩效报表生成  
+DOMAIN-SUFFIX,zhenguo.meituan.com # 美团众包核心服务域名，用于骑手端业务与平台服务访问
+DOMAIN-SUFFIX,open.meituan.com # 美团开放平台接口域名，用于系统对接与服务能力调用
+DOMAIN-SUFFIX,peisong.meituan.com # 美团配送相关服务域名，用于订单履约与配送支持
+DOMAIN-SUFFIX,ptstar.meituan.com # 美团众包相关服务接口域名，用于平台运行与业务支持
+DOMAIN-SUFFIX,gaea.meituan.com # 美团统一账号与认证服务域名，用于骑手与系统登录支持
+DOMAIN-SUFFIX,mdn.meituan.com # 美团内容分发与资源加载 CDN 域名
+DOMAIN-SUFFIX,logistics.meituan.com # 美团物流与履约相关服务接口域名
+DOMAIN-SUFFIX,dreport.meituan.net # 美团平台统计与服务报表相关接口域名
 
 # > 美团专送相关域名（Meituan Express Delivery）
 
