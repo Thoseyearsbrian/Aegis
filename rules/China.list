@@ -400,26 +400,25 @@ DOMAIN-SUFFIX,qunarzz.com # 去哪儿资源分发主域名，用于图像与脚�
 
 # > 美团相关域名
 
-DOMAIN-SUFFIX,meituan.com # 美团主站域名，涵盖外卖、到店、酒旅等服务  
-DOMAIN-SUFFIX,meituan.net # 美团二级服务域名，用于内部接口与内容加载  
-DOMAIN-SUFFIX,meituanapi.com # 美团 API 接口域名，供客户端调用核心功能  
-DOMAIN-SUFFIX,dpfile.com # 美团点评图片 CDN，加载商户图片与用户评论图  
-DOMAIN-SUFFIX,mtimg.com # 美团图片资源域名，用于界面与活动图加载  
-DOMAIN-SUFFIX,meituanusercontent.com # 用户上传内容托管域名，图片与多媒体资源存储  
-DOMAIN-SUFFIX,mt.meituan.com # 美团移动端跳转与页面加载入口  
-DOMAIN-SUFFIX,msp.meituan.com # 美团安全 SDK 接口，用于设备指纹识别与行为采集  
-DOMAIN-SUFFIX,apimobile.meituan.com # 移动 App API 接口，提供订单、支付等服务  
-DOMAIN-SUFFIX,analytics.meituan.net # 数据分析与用户行为上报接口  
-DOMAIN-SUFFIX,mobile.meituan.com # 美团移动端服务域名，用于移动站访问与交互  
-IP-CIDR,101.227.131.171 # Meituan Port Map 接口 IP，用于定位服务或地图数据分发  
-DOMAIN-SUFFIX,maplocatesdksnapshot.d.meituan.net # 美团地图 SDK 快照定位服务接口  
-DOMAIN-SUFFIX,metrics-picture.d.meituan.net # 美团 Metrics 图片监测与上传服务  
-DOMAIN-SUFFIX,al-log.d.meituan.net # 美团行为日志上报接口，用于埋点与性能分析 
-DOMAIN-SUFFIX,p0.pipi.cn # 美团旗下 Pipi 视频内容服务域名，涉及多媒体加载 
-IP-CIDR,101.227.131.171 # Meituan Port Map 接口 IP，用于定位服务或地图数据分发 
-IP-CIDR,61.172.180.223 # 美团 CDN 节点，对应 s3plus.meituan.net 静态资源分发
-IP-CIDR,61.170.111.238 # 美团资源节点 IP，对应 p1.meituan.net 图像资源加载
-IP-CIDR,61.170.55.7 # 美团主站接口节点，对应 w.meituan.net
+DOMAIN-SUFFIX,meituan.com # 美团本地生活服务平台主域名，用于外卖、到店及相关服务访问
+DOMAIN-SUFFIX,meituan.net # 美团相关服务域名，用于平台功能支持与资源加载
+DOMAIN-SUFFIX,meituanapi.com # 美团服务接口域名，用于客户端与系统功能调用
+DOMAIN-SUFFIX,dpfile.com # 美团点评图像资源 CDN 域名，用于商户与内容图片加载
+DOMAIN-SUFFIX,mtimg.com # 美团图像与媒体资源服务域名
+DOMAIN-SUFFIX,meituanusercontent.com # 美团用户上传内容托管域名，用于多媒体资源存储
+DOMAIN-SUFFIX,mt.meituan.com # 美团移动端服务入口域名，用于页面跳转与访问
+DOMAIN-SUFFIX,mobile.meituan.com # 美团移动端服务域名，用于移动站访问与交互支持
+DOMAIN-SUFFIX,apimobile.meituan.com # 美团移动端核心服务接口域名
+DOMAIN-SUFFIX,msp.meituan.com # 美团客户端运行与服务支持相关接口域名
+DOMAIN-SUFFIX,analytics.meituan.net # 美团平台运行状态与服务统计相关接口
+DOMAIN-SUFFIX,maplocatesdksnapshot.d.meituan.net # 美团地图与定位相关服务接口
+DOMAIN-SUFFIX,metrics-picture.d.meituan.net # 美团平台相关媒体资源与服务接口
+DOMAIN-SUFFIX,al-log.d.meituan.net # 美团服务运行日志与状态相关接口
+DOMAIN-SUFFIX,p0.pipi.cn # 美团旗下内容平台相关域名，用于视频与多媒体内容加载
+IP-CIDR,101.227.131.171 # 美团地图与定位相关服务节点 IP
+IP-CIDR,61.172.180.223 # 美团静态资源分发 CDN 节点 IP
+IP-CIDR,61.170.111.238 # 美团图像资源加载服务节点 IP
+IP-CIDR,61.170.55.7 # 美团平台服务接口相关节点 IP
 
 # > 美团众包相关域名（Meituan Crowdsource Delivery）
 
