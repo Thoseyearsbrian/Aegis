@@ -237,13 +237,13 @@ DOMAIN-SUFFIX,isc.org.cn # 中国互联网协会域名，用于行业自律、�
 
 # > 中国信息通信研究院服务相关域名
 
-DOMAIN-SUFFIX,caict.ac.cn # 中国信息通信研究院主站域名，用于政策研究、标准发布与服务平台入口
-DOMAIN-SUFFIX,imt-2020.cn # 信通院主导的 IMT-2020（5G）推进组官网域名，用于技术评测与产业协同
-DOMAIN-SUFFIX,trustai.cn # 信通院可信 AI 评测平台域名，用于大模型评估与算法可信研究
-DOMAIN-SUFFIX,tdis.cn # 可信数字身份标准体系域名，由信通院主导建设
-DOMAIN-SUFFIX,taas.cn # 测试即服务（Test-as-a-Service）平台域名，用于软硬件互通性测评
-DOMAIN-SUFFIX,robotics.ac.cn # 信通院机器人研究平台域名，用于智能制造与机器人系统研究
-DOMAIN-SUFFIX,cstc.org.cn # 中国通信标准化协会（TC）域名，由信通院牵头管理，用于标准协调与发布
+DOMAIN-SUFFIX,caict.ac.cn # 中国信息通信研究院官方网站域名，用于行业研究、标准发布与公共服务平台访问
+DOMAIN-SUFFIX,imt-2020.cn # IMT-2020（5G）相关技术与产业协作平台域名，用于研究成果与评测信息发布
+DOMAIN-SUFFIX,trustai.cn # 可信人工智能评测与研究平台域名，用于算法评估与技术研究相关服务
+DOMAIN-SUFFIX,tdis.cn # 可信数字身份相关标准与服务平台域名，用于身份体系研究与规范发布
+DOMAIN-SUFFIX,taas.cn # 测试即服务（TaaS）平台域名，用于软硬件与系统互通性测试相关服务
+DOMAIN-SUFFIX,robotics.ac.cn # 智能制造与机器人技术研究平台域名，用于相关研究与成果展示
+DOMAIN-SUFFIX,cstc.org.cn # 中国通信标准化相关组织域名，用于通信标准协调、研究与信息发布
 
 # > 通信监管与基础网络服务相关域名
 
