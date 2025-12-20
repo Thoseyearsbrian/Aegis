@@ -146,68 +146,44 @@ DOMAIN-SUFFIX,ovscdns.com # 腾讯相关网络访问中转与调度节点域名
 DOMAIN-SUFFIX,qlogo.cn # QQ 用户头像与标识资源 CDN 域名
 DOMAIN-SUFFIX,icq.com # 腾讯旗下 ICQ 国际即时通信服务相关域名
 
-# > 字节 相关域名
+# > 字节相关域名（ByteDance）
 
-DOMAIN-SUFFIX,doudian.com # 抖店主域名，提供商家后台与订单管理等功能  
-DOMAIN-SUFFIX,fxg.jinritemai.com # 抖音小店接口域名，服务于电商平台的交易流程  
-DOMAIN-SUFFIX,jinritemai.com # 抖音电商（今日特卖）主域名，用于商品展示与活动页  
-DOMAIN-SUFFIX,lfxshop.com # 抖店部分前端资源与推广活动域名  
-DOMAIN-SUFFIX,bytedance.net # 字节跳动全系产品基础网络域名，涉及跳转与认证等  
-DOMAIN-SUFFIX,toutiao.com # 今日头条主站域名，用于内容分发、个性化推荐与账号体系  
-DOMAIN-SUFFIX,toutiaoimg.com # 今日头条图像 CDN 域名，用于加载封面、图文内容等媒体资源  
-DOMAIN-SUFFIX,toutiaocloud.com # 今日头条云服务平台域名，托管部分 API 与中间层服务  
-DOMAIN-SUFFIX,snssdk.com # 字节跳动通用 SDK 接口域名，涵盖埋点分析、激活验证等功能  
-DOMAIN-SUFFIX,pstatp.com # 今日头条与字节跳动系列产品静态资源域名，含图像、脚本与样式加载  
-DOMAIN-SUFFIX,bytedance.net # 字节跳动基础设施与服务接口域名，用于数据上传、远程配置等用途  
-DOMAIN-SUFFIX,ibytedapm.com # 字节跳动 APM 性能监测接口域名，用于采集客户端运行数据  
-DOMAIN-SUFFIX,byteimg.com # 字节跳动图像 CDN 域名，用于图片压缩与内容加速  
-DOMAIN-SUFFIX,bytedns.net # 字节跳动内容加速与调度服务域名，用于智能 DNS 分流与负载均衡  
-DOMAIN-SUFFIX,v96-sz-daily-b.douyinvod.com # 抖音 / Douyin 视频 CDN 节点  
-DOMAIN-SUFFIX,v11-s.douyinvod.com # 抖音 CDN 子节点，用于内容分发与视频加载  
-DOMAIN-SUFFIX,v9-cold.douyinvod.com # 抖音 “cold” 存储节点，用于视频缓存与冷数据分发  
-DOMAIN-SUFFIX,p9-sign.douyinpic.com # 抖音图片／封面 CDN，用于用户头像/封面/图片资源加载  
-DOMAIN-SUFFIX,lf3-static.bytednsdoc.com # ByteDance 文档 / 静态资源分发域名，可能用于内容／脚本／图片加载  
-DOMAIN-SUFFIX,v96‑sz‑daily‑b.douyinvod.com # 抖音 / Douyin 视频 CDN 节点（每日内容分发）  
-DOMAIN-SUFFIX,v11‑s.douyinvod.com # 抖音 CDN 子域，用于内容分发与视频加载  
-DOMAIN-SUFFIX,v9‑cold.douyinvod.com # 抖音 “cold storage” CDN，用于历史/冷数据分发  
-DOMAIN-SUFFIX,p9‑sign.douyinpic.com # 抖音图片资源 / 封面 CDN，用于用户头像/封面/图片加载  
-DOMAIN-SUFFIX,lf3‑static.bytednsdoc.com # ByteDance 静态资源域名，可能用于脚本 / 图片 / 前端资源加载 
-DOMAIN-SUFFIX,p26-sign.douyinpic.com # 抖音图片资源 CDN — 视频封面 / 缩略图 / 封面图 加载
-DOMAIN-SUFFIX,p3-sign.douyinpic.com # 抖音图片资源 CDN — 封面图 / 缩略图 加载备用域名
-DOMAIN-SUFFIX,v11‑magicarena‑v.365yg.com # 抖音/今日头条生态视频资源 / 内容分发 CDN，用于短视频流与内容加载
-DOMAIN-SUFFIX,v26‑magicarena‑v.365yg.com # 同上 — 视频资源 / 内容分发 CDN，用于短视频流加载
-DOMAIN-SUFFIX,365yg.com # 字节跳动内容服务主域名，覆盖今日头条 / 抖音 / 西瓜视频等内容加载请求
-DOMAIN-SUFFIX,v11-default.365yg.com # 字节跳动 CDN 节点域名，用于视频内容分发与短视频流媒体加载
-DOMAIN-SUFFIX,lf16-static.bytepluscdn.com # BytePlus 静态资源 CDN，用于加载图片、脚本与 Web 组件资源
-DOMAIN-SUFFIX,vcs-s-sg.byteintl.com # 火山引擎音视频服务节点，用于视频通信（VCS）SDK 的媒体流加载
-DOMAIN-SUFFIX,www.volcengine.com # 火山引擎官网主站，用于产品介绍、文档与控制台跳转
-DOMAIN-SUFFIX,lf3-beecdn.bytetos.com # 字节跳动 CDN 域名，用于 Web 应用脚本、组件、样式加载
-DOMAIN-SUFFIX,console.volcengine.com # 火山引擎控制台登录域名，用于账号认证、资源管理与调用配置
-DOMAIN-SUFFIX,lf-c-flwb.bytetos.com # 字节跳动静态 CDN 节点，用于图像 / 视频预览资源加载
-DOMAIN-SUFFIX,lf-cdn-tos.bytescm.com # 字节跳动 / ByteDance CDN 域名 — 用于静态资源 / 媒体内容分发与加载  
-DOMAIN-SUFFIX,p6-passport.byteacctimg.com # ByteDance 用户头像 CDN 节点 — 用户头像 / 头像缩略图 / 头像资源加载
-DOMAIN-SUFFIX,p3-passport.byteacctimg.com # ByteDance 用户头像 CDN 备用节点 — 用于头像 / 资源加载备用域名
-DOMAIN-SUFFIX,p26-passport.byteacctimg.com # ByteDance 用户头像 CDN 节点 — 用于用户头像 / 资源加载及展示
-DOMAIN-SUFFIX,lf3-cdn-tos.bytescm.com # 字节跳动第三方资源 CDN 节点，用于分发静态脚本、图像、字体等前端资源，广泛用于其系产品如抖音、今日头条等
-DOMAIN-SUFFIX,v26-cold.douyinvod.com # Douyin CDN 内容资源分发域名，用于视频冷数据加载
-DOMAIN-SUFFIX,v5-gzb2-hl-bd-cn-coldy.douyinvod.com # Douyin CDN 节点，分发抖音视频静态内容（冷存储）
-DOMAIN-SUFFIX,v27-wha.douyinvod.com # 抖音系视频资源 CDN 加载节点，通常用于 App 视频内容分发
-IP-CIDR,180.163.132.102/32  # p6.douyinpic.com，抖音图片 CDN 节点，承担内容加载任务
-IP-CIDR,117.68.5.176/32  # lf9-font-sign.bytehwm.com，字节跳动字体加载服务节点
-IP-CIDR,106.38.222.179/32 # webcast100‑ws‑c‑hl.amemv.com 抖音 / 直播 WebSocket 服务节点  
-IP-CIDR,114.80.11.5/32 # webcast‑normal‑m.amemv.com 抖音 / 直播服务节点  
-IP-CIDR,140.249.108.50/32 # webcast‑core‑m.amemv.com 抖音 / 直播核心节点  
-IP-CIDR,36.41.168.235/32 # 流媒体节点，用于 flv 视频流 / 点播／直播服务  
-IP-CIDR,61.152.119.171/32 # aggr5-normal-s19.amemv.com 抖音聚合服务节点，用于视频分发或通信请求  
-IP-CIDR,180.163.145.52/32 # mon0-misc-hl.amemv.com 字节跳动通用服务节点，可能用于辅助功能加载  
-IP-CIDR,114.80.11.12/32 # ma5-normal-lq.zijieapi.com 字节跳动 API 节点，涉及内容加载与用户请求  
-IP-CIDR,49.7.47.99/32 # frontier.snssdk.com 字节跳动边缘服务节点，用于内容分发与策略调度  
-IP-CIDR,106.38.222.27/32 # bytelink100-ws-hl.amemv.com WebSocket 通信节点，可能用于实时连接（如评论、推送）  
-IP-CIDR,61.155.39.13/32 # frontier-aweme-hj-ipainner.amemv.com 字节跳动边缘节点，涉及数据流转与访问优化
-IP-CIDR,106.38.222.179/32 # webcast100-ws-c-hl.amemv.com 抖音 / 直播 WebSocket 服务节点  
-IP-CIDR,114.80.11.5/32 # webcast-normal-m.amemv.com 抖音 / 直播服务节点  
-IP-CIDR,140.249.108.50/32 # webcast-core-m.amemv.com 抖音 / 直播核心节点  
-IP-CIDR,36.41.168.235/32 # 视频流媒体节点，用于 flv 直播/点播服务  
+DOMAIN-SUFFIX,doudian.com # 抖店主域名，用于电商商家后台与订单管理服务
+DOMAIN-SUFFIX,fxg.jinritemai.com # 抖音电商相关接口域名，用于交易流程与订单处理
+DOMAIN-SUFFIX,jinritemai.com # 抖音电商主域名，用于商品展示与电商活动页面访问
+DOMAIN-SUFFIX,lfxshop.com # 抖店前端页面与活动相关服务域名
+DOMAIN-SUFFIX,bytedance.net # 字节跳动通用基础服务域名，用于跳转、认证与服务支持
+DOMAIN-SUFFIX,toutiao.com # 今日头条主站域名，用于内容访问与账号相关服务
+DOMAIN-SUFFIX,toutiaoimg.com # 今日头条图像与媒体资源 CDN 域名
+DOMAIN-SUFFIX,toutiaocloud.com # 字节跳动内容相关云服务域名，用于部分中间层与接口服务
+DOMAIN-SUFFIX,snssdk.com # 字节跳动通用客户端 SDK 服务接口域名
+DOMAIN-SUFFIX,pstatp.com # 字节跳动产品通用静态资源分发域名
+DOMAIN-SUFFIX,ibytedapm.com # 字节跳动应用运行状态相关服务接口域名
+DOMAIN-SUFFIX,byteimg.com # 字节跳动图像内容分发 CDN 域名
+DOMAIN-SUFFIX,bytedns.net # 字节跳动内容调度与加速服务域名
+DOMAIN-SUFFIX,365yg.com # 字节跳动内容服务主域名，覆盖头条与视频内容访问
+DOMAIN-SUFFIX,bytepluscdn.com # BytePlus 静态资源与内容分发 CDN 域名
+DOMAIN-SUFFIX,byteintl.com # 字节跳动国际化服务相关域名
+DOMAIN-SUFFIX,volcengine.com # 火山引擎云服务品牌与控制台入口域名
+DOMAIN-SUFFIX,bytetos.com # 字节跳动对象存储与静态资源服务域名
+DOMAIN-SUFFIX,bytescm.com # 字节跳动内容分发与资源加速 CDN 域名
+DOMAIN-SUFFIX,byteacctimg.com # 字节跳动账号头像与标识资源 CDN 域名
+DOMAIN-SUFFIX,bytednsdoc.com # 字节跳动文档与静态资源分发域名
+DOMAIN-SUFFIX,douyinvod.com # 抖音视频内容分发 CDN 域名
+DOMAIN-SUFFIX,douyinpic.com # 抖音图片与封面资源 CDN 域名
+DOMAIN-SUFFIX,amemv.com # 抖音直播与实时通信相关服务域名
+DOMAIN-SUFFIX,zijieapi.com # 字节跳动 API 服务接口域名
+IP-CIDR,180.163.132.102/32 # 抖音图片资源 CDN 节点 IP
+IP-CIDR,117.68.5.176/32 # 字节跳动字体与前端资源加载节点 IP
+IP-CIDR,106.38.222.179/32 # 抖音直播 WebSocket 服务节点 IP
+IP-CIDR,114.80.11.5/32 # 抖音直播服务相关节点 IP
+IP-CIDR,140.249.108.50/32 # 抖音直播核心服务节点 IP
+IP-CIDR,36.41.168.235/32 # 字节跳动流媒体内容分发节点 IP
+IP-CIDR,61.152.119.171/32 # 抖音内容聚合与分发服务节点 IP
+IP-CIDR,114.80.11.12/32 # 字节跳动 API 服务相关节点 IP
+IP-CIDR,49.7.47.99/32 # 字节跳动边缘调度与内容分发节点 IP
+IP-CIDR,106.38.222.27/32 # 字节跳动实时通信 WebSocket 节点 IP
+IP-CIDR,61.155.39.13/32 # 字节跳动边缘服务与访问优化节点 IP
 
 # > 中国电信服务相关域名
 
