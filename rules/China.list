@@ -345,11 +345,11 @@ DOMAIN-SUFFIX,m.baeapps.com # 百度应用引擎相关资源与服务接口域�
 
 # > 16map 地图服务平台（第三方地图嵌入与位置服务）
 
-DOMAIN-SUFFIX,16map.com # 第三方地图服务平台主页，提供位置定位与地图嵌入服务
-DOMAIN-SUFFIX,api.16map.com # 地图服务 API 接口，用于坐标转换与位置解析，可能涉及位置回传
-DOMAIN-SUFFIX,static.16map.com # 静态资源子域，加载地图相关的 JS / CSS / 图片等前端资源
-DOMAIN-SUFFIX,cache.16map.com # 地图缓存节点，提升地图加载效率，常用于客户端离线资源管理
-DOMAIN-SUFFIX,jsapi.16map.com # JavaScript API 控件接口，供网页嵌入地图与调用定位服务
+DOMAIN-SUFFIX,16map.com # 第三方地图服务平台主域名，用于地图展示、位置服务与嵌入式应用访问
+DOMAIN-SUFFIX,api.16map.com # 第三方地图与位置服务 API 接口域名，用于坐标处理与位置解析
+DOMAIN-SUFFIX,static.16map.com # 地图相关静态资源服务域名，用于加载 JS、CSS 与图像等前端资源
+DOMAIN-SUFFIX,cache.16map.com # 地图数据缓存与加速服务域名，用于提升地图加载效率
+DOMAIN-SUFFIX,jsapi.16map.com # 第三方地图 JavaScript API 服务域名，用于网页端地图嵌入与功能调用
 
 # > 滴滴出行相关域名（DiDi Chuxing）
 
