@@ -111,10 +111,6 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
 
 ### Video Tutorial
 
-Beginner-Friendly Surge Guide · macOS (4K) ｜Click the thumbnail to watch on YouTube
-
-[![Beginner-Friendly Surge Guide · macOS (4K)](https://img.youtube.com/vi/ano6ysBlD5s/maxresdefault.jpg)](https://youtu.be/ano6ysBlD5s)
-
 Beginner-Friendly Surge Guide · iOS (4K) ｜Click the thumbnail to watch on YouTube
 
 <p align="center">
@@ -124,6 +120,10 @@ Beginner-Friendly Surge Guide · iOS (4K) ｜Click the thumbnail to watch on You
        width="600" />
 </a>
 </p>
+
+Beginner-Friendly Surge Guide · macOS (4K) ｜Click the thumbnail to watch on YouTube
+
+[![Beginner-Friendly Surge Guide · macOS (4K)](https://img.youtube.com/vi/ano6ysBlD5s/maxresdefault.jpg)](https://youtu.be/ano6ysBlD5s)
 
 ## ⚠️ Important Notes
 

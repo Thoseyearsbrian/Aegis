@@ -111,10 +111,6 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 ### 视频教程
 
-零基础 Surge 教程 · macOS（4K）｜点击封面跳转至 YouTube 观看
-
-[![零基础 Surge 教程 · macOS（4K）](https://img.youtube.com/vi/ano6ysBlD5s/maxresdefault.jpg)](https://youtu.be/ano6ysBlD5s)
-
 零基础 Surge 教程 · iOS（4K）｜点击封面跳转至 YouTube 观看
 
 <p align="center">
@@ -124,6 +120,10 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
        width="600" />
 </a>
 </p>
+
+零基础 Surge 教程 · macOS（4K）｜点击封面跳转至 YouTube 观看
+
+[![零基础 Surge 教程 · macOS（4K）](https://img.youtube.com/vi/ano6ysBlD5s/maxresdefault.jpg)](https://youtu.be/ano6ysBlD5s)
 
 ## ⚠️ 注意事项
 
