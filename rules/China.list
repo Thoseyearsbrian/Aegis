@@ -562,14 +562,14 @@ DOMAIN-SUFFIX,h5.dianwoda.com # 点我达移动端 H5 页面服务域名，用�
 
 # > 达达骑士相关域名（Dada Delivery）
 
-DOMAIN-SUFFIX,imdada.cn # 达达骑士服务主域名，用于调度、任务处理与位置同步  
-DOMAIN-SUFFIX,newimdada.cn # 达达新版服务接口域名，用于订单处理与骑手平台功能  
-DOMAIN-SUFFIX,passport.imdada.cn # 达达身份验证与统一登录平台  
-DOMAIN-SUFFIX,api.imdada.cn # 达达 API 服务接口，处理骑手任务调度与订单信息  
-DOMAIN-SUFFIX,track.imdada.cn # 达达实时位置上报与轨迹追踪接口  
-DOMAIN-SUFFIX,cdn.imdada.cn # 达达静态资源 CDN，提供 APP 资源与 H5 页面加载  
-DOMAIN-SUFFIX,activity.imdada.cn # 达达骑士端激励与奖励活动域名  
-DOMAIN-SUFFIX,imfile.imdada.cn # 达达文件服务域名，用于上传图片、文件等资源  
+DOMAIN-SUFFIX,imdada.cn # 达达骑士平台主域名，用于骑手端与平台相关服务访问
+DOMAIN-SUFFIX,newimdada.cn # 达达骑士新版平台相关服务接口域名
+DOMAIN-SUFFIX,passport.imdada.cn # 达达骑士用户注册、登录与身份认证服务域名
+DOMAIN-SUFFIX,api.imdada.cn # 达达骑士平台核心服务 API 接口域名
+DOMAIN-SUFFIX,track.imdada.cn # 达达骑士平台相关服务接口域名
+DOMAIN-SUFFIX,cdn.imdada.cn # 达达骑士静态资源与内容分发 CDN 服务域名
+DOMAIN-SUFFIX,activity.imdada.cn # 达达骑士活动与内容展示相关服务域名
+DOMAIN-SUFFIX,imfile.imdada.cn # 达达骑士平台文件与媒体资源服务域名
 
 # > UU 跑腿相关域名（UU Runner）
 
