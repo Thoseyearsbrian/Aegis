@@ -115,6 +115,16 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 [![零基础 Surge 教程 · macOS（4K）](https://img.youtube.com/vi/ano6ysBlD5s/maxresdefault.jpg)](https://youtu.be/ano6ysBlD5s)
 
+零基础 Surge 教程 · iOS（4K）｜点击封面跳转至 YouTube 观看
+
+<p align="center">
+<a href="https://youtu.be/cKhRdQF5FTo">
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/Surge%20Beginner%20Tutorial%20%C2%B7%20iOS%20(4K)%20-%20Cover.png"
+       alt="零基础 Surge 教程 · iOS（4K）"
+       width="600" />
+</a>
+</p>
+
 ## ⚠️ 注意事项
 
 1. **务必启用规则模式（Rule Mode），否则 Aegis 规则集可能无法执行任何防护、分流或拦截机制**
