@@ -109,21 +109,20 @@ DOMAIN-SUFFIX,conf.map.qq.com # 腾讯地图组件动态配置接口，用于小
 
 # > 腾讯游戏域名（王者荣耀 / 和平精英）
 
-DOMAIN-SUFFIX,tencentgames.com # 腾讯游戏主站域名，用于游戏介绍与活动展示  
-DOMAIN-SUFFIX,igame.qq.com # 腾讯游戏平台入口，涵盖多款热门游戏  
-DOMAIN-SUFFIX,gamecenter.qq.com # 腾讯游戏中心服务域名，用于用户信息与启动器交互  
-DOMAIN-SUFFIX,kgame.qq.com # 王者荣耀登录与活动接口域名  
-DOMAIN-SUFFIX,king.qq.com # 王者荣耀官网主域名  
-DOMAIN-SUFFIX,webstatic.mihoyo.com # 王者荣耀部分活动页使用的 Web 托管域名  
-DOMAIN-SUFFIX,api.kg.qq.com # 王者荣耀语音房、战绩服务等接口  
-DOMAIN-SUFFIX,pg.qq.com # 和平精英官网主域名  
-DOMAIN-SUFFIX,fp.ps.qq.com # 和平精英反作弊服务接口（鹰眼系统）  
-DOMAIN-SUFFIX,syzs.qq.com # 和平精英实名认证与安全登录接口  
-DOMAIN-SUFFIX,gvoice.tencent.com # 腾讯 GVoice 语音通信服务，用于游戏内语音功能  
-DOMAIN-SUFFIX,bugly.qq.com # 腾讯 Bugly 崩溃日志与错误上报平台，多个游戏接入  
-DOMAIN-SUFFIX,dlied1.qq.com # 腾讯游戏下载 CDN
-DOMAIN-SUFFIX,dlied2.qq.com # 腾讯游戏下载 CDN
-DOMAIN-SUFFIX,egame.qq.com # 腾讯先游 / 电竞平台
+DOMAIN-SUFFIX,tencentgames.com # 腾讯游戏官方网站主域名，用于游戏产品介绍、品牌展示与官方活动页面
+DOMAIN-SUFFIX,igame.qq.com # 腾讯游戏平台入口域名，承载多款腾讯系游戏的下载、启动与账号关联服务
+DOMAIN-SUFFIX,gamecenter.qq.com # 腾讯游戏中心服务域名，用于用户账号信息同步、游戏启动与平台交互
+DOMAIN-SUFFIX,kgame.qq.com # 王者荣耀核心服务域名，涉及登录鉴权、活动页面与部分游戏接口调用
+DOMAIN-SUFFIX,king.qq.com # 王者荣耀官方网站主域名，用于游戏资讯、版本公告与活动展示
+DOMAIN-SUFFIX,api.kg.qq.com # 王者荣耀后端服务接口域名，涵盖语音房、战绩查询与游戏内功能支持
+DOMAIN-SUFFIX,pg.qq.com # 和平精英官方网站主域名，用于游戏介绍、赛事信息与活动页面访问
+DOMAIN-SUFFIX,fp.ps.qq.com # 和平精英反作弊系统接口域名（鹰眼系统），用于作弊检测与安全防护
+DOMAIN-SUFFIX,syzs.qq.com # 和平精英实名认证与安全登录接口域名，涉及账号实名校验与合规验证
+DOMAIN-SUFFIX,gvoice.tencent.com # 腾讯 GVoice 实时语音通信服务域名，用于游戏内语音聊天与多人通信
+DOMAIN-SUFFIX,bugly.qq.com # 腾讯 Bugly 崩溃日志与错误上报平台域名，多个腾讯游戏用于稳定性监测
+DOMAIN-SUFFIX,dlied1.qq.com # 腾讯游戏下载与更新 CDN 节点，用于分发游戏客户端与资源文件
+DOMAIN-SUFFIX,dlied2.qq.com # 腾讯游戏下载与更新 CDN 备用节点，用于客户端资源分发与负载均衡
+DOMAIN-SUFFIX,egame.qq.com # 腾讯先游 / 电竞平台服务域名，涉及云游戏体验、赛事与内容分发
 
 # > QQ 相关域名
 
