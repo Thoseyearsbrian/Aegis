@@ -187,13 +187,13 @@ IP-CIDR,61.155.39.13/32 # 字节跳动边缘服务与访问优化节点 IP
 
 # > 中国电信服务相关域名
 
-DOMAIN-SUFFIX,21cn.com # 中国电信旗下 21CN 网站与业务域名，用于企业服务与通信接口
-DOMAIN-SUFFIX,api-e189.21cn.com # 中国电信号码认证接口域名，用于本机校验与三网认证服务
-DOMAIN-SUFFIX,e189.cn # 中国电信统一服务入口域名，用于官网、App 接入等在线服务
-DOMAIN-SUFFIX,ct10000.com # 中国电信 10000 号门户域名，用于用户服务、宽带业务查询
-DOMAIN-SUFFIX,chinatelecom-h.com # 中国电信控股公司域名，用于集团官网及资本市场信息披露
-DOMAIN-SUFFIX,chinatelecomglobal.com # 中国电信国际公司域名，用于全球业务与网络接入
-DOMAIN-SUFFIX,chinatelecom.com.cn # 中国电信主官网域名，涵盖公司介绍、业务入口与公共服务
+DOMAIN-SUFFIX,21cn.com # 中国电信旗下 21CN 服务域名，用于企业级通信服务与相关业务支持
+DOMAIN-SUFFIX,api-e189.21cn.com # 中国电信号码与身份相关服务接口域名，用于用户接入与服务验证
+DOMAIN-SUFFIX,e189.cn # 中国电信统一服务入口域名，用于官网、应用与在线业务访问
+DOMAIN-SUFFIX,ct10000.com # 中国电信 10000 号服务门户域名，用于用户服务、业务查询与支持入口
+DOMAIN-SUFFIX,chinatelecom-h.com # 中国电信控股公司域名，用于集团信息与资本市场相关内容发布
+DOMAIN-SUFFIX,chinatelecomglobal.com # 中国电信国际业务域名，用于全球网络服务与跨境业务接入
+DOMAIN-SUFFIX,chinatelecom.com.cn # 中国电信主官方网站域名，用于公司信息、业务入口与公共服务访问
 
 # > 中国联通服务相关域名
 
