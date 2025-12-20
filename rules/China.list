@@ -86,12 +86,12 @@ DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名，用于云服�
 DOMAIN-SUFFIX,gtimg.cn # 腾讯系产品通用静态资源与多媒体内容分发域名
 DOMAIN-SUFFIX,tencentcloud.com # 腾讯云国际站与品牌入口域名，面向海外用户提供云服务信息
 
-# > QQ邮箱（Tencent Mail）
+# > QQ 邮箱（Tencent Mail）
 
-DOMAIN-SUFFIX,mail.qq.com # QQ邮箱网页主入口与邮件服务接口  
-DOMAIN-SUFFIX,foxmail.com # 腾讯旗下 Foxmail 邮件客户端服务域名  
-DOMAIN-SUFFIX,mywebmail.mail.qq.com # QQ邮箱网页版接口，用于收发邮件等操作  
-DOMAIN-SUFFIX,imgcache.qq.com # 邮箱加载邮件图片的 CDN 域名  
+DOMAIN-SUFFIX,mail.qq.com # QQ 邮箱网页主入口域名，用于邮件访问、管理与基础服务接口
+DOMAIN-SUFFIX,foxmail.com # 腾讯旗下 Foxmail 邮件客户端服务域名，用于客户端通信与邮件同步
+DOMAIN-SUFFIX,mywebmail.mail.qq.com # QQ 邮箱网页版邮件操作接口域名，用于收发邮件与会话处理
+DOMAIN-SUFFIX,imgcache.qq.com # 腾讯邮件系统内容缓存与图片资源加载 CDN 域名
 
 # > 腾讯地图相关域名（Tencent Maps）
 
