@@ -157,6 +157,9 @@ DOMAIN-SUFFIX,toutiao.com # 今日头条主站域名，用于内容访问与账�
 DOMAIN-SUFFIX,toutiaoimg.com # 今日头条图像与媒体资源 CDN 域名
 DOMAIN-SUFFIX,toutiaocloud.com # 字节跳动内容相关云服务域名，用于部分中间层与接口服务
 DOMAIN-SUFFIX,lf-douyin-pc-web.douyinstatic.com # 抖音 PC Web 端前端静态资源域名
+DOMAIN-SUFFIX,lf-static.applogcdn.com # 字节跳动前端静态资源 CDN 域名
+DOMAIN-SUFFIX,sf1-cdn-tos.huoshanstatic.com # 火山引擎对象存储 CDN 域名
+DOMAIN-SUFFIX,lf6-effectcdn-tos.byteeffecttos.com # 字节跳动特效资源 CDN 域名
 DOMAIN-SUFFIX,snssdk.com # 字节跳动通用客户端 SDK 服务接口域名
 DOMAIN-SUFFIX,pstatp.com # 字节跳动产品通用静态资源分发域名
 DOMAIN-SUFFIX,ibytedapm.com # 字节跳动应用运行状态相关服务接口域名
