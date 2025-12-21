@@ -175,6 +175,7 @@ DOMAIN-SUFFIX,volcengine.com # 火山引擎云服务品牌与控制台入口域�
 DOMAIN-SUFFIX,bytetos.com # 字节跳动对象存储与静态资源服务域名
 DOMAIN-SUFFIX,bytescm.com # 字节跳动内容分发与资源加速 CDN 域名
 DOMAIN-SUFFIX,byteacctimg.com # 字节跳动账号头像与标识资源 CDN 域名
+DOMAIN-SUFFIX,douyincdn.com # 抖音官方内容分发与静态资源 CDN 域名
 DOMAIN-SUFFIX,bytednsdoc.com # 字节跳动文档与静态资源分发域名
 DOMAIN-SUFFIX,douyinvod.com # 抖音视频内容分发 CDN 域名
 DOMAIN-SUFFIX,douyinpic.com # 抖音图片与封面资源 CDN 域名
