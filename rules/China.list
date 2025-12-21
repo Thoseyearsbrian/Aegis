@@ -156,10 +156,10 @@ DOMAIN-SUFFIX,bytedance.net # 字节跳动通用基础服务域名，用于跳�
 DOMAIN-SUFFIX,toutiao.com # 今日头条主站域名，用于内容访问与账号相关服务
 DOMAIN-SUFFIX,toutiaoimg.com # 今日头条图像与媒体资源 CDN 域名
 DOMAIN-SUFFIX,toutiaocloud.com # 字节跳动内容相关云服务域名，用于部分中间层与接口服务
-DOMAIN-SUFFIX,lf-douyin-pc-web.douyinstatic.com # 抖音 PC Web 端前端静态资源域名
-DOMAIN-SUFFIX,lf-static.applogcdn.com # 字节跳动前端静态资源 CDN 域名
-DOMAIN-SUFFIX,sf1-cdn-tos.huoshanstatic.com # 火山引擎对象存储 CDN 域名
-DOMAIN-SUFFIX,lf6-effectcdn-tos.byteeffecttos.com # 字节跳动特效资源 CDN 域名
+DOMAIN-SUFFIX,douyinstatic.com # 抖音官方静态资源与媒体内容分发 CDN 域名
+DOMAIN-SUFFIX,applogcdn.com # 字节跳动前端静态资源 CDN 域名
+DOMAIN-SUFFIX,huoshanstatic.com # 火山引擎对象存储 CDN 域名
+DOMAIN-SUFFIX,byteeffecttos.com # 字节跳动特效资源 CDN 域名
 DOMAIN-SUFFIX,snssdk.com # 字节跳动通用客户端 SDK 服务接口域名
 DOMAIN-SUFFIX,pstatp.com # 字节跳动产品通用静态资源分发域名
 DOMAIN-SUFFIX,ibytedapm.com # 字节跳动应用运行状态相关服务接口域名
@@ -177,6 +177,7 @@ DOMAIN-SUFFIX,douyinvod.com # 抖音视频内容分发 CDN 域名
 DOMAIN-SUFFIX,douyinpic.com # 抖音图片与封面资源 CDN 域名
 DOMAIN-SUFFIX,amemv.com # 抖音直播与实时通信相关服务域名
 DOMAIN-SUFFIX,zijieapi.com # 字节跳动 API 服务接口域名
+IP-CIDR,122.14.236.68/32 # 字节跳动 Frontier 边缘服务节点 IP
 IP-CIDR,180.163.132.102/32 # 抖音图片资源 CDN 节点 IP
 IP-CIDR,117.68.5.176/32 # 字节跳动字体与前端资源加载节点 IP
 IP-CIDR,106.38.222.179/32 # 抖音直播 WebSocket 服务节点 IP
