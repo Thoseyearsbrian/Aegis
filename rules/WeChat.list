@@ -19,7 +19,6 @@ DOMAIN-SUFFIX,sglong.weixin.qq.com # 微信海外备用长连接节点（新加�
 DOMAIN-SUFFIX,frlong.weixin.qq.com # 微信海外备用长连接节点（法国）
 DOMAIN-SUFFIX,dns.weixin.qq.com.cn # 微信自有 DNS 解析节点，用于绕过系统 DNS
 DOMAIN-SUFFIX,paydns.wechatpay.cn # 微信支付 DNS 服务域名，用于 mmtls 加密通道初始化
-DOMAIN-SUFFIX,# 微信小程序运行时通信入口
 DOMAIN-SUFFIX,wxsmw.wxs.qq.com # 微信小程序安全模块接口，用于校验与防篡改机制
 DOMAIN-SUFFIX,res.servicewechat.com # 小程序配置、热更新与 JS SDK 模块加载服务
 DOMAIN-SUFFIX,launchwxacode.wxqcloud.qq.com.cn # 微信小程序码生成接口，部署于腾讯云
