@@ -259,7 +259,6 @@ DOMAIN-SUFFIX,tiktokv.com # TikTok 视频内容短链跳转域名（用于外链
 DOMAIN-SUFFIX,ttwstatic.com # TikTok 第三方托管静态资源域名（脚本、插件组件等）
 DOMAIN-SUFFIX,muscdn.com # TikTok 历史内容分发域（旧版本视频、音频资源）
 DOMAIN-SUFFIX,byteoversea.com # 字节跳动国际服务平台域名（TikTok 母公司海外 CDN 与接口）
-DOMAIN-SUFFIX,bytedance.com # 字节跳动官网与底层接口平台（账号、云服务等通用支持）
 IP-CIDR,161.117.0.0/16 # TikTok / ByteDance 海外服务通信段（新加坡集群）
 
 # > 字节跳动视频通话与多媒体通信服务域名（VCS）
