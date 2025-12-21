@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,paydns.wechatpay.cn # 微信支付 DNS 服务域名，用于 mmtls
 DOMAIN-SUFFIX,# 微信头像与用户标识资源 CDN 域名
 DOMAIN-SUFFIX,dldir1v6.qq.com # 腾讯客户端资源下载与更新 CDN 节点
 DOMAIN-SUFFIX,gtimg.wechatpay.cn # 微信支付静态资源与页面组件 CDN 域名
+DOMAIN-SUFFIX,res.wx.qq.com # 微信内置页面前端静态资源域名
 IP-CIDR,124.95.167.111 # 微信安全模块节点 wxsmw.wxs.qq.com 的通信 IP，部署于腾讯云
 IP-CIDR,125.88.145.87/32 # 微信头像与用户标识 CDN 节点
 IP-CIDR,125.88.145.90/32 # 微信头像与用户标识 CDN 节点
@@ -41,6 +42,7 @@ IP-CIDR,125.88.186.121/32 # 微信头像与用户标识 CDN 节点
 IP-CIDR,125.88.186.122/32 # 微信头像与用户标识 CDN 节点
 IP-CIDR,125.88.186.238/32 # 微信头像与用户标识 CDN 节点
 IP-CIDR,116.131.60.71/32 # dldir1v6.qq.com 腾讯客户端资源下载 CDN 节点
+IP-CIDR,61.170.65.78/32 # dldir1v6.qq.com 腾讯 / 微信客户端资源下载与更新 CDN 节点
 
 # > 多媒体与文件传输（Media & File Transfer）
 
