@@ -4,10 +4,12 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-18
+# - 更新时间：2025-12-22
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,apdcdn.tc.qq.com # 小程序广告拉取服务
+DOMAIN-SUFFIX,admaterial.gdtimg.com # 广告素材分发 CDN
 DOMAIN-SUFFIX,adsexo.com # 提供广告主与发布商对接服务，聚焦成人流量广告变现，存在跳转追踪与投放行为
 DOMAIN-SUFFIX,googlesyndication.com # 广告加载 / 商业投放 / 嵌入式广告组件
 DOMAIN-SUFFIX,pagead2.googlesyndication.com # 广告脚本 / 动态加载 / 商业投放资源

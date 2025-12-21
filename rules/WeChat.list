@@ -43,16 +43,6 @@ DOMAIN-SUFFIX,cdn-wechat.com # 微信相关 CDN 资源域名
 DOMAIN-SUFFIX,staticwechat.com # 微信前端静态资源域名
 DOMAIN-SUFFIX,cdnwechat.net # 微信第三方内容分发 CDN
 
-# > 小程序 / 微信支付 / 微信广告（Mini Programs / Pay / Ads）
-
-DOMAIN-SUFFIX,apdcdn.tc.qq.com # 小程序广告拉取服务
-DOMAIN-SUFFIX,adsmind.apdcdn.tc.qq.com # 广告策略与配置下发接口
-DOMAIN-SUFFIX,admaterial.gdtimg.com # 广告素材分发 CDN
-DOMAIN-SUFFIX,adtrack.qq.com # 广告点击与曝光行为追踪接口
-DOMAIN-SUFFIX,lcs.dev.sns.weixin.qq.com # 广告链路监控与调试服务
-DOMAIN-SUFFIX,pingjs.qq.com # 性能与广告相关 JS 埋点服务
-DOMAIN-SUFFIX,badjs.weixinbridge.com # 小程序错误日志收集平台（BadJS）
-
 # > 微信 PC / Web（WeChat Desktop & Web）
 
 DOMAIN-SUFFIX,login.weixin.qq.com # 微信网页登录入口
@@ -66,9 +56,6 @@ DOMAIN-SUFFIX,wework.qpic.cn # 企业微信图像资源域名
 # > 微信 SDK 接口（WeChat SDKs & Tracking）
 
 DOMAIN-SUFFIX,isdspeed.qq.com # SDK 网络测速与质量评估上传接口
-DOMAIN-SUFFIX,report.qq.com # SDK 行为日志与统计数据上报域名
-DOMAIN-SUFFIX,oth.eve.mdt.qq.com # SDK 数据上传接口（EVE 通道）
-DOMAIN-SUFFIX,oth.str.mdt.qq.com # SDK 数据上传接口（STR 通道）
 DOMAIN-SUFFIX,support.weixin.qq.com # 微信开放平台支持与文档页面
 
 # > 微信安全与链接防护（Security & Safe Browsing）
@@ -119,9 +106,7 @@ IP-CIDR,113.105.163.11/32 # 微信头像资源节点（广东联通）
 IP-CIDR,180.101.242.227/32 # 微信 MMTLS 加密通信节点（中国电信）
 IP-CIDR,180.101.242.212/32 # 小程序 MMTLS 加密通信节点（中国电信）
 IP-CIDR,180.163.200.126/32 # 微信 CDN 资源节点（腾讯云）
-IP-CIDR,101.227.131.167/32 # 微信 MMTLS 上报节点（上海联通）
 IP-CIDR,101.227.132.63/32 # 微信 MMTLS 通信节点（上海联通）
-IP-CIDR,101.226.144.240/32 # 微信遥测上报节点（上海联通）
 IP-CIDR,101.226.142.171/32 # 微信 CDN 资源节点（上海联通）
 IP-CIDR,61.151.230.226/32 # 微信 SDK MMTLS 通信节点（江苏联通）
 IP-CIDR,180.111.196.240/32 # 微信通信服务节点（中国电信）
@@ -129,7 +114,6 @@ IP-CIDR,117.89.182.41/32 # 微信小程序 MMTLS 通道（江苏电信）
 IP-CIDR,123.6.40.187/32 # 微信与 QQ 共用 CDN 节点（中国移动）
 IP-CIDR,183.61.169.120/32 # 微信头像资源节点（广东电信）
 IP-CIDR,106.39.206.21/32 # 微信非标准端口通信节点（北京联通）
-IP-CIDR,123.151.48.193/32 # 微信 MMTLS 上报节点（北京联通）
 IP-CIDR,112.65.193.167/32 # 微信加密通信节点（阿里云）
 IP-CIDR,112.65.193.165/32 # 微信加密通信节点（阿里云）
 IP-CIDR,101.91.37.39/32 # 微信加密通信节点（UCloud）

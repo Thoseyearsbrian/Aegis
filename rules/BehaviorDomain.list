@@ -15,9 +15,20 @@ DOMAIN-SUFFIX,tajs.qq.com # JS 性能与稳定性埋点服务
 DOMAIN-SUFFIX,privacy.qq.com # 隐私协议确认与状态上报组件
 DOMAIN-SUFFIX,longcloud.weixin.com # 微信日志与数据回传接口
 DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net # 微信后台统计与性能状态上报节点
+DOMAIN-SUFFIX,admaterial.gdtimg.com # 广告素材分发 CDN
+DOMAIN-SUFFIX,adtrack.qq.com # 广告点击与曝光行为追踪接口
+DOMAIN-SUFFIX,lcs.dev.sns.weixin.qq.com # 广告链路监控与调试服务
+DOMAIN-SUFFIX,pingjs.qq.com # 性能与广告相关 JS 埋点服务
+DOMAIN-SUFFIX,badjs.weixinbridge.com # 小程序错误日志收集平台（BadJS）
+DOMAIN-SUFFIX,report.qq.com # SDK 行为日志与统计数据上报域名
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com # SDK 数据上传接口（EVE 通道）
+DOMAIN-SUFFIX,oth.str.mdt.qq.com # SDK 数据上传接口（STR 通道）
+IP-CIDR,101.227.131.167/32 # 微信 MMTLS 上报节点（上海联通）
+IP-CIDR,123.151.48.193/32 # 微信 MMTLS 上报节点（北京联通）
 IP-CIDR,61.151.230.185/32  # 微信遥测上报节点（江苏联通）
 IP-CIDR,117.89.176.31/32  # 微信遥测加密通信节点（江苏电信）
 IP-CIDR,61.151.230.221/32 # 微信日志与行为上报节点（江苏联通）
+IP-CIDR,101.226.144.240/32 # 微信遥测上报节点（上海联通）
 
 # > Apple 行为遥测服务
 
