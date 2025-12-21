@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,hmma.baidu.com # 微信内嵌浏览器使用的百度统计接口
 DOMAIN-SUFFIX,dldir1v6.qq.com # 微信 / QQ 客户端资源下载与更新 CDN（支持 IPv6）
 DOMAIN-SUFFIX,res.wx.qq.com # 微信内置页面前端静态资源域名
 DOMAIN-SUFFIX,gtimg.wechatpay.cn # 微信支付页面组件与静态资源 CDN
+DOMAIN-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn # 微信相关 COS 对象存储域名
 
 # > 多媒体与文件传输（Media & File Transfer）
 
