@@ -4,7 +4,20 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-19
+# - 更新时间：2025-12-22
+
+# > WeChat 数据统计与遥测
+
+DOMAIN-SUFFIX,tmts.qq.com # 用户行为遥测接口
+DOMAIN-SUFFIX,log.tbs.qq.com # X5 内核日志上报服务
+DOMAIN-SUFFIX,monitor.qq.com # 实时运行状态监控接口
+DOMAIN-SUFFIX,tajs.qq.com # JS 性能与稳定性埋点服务
+DOMAIN-SUFFIX,privacy.qq.com # 隐私协议确认与状态上报组件
+DOMAIN-SUFFIX,longcloud.weixin.com # 微信日志与数据回传接口
+DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net # 微信后台统计与性能状态上报节点
+IP-CIDR,61.151.230.185/32  # 微信遥测上报节点（江苏联通）
+IP-CIDR,117.89.176.31/32  # 微信遥测加密通信节点（江苏电信）
+IP-CIDR,61.151.230.221/32 # 微信日志与行为上报节点（江苏联通）
 
 # > Apple 行为遥测服务
 
