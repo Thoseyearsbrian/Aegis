@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,sglong.weixin.qq.com # 微信海外备用长连接节点（新加�
 DOMAIN-SUFFIX,frlong.weixin.qq.com # 微信海外备用长连接节点（法国）
 DOMAIN-SUFFIX,dns.weixin.qq.com.cn # 微信自有 DNS 解析节点，用于绕过系统 DNS
 DOMAIN-SUFFIX,paydns.wechatpay.cn # 微信支付 DNS 服务域名，用于 mmtls 加密通道初始化
-DOMAIN-SUFFIX,wxapp.tc.qq.com # 微信小程序运行时通信入口
+DOMAIN-SUFFIX,# 微信小程序运行时通信入口
 DOMAIN-SUFFIX,wxsmw.wxs.qq.com # 微信小程序安全模块接口，用于校验与防篡改机制
 DOMAIN-SUFFIX,res.servicewechat.com # 小程序配置、热更新与 JS SDK 模块加载服务
 DOMAIN-SUFFIX,launchwxacode.wxqcloud.qq.com.cn # 微信小程序码生成接口，部署于腾讯云
@@ -128,3 +128,15 @@ IP-CIDR,117.89.177.107/32 # 微信消息通道通信节点（江苏电信）
 IP-CIDR,180.101.242.186/32 # 微信 MMTLS 加密通道节点（中国电信）
 IP-CIDR,183.47.118.206/32 # 微信支付接口通信节点（广东电信）
 IP-CIDR,101.226.137.107/32 # 微信 MMTLS 通信节点（上海联通）
+IP-CIDR,117.68.71.79/32 # 小程序运行时通信节点（中国电信）
+IP-CIDR,117.68.71.12/32 # 小程序运行时通信节点（中国电信）
+IP-CIDR,61.170.73.29/32 # 小程序运行时通信节点（江苏电信）
+IP-CIDR,61.170.72.68/32 # 小程序运行时通信节点（江苏电信）
+IP-CIDR,103.250.252.194/32 # 微信对象存储文件下载节点
+IP-CIDR,103.250.252.195/32 # 微信对象存储文件下载节点
+IP-CIDR,103.250.252.196/32 # 微信对象存储文件下载节点
+IP-CIDR,103.250.252.198/32 # 微信对象存储文件下载节点
+IP-CIDR,103.250.252.201/32 # 微信对象存储文件下载节点
+IP-CIDR,103.250.252.202/32 # 微信对象存储文件下载节点
+IP-CIDR,103.250.253.67/32  # 微信对象存储文件下载节点
+IP-CIDR,103.250.253.68/32  # 微信对象存储文件下载节点
