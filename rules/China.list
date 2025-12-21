@@ -160,6 +160,7 @@ DOMAIN-SUFFIX,douyinstatic.com # 抖音官方静态资源与媒体内容分发 C
 DOMAIN-SUFFIX,applogcdn.com # 字节跳动前端静态资源 CDN 域名
 DOMAIN-SUFFIX,huoshanstatic.com # 火山引擎对象存储 CDN 域名
 DOMAIN-SUFFIX,byteeffecttos.com # 字节跳动特效资源 CDN 域名
+DOMAIN-SUFFIX,ndcpp.com # 字节跳动视频计算与边缘基础设施服务域名
 DOMAIN-SUFFIX,snssdk.com # 字节跳动通用客户端 SDK 服务接口域名
 DOMAIN-SUFFIX,pstatp.com # 字节跳动产品通用静态资源分发域名
 DOMAIN-SUFFIX,ibytedapm.com # 字节跳动应用运行状态相关服务接口域名
