@@ -152,9 +152,7 @@ DOMAIN-SUFFIX,lishi.fm # 历史FM（播客平台）
 
 # > 短视频平台
 
-DOMAIN-SUFFIX,douyin.com # 抖音主站域名
 DOMAIN-SUFFIX,amemv.com # 抖音视频资源域名
-DOMAIN-SUFFIX,iesdouyin.com # 抖音内容接口域名
 DOMAIN-SUFFIX,snssdk.com # 字节跳动旗下通用 SDK 接口
 DOMAIN-SUFFIX,pstatp.com # 抖音静态资源 CDN 域名
 DOMAIN-SUFFIX,toutiao.com # 今日头条主站（抖音广告分发源）
