@@ -170,6 +170,7 @@ DOMAIN-SUFFIX,byteimg.com # 字节跳动图像内容分发 CDN 域名
 DOMAIN-SUFFIX,bytedns.net # 字节跳动内容调度与加速服务域名
 DOMAIN-SUFFIX,365yg.com # 字节跳动内容服务主域名，覆盖头条与视频内容访问
 DOMAIN-SUFFIX,bytepluscdn.com # BytePlus 静态资源与内容分发 CDN 域名
+DOMAIN-SUFFIX,bdxiguaimg.com # 字节跳动西瓜视频图片与静态资源 CDN 域名
 DOMAIN-SUFFIX,byteintl.com # 字节跳动国际化服务相关域名
 DOMAIN-SUFFIX,volcengine.com # 火山引擎云服务品牌与控制台入口域名
 DOMAIN-SUFFIX,bytetos.com # 字节跳动对象存储与静态资源服务域名
