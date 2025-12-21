@@ -115,12 +115,19 @@ DOMAIN-SUFFIX,screenshots-v2.kaspersky.com # 卡巴斯基截图上传与远程�
 
 # > Dr.web 相关域名
 
-DOMAIN-SUFFIX,drweb.com # Dr.Web 官方网站，用于产品介绍、下载、防护功能说明等
-DOMAIN-SUFFIX,update.geo.drweb.com # Dr.Web 杀毒软件更新接口（地理分布式更新服务器）
-DOMAIN-SUFFIX,storage.googleapis.com # Dr.Web 云托管内容（用于更新、规则或静态资源分发，可能与其他服务共用）
-DOMAIN-SUFFIX,drweb.cn # Dr.Web 中文资讯 RSS 订阅接口（新闻推送）
-DOMAIN-SUFFIX,DOforum.drweb.com # Dr.Web 杀毒软件官方用户论坛，用于技术支持与社区交流
+DOMAIN-SUFFIX,drweb.com # Dr.Web 官方主站域名，用于产品信息、客户端下载与安全服务说明
+DOMAIN-SUFFIX,update.geo.drweb.com # Dr.Web 杀毒软件官方更新接口，提供分区化病毒库与规则更新服务
+DOMAIN-SUFFIX,storage.googleapis.com # Dr.Web 使用的云存储分发节点（共享云基础设施，用于更新或规则文件分发）
+DOMAIN-SUFFIX,drweb.cn # Dr.Web 中文资讯与信息发布域名（新闻 / 公告 / RSS 订阅）
+DOMAIN-SUFFIX,forum.drweb.com # Dr.Web 官方用户论坛域名，用于技术支持与社区交流
 IP-CIDR,95.216.203.236 # Dr.Web 更新镜像节点,托管于 Hetzner
+IP-CIDR,3.5.134.254/32 # Dr.Web 病毒库与规则更新节点
+IP-CIDR,3.5.136.38/32 # Dr.Web 病毒库与规则更新节点
+IP-CIDR,3.5.138.33/32 # Dr.Web 病毒库与规则更新节点
+IP-CIDR,3.5.138.170/32 # Dr.Web 病毒库与规则更新节点
+IP-CIDR,3.5.139.23/32 # Dr.Web 病毒库与规则更新节点
+IP-CIDR,52.219.75.79/32 # Dr.Web 更新文件分发节点
+IP-CIDR,52.219.169.1/32 # Dr.Web 更新文件分发节点
 
 # > AMZ123 跨境电商平台相关域名
 
