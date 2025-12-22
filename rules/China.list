@@ -1158,20 +1158,27 @@ DOMAIN-SUFFIX,micloud.xiaomi.net # 小米云服务域名，包含同步、备份
 
 # > 华为相关域名（Huawei / HarmonyOS / 云服务）
 
-DOMAIN-SUFFIX,huawei.com # 华为主站与企业官网域名，用于产品介绍与支持服务  
-DOMAIN-SUFFIX,huaweicloud.com # 华为云服务平台，提供 IaaS / PaaS / AI 等服务接口  
-DOMAIN-SUFFIX,vmall.com # 华为商城域名，用户在线购物、下单、查询等服务  
-DOMAIN-SUFFIX,myhuaweicloud.com # 华为云账户与控制台服务接口  
-DOMAIN-SUFFIX,hicloud.com # 华为云同步服务，涉及备份、找回手机等功能  
-DOMAIN-SUFFIX,hispace.hicloud.com # 华为应用市场与服务接口域名  
-DOMAIN-SUFFIX,cloud.huawei.com # 华为云网页端入口，用于管理云资源  
-DOMAIN-SUFFIX,harmonyos.com # 鸿蒙系统官网域名，用于系统介绍与生态展示  
-DOMAIN-SUFFIX,hihonor.com # 荣耀手机原华为子品牌域名，用于产品展示与商城服务  
-DOMAIN-SUFFIX,appgallery.hicloud.com # 华为应用市场服务接口，用于应用更新与分发  
-DOMAIN-SUFFIX,connectivity.hicloud.com # 华为设备间互联互通服务接口  
-DOMAIN-SUFFIX,servicesupport.huawei.com # 华为售后支持与服务入口域名  
-DOMAIN-SUFFIX,update.dbankcdn.com # 华为系统与应用更新 CDN 节点，用于推送升级包  
-DOMAIN-SUFFIX,dbankcloud.cn # 华为云 CDN 节点域名，用于内容分发与资源加载  
+DOMAIN-SUFFIX,huawei.com # 华为技术有限公司官方主域名，用于企业官网、产品信息与服务入口
+DOMAIN-SUFFIX,www.huawei.com # 华为官方网站子域名，用于信息展示与用户访问
+DOMAIN-SUFFIX,servicesupport.huawei.com # 华为客户支持与售后服务相关域名
+DOMAIN-SUFFIX,huaweicloud.com # 华为云服务平台主域名，用于云计算与企业级服务入口
+DOMAIN-SUFFIX,cloud.huawei.com # 华为云网页端服务入口域名，用于云资源管理与控制台访问
+DOMAIN-SUFFIX,myhuaweicloud.com # 华为云账户、认证与控制台相关服务域名
+DOMAIN-SUFFIX,api.huaweicloud.com # 华为云业务接口服务域名，用于系统与服务对接
+DOMAIN-SUFFIX,static.huaweicloud.com # 华为云静态资源与内容分发相关域名
+DOMAIN-SUFFIX,vmall.com # 华为官方商城服务域名，用于产品销售与订单相关服务
+DOMAIN-SUFFIX,www.vmall.com # 华为商城官方网站子域名
+DOMAIN-SUFFIX,hicloud.com # 华为终端云服务平台域名，用于设备与账号相关服务
+DOMAIN-SUFFIX,hispace.hicloud.com # 华为终端生态相关服务域名
+DOMAIN-SUFFIX,appgallery.hicloud.com # 华为应用市场服务接口域名，用于应用分发与更新
+DOMAIN-SUFFIX,connectivity.hicloud.com # 华为设备互联与生态相关服务接口域名
+DOMAIN-SUFFIX,harmonyos.com # 鸿蒙操作系统官方域名，用于系统与生态信息展示
+DOMAIN-SUFFIX,www.harmonyos.com # 鸿蒙操作系统官网子域名
+DOMAIN-SUFFIX,hihonor.com # 荣耀品牌相关服务域名（原华为子品牌）
+DOMAIN-SUFFIX,www.hihonor.com # 荣耀品牌官方网站子域名
+DOMAIN-SUFFIX,dbankcloud.cn # 华为云内容分发与资源加载相关服务域名
+DOMAIN-SUFFIX,update.dbankcdn.com # 华为终端系统与应用更新内容分发 CDN 域名
+DOMAIN-SUFFIX,download.dbankcdn.com # 华为资源下载与内容分发 CDN 服务域名
 
 # > 顺丰速运（SF Express）
 
