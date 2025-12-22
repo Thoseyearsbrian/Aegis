@@ -1184,6 +1184,17 @@ DOMAIN-SUFFIX,sf-express.cn # 顺丰辅助服务与接口域名
 
 DOMAIN-SUFFIX,zto.com # 中通快递主站域名，用于运单查询与服务入口  
 DOMAIN-SUFFIX,zto56.com # 中通物流集团域名，覆盖业务系统与接口服务  
+DOMAIN-SUFFIX,zto.com # 中通快递官方物流服务平台主域名，用于快递业务与用户服务入口
+DOMAIN-SUFFIX,www.zto.com # 中通快递官方网站子域名，用于信息展示与用户访问
+DOMAIN-SUFFIX,m.zto.com # 中通快递移动端服务域名，用于移动网页访问与业务操作
+DOMAIN-SUFFIX,api.zto.com # 中通快递业务接口服务域名，用于系统对接与服务调用
+DOMAIN-SUFFIX,static.zto.com # 中通快递静态资源服务域名，用于页面脚本与资源加载
+DOMAIN-SUFFIX,zto56.com # 中通物流集团核心业务域名，覆盖物流系统与平台服务
+DOMAIN-SUFFIX,www.zto56.com # 中通物流集团官网子域名，用于信息展示与业务入口
+DOMAIN-SUFFIX,api.zto56.com # 中通物流系统接口服务域名，用于内部与合作系统对接
+DOMAIN-SUFFIX,m.zto56.com # 中通物流移动端相关服务域名
+DOMAIN-SUFFIX,static.zto56.com # 中通物流静态资源与内容分发服务域名
+DOMAIN-SUFFIX,track.zto56.com # 中通快递物流状态与运单信息相关服务接口域名
 
 # > 韵达快递（Yunda Express）
 
