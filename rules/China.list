@@ -9,6 +9,7 @@
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
 DOMAIN-SUFFIX,alibaba.com.cn # 阿里巴巴中国站域名，用于国内企业服务、B2B 业务与本地化信息展示
+DOMAIN-SUFFIX,1688.com # 1688 国内 B2B 批发平台主域名，用于商品浏览、交易下单与商家服务
 DOMAIN-SUFFIX,alibabausercontent.com # 阿里巴巴用户内容与图片资源分发域名，用于商品与页面静态资源加载
 DOMAIN-SUFFIX,aliapp.org # 阿里系应用公共接口与基础服务域名，用于 App 通信与功能支持
 DOMAIN-SUFFIX,aliimg.com # 阿里巴巴集团图像与多媒体资源加载域名
