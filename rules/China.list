@@ -1051,17 +1051,22 @@ DOMAIN-SUFFIX,xzzwfw.gov.cn # 西藏自治区政务服务网
 
 # > 美团 / 大众点评相关域名（Meituan / Dianping）
 
-DOMAIN-SUFFIX,meituan.com # 美团主域名，用于团购、外卖、打车等核心服务  
-DOMAIN-SUFFIX,meituan.net # 美团子服务域名，用于调度、风控与数据平台  
-DOMAIN-SUFFIX,dianping.com # 大众点评主域名，涵盖餐饮、酒店、休闲娱乐等服务  
-DOMAIN-SUFFIX,sankuai.com # 美团集团基础设施域名，用于调度、接口与日志上报  
-DOMAIN-SUFFIX,mepcloud.com # 美团云服务平台，用于CDN、缓存与业务支持  
-DOMAIN-SUFFIX,mobike.com # 美团旗下摩拜单车服务域名  
+DOMAIN-SUFFIX,meituan.com # 美团本地生活服务平台主域名，用于外卖、到店、酒旅、出行等核心业务
+DOMAIN-SUFFIX,m.meituan.com # 美团移动端网页服务域名，用于移动访问与轻量化操作
+DOMAIN-SUFFIX,meituan.net # 美团技术与内部服务域名，用于系统调度、SDK 与数据平台相关服务
+DOMAIN-SUFFIX,api.meituan.com # 美团平台业务 API 接口域名，用于订单、商户与用户数据交互
+DOMAIN-SUFFIX,static.meituan.com # 美团平台静态资源服务域名，用于前端脚本与页面组件加载
+DOMAIN-SUFFIX,dianping.com # 大众点评本地生活内容与评价平台主域名
+DOMAIN-SUFFIX,dianping.com # 大众点评官方网站子域名
+DOMAIN-SUFFIX,m.dianping.com # 大众点评移动端网页服务域名
+DOMAIN-SUFFIX,sankuai.com # 美团集团基础设施与内部平台域名，用于调度、日志与系统支撑
+DOMAIN-SUFFIX,mepcloud.com # 美团集团内部云与技术支撑平台域名，用于业务系统与资源支持
+DOMAIN-SUFFIX,mobike.com # 美团旗下摩拜单车服务域名，用于共享单车与出行业务
+DOMAIN-SUFFIX,mobike.com # 摩拜单车官方网站子域名 
 
 # > 饿了么相关域名（Ele.me）
 
 DOMAIN-SUFFIX,ele.me # 饿了么外卖与本地生活服务平台主域名，用于下单、订单与用户服务入口
-DOMAIN-SUFFIX,www.ele.me # 饿了么官方网站子域名，用于品牌与业务信息展示
 DOMAIN-SUFFIX,h5.ele.me # 饿了么移动端 H5 服务域名，用于轻量化下单与活动页面访问
 DOMAIN-SUFFIX,ele-net.com # 饿了么网络基础设施与服务部署相关域名，用于调度与系统支撑
 DOMAIN-SUFFIX,api.ele.me # 饿了么平台业务 API 接口域名，用于订单、商户与配送数据交互
@@ -1072,10 +1077,8 @@ DOMAIN-SUFFIX,log.waimai.meituan.com # 饿了么早期历史遗留日志接口�
 # > 京东相关域名（JD.com）
 
 DOMAIN-SUFFIX,jd.com # 京东电商平台核心主域名，用于商品浏览、下单交易与用户服务入口
-DOMAIN-SUFFIX,www.jd.com # 京东官方网站子域名，用于品牌与业务信息展示
 DOMAIN-SUFFIX,m.jd.com # 京东移动端网页服务域名，用于移动端访问与轻量化购物操作
 DOMAIN-SUFFIX,360buy.com # 京东历史品牌域名，部分跳转、兼容接口与旧服务仍在使用
-DOMAIN-SUFFIX,www.360buy.com # 京东历史官网子域名，用于兼容访问与跳转
 DOMAIN-SUFFIX,jd.hk # 京东香港站域名，用于国际用户与跨境电商服务
 DOMAIN-SUFFIX,joybuy.com # 京东国际英文站域名，用于海外电商平台服务
 DOMAIN-SUFFIX,jingxi.com # 京东旗下京喜社交电商平台域名，用于下沉市场与拼购业务
@@ -1090,7 +1093,6 @@ DOMAIN-SUFFIX,static.jdcloud.com # 京东云静态资源与控制台前端资源
 # > 天猫（Tmall）
 
 DOMAIN-SUFFIX,tmall.com # 天猫电商平台主域名，用于商品浏览、下单交易与用户服务入口
-DOMAIN-SUFFIX,www.tmall.com # 天猫官方网站子域名，用于品牌与业务信息展示
 DOMAIN-SUFFIX,m.tmall.com # 天猫移动端网页服务域名，用于移动端访问与轻量化购物操作
 DOMAIN-SUFFIX,tmall.hk # 天猫国际站域名，用于跨境电商与海外购物服务
 DOMAIN-SUFFIX,intl.taobao.com # 天猫国际相关跳转与中转域名，用于跨境业务兼容处理
@@ -1101,7 +1103,6 @@ DOMAIN-SUFFIX,tmall.alicdn.com # 天猫静态资源 CDN 域名，用于页面脚
 # > 苏宁易购（Suning）
 
 DOMAIN-SUFFIX,suning.com # 苏宁易购电商平台主域名，用于商品浏览、下单与用户服务入口
-DOMAIN-SUFFIX,www.suning.com # 苏宁易购官方网站子域名，用于品牌与业务信息展示
 DOMAIN-SUFFIX,m.suning.com # 苏宁易购移动端网页服务域名，用于移动端访问与轻量化购物操作
 DOMAIN-SUFFIX,suning.cn # 苏宁国内服务与子站系统域名，用于业务分流与本地化服务
 DOMAIN-SUFFIX,api.suning.com # 苏宁易购业务 API 接口域名，用于订单、商品与用户数据交互
@@ -1112,7 +1113,6 @@ DOMAIN-SUFFIX,suningappliance.com # 苏宁电器垂直业务官网域名，用�
 # > 网易考拉海购（Kaola）
 
 DOMAIN-SUFFIX,kaola.com # 网易考拉跨境电商平台主域名，用于商品浏览、下单与用户服务入口
-DOMAIN-SUFFIX,www.kaola.com # 网易考拉官方网站子域名，用于品牌与业务信息展示
 DOMAIN-SUFFIX,m.kaola.com # 网易考拉移动端网页服务域名，用于移动端访问与轻量化购物操作
 DOMAIN-SUFFIX,kaolaapi.com # 网易考拉业务 API 服务域名，用于移动端与交易相关接口调用
 DOMAIN-SUFFIX,static.kaola.com # 网易考拉平台静态资源服务域名，用于前端脚本与页面组件加载
@@ -1121,7 +1121,6 @@ DOMAIN-SUFFIX,kaolacdn.com # 网易考拉静态资源与内容分发 CDN 域名
 # > 拼多多相关域名（Pinduoduo）
 
 DOMAIN-SUFFIX,yangkeduo.com # 拼多多电商平台核心主域名，用于商品浏览、拼团交易与用户服务入口
-DOMAIN-SUFFIX,www.yangkeduo.com # 拼多多官方网站子域名，用于品牌与业务信息展示
 DOMAIN-SUFFIX,m.yangkeduo.com # 拼多多移动端网页服务域名，用于移动端访问与轻量化购物操作
 DOMAIN-SUFFIX,pinduoduo.com # 拼多多英文品牌域名，用于品牌展示与部分业务模块
 DOMAIN-SUFFIX,www.pinduoduo.com # 拼多多英文官网子域名
@@ -1132,7 +1131,6 @@ DOMAIN-SUFFIX,pddpic.com # 拼多多图像与媒体资源 CDN 域名，用于商
 # > 唯品会相关域名（VIP.com）
 
 DOMAIN-SUFFIX,vip.com # 唯品会电商平台主域名，用于商品浏览、下单、促销与用户服务入口
-DOMAIN-SUFFIX,www.vip.com # 唯品会官方网站子域名，用于品牌与业务信息展示
 DOMAIN-SUFFIX,m.vip.com # 唯品会移动端网页服务域名，用于移动端访问与轻量化购物操作
 DOMAIN-SUFFIX,vipstatic.com # 唯品会静态资源服务域名，用于页面脚本、样式与组件加载
 DOMAIN-SUFFIX,vipimg.com # 唯品会图片资源 CDN 域名，用于商品图片与营销素材分发
@@ -1142,7 +1140,6 @@ DOMAIN-SUFFIX,vipshop.com # 唯品会旧版品牌域名，部分历史接口与�
 # > 得物相关域名（Dewu / 毒 App）
 
 DOMAIN-SUFFIX,dewu.com # 得物潮流电商与社区平台主域名，用于商品交易、内容浏览与用户服务入口
-DOMAIN-SUFFIX,www.dewu.com # 得物官方网站子域名，用于品牌与业务信息展示
 DOMAIN-SUFFIX,m.dewu.com # 得物移动端网页服务域名，用于移动端访问与轻量化浏览
 DOMAIN-SUFFIX,poizon.com # 得物国际化品牌域名，用于海外业务与品牌展示入口
 DOMAIN-SUFFIX,www.poizon.com # 得物国际站官方网站子域名
@@ -1154,7 +1151,6 @@ DOMAIN-SUFFIX,shihuo.cn # 得物前身识货网域名，部分历史服务与跳
 # > 快手相关域名（Kuaishou / 短视频与电商）
 
 DOMAIN-SUFFIX,kuaishou.com # 快手核心平台主域名，用于短视频、直播、电商与账号服务入口
-DOMAIN-SUFFIX,www.kuaishou.com # 快手官方网站子域名，用于品牌与业务信息展示
 DOMAIN-SUFFIX,m.kuaishou.com # 快手移动端网页服务域名，用于移动访问与轻量化内容浏览
 DOMAIN-SUFFIX,ksapisrv.com # 快手核心业务 API 服务域名，用于内容、直播、电商等接口调用
 DOMAIN-SUFFIX,static.kuaishou.com # 快手平台静态资源服务域名，用于脚本、样式与前端组件加载
@@ -1167,7 +1163,6 @@ DOMAIN-SUFFIX,kwaicdn.com # 快手内容分发 CDN 域名，用于视频、图�
 # > 转转平台相关域名（Zhuanzhuan）
 
 DOMAIN-SUFFIX,zhuanzhuan.com # 转转二手交易平台主域名，用于商品浏览、交易与平台服务入口
-DOMAIN-SUFFIX,www.zhuanzhuan.com # 转转官方网站子域名，用于品牌与业务信息展示
 DOMAIN-SUFFIX,m.zhuanzhuan.com # 转转移动端网页服务域名，用于移动端访问与轻量化交易操作
 DOMAIN-SUFFIX,zhuanzhuan.cn # 转转中国区辅助域名，用于活动页面、接口分流与本地化服务
 DOMAIN-SUFFIX,api.zhuanzhuan.com # 转转平台业务 API 服务域名，用于商品、订单、用户等数据接口调用
@@ -1177,7 +1172,6 @@ DOMAIN-SUFFIX,zhuanzhuan.wacdn.com # 转转内容加速 CDN 域名，用于图�
 # > 河马生鲜相关域名（Hema / Freshippo）
 
 DOMAIN-SUFFIX,freshhema.com # 河马生鲜品牌与业务主站域名，用于生鲜电商平台访问与信息展示
-DOMAIN-SUFFIX,www.freshhema.com # 河马生鲜官方网站子域名，用于品牌与业务信息展示
 DOMAIN-SUFFIX,hemaos.com # 河马生鲜核心运营系统域名，用于订单、门店、履约与物流调度
 DOMAIN-SUFFIX,api.hemaos.com # 河马生鲜运营系统业务接口域名，用于内部与客户端服务对接
 DOMAIN-SUFFIX,static.hemaos.com # 河马生鲜运营系统静态资源与前端组件加载域名
@@ -1188,21 +1182,17 @@ DOMAIN-SUFFIX,hema.imtt.qq.com # 河马生鲜 App 下载与分发 CDN 域名，�
 # > 小米公司相关域名（Xiaomi / Mi / Mijia）
 
 DOMAIN-SUFFIX,mi.com # 小米集团核心服务域名，用于商城、账户与用户服务入口
-DOMAIN-SUFFIX,www.mi.com # 小米官方网站子域名，用于信息展示与用户访问
 DOMAIN-SUFFIX,account.mi.com # 小米账户与统一认证服务域名
 DOMAIN-SUFFIX,api.mi.com # 小米平台业务接口服务域名，用于系统与服务调用
 DOMAIN-SUFFIX,static.mi.com # 小米平台静态资源与前端组件加载域名
 DOMAIN-SUFFIX,xiaomi.com # 小米公司官方域名，用于企业官网与集团级业务入口
-DOMAIN-SUFFIX,www.xiaomi.com # 小米公司官网子域名
 DOMAIN-SUFFIX,mi-img.com # 小米图像与媒体资源 CDN 域名，用于商品与设备资源加载
 DOMAIN-SUFFIX,mi-static.com # 小米静态资源分发域名，用于网页与客户端资源加载
 DOMAIN-SUFFIX,miui.com # 小米操作系统相关服务域名（MIUI / HyperOS）
-DOMAIN-SUFFIX,www.miui.com # 小米系统官网子域名
 DOMAIN-SUFFIX,update.miui.com # 小米系统更新相关服务域名
 DOMAIN-SUFFIX,miwifi.com # 小米路由器与网络设备管理相关服务域名
 DOMAIN-SUFFIX,api.miwifi.com # 小米网络设备相关服务接口域名
 DOMAIN-SUFFIX,mijia.com # 米家智能家居平台服务域名，用于设备生态与服务入口
-DOMAIN-SUFFIX,www.mijia.com # 米家平台官方网站子域名
 DOMAIN-SUFFIX,api.mijia.com # 米家设备与平台相关服务接口域名
 DOMAIN-SUFFIX,milink.cn # 小米设备互联与通信相关服务域名
 DOMAIN-SUFFIX,mifile.cn # 小米云存储与文件服务相关域名
@@ -1212,7 +1202,6 @@ DOMAIN-SUFFIX,miliao.com # 小米历史即时通讯服务遗留域名
 # > 华为相关域名（Huawei / HarmonyOS / 云服务）
 
 DOMAIN-SUFFIX,huawei.com # 华为技术有限公司官方主域名，用于企业官网、产品信息与服务入口
-DOMAIN-SUFFIX,www.huawei.com # 华为官方网站子域名，用于信息展示与用户访问
 DOMAIN-SUFFIX,servicesupport.huawei.com # 华为客户支持与售后服务相关域名
 DOMAIN-SUFFIX,huaweicloud.com # 华为云服务平台主域名，用于云计算与企业级服务入口
 DOMAIN-SUFFIX,cloud.huawei.com # 华为云网页端服务入口域名，用于云资源管理与控制台访问
@@ -1220,15 +1209,12 @@ DOMAIN-SUFFIX,myhuaweicloud.com # 华为云账户、认证与控制台相关服�
 DOMAIN-SUFFIX,api.huaweicloud.com # 华为云业务接口服务域名，用于系统与服务对接
 DOMAIN-SUFFIX,static.huaweicloud.com # 华为云静态资源与内容分发相关域名
 DOMAIN-SUFFIX,vmall.com # 华为官方商城服务域名，用于产品销售与订单相关服务
-DOMAIN-SUFFIX,www.vmall.com # 华为商城官方网站子域名
 DOMAIN-SUFFIX,hicloud.com # 华为终端云服务平台域名，用于设备与账号相关服务
 DOMAIN-SUFFIX,hispace.hicloud.com # 华为终端生态相关服务域名
 DOMAIN-SUFFIX,appgallery.hicloud.com # 华为应用市场服务接口域名，用于应用分发与更新
 DOMAIN-SUFFIX,connectivity.hicloud.com # 华为设备互联与生态相关服务接口域名
 DOMAIN-SUFFIX,harmonyos.com # 鸿蒙操作系统官方域名，用于系统与生态信息展示
-DOMAIN-SUFFIX,www.harmonyos.com # 鸿蒙操作系统官网子域名
 DOMAIN-SUFFIX,hihonor.com # 荣耀品牌相关服务域名（原华为子品牌）
-DOMAIN-SUFFIX,www.hihonor.com # 荣耀品牌官方网站子域名
 DOMAIN-SUFFIX,dbankcloud.cn # 华为云内容分发与资源加载相关服务域名
 DOMAIN-SUFFIX,update.dbankcdn.com # 华为终端系统与应用更新内容分发 CDN 域名
 DOMAIN-SUFFIX,download.dbankcdn.com # 华为资源下载与内容分发 CDN 服务域名
@@ -1236,30 +1222,24 @@ DOMAIN-SUFFIX,download.dbankcdn.com # 华为资源下载与内容分发 CDN 服�
 # > 顺丰速运（SF Express）
 
 DOMAIN-SUFFIX,sf-express.com # 顺丰速运官方物流服务平台主域名，用于快递业务与用户服务入口
-DOMAIN-SUFFIX,www.sf-express.com # 顺丰速运官方网站子域名，用于信息展示与用户访问
 DOMAIN-SUFFIX,m.sf-express.com # 顺丰速运移动端服务域名，用于移动网页访问与业务操作
 DOMAIN-SUFFIX,api.sf-express.com # 顺丰速运业务接口服务域名，用于系统对接与物流服务调用
 DOMAIN-SUFFIX,static.sf-express.com # 顺丰速运静态资源服务域名，用于页面脚本与资源加载
 DOMAIN-SUFFIX,sf-express.cn # 顺丰速运国内服务与辅助接口域名，用于本地化业务支持
-DOMAIN-SUFFIX,www.sf-express.cn # 顺丰速运国内站点子域名，用于服务入口与信息展示
 DOMAIN-SUFFIX,m.sf-express.cn # 顺丰速运国内移动端相关服务域名
 DOMAIN-SUFFIX,api.sf-express.cn # 顺丰速运国内业务系统接口域名
 DOMAIN-SUFFIX,sf-airlines.com # 顺丰航空物流服务平台域名，用于航空货运与运输体系支持
-DOMAIN-SUFFIX,www.sf-airlines.com # 顺丰航空官方网站子域名，用于信息展示与业务入口
 DOMAIN-SUFFIX,sfbest.com # 顺丰优选相关服务域名，用于电商与零售业务支持
-DOMAIN-SUFFIX,www.sfbest.com # 顺丰优选官方网站子域名
 
 # > 中通快递（ZTO Express）
 
 DOMAIN-SUFFIX,zto.com # 中通快递主站域名，用于运单查询与服务入口  
 DOMAIN-SUFFIX,zto56.com # 中通物流集团域名，覆盖业务系统与接口服务  
 DOMAIN-SUFFIX,zto.com # 中通快递官方物流服务平台主域名，用于快递业务与用户服务入口
-DOMAIN-SUFFIX,www.zto.com # 中通快递官方网站子域名，用于信息展示与用户访问
 DOMAIN-SUFFIX,m.zto.com # 中通快递移动端服务域名，用于移动网页访问与业务操作
 DOMAIN-SUFFIX,api.zto.com # 中通快递业务接口服务域名，用于系统对接与服务调用
 DOMAIN-SUFFIX,static.zto.com # 中通快递静态资源服务域名，用于页面脚本与资源加载
 DOMAIN-SUFFIX,zto56.com # 中通物流集团核心业务域名，覆盖物流系统与平台服务
-DOMAIN-SUFFIX,www.zto56.com # 中通物流集团官网子域名，用于信息展示与业务入口
 DOMAIN-SUFFIX,api.zto56.com # 中通物流系统接口服务域名，用于内部与合作系统对接
 DOMAIN-SUFFIX,m.zto56.com # 中通物流移动端相关服务域名
 DOMAIN-SUFFIX,static.zto56.com # 中通物流静态资源与内容分发服务域名
