@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-22
+# - 更新时间：2025-12-23
 
 # > WeChat 数据统计与遥测
 
@@ -23,8 +23,6 @@ DOMAIN-SUFFIX,badjs.weixinbridge.com # 小程序错误日志收集平台（BadJS
 DOMAIN-SUFFIX,report.qq.com # SDK 行为日志与统计数据上报域名
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com # SDK 数据上传接口（EVE 通道）
 DOMAIN-SUFFIX,oth.str.mdt.qq.com # SDK 数据上传接口（STR 通道）
-IP-CIDR,101.227.131.167/32 # 微信 MMTLS 上报节点（上海联通）
-IP-CIDR,123.151.48.193/32 # 微信 MMTLS 上报节点（北京联通）
 IP-CIDR,61.151.230.185/32  # 微信遥测上报节点（江苏联通）
 IP-CIDR,117.89.176.31/32  # 微信遥测加密通信节点（江苏电信）
 IP-CIDR,61.151.230.221/32 # 微信日志与行为上报节点（江苏联通）
