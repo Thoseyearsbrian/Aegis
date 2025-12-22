@@ -65,6 +65,22 @@ DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com # 腾讯安全浏览钓鱼与恶意链�
 # > 微信通信 IP 段（MMTLS / CDN ）
 
 IP-CIDR,124.95.167.111/32 # wxsmw.wxs.qq.com 安全模块通信节点（腾讯云）
+IP-CIDR,116.131.60.71/32 # dldir1v6.qq.com 客户端下载 CDN（北京联通）
+IP-CIDR,61.170.65.78/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
+IP-CIDR,119.188.229.63/32 # dldir1v6.qq.com 客户端下载 CDN（山东联通）
+IP-CIDR,61.170.72.16/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
+IP-CIDR,61.170.88.245/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
+IP-CIDR,61.170.64.195/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
+IP-CIDR,61.170.88.216/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
+IP-CIDR,180.153.169.147/32 # dldir1v6.qq.com 客户端下载 CDN（上海电信）
+IP-CIDR,117.68.68.191/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
+IP-CIDR,221.228.193.28/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
+IP-CIDR,61.170.54.245/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
+IP-CIDR,114.80.235.231/32 # dldir1v6.qq.com 客户端下载 CDN（上海电信）
+IP-CIDR,117.91.177.111/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
+IP-CIDR,223.247.116.116/32 # dldir1v6.qq.com 客户端下载 CDN（安徽电信）
+IP-CIDR,223.242.37.101/32 # dldir1v6.qq.com 客户端下载 CDN（安徽电信）
+IP-CIDR,117.27.148.103/32 # dldir1v6.qq.com 客户端下载 CDN（福建电信）
 IP-CIDR,125.88.145.87/32 # 微信头像与用户标识 CDN（广东电信）
 IP-CIDR,125.88.145.90/32 # 微信头像与用户标识 CDN（广东电信）
 IP-CIDR,125.88.145.121/32 # 微信头像与用户标识 CDN（广东电信）
@@ -83,13 +99,6 @@ IP-CIDR,113.105.171.250/32 # 微信头像资源节点（广东联通）
 IP-CIDR,113.105.171.108/32 # 微信头像资源节点（广东联通）
 IP-CIDR,219.153.187.74/32 # 微信头像资源节点（重庆联通）
 IP-CIDR,219.153.187.65/32 # 微信头像资源节点（重庆联通）
-IP-CIDR,116.131.60.71/32 # dldir1v6.qq.com 客户端下载 CDN（北京联通）
-IP-CIDR,61.170.65.78/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
-IP-CIDR,119.188.229.63/32 # dldir1v6.qq.com 客户端下载 CDN（山东联通）
-IP-CIDR,61.170.72.16/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
-IP-CIDR,61.170.88.245/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
-IP-CIDR,61.170.64.195/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
-IP-CIDR,61.170.88.216/32 # dldir1v6.qq.com 客户端下载 CDN（江苏电信）
 IP-CIDR,101.226.142.218/32 # 微信主服务通信节点（上海联通）
 IP-CIDR,101.226.153.110/32 # 微信 CDN 节点（UCloud）
 IP-CIDR,101.91.34.241/32 # 微信通信中转节点（UCloud）
