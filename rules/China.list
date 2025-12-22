@@ -1427,9 +1427,11 @@ DOMAIN-SUFFIX,smtp.163.com # 网易邮箱 SMTP 服务域名，用于邮件客户
 
 # > 新浪邮箱（Sina Mail）
 
-DOMAIN-SUFFIX,mail.sina.com.cn # 新浪邮箱网页主入口与邮件服务接口  
-DOMAIN-SUFFIX,sinaemail.cn # 新浪邮箱辅助服务域名  
-DOMAIN-SUFFIX,sinamail.sina.com.cn # 邮箱收发与配置接口域名  
+DOMAIN-SUFFIX,mail.sina.com.cn # 新浪邮箱 Web 主入口，用于网页端收发邮件与账户管理
+DOMAIN-SUFFIX,sinaemail.cn # 新浪邮箱辅助服务域名，用于邮箱系统支撑与服务跳转
+DOMAIN-SUFFIX,sinamail.sina.com.cn # 新浪邮箱核心邮件接口域名，用于收发与配置相关服务
+DOMAIN-SUFFIX,imap.sina.com # 新浪邮箱 IMAP 服务域名，用于邮件客户端接收邮件
+DOMAIN-SUFFIX,smtp.sina.com # 新浪邮箱 SMTP 服务域名，用于邮件客户端发送邮件
 
 # > 工具/其他服务（Tools / Misc）
 
