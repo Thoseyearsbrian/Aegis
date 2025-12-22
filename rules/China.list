@@ -1106,11 +1106,13 @@ DOMAIN-SUFFIX,pdd.net # 拼多多技术平台域名，用于接口调度与基�
 
 # > 唯品会相关域名（VIP.com）
 
-DOMAIN-SUFFIX,vip.com # 唯品会主站域名，涵盖商品浏览、下单与促销活动  
-DOMAIN-SUFFIX,vipstatic.com # 唯品会静态资源加载与图像分发域名  
-DOMAIN-SUFFIX,vipp.com # 唯品会短链与活动跳转域名  
-DOMAIN-SUFFIX,vipshop.com # 唯品会旧版域名，部分接口与跳转仍在使用  
-DOMAIN-SUFFIX,vipimg.com # 唯品会图像资源分发域名  
+DOMAIN-SUFFIX,vip.com # 唯品会电商平台主域名，用于商品浏览、下单、促销与用户服务入口
+DOMAIN-SUFFIX,www.vip.com # 唯品会官方网站子域名，用于品牌与业务信息展示
+DOMAIN-SUFFIX,m.vip.com # 唯品会移动端网页服务域名，用于移动端访问与轻量化购物操作
+DOMAIN-SUFFIX,vipstatic.com # 唯品会静态资源服务域名，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,vipimg.com # 唯品会图片资源 CDN 域名，用于商品图片与营销素材分发
+DOMAIN-SUFFIX,vipp.com # 唯品会短链与活动跳转域名，用于促销活动与链接分发
+DOMAIN-SUFFIX,vipshop.com # 唯品会旧版品牌域名，部分历史接口与跳转仍在使用
 
 # > 得物相关域名（Dewu / 毒 App）
 
