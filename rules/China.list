@@ -2038,6 +2038,7 @@ DOMAIN-SUFFIX,cn1.hcaptcha.com # hCaptcha 在中国大陆部署的验证服务�
 
 DOMAIN-SUFFIX,adobe.cn # Adobe 中国主站域名，用于服务介绍、软件下载与本地化运营页面加载
 DOMAIN-SUFFIX,adobelogin.cn # Adobe 中国登录域名，用于账户验证与登录流程
+DOMAIN-SUFFIX,adobecc.cn # Adobe Creative Cloud 中国区服务域名，用于订阅管理、应用分发与云服务接入
 
 # > ItDog 网络监测服务相关域名
 
