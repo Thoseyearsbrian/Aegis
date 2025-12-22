@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-22
+# - 更新时间：2025-12-23
 
 # > Speedtest 网络测速平台
 
@@ -3217,13 +3217,10 @@ DOMAIN-SUFFIX,downloads.secure.ctfassets.net # Contentful Embargoed 模式下安
 DOMAIN-SUFFIX,app.salesforceiq.com # SalesforceIQ 应用控制台域名，用于加载客户行为管理面板与交互界面
 DOMAIN-SUFFIX,static.cdn.salesforceiq.com # SalesforceIQ 静态资源域名，用于加载行为控制界面所需样式与脚本资源
 
-# > USERTrust OCSP 证书状态验证服务域名
-
-DOMAIN-SUFFIX,ocsp.usertrust.com # USERTrust / Sectigo 提供的证书吊销检查接口，用于 OCSP 协议验证 SSL/TLS 证书有效性
-
 # > USERTrust 证书链服务域名
 
 DOMAIN-SUFFIX,crt.usertrust.com # USERTrust 根证书与中间证书下载域名，用于 Apple/Windows 等平台建立 SSL 证书信任链
+DOMAIN-SUFFIX,ocsp.usertrust.com # USERTrust / Sectigo 提供的证书吊销检查接口，用于 OCSP 协议验证 SSL/TLS 证书有效性
 
 # > GoDaddy CA 吊销验证服务（GoDaddy Certificate Revocation Validation Service）
 
@@ -3238,6 +3235,10 @@ DOMAIN,repository.certum.pl/ctnca.cer # Certum CTNCA 根证书下载接口，提
 # > RapidSSL 根证书与吊销链分发节点
 
 DOMAIN-SUFFIX,cacerts.rapidssl.com  # RapidSSL 根证书与中间证书链分发服务域名，用于证书信任建立与吊销验证（CRL）
+
+# > GlobalSign CA 证书与信任链服务相关域名
+
+DOMAIN-SUFFIX,globalsign.com # GlobalSign 证书颁发机构（CA）服务域名，用于获取根证书、吊销列表（CRL）与证书有效性校验
 
 # > Shields.io 徽章服务资源（Shields.io Badge Assets）
 
