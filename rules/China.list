@@ -1099,10 +1099,14 @@ DOMAIN-SUFFIX,kaolaapi.com # 网易考拉移动端与交易 API 接口服务
 
 # > 拼多多相关域名（Pinduoduo）
 
-DOMAIN-SUFFIX,yangkeduo.com # 拼多多主站域名，用于购物、拼团、客服等服务  
-DOMAIN-SUFFIX,pinduoduo.com # 拼多多英文域名，部分服务模块使用  
-DOMAIN-SUFFIX,pddpic.com # 拼多多图像与资源分发域名  
-DOMAIN-SUFFIX,pdd.net # 拼多多技术平台域名，用于接口调度与基础服务  
+DOMAIN-SUFFIX,yangkeduo.com # 拼多多电商平台核心主域名，用于商品浏览、拼团交易与用户服务入口
+DOMAIN-SUFFIX,www.yangkeduo.com # 拼多多官方网站子域名，用于品牌与业务信息展示
+DOMAIN-SUFFIX,m.yangkeduo.com # 拼多多移动端网页服务域名，用于移动端访问与轻量化购物操作
+DOMAIN-SUFFIX,pinduoduo.com # 拼多多英文品牌域名，用于品牌展示与部分业务模块
+DOMAIN-SUFFIX,www.pinduoduo.com # 拼多多英文官网子域名
+DOMAIN-SUFFIX,pdd.net # 拼多多技术平台与基础服务域名，用于接口调度与底层服务支持
+DOMAIN-SUFFIX,api.pdd.net # 拼多多平台业务 API 接口域名，用于系统与服务调用
+DOMAIN-SUFFIX,pddpic.com # 拼多多图像与媒体资源 CDN 域名，用于商品图片与营销素材分发
 
 # > 唯品会相关域名（VIP.com）
 
