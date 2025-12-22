@@ -1175,10 +1175,19 @@ DOMAIN-SUFFIX,dbankcloud.cn # 华为云 CDN 节点域名，用于内容分发与
 
 # > 顺丰速运（SF Express）
 
-DOMAIN-SUFFIX,sf-express.com # 顺丰速运主站域名，用于快递查询与服务入口  
-DOMAIN-SUFFIX,sf-airlines.com # 顺丰航空物流平台域名  
-DOMAIN-SUFFIX,sfbest.com # 顺丰优选电商平台域名  
-DOMAIN-SUFFIX,sf-express.cn # 顺丰辅助服务与接口域名  
+DOMAIN-SUFFIX,sf-express.com # 顺丰速运官方物流服务平台主域名，用于快递业务与用户服务入口
+DOMAIN-SUFFIX,www.sf-express.com # 顺丰速运官方网站子域名，用于信息展示与用户访问
+DOMAIN-SUFFIX,m.sf-express.com # 顺丰速运移动端服务域名，用于移动网页访问与业务操作
+DOMAIN-SUFFIX,api.sf-express.com # 顺丰速运业务接口服务域名，用于系统对接与物流服务调用
+DOMAIN-SUFFIX,static.sf-express.com # 顺丰速运静态资源服务域名，用于页面脚本与资源加载
+DOMAIN-SUFFIX,sf-express.cn # 顺丰速运国内服务与辅助接口域名，用于本地化业务支持
+DOMAIN-SUFFIX,www.sf-express.cn # 顺丰速运国内站点子域名，用于服务入口与信息展示
+DOMAIN-SUFFIX,m.sf-express.cn # 顺丰速运国内移动端相关服务域名
+DOMAIN-SUFFIX,api.sf-express.cn # 顺丰速运国内业务系统接口域名
+DOMAIN-SUFFIX,sf-airlines.com # 顺丰航空物流服务平台域名，用于航空货运与运输体系支持
+DOMAIN-SUFFIX,www.sf-airlines.com # 顺丰航空官方网站子域名，用于信息展示与业务入口
+DOMAIN-SUFFIX,sfbest.com # 顺丰优选相关服务域名，用于电商与零售业务支持
+DOMAIN-SUFFIX,www.sfbest.com # 顺丰优选官方网站子域名
 
 # > 中通快递（ZTO Express）
 
