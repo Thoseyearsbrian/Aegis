@@ -93,10 +93,6 @@ DOMAIN-SUFFIX,ep2.adtrafficquality.google # Google 广告 SDK 上报接口，用
 
 DOMAIN-SUFFIX,demo-1.conversionsapigateway.com # 服务端转化事件追踪演示域名  
 
-# > 微信行为连接 IP（疑似环境探测 / 信令通信）
-
-IP-CIDR,123.151.48.171 # WeChat 自启行为连接的中国节点，ASN 属于 Tianjii，疑似信令回传通道
-
 # > Bilibili 行为分析服务域名
 
 DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流日志接口域名，用于客户端事件上报与行为分析  
