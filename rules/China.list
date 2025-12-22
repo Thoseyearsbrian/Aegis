@@ -1067,14 +1067,21 @@ DOMAIN-SUFFIX,log.waimai.meituan.com # 饿了么前身 / 接入美团前历史�
 
 # > 京东相关域名（JD.com）
 
-DOMAIN-SUFFIX,jd.com # 京东主站域名，涵盖电商平台、订单服务等核心功能  
-DOMAIN-SUFFIX,jd.hk # 京东香港站域名，用于国际用户访问  
-DOMAIN-SUFFIX,jdcloud.com # 京东云服务平台，含CDN、存储与云计算服务  
-DOMAIN-SUFFIX,jdpay.com # 京东支付服务平台域名  
-DOMAIN-SUFFIX,360buy.com # 京东旧域名与部分跳转服务仍在使用  
-DOMAIN-SUFFIX,jdl.cn # 京东物流服务域名，涉及快递追踪与调度系统  
-DOMAIN-SUFFIX,jingxi.com # 京东旗下“京喜”社交电商平台域名  
-DOMAIN-SUFFIX,joybuy.com # 京东国际站英文平台域名  
+DOMAIN-SUFFIX,jd.com # 京东电商平台核心主域名，用于商品浏览、下单交易与用户服务入口
+DOMAIN-SUFFIX,www.jd.com # 京东官方网站子域名，用于品牌与业务信息展示
+DOMAIN-SUFFIX,m.jd.com # 京东移动端网页服务域名，用于移动端访问与轻量化购物操作
+DOMAIN-SUFFIX,360buy.com # 京东历史品牌域名，部分跳转、兼容接口与旧服务仍在使用
+DOMAIN-SUFFIX,www.360buy.com # 京东历史官网子域名，用于兼容访问与跳转
+DOMAIN-SUFFIX,jd.hk # 京东香港站域名，用于国际用户与跨境电商服务
+DOMAIN-SUFFIX,joybuy.com # 京东国际英文站域名，用于海外电商平台服务
+DOMAIN-SUFFIX,jingxi.com # 京东旗下京喜社交电商平台域名，用于下沉市场与拼购业务
+DOMAIN-SUFFIX,jdl.cn # 京东物流服务域名，用于仓储、配送与履约相关服务
+DOMAIN-SUFFIX,logistics.jd.com # 京东物流相关服务子域名，用于物流信息与系统接口
+DOMAIN-SUFFIX,jdpay.com # 京东支付平台域名，用于支付、清结算与金融服务入口
+DOMAIN-SUFFIX,api.jdpay.com # 京东支付业务 API 接口域名
+DOMAIN-SUFFIX,jdcloud.com # 京东云服务平台域名，用于云计算、存储与 CDN 服务
+DOMAIN-SUFFIX,api.jdcloud.com # 京东云业务 API 接口域名
+DOMAIN-SUFFIX,static.jdcloud.com # 京东云静态资源与控制台前端资源加载域名
 
 # > 天猫（Tmall）
 
