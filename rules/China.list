@@ -1269,7 +1269,11 @@ DOMAIN-SUFFIX,800best.com # 百世快递主域名，提供快递与仓储服务�
 
 # > 德邦快递（Deppon Express）
 
-DOMAIN-SUFFIX,deppon.com # 德邦物流主站域名，用于大件运输与快递服务  
+DOMAIN-SUFFIX,deppon.com # 德邦快递与物流服务平台主域名，用于大件运输、快递服务与用户入口
+DOMAIN-SUFFIX,m.deppon.com # 德邦快递移动端网页服务域名，用于移动端查询与下单操作
+DOMAIN-SUFFIX,api.deppon.com # 德邦快递业务 API 接口域名，用于运单、订单与物流数据交互
+DOMAIN-SUFFIX,static.deppon.com # 德邦快递静态资源服务域名，用于页面脚本与前端资源加载
+DOMAIN-SUFFIX,track.deppon.com # 德邦快递物流追踪服务域名，用于运单状态与配送信息查询 
 
 # > 京东物流（JD Logistics）
 
