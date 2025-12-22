@@ -1418,10 +1418,12 @@ DOMAIN-SUFFIX,uc.ucweb.com # UC 浏览器初始化与配置服务接口
 
 # > 网易邮箱（NetEase Mail）
 
-DOMAIN-SUFFIX,mail.163.com # 网易163邮箱主入口  
-DOMAIN-SUFFIX,mail.126.com # 网易126邮箱主入口  
-DOMAIN-SUFFIX,yeah.net # 网易旗下 yeah.net 邮箱服务  
-DOMAIN-SUFFIX,email.163.com # 网易企业邮箱与邮件接口域名  
+DOMAIN-SUFFIX,mail.163.com # 网易 163 邮箱 Web 主入口，用于网页端收发邮件与账户管理
+DOMAIN-SUFFIX,mail.126.com # 网易 126 邮箱 Web 主入口，用于网页端邮箱服务
+DOMAIN-SUFFIX,yeah.net # 网易旗下 yeah.net 邮箱服务域名，提供独立邮箱体系
+DOMAIN-SUFFIX,email.163.com # 网易企业邮箱服务域名，用于企业账户与邮件接口
+DOMAIN-SUFFIX,imap.163.com # 网易邮箱 IMAP 服务域名，用于邮件客户端收取邮件
+DOMAIN-SUFFIX,smtp.163.com # 网易邮箱 SMTP 服务域名，用于邮件客户端发送邮件
 
 # > 新浪邮箱（Sina Mail）
 
