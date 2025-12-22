@@ -1247,13 +1247,16 @@ DOMAIN-SUFFIX,track.zto56.com # 中通快递物流状态与运单信息相关服
 
 # > 韵达快递（Yunda Express）
 
-DOMAIN-SUFFIX,yundaex.com # 韵达快递主域名，用于订单查询与物流信息展示  
-DOMAIN-SUFFIX,yundasys.com # 韵达系统平台域名，包含客户与接口服务  
+DOMAIN-SUFFIX,yundaex.com # 韵达快递物流服务平台主域名，用于快递业务与用户服务入口
+DOMAIN-SUFFIX,m.yundaex.com # 韵达快递移动端网页服务域名，用于移动端运单查询与业务操作
+DOMAIN-SUFFIX,api.yundaex.com # 韵达快递业务 API 接口域名，用于运单、订单与物流数据交互
+DOMAIN-SUFFIX,static.yundaex.com # 韵达快递静态资源服务域名，用于页面脚本与前端资源加载
+DOMAIN-SUFFIX,track.yundaex.com # 韵达快递物流追踪服务域名，用于运单状态与配送信息查询
+DOMAIN-SUFFIX,yundasys.com # 韵达快递系统平台域名，用于内部业务系统与客户接口服务 
 
 # > 圆通速递（YTO Express）
 
 DOMAIN-SUFFIX,yto.net.cn # 圆通速递官方物流服务平台主域名，用于快递业务与相关服务入口
-DOMAIN-SUFFIX,www.yto.net.cn # 圆通速递官方网站子域名，用于信息展示与用户访问
 DOMAIN-SUFFIX,api.yto.net.cn # 圆通速递业务接口服务域名，用于系统对接与快递服务调用
 DOMAIN-SUFFIX,m.yto.net.cn # 圆通速递移动端服务域名，用于移动网页访问与业务操作
 DOMAIN-SUFFIX,static.yto.net.cn # 圆通速递静态资源服务域名，用于页面资源与脚本加载
@@ -1305,8 +1308,9 @@ DOMAIN-SUFFIX,ems.com.cn # EMS 官方主域名，用于邮政快递追踪与服�
 
 # > 极兔速递（J&T Express）
 
-DOMAIN-SUFFIX,jtexpress.com.cn # 极兔速递中国服务站域名  
-DOMAIN-SUFFIX,jtexpress.my # 极兔速递马来西亚/国际站域名  
+DOMAIN-SUFFIX,jtexpress.com # 极兔速递全球主品牌域名，用于国际业务、品牌展示与服务入口
+DOMAIN-SUFFIX,jtexpress.com.cn # 极兔速递中国大陆服务站域名，用于国内快递业务与运单查询
+DOMAIN-SUFFIX,jtexpress.my # 极兔速递马来西亚及部分国际业务站点域名
 
 # > 知乎 相关域名
 
