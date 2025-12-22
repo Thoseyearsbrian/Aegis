@@ -1114,10 +1114,15 @@ DOMAIN-SUFFIX,vipimg.com # 唯品会图像资源分发域名
 
 # > 得物相关域名（Dewu / 毒 App）
 
-DOMAIN-SUFFIX,dewu.com # 得物主站域名，商品展示、下单与用户社区服务  
-DOMAIN-SUFFIX,poizon.com # 得物英文品牌域名，国际化业务入口  
-DOMAIN-SUFFIX,shihuo.cn # 得物前身识货网域名，部分服务仍存活  
-DOMAIN-SUFFIX,duapp.com # 得物 App 接口与资源服务域名（可能含旧接口或推广页）  
+DOMAIN-SUFFIX,dewu.com # 得物潮流电商与社区平台主域名，用于商品交易、内容浏览与用户服务入口
+DOMAIN-SUFFIX,www.dewu.com # 得物官方网站子域名，用于品牌与业务信息展示
+DOMAIN-SUFFIX,m.dewu.com # 得物移动端网页服务域名，用于移动端访问与轻量化浏览
+DOMAIN-SUFFIX,poizon.com # 得物国际化品牌域名，用于海外业务与品牌展示入口
+DOMAIN-SUFFIX,www.poizon.com # 得物国际站官方网站子域名
+DOMAIN-SUFFIX,duapp.com # 得物 App 相关服务域名，用于客户端接口、配置与资源加载
+DOMAIN-SUFFIX,api.duapp.com # 得物 App 业务 API 接口域名，用于商品、订单与用户数据交互
+DOMAIN-SUFFIX,static.duapp.com # 得物 App 静态资源与前端组件加载域名
+DOMAIN-SUFFIX,shihuo.cn # 得物前身识货网域名，部分历史服务与跳转仍在使用
 
 # > 快手相关域名（Kuaishou / 短视频与电商）
 
