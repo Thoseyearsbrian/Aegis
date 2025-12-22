@@ -573,17 +573,6 @@ DOMAIN-SUFFIX,activity.dianwoda.com # 点我达活动与内容展示相关服务
 DOMAIN-SUFFIX,oss.dianwoda.com # 点我达平台文件与图像资源存储服务域名
 DOMAIN-SUFFIX,h5.dianwoda.com # 点我达移动端 H5 页面服务域名，用于页面展示与轻量化访问
 
-# > 达达骑士相关域名（Dada Delivery）
-
-DOMAIN-SUFFIX,imdada.cn # 达达骑士平台主域名，用于骑手端与平台相关服务访问
-DOMAIN-SUFFIX,newimdada.cn # 达达骑士新版平台相关服务接口域名
-DOMAIN-SUFFIX,passport.imdada.cn # 达达骑士用户注册、登录与身份认证服务域名
-DOMAIN-SUFFIX,api.imdada.cn # 达达骑士平台核心服务 API 接口域名
-DOMAIN-SUFFIX,track.imdada.cn # 达达骑士平台相关服务接口域名
-DOMAIN-SUFFIX,cdn.imdada.cn # 达达骑士静态资源与内容分发 CDN 服务域名
-DOMAIN-SUFFIX,activity.imdada.cn # 达达骑士活动与内容展示相关服务域名
-DOMAIN-SUFFIX,imfile.imdada.cn # 达达骑士平台文件与媒体资源服务域名
-
 # > UU 跑腿相关域名（UU Runner）
 
 DOMAIN-SUFFIX,uupaotui.com # UU 跑腿同城即时配送平台主域名，用于官网访问与业务服务入口
@@ -1087,9 +1076,8 @@ DOMAIN-SUFFIX,jdl.cn # 京东物流服务域名，涉及快递追踪与调度系
 DOMAIN-SUFFIX,jingxi.com # 京东旗下“京喜”社交电商平台域名  
 DOMAIN-SUFFIX,joybuy.com # 京东国际站英文平台域名  
 
-# > 电商平台域名规则集（Tmall / Suning / Kaola）
-
 # > 天猫（Tmall）
+
 DOMAIN-SUFFIX,tmall.com # 天猫主站域名，用于商品展示与下单交易  
 DOMAIN-SUFFIX,tae.aliyun.com # 天猫交易系统与认证服务接口域名  
 DOMAIN-SUFFIX,tmall.hk # 天猫国际站域名，跨境购物平台  
@@ -1097,12 +1085,14 @@ DOMAIN-SUFFIX,intl.taobao.com # 天猫国际跳转中转域名
 DOMAIN-SUFFIX,tmall.alicdn.com # 天猫静态资源 CDN 域名  
 
 # > 苏宁易购（Suning）
+
 DOMAIN-SUFFIX,suning.com # 苏宁易购主站域名，涵盖零售商城与服务平台  
 DOMAIN-SUFFIX,suning.cn # 苏宁服务与子站系统域名  
 DOMAIN-SUFFIX,snsuning.com # 苏宁账号系统与相关接口服务  
 DOMAIN-SUFFIX,suningappliance.com # 苏宁电器官网域名  
 
 # > 网易考拉海购（Kaola）
+
 DOMAIN-SUFFIX,kaola.com # 网易考拉主站域名，跨境电商平台  
 DOMAIN-SUFFIX,kaolacdn.com # 网易考拉静态资源与 CDN 加速域名  
 DOMAIN-SUFFIX,kaolaapi.com # 网易考拉移动端与交易 API 接口服务  
@@ -1202,7 +1192,12 @@ DOMAIN-SUFFIX,yundasys.com # 韵达系统平台域名，包含客户与接口服
 
 # > 圆通速递（YTO Express）
 
-DOMAIN-SUFFIX,yto.net.cn # 圆通速递主站域名，用于快递追踪与服务入口  
+DOMAIN-SUFFIX,yto.net.cn # 圆通速递官方物流服务平台主域名，用于快递业务与相关服务入口
+DOMAIN-SUFFIX,www.yto.net.cn # 圆通速递官方网站子域名，用于信息展示与用户访问
+DOMAIN-SUFFIX,api.yto.net.cn # 圆通速递业务接口服务域名，用于系统对接与快递服务调用
+DOMAIN-SUFFIX,m.yto.net.cn # 圆通速递移动端服务域名，用于移动网页访问与业务操作
+DOMAIN-SUFFIX,static.yto.net.cn # 圆通速递静态资源服务域名，用于页面资源与脚本加载
+DOMAIN-SUFFIX,track.yto.net.cn # 圆通速递快件状态与物流信息相关服务接口域名
 
 # > 申通快递（STO Express）
 
