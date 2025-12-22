@@ -1078,11 +1078,14 @@ DOMAIN-SUFFIX,joybuy.com # 京东国际站英文平台域名
 
 # > 天猫（Tmall）
 
-DOMAIN-SUFFIX,tmall.com # 天猫主站域名，用于商品展示与下单交易  
-DOMAIN-SUFFIX,tae.aliyun.com # 天猫交易系统与认证服务接口域名  
-DOMAIN-SUFFIX,tmall.hk # 天猫国际站域名，跨境购物平台  
-DOMAIN-SUFFIX,intl.taobao.com # 天猫国际跳转中转域名  
-DOMAIN-SUFFIX,tmall.alicdn.com # 天猫静态资源 CDN 域名  
+DOMAIN-SUFFIX,tmall.com # 天猫电商平台主域名，用于商品浏览、下单交易与用户服务入口
+DOMAIN-SUFFIX,www.tmall.com # 天猫官方网站子域名，用于品牌与业务信息展示
+DOMAIN-SUFFIX,m.tmall.com # 天猫移动端网页服务域名，用于移动端访问与轻量化购物操作
+DOMAIN-SUFFIX,tmall.hk # 天猫国际站域名，用于跨境电商与海外购物服务
+DOMAIN-SUFFIX,intl.taobao.com # 天猫国际相关跳转与中转域名，用于跨境业务兼容处理
+DOMAIN-SUFFIX,tae.aliyun.com # 天猫交易引擎与认证服务接口域名，用于订单、支付与鉴权相关链路
+DOMAIN-SUFFIX,api.tmall.com # 天猫平台业务 API 接口域名，用于商品、订单与用户数据交互
+DOMAIN-SUFFIX,tmall.alicdn.com # 天猫静态资源 CDN 域名，用于页面脚本、样式与资源加载 
 
 # > 苏宁易购（Suning）
 
