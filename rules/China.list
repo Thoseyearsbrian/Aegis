@@ -1093,9 +1093,12 @@ DOMAIN-SUFFIX,suningappliance.com # 苏宁电器官网域名
 
 # > 网易考拉海购（Kaola）
 
-DOMAIN-SUFFIX,kaola.com # 网易考拉主站域名，跨境电商平台  
-DOMAIN-SUFFIX,kaolacdn.com # 网易考拉静态资源与 CDN 加速域名  
-DOMAIN-SUFFIX,kaolaapi.com # 网易考拉移动端与交易 API 接口服务  
+DOMAIN-SUFFIX,kaola.com # 网易考拉跨境电商平台主域名，用于商品浏览、下单与用户服务入口
+DOMAIN-SUFFIX,www.kaola.com # 网易考拉官方网站子域名，用于品牌与业务信息展示
+DOMAIN-SUFFIX,m.kaola.com # 网易考拉移动端网页服务域名，用于移动端访问与轻量化购物操作
+DOMAIN-SUFFIX,kaolaapi.com # 网易考拉业务 API 服务域名，用于移动端与交易相关接口调用
+DOMAIN-SUFFIX,static.kaola.com # 网易考拉平台静态资源服务域名，用于前端脚本与页面组件加载
+DOMAIN-SUFFIX,kaolacdn.com # 网易考拉静态资源与内容分发 CDN 域名  
 
 # > 拼多多相关域名（Pinduoduo）
 
