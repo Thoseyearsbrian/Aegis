@@ -1086,10 +1086,14 @@ DOMAIN-SUFFIX,tmall.alicdn.com # 天猫静态资源 CDN 域名
 
 # > 苏宁易购（Suning）
 
-DOMAIN-SUFFIX,suning.com # 苏宁易购主站域名，涵盖零售商城与服务平台  
-DOMAIN-SUFFIX,suning.cn # 苏宁服务与子站系统域名  
-DOMAIN-SUFFIX,snsuning.com # 苏宁账号系统与相关接口服务  
-DOMAIN-SUFFIX,suningappliance.com # 苏宁电器官网域名  
+DOMAIN-SUFFIX,suning.com # 苏宁易购电商平台主域名，用于商品浏览、下单与用户服务入口
+DOMAIN-SUFFIX,www.suning.com # 苏宁易购官方网站子域名，用于品牌与业务信息展示
+DOMAIN-SUFFIX,m.suning.com # 苏宁易购移动端网页服务域名，用于移动端访问与轻量化购物操作
+DOMAIN-SUFFIX,suning.cn # 苏宁国内服务与子站系统域名，用于业务分流与本地化服务
+DOMAIN-SUFFIX,api.suning.com # 苏宁易购业务 API 接口域名，用于订单、商品与用户数据交互
+DOMAIN-SUFFIX,static.suning.com # 苏宁易购静态资源服务域名，用于页面脚本与组件加载
+DOMAIN-SUFFIX,snsuning.com # 苏宁统一账号与认证系统域名，用于登录、SSO 与用户身份管理
+DOMAIN-SUFFIX,suningappliance.com # 苏宁电器垂直业务官网域名，用于电器类产品与服务展示
 
 # > 网易考拉海购（Kaola）
 
