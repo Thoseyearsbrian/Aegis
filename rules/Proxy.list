@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-19
+# - 更新时间：2025-12-22
 
 # > Speedtest 网络测速平台
 
@@ -645,17 +645,20 @@ DOMAIN-SUFFIX,de.shein.com # SHEIN 德国站
 DOMAIN-SUFFIX,jp.shein.com # SHEIN 日本站
 DOMAIN-SUFFIX,storage.googleapis.com # SHEIN 静态资源托管（使用 Google Cloud）
 
-# > Alibaba.com（国际站）相关域名
+# > 阿里巴巴国际站 相关域名
 
-DOMAIN-SUFFIX,alibaba.com # Alibaba 国际站主域名（商品浏览、供应商联系、采购下单）
-DOMAIN-SUFFIX,sourcing.alibaba.com # 采购与供应链管理服务平台
-DOMAIN-SUFFIX,service.alibaba.com # Alibaba 国际站客服与帮助中心
-DOMAIN-SUFFIX,passport.alibaba.com # 用户登录与身份认证服务
-DOMAIN-SUFFIX,login.alibaba.com # 账户登录接口
-DOMAIN-SUFFIX,msg.alibaba.com # 在线沟通与询盘服务
-DOMAIN-SUFFIX,coupon.alibaba.com # 优惠券服务接口
-DOMAIN-SUFFIX,analytics.alibaba.com # 数据分析与行为统计接口
-DOMAIN-SUFFIX,intl.alibaba.com # Alibaba 国际站多语言子站入口 
+DOMAIN-SUFFIX,alibaba.com # 阿里巴巴国际站主域名，用于全球 B2B 电子商务、商品浏览、供应商联系与跨境采购
+DOMAIN-SUFFIX,sourcing.alibaba.com # Alibaba 国际站采购与供应链管理服务平台
+DOMAIN-SUFFIX,service.alibaba.com # Alibaba 国际站客服与帮助中心服务
+DOMAIN-SUFFIX,passport.alibaba.com # Alibaba 国际站用户登录与身份认证服务
+DOMAIN-SUFFIX,login.alibaba.com # Alibaba 国际站账户登录接口
+DOMAIN-SUFFIX,msg.alibaba.com # Alibaba 国际站在线沟通与询盘消息服务
+DOMAIN-SUFFIX,coupon.alibaba.com # Alibaba 国际站优惠券与促销服务接口
+DOMAIN-SUFFIX,intl.alibaba.com # Alibaba 国际站多语言与国际化子站入口
+DOMAIN-SUFFIX,analytics.alibaba.com # Alibaba 国际站数据分析与行为统计接口
+DOMAIN-SUFFIX,alibabagroup.com # 阿里巴巴集团官方网站，用于企业信息、公告与投资者关系发布
+DOMAIN-SUFFIX,alicloud.com # 阿里云国际站主域名，面向海外用户提供云计算与基础设施服务
+DOMAIN-SUFFIX,alibabacloud.com # 阿里云国际品牌域名，用于云服务产品展示与国际接口访问
 
 # > Capital One Shopping 相关域名
 
