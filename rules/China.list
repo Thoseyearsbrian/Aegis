@@ -1130,31 +1130,48 @@ DOMAIN-SUFFIX,kwaicdn.com # 快手 CDN 内容分发域名
 
 # > 转转平台相关域名（Zhuanzhuan）
 
-DOMAIN-SUFFIX,zhuanzhuan.com # 转转主站域名，二手交易与平台服务  
-DOMAIN-SUFFIX,zhuanzhuan.cn # 转转中国区辅助域名，用于接口与活动页面  
-DOMAIN-SUFFIX,zhuanzhuan.wacdn.com # 转转内容加速 CDN 域名，用于图片与静态资源加载  
+DOMAIN-SUFFIX,zhuanzhuan.com # 转转二手交易平台主域名，用于商品浏览、交易与平台服务入口
+DOMAIN-SUFFIX,www.zhuanzhuan.com # 转转官方网站子域名，用于品牌与业务信息展示
+DOMAIN-SUFFIX,m.zhuanzhuan.com # 转转移动端网页服务域名，用于移动端访问与轻量化交易操作
+DOMAIN-SUFFIX,zhuanzhuan.cn # 转转中国区辅助域名，用于活动页面、接口分流与本地化服务
+DOMAIN-SUFFIX,api.zhuanzhuan.com # 转转平台业务 API 服务域名，用于商品、订单、用户等数据接口调用
+DOMAIN-SUFFIX,static.zhuanzhuan.com # 转转平台静态资源服务域名，用于前端脚本、样式与组件加载
+DOMAIN-SUFFIX,zhuanzhuan.wacdn.com # 转转内容加速 CDN 域名，用于图片与静态资源加载
 
 # > 河马生鲜相关域名（Hema / Freshippo）
 
-DOMAIN-SUFFIX,freshhema.com # 河马生鲜主站域名，用于生鲜电商平台服务  
-DOMAIN-SUFFIX,hemaos.com # 河马运营系统域名，用于后台订单与物流管理  
-DOMAIN-SUFFIX,hemaapp.com # 河马生鲜移动端应用相关接口域名  
-DOMAIN-SUFFIX,hemaapi.com # 河马 API 接口服务域名，涉及商品、用户等交互  
-DOMAIN-SUFFIX,hema.imtt.qq.com # 河马 App 分发链接 CDN 域名（可能依赖腾讯服务）  
+DOMAIN-SUFFIX,freshhema.com # 河马生鲜品牌与业务主站域名，用于生鲜电商平台访问与信息展示
+DOMAIN-SUFFIX,www.freshhema.com # 河马生鲜官方网站子域名，用于品牌与业务信息展示
+DOMAIN-SUFFIX,hemaos.com # 河马生鲜核心运营系统域名，用于订单、门店、履约与物流调度
+DOMAIN-SUFFIX,api.hemaos.com # 河马生鲜运营系统业务接口域名，用于内部与客户端服务对接
+DOMAIN-SUFFIX,static.hemaos.com # 河马生鲜运营系统静态资源与前端组件加载域名
+DOMAIN-SUFFIX,hemaapp.com # 河马生鲜移动端 App 相关服务域名，用于客户端接口与配置服务
+DOMAIN-SUFFIX,hemaapi.com # 河马生鲜业务 API 服务域名，用于商品、用户、订单等数据交互接口
+DOMAIN-SUFFIX,hema.imtt.qq.com # 河马生鲜 App 下载与分发 CDN 域名，依赖腾讯应用宝（imtt）分发体系  
 
 # > 小米公司相关域名（Xiaomi / Mi / Mijia）
 
-DOMAIN-SUFFIX,mi.com # 小米主域名，用于小米商城、账户系统、设备管理等服务  
-DOMAIN-SUFFIX,xiaomi.com # 小米公司官方域名，含企业官网、业务入口等  
-DOMAIN-SUFFIX,mi-img.com # 小米图片 CDN，用于商城与设备资源展示加载  
-DOMAIN-SUFFIX,miui.com # MIUI 系统相关服务域名，包括系统更新与功能模块  
-DOMAIN-SUFFIX,miwifi.com # 小米路由器管理域名，用于后台配置与远程管理  
-DOMAIN-SUFFIX,milink.cn # 小米设备间联动通信域名，涉及 IoT 与远程控制协议  
-DOMAIN-SUFFIX,mifile.cn # 小米云存储与备份服务域名，类似网盘功能  
-DOMAIN-SUFFIX,mi-static.com # 小米静态资源域名，用于网页与客户端加载组件  
-DOMAIN-SUFFIX,miliao.com # 米聊旧服务遗留域名，曾用于即时通讯功能  
-DOMAIN-SUFFIX,mijia.com # 米家智能家居产品相关域名，用于设备接入与控制  
-DOMAIN-SUFFIX,micloud.xiaomi.net # 小米云服务域名，包含同步、备份、定位等功能  
+DOMAIN-SUFFIX,mi.com # 小米集团核心服务域名，用于商城、账户与用户服务入口
+DOMAIN-SUFFIX,www.mi.com # 小米官方网站子域名，用于信息展示与用户访问
+DOMAIN-SUFFIX,account.mi.com # 小米账户与统一认证服务域名
+DOMAIN-SUFFIX,api.mi.com # 小米平台业务接口服务域名，用于系统与服务调用
+DOMAIN-SUFFIX,static.mi.com # 小米平台静态资源与前端组件加载域名
+DOMAIN-SUFFIX,xiaomi.com # 小米公司官方域名，用于企业官网与集团级业务入口
+DOMAIN-SUFFIX,www.xiaomi.com # 小米公司官网子域名
+DOMAIN-SUFFIX,mi-img.com # 小米图像与媒体资源 CDN 域名，用于商品与设备资源加载
+DOMAIN-SUFFIX,mi-static.com # 小米静态资源分发域名，用于网页与客户端资源加载
+DOMAIN-SUFFIX,miui.com # 小米操作系统相关服务域名（MIUI / HyperOS）
+DOMAIN-SUFFIX,www.miui.com # 小米系统官网子域名
+DOMAIN-SUFFIX,update.miui.com # 小米系统更新相关服务域名
+DOMAIN-SUFFIX,miwifi.com # 小米路由器与网络设备管理相关服务域名
+DOMAIN-SUFFIX,api.miwifi.com # 小米网络设备相关服务接口域名
+DOMAIN-SUFFIX,mijia.com # 米家智能家居平台服务域名，用于设备生态与服务入口
+DOMAIN-SUFFIX,www.mijia.com # 米家平台官方网站子域名
+DOMAIN-SUFFIX,api.mijia.com # 米家设备与平台相关服务接口域名
+DOMAIN-SUFFIX,milink.cn # 小米设备互联与通信相关服务域名
+DOMAIN-SUFFIX,mifile.cn # 小米云存储与文件服务相关域名
+DOMAIN-SUFFIX,micloud.xiaomi.net # 小米云平台相关服务域名，用于账号与设备云服务支持
+DOMAIN-SUFFIX,miliao.com # 小米历史即时通讯服务遗留域名
 
 # > 华为相关域名（Huawei / HarmonyOS / 云服务）
 
