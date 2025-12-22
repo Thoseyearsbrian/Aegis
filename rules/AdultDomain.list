@@ -4,7 +4,7 @@
 # - 特征：涵盖常见成人内容相关网站与域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-19
+# - 更新时间：2025-12-22
 
 # > 成人广告推广平台
 
@@ -23833,7 +23833,6 @@ DOMAIN-SUFFIX,img.7search.com # 成人相关域名
 DOMAIN-SUFFIX,img.addfreeporn.com # 成人相关域名
 DOMAIN-SUFFIX,img.adecorp.co.kr # 成人相关域名
 DOMAIN-SUFFIX,img.adultsearch.com # 成人相关域名
-DOMAIN-SUFFIX,img.alibaba.com # 成人相关域名
 DOMAIN-SUFFIX,img.all-usanomination.com # 成人相关域名
 DOMAIN-SUFFIX,img.amateurity.com # 成人相关域名
 DOMAIN-SUFFIX,img.avwend.com # 成人相关域名
@@ -32210,7 +32209,6 @@ DOMAIN-SUFFIX,mynude.art # 成人相关域名
 DOMAIN-SUFFIX,mynudebabes.com # 成人相关域名
 DOMAIN-SUFFIX,mynudeteens.com # 成人相关域名
 DOMAIN-SUFFIX,mynudeteens.net # 成人相关域名
-DOMAIN-SUFFIX,myoffers.co.uk # 成人相关域名
 DOMAIN-SUFFIX,myonlineporn.com # 成人相关域名
 DOMAIN-SUFFIX,myownprivatelockerroom.net # 成人相关域名
 DOMAIN-SUFFIX,mypagerank.ru # 成人相关域名
@@ -34286,7 +34284,6 @@ DOMAIN-SUFFIX,ofertasdi.sslblindado.com # 成人相关域名
 DOMAIN-SUFFIX,ofertasdi5.sslblindado.com # 成人相关域名
 DOMAIN-SUFFIX,ofertassa.sslblindado.com # 成人相关域名
 DOMAIN-SUFFIX,oferte.pl # 成人相关域名
-DOMAIN-SUFFIX,offer.alibaba.com # 成人相关域名
 DOMAIN-SUFFIX,offerent.com # 成人相关域名
 DOMAIN-SUFFIX,offerforge.com # 成人相关域名
 DOMAIN-SUFFIX,offerplaying.com # 成人相关域名
@@ -47496,7 +47493,6 @@ DOMAIN-SUFFIX,surintech.ac.th # 成人相关域名
 DOMAIN-SUFFIX,surreal-visions.tumblr.com # 成人相关域名
 DOMAIN-SUFFIX,surrenderisland.tumblr.com # 成人相关域名
 DOMAIN-SUFFIX,survey.112.2o7.net # 成人相关域名
-DOMAIN-SUFFIX,survey.china.alibaba.com # 成人相关域名
 DOMAIN-SUFFIX,survey.foreseeresults.com # 成人相关域名
 DOMAIN-SUFFIX,surveypass.com # 成人相关域名
 DOMAIN-SUFFIX,sus-elsoff.de # 成人相关域名
