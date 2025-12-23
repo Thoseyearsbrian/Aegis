@@ -85,7 +85,8 @@ MINOR (Y) : New policy groups, new modules, or new features  👉 Recommended to
 
 PATCH (Z) : Rule fixes, annotation updates, minor improvements  👉 No need to re-download the configuration; updating external resources is sufficient
 
-💡 It is recommended to enable “Automatically reload when configuration is changed by external programs or remote updates” to ensure PATCH updates take effect automatically.
+💡 It is recommended to enable “Automatically reload configuration when modified by external programs or remote sources”.This option only applies to automatic reloading when the configuration file (.conf) changes.
+PATCH updates still require manually refreshing external resources (RULE-SET) to take effect.
 
 ## Surge IPv4 Configuration Links
 
