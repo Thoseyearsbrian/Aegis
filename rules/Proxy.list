@@ -5062,6 +5062,8 @@ DOMAIN-SUFFIX,blog.xlab.qianxin.com  # 奇安信 XLab 出品的安全研究博�
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
 DOMAIN-SUFFIX,blog.skk.moe # Sukka 的技术博客，内容涵盖前端开发、网络优化、DNS 解析与代理工具使用
+DOMAIN-SUFFIX,cdn.skk.moe # skk.moe 静态资源 CDN 域名，用于托管图片、图标、样式等前端静态文件
+DOMAIN-SUFFIX,img.skk.moe # skk.moe 图片资源加载域名，用于站点内图片和媒体内容分发
 DOMAIN-SUFFIX,blog.1ris.win # Blog 1RIS 个人博客主域名，用于技术分享、日志发布与项目更新
 DOMAIN-SUFFIX,beyondwickedmapping.org # 信息安全研究博客域名，用于发布网络威胁分析、Botnet 行为追踪与攻击路径溯源文章
 
