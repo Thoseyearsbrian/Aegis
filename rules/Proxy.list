@@ -4174,7 +4174,6 @@ DOMAIN-SUFFIX,api.abuseipdb.com # AbuseIPDB API 接口，用于自动化安全�
 # > VirusTotal（恶意文件/网址/域名分析平台 · Google 安全部门）
 
 DOMAIN-SUFFIX,virustotal.com # VirusTotal 主站域名，用于文件扫描、URL 检测、报告查询等核心功能
-DOMAIN-SUFFIX,www.virustotal.com # VirusTotal Web 前端入口，用于用户访问、上传文件与查看分析结果
 DOMAIN-SUFFIX,api.virustotal.com # VirusTotal API 接口域名，用于程序化文件扫描、URL 信誉查询与安全自动化
 DOMAIN-SUFFIX,vtapi.com # VirusTotal API 旧版域名，部分安全工具仍使用此端点进行扫描或信誉查询
 DOMAIN-SUFFIX,virustotalcloud.com # VirusTotal 云存储域，用于托管扫描样本、报告文件与云沙箱分析结果
@@ -4647,7 +4646,7 @@ DOMAIN-SUFFIX,fast.trychameleon.com # Chameleon 内嵌用户行为引导组件�
 
 # > Comeet 招聘与人力资源管理平台域名
 
-DOMAIN-SUFFIX,www.comeet.co # Comeet 官方主站域名，用于职位发布、候选人管理、招聘流程协作及企业 HR 页面加载
+DOMAIN-SUFFIX,comeet.co # Comeet 官方主站域名，用于职位发布、候选人管理、招聘流程协作及企业 HR 页面加载
 
 # > React-Tweet 组件服务域名
 
@@ -4663,7 +4662,7 @@ DOMAIN-SUFFIX,s9-recruiting.cdn.greenhouse.io # Greenhouse 招聘系统 CDN 子�
 
 # > Telescope Magazine 媒体内容网站域名
 
-DOMAIN-SUFFIX,www.telescopemagazine.com # Telescope Magazine 官方内容门户，用于展示文章、专题报道与页面资源加载
+DOMAIN-SUFFIX,telescopemagazine.com # Telescope Magazine 官方内容门户，用于展示文章、专题报道与页面资源加载
 
 # > WatchFoom 流媒体内容平台域名（Runway 出品）
 
@@ -4676,7 +4675,7 @@ DOMAIN-SUFFIX,api.simplesvg.com # SimpleSVG 图标 API，功能与 UniSVG 类似
 
 # > Dub 平台资源服务域名
 
-DOMAIN-SUFFIX,www.dubcdn.com # Dub 平台资源 CDN，用于加载 UI 组件、静态资源与嵌入内容
+DOMAIN-SUFFIX,dubcdn.com # Dub 平台资源 CDN，用于加载 UI 组件、静态资源与嵌入内容
 
 # > Cloudflare Stream 视频托管服务子域
 

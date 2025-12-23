@@ -88,6 +88,7 @@ DOMAIN-SUFFIX,s.youtube.com # YouTube 广告控制与追踪接口，用于广告
 DOMAIN-SUFFIX,mpc-prod-11-s6uit34pua-uc.a.run.app # Cloud Run 托管脚本服务，用于行为收集或营销事件处理
 DOMAIN-SUFFIX,ep1.adtrafficquality.google # Google 广告 SDK 上报接口，用于行为数据采集与质量评估
 DOMAIN-SUFFIX,ep2.adtrafficquality.google # Google 广告 SDK 上报接口，用于行为数据采集与质量评估
+DOMAIN-SUFFIX,www-google-analytics.l.google.com # Google Analytics 测量与统计服务域名，用于网站访问分析、事件追踪与流量数据上报
 
 # > Facebook 相关行为指纹
 

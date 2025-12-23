@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-22
+# - 更新时间：2025-12-23
 
 # > OpenAI Chat 系列
 
@@ -212,7 +212,6 @@ DOMAIN-SUFFIX,cdn.ai21.com # AI21 静态资源 CDN，用于加载控制台与前
 # > Midjourney（AI 图像生成）
 
 DOMAIN-SUFFIX,midjourney.com # Midjourney 主站域名，用于账号管理、作品展示、FAQ 与产品说明
-DOMAIN-SUFFIX,www.midjourney.com # Midjourney 站点主访问域（与主站区分的前端入口）
 DOMAIN-SUFFIX,cdn.midjourney.com # Midjourney 静态资源 CDN，用于加载前端脚本、样式与图像处理界面
 DOMAIN-SUFFIX,cdn.discordapp.com # Midjourney 图像生成结果依赖的 CDN，用于在 Discord 中加载生成的图像
 DOMAIN-SUFFIX,discordapp.com # Midjourney 核心运行平台（模型指令、图像生成均在 Discord Bot 上执行）
@@ -246,7 +245,6 @@ DOMAIN-SUFFIX,api.clipdrop.co # ClipDrop 官方 API 接口，用于背景移除�
 # > Pika（AI 视频生成）
 
 DOMAIN-SUFFIX,pika.art # Pika 主站域名，用于产品访问、作品展示与账号管理
-DOMAIN-SUFFIX,www.pika.art # Pika Web 前端入口，用于视频生成、项目管理与编辑界面
 DOMAIN-SUFFIX,api.pika.art # Pika 官方 API 接口，用于视频生成、图像生成与多媒体模型推理
 DOMAIN-SUFFIX,cdn.pika.art # Pika 静态资源 CDN，用于加载前端脚本、界面素材与模型资源
 DOMAIN-SUFFIX,assets.pika.art # Pika 资源域名，用于存储示例视频、素材文件与应用图标
@@ -256,7 +254,6 @@ DOMAIN-SUFFIX,storage.googleapis.com # Pika 生成视频、临时文件与项目
 # > Leonardo AI（AI 图像生成）
 
 DOMAIN-SUFFIX,leonardo.ai # Leonardo AI 主站，用于产品介绍、登录入口与作品展示
-DOMAIN-SUFFIX,www.leonardo.ai # Leonardo Web App 前端入口，用于图像生成、项目管理与模型编辑
 DOMAIN-SUFFIX,api.leonardo.ai # Leonardo 官方 API 接口，用于图像生成、纹理生成与模型推理服务
 DOMAIN-SUFFIX,cloud.leonardo.ai # Leonardo 云端平台资源域，用于任务调度、模型加载与项目处理
 DOMAIN-SUFFIX,cdn.leonardo.ai # Leonardo 静态资源 CDN，用于脚本、样式与前端界面素材加载
@@ -267,7 +264,6 @@ DOMAIN-SUFFIX,storage.googleapis.com # Leonardo 生成图像、多媒体资源�
 # > Krea AI（AI 图像 / 视频生成）
 
 DOMAIN-SUFFIX,krea.ai # Krea AI 主站，用于模型介绍、作品展示、账号管理与平台入口
-DOMAIN-SUFFIX,www.krea.ai # Krea Web App 前端入口，用于图像生成、视频生成、项目管理与实时编辑
 DOMAIN-SUFFIX,api.krea.ai # Krea 官方 API 接口，用于图像生成、视频生成与模型推理任务
 DOMAIN-SUFFIX,cdn.krea.ai # Krea 静态资源 CDN，用于加载前端脚本、样式与界面组件
 DOMAIN-SUFFIX,assets.krea.ai # Krea 资源域名，用于图片素材、模型文件与界面图标加载

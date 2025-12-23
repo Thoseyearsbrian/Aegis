@@ -1130,7 +1130,6 @@ DOMAIN-SUFFIX,kaolacdn.com # 网易考拉静态资源与内容分发 CDN 域名
 DOMAIN-SUFFIX,yangkeduo.com # 拼多多电商平台核心主域名，用于商品浏览、拼团交易与用户服务入口
 DOMAIN-SUFFIX,m.yangkeduo.com # 拼多多移动端网页服务域名，用于移动端访问与轻量化购物操作
 DOMAIN-SUFFIX,pinduoduo.com # 拼多多英文品牌域名，用于品牌展示与部分业务模块
-DOMAIN-SUFFIX,www.pinduoduo.com # 拼多多英文官网子域名
 DOMAIN-SUFFIX,pdd.net # 拼多多技术平台与基础服务域名，用于接口调度与底层服务支持
 DOMAIN-SUFFIX,api.pdd.net # 拼多多平台业务 API 接口域名，用于系统与服务调用
 DOMAIN-SUFFIX,pddpic.com # 拼多多图像与媒体资源 CDN 域名，用于商品图片与营销素材分发
@@ -1149,7 +1148,6 @@ DOMAIN-SUFFIX,vipshop.com # 唯品会旧版品牌域名，部分历史接口与�
 DOMAIN-SUFFIX,dewu.com # 得物潮流电商与社区平台主域名，用于商品交易、内容浏览与用户服务入口
 DOMAIN-SUFFIX,m.dewu.com # 得物移动端网页服务域名，用于移动端访问与轻量化浏览
 DOMAIN-SUFFIX,poizon.com # 得物国际化品牌域名，用于海外业务与品牌展示入口
-DOMAIN-SUFFIX,www.poizon.com # 得物国际站官方网站子域名
 DOMAIN-SUFFIX,duapp.com # 得物 App 相关服务域名，用于客户端接口、配置与资源加载
 DOMAIN-SUFFIX,api.duapp.com # 得物 App 业务 API 接口域名，用于商品、订单与用户数据交互
 DOMAIN-SUFFIX,static.duapp.com # 得物 App 静态资源与前端组件加载域名
@@ -1790,7 +1788,6 @@ DOMAIN-SUFFIX,res.jsassets.com # 即时素材内容资源域名，用于展示�
 # > 盛数科技（Shengshu Technology）官网服务
 
 DOMAIN-SUFFIX,shengshu.com # 盛数科技主站域名，用于产品介绍、企业官网与业务入口
-DOMAIN-SUFFIX,www.shengshu.com # 盛数科技官网子域名，用于展示产品信息、企业服务与文档入口
 
 # > YHGFB Static（国内通用静态资源 CDN）
 
@@ -1832,7 +1829,7 @@ DOMAIN-SUFFIX,render.vidu.com # Vidu 渲染服务域名，用于视频渲染任�
 DOMAIN-SUFFIX,cf.vidu.studio # Vidu 静态资源 CDN 域名，用于模型推理生成的图片、视频等内容的多媒体分发
 DOMAIN-SUFFIX,image01.cf.vidu.studio # Vidu 多媒体子域名，用于 AI 生成内容的图片资源加载与分发
 DOMAIN-SUFFIX,image01.vidu.zone # Vidu 媒体资源子域名，用于图像与模型生成内容的静态资源加载
-DOMAIN-SUFFIX,www.vidu.cn # 即构科技 Vidu 主站域名，用于官网访问、服务介绍与产品文档浏览
+DOMAIN-SUFFIX,vidu.cn # 即构科技 Vidu 主站域名，用于官网访问、服务介绍与产品文档浏览
 DOMAIN-SUFFIX,static.vidu.cn # 即构科技静态资源域名，用于加载 JS/CSS/图标等前端页面资源
 DOMAIN-SUFFIX,service.vidu.cn # 即构科技服务接口域名，用于视频服务相关的 API 调用与资源请求
 DOMAIN-SUFFIX,files.vidu.cn # 即构科技文件服务域名，用于下载 SDK、文档资源与媒体文件等内容
@@ -1953,8 +1950,8 @@ DOMAIN-SUFFIX,models.aminer.cn # AMiner 模型服务节点，用于模型权重�
 DOMAIN-SUFFIX,zhipuaiadmin.aminer.cn # 智谱 AI 管理后台域名，用于平台配置、账号管理与运营控制
 DOMAIN-SUFFIX,zhipuai.cn # 智谱 AI 主站域名，用于模型介绍、产品概览与企业服务
 DOMAIN-SUFFIX,zhipuai.com # 智谱 AI 国际化域名，用于在线体验与模型产品访问
-DOMAIN-SUFFIX,www.zhipuai.cn # 主站子域，用于模型信息、活动与演示入口
-DOMAIN-SUFFIX,www.zhipuai.com # 产品体验与国际站内容入口
+DOMAIN-SUFFIX,zhipuai.cn # 主站子域，用于模型信息、活动与演示入口
+DOMAIN-SUFFIX,zhipuai.com # 产品体验与国际站内容入口
 DOMAIN-SUFFIX,chatglm.cn # ChatGLM 在线对话入口，用于模型交互体验
 DOMAIN-SUFFIX,chatglm.com # ChatGLM 国际站入口，用于体验 GLM 系列模型
 DOMAIN-SUFFIX,glm.cn # GLM 系列品牌域名，用于模型介绍与产品跳转
@@ -1986,7 +1983,6 @@ DOMAIN-SUFFIX,auth.01.ai # 身份认证服务，用于登录过程与授权流�
 # > Baichuan（百川智能）
 
 DOMAIN-SUFFIX,baichuan-ai.com # 百川智能官方网站，用于模型介绍、产品概览与技术展示
-DOMAIN-SUFFIX,www.baichuan-ai.com # 官方主站子域，用于产品体验、活动信息与在线展示
 DOMAIN-SUFFIX,api.baichuan-ai.com # 百川大模型 API 主接口，用于对话、生成、向量化与多模态推理
 DOMAIN-SUFFIX,chat.baichuan-ai.com # 在线 Chat 页面入口，用于体验 Baichuan 模型
 DOMAIN-SUFFIX,platform.baichuan-ai.com # 百川开发者平台，用于 API Key、账单与模型管理
