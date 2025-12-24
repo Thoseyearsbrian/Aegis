@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-24
+# - 更新时间：2025-12-25
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -93,6 +93,7 @@ DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云品牌官网入口域名，用于产�
 DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名，用于云服务管理与用户控制台访问
 DOMAIN-SUFFIX,gtimg.cn # 腾讯系产品通用静态资源与多媒体内容分发域名
 DOMAIN-SUFFIX,tencentcloud.com # 腾讯云国际站与品牌入口域名，面向海外用户提供云服务信息
+DOMAIN-SUFFIX,pp.myapp.com # 腾讯应用宝（MyApp）下载与分发服务域名，用于应用安装包获取
 
 # > QQ 邮箱（Tencent Mail）
 
@@ -1490,6 +1491,7 @@ DOMAIN-SUFFIX,xinhuanet.com # 新华网（党媒）
 
 # > 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
 
+DOMAIN-SUFFIX,cacerts.digicert.cn # DigiCert 中国区证书分发域名
 DOMAIN-SUFFIX,ocsp.digicert.com # DigiCert 证书吊销状态查询（OCSP）
 DOMAIN-SUFFIX,ocsp.digicert.cn # DigiCert 中国区证书吊销检查服务（OCSP，用于验证证书有效性）
 DOMAIN-SUFFIX,ocsp.comodoca.com # Comodo 证书吊销状态查询服务（OCSP，用于验证证书有效性）
@@ -2082,3 +2084,7 @@ DOMAIN-SUFFIX,webapi.sporttery.cn # 体育彩票官网核心 Web API 接口域�
 # > 全国组织机构统一社会信用代码系统（CONAC）
 
 DOMAIN-SUFFIX,dcs.conac.cn # 全国组织机构统一社会信用代码公示系统接口域名，用于机构身份标识校验与权威信息查询服务
+
+# > Marmot Cloud 第三方 CDN 与云服务相关域名
+
+DOMAIN-SUFFIX,cdn.marmot-cloud.com # Marmot Cloud CDN 静态资源分发域名，用于内容与资源加速加载
