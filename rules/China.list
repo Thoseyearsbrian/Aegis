@@ -90,6 +90,10 @@ DOMAIN-SUFFIX,e.koubei.com # 口碑业务前端与接口域名，用于本地生
 DOMAIN-SUFFIX,agw.koubei.com # 口碑业务 API 网关域名，用于本地生活服务的接口调度、鉴权与数据转发
 DOMAIN-SUFFIX,v.koubei.com # 口碑前端业务与活动内容域名，用于本地生活页面渲染、营销活动与用户访问
 
+# > 蚂蚁集团（Ant Group）内部与基础服务域名
+
+DOMAIN-SUFFIX,i.antfin.com # 蚂蚁集团（Ant Group）内部与基础服务接口域名，用于账户体系、业务组件或内部系统相关服务访问
+
 # > 腾讯云（Tencent Cloud）
 
 DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播与实时音视频服务节点域名，用于流媒体连接建立与数据传输
