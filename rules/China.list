@@ -85,7 +85,10 @@ IP-CIDR,61.170.77.212 # 阿里系内容分发与资源访问相关网络节点 I
 
 # > 口碑（Koubei / 阿里本地生活）
 
+DOMAIN-SUFFIX,koubei.com # 口碑（Koubei）主站与品牌入口域名，用于阿里本地生活服务展示、商户入口与用户访问
 DOMAIN-SUFFIX,e.koubei.com # 口碑业务前端与接口域名，用于本地生活服务、电商活动与商户相关功能加载
+DOMAIN-SUFFIX,agw.koubei.com # 口碑业务 API 网关域名，用于本地生活服务的接口调度、鉴权与数据转发
+DOMAIN-SUFFIX,v.koubei.com # 口碑前端业务与活动内容域名，用于本地生活页面渲染、营销活动与用户访问
 
 # > 腾讯云（Tencent Cloud）
 
