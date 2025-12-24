@@ -2078,3 +2078,7 @@ DOMAIN-SUFFIX,apkdata.sporttery.cn # 体育彩票官方 App 数据与安装包�
 DOMAIN-SUFFIX,receive.sporttery.cn # 体育彩票业务数据接收接口域名，用于投注结果、状态回传等后台通信
 DOMAIN-SUFFIX,webinfo.sporttery.cn # 体育彩票官网信息服务接口域名，用于公告、开奖信息与页面数据加载
 DOMAIN-SUFFIX,webapi.sporttery.cn # 体育彩票官网核心 Web API 接口域名，用于业务查询与前端数据交互
+
+# > 全国组织机构统一社会信用代码系统（CONAC）
+
+DOMAIN-SUFFIX,dcs.conac.cn # 全国组织机构统一社会信用代码公示系统接口域名，用于机构身份标识校验与权威信息查询服务
