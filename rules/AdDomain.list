@@ -4,7 +4,7 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-22
+# - 更新时间：2025-12-25
 
 # > 广告相关域名
 
@@ -208,7 +208,6 @@ DOMAIN-SUFFIX,abtest-ch.com # AB 测试与广告效果分析域
 DOMAIN-SUFFIX,saxysec.com # 可疑域名,疑似灰产跳转或脚本统计用途,归属不明
 DOMAIN-SUFFIX,cdn.ad.wtzw.com # 小说站广告 CDN,用于加载插屏图片与跳转脚本
 DOMAIN-SUFFIX,cn-api.anythinktech.com # AnyThink 移动广告平台接口
-DOMAIN-SUFFIX,cnzz.com # CNZZ 站长统计与广告分析服务
 DOMAIN-SUFFIX,ck.ads.oppomobile.com # OPPO 广告点击跟踪接口
 DOMAIN-SUFFIX,config.unityads.unity3d.com # Unity Ads 配置接口域
 DOMAIN-SUFFIX,data.ads.oppomobile.com # OPPO 广告数据接口域

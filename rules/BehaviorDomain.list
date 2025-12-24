@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-23
+# - 更新时间：2025-12-25
 
 # > WeChat 数据统计与遥测
 
@@ -1000,3 +1000,7 @@ DOMAIN-SUFFIX,platform.iteratehq.com # Iterate 问卷与用户反馈平台域名
 # > Brand Metrics 品牌广告评估平台
 
 DOMAIN-SUFFIX,cdn.brandmetrics.com # Brand Metrics 广告衡量平台 CDN 域名，用于加载广告分析脚本与性能追踪资源
+
+# > CNZZ / 友盟统计分析服务
+
+DOMAIN-SUFFIX,s13.cnzz.com # CNZZ（友盟）统计脚本与数据上报节点，用于网站访问分析、行为统计与流量监测
