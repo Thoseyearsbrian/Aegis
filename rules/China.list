@@ -2066,6 +2066,10 @@ DOMAIN-SUFFIX,framerusercontent.com # Framer 平台托管的用户项目与静�
 
 DOMAIN-SUFFIX,zhcw.com # 中彩网网站域名，用于彩票开奖信息发布、政策公告与公益资讯展示
 
-# > 中国福利彩票（China Welfare Lottery）
+# > 中国福利彩票
 
 DOMAIN-SUFFIX,cwlgovcn.com # 中国福利彩票官方域名，用于彩票开奖信息发布、政策公告与公益资讯展示
+
+# > 中体彩网
+
+DOMAIN-SUFFIX,lottery.gov.cn # 中国体彩网官方网站域名，用于发布彩票监管政策、公告信息与权威资讯
