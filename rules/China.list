@@ -83,6 +83,10 @@ DOMAIN-SUFFIX,img.alicdn.com # 阿里系 CDN 图像资源域名，用于用户�
 DOMAIN-SUFFIX,gw.alicdn.com # 阿里系 CDN 前端资源入口域名，用于页面图像与静态资源加载
 IP-CIDR,61.170.77.212 # 阿里系内容分发与资源访问相关网络节点 IP
 
+# > 口碑（Koubei / 阿里本地生活）
+
+DOMAIN-SUFFIX,e.koubei.com # 口碑业务前端与接口域名，用于本地生活服务、电商活动与商户相关功能加载
+
 # > 腾讯云（Tencent Cloud）
 
 DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播与实时音视频服务节点域名，用于流媒体连接建立与数据传输
