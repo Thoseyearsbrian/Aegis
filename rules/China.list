@@ -2074,3 +2074,7 @@ DOMAIN-SUFFIX,cwlgovcn.com # 中国福利彩票官方域名，用于彩票开奖
 
 DOMAIN-SUFFIX,lottery.gov.cn # 中国体彩网官方网站域名，用于发布彩票监管政策、公告信息与权威资讯
 DOMAIN-SUFFIX,static.sporttery.cn # 体育彩票官网静态资源 CDN 域名，用于加载页面脚本、样式、图片等前端资源
+DOMAIN-SUFFIX,apkdata.sporttery.cn # 体育彩票官方 App 数据与安装包信息服务域名，用于客户端版本检测与资源获取
+DOMAIN-SUFFIX,receive.sporttery.cn # 体育彩票业务数据接收接口域名，用于投注结果、状态回传等后台通信
+DOMAIN-SUFFIX,webinfo.sporttery.cn # 体育彩票官网信息服务接口域名，用于公告、开奖信息与页面数据加载
+DOMAIN-SUFFIX,webapi.sporttery.cn # 体育彩票官网核心 Web API 接口域名，用于业务查询与前端数据交互
