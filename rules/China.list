@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-23
+# - 更新时间：2025-12-24
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -1117,14 +1117,6 @@ DOMAIN-SUFFIX,static.suning.com # 苏宁易购静态资源服务域名，用于�
 DOMAIN-SUFFIX,snsuning.com # 苏宁统一账号与认证系统域名，用于登录、SSO 与用户身份管理
 DOMAIN-SUFFIX,suningappliance.com # 苏宁电器垂直业务官网域名，用于电器类产品与服务展示
 
-# > 网易考拉海购（Kaola）
-
-DOMAIN-SUFFIX,kaola.com # 网易考拉跨境电商平台主域名，用于商品浏览、下单与用户服务入口
-DOMAIN-SUFFIX,m.kaola.com # 网易考拉移动端网页服务域名，用于移动端访问与轻量化购物操作
-DOMAIN-SUFFIX,kaolaapi.com # 网易考拉业务 API 服务域名，用于移动端与交易相关接口调用
-DOMAIN-SUFFIX,static.kaola.com # 网易考拉平台静态资源服务域名，用于前端脚本与页面组件加载
-DOMAIN-SUFFIX,kaolacdn.com # 网易考拉静态资源与内容分发 CDN 域名  
-
 # > 拼多多相关域名（Pinduoduo）
 
 DOMAIN-SUFFIX,yangkeduo.com # 拼多多电商平台核心主域名，用于商品浏览、拼团交易与用户服务入口
@@ -1430,6 +1422,25 @@ DOMAIN-SUFFIX,email.163.com # 网易企业邮箱服务域名，用于企业账�
 DOMAIN-SUFFIX,imap.163.com # 网易邮箱 IMAP 服务域名，用于邮件客户端收取邮件
 DOMAIN-SUFFIX,smtp.163.com # 网易邮箱 SMTP 服务域名，用于邮件客户端发送邮件
 
+# > 网易体育（NetEase Sports）
+
+DOMAIN-SUFFIX,sports.163.com # 网易体育频道域名，用于体育新闻、赛事报道与相关内容展示
+
+# > 网易考拉海购（Kaola）
+
+DOMAIN-SUFFIX,kaola.com # 网易考拉跨境电商平台主域名，用于商品浏览、下单与用户服务入口
+DOMAIN-SUFFIX,m.kaola.com # 网易考拉移动端网页服务域名，用于移动端访问与轻量化购物操作
+DOMAIN-SUFFIX,kaolaapi.com # 网易考拉业务 API 服务域名，用于移动端与交易相关接口调用
+DOMAIN-SUFFIX,static.kaola.com # 网易考拉平台静态资源服务域名，用于前端脚本与页面组件加载
+DOMAIN-SUFFIX,kaolacdn.com # 网易考拉静态资源与内容分发 CDN 域名  
+
+# > 网易静态资源与风控服务（Static Assets / Risk Control）
+
+DOMAIN-SUFFIX,126.net # 网易静态资源域，用于加载通用前端内容、字体与图像
+DOMAIN-SUFFIX,cstaticdun-v6.126.net # 网易易盾风控/验证码服务节点，用于表单提交、人机验证与登录安全校验
+DOMAIN-SUFFIX,ir-sdk.dun.163.com # 网易易盾 SDK 上报接口，用于设备指纹、行为识别与风控建模
+DOMAIN-SUFFIX,c.dun.163.com # 网易易盾客户端配置与策略下发接口，用于风控参数更新与策略同步
+
 # > 新浪邮箱（Sina Mail）
 
 DOMAIN-SUFFIX,mail.sina.com.cn # 新浪邮箱 Web 主入口，用于网页端收发邮件与账户管理
@@ -1524,13 +1535,6 @@ DOMAIN-SUFFIX,mokahr.com # Moka 招聘管理系统主域名，用于账号模块
 DOMAIN-SUFFIX,app.mokahr.com # Moka Web 应用端，用于职位投递、招聘流程管理与企业端操作界面
 DOMAIN-SUFFIX,public-cdn.mokahr.com # Moka 静态资源 CDN，用于加载前端脚本、样式、组件与页面素材
 DOMAIN-SUFFIX,sentry-fe.mokahr.com # Moka 前端错误监控与性能日志上报节点，用于追踪前端异常与稳定性数据
-
-# > 网易静态资源与风控服务（Static Assets / Risk Control）
-
-DOMAIN-SUFFIX,126.net # 网易静态资源域，用于加载通用前端内容、字体与图像
-DOMAIN-SUFFIX,cstaticdun-v6.126.net # 网易易盾风控/验证码服务节点，用于表单提交、人机验证与登录安全校验
-DOMAIN-SUFFIX,ir-sdk.dun.163.com # 网易易盾 SDK 上报接口，用于设备指纹、行为识别与风控建模
-DOMAIN-SUFFIX,c.dun.163.com # 网易易盾客户端配置与策略下发接口，用于风控参数更新与策略同步
 
 # > 轻雀文档（Qingque Docs / SaaS 文档平台）
 
