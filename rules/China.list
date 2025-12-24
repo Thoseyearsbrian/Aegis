@@ -2062,6 +2062,10 @@ DOMAIN-SUFFIX,a11y.nicolas-hoffmann.net # Web A11y 可访问性组件资源加�
 
 DOMAIN-SUFFIX,framerusercontent.com # Framer 平台托管的用户项目与静态资源域名，用于加载网页、图像与 JS 等前端内容，常见于站点预览与个人页面
 
+# > 中彩网
+
+DOMAIN-SUFFIX,zhcw.com # 中彩网网站域名，用于彩票开奖信息发布、政策公告与公益资讯展示
+
 # > 中国福利彩票（China Welfare Lottery）
 
-DOMAIN-SUFFIX,zhcw.com # 中国福利彩票官方门户网站域名，用于彩票开奖信息发布、政策公告与公益资讯展示
+DOMAIN-SUFFIX,cwlgovcn.com # 中国福利彩票官方域名，用于彩票开奖信息发布、政策公告与公益资讯展示
