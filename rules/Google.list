@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-23
+# - 更新时间：2025-12-25
 
 # > 核心服务（Google Core Services）
 
@@ -40,6 +40,7 @@ DOMAIN-SUFFIX,google.com.hk # Google 香港主站域名，用于本地化搜索�
 DOMAIN-SUFFIX,google.com.sg # Google 新加坡站点域名，用于区域性搜索结果、语言与地域定制服务
 DOMAIN-SUFFIX,carromclash.h5games.usercontent.goog # Google 提供的 H5 游戏托管服务子域，用于加载 Carrom Clash 等小游戏内容
 DOMAIN-SUFFIX,chromium.googlesource.com # Chromium 项目的源代码托管域名，托管 Google 浏览器相关项目源码
+DOMAIN-SUFFIX,forms.gle # Google Forms 官方短链接域名，用于表单访问与跳转至 Google 表单服务
 IP-CIDR,142.250.4.0/24  # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
