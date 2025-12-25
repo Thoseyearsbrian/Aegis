@@ -1004,3 +1004,7 @@ DOMAIN-SUFFIX,cdn.brandmetrics.com # Brand Metrics 广告衡量平台 CDN 域名
 # > CNZZ / 友盟统计分析服务
 
 DOMAIN-SUFFIX,s13.cnzz.com # CNZZ（友盟）统计脚本与数据上报节点，用于网站访问分析、行为统计与流量监测
+
+# > Astro 官方遥测与构建统计服务
+
+DOMAIN-SUFFIX,telemetry.astro.build # Astro 官方遥测与匿名使用统计域名，用于收集构建性能与错误信息
