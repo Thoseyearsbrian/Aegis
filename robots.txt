@@ -1,3 +1,5 @@
+# ---- Allow major search engine crawlers ----
+
 User-agent: Googlebot
 Allow: /
 
@@ -8,6 +10,29 @@ User-agent: YandexBot
 Allow: /
 
 User-agent: Applebot
+Allow: /
+
+# ---- Allow AI / LLM crawlers ----
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
 Allow: /
 
 # ---- Block common mirror services / crawlers ----
@@ -27,7 +52,7 @@ Disallow: /
 User-agent: ia_archiver
 Disallow: /
 
-# Common open-source mirrors / scrapers
+# ---- Common open-source mirrors / scrapers ----
 User-agent: MJ12bot
 Disallow: /
 
