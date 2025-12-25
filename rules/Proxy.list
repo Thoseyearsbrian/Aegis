@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-24
+# - 更新时间：2025-12-25
 
 # > Speedtest 网络测速平台
 
@@ -3034,6 +3034,7 @@ DOMAIN-SUFFIX,1.1.1.1  # Cloudflare 公共 DNS 服务 IPv4 地址，用于加密
 DOMAIN-SUFFIX,1.0.0.1  # Cloudflare 公共 DNS 备用 IPv4 地址，提供冗余 DNS 解析能力
 DOMAIN-SUFFIX,challenges.cloudflare.com  # Cloudflare 验证挑战页面域名，用于机器人识别与访问验证机制  
 DOMAIN-SUFFIX,cp10.cloudflare.com  # Cloudflare 内容分发节点，用于静态资源加速与边缘缓存服务
+DOMAIN-SUFFIX,pages.dev # Cloudflare Pages 官方托管域名后缀，用于部署与访问静态网站（含项目子域）
 IP-CIDR,104.18.6.91/32 # Cloudflare CDN / Hosting 节点，承载多个域名的静态资源、HTTPS 服务与反向代理
 
 # > 迅雷下载与云服务
