@@ -96,6 +96,12 @@ Examples:
 
 -	Current version: Aegis v3.3.4,Previous version: Aegis v3.3.3,This is a PATCH update (PATCH = 4).No need to re-download the configuration.You only need to manually refresh external resources (RULE-SET).
 
+Summary:
+
+As long as you re-download the configuration file (.conf) and re-add the nodes, external resources will be updated automatically if the option 「Automatically reload if the profile was modified externally/remotely」 is enabled.
+
+For PATCH version updates, you still need to manually refresh external resources (RULE-SET) for the changes to take effect.
+
 ## Surge IPv4 Configuration Links
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf  

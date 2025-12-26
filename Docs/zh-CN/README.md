@@ -96,6 +96,12 @@ PATCH（Z）版本（修复更新）: 修复规则 / 注释补全 / 小幅优化
 
 当前版本是Aegis v3.3.4,上一版本是Aegis v3.3.3此次就是PATCH更新(PATCH=4),不用重新下载配置，只需更新外部资源即可
 
+总结:
+
+只要重新下载配置文件（.conf）,并重新添加节点,就会自动更新外部资源(勾选了「当配置从外部程序或远端修改后自动重新载入」).
+
+PATCH 版本更新仍需手动刷新外部资源（RULE-SET）后才能生效。
+
 ## Surge IPv4 配置链接
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf  
