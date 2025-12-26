@@ -111,11 +111,12 @@ IP-CIDR,119.29.29.98/32 # 腾讯 DNSPod 公共解析服务节点，提供 DNS �
 
 # > 腾讯云（Tencent Cloud）
 
-DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播与实时音视频服务节点域名，用于流媒体连接建立与数据传输
-DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云视频点播与内容分发服务域名，用于视频资源加载与播放请求
 DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net # 腾讯云 TEG 平台相关服务域名，用于云服务接入与系统调度支持
 DOMAIN-SUFFIX,dscache.tencent-cloud.cn # 腾讯云网络调度与 DNS 缓存服务域名，用于解析加速、链路选择与网络可用性保障
+DOMAIN-SUFFIX,cloudcache.tencent-cloud.cn # 腾讯云缓存与内容分发服务域名，用于静态资源与对象存储内容的加速分发
+DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播与实时音视频服务节点域名，用于流媒体连接建立与数据传输
 DOMAIN-SUFFIX,qcloudimg.tencent-cloud.cn # 腾讯云官方静态资源 CDN 域名，用于图片与前端资源分发加载
+DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云视频点播与内容分发服务域名，用于视频资源加载与播放请求
 DOMAIN-SUFFIX,yehe.woa.com # 腾讯企业级内部系统与业务支撑域名，用于后台管理、协作或内部服务通信
 DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云 API 接口调用域名，用于云资源管理与服务接口访问
 DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云品牌官网入口域名，用于产品文档、技术社区与服务介绍
