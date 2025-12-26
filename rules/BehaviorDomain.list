@@ -1029,3 +1029,8 @@ DOMAIN-SUFFIX,px.effirst.com # 第三方风控与反作弊服务域名，用于�
 # > 第三方云服务行为分析与风控回源节点
 
 IP-CIDR,172.253.134.188/32 # Google 公网云服务 IP（GCP），常用于第三方统计、风控或分析服务的回源与中转通信
+
+# > Boss 直聘 iOS 行为日志采集接口与性能监控与遥测接口（APM）
+
+DOMAIN-SUFFIX,logapi-ios.zhipin.com # Boss 直聘 iOS 客户端行为日志上报接口，用于用户操作路径与行为分析
+DOMAIN-SUFFIX,apm-ios.zhipin.com # Boss 直聘 iOS 性能监控（APM）接口，用于崩溃分析、性能指标与稳定性遥测
