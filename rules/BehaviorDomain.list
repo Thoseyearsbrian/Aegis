@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-25
+# - 更新时间：2025-12-26
 
 # > WeChat 数据统计与遥测
 
@@ -1008,3 +1008,7 @@ DOMAIN-SUFFIX,s13.cnzz.com # CNZZ（友盟）统计脚本与数据上报节点�
 # > Astro 官方遥测与构建统计服务
 
 DOMAIN-SUFFIX,telemetry.astro.build # Astro 官方遥测与匿名使用统计域名，用于收集构建性能与错误信息
+
+# > MediaV 广告转化监测与用户行为追踪服务
+
+DOMAIN-SUFFIX,cm.mediav.com # MediaV 广告转化监测与用户行为追踪域名
