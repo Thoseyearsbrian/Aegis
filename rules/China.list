@@ -2124,3 +2124,4 @@ DOMAIN-SUFFIX,html2canvas.hertzen.com # html2canvas 官方资源域名，用于�
 
 DOMAIN-SUFFIX,zhipin.com # Boss 直聘主站与核心业务域名，用于招聘信息展示、职位搜索、账户登录与企业服务
 DOMAIN-SUFFIX,api-ios.zhipin.com # Boss 直聘 iOS 客户端核心业务 API，用于职位、消息、投递与账户等基础功能请求
+DOMAIN-SUFFIX,img.bosszhipin.com # Boss 直聘前端图片与静态资源域名，用于职位展示、公司标识与页面 UI 加载
