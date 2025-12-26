@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-25
+# - 更新时间：2025-12-26
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -204,6 +204,7 @@ DOMAIN-SUFFIX,douyinvod.com # 抖音视频内容分发 CDN 域名
 DOMAIN-SUFFIX,douyinpic.com # 抖音图片与封面资源 CDN 域名
 DOMAIN-SUFFIX,amemv.com # 抖音直播与实时通信相关服务域名
 DOMAIN-SUFFIX,zijieapi.com # 字节跳动 API 服务接口域名
+DOMAIN-SUFFIX,v27-wha.douyinvod.com # 抖音视频内容分发节点
 IP-CIDR,122.14.236.68/32 # 字节跳动 Frontier 边缘服务节点 IP
 IP-CIDR,180.163.132.102/32 # 抖音图片资源 CDN 节点 IP
 IP-CIDR,117.68.5.176/32 # 字节跳动字体与前端资源加载节点 IP
