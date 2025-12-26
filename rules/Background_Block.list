@@ -1,50 +1,22 @@
 # > Background_Block.list（可疑后台服务与域名规则集）
-# - 分类：静默通信 / 数据回传 / IoT 与后台服务
+# - 分类：后台回连 / 配置上传 / 设备级静默通信
 # - 来源：实测流量分析 / SDK 行为归属 / 安全社区案例
-# - 特征：封锁具备持续回连、配置上传或监听特征的后台服务域名，涵盖 IoT、NAS、SDK 等设备类或应用组件，排除广告与行为分析类通信
+# - 特征：封锁具备明确后台回连、配置上传或设备级通信特征的域名，涵盖 IoT、NAS、SDK 等设备类或应用组件，排除广告与行为分析类通信
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-06
+# - 更新时间：2025-12-26
 
-DOMAIN-SUFFIX,breached.to # 数据泄露／账号资料暴露平台，高风险
-DOMAIN-SUFFIX,idunlock.cfd # 仿冒解锁平台域名，用于诱导输入账户信息与设备标识，已确认存在社工钓鱼行为
-DOMAIN-SUFFIX,asiassn.com # 可疑亚洲安全会议仿冒域名，疑似用于分发恶意加载器或收集研究人员信息
-DOMAIN-SUFFIX,api-production.8-lives-cat.io # 疑似订阅/SDK 后端接口，被安全工具标记为钓鱼（Gridinsoft 评估为 1/100 信任分数，Phishing 风险）
-IP-CIDR,17.252.203.211 # Apple 官方 IP，使用非常规端口 3490，疑似远程管理或私有服务通信节点-可疑
+# > 支付宝后台通信与网络检测服务（AliPay Background Services）
 
-# > 中国电信系统后台服务接口（China Telecom System Background Services）
+IP-CIDR,203.209.250.41 # 蚂蚁集团网络节点（Alipay），用于支付宝客户端的后台通信与网络可用性检测，属于应用级静默网络请求
 
-DOMAIN-SUFFIX,applecsb.crm.189.cn # 电信 CRM 自启动接口，疑似用于 iOS 系统级服务绑定与后台行为监控
-IP-CIDR,223.83.82.150/32 # 中国移动，嘉兴,浙江，开放 8082 端口，疑似流量中转或转发服务
-IP-CIDR,39.174.254.17/32 # 中国移动，上海，常见于可疑 HTTP 代理扫描源
-IP-CIDR,39.174.254.29/32 # 中国移动，上海，开放 8082 端口，行为类似远程代理服务
-IP-CIDR,218.60.65.43/32 # 中国联通，辽宁铁岭，开放通用代理端口 8082，存在批量连接特征
-IP-CIDR,111.2.118.45/32 # 中国移动，上海，发现于多个代理探测日志中，疑似开放式代理出口
-IP-CIDR,49.7.72.98/32 # 中国电信，北京,商业广告,端口 44863，行为异常，疑似中间人或非法监听节点
-IP-CIDR,218.60.65.58/32 # 中国联通，沈阳,辽宁，固定线路ISP,开放 8082 端口，存在异常连接行为
+# > Cloudflare 反向代理探测与网络检测流量（非应用层请求）
 
-# > 支付宝后台监听与诊断行为（AliPay Background Services）
-
-IP-CIDR,203.209.250.41 # 阿里系 IP，隶属蚂蚁小微金融服务，用于设备信息采集与网络诊断通道  
-
-# > Mozilla 后台通信与推送中继服务（Background Sync & Push Services）
-
-DOMAIN-SUFFIX,push.services.mozilla.com # Firefox Web Push 推送服务接口，后台通信使用  
-DOMAIN-SUFFIX,autopush.mozilla.com # Firefox 推送中继服务，用于消息推送数据传输  
-DOMAIN-SUFFIX,crash-reports.mozilla.com # Firefox 崩溃日志收集与自动上传接口  
-DOMAIN-SUFFIX,detectportal.firefox.com # Firefox 联网状态检测域名，用于探测网络门户页（Captive Portal）
-
-# > Cloudflare 反向代理探测流量（扫描 / 探测类）
-
-IP-CIDR,162.159.61.3/32 # Cloudflare 反向代理扫描节点，常见端口探测 / DoS 相关流量，非正常业务通信，可安全阻断
-IP-CIDR,172.64.41.3/32 # Cloudflare 反向代理探测节点，裸 IP 访问触发 PortMap 行为，非业务流量，可安全阻断
+IP-CIDR,162.159.61.3/32 # Cloudflare 边缘网络节点（AS13335），非应用层业务请求,AbuseIPDB 中存在多次 DDoS / 异常攻击流量相关记录
+IP-CIDR,172.64.41.3/32 # Cloudflare 边缘网络节点（AS13335），非应用层业务请求,AbuseIPDB 中存在多次 DDoS / 异常攻击流量相关记录
 
 # > PortMap / 异常端口探测流量（非业务连接）
 
-IP-CIDR,103.97.176.73/32 # 端口扫描来源IP，AbuseIPDB多次报告为 Port Scan；非 PortMap 服务节点，与正常业务无关，可直接阻断
-IP-CIDR,17.253.145.10/32 # Apple CDN / Edge 网络中的异常端口探测流量，非正常 HTTPS 业务链路，疑似 PortMap 触发，可阻断
-IP-CIDR,151.101.131.6/32 # Fastly Edge 节点的异常端口探测流量，带 PortMap 标记，非应用层请求，可安全阻断
-
-# > SquareRefresh 第三方模板平台域名（与 Squarespace 有关联）
-
-DOMAIN-SUFFIX,squarerefresh.xyz # SquareRefresh 模板与插件聚合平台域名，虽与 Squarespace 官网存在跳转关联，但非官方子域，部分安全检测评级较高，但不同安全软件对此域名评级存在差异，存在 Open‑Redirect,可能存在风险，建议谨慎使用
+IP-CIDR,103.97.176.73/32 # 香港数据中心/中转网络节点（AS401696），在 AbuseIPDB 多次记录为端口扫描（Port Scan）行为，属于非业务网络探测流量
+IP-CIDR,17.253.145.10/32 # Apple 官方网络节点（AS714），非应用层业务通信；在 AbuseIPDB 中存在多次异常安全事件记录（含 DDoS、SSH 暴力尝试与端口扫描等），反映该类高信任基础设施节点曾被第三方滥用
+IP-CIDR,151.101.131.6/32 # Fastly Edge 网络节点（AS54113），非应用层业务通信；在 AbuseIPDB 中被多次记录为端口扫描（Port Scan）与异常连接尝试，反映该类高信任 CDN 基础设施节点存在被第三方滥用

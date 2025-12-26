@@ -221,6 +221,7 @@ IP-CIDR,61.155.39.13/32 # 字节跳动边缘服务与访问优化节点 IP
 
 # > 中国电信服务相关域名
 
+DOMAIN-SUFFIX,applecsb.crm.189.cn # 中国电信 CRM 业务接口，用于 Apple 设备在国内的运营商服务绑定与业务对接
 DOMAIN-SUFFIX,21cn.com # 中国电信旗下 21CN 服务域名，用于企业级通信服务与相关业务支持
 DOMAIN-SUFFIX,api-e189.21cn.com # 中国电信号码与身份相关服务接口域名，用于用户接入与服务验证
 DOMAIN-SUFFIX,e189.cn # 中国电信统一服务入口域名，用于官网、应用与在线业务访问

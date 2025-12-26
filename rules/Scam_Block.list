@@ -5,7 +5,7 @@
 # - 提示：本模块识别与拦截已被确认的网络欺诈行为，默认启用
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-20
+# - 更新时间：2025-12-26
 
 DOMAIN-SUFFIX,ahqpqagt.gay # 欺诈网站,被 Scamdoc 评级为极低信誉，存在欺诈与高风险活动
 DOMAIN-SUFFIX,aigeersoagay.net # 拒绝域名，疑似欺诈跳转或恶意加载
@@ -14,3 +14,6 @@ DOMAIN-SUFFIX,avouerosiest.help # 拒绝域名，疑似欺诈跳转或恶意加�
 DOMAIN-SUFFIX,awokenerect.help # 拒绝域名，疑似欺诈跳转或恶意加载
 DOMAIN-SUFFIX,babesroulette.com # 拒绝域名，疑似欺诈跳转或恶意加载
 DOMAIN-SUFFIX,boobausauhipsa.net # 恶意网站，滥用通知权限进行垃圾广告推送，具有诱导点击与信誉风险
+DOMAIN-SUFFIX,breached.to # 数据泄露／账号资料暴露平台，高风险
+DOMAIN-SUFFIX,idunlock.cfd # 仿冒解锁平台域名，用于诱导输入账户信息与设备标识，已确认存在社工钓鱼行为
+DOMAIN-SUFFIX,idunlock.cfd # 仿冒解锁平台域名，用于诱导输入账户信息与设备标识，已确认存在社工钓鱼行为
