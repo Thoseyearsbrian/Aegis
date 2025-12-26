@@ -1012,3 +1012,7 @@ DOMAIN-SUFFIX,telemetry.astro.build # Astro 官方遥测与匿名使用统计域
 # > MediaV 广告转化监测与用户行为追踪服务
 
 DOMAIN-SUFFIX,cm.mediav.com # MediaV 广告转化监测与用户行为追踪域名
+
+# > 外卖平台行为日志与数据分析接口
+
+DOMAIN-SUFFIX,log.waimai.meituan.com # 外卖平台行为日志与埋点上报接口，用于用户行为分析与系统监测
