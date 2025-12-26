@@ -114,13 +114,16 @@ IP-CIDR,119.29.29.98/32 # 腾讯 DNSPod 公共解析服务节点，提供 DNS �
 DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播与实时音视频服务节点域名，用于流媒体连接建立与数据传输
 DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云视频点播与内容分发服务域名，用于视频资源加载与播放请求
 DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net # 腾讯云 TEG 平台相关服务域名，用于云服务接入与系统调度支持
-DOMAIN-SUFFIX,myqcloud.com # 腾讯云通用服务域名，用于对象存储、云服务访问与相关功能支持
+DOMAIN-SUFFIX,dscache.tencent-cloud.cn # 腾讯云网络调度与 DNS 缓存服务域名，用于解析加速、链路选择与网络可用性保障
+DOMAIN-SUFFIX,qcloudimg.tencent-cloud.cn # 腾讯云官方静态资源 CDN 域名，用于图片与前端资源分发加载
+DOMAIN-SUFFIX,yehe.woa.com # 腾讯企业级内部系统与业务支撑域名，用于后台管理、协作或内部服务通信
 DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云 API 接口调用域名，用于云资源管理与服务接口访问
 DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云品牌官网入口域名，用于产品文档、技术社区与服务介绍
+DOMAIN-SUFFIX,tencentcloud.com # 腾讯云国际站与品牌入口域名，面向海外用户提供云服务信息
+DOMAIN-SUFFIX,myqcloud.com # 腾讯云通用服务域名，用于对象存储、云服务访问与相关功能支持
+DOMAIN-SUFFIX,pp.myapp.com # 腾讯应用宝（MyApp）下载与分发服务域名，用于应用安装包获取
 DOMAIN-SUFFIX,qcloud.com # 腾讯云官网与控制台主域名，用于云服务管理与用户控制台访问
 DOMAIN-SUFFIX,gtimg.cn # 腾讯系产品通用静态资源与多媒体内容分发域名
-DOMAIN-SUFFIX,tencentcloud.com # 腾讯云国际站与品牌入口域名，面向海外用户提供云服务信息
-DOMAIN-SUFFIX,pp.myapp.com # 腾讯应用宝（MyApp）下载与分发服务域名，用于应用安装包获取
 IP-CIDR,49.233.246.183/32 # 腾讯云中国区公网 IP，HTTPS 业务节点，常用于网站、API 或云服务对外访问
 IP-CIDR,152.136.8.45/32 # 腾讯云中国区公网 IP，HTTPS 业务节点，可能用于企业或平台级服务访问
 
@@ -2147,3 +2150,7 @@ DOMAIN-SUFFIX,img2.bosszhipin.com # Boss 直聘前端图片与静态资源 CDN �
 # > EuroLand 投资者关系与金融数据嵌入服务
 
 DOMAIN-SUFFIX,tools.euroland.com # 第三方投资者关系（IR）与金融数据展示服务域名，用于上市公司财报、股价与投资信息组件加载
+
+# > 国内 CDN 与内容加速基础设施（China CDN / Content Delivery）
+
+DOMAIN-SUFFIX,cdn-go.cn # 国内内容分发网络（CDN）域名，用于静态资源与业务内容加速分发
