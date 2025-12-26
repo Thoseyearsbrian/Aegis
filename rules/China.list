@@ -94,6 +94,10 @@ DOMAIN-SUFFIX,v.koubei.com # 口碑前端业务与活动内容域名，用于本
 
 DOMAIN-SUFFIX,i.antfin.com # 蚂蚁集团（Ant Group）内部与基础服务接口域名，用于账户体系、业务组件或内部系统相关服务访问
 
+# > DNS 解析与链路探测接口（Tencent DNSPod）
+
+IP-CIDR,119.29.29.98/32 # 腾讯 DNSPod 公共解析服务节点，提供 DNS 查询、探测与解析接口
+
 # > 腾讯云（Tencent Cloud）
 
 DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播与实时音视频服务节点域名，用于流媒体连接建立与数据传输
