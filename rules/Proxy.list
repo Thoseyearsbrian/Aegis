@@ -3026,7 +3026,6 @@ DOMAIN-SUFFIX,raw.githubusercontent.com  # Homebrew Tap 配置与脚本源地址
 
 DOMAIN-SUFFIX,cloudflare.com  # Cloudflare 官方主域名，用于控制台访问与账户管理
 DOMAIN-SUFFIX,cloudflare.net  # Cloudflare 辅助域名，用于 DNS、WAF、CDN 服务通信
-DOMAIN-SUFFIX,cloudflareinsights.com  # Cloudflare Insights 分析平台，用于性能与安全监控
 DOMAIN-SUFFIX,cf.cloudflare.com  # Cloudflare 静态资源加载域名，用于网页前端优化
 DOMAIN-SUFFIX,workers.dev  # Cloudflare Workers 服务域名，用于无服务器计算平台
 DOMAIN-SUFFIX,cf-ipfs.com  # Cloudflare IPFS 网关服务域名，用于访问分布式内容

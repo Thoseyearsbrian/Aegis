@@ -217,6 +217,7 @@ DOMAIN-SUFFIX,push-api.cloud.huawei.com # 华为 Push 行为上报通道
 # > Amazon / Cloudflare / Sentry 行为分析服务
 
 DOMAIN-SUFFIX,sentry.cloudflare.com # 行为分析追踪系统
+DOMAIN-SUFFIX,cloudflareinsights.com  # Cloudflare Insights 分析平台，用于性能与安全监控
 DOMAIN-SUFFIX,o33249.ingest.us.sentry.io # Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
 DOMAIN-SUFFIX,sentry-cdn.com # Sentry 错误监控平台静态资源域名，用于加载前端监控 SDK 与相关脚本
 DOMAIN-SUFFIX,js.sentry-cdn.com # Sentry JS SDK 分发节点，用于前端错误捕获、性能上报与事件采集脚本加载
