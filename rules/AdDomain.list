@@ -4,7 +4,7 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-25
+# - 更新时间：2025-12-26
 
 # > 广告相关域名
 
@@ -239,7 +239,6 @@ DOMAIN-SUFFIX,adsmart.konka.com # 康佳智能广告投放平台域名
 DOMAIN-SUFFIX,rp.hpplay.cn # 乐播投屏广告日志接口,用于曝光点击等行为上报
 DOMAIN-SUFFIX,sdk-cache.video.ptqy.gitv.tv # 爱奇艺广告 SDK 缓存资源域
 DOMAIN-SUFFIX,cdn.hpplay.com.cn # hpplay 素材 CDN 域名
-DOMAIN-SUFFIX,cdn.ynuf.aliapp.org # 阿里 App 广告素材 CDN 子域
 DOMAIN-SUFFIX,chiq-cloud.com # CHiQ 智能终端云平台域名,含广告策略与行为上报功能
 DOMAIN-SUFFIX,conf.hpplay.cn # hpplay 配置服务接口,可能用于广告或设备管理
 DOMAIN-SUFFIX,images.outbrainimg.com # Outbrain 广告平台图片素材域
