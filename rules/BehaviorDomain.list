@@ -359,6 +359,7 @@ DOMAIN-SUFFIX,report.servicewechat.com # 微信服务接口（含行为分析组
 DOMAIN-SUFFIX,wxapp.tc.qq.com # 小程序平台日志与崩溃分析服务
 DOMAIN-SUFFIX,miniapp.qq.com # QQ 小程序相关行为数据域名
 DOMAIN-SUFFIX,sandbox.api.qq.com # SDK 模拟测试行为回传（可能用于调试监听）
+DOMAIN-SUFFIX,tcsdk.com # 腾讯云 SDK 行为分析与遥测服务域名，用于客户端使用情况、性能与行为数据采集
 
 # > GFW / Geedge 自有基础设施域名（泄露推测 / 待验证）
 
