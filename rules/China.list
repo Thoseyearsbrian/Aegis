@@ -498,6 +498,8 @@ DOMAIN-SUFFIX,cainiao.com # 菜鸟网络服务域名，用于物流与平台相�
 
 DOMAIN-SUFFIX,ele.me # 饿了么主站域名，用于外卖与蜂鸟专送服务入口，承载下单、账户与基础业务页面
 DOMAIN-SUFFIX,h5.ele.me # 饿了么移动端主站域名，用于点餐、下单、优惠、账户等核心业务访问
+DOMAIN-SUFFIX,elemecdn.com # 饿了么（Ele.me）官方 CDN 主域名，承载前端静态资源与子域分发
+DOMAIN-SUFFIX,cube.elemecdn.com # 饿了么前端组件与业务模块资源 CDN，用于页面组件与功能模块加载
 DOMAIN-SUFFIX,assets.elemecdn.com # 饿了么（Ele.me）静态资源分发域名，用于图片、脚本、样式等前端资源加载
 DOMAIN-SUFFIX,waimai.taobao.com # 饿了么在淘宝体系内的历史入口与聚合跳转页面，用于订单引流与业务整合展示
 DOMAIN-SUFFIX,h5.ele.me # 饿了么 H5 移动端页面服务域名，用于轻量化下单、订单查询与活动页面访问

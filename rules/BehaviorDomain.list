@@ -1016,3 +1016,16 @@ DOMAIN-SUFFIX,cm.mediav.com # MediaV 广告转化监测与用户行为追踪域�
 # > 外卖平台行为日志与数据分析接口
 
 DOMAIN-SUFFIX,log.waimai.meituan.com # 外卖平台行为日志与埋点上报接口，用于用户行为分析与系统监测
+
+# > 饿了么行为分析与风控相关 CDN 域名
+
+DOMAIN-SUFFIX,shadow.elemecdn.com # 饿了么影子资源与灰度发布相关 CDN，用于新版本或风控策略分发
+DOMAIN-SUFFIX,h5-data.elemecdn.com # 饿了么 H5 页面数据与埋点上报域名，用于行为分析与风控评估
+
+# > 第三方风控与反作弊服务域名
+
+DOMAIN-SUFFIX,px.effirst.com # 第三方风控与反作弊服务域名，用于设备指纹、风险识别与异常行为判定
+
+# > 第三方云服务行为分析与风控回源节点
+
+IP-CIDR,172.253.134.188/32 # Google 公网云服务 IP（GCP），常用于第三方统计、风控或分析服务的回源与中转通信
