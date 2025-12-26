@@ -1035,3 +1035,7 @@ IP-CIDR,172.253.134.188/32 # Google 公网云服务 IP（GCP），常用于第�
 
 DOMAIN-SUFFIX,logapi-ios.zhipin.com # Boss 直聘 iOS 客户端行为日志上报接口，用于用户操作路径与行为分析
 DOMAIN-SUFFIX,apm-ios.zhipin.com # Boss 直聘 iOS 性能监控（APM）接口，用于崩溃分析、性能指标与稳定性遥测
+
+# > Boss 直聘 / 看准网行为分析与跳转埋点域名
+
+DOMAIN-SUFFIX,t.kanzhun.com # 看准网（Boss 直聘体系）跳转统计与行为埋点域名，用于用户访问路径、点击行为与来源分析
