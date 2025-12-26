@@ -88,6 +88,14 @@ PATCH（Z）版本（修复更新）: 修复规则 / 注释补全 / 小幅优化
 
 💡 建议勾选「当配置从外部程序或远端修改后自动重新载入」,该选项仅用于配置文件（.conf）变更后的自动加载，PATCH 版本更新仍需手动刷新外部资源（RULE-SET）后生效。
 
+示例：
+
+当前版本是Aegis v2.0.0,上一版本是Aegis v1.2.4此次就是MAJOR更新(MAJOR=2),必须重新下载配置，并重新添加节点,会自动更新外部资源
+
+当前版本是Aegis v3.3.0,上一版本是Aegis v3.2.2此次就是MINOR更新(MINOR=3),建议重新下载配置，并重新添加节点,会自动更新外部资源
+
+当前版本是Aegis v3.3.4,上一版本是Aegis v3.3.3此次就是PATCH更新(PATCH=4),不用重新下载配置，只需更新外部资源即可
+
 ## Surge IPv4 配置链接
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf  

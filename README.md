@@ -88,6 +88,14 @@ PATCH (Z) : Rule fixes, annotation updates, minor improvements  👉 No need to 
 
 💡 It is recommended to enable 「Automatically reload if the profile was modified externally/remotely」.This option only applies to automatic reloading when the configuration file (.conf) changes.PATCH updates still require manually refreshing external resources (RULE-SET) to take effect.
 
+Examples:
+
+-	Current version: Aegis v2.0.0,Previous version: Aegis v1.2.4,This is a MAJOR update (MAJOR = 2).You must re-download the configuration and re-add nodes.External resources will be updated automatically.
+
+-	Current version: Aegis v3.3.0,Previous version: Aegis v3.2.2,This is a MINOR update (MINOR = 3).It is recommended to re-download the configuration and re-add nodes.External resources will be updated automatically.
+
+-	Current version: Aegis v3.3.4,Previous version: Aegis v3.3.3,This is a PATCH update (PATCH = 4).No need to re-download the configuration.You only need to manually refresh external resources (RULE-SET).
+
 ## Surge IPv4 Configuration Links
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf  
