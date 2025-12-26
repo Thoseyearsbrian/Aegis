@@ -172,10 +172,6 @@ DOMAIN-SUFFIX,tic.eiop.icbc.com.cn # 工行 TIC 安全接入接口，涉及设�
 DOMAIN-SUFFIX,ac.dun.163.com # 网易易盾接入认证节点，涉及设备指纹与内容授权校验  
 DOMAIN-SUFFIX,fp-upload.dun.163.com # 网易云上传服务接口，用于日志、内容或行为数据回传  
 
-# > 行为指纹与回传节点（Behavior-Based Fingerprint）
-
-IP-CIDR,119.29.29.90 # 腾讯公共 DNS 明文查询接口，常由 SDK 用于回传解析请求与设备信息
-
 # > Knak 埋点行为与邮件追踪服务（Knak Behavioral & Email Tracking Services）
 
 DOMAIN-SUFFIX,client-data.knak.io # Knak 客户数据接口，用于营销活动中的用户行为记录与分析
@@ -360,6 +356,11 @@ DOMAIN-SUFFIX,wxapp.tc.qq.com # 小程序平台日志与崩溃分析服务
 DOMAIN-SUFFIX,miniapp.qq.com # QQ 小程序相关行为数据域名
 DOMAIN-SUFFIX,sandbox.api.qq.com # SDK 模拟测试行为回传（可能用于调试监听）
 DOMAIN-SUFFIX,tcsdk.com # 腾讯云 SDK 行为分析与遥测服务域名，用于客户端使用情况、性能与行为数据采集
+DOMAIN-SUFFIX,slscache.tencent-cloud.cn # 腾讯云日志服务（CLS）缓存节点，用于日志数据暂存与回传，具备后台遥测与行为数据聚合特征
+DOMAIN-SUFFIX,slscache.tencent-cloud.com # 腾讯云日志服务（CLS）全球缓存节点，用于日志采集与跨区域回传，属于后台行为分析基础设施
+DOMAIN-SUFFIX,rumt-zh.com # 腾讯 / RUM 实时用户监控（Real‑User Monitoring）上报域名，用于前端性能、错误、资源加载、页面 PV/UV 等数据采集与上报
+DOMAIN-SUFFIX,rumt-sg.com # 腾讯云 RUM 前端性能监控，上报节点（新加坡区），用于页面性能 / 错误 / 用户行为日志上报
+DOMAIN-SUFFIX,htrace.wetvinfo.com # 腾讯视频 WeTV 埋点与链路追踪接口，用于客户端日志采集与播放性能监控 
 
 # > GFW / Geedge 自有基础设施域名（泄露推测 / 待验证）
 
@@ -679,15 +680,6 @@ DOMAIN-SUFFIX,api.feelgood.cn # feelgood.cn 服务接口域名，用于行为数
 DOMAIN-SUFFIX,s.dpmsrv.com # DPM 用户行为上报与点击追踪域名，常用于广告平台监控
 DOMAIN-SUFFIX,ak.sail-horizon.com # sail-horizon 第三方行为分析 SDK 接口域名
 DOMAIN-SUFFIX,js-agent.newrelic.com # New Relic 前端性能监控 JS SDK 上报域名
-
-# > rumt-zh.com（前端性能监控 / RUM 服务）
-
-DOMAIN-SUFFIX,rumt-zh.com # 腾讯 / RUM 实时用户监控（Real‑User Monitoring）上报域名，用于前端性能、错误、资源加载、页面 PV/UV 等数据采集与上报
-DOMAIN-SUFFIX,rumt-sg.com # 腾讯云 RUM 前端性能监控，上报节点（新加坡区），用于页面性能 / 错误 / 用户行为日志上报
-
-# > 腾讯视频链路追踪与埋点服务域名
-
-DOMAIN-SUFFIX,htrace.wetvinfo.com # 腾讯视频 WeTV 埋点与链路追踪接口，用于客户端日志采集与播放性能监控 
 
 # > GrowingIO 行为分析与数据采集相关域名
 

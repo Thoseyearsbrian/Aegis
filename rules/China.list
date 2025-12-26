@@ -108,6 +108,7 @@ DOMAIN-SUFFIX,i.antfin.com # 蚂蚁集团（Ant Group）内部与基础服务接
 # > DNS 解析与链路探测接口（Tencent DNSPod）
 
 IP-CIDR,119.29.29.98/32 # 腾讯 DNSPod 公共解析服务节点，提供 DNS 查询、探测与解析接口
+IP-CIDR,119.29.29.90 # 腾讯 DNSPod 公共 DNS 明文解析节点，提供 DNS 查询服务，常被系统或应用 SDK 用作备用解析路径
 
 # > 腾讯云（Tencent Cloud）
 
@@ -128,6 +129,7 @@ DOMAIN-SUFFIX,gtimg.cn # 腾讯系产品通用静态资源与多媒体内容分�
 DOMAIN-SUFFIX,dnspod.cn # 腾讯 DNSPod 中国官网域名，用于 DNS 服务介绍、管理入口与文档支持（中国站服务）
 DOMAIN-SUFFIX,buy.qcloudimg.com # 腾讯云购买与控制台相关静态资源 CDN 域名，用于控制台页面与购买流程资源加载
 DOMAIN-SUFFIX,cloud.tencent.cn # 腾讯云中国站主域名，用于云服务产品介绍、控制台访问与官方文档
+DOMAIN-SUFFIX,bqq.gtimg.com # 腾讯 GTIMG 静态资源 CDN 子域，用于 QQ 及相关腾讯业务的图片与前端资源加载
 IP-CIDR,49.233.246.183/32 # 腾讯云中国区公网 IP，HTTPS 业务节点，常用于网站、API 或云服务对外访问
 IP-CIDR,152.136.8.45/32 # 腾讯云中国区公网 IP，HTTPS 业务节点，可能用于企业或平台级服务访问
 
