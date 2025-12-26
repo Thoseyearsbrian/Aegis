@@ -72,6 +72,7 @@ DOMAIN-SUFFIX,amdc.alipay.com # 阿里系应用设备环境信息接口，用于
 
 # > 闲鱼相关域名（Xianyu / 阿里巴巴二手交易）
 
+DOMAIN-SUFFIX,goofish.com # 阿里巴巴旗下闲鱼平台主域名，用于二手交易、商品浏览、用户互动等核心功能
 DOMAIN-SUFFIX,xiangyu.m.taobao.com # 闲鱼移动端服务入口域名，基于淘宝移动站提供页面与跳转支持
 DOMAIN-SUFFIX,taobao.com # 淘宝主站域名，用于闲鱼交易流程中的商品展示与交易链路支持
 DOMAIN-SUFFIX,alipay.com # 支付宝服务域名，用于闲鱼订单支付、结算与担保交易流程
