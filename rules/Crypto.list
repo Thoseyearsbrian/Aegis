@@ -36,12 +36,13 @@ DOMAIN-SUFFIX,public.saasexch.com # SaaSExch 公共服务与前端共享资源
 DOMAIN-SUFFIX,public.cstatic.us # Coinbase 公共静态资源（CDN）
 DOMAIN-SUFFIX,public.nftstatic.com # Binance NFT 公共静态资源（CDN）
 
-# > WalletConnect 去中心化钱包连接与消息中继服务
+# > WalletConnect 去中心化钱包连接协议与通信基础设施服务
 
 DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通信服务
 DOMAIN-SUFFIX,relay.walletconnect.com # WalletConnect 消息中继与会话通信服务
 DOMAIN-SUFFIX,verify.walletconnect.org # WalletConnect 会话校验与安全验证接口
 DOMAIN-SUFFIX,explorer-api.walletconnect.com # WalletConnect Explorer API 接口
+DOMAIN-SUFFIX,verify.walletconnect.com # WalletConnect 会话校验与安全验证接口
 
 # > 加密钱包与跨平台基础通信服务
 
