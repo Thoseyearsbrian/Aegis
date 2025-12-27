@@ -2887,6 +2887,10 @@ DOMAIN-SUFFIX,use.fontawesome.com # Font Awesome 免费图标资源加载域名�
 DOMAIN-SUFFIX,pro.fontawesome.com # Font Awesome 专业版订阅域名，提供高级图标与私有 CDN 服务  
 DOMAIN-SUFFIX,ka-p.fontawesome.com # Font Awesome 当前活跃 CDN 节点，用于图标与字体加速加载  
 
+# > Bunny.net 字体与前端静态资源分发服务
+
+DOMAIN-SUFFIX,fonts.bunny.net # Bunny.net 字体 CDN 服务
+
 # > 第三方订阅与模块平台
 
 DOMAIN-SUFFIX,mieqq.com # Mieqq 规则与模块托管域名，含流量统计与远程模块接口  
