@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,search.google.com # Google 官方搜索与 Search Console 入口
 DOMAIN-SUFFIX,analytics.google.com # Google Analytics 数据分析与管理控制台
 DOMAIN-SUFFIX,google-analytics.com # Google Analytics 通用网页行为统计域名
 DOMAIN-SUFFIX,grow.google # Google Grow 学习、技能培训与职业发展服务
+DOMAIN-SUFFIX,goo.gle # Google 官方短链接域名，用于服务与内容跳转
 IP-CIDR,142.250.4.0/24  # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
