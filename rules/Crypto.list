@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,frontend-m.binance.cloud # Binance 移动端前端资源域名
 DOMAIN-SUFFIX,api.saasexch.com # SaaSExch API 接口
 DOMAIN-SUFFIX,api.saasexch.co # SaaSExch API 接口
 DOMAIN-SUFFIX,festream.saasexch.cc # SaaSExch 实时数据流接口
+DOMAIN-SUFFIX,festream.saasexch.co # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,festream.saasexch.com # SaaSExch 实时数据流接口
 
 # > Coinbase 加密资产交易所静态资源与公共内容分发服务
