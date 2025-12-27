@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,binance.org # Binance 子域
 DOMAIN-SUFFIX,binance.us # Binance 美国站
 DOMAIN-SUFFIX,binancezh.cc # Binance 中文镜像
 DOMAIN-SUFFIX,bnbstatic.com # Binance 静态资源
+DOMAIN-SUFFIX,static.bscdnweb.com # Binance 前端静态资源（CDN）
 DOMAIN-SUFFIX,frontend-m.binance.cloud # Binance 移动端前端资源域名
 
 # > SaaSExch 加密资产交易与支付网关服务
