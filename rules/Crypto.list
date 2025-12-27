@@ -48,6 +48,7 @@ DOMAIN-SUFFIX,verify.walletconnect.com # WalletConnect 会话校验与安全验�
 
 DOMAIN-SUFFIX,yzilabs.io # YZi Labs 官方研究与生态孵化平台
 DOMAIN-SUFFIX,yzilabs.com # YZi Labs 官方研究与生态孵化平台
+DOMAIN-SUFFIX,yzi-labs.ghost.io # YZi Labs 官方博客与研究内容发布站点
 
 # > 加密钱包与跨平台基础通信服务
 
