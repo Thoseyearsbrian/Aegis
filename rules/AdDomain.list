@@ -4,7 +4,7 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-26
+# - 更新时间：2025-12-27
 
 # > 广告相关域名
 
@@ -3690,10 +3690,8 @@ DOMAIN-SUFFIX,bimorphawner.world # 结构异常域名,可能含广告中继用�
 DOMAIN-SUFFIX,bin-layer.de # 可能为广告中转 / 脚本分发节点  
 DOMAIN-SUFFIX,bin-layer.ru # 同源俄罗斯节点,广告/跳转用途可能性高  
 DOMAIN-SUFFIX,bin-tds.site # TDS（跳转域名服务）类型域名,确认广告用途  
-DOMAIN-SUFFIX,binance.com # 合法加密交易平台主域,不纳入广告屏蔽  
 DOMAIN-SUFFIX,binaryoptionsgame.com # 投资 / 二元期权题材站点,带有推广广告性质  
 DOMAIN-SUFFIX,bindirect.click # “click” 域名,高风险跳转 / 广告特征  
-DOMAIN-SUFFIX,binfulgorer.rest # 不常见后缀,可能为欺诈/广告用途  
 DOMAIN-SUFFIX,bingohall.ag # 博彩平台相关域名  
 DOMAIN-SUFFIX,binlayer.com # 广告中继 / 脚本分发用途域名  
 DOMAIN-SUFFIX,binlayer.de # 同上,广告中继 / 接口用途  

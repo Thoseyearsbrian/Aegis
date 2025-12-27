@@ -4,15 +4,18 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2025-12-27
 
-# > Exchanges（加密交易所 / 矿池服务）
+# > Binance 加密资产交易所相关域名
 
 DOMAIN-SUFFIX,binance.com # Binance 主站
 DOMAIN-SUFFIX,binance.org # Binance 子域
 DOMAIN-SUFFIX,binance.us # Binance 美国站
 DOMAIN-SUFFIX,binancezh.cc # Binance 中文镜像
-DOMAIN-SUFFIX,bnbstatic # Binance 静态资源
+DOMAIN-SUFFIX,bnbstatic.com # Binance 静态资源
+
+# > Exchanges（加密交易所 / 矿池服务）
+
 DOMAIN-SUFFIX,bitget.com # Bitget 衍生品交易
 DOMAIN-SUFFIX,bitget # Bitget 平台关键词
 DOMAIN-SUFFIX,bitfinex.com # Bitfinex 交易所
