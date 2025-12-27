@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,bnbstatic.com # Binance 静态资源
 DOMAIN-SUFFIX,static.bscdnweb.com # Binance 前端静态资源（CDN）
 DOMAIN-SUFFIX,image.binance.vision # Binance 图像与媒体资源分发域名
 DOMAIN-SUFFIX,frontend-m.binance.cloud # Binance 移动端前端资源域名
+DOMAIN-SUFFIX,binance.charity # Binance Charity 官方公益平台
 DOMAIN-SUFFIX,log.bntrace.com # Binance 前端与后端日志收集接口
 DOMAIN-SUFFIX,sensors.binance.cloud # Binance 前端监测与传感数据上报接口
 
