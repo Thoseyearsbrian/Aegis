@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,festream.saasexch.com # SaaSExch 实时数据流接口
 # > Coinbase 加密资产交易所静态资源与公共内容分发服务
 
 DOMAIN-SUFFIX,public.cstatic.us # Coinbase 公共静态资源（CDN）
+DOMAIN-SUFFIX,public.nftstatic.com # Binance NFT 公共静态资源（CDN）
 
 # > Exchanges（加密交易所 / 矿池服务）
 
