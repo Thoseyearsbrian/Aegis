@@ -44,6 +44,10 @@ DOMAIN-SUFFIX,verify.walletconnect.org # WalletConnect 会话校验与安全验�
 DOMAIN-SUFFIX,explorer-api.walletconnect.com # WalletConnect Explorer API 接口
 DOMAIN-SUFFIX,verify.walletconnect.com # WalletConnect 会话校验与安全验证接口
 
+# > YZi Labs 区块链与加密资产研究及孵化机构
+
+DOMAIN-SUFFIX,yzilabs.io # YZi Labs 官方研究与生态孵化平台
+
 # > 加密钱包与跨平台基础通信服务
 
 DOMAIN-SUFFIX,api.commonservice.io # 钱包与加密平台通用后端服务接口
