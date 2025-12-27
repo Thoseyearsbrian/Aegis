@@ -35,6 +35,11 @@ DOMAIN-SUFFIX,festream.saasexch.com # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,public.cstatic.us # Coinbase 公共静态资源（CDN）
 DOMAIN-SUFFIX,public.nftstatic.com # Binance NFT 公共静态资源（CDN）
 
+# > WalletConnect 去中心化钱包连接与消息中继服务
+
+DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通信服务
+DOMAIN-SUFFIX,relay.walletconnect.com # WalletConnect 消息中继与会话通信服务
+
 # > Exchanges（加密交易所 / 矿池服务）
 
 DOMAIN-SUFFIX,bitget.com # Bitget 衍生品交易
