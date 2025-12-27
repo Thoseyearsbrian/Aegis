@@ -14,6 +14,10 @@ DOMAIN-SUFFIX,binance.us # Binance 美国站
 DOMAIN-SUFFIX,binancezh.cc # Binance 中文镜像
 DOMAIN-SUFFIX,bnbstatic.com # Binance 静态资源
 
+# > SaaSExch 加密资产交易与支付网关服务
+
+DOMAIN-SUFFIX,api.saasexch.com # SaaSExch API 接口
+
 # > Exchanges（加密交易所 / 矿池服务）
 
 DOMAIN-SUFFIX,bitget.com # Bitget 衍生品交易
