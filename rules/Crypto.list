@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,bnbstatic.com # Binance 静态资源
 # > SaaSExch 加密资产交易与支付网关服务
 
 DOMAIN-SUFFIX,api.saasexch.com # SaaSExch API 接口
+DOMAIN-SUFFIX,api.saasexch.co # SaaSExch API 接口
 DOMAIN-SUFFIX,festream.saasexch.cc # SaaSExch 实时数据流接口
 
 # > Exchanges（加密交易所 / 矿池服务）
