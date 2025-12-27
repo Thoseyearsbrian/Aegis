@@ -41,6 +41,7 @@ DOMAIN-SUFFIX,google.com.sg # Google 新加坡站点域名，用于区域性搜�
 DOMAIN-SUFFIX,carromclash.h5games.usercontent.goog # Google 提供的 H5 游戏托管服务子域，用于加载 Carrom Clash 等小游戏内容
 DOMAIN-SUFFIX,chromium.googlesource.com # Chromium 项目的源代码托管域名，托管 Google 浏览器相关项目源码
 DOMAIN-SUFFIX,forms.gle # Google Forms 官方短链接域名，用于表单访问与跳转至 Google 表单服务
+DOMAIN-SUFFIX,search.google.com # Google 官方搜索与 Search Console 入口
 IP-CIDR,142.250.4.0/24  # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
