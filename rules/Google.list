@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,chromium.googlesource.com # Chromium 项目的源代码托管域�
 DOMAIN-SUFFIX,forms.gle # Google Forms 官方短链接域名，用于表单访问与跳转至 Google 表单服务
 DOMAIN-SUFFIX,search.google.com # Google 官方搜索与 Search Console 入口
 DOMAIN-SUFFIX,google-analytics.com # Google Analytics 通用网页行为统计域名
+DOMAIN-SUFFIX,grow.google # Google Grow 学习、技能培训与职业发展服务
 IP-CIDR,142.250.4.0/24  # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
