@@ -2170,3 +2170,8 @@ DOMAIN-SUFFIX,cdn-go.cn # 国内内容分发网络（CDN）域名，用于静态
 # > 国内内容与信息服务平台通信节点
 
 IP-CIDR,61.170.81.214/32 # 百科类内容平台移动端访问节点（m.baike.com）
+
+# > 国内移动端 SDK 与数据通信服务
+
+DOMAIN-SUFFIX,sdktt.data.tianwenca.com # 移动端 SDK 数据采集与通信服务
+DOMAIN-SUFFIX,api5-lq.qishui.com # 奇水 SDK 数据与接口通信服务
