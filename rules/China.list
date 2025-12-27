@@ -2181,3 +2181,7 @@ DOMAIN-SUFFIX,api5-lq.qishui.com # 奇水 SDK 数据与接口通信服务
 # > n8n 开源自动化与工作流编排平台
 
 DOMAIN-SUFFIX,n8n.io # n8n 官方自动化与集成平台服务
+
+# > Paddle SaaS 支付与订阅平台静态资源分发服务
+
+DOMAIN-SUFFIX,cdn.paddle.com # Paddle 官方静态资源与前端组件 CDN
