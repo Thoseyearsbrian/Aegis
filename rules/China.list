@@ -2166,3 +2166,7 @@ DOMAIN-SUFFIX,tools.euroland.com # 第三方投资者关系（IR）与金融数�
 # > 国内 CDN 与内容加速基础设施（China CDN / Content Delivery）
 
 DOMAIN-SUFFIX,cdn-go.cn # 国内内容分发网络（CDN）域名，用于静态资源与业务内容加速分发
+
+# > 国内内容与信息服务平台通信节点
+
+IP-CIDR,61.170.81.214/32 # 百科类内容平台移动端访问节点（m.baike.com）
