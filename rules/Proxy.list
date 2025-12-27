@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-25
+# - 更新时间：2025-12-27
 
 # > Speedtest 网络测速平台
 
@@ -5057,6 +5057,11 @@ DOMAIN-SUFFIX,adspyglass.com # 广告管理平台主域名
 # > 奇安信 XLab 安全实验室官方博客站点
 
 DOMAIN-SUFFIX,blog.xlab.qianxin.com  # 奇安信 XLab 出品的安全研究博客平台，发布攻击溯源、APT 报告与漏洞分析等内容
+
+# > Geetest 极验验证码与反自动化风控服务
+
+DOMAIN-SUFFIX,monitor.geetest.com # Geetest 行为监控与风控上报接口
+DOMAIN-SUFFIX,api.geetest.com # Geetest 验证码服务 API 接口
 
 # > 第三方博客网站
 
