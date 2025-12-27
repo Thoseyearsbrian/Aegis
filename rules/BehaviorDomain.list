@@ -75,7 +75,6 @@ IP-CIDR,119.42.231.59  # 支付宝 mdap 域名解析节点，涉及设备信息�
 DOMAIN-SUFFIX,app-measurement.com # 指纹监听 + 流量分析回传
 DOMAIN-SUFFIX,config.app-measurement.com # Firebase GMP 远程配置域名，用于热更新/灰度控制
 DOMAIN-SUFFIX,firebaseinstallations.googleapis.com # Firebase 安装 ID（FID）初始化接口
-DOMAIN-SUFFIX,google-analytics.com # Google Analytics 通用网页行为统计域名
 DOMAIN-SUFFIX,analytics.google.com # Google Analytics GA4 数据上报域名
 DOMAIN-SUFFIX,firebase-settings.crashlytics.com # Crashlytics 崩溃报告配置拉取接口
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com # Crashlytics 崩溃数据主动上传接口
