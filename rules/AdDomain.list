@@ -130,8 +130,7 @@ DOMAIN-SUFFIX,xs.l.qq.com # 腾讯广告视频预加载域
 DOMAIN-SUFFIX,wxsnsad.tc.qq.com # 微信朋友圈广告推送域名  
 DOMAIN-SUFFIX,wxsnsdy.tc.qq.com # 微信广告视频内容分发域名  
 DOMAIN-SUFFIX,qsearch-a.akamaihd.net  # Akamai CDN 下属 QSearch 跟踪域名，用于广告重定向与用户行为收集
-DOMAIN-SUFFIX,secure-us.imrworldwide.com # Nielsen 行为追踪平台域名，用于网页访问统计与受众分析  
-DOMAIN-SUFFIX,geolocation.onetrust.com # OneTrust 定位接口域名，用于依据地理位置展示隐私合规弹窗  
+DOMAIN-SUFFIX,secure-us.imrworldwide.com # Nielsen 行为追踪平台域名，用于网页访问统计与受众分析   
 DOMAIN-SUFFIX,diffuser-cdn.app-us1.com # ActiveCampaign 内容投放域名，用于推送营销内容与追踪行为  
 DOMAIN-SUFFIX,btlr.sharethrough.com # Sharethrough 广告平台接口域名，用于原生广告请求与渲染  
 DOMAIN-SUFFIX,cdn.static.zdbb.net # Zdbb 广告静态资源加载域名，用于第三方页面广告内容展示  

@@ -5063,6 +5063,10 @@ DOMAIN-SUFFIX,blog.xlab.qianxin.com  # 奇安信 XLab 出品的安全研究博�
 DOMAIN-SUFFIX,monitor.geetest.com # Geetest 行为监控与风控上报接口
 DOMAIN-SUFFIX,api.geetest.com # Geetest 验证码服务 API 接口
 
+# > OneTrust 隐私合规与地理位置判定服务
+
+DOMAIN-SUFFIX,geolocation.onetrust.com # OneTrust 地理位置识别接口
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
