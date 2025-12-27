@@ -5077,6 +5077,11 @@ DOMAIN-SUFFIX,geolocation.onetrust.com # OneTrust 地理位置识别接口
 DOMAIN-SUFFIX,consent.cookie-script.com # Cookie-Script Cookie 同意弹窗与合规校验服务
 DOMAIN-SUFFIX,cookie-script.com # Cookie-Script 官方隐私合规与管理平台
 
+# > n8n 开源自动化与工作流编排平台
+
+DOMAIN-SUFFIX,n8n.io # n8n 官方自动化与集成平台服务
+DOMAIN-SUFFIX,app.n8n.cloud # n8n Cloud 官方 Web 应用与工作流管理入口
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

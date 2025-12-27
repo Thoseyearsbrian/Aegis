@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-26
+# - 更新时间：2025-12-28
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -2177,10 +2177,6 @@ IP-CIDR,61.170.81.214/32 # 百科类内容平台移动端访问节点（m.baike.
 
 DOMAIN-SUFFIX,sdktt.data.tianwenca.com # 移动端 SDK 数据采集与通信服务
 DOMAIN-SUFFIX,api5-lq.qishui.com # 奇水 SDK 数据与接口通信服务
-
-# > n8n 开源自动化与工作流编排平台
-
-DOMAIN-SUFFIX,n8n.io # n8n 官方自动化与集成平台服务
 
 # > Paddle SaaS 支付与订阅平台静态资源分发服务
 
