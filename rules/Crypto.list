@@ -2,6 +2,7 @@
 # - 分类：加密货币平台 / 区块链服务 / 策略识别用途
 # - 来源：主流交易所域名整理 / 社区规则补充 / 实测抓包验证
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
+# - 声明：Crypto 规则列表仅用于加密资产相关域名识别与策略路由,不会划分其他列表
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-12-27
@@ -16,6 +17,7 @@ DOMAIN-SUFFIX,bnbstatic.com # Binance 静态资源
 DOMAIN-SUFFIX,static.bscdnweb.com # Binance 前端静态资源（CDN）
 DOMAIN-SUFFIX,frontend-m.binance.cloud # Binance 移动端前端资源域名
 DOMAIN-SUFFIX,log.bntrace.com # Binance 前端与后端日志收集接口
+DOMAIN-SUFFIX,image.binance.vision # Binance 图像与媒体资源分发域名
 
 # > SaaSExch 加密资产交易与支付网关服务
 
