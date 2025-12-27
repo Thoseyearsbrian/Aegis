@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-26
+# - 更新时间：2025-12-28
 
 # > WeChat 数据统计与遥测
 
@@ -75,7 +75,6 @@ IP-CIDR,119.42.231.59  # 支付宝 mdap 域名解析节点，涉及设备信息�
 DOMAIN-SUFFIX,app-measurement.com # 指纹监听 + 流量分析回传
 DOMAIN-SUFFIX,config.app-measurement.com # Firebase GMP 远程配置域名，用于热更新/灰度控制
 DOMAIN-SUFFIX,firebaseinstallations.googleapis.com # Firebase 安装 ID（FID）初始化接口
-DOMAIN-SUFFIX,analytics.google.com # Google Analytics GA4 数据上报域名
 DOMAIN-SUFFIX,firebase-settings.crashlytics.com # Crashlytics 崩溃报告配置拉取接口
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com # Crashlytics 崩溃数据主动上传接口
 DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com # Google 客户端指标收集（Telemetry）
