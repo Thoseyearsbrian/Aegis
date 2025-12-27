@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-27
+# - 更新时间：2025-12-28
 
 # > Speedtest 网络测速平台
 
@@ -5071,6 +5071,11 @@ DOMAIN-SUFFIX,api.geetest.com # Geetest 验证码服务 API 接口
 # > OneTrust 隐私合规与地理位置判定服务
 
 DOMAIN-SUFFIX,geolocation.onetrust.com # OneTrust 地理位置识别接口
+
+# > Cookie-Script 隐私合规与 Cookie 同意管理服务（CMP）
+
+DOMAIN-SUFFIX,consent.cookie-script.com # Cookie-Script Cookie 同意弹窗与合规校验服务
+DOMAIN-SUFFIX,cookie-script.com # Cookie-Script 官方隐私合规与管理平台
 
 # > 第三方博客网站
 
