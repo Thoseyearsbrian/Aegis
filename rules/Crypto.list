@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,static.bgbstatic.com # Bitget 前端静态资源与页面组件分
 DOMAIN-SUFFIX,api-data.bitkeep.com # BitKeep 官方 API 数据接口，用于钱包服务与链上数据交互
 DOMAIN-SUFFIX,bgw.live # Bitget Wallet 相关交易与支付入口域名
 DOMAIN-SUFFIX,qrc.bgstatic.com # Bitget 前端二维码及静态资源分发（CDN）
+DOMAIN-SUFFIX,img.bitgetimg.com # Bitget 前端图片与多媒体资源分发（CDN）
 
 # > Web3 / NFT 平台前端静态资源服务（Bitget Web3 平台功能性域名）
 
