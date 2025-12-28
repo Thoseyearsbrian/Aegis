@@ -50,6 +50,10 @@ DOMAIN-SUFFIX,telemetry.tradingview.com # TradingView 平台遥测数据与使�
 DOMAIN-SUFFIX,s3.tradingview.com # TradingView 前端静态资源与数据文件分发（CDN）
 DOMAIN-SUFFIX,scanner-backend.tradingview.com # TradingView 行情扫描与筛选后台服务（Screener 后端）
 
+# > Blockchain.com 区块链浏览器与加密资产服务平台
+
+DOMAIN-SUFFIX,blockchain.info # Blockchain.com 区块链浏览器与加密资产查询服务
+
 # > Web3 / NFT 平台前端静态资源服务（Bitget Web3 平台功能性域名）
 
 DOMAIN-SUFFIX,img.gurenla.com # 小型 Web3 / NFT 平台前端图片及资源分发域名

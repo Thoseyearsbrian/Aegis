@@ -4796,6 +4796,7 @@ DOMAIN-SUFFIX,app.frontapp.com # Front 主应用入口，用于加载用户界�
 # > hCaptcha 验证服务脚本资源域名
 
 DOMAIN-SUFFIX,js.hcaptcha.com # hCaptcha 前端验证脚本加载域名，用于网页人机验证控件展示与交互功能
+DOMAIN-SUFFIX,newassets.hcaptcha.com # hCaptcha 前端验证组件与静态资源分发
 
 # > Cookiebot 同意管理服务接口域名
 
