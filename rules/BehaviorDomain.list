@@ -1047,3 +1047,7 @@ DOMAIN-SUFFIX,rum.beusable.net # Beusable Real User Monitoring（真实用户行
 # > 韩国广告投放与用户行为统计服务（Naver / OneTag）
 
 DOMAIN-SUFFIX,wcs.naver.net # Naver Web Analytics 用户行为与转化统计接口
+
+# > CounterAPI 轻量级访问统计与计数服务
+
+DOMAIN-SUFFIX,counterapi.com # CounterAPI 网站访问计数与轻量级行为统计接口
