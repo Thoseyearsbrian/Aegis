@@ -43,6 +43,8 @@ DOMAIN-SUFFIX,widgetdata-backup.tradingview.com # TradingView 行情组件数据
 DOMAIN-SUFFIX,widgetdata.tradingview.com # TradingView 行情组件主数据接口，用于图表与嵌入式 Widget 数据获取
 DOMAIN-SUFFIX,pushstream.tradingview.com # TradingView 实时行情与图表数据推送（WebSocket / 流式服务）
 DOMAIN-SUFFIX,telemetry.tradingview.com # TradingView 平台遥测数据与使用情况统计接口
+DOMAIN-SUFFIX,s3.tradingview.com # TradingView 前端静态资源与数据文件分发（CDN）
+DOMAIN-SUFFIX,scanner-backend.tradingview.com # TradingView 行情扫描与筛选后台服务（Screener 后端）
 
 # > Web3 / NFT 平台前端静态资源服务（Bitget Web3 平台功能性域名）
 
