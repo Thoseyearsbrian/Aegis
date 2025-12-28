@@ -32,6 +32,7 @@ DOMAIN-SUFFIX,bgw.live # Bitget Wallet 相关交易与支付入口域名
 DOMAIN-SUFFIX,qrc.bgstatic.com # Bitget 前端二维码及静态资源分发（CDN）
 DOMAIN-SUFFIX,img.bitgetimg.com # Bitget 前端图片与多媒体资源分发（CDN）
 DOMAIN-SUFFIX,qrc.bitgetimg.com # Bitget 二维码相关图片与前端静态资源分发（CDN）
+DOMAIN-SUFFIX,mpc-prod-23-s6uit34pua-ue.a.run.app # 基于 Google Cloud Run 的 MPC 钱包后端计算与签名服务
 
 # > Bitfinex 加密资产交易平台
 
