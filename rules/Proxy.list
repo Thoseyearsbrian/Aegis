@@ -5094,6 +5094,10 @@ DOMAIN-SUFFIX,turingfraud.net # TuringFraud 风控与反欺诈识别服务
 
 DOMAIN-SUFFIX,static-web.jjdsn.vip # 小型网站前端静态资源分发
 
+# > Bitfinex 官方招聘与人才管理平台
+
+DOMAIN-SUFFIX,bitfinex.recruitee.com # Bitfinex 官方招聘页面与职位管理服务（Recruitee 托管）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
