@@ -42,6 +42,10 @@ DOMAIN-SUFFIX,newshare.bwb.online # BWB 文件共享与资源分发服务
 
 DOMAIN-SUFFIX,buy.onramper.com # Onramper 平台法币入金与交易网关接口
 
+# > BitKeep / Bitget Wallet 官方加密资产钱包主站
+
+DOMAIN-SUFFIX,bitkeep.com # BitKeep 官方网站及钱包平台入口
+
 # > SaaSExch 加密资产交易与支付网关服务
 
 DOMAIN-SUFFIX,api.saasexch.com # SaaSExch API 接口
