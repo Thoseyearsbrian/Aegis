@@ -36,6 +36,7 @@ DOMAIN-SUFFIX,qrc.bitgetimg.com # Bitget 二维码相关图片与前端静态资
 # > Bitfinex 加密资产交易平台
 
 DOMAIN-SUFFIX,bitfinex.com # Bitfinex 官方主站与加密资产交易服务入口
+IP-CIDR,104.16.168.90/32 # Bitfinex 官方 API（api.bitfinex.com）经 Cloudflare 的服务出口节点
 
 # > TradingView 金融与加密资产行情平台前端静态资源服务
 
