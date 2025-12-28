@@ -4,7 +4,7 @@
 # - 特征：涵盖常见成人内容相关网站与域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-22
+# - 更新时间：2025-12-29
 
 # > 成人广告推广平台
 
@@ -22704,7 +22704,6 @@ DOMAIN-SUFFIX,hotindianteens.com # 成人相关域名
 DOMAIN-SUFFIX,hotinterracialcomics.com # 成人相关域名
 DOMAIN-SUFFIX,hotjapaneseshows.com # 成人相关域名
 DOMAIN-SUFFIX,hotjapantubes.com # 成人相关域名
-DOMAIN-SUFFIX,hotjar.com # 成人相关域名
 DOMAIN-SUFFIX,hotjavmovies.com # 成人相关域名
 DOMAIN-SUFFIX,hotkiss57.tumblr.com # 成人相关域名
 DOMAIN-SUFFIX,hotlatexdreams.com # 成人相关域名

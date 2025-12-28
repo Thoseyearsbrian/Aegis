@@ -1034,3 +1034,8 @@ DOMAIN-SUFFIX,t.kanzhun.com # 看准网（Boss 直聘体系）跳转统计与行
 # > Recruitee 招聘流程访问与转化统计服务
 
 DOMAIN-SUFFIX,careers-analytics.recruitee.com # Recruitee 招聘页面访问与流程分析统计
+
+# > Hotjar 用户行为分析与体验监测平台
+
+DOMAIN-SUFFIX,hotjar.com # Hotjar 官方主站与用户行为分析服务入口
+DOMAIN-SUFFIX,static.hotjar.com # Hotjar 行为分析脚本与前端组件静态资源
