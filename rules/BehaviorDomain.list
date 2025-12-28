@@ -1043,3 +1043,7 @@ DOMAIN-SUFFIX,static.hotjar.com # Hotjar 行为分析脚本与前端组件静态
 # > Beusable 用户体验与行为分析（RUM）服务
 
 DOMAIN-SUFFIX,rum.beusable.net # Beusable Real User Monitoring（真实用户行为与性能分析）
+
+# > 韩国广告投放与用户行为统计服务（Naver / OneTag）
+
+DOMAIN-SUFFIX,wcs.naver.net # Naver Web Analytics 用户行为与转化统计接口
