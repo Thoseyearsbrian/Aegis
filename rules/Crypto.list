@@ -4,7 +4,7 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-28
+# - 更新时间：2025-12-29
 
 # > Binance 加密资产交易所相关域名
 
@@ -37,6 +37,11 @@ DOMAIN-SUFFIX,qrc.bitgetimg.com # Bitget 二维码相关图片与前端静态资
 
 DOMAIN-SUFFIX,bitfinex.com # Bitfinex 官方主站与加密资产交易服务入口
 IP-CIDR,104.16.168.90/32 # Bitfinex 官方 API（api.bitfinex.com）经 Cloudflare 的服务出口节点
+
+# > Bithumb 加密资产交易平台核心服务域名
+
+DOMAIN-SUFFIX,bithumb.com # Bithumb 官方主站与加密资产交易服务入口
+DOMAIN-SUFFIX,bithumbcorp.com # Bithumb 交易所企业集团官网与官方信息披露平台
 
 # > TradingView 金融与加密资产行情平台前端静态资源服务
 
@@ -115,7 +120,6 @@ DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通�
 
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,bithumb.com # Bithumb 韩国平台
 DOMAIN-SUFFIX,bitbay.net # BitBay 交易平台
 DOMAIN-SUFFIX,bigone.com # BigONE 交易平台
 DOMAIN-SUFFIX,bibox.com # Bibox 平台
