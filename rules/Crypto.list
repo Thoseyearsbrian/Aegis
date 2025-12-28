@@ -53,6 +53,11 @@ DOMAIN-SUFFIX,bitbay.market # BitBay 交易市场与前端业务展示域名
 
 DOMAIN-SUFFIX,big.one # BigONE 官方主站与加密资产交易服务入口
 
+# > Peatio 加密资产交易平台核心服务与前端资源
+
+DOMAIN-SUFFIX,b.peatio.com # Peatio 交易平台业务接口与后台服务
+DOMAIN-SUFFIX,static.peatio.com # Peatio 交易平台前端静态资源分发（CDN）
+
 # > TradingView 金融与加密资产行情平台前端静态资源服务
 
 DOMAIN-SUFFIX,s.tradingview.com # TradingView 图表组件与前端静态资源分发服务
