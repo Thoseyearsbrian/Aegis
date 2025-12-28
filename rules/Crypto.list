@@ -39,6 +39,7 @@ DOMAIN-SUFFIX,s.tradingview.com # TradingView 图表组件与前端静态资源�
 DOMAIN-SUFFIX,pine-facade.tradingview.com # TradingView Pine Script 执行与图表渲染接口
 DOMAIN-SUFFIX,s3-symbol-logo.tradingview.com # TradingView 行情品种图标与标识资源（CDN）
 DOMAIN-SUFFIX,tradingview-widget.com # TradingView 嵌入式行情图表与小组件服务
+DOMAIN-SUFFIX,widgetdata-backup.tradingview.com # TradingView 行情组件数据备份与容灾接口（Widget 数据冗余）
 
 # > Web3 / NFT 平台前端静态资源服务（Bitget Web3 平台功能性域名）
 
