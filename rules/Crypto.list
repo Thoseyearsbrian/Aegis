@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,sensors.binance.cloud # Binance 前端监测与传感数据上报�
 
 DOMAIN-SUFFIX,bitget.com # Bitget 官方主站与加密资产交易服务入口
 DOMAIN-SUFFIX,img.bgstatic.com # Bitget 前端图片与界面静态资源分发（CDN）
+DOMAIN-SUFFIX,cdn.bitkeep.vip # BitKeep（Bitget Wallet）前端静态资源分发（CDN）
 DOMAIN-SUFFIX,static.bgbstatic.com # Bitget 前端静态资源与页面组件分发（CDN）
 
 # > SaaSExch 加密资产交易与支付网关服务

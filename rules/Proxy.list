@@ -5086,6 +5086,10 @@ DOMAIN-SUFFIX,app.n8n.cloud # n8n Cloud 官方 Web 应用与工作流管理入�
 
 DOMAIN-SUFFIX,turingfraud.net # TuringFraud 风控与反欺诈识别服务
 
+# > 小型网站前端静态资源服务
+
+DOMAIN-SUFFIX,static-web.jjdsn.vip # 小型网站前端静态资源分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
