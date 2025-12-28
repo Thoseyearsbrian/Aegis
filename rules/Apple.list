@@ -96,12 +96,14 @@ DOMAIN-SUFFIX,amp-api-edge.apps.apple.com # Apple AMP 接口域名，用于 App 
 DOMAIN-SUFFIX,is1-ssl.mzstatic.com # Apple 媒体资源 CDN（iTunes / App Store 图标与封面）
 DOMAIN-SUFFIX,bag.itunes.apple.com # Apple 服务配置同步接口，用于 App Store 与广告推荐逻辑初始化
 DOMAIN-SUFFIX,apptrailers.itunes.apple.com # Apple iTunes 内容服务，提供 App Store 应用预览视频
-
-# > Apple App Store 与 iTunes 购买及内容分发服务
-
 DOMAIN-SUFFIX,p21-buy.itunes.apple.com # Apple App Store / iTunes 购买请求与支付处理节点
 DOMAIN-SUFFIX,buy.itunes.apple.com # Apple iTunes 官方购买与交易服务接口
 DOMAIN-SUFFIX,apps.mzstatic.com # Apple App Store 应用资源与媒体内容分发（CDN）
+DOMAIN-SUFFIX,pd.itunes.apple.com # Apple App Store 应用分发与下载服务节点
+DOMAIN-SUFFIX,inappcheck.itunes.apple.com # Apple App 内购买与订阅合法性校验接口
+DOMAIN-SUFFIX,amp-api-updates.apps.apple.com # Apple 应用更新与元数据同步接口
+DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple 系统状态与内容分发 CDN
+DOMAIN-SUFFIX,ocsp2.apple.com # Apple 证书状态校验（OCSP）与系统安全验证服务
 
 # > 推送与通知服务（Push Services）
 
