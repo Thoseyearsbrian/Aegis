@@ -5103,6 +5103,10 @@ DOMAIN-SUFFIX,static-web.jjdsn.vip # 小型网站前端静态资源分发
 
 DOMAIN-SUFFIX,bitfinex.recruitee.com # Bitfinex 官方招聘页面与职位管理服务（Recruitee 托管）
 
+# > Recruitee 招聘平台前端页面与静态资源服务
+
+DOMAIN-SUFFIX,careers.recruiteecdn.com # Recruitee 招聘站点页面与静态资源分发（CDN）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

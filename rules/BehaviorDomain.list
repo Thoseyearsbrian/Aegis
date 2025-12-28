@@ -1030,3 +1030,7 @@ DOMAIN-SUFFIX,apm-ios.zhipin.com # Boss 直聘 iOS 性能监控（APM）接口�
 # > Boss 直聘 / 看准网行为分析与跳转埋点域名
 
 DOMAIN-SUFFIX,t.kanzhun.com # 看准网（Boss 直聘体系）跳转统计与行为埋点域名，用于用户访问路径、点击行为与来源分析
+
+# > Recruitee 招聘流程访问与转化统计服务
+
+DOMAIN-SUFFIX,careers-analytics.recruitee.com # Recruitee 招聘页面访问与流程分析统计
