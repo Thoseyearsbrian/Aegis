@@ -5,7 +5,7 @@
 # - 声明：Crypto 规则列表仅用于加密资产相关域名识别与策略路由,不会划分其他列表
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-27
+# - 更新时间：2025-12-28
 
 # > Binance 加密资产交易所相关域名
 
@@ -21,6 +21,11 @@ DOMAIN-SUFFIX,binance.charity # Binance Charity 官方公益平台
 DOMAIN-SUFFIX,data.binance.vision # Binance 数据与分析资源分发域名
 DOMAIN-SUFFIX,log.bntrace.com # Binance 前端与后端日志收集接口
 DOMAIN-SUFFIX,sensors.binance.cloud # Binance 前端监测与传感数据上报接口
+
+# > Bitget 加密资产交易平台
+
+DOMAIN-SUFFIX,bitget.com # Bitget 官方主站与加密资产交易服务入口
+DOMAIN-SUFFIX,static.bgbstatic.com # Bitget 前端静态资源与页面组件分发（CDN）
 
 # > SaaSExch 加密资产交易与支付网关服务
 
@@ -59,8 +64,7 @@ DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通�
 
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,bitget.com # Bitget 衍生品交易
-DOMAIN-SUFFIX,bitget # Bitget 平台关键词
+
 DOMAIN-SUFFIX,bitfinex.com # Bitfinex 交易所
 DOMAIN-SUFFIX,bithumb.com # Bithumb 韩国平台
 DOMAIN-SUFFIX,bitbay.net # BitBay 交易平台
