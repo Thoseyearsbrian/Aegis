@@ -36,6 +36,9 @@ DOMAIN-SUFFIX,qrc.bitgetimg.com # Bitget 二维码相关图片与前端静态资
 # > TradingView 金融与加密资产行情平台前端静态资源服务
 
 DOMAIN-SUFFIX,s.tradingview.com # TradingView 图表组件与前端静态资源分发服务
+DOMAIN-SUFFIX,pine-facade.tradingview.com # TradingView Pine Script 执行与图表渲染接口
+DOMAIN-SUFFIX,s3-symbol-logo.tradingview.com # TradingView 行情品种图标与标识资源（CDN）
+DOMAIN-SUFFIX,tradingview-widget.com # TradingView 嵌入式行情图表与小组件服务
 
 # > Web3 / NFT 平台前端静态资源服务（Bitget Web3 平台功能性域名）
 
