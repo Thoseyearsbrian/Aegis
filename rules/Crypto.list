@@ -25,6 +25,7 @@ DOMAIN-SUFFIX,sensors.binance.cloud # Binance 前端监测与传感数据上报�
 # > Bitget 加密资产交易平台
 
 DOMAIN-SUFFIX,bitget.com # Bitget 官方主站与加密资产交易服务入口
+DOMAIN-SUFFIX,img.bgstatic.com # Bitget 前端图片与界面静态资源分发（CDN）
 DOMAIN-SUFFIX,static.bgbstatic.com # Bitget 前端静态资源与页面组件分发（CDN）
 
 # > SaaSExch 加密资产交易与支付网关服务
@@ -63,7 +64,6 @@ DOMAIN-SUFFIX,api.commonservice.io # 钱包与加密平台通用后端服务接�
 DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通信服务
 
 # > Exchanges（加密交易所 / 矿池服务）
-
 
 DOMAIN-SUFFIX,bitfinex.com # Bitfinex 交易所
 DOMAIN-SUFFIX,bithumb.com # Bithumb 韩国平台

@@ -5082,6 +5082,10 @@ DOMAIN-SUFFIX,cookie-script.com # Cookie-Script 官方隐私合规与管理平�
 DOMAIN-SUFFIX,n8n.io # n8n 官方自动化与集成平台服务
 DOMAIN-SUFFIX,app.n8n.cloud # n8n Cloud 官方 Web 应用与工作流管理入口
 
+# > TuringFraud 反欺诈与风险识别服务平台
+
+DOMAIN-SUFFIX,turingfraud.net # TuringFraud 风控与反欺诈识别服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
