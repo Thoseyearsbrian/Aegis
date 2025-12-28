@@ -33,6 +33,10 @@ DOMAIN-SUFFIX,qrc.bgstatic.com # Bitget 前端二维码及静态资源分发（C
 DOMAIN-SUFFIX,img.bitgetimg.com # Bitget 前端图片与多媒体资源分发（CDN）
 DOMAIN-SUFFIX,qrc.bitgetimg.com # Bitget 二维码相关图片与前端静态资源分发（CDN）
 
+# > TradingView 金融与加密资产行情平台前端静态资源服务
+
+DOMAIN-SUFFIX,s.tradingview.com # TradingView 图表组件与前端静态资源分发服务
+
 # > Web3 / NFT 平台前端静态资源服务（Bitget Web3 平台功能性域名）
 
 DOMAIN-SUFFIX,img.gurenla.com # 小型 Web3 / NFT 平台前端图片及资源分发域名
