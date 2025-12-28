@@ -2,7 +2,6 @@
 # - 分类：加密货币平台 / 区块链服务 / 策略识别用途
 # - 来源：主流交易所域名整理 / 社区规则补充 / 实测抓包验证
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
-# - 声明：Crypto 规则列表仅用于加密资产相关域名识别与策略路由,不会划分其他列表
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2025-12-28
@@ -29,10 +28,19 @@ DOMAIN-SUFFIX,img.bgstatic.com # Bitget 前端图片与界面静态资源分发�
 DOMAIN-SUFFIX,cdn.bitkeep.vip # BitKeep（Bitget Wallet）前端静态资源分发（CDN）
 DOMAIN-SUFFIX,static.bgbstatic.com # Bitget 前端静态资源与页面组件分发（CDN）
 DOMAIN-SUFFIX,api-data.bitkeep.com # BitKeep 官方 API 数据接口，用于钱包服务与链上数据交互
+DOMAIN-SUFFIX,bgw.live # Bitget Wallet 相关交易与支付入口域名
 
 # > Noxiaohao 平台日志与数据统计接口（Bitget Web3 平台功能性域名）
 
 DOMAIN-SUFFIX,log.noxiaohao.com # Web3.bitget 内部日志上报与数据统计接口
+
+# > BWB 文件分享平台 / Web3 资源分发
+
+DOMAIN-SUFFIX,newshare.bwb.online # BWB 文件共享与资源分发服务
+
+# > Onramper 加密资产法币入金与支付网关服务
+
+DOMAIN-SUFFIX,buy.onramper.com # Onramper 平台法币入金与交易网关接口
 
 # > SaaSExch 加密资产交易与支付网关服务
 
