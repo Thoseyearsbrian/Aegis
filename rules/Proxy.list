@@ -5190,6 +5190,10 @@ DOMAIN-SUFFIX,static.ada.support # Ada 客服与自动化支持平台前端静�
 DOMAIN-SUFFIX,trezor-gen.eu.ada.support # Ada 为 Trezor 提供的客服与自动化支持实例（EU 区域）
 DOMAIN-SUFFIX,rollout.eu.ada.support # Ada 客服平台配置下发与功能发布（rollout）服务（EU 区域）
 
+# > Typeform 在线表单与用户输入收集嵌入服务
+
+DOMAIN-SUFFIX,embed.typeform.com # Typeform 表单嵌入组件，用于网站内嵌问卷、反馈与信息收集表单
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
