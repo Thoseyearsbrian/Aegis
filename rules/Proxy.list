@@ -5187,6 +5187,8 @@ DOMAIN-SUFFIX,v1.api.service.cmp.usercentrics.eu # Usercentrics CMP 平台后端
 # > Ada 智能客服与自动化支持平台前端资源服务
 
 DOMAIN-SUFFIX,static.ada.support # Ada 客服与自动化支持平台前端静态资源分发（聊天组件 / UI / 脚本）
+DOMAIN-SUFFIX,trezor-gen.eu.ada.support # Ada 为 Trezor 提供的客服与自动化支持实例（EU 区域）
+DOMAIN-SUFFIX,rollout.eu.ada.support # Ada 客服平台配置下发与功能发布（rollout）服务（EU 区域）
 
 # > 第三方博客网站
 
