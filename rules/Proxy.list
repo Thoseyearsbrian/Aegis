@@ -5214,6 +5214,7 @@ DOMAIN-SUFFIX,cdn.mathjax.org # MathJax 官方 CDN，用于在网页中渲染 La
 # > Refersion 联盟营销与推荐返佣平台前端资源服务
 
 DOMAIN-SUFFIX,cdn.refersion.com # Refersion 联盟营销与推荐返佣系统的前端脚本与资源分发（用于转化追踪与归因）
+DOMAIN-SUFFIX,tracking.refersion.com # Refersion 联盟营销转化追踪与归因接口，用于点击、转化事件上报与返佣统计
 
 # > Seel 电商订单保障与售后保护服务前端资源分发
 
