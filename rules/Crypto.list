@@ -120,6 +120,11 @@ DOMAIN-SUFFIX,live.ledger.com # Ledger Live 官方钱包 Web 入口，用于资�
 DOMAIN-SUFFIX,cdn.ledger.com # Ledger 官方前端静态资源与内容分发（JS / CSS / 图片）
 DOMAIN-SUFFIX,api.ledger.com # Ledger 官方 API 接口，用于钱包服务、账户数据与生态功能支持
 DOMAIN-SUFFIX,ledgerwallet.com # Ledger 历史主域与钱包相关服务域名（兼容与跳转用途）
+DOMAIN-SUFFIX,ledgerstore.myshopify.com # Ledger 官方 Shopify 商店实例，用于硬件钱包产品的官方销售与订单处理
+
+# > Global-e 跨境电商结算与本地化支付服务
+
+DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于国际订单的价格、税费与支付处理
 
 # > SatoshiLabs 加密资产安全硬件与钱包技术公司
 
