@@ -94,6 +94,7 @@ DOMAIN-SUFFIX,api.kaspa.org # Kaspa 官方区块链 API，用于交易、区块�
 
 # > ETC Explorer 区块链浏览器（Blockscout）
 
+DOMAIN-SUFFIX,ethereumclassic.org # Ethereum Classic 官方项目网站，用于项目介绍、生态信息与技术文档发布
 DOMAIN-SUFFIX,etc.blockscout.com # Blockscout 提供的 Ethereum Classic 区块链浏览器，用于交易、区块与地址数据查询
 DOMAIN-SUFFIX,blockscout.com # Blockscout 官方主站与多链区块链浏览器服务平台
 DOMAIN-SUFFIX,eth.blockscout.com # Blockscout 提供的以太坊（Ethereum）区块链浏览器与链上数据查询服务
