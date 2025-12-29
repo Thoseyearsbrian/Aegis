@@ -1057,3 +1057,8 @@ DOMAIN-SUFFIX,counterapi.com # CounterAPI 网站访问计数与轻量级行为�
 
 DOMAIN-SUFFIX,bi.sanhusoft.com # Sanhusoft 网站访问与行为统计分析服务
 DOMAIN-SUFFIX,bi-n.sanhusoft.com # Sanhusoft 行为数据统计与分析后端接口
+
+# > 平台 A/B 测试与功能实验服务
+
+DOMAIN-SUFFIX,sc-abtest.ffe390afd658c19dcbf707e0597b846d.de # 前端 A/B 测试与功能实验数据采集接口
+DOMAIN-SUFFIX,pup-resource.ffe390afd658c19dcbf707e0597b846d.de # A/B 测试实验所需资源与配置下发服务
