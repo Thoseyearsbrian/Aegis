@@ -5207,6 +5207,10 @@ DOMAIN-SUFFIX,api.supademo.com # Supademo 产品演示平台后端 API，用于�
 
 DOMAIN-SUFFIX,zemanta.com # Zemanta 官方网站，用于原生广告与内容营销产品介绍、文档与客户入口
 
+# > MathJax 数学公式渲染与排版前端库服务
+
+DOMAIN-SUFFIX,cdn.mathjax.org # MathJax 官方 CDN，用于在网页中渲染 LaTeX / MathML 数学公式与学术排版内容
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
