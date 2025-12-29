@@ -1564,6 +1564,7 @@ DOMAIN-SUFFIX,v2.zopim.com # Zendesk Chat（原 Zopim）在线客服脚本加载
 # > Zendesk（Zopim）在线客服聊天组件通信服务
 
 DOMAIN-SUFFIX,widget-mediator.zopim.com # Zendesk Chat（Zopim）客服小组件消息中转与通信接口
+IP-CIDR,52.74.150.160/32 # widget-mediator.zopim.com 对应服务节点，用于网页端在线客服消息中继与会话通信
 
 # > Stripe 支付平台相关域名
 
