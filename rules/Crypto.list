@@ -102,6 +102,10 @@ DOMAIN-SUFFIX,eth.blockscout.com # Blockscout 提供的以太坊（Ethereum）�
 
 DOMAIN-SUFFIX,explorer.bitcoinunlimited.info # Bitcoin Unlimited 提供的比特币区块链浏览器，用于交易、区块与地址等链上数据查询
 
+# > Sourcify 智能合约源码验证与元数据服务平台
+
+DOMAIN-SUFFIX,sourcify.dev # Sourcify 智能合约源码验证与元数据发布服务，用于以太坊等 EVM 链的合约可验证性
+
 # > Web3 钱包 MPC 多方计算后端服务（Google Cloud Run）
 
 DOMAIN-SUFFIX,mpc-prod-16-s6uit34pua-uk.a.run.app # 钱包多方计算（MPC）签名与安全计算后端服务
