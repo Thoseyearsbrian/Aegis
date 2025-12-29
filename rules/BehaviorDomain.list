@@ -1062,3 +1062,11 @@ DOMAIN-SUFFIX,bi-n.sanhusoft.com # Sanhusoft 行为数据统计与分析后端�
 
 DOMAIN-SUFFIX,sc-abtest.ffe390afd658c19dcbf707e0597b846d.de # 前端 A/B 测试与功能实验数据采集接口
 DOMAIN-SUFFIX,pup-resource.ffe390afd658c19dcbf707e0597b846d.de # A/B 测试实验所需资源与配置下发服务
+
+# > AppTrace 应用性能监控与错误追踪服务
+
+DOMAIN-SUFFIX,apptrace.com # AppTrace 应用性能、错误日志与运行状态追踪服务
+
+# > Bybit 加密资产交易平台前端监控与遥测服务
+
+DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com # Bybit 平台前端性能、错误与运行状态监控数据采集接口

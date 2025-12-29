@@ -5134,6 +5134,7 @@ DOMAIN-SUFFIX,lib.baomitu.com # Baomitu 公共前端库静态资源分发（JS /
 # > ByCSI 平台前端静态资源与 SDK 组件分发服务
 
 DOMAIN-SUFFIX,fh-static.bycsi.com # ByCSI 平台前端静态资源与 SDK 组件分发（CDN）
+DOMAIN-SUFFIX,s1.bycsi.com # ByCSI 平台前端静态资源与 SDK 组件分发（CDN）
 
 # > Bybit 加密资产交易平台第三方支撑接口服务
 
