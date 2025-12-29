@@ -122,6 +122,8 @@ DOMAIN-SUFFIX,api.ledger.com # Ledger 官方 API 接口，用于钱包服务、�
 DOMAIN-SUFFIX,ledgerwallet.com # Ledger 历史主域与钱包相关服务域名（兼容与跳转用途）
 DOMAIN-SUFFIX,ledgerstore.myshopify.com # Ledger 官方 Shopify 商店实例，用于硬件钱包产品的官方销售与订单处理
 DOMAIN-SUFFIX,ledgerstore.myshopify.com # Ledger 官方 Shopify 商店实例，用于硬件钱包产品的官方销售与订单处理
+DOMAIN-SUFFIX,ledger-enterprise-api-portal.redoc.ly # Ledger Enterprise 官方 API 文档门户，用于企业级钱包与托管服务的接口说明与开发者参考
+DOMAIN-SUFFIX,ledger.my.site.com # Ledger 使用 Salesforce Site 托管的企业官网或支持门户页面，用于企业服务信息与客户支持
 DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于 Ledger 国际订单的价格、税费与支付处理
 
 # > Global-e 跨境电商结算与本地化支付服务
