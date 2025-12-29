@@ -1078,3 +1078,7 @@ DOMAIN-SUFFIX,api.ffbbbdc6d3c353211fe2ba39c9f744cd.com # 平台前端接口调�
 # > GrowthBook A/B 测试与特性开关前端资源分发服务
 
 DOMAIN-SUFFIX,cdn.growthbook.io # GrowthBook A/B 测试与 Feature Flag 前端 SDK、实验配置与资源分发（CDN）
+
+# > Umami 隐私友好型网站访问统计服务
+
+DOMAIN-SUFFIX,cloud.umami.is # Umami 云端网站访问统计与基础行为分析服务

@@ -5164,6 +5164,10 @@ DOMAIN-SUFFIX,static.bymj.io # ByMJ 平台前端静态资源分发（JS / CSS / 
 
 DOMAIN-SUFFIX,prod.spline.design # Spline 3D 设计平台生产环境资源与交互组件分发服务
 
+# > Slise API 服务接口
+
+DOMAIN-SUFFIX,v1.slise.xyz # Slise 平台 API 接口服务，用于业务数据交互与功能调用
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

@@ -475,3 +475,7 @@ DOMAIN-SUFFIX,status.fireworks.ai # Fireworks 服务状态监控域名，用于�
 
 DOMAIN-SUFFIX,tia-ai.com # Tia AI 官方主域名，用于访问平台主页、产品介绍、用户登录与相关功能页面
 DOMAIN-SUFFIX,fast.tia-ai.com # Tia AI 提供的静态资源加载域名，用于分发前端脚本、样式与组件资源，加快网页渲染性能
+
+# > OpenRouter 大模型 API 聚合与路由服务平台
+
+DOMAIN-SUFFIX,openrouter.ai # OpenRouter 提供多家大模型 API 的统一访问与路由服务
