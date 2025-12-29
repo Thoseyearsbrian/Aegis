@@ -5123,6 +5123,7 @@ DOMAIN-SUFFIX,cdn.bootcss.com # BootCDN 公共前端库与静态资源分发（C
 # > MikeCRM 表单与客户信息收集服务（Bibox 使用）
 
 DOMAIN-SUFFIX,bibox666.mikecrm.com # Bibox 使用的 MikeCRM 表单页面与信息收集服务
+DOMAIN-SUFFIX,cdnq3.mikecrm.com # MikeCRM 表单页面所使用的前端静态资源与组件分发（CDN）
 
 # > Baomitu 公共前端库与静态资源分发服务
 
