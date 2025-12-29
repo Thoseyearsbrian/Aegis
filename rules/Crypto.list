@@ -97,6 +97,7 @@ DOMAIN-SUFFIX,api.kaspa.org # Kaspa 官方区块链 API，用于交易、区块�
 DOMAIN-SUFFIX,etc.blockscout.com # Blockscout 提供的 Ethereum Classic 区块链浏览器，用于交易、区块与地址数据查询
 DOMAIN-SUFFIX,blockscout.com # Blockscout 官方主站与多链区块链浏览器服务平台
 DOMAIN-SUFFIX,eth.blockscout.com # Blockscout 提供的以太坊（Ethereum）区块链浏览器与链上数据查询服务
+IP-CIDR,108.160.165.139/32 # Blockscout 提供的 Ethereum Classic 区块链浏览器服务节点
 
 # > BTC Explorer 社区区块链浏览器
 
