@@ -63,6 +63,7 @@ DOMAIN-SUFFIX,npush.bibox360.com # Bibox 平台消息推送与通知服务（行
 DOMAIN-SUFFIX,bi-n.bibox360.com # Bibox 平台业务节点与后端接口通信服务
 DOMAIN-SUFFIX,i.bibox360.com # Bibox 平台前端图片与多媒体资源分发（CDN）
 DOMAIN-SUFFIX,statistical.bibox360.com # Bibox 平台内部访问与功能使用统计接口
+DOMAIN-SUFFIX,mopush.bibox360.com # Bibox 移动端消息推送与通知服务（订单/行情/系统消息）
 
 # > Banxa 法币入金与加密资产购买服务（Bibox 集成）
 
