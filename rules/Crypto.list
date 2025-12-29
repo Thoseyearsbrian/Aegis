@@ -75,6 +75,10 @@ DOMAIN-SUFFIX,mopush.bibox360.com # Bibox 移动端消息推送与通知服务�
 DOMAIN-SUFFIX,sc-datasink.ffbbbdc6d3c353211fe2ba39c9f744cd.com # 前端数据汇聚与事件上报（Data Sink）
 DOMAIN-SUFFIX,monitor-frontend-collector.ffbbbdc6d3c353211fe2ba39c9f744cd.com # 前端监控数据采集与性能指标上报
 
+# > BTC.com 比特币矿池与区块链数据服务平台
+
+DOMAIN-SUFFIX,btc.com # BTC.com 比特币矿池、区块链浏览器与链上数据服务平台
+
 # > Web3 钱包 MPC 多方计算后端服务（Google Cloud Run）
 
 DOMAIN-SUFFIX,mpc-prod-16-s6uit34pua-uk.a.run.app # 钱包多方计算（MPC）签名与安全计算后端服务
@@ -172,7 +176,6 @@ DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通�
 
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,btc.com # BTC 门户 / 区块链浏览器
 DOMAIN-SUFFIX,btcbank.bank # 加密金融平台
 DOMAIN-SUFFIX,btctrade.im # 加密货币交易平台
 DOMAIN-SUFFIX,c2cx.com # C2CX 交易所
