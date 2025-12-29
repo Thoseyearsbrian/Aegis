@@ -53,6 +53,12 @@ DOMAIN-SUFFIX,bitbay.market # BitBay 交易市场与前端业务展示域名
 
 DOMAIN-SUFFIX,big.one # BigONE 官方主站与加密资产交易服务入口
 
+# > Bibox 加密资产交易平台核心服务域名
+
+DOMAIN-SUFFIX,bibox.com # Bibox 官方主站与加密资产交易服务入口
+DOMAIN-SUFFIX,img.bibox360.com # Bibox 平台前端图片与多媒体资源分发（CDN）
+DOMAIN-SUFFIX,ires.bibox360.com # Bibox 平台前端静态资源与组件加载服务
+
 # > Peatio 加密资产交易平台核心服务与前端资源
 
 DOMAIN-SUFFIX,b.peatio.com # Peatio 交易平台业务接口与后台服务
@@ -135,7 +141,6 @@ DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通�
 
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,bibox.com # Bibox 平台
 DOMAIN-SUFFIX,bitz.ai # BitZ 平台
 DOMAIN-SUFFIX,bybit.com # Bybit 衍生品平台
 DOMAIN-SUFFIX,bybit # Bybit 关键词
