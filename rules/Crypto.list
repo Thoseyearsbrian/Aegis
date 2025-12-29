@@ -113,6 +113,14 @@ DOMAIN-SUFFIX,suite.trezor.io # Trezor Suite Web 钱包与资产管理界面
 DOMAIN-SUFFIX,data.trezor.io # Trezor 钱包后端数据与区块链信息接口服务
 DOMAIN-SUFFIX,api.trezor.io # Trezor 官方 API 接口，用于设备、资产与网络数据查询
 
+# > Ledger 硬件钱包与加密资产自托管服务平台
+
+DOMAIN-SUFFIX,ledger.com # Ledger 官方硬件钱包与加密资产自托管平台主站，用于产品信息、钱包服务、安全公告与生态内容
+DOMAIN-SUFFIX,live.ledger.com # Ledger Live 官方钱包 Web 入口，用于资产管理、账户查看与应用交互
+DOMAIN-SUFFIX,cdn.ledger.com # Ledger 官方前端静态资源与内容分发（JS / CSS / 图片）
+DOMAIN-SUFFIX,api.ledger.com # Ledger 官方 API 接口，用于钱包服务、账户数据与生态功能支持
+DOMAIN-SUFFIX,ledgerwallet.com # Ledger 历史主域与钱包相关服务域名（兼容与跳转用途）
+
 # > SatoshiLabs 加密资产安全硬件与钱包技术公司
 
 DOMAIN-SUFFIX,satoshilabs.com # SatoshiLabs 官方公司网站，Trezor 硬件钱包背后的加密资产安全技术公司
