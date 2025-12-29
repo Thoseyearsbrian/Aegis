@@ -5193,6 +5193,7 @@ DOMAIN-SUFFIX,rollout.eu.ada.support # Ada 客服平台配置下发与功能发�
 # > Typeform 在线表单与用户输入收集嵌入服务
 
 DOMAIN-SUFFIX,embed.typeform.com # Typeform 表单嵌入组件，用于网站内嵌问卷、反馈与信息收集表单
+DOMAIN-SUFFIX,api.typeform.com # Typeform 表单数据提交与管理 API，用于表单填写、结果提交与后台数据交互
 
 # > Supademo 交互式产品演示与使用引导平台
 
