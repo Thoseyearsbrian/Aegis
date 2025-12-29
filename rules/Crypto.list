@@ -103,6 +103,11 @@ IP-CIDR,108.160.165.139/32 # Blockscout 提供的 Ethereum Classic 区块链浏�
 
 DOMAIN-SUFFIX,explorer.bitcoinunlimited.info # Bitcoin Unlimited 提供的比特币区块链浏览器，用于交易、区块与地址等链上数据查询
 
+# > 区块链安全研究与生态规范倡议组织
+
+DOMAIN-SUFFIX,blocksec.com # BlockSec 区块链安全研究机构，提供智能合约审计、安全分析与风险研究服务
+DOMAIN-SUFFIX,openlabelsinitiative.org # Open Labels Initiative 区块链生态标签与风险披露规范倡议组织
+
 # > dRPC 去中心化多链 RPC 基础设施服务平台
 
 DOMAIN-SUFFIX,drpc.org # dRPC 提供多链区块链 RPC 接口与节点访问服务，用于 DApp、钱包与开发者调用
