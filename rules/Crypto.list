@@ -105,6 +105,14 @@ IP-CIDR,208.31.254.33/32 # Blockscout 提供的 Ethereum Classic 区块链浏览
 
 DOMAIN-SUFFIX,bitcoin.org # Bitcoin 官方项目网站，用于协议介绍、客户端下载、技术文档与社区信息发布
 
+# > Trezor 硬件钱包与加密资产自托管服务平台
+
+DOMAIN-SUFFIX,trezor.io # Trezor 官方硬件钱包与加密资产自托管平台主站，用于产品信息、钱包管理与安全服务
+DOMAIN-SUFFIX,connect.trezor.io # Trezor Connect Web 接口，用于浏览器与硬件钱包通信
+DOMAIN-SUFFIX,suite.trezor.io # Trezor Suite Web 钱包与资产管理界面
+DOMAIN-SUFFIX,data.trezor.io # Trezor 钱包后端数据与区块链信息接口服务
+DOMAIN-SUFFIX,api.trezor.io # Trezor 官方 API 接口，用于设备、资产与网络数据查询
+
 # > MoonPay 法币入金与加密资产购买服务
 
 DOMAIN-SUFFIX,moonpay.com # MoonPay 官方主站与法币入金服务入口
