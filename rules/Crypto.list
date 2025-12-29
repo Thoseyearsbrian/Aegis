@@ -113,6 +113,10 @@ DOMAIN-SUFFIX,suite.trezor.io # Trezor Suite Web 钱包与资产管理界面
 DOMAIN-SUFFIX,data.trezor.io # Trezor 钱包后端数据与区块链信息接口服务
 DOMAIN-SUFFIX,api.trezor.io # Trezor 官方 API 接口，用于设备、资产与网络数据查询
 
+# > SatoshiLabs 加密资产安全硬件与钱包技术公司
+
+DOMAIN-SUFFIX,satoshilabs.com # SatoshiLabs 官方公司网站，Trezor 硬件钱包背后的加密资产安全技术公司
+
 # > MoonPay 法币入金与加密资产购买服务
 
 DOMAIN-SUFFIX,moonpay.com # MoonPay 官方主站与法币入金服务入口
