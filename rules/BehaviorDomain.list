@@ -1074,3 +1074,7 @@ DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com # Bybit 平台前端性
 # > 平台前端接口与数据采集服务
 
 DOMAIN-SUFFIX,api.ffbbbdc6d3c353211fe2ba39c9f744cd.com # 平台前端接口调用与数据采集 API（监控 / 实验 / 业务支撑）
+
+# > GrowthBook A/B 测试与特性开关前端资源分发服务
+
+DOMAIN-SUFFIX,cdn.growthbook.io # GrowthBook A/B 测试与 Feature Flag 前端 SDK、实验配置与资源分发（CDN）
