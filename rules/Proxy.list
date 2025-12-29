@@ -5152,6 +5152,7 @@ DOMAIN-SUFFIX,images.contentstack.io # Contentstack Headless CMS 图片与媒体
 # > WebSocket API 网关服务
 
 DOMAIN-SUFFIX,ws2.byapis.com # WebSocket API 网关服务
+DOMAIN-SUFFIX,ws2.bycbe.com # WebSocket 实时通信 API 网关服务
 
 # > 第三方博客网站
 
