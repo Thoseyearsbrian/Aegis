@@ -1091,3 +1091,7 @@ DOMAIN-SUFFIX,otel-collector.moonpaycloud.com # MoonPay 使用的 OpenTelemetry 
 
 DOMAIN-SUFFIX,2632.userly.net # Userly 用户行为采集与转化分析服务，用于页面行为评估与增长效果分析
 DOMAIN-SUFFIX,try.abtasty.com # AB Tasty A/B 测试与用户体验优化平台，用于页面实验与转化率优化
+
+# > Zemanta 广告行为分析与效果追踪服务
+
+DOMAIN-SUFFIX,js-tag.zemanta.com # Zemanta 前端广告曝光与点击行为追踪脚本，用于原生广告效果分析与统计
