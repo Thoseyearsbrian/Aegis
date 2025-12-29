@@ -90,6 +90,7 @@ DOMAIN-SUFFIX,litecoinspace.org # LitecoinSpace 莱特币区块链浏览器与�
 # > Kaspa 官方区块链浏览器与链上数据查询服务
 
 DOMAIN-SUFFIX,explorer.kaspa.org # Kaspa 官方区块链浏览器，用于交易、区块与地址等链上数据查询
+DOMAIN-SUFFIX,api.kaspa.org # Kaspa 官方区块链 API，用于交易、区块、地址与网络状态等链上数据查询
 
 # > Web3 钱包 MPC 多方计算后端服务（Google Cloud Run）
 
