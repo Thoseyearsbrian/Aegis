@@ -102,6 +102,10 @@ DOMAIN-SUFFIX,eth.blockscout.com # Blockscout 提供的以太坊（Ethereum）�
 
 DOMAIN-SUFFIX,explorer.bitcoinunlimited.info # Bitcoin Unlimited 提供的比特币区块链浏览器，用于交易、区块与地址等链上数据查询
 
+# > dRPC 去中心化多链 RPC 基础设施服务平台
+
+DOMAIN-SUFFIX,drpc.org # dRPC 提供多链区块链 RPC 接口与节点访问服务，用于 DApp、钱包与开发者调用
+
 # > Sourcify 智能合约源码验证与元数据服务平台
 
 DOMAIN-SUFFIX,sourcify.dev # Sourcify 智能合约源码验证与元数据发布服务，用于以太坊等 EVM 链的合约可验证性
