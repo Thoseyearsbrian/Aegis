@@ -5160,6 +5160,10 @@ DOMAIN-SUFFIX,ws2.bycbe.com # WebSocket 实时通信 API 网关服务
 
 DOMAIN-SUFFIX,static.bymj.io # ByMJ 平台前端静态资源分发（JS / CSS / 图片等
 
+# > Spline 3D 设计与交互资源生产环境分发服务
+
+DOMAIN-SUFFIX,prod.spline.design # Spline 3D 设计平台生产环境资源与交互组件分发服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
