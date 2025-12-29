@@ -124,6 +124,8 @@ DOMAIN-SUFFIX,ledgerstore.myshopify.com # Ledger 官方 Shopify 商店实例，�
 DOMAIN-SUFFIX,ledgerstore.myshopify.com # Ledger 官方 Shopify 商店实例，用于硬件钱包产品的官方销售与订单处理
 DOMAIN-SUFFIX,ledger-enterprise-api-portal.redoc.ly # Ledger Enterprise 官方 API 文档门户，用于企业级钱包与托管服务的接口说明与开发者参考
 DOMAIN-SUFFIX,ledger.my.site.com # Ledger 使用 Salesforce Site 托管的企业官网或支持门户页面，用于企业服务信息与客户支持
+DOMAIN-SUFFIX,ledgercustomersuccess.my.site.com # Ledger 客户成功与官方支持门户（Salesforce Site 托管），用于帮助文档、服务指引与客户支持
+DOMAIN-SUFFIX,ledgercustomersuccess.file.force.com # Ledger 客户成功相关文件与资源分发服务（Salesforce File 托管），用于支持文档与附件下载
 DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于 Ledger 国际订单的价格、税费与支付处理
 
 # > Global-e 跨境电商结算与本地化支付服务
