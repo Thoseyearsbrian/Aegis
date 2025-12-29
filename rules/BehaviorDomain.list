@@ -1070,3 +1070,7 @@ DOMAIN-SUFFIX,apptrace.com # AppTrace 应用性能、错误日志与运行状态
 # > Bybit 加密资产交易平台前端监控与遥测服务
 
 DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com # Bybit 平台前端性能、错误与运行状态监控数据采集接口
+
+# > 平台前端接口与数据采集服务
+
+DOMAIN-SUFFIX,api.ffbbbdc6d3c353211fe2ba39c9f744cd.com # 平台前端接口调用与数据采集 API（监控 / 实验 / 业务支撑）

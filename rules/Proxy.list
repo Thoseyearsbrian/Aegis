@@ -5149,6 +5149,10 @@ DOMAIN-SUFFIX,cdn.builder.io # Builder.io 前端页面内容、组件与可视�
 
 DOMAIN-SUFFIX,images.contentstack.io # Contentstack Headless CMS 图片与媒体内容静态分发（CDN）
 
+# > WebSocket API 网关服务
+
+DOMAIN-SUFFIX,ws2.byapis.com # WebSocket API 网关服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
