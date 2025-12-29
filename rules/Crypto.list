@@ -78,6 +78,7 @@ DOMAIN-SUFFIX,widget.mercuryo.io # Mercuryo 嵌入式法币入金与加密资产
 
 DOMAIN-SUFFIX,b.peatio.com # Peatio 交易平台业务接口与后台服务
 DOMAIN-SUFFIX,static.peatio.com # Peatio 交易平台前端静态资源分发（CDN）
+DOMAIN-SUFFIX,assets.peatio.com # Peatio 交易系统前端静态资源分发（JS / CSS / 图片）
 
 # > TradingView 金融与加密资产行情平台前端静态资源服务
 
@@ -95,6 +96,7 @@ DOMAIN-SUFFIX,scanner-backend.tradingview.com # TradingView 行情扫描与筛�
 # > Blockchain.com 区块链浏览器与加密资产服务平台
 
 DOMAIN-SUFFIX,blockchain.info # Blockchain.com 区块链浏览器与加密资产查询服务
+DOMAIN-SUFFIX,api.blockchair.com # Blockchair 区块链浏览器链上数据查询与分析 API 接口
 
 # > Web3 / NFT 平台前端静态资源服务（Bitget Web3 平台功能性域名）
 
