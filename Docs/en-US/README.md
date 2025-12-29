@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Thoseyearsbrian/Aegis"><b>【中文文档点此进入】</b></a>
+  <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-TC/README.md"><b>【繁體中文文檔點此進入】</b></a>
 </p>
 
 ## **Overview**
