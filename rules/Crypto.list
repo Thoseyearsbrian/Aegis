@@ -63,6 +63,14 @@ DOMAIN-SUFFIX,bi-n.bibox360.com # Bibox 平台业务节点与后端接口通信�
 DOMAIN-SUFFIX,bibox.win # Bibox 交易平台备用网址与区域访问入口
 DOMAIN-SUFFIX,statistical.bibox360.com # Bibox 平台内部访问与功能使用统计接口
 
+# > Banxa 法币入金与加密资产购买服务（Bibox 集成）
+
+DOMAIN-SUFFIX,bibox.banxa.com # Banxa 为 Bibox 提供的法币入金与加密资产购买网关服务
+
+# > Mercuryo 法币入金与加密资产支付组件服务
+
+DOMAIN-SUFFIX,widget.mercuryo.io # Mercuryo 嵌入式法币入金与加密资产购买支付组件
+
 # > Peatio 加密资产交易平台核心服务与前端资源
 
 DOMAIN-SUFFIX,b.peatio.com # Peatio 交易平台业务接口与后台服务
