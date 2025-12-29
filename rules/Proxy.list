@@ -5139,6 +5139,10 @@ DOMAIN-SUFFIX,fh-static.bycsi.com # ByCSI 平台前端静态资源与 SDK 组件
 
 DOMAIN-SUFFIX,api.wsot2022.com # Bybit 平台使用的第三方 API 接口服务（活动 / 风控 / 业务支撑用途）
 
+# > Builder.io 可视化内容管理与前端组件分发服务
+
+DOMAIN-SUFFIX,cdn.builder.io # Builder.io 前端页面内容、组件与可视化配置的静态资源分发（CDN）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
