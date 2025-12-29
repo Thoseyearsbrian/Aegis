@@ -87,6 +87,10 @@ DOMAIN-SUFFIX,btcscan.org # BTCScan 比特币区块链浏览器与链上交易�
 
 DOMAIN-SUFFIX,litecoinspace.org # LitecoinSpace 莱特币区块链浏览器与交易、区块、地址数据查询服务
 
+# > Kaspa 官方区块链浏览器与链上数据查询服务
+
+DOMAIN-SUFFIX,explorer.kaspa.org # Kaspa 官方区块链浏览器，用于交易、区块与地址等链上数据查询
+
 # > Web3 钱包 MPC 多方计算后端服务（Google Cloud Run）
 
 DOMAIN-SUFFIX,mpc-prod-16-s6uit34pua-uk.a.run.app # 钱包多方计算（MPC）签名与安全计算后端服务
