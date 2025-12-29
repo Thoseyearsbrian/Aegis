@@ -5112,6 +5112,10 @@ DOMAIN-SUFFIX,careers.recruiteecdn.com # Recruitee 招聘站点页面与静态�
 
 DOMAIN-SUFFIX,t1.daumcdn.net # Kakao（Daum）平台图片、脚本等前端静态资源分发（CDN）
 
+# > 七陌（7moor）在线客服与用户沟通服务
+
+DOMAIN-SUFFIX,ykf-webchat.7moor.com # 七陌（7moor）网页端在线客服聊天组件通信服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
