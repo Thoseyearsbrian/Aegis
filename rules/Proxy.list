@@ -5201,6 +5201,7 @@ DOMAIN-SUFFIX,app.supademo.com # Supademo 交互式产品演示与功能引导�
 DOMAIN-SUFFIX,cdn.supademo.com # Supademo 演示内容相关的前端静态资源分发（JS / CSS / 图片）
 DOMAIN-SUFFIX,assets.supademo.com # Supademo 产品演示所需的素材与资源文件加载服务
 DOMAIN-SUFFIX,media.supademo.com # Supademo 产品演示中使用的视频、截图与多媒体内容分发服务
+DOMAIN-SUFFIX,api.supademo.com # Supademo 产品演示平台后端 API，用于演示配置加载、步骤状态同步与用户交互数据处理
 
 # > Zemanta 官方网站与产品信息门户
 
