@@ -5116,6 +5116,10 @@ DOMAIN-SUFFIX,t1.daumcdn.net # Kakao（Daum）平台图片、脚本等前端静�
 
 DOMAIN-SUFFIX,ykf-webchat.7moor.com # 七陌（7moor）网页端在线客服聊天组件通信服务
 
+# > BootCDN（又拍云）公共前端库与静态资源分发服务
+
+DOMAIN-SUFFIX,cdn.bootcss.com # BootCDN 公共前端库与静态资源分发（CSS / JS CDN）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

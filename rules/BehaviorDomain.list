@@ -1051,3 +1051,7 @@ DOMAIN-SUFFIX,wcs.naver.net # Naver Web Analytics 用户行为与转化统计接
 # > CounterAPI 轻量级访问统计与计数服务
 
 DOMAIN-SUFFIX,counterapi.com # CounterAPI 网站访问计数与轻量级行为统计接口
+
+# > Sanhusoft 第三方数据统计与分析服务
+
+DOMAIN-SUFFIX,bi.sanhusoft.com # Sanhusoft 网站访问与行为统计分析服务
