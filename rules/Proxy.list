@@ -5194,6 +5194,12 @@ DOMAIN-SUFFIX,rollout.eu.ada.support # Ada 客服平台配置下发与功能发�
 
 DOMAIN-SUFFIX,embed.typeform.com # Typeform 表单嵌入组件，用于网站内嵌问卷、反馈与信息收集表单
 
+# > Supademo 交互式产品演示与使用引导平台
+
+DOMAIN-SUFFIX,app.supademo.com # Supademo 交互式产品演示与功能引导平台，用于产品流程展示与新用户教学
+DOMAIN-SUFFIX,cdn.supademo.com # Supademo 演示内容相关的前端静态资源分发（JS / CSS / 图片）
+DOMAIN-SUFFIX,assets.supademo.com # Supademo 产品演示所需的素材与资源文件加载服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
