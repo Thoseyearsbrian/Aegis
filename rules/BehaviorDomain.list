@@ -1055,3 +1055,4 @@ DOMAIN-SUFFIX,counterapi.com # CounterAPI 网站访问计数与轻量级行为�
 # > Sanhusoft 第三方数据统计与分析服务
 
 DOMAIN-SUFFIX,bi.sanhusoft.com # Sanhusoft 网站访问与行为统计分析服务
+DOMAIN-SUFFIX,bi-n.sanhusoft.com # Sanhusoft 行为数据统计与分析后端接口
