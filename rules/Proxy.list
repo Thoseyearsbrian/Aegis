@@ -5168,6 +5168,15 @@ DOMAIN-SUFFIX,prod.spline.design # Spline 3D 设计平台生产环境资源与�
 
 DOMAIN-SUFFIX,v1.slise.xyz # Slise 平台 API 接口服务，用于业务数据交互与功能调用
 
+# > Discord 即时通讯与社区平台核心服务
+
+DOMAIN-SUFFIX,discord.com # Discord 官方主站与核心服务入口
+DOMAIN-SUFFIX,cdn.discordapp.com # Discord 官方 CDN，用于图片、附件、音频、视频及前端静态资源分发
+DOMAIN-SUFFIX,media.discordapp.net # Discord 媒体资源分发服务（图片、视频等，常与 CDN 配合使用）
+DOMAIN-SUFFIX,discordapp.com # Discord 旧版主域名与历史服务兼容
+DOMAIN-SUFFIX,discord.gg # Discord 官方邀请链接与服务器邀请跳转服务
+DOMAIN-SUFFIX,discordstatus.com # Discord 官方服务状态与故障公告页面
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

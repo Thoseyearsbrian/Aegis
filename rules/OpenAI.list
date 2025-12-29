@@ -213,9 +213,6 @@ DOMAIN-SUFFIX,cdn.ai21.com # AI21 静态资源 CDN，用于加载控制台与前
 
 DOMAIN-SUFFIX,midjourney.com # Midjourney 主站域名，用于账号管理、作品展示、FAQ 与产品说明
 DOMAIN-SUFFIX,cdn.midjourney.com # Midjourney 静态资源 CDN，用于加载前端脚本、样式与图像处理界面
-DOMAIN-SUFFIX,cdn.discordapp.com # Midjourney 图像生成结果依赖的 CDN，用于在 Discord 中加载生成的图像
-DOMAIN-SUFFIX,discordapp.com # Midjourney 核心运行平台（模型指令、图像生成均在 Discord Bot 上执行）
-DOMAIN-SUFFIX,discord.com # Midjourney Bot 的主交互平台，用于消息收发与图像生成任务处理
 DOMAIN-SUFFIX,midjourney.ghost.io # Midjourney 官方博客使用的 Ghost 托管域名，用于发布新闻、更新日志与开发者文章等
 
 # > Runway（Gen-2 / Gen-3 视频生成平台）
