@@ -1,0 +1,21 @@
+name: Auto-close Pull Requests
+
+on:
+  pull_request:
+    types: [opened]
+
+permissions:
+  pull-requests: write
+  
+jobs:
+  auto-close:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close PR
+        if: github.actor != 'Thoseyearsbrian'
+        uses: peter-evans/close-pull@v2
+        with:
+          comment: |
+            感谢你的提交。目前本项目暂不接受 Pull Request。
+
+            欢迎 Fork 使用。如有建议或交流需求，欢迎关注我们的 Telegram 频道。后续我们可能开放邀请制 TG 群组，敬请关注。
