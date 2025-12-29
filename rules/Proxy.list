@@ -5211,6 +5211,14 @@ DOMAIN-SUFFIX,zemanta.com # Zemanta 官方网站，用于原生广告与内容�
 
 DOMAIN-SUFFIX,cdn.mathjax.org # MathJax 官方 CDN，用于在网页中渲染 LaTeX / MathML 数学公式与学术排版内容
 
+# > Refersion 联盟营销与推荐返佣平台前端资源服务
+
+DOMAIN-SUFFIX,cdn.refersion.com # Refersion 联盟营销与推荐返佣系统的前端脚本与资源分发（用于转化追踪与归因）
+
+# > Seel 电商订单保障与售后保护服务前端资源分发
+
+DOMAIN-SUFFIX,cdn.seel.com # Seel 电商订单保障与售后保护服务的前端静态资源分发，用于结算页保障选项与服务展示
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
