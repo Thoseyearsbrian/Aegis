@@ -58,6 +58,8 @@ DOMAIN-SUFFIX,big.one # BigONE 官方主站与加密资产交易服务入口
 DOMAIN-SUFFIX,bibox.com # Bibox 官方主站与加密资产交易服务入口
 DOMAIN-SUFFIX,img.bibox360.com # Bibox 平台前端图片与多媒体资源分发（CDN）
 DOMAIN-SUFFIX,ires.bibox360.com # Bibox 平台前端静态资源与组件加载服务
+DOMAIN-SUFFIX,npush.bibox360.com # Bibox 平台消息推送与通知服务（行情/订单/系统通知）
+DOMAIN-SUFFIX,bi-n.bibox360.com # Bibox 平台业务节点与后端接口通信服务
 
 # > Peatio 加密资产交易平台核心服务与前端资源
 
