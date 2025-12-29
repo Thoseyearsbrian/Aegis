@@ -5120,6 +5120,10 @@ DOMAIN-SUFFIX,ykf-webchat.7moor.com # 七陌（7moor）网页端在线客服聊�
 
 DOMAIN-SUFFIX,cdn.bootcss.com # BootCDN 公共前端库与静态资源分发（CSS / JS CDN）
 
+# > MikeCRM 表单与客户信息收集服务（Bibox 使用）
+
+DOMAIN-SUFFIX,bibox666.mikecrm.com # Bibox 使用的 MikeCRM 表单页面与信息收集服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

@@ -29,7 +29,6 @@ DOMAIN-SUFFIX,iad.apple.com # Apple 广告平台主域（iAd，iOS 系统早期�
 DOMAIN-SUFFIX,ca.iadsdk.apple.com # Apple iAd 广告 SDK 子域，用于广告归因/跟踪服务
 DOMAIN-SUFFIX,adashx.m.taobao.com # 淘宝广告监测 SDK 接口
 DOMAIN-SUFFIX,atanx.alicdn.com # 阿里广告素材 CDN
-DOMAIN-SUFFIX,arms-retcode.aliyuncs.com # 阿里前端行为日志采集（广告 SDK 用于追踪）
 DOMAIN-SUFFIX,ynuf.alipay.com # 支付宝广告与活动调度接口
 DOMAIN-SUFFIX,open-adash.alipay.com # 闲鱼 / 支付宝广告监控接口
 DOMAIN-SUFFIX,g-adashx.ut.taobao.com # 淘宝广告追踪
