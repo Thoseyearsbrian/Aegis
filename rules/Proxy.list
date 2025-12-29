@@ -5184,6 +5184,10 @@ DOMAIN-SUFFIX,usercentrics.eu # Usercentrics 隐私合规与用户同意管理�
 DOMAIN-SUFFIX,web.cmp.usercentrics.eu # Usercentrics 前端隐私同意管理组件，用于 Cookie 与数据处理授权弹窗展示
 DOMAIN-SUFFIX,v1.api.service.cmp.usercentrics.eu # Usercentrics CMP 平台后端 API，用于用户同意状态管理与合规配置获取
 
+# > Ada 智能客服与自动化支持平台前端资源服务
+
+DOMAIN-SUFFIX,static.ada.support # Ada 客服与自动化支持平台前端静态资源分发（聊天组件 / UI / 脚本）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
