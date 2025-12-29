@@ -253,6 +253,8 @@ DOMAIN-SUFFIX,relay.walletconnect.com # WalletConnect 消息中继与会话通�
 DOMAIN-SUFFIX,verify.walletconnect.org # WalletConnect 会话校验与安全验证接口
 DOMAIN-SUFFIX,explorer-api.walletconnect.com # WalletConnect Explorer API 接口
 DOMAIN-SUFFIX,verify.walletconnect.com # WalletConnect 会话校验与安全验证接口
+DOMAIN-SUFFIX,pulse.walletconnect.org # WalletConnect Pulse 服务，用于钱包连接生态的运行状态、网络健康与服务监控信息展示
+DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通信服务
 
 # > YZi Labs 区块链与加密资产研究及孵化机构
 
@@ -263,7 +265,6 @@ DOMAIN-SUFFIX,yzi-labs.ghost.io # YZi Labs 官方博客与研究内容发布站�
 # > 加密钱包与跨平台基础通信服务
 
 DOMAIN-SUFFIX,api.commonservice.io # 钱包与加密平台通用后端服务接口
-DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通信服务
 
 # > Exchanges（加密交易所 / 矿池服务）
 
