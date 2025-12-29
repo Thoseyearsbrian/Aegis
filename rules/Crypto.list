@@ -116,6 +116,11 @@ DOMAIN-SUFFIX,buy.moonpay.com # MoonPay 嵌入式法币入金与加密资产购�
 
 DOMAIN-SUFFIX,js.verygoodvault.com # VGS 前端 JS SDK，用于支付与法币入金流程中的敏感数据脱敏与合规采集
 
+# > Riskified 电商支付反欺诈与风险评估服务
+
+DOMAIN-SUFFIX,c.riskified.com # Riskified 客户端风险信号与反欺诈数据采集接口，用于交易风控与欺诈识别
+DOMAIN-SUFFIX,img.riskified.com # Riskified 前端风控相关图片与静态资源分发（像素 / 设备识别组件）
+
 # > GrowThePie 以太坊 Layer2 / Rollup 生态数据分析平台
 
 DOMAIN-SUFFIX,growthepie.com # GrowThePie 提供以太坊 Layer2 与 Rollup 生态的链上数据分析与可视化服务
