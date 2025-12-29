@@ -68,6 +68,12 @@ DOMAIN-SUFFIX,bi-n.bibox360.com # Bibox 平台业务节点与后端接口通信�
 DOMAIN-SUFFIX,i.bibox360.com # Bibox 平台前端图片与多媒体资源分发（CDN）
 DOMAIN-SUFFIX,statistical.bibox360.com # Bibox 平台内部访问与功能使用统计接口
 DOMAIN-SUFFIX,mopush.bibox360.com # Bibox 移动端消息推送与通知服务（订单/行情/系统消息）
+DOMAIN-SUFFIX,sc-datasink.ffbbbdc6d3c353211fe2ba39c9f744cd.com # 前端数据汇聚与事件上报（Data Sink）
+DOMAIN-SUFFIX,monitor-frontend-collector.ffbbbdc6d3c353211fe2ba39c9f744cd.com # 前端监控数据采集与性能指标上报
+
+# > Web3 钱包 MPC 多方计算后端服务（Google Cloud Run）
+
+DOMAIN-SUFFIX,mpc-prod-16-s6uit34pua-uk.a.run.app # 钱包多方计算（MPC）签名与安全计算后端服务
 
 # > Banxa 法币入金与加密资产购买服务（Bibox 集成）
 
@@ -162,9 +168,7 @@ DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通�
 
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,bitz.ai # BitZ 平台
 DOMAIN-SUFFIX,bybit.com # Bybit 衍生品平台
-DOMAIN-SUFFIX,bybit # Bybit 关键词
 DOMAIN-SUFFIX,btc.com # BTC 门户 / 区块链浏览器
 DOMAIN-SUFFIX,btcbank.bank # 加密金融平台
 DOMAIN-SUFFIX,btctrade.im # 加密货币交易平台
@@ -187,12 +191,10 @@ DOMAIN-SUFFIX,exmo.com # EXMO 交易平台
 DOMAIN-SUFFIX,gate.io # Gate.io 虎符交易所
 DOMAIN-SUFFIX,gate # Gate.io 关键词
 DOMAIN-SUFFIX,huobi.com # Huobi 火币
-DOMAIN-SUFFIX,huobi # 火币关键词
 DOMAIN-SUFFIX,kraken.com # Kraken 全球交易平台
 DOMAIN-SUFFIX,mexc.com # MEXC 全球平台
 DOMAIN-SUFFIX,mexc # MEXC 关键词
 DOMAIN-SUFFIX,okx.com # OKX 交易所
-DOMAIN-SUFFIX,okx # OKX 关键词
 DOMAIN-SUFFIX,pionex # Pionex 量化机器人交易平台
 DOMAIN-SUFFIX,adcex.com # ADCEX 平台
 DOMAIN-SUFFIX,aex.com # AEX 交易平台
