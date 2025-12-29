@@ -60,6 +60,7 @@ DOMAIN-SUFFIX,img.bibox360.com # Bibox 平台前端图片与多媒体资源分�
 DOMAIN-SUFFIX,ires.bibox360.com # Bibox 平台前端静态资源与组件加载服务
 DOMAIN-SUFFIX,npush.bibox360.com # Bibox 平台消息推送与通知服务（行情/订单/系统通知）
 DOMAIN-SUFFIX,bi-n.bibox360.com # Bibox 平台业务节点与后端接口通信服务
+DOMAIN-SUFFIX,bibox.win # Bibox 交易平台备用网址与区域访问入口
 
 # > Peatio 加密资产交易平台核心服务与前端资源
 
