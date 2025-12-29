@@ -1082,3 +1082,7 @@ DOMAIN-SUFFIX,cdn.growthbook.io # GrowthBook A/B 测试与 Feature Flag 前端 S
 # > Umami 隐私友好型网站访问统计服务
 
 DOMAIN-SUFFIX,cloud.umami.is # Umami 云端网站访问统计与基础行为分析服务
+
+# > MoonPay 平台遥测与服务监控数据收集服务
+
+DOMAIN-SUFFIX,otel-collector.moonpaycloud.com # MoonPay 使用的 OpenTelemetry 数据收集端点，用于服务监控、指标与追踪上报

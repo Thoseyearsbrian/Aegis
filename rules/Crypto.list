@@ -112,6 +112,10 @@ DOMAIN-SUFFIX,static.moonpay.com # MoonPay 法币入金与加密资产购买服�
 DOMAIN-SUFFIX,api.moonpay.com # MoonPay 法币入金与加密资产购买的核心 API 接口服务
 DOMAIN-SUFFIX,buy.moonpay.com # MoonPay 嵌入式法币入金与加密资产购买页面入口
 
+# > Very Good Security（VGS）前端数据脱敏与合规采集服务
+
+DOMAIN-SUFFIX,js.verygoodvault.com # VGS 前端 JS SDK，用于支付与法币入金流程中的敏感数据脱敏与合规采集
+
 # > GrowThePie 以太坊 Layer2 / Rollup 生态数据分析平台
 
 DOMAIN-SUFFIX,growthepie.com # GrowThePie 提供以太坊 Layer2 与 Rollup 生态的链上数据分析与可视化服务
