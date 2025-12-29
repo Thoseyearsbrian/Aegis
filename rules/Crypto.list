@@ -53,6 +53,10 @@ DOMAIN-SUFFIX,bitbay.market # BitBay 交易市场与前端业务展示域名
 
 DOMAIN-SUFFIX,big.one # BigONE 官方主站与加密资产交易服务入口
 
+# > Bybit 加密资产交易平台核心服务域名
+
+DOMAIN-SUFFIX,bybit.com # Bybit 官方主站与加密资产交易平台核心服务入口
+
 # > HackenProof 区块链安全审计与漏洞赏金平台
 
 DOMAIN-SUFFIX,hackenproof.com # HackenProof 区块链项目安全审计与漏洞赏金披露平台
