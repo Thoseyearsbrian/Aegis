@@ -172,7 +172,6 @@ DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通�
 
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,bybit.com # Bybit 衍生品平台
 DOMAIN-SUFFIX,btc.com # BTC 门户 / 区块链浏览器
 DOMAIN-SUFFIX,btcbank.bank # 加密金融平台
 DOMAIN-SUFFIX,btctrade.im # 加密货币交易平台
