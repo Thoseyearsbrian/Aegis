@@ -1086,3 +1086,8 @@ DOMAIN-SUFFIX,cloud.umami.is # Umami 云端网站访问统计与基础行为分�
 # > MoonPay 平台遥测与服务监控数据收集服务
 
 DOMAIN-SUFFIX,otel-collector.moonpaycloud.com # MoonPay 使用的 OpenTelemetry 数据收集端点，用于服务监控、指标与追踪上报
+
+# > 用户行为分析与 A/B 测试服务
+
+DOMAIN-SUFFIX,2632.userly.net # Userly 用户行为采集与转化分析服务，用于页面行为评估与增长效果分析
+DOMAIN-SUFFIX,try.abtasty.com # AB Tasty A/B 测试与用户体验优化平台，用于页面实验与转化率优化

@@ -8,6 +8,7 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,p.teads.tv # Teads 原生广告投放与视频广告追踪服务
 DOMAIN-SUFFIX,a.mgid.com # MGID 原生广告投放、内容推荐与广告请求接口
 DOMAIN-SUFFIX,cdn.onetag.co.kr # OneTag 广告与受众定向脚本及前端资源分发
 DOMAIN-SUFFIX,tag.adrsbl.io # Adrsbl 广告投放与受众定向追踪标签服务
