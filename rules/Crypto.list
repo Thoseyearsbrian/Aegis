@@ -101,6 +101,10 @@ DOMAIN-SUFFIX,eth.blockscout.com # Blockscout 提供的以太坊（Ethereum）�
 IP-CIDR,108.160.165.139/32 # Blockscout 提供的 Ethereum Classic 区块链浏览器服务节点
 IP-CIDR,208.31.254.33/32 # Blockscout 提供的 Ethereum Classic 区块链浏览器服务节点
 
+# > GrowThePie 以太坊 Layer2 / Rollup 生态数据分析平台
+
+DOMAIN-SUFFIX,growthepie.com # GrowThePie 提供以太坊 Layer2 与 Rollup 生态的链上数据分析与可视化服务
+
 # > BTC Explorer 社区区块链浏览器
 
 DOMAIN-SUFFIX,explorer.bitcoinunlimited.info # Bitcoin Unlimited 提供的比特币区块链浏览器，用于交易、区块与地址等链上数据查询
