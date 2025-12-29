@@ -127,6 +127,7 @@ DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付�
 # > Global-e 跨境电商结算与本地化支付服务
 
 DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于国际订单的价格、税费与支付处理
+DOMAIN-SUFFIX,static.global-e.com # Global-e 跨境电商本地化结算服务的前端静态资源分发（JS / CSS / UI 组件）
 
 # > SatoshiLabs 加密资产安全硬件与钱包技术公司
 
