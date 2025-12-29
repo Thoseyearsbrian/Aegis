@@ -5177,6 +5177,10 @@ DOMAIN-SUFFIX,discordapp.com # Discord 旧版主域名与历史服务兼容
 DOMAIN-SUFFIX,discord.gg # Discord 官方邀请链接与服务器邀请跳转服务
 DOMAIN-SUFFIX,discordstatus.com # Discord 官方服务状态与故障公告页面
 
+# > Usercentrics 隐私合规与用户同意管理平台（CMP）
+
+DOMAIN-SUFFIX,web.cmp.usercentrics.eu # Usercentrics 前端隐私同意管理组件，用于 Cookie 与数据处理授权弹窗展示
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
