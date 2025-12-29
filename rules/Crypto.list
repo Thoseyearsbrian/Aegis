@@ -83,6 +83,10 @@ DOMAIN-SUFFIX,btc.com # BTC.com 比特币矿池、区块链浏览器与链上数
 
 DOMAIN-SUFFIX,btcscan.org # BTCScan 比特币区块链浏览器与链上交易、区块数据查询服务
 
+# > LitecoinSpace 莱特币区块链浏览器与链上数据服务平台
+
+DOMAIN-SUFFIX,litecoinspace.org # LitecoinSpace 莱特币区块链浏览器与交易、区块、地址数据查询服务
+
 # > Web3 钱包 MPC 多方计算后端服务（Google Cloud Run）
 
 DOMAIN-SUFFIX,mpc-prod-16-s6uit34pua-uk.a.run.app # 钱包多方计算（MPC）签名与安全计算后端服务
