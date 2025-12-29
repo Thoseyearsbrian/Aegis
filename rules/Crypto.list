@@ -67,6 +67,7 @@ DOMAIN-SUFFIX,statistical.bibox360.com # Bibox 平台内部访问与功能使用
 # > Banxa 法币入金与加密资产购买服务（Bibox 集成）
 
 DOMAIN-SUFFIX,bibox.banxa.com # Banxa 为 Bibox 提供的法币入金与加密资产购买网关服务
+DOMAIN-SUFFIX,bibox.banxa-sandbox.com # Banxa 为 Bibox 提供的法币入金沙盒测试环境域名
 
 # > Mercuryo 法币入金与加密资产支付组件服务
 
