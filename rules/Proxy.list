@@ -5302,6 +5302,12 @@ DOMAIN-SUFFIX,cdnjs.cloudflare.com # cdnjs 通过 Cloudflare 提供的前端静�
 DOMAIN-SUFFIX,cdn.rawgit.com # RawGit 提供的前端开源代码静态资源 CDN，用于从 GitHub 仓库直接分发 JS / CSS 等文件（项目已停止维护，仅用于历史资源访问）
 DOMAIN-SUFFIX,rawgit.com # RawGit 官方项目网站与说明页面，用于介绍服务背景、使用说明及停服公告（历史访问）
 
+# > CUHK MMLab 计算机视觉与多媒体学术研究平台
+
+DOMAIN-SUFFIX,mmlab.ie.cuhk.edu.hk # 香港中文大学多媒体实验室（MMLab）官方研究网站，用于发布计算机视觉、多媒体与深度学习相关的学术研究、论文与项目资源
+DOMAIN-SUFFIX,openmmlab.com # OpenMMLab 开源计算机视觉项目官方平台，由 CUHK MMLab 发起与维护，用于发布框架、文档与研究成果
+DOMAIN-SUFFIX,openmmlab.org # OpenMMLab 开源计算机视觉社区与技术文档站点，用于项目说明、教程与学术资源发布
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
