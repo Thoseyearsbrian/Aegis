@@ -1093,3 +1093,7 @@ DOMAIN-SUFFIX,js-tag.zemanta.com # Zemanta 前端广告曝光与点击行为追�
 # > Protechts 链接安全与访问行为分析服务
 
 DOMAIN-SUFFIX,li.protechts.net # Protechts 链接访问与点击行为追踪接口，用于链接安全校验、访问分析与风险评估
+
+# > PostHog 用户行为分析与产品埋点平台
+
+DOMAIN-SUFFIX,app.posthog.com # PostHog 官方控制台，用于产品用户行为分析、事件埋点、漏斗与使用情况统计

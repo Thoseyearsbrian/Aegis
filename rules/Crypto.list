@@ -151,6 +151,7 @@ DOMAIN-SUFFIX,threshold.network # Threshold Network 官方主站，用于去中�
 DOMAIN-SUFFIX,app.threshold.network # Threshold Network 官方应用前端，用于 tBTC 等协议的资产操作、质押、治理参与与链上交互
 DOMAIN-SUFFIX,dashboard.threshold.network # Threshold Network 官方仪表盘，用于 tBTC 等协议的资产管理、质押操作、治理参与与状态查询
 DOMAIN-SUFFIX,threshold-black.vercel.app # Threshold Network 使用 Vercel 部署的前端预览/测试站点，用于新版本界面或功能验证
+DOMAIN-SUFFIX,threshold-network.ghost.io # Threshold Network 官方博客站点，用于发布协议更新、研究文章与生态公告
 
 # > MarkFi 去中心化金融协议前端静态资源服务
 
