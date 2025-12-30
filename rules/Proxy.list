@@ -5231,6 +5231,7 @@ DOMAIN-SUFFIX,cdn.iframe.ly # Iframely 提供的前端静态资源分发（CDN�
 # > Metadata.io B2B 营销平台前端静态资源分发服务
 
 DOMAIN-SUFFIX,cdn.metadata.io # Metadata.io 提供的前端静态资源分发（CDN），用于营销平台页面脚本、样式与媒体资源加载
+DOMAIN-SUFFIX,api-gw.metadata.io # Metadata.io 提供的后端 API 网关服务，用于平台功能接口调用与系统间通信
 
 # > 客户事件与消息中继服务（Relay）
 

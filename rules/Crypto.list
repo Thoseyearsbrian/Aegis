@@ -163,6 +163,10 @@ DOMAIN-SUFFIX,threshold-network.ghost.io # Threshold Network 官方博客站点�
 DOMAIN-SUFFIX,api.slush.app # Slush（SatoshiLabs）提供的后端 API 服务，用于加密资产钱包应用的数据同步、账户状态与链上交互支持
 DOMAIN-SUFFIX,satoshilabs.com # SatoshiLabs 官方公司网站，Trezor 硬件钱包背后的加密资产安全技术公司
 
+# > Onchain 区块链与加密资产生态基础设施平台
+
+DOMAIN-SUFFIX,onchain.org # Onchain 官方网站，用于区块链与加密资产相关基础设施、生态项目与技术信息展示
+
 # > MarkFi 去中心化金融协议前端静态资源服务
 
 DOMAIN-SUFFIX,a.markfi.xyz # MarkFi 官方应用前端入口（App），用于去中心化金融协议的用户交互、资产操作与功能访问
