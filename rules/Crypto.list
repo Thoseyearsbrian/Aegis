@@ -165,6 +165,10 @@ DOMAIN-SUFFIX,cms.mantle.xyz # Mantle Layer2 官方内容管理系统（CMS）�
 
 DOMAIN-SUFFIX,dune.com # Dune Analytics 官方网站，用于区块链链上数据查询、分析、可视化仪表盘与研究报告发布
 
+# > Reown Web3 基础设施前端字体资源服务
+
+DOMAIN-SUFFIX,fonts.reown.com # Reown 提供的前端字体资源分发服务，用于 Web3Modal、WalletConnect 等 Web3 基础设施的界面渲染
+
 # > Global-e 跨境电商结算与本地化支付服务
 
 DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于国际订单的价格、税费与支付处理
