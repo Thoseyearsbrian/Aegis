@@ -1117,3 +1117,7 @@ DOMAIN-SUFFIX,insights.algolia.io # Algolia Insights 行为分析接口，用于
 # > Kapa AI 产品使用指标与行为分析服务
 
 DOMAIN-SUFFIX,metrics.kapa.ai # Kapa AI 提供的指标与度量接口，用于产品使用情况、交互事件与性能数据等行为指标采集
+
+# > Clicky 网站访问统计与用户行为分析服务
+
+DOMAIN-SUFFIX,static.getclicky.com # Clicky 提供的网站访问统计与用户行为分析前端脚本资源，用于页面访问与交互数据采集

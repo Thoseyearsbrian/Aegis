@@ -33,8 +33,7 @@ DOMAIN-SUFFIX,ds.v6ns.losangeles.test-ipv6.com # Test-IPv6 洛杉矶节点 DNSSE
 DOMAIN-SUFFIX,ipv6.lookup.test-ipv6.com # Test-IPv6 域名解析行为测试子域，用于 IPv6 优先级与响应行为分析 
 
 # > Whoer 服务域名（匿名性检测平台主功能与测试服务）
-
-DOMAIN-SUFFIX,slack.com  # Slack 协作平台主域名，Whoer 页面引用，用于身份测试与资源加载  
+ 
 DOMAIN-SUFFIX,500px.com  # 500px 摄影平台主站域名，Whoer 页面引用，用于图像展示测试  
 DOMAIN-SUFFIX,medium.com  # Medium 博客平台域名，Whoer 页面引用，用于嵌入测试与内容加载  
 DOMAIN-SUFFIX,expedia.de  # Expedia 德国站域名，Whoer 页面引用，用于跨境兼容性检测  
@@ -4764,8 +4763,10 @@ DOMAIN-SUFFIX,us1.discourse-cdn.com # Discourse 论坛静态资源 CDN（美国�
 
 # > Slack 静态资源加载域名
 
+DOMAIN-SUFFIX,slack.com # Slack 协作平台主域名，Whoer 页面引用，用于身份测试与资源加载 
 DOMAIN-SUFFIX,a.slack-edge.com # Slack 资源分发子域，用于加载头像、图标、表情等界面资源
 DOMAIN-SUFFIX,avatars.slack-edge.com # Slack 头像资源域名，用于加载用户头像与会话相关图片
+DOMAIN-SUFFIX,platform.slack-edge.com # Slack 官方边缘平台服务域，用于实时通信、消息传输与平台功能的边缘加速
 
 # > Ashby 招聘管理系统职位投递接口
 
@@ -5266,6 +5267,11 @@ DOMAIN-SUFFIX,s27.q4cdn.com # Q4 平台提供的投资者关系（IR）内容分
 
 DOMAIN-SUFFIX,cdn.sprig.com # Sprig 提供的前端静态资源分发 CDN，用于脚本、样式与组件资源加载，支撑用户调研与反馈组件展示
 DOMAIN-SUFFIX,assets.sprig.com # Sprig 官方前端资源托管域名，用于调研组件相关的静态资源与前端依赖加载
+
+# > Status.io 服务状态页面前端资源分发服务
+
+DOMAIN-SUFFIX,static.status.io # Status.io 平台状态页面使用的前端静态资源分发（CSS / JS）
+DOMAIN-SUFFIX,image.status.io # Status.io 平台状态页面使用的图片与视觉资源分发
 
 # > 第三方博客网站
 
