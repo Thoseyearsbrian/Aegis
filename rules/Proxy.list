@@ -5331,6 +5331,16 @@ DOMAIN-SUFFIX,pro.ip-api.com # IP-API 提供的付费版 IP 地理位置与网�
 DOMAIN-SUFFIX,ip-api.com # IP-API 官方网站与服务入口，用于接口说明、文档与服务信息展示
 DOMAIN-SUFFIX,api.ip-api.com # IP-API 提供的免费版 IP 地理位置查询接口，常用于基础 IP 定位与网络属性判断
 
+# > Badgen 开源项目状态徽章生成服务
+
+DOMAIN-SUFFIX,badgen.net # Badgen 官方徽章生成服务，用于为开源项目生成构建状态、版本号与依赖信息等可视化徽章
+
+# > Read the Docs 开源文档托管与构建平台
+
+DOMAIN-SUFFIX,readthedocs.org # Read the Docs 官方平台，用于托管、构建与发布开源项目技术文档
+DOMAIN-SUFFIX,readthedocs.io # Read the Docs 文档内容实际访问域名，用于分发各项目的在线文档页面
+DOMAIN-SUFFIX,media.readthedocs.org # Read the Docs 媒体与静态资源分发域名，用于加载文档相关图片与静态资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
