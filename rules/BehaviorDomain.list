@@ -1113,3 +1113,7 @@ DOMAIN-SUFFIX,api.sprig.com # Sprig 提供的后端 API 服务，用于用户调
 # > Algolia 搜索行为分析与用户洞察服务
 
 DOMAIN-SUFFIX,insights.algolia.io # Algolia Insights 行为分析接口，用于搜索事件、点击、转化等用户交互数据上报与分析
+
+# > Kapa AI 产品使用指标与行为分析服务
+
+DOMAIN-SUFFIX,metrics.kapa.ai # Kapa AI 提供的指标与度量接口，用于产品使用情况、交互事件与性能数据等行为指标采集
