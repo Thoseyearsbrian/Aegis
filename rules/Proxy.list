@@ -5241,6 +5241,10 @@ DOMAIN-SUFFIX,cdn.cr-relay.com # 用于客户端事件、消息或状态数据�
 
 DOMAIN-SUFFIX,cdn-uicons.flaticon.com # Flaticon 提供的 UI 图标字体与矢量图标前端资源分发（CDN），用于网页与应用界面图标加载
 
+# > PerimeterX / Human 前端反欺诈与机器人防护服务
+
+DOMAIN-SUFFIX,client.px-cloud.net # PerimeterX（现 Human）前端客户端脚本，用于机器人识别、反欺诈与风险评估
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

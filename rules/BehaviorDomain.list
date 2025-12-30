@@ -1101,3 +1101,7 @@ DOMAIN-SUFFIX,app.posthog.com # PostHog 官方控制台，用于产品用户行�
 # > Splunk Cloud 数据采集与日志上报服务（Notion 集成）
 
 DOMAIN-SUFFIX,http-inputs-notion.splunkcloud.com # Splunk Cloud 提供的 HTTP 数据输入接口，用于 Notion 相关事件、日志与使用数据的采集与上报
+
+# > Birdie 产品分析与用户洞察平台
+
+DOMAIN-SUFFIX,app.birdie.so # Birdie 官方应用控制台，用于产品分析、用户洞察与产品决策支持
