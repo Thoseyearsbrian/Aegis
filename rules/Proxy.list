@@ -5278,6 +5278,10 @@ DOMAIN-SUFFIX,image.status.io # Status.io 平台状态页面使用的图片与�
 DOMAIN-SUFFIX,zenodo.org # Zenodo 官方平台，由 CERN 运营，用于科研数据、论文、代码与研究成果的开放存储、发布与长期归档
 DOMAIN-SUFFIX,zenodo.cern.ch # Zenodo 在 CERN 基础设施上的官方服务域，用于科研数据与成果的托管与长期保存
 
+# > Qualtrics 体验管理与用户调研平台
+
+DOMAIN-SUFFIX,qualtrics.com # Qualtrics 官方平台主站，用于体验管理（XM）、用户调研、产品与服务信息展示及平台访问入口
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
