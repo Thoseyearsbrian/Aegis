@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-30
+# - 更新时间：2025-12-31
 
 # > WeChat 数据统计与遥测
 
@@ -1109,3 +1109,7 @@ DOMAIN-SUFFIX,app.birdie.so # Birdie 官方应用控制台，用于产品分析�
 # > Sprig 产品体验调研与用户反馈分析服务
 
 DOMAIN-SUFFIX,api.sprig.com # Sprig 提供的后端 API 服务，用于用户调研问卷、体验反馈、产品使用洞察与行为数据收集
+
+# > Algolia 搜索行为分析与用户洞察服务
+
+DOMAIN-SUFFIX,insights.algolia.io # Algolia Insights 行为分析接口，用于搜索事件、点击、转化等用户交互数据上报与分析
