@@ -4925,6 +4925,9 @@ DOMAIN-SUFFIX,media.thoughtindustries.com # Thought Industries 教育平台媒�
 
 DOMAIN-SUFFIX,fast.wistia.com # Wistia 加速节点域名，负责分发视频播放器脚本与媒体加载组件，加速第三方站点嵌入式视频体验
 DOMAIN-SUFFIX,fast.wistia.net # Wistia 提供的视频内容分发与播放 CDN，用于网站嵌入式视频加载、流媒体传输与播放优化
+DOMAIN-SUFFIX,pipedream.wistia.com # Wistia 视频处理与工作流服务子域，用于视频转码、处理与后台任务执行
+DOMAIN-SUFFIX,distillery.wistia.com # Wistia 视频处理与分发服务，用于视频内容生成、处理与交付
+DOMAIN-SUFFIX,embed-ssl.wistia.com # Wistia 安全嵌入播放服务，用于网站中 HTTPS 视频播放器的嵌入与加载
 
 # > Showrunner 平台主域名
 
