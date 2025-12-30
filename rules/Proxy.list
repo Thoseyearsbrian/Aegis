@@ -5286,6 +5286,12 @@ DOMAIN-SUFFIX,qualtrics.com # Qualtrics 官方平台主站，用于体验管理�
 
 DOMAIN-SUFFIX,image-net.org # ImageNet 官方网站，用于发布大规模计算机视觉数据集、研究论文、挑战赛信息与学术资源
 
+# > COCO 数据集计算机视觉学术研究平台
+
+DOMAIN-SUFFIX,cocodataset.org # COCO（Common Objects in Context）官方数据集网站，用于发布计算机视觉学术数据集、标注规范、研究论文与评测信息
+DOMAIN-SUFFIX,images.cocodataset.org # COCO 官方数据集图片资源分发域，用于数据集样本图片与示例资源下载
+DOMAIN-SUFFIX,annotations.cocodataset.org # COCO 官方标注数据与注释文件托管域，用于数据集标注与评测文件分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
