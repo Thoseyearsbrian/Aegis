@@ -5313,6 +5313,12 @@ DOMAIN-SUFFIX,openmmlab.org # OpenMMLab 开源计算机视觉社区与技术文�
 DOMAIN-SUFFIX,dumps.wikimedia.org # Wikimedia 官方数据转储（Dumps）服务，用于提供 Wikipedia、Wikidata 等项目的完整数据集批量下载与学术研究使用
 DOMAIN-SUFFIX,download.wikimedia.org # Wikimedia 官方下载与镜像分发域名，用于数据转储文件的全球镜像与带宽分担
 
+# > BentoML 开源机器学习模型部署与推理框架
+
+DOMAIN-SUFFIX,bentoml.com # BentoML 官方网站，用于介绍开源机器学习模型部署与推理框架、文档与开发者资源
+DOMAIN-SUFFIX,docs.bentoml.com # BentoML 官方文档站点，用于提供框架使用指南、API 文档与部署示例
+DOMAIN-SUFFIX,blog.bentoml.com # BentoML 官方博客，用于发布框架更新、技术文章与最佳实践
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
