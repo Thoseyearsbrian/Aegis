@@ -5197,6 +5197,7 @@ DOMAIN-SUFFIX,api.typeform.com # Typeform 表单数据提交与管理 API，用�
 DOMAIN-SUFFIX,form.typeform.com # Typeform 表单加载与提交执行域，用于用户表单填写、问卷收集与数据提交
 DOMAIN-SUFFIX,renderer-assets.typeform.com # Typeform 表单渲染所需的前端静态资源（JS / CSS / 组件）
 DOMAIN-SUFFIX,images.typeform.com # Typeform 表单与问卷使用的图片与媒体资源分发服务
+DOMAIN-SUFFIX,font.typeform.com # Typeform 表单前端使用的字体资源分发服务，用于表单页面与交互界面的字体加载
 
 # > Supademo 交互式产品演示与使用引导平台
 
