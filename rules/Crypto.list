@@ -150,6 +150,10 @@ DOMAIN-SUFFIX,tbtc.network # tBTC 官方网站，用于去中心化比特币跨�
 DOMAIN-SUFFIX,app.threshold.network # Threshold Network 官方应用前端，用于 tBTC 等协议的资产操作、质押、治理参与与链上交互
 DOMAIN-SUFFIX,dashboard.threshold.network # Threshold Network 官方仪表盘，用于 tBTC 等协议的资产管理、质押操作、治理参与与状态查询
 
+# > MarkFi 去中心化金融协议前端静态资源服务
+
+DOMAIN-SUFFIX,cdn.markfi.xyz # MarkFi 官方前端静态资源分发（CDN），用于协议网站与应用的脚本、样式与媒体资源加载
+
 # > f(x) Protocol 去中心化金融与链上衍生品协议
 
 DOMAIN-SUFFIX,fxn.xyz # f(x) Protocol 官方网站，用于去中心化金融协议介绍、机制说明与链上衍生品相关服务入口
