@@ -153,6 +153,11 @@ DOMAIN-SUFFIX,dashboard.threshold.network # Threshold Network 官方仪表盘，
 DOMAIN-SUFFIX,threshold-black.vercel.app # Threshold Network 使用 Vercel 部署的前端预览/测试站点，用于新版本界面或功能验证
 DOMAIN-SUFFIX,threshold-network.ghost.io # Threshold Network 官方博客站点，用于发布协议更新、研究文章与生态公告
 
+# > Slush / SatoshiLabs 加密资产钱包与基础设施后端服务
+
+DOMAIN-SUFFIX,api.slush.app # Slush（SatoshiLabs）提供的后端 API 服务，用于加密资产钱包应用的数据同步、账户状态与链上交互支持
+DOMAIN-SUFFIX,satoshilabs.com # SatoshiLabs 官方公司网站，Trezor 硬件钱包背后的加密资产安全技术公司
+
 # > MarkFi 去中心化金融协议前端静态资源服务
 
 DOMAIN-SUFFIX,a.markfi.xyz # MarkFi 官方应用前端入口（App），用于去中心化金融协议的用户交互、资产操作与功能访问
@@ -194,10 +199,6 @@ DOMAIN-SUFFIX,fonts.reown.com # Reown 提供的前端字体资源分发服务，
 
 DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于国际订单的价格、税费与支付处理
 DOMAIN-SUFFIX,static.global-e.com # Global-e 跨境电商本地化结算服务的前端静态资源分发（JS / CSS / UI 组件）
-
-# > SatoshiLabs 加密资产安全硬件与钱包技术公司
-
-DOMAIN-SUFFIX,satoshilabs.com # SatoshiLabs 官方公司网站，Trezor 硬件钱包背后的加密资产安全技术公司
 
 # > MoonPay 法币入金与加密资产购买服务
 
