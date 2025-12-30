@@ -5282,6 +5282,10 @@ DOMAIN-SUFFIX,zenodo.cern.ch # Zenodo 在 CERN 基础设施上的官方服务域
 
 DOMAIN-SUFFIX,qualtrics.com # Qualtrics 官方平台主站，用于体验管理（XM）、用户调研、产品与服务信息展示及平台访问入口
 
+# > ImageNet 计算机视觉学术数据集与研究平台
+
+DOMAIN-SUFFIX,image-net.org # ImageNet 官方网站，用于发布大规模计算机视觉数据集、研究论文、挑战赛信息与学术资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
