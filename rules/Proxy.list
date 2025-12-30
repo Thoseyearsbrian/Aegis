@@ -5258,6 +5258,11 @@ DOMAIN-SUFFIX,media.beehiiv.com # Beehiiv 提供的媒体资源分发域名，�
 
 DOMAIN-SUFFIX,s27.q4cdn.com # Q4 平台提供的投资者关系（IR）内容分发 CDN，用于财报、公告、演示文稿等静态内容加载
 
+# > Sprig 前端静态资源分发服务
+
+DOMAIN-SUFFIX,cdn.sprig.com # Sprig 提供的前端静态资源分发 CDN，用于脚本、样式与组件资源加载，支撑用户调研与反馈组件展示
+DOMAIN-SUFFIX,assets.sprig.com # Sprig 官方前端资源托管域名，用于调研组件相关的静态资源与前端依赖加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
