@@ -194,6 +194,7 @@ DOMAIN-SUFFIX,api.web3modal.org # Web3Modal 钱包连接与会话管理 API，�
 
 # > Coinbase 加密资产交易所静态资源与公共内容分发服务
 
+DOMAIN-SUFFIX,coinbase.com # Coinbase 官方主站，用于加密资产交易、账户管理、法币出入金、合规信息与平台服务入口
 DOMAIN-SUFFIX,public.cstatic.us # Coinbase 公共静态资源（CDN）
 DOMAIN-SUFFIX,cca-lite.coinbase.com # Coinbase 账户合规校验与风控辅助接口，用于轻量级合规检查与账户状态验证
 IP-CIDR,52.68.117.1/32 # Coinbase 云端基础设施节点（AWS），常用于核心 API 或账户相关服务通信
