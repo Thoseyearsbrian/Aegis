@@ -147,6 +147,7 @@ DOMAIN-SUFFIX,tbtc.network # tBTC 官方网站，用于去中心化比特币跨�
 
 # > Threshold Network 去中心化加密资产协议与治理平台
 
+DOMAIN-SUFFIX,app.threshold.network # Threshold Network 官方应用前端，用于 tBTC 等协议的资产操作、质押、治理参与与链上交互
 DOMAIN-SUFFIX,dashboard.threshold.network # Threshold Network 官方仪表盘，用于 tBTC 等协议的资产管理、质押操作、治理参与与状态查询
 
 # > f(x) Protocol 去中心化金融与链上衍生品协议
