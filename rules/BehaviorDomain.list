@@ -1097,3 +1097,7 @@ DOMAIN-SUFFIX,li.protechts.net # Protechts 链接访问与点击行为追踪接�
 # > PostHog 用户行为分析与产品埋点平台
 
 DOMAIN-SUFFIX,app.posthog.com # PostHog 官方控制台，用于产品用户行为分析、事件埋点、漏斗与使用情况统计
+
+# > Splunk Cloud 数据采集与日志上报服务（Notion 集成）
+
+DOMAIN-SUFFIX,http-inputs-notion.splunkcloud.com # Splunk Cloud 提供的 HTTP 数据输入接口，用于 Notion 相关事件、日志与使用数据的采集与上报
