@@ -1121,3 +1121,13 @@ DOMAIN-SUFFIX,metrics.kapa.ai # Kapa AI 提供的指标与度量接口，用于�
 # > Clicky 网站访问统计与用户行为分析服务
 
 DOMAIN-SUFFIX,static.getclicky.com # Clicky 提供的网站访问统计与用户行为分析前端脚本资源，用于页面访问与交互数据采集
+
+# > LiveIntent 用户识别与广告数据管理平台（DMP）
+
+DOMAIN-SUFFIX,b-code.liadm.com # LiveIntent 提供的用户识别与数据管理脚本，用于跨站用户匹配与广告定向数据处理
+DOMAIN-SUFFIX,liadm.com # LiveIntent 官方平台域名，用于广告与数据管理服务入口
+
+# > USBrowserSpeed 页面性能与真实用户监测服务（RUM）
+
+DOMAIN-SUFFIX,a.usbrowserspeed.com # USBrowserSpeed 提供的真实用户浏览器性能与体验监测接口，用于页面加载速度与使用情况分析
+DOMAIN-SUFFIX,usbrowserspeed.com # USBrowserSpeed 官方服务平台，用于网站性能监测与分析服务

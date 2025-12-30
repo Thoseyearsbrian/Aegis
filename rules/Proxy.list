@@ -5341,6 +5341,12 @@ DOMAIN-SUFFIX,readthedocs.org # Read the Docs 官方平台，用于托管、构�
 DOMAIN-SUFFIX,readthedocs.io # Read the Docs 文档内容实际访问域名，用于分发各项目的在线文档页面
 DOMAIN-SUFFIX,media.readthedocs.org # Read the Docs 媒体与静态资源分发域名，用于加载文档相关图片与静态资源
 
+# > ALO 前端静态资源分发与内容加速服务
+
+DOMAIN-SUFFIX,alocdn.com # ALO 提供的前端静态资源与内容分发 CDN，用于加载脚本、样式与站点资源
+
+
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
