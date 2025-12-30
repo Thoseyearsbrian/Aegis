@@ -5308,6 +5308,11 @@ DOMAIN-SUFFIX,mmlab.ie.cuhk.edu.hk # 香港中文大学多媒体实验室（MMLa
 DOMAIN-SUFFIX,openmmlab.com # OpenMMLab 开源计算机视觉项目官方平台，由 CUHK MMLab 发起与维护，用于发布框架、文档与研究成果
 DOMAIN-SUFFIX,openmmlab.org # OpenMMLab 开源计算机视觉社区与技术文档站点，用于项目说明、教程与学术资源发布
 
+# > Wikimedia 项目数据集批量导出与镜像分发服务
+
+DOMAIN-SUFFIX,dumps.wikimedia.org # Wikimedia 官方数据转储（Dumps）服务，用于提供 Wikipedia、Wikidata 等项目的完整数据集批量下载与学术研究使用
+DOMAIN-SUFFIX,download.wikimedia.org # Wikimedia 官方下载与镜像分发域名，用于数据转储文件的全球镜像与带宽分担
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
