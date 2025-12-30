@@ -5237,6 +5237,10 @@ DOMAIN-SUFFIX,api-gw.metadata.io # Metadata.io 提供的后端 API 网关服务�
 
 DOMAIN-SUFFIX,cdn.cr-relay.com # 用于客户端事件、消息或状态数据的中继与上报的执行域，常见于用户行为或系统事件传递场景
 
+# > Flaticon UI 图标前端资源分发服务
+
+DOMAIN-SUFFIX,cdn-uicons.flaticon.com # Flaticon 提供的 UI 图标字体与矢量图标前端资源分发（CDN），用于网页与应用界面图标加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
