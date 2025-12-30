@@ -5325,6 +5325,12 @@ DOMAIN-SUFFIX,static.reo.dev # BentoML 相关前端静态资源分发域名，�
 DOMAIN-SUFFIX,static.reo.dev # Reo 提供的前端静态资源分发域名，用于加载网站样式、脚本与前端组件资源，不涉及用户行为采集
 DOMAIN-SUFFIX,reo.dev # Reo 官方网站与项目信息入口，用于介绍前端工具、产品能力与技术说明
 
+# > IP-API IP 地理位置与网络信息查询服务
+
+DOMAIN-SUFFIX,pro.ip-api.com # IP-API 提供的付费版 IP 地理位置与网络信息查询 API，用于服务器端 IP 定位、ASN 与网络属性解析，不涉及用户行为追踪
+DOMAIN-SUFFIX,ip-api.com # IP-API 官方网站与服务入口，用于接口说明、文档与服务信息展示
+DOMAIN-SUFFIX,api.ip-api.com # IP-API 提供的免费版 IP 地理位置查询接口，常用于基础 IP 定位与网络属性判断
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
