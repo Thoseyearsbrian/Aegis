@@ -150,6 +150,10 @@ DOMAIN-SUFFIX,tbtcscan.com # tBTC 专用区块链浏览器，用于 tBTC 跨链�
 
 DOMAIN-SUFFIX,ibtc.network # iBTC 官方网站，用于比特币跨链锚定资产机制说明、协议设计与生态信息发布
 
+# > BitSafe 加密资产金融服务与资产安全平台
+
+DOMAIN-SUFFIX,bitsafe.finance # BitSafe 官方网站，用于加密资产金融服务、资产安全解决方案与相关产品信息发布
+
 # > Immunefi 加密资产安全漏洞披露与赏金平台
 
 DOMAIN-SUFFIX,immunefi.com # Immunefi 官方网站，用于加密资产与区块链项目的安全漏洞披露、漏洞赏金计划与安全研究协作
