@@ -5224,6 +5224,10 @@ DOMAIN-SUFFIX,tracking.refersion.com # Refersion 联盟营销转化追踪与归�
 
 DOMAIN-SUFFIX,cdn.seel.com # Seel 电商订单保障与售后保护服务的前端静态资源分发，用于结算页保障选项与服务展示
 
+# > Iframely 富媒体嵌入前端静态资源分发服务
+
+DOMAIN-SUFFIX,cdn.iframe.ly # Iframely 提供的前端静态资源分发（CDN），用于网页中富媒体内容（卡片、预览、嵌入组件）的加载与渲染
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
