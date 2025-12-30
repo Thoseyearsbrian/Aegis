@@ -141,6 +141,10 @@ DOMAIN-SUFFIX,fbtc.com # FBTC 比特币 Layer2 项目官方网站，用于网络
 
 DOMAIN-SUFFIX,wbtc.network # WBTC 官方网站，用于 Wrapped Bitcoin 跨链资产机制介绍、托管模式说明与生态合作信息发布
 
+# > tBTC 去中心化比特币跨链资产协议（Threshold Network）
+
+DOMAIN-SUFFIX,tbtc.network # tBTC 官方网站，用于去中心化比特币跨链资产机制说明、托管模型介绍与 Threshold Network 生态信息发布
+
 # > f(x) Protocol 去中心化金融与链上衍生品协议
 
 DOMAIN-SUFFIX,fxn.xyz # f(x) Protocol 官方网站，用于去中心化金融协议介绍、机制说明与链上衍生品相关服务入口
