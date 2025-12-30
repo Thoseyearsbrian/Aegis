@@ -5249,6 +5249,10 @@ DOMAIN-SUFFIX,collector-pxebumdlwe.px-cdn.net # PerimeterX（Human）通过 CDN 
 DOMAIN-SUFFIX,collector-pxebumdlwe.px-cloud.net # PerimeterX（Human）云端风控数据采集与行为信号上报接口
 DOMAIN-SUFFIX,tzm.px-cloud.net # PerimeterX（Human）用于前端风险评估与反机器人识别的辅助通信子域
 
+# > Beehiiv 内容发布平台媒体资源分发服务
+
+DOMAIN-SUFFIX,media.beehiiv.com # Beehiiv 提供的媒体资源分发域名，用于文章配图、封面图片及嵌入式内容等静态媒体加载（CDN）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

@@ -3416,7 +3416,6 @@ DOMAIN-SUFFIX,bedviojcrllpi.space # 随机域名结构,广告特征可能性较�
 DOMAIN-SUFFIX,beead.co.uk # “beead” 名称暗合广告/推送含义,可能为推广平台  
 DOMAIN-SUFFIX,beead.net # 同域名系列,可疑广告用途  
 DOMAIN-SUFFIX,beegotou.net # 混淆拼写域名,行为特征指向广告/跳转   
-DOMAIN-SUFFIX,beehiiv.com # 正式新闻 / 邮件平台域名,非纯广告域名
 DOMAIN-SUFFIX,beehiveavertconfessed.com # 与诱导 / 恶意跳转样本有关联,广告 / 恶意用途可能  
 DOMAIN-SUFFIX,beemolgator.com # 混淆域名,可能用于推广脚本,广告可能性存在  
 DOMAIN-SUFFIX,beepoowotheloda.net # 随机组合域名,广告 / 跳转可能性较高  
@@ -3425,8 +3424,7 @@ DOMAIN-SUFFIX,beestark.com # 可疑推广 / 广告域名,行为特征存在
 DOMAIN-SUFFIX,beetledfumily.click # “.click” 典型广告 / 跳转后缀,广告可能性高  
 DOMAIN-SUFFIX,beetysnooled.click # “.click” 后缀常用于跳转广告域名  
 DOMAIN-SUFFIX,befavorthree.shop # “shop” 后缀 + 非主流组合,可能用于推广 / 广告  
-DOMAIN-SUFFIX,befhphijjpvng.space # 随机字符 .space 域名,广告 / 推广特征强  
-DOMAIN-SUFFIX,befirstcdn.com # CDN 域名,有日志 / 重定向行为记录,疑似广告资源服务  
+DOMAIN-SUFFIX,befhphijjpvng.space # 随机字符 .space 域名,广告 / 推广特征强   
 DOMAIN-SUFFIX,beforeitsnews.com # 虚假 / 误导性新闻站点,含广告 / 推广内容  
 DOMAIN-SUFFIX,begemepical.qpon # “.qpon” 后缀,可能为优惠 / 广告跳转用途  
 DOMAIN-SUFFIX,behave.com # 已配置 ads.txt 广告卖家,存在广告展示逻辑  
@@ -5673,8 +5671,7 @@ DOMAIN-SUFFIX,crosspreferrite.com # 混淆词汇域名,广告 / 跳转用途可�
 DOMAIN-SUFFIX,crouteredout.click # “.click” 类型域名,高风险广告 / 跳转性质
 DOMAIN-SUFFIX,crowded-you.pro # “.pro” 类型域名,广告 / 资源调用用途可能
 DOMAIN-SUFFIX,crowdsuitcaseuntwist.com # 出现在 EasyList 广告域名列表,广告 / 跳转用途已明确
-DOMAIN-SUFFIX,croydensoloing.click # 在 EasyList 中被列为广告域名,跳转用途明确 
-DOMAIN-SUFFIX,crozerhurr.click # “.click” 路径常用于广告 / 重定向,用途高度怀疑   
+DOMAIN-SUFFIX,croydensoloing.click # 在 EasyList 中被列为广告域名,跳转用途明确   
 DOMAIN-SUFFIX,crpgduvlxhklv.website # 出现在 EasyList 广告列表中,广告用途已被判定 
 DOMAIN-SUFFIX,crpop.livejasmin.com # livejasmin 平台子域,含推广 / 广告嵌入特征  
 DOMAIN-SUFFIX,crprt.livejasmin.com # livejasmin 平台子域,行为可能涉及广告 / 嵌入内容  
@@ -6089,10 +6086,7 @@ DOMAIN-SUFFIX,eeldamage.com # 在广告过滤列表中出现,确认广告域名
 DOMAIN-SUFFIX,eelsawheedi.net # 在广告过滤列表中出现,确认广告域名  
 DOMAIN-SUFFIX,eelwgpubhnjxv.website # 在广告过滤列表中出现,确认广告域名  
 DOMAIN-SUFFIX,effectivecpmcontent.com # 被 Sucuri 列为黑名单,可能用于传播恶意软件或广告跳转 
-DOMAIN-SUFFIX,effectivecpmgate.com # 高度疑似广告 / 跳转用途 
-DOMAIN-SUFFIX,effectivedisplayformat.com # 与广告展示格式相关命名,怀疑用途 
 DOMAIN-SUFFIX,effectivedisplayformats.com # 同上,命名倾向广告格式领域 
-DOMAIN-SUFFIX,effectivegatetocontent.com # 命名具诱导跳转意味（gate to content）,高度可疑广告用途 
 DOMAIN-SUFFIX,elasticad.net # 广告投放 / 广告网络域名,用于广告投放与广告追踪  
 DOMAIN-SUFFIX,elephant-ads.com # 确认为广告域名,含 “ads” 关键词,具广告用途  
 DOMAIN-SUFFIX,elite-flirts-find.com # 确认为广告 / 交友诱导域名,含 “flirts” 关键词  
