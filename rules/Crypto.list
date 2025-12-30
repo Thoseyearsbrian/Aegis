@@ -20,6 +20,11 @@ DOMAIN-SUFFIX,binance.charity # Binance Charity 官方公益平台
 DOMAIN-SUFFIX,data.binance.vision # Binance 数据与分析资源分发域名
 DOMAIN-SUFFIX,log.bntrace.com # Binance 前端与后端日志收集接口
 DOMAIN-SUFFIX,sensors.binance.cloud # Binance 前端监测与传感数据上报接口
+DOMAIN-SUFFIX,public.nftstatic.com # Binance NFT 公共静态资源（CDN）
+IP-CIDR,120.24.233.110/32 # Binance 使用的云端基础设施节点（阿里云），常见于账户、交易或风控相关后端服务通信
+IP-CIDR,120.76.205.62/32 # Binance 使用的云端基础设施节点（阿里云），用于核心业务接口或内部系统通信
+IP-CIDR,120.78.229.149/32 # Binance 云端服务节点（阿里云），可能承担交易、账户或数据处理相关请求
+IP-CIDR,120.79.3.17/32 # Binance 云端基础设施节点（阿里云），用于平台核心服务或 API 后端通信
 
 # > Bitget 加密资产交易平台
 
@@ -144,6 +149,14 @@ DOMAIN-SUFFIX,eth.merkle.io # Merkle 提供的以太坊链上数据与 RPC 基�
 
 DOMAIN-SUFFIX,api.web3modal.org # Web3Modal 钱包连接与会话管理 API，用于 DApp 与去中心化钱包的标准化交互
 
+# > Coinbase 加密资产交易所静态资源与公共内容分发服务
+
+DOMAIN-SUFFIX,public.cstatic.us # Coinbase 公共静态资源（CDN）
+DOMAIN-SUFFIX,cca-lite.coinbase.com # Coinbase 账户合规校验与风控辅助接口，用于轻量级合规检查与账户状态验证
+IP-CIDR,52.68.117.1/32 # Coinbase 云端基础设施节点（AWS），常用于核心 API 或账户相关服务通信
+IP-CIDR,54.150.106.1/32 # Coinbase 云端基础设施节点（AWS），用于交易、账户或风控相关后端服务
+IP-CIDR,13.248.135.87/32 # Coinbase 使用的 CDN / 边缘网络节点，用于静态资源或 API 边缘加速
+
 # > Global-e 跨境电商结算与本地化支付服务
 
 DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于国际订单的价格、税费与支付处理
@@ -260,11 +273,6 @@ DOMAIN-SUFFIX,festream.saasexch.co # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,festream.saasexch.io # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,festream.saasexch.com # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,public.saasexch.com # SaaSExch 公共服务与前端共享资源
-
-# > Coinbase 加密资产交易所静态资源与公共内容分发服务
-
-DOMAIN-SUFFIX,public.cstatic.us # Coinbase 公共静态资源（CDN）
-DOMAIN-SUFFIX,public.nftstatic.com # Binance NFT 公共静态资源（CDN）
 
 # > WalletConnect 去中心化钱包连接协议与通信基础设施服务
 
@@ -395,16 +403,9 @@ DOMAIN-SUFFIX,sipay # 本地支付处理器
 
 # > IP-CIDR（常见交易平台或钱包服务IP）
 
-IP-CIDR,120.24.233.110 # Binance
-IP-CIDR,120.76.205.62 # Binance
-IP-CIDR,120.78.229.149 # Binance
-IP-CIDR,120.79.3.17 # Binance
-IP-CIDR,13.248.135.87 # Coinbase
 IP-CIDR,35.77.148.188 # OKX
 IP-CIDR,47.107.127.135 # Huobi
 IP-CIDR,47.107.32.31 # Huobi
 IP-CIDR,47.107.72.24 # Huobi
 IP-CIDR,47.107.82.99 # Huobi
 IP-CIDR,47.107.98.27 # Huobi
-IP-CIDR,52.68.117.1 # Coinbase
-IP-CIDR,54.150.106.1 # Coinbase
