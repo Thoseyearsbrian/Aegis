@@ -128,6 +128,10 @@ DOMAIN-SUFFIX,ledgercustomersuccess.my.site.com # Ledger 客户成功与官方�
 DOMAIN-SUFFIX,ledgercustomersuccess.file.force.com # Ledger 客户成功相关文件与资源分发服务（Salesforce File 托管），用于支持文档与附件下载
 DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于 Ledger 国际订单的价格、税费与支付处理
 
+# > FBTC 比特币 Layer2 扩展网络与基础设施项目
+
+DOMAIN-SUFFIX,fbtc.com # FBTC 比特币 Layer2 项目官方网站，用于网络介绍、生态信息与相关服务入口
+
 # > Global-e 跨境电商结算与本地化支付服务
 
 DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于国际订单的价格、税费与支付处理
