@@ -161,6 +161,10 @@ IP-CIDR,13.248.135.87/32 # Coinbase 使用的 CDN / 边缘网络节点，用于�
 
 DOMAIN-SUFFIX,cms.mantle.xyz # Mantle Layer2 官方内容管理系统（CMS），用于官网内容、生态信息与公告页面的后台管理
 
+# > Dune Analytics 链上数据分析与可视化平台
+
+DOMAIN-SUFFIX,dune.com # Dune Analytics 官方网站，用于区块链链上数据查询、分析、可视化仪表盘与研究报告发布
+
 # > Global-e 跨境电商结算与本地化支付服务
 
 DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于国际订单的价格、税费与支付处理
