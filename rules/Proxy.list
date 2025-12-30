@@ -5228,6 +5228,14 @@ DOMAIN-SUFFIX,cdn.seel.com # Seel 电商订单保障与售后保护服务的前�
 
 DOMAIN-SUFFIX,cdn.iframe.ly # Iframely 提供的前端静态资源分发（CDN），用于网页中富媒体内容（卡片、预览、嵌入组件）的加载与渲染
 
+# > Metadata.io B2B 营销平台前端静态资源分发服务
+
+DOMAIN-SUFFIX,cdn.metadata.io # Metadata.io 提供的前端静态资源分发（CDN），用于营销平台页面脚本、样式与媒体资源加载
+
+# > 客户事件与消息中继服务（Relay）
+
+DOMAIN-SUFFIX,cdn.cr-relay.com # 用于客户端事件、消息或状态数据的中继与上报的执行域，常见于用户行为或系统事件传递场景
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
