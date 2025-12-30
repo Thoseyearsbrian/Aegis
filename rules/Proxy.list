@@ -3145,6 +3145,7 @@ DOMAIN-SUFFIX,registry-1.docker.io # Docker 官方镜像注册服务节点，用
 DOMAIN-SUFFIX,auth.docker.io # Docker 身份认证服务，用于镜像拉取授权验证
 DOMAIN-SUFFIX,index.docker.io # Docker Hub 索引服务域名，用于镜像元数据解析
 DOMAIN-SUFFIX,dockerstatic.com # Docker 静态资源域名，用于图标、样式与前端组件加载
+DOMAIN-SUFFIX,dockerstatus.com # Docker 官方服务状态页面，用于发布 Docker Hub、Registry、API 等服务的运行状态、故障通告与维护信息
 
 # > Anker相关域名
 
