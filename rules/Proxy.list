@@ -5273,6 +5273,11 @@ DOMAIN-SUFFIX,assets.sprig.com # Sprig 官方前端资源托管域名，用于�
 DOMAIN-SUFFIX,static.status.io # Status.io 平台状态页面使用的前端静态资源分发（CSS / JS）
 DOMAIN-SUFFIX,image.status.io # Status.io 平台状态页面使用的图片与视觉资源分发
 
+# > Zenodo 开放科研数据与学术成果存储平台
+
+DOMAIN-SUFFIX,zenodo.org # Zenodo 官方平台，由 CERN 运营，用于科研数据、论文、代码与研究成果的开放存储、发布与长期归档
+DOMAIN-SUFFIX,zenodo.cern.ch # Zenodo 在 CERN 基础设施上的官方服务域，用于科研数据与成果的托管与长期保存
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
