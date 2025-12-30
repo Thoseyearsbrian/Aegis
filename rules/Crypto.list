@@ -157,6 +157,10 @@ IP-CIDR,52.68.117.1/32 # Coinbase 云端基础设施节点（AWS），常用于�
 IP-CIDR,54.150.106.1/32 # Coinbase 云端基础设施节点（AWS），用于交易、账户或风控相关后端服务
 IP-CIDR,13.248.135.87/32 # Coinbase 使用的 CDN / 边缘网络节点，用于静态资源或 API 边缘加速
 
+# > Mantle Layer2 区块链网络官方内容与生态管理服务
+
+DOMAIN-SUFFIX,cms.mantle.xyz # Mantle Layer2 官方内容管理系统（CMS），用于官网内容、生态信息与公告页面的后台管理
+
 # > Global-e 跨境电商结算与本地化支付服务
 
 DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于国际订单的价格、税费与支付处理
