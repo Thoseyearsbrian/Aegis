@@ -5244,6 +5244,10 @@ DOMAIN-SUFFIX,cdn-uicons.flaticon.com # Flaticon 提供的 UI 图标字体与矢
 # > PerimeterX / Human 前端反欺诈与机器人防护服务
 
 DOMAIN-SUFFIX,client.px-cloud.net # PerimeterX（现 Human）前端客户端脚本，用于机器人识别、反欺诈与风险评估
+DOMAIN-SUFFIX,collector-pxebumdlwe.pxchk.net # PerimeterX（Human）前端风控数据采集节点，用于浏览器环境与行为特征上报
+DOMAIN-SUFFIX,collector-pxebumdlwe.px-cdn.net # PerimeterX（Human）通过 CDN 分发的前端反欺诈数据采集与信号上报服务
+DOMAIN-SUFFIX,collector-pxebumdlwe.px-cloud.net # PerimeterX（Human）云端风控数据采集与行为信号上报接口
+DOMAIN-SUFFIX,tzm.px-cloud.net # PerimeterX（Human）用于前端风险评估与反机器人识别的辅助通信子域
 
 # > 第三方博客网站
 
