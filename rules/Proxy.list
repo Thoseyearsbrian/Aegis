@@ -5297,6 +5297,11 @@ DOMAIN-SUFFIX,annotations.cocodataset.org # COCO 官方标注数据与注释文�
 DOMAIN-SUFFIX,api.cdnjs.com # cdnjs 提供的公共前端资源库 API 接口，用于查询库信息、版本列表与元数据，不涉及用户行为采集
 DOMAIN-SUFFIX,cdnjs.cloudflare.com # cdnjs 通过 Cloudflare 提供的前端静态资源分发 CDN，用于 JavaScript / CSS 等开源库文件的全球加速分发
 
+# > RawGit 前端开源代码静态资源分发服务（已停止维护）
+
+DOMAIN-SUFFIX,cdn.rawgit.com # RawGit 提供的前端开源代码静态资源 CDN，用于从 GitHub 仓库直接分发 JS / CSS 等文件（项目已停止维护，仅用于历史资源访问）
+DOMAIN-SUFFIX,rawgit.com # RawGit 官方项目网站与说明页面，用于介绍服务背景、使用说明及停服公告（历史访问）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
