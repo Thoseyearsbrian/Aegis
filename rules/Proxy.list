@@ -5318,6 +5318,7 @@ DOMAIN-SUFFIX,download.wikimedia.org # Wikimedia 官方下载与镜像分发域�
 DOMAIN-SUFFIX,bentoml.com # BentoML 官方网站，用于介绍开源机器学习模型部署与推理框架、文档与开发者资源
 DOMAIN-SUFFIX,docs.bentoml.com # BentoML 官方文档站点，用于提供框架使用指南、API 文档与部署示例
 DOMAIN-SUFFIX,blog.bentoml.com # BentoML 官方博客，用于发布框架更新、技术文章与最佳实践
+DOMAIN-SUFFIX,static.reo.dev # BentoML 相关前端静态资源分发域名，用于加载网站样式、脚本与前端组件资源
 
 # > 第三方博客网站
 
