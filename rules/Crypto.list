@@ -146,6 +146,10 @@ DOMAIN-SUFFIX,wbtc.network # WBTC 官方网站，用于 Wrapped Bitcoin 跨链�
 DOMAIN-SUFFIX,tbtc.network # tBTC 官方网站，用于去中心化比特币跨链资产机制说明、托管模型介绍与 Threshold Network 生态信息发布
 DOMAIN-SUFFIX,tbtcscan.com # tBTC 专用区块链浏览器，用于 tBTC 跨链资产的交易、地址与链上状态查询
 
+# > Immunefi 加密资产安全漏洞披露与赏金平台
+
+DOMAIN-SUFFIX,immunefi.com # Immunefi 官方网站，用于加密资产与区块链项目的安全漏洞披露、漏洞赏金计划与安全研究协作
+
 # > Threshold Network 去中心化加密资产协议与治理平台
 
 DOMAIN-SUFFIX,threshold.network # Threshold Network 官方主站，用于去中心化加密资产协议（如 tBTC）介绍、治理机制说明与生态信息发布
