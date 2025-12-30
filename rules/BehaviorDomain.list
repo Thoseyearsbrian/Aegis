@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-29
+# - 更新时间：2025-12-30
 
 # > WeChat 数据统计与遥测
 
@@ -130,7 +130,6 @@ IP-CIDR6,2600:1f18:24e6:b901:fbdc:7182:a89c:6101/128 # browser-intake-datadoghq.
 # > OptinMonster 相关域名
 
 DOMAIN-SUFFIX,a.omappapi.com # 弹窗与用户行为触发脚本加载域名  
-
 
 # > AWS WAF（Web 应用防火墙）行为识别服务域名
 
@@ -395,10 +394,6 @@ DOMAIN-SUFFIX,ds-cdn.prod-east.frontend.public.atl-paas.net # Atlassian 前端�
 # > 潜在远程控制或监听节点（SoftLayer）
 
 IP-CIDR,74.86.151.167 # 美国 SoftLayer 数据中心公网主机，开放 HTTPS 服务（443 端口），疑似运行端口映射或远程控制组件，存在潜在监听风险
-
-# > 中国电信
-
-IP-CIDR,59.82.121.221  # 疑似中国电信数据采集节点，用于行为监控
 
 # > Segment（行为数据采集与事件追踪平台）-- ChatGPT客户端使用
 
@@ -981,7 +976,6 @@ DOMAIN-SUFFIX,uk01.maru-cdn.com # Maru/Matchbox 用户调研平台 CDN 节点，
 DOMAIN-SUFFIX,c5ae3b90-d8c4-4a2f-8774-4856a74d56b8.redfastlabs.com # RedfastLabs 用户行为分析标识域名，用于特定站点用户交互数据采集
 DOMAIN-SUFFIX,redfastlabs.com # RedfastLabs 主站域名，用于行为建模、内容推荐与用户互动分析
 
-
 # > The New York Times（纽约时报）
 
 DOMAIN-SUFFIX,et.nytimes.com # 纽约时报事件追踪与数据采集接口，用于用户行为分析与性能统计
@@ -1095,3 +1089,7 @@ DOMAIN-SUFFIX,try.abtasty.com # AB Tasty A/B 测试与用户体验优化平台�
 # > Zemanta 广告行为分析与效果追踪服务
 
 DOMAIN-SUFFIX,js-tag.zemanta.com # Zemanta 前端广告曝光与点击行为追踪脚本，用于原生广告效果分析与统计
+
+# > Protechts 链接安全与访问行为分析服务
+
+DOMAIN-SUFFIX,li.protechts.net # Protechts 链接访问与点击行为追踪接口，用于链接安全校验、访问分析与风险评估
