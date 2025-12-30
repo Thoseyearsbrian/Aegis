@@ -132,6 +132,10 @@ DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付�
 
 DOMAIN-SUFFIX,fbtc.com # FBTC 比特币 Layer2 项目官方网站，用于网络介绍、生态信息与相关服务入口
 
+# > f(x) Protocol 去中心化金融与链上衍生品协议
+
+DOMAIN-SUFFIX,fxn.xyz # f(x) Protocol 官方网站，用于去中心化金融协议介绍、机制说明与链上衍生品相关服务入口
+
 # > Global-e 跨境电商结算与本地化支付服务
 
 DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于国际订单的价格、税费与支付处理
