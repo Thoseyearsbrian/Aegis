@@ -5466,7 +5466,9 @@ DOMAIN-SUFFIX,hostkey.com # Hostkey 官方平台，提供企业级服务器托�
 
 # > LiveChat 在线客服与实时沟通平台前端资源
 
+DOMAIN-SUFFIX,livechatinc.com # LiveChat 官方平台与管理后台
 DOMAIN-SUFFIX,cdn.livechatinc.com # LiveChat 官方前端静态资源 CDN，用于加载在线客服组件脚本与界面资源
+DOMAIN-SUFFIX,api.livechatinc.com # LiveChat 客服系统后端 API，用于实时消息通信、会话管理与客服交互接口
 
 # > GetSiteControl 用户交互组件与行为触发服务
 
