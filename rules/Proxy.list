@@ -5436,6 +5436,13 @@ DOMAIN-SUFFIX,docs.vast.ai # Vast.ai 开发者文档与使用指南
 DOMAIN-SUFFIX,api.vast.ai # Vast.ai 提供的 API 接口域名（如存在，用于自动化调用与资源调度）
 DOMAIN-SUFFIX,static.vast.ai # Vast.ai 前端静态资源分发域名（脚本、样式等）
 
+# Nebius 官方服务基本域名补齐
+
+DOMAIN-SUFFIX,nebius.com # Nebius 官方主站，用于提供云 AI 平台产品说明、服务入口与用户控制台
+DOMAIN-SUFFIX,status.nebius.com # Nebius 平台状态监控页，用于实时服务状态与历史可用性展示
+DOMAIN-SUFFIX,docs.nebius.com # Nebius 开发者文档站点，用于访问 API 文档、SDK 指南与平台集成说明
+DOMAIN-SUFFIX,support.nebius.com # Nebius 支持 / 帮助中心入口（如存在用于工单与反馈）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
