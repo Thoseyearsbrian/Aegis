@@ -5478,6 +5478,11 @@ DOMAIN-SUFFIX,l.getsitecontrol.com # GetSiteControl 行为触发与交互事件�
 
 DOMAIN-SUFFIX,hpc-ai.com # HPC-AI 官方平台与服务入口
 
+# LuchenTech 相关域名补齐
+
+DOMAIN-SUFFIX,luchentech.com # LuchenTech 官方网站与服务入口
+DOMAIN-SUFFIX,assets.luchentech.com # LuchenTech 前端静态资源分发服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
