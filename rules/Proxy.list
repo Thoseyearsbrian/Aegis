@@ -5400,6 +5400,12 @@ DOMAIN-SUFFIX,vector.co # Vector 官方平台网站与产品信息入口
 
 DOMAIN-SUFFIX,lakefs.io # lakeFS 官方平台，用于提供数据湖版本控制、数据工程协作与数据管道管理解决方案
 
+# > Weights & Biases 机器学习实验跟踪与模型管理平台
+
+DOMAIN-SUFFIX,wandb.ai # Weights & Biases（W&B）官方平台，用于机器学习实验跟踪、模型训练可视化、指标记录与 MLOps 协作
+DOMAIN-SUFFIX,api.wandb.ai # Weights & Biases 提供的 API 接口，用于实验数据上报、指标同步与模型元数据管理
+DOMAIN-SUFFIX,cdn.wandb.ai # Weights & Biases 前端静态资源 CDN，用于加载控制台界面相关脚本与样式资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
