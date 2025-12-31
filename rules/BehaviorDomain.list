@@ -1144,3 +1144,8 @@ DOMAIN-SUFFIX,api.cr-relay.com # CR Relay 提供的事件与数据中继 API 接
 # > Gauges 网站访问统计与用户行为分析服务
 
 DOMAIN-SUFFIX,secure.gaug.es # Gauges 提供的网站访问与用户行为统计接口，用于页面浏览、会话分析与流量数据采集
+
+# > Testimonial.to 用户评价展示与社会证明组件服务
+
+DOMAIN-SUFFIX,embed.testimonial.to # Testimonial.to 提供的前端嵌入组件，用于展示用户评价、推荐语与社会证明内容
+DOMAIN-SUFFIX,testimonial.to # Testimonial.to 官方平台网站，用于管理与发布用户评价内容

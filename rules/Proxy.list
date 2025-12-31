@@ -4647,6 +4647,8 @@ DOMAIN-SUFFIX,i0.wp.com # WordPress.com 图片加速 CDN 节点，用于博客�
 DOMAIN-SUFFIX,s0.wp.com # WordPress.com 静态资源 CDN 节点，用于脚本、样式等前端资源加速
 DOMAIN-SUFFIX,c0.wp.com # WordPress.com 内容托管节点，用于博客正文与嵌入组件的加载
 DOMAIN-SUFFIX,stats.wp.com # WordPress.com 的站点统计与访问行为采集服务，用于 Jetpack、WooCommerce 等插件的数据分析 -- 站长查看数据
+DOMAIN-SUFFIX,s.w.org # WordPress 官方静态资源 CDN，用于分发核心脚本、表情、嵌入组件与公共前端资源
+DOMAIN-SUFFIX,wordpress.org # WordPress 官方社区与开源项目平台网站
 
 # > Vanta 合规审计平台主服务域名
 
@@ -5391,6 +5393,10 @@ DOMAIN-SUFFIX,usemessages.com # Messages 官方平台网站，用于介绍消息
 
 DOMAIN-SUFFIX,cdn.vector.co # Vector 提供的前端静态资源 CDN，用于加载脚本、样式与站点组件资源
 DOMAIN-SUFFIX,vector.co # Vector 官方平台网站与产品信息入口
+
+# > lakeFS 数据湖版本控制与数据工程平台
+
+DOMAIN-SUFFIX,lakefs.io # lakeFS 官方平台，用于提供数据湖版本控制、数据工程协作与数据管道管理解决方案
 
 # > 第三方博客网站
 
