@@ -5406,6 +5406,13 @@ DOMAIN-SUFFIX,wandb.ai # Weights & Biases（W&B）官方平台，用于机器学
 DOMAIN-SUFFIX,api.wandb.ai # Weights & Biases 提供的 API 接口，用于实验数据上报、指标同步与模型元数据管理
 DOMAIN-SUFFIX,cdn.wandb.ai # Weights & Biases 前端静态资源 CDN，用于加载控制台界面相关脚本与样式资源
 
+# Seldon 相关域名补齐
+
+DOMAIN-SUFFIX,seldon.io # Seldon 官方网站，用于企业级机器学习模型部署和 MLOps 平台说明
+DOMAIN-SUFFIX,docs.seldon.io # Seldon 官方文档托管域名，用于文档、教程与使用指南访问
+DOMAIN-SUFFIX,helm.seldon.io # Seldon Helm 仓库域名，用于 Kubernetes 组件与 Charts 的获取与管理
+DOMAIN-SUFFIX,github.com/SeldonIO # Seldon 官方 GitHub 主帐户域名，用于源码、示例与社区协作
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
