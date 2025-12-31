@@ -5412,6 +5412,7 @@ DOMAIN-SUFFIX,seldon.io # Seldon 官方网站，用于企业级机器学习模�
 DOMAIN-SUFFIX,docs.seldon.io # Seldon 官方文档托管域名，用于文档、教程与使用指南访问
 DOMAIN-SUFFIX,helm.seldon.io # Seldon Helm 仓库域名，用于 Kubernetes 组件与 Charts 的获取与管理
 DOMAIN-SUFFIX,github.com/SeldonIO # Seldon 官方 GitHub 主帐户域名，用于源码、示例与社区协作
+DOMAIN-SUFFIX,seldondev.wpengine.com # Seldon 官方开发/测试环境站点，基于 WP Engine 托管，用于官网内容预览、功能测试与阶段性页面发布
 
 # > 第三方博客网站
 
