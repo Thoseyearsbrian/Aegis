@@ -5352,6 +5352,11 @@ DOMAIN-SUFFIX,alocdn.com # ALO 提供的前端静态资源与内容分发 CDN，
 DOMAIN-SUFFIX,mlflow.org # MLflow 官方网站，用于介绍开源机器学习实验管理、模型追踪、模型注册与部署等功能，以及相关文档与开发者资源
 DOMAIN-SUFFIX,docs.mlflow.org # MLflow 官方文档站点，用于提供使用指南、API 文档与最佳实践
 
+# > RunLLM 嵌入式大语言模型交互组件与文档问答服务
+
+DOMAIN-SUFFIX,widget.runllm.com # RunLLM 提供的前端嵌入式 AI 交互组件域名，用于在网站中集成文档问答与智能助手功能
+DOMAIN-SUFFIX,runllm.com # RunLLM 官方平台网站，用于介绍产品能力、文档与集成说明
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
