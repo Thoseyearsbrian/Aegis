@@ -5362,6 +5362,11 @@ DOMAIN-SUFFIX,runllm.com # RunLLM 官方平台网站，用于介绍产品能力�
 DOMAIN-SUFFIX,tecton.ai # Tecton 官方网站，用于介绍机器学习特征平台（Feature Store）、特征工程架构及企业级 ML 基础设施解决方案
 DOMAIN-SUFFIX,docs.tecton.ai # Tecton 官方文档站点，用于提供平台使用说明、技术文档与最佳实践
 
+# > Databricks 数据分析与 AI Lakehouse 工程平台
+
+DOMAIN-SUFFIX,databricks.com # Databricks 官方平台，用于提供数据分析、机器学习与 AI Lakehouse 工程解决方案，以及产品介绍与开发者资源
+DOMAIN-SUFFIX,docs.databricks.com # Databricks 官方文档站点，用于提供平台使用说明、API 文档与工程最佳实践
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
