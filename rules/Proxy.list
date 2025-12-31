@@ -4935,6 +4935,7 @@ DOMAIN-SUFFIX,fast.wistia.net # Wistia 提供的视频内容分发与播放 CDN�
 DOMAIN-SUFFIX,pipedream.wistia.com # Wistia 视频处理与工作流服务子域，用于视频转码、处理与后台任务执行
 DOMAIN-SUFFIX,distillery.wistia.com # Wistia 视频处理与分发服务，用于视频内容生成、处理与交付
 DOMAIN-SUFFIX,embed-ssl.wistia.com # Wistia 安全嵌入播放服务，用于网站中 HTTPS 视频播放器的嵌入与加载
+DOMAIN-SUFFIX,embed-cloudfront.wistia.com # Wistia 基于 CloudFront 的视频嵌入与播放 CDN，用于站点内嵌视频内容加载与媒体资源分发
 
 # > Showrunner 平台主域名
 

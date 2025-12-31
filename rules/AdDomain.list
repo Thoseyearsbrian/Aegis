@@ -4,10 +4,11 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-29
+# - 更新时间：2025-12-31
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,fg8vvsvnieiv3ej16jby.litix.io # Litix 广告效果衡量与用户转化数据采集接口
 DOMAIN-SUFFIX,p.teads.tv # Teads 原生广告投放与视频广告追踪服务
 DOMAIN-SUFFIX,a.mgid.com # MGID 原生广告投放、内容推荐与广告请求接口
 DOMAIN-SUFFIX,cdn.onetag.co.kr # OneTag 广告与受众定向脚本及前端资源分发
