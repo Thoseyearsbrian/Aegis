@@ -3043,6 +3043,8 @@ DOMAIN-SUFFIX,challenges.cloudflare.com  # Cloudflare 验证挑战页面域名�
 DOMAIN-SUFFIX,cp10.cloudflare.com  # Cloudflare 内容分发节点，用于静态资源加速与边缘缓存服务
 DOMAIN-SUFFIX,pages.dev # Cloudflare Pages 官方托管域名后缀，用于部署与访问静态网站（含项目子域）
 DOMAIN-SUFFIX,imagedelivery.net # Cloudflare Images 提供的图片内容分发与动态优化 CDN 服务
+DOMAIN-SUFFIX,dns.cloudflare.com # Cloudflare 提供的公共 DNS 解析服务域名
+IP-CIDR,162.159.61.8/32 # Cloudflare 公共 DNS 服务节点 IP
 IP-CIDR,104.18.6.91/32 # Cloudflare CDN / Hosting 节点，承载多个域名的静态资源、HTTPS 服务与反向代理
 IP-CIDR,172.64.41.8/32 # Cloudflare DNS
 
