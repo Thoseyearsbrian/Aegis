@@ -5345,7 +5345,10 @@ DOMAIN-SUFFIX,media.readthedocs.org # Read the Docs 媒体与静态资源分发�
 
 DOMAIN-SUFFIX,alocdn.com # ALO 提供的前端静态资源与内容分发 CDN，用于加载脚本、样式与站点资源
 
+# > MLflow 开源机器学习实验管理与模型生命周期平台
 
+DOMAIN-SUFFIX,mlflow.org # MLflow 官方网站，用于介绍开源机器学习实验管理、模型追踪、模型注册与部署等功能，以及相关文档与开发者资源
+DOMAIN-SUFFIX,docs.mlflow.org # MLflow 官方文档站点，用于提供使用指南、API 文档与最佳实践
 
 # > 第三方博客网站
 
