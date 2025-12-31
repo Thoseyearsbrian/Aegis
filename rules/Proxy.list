@@ -5464,6 +5464,14 @@ DOMAIN-SUFFIX,api.lambdalabs.com # Lambda Labs API 访问入口
 
 DOMAIN-SUFFIX,hostkey.com # Hostkey 官方平台，提供企业级服务器托管、云计算与数据中心基础设施服务
 
+# > LiveChat 在线客服与实时沟通平台前端资源
+
+DOMAIN-SUFFIX,cdn.livechatinc.com # LiveChat 官方前端静态资源 CDN，用于加载在线客服组件脚本与界面资源
+
+# > GetSiteControl 用户交互组件与行为触发服务
+
+DOMAIN-SUFFIX,l.getsitecontrol.com # GetSiteControl 行为触发与交互事件服务，用于站点弹窗、表单提交与用户交互逻辑控制
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
