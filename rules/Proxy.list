@@ -5377,6 +5377,11 @@ DOMAIN-SUFFIX,maxmind.com  # MaxMind 数据服务域名，用于 IP 地理定位
 DOMAIN-SUFFIX,js.maxmind.com # MaxMind 提供的前端 JavaScript 资源域名，用于在网页中加载 IP 地理位置与网络信息相关的展示与校验组件
 DOMAIN-SUFFIX,maxmind.com # MaxMind 官方平台网站，用于介绍 GeoIP 数据库、IP 地理位置服务及相关文档与产品信息
 
+# > DVC 数据版本控制与机器学习实验管理平台
+
+DOMAIN-SUFFIX,dvc.org # DVC（Data Version Control）官方平台，用于介绍开源数据版本控制工具、机器学习实验管理方案及相关文档与社区资源
+DOMAIN-SUFFIX,iterative.ai # Iterative 官方网站，DVC 背后的开源组织，用于发布数据科学与机器学习工具生态（如 DVC、CML、MLEM）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
