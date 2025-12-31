@@ -5415,6 +5415,13 @@ DOMAIN-SUFFIX,helm.seldon.io # Seldon Helm 仓库域名，用于 Kubernetes 组�
 DOMAIN-SUFFIX,github.com/SeldonIO # Seldon 官方 GitHub 主帐户域名，用于源码、示例与社区协作
 DOMAIN-SUFFIX,seldondev.wpengine.com # Seldon 官方开发/测试环境站点，基于 WP Engine 托管，用于官网内容预览、功能测试与阶段性页面发布
 
+# SophNet 平台基础域名补齐
+
+DOMAIN-SUFFIX,sophnet.com # SophNet 官方网站
+DOMAIN-SUFFIX,api.sophnet.com # SophNet 大模型 API 接入域名（用于 AI 推理接口调用）
+DOMAIN-SUFFIX,docs.sophnet.com # SophNet 文档与开发者指南站点
+DOMAIN-SUFFIX,static.sophnet.com # SophNet 静态资源分发域名（前端脚本/样式等）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
