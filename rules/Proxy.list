@@ -5447,6 +5447,11 @@ DOMAIN-SUFFIX,support.nebius.com # Nebius 支持 / 帮助中心入口（如存�
 
 DOMAIN-SUFFIX,tracto.ai # Tracto AI 官方网站，提供基于人工智能的文案生成、内容创作与营销辅助服务，属于用户主动访问的 AI SaaS 平台
 
+# EquityStory 官方服务域名补齐
+
+DOMAIN-SUFFIX,equitystory.com # EquityStory 官方网站，用于提供投资者关系（IR）解决方案与金融数据展示服务
+DOMAIN-SUFFIX,charts3.equitystory.com # EquityStory 投资者关系图表与数据可视化子域
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
