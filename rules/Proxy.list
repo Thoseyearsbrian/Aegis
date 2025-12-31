@@ -5454,6 +5454,7 @@ DOMAIN-SUFFIX,charts3.equitystory.com # EquityStory 投资者关系图表与数�
 
 # Lambda Labs 相关域名补齐
 
+DOMAIN-SUFFIX,lambda.ai # Lambda 官方平台，提供云 GPU 计算、深度学习训练与推理服务，面向 AI 研究与工程开发者
 DOMAIN-SUFFIX,lambdalabs.com # Lambda Labs 官方平台网站
 DOMAIN-SUFFIX,app.lambdalabs.com # Lambda Labs 控制台 / 用户管理界面
 DOMAIN-SUFFIX,docs.lambdalabs.com # Lambda Labs 文档与使用指南
