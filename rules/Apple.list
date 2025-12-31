@@ -5,7 +5,7 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-28
+# - 更新时间：2025-12-31
 
 # > 系统服务（System Services）
 
@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,sfss.cdn-apple.com  # Apple 安全框架服务资源域名
 DOMAIN-SUFFIX,ampaeservices.com # Apple 认证服务相关域名
 DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 DOMAIN-SUFFIX,apple.com.cn # Apple 在中国大陆的本地官网主域名
+DOMAIN-SUFFIX,pancake.apple.com # Apple 官方服务内部功能支持与通信域名
 PROCESS-NAME,apsd # Apple Push 相关进程
 PROCESS-NAME,timed # 系统时间同步进程
 PROCESS-NAME,syncdefaultsd # iCloud 同步控制器进程
@@ -241,6 +242,5 @@ DOMAIN-SUFFIX,education.apple.com # Apple 教育资源主入口，涵盖课堂�
 # DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 # DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
 # DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple CDN 域名，用于 Crash 报告与诊断日志收集
-# DOMAIN-SUFFIX,pancake.apple.com # RTC 网络质量上报服务
 # DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名
 # DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务
