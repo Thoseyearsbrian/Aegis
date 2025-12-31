@@ -1140,3 +1140,7 @@ DOMAIN-SUFFIX,visualwebsiteoptimizer.com # Visual Website Optimizer 官方平台
 # > CR Relay 事件中继与数据上报服务
 
 DOMAIN-SUFFIX,api.cr-relay.com # CR Relay 提供的事件与数据中继 API 接口，用于前端或服务端事件上报与消息转发
+
+# > Gauges 网站访问统计与用户行为分析服务
+
+DOMAIN-SUFFIX,secure.gaug.es # Gauges 提供的网站访问与用户行为统计接口，用于页面浏览、会话分析与流量数据采集
