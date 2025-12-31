@@ -5367,6 +5367,11 @@ DOMAIN-SUFFIX,docs.tecton.ai # Tecton 官方文档站点，用于提供平台使
 DOMAIN-SUFFIX,databricks.com # Databricks 官方平台，用于提供数据分析、机器学习与 AI Lakehouse 工程解决方案，以及产品介绍与开发者资源
 DOMAIN-SUFFIX,docs.databricks.com # Databricks 官方文档站点，用于提供平台使用说明、API 文档与工程最佳实践
 
+# > Schema App 结构化数据与 SEO 标注工具前端资源服务
+
+DOMAIN-SUFFIX,cdn.schemaapp.com # Schema App 提供的前端静态资源 CDN，用于加载结构化数据（Schema Markup）相关脚本与组件，辅助网站 SEO 与内容标注
+DOMAIN-SUFFIX,schemaapp.com # Schema App 官方平台网站，用于介绍结构化数据管理、Schema 标注工具与 SEO 解决方案
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
