@@ -2823,7 +2823,6 @@ DOMAIN-SUFFIX,2.na.dl.wireshark.org # Wireshark 下载节点，用于软件下�
 DOMAIN-SUFFIX,sw-update.obdev.at  # Little Snitch 更新服务域名，用于版本检查与更新下载
 DOMAIN-SUFFIX,geolocation.obdev.at # Little Snitch 地理定位服务，用于地图定位与连接判断
 DOMAIN-SUFFIX,nektony.com  # Nektony 官网及应用服务域名，用于Mac系统清理、磁盘管理与隐私保护工具通信
-DOMAIN-SUFFIX,maxmind.com  # MaxMind 数据服务域名，用于 IP 地理定位与 GeoIP 数据接口
 DOMAIN-SUFFIX,kali.org  # Kali Linux 官网及更新服务，常用于渗透测试与安全工具下载
 DOMAIN-SUFFIX,tails.net  # Tails 操作系统官网及服务平台，需代理访问以确保连接成功与更新获取
 DOMAIN-SUFFIX,gpgtools.org # macOS 平台 GPG 密钥管理工具 GPGTools 官网  
@@ -5371,6 +5370,12 @@ DOMAIN-SUFFIX,docs.databricks.com # Databricks 官方文档站点，用于提供
 
 DOMAIN-SUFFIX,cdn.schemaapp.com # Schema App 提供的前端静态资源 CDN，用于加载结构化数据（Schema Markup）相关脚本与组件，辅助网站 SEO 与内容标注
 DOMAIN-SUFFIX,schemaapp.com # Schema App 官方平台网站，用于介绍结构化数据管理、Schema 标注工具与 SEO 解决方案
+
+# > MaxMind IP 地理位置与网络信息服务前端资源
+
+DOMAIN-SUFFIX,maxmind.com  # MaxMind 数据服务域名，用于 IP 地理定位与 GeoIP 数据接口
+DOMAIN-SUFFIX,js.maxmind.com # MaxMind 提供的前端 JavaScript 资源域名，用于在网页中加载 IP 地理位置与网络信息相关的展示与校验组件
+DOMAIN-SUFFIX,maxmind.com # MaxMind 官方平台网站，用于介绍 GeoIP 数据库、IP 地理位置服务及相关文档与产品信息
 
 # > 第三方博客网站
 
