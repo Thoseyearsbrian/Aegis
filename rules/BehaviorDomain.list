@@ -1153,3 +1153,13 @@ DOMAIN-SUFFIX,testimonial.to # Testimonial.to 官方平台网站，用于管理�
 # > ClickCease 广告点击反欺诈与行为监测服务
 
 DOMAIN-SUFFIX,clickcease.com # ClickCease 官方平台，用于提供广告点击欺诈检测、异常行为识别与广告投放防护服务
+
+# > Featurebase 用户反馈与产品功能管理平台
+
+DOMAIN-SUFFIX,featurebase.app # Featurebase 官方主站，用于提供用户反馈、功能请求与产品路线图管理服务
+DOMAIN-SUFFIX,featurebaseapp.com # Featurebase 应用服务域名，用于承载反馈系统与管理后台
+DOMAIN-SUFFIX,tb.featurebaseapp.com # Featurebase 嵌入式反馈组件与前端交互子域
+DOMAIN-SUFFIX,featurebase-attachments.com # Featurebase 用户反馈附件与资源托管域名
+DOMAIN-SUFFIX,global.featurebase-attachments.com # Featurebase 全局附件分发节点，用于反馈内容中的文件与图片资源
+DOMAIN-SUFFIX,66431589920c213c8f9e5886.featurebase-attachments.com # Featurebase 实例化附件子域，用于特定项目的反馈资源存储
+DOMAIN-SUFFIX,sdk-beta.featurebase.app # Featurebase SDK Beta 接口域名，用于前端反馈组件与行为交互集成
