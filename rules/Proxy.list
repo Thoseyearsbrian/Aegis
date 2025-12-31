@@ -5428,7 +5428,7 @@ DOMAIN-SUFFIX,sophnet.com # SophNet 官方平台网站，用于提供云算力�
 DOMAIN-SUFFIX,api.translate.zvo.cn # ZVO 提供的机器翻译 API 服务接口，用于文本翻译与多语言处理
 DOMAIN-SUFFIX,america.api.translate.zvo.cn # ZVO 机器翻译 API 的美洲区域节点，用于就近接入与性能优化
 
-# > Vast.ai 官方服务与访问域名补齐
+# > Vast.ai 官方服务与访问域名
 
 DOMAIN-SUFFIX,vast.ai # Vast.ai 官方平台网站
 DOMAIN-SUFFIX,app.vast.ai # Vast.ai Web 控制台与用户管理界面
@@ -5436,12 +5436,16 @@ DOMAIN-SUFFIX,docs.vast.ai # Vast.ai 开发者文档与使用指南
 DOMAIN-SUFFIX,api.vast.ai # Vast.ai 提供的 API 接口域名（如存在，用于自动化调用与资源调度）
 DOMAIN-SUFFIX,static.vast.ai # Vast.ai 前端静态资源分发域名（脚本、样式等）
 
-# Nebius 官方服务基本域名补齐
+# Nebius 官方服务基本域名
 
 DOMAIN-SUFFIX,nebius.com # Nebius 官方主站，用于提供云 AI 平台产品说明、服务入口与用户控制台
 DOMAIN-SUFFIX,status.nebius.com # Nebius 平台状态监控页，用于实时服务状态与历史可用性展示
 DOMAIN-SUFFIX,docs.nebius.com # Nebius 开发者文档站点，用于访问 API 文档、SDK 指南与平台集成说明
 DOMAIN-SUFFIX,support.nebius.com # Nebius 支持 / 帮助中心入口（如存在用于工单与反馈）
+
+# > Tracto AI 智能内容生成与文案辅助平台
+
+DOMAIN-SUFFIX,tracto.ai # Tracto AI 官方网站，提供基于人工智能的文案生成、内容创作与营销辅助服务，属于用户主动访问的 AI SaaS 平台
 
 # > 第三方博客网站
 
