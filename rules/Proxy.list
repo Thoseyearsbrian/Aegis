@@ -5460,6 +5460,10 @@ DOMAIN-SUFFIX,app.lambdalabs.com # Lambda Labs 控制台 / 用户管理界面
 DOMAIN-SUFFIX,docs.lambdalabs.com # Lambda Labs 文档与使用指南
 DOMAIN-SUFFIX,api.lambdalabs.com # Lambda Labs API 访问入口
 
+# > Hostkey 企业级服务器托管与云基础设施服务商
+
+DOMAIN-SUFFIX,hostkey.com # Hostkey 官方平台，提供企业级服务器托管、云计算与数据中心基础设施服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
