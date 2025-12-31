@@ -1136,3 +1136,7 @@ DOMAIN-SUFFIX,usbrowserspeed.com # USBrowserSpeed 官方服务平台，用于网
 
 DOMAIN-SUFFIX,dev.visualwebsiteoptimizer.com # VWO 提供的前端实验与行为分析接口，用于 A/B 测试、页面变体加载及用户交互与转化数据采集
 DOMAIN-SUFFIX,visualwebsiteoptimizer.com # Visual Website Optimizer 官方平台网站，用于介绍转化率优化（CRO）、A/B 测试与行为分析产品及文档
+
+# > CR Relay 事件中继与数据上报服务
+
+DOMAIN-SUFFIX,api.cr-relay.com # CR Relay 提供的事件与数据中继 API 接口，用于前端或服务端事件上报与消息转发
