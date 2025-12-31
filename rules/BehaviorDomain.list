@@ -1131,3 +1131,8 @@ DOMAIN-SUFFIX,liadm.com # LiveIntent 官方平台域名，用于广告与数据�
 
 DOMAIN-SUFFIX,a.usbrowserspeed.com # USBrowserSpeed 提供的真实用户浏览器性能与体验监测接口，用于页面加载速度与使用情况分析
 DOMAIN-SUFFIX,usbrowserspeed.com # USBrowserSpeed 官方服务平台，用于网站性能监测与分析服务
+
+# > Visual Website Optimizer (VWO) A/B 测试与用户行为分析服务
+
+DOMAIN-SUFFIX,dev.visualwebsiteoptimizer.com # VWO 提供的前端实验与行为分析接口，用于 A/B 测试、页面变体加载及用户交互与转化数据采集
+DOMAIN-SUFFIX,visualwebsiteoptimizer.com # Visual Website Optimizer 官方平台网站，用于介绍转化率优化（CRO）、A/B 测试与行为分析产品及文档
