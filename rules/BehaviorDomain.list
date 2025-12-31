@@ -92,6 +92,7 @@ DOMAIN-SUFFIX,www-google-analytics.l.google.com # Google Analytics 测量与统�
 # > Facebook 相关行为指纹
 
 DOMAIN-SUFFIX,demo-1.conversionsapigateway.com # 服务端转化事件追踪演示域名  
+IP-CIDR,69.63.176.0/20 # Meta / Facebook 行为分析与平台通信网段
 
 # > Bilibili 行为分析服务域名
 
