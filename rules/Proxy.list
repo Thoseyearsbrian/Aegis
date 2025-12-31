@@ -5357,6 +5357,11 @@ DOMAIN-SUFFIX,docs.mlflow.org # MLflow 官方文档站点，用于提供使用�
 DOMAIN-SUFFIX,widget.runllm.com # RunLLM 提供的前端嵌入式 AI 交互组件域名，用于在网站中集成文档问答与智能助手功能
 DOMAIN-SUFFIX,runllm.com # RunLLM 官方平台网站，用于介绍产品能力、文档与集成说明
 
+# > Tecton 机器学习特征平台与特征工程基础设施
+
+DOMAIN-SUFFIX,tecton.ai # Tecton 官方网站，用于介绍机器学习特征平台（Feature Store）、特征工程架构及企业级 ML 基础设施解决方案
+DOMAIN-SUFFIX,docs.tecton.ai # Tecton 官方文档站点，用于提供平台使用说明、技术文档与最佳实践
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
