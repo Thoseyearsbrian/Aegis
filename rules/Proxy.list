@@ -5441,7 +5441,7 @@ DOMAIN-SUFFIX,static.vast.ai # Vast.ai 前端静态资源分发域名（脚本�
 DOMAIN-SUFFIX,nebius.com # Nebius 官方主站，用于提供云 AI 平台产品说明、服务入口与用户控制台
 DOMAIN-SUFFIX,status.nebius.com # Nebius 平台状态监控页，用于实时服务状态与历史可用性展示
 DOMAIN-SUFFIX,docs.nebius.com # Nebius 开发者文档站点，用于访问 API 文档、SDK 指南与平台集成说明
-DOMAIN-SUFFIX,support.nebius.com # Nebius 支持 / 帮助中心入口（如存在用于工单与反馈）
+DOMAIN-SUFFIX,support.nebius.com # Nebius 支持 / 帮助中心入口
 
 # > Tracto AI 智能内容生成与文案辅助平台
 
@@ -5451,6 +5451,13 @@ DOMAIN-SUFFIX,tracto.ai # Tracto AI 官方网站，提供基于人工智能的�
 
 DOMAIN-SUFFIX,equitystory.com # EquityStory 官方网站，用于提供投资者关系（IR）解决方案与金融数据展示服务
 DOMAIN-SUFFIX,charts3.equitystory.com # EquityStory 投资者关系图表与数据可视化子域
+
+# Lambda Labs 相关域名补齐
+
+DOMAIN-SUFFIX,lambdalabs.com # Lambda Labs 官方平台网站
+DOMAIN-SUFFIX,app.lambdalabs.com # Lambda Labs 控制台 / 用户管理界面
+DOMAIN-SUFFIX,docs.lambdalabs.com # Lambda Labs 文档与使用指南
+DOMAIN-SUFFIX,api.lambdalabs.com # Lambda Labs API 访问入口
 
 # > 第三方博客网站
 
