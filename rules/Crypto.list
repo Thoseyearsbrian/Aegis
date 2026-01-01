@@ -416,6 +416,7 @@ DOMAIN-SUFFIX,gimg2.gateimg.com # Gate.io 前端图片资源分发域名，用�
 DOMAIN-SUFFIX,icon.gateimg.com # Gate.io 前端图标与 UI 资源分发域名，用于界面图标与基础视觉元素加载
 DOMAIN-SUFFIX,social-cdn.gposts.net # Gate 平台社交模块与社区内容相关的静态资源 CDN，用于图片、帖子附件等内容分发
 DOMAIN-SUFFIX,gavatar.staticimgs.com # Gate 平台用户头像与图片资源的静态 CDN 分发域名
+DOMAIN-SUFFIX,brokerapi.gateperps.com # Gate 永续合约（Perps）核心交易与经纪 API 接口，用于合约下单、仓位管理、账户撮合与交易指令通信
 
 # > GateChain 公链与区块链基础设施平台（Gate 生态）
 
