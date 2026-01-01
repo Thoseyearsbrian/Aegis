@@ -5491,6 +5491,11 @@ DOMAIN-SUFFIX,assets.luchentech.com # LuchenTech 前端静态资源分发服务
 
 DOMAIN-SUFFIX,euob.youstarsbuilding.com # YouStarsBuilding 平台下的内容分发或访问跳转子域名
 
+# > Mintlify 文档平台静态资源与内容分发 CDN
+
+DOMAIN-SUFFIX,mintlify-assets.b-cdn.net # Mintlify 文档构建平台的静态资源 CDN，用于托管图标、图片等展示资源
+DOMAIN-SUFFIX,mintlify.b-cdn.net # Mintlify 文档平台内容分发 CDN，用于提供文档页面与静态内容的快速分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

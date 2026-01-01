@@ -199,6 +199,8 @@ DOMAIN-SUFFIX,public.cstatic.us # Coinbase 公共静态资源（CDN）
 DOMAIN-SUFFIX,cca-lite.coinbase.com # Coinbase 账户合规校验与风控辅助接口，用于轻量级合规检查与账户状态验证
 DOMAIN-SUFFIX,ctf-images-01.coinbasecdn.net # Coinbase 官方 CDN 提供的前端图片与媒体资源分发，用于页面展示、内容插图与视觉资源加载
 DOMAIN-SUFFIX,ctf-videos-01.coinbasecdn.net # Coinbase 官方 CDN 提供的前端视频与媒体资源分发，用于页面视频内容展示、媒体加载与播放
+DOMAIN-SUFFIX,api.coinbase.com # Coinbase 官方 API 接口域名，用于交易请求、行情接口与交易账户通信
+DOMAIN-SUFFIX,status.coinbase.com # Coinbase 官方平台状态监控页面域名，用于实时服务状态展示与事件公告
 IP-CIDR,52.68.117.1/32 # Coinbase 云端基础设施节点（AWS），常用于核心 API 或账户相关服务通信
 IP-CIDR,54.150.106.1/32 # Coinbase 云端基础设施节点（AWS），用于交易、账户或风控相关后端服务
 IP-CIDR,13.248.135.87/32 # Coinbase 使用的 CDN / 边缘网络节点，用于静态资源或 API 边缘加速
@@ -376,12 +378,6 @@ DOMAIN-SUFFIX,api.c3pool.com # C3Pool 后端 API 接口，用于矿工状态、�
 # > CEX.IO 加密资产交易平台与数字金融服务
 
 DOMAIN-SUFFIX,cex.io # CEX.IO 官方加密资产交易平台主域名，用于数字货币交易、账户访问与金融服务
-
-# > Coinbase 合规加密资产交易平台与数字货币服务
-
-DOMAIN-SUFFIX,coinbase.com # Coinbase 官方加密货币交易平台主域名，用于数字资产交易、账户访问与金融服务
-DOMAIN-SUFFIX,api.coinbase.com # Coinbase 官方 API 接口域名，用于交易请求、行情接口与交易账户通信
-DOMAIN-SUFFIX,status.coinbase.com # Coinbase 官方平台状态监控页面域名，用于实时服务状态展示与事件公告
 
 # > Exchanges（加密交易所 / 矿池服务）
 
