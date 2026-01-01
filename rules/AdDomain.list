@@ -4,7 +4,7 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-31
+# - 更新时间：2026-01-01
 
 # > 广告相关域名
 
@@ -6310,7 +6310,6 @@ DOMAIN-SUFFIX,funniestpins.com # 搞笑内容聚合站,存在第三方广告组�
 DOMAIN-SUFFIX,funnyjunk.com # 确认存在广告组件（Banner / Video Ads）
 DOMAIN-SUFFIX,funtoday.info # 内容聚合类站点,存在广告联盟代码
 DOMAIN-SUFFIX,furniturehurt.com # 虚假商城站点,疑似钓鱼模板广告站
-DOMAIN-SUFFIX,fuseplatform.net # 合法广告平台,用于网页嵌入式广告投放,可加入拦截
 DOMAIN-SUFFIX,fusionads.net # 确认广告平台域名,用于嵌入式展示广告
 DOMAIN-SUFFIX,fusrv.com # 第三方广告与统计平台域名
 DOMAIN-SUFFIX,futbol24.com # 体育比分类站点,无广告追踪用途或分流

@@ -5496,6 +5496,14 @@ DOMAIN-SUFFIX,euob.youstarsbuilding.com # YouStarsBuilding 平台下的内容分
 DOMAIN-SUFFIX,mintlify-assets.b-cdn.net # Mintlify 文档构建平台的静态资源 CDN，用于托管图标、图片等展示资源
 DOMAIN-SUFFIX,mintlify.b-cdn.net # Mintlify 文档平台内容分发 CDN，用于提供文档页面与静态内容的快速分发
 
+# > Pullywood 个人网站与 ImageAssistant 浏览器扩展介绍平台
+
+DOMAIN-SUFFIX,pullywood.com # Pullywood 个人网站主域名，用于发布 ImageAssistant 浏览器扩展及相关工具介绍内容
+
+# > Fuse Platform 静态资源内容分发服务
+
+DOMAIN-SUFFIX,cdn.fuseplatform.net # Fuse Platform 提供的静态资源 CDN 域名，用于分发网站/服务的脚本、样式与媒体资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
