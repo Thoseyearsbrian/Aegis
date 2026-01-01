@@ -407,10 +407,12 @@ DOMAIN-SUFFIX,hydroprotocol.io # Hydro Protocol 官方网站域名，用于以�
 
 DOMAIN-SUFFIX,exmo.com # EXMO 加密货币交易所官方域名，用于数字资产交易、账户管理与平台服务入口
 
+# > Gate.io 加密货币交易平台
+
+DOMAIN-SUFFIX,gate.com # Gate.io 官方主域名，用于加密资产交易、账户访问、行情查询与平台服务入口
+
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,exmo.com # EXMO 交易平台
-DOMAIN-SUFFIX,gate.io # Gate.io 虎符交易所
 DOMAIN-SUFFIX,gate # Gate.io 关键词
 DOMAIN-SUFFIX,huobi.com # Huobi 火币
 DOMAIN-SUFFIX,kraken.com # Kraken 全球交易平台
