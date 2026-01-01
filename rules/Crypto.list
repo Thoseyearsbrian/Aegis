@@ -369,11 +369,6 @@ DOMAIN-SUFFIX,www.banno.com # Banno 官方网站前端页面，用于产品介�
 DOMAIN-SUFFIX,api.banno.com # Banno 银行服务后端 API 接口，用于账户数据、交易与银行业务通信
 DOMAIN-SUFFIX,static.banno.com # Banno 前端静态资源分发域名，用于加载样式、脚本与应用组件
 
-# > C2CX 数字货币交易平台
-
-DOMAIN-SUFFIX,c2cx.com # C2CX 数字货币交易平台主域名
-DOMAIN-SUFFIX,c2cx.me # C2CX 数字货币交易平台备用域名
-
 # > Exchanges（加密交易所 / 矿池服务）
 
 DOMAIN-SUFFIX,c3pool.com # C3Pool 矿池平台
