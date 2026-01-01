@@ -361,6 +361,13 @@ DOMAIN-SUFFIX,btcbank.bank # BTC Bank 官方网站，用于在线银行、账户
 DOMAIN-SUFFIX,api.btcbank.bank # BTCBank 平台后端 API 接口，用于账户、交易与业务数据交互
 DOMAIN-SUFFIX,static.btcbank.bank # BTCBank 前端静态资源域名，用于加载网页样式、脚本与媒体资源
 
+# > Banno 数字银行平台与金融机构在线服务系统（Jack Henry 旗下）
+
+DOMAIN-SUFFIX,banno.com # Banno 数字银行平台主域名，用于金融机构在线账户访问与数字银行服务入口
+DOMAIN-SUFFIX,www.banno.com # Banno 官方网站前端页面，用于产品介绍与客户访问
+DOMAIN-SUFFIX,api.banno.com # Banno 银行服务后端 API 接口，用于账户数据、交易与银行业务通信
+DOMAIN-SUFFIX,static.banno.com # Banno 前端静态资源分发域名，用于加载样式、脚本与应用组件
+
 # > Exchanges（加密交易所 / 矿池服务）
 
 DOMAIN-SUFFIX,btctrade.im # 加密货币交易平台
