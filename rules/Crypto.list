@@ -388,11 +388,12 @@ DOMAIN-SUFFIX,file.coinexstatic.com # CoinEx 官方前端静态资源 CDN 域名
 
 DOMAIN-SUFFIX,coinrail.co.kr # Coinrail（韩国）数字货币交易所官方主域名，用于加密资产交易服务、账户访问与平台相关信息展示
 
+# > COINUT 数字货币交易平台（台湾）
+
+DOMAIN-SUFFIX,coinut.com # COINUT 官方数字货币交易平台主域名，用于提供加密资产交易、账户访问与平台服务入口
+
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,cointiger.com # CoinTiger 平台
-DOMAIN-SUFFIX,cointobe.com # CoinToBe 平台
-DOMAIN-SUFFIX,coinut.com # Coinut 平台
 DOMAIN-SUFFIX,cruxpool.com # Cruxpool 挖矿矿池
 DOMAIN-SUFFIX,ddex.io # DDEX 去中心化交易平台
 DOMAIN-SUFFIX,exmo.com # EXMO 交易平台
