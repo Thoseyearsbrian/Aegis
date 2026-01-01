@@ -8,6 +8,18 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,api.hypelab.com # Hypelab 广告投放与互动广告 API 服务，用于程序化广告展示与变现
+DOMAIN-SUFFIX,eus.rubiconproject.com # Rubicon Project（Magnite）广告交易平台欧洲节点，用于实时竞价与广告填充
+DOMAIN-SUFFIX,fastlane.rubiconproject.com # Rubicon Project Fastlane 实时竞价加速服务，用于广告请求与竞价响应优化
+DOMAIN-SUFFIX,ap.lijit.com # Lijit（Sovrn）广告与数据平台接口，用于用户画像匹配与广告竞价
+DOMAIN-SUFFIX,navvy.media.net # Media.net 广告投放与内容相关广告分发服务
+DOMAIN-SUFFIX,prebid.media.net # Media.net Prebid Header Bidding 广告竞价服务
+DOMAIN-SUFFIX,prg-apac.smartadserver.com # Smart AdServer 亚太区广告投放与竞价节点
+DOMAIN-SUFFIX,exchange.alkimi-onboarding.com # Alkimi 去中心化广告交易平台广告交换与竞价服务
+DOMAIN-SUFFIX,apps-pbd.ctraffic.io # cTraffic 程序化广告 Prebid 接口，用于应用广告变现
+DOMAIN-SUFFIX,zz43641cpr.pub.tappx.com # Tappx 移动与应用广告投放与用户获取服务
+DOMAIN-SUFFIX,ms-cookie-sync.presage.io # Presage Cookie Sync 服务，用于跨广告平台用户标识同步
+DOMAIN-SUFFIX,mweb-hb.presage.io # Presage 移动端 Header Bidding 与广告竞价服务
 DOMAIN-SUFFIX,fg8vvsvnieiv3ej16jby.litix.io # Litix 广告效果衡量与用户转化数据采集接口
 DOMAIN-SUFFIX,p.teads.tv # Teads 原生广告投放与视频广告追踪服务
 DOMAIN-SUFFIX,a.mgid.com # MGID 原生广告投放、内容推荐与广告请求接口
