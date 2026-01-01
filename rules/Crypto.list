@@ -365,19 +365,21 @@ DOMAIN-SUFFIX,static.btcbank.bank # BTCBank 前端静态资源域名，用于加
 # > Banno 数字银行平台与金融机构在线服务系统（Jack Henry 旗下）
 
 DOMAIN-SUFFIX,banno.com # Banno 数字银行平台主域名，用于金融机构在线账户访问与数字银行服务入口
-DOMAIN-SUFFIX,www.banno.com # Banno 官方网站前端页面，用于产品介绍与客户访问
 DOMAIN-SUFFIX,api.banno.com # Banno 银行服务后端 API 接口，用于账户数据、交易与银行业务通信
 DOMAIN-SUFFIX,static.banno.com # Banno 前端静态资源分发域名，用于加载样式、脚本与应用组件
 
 # > C3Pool 加密货币挖矿池与算力聚合服务
 
 DOMAIN-SUFFIX,c3pool.com # C3Pool 官方挖矿池主域名，用于提供加密货币挖矿、算力统计与矿工服务入口
-DOMAIN-SUFFIX,www.c3pool.com # C3Pool 官方网站前端页面，用于矿池信息展示与用户访问
 DOMAIN-SUFFIX,api.c3pool.com # C3Pool 后端 API 接口，用于矿工状态、算力数据与收益信息查询
+
+# > ChaoEx 数字货币交易平台
+
+DOMAIN-SUFFIX,chaoex.com # ChaoEx 数字货币交易平台主域名，用于提供加密资产交易、账户访问与平台服务入口
+DOMAIN-SUFFIX,api.chaoex.com # ChaoEx 后端 API 接口，用于交易请求、账户操作与平台业务通信
 
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,chaoex.com # ChaoEX 交易所
 DOMAIN-SUFFIX,cex.io # CEX.IO 法币交易平台
 DOMAIN-SUFFIX,coin2co.in # Coin2Co 平台
 DOMAIN-SUFFIX,coinbene.com # CoinBene 平台
