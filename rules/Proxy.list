@@ -5525,6 +5525,10 @@ DOMAIN-SUFFIX,gimg2.staticimgs.com # 通用图片资源分发域名，用于网�
 DOMAIN-SUFFIX,static.panpno.com # 前端静态资源托管域名，用于样式、图片或脚本等基础资源加载
 DOMAIN-SUFFIX,gimg.staticimgs.com # 通用图片资源分发域名，用于网页图片内容加载与展示
 
+# > AppsFlyer OneLink 智能跳转与渠道归因服务
+
+DOMAIN-SUFFIX,wa.onelink.me # AppsFlyer OneLink 智能跳转与归因服务，用于应用下载跳转与渠道归因（Gate 相关推广使用）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

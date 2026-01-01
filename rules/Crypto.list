@@ -419,6 +419,10 @@ DOMAIN-SUFFIX,gavatar.staticimgs.com # Gate 平台用户头像与图片资源的
 DOMAIN-SUFFIX,brokerapi.gateperps.com # Gate 永续合约（Perps）核心交易与经纪 API 接口，用于合约下单、仓位管理、账户撮合与交易指令通信
 DOMAIN-SUFFIX,web.gatetrace.com # Gate 生态链上数据追踪与交易分析前端服务，用于区块浏览、交易查询与数据可视化展示
 DOMAIN-SUFFIX,web3-fomox-ws-prod.gateweb3.cc # Gate Web3 实时 WebSocket 通信服务，用于行情推送、链上交互与 Web3 应用实时数据传输
+DOMAIN-SUFFIX,prd-web-imgs.s3.gateapis.com # Gate 官方前端图片资源存储服务（AWS S3），用于网站与 Web3 页面图片素材加载
+DOMAIN-SUFFIX,image.gatedataimg.com # Gate 数据与行情相关前端图片资源域名，用于图表、市场信息与可视化内容展示
+DOMAIN-SUFFIX,web3-fomox-ws-prod.gateweb3.cc # Gate Web3 实时 WebSocket 通信服务，用于行情推送、链上交互与 Web3 应用实时数据传输
+DOMAIN-SUFFIX,cdn.mytoken.org # MyToken 加密资产行情与市场数据平台前端 CDN，用于加密货币价格与市场信息展示
 
 # > GateChain 公链与区块链基础设施平台（Gate 生态）
 
