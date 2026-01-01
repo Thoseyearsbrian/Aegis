@@ -406,6 +406,8 @@ DOMAIN-SUFFIX,hydroprotocol.io # Hydro Protocol 官方网站域名，用于以�
 # > EXMO 中心化加密资产交易平台
 
 DOMAIN-SUFFIX,exmo.com # EXMO 加密货币交易所官方域名，用于数字资产交易、账户管理与平台服务入口
+DOMAIN-SUFFIX,webws.gateio.live # Gate.io WebSocket 实时通信服务，用于行情推送、盘口更新与实时交易数据传输
+DOMAIN-SUFFIX,snssdk.gatedata.org # Gate.io 数据采集与统计 SDK 服务域名，用于平台使用数据与基础运行指标上报
 
 # > Gate.io 加密货币交易平台
 
