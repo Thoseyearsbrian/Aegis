@@ -453,6 +453,9 @@ DOMAIN-SUFFIX,download.htx.com # HTX 官方客户端与应用下载服务域名�
 DOMAIN-SUFFIX,report.daumoon.com # HTX（原 Huobi）平台内部数据上报与监控服务域名，用于业务状态、运行指标与系统数据的内部汇总
 DOMAIN-SUFFIX,file.hbfile.net # HTX（原 Huobi）官方文件与静态资源存储域名，用于前端资源、配置文件与业务相关静态内容分发
 DOMAIN-SUFFIX,hbg-fed-static-prd.hbfile.net # HTX（原 Huobi）前端生产环境静态资源域名，用于交易页面与平台功能的脚本、样式及资源加载
+DOMAIN-SUFFIX,huobi.com # Huobi（HTX 前身）官方主域名，用于加密资产交易、账户访问与平台服务入口
+DOMAIN-SUFFIX,api.huobi.com # Huobi 官方后端 API 服务域名，用于交易请求、账户操作、行情获取与平台业务接口通信
+DOMAIN-SUFFIX,static.huobi.com # Huobi 官方前端静态资源域名，用于交易页面与平台功能的脚本、样式及图片资源加载
 
 # > Exchanges（加密交易所 / 矿池服务）
 
