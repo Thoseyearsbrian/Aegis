@@ -427,6 +427,7 @@ DOMAIN-SUFFIX,api.gateio.ws # Gate.io 官方 WebSocket API 服务，用于行情
 DOMAIN-SUFFIX,web3-fomox-api-prod.ldd678.com # Gate Web3 Fomox 相关后端 API 服务，用于 Web3 应用交互与交易业务接口通信
 DOMAIN-SUFFIX,h-download.gateapp.online # Gate 官方 App 安装包下载与更新分发域名，用于移动端应用安装、版本更新与下载引导
 DOMAIN-SUFFIX,img.gatenft.io # Gate NFT 平台前端图片与媒体资源 CDN，用于 NFT 作品展示、封面预览与内容加载
+DOMAIN-SUFFIX,did.gatexsecurity.com # Gate 安全体系下的去中心化身份（DID）与账户安全校验服务，用于身份标识、风险控制与安全验证通信
 
 # > GateChain 公链与区块链基础设施平台（Gate 生态）
 
