@@ -4,7 +4,7 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-01
+# - 更新时间：2026-01-02
 
 # > 广告相关域名
 
@@ -91,7 +91,6 @@ DOMAIN-SUFFIX,tracker.zdbb.net # ZDBB 广告追踪接口域名，用于记录广
 DOMAIN-SUFFIX,ads-i4.xhscdn.com # 小红书广告资源 CDN，用于推送首页与笔记页广告组件
 DOMAIN-SUFFIX,cdn.botfaqtor.ru  # botfaqtor.ru 第三方广告脚本 CDN，存在植入式脚本加载行为  
 DOMAIN-SUFFIX,scripts.pubnation.com  # PubNation 广告脚本域名，用于广告加载与用户行为回传  
-DOMAIN-SUFFIX,appsflyer.com # Appsflyer 主站域名，用于 SDK 接入与营销分析服务
 DOMAIN-SUFFIX,appsflyer.cn # Appsflyer 中国区域服务域名，用于本地化追踪与数据收集
 DOMAIN-SUFFIX,events.appsflyer.com # Appsflyer 事件上报接口域名，用于用户行为与广告转化追踪
 DOMAIN-SUFFIX,t.appsflyer.com # Appsflyer 精简追踪域名，用于 SDK 回传与广告统计
