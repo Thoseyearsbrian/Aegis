@@ -437,6 +437,10 @@ DOMAIN-SUFFIX,gatechain.io # GateChain 官方公链网站，用于区块链协�
 DOMAIN-SUFFIX,apipro.w3-api.com # Web3 加密资产相关后端 API 服务域名，用于交易请求、账户操作与业务接口通信
 DOMAIN-SUFFIX,fx-webws.wsbridge.com # 加密资产衍生品（合约）交易实时 WebSocket 服务，用于行情推送与交易状态更新
 DOMAIN-SUFFIX,spot-webws.wsbridge.com # 加密资产现货交易实时 WebSocket 服务，用于盘口、行情与交易数据实时推送
+DOMAIN-SUFFIX,auth.turnkey.com # Turnkey Web3 钱包认证与密钥管理服务，用于去中心化应用的钱包登录、签名与账户安全验证
+DOMAIN-SUFFIX,static.wrgsb.com # Web3 平台前端静态资源分发域名，用于加载页面样式、脚本与基础组件资源
+DOMAIN-SUFFIX,static-web3.w3-api.com # Web3 应用前端静态资源与接口支撑域名，用于 Web3 页面与应用组件加载
+DOMAIN-SUFFIX,gatelayer-mainnet.gatenode.cc # Gate Layer 主网区块链节点服务，用于主网 RPC 通信、区块同步与链上交互
 
 # > Exchanges（加密交易所 / 矿池服务）
 
