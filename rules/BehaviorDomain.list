@@ -1159,3 +1159,7 @@ DOMAIN-SUFFIX,featurebase-attachments.com # Featurebase 用户反馈附件与资
 DOMAIN-SUFFIX,global.featurebase-attachments.com # Featurebase 全局附件分发节点，用于反馈内容中的文件与图片资源
 DOMAIN-SUFFIX,66431589920c213c8f9e5886.featurebase-attachments.com # Featurebase 实例化附件子域，用于特定项目的反馈资源存储
 DOMAIN-SUFFIX,sdk-beta.featurebase.app # Featurebase SDK Beta 接口域名，用于前端反馈组件与行为交互集成
+
+# > WoodpeckerLog 应用日志采集与运行监控服务
+
+DOMAIN-SUFFIX,open.woodpeckerlog.com # WoodpeckerLog 提供的应用日志采集与运行监控服务域名，用于错误日志、崩溃信息与运行状态数据上报
