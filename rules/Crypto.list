@@ -461,6 +461,8 @@ DOMAIN-SUFFIX,otc-static.hbfile.net # HTX（原 Huobi）OTC 场外交易模块�
 DOMAIN-SUFFIX,hbg-prod-fed-public.hbfile.net # HTX（原 Huobi）生产环境前端公共资源分发域，用于官网与交易相关页面的 JS、CSS 等基础前端资源加载
 DOMAIN-SUFFIX,otc-file.hbfile.net # HTX（原 Huobi）OTC 场外交易模块文件与资源分发域，用于 OTC 页面相关的静态资源与业务文件加载
 DOMAIN-SUFFIX,nft-static.hbfile.net # HTX（原 Huobi）NFT 业务模块静态资源分发域，用于 NFT 页面图片、脚本、样式等前端资源加载
+DOMAIN-SUFFIX,saving-doc.hbfile.net # HTX（原 Huobi）理财 / 储蓄（Saving / Earn）业务相关文档与说明资源分发域，用于产品规则、协议与说明页面加载
+DOMAIN-SUFFIX,hbabit.com # Huobi 相关品牌与历史业务辅助站点域名，用于活动页面、品牌展示或区域性入口，不涉及核心交易接口
 
 # > Exchanges（加密交易所 / 矿池服务）
 
