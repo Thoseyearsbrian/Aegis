@@ -377,10 +377,14 @@ DOMAIN-SUFFIX,api.c3pool.com # C3Pool 后端 API 接口，用于矿工状态、�
 
 DOMAIN-SUFFIX,cex.io # CEX.IO 官方加密资产交易平台主域名，用于数字货币交易、账户访问与金融服务
 
+# > Coinbase 合规加密资产交易平台与数字货币服务
+
+DOMAIN-SUFFIX,coinbase.com # Coinbase 官方加密货币交易平台主域名，用于数字资产交易、账户访问与金融服务
+DOMAIN-SUFFIX,api.coinbase.com # Coinbase 官方 API 接口域名，用于交易请求、行情接口与交易账户通信
+DOMAIN-SUFFIX,status.coinbase.com # Coinbase 官方平台状态监控页面域名，用于实时服务状态展示与事件公告
+
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,coin2co.in # Coin2Co 平台
-DOMAIN-SUFFIX,coinbene.com # CoinBene 平台
 DOMAIN-SUFFIX,coinegg.com # CoinEgg 平台
 DOMAIN-SUFFIX,coinex.com # CoinEx 平台
 DOMAIN-SUFFIX,coingi.com # Coingi 平台
