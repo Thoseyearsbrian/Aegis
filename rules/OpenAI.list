@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-31
+# - 更新时间：2026-01-01
 
 # > OpenAI Chat 系列
 
@@ -477,3 +477,7 @@ DOMAIN-SUFFIX,fast.tia-ai.com # Tia AI 提供的静态资源加载域名，用�
 # > OpenRouter 大模型 API 聚合与路由服务平台
 
 DOMAIN-SUFFIX,openrouter.ai # OpenRouter 提供多家大模型 API 的统一访问与路由服务
+
+# > Speechify AI 语音朗读平台、Hydro Protocol 去中心化交易协议与 EXMO 加密货币交易所
+
+DOMAIN-SUFFIX,speechify.com # Speechify 官方网站域名，用于 AI 文本转语音与语音朗读服务，提供无障碍阅读与内容语音化能力
