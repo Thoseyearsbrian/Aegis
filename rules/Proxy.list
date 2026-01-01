@@ -5504,6 +5504,11 @@ DOMAIN-SUFFIX,pullywood.com # Pullywood 个人网站主域名，用于发布 Ima
 
 DOMAIN-SUFFIX,cdn.fuseplatform.net # Fuse Platform 提供的静态资源 CDN 域名，用于分发网站/服务的脚本、样式与媒体资源
 
+# > Compute Pipe 基准测试与性能评测静态资源分发服务
+
+DOMAIN-SUFFIX,benchmarks.cdn.compute-pipe.com # Compute Pipe 官方基准测试资源 CDN，用于分发模型性能评测数据、测试结果与相关静态内容
+DOMAIN-SUFFIX,benchmarks.cdn-c.compute-pipe.com # Compute Pipe 基准测试备用静态资源 CDN 域名，用于性能评测与技术内容加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
