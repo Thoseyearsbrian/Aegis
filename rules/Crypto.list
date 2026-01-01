@@ -373,11 +373,6 @@ DOMAIN-SUFFIX,static.banno.com # Banno 前端静态资源分发域名，用于�
 DOMAIN-SUFFIX,c3pool.com # C3Pool 官方挖矿池主域名，用于提供加密货币挖矿、算力统计与矿工服务入口
 DOMAIN-SUFFIX,api.c3pool.com # C3Pool 后端 API 接口，用于矿工状态、算力数据与收益信息查询
 
-# > ChaoEx 数字货币交易平台
-
-DOMAIN-SUFFIX,chaoex.com # ChaoEx 数字货币交易平台主域名，用于提供加密资产交易、账户访问与平台服务入口
-DOMAIN-SUFFIX,api.chaoex.com # ChaoEx 后端 API 接口，用于交易请求、账户操作与平台业务通信
-
 # > Exchanges（加密交易所 / 矿池服务）
 
 DOMAIN-SUFFIX,cex.io # CEX.IO 法币交易平台
