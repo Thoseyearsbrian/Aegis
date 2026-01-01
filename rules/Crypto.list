@@ -457,6 +457,7 @@ DOMAIN-SUFFIX,huobi.com # Huobi（HTX 前身）官方主域名，用于加密资
 DOMAIN-SUFFIX,api.huobi.com # Huobi 官方后端 API 服务域名，用于交易请求、账户操作、行情获取与平台业务接口通信
 DOMAIN-SUFFIX,static.huobi.com # Huobi 官方前端静态资源域名，用于交易页面与平台功能的脚本、样式及图片资源加载
 DOMAIN-SUFFIX,download.hbfile.net # HTX（原 Huobi）官方客户端下载与资源分发域名，用于客户端安装包、更新文件及相关资源的下载
+DOMAIN-SUFFIX,otc-static.hbfile.net # HTX（原 Huobi）OTC 场外交易模块静态资源 CDN，用于加载前端页面所需的脚本、样式与界面资源
 
 # > Exchanges（加密交易所 / 矿池服务）
 
