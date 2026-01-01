@@ -396,9 +396,14 @@ DOMAIN-SUFFIX,coinut.com # COINUT 官方数字货币交易平台主域名，用�
 
 DOMAIN-SUFFIX,cruxpool.com # Cruxpool 官方矿池平台域名，用于加密货币挖矿服务、矿工管理与收益统计
 
+# > Hydro Protocol 与 DDEX 去中心化交易协议与平台（以太坊生态）
+
+DOMAIN-SUFFIX,hydroprotocol.io # Hydro Protocol 官方网站域名，用于去中心化交易协议介绍、技术文档与开发者资源
+DOMAIN-SUFFIX,ddex.io # DDEX 去中心化交易平台官方域名（历史项目），用于加密资产交易与协议服务入口
+DOMAIN-SUFFIX,margin-docs.ddex.io # DDEX 保证金交易文档子域，用于交易机制说明与技术文档访问
+
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,ddex.io # DDEX 去中心化交易平台
 DOMAIN-SUFFIX,exmo.com # EXMO 交易平台
 DOMAIN-SUFFIX,gate.io # Gate.io 虎符交易所
 DOMAIN-SUFFIX,gate # Gate.io 关键词
