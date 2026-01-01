@@ -392,9 +392,12 @@ DOMAIN-SUFFIX,coinrail.co.kr # Coinrail（韩国）数字货币交易所官方�
 
 DOMAIN-SUFFIX,coinut.com # COINUT 官方数字货币交易平台主域名，用于提供加密资产交易、账户访问与平台服务入口
 
+# > Cruxpool 加密货币矿池平台
+
+DOMAIN-SUFFIX,cruxpool.com # Cruxpool 官方矿池平台域名，用于加密货币挖矿服务、矿工管理与收益统计
+
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,cruxpool.com # Cruxpool 挖矿矿池
 DOMAIN-SUFFIX,ddex.io # DDEX 去中心化交易平台
 DOMAIN-SUFFIX,exmo.com # EXMO 交易平台
 DOMAIN-SUFFIX,gate.io # Gate.io 虎符交易所

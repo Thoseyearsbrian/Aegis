@@ -5513,6 +5513,10 @@ DOMAIN-SUFFIX,benchmarks.cdn-c.compute-pipe.com # Compute Pipe 基准测试备�
 
 DOMAIN-SUFFIX,cdn.channel.io # Channel.io 官方前端静态资源 CDN，用于加载客服聊天组件、交互脚本与样式资源
 
+# > Ilium 官方网站与云服务平台
+
+DOMAIN-SUFFIX,ilium.co # Ilium 官方产品与服务网站域名，用于平台介绍、文档访问与业务服务入口
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
