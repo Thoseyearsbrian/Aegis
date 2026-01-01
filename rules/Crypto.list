@@ -4,7 +4,7 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-01
+# - 更新时间：2026-01-02
 
 # > Binance 加密资产交易所相关域名
 
@@ -427,6 +427,12 @@ DOMAIN-SUFFIX,cdn.mytoken.org # MyToken 加密资产行情与市场数据平台�
 # > GateChain 公链与区块链基础设施平台（Gate 生态）
 
 DOMAIN-SUFFIX,gatechain.io # GateChain 官方公链网站，用于区块链协议介绍、技术文档、节点信息与生态项目展示
+
+# > Web3 加密资产交易 API 与实时 WebSocket 通信服务
+
+DOMAIN-SUFFIX,apipro.w3-api.com # Web3 加密资产相关后端 API 服务域名，用于交易请求、账户操作与业务接口通信
+DOMAIN-SUFFIX,fx-webws.wsbridge.com # 加密资产衍生品（合约）交易实时 WebSocket 服务，用于行情推送与交易状态更新
+DOMAIN-SUFFIX,spot-webws.wsbridge.com # 加密资产现货交易实时 WebSocket 服务，用于盘口、行情与交易数据实时推送
 
 # > Exchanges（加密交易所 / 矿池服务）
 
