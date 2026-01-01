@@ -5181,6 +5181,7 @@ DOMAIN-SUFFIX,static.bymj.io # ByMJ 平台前端静态资源分发（JS / CSS / 
 # > Spline 3D 设计与交互资源生产环境分发服务
 
 DOMAIN-SUFFIX,prod.spline.design # Spline 3D 设计平台生产环境资源与交互组件分发服务
+DOMAIN-SUFFIX,hooks.spline.design # Spline 提供的事件回调与 Webhook 服务域名，用于设计项目中的交互触发、状态通知与外部服务集成
 
 # > Slise API 服务接口
 
