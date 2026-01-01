@@ -411,6 +411,7 @@ DOMAIN-SUFFIX,snssdk.gatedata.org # Gate.io 数据采集与统计 SDK 服务域�
 
 # > Gate.io 加密货币交易平台
 
+DOMAIN-SUFFIX,gatescan.org # Gate 生态区块链浏览器服务，用于区块、交易、地址与合约等链上数据的查询与可视化展示
 DOMAIN-SUFFIX,gate.com # Gate.io 官方主域名，用于加密资产交易、账户访问、行情查询与平台服务入口
 DOMAIN-SUFFIX,gimg2.gateimg.com # Gate.io 前端图片资源分发域名，用于页面内容图片加载与展示
 DOMAIN-SUFFIX,icon.gateimg.com # Gate.io 前端图标与 UI 资源分发域名，用于界面图标与基础视觉元素加载
