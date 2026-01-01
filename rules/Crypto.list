@@ -384,10 +384,12 @@ DOMAIN-SUFFIX,cex.io # CEX.IO 官方加密资产交易平台主域名，用于�
 DOMAIN-SUFFIX,coinex.com # CoinEx 官方加密资产交易平台主域名，用于提供数字货币交易、账户访问、资产管理与平台核心服务
 DOMAIN-SUFFIX,file.coinexstatic.com # CoinEx 官方前端静态资源 CDN 域名，用于加载网站样式、脚本与图片等静态资源
 
+# > Coinrail 韩国数字货币交易平台
+
+DOMAIN-SUFFIX,coinrail.co.kr # Coinrail（韩国）数字货币交易所官方主域名，用于加密资产交易服务、账户访问与平台相关信息展示
+
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,coingi.com # Coingi 平台
-DOMAIN-SUFFIX,coinrail.co.kr # CoinRail 韩国平台
 DOMAIN-SUFFIX,cointiger.com # CoinTiger 平台
 DOMAIN-SUFFIX,cointobe.com # CoinToBe 平台
 DOMAIN-SUFFIX,coinut.com # Coinut 平台

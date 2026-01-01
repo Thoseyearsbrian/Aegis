@@ -5509,6 +5509,10 @@ DOMAIN-SUFFIX,cdn.fuseplatform.net # Fuse Platform 提供的静态资源 CDN 域
 DOMAIN-SUFFIX,benchmarks.cdn.compute-pipe.com # Compute Pipe 官方基准测试资源 CDN，用于分发模型性能评测数据、测试结果与相关静态内容
 DOMAIN-SUFFIX,benchmarks.cdn-c.compute-pipe.com # Compute Pipe 基准测试备用静态资源 CDN 域名，用于性能评测与技术内容加载
 
+# > Channel.io 客服与用户沟通平台前端静态资源服务
+
+DOMAIN-SUFFIX,cdn.channel.io # Channel.io 官方前端静态资源 CDN，用于加载客服聊天组件、交互脚本与样式资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
