@@ -5529,6 +5529,10 @@ DOMAIN-SUFFIX,gimg.staticimgs.com # 通用图片资源分发域名，用于网�
 
 DOMAIN-SUFFIX,wa.onelink.me # AppsFlyer OneLink 智能跳转与归因服务，用于应用下载跳转与渠道归因（Gate 相关推广使用）
 
+# > Airpack 前端静态资源分发服务
+
+DOMAIN-SUFFIX,static.airpackapp.com # Airpack 产品前端静态资源 CDN，用于加载网站与应用的脚本、样式及图片资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
