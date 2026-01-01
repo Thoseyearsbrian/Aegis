@@ -4069,6 +4069,7 @@ DOMAIN-SUFFIX,uploads.intercomcdn.com # Intercom CDN 上传/资源托管子域�
 DOMAIN-SUFFIX,static.intercomassets.com # Intercom 静态资源 CDN，用于加载聊天组件、图标、脚本与前端资源
 DOMAIN-SUFFIX,intercom.help # Intercom Help Center 域名，用于知识库、帮助文档与客户支持内容
 DOMAIN-SUFFIX,js-eu1.usemessages.com # Intercom 欧洲区域 JS 脚本服务节点，用于嵌入聊天组件、初始化会话与加载用户沟通功能
+DOMAIN-SUFFIX,cexio.intercom-attachments-7.com # Intercom 客服系统附件资源域名，用于 CEX.IO 客服聊天中的文件与图片加载
 IP-CIDR,128.121.243.77/32 # Intercom WebSocket 服务 IP，绑定域名 nexus-websocket-a.intercom.io，用于实时聊天、客服消息推送与客户端状态保持
 
 # > Webflow 相关域名
