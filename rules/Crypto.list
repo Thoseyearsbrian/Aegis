@@ -379,9 +379,13 @@ DOMAIN-SUFFIX,api.c3pool.com # C3Pool 后端 API 接口，用于矿工状态、�
 
 DOMAIN-SUFFIX,cex.io # CEX.IO 官方加密资产交易平台主域名，用于数字货币交易、账户访问与金融服务
 
+# > CoinEx 数字资产交易平台与官方前端资源服务
+
+DOMAIN-SUFFIX,coinex.com # CoinEx 官方加密资产交易平台主域名，用于提供数字货币交易、账户访问、资产管理与平台核心服务
+DOMAIN-SUFFIX,file.coinexstatic.com # CoinEx 官方前端静态资源 CDN 域名，用于加载网站样式、脚本与图片等静态资源
+
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,coinex.com # CoinEx 平台
 DOMAIN-SUFFIX,coingi.com # Coingi 平台
 DOMAIN-SUFFIX,coinrail.co.kr # CoinRail 韩国平台
 DOMAIN-SUFFIX,cointiger.com # CoinTiger 平台
