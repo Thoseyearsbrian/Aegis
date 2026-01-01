@@ -5523,6 +5523,7 @@ DOMAIN-SUFFIX,ilium.co # Ilium 官方产品与服务网站域名，用于平台�
 DOMAIN-SUFFIX,icon.staticimgs.com # 前端图标与小尺寸图片资源分发域名，用于页面 UI 图标加载
 DOMAIN-SUFFIX,gimg2.staticimgs.com # 通用图片资源分发域名，用于网页内容图片加载与展示
 DOMAIN-SUFFIX,static.panpno.com # 前端静态资源托管域名，用于样式、图片或脚本等基础资源加载
+DOMAIN-SUFFIX,gimg.staticimgs.com # 通用图片资源分发域名，用于网页图片内容加载与展示
 
 # > 第三方博客网站
 
