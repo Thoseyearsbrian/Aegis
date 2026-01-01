@@ -444,10 +444,15 @@ DOMAIN-SUFFIX,static.wrgsb.com # Web3 平台前端静态资源分发域名，用
 DOMAIN-SUFFIX,static-web3.w3-api.com # Web3 应用前端静态资源与接口支撑域名，用于 Web3 页面与应用组件加载
 DOMAIN-SUFFIX,gatelayer-mainnet.gatenode.cc # Gate Layer 主网区块链节点服务，用于主网 RPC 通信、区块同步与链上交互
 
+# > HTX（原 Huobi）加密资产交易平台官方服务
+
+DOMAIN-SUFFIX,htx.com # HTX（原 Huobi）官方主域名，用于加密资产交易、账户访问、平台服务入口与生态相关功能
+DOMAIN-SUFFIX,api.htx.com # HTX 官方后端 API 服务域名，用于交易请求、账户操作、行情获取与平台业务接口通信
+DOMAIN-SUFFIX,static.htx.com # HTX 官方前端静态资源域名，用于网站与交易界面的脚本、样式及图片资源加载
+DOMAIN-SUFFIX,download.htx.com # HTX 官方客户端与应用下载服务域名，用于桌面端与移动端应用分发与更新
+
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,gate # Gate.io 关键词
-DOMAIN-SUFFIX,huobi.com # Huobi 火币
 DOMAIN-SUFFIX,kraken.com # Kraken 全球交易平台
 DOMAIN-SUFFIX,mexc.com # MEXC 全球平台
 DOMAIN-SUFFIX,mexc # MEXC 关键词
