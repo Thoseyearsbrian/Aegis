@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-31
+# - 更新时间：2026-01-01
 
 # > Speedtest 网络测速平台
 
@@ -5410,7 +5410,7 @@ DOMAIN-SUFFIX,wandb.ai # Weights & Biases（W&B）官方平台，用于机器学
 DOMAIN-SUFFIX,api.wandb.ai # Weights & Biases 提供的 API 接口，用于实验数据上报、指标同步与模型元数据管理
 DOMAIN-SUFFIX,cdn.wandb.ai # Weights & Biases 前端静态资源 CDN，用于加载控制台界面相关脚本与样式资源
 
-# Seldon 相关域名
+# > Seldon 相关域名
 
 DOMAIN-SUFFIX,seldon.io # Seldon 官方网站，用于企业级机器学习模型部署和 MLOps 平台说明
 DOMAIN-SUFFIX,docs.seldon.io # Seldon 官方文档托管域名，用于文档、教程与使用指南访问
@@ -5418,7 +5418,7 @@ DOMAIN-SUFFIX,helm.seldon.io # Seldon Helm 仓库域名，用于 Kubernetes 组�
 DOMAIN-SUFFIX,github.com/SeldonIO # Seldon 官方 GitHub 主帐户域名，用于源码、示例与社区协作
 DOMAIN-SUFFIX,seldondev.wpengine.com # Seldon 官方开发/测试环境站点，基于 WP Engine 托管，用于官网内容预览、功能测试与阶段性页面发布
 
-# SophNet 平台基础域名
+# > SophNet 平台基础域名
 
 DOMAIN-SUFFIX,sophnet.com # SophNet 官方网站
 DOMAIN-SUFFIX,api.sophnet.com # SophNet 大模型 API 接入域名（用于 AI 推理接口调用）
@@ -5439,7 +5439,7 @@ DOMAIN-SUFFIX,docs.vast.ai # Vast.ai 开发者文档与使用指南
 DOMAIN-SUFFIX,api.vast.ai # Vast.ai 提供的 API 接口域名（如存在，用于自动化调用与资源调度）
 DOMAIN-SUFFIX,static.vast.ai # Vast.ai 前端静态资源分发域名（脚本、样式等）
 
-# Nebius 官方服务基本域名
+# > Nebius 官方服务基本域名
 
 DOMAIN-SUFFIX,nebius.com # Nebius 官方主站，用于提供云 AI 平台产品说明、服务入口与用户控制台
 DOMAIN-SUFFIX,status.nebius.com # Nebius 平台状态监控页，用于实时服务状态与历史可用性展示
@@ -5450,12 +5450,12 @@ DOMAIN-SUFFIX,support.nebius.com # Nebius 支持 / 帮助中心入口
 
 DOMAIN-SUFFIX,tracto.ai # Tracto AI 官方网站，提供基于人工智能的文案生成、内容创作与营销辅助服务，属于用户主动访问的 AI SaaS 平台
 
-# EquityStory 官方服务域名
+# > EquityStory 官方服务域名
 
 DOMAIN-SUFFIX,equitystory.com # EquityStory 官方网站，用于提供投资者关系（IR）解决方案与金融数据展示服务
 DOMAIN-SUFFIX,charts3.equitystory.com # EquityStory 投资者关系图表与数据可视化子域
 
-# Lambda Labs 相关域名
+# > Lambda Labs 相关域名
 
 DOMAIN-SUFFIX,lambda.ai # Lambda 官方平台，提供云 GPU 计算、深度学习训练与推理服务，面向 AI 研究与工程开发者
 DOMAIN-SUFFIX,lambdalabs.com # Lambda Labs 官方平台网站
@@ -5477,14 +5477,18 @@ DOMAIN-SUFFIX,api.livechatinc.com # LiveChat 客服系统后端 API，用于实�
 
 DOMAIN-SUFFIX,l.getsitecontrol.com # GetSiteControl 行为触发与交互事件服务，用于站点弹窗、表单提交与用户交互逻辑控制
 
-# HPC-AI 相关域名
+# > HPC-AI 相关域名
 
 DOMAIN-SUFFIX,hpc-ai.com # HPC-AI 官方平台与服务入口
 
-# LuchenTech 相关域名补齐
+# > LuchenTech 相关域名
 
 DOMAIN-SUFFIX,luchentech.com # LuchenTech 官方网站与服务入口
 DOMAIN-SUFFIX,assets.luchentech.com # LuchenTech 前端静态资源分发服务
+
+# > YouStarsBuilding 相关域名
+
+DOMAIN-SUFFIX,euob.youstarsbuilding.com # YouStarsBuilding 平台下的内容分发或访问跳转子域名
 
 # > 第三方博客网站
 

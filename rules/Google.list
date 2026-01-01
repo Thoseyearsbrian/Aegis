@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-28
+# - 更新时间：2026-01-01
 
 # > 核心服务（Google Core Services）
 
@@ -45,6 +45,7 @@ DOMAIN-SUFFIX,analytics.google.com # Google Analytics 数据分析与管理控�
 DOMAIN-SUFFIX,google-analytics.com # Google Analytics 通用网页行为统计域名
 DOMAIN-SUFFIX,grow.google # Google Grow 学习、技能培训与职业发展服务
 DOMAIN-SUFFIX,goo.gle # Google 官方短链接域名，用于服务与内容跳转
+DOMAIN-SUFFIX,syndicatedsearch.goog # Google 官方搜索联合与实验性搜索服务域名，用于搜索能力分发与结果呈现
 IP-CIDR,142.250.4.0/24  # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
