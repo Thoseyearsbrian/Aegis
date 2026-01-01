@@ -4,7 +4,7 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-31
+# - 更新时间：2026-01-01
 
 # > Binance 加密资产交易所相关域名
 
@@ -355,9 +355,14 @@ DOMAIN-SUFFIX,yzi-labs.ghost.io # YZi Labs 官方博客与研究内容发布站�
 
 DOMAIN-SUFFIX,api.commonservice.io # 钱包与加密平台通用后端服务接口
 
+# > BTC Bank 美国社区商业银行官网
+
+DOMAIN-SUFFIX,btcbank.bank # BTC Bank 官方网站，用于在线银行、账户管理与金融服务
+DOMAIN-SUFFIX,api.btcbank.bank # BTCBank 平台后端 API 接口，用于账户、交易与业务数据交互
+DOMAIN-SUFFIX,static.btcbank.bank # BTCBank 前端静态资源域名，用于加载网页样式、脚本与媒体资源
+
 # > Exchanges（加密交易所 / 矿池服务）
 
-DOMAIN-SUFFIX,btcbank.bank # 加密金融平台
 DOMAIN-SUFFIX,btctrade.im # 加密货币交易平台
 DOMAIN-SUFFIX,c2cx.com # C2CX 交易所
 DOMAIN-SUFFIX,c3pool.com # C3Pool 矿池平台
