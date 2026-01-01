@@ -334,6 +334,7 @@ DOMAIN-SUFFIX,festream.saasexch.co # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,festream.saasexch.io # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,festream.saasexch.com # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,public.saasexch.com # SaaSExch 公共服务与前端共享资源
+DOMAIN-SUFFIX,sensors.saasexch.com # SaaSExch 平台客户端监测与风控通信子域，用于运行状态检测、环境校验与平台安全相关通信
 
 # > WalletConnect 去中心化钱包连接协议与通信基础设施服务
 
