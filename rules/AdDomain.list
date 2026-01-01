@@ -8,6 +8,8 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,btloader.com # 广告脚本加载与投放服务域名，用于程序化广告资源加载与分发
+DOMAIN-SUFFIX,asc-a.hbwrapper.com # Header Bidding Wrapper 服务节点，用于封装多广告平台竞价逻辑并执行实时竞价请求
 DOMAIN-SUFFIX,api.hypelab.com # Hypelab 广告投放与互动广告 API 服务，用于程序化广告展示与变现
 DOMAIN-SUFFIX,eus.rubiconproject.com # Rubicon Project（Magnite）广告交易平台欧洲节点，用于实时竞价与广告填充
 DOMAIN-SUFFIX,fastlane.rubiconproject.com # Rubicon Project Fastlane 实时竞价加速服务，用于广告请求与竞价响应优化
