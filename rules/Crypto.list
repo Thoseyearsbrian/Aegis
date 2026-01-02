@@ -290,7 +290,9 @@ DOMAIN-SUFFIX,api.riskified.com # Riskified 官方 API 服务，用于交易风�
 
 # > GrowThePie 以太坊 Layer2 / Rollup 生态数据分析平台
 
-DOMAIN-SUFFIX,growthepie.com # GrowThePie 提供以太坊 Layer2 与 Rollup 生态的链上数据分析与可视化服务
+DOMAIN-SUFFIX,growthepie.com # GrowThePie 官方平台，用于以太坊 Layer2 与 Rollup 生态的链上数据分析、指标统计与可视化研究
+DOMAIN-SUFFIX,api.growthepie.com # GrowThePie 官方 API，用于 Layer2 生态数据查询、指标获取与研究数据集成
+DOMAIN-SUFFIX,static.growthepie.com # GrowThePie 前端静态资源域，用于页面脚本、样式与数据可视化组件加载
 
 # > BTC Explorer 社区区块链浏览器
 
