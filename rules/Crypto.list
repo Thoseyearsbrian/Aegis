@@ -751,6 +751,12 @@ DOMAIN-SUFFIX,tether.to # Tether 官方网站，用于 USDT 稳定币信息披�
 DOMAIN-SUFFIX,assets.tether.to # Tether 官方静态资源域，用于白皮书、审计报告与文档文件分发
 DOMAIN-SUFFIX,blog.tether.to # Tether 官方博客与公告发布平台，用于项目更新与透明度披露
 
+# > RedotPay 加密资产支付与虚拟卡平台
+
+DOMAIN-SUFFIX,redotpay.com # RedotPay 官方平台，用于加密资产支付、虚拟卡发行与法币桥接服务
+DOMAIN-SUFFIX,api.redotpay.com # RedotPay 官方 API 接口，用于支付请求、账户操作与卡服务通信
+DOMAIN-SUFFIX,static.redotpay.com # RedotPay 前端静态资源域，用于页面脚本、样式与组件加载
+
 # > IP-CIDR（常见交易平台或钱包服务IP）
 
 IP-CIDR,35.77.148.188 # OKX
