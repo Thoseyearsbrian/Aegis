@@ -5560,6 +5560,10 @@ DOMAIN-SUFFIX,cdn-email.ethermail.io # EtherMail 邮件系统使用的内容与�
 DOMAIN-SUFFIX,rumble.com # Rumble 官方视频平台主域名，用于视频浏览、播放、用户频道与内容发布
 DOMAIN-SUFFIX,sp.rmbl.ws # Rumble 官方媒体与视频内容 CDN，用于视频流与相关静态资源分发
 
+# > Coinbase 官方招聘与人才管理平台（Recruitee）
+
+DOMAIN-SUFFIX,tether.recruitee.com # Coinbase / Tether 使用的 Recruitee 招聘子域，用于职位发布、招聘流程与候选人管理
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

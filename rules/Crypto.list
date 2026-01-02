@@ -902,3 +902,13 @@ DOMAIN-SUFFIX,blog.tether.to # Tether 官方博客与公告发布平台，用于
 DOMAIN-SUFFIX,redotpay.com # RedotPay 官方平台，用于加密资产支付、虚拟卡发行与法币桥接服务
 DOMAIN-SUFFIX,api.redotpay.com # RedotPay 官方 API 接口，用于支付请求、账户操作与卡服务通信
 DOMAIN-SUFFIX,static.redotpay.com # RedotPay 前端静态资源域，用于页面脚本、样式与组件加载
+
+# > WalletLink / Coinbase Wallet 钱包连接与通信服务
+
+DOMAIN-SUFFIX,walletlink.org # WalletLink 官方通信域名，用于 DApp 与 Coinbase Wallet 之间的钱包连接、会话建立与交易签名通信
+DOMAIN-SUFFIX,link.walletlink.org # WalletLink 钱包连接子域，用于连接流程与会话管理支持
+
+# > Ankr 区块链 RPC 与多链基础设施服务
+
+DOMAIN-SUFFIX,rpc.ankr.com # Ankr 官方区块链 RPC 服务接口，用于多链节点访问、交易广播与链上数据查询
+DOMAIN-SUFFIX,ankr.com # Ankr 官方平台域名，用于区块链基础设施服务说明与开发者入口
