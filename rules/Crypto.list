@@ -495,6 +495,14 @@ DOMAIN-SUFFIX,api.pionex.com # Pionex 官方后端 API 接口，用于行情获�
 DOMAIN-SUFFIX,ws.pionex.com # Pionex 实时 WebSocket 服务，用于行情推送、订单状态与机器人实时数据通信
 DOMAIN-SUFFIX,assets.pionex.com # Pionex 前端静态资源与页面资产加载域名
 
+# > ADCEX 历史加密货币交易平台（已停止运营）
+
+DOMAIN-SUFFIX,adcex.com # ADCEX 历史加密资产交易平台主域名，平台已停止运营，仅用于规则识别与历史访问兼容
+DOMAIN-SUFFIX,api.adcex.com # ADCEX 历史后端 API 接口域名，可能被旧客户端或历史程序调用（平台已停运）
+DOMAIN-SUFFIX,static.adcex.com # ADCEX 历史前端静态资源域名，用于旧页面或缓存资源加载（平台已停运）
+
+
+
 # > Wallets（钱包客户端 / 硬件钱包）
 
 DOMAIN-SUFFIX,electrum.org # Electrum 官网
