@@ -5538,6 +5538,11 @@ DOMAIN-SUFFIX,static.airpackapp.com # Airpack 产品前端静态资源 CDN，用
 
 DOMAIN-SUFFIX,wa.appsflyer.com # AppsFlyer 提供的应用归因与跳转服务域名，用于应用安装来源识别、深度链接跳转与渠道归因
 
+# > cdnfonts 公共网页字体分发服务（CDN）
+
+DOMAIN-SUFFIX,cdnfonts.com # cdnfonts 官方网站，用于公共网页字体库展示、字体信息说明与下载
+DOMAIN-SUFFIX,fonts.cdnfonts.com # cdnfonts 提供的网页字体 CDN 服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
