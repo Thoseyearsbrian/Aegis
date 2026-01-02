@@ -159,7 +159,8 @@ DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付�
 
 # > FBTC 比特币 Layer2 扩展网络与基础设施项目
 
-DOMAIN-SUFFIX,fbtc.com # FBTC 比特币 Layer2 项目官方网站，用于网络介绍、生态信息与相关服务入口
+DOMAIN-SUFFIX,fbtc.com # FBTC 官方项目网站，用于比特币 Layer2 网络介绍、技术架构说明与生态信息展示
+DOMAIN-SUFFIX,static.fbtc.com # FBTC 官方前端静态资源域，用于样式、脚本与图片等资源加载
 
 # > WBTC（Wrapped Bitcoin）比特币跨链资产与托管协议
 
