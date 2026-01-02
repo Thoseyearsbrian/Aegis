@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-02
+# - 更新时间：2026-01-03
 
 # > Speedtest 网络测速平台
 
@@ -5554,6 +5554,11 @@ DOMAIN-SUFFIX,ud-website.cdn.prismic.io # Prismic 提供的前端内容与静态
 # > EtherMail Web3 邮件内容与资源分发服务
 
 DOMAIN-SUFFIX,cdn-email.ethermail.io # EtherMail 邮件系统使用的内容与媒体资源 CDN，用于邮件正文、图片与 HTML 内容加载
+
+# > Rumble 去中心化视频内容平台与媒体分发服务
+
+DOMAIN-SUFFIX,rumble.com # Rumble 官方视频平台主域名，用于视频浏览、播放、用户频道与内容发布
+DOMAIN-SUFFIX,sp.rmbl.ws # Rumble 官方媒体与视频内容 CDN，用于视频流与相关静态资源分发
 
 # > 第三方博客网站
 
