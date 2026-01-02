@@ -294,9 +294,10 @@ DOMAIN-SUFFIX,growthepie.com # GrowThePie 官方平台，用于以太坊 Layer2 
 DOMAIN-SUFFIX,api.growthepie.com # GrowThePie 官方 API，用于 Layer2 生态数据查询、指标获取与研究数据集成
 DOMAIN-SUFFIX,static.growthepie.com # GrowThePie 前端静态资源域，用于页面脚本、样式与数据可视化组件加载
 
-# > BTC Explorer 社区区块链浏览器
+# > BTC Explorer 社区区块链浏览器（Bitcoin Unlimited）
 
 DOMAIN-SUFFIX,explorer.bitcoinunlimited.info # Bitcoin Unlimited 提供的比特币区块链浏览器，用于交易、区块与地址等链上数据查询
+DOMAIN-SUFFIX,bitcoinunlimited.info # Bitcoin Unlimited 官方项目网站，用于客户端、文档与社区项目信息发布
 
 # > Base 以太坊 Layer 2 区块链网络（Coinbase 生态）
 
