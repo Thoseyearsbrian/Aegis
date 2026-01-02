@@ -705,14 +705,12 @@ DOMAIN-SUFFIX,zapper.fi # Zapper 官方平台，用于 DeFi 资产聚合、投�
 DOMAIN-SUFFIX,api.zapper.fi # Zapper 官方 API 接口，用于 DeFi 资产、协议与投资组合数据查询
 DOMAIN-SUFFIX,static.zapper.fi # Zapper 前端静态资源域，用于页面脚本、样式与组件加载
 
-# > Market & Analytics（行情服务与数据分析）
+# > CoinMarketCap 加密资产市值排行与行情数据平台
 
-DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
-DOMAIN-SUFFIX,coingecko.com # CoinGecko 行情平台
-DOMAIN-SUFFIX,nansen.ai # Nansen 数据分析
-DOMAIN-SUFFIX,bitcoinworld.com # BitcoinWorld 资讯
-DOMAIN-SUFFIX,blockcn.com # BlockCN 区块链资讯
-DOMAIN-SUFFIX,crypto # 通用关键词
+DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 官方平台，用于加密资产市值排行、价格行情与市场数据展示
+DOMAIN-SUFFIX,api.coinmarketcap.com # CoinMarketCap 官方 API，用于行情数据、资产信息与市场指标查询
+DOMAIN-SUFFIX,static.coinmarketcap.com # CoinMarketCap 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,files.coinmarketcap.com # CoinMarketCap 媒体与数据资源分发域，用于图标、资产标识与静态数据加载
 
 # > NFT & Web3（NFT 平台）
 
