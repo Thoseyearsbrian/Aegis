@@ -514,6 +514,13 @@ DOMAIN-SUFFIX,allcoin.com # Allcoin 历史数字货币交易平台主域名，�
 DOMAIN-SUFFIX,api.allcoin.com # Allcoin 历史后端 API 接口域名，可能被旧客户端或历史程序调用（平台已停运）
 DOMAIN-SUFFIX,static.allcoin.com # Allcoin 历史前端静态资源域名，用于旧页面或缓存资源加载（平台已停运）
 
+# > AntPool 加密货币矿池与算力服务平台
+
+DOMAIN-SUFFIX,antpool.com # AntPool 官方矿池服务主域名，用于矿工算力接入、收益统计与矿池管理
+DOMAIN-SUFFIX,pool.antpool.com # AntPool 主矿池服务节点，用于矿机连接、算力提交与挖矿任务分发
+DOMAIN-SUFFIX,api.antpool.com # AntPool 官方后端 API 接口，用于收益查询、账户信息与矿池状态获取
+DOMAIN-SUFFIX,static.antpool.com # AntPool 前端静态资源域名，用于控制台页面与矿池管理界面资源加载
+
 # > Wallets（钱包客户端 / 硬件钱包）
 
 DOMAIN-SUFFIX,electrum.org # Electrum 官网
