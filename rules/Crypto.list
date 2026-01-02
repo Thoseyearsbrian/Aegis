@@ -58,6 +58,8 @@ DOMAIN-SUFFIX,bithumbcorp.com # Bithumb 交易所企业集团官网与官方信�
 
 DOMAIN-SUFFIX,bitbay.net # BitBay 官方主站与加密资产交易平台入口
 DOMAIN-SUFFIX,bitbay.market # BitBay 交易市场与前端业务展示域名
+DOMAIN-SUFFIX,api.bitbay.net # BitBay 官方交易 API，用于行情查询、交易请求与账户相关接口
+DOMAIN-SUFFIX,static.bitbay.net # BitBay 前端静态资源域，用于页面脚本、样式与组件加载
 
 # > BigONE 加密资产交易平台核心服务域名
 
