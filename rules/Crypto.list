@@ -508,6 +508,12 @@ DOMAIN-SUFFIX,api.aex.com # AEX 官方后端 API 接口，用于行情查询、�
 DOMAIN-SUFFIX,ws.aex.com # AEX 实时 WebSocket 通信接口，用于行情推送、订单状态与实时交易数据
 DOMAIN-SUFFIX,assets.aex.com # AEX 前端静态资源与页面资产加载域名
 
+# > Allcoin 历史加密资产交易平台
+
+DOMAIN-SUFFIX,allcoin.com # Allcoin 历史数字货币交易平台主域名，平台已停止主流运营，仅用于规则识别与历史访问
+DOMAIN-SUFFIX,api.allcoin.com # Allcoin 历史后端 API 接口域名，可能被旧客户端或历史程序调用（平台已停运）
+DOMAIN-SUFFIX,static.allcoin.com # Allcoin 历史前端静态资源域名，用于旧页面或缓存资源加载（平台已停运）
+
 # > Wallets（钱包客户端 / 硬件钱包）
 
 DOMAIN-SUFFIX,electrum.org # Electrum 官网
