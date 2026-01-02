@@ -77,7 +77,9 @@ DOMAIN-SUFFIX,blog.bybit.com # Bybit 官方公告与博客平台，用于平台�
 
 # > HackenProof 区块链安全审计与漏洞赏金平台
 
-DOMAIN-SUFFIX,hackenproof.com # HackenProof 区块链项目安全审计与漏洞赏金披露平台
+DOMAIN-SUFFIX,hackenproof.com # HackenProof 官方平台，用于区块链项目安全审计、漏洞赏金计划与安全披露
+DOMAIN-SUFFIX,api.hackenproof.com # HackenProof 官方 API，用于漏洞提交、项目信息与赏金计划相关接口
+DOMAIN-SUFFIX,static.hackenproof.com # HackenProof 前端静态资源域，用于页面脚本、样式与组件加载
 
 # > Bibox 加密资产交易平台核心服务域名
 
