@@ -144,6 +144,10 @@ DOMAIN-SUFFIX,proxy.mycryptoapi.com # MyCryptoAPI 提供的区块链 RPC 与数�
 
 DOMAIN-SUFFIX,monerovision.com # MoneroVision 官方网站与服务域名，用于 Monero（XMR）链上数据分析、统计指标与可视化展示
 
+# > FindETH 以太坊地址与 ENS 查询工具
+
+DOMAIN-SUFFIX,findeth.io # FindETH 官方网站与服务域名，用于以太坊地址、ENS 名称及基础链上信息查询
+
 # > LTC Explorer 莱特币区块链浏览器
 
 DOMAIN-SUFFIX,litecoinspace.org # LitecoinSpace 莱特币区块链浏览器，用于交易、区块、高度与地址等链上数据查询
