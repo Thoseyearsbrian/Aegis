@@ -97,7 +97,9 @@ DOMAIN-SUFFIX,monitor-frontend-collector.ffbbbdc6d3c353211fe2ba39c9f744cd.com # 
 
 # > BTC.com 比特币矿池与区块链数据服务平台
 
-DOMAIN-SUFFIX,btc.com # BTC.com 比特币矿池、区块链浏览器与链上数据服务平台
+DOMAIN-SUFFIX,btc.com # BTC.com 官方平台，用于比特币矿池服务、区块链浏览与链上数据查询
+DOMAIN-SUFFIX,api.btc.com # BTC.com 官方 API 接口，用于区块、交易、地址与矿池数据查询
+DOMAIN-SUFFIX,static.btc.com # BTC.com 前端静态资源域，用于页面脚本、样式与组件加载
 
 # > BTC Explorer 比特币区块链浏览器
 
