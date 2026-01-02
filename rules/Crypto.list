@@ -551,6 +551,12 @@ DOMAIN-SUFFIX,trustwalletapp.com # Trust Wallet 官方网站，用于钱包应�
 DOMAIN-SUFFIX,assets.trustwalletapp.com # Trust Wallet 官方前端静态资源域名，用于页面与应用相关资源加载
 DOMAIN-SUFFIX,download.trustwalletapp.com # Trust Wallet 官方应用与安装包下载服务，用于客户端分发
 
+# > TokenPocket 多链数字资产钱包
+
+DOMAIN-SUFFIX,tokenpocket.pro # TokenPocket 官方钱包平台，用于多链资产管理、钱包下载与 DApp 访问
+DOMAIN-SUFFIX,download.tokenpocket.pro # TokenPocket 官方客户端与安装包下载服务
+DOMAIN-SUFFIX,assets.tokenpocket.pro # TokenPocket 官方前端静态资源域名，用于页面与应用资源加载
+
 # > Blockchain Infra（区块链基础设施与浏览器）
 
 DOMAIN-SUFFIX,etherscan.io # Etherscan 浏览器
