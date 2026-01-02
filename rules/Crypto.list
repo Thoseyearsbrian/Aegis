@@ -132,8 +132,11 @@ DOMAIN-SUFFIX,api.btcmempool.org # BTC Mempool 官方 API 接口，用于比特�
 DOMAIN-SUFFIX,btcfees.org # BTC Fees 官方平台，用于比特币交易手续费水平、区块容量与打包成本分析
 DOMAIN-SUFFIX,btcfee.org # BTC Fees 备用网址域名，用于提供相同的比特币手续费与网络状态分析服务
 
-# > MyCryptoAPI 区块链数据查询与 RPC 基础设施服务
+# > MyCrypto 非托管以太坊钱包与链上资产管理平台
 
+DOMAIN-SUFFIX,mycrypto.com # MyCrypto 官方网站，用于非托管钱包工具、资产管理与安全文档访问
+DOMAIN-SUFFIX,api.mycryptoapi.com # MyCrypto 官方后端 API 服务，用于链上数据查询、交易广播与钱包功能支持
+DOMAIN-SUFFIX,static.mycrypto.com # MyCrypto 官方前端静态资源域，用于网页工具与界面资源加载
 DOMAIN-SUFFIX,mycryptoapi.com # MyCryptoAPI 官方平台，用于区块链数据服务、RPC 接口说明与开发者文档
 DOMAIN-SUFFIX,proxy.mycryptoapi.com # MyCryptoAPI 提供的区块链 RPC 与数据代理服务，用于交易、区块与地址数据查询
 
