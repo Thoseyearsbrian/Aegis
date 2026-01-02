@@ -732,6 +732,12 @@ DOMAIN-SUFFIX,bitcoinworld.com # BitcoinWorld 官方网站，用于发布比特�
 DOMAIN-SUFFIX,static.bitcoinworld.com # BitcoinWorld 前端静态资源域，用于新闻页面样式、图片与多媒体内容加载
 DOMAIN-SUFFIX,cdn.bitcoinworld.com # BitcoinWorld 官方内容分发域，用于文章图片与媒体资源加速访问
 
+# > BlockCN 区块链中文资讯与行业信息平台
+
+DOMAIN-SUFFIX,blockcn.com # BlockCN 官方网站，用于区块链与加密资产中文资讯发布、行业报道与内容阅读
+DOMAIN-SUFFIX,static.blockcn.com # BlockCN 前端静态资源域，用于页面样式、图片与文章内容加载
+DOMAIN-SUFFIX,cdn.blockcn.com # BlockCN 官方内容分发域，用于新闻配图与多媒体资源加速访问
+
 # > NFT & Web3（NFT 平台）
 
 DOMAIN-SUFFIX,opensea.io # OpenSea NFT 市场
