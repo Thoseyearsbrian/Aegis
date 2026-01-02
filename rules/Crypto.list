@@ -464,17 +464,13 @@ DOMAIN-SUFFIX,nft-static.hbfile.net # HTX（原 Huobi）NFT 业务模块静态�
 DOMAIN-SUFFIX,saving-doc.hbfile.net # HTX（原 Huobi）理财 / 储蓄（Saving / Earn）业务相关文档与说明资源分发域，用于产品规则、协议与说明页面加载
 DOMAIN-SUFFIX,hbabit.com # Huobi 相关品牌与历史业务辅助站点域名，用于活动页面、品牌展示或区域性入口，不涉及核心交易接口
 
-# > Exchanges（加密交易所 / 矿池服务）
+# > Kraken 加密资产交易所与数字资产服务平台
 
-DOMAIN-SUFFIX,kraken.com # Kraken 全球交易平台
-DOMAIN-SUFFIX,mexc.com # MEXC 全球平台
-DOMAIN-SUFFIX,mexc # MEXC 关键词
-DOMAIN-SUFFIX,okx.com # OKX 交易所
-DOMAIN-SUFFIX,pionex # Pionex 量化机器人交易平台
-DOMAIN-SUFFIX,adcex.com # ADCEX 平台
-DOMAIN-SUFFIX,aex.com # AEX 交易平台
-DOMAIN-SUFFIX,allcoin.com # AllCoin 交易平台
-DOMAIN-SUFFIX,antpool.com # AntPool 比特币矿池
+DOMAIN-SUFFIX,kraken.com # Kraken 官方加密货币交易所主域名，用于数字资产交易、账户管理与平台服务访问
+DOMAIN-SUFFIX,api.kraken.com # Kraken 官方交易与账户后端 API，用于行情查询、交易下单与账户操作
+DOMAIN-SUFFIX,ws.kraken.com # Kraken 实时 WebSocket 接口，用于行情推送、订单状态与实时数据订阅
+DOMAIN-SUFFIX,futures.kraken.com # Kraken Futures 合约交易平台，用于衍生品与期货交易服务
+DOMAIN-SUFFIX,assets.kraken.com # Kraken 前端静态资源与资产加载域名，用于页面与客户端资源分发
 
 # > Wallets（钱包客户端 / 硬件钱包）
 
