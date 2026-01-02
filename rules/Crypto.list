@@ -225,7 +225,8 @@ DOMAIN-SUFFIX,fxn.xyz # f(x) Protocol 官方网站，用于去中心化金融协
 
 # > Merkle 以太坊链上数据与基础设施服务
 
-DOMAIN-SUFFIX,eth.merkle.io # Merkle 提供的以太坊链上数据与 RPC 基础设施服务接口，用于区块链查询、交易与应用交互
+DOMAIN-SUFFIX,eth.merkle.io # Merkle 提供的以太坊链上数据与 RPC 基础设施服务接口，用于链上查询、交易广播与 DApp 交互
+DOMAIN-SUFFIX,merkle.io # Merkle 官方网站，用于区块链基础设施服务介绍、文档与生态信息
 
 # > Web3Modal 去中心化钱包连接与会话管理 API
 
