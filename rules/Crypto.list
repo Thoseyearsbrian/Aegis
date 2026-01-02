@@ -119,7 +119,8 @@ DOMAIN-SUFFIX,api.xmrscan.org # XMRScan 官方 API 接口，用于门罗币链�
 
 # > Monero Explorer 门罗币区块链浏览器
 
-DOMAIN-SUFFIX,moneroexplorer.org # Monero 官方区块链浏览器，用于门罗币交易、区块高度与网络状态查询
+DOMAIN-SUFFIX,moneroexplorer.org # Monero 官方区块链浏览器，用于门罗币（XMR）交易、区块高度、地址与网络状态查询
+DOMAIN-SUFFIX,api.moneroexplorer.org # Monero Explorer 官方 API 接口，用于区块、交易与网络数据的程序化查询
 
 # > BTC Mempool 比特币内存池与手续费可视化分析平台
 
