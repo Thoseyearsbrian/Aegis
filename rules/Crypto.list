@@ -589,6 +589,12 @@ DOMAIN-SUFFIX,bscscan.com # BscScan 官方区块浏览器，用于 BNB Smart Cha
 DOMAIN-SUFFIX,api.bscscan.com # BscScan 官方 API 接口，用于链上数据、合约与交易信息查询
 DOMAIN-SUFFIX,docs.bscscan.com # BscScan 官方开发者文档站点，用于 API 使用说明与技术文档
 
+# > TRONSCAN TRON 区块链浏览器
+
+DOMAIN-SUFFIX,tronscan.org # TRONSCAN 官方区块浏览器，用于 TRON 链交易、区块、账户与合约信息查询
+DOMAIN-SUFFIX,api.tronscan.org # TRONSCAN 官方 API 接口，用于 TRON 链上数据查询与开发者集成
+DOMAIN-SUFFIX,docs.tronscan.org # TRONSCAN 官方开发者文档站点，用于 API 使用说明与技术文档
+
 # > DeFi & DApps（去中心化金融与协议）
 
 DOMAIN-SUFFIX,1inch.io # 1inch 聚合器
