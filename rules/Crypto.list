@@ -660,6 +660,12 @@ DOMAIN-SUFFIX,api.curve.fi # Curve 官方 API，用于获取流动性池、交�
 DOMAIN-SUFFIX,app.curve.fi # Curve 官方 Web 应用入口，用于用户交互式交易与流动性操作
 DOMAIN-SUFFIX,docs.curve.fi # Curve 官方文档站点，用于协议机制、池参数与开发者文档说明
 
+# > DappRadar 去中心化应用数据与排行平台
+
+DOMAIN-SUFFIX,dappradar.com # DappRadar 官方平台，用于去中心化应用（DApp）数据统计、生态分析与排行榜展示
+DOMAIN-SUFFIX,api.dappradar.com # DappRadar 官方 API 接口，用于 DApp 数据、链上指标与排行榜信息查询
+DOMAIN-SUFFIX,static.dappradar.com # DappRadar 前端静态资源域，用于页面样式、脚本与前端组件加载
+
 # > Market & Analytics（行情服务与数据分析）
 
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
