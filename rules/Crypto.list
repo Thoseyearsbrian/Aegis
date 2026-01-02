@@ -131,6 +131,8 @@ IP-CIDR,208.31.254.33/32 # Blockscout 提供的 Ethereum Classic 区块链浏览
 # > Bitcoin 官方区块链项目主站
 
 DOMAIN-SUFFIX,bitcoin.org # Bitcoin 官方项目网站，用于协议介绍、客户端下载、技术文档与社区信息发布
+DOMAIN-SUFFIX,www.bitcoin.org # Bitcoin 官方网站前端访问域名，用于用户浏览与内容展示
+DOMAIN-SUFFIX,static.bitcoin.org # Bitcoin 官方前端静态资源域，用于样式、脚本与图片等内容加载
 
 # > Trezor 硬件钱包与加密资产自托管服务平台
 
