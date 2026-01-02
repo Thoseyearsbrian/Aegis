@@ -134,6 +134,8 @@ DOMAIN-SUFFIX,btcfee.org # BTC Fees 备用网址域名，用于提供相同的�
 
 # > MyCrypto 非托管以太坊钱包与链上资产管理平台
 
+DOMAIN-SUFFIX,crypto.com # Crypto.com 官方加密资产交易与金融服务平台主域名，用于数字资产交易、支付、钱包与平台核心功能
+DOMAIN-SUFFIX,accounts.crypto.com # Crypto.com 官方账户与身份认证服务域名，用于用户登录、账户管理与安全验证
 DOMAIN-SUFFIX,mycrypto.com # MyCrypto 官方网站，用于非托管钱包工具、资产管理与安全文档访问
 DOMAIN-SUFFIX,api.mycryptoapi.com # MyCrypto 官方后端 API 服务，用于链上数据查询、交易广播与钱包功能支持
 DOMAIN-SUFFIX,static.mycrypto.com # MyCrypto 官方前端静态资源域，用于网页工具与界面资源加载
