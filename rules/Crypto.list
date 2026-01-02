@@ -442,6 +442,9 @@ DOMAIN-SUFFIX,api.c3pool.com # C3Pool 后端 API 接口，用于矿工状态、�
 # > CEX.IO 加密资产交易平台与数字金融服务
 
 DOMAIN-SUFFIX,cex.io # CEX.IO 官方加密资产交易平台主域名，用于数字货币交易、账户访问与金融服务
+DOMAIN-SUFFIX,api.cex.io # CEX.IO 官方后端 API 接口，用于交易请求、账户管理与行情数据通信
+DOMAIN-SUFFIX,trade.cex.io # CEX.IO 官方交易前端入口，用于现货与相关交易功能访问
+DOMAIN-SUFFIX,static.cex.io # CEX.IO 前端静态资源域，用于页面脚本、样式与基础组件加载
 
 # > CoinEx 数字资产交易平台与官方前端资源服务
 
