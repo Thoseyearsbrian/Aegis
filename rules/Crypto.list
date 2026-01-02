@@ -134,7 +134,8 @@ DOMAIN-SUFFIX,btcfee.org # BTC Fees 备用网址域名，用于提供相同的�
 
 # > MyCryptoAPI 区块链数据查询与 RPC 基础设施服务
 
-DOMAIN-SUFFIX,proxy.mycryptoapi.com # MyCryptoAPI 提供的区块链 RPC 与数据代理服务，用于交易查询、地址与区块数据访问
+DOMAIN-SUFFIX,mycryptoapi.com # MyCryptoAPI 官方平台，用于区块链数据服务、RPC 接口说明与开发者文档
+DOMAIN-SUFFIX,proxy.mycryptoapi.com # MyCryptoAPI 提供的区块链 RPC 与数据代理服务，用于交易、区块与地址数据查询
 
 # > LTC Explorer 莱特币区块链浏览器
 
