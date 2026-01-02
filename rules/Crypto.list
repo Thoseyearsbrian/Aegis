@@ -42,6 +42,9 @@ DOMAIN-SUFFIX,mpc-prod-23-s6uit34pua-ue.a.run.app # 基于 Google Cloud Run 的 
 # > Bitfinex 加密资产交易平台
 
 DOMAIN-SUFFIX,bitfinex.com # Bitfinex 官方主站与加密资产交易服务入口
+DOMAIN-SUFFIX,api.bitfinex.com # Bitfinex 官方交易 API，用于行情查询、下单与账户相关接口
+DOMAIN-SUFFIX,static.bitfinex.com # Bitfinex 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,blog.bitfinex.com # Bitfinex 官方博客与公告发布平台，用于产品更新与市场公告
 IP-CIDR,104.16.168.90/32 # Bitfinex 官方 API（api.bitfinex.com）经 Cloudflare 的服务出口节点
 
 # > Bithumb 加密资产交易平台核心服务域名
@@ -756,12 +759,3 @@ DOMAIN-SUFFIX,blog.tether.to # Tether 官方博客与公告发布平台，用于
 DOMAIN-SUFFIX,redotpay.com # RedotPay 官方平台，用于加密资产支付、虚拟卡发行与法币桥接服务
 DOMAIN-SUFFIX,api.redotpay.com # RedotPay 官方 API 接口，用于支付请求、账户操作与卡服务通信
 DOMAIN-SUFFIX,static.redotpay.com # RedotPay 前端静态资源域，用于页面脚本、样式与组件加载
-
-# > IP-CIDR（常见交易平台或钱包服务IP）
-
-IP-CIDR,35.77.148.188 # OKX
-IP-CIDR,47.107.127.135 # Huobi
-IP-CIDR,47.107.32.31 # Huobi
-IP-CIDR,47.107.72.24 # Huobi
-IP-CIDR,47.107.82.99 # Huobi
-IP-CIDR,47.107.98.27 # Huobi
