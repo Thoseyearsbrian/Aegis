@@ -368,9 +368,10 @@ DOMAIN-SUFFIX,api.blockchair.com # Blockchair 区块链浏览器链上数据查�
 DOMAIN-SUFFIX,gurenla.com # Web3 / NFT 平台相关官方网站或内容入口，用于项目信息与前端页面访问
 DOMAIN-SUFFIX,img.gurenla.com # Web3 / NFT 平台前端图片与静态资源分发域名，用于页面展示与媒体资源加载
 
-# > Noxiaohao 平台日志与数据统计接口（Bitget Web3 平台功能性域名）
+# > Noxiaohao 平台日志与数据统计服务（Bitget Web3 生态）
 
-DOMAIN-SUFFIX,log.noxiaohao.com # Web3.bitget 内部日志上报与数据统计接口
+DOMAIN-SUFFIX,noxiaohao.com # Noxiaohao 官方平台或服务入口，用于平台级日志、运行数据与技术服务说明
+DOMAIN-SUFFIX,log.noxiaohao.com # Bitget Web3 平台内部日志上报与数据统计接口，用于系统运行监控与问题排查
 
 # > BWB 文件分享平台 / Web3 资源分发
 
