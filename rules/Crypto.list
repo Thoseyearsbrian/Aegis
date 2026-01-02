@@ -575,17 +575,13 @@ DOMAIN-SUFFIX,metamask.io # MetaMask 官方网站，用于钱包插件与移动�
 DOMAIN-SUFFIX,download.metamask.io # MetaMask 官方插件与移动端客户端分发下载服务
 DOMAIN-SUFFIX,assets.metamask.io # MetaMask 官方前端静态资源域名，用于页面与应用资源加载
 
-# > Blockchain Infra（区块链基础设施与浏览器）
+# > Etherscan 以太坊区块链浏览器与链上数据服务
 
-DOMAIN-SUFFIX,etherscan.io # Etherscan 浏览器
-DOMAIN-SUFFIX,etherscan.com # Etherscan 域名变体
-DOMAIN-SUFFIX,bscscan.com # BSC 浏览器
-DOMAIN-SUFFIX,tronscan.org # TRON 浏览器
-DOMAIN-SUFFIX,blockchain.com # Blockchain 浏览器与钱包
-DOMAIN-SUFFIX,infura.io # Infura 区块链 API
-DOMAIN-SUFFIX,ethgasstation.info # ETH Gas 信息平台
-DOMAIN-SUFFIX,ipfs.io # IPFS 分布式系统
-DOMAIN-SUFFIX,filecoin.io # Filecoin 存储网络
+DOMAIN-SUFFIX,etherscan.io # Etherscan 官方以太坊区块浏览器，用于交易、区块、地址与合约查询
+DOMAIN-SUFFIX,etherscan.com # Etherscan 官方域名变体，用于浏览器访问与服务入口
+DOMAIN-SUFFIX,api.etherscan.io # Etherscan 官方 API 接口，用于链上数据查询与开发者集成
+DOMAIN-SUFFIX,cn.etherscan.com # Etherscan 中文站点，用于中文用户访问与内容展示
+DOMAIN-SUFFIX,docs.etherscan.io # Etherscan 官方开发者文档站点，用于 API 使用说明与技术文档
 
 # > DeFi & DApps（去中心化金融与协议）
 
