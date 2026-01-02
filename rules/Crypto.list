@@ -253,7 +253,9 @@ DOMAIN-SUFFIX,cms.mantle.xyz # Mantle 官方内容管理系统（CMS），用于
 
 # > Dune Analytics 链上数据分析与可视化平台
 
-DOMAIN-SUFFIX,dune.com # Dune Analytics 官方网站，用于区块链链上数据查询、分析、可视化仪表盘与研究报告发布
+DOMAIN-SUFFIX,dune.com # Dune Analytics 官方平台，用于区块链链上数据查询、SQL 分析、可视化仪表盘与研究报告发布
+DOMAIN-SUFFIX,api.dune.com # Dune Analytics 官方 API，用于链上数据查询、仪表盘数据获取与开发者集成
+DOMAIN-SUFFIX,static.dune.com # Dune Analytics 前端静态资源域，用于页面脚本、样式与可视化组件加载
 
 # > Reown Web3 基础设施前端字体资源服务
 
