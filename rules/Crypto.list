@@ -189,7 +189,9 @@ DOMAIN-SUFFIX,docs.bitsafe.finance # BitSafe 官方文档与说明站点，用�
 
 # > Immunefi 加密资产安全漏洞披露与赏金平台
 
-DOMAIN-SUFFIX,immunefi.com # Immunefi 官方网站，用于加密资产与区块链项目的安全漏洞披露、漏洞赏金计划与安全研究协作
+DOMAIN-SUFFIX,immunefi.com # Immunefi 官方网站，用于区块链与加密资产项目的安全漏洞披露、漏洞赏金计划与安全研究协作
+DOMAIN-SUFFIX,app.immunefi.com # Immunefi 官方平台应用入口，用于漏洞提交、赏金管理与项目安全协作
+DOMAIN-SUFFIX,docs.immunefi.com # Immunefi 官方文档站点，用于漏洞披露流程、安全规范与研究指南说明
 
 # > Threshold Network 去中心化加密资产协议与治理平台
 
