@@ -632,6 +632,13 @@ DOMAIN-SUFFIX,api.1inch.io # 1inch 官方 API，用于链上报价、最优路�
 DOMAIN-SUFFIX,docs.1inch.io # 1inch 官方文档站点，用于协议说明、API 文档与开发者参考
 DOMAIN-SUFFIX,gov.1inch.io # 1inch 官方治理平台，用于 DAO 治理提案与投票
 
+# > Aave 去中心化借贷协议
+
+DOMAIN-SUFFIX,aave.com # Aave 官方平台，用于去中心化借贷协议介绍、生态信息与入口
+DOMAIN-SUFFIX,app.aave.com # Aave 官方 Web 应用，用于借贷、存款、质押与协议交互
+DOMAIN-SUFFIX,docs.aave.com # Aave 官方文档站点，用于协议说明、开发者文档与技术参考
+DOMAIN-SUFFIX,governance.aave.com # Aave 官方治理平台，用于 DAO 提案、治理讨论与投票
+
 # > Market & Analytics（行情服务与数据分析）
 
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
