@@ -563,6 +563,12 @@ DOMAIN-SUFFIX,myetherwallet.com # MyEtherWallet 官方网站，用于以太坊�
 DOMAIN-SUFFIX,download.myetherwallet.com # MyEtherWallet 官方客户端下载与安装包分发服务
 DOMAIN-SUFFIX,assets.myetherwallet.com # MyEtherWallet 前端静态资源域名，用于页面与应用资源加载
 
+# > Phantom Solana / 多链钱包
+
+DOMAIN-SUFFIX,phantom.app # Phantom 官方钱包网站，用于 Solana 等多链钱包服务、产品介绍与文档
+DOMAIN-SUFFIX,download.phantom.app # Phantom 官方钱包客户端与浏览器插件下载服务
+DOMAIN-SUFFIX,assets.phantom.app # Phantom 官方前端静态资源域名，用于页面与应用资源加载
+
 # > Blockchain Infra（区块链基础设施与浏览器）
 
 DOMAIN-SUFFIX,etherscan.io # Etherscan 浏览器
