@@ -152,6 +152,11 @@ DOMAIN-SUFFIX,findeth.io # FindETH 官方网站与服务域名，用于以太坊
 
 DOMAIN-SUFFIX,cryptoscamdb.org # CryptoScamDB 官方平台，用于收集、查询与披露加密诈骗域名、地址与相关风险情报
 
+# > Unstoppable Domains Web3 去中心化域名服务平台
+
+DOMAIN-SUFFIX,unstoppabledomains.com # Unstoppable Domains 官方网站，用于 Web3 去中心化域名注册、管理与区块链身份服务
+DOMAIN-SUFFIX,api.unstoppabledomains.com # Unstoppable Domains 官方 API，用于域名解析、钱包地址映射与 Web3 身份查询
+
 # > LTC Explorer 莱特币区块链浏览器
 
 DOMAIN-SUFFIX,litecoinspace.org # LitecoinSpace 莱特币区块链浏览器，用于交易、区块、高度与地址等链上数据查询
