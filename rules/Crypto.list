@@ -257,9 +257,10 @@ DOMAIN-SUFFIX,dune.com # Dune Analytics 官方平台，用于区块链链上数�
 DOMAIN-SUFFIX,api.dune.com # Dune Analytics 官方 API，用于链上数据查询、仪表盘数据获取与开发者集成
 DOMAIN-SUFFIX,static.dune.com # Dune Analytics 前端静态资源域，用于页面脚本、样式与可视化组件加载
 
-# > Reown Web3 基础设施前端字体资源服务
+# > Reown Web3 基础设施前端资源与字体分发服务
 
-DOMAIN-SUFFIX,fonts.reown.com # Reown 提供的前端字体资源分发服务，用于 Web3Modal、WalletConnect 等 Web3 基础设施的界面渲染
+DOMAIN-SUFFIX,fonts.reown.com # Reown 提供的前端字体资源分发服务，用于 Web3Modal、WalletConnect 等 Web3 基础设施界面渲染
+DOMAIN-SUFFIX,reown.com # Reown 官方网站，用于 Web3 基础设施项目介绍、文档与生态信息发布
 
 # > Global-e 跨境电商结算与本地化支付服务
 
