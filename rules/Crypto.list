@@ -506,6 +506,8 @@ DOMAIN-SUFFIX,did.gatexsecurity.com # Gate 安全体系下的去中心化身份�
 # > GateChain 公链与区块链基础设施平台（Gate 生态）
 
 DOMAIN-SUFFIX,gatechain.io # GateChain 官方公链网站，用于区块链协议介绍、技术文档、节点信息与生态项目展示
+DOMAIN-SUFFIX,explorer.gatechain.io # GateChain 官方区块链浏览器，用于交易、区块、地址与链上数据查询
+DOMAIN-SUFFIX,api.gatechain.io # GateChain 官方区块链 API 接口，用于链上数据查询、节点交互与开发者集成
 
 # > Web3 加密资产交易 API 与实时 WebSocket 通信服务
 
