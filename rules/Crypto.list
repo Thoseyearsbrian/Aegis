@@ -545,6 +545,12 @@ DOMAIN-SUFFIX,download.keyst.one # Keystone 官方固件与配套资源下载服
 DOMAIN-SUFFIX,s3.keyst.one # Keystone 固件与资源 CDN，用于硬件钱包固件与校验文件分发
 DOMAIN-SUFFIX,update.keyst.one # Keystone 硬件钱包 OTA 固件更新接口，用于设备在线升级与版本校验
 
+# > Trust Wallet 多链加密钱包
+
+DOMAIN-SUFFIX,trustwalletapp.com # Trust Wallet 官方网站，用于钱包应用下载、产品介绍与用户文档
+DOMAIN-SUFFIX,assets.trustwalletapp.com # Trust Wallet 官方前端静态资源域名，用于页面与应用相关资源加载
+DOMAIN-SUFFIX,download.trustwalletapp.com # Trust Wallet 官方应用与安装包下载服务，用于客户端分发
+
 # > Blockchain Infra（区块链基础设施与浏览器）
 
 DOMAIN-SUFFIX,etherscan.io # Etherscan 浏览器
