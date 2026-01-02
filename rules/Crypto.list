@@ -613,6 +613,12 @@ DOMAIN-SUFFIX,docs.infura.io # Infura 官方开发者文档站点，用于 API�
 DOMAIN-SUFFIX,ethgasstation.info # ETH Gas Station 官方网站，用于以太坊 Gas 费用、网络状态与拥堵情况信息查询
 DOMAIN-SUFFIX,api.ethgasstation.info # ETH Gas Station 官方 API 接口，用于 Gas 价格与网络状态数据获取
 
+# > IPFS 分布式文件系统与内容寻址网络
+
+DOMAIN-SUFFIX,ipfs.io # IPFS 官方项目网站与公共网关入口，用于分布式内容访问与协议说明
+DOMAIN-SUFFIX,gateway.ipfs.io # IPFS 官方公共网关服务，用于通过 HTTP 方式访问 IPFS 内容
+DOMAIN-SUFFIX,docs.ipfs.io # IPFS 官方文档站点，用于协议说明、使用指南与开发者文档
+
 # > DeFi & DApps（去中心化金融与协议）
 
 DOMAIN-SUFFIX,1inch.io # 1inch 聚合器
