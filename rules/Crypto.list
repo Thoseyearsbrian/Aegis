@@ -608,6 +608,11 @@ DOMAIN-SUFFIX,docs.blockchain.com # Blockchain.com 官方开发者文档站点�
 DOMAIN-SUFFIX,infura.io # Infura 官方区块链 API 与 Web3 基础设施平台，用于以太坊及多链 RPC 接入
 DOMAIN-SUFFIX,docs.infura.io # Infura 官方开发者文档站点，用于 API、RPC 与 Web3 服务使用说明
 
+# > ETH Gas Station 以太坊 Gas 费用信息平台
+
+DOMAIN-SUFFIX,ethgasstation.info # ETH Gas Station 官方网站，用于以太坊 Gas 费用、网络状态与拥堵情况信息查询
+DOMAIN-SUFFIX,api.ethgasstation.info # ETH Gas Station 官方 API 接口，用于 Gas 价格与网络状态数据获取
+
 # > DeFi & DApps（去中心化金融与协议）
 
 DOMAIN-SUFFIX,1inch.io # 1inch 聚合器
