@@ -569,6 +569,12 @@ DOMAIN-SUFFIX,phantom.app # Phantom 官方钱包网站，用于 Solana 等多链
 DOMAIN-SUFFIX,download.phantom.app # Phantom 官方钱包客户端与浏览器插件下载服务
 DOMAIN-SUFFIX,assets.phantom.app # Phantom 官方前端静态资源域名，用于页面与应用资源加载
 
+# > MetaMask 浏览器插件与移动端加密钱包
+
+DOMAIN-SUFFIX,metamask.io # MetaMask 官方网站，用于钱包插件与移动端应用下载、文档与开发者资源
+DOMAIN-SUFFIX,download.metamask.io # MetaMask 官方插件与移动端客户端分发下载服务
+DOMAIN-SUFFIX,assets.metamask.io # MetaMask 官方前端静态资源域名，用于页面与应用资源加载
+
 # > Blockchain Infra（区块链基础设施与浏览器）
 
 DOMAIN-SUFFIX,etherscan.io # Etherscan 浏览器
