@@ -465,7 +465,9 @@ DOMAIN-SUFFIX,static.coinut.com # COINUT 官方前端静态资源域名，用于
 
 # > Cruxpool 加密货币矿池平台
 
-DOMAIN-SUFFIX,cruxpool.com # Cruxpool 官方矿池平台域名，用于加密货币挖矿服务、矿工管理与收益统计
+DOMAIN-SUFFIX,cruxpool.com # Cruxpool 官方矿池平台主域名，用于加密货币挖矿服务、矿工管理与收益统计
+DOMAIN-SUFFIX,api.cruxpool.com # Cruxpool 官方矿池后端 API，用于矿工状态、算力数据与收益信息查询
+DOMAIN-SUFFIX,static.cruxpool.com # Cruxpool 官方前端静态资源域名，用于网站脚本、样式与界面资源加载
 
 # > Hydro Protocol 与 DDEX 去中心化交易协议与平台（以太坊生态）
 
