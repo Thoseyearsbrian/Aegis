@@ -583,6 +583,12 @@ DOMAIN-SUFFIX,api.etherscan.io # Etherscan 官方 API 接口，用于链上数�
 DOMAIN-SUFFIX,cn.etherscan.com # Etherscan 中文站点，用于中文用户访问与内容展示
 DOMAIN-SUFFIX,docs.etherscan.io # Etherscan 官方开发者文档站点，用于 API 使用说明与技术文档
 
+# > BscScan BNB Smart Chain 区块链浏览器
+
+DOMAIN-SUFFIX,bscscan.com # BscScan 官方区块浏览器，用于 BNB Smart Chain 链上交易、区块、地址与合约查询
+DOMAIN-SUFFIX,api.bscscan.com # BscScan 官方 API 接口，用于链上数据、合约与交易信息查询
+DOMAIN-SUFFIX,docs.bscscan.com # BscScan 官方开发者文档站点，用于 API 使用说明与技术文档
+
 # > DeFi & DApps（去中心化金融与协议）
 
 DOMAIN-SUFFIX,1inch.io # 1inch 聚合器
