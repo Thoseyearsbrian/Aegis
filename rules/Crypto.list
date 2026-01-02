@@ -109,7 +109,9 @@ DOMAIN-SUFFIX,static.btcscan.org # BTCScan 前端静态资源域，用于页面�
 
 # > LTC Explorer 莱特币区块链浏览器
 
-DOMAIN-SUFFIX,litecoinspace.org # LitecoinSpace 莱特币区块链浏览器与交易、区块、地址数据查询服务
+DOMAIN-SUFFIX,litecoinspace.org # LitecoinSpace 莱特币区块链浏览器，用于交易、区块、高度与地址等链上数据查询
+DOMAIN-SUFFIX,api.litecoinspace.org # LitecoinSpace 官方 API 接口，用于莱特币链上数据查询与第三方集成
+DOMAIN-SUFFIX,static.litecoinspace.org # LitecoinSpace 前端静态资源域，用于页面脚本、样式与组件加载
 
 # > Kas Explorer 官方区块链浏览器
 
