@@ -685,6 +685,13 @@ DOMAIN-SUFFIX,raydium.io # Raydium 官方平台，用于 Solana AMM 交易、流
 DOMAIN-SUFFIX,api.raydium.io # Raydium 官方 API 接口，用于池信息、交易数据与链上状态查询
 DOMAIN-SUFFIX,static.raydium.io # Raydium 前端静态资源域，用于页面脚本、样式与组件加载
 
+# > SushiSwap 多链去中心化交易（DEX）与 DeFi 协议
+
+DOMAIN-SUFFIX,sushiswap.org # SushiSwap 官方平台，用于多链 AMM、DeFi 协议介绍与入口
+DOMAIN-SUFFIX,app.sushi.com # SushiSwap 官方 Web 应用，用于去中心化交易、流动性提供与协议交互
+DOMAIN-SUFFIX,api.sushi.com # SushiSwap 官方 API 接口，用于池数据、链上状态与协议信息查询
+DOMAIN-SUFFIX,static.sushi.com # SushiSwap 前端静态资源域，用于页面脚本、样式与组件加载
+
 # > Market & Analytics（行情服务与数据分析）
 
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
