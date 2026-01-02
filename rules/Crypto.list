@@ -112,6 +112,11 @@ DOMAIN-SUFFIX,static.btcscan.org # BTCScan 前端静态资源域，用于页面�
 DOMAIN-SUFFIX,ethscan.org # ETHScan 以太坊区块链浏览器，用于以太坊交易、区块、地址与合约等链上数据查询
 DOMAIN-SUFFIX,api.ethscan.org # ETHScan 官方 API 接口，用于以太坊链上数据查询与开发者集成
 
+# > XMRScan 门罗币（Monero）区块链浏览器
+
+DOMAIN-SUFFIX,xmrscan.org # XMRScan 门罗币区块链浏览器，用于 Monero 交易、区块、高度与网络状态等链上数据查询
+DOMAIN-SUFFIX,api.xmrscan.org # XMRScan 官方 API 接口，用于门罗币链上数据查询与开发者集成
+
 # > LTC Explorer 莱特币区块链浏览器
 
 DOMAIN-SUFFIX,litecoinspace.org # LitecoinSpace 莱特币区块链浏览器，用于交易、区块、高度与地址等链上数据查询
