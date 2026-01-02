@@ -639,6 +639,13 @@ DOMAIN-SUFFIX,app.aave.com # Aave 官方 Web 应用，用于借贷、存款、�
 DOMAIN-SUFFIX,docs.aave.com # Aave 官方文档站点，用于协议说明、开发者文档与技术参考
 DOMAIN-SUFFIX,governance.aave.com # Aave 官方治理平台，用于 DAO 提案、治理讨论与投票
 
+# > Arbitrum 以太坊 Layer 2 扩展网络
+
+DOMAIN-SUFFIX,arbitrum.io # Arbitrum 官方网站，用于 Layer 2 网络介绍、生态项目与开发者入口
+DOMAIN-SUFFIX,bridge.arbitrum.io # Arbitrum 官方跨链桥，用于以太坊 L1 与 Arbitrum L2 之间的资产跨链
+DOMAIN-SUFFIX,docs.arbitrum.io # Arbitrum 官方文档站点，用于协议说明、开发者文档与技术规范
+DOMAIN-SUFFIX,governance.arbitrum.io # Arbitrum 官方治理平台，用于 DAO 提案、治理讨论与投票
+
 # > Market & Analytics（行情服务与数据分析）
 
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
