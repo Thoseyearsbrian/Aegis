@@ -1186,3 +1186,7 @@ DOMAIN-SUFFIX,ws.zoominfo.com # ZoomInfo WebSocket 数据接口，用于企业�
 # > New Relic 前端性能监控与用户行为指标采集
 
 DOMAIN-SUFFIX,bam.nr-data.net # New Relic 浏览器端性能与用户行为数据采集接口
+
+# > LeadSourcing 访客识别与潜客来源分析服务
+
+DOMAIN-SUFFIX,visitor.leadsourcing.co # LeadSourcing 访客识别与线索来源分析接口，用于识别网站访问者、推断公司归属与潜在销售线索
