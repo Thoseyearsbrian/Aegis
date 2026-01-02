@@ -480,6 +480,14 @@ DOMAIN-SUFFIX,contract.mexc.com # MEXC 合约交易服务子域，用于永续�
 DOMAIN-SUFFIX,spot.mexc.com # MEXC 现货交易服务子域，用于币币交易与市场操作
 DOMAIN-SUFFIX,assets.mexc.com # MEXC 前端静态资源与页面资产加载域名
 
+# > OKX 加密资产交易与 Web3 生态平台
+
+DOMAIN-SUFFIX,okx.com # OKX 官方平台主域名，用于数字资产交易、Web3 服务与账户管理
+DOMAIN-SUFFIX,api.okx.com # OKX 官方后端 API 接口，用于行情查询、交易下单、账户与资产操作
+DOMAIN-SUFFIX,ws.okx.com # OKX 实时 WebSocket 接口，用于行情推送、订单状态与实时数据订阅
+DOMAIN-SUFFIX,www.okx.com # OKX 官方前端网站入口，用于交易界面与账户访问（部分地区仍使用）
+DOMAIN-SUFFIX,static.okx.com # OKX 前端静态资源与页面资产加载域名
+
 # > Wallets（钱包客户端 / 硬件钱包）
 
 DOMAIN-SUFFIX,electrum.org # Electrum 官网
