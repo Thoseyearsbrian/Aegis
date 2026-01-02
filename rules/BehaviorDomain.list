@@ -1171,3 +1171,7 @@ DOMAIN-SUFFIX,coinbase-consumer.sjv.io # Coinbase 官方使用的联盟推广与
 # > Trezor 官方联盟推广与转化追踪域名
 
 DOMAIN-SUFFIX,trezor.go2cloud.org # Trezor 官方使用的联盟推广与转化追踪域名（Affiliate / Attribution）
+
+# > Chili Piper 销售转化与会议调度前端行为组件服务
+
+DOMAIN-SUFFIX,js.chilipiper.com # Chili Piper 前端 JavaScript 组件，用于网站表单提交、会议调度、线索分发与销售转化流程控制，涉及用户交互行为数据
