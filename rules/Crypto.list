@@ -165,6 +165,8 @@ DOMAIN-SUFFIX,static.fbtc.com # FBTC 官方前端静态资源域，用于样式�
 # > WBTC（Wrapped Bitcoin）比特币跨链资产与托管协议
 
 DOMAIN-SUFFIX,wbtc.network # WBTC 官方网站，用于 Wrapped Bitcoin 跨链资产机制介绍、托管模式说明与生态合作信息发布
+DOMAIN-SUFFIX,app.wbtc.network # WBTC 官方应用入口，用于查看 WBTC 铸造、赎回流程与相关链上数据
+DOMAIN-SUFFIX,docs.wbtc.network # WBTC 官方文档站点，用于协议说明、技术文档与开发者参考
 
 # > tBTC 去中心化比特币跨链资产协议（Threshold Network）
 
