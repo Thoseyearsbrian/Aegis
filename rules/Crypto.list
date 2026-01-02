@@ -719,6 +719,13 @@ DOMAIN-SUFFIX,api.coingecko.com # CoinGecko 官方 API 接口，用于价格、�
 DOMAIN-SUFFIX,static.coingecko.com # CoinGecko 前端静态资源域，用于页面脚本、样式与组件加载
 DOMAIN-SUFFIX,assets.coingecko.com # CoinGecko 媒体与资产资源分发域，用于代币图标与静态数据加载
 
+# > Nansen 区块链链上数据分析与智能资金追踪平台
+
+DOMAIN-SUFFIX,nansen.ai # Nansen 官方平台，用于链上数据分析、智能资金追踪与研究服务
+DOMAIN-SUFFIX,api.nansen.ai # Nansen 官方 API 接口，用于链上指标、地址标签与分析数据查询
+DOMAIN-SUFFIX,static.nansen.ai # Nansen 前端静态资源域，用于页面组件、图表与可视化资源加载
+DOMAIN-SUFFIX,assets.nansen.ai # Nansen 媒体与前端资源域，用于图标、图片与静态数据资源加载
+
 # > NFT & Web3（NFT 平台）
 
 DOMAIN-SUFFIX,opensea.io # OpenSea NFT 市场
