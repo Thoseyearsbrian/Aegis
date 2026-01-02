@@ -281,10 +281,12 @@ DOMAIN-SUFFIX,verygoodsecurity.com # VGS 官方网站，用于支付数据脱敏
 DOMAIN-SUFFIX,js.verygoodvault.com # VGS 前端 JavaScript SDK，用于支付与法币入金流程中的敏感数据脱敏与合规采集
 DOMAIN-SUFFIX,api.verygoodvault.com # VGS 官方 API 服务，用于安全数据代理、令牌化与后端合规数据处理
 
-# > Riskified 电商支付反欺诈与风险评估服务
+# > Riskified 电商支付反欺诈与风险评估基础设施服务
 
-DOMAIN-SUFFIX,c.riskified.com # Riskified 客户端风险信号与反欺诈数据采集接口，用于交易风控与欺诈识别
-DOMAIN-SUFFIX,img.riskified.com # Riskified 前端风控相关图片与静态资源分发（像素 / 设备识别组件）
+DOMAIN-SUFFIX,riskified.com # Riskified 官方网站，用于支付反欺诈、交易风险评估与风控解决方案说明
+DOMAIN-SUFFIX,c.riskified.com # Riskified 客户端风险信号采集接口，用于交易风控、设备指纹与欺诈识别
+DOMAIN-SUFFIX,img.riskified.com # Riskified 前端风控相关静态资源分发，用于反欺诈像素、设备识别组件加载
+DOMAIN-SUFFIX,api.riskified.com # Riskified 官方 API 服务，用于交易风控决策、风险评分与后端系统集成
 
 # > GrowThePie 以太坊 Layer2 / Rollup 生态数据分析平台
 
