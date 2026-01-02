@@ -710,7 +710,14 @@ DOMAIN-SUFFIX,static.zapper.fi # Zapper 前端静态资源域，用于页面脚�
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 官方平台，用于加密资产市值排行、价格行情与市场数据展示
 DOMAIN-SUFFIX,api.coinmarketcap.com # CoinMarketCap 官方 API，用于行情数据、资产信息与市场指标查询
 DOMAIN-SUFFIX,static.coinmarketcap.com # CoinMarketCap 前端静态资源域，用于页面脚本、样式与组件加载
-DOMAIN-SUFFIX,files.coinmarketcap.com # CoinMarketCap 媒体与数据资源分发域，用于图标、资产标识与静态数据加载
+DOMAIN-SUFFIX,files.coinmarketcap.com # CoinMarketCap 媒体与数据资源分发域，用于图标、资产标识与静态数据加
+
+# > CoinGecko 加密资产行情与数据分析平台
+
+DOMAIN-SUFFIX,coingecko.com # CoinGecko 官方平台，用于加密资产行情、市值数据与生态信息展示
+DOMAIN-SUFFIX,api.coingecko.com # CoinGecko 官方 API 接口，用于价格、市场指标与资产数据查询
+DOMAIN-SUFFIX,static.coingecko.com # CoinGecko 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,assets.coingecko.com # CoinGecko 媒体与资产资源分发域，用于代币图标与静态数据加载
 
 # > NFT & Web3（NFT 平台）
 
