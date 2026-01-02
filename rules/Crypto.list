@@ -183,7 +183,9 @@ DOMAIN-SUFFIX,docs.ibtc.network # iBTC 官方文档站点，用于协议原理�
 
 # > BitSafe 加密资产金融服务与资产安全平台
 
-DOMAIN-SUFFIX,bitsafe.finance # BitSafe 官方网站，用于加密资产金融服务、资产安全解决方案与相关产品信息发布
+DOMAIN-SUFFIX,bitsafe.finance # BitSafe 官方网站，用于加密资产金融服务、资产安全解决方案与产品信息发布
+DOMAIN-SUFFIX,app.bitsafe.finance # BitSafe 官方应用入口，用于账户访问、资产管理与相关金融服务操作
+DOMAIN-SUFFIX,docs.bitsafe.finance # BitSafe 官方文档与说明站点，用于产品说明、技术文档与使用指南
 
 # > Immunefi 加密资产安全漏洞披露与赏金平台
 
