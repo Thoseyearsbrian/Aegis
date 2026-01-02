@@ -625,21 +625,12 @@ DOMAIN-SUFFIX,filecoin.io # Filecoin 官方网站，用于去中心化存储网�
 DOMAIN-SUFFIX,docs.filecoin.io # Filecoin 官方文档站点，用于协议规范、开发指南与技术文档
 DOMAIN-SUFFIX,explorer.filecoin.io # Filecoin 官方区块浏览器，用于存储交易、区块与网络状态查询
 
-# > DeFi & DApps（去中心化金融与协议）
+# > 1inch 去中心化交易聚合协议
 
-DOMAIN-SUFFIX,1inch.io # 1inch 聚合器
-DOMAIN-SUFFIX,aave.com # Aave 借贷协议
-DOMAIN-SUFFIX,arbitrum.io # Arbitrum 扩展协议
-DOMAIN-SUFFIX,avax.network # Avalanche 公链
-DOMAIN-SUFFIX,curve.fi # Curve AMM
-DOMAIN-SUFFIX,dappradar.com # DApp 排行榜
-DOMAIN-SUFFIX,defillama.com # DeFi 聚合数据
-DOMAIN-SUFFIX,mdex # Mdex DEX 关键词
-DOMAIN-SUFFIX,mdex.com # Mdex DEX 官网
-DOMAIN-SUFFIX,raydium.io # Raydium Solana AMM
-DOMAIN-SUFFIX,sushiswap.org # SushiSwap 协议
-DOMAIN-SUFFIX,uniswap.org # Uniswap 去中心化交易
-DOMAIN-SUFFIX,zapper.fi # Zapper 资产管理平台
+DOMAIN-SUFFIX,1inch.io # 1inch 官方平台，用于去中心化交易聚合、路由与协议入口
+DOMAIN-SUFFIX,api.1inch.io # 1inch 官方 API，用于链上报价、最优路径计算与聚合查询
+DOMAIN-SUFFIX,docs.1inch.io # 1inch 官方文档站点，用于协议说明、API 文档与开发者参考
+DOMAIN-SUFFIX,gov.1inch.io # 1inch 官方治理平台，用于 DAO 治理提案与投票
 
 # > Market & Analytics（行情服务与数据分析）
 
