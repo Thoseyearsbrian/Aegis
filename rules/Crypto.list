@@ -103,7 +103,9 @@ DOMAIN-SUFFIX,static.btc.com # BTC.com 前端静态资源域，用于页面脚�
 
 # > BTC Explorer 比特币区块链浏览器
 
-DOMAIN-SUFFIX,btcscan.org # BTCScan 比特币区块链浏览器与链上交易、区块数据查询服务
+DOMAIN-SUFFIX,btcscan.org # BTCScan 比特币区块链浏览器，用于交易、区块、高度与地址等链上数据查询
+DOMAIN-SUFFIX,api.btcscan.org # BTCScan 官方 API 接口，用于区块链数据查询与第三方集成
+DOMAIN-SUFFIX,static.btcscan.org # BTCScan 前端静态资源域，用于页面脚本、样式与组件加载
 
 # > LTC Explorer 莱特币区块链浏览器
 
