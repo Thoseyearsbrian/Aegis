@@ -646,6 +646,13 @@ DOMAIN-SUFFIX,bridge.arbitrum.io # Arbitrum 官方跨链桥，用于以太坊 L1
 DOMAIN-SUFFIX,docs.arbitrum.io # Arbitrum 官方文档站点，用于协议说明、开发者文档与技术规范
 DOMAIN-SUFFIX,governance.arbitrum.io # Arbitrum 官方治理平台，用于 DAO 提案、治理讨论与投票
 
+# > Avalanche 公链与子网生态平台
+
+DOMAIN-SUFFIX,avax.network # Avalanche 官方网站，用于公链介绍、生态项目与开发者入口
+DOMAIN-SUFFIX,explorer.avax.network # Avalanche 官方区块浏览器，用于链上交易、区块与地址查询
+DOMAIN-SUFFIX,docs.avax.network # Avalanche 官方文档站点，用于协议说明、子网开发与技术文档
+DOMAIN-SUFFIX,subnets.avax.network # Avalanche 官方子网生态入口，用于子网介绍、工具与资源访问
+
 # > Market & Analytics（行情服务与数据分析）
 
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
