@@ -896,6 +896,7 @@ DOMAIN-SUFFIX,assets.opensea.io # OpenSea 官方媒体与资源域，用于 NFT 
 DOMAIN-SUFFIX,tether.to # Tether 官方网站，用于 USDT 稳定币信息披露、合规说明与官方公告
 DOMAIN-SUFFIX,assets.tether.to # Tether 官方静态资源域，用于白皮书、审计报告与文档文件分发
 DOMAIN-SUFFIX,blog.tether.to # Tether 官方博客与公告发布平台，用于项目更新与透明度披露
+DOMAIN-SUFFIX,api.tether.io # Tether 官方 API 接口，用于稳定币状态、发行信息与相关数据服务
 
 # > RedotPay 加密资产支付与虚拟卡平台
 
