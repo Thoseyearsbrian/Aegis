@@ -318,7 +318,9 @@ DOMAIN-SUFFIX,api.drpc.org # dRPC 官方 API 接口，用于多链区块链 RPC 
 
 # > Sourcify 智能合约源码验证与元数据服务平台
 
-DOMAIN-SUFFIX,sourcify.dev # Sourcify 智能合约源码验证与元数据发布服务，用于以太坊等 EVM 链的合约可验证性
+DOMAIN-SUFFIX,sourcify.dev # Sourcify 官方平台，用于以太坊等 EVM 链智能合约源码验证、元数据发布与可验证性支持
+DOMAIN-SUFFIX,repo.sourcify.dev # Sourcify 合约源码与元数据存储服务，用于已验证合约源码与编译产物的公开托管
+DOMAIN-SUFFIX,api.sourcify.dev # Sourcify 官方 API 接口，用于合约验证、元数据查询与开发者集成
 
 # > Web3 钱包 MPC 多方计算后端服务（Google Cloud Run）
 
