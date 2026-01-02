@@ -363,9 +363,10 @@ DOMAIN-SUFFIX,blockchain.com # Blockchain.com 官方平台，用于区块链浏�
 DOMAIN-SUFFIX,blockchain.info # Blockchain.com 区块链浏览器与加密资产查询服务
 DOMAIN-SUFFIX,api.blockchair.com # Blockchair 区块链浏览器链上数据查询与分析 API 接口
 
-# > Web3 / NFT 平台前端静态资源服务（Bitget Web3 平台功能性域名）
+# > Web3 / NFT 平台前端静态资源服务（Bitget Web3 生态）
 
-DOMAIN-SUFFIX,img.gurenla.com # 小型 Web3 / NFT 平台前端图片及资源分发域名
+DOMAIN-SUFFIX,gurenla.com # Web3 / NFT 平台相关官方网站或内容入口，用于项目信息与前端页面访问
+DOMAIN-SUFFIX,img.gurenla.com # Web3 / NFT 平台前端图片与静态资源分发域名，用于页面展示与媒体资源加载
 
 # > Noxiaohao 平台日志与数据统计接口（Bitget Web3 平台功能性域名）
 
