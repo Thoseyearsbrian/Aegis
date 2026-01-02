@@ -117,10 +117,23 @@ DOMAIN-SUFFIX,api.ethscan.org # ETHScan 官方 API 接口，用于以太坊链�
 DOMAIN-SUFFIX,xmrscan.org # XMRScan 门罗币区块链浏览器，用于 Monero 交易、区块、高度与网络状态等链上数据查询
 DOMAIN-SUFFIX,api.xmrscan.org # XMRScan 官方 API 接口，用于门罗币链上数据查询与开发者集成
 
+# > Monero Explorer 门罗币区块链浏览器
+
+DOMAIN-SUFFIX,moneroexplorer.org # Monero 官方区块链浏览器，用于门罗币交易、区块高度与网络状态查询
+
 # > BTC Mempool 比特币内存池与手续费可视化分析平台
 
 DOMAIN-SUFFIX,btcmempool.org # BTC Mempool 比特币内存池可视化平台，用于交易拥堵状态、手续费水平与打包优先级分析
 DOMAIN-SUFFIX,api.btcmempool.org # BTC Mempool 官方 API 接口，用于比特币 mempool、手续费与区块状态数据查询
+
+# > BTC Fees 比特币手续费与交易成本分析平台
+
+DOMAIN-SUFFIX,btcfees.org # BTC Fees 官方平台，用于比特币交易手续费水平、区块容量与打包成本分析
+DOMAIN-SUFFIX,btcfee.org # BTC Fees 备用网址域名，用于提供相同的比特币手续费与网络状态分析服务
+
+# > MyCryptoAPI 区块链数据查询与 RPC 基础设施服务
+
+DOMAIN-SUFFIX,proxy.mycryptoapi.com # MyCryptoAPI 提供的区块链 RPC 与数据代理服务，用于交易查询、地址与区块数据访问
 
 # > LTC Explorer 莱特币区块链浏览器
 
