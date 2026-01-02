@@ -666,6 +666,12 @@ DOMAIN-SUFFIX,dappradar.com # DappRadar 官方平台，用于去中心化应用�
 DOMAIN-SUFFIX,api.dappradar.com # DappRadar 官方 API 接口，用于 DApp 数据、链上指标与排行榜信息查询
 DOMAIN-SUFFIX,static.dappradar.com # DappRadar 前端静态资源域，用于页面样式、脚本与前端组件加载
 
+# > DeFiLlama 去中心化金融（DeFi）数据聚合平台
+
+DOMAIN-SUFFIX,defillama.com # DeFiLlama 官方平台，用于 DeFi 协议 TVL、资金流向与生态数据聚合展示
+DOMAIN-SUFFIX,api.defillama.com # DeFiLlama 官方 API 接口，用于 DeFi 协议 TVL、链上指标与历史数据查询
+DOMAIN-SUFFIX,static.defillama.com # DeFiLlama 前端静态资源域，用于页面样式、脚本与前端组件加载
+
 # > Market & Analytics（行情服务与数据分析）
 
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
