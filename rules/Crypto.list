@@ -275,9 +275,11 @@ DOMAIN-SUFFIX,static.moonpay.com # MoonPay 法币入金与加密资产购买服�
 DOMAIN-SUFFIX,api.moonpay.com # MoonPay 法币入金与加密资产购买的核心 API 接口服务
 DOMAIN-SUFFIX,buy.moonpay.com # MoonPay 嵌入式法币入金与加密资产购买页面入口
 
-# > Very Good Security（VGS）前端数据脱敏与合规采集服务
+# > Very Good Security（VGS）支付数据脱敏与合规采集基础设施
 
-DOMAIN-SUFFIX,js.verygoodvault.com # VGS 前端 JS SDK，用于支付与法币入金流程中的敏感数据脱敏与合规采集
+DOMAIN-SUFFIX,verygoodsecurity.com # VGS 官方网站，用于支付数据脱敏、合规采集与 PCI 合规解决方案介绍
+DOMAIN-SUFFIX,js.verygoodvault.com # VGS 前端 JavaScript SDK，用于支付与法币入金流程中的敏感数据脱敏与合规采集
+DOMAIN-SUFFIX,api.verygoodvault.com # VGS 官方 API 服务，用于安全数据代理、令牌化与后端合规数据处理
 
 # > Riskified 电商支付反欺诈与风险评估服务
 
