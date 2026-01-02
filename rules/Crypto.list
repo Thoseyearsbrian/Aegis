@@ -538,6 +538,13 @@ DOMAIN-SUFFIX,sparrowwallet.com # Sparrow Wallet 官方网站，用于钱包软�
 DOMAIN-SUFFIX,sparrowwallet.io # Sparrow Wallet 官方镜像站点，用于内容分发与备用访问
 DOMAIN-SUFFIX,download.sparrowwallet.com # Sparrow Wallet 官方客户端安装包下载服务
 
+# > Keystone 硬件钱包与固件更新服务
+
+DOMAIN-SUFFIX,keyst.one # Keystone 官方硬件钱包网站，用于产品信息、文档与用户支持
+DOMAIN-SUFFIX,download.keyst.one # Keystone 官方固件与配套资源下载服务，用于设备初始化与离线更新
+DOMAIN-SUFFIX,s3.keyst.one # Keystone 固件与资源 CDN，用于硬件钱包固件与校验文件分发
+DOMAIN-SUFFIX,update.keyst.one # Keystone 硬件钱包 OTA 固件更新接口，用于设备在线升级与版本校验
+
 # > Blockchain Infra（区块链基础设施与浏览器）
 
 DOMAIN-SUFFIX,etherscan.io # Etherscan 浏览器
