@@ -454,6 +454,8 @@ DOMAIN-SUFFIX,file.coinexstatic.com # CoinEx 官方前端静态资源 CDN 域名
 # > Coinrail 韩国数字货币交易平台
 
 DOMAIN-SUFFIX,coinrail.co.kr # Coinrail（韩国）数字货币交易所官方主域名，用于加密资产交易服务、账户访问与平台相关信息展示
+DOMAIN-SUFFIX,api.coinrail.co.kr # Coinrail 官方后端 API 接口，用于交易请求、账户操作与平台业务通信
+DOMAIN-SUFFIX,static.coinrail.co.kr # Coinrail 前端静态资源域名，用于网站脚本、样式与图片等资源加载
 
 # > COINUT 数字货币交易平台（台湾）
 
