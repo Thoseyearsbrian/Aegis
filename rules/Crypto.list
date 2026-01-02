@@ -501,7 +501,12 @@ DOMAIN-SUFFIX,adcex.com # ADCEX 历史加密资产交易平台主域名，平台
 DOMAIN-SUFFIX,api.adcex.com # ADCEX 历史后端 API 接口域名，可能被旧客户端或历史程序调用（平台已停运）
 DOMAIN-SUFFIX,static.adcex.com # ADCEX 历史前端静态资源域名，用于旧页面或缓存资源加载（平台已停运）
 
+# > AEX 加密资产交易平台
 
+DOMAIN-SUFFIX,aex.com # AEX 官方加密货币交易平台主域名，用于数字资产交易、账户访问与平台服务入口
+DOMAIN-SUFFIX,api.aex.com # AEX 官方后端 API 接口，用于行情查询、交易请求与账户相关操作
+DOMAIN-SUFFIX,ws.aex.com # AEX 实时 WebSocket 通信接口，用于行情推送、订单状态与实时交易数据
+DOMAIN-SUFFIX,assets.aex.com # AEX 前端静态资源与页面资产加载域名
 
 # > Wallets（钱包客户端 / 硬件钱包）
 
