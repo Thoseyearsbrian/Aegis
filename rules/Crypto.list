@@ -653,6 +653,13 @@ DOMAIN-SUFFIX,explorer.avax.network # Avalanche 官方区块浏览器，用于�
 DOMAIN-SUFFIX,docs.avax.network # Avalanche 官方文档站点，用于协议说明、子网开发与技术文档
 DOMAIN-SUFFIX,subnets.avax.network # Avalanche 官方子网生态入口，用于子网介绍、工具与资源访问
 
+# > Curve 去中心化稳定币 AMM 协议
+
+DOMAIN-SUFFIX,curve.fi # Curve 官方平台，用于稳定币 AMM 交易、流动性提供与池管理
+DOMAIN-SUFFIX,api.curve.fi # Curve 官方 API，用于获取流动性池、交易对与协议状态数据
+DOMAIN-SUFFIX,app.curve.fi # Curve 官方 Web 应用入口，用于用户交互式交易与流动性操作
+DOMAIN-SUFFIX,docs.curve.fi # Curve 官方文档站点，用于协议机制、池参数与开发者文档说明
+
 # > Market & Analytics（行情服务与数据分析）
 
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
