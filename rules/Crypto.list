@@ -203,8 +203,10 @@ DOMAIN-SUFFIX,threshold-network.ghost.io # Threshold Network 官方博客站点�
 
 # > Slush / SatoshiLabs 加密资产钱包与基础设施后端服务
 
-DOMAIN-SUFFIX,api.slush.app # Slush（SatoshiLabs）提供的后端 API 服务，用于加密资产钱包应用的数据同步、账户状态与链上交互支持
+DOMAIN-SUFFIX,api.slush.app # Slush（SatoshiLabs）官方后端 API，用于加密资产钱包应用的数据同步、账户状态查询与链上交互支持
+DOMAIN-SUFFIX,slush.app # Slush 官方钱包与服务入口域名，用于加密资产管理与用户访问
 DOMAIN-SUFFIX,satoshilabs.com # SatoshiLabs 官方公司网站，Trezor 硬件钱包背后的加密资产安全技术公司
+DOMAIN-SUFFIX,blog.satoshilabs.com # SatoshiLabs 官方博客，用于发布安全研究、产品更新与技术公告
 
 # > Onchain 区块链与加密资产生态基础设施平台
 
