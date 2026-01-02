@@ -50,6 +50,8 @@ IP-CIDR,104.16.168.90/32 # Bitfinex 官方 API（api.bitfinex.com）经 Cloudfla
 # > Bithumb 加密资产交易平台核心服务域名
 
 DOMAIN-SUFFIX,bithumb.com # Bithumb 官方主站与加密资产交易服务入口
+DOMAIN-SUFFIX,api.bithumb.com # Bithumb 官方交易 API，用于行情查询、下单与账户相关接口
+DOMAIN-SUFFIX,static.bithumb.com # Bithumb 前端静态资源域，用于页面脚本、样式与组件加载
 DOMAIN-SUFFIX,bithumbcorp.com # Bithumb 交易所企业集团官网与官方信息披露平台
 
 # > BitBay 加密资产交易平台核心服务域名
