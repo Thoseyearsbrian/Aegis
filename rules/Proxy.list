@@ -5543,6 +5543,10 @@ DOMAIN-SUFFIX,wa.appsflyer.com # AppsFlyer 提供的应用归因与跳转服务�
 DOMAIN-SUFFIX,cdnfonts.com # cdnfonts 官方网站，用于公共网页字体库展示、字体信息说明与下载
 DOMAIN-SUFFIX,fonts.cdnfonts.com # cdnfonts 提供的网页字体 CDN 服务
 
+# > Pylon 官方内容发布与博客服务
+
+DOMAIN-SUFFIX,quiknode.ghost.io # Pylon / QuickNode 使用的 Ghost 博客平台，用于官方文章与内容发布
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

@@ -1175,3 +1175,14 @@ DOMAIN-SUFFIX,trezor.go2cloud.org # Trezor 官方使用的联盟推广与转化�
 # > Chili Piper 销售转化与会议调度前端行为组件服务
 
 DOMAIN-SUFFIX,js.chilipiper.com # Chili Piper 前端 JavaScript 组件，用于网站表单提交、会议调度、线索分发与销售转化流程控制，涉及用户交互行为数据
+
+# > Pylon 用户行为分析与企业画像数据服务
+
+DOMAIN-SUFFIX,graph.usepylon.com # Pylon 用户行为数据查询与关系图接口，用于行为分析与用户画像构建
+DOMAIN-SUFFIX,avatars.usepylon.com # Pylon 用户头像与身份标识资源，用于用户行为可视化与画像展示
+DOMAIN-SUFFIX,posthog-proxy.usepylon.com # Pylon 集成的 PostHog 行为数据代理，用于事件采集与行为分析
+DOMAIN-SUFFIX,ws.zoominfo.com # ZoomInfo WebSocket 数据接口，用于企业画像、用户识别与商业情报数据同步
+
+# > New Relic 前端性能监控与用户行为指标采集
+
+DOMAIN-SUFFIX,bam.nr-data.net # New Relic 浏览器端性能与用户行为数据采集接口
