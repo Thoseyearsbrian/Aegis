@@ -527,6 +527,11 @@ DOMAIN-SUFFIX,electrum.org # Electrum 官方网站，用于钱包软件下载、
 DOMAIN-SUFFIX,download.electrum.org # Electrum 官方钱包安装包下载服务，用于客户端程序分发
 DOMAIN-SUFFIX,check.electrum.org # Electrum 官方版本校验与更新检查服务，用于客户端安全更新验证
 
+# > ElectrumSV 比特币 SV 钱包
+
+DOMAIN-SUFFIX,electrum-sv.org # ElectrumSV 官方钱包网站，用于 Bitcoin SV（BSV）钱包软件下载、文档与项目说明
+DOMAIN-SUFFIX,download.electrum-sv.org # ElectrumSV 官方钱包客户端安装包下载服务
+
 # > Blockchain Infra（区块链基础设施与浏览器）
 
 DOMAIN-SUFFIX,etherscan.io # Etherscan 浏览器
