@@ -211,6 +211,7 @@ DOMAIN-SUFFIX,blog.satoshilabs.com # SatoshiLabs 官方博客，用于发布安�
 # > Onchain 区块链与加密资产生态基础设施平台
 
 DOMAIN-SUFFIX,onchain.org # Onchain 官方网站，用于区块链与加密资产相关基础设施、生态项目与技术信息展示
+DOMAIN-SUFFIX,www.onchain.org # Onchain 官方网站前端访问域名，用于页面内容展示与用户访问
 
 # > MarkFi 去中心化金融协议前端静态资源服务
 
