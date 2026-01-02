@@ -359,6 +359,7 @@ DOMAIN-SUFFIX,scanner-backend.tradingview.com # TradingView 行情扫描与筛�
 
 # > Blockchain.com 区块链浏览器与加密资产服务平台
 
+DOMAIN-SUFFIX,blockchain.com # Blockchain.com 官方平台，用于区块链浏览、钱包服务与加密资产相关功能
 DOMAIN-SUFFIX,blockchain.info # Blockchain.com 区块链浏览器与加密资产查询服务
 DOMAIN-SUFFIX,api.blockchair.com # Blockchair 区块链浏览器链上数据查询与分析 API 接口
 
