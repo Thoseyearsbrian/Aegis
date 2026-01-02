@@ -595,6 +595,14 @@ DOMAIN-SUFFIX,tronscan.org # TRONSCAN 官方区块浏览器，用于 TRON 链交
 DOMAIN-SUFFIX,api.tronscan.org # TRONSCAN 官方 API 接口，用于 TRON 链上数据查询与开发者集成
 DOMAIN-SUFFIX,docs.tronscan.org # TRONSCAN 官方开发者文档站点，用于 API 使用说明与技术文档
 
+# > Blockchain.com 区块链浏览器与钱包服务平台
+
+DOMAIN-SUFFIX,blockchain.com # Blockchain.com 官方平台，用于区块链浏览、钱包服务与链上数据访问
+DOMAIN-SUFFIX,api.blockchain.com # Blockchain.com 官方 API 接口，用于区块链数据查询与服务集成
+DOMAIN-SUFFIX,charts.blockchain.com # Blockchain.com 官方链上数据与统计图表服务，用于区块链网络指标展示
+DOMAIN-SUFFIX,explorer.blockchain.com # Blockchain.com 区块链浏览器子站，用于交易、区块与地址查询
+DOMAIN-SUFFIX,docs.blockchain.com # Blockchain.com 官方开发者文档站点，用于 API 使用说明与技术文档
+
 # > DeFi & DApps（去中心化金融与协议）
 
 DOMAIN-SUFFIX,1inch.io # 1inch 聚合器
