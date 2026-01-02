@@ -726,6 +726,12 @@ DOMAIN-SUFFIX,api.nansen.ai # Nansen 官方 API 接口，用于链上指标、�
 DOMAIN-SUFFIX,static.nansen.ai # Nansen 前端静态资源域，用于页面组件、图表与可视化资源加载
 DOMAIN-SUFFIX,assets.nansen.ai # Nansen 媒体与前端资源域，用于图标、图片与静态数据资源加载
 
+# > BitcoinWorld 区块链与加密资产新闻资讯平台
+
+DOMAIN-SUFFIX,bitcoinworld.com # BitcoinWorld 官方网站，用于发布比特币与加密资产相关新闻、市场分析与行业资讯
+DOMAIN-SUFFIX,static.bitcoinworld.com # BitcoinWorld 前端静态资源域，用于新闻页面样式、图片与多媒体内容加载
+DOMAIN-SUFFIX,cdn.bitcoinworld.com # BitcoinWorld 官方内容分发域，用于文章图片与媒体资源加速访问
+
 # > NFT & Web3（NFT 平台）
 
 DOMAIN-SUFFIX,opensea.io # OpenSea NFT 市场
