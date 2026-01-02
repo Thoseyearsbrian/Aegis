@@ -738,24 +738,12 @@ DOMAIN-SUFFIX,blockcn.com # BlockCN 官方网站，用于区块链与加密资�
 DOMAIN-SUFFIX,static.blockcn.com # BlockCN 前端静态资源域，用于页面样式、图片与文章内容加载
 DOMAIN-SUFFIX,cdn.blockcn.com # BlockCN 官方内容分发域，用于新闻配图与多媒体资源加速访问
 
-# > NFT & Web3（NFT 平台）
+# > OpenSea NFT 数字资产交易市场
 
-DOMAIN-SUFFIX,opensea.io # OpenSea NFT 市场
-DOMAIN-SUFFIX,tether.to # 泰达币官方
-
-# > Regional Services — Turkey（土耳其本地平台）
-
-DOMAIN-SUFFIX,com.tr # .tr 域名后缀
-DOMAIN-SUFFIX,epin # 虚拟充值平台
-DOMAIN-SUFFIX,fups # 本地支付服务
-DOMAIN-SUFFIX,ininal # 虚拟卡服务
-DOMAIN-SUFFIX,iyzico # 支付网关
-DOMAIN-SUFFIX,iyzipay # 金融支付平台
-DOMAIN-SUFFIX,ozan # 数字银行服务
-DOMAIN-SUFFIX,papara # Papara 虚拟支付卡
-DOMAIN-SUFFIX,redotpay # RedotPay 加密支付平台
-DOMAIN-SUFFIX,saasexch # SaaS 交易网关
-DOMAIN-SUFFIX,sipay # 本地支付处理器
+DOMAIN-SUFFIX,opensea.io # OpenSea 官方 NFT 市场平台，用于 NFT 交易、资产展示与账户管理
+DOMAIN-SUFFIX,api.opensea.io # OpenSea 官方 API 接口，用于 NFT 资产、订单、报价与市场数据查询
+DOMAIN-SUFFIX,static.opensea.io # OpenSea 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,assets.opensea.io # OpenSea 官方媒体与资源域，用于 NFT 图片、图标与静态资源加载
 
 # > IP-CIDR（常见交易平台或钱包服务IP）
 
