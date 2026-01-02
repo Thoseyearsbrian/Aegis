@@ -415,9 +415,11 @@ DOMAIN-SUFFIX,api.onramper.com # Onramper API 接口，用于法币入金与交�
 DOMAIN-SUFFIX,cdn.onramper.com # Onramper 前端静态资源 CDN，用于交易网关页面加载
 DOMAIN-SUFFIX,check-cookie.onramper.tech # Onramper Cookie 校验接口，用于交易与支付流程
 
-# > BitKeep / Bitget Wallet 官方加密资产钱包主站
+# > BitKeep / Bitget Wallet 官方加密资产钱包平台
 
-DOMAIN-SUFFIX,bitkeep.com # BitKeep 官方网站及钱包平台入口
+DOMAIN-SUFFIX,bitkeep.com # BitKeep 官方网站及钱包平台入口，用于钱包产品介绍、下载与账户访问
+DOMAIN-SUFFIX,api.bitkeep.com # BitKeep 钱包后端 API 服务，用于账户、资产、链上交互与业务请求
+DOMAIN-SUFFIX,static.bitkeep.com # BitKeep 官方前端静态资源域，用于网站与钱包相关页面资源加载
 
 # > SaaSExch 加密资产交易与支付网关服务
 
