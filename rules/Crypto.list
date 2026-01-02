@@ -699,6 +699,12 @@ DOMAIN-SUFFIX,app.uniswap.org # Uniswap 官方 Web 应用，用于去中心化�
 DOMAIN-SUFFIX,api.uniswap.org # Uniswap 官方 API 接口，用于交易路由、报价与链上数据查询
 DOMAIN-SUFFIX,static.uniswap.org # Uniswap 前端静态资源域，用于页面脚本、样式与组件加载
 
+# > Zapper DeFi 资产管理与组合分析平台
+
+DOMAIN-SUFFIX,zapper.fi # Zapper 官方平台，用于 DeFi 资产聚合、投资组合分析与协议交互入口
+DOMAIN-SUFFIX,api.zapper.fi # Zapper 官方 API 接口，用于 DeFi 资产、协议与投资组合数据查询
+DOMAIN-SUFFIX,static.zapper.fi # Zapper 前端静态资源域，用于页面脚本、样式与组件加载
+
 # > Market & Analytics（行情服务与数据分析）
 
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
