@@ -672,6 +672,13 @@ DOMAIN-SUFFIX,defillama.com # DeFiLlama 官方平台，用于 DeFi 协议 TVL、
 DOMAIN-SUFFIX,api.defillama.com # DeFiLlama 官方 API 接口，用于 DeFi 协议 TVL、链上指标与历史数据查询
 DOMAIN-SUFFIX,static.defillama.com # DeFiLlama 前端静态资源域，用于页面样式、脚本与前端组件加载
 
+# > MDEX 去中心化交易所（DEX）协议
+
+DOMAIN-SUFFIX,mdex.com # MDEX 官方平台，用于去中心化交易、流动性挖矿与协议入口
+DOMAIN-SUFFIX,api.mdex.com # MDEX 官方后端 API，用于交易数据、池信息与链上状态查询
+DOMAIN-SUFFIX,static.mdex.com # MDEX 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-KEYWORD,mdex # MDEX 协议关键词，用于协议识别与访问匹配
+
 # > Market & Analytics（行情服务与数据分析）
 
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
