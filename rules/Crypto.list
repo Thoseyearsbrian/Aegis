@@ -488,6 +488,13 @@ DOMAIN-SUFFIX,ws.okx.com # OKX 实时 WebSocket 接口，用于行情推送、�
 DOMAIN-SUFFIX,www.okx.com # OKX 官方前端网站入口，用于交易界面与账户访问（部分地区仍使用）
 DOMAIN-SUFFIX,static.okx.com # OKX 前端静态资源与页面资产加载域名
 
+# > Pionex 加密货币量化交易与机器人交易平台
+
+DOMAIN-SUFFIX,pionex.com # Pionex 官方平台主域名，用于量化交易、自动化交易机器人与账户服务
+DOMAIN-SUFFIX,api.pionex.com # Pionex 官方后端 API 接口，用于行情获取、机器人策略执行与账户操作
+DOMAIN-SUFFIX,ws.pionex.com # Pionex 实时 WebSocket 服务，用于行情推送、订单状态与机器人实时数据通信
+DOMAIN-SUFFIX,assets.pionex.com # Pionex 前端静态资源与页面资产加载域名
+
 # > Wallets（钱包客户端 / 硬件钱包）
 
 DOMAIN-SUFFIX,electrum.org # Electrum 官网
