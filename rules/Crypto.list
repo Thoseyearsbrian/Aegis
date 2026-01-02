@@ -64,6 +64,9 @@ DOMAIN-SUFFIX,static.bitbay.net # BitBay 前端静态资源域，用于页面脚
 # > BigONE 加密资产交易平台核心服务域名
 
 DOMAIN-SUFFIX,big.one # BigONE 官方主站与加密资产交易服务入口
+DOMAIN-SUFFIX,api.big.one # BigONE 官方交易 API，用于行情查询、下单与账户相关接口
+DOMAIN-SUFFIX,static.big.one # BigONE 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,blog.big.one # BigONE 官方公告与博客平台，用于平台更新与信息披露
 
 # > Bybit 加密资产交易平台核心服务域名
 
