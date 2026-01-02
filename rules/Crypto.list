@@ -472,6 +472,14 @@ DOMAIN-SUFFIX,ws.kraken.com # Kraken 实时 WebSocket 接口，用于行情推�
 DOMAIN-SUFFIX,futures.kraken.com # Kraken Futures 合约交易平台，用于衍生品与期货交易服务
 DOMAIN-SUFFIX,assets.kraken.com # Kraken 前端静态资源与资产加载域名，用于页面与客户端资源分发
 
+# > MEXC 全球加密资产交易平台
+
+DOMAIN-SUFFIX,mexc.com # MEXC 官方交易平台主域名，用于加密资产交易、合约服务与账户访问
+DOMAIN-SUFFIX,api.mexc.com # MEXC 官方后端 API 接口，用于行情查询、交易下单与账户操作
+DOMAIN-SUFFIX,contract.mexc.com # MEXC 合约交易服务子域，用于永续合约与衍生品交易
+DOMAIN-SUFFIX,spot.mexc.com # MEXC 现货交易服务子域，用于币币交易与市场操作
+DOMAIN-SUFFIX,assets.mexc.com # MEXC 前端静态资源与页面资产加载域名
+
 # > Wallets（钱包客户端 / 硬件钱包）
 
 DOMAIN-SUFFIX,electrum.org # Electrum 官网
