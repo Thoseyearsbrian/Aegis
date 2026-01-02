@@ -142,9 +142,14 @@ DOMAIN-SUFFIX,static.mycrypto.com # MyCrypto 官方前端静态资源域，用�
 DOMAIN-SUFFIX,mycryptoapi.com # MyCryptoAPI 官方平台，用于区块链数据服务、RPC 接口说明与开发者文档
 DOMAIN-SUFFIX,proxy.mycryptoapi.com # MyCryptoAPI 提供的区块链 RPC 与数据代理服务，用于交易、区块与地址数据查询
 
-# > quicknode 相关域名
+# >  QuickNode 基础设施内部 API 服务（区块链 RPC / 后端支撑）
 
-DOMAIN-SUFFIX,quicknode.com #  QuickNode 区块链基础设施服务
+DOMAIN-SUFFIX,quicknode.com # QuickNode 官方区块链基础设施服务主站，用于多链 RPC、节点托管与开发者平台入口
+DOMAIN-SUFFIX,api.quicknode.com # QuickNode 官方 API 服务接口，用于账户管理、项目配置与节点调用
+DOMAIN-SUFFIX,docs.quicknode.com # QuickNode 官方文档站点，用于 RPC 接入说明、SDK 文档与开发者指南
+DOMAIN-SUFFIX,quiknode.net # QuickNode 官方基础域名之一，用于平台内部服务、节点基础设施与后端系统通信
+DOMAIN-SUFFIX,infra.quiknode.net # QuickNode 基础设施子域，用于区块链节点、RPC 服务与内部平台支撑
+DOMAIN-SUFFIX,quicklee-api.infra.quiknode.net # QuickNode 内部基础设施 API 服务域名，用于区块链节点、RPC 请求与平台后端支撑
 
 # > MoneroVision 门罗币链上数据分析与可视化平台
 
