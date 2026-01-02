@@ -5547,6 +5547,14 @@ DOMAIN-SUFFIX,fonts.cdnfonts.com # cdnfonts 提供的网页字体 CDN 服务
 
 DOMAIN-SUFFIX,quiknode.ghost.io # Pylon / QuickNode 使用的 Ghost 博客平台，用于官方文章与内容发布
 
+# > Prismic Headless CMS 前端内容与静态资源分发服务
+
+DOMAIN-SUFFIX,ud-website.cdn.prismic.io # Prismic 提供的前端内容与静态资源 CDN，用于 Headless CMS 网站的页面内容、JSON 数据与构建产物分发
+
+# > EtherMail Web3 邮件内容与资源分发服务
+
+DOMAIN-SUFFIX,cdn-email.ethermail.io # EtherMail 邮件系统使用的内容与媒体资源 CDN，用于邮件正文、图片与 HTML 内容加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
