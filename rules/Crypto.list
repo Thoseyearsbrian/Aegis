@@ -157,6 +157,13 @@ DOMAIN-SUFFIX,cryptoscamdb.org # CryptoScamDB 官方平台，用于收集、查�
 DOMAIN-SUFFIX,unstoppabledomains.com # Unstoppable Domains 官方网站，用于 Web3 去中心化域名注册、管理与区块链身份服务
 DOMAIN-SUFFIX,api.unstoppabledomains.com # Unstoppable Domains 官方 API，用于域名解析、钱包地址映射与 Web3 身份查询
 
+# > QuickNode 区块链 RPC 与 Web3 基础设施服务平台
+
+DOMAIN-SUFFIX,quiknode.io # QuickNode 官方网站，用于多链 RPC、节点服务与 Web3 基础设施接入
+DOMAIN-SUFFIX,api.quiknode.io # QuickNode 官方 API 接口，用于账户管理、节点配置与服务调用
+DOMAIN-SUFFIX,dashboard.quiknode.io # QuickNode 用户控制台，用于节点管理、密钥配置与用量查看
+DOMAIN-SUFFIX,docs.quiknode.io # QuickNode 官方文档站点，用于开发者接入指南与技术说明
+
 # > LTC Explorer 莱特币区块链浏览器
 
 DOMAIN-SUFFIX,litecoinspace.org # LitecoinSpace 莱特币区块链浏览器，用于交易、区块、高度与地址等链上数据查询
