@@ -692,6 +692,13 @@ DOMAIN-SUFFIX,app.sushi.com # SushiSwap 官方 Web 应用，用于去中心化�
 DOMAIN-SUFFIX,api.sushi.com # SushiSwap 官方 API 接口，用于池数据、链上状态与协议信息查询
 DOMAIN-SUFFIX,static.sushi.com # SushiSwap 前端静态资源域，用于页面脚本、样式与组件加载
 
+# > Uniswap 去中心化交易（DEX）与 AMM 协议
+
+DOMAIN-SUFFIX,uniswap.org # Uniswap 官方平台，用于 AMM 协议介绍、文档与生态入口
+DOMAIN-SUFFIX,app.uniswap.org # Uniswap 官方 Web 应用，用于去中心化交易与流动性操作
+DOMAIN-SUFFIX,api.uniswap.org # Uniswap 官方 API 接口，用于交易路由、报价与链上数据查询
+DOMAIN-SUFFIX,static.uniswap.org # Uniswap 前端静态资源域，用于页面脚本、样式与组件加载
+
 # > Market & Analytics（行情服务与数据分析）
 
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
