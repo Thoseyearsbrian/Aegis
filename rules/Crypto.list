@@ -332,9 +332,11 @@ DOMAIN-SUFFIX,a.run.app # Google Cloud Run 平台域名，用于承载 Web3 钱�
 DOMAIN-SUFFIX,bibox.banxa.com # Banxa 为 Bibox 提供的法币入金与加密资产购买网关服务
 DOMAIN-SUFFIX,bibox.banxa-sandbox.com # Banxa 为 Bibox 提供的法币入金沙盒测试环境域名
 
-# > Mercuryo 法币入金与加密资产支付组件服务
+# > Mercuryo 法币入金与加密资产支付基础设施服务
 
-DOMAIN-SUFFIX,widget.mercuryo.io # Mercuryo 嵌入式法币入金与加密资产购买支付组件
+DOMAIN-SUFFIX,mercuryo.io # Mercuryo 官方平台，用于法币入金、加密资产购买、支付解决方案与合规服务介绍
+DOMAIN-SUFFIX,widget.mercuryo.io # Mercuryo 嵌入式支付组件，用于法币入金与加密资产购买流程的前端集成
+DOMAIN-SUFFIX,api.mercuryo.io # Mercuryo 官方 API 服务，用于支付请求、订单处理、合规校验与后台系统集成
 
 # > Peatio 加密资产交易平台核心服务与前端资源
 
