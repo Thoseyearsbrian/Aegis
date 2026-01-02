@@ -151,6 +151,7 @@ DOMAIN-SUFFIX,findeth.io # FindETH 官方网站与服务域名，用于以太坊
 # > CryptoScamDB 加密诈骗与风险地址数据库
 
 DOMAIN-SUFFIX,cryptoscamdb.org # CryptoScamDB 官方平台，用于收集、查询与披露加密诈骗域名、地址与相关风险情报
+DOMAIN-SUFFIX,api.cryptoscamdb.org # CryptoScamDB 官方 API 接口，用于程序化查询加密诈骗域名、地址与安全风险数据
 
 # > Unstoppable Domains Web3 去中心化域名服务平台
 
