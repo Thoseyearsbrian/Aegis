@@ -71,6 +71,9 @@ DOMAIN-SUFFIX,blog.big.one # BigONE 官方公告与博客平台，用于平台�
 # > Bybit 加密资产交易平台核心服务域名
 
 DOMAIN-SUFFIX,bybit.com # Bybit 官方主站与加密资产交易平台核心服务入口
+DOMAIN-SUFFIX,api.bybit.com # Bybit 官方交易 API，用于行情查询、下单、账户与合约相关接口
+DOMAIN-SUFFIX,static.bybit.com # Bybit 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,blog.bybit.com # Bybit 官方公告与博客平台，用于平台更新、活动与信息披露
 
 # > HackenProof 区块链安全审计与漏洞赏金平台
 
