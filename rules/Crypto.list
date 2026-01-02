@@ -603,6 +603,11 @@ DOMAIN-SUFFIX,charts.blockchain.com # Blockchain.com 官方链上数据与统计
 DOMAIN-SUFFIX,explorer.blockchain.com # Blockchain.com 区块链浏览器子站，用于交易、区块与地址查询
 DOMAIN-SUFFIX,docs.blockchain.com # Blockchain.com 官方开发者文档站点，用于 API 使用说明与技术文档
 
+# > Infura 区块链 API 与 Web3 基础设施服务
+
+DOMAIN-SUFFIX,infura.io # Infura 官方区块链 API 与 Web3 基础设施平台，用于以太坊及多链 RPC 接入
+DOMAIN-SUFFIX,docs.infura.io # Infura 官方开发者文档站点，用于 API、RPC 与 Web3 服务使用说明
+
 # > DeFi & DApps（去中心化金融与协议）
 
 DOMAIN-SUFFIX,1inch.io # 1inch 聚合器
