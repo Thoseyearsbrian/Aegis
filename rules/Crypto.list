@@ -897,6 +897,8 @@ DOMAIN-SUFFIX,tether.to # Tether 官方网站，用于 USDT 稳定币信息披�
 DOMAIN-SUFFIX,assets.tether.to # Tether 官方静态资源域，用于白皮书、审计报告与文档文件分发
 DOMAIN-SUFFIX,blog.tether.to # Tether 官方博客与公告发布平台，用于项目更新与透明度披露
 DOMAIN-SUFFIX,api.tether.io # Tether 官方 API 接口，用于稳定币状态、发行信息与相关数据服务
+DOMAIN-SUFFIX,tether.io # Tether 稳定币生态相关官方域名，用于技术服务、产品入口或生态系统相关功能支持
+DOMAIN-SUFFIX,tetherfacts.com # TetherFacts 官方信息披露网站，用于发布与澄清 Tether（USDT）相关事实、数据与公众说明内容
 
 # > RedotPay 加密资产支付与虚拟卡平台
 
