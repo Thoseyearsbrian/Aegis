@@ -557,6 +557,12 @@ DOMAIN-SUFFIX,tokenpocket.pro # TokenPocket 官方钱包平台，用于多链资
 DOMAIN-SUFFIX,download.tokenpocket.pro # TokenPocket 官方客户端与安装包下载服务
 DOMAIN-SUFFIX,assets.tokenpocket.pro # TokenPocket 官方前端静态资源域名，用于页面与应用资源加载
 
+# > MyEtherWallet 以太坊钱包服务
+
+DOMAIN-SUFFIX,myetherwallet.com # MyEtherWallet 官方网站，用于以太坊钱包管理、工具服务与文档说明
+DOMAIN-SUFFIX,download.myetherwallet.com # MyEtherWallet 官方客户端下载与安装包分发服务
+DOMAIN-SUFFIX,assets.myetherwallet.com # MyEtherWallet 前端静态资源域名，用于页面与应用资源加载
+
 # > Blockchain Infra（区块链基础设施与浏览器）
 
 DOMAIN-SUFFIX,etherscan.io # Etherscan 浏览器
