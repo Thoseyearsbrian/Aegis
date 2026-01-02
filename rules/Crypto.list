@@ -115,8 +115,9 @@ DOMAIN-SUFFIX,static.litecoinspace.org # LitecoinSpace 前端静态资源域，�
 
 # > Kas Explorer 官方区块链浏览器
 
-DOMAIN-SUFFIX,explorer.kaspa.org # Kaspa 官方区块链浏览器，用于交易、区块与地址等链上数据查询
+DOMAIN-SUFFIX,explorer.kaspa.org # Kaspa 官方区块链浏览器，用于交易、区块、高度与地址等链上数据查询
 DOMAIN-SUFFIX,api.kaspa.org # Kaspa 官方区块链 API，用于交易、区块、地址与网络状态等链上数据查询
+DOMAIN-SUFFIX,static.kaspa.org # Kaspa 官方前端静态资源域，用于区块浏览器页面脚本、样式与组件加载
 
 # > ETC Explorer 区块链浏览器（Blockscout）
 
