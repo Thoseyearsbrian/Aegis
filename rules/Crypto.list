@@ -313,7 +313,8 @@ DOMAIN-SUFFIX,openlabelsinitiative.org # Open Labels Initiative 区块链生态�
 
 # > dRPC 去中心化多链 RPC 基础设施服务平台
 
-DOMAIN-SUFFIX,drpc.org # dRPC 提供多链区块链 RPC 接口与节点访问服务，用于 DApp、钱包与开发者调用
+DOMAIN-SUFFIX,drpc.org # dRPC 官方网站，用于多链 RPC 基础设施介绍、文档与开发者资源访问
+DOMAIN-SUFFIX,api.drpc.org # dRPC 官方 API 接口，用于多链区块链 RPC 请求、节点访问与开发者调用
 
 # > Sourcify 智能合约源码验证与元数据服务平台
 
