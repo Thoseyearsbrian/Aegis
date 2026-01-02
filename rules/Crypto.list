@@ -459,7 +459,9 @@ DOMAIN-SUFFIX,static.coinrail.co.kr # Coinrail 前端静态资源域名，用于
 
 # > COINUT 数字货币交易平台（台湾）
 
-DOMAIN-SUFFIX,coinut.com # COINUT 官方数字货币交易平台主域名，用于提供加密资产交易、账户访问与平台服务入口
+DOMAIN-SUFFIX,coinut.com # COINUT 官方数字货币交易平台主域名，用于加密资产交易、账户访问与平台服务入口
+DOMAIN-SUFFIX,api.coinut.com # COINUT 官方后端 API 接口，用于交易请求、账户操作与平台业务通信
+DOMAIN-SUFFIX,static.coinut.com # COINUT 官方前端静态资源域名，用于网站脚本、样式与图片资源加载
 
 # > Cruxpool 加密货币矿池平台
 
