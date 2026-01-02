@@ -679,6 +679,12 @@ DOMAIN-SUFFIX,api.mdex.com # MDEX 官方后端 API，用于交易数据、池信
 DOMAIN-SUFFIX,static.mdex.com # MDEX 前端静态资源域，用于页面脚本、样式与组件加载
 DOMAIN-KEYWORD,mdex # MDEX 协议关键词，用于协议识别与访问匹配
 
+# > Raydium Solana 生态 AMM 与流动性协议
+
+DOMAIN-SUFFIX,raydium.io # Raydium 官方平台，用于 Solana AMM 交易、流动性池与协议入口
+DOMAIN-SUFFIX,api.raydium.io # Raydium 官方 API 接口，用于池信息、交易数据与链上状态查询
+DOMAIN-SUFFIX,static.raydium.io # Raydium 前端静态资源域，用于页面脚本、样式与组件加载
+
 # > Market & Analytics（行情服务与数据分析）
 
 DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 市值排行
