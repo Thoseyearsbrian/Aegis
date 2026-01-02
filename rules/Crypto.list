@@ -619,6 +619,12 @@ DOMAIN-SUFFIX,ipfs.io # IPFS 官方项目网站与公共网关入口，用于分
 DOMAIN-SUFFIX,gateway.ipfs.io # IPFS 官方公共网关服务，用于通过 HTTP 方式访问 IPFS 内容
 DOMAIN-SUFFIX,docs.ipfs.io # IPFS 官方文档站点，用于协议说明、使用指南与开发者文档
 
+# > Filecoin 去中心化存储网络与生态平台
+
+DOMAIN-SUFFIX,filecoin.io # Filecoin 官方网站，用于去中心化存储网络介绍、协议说明与生态信息
+DOMAIN-SUFFIX,docs.filecoin.io # Filecoin 官方文档站点，用于协议规范、开发指南与技术文档
+DOMAIN-SUFFIX,explorer.filecoin.io # Filecoin 官方区块浏览器，用于存储交易、区块与网络状态查询
+
 # > DeFi & DApps（去中心化金融与协议）
 
 DOMAIN-SUFFIX,1inch.io # 1inch 聚合器
