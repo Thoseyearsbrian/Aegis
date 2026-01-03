@@ -975,3 +975,117 @@ DOMAIN-SUFFIX,api.onerpc.com # OneRPC 官方 API 服务，用于提供链配置�
 
 DOMAIN-SUFFIX,backoffice.shark.multi-rpc.com # Multi-RPC 区块链节点与 RPC 聚合服务的内部后台管理接口
 DOMAIN-SUFFIX,multi-rpc.com # Multi-RPC 官方区块链 RPC 聚合与多链节点基础设施服务平台
+
+# > dCellar 去中心化存储与 Web3 数据管理平台
+
+DOMAIN-SUFFIX,dcellar.io # dCellar 官方网站，用于去中心化存储协议介绍、Web3 数据管理与生态信息
+
+# > APRO 去中心化金融协议与 Web3 应用平台
+
+DOMAIN-SUFFIX,apro.com # APRO 官方平台，用于 DeFi 协议、Web3 应用与生态服务展示
+
+# > Coin.Space 多链加密钱包服务平台
+
+DOMAIN-SUFFIX,coin.space # Coin.Space 官方钱包平台，用于多链加密资产管理与钱包服务
+
+# > Anima BNB Chain 声誉与身份协议
+
+DOMAIN-SUFFIX,reputation-bnb.anima.io # Anima 在 BNB Chain 上的链上声誉与身份系统服务接口
+DOMAIN-SUFFIX,anima.io # Anima 官方平台，用于去中心化身份与链上声誉协议介绍
+
+# > Strapi 托管内容分发服务（Web3 项目使用）
+
+DOMAIN-SUFFIX,media.strapiapp.com # Strapi 托管的前端媒体与内容分发服务，用于 Web3 项目内容加载
+
+# > CodexField Web3 数据与区块链开发平台
+
+DOMAIN-SUFFIX,codexfield.com # CodexField 官方网站，用于区块链开发、数据工具与 Web3 服务介绍
+
+# > BNB Greenfield 存储网关（DeFiBIT 集成）
+
+DOMAIN-SUFFIX,greenfield-sp.defibit.io # DeFiBIT 提供的 BNB Greenfield 存储服务访问网关
+DOMAIN-SUFFIX,defibit.io # DeFiBIT 官方平台，用于区块链基础设施与存储服务
+
+# > MoveSpace Web3 / Move 生态项目平台
+
+DOMAIN-SUFFIX,movespace.xyz # MoveSpace 官方平台，用于 Move 语言生态、Web3 项目与社区信息
+
+# > Stability World AI 与去中心化金融实验平台
+
+DOMAIN-SUFFIX,stabilityworld.ai # Stability World 官方平台，用于 AI + DeFi 实验性协议与研究展示
+
+# > Fetch.ai 去中心化 AI 与自治代理网络
+
+DOMAIN-SUFFIX,fetch.ai # Fetch.ai 官方平台，用于去中心化 AI、自治代理与区块链基础设施
+
+# > DIN Web3 社交与身份项目
+
+DOMAIN-SUFFIX,din.lol # DIN 官方平台，用于 Web3 社交、身份与社区项目展示
+
+# > NFTrade 多链 NFT 聚合交易市场
+
+DOMAIN-SUFFIX,nftrade.com # NFTrade 官方 NFT 市场平台，用于多链 NFT 交易与聚合服务
+
+# > MPCVault 多方计算钱包文档服务
+
+DOMAIN-SUFFIX,docs.mpcvault.com # MPCVault 官方文档站点，用于 MPC 钱包与安全架构说明
+DOMAIN-SUFFIX,mpcvault.com # MPCVault 官方平台，用于多方计算钱包与安全托管服务
+
+# > LayerZero 跨链通信协议与基础设施
+
+DOMAIN-SUFFIX,layerzero.network # LayerZero 官方平台，用于跨链消息协议、全链互操作基础设施
+
+# > Transak 法币入金与加密支付服务（静态资源）
+
+DOMAIN-SUFFIX,assets.transak.com # Transak 官方前端静态资源域，用于法币入金与支付组件加载
+DOMAIN-SUFFIX,transak.com # Transak 官方平台，用于法币与加密资产支付服务
+
+# > RedStone 去中心化预言机与数据服务
+
+DOMAIN-SUFFIX,redstone.finance # RedStone 官方平台，用于去中心化预言机与链上数据服务
+
+# > Band Protocol 去中心化预言机网络
+
+DOMAIN-SUFFIX,bandprotocol.com # Band Protocol 官方平台，用于跨链预言机与数据服务
+
+# > Web3Games 区块链游戏生态平台
+
+DOMAIN-SUFFIX,web3games.com # Web3Games 官方平台，用于区块链游戏生态与项目聚合
+
+# > Dagora NFT 市场与数字资产平台
+
+DOMAIN-SUFFIX,dagora.xyz # Dagora 官方 NFT 市场，用于数字藏品交易与 NFT 生态服务
+
+# > OrboFi 去中心化 AI 与 Web3 应用平台
+
+DOMAIN-SUFFIX,orbofi.com # OrboFi 官方平台，用于 AI 驱动的 Web3 应用与基础设施
+
+# > MEET48 Web3 娱乐与社交项目
+
+DOMAIN-SUFFIX,meet48.xyz # MEET48 官方平台，用于 Web3 娱乐、社交与社区项目
+
+# > Colyseus 实时多人游戏与 Web3 后端框架
+
+DOMAIN-SUFFIX,colyseus.io # Colyseus 官方平台，用于实时多人游戏与 Web3 后端框架
+
+# > Infura IPFS 网关（内容寻址存储）
+
+DOMAIN-SUFFIX,ccgateway.infura-ipfs.io # Infura 提供的 IPFS 内容网关服务，用于去中心化内容访问
+
+# > Vulcan Forged Web3 游戏生态（静态资源）
+
+DOMAIN-SUFFIX,cdn.vulcanforged.com # Vulcan Forged Web3 游戏生态前端静态资源分发
+DOMAIN-SUFFIX,vulcanforged.com # Vulcan Forged 官方平台，用于区块链游戏与 NFT 生态
+
+# > Web3Auth 去中心化身份与钱包登录服务
+
+DOMAIN-SUFFIX,web3auth.io # Web3Auth 官方平台，用于去中心化身份认证与钱包登录
+
+# > Element NFT 多链交易市场
+
+DOMAIN-SUFFIX,element.market # Element 官方 NFT 市场，用于多链 NFT 交易与聚合
+
+# > DeFiWay 跨链支付与资产转移服务
+
+DOMAIN-SUFFIX,fs.defiway.com # DeFiWay 官方文件与服务接口，用于跨链支付与资产管理
+DOMAIN-SUFFIX,defiway.com # DeFiWay 官方平台，用于跨链金融与支付基础设施
