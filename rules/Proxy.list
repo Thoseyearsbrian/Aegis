@@ -5621,6 +5621,10 @@ DOMAIN-SUFFIX,api.inkeep.com # Inkeep 官方后端 API，用于产品文档搜�
 
 DOMAIN-SUFFIX,i.postimg.cc # Postimg 提供的图片托管与外链访问 CDN 域名，用于用户上传图片的展示与分发
 
+# > Typeform 前端公共静态资源分发服务
+
+DOMAIN-SUFFIX,public-assets.typeform.com # Typeform 官方前端公共静态资源 CDN，用于加载问卷页面所需的脚本、样式、字体与基础 UI 资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
