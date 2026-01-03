@@ -1133,3 +1133,15 @@ DOMAIN-SUFFIX,liteflow.mypinata.cloud # Pinata 提供的 IPFS 网关子域，用
 # > Rhino.fi 去中心化跨链交易与资产桥接协议
 
 DOMAIN-SUFFIX,rhino.fi # Rhino.fi 官方平台，用于跨链交易、资产桥接与 Layer2 / DeFi 生态交互
+
+# > TraceMove 区块链交易追踪与合规分析平台
+
+DOMAIN-SUFFIX,tracemove.io # TraceMove 官方平台，用于区块链交易追踪、地址关联分析与合规风控研究，常用于反洗钱（AML）与链上行为审计
+
+# > BSCTrace BNB Smart Chain 区块链浏览器
+
+DOMAIN-SUFFIX,bsctrace.com # BSCTrace 区块链浏览器，用于 BNB Smart Chain（BSC）上的交易、区块、地址与合约数据查询
+
+# > GreenfieldScan BNB Greenfield 去中心化存储链浏览器
+
+DOMAIN-SUFFIX,greenfieldscan.com # GreenfieldScan 官方浏览器，用于 BNB Greenfield 去中心化存储网络的区块、对象、交易与链上状态查询
