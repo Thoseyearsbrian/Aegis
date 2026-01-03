@@ -5582,6 +5582,10 @@ DOMAIN-SUFFIX,img.telemetr.io # Telemetr 提供的前端图片与可视化资源
 DOMAIN-SUFFIX,tgstat.ru # TGStat 官方统计平台，用于 Telegram 频道、群组的订阅数、互动数据与传播效果分析
 DOMAIN-SUFFIX,cn.tgstat.com # TGStat 中文站点，用于展示 Telegram 频道与群组的公开统计数据、订阅趋势与排行信息
 
+# > Selectel CDN 内容分发与云资源加速服务
+
+DOMAIN-SUFFIX,selcdn.ru # Selectel（俄罗斯云服务商）提供的 CDN 与静态资源分发域名，用于网站图片、脚本、视频等内容加速分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
