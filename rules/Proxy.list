@@ -926,6 +926,7 @@ DOMAIN-SUFFIX,external-preview.redd.it  # Reddit 外部资源预览接口（多�
 DOMAIN-SUFFIX,styles.redditmedia.com # Reddit 前端样式与内容渲染域名
 DOMAIN-SUFFIX,v.redd.it  # Reddit 视频内容直链域名
 DOMAIN-SUFFIX,redd.it # Reddit 官方短链域名（如分享链接）
+DOMAIN-SUFFIX,ads.reddit.com # Reddit 官方广告系统域名
 DOMAIN-SUFFIX,ssl.reddit.com # Reddit SSL 入口，用于 HTTPS 服务与认证接口
 DOMAIN-SUFFIX,redditinc.com # Reddit, Inc. 官方公司域名，用于公司级服务、企业信息、内部系统及部分平台级基础接口
 DOMAIN-SUFFIX,reddit.my.site.com # Reddit 使用 Salesforce（my.site.com）托管的客户成功、支持或企业后台子站点，用于官方业务支持与内部系统访问
