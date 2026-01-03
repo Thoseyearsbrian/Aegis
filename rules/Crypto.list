@@ -26,6 +26,12 @@ IP-CIDR,120.76.205.62/32 # Binance 使用的云端基础设施节点（阿里云
 IP-CIDR,120.78.229.149/32 # Binance 云端服务节点（阿里云），可能承担交易、账户或数据处理相关请求
 IP-CIDR,120.79.3.17/32 # Binance 云端基础设施节点（阿里云），用于平台核心服务或 API 后端通信
 
+# > BNB Chain（原 Binance Smart Chain）区块链网络官方平台
+
+DOMAIN-SUFFIX,bnbchain.org # BNB Chain 官方网站，用于区块链网络介绍、技术文档、生态项目与开发者资源入口
+DOMAIN-SUFFIX,docs.bnbchain.org # BNB Chain 官方技术文档站点，用于开发文档、API 说明与协议规范
+DOMAIN-SUFFIX,explorer.bnbchain.org # BNB Chain 官方区块链浏览器入口，用于区块、交易与地址查询
+
 # > Bitget 加密资产交易平台
 
 DOMAIN-SUFFIX,bitget.com # Bitget 官方主站与加密资产交易服务入口
