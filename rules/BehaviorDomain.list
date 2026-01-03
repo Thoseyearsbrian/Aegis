@@ -1186,6 +1186,7 @@ DOMAIN-SUFFIX,ws.zoominfo.com # ZoomInfo WebSocket 数据接口，用于企业�
 # > New Relic 前端性能监控与用户行为指标采集
 
 DOMAIN-SUFFIX,bam.nr-data.net # New Relic 浏览器端性能与用户行为数据采集接口
+DOMAIN-SUFFIX,js-agent.newrelic.com # New Relic 前端性能监控 JS Agent，用于采集页面加载性能、错误与运行指标，属于典型用户行为与性能分析脚本
 
 # > LeadSourcing 访客识别与潜客来源分析服务
 
@@ -1198,6 +1199,7 @@ DOMAIN-SUFFIX,platform-api.sharethis.com # ShareThis 平台核心 API，用于�
 # > TGStat Telegram 频道与社群数据统计分析平台
 
 DOMAIN-SUFFIX,tgstat.ru # TGStat 官方统计平台，用于 Telegram 频道、群组的订阅数、互动数据与传播效果分析
+DOMAIN-SUFFIX,cn.tgstat.com # TGStat 中文站点，用于展示 Telegram 频道与群组的公开统计数据、订阅趋势与排行信息
 
 # > Yandex WebVisor 用户行为回放与访问分析服务
 

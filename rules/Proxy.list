@@ -2839,7 +2839,6 @@ DOMAIN-SUFFIX,sequoia-pgp.org # Rust 编写的现代 PGP 加密实现项目 Sequ
 # > Telegram 频道/群组目录与分析服务相关域名
 
 DOMAIN-SUFFIX,tgstat.com  # TGStat 频道与群组统计目录平台  
-DOMAIN-SUFFIX,telemetr.io  # Telemetr.io Telegram 频道与群分析服务  
 DOMAIN-SUFFIX,tlgrm.eu  # TLGRM 提供 Telegram 频道目录服务（channels 路径）  
 DOMAIN-SUFFIX,telegramchannels.me  # TelegramChannels.me 频道目录网站  
 DOMAIN-SUFFIX,telegram‑group.com  # Telegram‑group.com 群组与频道目录平台  
@@ -5572,6 +5571,11 @@ DOMAIN-SUFFIX,cdn.substackcdn.com # Substack CDN 二级分发节点，用于提�
 # > Breezy HR 招聘平台前端静态资源分发服务
 
 DOMAIN-SUFFIX,assets-cdn.breezy.hr # Breezy HR 官方前端静态资源 CDN，用于招聘页面的样式、脚本、图片等资源加载，不涉及用户行为追踪
+
+# > Telemetr Telegram 统计平台前端图片资源服务
+
+DOMAIN-SUFFIX,telemetr.io  # Telemetr.io Telegram 频道与群分析服务
+DOMAIN-SUFFIX,img.telemetr.io # Telemetr 提供的前端图片与可视化资源分发域名，用于 Telegram 频道统计页面展示
 
 # > 第三方博客网站
 
