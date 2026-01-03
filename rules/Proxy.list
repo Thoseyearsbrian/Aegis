@@ -5564,6 +5564,11 @@ DOMAIN-SUFFIX,sp.rmbl.ws # Rumble 官方媒体与视频内容 CDN，用于视频
 
 DOMAIN-SUFFIX,tether.recruitee.com # Coinbase / Tether 使用的 Recruitee 招聘子域，用于职位发布、招聘流程与候选人管理
 
+# > Substack 官方内容分发与静态资源 CDN 服务
+
+DOMAIN-SUFFIX,substackcdn.com # Substack 官方内容分发 CDN，用于博客文章正文、图片、样式表、脚本与嵌入资源加载
+DOMAIN-SUFFIX,cdn.substackcdn.com # Substack CDN 二级分发节点，用于提升全球访问速度与缓存命中率
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
