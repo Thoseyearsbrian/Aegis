@@ -5625,6 +5625,12 @@ DOMAIN-SUFFIX,i.postimg.cc # Postimg 提供的图片托管与外链访问 CDN �
 
 DOMAIN-SUFFIX,public-assets.typeform.com # Typeform 官方前端公共静态资源 CDN，用于加载问卷页面所需的脚本、样式、字体与基础 UI 资源
 
+# > Tally 在线表单与数据收集平台
+
+DOMAIN-SUFFIX,tally.so # Tally 官方在线表单平台，用于创建、发布表单并收集用户输入数据
+DOMAIN-SUFFIX,api.tally.so # Tally 后端 API 服务，用于表单提交、数据同步与平台功能通信
+DOMAIN-SUFFIX,assets.tally.so # Tally 前端静态资源分发域名，用于加载表单页面所需的脚本、样式与组件资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
