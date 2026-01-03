@@ -1202,3 +1202,7 @@ DOMAIN-SUFFIX,tgstat.ru # TGStat 官方统计平台，用于 Telegram 频道、�
 # > Yandex WebVisor 用户行为回放与访问分析服务
 
 DOMAIN-SUFFIX,mc.webvisor.org # Yandex WebVisor 行为分析服务接口，用于页面访问记录、用户操作回放与行为轨迹分析
+
+# > TGCNT Telegram 频道 / 群组统计与计数服务
+
+DOMAIN-SUFFIX,tgcnt.ru # TGCNT 提供 Telegram 频道与群组的公开统计、订阅数计数与增长趋势展示服务
