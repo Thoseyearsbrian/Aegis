@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-03
+# - 更新时间：2026-01-04
 
 # > Speedtest 网络测速平台
 
@@ -5630,6 +5630,10 @@ DOMAIN-SUFFIX,public-assets.typeform.com # Typeform 官方前端公共静态资�
 DOMAIN-SUFFIX,tally.so # Tally 官方在线表单平台，用于创建、发布表单并收集用户输入数据
 DOMAIN-SUFFIX,api.tally.so # Tally 后端 API 服务，用于表单提交、数据同步与平台功能通信
 DOMAIN-SUFFIX,assets.tally.so # Tally 前端静态资源分发域名，用于加载表单页面所需的脚本、样式与组件资源
+
+# > Build n Build 开发者社区与技术内容平台
+
+DOMAIN-SUFFIX,buildnbuild.dev # Build n Build 官方开发者社区平台，用于发布开发技术文章、教程、项目分享与工程实践内容
 
 # > 第三方博客网站
 
