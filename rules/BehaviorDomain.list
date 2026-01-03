@@ -1203,3 +1203,7 @@ DOMAIN-SUFFIX,mc.webvisor.org # Yandex WebVisor 行为分析服务接口，用�
 # > TGCNT Telegram 频道 / 群组统计与计数服务
 
 DOMAIN-SUFFIX,tgcnt.ru # TGCNT 提供 Telegram 频道与群组的公开统计、订阅数计数与增长趋势展示服务
+
+# > LogRocket 前端会话回放与用户行为分析资源服务
+
+DOMAIN-SUFFIX,cdn.lr-in.com # LogRocket 提供的前端会话回放与用户行为分析相关静态资源 CDN，用于页面录制、错误追踪与用户行为分析

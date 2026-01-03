@@ -928,8 +928,13 @@ DOMAIN-SUFFIX,v.redd.it  # Reddit 视频内容直链域名
 DOMAIN-SUFFIX,redd.it # Reddit 官方短链域名（如分享链接）
 DOMAIN-SUFFIX,ssl.reddit.com # Reddit SSL 入口，用于 HTTPS 服务与认证接口
 DOMAIN-SUFFIX,redditinc.com # Reddit, Inc. 官方公司域名，用于公司级服务、企业信息、内部系统及部分平台级基础接口
+DOMAIN-SUFFIX,reddit.my.site.com # Reddit 使用 Salesforce（my.site.com）托管的客户成功、支持或企业后台子站点，用于官方业务支持与内部系统访问
 IP-CIDR,151.101.1.140/32 # Reddit CDN 节点 IP（Fastly 平台）
 IP-CIDR,151.101.65.140/32 # Reddit CDN 节点 IP（Fastly 平台）
+
+# > Sift Science 反欺诈与风险识别前端资源 CDN
+
+DOMAIN-SUFFIX,cdn.siftscience.com # Sift 提供的前端静态资源 CDN，用于反欺诈、风控 SDK 脚本与客户端安全组件加载
 
 # > Expedia 在线旅游平台相关域名
 
