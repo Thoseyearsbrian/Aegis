@@ -235,3 +235,5 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 如果你認可本專案的價值，歡迎 Star ⭐️ 支援，相關更新將同步發布至 [Telegram](https://telegram.org) 通知頻道，歡迎訂閱關注。
 
 **Telegram 版本更新頻道** - <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a> : 用於發布最新版本、更新日誌與重要公告
+
+**Telegram 使用者共建群組** - <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a> : 歡迎提交建議、回饋問題、參與社群共建
