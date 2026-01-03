@@ -5598,6 +5598,7 @@ DOMAIN-SUFFIX,selcdn.ru # Selectel（俄罗斯云服务商）提供的 CDN 与�
 
 DOMAIN-SUFFIX,cdn.getro.com # Getro 招聘平台前端静态资源 CDN，用于职位页面、样式与脚本资源加载
 DOMAIN-SUFFIX,cdn-customers.getro.com # Getro 客户侧前端资源分发域名，用于企业招聘页面与职位展示
+DOMAIN-SUFFIX,api.getro.com # Getro 招聘平台核心后端 API 服务，用于职位数据、候选人信息、招聘流程与平台业务逻辑通信
 
 # > Filestack（原 Filepicker）文件上传与媒体处理 CDN 服务
 
