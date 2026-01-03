@@ -1194,3 +1194,35 @@ DOMAIN-SUFFIX,core.public-rpc.com # CORE Network 提供的公共 RPC 节点服�
 # > Chiliz 公链公共 RPC 节点与链上基础设施服务
 
 DOMAIN-SUFFIX,chiliz.public-rpc.com # Chiliz Network 提供的公共 RPC 节点服务，用于 Chiliz 公链的交易广播、区块查询与链上数据访问
+
+# > Horizen EON EVM 网络公共 RPC 节点服务
+
+DOMAIN-SUFFIX,horizen-eon.public-rpc.com # Horizen EON（EVM 兼容网络）提供的公共 RPC 节点服务，用于交易广播、区块查询与智能合约交互
+
+# > IOTA EVM 网络公共 RPC 节点服务
+
+DOMAIN-SUFFIX,iotaevm-rpc.com # IOTA EVM 网络提供的公共 RPC 节点服务，用于 EVM 兼容链上交易、区块与合约状态访问
+
+# > Kava 公链公共 RPC 节点服务
+
+DOMAIN-SUFFIX,kava-rpc.com # Kava Network 提供的公共 RPC 节点服务，用于 Kava 公链的交易广播、区块查询与链上数据访问
+
+# > Kinto 区块链网络公共 RPC 节点服务
+
+DOMAIN-SUFFIX,kinto-rpc.com # Kinto Network 提供的公共 RPC 节点服务，用于区块链节点访问、交易广播与链上状态查询
+
+# > Klaytn 公链公共 RPC 节点服务
+
+DOMAIN-SUFFIX,klaytn.public-rpc.com # Klaytn Network 提供的公共 RPC 节点服务，用于 Klaytn 公链的交易广播、区块查询与智能合约交互
+
+# > Mantle Layer2 网络公共 RPC 节点服务
+
+DOMAIN-SUFFIX,mantle.public-rpc.com # Mantle Layer2 网络提供的公共 RPC 节点服务，用于交易、区块与链上状态查询
+
+# > NEAR 公链公共 RPC 节点服务
+
+DOMAIN-SUFFIX,near.public-rpc.com # NEAR Protocol 提供的公共 RPC 节点服务，用于 NEAR 公链的交易广播、区块查询与链上数据访问
+
+# > Polygon 公链与 zkEVM 网络公共 RPC 节点服务
+
+DOMAIN-SUFFIX,polygon-rpc.com # Polygon Network 提供的公共 RPC 节点服务，覆盖 Polygon PoS 及 zkEVM 网络的交易广播、区块与合约状态查询
