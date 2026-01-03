@@ -1246,3 +1246,13 @@ DOMAIN-SUFFIX,rest-mainnet.onflow.org # Flow 区块链官方主网 REST API 接�
 # > Circle 稳定币与金融基础设施 API 服务
 
 DOMAIN-SUFFIX,iris-api.circle.com # Circle 官方后端 API 服务，用于 USDC 等稳定币、账户、风控与金融基础设施相关业务接口
+
+# > Torus Web3 钱包无私钥登录与身份管理后端服务
+
+DOMAIN-SUFFIX,api.tor.us # Torus 官方后端 API，用于 Web3 钱包的无私钥登录、身份恢复、密钥分片管理与 OAuth 登录流程支持
+DOMAIN-SUFFIX,tor.us # Torus 官方平台主域名，用于 Web3 登录基础设施与开发者文档
+
+# > Blocto 多链 Web3 钱包核心前端与业务服务
+
+DOMAIN-SUFFIX,wallet-v2.blocto.app # Blocto 钱包 V2 版本前端与业务接口域名，用于多链钱包访问、账户管理、交易签名与资产操作
+DOMAIN-SUFFIX,blocto.app # Blocto 官方钱包平台主域名，用于钱包入口、产品信息与生态服务
