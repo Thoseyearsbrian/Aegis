@@ -5613,6 +5613,10 @@ DOMAIN-SUFFIX,cdn.staticfile.org # Staticfile 前端公共资源 CDN 子域，�
 
 DOMAIN-SUFFIX,ugc.production.linktr.ee # Linktree 官方 UGC 内容与媒体资源分发域名，用于用户主页图片、视频等内容加载
 
+# > Inkeep 产品内搜索与 AI 帮助系统后端服务
+
+DOMAIN-SUFFIX,api.inkeep.com # Inkeep 官方后端 API，用于产品文档搜索、AI 问答、用户支持与知识库交互请求
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
