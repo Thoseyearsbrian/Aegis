@@ -1089,3 +1089,23 @@ DOMAIN-SUFFIX,element.market # Element 官方 NFT 市场，用于多链 NFT 交�
 
 DOMAIN-SUFFIX,fs.defiway.com # DeFiWay 官方文件与服务接口，用于跨链支付与资产管理
 DOMAIN-SUFFIX,defiway.com # DeFiWay 官方平台，用于跨链金融与支付基础设施
+
+# > VoltBot BNB Greenfield 存储服务节点（SP）
+
+DOMAIN-SUFFIX,greenfield-sp.voltbot.io # VoltBot 提供的 BNB Greenfield Storage Provider（SP）节点，用于去中心化对象存储与链上数据访问
+DOMAIN-SUFFIX,voltbot.io # VoltBot 官方平台，用于 Web3 基础设施与自动化服务
+
+# > Nariox BNB Greenfield 存储服务节点（SP）
+
+DOMAIN-SUFFIX,greenfield-sp.nariox.org # Nariox 提供的 BNB Greenfield Storage Provider（SP）节点，用于去中心化存储与数据服务
+DOMAIN-SUFFIX,nariox.org # Nariox 官方平台，用于区块链基础设施与节点服务
+
+# > LumiBot BNB Greenfield 存储服务节点（SP）
+
+DOMAIN-SUFFIX,greenfield-sp.lumibot.org # LumiBot 提供的 BNB Greenfield Storage Provider（SP）节点，用于去中心化对象存储与链上数据访问
+DOMAIN-SUFFIX,lumibot.org # LumiBot 官方平台，用于 Web3 自动化与区块链服务
+
+# > 4EVERLAND BNB Greenfield 主网存储服务节点（SP）
+
+DOMAIN-SUFFIX,gnfd-mainnet-sp.4everland.org # 4EVERLAND 提供的 BNB Greenfield 主网 Storage Provider（SP）节点，用于去中心化存储服务
+DOMAIN-SUFFIX,4everland.org # 4EVERLAND 官方平台，用于 Web3 去中心化存储、托管与基础设施服务
