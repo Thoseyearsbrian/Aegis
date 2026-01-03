@@ -58,6 +58,9 @@ DOMAIN-SUFFIX,celer.network # Celer Network 官方主站，用于跨链协议、
 
 # > deBridge 跨链流动性与资产桥接协议
 
+DOMAIN-SUFFIX,debridge.com # deBridge 官方平台主域名，用于去中心化跨链桥服务、跨链资产桥接与链间流动性协议功能入口
+DOMAIN-SUFFIX,app.debridge.com # deBridge 官方应用子域，用于跨链资产桥接页面、交易交互与用户操作界面
+DOMAIN-SUFFIX,explorer.debridge.com # deBridge 跨链桥统计与操作状态浏览器，用于跨链交易状态查询与桥接记录查看
 DOMAIN-SUFFIX,tokens.debridge.finance # deBridge 官方代币与资产信息接口，用于跨链资产映射与协议数据查询
 DOMAIN-SUFFIX,debridge.finance # deBridge 官方主站，用于跨链协议、流动性网络与产品介绍
 
