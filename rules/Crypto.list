@@ -1150,3 +1150,7 @@ DOMAIN-SUFFIX,greenfieldscan.com # GreenfieldScan 官方浏览器，用于 BNB G
 # > B2 Network 公共 RPC 区块链节点与基础设施服务
 
 DOMAIN-SUFFIX,b2-rpc.com # B2 Network 提供的公共区块链 RPC 节点服务，用于 B2 Network 生态中的节点访问、交易广播、区块与合约数据查询，常被钱包与 DApp 用作链上基础通信接口
+
+# > Bahamut 区块链公共 RPC 节点与链上基础设施服务
+
+DOMAIN-SUFFIX,bahamut-rpc.com # Bahamut Network 提供的公共区块链 RPC 节点服务，用于 Bahamut 链的节点访问、交易广播、区块与合约数据查询，常被钱包与 DApp 用作链上基础通信接口
