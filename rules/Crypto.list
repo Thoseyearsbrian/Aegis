@@ -22,6 +22,8 @@ DOMAIN-SUFFIX,log.bntrace.com # Binance 前端与后端日志收集接口
 DOMAIN-SUFFIX,sensors.binance.cloud # Binance 前端监测与传感数据上报接口
 DOMAIN-SUFFIX,public.nftstatic.com # Binance NFT 公共静态资源（CDN）
 DOMAIN-SUFFIX,nbstream.binance.info # Binance 官方行情推送与实时数据流服务域名，用于市场行情、K 线与交易数据的实时分发
+DOMAIN-SUFFIX,nbstream.binance.com # Binance 官方实时行情与市场数据推送服务，用于 Web / App 端的价格更新、K 线与盘口数据的流式分发
+IP-CIDR,54.250.232.27/32 # Binance NBStream 行情推送服务公网 IP（AWS 东京区域），用于实时市场数据的长连接通信
 IP-CIDR,120.24.233.110/32 # Binance 使用的云端基础设施节点（阿里云），常见于账户、交易或风控相关后端服务通信
 IP-CIDR,120.76.205.62/32 # Binance 使用的云端基础设施节点（阿里云），用于核心业务接口或内部系统通信
 IP-CIDR,120.78.229.149/32 # Binance 云端服务节点（阿里云），可能承担交易、账户或数据处理相关请求
