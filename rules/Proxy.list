@@ -5594,6 +5594,15 @@ DOMAIN-SUFFIX,cn.tgstat.com # TGStat 中文站点，用于展示 Telegram 频道
 
 DOMAIN-SUFFIX,selcdn.ru # Selectel（俄罗斯云服务商）提供的 CDN 与静态资源分发域名，用于网站图片、脚本、视频等内容加速分发
 
+# > Getro 招聘平台与职位分发服务（企业招聘与职位管理）
+
+DOMAIN-SUFFIX,cdn.getro.com # Getro 招聘平台前端静态资源 CDN，用于职位页面、样式与脚本资源加载
+DOMAIN-SUFFIX,cdn-customers.getro.com # Getro 客户侧前端资源分发域名，用于企业招聘页面与职位展示
+
+# > Filestack（原 Filepicker）文件上传与媒体处理 CDN 服务
+
+DOMAIN-SUFFIX,cdn.filepicker.io # Filestack 提供的文件上传与媒体处理 CDN，用于图片、文件上传与内容分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客

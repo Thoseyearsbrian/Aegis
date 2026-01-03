@@ -1207,3 +1207,7 @@ DOMAIN-SUFFIX,tgcnt.ru # TGCNT 提供 Telegram 频道与群组的公开统计、
 # > LogRocket 前端会话回放与用户行为分析资源服务
 
 DOMAIN-SUFFIX,cdn.lr-in.com # LogRocket 提供的前端会话回放与用户行为分析相关静态资源 CDN，用于页面录制、错误追踪与用户行为分析
+
+# > Getro 招聘平台与职位分发服务（企业招聘与职位管理）
+
+DOMAIN-SUFFIX,an.getro.com # Getro 平台行为与访问事件上报接口，用于招聘页面访问统计与基础使用分析
