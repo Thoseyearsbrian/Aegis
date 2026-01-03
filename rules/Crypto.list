@@ -1124,3 +1124,7 @@ DOMAIN-SUFFIX,static.binplorer.com # Binplorer 前端静态资源域，用于页
 # > 非官方 Binance 行情推送镜像域名
 
 DOMAIN-SUFFIX,nbstream.yshyqxx.com # 非官方 Binance 行情推送镜像域名
+
+# > Pinata 去中心化存储与 IPFS 网关服务（Liteflow 集成）
+
+DOMAIN-SUFFIX,liteflow.mypinata.cloud # Pinata 提供的 IPFS 网关子域，用于 Liteflow 等 Web3 / NFT 平台进行去中心化内容分发与资源访问
