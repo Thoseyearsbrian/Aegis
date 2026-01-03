@@ -5569,6 +5569,10 @@ DOMAIN-SUFFIX,tether.recruitee.com # Coinbase / Tether 使用的 Recruitee 招�
 DOMAIN-SUFFIX,substackcdn.com # Substack 官方内容分发 CDN，用于博客文章正文、图片、样式表、脚本与嵌入资源加载
 DOMAIN-SUFFIX,cdn.substackcdn.com # Substack CDN 二级分发节点，用于提升全球访问速度与缓存命中率
 
+# > Breezy HR 招聘平台前端静态资源分发服务
+
+DOMAIN-SUFFIX,assets-cdn.breezy.hr # Breezy HR 官方前端静态资源 CDN，用于招聘页面的样式、脚本、图片等资源加载，不涉及用户行为追踪
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
