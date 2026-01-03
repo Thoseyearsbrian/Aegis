@@ -34,6 +34,37 @@ DOMAIN-SUFFIX,explorer.bnbchain.org # BNB Chain 官方区块链浏览器入口�
 DOMAIN-SUFFIX,dapp-server.bnbchain.world # BNB Chain 官方 DApp 后端服务节点，用于生态 DApp 的接口请求、数据交互与链上服务支持
 DOMAIN-SUFFIX,bnbchain.ghost.io # BNB Chain 官方博客与内容发布平台（Ghost），用于技术文章、公告与生态动态发布
 
+# > NodeReal BNB Chain / Binance 官方区块链 RPC 基础设施
+
+DOMAIN-SUFFIX,binance.nodereal.io # NodeReal 提供的 Binance / BNB Chain 官方 RPC 服务节点，用于区块链节点访问、交易广播与链上数据查询
+DOMAIN-SUFFIX,nodereal.io # NodeReal 官方平台域名，用于区块链 RPC、节点服务与基础设施介绍
+
+# > BSC 公共 RPC 与节点访问服务
+
+DOMAIN-SUFFIX,bscrpc.com # BNB Smart Chain 公共 RPC 服务域名，用于区块链节点访问与交易广播
+DOMAIN-SUFFIX,bsc-dataseed2.ninicoin.io # 第三方提供的 BSC 公共 RPC 节点，用于链上数据查询与节点连接
+DOMAIN-SUFFIX,ninicoin.io # Ninicoin 提供的区块链基础设施与 RPC 服务平台
+
+# > PublicNode 多链区块链公共 RPC 服务
+
+DOMAIN-SUFFIX,ethereum-rpc.publicnode.com # PublicNode 提供的以太坊公共 RPC 节点，用于交易、区块与合约数据访问
+DOMAIN-SUFFIX,publicnode.com # PublicNode 官方平台域名，用于多链公共 RPC 与节点服务说明
+
+# > Celer Network 跨链与 Layer2 网络官方服务
+
+DOMAIN-SUFFIX,get.celer.app # Celer Network 官方应用入口，用于跨链桥、Layer2 网络与链上交互服务
+DOMAIN-SUFFIX,celer.network # Celer Network 官方主站，用于跨链协议、Layer2 架构与生态信息展示
+
+# > deBridge 跨链流动性与资产桥接协议
+
+DOMAIN-SUFFIX,tokens.debridge.finance # deBridge 官方代币与资产信息接口，用于跨链资产映射与协议数据查询
+DOMAIN-SUFFIX,debridge.finance # deBridge 官方主站，用于跨链协议、流动性网络与产品介绍
+
+# > BNB Chain 官方跨链桥（Canonical Bridge）服务
+
+DOMAIN-SUFFIX,canonical-bridge-api.bnbchain.world # BNB Chain 官方跨链桥 API，用于资产跨链、桥接状态与链上交互支持
+DOMAIN-SUFFIX,bnbchain.world # BNB Chain 官方生态与基础设施域名，用于跨链、RPC 与网络服务入口
+
 # > Bitget 加密资产交易平台
 
 DOMAIN-SUFFIX,bitget.com # Bitget 官方主站与加密资产交易服务入口
