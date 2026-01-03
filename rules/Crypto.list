@@ -1259,3 +1259,8 @@ DOMAIN-SUFFIX,tor.us # Torus 官方平台主域名，用于 Web3 登录基础设
 
 DOMAIN-SUFFIX,wallet-v2.blocto.app # Blocto 钱包 V2 版本前端与业务接口域名，用于多链钱包访问、账户管理、交易签名与资产操作
 DOMAIN-SUFFIX,blocto.app # Blocto 官方钱包平台主域名，用于钱包入口、产品信息与生态服务
+
+# > dln.trade 链上统计与数据分析 API 服务
+
+DOMAIN-SUFFIX,stats-api.dln.trade # dln.trade 提供的统计与数据分析后端 API 域名，用于链上数据聚合、交易统计与协议指标查询
+DOMAIN-SUFFIX,dln.trade # dln.trade 官方主域名，用于协议信息、数据展示与开发者接口入口
