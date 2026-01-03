@@ -5617,6 +5617,10 @@ DOMAIN-SUFFIX,ugc.production.linktr.ee # Linktree 官方 UGC 内容与媒体资�
 
 DOMAIN-SUFFIX,api.inkeep.com # Inkeep 官方后端 API，用于产品文档搜索、AI 问答、用户支持与知识库交互请求
 
+# > Postimg 公共图片托管与外链分发服务
+
+DOMAIN-SUFFIX,i.postimg.cc # Postimg 提供的图片托管与外链访问 CDN 域名，用于用户上传图片的展示与分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
