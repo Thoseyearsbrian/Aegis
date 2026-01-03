@@ -1158,3 +1158,39 @@ DOMAIN-SUFFIX,bahamut-rpc.com # Bahamut Network 提供的公共区块链 RPC 节
 # > Bitlayer 比特币 Layer2 网络公共 RPC 节点与链上基础设施服务
 
 DOMAIN-SUFFIX,bitlayer-rpc.com # Bitlayer Network 提供的公共区块链 RPC 节点服务，用于 Bitlayer（Bitcoin Layer2）网络的节点访问、交易广播、区块与合约数据查询，常被钱包、DApp 与跨链组件作为链上基础通信接口
+
+# > Gravity 区块链网络公共 RPC 节点与链上基础设施服务
+
+DOMAIN-SUFFIX,gravity-rpc.com # Gravity Network 提供的公共区块链 RPC 节点服务，用于 Gravity 网络的节点访问、交易广播、区块与链上状态查询，供钱包与 DApp 使用
+
+# > Flare 公链公共 RPC 节点与链上基础设施服务
+
+DOMAIN-SUFFIX,flare.public-rpc.com # Flare Network 提供的公共 RPC 节点服务，用于 Flare 公链的交易广播、区块查询与链上数据访问
+
+# > Filecoin 去中心化存储网络公共 RPC 节点服务
+
+DOMAIN-SUFFIX,filecoin.public-rpc.com # Filecoin Network 提供的公共 RPC 节点服务，用于去中心化存储网络的链上数据查询、交易与状态访问
+
+# > Fantom 公链官方公共 RPC 节点服务
+
+DOMAIN-SUFFIX,rpc.ftm.tools # Fantom 官方提供的公共 RPC 节点服务，用于 Fantom 网络的交易广播、区块查询与智能合约交互
+
+# > Ethereum 公链公共 RPC 聚合服务
+
+DOMAIN-SUFFIX,eth.public-rpc.com # 以太坊公共 RPC 聚合节点服务，用于 ETH 主网的交易广播、区块与合约状态查询，供钱包与 DApp 使用
+
+# > Electroneum 区块链网络公共 RPC 节点服务
+
+DOMAIN-SUFFIX,electroneum-rpc.com # Electroneum Network 提供的公共 RPC 节点服务，用于 Electroneum 公链的链上数据访问与交易广播
+
+# > Corn 区块链网络公共 RPC 节点服务
+
+DOMAIN-SUFFIX,corn-rpc.com # Corn Network 提供的公共区块链 RPC 节点服务，用于网络节点访问、交易广播与链上状态查询
+
+# > CORE 区块链网络公共 RPC 节点服务
+
+DOMAIN-SUFFIX,core.public-rpc.com # CORE Network 提供的公共 RPC 节点服务，用于 CORE 公链的交易、区块与链上数据访问
+
+# > Chiliz 公链公共 RPC 节点与链上基础设施服务
+
+DOMAIN-SUFFIX,chiliz.public-rpc.com # Chiliz Network 提供的公共 RPC 节点服务，用于 Chiliz 公链的交易广播、区块查询与链上数据访问
