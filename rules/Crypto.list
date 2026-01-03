@@ -1226,3 +1226,23 @@ DOMAIN-SUFFIX,near.public-rpc.com # NEAR Protocol 提供的公共 RPC 节点服�
 # > Polygon 公链与 zkEVM 网络公共 RPC 节点服务
 
 DOMAIN-SUFFIX,polygon-rpc.com # Polygon Network 提供的公共 RPC 节点服务，覆盖 Polygon PoS 及 zkEVM 网络的交易广播、区块与合约状态查询
+
+# > Celer Network 跨链桥核心服务（cBridge）
+
+DOMAIN-SUFFIX,cbridge-prod2.celer.app # Celer Network 官方 cBridge 生产环境服务域名，用于跨链资产桥接、交易路由与链上状态交互
+
+# > Torus / Web3Auth 钱包身份与密钥管理服务
+
+DOMAIN-SUFFIX,app.tor.us # Torus（Web3Auth）官方应用入口，用于去中心化钱包登录、密钥管理与身份认证服务
+
+# > Celer Network 招聘与组织管理平台
+
+DOMAIN-SUFFIX,celer-network-5d8f644bd292.breezy.hr # Celer Network 官方招聘与组织管理平台子域，用于职位发布与人才招聘
+
+# > Flow 区块链主网 RPC 与节点服务
+
+DOMAIN-SUFFIX,rest-mainnet.onflow.org # Flow 区块链官方主网 REST API 接口，用于链上数据查询、交易提交与节点交互
+
+# > Circle 稳定币与金融基础设施 API 服务
+
+DOMAIN-SUFFIX,iris-api.circle.com # Circle 官方后端 API 服务，用于 USDC 等稳定币、账户、风控与金融基础设施相关业务接口
