@@ -1264,3 +1264,8 @@ DOMAIN-SUFFIX,blocto.app # Blocto 官方钱包平台主域名，用于钱包入�
 
 DOMAIN-SUFFIX,stats-api.dln.trade # dln.trade 提供的统计与数据分析后端 API 域名，用于链上数据聚合、交易统计与协议指标查询
 DOMAIN-SUFFIX,dln.trade # dln.trade 官方主域名，用于协议信息、数据展示与开发者接口入口
+
+# > BlastAPI BNB Smart Chain（BSC）主网公共 RPC 服务
+
+DOMAIN-SUFFIX,bsc-mainnet.public.blastapi.io # BlastAPI 提供的 BNB Smart Chain 主网公共 RPC 节点，用于区块、交易、合约调用与链上数据访问
+DOMAIN-SUFFIX,blastapi.io # BlastAPI 官方区块链 RPC 基础设施服务平台，用于多链节点与开发者接入
