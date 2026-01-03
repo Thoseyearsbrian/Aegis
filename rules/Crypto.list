@@ -1109,3 +1109,7 @@ DOMAIN-SUFFIX,lumibot.org # LumiBot 官方平台，用于 Web3 自动化与区�
 
 DOMAIN-SUFFIX,gnfd-mainnet-sp.4everland.org # 4EVERLAND 提供的 BNB Greenfield 主网 Storage Provider（SP）节点，用于去中心化存储服务
 DOMAIN-SUFFIX,4everland.org # 4EVERLAND 官方平台，用于 Web3 去中心化存储、托管与基础设施服务
+
+# > BNB ChainList 区块链网络配置与 RPC 节点发现服务
+
+DOMAIN-SUFFIX,bnbchainlist.org # BNB ChainList 官方网站，用于 BNB Chain 及 EVM 网络的 Chain ID、RPC 节点与网络配置发现，常用于钱包与 DApp 网络添加
