@@ -838,6 +838,7 @@ DOMAIN-SUFFIX,avax.network # Avalanche 官方网站，用于公链介绍、生�
 DOMAIN-SUFFIX,explorer.avax.network # Avalanche 官方区块浏览器，用于链上交易、区块与地址查询
 DOMAIN-SUFFIX,docs.avax.network # Avalanche 官方文档站点，用于协议说明、子网开发与技术文档
 DOMAIN-SUFFIX,subnets.avax.network # Avalanche 官方子网生态入口，用于子网介绍、工具与资源访问
+DOMAIN-SUFFIX,avalanche.public-rpc.com # Avalanche 公共 RPC 服务节点
 
 # > Curve 去中心化稳定币 AMM 协议
 
