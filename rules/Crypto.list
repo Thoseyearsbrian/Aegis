@@ -1113,3 +1113,9 @@ DOMAIN-SUFFIX,4everland.org # 4EVERLAND 官方平台，用于 Web3 去中心化�
 # > BNB ChainList 区块链网络配置与 RPC 节点发现服务
 
 DOMAIN-SUFFIX,bnbchainlist.org # BNB ChainList 官方网站，用于 BNB Chain 及 EVM 网络的 Chain ID、RPC 节点与网络配置发现，常用于钱包与 DApp 网络添加
+
+# > Binplorer 区块链浏览器与链上数据查询平台
+
+DOMAIN-SUFFIX,binplorer.com # Binplorer 区块链浏览器平台，用于区块、交易、地址等链上数据查询与可视化展示
+DOMAIN-SUFFIX,api.binplorer.com # Binplorer 区块链浏览器后端 API 接口，用于链上数据查询与前端调用
+DOMAIN-SUFFIX,static.binplorer.com # Binplorer 前端静态资源域，用于页面脚本、样式与可视化组件加载
