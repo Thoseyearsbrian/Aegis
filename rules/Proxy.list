@@ -5640,6 +5640,10 @@ DOMAIN-SUFFIX,assets.tally.so # Tally 前端静态资源分发域名，用于加
 
 DOMAIN-SUFFIX,buildnbuild.dev # Build n Build 官方开发者社区平台，用于发布开发技术文章、教程、项目分享与工程实践内容
 
+# > Avalon PerfDrive 性能监测与内容加速服务
+
+DOMAIN-SUFFIX,cas.avalon.perfdrive.com # PerfDrive 提供的性能监测与内容加速服务节点，用于网站资源加载优化、可用性检测与性能指标采集
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
