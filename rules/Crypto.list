@@ -1064,6 +1064,7 @@ DOMAIN-SUFFIX,orbofi.com # OrboFi 官方平台，用于 AI 驱动的 Web3 应用
 # > MEET48 Web3 娱乐与社交项目
 
 DOMAIN-SUFFIX,meet48.xyz # MEET48 官方平台，用于 Web3 娱乐、社交与社区项目
+DOMAIN-SUFFIX,meet48.com # MEET48 官方平台，用于 Web3 社交、内容发布与生态项目展示
 
 # > Colyseus 实时多人游戏与 Web3 后端框架
 
@@ -1128,3 +1129,7 @@ DOMAIN-SUFFIX,nbstream.yshyqxx.com # 非官方 Binance 行情推送镜像域名
 # > Pinata 去中心化存储与 IPFS 网关服务（Liteflow 集成）
 
 DOMAIN-SUFFIX,liteflow.mypinata.cloud # Pinata 提供的 IPFS 网关子域，用于 Liteflow 等 Web3 / NFT 平台进行去中心化内容分发与资源访问
+
+# > Rhino.fi 去中心化跨链交易与资产桥接协议
+
+DOMAIN-SUFFIX,rhino.fi # Rhino.fi 官方平台，用于跨链交易、资产桥接与 Layer2 / DeFi 生态交互
