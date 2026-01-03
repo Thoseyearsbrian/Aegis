@@ -5604,6 +5604,11 @@ DOMAIN-SUFFIX,api.getro.com # Getro 招聘平台核心后端 API 服务，用于
 
 DOMAIN-SUFFIX,cdn.filepicker.io # Filestack 提供的文件上传与媒体处理 CDN，用于图片、文件上传与内容分发
 
+# > Staticfile 国内公共前端资源 CDN 服务（七牛云 / 国内镜像）
+
+DOMAIN-SUFFIX,staticfile.org # Staticfile 官方公共前端资源 CDN 服务，用于分发常见前端库（如 jQuery、Bootstrap、Vue 等），主要面向国内加速与镜像访问
+DOMAIN-SUFFIX,cdn.staticfile.org # Staticfile 前端公共资源 CDN 子域，用于 JS / CSS / 字体等静态资源加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
