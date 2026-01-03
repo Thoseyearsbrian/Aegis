@@ -4,7 +4,7 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-03
+# - 更新时间：2026-01-04
 
 # > 广告相关域名
 
@@ -6077,7 +6077,6 @@ DOMAIN-SUFFIX,easyadsapp.com # 广告应用域名可能性高,虽无公开记录
 DOMAIN-SUFFIX,easyhits4u.com # 含 “hits” 意图流量或点击,可能为流量诱导广告域名
 DOMAIN-SUFFIX,easysearch.click # 搜索 / 重定向类型域名,广告重定向可能性高
 DOMAIN-SUFFIX,ebannertraffic.com # 确认广告平台／流量投放服务域名,用于广告分发与展示  
-DOMAIN-SUFFIX,ebay.com # 正规电商平台主域名,无需拦截  
 DOMAIN-SUFFIX,ebayadservices.com # 可能为 eBay 广告服务子域,具商业／广告用途倾向  
 DOMAIN-SUFFIX,ebayclassifiedsgroup.com # 属于 eBay 分类广告子业务域,具有广告功能  
 DOMAIN-SUFFIX,ebayobjects.com.au # 属于 eBay 澳洲对象子域,无明确广告跳转记录  
@@ -7443,7 +7442,6 @@ DOMAIN-SUFFIX,skyadsmart.com # 含 “ad” + “smart”,广告平台可能性�
 DOMAIN-SUFFIX,skybouchee.shop # .shop 后缀 + 组合域名,电商倾向
 DOMAIN-SUFFIX,skycheats.com # “cheats” + 域名组合,诱导 / 非正当用途可能
 DOMAIN-SUFFIX,skyeoutword.cfd # .cfd 后缀风险较高
-DOMAIN-SUFFIX,skymedia.co.uk # 媒体公司 / 正规域名,无需拦截  
 DOMAIN-SUFFIX,skymobi.agency # “mobi” + “agency” 组合,可能为推广或中介用途  
 DOMAIN-SUFFIX,slavesubmarinebribery.com # 含 “bribery” / “slave” 等敏感词,可能诱导 / 欺诈性质
 DOMAIN-SUFFIX,sleazyneasy.com # 含 “sleazy”,暗示不良内容或诱导性质

@@ -815,6 +815,10 @@ DOMAIN-SUFFIX,ebaystatic.com  # eBay 静态资源域名（JS、CSS、图片等�
 DOMAIN-SUFFIX,ebaydesc.com  # eBay 商品详情页面托管域名
 DOMAIN-SUFFIX,ebayimg.com  # eBay 商品图像托管与加载域名
 DOMAIN-SUFFIX,ebayrtm.com  # eBay 实时数据与分析追踪服务接口
+DOMAIN-SUFFIX,api.ebay.com # eBay 官方 API 服务，用于商品、订单、支付与开发者平台接口调用
+DOMAIN-SUFFIX,signin.ebay.com # eBay 官方账户登录与身份认证服务
+DOMAIN-SUFFIX,auth.ebay.com # eBay OAuth 授权与第三方应用认证服务
+DOMAIN-SUFFIX,ir.ebay.com # eBay 投资者关系与官方信息披露页面
 
 # > Etsy 相关域名
 
