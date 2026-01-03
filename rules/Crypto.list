@@ -1154,3 +1154,7 @@ DOMAIN-SUFFIX,b2-rpc.com # B2 Network 提供的公共区块链 RPC 节点服务�
 # > Bahamut 区块链公共 RPC 节点与链上基础设施服务
 
 DOMAIN-SUFFIX,bahamut-rpc.com # Bahamut Network 提供的公共区块链 RPC 节点服务，用于 Bahamut 链的节点访问、交易广播、区块与合约数据查询，常被钱包与 DApp 用作链上基础通信接口
+
+# > Bitlayer 比特币 Layer2 网络公共 RPC 节点与链上基础设施服务
+
+DOMAIN-SUFFIX,bitlayer-rpc.com # Bitlayer Network 提供的公共区块链 RPC 节点服务，用于 Bitlayer（Bitcoin Layer2）网络的节点访问、交易广播、区块与合约数据查询，常被钱包、DApp 与跨链组件作为链上基础通信接口
