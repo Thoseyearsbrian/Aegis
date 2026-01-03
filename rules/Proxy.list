@@ -927,6 +927,7 @@ DOMAIN-SUFFIX,styles.redditmedia.com # Reddit 前端样式与内容渲染域名
 DOMAIN-SUFFIX,v.redd.it  # Reddit 视频内容直链域名
 DOMAIN-SUFFIX,redd.it # Reddit 官方短链域名（如分享链接）
 DOMAIN-SUFFIX,ssl.reddit.com # Reddit SSL 入口，用于 HTTPS 服务与认证接口
+DOMAIN-SUFFIX,redditinc.com # Reddit, Inc. 官方公司域名，用于公司级服务、企业信息、内部系统及部分平台级基础接口
 IP-CIDR,151.101.1.140/32 # Reddit CDN 节点 IP（Fastly 平台）
 IP-CIDR,151.101.65.140/32 # Reddit CDN 节点 IP（Fastly 平台）
 
