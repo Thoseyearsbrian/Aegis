@@ -1190,3 +1190,7 @@ DOMAIN-SUFFIX,bam.nr-data.net # New Relic 浏览器端性能与用户行为数�
 # > LeadSourcing 访客识别与潜客来源分析服务
 
 DOMAIN-SUFFIX,visitor.leadsourcing.co # LeadSourcing 访客识别与线索来源分析接口，用于识别网站访问者、推断公司归属与潜在销售线索
+
+# > ShareThis 内容分享与社交传播统计服务（平台 API）
+
+DOMAIN-SUFFIX,platform-api.sharethis.com # ShareThis 平台核心 API，用于内容分享按钮、社交传播统计、访问来源归因与分享行为分析
