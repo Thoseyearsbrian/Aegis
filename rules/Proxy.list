@@ -930,6 +930,7 @@ DOMAIN-SUFFIX,ads.reddit.com # Reddit 官方广告系统域名
 DOMAIN-SUFFIX,ssl.reddit.com # Reddit SSL 入口，用于 HTTPS 服务与认证接口
 DOMAIN-SUFFIX,redditinc.com # Reddit, Inc. 官方公司域名，用于公司级服务、企业信息、内部系统及部分平台级基础接口
 DOMAIN-SUFFIX,reddit.my.site.com # Reddit 使用 Salesforce（my.site.com）托管的客户成功、支持或企业后台子站点，用于官方业务支持与内部系统访问
+DOMAIN-SUFFIX,reddit.my.salesforce-scrt.com # Reddit 使用的 Salesforce Secure 子域，用于企业级 CRM、工单、客户支持或内部业务系统访问
 IP-CIDR,151.101.1.140/32 # Reddit CDN 节点 IP（Fastly 平台）
 IP-CIDR,151.101.65.140/32 # Reddit CDN 节点 IP（Fastly 平台）
 
