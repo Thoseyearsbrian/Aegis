@@ -176,7 +176,6 @@ DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn # Vivo 广告平台日志节点,用于曝
 DOMAIN-SUFFIX,ads.zhinengxiyifang.cn # 可疑广告分发域名,用于低质 App 跳转与激励广告加载
 DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com # 字节跳动穿山甲广告接口,用于 App 内广告加载与策略分发
 DOMAIN-SUFFIX,v.adintl.cn # 可疑国际广告平台,用于激励视频广告加载与跳转行为
-DOMAIN-SUFFIX,ytx-file.110route.cn # 可疑资源分发域名,用于广告素材缓存与激励视频加载,归属不明
 DOMAIN-SUFFIX,advertising-api-fe.amazon.com # Amazon 广告平台前端接口,用于广告请求与行为回传
 DOMAIN-SUFFIX,rps.hpplay.cn # 乐播投屏广告回传接口,用于广告播放与行为日志上报
 DOMAIN-SUFFIX,securepubads.g.doubleclick.net # Google 安全广告发布接口域
@@ -220,10 +219,8 @@ DOMAIN-SUFFIX,catalog.fjwhcbsh.com # 可疑广告资源域名,用于落地页跳
 DOMAIN-SUFFIX,cdn-ad.wtzw.com # 小说聚合平台广告 CDN,用于插屏图片与跳转脚本加载
 DOMAIN-SUFFIX,hexagon-analytics.com # Hexagon 第三方广告分析平台
 DOMAIN-SUFFIX,1rtb.com # RTB 实时竞价广告平台
-DOMAIN-SUFFIX,8le8le.com # 可疑广告域名,用于激励视频与推广跳转,归属不明
 DOMAIN-SUFFIX,8rn1y79f02-1.algolianet.com # Algolia 广告 / 推荐数据 CDN 子域
 DOMAIN-SUFFIX,abtest-ch.com # AB 测试与广告效果分析域
-DOMAIN-SUFFIX,saxysec.com # 可疑域名,疑似灰产跳转或脚本统计用途,归属不明
 DOMAIN-SUFFIX,cdn.ad.wtzw.com # 小说站广告 CDN,用于加载插屏图片与跳转脚本
 DOMAIN-SUFFIX,cn-api.anythinktech.com # AnyThink 移动广告平台接口
 DOMAIN-SUFFIX,ck.ads.oppomobile.com # OPPO 广告点击跟踪接口
@@ -273,7 +270,6 @@ DOMAIN-SUFFIX,adse.test.ximalaya.com # 喜马拉雅测试广告服务接口
 DOMAIN-SUFFIX,adsebs.ximalaya.com # 喜马拉雅广告行为上报接口
 DOMAIN-SUFFIX,update0.aiclk.com # AICLK 更新 / 广告资源上报接口
 DOMAIN-SUFFIX,adsdk.vivo.com.cn # vivo 广告 SDK 服务接口
-DOMAIN-SUFFIX,v.110route.cn # 可疑视频广告域名,用于激励广告内容加载与跳转行为,归属不明
 DOMAIN-SUFFIX,v.adx.hubcloud.com.cn # hubcloud 广告投放平台子域
 DOMAIN-SUFFIX,vhp.hpplay.cn # hpplay 视频广告或播放控制接口
 DOMAIN-SUFFIX,vhp.hpplay.cn.v.adx.hubcloud.com.cn # 嵌套域名,可能为广告或中转接口
@@ -285,13 +281,10 @@ DOMAIN-SUFFIX,w1.hoopchina.com.cn # 虎扑广告或追踪相关接口
 DOMAIN-SUFFIX,wallet-api.hismarttv.com # 海信电视钱包服务接口,可能含推广内容
 DOMAIN-SUFFIX,wbapp.mobile.sina.cn # 新浪微博 App 广告或推广接口
 DOMAIN-SUFFIX,web.clewm.net # 清博舆情监测平台接口,可能涉及数据采集 / 广告统计
-DOMAIN-SUFFIX,web-stat.cn # 可疑网页统计服务域名,用于访问行为追踪与广告点击上报,归属不明
 DOMAIN-SUFFIX,web.wrating.com # 万瑞通网站分析平台,常用于广告投放效果评估
 DOMAIN-SUFFIX,webtrack.ad.intl.xiaomi.com # 小米国际版广告追踪接口
-DOMAIN-SUFFIX,whhxrc.com # 可疑广告跳转域名,归属不明,曾用于激励广告与中转页面加载
 DOMAIN-SUFFIX,widget.diditaxi.com.cn # 滴滴出行嵌入式组件接口,可能含推广内容
 DOMAIN-SUFFIX,wlog.dianping.com # 大众点评行为日志上报接口,含广告追踪成分
-DOMAIN-SUFFIX,wmcloud-ads.cn # 可疑广告平台域名,归属不明,用于广告请求与点击追踪
 DOMAIN-SUFFIX,xgfe.umeng.com # 友盟广告组件日志接口
 DOMAIN-SUFFIX,xiaoshuo.sogou.com # 搜狗小说服务接口,可能含内嵌广告模块
 DOMAIN-SUFFIX,update.lejiao.tv # 乐角 TV 更新接口,可能含广告内容推送
@@ -6080,8 +6073,7 @@ DOMAIN-SUFFIX,ebannertraffic.com # 确认广告平台／流量投放服务域名
 DOMAIN-SUFFIX,ebayadservices.com # 可能为 eBay 广告服务子域,具商业／广告用途倾向  
 DOMAIN-SUFFIX,ebayclassifiedsgroup.com # 属于 eBay 分类广告子业务域,具有广告功能  
 DOMAIN-SUFFIX,ebayobjects.com.au # 属于 eBay 澳洲对象子域,无明确广告跳转记录  
-DOMAIN-SUFFIX,ebayrtm.com # 属于 eBay 实时广告 / 跟踪子域,具广告／追踪功能倾向  
-DOMAIN-SUFFIX,ebaystatic.com # 静态资源子域,通常用于内容、脚本、图像等,不宜直接屏蔽   
+DOMAIN-SUFFIX,ebayrtm.com # 属于 eBay 实时广告 / 跟踪子域,具广告／追踪功能倾向   
 DOMAIN-SUFFIX,eblastengine.com # 确认邮件 / 广告 blast 平台用途,用于邮件营销、推广行为  
 DOMAIN-SUFFIX,ebuzzing.com # 与广告 / 媒体平台 “Ebuzzing” 有关联性,可能为广告网络  
 DOMAIN-SUFFIX,eclick.vn # 广告平台域名,属于 eClick 广告/追踪服务（performance based ads）  
@@ -6938,12 +6930,8 @@ DOMAIN-SUFFIX,ndingcouncerne.org # 出现在广告屏蔽列表中,有广告用�
 DOMAIN-SUFFIX,nditingdecord.com # 出现在广告屏蔽列表中,有广告用途记录规则  
 DOMAIN-SUFFIX,ndlvihqwpaaup.space # 出现在广告屏蔽列表中,有广告用途记录规则  
 DOMAIN-SUFFIX,nellads.com # 广告/联盟用途
-DOMAIN-SUFFIX,neobux.com # 已知 PTC / 广告点击平台,有广告行为记录
-DOMAIN-SUFFIX,net.geo.opera.com # 为 Opera 子域名,可能为合法服务或统计用途,暂不纳入广告  
+DOMAIN-SUFFIX,neobux.com # 已知 PTC / 广告点击平台,有广告行为记录 
 DOMAIN-SUFFIX,netaffiliation.com # 属于知名 affiliate 网络平台,确认广告/联盟营销用途  
-DOMAIN-SUFFIX,netgames.io # 普通游戏域名,无证据为广告用途,暂保留  
-DOMAIN-SUFFIX,netinsight.co.kr # 可能为韩国网络分析 / 数据服务域名,暂不纳入广告  
-DOMAIN-SUFFIX,netlify.app # 属合法托管平台子域名,一般不作为广告标识  
 DOMAIN-SUFFIX,netrefer.co # 名字带 “refer” 有推荐/跳转意味,可能用于推广用途
 DOMAIN-SUFFIX,netsolads.com # 名字带 “ads”,极可能用于广告,确认拦截   
 DOMAIN-SUFFIX,nettrackway.com # 名字带 “track” 有追踪意味,可能用于广告 / 分析用途
@@ -6960,17 +6948,7 @@ DOMAIN-SUFFIX,newosama.com # 含 “osama”（敏感词）,可能恶意 / 非�
 DOMAIN-SUFFIX,newpartnerlover.com # 含 “partner”,可能推荐 / 推广用途
 DOMAIN-SUFFIX,newrotatormarch23.bid # .bid 后缀 + rotator（广告跳转术语）,可能广告 / 跳转用途
 DOMAIN-SUFFIX,newrrb.bid # .bid 后缀,bid 属广告语义
-DOMAIN-SUFFIX,newrtbside.com # 含 “rtb”（广告竞价术语）,可能广告用途
 DOMAIN-SUFFIX,newsadsppush.com # 确认广告／推广用途,被广告屏蔽列表收录为广告域名  
-DOMAIN-SUFFIX,notificationallow.com # 推送服务可能性较高
-DOMAIN-SUFFIX,notifications.website # 推送用途可能性高
-DOMAIN-SUFFIX,notiflist.com # 含通知 / 推送含义,可能为推送 / 广告用途域名
-DOMAIN-SUFFIX,notifpushnext.net # 含 “notifpush” 关键词,推送广告可能性较高 
-DOMAIN-SUFFIX,notify.rocks # 含 notify 关键词 + 不常见后缀,广告 / 推送可能性较高 
-DOMAIN-SUFFIX,notify6.com # 含 notify 关键词,普通 .com 域名,广告 / 推送可能性中等 
-DOMAIN-SUFFIX,notifyerr.com # 含 notify 关键词 + err 字眼,疑似错误通知 / 广告诱导 
-DOMAIN-SUFFIX,notifypicture.info # 含 notify + picture,可能为广告 / 推送用途 
-DOMAIN-SUFFIX,notifysrv.com # 含 notify + srv（服务）,非常可能为推送 / 通知服务用途 
 DOMAIN-SUFFIX,novelty.media # 广告 / 媒体用途站点 
 DOMAIN-SUFFIX,novibet.partners # 博彩平台相关域名
 DOMAIN-SUFFIX,novitrk1.com # 可能为广告／统计用途或封禁
