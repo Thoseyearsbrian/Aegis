@@ -5799,6 +5799,10 @@ DOMAIN-SUFFIX,coinbase-consumer.sjv.io # Coinbase 消费者推广与联盟营销
 
 DOMAIN-SUFFIX,trezor.go2cloud.org # Trezor 官方使用的联盟营销与推广归因跳转域名
 
+# > Femmes Prévoyantes Socialistes 比利时社会保障与健康保险组织
+
+DOMAIN-SUFFIX,femmesprevoyantes.be # 比利时 Femmes Prévoyantes Socialistes 官方网站，用于社会保障、健康保险、组织信息与公共服务内容发布
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站

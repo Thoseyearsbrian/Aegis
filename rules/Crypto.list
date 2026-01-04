@@ -170,6 +170,10 @@ DOMAIN-SUFFIX,api.xmrscan.org # XMRScan 官方 API 接口，用于门罗币链�
 DOMAIN-SUFFIX,moneroexplorer.org # Monero 官方区块链浏览器，用于门罗币（XMR）交易、区块高度、地址与网络状态查询
 DOMAIN-SUFFIX,api.moneroexplorer.org # Monero Explorer 官方 API 接口，用于区块、交易与网络数据的程序化查询
 
+# > MoneroVision 门罗币链上数据分析与可视化平台
+
+DOMAIN-SUFFIX,monerovision.com # MoneroVision 官方网站与服务域名，用于 Monero（XMR）链上数据分析、统计指标与可视化展示
+
 # > BTC Mempool 比特币内存池与手续费可视化分析平台
 
 DOMAIN-SUFFIX,btcmempool.org # BTC Mempool 比特币内存池可视化平台，用于交易拥堵状态、手续费水平与打包优先级分析
@@ -198,10 +202,6 @@ DOMAIN-SUFFIX,docs.quicknode.com # QuickNode 官方文档站点，用于 RPC 接
 DOMAIN-SUFFIX,quiknode.net # QuickNode 官方基础域名之一，用于平台内部服务、节点基础设施与后端系统通信
 DOMAIN-SUFFIX,infra.quiknode.net # QuickNode 基础设施子域，用于区块链节点、RPC 服务与内部平台支撑
 DOMAIN-SUFFIX,quicklee-api.infra.quiknode.net # QuickNode 内部基础设施 API 服务域名，用于区块链节点、RPC 请求与平台后端支撑
-
-# > MoneroVision 门罗币链上数据分析与可视化平台
-
-DOMAIN-SUFFIX,monerovision.com # MoneroVision 官方网站与服务域名，用于 Monero（XMR）链上数据分析、统计指标与可视化展示
 
 # > FindETH 以太坊地址与 ENS 查询工具
 
