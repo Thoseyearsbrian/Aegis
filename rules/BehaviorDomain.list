@@ -1251,3 +1251,7 @@ DOMAIN-SUFFIX,snowplow-pixel.tradingview.com # TradingView 基于 Snowplow 的�
 # > Kakao 用户行为与事件数据采集服务（AEM Collector）
 
 DOMAIN-SUFFIX,aem-kakao-collector.onkakao.net # Kakao AEM 行为采集接口，用于用户交互事件、功能使用路径与产品分析数据上报
+
+# > FiveSense 用户行为分析与营销自动化平台（韩国）
+
+DOMAIN-SUFFIX,fivesense.co.kr # FiveSense 提供的用户行为分析、营销自动化与数据驱动广告优化服务，涉及用户访问与交互数据采集

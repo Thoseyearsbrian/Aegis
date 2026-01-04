@@ -2304,6 +2304,7 @@ DOMAIN-SUFFIX,dn.kakao.com # Kakao 静态资源域名，用于图片、语音等
 DOMAIN-SUFFIX,kakaoimg.com # Kakao 图片 CDN，用于聊天图像与贴图加载 
 DOMAIN-SUFFIX,daum.net # Kakao 集团旗下门户 Daum，用于部分服务整合与跳转 
 DOMAIN-SUFFIX,t1.kakaocdn.net # Kakao 官方 CDN 域名，用于图片、脚本与前端静态资源分发
+DOMAIN-SUFFIX,kakaocdn.net # Kakao 官方 CDN 域名，用于网页、图片与前端静态资源的高速分发
 
 # > SiteGround 建站与托管平台相关域名
 
