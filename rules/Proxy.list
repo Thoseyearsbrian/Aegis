@@ -5657,6 +5657,12 @@ DOMAIN-SUFFIX,tcgplayer.com # TCGplayer 官方交易平台主域名，用于集�
 DOMAIN-SUFFIX,api.tcgplayer.com # TCGplayer 官方 API 服务，用于商品数据、价格查询、库存与平台业务接口
 DOMAIN-SUFFIX,static.tcgplayer.com # TCGplayer 前端静态资源 CDN，用于页面样式、脚本与图片资源加载
 
+# > Genesys Cloud 企业级云联络中心与客服平台
+
+DOMAIN-SUFFIX,apps.usw2.pure.cloud # Genesys Cloud（原 PureCloud）官方应用入口，用于企业客服、呼叫中心、在线支持与客户沟通服务
+DOMAIN-SUFFIX,api.usw2.pure.cloud # Genesys Cloud 后端 API 服务接口，用于客服系统数据交互、会话管理与平台功能支持
+DOMAIN-SUFFIX,media.usw2.pure.cloud # Genesys Cloud 媒体通信服务域名，用于语音、音频与实时通信媒体流传输
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
