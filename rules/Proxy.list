@@ -829,6 +829,7 @@ DOMAIN-SUFFIX,careers.ebayinc.com # eBay Inc. 官方招聘网站，用于发布�
 DOMAIN-SUFFIX,investors.ebayinc.com # eBay Inc. 投资者关系官方网站，用于发布财报、SEC 文件、股东信息与公司治理相关内容
 DOMAIN-SUFFIX,ebay.q4cdn.com # eBay 投资者关系与财务信息静态资源 CDN（Q4 平台），用于财报与公告内容分发
 DOMAIN-SUFFIX,beep.ebayinc.to # eBay Inc. 内部企业服务与通信支持域名，用于公司级功能或内部系统支持
+DOMAIN-SUFFIX,src.ebay-us.com # eBay 美国站点前端脚本与功能资源域名，用于页面功能加载、站点交互与业务支持
 
 # > Etsy 相关域名
 
@@ -5715,6 +5716,15 @@ DOMAIN-SUFFIX,api-cdn.usw2.pure.cloud # Genesys Cloud（原 PureCloud）在 us-w
 DOMAIN-SUFFIX,limuirs-assets.lithium.com # Khoros（Lithium）社区平台前端静态资源域名，用于加载论坛页面的脚本、样式与 UI 组件
 DOMAIN-SUFFIX,ip1.i.lithium.com # Khoros（Lithium）社区平台图片与媒体内容分发节点，用于论坛图片、附件与用户内容加载
 DOMAIN-SUFFIX,webmessaging.usw2.pure.cloud # Genesys Cloud（PureCloud）Web Messaging 服务节点，用于网站在线客服、实时消息会话与客户支持通信
+
+# > Forter 电商支付反欺诈与实时风险评估服务
+
+DOMAIN-SUFFIX,forter.com # Forter 官方风控与反欺诈服务域名，用于电商交易中的实时风险评估、设备指纹、行为分析与欺诈判定
+
+# > iovation / TransUnion Online Metrix 设备指纹与反欺诈服务
+
+DOMAIN-SUFFIX,online-metrix.net # Online Metrix（iovation / TransUnion）设备指纹与反欺诈平台主域名
+DOMAIN-SUFFIX,aa.online-metrix.net # Online Metrix 行为与设备风险评估接口，用于设备指纹采集、风险评分与反欺诈判定
 
 # > 第三方独立站
 
