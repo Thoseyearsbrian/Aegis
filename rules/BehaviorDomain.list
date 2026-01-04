@@ -1235,3 +1235,7 @@ DOMAIN-SUFFIX,adnxs.com # AppNexus（Xandr）程序化广告交换平台，用�
 # > Rubicon Project（Magnite）程序化广告行为像素与用户标识同步服务
 
 DOMAIN-SUFFIX,pixel-us-west.rubiconproject.com # Rubicon Project（Magnite）位于 US-West 区域的广告像素与用户标识同步节点，用于广告竞价、曝光归因、跨站用户识别与行为信号回传
+
+# > New Relic 应用性能监控（APM）与遥测数据采集服务
+
+DOMAIN-SUFFIX,bam-cell.nr-data.net # New Relic APM 前端与客户端遥测数据采集节点，用于应用性能监控、错误追踪与运行指标上报
