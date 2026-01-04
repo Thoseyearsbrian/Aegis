@@ -5714,6 +5714,7 @@ DOMAIN-SUFFIX,api-cdn.usw2.pure.cloud # Genesys Cloud（原 PureCloud）在 us-w
 
 DOMAIN-SUFFIX,limuirs-assets.lithium.com # Khoros（Lithium）社区平台前端静态资源域名，用于加载论坛页面的脚本、样式与 UI 组件
 DOMAIN-SUFFIX,ip1.i.lithium.com # Khoros（Lithium）社区平台图片与媒体内容分发节点，用于论坛图片、附件与用户内容加载
+DOMAIN-SUFFIX,webmessaging.usw2.pure.cloud # Genesys Cloud（PureCloud）Web Messaging 服务节点，用于网站在线客服、实时消息会话与客户支持通信
 
 # > 第三方独立站
 
