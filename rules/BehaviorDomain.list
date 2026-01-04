@@ -1257,3 +1257,7 @@ DOMAIN-SUFFIX,aem-kakao-collector.onkakao.net # Kakao AEM 行为采集接口，�
 # > FiveSense 用户行为分析与营销自动化平台（韩国）
 
 DOMAIN-SUFFIX,fivesense.co.kr # FiveSense 提供的用户行为分析、营销自动化与数据驱动广告优化服务，涉及用户访问与交互数据采集
+
+# > Optimizely 产品实验、A/B 测试与用户行为分析平台
+
+DOMAIN-SUFFIX,logx.optimizely.com # Optimizely 行为日志与实验结果上报接口，用于用户行为采集与实验数据分析

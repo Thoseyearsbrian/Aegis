@@ -5782,6 +5782,11 @@ DOMAIN-SUFFIX,static.mailerlite.com # MailerLite 前端静态资源域名
 
 DOMAIN-SUFFIX,pubcon.ahc.ink # AHC 提供的发布与转化触发服务节点,用于业务内容分发、流程触发或前端功能支持
 
+# > Optimizely 产品实验与 A/B 测试平台
+
+DOMAIN-SUFFIX,optimizely.com # Optimizely 官方平台主域名，用于产品实验配置、A/B 测试管理与分析后台访问
+DOMAIN-SUFFIX,cdn.optimizely.com # Optimizely 前端实验脚本与配置 CDN，用于下发 A/B 测试逻辑与功能实验代码
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
