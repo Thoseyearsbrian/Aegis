@@ -5756,6 +5756,9 @@ DOMAIN-SUFFIX,paradox-tp.myworkdaycdn.com # Workday 招聘系统中集成的 Par
 
 DOMAIN-SUFFIX,magic.wizards.com # Wizards of the Coast 官方网站，用于卡牌数据库、规则说明、新闻公告与赛事活动信息发布
 DOMAIN-SUFFIX,company.wizards.com # Wizards of the Coast 官方网站，用于企业信息披露、公司新闻、品牌介绍与合规相关内容展示
+DOMAIN-SUFFIX,archetype-entertainment.com # Archetype Entertainment 官方网站，Wizards of the Coast 旗下游戏工作室，用于项目介绍、招聘与官方信息发布
+DOMAIN-SUFFIX,support.wizards.com # Wizards of the Coast 官方客服与支持中心，用于用户帮助、工单提交与产品支持
+DOMAIN-SUFFIX,wpn.wizards.com # Wizards Play Network 官方平台，用于官方合作门店、赛事组织与合作伙伴管理
 
 # > 官方数字内容与用户服务平台（玩具 / 桌游生态）
 
