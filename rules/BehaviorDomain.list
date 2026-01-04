@@ -1239,3 +1239,7 @@ DOMAIN-SUFFIX,pixel-us-west.rubiconproject.com # Rubicon Project（Magnite）位
 # > New Relic 应用性能监控（APM）与遥测数据采集服务
 
 DOMAIN-SUFFIX,bam-cell.nr-data.net # New Relic APM 前端与客户端遥测数据采集节点，用于应用性能监控、错误追踪与运行指标上报
+
+# > Workday UXI 用户体验遥测与行为数据采集服务
+
+DOMAIN-SUFFIX,uxi-ingestion.us.mlde.workday.com # Workday UXI（User Experience Intelligence）数据摄取接口，用于收集用户交互、性能指标与应用使用行为数据
