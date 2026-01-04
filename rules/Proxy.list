@@ -819,7 +819,10 @@ DOMAIN-SUFFIX,api.ebay.com # eBay 官方 API 服务，用于商品、订单、�
 DOMAIN-SUFFIX,signin.ebay.com # eBay 官方账户登录与身份认证服务
 DOMAIN-SUFFIX,auth.ebay.com # eBay OAuth 授权与第三方应用认证服务
 DOMAIN-SUFFIX,ir.ebay.com # eBay 投资者关系与官方信息披露页面
-DOMAIN-SUFFIX,ir.ebaystatic.com # eBay 官方投资者关系（Investor Relations）静态资源域名，用于财报、公告、演示文稿等信息披露页面的脚本、样式与文档资源加载
+DOMAIN-SUFFIX,ir.ebaystatic.com # eBay 官方投资者关系（Investor Relations）静态资源域名
+DOMAIN-SUFFIX,ebayinc.com # eBay Inc. 官方公司级域名，用于企业信息披露、投资者关系、新闻发布、合规与公司治理内容展示
+DOMAIN-SUFFIX,investors.ebayinc.com # eBay 投资者关系子站，用于财报、公告、SEC 文件与资本市场信息披露
+DOMAIN-SUFFIX,news.ebayinc.com # eBay 官方新闻发布与媒体中心，用于公司动态、公告与新闻稿发布
 
 # > Etsy 相关域名
 
