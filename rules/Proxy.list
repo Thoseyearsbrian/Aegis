@@ -5740,6 +5740,11 @@ DOMAIN-SUFFIX,cdn.quantummetric.com # Quantum Metric 前端静态资源与采集
 
 DOMAIN-SUFFIX,bugherd.com # BugHerd 官方平台域名，用于网站问题反馈、页面标注、团队协作与项目管理功能
 
+# > Workday 企业招聘与人力资源管理平台
+
+DOMAIN-SUFFIX,myworkdayjobs.com # Workday 官方招聘系统平台，用于企业职位发布、招聘流程与候选人管理
+DOMAIN-SUFFIX,ebay.wd5.myworkdayjobs.com # eBay 基于 Workday 的官方招聘子实例，用于 eBay 职位展示与求职申请
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
