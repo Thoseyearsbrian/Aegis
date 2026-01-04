@@ -5688,7 +5688,21 @@ DOMAIN-SUFFIX,joeyblog.net # JoeyBlog 个人博客网站，用于发布个人文
 DOMAIN-SUFFIX,tcgplayer.ada.support # ADA 为 TCGplayer 提供的客户支持与智能客服服务域名
 DOMAIN-SUFFIX,rollout.ada.support # ADA 客服系统功能发布与配置下发服务，用于支持组件更新
 
+# > AddToAny 社交分享组件与按钮前端资源服务
 
+DOMAIN-SUFFIX,static.addtoany.com # AddToAny 官方前端静态资源域名，用于社交分享按钮、分享组件脚本与样式加载
+
+# > Q4 Web 投资者关系（IR）平台 API 服务
+
+DOMAIN-SUFFIX,api.q4web.com # Q4 Web 提供的投资者关系平台 API，用于上市公司财报、公告、投资者数据与 IR 页面内容加载
+
+# > Visionary Cloud 数字资产管理与媒体安全访问服务
+
+DOMAIN-SUFFIX,secure.visionarycloudvision.com # Visionary Cloud 提供的受保护媒体访问与数字资产交付服务，用于图片、视频等内容的安全加载与权限控制
+
+# > Phenom People 招聘平台流程与行为支持接口
+
+DOMAIN-SUFFIX,phenomtrackapi.phenompeople.com # Phenom People 招聘系统内部流程与事件接口，用于职位浏览、申请流程状态与招聘系统功能支持
 
 # > 第三方独立站
 
