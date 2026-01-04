@@ -1243,3 +1243,7 @@ DOMAIN-SUFFIX,bam-cell.nr-data.net # New Relic APM 前端与客户端遥测数�
 # > Workday UXI 用户体验遥测与行为数据采集服务
 
 DOMAIN-SUFFIX,uxi-ingestion.us.mlde.workday.com # Workday UXI（User Experience Intelligence）数据摄取接口，用于收集用户交互、性能指标与应用使用行为数据
+
+# > TradingView 用户行为分析与事件采集服务
+
+DOMAIN-SUFFIX,snowplow-pixel.tradingview.com # TradingView 基于 Snowplow 的用户行为事件采集像素，用于页面交互、功能使用路径与产品分析数据上报
