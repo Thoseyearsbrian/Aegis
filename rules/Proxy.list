@@ -5816,6 +5816,12 @@ DOMAIN-SUFFIX,freshdesk.com # Freshdesk 官方客户支持与工单管理平台�
 
 DOMAIN-SUFFIX,app.cdn.frill.co # Frill 前端反馈组件与功能投票 UI 的 CDN 分发域名，用于加载用户反馈、建议收集与产品路线图交互组件
 
+# > Dynamic Auth Web3 身份认证与钱包登录服务
+
+DOMAIN-SUFFIX,app.dynamicauth.com # Dynamic 官方 Web 应用入口，用于 Web3 钱包登录、身份认证与会话管理
+DOMAIN-SUFFIX,dynamic-static-assets.com # Dynamic 官方前端静态资源主域名，用于加载认证组件相关脚本与样式
+DOMAIN-SUFFIX,iconic.dynamic-static-assets.com # Dynamic 静态资源子域，用于图标、UI 组件与前端展示资源分发
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站

@@ -1252,3 +1252,7 @@ DOMAIN-SUFFIX,fivesense.co.kr # FiveSense 提供的用户行为分析、营销�
 # > Optimizely 产品实验、A/B 测试与用户行为分析平台
 
 DOMAIN-SUFFIX,logx.optimizely.com # Optimizely 行为日志与实验结果上报接口，用于用户行为采集与实验数据分析
+
+# > Dynamic Auth Web3 身份认证与钱包登录服务
+
+DOMAIN-SUFFIX,logs.dynamicauth.com # Dynamic 身份认证服务日志与事件上报接口，用于登录状态与安全事件记录
