@@ -5803,6 +5803,10 @@ DOMAIN-SUFFIX,trezor.go2cloud.org # Trezor 官方使用的联盟营销与推广�
 
 DOMAIN-SUFFIX,femmesprevoyantes.be # 比利时 Femmes Prévoyantes Socialistes 官方网站，用于社会保障、健康保险、组织信息与公共服务内容发布
 
+# > The Hotel Collection 英国酒店与度假村预订平台
+
+DOMAIN-SUFFIX,thehotelcollection.co.uk # The Hotel Collection 英国酒店与度假村官网，用于酒店展示、住宿预订、品牌介绍与客户服务
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
