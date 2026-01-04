@@ -248,7 +248,6 @@ IP-CIDR,208.31.254.33/32 # Blockscout 提供的 Ethereum Classic 区块链浏览
 # > Bitcoin 官方区块链项目主站
 
 DOMAIN-SUFFIX,bitcoin.org # Bitcoin 官方项目网站，用于协议介绍、客户端下载、技术文档与社区信息发布
-DOMAIN-SUFFIX,www.bitcoin.org # Bitcoin 官方网站前端访问域名，用于用户浏览与内容展示
 DOMAIN-SUFFIX,static.bitcoin.org # Bitcoin 官方前端静态资源域，用于样式、脚本与图片等内容加载
 
 # > Trezor 硬件钱包与加密资产自托管服务平台
@@ -328,7 +327,6 @@ DOMAIN-SUFFIX,blog.satoshilabs.com # SatoshiLabs 官方博客，用于发布安�
 # > Onchain 区块链与加密资产生态基础设施平台
 
 DOMAIN-SUFFIX,onchain.org # Onchain 官方网站，用于区块链与加密资产相关基础设施、生态项目与技术信息展示
-DOMAIN-SUFFIX,www.onchain.org # Onchain 官方网站前端访问域名，用于页面内容展示与用户访问
 
 # > MarkFi 去中心化金融协议前端与官方资源服务
 
@@ -679,7 +677,6 @@ DOMAIN-SUFFIX,assets.mexc.com # MEXC 前端静态资源与页面资产加载域�
 DOMAIN-SUFFIX,okx.com # OKX 官方平台主域名，用于数字资产交易、Web3 服务与账户管理
 DOMAIN-SUFFIX,api.okx.com # OKX 官方后端 API 接口，用于行情查询、交易下单、账户与资产操作
 DOMAIN-SUFFIX,ws.okx.com # OKX 实时 WebSocket 接口，用于行情推送、订单状态与实时数据订阅
-DOMAIN-SUFFIX,www.okx.com # OKX 官方前端网站入口，用于交易界面与账户访问（部分地区仍使用）
 DOMAIN-SUFFIX,static.okx.com # OKX 前端静态资源与页面资产加载域名
 
 # > Pionex 加密货币量化交易与机器人交易平台

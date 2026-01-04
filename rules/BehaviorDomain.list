@@ -1256,3 +1256,7 @@ DOMAIN-SUFFIX,logx.optimizely.com # Optimizely 行为日志与实验结果上报
 # > Dynamic Auth Web3 身份认证与钱包登录服务
 
 DOMAIN-SUFFIX,logs.dynamicauth.com # Dynamic 身份认证服务日志与事件上报接口，用于登录状态与安全事件记录
+
+# > Tapad 跨设备识别与用户画像行为数据平台
+
+DOMAIN-SUFFIX,pixel.tapad.com # Tapad 行为像素接口，用于跨设备用户识别、广告画像构建与身份关联
