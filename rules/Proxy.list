@@ -5757,6 +5757,11 @@ DOMAIN-SUFFIX,paradox-tp.myworkdaycdn.com # Workday 招聘系统中集成的 Par
 DOMAIN-SUFFIX,magic.wizards.com # Wizards of the Coast 官方网站，用于卡牌数据库、规则说明、新闻公告与赛事活动信息发布
 DOMAIN-SUFFIX,company.wizards.com # Wizards of the Coast 官方网站，用于企业信息披露、公司新闻、品牌介绍与合规相关内容展示
 
+# > 官方数字内容与用户服务平台（玩具 / 桌游生态）
+
+DOMAIN-SUFFIX,dm.takaratomy.co.jp # Takara Tomy 官方数字营销与活动内容域，用于产品信息展示、会员内容与官方推广页面
+DOMAIN-SUFFIX,dndbeyond.com # D&D Beyond 官方数字内容平台，用于《龙与地下城》规则、角色管理、战役工具与社区服务
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
