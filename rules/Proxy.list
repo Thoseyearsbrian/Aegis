@@ -5749,9 +5749,10 @@ DOMAIN-SUFFIX,myworkdaycdn.com # Workday 官方前端静态资源 CDN 域名，�
 DOMAIN-SUFFIX,wd5.myworkdaycdn.com # Workday 企业租户 wd5 的前端静态资源 CDN，用于员工系统与后台界面资源加载
 DOMAIN-SUFFIX,paradox-tp.myworkdaycdn.com # Workday 招聘系统中集成的 Paradox 招聘助手前端资源 CDN，用于招聘流程中的交互组件与界面展示
 
-# > Wizards of the Coast《Magic: The Gathering》官方内容与卡牌信息平台
+# > Wizards of the Coast 官方企业信息与公司事务平台
 
-DOMAIN-SUFFIX,magic.wizards.com # Wizards of the Coast 官方万智牌（Magic: The Gathering）网站，用于卡牌数据库、规则说明、新闻公告与赛事活动信息发布
+DOMAIN-SUFFIX,magic.wizards.com # Wizards of the Coast 官方网站，用于卡牌数据库、规则说明、新闻公告与赛事活动信息发布
+DOMAIN-SUFFIX,company.wizards.com # Wizards of the Coast 官方网站，用于企业信息披露、公司新闻、品牌介绍与合规相关内容展示
 
 # > 第三方独立站
 
