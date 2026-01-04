@@ -1166,10 +1166,6 @@ DOMAIN-SUFFIX,sdk-beta.featurebase.app # Featurebase SDK Beta 接口域名，用
 
 DOMAIN-SUFFIX,open.woodpeckerlog.com # WoodpeckerLog 提供的应用日志采集与运行监控服务域名，用于错误日志、崩溃信息与运行状态数据上报
 
-# > Trezor 官方联盟推广与转化追踪域名
-
-DOMAIN-SUFFIX,trezor.go2cloud.org # Trezor 官方使用的联盟推广与转化追踪域名（Affiliate / Attribution）
-
 # > Chili Piper 销售转化与会议调度前端行为组件服务
 
 DOMAIN-SUFFIX,js.chilipiper.com # Chili Piper 前端 JavaScript 组件，用于网站表单提交、会议调度、线索分发与销售转化流程控制，涉及用户交互行为数据
