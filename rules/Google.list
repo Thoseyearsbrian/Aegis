@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-01
+# - 更新时间：2026-01-04
 
 # > 核心服务（Google Core Services）
 
@@ -46,7 +46,7 @@ DOMAIN-SUFFIX,google-analytics.com # Google Analytics 通用网页行为统计�
 DOMAIN-SUFFIX,grow.google # Google Grow 学习、技能培训与职业发展服务
 DOMAIN-SUFFIX,goo.gle # Google 官方短链接域名，用于服务与内容跳转
 DOMAIN-SUFFIX,syndicatedsearch.goog # Google 官方搜索联合与实验性搜索服务域名，用于搜索能力分发与结果呈现
-IP-CIDR,142.250.4.0/24  # Google 服务器节点，用于 Google 搜索与服务访问
+IP-CIDR,142.250.4.0/24 # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
 
@@ -167,7 +167,7 @@ DOMAIN-SUFFIX,googleusercontent.com # Google/YouTube 的 CDN 内容分发与图�
 DOMAIN-SUFFIX,gstatic.com # Google 静态资源服务，用于加载 YouTube 公共资源与字体文件
 DOMAIN-SUFFIX,encrypted-tbn1.gstatic.com # Google 图片搜索缩略图资源域名
 DOMAIN-SUFFIX,lh3.google.com # Google 图片内容分发域名，用于加载头像、媒体缩略图与内容图片（常见于 Gmail、Google Photos 等服务）
-DOMAIN-SUFFIX,cdn.ampproject.org # Google AMP 框架 CDN 域名，用于加载加速网页资源与第三方内容组件  
+DOMAIN-SUFFIX,cdn.ampproject.org # Google AMP 框架 CDN 域名，用于加载加速网页资源与第三方内容组件 
 DOMAIN-SUFFIX,gstatic.cn # Google 在中国地区部署的静态资源镜像域名，用于字体、JS、样式与公共库的本地加速加载
 IP-CIDR,74.125.68.188/32 # Google 服务节点 IP，用于部分地区的内容分发与网络请求解析
 IP-CIDR,74.125.130.188 # Google 内容服务 IPv4 地址，常用于 API 与内容加载请求
@@ -176,7 +176,7 @@ IP-CIDR,142.250.4.188 # Google CDN 内容分发节点，用于静态资源与服
 
 # > Google 服务器节点（Google Frontend / GFE）
 
-IP-CIDR,74.125.24.188/32  # Google 前端节点，用于 Google 搜索 / Gmail / YouTube 等核心服务访问
+IP-CIDR,74.125.24.188/32 # Google 前端节点，用于 Google 搜索 / Gmail / YouTube 等核心服务访问
 IP-CIDR,64.233.170.188/32 # Google 网络服务节点 IP
 IP-CIDR,142.251.10.188/32 # Google 前端服务节点（GFE），用于搜索、Gmail、YouTube 等核心服务的入口层访问
 IP-CIDR,172.217.70.188/32 # Google 前端服务节点（GFE），用于搜索、Gmail、YouTube 等核心服务的入口层访问
@@ -188,10 +188,10 @@ IP-CIDR,74.125.200.95/32 # Google 服务通信节点 IP，曾被用于端口映�
 
 # > Google Merchant Center 商户数据分析域名
 
-DOMAIN-SUFFIX,merchant-center-analytics.goog  # 用于商户商品转化分析与 Google Shopping 数据统计
-DOMAIN-SUFFIX,merchant-center.googleapis.com  # Google Merchant Center 核心 API 接口，用于商品数据同步、审核状态与账户管理
-DOMAIN-SUFFIX,shoppingcontent.googleapis.com  # Google Shopping Content API 域名，用于商品 Feed 上传、更新与库存信息管理
-DOMAIN-SUFFIX,merchants.google.com  # Google Merchant Center Web 控制台域名，用于商户后台登录、商品管理与审核状态查看
+DOMAIN-SUFFIX,merchant-center-analytics.goog # 用于商户商品转化分析与 Google Shopping 数据统计
+DOMAIN-SUFFIX,merchant-center.googleapis.com # Google Merchant Center 核心 API 接口，用于商品数据同步、审核状态与账户管理
+DOMAIN-SUFFIX,shoppingcontent.googleapis.com # Google Shopping Content API 域名，用于商品 Feed 上传、更新与库存信息管理
+DOMAIN-SUFFIX,merchants.google.com # Google Merchant Center Web 控制台域名，用于商户后台登录、商品管理与审核状态查看
 
 # > Google 安全验证服务（reCAPTCHA / 安全校验）
 
@@ -204,4 +204,4 @@ DOMAIN-SUFFIX,img.logo.dev # Logo.dev 项目的图标资源加载域名，由 Go
 # > Blogspot 静态资源域名（用于 Blogger 平台资源加载）
 
 DOMAIN-SUFFIX,blogger.com # Google 旗下 Blogger 官方主站域名，用于博客创建、内容管理、主题配置与用户登录等核心功能
-DOMAIN-SUFFIX,resources.blogblog.com  # Blogger（原 Blogspot）平台用于托管样式表、脚本、字体等静态资源的域名，归属于 Google 旗下
+DOMAIN-SUFFIX,resources.blogblog.com # Blogger（原 Blogspot）平台用于托管样式表、脚本、字体等静态资源的域名，归属于 Google 旗下

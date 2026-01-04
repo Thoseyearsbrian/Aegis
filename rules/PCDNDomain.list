@@ -4,87 +4,87 @@
 # - 特征：动态端口监听 / 异常回传路径 / 利用公网中继 / 零成本带宽透支
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2026-01-04
 
 # > 哔哩哔哩 PCDN 节点
 
-DOMAIN-SUFFIX,v1d.szbdyd.com # 哔哩哔哩 PCDN 节点域名，用于内容分发与视频片段缓存  
-DOMAIN-SUFFIX,chat.bilibili.com # 哔哩哔哩直播 / 弹幕 WebSocket 接口，含 P2P 传输模块  
+DOMAIN-SUFFIX,v1d.szbdyd.com # 哔哩哔哩 PCDN 节点域名，用于内容分发与视频片段缓存 
+DOMAIN-SUFFIX,chat.bilibili.com # 哔哩哔哩直播 / 弹幕 WebSocket 接口，含 P2P 传输模块 
 
 # > 斗鱼直播 PCDN 节点
 
-DOMAIN-SUFFIX,dyp2p-ali.douyucdn.cn # 斗鱼 P2P 节点（阿里线路），用于内容回传与片段传输  
-DOMAIN-SUFFIX,dyp2p-hw.douyucdn.cn # 斗鱼 P2P 节点（华为线路），具备 PCDN 回传功能  
-DOMAIN-SUFFIX,p2p-ali.douyucdn.cn # 斗鱼阿里云线路节点，用于直播内容的分片分发  
-DOMAIN-SUFFIX,p2pchunk-hw.douyucdn.cn # 斗鱼华为线路分片节点，用于边缘回传片段交换  
-DOMAIN-SUFFIX,p2pchunk-table.douyucdn.cn # 斗鱼 PCDN 控制索引节点，分发调度分片加载路径  
-DOMAIN-SUFFIX,p2pchunk-ws.douyucdn.cn # 斗鱼 WebSocket P2P 分片节点，用于直播缓存推送  
-DOMAIN-SUFFIX,p2perrorlog.douyucdn.cn # 斗鱼 P2P 异常上报接口，用于回传 SDK 连接错误信息  
-DOMAIN-SUFFIX,p2plive-ali.douyucdn.cn # 斗鱼直播节点（阿里线路），用于回传用户流量内容  
-DOMAIN-SUFFIX,p2plive-ws.douyucdn.cn # 斗鱼 WebSocket 回传节点，传输直播内容与控制信息  
-DOMAIN-SUFFIX,p2plog.douyucdn.cn # 斗鱼 PCDN 节点日志回传接口，包含连接状态与传输数据  
-DOMAIN-SUFFIX,p2pvod-ws.douyucdn.cn # 斗鱼点播加速节点，WebSocket 通信支持回传与加载控制  
-DOMAIN-SUFFIX,stun.douyucdn.cn # 斗鱼 STUN 穿透节点，建立用户与用户之间直连通信  
-DOMAIN-SUFFIX,stun1.douyucdn.cn # 斗鱼备用 STUN 节点，用于 P2P 服务建立连接路径  
+DOMAIN-SUFFIX,dyp2p-ali.douyucdn.cn # 斗鱼 P2P 节点（阿里线路），用于内容回传与片段传输 
+DOMAIN-SUFFIX,dyp2p-hw.douyucdn.cn # 斗鱼 P2P 节点（华为线路），具备 PCDN 回传功能 
+DOMAIN-SUFFIX,p2p-ali.douyucdn.cn # 斗鱼阿里云线路节点，用于直播内容的分片分发 
+DOMAIN-SUFFIX,p2pchunk-hw.douyucdn.cn # 斗鱼华为线路分片节点，用于边缘回传片段交换 
+DOMAIN-SUFFIX,p2pchunk-table.douyucdn.cn # 斗鱼 PCDN 控制索引节点，分发调度分片加载路径 
+DOMAIN-SUFFIX,p2pchunk-ws.douyucdn.cn # 斗鱼 WebSocket P2P 分片节点，用于直播缓存推送 
+DOMAIN-SUFFIX,p2perrorlog.douyucdn.cn # 斗鱼 P2P 异常上报接口，用于回传 SDK 连接错误信息 
+DOMAIN-SUFFIX,p2plive-ali.douyucdn.cn # 斗鱼直播节点（阿里线路），用于回传用户流量内容 
+DOMAIN-SUFFIX,p2plive-ws.douyucdn.cn # 斗鱼 WebSocket 回传节点，传输直播内容与控制信息 
+DOMAIN-SUFFIX,p2plog.douyucdn.cn # 斗鱼 PCDN 节点日志回传接口，包含连接状态与传输数据 
+DOMAIN-SUFFIX,p2pvod-ws.douyucdn.cn # 斗鱼点播加速节点，WebSocket 通信支持回传与加载控制 
+DOMAIN-SUFFIX,stun.douyucdn.cn # 斗鱼 STUN 穿透节点，建立用户与用户之间直连通信 
+DOMAIN-SUFFIX,stun1.douyucdn.cn # 斗鱼备用 STUN 节点，用于 P2P 服务建立连接路径 
 
 # > 虎牙直播 PCDN 节点
 
-DOMAIN-SUFFIX,p2p.huya.com # 虎牙直播 PCDN 节点域名，用于用户之间音视频片段加速与交换  
-DOMAIN-SUFFIX,stun.hitv.com # 虎牙穿透服务节点，辅助建立 NAT 穿透与直连路径  
+DOMAIN-SUFFIX,p2p.huya.com # 虎牙直播 PCDN 节点域名，用于用户之间音视频片段加速与交换 
+DOMAIN-SUFFIX,stun.hitv.com # 虎牙穿透服务节点，辅助建立 NAT 穿透与直连路径 
 
 # > 快手 PCDN 节点
 
-DOMAIN-SUFFIX,pcdn.yximgs.com # 快手直播 PCDN 节点，用于视频流加速与分片分发  
-DOMAIN-SUFFIX,vcloud.ks-live.com # 快手云直播服务，含 P2P 回传与边缘节点调度逻辑  
+DOMAIN-SUFFIX,pcdn.yximgs.com # 快手直播 PCDN 节点，用于视频流加速与分片分发 
+DOMAIN-SUFFIX,vcloud.ks-live.com # 快手云直播服务，含 P2P 回传与边缘节点调度逻辑 
 DOMAIN-SUFFIX,xxpkg.com # 快手系关联公司域名，用于 PCDN 相关服务（p2p-punch、pull 接口）
 DOMAIN-SUFFIX,yximgs-webrtc.liveplay.myqcloud.com # 快手 WebRTC 加速域名，涉及 P2P 内容传输 
 
 # > QQ 音乐 / 全民K歌 PCDN 节点
 
-DOMAIN-SUFFIX,tp2p.kg.qq.com # QQ 音乐 P2P 节点通信域名，用于音频内容回传与分发  
-DOMAIN-SUFFIX,twns.p2ptun.qq.com # QQ 音乐穿透服务域名，用于节点中继与内容分发  
-DOMAIN-SUFFIX,p2p.qq.com # 腾讯 P2P 域名通用入口，历史用于 QQ 音乐 / 全民K歌 等内容加速  
+DOMAIN-SUFFIX,tp2p.kg.qq.com # QQ 音乐 P2P 节点通信域名，用于音频内容回传与分发 
+DOMAIN-SUFFIX,twns.p2ptun.qq.com # QQ 音乐穿透服务域名，用于节点中继与内容分发 
+DOMAIN-SUFFIX,p2p.qq.com # 腾讯 P2P 域名通用入口，历史用于 QQ 音乐 / 全民K歌 等内容加速 
 
 # > 网易云音乐 PCDN 节点
 
-DOMAIN-SUFFIX,sd-gl.xinqucc.com # 网易云音乐内容传输域名，用于音频资源回传与边缘节点分发  
-DOMAIN-SUFFIX,xyp-n.kuiniuca.com # 可疑 SDK 通信域名，存在匿名代理与节点连接行为  
-DOMAIN-SUFFIX,sdk1xyajs.data.kuiniuca.com # 第三方 SDK 资源域名，用于内容回传与 P2P 分发逻辑  
+DOMAIN-SUFFIX,sd-gl.xinqucc.com # 网易云音乐内容传输域名，用于音频资源回传与边缘节点分发 
+DOMAIN-SUFFIX,xyp-n.kuiniuca.com # 可疑 SDK 通信域名，存在匿名代理与节点连接行为 
+DOMAIN-SUFFIX,sdk1xyajs.data.kuiniuca.com # 第三方 SDK 资源域名，用于内容回传与 P2P 分发逻辑 
 
 # > 腾讯平台 PCDN 节点（游戏 / 音乐 / 视频 / 云服务）
 
-DOMAIN-SUFFIX,p2pupdate.gamedl.qq.com # 腾讯游戏平台 P2P 更新节点，用于差分包与内容下发  
-DOMAIN-SUFFIX,p2pupgrade.gamedl.qq.com # 腾讯游戏平台更新分发节点，含 P2P 内容获取逻辑  
+DOMAIN-SUFFIX,p2pupdate.gamedl.qq.com # 腾讯游戏平台 P2P 更新节点，用于差分包与内容下发 
+DOMAIN-SUFFIX,p2pupgrade.gamedl.qq.com # 腾讯游戏平台更新分发节点，含 P2P 内容获取逻辑 
 DOMAIN-SUFFIX,p2ptun.qq.com # 腾讯 P2P 穿透服务节点，用于 PCDN 加速与游戏内容分发
-DOMAIN-SUFFIX,stun.qqlive.qq.com # 腾讯视频 STUN 穿透节点，用于直播 / 点播 NAT 连接建立  
-DOMAIN-SUFFIX,musicstun.p2p.qq.com # QQ 音乐 / 全民K歌 P2P 穿透节点  
-DOMAIN-SUFFIX,signal.qvb.qcloud.com # 腾讯云 STUN / WebRTC 信令节点，用于 P2P 建链  
-DOMAIN-SUFFIX,stun.qvb.qcloud.com # 腾讯云 STUN 服务通用节点，用于 P2P 内容中继  
+DOMAIN-SUFFIX,stun.qqlive.qq.com # 腾讯视频 STUN 穿透节点，用于直播 / 点播 NAT 连接建立 
+DOMAIN-SUFFIX,musicstun.p2p.qq.com # QQ 音乐 / 全民K歌 P2P 穿透节点 
+DOMAIN-SUFFIX,signal.qvb.qcloud.com # 腾讯云 STUN / WebRTC 信令节点，用于 P2P 建链 
+DOMAIN-SUFFIX,stun.qvb.qcloud.com # 腾讯云 STUN 服务通用节点，用于 P2P 内容中继 
 
 # > 芒果 TV PCDN 节点
 
-DOMAIN-SUFFIX,stun.hitv.com # 芒果 TV P2P 穿透节点，用于 NAT 建链与内容同步  
+DOMAIN-SUFFIX,stun.hitv.com # 芒果 TV P2P 穿透节点，用于 NAT 建链与内容同步 
 
 # > 搜狐视频 / 56网 PCDN 节点
 
-DOMAIN-SUFFIX,p2p.tracker.tv.sohu.com # 搜狐视频 P2P Tracker 节点，用于用户间内容分发与追踪  
+DOMAIN-SUFFIX,p2p.tracker.tv.sohu.com # 搜狐视频 P2P Tracker 节点，用于用户间内容分发与追踪 
 
 # > 网心科技及合作域名 PCDN 节点 （迅雷链 / 分布式缓存 / 挖矿平台）
 
-DOMAIN-SUFFIX,onethingpcs.com # 网心科技主控平台，用于“迅雷链”等 PC 端挖矿/内容回传  
+DOMAIN-SUFFIX,onethingpcs.com # 网心科技主控平台，用于“迅雷链”等 PC 端挖矿/内容回传 
 DOMAIN-SUFFIX,pkoplink.com # 疑似网心科技合作平台，用于设备间 P2P 内容同步
-DOMAIN-SUFFIX,conf-darwin.xycdn.com # 星域云 PCDN 控制节点，用于分发调度与设备管理  
-DOMAIN-SUFFIX,seeds-open.xycdn.com # 星域云 P2P 种子分发接口，负责节点种子分配  
-DOMAIN-SUFFIX,sd-gl.xycdn.com # 星域云内容传输节点，用于 PCDN 边缘加速回传  
-DOMAIN-SUFFIX,ttxyajs.data.kuiniuca.com # 星域云 SDK 域名，用于数据采集与内容分发  
+DOMAIN-SUFFIX,conf-darwin.xycdn.com # 星域云 PCDN 控制节点，用于分发调度与设备管理 
+DOMAIN-SUFFIX,seeds-open.xycdn.com # 星域云 P2P 种子分发接口，负责节点种子分配 
+DOMAIN-SUFFIX,sd-gl.xycdn.com # 星域云内容传输节点，用于 PCDN 边缘加速回传 
+DOMAIN-SUFFIX,ttxyajs.data.kuiniuca.com # 星域云 SDK 域名，用于数据采集与内容分发 
 DOMAIN-SUFFIX,seeds-darwin.xycdn.com # 星域云 PCDN 种子服务节点，用于节点注册与更新 
 
 # > 金山云 PCDN 节点
-DOMAIN-SUFFIX,yfp2p.net # 金山云 P2P 服务节点，用于直播内容 PCDN 分发与穿透  
+DOMAIN-SUFFIX,yfp2p.net # 金山云 P2P 服务节点，用于直播内容 PCDN 分发与穿透 
 
 # > 第三方 SDK 穿透服务（提供嵌入型 SDK 模块）
 
-DOMAIN-SUFFIX,saxysec.com # 第三方 P2P SDK 服务商，用于穿透连接与内容分发管理  
+DOMAIN-SUFFIX,saxysec.com # 第三方 P2P SDK 服务商，用于穿透连接与内容分发管理 
 DOMAIN-SUFFIX,uhabo.com # 可疑 P2P SDK 通信域名，存在静默流量与内容加载行为
 
 # > 第三方内容回传平台（含注册与节点缓存）

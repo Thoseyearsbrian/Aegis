@@ -5,7 +5,7 @@
 # - 提示：本模块所列内容基于公开信任撤销与安全事件记录，默认不启用，建议根据场景按需启用
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-11-30
+# - 更新时间：2026-01-04
 
 # > Trustwave CA（美国，曾提供监听型中间证书）
 
@@ -41,7 +41,7 @@ DOMAIN-SUFFIX,crl.wosign.com # 吊销列表接口
 
 DOMAIN-SUFFIX,startssl.com # StartCom 旧主域，已遭吊销
 DOMAIN-SUFFIX,ocsp.startssl.com # OCSP 验证接口
-DOMAIN-SUFFIX,crl.startssl.com  # 吊销列表接口
+DOMAIN-SUFFIX,crl.startssl.com # 吊销列表接口
 
 # > GFW‑related: Geedge Networks
 

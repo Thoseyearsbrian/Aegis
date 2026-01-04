@@ -194,7 +194,7 @@ DOMAIN-SUFFIX,static.mycrypto.com # MyCrypto 官方前端静态资源域，用�
 DOMAIN-SUFFIX,mycryptoapi.com # MyCryptoAPI 官方平台，用于区块链数据服务、RPC 接口说明与开发者文档
 DOMAIN-SUFFIX,proxy.mycryptoapi.com # MyCryptoAPI 提供的区块链 RPC 与数据代理服务，用于交易、区块与地址数据查询
 
-# >  QuickNode 基础设施内部 API 服务（区块链 RPC / 后端支撑）
+# > QuickNode 基础设施内部 API 服务（区块链 RPC / 后端支撑）
 
 DOMAIN-SUFFIX,quicknode.com # QuickNode 官方区块链基础设施服务主站，用于多链 RPC、节点托管与开发者平台入口
 DOMAIN-SUFFIX,api.quicknode.com # QuickNode 官方 API 服务接口，用于账户管理、项目配置与节点调用

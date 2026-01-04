@@ -5,7 +5,7 @@
 # - 说明：YouTube 域名已迁移至 Google.list 统一管理
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-17
+# - 更新时间：2026-01-04
 
 # > Amazon Prime Video
 
@@ -46,7 +46,7 @@ DOMAIN-SUFFIX,hulu.jp # Hulu 日本站域名（本地化服务）
 DOMAIN-SUFFIX,hulu.qa # Hulu QA / 开发测试子域（部分请求记录）
 DOMAIN-SUFFIX,hulustreaming.net # Hulu CDN 服务域（资源投递与播放）
 DOMAIN-SUFFIX,hulu.hb.omtrdc.net # Hulu 与 Adobe Omniture 分析相关域名
-DOMAIN-SUFFIX,hulu.sc.omtrdc.net  # Hulu 行为分析数据上传节点
+DOMAIN-SUFFIX,hulu.sc.omtrdc.net # Hulu 行为分析数据上传节点
 IP-CIDR,34.213.0.0/16 # Hulu AWS 托管节点（美西视频播放与账户服务）
 IP-CIDR,52.89.0.0/16 # Hulu 播放与资源请求服务段（AWS 美国区域）
 
@@ -202,9 +202,9 @@ DOMAIN-SUFFIX,bbc.co.uk # 英国 BBC 官方网站
 DOMAIN-SUFFIX,bbc.com # BBC 国际站
 DOMAIN-SUFFIX,itv.com # 英国 ITV 电视台平台
 DOMAIN-SUFFIX,itvstatic.com # ITV 静态资源
-DOMAIN-SUFFIX,ichef.bbci.co.uk  # BBC 官方图片资源 CDN，用于加载文章配图、封面图等媒体内容
-DOMAIN-SUFFIX,static.files.bbci.co.uk  # BBC 静态文件资源域名，用于加载样式表、脚本与前端框架等静态内容
-DOMAIN-SUFFIX,bbc.gscontxt.net  # 与 BBC 媒体内容关联的第三方上下文数据服务域名，可能用于内容个性化或行为分析
+DOMAIN-SUFFIX,ichef.bbci.co.uk # BBC 官方图片资源 CDN，用于加载文章配图、封面图等媒体内容
+DOMAIN-SUFFIX,static.files.bbci.co.uk # BBC 静态文件资源域名，用于加载样式表、脚本与前端框架等静态内容
+DOMAIN-SUFFIX,bbc.gscontxt.net # 与 BBC 媒体内容关联的第三方上下文数据服务域名，可能用于内容个性化或行为分析
 DOMAIN-SUFFIX,web-cdn.api.bbci.co.uk # BBC 网站内容交付 CDN 接口域名，用于 API 内容加载与网页组件的动态分发
 DOMAIN-SUFFIX,emp.bbci.co.uk # BBC 嵌入式播放器服务域名，用于新闻与节目播放功能加载
 DOMAIN-SUFFIX,static.bbci.co.uk # BBC 静态资源域名，用于加载样式表、图像与脚本等页面资源
@@ -237,14 +237,14 @@ DOMAIN-SUFFIX,tving.com # 韩国 TVING 流媒体平台
 # > Vimeo 视频平台相关域名（Vimeo）
 
 DOMAIN-SUFFIX,vimeo.com # Vimeo 主域名，用于在线播放、用户账户与视频管理等核心服务
-DOMAIN-SUFFIX,arclight.vimeo.com # Vimeo 子服务域名，用于加载播放器核心组件与配置资源（Arclight 播放器模块）  
-DOMAIN-SUFFIX,lensflare.vimeo.com # Vimeo 子服务域名，用于管理播放器 UI、渲染配置与媒体加载流程（Lensflare 组件）    
-DOMAIN-SUFFIX,player.vimeo.com # Vimeo 视频播放器接口，用于嵌入式播放与视频加载  
-DOMAIN-SUFFIX,i.vimeocdn.com # Vimeo 内容分发网络 CDN 域名，用于加载视频封面、播放器资源与嵌入式内容  
-DOMAIN-SUFFIX,f.vimeocdn.com  # Vimeo 视频平台内容加载域名，用于传输视频播放器资源与静态媒体文件
-DOMAIN-SUFFIX,skyfire.vimeocdn.com # Vimeo Skyfire 服务节点域名，用于视频上传、传输与优化分发  
-DOMAIN-SUFFIX,vod-progressive-ak.vimeocdn.com # Vimeo VOD 进度式视频加载域名，用于常规文件分段下载  
-DOMAIN-SUFFIX,vod-adaptive-ak.vimeocdn.com # Vimeo 自适应码率视频加载域名，用于不同网络条件下的视频流服务  
+DOMAIN-SUFFIX,arclight.vimeo.com # Vimeo 子服务域名，用于加载播放器核心组件与配置资源（Arclight 播放器模块） 
+DOMAIN-SUFFIX,lensflare.vimeo.com # Vimeo 子服务域名，用于管理播放器 UI、渲染配置与媒体加载流程（Lensflare 组件） 
+DOMAIN-SUFFIX,player.vimeo.com # Vimeo 视频播放器接口，用于嵌入式播放与视频加载 
+DOMAIN-SUFFIX,i.vimeocdn.com # Vimeo 内容分发网络 CDN 域名，用于加载视频封面、播放器资源与嵌入式内容 
+DOMAIN-SUFFIX,f.vimeocdn.com # Vimeo 视频平台内容加载域名，用于传输视频播放器资源与静态媒体文件
+DOMAIN-SUFFIX,skyfire.vimeocdn.com # Vimeo Skyfire 服务节点域名，用于视频上传、传输与优化分发 
+DOMAIN-SUFFIX,vod-progressive-ak.vimeocdn.com # Vimeo VOD 进度式视频加载域名，用于常规文件分段下载 
+DOMAIN-SUFFIX,vod-adaptive-ak.vimeocdn.com # Vimeo 自适应码率视频加载域名，用于不同网络条件下的视频流服务 
 DOMAIN-SUFFIX,download-video-ak.vimeocdn.com # Vimeo 视频下载 CDN 域名，提供 MP4 文件的下载与存储分发服务 
 DOMAIN-SUFFIX,videoapi-sprites.vimeocdn.com # Vimeo 视频播放组件资源域名，用于加载封面、控制栏图标与字幕快照等前端精细化元素
-DOMAIN-SUFFIX,vimeo.bynder.com # Vimeo 与 Bynder 品牌管理平台集成域名，用于存储与调度品牌视频资产与视觉内容资源  
+DOMAIN-SUFFIX,vimeo.bynder.com # Vimeo 与 Bynder 品牌管理平台集成域名，用于存储与调度品牌视频资产与视觉内容资源 

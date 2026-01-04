@@ -2573,7 +2573,7 @@ DOMAIN-SUFFIX,ctfwriteups.com # CTF Writeups 分享社区，用于存档各类�
 DOMAIN-SUFFIX,translate.yandex.com # Yandex Translate 国际域名，用于网页翻译与图片文字翻译功能 
 DOMAIN-SUFFIX,translate.yandex.ru # Yandex Translate 俄罗斯本地化域名 
 DOMAIN-SUFFIX,translate.yandex.net # Yandex Translate 备用/镜像域名 
-DOMAIN-SUFFIX,yandex.com  # Yandex 主站域名，提供搜索、翻译、邮箱等综合服务 
+DOMAIN-SUFFIX,yandex.com # Yandex 主站域名，提供搜索、翻译、邮箱等综合服务 
 
 # > nalog.gov.ru 俄罗斯税务服务平台相关域名
 
