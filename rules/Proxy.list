@@ -5787,6 +5787,10 @@ DOMAIN-SUFFIX,pubcon.ahc.ink # AHC 提供的发布与转化触发服务节点,�
 DOMAIN-SUFFIX,optimizely.com # Optimizely 官方平台主域名，用于产品实验配置、A/B 测试管理与分析后台访问
 DOMAIN-SUFFIX,cdn.optimizely.com # Optimizely 前端实验脚本与配置 CDN，用于下发 A/B 测试逻辑与功能实验代码
 
+# > Amazon Trust Services 官方证书分发域名
+
+DOMAIN-SUFFIX,amazontrust.com # Amazon Trust Services 官方 CA 域名，用于 AWS / Amazon 服务的根证书与中间证书分发
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
