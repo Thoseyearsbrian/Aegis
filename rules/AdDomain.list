@@ -79,7 +79,6 @@ DOMAIN-SUFFIX,2mdn.net # Google DoubleClick 广告媒体资源加载主域名
 DOMAIN-SUFFIX,fls.doubleclick.net # Google DoubleClick 广告域名,用于广告点击记录与追踪分析
 DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告同步域名，用于跨站追踪与广告识别匹配
 DOMAIN-SUFFIX,googletagservices.com # Google 标签服务主站入口，用于加载广告资源与控制广告位策略脚本
-DOMAIN-SUFFIX,criteo.com # Criteo 广告平台主域名，用于广告服务与追踪系统  
 DOMAIN-SUFFIX,gum.criteo.com # Criteo 用户标识接口域名，用于 Cookie 同步与重定向广告投放  
 DOMAIN-SUFFIX,rtax.criteo.com # Criteo 实时广告交换接口域名，用于行为分析与广告投放  
 DOMAIN-SUFFIX,bidder.criteo.com # Criteo 出价与竞价系统域名，用于广告竞价行为逻辑  
@@ -1388,7 +1387,6 @@ DOMAIN-SUFFIX,adnotebook.com # 广告 / 营销平台域名
 DOMAIN-SUFFIX,adnow.com # 广告投放 / SDK 接入域名  
 DOMAIN-SUFFIX,adnuntius.com # 广告 / 推广网络域名  
 DOMAIN-SUFFIX,adnxs-simple.com # AdNXS 简化接口域名  
-DOMAIN-SUFFIX,adnxs.com # AppNexus / 广告交换平台主域名  
 DOMAIN-SUFFIX,adnxs.net # 广告交换 / 跟踪域名  
 DOMAIN-SUFFIX,adnxs1.com # 广告交换 / 跟踪子域名  
 DOMAIN-SUFFIX,adobe.com # Adobe 官方主域,非广告拦截域名  
@@ -2983,7 +2981,6 @@ DOMAIN-SUFFIX,cartining-specute.com # 广告行为特征明显,涉及跳转与�
 DOMAIN-SUFFIX,cartrigepromised.com # 程序化广告脚本加载节点   
 DOMAIN-SUFFIX,carvercranberry.com # 程序化广告投放平台历史记录中出现  
 DOMAIN-SUFFIX,carvyre.com # 隐蔽式广告点击诱导行为,已见恶意推广记录  
-DOMAIN-SUFFIX,casalemedia.com # Casale Media 广告平台主域名,用于广告投放与追踪  
 DOMAIN-SUFFIX,cascansycon.life # 恶意软件推广活动中曾出现,具广告行为特征  
 DOMAIN-SUFFIX,cascantyre.digital # 可疑投放节点,含跳转记录,存在广告嫌疑  
 DOMAIN-SUFFIX,casefulbalafo.cyou # 程序化广告跳转结构,具追踪脚本加载行为  
@@ -4538,7 +4535,6 @@ DOMAIN-SUFFIX,online-deal.click # “deal + click” 强广告意味,确认广�
 DOMAIN-SUFFIX,onlinepromogift.com # “promo + gift” 显示广告促销用途,确认广告用途  
 DOMAIN-SUFFIX,onstandscrives.click # “click” 后缀 + onstands,具广告跳转意味,确认广告用途  
 DOMAIN-SUFFIX,openrtb-banner.com # RTB 广告标签名,广告行为强烈   
-DOMAIN-SUFFIX,openx.net # 程序化广告交易 / 广告网络域名  
 DOMAIN-SUFFIX,openxadexchange.com # 明确广告交换域名  
 DOMAIN-SUFFIX,openxenterprise.com # 广告网络 / 企业站点  
 DOMAIN-SUFFIX,openxmarket.asia # 广告市场域名  
@@ -4589,8 +4585,7 @@ DOMAIN-SUFFIX,propellerads.com # PropellerAds 广告网络主域名,广告 / 推
 DOMAIN-SUFFIX,prpops.com # 含 “pops” / “pop ads” 意图明显规则  
 DOMAIN-SUFFIX,pubfuture-ad.com # 曾被用户用于屏蔽广告例子,具广告网络特征  
 DOMAIN-SUFFIX,pubfuture.com # 描述为广告 / 营销平台
-DOMAIN-SUFFIX,publisherads.click # 明显带 “ads” 后缀,具广告用途特征  
-DOMAIN-SUFFIX,pubmatic.com # 公认广告 / 程序化广告平台（SSP）属性明确,应纳入  
+DOMAIN-SUFFIX,publisherads.click # 明显带 “ads” 后缀,具广告用途特征    
 DOMAIN-SUFFIX,pureadexchange.com # 含 “ad exchange” 明显广告网络意味   
 DOMAIN-SUFFIX,push-news.click # 含 “push” 和 .click 后缀,典型推送广告网络特征  
 DOMAIN-SUFFIX,push-notifications.top # 含 “push-notifications” 意味广告 / 通知推送用途  

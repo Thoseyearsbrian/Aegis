@@ -1211,3 +1211,23 @@ DOMAIN-SUFFIX,cdn.lr-in.com # LogRocket 提供的前端会话回放与用户行�
 # > Getro 招聘平台与职位分发服务（企业招聘与职位管理）
 
 DOMAIN-SUFFIX,an.getro.com # Getro 平台行为与访问事件上报接口，用于招聘页面访问统计与基础使用分析
+
+# > Criteo 程序化广告与用户行为数据基础设施平台
+
+DOMAIN-SUFFIX,criteo.com # Criteo 行为数据与广告竞价基础设施平台，用于用户标识同步、行为画像构建与广告系统内部通信
+
+# > OpenX 程序化广告交易与用户行为数据基础设施
+
+DOMAIN-SUFFIX,openx.net # OpenX 程序化广告交易与行为数据基础设施，用于广告竞价、用户标识同步与跨站行为信号传递
+
+# > Casale Media 程序化广告投放与追踪平台
+
+DOMAIN-SUFFIX,casalemedia.com # Casale Media 广告平台主域名，用于广告投放、曝光统计与用户追踪行为
+
+# > PubMatic 程序化广告 SSP 与广告竞价平台
+
+DOMAIN-SUFFIX,pubmatic.com # PubMatic 程序化广告 SSP 平台，用于广告竞价、流量变现与用户行为数据处理
+
+# > AppNexus / Xandr 程序化广告交换与竞价平台
+
+DOMAIN-SUFFIX,adnxs.com # AppNexus（Xandr）程序化广告交换平台，用于广告竞价、流量撮合与用户行为数据处理
