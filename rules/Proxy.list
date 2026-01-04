@@ -4753,6 +4753,7 @@ DOMAIN-SUFFIX,assets.unicorn.studio # Unicorn Studio 提供的静态资源子域
 # > BootstrapCDN 静态资源服务域名（StackPath 提供）
 
 DOMAIN-SUFFIX,maxcdn.bootstrapcdn.com # Bootstrap 官方公共 CDN 域，用于加载 Bootstrap 框架、字体图标与组件样式资源
+DOMAIN-SUFFIX,netdna.bootstrapcdn.com # BootstrapCDN（原 MaxCDN）前端公共资源分发服务，用于加载 Bootstrap、CSS、JS 等通用前端库
 
 # > Zscdn 用户内容分发域名（第三方资源托管）
 
@@ -5733,6 +5734,10 @@ DOMAIN-SUFFIX,live.us.shoplive.cloud # Shoplive 提供的电商直播与实时�
 # > Quantum Metric 数字体验分析与行为监测平台
 
 DOMAIN-SUFFIX,cdn.quantummetric.com # Quantum Metric 前端静态资源与采集组件 CDN
+
+# > BugHerd 用户反馈与页面问题标注协作平台
+
+DOMAIN-SUFFIX,bugherd.com # BugHerd 官方平台域名，用于网站问题反馈、页面标注、团队协作与项目管理功能
 
 # > 第三方独立站
 
