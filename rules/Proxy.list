@@ -5745,6 +5745,9 @@ DOMAIN-SUFFIX,bugherd.com # BugHerd 官方平台域名，用于网站问题反�
 DOMAIN-SUFFIX,myworkdayjobs.com # Workday 官方招聘系统平台，用于企业职位发布、招聘流程与候选人管理
 DOMAIN-SUFFIX,wd5.myworkday.com # Workday 企业租户实例（wd5），用于特定企业的员工系统登录与后台管理功能
 DOMAIN-SUFFIX,ebay.wd5.myworkdayjobs.com # eBay 基于 Workday 的官方招聘子实例，用于 eBay 职位展示与求职申请
+DOMAIN-SUFFIX,myworkdaycdn.com # Workday 官方前端静态资源 CDN 域名，用于加载企业管理与招聘系统的脚本、样式与媒体资源
+DOMAIN-SUFFIX,wd5.myworkdaycdn.com # Workday 企业租户 wd5 的前端静态资源 CDN，用于员工系统与后台界面资源加载
+DOMAIN-SUFFIX,paradox-tp.myworkdaycdn.com # Workday 招聘系统中集成的 Paradox 招聘助手前端资源 CDN，用于招聘流程中的交互组件与界面展示
 
 # > 第三方独立站
 
