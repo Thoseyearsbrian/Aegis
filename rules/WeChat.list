@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,res.wx.qq.com # 微信内置页面前端静态资源域名
 DOMAIN-SUFFIX,gtimg.wechatpay.cn # 微信支付页面组件与静态资源 CDN
 DOMAIN-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn # 微信相关 COS 对象存储域名
 DOMAIN-SUFFIX,dldir1.qq.com # 微信内容更新资源下载域名，包含模型与动画等文件
+DOMAIN-SUFFIX,tenpay.wechatpay.cn # 微信支付服务域名，用于交易处理与支付请求接口
 DOMAIN-SUFFIX,wx.gtimg.com # 微信静态内容资源 CDN
 
 # > 多媒体与文件传输（Media & File Transfer）
