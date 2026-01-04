@@ -1247,3 +1247,7 @@ DOMAIN-SUFFIX,uxi-ingestion.us.mlde.workday.com # Workday UXI（User Experience 
 # > TradingView 用户行为分析与事件采集服务
 
 DOMAIN-SUFFIX,snowplow-pixel.tradingview.com # TradingView 基于 Snowplow 的用户行为事件采集像素，用于页面交互、功能使用路径与产品分析数据上报
+
+# > Kakao 用户行为与事件数据采集服务（AEM Collector）
+
+DOMAIN-SUFFIX,aem-kakao-collector.onkakao.net # Kakao AEM 行为采集接口，用于用户交互事件、功能使用路径与产品分析数据上报
