@@ -5759,6 +5759,8 @@ DOMAIN-SUFFIX,company.wizards.com # Wizards of the Coast 官方网站，用于�
 DOMAIN-SUFFIX,archetype-entertainment.com # Archetype Entertainment 官方网站，Wizards of the Coast 旗下游戏工作室，用于项目介绍、招聘与官方信息发布
 DOMAIN-SUFFIX,support.wizards.com # Wizards of the Coast 官方客服与支持中心，用于用户帮助、工单提交与产品支持
 DOMAIN-SUFFIX,wpn.wizards.com # Wizards Play Network 官方平台，用于官方合作门店、赛事组织与合作伙伴管理
+DOMAIN-SUFFIX,dmsguild.com # DMs Guild 官方内容平台，用于 Dungeons & Dragons 社区创作者内容的发布、销售与数字资源分发（Wizards 官方授权）
+DOMAIN-SUFFIX,media.wizards.com # Wizards of the Coast 官方媒体与静态资源分发域名，用于图片、文档与品牌内容加载
 
 # > 官方数字内容与用户服务平台（玩具 / 桌游生态）
 
