@@ -5581,6 +5581,7 @@ DOMAIN-SUFFIX,quiknode.ghost.io # Pylon / QuickNode 使用的 Ghost 博客平台
 # > Prismic Headless CMS 前端内容与静态资源分发服务
 
 DOMAIN-SUFFIX,ud-website.cdn.prismic.io # Prismic 提供的前端内容与静态资源 CDN，用于 Headless CMS 网站的页面内容、JSON 数据与构建产物分发
+DOMAIN-SUFFIX,images.prismic.io # Prismic 提供的图片与媒体资源 CDN，用于 Headless CMS 内容中的图片加载、裁剪与格式优化
 
 # > EtherMail Web3 邮件内容与资源分发服务
 
