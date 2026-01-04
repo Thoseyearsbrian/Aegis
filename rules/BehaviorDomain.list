@@ -1231,3 +1231,7 @@ DOMAIN-SUFFIX,pubmatic.com # PubMatic 程序化广告 SSP 平台，用于广告�
 # > AppNexus / Xandr 程序化广告交换与竞价平台
 
 DOMAIN-SUFFIX,adnxs.com # AppNexus（Xandr）程序化广告交换平台，用于广告竞价、流量撮合与用户行为数据处理
+
+# > Rubicon Project（Magnite）程序化广告行为像素与用户标识同步服务
+
+DOMAIN-SUFFIX,pixel-us-west.rubiconproject.com # Rubicon Project（Magnite）位于 US-West 区域的广告像素与用户标识同步节点，用于广告竞价、曝光归因、跨站用户识别与行为信号回传
