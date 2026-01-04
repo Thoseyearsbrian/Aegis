@@ -3256,6 +3256,7 @@ DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用�
 
 DOMAIN-SUFFIX,app.salesforceiq.com # SalesforceIQ 应用控制台域名，用于加载客户行为管理面板与交互界面
 DOMAIN-SUFFIX,static.cdn.salesforceiq.com # SalesforceIQ 静态资源域名，用于加载行为控制界面所需样式与脚本资源
+DOMAIN-SUFFIX,salesforce-scrt.com # Salesforce Secure Runtime 基础设施主域名，用于企业级客户支持、工单系统与安全服务通信
 
 # > USERTrust 证书链服务域名
 
@@ -5821,6 +5822,10 @@ DOMAIN-SUFFIX,app.cdn.frill.co # Frill 前端反馈组件与功能投票 UI 的 
 DOMAIN-SUFFIX,app.dynamicauth.com # Dynamic 官方 Web 应用入口，用于 Web3 钱包登录、身份认证与会话管理
 DOMAIN-SUFFIX,dynamic-static-assets.com # Dynamic 官方前端静态资源主域名，用于加载认证组件相关脚本与样式
 DOMAIN-SUFFIX,iconic.dynamic-static-assets.com # Dynamic 静态资源子域，用于图标、UI 组件与前端展示资源分发
+
+# > Ledger 客户成功与支持系统（Salesforce Secure Runtime）
+
+DOMAIN-SUFFIX,ledgercustomersuccess.my.salesforce-scrt.com # Ledger 客户成功与支持系统子域，用于用户支持、反馈管理与客户服务流程
 
 # > 第三方独立站
 
