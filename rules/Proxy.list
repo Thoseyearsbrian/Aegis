@@ -3247,6 +3247,8 @@ DOMAIN-SUFFIX,downloads.ctfassets.net # Contentful 媒体资源 CDN，用于分�
 DOMAIN-SUFFIX,images.secure.ctfassets.net # Contentful Embargoed 模式下安全图片资源 CDN（Secure Images）
 DOMAIN-SUFFIX,assets.secure.ctfassets.net # Contentful Embargoed 模式下安全附件资源 CDN（Secure Assets）
 DOMAIN-SUFFIX,downloads.secure.ctfassets.net # Contentful Embargoed 模式下安全下载资源 CDN（Secure Downloads）
+DOMAIN-SUFFIX,cdn.contentful.com # Contentful 官方 Headless CMS 静态资源 CDN，用于内容数据、图片与前端渲染资源分发
+DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
 
 # > SalesforceIQ 控制台与资源加载服务（SalesforceIQ Console & Resource Delivery Services）
 
@@ -5095,6 +5097,7 @@ DOMAIN-SUFFIX,geo.gelacy.app # Gelacy 推荐算法服务域名，用于获取地
 # > Ketch 用户隐私与数据权限管理平台相关域名
 
 DOMAIN-SUFFIX,global.ketchcdn.com # Ketch 隐私管理与用户权限控制服务域名，用于加载同意框架、隐私声明与行为授权追踪组件
+DOMAIN-SUFFIX,cdn.ketchjs.com # Ketch CMP 前端静态资源 CDN，用于 Cookie 同意管理、隐私偏好设置与合规交互组件加载
 
 # > Scamdoc 风险信誉与域名查询平台
 
@@ -5762,7 +5765,6 @@ DOMAIN-SUFFIX,onemilebike.com # OneMile 独立站
 
 # > 其他 (暂未分类)
 
-DOMAIN-SUFFIX,images.ctfassets.net # Contentful 图像内容分发域名，用于加载图像资源（常见于内容管理系统或嵌入式媒体）
 DOMAIN-SUFFIX,pockyt.io # Pockyt 跨境支付平台官网域名，用于商户付款、提现与钱包服务
 DOMAIN-SUFFIX,oss.yuansfer.com  # Pockyt 资源托管域名，用于静态资源加载与支付服务文件分发
 DOMAIN-SUFFIX,iterm2.com # macOS 平台终端模拟器 iTerm2 官方网站，提供软件下载与更新信息
