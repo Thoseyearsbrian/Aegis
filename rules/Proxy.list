@@ -5778,6 +5778,10 @@ DOMAIN-SUFFIX,cdn.iubenda.com # Iubenda 前端静态资源 CDN
 
 DOMAIN-SUFFIX,static.mailerlite.com # MailerLite 前端静态资源域名
 
+# > AHC 业务发布与转化触发服务节点
+
+DOMAIN-SUFFIX,pubcon.ahc.ink # AHC 提供的发布与转化触发服务节点,用于业务内容分发、流程触发或前端功能支持
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
