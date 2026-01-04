@@ -5770,6 +5770,14 @@ DOMAIN-SUFFIX,media.wizards.com # Wizards of the Coast 官方媒体与静态资�
 DOMAIN-SUFFIX,dm.takaratomy.co.jp # Takara Tomy 官方数字营销与活动内容域，用于产品信息展示、会员内容与官方推广页面
 DOMAIN-SUFFIX,dndbeyond.com # D&D Beyond 官方数字内容平台，用于《龙与地下城》规则、角色管理、战役工具与社区服务
 
+# > Iubenda 隐私合规与 Cookie 同意管理服务
+
+DOMAIN-SUFFIX,cdn.iubenda.com # Iubenda 前端静态资源 CDN
+
+# > MailerLite 邮件营销与用户行为触达平台
+
+DOMAIN-SUFFIX,static.mailerlite.com # MailerLite 前端静态资源域名
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
