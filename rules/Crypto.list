@@ -1271,3 +1271,7 @@ DOMAIN-SUFFIX,dln.trade # dln.trade 官方主域名，用于协议信息、数�
 
 DOMAIN-SUFFIX,bsc-mainnet.public.blastapi.io # BlastAPI 提供的 BNB Smart Chain 主网公共 RPC 节点，用于区块、交易、合约调用与链上数据访问
 DOMAIN-SUFFIX,blastapi.io # BlastAPI 官方区块链 RPC 基础设施服务平台，用于多链节点与开发者接入
+
+# > Thesis 去中心化加密投资工作室与 Web3 研究机构
+
+DOMAIN-SUFFIX,thesis.co # Thesis 官方网站，用于加密资产投资研究、DAO 项目孵化、协议介绍与生态信息发布
