@@ -5703,6 +5703,17 @@ DOMAIN-SUFFIX,secure.visionarycloudvision.com # Visionary Cloud 提供的受保�
 # > Phenom People 招聘平台流程与行为支持接口
 
 DOMAIN-SUFFIX,phenomtrackapi.phenompeople.com # Phenom People 招聘系统内部流程与事件接口，用于职位浏览、申请流程状态与招聘系统功能支持
+DOMAIN-SUFFIX,cdn-bot.phenompeople.com # Phenom People 前端自动化与 Bot 相关静态资源分发域名，用于招聘流程中的页面组件、交互脚本与自动化功能支持
+DOMAIN-SUFFIX,content-us.phenompeople.com # Phenom People 北美区域内容分发域名，用于招聘页面内容、职位信息与多媒体资源加载
+
+# > Genesys Cloud（PureCloud）云客服平台 API 与内容分发服务
+
+DOMAIN-SUFFIX,api-cdn.usw2.pure.cloud # Genesys Cloud（原 PureCloud）在 us-west-2 区域提供的 API 与 CDN 服务，用于客服系统实时通信、工单、会话与平台功能支持
+
+# > Khoros（原 Lithium）社区平台前端静态资源服务
+
+DOMAIN-SUFFIX,limuirs-assets.lithium.com # Khoros（Lithium）社区平台前端静态资源域名，用于加载论坛页面的脚本、样式与 UI 组件
+DOMAIN-SUFFIX,ip1.i.lithium.com # Khoros（Lithium）社区平台图片与媒体内容分发节点，用于论坛图片、附件与用户内容加载
 
 # > 第三方独立站
 
