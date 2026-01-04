@@ -823,6 +823,10 @@ DOMAIN-SUFFIX,ir.ebaystatic.com # eBay 官方投资者关系（Investor Relation
 DOMAIN-SUFFIX,ebayinc.com # eBay Inc. 官方公司级域名，用于企业信息披露、投资者关系、新闻发布、合规与公司治理内容展示
 DOMAIN-SUFFIX,investors.ebayinc.com # eBay 投资者关系子站，用于财报、公告、SEC 文件与资本市场信息披露
 DOMAIN-SUFFIX,news.ebayinc.com # eBay 官方新闻发布与媒体中心，用于公司动态、公告与新闻稿发布
+DOMAIN-SUFFIX,ebaymainstreet.com # eBay Main Street 官方网站，用于展示 eBay 在公共政策、立法倡议、小型企业支持与社区事务方面的立场与行动
+DOMAIN-SUFFIX,news.ebaymainstreet.com # eBay Main Street 新闻与政策更新子站，用于发布政策声明、倡议进展与相关新闻内容
+DOMAIN-SUFFIX,careers.ebayinc.com # eBay Inc. 官方招聘网站，用于发布全球岗位信息、职业发展机会与人才招聘相关内容
+DOMAIN-SUFFIX,investors.ebayinc.com # eBay Inc. 投资者关系官方网站，用于发布财报、SEC 文件、股东信息与公司治理相关内容
 
 # > Etsy 相关域名
 
