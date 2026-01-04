@@ -1166,10 +1166,6 @@ DOMAIN-SUFFIX,sdk-beta.featurebase.app # Featurebase SDK Beta 接口域名，用
 
 DOMAIN-SUFFIX,open.woodpeckerlog.com # WoodpeckerLog 提供的应用日志采集与运行监控服务域名，用于错误日志、崩溃信息与运行状态数据上报
 
-# > Coinbase 消费者推广与联盟归因跳转服务
-
-DOMAIN-SUFFIX,coinbase-consumer.sjv.io # Coinbase 官方使用的联盟推广与归因跳转域名（Impact / Partnerize 体系），用于用户来源追踪
-
 # > Trezor 官方联盟推广与转化追踪域名
 
 DOMAIN-SUFFIX,trezor.go2cloud.org # Trezor 官方使用的联盟推广与转化追踪域名（Affiliate / Attribution）

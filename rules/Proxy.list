@@ -5791,6 +5791,10 @@ DOMAIN-SUFFIX,cdn.optimizely.com # Optimizely 前端实验脚本与配置 CDN，
 
 DOMAIN-SUFFIX,amazontrust.com # Amazon Trust Services 官方 CA 域名，用于 AWS / Amazon 服务的根证书与中间证书分发
 
+# > Coinbase 推广归因与联盟营销跳转服务（Partner / Affiliate）
+
+DOMAIN-SUFFIX,coinbase-consumer.sjv.io # Coinbase 消费者推广与联盟营销跳转域名
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
