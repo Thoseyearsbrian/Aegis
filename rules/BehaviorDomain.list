@@ -350,7 +350,6 @@ DOMAIN-SUFFIX,tajs.qq.com # Tencent Analytics JS 埋点日志
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com # 多端设备行为同步接口
 DOMAIN-SUFFIX,report.qq.com # 应用行为上报中心（接口通用）
 DOMAIN-SUFFIX,sdk.e.qq.com # 腾讯广告 SDK 域名，用于广告拉取与行为采集
-DOMAIN-SUFFIX,dldir1.qq.com # 安装包与更新接口（含行为采样）
 DOMAIN-SUFFIX,report.servicewechat.com # 微信服务接口（含行为分析组件）
 DOMAIN-SUFFIX,wxapp.tc.qq.com # 小程序平台日志与崩溃分析服务
 DOMAIN-SUFFIX,miniapp.qq.com # QQ 小程序相关行为数据域名
