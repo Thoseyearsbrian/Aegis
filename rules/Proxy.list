@@ -5726,6 +5726,14 @@ DOMAIN-SUFFIX,forter.com # Forter 官方风控与反欺诈服务域名，用于�
 DOMAIN-SUFFIX,online-metrix.net # Online Metrix（iovation / TransUnion）设备指纹与反欺诈平台主域名
 DOMAIN-SUFFIX,aa.online-metrix.net # Online Metrix 行为与设备风险评估接口，用于设备指纹采集、风险评分与反欺诈判定
 
+# > Shoplive 电商直播与实时互动云服务
+
+DOMAIN-SUFFIX,live.us.shoplive.cloud # Shoplive 提供的电商直播与实时互动云服务节点，用于商品直播、实时互动与内容分发
+
+# > Quantum Metric 数字体验分析与行为监测平台
+
+DOMAIN-SUFFIX,cdn.quantummetric.com # Quantum Metric 前端静态资源与采集组件 CDN
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
