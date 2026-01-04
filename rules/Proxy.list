@@ -5811,6 +5811,10 @@ DOMAIN-SUFFIX,thehotelcollection.co.uk # The Hotel Collection 英国酒店与度
 
 DOMAIN-SUFFIX,freshdesk.com # Freshdesk 官方客户支持与工单管理平台，用于客服系统、用户支持、问题追踪与服务请求处理
 
+# > Frill 产品反馈与功能投票组件服务
+
+DOMAIN-SUFFIX,app.cdn.frill.co # Frill 前端反馈组件与功能投票 UI 的 CDN 分发域名，用于加载用户反馈、建议收集与产品路线图交互组件
+
 # > 第三方独立站
 
 DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站
