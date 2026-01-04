@@ -4152,6 +4152,7 @@ DOMAIN-SUFFIX,ai21-25575448.hs-sites-eu1.com # AI21 官方使用的 HubSpot 托�
 DOMAIN-SUFFIX,8040338.fs1.hubspotusercontent-na1.net # HubSpot 用户内容与前端资源分发子域，用于加载图片、文件及嵌入式静态内容，不涉及用户行为采集
 DOMAIN-SUFFIX,hubspotusercontent-na1.net # HubSpot 官方用户内容静态资源分发域名，用于托管客户网站的图片、文件与前端展示资源
 DOMAIN-SUFFIX,26563514.fs1.hubspotusercontent-eu1.net # HubSpot 文件存储与前端静态资源分发域名，用于表单、图片及嵌入组件等展示性资源加载
+DOMAIN-SUFFIX,api.hubapi.com # HubSpot 官方后端 API 接口，用于表单提交、CRM 数据同步、营销自动化、客户线索与业务系统集成通信
 
 # > Claydar（前端资源服务 / 静态资源 CDN）
 
