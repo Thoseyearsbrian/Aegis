@@ -801,20 +801,20 @@ IP-CIDR,35.190.0.0/16  # Waze 多区域数据中心 IP（导航与 CDN 分发）
 
 # > eBay 相关域名
 
-DOMAIN-SUFFIX,ebay.com  # eBay 全球主站（商品搜索、下单、支付、账户服务等）
-DOMAIN-SUFFIX,ebay.co.uk  # eBay 英国站（本地化商品与物流服务）
-DOMAIN-SUFFIX,ebay.de  # eBay 德国站
-DOMAIN-SUFFIX,ebay.ca  # eBay 加拿大站
-DOMAIN-SUFFIX,ebay.fr  # eBay 法国站
-DOMAIN-SUFFIX,ebay.com.au  # eBay 澳大利亚站
-DOMAIN-SUFFIX,ebay.it  # eBay 意大利站
-DOMAIN-SUFFIX,ebay.es  # eBay 西班牙站
-DOMAIN-SUFFIX,ebay.com.hk  # eBay 香港站
-DOMAIN-SUFFIX,pay.ebay.com  # eBay 支付与订单结算接口域名
-DOMAIN-SUFFIX,ebaystatic.com  # eBay 静态资源域名（JS、CSS、图片等）
-DOMAIN-SUFFIX,ebaydesc.com  # eBay 商品详情页面托管域名
-DOMAIN-SUFFIX,ebayimg.com  # eBay 商品图像托管与加载域名
-DOMAIN-SUFFIX,ebayrtm.com  # eBay 实时数据与分析追踪服务接口
+DOMAIN-SUFFIX,ebay.com # eBay 全球主站（商品搜索、下单、支付、账户服务等）
+DOMAIN-SUFFIX,ebay.co.uk # eBay 英国站（本地化商品与物流服务）
+DOMAIN-SUFFIX,ebay.de # eBay 德国站
+DOMAIN-SUFFIX,ebay.ca # eBay 加拿大站
+DOMAIN-SUFFIX,ebay.fr # eBay 法国站
+DOMAIN-SUFFIX,ebay.com.au # eBay 澳大利亚站
+DOMAIN-SUFFIX,ebay.it # eBay 意大利站
+DOMAIN-SUFFIX,ebay.es # eBay 西班牙站
+DOMAIN-SUFFIX,ebay.com.hk # eBay 香港站
+DOMAIN-SUFFIX,pay.ebay.com # eBay 支付与订单结算接口域名
+DOMAIN-SUFFIX,ebaystatic.com # eBay 静态资源域名（JS、CSS、图片等）
+DOMAIN-SUFFIX,ebaydesc.com # eBay 商品详情页面托管域名
+DOMAIN-SUFFIX,ebayimg.com # eBay 商品图像托管与加载域名
+DOMAIN-SUFFIX,ebayrtm.com # eBay 实时数据与分析追踪服务接口
 DOMAIN-SUFFIX,api.ebay.com # eBay 官方 API 服务，用于商品、订单、支付与开发者平台接口调用
 DOMAIN-SUFFIX,signin.ebay.com # eBay 官方账户登录与身份认证服务
 DOMAIN-SUFFIX,auth.ebay.com # eBay OAuth 授权与第三方应用认证服务
@@ -827,6 +827,8 @@ DOMAIN-SUFFIX,ebaymainstreet.com # eBay Main Street 官方网站，用于展示 
 DOMAIN-SUFFIX,news.ebaymainstreet.com # eBay Main Street 新闻与政策更新子站，用于发布政策声明、倡议进展与相关新闻内容
 DOMAIN-SUFFIX,careers.ebayinc.com # eBay Inc. 官方招聘网站，用于发布全球岗位信息、职业发展机会与人才招聘相关内容
 DOMAIN-SUFFIX,investors.ebayinc.com # eBay Inc. 投资者关系官方网站，用于发布财报、SEC 文件、股东信息与公司治理相关内容
+DOMAIN-SUFFIX,ebay.q4cdn.com # eBay 投资者关系与财务信息静态资源 CDN（Q4 平台），用于财报与公告内容分发
+DOMAIN-SUFFIX,beep.ebayinc.to # eBay Inc. 内部企业服务与通信支持域名，用于公司级功能或内部系统支持
 
 # > Etsy 相关域名
 
@@ -4058,6 +4060,7 @@ DOMAIN-SUFFIX,edgesuite.net # Akamai CDN 加速域名，常与大型平台集成
 
 DOMAIN-SUFFIX,cdn.lrkt-in.com # Lark/Feishu 登录页使用的 CDN 域名，用于加载界面资源与样式文件  
 DOMAIN-SUFFIX,player.vimeo.com # Vimeo 嵌入式播放器域名，用于加载 iframe 视频播放器组件  
+DOMAIN-SUFFIX,extend.vimeocdn.com # Vimeo 官方视频内容分发 CDN，用于嵌入式视频播放与媒体资源加载
 
 # > WakaTime 编程时间统计与编辑器活动追踪服务域名（Coding‑Time Tracker）
 
@@ -5663,6 +5666,12 @@ DOMAIN-SUFFIX,apps.usw2.pure.cloud # Genesys Cloud（原 PureCloud）官方应�
 DOMAIN-SUFFIX,api.usw2.pure.cloud # Genesys Cloud 后端 API 服务接口，用于客服系统数据交互、会话管理与平台功能支持
 DOMAIN-SUFFIX,media.usw2.pure.cloud # Genesys Cloud 媒体通信服务域名，用于语音、音频与实时通信媒体流传输
 
+# > Phenom People 企业招聘与人才体验管理平台
+
+DOMAIN-SUFFIX,cdn.phenompeople.com # Phenom People 前端静态资源 CDN，用于招聘页面脚本、样式与组件加载
+DOMAIN-SUFFIX,assets.phenompeople.com # Phenom People 招聘平台静态资源与媒体文件分发
+DOMAIN-SUFFIX,pp-cdn.phenompeople.com # Phenom People 专用 CDN 节点，用于企业招聘站点的性能加速
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
@@ -5673,6 +5682,13 @@ DOMAIN-SUFFIX,disqus.skk.moe # skk.moe 站点使用的 Disqus 评论系统代理
 DOMAIN-SUFFIX,blog.1ris.win # Blog 1RIS 个人博客主域名，用于技术分享、日志发布与项目更新
 DOMAIN-SUFFIX,beyondwickedmapping.org # 信息安全研究博客域名，用于发布网络威胁分析、Botnet 行为追踪与攻击路径溯源文章
 DOMAIN-SUFFIX,joeyblog.net # JoeyBlog 个人博客网站，用于发布个人文章、技术记录与观点分享
+
+# > ADA 客户支持与智能对话服务
+
+DOMAIN-SUFFIX,tcgplayer.ada.support # ADA 为 TCGplayer 提供的客户支持与智能客服服务域名
+DOMAIN-SUFFIX,rollout.ada.support # ADA 客服系统功能发布与配置下发服务，用于支持组件更新
+
+
 
 # > 第三方独立站
 
