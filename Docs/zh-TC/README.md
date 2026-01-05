@@ -125,7 +125,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 複製設定連結 -> 打開 Surge -> 從URL下載設定 -> 貼上連結 -> 在文本模式中編輯 -> 修改“你的節點”至對應參數 -> 完成!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step.png" width="600">
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step-tc.png" width="600">
 </p>
 
 ### 影片教學
