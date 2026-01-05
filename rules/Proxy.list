@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-05
+# - 更新时间：2026-01-06
 
 # > Speedtest 网络测速平台
 
@@ -5841,7 +5841,7 @@ DOMAIN-SUFFIX,url.v1.mk # v1.mk 短链接跳转子域，用于实际短链接解
 
 # > 第三方博客网站
 
-DOMAIN-SUFFIX,freedidi.com # 零度博客
+DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
 DOMAIN-SUFFIX,blog.skk.moe # Sukka 的技术博客，内容涵盖前端开发、网络优化、DNS 解析与代理工具使用
 DOMAIN-SUFFIX,cdn.skk.moe # skk.moe 静态资源 CDN 域名，用于托管图片、图标、样式等前端静态文件
 DOMAIN-SUFFIX,img.skk.moe # skk.moe 图片资源加载域名，用于站点内图片和媒体内容分发
@@ -5849,6 +5849,7 @@ DOMAIN-SUFFIX,disqus.skk.moe # skk.moe 站点使用的 Disqus 评论系统代理
 DOMAIN-SUFFIX,blog.1ris.win # Blog 1RIS 个人博客主域名，用于技术分享、日志发布与项目更新
 DOMAIN-SUFFIX,beyondwickedmapping.org # 信息安全研究博客域名，用于发布网络威胁分析、Botnet 行为追踪与攻击路径溯源文章
 DOMAIN-SUFFIX,joeyblog.net # JoeyBlog 个人博客网站，用于发布个人文章、技术记录与观点分享
+DOMAIN-SUFFIX,bulianglin.com # Bulianglin 中文内容站点，用于信息整理、内容发布与网页访问
 
 # > 第三方独立站
 
