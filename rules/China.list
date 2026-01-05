@@ -81,6 +81,8 @@ IP-CIDR,39.105.9.101/32 # 阿里云中国区公共云公网 IP
 
 # > 阿里云盘 相关域名
 
+DOMAIN-SUFFIX,aliyundrive.com # 阿里云盘官方主域名，用于官网访问、产品介绍、Web 端入口与基础服务加载
+DOMAIN-SUFFIX,user.aliyundrive.com # 阿里云盘用户账户与身份体系域名，用于登录、鉴权、用户信息与会话管理
 DOMAIN-SUFFIX,api.aliyundrive.com # 阿里云盘官方 API 接口域名，用于文件列表、上传下载、同步、账户鉴权与云端存储相关核心功能
 
 # > 淘宝相关域名（Taobao / 阿里巴巴集团）
