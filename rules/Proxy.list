@@ -5834,6 +5834,11 @@ DOMAIN-SUFFIX,1024tools.com # 1024Tools 在线工具平台主域名，提供编�
 
 DOMAIN-SUFFIX,uuidgenerator.net # UUID Generator 在线工具主域名，用于生成 UUID / GUID
 
+# > v1.mk URL 短链接与跳转重定向服务
+
+DOMAIN-SUFFIX,v1.mk # v1.mk 提供的 URL 短链接与重定向服务，用于链接缩短与跳转分发
+DOMAIN-SUFFIX,url.v1.mk # v1.mk 短链接跳转子域，用于实际短链接解析与重定向请求
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
