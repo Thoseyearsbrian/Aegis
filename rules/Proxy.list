@@ -5683,17 +5683,6 @@ DOMAIN-SUFFIX,cdn.phenompeople.com # Phenom People 前端静态资源 CDN，用�
 DOMAIN-SUFFIX,assets.phenompeople.com # Phenom People 招聘平台静态资源与媒体文件分发
 DOMAIN-SUFFIX,pp-cdn.phenompeople.com # Phenom People 专用 CDN 节点，用于企业招聘站点的性能加速
 
-# > 第三方博客网站
-
-DOMAIN-SUFFIX,freedidi.com # 零度博客
-DOMAIN-SUFFIX,blog.skk.moe # Sukka 的技术博客，内容涵盖前端开发、网络优化、DNS 解析与代理工具使用
-DOMAIN-SUFFIX,cdn.skk.moe # skk.moe 静态资源 CDN 域名，用于托管图片、图标、样式等前端静态文件
-DOMAIN-SUFFIX,img.skk.moe # skk.moe 图片资源加载域名，用于站点内图片和媒体内容分发
-DOMAIN-SUFFIX,disqus.skk.moe # skk.moe 站点使用的 Disqus 评论系统代理子域，用于加载评论组件与用户交互内容
-DOMAIN-SUFFIX,blog.1ris.win # Blog 1RIS 个人博客主域名，用于技术分享、日志发布与项目更新
-DOMAIN-SUFFIX,beyondwickedmapping.org # 信息安全研究博客域名，用于发布网络威胁分析、Botnet 行为追踪与攻击路径溯源文章
-DOMAIN-SUFFIX,joeyblog.net # JoeyBlog 个人博客网站，用于发布个人文章、技术记录与观点分享
-
 # > ADA 客户支持与智能对话服务
 
 DOMAIN-SUFFIX,tcgplayer.ada.support # ADA 为 TCGplayer 提供的客户支持与智能客服服务域名
@@ -5831,6 +5820,22 @@ DOMAIN-SUFFIX,ledgercustomersuccess.my.salesforce-scrt.com # Ledger 客户成功
 
 DOMAIN-SUFFIX,hitokoto.cn # Hitokoto 官方服务主域名，用于一言语句项目主页、接口说明与服务入口
 DOMAIN-SUFFIX,v1.hitokoto.cn # Hitokoto 一言语句 API v1 接口，用于随机语句获取与第三方内容调用
+
+# > JHB 后端 API 服务域名
+
+DOMAIN-SUFFIX,jhb.ovh # JHB 项目主域名
+DOMAIN-SUFFIX,api.jhb.ovh # JHB 项目后端 API 接口，用于应用或服务的数据请求
+
+# > 第三方博客网站
+
+DOMAIN-SUFFIX,freedidi.com # 零度博客
+DOMAIN-SUFFIX,blog.skk.moe # Sukka 的技术博客，内容涵盖前端开发、网络优化、DNS 解析与代理工具使用
+DOMAIN-SUFFIX,cdn.skk.moe # skk.moe 静态资源 CDN 域名，用于托管图片、图标、样式等前端静态文件
+DOMAIN-SUFFIX,img.skk.moe # skk.moe 图片资源加载域名，用于站点内图片和媒体内容分发
+DOMAIN-SUFFIX,disqus.skk.moe # skk.moe 站点使用的 Disqus 评论系统代理子域，用于加载评论组件与用户交互内容
+DOMAIN-SUFFIX,blog.1ris.win # Blog 1RIS 个人博客主域名，用于技术分享、日志发布与项目更新
+DOMAIN-SUFFIX,beyondwickedmapping.org # 信息安全研究博客域名，用于发布网络威胁分析、Botnet 行为追踪与攻击路径溯源文章
+DOMAIN-SUFFIX,joeyblog.net # JoeyBlog 个人博客网站，用于发布个人文章、技术记录与观点分享
 
 # > 第三方独立站
 
