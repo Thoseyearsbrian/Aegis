@@ -7,10 +7,42 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2026-01-05
 
+# > Google 各地区本地化搜索与服务入口域名
+
+DOMAIN-SUFFIX,google.com # Google 全球主站与默认搜索入口
+DOMAIN-SUFFIX,google.com.hk # Google 香港地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.com.sg # Google 新加坡地区主站域名，用于区域性搜索与语言定制
+DOMAIN-SUFFIX,google.co.jp # Google 日本地区主站域名，用于日文搜索与本地化服务
+DOMAIN-SUFFIX,google.co.kr # Google 韩国地区主站域名，用于韩文搜索与本地化服务
+DOMAIN-SUFFIX,google.co.uk # Google 英国地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.fr # Google 法国地区主站域名，用于法语搜索与本地化服务
+DOMAIN-SUFFIX,google.de # Google 德国地区主站域名，用于德语搜索与本地化服务
+DOMAIN-SUFFIX,google.it # Google 意大利地区主站域名，用于意大利语搜索与本地化服务
+DOMAIN-SUFFIX,google.es # Google 西班牙地区主站域名，用于西班牙语搜索与本地化服务
+DOMAIN-SUFFIX,google.nl # Google 荷兰地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.se # Google 瑞典地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.no # Google 挪威地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.fi # Google 芬兰地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.pl # Google 波兰地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.cz # Google 捷克地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.ca # Google 加拿大地区主站域名，用于英语 / 法语搜索与服务入口
+DOMAIN-SUFFIX,google.com.au # Google 澳大利亚地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.co.nz # Google 新西兰地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.com.br # Google 巴西地区主站域名，用于葡萄牙语搜索与本地化服务
+DOMAIN-SUFFIX,google.com.mx # Google 墨西哥地区主站域名，用于西班牙语搜索与本地化服务
+DOMAIN-SUFFIX,google.com.ar # Google 阿根廷地区主站域名，用于西班牙语搜索与本地化服务
+DOMAIN-SUFFIX,google.cl # Google 智利地区主站域名，用于西班牙语搜索与本地化服务
+DOMAIN-SUFFIX,google.co.in # Google 印度地区主站域名，用于多语言搜索与区域服务入口
+DOMAIN-SUFFIX,google.co.id # Google 印度尼西亚地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.com.my # Google 马来西亚地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.com.ph # Google 菲律宾地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.co.th # Google 泰国地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.com.vn # Google 越南地区主站域名，用于本地化搜索与服务入口
+DOMAIN-SUFFIX,google.ru # Google 俄罗斯地区历史区域域名（当前服务状态受政策影响）
+DOMAIN-SUFFIX,google.cn # Google 中国地区域名（已下线，但可能残留请求）
+
 # > 核心服务（Google Core Services）
 
-DOMAIN-SUFFIX,google.com # Google 主域名（用于搜索、账户等核心服务）
-DOMAIN-SUFFIX,google.cn # Google 中国地区域名（已下线，但可能残留请求）
 DOMAIN-SUFFIX,gmail.com # Gmail 邮箱服务主域名
 DOMAIN-SUFFIX,googlemail.com # Gmail 替代域名（部分地区历史使用）
 DOMAIN-SUFFIX,googlephotos.com # Google Photos 在线照片服务
@@ -35,9 +67,6 @@ DOMAIN-SUFFIX,polices.google.com # Google Safe Browsing 服务中继域名，常
 DOMAIN-SUFFIX,content-autofill.googleapis.com # Google 内容自动填充服务，用于表单填充、账号辅助输入等功能
 DOMAIN-SUFFIX,mtalk.google.com # Google 消息推送服务（FCM/GCM）域名，用于 Android 设备推送通知的连接维护
 DOMAIN-SUFFIX,dns.google # Google DoH / DoT 解析服务接口，用于加密 DNS 查询与解析请求
-DOMAIN-SUFFIX,google.com.hk # Google 香港主站域名，用于本地化搜索、登录服务与导航页面加载
-DOMAIN-SUFFIX,google.com.sg # Google 新加坡站点域名，用于区域性搜索结果、语言与地域定制服务
-DOMAIN-SUFFIX,google.ru # Google 俄罗斯地区历史区域域名，用于搜索与 Google 服务的区域性访问入口（当前服务状态受政策影响）
 DOMAIN-SUFFIX,carromclash.h5games.usercontent.goog # Google 提供的 H5 游戏托管服务子域，用于加载 Carrom Clash 等小游戏内容
 DOMAIN-SUFFIX,chromium.googlesource.com # Chromium 项目的源代码托管域名，托管 Google 浏览器相关项目源码
 DOMAIN-SUFFIX,forms.gle # Google Forms 官方短链接域名，用于表单访问与跳转至 Google 表单服务
