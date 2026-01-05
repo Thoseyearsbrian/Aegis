@@ -5,8 +5,8 @@
 
 <h1 align="center">Aegis — Surge 個人數位防火牆規則集</h1>
 <p align="center">
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-1.png" width="300"></img>
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-2.png" width="300"></img>
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-tc-1.png" width="300"></img>
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-tc-2.png" width="300"></img>
 </p>
 
 <p align="center">
