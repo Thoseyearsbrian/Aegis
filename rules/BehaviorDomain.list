@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-03
+# - 更新时间：2026-01-06
 
 # > WeChat 数据统计与遥测
 
@@ -1260,3 +1260,7 @@ DOMAIN-SUFFIX,logs.dynamicauth.com # Dynamic 身份认证服务日志与事件�
 # > Tapad 跨设备识别与用户画像行为数据平台
 
 DOMAIN-SUFFIX,pixel.tapad.com # Tapad 行为像素接口，用于跨设备用户识别、广告画像构建与身份关联
+
+# > Effirst 数字营销与用户行为追踪像素服务
+
+DOMAIN-SUFFIX,px.effirst.com # Effirst 提供的前端行为追踪像素接口，用于用户访问、转化事件与营销效果统计
