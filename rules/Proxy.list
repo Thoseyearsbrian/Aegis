@@ -5826,6 +5826,14 @@ DOMAIN-SUFFIX,v1.hitokoto.cn # Hitokoto 一言语句 API v1 接口，用于随�
 DOMAIN-SUFFIX,jhb.ovh # JHB 项目主域名
 DOMAIN-SUFFIX,api.jhb.ovh # JHB 项目后端 API 接口，用于应用或服务的数据请求
 
+# > 1024Tools 在线开发工具与实用工具集合平台
+
+DOMAIN-SUFFIX,1024tools.com # 1024Tools 在线工具平台主域名，提供编码转换、加密解密、时间戳、文本处理等开发与日常实用工具
+
+# > UUID Generator 在线 UUID 生成工具
+
+DOMAIN-SUFFIX,uuidgenerator.net # UUID Generator 在线工具主域名，用于生成 UUID / GUID
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客
