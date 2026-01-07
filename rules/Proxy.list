@@ -5863,6 +5863,10 @@ DOMAIN-SUFFIX,cdn.flook.co # Flook 前端静态资源 CDN，用于用户反馈�
 
 DOMAIN-SUFFIX,fw-cdn.com # 第三方通用 CDN 域名，用于网站静态资源、脚本、图片或下载内容的加速分发
 
+# > Prismic Headless CMS 学习内容与文档静态资源分发服务
+
+DOMAIN-SUFFIX,ud-learn.cdn.prismic.io # Prismic 官方 CDN 子域，用于学习平台与文档内容的静态资源分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
