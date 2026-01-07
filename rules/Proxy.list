@@ -5849,6 +5849,16 @@ DOMAIN-SUFFIX,image.simplecastcdn.com # Simplecast 官方播客平台前端图�
 
 DOMAIN-SUFFIX,apiv3.droplinked.com # DropLinked 平台第三代后端 API 接口，用于 Web3 电商、数字商品交易、订单处理与账户相关业务通信
 
+# > Frill 产品反馈、公告与变更日志平台前端与资源服务
+
+DOMAIN-SUFFIX,widget.frill.co # Frill 前端嵌入组件，用于产品反馈收集、公告展示与更新日志交互
+DOMAIN-SUFFIX,assets.cdn.frill.co # Frill 前端静态资源 CDN，用于加载组件脚本、样式与相关资源
+DOMAIN-SUFFIX,frill-prod-app.b-cdn.net # Frill 官方生产环境前端资源 CDN（Bunny CDN），用于应用与组件资源分发
+
+# > Flook 用户反馈与交互式调研平台前端资源服务
+
+DOMAIN-SUFFIX,cdn.flook.co # Flook 前端静态资源 CDN，用于用户反馈组件、调研界面与交互逻辑加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
