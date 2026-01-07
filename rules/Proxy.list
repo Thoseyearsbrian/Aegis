@@ -5845,6 +5845,10 @@ DOMAIN-SUFFIX,simplecast.com # Simplecast 播客托管与分发平台主域名�
 DOMAIN-SUFFIX,the-unstoppable-podcast.simplecast.com # The Unstoppable Podcast 官方播客分发子域
 DOMAIN-SUFFIX,image.simplecastcdn.com # Simplecast 官方播客平台前端图片与媒体资源 CDN，用于播客封面、节目图片等静态内容分发
 
+# > DropLinked Web3 电商与数字产品交易平台后端 API 服务
+
+DOMAIN-SUFFIX,apiv3.droplinked.com # DropLinked 平台第三代后端 API 接口，用于 Web3 电商、数字商品交易、订单处理与账户相关业务通信
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
