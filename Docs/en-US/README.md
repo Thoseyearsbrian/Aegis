@@ -61,14 +61,14 @@ Aegis adheres to technical neutrality, information transparency, and independent
 | ④ | PCDN Communication Detection | PCDNDomain.list | Identifies link behaviors suspected to use “shared bandwidth” models, involving device relays, cache nodes, and distributed delivery networks (Identification Module - Disabled by Default) | Identified based on traffic patterns and node distribution consistent with multi-hop relay and cache characteristics |
 | ⑤ | Traffic Inspection & Node Detection | InspectionDomain.list | Detects active network-level interventions such as DPI probing, DNS poisoning, HTTP injection, and MITM eavesdropping (Identification Module - Disabled by Default) | Identified based on traffic anomalies like tampering, redirection, and injection, commonly seen in manipulated network environments |
 | ⑥ | Behavioral Analytics / Telemetry Node Detection | BehaviorDomain.list | Flags cloud service nodes with identifiable behavioral fingerprinting, including telemetry SDKs, analytics platforms, and behavioral modeling services (Identification Module - Disabled by Default) | Focused on behavior-analytic SDK communication patterns via DNS/TLS traffic; excludes ad or data-upload SDKs |
-| ⑦ | Background Reconnections & Silent Communication Blocking | Background_Block.list | Identifies domains used by IoT, NAS, or SDKs for config uploads or device callbacks, aiding detection of stealth telemetry communications (Enabled by Default) | Focused on background connection behavior via callback frequency, paths, and data uploads; excludes ad and analytics SDKs |
-| ⑧ | Backdoor Control & Implant Communication Blocking | Backdoor_Block.list | Blocks known malicious infrastructure involving remote access tools (RATs), reverse shells, heartbeat signals, etc. (Enabled by Default) | Clearly associated with malicious traffic or exploit backdoors |
-| ⑨ | Botnet & Command Node Blocking | Botnet_Block.list | Blocks known botnet controllers, DDoS nodes, and mass-control infrastructure (Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
-| ⑩ | APT Threat Source Blocking | APT_Block.list | Blocks C2 infrastructure used by known APT groups, with national attribution tags and intelligence source references (Enabled by Default) | Derived from public threat intelligence with reliable attribution and IoC chains |
-| ⑪ | Pegasus Spyware Communication Blocking | Pegasus_Block.list | Contains domains disclosed by Amnesty used by Pegasus spyware for C2 communication (Enabled by Default) | Based on Amnesty’s public disclosures of Pegasus C2 infrastructure, indicating high surveillance risk |
-| ⑫ | Phishing Domain Blocking | Phishing_Block.list | Blocks domains associated with phishing attacks, including spoofed login pages, fake official sites, and links in deceptive emails. Typical targets of social engineering campaigns. (Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
-| ⑬ | Scam Domain Blocking | Scam_Block.list | Blocks suspicious domains with extremely low reputation, reported fraud, fake services, or user complaints. (Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs | 
-| ⑭ | Risk Communication Observation List | Quarantine_Block.list | Covers domains and IPs that are not yet confirmed as malicious but exhibit anomalous communication behaviors, including opaque purposes or the use of non-public protocols or non-standard ports. A quarantine-based blocking strategy is applied by default to mitigate potential risks. | Identified through anomalous communication behavior analysis; the risk has not been conclusively classified as malicious and is placed under isolation and observation for further review |
+| ⑦ | Background Reconnections & Silent Communication Blocking | Background_Block.list | Identifies domains used by IoT, NAS, or SDKs for config uploads or device callbacks, aiding detection of stealth telemetry communications (Blocking Module – Enabled by Default) | Focused on background connection behavior via callback frequency, paths, and data uploads; excludes ad and analytics SDKs |
+| ⑧ | Backdoor Control & Implant Communication Blocking | Backdoor_Block.list | Blocks known malicious infrastructure involving remote access tools (RATs), reverse shells, heartbeat signals, etc. (Blocking Module – Enabled by Default) | Clearly associated with malicious traffic or exploit backdoors |
+| ⑨ | Botnet & Command Node Blocking | Botnet_Block.list | Blocks known botnet controllers, DDoS nodes, and mass-control infrastructure (Blocking Module – Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
+| ⑩ | APT Threat Source Blocking | APT_Block.list | Blocks C2 infrastructure used by known APT groups, with national attribution tags and intelligence source references (Blocking Module – Enabled by Default) | Derived from public threat intelligence with reliable attribution and IoC chains |
+| ⑪ | Pegasus Spyware Communication Blocking | Pegasus_Block.list | Contains domains disclosed by Amnesty used by Pegasus spyware for C2 communication (Blocking Module – Enabled by Default) | Based on Amnesty’s public disclosures of Pegasus C2 infrastructure, indicating high surveillance risk |
+| ⑫ | Phishing Domain Blocking | Phishing_Block.list | Blocks domains associated with phishing attacks, including spoofed login pages, fake official sites, and links in deceptive emails. Typical targets of social engineering campaigns. (Blocking Module – Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
+| ⑬ | Scam Domain Blocking | Scam_Block.list | Blocks suspicious domains with extremely low reputation, reported fraud, fake services, or user complaints. (Blocking Module – Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs | 
+| ⑭ | Risk Communication Observation List | Quarantine_Block.list | Covers domains and IPs that are not yet confirmed as malicious but exhibit anomalous communication behaviors, including opaque purposes or the use of non-public protocols or non-standard ports. A quarantine-based blocking strategy is applied by default to mitigate potential risks.(Observation Module – Enabled by Default) | Identified through anomalous communication behavior analysis; the risk has not been conclusively classified as malicious and is placed under isolation and observation for further review |
 
 ## **Auto Update**
 
@@ -125,24 +125,22 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 Copy the configuration link → Open Surge → Download from URL → Paste the link → Edit in Text Mode → Replace your node with the correct parameter → Done!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step-en.png" width="600">
+  <img
+    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step.png"
+    width="600"
+    alt="Step-by-step diagram for importing the Aegis ruleset into Surge"
+  >
 </p>
 
 ### Video Tutorial
 
-Beginner-Friendly Surge Guide · iOS (4K) ｜Click the thumbnail to watch on YouTube
+Please select the platform you are using and visit the corresponding video tutorial page:
 
-<p align="center">
-<a href="https://youtu.be/cKhRdQF5FTo">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/Surge%20Beginner%20Tutorial%20%C2%B7%20iOS%20(4K)%20-%20Cover.png"
-       alt="Beginner-Friendly Surge Guide · iOS (4K)"
-       width="600" />
-</a>
-</p>
+- [Beginner-Friendly Surge Guide · iOS (4K)](https://aegis-site.pages.dev/ios-video-tutorials)
+   Optional subtitles (SRT) are provided to facilitate step-by-step following and later review.
 
-Beginner-Friendly Surge Guide · macOS (4K) ｜Click the thumbnail to watch on YouTube
-
-[![Beginner-Friendly Surge Guide · macOS (4K)](https://img.youtube.com/vi/ano6ysBlD5s/maxresdefault.jpg)](https://youtu.be/ano6ysBlD5s)
+- [Beginner-Friendly Surge Guide · macOS (4K)](https://aegis-site.pages.dev/mac-video-tutorials) 
+   Optional subtitles (SRT) are provided to facilitate step-by-step following and later review.
 
 ## ⚠️ Important Notes
 
