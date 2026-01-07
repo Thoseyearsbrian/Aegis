@@ -1264,3 +1264,7 @@ DOMAIN-SUFFIX,pixel.tapad.com # Tapad 行为像素接口，用于跨设备用户
 # > Effirst 数字营销与用户行为追踪像素服务
 
 DOMAIN-SUFFIX,px.effirst.com # Effirst 提供的前端行为追踪像素接口，用于用户访问、转化事件与营销效果统计
+
+# > Simplecast 播客托管与分发平台（The Unstoppable Podcast）
+
+DOMAIN-SUFFIX,the-unstoppable-podcast.simplecast.com # The Unstoppable Podcast 官方播客分发子域，用于播客音频加载、播放与访问统计

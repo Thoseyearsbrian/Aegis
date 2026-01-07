@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-06
+# - 更新时间：2026-01-08
 
 # > Speedtest 网络测速平台
 
@@ -5838,6 +5838,10 @@ DOMAIN-SUFFIX,uuidgenerator.net # UUID Generator 在线工具主域名，用于�
 
 DOMAIN-SUFFIX,v1.mk # v1.mk 提供的 URL 短链接与重定向服务，用于链接缩短与跳转分发
 DOMAIN-SUFFIX,url.v1.mk # v1.mk 短链接跳转子域，用于实际短链接解析与重定向请求
+
+# > Simplecast 播客托管与分发平台（The Unstoppable Podcast）
+
+DOMAIN-SUFFIX,simplecast.com # Simplecast 播客托管与分发平台主域名，用于音频内容托管、分发与播放服务
 
 # > 第三方博客网站
 
