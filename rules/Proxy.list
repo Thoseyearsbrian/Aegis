@@ -5859,6 +5859,10 @@ DOMAIN-SUFFIX,frill-prod-app.b-cdn.net # Frill 官方生产环境前端资源 CD
 
 DOMAIN-SUFFIX,cdn.flook.co # Flook 前端静态资源 CDN，用于用户反馈组件、调研界面与交互逻辑加载
 
+# > fw-cdn 通用第三方内容分发与静态资源加速服务
+
+DOMAIN-SUFFIX,fw-cdn.com # 第三方通用 CDN 域名，用于网站静态资源、脚本、图片或下载内容的加速分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
