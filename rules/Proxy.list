@@ -4813,6 +4813,7 @@ DOMAIN-SUFFIX,platform.slack-edge.com # Slack 官方边缘平台服务域，用�
 DOMAIN-SUFFIX,jobs.ashbyhq.com # Ashby 职位页面主域，用于加载招聘岗位、表单提交及跟踪招聘活动
 DOMAIN-SUFFIX,cdn.ashbyprd.com # Ashby 静态资源加载域名，用于前端应用的脚本、样式与图标资源分发
 DOMAIN-SUFFIX,app.ashbyhq.com # Ashby 主应用入口域名，用于访问招聘管理后台与职位发布系统
+DOMAIN-SUFFIX,api.ashbyhq.com # Ashby 官方招聘管理系统后端 API，用于职位申请、候选人数据提交与招聘流程管理
 
 # > Mapbox 地图服务核心接口域名
 
