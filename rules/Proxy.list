@@ -5843,6 +5843,7 @@ DOMAIN-SUFFIX,url.v1.mk # v1.mk 短链接跳转子域，用于实际短链接解
 
 DOMAIN-SUFFIX,simplecast.com # Simplecast 播客托管与分发平台主域名，用于音频内容托管、分发与播放服务
 DOMAIN-SUFFIX,the-unstoppable-podcast.simplecast.com # The Unstoppable Podcast 官方播客分发子域
+DOMAIN-SUFFIX,image.simplecastcdn.com # Simplecast 官方播客平台前端图片与媒体资源 CDN，用于播客封面、节目图片等静态内容分发
 
 # > 第三方博客网站
 
