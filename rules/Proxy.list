@@ -5868,6 +5868,10 @@ DOMAIN-SUFFIX,fw-cdn.com # 第三方通用 CDN 域名，用于网站静态资源
 
 DOMAIN-SUFFIX,ud-learn.cdn.prismic.io # Prismic 官方 CDN 子域，用于学习平台与文档内容的静态资源分发
 
+# > CFSpider 基于 Cloudflare Workers 的代理 IP 池服务
+
+DOMAIN-SUFFIX,cfspider.com # CFSpider 官方网站，基于 Cloudflare Workers 的代理 IP 池服务，提供全球节点、HTTP/2、TLS 指纹模拟与自动化请求支持
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
