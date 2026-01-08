@@ -126,7 +126,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step.png"
+    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step-tc.png"
     width="600"
     alt="Surge 中匯入 Aegis 規則集的設定步驟示意圖"
   >
