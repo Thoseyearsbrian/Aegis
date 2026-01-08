@@ -126,7 +126,7 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step.png"
+    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step-en.png"
     width="600"
     alt="Step-by-step diagram for importing the Aegis ruleset into Surge"
   >
