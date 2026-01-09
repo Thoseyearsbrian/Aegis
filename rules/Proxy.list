@@ -5922,6 +5922,13 @@ DOMAIN-SUFFIX,cdn.form.io # Form.io 官方前端静态资源 CDN，用于表单�
 DOMAIN-SUFFIX,p3.3playmedia.com # 3Play Media 视频字幕、转录与无障碍处理服务的内容分发节点，用于字幕文件与相关媒体资源加载
 DOMAIN-SUFFIX,static.3playmedia.com # 3Play Media 前端静态资源域名，用于视频字幕、转录与无障碍功能相关脚本和样式加载
 
+# > BlackRock 全球资产管理与投资服务平台
+
+DOMAIN-SUFFIX,blackrock.com # BlackRock（贝莱德）官方企业网站主域名，用于投资管理服务、产品信息展示、研究报告发布与机构级客户访问
+DOMAIN-SUFFIX,careers.blackrock.com # BlackRock 官方招聘与职业发展平台，用于全球岗位发布与人才招聘
+DOMAIN-SUFFIX,ir.blackrock.com # BlackRock 投资者关系（IR）网站，用于财报披露、股东信息与公司公告发布
+DOMAIN-SUFFIX,docs.blackrock.com # BlackRock 官方文档与资料分发域名，用于研究报告、白皮书与产品说明文档访问
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
