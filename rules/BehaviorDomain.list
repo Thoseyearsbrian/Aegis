@@ -1283,3 +1283,7 @@ DOMAIN-SUFFIX,pt.ispot.tv # iSpot.tv Pixel Tracking 域名，用于广告曝光�
 # > Turn / Amobee 行为数据与广告竞价基础设施
 
 DOMAIN-SUFFIX,d.turn.com # Turn 行为数据收集与用户标识同步子域，用于广告竞价与跨站行为追踪
+
+# > Marketo Munchkin 行为追踪与营销自动化服务
+
+DOMAIN-SUFFIX,munchkin.marketo.net # Marketo Munchkin 行为追踪接口，用于用户访问行为采集与营销分析
