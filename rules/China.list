@@ -403,6 +403,11 @@ DOMAIN-SUFFIX,datalink.autonavi.com # 高德地图交通与路况相关数据服
 DOMAIN-SUFFIX,ctr.autonavi.com # 高德地图内容与服务分发相关接口
 DOMAIN-SUFFIX,m5-x.amap.com # 高德地图瓦片与定位相关服务节点域名
 DOMAIN-SUFFIX,m5.amap.com # 高德地图移动端与 H5 地图服务接口，用于地图瓦片、定位与路径规划请求
+DOMAIN-SUFFIX,i.qchannel03.cn # 高德地图 QChannel 内容分发子域，用于地图资源、接口数据与缓存内容分发
+DOMAIN-SUFFIX,qchannel01.cn # 高德地图 QChannel 内容分发子域，用于区域化地图服务与数据加速
+DOMAIN-SUFFIX,cache.gaode.com # 高德地图官方缓存与静态资源分发域名，用于地图瓦片、样式与数据缓存
+IP-CIDR,59.82.14.161/32 # 高德地图移动端 AMDC 调度接口，用于移动客户端地图服务请求分发与节点调度
+IP-CIDR,180.163.145.240/32 # 高德地图服务节点（阿里云/阿里系网络），用于地图数据与服务接口访问
 
 # > 百度相关域名
 
