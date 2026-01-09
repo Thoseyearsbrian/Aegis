@@ -255,6 +255,17 @@ DOMAIN-SUFFIX,douyinpic.com # 抖音图片与封面资源 CDN 域名
 DOMAIN-SUFFIX,amemv.com # 抖音直播与实时通信相关服务域名
 DOMAIN-SUFFIX,zijieapi.com # 字节跳动 API 服务接口域名
 DOMAIN-SUFFIX,v27-wha.douyinvod.com # 抖音视频内容分发节点
+DOMAIN-SUFFIX,zijieapi.com # 字节跳动官方 API 服务主域名，用于客户端同步、SDK 服务与业务接口通信
+DOMAIN-SUFFIX,douyinpic.com # 抖音官方图片与多媒体资源分发域名，用于内容加载与签名校验
+DOMAIN-SUFFIX,byteeffecttos.com # 字节跳动广告与效果组件内容分发域名，用于特效、广告素材与效果资源加载
+DOMAIN-SUFFIX,amemv.com # 抖音核心业务服务域名，用于应用功能、内容调度与系统服务
+DOMAIN-SUFFIX,awemeugwave.com # 抖音用户激励与增长相关服务域名，用于活动、激励与运营功能支持
+IP-CIDR,101.227.20.71/32 # 字节跳动官方业务服务 IP，用于客户端数据同步
+IP-CIDR,180.163.148.219/32 # 字节跳动官方 SDK 与接口服务 IP
+IP-CIDR,180.163.148.218/32 # 抖音官方杂项与系统服务节点
+IP-CIDR,221.229.162.67/32 # 抖音官方图片与签名校验服务 IP
+IP-CIDR,61.170.79.120/32 # 字节跳动广告与效果内容分发 IP
+IP-CIDR,182.40.23.55/32 # 抖音官方用户激励与运营服务 IP
 IP-CIDR,122.14.236.68/32 # 字节跳动 Frontier 边缘服务节点 IP
 IP-CIDR,180.163.132.102/32 # 抖音图片资源 CDN 节点 IP
 IP-CIDR,117.68.5.176/32 # 字节跳动字体与前端资源加载节点 IP
