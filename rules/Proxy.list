@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-08
+# - 更新时间：2026-01-09
 
 # > Speedtest 网络测速平台
 
@@ -5871,6 +5871,11 @@ DOMAIN-SUFFIX,ud-learn.cdn.prismic.io # Prismic 官方 CDN 子域，用于学习
 # > CFSpider 基于 Cloudflare Workers 的代理 IP 池服务
 
 DOMAIN-SUFFIX,cfspider.com # CFSpider 官方网站，基于 Cloudflare Workers 的代理 IP 池服务，提供全球节点、HTTP/2、TLS 指纹模拟与自动化请求支持
+
+# > Consentmanager 隐私合规与 Cookie 同意管理服务（CMP）
+
+DOMAIN-SUFFIX,consentmanager.net # Consentmanager 官方服务主域名，用于隐私合规管理与用户同意逻辑处理
+DOMAIN-SUFFIX,cdn.consentmanager.net # Consentmanager 前端脚本与资源 CDN，用于加载 Cookie 同意弹窗与隐私偏好管理组件
 
 # > 第三方博客网站
 
