@@ -5891,6 +5891,8 @@ DOMAIN-SUFFIX,kzzimu.com # Kzzimu 字幕与影视资源聚合网站，提供字�
 
 DOMAIN-SUFFIX,jisou.xyz # 极搜官方主域名，用于搜索服务、内容聚合与用户主动访问
 DOMAIN-SUFFIX,login.jisou.xyz # 极搜官方登录与身份认证域名，用于用户账户登录、会话建立与访问校验
+DOMAIN-SUFFIX,jisou123.xyz # 极搜搜索服务主站域名，用于搜索请求处理、页面访问与用户查询交互
+DOMAIN-SUFFIX,cdn.jisou123.xyz # 极搜相关前端静态资源 CDN，用于页面脚本、样式与图片资源加载
 
 # > 第三方博客网站
 
