@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-05
+# - 更新时间：2026-01-09
 
 # > Google 各地区本地化搜索与服务入口域名
 
@@ -226,6 +226,12 @@ DOMAIN-SUFFIX,merchants.google.com # Google Merchant Center Web 控制台域名�
 # > Google 安全验证服务（reCAPTCHA / 安全校验）
 
 DOMAIN-SUFFIX,recaptcha.net # Google reCAPTCHA 人机验证备用域名（用于中国地区的验证码与安全校验）
+
+# > Google 自定义搜索引擎（Custom Search Engine, CSE）服务
+
+DOMAIN-SUFFIX,cse.google.com # Google 自定义搜索引擎核心接口，用于站内搜索结果请求与查询转发
+DOMAIN-SUFFIX,cse.googleusercontent.com # Google CSE 静态资源与脚本分发域名，用于加载搜索组件与样式资源
+DOMAIN-SUFFIX,programmablesearchengine.google.com # Google 可编程搜索引擎管理与配置页面（原 CSE 控制台）
 
 # > Google 旗下 Logo.dev 图像资源加载域名
 
