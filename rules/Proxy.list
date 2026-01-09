@@ -5901,6 +5901,10 @@ DOMAIN-SUFFIX,employer.indeed.com # Indeed 企业招聘后台与雇主服务平�
 DOMAIN-SUFFIX,secure.indeed.com # Indeed 登录与账户安全相关服务
 DOMAIN-SUFFIX,api.indeed.com # Indeed 官方 API 接口，用于职位数据与消息通信
 
+# > Hiring Lab（Indeed 旗下）招聘市场研究与劳动力数据分析平台
+
+DOMAIN-SUFFIX,hiringlab.org # Hiring Lab 官方域名，Indeed 旗下招聘市场研究与劳动力趋势分析平台，用于发布就业数据报告、招聘趋势研究与行业洞察内容
+
 # > Glassdoor 职业评价与招聘信息平台
 
 DOMAIN-SUFFIX,glassdoor.com # Glassdoor 官方主站，用于公司评价、职位信息与招聘沟通
