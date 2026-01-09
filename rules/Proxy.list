@@ -5877,6 +5877,16 @@ DOMAIN-SUFFIX,cfspider.com # CFSpider 官方网站，基于 Cloudflare Workers �
 DOMAIN-SUFFIX,consentmanager.net # Consentmanager 官方服务主域名，用于隐私合规管理与用户同意逻辑处理
 DOMAIN-SUFFIX,cdn.consentmanager.net # Consentmanager 前端脚本与资源 CDN，用于加载 Cookie 同意弹窗与隐私偏好管理组件
 
+# > FlexClip 在线视频编辑平台静态资源服务
+
+DOMAIN-SUFFIX,flexclip.com # FlexClip 在线视频编辑平台主站
+DOMAIN-SUFFIX,static.flexclip.com # FlexClip 前端静态资源 CDN，用于脚本、样式与界面资源加载
+DOMAIN-SUFFIX,resource.flexclip.com # FlexClip 编辑器素材与资源加载域名
+
+# > Kzzimu 字幕与影视资源聚合站点
+
+DOMAIN-SUFFIX,kzzimu.com # Kzzimu 字幕与影视资源聚合网站，提供字幕下载与相关内容索引
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
