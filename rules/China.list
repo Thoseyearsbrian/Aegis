@@ -260,6 +260,12 @@ DOMAIN-SUFFIX,douyinpic.com # 抖音官方图片与多媒体资源分发域名�
 DOMAIN-SUFFIX,byteeffecttos.com # 字节跳动广告与效果组件内容分发域名，用于特效、广告素材与效果资源加载
 DOMAIN-SUFFIX,amemv.com # 抖音核心业务服务域名，用于应用功能、内容调度与系统服务
 DOMAIN-SUFFIX,awemeugwave.com # 抖音用户激励与增长相关服务域名，用于活动、激励与运营功能支持
+DOMAIN-SUFFIX,bytehwm.com # 字节跳动官方前端字体与样式资源分发域名，用于抖音等产品字体与 UI 资源加载
+DOMAIN-SUFFIX,bytegecko.com # 字节跳动官方多媒体对象存储与 CDN 域名，用于视频与效果资源分发
+DOMAIN-SUFFIX,douyinpic.com # 抖音图片与签名资源分发域名，用于图片、封面与签名资源加载
+IP-CIDR,119.167.135.97/32 # 抖音图片 CDN 实际服务 IP
+IP-CIDR,61.170.77.82/32 # 字节跳动 CDN 实际服务 IP
+IP-CIDR,180.163.145.52/32 # 字节跳动 CDN 实际服务 IP，用于字体与前端资源分发
 IP-CIDR,101.227.20.71/32 # 字节跳动官方业务服务 IP，用于客户端数据同步
 IP-CIDR,180.163.148.219/32 # 字节跳动官方 SDK 与接口服务 IP
 IP-CIDR,180.163.148.218/32 # 抖音官方杂项与系统服务节点
