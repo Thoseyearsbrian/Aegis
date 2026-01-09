@@ -1287,3 +1287,8 @@ DOMAIN-SUFFIX,d.turn.com # Turn 行为数据收集与用户标识同步子域，
 # > Marketo Munchkin 行为追踪与营销自动化服务
 
 DOMAIN-SUFFIX,munchkin.marketo.net # Marketo Munchkin 行为追踪接口，用于用户访问行为采集与营销分析
+
+# > Segment 用户行为数据采集与事件分析平台（Twilio）
+
+DOMAIN-SUFFIX,api.segment.io # Segment 官方行为数据采集 API，用于前端与应用的用户事件上报、行为分析与数据管道传输
+IP-CIDR,44.231.35.67/32 # Segment 行为数据采集 API 实际服务 IP（api.segment.io），用于用户行为事件与遥测数据上传
