@@ -5894,6 +5894,19 @@ DOMAIN-SUFFIX,login.jisou.xyz # 极搜官方登录与身份认证域名，用于
 DOMAIN-SUFFIX,jisou123.xyz # 极搜搜索服务主站域名，用于搜索请求处理、页面访问与用户查询交互
 DOMAIN-SUFFIX,cdn.jisou123.xyz # 极搜相关前端静态资源 CDN，用于页面脚本、样式与图片资源加载
 
+# > Indeed 海外招聘与职业平台
+
+DOMAIN-SUFFIX,indeed.com # Indeed 官方主站，用于职位搜索、招聘沟通与账号服务
+DOMAIN-SUFFIX,employer.indeed.com # Indeed 企业招聘后台与雇主服务平台
+DOMAIN-SUFFIX,secure.indeed.com # Indeed 登录与账户安全相关服务
+DOMAIN-SUFFIX,api.indeed.com # Indeed 官方 API 接口，用于职位数据与消息通信
+
+# > Glassdoor 职业评价与招聘信息平台
+
+DOMAIN-SUFFIX,glassdoor.com # Glassdoor 官方主站，用于公司评价、职位信息与招聘沟通
+DOMAIN-SUFFIX,api.glassdoor.com # Glassdoor 官方 API 接口，用于数据加载与服务通信
+DOMAIN-SUFFIX,secure.glassdoor.com # Glassdoor 登录与账户安全服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
