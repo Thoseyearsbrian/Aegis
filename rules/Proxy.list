@@ -5920,6 +5920,7 @@ DOMAIN-SUFFIX,cdn.form.io # Form.io 官方前端静态资源 CDN，用于表单�
 # > 3Play Media 视频无障碍与字幕处理服务内容分发节点
 
 DOMAIN-SUFFIX,p3.3playmedia.com # 3Play Media 视频字幕、转录与无障碍处理服务的内容分发节点，用于字幕文件与相关媒体资源加载
+DOMAIN-SUFFIX,static.3playmedia.com # 3Play Media 前端静态资源域名，用于视频字幕、转录与无障碍功能相关脚本和样式加载
 
 # > 第三方博客网站
 
