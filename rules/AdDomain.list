@@ -4,7 +4,7 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-04
+# - 更新时间：2026-01-09
 
 # > 广告相关域名
 
@@ -31,8 +31,6 @@ DOMAIN-SUFFIX,tag.adrsbl.io # Adrsbl 广告投放与受众定向追踪标签服�
 DOMAIN-SUFFIX,apdcdn.tc.qq.com # 小程序广告拉取服务
 DOMAIN-SUFFIX,admaterial.gdtimg.com # 广告素材分发 CDN
 DOMAIN-SUFFIX,adsexo.com # 提供广告主与发布商对接服务，聚焦成人流量广告变现，存在跳转追踪与投放行为
-DOMAIN-SUFFIX,googlesyndication.com # 广告加载 / 商业投放 / 嵌入式广告组件
-DOMAIN-SUFFIX,pagead2.googlesyndication.com # 广告脚本 / 动态加载 / 商业投放资源
 DOMAIN-SUFFIX,securepubads.g.doubleclick.net # 广告加载 / 页面嵌入 / 商业资源脚本
 DOMAIN-SUFFIX,apps.rokt.com # Rokt 智能电商广告平台接口，用于结账页广告推荐与用户兴趣标签建模
 DOMAIN-SUFFIX,content.snowmachine.me # 电商广告动态素材接口域名，用于加载个性化推荐内容与动态广告组件
@@ -58,7 +56,6 @@ DOMAIN-SUFFIX,mxhichina.com # 阿里系域名，与咸鱼开屏广告有关
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接入域名，用于广告加载与统计回传
 DOMAIN-SUFFIX,googleadservices.com # Google 广告服务接口
 DOMAIN-SUFFIX,googleadapis.l.google.com # Google API 服务域名（内部/广告相关 API 调用）
-DOMAIN-SUFFIX,pagead2.googlesyndication.com # Google 展示广告 / 广告素材域
 DOMAIN-SUFFIX,googleadservices-cn.com # Google 中国广告服务接口
 DOMAIN-SUFFIX,googlesyndication.com # Google 广告 / 内容分发 + 追踪服务
 DOMAIN-SUFFIX,adservice.google.com # Google 广告服务接口 / 跳转域
