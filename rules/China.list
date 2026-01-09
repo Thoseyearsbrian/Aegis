@@ -98,6 +98,7 @@ DOMAIN-SUFFIX,taobaocdn.com # 淘宝静态资源与多媒体内容分发 CDN 域
 DOMAIN-SUFFIX,alicdn.com # 阿里系产品通用 CDN 域名，用于电商页面静态资源与内容分发
 DOMAIN-SUFFIX,mmstat.com # 阿里电商相关数据统计与指标采集服务域名
 DOMAIN-SUFFIX,amdc.alipay.com # 阿里系应用设备环境信息接口，用于客户端接入与服务调度
+IP-CIDR,106.11.43.197/32 # 阿里/淘宝体系公网业务节点，用于站点服务或内容分发
 
 # > 闲鱼相关域名（Xianyu / 阿里巴巴二手交易）
 
