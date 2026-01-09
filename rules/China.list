@@ -402,6 +402,7 @@ DOMAIN-SUFFIX,tracking.autonavi.com # 高德地图位置与运行状态相关服
 DOMAIN-SUFFIX,datalink.autonavi.com # 高德地图交通与路况相关数据服务接口
 DOMAIN-SUFFIX,ctr.autonavi.com # 高德地图内容与服务分发相关接口
 DOMAIN-SUFFIX,m5-x.amap.com # 高德地图瓦片与定位相关服务节点域名
+DOMAIN-SUFFIX,m5.amap.com # 高德地图移动端与 H5 地图服务接口，用于地图瓦片、定位与路径规划请求
 
 # > 百度相关域名
 

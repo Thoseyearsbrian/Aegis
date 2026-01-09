@@ -319,7 +319,6 @@ DOMAIN-SUFFIX,trace.sina.cn # 微博用户行为轨迹上报接口
 
 DOMAIN-SUFFIX,logs.amap.com # 高德地图行为日志上传接口
 DOMAIN-SUFFIX,loc.amap.com # 高德定位接口，含用户位置行为分析
-DOMAIN-SUFFIX,m5.amap.com # 高德地图 SDK 回传数据服务
 DOMAIN-SUFFIX,dualstack-logos.amap.com # SDK 日志与图片请求行为收集接口
 DOMAIN-SUFFIX,dsp.amap.com # 广告请求及用户行为采集接口
 DOMAIN-SUFFIX,stats.amap.com # 高德地图统计上报服务（页面访问、点击事件）
