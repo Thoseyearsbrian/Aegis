@@ -1275,3 +1275,7 @@ DOMAIN-SUFFIX,t.webridge.net # Webridge 转化跳转与点击追踪子域，用�
 # > OpenPanel 开源产品分析与用户行为统计平台
 
 DOMAIN-SUFFIX,openpanel.dev # OpenPanel 官方网站，用于产品分析、事件追踪与用户行为统计服务
+
+# > iSpot.tv 广告投放监测与跨平台受众分析服务
+
+DOMAIN-SUFFIX,pt.ispot.tv # iSpot.tv Pixel Tracking 域名，用于广告曝光、观看行为与投放效果统计
