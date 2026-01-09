@@ -100,6 +100,7 @@ IP-CIDR,69.63.176.0/20 # Meta / Facebook 行为分析与平台通信网段
 DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流日志接口域名，用于客户端事件上报与行为分析 
 DOMAIN-SUFFIX,data.bilibili.com # Bilibili 数据采集与分析接口，用于用户行为统计与日志上传 
 DOMAIN-SUFFIX,ali-web-player-tracker.biliapi.net # 哔哩哔哩播放器追踪接口，用于采集网页端播放行为、埋点与用户互动数据
+DOMAIN-SUFFIX,cm.bilibili.com # 哔哩哔哩客户端行为统计与事件上报域名，用于播放、点击、曝光等用户行为数据采集与推荐系统反馈
 
 # > 极验验证服务行为接口（GeeTest Behavior Services）
 

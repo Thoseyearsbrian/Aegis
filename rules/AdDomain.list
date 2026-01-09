@@ -98,7 +98,6 @@ DOMAIN-SUFFIX,events.appsflyer.com # Appsflyer 事件上报接口域名，用于
 DOMAIN-SUFFIX,t.appsflyer.com # Appsflyer 精简追踪域名，用于 SDK 回传与广告统计
 DOMAIN-SUFFIX,email.salesforce.com # Salesforce 邮件服务主域名，用于投递广告邮件与承载行为跟踪链接
 DOMAIN-SUFFIX,bvc.bilivideo.com # 哔哩哔哩广告视频资源域名，用于开屏广告与贴片加载
-DOMAIN-SUFFIX,cm.bilibili.com # Bilibili 广告接口域名，用于商业推荐内容加载与广告投放策略下发
 DOMAIN-SUFFIX,gtrace.mediago.io # gtrace 数据上报域名，用于广告点击追踪与转化率分析（隶属百度 MediaGo）
 DOMAIN-SUFFIX,tracking.meetsocial.com # tracking.meetsocial 广告追踪域名，用于用户行为分析与转化统计（隶属 MeetSocial 营销平台）
 DOMAIN-SUFFIX,static.oktopost.com # Oktopost 静态脚本追踪域名，用于 B2B 广告内容加载与行为分析 
