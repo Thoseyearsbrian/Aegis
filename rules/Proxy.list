@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-09
+# - 更新时间：2026-01-10
 
 # > Speedtest 网络测速平台
 
@@ -5910,6 +5910,14 @@ DOMAIN-SUFFIX,hiringlab.org # Hiring Lab 官方域名，Indeed 旗下招聘市�
 DOMAIN-SUFFIX,glassdoor.com # Glassdoor 官方主站，用于公司评价、职位信息与招聘沟通
 DOMAIN-SUFFIX,api.glassdoor.com # Glassdoor 官方 API 接口，用于数据加载与服务通信
 DOMAIN-SUFFIX,secure.glassdoor.com # Glassdoor 登录与账户安全服务
+
+# > Form.io 表单构建与数据采集平台前端资源服务
+
+DOMAIN-SUFFIX,cdn.form.io # Form.io 官方前端静态资源 CDN，用于表单组件、脚本与样式加载，支持 Web 与应用端数据表单构建
+
+# > 3Play Media 视频无障碍与字幕处理服务内容分发节点
+
+DOMAIN-SUFFIX,p3.3playmedia.com # 3Play Media 视频字幕、转录与无障碍处理服务的内容分发节点，用于字幕文件与相关媒体资源加载
 
 # > 第三方博客网站
 
