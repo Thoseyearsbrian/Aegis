@@ -5900,7 +5900,7 @@ DOMAIN-SUFFIX,indeed.com # Indeed 官方主站，用于职位搜索、招聘沟�
 DOMAIN-SUFFIX,employer.indeed.com # Indeed 企业招聘后台与雇主服务平台
 DOMAIN-SUFFIX,secure.indeed.com # Indeed 登录与账户安全相关服务
 DOMAIN-SUFFIX,api.indeed.com # Indeed 官方 API 接口，用于职位数据与消息通信
-DOMAIN-SUFFIX,indeedevents.com # Indeed 招聘平台域名，用于职位浏览、申请流程、转化统计与产品功能分析
+DOMAIN-SUFFIX,indeedevents.com # Indeed 招聘平台域名，用于职位浏览、申请流程等
 
 # > Hiring Lab（Indeed 旗下）招聘市场研究与劳动力数据分析平台
 
