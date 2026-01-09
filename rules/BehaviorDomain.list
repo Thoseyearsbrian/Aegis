@@ -24,7 +24,6 @@ DOMAIN-SUFFIX,report.qq.com # SDK 行为日志与统计数据上报域名
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com # SDK 数据上传接口（EVE 通道）
 DOMAIN-SUFFIX,oth.str.mdt.qq.com # SDK 数据上传接口（STR 通道）
 IP-CIDR,61.151.230.185/32 # 微信遥测上报节点（江苏联通）
-IP-CIDR,117.89.176.31/32 # 微信遥测加密通信节点（江苏电信）
 IP-CIDR,61.151.230.221/32 # 微信日志与行为上报节点（江苏联通）
 IP-CIDR,101.226.144.240/32 # 微信遥测上报节点（上海联通）
 
