@@ -4,7 +4,7 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-09
+# - 更新时间：2026-01-10
 
 # > 广告相关域名
 
@@ -5045,8 +5045,7 @@ DOMAIN-SUFFIX,2o7.net # 出现在广告／追踪域名黑名单中，确认为�
 DOMAIN-SUFFIX,2znp09oa.com # 出现在广告／追踪域名黑名单中，确认为广告追踪域名 
 DOMAIN-SUFFIX,analytics.roku.com # Roku 分析系统，用于用户行为分析与广告反馈
 DOMAIN-SUFFIX,track.sr.roku.com # Roku 内嵌行为追踪接口（广告点击反馈）
-DOMAIN-SUFFIX,servedby-buysellads.com # BuySellAds 广告投放主域名，用于广告素材加载、点击跳转与曝光统计
-DOMAIN-SUFFIX,m.servedby-buysellads.com # BuySellAds 移动端广告分发节点，用于移动页面广告请求与行为追踪
+DOMAIN-SUFFIX,servedby-buysellads.com # BuySellAds 广告投放主域名，用于网站广告内容加载与展示
 DOMAIN-SUFFIX,6600d6d98e534115970f9529a45f3195.js.ubembed.com # ubembed.com 第三方广告脚本加载域名
 DOMAIN-SUFFIX,cdn.feathr.co # Feathr 第三方广告 / 受众分析组件 CDN 
 DOMAIN-SUFFIX,vi.ml314.com # ML314 广告跟踪像素域名，用于收集页面访问、转化率与点击数据，常见于广告投放着陆页
