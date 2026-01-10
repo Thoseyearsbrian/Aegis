@@ -8,6 +8,7 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,firstthebest.com # FirstTheBest 内容聚合与商业导流主站，常见于优惠、榜单或推荐页，用于引导用户跳转至第三方商品或服务页面
 DOMAIN-SUFFIX,a.ads.rmbl.ws # Rumble 广告投放与曝光统计子域，用于广告请求、展示与基础效果追踪
 DOMAIN-SUFFIX,btloader.com # 广告脚本加载与投放服务域名，用于程序化广告资源加载与分发
 DOMAIN-SUFFIX,asc-a.hbwrapper.com # Header Bidding Wrapper 服务节点，用于封装多广告平台竞价逻辑并执行实时竞价请求
