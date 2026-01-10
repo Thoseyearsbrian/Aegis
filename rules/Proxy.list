@@ -5929,6 +5929,16 @@ DOMAIN-SUFFIX,careers.blackrock.com # BlackRock 官方招聘与职业发展平�
 DOMAIN-SUFFIX,ir.blackrock.com # BlackRock 投资者关系（IR）网站，用于财报披露、股东信息与公司公告发布
 DOMAIN-SUFFIX,docs.blackrock.com # BlackRock 官方文档与资料分发域名，用于研究报告、白皮书与产品说明文档访问
 
+# > 8-Lives Cat 应用后端服务与订阅计费基础设施
+
+DOMAIN-SUFFIX,8-lives-cat.io # 8-Lives Cat 应用官方域名，用于产品服务入口与后端接口承载
+DOMAIN-SUFFIX,api-production.8-lives-cat.io # 8-Lives Cat 生产环境 API 接口，用于应用核心功能请求与业务数据交互
+
+# > RevenueCat 应用内订阅与收入管理服务平台
+
+DOMAIN-SUFFIX,revenuecat.com # RevenueCat 官方平台主域名，用于应用内订阅、内购与收入管理服务
+DOMAIN-SUFFIX,api.revenuecat.com # RevenueCat 后端 API 接口，用于订阅状态校验、收据验证与计费事件同步
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
