@@ -1298,3 +1298,7 @@ IP-CIDR,44.231.35.67/32 # Segment 行为数据采集 API 实际服务 IP（api.s
 DOMAIN-SUFFIX,sdiapi.com # SDI 官方 API 服务主域名，用于广告投放效果分析、媒体曝光测量与数据接口调用
 DOMAIN-SUFFIX,services.sdiapi.com # SDI 核心服务接口子域，用于广告测量、跨平台曝光统计与分析服务
 DOMAIN-SUFFIX,reports.sdiapi.com # SDI 报告与分析结果接口，用于广告活动报告生成与效果数据展示
+
+# > FirstTheBest 商业导流与内容聚合平台
+
+DOMAIN-SUFFIX,firstthebest.com # FirstTheBest 内容聚合与商业导流主站，常见于优惠、榜单或推荐页，用于引导用户跳转至第三方商品或服务页面
