@@ -37,6 +37,7 @@ IP-CIDR,173.236.212.42/32 # ChatGPT 主域名通信节点
 IP-CIDR,69.171.242.11/32 # ChatGPT Web 会话通信节点
 IP-CIDR,104.18.39.21/32 # ChatGPT WebSocket 服务节点（Cloudflare）
 IP-CIDR,128.121.146.235/32 # OpenAI iOS 客户端通信节点
+IP-CIDR,199.96.63.177/32 # OpenAI Chat iOS 客户端通信节点
 
 # > Sora — OpenAI 视频生成 / AI 服务主域名
 
