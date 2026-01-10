@@ -239,8 +239,8 @@ DOMAIN-SUFFIX,education.apple.com # Apple 教育资源主入口，涵盖课堂�
 # DOMAIN-SUFFIX,supportmetrics.apple.com # 客服行为追踪服务
 # DOMAIN-SUFFIX,notes-analytics-events.apple.com # 备忘录分析事件接口
 # DOMAIN-SUFFIX,weather-analytics-events.apple.com # 天气应用分析事件接口
-# DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 # DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
 # DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple CDN 域名，用于 Crash 报告与诊断日志收集
 # DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名
 # DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务
+# DOMAIN-SUFFIX,amp.shazam.com # Shazam 音频识别与行为分析接口域名，用于音乐识别请求、识别结果回传与用户交互数据统计
