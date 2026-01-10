@@ -462,6 +462,8 @@ DOMAIN-SUFFIX,log.baidu.com # 百度通用服务日志与运行状态接口
 DOMAIN-SUFFIX,su.bdimg.com # 百度图片与静态媒体资源服务节点
 DOMAIN-SUFFIX,img.baidu.com # 百度图片搜索与图像内容服务接口
 DOMAIN-SUFFIX,m.baeapps.com # 百度应用引擎相关资源与服务接口域名
+DOMAIN-SUFFIX,zhida.baidu.com # 百度知道与搜索问答服务域名，用于内容检索、问答展示与搜索结果加载
+DOMAIN-SUFFIX,hmma.baidu.com # 百度统计与行为分析接口，用于页面访问统计、用户行为埋点与流量分析
 
 # > 16map 地图服务平台（第三方地图嵌入与位置服务）
 
