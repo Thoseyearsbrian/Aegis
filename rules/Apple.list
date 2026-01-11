@@ -88,7 +88,7 @@ DOMAIN-SUFFIX,amp-api.apps.apple.com # App API 后端服务
 DOMAIN-SUFFIX,amp-api-search-edge.apps.apple.com # App 搜索加速 API
 DOMAIN-SUFFIX,itunesconnect.apple.com # 开发者管理平台
 DOMAIN-SUFFIX,sandbox.itunes.apple.com # 支付沙盒环境
-DOMAIN-SUFFIX,mzstatic.com # 内容分发 CDN
+DOMAIN-SUFFIX,mzstatic.com # Apple 官方静态资源 CDN 域名
 DOMAIN-SUFFIX,applemusic.com # Apple Music 官方服务
 DOMAIN-SUFFIX,applemusicconnect.com # Apple Music 社交功能（历史服务）
 DOMAIN-SUFFIX,apple-livephotoskit.com # Live Photos 相关服务
