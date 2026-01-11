@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-11
+# - 更新时间：2026-01-12
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -2235,3 +2235,8 @@ DOMAIN-SUFFIX,cdn.paddle.com # Paddle 官方静态资源与前端组件 CDN
 # > Tencent Turing 人机验证（CAPTCHA）服务
 
 DOMAIN-SUFFIX,turing.captcha.gtimg.com # 腾讯 Turing 人机验证服务，用于登录、注册与关键操作的滑块/验证码校验
+
+# > 站酷（ZCOOL）设计社区与内容资源分发服务
+
+DOMAIN-SUFFIX,dancf.com # 站酷（ZCOOL）设计社区主域名，用于作品展示、创意内容浏览与社区访问
+DOMAIN-SUFFIX,cdn.dancf.com # 站酷（ZCOOL）前端静态资源与媒体内容 CDN，用于图片、脚本与样式等资源分发
