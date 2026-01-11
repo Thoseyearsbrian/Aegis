@@ -113,6 +113,7 @@ DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple 系统状态与内容分发 CDN
 DOMAIN-SUFFIX,odr.itunes.apple.com # Apple On-Demand Resources（ODR）服务域名，用于 App 按需资源下载与动态内容分发
 DOMAIN-SUFFIX,init.itunes.apple.com # Apple iTunes / App Store 初始化与设备激活接口，用于客户端首次启动、环境校验与服务引导
 DOMAIN-SUFFIX,downloaddispatch.itunes.apple.com # Apple 内容下载调度服务域名，用于 App Store / iTunes 资源下载任务的分发与调度控制
+DOMAIN-SUFFIX,ipcdn.apple.com # Apple IP 级内容分发与网络调度 CDN 域名，用于系统服务、更新与配置请求的区域化分发与路径优化
 
 # > 推送与通知服务（Push Services）
 
