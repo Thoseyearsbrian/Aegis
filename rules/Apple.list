@@ -47,6 +47,8 @@ DOMAIN-SUFFIX,iphone-ld.apple.com # Apple iPhone 系统服务加载与初始化�
 DOMAIN-SUFFIX,swallow.apple.com # Apple 内部网络质量与服务可达性检测域名
 DOMAIN-SUFFIX,init.ess.apple.com # Apple 设备安全服务（ESS）初始化接口
 DOMAIN-SUFFIX,identity.ess.apple.com # Apple 设备与账户身份确认服务（ESS）
+DOMAIN-SUFFIX,mesu.apple.com # Apple 系统软件更新服务（MESU），用于 iOS/macOS 等系统更新索引与元数据分发
+DOMAIN-SUFFIX,register.appattest.apple.com # Apple App Attest 应用安全注册接口，用于应用防篡改、设备真实性校验
 IP-CIDR,17.252.203.235 # Apple 验证与激活服务节点，常用于 iOS 激活与证书验证流程 
 IP-CIDR,17.250.0.0/16 # Apple Push 与激活服务段
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
@@ -213,6 +215,7 @@ PROCESS-NAME,locationd # Apple 定位系统核心进程
 
 DOMAIN-SUFFIX,gamecenter.apple.com # Apple Game Center 主域名，用于游戏成就与社交数据同步
 DOMAIN-SUFFIX,gk.apple.com # GameKit 服务域名，用于联机匹配与成就服务
+DOMAIN-SUFFIX,init.gc.apple.com # Apple Game Center 服务初始化接口，用于游戏社交、成就与联机能力校验
 
 # > Apple Support / 用户支持与文档服务（Support Services）
 

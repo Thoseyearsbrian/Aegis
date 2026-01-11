@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,pages-fast.1688.com # 1688 高性能页面渲染与活动页加载
 DOMAIN-SUFFIX,alilang-intranet.alibaba-inc.com # 阿里巴巴集团内部语言与本地化支持系统域名，仅用于内网或内部业务环境
 DOMAIN-SUFFIX,cdn.ynuf.aliapp.org # 阿里系 App 相关静态资源分发 CDN，用于业务资源与组件加载
 DOMAIN-SUFFIX,acs-mum.alibabachengdun.com # 阿里巴巴承盾（Chengdun）风控系统接口，用于设备指纹、风险识别与反作弊判定
-DOMAIN-SUFFIX,mum.alibabachengdun.com # 阿里巴巴承盾风控服务域名，用于行为分析、设备画像与安全风控决策
+DOMAIN-SUFFIX,alibabachengdun.com # 阿里巴巴承盾风控服务域名，用于行为分析、设备画像与安全风控决策
 IP-CIDR,59.82.34.147/32 # 阿里系客户端后台调度接口（amdc/mobileDispatch），用于配置获取与网络环境检测等系统级请求
 IP-CIDR,180.163.145.52 # 阿里系 CDN 节点 IP，用于静态资源与网页内容分发
 IP-CIDR,180.163.145.236 # mdn.alipayobjects.com 对应 CDN 节点，用于图片与脚本资源加载
