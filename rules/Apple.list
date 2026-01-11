@@ -46,6 +46,7 @@ DOMAIN-SUFFIX,weatherkit.apple.com # Apple WeatherKit 官方天气服务接口
 DOMAIN-SUFFIX,iphone-ld.apple.com # Apple iPhone 系统服务加载与初始化域名
 DOMAIN-SUFFIX,swallow.apple.com # Apple 内部网络质量与服务可达性检测域名
 DOMAIN-SUFFIX,init.ess.apple.com # Apple 设备安全服务（ESS）初始化接口
+DOMAIN-SUFFIX,identity.ess.apple.com # Apple 设备与账户身份确认服务（ESS）
 IP-CIDR,17.252.203.235 # Apple 验证与激活服务节点，常用于 iOS 激活与证书验证流程 
 IP-CIDR,17.250.0.0/16 # Apple Push 与激活服务段
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
