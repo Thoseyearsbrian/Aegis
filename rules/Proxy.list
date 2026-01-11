@@ -2900,6 +2900,7 @@ DOMAIN-SUFFIX,wiki.surge.community # Surge 官方文档站，用于配置说明�
 DOMAIN-SUFFIX,nssurge.zendesk.com # Surge 官方客服支持中心，用于工单处理与技术支持
 DOMAIN-SUFFIX,divineengine.net # DivineEngine 站点 –“Surge 专题”页面，用于第三方用户教程与工具介绍
 DOMAIN-SUFFIX,surge.mitsea.com # 非官方 Surge 中文手册站点，用于社区整理的 Surge 使用教程与规则文档
+DOMAIN-SUFFIX,surge-activation.com # Surge 网络代理工具官方授权与激活服务域名，用于许可证校验、设备绑定与激活状态验证
 
 # > GitBook 相关服务域名 
 
