@@ -63,6 +63,7 @@ DOMAIN-SUFFIX,pds-init.ess.apple.com # Apple ESS（Enterprise Support Services�
 DOMAIN-SUFFIX,amp-api-edge.music.apple.com # Apple Music AMP 边缘 API 接口，用于音乐内容元数据获取、播放策略下发与区域化服务调度
 DOMAIN-SUFFIX,musicstatus.itunes.apple.com # Apple Music 服务状态与可用性检测接口，用于客户端检查 Apple Music 后端服务运行状态、区域可用性与故障提示
 DOMAIN-SUFFIX,weather-edge.apple.com # Apple 天气服务边缘接入节点
+DOMAIN-SUFFIX,ampaeservices.com # Apple Media & Platform Authentication Services（AMP AES）相关服务域名，用于 Apple 媒体平台与系统服务的认证、鉴权与安全会话支持
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
 IP-CIDR,17.253.150.10 # Tether 服务节点
 
