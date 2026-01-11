@@ -107,6 +107,7 @@ DOMAIN-SUFFIX,inappcheck.itunes.apple.com # Apple App 内购买与订阅合法�
 DOMAIN-SUFFIX,amp-api-updates.apps.apple.com # Apple 应用更新与元数据同步接口
 DOMAIN-SUFFIX,cstat.cdn-apple.com # Apple 系统状态与内容分发 CDN
 DOMAIN-SUFFIX,ocsp2.apple.com # Apple 证书状态校验（OCSP）与系统安全验证服务
+DOMAIN-SUFFIX,odr.itunes.apple.com # Apple On-Demand Resources（ODR）服务域名，用于 App 按需资源下载与动态内容分发
 
 # > 推送与通知服务（Push Services）
 
