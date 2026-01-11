@@ -34,7 +34,6 @@ DOMAIN-SUFFIX,alilang-intranet.alibaba-inc.com # 阿里巴巴集团内部语言�
 DOMAIN-SUFFIX,cdn.ynuf.aliapp.org # 阿里系 App 相关静态资源分发 CDN，用于业务资源与组件加载
 DOMAIN-SUFFIX,acs-mum.alibabachengdun.com # 阿里巴巴承盾（Chengdun）风控系统接口，用于设备指纹、风险识别与反作弊判定
 DOMAIN-SUFFIX,mum.alibabachengdun.com # 阿里巴巴承盾风控服务域名，用于行为分析、设备画像与安全风控决策
-DOMAIN-SUFFIX,p9-sign.douyinpic.com # 抖音官方图片签名与资源校验服务子域，用于图片内容签名、防盗链校验与媒体资源 CDN 分发
 IP-CIDR,59.82.34.147/32 # 阿里系客户端后台调度接口（amdc/mobileDispatch），用于配置获取与网络环境检测等系统级请求
 IP-CIDR,180.163.145.52 # 阿里系 CDN 节点 IP，用于静态资源与网页内容分发
 IP-CIDR,180.163.145.236 # mdn.alipayobjects.com 对应 CDN 节点，用于图片与脚本资源加载
@@ -223,7 +222,6 @@ DOMAIN-SUFFIX,icq.com # 腾讯旗下 ICQ 国际即时通信服务相关域名
 # > 字节相关域名（ByteDance）
 
 DOMAIN-SUFFIX,doudian.com # 抖店主域名，用于电商商家后台与订单管理服务
-DOMAIN-SUFFIX,fxg.jinritemai.com # 抖音电商相关接口域名，用于交易流程与订单处理
 DOMAIN-SUFFIX,jinritemai.com # 抖音电商主域名，用于商品展示与电商活动页面访问
 DOMAIN-SUFFIX,lfxshop.com # 抖店前端页面与活动相关服务域名
 DOMAIN-SUFFIX,bytedance.net # 字节跳动通用基础服务域名，用于跳转、认证与服务支持
@@ -255,19 +253,16 @@ DOMAIN-SUFFIX,bytefcdnrd.com # 字节跳动内容分发与静态资源 CDN 域�
 DOMAIN-SUFFIX,douyincdn.com # 抖音官方内容分发与静态资源 CDN 域名
 DOMAIN-SUFFIX,bytednsdoc.com # 字节跳动文档与静态资源分发域名
 DOMAIN-SUFFIX,douyinvod.com # 抖音视频内容分发 CDN 域名
-DOMAIN-SUFFIX,douyinpic.com # 抖音图片与封面资源 CDN 域名
 DOMAIN-SUFFIX,amemv.com # 抖音直播与实时通信相关服务域名
-DOMAIN-SUFFIX,zijieapi.com # 字节跳动 API 服务接口域名
-DOMAIN-SUFFIX,v27-wha.douyinvod.com # 抖音视频内容分发节点
 DOMAIN-SUFFIX,zijieapi.com # 字节跳动官方 API 服务主域名，用于客户端同步、SDK 服务与业务接口通信
-DOMAIN-SUFFIX,douyinpic.com # 抖音官方图片与多媒体资源分发域名，用于内容加载与签名校验
-DOMAIN-SUFFIX,byteeffecttos.com # 字节跳动广告与效果组件内容分发域名，用于特效、广告素材与效果资源加载
-DOMAIN-SUFFIX,amemv.com # 抖音核心业务服务域名，用于应用功能、内容调度与系统服务
 DOMAIN-SUFFIX,awemeugwave.com # 抖音用户激励与增长相关服务域名，用于活动、激励与运营功能支持
 DOMAIN-SUFFIX,bytehwm.com # 字节跳动官方前端字体与样式资源分发域名，用于抖音等产品字体与 UI 资源加载
-DOMAIN-SUFFIX,bytegecko.com # 字节跳动官方多媒体对象存储与 CDN 域名，用于视频与效果资源分发
 DOMAIN-SUFFIX,douyinpic.com # 抖音图片与签名资源分发域名，用于图片、封面与签名资源加载
 DOMAIN-SUFFIX,bytegecko.com # 字节跳动内容与静态资源分发 CDN 域名
+DOMAIN-SUFFIX,toutiaovod.com # 今日头条 / 抖音体系视频点播（VOD）主域名，用于视频内容存储、分发与播放服务
+DOMAIN-SUFFIX,api.toutiaoapi.com # 今日头条核心业务 API 接口，用于信息流请求、内容加载、用户状态与业务数据交互
+DOMAIN-SUFFIX,toutiaostatic.com # 今日头条前端静态资源与内容分发主域名，用于页面资源、脚本与样式加载
+DOMAIN-SUFFIX,smtcdns.com # 字节跳动统计与内容调度 CDN 域名，用于请求分发、流量调度与访问质量优化
 IP-CIDR,119.167.135.97/32 # 抖音图片 CDN 实际服务 IP
 IP-CIDR,61.170.77.82/32 # 字节跳动 CDN 实际服务 IP
 IP-CIDR,180.163.145.52/32 # 字节跳动 CDN 实际服务 IP，用于字体与前端资源分发
