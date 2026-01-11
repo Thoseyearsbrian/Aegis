@@ -263,6 +263,7 @@ DOMAIN-SUFFIX,toutiaovod.com # 今日头条 / 抖音体系视频点播（VOD）�
 DOMAIN-SUFFIX,api.toutiaoapi.com # 今日头条核心业务 API 接口，用于信息流请求、内容加载、用户状态与业务数据交互
 DOMAIN-SUFFIX,toutiaostatic.com # 今日头条前端静态资源与内容分发主域名，用于页面资源、脚本与样式加载
 DOMAIN-SUFFIX,smtcdns.com # 字节跳动统计与内容调度 CDN 域名，用于请求分发、流量调度与访问质量优化
+DOMAIN-SUFFIX,vegslb.com # 火山引擎（Volcengine / 字节跳动）SLB 负载均衡基础设施域名，用于业务接入调度、流量分发与服务节点转发
 IP-CIDR,119.167.135.97/32 # 抖音图片 CDN 实际服务 IP
 IP-CIDR,61.170.77.82/32 # 字节跳动 CDN 实际服务 IP
 IP-CIDR,180.163.145.52/32 # 字节跳动 CDN 实际服务 IP，用于字体与前端资源分发
