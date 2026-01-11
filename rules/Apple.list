@@ -141,6 +141,7 @@ DOMAIN-SUFFIX,ec.pcms.apple.com # Apple 产品内容管理与配置分发接口�
 DOMAIN-SUFFIX,amp-api.media.apple.com # Apple 媒体平台（AMP）API 接口，用于 Apple Music / TV / Podcasts 等媒体服务的内容元数据、播放策略与区域化配置下发
 DOMAIN-SUFFIX,partiality.itunes.apple.com # Apple iTunes / App Store 内容与服务公平性（Partiality）校验接口，用于区域差异、内容可用性、权限与策略一致性校验
 DOMAIN-SUFFIX,play.itunes.apple.com # Apple iTunes / App Store 播放与内容访问接口，用于媒体内容（音乐、播客、预览等）的在线播放请求与访问控制
+DOMAIN-SUFFIX,cma.itunes.apple.com # Apple iTunes / App Store 客户端管理与能力协商接口（CMA），用于设备能力识别、客户端配置下发、功能可用性判断与服务策略匹配
 
 # > 推送与通知服务（Push Services）
 
