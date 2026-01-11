@@ -5955,6 +5955,10 @@ DOMAIN-SUFFIX,api.revenuecat.com # RevenueCat 后端 API 接口，用于订阅�
 
 DOMAIN-SUFFIX,photopea.com # Photopea 官方在线图像编辑与设计工具，支持 PSD 等专业格式，基于 Web 的生产力应用
 
+# > Vecpea 在线矢量图形与 SVG 编辑工具平台
+
+DOMAIN-SUFFIX,vecpea.com # Vecpea 官方在线矢量图形与 SVG 编辑工具，用于图标、路径与矢量内容处理
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
