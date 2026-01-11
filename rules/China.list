@@ -2240,3 +2240,9 @@ DOMAIN-SUFFIX,turing.captcha.gtimg.com # 腾讯 Turing 人机验证服务，用�
 
 DOMAIN-SUFFIX,dancf.com # 站酷（ZCOOL）设计社区主域名，用于作品展示、创意内容浏览与社区访问
 DOMAIN-SUFFIX,cdn.dancf.com # 站酷（ZCOOL）前端静态资源与媒体内容 CDN，用于图片、脚本与样式等资源分发
+
+# > 稿定设计（Gaoding）在线设计与素材服务平台
+
+DOMAIN-SUFFIX,gaoding.com # 稿定设计官方主域名，提供在线平面设计、视频编辑、模板与素材服务，属国内设计工具平台
+DOMAIN-SUFFIX,gaoding.net # 稿定设计相关服务域名，用于静态资源、接口或业务扩展访问
+DOMAIN-SUFFIX,gdstatic.com # 稿定设计静态资源与素材 CDN 域名，用于图片、模板与前端资源加载
