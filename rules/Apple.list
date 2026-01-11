@@ -58,6 +58,7 @@ DOMAIN-SUFFIX,time.apple.com # Apple 官方时间同步服务域名
 DOMAIN-SUFFIX,device-config.pcms.apple.com # Apple 设备配置与策略下发服务域名（PCMS）
 DOMAIN-SUFFIX,tdms.apple.com # Apple 设备遥测与诊断管理服务
 DOMAIN-SUFFIX,sse-ws-p189.apple.com # Apple Server-Sent Events（SSE）与 WebSocket 服务节点，用于系统级实时事件推送、状态同步与服务通知
+DOMAIN-SUFFIX,gdmf-ados.apple.com # Apple GDMF（Global Device Management Framework）配置下发与系统策略服务节点，用于设备配置描述文件、系统功能策略与安全参数的动态分发与管理
 IP-CIDR,17.252.203.235 # Apple 验证与激活服务节点，常用于 iOS 激活与证书验证流程 
 IP-CIDR,17.250.0.0/16 # Apple Push 与激活服务段
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
