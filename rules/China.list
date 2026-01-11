@@ -2246,8 +2246,14 @@ DOMAIN-SUFFIX,cdn.dancf.com # 站酷（ZCOOL）前端静态资源与媒体内容
 DOMAIN-SUFFIX,gaoding.com # 稿定设计官方主域名，提供在线平面设计、视频编辑、模板与素材服务，属国内设计工具平台
 DOMAIN-SUFFIX,gaoding.net # 稿定设计相关服务域名，用于静态资源、接口或业务扩展访问
 DOMAIN-SUFFIX,gdstatic.com # 稿定设计静态资源与素材 CDN 域名，用于图片、模板与前端资源加载
+DOMAIN-SUFFIX,fingerprint.gaoding.com # 稿定设计风控与设备指纹识别接口，用于账号安全与反刷校验
 
 # > Wind 金融终端数据服务节点（万得信息）
 
 DOMAIN-SUFFIX,wind.hlgdata.com # Wind 金融终端行情与数据分发节点，用于金融市场数据推送与查询服务
 DOMAIN-SUFFIX,hlgdata.com # Wind 相关数据服务基础域名，承载金融行情、指标与数据接口通信
+
+# > 花瓣网（Huaban）图片与设计素材 CDN 资源分发服务
+
+DOMAIN-SUFFIX,huaban.com # 花瓣网主站与设计内容社区服务
+DOMAIN-SUFFIX,grocery-cdn.huaban.com # 花瓣网静态资源与图片素材 CDN 分发节点
