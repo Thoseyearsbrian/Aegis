@@ -10,6 +10,7 @@
 # > 系统服务（System Services）
 
 DOMAIN-SUFFIX,apple.com # Apple 主域名
+DOMAIN-SUFFIX,apple.cn # Apple 中国区官方主域名
 DOMAIN-SUFFIX,appleid.apple.com # Apple ID 登录验证域名
 DOMAIN-SUFFIX,appleid.cdn-apple.com # Apple ID 验证 CDN 节点
 DOMAIN-SUFFIX,configuration.apple.com # Apple 设备配置服务接口
