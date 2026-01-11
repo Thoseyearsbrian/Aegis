@@ -4220,6 +4220,12 @@ DOMAIN-SUFFIX,token.awswaf.com # AWS WAF Token 风控令牌验证端点，用于
 DOMAIN-SUFFIX,aa91ab2ba082.3f34d406.us-west-1.token.awswaf.com # AWS WAF Token 区域节点，用于风控令牌分发、验证与安全访问判断
 DOMAIN-SUFFIX,aa91ab2ba082.3f34d406.us-west-1.captcha.awswaf.com # AWS WAF Captcha 挑战实例节点，用于风控验证、人机校验与会话安全处理
 
+# > ScamAdviser (用于在线网站信誉与风险评估服务)
+
+DOMAIN-SUFFIX,scamadviser.com # ScamAdviser 官方主站域名，提供第三方网站评价、风险评分与信誉分析服务
+DOMAIN-SUFFIX,cdn.scamadviser.com # ScamAdviser 前端静态资源 CDN，用于页面样式、脚本与图像加载
+DOMAIN-SUFFIX,api.scamadviser.com # ScamAdviser 后端 API 接口，用于查询网站风险评分、信誉数据与分析结果
+
 # > AbuseIPDB（恶意 IP 信誉查询 / 网络安全情报平台）
 
 DOMAIN-SUFFIX,abuseipdb.com # AbuseIPDB 主站域名，用于查询 IP 信誉、恶意报告与安全数据库访问
