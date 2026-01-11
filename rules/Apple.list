@@ -139,6 +139,7 @@ DOMAIN-SUFFIX,client-api.itunes.apple.com # Apple iTunes / App Store 客户端 A
 DOMAIN-SUFFIX,amd-infra.itunes.apple.com # Apple 媒体分发基础设施域名（AMD），用于 iTunes / App Store 内容分发、调度与底层支持服务
 DOMAIN-SUFFIX,ec.pcms.apple.com # Apple 产品内容管理与配置分发接口（PCMS），用于 App Store / iTunes 等服务的内容元数据、展示策略与区域化配置下发
 DOMAIN-SUFFIX,amp-api.media.apple.com # Apple 媒体平台（AMP）API 接口，用于 Apple Music / TV / Podcasts 等媒体服务的内容元数据、播放策略与区域化配置下发
+DOMAIN-SUFFIX,partiality.itunes.apple.com # Apple iTunes / App Store 内容与服务公平性（Partiality）校验接口，用于区域差异、内容可用性、权限与策略一致性校验
 
 # > 推送与通知服务（Push Services）
 
