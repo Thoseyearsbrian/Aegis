@@ -243,6 +243,7 @@ DOMAIN-SUFFIX,gamecenter.apple.com # Apple Game Center 主域名，用于游戏�
 DOMAIN-SUFFIX,gk.apple.com # GameKit 服务域名，用于联机匹配与成就服务
 DOMAIN-SUFFIX,init.gc.apple.com # Apple Game Center 服务初始化接口，用于游戏社交、成就与联机能力校验
 DOMAIN-SUFFIX,static.gc.apple.com # Apple Game Center 静态资源分发域名，用于 Game Center 相关界面资源、配置文件与功能组件的静态内容加载
+DOMAIN-SUFFIX,profile.gc.apple.com # Apple Game Center（GC）用户档案与身份配置服务，用于玩家账号资料、成就状态与社交身份信息的获取与同步
 
 # > Apple Support / 用户支持与文档服务（Support Services）
 
