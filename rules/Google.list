@@ -72,7 +72,6 @@ DOMAIN-SUFFIX,chromium.googlesource.com # Chromium 项目的源代码托管域�
 DOMAIN-SUFFIX,forms.gle # Google Forms 官方短链接域名，用于表单访问与跳转至 Google 表单服务
 DOMAIN-SUFFIX,search.google.com # Google 官方搜索与 Search Console 入口
 DOMAIN-SUFFIX,analytics.google.com # Google Analytics 数据分析与管理控制台
-DOMAIN-SUFFIX,google-analytics.com # Google Analytics 通用网页行为统计域名
 DOMAIN-SUFFIX,grow.google # Google Grow 学习、技能培训与职业发展服务
 DOMAIN-SUFFIX,goo.gle # Google 官方短链接域名，用于服务与内容跳转
 DOMAIN-SUFFIX,syndicatedsearch.goog # Google 官方搜索联合与实验性搜索服务域名，用于搜索能力分发与结果呈现
