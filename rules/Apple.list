@@ -61,6 +61,7 @@ IP-CIDR,17.253.150.10 # Tether 服务节点
 
 DOMAIN-SUFFIX,siri.apple.com # Siri 语音交互服务入口（新版 AI Siri 使用此域名）
 DOMAIN-SUFFIX,dictation.apple.com # 语音听写服务，用于在线语音识别与模型处理
+DOMAIN-SUFFIX,guzzoni.smoot.apple.com # Apple Siri 语音智能服务内部通信子域，用于语音请求解析、调度与后端服务协调
 
 # > Private Cloud Compute（苹果云端 AI 安全沙箱）
 
