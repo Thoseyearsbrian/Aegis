@@ -212,6 +212,7 @@ DOMAIN-SUFFIX,gspe35-ssl.ls.apple.com # Apple 定位服务器
 DOMAIN-SUFFIX,gs-loc-cn.apple.com # Apple 中国区定位服务
 DOMAIN-SUFFIX,gs-loc.apple.com # Apple 全球定位服务
 DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com # Apple 中国区定位与地理服务节点，用于设备定位与地图相关请求
+DOMAIN-SUFFIX,gsp-ssl.ls.apple.com # Apple 定位与地理服务核心 SSL 接入域名，用于设备定位、地图与位置相关请求
 IP-CIDR,63.92.224.0/19 # Apple Maps / CDN 服务段
 IP-CIDR,23.202.34.232/32 # Apple 地理服务节点，隶属 gspe1-ssl.ls.apple.com，用于定位服务与地图数据请求
 IP-CIDR,184.26.91.30/32 # Apple 地理服务备用节点，用于定位服务、Find My 与地图接口通信
