@@ -77,7 +77,7 @@ DOMAIN-SUFFIX,goo.gle # Google 官方短链接域名，用于服务与内容跳�
 DOMAIN-SUFFIX,syndicatedsearch.goog # Google 官方搜索联合与实验性搜索服务域名，用于搜索能力分发与结果呈现
 DOMAIN-SUFFIX,googleapis.com # Google 官方 API 网关域名，用于 Gmail、Drive、Maps、YouTube、Firebase 等服务的后端接口调用
 DOMAIN-SUFFIX,growth-pa.googleapis.com # Google 产品增长与功能引导相关 API 接口，用于新功能实验、用户流程优化与体验改进
-DOMAIN-SUFFIX,peoplestack-pa.googleapis.com # Google People Stack（PA）服务接口，用于用户身份画像、账号关联与人员数据结构化处理
+DOMAIN-SUFFIX,peoplestack-pa.googleapis.com # Google People Stack（PA）核心身份与联系人数据服务接口，用于 Google 账号体系内的人员对象建模、账号关系管理与身份信息结构化处理（非行为追踪、非广告用途）
 DOMAIN-SUFFIX,taskassist-pa.googleapis.com # Google Task Assist 后端服务接口，用于产品内任务引导、上下文辅助与操作提示
 DOMAIN-SUFFIX,subscriptionsmobile-pa.googleapis.com # Google 移动端订阅与内购服务接口
 DOMAIN-SUFFIX,ogads-pa.googleapis.com # Google 官方广告服务 Product API（PA）接口，用于广告投放能力、广告组件功能支持与产品级广告配置调用（不直接承载追踪像素或第三方广告投放）
