@@ -36,6 +36,8 @@ DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 DOMAIN-SUFFIX,apple.com.cn # Apple 在中国大陆的本地官网主域名
 DOMAIN-SUFFIX,pancake.apple.com # Apple 官方服务内部功能支持与通信域名
 DOMAIN-SUFFIX,cl1.apple.com # Apple 官方内容分发与服务接入节点
+DOMAIN-SUFFIX,cl2.apple.com # Apple 官方内容分发与服务接入节点
+DOMAIN-SUFFIX,cl3.apple.com # Apple 官方内容分发与服务接入节点
 DOMAIN-SUFFIX,cl2-cn.apple.com # Apple 中国区内容分发与服务接入节点
 DOMAIN-SUFFIX,weatherkit.apple.com # Apple WeatherKit 官方天气服务接口
 DOMAIN-SUFFIX,iphone-ld.apple.com # Apple iPhone 系统服务加载与初始化域名
