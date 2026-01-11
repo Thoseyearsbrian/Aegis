@@ -116,6 +116,8 @@ DOMAIN-SUFFIX,odr.itunes.apple.com # Apple On-Demand Resources（ODR）服务域
 DOMAIN-SUFFIX,init.itunes.apple.com # Apple iTunes / App Store 初始化与设备激活接口，用于客户端首次启动、环境校验与服务引导
 DOMAIN-SUFFIX,downloaddispatch.itunes.apple.com # Apple 内容下载调度服务域名，用于 App Store / iTunes 资源下载任务的分发与调度控制
 DOMAIN-SUFFIX,ipcdn.apple.com # Apple IP 级内容分发与网络调度 CDN 域名，用于系统服务、更新与配置请求的区域化分发与路径优化
+DOMAIN-SUFFIX,uts-api.itunes.apple.com # Apple iTunes / App Store 内容与设备状态接口，用于媒体内容分发、更新与兼容性校验
+DOMAIN-SUFFIX,smp-device-content.apple.com # Apple 媒体平台设备内容映射服务，用于媒体能力判断、格式协商与内容分发支持
 
 # > 推送与通知服务（Push Services）
 
