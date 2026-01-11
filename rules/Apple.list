@@ -53,6 +53,8 @@ DOMAIN-SUFFIX,mesu.apple.com # Apple 系统软件更新服务（MESU），用于
 DOMAIN-SUFFIX,register.appattest.apple.com # Apple App Attest 应用安全注册接口，用于应用防篡改、设备真实性校验
 DOMAIN-SUFFIX,gsas.apple.com # Apple 全局系统服务访问节点（GSAS），用于设备、账户与核心系统服务的统一接入与安全鉴权
 DOMAIN-SUFFIX,experiments.apple.com # Apple 官方实验与灰度测试平台，用于系统与服务功能开关、策略验证与实验性配置下发
+DOMAIN-SUFFIX,static.ess.apple.com # Apple Enterprise Support Services（ESS）静态资源分发域名
+DOMAIN-SUFFIX,time.apple.com # Apple 官方时间同步服务域名
 IP-CIDR,17.252.203.235 # Apple 验证与激活服务节点，常用于 iOS 激活与证书验证流程 
 IP-CIDR,17.250.0.0/16 # Apple Push 与激活服务段
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
