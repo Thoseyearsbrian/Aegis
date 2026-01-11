@@ -50,6 +50,7 @@ DOMAIN-SUFFIX,identity.ess.apple.com # Apple 设备与账户身份确认服务�
 DOMAIN-SUFFIX,mesu.apple.com # Apple 系统软件更新服务（MESU），用于 iOS/macOS 等系统更新索引与元数据分发
 DOMAIN-SUFFIX,register.appattest.apple.com # Apple App Attest 应用安全注册接口，用于应用防篡改、设备真实性校验
 DOMAIN-SUFFIX,gsas.apple.com # Apple 全局系统服务访问节点（GSAS），用于设备、账户与核心系统服务的统一接入与安全鉴权
+DOMAIN-SUFFIX,experiments.apple.com # Apple 官方实验与灰度测试平台，用于系统与服务功能开关、策略验证与实验性配置下发
 IP-CIDR,17.252.203.235 # Apple 验证与激活服务节点，常用于 iOS 激活与证书验证流程 
 IP-CIDR,17.250.0.0/16 # Apple Push 与激活服务段
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
@@ -123,6 +124,8 @@ DOMAIN-SUFFIX,uts-api.itunes.apple.com # Apple iTunes / App Store 内容与设�
 DOMAIN-SUFFIX,smp-device-content.apple.com # Apple 媒体平台设备内容映射服务，用于媒体能力判断、格式协商与内容分发支持
 DOMAIN-SUFFIX,entitlements.itunes.apple.com # Apple 应用权限（Entitlements）校验与下发服务，用于 App Store / iTunes 体系中应用能力、内购与系统权限授权确认
 DOMAIN-SUFFIX,mzstorekit.itunes.apple.com # Apple StoreKit 内购与订阅服务接口，用于 App 内购买、商品信息获取与交易状态同步
+DOMAIN-SUFFIX,client-api.itunes.apple.com # Apple iTunes / App Store 客户端 API 接口，用于账户状态、内容元数据与客户端能力配置获取
+DOMAIN-SUFFIX,amd-infra.itunes.apple.com # Apple 媒体分发基础设施域名（AMD），用于 iTunes / App Store 内容分发、调度与底层支持服务
 
 # > 推送与通知服务（Push Services）
 
@@ -208,11 +211,11 @@ DOMAIN-SUFFIX,gspe1-ssl.apple.com # Apple 定位服务器
 DOMAIN-SUFFIX,gspe35-ssl.ls.apple.com # Apple 定位服务器
 DOMAIN-SUFFIX,gs-loc-cn.apple.com # Apple 中国区定位服务
 DOMAIN-SUFFIX,gs-loc.apple.com # Apple 全球定位服务
+DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com # Apple 中国区定位与地理服务节点，用于设备定位与地图相关请求
 IP-CIDR,63.92.224.0/19 # Apple Maps / CDN 服务段
 IP-CIDR,23.202.34.232/32 # Apple 地理服务节点，隶属 gspe1-ssl.ls.apple.com，用于定位服务与地图数据请求
 IP-CIDR,184.26.91.30/32 # Apple 地理服务备用节点，用于定位服务、Find My 与地图接口通信
 IP-CIDR,23.61.202.17/32 # Apple gspe1-ssl.ls.apple.com 节点（用于地图与定位等服务）
-PROCESS-NAME,locationd # Apple 定位系统核心进程
 
 # > Game Center / 游戏社交服务（GameKit）
 
