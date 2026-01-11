@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,ampaeservices.com # Apple 认证服务相关域名
 DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 DOMAIN-SUFFIX,apple.com.cn # Apple 在中国大陆的本地官网主域名
 DOMAIN-SUFFIX,pancake.apple.com # Apple 官方服务内部功能支持与通信域名
+DOMAIN-SUFFIX,cl1.apple.com # Apple 官方内容分发与服务接入节点，用于系统服务、App Store 资源或 Apple 服务组件的区域性访问
 PROCESS-NAME,apsd # Apple Push 相关进程
 PROCESS-NAME,timed # 系统时间同步进程
 PROCESS-NAME,syncdefaultsd # iCloud 同步控制器进程
