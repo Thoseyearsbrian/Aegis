@@ -77,6 +77,7 @@ DOMAIN-SUFFIX,goo.gle # Google 官方短链接域名，用于服务与内容跳�
 DOMAIN-SUFFIX,syndicatedsearch.goog # Google 官方搜索联合与实验性搜索服务域名，用于搜索能力分发与结果呈现
 DOMAIN-SUFFIX,googleapis.com # Google 官方 API 网关域名，用于 Gmail、Drive、Maps、YouTube、Firebase 等服务的后端接口调用
 DOMAIN-SUFFIX,growth-pa.googleapis.com # Google 产品增长与功能引导相关 API 接口，用于新功能实验、用户流程优化与体验改进
+DOMAIN-SUFFIX,peoplestack-pa.googleapis.com # Google People Stack（PA）服务接口，用于用户身份画像、账号关联与人员数据结构化处理
 IP-CIDR,142.250.4.0/24 # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
