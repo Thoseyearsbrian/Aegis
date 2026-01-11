@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-10
+# - 更新时间：2026-01-11
 
 # > Speedtest 网络测速平台
 
@@ -562,6 +562,7 @@ DOMAIN-SUFFIX,canva.cn # Canva 中国官方域名（跳转或信息展示页面�
 
 # > Affinity（Affinity Studio / Photo / Designer / Publisher）相关域名与服务节点
 
+DOMAIN-SUFFIX,affin.co # Affinity 官方主站域名，用于产品介绍、版本发布与购买入口 
 DOMAIN-SUFFIX,affinity.studio # Affinity 官方主站域名，用于产品介绍、版本发布与购买入口 
 DOMAIN-SUFFIX,serif.com # Serif 官方网站，Affinity 背后公司品牌域名
 DOMAIN-SUFFIX,affinity.serif.com # Serif 旗下 Affinity 产品主域名，用于账户系统与服务交互 
