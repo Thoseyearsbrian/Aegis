@@ -49,6 +49,7 @@ DOMAIN-SUFFIX,init.ess.apple.com # Apple 设备安全服务（ESS）初始化接
 DOMAIN-SUFFIX,identity.ess.apple.com # Apple 设备与账户身份确认服务（ESS）
 DOMAIN-SUFFIX,mesu.apple.com # Apple 系统软件更新服务（MESU），用于 iOS/macOS 等系统更新索引与元数据分发
 DOMAIN-SUFFIX,register.appattest.apple.com # Apple App Attest 应用安全注册接口，用于应用防篡改、设备真实性校验
+DOMAIN-SUFFIX,gsas.apple.com # Apple 全局系统服务访问节点（GSAS），用于设备、账户与核心系统服务的统一接入与安全鉴权
 IP-CIDR,17.252.203.235 # Apple 验证与激活服务节点，常用于 iOS 激活与证书验证流程 
 IP-CIDR,17.250.0.0/16 # Apple Push 与激活服务段
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
@@ -121,6 +122,7 @@ DOMAIN-SUFFIX,ipcdn.apple.com # Apple IP 级内容分发与网络调度 CDN 域�
 DOMAIN-SUFFIX,uts-api.itunes.apple.com # Apple iTunes / App Store 内容与设备状态接口，用于媒体内容分发、更新与兼容性校验
 DOMAIN-SUFFIX,smp-device-content.apple.com # Apple 媒体平台设备内容映射服务，用于媒体能力判断、格式协商与内容分发支持
 DOMAIN-SUFFIX,entitlements.itunes.apple.com # Apple 应用权限（Entitlements）校验与下发服务，用于 App Store / iTunes 体系中应用能力、内购与系统权限授权确认
+DOMAIN-SUFFIX,mzstorekit.itunes.apple.com # Apple StoreKit 内购与订阅服务接口，用于 App 内购买、商品信息获取与交易状态同步
 
 # > 推送与通知服务（Push Services）
 
