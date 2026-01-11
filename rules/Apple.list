@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,pancake.apple.com # Apple 官方服务内部功能支持与通信�
 DOMAIN-SUFFIX,cl1.apple.com # Apple 官方内容分发与服务接入节点
 DOMAIN-SUFFIX,cl2-cn.apple.com # Apple 中国区内容分发与服务接入节点
 DOMAIN-SUFFIX,weatherkit.apple.com # Apple WeatherKit 官方天气服务接口
+DOMAIN-SUFFIX,iphone-ld.apple.com # Apple iPhone 系统服务加载与初始化域名
 IP-CIDR,17.252.203.235 # Apple 验证与激活服务节点，常用于 iOS 激活与证书验证流程 
 IP-CIDR,17.250.0.0/16 # Apple Push 与激活服务段
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
