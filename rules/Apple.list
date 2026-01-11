@@ -120,6 +120,7 @@ DOMAIN-SUFFIX,downloaddispatch.itunes.apple.com # Apple 内容下载调度服务
 DOMAIN-SUFFIX,ipcdn.apple.com # Apple IP 级内容分发与网络调度 CDN 域名，用于系统服务、更新与配置请求的区域化分发与路径优化
 DOMAIN-SUFFIX,uts-api.itunes.apple.com # Apple iTunes / App Store 内容与设备状态接口，用于媒体内容分发、更新与兼容性校验
 DOMAIN-SUFFIX,smp-device-content.apple.com # Apple 媒体平台设备内容映射服务，用于媒体能力判断、格式协商与内容分发支持
+DOMAIN-SUFFIX,entitlements.itunes.apple.com # Apple 应用权限（Entitlements）校验与下发服务，用于 App Store / iTunes 体系中应用能力、内购与系统权限授权确认
 
 # > 推送与通知服务（Push Services）
 
