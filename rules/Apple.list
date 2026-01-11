@@ -239,6 +239,7 @@ IP-CIDR,23.61.202.17/32 # Apple gspe1-ssl.ls.apple.com 节点（用于地图与�
 DOMAIN-SUFFIX,gamecenter.apple.com # Apple Game Center 主域名，用于游戏成就与社交数据同步
 DOMAIN-SUFFIX,gk.apple.com # GameKit 服务域名，用于联机匹配与成就服务
 DOMAIN-SUFFIX,init.gc.apple.com # Apple Game Center 服务初始化接口，用于游戏社交、成就与联机能力校验
+DOMAIN-SUFFIX,static.gc.apple.com # Apple Game Center 静态资源分发域名，用于 Game Center 相关界面资源、配置文件与功能组件的静态内容加载
 
 # > Apple Support / 用户支持与文档服务（Support Services）
 
