@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-11
+# - 更新时间：2026-01-12
 
 # > Speedtest 网络测速平台
 
@@ -5950,6 +5950,10 @@ DOMAIN-SUFFIX,api-production.8-lives-cat.io # 8-Lives Cat 生产环境 API 接�
 
 DOMAIN-SUFFIX,revenuecat.com # RevenueCat 官方平台主域名，用于应用内订阅、内购与收入管理服务
 DOMAIN-SUFFIX,api.revenuecat.com # RevenueCat 后端 API 接口，用于订阅状态校验、收据验证与计费事件同步
+
+# > Photopea 在线图像编辑器与设计工具平台
+
+DOMAIN-SUFFIX,photopea.com # Photopea 官方在线图像编辑与设计工具，支持 PSD 等专业格式，基于 Web 的生产力应用
 
 # > 第三方博客网站
 
