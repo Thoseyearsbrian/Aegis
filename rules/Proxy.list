@@ -3283,6 +3283,10 @@ DOMAIN-SUFFIX,cacerts.rapidssl.com # RapidSSL 根证书与中间证书链分发�
 
 DOMAIN-SUFFIX,globalsign.com # GlobalSign 证书颁发机构（CA）服务域名，用于获取根证书、吊销列表（CRL）与证书有效性校验
 
+# > RapidSSL / DigiCert 证书状态与吊销校验接口（OCSP / CRL）
+
+DOMAIN-SUFFIX,status.rapidssl.com # RapidSSL（DigiCert 旗下）证书状态查询与吊销校验服务接口，用于 TLS 证书有效性验证（OCSP / CRL）
+
 # > Shields.io 徽章服务资源（Shields.io Badge Assets）
 
 DOMAIN-SUFFIX,shields.io # Shields.io 主域名，用于生成所有徽章请求入口 
