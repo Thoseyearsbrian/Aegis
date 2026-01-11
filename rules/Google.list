@@ -80,6 +80,7 @@ DOMAIN-SUFFIX,growth-pa.googleapis.com # Google 产品增长与功能引导相�
 DOMAIN-SUFFIX,peoplestack-pa.googleapis.com # Google People Stack（PA）服务接口，用于用户身份画像、账号关联与人员数据结构化处理
 DOMAIN-SUFFIX,taskassist-pa.googleapis.com # Google Task Assist 后端服务接口，用于产品内任务引导、上下文辅助与操作提示
 DOMAIN-SUFFIX,subscriptionsmobile-pa.googleapis.com # Google 移动端订阅与内购服务接口
+DOMAIN-SUFFIX,ogads-pa.googleapis.com # Google 官方广告服务 Product API（PA）接口，用于广告投放能力、广告组件功能支持与产品级广告配置调用（不直接承载追踪像素或第三方广告投放）
 IP-CIDR,142.250.4.0/24 # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
