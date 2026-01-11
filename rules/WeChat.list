@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,wxapp.tc.qq.com # 腾讯微信小程序官方 CDN 域名，用于�
 DOMAIN-SUFFIX,marscdnbypass-wxapp.tc.qq.com # 腾讯微信小程序 CDN 旁路加速子域
 DOMAIN-SUFFIX,wx.qlogo.cn # 腾讯微信用户头像与社交图片官方 CDN 域名
 DOMAIN-SUFFIX,cmmsns.qpic.cn # 腾讯微信消息流、图片与多媒体资源 CDN 域名
+DOMAIN-SUFFIX,wechatpay.cn # 微信支付官方主域名，承载支付系统核心服务，包括交易请求、账单处理、风控校验与支付网关接口
 
 # > 多媒体与文件传输（Media & File Transfer）
 
