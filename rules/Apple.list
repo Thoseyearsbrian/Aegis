@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,cl2-cn.apple.com # Apple 中国区内容分发与服务接入节�
 DOMAIN-SUFFIX,cl3-cn.apple.com # Apple 中国区内容分发与服务接入节点
 DOMAIN-SUFFIX,cl4-cn.apple.com # Apple 中国区内容分发与服务接入节点
 DOMAIN-SUFFIX,weatherkit.apple.com # Apple WeatherKit 官方天气服务接口
+DOMAIN-SUFFIX,weather-map2.apple.com # Apple 天气地图服务节点
 DOMAIN-SUFFIX,iphone-ld.apple.com # Apple iPhone 系统服务加载与初始化域名
 DOMAIN-SUFFIX,swallow.apple.com # Apple 内部网络质量与服务可达性检测域名
 DOMAIN-SUFFIX,init.ess.apple.com # Apple 设备安全服务（ESS）初始化接口
