@@ -5,8 +5,16 @@
 
 <h1 align="center">Aegis — Personal Digital Firewall Ruleset for Surge</h1>
 <p align="center">
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-1.png" width="300"></img>
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-2.png" width="300"></img>
+  <img
+    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-1.png"
+    width="300"
+    alt="Surge iOS: Aegis_EN configuration overview interface screenshot"
+  />
+  <img
+    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-2.png"
+    width="300"
+    alt="Surge iOS: Aegis_EN policy group interface screenshot"
+  />
 </p>
 
 <p align="center">
@@ -21,12 +29,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-TC/README.md"><b>【繁體中文文檔點此進入】</b></a>
+  <a
+    href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-TC/README.md"
+    title="查看 Aegis 繁體中文文檔"
+    aria-label="Aegis 專案的繁體中文文檔"
+  >
+    <b>【繁體中文文檔點此進入】</b>
+  </a>
 </p>
 
 ## **Overview**
 
-Personal digital firewall ruleset for [Surge](https://nssurge.com), focused on identifying potential communication threats at both the application-layer and transport-layer. It covers a broad range of suspicious behaviors including [DNS poisoning]((https://en.wikipedia.org/wiki/DNS_hijacking)), [APT threat sources](https://en.wikipedia.org/wiki/Advanced_persistent_threat), [SDK telemetry](https://en.wikipedia.org/wiki/Software_development_kit), [Backdoor Communication](https://en.wikipedia.org/wiki/Back_door), [PCDN relay communication](https://en.wikipedia.org/wiki/P2P_caching), [C2 controllers](https://en.wikipedia.org/?redirect=no&title=Command_and_control), and other potentially malicious communications. The project also expands domain-based identification to major global advertising platforms, behavioral tracking services, and adult content sites, Help users achieve precise local traffic identification and classification on iOS and macOS, and define routing strategies based on their own needs.
+Personal digital firewall ruleset for [Surge](https://nssurge.com), focused on identifying potential communication threats at both the application-layer and transport-layer. It covers a broad range of suspicious behaviors including [DNS poisoning](https://en.wikipedia.org/wiki/DNS_hijacking), [APT threat sources](https://en.wikipedia.org/wiki/Advanced_persistent_threat), [SDK telemetry](https://en.wikipedia.org/wiki/Software_development_kit), [Backdoor communication](https://en.wikipedia.org/wiki/Back_door), [PCDN relay communication](https://en.wikipedia.org/wiki/P2P_caching), [C2 controllers](https://en.wikipedia.org/?redirect=no&title=Command_and_control), and other potentially malicious communications. The project also expands domain-based identification to major global advertising platforms, behavioral tracking services, and adult content sites, Help users achieve precise local traffic identification and classification on iOS and macOS, and define routing strategies based on their own needs.
 
 In addition, the project incorporates rule sets targeting globally recognized high-risk threat infrastructures, including detection strategies for [Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware))￼ spyware and its associated command-and-control infrastructure.
 
@@ -128,7 +142,7 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
   <img
     src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step-en.png"
     width="600"
-    alt="Step-by-step diagram for importing the Aegis ruleset into Surge"
+    alt="Surge iOS: Aegis_EN ruleset import step-by-step diagram (English)"
   >
 </p>
 

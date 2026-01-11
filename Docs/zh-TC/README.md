@@ -5,8 +5,8 @@
 
 <h1 align="center">Aegis — Surge 個人數位防火牆規則集</h1>
 <p align="center">
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-tc-1.png" width="300"></img>
-<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-tc-2.png" width="300"></img>
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-tc-1.png" width="300" alt="Surge iOS：Aegis_TC 配置概覽介面截圖" />
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-tc-2.png" width="300" alt="Surge iOS：Aegis_TC 策略群組介面截圖" />
 </p>
 
 <p align="center">
@@ -21,7 +21,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/en-US/README.md"><b>【English Documentation Here】</b></a>
+  <a
+    href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/en-US/README.md"
+    title="View Aegis Documentation in English"
+    aria-label="English Documentation for Aegis project"
+  >
+    <b>【English Documentation Here】</b>
+  </a>
 </p>
 
 ## 專案概述
@@ -128,7 +134,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
   <img
     src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step-tc.png"
     width="600"
-    alt="Surge 中匯入 Aegis 規則集的設定步驟示意圖"
+    alt="Surge iOS：Aegis_TC 規則集匯入設定步驟示意圖（繁體中文）"
   >
 </p>
 
