@@ -2287,3 +2287,7 @@ DOMAIN-SUFFIX,hlgdata.com # Wind 相关数据服务基础域名，承载金融�
 
 DOMAIN-SUFFIX,huaban.com # 花瓣网主站与设计内容社区服务
 DOMAIN-SUFFIX,grocery-cdn.huaban.com # 花瓣网静态资源与图片素材 CDN 分发节点
+
+# > 虎课网（Huke88）设计学习与在线教育平台
+
+DOMAIN-SUFFIX,huke88.com # 虎课网主站，用于设计、摄影、剪辑等在线课程与教学内容访问
