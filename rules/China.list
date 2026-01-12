@@ -19,7 +19,6 @@ DOMAIN-SUFFIX,aliyun.com # 阿里云中国站官网与控制台主域名，用�
 DOMAIN-SUFFIX,aliyuncs.com # 阿里云对象存储（OSS）与相关云资源服务域名
 DOMAIN-SUFFIX,alicdn.com # 阿里云 CDN 内容分发域名，用于静态资源与多媒体内容加速
 DOMAIN-SUFFIX,hichina.com # 阿里云旗下万网服务域名，提供域名注册、解析与管理服务
-DOMAIN-SUFFIX,mdn.alipayobjects.com # 支付宝前端资源与图像内容分发 CDN 域名
 DOMAIN-SUFFIX,tbcache.com # 阿里巴巴旗下缓存与边缘加速服务域名
 DOMAIN-SUFFIX,h5api.m.1688.com # 1688 移动 H5 API 接口域名
 DOMAIN-SUFFIX,gobuy.1688.com # 1688 采购与下单相关业务域名，用于商品采购流程、下单与交易引导
@@ -36,7 +35,6 @@ DOMAIN-SUFFIX,acs-mum.alibabachengdun.com # 阿里巴巴承盾（Chengdun）风�
 DOMAIN-SUFFIX,alibabachengdun.com # 阿里巴巴承盾风控服务域名，用于行为分析、设备画像与安全风控决策
 IP-CIDR,59.82.34.147/32 # 阿里系客户端后台调度接口（amdc/mobileDispatch），用于配置获取与网络环境检测等系统级请求
 IP-CIDR,180.163.145.52 # 阿里系 CDN 节点 IP，用于静态资源与网页内容分发
-IP-CIDR,180.163.145.236 # mdn.alipayobjects.com 对应 CDN 节点，用于图片与脚本资源加载
 IP-CIDR,155.102.0.7 # 阿里云 CDN 节点 IP，用于轻应用与前端资源托管
 IP-CIDR,61.170.77.212 # 阿里巴巴相关 CDN 节点 IP，用于内容分发服务
 IP-CIDR,39.107.153.201/32 # 阿里云中国区公网 IP，常用于网站 HTTPS 接入、反向代理或 API 服务节点
@@ -67,6 +65,16 @@ DOMAIN-SUFFIX,gw.alipayobjects.com # 支付宝通用前端资源加载入口域�
 DOMAIN-SUFFIX,ac.alipay.com # 支付宝账户中心服务接口，用于用户身份与账户相关操作
 DOMAIN-SUFFIX,clientlog.alipay.com # 支付宝客户端运行日志与异常信息上报接口
 DOMAIN-SUFFIX,securitysdk.alipay.com # 支付宝客户端组件与基础服务支持接口
+DOMAIN-SUFFIX,mdn.alipayobjects.com # 支付宝静态资源与多媒体内容分发 CDN，用于图片、脚本与前端资源加载
+DOMAIN-SUFFIX,ashort.alipay.com.cn # 支付宝短链与跳转服务，用于业务跳转、营销链接与内部服务调度
+DOMAIN-SUFFIX,datagw-edge.alipay.com # 支付宝数据网关边缘节点，用于业务数据请求与服务接口调度
+DOMAIN-SUFFIX,amdc-thirdparty.alipay.com # 支付宝第三方数据与风控相关接口，用于外部服务接入与数据交互
+IP-CIDR,180.163.145.236 # mdn.alipayobjects.com 对应 CDN 节点，用于图片与脚本资源加载
+IP-CIDR,120.39.201.164/32 # 支付宝 CDN 边缘节点
+IP-CIDR,61.170.79.199/32 # 支付宝 CDN 边缘节点
+IP-CIDR,203.209.255.221/32 # 支付宝短链服务节点
+IP-CIDR,120.39.195.241/32 # 支付宝数据网关边缘节点
+IP-CIDR,203.209.245.158/32 # 支付宝第三方数据接口节点
 IP-CIDR,180.163.147.213/32 # 支付宝前端静态资源节点，用于页面样式、脚本与图片加载
 IP-CIDR,222.73.33.223/32 # 支付宝核心业务网关节点，用于支付与账户相关 API 通信
 IP-CIDR,113.137.56.33/32 # 支付宝核心业务网关节点，用于交易与服务请求处理
