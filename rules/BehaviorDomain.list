@@ -1297,3 +1297,7 @@ IP-CIDR,44.231.35.67/32 # Segment 行为数据采集 API 实际服务 IP（api.s
 DOMAIN-SUFFIX,sdiapi.com # SDI 官方 API 服务主域名，用于广告投放效果分析、媒体曝光测量与数据接口调用
 DOMAIN-SUFFIX,services.sdiapi.com # SDI 核心服务接口子域，用于广告测量、跨平台曝光统计与分析服务
 DOMAIN-SUFFIX,reports.sdiapi.com # SDI 报告与分析结果接口，用于广告活动报告生成与效果数据展示
+
+# > bShare 社会化分享与用户行为统计服务
+
+DOMAIN-SUFFIX,static.bshare.cn # bShare 静态资源与脚本域名，用于社交分享组件加载及用户点击、传播行为统计
