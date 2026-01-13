@@ -282,7 +282,7 @@ DOMAIN-SUFFIX,vegslb.com # 火山引擎（Volcengine / 字节跳动）SLB 负载
 DOMAIN-SUFFIX,ecombdapi.com # 字节跳动电商核心 API 服务域名，用于商品、订单与业务接口通信
 DOMAIN-SUFFIX,bdurl.net # 字节跳动短链与跳转基础域名，用于内容分发、链接跳转与服务重定向
 DOMAIN-SUFFIX,dig.bdurl.net # 字节跳动短链解析与跳转子域，用于内容追踪式跳转与链路分发
-IP-CIDR,36.41.168.235//32 # 字节跳动流媒体内容分发节点
+IP-CIDR,36.41.168.235/32 # 字节跳动流媒体内容分发节点
 IP-CIDR,49.7.47.99/32 # 字节跳动边缘调度与内容分发节点
 IP-CIDR,58.49.230.75/32 # 抖音图片签名校验与资源访问节点（douyinpic）
 IP-CIDR,58.216.32.179/32 # 字节跳动电商商品资源分发节点（ecombdimg）
