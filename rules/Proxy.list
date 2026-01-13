@@ -5965,6 +5965,10 @@ DOMAIN-SUFFIX,vecpea.com # Vecpea 官方在线矢量图形与 SVG 编辑工具�
 
 DOMAIN-SUFFIX,mirror.fcix.net # FCIX（Free and Commercial Internet Exchange）公共镜像站点，用于提供 Linux 发行版、开源软件与系统镜像的高速下载服务
 
+# > Debian 官方时间同步（NTP）服务
+
+DOMAIN-SUFFIX,debian.pool.ntp.org # Debian 官方 NTP 时间同步池域名，用于系统时间校准与安全时间基准维护
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
