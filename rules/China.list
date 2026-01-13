@@ -332,6 +332,11 @@ IP-CIDR,180.153.169.147/32 # 抖音视频点播 CDN 实际节点（douyinvod）
 IP-CIDR,113.142.162.51/32 # 字节跳动直播 CDN 节点（bytegecko）
 IP-CIDR,101.227.21.37/32 # 字节跳动 ABTest / 实验配置服务节点（zijieapi）
 IP-CIDR,115.231.184.20/32 # 字节跳动直播 CDN 节点（bytegecko）
+IP-CIDR,180.153.169.148/32 # 字节跳动文档与静态资源分发节点（bytednsdoc）
+IP-CIDR,182.40.23.55/32 # 字节跳动特效资源分发节点（byteeffecttos）
+IP-CIDR,58.223.168.65/32 # 抖音图片签名校验服务节点（douyinpic）
+IP-CIDR,140.249.226.26/32 # 抖音直播图片签名服务节点（webcast-sign）
+IP-CIDR,180.97.246.65/32 # 字节跳动特效资源分发节点（byteeffecttos）
 
 # > 中国电信服务相关域名
 
