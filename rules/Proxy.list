@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-13
+# - 更新时间：2026-01-14
 
 # > Speedtest 网络测速平台
 
@@ -5968,6 +5968,11 @@ DOMAIN-SUFFIX,mirror.fcix.net # FCIX（Free and Commercial Internet Exchange）�
 # > Debian 官方时间同步（NTP）服务
 
 DOMAIN-SUFFIX,debian.pool.ntp.org # Debian 官方 NTP 时间同步池域名，用于系统时间校准与安全时间基准维护
+
+# > 字幕检索与字幕数据接口服务
+
+DOMAIN-SUFFIX,api.opensubtitles.com # OpenSubtitles 官方 API 接口，用于字幕搜索、下载与字幕元数据查询
+DOMAIN-SUFFIX,api.assrt.net # ASSRT（字幕侠）API 接口，用于中文字幕检索、匹配与下载服务
 
 # > 第三方博客网站
 
