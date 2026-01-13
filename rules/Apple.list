@@ -5,7 +5,7 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-11
+# - 更新时间：2026-01-13
 
 # > 系统服务（System Services）
 
@@ -236,6 +236,7 @@ IP-CIDR,63.92.224.0/19 # Apple Maps / CDN 服务段
 IP-CIDR,23.202.34.232/32 # Apple 地理服务节点，隶属 gspe1-ssl.ls.apple.com，用于定位服务与地图数据请求
 IP-CIDR,184.26.91.30/32 # Apple 地理服务备用节点，用于定位服务、Find My 与地图接口通信
 IP-CIDR,23.61.202.17/32 # Apple gspe1-ssl.ls.apple.com 节点（用于地图与定位等服务）
+IP-CIDR,23.44.175.40/32 # Apple 定位与地图服务安全接入节点，用于设备定位与地图相关请求
 
 # > Game Center / 游戏社交服务（GameKit）
 
