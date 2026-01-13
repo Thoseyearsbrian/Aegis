@@ -280,6 +280,8 @@ DOMAIN-SUFFIX,toutiaostatic.com # 今日头条前端静态资源与内容分发�
 DOMAIN-SUFFIX,smtcdns.com # 字节跳动统计与内容调度 CDN 域名，用于请求分发、流量调度与访问质量优化
 DOMAIN-SUFFIX,vegslb.com # 火山引擎（Volcengine / 字节跳动）SLB 负载均衡基础设施域名
 DOMAIN-SUFFIX,ecombdapi.com # 字节跳动电商核心 API 服务域名，用于商品、订单与业务接口通信
+DOMAIN-SUFFIX,bdurl.net # 字节跳动短链与跳转基础域名，用于内容分发、链接跳转与服务重定向
+DOMAIN-SUFFIX,dig.bdurl.net # 字节跳动短链解析与跳转子域，用于内容追踪式跳转与链路分发
 IP-CIDR,61.170.77.0/24 # 字节跳动 TOS/CDN 内容分发网段
 IP-CIDR,114.80.11.0/24 # 抖音直播与 API 服务网段
 IP-CIDR,182.40.23.0/24 # 抖音运营 / 激励 / 特效素材分发网段
