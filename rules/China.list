@@ -279,6 +279,7 @@ DOMAIN-SUFFIX,api.toutiaoapi.com # 今日头条核心业务 API 接口，用于�
 DOMAIN-SUFFIX,toutiaostatic.com # 今日头条前端静态资源与内容分发主域名，用于页面资源、脚本与样式加载
 DOMAIN-SUFFIX,smtcdns.com # 字节跳动统计与内容调度 CDN 域名，用于请求分发、流量调度与访问质量优化
 DOMAIN-SUFFIX,vegslb.com # 火山引擎（Volcengine / 字节跳动）SLB 负载均衡基础设施域名
+DOMAIN-SUFFIX,ecombdapi.com # 字节跳动电商核心 API 服务域名，用于商品、订单与业务接口通信
 IP-CIDR,61.170.77.0/24 # 字节跳动 TOS/CDN 内容分发网段
 IP-CIDR,114.80.11.0/24 # 抖音直播与 API 服务网段
 IP-CIDR,182.40.23.0/24 # 抖音运营 / 激励 / 特效素材分发网段
@@ -324,6 +325,11 @@ IP-CIDR,58.216.32.179/32 # 字节跳动电商商品资源分发节点（ecombdim
 IP-CIDR,124.239.239.79/32 # 字节跳动电商聚合与多业务资源节点（ecombdimg）
 IP-CIDR,58.49.230.75/32 # 抖音图片签名校验与资源访问节点（douyinpic）
 IP-CIDR,61.170.66.77/32 # 抖音图片与多媒体资源 CDN 节点（douyinpic）
+IP-CIDR,114.80.10.225/32 # 字节跳动电商 API 实际服务节点（ecombdapi）
+IP-CIDR,180.153.169.147/32 # 抖音视频点播 CDN 实际节点（douyinvod）
+IP-CIDR,113.142.162.51/32 # 字节跳动直播 CDN 节点（bytegecko）
+IP-CIDR,101.227.21.37/32 # 字节跳动 ABTest / 实验配置服务节点（zijieapi）
+IP-CIDR,115.231.184.20/32 # 字节跳动直播 CDN 节点（bytegecko）
 
 # > 中国电信服务相关域名
 
