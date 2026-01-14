@@ -2309,3 +2309,7 @@ DOMAIN-SUFFIX,grocery-cdn.huaban.com # 花瓣网静态资源与图片素材 CDN 
 # > 虎课网（Huke88）设计学习与在线教育平台
 
 DOMAIN-SUFFIX,huke88.com # 虎课网主站，用于设计、摄影、剪辑等在线课程与教学内容访问
+
+# > Char123 中文内容与静态资源服务
+
+DOMAIN-SUFFIX,static.char123.com # Char123（查字典/中文内容平台）静态资源域名，用于页面样式、脚本与图片等前端资源加载
