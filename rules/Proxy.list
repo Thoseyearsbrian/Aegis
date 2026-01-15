@@ -5970,6 +5970,10 @@ DOMAIN-SUFFIX,kali.download # Kali Linux 官方镜像与下载服务域名，用
 DOMAIN-SUFFIX,mirror.fcix.net # FCIX（Free and Commercial Internet Exchange）公共镜像站点，用于提供 Linux 发行版、开源软件与系统镜像的高速下载服务
 DOMAIN-SUFFIX,opencolo.mm.fcix.net # FCIX 网络镜像域名，作为 Kali Linux 镜像站点及其他开源仓库镜像，用于镜像数据下载
 
+# > NOCIX / FCIX 开源镜像与高速下载节点
+
+DOMAIN-SUFFIX,nocix.mm.fcix.net # NOCIX 在 FCIX（Fremont Cabal Internet Exchange）上的镜像与下载节点，用于 Kali Linux 及其他开源软件的镜像分发与高速下载
+
 # > OSU Open Source Lab 开源镜像站（FTP2 镜像服务）
 
 DOMAIN-SUFFIX,ftp2.osuosl.org # OSUOSL 提供的开源软件镜像 FTP 服务，用于 Linux 发行版或开源软件包下载
