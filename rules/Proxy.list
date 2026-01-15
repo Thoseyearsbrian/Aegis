@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-14
+# - 更新时间：2026-01-15
 
 # > Speedtest 网络测速平台
 
@@ -5964,6 +5964,10 @@ DOMAIN-SUFFIX,vecpea.com # Vecpea 官方在线矢量图形与 SVG 编辑工具�
 # > FCIX 开源软件镜像与内容分发服务
 
 DOMAIN-SUFFIX,mirror.fcix.net # FCIX（Free and Commercial Internet Exchange）公共镜像站点，用于提供 Linux 发行版、开源软件与系统镜像的高速下载服务
+
+# > OSU Open Source Lab 开源镜像站（FTP2 镜像服务）
+
+DOMAIN-SUFFIX,ftp2.osuosl.org # OSUOSL 提供的开源软件镜像 FTP 服务，用于 Linux 发行版或开源软件包下载
 
 # > Debian 官方时间同步（NTP）服务
 
