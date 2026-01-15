@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-14
+# - 更新时间：2026-01-15
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -2313,3 +2313,7 @@ DOMAIN-SUFFIX,huke88.com # 虎课网主站，用于设计、摄影、剪辑等�
 # > Char123 中文内容与静态资源服务
 
 DOMAIN-SUFFIX,static.char123.com # Char123（查字典/中文内容平台）静态资源域名，用于页面样式、脚本与图片等前端资源加载
+
+# > JSInfo 网络测速与诊断服务
+
+DOMAIN-SUFFIX,speedtest4.jsinfo.net # JSInfo 网络测速与链路诊断服务节点，用于带宽测试、延迟检测与网络质量评估
