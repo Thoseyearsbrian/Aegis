@@ -2852,7 +2852,6 @@ DOMAIN-SUFFIX,2.na.dl.wireshark.org # Wireshark 下载节点，用于软件下�
 DOMAIN-SUFFIX,sw-update.obdev.at # Little Snitch 更新服务域名，用于版本检查与更新下载
 DOMAIN-SUFFIX,geolocation.obdev.at # Little Snitch 地理定位服务，用于地图定位与连接判断
 DOMAIN-SUFFIX,nektony.com # Nektony 官网及应用服务域名，用于Mac系统清理、磁盘管理与隐私保护工具通信
-DOMAIN-SUFFIX,kali.org # Kali Linux 官网及更新服务，常用于渗透测试与安全工具下载
 DOMAIN-SUFFIX,tails.net # Tails 操作系统官网及服务平台，需代理访问以确保连接成功与更新获取
 DOMAIN-SUFFIX,gpgtools.org # macOS 平台 GPG 密钥管理工具 GPGTools 官网 
 DOMAIN-SUFFIX,openpgp.org # OpenPGP 官方网站，用于规范与协议发布 
@@ -5960,6 +5959,11 @@ DOMAIN-SUFFIX,photopea.com # Photopea 官方在线图像编辑与设计工具，
 # > Vecpea 在线矢量图形与 SVG 编辑工具平台
 
 DOMAIN-SUFFIX,vecpea.com # Vecpea 官方在线矢量图形与 SVG 编辑工具，用于图标、路径与矢量内容处理
+
+# > Kali Linux 官方下载与镜像站点
+
+DOMAIN-SUFFIX,kali.org # Kali Linux 官网及更新服务，常用于渗透测试与安全工具下载
+DOMAIN-SUFFIX,kali.download # Kali Linux 官方镜像与下载服务域名，用于操作系统镜像、工具包与仓库同步下载
 
 # > FCIX 开源软件镜像与内容分发服务
 
