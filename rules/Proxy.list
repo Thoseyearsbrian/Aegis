@@ -5964,6 +5964,7 @@ DOMAIN-SUFFIX,vecpea.com # Vecpea 官方在线矢量图形与 SVG 编辑工具�
 # > FCIX 开源软件镜像与内容分发服务
 
 DOMAIN-SUFFIX,mirror.fcix.net # FCIX（Free and Commercial Internet Exchange）公共镜像站点，用于提供 Linux 发行版、开源软件与系统镜像的高速下载服务
+DOMAIN-SUFFIX,opencolo.mm.fcix.net # FCIX 网络镜像域名，作为 Kali Linux 镜像站点及其他开源仓库镜像，用于镜像数据下载
 
 # > OSU Open Source Lab 开源镜像站（FTP2 镜像服务）
 
