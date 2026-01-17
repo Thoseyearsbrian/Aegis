@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-14
+# - 更新时间：2026-01-17
 
 # > WeChat 数据统计与遥测
 
@@ -23,6 +23,10 @@ DOMAIN-SUFFIX,badjs.weixinbridge.com # 小程序错误日志收集平台（BadJS
 DOMAIN-SUFFIX,report.qq.com # SDK 行为日志与统计数据上报域名
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com # SDK 数据上传接口（EVE 通道）
 DOMAIN-SUFFIX,oth.str.mdt.qq.com # SDK 数据上传接口（STR 通道）
+IP-CIDR,222.186.177.122/32 # 字节跳动客户端监控与杂项服务节点（mon0-misc.amemv.com），用于运行状态、性能指标与基础行为上报
+IP-CIDR,221.194.131.67/32 # 字节跳动日志回传服务节点（log0-misc.amemv.com），用于客户端日志与诊断数据上传
+IP-CIDR,117.91.177.108/32 # 字节跳动内部服务协调与链路控制节点（klink.amemv.com），用于多服务行为协同与调度通信
+IP-CIDR,36.110.186.124/32 # 字节跳动 Frontier 接入节点（frontier-aweme.snssdk.com），用于客户端接入调度、请求分发与行为环境控制
 
 # > Apple 行为遥测服务
 
