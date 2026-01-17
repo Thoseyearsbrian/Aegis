@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-10
+# - 更新时间：2026-01-17
 
 # > Google 各地区本地化搜索与服务入口域名
 
@@ -222,6 +222,7 @@ IP-CIDR,142.251.12.188/32 # Google Frontend（GFE）边缘节点 IP，用于 Goo
 IP-CIDR,172.217.194.188/32 # Google 服务节点 IP（GFE：Google Frontend），用于搜索、静态资源与通用 API 访问
 IP-CIDR,64.233.170.100/32 # Google 公共 IP，用于 HTTPS 服务／通信；端口 443 对应加密 HTTPS 流量
 IP-CIDR,74.125.200.95/32 # Google 服务通信节点 IP，曾被用于端口映射服务 Port Map 或 Google 通用服务（如 GWS、Gmail），实际用途可能依网络环境而异
+IP-CIDR,74.125.135.188/32 # Google FCM 推送与后台长连接通信节点，用于通知、消息推送与账号状态同步
 
 # > Google Merchant Center 商户数据分析域名
 
