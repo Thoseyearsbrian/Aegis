@@ -2327,3 +2327,4 @@ DOMAIN-SUFFIX,jsd.kai233.top # jsDelivr 第三方国内镜像域名，用于前�
 # > 第三方静态资源与图片托管服务
 
 DOMAIN-SUFFIX,img.kai233.top # 第三方图片静态资源托管域名，用于博客或个人站点的图片加载与前端资源引用
+DOMAIN-SUFFIX,img.lehinet.com # 第三方图片静态资源托管域名，用于博客、内容站点或页面素材加载
