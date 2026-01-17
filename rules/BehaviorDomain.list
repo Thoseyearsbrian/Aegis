@@ -1311,3 +1311,7 @@ DOMAIN-SUFFIX,secure-us.imrworldwide.com # Nielsen 行为测量与受众分析�
 # > Busuanzi 页面访问统计与计数服务
 
 DOMAIN-SUFFIX,busuanzi.ibruce.info # Busuanzi 轻量级网站访问统计与浏览计数服务，用于页面 PV/UV 统计与访问量展示
+
+# > Rubicon Project 程序化广告实时竞价与加速服务
+
+DOMAIN-SUFFIX,fastlane.rubiconproject.com # Rubicon Project Fastlane 实时竞价加速服务，用于广告请求与竞价响应优化
