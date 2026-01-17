@@ -2323,3 +2323,7 @@ IP-CIDR,58.222.181.206/32 # JSInfo 网络测速与诊断服务后端节点，用
 # > jsDelivr 第三方国内镜像节点（kai233）
 
 DOMAIN-SUFFIX,jsd.kai233.top # jsDelivr 第三方国内镜像域名，用于前端脚本与静态资源加速加载
+
+# > 第三方静态资源与图片托管服务
+
+DOMAIN-SUFFIX,img.kai233.top # 第三方图片静态资源托管域名，用于博客或个人站点的图片加载与前端资源引用
