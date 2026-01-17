@@ -266,11 +266,15 @@ DOMAIN-SUFFIX,data.bytedance.net # 字节跳动数据上传与分析平台
 DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接口
 DOMAIN-SUFFIX,mssdk.volces.com # 火山引擎 MSSDK 数据接口，用于移动行为数据采集与上传
 DOMAIN-SUFFIX,is.snssdk.com # 今日头条内容推荐请求接口
+DOMAIN-SUFFIX,bytedapm.com # 字节跳动 APM（Application Performance Monitoring）性能监控主域，用于前端性能、错误日志与稳定性数据上报
+DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com # 字节 APM 新加坡区域上报节点，用于测速、崩溃日志与实时埋点事件采集
 IP-CIDR,101.226.26.208/32 # mon0-misc-hl.amemv.com，抖音业务通用通信节点，常用于数据服务分发与追踪上报
 IP-CIDR,59.82.121.221 # 字节跳动行为分析节点
 IP-CIDR,49.79.134.231/32 # logbk.amemv.com，抖音日志上报与行为数据上传接口
 IP-CIDR,114.80.13.23/32 # aggr5-normal-s19.amemv.com，字节聚合业务通信节点，用于内容请求与上报
 IP-CIDR,123.183.233.45/32 # 字节跳动日志与遥测上报节点（amemv），用于客户端运行状态与行为日志收集
+IP-CIDR,117.21.229.1/32 # 字节跳动客户端监控与杂项服务节点，用于运行状态、性能指标与基础行为数据上报
+IP-CIDR,58.222.35.84/32 # 字节跳动 ABTest 与实验配置服务节点，用于功能实验、参数下发与配置控制
 
 # > 快手行为监控与指纹采集
 
@@ -661,11 +665,6 @@ DOMAIN-SUFFIX,analytics-ipv6.tiktokw.us # TikTok/Kwai IPv6 遥测上报节点，
 # > Shengshu AI（盛数 AI）行为追踪
 
 DOMAIN-SUFFIX,trace.shengshu-ai.com # 盛数 AI 行为追踪与事件日志上报端点，用于埋点收集与性能监控
-
-# > ByteDance APM（字节前端性能监控 / 遥测体系）
-
-DOMAIN-SUFFIX,bytedapm.com # 字节跳动 APM（Application Performance Monitoring）性能监控主域，用于前端性能、错误日志与稳定性数据上报
-DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com # 字节 APM 新加坡区域上报节点，用于测速、崩溃日志与实时埋点事件采集
 
 # > feelgood.cn（第三方用户行为分析与埋点服务）
 
