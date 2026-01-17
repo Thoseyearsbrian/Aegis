@@ -1308,3 +1308,7 @@ DOMAIN-SUFFIX,static.bshare.cn # bShare 静态资源与脚本域名，用于社�
 # > Nielsen 用户行为测量与受众分析服务
 
 DOMAIN-SUFFIX,secure-us.imrworldwide.com # Nielsen 行为测量与受众分析服务节点，用于用户访问、内容曝光与行为统计数据采集
+
+# > Busuanzi 页面访问统计与计数服务
+
+DOMAIN-SUFFIX,busuanzi.ibruce.info # Busuanzi 轻量级网站访问统计与浏览计数服务，用于页面 PV/UV 统计与访问量展示

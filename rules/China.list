@@ -2319,3 +2319,7 @@ DOMAIN-SUFFIX,static.char123.com # Char123（查字典/中文内容平台）静�
 DOMAIN-SUFFIX,speedtest4.jsinfo.net # JSInfo 网络测速与链路诊断服务节点，用于带宽测试、延迟检测与网络质量评估
 IP-CIDR,61.160.167.78/32 # JSInfo 网络测速与诊断服务后端节点，用于测速结果回传与网络质量分析
 IP-CIDR,58.222.181.206/32 # JSInfo 网络测速与诊断服务后端节点，用于跨域测速数据回传与诊断请求
+
+# > jsDelivr 第三方国内镜像节点（kai233）
+
+DOMAIN-SUFFIX,jsd.kai233.top # jsDelivr 第三方国内镜像域名，用于前端脚本与静态资源加速加载
