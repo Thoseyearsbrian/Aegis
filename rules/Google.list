@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-18
+# - 更新时间：2026-01-19
 
 # > Google 各地区本地化搜索与服务入口域名
 
@@ -279,4 +279,6 @@ DOMAIN-SUFFIX,partnerad.l.google.com # Google 合作广告平台（partner 广�
 DOMAIN-SUFFIX,video-stats.video.google.com # Google 视频广告统计接口（YouTube 视频前贴广告统计）
 DOMAIN-SUFFIX,wintricksbanner.googlepages.com # Google Pages 网站上的广告内容托管
 DOMAIN-SUFFIX,googletagservices.com # Google 标签服务主站入口，用于加载广告资源与控制广告位策略脚本
+DOMAIN-SUFFIX,ade.googlesyndication.com # Google Ads 实验与广告投放控制域名，用于广告策略测试、广告投放实验分流与广告效果评估
+DOMAIN-SUFFIX,doubleclick.net # Google DoubleClick 广告与跟踪基础域名，用于广告投放、跨站标识同步、行为关联与广告效果统计
 
