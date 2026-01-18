@@ -83,12 +83,6 @@ DOMAIN-SUFFIX,subscriptionsmobile-pa.googleapis.com # Google 移动端订阅与�
 DOMAIN-SUFFIX,ogads-pa.googleapis.com # Google 官方广告服务 Product API（PA）接口，用于广告投放能力、广告组件功能支持与产品级广告配置调用（不直接承载追踪像素或第三方广告投放）
 DOMAIN-SUFFIX,appsgrowthpromo-pa.googleapis.com # Google 应用增长与推广相关的 Product API（PA）接口，用于应用内增长活动、功能推广展示、用户引导流程与产品级促销配置（不承载第三方广告投放或跨站追踪）
 DOMAIN-SUFFIX,addons-pa.googleapis.com # Google 官方 Add-ons（插件）产品级 API 接口，用于 Workspace / Chrome / Docs 等生态中的插件能力管理、功能授权与配置调用
-DOMAIN-SUFFIX,pagead2.googlesyndication.com # Google 广告投放与播放状态协商服务域名，用于广告位请求、播放流程控制与上下文状态返回，在 YouTube 等服务中参与播放决策流程（必须返回，不可 REJECT）
-DOMAIN-SUFFIX,googleads.g.doubleclick.net # YouTube 播放流程中的广告状态协商接口（必须返回，不可 REJECT）
-DOMAIN-SUFFIX,tpc.googlesyndication.com # YouTube 播放流程中的广告状态与播放策略探测域（必须返回，不可 REJECT）
-DOMAIN-SUFFIX,securepubads.g.doubleclick.net # Google / YouTube 播放流程中的广告状态与播放策略协调服务域名，用于返回是否存在广告、是否可跳过及播放阶段控制信息（必须返回，不可 REJECT）
-DOMAIN-SUFFIX,g.doubleclick.net # Google 广告基础跳转与服务调度域名，承担广告请求重定向与服务分发职能，部分场景被 YouTube 播放流程间接依赖（必须返回，不可 REJECT）
-DOMAIN-SUFFIX,googleadservices.com # Google 广告服务基础域名，用于广告投放转化跟踪、点击/展示回传与广告策略协同
 
 # > YouTube 服务（YouTube Services）
 
@@ -263,3 +257,26 @@ DOMAIN-SUFFIX,img.logo.dev # Logo.dev 项目的图标资源加载域名，由 Go
 DOMAIN-SUFFIX,blogblog.com # Google Blogger（Blogspot）平台基础域名，用于博客内容发布、Atom/RSS 订阅与页面资源加载，属于 Google 官方博客服务组件
 DOMAIN-SUFFIX,blogger.com # Google 旗下 Blogger 官方主站域名，用于博客创建、内容管理、主题配置与用户登录等核心功能
 DOMAIN-SUFFIX,resources.blogblog.com # Blogger（原 Blogspot）平台用于托管样式表、脚本、字体等静态资源的域名，归属于 Google 旗下
+
+# > Google / YouTube 骨干广告投放与播放协商服务
+
+DOMAIN-SUFFIX,pagead2.googlesyndication.com # Google 广告投放与播放状态协商服务域名，用于广告位请求、播放流程控制与上下文状态返回，在 YouTube 等服务中参与播放决策流程
+DOMAIN-SUFFIX,googleads.g.doubleclick.net # YouTube 播放流程中的广告状态协商接口
+DOMAIN-SUFFIX,tpc.googlesyndication.com # YouTube 播放流程中的广告状态与播放策略探测域
+DOMAIN-SUFFIX,securepubads.g.doubleclick.net # Google / YouTube 播放流程中的广告状态与播放策略协调服务域名，用于返回是否存在广告、是否可跳过及播放阶段控制信息
+DOMAIN-SUFFIX,g.doubleclick.net # Google 广告基础跳转与服务调度域名，承担广告请求重定向与服务分发职能，部分场景被 YouTube 播放流程间接依赖
+DOMAIN-SUFFIX,googleadservices.com # Google 广告服务基础域名，用于广告投放转化跟踪、点击/展示回传与广告策略协同
+DOMAIN-SUFFIX,googleadapis.l.google.com # Google API 服务域名（内部/广告相关 API 调用）
+DOMAIN-SUFFIX,googleadservices-cn.com # Google 中国广告服务接口
+DOMAIN-SUFFIX,adservice.google.com # Google 广告服务接口 / 跳转域
+DOMAIN-SUFFIX,adservice.google.cn # Google 在中国的广告服务接口
+DOMAIN-SUFFIX,googleads.g.doubleclick.com # Google 广告服务子域
+DOMAIN-SUFFIX,adtrafficquality.google # Google 广告质量评估域名,用于广告流量质量检测 
+DOMAIN-SUFFIX,googletagservices-cn.com # Google 广告标签服务（中国镜像）
+DOMAIN-SUFFIX,adservice.google.com.mt # Google 广告服务（马耳他地区）
+DOMAIN-SUFFIX,pagead.l.google.com # Google 广告服务子域（页面广告）
+DOMAIN-SUFFIX,partnerad.l.google.com # Google 合作广告平台（partner 广告）
+DOMAIN-SUFFIX,video-stats.video.google.com # Google 视频广告统计接口（YouTube 视频前贴广告统计）
+DOMAIN-SUFFIX,wintricksbanner.googlepages.com # Google Pages 网站上的广告内容托管
+DOMAIN-SUFFIX,googletagservices.com # Google 标签服务主站入口，用于加载广告资源与控制广告位策略脚本
+

@@ -56,24 +56,11 @@ DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志上传服
 DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告数据监测域名，用于广告点击与用户行为追踪
 DOMAIN-SUFFIX,mxhichina.com # 阿里系域名，与咸鱼开屏广告有关
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接入域名，用于广告加载与统计回传
-DOMAIN-SUFFIX,googleadapis.l.google.com # Google API 服务域名（内部/广告相关 API 调用）
-DOMAIN-SUFFIX,googleadservices-cn.com # Google 中国广告服务接口
-DOMAIN-SUFFIX,adservice.google.com # Google 广告服务接口 / 跳转域
-DOMAIN-SUFFIX,adservice.google.cn # Google 在中国的广告服务接口
-DOMAIN-SUFFIX,googleads.g.doubleclick.com # Google 广告服务子域
-DOMAIN-SUFFIX,adtrafficquality.google # Google 广告质量评估域名,用于广告流量质量检测 
-DOMAIN-SUFFIX,googletagservices-cn.com # Google 广告标签服务（中国镜像）
-DOMAIN-SUFFIX,adservice.google.com.mt # Google 广告服务（马耳他地区）
-DOMAIN-SUFFIX,pagead.l.google.com # Google 广告服务子域（页面广告）
-DOMAIN-SUFFIX,partnerad.l.google.com # Google 合作广告平台（partner 广告）
-DOMAIN-SUFFIX,video-stats.video.google.com # Google 视频广告统计接口（YouTube 视频前贴广告统计）
-DOMAIN-SUFFIX,wintricksbanner.googlepages.com # Google Pages 网站上的广告内容托管
 DOMAIN-SUFFIX,doubleclick.net # Google 广告平台域名，用于投放广告与行为追踪
 DOMAIN-SUFFIX,ad.doubleclick.net # Google / DoubleClick 广告子域
 DOMAIN-SUFFIX,doubleclick-cn.net # Google DoubleClick 广告域（中国镜像）
 DOMAIN-SUFFIX,2mdn.net # Google DoubleClick 广告媒体资源加载主域名 
 DOMAIN-SUFFIX,fls.doubleclick.net # Google DoubleClick 广告域名,用于广告点击记录与追踪分析
-DOMAIN-SUFFIX,googletagservices.com # Google 标签服务主站入口，用于加载广告资源与控制广告位策略脚本
 DOMAIN-SUFFIX,gum.criteo.com # Criteo 用户标识接口域名，用于 Cookie 同步与重定向广告投放 
 DOMAIN-SUFFIX,rtax.criteo.com # Criteo 实时广告交换接口域名，用于行为分析与广告投放 
 DOMAIN-SUFFIX,bidder.criteo.com # Criteo 出价与竞价系统域名，用于广告竞价行为逻辑 
