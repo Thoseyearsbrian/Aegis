@@ -88,7 +88,6 @@ DOMAIN-SUFFIX,googleads.g.doubleclick.net # YouTube 播放流程中的广告状�
 DOMAIN-SUFFIX,tpc.googlesyndication.com # YouTube 播放流程中的广告状态与播放策略探测域（必须返回，不可 REJECT）
 DOMAIN-SUFFIX,securepubads.g.doubleclick.net # Google / YouTube 播放流程中的广告状态与播放策略协调服务域名，用于返回是否存在广告、是否可跳过及播放阶段控制信息（必须返回，不可 REJECT）
 DOMAIN-SUFFIX,g.doubleclick.net # Google 广告基础跳转与服务调度域名，承担广告请求重定向与服务分发职能，部分场景被 YouTube 播放流程间接依赖（必须返回，不可 REJECT）
-IP-CIDR,142.250.4.0/24 # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）
 
@@ -220,11 +219,13 @@ IP-CIDR,142.250.4.188 # Google CDN 内容分发节点，用于静态资源与服
 
 IP-CIDR,74.125.24.188/32 # Google 前端节点，用于 Google 搜索 / Gmail / YouTube 等核心服务访问
 IP-CIDR,64.233.170.188/32 # Google 网络服务节点 IP
+IP-CIDR,142.250.4.0/24 # Google 服务器节点，用于 Google 搜索与服务访问
 IP-CIDR,142.251.10.188/32 # Google 前端服务节点（GFE），用于搜索、Gmail、YouTube 等核心服务的入口层访问
-IP-CIDR,172.217.70.188/32 # Google 前端服务节点（GFE），用于搜索、Gmail、YouTube 等核心服务的入口层访问
-IP-CIDR,172.253.118.188/32 # Google GFE 节点 IP（用于搜索、认证、静态资源加载等服务的边缘访问入口）
 IP-CIDR,142.251.12.188/32 # Google Frontend（GFE）边缘节点 IP，用于 Google 服务的全球加速与入口调度
+IP-CIDR,142.251.45.138/32 # Google OAuth 账户管理服务节点（oauthaccountmanager.googleapis.com），用于 Google 账号登录、令牌刷新、会话校验与多设备身份同步
+IP-CIDR,172.217.70.188/32 # Google 前端服务节点（GFE），用于搜索、Gmail、YouTube 等核心服务的入口层访问
 IP-CIDR,172.217.194.188/32 # Google 服务节点 IP（GFE：Google Frontend），用于搜索、静态资源与通用 API 访问
+IP-CIDR,172.253.118.188/32 # Google GFE 节点 IP（用于搜索、认证、静态资源加载等服务的边缘访问入口）
 IP-CIDR,64.233.170.100/32 # Google 公共 IP，用于 HTTPS 服务／通信；端口 443 对应加密 HTTPS 流量
 IP-CIDR,74.125.200.95/32 # Google 服务通信节点 IP，曾被用于端口映射服务 Port Map 或 Google 通用服务（如 GWS、Gmail），实际用途可能依网络环境而异
 IP-CIDR,74.125.135.188/32 # Google FCM 推送与后台长连接通信节点，用于通知、消息推送与账号状态同步
