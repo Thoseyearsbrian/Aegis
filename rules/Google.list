@@ -83,9 +83,11 @@ DOMAIN-SUFFIX,subscriptionsmobile-pa.googleapis.com # Google 移动端订阅与�
 DOMAIN-SUFFIX,ogads-pa.googleapis.com # Google 官方广告服务 Product API（PA）接口，用于广告投放能力、广告组件功能支持与产品级广告配置调用（不直接承载追踪像素或第三方广告投放）
 DOMAIN-SUFFIX,appsgrowthpromo-pa.googleapis.com # Google 应用增长与推广相关的 Product API（PA）接口，用于应用内增长活动、功能推广展示、用户引导流程与产品级促销配置（不承载第三方广告投放或跨站追踪）
 DOMAIN-SUFFIX,addons-pa.googleapis.com # Google 官方 Add-ons（插件）产品级 API 接口，用于 Workspace / Chrome / Docs 等生态中的插件能力管理、功能授权与配置调用
-DOMAIN-SUFFIX,pagead2.googlesyndication.com # Google 广告投放与播放状态协商服务域名，用于广告位请求、播放流程控制与上下文状态返回，在 YouTube 等服务中参与播放决策流程（非广告素材，不可阻断）
+DOMAIN-SUFFIX,pagead2.googlesyndication.com # Google 广告投放与播放状态协商服务域名，用于广告位请求、播放流程控制与上下文状态返回，在 YouTube 等服务中参与播放决策流程（必须返回，不可 REJECT）
 DOMAIN-SUFFIX,googleads.g.doubleclick.net # YouTube 播放流程中的广告状态协商接口（必须返回，不可 REJECT）
-DOMAIN-SUFFIX,tpc.googlesyndication.com # YouTube 播放流程中的广告状态与播放策略探测域
+DOMAIN-SUFFIX,tpc.googlesyndication.com # YouTube 播放流程中的广告状态与播放策略探测域（必须返回，不可 REJECT）
+DOMAIN-SUFFIX,securepubads.g.doubleclick.net # Google / YouTube 播放流程中的广告状态与播放策略协调服务域名，用于返回是否存在广告、是否可跳过及播放阶段控制信息（必须返回，不可 REJECT）
+DOMAIN-SUFFIX,g.doubleclick.net # Google 广告基础跳转与服务调度域名，承担广告请求重定向与服务分发职能，部分场景被 YouTube 播放流程间接依赖（必须返回，不可 REJECT）
 IP-CIDR,142.250.4.0/24 # Google 服务器节点，用于 Google 搜索与服务访问
 
 # > YouTube 服务（YouTube Services）

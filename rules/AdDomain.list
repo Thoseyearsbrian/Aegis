@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,apdcdn.tc.qq.com # 小程序广告拉取服务
 DOMAIN-SUFFIX,admaterial.gdtimg.com # 广告素材分发 CDN
 DOMAIN-SUFFIX,adsexo.com # 提供广告主与发布商对接服务，聚焦成人流量广告变现，存在跳转追踪与投放行为
 DOMAIN-SUFFIX,securepubads.g.doubleclick.net # 广告加载 / 页面嵌入 / 商业资源脚本
+DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告同步域名，用于跨站追踪与广告识别匹配
 DOMAIN-SUFFIX,apps.rokt.com # Rokt 智能电商广告平台接口，用于结账页广告推荐与用户兴趣标签建模
 DOMAIN-SUFFIX,content.snowmachine.me # 电商广告动态素材接口域名，用于加载个性化推荐内容与动态广告组件
 DOMAIN-SUFFIX,elb.the-ozone-project.com # Ozone 广告平台 ELB 节点域名，用于广告请求分发与竞价通信（Header Bidding）
@@ -73,7 +74,6 @@ DOMAIN-SUFFIX,ad.doubleclick.net # Google / DoubleClick 广告子域
 DOMAIN-SUFFIX,doubleclick-cn.net # Google DoubleClick 广告域（中国镜像）
 DOMAIN-SUFFIX,2mdn.net # Google DoubleClick 广告媒体资源加载主域名 
 DOMAIN-SUFFIX,fls.doubleclick.net # Google DoubleClick 广告域名,用于广告点击记录与追踪分析
-DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告同步域名，用于跨站追踪与广告识别匹配
 DOMAIN-SUFFIX,googletagservices.com # Google 标签服务主站入口，用于加载广告资源与控制广告位策略脚本
 DOMAIN-SUFFIX,gum.criteo.com # Criteo 用户标识接口域名，用于 Cookie 同步与重定向广告投放 
 DOMAIN-SUFFIX,rtax.criteo.com # Criteo 实时广告交换接口域名，用于行为分析与广告投放 
@@ -153,7 +153,6 @@ DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com # 字节跳动穿山甲广告接口,�
 DOMAIN-SUFFIX,v.adintl.cn # 可疑国际广告平台,用于激励视频广告加载与跳转行为
 DOMAIN-SUFFIX,advertising-api-fe.amazon.com # Amazon 广告平台前端接口,用于广告请求与行为回传
 DOMAIN-SUFFIX,rps.hpplay.cn # 乐播投屏广告回传接口,用于广告播放与行为日志上报
-DOMAIN-SUFFIX,securepubads.g.doubleclick.net # Google 安全广告发布接口域
 DOMAIN-SUFFIX,ads.pubmatic.com # PubMatic 广告平台
 DOMAIN-SUFFIX,moatads.com # Moat（广告性能 / 监测服务）广告域
 DOMAIN-SUFFIX,s.amazon-adsystem.com # Amazon 广告系统
@@ -4162,7 +4161,6 @@ DOMAIN-SUFFIX,fwcdn1.com # 确认为 Filmweb 广告内容分发节点,用于嵌�
 DOMAIN-SUFFIX,fwcdn3.com # 确认为 Filmweb 广告 CDN 资源分发域,用于视频广告调用
 DOMAIN-SUFFIX,fwtrck.com # 广告追踪域名,用于跳转统计与广告跟踪行为
 DOMAIN-SUFFIX,fxdepo.com # 投资广告相关域名,用于外汇交易平台推广
-DOMAIN-SUFFIX,g.doubleclick.net # Google 广告域名,用于重定向与广告服务行为
 DOMAIN-SUFFIX,g.ezoic.net # 广告优化平台域名,用于网站嵌入广告与行为追踪
 DOMAIN-SUFFIX,g33ktr4ck.com # 明确广告追踪域名,用于嵌入 SDK 追踪组件
 DOMAIN-SUFFIX,gadgets360.com # 印度科技媒体站,包含追踪脚本与广告组件
