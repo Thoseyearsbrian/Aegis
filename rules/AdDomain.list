@@ -4,7 +4,7 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-10
+# - 更新时间：2026-01-18
 
 # > 广告相关域名
 
@@ -58,7 +58,6 @@ DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 
 DOMAIN-SUFFIX,googleadservices.com # Google 广告服务接口
 DOMAIN-SUFFIX,googleadapis.l.google.com # Google API 服务域名（内部/广告相关 API 调用）
 DOMAIN-SUFFIX,googleadservices-cn.com # Google 中国广告服务接口
-DOMAIN-SUFFIX,googlesyndication.com # Google 广告 / 内容分发 + 追踪服务
 DOMAIN-SUFFIX,adservice.google.com # Google 广告服务接口 / 跳转域
 DOMAIN-SUFFIX,adservice.google.cn # Google 在中国的广告服务接口
 DOMAIN-SUFFIX,googleads.g.doubleclick.net # Google DoubleClick 子域广告投放
