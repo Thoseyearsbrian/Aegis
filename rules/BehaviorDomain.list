@@ -31,6 +31,10 @@ IP-CIDR,58.216.14.86/32 # 字节跳动 ABTest 与实验配置服务节点（abte
 IP-CIDR,221.230.244.88/32 # 字节跳动客户端日志回传服务节点（log-lq.snssdk.com）
 IP-CIDR,121.228.130.192/32 # 字节跳动客户端监控与状态上报节点（mon0-misc-hl.amemv.com）
 IP-CIDR,180.101.218.41/32 # 字节跳动客户端监控与状态上报节点（mon0-misc-hl.amemv.com）
+IP-CIDR,221.231.47.31/32 # 字节跳动监控与遥测服务节点（mon.toutiaocloud.net）
+IP-CIDR,221.231.83.98/32 # 字节跳动客户端杂项监控节点（mon0-misc-hl.amemv.com）
+IP-CIDR,58.223.176.216/32 # 字节跳动客户端监控服务节点（mon11-misc-hl.amemv.com）
+IP-CIDR,121.228.130.191/32 # 字节跳动云端监控与运行态采集节点（mon.toutiaocloud.com）
 
 # > Apple 行为遥测服务
 
