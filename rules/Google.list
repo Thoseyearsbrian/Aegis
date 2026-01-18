@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-17
+# - 更新时间：2026-01-18
 
 # > Google 各地区本地化搜索与服务入口域名
 
@@ -83,6 +83,7 @@ DOMAIN-SUFFIX,subscriptionsmobile-pa.googleapis.com # Google 移动端订阅与�
 DOMAIN-SUFFIX,ogads-pa.googleapis.com # Google 官方广告服务 Product API（PA）接口，用于广告投放能力、广告组件功能支持与产品级广告配置调用（不直接承载追踪像素或第三方广告投放）
 DOMAIN-SUFFIX,appsgrowthpromo-pa.googleapis.com # Google 应用增长与推广相关的 Product API（PA）接口，用于应用内增长活动、功能推广展示、用户引导流程与产品级促销配置（不承载第三方广告投放或跨站追踪）
 DOMAIN-SUFFIX,addons-pa.googleapis.com # Google 官方 Add-ons（插件）产品级 API 接口，用于 Workspace / Chrome / Docs 等生态中的插件能力管理、功能授权与配置调用
+DOMAIN-SUFFIX,pagead2.googlesyndication.com # Google 广告投放与播放状态协商服务域名，用于广告位请求、播放流程控制与上下文状态返回，在 YouTube 等服务中参与播放决策流程
 DOMAIN-SUFFIX,tpc.googlesyndication.com # YouTube 播放流程中的广告状态与播放策略探测域
 IP-CIDR,142.250.4.0/24 # Google 服务器节点，用于 Google 搜索与服务访问
 
