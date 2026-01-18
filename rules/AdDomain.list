@@ -60,7 +60,6 @@ DOMAIN-SUFFIX,googleadapis.l.google.com # Google API 服务域名（内部/广�
 DOMAIN-SUFFIX,googleadservices-cn.com # Google 中国广告服务接口
 DOMAIN-SUFFIX,adservice.google.com # Google 广告服务接口 / 跳转域
 DOMAIN-SUFFIX,adservice.google.cn # Google 在中国的广告服务接口
-DOMAIN-SUFFIX,googleads.g.doubleclick.net # Google DoubleClick 子域广告投放
 DOMAIN-SUFFIX,googleads.g.doubleclick.com # Google 广告服务子域
 DOMAIN-SUFFIX,adtrafficquality.google # Google 广告质量评估域名,用于广告流量质量检测 
 DOMAIN-SUFFIX,googletagservices-cn.com # Google 广告标签服务（中国镜像）
