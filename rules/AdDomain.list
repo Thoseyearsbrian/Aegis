@@ -56,7 +56,6 @@ DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志上传服
 DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告数据监测域名，用于广告点击与用户行为追踪
 DOMAIN-SUFFIX,mxhichina.com # 阿里系域名，与咸鱼开屏广告有关
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接入域名，用于广告加载与统计回传
-DOMAIN-SUFFIX,googleadservices.com # Google 广告服务接口
 DOMAIN-SUFFIX,googleadapis.l.google.com # Google API 服务域名（内部/广告相关 API 调用）
 DOMAIN-SUFFIX,googleadservices-cn.com # Google 中国广告服务接口
 DOMAIN-SUFFIX,adservice.google.com # Google 广告服务接口 / 跳转域

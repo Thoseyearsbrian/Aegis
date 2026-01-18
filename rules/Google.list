@@ -88,6 +88,7 @@ DOMAIN-SUFFIX,googleads.g.doubleclick.net # YouTube 播放流程中的广告状�
 DOMAIN-SUFFIX,tpc.googlesyndication.com # YouTube 播放流程中的广告状态与播放策略探测域（必须返回，不可 REJECT）
 DOMAIN-SUFFIX,securepubads.g.doubleclick.net # Google / YouTube 播放流程中的广告状态与播放策略协调服务域名，用于返回是否存在广告、是否可跳过及播放阶段控制信息（必须返回，不可 REJECT）
 DOMAIN-SUFFIX,g.doubleclick.net # Google 广告基础跳转与服务调度域名，承担广告请求重定向与服务分发职能，部分场景被 YouTube 播放流程间接依赖（必须返回，不可 REJECT）
+DOMAIN-SUFFIX,googleadservices.com # Google 广告服务基础域名，用于广告投放转化跟踪、点击/展示回传与广告策略协同
 
 # > YouTube 服务（YouTube Services）
 
