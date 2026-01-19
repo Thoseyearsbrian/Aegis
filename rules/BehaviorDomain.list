@@ -471,12 +471,6 @@ DOMAIN-SUFFIX,clevertap.com # CleverTap 主域名，用于行为分析与用户�
 DOMAIN-SUFFIX,api.clevertap.com # CleverTap 数据收集接口，用于事件上传与用户行为追踪
 DOMAIN-SUFFIX,pushclevertap.com # CleverTap 推送与通知接口，用于移动端用户活跃及上报
 
-# > Adobe Analytics（Adobe 行为分析与用户洞察平台）
-
-DOMAIN-SUFFIX,adobe.com # Adobe 主域名，用于旗下行为分析服务入口
-DOMAIN-SUFFIX,adobedc.net # Adobe 数据收集端域名，用于用户事件上传
-DOMAIN-SUFFIX,adobedc.io # Adobe 数据收集域名，用于分析与用户洞察服务
-
 # > Appsflyer（移动归因与用户行为追踪平台）
 
 DOMAIN-SUFFIX,appsflyer.com # AppsFlyer 主域名，用于移动归因及行为追踪服务
