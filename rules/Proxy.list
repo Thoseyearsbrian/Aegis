@@ -856,6 +856,7 @@ DOMAIN-SUFFIX,klarna.services # Klarna 支付服务相关子域（API、交易�
 DOMAIN-SUFFIX,klarnaevt.com # Klarna 事件追踪与分析域（行为数据收集）
 DOMAIN-SUFFIX,klarnaimg.com # Klarna 静态图片加载域（Logo、图标、广告图等）
 DOMAIN-SUFFIX,klarna.net # Klarna 技术与运营相关服务域
+DOMAIN-SUFFIX,x.klarnacdn.net # Klarna 支付服务 CDN 域名，用于加载支付页面相关的脚本、样式与静态资源
 
 # > Tinder 相关域名
 
