@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-17
+# - 更新时间：2026-01-19
 
 # > Speedtest 网络测速平台
 
@@ -5986,6 +5986,11 @@ DOMAIN-SUFFIX,debian.pool.ntp.org # Debian 官方 NTP 时间同步池域名，�
 
 DOMAIN-SUFFIX,api.opensubtitles.com # OpenSubtitles 官方 API 接口，用于字幕搜索、下载与字幕元数据查询
 DOMAIN-SUFFIX,api.assrt.net # ASSRT（字幕侠）API 接口，用于中文字幕检索、匹配与下载服务
+
+# > Clash 文档与规则转换服务（ClashDoc）
+
+DOMAIN-SUFFIX,clashdoc.cc # ClashDoc 文档与规则转换服务主域名，用于 Clash / Clash Meta / Clash Verge 等配置文档展示与规则说明
+DOMAIN-SUFFIX,fbweb.clashdoc.cc # ClashDoc 前端 Web 服务子域，用于文档页面渲染、规则说明展示与在线工具访问
 
 # > 第三方博客网站
 
