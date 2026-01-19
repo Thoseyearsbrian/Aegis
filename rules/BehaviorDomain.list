@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-18
+# - 更新时间：2026-01-19
 
 # > WeChat 数据统计与遥测
 
@@ -1319,3 +1319,7 @@ DOMAIN-SUFFIX,busuanzi.ibruce.info # Busuanzi 轻量级网站访问统计与浏�
 # > Rubicon Project 程序化广告实时竞价与加速服务
 
 DOMAIN-SUFFIX,fastlane.rubiconproject.com # Rubicon Project Fastlane 实时竞价加速服务，用于广告请求与竞价响应优化
+
+# > 51.LA 网站访问统计与行为分析服务
+
+DOMAIN-SUFFIX,sdk.51.la # 51.LA 网站统计分析 SDK 接口域名，用于页面访问统计、用户行为分析与流量数据回传
