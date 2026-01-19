@@ -5989,6 +5989,7 @@ DOMAIN-SUFFIX,api.assrt.net # ASSRT（字幕侠）API 接口，用于中文字�
 
 # > Clash 文档与规则转换服务（ClashDoc/ClashDoc Pro）
 
+DOMAIN-SUFFIX,clashdoc.com # ClashDoc 官方域名，用于 Clash / Clash Meta 等代理工具的规则生成、配置示例与文档说明
 DOMAIN-SUFFIX,clashdoc.cc # ClashDoc 文档与规则转换服务主域名，用于 Clash / Clash Meta / Clash Verge 等配置文档展示与规则说明
 DOMAIN-SUFFIX,fbweb.clashdoc.cc # ClashDoc 前端 Web 服务子域，用于文档页面渲染、规则说明展示与在线工具访问
 DOMAIN-SUFFIX,clashdoc.pro # ClashDoc Pro 官方域名，用于 Clash / Clash Meta 等代理工具的规则生成、配置示例与文档说明
