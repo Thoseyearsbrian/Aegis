@@ -5995,6 +5995,10 @@ DOMAIN-SUFFIX,fbweb.clashdoc.cc # ClashDoc 前端 Web 服务子域，用于文�
 DOMAIN-SUFFIX,clashdoc.pro # ClashDoc Pro 官方域名，用于 Clash / Clash Meta 等代理工具的规则生成、配置示例与文档说明
 DOMAIN-SUFFIX,w02.clashdoc.pro # ClashDoc Pro Web 前端节点，用于文档页面访问、规则生成工具与配置内容展示
 
+# > 垃圾邮件黑名单日志与安全研究资源站点
+
+DOMAIN-SUFFIX,joewein.net # 提供全球垃圾邮件域名黑名单与邮件投递日志归档，常用于溯源分析与安全验证引用
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
