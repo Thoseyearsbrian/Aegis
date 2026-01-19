@@ -105,6 +105,7 @@ DOMAIN-SUFFIX,user.aliyundrive.com # 阿里云盘用户账户与身份体系域�
 DOMAIN-SUFFIX,api.aliyundrive.com # 阿里云盘官方 API 接口域名，用于文件列表、上传下载、同步、账户鉴权与云端存储相关核心功能
 DOMAIN-SUFFIX,cn-beijing-data.aliyundrive.net # 阿里云盘中国北京区域数据存储与内容分发节点，用于文件上传、下载与内容同步等核心数据传输
 DOMAIN-SUFFIX,bj29.auth.aliyunpds.com # 阿里云盘区域级账号鉴权与会话认证接口，用于用户登录状态校验、访问令牌验证与 API 请求认证
+DOMAIN-SUFFIX,dl1-v6.aliyundrive.cloud # 阿里云盘 IPv6 下载节点域名，用于文件直链下载、分片传输与内容分发加速
 
 # > 淘宝相关域名（Taobao / 阿里巴巴集团）
 
