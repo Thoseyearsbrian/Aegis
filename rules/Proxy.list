@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-20
+# - 更新时间：2026-01-21
 
 # > Speedtest 网络测速平台
 
@@ -2876,15 +2876,6 @@ DOMAIN-SUFFIX,tlgrm.eu # TLGRM 提供 Telegram 频道目录服务（channels 路
 DOMAIN-SUFFIX,telegramchannels.me # TelegramChannels.me 频道目录网站 
 DOMAIN-SUFFIX,telegram‑group.com # Telegram‑group.com 群组与频道目录平台 
 DOMAIN-SUFFIX,directory.telegram.io # Directory.telegram.io Telegram 公共频道/群组目录服务 
-
-# Microsoft 翻译相关
-
-DOMAIN-SUFFIX,api.cognitive.microsoft.com # 微软翻译接口
-DOMAIN-SUFFIX,microsofttranslator.com # 微软翻译主域
-DOMAIN-SUFFIX,api.translate.microsoft.com # 微软翻译 API 接口，用于机器翻译功能请求
-DOMAIN-SUFFIX,cdn.translate.microsoft.com # 微软翻译 CDN 资源分发域名，用于加载翻译结果相关静态内容
-DOMAIN-SUFFIX,edge.microsoft.com # Edge 浏览器相关内容
-DOMAIN-SUFFIX,translatoruser.intl.microsoft.com # 微软翻译服务用户会话管理接口域名
 
 # >> Google 翻译相关
 
