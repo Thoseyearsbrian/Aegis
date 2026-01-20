@@ -154,14 +154,6 @@ DOMAIN-SUFFIX,a.omappapi.com # 弹窗与用户行为触发脚本加载域名
 DOMAIN-SUFFIX,edge.sdk.awswaf.com # AWS WAF SDK 通用子域，用于加载 Web 应用防火墙前端指令与行为检测配置 
 DOMAIN-SUFFIX,de5282c3ca0c.edge.sdk.awswaf.com # AWS WAF SDK 实例节点，用于采集用户行为特征、指纹数据与安全挑战反馈 
 
-# > Affinity 相关域名
-
-DOMAIN-SUFFIX,events.api.serifservices.com # Affinity 服务事件收集接口，用于用户行为、使用统计与崩溃日志分析
-IP-CIDR,108.156.144.96 # Affinity 行为分析域名 IP，用于事件统计与崩溃日志采集（events.api.serifservices.com）
-IP-CIDR,108.156.144.121 # Affinity 行为分析域名 IP，用于事件统计与崩溃日志采集（events.api.serifservices.com）
-IP-CIDR,108.156.144.120 # Affinity 行为分析域名 IP，用于事件统计与崩溃日志采集（events.api.serifservices.com）
-IP-CIDR,3.175.207.59/32 # Serif Affinity 应用遥测与事件上报接口（events.api.serifservices.com）
-
 # > Mozilla 遥测与用户行为分析域名（Telemetry & Behavioral Fingerprinting）
 
 DOMAIN-SUFFIX,telemetry.mozilla.org # Mozilla 遥测数据收集接口，用于浏览器行为数据上传与统计 
