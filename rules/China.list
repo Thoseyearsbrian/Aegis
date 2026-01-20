@@ -1762,6 +1762,8 @@ DOMAIN-SUFFIX,feishustatic.com # 飞书静态资源域，用于图片、图标�
 DOMAIN-SUFFIX,feishucontent.com # 飞书内容存储域，用于文档附件、图片、富文本与团队素材访问
 DOMAIN-SUFFIX,open.feishu.cn # 飞书开放平台 API，用于文档权限、搜索、机器人与第三方集成
 DOMAIN-SUFFIX,api.feishu.cn # 飞书 API 接口，用于文档读取、编辑、上传与协作管理
+IP-CIDR,180.101.218.46/32 # 飞书设备管理与终端识别服务节点（device-bd.feishu.cn），用于设备绑定、登录安全校验与终端状态识别
+IP-CIDR,117.85.70.229/32 # 飞书账号与身份认证服务节点（accounts.feishu.cn），用于用户登录、权限校验与账号安全管理
 
 # > NLark / 飞书文档静态资源服务
 
