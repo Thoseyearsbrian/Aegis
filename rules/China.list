@@ -283,6 +283,7 @@ DOMAIN-SUFFIX,ecombdapi.com # 字节跳动电商核心 API 服务域名，用于
 DOMAIN-SUFFIX,bdurl.net # 字节跳动短链与跳转基础域名，用于内容分发、链接跳转与服务重定向
 DOMAIN-SUFFIX,dig.bdurl.net # 字节跳动短链解析与跳转子域，用于内容追踪式跳转与链路分发
 IP-CIDR,1.194.30.84/32 # 字节跳动移动端 SDK 通信节点
+IP-CIDR,14.215.57.0/24 # 字节跳动开发者平台图片与静态资源节点（bytemaimg）
 IP-CIDR,27.222.15.135/32 # 抖音图片签名校验服务节点（douyinpic）
 IP-CIDR,36.41.168.0/24 # 字节跳动流媒体内容分发节点
 IP-CIDR,36.99.227.0/24 # 字节跳动安全与风控接入节点（tnc）
@@ -331,6 +332,7 @@ IP-CIDR,103.27.27.75/32 # 字节跳动核心业务服务节点（Pitaya）
 IP-CIDR,106.38.222.0/24 # 字节跳动实时通信 WebSocket 服务网段
 IP-CIDR,106.227.98.81/32 # 字节跳动开发者与静态资源节点
 IP-CIDR,106.225.221.0/24 # 抖音图片签名校验服务节点（douyinpic）
+IP-CIDR,106.225.217.24/32 # 字节跳动电商资质与商家校验签名节点（ecombdimg）
 IP-CIDR,112.46.52.0/24 # 抖音视频点播 CDN 实际服务节点（douyinvod）
 IP-CIDR,113.142.162.0/24 # 字节跳动直播 CDN 节点（bytegecko）
 IP-CIDR,114.80.10.225/32 # 字节跳动电商 API 实际服务节点（ecombdapi）
