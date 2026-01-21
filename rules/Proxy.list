@@ -5996,6 +5996,10 @@ DOMAIN-SUFFIX,w02.clashdoc.pro # ClashDoc Pro Web 前端节点，用于文档页
 
 DOMAIN-SUFFIX,joewein.net # 提供全球垃圾邮件域名黑名单与邮件投递日志归档，常用于溯源分析与安全验证引用
 
+# > ORCID 官方学术身份识别与公共资料服务域名
+
+DOMAIN-SUFFIX,orcid.org # ORCID 官方域名，用于科研人员唯一标识、学术身份验证与公共资料访问
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
