@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-21
+# - 更新时间：2026-01-22
 
 # > Speedtest 网络测速平台
 
@@ -5999,6 +5999,11 @@ DOMAIN-SUFFIX,joewein.net # 提供全球垃圾邮件域名黑名单与邮件投�
 # > ORCID 官方学术身份识别与公共资料服务域名
 
 DOMAIN-SUFFIX,orcid.org # ORCID 官方域名，用于科研人员唯一标识、学术身份验证与公共资料访问
+
+# > Freepik 商业素材平台
+
+DOMAIN-SUFFIX,freepik.com # Freepik 官方主站，提供商业设计素材下载
+DOMAIN-SUFFIX,cdn.freepik.com # Freepik 静态资源与素材 CDN 分发节点
 
 # > 第三方博客网站
 
