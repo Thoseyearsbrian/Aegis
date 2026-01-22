@@ -6004,6 +6004,7 @@ DOMAIN-SUFFIX,orcid.org # ORCID 官方域名，用于科研人员唯一标识、
 
 DOMAIN-SUFFIX,freepik.com # Freepik 官方主站，提供商业设计素材下载
 DOMAIN-SUFFIX,cdn.freepik.com # Freepik 静态资源与素材 CDN 分发节点
+DOMAIN-SUFFIX,static.cdnpk.net # Freepik 官方静态资源 CDN，用于图片、字体、脚本等素材分发
 
 # > 第三方博客网站
 
