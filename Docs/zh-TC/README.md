@@ -142,11 +142,25 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 請選擇你所使用的平台，進入對應的影片教學頁面：
 
-- [零基礎 Surge 教學 · iOS（4K）](https://aegis-site.pages.dev/ios-video-tutorials)
-   提供可選字幕（SRT），方便跟隨操作與回顧理解。
+零基礎 Surge 教學 · iOS（4K）｜點擊封面跳轉至 YouTube 觀看
 
-- [零基礎 Surge 教學 · macOS（4K）](https://aegis-site.pages.dev/mac-video-tutorials)
-   提供可選字幕（SRT），方便跟隨操作與回顧理解。
+<p align="center">
+<a href="https://youtu.be/cKhRdQF5FTo">
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/beginner-friendly-surge-guide-ios-4k.png"
+       alt="零基礎 Surge 教學 · iOS（4K）"
+       width="600" />
+</a>
+</p>
+
+零基礎 Surge 教學 · macOS（4K）｜點擊封面跳轉至 YouTube 觀看
+
+<p align="center">
+<a href="https://youtu.be/cKhRdQF5FTo">
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/beginner-friendly-surge-guide-macos-4k.png"
+       alt="零基礎 Surge 教學 · macOS（4K）"
+       width="600" />
+</a>
+</p>
 
 ## ⚠️ 注意事項
 

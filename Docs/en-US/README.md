@@ -150,11 +150,25 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
 
 Please select the platform you are using and visit the corresponding video tutorial page:
 
-- [Beginner-Friendly Surge Guide · iOS (4K)](https://aegis-site.pages.dev/ios-video-tutorials)
-   Optional subtitles (SRT) are provided to facilitate step-by-step following and later review.
+Beginner-Friendly Surge Guide · iOS (4K) ｜ Click the cover image to watch on YouTube
 
-- [Beginner-Friendly Surge Guide · macOS (4K)](https://aegis-site.pages.dev/mac-video-tutorials) 
-   Optional subtitles (SRT) are provided to facilitate step-by-step following and later review.
+<p align="center">
+<a href="https://youtu.be/cKhRdQF5FTo">
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/beginner-friendly-surge-guide-ios-4k.png"
+       alt="Beginner-Friendly Surge Guide · iOS (4K)"
+       width="600" />
+</a>
+</p>
+
+Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch on YouTube
+
+<p align="center">
+<a href="https://youtu.be/cKhRdQF5FTo">
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/beginner-friendly-surge-guide-macos-4k.png"
+       alt="Beginner-Friendly Surge Guide · macOS (4K)"
+       width="600" />
+</a>
+</p>
 
 ## ⚠️ Important Notes
 
