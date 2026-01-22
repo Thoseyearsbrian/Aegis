@@ -163,7 +163,7 @@ Beginner-Friendly Surge Guide · iOS (4K) ｜ Click the cover image to watch on 
 Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch on YouTube
 
 <p align="center">
-<a href="https://youtu.be/cKhRdQF5FTo">
+<a href="https://youtu.be/ano6ysBlD5s">
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/beginner-friendly-surge-guide-macos-4k.png"
        alt="Beginner-Friendly Surge Guide · macOS (4K)"
        width="600" />

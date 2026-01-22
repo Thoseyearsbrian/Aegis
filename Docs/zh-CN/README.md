@@ -155,7 +155,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 零基础 Surge 教程 · macOS（4K）｜点击封面跳转至 YouTube 观看
 
 <p align="center">
-<a href="https://youtu.be/cKhRdQF5FTo">
+<a href="https://youtu.be/ano6ysBlD5s">
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/beginner-friendly-surge-guide-macos-4k.png"
        alt="零基础 Surge 教程 · macOS（4K）"
        width="600" />
