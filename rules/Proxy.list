@@ -6047,6 +6047,10 @@ DOMAIN-SUFFIX,static.cdnpk.net # Freepik 官方静态资源 CDN，用于图片�
 DOMAIN-SUFFIX,octopus.com.hk # 八达通官方服务域名，用于账户管理、支付相关服务、卡片状态查询与官方业务页面访问
 DOMAIN-SUFFIX,octopuscards.com # 八达通（Octopus）官方服务域名，用于账户管理、卡片服务、交易相关查询与官方信息访问
 
+# > Cloudinary 云端媒体存储与 CDN 分发服务
+
+DOMAIN-SUFFIX,res.cloudinary.com # Cloudinary 官方资源分发域名，用于图片、视频等媒体资源的云端存储、动态处理与全球 CDN 加速加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
