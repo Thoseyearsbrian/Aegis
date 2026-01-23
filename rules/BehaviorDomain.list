@@ -1338,3 +1338,7 @@ DOMAIN-SUFFIX,api.demandbase.com # Demandbase 行为分析与企业识别 API，
 # > Quantcast 行为统计与受众分析服务
 
 DOMAIN-SUFFIX,rules.quantcount.com # Quantcast 行为统计与受众分析规则域名，用于访问行为测量与受众画像分析
+
+# > D41 数据分析与用户行为追踪服务
+
+DOMAIN-SUFFIX,v2.d41.co # D41 数据分析与行为追踪接口域名，用于事件上报、用户行为分析与统计指标收集
