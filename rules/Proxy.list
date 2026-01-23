@@ -4526,6 +4526,10 @@ DOMAIN-SUFFIX,main--bacom--adobecom.aem.live # Adobe AEM Live 预览与内容交
 DOMAIN-SUFFIX,helpx-prod.scene7.com # Adobe Scene7 帮助与文档内容分发域名，用于 Adobe 官方产品帮助页面的图片与多媒体资源加载
 DOMAIN-SUFFIX,ade0164.d41.co # Adobe Experience Cloud 关联的动态内容分发节点，常用于营销页面与资源跳转加载
 DOMAIN-SUFFIX,s7d1.scene7.com # Adobe Scene7 / Dynamic Media 官方 CDN 域名，用于图片、视频等多媒体资源分发与加速
+DOMAIN-SUFFIX,main--da-bacom-blog--adobecom.aem.live # Adobe 官方博客与内容站点（基于 AEM Live），用于文章页面与前端资源分发
+DOMAIN-SUFFIX,assets.adoberesources.net # Adobe 官方静态资源 CDN，用于加载产品页面所需的脚本、样式与媒体资源
+DOMAIN-SUFFIX,uploads-us-west-2.insided.com # Adobe 社区（Insided 平台）用户内容上传与资源存储节点
+DOMAIN-SUFFIX,static.customer-hub.northpass.com # Adobe Customer Hub 学习与客户支持平台静态资源域名（Northpass）
 
 # > Cloudflare 相关域名
 
