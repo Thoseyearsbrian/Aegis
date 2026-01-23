@@ -4516,6 +4516,7 @@ DOMAIN-SUFFIX,ims-na1.adobelogin.com # Adobe 身份管理系统接口，用于 O
 DOMAIN-SUFFIX,na1.assets.adobe.com # Adobe Creative Cloud 北美节点，用于云文件与图片资源的分发
 DOMAIN-SUFFIX,typekit.net # Adobe Typekit 字体服务域名，用于网页字体动态加载
 DOMAIN-SUFFIX,assets.adobedtm.com # Adobe DTM 静态资源域名，用于标签脚本加载与容器初始化
+DOMAIN-SUFFIX,prod.adobeccstatic.com # Adobe Creative Cloud 官方静态资源域名，用于应用资源、组件与功能相关内容分发
 
 # > Cloudflare 相关域名
 

@@ -713,6 +713,9 @@ DOMAIN-SUFFIX,api.keen.io # Keen.io API 接口域名，用于事件收集、数�
 
 DOMAIN-SUFFIX,adobedtm.com # Adobe Dynamic Tag Management，用于网页行为采集与追踪脚本加载
 DOMAIN-SUFFIX,demdex.net # Adobe Audience Manager，用于用户画像、行为建模与广告定向
+DOMAIN-SUFFIX,pixel.everesttech.net # Adobe Everest 行为追踪像素域名，用于广告曝光、转化归因与跨站用户行为统计
+DOMAIN-SUFFIX,everestjs.net # Adobe Everest 前端追踪脚本域名，用于加载营销归因与用户行为分析 JS
+DOMAIN-SUFFIX,dcs.adobedc.net # Adobe Data Collection Service 行为数据接收域名，用于用户事件、埋点与营销数据上报
 
 # > Statsig 行为分析与实验平台（行为追踪 SDK）
 
@@ -1325,3 +1328,8 @@ DOMAIN-SUFFIX,fastlane.rubiconproject.com # Rubicon Project Fastlane 实时竞�
 # > 51.LA 网站访问统计与行为分析服务
 
 DOMAIN-SUFFIX,sdk.51.la # 51.LA 网站统计分析 SDK 接口域名，用于页面访问统计、用户行为分析与流量数据回传
+
+# > Demandbase B2B 用户识别与企业画像分析服务
+
+DOMAIN-SUFFIX,tag.demandbase.com # Demandbase 前端标签域名，用于 B2B 用户识别、企业画像与访问行为分析
+DOMAIN-SUFFIX,api.demandbase.com # Demandbase 行为分析与企业识别 API，用于用户访问特征与公司归属判定
