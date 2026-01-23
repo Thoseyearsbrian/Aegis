@@ -5535,6 +5535,8 @@ DOMAIN-SUFFIX,hostkey.com # Hostkey 官方平台，提供企业级服务器托�
 DOMAIN-SUFFIX,livechatinc.com # LiveChat 官方平台与管理后台
 DOMAIN-SUFFIX,cdn.livechatinc.com # LiveChat 官方前端静态资源 CDN，用于加载在线客服组件脚本与界面资源
 DOMAIN-SUFFIX,api.livechatinc.com # LiveChat 客服系统后端 API，用于实时消息通信、会话管理与客服交互接口
+DOMAIN-SUFFIX,cdn.livechat-static.com # LiveChat 官方静态资源 CDN，用于在线客服组件的脚本、样式与界面资源加载
+DOMAIN-SUFFIX,cdn.livechat-files.com # LiveChat 官方静态资源与附件 CDN 域名，用于客服组件脚本、样式文件与会话相关资源加载
 
 # > GetSiteControl 用户交互组件与行为触发服务
 
@@ -6051,9 +6053,8 @@ DOMAIN-SUFFIX,octopuscards.com # 八达通（Octopus）官方服务域名，用�
 
 DOMAIN-SUFFIX,res.cloudinary.com # Cloudinary 官方资源分发域名，用于图片、视频等媒体资源的云端存储、动态处理与全球 CDN 加速加载
 
-# > LiveChat / SaaS 客服与内容平台静态资源 CDN
+# > SaaS 客服与内容平台静态资源 CDN
 
-DOMAIN-SUFFIX,cdn.livechat-files.com # LiveChat 官方静态资源与附件 CDN 域名，用于客服组件脚本、样式文件与会话相关资源加载
 DOMAIN-SUFFIX,cdn.files-text.com # 第三方 SaaS 文本与文件内容分发 CDN，用于页面文本资源、附件内容与前端静态文件加载
 
 # > 第三方博客网站
