@@ -4521,6 +4521,7 @@ DOMAIN-SUFFIX,slp-statics.astockcdn.net # Adobe Stock 静态资源与素材加�
 DOMAIN-SUFFIX,t3.ftcdn.net # Adobe Stock / Fotolia 图片与多媒体素材 CDN 节点，用于高清素材内容分发
 DOMAIN-SUFFIX,t4.ftcdn.net # Adobe Stock / Fotolia 图片与多媒体素材 CDN 节点，用于高清素材内容分发
 DOMAIN-SUFFIX,ftcdn.net # Adobe Stock / Fotolia 官方 CDN 域名，用于图片、视频等数字素材分发
+DOMAIN-SUFFIX,dd.astockcdn.net # Adobe Stock 素材分发 CDN 域名，用于图片、插画等商业素材的静态资源加载与内容交付
 
 # > Cloudflare 相关域名
 
