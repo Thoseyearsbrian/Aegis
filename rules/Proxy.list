@@ -6012,6 +6012,7 @@ DOMAIN-SUFFIX,static.cdnpk.net # Freepik 官方静态资源 CDN，用于图片�
 # > 八达通（Octopus）支付与账户服务
 
 DOMAIN-SUFFIX,octopus.com.hk # 八达通官方服务域名，用于账户管理、支付相关服务、卡片状态查询与官方业务页面访问
+DOMAIN-SUFFIX,octopuscards.com # 八达通（Octopus）官方服务域名，用于账户管理、卡片服务、交易相关查询与官方信息访问
 
 # > 第三方博客网站
 
