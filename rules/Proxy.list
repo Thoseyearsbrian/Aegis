@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-22
+# - 更新时间：2026-01-23
 
 # > Speedtest 网络测速平台
 
@@ -162,6 +162,9 @@ DOMAIN-SUFFIX,mylac.cn # 代理节点域名
 DOMAIN-SUFFIX,lk02.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,lk01.fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,aff01.fyb-aff01.com # 代理机场相关域名，可能用于配置拉取或节点测速
+DOMAIN-SUFFIX,fbweb02.flyingbird.la # 代理机场相关域名，可能用于配置拉取或节点测速
+DOMAIN-SUFFIX,fbweb03.flyingbird.id # 代理机场相关域名，可能用于配置拉取或节点测速
+DOMAIN-SUFFIX,w01.fbweb.cc # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,fbsubcn01.pro # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,fbsubcn01.cc # 代理机场相关域名，可能用于配置拉取或节点测速
 DOMAIN-SUFFIX,dexi009.com # 代理机场相关第三方服务支付域名
