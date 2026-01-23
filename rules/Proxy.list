@@ -5992,6 +5992,10 @@ DOMAIN-SUFFIX,nocix.mm.fcix.net # NOCIX 在 FCIX（Fremont Cabal Internet Exchan
 
 DOMAIN-SUFFIX,ftp2.osuosl.org # OSUOSL 提供的开源软件镜像 FTP 服务，用于 Linux 发行版或开源软件包下载
 
+# > NYCU Kali Linux 官方镜像与教学资源服务
+
+DOMAIN-SUFFIX,kali.cs.nycu.edu.tw # 国立阳明交通大学（NYCU）提供的 Kali Linux 官方镜像与网络安全教学资源站点
+
 # > Debian 官方时间同步（NTP）服务
 
 DOMAIN-SUFFIX,debian.pool.ntp.org # Debian 官方 NTP 时间同步池域名，用于系统时间校准与安全时间基准维护
