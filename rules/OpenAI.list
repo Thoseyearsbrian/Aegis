@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-18
+# - 更新时间：2026-01-23
 
 # > OpenAI Chat 系列
 
@@ -484,3 +484,7 @@ DOMAIN-SUFFIX,speechify.com # Speechify 官方网站域名，用于 AI 文本转
 
 DOMAIN-SUFFIX,palantir.com # Palantir 官方网站与平台入口，用于企业级数据整合、分析、AI 决策系统与产品信息展示
 DOMAIN-SUFFIX,ai.palantir.com # Palantir AI 产品与能力展示子域，用于人工智能模型、AIP 平台与相关技术内容访问
+
+# > Nrich.ai 智能推荐 / AI 服务平台
+
+DOMAIN-SUFFIX,serve.nrich.ai # Nrich.ai 前端服务与 API 接入域名，用于智能推荐、AI 内容生成与业务请求处理
