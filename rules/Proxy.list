@@ -4524,6 +4524,8 @@ DOMAIN-SUFFIX,ftcdn.net # Adobe Stock / Fotolia 官方 CDN 域名，用于图片
 DOMAIN-SUFFIX,dd.astockcdn.net # Adobe Stock 素材分发 CDN 域名，用于图片、插画等商业素材的静态资源加载与内容交付
 DOMAIN-SUFFIX,main--bacom--adobecom.aem.live # Adobe AEM Live 预览与内容交付域名，用于 Adobe 官方站点的实时构建预览、内容渲染与边缘分发访问
 DOMAIN-SUFFIX,helpx-prod.scene7.com # Adobe Scene7 帮助与文档内容分发域名，用于 Adobe 官方产品帮助页面的图片与多媒体资源加载
+DOMAIN-SUFFIX,ade0164.d41.co # Adobe Experience Cloud 关联的动态内容分发节点，常用于营销页面与资源跳转加载
+DOMAIN-SUFFIX,s7d1.scene7.com # Adobe Scene7 / Dynamic Media 官方 CDN 域名，用于图片、视频等多媒体资源分发与加速
 
 # > Cloudflare 相关域名
 
