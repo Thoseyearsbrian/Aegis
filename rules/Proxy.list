@@ -4517,6 +4517,10 @@ DOMAIN-SUFFIX,na1.assets.adobe.com # Adobe Creative Cloud 北美节点，用于�
 DOMAIN-SUFFIX,typekit.net # Adobe Typekit 字体服务域名，用于网页字体动态加载
 DOMAIN-SUFFIX,assets.adobedtm.com # Adobe DTM 静态资源域名，用于标签脚本加载与容器初始化
 DOMAIN-SUFFIX,prod.adobeccstatic.com # Adobe Creative Cloud 官方静态资源域名，用于应用资源、组件与功能相关内容分发
+DOMAIN-SUFFIX,slp-statics.astockcdn.net # Adobe Stock 静态资源与素材加载域名，用于图片预览、素材展示与前端资源分发
+DOMAIN-SUFFIX,t3.ftcdn.net # Adobe Stock / Fotolia 图片与多媒体素材 CDN 节点，用于高清素材内容分发
+DOMAIN-SUFFIX,t4.ftcdn.net # Adobe Stock / Fotolia 图片与多媒体素材 CDN 节点，用于高清素材内容分发
+DOMAIN-SUFFIX,ftcdn.net # Adobe Stock / Fotolia 官方 CDN 域名，用于图片、视频等数字素材分发
 
 # > Cloudflare 相关域名
 
