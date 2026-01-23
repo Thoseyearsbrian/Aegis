@@ -5996,6 +5996,16 @@ DOMAIN-SUFFIX,ftp2.osuosl.org # OSUOSL 提供的开源软件镜像 FTP 服务，
 
 DOMAIN-SUFFIX,kali.cs.nycu.edu.tw # 国立阳明交通大学（NYCU）提供的 Kali Linux 官方镜像与网络安全教学资源站点
 
+# > Ubuntu 官方网站与系统生态服务
+
+DOMAIN-SUFFIX,ubuntu.com # Ubuntu 官方主站域名，用于系统介绍、文档、下载入口、社区与企业服务信息展示
+DOMAIN-SUFFIX,assets.ubuntu.com # Ubuntu 官方静态资源域名，用于官网页面样式、图片、脚本等前端资源加载
+DOMAIN-SUFFIX,design.ubuntu.com # Ubuntu 官方设计与品牌规范站点，用于 UI 设计指南与品牌资源展示
+DOMAIN-SUFFIX,docs.ubuntu.com # Ubuntu 官方文档站点，用于系统使用、部署、运维与开发文档访问
+DOMAIN-SUFFIX,help.ubuntu.com # Ubuntu 官方用户帮助与支持文档站点
+DOMAIN-SUFFIX,cloud-images.ubuntu.com # Ubuntu 官方云镜像分发域名，用于各云平台系统镜像发布
+DOMAIN-SUFFIX,releases.ubuntu.com # Ubuntu 官方版本发布与更新信息站点
+
 # > Debian 官方时间同步（NTP）服务
 
 DOMAIN-SUFFIX,debian.pool.ntp.org # Debian 官方 NTP 时间同步池域名，用于系统时间校准与安全时间基准维护
