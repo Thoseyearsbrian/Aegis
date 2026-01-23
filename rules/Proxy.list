@@ -6057,6 +6057,13 @@ DOMAIN-SUFFIX,res.cloudinary.com # Cloudinary 官方资源分发域名，用于�
 
 DOMAIN-SUFFIX,cdn.files-text.com # 第三方 SaaS 文本与文件内容分发 CDN，用于页面文本资源、附件内容与前端静态文件加载
 
+# > Canonical 官方服务与开源生态基础设施
+
+DOMAIN-SUFFIX,canonical.com # Canonical 官方主域名，用于 Ubuntu、Snap、Landscape 等产品官网、文档发布与服务入口
+DOMAIN-SUFFIX,assets.canonical.com # Canonical 官方静态资源域名，用于官网图片、样式与前端资源加载
+DOMAIN-SUFFIX,login.ubuntu.com # Canonical / Ubuntu 官方统一身份认证服务，用于账号登录与权限验证
+DOMAIN-SUFFIX,api.snapcraft.io # Snapcraft 官方 API 服务，用于 Snap 包索引、元数据查询与分发控制
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
