@@ -6051,6 +6051,11 @@ DOMAIN-SUFFIX,octopuscards.com # 八达通（Octopus）官方服务域名，用�
 
 DOMAIN-SUFFIX,res.cloudinary.com # Cloudinary 官方资源分发域名，用于图片、视频等媒体资源的云端存储、动态处理与全球 CDN 加速加载
 
+# > LiveChat / SaaS 客服与内容平台静态资源 CDN
+
+DOMAIN-SUFFIX,cdn.livechat-files.com # LiveChat 官方静态资源与附件 CDN 域名，用于客服组件脚本、样式文件与会话相关资源加载
+DOMAIN-SUFFIX,cdn.files-text.com # 第三方 SaaS 文本与文件内容分发 CDN，用于页面文本资源、附件内容与前端静态文件加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
