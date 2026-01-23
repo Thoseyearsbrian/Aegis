@@ -6006,6 +6006,11 @@ DOMAIN-SUFFIX,help.ubuntu.com # Ubuntu 官方用户帮助与支持文档站点
 DOMAIN-SUFFIX,cloud-images.ubuntu.com # Ubuntu 官方云镜像分发域名，用于各云平台系统镜像发布
 DOMAIN-SUFFIX,releases.ubuntu.com # Ubuntu 官方版本发布与更新信息站点
 
+# > Usabilla 用户反馈与体验调研服务
+
+DOMAIN-SUFFIX,usabilla.com # Usabilla 官方服务主域名，用于用户反馈收集、满意度调查与体验调研平台
+DOMAIN-SUFFIX,w.usabilla.com # Usabilla Web 反馈采集接口，用于网页端用户意见提交、问卷交互与体验调研数据回传
+
 # > Debian 官方时间同步（NTP）服务
 
 DOMAIN-SUFFIX,debian.pool.ntp.org # Debian 官方 NTP 时间同步池域名，用于系统时间校准与安全时间基准维护
