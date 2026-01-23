@@ -717,6 +717,7 @@ DOMAIN-SUFFIX,pixel.everesttech.net # Adobe Everest 行为追踪像素域名，�
 DOMAIN-SUFFIX,everestjs.net # Adobe Everest 前端追踪脚本域名，用于加载营销归因与用户行为分析 JS
 DOMAIN-SUFFIX,dcs.adobedc.net # Adobe Data Collection Service 行为数据接收域名，用于用户事件、埋点与营销数据上报
 DOMAIN-SUFFIX,rtd-tm.everesttech.net # Adobe Everest 实时受众数据与标签管理服务域名，用于广告投放中的实时数据同步、受众匹配与行为信号传输
+DOMAIN-SUFFIX,rum.hlx.page # Adobe Helix RUM（Real User Monitoring）前端性能监控域名，用于页面加载性能与用户体验指标采集
 
 # > Statsig 行为分析与实验平台（行为追踪 SDK）
 
