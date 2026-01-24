@@ -143,7 +143,6 @@ DOMAIN-SUFFIX,repos.ecosyste.ms # Ecosyste.ms 子域名，用于加载第三方�
 
 DOMAIN-SUFFIX,api.ipify.org # ipify 公网 IP 查询接口，被 Whoer 用于检测当前网络出口地址 
 DOMAIN-SUFFIX,api-main.whox.is # WHOX 接口域名，用于识别 ASN、运营商、国家等连接特征信息 
-DOMAIN-SUFFIX,code.jquery.com # jQuery CDN 域名，Whoer 页面用于加载前端识别逻辑脚本 
 DOMAIN-SUFFIX,stackpath.bootstrapcdn.com # Bootstrap 框架 CDN，Whoer 页面用于样式测试与客户端环境检测 
 
 # > Datadog 行为分析与性能监控服务域名（Browser Monitoring & Behavior Analytics）

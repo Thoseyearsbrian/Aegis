@@ -6030,6 +6030,10 @@ DOMAIN-SUFFIX,landscape.cncf.io # CNCF 官方云原生生态全景站点，用�
 
 DOMAIN-SUFFIX,gitjobs.dev # GitJobs 技术招聘平台域名，用于聚合 GitHub / 开源社区相关的开发者岗位信息与远程工作机会
 
+# > jQuery 官方前端库
+
+DOMAIN-SUFFIX,code.jquery.com # jQuery 官方 CDN 域名，用于分发 jQuery 核心库及相关前端脚本资源，属于前端基础设施组件
+
 # > 字幕检索与字幕数据接口服务
 
 DOMAIN-SUFFIX,api.opensubtitles.com # OpenSubtitles 官方 API 接口，用于字幕搜索、下载与字幕元数据查询
