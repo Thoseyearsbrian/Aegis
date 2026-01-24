@@ -5,7 +5,7 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-13
+# - 更新时间：2026-01-25
 
 # > 系统服务（System Services）
 
@@ -65,6 +65,7 @@ DOMAIN-SUFFIX,musicstatus.itunes.apple.com # Apple Music 服务状态与可用�
 DOMAIN-SUFFIX,weather-edge.apple.com # Apple 天气服务边缘接入节点
 DOMAIN-SUFFIX,ampaeservices.com # Apple Media & Platform Authentication Services（AMP AES）相关服务域名，用于 Apple 媒体平台与系统服务的认证、鉴权与安全会话支持
 DOMAIN-SUFFIX,amp.shazam.com # Apple Shazam 音频识别服务接口域名，用于音乐识别请求、识别结果返回与功能相关的数据交互，属于 Apple 生态内的音频识别服务组件
+IP-CIDR,17.253.114.43/32 # Apple 核心服务网络节点，用于 Apple 设备系统级通信、服务连通性检测与后台请求调度
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
 IP-CIDR,17.253.150.10 # Tether 服务节点
 
