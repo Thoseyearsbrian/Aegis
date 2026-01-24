@@ -70,7 +70,6 @@ IP-CIDR,58.216.14.86/32 # 字节跳动 ABTest 与实验配置服务节点（abte
 IP-CIDR,58.222.51.0/24 # 字节跳动业务策略与实验配置接口（zijieapi）
 IP-CIDR,58.223.176.216/32 # 字节跳动客户端监控服务节点（mon11-misc-hl.amemv.com）
 IP-CIDR,117.91.177.108/32 # 字节跳动内部服务协调与链路控制节点（klink.amemv.com）
-IP-CIDR,121.228.130.0/24 # 字节跳动云端监控与运行态采集节点（mon.toutiaocloud.com）
 IP-CIDR,180.101.199.221/32 # 字节跳动 ABTest 实验配置节点，用于功能灰度、策略对照与行为分析
 IP-CIDR,180.101.218.41/32 # 字节跳动客户端监控与状态上报节点（mon0-misc-hl.amemv.com）
 IP-CIDR,180.97.251.53/32 # 字节跳动客户端监控与状态上报节点（mon0-misc）
