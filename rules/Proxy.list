@@ -6070,6 +6070,11 @@ DOMAIN-SUFFIX,165.npa.gov.tw # 台湾内政部警政署 165 反诈骗专线官�
 DOMAIN-SUFFIX,npa.gov.tw # 台湾内政部警政署官方域名，用于警政公告、公共安全资讯与政府服务入口
 DOMAIN-SUFFIX,data.gov.tw # 台湾政府官方开放资料平台主站与 API 服务域名
 
+# > 内政部资料开放平台（Government Open Data）官方服务域名
+
+DOMAIN-SUFFIX,opdadm.moi.gov.tw # 内政部政府资料开放平台，用于公开政府开放数据集浏览、查询与下载
+DOMAIN-SUFFIX,data.gov.tw # 台湾政府资料开放平台主站，用于汇整各部会政府开放数据服务与 API
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
