@@ -6068,6 +6068,7 @@ DOMAIN-SUFFIX,api.snapcraft.io # Snapcraft 官方 API 服务，用于 Snap 包�
 
 DOMAIN-SUFFIX,165.npa.gov.tw # 台湾内政部警政署 165 反诈骗专线官方域名，用于诈骗案件查询、风险通报、民众咨询与反诈资讯发布
 DOMAIN-SUFFIX,npa.gov.tw # 台湾内政部警政署官方域名，用于警政公告、公共安全资讯与政府服务入口
+DOMAIN-SUFFIX,data.gov.tw # 台湾政府官方开放资料平台主站与 API 服务域名
 
 # > 第三方博客网站
 
