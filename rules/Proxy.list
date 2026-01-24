@@ -6021,6 +6021,7 @@ DOMAIN-SUFFIX,debian.pool.ntp.org # Debian 官方 NTP 时间同步池域名，�
 
 DOMAIN-SUFFIX,kubernetes.io # Kubernetes 官方项目与文档站点，用于容器编排系统说明、组件介绍与技术文档访问
 DOMAIN-SUFFIX,k8s.io # Kubernetes 官方短域名，用于 API、组件下载、镜像引用与生态项目跳转
+DOMAIN-SUFFIX,kubernetes.dev # Kubernetes 官方社区入口域名，用于项目导航、文档索引与生态资源聚合
 
 # > CNCF 云原生生态全景与项目可视化平台
 
