@@ -272,6 +272,7 @@ DOMAIN-SUFFIX,zijieapi.com # 字节跳动官方 API 服务主域名，用于客�
 DOMAIN-SUFFIX,awemeugwave.com # 抖音用户激励与增长相关服务域名，用于活动、激励与运营功能支持
 DOMAIN-SUFFIX,bytehwm.com # 字节跳动官方前端字体与样式资源分发域名，用于抖音等产品字体与 UI 资源加载
 DOMAIN-SUFFIX,douyinpic.com # 抖音图片与签名资源分发域名，用于图片、封面与签名资源加载
+DOMAIN-SUFFIX,webcast.douyinpic.com # 抖音直播相关图片与媒体资源 CDN，用于直播封面、互动素材与展示资源
 DOMAIN-SUFFIX,bytegecko.com # 字节跳动内容与静态资源分发 CDN 域名
 DOMAIN-SUFFIX,toutiaovod.com # 今日头条 / 抖音体系视频点播（VOD）主域名，用于视频内容存储、分发与播放服务
 DOMAIN-SUFFIX,api.toutiaoapi.com # 今日头条核心业务 API 接口，用于信息流请求、内容加载、用户状态与业务数据交互
@@ -303,6 +304,7 @@ IP-CIDR,58.215.210.148/32 # ByteDance Source CDN QoS 控制节点（bytegecko）
 IP-CIDR,58.216.7.80/24 # 字节跳动字体资源签名校验节点
 IP-CIDR,58.216.6.0/24 # 抖音直播图片签名服务节点（webcast-sign）
 IP-CIDR,58.216.32.0/24 # 字节跳动电商商品资源分发节点（ecombdimg）
+IP-CIDR,58.216.107.42/24 # 抖音直播图片与展示资源分发节点
 IP-CIDR,58.216.110.0/24 # 抖音图片资源 CDN 节点（douyinpic）
 IP-CIDR,58.218.200.0/24 # 字节跳动核心业务调度节点（Pitaya）
 IP-CIDR,58.220.178.128/24 # 字节跳动电商用户服务节点（ecomuser.snssdk.com）
@@ -391,6 +393,7 @@ IP-CIDR,182.40.23.0/24 # 抖音运营 / 激励 / 特效素材分发网段
 IP-CIDR,182.40.78.0/24 # 抖音图片签名校验服务节点
 IP-CIDR,182.40.112.0/24 # 字节跳动移动端 SDK 与状态服务通信网段（mssdk / 状态同步）
 IP-CIDR,182.106.149.0/24 # 抖音图片与多媒体资源 CDN 节点
+IP-CIDR,183.66.105.186/24 # 抖音图片与多媒体资源分发节点
 IP-CIDR,183.131.80.55/24 # 抖音直播流媒体实际拉流节点，承载 FLV/RTM 音视频内容分发
 IP-CIDR,183.136.203.179/24 # 字节跳动 SDK 与跨应用链接服务节点（ugsdk / zlink）
 IP-CIDR,183.136.201.96/24 # 字节跳动图片签名与加密资源节点（byteimg）
