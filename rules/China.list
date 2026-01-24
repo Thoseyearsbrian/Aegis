@@ -365,7 +365,6 @@ IP-CIDR,119.42.231.55/24 # 支付宝移动数据分析与业务调度节点（md
 IP-CIDR,119.167.135.0/24 # 抖音图片 CDN 实际服务节点
 IP-CIDR,119.167.198.0/24 # 字节跳动特效素材分发节点
 IP-CIDR,120.255.45.199/24 # 字节跳动核心业务服务节点（Pitaya）
-IP-CIDR,121.228.130.10/24 # 百度百科内容服务节点（m.baike.com）
 IP-CIDR,122.14.236.68/24 # 字节跳动 Frontier 边缘服务节点
 IP-CIDR,122.247.213.55/24 # 抖音直播 / Webcast 图片资源分发节点
 IP-CIDR,123.235.34.66/24 # 抖音图片签名校验服务节点
@@ -584,7 +583,8 @@ DOMAIN-SUFFIX,su.bdimg.com # 百度图片与静态媒体资源服务节点
 DOMAIN-SUFFIX,img.baidu.com # 百度图片搜索与图像内容服务接口
 DOMAIN-SUFFIX,m.baeapps.com # 百度应用引擎相关资源与服务接口域名
 DOMAIN-SUFFIX,zhida.baidu.com # 百度知道与搜索问答服务域名，用于内容检索、问答展示与搜索结果加载
-DOMAIN-SUFFIX,hmma.baidu.com # 百度统计与行为分析接口，用于页面访问统计、用户行为埋点与流量分析
+IP-CIDR,121.228.130.10/24 # 百度百科内容服务节点（m.baike.com）
+IP-CIDR,60.169.2.215/32 # 百度百科内容服务节点（m.baike.com）
 
 # > 16map 地图服务平台（第三方地图嵌入与位置服务）
 

@@ -95,6 +95,7 @@ IP-CIDR,1.194.30.83/32 # 字节跳动客户端监控节点
 IP-CIDR,58.216.15.90/32 # 字节跳动客户端行为通信节点
 IP-CIDR,221.230.244.90/32 # 字节跳动客户端监控节点
 IP-CIDR,106.225.217.60/32 # 字节跳动客户端监控与运行状态上报节点
+IP-CIDR,60.163.128.7/24 # 字节跳动客户端监控与杂项通信节点
 
 # > Google / Firebase / Crashlytics 相关行为指纹
 
@@ -324,6 +325,7 @@ DOMAIN-SUFFIX,sdkgen.data.tianwenca.com # 天闻 SDK 广告平台回传接口，
 DOMAIN-SUFFIX,hm.baidu.com # 百度统计（常用于嵌入式网页行为追踪）
 DOMAIN-SUFFIX,tcbox.baidu.com # 百度 App 行为日志接口
 DOMAIN-SUFFIX,log.re.baidu.com # 百度推荐系统行为日志上报接口
+DOMAIN-SUFFIX,hmma.baidu.com # 百度统计与行为分析接口，用于页面访问统计、用户行为埋点与流量分析
 
 # > 微博行为日志与遥测接口
 
