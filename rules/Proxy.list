@@ -6026,6 +6026,10 @@ DOMAIN-SUFFIX,k8s.io # Kubernetes 官方短域名，用于 API、组件下载、
 
 DOMAIN-SUFFIX,landscape.cncf.io # CNCF 官方云原生生态全景站点，用于展示 Kubernetes 及云原生项目生态、分类关系与技术选型参考
 
+# > GitJobs 开源与技术岗位招聘平台
+
+DOMAIN-SUFFIX,gitjobs.dev # GitJobs 技术招聘平台域名，用于聚合 GitHub / 开源社区相关的开发者岗位信息与远程工作机会
+
 # > 字幕检索与字幕数据接口服务
 
 DOMAIN-SUFFIX,api.opensubtitles.com # OpenSubtitles 官方 API 接口，用于字幕搜索、下载与字幕元数据查询
