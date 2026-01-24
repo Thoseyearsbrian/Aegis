@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-23
+# - 更新时间：2026-01-24
 
 # > Speedtest 网络测速平台
 
@@ -6016,6 +6016,11 @@ DOMAIN-SUFFIX,w.usabilla.com # Usabilla Web 反馈采集接口，用于网页端
 # > Debian 官方时间同步（NTP）服务
 
 DOMAIN-SUFFIX,debian.pool.ntp.org # Debian 官方 NTP 时间同步池域名，用于系统时间校准与安全时间基准维护
+
+# > Kubernetes 容器编排与集群管理基础设施
+
+DOMAIN-SUFFIX,kubernetes.io # Kubernetes 官方项目与文档站点，用于容器编排系统说明、组件介绍与技术文档访问
+DOMAIN-SUFFIX,k8s.io # Kubernetes 官方短域名，用于 API、组件下载、镜像引用与生态项目跳转
 
 # > 字幕检索与字幕数据接口服务
 
