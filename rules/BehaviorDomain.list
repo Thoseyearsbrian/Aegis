@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-24
+# - 更新时间：2026-01-25
 
 # > WeChat 数据统计与遥测
 
@@ -1345,3 +1345,7 @@ DOMAIN-SUFFIX,rules.quantcount.com # Quantcast 行为统计与受众分析规则
 # > D41 数据分析与用户行为追踪服务
 
 DOMAIN-SUFFIX,v2.d41.co # D41 数据分析与行为追踪接口域名，用于事件上报、用户行为分析与统计指标收集
+
+# > 智云（Zhicyun）统计与内容分发相关服务
+
+DOMAIN-SUFFIX,q2.zhicyun.com # 智云（Zhicyun）前端统计与行为分析服务节点，用于页面访问统计、用户行为采集与性能分析
