@@ -6007,6 +6007,8 @@ DOMAIN-SUFFIX,docs.ubuntu.com # Ubuntu 官方文档站点，用于系统使用�
 DOMAIN-SUFFIX,help.ubuntu.com # Ubuntu 官方用户帮助与支持文档站点
 DOMAIN-SUFFIX,cloud-images.ubuntu.com # Ubuntu 官方云镜像分发域名，用于各云平台系统镜像发布
 DOMAIN-SUFFIX,releases.ubuntu.com # Ubuntu 官方版本发布与更新信息站点
+DOMAIN-SUFFIX,ntp.ubuntu.com # Ubuntu 官方 NTP 时间同步服务
+DOMAIN-SUFFIX,connectivity-check.ubuntu.com # Ubuntu 网络连通性检测服务
 
 # > fwupd Linux 固件更新服务 CDN
 
@@ -6084,6 +6086,11 @@ DOMAIN-SUFFIX,cdn.files-text.com # 第三方 SaaS 文本与文件内容分发 CD
 DOMAIN-SUFFIX,canonical.com # Canonical 官方主域名，用于 Ubuntu、Snap、Landscape 等产品官网、文档发布与服务入口
 DOMAIN-SUFFIX,assets.canonical.com # Canonical 官方静态资源域名，用于官网图片、样式与前端资源加载
 DOMAIN-SUFFIX,login.ubuntu.com # Canonical / Ubuntu 官方统一身份认证服务，用于账号登录与权限验证
+
+# > Snapcraft 官方服务与内容分发通信
+
+DOMAIN-SUFFIX,dashboard.snapcraft.io # Snap 官方服务管理与 API 通信
+DOMAIN-SUFFIX,cdn.snapcraftcontent.com # Snap 官方内容分发 CDN
 DOMAIN-SUFFIX,api.snapcraft.io # Snapcraft 官方 API 服务，用于 Snap 包索引、元数据查询与分发控制
 
 # > 台湾警政署 165 反诈骗咨询与通报服务
