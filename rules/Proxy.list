@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-24
+# - 更新时间：2026-01-25
 
 # > Speedtest 网络测速平台
 
@@ -6007,6 +6007,10 @@ DOMAIN-SUFFIX,docs.ubuntu.com # Ubuntu 官方文档站点，用于系统使用�
 DOMAIN-SUFFIX,help.ubuntu.com # Ubuntu 官方用户帮助与支持文档站点
 DOMAIN-SUFFIX,cloud-images.ubuntu.com # Ubuntu 官方云镜像分发域名，用于各云平台系统镜像发布
 DOMAIN-SUFFIX,releases.ubuntu.com # Ubuntu 官方版本发布与更新信息站点
+
+# > fwupd Linux 固件更新服务 CDN
+
+DOMAIN-SUFFIX,fwupd.org # Linux 固件更新后台服务（LVFS / 设备固件）
 
 # > Usabilla 用户反馈与体验调研服务
 
