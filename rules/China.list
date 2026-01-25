@@ -586,8 +586,10 @@ DOMAIN-SUFFIX,su.bdimg.com # 百度图片与静态媒体资源服务节点
 DOMAIN-SUFFIX,img.baidu.com # 百度图片搜索与图像内容服务接口
 DOMAIN-SUFFIX,m.baeapps.com # 百度应用引擎相关资源与服务接口域名
 DOMAIN-SUFFIX,zhida.baidu.com # 百度知道与搜索问答服务域名，用于内容检索、问答展示与搜索结果加载
+DOMAIN-SUFFIX,ecombdimg.com # 百度电商体系官方资源与前端聚合服务域名
 IP-CIDR,121.228.130.0/24 # 百度百科内容服务节点（m.baike.com）
 IP-CIDR,60.169.2.215/32 # 百度百科内容服务节点（m.baike.com）
+IP-CIDR,1.194.27.0/24 # Baidu CDN 当前观测节点
 
 # > 16map 地图服务平台（第三方地图嵌入与位置服务）
 
