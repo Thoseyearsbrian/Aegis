@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-25
+# - 更新时间：2026-01-26
 
 # > WeChat 数据统计与遥测
 
@@ -66,7 +66,7 @@ DOMAIN-SUFFIX,s9.cnzz.com # CNZZ 行为统计脚本与数据上报节点，用�
 DOMAIN-SUFFIX,adashx.m.taobao.com # 淘宝移动端 AdashX 行为分析与遥测上报接口
 IP-CIDR,36.110.186.124/32 # 字节跳动 Frontier 接入节点（frontier-aweme.snssdk.com），用于客户端接入调度、请求分发与行为环境控制
 IP-CIDR,49.79.134.233/32 # ByteDance 内部日志与运行状态上报节点（amemv），用于直播链路稳定性与服务监控
-IP-CIDR,58.216.14.86/32 # 字节跳动 ABTest 与实验配置服务节点（abtest3-misc-hj.zijieapi.com）
+IP-CIDR,58.216.14.0/24 # 字节跳动 ABTest 与实验配置服务节点（abtest3-misc-hj.zijieapi.com）
 IP-CIDR,58.222.51.0/24 # 字节跳动业务策略与实验配置接口（zijieapi）
 IP-CIDR,58.223.176.216/32 # 字节跳动客户端监控服务节点（mon11-misc-hl.amemv.com）
 IP-CIDR,117.91.177.108/32 # 字节跳动内部服务协调与链路控制节点（klink.amemv.com）
