@@ -6112,10 +6112,6 @@ DOMAIN-SUFFIX,api.fontshare.com # Fontshare Web API 接口域名，用于获取�
 DOMAIN-SUFFIX,fonts.fontshare.com # Fontshare 字体分发 CDN 子域，承载具体字体文件（woff/woff2 等）
 DOMAIN-SUFFIX,cdn.fontshare.com # Fontshare 字体/静态资源 CDN 加速域名
 
-# > Clawd Bot 项目官网
-
-DOMAIN-SUFFIX,clawd.bot # Clawd Bot 项目官网与文档站点
-
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
