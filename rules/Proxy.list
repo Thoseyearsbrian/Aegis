@@ -6105,6 +6105,13 @@ DOMAIN-SUFFIX,data.gov.tw # 台湾政府官方开放资料平台主站与 API �
 DOMAIN-SUFFIX,opdadm.moi.gov.tw # 内政部政府资料开放平台，用于公开政府开放数据集浏览、查询与下载
 DOMAIN-SUFFIX,data.gov.tw # 台湾政府资料开放平台主站，用于汇整各部会政府开放数据服务与 API
 
+# > Fontshare 字体资源与 API 服务（第三方字体服务）
+
+DOMAIN-SUFFIX,fontshare.com # Fontshare 字体资源与 API 主域，用于字体元数据与字体资源获取
+DOMAIN-SUFFIX,api.fontshare.com # Fontshare Web API 接口域名，用于获取字体 CSS/数据
+DOMAIN-SUFFIX,fonts.fontshare.com # Fontshare 字体分发 CDN 子域，承载具体字体文件（woff/woff2 等）
+DOMAIN-SUFFIX,cdn.fontshare.com # Fontshare 字体/静态资源 CDN 加速域名
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
