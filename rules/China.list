@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-25
+# - 更新时间：2026-01-27
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -284,6 +284,7 @@ DOMAIN-SUFFIX,bdurl.net # 字节跳动短链与跳转基础域名，用于内容
 DOMAIN-SUFFIX,dig.bdurl.net # 字节跳动短链解析与跳转子域，用于内容追踪式跳转与链路分发
 DOMAIN-SUFFIX,idouyinvod.com # 抖音视频点播 CDN 域名
 IP-CIDR,1.194.30.0/24 # 字节跳动移动端 SDK 通信节点
+IP-CIDR,1.194.217.0/24 # 抖音短视频音视频内容分发 CDN 节点
 IP-CIDR,14.215.57.0/24 # 字节跳动开发者平台图片与静态资源节点（bytemaimg）
 IP-CIDR,27.148.200.0/24 # 字节跳动直播内容分发 CDN 节点
 IP-CIDR,27.221.11.0/24 # 抖音图片签名与资源访问节点（douyinpic）
@@ -379,6 +380,7 @@ IP-CIDR,140.249.226.0/24 # 抖音直播图片签名服务节点（webcast-sign�
 IP-CIDR,150.138.174.0/24 # 抖音直播流媒体 CDN 实际分发节点
 IP-CIDR,175.12.102.0/24 # 字节跳动活动页与内容展示资源节点（byteimg）
 IP-CIDR,180.97.171.0/24 # 字节跳动抖音源站 CDN 节点
+IP-CIDR,180.97.209.0/24 # 字节电商图片与资源分发 CDN 节点
 IP-CIDR,180.97.241.0/24 # 字节跳动 TOS / CDN 实际服务节点（bytegecko）
 IP-CIDR,180.97.246.0/24 # 字节跳动特效资源分发节点（byteeffecttos）
 IP-CIDR,180.97.248.0/24 # 抖音直播源站 CDN 节点（bytegecko）
