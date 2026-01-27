@@ -4,11 +4,12 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-25
+# - 更新时间：2026-01-27
 
 # > Speedtest 网络测速平台
 
 DOMAIN-SUFFIX,speedtest.net # Speedtest 主站域名，由 Ookla 运营，用于测量互联网下载／上传速度与延迟 
+DOMAIN-SUFFIX,speedtest.singnet.com.sg # Speedtest 新加坡地区主站域名
 DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 媒体资源 CDN 域名，用于分发 PCMag、TechRepublic、Speedtest 等站点静态资源
 DOMAIN-SUFFIX,stosat-utah-01.sys.comcast.net.prod.hosts.ooklaserver.net # Comcast 犹他州服务器测速节点，Ookla 专用域 
 DOMAIN-SUFFIX,speedtest.firstdigital.com.prod.hosts.ooklaserver.net # FirstDigital 通信公司测速节点，位于犹他州 
