@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-27
+# - 更新时间：2026-01-28
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -316,6 +316,7 @@ IP-CIDR,58.221.30.0/24 # 抖音图片与多媒体资源 CDN 节点（douyinpic�
 IP-CIDR,58.221.33.149/32 # 字节跳动官方文档与静态资源分发节点
 IP-CIDR,58.221.45.0/24 # 抖音图片与多媒体资源 CDN 节点（douyinpic）
 IP-CIDR,58.222.29.0/24 # 抖音电商（巨量千川/抖音小店）业务接口与资源服务节点
+IP-CIDR,58.222.35.0/24 # 抖音图片与多媒体静态资源内容分发 CDN 节点
 IP-CIDR,58.222.51.0/24 # 字节跳动核心业务接口节点
 IP-CIDR,58.223.168.0/24 # 抖音图片签名校验服务节点（douyinpic）
 IP-CIDR,58.223.176.0/24 # 字节跳动客户端监控与杂项通信节点
@@ -418,6 +419,31 @@ IP-CIDR,221.231.47.0/24 # 抖音图片与多媒体资源 CDN 实际节点（douy
 IP-CIDR,222.186.163.0/24 # 抖音图片签名与媒体资源服务节点
 IP-CIDR,222.188.8.0/24 # 字节跳动内容聚合与业务调度节点（aggr）
 IP-CIDR,223.111.116.0/24 # 字节跳动直播与多媒体内容分发 CDN 节点
+
+# > ByteDance AI（Doubao / VolcEngine）相关域名
+
+DOMAIN-SUFFIX,doubao.com # 豆包大模型主站，用于产品展示、模型介绍与入口跳转
+DOMAIN-SUFFIX,app.doubao.com # 豆包 Web 应用，用于聊天、对话、模型体验与账号管理
+DOMAIN-SUFFIX,api.doubao.com # 豆包 API 接口，用于推理、文本生成、Embedding 与应用集成
+DOMAIN-SUFFIX,cdn.doubao.com # 豆包静态资源 CDN，用于前端脚本、样式、字体与界面组件加载
+DOMAIN-SUFFIX,assets.doubao.com # 豆包静态素材资源，用于图标、界面素材与预设内容
+DOMAIN-SUFFIX,media.doubao.com # 媒体资源服务，用于图片、音频、视频与用户上传内容
+DOMAIN-SUFFIX,files.doubao.com # 文件上传/下载服务，用于模型输入输出文件处理
+DOMAIN-SUFFIX,bytedanceapi.com # 字节跳动统一 API 体系，用于模型调用、授权校验与账户系统集成
+DOMAIN-SUFFIX,polaris.bytedance.com # 字节跳动服务网关，用于云端资源路由与负载调度
+DOMAIN-SUFFIX,volcengineapi.com # 火山引擎 AI API 主域名，用于推理请求、权限验证与企业集成
+DOMAIN-SUFFIX,volces.com # 火山引擎 CDN，用于模型加载、向量检索与资源加速分发
+DOMAIN-SUFFIX,gator.volces.com # 火山引擎边缘加速节点，用于推理加速与静态资源调度
+DOMAIN-SUFFIX,volcimagex.com # ImageX 图像处理服务，用于生成、压缩与模型图像输出
+DOMAIN-SUFFIX,volccdn.com # 火山引擎静态资源 CDN，用于 JS/CSS/组件加速加载
+DOMAIN-SUFFIX,volceapplog.com # 应用日志/埋点上报服务，用于 SDK 行为与性能数据收集
+DOMAIN-SUFFIX,byteimg.com # 字节图像 CDN，用于多媒体与前端资源加载
+DOMAIN-SUFFIX,byted-static.com # 字节跳动静态资源域，用于脚本、字体与样式文件
+DOMAIN-SUFFIX,bytegoofy.com # 字节跳动资源分发域名，用于辅助 API 和静态内容分发
+DOMAIN-SUFFIX,zijieapi.com # 字节跳动统一 API 服务域名，用于豆包/火山引擎的业务接口、数据交互与资源请求
+DOMAIN-SUFFIX,vcs.zijieapi.com # 字节跳动 VCS（Video/Content Service）接入端点，用于视频流处理、内容分发与业务通信
+DOMAIN-SUFFIX,mcs.zijieapi.com # 字节跳动 MCS（Media/Content Service）多媒体接口，用于文件上传、内容处理与资源访问
+IP-CIDR,122.14.236.54/24 # 豆包 WebSocket 接入节点（wss100-normal），用于实时对话、长连接会话与推理结果流式传输
 
 # > 中国电信服务相关域名
 
@@ -558,7 +584,7 @@ DOMAIN-SUFFIX,qchannel01.cn # 高德地图 QChannel 内容分发子域，用于�
 DOMAIN-SUFFIX,cache.gaode.com # 高德地图官方缓存与静态资源分发域名，用于地图瓦片、样式与数据缓存
 DOMAIN-SUFFIX,shift.is.autonavi.com # 高德地图内部调度与状态同步服务域名
 IP-CIDR,59.82.14.161/24 # 高德地图移动端 AMDC 调度接口，用于移动客户端地图服务请求分发与节点调度
-IP-CIDR,180.163.145.240/24 # 高德地图服务节点（阿里云/阿里系网络），用于地图数据与服务接口访问
+IP-CIDR,180.163.145.240/24 # 高德地图服务节点，用于地图数据与服务接口访问
 
 # > 百度相关域名
 
@@ -2079,31 +2105,6 @@ DOMAIN-SUFFIX,vidu.cn # 即构科技 Vidu 主站域名，用于官网访问、�
 DOMAIN-SUFFIX,static.vidu.cn # 即构科技静态资源域名，用于加载 JS/CSS/图标等前端页面资源
 DOMAIN-SUFFIX,service.vidu.cn # 即构科技服务接口域名，用于视频服务相关的 API 调用与资源请求
 DOMAIN-SUFFIX,files.vidu.cn # 即构科技文件服务域名，用于下载 SDK、文档资源与媒体文件等内容
-
-# > ByteDance AI（Doubao / VolcEngine）相关域名
-
-DOMAIN-SUFFIX,doubao.com # 豆包大模型主站，用于产品展示、模型介绍与入口跳转
-DOMAIN-SUFFIX,app.doubao.com # 豆包 Web 应用，用于聊天、对话、模型体验与账号管理
-DOMAIN-SUFFIX,api.doubao.com # 豆包 API 接口，用于推理、文本生成、Embedding 与应用集成
-DOMAIN-SUFFIX,cdn.doubao.com # 豆包静态资源 CDN，用于前端脚本、样式、字体与界面组件加载
-DOMAIN-SUFFIX,assets.doubao.com # 豆包静态素材资源，用于图标、界面素材与预设内容
-DOMAIN-SUFFIX,media.doubao.com # 媒体资源服务，用于图片、音频、视频与用户上传内容
-DOMAIN-SUFFIX,files.doubao.com # 文件上传/下载服务，用于模型输入输出文件处理
-DOMAIN-SUFFIX,bytedanceapi.com # 字节跳动统一 API 体系，用于模型调用、授权校验与账户系统集成
-DOMAIN-SUFFIX,polaris.bytedance.com # 字节跳动服务网关，用于云端资源路由与负载调度
-DOMAIN-SUFFIX,volcengineapi.com # 火山引擎 AI API 主域名，用于推理请求、权限验证与企业集成
-DOMAIN-SUFFIX,volces.com # 火山引擎 CDN，用于模型加载、向量检索与资源加速分发
-DOMAIN-SUFFIX,gator.volces.com # 火山引擎边缘加速节点，用于推理加速与静态资源调度
-DOMAIN-SUFFIX,volcimagex.com # ImageX 图像处理服务，用于生成、压缩与模型图像输出
-DOMAIN-SUFFIX,volccdn.com # 火山引擎静态资源 CDN，用于 JS/CSS/组件加速加载
-DOMAIN-SUFFIX,volceapplog.com # 应用日志/埋点上报服务，用于 SDK 行为与性能数据收集
-DOMAIN-SUFFIX,byteimg.com # 字节图像 CDN，用于多媒体与前端资源加载
-DOMAIN-SUFFIX,byted-static.com # 字节跳动静态资源域，用于脚本、字体与样式文件
-DOMAIN-SUFFIX,bytegoofy.com # 字节跳动资源分发域名，用于辅助 API 和静态内容分发
-DOMAIN-SUFFIX,zijieapi.com # 字节跳动统一 API 服务域名，用于豆包/火山引擎的业务接口、数据交互与资源请求
-DOMAIN-SUFFIX,vcs.zijieapi.com # 字节跳动 VCS（Video/Content Service）接入端点，用于视频流处理、内容分发与业务通信
-DOMAIN-SUFFIX,mcs.zijieapi.com # 字节跳动 MCS（Media/Content Service）多媒体接口，用于文件上传、内容处理与资源访问
-IP-CIDR,122.14.236.54/24 # 豆包 WebSocket 接入节点（wss100-normal），用于实时对话、长连接会话与推理结果流式传输
 
 # > ERNIE Bot（文心一言 / Baidu AI 服务）
 
