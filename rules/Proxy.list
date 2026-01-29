@@ -6230,6 +6230,11 @@ DOMAIN-SUFFIX,a-us.storyblok.com # Storyblok 美国区域内容 API 与分发节
 DOMAIN-SUFFIX,chilipiper.com # Chili Piper 销售线索调度与会议预约平台相关域名
 DOMAIN-SUFFIX,grafana.chilipiper.com # Grafana 官网集成的 Chili Piper 预约与线索调度功能端点
 
+# > Sinch 云通信平台与身份认证服务
+
+DOMAIN-SUFFIX,sinch.com # Sinch 云通信与企业消息服务平台官方域名
+DOMAIN-SUFFIX,login-eu-c1.cc.sinch.com # Sinch 欧洲区域控制台登录与身份认证服务入口
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
