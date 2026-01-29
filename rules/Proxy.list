@@ -6136,6 +6136,10 @@ DOMAIN-SUFFIX,api.buymeacoffee.com # Buy Me a Coffee 平台 API 接口，用于�
 
 DOMAIN-SUFFIX,mintcdn.com # Mintlify 文档平台使用的 CDN 域名，用于分发开发者文档站点的静态资源
 
+# > FOSDEM 开源软件开发者会议官方网站
+
+DOMAIN-SUFFIX,fosdem.org # FOSDEM 官网与内容站点，用于开源软件开发者年度大会信息与资料访问
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
