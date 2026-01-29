@@ -6148,6 +6148,13 @@ DOMAIN-SUFFIX,sso.redhat.com # Red Hat 官方单点登录（SSO）认证服务�
 DOMAIN-SUFFIX,redhatstatic.com # Red Hat 官方静态资源分发域名，用于加载网站与文档相关前端资源
 DOMAIN-SUFFIX,id.redhat.com # Red Hat 官方身份标识与账户服务域名，用于用户身份识别与登录流程支持
 
+# > Arm 官方网站与开发者服务平台
+
+DOMAIN-SUFFIX,arm.com # Arm 官方主站域名，用于 CPU 架构、半导体技术与公司信息访问
+DOMAIN-SUFFIX,developer.arm.com # Arm 开发者平台与技术文档站点，用于架构说明、SDK 与开发资源访问
+DOMAIN-SUFFIX,support.arm.com # Arm 官方技术支持与客户服务站点
+DOMAIN-SUFFIX,static.arm.com # Arm 官方静态资源域名，用于分发前端脚本、样式与文档相关资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
