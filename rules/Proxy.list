@@ -6209,6 +6209,7 @@ DOMAIN-SUFFIX,help.sap.com # SAP 官方帮助与知识库站点，用于产品�
 DOMAIN-SUFFIX,developers.sap.com # SAP 开发者资源平台域名，用于开发者文档、API 参考与 SDK 工具访问
 DOMAIN-SUFFIX,training.sap.com # SAP 官方培训与认证服务访问域名
 DOMAIN-SUFFIX,support.sap.com # SAP 官方支持门户，用于客户支持、案例提交与问题追踪服务
+DOMAIN-SUFFIX,sap.integrityline.com # SAP Integrity Line 合规申诉与举报平台服务域名，用于企业内控、违规举报与合规审查流程
 
 # > Clearbit 客户数据与企业画像分析平台
 
