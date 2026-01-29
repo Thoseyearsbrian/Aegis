@@ -6210,6 +6210,11 @@ DOMAIN-SUFFIX,developers.sap.com # SAP 开发者资源平台域名，用于开�
 DOMAIN-SUFFIX,training.sap.com # SAP 官方培训与认证服务访问域名
 DOMAIN-SUFFIX,support.sap.com # SAP 官方支持门户，用于客户支持、案例提交与问题追踪服务
 
+# > Clearbit 客户数据与企业画像分析平台
+
+DOMAIN-SUFFIX,clearbit.com # Clearbit 官方平台主域名，用于客户数据、企业画像分析服务与产品信息访问
+DOMAIN-SUFFIX,app.clearbit.com # Clearbit SaaS Web 控制台入口，用于账户管理、数据查看与平台功能配置
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
