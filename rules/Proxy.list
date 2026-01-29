@@ -6170,6 +6170,11 @@ DOMAIN-SUFFIX,static.survale.com # Survale 调查问卷与反馈页面所需的�
 DOMAIN-SUFFIX,cncf.io # Cloud Native Computing Foundation 官方网站域名，用于云原生项目生态与基金会信息访问
 DOMAIN-SUFFIX,events.cncf.io # CNCF 官方活动与会议站点，用于 KubeCon 等云原生大会信息访问
 
+# > Avada SaaS 应用服务平台
+
+DOMAIN-SUFFIX,avada.io # Avada SaaS 平台主域名
+DOMAIN-SUFFIX,app.avada.io # Avada SaaS Web 应用主入口，用于平台功能与控制台访问
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
