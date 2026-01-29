@@ -6241,6 +6241,16 @@ DOMAIN-SUFFIX,login-eu-c1.cc.sinch.com # Sinch 欧洲区域控制台登录与身
 DOMAIN-SUFFIX,successfactors.com # SAP SuccessFactors 人力资源管理云平台主域名，提供招聘、绩效、员工管理等企业级 HCM 服务
 DOMAIN-SUFFIX,rmkcdn.successfactors.com # SAP SuccessFactors 招聘营销（Recruiting Marketing）前端静态资源 CDN，用于职位页面与候选人体验内容加载
 
+# > Université libre de Bruxelles 官方主站
+
+DOMAIN-SUFFIX,ulb.be # Université libre de Bruxelles (比利时布鲁塞尔自由大学) 官方域名，用于学校介绍、招生信息、课程与研究资料访问
+DOMAIN-SUFFIX,alumni.ulb.be # ULB 校友服务与社区访问域名
+DOMAIN-SUFFIX,droit.ulb.be # ULB 法学院官方子站（法学与法律课程信息）
+DOMAIN-SUFFIX,phisoc.ulb.be # ULB 哲学与社会科学学院官方子站
+DOMAIN-SUFFIX,ltc.ulb.be # ULB 文学、翻译与传播学院官方子站
+DOMAIN-SUFFIX,psycho.ulb.be # ULB 心理与教育科学学院官方子站
+DOMAIN-SUFFIX,sbsem.ulb.be # Solvay Brussels School of Economics and Management (布鲁塞尔索尔维经济与管理学院) 子域名
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
