@@ -659,6 +659,8 @@ DOMAIN-SUFFIX,hs-analytics.net # HubSpot Analytics 分析域名，用于收集�
 DOMAIN-SUFFIX,hscollectedforms.net # HubSpot 收集嵌入式表单数据的域名，用于非 HubSpot 表单的行为记录
 DOMAIN-SUFFIX,js-na2.hsadspixel.net # HubSpot 像素 JS 脚本加载域名，用于广告数据收集与页面行为分析
 DOMAIN-SUFFIX,api-na2.hubapi.com # HubSpot CRM 与分析服务 API 接口域名，用于数据上传、活动追踪与用户识别
+DOMAIN-SUFFIX,hs-sites-eu1.com # HubSpot Sites（EU 区域）企业营销站点托管与行为分析平台域名
+DOMAIN-SUFFIX,26142657.hs-sites-eu1.com # HubSpot 企业实例营销页面，用于内容展示、表单收集与用户行为分析
 
 # > Moka 行为分析与数据上报（Sensors Data）
 
