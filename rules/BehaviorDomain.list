@@ -1359,3 +1359,8 @@ DOMAIN-SUFFIX,js-cdn.dynatrace.com # Dynatrace 前端监控脚本 CDN，用于�
 # > Clearbit 用户识别与企业画像分析服务
 
 DOMAIN-SUFFIX,tag.clearbitscripts.com # Clearbit 行为标签与用户识别脚本加载端点，用于访问者企业画像与行为分析
+
+# > Clearbit 用户识别与行为数据采集服务
+
+DOMAIN-SUFFIX,clearbitjs.com # Clearbit 前端用户识别与行为数据采集脚本相关域名
+DOMAIN-SUFFIX,x.clearbitjs.com # Clearbit 行为识别与数据通信端点

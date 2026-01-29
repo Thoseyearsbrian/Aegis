@@ -6220,6 +6220,16 @@ DOMAIN-SUFFIX,app.clearbit.com # Clearbit SaaS Web 控制台入口，用于账�
 DOMAIN-SUFFIX,arcade.software # Arcade 交互式产品演示与 Demo 平台官方域名，用于产品展示与演示内容访问
 DOMAIN-SUFFIX,cdn.arcade.software # Arcade 交互式演示所需前端脚本与资源分发 CDN
 
+# > Storyblok 无头内容管理系统（Headless CMS）
+
+DOMAIN-SUFFIX,storyblok.com # Storyblok 无头内容管理系统官方域名，用于内容 API 与前端内容分发
+DOMAIN-SUFFIX,a-us.storyblok.com # Storyblok 美国区域内容 API 与分发节点
+
+# > Chili Piper 销售线索调度与会议预约服务
+
+DOMAIN-SUFFIX,chilipiper.com # Chili Piper 销售线索调度与会议预约平台相关域名
+DOMAIN-SUFFIX,grafana.chilipiper.com # Grafana 官网集成的 Chili Piper 预约与线索调度功能端点
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
