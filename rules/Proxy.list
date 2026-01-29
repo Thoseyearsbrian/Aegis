@@ -6113,6 +6113,10 @@ DOMAIN-SUFFIX,api.fontshare.com # Fontshare Web API 接口域名，用于获取�
 DOMAIN-SUFFIX,fonts.fontshare.com # Fontshare 字体分发 CDN 子域，承载具体字体文件（woff/woff2 等）
 DOMAIN-SUFFIX,cdn.fontshare.com # Fontshare 字体/静态资源 CDN 加速域名
 
+# > GitHub Readme Stats 统计卡片服务
+
+DOMAIN-SUFFIX,github-readme-stats.vercel.app # GitHub Readme Stats 卡片生成服务，基于 Vercel 平台用于展示仓库统计信息
+
 # > Ghost 博客平台
 
 DOMAIN-SUFFIX,ghost.io # Ghost 博客与内容管理平台官方网站与核心服务入口
