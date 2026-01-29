@@ -1349,3 +1349,11 @@ DOMAIN-SUFFIX,q2.zhicyun.com # 智云（Zhicyun）前端统计与行为分析服
 # > Uptrends 网站可用性与性能监控服务
 
 DOMAIN-SUFFIX,hit.uptrendsdata.com # Uptrends 探针命中与性能监测请求回传端点
+
+# > Dynatrace 应用性能监控与用户行为分析服务
+
+DOMAIN-SUFFIX,js-cdn.dynatrace.com # Dynatrace 前端监控脚本 CDN，用于性能指标与用户行为数据采集
+
+# > Clearbit 用户识别与企业画像分析服务
+
+DOMAIN-SUFFIX,tag.clearbitscripts.com # Clearbit 行为标签与用户识别脚本加载端点，用于访问者企业画像与行为分析
