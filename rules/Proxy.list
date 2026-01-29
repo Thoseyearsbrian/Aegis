@@ -5169,6 +5169,7 @@ DOMAIN-SUFFIX,cookie-script.com # Cookie-Script 官方隐私合规与管理平�
 
 DOMAIN-SUFFIX,n8n.io # n8n 官方自动化与集成平台服务
 DOMAIN-SUFFIX,app.n8n.cloud # n8n Cloud 官方 Web 应用与工作流管理入口
+DOMAIN-SUFFIX,n8n-cloud-blog.ghost.io # n8n Cloud 官方博客站点，基于 Ghost 托管，用于发布产品更新与技术文章
 
 # > TuringFraud 反欺诈与风险识别服务平台
 
