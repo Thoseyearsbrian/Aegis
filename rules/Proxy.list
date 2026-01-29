@@ -6189,6 +6189,11 @@ DOMAIN-SUFFIX,flagcdn.com # FlagCDN 国旗图标静态资源分发域名，用�
 
 DOMAIN-SUFFIX,eclipsestatus.io # Eclipse 项目相关服务状态与系统运行情况展示页面，用于查看可用性与运维公告
 
+# > Element 即时通讯客户端与 Matrix 官方服务平台
+
+DOMAIN-SUFFIX,element.io # Element 官方主站域名，用于 Matrix 即时通讯客户端访问、产品介绍与服务入口
+DOMAIN-SUFFIX,app.element.io # Element Web 客户端入口，用于浏览器中使用 Matrix 即时通讯服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
