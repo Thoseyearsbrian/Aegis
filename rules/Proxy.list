@@ -6140,6 +6140,12 @@ DOMAIN-SUFFIX,mintcdn.com # Mintlify 文档平台使用的 CDN 域名，用于�
 
 DOMAIN-SUFFIX,fosdem.org # FOSDEM 官网与内容站点，用于开源软件开发者年度大会信息与资料访问
 
+# > Red Hat 企业 Linux 与开源解决方案官方服务
+
+DOMAIN-SUFFIX,redhat.com # Red Hat 官方主站域名，用于企业 Linux 与开源产品、文档及支持服务访问
+DOMAIN-SUFFIX,static.redhat.com # Red Hat 官方静态资源 CDN，用于分发前端脚本、样式与文档资源
+DOMAIN-SUFFIX,sso.redhat.com # Red Hat 官方单点登录（SSO）认证服务域名，用于账户登录与订阅授权校验
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
