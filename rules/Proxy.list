@@ -6175,6 +6175,12 @@ DOMAIN-SUFFIX,events.cncf.io # CNCF 官方活动与会议站点，用于 KubeCon
 DOMAIN-SUFFIX,avada.io # Avada SaaS 平台主域名
 DOMAIN-SUFFIX,app.avada.io # Avada SaaS Web 应用主入口，用于平台功能与控制台访问
 
+# > Dstny 云通信与业务协作服务官网
+
+DOMAIN-SUFFIX,dstny.com # Dstny 官方主站域名，用于云通信、统一协作与企业解决方案展示与访问
+DOMAIN-SUFFIX,portal.dstny.com # Dstny 客户/合作伙伴门户入口
+DOMAIN-SUFFIX,assets.dstny.com # Dstny 静态资源 CDN，用于加载网站所需图片/脚本/样式
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
