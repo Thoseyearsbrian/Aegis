@@ -6195,6 +6195,13 @@ DOMAIN-SUFFIX,element.io # Element 官方主站域名，用于 Matrix 即时通�
 DOMAIN-SUFFIX,app.element.io # Element Web 客户端入口，用于浏览器中使用 Matrix 即时通讯服务
 DOMAIN-SUFFIX,docs.element.io # Element 官方文档站点，用于 Matrix 与 Element 客户端的技术文档与使用说明
 
+# > Grafana 可观测性平台与官方服务网站
+
+DOMAIN-SUFFIX,grafana.com # Grafana Labs 官方主站域名，用于可观测性平台产品介绍、资源与服务入口
+DOMAIN-SUFFIX,docs.grafana.com # Grafana 官方文档站点，用于监控、可视化与可观测性产品的使用说明
+DOMAIN-SUFFIX,play.grafana.com # Grafana 官方演示与示例站点，用于体验与测试 Grafana 功能
+DOMAIN-SUFFIX,cloud.grafana.com # Grafana Cloud 云服务平台入口，用于托管监控与可观测性服务访问
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
