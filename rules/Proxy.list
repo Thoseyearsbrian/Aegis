@@ -6236,6 +6236,11 @@ DOMAIN-SUFFIX,grafana.chilipiper.com # Grafana 官网集成的 Chili Piper 预�
 DOMAIN-SUFFIX,sinch.com # Sinch 云通信与企业消息服务平台官方域名
 DOMAIN-SUFFIX,login-eu-c1.cc.sinch.com # Sinch 欧洲区域控制台登录与身份认证服务入口
 
+# > SAP SuccessFactors 招聘与人力资源管理平台（Recruiting Marketing）
+
+DOMAIN-SUFFIX,successfactors.com # SAP SuccessFactors 人力资源管理云平台主域名，提供招聘、绩效、员工管理等企业级 HCM 服务
+DOMAIN-SUFFIX,rmkcdn.successfactors.com # SAP SuccessFactors 招聘营销（Recruiting Marketing）前端静态资源 CDN，用于职位页面与候选人体验内容加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
