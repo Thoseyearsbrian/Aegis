@@ -6202,6 +6202,14 @@ DOMAIN-SUFFIX,docs.grafana.com # Grafana 官方文档站点，用于监控、可
 DOMAIN-SUFFIX,play.grafana.com # Grafana 官方演示与示例站点，用于体验与测试 Grafana 功能
 DOMAIN-SUFFIX,cloud.grafana.com # Grafana Cloud 云服务平台入口，用于托管监控与可观测性服务访问
 
+# > SAP 官方网站与云业务平台
+
+DOMAIN-SUFFIX,sap.com # SAP 官方网站域名，用于企业应用软件、ERP、云业务平台、产品文档与服务访问
+DOMAIN-SUFFIX,help.sap.com # SAP 官方帮助与知识库站点，用于产品支持文档与技术指南访问
+DOMAIN-SUFFIX,developers.sap.com # SAP 开发者资源平台域名，用于开发者文档、API 参考与 SDK 工具访问
+DOMAIN-SUFFIX,training.sap.com # SAP 官方培训与认证服务访问域名
+DOMAIN-SUFFIX,support.sap.com # SAP 官方支持门户，用于客户支持、案例提交与问题追踪服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
