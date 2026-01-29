@@ -6146,6 +6146,7 @@ DOMAIN-SUFFIX,redhat.com # Red Hat 官方主站域名，用于企业 Linux 与�
 DOMAIN-SUFFIX,static.redhat.com # Red Hat 官方静态资源 CDN，用于分发前端脚本、样式与文档资源
 DOMAIN-SUFFIX,sso.redhat.com # Red Hat 官方单点登录（SSO）认证服务域名，用于账户登录与订阅授权校验
 DOMAIN-SUFFIX,redhatstatic.com # Red Hat 官方静态资源分发域名，用于加载网站与文档相关前端资源
+DOMAIN-SUFFIX,id.redhat.com # Red Hat 官方身份标识与账户服务域名，用于用户身份识别与登录流程支持
 
 # > 第三方博客网站
 
