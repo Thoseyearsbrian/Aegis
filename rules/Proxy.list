@@ -6155,6 +6155,11 @@ DOMAIN-SUFFIX,developer.arm.com # Arm 开发者平台与技术文档站点，用
 DOMAIN-SUFFIX,support.arm.com # Arm 官方技术支持与客户服务站点
 DOMAIN-SUFFIX,static.arm.com # Arm 官方静态资源域名，用于分发前端脚本、样式与文档相关资源
 
+# > TalentBrew 企业招聘与候选人管理平台
+
+DOMAIN-SUFFIX,talentbrew.com # TalentBrew 企业招聘与候选人管理平台相关域名，用于职位发布、简历投递与招聘流程访问
+DOMAIN-SUFFIX,tbcdn.talentbrew.com # TalentBrew 招聘页面前端资源与流程组件 CDN，用于加载招聘相关页面脚本与界面资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
