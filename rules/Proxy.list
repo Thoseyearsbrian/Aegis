@@ -6165,6 +6165,11 @@ DOMAIN-SUFFIX,tbcdn.talentbrew.com # TalentBrew 招聘页面前端资源与流�
 DOMAIN-SUFFIX,survale.com # Survale 企业反馈与员工/候选人调查平台相关域名，用于调查问卷与反馈页面访问
 DOMAIN-SUFFIX,static.survale.com # Survale 调查问卷与反馈页面所需的前端静态资源域名
 
+# > CNCF 云原生计算基金会官方网站
+
+DOMAIN-SUFFIX,cncf.io # Cloud Native Computing Foundation 官方网站域名，用于云原生项目生态与基金会信息访问
+DOMAIN-SUFFIX,events.cncf.io # CNCF 官方活动与会议站点，用于 KubeCon 等云原生大会信息访问
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
