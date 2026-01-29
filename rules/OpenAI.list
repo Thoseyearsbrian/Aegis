@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-27
+# - 更新时间：2026-01-29
 
 # > OpenAI Chat 系列
 
@@ -492,3 +492,7 @@ DOMAIN-SUFFIX,serve.nrich.ai # Nrich.ai 前端服务与 API 接入域名，用�
 # > Clawd Bot 项目官网
 
 DOMAIN-SUFFIX,clawd.bot # Clawd Bot 项目官网与文档站点
+
+# > OpenCode AI 平台
+
+DOMAIN-SUFFIX,opencode.ai # OpenCode AI 平台官网与服务入口，提供 AI 编程、代码生成与开发者工具相关服务
