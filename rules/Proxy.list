@@ -6185,6 +6185,10 @@ DOMAIN-SUFFIX,assets.dstny.com # Dstny 静态资源 CDN，用于加载网站所�
 
 DOMAIN-SUFFIX,flagcdn.com # FlagCDN 国旗图标静态资源分发域名，用于多语言与多国家界面的国旗图片加载
 
+# > Eclipse 项目服务状态与运行监控页面
+
+DOMAIN-SUFFIX,eclipsestatus.io # Eclipse 项目相关服务状态与系统运行情况展示页面，用于查看可用性与运维公告
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
