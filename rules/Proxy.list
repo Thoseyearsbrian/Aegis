@@ -6215,6 +6215,11 @@ DOMAIN-SUFFIX,support.sap.com # SAP 官方支持门户，用于客户支持、�
 DOMAIN-SUFFIX,clearbit.com # Clearbit 官方平台主域名，用于客户数据、企业画像分析服务与产品信息访问
 DOMAIN-SUFFIX,app.clearbit.com # Clearbit SaaS Web 控制台入口，用于账户管理、数据查看与平台功能配置
 
+# > Arcade 交互式产品演示与 Demo 平台
+
+DOMAIN-SUFFIX,arcade.software # Arcade 交互式产品演示与 Demo 平台官方域名，用于产品展示与演示内容访问
+DOMAIN-SUFFIX,cdn.arcade.software # Arcade 交互式演示所需前端脚本与资源分发 CDN
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
