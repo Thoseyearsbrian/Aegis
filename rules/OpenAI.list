@@ -500,3 +500,7 @@ DOMAIN-SUFFIX,molt.bot # Molt Bot 项目官网与文档站点（原 Clawd Bot，
 # > OpenCode AI 平台
 
 DOMAIN-SUFFIX,opencode.ai # OpenCode AI 平台官网与服务入口，提供 AI 编程、代码生成与开发者工具相关服务
+
+# > Dify AI 平台
+
+DOMAIN-SUFFIX,dify.ai # Dify 开源 LLM 应用开发平台官网，用于构建、部署与管理基于大模型的 AI 应用
