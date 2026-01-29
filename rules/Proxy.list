@@ -6113,6 +6113,14 @@ DOMAIN-SUFFIX,api.fontshare.com # Fontshare Web API 接口域名，用于获取�
 DOMAIN-SUFFIX,fonts.fontshare.com # Fontshare 字体分发 CDN 子域，承载具体字体文件（woff/woff2 等）
 DOMAIN-SUFFIX,cdn.fontshare.com # Fontshare 字体/静态资源 CDN 加速域名
 
+# > Ghost 博客平台
+
+DOMAIN-SUFFIX,ghost.io # Ghost 博客与内容管理平台官方网站与核心服务入口
+DOMAIN-SUFFIX,admin.ghost.io # Ghost 官方管理后台入口，用于站点与账户管理
+DOMAIN-SUFFIX,api.ghost.io # Ghost 官方 API 服务域名，用于平台功能调用与数据交互
+DOMAIN-SUFFIX,content.ghost.io # Ghost 官方内容与静态资源分发域名
+DOMAIN-SUFFIX,cdn.ghost.io # Ghost 官方 CDN 资源节点，用于前端资源加载与加速
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
