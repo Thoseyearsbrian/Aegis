@@ -6125,6 +6125,12 @@ DOMAIN-SUFFIX,api.ghost.io # Ghost 官方 API 服务域名，用于平台功能�
 DOMAIN-SUFFIX,content.ghost.io # Ghost 官方内容与静态资源分发域名
 DOMAIN-SUFFIX,cdn.ghost.io # Ghost 官方 CDN 资源节点，用于前端资源加载与加速
 
+# > Buy Me a Coffee 创作者支持平台
+
+DOMAIN-SUFFIX,buymeacoffee.com # Buy Me a Coffee 创作者支持与赞助平台主站，用于创作者页面、赞助入口与平台服务
+DOMAIN-SUFFIX,cdn.buymeacoffee.com # Buy Me a Coffee 前端 CDN，用于分发赞助按钮、嵌入组件与静态资源
+DOMAIN-SUFFIX,api.buymeacoffee.com # Buy Me a Coffee 平台 API 接口，用于赞助请求、用户信息与组件交互
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
