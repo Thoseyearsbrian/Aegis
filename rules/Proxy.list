@@ -6132,6 +6132,10 @@ DOMAIN-SUFFIX,buymeacoffee.com # Buy Me a Coffee 创作者支持与赞助平台�
 DOMAIN-SUFFIX,cdn.buymeacoffee.com # Buy Me a Coffee 前端 CDN，用于分发赞助按钮、嵌入组件与静态资源
 DOMAIN-SUFFIX,api.buymeacoffee.com # Buy Me a Coffee 平台 API 接口，用于赞助请求、用户信息与组件交互
 
+# > Mintlify 文档平台 CDN
+
+DOMAIN-SUFFIX,mintcdn.com # Mintlify 文档平台使用的 CDN 域名，用于分发开发者文档站点的静态资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享

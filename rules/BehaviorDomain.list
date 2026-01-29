@@ -696,10 +696,6 @@ DOMAIN-SUFFIX,datalog.iflysec.com # 科大讯飞数据采集接口，用于行�
 
 DOMAIN-SUFFIX,bigdata.talkie-ai.com # Talkie-AI 数据分析与行为建模服务端，用于大模型日志处理、埋点上报与大数据分析
 
-# > MintCDN（国内通用静态资源 CDN）
-
-DOMAIN-SUFFIX,mintcdn.com # 国内通用静态资源 CDN，用于网站前端脚本、样式、图片与静态资源加速分发
-
 # > Koala（GetKoala 前端组件 / 营销工具平台）
 
 DOMAIN-SUFFIX,events.getkoala.com # Koala 行为事件上报域名，用于记录用户点击、浏览、互动行为（埋点服务）
