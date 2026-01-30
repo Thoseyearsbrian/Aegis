@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-09
+# - 更新时间：2026-01-30
 
 # > 小红书 相关域名
 
@@ -111,10 +111,18 @@ DOMAIN-SUFFIX,upos-sz-mirroralib.bilivideo.com # Bilibili UPOS 视频镜像节�
 IP-CIDR,203.107.1.65 # 阿里云公共解析节点（AliDNS），用于域名 upos-sz-mirrorcos.bilivideo.com 的解析请求
 IP-CIDR,61.170.65.76 # Bilibili 静态内容 CDN 节点，对应域名 upos-sz-staticcos.bilivideo.com，用于分发视频与资源文件
 
-# > 视频平台
+# > 爱奇艺 相关域名
 
 DOMAIN-SUFFIX,iqiyi.com # 爱奇艺
 DOMAIN-SUFFIX,iq.com # 爱奇艺国际版
+DOMAIN-SUFFIX,iqiyipic.com # 爱奇艺图片与封面资源 CDN 主域，用于视频封面、海报与推荐位图片加载
+DOMAIN-SUFFIX,pic0.iqiyipic.com # 爱奇艺图片 CDN 节点 0，用于视频封面与静态图片分发
+DOMAIN-SUFFIX,pic1.iqiyipic.com # 爱奇艺图片 CDN 节点 1，用于视频封面与静态图片分发
+DOMAIN-SUFFIX,pic2.iqiyipic.com # 爱奇艺图片 CDN 节点 2，用于视频封面与静态图片分发
+DOMAIN-SUFFIX,pic3.iqiyipic.com # 爱奇艺图片 CDN 节点 3，用于视频封面与静态图片分发
+
+# > 视频平台
+
 DOMAIN-SUFFIX,tudou.com # 土豆网
 DOMAIN-SUFFIX,v.qq.com # 腾讯视频主域
 DOMAIN-SUFFIX,video.qq.com # 腾讯视频内容域
