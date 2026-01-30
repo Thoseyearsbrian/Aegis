@@ -193,6 +193,60 @@ IP-CIDR,222.186.163.0/24 # 抖音图片签名与媒体资源服务节点
 IP-CIDR,222.188.8.0/24 # 字节跳动内容聚合与业务调度节点（aggr）
 IP-CIDR,223.111.116.0/24 # 字节跳动直播与多媒体内容分发 CDN 节点
 
+# > 字节跳动相关行为指纹（当前采用 ChinaMedia 路由策略）
+
+DOMAIN-SUFFIX,lf3-config.bytetcc.com # 字节跳动配置下发域名，用于 App 启动参数、A/B 策略、开关配置与 SDK 初始化信息加载
+DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 日志接口
+DOMAIN-SUFFIX,mon.snssdk.com # 字节跳动行为统计与设备指纹接口
+DOMAIN-SUFFIX,log.snssdk.com # 字节跳动行为日志与事件上传接口
+DOMAIN-SUFFIX,api5-normal-lf.amemv.com # 抖音行为监控接口（API5 通道）
+DOMAIN-SUFFIX,api5-normal-lq.amemv.com # 抖音行为监控接口（备用线路）
+DOMAIN-SUFFIX,sf16-muse-va.ibytedtos.com # 字节跳动日志上报与 SDK 签名验证域
+DOMAIN-SUFFIX,ib.snssdk.com # 字节跳动行为数据回传主站
+DOMAIN-SUFFIX,data.bytedance.net # 字节跳动数据上传与分析平台
+DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com # 字节跳动穿山甲广告 SDK 接口
+DOMAIN-SUFFIX,mssdk.volces.com # 火山引擎 MSSDK 数据接口，用于移动行为数据采集与上传
+DOMAIN-SUFFIX,is.snssdk.com # 今日头条内容推荐请求接口
+DOMAIN-SUFFIX,bytedapm.com # 字节跳动 APM（Application Performance Monitoring）性能监控主域，用于前端性能、错误日志与稳定性数据上报
+DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com # 字节 APM 新加坡区域上报节点，用于测速、崩溃日志与实时埋点事件采集
+IP-CIDR,1.194.30.0/24 # 字节跳动客户端监控节点
+IP-CIDR,36.110.186.0/24 # 字节跳动 Frontier 接入节点（frontier-aweme.snssdk.com），用于客户端接入调度、请求分发与行为环境控制
+IP-CIDR,49.67.73.0/24 # 字节跳动行为策略与数据接口节点（zijieapi）
+IP-CIDR,49.79.134.0/24 # ByteDance 内部日志与运行状态上报节点（amemv），用于直播链路稳定性与服务监控
+IP-CIDR,58.215.92.72/32 # 字节跳动直播业务行为与控制通信节点（非内容分发）
+IP-CIDR,58.216.14.0/24 # 字节跳动 ABTest 与实验配置服务节点（abtest3-misc-hj.zijieapi.com）
+IP-CIDR,58.216.15.0/24 # 字节跳动客户端行为通信节点
+IP-CIDR,58.216.106.0/24 # 字节跳动客户端监控节点
+IP-CIDR,58.218.65.9/32 # 字节跳动客户端行为数据聚合节点（aggr 通道）
+IP-CIDR,58.222.35.0/24 # 字节跳动 ABTest 与实验配置服务节点，用于功能实验、参数下发与配置控制
+IP-CIDR,58.222.51.0/24 # 字节跳动业务策略与实验配置接口（zijieapi）
+IP-CIDR,58.223.176.0/24 # 字节跳动客户端监控服务节点（mon11-misc-hl.amemv.com）
+IP-CIDR,59.82.113.0/24 # 阿里系广告与用户行为统计网络节点，用于行为埋点、访问路径与效果分析数据回传
+IP-CIDR,59.82.121.0/24 # 行为分析与策略数据回传中继节点，可能被多业务 SDK 用于遥测与统计通信
+IP-CIDR,60.163.128.0/24 # 字节跳动客户端监控与杂项通信节点
+IP-CIDR,61.147.216.0/24 # 抖音行为数据聚合与策略通信接口节点（amemv）
+IP-CIDR,61.147.235.0/24 # 字节跳动行为数据聚合与日志回传节点，用于客户端运行状态与行为信息通信
+IP-CIDR,101.226.26.0/24 # 抖音业务通用通信节点，常用于数据服务分发与追踪上报
+IP-CIDR,106.225.217.0/24 # 字节跳动客户端监控与运行状态上报节点
+IP-CIDR,106.225.243.0/24 # 字节跳动客户端监控与杂项服务节点
+IP-CIDR,117.21.229.0/24 # 字节跳动客户端监控与杂项服务节点，用于运行状态、性能指标与基础行为数据上报
+IP-CIDR,117.40.89.0/24 # 字节跳动客户端监控节点
+IP-CIDR,117.91.177.0/24 # 字节跳动内部服务协调与链路控制节点（klink.amemv.com）
+IP-CIDR,119.42.231.0/24 # 阿里系数据分析与行为遥测通信节点，可能用于客户端日志、设备信息与统计数据回传
+IP-CIDR,123.183.233.0/24 # 字节跳动日志与遥测上报节点（amemv），用于客户端运行状态与行为日志收集
+IP-CIDR,140.249.108.0/24 # 字节跳动日志与遥测上报节点
+IP-CIDR,180.97.232.0/24 # 字节跳动 Polaris 策略与推荐调度节点，用于行为分析与内容分发决策
+IP-CIDR,180.97.251.0/24 # 字节跳动客户端监控与状态上报节点（mon0-misc）
+IP-CIDR,180.101.199.0/24 # 字节跳动 ABTest 实验配置节点，用于功能灰度、策略对照与行为分析
+IP-CIDR,180.101.218.0/24 # 字节跳动客户端监控与状态上报节点（mon0-misc-hl.amemv.com）
+IP-CIDR,180.105.58.0/24 # 抖音聚合与行为策略接口节点（amemv）
+IP-CIDR,203.119.238.0/24 # 阿里广告网络归属 IP，疑似用于行为分析与广告数据传输
+IP-CIDR,221.230.244.0/24 # 字节跳动客户端日志回传服务节点（log-lq.snssdk.com）
+IP-CIDR,221.231.47.0/24 # 字节跳动监控与遥测服务节点（mon.toutiaocloud.net）
+IP-CIDR,221.231.83.0/24 # 字节跳动客户端杂项监控节点（mon0-misc-hl.amemv.com）
+IP-CIDR,221.194.131.0/24 # 字节跳动日志回传服务节点（log0-misc.amemv.com），用于客户端日志与诊断数据上传
+IP-CIDR,222.186.177.0/24 # 字节跳动客户端监控与杂项服务节点（mon0-misc.amemv.com），用于运行状态、性能指标与基础行为上报
+
 # > 小红书 相关域名
 
 DOMAIN-SUFFIX,xiaohongshu.com # 小红书主站
