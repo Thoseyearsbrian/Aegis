@@ -121,6 +121,12 @@ DOMAIN-SUFFIX,pic1.iqiyipic.com # 爱奇艺图片 CDN 节点 1，用于视频封
 DOMAIN-SUFFIX,pic2.iqiyipic.com # 爱奇艺图片 CDN 节点 2，用于视频封面与静态图片分发
 DOMAIN-SUFFIX,pic3.iqiyipic.com # 爱奇艺图片 CDN 节点 3，用于视频封面与静态图片分发
 
+# > 苏宁体育 / PP 体育 相关域名
+
+DOMAIN-SUFFIX,ssports.com # 苏宁体育（PP 体育）官方平台域名，提供体育赛事内容、直播与相关服务
+DOMAIN-SUFFIX,show.ssports.com # 苏宁体育赛事展示与直播页面，用于体育内容与专题展示
+DOMAIN-SUFFIX,data.ssports.com # 苏宁体育赛事数据与比分统计服务，用于比赛数据与技术统计展示
+
 # > 视频平台
 
 DOMAIN-SUFFIX,tudou.com # 土豆网
