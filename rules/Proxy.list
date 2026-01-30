@@ -5983,6 +5983,11 @@ DOMAIN-SUFFIX,vecpea.com # Vecpea 官方在线矢量图形与 SVG 编辑工具�
 DOMAIN-SUFFIX,kali.org # Kali Linux 官网及更新服务，常用于渗透测试与安全工具下载
 DOMAIN-SUFFIX,kali.download # Kali Linux 官方镜像与下载服务域名，用于操作系统镜像、工具包与仓库同步下载
 
+# > Kali Linux 安全发行版镜像服务
+
+DOMAIN-SUFFIX,darklab.sh # Darklab 安全研究与渗透测试相关服务域名
+DOMAIN-SUFFIX,kali.darklab.sh # Kali Linux 第三方镜像站，用于系统镜像与安全工具软件包分发
+
 # > FCIX 开源软件镜像与内容分发服务
 
 DOMAIN-SUFFIX,mirror.fcix.net # FCIX（Free and Commercial Internet Exchange）公共镜像站点，用于提供 Linux 发行版、开源软件与系统镜像的高速下载服务
