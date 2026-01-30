@@ -6000,6 +6000,11 @@ DOMAIN-SUFFIX,ftp2.osuosl.org # OSUOSL 提供的开源软件镜像 FTP 服务，
 
 DOMAIN-SUFFIX,kali.cs.nycu.edu.tw # 国立阳明交通大学（NYCU）提供的 Kali Linux 官方镜像与网络安全教学资源站点
 
+# > UC Berkeley OCF 开源软件镜像服务
+
+DOMAIN-SUFFIX,ocf.berkeley.edu # 加州大学伯克利分校 OCF（Open Computing Facility）官方域名
+DOMAIN-SUFFIX,mirrors.ocf.berkeley.edu # UC Berkeley OCF 公共开源软件镜像站，用于 Linux 与各类开源项目软件包分发
+
 # > Ubuntu 官方网站与系统生态服务
 
 DOMAIN-SUFFIX,ubuntu.com # Ubuntu 官方主站域名，用于系统介绍、文档、下载入口、社区与企业服务信息展示
