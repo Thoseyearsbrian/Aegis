@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-29
+# - 更新时间：2026-01-30
 
 # > Speedtest 网络测速平台
 
@@ -6250,6 +6250,12 @@ DOMAIN-SUFFIX,phisoc.ulb.be # ULB 哲学与社会科学学院官方子站
 DOMAIN-SUFFIX,ltc.ulb.be # ULB 文学、翻译与传播学院官方子站
 DOMAIN-SUFFIX,psycho.ulb.be # ULB 心理与教育科学学院官方子站
 DOMAIN-SUFFIX,sbsem.ulb.be # Solvay Brussels School of Economics and Management (布鲁塞尔索尔维经济与管理学院) 子域名
+
+# > 71Edge CDN 内容分发与边缘加速服务
+
+DOMAIN-SUFFIX,71edge.com # 71Edge 内容分发网络（CDN）与边缘加速服务平台相关域名
+DOMAIN-SUFFIX,n1cloudcdnct.inter.71edge.com # 71Edge CDN 电信线路国际节点，用于静态资源与内容分发加速
+DOMAIN-SUFFIX,bscdnct.inter.71edge.com # 71Edge CDN 电信线路国际节点，用于静态资源与内容分发加速
 
 # > 第三方博客网站
 
