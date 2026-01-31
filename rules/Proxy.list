@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-30
+# - 更新时间：2026-01-31
 
 # > Speedtest 网络测速平台
 
@@ -6266,6 +6266,11 @@ DOMAIN-SUFFIX,sbsem.ulb.be # Solvay Brussels School of Economics and Management 
 DOMAIN-SUFFIX,71edge.com # 71Edge 内容分发网络（CDN）与边缘加速服务平台相关域名
 DOMAIN-SUFFIX,n1cloudcdnct.inter.71edge.com # 71Edge CDN 电信线路国际节点，用于静态资源与内容分发加速
 DOMAIN-SUFFIX,bscdnct.inter.71edge.com # 71Edge CDN 电信线路国际节点，用于静态资源与内容分发加速
+
+# > Broadcom 官方技术支持与客户服务平台
+
+DOMAIN-SUFFIX,broadcom.com # Broadcom 官方主域名，涵盖企业芯片、网络、安全与软件产品信息
+DOMAIN-SUFFIX,support.broadcom.com # Broadcom 官方技术支持与客户服务平台，用于文档、补丁、License 与工单系统访问
 
 # > 第三方博客网站
 
