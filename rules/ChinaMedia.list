@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-31
+# - 更新时间：2026-02-01
 
 # > 抖音（字节跳动） 相关域名
 
@@ -352,6 +352,13 @@ DOMAIN-SUFFIX,upos-sz-estgoss.bilivideo.com # Bilibili UPOS 视频对象存储�
 DOMAIN-SUFFIX,upos-sz-mirroralib.bilivideo.com # Bilibili UPOS 视频镜像节点（阿里云线路），用于视频缓存、加速与稳定性保障
 IP-CIDR,203.107.1.65 # 阿里云公共解析节点（AliDNS），用于域名 upos-sz-mirrorcos.bilivideo.com 的解析请求
 IP-CIDR,61.170.65.76 # Bilibili 静态内容 CDN 节点，对应域名 upos-sz-staticcos.bilivideo.com，用于分发视频与资源文件
+
+# > Bilibili 行为分析服务域名（当前采用 ChinaMedia 路由策略）
+
+DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流日志接口域名，用于客户端事件上报与行为分析 
+DOMAIN-SUFFIX,data.bilibili.com # Bilibili 数据采集与分析接口，用于用户行为统计与日志上传 
+DOMAIN-SUFFIX,ali-web-player-tracker.biliapi.net # 哔哩哔哩播放器追踪接口，用于采集网页端播放行为、埋点与用户互动数据
+DOMAIN-SUFFIX,cm.bilibili.com # 哔哩哔哩客户端行为统计与事件上报域名，用于播放、点击、曝光等用户行为数据采集与推荐系统反馈
 
 # > 爱奇艺 相关域名
 
