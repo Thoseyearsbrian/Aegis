@@ -189,8 +189,8 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 3. **支持使用非中国大陆国家的 GEOIP 查询规则，因为目前使用的数据库支持全球国家IP段**
 
    ```bash
-   GEOIP,US, PROXY   # 正确
-   GEOIP,AU, PROXY   # 正确
+   GEOIP,US, Proxy   # 正确
+   GEOIP,AU, Proxy   # 正确
    GEOIP,CN, DIRECT  # 正确
    ```
 4. **出现 “tun-excluded-routes 参数已配置，该参数可能导致切换网络后出现异常，请谨慎使用” 的说明**

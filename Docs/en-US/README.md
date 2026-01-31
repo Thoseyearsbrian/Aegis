@@ -197,8 +197,8 @@ Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch o
 3. **Supports GEOIP query rules for countries outside mainland China, as the current database supports global country IP ranges.**
 
    ```bash
-   GEOIP,US, PROXY   # Valid
-   GEOIP,AU, PROXY   # Valid
+   GEOIP,US, Proxy   # Valid
+   GEOIP,AU, Proxy   # Valid
    GEOIP,CN, DIRECT  # Valid
    ```
 
