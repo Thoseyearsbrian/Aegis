@@ -5959,6 +5959,7 @@ DOMAIN-SUFFIX,blackrock.com # BlackRock（贝莱德）官方企业网站主域�
 DOMAIN-SUFFIX,careers.blackrock.com # BlackRock 官方招聘与职业发展平台，用于全球岗位发布与人才招聘
 DOMAIN-SUFFIX,ir.blackrock.com # BlackRock 投资者关系（IR）网站，用于财报披露、股东信息与公司公告发布
 DOMAIN-SUFFIX,docs.blackrock.com # BlackRock 官方文档与资料分发域名，用于研究报告、白皮书与产品说明文档访问
+DOMAIN-SUFFIX,ishares.com # iShares（贝莱德 BlackRock）旗下 ETF 与基金产品官方网站
 
 # > 8-Lives Cat 应用后端服务与订阅计费基础设施
 
