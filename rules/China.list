@@ -892,6 +892,10 @@ DOMAIN-SUFFIX,ebank.hsbank.com.cn # 网上银行服务域名，提供账户管�
 DOMAIN-SUFFIX,m.hsbank.com.cn # 移动端门户域名，适配手机浏览器访问 
 DOMAIN-SUFFIX,wap.hsbank.com.cn # 旧版手机网站服务入口，部分系统仍使用 
 
+# > 江苏省农村商业银行电子银行与金融服务平台
+
+DOMAIN-SUFFIX,js96008.com # 江苏省农村商业银行电子银行官方域名，用于网上银行、账户服务与金融业务访问
+
 # > 国家政务服务平台相关域名（国务院 / 各级政务服务统一入口）
 
 DOMAIN-SUFFIX,gov.cn # 中国政府主域名，用于各类政务服务与信息发布 
