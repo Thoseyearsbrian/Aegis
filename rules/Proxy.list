@@ -5961,6 +5961,10 @@ DOMAIN-SUFFIX,ir.blackrock.com # BlackRock 投资者关系（IR）网站，用�
 DOMAIN-SUFFIX,docs.blackrock.com # BlackRock 官方文档与资料分发域名，用于研究报告、白皮书与产品说明文档访问
 DOMAIN-SUFFIX,ishares.com # iShares（贝莱德 BlackRock）旗下 ETF 与基金产品官方网站
 
+# > Vanguard（先锋集团）官方投资者服务平台
+
+DOMAIN-SUFFIX,investor.vanguard.com # Vanguard（先锋集团）官方投资者门户，用于基金产品、投资组合管理及客户服务访问
+
 # > 8-Lives Cat 应用后端服务与订阅计费基础设施
 
 DOMAIN-SUFFIX,8-lives-cat.io # 8-Lives Cat 应用官方域名，用于产品服务入口与后端接口承载
