@@ -5964,6 +5964,11 @@ DOMAIN-SUFFIX,ishares.com # iShares（贝莱德 BlackRock）旗下 ETF 与基金
 # > Vanguard（先锋集团）官方投资者服务平台
 
 DOMAIN-SUFFIX,investor.vanguard.com # Vanguard（先锋集团）官方投资者门户，用于基金产品、投资组合管理及客户服务访问
+DOMAIN-SUFFIX,vanguard.com # Vanguard（先锋集团）官方主域名，提供投资产品、基金信息与客户服务
+DOMAIN-SUFFIX,cdn.web.vanguard.com # Vanguard 官方网站前端静态资源 CDN，用于页面样式与脚本加载
+DOMAIN-SUFFIX,personal1.vanguard.com # Vanguard 投资者个人账户服务域名，用于登录、账户管理与投资操作
+DOMAIN-SUFFIX,mc3-static-assets.web.vanguard.com # Vanguard 网站静态资源与多媒体资产分发子域
+DOMAIN-SUFFIX,milestoneinternet.com # Milestone Internet 网站平台服务域名，Vanguard 官网所使用的企业级建站与内容管理服务
 
 # > 8-Lives Cat 应用后端服务与订阅计费基础设施
 
