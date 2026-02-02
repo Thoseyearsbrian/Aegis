@@ -1452,6 +1452,9 @@ DOMAIN-SUFFIX,query.sogou.com # 搜狗关键词请求与联想输入建议接口
 DOMAIN-SUFFIX,pv.sogou.com # 搜狗页面访问记录上报接口 
 DOMAIN-SUFFIX,adx.sogou.com # 搜狗广告展示平台接口，用于投放与追踪 
 DOMAIN-SUFFIX,ie.sogou.com # 搜狗搜索推广相关落地页接口 
+DOMAIN-SUFFIX,sogoucdn.com # 搜狗内容与静态资源分发 CDN 主域，用于图片、下载资源与 Web 静态内容加载
+DOMAIN-SUFFIX,img03.sogoucdn.com # 搜狗图片与静态资源 CDN 节点，用于搜索结果与内容页图片加载
+DOMAIN-SUFFIX,dlweb.sogoucdn.com # 搜狗 Web 端下载与静态资源分发 CDN，用于客户端与页面相关资源获取
 
 # > 360 搜索引擎相关域名规则集（360 Search）
 
@@ -2246,3 +2249,4 @@ DOMAIN-SUFFIX,img.lehinet.com # 第三方图片静态资源托管域名，用于
 # > 工商网监电子标识（EBS）官方校验服务
 
 DOMAIN-SUFFIX,szcert.ebs.org.cn # 工商网监电子标识（EBS）官方校验与认证服务域名，用于网站主体资质核验与监管合规验证
+
