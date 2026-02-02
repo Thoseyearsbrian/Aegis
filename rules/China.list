@@ -235,6 +235,7 @@ DOMAIN-SUFFIX,ovscdns.com # 腾讯相关网络访问中转与调度节点域名
 DOMAIN-SUFFIX,qlogo.cn # QQ 用户头像与标识资源 CDN 域名
 DOMAIN-SUFFIX,icq.com # 腾讯旗下 ICQ 国际即时通信服务相关域名
 DOMAIN-SUFFIX,privacy.qq.com # 腾讯官方隐私政策与数据保护说明站点，用于展示隐私条款、合规信息与用户数据权利说明
+DOMAIN-SUFFIX,inews.gtimg.com # 腾讯新闻图片与内容资源 CDN，用于新闻正文、封面图与信息流媒体加载
 
 # > ByteDance AI（Doubao / VolcEngine）相关域名
 
