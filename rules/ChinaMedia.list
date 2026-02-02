@@ -389,6 +389,10 @@ DOMAIN-SUFFIX,om.gtimg.cn # 腾讯视频运营与页面静态资源 CDN，用于
 DOMAIN-SUFFIX,y.qq.com # QQ 音乐官方域名，用于音乐播放入口、榜单、歌单浏览及相关音乐内容访问
 DOMAIN-SUFFIX,adcdn6.tencentmusic.com # 腾讯音乐广告内容分发 CDN，用于音频/客户端场景下的广告素材与推广资源加载
 
+# > 腾讯全民 K 歌（WeSing）
+
+DOMAIN-SUFFIX,kg.qq.com # 腾讯全民 K 歌官方域名，用于在线 K 歌、音频内容播放、作品浏览与社区互动服务
+
 # > 视频平台
 
 DOMAIN-SUFFIX,tudou.com # 土豆网
