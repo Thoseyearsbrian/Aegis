@@ -239,6 +239,7 @@ DOMAIN-SUFFIX,inews.gtimg.com # 腾讯新闻图片与内容资源 CDN，用于�
 
 # > 腾讯应用宝（MyApp）应用管理与分发服务
 
+DOMAIN-SUFFIX,sj.qq.com # 腾讯应用宝官方网站，用于应用展示、下载页面访问与应用信息服务
 DOMAIN-SUFFIX,myapp.com # 腾讯应用宝官方主域名，用于应用分发、更新与服务访问
 DOMAIN-SUFFIX,pm.myapp.com # 腾讯应用宝应用管理与包发布接口，用于应用包信息、更新与后台通信
 
