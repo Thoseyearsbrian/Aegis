@@ -396,6 +396,12 @@ DOMAIN-SUFFIX,tmecp.tencentmusic.com # 腾讯音乐娱乐集团核心业务与�
 
 DOMAIN-SUFFIX,kg.qq.com # 腾讯全民 K 歌官方域名，用于在线 K 歌、音频内容播放、作品浏览与社区互动服务
 
+# > 酷我音乐（Kuwo Music）
+
+DOMAIN-SUFFIX,kuwo.cn # 酷我音乐主域
+DOMAIN-SUFFIX,kuwo.com # 酷我音乐备用域
+DOMAIN-SUFFIX,kwimgs.com # 酷我音乐 CDN
+
 # > 视频平台
 
 DOMAIN-SUFFIX,tudou.com # 土豆网
@@ -415,9 +421,6 @@ DOMAIN-SUFFIX,cdn.aixifan.com # AcFun CDN 服务
 
 # > 音乐平台
 
-DOMAIN-SUFFIX,kuwo.cn # 酷我音乐主域
-DOMAIN-SUFFIX,kuwo.com # 酷我音乐备用域
-DOMAIN-SUFFIX,kwimgs.com # 酷我音乐 CDN
 DOMAIN-SUFFIX,kugou.com # 酷狗音乐
 DOMAIN-SUFFIX,xiami.com # 虾米音乐（已停服）
 DOMAIN-SUFFIX,netease.com # 网易云音乐主域
