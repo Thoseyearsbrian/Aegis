@@ -376,11 +376,17 @@ DOMAIN-SUFFIX,ssports.com # 苏宁体育（PP 体育）官方平台域名，提�
 DOMAIN-SUFFIX,show.ssports.com # 苏宁体育赛事展示与直播页面，用于体育内容与专题展示
 DOMAIN-SUFFIX,data.ssports.com # 苏宁体育赛事数据与比分统计服务，用于比赛数据与技术统计展示
 
+# > 腾讯视频（Tencent Video）相关域名
+
+DOMAIN-SUFFIX,v.qq.com # 腾讯视频主域名，用于 Web 端视频内容访问与页面加载
+DOMAIN-SUFFIX,video.qq.com # 腾讯视频内容服务域名，用于视频播放页、接口调用与内容分发
+DOMAIN-SUFFIX,vm.gtimg.cn # 腾讯视频媒体资源 CDN 域名，用于视频切片、封面与播放相关静态资源加载
+DOMAIN-SUFFIX,vi.gtimg.cn # 腾讯视频图片与静态资源 CDN 域名，用于封面图、缩略图与 UI 资源分发
+DOMAIN-SUFFIX,om.gtimg.cn # 腾讯视频运营与页面静态资源 CDN，用于活动页与展示资源加载
+
 # > 视频平台
 
 DOMAIN-SUFFIX,tudou.com # 土豆网
-DOMAIN-SUFFIX,v.qq.com # 腾讯视频主域
-DOMAIN-SUFFIX,video.qq.com # 腾讯视频内容域
 DOMAIN-SUFFIX,mgtv.com # 芒果TV
 DOMAIN-SUFFIX,le.com # 乐视视频短域
 DOMAIN-SUFFIX,letv.com # 乐视视频主域
@@ -418,9 +424,6 @@ DOMAIN-SUFFIX,lishi.fm # 历史FM（播客平台）
 
 # > 短视频平台
 
-DOMAIN-SUFFIX,amemv.com # 抖音视频资源域名
-DOMAIN-SUFFIX,snssdk.com # 字节跳动旗下通用 SDK 接口
-DOMAIN-SUFFIX,pstatp.com # 抖音静态资源 CDN 域名
 DOMAIN-SUFFIX,toutiao.com # 今日头条主站（抖音广告分发源）
 DOMAIN-SUFFIX,ixigua.com # 西瓜视频主站（字节系）
 DOMAIN-SUFFIX,kuaishou.com # 快手主站
