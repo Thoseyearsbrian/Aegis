@@ -1307,3 +1307,8 @@ DOMAIN-SUFFIX,x.clearbitjs.com # Clearbit 行为识别与数据通信端点
 
 DOMAIN-SUFFIX,grafana.net # Grafana Cloud 服务与可观测性平台相关域名
 DOMAIN-SUFFIX,faro-collector-prod-us-central-0.grafana.net # Grafana Faro 前端可观测性行为与性能数据采集节点
+
+# > 第三方移动端 SDK 行为数据采集与通信服务
+
+DOMAIN-SUFFIX,sdktt.data.tianwenca.com # 第三方移动端 SDK 行为数据采集与统计回传服务，用于运行状态与使用行为上报
+DOMAIN-SUFFIX,api5-lq.qishui.com # 第三方 SDK 行为数据与效果统计接口，用于客户端数据上报与分析服务

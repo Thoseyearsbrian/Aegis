@@ -2200,11 +2200,6 @@ IP-CIDR,122.228.195.19/24 # 百科类内容查询与页面访问服务节点
 IP-CIDR,114.80.179.165/24 # 百科类内容查询与页面访问服务节点
 IP-CIDR,180.97.232.65/24 # 百科类内容查询与页面访问服务节点
 
-# > 国内移动端 SDK 与数据通信服务
-
-DOMAIN-SUFFIX,sdktt.data.tianwenca.com # 移动端 SDK 数据采集与通信服务
-DOMAIN-SUFFIX,api5-lq.qishui.com # 奇水 SDK 数据与接口通信服务
-
 # > Paddle SaaS 支付与订阅平台静态资源分发服务
 
 DOMAIN-SUFFIX,cdn.paddle.com # Paddle 官方静态资源与前端组件 CDN
