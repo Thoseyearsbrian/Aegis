@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-31
+# - 更新时间：2026-02-02
 
 # > Speedtest 网络测速平台
 
@@ -6285,6 +6285,11 @@ DOMAIN-SUFFIX,support.broadcom.com # Broadcom 官方技术支持与客户服务�
 # > ThemeForest 主题与模板市场（Envato）
 
 DOMAIN-SUFFIX,themeforest.net # ThemeForest 官方主题与模板市场主域名，用于主题购买、演示预览与数字资源下载
+
+# > 3D 数字资产与模型平台（Epic / Sketchfab）
+
+DOMAIN-SUFFIX,fab.com # Epic Games 旗下 3D 数字资产市场（Fab），用于模型、材质与数字内容交易与下载
+DOMAIN-SUFFIX,sketchfab.com # Sketchfab 3D 模型展示与分发平台，用于在线预览、嵌入展示与模型下载
 
 # > 第三方博客网站
 
