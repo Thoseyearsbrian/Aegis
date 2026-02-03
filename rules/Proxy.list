@@ -3070,6 +3070,9 @@ DOMAIN-SUFFIX,cp10.cloudflare.com # Cloudflare 内容分发节点，用于静态
 DOMAIN-SUFFIX,pages.dev # Cloudflare Pages 官方托管域名后缀，用于部署与访问静态网站（含项目子域）
 DOMAIN-SUFFIX,imagedelivery.net # Cloudflare Images 提供的图片内容分发与动态优化 CDN 服务
 DOMAIN-SUFFIX,dns.cloudflare.com # Cloudflare 提供的公共 DNS 解析服务域名
+DOMAIN-SUFFIX,dash.cloudflare.com # Cloudflare 控制台（Dashboard），用于账号管理、Workers、Pages 与平台配置
+DOMAIN-SUFFIX,workers.dev # Cloudflare Workers 默认部署域名，用于 Serverless 函数运行与测试
+DOMAIN-SUFFIX,cloudflareworkers.com # Cloudflare Workers 平台底层服务域名，用于运行时与调度支持
 IP-CIDR,1.1.1.1 # Cloudflare 公共 DNS 服务 IPv4 地址，用于加密 DNS 查询
 IP-CIDR,1.0.0.1 # Cloudflare 公共 DNS 备用 IPv4 地址，提供冗余 DNS 解析能力
 IP-CIDR,162.159.61.8/32 # Cloudflare 公共 DNS 服务节点 IP
