@@ -6302,6 +6302,14 @@ DOMAIN-SUFFIX,api.linear.app # Linear 官方 API 服务域名，用于 Issue、�
 DOMAIN-SUFFIX,assets.linear.app # Linear 前端静态资源域名，用于加载脚本、样式与 Web 应用资源
 DOMAIN-SUFFIX,cdn.linear.app # Linear 内容分发与前端资源 CDN，用于提升 Web 应用加载性能
 
+# > Figma 在线设计与协作平台
+
+DOMAIN-SUFFIX,figma.com # Figma 官方主域名，用于在线设计、原型制作与团队协作
+DOMAIN-SUFFIX,api.figma.com # Figma 官方 API 服务域名，用于设计文件、组件与协作数据接口通信
+DOMAIN-SUFFIX,static.figma.com # Figma 前端静态资源域名，用于加载 Web 应用脚本、样式与资源文件
+DOMAIN-SUFFIX,files.figma.com # Figma 设计文件与资源内容分发域名，用于画布、图片与素材加载
+DOMAIN-SUFFIX,cdn.figma.com # Figma 内容分发网络（CDN），用于提升设计文件与前端资源加载性能
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
