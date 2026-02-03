@@ -411,6 +411,7 @@ DOMAIN-SUFFIX,tfogc.com # Fan 直播伴侣官方域名，用于软件下载安�
 # > 当贝（Dangbei）智能电视应用与内容分发平台
 
 DOMAIN-SUFFIX,dangbei.com # 当贝智能电视应用与内容分发平台官方域名，用于电视应用市场访问、软件下载与内容服务
+DOMAIN-SUFFIX,jt5.dangbei.net # 当贝应用与内容分发节点，用于电视端应用包、更新资源与相关内容分发
 
 # > 视频平台
 
