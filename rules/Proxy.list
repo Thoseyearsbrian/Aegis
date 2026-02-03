@@ -6310,6 +6310,11 @@ DOMAIN-SUFFIX,static.figma.com # Figma 前端静态资源域名，用于加载 W
 DOMAIN-SUFFIX,files.figma.com # Figma 设计文件与资源内容分发域名，用于画布、图片与素材加载
 DOMAIN-SUFFIX,cdn.figma.com # Figma 内容分发网络（CDN），用于提升设计文件与前端资源加载性能
 
+# > Playwright 浏览器自动化与端到端测试框架
+
+DOMAIN-SUFFIX,playwright.dev # Playwright 官方项目网站与文档站点，用于自动化测试框架介绍、文档与使用指南
+DOMAIN-SUFFIX,api.playwright.dev # Playwright 官方文档 API 接口，用于加载文档索引、版本信息与示例内容
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
