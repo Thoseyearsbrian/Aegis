@@ -457,6 +457,7 @@ DOMAIN-SUFFIX,wstatic.letvcdn.com # 乐视视频 Web 端静态资源服务域名
 DOMAIN-SUFFIX,fe-go.letv.com # 乐视视频前端工程与页面逻辑服务域名，用于 Web 端页面功能、交互逻辑与前端模块加载
 DOMAIN-SUFFIX,dc.letv.com # 乐视视频数据采集与统计服务域名，用于页面访问统计、基础运营数据与服务调度分析
 DOMAIN-SUFFIX,ark.letv.com # 乐视视频核心播放与业务支撑服务域名，用于视频播放架构、能力调度及相关内部服务调用
+DOMAIN-SUFFIX,job.le.com # 乐视集团官方招聘平台域名，用于岗位发布、人才招聘、简历投递与雇主信息展示
 
 # > 视频平台
 
