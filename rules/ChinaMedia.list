@@ -433,10 +433,23 @@ DOMAIN-SUFFIX,tui.kugou.com # 酷狗音乐官方推广与活动入口域名，�
 
 DOMAIN-SUFFIX,tencentmusic.com # 腾讯音乐娱乐集团官方网站主域名，用于集团信息、产品矩阵展示与企业相关内容访问
 
+# > 土豆网（Tudou）视频平台
+
+DOMAIN-SUFFIX,tudou.com # 土豆网官方域名，用于视频点播、内容访问与用户界面服务
+
+# > 芒果 TV（MGTV）视频平台
+
+DOMAIN-SUFFIX,mgtv.com # 芒果 TV 官方主域名，用于视频点播、直播、节目页面与用户访问入口
+DOMAIN-SUFFIX,hitv.com # 芒果 TV 图片与静态资源 CDN 主域，用于封面图、剧照与页面素材分发
+DOMAIN-SUFFIX,static.hitv.com # 芒果 TV 前端静态资源 CDN，用于 JS、CSS 与页面基础资源加载
+DOMAIN-SUFFIX,cmsimgali.hitv.com # 芒果 TV 内容管理系统图片 CDN（阿里云线路），用于节目封面与运营素材分发
+DOMAIN-SUFFIX,img1.hitv.com # 芒果 TV 图片 CDN 节点 1，用于视频封面与静态图片加载
+DOMAIN-SUFFIX,img2.hitv.com # 芒果 TV 图片 CDN 节点 2，用于视频封面与静态图片加载
+DOMAIN-SUFFIX,img3.hitv.com # 芒果 TV 图片 CDN 节点 3，用于视频封面与静态图片加载
+DOMAIN-SUFFIX,img4.hitv.com # 芒果 TV 图片 CDN 节点 4，用于视频封面与静态图片加载
+
 # > 视频平台
 
-DOMAIN-SUFFIX,tudou.com # 土豆网
-DOMAIN-SUFFIX,mgtv.com # 芒果TV
 DOMAIN-SUFFIX,le.com # 乐视视频短域
 DOMAIN-SUFFIX,letv.com # 乐视视频主域
 DOMAIN-SUFFIX,wasu.cn # 华数TV
