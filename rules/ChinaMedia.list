@@ -404,9 +404,9 @@ DOMAIN-SUFFIX,kuwo.cn # 酷我音乐主域
 DOMAIN-SUFFIX,kuwo.com # 酷我音乐备用域
 DOMAIN-SUFFIX,kwimgs.com # 酷我音乐 CDN
 
-# > Fan 直播伴侣官方网站与产品入口服务
+# > Fan 直播伴侣软件下载与分发服务
 
-DOMAIN-SUFFIX,tfogc.com # Fan 直播伴侣官方网站域名
+DOMAIN-SUFFIX,tfogc.com # Fan 直播伴侣官方域名，用于软件下载安装、更新分发与产品相关资源访问
 
 # > 视频平台
 
