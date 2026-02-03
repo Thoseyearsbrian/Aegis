@@ -344,6 +344,12 @@ DOMAIN-SUFFIX,stats.12377.cn # 中央网信办举报平台统计与数据展示�
 
 DOMAIN-SUFFIX,jbts.mct.gov.cn # 全国文化和旅游市场网上举报投诉处理系统官方服务域名，用于文化和旅游领域违法违规行为的举报、投诉受理与处理
 
+# > 湖南省互联网辟谣平台（官方政务服务）
+
+DOMAIN-SUFFIX,pypt.rednet.cn # 湖南省互联网辟谣平台官方入口，用于网络谣言举报、辟谣信息发布与政务内容展示
+DOMAIN-SUFFIX,imgs.rednet.cn # 湖南省互联网辟谣平台静态资源 CDN，用于辟谣内容图片与页面素材加载
+DOMAIN-SUFFIX,j.rednet.cn # 红网政务平台前端支撑资源域名，为辟谣平台提供脚本与页面功能支持
+
 # > 中国信息通信研究院服务相关域名
 
 DOMAIN-SUFFIX,caict.ac.cn # 中国信息通信研究院官方网站域名，用于行业研究、标准发布与公共服务平台访问
