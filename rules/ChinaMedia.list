@@ -452,6 +452,7 @@ DOMAIN-SUFFIX,img4.hitv.com # 芒果 TV 图片 CDN 节点 4，用于视频封面
 
 DOMAIN-SUFFIX,le.com # 乐视视频官方主站域名，用于视频内容浏览、点播服务与页面访问
 DOMAIN-SUFFIX,tv.le.com # 乐视视频电视端与视频播放入口域名，用于视频播放页与内容服务接入
+DOMAIN-SUFFIX,letvcdn.com # 乐视视频官方静态资源与内容分发 CDN 域名，用于页面脚本、样式与多媒体资源加载
 
 # > 视频平台
 
