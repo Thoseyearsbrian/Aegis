@@ -258,6 +258,7 @@ DOMAIN-SUFFIX,resources.blogblog.com # Blogger（原 Blogspot）平台用于托�
 DOMAIN-SUFFIX,blogger.googleusercontent.com # Google Blogger 静态内容托管域名（如图片、资源等），不属于广告域名
 DOMAIN-SUFFIX,blogger.googleblog.com # Google Blogger 官方博客，用于发布平台公告、产品更新与政策说明
 DOMAIN-SUFFIX,bp.blogspot.com # Google Blogger（Blogspot）平台图片与静态资源 CDN 主域，用于博客文章图片、封面与媒体资源加载
+DOMAIN-SUFFIX,2.bp.blogspot.com # Google Blogger（Blogspot）平台图片与静态资源 CDN 主域，用于博客文章图片、封面与媒体资源加载
 
 # > Google FCM / 移动推送与实时消息通信节点（TCP 5228）
 
