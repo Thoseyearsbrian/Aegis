@@ -463,6 +463,10 @@ DOMAIN-SUFFIX,g3.letv.cn # 乐视视频国内加速与内容分发节点，用�
 DOMAIN-SUFFIX,lemall.com # 乐视商城官方域名，用于电商销售、硬件产品与相关服务访问
 DOMAIN-SUFFIX,g3.letv.cn # 乐视视频国内内容分发与加速节点，用于视频播放与多媒体资源加载
 
+# > CIBN 互联网电视（OTT）视频播放与内容分发服务
+
+DOMAIN-SUFFIX,ott.cibntv.net # CIBN 互联网电视（OTT）官方内容服务域名，用于视频播放、内容分发与终端电视业务接入
+
 # > 视频平台
 
 DOMAIN-SUFFIX,wasu.cn # 华数TV
