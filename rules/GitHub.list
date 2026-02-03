@@ -4,7 +4,7 @@
 # - 特征：涵盖 GitHub 主域名、子服务与 CDN 资源
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2025-12-29
+# - 更新时间：2026-02-04
 
 # > GitHub 主站与基础服务
 
@@ -12,11 +12,12 @@ DOMAIN-SUFFIX,github.com # GitHub 主站（代码托管/仓库浏览）
 DOMAIN-SUFFIX,githubusercontent.com # GitHub 用户内容、原始文件托管
 DOMAIN-SUFFIX,githubapp.com # GitHub App 服务相关域名
 DOMAIN-SUFFIX,githubassets.com # GitHub 静态资源加载，如 CSS/JS
-DOMAIN-SUFFIX,alive.github.com # GitHub 保活/连接测试服务
-DOMAIN-SUFFIX,github.blog # GitHub 官方博客平台（产品动态 / 公告）
+DOMAIN-SUFFIX,github.blog # GitHub 官方博客平台
 DOMAIN-SUFFIX,githubcopilot.com # GitHub Copilot AI 编程助手服务
-DOMAIN-SUFFIX,alive.github.com # GitHub 实时通知 / WebSocket 接口子域，用于事件推送与仓库通知等功能
+DOMAIN-SUFFIX,alive.github.com # GitHub 连接保活与网络连通性探测服务，用于客户端与 Web 服务状态检测
 DOMAIN-SUFFIX,ghbtns.com # GitHub Buttons 前端按钮组件与 iframe 资源加载服务
+DOMAIN-SUFFIX,docs.github.com # GitHub 官方文档站点（使用指南 / API / Actions / 安全公告）
+DOMAIN-SUFFIX,objects.githubusercontent.com # GitHub Release / LFS 对象存储服务
 IP-CIDR,140.82.114.25/32 # alive.github.com 对应的 GitHub 保活探测服务 IP，用于维持长连接状态与后台活动检测
 
 # > GitHub API 接口（CLI、Git操作、Webhook、REST/GraphQL）
