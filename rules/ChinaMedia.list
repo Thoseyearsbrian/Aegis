@@ -456,6 +456,7 @@ DOMAIN-SUFFIX,img4.hitv.com # 芒果 TV 图片 CDN 节点 4，用于视频封面
 # > 乐视视频（LeTV / Le.com）视频平台
 
 DOMAIN-SUFFIX,le.com # 乐视视频官方主站域名，用于视频内容浏览、点播服务与页面访问
+DOMAIN-SUFFIX,joy.cn # 乐视视频旧域
 DOMAIN-SUFFIX,tv.le.com # 乐视视频电视端与视频播放入口域名，用于视频播放页与内容服务接入
 DOMAIN-SUFFIX,letvcdn.com # 乐视视频官方静态资源与内容分发 CDN 域名，用于页面脚本、样式与多媒体资源加载
 DOMAIN-SUFFIX,wstatic.letvcdn.com # 乐视视频 Web 端静态资源服务域名，用于页面脚本、样式表与基础前端资源加载
@@ -491,7 +492,6 @@ DOMAIN-SUFFIX,1905.com # 电影网
 DOMAIN-SUFFIX,fun.tv # 风行网
 DOMAIN-SUFFIX,pptv.com # PPTV 主域
 DOMAIN-SUFFIX,pptv.net # PPTV CDN
-DOMAIN-SUFFIX,joy.cn # 乐视视频旧域
 DOMAIN-SUFFIX,acfun.cn # AcFun 弹幕视频网
 DOMAIN-SUFFIX,cdn.aixifan.com # AcFun CDN 服务
 

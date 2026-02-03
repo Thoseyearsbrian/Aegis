@@ -1484,16 +1484,6 @@ DOMAIN-SUFFIX,sogoucdn.com # 搜狗内容与静态资源分发 CDN 主域，用�
 DOMAIN-SUFFIX,img03.sogoucdn.com # 搜狗图片与静态资源 CDN 节点，用于搜索结果与内容页图片加载
 DOMAIN-SUFFIX,dlweb.sogoucdn.com # 搜狗 Web 端下载与静态资源分发 CDN，用于客户端与页面相关资源获取
 
-# > 奇虎 360（Qihoo 360）官方产品与基础设施服务
-
-DOMAIN-SUFFIX,360.cn # 奇虎 360 官方主域名，用于产品入口、服务介绍与账号体系访问
-DOMAIN-SUFFIX,qhimg.com # 奇虎 360 图片与静态资源服务域名，用于产品图像与界面素材加载
-DOMAIN-SUFFIX,qhstatic.com # 奇虎 360 官方静态资源与前端基础设施域名，用于脚本、样式与页面资源分发
-DOMAIN-SUFFIX,cdn.qhstatic.com # 奇虎 360 官方 CDN 静态资源节点，用于前端公共资源加速分发
-DOMAIN-SUFFIX,jx.cdn.qhstatic.com # 奇虎 360 官方 CDN 静态资源节点，用于 360 系产品前端脚本、样式与基础页面资源加载
-DOMAIN-SUFFIX,haosou.com # 360 搜索历史品牌域名，用于搜索与导航服务（仍有兼容访问）
-DOMAIN-SUFFIX,360safe.com # 360 安全产品相关服务域名，用于安全软件与防护服务支持
-
 # > 360 搜索引擎相关域名规则集（360 Search）
 
 DOMAIN-SUFFIX,so.com # 360 搜索主域名，用于搜索门户与结果展示 
