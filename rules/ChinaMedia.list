@@ -427,6 +427,7 @@ DOMAIN-SUFFIX,s3fx.kgimg.com # 酷狗音乐音效与播放器特效资源 CDN，
 DOMAIN-SUFFIX,s4fx.kgimg.com # 酷狗音乐音效与特效资源 CDN，用于播放器音效、界面动效与相关多媒体资源加载
 DOMAIN-SUFFIX,p3fx.kgimg.com # 酷狗音乐特效与多媒体资源分发节点，用于音效组件、动画与播放器视觉效果
 DOMAIN-SUFFIX,fxbssdl.kgimg.com # 酷狗音乐资源下载与分发节点，用于音效包、特效资源与相关组件文件下载
+DOMAIN-SUFFIX,tui.kugou.com # 酷狗音乐官方推广与活动入口域名，用于音乐推荐、活动页面与内容推广展示
 
 # > 腾讯音乐娱乐集团（Tencent Music Entertainment）
 
