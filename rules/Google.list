@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-02
+# - 更新时间：2026-02-03
 
 # > Google 各地区本地化搜索与服务入口域名
 
@@ -197,7 +197,6 @@ DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com # Google OAuth 账户管理接�
 # > CDN 与内容加载（Google CDN & Delivery）
 
 DOMAIN-SUFFIX,googlecode.com # Google Code 项目托管平台（已停用，但部分资源可能存续）
-DOMAIN-SUFFIX,blogger.googleusercontent.com # Google Blogger 静态内容托管域名（如图片、资源等），不属于广告域名
 DOMAIN-SUFFIX,googleusercontent.com # Google/YouTube 的 CDN 内容分发与图片加载域（含 yt3、play-lh 等子域）
 DOMAIN-SUFFIX,gstatic.com # Google 静态资源服务，用于加载 YouTube 公共资源与字体文件
 DOMAIN-SUFFIX,encrypted-tbn1.gstatic.com # Google 图片搜索缩略图资源域名
@@ -256,6 +255,8 @@ DOMAIN-SUFFIX,img.logo.dev # Logo.dev 项目的图标资源加载域名，由 Go
 DOMAIN-SUFFIX,blogblog.com # Google Blogger（Blogspot）平台基础域名，用于博客内容发布、Atom/RSS 订阅与页面资源加载，属于 Google 官方博客服务组件
 DOMAIN-SUFFIX,blogger.com # Google 旗下 Blogger 官方主站域名，用于博客创建、内容管理、主题配置与用户登录等核心功能
 DOMAIN-SUFFIX,resources.blogblog.com # Blogger（原 Blogspot）平台用于托管样式表、脚本、字体等静态资源的域名，归属于 Google 旗下
+DOMAIN-SUFFIX,blogger.googleusercontent.com # Google Blogger 静态内容托管域名（如图片、资源等），不属于广告域名
+DOMAIN-SUFFIX,blogger.googleblog.com # Google Blogger 官方博客，用于发布平台公告、产品更新与政策说明
 
 # > Google FCM / 移动推送与实时消息通信节点（TCP 5228）
 
