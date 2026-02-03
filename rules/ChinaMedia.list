@@ -416,6 +416,7 @@ DOMAIN-SUFFIX,yq.qun7.com # 当贝官方设备辅助与用户服务域名，用�
 DOMAIN-SUFFIX,ccc-x.jd.com # 当贝京东旗舰店网站域名，用于品牌官方旗舰店页面访问与相关服务
 DOMAIN-SUFFIX,webpic.dangbei.net # 当贝图片与前端静态资源 CDN 域名，用于应用封面、海报、UI 资源与页面素材加载
 DOMAIN-SUFFIX,jt.dangbei.net # 当贝应用与内容分发服务域名，用于电视端应用资源、接口请求及相关内容加载
+DOMAIN-SUFFIX,mallpic.dangbei.net # 当贝商城图片与静态资源分发域名，用于商品图片、宣传素材及商城页面资源加载
 
 # > 视频平台
 
