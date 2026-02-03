@@ -423,6 +423,10 @@ DOMAIN-SUFFIX,mallpic.dangbei.net # 当贝商城图片与静态资源分发域�
 DOMAIN-SUFFIX,kugou.com # 酷狗音乐官方主站域名，用于音乐播放、搜索、榜单、歌单及相关音乐内容访问
 DOMAIN-SUFFIX,join.tencentmusic.com # 腾讯音乐娱乐集团官方招聘与加入页面，用于人才招聘、岗位信息展示与企业雇主品牌访问
 
+# > 腾讯音乐娱乐集团（Tencent Music Entertainment）
+
+DOMAIN-SUFFIX,tencentmusic.com # 腾讯音乐娱乐集团官方网站主域名，用于集团信息、产品矩阵展示与企业相关内容访问
+
 # > 视频平台
 
 DOMAIN-SUFFIX,tudou.com # 土豆网
