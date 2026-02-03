@@ -448,10 +448,13 @@ DOMAIN-SUFFIX,img2.hitv.com # 芒果 TV 图片 CDN 节点 2，用于视频封面
 DOMAIN-SUFFIX,img3.hitv.com # 芒果 TV 图片 CDN 节点 3，用于视频封面与静态图片加载
 DOMAIN-SUFFIX,img4.hitv.com # 芒果 TV 图片 CDN 节点 4，用于视频封面与静态图片加载
 
+# > 乐视视频（LeTV / Le.com）视频平台
+
+DOMAIN-SUFFIX,le.com # 乐视视频官方主站域名，用于视频内容浏览、点播服务与页面访问
+DOMAIN-SUFFIX,tv.le.com # 乐视视频电视端与视频播放入口域名，用于视频播放页与内容服务接入
+
 # > 视频平台
 
-DOMAIN-SUFFIX,le.com # 乐视视频短域
-DOMAIN-SUFFIX,letv.com # 乐视视频主域
 DOMAIN-SUFFIX,wasu.cn # 华数TV
 DOMAIN-SUFFIX,1905.com # 电影网
 DOMAIN-SUFFIX,fun.tv # 风行网
