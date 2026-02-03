@@ -4,7 +4,7 @@
 # - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-02
+# - 更新时间：2026-02-04
 
 # > OpenAI Chat 系列
 
@@ -19,10 +19,11 @@ DOMAIN-SUFFIX,android.chat.openai.com # ChatGPT Android 客户端专用服务域
 DOMAIN-SUFFIX,ws.chatgpt.com # ChatGPT WebSocket 服务域名，用于实时对话与流式响应
 DOMAIN-SUFFIX,ab.chatgpt.com # ChatGPT A/B 测试与实验性功能路由服务
 DOMAIN-SUFFIX,oaiusercontent.com # OpenAI 用户内容托管域名（图片、文件、生成结果等）
-DOMAIN-SUFFIX,oaistatic.com # OpenAI 静态资源域名
+DOMAIN-SUFFIX,oaistatic.com # OpenAI 官方静态资源域名（文档样式、脚本、字体）
 DOMAIN-SUFFIX,persistent.oaistatic.com # OpenAI 持久化静态资源服务
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net # OpenAI API 使用的 Azure Edge CDN 分发节点
 DOMAIN-SUFFIX,openaiusercontent.com # OpenAI 用户内容与工具资源托管域名，用于技能配置、资源加载与附件分发
+DOMAIN-SUFFIX,docs.openai.com # OpenAI 官方开发者文档站点，用于 API 文档、模型说明与 SDK 指南
 IP-CIDR,59.188.250.54/32 # ChatGPT WebSocket 通信节点（Cloudflare 边缘）
 IP-CIDR,31.13.95.18/32 # ChatGPT 客户端连接使用的高性能边缘节点
 IP-CIDR,108.160.163.112/32 # OpenAI 服务通信中转节点
