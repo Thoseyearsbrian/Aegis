@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-02
+# - 更新时间：2026-02-03
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -334,6 +334,11 @@ DOMAIN-SUFFIX,chinadevelopment.com.cn # 中国产业发展促进相关组织域�
 DOMAIN-SUFFIX,sdpc.gov.cn # 国家发展改革委员会官方网站域名，用于宏观政策发布与行业政策协同
 DOMAIN-SUFFIX,cert.org.cn # 国家互联网应急中心（CNCERT）域名，用于网络安全事件通告与漏洞信息发布
 DOMAIN-SUFFIX,isc.org.cn # 中国互联网协会域名，用于行业自律、信息通报与公共服务平台
+
+# > 中央网信办违法和不良信息举报统计服务
+
+DOMAIN-SUFFIX,12377.cn # 中央网信办违法和不良信息举报平台主域名，用于网络违法信息举报与公共服务访问
+DOMAIN-SUFFIX,stats.12377.cn # 中央网信办举报平台统计与数据展示子域，用于举报数据统计、分析与可视化展示
 
 # > 中国信息通信研究院服务相关域名
 
