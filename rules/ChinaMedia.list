@@ -418,6 +418,11 @@ DOMAIN-SUFFIX,webpic.dangbei.net # 当贝图片与前端静态资源 CDN 域名�
 DOMAIN-SUFFIX,jt.dangbei.net # 当贝应用与内容分发服务域名，用于电视端应用资源、接口请求及相关内容加载
 DOMAIN-SUFFIX,mallpic.dangbei.net # 当贝商城图片与静态资源分发域名，用于商品图片、宣传素材及商城页面资源加载
 
+# > 酷狗音乐（Kugou Music）
+
+DOMAIN-SUFFIX,kugou.com # 酷狗音乐官方主站域名，用于音乐播放、搜索、榜单、歌单及相关音乐内容访问
+DOMAIN-SUFFIX,join.tencentmusic.com # 腾讯音乐娱乐集团官方招聘与加入页面，用于人才招聘、岗位信息展示与企业雇主品牌访问
+
 # > 视频平台
 
 DOMAIN-SUFFIX,tudou.com # 土豆网
@@ -437,7 +442,6 @@ DOMAIN-SUFFIX,cdn.aixifan.com # AcFun CDN 服务
 
 # > 音乐平台
 
-DOMAIN-SUFFIX,kugou.com # 酷狗音乐
 DOMAIN-SUFFIX,xiami.com # 虾米音乐（已停服）
 DOMAIN-SUFFIX,netease.com # 网易云音乐主域
 DOMAIN-SUFFIX,music.163.com # 网易云音乐
