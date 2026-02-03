@@ -461,6 +461,7 @@ DOMAIN-SUFFIX,job.le.com # 乐视集团官方招聘平台域名，用于岗位�
 DOMAIN-SUFFIX,letv.com # 乐视集团核心业务域名，用于视频平台、内容服务及集团相关业务入口
 DOMAIN-SUFFIX,g3.letv.cn # 乐视视频国内加速与内容分发节点，用于视频播放与多媒体资源加载
 DOMAIN-SUFFIX,lemall.com # 乐视商城官方域名，用于电商销售、硬件产品与相关服务访问
+DOMAIN-SUFFIX,g3.letv.cn # 乐视视频国内内容分发与加速节点，用于视频播放与多媒体资源加载
 
 # > 视频平台
 
