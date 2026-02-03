@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-03
+# - 更新时间：2026-02-04
 
 # > Speedtest 网络测速平台
 
@@ -6294,6 +6294,13 @@ DOMAIN-SUFFIX,sketchfab.com # Sketchfab 3D 模型展示与分发平台，用于�
 # > XrmToolBox 开发者 / 管理工具官网
 
 DOMAIN-SUFFIX,xrmtoolbox.com # XrmToolBox 官方网站域名，用于工具官网访问、文档浏览、软件下载及用户交互
+
+# > Linear 项目管理与问题追踪平台
+
+DOMAIN-SUFFIX,linear.app # Linear 官方 SaaS 平台主域名，用于项目管理、Issue 追踪与团队协作
+DOMAIN-SUFFIX,api.linear.app # Linear 官方 API 服务域名，用于 Issue、项目、用户等数据接口通信
+DOMAIN-SUFFIX,assets.linear.app # Linear 前端静态资源域名，用于加载脚本、样式与 Web 应用资源
+DOMAIN-SUFFIX,cdn.linear.app # Linear 内容分发与前端资源 CDN，用于提升 Web 应用加载性能
 
 # > 第三方博客网站
 
