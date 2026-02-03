@@ -423,6 +423,7 @@ DOMAIN-SUFFIX,mallpic.dangbei.net # 当贝商城图片与静态资源分发域�
 DOMAIN-SUFFIX,kugou.com # 酷狗音乐官方主站域名，用于音乐播放、搜索、榜单、歌单及相关音乐内容访问
 DOMAIN-SUFFIX,join.tencentmusic.com # 腾讯音乐娱乐集团官方招聘与加入页面，用于人才招聘、岗位信息展示与企业雇主品牌访问
 DOMAIN-SUFFIX,webimg.kgimg.com # 酷狗音乐前端图片与静态资源 CDN，用于网页端封面图、歌单图片与 UI 资源加载
+DOMAIN-SUFFIX,s3fx.kgimg.com # 酷狗音乐音效与播放器特效资源 CDN，用于播放音效、界面动效与相关多媒体资源加载
 DOMAIN-SUFFIX,s4fx.kgimg.com # 酷狗音乐音效与特效资源 CDN，用于播放器音效、界面动效与相关多媒体资源加载
 DOMAIN-SUFFIX,p3fx.kgimg.com # 酷狗音乐特效与多媒体资源分发节点，用于音效组件、动画与播放器视觉效果
 DOMAIN-SUFFIX,fxbssdl.kgimg.com # 酷狗音乐资源下载与分发节点，用于音效包、特效资源与相关组件文件下载
