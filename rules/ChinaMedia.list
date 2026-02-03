@@ -474,6 +474,8 @@ DOMAIN-SUFFIX,ott.cibntv.net # CIBN 互联网电视（OTT）官方内容服务�
 
 DOMAIN-SUFFIX,sohu.com # 搜狐集团主域名，涵盖门户资讯、搜狐视频、新闻、社区与综合互联网服务
 DOMAIN-SUFFIX,tv.sohu.com # 搜狐视频官方子域，用于视频在线播放、节目页面与相关视频内容服务
+DOMAIN-SUFFIX,css.tv.itc.cn # 搜狐视频 Web 端 CSS 样式资源域名，用于页面样式与布局加载
+DOMAIN-SUFFIX,js.tv.itc.cn # 搜狐视频 Web 端 JavaScript 脚本资源域名，用于播放器逻辑、页面交互与功能初始化
 
 # > 视频平台
 
