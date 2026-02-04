@@ -5,13 +5,14 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-27
+# - 更新时间：2026-02-04
 
 # > 系统服务（System Services）
 
 DOMAIN-SUFFIX,apple.com # Apple 主域名
 DOMAIN-SUFFIX,apple.cn # Apple 中国区官方主域名
 DOMAIN-SUFFIX,appleid.apple.com # Apple ID 登录验证域名
+DOMAIN-SUFFIX,cdn-apple.com # Apple 全球 CDN 服务域，用于加速媒体与截图内容分发
 DOMAIN-SUFFIX,appleid.cdn-apple.com # Apple ID 验证 CDN 节点
 DOMAIN-SUFFIX,configuration.apple.com # Apple 设备配置服务接口
 DOMAIN-SUFFIX,configuration.ls.apple.com # 启动配置服务
