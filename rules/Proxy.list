@@ -2723,6 +2723,7 @@ DOMAIN-SUFFIX,notion.services # Notion 后端服务域名，用于同步、数�
 DOMAIN-SUFFIX,api.notion.com # Notion 官方 API 域名，用于自动化、第三方集成与数据接口
 DOMAIN-SUFFIX,cachefly.net # Notion 使用的缓存网络加速节点，用于静态内容高性能分发
 DOMAIN-SUFFIX,amazonaws.com # Notion 使用的 AWS S3 存储端点（附件、文件、图片资源托管）
+DOMAIN-SUFFIX,status.notion.so # Notion 服务状态页面，用于查询系统运行状态与故障信息
 
 # > Evernote（国际版笔记服务 / 云端同步平台）
 
