@@ -2287,3 +2287,18 @@ DOMAIN-SUFFIX,img.lehinet.com # 第三方图片静态资源托管域名，用于
 
 DOMAIN-SUFFIX,szcert.ebs.org.cn # 工商网监电子标识（EBS）官方校验与认证服务域名，用于网站主体资质核验与监管合规验证
 
+# > 91手机助手（91 Assistant）应用商店与服务平台
+
+DOMAIN-SUFFIX,91.com # 91域名主站，用于多项91系列产品与服务入口
+DOMAIN-SUFFIX,zs.91.com # 91手机助手主域名（安卓/苹果应用市场与软件管理）
+DOMAIN-SUFFIX,apk.91.com # 91应用市场 APK 下载与静态资源服务
+DOMAIN-SUFFIX,down.91.com # 91助手下载安装与软件中心资源下载
+DOMAIN-SUFFIX,static.91img.com # 91助手静态资源 CDN，用于界面脚本/样式等资源分发
+
+# > 豌豆荚（Wandoujia）第三方应用市场
+
+DOMAIN-SUFFIX,wandoujia.com # 豌豆荚官方入口域名，用于应用市场访问与信息展示
+DOMAIN-SUFFIX,download.wandoujia.com # 豌豆荚应用下载与安装包分发
+DOMAIN-SUFFIX,static.wandoujia.com # 豌豆荚静态资源 CDN，用于前端界面组件与脚本/样式加载
+DOMAIN-SUFFIX,api.wandoujia.com # 豌豆荚 API 接口域名，用于搜索、更新、应用信息查询等业务逻辑
+
