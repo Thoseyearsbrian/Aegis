@@ -2351,3 +2351,13 @@ DOMAIN-SUFFIX,ks-game-web.kgw.com # 快手游戏 Web 平台组件子域，用于
 DOMAIN-SUFFIX,kechuangai.com # 科创爱主域名，用于企业/服务展示、业务访问页面与数据交互接口
 DOMAIN-SUFFIX,v1-kling.kechuangai.com # 科创爱业务接口子域，用于版本 v1 业务服务访问及组件交互
 
+# > 哈啰出行（HelloBike）业务与平台服务
+
+DOMAIN-SUFFIX,hellobike.com # 哈啰出行平台主域，用于共享单车、助力车、顺风车等出行业务访问及账号体系
+DOMAIN-SUFFIX,abapi.hellobike.com # 哈啰出行业务 API 域名，用于订单处理、设备通信与业务数据交互
+DOMAIN-SUFFIX,apmgw.hellobike.com # 哈啰出行应用性能监控与网关服务域名，用于服务调度、运行状态监测与链路治理
+DOMAIN-SUFFIX,static.hellobike.com # 哈啰出行静态资源域名，用于前端脚本、样式与页面资源加载
+DOMAIN-SUFFIX,img.hellobike.com # 哈啰出行图像资源域名，用于车辆图片、界面素材与运营内容展示
+DOMAIN-SUFFIX,cdn.hellobike.com # 哈啰出行内容分发网络域名，用于静态资源与媒体内容加速分发
+DOMAIN-SUFFIX,passport.hellobike.com # 哈啰出行账号认证域名，用于用户登录、身份验证与会话管理
+DOMAIN-SUFFIX,open.hellobike.com # 哈啰出行开放平台域名，用于合作接入、API 调用与业务集成
