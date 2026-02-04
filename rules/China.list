@@ -2392,3 +2392,12 @@ DOMAIN-SUFFIX,gofun.cn # GoFun 出行国内业务主域名，用于车辆租赁�
 DOMAIN-SUFFIX,api.gofun.com # GoFun 出行业务 API 域名，用于订单、车辆状态与用户数据通信
 DOMAIN-SUFFIX,m.gofun.com # GoFun 出行移动端站点域名，用于手机访问与业务交互
 DOMAIN-SUFFIX,static.gofun.com # GoFun 出行静态资源域名，用于前端脚本、样式与页面资源加载
+
+# > 滴滴租车（DiDi Car Rental）出行与车辆租赁服务平台
+
+DOMAIN-SUFFIX,didi.cn # 滴滴官方主域名，用于出行服务访问、账号体系与业务入口
+DOMAIN-SUFFIX,didiglobal.com # 滴滴国际业务主域名，用于海外出行与平台服务访问
+DOMAIN-SUFFIX,xiaojukeji.com # 滴滴主体公司小桔科技域名，用于平台服务与业务支持
+DOMAIN-SUFFIX,api.xiaojukeji.com # 滴滴核心业务 API 域名，用于订单、车辆与用户数据通信
+DOMAIN-SUFFIX,static.xiaojukeji.com # 滴滴前端静态资源域名，用于页面脚本、样式与基础资源加载
+DOMAIN-SUFFIX,img.xiaojukeji.com # 滴滴图像与媒体资源域名，用于图片与界面素材分发
