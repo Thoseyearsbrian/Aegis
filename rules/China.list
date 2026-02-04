@@ -1574,6 +1574,11 @@ DOMAIN-SUFFIX,quiclink-cn.yunxinfw.com # 云信 QUIC 加速链路节点
 DOMAIN-SUFFIX,httpdns.yunxinfw.com # 云信 HTTPDNS 加速服务域名
 DOMAIN-SUFFIX,lbs-sg.yunxinfw.com # 云信地理 / 负载加权服务节点
 
+# > 网易游戏服务与组件 相关域名
+
+DOMAIN-SUFFIX,game.163.com # 网易游戏平台通用域名，用于游戏官方网站、活动页与组件加载
+DOMAIN-SUFFIX,timejs.game.163.com # 网易游戏计时/脚本服务域名，用于游戏页面倒计时、动态组件等交互逻辑
+
 # > WisdomIR 投资者关系在线服务
 
 DOMAIN-SUFFIX,wisdomir.com # WisdomIR 投资者关系服务主域，用于企业公告、业绩披露与信息管理平台访问
