@@ -2376,3 +2376,11 @@ DOMAIN-SUFFIX,ehicar.com # 一嗨租车国际与业务主域名，用于平台�
 DOMAIN-SUFFIX,static.1hai.cn # 一嗨租车静态资源域名，用于页面脚本、样式与前端组件加载
 DOMAIN-SUFFIX,api.1hai.cn # 一嗨租车业务 API 域名，用于订单、车辆与账户数据通信
 DOMAIN-SUFFIX,m.1hai.cn # 一嗨租车移动端站点域名，用于手机浏览器访问与业务交互
+
+# > 首汽租车（Shouqi Car Rental）出行与车辆租赁平台
+
+DOMAIN-SUFFIX,shouqizuche.com # 首汽租车官方主域名，用于车辆租赁服务访问、订单管理与账号体系
+DOMAIN-SUFFIX,izuche.com # 首汽租车业务相关域名，用于平台服务访问与客户端通信
+DOMAIN-SUFFIX,static-shouqi.com # 首汽租车静态资源域名，用于前端脚本、样式与页面资源加载
+DOMAIN-SUFFIX,api.shouqizuche.com # 首汽租车业务 API 域名，用于订单、车辆与用户数据通信
+DOMAIN-SUFFIX,m.shouqizuche.com # 首汽租车移动端站点域名，用于手机访问与业务交互
