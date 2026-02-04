@@ -2412,7 +2412,16 @@ DOMAIN-SUFFIX,img.atzuche.com # 凹凸租车图像与媒体资源域名，用于
 # > 瑞卡租车（Reocar）车辆租赁与出行服务平台
 
 DOMAIN-SUFFIX,reocar.com # 瑞卡租车官方主域名，用于车辆租赁服务访问、订单管理与用户账号体系
-DOMAIN-SUFFIX,www.reocar.com # 瑞卡租车官网访问入口（由主域覆盖，可用于明确策略归属时参考）
 DOMAIN-SUFFIX,api.reocar.com # 瑞卡租车业务 API 域名，用于订单处理、车辆数据与平台通信
 DOMAIN-SUFFIX,static.reocar.com # 瑞卡租车前端静态资源域名，用于页面脚本、样式与基础资源加载
 DOMAIN-SUFFIX,img.reocar.com # 瑞卡租车图像与媒体资源域名，用于车辆图片与展示素材分发
+
+# > 车享家（CARPLUS）租车与出行服务
+
+DOMAIN-SUFFIX,carplus.cn # 车享家租车与出行服务主域名，用于车辆租赁、订单管理、账号体系与业务访问
+DOMAIN-SUFFIX,api.carplus.cn # 车享家业务 API 域名，用于订单、车辆数据与客户端交互
+DOMAIN-SUFFIX,static.carplus.cn # 静态资源域名，用于页面脚本、样式与静态组件资源加载
+DOMAIN-SUFFIX,img.carplus.cn # 图像资源域名，用于车辆图片、页面视觉素材分发
+DOMAIN-SUFFIX,m.carplus.cn # 移动端站点域名，用于移动网站访问与业务交互
+DOMAIN-SUFFIX,open.carplus.cn # 开放平台/合作接入域名，用于第三方 API 接入与服务扩展
+DOMAIN-SUFFIX,cdn.carplus.cn # 车享家 CDN 静态资源分发子域
