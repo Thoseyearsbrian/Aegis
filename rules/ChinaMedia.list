@@ -504,6 +504,11 @@ DOMAIN-SUFFIX,crush.163.com # 网易内容分发辅助域，用于图像、视�
 DOMAIN-SUFFIX,iplay.163.com # 网易相关音视频推广内容页与入口域名（常与 LOOK 直播关联）
 DOMAIN-SUFFIX,netease.com # NetEase 公司主体域名，用于主站访问与业务入口
 
+# > 网易天音 AI 音乐创作平台
+
+DOMAIN-SUFFIX,tianyin.music.163.com # 网易天音 AI 音乐创作平台域名，用于在线音乐创作服务
+DOMAIN-SUFFIX,tianyin.163.com # 网易天音官方网站入口域名，用于服务跳转与访问
+
 # > 视频平台
 
 DOMAIN-SUFFIX,wasu.cn # 华数TV
