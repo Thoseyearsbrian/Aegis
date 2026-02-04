@@ -4535,6 +4535,8 @@ DOMAIN-SUFFIX,main--da-bacom-blog--adobecom.aem.live # Adobe 官方博客与内�
 DOMAIN-SUFFIX,assets.adoberesources.net # Adobe 官方静态资源 CDN，用于加载产品页面所需的脚本、样式与媒体资源
 DOMAIN-SUFFIX,uploads-us-west-2.insided.com # Adobe 社区（Insided 平台）用户内容上传与资源存储节点
 DOMAIN-SUFFIX,static.customer-hub.northpass.com # Adobe Customer Hub 学习与客户支持平台静态资源域名（Northpass）
+DOMAIN-SUFFIX,acrobat.com # Adobe Acrobat 在线 PDF 服务域名，用于文档处理、共享与协作
+DOMAIN-SUFFIX,documentcloud.adobe.com # Adobe Document Cloud 服务域名，用于 PDF 存储、同步与管理
 
 # > Cloudflare 相关域名
 
