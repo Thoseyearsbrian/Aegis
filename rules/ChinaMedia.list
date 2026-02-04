@@ -595,6 +595,9 @@ DOMAIN-SUFFIX,ks-live.com # 金山云直播服务域名，用于实时流媒体�
 DOMAIN-SUFFIX,gifshow.com # 快手历史品牌与核心业务域名，部分客户端接口与服务仍依赖该域
 DOMAIN-SUFFIX,api.gifshow.com # 快手核心 API 接口域名，用于客户端通信、用户数据请求与业务功能调用
 DOMAIN-SUFFIX,live.kuaishou.com # 快手直播服务入口域名，用于直播间访问与互动功能支持
+DOMAIN-SUFFIX,p1.a.yximgs.com # 快手媒体资源 CDN 子域，用于图像、封面及页面多媒体资源加载
+DOMAIN-SUFFIX,pull.yximgs.com # 快手直播拉流服务主域，用于实时音视频流传输与播放调度
+DOMAIN-SUFFIX,ty-origin.pull.yximgs.com # 快手直播源站子域，用于直播源内容分发与边缘节点回源通信
 
 # > 视频平台
 
