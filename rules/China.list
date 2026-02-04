@@ -2435,3 +2435,9 @@ DOMAIN-SUFFIX,app.dongfeng-ev.com # 东风出行应用服务域名，用于客�
 DOMAIN-SUFFIX,static.dongfeng-ev.com # 页面静态资源与组件加载
 DOMAIN-SUFFIX,img.dongfeng-ev.com # 车辆图片与视觉资源分发
 DOMAIN-SUFFIX,m.dongfeng-ev.com # 移动端站点访问域名
+
+# > 小猪短租（Xiaozhu）住宿与短租平台服务
+
+DOMAIN-SUFFIX,xiaozhu.com # 小猪短租官方主域名，用于民宿预订、房源浏览与用户服务访问
+DOMAIN-SUFFIX,xiaozhuimg.com # 小猪短租图像与媒体资源 CDN 域名，用于房源图片与展示资源加载
+DOMAIN-SUFFIX,api.xiaozhu.com # 小猪短租业务 API 域名，用于订单、房源与用户数据通信
