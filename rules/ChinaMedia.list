@@ -523,6 +523,8 @@ DOMAIN-SUFFIX,img3.pplive.cn # PPTV 静态图像 CDN 子域，用于封面图、
 DOMAIN-SUFFIX,player.pplive.cn # PPTV 媒体播放入口与播放器资源域名（常见前端播放功能调用）
 DOMAIN-SUFFIX,static.pplive.cn # PPTV 静态资源域名，用于脚本、样式及公共资源加载
 DOMAIN-SUFFIX,osswc.pplive.cn # PPTV 媒体资源 CDN 子域，用于视频/页面媒体文件的静态资源分发
+DOMAIN-SUFFIX,kefu.pptv.com # PPTV 客服/帮助页面入口，用于用户支持服务访问
+DOMAIN-SUFFIX,article.pptv.com # PPTV 平台文章/资讯内容域名，用于展示帮助文档与内容相关文章
 
 # > 视频平台
 
