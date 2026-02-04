@@ -6320,6 +6320,15 @@ DOMAIN-SUFFIX,api.playwright.dev # Playwright 官方文档 API 接口，用于�
 DOMAIN-SUFFIX,playwright.azureedge.net # Playwright 浏览器内核与运行时组件 CDN（Chromium / WebKit / Firefox）
 DOMAIN-SUFFIX,playwright.microsoft.com # Playwright Microsoft 官方服务入口（发布、集成与支持）
 
+# > Jupyter Notebook 交互式计算与数据科学平台
+
+DOMAIN-SUFFIX,jupyter.org # Jupyter 官方主站域名，用于项目介绍、文档与生态入口
+DOMAIN-SUFFIX,notebook.jupyter.org # Jupyter Notebook 官方说明与下载指引页面
+DOMAIN-SUFFIX,jupyterlab.readthedocs.io # JupyterLab 官方文档托管域名，用于开发与使用指南访问
+DOMAIN-SUFFIX,nbviewer.org # Jupyter Notebook 在线渲染服务，用于直接预览 .ipynb 文件
+DOMAIN-SUFFIX,binderhub.readthedocs.io # BinderHub 文档站点，用于构建可运行的云端 Notebook 环境说明
+DOMAIN-SUFFIX,mybinder.org # Binder 公共实例域名，用于在线启动临时 Jupyter 运行环境
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
