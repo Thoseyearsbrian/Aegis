@@ -6361,6 +6361,17 @@ DOMAIN-SUFFIX,o0.ingest.sentry.io # Sentry 多租户事件采集节点，用于 
 DOMAIN-SUFFIX,o1.ingest.sentry.io # Sentry 多区域数据接入节点，用于应用监控数据传输
 DOMAIN-SUFFIX,cdn.ravenjs.com # Sentry Raven.js CDN，用于前端错误监控 SDK 分发
 
+# > Vercel 云部署与 Serverless 平台
+
+DOMAIN-SUFFIX,vercel.com # Vercel 官方主站域名，用于平台入口、账号管理与项目控制台访问
+DOMAIN-SUFFIX,vercel.app # Vercel 默认托管域名，用于部署静态网站、Serverless 应用与测试环境访问
+DOMAIN-SUFFIX,now.sh # Vercel 历史部署域名（ZEIT 时期），仍用于兼容旧项目访问
+DOMAIN-SUFFIX,vercel.sh # Vercel 平台基础服务域名，用于部署路由与平台级访问支持
+DOMAIN-SUFFIX,edge-network.vercel.com # Vercel Edge Network 节点域名，用于全球边缘加速与请求调度
+DOMAIN-SUFFIX,assets.vercel.com # Vercel 静态资源域名，用于加载控制台脚本、样式与界面组件
+DOMAIN-SUFFIX,vercel-dns.com # Vercel 官方 DNS 服务域名，用于域名解析与托管配置
+DOMAIN-SUFFIX,vercel-storage.com # Vercel 存储服务域名，用于对象存储与持久化资源访问
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
