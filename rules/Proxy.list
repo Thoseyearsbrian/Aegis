@@ -6387,6 +6387,15 @@ DOMAIN-SUFFIX,docs.esentire.com # 文档与帮助中心访问域名
 DOMAIN-SUFFIX,assets.esentire.com # 静态资源托管子域（如图片/脚本）
 DOMAIN-SUFFIX,cdn.esentire.com # CDN 媒体/资源分发子域
 
+# > CAR2GO / SHARE NOW 国际共享汽车服务平台
+
+DOMAIN-SUFFIX,car2go.com # CAR2GO 官方服务域名，用于共享汽车平台访问、账号体系与业务通信
+DOMAIN-SUFFIX,share-now.com # SHARE NOW 官方主域名（BMW 与 Mercedes-Benz 合资出行服务），用于车辆租赁与用户服务访问
+DOMAIN-SUFFIX,api.share-now.com # SHARE NOW 业务 API 域名，用于订单、车辆状态与用户数据通信
+DOMAIN-SUFFIX,m.share-now.com # SHARE NOW 移动端站点，用于移动设备访问与业务交互
+DOMAIN-SUFFIX,static.share-now.com # SHARE NOW 静态资源域名，用于前端脚本、样式与页面组件加载
+DOMAIN-SUFFIX,img.share-now.com # SHARE NOW 图像资源域名，用于车辆图片与界面媒体内容加载
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
