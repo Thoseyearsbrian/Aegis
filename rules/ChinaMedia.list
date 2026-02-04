@@ -557,6 +557,11 @@ DOMAIN-SUFFIX,tvax1.sinaimg.cn # 新浪微博/新浪图床图像 CDN 子域，�
 DOMAIN-SUFFIX,tvax2.sinaimg.cn # 新浪微博/新浪图床图像 CDN 子域，用于微博/新浪托管的图片资源快速加载
 DOMAIN-SUFFIX,tvax3.sinaimg.cn # 新浪微博/新浪图床图像 CDN 子域，用于微博/新浪托管的图片资源快速加载
 DOMAIN-SUFFIX,tvax4.sinaimg.cn # 新浪微博/新浪图床图像 CDN 子域，用于微博/新浪托管的图片资源快速加载
+DOMAIN-SUFFIX,tva1.sinaimg.cn # 新浪微博图像 CDN 子域，用于微博图片与静态媒体内容分发
+DOMAIN-SUFFIX,tva2.sinaimg.cn # 新浪微博图像 CDN 子域，用于微博动态图像与 UI 图片资源分发
+DOMAIN-SUFFIX,tva3.sinaimg.cn # 新浪微博图像 CDN 子域，用于微博图像资源加速与图片访问
+DOMAIN-SUFFIX,tva4.sinaimg.cn # 新浪微博图像 CDN 子域，用于微博内容的静态图像资源托管与加载
+DOMAIN-SUFFIX,livephoto.us.sinaimg.cn # 新浪 img 静态图片托管 CDN 子域，用于新浪微博/相关服务的图片资源加载
 
 # > 视频平台
 
