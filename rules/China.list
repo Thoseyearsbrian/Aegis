@@ -1556,6 +1556,7 @@ DOMAIN-SUFFIX,126.net # 网易静态资源域，用于加载通用前端内容�
 DOMAIN-SUFFIX,cstaticdun-v6.126.net # 网易易盾风控/验证码服务节点，用于表单提交、人机验证与登录安全校验
 DOMAIN-SUFFIX,ir-sdk.dun.163.com # 网易易盾 SDK 上报接口，用于设备指纹、行为识别与风控建模
 DOMAIN-SUFFIX,c.dun.163.com # 网易易盾客户端配置与策略下发接口，用于风控参数更新与策略同步
+DOMAIN-SUFFIX,dun.163.com # 网易易盾安全服务主域，用于安全防护、验证码/滑块验证等
 DOMAIN-SUFFIX,dun.163yun.com # 网易易盾安全服务主域，用于验证码、人机校验、反作弊与风险控制能力
 DOMAIN-SUFFIX,ac.dun.163yun.com # 网易易盾行为分析与访问控制接口，用于设备指纹识别、风险判定与安全策略执行
 
