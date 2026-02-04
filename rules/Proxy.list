@@ -6320,8 +6320,11 @@ DOMAIN-SUFFIX,cdn.figma.com # Figma 内容分发网络（CDN），用于提升�
 
 DOMAIN-SUFFIX,playwright.dev # Playwright 官方项目网站与文档站点，用于自动化测试框架介绍、文档与使用指南
 DOMAIN-SUFFIX,api.playwright.dev # Playwright 官方文档 API 接口，用于加载文档索引、版本信息与示例内容
+DOMAIN-SUFFIX,azureedge.net # Azure CDN 根域，Playwright 浏览器资源分发依赖
 DOMAIN-SUFFIX,playwright.azureedge.net # Playwright 浏览器内核与运行时组件 CDN（Chromium / WebKit / Firefox）
 DOMAIN-SUFFIX,playwright.microsoft.com # Playwright Microsoft 官方服务入口（发布、集成与支持）
+DOMAIN-SUFFIX,blob.core.windows.net # Azure Blob 存储，用于托管浏览器构建文件与依赖资源
+DOMAIN-SUFFIX,msedge.net # Microsoft Edge / Chromium 构建分发 CDN（部分 Playwright 下载链路使用）
 
 # > Jupyter Notebook 交互式计算与数据科学平台
 
