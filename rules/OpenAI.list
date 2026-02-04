@@ -53,6 +53,10 @@ DOMAIN-SUFFIX,tts.openai.com # OpenAI Text-to-Speech 服务域名，用于文本
 DOMAIN-SUFFIX,voice.openai.com # OpenAI 语音交互与实时音频处理服务域名，用于语音输入、合成与会话能力
 DOMAIN-SUFFIX,audio.openai.com # OpenAI 音频处理服务域名，用于语音识别（STT）、语音生成（TTS）与多媒体模型调用
 
+# > OpenAI Whisper 语音转写与音频理解服务
+
+DOMAIN-SUFFIX,whisper.openai.com # OpenAI Whisper 官方语音转写服务入口，用于音频识别、语音转文本与多语言理解
+
 # > Grok（xAI / Elon Musk）AI 服务相关域名
 
 DOMAIN-SUFFIX,x.ai # xAI 官方站点，Grok 所属公司
