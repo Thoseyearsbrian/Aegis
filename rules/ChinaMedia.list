@@ -526,6 +526,12 @@ DOMAIN-SUFFIX,osswc.pplive.cn # PPTV 媒体资源 CDN 子域，用于视频/页�
 DOMAIN-SUFFIX,kefu.pptv.com # PPTV 客服/帮助页面入口，用于用户支持服务访问
 DOMAIN-SUFFIX,article.pptv.com # PPTV 平台文章/资讯内容域名，用于展示帮助文档与内容相关文章
 
+# > 蜻蜓FM（Qingting FM） 在线音频与广播平台
+
+DOMAIN-SUFFIX,qingting.fm # 蜻蜓FM 主站域名，用于在线收听广播、播客、音乐与音频内容
+DOMAIN-SUFFIX,tingapi.com # 蜻蜓FM 移动应用 / Web API 接口域名，用于音频数据请求与客户端服务交互
+DOMAIN-SUFFIX,open.qingting.fm # 蜻蜓FM 开放平台域名，用于开放 API / 广播接入服务接入与第三方合作方案
+
 # > 视频平台
 
 DOMAIN-SUFFIX,wasu.cn # 华数TV
@@ -537,11 +543,9 @@ DOMAIN-SUFFIX,cdn.aixifan.com # AcFun CDN 服务
 # > 音乐平台
 
 DOMAIN-SUFFIX,xiami.com # 虾米音乐（已停服）
-DOMAIN-SUFFIX,tingapi.com # 蜻蜓FM 音乐平台
 
 # > 电台 / 播客平台
 
-DOMAIN-SUFFIX,qingting.fm # 蜻蜓FM 主域
 DOMAIN-SUFFIX,ximalaya.com # 喜马拉雅FM 主站
 DOMAIN-SUFFIX,himalaya.com # 喜马拉雅国际版
 DOMAIN-SUFFIX,lrts.me # 懒人听书
