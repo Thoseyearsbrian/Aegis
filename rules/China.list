@@ -2336,3 +2336,7 @@ DOMAIN-SUFFIX,blob.core.chinacloudapi.cn # Azure Blob Storage 对象存储公共
 DOMAIN-SUFFIX,web.core.chinacloudapi.cn # Azure Blob Storage 静态网站/资源访问终端（支持 Web 访问模式）
 DOMAIN-SUFFIX,core.chinacloudapi.cn # Azure 中国云通用 API 域名后缀
 
+# > 北森 Beisen 企业级服务域名
+
+DOMAIN-SUFFIX,stcms.beisen.com # 北森 Beisen 企业级人才管理/CRM 平台业务子域，用于 SaaS 平台组件与业务交互服务
+
