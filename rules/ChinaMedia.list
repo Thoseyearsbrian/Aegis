@@ -516,7 +516,11 @@ DOMAIN-SUFFIX,pptv.net # PPTV 视频内容分发与静态资源 CDN 主域，用
 DOMAIN-SUFFIX,api.pptv.com # PPTV 核心业务 API 接口域名，用于视频播放、用户信息与请求调度  
 DOMAIN-SUFFIX,media.pptv.com # PPTV 媒体资源服务域名，用于封面、片段、缩略图等媒体资产分发  
 DOMAIN-SUFFIX,cdn.pptv.com # PPTV 静态资源 CDN 域名，用于加速脚本、样式、图片等内容加载  
-DOMAIN-SUFFIX,video.pptv.com # PPTV 视频内容访问域名，用于视频流服务与播放功能  
+DOMAIN-SUFFIX,video.pptv.com # PPTV 视频内容访问域名，用于视频流服务与播放功能
+DOMAIN-SUFFIX,v-img.pplive.cn # PPTV 媒体内容静态资源加载子域，用于视频封面图、缩略图等图像资源访问  
+DOMAIN-SUFFIX,img24.pplive.cn # PPTV 多媒体静态资源 CDN 子域，用于静态图像、页面媒体素材分发  
+DOMAIN-SUFFIX,player.pplive.cn # PPTV 媒体播放入口与播放器资源域名（常见前端播放功能调用）
+DOMAIN-SUFFIX,static.pplive.cn # PPTV 静态资源域名，用于脚本、样式及公共资源加载
 
 # > 视频平台
 
