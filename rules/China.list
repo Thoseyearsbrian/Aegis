@@ -1599,6 +1599,14 @@ DOMAIN-SUFFIX,sinamail.sina.com.cn # 新浪邮箱核心邮件接口域名，用�
 DOMAIN-SUFFIX,imap.sina.com # 新浪邮箱 IMAP 服务域名，用于邮件客户端接收邮件
 DOMAIN-SUFFIX,smtp.sina.com # 新浪邮箱 SMTP 服务域名，用于邮件客户端发送邮件
 
+# > 新浪（Sina）统一身份认证与单点登录服务
+
+DOMAIN-SUFFIX,sina.com.cn # 新浪门户与官方基础域名（账号体系 / 登录 / 服务入口）
+DOMAIN-SUFFIX,i.sso.sina.com.cn # Sina SSO 单点登录域名，用于跨域认证与统一登录流程
+DOMAIN-SUFFIX,login.sina.com.cn # Sina 登录认证中心域名，用于账号验证与统一登录流程请求
+DOMAIN-SUFFIX,passport.weibo.com # 微博登录与认证会话中转域名，用于微博等产品单点登录处理
+DOMAIN-SUFFIX,sso.sina.com.cn # Sina SSO 通用单点登录处理主域，用于实现统一登录机制
+
 # > 工具/其他服务（Tools / Misc）
 
 DOMAIN-SUFFIX,csdn.net # CSDN 技术社区
