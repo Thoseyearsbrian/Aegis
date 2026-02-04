@@ -1564,6 +1564,16 @@ DOMAIN-SUFFIX,ac.dun.163yun.com # 网易易盾行为分析与访问控制接口�
 DOMAIN-SUFFIX,laiqukankan.com # 网易 来去看看 平台主域名（归属于广州网易计算机系统有限公司，用于网络测试与平台服务）
 DOMAIN-SUFFIX,nstool.laiqukankan.com # 来去看看 网络工具子域，用于客户端网络检测、连接测试与运行时服务支持
 
+# > 网易质云（YunxinFW）网络支撑服务
+
+DOMAIN-SUFFIX,yunxinfw.com # 网易质云科技主域名，用于网络调度、访问支撑与服务调用
+DOMAIN-SUFFIX,chatwl01-bgp.yunxinfw.com # 云信服务链路节点，用于客户端通信与网络调度
+DOMAIN-SUFFIX,chatwl02.yunxinfw.com # 云信服务链路备用节点
+DOMAIN-SUFFIX,link04-bgp.yunxinfw.com # 云信网络传输与链路优化节点（加速与调度）
+DOMAIN-SUFFIX,quiclink-cn.yunxinfw.com # 云信 QUIC 加速链路节点
+DOMAIN-SUFFIX,httpdns.yunxinfw.com # 云信 HTTPDNS 加速服务域名
+DOMAIN-SUFFIX,lbs-sg.yunxinfw.com # 云信地理 / 负载加权服务节点
+
 # > WisdomIR 投资者关系在线服务
 
 DOMAIN-SUFFIX,wisdomir.com # WisdomIR 投资者关系服务主域，用于企业公告、业绩披露与信息管理平台访问
