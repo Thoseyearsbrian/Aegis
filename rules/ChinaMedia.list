@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-03
+# - 更新时间：2026-02-04
 
 # > 抖音（字节跳动） 相关域名
 
@@ -531,6 +531,28 @@ DOMAIN-SUFFIX,article.pptv.com # PPTV 平台文章/资讯内容域名，用于�
 DOMAIN-SUFFIX,qingting.fm # 蜻蜓FM 主站域名，用于在线收听广播、播客、音乐与音频内容
 DOMAIN-SUFFIX,tingapi.com # 蜻蜓FM 移动应用 / Web API 接口域名，用于音频数据请求与客户端服务交互
 DOMAIN-SUFFIX,open.qingting.fm # 蜻蜓FM 开放平台域名，用于开放 API / 广播接入服务接入与第三方合作方案
+
+# > 新浪微博（Weibo） 相关域名
+
+DOMAIN-SUFFIX,weibo.com # 新浪微博主域名，用于微博平台内容访问、用户主页及社交互动服务
+DOMAIN-SUFFIX,weibo.cn # 新浪微博国内备用域名，用于微博内容访问与登录入口
+DOMAIN-SUFFIX,weibocdn.com # 微博媒体资源 CDN 主域，用于加速图片/视频等静态多媒体资源分发
+DOMAIN-SUFFIX,f.video.weibocdn.com # 微博视频静态分发子域，用于视频文件访问与播放
+DOMAIN-SUFFIX,dm.video.weibocdn.com # 微博视频多媒体资源子域（如弹幕/投放视频）
+DOMAIN-SUFFIX,live.video.weibocdn.com # 微博直播视频分发子域，用于直播视频推流/播放
+DOMAIN-SUFFIX,video.weibocdn.com # 通用微博视频 CDN 子域，用于视频片段及播放支持
+DOMAIN-SUFFIX,tu.video.weibocdn.com # 微博图像/视频资源 CDN 子域（静态视频/图片存取）
+DOMAIN-SUFFIX,fb.video.weibocdn.com # 微博多媒体资源加速 CDN 子域（与视频有关）
+DOMAIN-SUFFIX,gslb.video.weibocdn.com # 视频全局负载均衡（GSLB）子域，用于智能调度视频节点
+DOMAIN-SUFFIX,img.weibocdn.com # 微博通用图片/CDN 子域，用于图片资源加速
+DOMAIN-SUFFIX,simg.weibo.com # 微博主体图像托管域，用于用户头像/图片展示
+DOMAIN-SUFFIX,api.weibo.com # 微博 API 接口域，用于客户端/页面数据请求和交互
+DOMAIN-SUFFIX,rm.api.weibo.com # 微博推荐/资源调度类 API 子域
+DOMAIN-SUFFIX,mediadata.api.weibo.com # 微博媒体数据 API 子域（视频/图片描述/列表等）
+DOMAIN-SUFFIX,brandvideo.biz.weibo.com # 企业视频/商业视频托管子域
+DOMAIN-SUFFIX,s.weibo.com # 微博轻应用/短链接入口域，用于内容跳转/搜索等
+DOMAIN-SUFFIX,bootpreload.uve.weibo.com # 微博启动预加载资源域（UI 资源/性能优化） 
+DOMAIN-SUFFIX,datacollection.uve.weibo.com # 用于 UI 组件数据收集与性能指标支持,用于加载可视化资源等
 
 # > 视频平台
 
