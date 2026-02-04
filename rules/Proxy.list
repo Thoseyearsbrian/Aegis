@@ -6329,6 +6329,16 @@ DOMAIN-SUFFIX,nbviewer.org # Jupyter Notebook 在线渲染服务，用于直接�
 DOMAIN-SUFFIX,binderhub.readthedocs.io # BinderHub 文档站点，用于构建可运行的云端 Notebook 环境说明
 DOMAIN-SUFFIX,mybinder.org # Binder 公共实例域名，用于在线启动临时 Jupyter 运行环境
 
+# > Netlify 静态网站托管与持续部署平台
+
+DOMAIN-SUFFIX,netlify.com # Netlify 官方主站域名，用于平台介绍、账号与控制台入口
+DOMAIN-SUFFIX,app.netlify.com # Netlify 控制台域名，用于站点管理、CI/CD 部署与日志查看
+DOMAIN-SUFFIX,netlify.app # Netlify 默认站点托管域名，用于部署后的静态网站访问
+DOMAIN-SUFFIX,netlifycdn.com # Netlify 官方 CDN 域名，用于静态资源与边缘缓存分发
+DOMAIN-SUFFIX,api.netlify.com # Netlify API 服务域名，用于 CLI、自动化部署与集成调用
+DOMAIN-SUFFIX,identity.netlify.com # Netlify Identity 服务域名，用于用户认证与访问控制
+DOMAIN-SUFFIX,netlifystatus.com # Netlify 服务状态页面，用于查询平台运行状态与故障公告
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
