@@ -2457,3 +2457,12 @@ DOMAIN-SUFFIX,m.shouqishare.com # 移动端访问域名，用于移动站点与�
 DOMAIN-SUFFIX,static.shouqishare.com # 静态资源域名，用于前端脚本、样式与页面组件资源加载
 DOMAIN-SUFFIX,img.shouqishare.com # 图像与媒体资源域名，用于车辆照片、界面素材去加载
 DOMAIN-SUFFIX,open.shouqishare.com # 开放平台/合作 API 域名，用于第三方接入与服务集成
+
+# > 人人车（Renrenche）二手车交易与车辆服务平台
+
+DOMAIN-SUFFIX,renrenche.com # 人人车官方平台域名，用于二手车交易、车辆信息展示与用户服务访问
+DOMAIN-SUFFIX,www.renrenche.com # 人人车 Web 主站入口，用于车辆浏览、交易流程与账号访问
+DOMAIN-SUFFIX,m.renrenche.com # 人人车移动端站点，用于移动设备访问与交易操作
+DOMAIN-SUFFIX,static.renrenche.com # 人人车静态资源域名，用于页面组件与前端资源加载
+DOMAIN-SUFFIX,img.renrenche.com # 人人车图像服务域名，用于车辆图片展示与媒体资源分发
+DOMAIN-SUFFIX,api.renrenche.com # 人人车业务 API 域名，用于交易数据、订单流程与平台通信
