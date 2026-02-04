@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-03
+# - 更新时间：2026-02-04
 
 # > Google 各地区本地化搜索与服务入口域名
 
@@ -159,7 +159,6 @@ DOMAIN-SUFFIX,fonts.googleapis.com # Google 字体 API 接口
 
 DOMAIN-SUFFIX,googledrive.com # Google Drive 网页访问主域名
 DOMAIN-SUFFIX,drive.google.com # Google Drive 核心服务接口，用于文件浏览、下载与同步
-DOMAIN-SUFFIX,sheets.google.com # Google Sheets 在线表格服务
 DOMAIN-SUFFIX,slides.google.com # Google Slides 在线演示文稿服务
 DOMAIN-SUFFIX,forms.google.com # Google Forms 在线表单服务
 DOMAIN-SUFFIX,classroom.google.com # Google Classroom 教育课堂管理平台
@@ -167,6 +166,15 @@ DOMAIN-SUFFIX,meet.google.com # Google Meet 视频会议平台
 DOMAIN-SUFFIX,chat.google.com # Google Chat 即时通讯服务
 DOMAIN-SUFFIX,calendar.google.com # Google Calendar 日历服务
 DOMAIN-SUFFIX,keep.google.com # Google Keep 便签笔记服务
+
+# > Google Sheets 在线表格与协作平台
+
+DOMAIN-SUFFIX,sheets.google.com # Google Sheets 官方 Web 应用入口，用于在线表格创建、编辑与团队协作
+DOMAIN-SUFFIX,docs.google.com # Google Docs 平台主域，用于承载 Sheets / Docs / Slides 等在线办公应用访问
+DOMAIN-SUFFIX,lh3.googleusercontent.com # Google 用户内容与媒体资源域名，用于表格内图片、头像与嵌入资源加载
+DOMAIN-SUFFIX,apis.google.com # Google API 聚合域名，用于身份验证、脚本调用与前端功能支持
+DOMAIN-SUFFIX,clients6.google.com # Google 客户端服务域，用于实时协作、权限同步与数据通信
+DOMAIN-SUFFIX,ssl.gstatic.com # Google 静态资源域名，用于脚本、样式与前端组件加载
 
 # > Google Docs（Google 文档 / Workspace 文档协作平台）
 
