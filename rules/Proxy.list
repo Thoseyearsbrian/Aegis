@@ -6372,6 +6372,12 @@ DOMAIN-SUFFIX,assets.vercel.com # Vercel 静态资源域名，用于加载控制
 DOMAIN-SUFFIX,vercel-dns.com # Vercel 官方 DNS 服务域名，用于域名解析与托管配置
 DOMAIN-SUFFIX,vercel-storage.com # Vercel 存储服务域名，用于对象存储与持久化资源访问
 
+# > Yeet Git 工作流与代码提交辅助服务
+
+DOMAIN-SUFFIX,yeet.dev # Yeet 官方服务域名，用于 Git 工作流自动化、提交管理与 PR 流程辅助
+DOMAIN-SUFFIX,api.yeet.dev # Yeet API 接口域名，用于客户端与自动化工具通信
+DOMAIN-SUFFIX,cdn.yeet.dev # Yeet 静态资源与前端内容分发服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
