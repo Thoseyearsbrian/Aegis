@@ -6378,6 +6378,15 @@ DOMAIN-SUFFIX,yeet.dev # Yeet 官方服务域名，用于 Git 工作流自动化
 DOMAIN-SUFFIX,api.yeet.dev # Yeet API 接口域名，用于客户端与自动化工具通信
 DOMAIN-SUFFIX,cdn.yeet.dev # Yeet 静态资源与前端内容分发服务
 
+# > eSentire 企业级网络安全与威胁响应服务
+
+DOMAIN-SUFFIX,esentire.com # eSentire 官方主域名，用于企业级网络安全服务与威胁检测响应平台访问
+DOMAIN-SUFFIX,app.esentire.com # eSentire 平台登录/客户门户
+DOMAIN-SUFFIX,portal.esentire.com # 客户访问业务门户/控制台
+DOMAIN-SUFFIX,docs.esentire.com # 文档与帮助中心访问域名
+DOMAIN-SUFFIX,assets.esentire.com # 静态资源托管子域（如图片/脚本）
+DOMAIN-SUFFIX,cdn.esentire.com # CDN 媒体/资源分发子域
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
