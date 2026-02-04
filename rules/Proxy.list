@@ -6345,6 +6345,13 @@ DOMAIN-SUFFIX,api.netlify.com # Netlify API 服务域名，用于 CLI、自动�
 DOMAIN-SUFFIX,identity.netlify.com # Netlify Identity 服务域名，用于用户认证与访问控制
 DOMAIN-SUFFIX,netlifystatus.com # Netlify 服务状态页面，用于查询平台运行状态与故障公告
 
+# > Render 云应用部署平台（PaaS / DevOps / 自动化托管）
+
+DOMAIN-SUFFIX,render.com # Render 官方主域名，用于访问控制台、应用管理与服务配置
+DOMAIN-SUFFIX,onrender.com # Render 应用默认托管域名，用于部署后的 Web 服务访问（*.onrender.com）
+DOMAIN-SUFFIX,render-assets.com # Render 静态资源加载域，用于前端脚本与控制台资源分发
+DOMAIN-SUFFIX,renderusercontent.com # Render 用户内容与构建产物托管域（日志、构建文件等）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
