@@ -6396,6 +6396,15 @@ DOMAIN-SUFFIX,m.share-now.com # SHARE NOW 移动端站点，用于移动设备�
 DOMAIN-SUFFIX,static.share-now.com # SHARE NOW 静态资源域名，用于前端脚本、样式与页面组件加载
 DOMAIN-SUFFIX,img.share-now.com # SHARE NOW 图像资源域名，用于车辆图片与界面媒体内容加载
 
+# > CarNext / Ayvens 国际汽车交易与车队资产平台
+
+DOMAIN-SUFFIX,carnext.com # CarNext 官方平台域名，用于车辆交易、库存展示与用户服务访问
+DOMAIN-SUFFIX,carnext.io # CarNext 平台技术域名，用于前端服务与业务组件通信
+DOMAIN-SUFFIX,leaseplan.com # LeasePlan 全球车队管理平台域名，用于车辆资产管理与企业服务
+DOMAIN-SUFFIX,ayvens.com # Ayvens 官方域名（LeasePlan 与 ALD Automotive 整合品牌），用于全球出行业务与资产服务访问
+DOMAIN-SUFFIX,cdn.carnext.com # CarNext 静态资源域名，用于车辆图片与页面媒体内容加载
+DOMAIN-SUFFIX,images.carnext.com # CarNext 图像服务域名，用于车辆展示图片分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
