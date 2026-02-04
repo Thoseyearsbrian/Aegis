@@ -6352,6 +6352,15 @@ DOMAIN-SUFFIX,onrender.com # Render 应用默认托管域名，用于部署后�
 DOMAIN-SUFFIX,render-assets.com # Render 静态资源加载域，用于前端脚本与控制台资源分发
 DOMAIN-SUFFIX,renderusercontent.com # Render 用户内容与构建产物托管域（日志、构建文件等）
 
+# > Sentry 应用监控与错误追踪平台
+
+DOMAIN-SUFFIX,sentry.io # Sentry 官方 SaaS 平台域名，用于应用性能监控、错误追踪与日志分析（非用户行为建模）
+DOMAIN-SUFFIX,getsentry.com # Sentry 官方网站域名，用于产品介绍、文档与账户入口
+DOMAIN-SUFFIX,ingest.sentry.io # Sentry 数据接收端点，用于客户端错误事件与性能数据上报（面向开发运维，不涉及广告或用户画像）
+DOMAIN-SUFFIX,o0.ingest.sentry.io # Sentry 多租户事件采集节点，用于 SDK 遥测与日志上传
+DOMAIN-SUFFIX,o1.ingest.sentry.io # Sentry 多区域数据接入节点，用于应用监控数据传输
+DOMAIN-SUFFIX,cdn.ravenjs.com # Sentry Raven.js CDN，用于前端错误监控 SDK 分发
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
