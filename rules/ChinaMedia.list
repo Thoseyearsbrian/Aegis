@@ -575,7 +575,7 @@ DOMAIN-SUFFIX,api.ximalaya.com # 喜马拉雅 API 接口域名（常见于客户
 DOMAIN-SUFFIX,media.ximalaya.com # 喜马拉雅多媒体资源分发子域，用于音频/静态资源 CDN 加速
 DOMAIN-SUFFIX,cdn.ximalaya.com # 假定性 CDN 静态资源加速域名，用于音频内容包/图片元数据加载
 DOMAIN-SUFFIX,imagev2.xmcdn.com # 喜马拉雅音频平台静态图像 CDN 子域，用于封面、节目缩略图等图片资源分发
-DOMAIN-SUFFIX,xmcdn.com # 喜马拉雅媒体资源 CDN 主域
+DOMAIN-SUFFIX,xmcdn.com # 喜马拉雅媒体资源 CDN 主域，用于音频封面、图片、静态资源加载
 DOMAIN-SUFFIX,s1.xmcdn.com # 喜马拉雅音频平台静态媒体与资源分发子域，用于音频封面、图片、静态资源加载
 DOMAIN-SUFFIX,s2.xmcdn.com # 喜马拉雅音频平台静态媒体与资源分发子域，用于音频封面、图片、静态资源加载
 DOMAIN-SUFFIX,ws.xmcdn.com # 喜马拉雅音频平台静态媒体与资源分发子域，用于音频封面、图片、静态资源加载
