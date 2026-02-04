@@ -2346,3 +2346,8 @@ DOMAIN-SUFFIX,kgw.com # 快手游戏业务主域名，用于 Web 游戏入口、
 DOMAIN-SUFFIX,var.kgw.com # 快手游戏 Web 端参数/资源域名，用于游戏页面配置加载、业务脚本与资源访问
 DOMAIN-SUFFIX,ks-game-web.kgw.com # 快手游戏 Web 平台组件子域，用于游戏入口页面与前端资源请求
 
+# > 科创爱（kechuangai.com）企业服务与业务接口域名
+
+DOMAIN-SUFFIX,kechuangai.com # 科创爱主域名，用于企业/服务展示、业务访问页面与数据交互接口
+DOMAIN-SUFFIX,v1-kling.kechuangai.com # 科创爱业务接口子域，用于版本 v1 业务服务访问及组件交互
+
