@@ -2425,3 +2425,13 @@ DOMAIN-SUFFIX,img.carplus.cn # 图像资源域名，用于车辆图片、页面�
 DOMAIN-SUFFIX,m.carplus.cn # 移动端站点域名，用于移动网站访问与业务交互
 DOMAIN-SUFFIX,open.carplus.cn # 开放平台/合作接入域名，用于第三方 API 接入与服务扩展
 DOMAIN-SUFFIX,cdn.carplus.cn # 车享家 CDN 静态资源分发子域
+
+# > 东风出行 / TOGO 共享汽车服务平台
+
+DOMAIN-SUFFIX,dongfeng-ev.com # 东风出行官方业务域名，用于共享汽车、车辆租赁、账号体系与订单服务访问
+DOMAIN-SUFFIX,togo.com.cn # TOGO 共享汽车服务域名，用于车辆预约、订单通信与客户端业务请求
+DOMAIN-SUFFIX,api.dongfeng-ev.com # 东风出行业务 API 域名，用于订单、车辆状态与用户数据通信
+DOMAIN-SUFFIX,app.dongfeng-ev.com # 东风出行应用服务域名，用于客户端业务请求
+DOMAIN-SUFFIX,static.dongfeng-ev.com # 页面静态资源与组件加载
+DOMAIN-SUFFIX,img.dongfeng-ev.com # 车辆图片与视觉资源分发
+DOMAIN-SUFFIX,m.dongfeng-ev.com # 移动端站点访问域名
