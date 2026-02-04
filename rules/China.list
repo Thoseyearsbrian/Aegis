@@ -2408,3 +2408,11 @@ DOMAIN-SUFFIX,atzuche.com # 凹凸租车官方主域名，用于车辆租赁服�
 DOMAIN-SUFFIX,api.atzuche.com # 凹凸租车业务 API 域名，用于订单处理、车辆数据与平台通信
 DOMAIN-SUFFIX,static.atzuche.com # 凹凸租车前端静态资源域名，用于页面脚本、样式与基础资源加载
 DOMAIN-SUFFIX,img.atzuche.com # 凹凸租车图像与媒体资源域名，用于车辆图片与展示素材分发
+
+# > 瑞卡租车（Reocar）车辆租赁与出行服务平台
+
+DOMAIN-SUFFIX,reocar.com # 瑞卡租车官方主域名，用于车辆租赁服务访问、订单管理与用户账号体系
+DOMAIN-SUFFIX,www.reocar.com # 瑞卡租车官网访问入口（由主域覆盖，可用于明确策略归属时参考）
+DOMAIN-SUFFIX,api.reocar.com # 瑞卡租车业务 API 域名，用于订单处理、车辆数据与平台通信
+DOMAIN-SUFFIX,static.reocar.com # 瑞卡租车前端静态资源域名，用于页面脚本、样式与基础资源加载
+DOMAIN-SUFFIX,img.reocar.com # 瑞卡租车图像与媒体资源域名，用于车辆图片与展示素材分发
