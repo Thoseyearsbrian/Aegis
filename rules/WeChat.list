@@ -5,7 +5,7 @@
 # - 说明：微信域名结构庞大，通信行为复杂，部分服务采用自研加密协议 mmtls（区别于标准 HTTPS），具有规避检测与指纹识别的特征。因此本规则集单独列出，便于持续追踪、行为识别与分类更新。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-02
+# - 更新时间：2026-02-04
 
 # > 核心通信服务（Core Communication）
 
@@ -34,7 +34,8 @@ DOMAIN-SUFFIX,prewxacode.wxqcloud.qq.com.cn # 微信小程序码生成与预览�
 DOMAIN-SUFFIX,wxapp.tc.qq.com # 腾讯微信小程序官方 CDN 域名，用于小程序资源与接口内容分发
 DOMAIN-SUFFIX,marscdnbypass-wxapp.tc.qq.com # 腾讯微信小程序 CDN 旁路加速子域
 DOMAIN-SUFFIX,wx.qlogo.cn # 腾讯微信用户头像与社交图片官方 CDN 域名
-DOMAIN-SUFFIX,cmmsns.qpic.cn # 腾讯微信消息流、图片与多媒体资源 CDN 域名
+DOMAIN-SUFFIX,qpic.cn # 腾讯图片与多媒体资源 CDN 主域，用于社交平台图片、头像与媒体资源加载
+DOMAIN-SUFFIX,cmmsns.qpic.cn # 腾讯社交媒体图片资源节点，用于好友头像、动态图片与内容展示加载
 DOMAIN-SUFFIX,wechatpay.cn # 微信支付官方主域名，承载支付系统核心服务，包括交易请求、账单处理、风控校验与支付网关接口
 DOMAIN-SUFFIX,cube.weixinbridge.com # 微信 JSBridge / WebView 通信服务域名，用于小程序与内嵌网页与客户端之间的能力桥接、接口调用与消息分发
 DOMAIN-SUFFIX,localhost.weixin.qq.com # 微信本地组件与内嵌服务通信域名，用于 PC 客户端、小程序调试与 WebView 内部回调
@@ -84,6 +85,8 @@ IP-CIDR,183.47.115.0/24 # 微信消息流、图片与多媒体资源 CDN 节点
 IP-CIDR,113.96.12.0/24 # 微信消息流、图片与多媒体资源 CDN 节点
 IP-CIDR,125.88.186.0/24 # 微信消息流、图片与多媒体资源 CDN 节点
 IP-CIDR,27.155.118.0/24 # 腾讯图片与多媒体资源 CDN 节点
+IP-CIDR,58.217.183.98/32 # 微信图片、消息与多媒体资源 CDN 节点
+IP-CIDR,182.106.148.74/32 # 微信图片、消息与多媒体资源 CDN 节点
 
 # > 微信小程序运行时与静态资源 CDN
 
