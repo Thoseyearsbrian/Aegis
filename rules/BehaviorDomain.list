@@ -1311,3 +1311,7 @@ DOMAIN-SUFFIX,faro-collector-prod-us-central-0.grafana.net # Grafana Faro 前端
 
 DOMAIN-SUFFIX,sdktt.data.tianwenca.com # 第三方移动端 SDK 行为数据采集与统计回传服务，用于运行状态与使用行为上报
 DOMAIN-SUFFIX,api5-lq.qishui.com # 第三方 SDK 行为数据与效果统计接口，用于客户端数据上报与分析服务
+
+# > shuzilm 相关行为指纹
+
+DOMAIN-SUFFIX,hdaa.shuzilm.cn # shuzilm.cn 域名体系下的行为通信匹配域名，用于匹配与 ShuZiLM 产品/服务相关的运行时通信路径
