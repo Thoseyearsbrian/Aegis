@@ -485,6 +485,17 @@ DOMAIN-SUFFIX,js.tv.itc.cn # 搜狐视频 Web 端 JavaScript 脚本资源域名�
 DOMAIN-SUFFIX,56.com # 56 视频官方主域名，用于视频内容浏览、点播与平台入口访问
 DOMAIN-SUFFIX,sp.qf.56.com # 56 视频流媒体播放与内容分发服务域名，用于视频请求、播放控制与资源加载
 
+# > 网易云音乐（NetEase Cloud Music）
+
+DOMAIN-SUFFIX,netease.com # 网易主站，NetEase 主域
+DOMAIN-SUFFIX,music.163.com # 网易云音乐主站
+DOMAIN-SUFFIX,interface.music.163.com # 网易云音乐 API 接口服务
+DOMAIN-SUFFIX,interface3.music.163.com # 网易云音乐 API 接口服务
+DOMAIN-SUFFIX,api.iplay.163.com # 网易云音乐相关 API
+DOMAIN-SUFFIX,apm.music.163.com # 网易云音乐 APM 监控上报
+DOMAIN-SUFFIX,apm3.music.163.com # 网易云音乐 APM 监控上报
+DOMAIN-SUFFIX,music.126.net # 网易云音乐资源 CDN
+
 # > 视频平台
 
 DOMAIN-SUFFIX,wasu.cn # 华数TV
@@ -498,9 +509,6 @@ DOMAIN-SUFFIX,cdn.aixifan.com # AcFun CDN 服务
 # > 音乐平台
 
 DOMAIN-SUFFIX,xiami.com # 虾米音乐（已停服）
-DOMAIN-SUFFIX,netease.com # 网易云音乐主域
-DOMAIN-SUFFIX,music.163.com # 网易云音乐
-DOMAIN-SUFFIX,music.126.net # 网易云音乐 API
 DOMAIN-SUFFIX,tingapi.com # 蜻蜓FM 音乐平台
 
 # > 电台 / 播客平台
