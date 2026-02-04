@@ -2461,8 +2461,16 @@ DOMAIN-SUFFIX,open.shouqishare.com # 开放平台/合作 API 域名，用于第�
 # > 人人车（Renrenche）二手车交易与车辆服务平台
 
 DOMAIN-SUFFIX,renrenche.com # 人人车官方平台域名，用于二手车交易、车辆信息展示与用户服务访问
-DOMAIN-SUFFIX,www.renrenche.com # 人人车 Web 主站入口，用于车辆浏览、交易流程与账号访问
 DOMAIN-SUFFIX,m.renrenche.com # 人人车移动端站点，用于移动设备访问与交易操作
 DOMAIN-SUFFIX,static.renrenche.com # 人人车静态资源域名，用于页面组件与前端资源加载
 DOMAIN-SUFFIX,img.renrenche.com # 人人车图像服务域名，用于车辆图片展示与媒体资源分发
 DOMAIN-SUFFIX,api.renrenche.com # 人人车业务 API 域名，用于交易数据、订单流程与平台通信
+
+# > 瓜子二手车（Guazi）车辆交易与汽车服务平台
+
+DOMAIN-SUFFIX,guazi.com # 瓜子二手车官方主域名，用于车辆交易、价格评估与平台服务访问
+DOMAIN-SUFFIX,m.guazi.com # 瓜子移动端站点，用于移动设备访问与交易操作
+DOMAIN-SUFFIX,static.guazi.com # 瓜子静态资源域名，用于前端组件与页面资源加载
+DOMAIN-SUFFIX,img.guazi.com # 瓜子车辆图片与媒体资源域名，用于车辆展示与内容分发
+DOMAIN-SUFFIX,api.guazi.com # 瓜子业务 API 域名，用于交易数据、订单流程与平台通信
+DOMAIN-SUFFIX,finance.guazi.com # 瓜子汽车金融服务域名，用于分期购车与金融方案访问
