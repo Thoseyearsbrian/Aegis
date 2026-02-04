@@ -2312,3 +2312,9 @@ DOMAIN-SUFFIX,download.wandoujia.com # 豌豆荚应用下载与安装包分发
 DOMAIN-SUFFIX,static.wandoujia.com # 豌豆荚静态资源 CDN，用于前端界面组件与脚本/样式加载
 DOMAIN-SUFFIX,api.wandoujia.com # 豌豆荚 API 接口域名，用于搜索、更新、应用信息查询等业务逻辑
 
+# > Microsoft Azure Blob Storage（中国）对象存储服务
+
+DOMAIN-SUFFIX,blob.core.chinacloudapi.cn # Azure Blob Storage 对象存储公共终端域，用于访问托管的 blob 对象与静态资源
+DOMAIN-SUFFIX,web.core.chinacloudapi.cn # Azure Blob Storage 静态网站/资源访问终端（支持 Web 访问模式）
+DOMAIN-SUFFIX,core.chinacloudapi.cn # Azure 中国云通用 API 域名后缀
+
