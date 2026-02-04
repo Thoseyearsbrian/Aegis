@@ -2448,3 +2448,12 @@ DOMAIN-SUFFIX,caocaokeji.cn # 曹操出行官方主域名，用于平台访问�
 DOMAIN-SUFFIX,caocao.com # 曹操出行品牌与业务主域，用于出行服务入口与客户端通信
 DOMAIN-SUFFIX,caocao.cn # 曹操出行国内业务域名，用于服务访问与业务调度
 DOMAIN-SUFFIX,caocaokeji.com # 曹操科技企业与平台服务域名，用于产品与业务支持
+
+# > 首汽分享共享出行服务相关域名
+
+DOMAIN-SUFFIX,www.shouqishare.com # 首汽分享官网访问入口，用于 PC/Web 页面访问与服务入口加载
+DOMAIN-SUFFIX,api.shouqishare.com # 首汽分享业务 API 域名，用于订单、车辆状态与用户数据通信
+DOMAIN-SUFFIX,m.shouqishare.com # 移动端访问域名，用于移动站点与业务交互
+DOMAIN-SUFFIX,static.shouqishare.com # 静态资源域名，用于前端脚本、样式与页面组件资源加载
+DOMAIN-SUFFIX,img.shouqishare.com # 图像与媒体资源域名，用于车辆照片、界面素材去加载
+DOMAIN-SUFFIX,open.shouqishare.com # 开放平台/合作 API 域名，用于第三方接入与服务集成
