@@ -45,7 +45,7 @@ IP-CIDR,199.96.63.177/32 # OpenAI iOS 客户端通信节点
 
 # > Sora — OpenAI 视频生成 / AI 服务主域名
 
-DOMAIN-SUFFIX,sora.com # Sora 官方域名，用于文本到视频模型访问、用户界面与 API 服务入口
+DOMAIN-SUFFIX,sora.com # OpenAI Sora 视频生成平台域名，用于 AI 视频创建、管理与内容访问
 
 # > Grok（xAI / Elon Musk）AI 服务相关域名
 
