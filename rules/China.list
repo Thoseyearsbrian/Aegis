@@ -2340,3 +2340,9 @@ DOMAIN-SUFFIX,core.chinacloudapi.cn # Azure 中国云通用 API 域名后缀
 
 DOMAIN-SUFFIX,stcms.beisen.com # 北森 Beisen 企业级人才管理/CRM 平台业务子域，用于 SaaS 平台组件与业务交互服务
 
+# > 快手游戏（Kuaishou Game）Web 游戏与业务入口
+
+DOMAIN-SUFFIX,kgw.com # 快手游戏业务主域名，用于 Web 游戏入口、游戏页面访问及相关服务请求
+DOMAIN-SUFFIX,var.kgw.com # 快手游戏 Web 端参数/资源域名，用于游戏页面配置加载、业务脚本与资源访问
+DOMAIN-SUFFIX,ks-game-web.kgw.com # 快手游戏 Web 平台组件子域，用于游戏入口页面与前端资源请求
+
