@@ -496,6 +496,14 @@ DOMAIN-SUFFIX,apm.music.163.com # 网易云音乐 APM 监控上报
 DOMAIN-SUFFIX,apm3.music.163.com # 网易云音乐 APM 监控上报
 DOMAIN-SUFFIX,music.126.net # 网易云音乐资源 CDN
 
+# > NetEase LOOK 直播 / 内容服务（基于 163.com）
+
+DOMAIN-SUFFIX,look.163.com # 网易 LOOK 直播 / 音乐视频推广主域名，用于用户访问相关页面与内容服务
+DOMAIN-SUFFIX,api.look.163.com # LOOK 内容服务 API 接口域名，用于页面功能调用与数据获取
+DOMAIN-SUFFIX,crush.163.com # 网易内容分发辅助域，用于图像、视频等资源加载与静态资源分发
+DOMAIN-SUFFIX,iplay.163.com # 网易相关音视频推广内容页与入口域名（常与 LOOK 直播关联）
+DOMAIN-SUFFIX,netease.com # NetEase 公司主体域名，用于主站访问与业务入口
+
 # > 视频平台
 
 DOMAIN-SUFFIX,wasu.cn # 华数TV
