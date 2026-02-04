@@ -1559,6 +1559,11 @@ DOMAIN-SUFFIX,c.dun.163.com # 网易易盾客户端配置与策略下发接口�
 DOMAIN-SUFFIX,dun.163yun.com # 网易易盾安全服务主域，用于验证码、人机校验、反作弊与风险控制能力
 DOMAIN-SUFFIX,ac.dun.163yun.com # 网易易盾行为分析与访问控制接口，用于设备指纹识别、风险判定与安全策略执行
 
+# > 网易 来去看看 相关域名
+
+DOMAIN-SUFFIX,laiqukankan.com # 网易 来去看看 平台主域名（归属于广州网易计算机系统有限公司，用于网络测试与平台服务）
+DOMAIN-SUFFIX,nstool.laiqukankan.com # 来去看看 网络工具子域，用于客户端网络检测、连接测试与运行时服务支持
+
 # > 新浪邮箱（Sina Mail）
 
 DOMAIN-SUFFIX,mail.sina.com.cn # 新浪邮箱 Web 主入口，用于网页端收发邮件与账户管理
