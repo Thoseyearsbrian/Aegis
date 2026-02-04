@@ -47,6 +47,12 @@ IP-CIDR,199.96.63.177/32 # OpenAI iOS 客户端通信节点
 
 DOMAIN-SUFFIX,sora.com # OpenAI Sora 视频生成平台域名，用于 AI 视频创建、管理与内容访问
 
+# > OpenAI Speech 语音合成与音频生成服务
+
+DOMAIN-SUFFIX,tts.openai.com # OpenAI Text-to-Speech 服务域名，用于文本转语音生成与音频内容输出
+DOMAIN-SUFFIX,voice.openai.com # OpenAI 语音交互与实时音频处理服务域名，用于语音输入、合成与会话能力
+DOMAIN-SUFFIX,audio.openai.com # OpenAI 音频处理服务域名，用于语音识别（STT）、语音生成（TTS）与多媒体模型调用
+
 # > Grok（xAI / Elon Musk）AI 服务相关域名
 
 DOMAIN-SUFFIX,x.ai # xAI 官方站点，Grok 所属公司
