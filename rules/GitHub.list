@@ -44,3 +44,8 @@ DOMAIN-SUFFIX,recloudstream.github.io # CloudStream 项目 Github Pages 托管
 DOMAIN-SUFFIX,rawgithub.com # 第三方 GitHub Raw 文件镜像站（非官方，存在安全隐患）
 DOMAIN-SUFFIX,githubmemory.com # GitHub issues & discussions 社区镜像服务（非官方工具，可能存在缓存）
 DOMAIN-SUFFIX,camo.githubusercontent.com # GitHub 图片代理服务域名，用于展示外链图像资源
+
+# > GitHub Security 安全治理与威胁建模服务
+
+DOMAIN-SUFFIX,uploads.github.com # GitHub 文件上传服务，安全报告与漏洞附件可能经此传输
+DOMAIN-SUFFIX,securitylab.github.com # GitHub Security Lab 官方站点，用于漏洞研究与最佳实践发布
