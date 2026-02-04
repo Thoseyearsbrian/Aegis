@@ -564,6 +564,7 @@ DOMAIN-SUFFIX,tva4.sinaimg.cn # 新浪微博图像 CDN 子域，用于微博内�
 DOMAIN-SUFFIX,g.us.sinaimg.cn # 新浪微博图像 CDN 子域，用于图片媒体内容分发与加载
 DOMAIN-SUFFIX,livephoto.us.sinaimg.cn # 新浪 img 静态图片托管 CDN 子域，用于新浪微博/相关服务的图片资源加载
 DOMAIN-SUFFIX,js.t.sinajs.cn # 新浪 sinajs.cn JavaScript 脚本资源子域，用于加载新浪微博/门户前端静态脚本资源
+DOMAIN-SUFFIX,passport.sinaimg.cn # 新浪图像静态资源 CDN 子域，用于微博/新浪体系内的图像加载与资源访问
 
 # > 视频平台
 
