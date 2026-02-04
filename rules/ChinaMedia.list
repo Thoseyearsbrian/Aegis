@@ -599,6 +599,11 @@ DOMAIN-SUFFIX,p1.a.yximgs.com # 快手媒体资源 CDN 子域，用于图像、�
 DOMAIN-SUFFIX,pull.yximgs.com # 快手直播拉流服务主域，用于实时音视频流传输与播放调度
 DOMAIN-SUFFIX,ty-origin.pull.yximgs.com # 快手直播源站子域，用于直播源内容分发与边缘节点回源通信
 
+# > AcFun（A站） 视频平台与媒体资源服务
+
+DOMAIN-SUFFIX,aixifan.com # AcFun 官方主域名，用于视频平台访问、用户服务与社区内容
+DOMAIN-SUFFIX,cdnfile.aixifan.com # AcFun 媒体资源 CDN 子域，用于视频文件、封面图及前端静态资源分发
+
 # > 视频平台
 
 DOMAIN-SUFFIX,wasu.cn # 华数TV
