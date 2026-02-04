@@ -553,9 +553,10 @@ DOMAIN-SUFFIX,brandvideo.biz.weibo.com # 企业视频/商业视频托管子域
 DOMAIN-SUFFIX,s.weibo.com # 微博轻应用/短链接入口域，用于内容跳转/搜索等
 DOMAIN-SUFFIX,bootpreload.uve.weibo.com # 微博启动预加载资源域（UI 资源/性能优化） 
 DOMAIN-SUFFIX,datacollection.uve.weibo.com # 用于 UI 组件数据收集与性能指标支持,用于加载可视化资源等
-DOMAIN-SUFFIX,tva1.sinaimg.cn # 新浪微博/新浪图床图像 CDN 子域 1，用于微博/新浪图片资源托管与加速分发
-DOMAIN-SUFFIX,tvax2.sinaimg.cn # 新浪微博/新浪图床图像 CDN 子域 2，用于用户头像、封面图及静态图片分发加速
-DOMAIN-SUFFIX,tvax3.sinaimg.cn # 新浪微博/新浪图床图像 CDN 子域 3，用于微博/新浪托管的图片资源快速加载
+DOMAIN-SUFFIX,tvax1.sinaimg.cn # 新浪微博/新浪图床图像 CDN 子域，用于微博/新浪托管的图片资源快速加载
+DOMAIN-SUFFIX,tvax2.sinaimg.cn # 新浪微博/新浪图床图像 CDN 子域，用于微博/新浪托管的图片资源快速加载
+DOMAIN-SUFFIX,tvax3.sinaimg.cn # 新浪微博/新浪图床图像 CDN 子域，用于微博/新浪托管的图片资源快速加载
+DOMAIN-SUFFIX,tvax4.sinaimg.cn # 新浪微博/新浪图床图像 CDN 子域，用于微博/新浪托管的图片资源快速加载
 
 # > 视频平台
 
