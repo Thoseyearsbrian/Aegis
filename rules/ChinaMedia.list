@@ -580,6 +580,18 @@ DOMAIN-SUFFIX,s1.xmcdn.com # 喜马拉雅音频平台静态媒体与资源分发
 DOMAIN-SUFFIX,s2.xmcdn.com # 喜马拉雅音频平台静态媒体与资源分发子域，用于音频封面、图片、静态资源加载
 DOMAIN-SUFFIX,ws.xmcdn.com # 喜马拉雅音频平台静态媒体与资源分发子域，用于音频封面、图片、静态资源加载
 
+# > 快手（Kuaishou）短视频与直播平台
+
+DOMAIN-SUFFIX,kuaishou.com # 快手官方主域名，用于短视频浏览、直播内容访问与平台服务入口
+DOMAIN-SUFFIX,yximgs.com # 快手媒体与静态资源 CDN 主域，用于视频封面、图片与多媒体资源分发
+DOMAIN-SUFFIX,static.yximgs.com # 快手前端静态资源子域，用于页面脚本、样式与客户端资源加载
+DOMAIN-SUFFIX,ksyun.com # 金山云（Kingsoft Cloud）基础设施域名，快手核心云服务提供商之一，用于内容分发与云计算资源支撑
+DOMAIN-SUFFIX,ks-cdn.com # 金山云 CDN 服务域名，用于视频流、静态资源与多媒体内容加速分发
+DOMAIN-SUFFIX,ks-live.com # 金山云直播服务域名，用于实时流媒体推流与播放加速
+DOMAIN-SUFFIX,gifshow.com # 快手历史品牌与核心业务域名，部分客户端接口与服务仍依赖该域
+DOMAIN-SUFFIX,api.gifshow.com # 快手核心 API 接口域名，用于客户端通信、用户数据请求与业务功能调用
+DOMAIN-SUFFIX,live.kuaishou.com # 快手直播服务入口域名，用于直播间访问与互动功能支持
+
 # > 视频平台
 
 DOMAIN-SUFFIX,wasu.cn # 华数TV
@@ -601,9 +613,6 @@ DOMAIN-SUFFIX,lishi.fm # 历史FM（播客平台）
 
 DOMAIN-SUFFIX,toutiao.com # 今日头条主站（抖音广告分发源）
 DOMAIN-SUFFIX,ixigua.com # 西瓜视频主站（字节系）
-DOMAIN-SUFFIX,kuaishou.com # 快手主站
-DOMAIN-SUFFIX,ksyun.com # 快手 CDN 内容分发域名
-DOMAIN-SUFFIX,static.yximgs.com # 快手静态资源域名
 
 # > Mudu.TV（目睹直播）资源与通信域名
 
