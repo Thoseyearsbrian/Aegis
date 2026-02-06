@@ -6409,6 +6409,11 @@ DOMAIN-SUFFIX,images.carnext.com # CarNext 图像服务域名，用于车辆展�
 
 DOMAIN-SUFFIX,bluecomtech.com # 提供技术文档与项目页面托管的海外站点，用于开发资源访问与文件分发
 
+# > Ecosyste.ms 开源软件生态数据平台（Open Infrastructure）
+
+DOMAIN-SUFFIX,ecosyste.ms # 开源软件生态与仓库数据平台，用于提供公共数据集、软件依赖分析与数字基础设施研究支持
+DOMAIN-SUFFIX,repos.ecosyste.ms # Ecosyste.ms 仓库数据查询子域，用于开源项目索引、元数据检索与生态分析
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
