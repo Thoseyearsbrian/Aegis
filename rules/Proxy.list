@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-04
+# - 更新时间：2026-02-06
 
 # > Speedtest 网络测速平台
 
@@ -6404,6 +6404,10 @@ DOMAIN-SUFFIX,leaseplan.com # LeasePlan 全球车队管理平台域名，用于�
 DOMAIN-SUFFIX,ayvens.com # Ayvens 官方域名（LeasePlan 与 ALD Automotive 整合品牌），用于全球出行业务与资产服务访问
 DOMAIN-SUFFIX,cdn.carnext.com # CarNext 静态资源域名，用于车辆图片与页面媒体内容加载
 DOMAIN-SUFFIX,images.carnext.com # CarNext 图像服务域名，用于车辆展示图片分发
+
+# > BlueComTech 技术资源托管服务
+
+DOMAIN-SUFFIX,bluecomtech.com # 提供技术文档与项目页面托管的海外站点，用于开发资源访问与文件分发
 
 # > 第三方博客网站
 
