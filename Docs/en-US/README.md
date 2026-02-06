@@ -146,6 +146,50 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
   >
 </p>
 
+### Enable the GeoIP Database
+
+Follow the steps below to enable the GeoIP database for the first time:
+
+Open Surge -> More -> General -> GeoIP Database -> Update Now -> Done!
+
+Aegis supports GEOIP lookup rules for countries outside mainland China, as the current database covers global IP ranges.
+
+Aegis enables by default: GEOIP,CN,DIRECT # GEOIP matches mainland China
+
+### Optional Regional Routing
+
+To simplify international traffic routing for general users and reduce access issues, Aegis provides an optional regional routing feature supporting the following regions:
+
+```bash
+# GEOIP,US,Proxy # Route US region traffic through proxy (enables access to US-based sites)
+
+# GEOIP,GB,Proxy # Route UK region traffic through proxy (enables access to UK-based sites)
+
+# GEOIP,FR,Proxy # Route France region traffic through proxy (enables access to France-based sites)
+
+# GEOIP,DE,Proxy # Route Germany region traffic through proxy (enables access to Germany-based sites)
+
+# GEOIP,RU,Proxy # Route Russia region traffic through proxy (enables access to Russia-based sites)
+
+# GEOIP,EU,Proxy # Route EU region traffic through proxy (enables access to most Europe-based sites)
+
+# GEOIP,AU,Proxy # Route Australia region traffic through proxy (enables access to Australia-based sites)
+
+# GEOIP,JP,Proxy # Route Japan region traffic through proxy (enables access to Japan-based sites)
+
+# GEOIP,KR,Proxy # Route South Korea region traffic through proxy (enables access to Korea-based sites)
+
+# GEOIP,SG,Proxy # Route Singapore region traffic through proxy (common Southeast Asia node)
+```
+
+Activation steps:
+
+macOS: Open Surge -> Rules -> Optional Regional Routing -> Check the desired country entries -> Done!
+
+iOS: Open Surge -> Aegis Configuration -> Edit in Text Mode -> Optional Regional Routing -> Remove the “# ” before the corresponding country rule -> Done!
+
+Note: If the country you want is not listed above, you can manually add the corresponding country code at the end of the configuration, as the current database supports global GEOIP lookups.
+
 ### Video Tutorial
 
 Please select the platform you are using and visit the corresponding video tutorial page:
