@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-04
+# - 更新时间：2026-02-06
 
 # > WeChat 数据统计与遥测
 
@@ -93,10 +93,6 @@ DOMAIN-SUFFIX,gcaptcha4.geevisit.com # 极验验证接口子域，用于加载�
 # > gsensebot 行为验证服务域名（Geetest SDK）
 
 DOMAIN-SUFFIX,gcaptcha4.gsensebot.com # gsensebot 子域名，用于提供 Geetest 验证服务，涉及行为验证与 SDK 初始化逻辑
-
-# > Ecosyste.ms SDK 行为域名
-
-DOMAIN-SUFFIX,repos.ecosyste.ms # Ecosyste.ms 子域名，用于加载第三方平台 SDK 与身份验证脚本，具备遥测初始化行为
 
 # > Whoer 行为分析接口域名（IP识别与环境探测服务）
 
