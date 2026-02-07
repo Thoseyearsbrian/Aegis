@@ -22,6 +22,8 @@ DOMAIN-SUFFIX,api-verification-useast8.tiktokshops.us # TikTok Shop API 验证�
 DOMAIN-SUFFIX,ttcdn-us.com # TikTok 北美 CDN 基础设施域名，用于媒体资源、商品素材与静态内容分发
 DOMAIN-SUFFIX,p16-oec-general-useast8.ttcdn-us.com # TikTok 电商通用 CDN 节点，用于商品资源与业务静态内容加速
 DOMAIN-SUFFIX,p19-oec-general.ttcdn-us.com # TikTok 电商通用 CDN 节点，用于商品素材与平台资源分发
+DOMAIN-SUFFIX,goofy-cdn.com # 字节跳动海外 CDN 基础设施域名，用于 TikTok 等国际产品的媒体资源与静态内容分发
+DOMAIN-SUFFIX,lf16-oversea.goofy-cdn.com # 字节跳动海外 CDN 边缘节点，用于跨区域视频、图片与应用资源加速传输
 
 # > Amazon Prime Video
 
