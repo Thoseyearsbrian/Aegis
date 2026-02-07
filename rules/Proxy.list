@@ -151,7 +151,6 @@ DOMAIN-SUFFIX,surfshark.com // Surfshark VPN 官网
 DOMAIN-SUFFIX,nordvpn.com // NordVPN 官网与服务接口
 DOMAIN-SUFFIX,expressvpn.com // ExpressVPN 官网
 DOMAIN-SUFFIX,privateinternetaccess.com // PIA VPN 提供商
-DOMAIN-SUFFIX,fastly.net // Fastly CDN，常被用于代理服务加速中转
 DOMAIN-SUFFIX,relay.firefox.com // Firefox Relay 服务（匿名邮箱与中转）
 DOMAIN-SUFFIX,cloudcone.com // CloudCone VPS 提供商
 DOMAIN-SUFFIX,cloudways.com // Cloudways 云平台，部分代理部署平台
@@ -4804,8 +4803,15 @@ DOMAIN-SUFFIX,usercontent.zscdn.net # Zscdn 提供的用户内容分发子域，
 
 DOMAIN-SUFFIX,use1-turn.fpjs.io # FingerprintJS 提供的 TURN 服务子域，用于提升设备指纹识别在复杂网络环境中的连接稳定性
 
-# > Fastly 公共 CDN 节点（151.101.3.6）
+# > Fastly 全球边缘云与 CDN 基础设施平台
 
+DOMAIN-SUFFIX,fastly.com # Fastly 官方主域名，用于产品信息、控制台入口与企业服务访问
+DOMAIN-SUFFIX,fastly.net # Fastly 边缘网络核心域名，用于 CDN 节点通信与内容加速
+DOMAIN-SUFFIX,fastlylb.net # Fastly 负载均衡与流量调度域名，用于请求分发与高可用架构支持
+DOMAIN-SUFFIX,edgekey.net # Fastly 提供的边缘加速域名，用于客户自定义 CDN 与缓存服务
+DOMAIN-SUFFIX,edgesuite.net # Fastly 边缘缓存与内容分发域名，用于静态与动态资源加速
+DOMAIN-SUFFIX,global.ssl.fastly.net # Fastly 全球 HTTPS CDN 域名，用于安全内容分发与 TLS 加速
+DOMAIN-SUFFIX,fastly-insights.com # Fastly 可观测性与性能分析平台域名，用于流量分析与服务监控
 IP-CIDR,151.101.3.6/32 # Fastly 公共边缘节点，用于分发多家网站与服务内容（如 GitHub、Reddit、npm 等）
 
 # > BetterStackCDN 服务域名
