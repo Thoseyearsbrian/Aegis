@@ -6467,6 +6467,7 @@ DOMAIN-SUFFIX,api.ibm.com # IBM API Gateway 域名，用于云服务接口调用
 DOMAIN-SUFFIX,login.ibm.com # IBM 统一身份认证入口，用于账号登录与企业级访问控制
 DOMAIN-SUFFIX,id.ibm.com # IBM Identity 服务域名，用于身份验证、OAuth 与账户安全管理
 DOMAIN-SUFFIX,skillsbuild.org # IBM SkillsBuild 学习平台，用于技术培训与认证课程访问
+DOMAIN-SUFFIX,s81c.com # IBM 资源与静态内容 CDN 域名，用于 Akamai 加速的样式/资源加载
 
 # > Dell Technologies 企业级硬件与基础设施服务平台
 
