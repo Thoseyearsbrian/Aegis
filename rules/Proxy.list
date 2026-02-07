@@ -6510,6 +6510,16 @@ DOMAIN-SUFFIX,opendns.com # Cisco OpenDNS 服务域名，用于企业级 DNS 解
 DOMAIN-SUFFIX,meraki.com # Cisco Meraki 云管理网络平台域名，用于设备管理、SD-WAN 与无线网络控制
 DOMAIN-SUFFIX,duo.com # Cisco Duo 零信任身份认证平台域名，用于 MFA、多因素认证与访问安全
 
+# > Oracle 全球企业软件与云计算基础设施平台
+
+DOMAIN-SUFFIX,oracle.com # Oracle 官方主域名，用于数据库、企业软件、云计算与技术服务访问
+DOMAIN-SUFFIX,oraclecloud.com # Oracle Cloud 官方域名，用于 OCI 云基础设施与平台服务访问
+DOMAIN-SUFFIX,oci.oraclecloud.com # Oracle Cloud Infrastructure 控制台域名，用于云资源管理与控制台访问
+DOMAIN-SUFFIX,docs.oracle.com # Oracle 官方文档平台，用于产品文档、开发指南与技术资料访问
+DOMAIN-SUFFIX,login.oracle.com # Oracle 统一身份认证域名，用于账户登录与访问控制
+DOMAIN-SUFFIX,education.oracle.com # Oracle Education 平台域名，用于培训、认证与学习服务
+DOMAIN-SUFFIX,apex.oracle.com # Oracle APEX 低代码开发平台域名，用于企业应用开发与部署
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
