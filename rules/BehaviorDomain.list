@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-06
+# - 更新时间：2026-02-07
 
 # > WeChat 数据统计与遥测
 
@@ -601,7 +601,6 @@ DOMAIN-SUFFIX,moka.datasink.sensorsdata.cn # Moka 使用的神策数据上报端
 
 # > TikTok / Kwai 遥测（行为分析）
 
-DOMAIN-SUFFIX,tiktokw.us # TikTok/Kwai 系遥测分析域，用于行为数据、事件日志与性能指标上报
 DOMAIN-SUFFIX,analytics-ipv6.tiktokw.us # TikTok/Kwai IPv6 遥测上报节点，用于采集行为事件与性能数据
 
 # > Shengshu AI（盛数 AI）行为追踪

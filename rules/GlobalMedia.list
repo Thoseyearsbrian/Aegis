@@ -26,6 +26,8 @@ DOMAIN-SUFFIX,goofy-cdn.com # 字节跳动海外 CDN 基础设施域名，用于
 DOMAIN-SUFFIX,lf16-oversea.goofy-cdn.com # 字节跳动海外 CDN 边缘节点，用于跨区域视频、图片与应用资源加速传输
 DOMAIN-SUFFIX,oecstatic.com # 字节跳动电商（TikTok Shop / OEC）静态资源基础域名，用于前端组件、图片与业务资源分发
 DOMAIN-SUFFIX,lf16-scmcdn.oecstatic.com # 字节跳动电商 CDN 边缘节点，用于商品页面资源、静态文件与电商组件加速加载
+DOMAIN-SUFFIX,tiktokw.us # TikTok 海外服务域名，用于全球业务访问与平台通信
+DOMAIN-SUFFIX,mcs.tiktokw.us # TikTok Messaging / Communication Service（MCS）通信节点，用于客户端消息同步、推送与后台连接维持
 
 # > Amazon Prime Video
 
