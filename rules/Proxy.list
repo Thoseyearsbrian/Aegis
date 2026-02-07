@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-06
+# - 更新时间：2026-02-07
 
 # > Speedtest 网络测速平台
 
@@ -4074,11 +4074,12 @@ DOMAIN-SUFFIX,akamaized.net # Akamai CDN 内容分发网络主域名，用于图
 DOMAIN-SUFFIX,edgekey.net # Akamai CDN 边缘节点域名，常用于内容分发与缓存加载 
 DOMAIN-SUFFIX,edgesuite.net # Akamai CDN 加速域名，常与大型平台集成用于资源加载 
 
-# > 在线平台资源加载域名（Lark / Vimeo）
+# > Lark / 飞书（LarkSuite）海外招聘平台资源分发服务
 
+DOMAIN-SUFFIX,larksuite.com # Lark / 飞书国际版主域名，用于企业协作、组织管理与 SaaS 服务访问
+DOMAIN-SUFFIX,lf19-recruit-overseas-cdn-sg-sign.larksuite.com # Lark 海外招聘平台 CDN 签名子域，用于招聘页面资源鉴权与静态内容分发
+DOMAIN-SUFFIX,lf16-recruit-overseas-cdn-sg-sign.larksuite.com # Lark 海外招聘平台 CDN 签名子域（节点16），用于招聘相关前端资源调度与访问控制
 DOMAIN-SUFFIX,cdn.lrkt-in.com # Lark/Feishu 登录页使用的 CDN 域名，用于加载界面资源与样式文件 
-DOMAIN-SUFFIX,player.vimeo.com # Vimeo 嵌入式播放器域名，用于加载 iframe 视频播放器组件 
-DOMAIN-SUFFIX,extend.vimeocdn.com # Vimeo 官方视频内容分发 CDN，用于嵌入式视频播放与媒体资源加载
 
 # > WakaTime 编程时间统计与编辑器活动追踪服务域名（Coding‑Time Tracker）
 
