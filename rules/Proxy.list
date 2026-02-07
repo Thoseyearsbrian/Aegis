@@ -6536,7 +6536,6 @@ DOMAIN-SUFFIX,apex.oracle.com # Oracle APEX 低代码开发平台域名，用于
 # > NVIDIA 全球 GPU 与 AI 计算基础设施平台
 
 DOMAIN-SUFFIX,nvidia.com # NVIDIA 官方主域名，用于 GPU、AI、数据中心与开发者平台访问
-DOMAIN-SUFFIX,nvidia.cn # NVIDIA 中国区官方域名，用于本地化产品信息与服务访问
 DOMAIN-SUFFIX,developer.nvidia.com # NVIDIA 开发者平台域名，用于 SDK、驱动、CUDA 与技术文档下载
 DOMAIN-SUFFIX,download.nvidia.com # NVIDIA 官方下载服务域名，用于驱动程序、补丁与软件分发
 DOMAIN-SUFFIX,forums.developer.nvidia.com # NVIDIA 开发者社区论坛域名，用于技术讨论与问题支持
@@ -6544,6 +6543,18 @@ DOMAIN-SUFFIX,images.nvidia.com # NVIDIA 媒体与图像资源域名，用于官
 DOMAIN-SUFFIX,international.download.nvidia.com # NVIDIA 全球下载加速域名，用于跨区域驱动与软件分发
 DOMAIN-SUFFIX,api.ngc.nvidia.com # NVIDIA NGC API 域名，用于容器镜像、AI 模型与云原生资源访问
 DOMAIN-SUFFIX,nvcr.io # NVIDIA Container Registry 域名，用于 GPU 容器镜像分发与部署
+
+# > AMD（Advanced Micro Devices）半导体与计算平台相关域名
+
+DOMAIN-SUFFIX,amd.com # AMD 官方主站，用于产品信息、驱动下载、新闻与企业服务
+DOMAIN-SUFFIX,developer.amd.com # AMD 开发者平台，提供 SDK、技术文档与开发工具支持
+DOMAIN-SUFFIX,community.amd.com # AMD 官方社区与论坛，用于技术交流、问题反馈与用户支持
+DOMAIN-SUFFIX,drivers.amd.com # AMD 驱动下载入口域名（GPU / CPU 驱动分发）
+DOMAIN-SUFFIX,support.amd.com # AMD 官方支持中心，用于故障排查、知识库与工单服务
+DOMAIN-SUFFIX,gpuopen.com # AMD GPUOpen 技术平台，提供图形开发工具与开源项目
+DOMAIN-SUFFIX,rocm.docs.amd.com # AMD ROCm 文档站点，用于高性能计算与 AI 加速开发指南
+DOMAIN-SUFFIX,amdcdn.com # AMD 静态资源 CDN，用于驱动包、图像与前端资源分发
+DOMAIN-SUFFIX,amdfanstore.com # AMD 官方品牌周边商店
 
 # > 第三方博客网站
 
