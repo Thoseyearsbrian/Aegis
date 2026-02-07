@@ -6425,6 +6425,12 @@ DOMAIN-SUFFIX,cdn.usefathom.com # Fathom Analytics CDN 子域，用于统计脚�
 DOMAIN-SUFFIX,qualified.com # Qualified 平台主域，用于会话式营销、销售线索捕获与客户互动服务
 DOMAIN-SUFFIX,app.qualified.com # Qualified Web 应用入口域名，用于实时聊天、销售自动化与客户沟通平台访问
 
+# > HashiCorp Vagrant 开发环境基础设施
+
+DOMAIN-SUFFIX,vagrantup.com # HashiCorp Vagrant 官方域名，用于开发环境构建工具下载、文档访问与平台服务
+DOMAIN-SUFFIX,app.vagrantup.com # Vagrant Cloud 平台域名，用于 Box 镜像发布、版本管理与下载服务
+DOMAIN-SUFFIX,releases.hashicorp.com # HashiCorp 官方发布源，用于 Vagrant 等工具二进制文件下载与更新
+
 # > HashiCorp 云基础设施与 DevOps 工具服务
 
 DOMAIN-SUFFIX,hashicorp.com # HashiCorp 官方主域名，用于产品访问、企业服务与账号体系
