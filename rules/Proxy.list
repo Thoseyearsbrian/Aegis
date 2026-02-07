@@ -4067,11 +4067,18 @@ DOMAIN-SUFFIX,myfonts.com # Monotype 旗下 MyFonts 字体销售平台，提供�
 DOMAIN-SUFFIX,fast.fonts.net # Monotype CDN 子域，提供加速字体分发服务，嵌入于多种商业网页中 
 DOMAIN-SUFFIX,cloud.typography.com # Monotype 子品牌服务，提供定制字体托管与加载平台 
 
-# > Akamai CDN 内容加速域名（Akamai CDN）
+# > Akamai 全球 CDN 与边缘计算基础设施平台
 
-DOMAIN-SUFFIX,akamaized.net # Akamai CDN 内容分发网络主域名，用于图片、脚本、媒体资源等加载 
-DOMAIN-SUFFIX,edgekey.net # Akamai CDN 边缘节点域名，常用于内容分发与缓存加载 
-DOMAIN-SUFFIX,edgesuite.net # Akamai CDN 加速域名，常与大型平台集成用于资源加载 
+DOMAIN-SUFFIX,akamai.com # Akamai 官方主域名，用于企业服务、产品信息与控制台访问
+DOMAIN-SUFFIX,akamai.net # Akamai 核心边缘网络域名，用于全球 CDN 节点通信与内容加速
+DOMAIN-SUFFIX,akamaized.net # Akamai 标准内容分发域名，用于客户网站静态与动态资源加速
+DOMAIN-SUFFIX,akamaitechnologies.com # Akamai 企业技术服务域名，用于平台能力与客户支持
+DOMAIN-SUFFIX,akamaiedge.net # Akamai 边缘节点域名，用于缓存、请求调度与加速服务
+DOMAIN-SUFFIX,edgekey.net # Akamai 边缘加速与证书托管域名，用于 HTTPS 加速与安全交付
+DOMAIN-SUFFIX,edgesuite.net # Akamai 内容分发与缓存服务域名，用于高可用媒体与页面资源加载
+DOMAIN-SUFFIX,akadns.net # Akamai DNS 基础设施域名，用于权威 DNS 与流量调度
+DOMAIN-SUFFIX,akadns.com # Akamai DNS 服务域名，用于企业级解析与高可用架构
+DOMAIN-SUFFIX,akamaicloud.net # Akamai 云计算与边缘平台域名，用于云安全与计算能力支持
 
 # > Lark / 飞书（LarkSuite）海外招聘平台资源分发服务
 
