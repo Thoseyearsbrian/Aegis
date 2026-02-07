@@ -6483,6 +6483,14 @@ DOMAIN-SUFFIX,lg.com # LG Electronics 官方主域名，用于产品信息、账
 DOMAIN-SUFFIX,lgappstv.com # LG WebOS 应用商店与电视生态服务域名，用于应用下载与内容分发
 DOMAIN-SUFFIX,lge.com # LG Electronics 企业与技术服务域名，用于设备支持、开发者与企业解决方案访问
 
+# > Lenovo 全球设备与企业计算基础设施服务
+
+DOMAIN-SUFFIX,lenovo.com # Lenovo 官方全球主域名，用于设备产品、企业解决方案与账户服务访问
+DOMAIN-SUFFIX,lenovocdn.com # Lenovo 官方 CDN 域名，用于驱动程序、固件更新与静态资源分发
+DOMAIN-SUFFIX,lenovo.net # Lenovo 企业网络与基础服务域名，用于业务通信与平台支持
+DOMAIN-SUFFIX,lenovosoftware.com # Lenovo 软件与解决方案服务域名，用于系统工具、设备管理与软件下载
+DOMAIN-SUFFIX,lenovomm.com # Lenovo 移动设备与账户相关服务域名，用于设备服务与账号体系支持
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
