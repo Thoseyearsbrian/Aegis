@@ -6533,6 +6533,18 @@ DOMAIN-SUFFIX,login.oracle.com # Oracle 统一身份认证域名，用于账户�
 DOMAIN-SUFFIX,education.oracle.com # Oracle Education 平台域名，用于培训、认证与学习服务
 DOMAIN-SUFFIX,apex.oracle.com # Oracle APEX 低代码开发平台域名，用于企业应用开发与部署
 
+# > NVIDIA 全球 GPU 与 AI 计算基础设施平台
+
+DOMAIN-SUFFIX,nvidia.com # NVIDIA 官方主域名，用于 GPU、AI、数据中心与开发者平台访问
+DOMAIN-SUFFIX,nvidia.cn # NVIDIA 中国区官方域名，用于本地化产品信息与服务访问
+DOMAIN-SUFFIX,developer.nvidia.com # NVIDIA 开发者平台域名，用于 SDK、驱动、CUDA 与技术文档下载
+DOMAIN-SUFFIX,download.nvidia.com # NVIDIA 官方下载服务域名，用于驱动程序、补丁与软件分发
+DOMAIN-SUFFIX,forums.developer.nvidia.com # NVIDIA 开发者社区论坛域名，用于技术讨论与问题支持
+DOMAIN-SUFFIX,images.nvidia.com # NVIDIA 媒体与图像资源域名，用于官网与文档内容加载
+DOMAIN-SUFFIX,international.download.nvidia.com # NVIDIA 全球下载加速域名，用于跨区域驱动与软件分发
+DOMAIN-SUFFIX,api.ngc.nvidia.com # NVIDIA NGC API 域名，用于容器镜像、AI 模型与云原生资源访问
+DOMAIN-SUFFIX,nvcr.io # NVIDIA Container Registry 域名，用于 GPU 容器镜像分发与部署
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
