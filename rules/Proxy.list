@@ -6415,6 +6415,19 @@ DOMAIN-SUFFIX,bluecomtech.com # 提供技术文档与项目页面托管的海外
 DOMAIN-SUFFIX,ecosyste.ms # 开源软件生态与仓库数据平台，用于提供公共数据集、软件依赖分析与数字基础设施研究支持
 DOMAIN-SUFFIX,repos.ecosyste.ms # Ecosyste.ms 仓库数据查询子域，用于开源项目索引、元数据检索与生态分析
 
+# > HashiCorp 云基础设施与 DevOps 工具服务
+
+DOMAIN-SUFFIX,hashicorp.com # HashiCorp 官方主域名，用于产品访问、企业服务与账号体系
+DOMAIN-SUFFIX,terraform.io # Terraform 官方域名，用于基础设施即代码（IaC）工具文档与服务访问
+DOMAIN-SUFFIX,vaultproject.io # Vault 官方域名，用于密钥管理与安全访问服务
+DOMAIN-SUFFIX,consul.io # Consul 官方域名，用于服务发现与 Service Mesh 相关能力
+DOMAIN-SUFFIX,nomadproject.io # Nomad 官方域名，用于工作负载调度与集群管理
+DOMAIN-SUFFIX,boundaryproject.io # Boundary 官方域名，用于零信任远程访问服务
+DOMAIN-SUFFIX,packer.io # Packer 官方域名，用于镜像构建与自动化发布
+DOMAIN-SUFFIX,waypointproject.io # Waypoint 官方域名，用于应用部署与生命周期管理
+DOMAIN-SUFFIX,releases.hashicorp.com # HashiCorp 官方发布源，用于 Terraform / Vault 等工具二进制下载
+DOMAIN-SUFFIX,checkpoint.hashicorp.com # HashiCorp 版本检测服务，用于客户端更新与安全公告提示
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
