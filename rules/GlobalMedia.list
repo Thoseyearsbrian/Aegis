@@ -14,6 +14,8 @@ DOMAIN-SUFFIX,tiktokcdn-us.com # TikTok 全球内容分发网络（CDN）主域�
 DOMAIN-SUFFIX,mon16-normal-useast5.tiktokv.us # TikTok 平台监控与运行状态通信节点，用于服务质量监测与系统遥测
 DOMAIN-SUFFIX,lf16-cdn-tos.tiktokcdn-us.com # TikTok TOS（对象存储）内容分发节点，用于视频与多媒体资源传输
 DOMAIN-SUFFIX,p19-common-sign.tiktokcdn-us.com # TikTok CDN 签名与鉴权资源节点，用于安全访问控制与内容分发授权
+DOMAIN-SUFFIX,ibytedtos.com # ByteDance 对象存储（TOS）全球基础设施域名，用于 TikTok 等产品的媒体文件、静态资源与签名内容分发
+DOMAIN-SUFFIX,lf16-tiktok-common.ibytedtos.com # TikTok 全球对象存储加速子域，用于媒体资源与通用静态内容访问
 
 # > Amazon Prime Video
 
