@@ -6491,6 +6491,15 @@ DOMAIN-SUFFIX,lenovo.net # Lenovo 企业网络与基础服务域名，用于业�
 DOMAIN-SUFFIX,lenovosoftware.com # Lenovo 软件与解决方案服务域名，用于系统工具、设备管理与软件下载
 DOMAIN-SUFFIX,lenovomm.com # Lenovo 移动设备与账户相关服务域名，用于设备服务与账号体系支持
 
+# > HP（Hewlett-Packard）全球设备与企业计算基础设施服务
+
+DOMAIN-SUFFIX,hp.com # HP 官方全球主域名，用于个人与企业设备、打印解决方案及技术服务访问
+DOMAIN-SUFFIX,hpe.com # Hewlett Packard Enterprise 官方域名，用于企业服务器、存储、网络与混合云服务
+DOMAIN-SUFFIX,hpcloud.com # HP 云服务平台域名，用于云计算与企业基础设施服务
+DOMAIN-SUFFIX,hpconnected.com # HP Connected 平台域名，用于账户体系、设备互联与云端功能支持
+DOMAIN-SUFFIX,hpprint.com # HP 打印服务域名，用于云打印与远程打印服务支持
+DOMAIN-SUFFIX,hpsmart.com # HP Smart 平台域名，用于打印机管理、设备配置与应用服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
