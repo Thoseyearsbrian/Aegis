@@ -6500,6 +6500,16 @@ DOMAIN-SUFFIX,hpconnected.com # HP Connected 平台域名，用于账户体系�
 DOMAIN-SUFFIX,hpprint.com # HP 打印服务域名，用于云打印与远程打印服务支持
 DOMAIN-SUFFIX,hpsmart.com # HP Smart 平台域名，用于打印机管理、设备配置与应用服务
 
+# > Cisco 全球网络基础设施与企业通信服务平台
+
+DOMAIN-SUFFIX,cisco.com # Cisco 官方主域名，用于企业网络设备、云计算、安全与技术服务访问
+DOMAIN-SUFFIX,ciscowebex.com # Cisco Webex 平台域名，用于企业会议、协作与实时通信服务
+DOMAIN-SUFFIX,webex.com # Webex 官方服务域名，用于视频会议、在线协作与远程办公通信
+DOMAIN-SUFFIX,umbrella.com # Cisco Umbrella 云安全平台域名，用于 DNS 安全、防护与威胁拦截服务
+DOMAIN-SUFFIX,opendns.com # Cisco OpenDNS 服务域名，用于企业级 DNS 解析与安全防护
+DOMAIN-SUFFIX,meraki.com # Cisco Meraki 云管理网络平台域名，用于设备管理、SD-WAN 与无线网络控制
+DOMAIN-SUFFIX,duo.com # Cisco Duo 零信任身份认证平台域名，用于 MFA、多因素认证与访问安全
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
