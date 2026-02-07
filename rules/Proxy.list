@@ -6415,6 +6415,11 @@ DOMAIN-SUFFIX,bluecomtech.com # 提供技术文档与项目页面托管的海外
 DOMAIN-SUFFIX,ecosyste.ms # 开源软件生态与仓库数据平台，用于提供公共数据集、软件依赖分析与数字基础设施研究支持
 DOMAIN-SUFFIX,repos.ecosyste.ms # Ecosyste.ms 仓库数据查询子域，用于开源项目索引、元数据检索与生态分析
 
+# > Fathom Analytics 隐私优先网站统计服务
+
+DOMAIN-SUFFIX,usefathom.com # Fathom Analytics 官方域名，用于无 Cookie 网站访问统计与流量分析
+DOMAIN-SUFFIX,cdn.usefathom.com # Fathom Analytics CDN 子域，用于统计脚本与前端资源加载
+
 # > HashiCorp 云基础设施与 DevOps 工具服务
 
 DOMAIN-SUFFIX,hashicorp.com # HashiCorp 官方主域名，用于产品访问、企业服务与账号体系
