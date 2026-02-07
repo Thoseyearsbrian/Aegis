@@ -5,7 +5,15 @@
 # - 说明：YouTube 域名已迁移至 Google.list 统一管理
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-04
+# - 更新时间：2026-02-07
+
+# > TikTok 全球媒体与平台通信基础设施
+
+DOMAIN-SUFFIX,tiktokv.us # TikTok 全球平台业务与 API 服务域名，用于客户端通信、策略下发与核心功能访问
+DOMAIN-SUFFIX,tiktokcdn-us.com # TikTok 全球内容分发网络（CDN）主域，用于视频流、图像资源与静态内容加速传输
+DOMAIN-SUFFIX,mon16-normal-useast5.tiktokv.us # TikTok 平台监控与运行状态通信节点，用于服务质量监测与系统遥测
+DOMAIN-SUFFIX,lf16-cdn-tos.tiktokcdn-us.com # TikTok TOS（对象存储）内容分发节点，用于视频与多媒体资源传输
+DOMAIN-SUFFIX,p19-common-sign.tiktokcdn-us.com # TikTok CDN 签名与鉴权资源节点，用于安全访问控制与内容分发授权
 
 # > Amazon Prime Video
 
