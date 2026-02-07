@@ -6466,6 +6466,17 @@ DOMAIN-SUFFIX,delltechnologiessupport.dell.com # Dell 企业级技术支持门�
 DOMAIN-SUFFIX,downloads.dell.com # Dell 官方软件下载域名，用于驱动、固件与系统更新分发
 DOMAIN-SUFFIX,dl.dell.com # Dell 下载加速域名，用于驱动与更新内容交付
 
+# > Samsung（三星）全球设备生态与账户基础设施服务
+
+DOMAIN-SUFFIX,samsung.com # Samsung 官方主域名，用于产品信息、账户体系与全球服务访问
+DOMAIN-SUFFIX,samsungcloud.com # Samsung Cloud 服务域名，用于设备数据同步、备份与恢复
+DOMAIN-SUFFIX,samsungapps.com # Samsung Galaxy 应用商店服务域名，用于应用下载与更新
+DOMAIN-SUFFIX,samsungaccount.com # Samsung Account 统一身份认证服务，用于登录与设备绑定
+DOMAIN-SUFFIX,galaxy.store # Galaxy Store 官方域名，用于应用分发与数字内容下载
+DOMAIN-SUFFIX,sec.samsung.com # Samsung 安全与设备相关服务域，用于安全策略与设备通信
+DOMAIN-SUFFIX,otn.samsungcloudcdn.com # Samsung OTA 更新 CDN 域名，用于系统与固件更新分发
+DOMAIN-SUFFIX,samsungcloudcdn.com # Samsung Cloud CDN 服务域，用于媒体与备份数据加速传输
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
