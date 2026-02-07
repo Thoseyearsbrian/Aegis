@@ -6477,6 +6477,12 @@ DOMAIN-SUFFIX,sec.samsung.com # Samsung 安全与设备相关服务域，用于�
 DOMAIN-SUFFIX,otn.samsungcloudcdn.com # Samsung OTA 更新 CDN 域名，用于系统与固件更新分发
 DOMAIN-SUFFIX,samsungcloudcdn.com # Samsung Cloud CDN 服务域，用于媒体与备份数据加速传输
 
+# > LG Electronics 全球设备与智能终端基础设施服务
+
+DOMAIN-SUFFIX,lg.com # LG Electronics 官方主域名，用于产品信息、账号体系与全球服务访问
+DOMAIN-SUFFIX,lgappstv.com # LG WebOS 应用商店与电视生态服务域名，用于应用下载与内容分发
+DOMAIN-SUFFIX,lge.com # LG Electronics 企业与技术服务域名，用于设备支持、开发者与企业解决方案访问
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
