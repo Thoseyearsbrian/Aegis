@@ -6556,6 +6556,20 @@ DOMAIN-SUFFIX,rocm.docs.amd.com # AMD ROCm 文档站点，用于高性能计算�
 DOMAIN-SUFFIX,amdcdn.com # AMD 静态资源 CDN，用于驱动包、图像与前端资源分发
 DOMAIN-SUFFIX,amdfanstore.com # AMD 官方品牌周边商店
 
+# > Intel 全球半导体与计算平台基础设施服务
+
+DOMAIN-SUFFIX,intel.com # Intel 官方主域名，用于处理器、数据中心、AI 与企业级计算产品访问
+DOMAIN-SUFFIX,download.intel.com # Intel 官方驱动与软件分发平台，用于下载驱动、固件与开发工具
+DOMAIN-SUFFIX,software.intel.com # Intel 软件与开发者平台入口，提供 SDK、工具链与技术文档
+DOMAIN-SUFFIX,community.intel.com # Intel 官方社区与技术论坛，用于开发者交流与问题支持
+DOMAIN-SUFFIX,ark.intel.com # Intel ARK 产品数据库，用于查询 CPU、GPU 与硬件规格
+DOMAIN-SUFFIX,registrationcenter.intel.com # Intel 产品注册与授权管理平台
+DOMAIN-SUFFIX,authentication.intel.com # Intel 统一身份认证服务（登录与账户验证）
+DOMAIN-SUFFIX,api.intel.com # Intel API 服务接口，用于开发者与企业级集成
+DOMAIN-SUFFIX,static.intel.com # Intel 静态资源加载域（JS、CSS、图片等）
+DOMAIN-SUFFIX,images.intel.com # Intel 图像资源 CDN，用于产品图片与媒体内容分发
+IP-CIDR,134.134.0.0/16 # Intel 企业网络段（历史与当前部分基础设施使用）
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
