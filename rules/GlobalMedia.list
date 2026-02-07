@@ -24,6 +24,8 @@ DOMAIN-SUFFIX,p16-oec-general-useast8.ttcdn-us.com # TikTok 电商通用 CDN 节
 DOMAIN-SUFFIX,p19-oec-general.ttcdn-us.com # TikTok 电商通用 CDN 节点，用于商品素材与平台资源分发
 DOMAIN-SUFFIX,goofy-cdn.com # 字节跳动海外 CDN 基础设施域名，用于 TikTok 等国际产品的媒体资源与静态内容分发
 DOMAIN-SUFFIX,lf16-oversea.goofy-cdn.com # 字节跳动海外 CDN 边缘节点，用于跨区域视频、图片与应用资源加速传输
+DOMAIN-SUFFIX,oecstatic.com # 字节跳动电商（TikTok Shop / OEC）静态资源基础域名，用于前端组件、图片与业务资源分发
+DOMAIN-SUFFIX,lf16-scmcdn.oecstatic.com # 字节跳动电商 CDN 边缘节点，用于商品页面资源、静态文件与电商组件加速加载
 
 # > Amazon Prime Video
 
