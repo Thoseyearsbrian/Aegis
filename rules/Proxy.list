@@ -6570,6 +6570,15 @@ DOMAIN-SUFFIX,static.intel.com # Intel 静态资源加载域（JS、CSS、图片
 DOMAIN-SUFFIX,images.intel.com # Intel 图像资源 CDN，用于产品图片与媒体内容分发
 IP-CIDR,134.134.0.0/16 # Intel 企业网络段（历史与当前部分基础设施使用）
 
+# > Kaltura 企业级视频托管与流媒体分发平台
+
+DOMAIN-SUFFIX,kaltura.com # Kaltura 官方主域名，用于企业视频平台、在线教育、媒体托管与视频管理服务
+DOMAIN-SUFFIX,cdnapisec.kaltura.com # Kaltura 安全 CDN API 域名，用于视频播放器鉴权、媒体分发安全校验与访问控制
+DOMAIN-SUFFIX,cdnapi.kaltura.com # Kaltura CDN API 服务域，用于媒体请求调度与播放器资源加载
+DOMAIN-SUFFIX,api.kaltura.com # Kaltura 平台 API 接口，用于视频上传、管理、分析与集成调用
+DOMAIN-SUFFIX,player.kaltura.com # Kaltura Web 播放器域名，用于嵌入式视频播放与流媒体加载
+DOMAIN-SUFFIX,cfvod.kaltura.com # Kaltura 基于 CloudFront 的视频点播 CDN 节点，用于加速媒体内容传输
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
