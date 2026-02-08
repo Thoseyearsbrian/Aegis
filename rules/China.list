@@ -97,6 +97,10 @@ IP-CIDR,203.209.243.0/24 # 支付宝第三方能力接入节点
 IP-CIDR,203.209.250.0/24 # 支付宝 AMDC 网络调度节点，用于客户端链路优化、接入策略分配与网络路径选择
 IP-CIDR,150.139.244.0/24 # 支付宝前端静态资源与组件分发节点（alipayobjects）
 IP-CIDR,27.148.184.0/24 # 支付宝网关与静态资源分发节点（alipayobjects）
+IP-CIDR,221.228.74.0/24 # Alipay 数据网关边缘节点（datagw-edge），用于交易与业务请求的边缘接入与调度
+IP-CIDR,180.121.81.0/24 # Alipay 前端渲染服务节点（render），用于页面渲染与前端资源生成
+IP-CIDR,58.216.14.0/24 # Alipay 静态资源 CDN 节点（mdn.alipayobjects.com），用于图片、脚本与样式资源分发
+IP-CIDR,117.85.70.0/24 # Alipay 通用网关与静态资源节点（gw.alipayobjects.com），用于核心资源加载与服务接入
 
 # > 阿里云盘 相关域名
 
