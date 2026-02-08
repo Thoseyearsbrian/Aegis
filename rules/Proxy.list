@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-07
+# - 更新时间：2026-02-08
 
 # > Speedtest 网络测速平台
 
@@ -6579,6 +6579,10 @@ DOMAIN-SUFFIX,cdnapi.kaltura.com # Kaltura CDN API 服务域，用于媒体请�
 DOMAIN-SUFFIX,api.kaltura.com # Kaltura 平台 API 接口，用于视频上传、管理、分析与集成调用
 DOMAIN-SUFFIX,player.kaltura.com # Kaltura Web 播放器域名，用于嵌入式视频播放与流媒体加载
 DOMAIN-SUFFIX,cfvod.kaltura.com # Kaltura 基于 CloudFront 的视频点播 CDN 节点，用于加速媒体内容传输
+
+# > Amnesty Tech / Security Lab 人权与间谍软件技术调查平台
+
+DOMAIN-SUFFIX,securitylab.amnesty.org # 国际特赦组织 Amnesty Tech 安全实验室官方网站，用于发布针对间谍软件（如 Pegasus）、APT 攻击、人权监控行为的技术调查报告与 IOC 情报
 
 # > 第三方博客网站
 
