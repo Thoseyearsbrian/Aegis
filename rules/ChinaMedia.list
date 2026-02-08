@@ -98,8 +98,9 @@ IP-CIDR,58.216.107.0/24 # 抖音直播图片与展示资源分发节点
 IP-CIDR,58.216.110.0/24 # 抖音图片资源 CDN 节点（douyinpic）
 IP-CIDR,58.217.200.0/24 # 字节跳动对象存储 CDN 节点
 IP-CIDR,58.218.200.0/24 # 字节跳动核心业务调度节点（Pitaya）
-IP-CIDR,58.220.178.0/24 # 字节跳动电商用户服务节点（ecomuser.snssdk.com）
 IP-CIDR,58.220.40.0/24 # 抖音图片与多媒体资源 CDN 节点（douyinpic）
+IP-CIDR,58.220.78.0/24 # 抖音直播 FLV 拉流 CDN 节点（pull-flv-f1.douyincdn.com）
+IP-CIDR,58.220.178.0/24 # 字节跳动电商用户服务节点（ecomuser.snssdk.com）
 IP-CIDR,58.221.30.0/24 # 抖音图片与多媒体资源 CDN 节点（douyinpic）
 IP-CIDR,58.221.33.0/24 # 字节跳动官方文档与静态资源分发节点
 IP-CIDR,58.221.45.0/24 # 抖音图片与多媒体资源 CDN 节点（douyinpic）

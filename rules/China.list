@@ -1215,6 +1215,7 @@ DOMAIN-SUFFIX,api.jdpay.com # 京东支付业务 API 接口域名
 DOMAIN-SUFFIX,jdcloud.com # 京东云服务平台域名，用于云计算、存储与 CDN 服务
 DOMAIN-SUFFIX,api.jdcloud.com # 京东云业务 API 接口域名
 DOMAIN-SUFFIX,static.jdcloud.com # 京东云静态资源与控制台前端资源加载域名
+DOMAIN-SUFFIX,jdcloudedge.com # JD Cloud Edge 边缘网络域名，用于京东云（JD Cloud）边缘节点与 CDN 加速服务
 
 # > 天猫（Tmall）
 
