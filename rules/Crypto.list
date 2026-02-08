@@ -4,7 +4,7 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-08
+# - 更新时间：2026-02-08
 
 # > Binance 加密资产交易所相关域名
 
@@ -122,6 +122,12 @@ DOMAIN-SUFFIX,bybit.com # Bybit 官方主站与加密资产交易平台核心服
 DOMAIN-SUFFIX,api.bybit.com # Bybit 官方交易 API，用于行情查询、下单、账户与合约相关接口
 DOMAIN-SUFFIX,static.bybit.com # Bybit 前端静态资源域，用于页面脚本、样式与组件加载
 DOMAIN-SUFFIX,blog.bybit.com # Bybit 官方公告与博客平台，用于平台更新、活动与信息披露
+DOMAIN-SUFFIX,help.bybit.com # Bybit 帮助中心与用户支持文档站点
+DOMAIN-SUFFIX,announcements.bybit.com # Bybit 官方公告与系统通知发布域名
+DOMAIN-SUFFIX,learn.bybit.com # Bybit 学习中心，用于交易教程与产品知识内容访问
+DOMAIN-SUFFIX,careers.bybit.com # Bybit 官方招聘页面，用于岗位信息与人才招募
+DOMAIN-SUFFIX,download.bybit.com # Bybit 客户端与相关工具下载分发域名
+DOMAIN-SUFFIX,assets.bybit.com # Bybit 前端媒体与静态资源子域，用于图像、图标等资源加载
 
 # > HackenProof 区块链安全审计与漏洞赏金平台
 
