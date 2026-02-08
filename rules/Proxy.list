@@ -6580,9 +6580,9 @@ DOMAIN-SUFFIX,api.kaltura.com # Kaltura 平台 API 接口，用于视频上传�
 DOMAIN-SUFFIX,player.kaltura.com # Kaltura Web 播放器域名，用于嵌入式视频播放与流媒体加载
 DOMAIN-SUFFIX,cfvod.kaltura.com # Kaltura 基于 CloudFront 的视频点播 CDN 节点，用于加速媒体内容传输
 
-# > Amnesty Tech / Security Lab 人权与间谍软件技术调查平台
+# > Amnesty Tech / Security Lab 技术研究与安全分析平台
 
-DOMAIN-SUFFIX,securitylab.amnesty.org # 国际特赦组织 Amnesty Tech 安全实验室官方网站，用于发布针对间谍软件（如 Pegasus）、APT 攻击、人权监控行为的技术调查报告与 IOC 情报
+DOMAIN-SUFFIX,securitylab.amnesty.org # Amnesty Tech Security Lab 官方技术研究站点，用于发布间谍软件（如 Pegasus）、APT 攻击及监控型恶意软件相关的技术分析与 IOC 情报
 
 # > Civic Cookie Control 隐私合规与 Cookie 管理服务
 
