@@ -2529,3 +2529,7 @@ DOMAIN-SUFFIX,widgetstore-2get4jkof622d914-1304418908.ap-shanghai.app.tcloudbase
 
 DOMAIN-SUFFIX,ggff.net # ggff.net 网络资源服务域名，用于提供 Web 内容访问与资源分发能力
 DOMAIN-SUFFIX,pl.zeroo.ggff.net # ggff.net 子域，用于页面资源加载或平台功能请求
+
+# > 南京航空航天大学技术博客与资源门户
+
+DOMAIN-SUFFIX,home.nuaa.tech # 南京航空航天大学技术博客与资源分享域名，用于发布学院新闻、技术文章、科研成果与学习资源
