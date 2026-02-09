@@ -6592,6 +6592,10 @@ DOMAIN-SUFFIX,cc.cdn.civiccomputing.com # Civic Cookie Control 官方 CDN，用�
 
 DOMAIN-SUFFIX,e.infogram.com # Infogram 官方嵌入与资源加载域名，用于在第三方网站中加载交互式图表、信息图与可视化内容资源
 
+# > ZipVPN 网络代理与加密隧道服务
+
+DOMAIN-SUFFIX,zipvpn.net # ZipVPN 官方网站与服务入口，用于提供 VPN 客户端下载、账户管理与加密代理服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
