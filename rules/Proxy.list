@@ -6609,6 +6609,11 @@ DOMAIN-SUFFIX,experience.ninetailed.co # Ninetailed 平台体验子域，用于�
 
 DOMAIN-SUFFIX,store.xecurify.com # Xecurify (miniOrange) 认证与应用接入服务域名，用于企业级单点登录、身份验证与授权服务
 
+# > XO Builder 前端资源与构建器 CDN
+
+DOMAIN-SUFFIX,xobuilder.app # XO Builder 官方域名，用于项目页面构建配置与管理
+DOMAIN-SUFFIX,cdn.xobuilder.app # XO Builder 前端资源 CDN 子域，用于加载脚本、样式与静态资源加速
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
