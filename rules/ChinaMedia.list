@@ -64,6 +64,8 @@ DOMAIN-SUFFIX,tos-quic-lf.douyin.com # 抖音 QUIC 传输协议 CDN 子域，用
 DOMAIN-SUFFIX,lf-webcast-sourcecdn-tos.bytegecko.com # 抖音直播源站级媒体 CDN 域名
 DOMAIN-SUFFIX,p3-developer.bytemaimg.com # 字节跳动开发者平台图片与静态资源 CDN
 DOMAIN-SUFFIX,lf6-font-sign.bytehwm.com # 字节跳动字体签名与前端字体资源校验服务域名
+DOMAIN-SUFFIX,pull-x2-t5.douyincdn.com # 抖音直播 FLV 拉流 CDN 子域
+DOMAIN-SUFFIX,lf3-static.bytednsdoc.com # 字节跳动文档与前端静态资源 CDN
 IP-CIDR,1.194.30.0/24 # 字节跳动移动端 SDK 通信节点
 IP-CIDR,1.194.172.0/24 # 抖音视频点播 CDN 实际服务节点
 IP-CIDR,1.194.217.0/24 # 抖音短视频音视频内容分发 CDN 节点
@@ -229,6 +231,7 @@ IP-CIDR,180.163.132.0/24 # 抖音图片资源 CDN 节点
 IP-CIDR,180.163.145.0/24 # 字节跳动字体与前端资源分发节点
 IP-CIDR,180.163.148.0/24 # 字节跳动业务接口与系统服务网段
 IP-CIDR,182.40.23.0/24 # 抖音运营 / 激励 / 特效素材分发网段
+IP-CIDR,182.40.50.0/24 # 字节跳动文档与静态资源 CDN 实际服务节点（bytednsdoc）
 IP-CIDR,182.40.78.0/24 # 抖音图片签名校验服务节点
 IP-CIDR,182.40.112.0/24 # 字节跳动移动端 SDK 与状态服务通信网段（mssdk / 状态同步）
 IP-CIDR,182.40.143.0/24 # 字节跳动静态资源 CDN 节点（lf3-static.bytednsdoc.com）
@@ -265,6 +268,7 @@ IP-CIDR,222.186.163.0/24 # 抖音图片签名与媒体资源服务节点
 IP-CIDR,222.188.8.0/24 # 字节跳动内容聚合与业务调度节点（aggr）
 IP-CIDR,223.111.116.0/24 # 字节跳动直播与多媒体内容分发 CDN 节点
 IP-CIDR,223.215.189.0/24 # 抖音直播 FLV 拉流实际服务节点
+IP-CIDR,223.244.13.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点（pull-x2-t5.douyincdn.com）
 
 # > 字节跳动相关行为指纹（当前采用 ChinaMedia 路由策略）
 
