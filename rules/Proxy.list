@@ -6614,6 +6614,10 @@ DOMAIN-SUFFIX,store.xecurify.com # Xecurify (miniOrange) 认证与应用接入�
 DOMAIN-SUFFIX,xobuilder.app # XO Builder 官方域名，用于项目页面构建配置与管理
 DOMAIN-SUFFIX,cdn.xobuilder.app # XO Builder 前端资源 CDN 子域，用于加载脚本、样式与静态资源加速
 
+# > MinMaxify 订单数量限制 Shopify 应用相关域名
+
+DOMAIN-SUFFIX,limits.minmaxify.com # MinMaxify “Order Limits” Shopify 应用端点/资源域名，用于订单最小/最大数量规则管理与运行时配置
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
