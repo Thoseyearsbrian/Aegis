@@ -6622,6 +6622,10 @@ DOMAIN-SUFFIX,limits.minmaxify.com # MinMaxify “Order Limits” Shopify 应用
 
 DOMAIN-SUFFIX,octocaptcha.com # OctoCaptcha 官方人机验证/CAPTCHA 服务域名，用于提供挑战式验证码验证交互
 
+# > Arkose Labs 验证服务 API 域名
+
+DOMAIN-SUFFIX,github-api.arkoselabs.com # Arkose Labs CAPTCHA 服务相关域名，用于 CAPTCHA 挑战的 API 调用及验证交互
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
