@@ -2517,3 +2517,13 @@ DOMAIN-SUFFIX,cn.widgetstore.net # WidgetStore 国内镜像/静态资源域名�
 # > Microsoft 中国区云租户基础命名空间（Azure / Microsoft 365）
 
 DOMAIN-SUFFIX,onmicrosoft.cn # Microsoft 在中国区提供的云租户基础域名，用于 Azure、Microsoft 365 等企业云服务的租户命名空间与身份体系
+
+# > Tencent CloudBase / 第三方组件与前端资源分发服务
+
+DOMAIN-SUFFIX,tcloudbase.com # 腾讯云 CloudBase（云开发）托管平台域名，用于 Serverless 应用托管、静态资源分发与动态服务访问
+DOMAIN-SUFFIX,widgetstore-2get4jkof622d914-1304418908.ap-shanghai.app.tcloudbase.com # CloudBase 应用实例子域，用于托管 Web 组件、页面资源或应用后端服务
+
+# > ggff.net 网络资源与内容分发服务
+
+DOMAIN-SUFFIX,ggff.net # ggff.net 网络资源服务域名，用于提供 Web 内容访问与资源分发能力
+DOMAIN-SUFFIX,pl.zeroo.ggff.net # ggff.net 子域，用于页面资源加载或平台功能请求
