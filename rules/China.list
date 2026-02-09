@@ -2491,3 +2491,13 @@ DOMAIN-SUFFIX,tianya.net # 天涯国际/重启访问入口（根据官方业务�
 # > JsDelivr Mirror / 前端公共资源镜像 CDN
 
 DOMAIN-SUFFIX,jsdmirror.com # JsDelivr 第三方镜像加速域名，用于提供 npm / GitHub 等前端公共库的加速访问，常见于国内网络环境下的资源加载优化
+
+# > 山湖科技（ShanhuTech）静态资源分发网络
+
+DOMAIN-SUFFIX,shanhutech.cn # 山湖科技静态资源服务主域，用于前端文件、组件与网站资源分发
+DOMAIN-SUFFIX,cdn-hw-static2.shanhutech.cn # 山湖科技静态资源 CDN 子域，用于网页脚本、样式与媒体资源加载
+
+# > Snrat CDN 前端公共库加速服务
+
+DOMAIN-SUFFIX,snrat.com # Snrat CDN 服务主域，用于提供前端公共库与静态资源加速访问
+DOMAIN-SUFFIX,cdnjs.snrat.com # Snrat CDN 子域，用于加载 JavaScript/CSS 等前端依赖资源
