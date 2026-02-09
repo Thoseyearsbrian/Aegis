@@ -6618,6 +6618,10 @@ DOMAIN-SUFFIX,cdn.xobuilder.app # XO Builder 前端资源 CDN 子域，用于加
 
 DOMAIN-SUFFIX,limits.minmaxify.com # MinMaxify “Order Limits” Shopify 应用端点/资源域名，用于订单最小/最大数量规则管理与运行时配置
 
+# > OctoCaptcha 验证码挑战服务域名
+
+DOMAIN-SUFFIX,octocaptcha.com # OctoCaptcha 官方人机验证/CAPTCHA 服务域名，用于提供挑战式验证码验证交互
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
