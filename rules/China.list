@@ -2501,3 +2501,7 @@ DOMAIN-SUFFIX,cdn-hw-static2.shanhutech.cn # 山湖科技静态资源 CDN 子域
 
 DOMAIN-SUFFIX,snrat.com # Snrat CDN 服务主域，用于提供前端公共库与静态资源加速访问
 DOMAIN-SUFFIX,cdnjs.snrat.com # Snrat CDN 子域，用于加载 JavaScript/CSS 等前端依赖资源
+
+# > Akass 平台前端资源与脚本分发服务
+
+DOMAIN-SUFFIX,sf.akass.cn # Akass 平台前端静态资源与脚本分发域名，用于页面功能组件与资源加载
