@@ -6630,6 +6630,10 @@ DOMAIN-SUFFIX,github-api.arkoselabs.com # Arkose Labs CAPTCHA 服务相关域名
 
 DOMAIN-SUFFIX,blog.nocode.host # NoCode.Host 官方博客域名，用于发布产品更新、技术文章与平台相关内容
 
+# > 南京航空航天大学技术博客与资源门户
+
+DOMAIN-SUFFIX,home.nuaa.tech # 南京航空航天大学技术博客与资源分享域名，用于发布学院新闻、技术文章、科研成果与学习资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
