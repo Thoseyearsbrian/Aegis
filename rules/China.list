@@ -2505,3 +2505,11 @@ DOMAIN-SUFFIX,cdnjs.snrat.com # Snrat CDN 子域，用于加载 JavaScript/CSS �
 # > Akass 平台前端资源与脚本分发服务
 
 DOMAIN-SUFFIX,sf.akass.cn # Akass 平台前端静态资源与脚本分发域名，用于页面功能组件与资源加载
+
+# > Maozi Io 平台动态子域解析入口
+
+DOMAIN-SUFFIX,maozi.io # Maozi Io 平台动态服务域名，用于物联网/设备/动态实例访问与路由解析
+
+# > WidgetStore 静态资源与组件分发服务
+
+DOMAIN-SUFFIX,cn.widgetstore.net # WidgetStore 国内镜像/静态资源域名，用于页面组件、脚本与样式资源加载
