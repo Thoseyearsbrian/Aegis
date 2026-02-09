@@ -56,3 +56,7 @@ DOMAIN-SUFFIX,advsec.github.com # GitHub Advanced Security 平台入口，用于
 # > GitHub Community 开发者讨论与支持平台
 
 DOMAIN-SUFFIX,github.community # GitHub 官方社区支持站，用于发布开发者讨论、技术问答与产品反馈，基于 GitHub Discussions 平台
+
+# > GitHub 官方周边商品在线商店
+
+DOMAIN-SUFFIX,thegithubshop.com # GitHub 官方周边商品店域名，用于展示和销售 GitHub 主题商品（如服饰、贴纸等）
