@@ -2513,3 +2513,7 @@ DOMAIN-SUFFIX,maozi.io # Maozi Io 平台动态服务域名，用于物联网/设
 # > WidgetStore 静态资源与组件分发服务
 
 DOMAIN-SUFFIX,cn.widgetstore.net # WidgetStore 国内镜像/静态资源域名，用于页面组件、脚本与样式资源加载
+
+# > Microsoft 中国区云租户基础命名空间（Azure / Microsoft 365）
+
+DOMAIN-SUFFIX,onmicrosoft.cn # Microsoft 在中国区提供的云租户基础域名，用于 Azure、Microsoft 365 等企业云服务的租户命名空间与身份体系
