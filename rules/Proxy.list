@@ -6604,6 +6604,10 @@ DOMAIN-SUFFIX,s4.zstatic.net # Zstatic 静态资源 CDN 镜像域名，用于分
 
 DOMAIN-SUFFIX,experience.ninetailed.co # Ninetailed 平台体验子域，用于内容个性化、A/B 测试与动态体验评估
 
+# > Xecurify / miniOrange 企业身份认证与单点登录服务
+
+DOMAIN-SUFFIX,store.xecurify.com # Xecurify (miniOrange) 认证与应用接入服务域名，用于企业级单点登录、身份验证与授权服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
