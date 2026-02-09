@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-09
+# - 更新时间：2026-02-10
 
 # > Speedtest 网络测速平台
 
@@ -6644,6 +6644,7 @@ DOMAIN-SUFFIX,blog.cpen.top # Cpen 个人博客，记录技术文章与学习笔
 DOMAIN-SUFFIX,steipete.me # Peter Steinberger（PSPDFKit 创始人）个人官网与技术博客，用于开源项目、开发文章与技术分享
 DOMAIN-SUFFIX,mscrmtools.blogspot.com # Microsoft CRM Tools 博客，用于 Dynamics 365 / XrmToolBox 插件工具分享与技术内容展示
 DOMAIN-SUFFIX,easys.cc.cd # “茉灵智库” 学术/技术教程与资源分享网站
+DOMAIN-SUFFIX,mashiro.pro # Mashiro 个人技术博客域名，主要发布开发技术、建站经验与资源分享内容，属于独立站点性质
 
 # > 第三方独立站
 

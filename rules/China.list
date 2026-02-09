@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-08
+# - 更新时间：2026-02-10
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -2487,3 +2487,7 @@ DOMAIN-SUFFIX,tianya.cn # 天涯社区主域名，中国历史悠久的综合性
 DOMAIN-SUFFIX,bbs.tianya.cn # 天涯论坛子域名，用于论坛版块访问与帖子浏览
 DOMAIN-SUFFIX,tianyaclub.com # 天涯社区品牌历史访问域名
 DOMAIN-SUFFIX,tianya.net # 天涯国际/重启访问入口（根据官方业务计划启用）
+
+# > JsDelivr Mirror / 前端公共资源镜像 CDN
+
+DOMAIN-SUFFIX,jsdmirror.com # JsDelivr 第三方镜像加速域名，用于提供 npm / GitHub 等前端公共库的加速访问，常见于国内网络环境下的资源加载优化
