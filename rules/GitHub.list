@@ -4,7 +4,7 @@
 # - 特征：涵盖 GitHub 主域名、子服务与 CDN 资源
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-04
+# - 更新时间：2026-02-09
 
 # > GitHub 主站与基础服务
 
@@ -50,3 +50,7 @@ DOMAIN-SUFFIX,camo.githubusercontent.com # GitHub 图片代理服务域名，用
 DOMAIN-SUFFIX,uploads.github.com # GitHub 文件上传服务，安全报告与漏洞附件可能经此传输
 DOMAIN-SUFFIX,securitylab.github.com # GitHub Security Lab 官方站点，用于漏洞研究与最佳实践发布
 DOMAIN-SUFFIX,advsec.github.com # GitHub Advanced Security 平台入口，用于代码安全扫描、依赖风险检测与安全治理能力
+
+# > GitHub Community 开发者讨论与支持平台
+
+DOMAIN-SUFFIX,github.community # GitHub 官方社区支持站，用于发布开发者讨论、技术问答与产品反馈，基于 GitHub Discussions 平台
