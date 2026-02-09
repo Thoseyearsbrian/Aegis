@@ -6626,6 +6626,10 @@ DOMAIN-SUFFIX,octocaptcha.com # OctoCaptcha 官方人机验证/CAPTCHA 服务域
 
 DOMAIN-SUFFIX,github-api.arkoselabs.com # Arkose Labs CAPTCHA 服务相关域名，用于 CAPTCHA 挑战的 API 调用及验证交互
 
+# > NoCode.Host 官方博客与技术内容平台
+
+DOMAIN-SUFFIX,blog.nocode.host # NoCode.Host 官方博客域名，用于发布产品更新、技术文章与平台相关内容
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
