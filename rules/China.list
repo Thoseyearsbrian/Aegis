@@ -2505,6 +2505,8 @@ DOMAIN-SUFFIX,cdnjs.snrat.com # Snrat CDN 子域，用于加载 JavaScript/CSS �
 # > Akass 平台前端资源与脚本分发服务
 
 DOMAIN-SUFFIX,sf.akass.cn # Akass 平台前端静态资源与脚本分发域名，用于页面功能组件与资源加载
+DOMAIN-SUFFIX,npm.akass.cn # Akass 提供的 NPM 包镜像服务域名，用于前端依赖包下载与版本分发
+DOMAIN-SUFFIX,jsd.akass.cn # Akass 提供的 JsDelivr 镜像加速域名，用于前端公共库与静态资源加载
 
 # > Maozi Io 平台动态子域解析入口
 
