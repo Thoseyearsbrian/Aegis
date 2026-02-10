@@ -6630,6 +6630,10 @@ DOMAIN-SUFFIX,github-api.arkoselabs.com # Arkose Labs CAPTCHA 服务相关域名
 
 DOMAIN-SUFFIX,blog.nocode.host # NoCode.Host 官方博客域名，用于发布产品更新、技术文章与平台相关内容
 
+# > Paper2X AI 文档与论文辅助处理平台
+
+DOMAIN-SUFFIX,paper2x.noedgeai.com # Paper2X 在线文档与论文辅助处理服务域名，用于文本解析、格式转换与 AI 辅助处理功能
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
