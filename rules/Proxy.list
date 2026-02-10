@@ -6662,6 +6662,10 @@ DOMAIN-SUFFIX,docs.cook.ninthfeast.com # Ninth Feast Cook 文档站域名，用�
 
 DOMAIN-SUFFIX,simhaoka.com # Simhaoka 博客与资源分享域名，用于发布技术文章、学习资料与经验总结等内容
 
+# > NoCode.Host 站点托管与内容展示平台
+
+DOMAIN-SUFFIX,site.nocode.host # NoCode.Host 平台静态/托管站点域名，用于托管用户创建的网站内容及页面访问
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
