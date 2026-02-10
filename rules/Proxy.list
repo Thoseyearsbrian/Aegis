@@ -6638,6 +6638,10 @@ DOMAIN-SUFFIX,paper2x.noedgeai.com # Paper2X 在线文档与论文辅助处理�
 
 DOMAIN-SUFFIX,paperburner.viwoplus.site # PaperBurner 在线文档与笔记处理平台域名，用于用户文档编辑、笔记生成和内容保存等 Web 功能
 
+# > ChatWithPaper 学术内容交互与查询平台
+
+DOMAIN-SUFFIX,academic.chatwithpaper.org # ChatWithPaper 平台学术对话/文献查询子域，用于提供基于论文与学术内容的问答与检索功能
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
