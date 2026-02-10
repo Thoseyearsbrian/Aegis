@@ -6646,6 +6646,10 @@ DOMAIN-SUFFIX,academic.chatwithpaper.org # ChatWithPaper 平台学术对话/文�
 
 DOMAIN-SUFFIX,yibao.233h.com # 易保服务平台域名，用于保险/健康互助相关信息访问与服务交互
 
+# > Hotkey Cheatsheet 快捷键速查工具网站
+
+DOMAIN-SUFFIX,hotkeycheatsheet.com # Hotkey Cheatsheet 平台域名，用于提供各种应用/操作系统快捷键速查与参考信息
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
