@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-07
+# - 更新时间：2026-02-11
 
 # > WeChat 数据统计与遥测
 
@@ -13,7 +13,6 @@ DOMAIN-SUFFIX,log.tbs.qq.com # X5 内核日志上报服务
 DOMAIN-SUFFIX,monitor.qq.com # 实时运行状态监控接口
 DOMAIN-SUFFIX,tajs.qq.com # JS 性能与稳定性埋点服务
 DOMAIN-SUFFIX,longcloud.weixin.com # 微信日志与数据回传接口
-DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net # 微信后台统计与性能状态上报节点
 DOMAIN-SUFFIX,admaterial.gdtimg.com # 广告素材分发 CDN
 DOMAIN-SUFFIX,adtrack.qq.com # 广告点击与曝光行为追踪接口
 DOMAIN-SUFFIX,lcs.dev.sns.weixin.qq.com # 广告链路监控与调试服务
