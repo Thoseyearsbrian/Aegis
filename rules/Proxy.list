@@ -6658,6 +6658,10 @@ DOMAIN-SUFFIX,apothecary.tips # Apothecary 博客/技术资讯网站，用于发
 
 DOMAIN-SUFFIX,docs.cook.ninthfeast.com # Ninth Feast Cook 文档站域名，用于发布产品说明、API 文档以及使用/开发指南等内容
 
+# > Simhaoka 个人/技术博客与资源分享站
+
+DOMAIN-SUFFIX,simhaoka.com # Simhaoka 博客与资源分享域名，用于发布技术文章、学习资料与经验总结等内容
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
