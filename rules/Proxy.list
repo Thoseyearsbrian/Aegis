@@ -6642,6 +6642,10 @@ DOMAIN-SUFFIX,paperburner.viwoplus.site # PaperBurner 在线文档与笔记处�
 
 DOMAIN-SUFFIX,academic.chatwithpaper.org # ChatWithPaper 平台学术对话/文献查询子域，用于提供基于论文与学术内容的问答与检索功能
 
+# > 易保 保险/健康互助平台
+
+DOMAIN-SUFFIX,yibao.233h.com # 易保服务平台域名，用于保险/健康互助相关信息访问与服务交互
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
