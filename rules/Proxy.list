@@ -6654,6 +6654,10 @@ DOMAIN-SUFFIX,hotkeycheatsheet.com # Hotkey Cheatsheet 平台域名，用于提�
 
 DOMAIN-SUFFIX,apothecary.tips # Apothecary 博客/技术资讯网站，用于发布技术文章、教程和行业观点
 
+# > Ninth Feast Cook 文档与开发指南平台
+
+DOMAIN-SUFFIX,docs.cook.ninthfeast.com # Ninth Feast Cook 文档站域名，用于发布产品说明、API 文档以及使用/开发指南等内容
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
