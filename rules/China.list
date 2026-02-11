@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-10
+# - 更新时间：2026-02-11
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -2533,3 +2533,9 @@ DOMAIN-SUFFIX,pl.zeroo.ggff.net # ggff.net 子域，用于页面资源加载或�
 # > 南京航空航天大学技术博客与资源门户
 
 DOMAIN-SUFFIX,home.nuaa.tech # 南京航空航天大学技术博客与资源分享域名，用于发布学院新闻、技术文章、科研成果与学习资源
+
+# > 七麦数据（Qimai）移动应用市场分析平台
+
+DOMAIN-SUFFIX,qmai.cn # 七麦数据官方域名，用于应用市场数据分析、ASO 优化与行业情报服务
+DOMAIN-SUFFIX,webapi.qmai.cn # 七麦数据 Web API 域名，用于平台数据查询与业务接口通信
+DOMAIN-SUFFIX,logger.qmai.cn # 七麦数据日志上报接口，用于服务运行状态记录与平台稳定性监测
