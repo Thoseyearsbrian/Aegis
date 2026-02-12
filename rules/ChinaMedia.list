@@ -264,6 +264,7 @@ IP-CIDR,183.131.191.0/24 # 抖音图片与封面资源 CDN 节点（p11.douyinpi
 IP-CIDR,183.136.203.0/24 # 字节跳动 SDK 与跨应用链接服务节点（ugsdk / zlink）
 IP-CIDR,183.136.201.0/24 # 字节跳动图片签名与加密资源节点（byteimg）
 IP-CIDR,183.146.26.0/24 # 字节跳动媒体资源 CDN 实际服务节点（p3-notice.byteimg.com）
+IP-CIDR,192.140.172.0/24 # 抖音直播第三方边缘 FLV 拉流 CDN 服务节点，用于视频流媒体内容分发
 IP-CIDR,202.110.99.0/24 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
 IP-CIDR,202.102.11.0/24 # 抖音图片签名校验服务节点（douyinpic）
 IP-CIDR,203.209.247.0/24 # 支付宝核心业务数据通信节点（amdc）
