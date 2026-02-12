@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-11
+# - 更新时间：2026-02-12
 
 # > Speedtest 网络测速平台
 
@@ -6669,6 +6669,11 @@ DOMAIN-SUFFIX,site.nocode.host # NoCode.Host 平台静态/托管站点域名，�
 # > SemiAnalysis 半导体与AI基础设施研究平台
 
 DOMAIN-SUFFIX,semianalysis.com # SemiAnalysis 行业研究平台域名，用于发布半导体、AI算力、云基础设施及数据中心相关深度分析内容
+
+# > Sophos Labs 安全研究与威胁分析平台
+
+DOMAIN-SUFFIX,sophos.com # Sophos 官方域名，用于安全产品信息、技术研究、威胁分析与文档发布
+DOMAIN-SUFFIX,sophos.com/en-us/labs # Sophos Labs 安全研究页面路径，用于获取漏洞研究、恶意软件分析、威胁情报与安全博客内容
 
 # > 第三方博客网站
 
