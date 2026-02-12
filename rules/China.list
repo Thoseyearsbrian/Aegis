@@ -511,6 +511,8 @@ DOMAIN-SUFFIX,msg.xiaojukeji.com # 滴滴平台消息与通知服务接口域名
 DOMAIN-SUFFIX,didialgorithm.com # 滴滴平台相关技术与服务支持域名
 DOMAIN-SUFFIX,didistatic.com # 滴滴出行前端静态资源与媒体 CDN 主域，用于加载页面脚本、样式、图片及客户端资源
 DOMAIN-SUFFIX,img-hxy021.didistatic.com # 滴滴出行图像与静态媒体资源 CDN 节点，用于图片素材、UI 资源及页面多媒体内容分发
+DOMAIN-SUFFIX,prod.didi.cn # 滴滴生产环境主业务接口域名（Production），用于订单创建、行程调度、司机匹配与核心业务数据通信
+DOMAIN-SUFFIX,api.didi.cn # 滴滴官方 API 服务主域名，用于客户端请求、账户登录、订单状态同步与业务接口调用
 
 # > 12306 铁路相关域名（中国铁路客户服务中心）
 
