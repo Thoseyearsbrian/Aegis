@@ -77,6 +77,7 @@ IP-CIDR,27.221.11.0/24 # 抖音图片签名与资源访问节点（douyinpic）
 IP-CIDR,27.222.15.0/24 # 抖音图片签名校验服务节点（douyinpic）
 IP-CIDR,36.25.245.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点，用于音视频流分发与播放
 IP-CIDR,36.41.168.0/24 # 字节跳动流媒体内容分发节点
+IP-CIDR,36.99.189.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（pull-flv-t95.douyincdn.com /stage/stream-*.flv）
 IP-CIDR,36.99.227.0/24 # 字节跳动安全与风控接入节点（tnc）
 IP-CIDR,36.104.133.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点
 IP-CIDR,42.202.136.0/24 # 抖音视频点播 CDN 实际服务节点（v5-ex-x.douyinvod.com）
@@ -121,6 +122,7 @@ IP-CIDR,58.220.179.0/24 # 抖音直播 FLV 第三方边缘分发节点（/third/
 IP-CIDR,58.221.30.0/24 # 抖音图片与多媒体资源 CDN 节点（douyinpic）
 IP-CIDR,58.221.33.0/24 # 字节跳动官方文档与静态资源分发节点
 IP-CIDR,58.221.45.0/24 # 抖音图片与多媒体资源 CDN 节点（douyinpic）
+IP-CIDR,58.221.77.0/24 # 字节跳动图片签名与媒体资源校验 CDN 实际服务节点（p9-dy-gm-yp-sign.byteimg.com）
 IP-CIDR,58.222.20.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点
 IP-CIDR,58.222.25.0/24 # 抖音视频点播 CDN 实际服务节点
 IP-CIDR,58.222.29.0/24 # 抖音电商（巨量千川/抖音小店）业务接口与资源服务节点
