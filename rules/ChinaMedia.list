@@ -229,6 +229,7 @@ IP-CIDR,180.97.241.0/24 # 字节跳动 TOS / CDN 实际服务节点（bytegecko�
 IP-CIDR,180.97.246.0/24 # 字节跳动特效资源分发节点（byteeffecttos）
 IP-CIDR,180.97.248.0/24 # 抖音直播源站 CDN 节点（bytegecko）
 IP-CIDR,180.97.251.0/24 # 字节跳动 TNC 安全风控与环境校验服务节点
+IP-CIDR,180.101.150.0/24 # 字节跳动 TOS 对象存储与核心业务内容分发 CDN 实际服务节点（lf9-pitaya.bytetos.com）
 IP-CIDR,180.101.151.0/24 # 抖音直播 FLV 拉流实际服务节点
 IP-CIDR,180.101.199.0/24 # 抖音图片与多媒体资源 CDN 节点
 IP-CIDR,180.105.58.0/24 # 字节跳动核心业务与服务调度网段（Pitaya / 核心接口）
