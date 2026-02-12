@@ -281,6 +281,7 @@ IP-CIDR,221.231.83.0/24 # 字节跳动安全与风控接入节点（tnc）
 IP-CIDR,221.231.92.0/24 # 字节跳动电商前端静态资源 CDN 节点（lf3-fe.ecombdstatic.com）
 IP-CIDR,222.138.208.0/24 # 抖音图片与多媒体资源 CDN 实际服务节点 IP
 IP-CIDR,222.184.96.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点（stage 直播链路）
+IP-CIDR,222.185.229.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点（pull-flv-f26.douyincdn.com）
 IP-CIDR,222.186.17.0/24 # 字节跳动开发者平台图片 CDN 实际服务节点（bytemaimg）
 IP-CIDR,222.186.163.0/24 # 抖音图片签名与媒体资源服务节点
 IP-CIDR,222.188.8.0/24 # 字节跳动内容聚合与业务调度节点（aggr）
