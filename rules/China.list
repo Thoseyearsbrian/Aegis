@@ -1626,6 +1626,7 @@ DOMAIN-SUFFIX,sso.sina.com.cn # Sina SSO 通用单点登录处理主域，用于
 
 DOMAIN-SUFFIX,csdn.net # CSDN 技术社区
 DOMAIN-SUFFIX,ps.gaoding.com # 稿定设计平台图片处理与资源加载接口，部分网页编辑与预览功能依赖
+DOMAIN-SUFFIX,19ego.cn # 19EGO 营销与活动平台主域名，常用于抽奖、促销活动页面与互动营销服务
 
 # > 游戏服务（Gaming Services）
 
