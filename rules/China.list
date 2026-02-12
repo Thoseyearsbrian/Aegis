@@ -294,6 +294,8 @@ IP-CIDR,122.14.236.54/24 # 豆包 WebSocket 接入节点（wss100-normal），�
 
 # > 中国电信服务相关域名
 
+DOMAIN-SUFFIX,189.cn # 中国电信官方业务主域名，用于通信服务、账号体系与运营商相关业务访问
+DOMAIN-SUFFIX,alipaymini.189.cn # 中国电信支付宝小程序接入网关域名，用于小程序业务通信、服务调用与接口请求
 DOMAIN-SUFFIX,applecsb.crm.189.cn # 中国电信 CRM 业务接口，用于 Apple 设备在国内的运营商服务绑定与业务对接
 DOMAIN-SUFFIX,21cn.com # 中国电信旗下 21CN 服务域名，用于企业级通信服务与相关业务支持
 DOMAIN-SUFFIX,api-e189.21cn.com # 中国电信号码与身份相关服务接口域名，用于用户接入与服务验证
