@@ -87,6 +87,7 @@ IP-CIDR,49.79.229.0/24 # 字节跳动抖音 CDN 节点
 IP-CIDR,49.79.240.0/24 # 字节跳动火山引擎（Volcengine）直播流媒体节点
 IP-CIDR,58.22.102.0/24 # 字节跳动静态/资源分发 CDN 节点（lf6-pitaya.bytetos.com）
 IP-CIDR,58.49.230.0/24 # 抖音图片签名校验与资源访问节点（douyinpic）
+IP-CIDR,58.58.80.0/24 # 抖音图片签名与访问鉴权 CDN 实际服务节点（p3-webcast-sign.douyinpic.com）
 IP-CIDR,58.211.12.0/24 # 抖音视频点播 CDN 节点（douyinvod）
 IP-CIDR,58.211.15.0/24 # 抖音直播 FLV 拉流 CDN 节点（douyincdn）
 IP-CIDR,58.211.83.0/24 # 抖音直播源站媒体 CDN 实际服务节点
