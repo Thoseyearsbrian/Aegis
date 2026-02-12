@@ -164,6 +164,7 @@ IP-CIDR,112.46.52.0/24 # 抖音视频点播 CDN 实际服务节点（douyinvod�
 IP-CIDR,113.125.234.0/24 # 抖音直播 FLV 冷启动调度与边缘分发节点（pull-t5.douyincdn.com / stage 链路）
 IP-CIDR,113.142.25.0/24 # 抖音视频点播 CDN 实际服务节点
 IP-CIDR,113.142.162.0/24 # 字节跳动直播 CDN 节点（bytegecko）
+IP-CIDR,113.142.220.0/24 # 抖音直播 FLV 冷启动 / Stage 预发布拉流 CDN 实际服务节点
 IP-CIDR,113.219.237.0/24 # 字节跳动媒体资源签名 CDN 节点 IP
 IP-CIDR,114.80.10.0/24 # 字节跳动电商 API 实际服务节点（ecombdapi）
 IP-CIDR,114.80.11.0/24 # 抖音直播与 API 服务网段
