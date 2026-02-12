@@ -520,6 +520,7 @@ DOMAIN-SUFFIX,omgup.xiaojukeji.com # 滴滴业务升级与配置分发子域，�
 DOMAIN-SUFFIX,ut.xiaojukeji.com # 滴滴用户行为统计与数据分析子域，用于用户行为埋点、统计分析与数据上报
 DOMAIN-SUFFIX,udache.com # 滴滴出行历史与基础业务主域名，用于出行平台服务与业务系统访问
 DOMAIN-SUFFIX,dpubstatic.udache.com # 滴滴出行前端静态资源分发子域，用于加载页面脚本、样式文件与业务组件资源
+DOMAIN-SUFFIX,img-ys011.didistatic.com # 滴滴出行前端图片与静态资源 CDN 子域，用于加载 App/网页端图片、UI 资源与运营素材
 
 # > 12306 铁路相关域名（中国铁路客户服务中心）
 
