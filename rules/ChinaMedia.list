@@ -104,6 +104,7 @@ IP-CIDR,58.215.134.0/24 # 字节跳动 TOS / CDN 内容分发节点（bytegecko�
 IP-CIDR,58.215.122.0/24 # 字节跳动直播源内容分发 CDN 节点
 IP-CIDR,58.215.145.0/24 # 字节跳动基础日志回传服务节点
 IP-CIDR,58.215.210.0/24 # ByteDance Source CDN QoS 控制节点（bytegecko）
+IP-CIDR,58.216.2.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,58.216.4.0/24 # 抖音直播 FLV 流媒体分发节点
 IP-CIDR,58.216.6.0/24 # 抖音直播图片签名服务节点（webcast-sign）
 IP-CIDR,58.216.7.0/24 # 字节跳动字体资源签名校验节点
