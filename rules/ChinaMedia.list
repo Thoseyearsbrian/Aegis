@@ -314,6 +314,7 @@ IP-CIDR,221.230.244.0/24 # 字节跳动 Pitaya 核心业务服务节点
 IP-CIDR,221.231.47.0/24 # 抖音图片与多媒体资源 CDN 实际节点（douyinpic）
 IP-CIDR,221.231.83.0/24 # 字节跳动安全与风控接入节点（tnc）
 IP-CIDR,221.231.92.0/24 # 字节跳动电商前端静态资源 CDN 节点（lf3-fe.ecombdstatic.com）
+IP-CIDR,222.81.124.0/24 # 抖音视频点播 CDN 实际服务节点（v5-gzb2-x.douyinvod.com）
 IP-CIDR,222.138.208.0/24 # 抖音图片与多媒体资源 CDN 实际服务节点 IP
 IP-CIDR,222.184.96.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点（stage 直播链路）
 IP-CIDR,222.185.229.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点（pull-flv-f26.douyincdn.com）
