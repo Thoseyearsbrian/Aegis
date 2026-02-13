@@ -171,6 +171,7 @@ IP-CIDR,106.38.222.0/24 # 字节跳动实时通信 WebSocket 服务网段
 IP-CIDR,106.227.98.0/24 # 字节跳动开发者与静态资源节点
 IP-CIDR,106.225.221.0/24 # 抖音图片签名校验服务节点（douyinpic）
 IP-CIDR,106.225.217.0/24 # 字节跳动电商资质与商家校验签名节点（ecombdimg）
+IP-CIDR,111.19.223.0/24 # 抖音视频点播 CDN 实际服务节点（v5-gzb2-x.douyinvod.com）
 IP-CIDR,111.123.58.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（stage/stream-*.flv）
 IP-CIDR,111.170.168.0/24 # 抖音视频点播 CDN 实际服务节点
 IP-CIDR,112.46.52.0/24 # 抖音视频点播 CDN 实际服务节点（douyinvod）
