@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-12
+# - 更新时间：2026-02-13
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -305,8 +305,9 @@ DOMAIN-SUFFIX,chinatelecom-h.com # 中国电信控股公司域名，用于集团
 DOMAIN-SUFFIX,chinatelecomglobal.com # 中国电信国际业务域名，用于全球网络服务与跨境业务接入
 DOMAIN-SUFFIX,chinatelecom.com.cn # 中国电信主官方网站域名，用于公司信息、业务入口与公共服务访问
 IP-CIDR,58.221.74.16/24 # 中国电信江苏节点，HTTPS 服务端口，常见于国内业务访问或 CDN 回源
-IP-CIDR,115.238.190.58/24 # 中国电信浙江节点，HTTPS 服务端口，常见于国内 Web 或 API 服务
 IP-CIDR,59.82.121.221/24 # 中国区云服务公网 IP 节点，用于网站 HTTPS 接入、API 服务或反向代理等基础设施通信
+IP-CIDR,115.238.190.58/24 # 中国电信浙江节点，HTTPS 服务端口，常见于国内 Web 或 API 服务
+IP-CIDR,222.93.107.0/24 # 中国电信 189 卡券/权益服务接口节点（card.e.189.cn）
 
 # > 中国联通服务相关域名
 
