@@ -151,6 +151,7 @@ IP-CIDR,61.156.12.0/24 # 抖音图片签名校验服务节点（douyinpic）
 IP-CIDR,61.156.12.0/24 # 抖音图片与多媒体资源 CDN 节点
 IP-CIDR,61.160.193.0/24 # 字节跳动直播媒体 CDN 实际服务节点
 IP-CIDR,61.160.230.0/24 # 抖音图片与多媒体资源 CDN 节点（p11.douyinpic.com）
+IP-CIDR,61.160.234.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,61.162.8.0/24 # 抖音直播 FLV 拉流第三方边缘分发节点（/third/stream-*.flv）
 IP-CIDR,61.164.115.0/24 # 字节跳动 API / SDK 通信节点
 IP-CIDR,61.170.66.0/24 # 抖音图片与多媒体资源 CDN 节点（douyinpic）
@@ -183,6 +184,7 @@ IP-CIDR,111.19.223.0/24 # 抖音视频点播 CDN 实际服务节点（v5-gzb2-x.
 IP-CIDR,111.123.58.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（stage/stream-*.flv）
 IP-CIDR,111.170.168.0/24 # 抖音视频点播 CDN 实际服务节点
 IP-CIDR,112.46.52.0/24 # 抖音视频点播 CDN 实际服务节点（douyinvod）
+IP-CIDR,113.125.213.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实际服务节点（/third/stream-*.flv）
 IP-CIDR,113.125.234.0/24 # 抖音直播 FLV 冷启动调度与边缘分发节点（pull-t5.douyincdn.com / stage 链路）
 IP-CIDR,113.142.25.0/24 # 抖音视频点播 CDN 实际服务节点
 IP-CIDR,113.142.39.0/24 # 抖音直播 FLV Stage 拉流 CDN 实际服务节点（stage/stream-*.flv）
@@ -211,6 +213,7 @@ IP-CIDR,115.231.71.0/24 # 抖音图片签名与资源校验节点（douyinpic）
 IP-CIDR,115.223.59.0/24 # 抖音直播核心服务节点 IP
 IP-CIDR,115.223.60.0/24 # 字节跳动图片 CDN 实际服务节点
 IP-CIDR,115.238.155.0/24 # 字节跳动（抖音）图片签名与资源 CDN 实际服务节点
+IP-CIDR,115.238.197.0/24 # 字节跳动图片签名与媒体资源校验 CDN 实际服务节点（p3-dy-gm-yp-sign.byteimg.com）
 IP-CIDR,115.238.220.0/24 # 抖音直播 FLV 媒体拉流实际服务节点（third 路径）
 IP-CIDR,117.21.230.0/24 # 抖音直播图片签名与访问鉴权 CDN 实际服务节点（p3-webcast-sign.douyinpic.com）
 IP-CIDR,117.21.189.0/24 # 抖音图片与封面资源 CDN 实际服务节点
@@ -263,6 +266,7 @@ IP-CIDR,140.249.111.0/24 # 字节跳动移动端 SDK 通信节点（mssdk3）
 IP-CIDR,140.249.226.0/24 # 抖音直播图片签名服务节点（webcast-sign）
 IP-CIDR,144.48.214.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实际服务节点（/third/stream-*.flv）
 IP-CIDR,150.138.174.0/24 # 抖音直播流媒体 CDN 实际分发节点
+IP-CIDR,150.138.253.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,175.12.102.0/24 # 字节跳动活动页与内容展示资源节点（byteimg）
 IP-CIDR,180.97.171.0/24 # 字节跳动抖音源站 CDN 节点
 IP-CIDR,180.97.209.0/24 # 字节电商图片与资源分发 CDN 节点
