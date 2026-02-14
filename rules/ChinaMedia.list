@@ -229,6 +229,7 @@ IP-CIDR,117.24.169.0/24 # 抖音直播图片签名校验节点
 IP-CIDR,117.27.148.0/24 # 抖音视频点播 CDN 实际服务节点
 IP-CIDR,117.66.50.0/24 # 字节跳动字体资源签名校验节点
 IP-CIDR,117.68.5.0/24 # 字节跳动字体与前端资源加载节点
+IP-CIDR,117.68.33.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,117.68.125.0/24 # 字节跳动图片资源签名服务节点
 IP-CIDR,117.69.72.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点（pull-flv-f11.douyincdn.com）
 IP-CIDR,117.85.69.0/24 # 支付宝静态资源与业务网关节点
@@ -330,6 +331,7 @@ IP-CIDR,218.92.226.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点
 IP-CIDR,218.94.231.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,219.83.170.0/24 # 字节跳动 API 服务节点（ma5-normal-lq.zijieapi.com）
 IP-CIDR,219.151.136.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点
+IP-CIDR,220.160.45.0/24 # 抖音直播图片签名与资源鉴权 CDN 实际服务节点（p3-webcast-sign.douyinpic.com）
 IP-CIDR,220.167.106.0/24 # 抖音官方 FLV 拉流 CDN 实际服务节点（pull-flv-q1.douyincdn.com）
 IP-CIDR,220.185.164.0/24 # 抖音图片签名与内容校验服务节点
 IP-CIDR,220.185.168.0/24 # 字节跳动图片资源 CDN 节点（p3-piu.byteimg.com）
