@@ -66,6 +66,7 @@ DOMAIN-SUFFIX,p3-developer.bytemaimg.com # 字节跳动开发者平台图片与�
 DOMAIN-SUFFIX,lf6-font-sign.bytehwm.com # 字节跳动字体签名与前端字体资源校验服务域名
 DOMAIN-SUFFIX,pull-x2-t5.douyincdn.com # 抖音直播 FLV 拉流 CDN 子域
 DOMAIN-SUFFIX,lf3-static.bytednsdoc.com # 字节跳动文档与前端静态资源 CDN
+IP-CIDR,1.82.234.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,1.194.30.0/24 # 字节跳动移动端 SDK 通信节点
 IP-CIDR,1.194.172.0/24 # 抖音视频点播 CDN 实际服务节点
 IP-CIDR,1.194.217.0/24 # 抖音短视频音视频内容分发 CDN 节点
@@ -101,6 +102,7 @@ IP-CIDR,58.58.80.0/24 # 抖音图片签名与访问鉴权 CDN 实际服务节点
 IP-CIDR,58.211.12.0/24 # 抖音视频点播 CDN 节点（douyinvod）
 IP-CIDR,58.211.13.0/24 # 抖音直播 FLV 高速拉流 CDN 实际服务节点（pull-hs-f5.flive.douyincdn.com）
 IP-CIDR,58.211.15.0/24 # 抖音直播 FLV 拉流 CDN 节点（douyincdn）
+IP-CIDR,58.216.22.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,58.221.33.0/24 # 抖音视频点播 CDN 节点（douyinvod）
 IP-CIDR,58.221.54.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实际服务节点（/third/stream-*.flv）
 IP-CIDR,58.215.50.0/24 # 抖音图片与多媒体资源 CDN 节点
