@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-15
+# - 更新时间：2026-02-16
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -2579,3 +2579,7 @@ DOMAIN-SUFFIX,webapi.qmai.cn # 七麦数据 Web API 域名，用于平台数据�
 # > 天机阁 · AI 紫微斗数命理推演系统
 
 DOMAIN-SUFFIX,tjg.aifeisheng.com # 在线 AI 紫微斗数命理推演与八字命盘分析服务，结合传统易经与 AI 技术提供个性化运势解读
+
+# > Dream Whisper AI 智能创作服务
+
+DOMAIN-SUFFIX,dreamwhisperai.com # AI 语音/文本智能交互与创作服务站点，用于生成梦境叙述、情感对话等内容
