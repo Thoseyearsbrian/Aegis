@@ -2562,6 +2562,10 @@ DOMAIN-SUFFIX,animaltest.nuaa.tech # 茉灵导航测试或实验性功能子域�
 DOMAIN-SUFFIX,ap.nuaa.tech # 茉灵导航功能子域，具体用途未公开，属个人站点功能扩展域名
 DOMAIN-SUFFIX,pro.nuaa.tech # 茉灵导航扩展子域，可能用于进阶功能或展示型页面
 
+# > 互联网沟通指北 · 技术社区沟通礼仪整理站点
+
+DOMAIN-SUFFIX,0x0.cat # 收录互联网时代沟通礼仪、提问规范与常见认知定律
+
 # > 七麦数据（Qimai）移动应用市场分析平台
 
 DOMAIN-SUFFIX,qmai.cn # 七麦数据官方域名，用于应用市场数据分析、ASO 优化与行业情报服务
