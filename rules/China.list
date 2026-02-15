@@ -142,6 +142,7 @@ DOMAIN-SUFFIX,xianyuapi.com # 闲鱼 API 接口域名，用于消息通知、交
 DOMAIN-SUFFIX,dypnsapi.aliyuncs.com # 阿里云号码认证服务接口域名，用于用户登录与身份验证支持
 DOMAIN-SUFFIX,img.alicdn.com # 阿里系 CDN 图像资源域名，用于用户头像与商品图片内容分发
 DOMAIN-SUFFIX,gw.alicdn.com # 阿里系 CDN 前端资源入口域名，用于页面图像与静态资源加载
+DOMAIN-SUFFIX,video.goofish.com # Goofish 视频服务域名，用于视频内容访问与分发
 IP-CIDR,61.170.77.212 # 阿里系内容分发与资源访问相关网络节点 IP
 
 # > 口碑（Koubei / 阿里本地生活）
