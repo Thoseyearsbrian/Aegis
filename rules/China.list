@@ -2566,6 +2566,10 @@ DOMAIN-SUFFIX,pro.nuaa.tech # 茉灵导航扩展子域，可能用于进阶功�
 
 DOMAIN-SUFFIX,0x0.cat # 收录互联网时代沟通礼仪、提问规范与常见认知定律
 
+# > Yes No Tarot 在线塔罗占卜站点
+
+DOMAIN-SUFFIX,yesnotarot.org # 在线 Yes/No 塔罗牌占卜工具站点，提供问答式塔罗牌解读与灵性指引内容
+
 # > 七麦数据（Qimai）移动应用市场分析平台
 
 DOMAIN-SUFFIX,qmai.cn # 七麦数据官方域名，用于应用市场数据分析、ASO 优化与行业情报服务
