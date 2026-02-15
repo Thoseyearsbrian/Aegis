@@ -2574,4 +2574,7 @@ DOMAIN-SUFFIX,yesnotarot.org # 在线 Yes/No 塔罗牌占卜工具站点，提�
 
 DOMAIN-SUFFIX,qmai.cn # 七麦数据官方域名，用于应用市场数据分析、ASO 优化与行业情报服务
 DOMAIN-SUFFIX,webapi.qmai.cn # 七麦数据 Web API 域名，用于平台数据查询与业务接口通信
-DOMAIN-SUFFIX,logger.qmai.cn # 七麦数据日志上报接口，用于服务运行状态记录与平台稳定性监测
+
+# > 天机阁 · AI 紫微斗数命理推演系统
+
+DOMAIN-SUFFIX,tjg.aifeisheng.com # 在线 AI 紫微斗数命理推演与八字命盘分析服务，结合传统易经与 AI 技术提供个性化运势解读
