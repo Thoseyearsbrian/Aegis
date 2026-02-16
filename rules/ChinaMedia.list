@@ -406,6 +406,7 @@ IP-CIDR,222.186.163.0/24 # 抖音图片签名与媒体资源服务节点
 IP-CIDR,222.188.8.0/24 # 字节跳动内容聚合与业务调度节点（aggr）
 IP-CIDR,222.210.36.0/24 # 抖音直播 FLV Stage 拉流 CDN 实际服务节点（stage/stream-*.flv）
 IP-CIDR,222.210.37.0/24 # 抖音直播 thirdgame 第三方游戏链路 FLV 拉流 CDN 实际服务节点（/thirdgame/stream-*.flv）
+IP-CIDR,222.218.85.50/32 # 抖音 Webcast 图片签名与直播资源分发 CDN 节点（p11-webcast-sign.douyinpic.com）
 IP-CIDR,223.111.116.0/24 # 字节跳动直播与多媒体内容分发 CDN 节点
 IP-CIDR,223.144.130.0/24 # 抖音直播 thirdgame 第三方游戏链路 FLV 拉流 CDN 实际服务节点（/thirdgame/stream-*.flv）
 IP-CIDR,223.215.189.0/24 # 抖音直播 FLV 拉流实际服务节点
