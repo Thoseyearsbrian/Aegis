@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-15
+# - 更新时间：2026-02-16
 
 # > 抖音（字节跳动） 相关域名
 
@@ -288,12 +288,14 @@ IP-CIDR,123.235.34.0/24 # 抖音图片签名校验服务节点
 IP-CIDR,123.235.40.0/24 # 抖音图片签名 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,124.115.13.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实际服务节点（/third/stream-*.flv）
 IP-CIDR,124.129.4.0/24 # 抖音图片资源 CDN 实际服务节点
+IP-CIDR,124.232.129.0/24 # 抖音直播 Radio FLV 拉流 CDN 实际服务节点
 IP-CIDR,124.236.114.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（pull-x2-t5.douyincdn.com /stage/stream-*.flv）
 IP-CIDR,124.239.94.0/24 # 抖音直播 FLV Stage 拉流 CDN 实际服务节点（pull-x2-t5.douyincdn.com /stage/stream-*.flv）
 IP-CIDR,124.239.239.0/24 # 字节跳动电商聚合与多业务资源节点（ecombdimg）
 IP-CIDR,125.70.174.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,125.74.30.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实际服务节点（pull-x2-t5.douyincdn.com /third/stream-*.flv）
 IP-CIDR,125.94.42.0/24 # 抖音直播流媒体 CDN 节点 IP
+IP-CIDR,125.124.252.0/24 # 抖音直播 Stage FLV 拉流 CDN 实际服务节点（pull-flv-t95.douyincdn.com）
 IP-CIDR,140.249.8.0/24 # 抖音图片与多媒体资源签名鉴权 CDN 节点
 IP-CIDR,140.249.85.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,140.249.87.0/24 # 字节跳动监控与杂项服务实际节点 IP
