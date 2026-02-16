@@ -96,6 +96,7 @@ IP-CIDR,49.67.73.0/24 # 字节跳动通用内容分发 CDN 节点
 IP-CIDR,49.79.134.0/24 # 字节跳动业务接口与内容聚合服务节点
 IP-CIDR,49.79.229.0/24 # 字节跳动抖音 CDN 节点
 IP-CIDR,49.79.240.0/24 # 字节跳动火山引擎（Volcengine）直播流媒体节点
+IP-CIDR,49.82.40.0/24 # 抖音直播 Third FLV 拉流 CDN 实际服务节点
 IP-CIDR,58.22.102.0/24 # 字节跳动静态/资源分发 CDN 节点（lf6-pitaya.bytetos.com）
 IP-CIDR,58.42.59.0/24 # 抖音图片资源 CDN 实际服务节点 IP
 IP-CIDR,58.49.187.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实际服务节点（/third/stream-*.flv）
@@ -347,6 +348,7 @@ IP-CIDR,182.40.116.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实�
 IP-CIDR,182.40.143.0/24 # 字节跳动静态资源 CDN 节点（lf3-static.bytednsdoc.com）
 IP-CIDR,182.106.149.0/24 # 抖音图片与多媒体资源 CDN 节点
 IP-CIDR,182.106.158.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
+IP-CIDR,183.61.124.0/24 # 抖音直播 Thirdgame FLV 拉流 CDN 实际服务节点
 IP-CIDR,183.66.105.0/24 # 抖音图片与多媒体资源分发节点
 IP-CIDR,183.131.44.0/24 # 抖音直播 FLV Stage 拉流 CDN 实际服务节点（pull-x2-t5.douyincdn.com /stage/stream-*.flv）
 IP-CIDR,183.131.62.0/24 # 抖音直播 FLV 内容分发 CDN 实际服务节点（fantasy 直播链路）
