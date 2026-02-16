@@ -271,6 +271,7 @@ IP-CIDR,119.42.231.0/24 # 支付宝移动数据分析与业务调度节点（mda
 IP-CIDR,119.84.131.0/24 # 抖音直播第三方边缘拉流 CDN 实际服务节点（/third/stream-*.flv）
 IP-CIDR,119.101.148.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实际服务节点（/third/stream-*.flv）
 IP-CIDR,119.147.120.0/24 # 抖音直播 FLV Stage 拉流 CDN 实际服务节点（pull-flv-t1.douyincdn.com /stage/stream-*.flv）
+IP-CIDR,119.147.129.25/32 # 抖音签名鉴权与媒体分发节点（p9-dy-gm-yp-sign.byteimg.com）
 IP-CIDR,119.167.135.0/24 # 抖音图片 CDN 实际服务节点
 IP-CIDR,119.167.198.0/24 # 字节跳动特效素材分发节点
 IP-CIDR,119.188.69.0/24 # 抖音直播 FLV 拉流调度分发节点（dispatch 通道）
