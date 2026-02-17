@@ -864,6 +864,11 @@ DOMAIN-SUFFIX,profile.m1905.com # 1905 电影网用户资料与账户中心接�
 # > 风行网（Funshion）在线视频平台域名
 
 DOMAIN-SUFFIX,fun.tv # 风行网官方主域名，用于视频点播、影视内容浏览与在线播放服务
+DOMAIN-SUFFIX,pub.funshion.com # 风行网公共资源发布域名，用于页面脚本、配置文件与前端静态资源加载
+DOMAIN-SUFFIX,stat.funshion.com # 风行网统计与行为数据上报接口域名，用于用户访问数据与播放行为采集
+DOMAIN-SUFFIX,img.funshion.com # 风行网图片与媒体资源 CDN 域名，用于封面图、剧照与页面图像加载
+DOMAIN-SUFFIX,img1.funshion.com # 风行网图片 CDN 子域 1，用于图像资源分发与访问加速
+DOMAIN-SUFFIX,img2.funshion.com # 风行网图片 CDN 子域 2，用于图像资源分发与访问加速
 
 # > 视频平台
 
