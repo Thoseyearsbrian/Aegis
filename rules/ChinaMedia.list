@@ -853,9 +853,12 @@ DOMAIN-SUFFIX,wasu.cn # 华数数字电视与在线视频服务主域名，提�
 DOMAIN-SUFFIX,ups.5g.wasu.tv # 华数 TV 5G 专线加速子域，用于视频播放加速、流媒体分发与网络优化调度
 DOMAIN-SUFFIX,sp.5g.wasu.tv # 华数 TV 5G 视频播放与流媒体分发子域，用于内容拉流、视频播放与加速调度
 
+# > 电影网（1905.com）相关域名
+
+DOMAIN-SUFFIX,1905.com # 电影网官方主域名，用于电影资讯浏览、影片播放、节目内容访问与相关媒体服务
+
 # > 视频平台
 
-DOMAIN-SUFFIX,1905.com # 电影网
 DOMAIN-SUFFIX,fun.tv # 风行网
 DOMAIN-SUFFIX,acfun.cn # AcFun 弹幕视频网
 DOMAIN-SUFFIX,cdn.aixifan.com # AcFun CDN 服务
