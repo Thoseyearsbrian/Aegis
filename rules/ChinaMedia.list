@@ -841,6 +841,15 @@ DOMAIN-SUFFIX,live.kuaishou.com # 快手直播服务入口域名，用于直播�
 DOMAIN-SUFFIX,p1.a.yximgs.com # 快手媒体资源 CDN 子域，用于图像、封面及页面多媒体资源加载
 DOMAIN-SUFFIX,pull.yximgs.com # 快手直播拉流服务主域，用于实时音视频流传输与播放调度
 DOMAIN-SUFFIX,ty-origin.pull.yximgs.com # 快手直播源站子域，用于直播源内容分发与边缘节点回源通信
+DOMAIN-SUFFIX,m.kuaishou.com # 快手移动端网页服务域名，用于移动访问与轻量化内容浏览
+DOMAIN-SUFFIX,ksapisrv.com # 快手核心业务 API 服务域名，用于内容、直播、电商等接口调用
+DOMAIN-SUFFIX,static.kuaishou.com # 快手平台静态资源服务域名，用于脚本、样式与前端组件加载
+DOMAIN-SUFFIX,e.kuaishou.com # 快手电商服务子域名，用于商家系统、订单与履约相关服务
+DOMAIN-SUFFIX,api.e.kuaishou.com # 快手电商业务 API 接口域名，用于订单与商品数据交互
+DOMAIN-SUFFIX,kuaishouzt.com # 快手专题页与推广活动相关域名，用于活动与内容跳转
+DOMAIN-SUFFIX,kwai.com # 快手海外品牌 Kwai 官方域名，用于国际版服务入口
+DOMAIN-SUFFIX,kwaicdn.com # 快手内容分发 CDN 域名，用于视频、图片与静态资源加载 
+DOMAIN-SUFFIX,zhaopin.kuaishou.cn # 快手官方招聘子域名，用于岗位发布、校园招聘、社会招聘信息展示及人才投递服务
 
 # > AcFun（A站） 视频平台与媒体资源服务
 

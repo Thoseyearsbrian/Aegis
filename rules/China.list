@@ -1293,18 +1293,6 @@ DOMAIN-SUFFIX,api.duapp.com # 得物 App 业务 API 接口域名，用于商品�
 DOMAIN-SUFFIX,static.duapp.com # 得物 App 静态资源与前端组件加载域名
 DOMAIN-SUFFIX,shihuo.cn # 得物前身识货网域名，部分历史服务与跳转仍在使用
 
-# > 快手相关域名（Kuaishou / 短视频与电商）
-
-DOMAIN-SUFFIX,kuaishou.com # 快手核心平台主域名，用于短视频、直播、电商与账号服务入口
-DOMAIN-SUFFIX,m.kuaishou.com # 快手移动端网页服务域名，用于移动访问与轻量化内容浏览
-DOMAIN-SUFFIX,ksapisrv.com # 快手核心业务 API 服务域名，用于内容、直播、电商等接口调用
-DOMAIN-SUFFIX,static.kuaishou.com # 快手平台静态资源服务域名，用于脚本、样式与前端组件加载
-DOMAIN-SUFFIX,e.kuaishou.com # 快手电商服务子域名，用于商家系统、订单与履约相关服务
-DOMAIN-SUFFIX,api.e.kuaishou.com # 快手电商业务 API 接口域名，用于订单与商品数据交互
-DOMAIN-SUFFIX,kuaishouzt.com # 快手专题页与推广活动相关域名，用于活动与内容跳转
-DOMAIN-SUFFIX,kwai.com # 快手海外品牌 Kwai 官方域名，用于国际版服务入口
-DOMAIN-SUFFIX,kwaicdn.com # 快手内容分发 CDN 域名，用于视频、图片与静态资源加载 
-
 # > 转转平台相关域名（Zhuanzhuan）
 
 DOMAIN-SUFFIX,zhuanzhuan.com # 转转二手交易平台主域名，用于商品浏览、交易与平台服务入口
