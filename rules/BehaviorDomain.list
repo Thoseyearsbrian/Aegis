@@ -1319,3 +1319,4 @@ DOMAIN-SUFFIX,wasu-statistics.cn-hangzhou.log.aliyuncs.com # 华数 TV 基于阿
 DOMAIN-SUFFIX,stat.funshion.com # 风行网统计与行为数据上报接口域名，用于用户访问数据与播放行为采集
 DOMAIN-SUFFIX,w.irs03.com # 风行网第三方统计与行为分析接口域名，用于页面访问统计与用户行为数据采集
 DOMAIN-SUFFIX,po.funshion.com # 风行网广告投放与推广接口域名，用于广告请求、曝光统计与营销活动数据回传
+DOMAIN-SUFFIX,pcap.funshion.com # 风行网抓包与行为数据采集子域，用于客户端日志回传、网络行为分析与运行状态监控
