@@ -851,6 +851,7 @@ DOMAIN-SUFFIX,cdnfile.aixifan.com # AcFun 媒体资源 CDN 子域，用于视频
 
 DOMAIN-SUFFIX,wasu.cn # 华数数字电视与在线视频服务主域名，提供 IPTV、点播内容及相关媒体分发服务
 DOMAIN-SUFFIX,ups.5g.wasu.tv # 华数 TV 5G 专线加速子域，用于视频播放加速、流媒体分发与网络优化调度
+DOMAIN-SUFFIX,sp.5g.wasu.tv # 华数 TV 5G 视频播放与流媒体分发子域，用于内容拉流、视频播放与加速调度
 
 # > 视频平台
 
