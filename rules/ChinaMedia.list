@@ -856,6 +856,9 @@ DOMAIN-SUFFIX,sp.5g.wasu.tv # 华数 TV 5G 视频播放与流媒体分发子域�
 # > 电影网（1905.com）相关域名
 
 DOMAIN-SUFFIX,1905.com # 电影网官方主域名，用于电影资讯浏览、影片播放、节目内容访问与相关媒体服务
+DOMAIN-SUFFIX,m1905.cn # 1905 电影网移动端主域名，用于手机端页面访问与视频内容加载
+DOMAIN-SUFFIX,image13.m1905.cn # 1905 电影网图片 CDN 子域，用于封面图、剧照与页面素材分发
+DOMAIN-SUFFIX,image14.m1905.cn # 1905 电影网图片 CDN 子域，用于封面图、剧照与页面素材分发
 
 # > 视频平台
 
