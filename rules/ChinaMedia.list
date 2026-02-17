@@ -861,9 +861,12 @@ DOMAIN-SUFFIX,image13.m1905.cn # 1905 电影网图片 CDN 子域，用于封面�
 DOMAIN-SUFFIX,image14.m1905.cn # 1905 电影网图片 CDN 子域，用于封面图、剧照与页面素材分发
 DOMAIN-SUFFIX,profile.m1905.com # 1905 电影网用户资料与账户中心接口域名，用于个人信息、账户设置与会员数据加载
 
+# > 风行网（Funshion）在线视频平台域名
+
+DOMAIN-SUFFIX,fun.tv # 风行网官方主域名，用于视频点播、影视内容浏览与在线播放服务
+
 # > 视频平台
 
-DOMAIN-SUFFIX,fun.tv # 风行网
 DOMAIN-SUFFIX,acfun.cn # AcFun 弹幕视频网
 DOMAIN-SUFFIX,cdn.aixifan.com # AcFun CDN 服务
 
