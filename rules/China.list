@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-16
+# - 更新时间：2026-02-18
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -2587,3 +2587,7 @@ DOMAIN-SUFFIX,dreamwhisperai.com # AI 语音/文本智能交互与创作服务�
 # > MyCompiler 在线 IDE 与代码编辑环境
 
 DOMAIN-SUFFIX,mycompiler.io # 在线编译器/IDE 平台域名，用于提供代码编辑、编译与运行服务
+
+# > Hotjob 招聘系统（前程无忧旗下企业招聘服务）
+
+DOMAIN-SUFFIX,wecruit.hotjob.cn # 企业招聘子域，用于校招/社招在线报名与人力资源管理系统访问
