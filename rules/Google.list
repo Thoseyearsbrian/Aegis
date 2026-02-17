@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-04
+# - 更新时间：2026-02-18
 
 # > Google 各地区本地化搜索与服务入口域名
 
@@ -272,6 +272,7 @@ DOMAIN-SUFFIX,2.bp.blogspot.com # Google Blogger（Blogspot）平台图片与静
 # > Google FCM / 移动推送与实时消息通信节点（TCP 5228）
 
 IP-CIDR,173.194.203.188/32 # Google FCM（Firebase Cloud Messaging）推送服务节点，常用于 Android / Chrome 的实时消息、通知下发与长连接通信（5228 端口）
+IP-CIDR,74.125.142.188/32 # Google FCM 长连接推送服务节点（5228 端口），用于 Android 设备消息推送与后台通信
 
 # > Google / YouTube 骨干广告投放与播放协商服务
 
