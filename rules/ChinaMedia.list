@@ -897,11 +897,11 @@ DOMAIN-SUFFIX,display.wting.info # 懒人听书内容推荐与页面展示域名
 
 DOMAIN-SUFFIX,lishi.fm # 历史FM 音频播客平台主域名，用于承载历史类节目播放、专辑订阅、内容分发与用户访问服务
 
-# > 短视频平台
-
-DOMAIN-SUFFIX,ixigua.com # 西瓜视频主站（字节系）
-
 # > Mudu.TV（目睹直播）资源与通信域名
 
 DOMAIN-SUFFIX,msg-ws.mudu.tv # 目睹直播消息通信域名，用于直播间弹幕、评论与互动消息通信
 DOMAIN-SUFFIX,static.mudu.tv # 目睹直播静态资源域名，用于加载前端 JS/CSS 等页面内容
+
+# > 西瓜视频（字节跳动旗下视频平台）
+
+DOMAIN-SUFFIX,ixigua.com # 西瓜视频主站域名，用于承载短视频播放、内容分发、创作者平台与用户互动等核心服务
