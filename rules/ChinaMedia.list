@@ -891,6 +891,7 @@ DOMAIN-SUFFIX,xiami.com # 虾米音乐官方主域名（已停服），曾用于
 DOMAIN-SUFFIX,lrts.me # 懒人听书官方主域名，用于提供有声小说、广播剧、电台节目与知识类音频内容播放及会员服务
 DOMAIN-SUFFIX,assets.lrts.me # 懒人听书静态资源与媒体文件分发子域，用于图片、音频封面与前端资源加载
 DOMAIN-SUFFIX,headpic.lrts.me # 懒人听书头像与图片资源子域，用于用户头像与封面图加载
+DOMAIN-SUFFIX,display.wting.info # 懒人听书内容推荐与页面展示域名，用于首页轮播图、专题推荐素材与活动内容加载
 
 # > 电台 / 播客平台
 

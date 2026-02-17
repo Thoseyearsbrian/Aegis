@@ -8,7 +8,6 @@
 
 # > 广告相关域名
 
-DOMAIN-SUFFIX,display.wting.info # 懒人听书广告展示与营销投放域名，用于广告请求、曝光统计与推广活动追踪
 DOMAIN-SUFFIX,po.funshion.com # 风行网广告投放与推广接口域名，用于广告请求、曝光统计与营销活动数据回传
 DOMAIN-SUFFIX,qiezibenpao.com # 企业微信广告SDK与数据传输服务域名，用于广告监测与投放
 DOMAIN-SUFFIX,m.cn.miaozhen.com # 秒针系统移动端广告监测服务命名空间
