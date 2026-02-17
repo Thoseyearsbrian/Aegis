@@ -2591,3 +2591,4 @@ DOMAIN-SUFFIX,mycompiler.io # 在线编译器/IDE 平台域名，用于提供代
 # > Hotjob 招聘系统（前程无忧旗下企业招聘服务）
 
 DOMAIN-SUFFIX,wecruit.hotjob.cn # 企业招聘子域，用于校招/社招在线报名与人力资源管理系统访问
+DOMAIN-SUFFIX,xcmg.hotjob.cn # 企业招聘子域，用于企业岗位发布、简历投递与招聘系统访问服务
