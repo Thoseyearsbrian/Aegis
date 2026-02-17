@@ -882,9 +882,9 @@ DOMAIN-SUFFIX,img2.funshion.com # 风行网图片 CDN 子域 2，用于图像资
 DOMAIN-SUFFIX,mgc.funshion.com # 风行网“橙星梦工厂”AI创作平台域名，用于承载AI图片、AI视频、AI小说等内容生成与互动功能服务
 DOMAIN-SUFFIX,jobproxy.funshion.com # 风行网业务代理与接口转发服务域名，用于客户端任务调度、接口请求代理与后台通信服务
 
-# > 音乐平台
+# > 虾米音乐（Xiami Music）已停服历史服务域名
 
-DOMAIN-SUFFIX,xiami.com # 虾米音乐（已停服）
+DOMAIN-SUFFIX,xiami.com # 虾米音乐官方主域名（已停服），曾用于在线音乐播放、歌单浏览、用户账户与社区内容访问
 
 # > 电台 / 播客平台
 
