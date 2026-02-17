@@ -893,9 +893,9 @@ DOMAIN-SUFFIX,assets.lrts.me # 懒人听书静态资源与媒体文件分发子�
 DOMAIN-SUFFIX,headpic.lrts.me # 懒人听书头像与图片资源子域，用于用户头像与封面图加载
 DOMAIN-SUFFIX,display.wting.info # 懒人听书内容推荐与页面展示域名，用于首页轮播图、专题推荐素材与活动内容加载
 
-# > 电台 / 播客平台
+# > 历史FM 播客音频平台
 
-DOMAIN-SUFFIX,lishi.fm # 历史FM（播客平台）
+DOMAIN-SUFFIX,lishi.fm # 历史FM 音频播客平台主域名，用于承载历史类节目播放、专辑订阅、内容分发与用户访问服务
 
 # > 短视频平台
 
