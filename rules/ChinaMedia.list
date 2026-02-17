@@ -886,14 +886,16 @@ DOMAIN-SUFFIX,jobproxy.funshion.com # 风行网业务代理与接口转发服务
 
 DOMAIN-SUFFIX,xiami.com # 虾米音乐官方主域名（已停服），曾用于在线音乐播放、歌单浏览、用户账户与社区内容访问
 
+# > 懒人听书（有声阅读与音频内容平台）
+
+DOMAIN-SUFFIX,lrts.me # 懒人听书官方主域名，用于提供有声小说、广播剧、电台节目与知识类音频内容播放及会员服务
+
 # > 电台 / 播客平台
 
-DOMAIN-SUFFIX,lrts.me # 懒人听书
 DOMAIN-SUFFIX,lishi.fm # 历史FM（播客平台）
 
 # > 短视频平台
 
-DOMAIN-SUFFIX,toutiao.com # 今日头条主站（抖音广告分发源）
 DOMAIN-SUFFIX,ixigua.com # 西瓜视频主站（字节系）
 
 # > Mudu.TV（目睹直播）资源与通信域名
