@@ -869,6 +869,7 @@ DOMAIN-SUFFIX,img.funshion.com # 风行网图片与媒体资源 CDN 域名，用
 DOMAIN-SUFFIX,img1.funshion.com # 风行网图片 CDN 子域 1，用于图像资源分发与访问加速
 DOMAIN-SUFFIX,img2.funshion.com # 风行网图片 CDN 子域 2，用于图像资源分发与访问加速
 DOMAIN-SUFFIX,mgc.funshion.com # 风行网“橙星梦工厂”AI创作平台域名，用于承载AI图片、AI视频、AI小说等内容生成与互动功能服务
+DOMAIN-SUFFIX,jobproxy.funshion.com # 风行网业务代理与接口转发服务域名，用于客户端任务调度、接口请求代理与后台通信服务
 
 # > 视频平台
 
