@@ -859,6 +859,7 @@ DOMAIN-SUFFIX,1905.com # 电影网官方主域名，用于电影资讯浏览、�
 DOMAIN-SUFFIX,m1905.cn # 1905 电影网移动端主域名，用于手机端页面访问与视频内容加载
 DOMAIN-SUFFIX,image13.m1905.cn # 1905 电影网图片 CDN 子域，用于封面图、剧照与页面素材分发
 DOMAIN-SUFFIX,image14.m1905.cn # 1905 电影网图片 CDN 子域，用于封面图、剧照与页面素材分发
+DOMAIN-SUFFIX,profile.m1905.com # 1905 电影网用户资料与账户中心接口域名，用于个人信息、账户设置与会员数据加载
 
 # > 视频平台
 
