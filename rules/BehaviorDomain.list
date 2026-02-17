@@ -311,6 +311,8 @@ DOMAIN-SUFFIX,slscache.tencent-cloud.com # 腾讯云日志服务（CLS）全球�
 DOMAIN-SUFFIX,rumt-zh.com # 腾讯 / RUM 实时用户监控（Real‑User Monitoring）上报域名，用于前端性能、错误、资源加载、页面 PV/UV 等数据采集与上报
 DOMAIN-SUFFIX,rumt-sg.com # 腾讯云 RUM 前端性能监控，上报节点（新加坡区），用于页面性能 / 错误 / 用户行为日志上报
 DOMAIN-SUFFIX,htrace.wetvinfo.com # 腾讯视频 WeTV 埋点与链路追踪接口，用于客户端日志采集与播放性能监控 
+DOMAIN-SUFFIX,h.trace.qq.com # 腾讯行为追踪接口，用于客户端行为上报与访问路径分析
+DOMAIN-SUFFIX,otheve.beacon.qq.com # 腾讯 Beacon 统计接口，用于行为数据回传与设备环境分析
 
 # > GFW / Geedge 自有基础设施域名（泄露推测 / 待验证）
 
