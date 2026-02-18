@@ -67,6 +67,7 @@ DOMAIN-SUFFIX,lf6-font-sign.bytehwm.com # 字节跳动字体签名与前端字�
 DOMAIN-SUFFIX,pull-x2-t5.douyincdn.com # 抖音直播 FLV 拉流 CDN 子域
 DOMAIN-SUFFIX,lf3-static.bytednsdoc.com # 字节跳动文档与前端静态资源 CDN
 DOMAIN-SUFFIX,lf-zt.douyin.com # 抖音专题页（专题/活动页）资源加载域名，用于运营活动页面、专题内容与前端静态资源分发
+DOMAIN-SUFFIX,bytelink100-ws.douyin.com # 抖音 WebSocket 实时通信子域，用于直播互动、消息推送与数据长连接通道服务
 IP-CIDR,1.82.234.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,1.194.30.0/24 # 字节跳动移动端 SDK 通信节点
 IP-CIDR,1.194.172.0/24 # 抖音视频点播 CDN 实际服务节点
