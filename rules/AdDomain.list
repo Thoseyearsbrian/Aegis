@@ -4,10 +4,11 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-18
+# - 更新时间：2026-02-20
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,beizi.biz # 贝孜广告（Beizi）移动广告 SDK 与广告投放服务域名，用于广告加载、素材分发与曝光统计
 DOMAIN-SUFFIX,po.funshion.com # 风行网广告投放与推广接口域名，用于广告请求、曝光统计与营销活动数据回传
 DOMAIN-SUFFIX,qiezibenpao.com # 企业微信广告SDK与数据传输服务域名，用于广告监测与投放
 DOMAIN-SUFFIX,m.cn.miaozhen.com # 秒针系统移动端广告监测服务命名空间
