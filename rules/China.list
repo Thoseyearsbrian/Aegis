@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-18
+# - 更新时间：2026-02-20
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -108,6 +108,7 @@ IP-CIDR,221.228.74.0/24 # Alipay 数据网关边缘节点（datagw-edge），用
 IP-CIDR,180.121.81.0/24 # Alipay 前端渲染服务节点（render），用于页面渲染与前端资源生成
 IP-CIDR,58.216.14.0/24 # Alipay 静态资源 CDN 节点（mdn.alipayobjects.com），用于图片、脚本与样式资源分发
 IP-CIDR,117.85.70.0/24 # Alipay 通用网关与静态资源节点（gw.alipayobjects.com），用于核心资源加载与服务接入
+IP-CIDR,117.68.90.0/24 # 支付宝数据网关边缘服务节点（datagw-edge.alipay.com）
 
 # > 阿里云盘 相关域名
 
