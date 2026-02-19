@@ -2587,3 +2587,7 @@ DOMAIN-SUFFIX,xcmg.hotjob.cn # 企业招聘子域，用于企业岗位发布、�
 DOMAIN-SUFFIX,wandawic.com # 万达影城移动端服务主域名
 DOMAIN-SUFFIX,wdmp-maup.wandawic.com # 万达影城移动端数据上报与用户服务接口
 DOMAIN-SUFFIX,wdmp-api.wandawic.com # 万达影城移动端 API 接口域名
+
+# > 风控云业务安全与风险控制服务
+
+DOMAIN-SUFFIX,fengkongcloud.com # 风控云风险控制与业务安全校验服务域名，用于登录验证、反作弊检测与交易安全防护
