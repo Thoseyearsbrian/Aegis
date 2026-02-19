@@ -8,6 +8,7 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,ndcppx.com # 程序化广告投放与智能决策服务域名，用于广告竞价、流量分发与投放策略调度
 DOMAIN-SUFFIX,beizi.biz # 贝孜广告（Beizi）移动广告 SDK 与广告投放服务域名，用于广告加载、素材分发与曝光统计
 DOMAIN-SUFFIX,po.funshion.com # 风行网广告投放与推广接口域名，用于广告请求、曝光统计与营销活动数据回传
 DOMAIN-SUFFIX,qiezibenpao.com # 企业微信广告SDK与数据传输服务域名，用于广告监测与投放
