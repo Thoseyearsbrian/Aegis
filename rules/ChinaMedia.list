@@ -444,6 +444,7 @@ IP-CIDR,223.244.13.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点（pull-
 IP-CIDR,223.244.41.167/32 # 字节跳动业务调度与服务接口节点（pitaya.bytedance.com），用于客户端任务调度与后台通信
 IP-CIDR,223.244.186.0/24 # 字节跳动内容聚合与行为数据接口节点（aggr5-normal-s19.amemv.com）
 IP-CIDR,223.244.187.0/24 # 字节跳动聚合服务节点（aggr5-normal-s19.amemv.com）
+IP-CIDR,223.247.106.62/32 # 抖音图片签名与资源访问节点（p26-sign.douyinpic.com）
 IP-CIDR,223.247.116.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点（pull-t5.douyincdn.com）
 
 # > 字节跳动相关行为指纹（当前采用 ChinaMedia 路由策略）
