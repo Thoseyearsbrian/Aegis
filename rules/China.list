@@ -454,6 +454,7 @@ DOMAIN-SUFFIX,i.qchannel03.cn # 高德地图 QChannel 内容分发子域，用�
 DOMAIN-SUFFIX,qchannel01.cn # 高德地图 QChannel 内容分发子域，用于区域化地图服务与数据加速
 DOMAIN-SUFFIX,cache.gaode.com # 高德地图官方缓存与静态资源分发域名，用于地图瓦片、样式与数据缓存
 DOMAIN-SUFFIX,shift.is.autonavi.com # 高德地图内部调度与状态同步服务域名
+DOMAIN-SUFFIX,fp.amap.com # 高德地图 (Amap/AutoNavi) 前端定位/产品服务子域，用于地图加载、导航定位与相关功能接口访问
 IP-CIDR,59.82.14.161/24 # 高德地图移动端 AMDC 调度接口，用于移动客户端地图服务请求分发与节点调度
 IP-CIDR,180.163.145.240/24 # 高德地图服务节点，用于地图数据与服务接口访问
 
