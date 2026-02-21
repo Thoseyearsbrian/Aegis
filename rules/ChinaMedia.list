@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-20
+# - 更新时间：2026-02-21
 
 # > 抖音（字节跳动） 相关域名
 
@@ -162,6 +162,7 @@ IP-CIDR,59.42.240.0/24 # 字节跳动 TNC 风控与环境校验节点
 IP-CIDR,59.47.237.0/24 # 字节跳动直播 CDN 节点（bytegecko）
 IP-CIDR,59.52.142.0/24 # 字节跳动客户端后台同步服务节点（bsync）
 IP-CIDR,60.169.3.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
+IP-CIDR,60.170.11.0/24 # 支付宝静态资源 CDN 节点（mdn.alipayobjects.com）
 IP-CIDR,60.188.66.0/24 # 抖音直播 Stage FLV 分发节点
 IP-CIDR,60.188.100.0/24 # 抖音直播源站媒体 CDN 实际服务节点（lf1-webcastcdn-tos.douyinstatic.com）
 IP-CIDR,61.128.150.0/24 # 抖音 Webcast 图片签名 CDN 节点（p11-webcast-sign.douyinpic.com）
@@ -404,6 +405,7 @@ IP-CIDR,192.140.172.0/24 # 抖音直播第三方边缘 FLV 拉流 CDN 服务节�
 IP-CIDR,202.110.99.0/24 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
 IP-CIDR,202.102.11.0/24 # 抖音图片签名校验服务节点（douyinpic）
 IP-CIDR,203.209.247.0/24 # 支付宝核心业务数据通信节点（amdc）
+IP-CIDR,203.209.251.0/24 # 支付宝第三方接口节点（amdc-thirdparty.alipay.com）
 IP-CIDR,218.57.238.0/24 # 抖音图片签名校验服务节点
 IP-CIDR,218.92.141.0/24 # 抖音图片签名与媒体资源 CDN 节点
 IP-CIDR,218.92.147.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实际服务节点（/third/stream-*.flv）
