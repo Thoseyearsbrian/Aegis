@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-20
+# - 更新时间：2026-02-21
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -2591,3 +2591,9 @@ DOMAIN-SUFFIX,wdmp-api.wandawic.com # 万达影城移动端 API 接口域名
 # > 风控云业务安全与风险控制服务
 
 DOMAIN-SUFFIX,fengkongcloud.com # 风控云风险控制与业务安全校验服务域名，用于登录验证、反作弊检测与交易安全防护
+
+# > 爱优惠活动与资源分发服务
+
+DOMAIN-SUFFIX,iyoudui.com # 爱优惠 (iyoudui) 平台域名，用于优惠活动页面、资源访问与活动落地服务
+DOMAIN-SUFFIX,spm.iyoudui.com # 爱优惠推广统计与资源分发子域，用于活动页面访问支持与请求分发
+DOMAIN-SUFFIX,ctopmweb-cdn.iyoudui.com # 爱优惠 CDN 子域，用于活动页面静态资源、脚本与样式资源加速加载
