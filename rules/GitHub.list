@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,ghbtns.com # GitHub Buttons 前端按钮组件与 iframe 资源加
 DOMAIN-SUFFIX,docs.github.com # GitHub 官方文档站点（使用指南 / API / Actions / 安全公告）
 DOMAIN-SUFFIX,githubstatus.com # GitHub 官方状态页面域名，用于查询 GitHub 平台各项服务的实时状态、历史事件与维护通知
 DOMAIN-SUFFIX,github.careers # GitHub 官方招聘与职业发展域名，用于展示全球职位列表、公司福利与申请入口等信息
+DOMAIN-SUFFIX,git.io # GitHub 官方短链接服务，用于链接跳转与分享（常用于开源项目分发）
 IP-CIDR,140.82.114.25/32 # alive.github.com 对应的 GitHub 保活探测服务 IP，用于维持长连接状态与后台活动检测
 
 # > GitHub API 接口（CLI、Git操作、Webhook、REST/GraphQL）
