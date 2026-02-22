@@ -412,6 +412,7 @@ IP-CIDR,218.57.238.0/24 # 抖音图片签名校验服务节点
 IP-CIDR,218.92.141.0/24 # 抖音图片签名与媒体资源 CDN 节点
 IP-CIDR,218.92.147.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实际服务节点（/third/stream-*.flv）
 IP-CIDR,218.92.226.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点
+IP-CIDR,218.93.133.0/24 # 抖音 thirdgame 直播流媒体分发节点
 IP-CIDR,218.94.231.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,219.83.170.0/24 # 字节跳动 API 服务节点（ma5-normal-lq.zijieapi.com）
 IP-CIDR,219.151.136.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点
