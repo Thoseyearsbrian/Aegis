@@ -115,6 +115,7 @@ IP-CIDR,58.211.13.0/24 # 抖音直播 FLV 高速拉流 CDN 实际服务节点（
 IP-CIDR,58.211.15.0/24 # 抖音直播 FLV 拉流 CDN 节点（douyincdn）
 IP-CIDR,58.216.9.0/24 # 抖音直播 Stage/Qcloud 分发节点
 IP-CIDR,58.216.22.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
+IP-CIDR,58.217.204.0/24 # 抖音直播 Webcast 静态资源与内容分发节点 IP（lf1-webcastcdn-tos.douyinstatic.com）
 IP-CIDR,58.221.33.0/24 # 抖音视频点播 CDN 节点（douyinvod）
 IP-CIDR,58.221.54.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实际服务节点（/third/stream-*.flv）
 IP-CIDR,58.215.50.0/24 # 抖音图片与多媒体资源 CDN 节点
