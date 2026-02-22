@@ -294,6 +294,10 @@ DOMAIN-SUFFIX,vcs.zijieapi.com # 字节跳动 VCS（Video/Content Service）接�
 DOMAIN-SUFFIX,mcs.zijieapi.com # 字节跳动 MCS（Media/Content Service）多媒体接口，用于文件上传、内容处理与资源访问
 IP-CIDR,122.14.236.54/24 # 豆包 WebSocket 接入节点（wss100-normal），用于实时对话、长连接会话与推理结果流式传输
 
+# > 字节跳动商业系统与营销获客前端服务
+
+DOMAIN-SUFFIX,bytecdn.com # 字节跳动商业系统前端资源与营销获客服务 CDN 域名（含 lf-leads-fe-scm 等子域）
+
 # > 中国电信服务相关域名
 
 DOMAIN-SUFFIX,189.cn # 中国电信官方业务主域名，用于通信服务、账号体系与运营商相关业务访问
