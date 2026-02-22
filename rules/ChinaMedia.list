@@ -259,6 +259,7 @@ IP-CIDR,115.231.184.0/24 # 字节跳动直播 CDN 节点（bytegecko）
 IP-CIDR,115.223.59.0/24 # 抖音直播核心服务节点 IP
 IP-CIDR,115.223.60.0/24 # 字节跳动图片 CDN 实际服务节点
 IP-CIDR,115.238.155.0/24 # 字节跳动（抖音）图片签名与资源 CDN 实际服务节点
+IP-CIDR,115.238.171.0/24 # 字节跳动 tnc 网络调度节点，用于客户端连接优化与服务调度（tnc0-aliec2.zijieapi.com）
 IP-CIDR,115.238.197.0/24 # 字节跳动图片签名与媒体资源校验 CDN 实际服务节点（p3-dy-gm-yp-sign.byteimg.com）
 IP-CIDR,115.238.187.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,115.238.220.0/24 # 抖音直播 FLV 媒体拉流实际服务节点（third 路径）
