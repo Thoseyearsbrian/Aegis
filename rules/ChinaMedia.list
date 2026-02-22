@@ -279,12 +279,13 @@ IP-CIDR,117.68.33.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN �
 IP-CIDR,117.68.34.0/24 # 字节跳动电商用户服务接口节点（ecomuser.snssdk.com）
 IP-CIDR,117.68.37.0/24 # 字节系 Pitaya 服务节点 IP，用于内容调度与接口分发（lf26-pitaya.bytetos.com）
 IP-CIDR,117.68.50.0/24 # 抖音直播 Stage 流媒体分发节点
+IP-CIDR,117.68.54.0/24 # 抖音直播 pull-flv 拉流节点
 IP-CIDR,117.68.56.0/24 # 抖音直播 Stage 流媒体分发节点
 IP-CIDR,117.68.59.0/24 # 抖音直播 Stage 流媒体分发节点
 IP-CIDR,117.68.64.0/24 # 抖音直播 Third 分发链路节点 IP（third/*.flv）
 IP-CIDR,117.68.75.0/24 # 抖音直播 Webcast CDN 分发节点
-IP-CIDR,117.68.125.0/24 # 字节跳动图片资源签名服务节点
 IP-CIDR,117.68.68.0/24 # 抖音视频点播分发节点（v5-x.douyinvod.com）
+IP-CIDR,117.68.125.0/24 # 字节跳动图片资源签名服务节点
 IP-CIDR,117.69.72.0/24 # 抖音直播 FLV 拉流 CDN 实际服务节点（pull-flv-f11.douyincdn.com）
 IP-CIDR,117.85.69.0/24 # 支付宝静态资源与业务网关节点
 IP-CIDR,117.86.183.0/24 # 字节跳动电商业务接口服务节点
@@ -318,8 +319,9 @@ IP-CIDR,122.226.74.0/24 # 字节跳动媒体资源 CDN 实际服务节点
 IP-CIDR,122.226.181.0/24 # 抖音直播 Stage/Qcloud 分发节点
 IP-CIDR,122.227.254.0/24 # 字节跳动字体签名与前端资源校验 CDN 实际服务节点（bytehwm）
 IP-CIDR,122.228.15.0/24 # 字节跳动 TOS 内容分发与 QoS 控制节点（lf-dy-sourcecdn-tos-qos-control.bytegecko.com）
-IP-CIDR,122.228.205.0/24 # 抖音图片资源签名 CDN 节点
 IP-CIDR,122.228.115.0/24 # 抖音直播 third 第三方边缘 FLV 拉流 CDN 实际服务节点（/third/stream-*.flv）
+IP-CIDR,122.228.205.0/24 # 抖音图片资源签名 CDN 节点
+IP-CIDR,122.228.221.0/24 # 抖音直播 webcastcdn 分发节点
 IP-CIDR,122.246.3.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,122.247.211.0/24 # 字节跳动开发者平台图片签名与鉴权 CDN 节点
 IP-CIDR,122.247.213.0/24 # 抖音直播 / Webcast 图片资源分发节点
