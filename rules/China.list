@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-21
+# - 更新时间：2026-02-22
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -2603,3 +2603,7 @@ DOMAIN-SUFFIX,ctopmweb-cdn.iyoudui.com # 爱优惠 CDN 子域，用于活动页�
 # > 个推科技移动消息推送服务
 
 DOMAIN-SUFFIX,getui.com # 个推科技移动推送与终端通信服务域名，用于应用消息下发、设备注册与推送通道维护
+
+# > 国内 JSP CDN 静态资源分发服务
+
+DOMAIN-SUFFIX,jspcdn.cn # 国内网站 JS 与静态资源 CDN 分发域名，用于前端脚本加载与资源调度
