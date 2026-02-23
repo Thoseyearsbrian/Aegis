@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-22
+# - 更新时间：2026-02-23
 
 # > 抖音（字节跳动） 相关域名
 
@@ -163,6 +163,7 @@ IP-CIDR,59.36.97.0/24 # 字节跳动直播内容分发 CDN 节点
 IP-CIDR,59.42.240.0/24 # 字节跳动 TNC 风控与环境校验节点
 IP-CIDR,59.47.237.0/24 # 字节跳动直播 CDN 节点（bytegecko）
 IP-CIDR,59.52.142.0/24 # 字节跳动客户端后台同步服务节点（bsync）
+IP-CIDR,60.25.96.129/32 # 字节跳动 Pitaya 服务边缘节点（lf6-pitaya.bytetos.com）
 IP-CIDR,60.169.3.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,60.170.11.0/24 # 支付宝静态资源 CDN 节点（mdn.alipayobjects.com）
 IP-CIDR,60.188.66.0/24 # 抖音直播 Stage FLV 分发节点
