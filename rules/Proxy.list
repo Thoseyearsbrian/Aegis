@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-19
+# - 更新时间：2026-02-24
 
 # > Speedtest 网络测速平台
 
@@ -6678,6 +6678,10 @@ DOMAIN-SUFFIX,sophos.com/en-us/labs # Sophos Labs 安全研究页面路径，用
 # > 16Personalities 人格测试与心理评估平台
 
 DOMAIN-SUFFIX,16personalities.com # 16Personalities 在线人格测试与 MBTI 分析服务平台，用于性格评估、结果报告生成与相关心理内容访问
+
+# > 国外 VPS 云服务器评测与推荐站点
+
+DOMAIN-SUFFIX,gwvpsceping.com # 国外 VPS / 云主机评测站点，用于服务器性能测试文章与主机对比推荐内容
 
 # > 第三方博客网站
 
