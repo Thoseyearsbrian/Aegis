@@ -3318,6 +3318,7 @@ DOMAIN-SUFFIX,ns.vultr.com # Vultr 官方 DNS 解析服务域名（NS1 ~ NS5）
 DOMAIN-SUFFIX,assets.vultrcdn.com # Vultr CDN 分发资源域名，用于加载前端静态资源
 DOMAIN-SUFFIX,static.vultrcdn.com # Vultr 静态内容分发域名（图标、样式等）
 DOMAIN-SUFFIX,status.vultr.com # Vultr 系统状态监控页面域名
+DOMAIN-SUFFIX,vcnsl.com # Vultr 云服务器网络与控制面相关域名，用于基础设施通信与节点调度
 
 # > Linode 服务域名
 
