@@ -2617,3 +2617,8 @@ DOMAIN-SUFFIX,jspcdn.cn # 国内网站 JS 与静态资源 CDN 分发域名，用
 DOMAIN-SUFFIX,mcd.cn # 麦当劳中国官网与移动端服务主域名，用于会员服务、活动页面与接口请求
 DOMAIN-SUFFIX,api.mcd.cn # 麦当劳中国接口服务子域，用于订单、会员、活动与数据交互服务
 DOMAIN-SUFFIX,mcdfreshwork.freshchat.com # 麦当劳 Freshchat 在线客服实例域名
+
+# > Freshchat 在线客服服务（Freshworks）
+
+DOMAIN-SUFFIX,freshchat.com # Freshworks 在线客服平台域名，用于网站与 App 内嵌客服会话服务
+DOMAIN-SUFFIX,assetscdn-wchat.freshchat.com # Freshchat WebChat 静态资源 CDN 域名，用于加载聊天脚本、样式与前端交互资源
