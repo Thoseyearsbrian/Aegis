@@ -2624,3 +2624,5 @@ DOMAIN-SUFFIX,freshchat.com # Freshworks 在线客服平台域名，用于网站
 DOMAIN-SUFFIX,assetscdn-wchat.freshchat.com # Freshchat WebChat 静态资源 CDN 域名，用于加载聊天脚本、样式与前端交互资源
 DOMAIN-SUFFIX,freshworksapi.com # Freshworks 官方 API 服务域名，用于客服系统接口调用与数据交互
 DOMAIN-SUFFIX,rts-static-prod.freshworksapi.com # Freshworks 实时通信静态资源域名，用于加载 WebSocket 相关脚本与前端实时会话组件
+DOMAIN-SUFFIX,freshbots.ai # Freshworks Freshbots AI 客服机器人平台域名，用于智能问答、自动回复与会话流程管理
+DOMAIN-SUFFIX,cdn.freshbots.ai # Freshbots 静态资源 CDN 域名，用于加载聊天脚本、前端组件与机器人交互资源
