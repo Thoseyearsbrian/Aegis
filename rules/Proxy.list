@@ -6690,6 +6690,10 @@ DOMAIN-SUFFIX,images.unsplash.com # Unsplash 图片静态资源 CDN 域名，用
 
 DOMAIN-SUFFIX,pdscrb.com # Paddle 订阅验证与支付校验基础设施域名，用于订阅状态验证与订单合法性检查
 
+# > VideoLAN 开源项目官方网站（VLC 官方站点）
+
+DOMAIN-SUFFIX,videolan.org # VLC 媒体播放器开源项目官方网站，用于软件下载、文档发布与项目维护
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
