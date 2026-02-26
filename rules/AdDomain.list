@@ -4,10 +4,11 @@
 # - 特征：识别广告投放域名、行为分析 SDK、遥测型 CDN 请求等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-24
+# - 更新时间：2026-02-26
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,agkn.com # AGKN（MediaMath 相关）广告追踪与程序化广告投放域名
 DOMAIN-SUFFIX,dynamic.criteo.com # Criteo 动态重定向广告服务域名，用于个性化广告匹配与再营销投放
 DOMAIN-SUFFIX,ndcppx.com # 程序化广告投放与智能决策服务域名，用于广告竞价、流量分发与投放策略调度
 DOMAIN-SUFFIX,beizi.biz # 贝孜广告（Beizi）移动广告 SDK 与广告投放服务域名，用于广告加载、素材分发与曝光统计
