@@ -196,7 +196,6 @@ DOMAIN-SUFFIX,kfc.co.in # KFC 印度站点
 DOMAIN-SUFFIX,kfc.com.ph # KFC 菲律宾站点
 DOMAIN-SUFFIX,kfc.com.tw # KFC 台湾站点
 DOMAIN-SUFFIX,kfchk.com # KFC 香港与澳门在线订餐与会员服务平台
-DOMAIN-SUFFIX,kfc.com.cn # KFC 中国大陆官网（百胜中国运营）
 DOMAIN-SUFFIX,global.kfc.com # KFC 全球品牌与企业信息门户
 
 # > McDonald’s（麦当劳）相关域名
@@ -212,8 +211,6 @@ DOMAIN-SUFFIX,mcdonalds.com.sg # 麦当劳新加坡站点
 DOMAIN-SUFFIX,mcdonalds.co.jp # 麦当劳日本站点
 DOMAIN-SUFFIX,mcdelivery.com.sg # 麦当劳新加坡外卖服务
 DOMAIN-SUFFIX,mcdonalds.com.hk # 麦当劳香港站点
-DOMAIN-SUFFIX,mcdonalds.com.cn # 麦当劳中国（中食麦当劳控股）官网
-DOMAIN-SUFFIX,mcdchina.com # 麦当劳中国旧域名
 DOMAIN-SUFFIX,experience.mcdonalds.com # 麦当劳顾客体验平台（问卷、积分等）
 DOMAIN-SUFFIX,global.mcdonalds.com # 麦当劳全球内容与品牌介绍门户
 
