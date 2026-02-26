@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-24
+# - 更新时间：2026-02-26
 
 # > WeChat 数据统计与遥测
 
@@ -1317,3 +1317,7 @@ DOMAIN-SUFFIX,wasu-statistics.cn-hangzhou.log.aliyuncs.com # 华数 TV 基于阿
 DOMAIN-SUFFIX,stat.funshion.com # 风行网统计与行为数据上报接口域名，用于用户访问数据与播放行为采集
 DOMAIN-SUFFIX,w.irs03.com # 风行网第三方统计与行为分析接口域名，用于页面访问统计与用户行为数据采集
 DOMAIN-SUFFIX,pcap.funshion.com # 风行网抓包与行为数据采集子域，用于客户端日志回传、网络行为分析与运行状态监控
+
+# > AppDynamics 应用性能监控与遥测上报域名
+
+DOMAIN-SUFFIX,eum-appdynamics.com # AppDynamics 终端用户监控（EUM）数据采集与性能分析上报域名
