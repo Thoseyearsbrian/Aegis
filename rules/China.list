@@ -2627,6 +2627,10 @@ DOMAIN-SUFFIX,mcd.cn # 麦当劳中国官网与移动端服务主域名，用于
 DOMAIN-SUFFIX,api.mcd.cn # 麦当劳中国接口服务子域，用于订单、会员、活动与数据交互服务
 DOMAIN-SUFFIX,mcdfreshwork.freshchat.com # 麦当劳 Freshchat 在线客服实例域名
 
+# > BURGER KING® 汉堡王中国官网
+
+DOMAIN-SUFFIX,bkchina.cn # 汉堡王中国官方网站，用于展示菜单、门店信息、会员服务与品牌内容
+
 # > Freshchat 在线客服服务（Freshworks）
 
 DOMAIN-SUFFIX,freshchat.com # Freshworks 在线客服平台域名，用于网站与 App 内嵌客服会话服务
