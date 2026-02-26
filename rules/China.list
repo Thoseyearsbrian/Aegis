@@ -2614,7 +2614,7 @@ DOMAIN-SUFFIX,jspcdn.cn # 国内网站 JS 与静态资源 CDN 分发域名，用
 
 # > KFC（肯德基）中国相关域名
 
-DOMAIN-SUFFIX,mcdonalds.com.cn # 麦当劳中国（中食麦当劳控股）官网
+DOMAIN-SUFFIX,kfcdelivery.com.cn # KFC 中国大陆宅急送外卖平台
 
 # > 麦当劳中国官方服务域名
 
