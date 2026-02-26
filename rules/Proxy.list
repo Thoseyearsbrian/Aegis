@@ -214,6 +214,10 @@ DOMAIN-SUFFIX,mcdonalds.com.hk # 麦当劳香港站点
 DOMAIN-SUFFIX,experience.mcdonalds.com # 麦当劳顾客体验平台（问卷、积分等）
 DOMAIN-SUFFIX,global.mcdonalds.com # 麦当劳全球内容与品牌介绍门户
 
+# > Papa John’s 披萨官方网站
+
+DOMAIN-SUFFIX,papajohns.com # Papa John’s 全球官方网站域名，用于品牌信息发布、在线点餐与门店查询
+
 # > Temu（拼多多旗下海外电商平台）相关域名
 
 DOMAIN-SUFFIX,temu.com # Temu 官方网站主域（美国、加拿大、欧洲等）
