@@ -2619,6 +2619,12 @@ DOMAIN-SUFFIX,jspcdn.cn # 国内网站 JS 与静态资源 CDN 分发域名，用
 DOMAIN-SUFFIX,kfcdelivery.com.cn # KFC 中国大陆宅急送外卖平台
 DOMAIN-SUFFIX,kfc.com.cn # KFC 中国大陆官网（百胜中国运营）
 
+# > Yum China（百胜中国）官方网站相关域名
+
+DOMAIN-SUFFIX,yumchina.com # 百胜中国官方网站（肯德基、必胜客、塔可钟中国母公司）
+DOMAIN-SUFFIX,abplatform.yumchina.com # 百胜中国 A/B 测试与业务平台域名（用于线上业务实验与功能灰度发布）
+DOMAIN-SUFFIX,bs2.yumchina.com # 百胜中国内部业务系统与服务接口域名（用于门店与线上系统交互）
+
 # > 麦当劳中国官方服务域名
 
 DOMAIN-SUFFIX,mcdonalds.com.cn # 麦当劳中国（中食麦当劳控股）官网
