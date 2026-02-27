@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net # 腾讯网络质量统计与
 DOMAIN-SUFFIX,servicewechat.com # 微信小程序与服务通信主域
 DOMAIN-SUFFIX,sh.servicewechat.com # 微信小程序上海节点，用于小程序服务请求与接口通信
 DOMAIN-SUFFIX,wxqcloud.qq.com.cn # 腾讯企点与微信企业服务图片资源分发与云存储节点
+DOMAIN-SUFFIX,apd-pcdnieghplogin.teg.tencent-cloud.net # 腾讯云 Tencent-Cloud 托管域名（关联微信/后端服务调度与登录域名）
 
 # > 多媒体与文件传输（Media & File Transfer）
 
