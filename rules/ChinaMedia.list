@@ -160,7 +160,6 @@ IP-CIDR,58.218.200.0/24 # 字节跳动核心业务调度节点（Pitaya）
 IP-CIDR,58.218.204.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,58.220.40.0/24 # 抖音图片与多媒体资源 CDN 节点（douyinpic）
 IP-CIDR,58.220.44.0/24 # 抖音直播 FLV Stage 冷启动拉流 CDN 实际服务节点
-IP-CIDR,58.220.65.0/24 # 抖音直播 Third 拉流节点，用于 FLV 媒体分发链路
 IP-CIDR,58.220.78.0/24 # 抖音直播 FLV 拉流 CDN 节点（pull-flv-f1.douyincdn.com）
 IP-CIDR,58.220.178.0/24 # 字节跳动电商用户服务节点（ecomuser.snssdk.com）
 IP-CIDR,58.220.179.0/24 # 抖音直播 FLV 第三方边缘分发节点（/third/stream-*.flv）
