@@ -6,4 +6,4 @@ Public interaction is minimal. Be respectful if you choose to communicate.
 
 ## 🔐 Commit Policy
 
-All commits are made solely by the project maintainer and are GPG signed to verify authenticity and integrity.
+All commits are made solely by the project maintainer and GPG-signed to verify authenticity and integrity.
