@@ -22,6 +22,7 @@ IP-CIDR,182.254.116.117/32 # 腾讯云游戏调度与下载分发节点
 DOMAIN-SUFFIX,ossweb-img.qq.com # 腾讯 OSS 静态资源 CDN 域名（用于 QQ 系列产品及游戏内图片/资源加载）
 DOMAIN-SUFFIX,jsonatm.broker.tplay.qq.com # 腾讯 QQ 游戏协议通信域名（TPlay 游戏生态 broker 通信服务）
 DOMAIN-SUFFIX,cjm.broker.tplay.qq.com # 腾讯 QQ TPlay 游戏通信子域（用于游戏会话与协议握手服务）
+DOMAIN-SUFFIX,rdt.tfogc.com # 腾讯游戏 RDT 实时数据传输主域（用于对战数据与会话通信）
 
 # > Steam 平台（Valve 旗下）
 
