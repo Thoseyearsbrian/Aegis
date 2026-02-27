@@ -4,7 +4,12 @@
 # - 特征：涵盖 Steam、Epic、PlayStation、Nintendo 等主流游戏平台访问域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-19
+# - 更新时间：2026-02-27
+
+# > 王者荣耀 相关域名
+
+DOMAIN-SUFFIX,down-update.qq.com # 腾讯游戏官方资源更新主域（用于王者荣耀等游戏版本更新与补丁分发）
+DOMAIN-SUFFIX,downupdate.tyyy.tcdnos.com # 腾讯 CDN 边缘更新分发域名（王者荣耀资源热更新与补丁加速节点）
 
 # > Steam 平台（Valve 旗下）
 
