@@ -33,6 +33,10 @@ DOMAIN-SUFFIX,cjm.broker.tplay.qq.com # 腾讯 TPlay 游戏协议通信子域（
 DOMAIN-SUFFIX,cgugccdn.pg.qq.com # 腾讯游戏 CDN 资源分发域名（和平精英资源下载与内容分发）
 DOMAIN-SUFFIX,receiver.tdm.qq.com # 腾讯游戏数据接收服务域名（客户端数据上报与日志回传）
 DOMAIN-SUFFIX,szmg.qq.com # 腾讯游戏业务域名（用于游戏服务接口通信）
+DOMAIN-SUFFIX,game.gtimg.cn # 腾讯游戏静态资源与内容分发主域（用于游戏素材、公告与资源加载）
+DOMAIN-SUFFIX,cdn.cn.gcloudcs.com # 腾讯 GCloud 游戏 CDN 分发域名（用于游戏数据与资源下发）
+DOMAIN-SUFFIX,cn.voice.gcloudcs.com # 腾讯 GCloud 语音通信域名（用于游戏内语音服务）
+DOMAIN-SUFFIX,qosidc.gcloudsdk.com # 腾讯 GCloud 网络质量与调度域名（用于游戏 QoS 与链路优化）
 
 # > Steam 平台（Valve 旗下）
 
