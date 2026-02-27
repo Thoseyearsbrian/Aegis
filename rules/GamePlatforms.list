@@ -10,6 +10,9 @@
 
 DOMAIN-SUFFIX,down-update.qq.com # 腾讯游戏官方资源更新主域（用于王者荣耀等游戏版本更新与补丁分发）
 DOMAIN-SUFFIX,downupdate.tyyy.tcdnos.com # 腾讯 CDN 边缘更新分发域名（王者荣耀资源热更新与补丁加速节点）
+DOMAIN-SUFFIX,anticheatexpert.com # 腾讯游戏反作弊与客户端安全校验服务主域（用于王者荣耀等游戏安全检测与环境校验）
+DOMAIN-SUFFIX,cschannel.anticheatexpert.com # 腾讯游戏反作弊通信子域（客户端与安全服务交互通道）
+DOMAIN-SUFFIX,nj.cschannel.anticheatexpert.com # 腾讯游戏反作弊南京节点（用于区域化安全检测与数据上报）
 
 # > Steam 平台（Valve 旗下）
 
