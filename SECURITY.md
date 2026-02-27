@@ -5,4 +5,4 @@ Thank you for your interest in this project. To maintain the integrity, security
 
 ## 🔐 Commit Policy
 
-All commits are made solely by the project maintainer and are PGP/GPG signed to verify authenticity and integrity.
+All commits are made solely by the project maintainer and are GPG signed to verify authenticity and integrity.
