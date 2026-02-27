@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-26
+# - 更新时间：2026-02-27
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -2624,6 +2624,9 @@ DOMAIN-SUFFIX,kfc.com.cn # KFC 中国大陆官网（百胜中国运营）
 DOMAIN-SUFFIX,yumchina.com # 百胜中国官方网站（肯德基、必胜客、塔可钟中国母公司）
 DOMAIN-SUFFIX,abplatform.yumchina.com # 百胜中国 A/B 测试与业务平台域名（用于线上业务实验与功能灰度发布）
 DOMAIN-SUFFIX,bs2.yumchina.com # 百胜中国内部业务系统与服务接口域名（用于门店与线上系统交互）
+DOMAIN-SUFFIX,hwwt8.com # 百胜中国（Yum China）内部技术服务主域，包含资源分发、后台系统与业务支持子域
+DOMAIN-SUFFIX,pcp-pic.hwwt8.com # 百胜中国图片资源分发子域（业务图片加载、静态资源分发）
+DOMAIN-SUFFIX,fp.hwwt8.com # 百胜中国设备指纹/风控辅助子域（用于安全校验或用户环境识别）
 
 # > 麦当劳中国官方服务域名
 
