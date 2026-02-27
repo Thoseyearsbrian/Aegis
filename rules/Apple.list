@@ -11,12 +11,13 @@
 
 DOMAIN-SUFFIX,apple.com # Apple 主域名
 DOMAIN-SUFFIX,apple.cn # Apple 中国区官方主域名
+DOMAIN-SUFFIX,apple.com.cn # Apple 在中国大陆的本地官网主域名
 DOMAIN-SUFFIX,appleid.apple.com # Apple ID 登录验证域名
 DOMAIN-SUFFIX,cdn-apple.com # Apple 全球 CDN 服务域，用于加速媒体与截图内容分发
 DOMAIN-SUFFIX,appleid.cdn-apple.com # Apple ID 验证 CDN 节点
 DOMAIN-SUFFIX,configuration.apple.com # Apple 设备配置服务接口
 DOMAIN-SUFFIX,configuration.ls.apple.com # 启动配置服务
-DOMAIN-SUFFIX,init-p01md.apple.com # 初始激活服务域名
+DOMAIN-SUFFIX,init-p01md.apple.com # Apple 设备激活初始化服务
 DOMAIN-SUFFIX,xp.apple.com # 设备注册与证书验证接口
 DOMAIN-SUFFIX,kt-prod.ess.apple.com # 设备安全认证服务
 DOMAIN-SUFFIX,bpapi.apple.com # 后台权限与验证接口
@@ -33,7 +34,6 @@ DOMAIN-SUFFIX,icons.axm-usercontent-apple.com # 用户内容托管（头像）
 DOMAIN-SUFFIX,sylvan.apple.com # Apple 官方壁纸/屏保视频服务域名
 DOMAIN-SUFFIX,sfss.cdn-apple.com # Apple 安全框架服务资源域名
 DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
-DOMAIN-SUFFIX,apple.com.cn # Apple 在中国大陆的本地官网主域名
 DOMAIN-SUFFIX,pancake.apple.com # Apple 官方服务内部功能支持与通信域名
 DOMAIN-SUFFIX,cl1.apple.com # Apple 官方内容分发与服务接入节点
 DOMAIN-SUFFIX,cl2.apple.com # Apple 官方内容分发与服务接入节点
