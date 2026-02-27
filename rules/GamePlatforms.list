@@ -25,6 +25,14 @@ DOMAIN-SUFFIX,cjm.broker.tplay.qq.com # 腾讯 QQ TPlay 游戏通信子域（用
 DOMAIN-SUFFIX,rdt.tfogc.com # 腾讯游戏 RDT 实时数据传输主域（用于对战数据与会话通信）
 DOMAIN-SUFFIX,down.qq.com # 腾讯官方下载与资源分发主域（用于游戏安装包、纹理与补丁下载）
 DOMAIN-SUFFIX,apd-pcdnvodstat.teg.tencent-cloud.net # 腾讯云 PCDN VOD 统计上报主域（用于视频播放与分发统计）
+DOMAIN-SUFFIX,ios-v1.perfsight.qq.com # 腾讯 Perfsight 性能监测域名（iOS 客户端性能数据上报）
+DOMAIN-SUFFIX,gpcloud.tgpa.qq.com # 腾讯 TGPA 游戏加速与网络优化服务域名
+DOMAIN-SUFFIX,api.unipay.qq.com # 腾讯游戏支付接口域名（用于游戏内支付与订单验证）
+DOMAIN-SUFFIX,jsonatm.broker.tplay.qq.com # 腾讯 TPlay 游戏协议通信域名（用于客户端与服务器会话交互）
+DOMAIN-SUFFIX,cjm.broker.tplay.qq.com # 腾讯 TPlay 游戏协议通信子域（用于对战数据与会话通信）
+DOMAIN-SUFFIX,cgugccdn.pg.qq.com # 腾讯游戏 CDN 资源分发域名（和平精英资源下载与内容分发）
+DOMAIN-SUFFIX,receiver.tdm.qq.com # 腾讯游戏数据接收服务域名（客户端数据上报与日志回传）
+DOMAIN-SUFFIX,szmg.qq.com # 腾讯游戏业务域名（用于游戏服务接口通信）
 
 # > Steam 平台（Valve 旗下）
 
