@@ -3321,6 +3321,10 @@ DOMAIN-SUFFIX,status.rapidssl.com # RapidSSL（DigiCert 旗下）证书状态查
 
 DOMAIN-SUFFIX,repository.certum.pl # Certum 证书仓库域名，用于根证书与子证书下载及 TLS 信任链校验
 
+# > 证书状态在线检查（OCSP）服务域名
+
+DOMAIN-SUFFIX,ocsp.digicert.com # DigiCert OCSP 证书状态验证服务，用于 HTTPS/TLS 证书吊销检查
+
 # > Shields.io 徽章服务资源（Shields.io Badge Assets）
 
 DOMAIN-SUFFIX,shields.io # Shields.io 主域名，用于生成所有徽章请求入口 
