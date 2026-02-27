@@ -4,23 +4,55 @@
 # - 特征：封锁具备明确后台回连、配置上传或设备级通信特征的域名，涵盖 IoT、NAS、SDK 等设备类或应用组件，排除广告与行为分析类通信
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-19
+# - 更新时间：2026-02-27
 
 # > 后门控制与异常通信节点
 
 DOMAIN-SUFFIX,ftisthebest.com # 使用混淆子域进行异常 TLS 通信，证书名称与主机名不匹配，具备远控/黑产通信特征,该域名曾于 2006 年被收录进垃圾邮件黑名单
-
-# > 支付宝后台通信与网络检测服务（AliPay Background Services）
-
-IP-CIDR,203.209.250.41 # 蚂蚁集团网络节点（Alipay），用于支付宝客户端的后台通信与网络可用性检测，具备应用级静默通信特征
 
 # > Cloudflare 反向代理探测与网络检测流量（非应用层请求）
 
 IP-CIDR,162.159.61.3/32 # Cloudflare 边缘网络节点（AS13335），非应用层业务请求,AbuseIPDB 中存在多次 DDoS / 异常攻击流量相关记录
 IP-CIDR,172.64.41.3/32 # Cloudflare 边缘网络节点（AS13335），非应用层业务请求,AbuseIPDB 中存在多次 DDoS / 异常攻击流量相关记录
 
-# > PortMap / 异常端口探测流量（非业务连接）
 
-IP-CIDR,103.97.176.73/32 # 香港数据中心/中转网络节点（AS401696），在 AbuseIPDB 多次记录为端口扫描（Port Scan）行为，属于非业务网络探测流量
-IP-CIDR,17.253.145.10/32 # Apple 官方网络节点（AS714），非应用层业务通信；在 AbuseIPDB 中存在多次异常安全事件记录（含 DDoS、SSH 暴力尝试与端口扫描等），反映该类高信任基础设施节点曾被第三方滥用
-IP-CIDR,151.101.131.6/32 # Fastly Edge 网络节点（AS54113），非应用层业务通信；在 AbuseIPDB 中被多次记录为端口扫描（Port Scan）与异常连接尝试，反映该类高信任 CDN 基础设施节点存在被第三方滥用
+# > 飞狐木马（Silver Fox / FoxMalware）后门控制与投递基础设施
+
+DOMAIN-SUFFIX,youdaoensk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,youdaodfk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,vibersds.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,aisiaz.site # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,trofmds.com # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,youdaoesi.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,aisizs.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,meituxx.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,youdaofe.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,wpsnf.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,youdaoendk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,todtgk.top # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,leidianuk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,telogiam.top # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,tefgedmg.top # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,off1c1e.top # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,csgo666.top # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,wuyoujiema1.com # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,sougouu.top # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,sogoff.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,hzj66.vip # 恶意分发与控制关联域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,iloveyou.agency # 恶意分发与控制关联域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,mqkfxt.top # 恶意分发与控制关联域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,meiqia.world # 恶意分发与控制关联域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,wpoff.top # 恶意分发与控制关联域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,sogollq.top # 恶意分发与控制关联域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,eyy250.top # 恶意分发与控制关联域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,sgsrf.top # 恶意分发与控制关联域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,sgllq.top # 恶意分发与控制关联域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,ppfcc.xyz # 恶意分发与控制关联域名（微步在线公开情报披露）
+IP-CIDR,43.135.163.43/32 # 飞狐木马 C2 控制服务器（微步在线公开情报披露）
+IP-CIDR,1.32.249.43/32 # 飞狐木马 C2 控制服务器（微步在线公开情报披露）
+IP-CIDR,27.124.47.237/32 # 飞狐木马 C2 控制服务器（微步在线公开情报披露）
+IP-CIDR,169.150.222.238/32 # 飞狐木马 C2 控制服务器（微步在线公开情报披露）
+
+
+
+
