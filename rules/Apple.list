@@ -30,7 +30,6 @@ DOMAIN-SUFFIX,time-ios.apple.com # iOS 时间同步接口
 DOMAIN-SUFFIX,translation.apple.com # Apple 翻译主服务
 DOMAIN-SUFFIX,sequoia.apple.com # Apple 翻译服务接口
 DOMAIN-SUFFIX,sequoia.cdn-apple.com # Apple 翻译服务 CDN 节点
-DOMAIN-SUFFIX,icons.axm-usercontent-apple.com # 用户内容托管（头像）
 DOMAIN-SUFFIX,sylvan.apple.com # Apple 官方壁纸/屏保视频服务域名
 DOMAIN-SUFFIX,sfss.cdn-apple.com # Apple 安全框架服务资源域名
 DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
@@ -59,12 +58,7 @@ DOMAIN-SUFFIX,tdms.apple.com # Apple 设备遥测与诊断管理服务
 DOMAIN-SUFFIX,sse-ws-p189.apple.com # Apple Server-Sent Events（SSE）与 WebSocket 服务节点，用于系统级实时事件推送、状态同步与服务通知
 DOMAIN-SUFFIX,gdmf-ados.apple.com # Apple GDMF（Global Device Management Framework）配置下发与系统策略服务节点，用于设备配置描述文件、系统功能策略与安全参数的动态分发与管理
 DOMAIN-SUFFIX,pds-init.ess.apple.com # Apple ESS（Enterprise Support Services）PDS 初始化服务接口，用于设备安全服务启动阶段的配置拉取、策略校验与会话初始化
-DOMAIN-SUFFIX,amp-api-edge.music.apple.com # Apple Music AMP 边缘 API 接口，用于音乐内容元数据获取、播放策略下发与区域化服务调度
-DOMAIN-SUFFIX,musicstatus.itunes.apple.com # Apple Music 服务状态与可用性检测接口，用于客户端检查 Apple Music 后端服务运行状态、区域可用性与故障提示
 DOMAIN-SUFFIX,weather-edge.apple.com # Apple 天气服务边缘接入节点
-DOMAIN-SUFFIX,ampaeservices.com # Apple Media & Platform Authentication Services（AMP AES）相关服务域名，用于 Apple 媒体平台与系统服务的认证、鉴权与安全会话支持
-DOMAIN-SUFFIX,amp.shazam.com # Apple Shazam 音频识别服务接口域名，用于音乐识别请求、识别结果返回与功能相关的数据交互，属于 Apple 生态内的音频识别服务组件
-DOMAIN-SUFFIX,swcdn.apple.com # Apple Software Content Delivery Network（系统与应用更新内容分发）
 IP-CIDR,17.253.114.43/32 # Apple 核心服务网络节点，用于 Apple 设备系统级通信、服务连通性检测与后台请求调度
 IP-CIDR,17.253.86.211 # 系统服务端口映射节点
 IP-CIDR,17.253.150.10 # Tether 服务节点
@@ -145,6 +139,10 @@ DOMAIN-SUFFIX,amp-api.media.apple.com # Apple 媒体平台（AMP）API 接口，
 DOMAIN-SUFFIX,partiality.itunes.apple.com # Apple iTunes / App Store 内容与服务公平性（Partiality）校验接口，用于区域差异、内容可用性、权限与策略一致性校验
 DOMAIN-SUFFIX,play.itunes.apple.com # Apple iTunes / App Store 播放与内容访问接口，用于媒体内容（音乐、播客、预览等）的在线播放请求与访问控制
 DOMAIN-SUFFIX,cma.itunes.apple.com # Apple iTunes / App Store 客户端管理与能力协商接口（CMA），用于设备能力识别、客户端配置下发、功能可用性判断与服务策略匹配
+DOMAIN-SUFFIX,ampaeservices.com # Apple Media & Platform Authentication Services（AMP AES）相关服务域名，用于 Apple 媒体平台与系统服务的认证、鉴权与安全会话支持
+DOMAIN-SUFFIX,amp.shazam.com # Apple Shazam 音频识别服务接口域名，用于音乐识别请求、识别结果返回与功能相关的数据交互，属于 Apple 生态内的音频识别服务组件
+DOMAIN-SUFFIX,musicstatus.itunes.apple.com # Apple Music 服务状态与可用性检测接口，用于客户端检查 Apple Music 后端服务运行状态、区域可用性与故障提示
+DOMAIN-SUFFIX,amp-api-edge.music.apple.com # Apple Music AMP 边缘 API 接口，用于音乐内容元数据获取、播放策略下发与区域化服务调度
 
 # > 推送与通知服务（Push Services）
 
@@ -209,6 +207,8 @@ DOMAIN-SUFFIX,swscan.apple.com # macOS 系统更新索引服务
 DOMAIN-SUFFIX,publicassets.cdn-apple.com # Apple 公共资源 CDN 节点
 DOMAIN-SUFFIX,updates.cdn-apple.com # Apple 更新服务 CDN 域名
 DOMAIN-SUFFIX,cdsassets.apple.com # Apple 内容分发与服务（CDS）静态资源域名，用于系统服务、App Store、Apple Music 等官方服务的前端资源与配置文件分发
+DOMAIN-SUFFIX,swcdn.apple.com # Apple Software Content Delivery Network（系统与应用更新内容分发）
+DOMAIN-SUFFIX,icons.axm-usercontent-apple.com # 用户内容托管（头像）
 IP-CIDR,151.101.3.8 # Apple 更新服务的 CDN 加速节点 IP
 IP-CIDR,17.248.0.0/16 # Apple CDN 主服务段
 IP-CIDR,144.178.0.0/19 # Apple 边缘服务段
