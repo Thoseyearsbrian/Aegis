@@ -5,7 +5,7 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-23
+# - 更新时间：2026-02-27
 
 # > 系统服务（System Services）
 
@@ -25,7 +25,6 @@ DOMAIN-SUFFIX,ocsp2.apple.com # 证书状态在线查询（OCSP）
 DOMAIN-SUFFIX,valid.apple.com # 证书有效性与激活验证
 DOMAIN-SUFFIX,safebrowsing.apple # 安全浏览服务
 DOMAIN-SUFFIX,guzzoni.apple.com # Siri 请求服务
-DOMAIN-SUFFIX,time.apple.com # 时间同步主服务
 DOMAIN-SUFFIX,time-ios.apple.com # iOS 时间同步接口
 DOMAIN-SUFFIX,translation.apple.com # Apple 翻译主服务
 DOMAIN-SUFFIX,sequoia.apple.com # Apple 翻译服务接口
@@ -33,7 +32,6 @@ DOMAIN-SUFFIX,sequoia.cdn-apple.com # Apple 翻译服务 CDN 节点
 DOMAIN-SUFFIX,icons.axm-usercontent-apple.com # 用户内容托管（头像）
 DOMAIN-SUFFIX,sylvan.apple.com # Apple 官方壁纸/屏保视频服务域名
 DOMAIN-SUFFIX,sfss.cdn-apple.com # Apple 安全框架服务资源域名
-DOMAIN-SUFFIX,ampaeservices.com # Apple 认证服务相关域名
 DOMAIN-SUFFIX,dns.apple.com # 网络状态探测域
 DOMAIN-SUFFIX,apple.com.cn # Apple 在中国大陆的本地官网主域名
 DOMAIN-SUFFIX,pancake.apple.com # Apple 官方服务内部功能支持与通信域名
@@ -210,7 +208,6 @@ DOMAIN-SUFFIX,swdist.apple.com # macOS 系统软件分发服务器
 DOMAIN-SUFFIX,swscan.apple.com # macOS 系统更新索引服务
 DOMAIN-SUFFIX,publicassets.cdn-apple.com # Apple 公共资源 CDN 节点
 DOMAIN-SUFFIX,updates.cdn-apple.com # Apple 更新服务 CDN 域名
-DOMAIN-SUFFIX,cdn-apple.com # Apple 静态资源 CDN，用于 AI 前端文件、模型加载与策略同步
 DOMAIN-SUFFIX,cdsassets.apple.com # Apple 内容分发与服务（CDS）静态资源域名，用于系统服务、App Store、Apple Music 等官方服务的前端资源与配置文件分发
 IP-CIDR,151.101.3.8 # Apple 更新服务的 CDN 加速节点 IP
 IP-CIDR,17.248.0.0/16 # Apple CDN 主服务段
