@@ -2656,6 +2656,11 @@ DOMAIN-SUFFIX,hsab-snssdk.tastien-external.com # Tasiting 相关托管子域
 DOMAIN-SUFFIX,sss-web.tastientech.com # Tasiting 技术服务或 Web 平台子域
 DOMAIN-SUFFIX,pictures.tastientech.com # Tasiting 平台图片资源分发子域
 
+# > 牛约堡（New YoBo）中国汉堡连锁品牌官方网站
+
+DOMAIN-SUFFIX,newyobo.com # 牛约堡品牌官网域名，用于手作牛肉汉堡品牌信息、产品展示与加盟服务
+DOMAIN-SUFFIX,m.newyobo.com # 牛约堡移动端官网域名，用于移动设备访问品牌信息与加盟咨询
+
 # > Pizza Hut（必胜客）中国相关域名
 
 DOMAIN-SUFFIX,pizzahut.com.cn # 必胜客中国官方网站，用于菜单展示、在线点餐、门店查询与品牌信息服务
