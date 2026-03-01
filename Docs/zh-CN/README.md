@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">Aegis</h1>
-Surge 个人数字防火墙规则集，帮助用户在 iOS / macOS 本地实现流量的精准识别与分类，并根据自身需求自主设定流量策略。
+Surge 个人数字防火墙规则集，帮助用户在 iOS 与 macOS 本地实现流量的精准识别与分类，并根据自身需求自主设定流量策略。
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-1.png" width="300" alt="Surge iOS：Aegis_CN 配置概览界面截图" />
