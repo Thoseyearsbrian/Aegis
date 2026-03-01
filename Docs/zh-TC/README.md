@@ -3,30 +3,28 @@
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/Aegis_Cover_Image.png" alt="Aegis Cover Image"/>
 </p>
 
-<h1 align="center">Aegis — Surge 個人數位防火牆規則集</h1>
+<h1 align="center">Aegis</h1>
+Surge 個人數位防火牆規則集，協助使用者在 iOS / macOS 本地實現流量的精準識別與分類，並根據自身需求自主設定流量策略。
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-tc-1.png" width="300" alt="Surge iOS：Aegis_TC 配置概覽介面截圖" />
 <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-tc-2.png" width="300" alt="Surge iOS：Aegis_TC 策略群組介面截圖" />
 </p>
 
 <p align="center">
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/tree/main/Docs/zh-CN">简体中文</a>]
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-TC/README.md">繁體中文</a>]
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/en-US/README.md">English</a>]
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0" />
-  <img src="https://github.com/Thoseyearsbrian/GeoIP2-CN/actions/workflows/update.yml/badge.svg" alt="GeoIP Auto Update Status" />
+  <img src="https://github.com/Thoseyearsbrian/GeoIP2-Country/actions/workflows/update.yml/badge.svg" alt="GeoIP Auto Update Status" />
   <img src="https://img.shields.io/github/stars/Thoseyearsbrian/Aegis?style=social" alt="GitHub stars" />
   <img src="https://img.shields.io/github/v/release/Thoseyearsbrian/Aegis?include_prereleases&label=version" alt="Version" />
   <img src="https://img.shields.io/github/last-commit/Thoseyearsbrian/Aegis" alt="Last Commit" />
   <a href="https://github.com/Thoseyearsbrian/Aegis">
     <img src="https://img.shields.io/badge/Mirror--Prohibited-red" alt="Mirror Prohibited" />
-  </a>
-</p>
-
-<p align="center">
-  <a
-    href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/en-US/README.md"
-    title="View Aegis Documentation in English"
-    aria-label="English Documentation for Aegis project"
-  >
-    <b>【English Documentation Here】</b>
   </a>
 </p>
 

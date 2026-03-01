@@ -3,7 +3,9 @@
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/Aegis_Cover_Image.png" alt="Aegis Cover Image"/>
 </p>
 
-<h1 align="center">Aegis — Personal Digital Firewall Ruleset for Surge</h1>
+<h1 align="center">Aegis</h1>
+A personal digital firewall ruleset for Surge, designed to help users achieve precise traffic identification and classification locally on iOS / macOS, and define traffic policies according to their own needs.
+
 <p align="center">
   <img
     src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-1.png"
@@ -18,23 +20,19 @@
 </p>
 
 <p align="center">
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/tree/main/Docs/zh-CN">简体中文</a>]
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-TC/README.md">繁體中文</a>]
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/en-US/README.md">English</a>]
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0" />
-  <img src="https://github.com/Thoseyearsbrian/GeoIP2-CN/actions/workflows/update.yml/badge.svg" alt="GeoIP Auto Update Status" />
+  <img src="https://github.com/Thoseyearsbrian/GeoIP2-Country/actions/workflows/update.yml/badge.svg" alt="GeoIP Auto Update Status" />
   <img src="https://img.shields.io/github/stars/Thoseyearsbrian/Aegis?style=social" alt="GitHub stars" />
   <img src="https://img.shields.io/github/v/release/Thoseyearsbrian/Aegis?include_prereleases&label=version" alt="Version" />
   <img src="https://img.shields.io/github/last-commit/Thoseyearsbrian/Aegis" alt="Last Commit" />
   <a href="https://github.com/Thoseyearsbrian/Aegis">
     <img src="https://img.shields.io/badge/Mirror--Prohibited-red" alt="Mirror Prohibited" />
-  </a>
-</p>
-
-<p align="center">
-  <a
-    href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-TC/README.md"
-    title="查看 Aegis 繁體中文文檔"
-    aria-label="Aegis 專案的繁體中文文檔"
-  >
-    <b>【繁體中文文檔點此進入】</b>
   </a>
 </p>
 
