@@ -98,21 +98,20 @@ MINOR (Y) : New policy groups, new modules, or new features  👉 Recommended to
 
 PATCH (Z) : Rule fixes, annotation updates, minor improvements  👉 No need to re-download the configuration; updating external resources is sufficient
 
-💡 It is recommended to enable 「Automatically reload if the profile was modified externally/remotely」.This option only applies to automatic reloading when the configuration file (.conf) changes.PATCH updates still require manually refreshing external resources (RULE-SET) to take effect.
+> [!IMPORTANT]
+> It is recommended to enable 「Automatically reload if the profile was modified externally/remotely」.This option only applies to automatic reloading when the configuration file (.conf) changes.PATCH updates still require manually refreshing external resources (RULE-SET) to take effect.
 
-Examples:
+> [!NOTE]
+> Current version: Aegis v2.0.0,Previous version: Aegis v1.2.4,This is a MAJOR update (MAJOR = 2).You must re-download the configuration and re-add nodes.External resources will be updated automatically.
+>
+> Current version: Aegis v3.3.0,Previous version: Aegis v3.2.2,This is a MINOR update (MINOR = 3).It is recommended to re-download the configuration and re-add nodes.External resources will be updated automatically.
+>
+> Current version: Aegis v3.3.4,Previous version: Aegis v3.3.3,This is a PATCH update (PATCH = 4).No need to re-download the configuration.You only need to manually refresh external resources (RULE-SET).
 
--	Current version: Aegis v2.0.0,Previous version: Aegis v1.2.4,This is a MAJOR update (MAJOR = 2).You must re-download the configuration and re-add nodes.External resources will be updated automatically.
-
--	Current version: Aegis v3.3.0,Previous version: Aegis v3.2.2,This is a MINOR update (MINOR = 3).It is recommended to re-download the configuration and re-add nodes.External resources will be updated automatically.
-
--	Current version: Aegis v3.3.4,Previous version: Aegis v3.3.3,This is a PATCH update (PATCH = 4).No need to re-download the configuration.You only need to manually refresh external resources (RULE-SET).
-
-Summary:
-
-As long as you re-download the configuration file (.conf) and re-add the nodes, external resources will be updated automatically if the option 「Automatically reload if the profile was modified externally/remotely」 is enabled.
-
-For PATCH version updates, you still need to manually refresh external resources (RULE-SET) for the changes to take effect.
+> [!TIP]
+> As long as you re-download the configuration file (.conf) and re-add the nodes, external resources will be updated automatically if the option 「Automatically reload if the profile was modified externally/remotely」 is enabled.
+>
+> For PATCH version updates, you still need to manually refresh external resources (RULE-SET) for the changes to take effect.
 
 ## Surge IPv4 Configuration Links
 
@@ -130,7 +129,9 @@ Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_IPv6_EN.conf
 
- 💡 Note: Please choose the appropriate configuration based on your network environment. If your network natively supports IPv6, use the IPv6 version; otherwise, use the IPv4 version. **Do not mix configurations**, as this may result in request failures or DNS resolution issues.
+> [!WARNING]
+> Please choose the appropriate configuration based on your network environment. If your network natively supports IPv6, use the IPv6 version; otherwise, use the IPv4 version. 
+> Do not mix configurations, as this may result in request failures or DNS resolution issues.
 
 ## **Configuration Guide**
 
@@ -186,7 +187,8 @@ macOS: Open Surge -> Rules -> Optional Regional Routing -> Check the desired cou
 
 iOS: Open Surge -> Aegis Configuration -> Edit in Text Mode -> Optional Regional Routing -> Remove the “# ” before the corresponding country rule -> Done!
 
-Note: If the country you want is not listed above, you can manually add the corresponding country code at the end of the configuration, as the current database supports global GEOIP lookups.
+> [!TIP]
+> If the country you want is not listed above, you can manually add the corresponding country code at the end of the configuration, as the current database supports global GEOIP lookups.
 
 ### Video Tutorial
 
