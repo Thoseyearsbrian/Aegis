@@ -1334,3 +1334,7 @@ DOMAIN-SUFFIX,ia.51.la # 51.la 提供的网站流量分析/统计服务子域，
 # > Heap Analytics 行为分析与事件采集服务
 
 DOMAIN-SUFFIX,heap-api.com # Heap 用户行为分析与自动埋点数据采集 CDN
+
+# > Qualaroo 行为调查与用户反馈收集服务
+
+DOMAIN-SUFFIX,qualaroo.com # Qualaroo 全栈用户反馈与行为调查平台域名
