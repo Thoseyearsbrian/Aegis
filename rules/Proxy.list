@@ -6754,6 +6754,11 @@ DOMAIN-SUFFIX,evgnet.com # Akamai CDN 与边缘服务域名，用于加速静态
 
 DOMAIN-SUFFIX,q4cdn.com # Q4 CDN 内容分发网络域名，用于缓存与分发企业财报、投资者关系资料、公告与相关静态资源
 
+# > Bloomberg 彭博社相关域名
+
+DOMAIN-SUFFIX,bloomberg.com # Bloomberg 全球金融新闻、数据与市场分析官网，用于访问财经新闻、市场动向与商业信息
+DOMAIN-SUFFIX,bloombergchina.com # Bloomberg 中国官方网站，用于访问彭博中国地区商业、金融资讯与市场研究
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
