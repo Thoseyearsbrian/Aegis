@@ -57,7 +57,7 @@ The Aegis rule set is dedicated to identifying and classifying the following hig
 
 Aegis is purpose-built for the Surge platform, fully compatible with both iOS and macOS. It offers high readability, auditability, and modular deployment — making it suitable for policy-based routing, communication analysis, and enhanced security configurations.
 
-An optional advanced module — CA_Block.list — is also available, aimed at blocking globally controversial or publicly revoked root certificate authorities, OCSP responders, and CRL domains. This module is intended for users with heightened digital trust requirements, offering additional protection against man-in-the-middle attacks and malicious certificate chains.
+An optional advanced module `CA_Block.list` is also available, designed to block globally controversial or publicly revoked root certificate authorities, OCSP responders, and CRL domains. This module is intended for users with heightened digital trust requirements and provides additional protection against man-in-the-middle attacks and malicious certificate chains.
 
 ## **Philosophy**
 
