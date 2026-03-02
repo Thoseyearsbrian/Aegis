@@ -6749,6 +6749,10 @@ DOMAIN-SUFFIX,wiki.repcz.link # Repcz 社区维护的技术 Wiki，提供代理/
 
 DOMAIN-SUFFIX,evgnet.com # Akamai CDN 与边缘服务域名，用于加速静态资源与脚本内容
 
+# > Q4 CDN 内容分发网络
+
+DOMAIN-SUFFIX,q4cdn.com # Q4 CDN 内容分发网络域名，用于缓存与分发企业财报、投资者关系资料、公告与相关静态资源
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
