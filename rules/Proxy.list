@@ -421,6 +421,7 @@ DOMAIN-SUFFIX,spotifycharts.com # Spotify Charts 排行榜服务子站
 DOMAIN-SUFFIX,open.spotify.com # Spotify 网页端播放入口（主入口）
 DOMAIN-SUFFIX,api.spotify.com # Spotify API 接口服务域名（用于第三方开发与集成）
 DOMAIN-SUFFIX,lifeatspotify.com # Spotify 官方职业与文化网站，用于展示公司价值观、招聘职位与员工体验信息
+DOMAIN-SUFFIX,conductrics.com # Conductrics 平台域，用于 Spotify 实验资源分发
 
 # > Roku 相关域名
 
