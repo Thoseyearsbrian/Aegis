@@ -6745,6 +6745,10 @@ DOMAIN-SUFFIX,moeru.ai # Moeru AI 官方网站域名，用于开源 AI 虚拟伴
 
 DOMAIN-SUFFIX,wiki.repcz.link # Repcz 社区维护的技术 Wiki，提供代理/网络工具使用指南与配置示例
 
+# > Akamai CDN 内容分发服务域名
+
+DOMAIN-SUFFIX,evgnet.com # Akamai CDN 与边缘服务域名，用于加速静态资源与脚本内容
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
