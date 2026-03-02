@@ -1338,3 +1338,7 @@ DOMAIN-SUFFIX,heap-api.com # Heap 用户行为分析与自动埋点数据采集 
 # > Qualaroo 行为调查与用户反馈收集服务
 
 DOMAIN-SUFFIX,qualaroo.com # Qualaroo 全栈用户反馈与行为调查平台域名
+
+# > PDST 用户行为追踪与广告再营销脚本资源
+
+DOMAIN-SUFFIX,pdst.fm # 第三方追踪与再营销资源域名（
