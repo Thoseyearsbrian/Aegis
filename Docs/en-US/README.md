@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">Aegis</h1>
-A personal digital firewall ruleset for Surge, designed to help users achieve precise traffic identification and classification locally on iOS and macOS, and define traffic policies according to their own needs.
+A personal digital firewall ruleset for Surge, designed to help users achieve precise local traffic identification and classification on iOS and macOS, and define traffic policies according to their own needs.
 
 <p align="center">
   <img
@@ -36,15 +36,17 @@ A personal digital firewall ruleset for Surge, designed to help users achieve pr
   </a>
 </p>
 
-## **Overview**
+## Overview
 
-Personal digital firewall ruleset for [Surge](https://nssurge.com), focused on identifying potential communication threats at both the application-layer and transport-layer. It covers a broad range of suspicious behaviors including [DNS poisoning](https://en.wikipedia.org/wiki/DNS_hijacking), [APT threat sources](https://en.wikipedia.org/wiki/Advanced_persistent_threat), [SDK telemetry](https://en.wikipedia.org/wiki/Software_development_kit), [Backdoor communication](https://en.wikipedia.org/wiki/Back_door), [PCDN relay communication](https://en.wikipedia.org/wiki/P2P_caching), [C2 controllers](https://en.wikipedia.org/?redirect=no&title=Command_and_control), and other potentially malicious communications. The project also expands domain-based identification to major global advertising platforms, behavioral tracking services, and adult content sites, Help users achieve precise local traffic identification and classification on iOS and macOS, and define routing strategies based on their own needs.
+Personal digital firewall ruleset for [Surge](https://nssurge.com), focused on identifying potential communication threats at both the application layer and transport layer. It covers a broad range of suspicious behaviors including [DNS poisoning](https://en.wikipedia.org/wiki/DNS_hijacking), [APT threat sources](https://en.wikipedia.org/wiki/Advanced_persistent_threat), [SDK telemetry](https://en.wikipedia.org/wiki/Software_development_kit), [backdoor communication](https://en.wikipedia.org/wiki/Back_door), [PCDN relay communication](https://en.wikipedia.org/wiki/P2P_caching), [C2 controllers](https://en.wikipedia.org/?redirect=no&title=Command_and_control), and other potentially malicious communications.
 
-In addition, the project incorporates rule sets targeting globally recognized high-risk threat infrastructures, including detection strategies for [Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware))￼ spyware and its associated command-and-control infrastructure.
+The project also expands domain-based identification to major global advertising platforms, behavioral tracking services, and adult content sites. It helps users achieve precise local traffic identification and classification on iOS and macOS, and define routing strategies based on their own needs.
+
+In addition, the project incorporates rule sets targeting globally recognized high-risk threat infrastructures, including detection strategies for [Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware)) spyware and its associated command-and-control infrastructure.
 
 The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
 
-## **Key Features**
+## Key Features
 
 The Aegis rule set is dedicated to identifying and classifying the following high-risk communication behaviors:
 
@@ -59,11 +61,11 @@ Aegis is purpose-built for the Surge platform, fully compatible with both iOS an
 
 An optional advanced module `CA_Block.list` is also available, designed to block globally controversial or publicly revoked root certificate authorities, OCSP responders, and CRL domains. This module is intended for users with heightened digital trust requirements and provides additional protection against man-in-the-middle attacks and malicious certificate chains.
 
-## **Philosophy**
+## Philosophy
 
 Aegis adheres to technical neutrality, information transparency, and independent autonomy. I firmly believe every individual has the right to understand and control their network traffic. Therefore, Aegis does not accept any form of commercial investment or capital control. To ensure purity, trust, and security, all configurations are handcrafted and audited by me, with complete annotations to guarantee every rule is transparent, verifiable, and pollution-free.
 
-## **Aegis Main Rule Modules**
+## Aegis Main Rule Modules
 
 | Module ID | Module Name | File Name | Description | Criteria |
 | :-------: | :---------: | :------------------------: | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -82,7 +84,7 @@ Aegis adheres to technical neutrality, information transparency, and independent
 | ⑬ | Scam Domain Blocking | Scam_Block.list | Blocks suspicious domains with extremely low reputation, reported fraud, fake services, or user complaints. (Blocking Module – Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs | 
 | ⑭ | Risk Communication Observation List | Quarantine_Block.list | Covers domains and IPs that are not yet confirmed as malicious but exhibit anomalous communication behaviors, including opaque purposes or the use of non-public protocols or non-standard ports. A quarantine-based blocking strategy is applied by default to mitigate potential risks.(Observation Module – Enabled by Default) | Identified through anomalous communication behavior analysis; the risk has not been conclusively classified as malicious and is placed under isolation and observation for further review |
 
-## **Auto Update**
+## Auto Update
 
 Aegis is hosted on [GitHub](https://github.com) with an automated update mechanism, ensuring that all rule sets remain up-to-date and are fully compatible with remote subscription in Surge.
 
@@ -90,23 +92,23 @@ If configuration auto-reload is not enabled, you can manually refresh external r
 
 ### Versioning
 
-Aegis follows the [Semantic Versioning](https://semver.org/) : vMAJOR.MINOR.PATCH  e.g., Aegis v3.0.1,MAJOR=3、MINOR=0、PATCH=1
+Aegis follows [Semantic Versioning](https://semver.org/): vMAJOR.MINOR.PATCH (e.g., Aegis v3.0.1; MAJOR=3, MINOR=0, PATCH=1).
 
-MAJOR (X) : Major changes in structure or compatibility  👉 Requires re-downloading the configuration and re-adding nodes
+MAJOR (X): Major changes in structure or compatibility  👉 Requires re-downloading the configuration and re-adding nodes
 
-MINOR (Y) : New policy groups, new modules, or new features  👉 Recommended to re-download the configuration and re-add nodes
+MINOR (Y): New policy groups, new modules, or new features  👉 Recommended to re-download the configuration and re-add nodes
 
-PATCH (Z) : Rule fixes, annotation updates, minor improvements  👉 No need to re-download the configuration; updating external resources is sufficient
+PATCH (Z): Rule fixes, annotation updates, minor improvements  👉 No need to re-download the configuration; updating external resources is sufficient
 
 > [!IMPORTANT]
-> It is recommended to enable 「Automatically reload if the profile was modified externally/remotely」.This option only applies to automatic reloading when the configuration file (.conf) changes.PATCH updates still require manually refreshing external resources (RULE-SET) to take effect.
+> It is recommended to enable 「Automatically reload if the profile was modified externally/remotely」. This option only applies to automatic reloading when the configuration file (.conf) changes. PATCH updates still require manually refreshing external resources (RULE-SET) to take effect.
 
 > [!NOTE]
-> Current version: Aegis v2.0.0,Previous version: Aegis v1.3.4,This is a MAJOR update (MAJOR = 2).You must re-download the configuration and re-add nodes.External resources will be updated automatically.
+> Current version: Aegis v2.0.0. Previous version: Aegis v1.3.4. This is a MAJOR update (MAJOR = 2). You must re-download the configuration and re-add nodes. External resources will be updated automatically.
 >
-> Current version: Aegis v2.3.0,Previous version: Aegis v2.2.4,This is a MINOR update (MINOR = 3).It is recommended to re-download the configuration and re-add nodes.External resources will be updated automatically.
+> Current version: Aegis v2.3.0. Previous version: Aegis v2.2.4. This is a MINOR update (MINOR = 3). It is recommended to re-download the configuration and re-add nodes. External resources will be updated automatically.
 >
-> Current version: Aegis v3.3.4,Previous version: Aegis v3.3.3,This is a PATCH update (PATCH = 4).No need to re-download the configuration.You only need to manually refresh external resources (RULE-SET).
+> Current version: Aegis v3.3.4. Previous version: Aegis v3.3.3. This is a PATCH update (PATCH = 4). No need to re-download the configuration. You only need to manually refresh external resources (RULE-SET).
 
 > [!TIP]
 > As long as you re-download the configuration file (.conf) and re-add the nodes, external resources will be updated automatically if the option 「Automatically reload if the profile was modified externally/remotely」 is enabled.
@@ -133,7 +135,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/c
 > Please choose the appropriate configuration based on your network environment. If your network natively supports IPv6, use the IPv6 version; otherwise, use the IPv4 version. 
 > Do not mix configurations, as this may result in request failures or DNS resolution issues.
 
-## **Configuration Guide**
+## Configuration Guide
 
 Copy the configuration link → Open Surge → Download from URL → Paste the link → Edit in Text Mode → Replace your node with the correct parameter → Done!
 
@@ -153,7 +155,11 @@ Open Surge -> More -> General -> GeoIP Database -> Update Now -> Done!
 
 Aegis supports GEOIP lookup rules for countries outside mainland China, as the current database covers global IP ranges.
 
-Aegis enables by default: GEOIP,CN,DIRECT # GEOIP matches mainland China
+Aegis enables by default:
+
+```bash
+GEOIP,CN,DIRECT # GEOIP match for Mainland China
+```
 
 ### Optional Regional Routing
 
@@ -254,7 +260,7 @@ Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch o
    If you experience temporary LAN communication issues (e.g., AirDrop, Bonjour, or NAS) after switching networks such as Wi-Fi ↔ hotspot, select “Stop Proxy” → “Start Proxy” in the menu to rebuild the routing table and restore connectivity.
    ```
 
-## **🌟 Special Thanks**
+## 🌟 Special Thanks
 
 This project is built upon inspiration and reference from numerous outstanding open-source initiatives within the [GitHub](https://github.com) community. We extend our sincere gratitude to all developers who have contributed to the open-source ecosystem.
 
@@ -270,15 +276,13 @@ To meet personal cybersecurity requirements, this project has been deeply custom
 
 ### 🎖️ Major Contributors
 
-[@mieqq](https://github.com/mieqq)￼ 👉 A key contributor to the Chinese Surge community. The [mieqq repository](https://github.com/mieqq/mieqq)￼ has consistently maintained a variety of rules and modules, playing a significant role in the early development and promotion of the ecosystem.
+[@mieqq](https://github.com/mieqq) 👉 A key contributor to the Chinese Surge community. The [mieqq repository](https://github.com/mieqq/mieqq) has consistently maintained a variety of rules and modules, playing a significant role in the early development and promotion of the ecosystem.
 
-The above acknowledgements are listed in no particular order.If you believe your work is missing from the acknowledgements, please feel free to contact me — I will add it promptly.
+The above acknowledgements are listed in no particular order. If you believe your work is missing from the acknowledgements, please feel free to contact me — I will add it promptly.
 
-## **🔐 Disclaimer**
+## 🔐 Disclaimer
 
 This project is a non-profit, open-source security rule set aimed at helping users enhance their network defense capabilities. By using this project, you acknowledge that you have read, understood, and agreed to the following terms:
-
-This project is a non-commercial, open-source security rule set intended to help users enhance their network security posture. By using this project, you acknowledge that you have read, understood, and agreed to the following terms:
 
 1. **Third-Party Source Notice**: Portions of this project reference publicly available threat intelligence (e.g., security community reports, threat databases, GitHub projects). All such references are properly cited. If you believe there is an issue, please contact us for correction or removal.
 2. **Module Activation Statement**: This project adheres to the principles of technical neutrality, information transparency, and independent autonomy. The rule set is designed to assist users in identifying potentially risky communication behaviors. All identification modules are disabled by default. The formulation and activation of related strategies are entirely at the user’s own discretion. The project author assumes no responsibility for any communication risks resulting from user configurations.
@@ -291,7 +295,7 @@ This project is a non-commercial, open-source security rule set intended to help
 
 **Author’s Statement**: This project does not engage in malicious activities, does not include hidden backdoors or monitoring mechanisms, does not promote proxy services, and contains no obfuscated or harmful logic. All rule contents are written in plain text, fully commented, structured clearly, and hosted solely within this repository for community review, audit, and traceability.
 
-## **🏅 License**
+## 🏅 License
 
 This project is licensed under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE). You are free to use, modify, and distribute this project, even for commercial purposes.
 
