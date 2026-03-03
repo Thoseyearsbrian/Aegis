@@ -307,7 +307,7 @@ This project is a non-profit, open-source security rule set aimed at helping use
 
 Additionally, the Aegis project has enabled [GPG](https://gnupg.org) commit signing to ensure the authenticity and integrity of its codebase. You may verify each commit through its GPG signature to gain higher assurance that the code has not been tampered with.
 
-To ensure the security, integrity, and long-term maintainability of the rule sets, we recommend using them via remote reference:
+To ensure the security, integrity, and auditability of the rule sets, and to support long-term maintenance and continuous validation, we recommend distributing and using them via remote reference:
 
 > [!NOTE]
 > - Prefer using `RULE-SET` or the official configuration subscription links.
