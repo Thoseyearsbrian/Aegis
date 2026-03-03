@@ -1,7 +1,7 @@
-# > OpenAI.list（智能助理服务规则集）
-# - 分类：智能助理 / AI 服务平台 / 云端推理接口
-# - 来源：主流服务域名抓包 / 社区整理 / 手动校验
-# - 特征：涵盖 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等主流 AI 服务域名
+# > OpenAI.list（生成式人工智能平台规则集）
+# - 分类：生成式人工智能平台（涵盖大模型推理服务与云端 API 基础设施）
+# - 来源：本地流量行为分析 / 手动校验 / 持续自维护
+# - 特征：覆盖主流生成式人工智能平台与大模型服务域名，包括 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等生态体系
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2026-03-03
