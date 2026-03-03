@@ -297,15 +297,29 @@ This project is a non-profit, open-source security rule set aimed at helping use
 
 ## 🏅 License
 
-This project is licensed under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE). You are free to use, modify, and distribute this project, even for commercial purposes.
+**Copyright and Distribution Notice:** This project is licensed under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE). You may use, modify, and distribute this project — including for commercial purposes — provided that you comply with the terms of the license.
 
-We ask you to respect the spirit of open source:
+**This project upholds the principles of open source and advocates for a healthy, sustainable open-source ecosystem:**
 
-- **Keep original author credits and license text intact.**
-- **Do not remove annotations or license statements.**
-- **Do not exploit the rule set for closed-source monetization or abusive purposes.**
+- Please retain the original author attribution and license notice.
+- Please preserve key annotations and source references to ensure auditability and traceability.
+- Do not misuse the rule set in ways that violate the spirit of open source or harm the public interest.
 
-Additionally, the Aegis project has enabled [GPG](https://gnupg.org) commit signing to ensure the authenticity and integrity of its codebase. You can verify each commit via GPG signatures to gain higher assurance that the code has not been tampered with.
+Additionally, the Aegis project has enabled [GPG](https://gnupg.org) commit signing to ensure the authenticity and integrity of its codebase. You may verify each commit through its GPG signature to gain higher assurance that the code has not been tampered with.
+
+To ensure the security, integrity, and long-term maintainability of the rule sets, we recommend using them via remote reference:
+
+> [!NOTE]
+> - Prefer using `RULE-SET` or the official configuration subscription links.
+> - Avoid directly copying and statically maintaining the full rule contents over time.
+> - If repackaging or integrating the rules, retain the original reference source to ensure users can obtain the latest version.
+
+> [!WARNING]
+> Directly copying and statically maintaining the rule contents may lead to:
+> - Version drift and rule invalidation;
+> - Missing critical security updates;
+> - Overlooking newly added threat intelligence or false-positive fixes;
+> - Increased maintenance burden and trust risks.
 
 ## 🙌 Community Support
 
