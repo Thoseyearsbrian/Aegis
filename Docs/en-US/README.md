@@ -312,7 +312,7 @@ To ensure the security, integrity, and long-term maintainability of the rule set
 > [!NOTE]
 > - Prefer using `RULE-SET` or the official configuration subscription links.
 > - Avoid directly copying and statically maintaining the full rule contents over time.
-> - If repackaging or integrating the rules, retain the original reference source to ensure users can obtain the latest version.
+> - If repackaging or integrating the rules, please retain the original reference source to ensure users can access the latest rule data.
 
 > [!WARNING]
 > Directly copying and statically maintaining the rule contents may lead to:
