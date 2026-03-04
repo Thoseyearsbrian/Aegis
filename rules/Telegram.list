@@ -4,7 +4,7 @@
 # - 特征：识别 Telegram 相关的域名、IP 地址段与 ASN
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-09
+# - 更新时间：2026-03-04
 
 # > Telegram 域名规则
 
@@ -45,14 +45,14 @@ IP-ASN,211157 # Telegram ASN (荷兰)
 
 # > Telegram IPv4
 
-IP-CIDR,91.108.0.0/16 # Telegram 核心通信网段
-IP-CIDR,149.154.160.0/20 # Telegram 通信备用网段
 IP-CIDR,5.28.192.0/18 # Telegram 历史使用通信段
+IP-CIDR,91.108.0.0/16 # Telegram 核心通信网段
+IP-CIDR,91.108.56.193/32 # Telegram 核心通信网段
+IP-CIDR,95.161.64.0/20 # Telegram 文件服务节点
 IP-CIDR,109.239.140.0/24 # Telegram CDN / 文件节点
 IP-CIDR,196.55.216.167/32 # Telegram 数据上传接口
 IP-CIDR,139.59.210.98/32 # Telegram 静态资源 CDN 节点
-IP-CIDR,95.161.64.0/20 # Telegram 文件服务节点
-IP-CIDR,91.108.56.193/32 # Telegram 核心通信网段
+IP-CIDR,149.154.160.0/20 # Telegram 通信备用网段
 IP-CIDR,149.154.167.92/32 # Telegram 通信备用网段
 
 # > Telegram IPv6
