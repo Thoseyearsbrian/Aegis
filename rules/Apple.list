@@ -271,10 +271,6 @@ DOMAIN-SUFFIX,classroom.apple.com # Apple Classroom 远程教学服务入口
 DOMAIN-SUFFIX,school.apple.com # Apple School 管理平台域名，用于设备配置与教学资源同步
 DOMAIN-SUFFIX,education.apple.com # Apple 教育资源主入口，涵盖课堂管理与学习平台服务
 
-# > Apple TV 在线流媒体服务
-
-DOMAIN-SUFFIX,tv.apple.com # Apple TV 官方流媒体平台域名，用于访问 Apple TV+ 内容、视频播放、节目订阅与媒体服务
-
 # > 已列入AdDomain.list明细:
 
 # DOMAIN-SUFFIX,api-adservices.apple.com # Apple 广告服务 API 接口（AdServices 平台，追踪归因用途）
