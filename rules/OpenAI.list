@@ -33,6 +33,7 @@ IP-CIDR,128.242.240.189/32 # ChatGPT Web 主站全球负载均衡节点
 IP-CIDR,185.45.6.57/32 # OpenAI iOS 客户端 ChatGPT 通信节点
 IP-CIDR,185.45.7.189/32 # ChatGPT 服务出口节点
 IP-CIDR,173.255.209.47/32 # OpenAI 基础设施通信节点
+IP-CIDR,104.16.251.55/32 # Cloudflare 边缘节点（ws.chatgpt.com）
 IP-CIDR,104.244.46.63/32 # OpenAI 实时对话相关通信节点
 IP-CIDR,69.171.247.32/32 # ChatGPT A/B 测试流量相关节点
 IP-CIDR,173.236.212.42/32 # ChatGPT 主域名通信节点
