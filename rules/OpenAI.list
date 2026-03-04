@@ -516,3 +516,7 @@ DOMAIN-SUFFIX,openclaw.ai # OpenClaw AI 官网与 AI 平台域名，用于访问
 # > Flowise AI 可视化 AI Agent 与 LLM 应用开发平台
 
 DOMAIN-SUFFIX,flowiseai.com # Flowise AI 开源生成式 AI 开发平台官网，用于构建 AI Agent、LLM 工作流与自动化智能应用
+
+# > Langflow AI Agent 与 LLM 工作流开发平台
+
+DOMAIN-SUFFIX,langflow.org # Langflow 开源低代码 AI 开发平台，用于构建 AI Agent、LLM 工作流与生成式 AI 应用
