@@ -278,6 +278,8 @@ To meet personal cybersecurity requirements, this project has been deeply custom
 
 [@mieqq](https://github.com/mieqq) 👉 A key contributor to the Chinese Surge community. The [mieqq repository](https://github.com/mieqq/mieqq) has consistently maintained a variety of rules and modules, playing a significant role in the early development and promotion of the ecosystem.
 
+[@Sukka](https://github.com/Sukka) 👉 A key developer in rule engineering and distribution infrastructure. The [ruleset.skk.moe](https://ruleset.skk.moe) project provides high-quality rule distribution services for multiple clients and has played an important role in the structural development of the ruleset ecosystem.
+
 The above acknowledgements are listed in no particular order. If you believe your work is missing from the acknowledgements, please feel free to contact me — I will add it promptly.
 
 ## 🔐 Disclaimer
