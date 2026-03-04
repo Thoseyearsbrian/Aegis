@@ -2707,3 +2707,7 @@ DOMAIN-SUFFIX,linux.cn # Linux.cn 官方网站，提供 Linux 及开源技术资
 # > openKylin 开放麒麟开源社区与操作系统官网
 
 DOMAIN-SUFFIX,openkylin.top # openKylin 社区官网，开放原子开源基金会孵化运营的开源桌面操作系统与社区平台，提供系统资讯、下载和技术交流
+
+# > 微信 12321 网络不良与垃圾信息举报受理中心
+
+DOMAIN-SUFFIX,wechat12321.cn # 微信平台配合12321网络不良与垃圾信息举报受理中心的官方通道，用于诈骗、骚扰及违法信息举报
