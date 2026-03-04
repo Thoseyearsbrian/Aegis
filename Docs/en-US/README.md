@@ -20,7 +20,7 @@ A personal digital firewall ruleset for Surge, designed to help users achieve pr
 </p>
 
 <p align="center">
-  [<a href="https://github.com/Thoseyearsbrian/Aegis/tree/main/Docs/zh-CN">简体中文</a>]
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/tree/main/Docs/zh-CN/README.md">简体中文</a>]
   [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-TC/README.md">繁體中文</a>]
   [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/en-US/README.md">English</a>]
 </p>
