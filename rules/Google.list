@@ -5,7 +5,7 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-24
+# - 更新时间：2026-03-04
 
 # > Google 各地区本地化搜索与服务入口域名
 
@@ -182,7 +182,7 @@ DOMAIN-SUFFIX,docs.google.com # Google Docs 主站，用于在线文档编辑、
 DOMAIN-SUFFIX,drive.google.com # Google Drive 文件存储服务，Google Docs 文档的实际载体与存储仓库
 DOMAIN-SUFFIX,googleusercontent.com # Google Docs/Drive 用户内容资源域名，用于图片、文件、附件资源加载
 DOMAIN-SUFFIX,doc-0o-xxxxxxxxx.googleusercontent.com # Google Drive 文档加载子域（文档内容分块传输常用）
-DOMAIN-SUFFIX,gstatic.com # Google 静态资源 CDN，用于 Docs 前端脚本、字体、图标与组件加载
+DOMAIN-SUFFIX,gstatic.com # Google 静态资源分发域名，用于加载字体、图标、脚本及服务相关静态内容
 DOMAIN-SUFFIX,workspace.google.com # Google Workspace 控制台与企业文档协作入口
 DOMAIN-SUFFIX,apis.google.com # Google Docs API 服务，用于第三方编辑、文件同步与权限接口
 DOMAIN-SUFFIX,accounts.google.com # Google 账号登录中心，用于 Google Docs 登录与鉴权流程
