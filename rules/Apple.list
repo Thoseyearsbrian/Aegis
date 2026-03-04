@@ -142,6 +142,9 @@ DOMAIN-SUFFIX,ampaeservices.com # Apple Media & Platform Authentication Services
 DOMAIN-SUFFIX,amp.shazam.com # Apple Shazam 音频识别服务接口域名，用于音乐识别请求、识别结果返回与功能相关的数据交互，属于 Apple 生态内的音频识别服务组件
 DOMAIN-SUFFIX,musicstatus.itunes.apple.com # Apple Music 服务状态与可用性检测接口，用于客户端检查 Apple Music 后端服务运行状态、区域可用性与故障提示
 DOMAIN-SUFFIX,amp-api-edge.music.apple.com # Apple Music AMP 边缘 API 接口，用于音乐内容元数据获取、播放策略下发与区域化服务调度
+DOMAIN-SUFFIX,vod-ap-aoc.tv.apple.com # Apple TV 视频点播（VOD）亚太接入节点，用于 Apple TV+ 等流媒体内容播放与分发
+DOMAIN-SUFFIX,play.itunes.apple.com # Apple iTunes / App Store 播放与内容访问接口，用于媒体内容（音乐、播客、预览等）的在线播放请求与访问控制
+DOMAIN-SUFFIX,is1-ssl.mzstatic.com # Apple 媒体资源 CDN（iTunes / App Store 图标与封面）
 
 # > 推送与通知服务（Push Services）
 

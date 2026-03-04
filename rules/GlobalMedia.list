@@ -42,9 +42,6 @@ DOMAIN-SUFFIX,aiv-cdn.net # Prime Video CDN
 
 DOMAIN-SUFFIX,tv.apple.com # Apple TV+ 正式域名
 DOMAIN-SUFFIX,apple.com.edgesuite.net # Apple TV+ CDN 辅助域名
-DOMAIN-SUFFIX,vod-ap-aoc.tv.apple.com # Apple TV 视频点播（VOD）亚太接入节点，用于 Apple TV+ 等流媒体内容播放与分发
-DOMAIN-SUFFIX,play.itunes.apple.com # Apple iTunes / App Store 播放与内容访问接口，用于媒体内容（音乐、播客、预览等）的在线播放请求与访问控制
-DOMAIN-SUFFIX,is1-ssl.mzstatic.com # Apple 媒体资源 CDN（iTunes / App Store 图标与封面）
 
 # > Netflix
 
