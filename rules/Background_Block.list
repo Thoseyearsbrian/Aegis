@@ -4,7 +4,7 @@
 # - 特征：封锁具备明确后台回连、配置上传或设备级通信特征的域名，涵盖 IoT、NAS、SDK 等设备类或应用组件，排除广告与行为分析类通信
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-27
+# - 更新时间：2026-03-04
 
 # > 后门控制与异常通信节点
 
@@ -16,7 +16,7 @@ IP-CIDR,162.159.61.3/32 # Cloudflare 边缘网络节点（AS13335），非应用
 IP-CIDR,172.64.41.3/32 # Cloudflare 边缘网络节点（AS13335），非应用层业务请求,AbuseIPDB 中存在多次 DDoS / 异常攻击流量相关记录
 
 
-# > 飞狐木马（Silver Fox / FoxMalware）后门控制与投递基础设施
+# > 银狐木马（Silver Fox / FoxMalware）后门控制与投递基础设施
 
 DOMAIN-SUFFIX,youdaoensk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
 DOMAIN-SUFFIX,youdaodfk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
