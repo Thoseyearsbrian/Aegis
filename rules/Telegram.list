@@ -1,10 +1,11 @@
 # > Telegram.list（Telegram 服务识别规则集）
 # - 分类：即时通信平台 / 加密通讯服务 / 策略分流用途
-# - 来源：Telegram 官方文档 / 实测抓包 / 安全社区研究报
+# - 来源：Telegram 官方文档 / 本地流量行为分析 / 手动校验 / 持续自维护
 # - 特征：识别 Telegram 相关的域名、IP 地址段与 ASN
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2026-03-04
+# - 校对时间：2026-03-04
 
 # > Telegram 域名规则
 
@@ -32,19 +33,19 @@ DOMAIN-SUFFIX,telegramdownload.com # Telegram 客户端下载安装地址
 
 DOMAIN-SUFFIX,api.swiftgram.app # Swiftgram 客户端 API 接口
 DOMAIN-SUFFIX,api.imem.app # iMe 客户端 API 接口
-DOMAIN-KEYWORD,nicegram # Nicegram 客户端相关通信域名
+DOMAIN-SUFFIX,nicegram.app # Nicegram 第三方 Telegram 客户端服务域名
 
 # > Telegram ASN
 
-IP-ASN,211157 # Telegram ASN（荷兰）
 IP-ASN,44907 # Telegram ASN（瑞士）
 IP-ASN,59930 # Telegram ASN（英国）
 IP-ASN,62014 # Telegram ASN（俄罗斯）
 IP-ASN,62041 # Telegram ASN（亚洲节点）
-IP-ASN,211157 # Telegram ASN (荷兰)
+IP-ASN,211157 # Telegram ASN（荷兰）
 
 # > Telegram IPv4
 
+IP-CIDR,91.105.192.0/23 # Telegram 官方服务器网段
 IP-CIDR,91.108.4.0/22 # Telegram 官方通信节点网段
 IP-CIDR,91.108.8.0/22 # Telegram 官方通信节点网段
 IP-CIDR,91.108.12.0/22 # Telegram 官方通信节点网段
@@ -52,8 +53,7 @@ IP-CIDR,91.108.16.0/22 # Telegram 官方通信节点网段
 IP-CIDR,91.108.20.0/22 # Telegram 官方通信节点网段
 IP-CIDR,91.108.56.0/22 # Telegram 官方通信节点网段
 IP-CIDR,149.154.160.0/20 # Telegram 官方通信与 API 服务网段
-IP-CIDR,91.105.192.0/23 # Telegram 官方服务器网段
-IP-CIDR,185.76.151.0/24 # Telegram 官方服务器节点
+IP-CIDR,185.76.151.0/24 # Telegram 官方服务器网段
 
 # > Telegram IPv6
 
@@ -62,4 +62,3 @@ IP-CIDR6,2001:b28:f23c::/48 # Telegram 官方 IPv6 通信节点
 IP-CIDR6,2001:b28:f23d::/48 # Telegram 官方 IPv6 通信节点
 IP-CIDR6,2001:b28:f23f::/48 # Telegram 官方 IPv6 通信节点
 IP-CIDR6,2a0a:f280::/32 # Telegram 官方 IPv6 网络段
-
