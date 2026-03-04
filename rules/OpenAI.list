@@ -4,7 +4,7 @@
 # - 特征：覆盖主流生成式人工智能平台与大模型服务域名，包括 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等生态体系
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-03
+# - 更新时间：2026-03-04
 
 # > OpenAI Chat 系列
 
@@ -500,14 +500,6 @@ DOMAIN-SUFFIX,ai.palantir.com # Palantir AI 产品与能力展示子域，用于
 # > Nrich.ai 智能推荐 / AI 服务平台
 
 DOMAIN-SUFFIX,serve.nrich.ai # Nrich.ai 前端服务与 API 接入域名，用于智能推荐、AI 内容生成与业务请求处理
-
-# > Clawd Bot 项目官网
-
-DOMAIN-SUFFIX,clawd.bot # Clawd Bot 项目官网与文档站点
-
-# > Molt Bot 项目官网
-
-DOMAIN-SUFFIX,molt.bot # Molt Bot 项目官网与文档站点（原 Clawd Bot，更名后官方入口）
 
 # > OpenCode AI 平台
 
