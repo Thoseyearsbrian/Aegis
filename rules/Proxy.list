@@ -4,7 +4,7 @@
 # - 特征：涵盖需依赖代理访问的常用服务域名，聚焦稳定、高频、主流平台
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-03
+# - 更新时间：2026-03-04
 
 # > Speedtest 网络测速平台
 
@@ -22,6 +22,10 @@ DOMAIN-SUFFIX,speedtest.hicountry.net.prod.hosts.ooklaserver.net # HiCountry ISP
 DOMAIN-SUFFIX,yourspeed.allwest.com # AllWest 通信测速子域，用于测速服务 
 DOMAIN-SUFFIX,speedtest.wifipros.co.prod.hosts.ooklaserver.net # WifiPros 网络测速节点，支持 Ookla 测试平台 
 IP-CIDR,66.205.243.2 # Speedtest Fallback 测速节点（Rackspace 托管），使用端口8080用于测速验证-待持续验证
+
+# > OpenSpeedTest 网络测速服务
+
+DOMAIN-SUFFIX,openspeedtest.com # OpenSpeedTest 网络测速平台，用于浏览器 WebSocket / HTML5 带宽测速与网络性能测试
 
 # > Test-IPv6 服务域名（IPv6 网络连通性测试平台）
 
