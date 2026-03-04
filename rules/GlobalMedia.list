@@ -5,7 +5,7 @@
 # - 说明：YouTube 域名已迁移至 Google.list 统一管理
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-08
+# - 更新时间：2026-03-04
 
 # > TikTok 全球媒体与平台通信基础设施
 
@@ -42,6 +42,7 @@ DOMAIN-SUFFIX,aiv-cdn.net # Prime Video CDN
 
 DOMAIN-SUFFIX,tv.apple.com # Apple TV+ 正式域名
 DOMAIN-SUFFIX,apple.com.edgesuite.net # Apple TV+ CDN 辅助域名
+DOMAIN-SUFFIX,vod-ap-aoc.tv.apple.com # Apple TV 视频点播（VOD）亚太接入节点，用于 Apple TV+ 等流媒体内容播放与分发
 
 # > Netflix
 
