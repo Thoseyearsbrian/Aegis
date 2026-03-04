@@ -115,7 +115,6 @@ DOMAIN-SUFFIX,applemusic.com # Apple Music 官方服务
 DOMAIN-SUFFIX,applemusicconnect.com # Apple Music 社交功能（历史服务）
 DOMAIN-SUFFIX,apple-livephotoskit.com # Live Photos 相关服务
 DOMAIN-SUFFIX,amp-api-edge.apps.apple.com # Apple AMP 接口域名，用于 App Store 内容推荐与动态数据加载服务
-DOMAIN-SUFFIX,is1-ssl.mzstatic.com # Apple 媒体资源 CDN（iTunes / App Store 图标与封面）
 DOMAIN-SUFFIX,bag.itunes.apple.com # Apple 服务配置同步接口，用于 App Store 与广告推荐逻辑初始化
 DOMAIN-SUFFIX,apptrailers.itunes.apple.com # Apple iTunes 内容服务，提供 App Store 应用预览视频
 DOMAIN-SUFFIX,p21-buy.itunes.apple.com # Apple App Store / iTunes 购买请求与支付处理节点
