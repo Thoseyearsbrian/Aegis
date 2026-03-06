@@ -147,6 +147,7 @@ DOMAIN-SUFFIX,accounts.google.com # Google 账号认证
 DOMAIN-SUFFIX,oauth2.googleapis.com # Google OAuth2 授权
 DOMAIN-SUFFIX,dns.google # Google 加密 DNS 服务
 DOMAIN-SUFFIX,recaptcha.net # Google reCAPTCHA 验证服务
+DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com # Google Safe Browsing 隐私查询中继
 
 # > Google Merchant Center（Google 商户平台）
 
