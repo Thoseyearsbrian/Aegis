@@ -1,34 +1,32 @@
 # > Microsoft.list（微软服务识别规则集）
 # - 分类：Microsoft 核心服务 / 云办公组件 / 网络通信平台
-# - 来源：微软官方文档 / 实测抓包 / 社区整理
+# - 来源：官方文档 / 本地流量行为分析 / 手动校验 / 持续自维护
 # - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-16
+# - 更新时间：2026-03-06
+# - 校对时间：2026-03-06
 
 # > Microsoft Visual Studio Code 主程序与资源服务
 
 DOMAIN-SUFFIX,update.code.visualstudio.com # VS Code 自动更新服务器 
-DOMAIN-SUFFIX,vscode‑cdn.net # VS Code 静态资源与扩展下载 CDN 域名
-DOMAIN-SUFFIX,visualstudio.com # 微软 Visual Studio 官方站点 
-DOMAIN-SUFFIX,gallery.vsassets.io # VS Code 插件库主域，用于插件元数据分发与管理
-DOMAIN-SUFFIX,gallerycdn.vsassets.io # VS Code 插件 CDN 加速域名，用于插件资源下载
+DOMAIN-SUFFIX,vscode-cdn.net # VS Code 静态资源与扩展下载 CDN 域名
+DOMAIN-SUFFIX,gallery.vsassets.io # VS Code 插件库主域
+DOMAIN-SUFFIX,gallerycdn.vsassets.io # VS Code 插件 CDN 加速域名
 DOMAIN-SUFFIX,main.vscode-cdn.net # VS Code 官方 CDN 
-DOMAIN-SUFFIX,vscode-unpkg.net # Visual Studio Code 插件资源镜像域名，用于从 unpkg CDN 拉取扩展资源，可能用于中国大陆用户访问优化
-DOMAIN-SUFFIX,code.visualstudio.com # Visual Studio Code 官方网站与产品入口
-DOMAIN-SUFFIX,vscode.dev # 微软官方 VS Code 在线 IDE 平台，用于浏览器代码编辑与开发环境
-IP-CIDR,13.107.253.49/32 # Microsoft 更新服务节点，对应 VS Code Electron 客户端更新通信
+DOMAIN-SUFFIX,vscode-unpkg.net # VS Code 插件资源镜像 CDN
+DOMAIN-SUFFIX,code.visualstudio.com # VS Code 官方站点
+DOMAIN-SUFFIX,vscode.dev # VS Code Web 在线 IDE
 
-# Microsoft 翻译相关
+# > Microsoft Translator Services（Microsoft 翻译服务）
 
 DOMAIN-SUFFIX,api.cognitive.microsoft.com # 微软翻译接口
 DOMAIN-SUFFIX,microsofttranslator.com # 微软翻译主域
-DOMAIN-SUFFIX,api.translate.microsoft.com # 微软翻译 API 接口，用于机器翻译功能请求
-DOMAIN-SUFFIX,cdn.translate.microsoft.com # 微软翻译 CDN 资源分发域名，用于加载翻译结果相关静态内容
-DOMAIN-SUFFIX,edge.microsoft.com # Edge 浏览器相关内容
+DOMAIN-SUFFIX,api.translate.microsoft.com # 微软翻译 API 接口
+DOMAIN-SUFFIX,cdn.translate.microsoft.com # 微软翻译 CDN 资源分发域名
 DOMAIN-SUFFIX,translatoruser.intl.microsoft.com # 微软翻译服务用户会话管理接口域名
 
-# > 核心服务（Core Services）
+# > Microsoft Core Services（Microsoft 核心服务）
 
 DOMAIN-SUFFIX,microsoft.com # 微软主域名
 DOMAIN-SUFFIX,windows.com # Windows 系统相关服务
@@ -36,65 +34,66 @@ DOMAIN-SUFFIX,msn.com # MSN 服务平台
 DOMAIN-SUFFIX,live.com # 微软通用账号与登录
 DOMAIN-SUFFIX,outlook.com # Outlook 邮箱服务
 DOMAIN-SUFFIX,hotmail.com # Hotmail 邮箱服务
-DOMAIN-SUFFIX,office.com # Office 官方网站
 
-# > Azure 云服务（Azure Cloud）
+# > Microsoft Azure Cloud（Microsoft Azure 云服务）
 
-DOMAIN-SUFFIX,azure.com # Microsoft Azure 云平台
+DOMAIN-SUFFIX,azure.com # Microsoft Azure 品牌与产品站点
 DOMAIN-SUFFIX,azureedge.net # Azure CDN 辅助域名
+DOMAIN-SUFFIX,azure-apim.net # Azure API Management 服务域名
+DOMAIN-SUFFIX,azurewebsites.net # Azure App Service 网站托管平台
 DOMAIN-SUFFIX,azurefd.net # Azure Front Door 服务
 DOMAIN-SUFFIX,azuredns-cloud.net # Azure DNS 服务
 DOMAIN-SUFFIX,trafficmanager.net # Azure 流量管理器
 DOMAIN-SUFFIX,cloudapp.net # Azure 云应用托管
-DOMAIN-SUFFIX,visualstudio.com # Visual Studio 在线服务
 DOMAIN-SUFFIX,windowsazure.com # Windows Azure 旧版域名
-DOMAIN-SUFFIX,skypeassets.com # Skype 静态资源（Azure 托管）
-DOMAIN-SUFFIX,azure.microsoft.com # Microsoft Azure 官方产品与文档站点子域，用于服务介绍、定价、文档与产品导航
+DOMAIN-SUFFIX,azure.microsoft.com # Azure 官方站点与文档
 
-# > Office 365 / Microsoft 365 服务
+# > Microsoft 365 Platform（Microsoft 365 办公平台）
 
-DOMAIN-SUFFIX,office.com # Microsoft 365 统一入口，用于在线版 Word/Excel/PowerPoint 及账户管理
-DOMAIN-SUFFIX,office365.com # Office 365 官方门户，用于订阅管理与企业入口
-DOMAIN-SUFFIX,office.net # Office 365 / M365 服务资源域名，用于加载应用组件与相关服务
-DOMAIN-SUFFIX,sharepoint.com # SharePoint 协作平台域名，用于文档管理、团队站点与企业内部协作
-DOMAIN-SUFFIX,onenote.com # Microsoft OneNote 在线服务域名，用于笔记同步与内容存储
-DOMAIN-SUFFIX,sway.com # Microsoft Sway 在线演示工具，用于创建网页式演示文稿
-DOMAIN-SUFFIX,yammer.com # Microsoft Yammer 企业社交平台，用于组织内部沟通与社区建设
-DOMAIN-SUFFIX,res.public.onecdn.static.microsoft # Microsoft OneCDN 公共静态资源节点，用于 Windows/Office/Store 等产品的静态内容分发
-DOMAIN-SUFFIX,roaming.svc.cloud.microsoft # Microsoft 云漫游服务接口，用于 Office/Edge/Windows 的跨设备设置同步
+DOMAIN-SUFFIX,office.com # Microsoft 365 官方入口
+DOMAIN-SUFFIX,office365.com # Office 365 官方门户
+DOMAIN-SUFFIX,microsoft365.com # Microsoft 365 官方门户与产品入口域名
+DOMAIN-SUFFIX,onmicrosoft.com # Microsoft 365 租户默认域
+DOMAIN-SUFFIX,cloud.microsoft # Microsoft 云服务域
+DOMAIN-SUFFIX,msocdn.com # Microsoft Office CDN
+DOMAIN-SUFFIX,office.net # Microsoft 365 服务资源域
+DOMAIN-SUFFIX,sharepoint.com # SharePoint 协作平台
+DOMAIN-SUFFIX,onenote.com # OneNote 在线服务
+DOMAIN-SUFFIX,sway.com # Microsoft Sway 演示服务
+DOMAIN-SUFFIX,yammer.com # Yammer 企业社交平台
+DOMAIN-SUFFIX,onecdn.static.microsoft # Microsoft OneCDN 静态资源网络
 
-# > OneDrive 云存储服务
+# > OneDrive Cloud Storage（OneDrive 云存储服务）
 
 DOMAIN-SUFFIX,onedrive.com # 微软云存储服务 OneDrive
 DOMAIN-SUFFIX,1drv.com # OneDrive 缩短域名
 DOMAIN-SUFFIX,storage.live.com # OneDrive 文件托管服务
 
-# > Microsoft Teams
+# > Microsoft Teams Collaboration Platform（Microsoft Teams 协作平台）
 
 DOMAIN-SUFFIX,teams.microsoft.com # Microsoft Teams 协作平台
 DOMAIN-SUFFIX,skypeforbusiness.com # Skype for Business 旧版 Teams 接入
 DOMAIN-SUFFIX,lync.com # Lync 企业通信（Teams 前身）
 
-# > Skype 通讯服务
+# > Skype Communication Services（Skype 通讯服务）
 
 DOMAIN-SUFFIX,skype.com # Skype 主服务域名
 DOMAIN-SUFFIX,skypeassets.com # Skype 静态资源
-DOMAIN-SUFFIX,skypeforbusiness.com # Skype 企业版本（已并入 Teams）
 
-# > Microsoft Edge 浏览器服务
+# > Microsoft Edge Browser Services（Microsoft Edge 浏览器服务）
 
 DOMAIN-SUFFIX,edge.microsoft.com # Edge 浏览器服务域名
 DOMAIN-SUFFIX,edgeservices.bing.com # Edge 内置搜索服务
 DOMAIN-SUFFIX,msedge.net # Edge 更新与辅助资源
 
-# > Bing 搜索服务
+# > Bing Search Services（Bing 搜索服务）
 
 DOMAIN-SUFFIX,bing.com # 微软 Bing 搜索引擎
 DOMAIN-SUFFIX,bing.net # Bing CDN 与辅助资源
 DOMAIN-SUFFIX,api.bing.com # Bing 搜索 API 接口
 DOMAIN-SUFFIX,cdn.bing.com # Bing 静态资源
 
-# > Windows 更新与激活服务
+# > Windows Update Services（Windows 更新服务）
 
 DOMAIN-SUFFIX,windowsupdate.com # Windows 更新服务
 DOMAIN-SUFFIX,update.microsoft.com # 微软更新中心
@@ -102,7 +101,7 @@ DOMAIN-SUFFIX,msftconnecttest.com # Windows 网络连接测试域
 DOMAIN-SUFFIX,msftncsi.com # Windows 网络状态检测服务
 DOMAIN-SUFFIX,windowsupdate.microsoft.com # 旧版更新服务
 
-# > 开发者 / 技术支持 / 文档（Developers & Docs）
+# > Microsoft Developer Platform（Microsoft 开发者平台）
 
 DOMAIN-SUFFIX,dev.microsoft.com # 微软开发者中心
 DOMAIN-SUFFIX,learn.microsoft.com # Microsoft Learn 学习平台
@@ -113,30 +112,139 @@ DOMAIN-SUFFIX,visualstudio.com # Visual Studio 开发平台
 DOMAIN-SUFFIX,nuget.org # 微软开源包管理器 NuGet
 DOMAIN-SUFFIX,codeplex.com # 旧版微软开源项目托管平台
 
-# > 其他服务（Miscellaneous）
+# > Miscellaneous Microsoft Services（其他 Microsoft 服务）
 
 DOMAIN-SUFFIX,microsoftonline.com # 微软在线认证服务
 DOMAIN-SUFFIX,microsoftonline-p.com # 微软用户账号域
 DOMAIN-SUFFIX,microsoftstore.com # Microsoft 官方商店
-DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,msappproxy.net # 微软应用代理服务
 DOMAIN-SUFFIX,windows.net # 微软通用服务域名
 DOMAIN-SUFFIX,akadns.net # 微软全球 CDN 网络域
 
-# > 头像服务（可选放行）
+# > Microsoft Authentication Assets（Microsoft 身份验证与登录资源）
 
-DOMAIN-SUFFIX,gravatar.com # Gravatar 头像服务，用于在多个网站上显示与用户邮箱绑定的个人头像 
+DOMAIN-SUFFIX,acctcdn.msftauth.net # Microsoft 身份验证静态资源域名
+DOMAIN-SUFFIX,logincdn.msftauth.net # Microsoft 登录界面资源域名
+DOMAIN-SUFFIX,graph.microsoft.com # Microsoft Graph API 统一接口
 
-# > Microsoft 身份验证与登录资源域名（Authentication & Login Assets）
+# > Microsoft Static Assets（Microsoft 静态资源服务）
 
-DOMAIN-SUFFIX,acctcdn.msftauth.net # Microsoft 身份验证静态资源域名，用于加载登录页面样式与脚本资源 
-DOMAIN-SUFFIX,logincdn.msftauth.net # Microsoft 登录界面资源域名，用于身份验证流程中的界面渲染与交互组件加载
+DOMAIN-SUFFIX,c.s-microsoft.com # 微软内容分发节点域名
+DOMAIN-SUFFIX,store-images.s-microsoft.com # 微软商店图像资源域名
 
-# > Microsoft 静态内容加载与商店图像域名
+# > Microsoft Power BI Platform（Microsoft Power BI 数据分析平台）
 
-DOMAIN-SUFFIX,c.s-microsoft.com # 微软内容分发节点域名，用于加载 JS/CSS 等前端静态资源，常见于 Microsoft Docs 与 Store 页面
-DOMAIN-SUFFIX,store-images.s-microsoft.com # 微软商店图像资源域名，用于加载产品图像与展示用素材
+DOMAIN-SUFFIX,powerbi.com # Microsoft Power BI 官方云服务域名
 
-# > Microsoft Power BI 数据分析与商业智能平台
+# > Microsoft Identity & Authentication（Microsoft 身份认证服务）
 
-DOMAIN-SUFFIX,powerbi.com # Microsoft Power BI 官方云服务域名，用于数据可视化、报表分析与企业级商业智能访问
+DOMAIN-SUFFIX,login.live.com # Microsoft Live 登录入口
+DOMAIN-SUFFIX,login.windows.net # Microsoft Azure AD 登录服务
+DOMAIN-SUFFIX,sts.windows.net # Microsoft 身份验证服务（Azure AD）
+
+# > Microsoft Telemetry & Diagnostics（Microsoft 诊断与遥测服务）
+
+DOMAIN-SUFFIX,settings-win.data.microsoft.com # Windows 诊断与遥测服务
+DOMAIN-SUFFIX,vortex.data.microsoft.com # Microsoft 数据收集服务
+
+# > Microsoft 365 Service Network IPv4（Microsoft 365 官方服务网络 IPv4）
+# - 参考文档：https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges
+# - 校对时间：2026-03-06
+
+IP-CIDR,13.107.6.152/31 # Microsoft 365 服务网络
+IP-CIDR,13.107.18.10/31 # Microsoft 365 服务网络
+IP-CIDR,13.107.128.0/22 # Microsoft 365 服务网络
+IP-CIDR,23.103.160.0/20 # Microsoft 365 服务网络
+IP-CIDR,40.96.0.0/13 # Microsoft 365 服务网络
+IP-CIDR,40.104.0.0/15 # Microsoft 365 服务网络
+IP-CIDR,52.96.0.0/14 # Microsoft 365 服务网络
+IP-CIDR,131.253.33.215/32 # Microsoft 365 服务网络
+IP-CIDR,132.245.0.0/16 # Microsoft 365 服务网络
+IP-CIDR,150.171.32.0/22 # Microsoft 365 服务网络
+IP-CIDR,204.79.197.215/32 # Microsoft 365 服务网络
+IP-CIDR,40.92.0.0/15 # Microsoft 365 Exchange Online 邮件安全网络
+IP-CIDR,40.107.0.0/16 # Microsoft 365 Exchange Online 邮件安全网络
+IP-CIDR,52.100.0.0/14 # Microsoft 365 Exchange Online 邮件安全网络
+IP-CIDR,52.238.78.88/32 # Microsoft 365 Exchange Online 邮件安全节点
+IP-CIDR,104.47.0.0/17 # Microsoft 365 Exchange Online 邮件安全网络
+IP-CIDR,52.112.0.0/14 # Microsoft Teams 实时通信网络
+IP-CIDR,52.122.0.0/15 # Microsoft Teams 实时通信网络
+IP-CIDR,13.107.136.0/22 # Microsoft SharePoint Online 网络
+IP-CIDR,40.108.128.0/17 # Microsoft SharePoint Online 网络
+IP-CIDR,52.104.0.0/14 # Microsoft SharePoint Online 网络
+IP-CIDR,104.146.128.0/17 # Microsoft SharePoint Online 网络
+IP-CIDR,150.171.40.0/22 # Microsoft SharePoint Online 网络
+IP-CIDR,13.107.6.171/32 # Microsoft 365 Office Online 节点
+IP-CIDR,13.107.18.15/32 # Microsoft 365 Office Online 节点
+IP-CIDR,13.107.140.6/32 # Microsoft 365 Office Online 节点
+IP-CIDR,52.108.0.0/14 # Microsoft 365 Office Online 网络
+IP-CIDR,52.244.37.168/32 # Microsoft 365 Office Online 节点
+IP-CIDR,20.20.32.0/19 # Microsoft 身份认证服务网络
+IP-CIDR,20.190.128.0/18 # Microsoft 身份认证服务网络
+IP-CIDR,20.231.128.0/19 # Microsoft 身份认证服务网络
+IP-CIDR,40.126.0.0/18 # Microsoft 身份认证服务网络
+IP-CIDR,13.107.6.192/32 # Microsoft 安全与合规中心节点
+IP-CIDR,13.107.9.192/32 # Microsoft 安全与合规中心节点
+
+# > Microsoft 365 Service Network IPv6（Microsoft 365 官方服务网络 IPv6）
+
+IP-CIDR6,2603:1006::/40 # Microsoft 365 服务网络
+IP-CIDR6,2603:1016::/36 # Microsoft 365 服务网络
+IP-CIDR6,2603:1026::/36 # Microsoft 365 服务网络
+IP-CIDR6,2603:1036::/36 # Microsoft 365 服务网络
+IP-CIDR6,2603:1046::/36 # Microsoft 365 服务网络
+IP-CIDR6,2603:1056::/36 # Microsoft 365 服务网络
+IP-CIDR6,2620:1ec:4::152/128 # Microsoft 365 服务节点
+IP-CIDR6,2620:1ec:4::153/128 # Microsoft 365 服务节点
+IP-CIDR6,2620:1ec:c::10/128 # Microsoft 365 服务节点
+IP-CIDR6,2620:1ec:c::11/128 # Microsoft 365 服务节点
+IP-CIDR6,2620:1ec:d::10/128 # Microsoft 365 服务节点
+IP-CIDR6,2620:1ec:d::11/128 # Microsoft 365 服务节点
+IP-CIDR6,2620:1ec:8f0::/46 # Microsoft 365 服务网络
+IP-CIDR6,2620:1ec:900::/46 # Microsoft 365 服务网络
+IP-CIDR6,2620:1ec:a92::152/128 # Microsoft 365 服务节点
+IP-CIDR6,2620:1ec:a92::153/128 # Microsoft 365 服务节点
+IP-CIDR6,2a01:111:f400::/48 # Microsoft Exchange Online 网络
+IP-CIDR6,2a01:111:f403::/48 # Microsoft Exchange Online 网络
+IP-CIDR6,2603:1063::/38 # Microsoft Teams 实时通信网络
+IP-CIDR6,2603:1027::/48 # Microsoft Teams 服务网络
+IP-CIDR6,2603:1037::/48 # Microsoft Teams 服务网络
+IP-CIDR6,2603:1047::/48 # Microsoft Teams 服务网络
+IP-CIDR6,2603:1057::/48 # Microsoft Teams 服务网络
+IP-CIDR6,2620:1ec:6::/48 # Microsoft Teams 服务网络
+IP-CIDR6,2620:1ec:40::/42 # Microsoft Teams 服务网络
+IP-CIDR6,2603:1061:1300::/40 # Microsoft SharePoint Online 网络
+IP-CIDR6,2603:1063:6000::/35 # Microsoft SharePoint Online 网络
+IP-CIDR6,2620:1ec:8f8::/46 # Microsoft SharePoint Online 网络
+IP-CIDR6,2620:1ec:908::/46 # Microsoft SharePoint Online 网络
+IP-CIDR6,2a01:111:f402::/48 # Microsoft SharePoint Online 网络
+IP-CIDR6,2603:1006:1400::/40 # Microsoft Office Online 网络
+IP-CIDR6,2603:1016:2400::/40 # Microsoft Office Online 网络
+IP-CIDR6,2603:1026:2400::/40 # Microsoft Office Online 网络
+IP-CIDR6,2603:1036:2400::/40 # Microsoft Office Online 网络
+IP-CIDR6,2603:1046:1400::/40 # Microsoft Office Online 网络
+IP-CIDR6,2603:1056:1400::/40 # Microsoft Office Online 网络
+IP-CIDR6,2603:1063:2000::/38 # Microsoft Office Online 网络
+IP-CIDR6,2620:1ec:c::15/128 # Microsoft Office Online 节点
+IP-CIDR6,2620:1ec:8fc::6/128 # Microsoft Office Online 节点
+IP-CIDR6,2620:1ec:a92::171/128 # Microsoft Office Online 节点
+IP-CIDR6,2a01:111:f100:2000::a83e:3019/128 # Microsoft Office Online 节点
+IP-CIDR6,2a01:111:f100:2002::8975:2d79/128 # Microsoft Office Online 节点
+IP-CIDR6,2a01:111:f100:2002::8975:2da8/128 # Microsoft Office Online 节点
+IP-CIDR6,2a01:111:f100:7000::6fdd:6cd5/128 # Microsoft Office Online 节点
+IP-CIDR6,2a01:111:f100:a004::bfeb:88cf/128 # Microsoft Office Online 节点
+IP-CIDR6,2603:1006:2000::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2603:1007:200::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2603:1016:1400::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2603:1017::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2603:1026:3000::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2603:1027:1::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2603:1036:3000::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2603:1037:1::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2603:1046:2000::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2603:1047:1::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2603:1056:2000::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2603:1057:2::/48 # Microsoft 身份认证服务网络
+IP-CIDR6,2620:1ec:4::192/128 # Microsoft 安全与合规中心节点
+IP-CIDR6,2620:1ec:a92::192/128 # Microsoft 安全与合规中心节点
+
