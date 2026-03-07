@@ -6822,9 +6822,6 @@ DOMAIN-SUFFIX,rawgithub.com # GitHub Raw 文件镜像站
 DOMAIN-SUFFIX,githubmemory.com # GitHub 社区镜像站
 DOMAIN-SUFFIX,github.global.ssl.fastly.net # Fastly CDN 节点（GitHub 静态资源分发）
 DOMAIN-SUFFIX,github.map.fastly.net # Fastly CDN 节点（GitHub 静态资源分发）
-DOMAIN-SUFFIX,github-production-release-asset-*.s3.amazonaws.com # GitHub Release 资产存储（AWS S3 后端节点）
-DOMAIN-SUFFIX,github-production-user-asset-*.s3.amazonaws.com # GitHub 用户上传文件存储（Issue / PR 附件）
-DOMAIN-SUFFIX,github-production-repository-file-*.s3.amazonaws.com # GitHub 仓库文件对象存储（AWS S3 分发节点）
 DOMAIN-SUFFIX,raw.githubusercontent.com.cdn.cloudflare.net # GitHub Raw 内容 CDN 加速
 
 # > 第三方博客网站
