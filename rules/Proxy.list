@@ -4,7 +4,7 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-06
+# - 更新时间：2026-03-07
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -6813,6 +6813,19 @@ DOMAIN-SUFFIX,gravatar.com # Gravatar 头像服务，用于在多个网站上显
 # > WorldMonitor 网络信息与数据展示平台
 
 DOMAIN-SUFFIX,worldmonitor.app # WorldMonitor 在线信息展示与数据可视化平台域名，用于提供全球事件与统计信息展示服务
+
+# > GitHub Third-Party Services（GitHub 生态第三方服务）
+
+DOMAIN-SUFFIX,jsdelivr.net # jsDelivr 开源项目 CDN
+DOMAIN-SUFFIX,recloudstream.github.io # GitHub Pages 项目站点
+DOMAIN-SUFFIX,rawgithub.com # GitHub Raw 文件镜像站
+DOMAIN-SUFFIX,githubmemory.com # GitHub 社区镜像站
+DOMAIN-SUFFIX,github.global.ssl.fastly.net # Fastly CDN 节点（GitHub 静态资源分发）
+DOMAIN-SUFFIX,github.map.fastly.net # Fastly CDN 节点（GitHub 静态资源分发）
+github-production-release-asset-*.s3.amazonaws.com # GitHub Release 资产存储（AWS S3 后端节点）
+github-production-user-asset-*.s3.amazonaws.com # GitHub 用户上传文件存储（Issue / PR 附件）
+github-production-repository-file-*.s3.amazonaws.com # GitHub 仓库文件对象存储（AWS S3 分发节点）
+DOMAIN-SUFFIX,raw.githubusercontent.com.cdn.cloudflare.net # GitHub Raw 内容 CDN 加速
 
 # > 第三方博客网站
 

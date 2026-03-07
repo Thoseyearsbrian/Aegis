@@ -1345,3 +1345,8 @@ DOMAIN-SUFFIX,qualaroo.com # Qualaroo 全栈用户反馈与行为调查平台域
 # > PDST 用户行为追踪与广告再营销脚本资源
 
 DOMAIN-SUFFIX,pdst.fm # 第三方追踪与再营销资源域名
+
+# > GitHub 安全遥测与事件收集服务
+
+DOMAIN-SUFFIX,collector.github.com # GitHub 安全遥测服务
+DOMAIN-SUFFIX,collector-cdn.github.com # GitHub 遥测数据接收
