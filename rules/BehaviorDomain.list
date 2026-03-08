@@ -1355,3 +1355,7 @@ DOMAIN-SUFFIX,pdst.fm # 第三方追踪与再营销资源域名
 
 DOMAIN-SUFFIX,collector.github.com # GitHub 安全遥测服务
 DOMAIN-SUFFIX,collector-cdn.github.com # GitHub 遥测数据接收
+
+# > Anthropic / Claude Telemetry Services（Claude 行为遥测与事件上报服务）
+
+DOMAIN-SUFFIX,events.claude.ai # Claude Telemetry 事件上报与行为日志采集接口
