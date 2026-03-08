@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-07
+# - 更新时间：2026-03-08
 
 # > WeChat 数据统计与遥测
 
@@ -24,15 +24,18 @@ DOMAIN-SUFFIX,oth.str.mdt.qq.com # SDK 数据上传接口（STR 通道）
 
 # > Apple 行为遥测服务
 
-DOMAIN-SUFFIX,analytics.edge.apple.com # Apple 分析数据上报服务
-DOMAIN-SUFFIX,feedbackws.apple.com # 用户反馈与错误日志上报
-DOMAIN-SUFFIX,crashlytics.apple.com # 应用崩溃日志收集服务
-DOMAIN-SUFFIX,supportmetrics.apple.com # Apple 官方支持服务指标与性能监测子域（屏蔽可能影响 Apple 支持页面网络测速与在线诊断功能）
-DOMAIN-SUFFIX,notes-analytics-events.apple.com # 备忘录分析事件接口
-DOMAIN-SUFFIX,weather-analytics-events.apple.com # 天气应用分析事件接口
-DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析域名
-DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用数据分析域名
-DOMAIN-SUFFIX,securemetrics.apple.com # 安全统计遥测服务
+DOMAIN-SUFFIX,analytics.edge.apple.com # Apple 遥测与分析数据上报
+DOMAIN-SUFFIX,feedbackws.apple.com # Apple 用户反馈上报服务
+DOMAIN-SUFFIX,crashlytics.apple.com # Apple 崩溃日志收集服务
+DOMAIN-SUFFIX,supportmetrics.apple.com # Apple 支持服务遥测指标
+DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple Notes 分析事件上报
+DOMAIN-SUFFIX,weather-analytics-events.apple.com # Apple Weather 分析事件上报
+DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析服务
+DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用遥测统计
+DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全遥测统计服务
+DOMAIN-SUFFIX,metrics.apple.com # Apple 网络与性能诊断接口
+DOMAIN-SUFFIX,experiments.apple.com # Apple 功能实验平台
+DOMAIN-SUFFIX,news-events.apple.com # 新闻模块事件数据域名
 
 # > 阿里系遥测接口
 
