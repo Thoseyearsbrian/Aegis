@@ -1,66 +1,120 @@
-# > WeChat.list（微信相关域名规则集）
-# - 分类：即时通信平台 / 加密通讯服务 / 策略分流用途
-# - 来源：微信客户端抓包分析 / 实机通信日志 / 安全社区研究报告
-# - 特征：识别微信主域名、通信节点、功能接口与遥测通道，覆盖核心服务、SDK 回传、小程序行为及长连接机制
-# - 说明：微信域名结构庞大，通信行为复杂，部分服务采用自研加密协议 mmtls（区别于标准 HTTPS），具有规避检测与指纹识别的特征。因此本规则集单独列出，便于持续追踪、行为识别与分类更新。
+# > WeChat.list（微信平台网络服务域名）
+# - 分类：即时通信平台 / 移动社交服务
+# - 来源：官方文档 / 本地流量分析 / 手动校验 / 持续维护
+# - 特征：覆盖微信核心通信、登录接口、小程序、支付及多媒体资源服务
+# - 说明：微信客户端大量使用自研 mmtls 长连接通信协议，部分服务节点通过自有 DNS 与 CDN 分发
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-27
+# - 更新时间：2026-03-08
+# - 校对时间：2026-03-08
 
-# > 核心通信服务（Core Communication）
+# > Core Communication（核心通信服务）
 
-DOMAIN-SUFFIX,weixin.qq.com # 微信主域名，承载登录、消息同步、好友关系与核心通信功能
-DOMAIN-SUFFIX,connect.wechat.com # 微信账号连接与多端会话管理服务组件
-DOMAIN-SUFFIX,routerlong.weixin.qq.com # 微信多地域长连接接入服务（mmtls 主通道）
-DOMAIN-SUFFIX,notifylong.weixin.qq.com # 微信长连接通知备用入口，用于消息唤醒与状态同步
-DOMAIN-SUFFIX,es.wx.qq.com # 微信客户端安全检测与运行状态验证接口
-DOMAIN-SUFFIX,add-pcdnwxlogin.teg.tencent-cloud.net # 微信登录加速与边缘接入服务域名
-DOMAIN-SUFFIX,sglong.weixin.qq.com # 微信海外备用长连接节点（新加坡）
-DOMAIN-SUFFIX,frlong.weixin.qq.com # 微信海外备用长连接节点（法国）
-DOMAIN-SUFFIX,dns.weixin.qq.com.cn # 微信自有 DNS 解析节点，用于绕过系统 DNS
-DOMAIN-SUFFIX,paydns.wechatpay.cn # 微信支付 DNS 服务域名，用于 mmtls 加密通道初始化
-DOMAIN-SUFFIX,wxsmw.wxs.qq.com # 微信小程序安全模块接口，用于校验与防篡改机制
-DOMAIN-SUFFIX,res.servicewechat.com # 小程序配置、热更新与 JS SDK 模块加载服务
-DOMAIN-SUFFIX,launchwxacode.wxqcloud.qq.com.cn # 微信小程序码生成接口，部署于腾讯云
-DOMAIN-SUFFIX,mp.weixin.qq.com # 微信公众平台主域，用于公众号内容加载与管理接口
-DOMAIN-SUFFIX,dldir1v6.qq.com # 微信 / QQ 客户端资源下载与更新 CDN（支持 IPv6）
-DOMAIN-SUFFIX,res.wx.qq.com # 微信内置页面前端静态资源域名
-DOMAIN-SUFFIX,gtimg.wechatpay.cn # 微信支付页面组件与静态资源 CDN
-DOMAIN-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn # 微信相关 COS 对象存储域名
-DOMAIN-SUFFIX,dldir1.qq.com # 微信内容更新资源下载域名，包含模型与动画等文件
-DOMAIN-SUFFIX,tenpay.wechatpay.cn # 微信支付服务域名，用于交易处理与支付请求接口
-DOMAIN-SUFFIX,wx.gtimg.com # 微信静态内容资源 CDN
-DOMAIN-SUFFIX,prewxacode.wxqcloud.qq.com.cn # 微信小程序码生成与预览接口，用于小程序二维码校验与生态功能支持
-DOMAIN-SUFFIX,wxapp.tc.qq.com # 腾讯微信小程序官方 CDN 域名，用于小程序资源与接口内容分发
-DOMAIN-SUFFIX,marscdnbypass-wxapp.tc.qq.com # 腾讯微信小程序 CDN 旁路加速子域
-DOMAIN-SUFFIX,wx.qlogo.cn # 腾讯微信用户头像与社交图片官方 CDN 域名
-DOMAIN-SUFFIX,qpic.cn # 腾讯图片与多媒体资源 CDN 主域，用于社交平台图片、头像与媒体资源加载
-DOMAIN-SUFFIX,cmmsns.qpic.cn # 腾讯社交媒体图片资源节点，用于好友头像、动态图片与内容展示加载
-DOMAIN-SUFFIX,wechatpay.cn # 微信支付官方主域名，承载支付系统核心服务，包括交易请求、账单处理、风控校验与支付网关接口
-DOMAIN-SUFFIX,cube.weixinbridge.com # 微信 JSBridge / WebView 通信服务域名，用于小程序与内嵌网页与客户端之间的能力桥接、接口调用与消息分发
-DOMAIN-SUFFIX,localhost.weixin.qq.com # 微信本地组件与内嵌服务通信域名，用于 PC 客户端、小程序调试与 WebView 内部回调
-DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net # 腾讯网络质量统计与调度服务域名，用于终端网络测量、路径优化与节点选择
-DOMAIN-SUFFIX,servicewechat.com # 微信小程序与服务通信主域
-DOMAIN-SUFFIX,sh.servicewechat.com # 微信小程序上海节点，用于小程序服务请求与接口通信
-DOMAIN-SUFFIX,wxqcloud.qq.com.cn # 腾讯企点与微信企业服务图片资源分发与云存储节点
-DOMAIN-SUFFIX,apd-pcdnieghplogin.teg.tencent-cloud.net # 腾讯云 Tencent-Cloud 托管域名（关联微信/后端服务调度与登录域名）
+DOMAIN-SUFFIX,weixin.qq.com # 微信核心服务域名
+DOMAIN-SUFFIX,api.weixin.qq.com # 微信官方 API 网关
+DOMAIN-SUFFIX,qyapi.weixin.qq.com # 企业微信 API 网关
+DOMAIN-SUFFIX,servicewechat.cn # 微信小程序中国区服务域
+DOMAIN-SUFFIX,connect.wechat.com # 微信账号连接服务
+DOMAIN-SUFFIX,routerlong.weixin.qq.com # 微信长连接接入节点
+DOMAIN-SUFFIX,notifylong.weixin.qq.com # 微信长连接通知节点
+DOMAIN-SUFFIX,es.wx.qq.com # 微信客户端安全检测接口
+DOMAIN-SUFFIX,add-pcdnwxlogin.teg.tencent-cloud.net # 微信登录加速节点
+DOMAIN-SUFFIX,sglong.weixin.qq.com # 微信海外长连接节点（SG）
+DOMAIN-SUFFIX,frlong.weixin.qq.com # 微信海外长连接节点（FR）
+DOMAIN-SUFFIX,dns.weixin.qq.com.cn # 微信内部 DNS 服务
+DOMAIN-SUFFIX,paydns.wechatpay.cn # 微信支付 DNS 服务
+DOMAIN-SUFFIX,wxsmw.wxs.qq.com # 微信小程序安全接口
+DOMAIN-SUFFIX,res.servicewechat.com # 微信小程序资源服务
+DOMAIN-SUFFIX,launchwxacode.wxqcloud.qq.com.cn # 微信小程序码生成服务
+DOMAIN-SUFFIX,mp.weixin.qq.com # 微信公众平台服务
+DOMAIN-SUFFIX,dldir1v6.qq.com # 腾讯客户端资源下载 CDN
+DOMAIN-SUFFIX,res.wx.qq.com # 微信前端静态资源
+DOMAIN-SUFFIX,res2.wx.qq.com # 微信前端静态资源（备用节点）
+DOMAIN-SUFFIX,res.wx.qq.com.cn # 微信 JS SDK 静态资源（兼容节点）
+DOMAIN-SUFFIX,gtimg.wechatpay.cn # 微信支付静态资源 CDN
+DOMAIN-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn # 腾讯云 COS 对象存储
+DOMAIN-SUFFIX,dldir1.qq.com # 腾讯客户端资源下载
+DOMAIN-SUFFIX,tenpay.wechatpay.cn # 微信支付交易接口
+DOMAIN-SUFFIX,wx.gtimg.com # 微信静态资源 CDN
+DOMAIN-SUFFIX,prewxacode.wxqcloud.qq.com.cn # 微信小程序码预览服务
+DOMAIN-SUFFIX,wxapp.tc.qq.com # 微信小程序资源 CDN
+DOMAIN-SUFFIX,marscdnbypass-wxapp.tc.qq.com # 微信小程序 CDN 加速节点
+DOMAIN-SUFFIX,wx.tenpay.com # 微信支付接口服务
+DOMAIN-SUFFIX,api.mch.weixin.qq.com # 微信支付 API 网关
+DOMAIN-SUFFIX,api2.mch.weixin.qq.com # 微信支付 API 备用网关
+DOMAIN-SUFFIX,payapp.weixin.qq.com # 微信支付中间页服务
+DOMAIN-SUFFIX,pay.weixin.qq.com # 微信支付商户平台
+DOMAIN-SUFFIX,log.weixin.qq.com # 微信支付日志上报服务
+DOMAIN-SUFFIX,cube.weixinbridge.com # 微信 JSBridge 通信服务
+DOMAIN-SUFFIX,localhost.weixin.qq.com # 微信客户端本地通信接口
+DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net # 腾讯网络质量检测服务
+DOMAIN-SUFFIX,servicewechat.com # 微信小程序服务域
+DOMAIN-SUFFIX,sh.servicewechat.com # 微信小程序服务节点（SH）
+DOMAIN-SUFFIX,wxqcloud.qq.com.cn # 腾讯云微信服务节点
+DOMAIN-SUFFIX,apd-pcdnieghplogin.teg.tencent-cloud.net # 腾讯云登录调度节点
+DOMAIN-SUFFIX,open.weixin.qq.com # 微信开放平台 OAuth 服务
+DOMAIN-SUFFIX,szsupport.weixin.qq.com # 微信客服与安全验证服务
+DOMAIN-SUFFIX,wechat.com # 微信国际版主域
+DOMAIN-SUFFIX,wechatpay.com # 微信支付国际服务域
+DOMAIN-SUFFIX,wechatpay.cn # 微信支付中国区服务域
+DOMAIN-SUFFIX,tenpay.com # 腾讯 Tenpay 支付平台主域
+DOMAIN-SUFFIX,short.weixin.qq.com # 微信短链接服务
+DOMAIN-SUFFIX,weixin110.qq.com # 微信安全中心服务
+DOMAIN-SUFFIX,security.wechat.com # 微信安全与账号保护服务
+DOMAIN-SUFFIX,open.work.weixin.qq.com # 企业微信开放平台服务
+DOMAIN-SUFFIX,work.weixin.qq.com # 企业微信主站与管理后台
+DOMAIN-SUFFIX,mmbiz.weixin.qq.com # 微信公众号文章与内容服务
+DOMAIN-SUFFIX,mmbiz.qcloudimg.com # 微信公众号图片 CDN（历史资源节点）
+DOMAIN-SUFFIX,developers.weixin.qq.com # 微信开发者平台服务
+DOMAIN-SUFFIX,long.weixin.qq.com # 微信通用长连接调度节点
+DOMAIN-SUFFIX,wx.qq.com # 微信 Web 版服务入口
+DOMAIN-SUFFIX,channels.weixin.qq.com # 微信视频号服务
+DOMAIN-SUFFIX,live.weixin.qq.com # 微信直播服务
+DOMAIN-SUFFIX,find.weixin.qq.com # 微信发现页相关服务
+DOMAIN-SUFFIX,scan.weixin.qq.com # 微信扫码登录与二维码接口
+DOMAIN-SUFFIX,szextshort.weixin.qq.com # 微信短链接跳转服务
+DOMAIN-SUFFIX,szminorshort.weixin.qq.com # 微信短链接跳转备用节点
+DOMAIN-SUFFIX,extshort.weixin.qq.com # 微信短链接解析服务
 
-# > 多媒体与文件传输（Media & File Transfer）
+# > Media & File Transfer（多媒体与文件传输）
 
 DOMAIN-SUFFIX,mmcdn.qpic.cn # 微信多媒体 CDN 分发服务
 DOMAIN-SUFFIX,mmchatpic.qpic.cn # 微信聊天图片 CDN 接口
+DOMAIN-SUFFIX,mmsns.qpic.cn # 微信朋友圈图片 CDN
+DOMAIN-SUFFIX,qlogo.cn # 腾讯头像 CDN 主域
+DOMAIN-SUFFIX,wx.qlogo.cn # 微信用户头像 CDN
+DOMAIN-SUFFIX,thirdwx.qlogo.cn # 第三方登录头像 CDN
+DOMAIN-SUFFIX,mmbiz.qlogo.cn # 微信公众号头像 CDN
+DOMAIN-SUFFIX,mmbiz2.qlogo.cn # 微信公众号头像 CDN（备用节点）
+DOMAIN-SUFFIX,qpic.cn # 腾讯图片 CDN 主域
+DOMAIN-SUFFIX,wx.qpic.cn # 微信图片资源 CDN
+DOMAIN-SUFFIX,mmbiz.qpic.cn # 微信公众号图片 CDN
+DOMAIN-SUFFIX,mmbiz2.qpic.cn # 微信公众号图片 CDN（备用节点）
+DOMAIN-SUFFIX,p.qpic.cn # 腾讯图片 CDN
+DOMAIN-SUFFIX,shp.qpic.cn # 腾讯图片 CDN
+DOMAIN-SUFFIX,ugc.qpic.cn # 微信用户生成内容 CDN
+DOMAIN-SUFFIX,store.qpic.cn # 微信图片与文件资源 CDN
+DOMAIN-SUFFIX,imgcache.qq.com # 腾讯图片缓存 CDN
+DOMAIN-SUFFIX,wximg.qq.com # 微信 Web 图片资源服务
+DOMAIN-SUFFIX,wximg.gtimg.com # 微信图片 CDN（腾讯多媒体资源网络）
+DOMAIN-SUFFIX,txc.qq.com # 腾讯多媒体上传与处理服务
+DOMAIN-SUFFIX,game.gtimg.cn # 腾讯 CDN 静态资源网络
+DOMAIN-SUFFIX,gtimg.cn # 腾讯静态资源 CDN 主域
+DOMAIN-SUFFIX,cmmsns.qpic.cn # 微信社交图片 CDN
 DOMAIN-SUFFIX,vd.qq.com # 视频号与聊天视频分发服务
+DOMAIN-SUFFIX,v.qq.com # 腾讯视频与视频号 CDN
 DOMAIN-SUFFIX,video.store.qq.com # 视频上传与资源库接口
 DOMAIN-SUFFIX,audio.chat.qq.com # 微信音频通话相关接口
 DOMAIN-SUFFIX,dl.stream.qqmusic.qq.com # 音频文件资源调用接口
 DOMAIN-SUFFIX,dl.music.qq.com # 音乐小程序音频资源加载域名
-DOMAIN-SUFFIX,cdn-wechat.com # 微信相关 CDN 资源域名
-DOMAIN-SUFFIX,staticwechat.com # 微信前端静态资源域名
-DOMAIN-SUFFIX,cdnwechat.net # 微信第三方内容分发 CDN
 
-# > 微信 PC / Web（WeChat Desktop & Web）
+# > WeChat Desktop & Web（微信 PC / Web）
 
 DOMAIN-SUFFIX,login.weixin.qq.com # 微信网页登录入口
+DOMAIN-SUFFIX,login.wx.qq.com # 微信 Web 登录二维码接口
+DOMAIN-SUFFIX,web.wechat.com # 微信 Web 客户端服务
+DOMAIN-SUFFIX,wx2.qq.com # 微信 Web 通信节点
+DOMAIN-SUFFIX,wx8.qq.com # 微信 Web 备用通信节点
 DOMAIN-SUFFIX,passport.wechat.com # 多端登录验证中转接口
 DOMAIN-SUFFIX,support.wechat.com # 微信帮助中心 Web 页面
 DOMAIN-SUFFIX,filehelper.weixin.qq.com # 文件助手 Web 接口
@@ -68,109 +122,135 @@ DOMAIN-SUFFIX,update.wechat.com # 微信客户端更新检查接口
 DOMAIN-SUFFIX,dl.wechat.com # 微信客户端安装包下载服务
 DOMAIN-SUFFIX,wework.qpic.cn # 企业微信图像资源域名
 
-# > 微信 SDK 接口（WeChat SDKs & Tracking）
+# > WeChat SDKs & Tracking（微信 SDK 接口）
 
 DOMAIN-SUFFIX,isdspeed.qq.com # SDK 网络测速与质量评估上传接口
 DOMAIN-SUFFIX,support.weixin.qq.com # 微信开放平台支持与文档页面
 
-# > 微信安全与链接防护（Security & Safe Browsing）
+# > Security & Safe Browsing（微信安全与链接防护）
 
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com # 腾讯安全浏览钓鱼与恶意链接拦截服务
+DOMAIN-SUFFIX,urlsec.qq.com # 腾讯 URL 安全检测服务
 
-# > 微信图片与消息资源 CDN
+# > WeChat Mini Program Services（微信小程序云开发与托管服务）
 
-IP-CIDR,222.186.181.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,222.79.113.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,115.231.229.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,223.247.65.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,222.186.189.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,116.211.207.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,116.211.185.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,116.211.232.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,14.17.83.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,183.47.115.0/24 # 微信消息流、图片与多媒体资源 CDN 节点
-IP-CIDR,113.96.12.0/24 # 微信消息流、图片与多媒体资源 CDN 节点
-IP-CIDR,113.105.171.0/24 # 微信消息流、图片与多媒体资源 CDN 节点
-IP-CIDR,125.88.186.0/24 # 微信消息流、图片与多媒体资源 CDN 节点
-IP-CIDR,27.155.118.0/24 # 腾讯图片与多媒体资源 CDN 节点
-IP-CIDR,42.123.119.56/32 # 腾讯图片与多媒体资源 CDN 节点
-IP-CIDR,58.217.183.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,182.106.148.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,125.88.187.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,180.111.198.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,218.16.120.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,183.61.254.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,113.105.153.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,183.61.169.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,222.186.27.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,180.101.241.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,180.101.246.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,182.40.121.0/24 # 微信图片、消息与多媒体资源 CDN 节点
-IP-CIDR,183.131.39.0/24 # 微信图片、消息与多媒体资源 CDN 节点
+DOMAIN-SUFFIX,tcb.qcloud.la # 微信小程序云开发服务
+DOMAIN-SUFFIX,cloudbase.net # 微信小程序 CloudBase 服务
+DOMAIN-SUFFIX,wx.cloud.tencent.com # 微信小程序云托管服务
 
-# > 微信小程序运行时与静态资源 CDN
+# > Tencent ASN（腾讯网络自治系统）
 
-IP-CIDR,61.170.59.0/24 # 微信小程序资源与静态内容分发节点
-IP-CIDR,61.170.65.0/24 # 微信小程序官方 CDN 与旁路加速节点（江苏电信）
-IP-CIDR,117.68.71.0/24 # 微信小程序官方 CDN 与旁路加速节点（江苏电信）
-IP-CIDR,61.170.64.0/24 # 微信小程序官方 CDN 与旁路加速节点（江苏电信）
-IP-CIDR,183.131.58.0/24 # 微信小程序官方 CDN 资源分发节点（浙江电信）
-IP-CIDR,116.31.98.0/24 # 微信小程序官方 CDN 与旁路加速节点（中国电信）
-IP-CIDR,60.165.67.0/24 # 微信小程序官方 CDN 资源分发节点（中国电信）
-IP-CIDR,111.172.209.0/24 # 微信小程序官方 CDN 与旁路加速节点（中国电信）
-IP-CIDR,116.31.64.0/24 # 微信小程序官方 CDN 资源分发节点（中国电信）
-IP-CIDR,14.17.85.0/24 # 微信小程序官方 CDN 资源分发节点（广东电信）
-IP-CIDR,61.170.73.30/24 # 微信小程序旁路 CDN 边缘节点（中国电信）
-IP-CIDR,180.101.152.0/24 # 微信小程序平台资源分发与更新服务节点
-IP-CIDR,180.109.53.0/24 # 微信小程序平台资源分发与更新服务节点
-IP-CIDR,180.102.97.0/24 # 微信小程序平台资源分发与更新服务节点
-IP-CIDR,58.216.26.0/24 # 微信小程序平台资源分发与更新 CDN 网段
-IP-CIDR,180.102.97.0/24 # 微信小程序平台资源分发与更新 CDN 网段
-IP-CIDR,183.47.121.0/24 # 微信相关业务与小程序资源接入节点（腾讯云）
-IP-CIDR,222.186.183.0/24 # 微信小程序平台资源分发与更新服务节点
-IP-CIDR,114.230.136.0/24 # 微信小程序 CDN 旁路加速与资源分发节点
-IP-CIDR,61.170.72.0/24 # 微信小程序 CDN 旁路加速与资源分发节点
-IP-CIDR,60.164.5.0/24 # 微信小程序 CDN 旁路加速与资源分发节点
-IP-CIDR,114.230.137.0/24 # 腾讯微信小程序 CDN 通信节点
-IP-CIDR,223.247.74.0/24 # 腾讯微信小程序 CDN 通信节点
-IP-CIDR,219.144.91.0/24 # 腾讯微信小程序 CDN 通信节点
+IP-ASN,132203 # Tencent Cloud 网络
+IP-ASN,45090 # Tencent 网络
+IP-ASN,55990 # Tencent 网络
+IP-ASN,37963 # Tencent 网络
+IP-ASN,132591 # Tencent Cloud 网络
 
-# > 微信客户端与资源下载 CDN（中国电信 / 联通 / 移动）
+# > WeChat Official API / Callback Network（微信官方 API 与回调服务器网络）
+# - 数据来源：https://developers.weixin.qq.com/doc/subscription/api/base/api_getapidomainip.html
+# - 数据来源：https://developers.weixin.qq.com/doc/subscription/api/base/api_getcallbackip.html
+# - 说明：用于公众号、小程序及企业微信 API 调用与消息回调来源服务器
+# - 校对时间：2026-03-08
 
-IP-CIDR,58.216.30.0/24 # 微信客户端更新与资源分发 CDN 节点
-IP-CIDR,114.80.149.0/24 # 腾讯 CDN 下载与更新资源节点
-IP-CIDR,117.68.18.0/24 # 微信图片与媒体 CDN 实际服务节点
-IP-CIDR,117.68.26.0/24 # 微信图片与媒体 CDN 实际服务节点
-IP-CIDR,117.89.179.0/24 # 微信客户端安装包与更新资源下载 CDN
-IP-CIDR,117.21.234.0/24 # 微信消息图片与多媒体资源 CDN
-IP-CIDR,180.153.82.0/24 # 腾讯 CDN 下载与客户端资源分发节点
-IP-CIDR,222.186.162.0/24 # 微信客户端安装包与更新资源下载 CDN
+IP-CIDR,101.226.62.0/24 # 微信 API 网关服务器
+IP-CIDR,140.207.54.0/24 # 微信 API 网关服务器
+IP-CIDR,101.91.0.0/16 # 微信服务器回调来源网络
 
-# > 核心通信与长连接（MMTLS / QUIC）
+# > WeChat Media CDN（微信图片与消息资源 CDN）
+# - 数据来源：本地流量分析 / CDN 网络解析
 
-IP-CIDR,101.226.142.0/24 # 微信核心通信与 MMTLS 加密接入段（上海联通）
-IP-CIDR,101.226.153.0/24 # 微信核心通信与 MMTLS 加密接入段（UCloud）
-IP-CIDR,101.226.137.0/24 # 微信 MMTLS 加密通信接入段（上海联通）
-IP-CIDR,101.226.144.0/24 # 微信 MMTLS 加密通信接入段（上海联通）
-IP-CIDR,101.227.132.0/24 # 微信 MMTLS 加密通信接入段（上海电信）
-IP-CIDR,101.227.131.0/24 # 微信 MMTLS 加密通信接入段（上海电信）
-IP-CIDR,101.91.33.0/24 # 微信多媒体与通信中转接入段（UCloud）
-IP-CIDR,101.91.34.0/24 # 微信通信中转与调度接入段（UCloud）
-IP-CIDR,106.39.206.0/24 # 微信核心接入与非标准端口通信段（北京联通）
-IP-CIDR,180.101.242.0/24 # 微信 MMTLS 加密通信接入段（中国电信）
-IP-CIDR,180.111.196.0/24 # 微信核心通信接入段（江苏联通）
-IP-CIDR,61.151.230.0/24 # 微信 MMTLS 加密通信接入段（中国电信 / 江苏）
-IP-CIDR,117.89.182.0/24 # 微信 MMTLS 加密通信接入段（中国电信）
-IP-CIDR,117.89.176.0/24 # 微信 MMTLS 加密通信接入段（中国电信）
-IP-CIDR,1.13.36.0/24 # 微信 MMTLS 加密通信接入段（腾讯云）
-IP-CIDR,183.47.118.0/24 # 微信核心服务通信节点（腾讯云）
-IP-CIDR,101.91.37.0/24 # 微信 MMTLS 核心通信网段（UCloud）
-IP-CIDR,221.181.99.0/24 # 微信 MMTLS 核心通信网段（中国联通）
-IP-CIDR,112.65.193.0/24 # 微信 MMTLS 核心通信网段（上海电信）
-IP-CIDR,43.130.30.0/24 # 微信 MMTLS 核心通信网段（腾讯云）
-IP-CIDR,101.226.144.0/24 # 微信 MMTLS 加密长连接实际通信节点（上海联通）
-IP-CIDR,117.89.182.0/24 # 微信 MMTLS 加密长连接实际通信节点（中国电信）
+IP-CIDR,222.186.181.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,222.79.113.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,115.231.229.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,223.247.65.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,222.186.189.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,116.211.207.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,116.211.185.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,116.211.232.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,14.17.83.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,183.47.115.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,113.96.12.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,113.105.171.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,125.88.186.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,27.155.118.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,58.217.183.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,182.106.148.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,125.88.187.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,180.111.198.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,218.16.120.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,183.61.254.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,113.105.153.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,183.61.169.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,222.186.27.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,180.101.241.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,180.101.246.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,182.40.121.0/24 # 微信图片与消息资源 CDN
+IP-CIDR,183.131.39.0/24 # 微信图片与消息资源 CDN
 
-# > 微信支付核心接口与商户服务节点
+# > WeChat Mini Program CDN（微信小程序资源 CDN）
+# - 数据来源：本地流量分析
 
-IP-CIDR,1.13.37.0/24 # 微信支付商户与接口服务节点，用于支付能力调用、交易接口与业务通信
+IP-CIDR,61.170.59.0/24 # 微信小程序资源 CDN
+IP-CIDR,61.170.65.0/24 # 微信小程序资源 CDN
+IP-CIDR,117.68.71.0/24 # 微信小程序资源 CDN
+IP-CIDR,61.170.64.0/24 # 微信小程序资源 CDN
+IP-CIDR,183.131.58.0/24 # 微信小程序资源 CDN
+IP-CIDR,116.31.98.0/24 # 微信小程序资源 CDN
+IP-CIDR,60.165.67.0/24 # 微信小程序资源 CDN
+IP-CIDR,111.172.209.0/24 # 微信小程序资源 CDN
+IP-CIDR,116.31.64.0/24 # 微信小程序资源 CDN
+IP-CIDR,14.17.85.0/24 # 微信小程序资源 CDN
+IP-CIDR,61.170.73.0/24 # 微信小程序资源 CDN
+IP-CIDR,180.101.152.0/24 # 微信小程序资源 CDN
+IP-CIDR,180.109.53.0/24 # 微信小程序资源 CDN
+IP-CIDR,180.102.97.0/24 # 微信小程序资源 CDN
+IP-CIDR,58.216.26.0/24 # 微信小程序资源 CDN
+IP-CIDR,183.47.121.0/24 # 微信小程序资源 CDN
+IP-CIDR,222.186.183.0/24 # 微信小程序资源 CDN
+IP-CIDR,114.230.136.0/24 # 微信小程序资源 CDN
+IP-CIDR,61.170.72.0/24 # 微信小程序资源 CDN
+IP-CIDR,60.164.5.0/24 # 微信小程序资源 CDN
+IP-CIDR,114.230.137.0/24 # 微信小程序资源 CDN
+IP-CIDR,223.247.74.0/24 # 微信小程序资源 CDN
+IP-CIDR,219.144.91.0/24 # 微信小程序资源 CDN
+
+# > WeChat Client Update CDN（微信客户端更新与下载 CDN）
+# - 数据来源：本地流量分析
+
+IP-CIDR,58.216.30.0/24 # 微信客户端更新 CDN
+IP-CIDR,114.80.149.0/24 # 微信客户端下载 CDN
+IP-CIDR,117.68.18.0/24 # 微信客户端资源 CDN
+IP-CIDR,117.68.26.0/24 # 微信客户端资源 CDN
+IP-CIDR,117.89.179.0/24 # 微信客户端下载 CDN
+IP-CIDR,117.21.234.0/24 # 微信客户端资源 CDN
+IP-CIDR,180.153.82.0/24 # 微信客户端下载 CDN
+IP-CIDR,222.186.162.0/24 # 微信客户端下载 CDN
+
+# > WeChat Core Communication Network（微信核心通信网络）
+# - 数据来源：本地流量分析
+
+IP-CIDR,101.226.142.0/24 # 微信 MMTLS 通信接入节点
+IP-CIDR,101.226.153.0/24 # 微信 MMTLS 通信接入节点
+IP-CIDR,101.226.137.0/24 # 微信 MMTLS 通信接入节点
+IP-CIDR,101.226.144.0/24 # 微信 MMTLS 通信接入节点
+IP-CIDR,101.227.132.0/24 # 微信 MMTLS 通信接入节点
+IP-CIDR,101.227.131.0/24 # 微信 MMTLS 通信接入节点
+IP-CIDR,101.91.33.0/24 # 微信核心通信节点
+IP-CIDR,101.91.34.0/24 # 微信核心通信节点
+IP-CIDR,106.39.206.0/24 # 微信核心通信节点
+IP-CIDR,180.101.242.0/24 # 微信 MMTLS 通信接入节点
+IP-CIDR,180.111.196.0/24 # 微信核心通信节点
+IP-CIDR,61.151.230.0/24 # 微信 MMTLS 通信接入节点
+IP-CIDR,117.89.182.0/24 # 微信 MMTLS 通信接入节点
+IP-CIDR,117.89.176.0/24 # 微信 MMTLS 通信接入节点
+IP-CIDR,1.13.36.0/24 # 微信 MMTLS 通信接入节点
+IP-CIDR,183.47.118.0/24 # 微信核心通信节点
+IP-CIDR,101.91.37.0/24 # 微信 MMTLS 通信节点
+IP-CIDR,221.181.99.0/24 # 微信 MMTLS 通信节点
+IP-CIDR,112.65.193.0/24 # 微信 MMTLS 通信节点
+IP-CIDR,43.130.30.0/24 # 微信 MMTLS 通信节点
+
+# > WeChat Pay API Network（微信支付接口网络）
+# - 数据来源：本地流量分析
+
+IP-CIDR,1.13.37.0/24 # 微信支付接口节点
