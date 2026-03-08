@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-06
-# - 校对时间：2026-03-06
+# - 更新时间：2026-03-08
+# - 校对时间：2026-03-08
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 
@@ -153,7 +153,6 @@ DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com # Google Safe Brow
 
 DOMAIN-SUFFIX,merchants.google.com # Merchant Center 控制台
 DOMAIN-SUFFIX,merchant-center.googleapis.com # Merchant Center API
-DOMAIN-SUFFIX,merchant-center-analytics.goog # Merchant Center 分析
 DOMAIN-SUFFIX,shoppingcontent.googleapis.com # Google Shopping Content API
 
 # > Google Custom Search（Google 自定义搜索服务）
@@ -324,10 +323,14 @@ DOMAIN-SUFFIX,adtrafficquality.google # Google Ads 流量质量检测
 DOMAIN-SUFFIX,googletagservices-cn.com # Google Ads 标签服务
 DOMAIN-SUFFIX,pagead.l.google.com # Google 页面广告服务
 DOMAIN-SUFFIX,partnerad.l.google.com # Google 合作广告服务
-DOMAIN-SUFFIX,video-stats.video.google.com # YouTube 广告统计
 DOMAIN-SUFFIX,wintricksbanner.googlepages.com # Google Page Creator 历史遗留域名
 DOMAIN-SUFFIX,googletagservices.com # Google Tag 服务
 DOMAIN-SUFFIX,googlesyndication.com # Google 广告分发与内容投放网络
 DOMAIN-SUFFIX,googletagmanager.com # Google Tag Manager 标签管理平台
 DOMAIN-SUFFIX,ade.googlesyndication.com # Google Ads 实验服务
 DOMAIN-SUFFIX,doubleclick.net # DoubleClick 广告平台
+
+# > 已列入 BehaviorDomain.list明细:
+
+# DOMAIN-SUFFIX,merchant-center-analytics.goog # Merchant Center 分析
+# DOMAIN-SUFFIX,video-stats.video.google.com # YouTube 广告统计
