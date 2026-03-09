@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-08
-# - 校对时间：2026-03-08
+# - 更新时间：2026-03-09
+# - 校对时间：2026-03-09
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 
@@ -334,3 +334,4 @@ DOMAIN-SUFFIX,doubleclick.net # DoubleClick 广告平台
 
 # DOMAIN-SUFFIX,merchant-center-analytics.goog # Merchant Center 分析
 # DOMAIN-SUFFIX,video-stats.video.google.com # YouTube 广告统计
+# DOMAIN-SUFFIX,google-analytics.com # Google Analytics 行为分析与访问统计服务
