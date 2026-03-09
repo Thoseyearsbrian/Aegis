@@ -5,7 +5,7 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-08
+# - 更新时间：2026-03-09
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -161,30 +161,32 @@ IP-CIDR,191.234.167.128/28 # ChatGPT Actions 官方出口网络（Azure）
 IP-CIDR,191.235.98.144/28 # ChatGPT Actions 官方出口网络（Azure）
 IP-CIDR,191.237.249.64/28 # ChatGPT Actions 官方出口网络（Azure）
 
-# > Sora — OpenAI 视频生成 / AI 服务主域名
+# > Sora（OpenAI 视频生成服务）
 
-DOMAIN-SUFFIX,sora.com # OpenAI Sora 视频生成平台域名，用于 AI 视频创建、管理与内容访问
+DOMAIN-SUFFIX,sora.com # OpenAI Sora 视频生成服务域名
 
-# > OpenAI Speech 语音合成与音频生成服务
+# > OpenAI Speech（语音合成与音频服务）
 
-DOMAIN-SUFFIX,tts.openai.com # OpenAI Text-to-Speech 服务域名，用于文本转语音生成与音频内容输出
-DOMAIN-SUFFIX,voice.openai.com # OpenAI 语音交互与实时音频处理服务域名，用于语音输入、合成与会话能力
-DOMAIN-SUFFIX,audio.openai.com # OpenAI 音频处理服务域名，用于语音识别（STT）、语音生成（TTS）与多媒体模型调用
+DOMAIN-SUFFIX,tts.openai.com # OpenAI 文本转语音服务
+DOMAIN-SUFFIX,voice.openai.com # OpenAI 语音交互服务
+DOMAIN-SUFFIX,audio.openai.com # OpenAI 音频处理服务
 
-# > OpenAI Whisper 语音转写与音频理解服务
+# > OpenAI Whisper（语音识别服务）
 
-DOMAIN-SUFFIX,whisper.openai.com # OpenAI Whisper 官方语音转写服务入口，用于音频识别、语音转文本与多语言理解
+DOMAIN-SUFFIX,whisper.openai.com # OpenAI Whisper 语音识别服务
 
-# > Grok（xAI / Elon Musk）AI 服务相关域名
+# > OpenAI Media Services（OpenAI 媒体与文件资源服务）
 
-DOMAIN-SUFFIX,x.ai # xAI 官方站点，Grok 所属公司
-DOMAIN-SUFFIX,grok.x.ai # Grok 主服务域名
-DOMAIN-SUFFIX,chat.grok.x.ai # Grok 对话主入口
+DOMAIN-SUFFIX,images.openai.com # OpenAI 图像生成与图像资源服务
+DOMAIN-SUFFIX,files.openai.com # OpenAI 文件资源与附件下载服务
+
+# > Grok（xAI 平台生成式 AI 服务）
+
+DOMAIN-SUFFIX,x.ai # xAI 官方主域名
+DOMAIN-SUFFIX,grok.x.ai # Grok AI Web 服务入口
+DOMAIN-SUFFIX,api.x.ai # xAI 官方 API 服务入口
 DOMAIN-SUFFIX,grok.x.com # Grok 在 X 平台的入口链接
-DOMAIN-SUFFIX,xusercontent.com # Grok 聊天资源载入（xAI 与 X 共用）
-DOMAIN-SUFFIX,api.grok.x.ai # Grok API 接口（模型调用）
-DOMAIN-SUFFIX,cdn.x.ai # xAI 静态资源服务
-DOMAIN-SUFFIX,grok.com # Grok AI 官方域名（xAI 所属），用于实时聊天助手服务与趋势分析
+DOMAIN-SUFFIX,grok.com # Grok 官方品牌域名
 
 # > Meta AI 相关域名
 
