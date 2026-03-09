@@ -181,6 +181,7 @@ DOMAIN-SUFFIX,images.openai.com # OpenAI 图像生成与图像资源服务
 DOMAIN-SUFFIX,files.openai.com # OpenAI 文件资源与附件下载服务
 
 # > Grok（xAI 平台生成式 AI 服务）
+# - 校对时间：2026-03-09
 
 DOMAIN-SUFFIX,x.ai # xAI 官方主域名
 DOMAIN-SUFFIX,grok.x.ai # Grok AI Web 服务入口
@@ -189,6 +190,7 @@ DOMAIN-SUFFIX,grok.x.com # Grok 在 X 平台的入口链接
 DOMAIN-SUFFIX,grok.com # Grok 官方品牌域名
 
 # > Meta AI Platform（Meta 生成式 AI 与研究相关域名）
+# - 校对时间：2026-03-09
 
 DOMAIN-SUFFIX,meta.ai # Meta AI 官方站点
 DOMAIN-SUFFIX,ai.meta.com # Meta AI 服务入口
@@ -203,37 +205,51 @@ DOMAIN-SUFFIX,research.fb.com # Meta 技术研究站点
 DOMAIN-SUFFIX,about.fb.com # Meta 官方技术博客
 DOMAIN-SUFFIX,developers.facebook.com # Meta 开发者平台
 
-# > Claude 相关域名
+# > Claude Platform Infrastructure（Claude 平台基础设施域名）
+# - 校对时间：2026-03-09
 
-DOMAIN-SUFFIX,claude.com # Claude 主域名，用于品牌展示、跳转与相关服务入口
-DOMAIN-SUFFIX,claude.ai # Claude AI 官方访问域名，用于网页前端与用户交互界面
-DOMAIN-SUFFIX,api.anthropic.com # Anthropic Claude 模型调用与 API 接入地址
-DOMAIN-SUFFIX,anthropic.com # Anthropic 官方主页及附属服务域名
-DOMAIN-SUFFIX,api.claude.ai # Claude 新版 API 接口（官方逐步统一到该域名）
-DOMAIN-SUFFIX,api.claude.com # Claude API 的备用/过渡域名
-DOMAIN-SUFFIX,claudeusercontent.com # Claude 用户内容存储域名，用于附件、文件处理等
-DOMAIN-SUFFIX,assets.claude.ai # Claude 前端静态资源（JS/CSS/字体文件）加载域名
-DOMAIN-SUFFIX,cdn.claude.ai # Claude 静态资源 CDN 加速域名
-DOMAIN-SUFFIX,console.anthropic.com # Anthropic 控制台（API 密钥管理、账单等）
-DOMAIN-SUFFIX,developer.anthropic.com # Anthropic 开发者文档与 SDK 信息
-DOMAIN-SUFFIX,docs.anthropic.com # 文档站点，模型说明、API 参考等
-DOMAIN-SUFFIX,status.anthropic.com # Anthropic 服务状态监控页
-DOMAIN-SUFFIX,claude.io # Claude 辅助域名，用于品牌保护或跳转（不用于 API）
-DOMAIN-SUFFIX,anthropicstatus.com # Anthropic 状态页备用域名
-DOMAIN-SUFFIX,claude.site # Claude 品牌相关域名，用于跳转、展示或备用服务入口
+DOMAIN-SUFFIX,claude.com # Claude 官方品牌与服务入口域名
+DOMAIN-SUFFIX,claude.ai # Claude Web 应用主域名
+DOMAIN-SUFFIX,api.anthropic.com # Anthropic Claude API 服务接口
+DOMAIN-SUFFIX,api.claude.ai # Claude API 接口（新统一端点）
+DOMAIN-SUFFIX,api.claude.com # Claude API 兼容接口
+DOMAIN-SUFFIX,claudeusercontent.com # Claude 用户内容与附件资源域名
+DOMAIN-SUFFIX,assets.claude.ai # Claude 前端静态资源域名
+DOMAIN-SUFFIX,cdn.claude.ai # Claude 静态资源 CDN
+DOMAIN-SUFFIX,status.anthropic.com # Anthropic 官方服务状态页面
+DOMAIN-SUFFIX,claude.io # Claude 官方 Web 入口域名（Anthropic Claude 平台）
+DOMAIN-SUFFIX,files.claudeusercontent.com # Claude 文件附件下载资源域名
+DOMAIN-SUFFIX,uploads.claudeusercontent.com # Claude 文件上传服务接口
 
-# > Anthropic 相关域名（信任 / 文档 / 状态 / 控制台）
+# > Anthropic Claude Official Network IPv4（Anthropic Claude IPv4 官方网络节点）
+# - 数据来源：ARIN / BGP ASN 信息 / api.anthropic.com DNS 解析
+# - 校对时间：2026-03-09
 
-DOMAIN-SUFFIX,trust.anthropic.com # Anthropic 信任与安全中心，用于查看隐私、合规与安全政策等信息
-DOMAIN-SUFFIX,legal.anthropic.com # Anthropic 法律条款站点，包含服务协议、隐私声明等内容
-DOMAIN-SUFFIX,privacy.anthropic.com # Anthropic 隐私政策页面，用于数据收集、处理与用户权利说明
-DOMAIN-SUFFIX,status.anthropic.com # Anthropic 官方系统状态监控页面，用于查看 API/控制台运行情况
-DOMAIN-SUFFIX,console.anthropic.com # Anthropic 控制台，用于管理 API Key、团队、账单等
-DOMAIN-SUFFIX,developer.anthropic.com # Anthropic 开发者中心，API 文档与 SDK 指南
-DOMAIN-SUFFIX,docs.anthropic.com # Anthropic 技术文档站点，模型说明、参数、使用指南等
-DOMAIN-SUFFIX,resources.anthropic.com # Anthropic 资源中心，用于合规材料、白皮书、企业资料下载
-DOMAIN-SUFFIX,assets.anthropic.com # Anthropic 静态资源域名（图标/脚本/样式）
-DOMAIN-SUFFIX,cdn.anthropic.com # Anthropic 内容分发网络（CDN），用于前端静态内容加载
+IP-CIDR,160.79.104.0/21 # Anthropic Claude API 网络
+
+# > Anthropic Claude Official Network IPv6（Anthropic Claude IPv6 官方网络节点）
+# - 数据来源：ARIN / BGP ASN 信息 / api.anthropic.com DNS 解析
+# - 校对时间：2026-03-09
+
+IP-CIDR6,2607:6bc0::/48 # Anthropic Claude IPv6 API 网络
+
+# > Anthropic Claude Network（Anthropic Claude 官方网络）
+
+IP-ASN,399358 # Anthropic Claude ASN
+
+# > Anthropic Platform Infrastructure（Anthropic 平台基础设施域名）
+
+DOMAIN-SUFFIX,anthropic.com # Anthropic 官方主站
+DOMAIN-SUFFIX,trust.anthropic.com # Anthropic 信任与安全中心
+DOMAIN-SUFFIX,legal.anthropic.com # Anthropic 法律与服务条款页面
+DOMAIN-SUFFIX,privacy.anthropic.com # Anthropic 隐私政策页面
+DOMAIN-SUFFIX,status.anthropic.com # Anthropic 服务状态页面
+DOMAIN-SUFFIX,console.anthropic.com # Anthropic API 控制台
+DOMAIN-SUFFIX,developer.anthropic.com # Anthropic 开发者平台
+DOMAIN-SUFFIX,docs.anthropic.com # Anthropic 技术文档站点
+DOMAIN-SUFFIX,resources.anthropic.com # Anthropic 官方资源中心
+DOMAIN-SUFFIX,assets.anthropic.com # Anthropic 静态资源服务
+DOMAIN-SUFFIX,cdn.anthropic.com # Anthropic 内容分发网络
 
 # > Gemini / Bard（Google AI）
 
