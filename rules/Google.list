@@ -86,6 +86,7 @@ DOMAIN-SUFFIX,workspace.google.com # Google Workspace 控制台
 DOMAIN-SUFFIX,photos.google.com # Google Photos 图片服务
 DOMAIN-SUFFIX,ggpht.com # Google 图片资源 CDN
 DOMAIN-SUFFIX,yt3.ggpht.com # YouTube 头像与封面资源
+DOMAIN-SUFFIX,lh3.googleusercontent.com # Google Photos 图片资源
 
 # > YouTube Platform（YouTube 视频平台）
 
@@ -139,7 +140,6 @@ DOMAIN-SUFFIX,web.dev # Web 开发最佳实践平台
 DOMAIN-SUFFIX,fonts.googleapis.com # Google Fonts API
 DOMAIN-SUFFIX,fonts.gstatic.com # Google 字体 CDN
 DOMAIN-SUFFIX,gstatic.com # Google 静态资源 CDN
-DOMAIN-SUFFIX,googleusercontent.com # Google 用户内容资源
 DOMAIN-SUFFIX,cdn.ampproject.org # Google AMP CDN
 
 # > Google Identity & Security（Google 身份与安全服务）
