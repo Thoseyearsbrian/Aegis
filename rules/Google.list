@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-09
-# - 校对时间：2026-03-09
+# - 更新时间：2026-03-10
+# - 校对时间：2026-03-10
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 
@@ -58,6 +58,7 @@ DOMAIN-SUFFIX,googledomains.com # Google Domains 历史官网入口
 # > Google APIs & Backend Services（Google 后端接口服务）
 
 DOMAIN-SUFFIX,googleapis.com # Google 官方 API 网关
+DOMAIN-SUFFIX,proto.googleapis.com # Google API Protobuf 传输服务
 DOMAIN-SUFFIX,notifications-pa.googleapis.com # Google 通知推送接口
 DOMAIN-SUFFIX,content-autofill.googleapis.com # Google 自动填充服务接口
 DOMAIN-SUFFIX,growth-pa.googleapis.com # Google 产品增长接口
@@ -176,6 +177,10 @@ IP-CIDR,8.8.8.8/32 # Google Public DNS
 IP-CIDR,8.8.4.4/32 # Google Public DNS 备用地址
 IP-CIDR6,2001:4860:4860::8888/128 # Google Public DNS IPv6
 IP-CIDR6,2001:4860:4860::8844/128 # Google Public DNS IPv6 备用地址
+
+# > Google Network（Google 官方网络）
+
+IP-ASN,15169 # Google LLC
 
 # > Google Mail Infrastructure Network（Google 邮件基础设施网络）
 # - 数据来源：dig TXT _netblocks.google.com
