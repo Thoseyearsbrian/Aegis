@@ -5,7 +5,7 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-10
+# - 更新时间：2026-03-11
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -264,22 +264,18 @@ DOMAIN-SUFFIX,ai.googleblog.com # Google AI 官方技术博客
 DOMAIN-SUFFIX,deepmind.google # Google DeepMind 官方域名
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com # Google AI Studio / MakerSuite 后端服务接口（Gemini 开发环境通信节点）
 
-# > Copilot 系列（Microsoft）
+# > Microsoft Copilot Platform（Microsoft 生成式 AI / Copilot 平台相关域名）
+# - 校对时间：2026-03-11
 
-DOMAIN-SUFFIX,copilot.microsoft.com # Microsoft Copilot 主站入口（网页版 Copilot）
-DOMAIN-SUFFIX,copilot.azureedge.net # Copilot 静态资源 CDN（脚本、样式、模型相关资源加载）
-DOMAIN-SUFFIX,edge.microsoft.com # Edge Copilot 入口及功能资源加载
-DOMAIN-SUFFIX,bingcopilot.microsoft.com # Bing Copilot 托管域，用于搜索与问答整合
-DOMAIN-SUFFIX,bingapis.com # Bing / Copilot API 后端接口（LLM 查询、搜索与上下文请求）
-DOMAIN-SUFFIX,api.bing.microsoft.com # Bing AI / Copilot 新版统一 API 接口
-DOMAIN-SUFFIX,assets.msn.com # Copilot 卡片式结果、搜索增强、插件资源载入
-DOMAIN-SUFFIX,msftauth.net # Microsoft Authentication，用于 Copilot 登录与验证流程
-DOMAIN-SUFFIX,live.com # Microsoft Account 登录，用于 Copilot 身份验证
-DOMAIN-SUFFIX,graph.microsoft.com # Microsoft Graph API（M365 Copilot 读取上下文的重要接口）
-DOMAIN-SUFFIX,sharepoint.com # M365 Copilot 文档引用与内容检索
-DOMAIN-SUFFIX,onenote.com # Copilot 获取 OneNote 数据时的上下文载入
-DOMAIN-SUFFIX,onerev.microsoft.com # Microsoft OneRev 服务（新版 AI 关联后端）
-DOMAIN-SUFFIX,contoso.com # Microsoft Copilot 官方演示站使用的测试域（真实存在）
+DOMAIN-SUFFIX,copilot.microsoft.com # Microsoft Copilot Web 主入口
+DOMAIN-SUFFIX,copilot.microsoft # Microsoft Copilot 新统一品牌域名
+DOMAIN-SUFFIX,copilot.azureedge.net # Copilot 静态资源 CDN
+DOMAIN-SUFFIX,bingcopilot.microsoft.com # Bing Copilot Web 接入域
+DOMAIN-SUFFIX,api.bing.microsoft.com # Bing / Copilot API 接口
+DOMAIN-SUFFIX,bingapis.com # Bing AI 后端 API 域名
+DOMAIN-SUFFIX,sydney.bing.com # Bing AI / Copilot ChatHub 推理接口
+DOMAIN-SUFFIX,assets.msn.com # Copilot 搜索卡片 UI 资源加载
+DOMAIN-SUFFIX,msftauth.net # Microsoft 身份认证系统
 
 # > Perplexity AI
 
