@@ -277,14 +277,12 @@ DOMAIN-SUFFIX,sydney.bing.com # Bing AI / Copilot ChatHub 推理接口
 DOMAIN-SUFFIX,assets.msn.com # Copilot 搜索卡片 UI 资源加载
 DOMAIN-SUFFIX,msftauth.net # Microsoft 身份认证系统
 
-# > Perplexity AI
+# > Perplexity AI（AI 搜索与多模型问答平台）
+# - 校对时间：2026-03-11
 
-DOMAIN-SUFFIX,perplexity.ai # Perplexity AI 主站入口，用于搜索、对话与模型访问
-DOMAIN-SUFFIX,api.perplexity.ai # Perplexity API 后端接口，用于模型调用、推理与集成服务
-DOMAIN-SUFFIX,pplx.ai # Perplexity 官方短链与跳转域名（真实存在）
-DOMAIN-SUFFIX,perplexitylabs.ai # Perplexity Labs 研发相关域名，用于实验功能与技术页面
-DOMAIN-SUFFIX,perplexitychat.ai # Perplexity Chat 入口域名，用于对话体验（真实解析存在）
-DOMAIN-SUFFIX,pplx-res.cloudinary.com # Perplexity 静态资源托管（图像、模型截图等）
+DOMAIN-SUFFIX,perplexity.ai # Perplexity AI 官方主站，用于 AI 搜索、对话与模型访问
+DOMAIN-SUFFIX,api.perplexity.ai # Perplexity 官方 API 接口，用于模型调用、推理与开发者集成
+DOMAIN-SUFFIX,pplx.ai # Perplexity 官方短链与跳转域名，用于分享链接与内容重定向
 
 # > HuggingFace
 
