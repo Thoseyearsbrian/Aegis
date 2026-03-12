@@ -306,15 +306,16 @@ DOMAIN-SUFFIX,poeusercontent.com # Poe 用户内容资源
 DOMAIN-SUFFIX,quora.com # Quora 账号系统与登录依赖
 DOMAIN-SUFFIX,quoracdn.net # Quora 静态资源 CDN
 
-# > Mistral AI
+# > Mistral AI Platform（Mistral 生成式 AI 模型与 API 平台）
+# - 校对时间：2026-03-12
 
-DOMAIN-SUFFIX,mistral.ai # Mistral AI 官方主站，用于产品介绍、模型发布与公司信息
-DOMAIN-SUFFIX,api.mistral.ai # Mistral 官方 API 接口，用于模型推理、嵌入、生成任务等调用
-DOMAIN-SUFFIX,console.mistral.ai # Mistral 控制台，用于管理 API Keys、账单与使用情况
-DOMAIN-SUFFIX,docs.mistral.ai # Mistral 开发者文档站点，用于 API 文档、SDK 指南与模型说明
-DOMAIN-SUFFIX,cdn.mistral.ai # Mistral 静态资源 CDN，用于加载前端资源与控制台静态内容
-DOMAIN-SUFFIX,mistral-embed.run # Mistral Embedding 推理端点，用于提供向量化推理服务
-DOMAIN-SUFFIX,mistral-medium.run # Mistral Medium 模型推理端点，用于特定模型托管与生产部署
+DOMAIN-SUFFIX,mistral.ai # Mistral AI 官方主站
+DOMAIN-SUFFIX,api.mistral.ai # Mistral 官方 API 服务
+DOMAIN-SUFFIX,console.mistral.ai # Mistral 控制台
+DOMAIN-SUFFIX,docs.mistral.ai # Mistral 开发者文档
+DOMAIN-SUFFIX,cdn.mistral.ai # Mistral 静态资源 CDN
+DOMAIN-SUFFIX,mistral-embed.run # Mistral Embedding API 推理服务
+DOMAIN-SUFFIX,mistral-medium.run # Mistral Medium 模型推理 API
 
 # > Haruka AI
 
