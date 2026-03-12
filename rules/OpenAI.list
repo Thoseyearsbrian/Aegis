@@ -5,7 +5,7 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-11
+# - 更新时间：2026-03-12
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -296,14 +296,15 @@ DOMAIN-SUFFIX,huggingfaceusercontent.com # Hugging Face 用户内容托管
 DOMAIN-SUFFIX,api-inference.huggingface.co # Hugging Face 推理 API 服务
 DOMAIN-SUFFIX,endpoints.huggingface.cloud # Hugging Face 托管推理服务
 
-# > Poe（Quora）
+# > Poe Platform（Quora AI 多模型对话平台）
 
-DOMAIN-SUFFIX,poe.com # Poe 主站，用于访问 AI 聊天、多模型切换、会话管理等核心功能
-DOMAIN-SUFFIX,api.poe.com # Poe API 后端接口，用于模型调用、消息推理与账号交互
-DOMAIN-SUFFIX,poecdn.net # Poe 静态资源 CDN，用于前端脚本、样式、模型相关素材加载
-DOMAIN-SUFFIX,poeusercontent.com # Poe 用户内容域名，用于缓存用户生成内容、图像、会话数据与资源文件
-DOMAIN-SUFFIX,quora.com # Quora 主站，Poe 登录、账号整合与 OAuth 认证依赖
-DOMAIN-SUFFIX,quoracdn.net # Quora 静态资源 CDN，用于账号系统、登录页面及通用脚本加载
+DOMAIN-SUFFIX,poe.com # Poe 官方主站
+DOMAIN-SUFFIX,api.poe.com # Poe API 服务接口
+DOMAIN-SUFFIX,ws.poe.com # Poe WebSocket 实时通信接口
+DOMAIN-SUFFIX,poecdn.net # Poe 静态资源 CDN
+DOMAIN-SUFFIX,poeusercontent.com # Poe 用户内容资源
+DOMAIN-SUFFIX,quora.com # Quora 账号系统与登录依赖
+DOMAIN-SUFFIX,quoracdn.net # Quora 静态资源 CDN
 
 # > Mistral AI
 
