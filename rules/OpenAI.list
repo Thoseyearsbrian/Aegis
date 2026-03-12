@@ -255,14 +255,14 @@ DOMAIN-SUFFIX,cdn.anthropic.com # Anthropic 内容分发网络
 # - 校对时间：2026-03-10
 
 DOMAIN-SUFFIX,gemini.google.com # Google Gemini Web 服务入口
-DOMAIN-SUFFIX,bard.google.com # Google Bard 历史入口域名（已并入 Gemini）
-DOMAIN-SUFFIX,aistudio.google.com # Google AI Studio（Gemini Playground 与 API Key 管理）
+DOMAIN-SUFFIX,bard.google.com # Google Bard 历史入口域名
+DOMAIN-SUFFIX,aistudio.google.com # Google AI Studio
 DOMAIN-SUFFIX,generativeai.google # Google Generative AI 官方站点
 DOMAIN-SUFFIX,ai.google.dev # Google AI 开发者平台与 Gemini API 文档
-DOMAIN-SUFFIX,makersuite.google.com # Google MakerSuite 开发工具（历史开发入口）
+DOMAIN-SUFFIX,makersuite.google.com # Google MakerSuite 开发工具
 DOMAIN-SUFFIX,ai.googleblog.com # Google AI 官方技术博客
 DOMAIN-SUFFIX,deepmind.google # Google DeepMind 官方域名
-DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com # Google AI Studio / MakerSuite 后端服务接口（Gemini 开发环境通信节点）
+DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com # Google AI Studio / MakerSuite 后端服务接口
 
 # > Microsoft Copilot Platform（Microsoft 生成式 AI / Copilot 平台相关域名）
 # - 校对时间：2026-03-11
@@ -280,9 +280,9 @@ DOMAIN-SUFFIX,msftauth.net # Microsoft 身份认证系统
 # > Perplexity AI（AI 搜索与多模型问答平台）
 # - 校对时间：2026-03-11
 
-DOMAIN-SUFFIX,perplexity.ai # Perplexity AI 官方主站，用于 AI 搜索、对话与模型访问
-DOMAIN-SUFFIX,api.perplexity.ai # Perplexity 官方 API 接口，用于模型调用、推理与开发者集成
-DOMAIN-SUFFIX,pplx.ai # Perplexity 官方短链与跳转域名，用于分享链接与内容重定向
+DOMAIN-SUFFIX,perplexity.ai # Perplexity AI 官方主站
+DOMAIN-SUFFIX,api.perplexity.ai # Perplexity 官方 API 接口
+DOMAIN-SUFFIX,pplx.ai # Perplexity 官方短链与跳转域名
 
 # > Hugging Face Platform Infrastructure（Hugging Face 平台基础设施域名）
 # - 校对时间：2026-03-11
@@ -297,6 +297,7 @@ DOMAIN-SUFFIX,api-inference.huggingface.co # Hugging Face 推理 API 服务
 DOMAIN-SUFFIX,endpoints.huggingface.cloud # Hugging Face 托管推理服务
 
 # > Poe Platform（Quora AI 多模型对话平台）
+# - 校对时间：2026-03-12
 
 DOMAIN-SUFFIX,poe.com # Poe 官方主站
 DOMAIN-SUFFIX,api.poe.com # Poe API 服务接口
@@ -318,26 +319,26 @@ DOMAIN-SUFFIX,mistral-embed.run # Mistral Embedding API 推理服务
 DOMAIN-SUFFIX,mistral-medium.run # Mistral Medium 模型推理 API
 
 # > Haruka AI（生成式 AI 对话平台）
+# - 校对时间：2026-03-12
 
 DOMAIN-SUFFIX,haruka.ai # Haruka AI 官方域名
 DOMAIN-SUFFIX,haruka.cloud # Haruka AI 平台基础域名
 
-# > Cohere Platform Infrastructure（Cohere 生成式 AI 平台基础设施域名）
+# > Cohere AI Platform（Cohere 生成式 AI 与模型 API 平台）
 # - 校对时间：2026-03-12
 
-DOMAIN-SUFFIX,cohere.ai # Cohere 平台主域名
-DOMAIN-SUFFIX,api.cohere.ai # Cohere API 服务接口
-DOMAIN-SUFFIX,cohere.com # Cohere 官方网站
+DOMAIN-SUFFIX,cohere.ai # Cohere 官方平台域名
+DOMAIN-SUFFIX,api.cohere.ai # Cohere 官方 API 接口
+DOMAIN-SUFFIX,cohere.com # Cohere 企业官网
 DOMAIN-SUFFIX,dashboard.cohere.com # Cohere 控制台
-DOMAIN-SUFFIX,docs.cohere.com # Cohere 开发者文档
+DOMAIN-SUFFIX,docs.cohere.com # Cohere 官方文档站点
 
-# > Voyage AI
+# > Voyage AI Platform（Voyage AI Embedding / Rerank 模型服务平台）
+# - 校对时间：2026-03-12
 
-DOMAIN-SUFFIX,voyageai.com # Voyage AI 主站域名，用于产品介绍、模型展示与文档入口
-DOMAIN-SUFFIX,api.voyageai.com # Voyage AI 官方 API 接口，用于嵌入向量、重排序（Rerank）等模型推理调用
-DOMAIN-SUFFIX,cdn.voyageai.com # Voyage AI 静态资源域名，用于前端脚本、样式与控制台相关资源加载
-DOMAIN-SUFFIX,docs.voyageai.com # Voyage AI 文档站点，用于 API 文档、模型能力说明、代码示例
-DOMAIN-SUFFIX,console.voyageai.com # Voyage AI 控制台，用于 API Key 管理、账单查看与使用统计
+DOMAIN-SUFFIX,voyageai.com # Voyage AI 官方主域名
+DOMAIN-SUFFIX,api.voyageai.com # Voyage AI 官方 API 接口
+DOMAIN-SUFFIX,docs.voyageai.com # Voyage AI 开发者文档站点
 
 # > AI21 Labs
 
