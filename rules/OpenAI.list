@@ -322,15 +322,14 @@ DOMAIN-SUFFIX,mistral-medium.run # Mistral Medium 模型推理 API
 DOMAIN-SUFFIX,haruka.ai # Haruka AI 官方域名
 DOMAIN-SUFFIX,haruka.cloud # Haruka AI 平台基础域名
 
-# > Cohere AI
+# > Cohere Platform Infrastructure（Cohere 生成式 AI 平台基础设施域名）
+# - 校对时间：2026-03-12
 
-DOMAIN-SUFFIX,cohere.ai # Cohere 主站域名，用于模型介绍、平台入口与产品信息
-DOMAIN-SUFFIX,api.cohere.ai # Cohere 官方 API 接口域名，用于文本生成、嵌入、分类等模型推理调用
-DOMAIN-SUFFIX,cohere.com # Cohere 商业站点与企业服务入口，用于账号管理与文档跳转
-DOMAIN-SUFFIX,os.cohere.ai # Cohere Command-R / Embed / Rerank 等模型资源与官方开源页面
-DOMAIN-SUFFIX,coral.cohere.com # Cohere Coral 平台相关域名，用于企业级 AI 管理、模型部署与协作功能
-DOMAIN-SUFFIX,studio.cohere.com # Cohere Studio 在线工作台，用于实验、Prompt 编辑与模型测试
-DOMAIN-SUFFIX,docs.cohere.com # Cohere 文档中心，用于 API 文档、模型说明与 SDK 示例
+DOMAIN-SUFFIX,cohere.ai # Cohere 平台主域名
+DOMAIN-SUFFIX,api.cohere.ai # Cohere API 服务接口
+DOMAIN-SUFFIX,cohere.com # Cohere 官方网站
+DOMAIN-SUFFIX,dashboard.cohere.com # Cohere 控制台
+DOMAIN-SUFFIX,docs.cohere.com # Cohere 开发者文档
 
 # > Voyage AI
 
