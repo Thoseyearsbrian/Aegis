@@ -350,51 +350,53 @@ DOMAIN-SUFFIX,docs.ai21.com # AI21 官方开发者文档
 DOMAIN-SUFFIX,platform.ai21.com # AI21 开发者平台控制台
 DOMAIN-SUFFIX,cdn.ai21.com # AI21 静态资源 CDN
 
-# > Midjourney（AI 图像生成平台）
+# > Midjourney Platform（Midjourney 图像生成平台）
+# - 校对时间：2026-03-13
 
 DOMAIN-SUFFIX,midjourney.com # Midjourney 官方主站
 DOMAIN-SUFFIX,cdn.midjourney.com # Midjourney 静态资源 CDN
 DOMAIN-SUFFIX,midjourney.ghost.io # Midjourney 官方博客（Ghost 托管平台）
 
-# > Runway（Gen-2 / Gen-3 视频生成平台）
+# > Runway Platform（Runway Gen-2 / Gen-3 视频生成平台）
+# - 校对时间：2026-03-13
 
-DOMAIN-SUFFIX,runwayml.com # Runway 主站域名，用于模型展示、作品集、功能介绍与登录入口
-DOMAIN-SUFFIX,app.runwayml.com # Runway Web Studio，用于 Gen-2 / Gen-3 视频生成、编辑、项目管理
-DOMAIN-SUFFIX,api.runwayml.com # Runway 官方 API，用于视频生成、图像生成、模型推理与后台任务调度
-DOMAIN-SUFFIX,cdn.runwayml.com # Runway 静态资源 CDN，用于加载脚本、样式、界面组件与前端资源
-DOMAIN-SUFFIX,assets.runwayml.com # Runway 静态素材域名，用于 UI 图标、字体、模型预设与工程资源加载
-DOMAIN-SUFFIX,media.runwayml.com # Runway 媒体资源域名，用于模型生成的图像、视频、音频文件及用户上传内容存储
-DOMAIN-SUFFIX,files.runwayml.com # Runway 文件服务端点，用于项目文件上传、下载、视频导出与中间内容处理
-DOMAIN-SUFFIX,genmo.runwayml.com # Runway 生成式模型服务接口，用于 Gen-2 / Gen-3 的推理管线与后台渲染
-DOMAIN-SUFFIX,render.runwayml.com # Runway 渲染服务域名，用于视频渲染队列、生成任务与输出合成
+DOMAIN-SUFFIX,runwayml.com # Runway 官方主站
+DOMAIN-SUFFIX,app.runwayml.com # Runway Web Studio 应用入口
+DOMAIN-SUFFIX,api.runwayml.com # Runway 官方 API 接口
+DOMAIN-SUFFIX,cdn.runwayml.com # Runway 静态资源 CDN
+DOMAIN-SUFFIX,assets.runwayml.com # Runway 静态资源域名
+DOMAIN-SUFFIX,media.runwayml.com # Runway 媒体资源域名
+DOMAIN-SUFFIX,files.runwayml.com # Runway 文件服务端点
+DOMAIN-SUFFIX,genmo.runwayml.com # Runway 模型推理服务端点
+DOMAIN-SUFFIX,render.runwayml.com # Runway 渲染任务服务
 
-# > Stability AI（Stable Diffusion 官方）
+# > Stability AI Platform（Stable Diffusion 生成式 AI 平台）
+# - 校对时间：2026-03-13
 
-DOMAIN-SUFFIX,stability.ai # Stability AI 官方主页域名，用于访问公司信息、模型发布、新闻公告与产品入口
-DOMAIN-SUFFIX,api.stability.ai # Stability AI 官方 API 接口域名，用于图像生成、视频生成与模型推理
-DOMAIN-SUFFIX,platform.stability.ai # Stability 控制台，用于 API Key 管理、账单与使用数据查看
-DOMAIN-SUFFIX,stability.dev # Stability 开发者子域，用于 SDK、开发工具与技术文档入口
-DOMAIN-SUFFIX,cdn.stability.ai # Stability 静态资源 CDN，用于前端脚本、样式与模型素材加载
-DOMAIN-SUFFIX,stablediffusionapi.com # Stable Diffusion 关联服务域名，用于扩展模型托管与推理服务
-DOMAIN-SUFFIX,clipdrop.co # ClipDrop（Stability 收购产品），用于图像生成、清洁、增强等工具
-DOMAIN-SUFFIX,api.clipdrop.co # ClipDrop 官方 API 接口，用于背景移除、修复与图像增强任务
+DOMAIN-SUFFIX,stability.ai # Stability AI 官方主站
+DOMAIN-SUFFIX,api.stability.ai # Stability AI 官方 API 接口
+DOMAIN-SUFFIX,platform.stability.ai # Stability AI 平台控制台
+DOMAIN-SUFFIX,stability.dev # Stability AI 开发者资源域名
+DOMAIN-SUFFIX,cdn.stability.ai # Stability AI 静态资源 CDN
+DOMAIN-SUFFIX,stablediffusionapi.com # Stable Diffusion 第三方 API 服务（非 Stability 官方）
+DOMAIN-SUFFIX,clipdrop.co # ClipDrop 官方服务域名（Stability AI 产品）
+DOMAIN-SUFFIX,api.clipdrop.co # ClipDrop 官方 API 接口
 
-# > Pika（AI 视频生成）
+# > Pika Platform（Pika AI 视频生成平台）
+# - 校对时间：2026-03-13
 
-DOMAIN-SUFFIX,pika.art # Pika 主站域名，用于产品访问、作品展示与账号管理
-DOMAIN-SUFFIX,api.pika.art # Pika 官方 API 接口，用于视频生成、图像生成与多媒体模型推理
-DOMAIN-SUFFIX,cdn.pika.art # Pika 静态资源 CDN，用于加载前端脚本、界面素材与模型资源
-DOMAIN-SUFFIX,assets.pika.art # Pika 资源域名，用于存储示例视频、素材文件与应用图标
-DOMAIN-SUFFIX,pika-realtime-prod.onrender.com # Pika 实时推理与任务调度服务域名（官方 Render 托管后端）
+DOMAIN-SUFFIX,pika.art # Pika 官方主站
+DOMAIN-SUFFIX,api.pika.art # Pika 官方 API 接口
+DOMAIN-SUFFIX,cdn.pika.art # Pika 静态资源 CDN
+DOMAIN-SUFFIX,assets.pika.art # Pika 静态资源域名
+DOMAIN-SUFFIX,pika-realtime-prod.onrender.com # Pika 实时推理服务（Render 托管后端）
 
-# > Leonardo AI（AI 图像生成）
+# > Leonardo AI Platform（Leonardo AI 图像生成平台）
+# - 校对时间：2026-03-13
 
-DOMAIN-SUFFIX,leonardo.ai # Leonardo AI 主站，用于产品介绍、登录入口与作品展示
-DOMAIN-SUFFIX,api.leonardo.ai # Leonardo 官方 API 接口，用于图像生成、纹理生成与模型推理服务
-DOMAIN-SUFFIX,cloud.leonardo.ai # Leonardo 云端平台资源域，用于任务调度、模型加载与项目处理
-DOMAIN-SUFFIX,cdn.leonardo.ai # Leonardo 静态资源 CDN，用于脚本、样式与前端界面素材加载
-DOMAIN-SUFFIX,static.leonardo.ai # Leonardo 静态资源扩展域名，用于界面图标、素材文件与模型文件托管
-DOMAIN-SUFFIX,files.leonardo.ai # Leonardo 文件存储域，用于图像生成结果、上传文件与项目资源托管
+DOMAIN-SUFFIX,leonardo.ai # Leonardo AI 官方主站
+DOMAIN-SUFFIX,api.leonardo.ai # Leonardo AI 官方 API 接口
+DOMAIN-SUFFIX,cdn.leonardo.ai # Leonardo AI 静态资源 CDN
 
 # > Krea AI（AI 图像 / 视频生成）
 
