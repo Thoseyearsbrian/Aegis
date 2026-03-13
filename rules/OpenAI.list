@@ -495,17 +495,18 @@ DOMAIN-SUFFIX,assets.elevenlabs.io # ElevenLabs 前端静态资源
 DOMAIN-SUFFIX,voices.elevenlabs.io # ElevenLabs 语音模型资源
 DOMAIN-SUFFIX,media.elevenlabs.io # ElevenLabs 媒体资源服务
 
-# > HeyGen（AI 视频生成 / 数字人 Avatar 平台）
+# > HeyGen Platform（HeyGen AI 视频生成平台）
+# - 校对时间：2026-03-13
 
-DOMAIN-SUFFIX,heygen.com # HeyGen 主站，用于产品介绍、示例视频展示、注册与控制台入口
-DOMAIN-SUFFIX,app.heygen.com # HeyGen Web Studio，用于视频生成、Avatar 创建、编辑与项目管理
-DOMAIN-SUFFIX,api.heygen.com # HeyGen 官方 API 接口，用于视频合成、数字人生成、音视频处理与任务队列操作
-DOMAIN-SUFFIX,cdn.heygen.com # HeyGen 静态资源 CDN，用于前端脚本、样式、字体与 UI 组件加载
-DOMAIN-SUFFIX,assets.heygen.com # HeyGen 静态素材源，用于图标、Avatar 资源、预设模板与前端资源文件
-DOMAIN-SUFFIX,media.heygen.com # HeyGen 媒体域名，用于存储输出视频、用户上传文件与中间渲染结果
-DOMAIN-SUFFIX,files.heygen.com # HeyGen 文件服务端点，用于编辑任务文件、视频下载与上传处理
-DOMAIN-SUFFIX,render.heygen.com # HeyGen 渲染任务域名，用于视频渲染、数字人生成与后台处理调度
-DOMAIN-SUFFIX,static.heygen.ai # Heygen AI 平台静态资源域名，用于加载前端界面、样式与脚本资源，常用于生成式 AI 视频工具界面加载
+DOMAIN-SUFFIX,heygen.com # HeyGen 官方主站
+DOMAIN-SUFFIX,app.heygen.com # HeyGen Web Studio 入口
+DOMAIN-SUFFIX,api.heygen.com # HeyGen 官方 API 接口
+DOMAIN-SUFFIX,cdn.heygen.com # HeyGen 静态资源 CDN
+DOMAIN-SUFFIX,assets.heygen.com # HeyGen 前端静态资源
+DOMAIN-SUFFIX,media.heygen.com # HeyGen 媒体资源服务
+DOMAIN-SUFFIX,files.heygen.com # HeyGen 文件服务接口
+DOMAIN-SUFFIX,render.heygen.com # HeyGen 视频渲染服务
+DOMAIN-SUFFIX,static.heygen.ai # HeyGen 静态资源服务
 
 # > PlayHT（AI 语音生成 / TTS / 语音克隆平台）
 
