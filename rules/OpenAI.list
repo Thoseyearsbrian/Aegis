@@ -440,16 +440,15 @@ DOMAIN-SUFFIX,assets.groq.com # Groq 前端静态资源
 DOMAIN-SUFFIX,status.groq.com # Groq 服务状态页面
 DOMAIN-SUFFIX,phte.groq.io # Groq 推理服务相关节点
 
-# > Modal（AI 无服务器推理 / 云端计算平台）
+# > Modal Platform（Modal 无服务器 AI 推理与计算平台）
+# - 校对时间：2026-03-13
 
-DOMAIN-SUFFIX,modal.com # Modal 官方主站，用于产品介绍、计算服务说明与企业方案
-DOMAIN-SUFFIX,modal.run # Modal 程序运行域名，用于执行任务、云函数调用与部署的实际运行环境
-DOMAIN-SUFFIX,api.modal.com # Modal 官方 API 接口，用于创建任务、函数调用、执行日志与资源管理
-DOMAIN-SUFFIX,modal-labs.com # Modal Labs 技术域名，用于模型实验、内部测试与孵化项目
-DOMAIN-SUFFIX,assets.modal.com # Modal 静态资源域名，用于前端图标、字体、样式与控制台界面资源加载
-DOMAIN-SUFFIX,cdn.modal.com # Modal CDN 加速域名，用于前端脚本与控制台静态资源分发
-DOMAIN-SUFFIX,console.modal.com # Modal 控制台，用于管理 API Key、账单、任务监控等
-DOMAIN-SUFFIX,modal-cdn.com # Modal AI 相关服务的资源分发域名，用于加载模型界面组件、脚本与样式等静态资源
+DOMAIN-SUFFIX,modal.com # Modal 官方主站
+DOMAIN-SUFFIX,modal.run # Modal 任务运行与函数执行环境
+DOMAIN-SUFFIX,api.modal.com # Modal 官方 API 接口
+DOMAIN-SUFFIX,console.modal.com # Modal 控制台（任务与资源管理）
+DOMAIN-SUFFIX,assets.modal.com # Modal 前端静态资源
+DOMAIN-SUFFIX,cdn.modal.com # Modal 静态资源 CDN
 
 # > Replicate（模型托管 / 云端推理服务）
 
