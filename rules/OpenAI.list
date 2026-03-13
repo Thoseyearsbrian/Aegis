@@ -520,15 +520,16 @@ DOMAIN-SUFFIX,assets.play.ht # PlayHT 前端静态资源
 DOMAIN-SUFFIX,media.play.ht # PlayHT 媒体资源服务
 DOMAIN-SUFFIX,files.play.ht # PlayHT 文件服务接口
 
-# > LOVO.ai / Revoice（AI 语音生成 / 语音克隆平台）
+# > LOVO AI Platform（LOVO AI 语音生成平台）
+# - 校对时间：2026-03-13
 
-DOMAIN-SUFFIX,lovo.ai # LOVO.ai 主站，用于产品介绍、演示、定价与登录入口
-DOMAIN-SUFFIX,app.lovo.ai # LOVO Web Studio，用于文本转语音（TTS）、语音编辑、克隆管理与音频项目操作
-DOMAIN-SUFFIX,api.lovo.ai # LOVO 官方 API 接口，用于 TTS、语音克隆、批处理任务与生成音频的调用
-DOMAIN-SUFFIX,cdn.lovo.ai # LOVO 静态资源 CDN，用于前端脚本、样式、字体与 Studio 界面资源加载
-DOMAIN-SUFFIX,assets.lovo.ai # LOVO 静态素材域名，用于 UI 图标、模板、字体与组件资源加载
-DOMAIN-SUFFIX,media.lovo.ai # LOVO 媒体域名，用于存储输出音频、语音样本与用户上传内容
-DOMAIN-SUFFIX,files.lovo.ai # LOVO 文件服务端点，用于音频文件上传、下载与任务输出管理
+DOMAIN-SUFFIX,lovo.ai # LOVO AI 官方主站
+DOMAIN-SUFFIX,app.lovo.ai # LOVO Web Studio 入口
+DOMAIN-SUFFIX,api.lovo.ai # LOVO 官方 API 接口
+DOMAIN-SUFFIX,cdn.lovo.ai # LOVO 静态资源 CDN
+DOMAIN-SUFFIX,assets.lovo.ai # LOVO 前端静态资源
+DOMAIN-SUFFIX,media.lovo.ai # LOVO 媒体资源服务
+DOMAIN-SUFFIX,files.lovo.ai # LOVO 文件服务接口
 
 # Revoice 相关域名
 
