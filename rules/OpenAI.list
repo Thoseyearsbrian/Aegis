@@ -446,23 +446,19 @@ DOMAIN-SUFFIX,phte.groq.io # Groq 推理服务相关节点
 DOMAIN-SUFFIX,modal.com # Modal 官方主站
 DOMAIN-SUFFIX,modal.run # Modal 任务运行与函数执行环境
 DOMAIN-SUFFIX,api.modal.com # Modal 官方 API 接口
-DOMAIN-SUFFIX,console.modal.com # Modal 控制台（任务与资源管理）
+DOMAIN-SUFFIX,console.modal.com # Modal 控制台
 DOMAIN-SUFFIX,assets.modal.com # Modal 前端静态资源
 DOMAIN-SUFFIX,cdn.modal.com # Modal 静态资源 CDN
 
-# > Replicate（模型托管 / 云端推理服务）
+# > Replicate Platform（Replicate 模型托管与云端推理平台）
+# - 校对时间：2026-03-13
 
-DOMAIN-SUFFIX,replicate.com # Replicate 主站，用于模型浏览、部署、演示与账号管理
-DOMAIN-SUFFIX,api.replicate.com # Replicate API 主入口，用于模型推理、异步任务、Webhook 与运行管理
-DOMAIN-SUFFIX,replicate.delivery # Replicate 输出内容分发域名，用于生成图片、视频与模型结果文件的下载
-DOMAIN-SUFFIX,replicatecdn.com # Replicate 静态资源 CDN，用于前端脚本、样式与界面组件加载
-DOMAIN-SUFFIX,cdn.replicate.com # Replicate 静态资源 CDN 备用域名，用于内容加速与控制台资源加载
-DOMAIN-SUFFIX,objects.replicate.com # Replicate 对象存储域名，用于模型输出文件、训练数据与临时内容存储
-DOMAIN-SUFFIX,r8y.io # Replicate 推理任务加速域名，用于部分模型运行与内部路由
-DOMAIN-SUFFIX,replicate-fileupload.com # Replicate 文件上传端点，用于上传模型输入文件、数据集与预处理资源
-DOMAIN-SUFFIX,static.replicateassets.com # Replicate 平台资源分发域名，用于加载模型演示、图片预览与前端静态文件
-DOMAIN-SUFFIX,replicatestatus.com # Replicate 服务状态页面主域名，用于展示系统可用性、服务运行状态与历史事件
-DOMAIN-SUFFIX,fonts.replicateassets.com # Replicate 字体资源分发域名，用于加载自定义字体、提升界面渲染一致性
+DOMAIN-SUFFIX,replicate.com # Replicate 官方主站与控制台
+DOMAIN-SUFFIX,api.replicate.com # Replicate 官方 API 接口
+DOMAIN-SUFFIX,replicate.delivery # Replicate 推理输出分发域名
+DOMAIN-SUFFIX,objects.replicate.com # Replicate 对象存储域名
+DOMAIN-SUFFIX,cdn.replicate.com # Replicate 前端静态资源 CDN
+DOMAIN-SUFFIX,status.replicate.com # Replicate 官方服务状态页面
 
 # > RunPod（GPU 推理算力 / 模型部署平台）
 
