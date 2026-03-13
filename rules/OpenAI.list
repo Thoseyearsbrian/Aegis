@@ -350,11 +350,11 @@ DOMAIN-SUFFIX,docs.ai21.com # AI21 官方开发者文档
 DOMAIN-SUFFIX,platform.ai21.com # AI21 开发者平台控制台
 DOMAIN-SUFFIX,cdn.ai21.com # AI21 静态资源 CDN
 
-# > Midjourney（AI 图像生成）
+# > Midjourney（AI 图像生成平台）
 
-DOMAIN-SUFFIX,midjourney.com # Midjourney 主站域名，用于账号管理、作品展示、FAQ 与产品说明
-DOMAIN-SUFFIX,cdn.midjourney.com # Midjourney 静态资源 CDN，用于加载前端脚本、样式与图像处理界面
-DOMAIN-SUFFIX,midjourney.ghost.io # Midjourney 官方博客使用的 Ghost 托管域名，用于发布新闻、更新日志与开发者文章等
+DOMAIN-SUFFIX,midjourney.com # Midjourney 官方主站
+DOMAIN-SUFFIX,cdn.midjourney.com # Midjourney 静态资源 CDN
+DOMAIN-SUFFIX,midjourney.ghost.io # Midjourney 官方博客（Ghost 托管平台）
 
 # > Runway（Gen-2 / Gen-3 视频生成平台）
 
