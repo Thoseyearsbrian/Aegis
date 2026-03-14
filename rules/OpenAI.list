@@ -578,16 +578,18 @@ DOMAIN-SUFFIX,app.dola.com # Dola AI Web 应用入口
 DOMAIN-SUFFIX,api.dola.com # Dola AI 官方 API 接口
 DOMAIN-SUFFIX,cdn.dola.com # Dola 静态资源 CDN
 
-# > Ciciai（丝西 AI / 生数科技）相关域名 - 好像仅限新加坡地区可正常访问，其他地区可能存在访问限制
+# > Ciciai Platform（CiCi AI / 生数科技生成式 AI 平台）
+# - 基础设施：主要服务节点位于新加坡区域
+# - 校对时间：2026-03-14
 
-DOMAIN-SUFFIX,cici.com # 商业门户网站主域名，用于企业主页、展示内容与业务入口
-DOMAIN-SUFFIX,ciciai.com # CiCi AI 官方主域名，用于大模型访问、前端界面与 API 服务
-DOMAIN-SUFFIX,ciciaicdn.com # Ciciai 静态资源 CDN 主域名，用于前端脚本、图片与样式加载
-DOMAIN-SUFFIX,sf-sf-flow-web-cdn-nontt.ciciaicdn.com # Ciciai Web 前端 CDN 节点（非电信线路），用于页面加载与静态资源分发
-DOMAIN-SUFFIX,sf-flow-web-cdn.ciciaicdn.com # Ciciai Web 前端 CDN 节点，用于页面 UI、脚本与资源加速
-DOMAIN-SUFFIX,opt-i18n.ciciai.com # Ciciai 国际化内容服务端点，用于多语言界面翻译与本地化资源加载
-DOMAIN-SUFFIX,vmweb-sg.ciciai.com # Ciciai 新加坡区域 Web 服务节点，用于推理网络、会话管理与国际线路访问
-DOMAIN-SUFFIX,mcs-sg.ciciai.com # Ciciai 新加坡区域多媒体/后端接口节点，用于文件处理、资源访问与模型处理任务
+DOMAIN-SUFFIX,cici.com # Cici 官方网站
+DOMAIN-SUFFIX,ciciai.com # Ciciai AI 平台主域名
+DOMAIN-SUFFIX,ciciaicdn.com # Ciciai 静态资源 CDN
+DOMAIN-SUFFIX,sf-sf-flow-web-cdn-nontt.ciciaicdn.com # Ciciai Web CDN 节点
+DOMAIN-SUFFIX,sf-flow-web-cdn.ciciaicdn.com # Ciciai Web CDN 节点
+DOMAIN-SUFFIX,opt-i18n.ciciai.com # Ciciai 国际化资源服务
+DOMAIN-SUFFIX,vmweb-sg.ciciai.com # Ciciai Web 服务节点（SG）
+DOMAIN-SUFFIX,mcs-sg.ciciai.com # Ciciai 后端服务节点（SG）
 
 # > aibusiness.com（AI Business — AI 行业新闻 / 报告 / 内容分发站点）
 
