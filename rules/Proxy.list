@@ -6835,6 +6835,10 @@ DOMAIN-SUFFIX,nicegram.app # Nicegram 第三方 Telegram 客户端服务域名
 
 DOMAIN-SUFFIX,sm-cybermap-mediaprod.smweb.tech # SecurityMap 网络安全威胁地图媒体资源服务
 
+# > OpenStreetMap（开源地图服务平台）
+
+DOMAIN-SUFFIX,tile.openstreetmap.org # OpenStreetMap 官方地图瓦片服务
+
 # > 第三方博客网站
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
