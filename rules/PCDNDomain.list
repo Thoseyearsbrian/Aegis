@@ -4,8 +4,8 @@
 # - 特征：P2P 分发 / NAT 穿透 / 节点调度 / 分片交换 / 日志回传
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-11
-# - 校对时间：2026-03-11
+# - 更新时间：2026-03-14
+# - 校对时间：2026-03-14
 
 # > 哔哩哔哩 PCDN 节点
 
@@ -38,18 +38,34 @@ DOMAIN-SUFFIX,p2p.huya.com # P2P 分发节点
 DOMAIN-SUFFIX,pcdn.yximgs.com # PCDN 分发节点
 DOMAIN-SUFFIX,yximgs-webrtc.liveplay.myqcloud.com # WebRTC 传输节点
 
-# > 腾讯音乐 / 腾讯平台 PCDN 节点
+# > 腾讯音乐 PCDN 节点
 
 DOMAIN-SUFFIX,tp2p.kg.qq.com # P2P 分发节点
-DOMAIN-SUFFIX,twns.p2ptun.qq.com # P2P 穿透服务
-DOMAIN-SUFFIX,p2p.qq.com # P2P 通用节点
+DOMAIN-SUFFIX,musicstun.p2p.qq.com # STUN 穿透服务
+
+# > 腾讯视频 PCDN 节点
+
+DOMAIN-SUFFIX,stun.qqlive.qq.com # STUN 穿透服务
+
+# > 腾讯游戏 P2P 更新节点
+
 DOMAIN-SUFFIX,p2pupdate.gamedl.qq.com # P2P 更新节点
 DOMAIN-SUFFIX,p2pupgrade.gamedl.qq.com # P2P 更新节点
+
+# > 腾讯 P2P / NAT 穿透服务
+
 DOMAIN-SUFFIX,p2ptun.qq.com # P2P 穿透服务
-DOMAIN-SUFFIX,stun.qqlive.qq.com # STUN 穿透服务
-DOMAIN-SUFFIX,musicstun.p2p.qq.com # STUN 穿透服务
+DOMAIN-SUFFIX,p2p.qq.com # P2P 通用节点
+DOMAIN-SUFFIX,twns.p2ptun.qq.com # P2P 穿透服务
+
+# > 腾讯 WebRTC PCDN 节点
+
 DOMAIN-SUFFIX,signal.qvb.qcloud.com # WebRTC 信令节点
 DOMAIN-SUFFIX,stun.qvb.qcloud.com # STUN 穿透服务
+DOMAIN-SUFFIX,pcdnwxstat.teg.tencent-cloud.net # PCDN 状态统计节点
+DOMAIN-SUFFIX,pcdnwxnat.teg.tencent-cloud.net # PCDN NAT 穿透节点
+DOMAIN-SUFFIX,pcdnwxlogin.teg.tencent-cloud.net # PCDN 登录调度节点
+DOMAIN-SUFFIX,teg.tencent-cloud.net # 腾讯 PCDN 调度体系
 
 # > 搜狐视频 PCDN 节点
 
