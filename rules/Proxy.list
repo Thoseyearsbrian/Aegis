@@ -4,7 +4,7 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-11
+# - 更新时间：2026-03-14
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -6830,6 +6830,10 @@ DOMAIN-SUFFIX,raw.githubusercontent.com.cdn.cloudflare.net # GitHub Raw 内容 C
 DOMAIN-SUFFIX,api.swiftgram.app # Swiftgram 客户端 API 接口
 DOMAIN-SUFFIX,api.imem.app # iMe 客户端 API 接口
 DOMAIN-SUFFIX,nicegram.app # Nicegram 第三方 Telegram 客户端服务域名
+
+# > Cyber Threat Map Infrastructure（网络威胁地图可视化服务）
+
+DOMAIN-SUFFIX,sm-cybermap-mediaprod.smweb.tech # SecurityMap 网络安全威胁地图媒体资源服务
 
 # > 第三方博客网站
 
