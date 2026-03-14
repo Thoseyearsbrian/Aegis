@@ -302,10 +302,11 @@ DOMAIN-SUFFIX,alog.umeng.com # 应用行为分析接口（友盟核心域名）
 DOMAIN-SUFFIX,track.zhihu.com # 知乎站内行为埋点日志上传接口
 DOMAIN-SUFFIX,t.zhihu.com # 轻量级追踪埋点接口（类似 CDN 回传行为）
 
-# > Xiaomi MIUI Telemetry & Configuration Services（MIUI 行为遥测与设备配置服务）
+# > Xiaomi MIUI Telemetry & Configuration Services（小米 行为遥测与设备配置服务）
 
 DOMAIN-SUFFIX,tracking.miui.com # MIUI 行为与设备遥测数据上报接口
 DOMAIN-SUFFIX,sdkconfig.xiaomi.com # Xiaomi SDK 远程配置与策略下发服务
+DOMAIN-SUFFIX,net-assistant.10046.mi.com # MIUI Network Assistant 服务域名
 
 # > 腾讯行为追踪与遥测服务（Tencent Behavior & Telemetry Services）
 
