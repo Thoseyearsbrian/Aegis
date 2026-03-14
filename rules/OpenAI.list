@@ -569,12 +569,14 @@ DOMAIN-SUFFIX,showrunner.ai # Showrunner AI 剧集生成平台
 DOMAIN-SUFFIX,app.showrunner.ai # Showrunner Web 应用入口
 DOMAIN-SUFFIX,api.showrunner.ai # Showrunner 官方 API 接口
 
-# > Dola AI（第三方 AI 对话平台 / 多模型聚合）- 好像仅限新加坡地区可正常访问，其他地区可能存在访问限制
+# > Dola AI Platform（Dola 多模型聚合对话平台）
+# - 基础设施：主要服务节点位于新加坡区域
+# - 校对时间：2026-03-14
 
-DOMAIN-SUFFIX,dola.com # Dola AI 对话平台主域名，用于在线聊天助手、模型聚合与对话界面访问
-DOMAIN-SUFFIX,app.dola.com # Dola AI Web 应用端，用于会话管理、模型切换与界面交互
-DOMAIN-SUFFIX,api.dola.com # Dola AI 后端推理接口，用于模型调用、推理请求与应用集成
-DOMAIN-SUFFIX,cdn.dola.com # Dola 静态资源 CDN，用于前端脚本、样式与素材加载
+DOMAIN-SUFFIX,dola.com # Dola AI 官方主域名
+DOMAIN-SUFFIX,app.dola.com # Dola AI Web 应用入口
+DOMAIN-SUFFIX,api.dola.com # Dola AI 官方 API 接口
+DOMAIN-SUFFIX,cdn.dola.com # Dola 静态资源 CDN
 
 # > Ciciai（丝西 AI / 生数科技）相关域名 - 好像仅限新加坡地区可正常访问，其他地区可能存在访问限制
 
