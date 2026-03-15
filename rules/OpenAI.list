@@ -642,9 +642,10 @@ DOMAIN-SUFFIX,serve.nrich.ai # Nrich.ai 前端服务与 API 接入节点
 
 DOMAIN-SUFFIX,opencode.ai # OpenCode 官方平台主域名
 
-# > Dify AI 平台
+# > Dify Platform（开源 LLM 应用开发与 AI Agent 编排平台）
+# - 校对时间：2026-03-15
 
-DOMAIN-SUFFIX,dify.ai # Dify 开源 LLM 应用开发平台官网，用于构建、部署与管理基于大模型的 AI 应用
+DOMAIN-SUFFIX,dify.ai # Dify 官方平台主域名
 
 # > OpenClaw AI 官方网站与平台域名
 
