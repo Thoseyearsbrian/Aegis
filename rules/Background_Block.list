@@ -16,54 +16,5 @@ IP-CIDR,162.159.61.3/32 # Cloudflare 边缘网络节点（AS13335），非应用
 IP-CIDR,172.64.41.3/32 # Cloudflare 边缘网络节点（AS13335），非应用层业务请求,AbuseIPDB 中存在多次 DDoS / 异常攻击流量相关记录
 
 
-# > 银狐木马（Silver Fox / FoxMalware）后门控制与投递基础设施
-
-DOMAIN-SUFFIX,youdaoensk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,youdaodfk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,vibersds.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,aisiaz.site # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,trofmds.com # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,youdaoesi.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,aisizs.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,meituxx.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,youdaofe.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,wpsnf.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,youdaoendk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,todtgk.top # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,leidianuk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,telogiam.top # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,tefgedmg.top # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,off1c1e.top # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,csgo666.top # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,wuyoujiema1.com # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,sougouu.top # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,sogoff.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,hzj66.vip # 恶意分发与控制关联域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,iloveyou.agency # 恶意分发与控制关联域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,mqkfxt.top # 恶意分发与控制关联域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,meiqia.world # 恶意分发与控制关联域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,wpoff.top # 恶意分发与控制关联域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,sogollq.top # 恶意分发与控制关联域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,eyy250.top # 恶意分发与控制关联域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,sgsrf.top # 恶意分发与控制关联域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,sgllq.top # 恶意分发与控制关联域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,ppfcc.xyz # 恶意分发与控制关联域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,ai-openclaw.com.cn # 银狐仿冒 OpenClaw 钓鱼域名（腾讯安全威胁情报中心）
-DOMAIN-SUFFIX,web-openclaw.com.cn # 银狐仿冒 OpenClaw 钓鱼域名（腾讯安全威胁情报中心）
-DOMAIN-SUFFIX,openclaw-cn.hl.cn # 银狐仿冒 OpenClaw 钓鱼域名（腾讯安全威胁情报中心）
-DOMAIN-SUFFIX,cc-google.com.cn # 银狐仿冒办公 / 搜索平台钓鱼域名（腾讯安全威胁情报中心）
-DOMAIN-SUFFIX,cn-wps.com.cn # 银狐仿冒办公软件钓鱼域名（腾讯安全威胁情报中心）
-DOMAIN-SUFFIX,apps-wps.com.cn # 银狐仿冒办公软件钓鱼域名（腾讯安全威胁情报中心）
-DOMAIN-SUFFIX,pc-google.com.cn # 银狐仿冒搜索平台钓鱼域名（腾讯安全威胁情报中心）
-DOMAIN-SUFFIX,sougou-shu.com.cn # 银狐拼写变体钓鱼域名（腾讯安全威胁情报中心）
-DOMAIN-SUFFIX,goog-chrome.com.cn # 银狐拼写变体钓鱼域名（腾讯安全威胁情报中心）
-DOMAIN-SUFFIX,aoe-google.com.cn # 银狐混淆字符钓鱼域名（腾讯安全威胁情报中心）
-DOMAIN-SUFFIX,safew-go.com.cn # 银狐混淆字符钓鱼域名（腾讯安全威胁情报中心）
-IP-CIDR,43.135.163.43/32 # 飞狐木马 C2 控制服务器（微步在线公开情报披露）
-IP-CIDR,1.32.249.43/32 # 飞狐木马 C2 控制服务器（微步在线公开情报披露）
-IP-CIDR,27.124.47.237/32 # 飞狐木马 C2 控制服务器（微步在线公开情报披露）
-IP-CIDR,169.150.222.238/32 # 飞狐木马 C2 控制服务器（微步在线公开情报披露）
-
-
 
 
