@@ -662,6 +662,7 @@ DOMAIN-SUFFIX,flowiseai.com # Flowise 官方平台主域名
 
 DOMAIN-SUFFIX,langflow.org # Langflow 官方平台主域名
 
-# > Ollama 本地大语言模型运行平台
+# > Ollama Platform（本地大语言模型运行与推理平台）
+# - 校对时间：2026-03-15
 
-DOMAIN-SUFFIX,ollama.com # Ollama 官方网站，用于下载与管理本地运行的大语言模型（LLM）及 AI 推理环境
+DOMAIN-SUFFIX,ollama.com # Ollama 官方平台主域名
