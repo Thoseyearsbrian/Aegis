@@ -615,9 +615,10 @@ DOMAIN-SUFFIX,status.fireworks.ai # Fireworks 官方服务状态页面
 DOMAIN-SUFFIX,tia-ai.com # Tia AI 官方平台域名
 DOMAIN-SUFFIX,fast.tia-ai.com # Tia AI 静态资源与前端加速节点
 
-# > OpenRouter 大模型 API 聚合与路由服务平台
+# > OpenRouter Platform（多模型 API 聚合与路由服务）
+# - 校对时间：2026-03-15
 
-DOMAIN-SUFFIX,openrouter.ai # OpenRouter 提供多家大模型 API 的统一访问与路由服务
+DOMAIN-SUFFIX,openrouter.ai # OpenRouter 官方平台域名
 
 # > Speechify AI 语音朗读平台、Hydro Protocol 去中心化交易协议与 EXMO 加密货币交易所
 
