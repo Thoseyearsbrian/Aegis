@@ -8,6 +8,7 @@
 # - 更新时间：2026-03-15
 
 # > 银狐木马（Silver Fox / FoxMalware）后门控制与投递基础设施
+# - 校对时间：2026-03-15
 
 DOMAIN-SUFFIX,youdaoensk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
 DOMAIN-SUFFIX,youdaodfk.xyz # 仿冒软件下载投递域名（微步在线公开情报披露）
@@ -55,7 +56,15 @@ IP-CIDR,1.32.249.43/32 # 飞狐木马 C2 控制服务器（微步在线公开情
 IP-CIDR,27.124.47.237/32 # 飞狐木马 C2 控制服务器（微步在线公开情报披露）
 IP-CIDR,169.150.222.238/32 # 飞狐木马 C2 控制服务器（微步在线公开情报披露）
 
-DOMAIN-SUFFIX,play-lust.com # 网络钓鱼域名，涉及社会工程诱导行为，来源于公开安全分析报告与威胁情报
-DOMAIN-SUFFIX,awaitinggirl.net # 网络钓鱼域名，涉及社会工程诱导行为，来源于公开安全分析报告与威胁情报
+# > Fake LastPass Phishing Infrastructure（仿冒 LastPass 钓鱼基础设施）
+# - 校对时间：2026-03-15
+
+DOMAIN-SUFFIX,lastpasspulse.blog # 仿冒 LastPass 钓鱼域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,lastpassgazette.blog # 仿冒 LastPass 钓鱼域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,lastpassdesktop.com # 仿冒 LastPass 投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,lastpassdesktop.app # 仿冒 LastPass 投递域名（微步在线公开情报披露）
+
+DOMAIN-SUFFIX,play-lust.com # 网络钓鱼域名 (来源于公开安全分析报告与威胁情报)
+DOMAIN-SUFFIX,awaitinggirl.net # 网络钓鱼域名 (来源于公开安全分析报告与威胁情报)
 DOMAIN-SUFFIX,vlc-player.net # 仿冒 VLC 官方下载站点域名，存在投毒与恶意软件下载风险,来源于社区举报
 
