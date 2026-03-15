@@ -4,7 +4,18 @@
 # - 特征：封锁具备反连、心跳、远程控制特征的通信节点，涵盖 RAT、Sliver、Metasploit 等常见后门工具所依赖的 C2 基础设施
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-01-08
+# - 更新时间：2026-03-15
+
+# > Silver Fox RAT Delivery and C2 Infrastructure（银狐木马投递与远控基础设施）
+# - 校对时间：2026-03-15
+
+DOMAIN-SUFFIX,time.googledns.io # 银狐木马 DNS C2 通信域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,time.micrsofthost.com # 银狐木马远控通信域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,time.wkossclsaleklddeff.is # 银狐木马远控通信域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,time.secssl.com # 银狐木马远控通信域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,xiazaiabcd5.cyou # 银狐木马恶意下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,yandibaiji0203.com # 银狐木马恶意下载投递域名（微步在线公开情报披露）
+IP-CIDR,103.117.103.11/32 # 银狐木马二阶段载荷下载服务器（微步在线公开情报披露）
 
 # > Telegram 后门通信域名
 
