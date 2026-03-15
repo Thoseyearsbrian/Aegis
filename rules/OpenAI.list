@@ -609,10 +609,11 @@ DOMAIN-SUFFIX,studio.fireworks.ai # Fireworks Studio Web UI
 DOMAIN-SUFFIX,chat.fireworks.ai # Fireworks Chat 测试界面
 DOMAIN-SUFFIX,status.fireworks.ai # Fireworks 官方服务状态页面
 
-# > Tia AI 官方主站与服务域名
+# > Tia AI Platform（Tia 生成式 AI 服务平台）
+# - 校对时间：2026-03-15
 
-DOMAIN-SUFFIX,tia-ai.com # Tia AI 官方主域名，用于访问平台主页、产品介绍、用户登录与相关功能页面
-DOMAIN-SUFFIX,fast.tia-ai.com # Tia AI 提供的静态资源加载域名，用于分发前端脚本、样式与组件资源，加快网页渲染性能
+DOMAIN-SUFFIX,tia-ai.com # Tia AI 官方平台域名
+DOMAIN-SUFFIX,fast.tia-ai.com # Tia AI 静态资源与前端加速节点
 
 # > OpenRouter 大模型 API 聚合与路由服务平台
 
