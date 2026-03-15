@@ -637,9 +637,10 @@ DOMAIN-SUFFIX,ai.palantir.com # Palantir AI / AIP 平台相关服务
 DOMAIN-SUFFIX,nrich.ai # Nrich.ai 官方平台主域名
 DOMAIN-SUFFIX,serve.nrich.ai # Nrich.ai 前端服务与 API 接入节点
 
-# > OpenCode AI 平台
+# > OpenCode Platform（AI 编程与代码生成平台）
+# - 校对时间：2026-03-15
 
-DOMAIN-SUFFIX,opencode.ai # OpenCode AI 平台官网与服务入口，提供 AI 编程、代码生成与开发者工具相关服务
+DOMAIN-SUFFIX,opencode.ai # OpenCode 官方平台主域名
 
 # > Dify AI 平台
 
