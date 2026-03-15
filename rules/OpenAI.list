@@ -647,9 +647,10 @@ DOMAIN-SUFFIX,opencode.ai # OpenCode 官方平台主域名
 
 DOMAIN-SUFFIX,dify.ai # Dify 官方平台主域名
 
-# > OpenClaw AI 官方网站与平台域名
+# > OpenClaw Platform（AI Agent 与自动化平台）
+# - 校对时间：2026-03-15
 
-DOMAIN-SUFFIX,openclaw.ai # OpenClaw AI 官网与 AI 平台域名，用于访问产品介绍、AI 服务与平台界面
+DOMAIN-SUFFIX,openclaw.ai # OpenClaw 官方平台主域名
 
 # > Flowise AI 可视化 AI Agent 与 LLM 应用开发平台
 
