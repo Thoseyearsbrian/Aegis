@@ -652,9 +652,10 @@ DOMAIN-SUFFIX,dify.ai # Dify 官方平台主域名
 
 DOMAIN-SUFFIX,openclaw.ai # OpenClaw 官方平台主域名
 
-# > Flowise AI 可视化 AI Agent 与 LLM 应用开发平台
+# > Flowise Platform（AI Agent 与 LLM 工作流开发平台）
+# - 校对时间：2026-03-15
 
-DOMAIN-SUFFIX,flowiseai.com # Flowise AI 开源生成式 AI 开发平台官网，用于构建 AI Agent、LLM 工作流与自动化智能应用
+DOMAIN-SUFFIX,flowiseai.com # Flowise 官方平台主域名
 
 # > Langflow AI Agent 与 LLM 工作流开发平台
 
