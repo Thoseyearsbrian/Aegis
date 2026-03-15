@@ -631,9 +631,11 @@ DOMAIN-SUFFIX,speechify.com # Speechify 官方平台域名
 DOMAIN-SUFFIX,palantir.com # Palantir 官方平台与产品入口
 DOMAIN-SUFFIX,ai.palantir.com # Palantir AI / AIP 平台相关服务
 
-# > Nrich.ai 智能推荐 / AI 服务平台
+# > Nrich.ai Platform（AI 推荐与生成式服务平台）
+# - 校对时间：2026-03-15
 
-DOMAIN-SUFFIX,serve.nrich.ai # Nrich.ai 前端服务与 API 接入域名，用于智能推荐、AI 内容生成与业务请求处理
+DOMAIN-SUFFIX,nrich.ai # Nrich.ai 官方平台主域名
+DOMAIN-SUFFIX,serve.nrich.ai # Nrich.ai 前端服务与 API 接入节点
 
 # > OpenCode AI 平台
 
