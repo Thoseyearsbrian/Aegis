@@ -657,9 +657,10 @@ DOMAIN-SUFFIX,openclaw.ai # OpenClaw 官方平台主域名
 
 DOMAIN-SUFFIX,flowiseai.com # Flowise 官方平台主域名
 
-# > Langflow AI Agent 与 LLM 工作流开发平台
+# > Langflow Platform（AI Agent 与 LLM 工作流开发平台）
+# - 校对时间：2026-03-15
 
-DOMAIN-SUFFIX,langflow.org # Langflow 开源低代码 AI 开发平台，用于构建 AI Agent、LLM 工作流与生成式 AI 应用
+DOMAIN-SUFFIX,langflow.org # Langflow 官方平台主域名
 
 # > Ollama 本地大语言模型运行平台
 
