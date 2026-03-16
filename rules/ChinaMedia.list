@@ -56,6 +56,7 @@ DOMAIN-SUFFIX,ndcpp.com # 字节跳动视频与边缘服务域名
 DOMAIN-SUFFIX,ndcimgs.com # 字节跳动媒体资源 CDN
 DOMAIN-SUFFIX,bdxiguaimg.com # 西瓜视频图片资源 CDN
 DOMAIN-SUFFIX,smtcdns.com # 字节跳动内容调度 CDN
+IP-CIDR,27.221.11.90/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,49.67.72.181/32 # 抖音平台聚合通信节点（aggr5-normal-s19.amemv.com）
 IP-CIDR,49.67.73.135/32 # 抖音视频点播 CDN 节点（v5-gzb2-x.douyinvod.com）
 IP-CIDR,49.67.73.200/32 # 字节跳动电商 API 服务节点（ecom5-normal-lq.ecombdapi.com）
@@ -63,18 +64,25 @@ IP-CIDR,58.211.12.171/32 # 抖音视频点播 CDN 节点（v5-x.douyinvod.com）
 IP-CIDR,58.211.83.161/32 # 抖音特效资源服务节点（lf3-effect-aweme.byteeffecttos.com）
 IP-CIDR,58.216.32.47/32 # 抖音内容分发 CDN 节点（lf26-dy-cdn-tos.bytegecko.com）
 IP-CIDR,58.216.32.182/32 # 抖音图片资源 CDN 节点（p26.douyinpic.com）
+IP-CIDR,58.216.32.184/32 # 抖音图片资源 CDN 节点（p26-sign.douyinpic.com）
 IP-CIDR,58.216.110.47/32 # 抖音内容分发质量控制节点（lf-dy-sourcecdn-tos-qos-control.bytegecko.com）
+IP-CIDR,58.216.110.58/32 # 抖音图片资源 CDN 节点（p26-sign.douyinpic.com）
+IP-CIDR,58.220.178.137/32 # 抖音图片资源 CDN 节点（p26.douyinpic.com）
 IP-CIDR,58.220.178.138/32 # 抖音图片资源 CDN 节点（p26-sign.douyinpic.com）
 IP-CIDR,58.221.45.248/32 # 抖音图片资源 CDN 节点（p11.douyinpic.com）
+IP-CIDR,58.221.77.157/32 # 字节跳动对象存储服务节点（lf9-pitaya.bytetos.com）
 IP-CIDR,58.223.168.69/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
+IP-CIDR,58.223.168.70/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,59.36.97.212/32 # 抖音直播内容分发节点（lf9-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,59.53.192.167/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,61.147.231.169/32 # 抖音平台聚合通信节点（aggr6-normal-s19.amemv.com）
 IP-CIDR,61.155.39.13/32 # 抖音平台服务节点（frontier-aweme-hj-ipainner.amemv.com）
 IP-CIDR,61.155.39.14/32 # 抖音平台服务节点（frontier-aweme-hj-ipainner.amemv.com）
 IP-CIDR,61.156.12.77/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
+IP-CIDR,61.156.12.78/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,61.156.12.79/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,61.160.230.230/32 # 抖音图片资源 CDN 节点（p11.douyinpic.com）
+IP-CIDR,61.164.126.122/32 # 抖音图片资源 CDN 节点（p9-sign.douyinpic.com）
 IP-CIDR,61.170.48.124/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,106.38.222.27/32 # 抖音实时通信节点（bytelink100-ws-hl.amemv.com）
 IP-CIDR,106.227.100.19/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
@@ -96,6 +104,7 @@ IP-CIDR,180.97.246.199/32 # 字节跳动电商 API 服务节点（ecom5-normal-m
 IP-CIDR,180.105.58.106/32 # 字节跳动平台服务节点（pitaya.bytedance.com）
 IP-CIDR,180.105.58.108/32 # 字节跳动平台服务节点（ma5-normal-lq.zijieapi.com）
 IP-CIDR,180.105.58.110/32 # 字节跳动平台服务节点（ma5-normal-lq.zijieapi.com）
+IP-CIDR,180.105.72.160/32 # 抖音图片资源 CDN 节点（p9-sign.douyinpic.com）
 IP-CIDR,180.112.50.71/32 # 抖音图片资源 CDN 节点（p26.douyinpic.com）
 IP-CIDR,180.112.50.73/32 # 抖音图片资源 CDN 节点（p26-sign.douyinpic.com）
 IP-CIDR,180.112.50.74/32 # 抖音图片资源 CDN 节点（p26.douyinpic.com）
@@ -106,11 +115,15 @@ IP-CIDR,218.57.238.36/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com
 IP-CIDR,218.57.238.44/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,218.57.238.45/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,218.92.141.103/32 # 抖音图片资源 CDN 节点（p11.douyinpic.com）
+IP-CIDR,218.92.226.129/32 # 字节跳动对象存储服务节点（lf6-pitaya.bytetos.com）
 IP-CIDR,219.154.246.208/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
+IP-CIDR,219.154.246.212/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
 IP-CIDR,219.154.246.213/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
 IP-CIDR,220.160.45.15/32 # 抖音直播图片资源节点（p3-webcast-sign.douyinpic.com）
 IP-CIDR,221.230.244.89/32 # 字节跳动 MSSDK 服务节点（mssdk3-normal-hj.zijieapi.com）
+IP-CIDR,221.231.83.100/32 # 字节跳动平台服务节点（ma3-normal-lq.zijieapi.com）
 IP-CIDR,222.186.163.68/32 # 抖音图片资源 CDN 节点（p95-bj-sign.douyinpic.com）
+IP-CIDR,222.188.8.49/32 # 字节跳动图片资源服务节点（p6-dy-gm-yp-sign.byteimg.com）
 IP-CIDR,223.111.116.22/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 
 # > 字节跳动相关行为指纹（当前采用 ChinaMedia 路由策略）
