@@ -1,35 +1,25 @@
 # > GlobalMedia.list（国外流媒体平台规则集）
 # - 分类：国际流媒体平台 / 视频音乐服务 / 策略识别用途
-# - 来源：各地区主流平台域名抓包 / 社区规则整理 / 手动校验补充
+# - 来源：官方文档 / 本地流量行为分析 / 手动校验 / 持续自维护
 # - 特征：涵盖美洲、欧洲、日韩、东南亚等常见流媒体服务域名
 # - 说明：YouTube 域名已迁移至 Google.list 统一管理
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-04
+# - 更新时间：2026-03-16
 
-# > TikTok 全球媒体与平台通信基础设施
+# > TikTok / ByteDance Platform Infrastructure（TikTok 与字节跳动平台通信基础设施）
 
-DOMAIN-SUFFIX,tiktok.com # TikTok 全球短视频平台主域名，用于内容访问、账号体系与平台服务
-DOMAIN-SUFFIX,tiktokshops.us # TikTok Shop 北美电商平台域名，用于商家服务、订单体系与电商业务访问
-DOMAIN-SUFFIX,tiktokv.us # TikTok 全球平台业务与 API 服务域名，用于客户端通信、策略下发与核心功能访问
-DOMAIN-SUFFIX,tiktokcdn-us.com # TikTok 全球内容分发网络（CDN）主域，用于视频流、图像资源与静态内容加速传输
-DOMAIN-SUFFIX,mon16-normal-useast5.tiktokv.us # TikTok 平台监控与运行状态通信节点，用于服务质量监测与系统遥测
-DOMAIN-SUFFIX,lf16-cdn-tos.tiktokcdn-us.com # TikTok TOS（对象存储）内容分发节点，用于视频与多媒体资源传输
-DOMAIN-SUFFIX,p19-common-sign.tiktokcdn-us.com # TikTok CDN 签名与鉴权资源节点，用于安全访问控制与内容分发授权
-DOMAIN-SUFFIX,ibytedtos.com # ByteDance 对象存储（TOS）全球基础设施域名，用于 TikTok 等产品的媒体文件、静态资源与签名内容分发
-DOMAIN-SUFFIX,lf16-tiktok-common.ibytedtos.com # TikTok 全球对象存储加速子域，用于媒体资源与通用静态内容访问
-DOMAIN-SUFFIX,api-verification-useast8.tiktokshops.us # TikTok Shop API 验证服务子域，用于商家接入校验、接口验证与业务安全检测
-DOMAIN-SUFFIX,ttcdn-us.com # TikTok 北美 CDN 基础设施域名，用于媒体资源、商品素材与静态内容分发
-DOMAIN-SUFFIX,p16-oec-general-useast8.ttcdn-us.com # TikTok 电商通用 CDN 节点，用于商品资源与业务静态内容加速
-DOMAIN-SUFFIX,p19-oec-general.ttcdn-us.com # TikTok 电商通用 CDN 节点，用于商品素材与平台资源分发
-DOMAIN-SUFFIX,goofy-cdn.com # 字节跳动海外 CDN 基础设施域名，用于 TikTok 等国际产品的媒体资源与静态内容分发
-DOMAIN-SUFFIX,lf16-oversea.goofy-cdn.com # 字节跳动海外 CDN 边缘节点，用于跨区域视频、图片与应用资源加速传输
-DOMAIN-SUFFIX,oecstatic.com # 字节跳动电商（TikTok Shop / OEC）静态资源基础域名，用于前端组件、图片与业务资源分发
-DOMAIN-SUFFIX,lf16-scmcdn.oecstatic.com # 字节跳动电商 CDN 边缘节点，用于商品页面资源、静态文件与电商组件加速加载
-DOMAIN-SUFFIX,tiktokw.us # TikTok 海外服务域名，用于全球业务访问与平台通信
-DOMAIN-SUFFIX,mcs.tiktokw.us # TikTok Messaging / Communication Service（MCS）通信节点，用于客户端消息同步、推送与后台连接维持
-DOMAIN-SUFFIX,lifeattiktok.com # TikTok 官方雇主品牌与招聘门户域名，用于展示企业文化、职位信息与人才招聘服务
-DOMAIN-SUFFIX,p16-va-tiktok.ibyteimg.com # TikTok 国际版图片与静态资源 CDN 节点
+DOMAIN-SUFFIX,tiktok.com # TikTok 全球短视频平台主域名
+DOMAIN-SUFFIX,tiktokv.us # TikTok 平台 API 与核心业务服务域
+DOMAIN-SUFFIX,tiktokcdn-us.com # TikTok 内容分发网络（CDN）基础设施域
+DOMAIN-SUFFIX,tiktokshops.us # TikTok Shop 电商平台服务域
+DOMAIN-SUFFIX,tiktokw.us # TikTok 海外业务服务域
+DOMAIN-SUFFIX,ibytedtos.com # ByteDance 对象存储（TOS）基础设施域
+DOMAIN-SUFFIX,ibyteimg.com # ByteDance 媒体资源与静态内容分发域
+DOMAIN-SUFFIX,ttcdn-us.com # TikTok 北美 CDN 基础设施域
+DOMAIN-SUFFIX,goofy-cdn.com # ByteDance 海外 CDN 基础设施域
+DOMAIN-SUFFIX,oecstatic.com # ByteDance 电商静态资源分发域
+DOMAIN-SUFFIX,lifeattiktok.com # TikTok 官方招聘与雇主品牌门户
 
 # > Amazon Prime Video
 
