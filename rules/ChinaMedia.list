@@ -6,70 +6,56 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2026-03-16
 
-# > 抖音（字节跳动） 相关域名
+# > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
+# - 校对时间：2026-03-16
 
-DOMAIN-SUFFIX,doudian.com # 抖店主域名，用于电商商家后台与订单管理服务
-DOMAIN-SUFFIX,jinritemai.com # 抖音电商主域名，用于商品展示与电商活动页面访问
-DOMAIN-SUFFIX,lfxshop.com # 抖店前端页面与活动相关服务域名
-DOMAIN-SUFFIX,bytedance.net # 字节跳动通用基础服务域名，用于跳转、认证与服务支持
-DOMAIN-SUFFIX,toutiao.com # 今日头条主站域名，用于内容访问与账号相关服务
-DOMAIN-SUFFIX,toutiaoimg.com # 今日头条图像与媒体资源 CDN 域名
-DOMAIN-SUFFIX,toutiaocloud.com # 字节跳动内容相关云服务域名，用于部分中间层与接口服务
-DOMAIN-SUFFIX,douyinstatic.com # 抖音官方静态资源与媒体内容分发 CDN 域名
-DOMAIN-SUFFIX,applogcdn.com # 字节跳动前端静态资源 CDN 域名
-DOMAIN-SUFFIX,huoshanstatic.com # 火山引擎对象存储 CDN 域名
-DOMAIN-SUFFIX,byteeffecttos.com # 字节跳动特效资源 CDN 域名
-DOMAIN-SUFFIX,ndcpp.com # 字节跳动视频计算与边缘基础设施服务域名
-DOMAIN-SUFFIX,ndcimgs.com # 字节跳动媒体资源 CDN 主域，用于视频封面、动态图像与多媒体内容分发
-DOMAIN-SUFFIX,djvod.ndcimgs.com # 字节跳动视频点播媒体资源 CDN 域，用于视频封面、切片与播放相关资源加载
-DOMAIN-SUFFIX,k0u3aydfyd1y18z.djvod.ndcimgs.com # 字节跳动视频媒体资源 CDN 节点，用于具体视频封面与多媒体资源分发
-DOMAIN-SUFFIX,k0u3aydfyd1y10zw240ex979x802x311xx10z.djvod.ndcimgs.com # 字节跳动视频媒体资源 CDN 细分节点，用于高分辨率封面与视频相关静态资源加载
-DOMAIN-SUFFIX,douyinliving.com # 抖音生活服务业务平台相关域名
-DOMAIN-SUFFIX,snssdk.com # 字节跳动通用客户端 SDK 服务接口域名
-DOMAIN-SUFFIX,pstatp.com # 字节跳动产品通用静态资源分发域名
-DOMAIN-SUFFIX,ibytedapm.com # 字节跳动应用运行状态相关服务接口域名
-DOMAIN-SUFFIX,byteimg.com # 字节跳动图像内容分发 CDN 域名
-DOMAIN-SUFFIX,bytedns.net # 字节跳动内容调度与加速服务域名
-DOMAIN-SUFFIX,365yg.com # 字节跳动内容服务主域名，覆盖头条与视频内容访问
-DOMAIN-SUFFIX,bytepluscdn.com # BytePlus 静态资源与内容分发 CDN 域名
-DOMAIN-SUFFIX,bdxiguaimg.com # 字节跳动西瓜视频图片与静态资源 CDN 域名
-DOMAIN-SUFFIX,iesdouyin.com # 抖音核心业务与服务接口域名
-DOMAIN-SUFFIX,bytedance.com # 字节跳动集团官网与通用服务接口域名
-DOMAIN-SUFFIX,byteintl.com # 字节跳动国际化服务相关域名
-DOMAIN-SUFFIX,volcengine.com # 火山引擎云服务品牌与控制台入口域名
-DOMAIN-SUFFIX,bytetos.com # 字节跳动对象存储与静态资源服务域名
-DOMAIN-SUFFIX,bytescm.com # 字节跳动内容分发与资源加速 CDN 域名
-DOMAIN-SUFFIX,byteacctimg.com # 字节跳动账号头像与标识资源 CDN 域名
-DOMAIN-SUFFIX,bytefcdnrd.com # 字节跳动内容分发与静态资源 CDN 域名
-DOMAIN-SUFFIX,douyincdn.com # 抖音官方内容分发与静态资源 CDN 域名
-DOMAIN-SUFFIX,bytednsdoc.com # 字节跳动文档与静态资源分发域名
-DOMAIN-SUFFIX,douyinvod.com # 抖音视频内容分发 CDN 域名
-DOMAIN-SUFFIX,amemv.com # 抖音直播与实时通信相关服务域名
-DOMAIN-SUFFIX,zijieapi.com # 字节跳动官方 API 服务主域名，用于客户端同步、SDK 服务与业务接口通信
-DOMAIN-SUFFIX,awemeugwave.com # 抖音用户激励与增长相关服务域名，用于活动、激励与运营功能支持
-DOMAIN-SUFFIX,bytehwm.com # 字节跳动官方前端字体与样式资源分发域名，用于抖音等产品字体与 UI 资源加载
-DOMAIN-SUFFIX,douyinpic.com # 抖音图片与签名资源分发域名，用于图片、封面与签名资源加载
-DOMAIN-SUFFIX,bytegecko.com # 字节跳动内容与静态资源分发 CDN 域名
-DOMAIN-SUFFIX,toutiaovod.com # 今日头条 / 抖音体系视频点播（VOD）主域名，用于视频内容存储、分发与播放服务
-DOMAIN-SUFFIX,api.toutiaoapi.com # 今日头条核心业务 API 接口，用于信息流请求、内容加载、用户状态与业务数据交互
-DOMAIN-SUFFIX,toutiaostatic.com # 今日头条前端静态资源与内容分发主域名，用于页面资源、脚本与样式加载
-DOMAIN-SUFFIX,smtcdns.com # 字节跳动统计与内容调度 CDN 域名，用于请求分发、流量调度与访问质量优化
-DOMAIN-SUFFIX,vegslb.com # 火山引擎（Volcengine / 字节跳动）SLB 负载均衡基础设施域名
-DOMAIN-SUFFIX,ecombdapi.com # 字节跳动电商核心 API 服务域名，用于商品、订单与业务接口通信
-DOMAIN-SUFFIX,bdurl.net # 字节跳动短链与跳转基础域名，用于内容分发、链接跳转与服务重定向
-DOMAIN-SUFFIX,dig.bdurl.net # 字节跳动短链解析与跳转子域，用于内容追踪式跳转与链路分发
-DOMAIN-SUFFIX,idouyinvod.com # 抖音视频点播 CDN 域名
-DOMAIN-SUFFIX,webcast.amemv.com # 抖音直播服务域，用于直播控制信令与会话管理
-DOMAIN-SUFFIX,tos-quic-lf.douyin.com # 抖音 QUIC 传输协议 CDN 子域，用于高效传输静态/媒体内容
-DOMAIN-SUFFIX,lf-webcast-sourcecdn-tos.bytegecko.com # 抖音直播源站级媒体 CDN 域名
-DOMAIN-SUFFIX,p3-developer.bytemaimg.com # 字节跳动开发者平台图片与静态资源 CDN
-DOMAIN-SUFFIX,lf6-font-sign.bytehwm.com # 字节跳动字体签名与前端字体资源校验服务域名
-DOMAIN-SUFFIX,pull-x2-t5.douyincdn.com # 抖音直播 FLV 拉流 CDN 子域
-DOMAIN-SUFFIX,lf3-static.bytednsdoc.com # 字节跳动文档与前端静态资源 CDN
-DOMAIN-SUFFIX,lf-zt.douyin.com # 抖音专题页（专题/活动页）资源加载域名，用于运营活动页面、专题内容与前端静态资源分发
-DOMAIN-SUFFIX,bytelink100-ws.douyin.com # 抖音 WebSocket 实时通信子域，用于直播互动、消息推送与数据长连接通道服务
-DOMAIN-SUFFIX,v6-dyvexp.douyin.com # 抖音 v6 实验/调度子域，用于直播流媒体链路分配与策略控制
-DOMAIN-SUFFIX,chat.bilibili.com # Bilibili 实时聊天与弹幕服务
+DOMAIN-SUFFIX,douyin.com # 抖音官方主域名
+DOMAIN-SUFFIX,iesdouyin.com # 抖音核心业务域名
+DOMAIN-SUFFIX,doudian.com # 抖店官方域名
+DOMAIN-SUFFIX,jinritemai.com # 抖音电商平台域名
+DOMAIN-SUFFIX,lfxshop.com # 抖音电商相关服务域名
+DOMAIN-SUFFIX,douyinliving.com # 抖音生活服务平台域名
+DOMAIN-SUFFIX,douyinstatic.com # 抖音静态资源 CDN
+DOMAIN-SUFFIX,douyincdn.com # 抖音内容分发 CDN
+DOMAIN-SUFFIX,douyinvod.com # 抖音视频点播 CDN
+DOMAIN-SUFFIX,idouyinvod.com # 抖音视频点播 CDN
+DOMAIN-SUFFIX,douyinpic.com # 抖音图片资源域名
+DOMAIN-SUFFIX,amemv.com # 抖音与直播相关服务域名
+DOMAIN-SUFFIX,bytedance.com # 字节跳动官方主站
+DOMAIN-SUFFIX,bytedance.net # 字节跳动基础服务域名
+DOMAIN-SUFFIX,byteintl.com # 字节跳动国际化服务域名
+DOMAIN-SUFFIX,volcengine.com # 火山引擎官方主站
+DOMAIN-SUFFIX,bytepluscdn.com # BytePlus 内容分发服务域名
+DOMAIN-SUFFIX,vegslb.com # 火山引擎负载均衡服务域名
+DOMAIN-SUFFIX,bytetos.com # 字节跳动对象存储服务域名
+DOMAIN-SUFFIX,huoshanstatic.com # 火山引擎静态资源服务
+DOMAIN-SUFFIX,byteeffecttos.com # 字节跳动特效资源服务
+DOMAIN-SUFFIX,byteimg.com # 字节跳动图片资源 CDN
+DOMAIN-SUFFIX,byteacctimg.com # 字节跳动账号图片资源
+DOMAIN-SUFFIX,bytefcdnrd.com # 字节跳动静态资源 CDN
+DOMAIN-SUFFIX,bytegecko.com # 字节跳动内容分发服务域名
+DOMAIN-SUFFIX,bytehwm.com # 字节跳动字体与样式资源域名
+DOMAIN-SUFFIX,bytedns.net # 字节跳动调度与加速服务域名
+DOMAIN-SUFFIX,bytednsdoc.com # 字节跳动文档资源服务域名
+DOMAIN-SUFFIX,bytescm.com # 字节跳动内容分发服务域名
+DOMAIN-SUFFIX,bdurl.net # 字节跳动短链与跳转服务域名
+DOMAIN-SUFFIX,zijieapi.com # 字节跳动 API 服务域名
+DOMAIN-SUFFIX,ecombdapi.com # 字节跳动电商 API 服务域名
+DOMAIN-SUFFIX,snssdk.com # 字节跳动客户端 SDK 服务域名
+DOMAIN-SUFFIX,pstatp.com # 字节跳动静态资源服务域名
+DOMAIN-SUFFIX,applogcdn.com # 字节跳动静态资源 CDN
+DOMAIN-SUFFIX,ibytedapm.com # 字节跳动应用监控服务域名
+DOMAIN-SUFFIX,toutiao.com # 今日头条官方主站
+DOMAIN-SUFFIX,365yg.com # 字节跳动内容服务域名
+DOMAIN-SUFFIX,toutiaoimg.com # 今日头条图片资源 CDN
+DOMAIN-SUFFIX,toutiaocloud.com # 字节跳动云服务相关域名
+DOMAIN-SUFFIX,toutiaovod.com # 字节跳动视频点播服务域名
+DOMAIN-SUFFIX,toutiaoapi.com # 今日头条 API 服务域名
+DOMAIN-SUFFIX,toutiaostatic.com # 今日头条静态资源服务域名
+DOMAIN-SUFFIX,ndcpp.com # 字节跳动视频与边缘服务域名
+DOMAIN-SUFFIX,ndcimgs.com # 字节跳动媒体资源 CDN
+DOMAIN-SUFFIX,bdxiguaimg.com # 西瓜视频图片资源 CDN
+DOMAIN-SUFFIX,smtcdns.com # 字节跳动内容调度 CDN
 IP-CIDR,1.82.234.0/24 # 抖音直播 FLV Stage 预发布/冷启动拉流 CDN 实际服务节点（/stage/stream-*.flv）
 IP-CIDR,1.180.207.0/24 # 抖音图片签名与媒体鉴权节点（p26-sign.douyinpic.com）
 IP-CIDR,1.193.223.0/24 # 抖音直播 Third 分发节点（FLV 实际拉流地址）
@@ -744,6 +730,7 @@ DOMAIN-SUFFIX,upos-sz-staticcos.bilivideo.com # Bilibili 视频存储 CDN 节点
 DOMAIN-SUFFIX,upos-sz-mirrorzos.bilivideo.com # Bilibili 视频内容 CDN 节点，用于视频文件的加速分发与区域镜像
 DOMAIN-SUFFIX,upos-sz-estgoss.bilivideo.com # Bilibili UPOS 视频对象存储节点（深圳），用于视频文件分片与流媒体内容分发
 DOMAIN-SUFFIX,upos-sz-mirroralib.bilivideo.com # Bilibili UPOS 视频镜像节点（阿里云线路），用于视频缓存、加速与稳定性保障
+DOMAIN-SUFFIX,chat.bilibili.com # Bilibili 实时聊天与弹幕服务
 IP-CIDR,203.107.1.65 # 阿里云公共解析节点（AliDNS），用于域名 upos-sz-mirrorcos.bilivideo.com 的解析请求
 IP-CIDR,61.170.65.76 # Bilibili 静态内容 CDN 节点，对应域名 upos-sz-staticcos.bilivideo.com，用于分发视频与资源文件
 IP-CIDR,61.147.236.0/24 # 哔哩哔哩视频点播（VOD）m4s 分段流媒体 CDN 实际服务节点（/upgcxcode/*.m4s）
