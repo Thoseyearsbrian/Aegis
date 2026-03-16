@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,ttcdn-us.com # TikTok 北美 CDN 基础设施域
 DOMAIN-SUFFIX,goofy-cdn.com # ByteDance 海外 CDN 基础设施域
 DOMAIN-SUFFIX,oecstatic.com # ByteDance 电商静态资源分发域
 DOMAIN-SUFFIX,lifeattiktok.com # TikTok 官方招聘与雇主品牌门户
+DOMAIN-SUFFIX,byteoversea.com # ByteDance 海外平台基础设施域
 
 # > Amazon Prime Video
 
