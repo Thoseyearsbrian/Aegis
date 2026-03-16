@@ -60,18 +60,25 @@ IP-CIDR,49.67.72.181/32 # 抖音平台聚合通信节点（aggr5-normal-s19.amem
 IP-CIDR,49.67.73.200/32 # 字节跳动电商 API 服务节点（ecom5-normal-lq.ecombdapi.com）
 IP-CIDR,58.211.83.161/32 # 抖音特效资源服务节点（lf3-effect-aweme.byteeffecttos.com）
 IP-CIDR,58.216.110.47/32 # 抖音内容分发质量控制节点（lf-dy-sourcecdn-tos-qos-control.bytegecko.com）
-IP-CIDR,61.147.231.169/32 # Douyin 平台聚合通信节点（aggr6-normal-s19.amemv.com）
-IP-CIDR,61.155.39.14/32 # 抖音平台服务节点（frontier-aweme-hj-ipainner.amemv.com）
+IP-CIDR,58.220.178.138/32 # 抖音图片资源 CDN 节点（p26-sign.douyinpic.com）
+IP-CIDR,58.223.168.69/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
+IP-CIDR,59.53.192.167/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
+IP-CIDR,61.147.231.169/32 # 抖音平台聚合通信节点（aggr6-normal-s19.amemv.com）
 IP-CIDR,61.155.39.13/32 # 抖音平台服务节点（frontier-aweme-hj-ipainner.amemv.com）
+IP-CIDR,61.155.39.14/32 # 抖音平台服务节点（frontier-aweme-hj-ipainner.amemv.com）
+IP-CIDR,106.227.100.19/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,117.68.125.184/32 # 抖音图片资源 CDN 节点（p95-bj-sign.douyinpic.com）
 IP-CIDR,117.85.69.8/32 # 字节跳动策略与调度服务节点（polaris3-normal-lq.zijieapi.com）
 IP-CIDR,119.167.135.73/32 # 抖音内容分发质量控制节点（lf-dy-sourcecdn-tos-qos-control.bytegecko.com）
-IP-CIDR,122.225.214.8/32 # ByteDance 同步服务节点（bsync3-normal-hj.zijieapi.com）
-IP-CIDR,175.12.101.228/32 # Douyin 图片资源 CDN 节点（p3-sign.douyinpic.com）
+IP-CIDR,119.167.135.75/32 # 抖音直播内容分发节点（lf-webcast-gr-sourcecdn.bytegecko.com）
+IP-CIDR,122.225.214.8/32 # 字节跳动同步服务节点（bsync3-normal-hj.zijieapi.com）
+IP-CIDR,175.12.101.228/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,180.105.58.106/32 # 字节跳动平台服务节点（pitaya.bytedance.com）
 IP-CIDR,180.105.58.110/32 # 字节跳动平台服务节点（ma5-normal-lq.zijieapi.com）
-IP-CIDR,180.112.50.75/32 # Douyin 图片资源 CDN 节点（p26.douyinpic.com）
-IP-CIDR,219.154.246.213/32 # Douyin 图片资源 CDN 节点（p3.douyinpic.com）
+IP-CIDR,180.112.50.71/32 # 抖音图片资源 CDN 节点（p26.douyinpic.com）
+IP-CIDR,180.112.50.75/32 # 抖音图片资源 CDN 节点（p26.douyinpic.com）
+IP-CIDR,219.154.246.208/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
+IP-CIDR,219.154.246.213/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
 
 # > 字节跳动相关行为指纹（当前采用 ChinaMedia 路由策略）
 
@@ -90,8 +97,11 @@ DOMAIN-SUFFIX,bytedapm.com # 字节跳动 APM 性能监控主域
 DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com # 字节跳动 APM 上报节点
 IP-CIDR,49.79.134.229/32 # 抖音日志上报通信节点（log0-misc-hl.amemv.com）
 IP-CIDR,49.79.134.233/32 # 抖音监控与遥测通信节点（mon0-misc-hl.amemv.com）
+IP-CIDR,58.215.145.233/32 # 抖音日志回传通信节点（logbk.amemv.com）
 IP-CIDR,58.222.35.102/32 # 字节跳动配置与同步服务节点（tnc0-alisc1.zijieapi.com）
-IP-CIDR,58.223.176.216/32 # Douyin 监控与遥测通信节点（mon11-misc-hl.amemv.com）
+IP-CIDR,58.223.176.216/32 # 抖音监控与遥测通信节点（mon11-misc-hl.amemv.com）
+IP-CIDR,117.92.245.200/32 # 抖音日志回传通信节点（logbk.amemv.com）
+IP-CIDR,180.97.174.233/32 # 字节跳动实验与 A/B 测试节点（abtest3-misc-hj.zijieapi.com）
 IP-CIDR,221.231.47.32/32 # 字节跳动配置与同步服务节点（tnc0-alisc1.zijieapi.com）
 
 # > 小红书 相关域名
