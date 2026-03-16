@@ -57,9 +57,12 @@ DOMAIN-SUFFIX,ndcimgs.com # 字节跳动媒体资源 CDN
 DOMAIN-SUFFIX,bdxiguaimg.com # 西瓜视频图片资源 CDN
 DOMAIN-SUFFIX,smtcdns.com # 字节跳动内容调度 CDN
 IP-CIDR,49.67.72.181/32 # 抖音平台聚合通信节点（aggr5-normal-s19.amemv.com）
+IP-CIDR,49.67.73.135/32 # 抖音视频点播 CDN 节点（v5-gzb2-x.douyinvod.com）
 IP-CIDR,49.67.73.200/32 # 字节跳动电商 API 服务节点（ecom5-normal-lq.ecombdapi.com）
+IP-CIDR,58.211.12.171/32 # 抖音视频点播 CDN 节点（v5-x.douyinvod.com）
 IP-CIDR,58.211.83.161/32 # 抖音特效资源服务节点（lf3-effect-aweme.byteeffecttos.com）
 IP-CIDR,58.216.32.47/32 # 抖音内容分发 CDN 节点（lf26-dy-cdn-tos.bytegecko.com）
+IP-CIDR,58.216.32.182/32 # 抖音图片资源 CDN 节点（p26.douyinpic.com）
 IP-CIDR,58.216.110.47/32 # 抖音内容分发质量控制节点（lf-dy-sourcecdn-tos-qos-control.bytegecko.com）
 IP-CIDR,58.220.178.138/32 # 抖音图片资源 CDN 节点（p26-sign.douyinpic.com）
 IP-CIDR,58.221.45.248/32 # 抖音图片资源 CDN 节点（p11.douyinpic.com）
@@ -78,6 +81,7 @@ IP-CIDR,106.227.100.19/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.co
 IP-CIDR,113.142.162.70/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,114.80.10.198/32 # 抖音内容分发 CDN 节点（n98-lf9-dy-ncdn-tos-sub.bytegecko.com）
 IP-CIDR,115.238.155.207/32 # 抖音图片资源 CDN 节点（p95-bj-sign.douyinpic.com）
+IP-CIDR,117.24.169.48/32 # 字节跳动电商图片资源节点（p3-aio.ecombdimg.com）
 IP-CIDR,117.68.125.184/32 # 抖音图片资源 CDN 节点（p95-bj-sign.douyinpic.com）
 IP-CIDR,117.85.69.8/32 # 字节跳动策略与调度服务节点（polaris3-normal-lq.zijieapi.com）
 IP-CIDR,117.86.183.25/32 # 抖音平台服务节点（klink5-hj.amemv.com）
@@ -98,7 +102,9 @@ IP-CIDR,180.112.50.74/32 # 抖音图片资源 CDN 节点（p26.douyinpic.com）
 IP-CIDR,180.112.50.75/32 # 抖音图片资源 CDN 节点（p26.douyinpic.com）
 IP-CIDR,182.106.149.189/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,183.61.173.121/32 # 抖音直播内容分发节点（lf9-webcast-cdn-tos-ncdn.bytegecko.com）
+IP-CIDR,218.57.238.36/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,218.57.238.44/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
+IP-CIDR,218.57.238.45/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,218.92.141.103/32 # 抖音图片资源 CDN 节点（p11.douyinpic.com）
 IP-CIDR,219.154.246.208/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
 IP-CIDR,219.154.246.213/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
