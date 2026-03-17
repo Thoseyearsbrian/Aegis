@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-16
+# - 更新时间：2026-03-17
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
 # - 校对时间：2026-03-16
@@ -56,6 +56,7 @@ DOMAIN-SUFFIX,ndcpp.com # 字节跳动视频与边缘服务域名
 DOMAIN-SUFFIX,ndcimgs.com # 字节跳动媒体资源 CDN
 DOMAIN-SUFFIX,bdxiguaimg.com # 西瓜视频图片资源 CDN
 DOMAIN-SUFFIX,smtcdns.com # 字节跳动内容调度 CDN
+DOMAIN-SUFFIX,ecombdimg.com # 字节跳动电商图片资源域名
 IP-CIDR,1.194.217.10/32 # 抖音内容分发节点（lf-sourcecdn-tos.bytegecko.com）
 IP-CIDR,27.221.11.90/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,36.25.244.52/32 # 抖音直播内容分发节点（lf1-webcastcdn-tos.douyinstatic.com）
@@ -120,6 +121,7 @@ IP-CIDR,61.164.126.122/32 # 抖音图片资源 CDN 节点（p9-sign.douyinpic.co
 IP-CIDR,61.170.48.82/32 # 抖音直播图片资源节点（p11-webcast-sign.douyinpic.com）
 IP-CIDR,61.170.48.124/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,61.170.48.133/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
+IP-CIDR,98.96.242.53/32 # 字节跳动电商 API 服务节点（ecom5-normal-lq.ecombdapi.com）
 IP-CIDR,101.226.41.185/32 # 抖音直播内容分发节点（n98-lf-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,106.38.222.27/32 # 抖音实时通信节点（bytelink100-ws-hl.amemv.com）
 IP-CIDR,106.38.222.28/32 # 抖音实时通信节点（bytelink100-ws-hl.amemv.com）
