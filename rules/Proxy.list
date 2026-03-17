@@ -4,7 +4,7 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-14
+# - 更新时间：2026-03-17
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -2305,6 +2305,7 @@ DOMAIN-SUFFIX,assets.tumblr.com # Tumblr 静态资源加载（JS、CSS 等）
 # > Wikipedia 维基百科平台相关域名
 
 DOMAIN-SUFFIX,wikipedia.org # Wikipedia 主域名，开放式百科全书项目 
+DOMAIN-SUFFIX,auth.wikimedia.org # Wikimedia 统一认证与登录服务域名
 DOMAIN-SUFFIX,upload.wikimedia.org # Wikipedia 媒体上传与资源加载域名 
 DOMAIN-SUFFIX,meta.wikimedia.org # Wikipedia 协作管理平台（元维基） 
 DOMAIN-SUFFIX,commons.wikimedia.org # Wikipedia 公共媒体资料库 
