@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-14
+# - 更新时间：2026-03-17
 
 # > WeChat 数据统计与遥测
 
@@ -1366,3 +1366,7 @@ DOMAIN-SUFFIX,collector-cdn.github.com # GitHub 遥测数据接收
 # > Anthropic / Claude Telemetry Services（Claude 行为遥测与事件上报服务）
 
 DOMAIN-SUFFIX,events.claude.ai # Claude Telemetry 事件上报与行为日志采集接口
+
+# > Wikimedia 行为分析与事件上报服务
+
+DOMAIN-SUFFIX,intake-analytics.wikimedia.org # Wikimedia 事件采集与分析上报服务域名
