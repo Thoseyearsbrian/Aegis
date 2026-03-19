@@ -4,7 +4,7 @@
 # - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-17
+# - 更新时间：2026-03-19
 
 # > WeChat 数据统计与遥测
 
@@ -1370,3 +1370,7 @@ DOMAIN-SUFFIX,events.claude.ai # Claude Telemetry 事件上报与行为日志采
 # > Wikimedia 行为分析与事件上报服务
 
 DOMAIN-SUFFIX,intake-analytics.wikimedia.org # Wikimedia 事件采集与分析上报服务域名
+
+# > Pencil / GoatCounter（设计协作工具 / 隐私友好统计服务）
+
+DOMAIN-SUFFIX,pencildev-new.goatcounter.com # Pencil 相关 GoatCounter 统计子域，用于站点访问统计

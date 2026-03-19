@@ -4,8 +4,8 @@
 # - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-06
-# - 校对时间：2026-03-06
+# - 更新时间：2026-03-19
+# - 校对时间：2026-03-19
 
 # > Microsoft Visual Studio Code 主程序与资源服务
 
@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,main.vscode-cdn.net # VS Code 官方 CDN
 DOMAIN-SUFFIX,vscode-unpkg.net # VS Code 插件资源镜像 CDN
 DOMAIN-SUFFIX,code.visualstudio.com # VS Code 官方站点
 DOMAIN-SUFFIX,vscode.dev # VS Code Web 在线 IDE
+DOMAIN-SUFFIX,cdn.vsassets.io # Microsoft Visual Studio / Marketplace 静态资源分发域名
 
 # > Microsoft Translator Services（Microsoft 翻译服务）
 
@@ -141,6 +142,10 @@ DOMAIN-SUFFIX,powerbi.com # Microsoft Power BI 官方云服务域名
 DOMAIN-SUFFIX,login.live.com # Microsoft Live 登录入口
 DOMAIN-SUFFIX,login.windows.net # Microsoft Azure AD 登录服务
 DOMAIN-SUFFIX,sts.windows.net # Microsoft 身份验证服务（Azure AD）
+
+# > Microsoft SharePoint Online（微软 SharePoint Online 服务）
+
+DOMAIN-SUFFIX,static2.sharepointonline.com # SharePoint Online 静态资源服务域名
 
 # > Microsoft Telemetry & Diagnostics（Microsoft 诊断与遥测服务）
 
