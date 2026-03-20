@@ -576,6 +576,7 @@ DOMAIN-SUFFIX,upos-sz-mirrorzos.bilivideo.com # Bilibili 视频内容 CDN 节点
 DOMAIN-SUFFIX,upos-sz-estgoss.bilivideo.com # Bilibili UPOS 视频对象存储节点（深圳），用于视频文件分片与流媒体内容分发
 DOMAIN-SUFFIX,upos-sz-mirroralib.bilivideo.com # Bilibili UPOS 视频镜像节点（阿里云线路），用于视频缓存、加速与稳定性保障
 DOMAIN-SUFFIX,chat.bilibili.com # Bilibili 实时聊天与弹幕服务
+DOMAIN-SUFFIX,album.biliimg.com # 哔哩哔哩相册图片资源域名
 IP-CIDR,203.107.1.65 # 阿里云公共解析节点（AliDNS），用于域名 upos-sz-mirrorcos.bilivideo.com 的解析请求
 IP-CIDR,61.170.65.76 # Bilibili 静态内容 CDN 节点，对应域名 upos-sz-staticcos.bilivideo.com，用于分发视频与资源文件
 IP-CIDR,61.147.236.0/24 # 哔哩哔哩视频点播（VOD）m4s 分段流媒体 CDN 实际服务节点（/upgcxcode/*.m4s）
