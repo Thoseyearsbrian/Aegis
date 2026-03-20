@@ -4,7 +4,7 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-19
+# - 更新时间：2026-03-20
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -6843,6 +6843,11 @@ DOMAIN-SUFFIX,tile.openstreetmap.org # OpenStreetMap 官方地图瓦片服务
 # > Pencil（设计协作工具平台）
 
 DOMAIN-SUFFIX,pencil.dev # Pencil 设计协作工具平台域名
+
+# > IU13 Mirror（开源软件镜像服务）
+
+DOMAIN-SUFFIX,iu13.net # IU13 开源软件镜像服务域名
+DOMAIN-SUFFIX,mirrors.iu13.net # IU13 开源软件镜像与分发服务域名
 
 # > 第三方博客网站
 
