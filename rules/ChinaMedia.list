@@ -92,6 +92,7 @@ IP-CIDR,58.215.210.146/32 # 抖音内容分发质量控制节点（lf-dy-sourcec
 IP-CIDR,58.215.210.148/32 # 抖音直播内容分发节点（lf-webcast-sourcecdn-tos.bytegecko.com）
 IP-CIDR,58.216.6.14/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,58.216.14.77/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
+IP-CIDR,58.216.23.103/32 # 抖音直播内容分发节点（lf-webcast-sourcecdn-tos.bytegecko.com）
 IP-CIDR,58.216.23.113/32 # 抖音平台聚合通信节点（aggr5-normal-s19.amemv.com）
 IP-CIDR,58.216.23.114/32 # 抖音平台聚合通信节点（aggr5-normal-s19.amemv.com）
 IP-CIDR,58.216.32.47/32 # 抖音内容分发 CDN 节点（lf26-dy-cdn-tos.bytegecko.com）
@@ -164,7 +165,14 @@ IP-CIDR,61.155.39.14/32 # 抖音平台服务节点（frontier-aweme-hj-ipainner.
 IP-CIDR,61.156.12.77/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,61.156.12.78/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,61.156.12.79/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
+IP-CIDR,61.156.12.82/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,61.156.12.84/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
+IP-CIDR,119.167.135.69/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
+IP-CIDR,180.97.171.107/32 # 抖音直播内容分发节点（lf26-webcast-cdn-tos.bytegecko.com）
+IP-CIDR,180.97.251.10/32 # 字节跳动开发者图片资源节点（p3-developer.bytemaimg.com）
+IP-CIDR,180.119.119.150/32 # 字节跳动文档资源服务节点（lf3-static.bytednsdoc.com）
+IP-CIDR,180.127.36.11/32 # 抖音视频点播 CDN 节点（v5-ex-wha.douyinvod.com）
+IP-CIDR,221.229.77.39/32 # 字节跳动开发者图片资源节点（p3-developer.bytemaimg.com）
 IP-CIDR,61.164.147.229/32 # 字节跳动安全 SDK 服务节点（mssdk3-normal-hj.zijieapi.com）
 IP-CIDR,61.164.147.230/32 # 抖音直播核心通信节点（webcast-core-m.amemv.com）
 IP-CIDR,61.190.114.84/32 # 字节跳动同步服务节点（bsync3-normal-hj.zijieapi.com）
@@ -441,8 +449,10 @@ DOMAIN-SUFFIX,bytedapm.com # 字节跳动 APM 性能监控主域
 DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com # 字节跳动 APM 上报节点
 IP-CIDR,49.79.134.229/32 # 抖音日志上报通信节点（log0-misc-hl.amemv.com）
 IP-CIDR,49.79.134.230/32 # 抖音日志回传通信节点（logbk.amemv.com）
+IP-CIDR,49.79.134.231/32 # 抖音日志上报通信节点（log0-misc-hl.amemv.com）
 IP-CIDR,49.79.134.232/32 # 抖音监控与遥测通信节点（mon0-misc-hl.amemv.com）
 IP-CIDR,49.79.134.233/32 # 抖音监控与遥测通信节点（mon0-misc-hl.amemv.com）
+IP-CIDR,115.238.230.10/32 # 抖音监控与遥测通信节点（mon0-misc-hl.amemv.com）
 IP-CIDR,58.215.92.71/32 # 抖音日志回传通信节点（logbk.amemv.com）
 IP-CIDR,58.215.145.232/32 # 抖音日志回传通信节点（logbk.amemv.com）
 IP-CIDR,58.215.145.233/32 # 抖音日志回传通信节点（logbk.amemv.com）
@@ -484,6 +494,7 @@ IP-CIDR,221.229.209.49/32 # 字节跳动 MSSDK 服务节点（mssdk3-normal-hj.z
 IP-CIDR,221.229.209.50/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
 IP-CIDR,221.229.209.58/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
 IP-CIDR,221.230.244.88/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
+IP-CIDR,221.230.244.110/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
 IP-CIDR,221.230.244.91/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
 IP-CIDR,221.230.244.92/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
 IP-CIDR,221.230.244.114/32 # 字节跳动性能与诊断节点（scalpel-perf.zijieapi.com）
