@@ -278,6 +278,8 @@ DOMAIN-SUFFIX,wx.go189.cn # 中国电信微信服务域名
 DOMAIN-SUFFIX,w.189.cn # 中国电信网页服务域名
 DOMAIN-SUFFIX,p.go189.cn # 中国电信页面服务域名
 DOMAIN-SUFFIX,zt-app.go189.cn # 中国电信前端应用服务域名
+DOMAIN-SUFFIX,cd.go189.cn # 中国电信内容分发服务域名
+DOMAIN-SUFFIX,zt-activity.go189.cn # 中国电信活动页面服务域名
 DOMAIN-SUFFIX,reportappgo.189.cn # 中国电信应用日志上报接口域名
 DOMAIN-SUFFIX,appgologin.189.cn # 中国电信应用登录接口域名
 DOMAIN-SUFFIX,alipaymini.189.cn # 中国电信支付宝小程序接入网关域名，用于小程序业务通信、服务调用与接口请求
