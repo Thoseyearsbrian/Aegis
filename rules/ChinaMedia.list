@@ -543,51 +543,48 @@ IP-CIDR,61.170.100.65 # 小红书视频 CDN 节点, 中国电信，江苏常州
 
 # > Bilibili 相关域名
 
-DOMAIN-SUFFIX,bilibili.com # Bilibili 主站
-DOMAIN-SUFFIX,hdslb.com # Bilibili 静态资源与视频流
-DOMAIN-SUFFIX,acg.tv # Bilibili 旧版短链接域名
-DOMAIN-SUFFIX,bilivideo.com # Bilibili 视频内容分发与对象存储主域名
-DOMAIN-SUFFIX,member.bilibili.com # 哔哩哔哩用户中心域名，用于会员信息、账户管理与身份认证服务
-DOMAIN-SUFFIX,mall.bilibili.com # 哔哩哔哩会员购商城域名，用于加载商品详情与交易页面 
-DOMAIN-SUFFIX,upos-sz-mirror08c.bilvideo.com # 哔哩哔哩视频 CDN 加速节点
-DOMAIN-SUFFIX,api.vc.bilibili.com # Bilibili 小视频服务接口，用于加载 Story 模块与短视频内容 
-DOMAIN-SUFFIX,api.live.bilibili.com # Bilibili 直播服务接口，用于弹幕、直播间内容与互动数据加载 
-DOMAIN-SUFFIX,app.bilibili.com # Bilibili 主应用接口域名，提供首页内容、频道推荐等功能 
-DOMAIN-SUFFIX,api.bilibili.com # 哔哩哔哩主站核心接口，用于内容获取、用户交互与功能请求
-DOMAIN-SUFFIX,archive.biliimg.com # Bilibili 静态资源域名，用于加载历史图像与媒体内容
-DOMAIN-SUFFIX,mcdn.bilivideo.cn # 哔哩哔哩视频 CDN 域名，用于分发视频内容
-DOMAIN-SUFFIX,xy223x247x68x214xy.mcdn.bilivideo.cn # Bilibili 视频分发 CDN 节点（移动端专用）
-DOMAIN-SUFFIX,xy36x163x193x66xy.mcdn.bilivideo.cn # 哔哩哔哩视频 CDN 域名，分发高清视频内容
-DOMAIN-SUFFIX,aecj3mcuk4jou6cs.nexusedgeio.com # Bilibili 视频内容加速节点，托管于第三方 CDN 服务（NexusEdge）
-DOMAIN-SUFFIX,upos-sz-302ppio.bilivideo.com # Bilibili UPOS 上传/下载服务节点（深圳分区）
-DOMAIN-SUFFIX,xy183x94x183x71xy.mcdn.bilivideo.cn # Bilibili CDN 子域，疑似混淆节点，用于视频传输与请求分析
-DOMAIN-SUFFIX,upos-sz-mirrorcoso1.bilivideo.com # Bilibili 视频 CDN 镜像节点，用于深圳区域内容分发与资源加载 
-DOMAIN-SUFFIX,upos-sz-estgcos.bilivideo.com # 哔哩哔哩 CDN 节点（深圳区域），用于视频内容上传与分发（UP 主上传 / 点播资源）
-DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net # 哔哩哔哩播放器行为追踪域名，用于收集网页播放器使用数据（行为分析与监控模块）
-DOMAIN-SUFFIX,cn-gddg-ct-01-10.bilivideo.com # 哔哩哔哩中国节点 CDN 域名（广东电信），用于内容分发与缓存服务（可能涉及 HTTPS 流量代理）
-DOMAIN-SUFFIX,grpc.biliapi.net # Bilibili 通用 gRPC 通道，承载用户行为与个性化内容请求
-DOMAIN-SUFFIX,app.biliapi.net # Bilibili App 级行为接口
-DOMAIN-SUFFIX,h​​w-v2-web-player-tracker.biliapi.net # Bilibili 网页播放器追踪接口，用于收集播放行为与观看数据
-DOMAIN-SUFFIX,upos-sz-mirrorcos.bilivideo.com # Bilibili 视频 CDN 节点，用于内容分发与资源镜像加载 
-DOMAIN-SUFFIX,upos-sz-estghw.bilivideo.com # Bilibili 视频 CDN 节点，用于内容分发与边缘资源加速 
-DOMAIN-SUFFIX,line3-h5-mobile-api.biligame.com # 哔哩哔哩游戏接口域名，用于移动端登录与游戏数据请求
-DOMAIN-SUFFIX,upos-sz-staticcos.bilivideo.com # Bilibili 视频存储 CDN 节点，用于静态资源加载（如封面图、字幕）
-DOMAIN-SUFFIX,upos-sz-mirrorzos.bilivideo.com # Bilibili 视频内容 CDN 节点，用于视频文件的加速分发与区域镜像
-DOMAIN-SUFFIX,upos-sz-estgoss.bilivideo.com # Bilibili UPOS 视频对象存储节点（深圳），用于视频文件分片与流媒体内容分发
-DOMAIN-SUFFIX,upos-sz-mirroralib.bilivideo.com # Bilibili UPOS 视频镜像节点（阿里云线路），用于视频缓存、加速与稳定性保障
+DOMAIN-SUFFIX,bilibili.com # Bilibili 主站域名
+DOMAIN-SUFFIX,hdslb.com # Bilibili 静态资源与媒体服务域名
+DOMAIN-SUFFIX,acg.tv # Bilibili 短链接域名
+DOMAIN-SUFFIX,bilivideo.com # Bilibili 视频分发与存储服务域名
+DOMAIN-SUFFIX,member.bilibili.com # Bilibili 会员与账户服务域名
+DOMAIN-SUFFIX,mall.bilibili.com # Bilibili 会员购服务域名
+DOMAIN-SUFFIX,upos-sz-mirror08c.bilvideo.com # Bilibili 视频分发节点域名
+DOMAIN-SUFFIX,api.vc.bilibili.com # Bilibili 短视频服务接口域名
+DOMAIN-SUFFIX,api.live.bilibili.com # Bilibili 直播服务接口域名
+DOMAIN-SUFFIX,app.bilibili.com # Bilibili 应用服务接口域名
+DOMAIN-SUFFIX,api.bilibili.com # Bilibili 核心服务接口域名
+DOMAIN-SUFFIX,archive.biliimg.com # Bilibili 媒体资源域名
+DOMAIN-SUFFIX,mcdn.bilivideo.cn # Bilibili 视频分发服务域名
+DOMAIN-SUFFIX,xy223x247x68x214xy.mcdn.bilivideo.cn # Bilibili 视频分发节点域名
+DOMAIN-SUFFIX,xy36x163x193x66xy.mcdn.bilivideo.cn # Bilibili 视频分发节点域名
+DOMAIN-SUFFIX,aecj3mcuk4jou6cs.nexusedgeio.com # Bilibili 第三方视频分发节点域名
+DOMAIN-SUFFIX,upos-sz-302ppio.bilivideo.com # Bilibili UPOS 服务节点域名
+DOMAIN-SUFFIX,xy183x94x183x71xy.mcdn.bilivideo.cn # Bilibili 视频分发节点域名
+DOMAIN-SUFFIX,upos-sz-mirrorcoso1.bilivideo.com # Bilibili 视频分发镜像节点域名
+DOMAIN-SUFFIX,upos-sz-estgcos.bilivideo.com # Bilibili 视频分发节点域名
+DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net # Bilibili 网页播放器接口域名
+DOMAIN-SUFFIX,cn-gddg-ct-01-10.bilivideo.com # Bilibili 视频分发节点域名
+DOMAIN-SUFFIX,grpc.biliapi.net # Bilibili 通用服务接口域名
+DOMAIN-SUFFIX,app.biliapi.net # Bilibili 应用服务接口域名
+DOMAIN-SUFFIX,upos-sz-mirrorcos.bilivideo.com # Bilibili 视频分发镜像节点域名
+DOMAIN-SUFFIX,upos-sz-estghw.bilivideo.com # Bilibili 视频分发节点域名
+DOMAIN-SUFFIX,line3-h5-mobile-api.biligame.com # Bilibili 游戏服务接口域名
+DOMAIN-SUFFIX,upos-sz-staticcos.bilivideo.com # Bilibili 静态资源服务节点域名
+DOMAIN-SUFFIX,upos-sz-mirrorzos.bilivideo.com # Bilibili 视频分发镜像节点域名
+DOMAIN-SUFFIX,upos-sz-estgoss.bilivideo.com # Bilibili UPOS 对象存储节点域名
+DOMAIN-SUFFIX,upos-sz-mirroralib.bilivideo.com # Bilibili UPOS 视频镜像节点域名
 DOMAIN-SUFFIX,chat.bilibili.com # Bilibili 实时聊天与弹幕服务
 DOMAIN-SUFFIX,album.biliimg.com # 哔哩哔哩相册图片资源域名
-IP-CIDR,203.107.1.65 # 阿里云公共解析节点（AliDNS），用于域名 upos-sz-mirrorcos.bilivideo.com 的解析请求
-IP-CIDR,61.170.65.76 # Bilibili 静态内容 CDN 节点，对应域名 upos-sz-staticcos.bilivideo.com，用于分发视频与资源文件
-IP-CIDR,61.147.236.0/24 # 哔哩哔哩视频点播（VOD）m4s 分段流媒体 CDN 实际服务节点（/upgcxcode/*.m4s）
-IP-CIDR,117.44.77.5/32 # 哔哩哔哩视频内容分发 CDN 实际服务节点（upos-sz-mirrorcos.bilivideo.com）
+IP-CIDR,61.170.65.76/32 # Bilibili 静态资源服务节点（upos-sz-staticcos.bilivideo.com）
+IP-CIDR,117.44.77.5/32 # Bilibili 视频分发服务节点（upos-sz-mirrorcos.bilivideo.com）
 
 # > Bilibili 行为分析服务域名（当前采用 ChinaMedia 路由策略）
 
-DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流日志接口域名，用于客户端事件上报与行为分析 
-DOMAIN-SUFFIX,data.bilibili.com # Bilibili 数据采集与分析接口，用于用户行为统计与日志上传 
-DOMAIN-SUFFIX,ali-web-player-tracker.biliapi.net # 哔哩哔哩播放器追踪接口，用于采集网页端播放行为、埋点与用户互动数据
-DOMAIN-SUFFIX,cm.bilibili.com # 哔哩哔哩客户端行为统计与事件上报域名，用于播放、点击、曝光等用户行为数据采集与推荐系统反馈
+DOMAIN-SUFFIX,dataflow.biliapi.com # Bilibili 数据流接口域名
+DOMAIN-SUFFIX,data.bilibili.com # Bilibili 数据服务接口域名
+DOMAIN-SUFFIX,ali-web-player-tracker.biliapi.net # Bilibili 网页播放器接口域名
+DOMAIN-SUFFIX,cm.bilibili.com # Bilibili 客户端统计接口域名
 
 # > 爱奇艺 相关域名
 
