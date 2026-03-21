@@ -553,9 +553,12 @@ DOMAIN-SUFFIX,sns-video-qc.xhscdn.com # 小红书视频资源域名
 DOMAIN-SUFFIX,sns-avatar-qc.xhscdn.com # 小红书头像资源域名
 DOMAIN-SUFFIX,growth-img.xhscdn.com # 小红书活动图片资源域名
 DOMAIN-SUFFIX,link.xiaohongshu.com # 小红书内容跳转服务域名
+IP-CIDR,101.227.133.99/32 # 小红书主站服务节点（www.xiaohongshu.com）
+IP-CIDR,113.142.216.58/32 # 小红书商城资源服务节点（mall-i1.xhscdn.com）
 IP-CIDR,115.227.40.106/32 # 小红书搜索服务节点（so.xiaohongshu.com）
 IP-CIDR,117.88.123.99/32 # 小红书商城服务节点（mall.xiaohongshu.com）
 IP-CIDR,119.45.249.168/32 # 小红书搜索服务节点（search.xiaohongshu.com）
+IP-CIDR,180.112.45.148/32 # 小红书视频资源服务节点（sns-video-hs.xhscdn.com）
 
 # > Bilibili（哔哩哔哩）相关域名
 # - 校对时间：2026-03-21
