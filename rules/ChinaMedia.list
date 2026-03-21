@@ -609,14 +609,11 @@ DOMAIN-SUFFIX,cm.bilibili.com # Bilibili 客户端统计接口域名
 DOMAIN-SUFFIX,impression.biligame.com # Bilibili 游戏曝光统计接口域名
 
 # > iQIYI（爱奇艺）相关域名
+# - 校对时间：2026-03-21
 
-DOMAIN-SUFFIX,iqiyi.com # 爱奇艺 主站
-DOMAIN-SUFFIX,iq.com # 爱奇艺国际版
-DOMAIN-SUFFIX,iqiyipic.com # 爱奇艺图片与封面资源 CDN 主域，用于视频封面、海报与推荐位图片加载
-DOMAIN-SUFFIX,pic0.iqiyipic.com # 爱奇艺图片 CDN 节点 0，用于视频封面与静态图片分发
-DOMAIN-SUFFIX,pic1.iqiyipic.com # 爱奇艺图片 CDN 节点 1，用于视频封面与静态图片分发
-DOMAIN-SUFFIX,pic2.iqiyipic.com # 爱奇艺图片 CDN 节点 2，用于视频封面与静态图片分发
-DOMAIN-SUFFIX,pic3.iqiyipic.com # 爱奇艺图片 CDN 节点 3，用于视频封面与静态图片分发
+DOMAIN-SUFFIX,iqiyi.com # 爱奇艺主域名
+DOMAIN-SUFFIX,iq.com # 爱奇艺国际服务域名
+DOMAIN-SUFFIX,iqiyipic.com # 爱奇艺图片资源域名
 
 # > Suning Sports / PP Sports（苏宁体育 / PP 体育）相关域名
 
