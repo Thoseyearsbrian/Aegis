@@ -791,6 +791,8 @@ IP-CIDR,49.7.37.65/32 # 微博 API 服务节点（api.weibo.cn）
 IP-CIDR,106.63.15.6/32 # 微博 API 服务节点（api.weibo.cn）
 IP-CIDR,180.97.214.189/32 # 新浪图片资源服务节点（tvax1.sinaimg.cn）
 IP-CIDR,202.102.11.19/32 # 新浪图片资源服务节点（wx2.sinaimg.cn）
+IP-CIDR,202.102.11.19/32 # 新浪图片资源服务节点（wx4.sinaimg.cn）
+IP-CIDR,202.102.11.36/32 # 新浪图片资源服务节点（wx3.sinaimg.cn）
 
 # > Ximalaya（喜马拉雅）在线音频与播客平台
 
