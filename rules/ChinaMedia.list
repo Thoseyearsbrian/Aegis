@@ -711,39 +711,40 @@ DOMAIN-SUFFIX,ark.letv.com # 乐视平台服务域名
 DOMAIN-SUFFIX,g3.letv.cn # 乐视内容分发服务域名
 
 # > CIBN OTT（CIBN 互联网电视）视频播放与内容分发服务
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,ott.cibntv.net # CIBN 互联网电视（OTT）官方内容服务域名，用于视频播放、内容分发与终端电视业务接入
+DOMAIN-SUFFIX,cibntv.net # CIBN 互联网电视服务域名
 
 # > Sohu Video（搜狐视频）与综合门户服务
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,sohu.com # 搜狐集团主域名，涵盖门户资讯、搜狐视频、新闻、社区与综合互联网服务
-DOMAIN-SUFFIX,tv.sohu.com # 搜狐视频官方子域，用于视频在线播放、节目页面与相关视频内容服务
-DOMAIN-SUFFIX,css.tv.itc.cn # 搜狐视频 Web 端 CSS 样式资源域名，用于页面样式与布局加载
-DOMAIN-SUFFIX,js.tv.itc.cn # 搜狐视频 Web 端 JavaScript 脚本资源域名，用于播放器逻辑、页面交互与功能初始化
+DOMAIN-SUFFIX,sohu.com # 搜狐服务域名
+DOMAIN-SUFFIX,tv.sohu.com # 搜狐视频服务域名
+DOMAIN-SUFFIX,itc.cn # 搜狐视频资源域名
 
 # > 56.com（56 视频）内容分发与播放服务
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,56.com # 56 视频官方主域名，用于视频内容浏览、点播与平台入口访问
-DOMAIN-SUFFIX,sp.qf.56.com # 56 视频流媒体播放与内容分发服务域名，用于视频请求、播放控制与资源加载
+DOMAIN-SUFFIX,56.com # 56 视频服务域名
 
 # > NetEase Cloud Music（网易云音乐）
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,netease.com # 网易主站，NetEase 主域
-DOMAIN-SUFFIX,music.163.com # 网易云音乐主站
-DOMAIN-SUFFIX,interface.music.163.com # 网易云音乐 API 接口服务
-DOMAIN-SUFFIX,interface3.music.163.com # 网易云音乐 API 接口服务
-DOMAIN-SUFFIX,api.iplay.163.com # 网易云音乐相关 API
-DOMAIN-SUFFIX,apm.music.163.com # 网易云音乐 APM 监控上报
-DOMAIN-SUFFIX,apm3.music.163.com # 网易云音乐 APM 监控上报
-DOMAIN-SUFFIX,music.126.net # 网易云音乐资源 CDN
+DOMAIN-SUFFIX,music.163.com # 网易云音乐主域名
+DOMAIN-SUFFIX,interface.music.163.com # 网易云音乐接口域名
+DOMAIN-SUFFIX,interface3.music.163.com # 网易云音乐接口域名
+DOMAIN-SUFFIX,api.iplay.163.com # 网易云音乐接口域名
+DOMAIN-SUFFIX,apm.music.163.com # 网易云音乐监控接口域名
+DOMAIN-SUFFIX,apm3.music.163.com # 网易云音乐监控接口域名
+DOMAIN-SUFFIX,music.126.net # 网易云音乐资源域名
 
 # > NetEase LOOK（NetEase LOOK 直播 / 内容服务，基于 163.com）
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,look.163.com # 网易 LOOK 直播 / 音乐视频推广主域名，用于用户访问相关页面与内容服务
-DOMAIN-SUFFIX,api.look.163.com # LOOK 内容服务 API 接口域名，用于页面功能调用与数据获取
-DOMAIN-SUFFIX,crush.163.com # 网易内容分发辅助域，用于图像、视频等资源加载与静态资源分发
-DOMAIN-SUFFIX,iplay.163.com # 网易相关音视频推广内容页与入口域名（常与 LOOK 直播关联）
-DOMAIN-SUFFIX,netease.com # NetEase 公司主体域名，用于主站访问与业务入口
+DOMAIN-SUFFIX,look.163.com # 网易 LOOK 服务域名
+DOMAIN-SUFFIX,api.look.163.com # 网易 LOOK 接口域名
+DOMAIN-SUFFIX,crush.163.com # 网易内容分发服务域名
+DOMAIN-SUFFIX,iplay.163.com # 网易音视频服务域名
 
 # > NetEase Tianyin（网易天音）AI 音乐创作平台
 
