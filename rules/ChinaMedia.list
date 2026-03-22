@@ -612,6 +612,7 @@ DOMAIN-SUFFIX,app.bilibili.com # Bilibili 应用服务接口域名
 DOMAIN-SUFFIX,api.bilibili.com # Bilibili 核心服务接口域名
 DOMAIN-SUFFIX,archive.biliimg.com # Bilibili 媒体资源域名
 DOMAIN-SUFFIX,album.biliimg.com # Bilibili 相册图片资源域名
+DOMAIN-SUFFIX,message.biliimg.com # Bilibili 消息图片资源域名
 DOMAIN-SUFFIX,mcdn.bilivideo.cn # Bilibili 视频分发服务域名
 DOMAIN-SUFFIX,upos-sz-mirrorcos.bilivideo.com # Bilibili 视频分发镜像节点域名
 DOMAIN-SUFFIX,upos-sz-staticcos.bilivideo.com # Bilibili 静态资源服务节点域名
