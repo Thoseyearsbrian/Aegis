@@ -643,18 +643,21 @@ DOMAIN-SUFFIX,y.tencentmusic.com # 腾讯音乐服务域名
 DOMAIN-SUFFIX,tmecp.tencentmusic.com # 腾讯音乐平台服务域名
 
 # > WeSing（腾讯全民 K 歌）
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,kg.qq.com # 腾讯全民 K 歌官方域名，用于在线 K 歌、音频内容播放、作品浏览与社区互动服务
+DOMAIN-SUFFIX,kg.qq.com # 全民 K 歌主域名
 
 # > Kuwo Music（酷我音乐）
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,kuwo.cn # 酷我音乐主域
-DOMAIN-SUFFIX,kuwo.com # 酷我音乐备用域
-DOMAIN-SUFFIX,kwimgs.com # 酷我音乐 CDN
+DOMAIN-SUFFIX,kuwo.cn # 酷我音乐主域名
+DOMAIN-SUFFIX,kuwo.com # 酷我音乐服务域名
+DOMAIN-SUFFIX,kwimgs.com # 酷我音乐资源域名
 
 # > Fan Live Companion（Fan 直播伴侣）软件下载与分发服务
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,tfogc.com # Fan 直播伴侣官方域名，用于软件下载安装、更新分发与产品相关资源访问
+DOMAIN-SUFFIX,tfogc.com # Fan 直播伴侣分发服务域名
 
 # > Dangbei（当贝）智能电视应用与内容分发平台
 
