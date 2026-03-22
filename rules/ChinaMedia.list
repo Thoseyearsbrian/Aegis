@@ -7,11 +7,12 @@
 # - 更新时间：2026-03-22
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
-# - 校对时间：2026-03-21
+# - 校对时间：2026-03-22
 
 DOMAIN-SUFFIX,douyin.com # 抖音官方主域名
 DOMAIN-SUFFIX,iesdouyin.com # 抖音核心业务域名
 DOMAIN-SUFFIX,doudian.com # 抖店官方域名
+DOMAIN-SUFFIX,douyinec.com # 抖音电商服务域名
 DOMAIN-SUFFIX,jinritemai.com # 抖音电商平台域名
 DOMAIN-SUFFIX,lfxshop.com # 抖音电商相关服务域名
 DOMAIN-SUFFIX,douyinliving.com # 抖音生活服务平台域名
