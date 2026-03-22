@@ -747,32 +747,30 @@ DOMAIN-SUFFIX,crush.163.com # 网易内容分发服务域名
 DOMAIN-SUFFIX,iplay.163.com # 网易音视频服务域名
 
 # > NetEase Tianyin（网易天音）AI 音乐创作平台
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,tianyin.music.163.com # 网易天音 AI 音乐创作平台域名，用于在线音乐创作服务
-DOMAIN-SUFFIX,tianyin.163.com # 网易天音官方网站入口域名，用于服务跳转与访问
+DOMAIN-SUFFIX,tianyin.music.163.com # 网易天音服务域名
+DOMAIN-SUFFIX,tianyin.163.com # 网易天音服务域名
 
 # > PPTV（PP 视频）官方视频平台与内容分发服务
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,pptv.com # PPTV 主域名，用于在线视频播放、直播频道、点播内容与用户访问服务  
-DOMAIN-SUFFIX,pptv.net # PPTV 视频内容分发与静态资源 CDN 主域，用于视频文件、封面图与媒体资源加速分发
-DOMAIN-SUFFIX,api.pptv.com # PPTV 核心业务 API 接口域名，用于视频播放、用户信息与请求调度  
-DOMAIN-SUFFIX,media.pptv.com # PPTV 媒体资源服务域名，用于封面、片段、缩略图等媒体资产分发  
-DOMAIN-SUFFIX,cdn.pptv.com # PPTV 静态资源 CDN 域名，用于加速脚本、样式、图片等内容加载  
-DOMAIN-SUFFIX,video.pptv.com # PPTV 视频内容访问域名，用于视频流服务与播放功能
-DOMAIN-SUFFIX,v-img.pplive.cn # PPTV 媒体内容静态资源加载子域，用于视频封面图、缩略图等图像资源访问  
-DOMAIN-SUFFIX,img24.pplive.cn # PPTV 多媒体静态资源 CDN 子域，用于静态图像、页面媒体素材分发  
-DOMAIN-SUFFIX,img3.pplive.cn # PPTV 静态图像 CDN 子域，用于封面图、广告位素材及页面媒体资源
-DOMAIN-SUFFIX,player.pplive.cn # PPTV 媒体播放入口与播放器资源域名（常见前端播放功能调用）
-DOMAIN-SUFFIX,static.pplive.cn # PPTV 静态资源域名，用于脚本、样式及公共资源加载
-DOMAIN-SUFFIX,osswc.pplive.cn # PPTV 媒体资源 CDN 子域，用于视频/页面媒体文件的静态资源分发
-DOMAIN-SUFFIX,kefu.pptv.com # PPTV 客服/帮助页面入口，用于用户支持服务访问
-DOMAIN-SUFFIX,article.pptv.com # PPTV 平台文章/资讯内容域名，用于展示帮助文档与内容相关文章
+DOMAIN-SUFFIX,pptv.com # PPTV 服务域名
+DOMAIN-SUFFIX,pptv.net # PPTV 内容分发服务域名
+DOMAIN-SUFFIX,api.pptv.com # PPTV 接口域名
+DOMAIN-SUFFIX,media.pptv.com # PPTV 媒体资源域名
+DOMAIN-SUFFIX,cdn.pptv.com # PPTV 静态资源域名
+DOMAIN-SUFFIX,video.pptv.com # PPTV 视频服务域名
+DOMAIN-SUFFIX,pplive.cn # PPTV 资源域名
+DOMAIN-SUFFIX,player.pplive.cn # PPTV 播放服务域名
+DOMAIN-SUFFIX,static.pplive.cn # PPTV 静态资源域名
 
 # > Qingting FM（蜻蜓FM）在线音频与广播平台
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,qingting.fm # 蜻蜓FM 主站域名，用于在线收听广播、播客、音乐与音频内容
-DOMAIN-SUFFIX,tingapi.com # 蜻蜓FM 移动应用 / Web API 接口域名，用于音频数据请求与客户端服务交互
-DOMAIN-SUFFIX,open.qingting.fm # 蜻蜓FM 开放平台域名，用于开放 API / 广播接入服务接入与第三方合作方案
+DOMAIN-SUFFIX,qingting.fm # 蜻蜓FM 主域名
+DOMAIN-SUFFIX,tingapi.com # 蜻蜓FM 接口域名
+DOMAIN-SUFFIX,open.qingting.fm # 蜻蜓FM 开放平台域名
 
 # > Weibo（新浪微博）相关域名
 # - 校对时间：2026-03-21
