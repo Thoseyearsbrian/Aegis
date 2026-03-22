@@ -681,39 +681,34 @@ DOMAIN-SUFFIX,p3fx.kgimg.com # 酷狗音乐特效资源域名
 DOMAIN-SUFFIX,fxbssdl.kgimg.com # 酷狗音乐资源分发域名
 
 # > Tencent Music Entertainment（腾讯音乐娱乐集团）
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,tencentmusic.com # 腾讯音乐娱乐集团官方网站主域名，用于集团信息、产品矩阵展示与企业相关内容访问
+DOMAIN-SUFFIX,tencentmusic.com # 腾讯音乐娱乐集团服务域名
 
 # > Tudou（土豆网）视频平台
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,tudou.com # 土豆网官方域名，用于视频点播、内容访问与用户界面服务
+DOMAIN-SUFFIX,tudou.com # 土豆网服务域名
 
 # > MGTV（芒果 TV）视频平台
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,mgtv.com # 芒果 TV 官方主域名，用于视频点播、直播、节目页面与用户访问入口
-DOMAIN-SUFFIX,hitv.com # 芒果 TV 图片与静态资源 CDN 主域，用于封面图、剧照与页面素材分发
-DOMAIN-SUFFIX,static.hitv.com # 芒果 TV 前端静态资源 CDN，用于 JS、CSS 与页面基础资源加载
-DOMAIN-SUFFIX,cmsimgali.hitv.com # 芒果 TV 内容管理系统图片 CDN（阿里云线路），用于节目封面与运营素材分发
-DOMAIN-SUFFIX,img1.hitv.com # 芒果 TV 图片 CDN 节点 1，用于视频封面与静态图片加载
-DOMAIN-SUFFIX,img2.hitv.com # 芒果 TV 图片 CDN 节点 2，用于视频封面与静态图片加载
-DOMAIN-SUFFIX,img3.hitv.com # 芒果 TV 图片 CDN 节点 3，用于视频封面与静态图片加载
-DOMAIN-SUFFIX,img4.hitv.com # 芒果 TV 图片 CDN 节点 4，用于视频封面与静态图片加载
+DOMAIN-SUFFIX,mgtv.com # 芒果 TV 主域名
+DOMAIN-SUFFIX,hitv.com # 芒果 TV 资源域名
+DOMAIN-SUFFIX,static.hitv.com # 芒果 TV 静态资源域名
+DOMAIN-SUFFIX,cmsimgali.hitv.com # 芒果 TV 图片资源域名
 
 # > LeTV / Le.com（乐视视频）视频平台
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,le.com # 乐视视频官方主站域名，用于视频内容浏览、点播服务与页面访问
-DOMAIN-SUFFIX,joy.cn # 乐视视频旧域
-DOMAIN-SUFFIX,tv.le.com # 乐视视频电视端与视频播放入口域名，用于视频播放页与内容服务接入
-DOMAIN-SUFFIX,letvcdn.com # 乐视视频官方静态资源与内容分发 CDN 域名，用于页面脚本、样式与多媒体资源加载
-DOMAIN-SUFFIX,wstatic.letvcdn.com # 乐视视频 Web 端静态资源服务域名，用于页面脚本、样式表与基础前端资源加载
-DOMAIN-SUFFIX,fe-go.letv.com # 乐视视频前端工程与页面逻辑服务域名，用于 Web 端页面功能、交互逻辑与前端模块加载
-DOMAIN-SUFFIX,dc.letv.com # 乐视视频数据采集与统计服务域名，用于页面访问统计、基础运营数据与服务调度分析
-DOMAIN-SUFFIX,ark.letv.com # 乐视视频核心播放与业务支撑服务域名，用于视频播放架构、能力调度及相关内部服务调用
-DOMAIN-SUFFIX,job.le.com # 乐视集团官方招聘平台域名，用于岗位发布、人才招聘、简历投递与雇主信息展示
-DOMAIN-SUFFIX,letv.com # 乐视集团核心业务域名，用于视频平台、内容服务及集团相关业务入口
-DOMAIN-SUFFIX,g3.letv.cn # 乐视视频国内加速与内容分发节点，用于视频播放与多媒体资源加载
-DOMAIN-SUFFIX,lemall.com # 乐视商城官方域名，用于电商销售、硬件产品与相关服务访问
-DOMAIN-SUFFIX,g3.letv.cn # 乐视视频国内内容分发与加速节点，用于视频播放与多媒体资源加载
+DOMAIN-SUFFIX,le.com # 乐视服务域名
+DOMAIN-SUFFIX,letv.com # 乐视服务域名
+DOMAIN-SUFFIX,tv.le.com # 乐视视频服务域名
+DOMAIN-SUFFIX,letvcdn.com # 乐视内容分发服务域名
+DOMAIN-SUFFIX,wstatic.letvcdn.com # 乐视静态资源域名
+DOMAIN-SUFFIX,fe-go.letv.com # 乐视前端服务域名
+DOMAIN-SUFFIX,ark.letv.com # 乐视平台服务域名
+DOMAIN-SUFFIX,g3.letv.cn # 乐视内容分发服务域名
 
 # > CIBN OTT（CIBN 互联网电视）视频播放与内容分发服务
 
