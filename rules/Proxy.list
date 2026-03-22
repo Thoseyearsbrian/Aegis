@@ -6357,7 +6357,6 @@ DOMAIN-SUFFIX,sbsem.ulb.be # Solvay Brussels School of Economics and Management 
 
 # > 71Edge CDN 内容分发与边缘加速服务
 
-DOMAIN-SUFFIX,71edge.com # 71Edge 内容分发网络（CDN）与边缘加速服务平台相关域名
 DOMAIN-SUFFIX,n1cloudcdnct.inter.71edge.com # 71Edge CDN 电信线路国际节点，用于静态资源与内容分发加速
 DOMAIN-SUFFIX,bscdnct.inter.71edge.com # 71Edge CDN 电信线路国际节点，用于静态资源与内容分发加速
 
