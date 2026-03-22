@@ -36,6 +36,7 @@ DOMAIN-SUFFIX,byteacctimg.com # 字节跳动账号图片资源
 DOMAIN-SUFFIX,bytefcdnrd.com # 字节跳动静态资源 CDN
 DOMAIN-SUFFIX,bytegecko.com # 字节跳动内容分发服务域名
 DOMAIN-SUFFIX,bytehwm.com # 字节跳动字体与样式资源域名
+DOMAIN-SUFFIX,vlabstatic.com # 字节跳动静态资源服务域名
 DOMAIN-SUFFIX,bytedns.net # 字节跳动调度与加速服务域名
 DOMAIN-SUFFIX,bytednsdoc.com # 字节跳动文档资源服务域名
 DOMAIN-SUFFIX,bytescm.com # 字节跳动内容分发服务域名
