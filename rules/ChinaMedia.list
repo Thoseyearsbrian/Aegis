@@ -773,7 +773,7 @@ DOMAIN-SUFFIX,tingapi.com # 蜻蜓FM 接口域名
 DOMAIN-SUFFIX,open.qingting.fm # 蜻蜓FM 开放平台域名
 
 # > Weibo（新浪微博）相关域名
-# - 校对时间：2026-03-21
+# - 校对时间：2026-03-22
 
 DOMAIN-SUFFIX,weibo.com # 微博主域名
 DOMAIN-SUFFIX,weibo.cn # 微博服务域名
@@ -796,42 +796,32 @@ IP-CIDR,202.102.11.19/32 # 新浪图片资源服务节点（wx4.sinaimg.cn）
 IP-CIDR,202.102.11.36/32 # 新浪图片资源服务节点（wx3.sinaimg.cn）
 
 # > Ximalaya（喜马拉雅）在线音频与播客平台
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,ximalaya.com # 喜马拉雅主站域名，用于音频内容访问、在线播客、有声书与音频展示
-DOMAIN-SUFFIX,himalaya.com # 喜马拉雅国际版主站域名，用于全球音频与播客内容访问
-DOMAIN-SUFFIX,open.ximalaya.com # 喜马拉雅开放平台域名，用于开放接入 API 与服务调用（开放平台接口文档/接入支持） 
-DOMAIN-SUFFIX,api.ximalaya.com # 喜马拉雅 API 接口域名（常见于客户端与服务端通信请求）
-DOMAIN-SUFFIX,media.ximalaya.com # 喜马拉雅多媒体资源分发子域，用于音频/静态资源 CDN 加速
-DOMAIN-SUFFIX,cdn.ximalaya.com # 假定性 CDN 静态资源加速域名，用于音频内容包/图片元数据加载
-DOMAIN-SUFFIX,imagev2.xmcdn.com # 喜马拉雅音频平台静态图像 CDN 子域，用于封面、节目缩略图等图片资源分发
-DOMAIN-SUFFIX,xmcdn.com # 喜马拉雅媒体资源 CDN 主域，用于音频封面、图片、静态资源加载
-DOMAIN-SUFFIX,s1.xmcdn.com # 喜马拉雅音频平台静态媒体与资源分发子域，用于音频封面、图片、静态资源加载
-DOMAIN-SUFFIX,s2.xmcdn.com # 喜马拉雅音频平台静态媒体与资源分发子域，用于音频封面、图片、静态资源加载
-DOMAIN-SUFFIX,ws.xmcdn.com # 喜马拉雅音频平台静态媒体与资源分发子域，用于音频封面、图片、静态资源加载
+DOMAIN-SUFFIX,ximalaya.com # 喜马拉雅主域名
+DOMAIN-SUFFIX,himalaya.com # 喜马拉雅国际服务域名
+DOMAIN-SUFFIX,open.ximalaya.com # 喜马拉雅开放平台域名
+DOMAIN-SUFFIX,api.ximalaya.com # 喜马拉雅接口域名
+DOMAIN-SUFFIX,xmcdn.com # 喜马拉雅资源域名
+DOMAIN-SUFFIX,imagev2.xmcdn.com # 喜马拉雅图片资源域名
+DOMAIN-SUFFIX,s1.xmcdn.com # 喜马拉雅资源域名
+DOMAIN-SUFFIX,s2.xmcdn.com # 喜马拉雅资源域名
+DOMAIN-SUFFIX,ws.xmcdn.com # 喜马拉雅资源域名
 
 # > Kuaishou（快手）短视频与直播平台
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,kuaishou.com # 快手官方主域名，用于短视频浏览、直播内容访问与平台服务入口
-DOMAIN-SUFFIX,yximgs.com # 快手媒体与静态资源 CDN 主域，用于视频封面、图片与多媒体资源分发
-DOMAIN-SUFFIX,static.yximgs.com # 快手前端静态资源子域，用于页面脚本、样式与客户端资源加载
-DOMAIN-SUFFIX,ksyun.com # 金山云（Kingsoft Cloud）基础设施域名，快手核心云服务提供商之一，用于内容分发与云计算资源支撑
-DOMAIN-SUFFIX,ks-cdn.com # 金山云 CDN 服务域名，用于视频流、静态资源与多媒体内容加速分发
-DOMAIN-SUFFIX,ks-live.com # 金山云直播服务域名，用于实时流媒体推流与播放加速
-DOMAIN-SUFFIX,gifshow.com # 快手历史品牌与核心业务域名，部分客户端接口与服务仍依赖该域
-DOMAIN-SUFFIX,api.gifshow.com # 快手核心 API 接口域名，用于客户端通信、用户数据请求与业务功能调用
-DOMAIN-SUFFIX,live.kuaishou.com # 快手直播服务入口域名，用于直播间访问与互动功能支持
-DOMAIN-SUFFIX,p1.a.yximgs.com # 快手媒体资源 CDN 子域，用于图像、封面及页面多媒体资源加载
-DOMAIN-SUFFIX,pull.yximgs.com # 快手直播拉流服务主域，用于实时音视频流传输与播放调度
-DOMAIN-SUFFIX,ty-origin.pull.yximgs.com # 快手直播源站子域，用于直播源内容分发与边缘节点回源通信
-DOMAIN-SUFFIX,m.kuaishou.com # 快手移动端网页服务域名，用于移动访问与轻量化内容浏览
-DOMAIN-SUFFIX,ksapisrv.com # 快手核心业务 API 服务域名，用于内容、直播、电商等接口调用
-DOMAIN-SUFFIX,static.kuaishou.com # 快手平台静态资源服务域名，用于脚本、样式与前端组件加载
-DOMAIN-SUFFIX,e.kuaishou.com # 快手电商服务子域名，用于商家系统、订单与履约相关服务
-DOMAIN-SUFFIX,api.e.kuaishou.com # 快手电商业务 API 接口域名，用于订单与商品数据交互
-DOMAIN-SUFFIX,kuaishouzt.com # 快手专题页与推广活动相关域名，用于活动与内容跳转
-DOMAIN-SUFFIX,kwai.com # 快手海外品牌 Kwai 官方域名，用于国际版服务入口
-DOMAIN-SUFFIX,kwaicdn.com # 快手内容分发 CDN 域名，用于视频、图片与静态资源加载 
-DOMAIN-SUFFIX,zhaopin.kuaishou.cn # 快手官方招聘子域名，用于岗位发布、校园招聘、社会招聘信息展示及人才投递服务
+DOMAIN-SUFFIX,kuaishou.com # 快手主域名
+DOMAIN-SUFFIX,gifshow.com # 快手服务域名
+DOMAIN-SUFFIX,live.kuaishou.com # 快手直播服务域名
+DOMAIN-SUFFIX,m.kuaishou.com # 快手移动服务域名
+DOMAIN-SUFFIX,static.kuaishou.com # 快手静态资源域名
+DOMAIN-SUFFIX,yximgs.com # 快手资源域名
+DOMAIN-SUFFIX,static.yximgs.com # 快手静态资源域名
+DOMAIN-SUFFIX,pull.yximgs.com # 快手直播拉流服务域名
+DOMAIN-SUFFIX,ksapisrv.com # 快手接口服务域名
+DOMAIN-SUFFIX,kwai.com # 快手国际服务域名
+DOMAIN-SUFFIX,kwaicdn.com # 快手内容分发服务域名
 
 # > AcFun（A站）视频平台与媒体资源服务
 
