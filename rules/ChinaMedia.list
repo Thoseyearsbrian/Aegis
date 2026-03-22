@@ -99,6 +99,7 @@ IP-CIDR,58.211.83.161/32 # 抖音特效资源服务节点（lf3-effect-aweme.byt
 IP-CIDR,58.215.122.71/32 # 字节跳动电商用户服务节点（ecomuser.snssdk.com）
 IP-CIDR,58.215.122.73/32 # 抖音内容分发节点（lf-normal-gr-sourcecdn.bytegecko.com）
 IP-CIDR,58.215.145.226/32 # 抖音直播通信节点（webcast26-normal-m-yz.amemv.com）
+IP-CIDR,58.215.145.228/32 # 抖音前端通信服务节点（frontier-im.douyin.com）
 IP-CIDR,58.215.210.146/32 # 抖音内容分发质量控制节点（lf-dy-sourcecdn-tos-qos-control.bytegecko.com）
 IP-CIDR,58.215.210.148/32 # 抖音直播内容分发节点（lf-webcast-sourcecdn-tos.bytegecko.com）
 IP-CIDR,58.216.6.14/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
@@ -228,6 +229,7 @@ IP-CIDR,111.224.8.59/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com
 IP-CIDR,113.142.162.67/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,113.142.162.70/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,113.142.162.71/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
+IP-CIDR,113.240.108.48/32 # 抖音前端通信服务节点（frontier-pc.douyin.com）
 IP-CIDR,113.219.237.97/32 # 抖音直播内容分发节点（lf9-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,115.150.31.124/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,114.80.10.198/32 # 抖音内容分发 CDN 节点（n98-lf9-dy-ncdn-tos-sub.bytegecko.com）
