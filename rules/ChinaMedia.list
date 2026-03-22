@@ -642,6 +642,7 @@ DOMAIN-SUFFIX,line3-log.biligame.net # Bilibili 游戏日志接口域名
 DOMAIN-SUFFIX,iqiyi.com # 爱奇艺主域名
 DOMAIN-SUFFIX,iq.com # 爱奇艺国际服务域名
 DOMAIN-SUFFIX,iqiyipic.com # 爱奇艺图片资源域名
+DOMAIN-SUFFIX,static.qiyi.com # 爱奇艺静态资源域名
 DOMAIN-SUFFIX,71edge.com # 爱奇艺内容分发服务域名
 DOMAIN-SUFFIX,qy.net # 爱奇艺服务域名
 DOMAIN-SUFFIX,amsg.qy.net # 爱奇艺消息服务域名
