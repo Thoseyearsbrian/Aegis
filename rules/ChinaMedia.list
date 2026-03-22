@@ -626,13 +626,14 @@ DOMAIN-SUFFIX,show.ssports.com # 苏宁体育页面服务域名
 DOMAIN-SUFFIX,data.ssports.com # 苏宁体育数据服务域名
 
 # > Tencent Video（腾讯视频）相关域名
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,v.qq.com # 腾讯视频主域名，用于 Web 端视频内容访问与页面加载
-DOMAIN-SUFFIX,video.qq.com # 腾讯视频内容服务域名，用于视频播放页、接口调用与内容分发
-DOMAIN-SUFFIX,vm.gtimg.cn # 腾讯视频媒体资源 CDN 域名，用于视频切片、封面与播放相关静态资源加载
-DOMAIN-SUFFIX,vi.gtimg.cn # 腾讯视频图片与静态资源 CDN 域名，用于封面图、缩略图与 UI 资源分发
-DOMAIN-SUFFIX,om.gtimg.cn # 腾讯视频运营与页面静态资源 CDN，用于活动页与展示资源加载
-DOMAIN-SUFFIX,tlivesource.com # 腾讯云直播分发源域名，用于直播流媒体数据调度与内容分发
+DOMAIN-SUFFIX,v.qq.com # 腾讯视频主域名
+DOMAIN-SUFFIX,video.qq.com # 腾讯视频服务域名
+DOMAIN-SUFFIX,vm.gtimg.cn # 腾讯视频媒体资源域名
+DOMAIN-SUFFIX,vi.gtimg.cn # 腾讯视频图片资源域名
+DOMAIN-SUFFIX,om.gtimg.cn # 腾讯视频页面资源域名
+DOMAIN-SUFFIX,tlivesource.com # 腾讯直播分发服务域名
 
 # > QQ Music（腾讯 QQ 音乐）
 
