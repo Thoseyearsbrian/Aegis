@@ -598,7 +598,7 @@ IP-CIDR,119.45.249.168/32 # 小红书搜索服务节点（search.xiaohongshu.com
 IP-CIDR,180.112.45.148/32 # 小红书视频资源服务节点（sns-video-hs.xhscdn.com）
 
 # > Bilibili（哔哩哔哩）相关域名
-# - 校对时间：2026-03-21
+# - 校对时间：2026-03-22
 
 DOMAIN-SUFFIX,bilibili.com # Bilibili 主站域名
 DOMAIN-SUFFIX,hdslb.com # Bilibili 静态资源域名
@@ -621,6 +621,7 @@ DOMAIN-SUFFIX,app.biliapi.net # Bilibili 应用服务接口域名
 DOMAIN-SUFFIX,line3-h5-mobile-api.biligame.com # Bilibili 游戏服务接口域名
 DOMAIN-SUFFIX,passport.biligame.com # Bilibili 游戏登录与认证服务域名
 DOMAIN-SUFFIX,chat.bilibili.com # Bilibili 实时聊天服务域名
+DOMAIN-SUFFIX,mountaintoys.cn # Bilibili 视频分发服务域名
 IP-CIDR,61.170.65.76/32 # Bilibili 静态资源服务节点（upos-sz-staticcos.bilivideo.com）
 IP-CIDR,117.44.77.5/32 # Bilibili 视频分发服务节点（upos-sz-mirrorcos.bilivideo.com）
 IP-CIDR,150.139.228.139/32 # Bilibili 视频分发服务节点（upos-sz-mirrorcos.bilivideo.com）
