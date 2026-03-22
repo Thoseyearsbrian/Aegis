@@ -824,56 +824,64 @@ DOMAIN-SUFFIX,kwai.com # 快手国际服务域名
 DOMAIN-SUFFIX,kwaicdn.com # 快手内容分发服务域名
 
 # > AcFun（A站）视频平台与媒体资源服务
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,aixifan.com # AcFun 官方主域名，用于视频平台访问、用户服务与社区内容
-DOMAIN-SUFFIX,cdnfile.aixifan.com # AcFun 媒体资源 CDN 子域，用于视频文件、封面图及前端静态资源分发
-DOMAIN-SUFFIX,acfun.cn # AcFun 官方主域名（国内站点），用于视频浏览、弹幕互动与社区内容访问
-DOMAIN-SUFFIX,cdn.aixifan.com # AcFun 媒体资源 CDN 域名，用于视频文件、封面图及前端静态资源分发与加速
+DOMAIN-SUFFIX,acfun.cn # AcFun 主域名
+DOMAIN-SUFFIX,aixifan.com # AcFun 服务域名
+DOMAIN-SUFFIX,cdn.aixifan.com # AcFun 媒体资源域名
+DOMAIN-SUFFIX,cdnfile.aixifan.com # AcFun 媒体资源域名
 
 # > Wasu TV（华数 TV）在线视频与数字电视服务平台
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,wasu.cn # 华数数字电视与在线视频服务主域名，提供 IPTV、点播内容及相关媒体分发服务
-DOMAIN-SUFFIX,ups.5g.wasu.tv # 华数 TV 5G 专线加速子域，用于视频播放加速、流媒体分发与网络优化调度
-DOMAIN-SUFFIX,sp.5g.wasu.tv # 华数 TV 5G 视频播放与流媒体分发子域，用于内容拉流、视频播放与加速调度
+DOMAIN-SUFFIX,wasu.cn # 华数服务域名
+DOMAIN-SUFFIX,wasu.tv # 华数视频服务域名
+DOMAIN-SUFFIX,sp.5g.wasu.tv # 华数视频服务域名
+DOMAIN-SUFFIX,ups.5g.wasu.tv # 华数分发服务域名
 
 # > 1905.com（电影网）相关域名
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,1905.com # 电影网官方主域名，用于电影资讯浏览、影片播放、节目内容访问与相关媒体服务
-DOMAIN-SUFFIX,m1905.cn # 1905 电影网移动端主域名，用于手机端页面访问与视频内容加载
-DOMAIN-SUFFIX,image13.m1905.cn # 1905 电影网图片 CDN 子域，用于封面图、剧照与页面素材分发
-DOMAIN-SUFFIX,image14.m1905.cn # 1905 电影网图片 CDN 子域，用于封面图、剧照与页面素材分发
-DOMAIN-SUFFIX,profile.m1905.com # 1905 电影网用户资料与账户中心接口域名，用于个人信息、账户设置与会员数据加载
+DOMAIN-SUFFIX,1905.com # 电影网主域名
+DOMAIN-SUFFIX,m1905.cn # 电影网移动服务域名
+DOMAIN-SUFFIX,m1905.com # 电影网服务域名
+DOMAIN-SUFFIX,profile.m1905.com # 电影网账户服务域名
 
 # > Funshion（风行网）在线视频平台域名
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,fun.tv # 风行网官方主域名，用于视频点播、影视内容浏览与在线播放服务
-DOMAIN-SUFFIX,pub.funshion.com # 风行网公共资源发布域名，用于页面脚本、配置文件与前端静态资源加载
-DOMAIN-SUFFIX,img.funshion.com # 风行网图片与媒体资源 CDN 域名，用于封面图、剧照与页面图像加载
-DOMAIN-SUFFIX,img1.funshion.com # 风行网图片 CDN 子域 1，用于图像资源分发与访问加速
-DOMAIN-SUFFIX,img2.funshion.com # 风行网图片 CDN 子域 2，用于图像资源分发与访问加速
-DOMAIN-SUFFIX,mgc.funshion.com # 风行网“橙星梦工厂”AI创作平台域名，用于承载AI图片、AI视频、AI小说等内容生成与互动功能服务
-DOMAIN-SUFFIX,jobproxy.funshion.com # 风行网业务代理与接口转发服务域名，用于客户端任务调度、接口请求代理与后台通信服务
+DOMAIN-SUFFIX,fun.tv # 风行网主域名
+DOMAIN-SUFFIX,funshion.com # 风行网服务域名
+DOMAIN-SUFFIX,pub.funshion.com # 风行网资源服务域名
+DOMAIN-SUFFIX,img.funshion.com # 风行网图片资源域名
+DOMAIN-SUFFIX,mgc.funshion.com # 风行网创作服务域名
+DOMAIN-SUFFIX,jobproxy.funshion.com # 风行网代理服务域名
 
 # > Xiami Music（虾米音乐）已停服历史服务域名
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,xiami.com # 虾米音乐官方主域名（已停服），曾用于在线音乐播放、歌单浏览、用户账户与社区内容访问
+DOMAIN-SUFFIX,xiami.com # 虾米音乐历史服务域名
 
 # > Lazy Audio Books（懒人听书）有声阅读与音频内容平台
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,lrts.me # 懒人听书官方主域名，用于提供有声小说、广播剧、电台节目与知识类音频内容播放及会员服务
-DOMAIN-SUFFIX,assets.lrts.me # 懒人听书静态资源与媒体文件分发子域，用于图片、音频封面与前端资源加载
-DOMAIN-SUFFIX,headpic.lrts.me # 懒人听书头像与图片资源子域，用于用户头像与封面图加载
-DOMAIN-SUFFIX,display.wting.info # 懒人听书内容推荐与页面展示域名，用于首页轮播图、专题推荐素材与活动内容加载
+DOMAIN-SUFFIX,lrts.me # 懒人听书主域名
+DOMAIN-SUFFIX,assets.lrts.me # 懒人听书资源域名
+DOMAIN-SUFFIX,headpic.lrts.me # 懒人听书图片资源域名
+DOMAIN-SUFFIX,display.wting.info # 懒人听书内容展示域名
 
 # > LIZHI（荔枝）在线音频社区与播客娱乐平台
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,lizhiinc.com # 荔枝官方网站，隶属于 LIZHI INC. 声音社交与播客平台，提供音频内容、社区互动与播客服务
+DOMAIN-SUFFIX,lizhiinc.com # 荔枝服务域名
 
 # > Mudu.TV（目睹直播）资源与通信域名
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,msg-ws.mudu.tv # 目睹直播消息通信域名，用于直播间弹幕、评论与互动消息通信
-DOMAIN-SUFFIX,static.mudu.tv # 目睹直播静态资源域名，用于加载前端 JS/CSS 等页面内容
+DOMAIN-SUFFIX,msg-ws.mudu.tv # 目睹直播消息通信域名
+DOMAIN-SUFFIX,static.mudu.tv # 目睹直播静态资源域名
 
 # > Xigua Video（西瓜视频）字节跳动旗下视频平台
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,ixigua.com # 西瓜视频主站域名，用于承载短视频播放、内容分发、创作者平台与用户互动等核心服务
+DOMAIN-SUFFIX,ixigua.com # 西瓜视频主域名
