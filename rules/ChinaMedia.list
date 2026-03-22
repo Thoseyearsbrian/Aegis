@@ -58,6 +58,7 @@ DOMAIN-SUFFIX,ndcimgs.com # 字节跳动媒体资源 CDN
 DOMAIN-SUFFIX,bdxiguaimg.com # 西瓜视频图片资源 CDN
 DOMAIN-SUFFIX,smtcdns.com # 字节跳动内容调度 CDN
 DOMAIN-SUFFIX,smtcdns.net # 字节跳动内容调度服务域名
+DOMAIN-SUFFIX,ecombdstatic.com # 字节跳动电商静态资源域名
 DOMAIN-SUFFIX,ecombdimg.com # 字节跳动电商图片资源域名
 IP-CIDR,1.81.2.170/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,1.194.172.141/32 # 字节跳动对象存储服务节点（lf3-pitaya.bytetos.com）
