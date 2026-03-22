@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-21
+# - 更新时间：2026-03-22
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
 # - 校对时间：2026-03-21
@@ -619,10 +619,11 @@ DOMAIN-SUFFIX,amsg.qy.net # 爱奇艺消息服务域名
 DOMAIN-SUFFIX,qmsg.qy.net # 爱奇艺消息服务域名
 
 # > Suning Sports / PP Sports（苏宁体育 / PP 体育）相关域名
+# - 校对时间：2026-03-22
 
-DOMAIN-SUFFIX,ssports.com # 苏宁体育（PP 体育）官方平台域名，提供体育赛事内容、直播与相关服务
-DOMAIN-SUFFIX,show.ssports.com # 苏宁体育赛事展示与直播页面，用于体育内容与专题展示
-DOMAIN-SUFFIX,data.ssports.com # 苏宁体育赛事数据与比分统计服务，用于比赛数据与技术统计展示
+DOMAIN-SUFFIX,ssports.com # 苏宁体育服务域名
+DOMAIN-SUFFIX,show.ssports.com # 苏宁体育页面服务域名
+DOMAIN-SUFFIX,data.ssports.com # 苏宁体育数据服务域名
 
 # > Tencent Video（腾讯视频）相关域名
 
