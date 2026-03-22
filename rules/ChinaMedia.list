@@ -647,6 +647,7 @@ DOMAIN-SUFFIX,71edge.com # 爱奇艺内容分发服务域名
 DOMAIN-SUFFIX,qy.net # 爱奇艺服务域名
 DOMAIN-SUFFIX,amsg.qy.net # 爱奇艺消息服务域名
 DOMAIN-SUFFIX,qmsg.qy.net # 爱奇艺消息服务域名
+DOMAIN-SUFFIX,x.pps.tv # 爱奇艺视频服务域名
 
 # > Suning Sports / PP Sports（苏宁体育 / PP 体育）相关域名
 # - 校对时间：2026-03-22
