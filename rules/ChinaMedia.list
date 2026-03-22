@@ -633,6 +633,7 @@ DOMAIN-SUFFIX,data.bilibili.com # Bilibili 数据服务接口域名
 DOMAIN-SUFFIX,ali-web-player-tracker.biliapi.net # Bilibili 网页播放器接口域名
 DOMAIN-SUFFIX,cm.bilibili.com # Bilibili 客户端统计接口域名
 DOMAIN-SUFFIX,impression.biligame.com # Bilibili 游戏曝光统计接口域名
+DOMAIN-SUFFIX,line3-log.biligame.net # Bilibili 游戏日志接口域名
 
 # > iQIYI（爱奇艺）相关域名
 # - 校对时间：2026-03-21
