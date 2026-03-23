@@ -391,33 +391,31 @@ DOMAIN-SUFFIX,wap.tenpay.com # 财付通 WAP 支付域名
 DOMAIN-SUFFIX,qpay.qq.com # QQ 钱包服务域名
 
 # > AutoNavi / AMap（高德地图）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,amap.com # 高德地图主域名，用于地图、导航、定位与相关服务访问
-DOMAIN-SUFFIX,autonavi.com # 高德软件公司主域名，用于开放平台、API 与相关服务入口
-DOMAIN-SUFFIX,maps.amap.com # 高德地图数据与瓦片资源加载服务域名
-DOMAIN-SUFFIX,restapi.amap.com # 高德地图核心服务接口域名，用于路线规划、地理编码等功能调用
-DOMAIN-SUFFIX,webapi.amap.com # 高德地图 Web API 接口域名，用于网页端地图功能调用
-DOMAIN-SUFFIX,apilocate.amap.com # 高德定位服务接口域名，用于位置信息获取与定位支持
-DOMAIN-SUFFIX,apistore.amap.com # 高德地图 API 商店与开发者平台服务域名
-DOMAIN-SUFFIX,sdk.amap.com # 高德地图 SDK 组件加载与更新服务接口
-DOMAIN-SUFFIX,resource.autonavi.com # 高德地图资源文件与功能模块加载服务域名
-DOMAIN-SUFFIX,dispatcher.is.autonavi.com # 高德地图服务调度接口域名，用于导航与网络节点调度支持
-DOMAIN-SUFFIX,alog.umeng.com # 高德相关客户端运行日志与服务状态接口
-DOMAIN-SUFFIX,log.amap.com # 高德地图服务日志与运行状态相关接口
-DOMAIN-SUFFIX,track.amap.com # 高德地图轨迹与位置相关数据服务接口
-DOMAIN-SUFFIX,tracking.autonavi.com # 高德地图位置与运行状态相关服务接口
-DOMAIN-SUFFIX,datalink.autonavi.com # 高德地图交通与路况相关数据服务接口
-DOMAIN-SUFFIX,ctr.autonavi.com # 高德地图内容与服务分发相关接口
-DOMAIN-SUFFIX,m5-x.amap.com # 高德地图瓦片与定位相关服务节点域名
-DOMAIN-SUFFIX,m5.amap.com # 高德地图移动端与 H5 地图服务接口，用于地图瓦片、定位与路径规划请求
-DOMAIN-SUFFIX,i.qchannel03.cn # 高德地图 QChannel 内容分发子域，用于地图资源、接口数据与缓存内容分发
-DOMAIN-SUFFIX,qchannel01.cn # 高德地图 QChannel 内容分发子域，用于区域化地图服务与数据加速
-DOMAIN-SUFFIX,cache.gaode.com # 高德地图官方缓存与静态资源分发域名，用于地图瓦片、样式与数据缓存
-DOMAIN-SUFFIX,shift.is.autonavi.com # 高德地图内部调度与状态同步服务域名
-DOMAIN-SUFFIX,fp.amap.com # 高德地图 (Amap/AutoNavi) 前端定位/产品服务子域，用于地图加载、导航定位与相关功能接口访问
-DOMAIN-SUFFIX,autonavi.com # 高德地图核心业务与调度服务域名
-IP-CIDR,59.82.14.161/24 # 高德地图移动端 AMDC 调度接口，用于移动客户端地图服务请求分发与节点调度
-IP-CIDR,180.163.145.240/24 # 高德地图服务节点，用于地图数据与服务接口访问
+DOMAIN-SUFFIX,amap.com # 高德地图主域名
+DOMAIN-SUFFIX,autonavi.com # 高德地图服务域名
+DOMAIN-SUFFIX,maps.amap.com # 高德地图瓦片资源域名
+DOMAIN-SUFFIX,restapi.amap.com # 高德地图接口域名
+DOMAIN-SUFFIX,webapi.amap.com # 高德地图 Web API 域名
+DOMAIN-SUFFIX,apilocate.amap.com # 高德定位服务域名
+DOMAIN-SUFFIX,apistore.amap.com # 高德开放平台服务域名
+DOMAIN-SUFFIX,sdk.amap.com # 高德 SDK 服务域名
+DOMAIN-SUFFIX,resource.autonavi.com # 高德资源服务域名
+DOMAIN-SUFFIX,dispatcher.is.autonavi.com # 高德调度服务域名
+DOMAIN-SUFFIX,alog.umeng.com # 高德日志上报接口域名
+DOMAIN-SUFFIX,log.amap.com # 高德日志服务域名
+DOMAIN-SUFFIX,track.amap.com # 高德轨迹服务域名
+DOMAIN-SUFFIX,tracking.autonavi.com # 高德轨迹服务域名
+DOMAIN-SUFFIX,datalink.autonavi.com # 高德交通数据服务域名
+DOMAIN-SUFFIX,ctr.autonavi.com # 高德内容分发接口域名
+DOMAIN-SUFFIX,m5-x.amap.com # 高德地图服务域名
+DOMAIN-SUFFIX,m5.amap.com # 高德地图服务域名
+DOMAIN-SUFFIX,i.qchannel03.cn # 高德内容分发域名
+DOMAIN-SUFFIX,qchannel01.cn # 高德内容分发域名
+DOMAIN-SUFFIX,cache.gaode.com # 高德缓存服务域名
+DOMAIN-SUFFIX,shift.is.autonavi.com # 高德调度服务域名
+DOMAIN-SUFFIX,fp.amap.com # 高德前端定位服务域名
 
 # > Baidu（百度）相关域名
 
