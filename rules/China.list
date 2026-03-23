@@ -6,35 +6,30 @@
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2026-03-23
 
-# > 阿里巴巴中国站相关域名（Alibaba Group - China）
+# > Alibaba Group - China（阿里巴巴中国站）相关域名
+# - 校对时间：2026-03-23
 
-DOMAIN-SUFFIX,alibaba.com.cn # 阿里巴巴中国站域名，用于国内企业服务、B2B 业务与本地化信息展示
-DOMAIN-SUFFIX,1688.com # 1688 国内 B2B 批发平台主域名，用于商品浏览、交易下单与商家服务
-DOMAIN-SUFFIX,alibabausercontent.com # 阿里巴巴用户内容与图片资源分发域名，用于商品与页面静态资源加载
-DOMAIN-SUFFIX,aliapp.org # 阿里系应用公共接口与基础服务域名，用于 App 通信与功能支持
-DOMAIN-SUFFIX,aliimg.com # 阿里巴巴集团图像与多媒体资源加载域名
-DOMAIN-SUFFIX,alimama.com # 阿里妈妈广告技术与营销管理平台域名，用于广告投放与数据管理服务
-DOMAIN-SUFFIX,alihealth.com # 阿里健康服务平台域名，提供医疗电商、健康管理与相关线上服务
-DOMAIN-SUFFIX,aliyun.com # 阿里云中国站官网与控制台主域名，用于云服务管理与产品访问
-DOMAIN-SUFFIX,aliyuncs.com # 阿里云对象存储（OSS）与相关云资源服务域名
-DOMAIN-SUFFIX,alicdn.com # 阿里云 CDN 内容分发域名，用于静态资源与多媒体内容加速
-DOMAIN-SUFFIX,hichina.com # 阿里云旗下万网服务域名，提供域名注册、解析与管理服务
-DOMAIN-SUFFIX,tbcache.com # 阿里巴巴旗下缓存与边缘加速服务域名
-DOMAIN-SUFFIX,h5api.m.1688.com # 1688 移动 H5 API 接口域名
-DOMAIN-SUFFIX,gobuy.1688.com # 1688 采购与下单相关业务域名，用于商品采购流程、下单与交易引导
-DOMAIN-SUFFIX,air.1688.com # 1688 平台业务支撑与中间服务域名，用于业务模块调用与页面服务承载
-DOMAIN-SUFFIX,xstore.insights.1688.com # 1688 商家与商品洞察分析服务域名，用于数据展示、经营分析与业务决策支持
-DOMAIN-SUFFIX,turbo-meta.insights.1688.com # 1688 数据分析与元信息服务域名，用于业务指标计算与分析模块支撑
-DOMAIN-SUFFIX,systemjs.1688.com # 1688 前端模块加载与脚本管理服务域名，用于系统级 JS 组件与依赖加载
-DOMAIN-SUFFIX,insights.1688.com # 1688 数据洞察与经营分析平台主域名，用于商家经营分析、数据展示与业务决策支持
-DOMAIN-SUFFIX,pass.1688.com # 1688 账号登录与身份认证服务域名，用于用户登录、会话校验与权限控制
-DOMAIN-SUFFIX,pages-fast.1688.com # 1688 高性能页面渲染与活动页加载域名，用于商品详情、专题页与营销页面快速展示
-DOMAIN-SUFFIX,alilang-intranet.alibaba-inc.com # 阿里巴巴集团内部语言与本地化支持系统域名，仅用于内网或内部业务环境
-DOMAIN-SUFFIX,cdn.ynuf.aliapp.org # 阿里系 App 相关静态资源分发 CDN，用于业务资源与组件加载
-DOMAIN-SUFFIX,acs-mum.alibabachengdun.com # 阿里巴巴承盾（Chengdun）风控系统接口，用于设备指纹、风险识别与反作弊判定
-DOMAIN-SUFFIX,alibabachengdun.com # 阿里巴巴承盾风控服务域名，用于行为分析、设备画像与安全风控决策
-DOMAIN-SUFFIX,oss.aliyun-inc.com # 阿里云对象存储 OSS 域名，用于静态资源托管与文件分发
-DOMAIN-SUFFIX,mtl.cn-hangzhou.oss.aliyun-inc.com # 阿里云 OSS 子域，用于静态资源、模型或文件下载
+DOMAIN-SUFFIX,alibaba.com.cn # 阿里巴巴中国站主域名
+DOMAIN-SUFFIX,1688.com # 1688 平台主域名
+DOMAIN-SUFFIX,alibabausercontent.com # 阿里巴巴用户内容资源域名
+DOMAIN-SUFFIX,aliapp.org # 阿里系应用服务域名
+DOMAIN-SUFFIX,aliimg.com # 阿里系图片资源域名
+DOMAIN-SUFFIX,alimama.com # 阿里妈妈服务域名
+DOMAIN-SUFFIX,alihealth.com # 阿里健康服务域名
+DOMAIN-SUFFIX,aliyun.com # 阿里云服务域名
+DOMAIN-SUFFIX,aliyuncs.com # 阿里云资源服务域名
+DOMAIN-SUFFIX,alicdn.com # 阿里云内容分发域名
+DOMAIN-SUFFIX,hichina.com # 阿里云万网服务域名
+DOMAIN-SUFFIX,tbcache.com # 阿里系缓存服务域名
+DOMAIN-SUFFIX,h5api.m.1688.com # 1688 移动接口域名
+DOMAIN-SUFFIX,gobuy.1688.com # 1688 采购服务域名
+DOMAIN-SUFFIX,air.1688.com # 1688 业务服务域名
+DOMAIN-SUFFIX,insights.1688.com # 1688 数据洞察服务域名
+DOMAIN-SUFFIX,xstore.insights.1688.com # 1688 商家洞察服务域名
+DOMAIN-SUFFIX,turbo-meta.insights.1688.com # 1688 数据分析服务域名
+DOMAIN-SUFFIX,systemjs.1688.com # 1688 前端资源服务域名
+DOMAIN-SUFFIX,pass.1688.com # 1688 账号认证服务域名
+DOMAIN-SUFFIX,pages-fast.1688.com # 1688 页面服务域名
 
 # > 阿里云公共 DNS（AliDNS）基础解析服务
 
