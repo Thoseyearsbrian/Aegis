@@ -449,12 +449,13 @@ DOMAIN-SUFFIX,m.baeapps.com # 百度应用引擎服务域名
 DOMAIN-SUFFIX,zhida.baidu.com # 百度知道服务域名
 
 # > 16map（第三方地图嵌入与位置服务平台）
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,16map.com # 第三方地图服务平台主域名，用于地图展示、位置服务与嵌入式应用访问
-DOMAIN-SUFFIX,api.16map.com # 第三方地图与位置服务 API 接口域名，用于坐标处理与位置解析
-DOMAIN-SUFFIX,static.16map.com # 地图相关静态资源服务域名，用于加载 JS、CSS 与图像等前端资源
-DOMAIN-SUFFIX,cache.16map.com # 地图数据缓存与加速服务域名，用于提升地图加载效率
-DOMAIN-SUFFIX,jsapi.16map.com # 第三方地图 JavaScript API 服务域名，用于网页端地图嵌入与功能调用
+DOMAIN-SUFFIX,16map.com # 16map 主域名
+DOMAIN-SUFFIX,api.16map.com # 16map 接口域名
+DOMAIN-SUFFIX,static.16map.com # 16map 静态资源域名
+DOMAIN-SUFFIX,cache.16map.com # 16map 缓存服务域名
+DOMAIN-SUFFIX,jsapi.16map.com # 16map JavaScript API 域名
 
 # > DiDi Chuxing（滴滴出行）相关域名
 
