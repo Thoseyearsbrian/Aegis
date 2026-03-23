@@ -4,7 +4,7 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-20
+# - 更新时间：2026-03-23
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -70,22 +70,13 @@ IP-CIDR6,2405:8100::/32 # Cloudflare IPv6 边缘网络
 IP-CIDR6,2a06:98c0::/29 # Cloudflare IPv6 边缘网络
 IP-CIDR6,2c0f:f248::/32 # Cloudflare IPv6 边缘网络
 
-# > Speedtest 网络测速平台
+# > Speedtest（Ookla）网络测速平台
+# - 校对时间：2026-03-23
 
-DOMAIN-SUFFIX,speedtest.net # Speedtest 主站域名，由 Ookla 运营，用于测量互联网下载／上传速度与延迟 
-DOMAIN-SUFFIX,speedtest.singnet.com.sg # Speedtest 新加坡地区主站域名
-DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 媒体资源 CDN 域名，用于分发 PCMag、TechRepublic、Speedtest 等站点静态资源
-DOMAIN-SUFFIX,stosat-utah-01.sys.comcast.net.prod.hosts.ooklaserver.net # Comcast 犹他州服务器测速节点，Ookla 专用域 
-DOMAIN-SUFFIX,speedtest.firstdigital.com.prod.hosts.ooklaserver.net # FirstDigital 通信公司测速节点，位于犹他州 
-DOMAIN-SUFFIX,salt-lake-city.speedtest.centurylink.net # CenturyLink 盐湖城测速节点，支持 Ookla 平台 
-DOMAIN-SUFFIX,speedtest.sumofiber.com.prod.hosts.ooklaserver.net # SumoFiber 光纤测速节点，Salt Lake City 地区 
-DOMAIN-SUFFIX,speedtest.xmission.com.prod.hosts.ooklaserver.net # XMission 本地 ISP 测速节点，支持 Ookla 客户端 
-DOMAIN-SUFFIX,speedtest2.avative.net.prod.hosts.ooklaserver.net # Avative ISP 第二测速节点，位于犹他州 
-DOMAIN-SUFFIX,speedtest.utopiafiber.com.prod.hosts.ooklaserver.net # Utopia Fiber 网络测速节点，用于本地测速 
-DOMAIN-SUFFIX,speedtest.hicountry.net.prod.hosts.ooklaserver.net # HiCountry ISP 测速服务器，犹他州地区 
-DOMAIN-SUFFIX,yourspeed.allwest.com # AllWest 通信测速子域，用于测速服务 
-DOMAIN-SUFFIX,speedtest.wifipros.co.prod.hosts.ooklaserver.net # WifiPros 网络测速节点，支持 Ookla 测试平台 
-IP-CIDR,66.205.243.2 # Speedtest Fallback 测速节点（Rackspace 托管），使用端口8080用于测速验证-待持续验证
+DOMAIN-SUFFIX,speedtest.net # Speedtest 主域名
+DOMAIN-SUFFIX,ooklaserver.net # Ookla 测速节点域名
+DOMAIN-SUFFIX,speedtestcustom.com # Ookla 自定义测速服务域名
+DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 静态资源域名
 
 # > OpenSpeedTest 网络测速服务
 
