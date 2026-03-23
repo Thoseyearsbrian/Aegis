@@ -243,8 +243,9 @@ DOMAIN-SUFFIX,mcs.zijieapi.com # 字节跳动多媒体服务域名
 DOMAIN-SUFFIX,bytecdn.com # 字节跳动商业系统资源服务域名
 
 # > China Telecom（中国电信）服务相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,189.cn # 中国电信官方业务主域名，用于通信服务、账号体系与运营商相关业务访问
+DOMAIN-SUFFIX,189.cn # 中国电信服务域名
 DOMAIN-SUFFIX,wx.go189.cn # 中国电信微信服务域名
 DOMAIN-SUFFIX,w.189.cn # 中国电信网页服务域名
 DOMAIN-SUFFIX,p.go189.cn # 中国电信页面服务域名
@@ -253,46 +254,48 @@ DOMAIN-SUFFIX,cd.go189.cn # 中国电信内容分发服务域名
 DOMAIN-SUFFIX,zt-activity.go189.cn # 中国电信活动页面服务域名
 DOMAIN-SUFFIX,reportappgo.189.cn # 中国电信应用日志上报接口域名
 DOMAIN-SUFFIX,appgologin.189.cn # 中国电信应用登录接口域名
-DOMAIN-SUFFIX,alipaymini.189.cn # 中国电信支付宝小程序接入网关域名，用于小程序业务通信、服务调用与接口请求
-DOMAIN-SUFFIX,applecsb.crm.189.cn # 中国电信 CRM 业务接口，用于 Apple 设备在国内的运营商服务绑定与业务对接
-DOMAIN-SUFFIX,21cn.com # 中国电信旗下 21CN 服务域名，用于企业级通信服务与相关业务支持
-DOMAIN-SUFFIX,api-e189.21cn.com # 中国电信号码与身份相关服务接口域名，用于用户接入与服务验证
-DOMAIN-SUFFIX,e189.cn # 中国电信统一服务入口域名，用于官网、应用与在线业务访问
-DOMAIN-SUFFIX,ct10000.com # 中国电信 10000 号服务门户域名，用于用户服务、业务查询与支持入口
-DOMAIN-SUFFIX,chinatelecom-h.com # 中国电信控股公司域名，用于集团信息与资本市场相关内容发布
-DOMAIN-SUFFIX,chinatelecomglobal.com # 中国电信国际业务域名，用于全球网络服务与跨境业务接入
-DOMAIN-SUFFIX,chinatelecom.com.cn # 中国电信主官方网站域名，用于公司信息、业务入口与公共服务访问
+DOMAIN-SUFFIX,alipaymini.189.cn # 中国电信支付宝小程序服务域名
+DOMAIN-SUFFIX,applecsb.crm.189.cn # 中国电信 CRM 业务接口域名
+DOMAIN-SUFFIX,21cn.com # 中国电信 21CN 服务域名
+DOMAIN-SUFFIX,api-e189.21cn.com # 中国电信身份服务接口域名
+DOMAIN-SUFFIX,e189.cn # 中国电信统一服务域名
+DOMAIN-SUFFIX,ct10000.com # 中国电信客户服务域名
+DOMAIN-SUFFIX,chinatelecom-h.com # 中国电信控股公司域名
+DOMAIN-SUFFIX,chinatelecomglobal.com # 中国电信国际业务域名
+DOMAIN-SUFFIX,chinatelecom.com.cn # 中国电信主站域名
 
 # > China Unicom（中国联通）服务相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,wo.cn # 中国联通主服务域名，用于官网访问、用户入口与统一账号体系支持
-DOMAIN-SUFFIX,10010.com # 中国联通官方服务门户域名，用于业务办理、套餐查询与客户服务入口
-DOMAIN-SUFFIX,chinaunicom.com # 中国联通集团域名，用于集团信息、投资者关系与企业信息发布
-DOMAIN-SUFFIX,chinaunicom.cn # 中国联通公司主域名，用于政企服务、宽带接入与账户相关服务
-DOMAIN-SUFFIX,chinaunicombidding.cn # 中国联通招标采购平台域名，用于采购信息发布与投标管理服务
-DOMAIN-SUFFIX,chinaunicominternational.com # 中国联通国际公司域名，用于海外通信服务与国际网络接入
-DOMAIN-SUFFIX,chinaunicomglobal.com # 中国联通全球业务服务域名，用于国际通信与全球服务支持
-DOMAIN-SUFFIX,api.wo.cn # 中国联通服务接口域名，用于业务系统接入、认证与能力调用
-IP-CIDR,150.138.40.20/24 # 中国联通公网 IP，HTTPS 服务节点，常用于云服务或企业业务访问
+DOMAIN-SUFFIX,wo.cn # 中国联通服务域名
+DOMAIN-SUFFIX,10010.com # 中国联通客户服务域名
+DOMAIN-SUFFIX,chinaunicom.com # 中国联通集团域名
+DOMAIN-SUFFIX,chinaunicom.cn # 中国联通服务域名
+DOMAIN-SUFFIX,chinaunicombidding.cn # 中国联通招标采购平台域名
+DOMAIN-SUFFIX,chinaunicominternational.com # 中国联通国际业务域名
+DOMAIN-SUFFIX,chinaunicomglobal.com # 中国联通全球业务域名
+DOMAIN-SUFFIX,api.wo.cn # 中国联通接口域名
 
 # > China Mobile（中国移动）服务相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,10086.cn # 中国移动统一服务入口域名，用于官网访问、应用接入与业务办理
-DOMAIN-SUFFIX,cmpassport.com # 中国移动统一身份认证平台域名，用于用户接入与账号验证服务
-DOMAIN-SUFFIX,api.cmpassport.com # 中国移动身份认证服务接口域名，用于应用与系统的认证调用
-DOMAIN-SUFFIX,chinamobile.com # 中国移动集团官网域名，用于企业信息、公告披露与新闻发布
-DOMAIN-SUFFIX,monternet.com # 中国移动梦网平台域名，用于移动增值服务与内容接入支持
-DOMAIN-SUFFIX,cmcc.net # 中国移动集团网络与内部系统相关服务域名
-DOMAIN-SUFFIX,cmvideo.cn # 中国移动咪咕视频主域名，用于视频内容服务与客户端访问
-DOMAIN-SUFFIX,miguvideo.com # 咪咕视频品牌服务域名，用于内容播放与账号相关服务
+DOMAIN-SUFFIX,10086.cn # 中国移动服务域名
+DOMAIN-SUFFIX,cmpassport.com # 中国移动身份认证平台域名
+DOMAIN-SUFFIX,api.cmpassport.com # 中国移动身份认证接口域名
+DOMAIN-SUFFIX,chinamobile.com # 中国移动集团域名
+DOMAIN-SUFFIX,monternet.com # 中国移动梦网服务域名
+DOMAIN-SUFFIX,cmcc.net # 中国移动网络服务域名
+DOMAIN-SUFFIX,cmvideo.cn # 咪咕视频服务域名
+DOMAIN-SUFFIX,miguvideo.com # 咪咕视频品牌服务域名
 
 # > China Broadcasting Network（中国广电）服务相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,cbn.cn # 中国广电（China Broadcasting Network）主站域名，用于集团信息、业务介绍与政企服务入口
-DOMAIN-SUFFIX,china-bn.com # 中国广电官方服务域名，用于宽带、电视与相关公共服务信息访问
-DOMAIN-SUFFIX,chinabroadcast.cn # 中国广播电视网络公司域名，用于全国广电网络与一体化服务平台访问
-DOMAIN-SUFFIX,gdtv.cn # 广东广电网络公司域名，用于区域性广电业务与视频内容服务
-DOMAIN-SUFFIX,cbncloud.cn # 中国广电云平台域名，用于云网融合服务与广播电视云能力入口
+DOMAIN-SUFFIX,cbn.cn # 中国广电服务域名
+DOMAIN-SUFFIX,china-bn.com # 中国广电服务域名
+DOMAIN-SUFFIX,chinabroadcast.cn # 中国广电网络服务域名
+DOMAIN-SUFFIX,gdtv.cn # 广东广电服务域名
+DOMAIN-SUFFIX,cbncloud.cn # 中国广电云平台域名
 
 # > MIIT and Related Institutions（工信部及相关机构）服务域名
 
