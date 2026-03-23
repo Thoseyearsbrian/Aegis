@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-21
+# - 更新时间：2026-03-23
 
 # > 阿里巴巴中国站相关域名（Alibaba Group - China）
 
@@ -81,6 +81,7 @@ IP-CIDR,180.97.209.12/32 # AliPay render 服务节点（render.alipay.com）
 IP-CIDR,180.97.214.185/32 # AliPay 前端资源网关服务节点（gw.alipayobjects.com）
 IP-CIDR,180.97.214.186/32 # AliPay 静态资源服务节点（mdn.alipayobjects.com）
 IP-CIDR,180.97.251.243/32 # AliPay 前端资源网关服务节点（gw.alipayobjects.com）
+IP-CIDR,180.97.251.244/32 # AliPay 前端资源网关服务节点（gw.alipayobjects.com）
 IP-CIDR,180.101.199.235/32 # Alipay render 服务节点（render.alipay.com）
 IP-CIDR,221.231.47.28/32 # AliPay 数据网关边缘服务节点（datagw-edge.alipay.com）
 IP-CIDR,221.231.47.201/32 # AliPay render 服务节点（render.alipay.com）
