@@ -77,15 +77,16 @@ IP-CIDR,221.231.92.20/32 # AliPay 数据网关边缘服务节点（datagw-edge.a
 IP-CIDR,221.231.92.59/32 # AliPay 数据网关边缘服务节点（datagw-edge.alipay.com）
 IP-CIDR,221.231.92.61/32 # Alipay 数据网关边缘服务节点（datagw-edge.alipay.com）
 
-# > 阿里云盘 相关域名
+# > Aliyun Drive（阿里云盘）相关域名
+# - 校对时间：2026-03-23
 
-DOMAIN-SUFFIX,alipan.com # 阿里云盘官方品牌主域名，用于产品介绍、客户端下载、跳转至用户服务与生态页面
-DOMAIN-SUFFIX,aliyundrive.com # 阿里云盘官方主域名，用于官网访问、产品介绍、Web 端入口与基础服务加载
-DOMAIN-SUFFIX,user.aliyundrive.com # 阿里云盘用户账户与身份体系域名，用于登录、鉴权、用户信息与会话管理
-DOMAIN-SUFFIX,api.aliyundrive.com # 阿里云盘官方 API 接口域名，用于文件列表、上传下载、同步、账户鉴权与云端存储相关核心功能
-DOMAIN-SUFFIX,cn-beijing-data.aliyundrive.net # 阿里云盘中国北京区域数据存储与内容分发节点，用于文件上传、下载与内容同步等核心数据传输
-DOMAIN-SUFFIX,bj29.auth.aliyunpds.com # 阿里云盘区域级账号鉴权与会话认证接口，用于用户登录状态校验、访问令牌验证与 API 请求认证
-DOMAIN-SUFFIX,dl1-v6.aliyundrive.cloud # 阿里云盘 IPv6 下载节点域名，用于文件直链下载、分片传输与内容分发加速
+DOMAIN-SUFFIX,alipan.com # 阿里云盘品牌域名
+DOMAIN-SUFFIX,aliyundrive.com # 阿里云盘主域名
+DOMAIN-SUFFIX,user.aliyundrive.com # 阿里云盘账户服务域名
+DOMAIN-SUFFIX,api.aliyundrive.com # 阿里云盘接口域名
+DOMAIN-SUFFIX,aliyundrive.net # 阿里云盘数据服务域名
+DOMAIN-SUFFIX,aliyunpds.com # 阿里云盘认证服务域名
+DOMAIN-SUFFIX,aliyundrive.cloud # 阿里云盘下载服务域名
 
 # > 淘宝相关域名（Taobao / 阿里巴巴集团）
 
