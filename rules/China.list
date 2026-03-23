@@ -153,84 +153,83 @@ DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云视频服务域名
 DOMAIN-SUFFIX,dnspod.cn # 腾讯 DNSPod 服务域名
 
 # > Tencent Mail（QQ 邮箱）
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,mail.qq.com # QQ 邮箱网页主入口域名，用于邮件访问、管理与基础服务接口
-DOMAIN-SUFFIX,foxmail.com # 腾讯旗下 Foxmail 邮件客户端服务域名，用于客户端通信与邮件同步
-DOMAIN-SUFFIX,mywebmail.mail.qq.com # QQ 邮箱网页版邮件操作接口域名，用于收发邮件与会话处理
-DOMAIN-SUFFIX,imgcache.qq.com # 腾讯邮件系统内容缓存与图片资源加载 CDN 域名
+DOMAIN-SUFFIX,mail.qq.com # QQ 邮箱主域名
+DOMAIN-SUFFIX,foxmail.com # Foxmail 邮件服务域名
+DOMAIN-SUFFIX,mywebmail.mail.qq.com # QQ 邮箱网页服务域名
+DOMAIN-SUFFIX,imgcache.qq.com # QQ 邮箱图片缓存域名
 
 # > Tencent Maps（腾讯地图）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,map.qq.com # 腾讯地图主站域名，用于地图展示、搜索与基础地图服务访问
-DOMAIN-SUFFIX,apis.map.qq.com # 腾讯地图 API 服务接口域名，用于第三方应用接入地图与位置数据
-DOMAIN-SUFFIX,mapsdk.map.qq.com # 腾讯地图 SDK 服务接口域名，用于移动端地图加载与功能调用
-DOMAIN-SUFFIX,confinfo.map.qq.com # 腾讯地图配置信息服务接口，用于动态加载系统设置与参数
-DOMAIN-SUFFIX,poi.map.qq.com # 腾讯地图兴趣点（POI）数据查询与展示服务接口
-DOMAIN-SUFFIX,rtq.map.qq.com # 腾讯地图实时交通数据服务接口
-DOMAIN-SUFFIX,tracking.map.qq.com # 腾讯地图轨迹与路线相关数据服务接口
-DOMAIN-SUFFIX,ugc.map.qq.com # 腾讯地图用户生成内容服务接口，用于标注、评论等内容提交与访问
-DOMAIN-SUFFIX,nav.map.qq.com # 腾讯地图导航服务接口，用于路径规划与导航功能支持
-DOMAIN-SUFFIX,photo.map.qq.com # 腾讯地图街景与地理照片资源加载服务接口
-DOMAIN-SUFFIX,conf.map.qq.com # 腾讯地图组件动态配置接口，用于小程序与 SDK 场景调用
+DOMAIN-SUFFIX,map.qq.com # 腾讯地图主域名
+DOMAIN-SUFFIX,apis.map.qq.com # 腾讯地图 API 域名
+DOMAIN-SUFFIX,mapsdk.map.qq.com # 腾讯地图 SDK 域名
+DOMAIN-SUFFIX,confinfo.map.qq.com # 腾讯地图配置服务域名
+DOMAIN-SUFFIX,poi.map.qq.com # 腾讯地图兴趣点服务域名
+DOMAIN-SUFFIX,rtq.map.qq.com # 腾讯地图实时交通服务域名
+DOMAIN-SUFFIX,tracking.map.qq.com # 腾讯地图轨迹服务域名
+DOMAIN-SUFFIX,ugc.map.qq.com # 腾讯地图用户内容服务域名
+DOMAIN-SUFFIX,nav.map.qq.com # 腾讯地图导航服务域名
+DOMAIN-SUFFIX,photo.map.qq.com # 腾讯地图街景图片服务域名
+DOMAIN-SUFFIX,conf.map.qq.com # 腾讯地图组件配置域名
 
 # > Tencent Games（王者荣耀 / 和平精英）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,tencentgames.com # 腾讯游戏官方网站主域名，用于游戏产品介绍、品牌展示与官方活动页面
-DOMAIN-SUFFIX,igame.qq.com # 腾讯游戏平台入口域名，承载多款腾讯系游戏的下载、启动与账号关联服务
-DOMAIN-SUFFIX,gamecenter.qq.com # 腾讯游戏中心服务域名，用于用户账号信息同步、游戏启动与平台交互
-DOMAIN-SUFFIX,kgame.qq.com # 王者荣耀核心服务域名，涉及登录鉴权、活动页面与部分游戏接口调用
-DOMAIN-SUFFIX,king.qq.com # 王者荣耀官方网站主域名，用于游戏资讯、版本公告与活动展示
-DOMAIN-SUFFIX,api.kg.qq.com # 王者荣耀后端服务接口域名，涵盖语音房、战绩查询与游戏内功能支持
-DOMAIN-SUFFIX,pg.qq.com # 和平精英官方网站主域名，用于游戏介绍、赛事信息与活动页面访问
-DOMAIN-SUFFIX,fp.ps.qq.com # 和平精英反作弊系统接口域名（鹰眼系统），用于作弊检测与安全防护
-DOMAIN-SUFFIX,syzs.qq.com # 和平精英实名认证与安全登录接口域名，涉及账号实名校验与合规验证
-DOMAIN-SUFFIX,gvoice.tencent.com # 腾讯 GVoice 实时语音通信服务域名，用于游戏内语音聊天与多人通信
-DOMAIN-SUFFIX,bugly.qq.com # 腾讯 Bugly 崩溃日志与错误上报平台域名，多个腾讯游戏用于稳定性监测
-DOMAIN-SUFFIX,dlied1.qq.com # 腾讯游戏下载与更新 CDN 节点，用于分发游戏客户端与资源文件
-DOMAIN-SUFFIX,dlied2.qq.com # 腾讯游戏下载与更新 CDN 备用节点，用于客户端资源分发与负载均衡
-DOMAIN-SUFFIX,egame.qq.com # 腾讯先游 / 电竞平台服务域名，涉及云游戏体验、赛事与内容分发
+DOMAIN-SUFFIX,tencentgames.com # 腾讯游戏主域名
+DOMAIN-SUFFIX,igame.qq.com # 腾讯游戏平台域名
+DOMAIN-SUFFIX,gamecenter.qq.com # 腾讯游戏中心域名
+DOMAIN-SUFFIX,kgame.qq.com # 王者荣耀服务域名
+DOMAIN-SUFFIX,king.qq.com # 王者荣耀主域名
+DOMAIN-SUFFIX,api.kg.qq.com # 王者荣耀接口域名
+DOMAIN-SUFFIX,pg.qq.com # 和平精英主域名
+DOMAIN-SUFFIX,fp.ps.qq.com # 和平精英安全服务域名
+DOMAIN-SUFFIX,syzs.qq.com # 和平精英实名服务域名
+DOMAIN-SUFFIX,gvoice.tencent.com # 腾讯语音通信服务域名
+DOMAIN-SUFFIX,dlied1.qq.com # 腾讯游戏下载服务域名
+DOMAIN-SUFFIX,dlied2.qq.com # 腾讯游戏下载服务域名
+DOMAIN-SUFFIX,egame.qq.com # 腾讯游戏服务域名
 
 # > QQ（腾讯 QQ）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,qq.com # 腾讯 QQ 主域名，用于即时通信、账号体系与相关基础服务访问
-DOMAIN-SUFFIX,myqq.com # QQ 账号管理与辅助服务域名，用于用户信息维护与功能支持
-DOMAIN-SUFFIX,tenpay.com # QQ 钱包支付服务域名，用于支付结算与交易相关接口访问
-DOMAIN-SUFFIX,qpic.cn # QQ 系列产品静态资源 CDN 域名，用于头像与图片内容分发
-DOMAIN-SUFFIX,gtimg.cn # 腾讯通用 CDN 域名，用于 QQ 及其他腾讯产品的静态资源加载
-DOMAIN-SUFFIX,mail.qq.com # QQ 邮箱主站域名，用于邮件访问与管理服务
-DOMAIN-SUFFIX,foxmail.com # 腾讯旗下 Foxmail 邮件客户端服务域名
-DOMAIN-SUFFIX,qqmail.com # QQ 邮箱服务跳转与别名域名，用于邮件系统访问
-DOMAIN-SUFFIX,mqqpay.com # QQ 钱包相关支付接口域名，用于客户端支付与结算服务
-DOMAIN-SUFFIX,open.tenpay.com # QQ 钱包开放平台接口域名，用于第三方接入支付服务
-DOMAIN-SUFFIX,aq.qq.com # QQ 安全中心服务域名，用于账号保护提示与安全相关页面访问
-DOMAIN-SUFFIX,btrace.qq.com # QQ 客户端运行数据与状态信息上报接口
-DOMAIN-SUFFIX,isdspeed.qq.com # QQ 客户端网络状态与连接质量信息接口
-DOMAIN-SUFFIX,sngapm.qq.com # QQ 应用性能与运行状态相关服务接口
-DOMAIN-SUFFIX,connect.qq.com # QQ 互联登录与 OAuth 授权服务接口域名
-DOMAIN-SUFFIX,imgcache.qq.com # QQ 图片内容缓存与加速 CDN 域名
-DOMAIN-SUFFIX,ovscdns.com # 腾讯相关网络访问中转与调度节点域名
-DOMAIN-SUFFIX,qlogo.cn # QQ 用户头像与标识资源 CDN 域名
-DOMAIN-SUFFIX,icq.com # 腾讯旗下 ICQ 国际即时通信服务相关域名
-DOMAIN-SUFFIX,privacy.qq.com # 腾讯官方隐私政策与数据保护说明站点，用于展示隐私条款、合规信息与用户数据权利说明
-DOMAIN-SUFFIX,inews.gtimg.com # 腾讯新闻图片与内容资源 CDN，用于新闻正文、封面图与信息流媒体加载
+DOMAIN-SUFFIX,qq.com # QQ 主域名
+DOMAIN-SUFFIX,myqq.com # QQ 账号服务域名
+DOMAIN-SUFFIX,qpic.cn # QQ 图片资源域名
+DOMAIN-SUFFIX,qqmail.com # QQ 邮箱服务域名
+DOMAIN-SUFFIX,aq.qq.com # QQ 安全服务域名
+DOMAIN-SUFFIX,btrace.qq.com # QQ 运行状态上报域名
+DOMAIN-SUFFIX,isdspeed.qq.com # QQ 网络质量接口域名
+DOMAIN-SUFFIX,sngapm.qq.com # QQ 性能监控服务域名
+DOMAIN-SUFFIX,connect.qq.com # QQ 互联授权域名
+DOMAIN-SUFFIX,ovscdns.com # 腾讯调度服务域名
+DOMAIN-SUFFIX,qlogo.cn # QQ 头像资源域名
+DOMAIN-SUFFIX,icq.com # ICQ 服务域名
+DOMAIN-SUFFIX,privacy.qq.com # 腾讯隐私说明域名
 
 # > MyApp（腾讯应用宝）应用管理与分发服务
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,sj.qq.com # 腾讯应用宝官方网站，用于应用展示、下载页面访问与应用信息服务
-DOMAIN-SUFFIX,myapp.com # 腾讯应用宝官方主域名，用于应用分发、更新与服务访问
-DOMAIN-SUFFIX,pm.myapp.com # 腾讯应用宝应用管理与包发布接口，用于应用包信息、更新与后台通信
+DOMAIN-SUFFIX,sj.qq.com # 腾讯应用宝主域名
+DOMAIN-SUFFIX,myapp.com # 腾讯应用宝服务域名
+DOMAIN-SUFFIX,pm.myapp.com # 腾讯应用宝管理服务域名
 
 # > TIM（腾讯 TIM）团队协作办公服务
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,team.qq.com # 腾讯 TIM 团队协作与办公即时通讯服务官方入口域名，用于访问产品介绍、下载页面与相关服务
+DOMAIN-SUFFIX,team.qq.com # 腾讯 TIM 服务域名
 
 # > QQ Support（腾讯 QQ 用户支持与帮助中心）
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,support.qq.com # 腾讯官方用户支持与帮助中心，用于账号、产品、服务问题查询、工单提交与官方支持入口
+DOMAIN-SUFFIX,support.qq.com # QQ 用户支持服务域名
 
 # > Weiyun（腾讯微云）代码与技术支持服务
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,huatuocode.weiyun.com # 腾讯微云旗下代码与技术支持相关服务子域，用于代码展示、问题分析与辅助技术支持访问
+DOMAIN-SUFFIX,huatuocode.weiyun.com # 腾讯微云技术支持域名
 
 # > ByteDance AI（Doubao / VolcEngine）相关域名
 
