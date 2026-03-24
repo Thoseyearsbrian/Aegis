@@ -709,95 +709,88 @@ DOMAIN-SUFFIX,h5.sfcityrush.com # 顺丰同城骑士移动服务域名
 DOMAIN-SUFFIX,passport.sfcityrush.com # 顺丰同城骑士账号服务域名
 DOMAIN-SUFFIX,oss.sfcityrush.com # 顺丰同城骑士资源服务域名
 
-# > Ele.me（本地生活服务）相关域名
+# > Bank of China（中国银行）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,ele.me # 饿了么主站域名，用于点餐与外卖服务入口 
-DOMAIN-SUFFIX,ele-inc.com # 饿了么企业级域名，涉及内网、管理与接口调用 
-DOMAIN-SUFFIX,eleme.cn # 饿了么历史域名或 CDN 服务节点，部分内容仍在使用 
-DOMAIN-SUFFIX,eleme.io # 饿了么前端项目使用的静态资源域名 
-DOMAIN-SUFFIX,eleme.net # 饿了么活动/营销用辅助域名 
-DOMAIN-SUFFIX,production.ele.me # 饿了么生产环境接口域名，用于订单、支付等请求 
-DOMAIN-SUFFIX,apollo.ele.me # 饿了么 A/B 测试与配置服务平台 
-DOMAIN-SUFFIX,logstore.ele.me # 饿了么日志收集与埋点行为记录服务 
+DOMAIN-SUFFIX,boc.cn # 中国银行主域名
+DOMAIN-SUFFIX,ebsnew.boc.cn # 中国银行企业网银服务域名
+DOMAIN-SUFFIX,bocmac.com # 中国银行移动服务域名
+DOMAIN-SUFFIX,bocfullertonbank.com # 中银富登服务域名
+DOMAIN-SUFFIX,bocapps.com # 中国银行应用服务域名
+DOMAIN-SUFFIX,bocichina.com # 中银保险服务域名
+DOMAIN-SUFFIX,bocim.com # 中银投资管理服务域名
+DOMAIN-SUFFIX,bocpay.com.hk # 中银香港支付服务域名
+DOMAIN-SUFFIX,bocnet.com.cn # 中国银行网银服务域名
+DOMAIN-SUFFIX,boccc.cc # 中国银行信用卡服务域名
+DOMAIN-SUFFIX,bank-of-china.com # 中国银行国际服务域名
 
-# > 中国银行相关域名（Bank of China）
+# > Industrial and Commercial Bank of China（工商银行）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,boc.cn # 中国银行主域名，提供官网访问、账户服务与网上银行入口 
-DOMAIN-SUFFIX,ebsnew.boc.cn # 中国银行企业网银与账户服务平台入口 
-DOMAIN-SUFFIX,ibsbjstar.ccb.com.cn # 中行联通跨行网银服务节点，部分接口委托建行处理 
-DOMAIN-SUFFIX,bocmac.com # 中国银行移动支付组件与短信接口服务域名 
-DOMAIN-SUFFIX,bocfullertonbank.com # 中银富登村镇银行官方域名，提供本地金融服务 
-DOMAIN-SUFFIX,bocapps.com # 中国银行移动端 App 接口服务域名，涉及登录与交易 
-DOMAIN-SUFFIX,bocichina.com # 中银保险服务平台，提供保险产品与投保接口 
-DOMAIN-SUFFIX,bocim.com # 中国银行投资管理服务平台，涵盖基金、理财等业务 
-DOMAIN-SUFFIX,bocpay.com.hk # 中银香港 BOCPay 支付平台，用于本地扫码支付与交易 
-DOMAIN-SUFFIX,bocnet.com.cn # 中国银行备用旧版服务域名，部分旧系统仍在使用 
-DOMAIN-SUFFIX,boccc.cc # 中国银行信用卡服务域名，提供账单、积分与还款服务 
-DOMAIN-SUFFIX,bank-of-china.com # 中国银行国际版官网域名，用于境外服务与外币交易 
+DOMAIN-SUFFIX,icbc.com.cn # 工商银行主域名
+DOMAIN-SUFFIX,icbc-ltd.com # 工商银行国际服务域名
+DOMAIN-SUFFIX,icbccs.com.cn # 工银瑞信服务域名
+DOMAIN-SUFFIX,icbc-axa.com # 工银安盛服务域名
+DOMAIN-SUFFIX,icbc.com # 工商银行国际服务域名
+DOMAIN-SUFFIX,e.icbc.com.cn # 工商银行电子银行服务域名
+DOMAIN-SUFFIX,mybank.icbc.com.cn # 工商银行个人网银服务域名
+DOMAIN-SUFFIX,corporbank.icbc.com.cn # 工商银行企业网银服务域名
+DOMAIN-SUFFIX,mail.icbc.com.cn # 工商银行邮件服务域名
+DOMAIN-SUFFIX,bill.icbc.com.cn # 工商银行票据服务域名
+DOMAIN-SUFFIX,mywap2.icbc.com.cn # 工商银行移动服务域名
+DOMAIN-SUFFIX,image.mybank.icbc.com.cn # 工商银行图片资源域名
 
-# > 工商银行相关域名（Industrial and Commercial Bank of China）
+# > China Construction Bank（建设银行）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,icbc.com.cn # 工行主站域名，用于官网、个人/企业网银等服务入口 
-DOMAIN-SUFFIX,icbc-ltd.com # 工商银行股份有限公司国际业务站点与公告服务 
-DOMAIN-SUFFIX,icbccs.com.cn # 工银瑞信基金管理公司官网，提供基金产品与交易服务 
-DOMAIN-SUFFIX,icbc-axa.com # 工银安盛人寿保险公司官网，涉及保险业务与客户服务 
-DOMAIN-SUFFIX,icbc.com # 工行国际站旧版域名，部分系统仍用于外币与境外业务 
-DOMAIN-SUFFIX,e.icbc.com.cn # 工行电子银行服务子域，用于手机银行等接口请求 
-DOMAIN-SUFFIX,mybank.icbc.com.cn # 工行个人网银服务平台，提供账户管理与支付服务 
-DOMAIN-SUFFIX,corporbank.icbc.com.cn # 工行企业网银服务平台，涉及转账、报销等接口 
-DOMAIN-SUFFIX,mail.icbc.com.cn # 工行企业邮箱服务域名，用于内部通信与通知发送 
-DOMAIN-SUFFIX,bill.icbc.com.cn # 工行票据业务接口，服务于电子票据与报表查询 
-DOMAIN-SUFFIX,mywap2.icbc.com.cn # 工商银行移动端主页面接口，支持账户信息展示与功能导航 
-DOMAIN-SUFFIX,image.mybank.icbc.com.cn # 工行图像加载接口，提供登录验证码与图片资源 
+DOMAIN-SUFFIX,ccb.com # 建设银行主域名
+DOMAIN-SUFFIX,ccb.com.cn # 建设银行中国区服务域名
+DOMAIN-SUFFIX,ccbintl.com # 建设银行国际服务域名
+DOMAIN-SUFFIX,ccb-life.com.cn # 建信人寿服务域名
+DOMAIN-SUFFIX,ccb-ft.com # 建信基金服务域名
+DOMAIN-SUFFIX,ccbfa.com # 建行金融科技服务域名
+DOMAIN-SUFFIX,ccbhome.cn # 建行住房金融服务域名
+DOMAIN-SUFFIX,netbank.ccb.com # 建设银行个人网银服务域名
+DOMAIN-SUFFIX,ebank.ccb.com # 建设银行企业网银服务域名
+DOMAIN-SUFFIX,mail.ccb.com # 建设银行邮件服务域名
 
-# > 建设银行相关域名（China Construction Bank）
+# > Agricultural Bank of China（农业银行）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,ccb.com # 建设银行主站域名，用于官网与国际版服务入口 
-DOMAIN-SUFFIX,ccb.com.cn # 建行中国大陆主域名，用于账户管理、网银与手机银行 
-DOMAIN-SUFFIX,ccbintl.com # 建行国际金融服务域名，覆盖海外地区银行业务 
-DOMAIN-SUFFIX,ccb-life.com.cn # 建信人寿保险官网，用于保险产品与客户服务 
-DOMAIN-SUFFIX,ccb-ft.com # 建信基金管理公司主域名，提供基金投资与理财服务 
-DOMAIN-SUFFIX,ccbfa.com # 建行金融科技子公司域名，涉及创新服务平台 
-DOMAIN-SUFFIX,ccbhome.cn # 建行住房金融服务平台，涵盖按揭、公积金等相关业务 
-DOMAIN-SUFFIX,netbank.ccb.com # 建行个人网银平台接口域名，涉及交易与身份验证 
-DOMAIN-SUFFIX,ebank.ccb.com # 建行企业网银与在线支付接口入口 
-DOMAIN-SUFFIX,mail.ccb.com # 建行内部与客户邮件通信服务域名 
+DOMAIN-SUFFIX,abchina.com # 农业银行主域名
+DOMAIN-SUFFIX,abchina.com.cn # 农业银行中国区服务域名
+DOMAIN-SUFFIX,abchina.net # 农业银行国际服务域名
+DOMAIN-SUFFIX,95599.cn # 农业银行客户服务域名
+DOMAIN-SUFFIX,mail.abchina.com # 农业银行邮件服务域名
+DOMAIN-SUFFIX,abc-fund.com # 农银汇理服务域名
+DOMAIN-SUFFIX,abcinsurance.com.cn # 农银人寿服务域名
+DOMAIN-SUFFIX,abc-ca.com.cn # 农业银行 CA 服务域名
+DOMAIN-SUFFIX,netpay.abchina.com # 农业银行支付服务域名
+DOMAIN-SUFFIX,ebank.abchina.com # 农业银行电子银行服务域名
 
-# > 农业银行相关域名（Agricultural Bank of China）
+# > China Merchants Bank（招商银行）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,abchina.com # 农业银行主站域名，用于官网、账户服务与产品展示 
-DOMAIN-SUFFIX,abchina.com.cn # 农行中国大陆业务域名，涵盖企业/个人网银与移动银行 
-DOMAIN-SUFFIX,abchina.net # 农行海外与国际业务接口域名 
-DOMAIN-SUFFIX,95599.cn # 农业银行客服电话入口与营销活动服务域名 
-DOMAIN-SUFFIX,mail.abchina.com # 农行内部及外部邮件服务域名 
-DOMAIN-SUFFIX,abc-fund.com # 农银汇理基金管理有限公司官网，提供理财与基金服务 
-DOMAIN-SUFFIX,abcinsurance.com.cn # 农银人寿保险平台，用于投保、保单查询等业务 
-DOMAIN-SUFFIX,abc-ca.com.cn # 农行 CA 认证中心域名，用于安全认证与证书服务 
-DOMAIN-SUFFIX,netpay.abchina.com # 农行网银在线支付与交易接口域名 
-DOMAIN-SUFFIX,ebank.abchina.com # 农行电子银行平台接口，含登录验证与转账服务 
+DOMAIN-SUFFIX,cmbchina.com # 招商银行主域名
+DOMAIN-SUFFIX,cmbimg.com # 招商银行静态资源域名
+DOMAIN-SUFFIX,cmbt.cn # 招商银行短链服务域名
+DOMAIN-SUFFIX,cmbcreditcard.com # 招商银行信用卡服务域名
+DOMAIN-SUFFIX,cmbchina.com.cn # 招商银行中国区服务域名
+DOMAIN-SUFFIX,cmbank.cn # 招商银行服务域名
+DOMAIN-SUFFIX,appplay.cmbchina.com # 招商银行应用服务域名
+DOMAIN-SUFFIX,netbank.cmbchina.com # 招商银行网银服务域名
+DOMAIN-SUFFIX,mobsec.cmbchina.com # 招商银行移动安全服务域名
+DOMAIN-SUFFIX,cmbapi.com # 招商银行 API 服务域名
 
-# > 招商银行相关域名（China Merchants Bank）
+# > China CITIC Bank（中信银行）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,cmbchina.com # 招商银行主站域名，用于账户服务、业务查询与客户登录 
-DOMAIN-SUFFIX,cmbimg.com # 招行静态资源 CDN，用于图标、脚本与前端组件加载 
-DOMAIN-SUFFIX,cmbt.cn # 招行营销活动与链接跳转使用的短链域名 
-DOMAIN-SUFFIX,cmbcreditcard.com # 招商银行信用卡中心网站，提供办卡、积分、还款等服务 
-DOMAIN-SUFFIX,cmbchina.com.cn # 招行中国区业务相关子域名，用于安全认证或定向接口 
-DOMAIN-SUFFIX,cmbank.cn # 招行早期或内部服务域名，现用于部分后台接口 
-DOMAIN-SUFFIX,appplay.cmbchina.com # 招行 App 专属接口，涉及登录验证、首页推荐等 
-DOMAIN-SUFFIX,netbank.cmbchina.com # 招行网银登录与交易服务接口 
-DOMAIN-SUFFIX,mobsec.cmbchina.com # 招行移动安全服务接口，用于设备识别与风控行为 
-DOMAIN-SUFFIX,cmbapi.com # 招商银行 API 平台域名，供第三方或开放接口接入 
-
-# > 中信银行相关域名（China CITIC Bank）
-
-DOMAIN-SUFFIX,citicbank.com # 中信银行主站域名，提供网银登录、账户管理与业务介绍 
-DOMAIN-SUFFIX,ecitic.com # 中信电子银行服务平台，用于企业金融、投资与外汇业务 
-DOMAIN-SUFFIX,citicgroup.com.cn # 中信集团公司官网，涉及集团金融服务入口与信息展示 
-DOMAIN-SUFFIX,app.citicbank.com # 中信银行手机银行 App 接口服务域名 
-DOMAIN-SUFFIX,creditcard.ecitic.com # 中信银行信用卡中心服务域名，含申请、积分、账单等功能 
-DOMAIN-SUFFIX,citic-cloud.com # 中信银行云服务平台域名，用于 API 接入与后台服务连接 
-DOMAIN-SUFFIX,e.cmbchina.cn # 中信银行电子渠道服务接口，支持交易与身份验证 
+DOMAIN-SUFFIX,citicbank.com # 中信银行主域名
+DOMAIN-SUFFIX,ecitic.com # 中信银行电子银行服务域名
+DOMAIN-SUFFIX,citicgroup.com.cn # 中信集团服务域名
+DOMAIN-SUFFIX,app.citicbank.com # 中信银行应用服务域名
+DOMAIN-SUFFIX,creditcard.ecitic.com # 中信银行信用卡服务域名
+DOMAIN-SUFFIX,citic-cloud.com # 中信银行云服务域名
 
 # > 交通银行相关域名（Bank of Communications）
 
