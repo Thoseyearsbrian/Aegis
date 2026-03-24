@@ -127,6 +127,12 @@ IP-CIDR,223.6.6.6/32 # 阿里云公共 DNS 解析节点
 # IP-CIDR6,2400:3200::1/128 # 阿里云公共 DNS IPv6 解析节点
 # IP-CIDR6,2400:3200:baba::1/128 # 阿里云公共 DNS IPv6 解析节点
 
+# > Tencent DNSPod（DNS 解析与链路探测接口）
+# - 校对时间：2026-03-24
+
+# IP-CIDR,119.29.29.90/32 # 腾讯 DNSPod 公共 DNS 解析节点
+# IP-CIDR,119.29.29.98/32 # 腾讯 DNSPod 公共 DNS 解析节点
+
 # > Tencent Cloud（腾讯云）
 # - 校对时间：2026-03-24
 
