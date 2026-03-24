@@ -605,52 +605,56 @@ DOMAIN-SUFFIX,logstore.ele.me # 蜂鸟优选日志服务域名
 DOMAIN-SUFFIX,feedback.ele.me # 蜂鸟优选反馈服务域名
 
 # > MissFresh Grocery Delivery（每日优鲜）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,missfresh.cn # 每日优鲜生鲜电商平台主域名，用于官网访问与用户服务入口
-DOMAIN-SUFFIX,api.missfresh.cn # 每日优鲜核心服务 API 接口域名，用于商品信息、订单与业务请求处理
-DOMAIN-SUFFIX,img.missfresh.cn # 每日优鲜图像资源 CDN 域名，用于商品图片与多媒体内容加载
-DOMAIN-SUFFIX,static.missfresh.cn # 每日优鲜前端静态资源服务域名，用于页面组件与脚本资源分发
-DOMAIN-SUFFIX,track.missfresh.cn # 每日优鲜平台相关服务接口域名，用于业务运行与服务支持
-DOMAIN-SUFFIX,log.missfresh.cn # 每日优鲜系统日志与运行状态相关接口域名
-DOMAIN-SUFFIX,wx.missfresh.cn # 每日优鲜微信相关服务域名，用于小程序与微信登录接入
-DOMAIN-SUFFIX,passport.missfresh.cn # 每日优鲜账号注册、登录与身份认证服务域名
+DOMAIN-SUFFIX,missfresh.cn # 每日优鲜主域名
+DOMAIN-SUFFIX,api.missfresh.cn # 每日优鲜接口域名
+DOMAIN-SUFFIX,img.missfresh.cn # 每日优鲜图片资源域名
+DOMAIN-SUFFIX,static.missfresh.cn # 每日优鲜静态资源域名
+DOMAIN-SUFFIX,track.missfresh.cn # 每日优鲜轨迹服务域名
+DOMAIN-SUFFIX,log.missfresh.cn # 每日优鲜日志服务域名
+DOMAIN-SUFFIX,wx.missfresh.cn # 每日优鲜微信服务域名
+DOMAIN-SUFFIX,passport.missfresh.cn # 每日优鲜账号服务域名
 
 # > Hema Fresh by Alibaba（盒马鲜生）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,hemaos.com # 盒马鲜生生鲜零售平台主域名，用于商城访问、下单与相关服务入口
-DOMAIN-SUFFIX,hemaapp.com # 盒马鲜生客户端相关服务域名，用于应用运行与功能支持接口
-DOMAIN-SUFFIX,himalaya-h5.hemaos.com # 盒马鲜生 H5 页面与小程序相关服务域名
-DOMAIN-SUFFIX,api.hemaos.com # 盒马鲜生核心服务 API 接口域名，用于下单、支付与物流相关业务请求
-DOMAIN-SUFFIX,cdn.hemaos.com # 盒马鲜生静态资源与内容分发 CDN 域名
-DOMAIN-SUFFIX,passport.hemaos.com # 盒马鲜生用户注册、登录与身份认证服务域名
-DOMAIN-SUFFIX,log.hemaos.com # 盒马鲜生平台运行日志与服务状态相关接口域名
-DOMAIN-SUFFIX,track.hemaos.com # 盒马鲜生平台相关服务接口域名
-DOMAIN-SUFFIX,alilog.hemaos.com # 盒马鲜生日志采集与平台服务支持接口域名
-DOMAIN-SUFFIX,ucdl.hemamax.com # 盒马鲜生客户端下载与更新相关服务域名
+DOMAIN-SUFFIX,hemaos.com # 盒马鲜生主域名
+DOMAIN-SUFFIX,hemaapp.com # 盒马鲜生应用服务域名
+DOMAIN-SUFFIX,himalaya-h5.hemaos.com # 盒马鲜生 H5 服务域名
+DOMAIN-SUFFIX,api.hemaos.com # 盒马鲜生接口域名
+DOMAIN-SUFFIX,cdn.hemaos.com # 盒马鲜生内容分发域名
+DOMAIN-SUFFIX,passport.hemaos.com # 盒马鲜生账号服务域名
+DOMAIN-SUFFIX,log.hemaos.com # 盒马鲜生日志服务域名
+DOMAIN-SUFFIX,track.hemaos.com # 盒马鲜生轨迹服务域名
+DOMAIN-SUFFIX,alilog.hemaos.com # 盒马鲜生日志服务域名
+DOMAIN-SUFFIX,ucdl.hemamax.com # 盒马鲜生客户端下载服务域名
 
 # > Dingdong Maicai（叮咚买菜）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,ddxq.mobi # 叮咚买菜生鲜零售平台主域名，用于下单、支付与用户服务入口
-DOMAIN-SUFFIX,front.ddxq.mobi # 叮咚买菜前端页面服务域名，用于商品浏览与页面渲染
-DOMAIN-SUFFIX,static.ddxq.mobi # 叮咚买菜静态资源与内容分发 CDN 域名
-DOMAIN-SUFFIX,activity.ddxq.mobi # 叮咚买菜活动与内容展示相关服务域名
-DOMAIN-SUFFIX,api.ddxq.mobi # 叮咚买菜核心服务 API 接口域名，用于商品、订单与业务请求处理
-DOMAIN-SUFFIX,track.ddxq.mobi # 叮咚买菜平台相关服务接口域名
-DOMAIN-SUFFIX,log.ddxq.mobi # 叮咚买菜系统日志与运行状态相关接口域名
-DOMAIN-SUFFIX,img.ddxq.mobi # 叮咚买菜图像与媒体资源加载域名
-DOMAIN-SUFFIX,passport.ddxq.mobi # 叮咚买菜用户注册、登录与身份认证服务域名
-DOMAIN-SUFFIX,appdl.ddxq.mobi # 叮咚买菜客户端应用下载与更新服务域名
+DOMAIN-SUFFIX,ddxq.mobi # 叮咚买菜主域名
+DOMAIN-SUFFIX,front.ddxq.mobi # 叮咚买菜前端服务域名
+DOMAIN-SUFFIX,static.ddxq.mobi # 叮咚买菜静态资源域名
+DOMAIN-SUFFIX,activity.ddxq.mobi # 叮咚买菜活动服务域名
+DOMAIN-SUFFIX,api.ddxq.mobi # 叮咚买菜接口域名
+DOMAIN-SUFFIX,track.ddxq.mobi # 叮咚买菜轨迹服务域名
+DOMAIN-SUFFIX,log.ddxq.mobi # 叮咚买菜日志服务域名
+DOMAIN-SUFFIX,img.ddxq.mobi # 叮咚买菜图片资源域名
+DOMAIN-SUFFIX,passport.ddxq.mobi # 叮咚买菜账号服务域名
+DOMAIN-SUFFIX,appdl.ddxq.mobi # 叮咚买菜客户端下载服务域名
 
 # > Dada Delivery Rider（达达骑士）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,dada.cn # 达达即时配送平台主域名，用于骑手端与平台相关服务访问
-DOMAIN-SUFFIX,newretail.dada.cn # 达达新零售相关服务接口域名，用于订单与配送业务支持
-DOMAIN-SUFFIX,static.dada.cn # 达达前端静态资源服务域名，用于脚本、样式与图片资源加载
-DOMAIN-SUFFIX,track.dada.cn # 达达配送平台相关服务接口域名
-DOMAIN-SUFFIX,cdn.dada.cn # 达达内容分发与资源加速 CDN 服务域名
-DOMAIN-SUFFIX,passport.dada.cn # 达达用户注册、登录与身份认证服务域名
-DOMAIN-SUFFIX,report.dada.cn # 达达平台运行与业务状态相关服务接口域名
-DOMAIN-SUFFIX,appdl.dada.cn # 达达客户端应用下载与更新服务域名
+DOMAIN-SUFFIX,dada.cn # 达达主域名
+DOMAIN-SUFFIX,newretail.dada.cn # 达达新零售服务域名
+DOMAIN-SUFFIX,static.dada.cn # 达达静态资源域名
+DOMAIN-SUFFIX,track.dada.cn # 达达轨迹服务域名
+DOMAIN-SUFFIX,cdn.dada.cn # 达达内容分发域名
+DOMAIN-SUFFIX,passport.dada.cn # 达达账号服务域名
+DOMAIN-SUFFIX,report.dada.cn # 达达报表服务域名
+DOMAIN-SUFFIX,appdl.dada.cn # 达达客户端下载服务域名
 
 # > SF Express Rider（顺丰骑士）相关域名
 
