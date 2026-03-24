@@ -569,39 +569,40 @@ DOMAIN-SUFFIX,lepaocdn.meituan.com # 美团乐跑内容分发域名
 DOMAIN-SUFFIX,lepaolog.meituan.com # 美团乐跑日志服务域名
 
 # > Ele.me Crowdsource Delivery（蜂鸟众包）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,fengniao.waimai.me # 蜂鸟众包核心服务域名，用于骑手端与平台相关服务访问
-DOMAIN-SUFFIX,fengniao.com # 蜂鸟配送平台主域名，用于配送系统与相关服务接口
-DOMAIN-SUFFIX,falconapi.fengniao.com # 蜂鸟配送平台相关服务接口域名
-DOMAIN-SUFFIX,tracking.fengniao.com # 蜂鸟配送相关服务接口域名
-DOMAIN-SUFFIX,resource.fengniao.com # 蜂鸟配送前端资源加载与内容分发服务域名
-DOMAIN-SUFFIX,rider.elenet.me # 饿了么骑手系统服务域名，用于骑手账户与服务访问
-DOMAIN-SUFFIX,cainiao.com # 菜鸟网络服务域名，用于物流与平台相关服务支持
+DOMAIN-SUFFIX,fengniao.waimai.me # 蜂鸟众包服务域名
+DOMAIN-SUFFIX,fengniao.com # 蜂鸟配送主域名
+DOMAIN-SUFFIX,falconapi.fengniao.com # 蜂鸟配送接口域名
+DOMAIN-SUFFIX,tracking.fengniao.com # 蜂鸟配送轨迹服务域名
+DOMAIN-SUFFIX,resource.fengniao.com # 蜂鸟配送资源服务域名
+DOMAIN-SUFFIX,rider.elenet.me # 饿了么骑手服务域名
 
 # > Ele.me（饿了么 / 含蜂鸟专送配送体系）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,ele.me # 饿了么主站域名，用于外卖与蜂鸟专送服务入口，承载下单、账户与基础业务页面
-DOMAIN-SUFFIX,h5.ele.me # 饿了么移动端主站域名，用于点餐、下单、优惠、账户等核心业务访问
-DOMAIN-SUFFIX,elemecdn.com # 饿了么（Ele.me）官方 CDN 主域名，承载前端静态资源与子域分发
-DOMAIN-SUFFIX,cube.elemecdn.com # 饿了么前端组件与业务模块资源 CDN，用于页面组件与功能模块加载
-DOMAIN-SUFFIX,assets.elemecdn.com # 饿了么（Ele.me）静态资源分发域名，用于图片、脚本、样式等前端资源加载
-DOMAIN-SUFFIX,waimai.taobao.com # 饿了么在淘宝体系内的历史入口与聚合跳转页面，用于订单引流与业务整合展示
-DOMAIN-SUFFIX,h5.ele.me # 饿了么 H5 移动端页面服务域名，用于轻量化下单、订单查询与活动页面访问
-DOMAIN-SUFFIX,restapi.ele.me # 饿了么核心后端 API 服务域名，处理订单创建、配送状态、用户与商户业务请求
-DOMAIN-SUFFIX,open-api.ele.me # 饿了么开放平台接口域名，供第三方商户、系统与配送平台进行业务对接
-DOMAIN-SUFFIX,api-rider.ele.me # 饿了么骑手端核心接口域名，用于任务分发、接单状态、轨迹与配送行为上报
-DOMAIN-SUFFIX,tracking.ele.me # 饿了么配送轨迹与定位服务域名，支持蜂鸟专送实时位置追踪与异常状态上报
-DOMAIN-SUFFIX,assets.ele.me # 饿了么前端静态资源域名，用于加载页面 UI、地图组件、脚本与样式资源
+DOMAIN-SUFFIX,ele.me # 饿了么主域名
+DOMAIN-SUFFIX,h5.ele.me # 饿了么移动服务域名
+DOMAIN-SUFFIX,elemecdn.com # 饿了么内容分发域名
+DOMAIN-SUFFIX,cube.elemecdn.com # 饿了么前端资源域名
+DOMAIN-SUFFIX,assets.elemecdn.com # 饿了么静态资源域名
+DOMAIN-SUFFIX,waimai.taobao.com # 饿了么历史入口域名
+DOMAIN-SUFFIX,restapi.ele.me # 饿了么接口域名
+DOMAIN-SUFFIX,open-api.ele.me # 饿了么开放平台域名
+DOMAIN-SUFFIX,api-rider.ele.me # 饿了么骑手接口域名
+DOMAIN-SUFFIX,tracking.ele.me # 饿了么轨迹服务域名
+DOMAIN-SUFFIX,assets.ele.me # 饿了么静态资源域名
 
 # > Ele.me Preferred Delivery（蜂鸟优选）相关域名
+# - 校对时间：2026-03-24
 
-DOMAIN-SUFFIX,home.ele.me # 蜂鸟优选业务主页入口，用于用户浏览精选商品、发起下单与配送服务
-DOMAIN-SUFFIX,choice.ele.me # 蜂鸟优选活动与推荐页面域名，用于商品推荐、促销活动与定向内容展示
-DOMAIN-SUFFIX,ele-static.ele.me # 蜂鸟优选前端静态资源域名，用于加载图片、脚本、样式等页面资源
-DOMAIN-SUFFIX,productapi.ele.me # 蜂鸟优选商品与库存 API 接口域名，用于商品信息、库存状态等数据请求
-DOMAIN-SUFFIX,shopping.ele.me # 蜂鸟优选购物流程服务接口，支持下单、支付、订单查询等核心交易流程
-DOMAIN-SUFFIX,logstore.ele.me # 蜂鸟优选用户行为与系统日志采集接口，用于行为分析、推荐优化与运行监控
-DOMAIN-SUFFIX,feedback.ele.me # 蜂鸟优选用户反馈与售后支持接口，用于评价提交、问题反馈与服务改进
+DOMAIN-SUFFIX,home.ele.me # 蜂鸟优选主页服务域名
+DOMAIN-SUFFIX,choice.ele.me # 蜂鸟优选业务服务域名
+DOMAIN-SUFFIX,ele-static.ele.me # 蜂鸟优选静态资源域名
+DOMAIN-SUFFIX,productapi.ele.me # 蜂鸟优选商品接口域名
+DOMAIN-SUFFIX,shopping.ele.me # 蜂鸟优选购物服务域名
+DOMAIN-SUFFIX,logstore.ele.me # 蜂鸟优选日志服务域名
+DOMAIN-SUFFIX,feedback.ele.me # 蜂鸟优选反馈服务域名
 
 # > MissFresh Grocery Delivery（每日优鲜）相关域名
 
