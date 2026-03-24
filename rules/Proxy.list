@@ -71,11 +71,12 @@ IP-CIDR6,2a06:98c0::/29 # Cloudflare IPv6 边缘网络
 IP-CIDR6,2c0f:f248::/32 # Cloudflare IPv6 边缘网络
 
 # > Speedtest（Ookla）网络测速平台
-# - 校对时间：2026-03-23
+# - 校对时间：2026-03-24
 
 DOMAIN-SUFFIX,speedtest.net # Speedtest 主域名
 DOMAIN-SUFFIX,ooklaserver.net # Ookla 测速节点域名
 DOMAIN-SUFFIX,speedtestcustom.com # Ookla 自定义测速服务域名
+DOMAIN-SUFFIX,speed.misaka.one # Misaka 自定义测速服务域名
 DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 静态资源域名
 
 # > OpenSpeedTest 网络测速服务
