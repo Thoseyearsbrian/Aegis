@@ -1149,31 +1149,6 @@ DOMAIN-SUFFIX,tjzwfw.gov.cn # 天津政务服务域名
 DOMAIN-SUFFIX,hljzwfw.gov.cn # 黑龙江政务服务域名
 DOMAIN-SUFFIX,xzzwfw.gov.cn # 西藏政务服务域名
 
-# > 美团 / 大众点评相关域名（Meituan / Dianping）
-
-DOMAIN-SUFFIX,meituan.com # 美团本地生活服务平台主域名，用于外卖、到店、酒旅、出行等核心业务
-DOMAIN-SUFFIX,m.meituan.com # 美团移动端网页服务域名，用于移动访问与轻量化操作
-DOMAIN-SUFFIX,meituan.net # 美团技术与内部服务域名，用于系统调度、SDK 与数据平台相关服务
-DOMAIN-SUFFIX,api.meituan.com # 美团平台业务 API 接口域名，用于订单、商户与用户数据交互
-DOMAIN-SUFFIX,static.meituan.com # 美团平台静态资源服务域名，用于前端脚本与页面组件加载
-DOMAIN-SUFFIX,dianping.com # 大众点评本地生活内容与评价平台主域名
-DOMAIN-SUFFIX,dianping.com # 大众点评官方网站子域名
-DOMAIN-SUFFIX,m.dianping.com # 大众点评移动端网页服务域名
-DOMAIN-SUFFIX,sankuai.com # 美团集团基础设施与内部平台域名，用于调度、日志与系统支撑
-DOMAIN-SUFFIX,mepcloud.com # 美团集团内部云与技术支撑平台域名，用于业务系统与资源支持
-DOMAIN-SUFFIX,mobike.com # 美团旗下摩拜单车服务域名，用于共享单车与出行业务
-DOMAIN-SUFFIX,mobike.com # 摩拜单车官方网站子域名 
-
-# > 饿了么相关域名（Ele.me）
-
-DOMAIN-SUFFIX,ele.me # 饿了么外卖与本地生活服务平台主域名，用于下单、订单与用户服务入口
-DOMAIN-SUFFIX,h5.ele.me # 饿了么移动端 H5 服务域名，用于轻量化下单与活动页面访问
-DOMAIN-SUFFIX,ele-net.com # 饿了么网络基础设施与服务部署相关域名，用于调度与系统支撑
-DOMAIN-SUFFIX,api.ele.me # 饿了么平台业务 API 接口域名，用于订单、商户与配送数据交互
-DOMAIN-SUFFIX,static.ele.me # 饿了么静态资源服务域名，用于页面脚本、样式与前端资源加载
-DOMAIN-SUFFIX,alimebot.cn # 阿里系智能客服与 AI 机器人服务域名，用于饿了么客服与自动化交互
-DOMAIN-SUFFIX,log.waimai.meituan.com # 饿了么早期历史遗留日志接口域名，可能用于兼容旧版 SDK 或历史链路 
-
 # > 京东相关域名（JD.com）
 
 DOMAIN-SUFFIX,jd.com # 京东电商平台核心主域名，用于商品浏览、下单交易与用户服务入口
