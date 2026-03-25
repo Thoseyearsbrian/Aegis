@@ -976,20 +976,6 @@ DOMAIN-SUFFIX,shixin.court.gov.cn # 失信被执行人信息公开域名
 DOMAIN-SUFFIX,zhixing.court.gov.cn # 中国执行信息公开网域名
 DOMAIN-SUFFIX,rmfysszc.gov.cn # 人民法院诉讼资产网域名
 
-# > National Healthcare Security Administration（国家医保局）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,nhsa.gov.cn # 国家医保局主域名
-DOMAIN-SUFFIX,api.nhsa.gov.cn # 国家医保服务平台接口域名
-DOMAIN-SUFFIX,wx.nhsa.gov.cn # 国家医保微信服务域名
-DOMAIN-SUFFIX,ns.nhsa.gov.cn # 国家医保通知服务域名
-DOMAIN-SUFFIX,esb.nhsa.gov.cn # 国家医保服务总线域名
-DOMAIN-SUFFIX,ps.nhsa.gov.cn # 国家医保公共服务域名
-DOMAIN-SUFFIX,ggfw.nhsa.gov.cn # 国家医保便民服务域名
-DOMAIN-SUFFIX,si-mas.nhsa.gov.cn # 国家医保电子凭证服务域名
-DOMAIN-SUFFIX,gov-mas.nhsa.gov.cn # 国家医保数据交换服务域名
-DOMAIN-SUFFIX,si.12333.gov.cn # 社保统一服务平台域名
-
 # > Ministry of Education / CHSI（教育部 / 学信网）相关域名
 # - 校对时间：2026-03-25
 
@@ -1107,27 +1093,37 @@ DOMAIN-SUFFIX,resource.yuketang.cn # 雨课堂资源服务域名
 DOMAIN-SUFFIX,jwglxt.com # 教务管理系统服务域名
 DOMAIN-SUFFIX,zhjw.cn # 高校教务公共服务域名
 
-# > 社保查询平台（全国与地方）
+# > Social Security Service Platforms（社保服务平台）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,si.12333.gov.cn # 全国社会保险公共服务平台，提供社保缴费、明细查询等 
-DOMAIN-SUFFIX,12333.gov.cn # 人力资源和社会保障部官方域名，用于统一服务入口 
-DOMAIN-SUFFIX,hrss.gov.cn # 各地人社局子域名使用，主站为人力资源与社会保障部 
-DOMAIN-SUFFIX,sh12333.cn # 上海市人力资源与社会保障局服务网 
-DOMAIN-SUFFIX,bjrbj.gov.cn # 北京市人力资源和社会保障局 
-DOMAIN-SUFFIX,gdhrss.gov.cn # 广东省人力资源和社会保障厅 
-DOMAIN-SUFFIX,zjhrss.gov.cn # 浙江省人力资源和社会保障厅 
+DOMAIN-SUFFIX,12333.gov.cn # 人力资源和社会保障公共服务域名
+DOMAIN-SUFFIX,si.12333.gov.cn # 社保统一服务平台域名
 
-# > 公积金平台（住房公积金查询）
+# > Local HRSS Platforms（地方人社服务平台）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,gjj.cn # 全国公积金服务平台统一登录域名（部分地区使用） 
-DOMAIN-SUFFIX,zfgjj.cn # 地方公积金系统常用域名（如北京、广州） 
-DOMAIN-SUFFIX,bjgjj.gov.cn # 北京住房公积金管理中心官网 
-DOMAIN-SUFFIX,shgjj.com # 上海市住房公积金网站 
-DOMAIN-SUFFIX,cdgjj.cn # 成都市住房公积金中心 
-DOMAIN-SUFFIX,szgjj.com # 深圳市住房公积金管理中心 
-DOMAIN-SUFFIX,whgjj.com.cn # 武汉住房公积金管理中心 
-DOMAIN-SUFFIX,zjgjj.gov.cn # 浙江省统一公积金管理平台 
-DOMAIN-SUFFIX,gdgjj.gov.cn # 广东省住房公积金平台 
+DOMAIN-SUFFIX,hrss.gov.cn # 人社系统服务域名
+DOMAIN-SUFFIX,sh12333.cn # 上海人社服务域名
+DOMAIN-SUFFIX,bjrbj.gov.cn # 北京人社服务域名
+DOMAIN-SUFFIX,gdhrss.gov.cn # 广东人社服务域名
+DOMAIN-SUFFIX,zjhrss.gov.cn # 浙江人社服务域名
+
+# > Housing Provident Fund Platforms（住房公积金平台）相关域名
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,gjj.cn # 公积金服务域名
+DOMAIN-SUFFIX,zfgjj.cn # 住房公积金服务域名
+
+# > Local Housing Provident Fund Platforms（地方住房公积金平台）相关域名
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,bjgjj.gov.cn # 北京住房公积金服务域名
+DOMAIN-SUFFIX,shgjj.com # 上海住房公积金服务域名
+DOMAIN-SUFFIX,cdgjj.cn # 成都住房公积金服务域名
+DOMAIN-SUFFIX,szgjj.com # 深圳住房公积金服务域名
+DOMAIN-SUFFIX,whgjj.com.cn # 武汉住房公积金服务域名
+DOMAIN-SUFFIX,zjgjj.gov.cn # 浙江住房公积金服务域名
+DOMAIN-SUFFIX,gdgjj.gov.cn # 广东住房公积金服务域名
 
 # > 南京市政务服务平台（我的南京 / 南京政务云）
 
