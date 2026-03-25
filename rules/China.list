@@ -1979,100 +1979,57 @@ DOMAIN-SUFFIX,cdn.moonshot.cn # 月之暗面静态资源域名
 DOMAIN-SUFFIX,passport.moonshot.cn # 月之暗面账号服务域名
 DOMAIN-SUFFIX,auth.moonshot.cn # 月之暗面认证服务域名
 
-# > 智齿客服（Sobot）在线服务域名
+# > Sobot（智齿客服）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,sobot.com # 智齿客服主站域名，用于客服系统页面加载与控制台访问
-DOMAIN-SUFFIX,chat.sobot.com # 智齿客服系统通信域名，用于网页端客服聊天、消息推送与用户会话维持
-DOMAIN-SUFFIX,api-c.sobot.com # 智齿客服 API 接口域名，用于网页聊天窗口与用户信息拉取交互
-DOMAIN-SUFFIX,imws.sobot.com # 智齿客服 WebSocket 域名，用于消息实时推送与会话维持
-DOMAIN-SUFFIX,crumb.sobot.com # 智齿客服身份校验与会话凭证服务域名，用于用户状态验证
-DOMAIN-SUFFIX,errorlog.sobot.com # 智齿客服错误日志上报接口域名，用于收集前端异常与诊断数据
+DOMAIN-SUFFIX,sobot.com # 智齿客服主域名
+DOMAIN-SUFFIX,chat.sobot.com # 智齿客服会话服务域名
+DOMAIN-SUFFIX,api-c.sobot.com # 智齿客服接口域名
+DOMAIN-SUFFIX,imws.sobot.com # 智齿客服通信服务域名
 
-# > Koala（GetKoala 前端组件 / 营销工具平台）
+# > Adobe China（Adobe 中国）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,getkoala.com # Koala（GetKoala）服务主域名，用于营销组件、弹窗系统与站点互动工具入口
-DOMAIN-SUFFIX,cdn.getkoala.com # Koala 静态资源 CDN，用于加载前端脚本、样式、弹窗组件与站点互动控件
-DOMAIN-SUFFIX,api.getkoala.com # Koala API 后端，用于弹窗逻辑、A/B 测试、用户交互配置与组件行为返回
-DOMAIN-SUFFIX,assets.getkoala.com # Koala 静态素材资源域，用于图片、图标、营销组件素材加载
-DOMAIN-SUFFIX,app.getkoala.com # Koala 后台管理控制台，用于站点配置、营销自动化、弹窗编辑与行为数据查看
+DOMAIN-SUFFIX,adobe.cn # Adobe 中国主域名
+DOMAIN-SUFFIX,adobelogin.cn # Adobe 中国登录服务域名
+DOMAIN-SUFFIX,adobecc.cn # Adobe Creative Cloud 中国区服务域名
 
-# > 神策可视化平台相关静态资源 CDN 域名
+# > ItDog（网络监测服务）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,static-fonts.i.sxl.cn # 神策字体资源 CDN，用于加载 Web 字体与界面字体文件
-DOMAIN-SUFFIX,static-assets.sxlcdn.com # 神策可视化平台静态资源域名，用于加载图标、JS、CSS 等前端资源
-DOMAIN-SUFFIX,ajax.sxlcdn.com # 神策数据前端请求接口，用于页面数据请求与交互操作
-DOMAIN-SUFFIX,user-assets.sxlcdn.com # 神策平台用户资源存储域名，用于用户自定义上传的图像、配置等静态文件
-DOMAIN-SUFFIX,static-fonts-css.sxlcdn.com # 神策平台字体样式表资源域名，用于 CSS 样式与字体引用分发
+DOMAIN-SUFFIX,itdog.cn # ItDog 主域名
+DOMAIN-SUFFIX,monitor.itdog.cn # ItDog 监测服务域名
+DOMAIN-SUFFIX,api.itdog.cn # ItDog 接口域名
+DOMAIN-SUFFIX,cdn.itdog.cn # ItDog 静态资源域名
 
-# > hCaptcha 人机验证服务域名（中国节点）
+# > China Welfare Lottery（中国福利彩票）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,cn1.hcaptcha.com # hCaptcha 在中国大陆部署的验证服务节点，用于加载验证组件、挑战任务与安全校验逻辑
+DOMAIN-SUFFIX,cwlgovcn.com # 中国福利彩票服务域名
 
-# > Adobe 中国服务域名
+# > China Sports Lottery（中国体育彩票）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,adobe.cn # Adobe 中国主站域名，用于服务介绍、软件下载与本地化运营页面加载
-DOMAIN-SUFFIX,adobelogin.cn # Adobe 中国登录域名，用于账户验证与登录流程
-DOMAIN-SUFFIX,adobecc.cn # Adobe Creative Cloud 中国区服务域名，用于订阅管理、应用分发与云服务接入
+DOMAIN-SUFFIX,lottery.gov.cn # 中国体育彩票服务域名
+DOMAIN-SUFFIX,static.sporttery.cn # 体育彩票静态资源域名
+DOMAIN-SUFFIX,apkdata.sporttery.cn # 体育彩票客户端下载服务域名
+DOMAIN-SUFFIX,receive.sporttery.cn # 体育彩票业务接口域名
+DOMAIN-SUFFIX,webinfo.sporttery.cn # 体育彩票信息服务域名
+DOMAIN-SUFFIX,webapi.sporttery.cn # 体育彩票接口域名
 
-# > ItDog 网络监测服务相关域名
+# > CONAC（统一社会信用代码公示）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,itdog.cn # ItDog 主站域名，用于访问官网与服务入口 
-DOMAIN-SUFFIX,monitor.itdog.cn # ItDog 网络监测平台子域，用于用户站点的在线监测与报告查看 
-DOMAIN-SUFFIX,api.itdog.cn # ItDog API 接口域名，用于数据查询、监控任务创建与结果推送等 
-DOMAIN-SUFFIX,cdn.itdog.cn # ItDog 静态资源 CDN 域名，用于前端页面静态资源加载，如 JS、CSS 等
+DOMAIN-SUFFIX,dcs.conac.cn # 统一社会信用代码公示接口域名
 
-# > Nicolas Hoffmann 可访问性资源域名（用于 Web 可访问性组件加载）
+# > Boss Zhipin（BOSS 直聘）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,a11y.nicolas-hoffmann.net # Web A11y 可访问性组件资源加载域名，用于获取 UI 辅助功能支持文件
-
-# > Framer 用户内容分发域名（用户托管页面与资源加载）
-
-DOMAIN-SUFFIX,framerusercontent.com # Framer 平台托管的用户项目与静态资源域名，用于加载网页、图像与 JS 等前端内容，常见于站点预览与个人页面
-
-# > 中彩网
-
-DOMAIN-SUFFIX,zhcw.com # 中彩网网站域名，用于彩票开奖信息发布、政策公告与公益资讯展示
-
-# > 中国福利彩票
-
-DOMAIN-SUFFIX,cwlgovcn.com # 中国福利彩票官方域名，用于彩票开奖信息发布、政策公告与公益资讯展示
-
-# > 中体彩网
-
-DOMAIN-SUFFIX,lottery.gov.cn # 中国体彩网官方网站域名，用于发布彩票监管政策、公告信息与权威资讯
-DOMAIN-SUFFIX,static.sporttery.cn # 体育彩票官网静态资源 CDN 域名，用于加载页面脚本、样式、图片等前端资源
-DOMAIN-SUFFIX,apkdata.sporttery.cn # 体育彩票官方 App 数据与安装包信息服务域名，用于客户端版本检测与资源获取
-DOMAIN-SUFFIX,receive.sporttery.cn # 体育彩票业务数据接收接口域名，用于投注结果、状态回传等后台通信
-DOMAIN-SUFFIX,webinfo.sporttery.cn # 体育彩票官网信息服务接口域名，用于公告、开奖信息与页面数据加载
-DOMAIN-SUFFIX,webapi.sporttery.cn # 体育彩票官网核心 Web API 接口域名，用于业务查询与前端数据交互
-
-# > 全国组织机构统一社会信用代码系统（CONAC）
-
-DOMAIN-SUFFIX,dcs.conac.cn # 全国组织机构统一社会信用代码公示系统接口域名，用于机构身份标识校验与权威信息查询服务
-
-# > Marmot Cloud 第三方 CDN 与云服务相关域名
-
-DOMAIN-SUFFIX,cdn.marmot-cloud.com # Marmot Cloud CDN 静态资源分发域名，用于内容与资源加速加载
-
-# > html2canvas 前端截图与 Canvas 渲染库服务
-
-DOMAIN-SUFFIX,html2canvas.hertzen.com # html2canvas 官方资源域名，用于前端页面截图与 Canvas 渲染库相关资源加载
-
-# > Boss 直聘 相关域名
-
-DOMAIN-SUFFIX,zhipin.com # Boss 直聘主站与核心业务域名，用于招聘信息展示、职位搜索、账户登录与企业服务
-DOMAIN-SUFFIX,bosszhipin.com # Boss 直聘主站与核心业务域名，用于招聘信息展示、职位搜索、账户登录与企业服务
-DOMAIN-SUFFIX,api-ios.zhipin.com # Boss 直聘 iOS 客户端核心业务 API，用于职位、消息、投递与账户等基础功能请求
-DOMAIN-SUFFIX,img.bosszhipin.com # Boss 直聘前端图片与静态资源域名，用于职位展示、公司标识与页面 UI 加载
-DOMAIN-SUFFIX,img2.bosszhipin.com # Boss 直聘前端图片与静态资源 CDN 域名，用于职位图片、公司展示与页面 UI 加载
-
-# > EuroLand 投资者关系与金融数据嵌入服务
-
-DOMAIN-SUFFIX,tools.euroland.com # 第三方投资者关系（IR）与金融数据展示服务域名，用于上市公司财报、股价与投资信息组件加载
-
-# > 国内 CDN 与内容加速基础设施（China CDN / Content Delivery）
-
-DOMAIN-SUFFIX,cdn-go.cn # 国内内容分发网络（CDN）域名，用于静态资源与业务内容加速分发
+DOMAIN-SUFFIX,zhipin.com # BOSS 直聘主域名
+DOMAIN-SUFFIX,bosszhipin.com # BOSS 直聘服务域名
+DOMAIN-SUFFIX,api-ios.zhipin.com # BOSS 直聘接口域名
+DOMAIN-SUFFIX,img.bosszhipin.com # BOSS 直聘图片资源域名
+DOMAIN-SUFFIX,img2.bosszhipin.com # BOSS 直聘图片资源域名
 
 # > 国内内容与信息服务平台通信节点
 
