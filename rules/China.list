@@ -852,84 +852,94 @@ DOMAIN-SUFFIX,ebank.cebbank.com # 光大银行网银服务域名
 DOMAIN-SUFFIX,open.cebbank.com # 光大银行开放平台域名
 DOMAIN-SUFFIX,cebnetbank.com # 光大银行网络服务域名
 
-# > 广发银行相关域名（China Guangfa Bank / CGB）
+# > China Guangfa Bank / CGB（广发银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,cgbchina.com.cn # 广发银行主站域名，用于账户管理、网银服务与信息展示 
-DOMAIN-SUFFIX,cgbchina.com # 广发银行备用主域名，部分服务兼容访问 
-DOMAIN-SUFFIX,cgbchina.net # 广发银行子系统及业务接口域名 
-DOMAIN-SUFFIX,ebank.cgbchina.com.cn # 广发网上银行入口，支持账户登录、转账、缴费等功能 
-DOMAIN-SUFFIX,open.cgbchina.com.cn # 广发开放平台接口域名，供第三方接入服务 
-DOMAIN-SUFFIX,cgbcreditcard.com # 广发信用卡中心官网，提供卡片申请、账单查询等服务 
+DOMAIN-SUFFIX,cgbchina.com.cn # 广发银行主域名
+DOMAIN-SUFFIX,cgbchina.com # 广发银行服务域名
+DOMAIN-SUFFIX,cgbchina.net # 广发银行业务服务域名
+DOMAIN-SUFFIX,ebank.cgbchina.com.cn # 广发银行网银服务域名
+DOMAIN-SUFFIX,open.cgbchina.com.cn # 广发银行开放平台域名
+DOMAIN-SUFFIX,cgbcreditcard.com # 广发银行信用卡服务域名
 
-# > 华夏银行相关域名（Huaxia Bank）
+# > Huaxia Bank（华夏银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,hxb.com.cn # 华夏银行主站域名，用于账户服务、信息展示与业务系统入口 
-DOMAIN-SUFFIX,ebank.hxb.com.cn # 华夏网上银行服务入口，支持转账、查询、缴费等功能 
-DOMAIN-SUFFIX,cashier.hxb.com.cn # 华夏支付收银台域名，用于交易验证与支付接口调用 
-DOMAIN-SUFFIX,creditcard.hxb.com.cn # 华夏信用卡中心服务域名，用于办卡、积分查询等服务 
-DOMAIN-SUFFIX,open.hxb.com.cn # 华夏开放平台域名，支持第三方系统接入调用 
-DOMAIN-SUFFIX,hxbank.com.cn # 华夏银行备用域名，部分历史业务系统仍在使用 
+DOMAIN-SUFFIX,hxb.com.cn # 华夏银行主域名
+DOMAIN-SUFFIX,ebank.hxb.com.cn # 华夏银行网银服务域名
+DOMAIN-SUFFIX,cashier.hxb.com.cn # 华夏银行支付服务域名
+DOMAIN-SUFFIX,creditcard.hxb.com.cn # 华夏银行信用卡服务域名
+DOMAIN-SUFFIX,open.hxb.com.cn # 华夏银行开放平台域名
+DOMAIN-SUFFIX,hxbank.com.cn # 华夏银行服务域名
 
-# > 浦发银行相关域名（SPDB）
+# > SPD Bank（浦发银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,spdb.com.cn # 浦发网上银行服务入口，支持账户管理与交易操作 
-DOMAIN-SUFFIX,m.spdb.com.cn # 浦发手机银行服务域名，供移动端 App 调用 
-DOMAIN-SUFFIX,open.spdb.com.cn # 浦发开放平台域名，第三方系统接入入口 
-DOMAIN-SUFFIX,pafibank.com # 浦发旗下平安付金融服务域名，用于支付与接口服务 
-DOMAIN-SUFFIX,spdbccc.com.cn # 浦发信用卡中心主域名，支持办卡、账单查询等 
-DOMAIN-SUFFIX,cc.spdb.com.cn # 信用卡子系统域名，部分接口服务调用依赖 
-DOMAIN-SUFFIX,ebanking.spdb.com.cn # 电子银行综合服务接口，支持交易与身份验证 
+DOMAIN-SUFFIX,spdb.com.cn # 浦发银行主域名
+DOMAIN-SUFFIX,m.spdb.com.cn # 浦发银行移动服务域名
+DOMAIN-SUFFIX,open.spdb.com.cn # 浦发银行开放平台域名
+DOMAIN-SUFFIX,pafibank.com # 浦发银行金融服务域名
+DOMAIN-SUFFIX,spdbccc.com.cn # 浦发银行信用卡服务域名
+DOMAIN-SUFFIX,cc.spdb.com.cn # 浦发银行信用卡服务域名
+DOMAIN-SUFFIX,ebanking.spdb.com.cn # 浦发银行电子银行服务域名
 
-# > 恒丰银行相关域名（Hengfeng Bank）
+# > Hengfeng Bank（恒丰银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,hfbank.com.cn # 恒丰银行主站域名，用于官网访问、产品介绍与公告展示 
-DOMAIN-SUFFIX,ebank.hfbank.com.cn # 恒丰网上银行服务域名，供个人与企业账户登录与操作 
-DOMAIN-SUFFIX,m.hfbank.com.cn # 恒丰银行手机端网站及部分移动服务入口 
-DOMAIN-SUFFIX,wap.hfbank.com.cn # 恒丰银行早期移动服务域名，兼容旧版客户端调用 
-DOMAIN-SUFFIX,online.hfbank.com.cn # 恒丰电子银行接口域名，支持交易、转账等服务 
+DOMAIN-SUFFIX,hfbank.com.cn # 恒丰银行主域名
+DOMAIN-SUFFIX,ebank.hfbank.com.cn # 恒丰银行网银服务域名
+DOMAIN-SUFFIX,m.hfbank.com.cn # 恒丰银行移动服务域名
+DOMAIN-SUFFIX,wap.hfbank.com.cn # 恒丰银行移动服务域名
+DOMAIN-SUFFIX,online.hfbank.com.cn # 恒丰银行电子银行服务域名
 
-# > 渤海银行相关域名（Bohai Bank）
+# > Bohai Bank（渤海银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,cbhb.com.cn # 渤海银行主站域名，用于官网浏览、产品与服务信息展示 
-DOMAIN-SUFFIX,ebank.cbhb.com.cn # 渤海银行网上银行服务入口，提供账户登录、转账支付等功能 
-DOMAIN-SUFFIX,m.cbhb.com.cn # 渤海银行移动端官网域名，供手机浏览器访问 
-DOMAIN-SUFFIX,wap.cbhb.com.cn # 渤海银行移动门户旧版入口，部分系统兼容使用 
-DOMAIN-SUFFIX,online.cbhb.com.cn # 渤海银行在线服务接口，处理交易验证与业务请求 
+DOMAIN-SUFFIX,cbhb.com.cn # 渤海银行主域名
+DOMAIN-SUFFIX,ebank.cbhb.com.cn # 渤海银行网银服务域名
+DOMAIN-SUFFIX,m.cbhb.com.cn # 渤海银行移动服务域名
+DOMAIN-SUFFIX,wap.cbhb.com.cn # 渤海银行移动服务域名
+DOMAIN-SUFFIX,online.cbhb.com.cn # 渤海银行在线服务域名
 
-# > 浙商银行相关域名（CZBank）
+# > CZBank（浙商银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,czbank.com # 浙商银行主站域名，用于官网访问、新闻与业务介绍 
-DOMAIN-SUFFIX,czbank.com.cn # 浙商银行官方主域名，用于网上银行与业务系统接入 
-DOMAIN-SUFFIX,ebank.czbank.com.cn # 浙商银行网上银行系统，提供登录、转账、账户查询等功能 
-DOMAIN-SUFFIX,wap.czbank.com.cn # 浙商银行移动门户旧版入口，适配老设备访问 
-DOMAIN-SUFFIX,m.czbank.com.cn # 浙商银行移动端官网页面，用于营销活动与服务指引 
+DOMAIN-SUFFIX,czbank.com # 浙商银行主域名
+DOMAIN-SUFFIX,czbank.com.cn # 浙商银行服务域名
+DOMAIN-SUFFIX,ebank.czbank.com.cn # 浙商银行网银服务域名
+DOMAIN-SUFFIX,wap.czbank.com.cn # 浙商银行移动服务域名
+DOMAIN-SUFFIX,m.czbank.com.cn # 浙商银行移动服务域名
 
-# > 北京银行相关域名（Bank of Beijing）
+# > Bank of Beijing（北京银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,bankofbeijing.com.cn # 北京银行主站域名，用于官网展示与业务介绍 
-DOMAIN-SUFFIX,ebank.bankofbeijing.com.cn # 网上银行系统，提供账户查询与转账服务 
-DOMAIN-SUFFIX,m.bankofbeijing.com.cn # 移动门户域名，适配手机访问 
-DOMAIN-SUFFIX,wap.bankofbeijing.com.cn # 旧版移动门户，部分老版本应用调用 
-DOMAIN-SUFFIX,bo-b.cn # 营销短链服务域名，用于活动跳转与短信链接 
+DOMAIN-SUFFIX,bankofbeijing.com.cn # 北京银行主域名
+DOMAIN-SUFFIX,ebank.bankofbeijing.com.cn # 北京银行网银服务域名
+DOMAIN-SUFFIX,m.bankofbeijing.com.cn # 北京银行移动服务域名
+DOMAIN-SUFFIX,wap.bankofbeijing.com.cn # 北京银行移动服务域名
+DOMAIN-SUFFIX,bo-b.cn # 北京银行短链服务域名
 
-# > 南京银行相关域名（Bank of Nanjing）
+# > Bank of Nanjing（南京银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,bankofnanjing.com.cn # 南京银行主站域名，用于官网展示与业务介绍 
-DOMAIN-SUFFIX,ebank.bankofnanjing.com.cn # 网上银行服务入口，提供账户查询与转账服务 
-DOMAIN-SUFFIX,m.bankofnanjing.com.cn # 移动门户域名，适配手机浏览器访问 
-DOMAIN-SUFFIX,wap.bankofnanjing.com.cn # 老版移动网站接口，部分旧系统仍调用 
-DOMAIN-SUFFIX,bnj.com.cn # 南京银行活动跳转
+DOMAIN-SUFFIX,bankofnanjing.com.cn # 南京银行主域名
+DOMAIN-SUFFIX,ebank.bankofnanjing.com.cn # 南京银行网银服务域名
+DOMAIN-SUFFIX,m.bankofnanjing.com.cn # 南京银行移动服务域名
+DOMAIN-SUFFIX,wap.bankofnanjing.com.cn # 南京银行移动服务域名
+DOMAIN-SUFFIX,bnj.com.cn # 南京银行短链服务域名
 
-# > 徽商银行相关域名（Huishang Bank）
+# > Huishang Bank（徽商银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,hsbank.com.cn # 徽商银行主站域名，用于官网信息展示与服务入口 
-DOMAIN-SUFFIX,ebank.hsbank.com.cn # 网上银行服务域名，提供账户管理与交易服务 
-DOMAIN-SUFFIX,m.hsbank.com.cn # 移动端门户域名，适配手机浏览器访问 
-DOMAIN-SUFFIX,wap.hsbank.com.cn # 旧版手机网站服务入口，部分系统仍使用 
+DOMAIN-SUFFIX,hsbank.com.cn # 徽商银行主域名
+DOMAIN-SUFFIX,ebank.hsbank.com.cn # 徽商银行网银服务域名
+DOMAIN-SUFFIX,m.hsbank.com.cn # 徽商银行移动服务域名
+DOMAIN-SUFFIX,wap.hsbank.com.cn # 徽商银行移动服务域名
 
-# > 江苏省农村商业银行电子银行与金融服务平台
+# > Jiangsu Rural Commercial Bank E-Banking Platform（江苏省农村商业银行电子银行与金融服务平台）
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,js96008.com # 江苏省农村商业银行电子银行官方域名，用于网上银行、账户服务与金融业务访问
+DOMAIN-SUFFIX,js96008.com # 江苏省农村商业银行电子银行服务域名
 
 # > 国家政务服务平台相关域名（国务院 / 各级政务服务统一入口）
 
