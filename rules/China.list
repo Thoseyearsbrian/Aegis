@@ -1358,111 +1358,76 @@ DOMAIN-SUFFIX,jtexpress.com # 极兔速递主域名
 DOMAIN-SUFFIX,jtexpress.com.cn # 极兔速递中国区服务域名
 DOMAIN-SUFFIX,jtexpress.my # 极兔速递国际服务域名
 
-# > 知乎 相关域名
+# > Zhihu（知乎）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,zhihu.com # 知乎主站域名，涵盖内容浏览、提问、回答等服务 
-DOMAIN-SUFFIX,zhimg.com # 知乎图片与静态资源 CDN 域名 
-DOMAIN-SUFFIX,zhihuishu.com # 知乎旗下在线教育平台（知乎书店 / 课程） 
-DOMAIN-SUFFIX,api.zhihu.com # 知乎 App 与 Web API 接口域名 
-DOMAIN-SUFFIX,appcloud.zhihu.com # 知乎 App 云服务与用户行为记录接口 
-DOMAIN-SUFFIX,adx.zhihu.com # 知乎广告投放与个性化推荐服务接口 
-DOMAIN-SUFFIX,link.zhihu.com # 知乎短链与外部跳转中转域名 
-DOMAIN-SUFFIX,sugar.zhihu.com # 知乎数据分析与广告组件加载接口 
-DOMAIN-SUFFIX,static.zhihu.com # 知乎静态资源域名，用于 JS/CSS 加载等 
-DOMAIN-SUFFIX,captcha.zhihu.com # 知乎安全验证与图形验证码服务接口 
+DOMAIN-SUFFIX,zhihu.com # 知乎主域名
+DOMAIN-SUFFIX,zhimg.com # 知乎图片资源域名
+DOMAIN-SUFFIX,api.zhihu.com # 知乎接口域名
+DOMAIN-SUFFIX,appcloud.zhihu.com # 知乎云服务域名
+DOMAIN-SUFFIX,adx.zhihu.com # 知乎广告服务域名
+DOMAIN-SUFFIX,link.zhihu.com # 知乎跳转服务域名
+DOMAIN-SUFFIX,sugar.zhihu.com # 知乎数据服务域名
+DOMAIN-SUFFIX,static.zhihu.com # 知乎静态资源域名
+DOMAIN-SUFFIX,captcha.zhihu.com # 知乎验证服务域名
 
-# > 百度搜索主服务
+# > Sogou Search（搜狗搜索）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,baidu.com # 百度主域名，搜索引擎与门户服务入口 
-DOMAIN-SUFFIX,s1.baidu.com # 百度静态资源加载域名 
-DOMAIN-SUFFIX,s2.baidu.com # 百度搜索图片等模块资源接口 
-DOMAIN-SUFFIX,s3.baidu.com # 百度云端内容与脚本服务 
-DOMAIN-SUFFIX,s5.baidu.com # 百度搜索结果推荐内容接口 
-DOMAIN-SUFFIX,s6.baidu.com # 百度搜索广告与推广接口服务 
-DOMAIN-SUFFIX,zhanzhang.baidu.com # 百度站长平台，提供站点收录与分析服务 
-DOMAIN-SUFFIX,wap.baidu.com # 百度移动端搜索与服务入口 
-DOMAIN-SUFFIX,m.baidu.com # 百度移动搜索主入口 
-DOMAIN-SUFFIX,imgsrc.baidu.com # 搜索结果中图片内容加载接口 
-DOMAIN-SUFFIX,sp0.baidu.com # 百度内容分发与智能推送节点 
-DOMAIN-SUFFIX,sp1.baidu.com # 百度内容推荐接口，用于搜索结果相关内容加载 
-DOMAIN-SUFFIX,sp2.baidu.com # 百度搜索内容聚合与云服务接口 
-DOMAIN-SUFFIX,baidu.com # 百度主域名，统一登录与内容跳转平台 
-DOMAIN-SUFFIX,baiduboxapp.com # 百度 App 专属域名，用于内容分发与功能接口 
-DOMAIN-SUFFIX,mbd.baidu.com # 百度移动内容平台，承载百家号与资讯内容分发 
-DOMAIN-SUFFIX,yunjiasu-cdn.cn # 百度加速 CDN 节点，用于内容缓存与推送 
-DOMAIN-SUFFIX,nimgshare.baidu.com # 百度 App 内容图片加载接口 
-DOMAIN-SUFFIX,content.baidu.com # 百度内容平台接口域名（百家号/资讯） 
-DOMAIN-SUFFIX,voice.baidu.com # 百度语音内容服务，用于语音搜索与音频资讯 
-DOMAIN-SUFFIX,newclient.baidu.com # 百度 App 客户端更新与内容调用服务 
-DOMAIN-SUFFIX,news.baidu.com # 百度新闻频道，内容聚合服务页面入口 
-DOMAIN-SUFFIX,searchbox.baidu.com # 百度 App 内部搜索框模块接口 
-DOMAIN-SUFFIX,ic.snssdk.com # 字节跳动内容服务 SDK，被百度部分内容页嵌入调用 
-DOMAIN-SUFFIX,tcbox.baidu.com # 百度内容推送接口，涉及 App 内新闻/视频等模块加载 
-DOMAIN-SUFFIX,baidubce.com # 百度智能云 API 与服务接口主域名 
-DOMAIN-SUFFIX,bdstatic.com # 百度云静态资源域名（含 AI/图像识别等模块） 
-DOMAIN-SUFFIX,cloud.baidu.com # 百度智能云官网与控制台访问入口 
-DOMAIN-SUFFIX,sp0.baidu.com # 百度搜索内容分发与资源加载域名 
-DOMAIN-SUFFIX,mbd.baidu.com # 百度行为组件与内容分发策略接口
+DOMAIN-SUFFIX,sogou.com # 搜狗主域名
+DOMAIN-SUFFIX,v.sogou.com # 搜狗视频服务域名
+DOMAIN-SUFFIX,wap.sogou.com # 搜狗移动服务域名
+DOMAIN-SUFFIX,search.sogou.com # 搜狗搜索服务域名
+DOMAIN-SUFFIX,query.sogou.com # 搜狗查询服务域名
+DOMAIN-SUFFIX,pv.sogou.com # 搜狗统计服务域名
+DOMAIN-SUFFIX,adx.sogou.com # 搜狗广告服务域名
+DOMAIN-SUFFIX,ie.sogou.com # 搜狗推广服务域名
+DOMAIN-SUFFIX,sogoucdn.com # 搜狗内容分发域名
 
-# > 搜狗搜索主服务域名
+# > 360 Search（360 搜索）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,sogou.com # 搜狗主域名，涵盖搜索门户、导航入口等 
-DOMAIN-SUFFIX,so.com # 原360搜索域名，部分与搜狗联合展示内容 
-DOMAIN-SUFFIX,v.sogou.com # 搜狗视频搜索服务域名 
-DOMAIN-SUFFIX,wap.sogou.com # 移动端搜狗搜索入口 
-DOMAIN-SUFFIX,search.sogou.com # 搜狗通用搜索接口域名 
-DOMAIN-SUFFIX,query.sogou.com # 搜狗关键词请求与联想输入建议接口 
-DOMAIN-SUFFIX,pv.sogou.com # 搜狗页面访问记录上报接口 
-DOMAIN-SUFFIX,adx.sogou.com # 搜狗广告展示平台接口，用于投放与追踪 
-DOMAIN-SUFFIX,ie.sogou.com # 搜狗搜索推广相关落地页接口 
-DOMAIN-SUFFIX,sogoucdn.com # 搜狗内容与静态资源分发 CDN 主域，用于图片、下载资源与 Web 静态内容加载
-DOMAIN-SUFFIX,img03.sogoucdn.com # 搜狗图片与静态资源 CDN 节点，用于搜索结果与内容页图片加载
-DOMAIN-SUFFIX,dlweb.sogoucdn.com # 搜狗 Web 端下载与静态资源分发 CDN，用于客户端与页面相关资源获取
+DOMAIN-SUFFIX,so.com # 360 搜索主域名
+DOMAIN-SUFFIX,s.360.cn # 360 搜索服务域名
+DOMAIN-SUFFIX,wzj.so.com # 360 搜索网页服务域名
+DOMAIN-SUFFIX,news.so.com # 360 新闻搜索域名
+DOMAIN-SUFFIX,image.so.com # 360 图片搜索域名
+DOMAIN-SUFFIX,video.so.com # 360 视频搜索域名
+DOMAIN-SUFFIX,dict.so.360.cn # 360 词典服务域名
+DOMAIN-SUFFIX,sug.so.360.cn # 360 联想服务域名
+DOMAIN-SUFFIX,api.so.360.cn # 360 搜索接口域名
+DOMAIN-SUFFIX,p4papi.so.360.cn # 360 搜索广告服务域名
+DOMAIN-SUFFIX,srpapi.so.com # 360 搜索结果接口域名
+DOMAIN-SUFFIX,click.so.360.cn # 360 搜索点击统计域名
 
-# > 360 搜索引擎相关域名规则集（360 Search）
+# > Shenma Search（神马搜索）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,so.com # 360 搜索主域名，用于搜索门户与结果展示 
-DOMAIN-SUFFIX,s.360.cn # 360 搜索相关接口域名，用于请求转发与行为采集 
-DOMAIN-SUFFIX,wzj.so.com # 360 搜索网页结果展示接口 
-DOMAIN-SUFFIX,news.so.com # 360 新闻搜索入口 
-DOMAIN-SUFFIX,image.so.com # 360 图片搜索服务 
-DOMAIN-SUFFIX,video.so.com # 360 视频搜索接口 
-DOMAIN-SUFFIX,dict.so.360.cn # 360 词典搜索服务 
-DOMAIN-SUFFIX,sug.so.360.cn # 360 搜索联想与关键词建议接口 
-DOMAIN-SUFFIX,api.so.360.cn # 360 搜索相关API调用接口 
-DOMAIN-SUFFIX,p4papi.so.360.cn # 360 搜索商业广告投放平台接口 
-DOMAIN-SUFFIX,srpapi.so.com # 360 搜索结果页面请求接口 
-DOMAIN-SUFFIX,click.so.360.cn # 360 搜索广告点击统计与追踪接口 
+DOMAIN-SUFFIX,sm.cn # 神马搜索主域名
+DOMAIN-SUFFIX,m.sm.cn # 神马搜索移动服务域名
+DOMAIN-SUFFIX,sugs.m.sm.cn # 神马搜索联想服务域名
+DOMAIN-SUFFIX,p4p.m.sm.cn # 神马搜索广告服务域名
+DOMAIN-SUFFIX,cpro.m.sm.cn # 神马搜索广告组件域名
+DOMAIN-SUFFIX,api.m.sm.cn # 神马搜索接口域名
+DOMAIN-SUFFIX,s0.sm.cn # 神马搜索资源服务域名
+DOMAIN-SUFFIX,wap.sm.cn # 神马搜索 WAP 服务域名
+DOMAIN-SUFFIX,push.sm.cn # 神马搜索推送服务域名
 
-# > 神马搜索引擎相关域名规则集（Shenma Search）
+# > UC Browser（UC 浏览器）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,sm.cn # 神马搜索主站域名，由阿里与UC联合推出 
-DOMAIN-SUFFIX,m.sm.cn # 神马搜索移动端主域名 
-DOMAIN-SUFFIX,sugs.m.sm.cn # 神马搜索联想词与自动补全接口 
-DOMAIN-SUFFIX,p4p.m.sm.cn # 神马搜索广告投放平台接口 
-DOMAIN-SUFFIX,cpro.m.sm.cn # 神马搜索商业广告投放组件 
-DOMAIN-SUFFIX,api.m.sm.cn # 神马搜索相关 API 接口调用 
-DOMAIN-SUFFIX,s0.sm.cn # 神马搜索结果资源加载域名 
-DOMAIN-SUFFIX,wap.sm.cn # 神马搜索移动 WAP 页面入口 
-DOMAIN-SUFFIX,push.sm.cn # 神马搜索推送服务接口 
-
-# > UC 浏览器相关域名规则集（UC Browser / 阿里移动服务）
-
-DOMAIN-SUFFIX,uc.cn # UC 浏览器主域名，访问主页与资讯入口 
-DOMAIN-SUFFIX,ucweb.com # UC 国际站主域名，用于全球版浏览器服务 
-DOMAIN-SUFFIX,9apps.com # UC 下载平台，用于 APK 和资源分发 
-DOMAIN-SUFFIX,9appsinstall.com # UC 下载工具辅助域名 
-DOMAIN-SUFFIX,applovin.ucweb.com # UC 广告相关接口，用于 AppLovin 投放 
-DOMAIN-SUFFIX,wx.gtimg.cn.ucweb.com # UC 浏览器微信内容适配接口 
-DOMAIN-SUFFIX,push.ucweb.com # UC 推送服务接口，涉及通知与消息推送 
-DOMAIN-SUFFIX,sdkpush.ucweb.com # UC SDK 推送接口，嵌入第三方应用中 
-DOMAIN-SUFFIX,server.m.uc.ucweb.com # UC 浏览器主服务接口，包含配置与更新 
-DOMAIN-SUFFIX,nav.cn.miaozhen.com # UC 浏览器导航行为追踪接口（与秒针合作） 
-DOMAIN-SUFFIX,adtrack.ucweb.com # UC 广告行为上报接口 
-DOMAIN-SUFFIX,adashx4serv.uc.cn # UC SDK 广告行为分析与回传 
-DOMAIN-SUFFIX,adx.uc.cn # UC 广告投放平台接口，负责商业广告内容加载 
-DOMAIN-SUFFIX,track.uc.cn # UC 用户行为数据追踪与归集接口 
-DOMAIN-SUFFIX,uc.ucweb.com # UC 浏览器初始化与配置服务接口 
+DOMAIN-SUFFIX,uc.cn # UC 浏览器主域名
+DOMAIN-SUFFIX,ucweb.com # UC 浏览器服务域名
+DOMAIN-SUFFIX,9apps.com # UC 下载平台域名
+DOMAIN-SUFFIX,9appsinstall.com # UC 下载服务域名
+DOMAIN-SUFFIX,push.ucweb.com # UC 推送服务域名
+DOMAIN-SUFFIX,sdkpush.ucweb.com # UC SDK 推送域名
+DOMAIN-SUFFIX,server.m.uc.ucweb.com # UC 浏览器服务域名
+DOMAIN-SUFFIX,adtrack.ucweb.com # UC 广告服务域名
+DOMAIN-SUFFIX,adashx4serv.uc.cn # UC 广告分析域名
+DOMAIN-SUFFIX,adx.uc.cn # UC 广告投放域名
+DOMAIN-SUFFIX,track.uc.cn # UC 数据追踪域名
+DOMAIN-SUFFIX,uc.ucweb.com # UC 配置服务域名
 
 # > 网易邮箱（NetEase Mail）
 
