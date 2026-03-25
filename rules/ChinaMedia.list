@@ -63,6 +63,7 @@ DOMAIN-SUFFIX,smtcdns.net # 字节跳动内容调度服务域名
 DOMAIN-SUFFIX,ecombdstatic.com # 字节跳动电商静态资源域名
 DOMAIN-SUFFIX,ecombdimg.com # 字节跳动电商图片资源域名
 DOMAIN-SUFFIX,xingtu.cn # 巨量星图图片资源域名
+DOMAIN-SUFFIX,yhgfb-cn-static.com # 字节跳动静态资源服务域名
 DOMAIN-SUFFIX,lf-ad-growth.byteadverts.com # 字节跳动广告增长服务域名
 IP-CIDR,1.81.2.170/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,1.194.172.141/32 # 字节跳动对象存储服务节点（lf3-pitaya.bytetos.com）
