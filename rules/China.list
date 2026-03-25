@@ -1429,56 +1429,57 @@ DOMAIN-SUFFIX,adx.uc.cn # UC 广告投放域名
 DOMAIN-SUFFIX,track.uc.cn # UC 数据追踪域名
 DOMAIN-SUFFIX,uc.ucweb.com # UC 配置服务域名
 
-# > 网易邮箱（NetEase Mail）
+# > NetEase Mail（网易邮箱）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,mail.163.com # 网易 163 邮箱 Web 主入口，用于网页端收发邮件与账户管理
-DOMAIN-SUFFIX,mail.126.com # 网易 126 邮箱 Web 主入口，用于网页端邮箱服务
-DOMAIN-SUFFIX,yeah.net # 网易旗下 yeah.net 邮箱服务域名，提供独立邮箱体系
-DOMAIN-SUFFIX,email.163.com # 网易企业邮箱服务域名，用于企业账户与邮件接口
-DOMAIN-SUFFIX,imap.163.com # 网易邮箱 IMAP 服务域名，用于邮件客户端收取邮件
-DOMAIN-SUFFIX,smtp.163.com # 网易邮箱 SMTP 服务域名，用于邮件客户端发送邮件
+DOMAIN-SUFFIX,mail.163.com # 网易 163 邮箱服务域名
+DOMAIN-SUFFIX,mail.126.com # 网易 126 邮箱服务域名
+DOMAIN-SUFFIX,yeah.net # 网易 yeah.net 邮箱服务域名
+DOMAIN-SUFFIX,email.163.com # 网易企业邮箱服务域名
+DOMAIN-SUFFIX,imap.163.com # 网易邮箱 IMAP 服务域名
+DOMAIN-SUFFIX,smtp.163.com # 网易邮箱 SMTP 服务域名
 
-# > 网易体育（NetEase Sports）
+# > NetEase Sports（网易体育）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,sports.163.com # 网易体育频道域名，用于体育新闻、赛事报道与相关内容展示
+DOMAIN-SUFFIX,sports.163.com # 网易体育服务域名
 
-# > 网易考拉海购（Kaola）
+# > Kaola（网易考拉）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,kaola.com # 网易考拉跨境电商平台主域名，用于商品浏览、下单与用户服务入口
-DOMAIN-SUFFIX,m.kaola.com # 网易考拉移动端网页服务域名，用于移动端访问与轻量化购物操作
-DOMAIN-SUFFIX,kaolaapi.com # 网易考拉业务 API 服务域名，用于移动端与交易相关接口调用
-DOMAIN-SUFFIX,static.kaola.com # 网易考拉平台静态资源服务域名，用于前端脚本与页面组件加载
-DOMAIN-SUFFIX,kaolacdn.com # 网易考拉静态资源与内容分发 CDN 域名 
+DOMAIN-SUFFIX,kaola.com # 网易考拉主域名
+DOMAIN-SUFFIX,kaolaapi.com # 网易考拉接口域名
+DOMAIN-SUFFIX,static.kaola.com # 网易考拉静态资源域名
+DOMAIN-SUFFIX,kaolacdn.com # 网易考拉内容分发域名
 
-# > 网易静态资源与风控服务（Static Assets / Risk Control）
+# > NetEase Static Assets & Risk Control（网易静态资源与风控服务）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,126.net # 网易静态资源域，用于加载通用前端内容、字体与图像
-DOMAIN-SUFFIX,cstaticdun-v6.126.net # 网易易盾风控/验证码服务节点，用于表单提交、人机验证与登录安全校验
-DOMAIN-SUFFIX,ir-sdk.dun.163.com # 网易易盾 SDK 上报接口，用于设备指纹、行为识别与风控建模
-DOMAIN-SUFFIX,c.dun.163.com # 网易易盾客户端配置与策略下发接口，用于风控参数更新与策略同步
-DOMAIN-SUFFIX,dun.163.com # 网易易盾安全服务主域，用于安全防护、验证码/滑块验证等
-DOMAIN-SUFFIX,dun.163yun.com # 网易易盾安全服务主域，用于验证码、人机校验、反作弊与风险控制能力
-DOMAIN-SUFFIX,ac.dun.163yun.com # 网易易盾行为分析与访问控制接口，用于设备指纹识别、风险判定与安全策略执行
+DOMAIN-SUFFIX,126.net # 网易静态资源域名
+DOMAIN-SUFFIX,cstaticdun-v6.126.net # 网易易盾验证服务域名
+DOMAIN-SUFFIX,ir-sdk.dun.163.com # 网易易盾 SDK 服务域名
+DOMAIN-SUFFIX,c.dun.163.com # 网易易盾配置服务域名
+DOMAIN-SUFFIX,dun.163.com # 网易易盾服务域名
+DOMAIN-SUFFIX,dun.163yun.com # 网易易盾服务域名
+DOMAIN-SUFFIX,ac.dun.163yun.com # 网易易盾访问控制域名
 
-# > 网易 来去看看 相关域名
+# > Laiqukankan（来去看看）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,laiqukankan.com # 网易 来去看看 平台主域名（归属于广州网易计算机系统有限公司，用于网络测试与平台服务）
-DOMAIN-SUFFIX,nstool.laiqukankan.com # 来去看看 网络工具子域，用于客户端网络检测、连接测试与运行时服务支持
+DOMAIN-SUFFIX,laiqukankan.com # 来去看看主域名
+DOMAIN-SUFFIX,nstool.laiqukankan.com # 来去看看网络工具域名
 
-# > 网易质云（YunxinFW）网络支撑服务
+# > YunxinFW（网易质云）网络支撑服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,yunxinfw.com # 网易质云科技主域名，用于网络调度、访问支撑与服务调用
-DOMAIN-SUFFIX,chatwl01-bgp.yunxinfw.com # 云信服务链路节点，用于客户端通信与网络调度
-DOMAIN-SUFFIX,chatwl02.yunxinfw.com # 云信服务链路备用节点
-DOMAIN-SUFFIX,link04-bgp.yunxinfw.com # 云信网络传输与链路优化节点（加速与调度）
-DOMAIN-SUFFIX,quiclink-cn.yunxinfw.com # 云信 QUIC 加速链路节点
-DOMAIN-SUFFIX,httpdns.yunxinfw.com # 云信 HTTPDNS 加速服务域名
-DOMAIN-SUFFIX,lbs-sg.yunxinfw.com # 云信地理 / 负载加权服务节点
+DOMAIN-SUFFIX,yunxinfw.com # 网易质云主域名
+DOMAIN-SUFFIX,httpdns.yunxinfw.com # 网易质云 HTTPDNS 服务域名
 
-# > 网易游戏服务与组件 相关域名
+# > NetEase Games（网易游戏）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,game.163.com # 网易游戏平台通用域名，用于游戏官方网站、活动页与组件加载
-DOMAIN-SUFFIX,timejs.game.163.com # 网易游戏计时/脚本服务域名，用于游戏页面倒计时、动态组件等交互逻辑
+DOMAIN-SUFFIX,game.163.com # 网易游戏服务域名
+DOMAIN-SUFFIX,timejs.game.163.com # 网易游戏脚本服务域名
 
 # > WisdomIR 投资者关系在线服务
 
