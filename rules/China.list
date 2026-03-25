@@ -1267,98 +1267,96 @@ DOMAIN-SUFFIX,dbankcloud.cn # 华为云资源服务域名
 DOMAIN-SUFFIX,update.dbankcdn.com # 华为更新服务域名
 DOMAIN-SUFFIX,download.dbankcdn.com # 华为下载服务域名
 
-# > 顺丰速运（SF Express）
+# > SF Express（顺丰速运）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,sf-express.com # 顺丰速运官方物流服务平台主域名，用于快递业务与用户服务入口
-DOMAIN-SUFFIX,m.sf-express.com # 顺丰速运移动端服务域名，用于移动网页访问与业务操作
-DOMAIN-SUFFIX,api.sf-express.com # 顺丰速运业务接口服务域名，用于系统对接与物流服务调用
-DOMAIN-SUFFIX,static.sf-express.com # 顺丰速运静态资源服务域名，用于页面脚本与资源加载
-DOMAIN-SUFFIX,sf-express.cn # 顺丰速运国内服务与辅助接口域名，用于本地化业务支持
-DOMAIN-SUFFIX,m.sf-express.cn # 顺丰速运国内移动端相关服务域名
-DOMAIN-SUFFIX,api.sf-express.cn # 顺丰速运国内业务系统接口域名
-DOMAIN-SUFFIX,sf-airlines.com # 顺丰航空物流服务平台域名，用于航空货运与运输体系支持
-DOMAIN-SUFFIX,sfbest.com # 顺丰优选相关服务域名，用于电商与零售业务支持
+DOMAIN-SUFFIX,sf-express.com # 顺丰速运主域名
+DOMAIN-SUFFIX,sf-express.cn # 顺丰速运服务域名
+DOMAIN-SUFFIX,api.sf-express.com # 顺丰速运接口域名
+DOMAIN-SUFFIX,api.sf-express.cn # 顺丰速运接口域名
+DOMAIN-SUFFIX,sf-airlines.com # 顺丰航空服务域名
+DOMAIN-SUFFIX,sfbest.com # 顺丰优选服务域名
 
-# > 中通快递（ZTO Express）
+# > ZTO Express（中通快递）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,zto.com # 中通快递主站域名，用于运单查询与服务入口 
-DOMAIN-SUFFIX,zto56.com # 中通物流集团域名，覆盖业务系统与接口服务 
-DOMAIN-SUFFIX,zto.com # 中通快递官方物流服务平台主域名，用于快递业务与用户服务入口
-DOMAIN-SUFFIX,m.zto.com # 中通快递移动端服务域名，用于移动网页访问与业务操作
-DOMAIN-SUFFIX,api.zto.com # 中通快递业务接口服务域名，用于系统对接与服务调用
-DOMAIN-SUFFIX,static.zto.com # 中通快递静态资源服务域名，用于页面脚本与资源加载
-DOMAIN-SUFFIX,zto56.com # 中通物流集团核心业务域名，覆盖物流系统与平台服务
-DOMAIN-SUFFIX,api.zto56.com # 中通物流系统接口服务域名，用于内部与合作系统对接
-DOMAIN-SUFFIX,m.zto56.com # 中通物流移动端相关服务域名
-DOMAIN-SUFFIX,static.zto56.com # 中通物流静态资源与内容分发服务域名
-DOMAIN-SUFFIX,track.zto56.com # 中通快递物流状态与运单信息相关服务接口域名
+DOMAIN-SUFFIX,zto.com # 中通快递主域名
+DOMAIN-SUFFIX,zto56.com # 中通快递服务域名
+DOMAIN-SUFFIX,api.zto.com # 中通快递接口域名
+DOMAIN-SUFFIX,api.zto56.com # 中通快递接口域名
+DOMAIN-SUFFIX,static.zto56.com # 中通快递静态资源域名
+DOMAIN-SUFFIX,track.zto56.com # 中通快递轨迹服务域名
 
-# > 韵达快递（Yunda Express）
+# > Yunda Express（韵达快递）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,yundaex.com # 韵达快递物流服务平台主域名，用于快递业务与用户服务入口
-DOMAIN-SUFFIX,m.yundaex.com # 韵达快递移动端网页服务域名，用于移动端运单查询与业务操作
-DOMAIN-SUFFIX,api.yundaex.com # 韵达快递业务 API 接口域名，用于运单、订单与物流数据交互
-DOMAIN-SUFFIX,static.yundaex.com # 韵达快递静态资源服务域名，用于页面脚本与前端资源加载
-DOMAIN-SUFFIX,track.yundaex.com # 韵达快递物流追踪服务域名，用于运单状态与配送信息查询
-DOMAIN-SUFFIX,yundasys.com # 韵达快递系统平台域名，用于内部业务系统与客户接口服务 
+DOMAIN-SUFFIX,yundaex.com # 韵达快递主域名
+DOMAIN-SUFFIX,api.yundaex.com # 韵达快递接口域名
+DOMAIN-SUFFIX,static.yundaex.com # 韵达快递静态资源域名
+DOMAIN-SUFFIX,track.yundaex.com # 韵达快递轨迹服务域名
+DOMAIN-SUFFIX,yundasys.com # 韵达快递系统服务域名
 
-# > 圆通速递（YTO Express）
+# > YTO Express（圆通速递）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,yto.net.cn # 圆通速递官方物流服务平台主域名，用于快递业务与相关服务入口
-DOMAIN-SUFFIX,api.yto.net.cn # 圆通速递业务接口服务域名，用于系统对接与快递服务调用
-DOMAIN-SUFFIX,m.yto.net.cn # 圆通速递移动端服务域名，用于移动网页访问与业务操作
-DOMAIN-SUFFIX,static.yto.net.cn # 圆通速递静态资源服务域名，用于页面资源与脚本加载
-DOMAIN-SUFFIX,track.yto.net.cn # 圆通速递快件状态与物流信息相关服务接口域名
+DOMAIN-SUFFIX,yto.net.cn # 圆通速递主域名
+DOMAIN-SUFFIX,api.yto.net.cn # 圆通速递接口域名
+DOMAIN-SUFFIX,static.yto.net.cn # 圆通速递静态资源域名
+DOMAIN-SUFFIX,track.yto.net.cn # 圆通速递轨迹服务域名
 
-# > 申通快递（STO Express）
+# > STO Express（申通快递）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,sto.cn # 申通快递物流服务平台主域名，用于快递业务与用户服务入口
-DOMAIN-SUFFIX,m.sto.cn # 申通快递移动端网页服务域名，用于移动端运单查询与业务操作
-DOMAIN-SUFFIX,api.sto.cn # 申通快递业务 API 接口域名，用于运单、订单与物流数据交互
-DOMAIN-SUFFIX,static.sto.cn # 申通快递静态资源服务域名，用于页面脚本与前端资源加载
-DOMAIN-SUFFIX,track.sto.cn # 申通快递物流追踪服务域名，用于运单状态与配送信息查询
+DOMAIN-SUFFIX,sto.cn # 申通快递主域名
+DOMAIN-SUFFIX,api.sto.cn # 申通快递接口域名
+DOMAIN-SUFFIX,static.sto.cn # 申通快递静态资源域名
+DOMAIN-SUFFIX,track.sto.cn # 申通快递轨迹服务域名
 
-# > 百世快递（Best Express）
+# > Best Express（百世快递）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,800best.com # 百世快递主域名，提供快递与仓储服务接口 
-DOMAIN-SUFFIX,m.800best.com # 百世快递移动端网页服务域名，用于移动端运单查询与业务操作
-DOMAIN-SUFFIX,api.800best.com # 百世快递业务 API 接口域名，用于运单、订单与物流数据交互
-DOMAIN-SUFFIX,static.800best.com # 百世快递静态资源服务域名，用于页面脚本与前端资源加载
-DOMAIN-SUFFIX,track.800best.com # 百世快递物流追踪服务域名，用于运单状态与配送信息查询
+DOMAIN-SUFFIX,800best.com # 百世快递主域名
+DOMAIN-SUFFIX,api.800best.com # 百世快递接口域名
+DOMAIN-SUFFIX,static.800best.com # 百世快递静态资源域名
+DOMAIN-SUFFIX,track.800best.com # 百世快递轨迹服务域名
 
-# > 德邦快递（Deppon Express）
+# > Deppon Express（德邦快递）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,deppon.com # 德邦快递与物流服务平台主域名，用于大件运输、快递服务与用户入口
-DOMAIN-SUFFIX,m.deppon.com # 德邦快递移动端网页服务域名，用于移动端查询与下单操作
-DOMAIN-SUFFIX,api.deppon.com # 德邦快递业务 API 接口域名，用于运单、订单与物流数据交互
-DOMAIN-SUFFIX,static.deppon.com # 德邦快递静态资源服务域名，用于页面脚本与前端资源加载
-DOMAIN-SUFFIX,track.deppon.com # 德邦快递物流追踪服务域名，用于运单状态与配送信息查询 
+DOMAIN-SUFFIX,deppon.com # 德邦快递主域名
+DOMAIN-SUFFIX,api.deppon.com # 德邦快递接口域名
+DOMAIN-SUFFIX,static.deppon.com # 德邦快递静态资源域名
+DOMAIN-SUFFIX,track.deppon.com # 德邦快递轨迹服务域名
 
-# > 京东物流（JD Logistics）
+# > JD Logistics（京东物流）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,jdl.cn # 京东物流服务域名，涵盖运力、查询与配送服务 
-DOMAIN-SUFFIX,jdl.com # 京东物流国际/企业服务域名 
+DOMAIN-SUFFIX,jdl.cn # 京东物流服务域名
+DOMAIN-SUFFIX,jdl.com # 京东物流国际服务域名
 
-# > Cainiao 菜鸟网络物流平台相关域名
+# > Cainiao（菜鸟网络）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,cainiao.com # 菜鸟网络主站域名（含物流服务入口与介绍页面）
-DOMAIN-SUFFIX,global.cainiao.com # 菜鸟国际物流子域（全球包裹追踪服务）
-DOMAIN-SUFFIX,track.cainiao.com # 菜鸟物流追踪服务（物流单号解析与节点状态查询）
-DOMAIN-SUFFIX,logistics.cainiao.com # 菜鸟商家物流服务管理后台
-DOMAIN-SUFFIX,gw.cainiao.com # 菜鸟开放平台 API 网关（商家/开发者接口调用）
-DOMAIN-SUFFIX,img.cainiao.com # 菜鸟图片资源加载域（图标、商品图等）
-DOMAIN-SUFFIX,cnalbs.com # Cainiao 全局 CDN 内容加速域（JS、CSS、图片等静态资源）
-DOMAIN-SUFFIX,alilogistics.com # 阿里物流关联平台域名 
+DOMAIN-SUFFIX,cainiao.com # 菜鸟网络主域名
+DOMAIN-SUFFIX,global.cainiao.com # 菜鸟国际服务域名
+DOMAIN-SUFFIX,track.cainiao.com # 菜鸟轨迹服务域名
+DOMAIN-SUFFIX,logistics.cainiao.com # 菜鸟物流服务域名
+DOMAIN-SUFFIX,gw.cainiao.com # 菜鸟接口网关域名
+DOMAIN-SUFFIX,img.cainiao.com # 菜鸟图片资源域名
+DOMAIN-SUFFIX,cnalbs.com # 菜鸟内容分发域名
+DOMAIN-SUFFIX,alilogistics.com # 阿里物流服务域名
 
-# > 中国邮政速递（EMS）
+# > EMS（中国邮政速递）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,ems.com.cn # EMS 官方主域名，用于邮政快递追踪与服务入口 
+DOMAIN-SUFFIX,ems.com.cn # 中国邮政速递主域名
 
-# > 极兔速递（J&T Express）
+# > J&T Express（极兔速递）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,jtexpress.com # 极兔速递全球主品牌域名，用于国际业务、品牌展示与服务入口
-DOMAIN-SUFFIX,jtexpress.com.cn # 极兔速递中国大陆服务站域名，用于国内快递业务与运单查询
-DOMAIN-SUFFIX,jtexpress.my # 极兔速递马来西亚及部分国际业务站点域名
+DOMAIN-SUFFIX,jtexpress.com # 极兔速递主域名
+DOMAIN-SUFFIX,jtexpress.com.cn # 极兔速递中国区服务域名
+DOMAIN-SUFFIX,jtexpress.my # 极兔速递国际服务域名
 
 # > 知乎 相关域名
 
