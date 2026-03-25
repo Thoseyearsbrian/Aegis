@@ -792,59 +792,65 @@ DOMAIN-SUFFIX,app.citicbank.com # 中信银行应用服务域名
 DOMAIN-SUFFIX,creditcard.ecitic.com # 中信银行信用卡服务域名
 DOMAIN-SUFFIX,citic-cloud.com # 中信银行云服务域名
 
-# > 交通银行相关域名（Bank of Communications）
+# > Bank of Communications（交通银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,bocom.cn # 交通银行主站域名，提供个人/企业银行服务入口与账户管理 
-DOMAIN-SUFFIX,bankcomm.com # 交通银行国际业务与资讯展示域名 
-DOMAIN-SUFFIX,95559.com # 交行信用卡与手机银行服务入口域名，用于登录、账单、积分等 
-DOMAIN-SUFFIX,e-bankcomm.com # 交通银行电子银行服务域名，涉及支付、转账与身份验证 
-DOMAIN-SUFFIX,bocomfinance.com # 交行金融市场平台，用于理财、基金、债券等服务 
-DOMAIN-SUFFIX,bocomgroup.com # 交通银行集团信息门户，涉及集团业务与公告展示 
+DOMAIN-SUFFIX,bocom.cn # 交通银行主域名
+DOMAIN-SUFFIX,bankcomm.com # 交通银行国际服务域名
+DOMAIN-SUFFIX,95559.com # 交通银行信用卡与手机银行服务域名
+DOMAIN-SUFFIX,e-bankcomm.com # 交通银行电子银行服务域名
+DOMAIN-SUFFIX,bocomfinance.com # 交通银行金融服务域名
+DOMAIN-SUFFIX,bocomgroup.com # 交通银行集团服务域名
 
-# > 邮政储蓄银行相关域名（Postal Savings Bank of China）
+# > Postal Savings Bank of China（邮政储蓄银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,psbc.com # 邮政储蓄银行主站域名，提供个人与企业银行服务 
-DOMAIN-SUFFIX,psbcoa.com # 邮储银行账户与身份验证接口服务域名 
-DOMAIN-SUFFIX,psbcinternetbank.com # 邮储银行网上银行平台，用于转账、查询等服务 
-DOMAIN-SUFFIX,psbcpay.com # 邮储银行支付平台域名，服务于收银台与交易接口 
-DOMAIN-SUFFIX,psbcapp.com # 邮储银行 App 接口与推广服务域名 
+DOMAIN-SUFFIX,psbc.com # 邮政储蓄银行主域名
+DOMAIN-SUFFIX,psbcoa.com # 邮政储蓄银行账号服务域名
+DOMAIN-SUFFIX,psbcinternetbank.com # 邮政储蓄银行网银服务域名
+DOMAIN-SUFFIX,psbcpay.com # 邮政储蓄银行支付服务域名
+DOMAIN-SUFFIX,psbcapp.com # 邮政储蓄银行应用服务域名
 
-# > 民生银行相关域名（China Minsheng Bank）
+# > China Minsheng Bank（民生银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,cmbc.com.cn # 民生银行主站域名，用于账户服务与产品介绍 
-DOMAIN-SUFFIX,cmbc.com # 民生银行国际或跳转域名，用于业务入口与活动 
-DOMAIN-SUFFIX,netbank.cmbc.com.cn # 民生银行网上银行登录与交易接口 
-DOMAIN-SUFFIX,cmbcjr.cn # 民生银行金融科技服务平台域名 
-DOMAIN-SUFFIX,cmbccloud.cn # 民生银行云服务平台域名，用于系统接入与设备通信 
-DOMAIN-SUFFIX,cmbcebank.cn # 民生电子银行服务域名，含 App 与企业接口 
+DOMAIN-SUFFIX,cmbc.com.cn # 民生银行主域名
+DOMAIN-SUFFIX,cmbc.com # 民生银行服务域名
+DOMAIN-SUFFIX,netbank.cmbc.com.cn # 民生银行网银服务域名
+DOMAIN-SUFFIX,cmbcjr.cn # 民生银行金融科技服务域名
+DOMAIN-SUFFIX,cmbccloud.cn # 民生银行云服务域名
+DOMAIN-SUFFIX,cmbcebank.cn # 民生银行电子银行服务域名
 
-# > 平安银行相关域名（Ping An Bank）
+# > Ping An Bank（平安银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,pingan.com # 中国平安集团主域名，涵盖银行、保险等服务 
-DOMAIN-SUFFIX,pingan.com.cn # 平安银行及集团服务在大陆的主要接口域名 
-DOMAIN-SUFFIX,pingan.cn # 平安集团短链域名，用于活动跳转与接口 
-DOMAIN-SUFFIX,pinganbank.com # 平安银行主站域名，展示业务与账户服务 
-DOMAIN-SUFFIX,pinganbank.com.cn # 平安银行接口域名，用于登录、交易等核心服务 
-DOMAIN-SUFFIX,pingansec.com.cn # 平安证券接口域名，部分场景由银行调用 
-DOMAIN-SUFFIX,pinganfintech.com # 平安金融科技平台域名，用于后台服务与身份验证 
+DOMAIN-SUFFIX,pingan.com # 平安集团主域名
+DOMAIN-SUFFIX,pingan.com.cn # 平安集团中国区服务域名
+DOMAIN-SUFFIX,pingan.cn # 平安集团短链服务域名
+DOMAIN-SUFFIX,pinganbank.com # 平安银行主域名
+DOMAIN-SUFFIX,pinganbank.com.cn # 平安银行服务域名
+DOMAIN-SUFFIX,pingansec.com.cn # 平安证券服务域名
+DOMAIN-SUFFIX,pinganfintech.com # 平安金融科技服务域名
 
-# > 兴业银行相关域名（Industrial Bank）
+# > Industrial Bank（兴业银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,cib.com.cn # 兴业银行主站域名，用于账户服务、业务展示与用户登录 
-DOMAIN-SUFFIX,cibfintech.com.cn # 兴业数字科技平台域名，支持云服务与身份验证 
-DOMAIN-SUFFIX,cibmall.net # 兴业银行商城平台域名，用于积分兑换与商品浏览 
-DOMAIN-SUFFIX,cibwealth.com.cn # 兴业银行财富管理子平台域名，提供投资理财服务 
-DOMAIN-SUFFIX,cibcreditcard.com # 兴业银行信用卡服务域名，用于账单查询与交易记录 
-DOMAIN-SUFFIX,cibepay.com # 兴业银行电子支付平台域名，涉及快捷支付与收银服务 
+DOMAIN-SUFFIX,cib.com.cn # 兴业银行主域名
+DOMAIN-SUFFIX,cibfintech.com.cn # 兴业数字科技服务域名
+DOMAIN-SUFFIX,cibmall.net # 兴业银行商城服务域名
+DOMAIN-SUFFIX,cibwealth.com.cn # 兴业银行财富管理服务域名
+DOMAIN-SUFFIX,cibcreditcard.com # 兴业银行信用卡服务域名
+DOMAIN-SUFFIX,cibepay.com # 兴业银行电子支付服务域名
 
-# > 光大银行相关域名（China Everbright Bank）
+# > China Everbright Bank（光大银行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,cebbank.com # 光大银行主站域名，用于账户管理、在线银行服务等 
-DOMAIN-SUFFIX,cebbank.net # 光大银行附属服务域名，部分用于子系统与业务入口 
-DOMAIN-SUFFIX,cebpersonbank.com # 光大个人网银平台域名，提供账户操作与交易服务 
-DOMAIN-SUFFIX,ebank.cebbank.com # 光大网上银行子域，登录、转账等核心业务接口 
-DOMAIN-SUFFIX,open.cebbank.com # 光大开放平台接口域名，供第三方接入与开发使用 
-DOMAIN-SUFFIX,cebnetbank.com # 光大银行网络服务入口，部分用于身份验证与安全服务 
+DOMAIN-SUFFIX,cebbank.com # 光大银行主域名
+DOMAIN-SUFFIX,cebbank.net # 光大银行服务域名
+DOMAIN-SUFFIX,cebpersonbank.com # 光大银行个人网银服务域名
+DOMAIN-SUFFIX,ebank.cebbank.com # 光大银行网银服务域名
+DOMAIN-SUFFIX,open.cebbank.com # 光大银行开放平台域名
+DOMAIN-SUFFIX,cebnetbank.com # 光大银行网络服务域名
 
 # > 广发银行相关域名（China Guangfa Bank / CGB）
 
