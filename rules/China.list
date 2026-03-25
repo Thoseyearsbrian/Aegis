@@ -1525,29 +1525,6 @@ DOMAIN-SUFFIX,wg.163.com # 网易游戏服务域名
 DOMAIN-SUFFIX,4399.com # 4399 游戏平台域名
 DOMAIN-SUFFIX,7k7k.com # 7k7k 游戏平台域名
 
-# > 企业服务 / 办公平台（Enterprise / Productivity）
-
-DOMAIN-SUFFIX,huaweicloud.com # 华为云
-DOMAIN-SUFFIX,dingtalk.com # 钉钉
-DOMAIN-SUFFIX,work.weixin.qq.com # 企业微信
-DOMAIN-SUFFIX,mi.com # 小米企业站
-DOMAIN-SUFFIX,xiaomi.net # 小米企业服务
-DOMAIN-SUFFIX,hikvision.com # 海康威视（政企市场）
-
-# > 政府 / 教育 / 公共机构域名（Gov / Edu / Public Service）
-
-DOMAIN-SUFFIX,gov.cn # 中国政府网站总入口
-DOMAIN-SUFFIX,edu.cn # 教育部 / 高校
-DOMAIN-SUFFIX,moe.gov.cn # 教育部官网
-DOMAIN-SUFFIX,customs.gov.cn # 中国海关
-DOMAIN-SUFFIX,mps.gov.cn # 公安部
-DOMAIN-SUFFIX,chinatax.gov.cn # 国家税务总局
-DOMAIN-SUFFIX,stats.gov.cn # 国家统计局
-DOMAIN-SUFFIX,sasac.gov.cn # 国务院国资委
-DOMAIN-SUFFIX,court.gov.cn # 中国法院网
-DOMAIN-SUFFIX,people.com.cn # 人民网（党媒）
-DOMAIN-SUFFIX,xinhuanet.com # 新华网（党媒）
-
 # > 证书验证 / 吊销检查类域名（CA / OCSP / CRL）
 
 DOMAIN-SUFFIX,cacerts.digicert.cn # DigiCert 中国区证书分发域名
