@@ -1,32 +1,22 @@
-# > BehaviorDomain.list（行为指纹与云服务分析识别规则集）
-# - 分类：通信行为指纹 / 云服务遥测 / SDK 分析节点
-# - 来源：DNS/TLS 抓包分析 / 安全研究情报 / SDK 回连行为溯源
-# - 特征：依据 DNS 查询特征、TLS 握手指纹、CDN 请求路径等行为模式识别云服务节点，聚焦遥测 SDK、行为采集服务与数据分析平台流量
+# > BehaviorDomain.list（行为遥测服务识别规则集）
+# - 分类：行为遥测 / 数据采集 / SDK 分析节点
+# - 来源：官方文档 / 本地流量行为分析 / 手动校验 / 持续自维护
+# - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-20
+# - 更新时间：2026-03-25
+# - 校对时间：2026-03-25
 
-# > WeChat 数据统计与遥测
+# > WeChat（微信）行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,tmts.qq.com # 用户行为遥测接口
-DOMAIN-SUFFIX,log.tbs.qq.com # X5 内核日志上报服务
-DOMAIN-SUFFIX,monitor.qq.com # 实时运行状态监控接口
-DOMAIN-SUFFIX,tajs.qq.com # JS 性能与稳定性埋点服务
 DOMAIN-SUFFIX,longcloud.weixin.com # 微信日志与数据回传接口
-DOMAIN-SUFFIX,admaterial.gdtimg.com # 广告素材分发 CDN
-DOMAIN-SUFFIX,adtrack.qq.com # 广告点击与曝光行为追踪接口
-DOMAIN-SUFFIX,lcs.dev.sns.weixin.qq.com # 广告链路监控与调试服务
-DOMAIN-SUFFIX,pingjs.qq.com # 性能与广告相关 JS 埋点服务
-DOMAIN-SUFFIX,badjs.weixinbridge.com # 小程序错误日志收集平台（BadJS）
-DOMAIN-SUFFIX,report.qq.com # SDK 行为日志与统计数据上报域名
-DOMAIN-SUFFIX,oth.eve.mdt.qq.com # SDK 数据上传接口（EVE 通道）
-DOMAIN-SUFFIX,oth.str.mdt.qq.com # SDK 数据上传接口（STR 通道）
+DOMAIN-SUFFIX,badjs.weixinbridge.com # 微信错误日志收集域名
 
 # > Apple 行为遥测服务
+# - 校对时间：2026-03-25
 
 DOMAIN-SUFFIX,analytics.edge.apple.com # Apple 遥测与分析数据上报
-DOMAIN-SUFFIX,feedbackws.apple.com # Apple 用户反馈上报服务
-DOMAIN-SUFFIX,crashlytics.apple.com # Apple 崩溃日志收集服务
 DOMAIN-SUFFIX,supportmetrics.apple.com # Apple 支持服务遥测指标
 DOMAIN-SUFFIX,notes-analytics-events.apple.com # Apple Notes 分析事件上报
 DOMAIN-SUFFIX,weather-analytics-events.apple.com # Apple Weather 分析事件上报
@@ -34,1349 +24,740 @@ DOMAIN-SUFFIX,imessage-analysis.apple.com # iMessage 行为分析服务
 DOMAIN-SUFFIX,metrics.icloud.com # iCloud 使用遥测统计
 DOMAIN-SUFFIX,securemetrics.apple.com # Apple 安全遥测统计服务
 DOMAIN-SUFFIX,metrics.apple.com # Apple 网络与性能诊断接口
-DOMAIN-SUFFIX,experiments.apple.com # Apple 功能实验平台
 DOMAIN-SUFFIX,news-events.apple.com # 新闻模块事件数据域名
 
-# > 阿里系遥测接口
+# > Alibaba / Ant / UC 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,xlog.snssdk.com # 闲鱼集成字节跳动 xlog 模块的行为上传接口
-DOMAIN-SUFFIX,umeng.com # 阿里巴巴友盟行为分析与 SDK 遥测主域
-DOMAIN-SUFFIX,alog.umeng.com # 友盟行为日志主上报接口（淘宝、支付宝等常嵌入）
-DOMAIN-SUFFIX,applog.uc.cn # UC 系产品行为分析与遥测数据上传
-DOMAIN-SUFFIX,errlog.umeng.com # 应用错误/崩溃日志上报接口（友盟 SDK）
-DOMAIN-SUFFIX,acjs.aliyun.com # 阿里云前端日志采集服务接口（含前端 JS 报错）
-DOMAIN-SUFFIX,trace.aliyun.com # 阿里追踪系统，用户操作行为分析
-DOMAIN-SUFFIX,spm.aliyun.com # SPM 埋点追踪系统域名
-DOMAIN-SUFFIX,log-mmserver.alibaba.com # 阿里巴巴移动端日志系统接口
-DOMAIN-SUFFIX,dap.alipay.com # 支付宝数据分析与页面行为追踪域名
-DOMAIN-SUFFIX,gm.mmstat.com # 阿里巴巴统计平台域名，用于埋点与行为分析接口 
-DOMAIN-SUFFIX,h-adashx.ut.taobao.com # 淘宝 Adash 数据分析接口，用于用户行为上报
-DOMAIN-SUFFIX,gm.mmstat.com # 阿里巴巴统计平台域名，用于行为分析与数据回传
-DOMAIN-SUFFIX,nr-op.elemecdn.com # 饿了么运营 CDN 资源节点，包含埋点与广告数据
-DOMAIN-SUFFIX,loggw.alipay.com # 支付宝客户端日志网关，上报用户行为数据 
-DOMAIN-SUFFIX,alivc-aio.cn-hangzhou.dualstack.log.aliyuncs.com # 阿里云视频日志收集接口域名，用于日志上报与行为分析
-DOMAIN-SUFFIX,px.ucweb.com # UC 浏览器追踪服务域名，用于行为分析与广告数据回传
-DOMAIN-SUFFIX,loggw-external.alipay.com # 第三方数据统计专用日志网关 
-DOMAIN-SUFFIX,loggw-ex.alipay.com # 支付宝日志收集接口域名，用于客户端行为上报与事件追踪
-DOMAIN-SUFFIX,arms-retcode.aliyuncs.com # 阿里云 ARMS 前端性能监测与错误上报接口
-DOMAIN-SUFFIX,cnzz.com # CNZZ 网站统计分析平台主域名，用于网站访问统计、用户行为分析与流量数据采集
-DOMAIN-SUFFIX,s9.cnzz.com # CNZZ 行为统计脚本与数据上报节点，用于页面访问、点击行为与流量信息采集
-DOMAIN-SUFFIX,adashx.m.taobao.com # 淘宝移动端 AdashX 行为分析与遥测上报接口
-DOMAIN-SUFFIX,umdc.alibaba-inc.com # 阿里巴巴集团移动端数据采集与统计上报域名，用于设备信息收集、行为分析与日志回传
+DOMAIN-SUFFIX,xlog.snssdk.com # 闲鱼行为日志上报接口
+DOMAIN-SUFFIX,alog.umeng.com # 友盟行为日志上报接口
+DOMAIN-SUFFIX,applog.uc.cn # UC 行为日志上报接口
+DOMAIN-SUFFIX,errlog.umeng.com # 友盟错误日志上报接口
+DOMAIN-SUFFIX,acjs.aliyun.com # 阿里云前端日志采集接口
+DOMAIN-SUFFIX,trace.aliyun.com # 阿里追踪服务域名
+DOMAIN-SUFFIX,spm.aliyun.com # 阿里埋点追踪服务域名
+DOMAIN-SUFFIX,log-mmserver.alibaba.com # 阿里移动日志上报接口
+DOMAIN-SUFFIX,dap.alipay.com # 支付宝行为分析接口
+DOMAIN-SUFFIX,gm.mmstat.com # 阿里统计服务域名
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com # 淘宝行为分析接口
+DOMAIN-SUFFIX,loggw.alipay.com # 支付宝日志网关域名
+DOMAIN-SUFFIX,alivc-aio.cn-hangzhou.dualstack.log.aliyuncs.com # 阿里云视频日志上报接口
+DOMAIN-SUFFIX,px.ucweb.com # UC 行为追踪接口
+DOMAIN-SUFFIX,loggw-external.alipay.com # 支付宝外部日志网关域名
+DOMAIN-SUFFIX,loggw-ex.alipay.com # 支付宝日志上报接口
+DOMAIN-SUFFIX,arms-retcode.aliyuncs.com # 阿里云 ARMS 错误上报接口
+DOMAIN-SUFFIX,s9.cnzz.com # CNZZ 统计上报节点
+DOMAIN-SUFFIX,adashx.m.taobao.com # 淘宝移动端行为分析接口
+DOMAIN-SUFFIX,umdc.alibaba-inc.com # 阿里移动数据采集接口
 IP-CIDR,119.42.251.214/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
 IP-CIDR,203.209.244.173/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
 IP-CIDR,110.76.16.70/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
 IP-CIDR,203.209.244.141/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
 
-# > Google / Firebase / Crashlytics 相关行为指纹
+# > Google / Firebase / Crashlytics 行为遥测服务
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,app-measurement.com # Google 应用测量服务域名
+DOMAIN-SUFFIX,config.app-measurement.com # Google 应用测量配置域名
+DOMAIN-SUFFIX,firebaseinstallations.googleapis.com # Firebase 安装标识接口
+DOMAIN-SUFFIX,firebase-settings.crashlytics.com # Crashlytics 配置接口
+DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com # Crashlytics 崩溃数据上报接口
+DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com # Google 客户端指标采集接口
+DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com # Firebase 日志采集接口
+DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com # Firebase 动态链接服务域名
+DOMAIN-SUFFIX,app-analytics-services.com # YouTube 应用行为统计接口
+DOMAIN-SUFFIX,www-google-analytics.l.google.com # Google Analytics 测量服务域名
+DOMAIN-SUFFIX,merchant-center-analytics.goog # Merchant Center 分析域名
+DOMAIN-SUFFIX,video-stats.video.google.com # YouTube 视频统计域名
+DOMAIN-SUFFIX,google-analytics.com # Google Analytics 行为分析服务域名
 
-DOMAIN-SUFFIX,app-measurement.com # 指纹监听 + 流量分析回传
-DOMAIN-SUFFIX,config.app-measurement.com # Firebase GMP 远程配置域名，用于热更新/灰度控制
-DOMAIN-SUFFIX,firebaseinstallations.googleapis.com # Firebase 安装 ID（FID）初始化接口
-DOMAIN-SUFFIX,firebase-settings.crashlytics.com # Crashlytics 崩溃报告配置拉取接口
-DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com # Crashlytics 崩溃数据主动上传接口
-DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com # Google 客户端指标收集（Telemetry）
-DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com # Firebase 日志收集与上报服务
-DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com # Firebase 动态链接服务，常用于分享跳转追踪
-DOMAIN-SUFFIX,crashlytics.com # 被大量灰产 SDK 使用
-DOMAIN-SUFFIX,app-analytics-services.com # YouTube 应用行为统计接口，常用于用户操作数据收集
-DOMAIN-SUFFIX,s.youtube.com # YouTube 广告控制与追踪接口，用于广告推荐、点击记录与个性化订阅行为
-DOMAIN-SUFFIX,mpc-prod-11-s6uit34pua-uc.a.run.app # Cloud Run 托管脚本服务，用于行为收集或营销事件处理
-DOMAIN-SUFFIX,ep1.adtrafficquality.google # Google 广告 SDK 上报接口，用于行为数据采集与质量评估
-DOMAIN-SUFFIX,ep2.adtrafficquality.google # Google 广告 SDK 上报接口，用于行为数据采集与质量评估
-DOMAIN-SUFFIX,www-google-analytics.l.google.com # Google Analytics 测量与统计服务域名，用于网站访问分析、事件追踪与流量数据上报
-DOMAIN-SUFFIX,googleoptimize.com # Google 页面实验与 A/B 测试脚本加载与用户分流服务
-DOMAIN-SUFFIX,merchant-center-analytics.goog # Merchant Center 分析
-DOMAIN-SUFFIX,video-stats.video.google.com # YouTube 广告统计
-DOMAIN-SUFFIX,google-analytics.com # Google Analytics 行为分析与访问统计服务
+# > Datadog 行为遥测服务
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,datadoghq-browser-agent.com # Datadog 浏览器代理域名
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com # Datadog 浏览器数据采集域名
+DOMAIN-SUFFIX,csp-report.browser-intake-datadoghq.eu # Datadog CSP 报告采集域名
+DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 浏览器数据采集主域名
+IP-CIDR,3.233.158.112/32 # Datadog 浏览器数据采集节点（browser-intake-datadoghq.com）
+IP-CIDR6,2600:1f18:24e6:b901:fbdc:7182:a89c:6101/128 # Datadog 浏览器数据采集节点（browser-intake-datadoghq.com）
+
+# > Mozilla 行为遥测服务
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,telemetry.mozilla.org # Mozilla 遥测数据采集接口
 
-# > Facebook 相关行为指纹
+# > Shopify 行为遥测服务
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,monorail-edge.shopifysvc.com # Shopify 事件追踪域名
+
+# > Microsoft 行为遥测服务
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,mobile.events.data.microsoft.com # Microsoft 移动遥测上报域名
+DOMAIN-SUFFIX,in.appcenter.ms # Microsoft App Center 遥测服务域名
+DOMAIN-SUFFIX,otelrules.svc.static.microsoft # Microsoft OpenTelemetry 规则服务域名
+DOMAIN-SUFFIX,clarity.ms # Microsoft Clarity 行为分析域名
+
+# > Huawei 行为遥测服务
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,hispace.hicloud.com # 华为应用统计服务域名
+DOMAIN-SUFFIX,logservice.hicloud.com # 华为日志上报服务域名
+DOMAIN-SUFFIX,metrics1.data.hicloud.com # 华为指标采集服务域名
+
+# > Cloudflare 行为遥测服务
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,cloudflareinsights.com # Cloudflare Insights 分析域名
+
+# > Sentry 错误与遥测服务
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,o33249.ingest.us.sentry.io # Sentry 错误数据上报域名
+DOMAIN-SUFFIX,sentry-cdn.com # Sentry 静态资源域名
+DOMAIN-SUFFIX,js.sentry-cdn.com # Sentry SDK 分发域名
+
+# > Coinbase 行为遥测服务
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,analytics.coinbase.com # Coinbase 行为分析域名
+
+# > Kuaishou 行为遥测服务
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,log-sdk.ksapisrv.com # 快手行为日志上报接口
+DOMAIN-SUFFIX,reportlog.corp.kuaishou.com # 快手日志回传接口
+DOMAIN-SUFFIX,apm-collector.scs.kuaishou.com # 快手性能指标采集接口
+DOMAIN-SUFFIX,logsdk.kwai-pro.com # 快手遥测日志上报接口
+
+# > Xiaohongshu 行为遥测服务
+# - 校对时间：2026-03-25
+
+DOMAIN-SUFFIX,ark.xiaohongshu.com # 小红书策略回传接口
+DOMAIN-SUFFIX,sns-web.xiaohongshu.com # 小红书社交行为接口
+DOMAIN-SUFFIX,data-api.xiaohongshu.com # 小红书行为打点接口
+DOMAIN-SUFFIX,log.xiaohongshu.com # 小红书日志上报接口
+DOMAIN-SUFFIX,spider-tracker.xiaohongshu.com # 小红书访问追踪接口
+IP-CIDR,175.27.147.188/32 # 小红书异常通信节点（log.xiaohongshu.com）
+
+# > Baidu 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,demo-1.conversionsapigateway.com # 服务端转化事件追踪演示域名 
-IP-CIDR,69.63.176.0/20 # Meta / Facebook 行为分析与平台通信网段
+DOMAIN-SUFFIX,hm.baidu.com # 百度统计服务域名
+DOMAIN-SUFFIX,tcbox.baidu.com # 百度行为日志接口
+DOMAIN-SUFFIX,log.re.baidu.com # 百度推荐日志上报接口
+DOMAIN-SUFFIX,hmma.baidu.com # 百度统计分析接口
 
-# > 极验验证服务行为接口（GeeTest Behavior Services）
+# > Weibo 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,gcaptcha4.geetest.com # 极验新版验证码接口域名，用于获取验证码验证令牌与验证交互逻辑 
-DOMAIN-SUFFIX,gcaptcha4.geevisit.com # 极验验证接口子域，用于加载新版滑动验证码交互脚本与验证令牌（geevisit CDN 节点）
+DOMAIN-SUFFIX,wbapp.mobile.sina.cn # 微博移动行为接口
+DOMAIN-SUFFIX,logmix.sina.cn # 微博日志上传接口
+DOMAIN-SUFFIX,appmonitor.sina.cn # 微博性能监测接口
+DOMAIN-SUFFIX,sdkapp.uve.weibo.com # 微博 SDK 日志接口
+DOMAIN-SUFFIX,trace.sina.cn # 微博行为轨迹接口
 
-# > gsensebot 行为验证服务域名（Geetest SDK）
+# > AMap 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,gcaptcha4.gsensebot.com # gsensebot 子域名，用于提供 Geetest 验证服务，涉及行为验证与 SDK 初始化逻辑
+DOMAIN-SUFFIX,logs.amap.com # 高德日志上报接口
+DOMAIN-SUFFIX,loc.amap.com # 高德定位行为接口
+DOMAIN-SUFFIX,dualstack-logos.amap.com # 高德日志服务域名
+DOMAIN-SUFFIX,stats.amap.com # 高德统计上报接口
 
-# > Whoer 行为分析接口域名（IP识别与环境探测服务）
+# > Zhihu 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,api.ipify.org # ipify 公网 IP 查询接口，被 Whoer 用于检测当前网络出口地址 
-DOMAIN-SUFFIX,api-main.whox.is # WHOX 接口域名，用于识别 ASN、运营商、国家等连接特征信息 
-DOMAIN-SUFFIX,stackpath.bootstrapcdn.com # Bootstrap 框架 CDN，Whoer 页面用于样式测试与客户端环境检测 
+DOMAIN-SUFFIX,udata.zhihu.com # 知乎用户数据接口
+DOMAIN-SUFFIX,collector.zhihu.com # 知乎日志采集接口
+DOMAIN-SUFFIX,crash2.zhihu.com # 知乎崩溃日志接口
+DOMAIN-SUFFIX,track.zhihu.com # 知乎行为埋点接口
+DOMAIN-SUFFIX,t.zhihu.com # 知乎追踪接口
 
-# > Datadog 行为分析与性能监控服务域名（Browser Monitoring & Behavior Analytics）
+# > Xiaomi / MIUI 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,datadoghq-browser-agent.com # Datadog 浏览器代理域名，用于前端性能监测、用户行为分析与日志采集
-DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com # Datadog 浏览器端数据采集节点（US5 区域），用于前端性能监控、日志采集与错误追踪
-DOMAIN-SUFFIX,csp-report.browser-intake-datadoghq.eu # Datadog 浏览器 CSP（内容安全策略）违例与错误信息收集接口，用于记录前端脚本异常、违规资源加载行为等数据
-DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 浏览器端数据采集主域名，用于前端性能监控、用户行为分析、日志采集与错误追踪
-DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 监控上报域名，GPT 应用用于收集前端性能指标与异常信息
-IP-CIDR,3.233.158.112 # Datadog 浏览器监控数据采集节点，用于前端性能追踪与用户行为分析（browser-intake）
-IP-CIDR6,2600:1f18:24e6:b901:fbdc:7182:a89c:6101/128 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv6 节点）
+DOMAIN-SUFFIX,tracking.miui.com # MIUI 行为遥测接口
+DOMAIN-SUFFIX,sdkconfig.xiaomi.com # Xiaomi SDK 配置接口
 
-# > OptinMonster 相关域名
+# > Tencent 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,a.omappapi.com # 弹窗与用户行为触发脚本加载域名 
+DOMAIN-SUFFIX,bugly.qq.com # 腾讯 Bugly 错误上报域名
+DOMAIN-SUFFIX,mta.qq.com # 腾讯 MTA 统计分析域名
+DOMAIN-SUFFIX,beacon.qq.com # 腾讯 Beacon 行为采集域名
+DOMAIN-SUFFIX,tracking.qq.com # 腾讯行为追踪域名
+DOMAIN-SUFFIX,log.tbs.qq.com # 腾讯 TBS 日志上报域名
+DOMAIN-SUFFIX,tdid.qq.com # 腾讯设备标识服务域名
+DOMAIN-SUFFIX,tajs.qq.com # 腾讯前端统计域名
+DOMAIN-SUFFIX,report.qq.com # 腾讯行为上报域名
+DOMAIN-SUFFIX,rumt-zh.com # 腾讯 RUM 遥测域名
+DOMAIN-SUFFIX,rumt-sg.com # 腾讯 RUM 遥测域名
+DOMAIN-SUFFIX,htrace.wetvinfo.com # WeTV 链路追踪域名
+DOMAIN-SUFFIX,h.trace.qq.com # 腾讯链路追踪域名
+DOMAIN-SUFFIX,otheve.beacon.qq.com # 腾讯 Beacon 上报域名
 
-# > AWS WAF（Web 应用防火墙）行为识别服务域名
+# > RudderStack 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,edge.sdk.awswaf.com # AWS WAF SDK 通用子域，用于加载 Web 应用防火墙前端指令与行为检测配置 
-DOMAIN-SUFFIX,de5282c3ca0c.edge.sdk.awswaf.com # AWS WAF SDK 实例节点，用于采集用户行为特征、指纹数据与安全挑战反馈 
+DOMAIN-SUFFIX,api.rudderstack.com # RudderStack 数据采集接口
+DOMAIN-SUFFIX,cdn.rudderlabs.com # RudderStack SDK 分发域名
 
-# > Mozilla 遥测与用户行为分析域名（Telemetry & Behavioral Fingerprinting）
+# > Snowplow 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,telemetry.mozilla.org # Mozilla 遥测数据收集接口，用于浏览器行为数据上传与统计 
-DOMAIN-SUFFIX,services.mozilla.com # Firefox 后台服务接口，包含账户、同步、遥测功能
-DOMAIN-SUFFIX,sync.services.mozilla.com # Firefox Sync 同步行为服务，涉及设备同步记录
-DOMAIN-SUFFIX,shavar.services.mozilla.com # Firefox 反追踪列表更新接口，记录用户访问行为用于保护分析 
-DOMAIN-SUFFIX,mozilla.cloudflare-dns.com # Firefox TRR 加密 DNS 请求接口，可用于行为模式识别
+DOMAIN-SUFFIX,collector.snowplowanalytics.com # Snowplow 数据采集接口
+DOMAIN-SUFFIX,cdn.snowplowanalytics.com # Snowplow SDK 分发域名
+DOMAIN-SUFFIX,spmtracker.com # Snowplow 追踪服务域名
 
-# > Crisp 聊天客服与行为监听服务（Crisp Chat & Behavior Service）
+# > Mixpanel 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,crisp.chat # Crisp 聊天客服系统主域名，用于嵌入式客服、访客追踪与消息通信
-DOMAIN-SUFFIX,client.crisp.chat # Crisp 客户端接口域名，用于网页嵌入、用户身份识别与实时对话连接
+DOMAIN-SUFFIX,api.mixpanel.com # Mixpanel 数据采集接口
+DOMAIN-SUFFIX,decide.mixpanel.com # Mixpanel 配置服务域名
+DOMAIN-SUFFIX,cdn.mxpnl.com # Mixpanel SDK 分发域名
 
-# > 工商银行 相关行为指纹
+# > mParticle 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,pageviewp.icbc.com.cn # 工行行为埋点与页面浏览上报接口，用于用户交互追踪 
-DOMAIN-SUFFIX,mobileapm.icbc.com.cn # 工行移动端性能监测与崩溃日志上报接口（APM SDK） 
-DOMAIN-SUFFIX,mimscmp.icbc.com.cn # 工行综合营销管理系统接口，用于营销数据采集与推送 
-DOMAIN-SUFFIX,devreaf.icbc.com.cn # 工行开发测试域名，使用非常规端口 8098，可能为调试接口或非正式服务 
-DOMAIN-SUFFIX,tic.eiop.icbc.com.cn # 工行 TIC 安全接入接口，涉及设备指纹与安全校验行为 
+DOMAIN-SUFFIX,api.mparticle.com # mParticle 数据采集接口
+DOMAIN-SUFFIX,cdn.mparticle.com # mParticle SDK 分发域名
+DOMAIN-SUFFIX,jssdk.mparticle.com # mParticle Web SDK 域名
 
-# > 网易云 相关行为指纹
+# > Tealium 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,fp-upload.dun.163.com # 网易云上传服务接口，用于日志、内容或行为数据回传 
+DOMAIN-SUFFIX,tiqcdn.com # Tealium SDK 分发域名
+DOMAIN-SUFFIX,datacloud.tealiumiq.com # Tealium 数据采集接口
 
-# > Knak 埋点行为与邮件追踪服务（Knak Behavioral & Email Tracking Services）
+# > Amplitude 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,client-data.knak.io # Knak 客户数据接口，用于营销活动中的用户行为记录与分析
-DOMAIN-SUFFIX,assets.knak.io # Knak 静态资源加载域名，用于加载邮件模板中的样式与脚本
-DOMAIN-SUFFIX,email.knak.io # Knak 邮件服务跳转域名，用于邮件链接追踪与跳转统计
-DOMAIN-SUFFIX,app.knak.io # Knak 应用控制台域名，用于活动配置与营销模板管理
-DOMAIN-SUFFIX,knak.io # Knak 主域名，企业邮件营销平台，用于发送与追踪 B2B 邮件活动
+DOMAIN-SUFFIX,api.amplitude.com # Amplitude 数据采集接口
+DOMAIN-SUFFIX,api2.amplitude.com # Amplitude 批量上报接口
+DOMAIN-SUFFIX,cdn.amplitude.com # Amplitude SDK 分发域名
 
-# > Salesforce 行为分析与自动化遥测服务（Salesforce Behavioral Analytics & Telemetry）
+# > CleverTap 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,salesforceiq.com # SalesforceIQ 主域名，用于客户行为数据采集与销售活动跟踪
-DOMAIN-SUFFIX,einstein.ai # Salesforce Einstein AI 域名，用于营销行为预测与自动化模型调用
+DOMAIN-SUFFIX,api.clevertap.com # CleverTap 数据采集接口
 
-# > Shopify 行为分析与数据遥测域名
+# > Heap 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,monorail-edge.shopifysvc.com # Shopify Monorail 事件追踪域名，用于收集用户交互行为与页面性能指标
+DOMAIN-SUFFIX,collect.heapanalytics.com # Heap 数据采集接口
+DOMAIN-SUFFIX,cdn.heapanalytics.com # Heap SDK 分发域名
+DOMAIN-SUFFIX,heap-api.com # Heap 数据采集接口
 
-# > 极光推送平台相关域名
+# > UXCam 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,access.pushsdk.com # 极光推送通信接口域名，用于 App 通知推送与用户行为上报（常见于交易类应用）
+DOMAIN-SUFFIX,cdn.uxcam.com # UXCam SDK 分发域名
+DOMAIN-SUFFIX,track.uxcam.com # UXCam 数据采集接口
 
-# > Microsoft 相关遥测与探测行为
+# > Glassbox 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,dns.msftncsi.com # Microsoft 网络连通性检查域，用于探测联网状态
-DOMAIN-SUFFIX,mobile.events.data.microsoft.com # VS Code / Windows / Office 遥测上传行为
-DOMAIN-SUFFIX,in.appcenter.ms # Microsoft AppCenter 移动应用分析 SDK 域名，用于遥测统计与行为数据上报
-DOMAIN-SUFFIX,otelrules.svc.static.microsoft # 微软远程遥测服务域名，用于采集 OpenTelemetry 规则与应用遥测数据 
-DOMAIN-SUFFIX,officeci.azurewebsites.net # Microsoft Office Telemetry 数据上报接口，部署于 Azure Web 应用服务，可能用于 Beta/Insider 版本行为采集与测试反馈 
-DOMAIN-SUFFIX,clarity.ms # Microsoft Clarity 埋点追踪平台，用于用户行为记录与热图生成 
+DOMAIN-SUFFIX,tracking.glassbox.com # Glassbox 数据采集接口
+DOMAIN-SUFFIX,cdn.glassbox.com # Glassbox SDK 分发域名
 
-# > 华为系行为分析与遥测接口
+# > FullStory 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,hispace.hicloud.com # 华为 App 行为与更新统计接口
-DOMAIN-SUFFIX,logservice.hicloud.com # 崩溃日志与遥测上报服务
-DOMAIN-SUFFIX,metrics1.data.hicloud.com # HMS Core 行为数据统计接口
-DOMAIN-SUFFIX,config.hicloud.com # 配置下发与灰度测试控制接口
-DOMAIN-SUFFIX,push-api.cloud.huawei.com # 华为 Push 行为上报通道
+DOMAIN-SUFFIX,events.fullstory.com # FullStory 数据采集接口
+DOMAIN-SUFFIX,cdn.fullstory.com # FullStory SDK 分发域名
 
-# > Cloudflare 行为分析服务
+# > Hotjar 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,sentry.cloudflare.com # 行为分析追踪系统
-DOMAIN-SUFFIX,cloudflareinsights.com # Cloudflare Insights 分析平台，用于性能与安全监控
+DOMAIN-SUFFIX,static.hotjar.com # Hotjar SDK 分发域名
+DOMAIN-SUFFIX,vars.hotjar.com # Hotjar 数据采集接口
 
-# > Sentry 行为分析服务
+# > Pendo 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,o33249.ingest.us.sentry.io # Sentry 错误追踪与日志采集域名，用于 GPT 应用的异常报告上传
-DOMAIN-SUFFIX,sentry-cdn.com # Sentry 错误监控平台静态资源域名，用于加载前端监控 SDK 与相关脚本
-DOMAIN-SUFFIX,js.sentry-cdn.com # Sentry JS SDK 分发节点，用于前端错误捕获、性能上报与事件采集脚本加载
+DOMAIN-SUFFIX,api.pendo.io # Pendo 数据采集接口
+DOMAIN-SUFFIX,cdn.pendo.io # Pendo SDK 分发域名
 
-# > Ticketmaster 分析与广告服务（可选是否归入行为分析）
+# > Flurry 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,analytics.ticketmaster.com # 用户行为分析与数据收集
-DOMAIN-SUFFIX,ads.ticketmaster.com # 广告与推广服务接口
+DOMAIN-SUFFIX,analytics.flurry.com # Flurry 数据采集接口
 
-# > Cash App 广告与行为追踪（可移入其他模块）
+# > CoolaData 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,analytics.cash.app # 用户行为数据与分析系统
-DOMAIN-SUFFIX,ads.cash.app # 推广与广告平台接口
+DOMAIN-SUFFIX,api.cooladata.com # CoolaData 数据采集接口
+DOMAIN-SUFFIX,cdn.cooladata.com # CoolaData SDK 分发域名
 
-# > SHEIN
+# > Synerise 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,uberinternal.com # Uber 内部服务域（日志与行为上报）
+DOMAIN-SUFFIX,api.synerise.com # Synerise 数据采集接口
+DOMAIN-SUFFIX,tracker.synerise.com # Synerise 追踪服务域名
 
-# > Coinbase 加密货币平台
+# > Usermaven 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,analytics.coinbase.com # Coinbase 用户行为分析与打点服务
+DOMAIN-SUFFIX,analytics.usermaven.com # Usermaven 数据采集接口
+DOMAIN-SUFFIX,cdn.usermaven.com # Usermaven SDK 分发域名
 
-# > Segment 行为追踪服务
+# > Lucky Orange 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,segment.io # 用户行为追踪服务，广泛嵌入于 App 与网页中，采集分析数据
-IP-CIDR,35.166.10.37/24 # Segment 数据分析平台节点 IP（api.segment.io），用于遥测 SDK 的事件采集与用户行为数据上报
+DOMAIN-SUFFIX,cdn.luckyorange.com # Lucky Orange SDK 分发域名
 
-# > Adform 行为监听器
+# > Smartlook 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,track.adform.net # Adform：广告行为监听器
+DOMAIN-SUFFIX,cdn.smartlook.com # Smartlook SDK 分发域名
 
-# > Microsoft 实验与特性控制服务（Experiment / Feature Flag）
+# > Mouseflow 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,exp-tas.com # Microsoft 实验平台域名，用于 A/B 测试、功能开关控制及服务策略实验
+DOMAIN-SUFFIX,cdn.mouseflow.com # Mouseflow SDK 分发域名
+DOMAIN-SUFFIX,api.mouseflow.com # Mouseflow 数据采集接口
 
-# > 快手行为监控与指纹采集
+# > InfluxData 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,log-sdk.ksapisrv.com # 快手行为日志采集接口
-DOMAIN-SUFFIX,reportlog.corp.kuaishou.com # 快手内部日志回传平台（行为上报）
-DOMAIN-SUFFIX,apm-collector.scs.kuaishou.com # 快手前端性能 / APM 指标采集服务
-DOMAIN-SUFFIX,conv-infra.kuaishou.com # 快手推荐系统行为特征训练服务
-DOMAIN-SUFFIX,logsdk.kwai-pro.com # 快手系日志/遥测上报端点，用于 SDK 行为事件、性能监控与应用日志采集
-DOMAIN-SUFFIX,gdfp.gifshow.com # 快手广告/投放相关域名，用于前端曝光数据、广告资源请求与行为事件上报
+DOMAIN-SUFFIX,eu-central-1-1.aws.cloud2.influxdata.com # InfluxData 数据写入服务域名
 
-# > 4Paradigm / 第四范式（AI 平台与企业智能服务）
+# > Akamai mPulse 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,ap4r.com # 第四范式 AI 平台主域名，用于企业智能应用、推理任务与平台服务入口
-DOMAIN-SUFFIX,g-static.ap4r.com # 第四范式静态资源域名，用于加载前端脚本、样式与界面组件
-DOMAIN-SUFFIX,cdn-static.ap4r.com # 第四范式全站 CDN 加速节点，用于模型前端资源、静态文件与应用页面加载
-DOMAIN-SUFFIX,d15-def.ap4r.com # 第四范式分布式资源节点，用于模型推理任务、流量调度与平台加速服务
+DOMAIN-SUFFIX,s.go-mpulse.net # Akamai mPulse 数据采集接口
+DOMAIN-SUFFIX,akstat.io # Akamai 性能监测服务域名
 
-# > 小红书指纹与日志收集行为
+# > Vimeo 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,ark.xiaohongshu.com # 小红书策略分发与行为回传接口
-DOMAIN-SUFFIX,sns-web.xiaohongshu.com # 小红书社交数据行为接口
-DOMAIN-SUFFIX,referee.xiaohongshu.com # 小红书内容审核与行为风险评估接口
-DOMAIN-SUFFIX,data-api.xiaohongshu.com # 小红书推荐引擎行为打点接口，用于采集用户操作并上传至推荐系统
-DOMAIN-SUFFIX,log.xiaohongshu.com # 小红书日志收集服务，用于用户行为追踪与异常数据分析
-DOMAIN-SUFFIX,spider-tracker.xiaohongshu.com # 小红书爬虫行为追踪接口，用于监控访问频率与异常请求行为
-IP-CIDR,175.27.147.188/24 # 小红书异常端口通信节点，使用 5332 端口，疑似调试或后台服务 
+DOMAIN-SUFFIX,fresnel-events.vimeocdn.com # Vimeo 事件采集接口
+DOMAIN-SUFFIX,fresnel.vimeocdn.com # Vimeo 遥测资源域名
 
-# > 小红书内嵌第三方 SDK 行为（Third-Party SDKs Embedded in Xiaohongshu）
+# > Honeycomb 遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,sd-gl.xinqiucc.com # 星球 SDK 数据上报接口，用于广告行为追踪与策略投放参数获取（getseeds_v3），由小红书 App 内嵌调用
-DOMAIN-SUFFIX,sdkgen.data.tianwenca.com # 天闻 SDK 广告平台回传接口，用于采集移动端行为与广告策略回传（o_live_p2p_mobilesdk），小红书内置集成
+DOMAIN-SUFFIX,api.honeycomb.io # Honeycomb 遥测接口域名
 
-# > 百度行为分析服务
+# > Moka / Sensors Data 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,hm.baidu.com # 百度统计（常用于嵌入式网页行为追踪）
-DOMAIN-SUFFIX,tcbox.baidu.com # 百度 App 行为日志接口
-DOMAIN-SUFFIX,log.re.baidu.com # 百度推荐系统行为日志上报接口
-DOMAIN-SUFFIX,hmma.baidu.com # 百度统计与行为分析接口，用于页面访问统计、用户行为埋点与流量分析
+DOMAIN-SUFFIX,moka.datasink.sensorsdata.cn # Moka 数据采集接口
 
-# > 微博行为日志与遥测接口
+# > Shengshu AI 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,wbapp.mobile.sina.cn # 微博移动行为监控接口
-DOMAIN-SUFFIX,logmix.sina.cn # 微博行为日志上传通道
-DOMAIN-SUFFIX,appmonitor.sina.cn # 微博 App 性能与行为分析服务
-DOMAIN-SUFFIX,sdkapp.uve.weibo.com # 微博 SDK 远程日志采集服务
-DOMAIN-SUFFIX,trace.sina.cn # 微博用户行为轨迹上报接口
+DOMAIN-SUFFIX,trace.shengshu-ai.com # Shengshu AI 事件追踪接口
 
-# > 高德地图（AutoNavi / AMap）行为分析与指纹上传
+# > GrowingIO 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,logs.amap.com # 高德地图行为日志上传接口
-DOMAIN-SUFFIX,loc.amap.com # 高德定位接口，含用户位置行为分析
-DOMAIN-SUFFIX,dualstack-logos.amap.com # SDK 日志与图片请求行为收集接口
-DOMAIN-SUFFIX,dsp.amap.com # 广告请求及用户行为采集接口
-DOMAIN-SUFFIX,stats.amap.com # 高德地图统计上报服务（页面访问、点击事件）
+DOMAIN-SUFFIX,api-os.growingio.com # GrowingIO 数据采集接口
+DOMAIN-SUFFIX,tags.growingio.com # GrowingIO 埋点服务域名
+DOMAIN-SUFFIX,assets.growingio.com # GrowingIO SDK 分发域名
 
-# > 知乎 Zhihu 行为分析与指纹上传域名
+# > Talkie-AI 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,suger.zhihu.com # 知乎行为分析与推荐系统接口
-DOMAIN-SUFFIX,udata.zhihu.com # 知乎用户数据收集接口（User Data）
-DOMAIN-SUFFIX,collector.zhihu.com # 行为日志采集与分析中心
-DOMAIN-SUFFIX,crash2.zhihu.com # 崩溃日志与性能监控接口（类似友盟）
+DOMAIN-SUFFIX,bigdata.talkie-ai.com # Talkie-AI 数据分析服务域名
 
-# > 第三方 SDK / 广告模块（知乎内嵌常见）
+# > Keen 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,umeng.com # 阿里系友盟统计 SDK
-DOMAIN-SUFFIX,alog.umeng.com # 应用行为分析接口（友盟核心域名）
-DOMAIN-SUFFIX,track.zhihu.com # 知乎站内行为埋点日志上传接口
-DOMAIN-SUFFIX,t.zhihu.com # 轻量级追踪埋点接口（类似 CDN 回传行为）
+DOMAIN-SUFFIX,api.keen.io # Keen 数据采集接口
 
-# > Xiaomi MIUI Telemetry & Configuration Services（小米 行为遥测与设备配置服务）
+# > Adobe / Gainsight 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,tracking.miui.com # MIUI 行为与设备遥测数据上报接口
-DOMAIN-SUFFIX,sdkconfig.xiaomi.com # Xiaomi SDK 远程配置与策略下发服务
-DOMAIN-SUFFIX,net-assistant.10046.mi.com # MIUI Network Assistant 服务域名
+DOMAIN-SUFFIX,dcs.adobedc.net # Adobe 数据采集接口
+DOMAIN-SUFFIX,rum.hlx.page # Adobe RUM 遥测服务域名
+DOMAIN-SUFFIX,web-sdk.aptrinsic.com # Gainsight PX 行为分析接口
 
-# > 腾讯行为追踪与遥测服务（Tencent Behavior & Telemetry Services）
+# > Datadog Browser Intake 遥测节点
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,bugly.qq.com # Bugly 崩溃日志与异常上报接口
-DOMAIN-SUFFIX,mta.qq.com # MTA 移动分析平台（行为埋点与性能数据）
-DOMAIN-SUFFIX,beacon.qq.com # Beacon 行为数据采集平台（追踪分析）
-DOMAIN-SUFFIX,tracking.qq.com # 用户行为追踪接口
-DOMAIN-SUFFIX,log.tbs.qq.com # TBS（腾讯浏览服务）行为日志与崩溃上报
-DOMAIN-SUFFIX,tdid.qq.com # Tencent Device ID 设备指纹系统
-DOMAIN-SUFFIX,sngdia.qq.com # 腾讯广告行为记录接口
-DOMAIN-SUFFIX,tajs.qq.com # Tencent Analytics JS 埋点日志
-DOMAIN-SUFFIX,oth.eve.mdt.qq.com # 腾讯广告（MDT / Guangdiantong）EVE 日志上报
-DOMAIN-SUFFIX,report.qq.com # 应用行为上报中心（接口通用）
-DOMAIN-SUFFIX,sdk.e.qq.com # 腾讯广告 SDK 域名，用于广告拉取与行为采集
-DOMAIN-SUFFIX,report.servicewechat.com # 微信服务接口（含行为分析组件）
-DOMAIN-SUFFIX,miniapp.qq.com # QQ 小程序相关行为数据域名
-DOMAIN-SUFFIX,sandbox.api.qq.com # SDK 模拟测试行为回传（可能用于调试监听）
-DOMAIN-SUFFIX,tcsdk.com # 腾讯云 SDK 行为分析与遥测服务域名，用于客户端使用情况、性能与行为数据采集
-DOMAIN-SUFFIX,slscache.tencent-cloud.cn # 腾讯云日志服务（CLS）缓存节点，用于日志数据暂存与回传，具备后台遥测与行为数据聚合特征
-DOMAIN-SUFFIX,slscache.tencent-cloud.com # 腾讯云日志服务（CLS）全球缓存节点，用于日志采集与跨区域回传，属于后台行为分析基础设施
-DOMAIN-SUFFIX,rumt-zh.com # 腾讯 / RUM 实时用户监控（Real‑User Monitoring）上报域名，用于前端性能、错误、资源加载、页面 PV/UV 等数据采集与上报
-DOMAIN-SUFFIX,rumt-sg.com # 腾讯云 RUM 前端性能监控，上报节点（新加坡区），用于页面性能 / 错误 / 用户行为日志上报
-DOMAIN-SUFFIX,htrace.wetvinfo.com # 腾讯视频 WeTV 埋点与链路追踪接口，用于客户端日志采集与播放性能监控 
-DOMAIN-SUFFIX,h.trace.qq.com # 腾讯行为追踪接口，用于客户端行为上报与访问路径分析
-DOMAIN-SUFFIX,otheve.beacon.qq.com # 腾讯 Beacon 统计接口，用于行为数据回传与设备环境分析
+IP-CIDR,3.233.158.114/32 # Datadog 浏览器数据采集节点（browser-intake-datadoghq.com）
+IP-CIDR,3.233.158.111/32 # Datadog 浏览器数据采集节点（browser-intake-datadoghq.com）
 
-# > GFW / Geedge 自有基础设施域名（泄露推测 / 待验证）
+# > HockeyStack 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,tsg.geedge.net # Tiangou Secure Gateway 控制 / 下发接口
-DOMAIN-SUFFIX,mirror.geedge.net # Geedge 包 / 部署镜像服务域名
-DOMAIN-SUFFIX,repo.geedge.net # 包管理 / 源代码发布服务域
-DOMAIN-SUFFIX,update.geedge.net # 固件 / 软件更新接口（GFW 内部模块更新）
-DOMAIN-SUFFIX,config.geedge.net # 配置下发 / 参数同步接口
-DOMAIN-SUFFIX,logsrv.geedge.net # 日志汇集 / 监控上传服务入口
-DOMAIN-SUFFIX,api.geedge.net # 内部 API 接口 / 模块通信域名
-DOMAIN-SUFFIX,tsggw.geedge.net # Tiangou Gateway 网关接入域名
-DOMAIN-SUFFIX,mirror.mesa-lab.net # MESA Lab 镜像 / 工具服务域
-DOMAIN-SUFFIX,control.mesa-lab.net # MESA 控制 / 任务下发接口
+DOMAIN-SUFFIX,data.hockeystack.com # HockeyStack 数据采集接口
 
-# > 迅雷行为分析接口
+# > PostHog 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,dlandroid.rcv.sandai.net # 迅雷 Android 客户端行为监听接口，使用 HTTP 明文通信，上报遥测数据
+DOMAIN-SUFFIX,us-assets.i.posthog.com # PostHog SDK 分发域名
+DOMAIN-SUFFIX,us.i.posthog.com # PostHog 数据采集接口
 
-# > Reddit 行为指纹与事件上报服务
+# > Framer 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,events.redditmedia.com # Reddit 媒体内容统计与事件上报服务（广告行为追踪）
+DOMAIN-SUFFIX,events.framer.com # Framer 事件上报接口
 
-# > 行为分析与网站工具相关域名
+# > Bugsnag 错误与遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,tool.chinaz.com # 站长工具主站服务域名，提供 IP 查询、SEO 分析等站长工具功能
-DOMAIN-SUFFIX,csstools.chinaz.com # 站长工具 CSS 前端工具子域，用于网页样式调试与生成服务
+DOMAIN-SUFFIX,otlp.bugsnag.com # Bugsnag 遥测数据采集接口
+DOMAIN-SUFFIX,notify.bugsnag.com # Bugsnag 错误上报接口
 
-# > Atlassian 云平台域名（Jira / Confluence / Bitbucket 等服务）-可疑
+# > Goldcast 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,atl-paas.net # Atlassian 云平台基础设施域名，用于前端资源分发与服务接入（如 Jira、Confluence）
-DOMAIN-SUFFIX,ds-cdn.prod-east.frontend.public.atl-paas.net # Atlassian 前端资源 CDN 域名（Jira 页面 UI 加载等）
+DOMAIN-SUFFIX,analytics.goldcast.io # Goldcast 数据采集接口
 
-# > 潜在远程控制或监听节点（SoftLayer）
+# > ContentSquare 行为遥测服务
+# - 校对时间：2026-03-25
 
-IP-CIDR,74.86.151.167 # 美国 SoftLayer 数据中心公网主机，开放 HTTPS 服务（443 端口），疑似运行端口映射或远程控制组件，存在潜在监听风险
+DOMAIN-SUFFIX,t.contentsquare.net # ContentSquare 数据采集接口
 
-# > Segment（行为数据采集与事件追踪平台）-- ChatGPT客户端使用
+# > BetterStack 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,segment.io # Segment 主域名，用于核心事件采集与客户端标识通信 
-DOMAIN-SUFFIX,api.segment.io # Segment 数据上传接口，用于用户行为与事件追踪上报 
-DOMAIN-SUFFIX,cdn.segment.com # Segment SDK 脚本分发节点，用于加载跟踪脚本与配置文件 
-DOMAIN-SUFFIX,segment.com # Segment 控制台及配置服务入口域名 
-DOMAIN-SUFFIX,analytics.segment.com # Segment 分析与项目管理平台域名 
-DOMAIN-SUFFIX,mobile.segment.com # Segment 移动端 SDK 上报接口（iOS/Android 应用常见） 
-DOMAIN-SUFFIX,cdn-settings.segment.com # Segment 客户端配置同步接口，用于加载 SDK 参数与开关 
-DOMAIN-SUFFIX,events.segmentapis.com # Segment 事件聚合上传接口，用于多渠道数据上报 
-DOMAIN-SUFFIX,region1.segmentapis.com # Segment 区域节点域名，用于分区事件收集与上报 
+DOMAIN-SUFFIX,t.betterstack.com # BetterStack 跟踪服务域名
 
-# > RudderStack（行为数据分析与事件上报平台）
+# > Mapbox 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,rudderstack.com # RudderStack 主域名，用于用户行为数据与事件上报服务
-DOMAIN-SUFFIX,api.rudderstack.com # RudderStack 数据收集接口，用于上传事件与用户分析数据
-DOMAIN-SUFFIX,cdn.rudderlabs.com # RudderStack SDK 资源与跟踪脚本分发节点
-DOMAIN-SUFFIX,rudderlabs.com # RudderStack 平台主域名，用于配置管理与集成服务
+DOMAIN-SUFFIX,events.mapbox.com # Mapbox 事件上报接口
 
-# > Snowplow（行为分析与事件追踪平台）
+# > Agent.io 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,snowplowanalytics.com # Snowplow 主域名，用于事件数据收集与行为分析服务
-DOMAIN-SUFFIX,collector.snowplowanalytics.com # Snowplow 数据收集端点，用于上传用户事件与追踪信息
-DOMAIN-SUFFIX,cdn.snowplowanalytics.com # Snowplow SDK 与脚本分发节点，用于前端埋点与数据上报
-DOMAIN-SUFFIX,spmtracker.com # Snowplow 第三方追踪节点域名，用于多来源数据聚合与监控
+DOMAIN-SUFFIX,static.agentio.com # Agent.io SDK 分发域名
 
-# > Mixpanel（用户行为分析与产品埋点服务）
+# > DebugBear 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,mixpanel.com # Mixpanel 主域名，用于控制台访问与数据可视化分析服务
-DOMAIN-SUFFIX,api.mixpanel.com # Mixpanel 数据收集接口，用于上传事件、属性与用户行为数据
-DOMAIN-SUFFIX,decide.mixpanel.com # Mixpanel 动态配置与实验管理接口，用于 A/B 测试与特性切换
-DOMAIN-SUFFIX,cdn.mxpnl.com # Mixpanel SDK 与追踪脚本分发节点，用于前端埋点与数据回传
+DOMAIN-SUFFIX,cdn.debugbear.com # DebugBear SDK 分发域名
 
-# > mParticle（跨平台用户数据整合与行为分析平台）
+# > G2 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,mparticle.com # mParticle 主域名，用于用户数据整合与分析平台服务
-DOMAIN-SUFFIX,api.mparticle.com # mParticle 数据收集接口，用于事件追踪与用户行为上报
-DOMAIN-SUFFIX,cdn.mparticle.com # mParticle SDK 与脚本分发节点，用于前端埋点与数据回传
-DOMAIN-SUFFIX,jssdk.mparticle.com # mParticle 前端 SDK 调用接口，用于网页与移动端事件上传
+DOMAIN-SUFFIX,tracking-api.g2.com # G2 数据采集接口
 
-# > Tealium（标签管理与用户行为数据平台）
+# > Ahrefs 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,tealiumiq.com # Tealium 主控制台域名，用于标签管理与配置发布平台服务
-DOMAIN-SUFFIX,tealium.com # Tealium 官网及整合服务域名，用于账号、脚本分发等功能
-DOMAIN-SUFFIX,tiqcdn.com # Tealium CDN 域名，用于 SDK 脚本加载与数据采集调用
-DOMAIN-SUFFIX,datacloud.tealiumiq.com # Tealium DataCloud 接口，用于行为数据整合与上报处理
+DOMAIN-SUFFIX,analytics.ahrefs.com # Ahrefs 数据采集接口
 
-# > Amplitude（产品分析与事件追踪平台）
+# > Toplyne 行为遥测服务
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,amplitude.com # Amplitude 主域名，用于产品分析平台服务
-DOMAIN-SUFFIX,api.amplitude.com # Amplitude 数据收集接口，用于上传用户行为事件与属性 
-DOMAIN-SUFFIX,api2.amplitude.com # Amplitude 批量事件上传端点，用于 SDK 后台数据上传 
-DOMAIN-SUFFIX,cdn.amplitude.com # Amplitude SDK 脚本／资源分发节点，用于前端／网页版事件追踪 
-DOMAIN-SUFFIX,api.lab.amplitude.com # Amplitude Lab 子域名下的行为分析接口，主要用于事件上报、实验配置获取和用户行为数据的采集与测试
+DOMAIN-SUFFIX,toplyne-sdk.toplyne.io # Toplyne SDK 接口域名
 
-# > CleverTap（移动用户行为与事件上报平台）
-DOMAIN-SUFFIX,clevertap.com # CleverTap 主域名，用于行为分析与用户参与服务
-DOMAIN-SUFFIX,api.clevertap.com # CleverTap 数据收集接口，用于事件上传与用户行为追踪
-DOMAIN-SUFFIX,pushclevertap.com # CleverTap 推送与通知接口，用于移动端用户活跃及上报
+# > Crazy Egg 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Appsflyer（移动归因与用户行为追踪平台）
+DOMAIN-SUFFIX,script.crazyegg.com # Crazy Egg 脚本分发域名
 
-DOMAIN-SUFFIX,appsflyer.com # AppsFlyer 主域名，用于移动归因及行为追踪服务
-DOMAIN-SUFFIX,myappsflyer.com # AppsFlyer 客户数据平台接口，用于事件上报
-DOMAIN-SUFFIX,events.appsflyer.com # AppsFlyer 事件收集域名，用于 SDK 上传数据
+# > SegmentStream 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Branch Metrics（深链接与行为分析平台）
+DOMAIN-SUFFIX,cdn.segmentstream.com # SegmentStream SDK 分发域名
 
-DOMAIN-SUFFIX,branch.io # Branch 主域名，用于深链接与用户行为分析服务
-DOMAIN-SUFFIX,api.branch.io # Branch 数据收集接口，用于用户点击与行为追踪
-DOMAIN-SUFFIX,cdn.branch.io # Branch SDK 及脚本分发节点，用于前端事件上报
+# > EscapeTheCave 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Heap Analytics（自动捕捉事件的用户行为分析平台）
+DOMAIN-SUFFIX,analytics.escapethecave.ai # EscapeTheCave 数据采集接口
 
-DOMAIN-SUFFIX,heap.io # Heap 主域名，用于自动事件分析与行为追踪服务
-DOMAIN-SUFFIX,collect.heapanalytics.com # Heap 数据上传接口，用于用户行为捕捉与分析
-DOMAIN-SUFFIX,cdn.heapanalytics.com # Heap SDK／脚本分发域名，用于前端事件采集
+# > Visitor Analytics 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > UXCam（移动与网页用户行为录制与分析平台）
+DOMAIN-SUFFIX,app-worker.visitor-analytics.io # Visitor Analytics 数据采集接口
 
-DOMAIN-SUFFIX,uxcam.com # UXCam 主域名，用于移动／网页应用行为录制与用户路径跟踪服务
-DOMAIN-SUFFIX,cdn.uxcam.com # UXCam SDK 与脚本分发节点，用于前端埋点与数据上报
-DOMAIN-SUFFIX,track.uxcam.com # UXCam 数据收集接口，用于用户会话数据上传
+# > Wix 错误与遥测服务
+# - 校对时间：2026-03-25
 
-# > Glassbox（全程会话录像与用户体验分析平台）
+DOMAIN-SUFFIX,sentry.wixpress.com # Wix 错误上报域名
 
-DOMAIN-SUFFIX,glassbox.com # Glassbox 主域名，用于会话复现与用户行为监控服务
-DOMAIN-SUFFIX,tracking.glassbox.com # Glassbox 行为数据收集接口，用于前端／移动事件上传
-DOMAIN-SUFFIX,cdn.glassbox.com # Glassbox 脚本／SDK 分发域名，用于嵌入应用中
+# > GitLab 错误与遥测服务
+# - 校对时间：2026-03-25
 
-# > FullStory（行为分析与用户互动回放平台）
+DOMAIN-SUFFIX,new-sentry.gitlab.net # GitLab 错误上报域名
+DOMAIN-SUFFIX,snowplowprd.trx.gitlab.net # GitLab 行为采集接口
 
-DOMAIN-SUFFIX,fullstory.com # FullStory 主域名，用于用户行为分析与互动回放服务
-DOMAIN-SUFFIX,events.fullstory.com # FullStory 事件数据上传接口，用于前端用户行为追踪
-DOMAIN-SUFFIX,cdn.fullstory.com # FullStory 脚本／资源分发节点，用于行为埋点
+# > Metricool 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Hotjar（网页用户行为分析与热图／录屏平台）
+DOMAIN-SUFFIX,tracker.metricool.com # Metricool 数据采集接口
 
-DOMAIN-SUFFIX,hotjar.com # Hotjar 主域名，用于热图、录屏与用户反馈行为分析
-DOMAIN-SUFFIX,static.hotjar.com # Hotjar 脚本／资源分发节点，用于前端行为收集
-DOMAIN-SUFFIX,vars.hotjar.com # Hotjar 数据上传接口，用于用户行为与反馈事件上报
+# > BBC 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Pendo（产品分析、用户行为与用户反馈平台）
+DOMAIN-SUFFIX,dotcom.bbc-reporting-api.app # BBC 数据上报接口
+DOMAIN-SUFFIX,mybbc-analytics.files.bbci.co.uk # BBC 分析资源域名
 
-DOMAIN-SUFFIX,pendo.io # Pendo 主域名，用于产品行为分析与用户反馈服务
-DOMAIN-SUFFIX,api.pendo.io # Pendo 数据收集接口，用于事件追踪与属性上传
-DOMAIN-SUFFIX,cdn.pendo.io # Pendo SDK／脚本分发节点，用于前端嵌入与数据回传
+# > ScorecardResearch 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > UXCam（移动／网页用户行为录制与分析平台）
+DOMAIN-SUFFIX,sb.scorecardresearch.com # ScorecardResearch 数据采集接口
 
-DOMAIN-SUFFIX,uxcam.com # UXCam 主域名，用于移动／网页应用行为录制与用户路径跟踪服务
-DOMAIN-SUFFIX,cdn.uxcam.com # UXCam SDK 与脚本分发节点，用于前端埋点与数据上报
-DOMAIN-SUFFIX,track.uxcam.com # UXCam 数据收集接口，用于用户会话数据上传
+# > Cxense 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Heap Analytics（自动捕捉事件的用户行为分析平台）
+DOMAIN-SUFFIX,cdn.cxense.com # Cxense SDK 分发域名
 
-DOMAIN-SUFFIX,heap.io # Heap 主域名，用于自动事件分析与行为追踪服务
-DOMAIN-SUFFIX,collect.heapanalytics.com # Heap 数据上传接口，用于用户行为捕捉与分析
-DOMAIN-SUFFIX,cdn.heapanalytics.com # Heap SDK／脚本分发域名，用于前端事件采集
+# > Chartbeat 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > FullStory（行为分析与用户互动回放平台）
+DOMAIN-SUFFIX,static.chartbeat.com # Chartbeat SDK 分发域名
+DOMAIN-SUFFIX,pnytimes.chartbeat.net # Chartbeat 数据采集接口
 
-DOMAIN-SUFFIX,fullstory.com # FullStory 主域名，用于用户行为分析与互动回放服务
-DOMAIN-SUFFIX,events.fullstory.com # FullStory 事件数据上传接口，用于前端用户行为追踪
-DOMAIN-SUFFIX,cdn.fullstory.com # FullStory 脚本／资源分发节点，用于行为埋点
+# > The New York Times 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Hotjar（网页用户行为分析与热图／录屏平台）
+DOMAIN-SUFFIX,et.nytimes.com # The New York Times 事件采集接口
 
-DOMAIN-SUFFIX,hotjar.com # Hotjar 主域名，用于热图、录屏与用户反馈行为分析
-DOMAIN-SUFFIX,static.hotjar.com # Hotjar 脚本／资源分发节点，用于前端行为收集
-DOMAIN-SUFFIX,vars.hotjar.com # Hotjar 数据上传接口，用于用户行为与反馈事件上报
+# > Iterate 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Flurry（移动端用户行为分析与应用内事件追踪平台）
+DOMAIN-SUFFIX,platform.iteratehq.com # Iterate 数据采集接口
 
-DOMAIN-SUFFIX,flurry.com # Flurry 主域名，用于移动端应用行为分析服务
-DOMAIN-SUFFIX,analytics.flurry.com # Flurry 数据收集接口，用于上传用户事件与行为数据
-DOMAIN-SUFFIX,ads.flurry.com # Flurry 广告与应用内变现接口，用于用户行为与广告数据整合
+# > Brand Metrics 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > CoolaData（行为分析与大数据事件仓库平台）
+DOMAIN-SUFFIX,cdn.brandmetrics.com # Brand Metrics SDK 分发域名
 
-DOMAIN-SUFFIX,cooladata.com # CoolaData 主域名，用于在线/移动应用行为分析与数据仓库服务
-DOMAIN-SUFFIX,api.cooladata.com # CoolaData 数据收集接口，用于事件上报与行为追踪
-DOMAIN-SUFFIX,cdn.cooladata.com # CoolaData SDK 与脚本分发节点，用于前端行为采集
+# > CNZZ 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Synerise（客户行为分析与事件追踪平台）
+DOMAIN-SUFFIX,s13.cnzz.com # CNZZ 统计上报节点
 
-DOMAIN-SUFFIX,synerise.com # Synerise 主域名，用于客户行为分析与自动化营销服务
-DOMAIN-SUFFIX,api.synerise.com # Synerise 数据收集接口，用于移动／网页事件上报
-DOMAIN-SUFFIX,tracker.synerise.com # Synerise 前端埋点与追踪接口，用于会话与交互数据上传
+# > Astro 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Heap（自动事件捕捉与用户行为分析平台）
+DOMAIN-SUFFIX,telemetry.astro.build # Astro 遥测上报域名
 
-DOMAIN-SUFFIX,heap.io # Heap 主域名，用于用户行为分析与产品洞察服务
-DOMAIN-SUFFIX,collect.heapanalytics.com # Heap 数据上传接口，用于自动捕捉用户事件
-DOMAIN-SUFFIX,cdn.heapanalytics.com # Heap SDK／脚本分发节点，用于前端埋点与资源加载
+# > Meituan Waimai 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > FullStory（用户互动回放与行为分析平台）
+DOMAIN-SUFFIX,log.waimai.meituan.com # 美团外卖日志上报接口
 
-DOMAIN-SUFFIX,fullstory.com # FullStory 主域名，用于用户互动录屏与行为分析服务
-DOMAIN-SUFFIX,events.fullstory.com # FullStory 事件上报接口，用于行为数据采集
-DOMAIN-SUFFIX,cdn.fullstory.com # FullStory SDK／资源分发节点，用于前端嵌入与追踪脚本
+# > Ele.me 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Hotjar（网页用户热图／行为分析平台）
+DOMAIN-SUFFIX,h5-data.elemecdn.com # 饿了么 H5 数据上报域名
 
-DOMAIN-SUFFIX,hotjar.com # Hotjar 主域名，用于网页热图、录屏与用户反馈分析服务
-DOMAIN-SUFFIX,static.hotjar.com # Hotjar 脚本／资源分发节点，用于前端行为收集
-DOMAIN-SUFFIX,vars.hotjar.com # Hotjar 数据上传接口，用于用户行为与反馈事件上报
+# > Boss Zhipin 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Pendo（产品行为分析与用户反馈平台）
+DOMAIN-SUFFIX,logapi-ios.zhipin.com # BOSS 直聘 iOS 日志上报接口
+DOMAIN-SUFFIX,apm-ios.zhipin.com # BOSS 直聘 iOS APM 接口
 
-DOMAIN-SUFFIX,pendo.io # Pendo 主域名，用于产品分析与用户反馈服务
-DOMAIN-SUFFIX,api.pendo.io # Pendo 数据收集接口，用于事件追踪与属性上传
+# > Kanzhun 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Usermaven（用户行为分析与漏斗追踪平台）
+DOMAIN-SUFFIX,t.kanzhun.com # 看准网行为追踪接口
 
-DOMAIN-SUFFIX,usermaven.com # Usermaven 主域名，用于用户行为分析与漏斗追踪服务
-DOMAIN-SUFFIX,analytics.usermaven.com # Usermaven 数据收集接口，用于事件上报与用户行为采集
-DOMAIN-SUFFIX,cdn.usermaven.com # Usermaven SDK 脚本／资源分发节点，用于前端嵌入与行为采集
+# > Recruitee 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Lucky Orange（网页会话录制与热图行为分析平台）
+DOMAIN-SUFFIX,careers-analytics.recruitee.com # Recruitee 招聘分析接口
 
-DOMAIN-SUFFIX,luckyorange.com # Lucky Orange 主域名，用于网页会话录制、热图及用户行为分析服务
-DOMAIN-SUFFIX,lr‑cdn.com # Lucky Orange 脚本／资源分发节点，用于前端嵌入与行为收集
-DOMAIN-SUFFIX,cdn.luckyorange.com # Lucky Orange 数据脚本分发域名，用于埋点加载与用户互动捕捉
+# > Beusable 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Smartlook（网页／移动行为录制与分析平台）
+DOMAIN-SUFFIX,rum.beusable.net # Beusable RUM 数据采集接口
 
-DOMAIN-SUFFIX,smartlook.com # Smartlook 主域名，用于网页与移动行为录制、热图与用户互动分析
-DOMAIN-SUFFIX,share.smartlook.com # Smartlook 会话分享／录制接口，用于用户行为捕捉与回放
-DOMAIN-SUFFIX,cdn.smartlook.com # Smartlook 脚本／SDK 分发节点，用于前端嵌入行为追踪
+# > Naver 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Mouseflow（网页用户行为热图、会话录制平台）
+DOMAIN-SUFFIX,wcs.naver.net # Naver 统计分析接口
 
-DOMAIN-SUFFIX,mouseflow.com # Mouseflow 主域名，用于网页用户行为热图与会话录制服务
-DOMAIN-SUFFIX,cdn.mouseflow.com # Mouseflow 脚本／资源分发节点，用于前端加载与行为追踪
-DOMAIN-SUFFIX,api.mouseflow.com # Mouseflow 数据收集接口，用于事件上传与用户行为分析
+# > Sanhusoft 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > InfluxData 行为遥测服务域名
+DOMAIN-SUFFIX,bi.sanhusoft.com # Sanhusoft 数据采集接口
+DOMAIN-SUFFIX,bi-n.sanhusoft.com # Sanhusoft 数据分析接口
 
-DOMAIN-SUFFIX,eu-central-1-1.aws.cloud2.influxdata.com # InfluxData 云服务节点域名，用于 InfluxDB 远程数据写入与监控分析（欧盟中部数据中心）
+# > Bybit 错误与遥测服务
+# - 校对时间：2026-03-25
 
-# > Akamai 性能监控与行为采集服务域名（Akamai mPulse / Akstat）
+DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com # Bybit 前端监控数据采集接口
 
-DOMAIN-SUFFIX,go-mpulse.net # Akamai mPulse 实时性能监控服务域名，用于采集用户性能指标与行为分析 
-DOMAIN-SUFFIX,s.go-mpulse.net # Akamai mPulse 性能数据采集子域，用于 JS 脚本加载与用户行为上报 
-DOMAIN-SUFFIX,akstat.io # Akamai 行为与性能监控服务域名，用于测速脚本加载与浏览行为采集 
+# > MoonPay 错误与遥测服务
+# - 校对时间：2026-03-25
 
-# > lrkt-in.com 域名与监听节点（行为追踪平台）
+DOMAIN-SUFFIX,otel-collector.moonpaycloud.com # MoonPay 遥测数据采集接口
 
-DOMAIN-SUFFIX,lrkt-in.com # lrkt-in.com 域名，属于行为追踪与分析平台，用于收集网页访问与用户行为数据 
-DOMAIN-SUFFIX,r.lrkt-in.com # lrkt-in.com 的监听节点域名，用于回传行为追踪事件、设备标识等 
-IP-CIDR,104.198.23.205 # r.lrkt-in.com 对应监听服务节点，部署于 Google Cloud（us-central1），用于行为日志回传与数据收集 
+# > Sprig 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Vimeo 多媒体与事件追踪子域名（Vimeo.com）
+DOMAIN-SUFFIX,api.sprig.com # Sprig 反馈数据接口
 
-DOMAIN-SUFFIX,fresnel-events.vimeocdn.com # Vimeo 事件采集子域名，用于记录播放器行为、加载性能与交互日志（Fresnel 系统） 
-DOMAIN-SUFFIX,fresnel.vimeocdn.com # Vimeo Fresnel 脚本资源域名，用于行为追踪、播放事件记录与性能遥测
+# > Algolia 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Wirewax 视频交互组件与嵌入式 SDK 服务域名
+DOMAIN-SUFFIX,insights.algolia.io # Algolia Insights 数据采集接口
 
-DOMAIN-SUFFIX,embedder-sdk.wirewax.video # Wirewax 嵌入式交互视频 SDK 接口域名，提供 Vimeo 等平台的视频增强功能与内容嵌入能力 
+# > Kapa 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Transcend 数据隐私与用户追踪控制平台域名
+DOMAIN-SUFFIX,metrics.kapa.ai # Kapa 指标采集接口
 
-DOMAIN-SUFFIX,transcend-cdn.com # Transcend 隐私合规平台内容分发域名，用于加载 Cookie 通知、追踪控制脚本与合规组件资源 
+# > Clicky 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Honeycomb 观察与遥测服务域名
+DOMAIN-SUFFIX,static.getclicky.com # Clicky 脚本分发域名
 
-DOMAIN-SUFFIX,api.honeycomb.io # Honeycomb API 服务域名，用于发送与查询应用监控数据（如 trace、metrics、logs），适用于分布式追踪与性能分析工具
+# > USBrowserSpeed 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Intellimize 相关域名
+DOMAIN-SUFFIX,a.usbrowserspeed.com # USBrowserSpeed RUM 数据采集接口
 
-DOMAIN-SUFFIX,log.intellimize.co # Intellimize 行为日志与事件追踪上报端点
+# > CR Relay 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Anthropic 相关域名（信任 / 文档 / 状态 / 控制台）
+DOMAIN-SUFFIX,api.cr-relay.com # CR Relay 事件中继接口
 
-DOMAIN-SUFFIX,events.anthropic.com # Anthropic Telemetry 事件追踪端点，用于客户端行为事件上报
+# > Gauges 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > HubSpot 相关域名
+DOMAIN-SUFFIX,secure.gaug.es # Gauges 数据采集接口
 
-DOMAIN-SUFFIX,hsadspixel.net # HubSpot Ads Pixel 跟踪域名，用于广告监测与投放追踪
-DOMAIN-SUFFIX,hs-analytics.net # HubSpot Analytics 分析域名，用于收集用户访问、事件与页面性能数据
-DOMAIN-SUFFIX,hscollectedforms.net # HubSpot 收集嵌入式表单数据的域名，用于非 HubSpot 表单的行为记录
-DOMAIN-SUFFIX,js-na2.hsadspixel.net # HubSpot 像素 JS 脚本加载域名，用于广告数据收集与页面行为分析
-DOMAIN-SUFFIX,api-na2.hubapi.com # HubSpot CRM 与分析服务 API 接口域名，用于数据上传、活动追踪与用户识别
-DOMAIN-SUFFIX,hs-sites-eu1.com # HubSpot Sites（EU 区域）企业营销站点托管与行为分析平台域名
-DOMAIN-SUFFIX,26142657.hs-sites-eu1.com # HubSpot 企业实例营销页面，用于内容展示、表单收集与用户行为分析
+# > WoodpeckerLog 错误与遥测服务
+# - 校对时间：2026-03-25
 
-# > Moka 行为分析与数据上报（Sensors Data）
+DOMAIN-SUFFIX,open.woodpeckerlog.com # WoodpeckerLog 日志采集接口
 
-DOMAIN-SUFFIX,moka.datasink.sensorsdata.cn # Moka 使用的神策数据上报端点，用于行为事件、埋点数据与使用分析上传
+# > Pylon 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > TikTok / Kwai 遥测（行为分析）
+DOMAIN-SUFFIX,posthog-proxy.usepylon.com # Pylon 行为数据代理接口
 
-DOMAIN-SUFFIX,analytics-ipv6.tiktokw.us # TikTok/Kwai IPv6 遥测上报节点，用于采集行为事件与性能数据
+# > New Relic 错误与遥测服务
+# - 校对时间：2026-03-25
 
-# > Shengshu AI（盛数 AI）行为追踪
+DOMAIN-SUFFIX,bam.nr-data.net # New Relic 浏览器数据采集接口
+DOMAIN-SUFFIX,js-agent.newrelic.com # New Relic 前端监控脚本域名
+DOMAIN-SUFFIX,bam-cell.nr-data.net # New Relic APM 数据采集接口
 
-DOMAIN-SUFFIX,trace.shengshu-ai.com # 盛数 AI 行为追踪与事件日志上报端点，用于埋点收集与性能监控
+# > Yandex WebVisor 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > feelgood.cn（第三方用户行为分析与埋点服务）
+DOMAIN-SUFFIX,mc.webvisor.org # Yandex WebVisor 数据采集接口
 
-DOMAIN-SUFFIX,api.feelgood.cn # feelgood.cn 服务接口域名，用于行为数据收集与体验监控 SDK 上报
+# > LogRocket 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > 行为追踪与前端埋点服务域名
+DOMAIN-SUFFIX,cdn.lr-in.com # LogRocket SDK 分发域名
 
-DOMAIN-SUFFIX,s.dpmsrv.com # DPM 用户行为上报与点击追踪域名，常用于广告平台监控
-DOMAIN-SUFFIX,ak.sail-horizon.com # sail-horizon 第三方行为分析 SDK 接口域名
-DOMAIN-SUFFIX,js-agent.newrelic.com # New Relic 前端性能监控 JS SDK 上报域名
+# > Getro 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > GrowingIO 行为分析与数据采集相关域名
+DOMAIN-SUFFIX,an.getro.com # Getro 数据采集接口
 
-DOMAIN-SUFFIX,api-os.growingio.com # GrowingIO 移动端 SDK 接口域名，用于采集用户行为与设备数据
-DOMAIN-SUFFIX,tags.growingio.com # GrowingIO 埋点脚本与标识域名，用于 Web 页面行为采集
-DOMAIN-SUFFIX,assets.growingio.com # GrowingIO 静态资源域名，用于加载埋点 JS 脚本等 SDK 文件
+# > Workday UXI 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > 科大讯飞 安全分析域名
+DOMAIN-SUFFIX,uxi-ingestion.us.mlde.workday.com # Workday UXI 数据采集接口
 
-DOMAIN-SUFFIX,idatalogconf.iflysec.com # 讯飞安全平台数据上报域名，用于采集安全相关日志与行为数据
-DOMAIN-SUFFIX,datalog.iflysec.com # 科大讯飞数据采集接口，用于行为日志、设备信息与交互数据的上报
+# > TradingView 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > MiniMax / Talkie-AI 相关服务域名
+DOMAIN-SUFFIX,snowplow-pixel.tradingview.com # TradingView 事件采集接口
 
-DOMAIN-SUFFIX,bigdata.talkie-ai.com # Talkie-AI 数据分析与行为建模服务端，用于大模型日志处理、埋点上报与大数据分析
+# > Kakao 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Koala（GetKoala 前端组件 / 营销工具平台）
+DOMAIN-SUFFIX,aem-kakao-collector.onkakao.net # Kakao 数据采集接口
 
-DOMAIN-SUFFIX,events.getkoala.com # Koala 行为事件上报域名，用于记录用户点击、浏览、互动行为（埋点服务）
+# > Optimizely 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Keen.io 行为分析平台域名（Behavior）
+DOMAIN-SUFFIX,logx.optimizely.com # Optimizely 日志上报接口
 
-DOMAIN-SUFFIX,api.keen.io # Keen.io API 接口域名，用于事件收集、数据分析与可视化面板请求
+# > Dynamic 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Adobe 行为追踪 / 数据分析 / 广告画像域名
+DOMAIN-SUFFIX,logs.dynamicauth.com # Dynamic 日志上报接口
 
-DOMAIN-SUFFIX,adobedtm.com # Adobe Dynamic Tag Management，用于网页行为采集与追踪脚本加载
-DOMAIN-SUFFIX,demdex.net # Adobe Audience Manager，用于用户画像、行为建模与广告定向
-DOMAIN-SUFFIX,pixel.everesttech.net # Adobe Everest 行为追踪像素域名，用于广告曝光、转化归因与跨站用户行为统计
-DOMAIN-SUFFIX,everestjs.net # Adobe Everest 前端追踪脚本域名，用于加载营销归因与用户行为分析 JS
-DOMAIN-SUFFIX,dcs.adobedc.net # Adobe Data Collection Service 行为数据接收域名，用于用户事件、埋点与营销数据上报
-DOMAIN-SUFFIX,rtd-tm.everesttech.net # Adobe Everest 实时受众数据与标签管理服务域名，用于广告投放中的实时数据同步、受众匹配与行为信号传输
-DOMAIN-SUFFIX,rum.hlx.page # Adobe Helix RUM（Real User Monitoring）前端性能监控域名，用于页面加载性能与用户体验指标采集
-DOMAIN-SUFFIX,web-sdk.aptrinsic.com # Gainsight PX（Aptrinsic）前端 SDK，用于产品内用户行为分析与体验优化
+# > Segment 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Statsig 行为分析与实验平台（行为追踪 SDK）
+DOMAIN-SUFFIX,api.segment.io # Segment 数据采集接口
+IP-CIDR,35.166.10.37/32 # Segment 数据采集节点（api.segment.io）
+IP-CIDR,44.231.35.67/32 # Segment 数据采集节点（api.segment.io）
 
-DOMAIN-SUFFIX,statsigapi.net # Statsig API 接口，用于 App 行为采集、实验分流与动态配置读取
+# > Busuanzi 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Registry 平台伪装域名（疑似恶意分发/可疑 SDK）
+DOMAIN-SUFFIX,busuanzi.ibruce.info # Busuanzi 访问统计接口
 
-DOMAIN-SUFFIX,prodregistryv2.org # 疑似恶意软件分发平台域名，可能用于伪装安装包下载或 SDK 动态加载
+# > 51.LA 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > FeatureAssets 内容分发域名（疑似内容包装/远程资源注入）
+DOMAIN-SUFFIX,sdk.51.la # 51.LA 数据采集接口
+DOMAIN-SUFFIX,ia.51.la # 51.LA 统计接口
 
-DOMAIN-SUFFIX,featureassets.org # 可疑内容资源加载域名，可能用于远程 JS 注入、图片素材拉取等第三方内容分发
+# > Uptrends 遥测服务
+# - 校对时间：2026-03-25
 
-# > Qualified 潜客追踪与转化分析平台（行为追踪）
+DOMAIN-SUFFIX,hit.uptrendsdata.com # Uptrends 监测回传接口
 
-DOMAIN-SUFFIX,js.qualified.com # Qualified 行为追踪脚本域名，用于网站访客分析、潜在客户识别与营销转化追踪
+# > Dynatrace 错误与遥测服务
+# - 校对时间：2026-03-25
 
-# > Bizible 营销归因分析平台（Adobe 旗下）
+DOMAIN-SUFFIX,js-cdn.dynatrace.com # Dynatrace 监控脚本域名
 
-DOMAIN-SUFFIX,cdn.bizible.com # Bizible 静态资源域名，用于加载前端 JS 脚本与分析组件，实现多渠道营销归因与转化追踪
+# > Grafana Faro 错误与遥测服务
+# - 校对时间：2026-03-25
 
-# > Datadog Browser Intake 行为分析上报节点（IP）
+DOMAIN-SUFFIX,faro-collector-prod-us-central-0.grafana.net # Grafana Faro 数据采集接口
 
-IP-CIDR,3.233.158.114/24 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv4 节点）
-IP-CIDR,3.233.158.111/24 # browser-intake-datadoghq.com 数据采集 IP（AWS IPv4 节点）
+# > TianwenCA 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > HockeyStack 行为分析与用户数据追踪平台
+DOMAIN-SUFFIX,sdktt.data.tianwenca.com # TianwenCA 数据采集接口
 
-DOMAIN-SUFFIX,data.hockeystack.com # HockeyStack 数据采集接口域名，用于网站用户行为分析、事件追踪与营销优化
+# > ShuZiLM 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > ML Attribution 第三方归因与行为分析服务
+DOMAIN-SUFFIX,hdaa.shuzilm.cn # ShuZiLM 数据采集接口
 
-DOMAIN-SUFFIX,s.ml-attr.com # ML Attribution 数据追踪子域名，用于营销归因模型与转化路径分析
+# > Wasu TV 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > 6SC 行为分析脚本加载域名
+DOMAIN-SUFFIX,wasu-statistics.cn-hangzhou.log.aliyuncs.com # Wasu TV 日志上报接口
 
-DOMAIN-SUFFIX,j.6sc.co # 6SC 行为分析服务脚本托管域名，用于嵌入第三方追踪脚本、事件记录与用户路径分析
+# > Funshion 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Zeta Global 第三方追踪脚本域名（zi-scripts）
+DOMAIN-SUFFIX,stat.funshion.com # Funshion 统计上报接口
+DOMAIN-SUFFIX,pcap.funshion.com # Funshion 日志采集接口
 
-DOMAIN-SUFFIX,js.zi-scripts.com # Zeta Global 行为追踪脚本加载域名，常见于电商或广告平台的用户活动监控
+# > AppDynamics 错误与遥测服务
+# - 校对时间：2026-03-25
 
-# > Litix Analytics 行为追踪域名
+DOMAIN-SUFFIX,eum-appdynamics.com # AppDynamics EUM 数据采集接口
 
-DOMAIN-SUFFIX,inferred.litix.io # Litix Analytics 数据采集域名，用于追踪用户行为、点击路径与转化率分析
-DOMAIN-SUFFIX,gt95otsj0jud3r8lsgrtvfti5.litix.io # Litix 提供的追踪数据采集子域名，用于捕捉用户行为事件、会话数据与转化路径信息
+# > GitHub 错误与遥测服务
+# - 校对时间：2026-03-25
 
-# > ChatGPT AB 测试服务相关节点
+DOMAIN-SUFFIX,collector.github.com # GitHub 遥测采集接口
+DOMAIN-SUFFIX,collector-cdn.github.com # GitHub 遥测接收域名
 
-IP-CIDR,199.59.148.106/24 # ab.chatgpt.com 的服务节点 IP，用于 OpenAI ChatGPT 的 A/B 测试配置与实验性功能分发
+# > Anthropic / Claude 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > PostHog 行为分析与可视化平台域名
+DOMAIN-SUFFIX,events.anthropic.com # Anthropic 事件上报域名
+DOMAIN-SUFFIX,events.claude.ai # Claude 事件上报接口
 
-DOMAIN-SUFFIX,us-assets.i.posthog.com # PostHog 静态资源域名，用于加载分析图表、脚本与样式资源
-DOMAIN-SUFFIX,us.i.posthog.com # PostHog 数据上报与分析 API 接口域名，用于事件追踪、用户行为采集与可视化分析
+# > Wikimedia 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Trendemon 行为分析与内容优化平台域名
+DOMAIN-SUFFIX,intake-analytics.wikimedia.org # Wikimedia 数据采集接口
 
-DOMAIN-SUFFIX,assets.trendemon.com # Trendemon 静态资源与脚本加载域名，用于网页行为分析与内容推荐组件展示
+# > GoatCounter 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > Framer 平台静态资源与事件上报域名
+DOMAIN-SUFFIX,pencildev-new.goatcounter.com # GoatCounter 统计接口
 
-DOMAIN-SUFFIX,events.framer.com # Framer 事件上报接口域名，用于收集用户行为数据、错误追踪与交互日志
+# > JPush 行为遥测服务
+# - 校对时间：2026-03-25
 
-# > LinkedIn 广告追踪与分析域名
-
-DOMAIN-SUFFIX,px.ads.linkedin.com # LinkedIn 像素追踪域名，用于广告点击记录、转化分析与重定向追踪
-
-# > WDFl 广告追踪跳转域名（Webeye / GWI Group）
-
-DOMAIN-SUFFIX,r.wdfl.co # 用于广告追踪与跳转路径收集，存在行为分析与用户识别风险，常见于网页广告与跳转脚本中
-
-# > NSVCS 数据采集服务域名（常用于日志上报 / 用户行为数据收集）
-
-DOMAIN-SUFFIX,ingesteer.services-prod.nsvcs.net # NSVCS 平台的数据接收节点，用于客户端行为数据的实时采集与遥测日志上报
-
-# > Bugsnag 错误追踪与异常报告平台
-
-DOMAIN-SUFFIX,otlp.bugsnag.com # Bugsnag 数据采集节点，用于接收应用程序崩溃日志、性能异常与 OpenTelemetry 上报数据
-DOMAIN-SUFFIX,notify.bugsnag.com # Bugsnag 通知上报服务域名，用于错误日志收集、异常捕获与应用崩溃上报
-
-# > Goldcast 数据分析与功能模块服务域名
-
-DOMAIN-SUFFIX,analytics.goldcast.io # Goldcast 分析与埋点统计子域，用于记录访客行为、活动参与度与转化数据
-
-# > Harness 功能标识管理平台域名（Feature Flags）
-
-DOMAIN-SUFFIX,config.ff.harness.io # Harness Feature Flags 配置节点，用于动态功能开关下发与客户端行为收集
-
-# > LaunchDarkly 客户端行为追踪域名（Feature Flags）
-
-DOMAIN-SUFFIX,events.launchdarkly.com # LaunchDarkly 数据事件上报域名，用于记录客户端行为与功能标识状态变更
-
-# > ContentSquare 用户行为分析平台域名
-
-DOMAIN-SUFFIX,t.contentsquare.net # ContentSquare 埋点与热图服务端，用于收集用户行为数据、页面点击轨迹与页面停留分析
-
-# > Aplo Event 事件追踪与广告归因平台域名
-
-DOMAIN-SUFFIX,aplo-evnt.com # Aplo Event 主域，用于跨站事件追踪、广告点击归因与用户行为收集
-
-# > UnifyIntent 数据追踪与标签管理服务域名
-
-DOMAIN-SUFFIX,tag.unifyintent.com # UnifyIntent 标准数据收集接口，用于网站行为追踪、转化率统计与用户兴趣建模
-
-# > Plausible.io 轻量级开源网站分析平台域名
-
-DOMAIN-SUFFIX,plausible.io # Plausible 主站及分析服务域，用于无 Cookie 的访客行为统计与网站流量分析
-
-# > BetterStack 监控与遥测服务域名
-
-DOMAIN-SUFFIX,betterstackdata.com # BetterStack 数据采集与遥测服务主域，用于系统指标上传与性能数据记录
-DOMAIN-SUFFIX,s1612477.eu-nbg-1.betterstackdata.com # BetterStack 指定遥测节点，部署于欧洲地区，用于上报站点监控与性能事件
-DOMAIN-SUFFIX,t.betterstack.com # BetterStack 跟踪脚本托管域名，加载轻量级浏览器追踪代码与遥测 SDK
-
-# > Mapbox 遥测与事件追踪接口域名
-
-DOMAIN-SUFFIX,events.mapbox.com # Mapbox 行为遥测服务域名，用于收集用户交互、地图使用频率与客户端错误日志等数据
-
-# > Vercel Insights 用户体验分析服务域名
-
-DOMAIN-SUFFIX,vitals.vercel-insights.com # Vercel Web Vitals 数据采集接口，用于收集页面加载性能、用户交互延迟与视觉稳定性等前端指标
-
-# > ipwhois IP 地址地理位置查询接口
-
-DOMAIN-SUFFIX,ipwho.is # ipwhois.io 提供的 IP 定位 API，用于通过访客 IP 返回地理位置、运营商等信息，常见于用户画像与访问记录分析
-
-# > Webflow HubSpot 集成子服务接口
-
-DOMAIN-SUFFIX,hubspotv2.use1-marketplace-1p-apps-prod-red.if.webflow.services # Webflow 与 HubSpot 集成的行为收集子服务，用于用户数据上报与营销自动化通信
-
-# > Axon AI 行为数据采集接口
-
-DOMAIN-SUFFIX,s.axon.ai # Axon.ai 数据收集接口，用于行为建模、转化优化与设备指纹收集
-
-# > Agent.io 用户行为分析平台
-
-DOMAIN-SUFFIX,static.agentio.com # Agent.io 静态资源加载域名，支持前端行为追踪脚本与遥测 SDK 的分发
-
-# > Maze 嵌入式用户行为分析脚本服务域名
-
-DOMAIN-SUFFIX,snippet.maze.co # Maze 分析平台嵌入式脚本域名，用于网站用户行为追踪、A/B 测试与用户交互数据采集
-
-# > Singular 营销归因与数据分析 SDK 服务域名
-
-DOMAIN-SUFFIX,web-sdk-cdn.singular.net # Singular Web SDK CDN 域名，用于归因分析、营销数据采集与用户行为建模
-
-# > Grsm.io 智能链接跳转服务域名
-
-DOMAIN-SUFFIX,grsm.io # Grsm 提供短链接与跳转服务，用于行为追踪、用户引流与活动页面中转
-
-# > DebugBear 性能监控平台资源域名
-
-DOMAIN-SUFFIX,cdn.debugbear.com # DebugBear 内容分发节点，用于加载网站性能监测与用户行为分析脚本
-
-# > Dreamdata 数据分析与归因平台资源域名
-
-DOMAIN-SUFFIX,cdn.dreamdata.cloud # Dreamdata CDN 域名，用于加载网站行为归因与 B2B 数据分析工具的前端资源
-
-# > G2 用户行为追踪与平台分析接口域名
-
-DOMAIN-SUFFIX,tracking-api.g2.com # G2 平台追踪接口，用于记录用户交互、访客行为与转化路径分析
-
-# > Ahrefs 网站分析行为追踪接口
-
-DOMAIN-SUFFIX,analytics.ahrefs.com # Ahrefs 网站分析平台数据接口，用于收集用户访问行为、来源路径与使用指标
-
-# > SyD.io 行为分析与遥测服务域名
-
-DOMAIN-SUFFIX,e.sy-d.io # SyD.io 提供的行为追踪接口，用于收集用户交互事件、页面行为与性能数据，常见于嵌入式分析 SDK
-
-# > Gradual 客户数据平台接口 -- 待校对
-
-DOMAIN-SUFFIX,cdp.gradual-api.com # Gradual 平台的 CDP 接口域名，用于行为数据采集与用户画像构建
-
-# > Recruitics 招聘广告与转化追踪服务域名
-
-DOMAIN-SUFFIX,jsv3.recruitics.com # Recruitics 招聘营销平台用于加载 JavaScript SDK，执行用户行为追踪与转化率统计
-
-# > Cedexis 测试与智能流量调度平台域名
-
-DOMAIN-SUFFIX,cedexis-test.com # Cedexis 提供的性能测试与调度评估主域，用于收集客户端网络状态与路径表现数据，广泛用于 CDN 测试与智能路由优化
-DOMAIN-SUFFIX,p36.cedexis-test.com # Cedexis 用于全球 CDN 性能监测、调度策略测试与用户体验优化的探测子域
-DOMAIN-SUFFIX,p29.cedexis-test.com # Cedexis 的调度性能测试子域，用于 CDN 路由优化与用户网络表现监测 
-DOMAIN-SUFFIX,fastly.cedexis-test.com # Cedexis 联合 Fastly 的性能采样子域，用于边缘分发路径评估与 QoE 测试
-
-# > ComputePipe 基准测试与性能分析子域
-
-DOMAIN-SUFFIX,benchmarks.cdn-b.compute-pipe.com # ComputePipe 提供的性能测试与基准分析子域，常用于分布式资源性能评估与客户端数据采集
-
-# > Toplyne 用户行为追踪与增长策略分析 SDK 接口域名
-
-DOMAIN-SUFFIX,toplyne-sdk.toplyne.io # Toplyne SDK 接口，用于采集用户行为数据并提供个性化增长策略推荐服务
-
-# > Crazy Egg 行为分析脚本服务域名
-
-DOMAIN-SUFFIX,script.crazyegg.com # Crazy Egg 页面热图与用户行为分析脚本域名，用于加载监测脚本与用户交互追踪
-
-# > SegmentStream 内容个性化与行为分析资源域名
-
-DOMAIN-SUFFIX,cdn.segmentstream.com # SegmentStream 提供的前端 JS SDK 与追踪脚本 CDN，用于用户行为采集与个性化推荐建模
-
-# > EscapeTheCave 网站分析与行为追踪接口域名
-
-DOMAIN-SUFFIX,analytics.escapethecave.ai # EscapeTheCave 网站用于行为分析与用户数据收集的 SDK/接口域名，用于访客行为追踪与统计
-
-# > Visitor Analytics 访客行为分析平台接口域名
-
-DOMAIN-SUFFIX,app-worker.visitor-analytics.io # Visitor Analytics 提供的前端通信接口域名，用于采集页面停留时间、点击路径等行为数据
-
-# > Wix 内部错误追踪与性能监控服务域名
-
-DOMAIN-SUFFIX,sentry.wixpress.com # Wix 集成的 Sentry 服务域名，用于网站前端异常日志、性能追踪与错误上报
-
-# > Immersive Translate 行为分析与追踪域名
-
-DOMAIN-SUFFIX,analytics.immersivetranslate.com # 沉浸式翻译数据分析与行为追踪域名，用于收集用户交互行为数据
-
-# > GitLab 行为分析与遥测上报域名
-
-DOMAIN-SUFFIX,new-sentry.gitlab.net # GitLab 使用的 Sentry 错误监控上报域名，用于客户端异常捕获、崩溃日志与性能问题追踪
-DOMAIN-SUFFIX,snowplowprd.trx.gitlab.net # GitLab 基于 Snowplow 的行为分析与事件追踪域名，用于用户操作分析、功能使用统计与产品优化
-
-# > Metricool 网站行为追踪与分析域名
-
-DOMAIN-SUFFIX,tracker.metricool.com # 用于网站访问行为、跳出率与用户路径的追踪分析，广泛嵌入于第三方网站
-DOMAIN-SUFFIX,mpc-prod-15-s6uit34pua-uw.a.run.app # 托管于 Google Cloud 的子域，疑似用于后端数据收集或事件处理
-
-# > 内容个性化服务与上下文分析平台域名
-
-DOMAIN-SUFFIX,browser.covatic.io # Covatic 提供的个性化推荐与上下文跟踪平台域名，常用于媒体与播客类服务
-
-# > BBC 第三方行为分析集成服务域名
-
-DOMAIN-SUFFIX,bbc.gscontxt.net # 与 BBC 媒体内容关联的第三方上下文数据服务域名，可能用于内容个性化或行为分析
-DOMAIN-SUFFIX,dotcom.bbc-reporting-api.app # BBC 报告与遥测数据上报接口，用于收集用户行为、性能数据与交互事件，支持分析与内容优化
-DOMAIN-SUFFIX,mybbc-analytics.files.bbci.co.uk # BBC 用户行为分析资源域名，用于收集分析脚本、打点与追踪等静态资源加载
-
-# > Piano/Tinypass 内容付费平台域名
-
-DOMAIN-SUFFIX,cdn.tinypass.com # Tinypass（Piano.io）内容付费系统 CDN 资源域名，用于订阅弹窗、验证脚本与 SDK 加载
-
-# > ScorecardResearch（Comscore 行为分析平台）
-
-DOMAIN-SUFFIX,scorecardresearch.com # Comscore 旗下第三方行为追踪平台域名，用于收集用户浏览行为、广告点击与网站流量分析数据
-DOMAIN-SUFFIX,sb.scorecardresearch.com # ScorecardResearch 数据回传子域名，用于收集用户浏览行为、页面访问路径与跨站追踪数据
-
-# > Cxense 个性化内容与行为分析服务
-
-DOMAIN-SUFFIX,cxense.com # Cxense 主域名，用于用户行为分析、内容个性化推荐与广告策略优化，常见于媒体类网站
-DOMAIN-SUFFIX,cdn.cxense.com # Cxense 内容个性化与行为追踪服务的 CDN 域名，用于加载用户行为分析相关的脚本与配置资源
-
-# > Chartbeat 实时行为分析服务
-
-DOMAIN-SUFFIX,static.chartbeat.com # Chartbeat 静态资源域名，用于加载分析脚本与实时监控组件，采集用户行为与页面互动数据
-DOMAIN-SUFFIX,pnytimes.chartbeat.net # 行为分析平台域名，用于内容加载与用户访问追踪
-
-# > Maru / Matchbox 用户调研与行为分析平台相关域名
-
-DOMAIN-SUFFIX,uk01.maru-cdn.com # Maru/Matchbox 用户调研平台 CDN 节点，用于加载问卷调查脚本与行为追踪组件，服务于广告受众分析与用户反馈收集
-
-# > RedfastLabs 用户行为优化平台相关域名
-
-DOMAIN-SUFFIX,c5ae3b90-d8c4-4a2f-8774-4856a74d56b8.redfastlabs.com # RedfastLabs 用户行为分析标识域名，用于特定站点用户交互数据采集
-DOMAIN-SUFFIX,redfastlabs.com # RedfastLabs 主站域名，用于行为建模、内容推荐与用户互动分析
-
-# > The New York Times（纽约时报）
-
-DOMAIN-SUFFIX,et.nytimes.com # 纽约时报事件追踪与数据采集接口，用于用户行为分析与性能统计
-
-# > Iterate 问卷与用户反馈平台
-
-DOMAIN-SUFFIX,platform.iteratehq.com # Iterate 问卷与用户反馈平台域名，用于弹窗调查、用户满意度收集及行为分析
-
-# > Brand Metrics 品牌广告评估平台
-
-DOMAIN-SUFFIX,cdn.brandmetrics.com # Brand Metrics 广告衡量平台 CDN 域名，用于加载广告分析脚本与性能追踪资源
-
-# > CNZZ / 友盟统计分析服务
-
-DOMAIN-SUFFIX,s13.cnzz.com # CNZZ（友盟）统计脚本与数据上报节点，用于网站访问分析、行为统计与流量监测
-
-# > Astro 官方遥测与构建统计服务
-
-DOMAIN-SUFFIX,telemetry.astro.build # Astro 官方遥测与匿名使用统计域名，用于收集构建性能与错误信息
-
-# > MediaV 广告转化监测与用户行为追踪服务
-
-DOMAIN-SUFFIX,cm.mediav.com # MediaV 广告转化监测与用户行为追踪域名
-
-# > 外卖平台行为日志与数据分析接口
-
-DOMAIN-SUFFIX,log.waimai.meituan.com # 外卖平台行为日志与埋点上报接口，用于用户行为分析与系统监测
-
-# > 饿了么行为分析与风控相关 CDN 域名
-
-DOMAIN-SUFFIX,shadow.elemecdn.com # 饿了么影子资源与灰度发布相关 CDN，用于新版本或风控策略分发
-DOMAIN-SUFFIX,h5-data.elemecdn.com # 饿了么 H5 页面数据与埋点上报域名，用于行为分析与风控评估
-
-# > 第三方风控与反作弊服务域名
-
-DOMAIN-SUFFIX,px.effirst.com # 第三方风控与反作弊服务域名，用于设备指纹、风险识别与异常行为判定
-
-# > 第三方云服务行为分析与风控回源节点
-
-IP-CIDR,172.253.134.188/24 # Google 公网云服务 IP（GCP），常用于第三方统计、风控或分析服务的回源与中转通信
-
-# > Boss 直聘 iOS 行为日志采集接口与性能监控与遥测接口（APM）
-
-DOMAIN-SUFFIX,logapi-ios.zhipin.com # Boss 直聘 iOS 客户端行为日志上报接口，用于用户操作路径与行为分析
-DOMAIN-SUFFIX,apm-ios.zhipin.com # Boss 直聘 iOS 性能监控（APM）接口，用于崩溃分析、性能指标与稳定性遥测
-
-# > Boss 直聘 / 看准网行为分析与跳转埋点域名
-
-DOMAIN-SUFFIX,t.kanzhun.com # 看准网（Boss 直聘体系）跳转统计与行为埋点域名，用于用户访问路径、点击行为与来源分析
-
-# > Recruitee 招聘流程访问与转化统计服务
-
-DOMAIN-SUFFIX,careers-analytics.recruitee.com # Recruitee 招聘页面访问与流程分析统计
-
-# > Hotjar 用户行为分析与体验监测平台
-
-DOMAIN-SUFFIX,hotjar.com # Hotjar 官方主站与用户行为分析服务入口
-DOMAIN-SUFFIX,static.hotjar.com # Hotjar 行为分析脚本与前端组件静态资源
-
-# > Beusable 用户体验与行为分析（RUM）服务
-
-DOMAIN-SUFFIX,rum.beusable.net # Beusable Real User Monitoring（真实用户行为与性能分析）
-
-# > 韩国广告投放与用户行为统计服务（Naver / OneTag）
-
-DOMAIN-SUFFIX,wcs.naver.net # Naver Web Analytics 用户行为与转化统计接口
-
-# > CounterAPI 轻量级访问统计与计数服务
-
-DOMAIN-SUFFIX,counterapi.com # CounterAPI 网站访问计数与轻量级行为统计接口
-
-# > Sanhusoft 第三方数据统计与分析服务
-
-DOMAIN-SUFFIX,bi.sanhusoft.com # Sanhusoft 网站访问与行为统计分析服务
-DOMAIN-SUFFIX,bi-n.sanhusoft.com # Sanhusoft 行为数据统计与分析后端接口
-
-# > 平台 A/B 测试与功能实验服务
-
-DOMAIN-SUFFIX,sc-abtest.ffe390afd658c19dcbf707e0597b846d.de # 前端 A/B 测试与功能实验数据采集接口
-DOMAIN-SUFFIX,pup-resource.ffe390afd658c19dcbf707e0597b846d.de # A/B 测试实验所需资源与配置下发服务
-
-# > AppTrace 应用性能监控与错误追踪服务
-
-DOMAIN-SUFFIX,apptrace.com # AppTrace 应用性能、错误日志与运行状态追踪服务
-
-# > Bybit 加密资产交易平台前端监控与遥测服务
-
-DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com # Bybit 平台前端性能、错误与运行状态监控数据采集接口
-
-# > 平台前端接口与数据采集服务
-
-DOMAIN-SUFFIX,api.ffbbbdc6d3c353211fe2ba39c9f744cd.com # 平台前端接口调用与数据采集 API（监控 / 实验 / 业务支撑）
-
-# > GrowthBook A/B 测试与特性开关前端资源分发服务
-
-DOMAIN-SUFFIX,cdn.growthbook.io # GrowthBook A/B 测试与 Feature Flag 前端 SDK、实验配置与资源分发（CDN）
-
-# > Umami 隐私友好型网站访问统计服务
-
-DOMAIN-SUFFIX,cloud.umami.is # Umami 云端网站访问统计与基础行为分析服务
-
-# > MoonPay 平台遥测与服务监控数据收集服务
-
-DOMAIN-SUFFIX,otel-collector.moonpaycloud.com # MoonPay 使用的 OpenTelemetry 数据收集端点，用于服务监控、指标与追踪上报
-
-# > 用户行为分析与 A/B 测试服务
-
-DOMAIN-SUFFIX,2632.userly.net # Userly 用户行为采集与转化分析服务，用于页面行为评估与增长效果分析
-DOMAIN-SUFFIX,try.abtasty.com # AB Tasty A/B 测试与用户体验优化平台，用于页面实验与转化率优化
-
-# > Zemanta 广告行为分析与效果追踪服务
-
-DOMAIN-SUFFIX,js-tag.zemanta.com # Zemanta 前端广告曝光与点击行为追踪脚本，用于原生广告效果分析与统计
-
-# > Protechts 链接安全与访问行为分析服务
-
-DOMAIN-SUFFIX,li.protechts.net # Protechts 链接访问与点击行为追踪接口，用于链接安全校验、访问分析与风险评估
-
-# > PostHog 用户行为分析与产品埋点平台
-
-DOMAIN-SUFFIX,app.posthog.com # PostHog 官方控制台，用于产品用户行为分析、事件埋点、漏斗与使用情况统计
-
-# > Splunk Cloud 数据采集与日志上报服务（Notion 集成）
-
-DOMAIN-SUFFIX,http-inputs-notion.splunkcloud.com # Splunk Cloud 提供的 HTTP 数据输入接口，用于 Notion 相关事件、日志与使用数据的采集与上报
-
-# > Birdie 产品分析与用户洞察平台
-
-DOMAIN-SUFFIX,app.birdie.so # Birdie 官方应用控制台，用于产品分析、用户洞察与产品决策支持
-
-# > Sprig 产品体验调研与用户反馈分析服务
-
-DOMAIN-SUFFIX,api.sprig.com # Sprig 提供的后端 API 服务，用于用户调研问卷、体验反馈、产品使用洞察与行为数据收集
-
-# > Algolia 搜索行为分析与用户洞察服务
-
-DOMAIN-SUFFIX,insights.algolia.io # Algolia Insights 行为分析接口，用于搜索事件、点击、转化等用户交互数据上报与分析
-
-# > Kapa AI 产品使用指标与行为分析服务
-
-DOMAIN-SUFFIX,metrics.kapa.ai # Kapa AI 提供的指标与度量接口，用于产品使用情况、交互事件与性能数据等行为指标采集
-
-# > Clicky 网站访问统计与用户行为分析服务
-
-DOMAIN-SUFFIX,static.getclicky.com # Clicky 提供的网站访问统计与用户行为分析前端脚本资源，用于页面访问与交互数据采集
-
-# > LiveIntent 用户识别与广告数据管理平台（DMP）
-
-DOMAIN-SUFFIX,b-code.liadm.com # LiveIntent 提供的用户识别与数据管理脚本，用于跨站用户匹配与广告定向数据处理
-DOMAIN-SUFFIX,liadm.com # LiveIntent 官方平台域名，用于广告与数据管理服务入口
-
-# > USBrowserSpeed 页面性能与真实用户监测服务（RUM）
-
-DOMAIN-SUFFIX,a.usbrowserspeed.com # USBrowserSpeed 提供的真实用户浏览器性能与体验监测接口，用于页面加载速度与使用情况分析
-DOMAIN-SUFFIX,usbrowserspeed.com # USBrowserSpeed 官方服务平台，用于网站性能监测与分析服务
-
-# > Visual Website Optimizer (VWO) A/B 测试与用户行为分析服务
-
-DOMAIN-SUFFIX,dev.visualwebsiteoptimizer.com # VWO 提供的前端实验与行为分析接口，用于 A/B 测试、页面变体加载及用户交互与转化数据采集
-DOMAIN-SUFFIX,visualwebsiteoptimizer.com # Visual Website Optimizer 官方平台网站，用于介绍转化率优化（CRO）、A/B 测试与行为分析产品及文档
-
-# > CR Relay 事件中继与数据上报服务
-
-DOMAIN-SUFFIX,api.cr-relay.com # CR Relay 提供的事件与数据中继 API 接口，用于前端或服务端事件上报与消息转发
-
-# > Gauges 网站访问统计与用户行为分析服务
-
-DOMAIN-SUFFIX,secure.gaug.es # Gauges 提供的网站访问与用户行为统计接口，用于页面浏览、会话分析与流量数据采集
-
-# > Testimonial.to 用户评价展示与社会证明组件服务
-
-DOMAIN-SUFFIX,embed.testimonial.to # Testimonial.to 提供的前端嵌入组件，用于展示用户评价、推荐语与社会证明内容
-DOMAIN-SUFFIX,testimonial.to # Testimonial.to 官方平台网站，用于管理与发布用户评价内容
-
-# > ClickCease 广告点击反欺诈与行为监测服务
-
-DOMAIN-SUFFIX,clickcease.com # ClickCease 官方平台，用于提供广告点击欺诈检测、异常行为识别与广告投放防护服务
-
-# > Featurebase 用户反馈与产品功能管理平台
-
-DOMAIN-SUFFIX,featurebase.app # Featurebase 官方主站，用于提供用户反馈、功能请求与产品路线图管理服务
-DOMAIN-SUFFIX,featurebaseapp.com # Featurebase 应用服务域名，用于承载反馈系统与管理后台
-DOMAIN-SUFFIX,tb.featurebaseapp.com # Featurebase 嵌入式反馈组件与前端交互子域
-DOMAIN-SUFFIX,featurebase-attachments.com # Featurebase 用户反馈附件与资源托管域名
-DOMAIN-SUFFIX,global.featurebase-attachments.com # Featurebase 全局附件分发节点，用于反馈内容中的文件与图片资源
-DOMAIN-SUFFIX,66431589920c213c8f9e5886.featurebase-attachments.com # Featurebase 实例化附件子域，用于特定项目的反馈资源存储
-DOMAIN-SUFFIX,sdk-beta.featurebase.app # Featurebase SDK Beta 接口域名，用于前端反馈组件与行为交互集成
-
-# > WoodpeckerLog 应用日志采集与运行监控服务
-
-DOMAIN-SUFFIX,open.woodpeckerlog.com # WoodpeckerLog 提供的应用日志采集与运行监控服务域名，用于错误日志、崩溃信息与运行状态数据上报
-
-# > Chili Piper 销售转化与会议调度前端行为组件服务
-
-DOMAIN-SUFFIX,js.chilipiper.com # Chili Piper 前端 JavaScript 组件，用于网站表单提交、会议调度、线索分发与销售转化流程控制，涉及用户交互行为数据
-
-# > Pylon 用户行为分析与企业画像数据服务
-
-DOMAIN-SUFFIX,graph.usepylon.com # Pylon 用户行为数据查询与关系图接口，用于行为分析与用户画像构建
-DOMAIN-SUFFIX,avatars.usepylon.com # Pylon 用户头像与身份标识资源，用于用户行为可视化与画像展示
-DOMAIN-SUFFIX,posthog-proxy.usepylon.com # Pylon 集成的 PostHog 行为数据代理，用于事件采集与行为分析
-DOMAIN-SUFFIX,ws.zoominfo.com # ZoomInfo WebSocket 数据接口，用于企业画像、用户识别与商业情报数据同步
-
-# > New Relic 前端性能监控与用户行为指标采集
-
-DOMAIN-SUFFIX,bam.nr-data.net # New Relic 浏览器端性能与用户行为数据采集接口
-DOMAIN-SUFFIX,js-agent.newrelic.com # New Relic 前端性能监控 JS Agent，用于采集页面加载性能、错误与运行指标，属于典型用户行为与性能分析脚本
-
-# > LeadSourcing 访客识别与潜客来源分析服务
-
-DOMAIN-SUFFIX,visitor.leadsourcing.co # LeadSourcing 访客识别与线索来源分析接口，用于识别网站访问者、推断公司归属与潜在销售线索
-
-# > ShareThis 内容分享与社交传播统计服务（平台 API）
-
-DOMAIN-SUFFIX,platform-api.sharethis.com # ShareThis 平台核心 API，用于内容分享按钮、社交传播统计、访问来源归因与分享行为分析
-
-# > Yandex WebVisor 用户行为回放与访问分析服务
-
-DOMAIN-SUFFIX,mc.webvisor.org # Yandex WebVisor 行为分析服务接口，用于页面访问记录、用户操作回放与行为轨迹分析
-
-# > TGCNT Telegram 频道 / 群组统计与计数服务
-
-DOMAIN-SUFFIX,tgcnt.ru # TGCNT 提供 Telegram 频道与群组的公开统计、订阅数计数与增长趋势展示服务
-
-# > LogRocket 前端会话回放与用户行为分析资源服务
-
-DOMAIN-SUFFIX,cdn.lr-in.com # LogRocket 提供的前端会话回放与用户行为分析相关静态资源 CDN，用于页面录制、错误追踪与用户行为分析
-
-# > Getro 招聘平台与职位分发服务（企业招聘与职位管理）
-
-DOMAIN-SUFFIX,an.getro.com # Getro 平台行为与访问事件上报接口，用于招聘页面访问统计与基础使用分析
-
-# > OpenX 程序化广告交易与用户行为数据基础设施
-
-DOMAIN-SUFFIX,openx.net # OpenX 程序化广告交易与行为数据基础设施，用于广告竞价、用户标识同步与跨站行为信号传递
-
-# > Casale Media 程序化广告投放与追踪平台
-
-DOMAIN-SUFFIX,casalemedia.com # Casale Media 广告平台主域名，用于广告投放、曝光统计与用户追踪行为
-
-# > PubMatic 程序化广告 SSP 与广告竞价平台
-
-DOMAIN-SUFFIX,pubmatic.com # PubMatic 程序化广告 SSP 平台，用于广告竞价、流量变现与用户行为数据处理
-
-# > AppNexus / Xandr 程序化广告交换与竞价平台
-
-DOMAIN-SUFFIX,adnxs.com # AppNexus（Xandr）程序化广告交换平台，用于广告竞价、流量撮合与用户行为数据处理
-
-# > Rubicon Project（Magnite）程序化广告行为像素与用户标识同步服务
-
-DOMAIN-SUFFIX,pixel-us-west.rubiconproject.com # Rubicon Project（Magnite）位于 US-West 区域的广告像素与用户标识同步节点，用于广告竞价、曝光归因、跨站用户识别与行为信号回传
-
-# > New Relic 应用性能监控（APM）与遥测数据采集服务
-
-DOMAIN-SUFFIX,bam-cell.nr-data.net # New Relic APM 前端与客户端遥测数据采集节点，用于应用性能监控、错误追踪与运行指标上报
-
-# > Workday UXI 用户体验遥测与行为数据采集服务
-
-DOMAIN-SUFFIX,uxi-ingestion.us.mlde.workday.com # Workday UXI（User Experience Intelligence）数据摄取接口，用于收集用户交互、性能指标与应用使用行为数据
-
-# > TradingView 用户行为分析与事件采集服务
-
-DOMAIN-SUFFIX,snowplow-pixel.tradingview.com # TradingView 基于 Snowplow 的用户行为事件采集像素，用于页面交互、功能使用路径与产品分析数据上报
-
-# > Kakao 用户行为与事件数据采集服务（AEM Collector）
-
-DOMAIN-SUFFIX,aem-kakao-collector.onkakao.net # Kakao AEM 行为采集接口，用于用户交互事件、功能使用路径与产品分析数据上报
-
-# > FiveSense 用户行为分析与营销自动化平台（韩国）
-
-DOMAIN-SUFFIX,fivesense.co.kr # FiveSense 提供的用户行为分析、营销自动化与数据驱动广告优化服务，涉及用户访问与交互数据采集
-
-# > Optimizely 产品实验、A/B 测试与用户行为分析平台
-
-DOMAIN-SUFFIX,logx.optimizely.com # Optimizely 行为日志与实验结果上报接口，用于用户行为采集与实验数据分析
-
-# > Dynamic Auth Web3 身份认证与钱包登录服务
-
-DOMAIN-SUFFIX,logs.dynamicauth.com # Dynamic 身份认证服务日志与事件上报接口，用于登录状态与安全事件记录
-
-# > Tapad 跨设备识别与用户画像行为数据平台
-
-DOMAIN-SUFFIX,pixel.tapad.com # Tapad 行为像素接口，用于跨设备用户识别、广告画像构建与身份关联
-
-# > Effirst 数字营销与用户行为追踪像素服务
-
-DOMAIN-SUFFIX,px.effirst.com # Effirst 提供的前端行为追踪像素接口，用于用户访问、转化事件与营销效果统计
-
-# > Rentracks 日本联盟营销与成效追踪平台
-
-DOMAIN-SUFFIX,t.rentracks.jp # Renttracks 点击与转化追踪子域，用于用户行为归因与成效统计
-
-# > Webridge 联盟营销跳转与转化追踪服务
-
-DOMAIN-SUFFIX,t.webridge.net # Webridge 转化跳转与点击追踪子域，用于联盟归因与广告效果统计
-
-# > OpenPanel 开源产品分析与用户行为统计平台
-
-DOMAIN-SUFFIX,openpanel.dev # OpenPanel 官方网站，用于产品分析、事件追踪与用户行为统计服务
-
-# > iSpot.tv 广告投放监测与跨平台受众分析服务
-
-DOMAIN-SUFFIX,pt.ispot.tv # iSpot.tv Pixel Tracking 域名，用于广告曝光、观看行为与投放效果统计
-
-# > Turn / Amobee 行为数据与广告竞价基础设施
-
-DOMAIN-SUFFIX,d.turn.com # Turn 行为数据收集与用户标识同步子域，用于广告竞价与跨站行为追踪
-
-# > Marketo Munchkin 行为追踪与营销自动化服务
-
-DOMAIN-SUFFIX,munchkin.marketo.net # Marketo Munchkin 行为追踪接口，用于用户访问行为采集与营销分析
-
-# > Segment 用户行为数据采集与事件分析平台（Twilio）
-
-DOMAIN-SUFFIX,api.segment.io # Segment 官方行为数据采集 API，用于前端与应用的用户事件上报、行为分析与数据管道传输
-IP-CIDR,44.231.35.67/24 # Segment 行为数据采集 API 实际服务 IP（api.segment.io），用于用户行为事件与遥测数据上传
-
-# > SDI（Standard Digital Insights）广告效果分析与媒体测量服务
-
-DOMAIN-SUFFIX,sdiapi.com # SDI 官方 API 服务主域名，用于广告投放效果分析、媒体曝光测量与数据接口调用
-DOMAIN-SUFFIX,services.sdiapi.com # SDI 核心服务接口子域，用于广告测量、跨平台曝光统计与分析服务
-DOMAIN-SUFFIX,reports.sdiapi.com # SDI 报告与分析结果接口，用于广告活动报告生成与效果数据展示
-
-# > bShare 社会化分享与用户行为统计服务
-
-DOMAIN-SUFFIX,static.bshare.cn # bShare 静态资源与脚本域名，用于社交分享组件加载及用户点击、传播行为统计
-
-# > Nielsen 用户行为测量与受众分析服务
-
-DOMAIN-SUFFIX,secure-us.imrworldwide.com # Nielsen 行为测量与受众分析服务节点，用于用户访问、内容曝光与行为统计数据采集
-
-# > Busuanzi 页面访问统计与计数服务
-
-DOMAIN-SUFFIX,busuanzi.ibruce.info # Busuanzi 轻量级网站访问统计与浏览计数服务，用于页面 PV/UV 统计与访问量展示
-
-# > Rubicon Project 程序化广告实时竞价与加速服务
-
-DOMAIN-SUFFIX,fastlane.rubiconproject.com # Rubicon Project Fastlane 实时竞价加速服务，用于广告请求与竞价响应优化
-
-# > 51.LA 网站访问统计与行为分析服务
-
-DOMAIN-SUFFIX,sdk.51.la # 51.LA 网站统计分析 SDK 接口域名，用于页面访问统计、用户行为分析与流量数据回传
-
-# > Demandbase B2B 用户识别与企业画像分析服务
-
-DOMAIN-SUFFIX,tag.demandbase.com # Demandbase 前端标签域名，用于 B2B 用户识别、企业画像与访问行为分析
-DOMAIN-SUFFIX,api.demandbase.com # Demandbase 行为分析与企业识别 API，用于用户访问特征与公司归属判定
-
-# > Quantcast 行为统计与受众分析服务
-
-DOMAIN-SUFFIX,rules.quantcount.com # Quantcast 行为统计与受众分析规则域名，用于访问行为测量与受众画像分析
-
-# > D41 数据分析与用户行为追踪服务
-
-DOMAIN-SUFFIX,v2.d41.co # D41 数据分析与行为追踪接口域名，用于事件上报、用户行为分析与统计指标收集
-
-# > 智云（Zhicyun）统计与内容分发相关服务
-
-DOMAIN-SUFFIX,q2.zhicyun.com # 智云（Zhicyun）前端统计与行为分析服务节点，用于页面访问统计、用户行为采集与性能分析
-
-# > Uptrends 网站可用性与性能监控服务
-
-DOMAIN-SUFFIX,hit.uptrendsdata.com # Uptrends 探针命中与性能监测请求回传端点
-
-# > Dynatrace 应用性能监控与用户行为分析服务
-
-DOMAIN-SUFFIX,js-cdn.dynatrace.com # Dynatrace 前端监控脚本 CDN，用于性能指标与用户行为数据采集
-
-# > Clearbit 用户识别与企业画像分析服务
-
-DOMAIN-SUFFIX,tag.clearbitscripts.com # Clearbit 行为标签与用户识别脚本加载端点，用于访问者企业画像与行为分析
-
-# > Clearbit 用户识别与行为数据采集服务
-
-DOMAIN-SUFFIX,clearbitjs.com # Clearbit 前端用户识别与行为数据采集脚本相关域名
-DOMAIN-SUFFIX,x.clearbitjs.com # Clearbit 行为识别与数据通信端点
-
-# > Grafana Faro 前端可观测性与行为遥测采集服务
-
-DOMAIN-SUFFIX,grafana.net # Grafana Cloud 服务与可观测性平台相关域名
-DOMAIN-SUFFIX,faro-collector-prod-us-central-0.grafana.net # Grafana Faro 前端可观测性行为与性能数据采集节点
-
-# > 第三方移动端 SDK 行为数据采集与通信服务
-
-DOMAIN-SUFFIX,sdktt.data.tianwenca.com # 第三方移动端 SDK 行为数据采集与统计回传服务，用于运行状态与使用行为上报
-DOMAIN-SUFFIX,api5-lq.qishui.com # 第三方 SDK 行为数据与效果统计接口，用于客户端数据上报与分析服务
-
-# > shuzilm 相关行为指纹
-
-DOMAIN-SUFFIX,hdaa.shuzilm.cn # shuzilm.cn 域名体系下的行为通信匹配域名，用于匹配与 ShuZiLM 产品/服务相关的运行时通信路径
-
-# > 华数 TV 行为统计与日志上报服务
-
-DOMAIN-SUFFIX,wasu-statistics.cn-hangzhou.log.aliyuncs.com # 华数 TV 基于阿里云日志服务的统计与行为数据上报域名
-
-# > 风行网（Funshion）行为统计与日志上报服务
-
-DOMAIN-SUFFIX,stat.funshion.com # 风行网统计与行为数据上报接口域名，用于用户访问数据与播放行为采集
-DOMAIN-SUFFIX,w.irs03.com # 风行网第三方统计与行为分析接口域名，用于页面访问统计与用户行为数据采集
-DOMAIN-SUFFIX,pcap.funshion.com # 风行网抓包与行为数据采集子域，用于客户端日志回传、网络行为分析与运行状态监控
-
-# > AppDynamics 应用性能监控与遥测上报域名
-
-DOMAIN-SUFFIX,eum-appdynamics.com # AppDynamics 终端用户监控（EUM）数据采集与性能分析上报域名
-
-# > 51.la 网站流量统计服务子域（行为/数据采集）
-
-DOMAIN-SUFFIX,ia.51.la # 51.la 提供的网站流量分析/统计服务子域，用于站点访问、行为数据采集
-
-# > Heap Analytics 行为分析与事件采集服务
-
-DOMAIN-SUFFIX,heap-api.com # Heap 用户行为分析与自动埋点数据采集 CDN
-
-# > Qualaroo 行为调查与用户反馈收集服务
-
-DOMAIN-SUFFIX,qualaroo.com # Qualaroo 全栈用户反馈与行为调查平台域名
-
-# > PDST 用户行为追踪与广告再营销脚本资源
-
-DOMAIN-SUFFIX,pdst.fm # 第三方追踪与再营销资源域名
-
-# > GitHub 安全遥测与事件收集服务
-
-DOMAIN-SUFFIX,collector.github.com # GitHub 安全遥测服务
-DOMAIN-SUFFIX,collector-cdn.github.com # GitHub 遥测数据接收
-
-# > Anthropic / Claude Telemetry Services（Claude 行为遥测与事件上报服务）
-
-DOMAIN-SUFFIX,events.claude.ai # Claude Telemetry 事件上报与行为日志采集接口
-
-# > Wikimedia 行为分析与事件上报服务
-
-DOMAIN-SUFFIX,intake-analytics.wikimedia.org # Wikimedia 事件采集与分析上报服务域名
-
-# > Pencil / GoatCounter（设计协作工具 / 隐私友好统计服务）
-
-DOMAIN-SUFFIX,pencildev-new.goatcounter.com # Pencil 相关 GoatCounter 统计子域，用于站点访问统计
-
-# > 极光推送（JPush）相关域名
-
-DOMAIN-SUFFIX,stats.jpush.cn # 极光推送统计接口域名
-DOMAIN-SUFFIX,ali-stats.jpush.cn # 极光推送统计服务域名
-DOMAIN-SUFFIX,user-ipv6.jpush.cn # 极光推送 IPv6 用户接口域名
+DOMAIN-SUFFIX,stats.jpush.cn # JPush 统计接口
+DOMAIN-SUFFIX,ali-stats.jpush.cn # JPush 统计服务域名
