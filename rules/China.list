@@ -2103,130 +2103,136 @@ DOMAIN-SUFFIX,kgw.com # 快手游戏主域名
 DOMAIN-SUFFIX,var.kgw.com # 快手游戏资源域名
 DOMAIN-SUFFIX,ks-game-web.kgw.com # 快手游戏 Web 服务域名
 
-# > 哈啰出行（HelloBike）业务与平台服务
+# > HelloBike（哈啰出行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,hellobike.com # 哈啰出行平台主域，用于共享单车、助力车、顺风车等出行业务访问及账号体系
-DOMAIN-SUFFIX,abapi.hellobike.com # 哈啰出行业务 API 域名，用于订单处理、设备通信与业务数据交互
-DOMAIN-SUFFIX,apmgw.hellobike.com # 哈啰出行应用性能监控与网关服务域名，用于服务调度、运行状态监测与链路治理
-DOMAIN-SUFFIX,static.hellobike.com # 哈啰出行静态资源域名，用于前端脚本、样式与页面资源加载
-DOMAIN-SUFFIX,img.hellobike.com # 哈啰出行图像资源域名，用于车辆图片、界面素材与运营内容展示
-DOMAIN-SUFFIX,cdn.hellobike.com # 哈啰出行内容分发网络域名，用于静态资源与媒体内容加速分发
-DOMAIN-SUFFIX,passport.hellobike.com # 哈啰出行账号认证域名，用于用户登录、身份验证与会话管理
-DOMAIN-SUFFIX,open.hellobike.com # 哈啰出行开放平台域名，用于合作接入、API 调用与业务集成
+DOMAIN-SUFFIX,hellobike.com # 哈啰出行主域名
+DOMAIN-SUFFIX,abapi.hellobike.com # 哈啰出行接口域名
+DOMAIN-SUFFIX,apmgw.hellobike.com # 哈啰出行网关服务域名
+DOMAIN-SUFFIX,static.hellobike.com # 哈啰出行静态资源域名
+DOMAIN-SUFFIX,img.hellobike.com # 哈啰出行图片资源域名
+DOMAIN-SUFFIX,cdn.hellobike.com # 哈啰出行内容分发域名
+DOMAIN-SUFFIX,passport.hellobike.com # 哈啰出行账号服务域名
+DOMAIN-SUFFIX,open.hellobike.com # 哈啰出行开放平台域名
 
-# > 神州租车（CAR Inc.）汽车租赁与出行服务平台
+# > CAR Inc. / Zuche（神州租车）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,zuche.com # 神州租车官方主域名，用于车辆预订、订单管理、账号体系与出行服务访问
-DOMAIN-SUFFIX,carinc.com # 神州租车企业与品牌服务域名，用于公司信息、业务支持与平台相关服务
-DOMAIN-SUFFIX,zuchecdn.com # 神州租车静态资源与内容分发域名，用于页面资源与多媒体内容加载
-DOMAIN-SUFFIX,api.zuche.com # 神州租车业务 API 域名，用于订单、车辆调度与业务数据通信
+DOMAIN-SUFFIX,zuche.com # 神州租车主域名
+DOMAIN-SUFFIX,carinc.com # 神州租车服务域名
+DOMAIN-SUFFIX,zuchecdn.com # 神州租车内容分发域名
+DOMAIN-SUFFIX,api.zuche.com # 神州租车接口域名
 
-# > 一嗨租车（eHi Car Services）出行与车辆租赁平台
+# > eHi Car Services（一嗨租车）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,1hai.cn # 一嗨租车官方主域名，用于车辆租赁服务访问、订单管理与用户账号体系
-DOMAIN-SUFFIX,ehicar.com # 一嗨租车国际与业务主域名，用于平台服务访问、业务接口与客户端通信
-DOMAIN-SUFFIX,static.1hai.cn # 一嗨租车静态资源域名，用于页面脚本、样式与前端组件加载
-DOMAIN-SUFFIX,api.1hai.cn # 一嗨租车业务 API 域名，用于订单、车辆与账户数据通信
-DOMAIN-SUFFIX,m.1hai.cn # 一嗨租车移动端站点域名，用于手机浏览器访问与业务交互
-IP-CIDR,180.153.202.0/24 # 一嗨租车 App 服务节点，用于移动端业务接口与数据通信
+DOMAIN-SUFFIX,1hai.cn # 一嗨租车主域名
+DOMAIN-SUFFIX,ehicar.com # 一嗨租车服务域名
+DOMAIN-SUFFIX,static.1hai.cn # 一嗨租车静态资源域名
+DOMAIN-SUFFIX,api.1hai.cn # 一嗨租车接口域名
 
-# > 首汽租车（Shouqi Car Rental）出行与车辆租赁平台
+# > Shouqi Car Rental（首汽租车）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,shouqizuche.com # 首汽租车官方主域名，用于车辆租赁服务访问、订单管理与账号体系
-DOMAIN-SUFFIX,izuche.com # 首汽租车业务相关域名，用于平台服务访问与客户端通信
-DOMAIN-SUFFIX,static-shouqi.com # 首汽租车静态资源域名，用于前端脚本、样式与页面资源加载
-DOMAIN-SUFFIX,api.shouqizuche.com # 首汽租车业务 API 域名，用于订单、车辆与用户数据通信
-DOMAIN-SUFFIX,m.shouqizuche.com # 首汽租车移动端站点域名，用于手机访问与业务交互
+DOMAIN-SUFFIX,shouqizuche.com # 首汽租车主域名
+DOMAIN-SUFFIX,izuche.com # 首汽租车服务域名
+DOMAIN-SUFFIX,static-shouqi.com # 首汽租车静态资源域名
+DOMAIN-SUFFIX,api.shouqizuche.com # 首汽租车接口域名
 
-# > GoFun 出行（GoFun Mobility）共享汽车与出行服务平台
+# > GoFun Mobility（GoFun 出行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,gofun.com # GoFun 出行官方主域名，用于共享汽车服务访问、账号体系与业务入口
-DOMAIN-SUFFIX,gofun.cn # GoFun 出行国内业务主域名，用于车辆租赁、订单管理与客户端访问
-DOMAIN-SUFFIX,api.gofun.com # GoFun 出行业务 API 域名，用于订单、车辆状态与用户数据通信
-DOMAIN-SUFFIX,m.gofun.com # GoFun 出行移动端站点域名，用于手机访问与业务交互
-DOMAIN-SUFFIX,static.gofun.com # GoFun 出行静态资源域名，用于前端脚本、样式与页面资源加载
+DOMAIN-SUFFIX,gofun.com # GoFun 出行主域名
+DOMAIN-SUFFIX,gofun.cn # GoFun 出行中国区服务域名
+DOMAIN-SUFFIX,api.gofun.com # GoFun 出行接口域名
+DOMAIN-SUFFIX,static.gofun.com # GoFun 出行静态资源域名
 
-# > 滴滴租车（DiDi Car Rental）出行与车辆租赁服务平台
+# > DiDi Car Rental（滴滴租车）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,didi.cn # 滴滴官方主域名，用于出行服务访问、账号体系与业务入口
-DOMAIN-SUFFIX,didiglobal.com # 滴滴国际业务主域名，用于海外出行与平台服务访问
-DOMAIN-SUFFIX,xiaojukeji.com # 滴滴主体公司小桔科技域名，用于平台服务与业务支持
-DOMAIN-SUFFIX,api.xiaojukeji.com # 滴滴核心业务 API 域名，用于订单、车辆与用户数据通信
-DOMAIN-SUFFIX,static.xiaojukeji.com # 滴滴前端静态资源域名，用于页面脚本、样式与基础资源加载
-DOMAIN-SUFFIX,img.xiaojukeji.com # 滴滴图像与媒体资源域名，用于图片与界面素材分发
+DOMAIN-SUFFIX,didi.cn # 滴滴出行主域名
+DOMAIN-SUFFIX,didiglobal.com # 滴滴国际服务域名
+DOMAIN-SUFFIX,xiaojukeji.com # 滴滴服务域名
+DOMAIN-SUFFIX,api.xiaojukeji.com # 滴滴接口域名
+DOMAIN-SUFFIX,static.xiaojukeji.com # 滴滴静态资源域名
+DOMAIN-SUFFIX,img.xiaojukeji.com # 滴滴图片资源域名
 
-# > 凹凸租车（ATzuche）共享租车与车辆托管平台
+# > ATzuche（凹凸租车）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,atzuche.com # 凹凸租车官方主域名，用于车辆租赁服务访问、订单管理与用户账号体系
-DOMAIN-SUFFIX,api.atzuche.com # 凹凸租车业务 API 域名，用于订单处理、车辆数据与平台通信
-DOMAIN-SUFFIX,static.atzuche.com # 凹凸租车前端静态资源域名，用于页面脚本、样式与基础资源加载
-DOMAIN-SUFFIX,img.atzuche.com # 凹凸租车图像与媒体资源域名，用于车辆图片与展示素材分发
+DOMAIN-SUFFIX,atzuche.com # 凹凸租车主域名
+DOMAIN-SUFFIX,api.atzuche.com # 凹凸租车接口域名
+DOMAIN-SUFFIX,static.atzuche.com # 凹凸租车静态资源域名
+DOMAIN-SUFFIX,img.atzuche.com # 凹凸租车图片资源域名
 
-# > 瑞卡租车（Reocar）车辆租赁与出行服务平台
+# > Reocar（瑞卡租车）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,reocar.com # 瑞卡租车官方主域名，用于车辆租赁服务访问、订单管理与用户账号体系
-DOMAIN-SUFFIX,api.reocar.com # 瑞卡租车业务 API 域名，用于订单处理、车辆数据与平台通信
-DOMAIN-SUFFIX,static.reocar.com # 瑞卡租车前端静态资源域名，用于页面脚本、样式与基础资源加载
-DOMAIN-SUFFIX,img.reocar.com # 瑞卡租车图像与媒体资源域名，用于车辆图片与展示素材分发
+DOMAIN-SUFFIX,reocar.com # 瑞卡租车主域名
+DOMAIN-SUFFIX,api.reocar.com # 瑞卡租车接口域名
+DOMAIN-SUFFIX,static.reocar.com # 瑞卡租车静态资源域名
+DOMAIN-SUFFIX,img.reocar.com # 瑞卡租车图片资源域名
 
-# > 车享家（CARPLUS）租车与出行服务
+# > CARPLUS（车享家）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,carplus.cn # 车享家租车与出行服务主域名，用于车辆租赁、订单管理、账号体系与业务访问
-DOMAIN-SUFFIX,api.carplus.cn # 车享家业务 API 域名，用于订单、车辆数据与客户端交互
-DOMAIN-SUFFIX,static.carplus.cn # 静态资源域名，用于页面脚本、样式与静态组件资源加载
-DOMAIN-SUFFIX,img.carplus.cn # 图像资源域名，用于车辆图片、页面视觉素材分发
-DOMAIN-SUFFIX,m.carplus.cn # 移动端站点域名，用于移动网站访问与业务交互
-DOMAIN-SUFFIX,open.carplus.cn # 开放平台/合作接入域名，用于第三方 API 接入与服务扩展
-DOMAIN-SUFFIX,cdn.carplus.cn # 车享家 CDN 静态资源分发子域
+DOMAIN-SUFFIX,carplus.cn # 车享家主域名
+DOMAIN-SUFFIX,api.carplus.cn # 车享家接口域名
+DOMAIN-SUFFIX,static.carplus.cn # 车享家静态资源域名
+DOMAIN-SUFFIX,img.carplus.cn # 车享家图片资源域名
+DOMAIN-SUFFIX,open.carplus.cn # 车享家开放平台域名
+DOMAIN-SUFFIX,cdn.carplus.cn # 车享家内容分发域名
 
-# > 东风出行 / TOGO 共享汽车服务平台
+# > Dongfeng Mobility / TOGO（东风出行 / TOGO）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,dongfeng-ev.com # 东风出行官方业务域名，用于共享汽车、车辆租赁、账号体系与订单服务访问
-DOMAIN-SUFFIX,togo.com.cn # TOGO 共享汽车服务域名，用于车辆预约、订单通信与客户端业务请求
-DOMAIN-SUFFIX,api.dongfeng-ev.com # 东风出行业务 API 域名，用于订单、车辆状态与用户数据通信
-DOMAIN-SUFFIX,app.dongfeng-ev.com # 东风出行应用服务域名，用于客户端业务请求
-DOMAIN-SUFFIX,static.dongfeng-ev.com # 页面静态资源与组件加载
-DOMAIN-SUFFIX,img.dongfeng-ev.com # 车辆图片与视觉资源分发
-DOMAIN-SUFFIX,m.dongfeng-ev.com # 移动端站点访问域名
+DOMAIN-SUFFIX,dongfeng-ev.com # 东风出行主域名
+DOMAIN-SUFFIX,togo.com.cn # TOGO 服务域名
+DOMAIN-SUFFIX,api.dongfeng-ev.com # 东风出行接口域名
+DOMAIN-SUFFIX,app.dongfeng-ev.com # 东风出行应用服务域名
+DOMAIN-SUFFIX,static.dongfeng-ev.com # 东风出行静态资源域名
+DOMAIN-SUFFIX,img.dongfeng-ev.com # 东风出行图片资源域名
 
-# > 小猪短租（Xiaozhu）住宿与短租平台服务
+# > Xiaozhu（小猪短租）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,xiaozhu.com # 小猪短租官方主域名，用于民宿预订、房源浏览与用户服务访问
-DOMAIN-SUFFIX,xiaozhuimg.com # 小猪短租图像与媒体资源 CDN 域名，用于房源图片与展示资源加载
-DOMAIN-SUFFIX,api.xiaozhu.com # 小猪短租业务 API 域名，用于订单、房源与用户数据通信
+DOMAIN-SUFFIX,xiaozhu.com # 小猪短租主域名
+DOMAIN-SUFFIX,xiaozhuimg.com # 小猪短租图片资源域名
+DOMAIN-SUFFIX,api.xiaozhu.com # 小猪短租接口域名
 
-# > 曹操出行（Caocao Mobility）智慧出行与网约车平台服务
+# > Caocao Mobility（曹操出行）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,caocaokeji.cn # 曹操出行官方主域名，用于平台访问、账号体系与业务服务
-DOMAIN-SUFFIX,caocao.com # 曹操出行品牌与业务主域，用于出行服务入口与客户端通信
-DOMAIN-SUFFIX,caocao.cn # 曹操出行国内业务域名，用于服务访问与业务调度
-DOMAIN-SUFFIX,caocaokeji.com # 曹操科技企业与平台服务域名，用于产品与业务支持
+DOMAIN-SUFFIX,caocaokeji.cn # 曹操出行主域名
+DOMAIN-SUFFIX,caocao.com # 曹操出行服务域名
+DOMAIN-SUFFIX,caocao.cn # 曹操出行中国区服务域名
+DOMAIN-SUFFIX,caocaokeji.com # 曹操出行企业服务域名
 
-# > 首汽分享共享出行服务相关域名
+# > Shouqi Share（首汽分享）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,shouqishare.com # 首汽分享官网访问入口，用于 PC/Web 页面访问与服务入口加载
-DOMAIN-SUFFIX,api.shouqishare.com # 首汽分享业务 API 域名，用于订单、车辆状态与用户数据通信
-DOMAIN-SUFFIX,m.shouqishare.com # 移动端访问域名，用于移动站点与业务交互
-DOMAIN-SUFFIX,static.shouqishare.com # 静态资源域名，用于前端脚本、样式与页面组件资源加载
-DOMAIN-SUFFIX,img.shouqishare.com # 图像与媒体资源域名，用于车辆照片、界面素材去加载
-DOMAIN-SUFFIX,open.shouqishare.com # 开放平台/合作 API 域名，用于第三方接入与服务集成
+DOMAIN-SUFFIX,shouqishare.com # 首汽分享主域名
+DOMAIN-SUFFIX,api.shouqishare.com # 首汽分享接口域名
+DOMAIN-SUFFIX,static.shouqishare.com # 首汽分享静态资源域名
+DOMAIN-SUFFIX,img.shouqishare.com # 首汽分享图片资源域名
+DOMAIN-SUFFIX,open.shouqishare.com # 首汽分享开放平台域名
 
-# > 人人车（Renrenche）二手车交易与车辆服务平台
+# > Renrenche（人人车）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,renrenche.com # 人人车官方平台域名，用于二手车交易、车辆信息展示与用户服务访问
-DOMAIN-SUFFIX,m.renrenche.com # 人人车移动端站点，用于移动设备访问与交易操作
-DOMAIN-SUFFIX,static.renrenche.com # 人人车静态资源域名，用于页面组件与前端资源加载
-DOMAIN-SUFFIX,img.renrenche.com # 人人车图像服务域名，用于车辆图片展示与媒体资源分发
-DOMAIN-SUFFIX,api.renrenche.com # 人人车业务 API 域名，用于交易数据、订单流程与平台通信
+DOMAIN-SUFFIX,renrenche.com # 人人车主域名
+DOMAIN-SUFFIX,static.renrenche.com # 人人车静态资源域名
+DOMAIN-SUFFIX,img.renrenche.com # 人人车图片资源域名
+DOMAIN-SUFFIX,api.renrenche.com # 人人车接口域名
 
-# > 瓜子二手车（Guazi）车辆交易与汽车服务平台
+# > Guazi（二手车）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,guazi.com # 瓜子二手车官方主域名，用于车辆交易、价格评估与平台服务访问
-DOMAIN-SUFFIX,m.guazi.com # 瓜子移动端站点，用于移动设备访问与交易操作
-DOMAIN-SUFFIX,static.guazi.com # 瓜子静态资源域名，用于前端组件与页面资源加载
-DOMAIN-SUFFIX,img.guazi.com # 瓜子车辆图片与媒体资源域名，用于车辆展示与内容分发
-DOMAIN-SUFFIX,api.guazi.com # 瓜子业务 API 域名，用于交易数据、订单流程与平台通信
-DOMAIN-SUFFIX,finance.guazi.com # 瓜子汽车金融服务域名，用于分期购车与金融方案访问
+DOMAIN-SUFFIX,guazi.com # 瓜子主域名
+DOMAIN-SUFFIX,static.guazi.com # 瓜子静态资源域名
+DOMAIN-SUFFIX,img.guazi.com # 瓜子图片资源域名
+DOMAIN-SUFFIX,api.guazi.com # 瓜子接口域名
+DOMAIN-SUFFIX,finance.guazi.com # 瓜子金融服务域名
 
 # > 天涯社区 相关域名
 
