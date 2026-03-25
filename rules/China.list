@@ -1489,21 +1489,23 @@ DOMAIN-SUFFIX,website.wisdomir.com # WisdomIR 网站服务域名
 DOMAIN-SUFFIX,stockticker.website.wisdomir.com # WisdomIR 行情服务域名
 DOMAIN-SUFFIX,analytics2.website.wisdomir.com # WisdomIR 统计服务域名
 
-# > 新浪邮箱（Sina Mail）
+# > Sina Mail（新浪邮箱）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,mail.sina.com.cn # 新浪邮箱 Web 主入口，用于网页端收发邮件与账户管理
-DOMAIN-SUFFIX,sinaemail.cn # 新浪邮箱辅助服务域名，用于邮箱系统支撑与服务跳转
-DOMAIN-SUFFIX,sinamail.sina.com.cn # 新浪邮箱核心邮件接口域名，用于收发与配置相关服务
-DOMAIN-SUFFIX,imap.sina.com # 新浪邮箱 IMAP 服务域名，用于邮件客户端接收邮件
-DOMAIN-SUFFIX,smtp.sina.com # 新浪邮箱 SMTP 服务域名，用于邮件客户端发送邮件
+DOMAIN-SUFFIX,mail.sina.com.cn # 新浪邮箱服务域名
+DOMAIN-SUFFIX,sinaemail.cn # 新浪邮箱服务域名
+DOMAIN-SUFFIX,sinamail.sina.com.cn # 新浪邮箱接口域名
+DOMAIN-SUFFIX,imap.sina.com # 新浪邮箱 IMAP 服务域名
+DOMAIN-SUFFIX,smtp.sina.com # 新浪邮箱 SMTP 服务域名
 
-# > 新浪（Sina）统一身份认证与单点登录服务
+# > Sina SSO（新浪统一身份认证）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,sina.com.cn # 新浪门户与官方基础域名（账号体系 / 登录 / 服务入口）
-DOMAIN-SUFFIX,i.sso.sina.com.cn # Sina SSO 单点登录域名，用于跨域认证与统一登录流程
-DOMAIN-SUFFIX,login.sina.com.cn # Sina 登录认证中心域名，用于账号验证与统一登录流程请求
-DOMAIN-SUFFIX,passport.weibo.com # 微博登录与认证会话中转域名，用于微博等产品单点登录处理
-DOMAIN-SUFFIX,sso.sina.com.cn # Sina SSO 通用单点登录处理主域，用于实现统一登录机制
+DOMAIN-SUFFIX,sina.com.cn # 新浪服务域名
+DOMAIN-SUFFIX,i.sso.sina.com.cn # 新浪单点登录服务域名
+DOMAIN-SUFFIX,login.sina.com.cn # 新浪登录服务域名
+DOMAIN-SUFFIX,passport.weibo.com # 微博登录服务域名
+DOMAIN-SUFFIX,sso.sina.com.cn # 新浪单点登录服务域名
 
 # > 工具/其他服务（Tools / Misc）
 
