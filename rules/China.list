@@ -1224,16 +1224,6 @@ DOMAIN-SUFFIX,api.zhuanzhuan.com # 转转接口域名
 DOMAIN-SUFFIX,static.zhuanzhuan.com # 转转静态资源域名
 DOMAIN-SUFFIX,zhuanzhuan.wacdn.com # 转转内容分发域名
 
-# > 河马生鲜相关域名（Hema / Freshippo）
-
-DOMAIN-SUFFIX,freshhema.com # 河马生鲜品牌与业务主站域名，用于生鲜电商平台访问与信息展示
-DOMAIN-SUFFIX,hemaos.com # 河马生鲜核心运营系统域名，用于订单、门店、履约与物流调度
-DOMAIN-SUFFIX,api.hemaos.com # 河马生鲜运营系统业务接口域名，用于内部与客户端服务对接
-DOMAIN-SUFFIX,static.hemaos.com # 河马生鲜运营系统静态资源与前端组件加载域名
-DOMAIN-SUFFIX,hemaapp.com # 河马生鲜移动端 App 相关服务域名，用于客户端接口与配置服务
-DOMAIN-SUFFIX,hemaapi.com # 河马生鲜业务 API 服务域名，用于商品、用户、订单等数据交互接口
-DOMAIN-SUFFIX,hema.imtt.qq.com # 河马生鲜 App 下载与分发 CDN 域名，依赖腾讯应用宝（imtt）分发体系 
-
 # > 小米公司相关域名（Xiaomi / Mi / Mijia）
 
 DOMAIN-SUFFIX,mi.com # 小米集团核心服务域名，用于商城、账户与用户服务入口
