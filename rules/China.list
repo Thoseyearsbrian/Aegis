@@ -1055,63 +1055,57 @@ DOMAIN-SUFFIX,api.dxy.cn # 丁香园接口域名
 DOMAIN-SUFFIX,passport.dxy.cn # 丁香园账号服务域名
 DOMAIN-SUFFIX,health.dxy.cn # 丁香医生健康科普内容平台 
 
-# > 中国大学MOOC（爱课程平台）
+# > Chinese University MOOC / iCourse（中国大学 MOOC / 爱课程）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,icourse163.org # 中国大学MOOC 主站域名，含课程访问与视频学习 
-DOMAIN-SUFFIX,mooc.163.com # 网易MOOC平台早期入口，现用于部分课程跳转 
-DOMAIN-SUFFIX,open.163.com # 网易公开课服务，部分老课程视频托管 
-DOMAIN-SUFFIX,videotts.icourse163.org # 中国大学MOOC 视频资源 CDN 
-DOMAIN-SUFFIX,edu-ssl.126.net # MOOC 视频资源与文档加载服务域名 
-DOMAIN-SUFFIX,hz.netease.com # 网易后台服务域名，含认证与日志接口 
+DOMAIN-SUFFIX,icourse163.org # 中国大学 MOOC 主域名
+DOMAIN-SUFFIX,mooc.163.com # 网易 MOOC 服务域名
+DOMAIN-SUFFIX,open.163.com # 网易公开课服务域名
+DOMAIN-SUFFIX,videotts.icourse163.org # 中国大学 MOOC 视频资源域名
+DOMAIN-SUFFIX,edu-ssl.126.net # 中国大学 MOOC 资源服务域名
+DOMAIN-SUFFIX,hz.netease.com # 网易教育服务域名
 
-# > 超星学习通（Chaoxing）
+# > Chaoxing（超星学习通）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,chaoxing.com # 超星主站域名，覆盖学习通、图书馆服务等系统 
-DOMAIN-SUFFIX,chaoxing.cn # 超星主站中国镜像域名 
-DOMAIN-SUFFIX,mooc1.chaoxing.com # 超星慕课系统入口，课程学习与视频服务 
-DOMAIN-SUFFIX,fanya.chaoxing.com # 超星泛雅平台域名，提供考试与测验功能 
-DOMAIN-SUFFIX,cl2.chaoxing.com # 学习通资源下载与内容分发服务 
-DOMAIN-SUFFIX,noteyd.chaoxing.com # 学习笔记同步服务接口 
-DOMAIN-SUFFIX,passport2.chaoxing.com # 超星登录与认证中心域名 
-DOMAIN-SUFFIX,homework.chaoxing.com # 作业提交与批改系统入口 
+DOMAIN-SUFFIX,chaoxing.com # 超星主域名
+DOMAIN-SUFFIX,chaoxing.cn # 超星中国区服务域名
+DOMAIN-SUFFIX,mooc1.chaoxing.com # 超星慕课服务域名
+DOMAIN-SUFFIX,fanya.chaoxing.com # 超星泛雅服务域名
+DOMAIN-SUFFIX,cl2.chaoxing.com # 超星内容分发域名
+DOMAIN-SUFFIX,noteyd.chaoxing.com # 超星笔记服务域名
+DOMAIN-SUFFIX,passport2.chaoxing.com # 超星账号服务域名
+DOMAIN-SUFFIX,homework.chaoxing.com # 超星作业服务域名
 
-# > 智慧树网（智慧树在线 / 慕课平台）
+# > Zhihuishu（智慧树）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,zhihuishu.com # 智慧树主站域名，包含课程、作业、考试等入口 
-DOMAIN-SUFFIX,passport.zhihuishu.com # 智慧树统一身份认证服务 
-DOMAIN-SUFFIX,study.zhihuishu.com # 智慧树学习平台主入口域名 
-DOMAIN-SUFFIX,video.zhihuishu.com # 智慧树视频播放与点播服务接口 
-DOMAIN-SUFFIX,resource.zhihuishu.com # 智慧树课程资源文件加载域名 
-DOMAIN-SUFFIX,online.zhihuishu.com # 智慧树直播授课平台入口 
-DOMAIN-SUFFIX,homework.zhihuishu.com # 智慧树作业系统与考试服务 
-DOMAIN-SUFFIX,live.zhihuishu.com # 智慧树在线课堂直播服务域名 
+DOMAIN-SUFFIX,zhihuishu.com # 智慧树主域名
+DOMAIN-SUFFIX,passport.zhihuishu.com # 智慧树账号服务域名
+DOMAIN-SUFFIX,study.zhihuishu.com # 智慧树学习服务域名
+DOMAIN-SUFFIX,video.zhihuishu.com # 智慧树视频服务域名
+DOMAIN-SUFFIX,resource.zhihuishu.com # 智慧树资源服务域名
+DOMAIN-SUFFIX,online.zhihuishu.com # 智慧树在线课堂服务域名
+DOMAIN-SUFFIX,homework.zhihuishu.com # 智慧树作业服务域名
+DOMAIN-SUFFIX,live.zhihuishu.com # 智慧树直播服务域名
 
-# > 雨课堂（智慧教学平台）
+# > Yuketang（雨课堂）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,yuketang.cn # 雨课堂主站域名，用于教学内容分发与平台访问 
-DOMAIN-SUFFIX,ykt.io # 雨课堂短链接与资源跳转域名 
-DOMAIN-SUFFIX,class.yuketang.cn # 雨课堂课程平台入口，含教学直播与互动功能 
-DOMAIN-SUFFIX,video.yuketang.cn # 雨课堂视频点播与直播服务接口 
-DOMAIN-SUFFIX,live.yuketang.cn # 雨课堂在线直播平台域名 
-DOMAIN-SUFFIX,edu.yuketang.cn # 雨课堂教育认证与组织管理子域名 
-DOMAIN-SUFFIX,sso.yuketang.cn # 雨课堂统一身份认证系统 
-DOMAIN-SUFFIX,resource.yuketang.cn # 雨课堂教学资源（课件、文档）加载域名 
+DOMAIN-SUFFIX,yuketang.cn # 雨课堂主域名
+DOMAIN-SUFFIX,ykt.io # 雨课堂短链服务域名
+DOMAIN-SUFFIX,class.yuketang.cn # 雨课堂课程服务域名
+DOMAIN-SUFFIX,video.yuketang.cn # 雨课堂视频服务域名
+DOMAIN-SUFFIX,live.yuketang.cn # 雨课堂直播服务域名
+DOMAIN-SUFFIX,edu.yuketang.cn # 雨课堂教育服务域名
+DOMAIN-SUFFIX,sso.yuketang.cn # 雨课堂统一身份认证域名
+DOMAIN-SUFFIX,resource.yuketang.cn # 雨课堂资源服务域名
 
-# > 高校教务系统（通用入口）
+# > Academic Affairs Systems（高校教务系统）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,jwglxt.com # 教务管理系统常用域名（正方 / 超星等厂商） 
-DOMAIN-SUFFIX,zhjw.cn # 多所高校教务系统使用的公共域名服务 
-DOMAIN-SUFFIX,jw.ustc.edu.cn # 中国科学技术大学教务系统 
-DOMAIN-SUFFIX,jwgl.buaa.edu.cn # 北京航空航天大学教务管理系统 
-DOMAIN-SUFFIX,jwxt.ynu.edu.cn # 云南大学教务系统入口 
-DOMAIN-SUFFIX,jwxt.fudan.edu.cn # 复旦大学教务系统 
-DOMAIN-SUFFIX,jwxt.pku.edu.cn # 北京大学教务系统 
-DOMAIN-SUFFIX,jwxt.tsinghua.edu.cn # 清华大学教务系统 
-DOMAIN-SUFFIX,jwxt.nju.edu.cn # 南京大学教务系统 
-DOMAIN-SUFFIX,jwxt.sysu.edu.cn # 中山大学教务系统 
-DOMAIN-SUFFIX,jwxt.zju.edu.cn # 浙江大学教务系统 
-DOMAIN-SUFFIX,jwxt.hust.edu.cn # 华中科技大学教务系统 
-DOMAIN-SUFFIX,jwxt.sjtu.edu.cn # 上海交通大学教务系统 
+DOMAIN-SUFFIX,jwglxt.com # 教务管理系统服务域名
+DOMAIN-SUFFIX,zhjw.cn # 高校教务公共服务域名
 
 # > 社保查询平台（全国与地方）
 
