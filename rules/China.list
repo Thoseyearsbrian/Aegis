@@ -1018,38 +1018,41 @@ DOMAIN-SUFFIX,e-sscard.com # 电子社保卡主域名
 DOMAIN-SUFFIX,cdn.e-sscard.com # 电子社保卡静态资源域名
 DOMAIN-SUFFIX,logcollect.e-sscard.com # 电子社保卡日志采集域名
 
-# > 好大夫在线相关域名（医疗问诊 / 医院挂号 / 电子处方）
+# > Haodf Online（好大夫在线）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,haodf.com # 好大夫在线主域名，提供医生咨询与线上问诊服务 
-DOMAIN-SUFFIX,haodf.net # 好大夫在线备用域名，早期使用或静态资源托管 
-DOMAIN-SUFFIX,cdn-haodf.cn # 好大夫在线内容分发域名，用于图片与视频加载 
-DOMAIN-SUFFIX,api.haodf.com # 好大夫 API 接口服务，支持预约、挂号、聊天等功能 
-DOMAIN-SUFFIX,passport.haodf.com # 用户登录与身份认证接口 
-DOMAIN-SUFFIX,webimg.haodf.com # 好大夫图片资源域名，医生主页/病例资料图片加载 
-DOMAIN-SUFFIX,health.haodf.com # 好大夫健康科普服务子域名 
+DOMAIN-SUFFIX,haodf.com # 好大夫在线主域名
+DOMAIN-SUFFIX,haodf.net # 好大夫在线服务域名
+DOMAIN-SUFFIX,cdn-haodf.cn # 好大夫在线内容分发域名
+DOMAIN-SUFFIX,api.haodf.com # 好大夫在线接口域名
+DOMAIN-SUFFIX,passport.haodf.com # 好大夫在线账号服务域名
+DOMAIN-SUFFIX,webimg.haodf.com # 好大夫在线图片资源域名
+DOMAIN-SUFFIX,health.haodf.com # 好大夫在线健康服务域名
 
-# > 微医相关域名（在线医疗 / 预约挂号 / 健康商城）
+# > WeDoctor（微医）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,guahao.com # 微医主域名，提供预约挂号、在线问诊、医生咨询等服务 
-DOMAIN-SUFFIX,weiyi.com # 微医集团官方域名，用于企业与品牌展示 
-DOMAIN-SUFFIX,img.guahao.cn # 微医图片资源域名，用于医生信息与科室展示图像加载 
-DOMAIN-SUFFIX,res.guahao.cn # 微医静态资源域名（JS/CSS/字体等） 
-DOMAIN-SUFFIX,api.guahao.cn # 微医 API 接口服务，涵盖预约、挂号、问诊流程 
-DOMAIN-SUFFIX,static.guahao.cn # 微医静态页面资源域名 
-DOMAIN-SUFFIX,gw-p-guahao-web.guahao.cn # 微医前端服务网关域名，接入服务调度接口 
+DOMAIN-SUFFIX,guahao.com # 微医主域名
+DOMAIN-SUFFIX,weiyi.com # 微医服务域名
+DOMAIN-SUFFIX,img.guahao.cn # 微医图片资源域名
+DOMAIN-SUFFIX,res.guahao.cn # 微医静态资源域名
+DOMAIN-SUFFIX,api.guahao.cn # 微医接口域名
+DOMAIN-SUFFIX,static.guahao.cn # 微医静态资源域名
+DOMAIN-SUFFIX,gw-p-guahao-web.guahao.cn # 微医前端网关域名
 
-# > 丁香园 / 丁香医生相关域名（医学科普 / 医生问诊 / 健康商城）
+# > DXY / DXY Doctor（丁香园 / 丁香医生）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,dxy.cn # 丁香园主域名，涵盖医学社区、丁香医生、丁香通等服务 
-DOMAIN-SUFFIX,dxy.com # 丁香园主域名，旧版与海外通道使用场景 
-DOMAIN-SUFFIX,dxycdn.com # 丁香园内容分发 CDN，用于图文视频资源加载 
-DOMAIN-SUFFIX,img.dxycdn.com # 丁香园图像资源节点，含问诊界面、科普文章等图像 
-DOMAIN-SUFFIX,dr.dxy.cn # 丁香医生问诊平台子域名，支持图文/电话问诊服务 
-DOMAIN-SUFFIX,pro.dxy.cn # 丁香医生专业服务入口，医生专属后台与服务管理 
-DOMAIN-SUFFIX,drugs.dxy.cn # 丁香园药品信息数据库查询接口 
-DOMAIN-SUFFIX,mall.dxy.cn # 丁香医生健康商城，销售健康商品与药品 
-DOMAIN-SUFFIX,api.dxy.cn # 丁香园统一 API 接口服务，支持登录、数据同步等功能 
-DOMAIN-SUFFIX,passport.dxy.cn # 丁香园统一认证中心，登录身份验证服务 
+DOMAIN-SUFFIX,dxy.cn # 丁香园主域名
+DOMAIN-SUFFIX,dxy.com # 丁香园服务域名
+DOMAIN-SUFFIX,dxycdn.com # 丁香园内容分发域名
+DOMAIN-SUFFIX,img.dxycdn.com # 丁香园图片资源域名
+DOMAIN-SUFFIX,dr.dxy.cn # 丁香医生问诊服务域名
+DOMAIN-SUFFIX,pro.dxy.cn # 丁香医生专业服务域名
+DOMAIN-SUFFIX,drugs.dxy.cn # 丁香园药品服务域名
+DOMAIN-SUFFIX,mall.dxy.cn # 丁香医生商城服务域名
+DOMAIN-SUFFIX,api.dxy.cn # 丁香园接口域名
+DOMAIN-SUFFIX,passport.dxy.cn # 丁香园账号服务域名
 DOMAIN-SUFFIX,health.dxy.cn # 丁香医生健康科普内容平台 
 
 # > 中国大学MOOC（爱课程平台）
