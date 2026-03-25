@@ -91,8 +91,6 @@ DOMAIN-SUFFIX,aliyundrive.cloud # 阿里云盘下载服务域名
 # > Taobao / Alibaba Group（淘宝 / 阿里巴巴集团）相关域名
 # - 校对时间：2026-03-23
 
-DOMAIN-SUFFIX,taobao.com # 淘宝主域名
-DOMAIN-SUFFIX,tmall.com # 天猫主域名
 DOMAIN-SUFFIX,tmall.hk # 天猫国际服务域名
 DOMAIN-SUFFIX,taobaocdn.com # 淘宝内容分发域名
 DOMAIN-SUFFIX,mmstat.com # 阿里电商统计服务域名
@@ -552,11 +550,8 @@ DOMAIN-SUFFIX,dreport.meituan.net # 美团报表服务域名
 
 DOMAIN-SUFFIX,cainiao.meituan.com # 美团专送服务域名
 DOMAIN-SUFFIX,dispatch.meituan.com # 美团调度服务域名
-DOMAIN-SUFFIX,logistics.meituan.com # 美团物流服务域名
 DOMAIN-SUFFIX,locate.meituan.com # 美团定位服务域名
 DOMAIN-SUFFIX,dm.meituan.com # 美团专送平台服务域名
-DOMAIN-SUFFIX,mdn.meituan.com # 美团内容分发域名
-DOMAIN-SUFFIX,peisong.meituan.com # 美团配送服务域名
 DOMAIN-SUFFIX,star.meituan.com # 美团平台服务域名
 
 # > Meituan LePao Delivery（美团乐跑）相关域名
@@ -1639,7 +1634,6 @@ DOMAIN-SUFFIX,shimo.io # 石墨文档服务域名
 # - 校对时间：2026-03-25
 
 DOMAIN-SUFFIX,teambition.com # Teambition 主域名
-DOMAIN-SUFFIX,aliwork.com # 阿里协作服务域名
 DOMAIN-SUFFIX,feidai.com # Teambition 文件服务域名
 DOMAIN-SUFFIX,teambitionstatic.com # Teambition 静态资源域名
 
@@ -1734,7 +1728,6 @@ DOMAIN-SUFFIX,alidocs.com # 钉钉文档主域名
 DOMAIN-SUFFIX,dtstatic.com # 钉钉静态资源域名
 DOMAIN-SUFFIX,alicdn.com # 阿里公共静态资源域名
 DOMAIN-SUFFIX,aliwork.com # 阿里协作服务域名
-DOMAIN-SUFFIX,alipan.com # 阿里云盘关联服务域名
 
 # > FlowUs（知识库协作平台）相关域名
 # - 校对时间：2026-03-25
@@ -1886,7 +1879,6 @@ DOMAIN-SUFFIX,hunyuan.tencent.com # 腾讯混元主域名
 DOMAIN-SUFFIX,api.hunyuan.tencent.com # 腾讯混元接口域名
 DOMAIN-SUFFIX,console.hunyuan.tencent.com # 腾讯混元控制台域名
 DOMAIN-SUFFIX,cdn.hunyuan.tencent.com # 腾讯混元静态资源域名
-DOMAIN-SUFFIX,tencentcloudapi.com # 腾讯云统一 API 域名
 DOMAIN-SUFFIX,tcb-api.tencentcloudapi.com # 腾讯云开发接口域名
 
 # > SparkDesk / iFlytek（讯飞星火 / 科大讯飞）相关域名
@@ -2151,8 +2143,6 @@ DOMAIN-SUFFIX,static.gofun.com # GoFun 出行静态资源域名
 # - 校对时间：2026-03-25
 
 DOMAIN-SUFFIX,didi.cn # 滴滴出行主域名
-DOMAIN-SUFFIX,didiglobal.com # 滴滴国际服务域名
-DOMAIN-SUFFIX,xiaojukeji.com # 滴滴服务域名
 DOMAIN-SUFFIX,api.xiaojukeji.com # 滴滴接口域名
 DOMAIN-SUFFIX,static.xiaojukeji.com # 滴滴静态资源域名
 DOMAIN-SUFFIX,img.xiaojukeji.com # 滴滴图片资源域名
