@@ -1125,29 +1125,29 @@ DOMAIN-SUFFIX,whgjj.com.cn # 武汉住房公积金服务域名
 DOMAIN-SUFFIX,zjgjj.gov.cn # 浙江住房公积金服务域名
 DOMAIN-SUFFIX,gdgjj.gov.cn # 广东住房公积金服务域名
 
-# > 南京市政务服务平台（我的南京 / 南京政务云）
+# > Nanjing Government Service Platform（南京市政务服务平台）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,nanjing.gov.cn # 南京市人民政府门户网站主域名 
-DOMAIN-SUFFIX,njzwfw.gov.cn # 南京市政务服务平台主域名，用于“我的南京”等服务 
-DOMAIN-SUFFIX,mynj.cn # “我的南京”App 使用域名，提供政务服务、医保、公积金等 
-DOMAIN-SUFFIX,njzwfw.com # 南京政务云技术支撑与服务平台域名 
+DOMAIN-SUFFIX,nanjing.gov.cn # 南京市政府服务域名
+DOMAIN-SUFFIX,njzwfw.gov.cn # 南京市政务服务平台域名
+DOMAIN-SUFFIX,mynj.cn # 我的南京服务域名
+DOMAIN-SUFFIX,njzwfw.com # 南京政务服务支撑域名
 
-# > 各地政务云平台（政务服务总入口）
+# > Provincial Government Service Platforms（省级政务服务平台）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,gov.cn # 中华人民共和国政府各部门与省市单位主域名（总入口） 
-DOMAIN-SUFFIX,zwfw.gov.cn # 全国政务服务平台主域名 
-DOMAIN-SUFFIX,govtop.com # 政务服务外包技术支持平台（如国家政务服务网） 
-DOMAIN-SUFFIX,guangdong.gov.cn # 广东政务服务网 
-DOMAIN-SUFFIX,zhejiang.gov.cn # 浙江政务服务网，包含“浙里办”App 
-DOMAIN-SUFFIX,sh.gov.cn # 上海市政府门户及政务平台 
-DOMAIN-SUFFIX,beijing.gov.cn # 北京市人民政府政务门户 
-DOMAIN-SUFFIX,hunan.gov.cn # 湖南政务服务平台 
-DOMAIN-SUFFIX,hubei.gov.cn # 湖北政务网 
-DOMAIN-SUFFIX,sichuan.gov.cn # 四川政务云服务网站 
-DOMAIN-SUFFIX,jiangsu.gov.cn # 江苏政务服务网 
-DOMAIN-SUFFIX,tjzwfw.gov.cn # 天津市政务服务网 
-DOMAIN-SUFFIX,hljzwfw.gov.cn # 黑龙江省政务服务平台 
-DOMAIN-SUFFIX,xzzwfw.gov.cn # 西藏自治区政务服务网 
+DOMAIN-SUFFIX,zwfw.gov.cn # 政务服务平台域名
+DOMAIN-SUFFIX,guangdong.gov.cn # 广东政务服务域名
+DOMAIN-SUFFIX,zhejiang.gov.cn # 浙江政务服务域名
+DOMAIN-SUFFIX,sh.gov.cn # 上海政务服务域名
+DOMAIN-SUFFIX,beijing.gov.cn # 北京政务服务域名
+DOMAIN-SUFFIX,hunan.gov.cn # 湖南政务服务域名
+DOMAIN-SUFFIX,hubei.gov.cn # 湖北政务服务域名
+DOMAIN-SUFFIX,sichuan.gov.cn # 四川政务服务域名
+DOMAIN-SUFFIX,jiangsu.gov.cn # 江苏政务服务域名
+DOMAIN-SUFFIX,tjzwfw.gov.cn # 天津政务服务域名
+DOMAIN-SUFFIX,hljzwfw.gov.cn # 黑龙江政务服务域名
+DOMAIN-SUFFIX,xzzwfw.gov.cn # 西藏政务服务域名
 
 # > 美团 / 大众点评相关域名（Meituan / Dianping）
 
