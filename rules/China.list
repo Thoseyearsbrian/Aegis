@@ -1224,47 +1224,48 @@ DOMAIN-SUFFIX,api.zhuanzhuan.com # 转转接口域名
 DOMAIN-SUFFIX,static.zhuanzhuan.com # 转转静态资源域名
 DOMAIN-SUFFIX,zhuanzhuan.wacdn.com # 转转内容分发域名
 
-# > 小米公司相关域名（Xiaomi / Mi / Mijia）
+# > Xiaomi / Mi / Mijia（小米 / 米家）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,mi.com # 小米集团核心服务域名，用于商城、账户与用户服务入口
-DOMAIN-SUFFIX,account.mi.com # 小米账户与统一认证服务域名
-DOMAIN-SUFFIX,api.mi.com # 小米平台业务接口服务域名，用于系统与服务调用
-DOMAIN-SUFFIX,static.mi.com # 小米平台静态资源与前端组件加载域名
-DOMAIN-SUFFIX,xiaomi.com # 小米公司官方域名，用于企业官网与集团级业务入口
-DOMAIN-SUFFIX,mi-img.com # 小米图像与媒体资源 CDN 域名，用于商品与设备资源加载
-DOMAIN-SUFFIX,mi-static.com # 小米静态资源分发域名，用于网页与客户端资源加载
-DOMAIN-SUFFIX,miui.com # 小米操作系统相关服务域名（MIUI / HyperOS）
-DOMAIN-SUFFIX,update.miui.com # 小米系统更新相关服务域名
-DOMAIN-SUFFIX,miwifi.com # 小米路由器与网络设备管理相关服务域名
-DOMAIN-SUFFIX,api.miwifi.com # 小米网络设备相关服务接口域名
-DOMAIN-SUFFIX,mijia.com # 米家智能家居平台服务域名，用于设备生态与服务入口
-DOMAIN-SUFFIX,api.mijia.com # 米家设备与平台相关服务接口域名
-DOMAIN-SUFFIX,milink.cn # 小米设备互联与通信相关服务域名
-DOMAIN-SUFFIX,mifile.cn # 小米云存储与文件服务相关域名
-DOMAIN-SUFFIX,micloud.xiaomi.net # 小米云平台相关服务域名，用于账号与设备云服务支持
-DOMAIN-SUFFIX,miliao.com # 小米历史即时通讯服务遗留域名
+DOMAIN-SUFFIX,mi.com # 小米主域名
+DOMAIN-SUFFIX,account.mi.com # 小米账号服务域名
+DOMAIN-SUFFIX,api.mi.com # 小米接口域名
+DOMAIN-SUFFIX,static.mi.com # 小米静态资源域名
+DOMAIN-SUFFIX,xiaomi.com # 小米集团服务域名
+DOMAIN-SUFFIX,mi-img.com # 小米图片资源域名
+DOMAIN-SUFFIX,mi-static.com # 小米静态资源域名
+DOMAIN-SUFFIX,miui.com # 小米系统服务域名
+DOMAIN-SUFFIX,update.miui.com # 小米系统更新服务域名
+DOMAIN-SUFFIX,miwifi.com # 小米路由服务域名
+DOMAIN-SUFFIX,api.miwifi.com # 小米路由接口域名
+DOMAIN-SUFFIX,mijia.com # 米家主域名
+DOMAIN-SUFFIX,api.mijia.com # 米家接口域名
+DOMAIN-SUFFIX,milink.cn # 小米设备互联服务域名
+DOMAIN-SUFFIX,mifile.cn # 小米文件服务域名
+DOMAIN-SUFFIX,micloud.xiaomi.net # 小米云服务域名
+DOMAIN-SUFFIX,miliao.com # 小米历史通信服务域名
 
-# > 华为相关域名（Huawei / HarmonyOS / 云服务）
+# > Huawei / HarmonyOS / Huawei Cloud（华为 / 鸿蒙 / 华为云）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,huaweicloud.cn # 华为云中国官网
-DOMAIN-SUFFIX,huaweicloudsite.cn # 华为云建站托管平台
-DOMAIN-SUFFIX,huawei.com # 华为技术有限公司官方主域名，用于企业官网、产品信息与服务入口
-DOMAIN-SUFFIX,servicesupport.huawei.com # 华为客户支持与售后服务相关域名
-DOMAIN-SUFFIX,huaweicloud.com # 华为云服务平台主域名，用于云计算与企业级服务入口
-DOMAIN-SUFFIX,cloud.huawei.com # 华为云网页端服务入口域名，用于云资源管理与控制台访问
-DOMAIN-SUFFIX,myhuaweicloud.com # 华为云账户、认证与控制台相关服务域名
-DOMAIN-SUFFIX,api.huaweicloud.com # 华为云业务接口服务域名，用于系统与服务对接
-DOMAIN-SUFFIX,static.huaweicloud.com # 华为云静态资源与内容分发相关域名
-DOMAIN-SUFFIX,vmall.com # 华为官方商城服务域名，用于产品销售与订单相关服务
-DOMAIN-SUFFIX,hicloud.com # 华为终端云服务平台域名，用于设备与账号相关服务
-DOMAIN-SUFFIX,hispace.hicloud.com # 华为终端生态相关服务域名
-DOMAIN-SUFFIX,appgallery.hicloud.com # 华为应用市场服务接口域名，用于应用分发与更新
-DOMAIN-SUFFIX,connectivity.hicloud.com # 华为设备互联与生态相关服务接口域名
-DOMAIN-SUFFIX,harmonyos.com # 鸿蒙操作系统官方域名，用于系统与生态信息展示
-DOMAIN-SUFFIX,hihonor.com # 荣耀品牌相关服务域名（原华为子品牌）
-DOMAIN-SUFFIX,dbankcloud.cn # 华为云内容分发与资源加载相关服务域名
-DOMAIN-SUFFIX,update.dbankcdn.com # 华为终端系统与应用更新内容分发 CDN 域名
-DOMAIN-SUFFIX,download.dbankcdn.com # 华为资源下载与内容分发 CDN 服务域名
+DOMAIN-SUFFIX,huawei.com # 华为主域名
+DOMAIN-SUFFIX,servicesupport.huawei.com # 华为客户支持服务域名
+DOMAIN-SUFFIX,huaweicloud.com # 华为云主域名
+DOMAIN-SUFFIX,huaweicloud.cn # 华为云中国区服务域名
+DOMAIN-SUFFIX,huaweicloudsite.cn # 华为云建站服务域名
+DOMAIN-SUFFIX,cloud.huawei.com # 华为云服务域名
+DOMAIN-SUFFIX,myhuaweicloud.com # 华为云账号服务域名
+DOMAIN-SUFFIX,api.huaweicloud.com # 华为云 API 域名
+DOMAIN-SUFFIX,static.huaweicloud.com # 华为云静态资源域名
+DOMAIN-SUFFIX,vmall.com # 华为商城服务域名
+DOMAIN-SUFFIX,hicloud.com # 华为终端云服务域名
+DOMAIN-SUFFIX,hispace.hicloud.com # 华为终端生态服务域名
+DOMAIN-SUFFIX,appgallery.hicloud.com # 华为应用市场服务域名
+DOMAIN-SUFFIX,connectivity.hicloud.com # 华为设备互联服务域名
+DOMAIN-SUFFIX,harmonyos.com # 鸿蒙系统服务域名
+DOMAIN-SUFFIX,dbankcloud.cn # 华为云资源服务域名
+DOMAIN-SUFFIX,update.dbankcdn.com # 华为更新服务域名
+DOMAIN-SUFFIX,download.dbankcdn.com # 华为下载服务域名
 
 # > 顺丰速运（SF Express）
 
