@@ -1507,22 +1507,23 @@ DOMAIN-SUFFIX,login.sina.com.cn # 新浪登录服务域名
 DOMAIN-SUFFIX,passport.weibo.com # 微博登录服务域名
 DOMAIN-SUFFIX,sso.sina.com.cn # 新浪单点登录服务域名
 
-# > 工具/其他服务（Tools / Misc）
+# > Tools & Misc Services（工具与其他服务）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,csdn.net # CSDN 技术社区
-DOMAIN-SUFFIX,ps.gaoding.com # 稿定设计平台图片处理与资源加载接口，部分网页编辑与预览功能依赖
-DOMAIN-SUFFIX,19ego.cn # 19EGO 营销与活动平台主域名，常用于抽奖、促销活动页面与互动营销服务
+DOMAIN-SUFFIX,csdn.net # CSDN 技术社区域名
+DOMAIN-SUFFIX,ps.gaoding.com # 稿定设计图片处理服务域名
+DOMAIN-SUFFIX,19ego.cn # 19EGO 营销服务域名
 
-# > 游戏服务（Gaming Services）
+# > Gaming Services（游戏服务）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,play.dl.360.cn # 360游戏平台
-DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubionline.com # 育碧中国区 CDN
-DOMAIN-SUFFIX,xboxlive.cn # Xbox 中国
-DOMAIN-SUFFIX,steampowered.cn # Steam 中国站
-DOMAIN-SUFFIX,steamchina.com # Steam 中国站备用域名
-DOMAIN-SUFFIX,wg.163.com # 网易游戏
-DOMAIN-SUFFIX,4399.com # 4399小游戏平台
-DOMAIN-SUFFIX,7k7k.com # 7k7k小游戏平台
+DOMAIN-SUFFIX,play.dl.360.cn # 360 游戏服务域名
+DOMAIN-SUFFIX,xboxlive.cn # Xbox 中国服务域名
+DOMAIN-SUFFIX,steampowered.cn # Steam 中国服务域名
+DOMAIN-SUFFIX,steamchina.com # Steam 中国服务域名
+DOMAIN-SUFFIX,wg.163.com # 网易游戏服务域名
+DOMAIN-SUFFIX,4399.com # 4399 游戏平台域名
+DOMAIN-SUFFIX,7k7k.com # 7k7k 游戏平台域名
 
 # > 企业服务 / 办公平台（Enterprise / Productivity）
 
