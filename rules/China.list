@@ -941,112 +941,82 @@ DOMAIN-SUFFIX,wap.hsbank.com.cn # 徽商银行移动服务域名
 
 DOMAIN-SUFFIX,js96008.com # 江苏省农村商业银行电子银行服务域名
 
-# > 国家政务服务平台相关域名（国务院 / 各级政务服务统一入口）
+# > National Government Service Platform（国家政务服务平台）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,gov.cn # 中国政府主域名，用于各类政务服务与信息发布 
-DOMAIN-SUFFIX,12371.cn # 中共中央组织部“共产党员网”，提供党建与党务信息 
-DOMAIN-SUFFIX,12306.gov.cn # 12306 政务备案域名，铁路客户服务政务入口 
-DOMAIN-SUFFIX,guojianchina.com # 国家政务服务平台相关解析与跳转服务 
-DOMAIN-SUFFIX,gjzwfw.gov.cn # 国家政务服务平台主域名（国务院主导） 
-DOMAIN-SUFFIX,api.gjzwfw.gov.cn # 国家政务服务接口域名，涉及统一身份认证与办事接口 
-DOMAIN-SUFFIX,sso.gjzwfw.gov.cn # 国家政务平台统一身份登录系统接口 
-DOMAIN-SUFFIX,static.gjzwfw.gov.cn # 国家政务平台静态资源加载域名 
-DOMAIN-SUFFIX,peopleapp.com # 人民日报旗下平台，支持政务移动端接入 
-DOMAIN-SUFFIX,people.cn # 人民日报官网，政务类信息发布源站之一 
+DOMAIN-SUFFIX,gjzwfw.gov.cn # 国家政务服务平台主域名
+DOMAIN-SUFFIX,api.gjzwfw.gov.cn # 国家政务服务接口域名
+DOMAIN-SUFFIX,sso.gjzwfw.gov.cn # 国家政务服务统一身份认证域名
+DOMAIN-SUFFIX,static.gjzwfw.gov.cn # 国家政务服务静态资源域名
 
-# > 国家税务总局相关域名（全国税务系统服务平台）
+# > State Taxation Administration（国家税务总局）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,ch税.gov.cn # 国家税务总局主域名，税收信息与业务办理入口 
-DOMAIN-SUFFIX,chinatax.gov.cn # 国家税务总局官方网站，含办税指南与政策公告 
-DOMAIN-SUFFIX,etax.chinatax.gov.cn # 电子税务局总入口，提供全国统一网上报税服务 
-DOMAIN-SUFFIX,etax.jiangsu.chinatax.gov.cn # 江苏省电子税务局子站，省级业务入口 
-DOMAIN-SUFFIX,etax.shandong.chinatax.gov.cn # 山东省电子税务局子站，办理本地税务服务 
-DOMAIN-SUFFIX,etax.beijing.chinatax.gov.cn # 北京市电子税务局，税控开票与企业申报服务 
-DOMAIN-SUFFIX,sso.chinatax.gov.cn # 税务统一身份认证系统，接入国家平台 
-DOMAIN-SUFFIX,bx.chinatax.gov.cn # 国家税务总局发票查验与报销系统 
-DOMAIN-SUFFIX,yhs.chinatax.gov.cn # 增值税专用发票核验平台 
-DOMAIN-SUFFIX,fpdk.chinatax.gov.cn # 发票代开服务接口域名 
-DOMAIN-SUFFIX,nm.chinatax.gov.cn # 内蒙古税务局分站入口 
+DOMAIN-SUFFIX,chinatax.gov.cn # 国家税务总局主域名
+DOMAIN-SUFFIX,etax.chinatax.gov.cn # 电子税务局服务域名
+DOMAIN-SUFFIX,sso.chinatax.gov.cn # 国家税务统一身份认证域名
+DOMAIN-SUFFIX,bx.chinatax.gov.cn # 国家税务发票服务域名
+DOMAIN-SUFFIX,yhs.chinatax.gov.cn # 国家税务发票核验服务域名
+DOMAIN-SUFFIX,fpdk.chinatax.gov.cn # 国家税务发票代开服务域名
 
-# > 公安交通管理相关域名（交管12123 / 交通违法 / 驾驶证信息）
+# > Traffic Management Services（公安交通管理服务）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,122.gov.cn # 全国交通安全综合服务平台主域名，用于事故处理、违法查询与业务办理 
-DOMAIN-SUFFIX,traffic12123.com # 交管12123 官网域名，提供下载与用户服务信息 
-DOMAIN-SUFFIX,jtgk.net # 交通管理科技网，提供交管系统内部接口服务 
-DOMAIN-SUFFIX,jiashizheng12123.com # 驾驶证业务专用服务域名，涉及查分与年审提醒 
-DOMAIN-SUFFIX,veh12123.com # 机动车业务服务平台，提供车辆年检、违章缴费等功能 
-DOMAIN-SUFFIX,jdcjsrpt.com # 驾驶人报告接口平台域名，服务于交通违法分析系统 
-DOMAIN-SUFFIX,vehplate.com # 车牌信息与登记系统相关接口域名 
+DOMAIN-SUFFIX,122.gov.cn # 交通安全综合服务平台主域名
+DOMAIN-SUFFIX,traffic12123.com # 交管12123 服务域名
+DOMAIN-SUFFIX,jtgk.net # 交通管理科技服务域名
 
-# > 司法公开相关域名（裁判文书 / 执行信息 / 司法案例）
+# > Judicial Public Services（司法公开）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,court.gov.cn # 中国法院网主域名，涵盖法院动态、司法公开、执行公示等服务 
-DOMAIN-SUFFIX,tingshen.court.gov.cn # 中国庭审公开网，用于庭审直播与案件审理公开 
-DOMAIN-SUFFIX,wenshu.court.gov.cn # 裁判文书网，提供公开判决书、裁定书等司法文书查询 
-DOMAIN-SUFFIX,shixin.court.gov.cn # 失信被执行人信息公开网，俗称“老赖”名单查询平台 
-DOMAIN-SUFFIX,zhixing.court.gov.cn # 中国执行信息公开网，提供全国法院被执行人信息 
-DOMAIN-SUFFIX,rmfysszc.gov.cn # 人民法院诉讼资产网，用于司法拍卖、资产转让信息公开 
-DOMAIN-SUFFIX,zgyjsfpt.com # 中国阳光司法平台，聚合司法公开案例与数据接口 
+DOMAIN-SUFFIX,court.gov.cn # 中国法院网主域名
+DOMAIN-SUFFIX,tingshen.court.gov.cn # 中国庭审公开网域名
+DOMAIN-SUFFIX,wenshu.court.gov.cn # 中国裁判文书网域名
+DOMAIN-SUFFIX,shixin.court.gov.cn # 失信被执行人信息公开域名
+DOMAIN-SUFFIX,zhixing.court.gov.cn # 中国执行信息公开网域名
+DOMAIN-SUFFIX,rmfysszc.gov.cn # 人民法院诉讼资产网域名
 
-# > 法律与知识产权相关资讯域名
+# > National Healthcare Security Administration（国家医保局）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,ciplawyer.cn # 中国知识产权法律资讯网站，用于查询商标、专利与相关法律内容
+DOMAIN-SUFFIX,nhsa.gov.cn # 国家医保局主域名
+DOMAIN-SUFFIX,api.nhsa.gov.cn # 国家医保服务平台接口域名
+DOMAIN-SUFFIX,wx.nhsa.gov.cn # 国家医保微信服务域名
+DOMAIN-SUFFIX,ns.nhsa.gov.cn # 国家医保通知服务域名
+DOMAIN-SUFFIX,esb.nhsa.gov.cn # 国家医保服务总线域名
+DOMAIN-SUFFIX,ps.nhsa.gov.cn # 国家医保公共服务域名
+DOMAIN-SUFFIX,ggfw.nhsa.gov.cn # 国家医保便民服务域名
+DOMAIN-SUFFIX,si-mas.nhsa.gov.cn # 国家医保电子凭证服务域名
+DOMAIN-SUFFIX,gov-mas.nhsa.gov.cn # 国家医保数据交换服务域名
+DOMAIN-SUFFIX,si.12333.gov.cn # 社保统一服务平台域名
 
-# > 国家医保局相关域名（医疗保障服务 / 参保信息 / 政策发布）
+# > Ministry of Education / CHSI（教育部 / 学信网）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,nhsa.gov.cn # 国家医疗保障局官网，提供医保政策、公告与信息查询 
-DOMAIN-SUFFIX,si-mas.nhsa.gov.cn # 医保电子凭证服务接口，用于身份认证与在线医保服务 
-DOMAIN-SUFFIX,ylbz.gov.cn # 国家医保局子域名重定向入口，指向政务服务子系统 
-DOMAIN-SUFFIX,gov-mas.nhsa.gov.cn # 医保数据交换与消息通知接口服务 
-DOMAIN-SUFFIX,ylbznx.cn # 医疗保障能力建设平台，涉及医保系统互联互通能力评估 
+DOMAIN-SUFFIX,moe.gov.cn # 教育部主域名
+DOMAIN-SUFFIX,chsi.com.cn # 学信网主域名
+DOMAIN-SUFFIX,account.chsi.com.cn # 学信网账号服务域名
+DOMAIN-SUFFIX,archive.chsi.com.cn # 学信网档案服务域名
+DOMAIN-SUFFIX,pub.chsi.com.cn # 学信网公共资源域名
+DOMAIN-SUFFIX,gaokao.chsi.com.cn # 学信网高考服务域名
+DOMAIN-SUFFIX,login.chsi.com.cn # 学信网登录服务域名
+DOMAIN-SUFFIX,pubedu.chsi.com.cn # 学信网教育服务域名
+DOMAIN-SUFFIX,kaoyan.chsi.com.cn # 学信网考研服务域名
+DOMAIN-SUFFIX,xueli.chsi.com.cn # 学信网学历服务域名
+DOMAIN-SUFFIX,yjsy.chsi.com.cn # 学信网研究生教育服务域名
 
-# > 教育部 / 学信网相关域名（学历认证 / 学籍服务 / 教育政务）
+# > National Health Services（国家卫生健康服务）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,moe.gov.cn # 中华人民共和国教育部官网，教育政策与政务服务发布 
-DOMAIN-SUFFIX,gov.cn # 教育部所属二级域名使用 gov.cn 顶级域，包含子平台 
-DOMAIN-SUFFIX,chsi.com.cn # 学信网主站，用于学籍学历查询、学籍注册与学信档案服务 
-DOMAIN-SUFFIX,account.chsi.com.cn # 学信网用户登录与身份认证接口 
-DOMAIN-SUFFIX,archive.chsi.com.cn # 学历档案下载与验证服务接口 
-DOMAIN-SUFFIX,pub.chsi.com.cn # 学信网公共资源与静态内容加载接口 
-DOMAIN-SUFFIX,gaokao.chsi.com.cn # 高考志愿填报与录取结果查询服务 
-DOMAIN-SUFFIX,login.chsi.com.cn # 学信网 OAuth 登录入口 
-DOMAIN-SUFFIX,pubedu.chsi.com.cn # 教育部合作平台与联合办学信息查询入口 
-DOMAIN-SUFFIX,kaoyan.chsi.com.cn # 研究生考试报名系统，含推免信息与报考服务 
-DOMAIN-SUFFIX,xueli.chsi.com.cn # 学历信息专属查询与在线验证平台 
-DOMAIN-SUFFIX,yjsy.chsi.com.cn # 研究生教育与导师信息平台 
-DOMAIN-SUFFIX,portal101.cn # 教育平台登录鉴权域名（fp-it-acc 为账号认证子服务）
+DOMAIN-SUFFIX,12320.cn # 国家卫生健康服务域名
+DOMAIN-SUFFIX,jiankang.12320.cn # 国家健康服务域名
 
-# > 健康码 / 国家健康平台相关域名（疫情防控 / 健康上报）
+# > E-Social Security Card（电子社保卡）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,jiankang.12320.cn # 国家卫生健康委官方平台，健康码信息入口 
-DOMAIN-SUFFIX,healthreport.zj.gov.cn # 浙江健康码数据平台，国家健康码源头之一 
-DOMAIN-SUFFIX,h5.health.zj.gov.cn # 健康码 H5 页面加载入口 
-DOMAIN-SUFFIX,interface.meituan.com # 健康码扫码对接接口（美团平台健康服务集成） 
-DOMAIN-SUFFIX,c-ncap.org.cn # 中国健康码体系安全与接入验证域名 
-DOMAIN-SUFFIX,epidemic.zjzwfw.gov.cn # 国家政务服务网疫情防控接口（核酸/疫苗/健康码联动） 
-DOMAIN-SUFFIX,ehallapp.com # 智慧校园健康打卡系统，用于部分省市健康申报 
-DOMAIN-SUFFIX,yqtb.gz.gov.cn # 广州健康申报平台，疫情填报系统 
-DOMAIN-SUFFIX,yqtb.sh.gov.cn # 上海健康申报平台，疫情时期健康码与通行证数据平台 
-DOMAIN-SUFFIX,yimiao.sctcm.edu.cn # 疫苗接种信息登记与数据上报系统（四川地区） 
-
-# > 国家医保平台相关域名（医保账户 / 电子凭证 / 报销结算）
-
-DOMAIN-SUFFIX,nhsa.gov.cn # 国家医保局官网，医保政策与服务入口 
-DOMAIN-SUFFIX,si.12333.gov.cn # 社保统一服务平台，医保账户在线查询与参保记录 
-DOMAIN-SUFFIX,ybj.chsi.com.cn # 全国医保信息平台，医保参保状态与缴费记录查询接口 
-DOMAIN-SUFFIX,wx.nhsa.gov.cn # 国家医保局微信小程序接口，用于医保电子凭证申领与验证 
-DOMAIN-SUFFIX,api.nhsa.gov.cn # 国家医保服务平台 API 接口，医保结算/报销/凭证接口服务 
-DOMAIN-SUFFIX,ns.nhsa.gov.cn # 国家医保系统通知服务域名，用于状态变更与数据回执 
-DOMAIN-SUFFIX,esb.nhsa.gov.cn # 国家医保服务总线接口，服务各省数据对接平台 
-DOMAIN-SUFFIX,ps.nhsa.gov.cn # 医保公共服务平台，用户授权与实名认证接口 
-DOMAIN-SUFFIX,hsa.gov.cn # 国家医保服务平台简称域名（部分地区入口使用） 
-DOMAIN-SUFFIX,ggfw.nhsa.gov.cn # 国家医保便民服务平台，提供医保目录、药品清单等信息 
-
-# > 电子社保卡（e-sscard）相关域名
-
-DOMAIN-SUFFIX,e-sscard.com # 电子社保卡服务平台主域名
-DOMAIN-SUFFIX,cdn.e-sscard.com # 电子社保卡静态资源服务域名
-DOMAIN-SUFFIX,logcollect.e-sscard.com # 电子社保卡日志采集服务域名
+DOMAIN-SUFFIX,e-sscard.com # 电子社保卡主域名
+DOMAIN-SUFFIX,cdn.e-sscard.com # 电子社保卡静态资源域名
+DOMAIN-SUFFIX,logcollect.e-sscard.com # 电子社保卡日志采集域名
 
 # > 好大夫在线相关域名（医疗问诊 / 医院挂号 / 电子处方）
 
