@@ -2234,214 +2234,144 @@ DOMAIN-SUFFIX,img.guazi.com # 瓜子图片资源域名
 DOMAIN-SUFFIX,api.guazi.com # 瓜子接口域名
 DOMAIN-SUFFIX,finance.guazi.com # 瓜子金融服务域名
 
-# > 天涯社区 相关域名
+# > Tianya（天涯社区）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,tianya.cn # 天涯社区主域名，中国历史悠久的综合性网络论坛与社区服务平台
-DOMAIN-SUFFIX,bbs.tianya.cn # 天涯论坛子域名，用于论坛版块访问与帖子浏览
-DOMAIN-SUFFIX,tianyaclub.com # 天涯社区品牌历史访问域名
-DOMAIN-SUFFIX,tianya.net # 天涯国际/重启访问入口（根据官方业务计划启用）
+DOMAIN-SUFFIX,tianya.cn # 天涯社区主域名
+DOMAIN-SUFFIX,bbs.tianya.cn # 天涯论坛服务域名
+DOMAIN-SUFFIX,tianyaclub.com # 天涯社区历史服务域名
+DOMAIN-SUFFIX,tianya.net # 天涯社区历史服务域名
 
-# > JsDelivr Mirror / 前端公共资源镜像 CDN
+# > Microsoft China Tenant Namespace（Microsoft 中国区云租户命名空间）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,jsdmirror.com # JsDelivr 第三方镜像加速域名，用于提供 npm / GitHub 等前端公共库的加速访问，常见于国内网络环境下的资源加载优化
+DOMAIN-SUFFIX,onmicrosoft.cn # Microsoft 中国区租户命名空间域名
 
-# > 山湖科技（ShanhuTech）静态资源分发网络
+# > Qimai（七麦数据）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,shanhutech.cn # 山湖科技静态资源服务主域，用于前端文件、组件与网站资源分发
-DOMAIN-SUFFIX,cdn-hw-static2.shanhutech.cn # 山湖科技静态资源 CDN 子域，用于网页脚本、样式与媒体资源加载
+DOMAIN-SUFFIX,qimai.cn # 七麦数据主域名
+DOMAIN-SUFFIX,webapi.qimai.cn # 七麦数据接口域名
 
-# > Snrat CDN 前端公共库加速服务
+# > Hotjob（企业招聘系统）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,snrat.com # Snrat CDN 服务主域，用于提供前端公共库与静态资源加速访问
-DOMAIN-SUFFIX,cdnjs.snrat.com # Snrat CDN 子域，用于加载 JavaScript/CSS 等前端依赖资源
+DOMAIN-SUFFIX,hotjob.cn # Hotjob 主域名
+DOMAIN-SUFFIX,wecruit.hotjob.cn # Hotjob 招聘服务域名
+DOMAIN-SUFFIX,xcmg.hotjob.cn # Hotjob 招聘服务域名
 
-# > Akass 平台前端资源与脚本分发服务
+# > Wanda Cinemas（万达影城）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,sf.akass.cn # Akass 平台前端静态资源与脚本分发域名，用于页面功能组件与资源加载
-DOMAIN-SUFFIX,npm.akass.cn # Akass 提供的 NPM 包镜像服务域名，用于前端依赖包下载与版本分发
-DOMAIN-SUFFIX,jsd.akass.cn # Akass 提供的 JsDelivr 镜像加速域名，用于前端公共库与静态资源加载
+DOMAIN-SUFFIX,wandawic.com # 万达影城主域名
+DOMAIN-SUFFIX,wdmp-maup.wandawic.com # 万达影城用户服务域名
+DOMAIN-SUFFIX,wdmp-api.wandawic.com # 万达影城接口域名
 
-# > Maozi Io 平台动态子域解析入口
+# > Fengkong Cloud（风控云）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,maozi.io # Maozi Io 平台动态服务域名，用于物联网/设备/动态实例访问与路由解析
+DOMAIN-SUFFIX,fengkongcloud.com # 风控云主域名
 
-# > WidgetStore 静态资源与组件分发服务
+# > Getui（个推科技）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,cn.widgetstore.net # WidgetStore 国内镜像/静态资源域名，用于页面组件、脚本与样式资源加载
+DOMAIN-SUFFIX,getui.com # 个推科技主域名
 
-# > Microsoft 中国区云租户基础命名空间（Azure / Microsoft 365）
+# > KFC China（肯德基中国）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,onmicrosoft.cn # Microsoft 在中国区提供的云租户基础域名，用于 Azure、Microsoft 365 等企业云服务的租户命名空间与身份体系
+DOMAIN-SUFFIX,kfc.com.cn # 肯德基中国主域名
+DOMAIN-SUFFIX,kfcdelivery.com.cn # 肯德基宅急送服务域名
 
-# > Tencent CloudBase / 第三方组件与前端资源分发服务
+# > Yum China（百胜中国）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,tcloudbase.com # 腾讯云 CloudBase（云开发）托管平台域名，用于 Serverless 应用托管、静态资源分发与动态服务访问
-DOMAIN-SUFFIX,widgetstore-2get4jkof622d914-1304418908.ap-shanghai.app.tcloudbase.com # CloudBase 应用实例子域，用于托管 Web 组件、页面资源或应用后端服务
+DOMAIN-SUFFIX,yumchina.com # 百胜中国主域名
+DOMAIN-SUFFIX,abplatform.yumchina.com # 百胜中国业务平台域名
+DOMAIN-SUFFIX,bs2.yumchina.com # 百胜中国业务服务域名
+DOMAIN-SUFFIX,hwwt8.com # 百胜中国技术服务域名
+DOMAIN-SUFFIX,pcp-pic.hwwt8.com # 百胜中国图片资源域名
+DOMAIN-SUFFIX,fp.hwwt8.com # 百胜中国风控服务域名
 
-# > ggff.net 网络资源与内容分发服务
+# > McDonald’s China（麦当劳中国）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,ggff.net # ggff.net 网络资源服务域名，用于提供 Web 内容访问与资源分发能力
-DOMAIN-SUFFIX,pl.zeroo.ggff.net # ggff.net 子域，用于页面资源加载或平台功能请求
+DOMAIN-SUFFIX,mcdonalds.com.cn # 麦当劳中国主域名
+DOMAIN-SUFFIX,mcdchina.com # 麦当劳中国历史服务域名
+DOMAIN-SUFFIX,mcd.cn # 麦当劳中国服务域名
+DOMAIN-SUFFIX,api.mcd.cn # 麦当劳中国接口域名
 
-# > 茉灵导航（个人工具与资源聚合平台）
+# > Burger King China（汉堡王中国）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,home.nuaa.tech # 茉灵导航主站域名，个人开发者工具与资源聚合导航页面
-DOMAIN-SUFFIX,blog.nuaa.tech # 茉灵导航博客子域，用于发布技术文章与个人内容
-DOMAIN-SUFFIX,animaltest.nuaa.tech # 茉灵导航测试或实验性功能子域，用于开发调试或实验项目展示
-DOMAIN-SUFFIX,ap.nuaa.tech # 茉灵导航功能子域，具体用途未公开，属个人站点功能扩展域名
-DOMAIN-SUFFIX,pro.nuaa.tech # 茉灵导航扩展子域，可能用于进阶功能或展示型页面
+DOMAIN-SUFFIX,bkchina.cn # 汉堡王中国主域名
 
-# > 互联网沟通指北 · 技术社区沟通礼仪整理站点
+# > Wallace（华莱士）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,0x0.cat # 收录互联网时代沟通礼仪、提问规范与常见认知定律
+DOMAIN-SUFFIX,cnhls.com # 华莱士主域名
+DOMAIN-SUFFIX,ai.cnhls.com # 华莱士智能服务域名
 
-# > Yes No Tarot 在线塔罗占卜站点
+# > Wiselong（上海智龙）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,yesnotarot.org # 在线 Yes/No 塔罗牌占卜工具站点，提供问答式塔罗牌解读与灵性指引内容
+DOMAIN-SUFFIX,wiselong.com # 上海智龙主域名
+DOMAIN-SUFFIX,llm.wiselong.com # 上海智龙服务域名
 
-# > 七麦数据（Qimai）移动应用市场分析平台
+# > TASITING（塔斯汀）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,qmai.cn # 七麦数据官方域名，用于应用市场数据分析、ASO 优化与行业情报服务
-DOMAIN-SUFFIX,webapi.qmai.cn # 七麦数据 Web API 域名，用于平台数据查询与业务接口通信
+DOMAIN-SUFFIX,tasiting.com # 塔斯汀主域名
+DOMAIN-SUFFIX,tastien-external.com # 塔斯汀外部服务域名
+DOMAIN-SUFFIX,tastientech.com # 塔斯汀技术服务域名
+DOMAIN-SUFFIX,hsab-snssdk.tastien-external.com # 塔斯汀外部服务域名
+DOMAIN-SUFFIX,sss-web.tastientech.com # 塔斯汀 Web 服务域名
+DOMAIN-SUFFIX,pictures.tastientech.com # 塔斯汀图片资源域名
 
-# > 天机阁 · AI 紫微斗数命理推演系统
+# > New YoBo（牛约堡）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,tjg.aifeisheng.com # 在线 AI 紫微斗数命理推演与八字命盘分析服务，结合传统易经与 AI 技术提供个性化运势解读
+DOMAIN-SUFFIX,newyobo.com # 牛约堡主域名
 
-# > Dream Whisper AI 智能创作服务
+# > Pizza Hut China（必胜客中国）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,dreamwhisperai.com # AI 语音/文本智能交互与创作服务站点，用于生成梦境叙述、情感对话等内容
+DOMAIN-SUFFIX,pizzahut.com.cn # 必胜客中国主域名
 
-# > MyCompiler 在线 IDE 与代码编辑环境
+# > Domino’s Pizza China（达美乐中国）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,mycompiler.io # 在线编译器/IDE 平台域名，用于提供代码编辑、编译与运行服务
+DOMAIN-SUFFIX,dominos.com.cn # 达美乐中国主域名
 
-# > Hotjob 招聘系统（前程无忧旗下企业招聘服务）
+# > Eastmoney（东方财富）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,wecruit.hotjob.cn # 企业招聘子域，用于校招/社招在线报名与人力资源管理系统访问
-DOMAIN-SUFFIX,xcmg.hotjob.cn # 企业招聘子域，用于企业岗位发布、简历投递与招聘系统访问服务
+DOMAIN-SUFFIX,eastmoney.com # 东方财富主域名
+DOMAIN-SUFFIX,push2.eastmoney.com # 东方财富行情服务域名
+DOMAIN-SUFFIX,emdata.eastmoney.com # 东方财富数据服务域名
+DOMAIN-SUFFIX,guba.eastmoney.com # 东方财富股吧服务域名
+DOMAIN-SUFFIX,so.eastmoney.com # 东方财富搜索服务域名
+DOMAIN-SUFFIX,choice.eastmoney.com # 东方财富 Choice 服务域名
 
-# > 万达影城移动端接口与用户服务域名
+# > Faisys（飞凡金融）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,wandawic.com # 万达影城移动端服务主域名
-DOMAIN-SUFFIX,wdmp-maup.wandawic.com # 万达影城移动端数据上报与用户服务接口
-DOMAIN-SUFFIX,wdmp-api.wandawic.com # 万达影城移动端 API 接口域名
+DOMAIN-SUFFIX,faisys.com # 飞凡金融主域名
+DOMAIN-SUFFIX,fe.faisys.com # 飞凡金融前端服务域名
 
-# > 风控云业务安全与风险控制服务
+# > OpenKylin（开放麒麟）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,fengkongcloud.com # 风控云风险控制与业务安全校验服务域名，用于登录验证、反作弊检测与交易安全防护
+DOMAIN-SUFFIX,openkylin.top # 开放麒麟主域名
 
-# > 爱优惠活动与资源分发服务
+# > WeChat 12321 Reporting（微信 12321 举报）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,iyoudui.com # 爱优惠 (iyoudui) 平台域名，用于优惠活动页面、资源访问与活动落地服务
-DOMAIN-SUFFIX,spm.iyoudui.com # 爱优惠推广统计与资源分发子域，用于活动页面访问支持与请求分发
-DOMAIN-SUFFIX,ctopmweb-cdn.iyoudui.com # 爱优惠 CDN 子域，用于活动页面静态资源、脚本与样式资源加速加载
+DOMAIN-SUFFIX,wechat12321.cn # 微信 12321 举报服务域名
 
-# > 个推科技移动消息推送服务
+# > CLS / Cailian Press（财联社）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,getui.com # 个推科技移动推送与终端通信服务域名，用于应用消息下发、设备注册与推送通道维护
-
-# > 国内 JSP CDN 静态资源分发服务
-
-DOMAIN-SUFFIX,jspcdn.cn # 国内网站 JS 与静态资源 CDN 分发域名，用于前端脚本加载与资源调度
-
-# > KFC（肯德基）中国相关域名
-
-DOMAIN-SUFFIX,kfcdelivery.com.cn # KFC 中国大陆宅急送外卖平台
-DOMAIN-SUFFIX,kfc.com.cn # KFC 中国大陆官网（百胜中国运营）
-
-# > Yum China（百胜中国）官方网站相关域名
-
-DOMAIN-SUFFIX,yumchina.com # 百胜中国官方网站（肯德基、必胜客、塔可钟中国母公司）
-DOMAIN-SUFFIX,abplatform.yumchina.com # 百胜中国 A/B 测试与业务平台域名（用于线上业务实验与功能灰度发布）
-DOMAIN-SUFFIX,bs2.yumchina.com # 百胜中国内部业务系统与服务接口域名（用于门店与线上系统交互）
-DOMAIN-SUFFIX,hwwt8.com # 百胜中国（Yum China）内部技术服务主域，包含资源分发、后台系统与业务支持子域
-DOMAIN-SUFFIX,pcp-pic.hwwt8.com # 百胜中国图片资源分发子域（业务图片加载、静态资源分发）
-DOMAIN-SUFFIX,fp.hwwt8.com # 百胜中国设备指纹/风控辅助子域（用于安全校验或用户环境识别）
-
-# > 麦当劳中国官方服务域名
-
-DOMAIN-SUFFIX,mcdonalds.com.cn # 麦当劳中国（中食麦当劳控股）官网
-DOMAIN-SUFFIX,mcdchina.com # 麦当劳中国旧域名
-DOMAIN-SUFFIX,mcd.cn # 麦当劳中国官网与移动端服务主域名，用于会员服务、活动页面与接口请求
-DOMAIN-SUFFIX,api.mcd.cn # 麦当劳中国接口服务子域，用于订单、会员、活动与数据交互服务
-DOMAIN-SUFFIX,mcdfreshwork.freshchat.com # 麦当劳 Freshchat 在线客服实例域名
-
-# > BURGER KING® 汉堡王中国官网
-
-DOMAIN-SUFFIX,bkchina.cn # 汉堡王中国官方网站，用于展示菜单、门店信息、会员服务与品牌内容
-
-# > 华莱士（Wallace）中国官方网站域名
-
-DOMAIN-SUFFIX,cnhls.com # 华莱士（Wallace）中国快餐连锁品牌官方网站，用于菜单展示、品牌信息、门店查询与在线服务
-DOMAIN-SUFFIX,ai.cnhls.com # 华莱士官方 AI 客服/智能服务子域名（用于在线问答与用户交互界面）
-
-# > 上海智龙（Wiselong）餐饮业务平台相关域名
-
-DOMAIN-SUFFIX,llm.wiselong.com # 上海智龙企业业务平台子域名，用于餐饮服务平台访问与系统接口
-
-# > 塔斯汀（TASITING）中国汉堡快餐连锁官方网站
-
-DOMAIN-SUFFIX,tasiting.com # 塔斯汀中国汉堡品牌官网域名，用于品牌信息、门店查询与加盟服务
-DOMAIN-SUFFIX,hsab-snssdk.tastien-external.com # Tasiting 相关托管子域
-DOMAIN-SUFFIX,sss-web.tastientech.com # Tasiting 技术服务或 Web 平台子域
-DOMAIN-SUFFIX,pictures.tastientech.com # Tasiting 平台图片资源分发子域
-
-# > 牛约堡（New YoBo）中国汉堡连锁品牌官方网站
-
-DOMAIN-SUFFIX,newyobo.com # 牛约堡品牌官网域名，用于手作牛肉汉堡品牌信息、产品展示与加盟服务
-DOMAIN-SUFFIX,m.newyobo.com # 牛约堡移动端官网域名，用于移动设备访问品牌信息与加盟咨询
-
-# > Pizza Hut（必胜客）中国相关域名
-
-DOMAIN-SUFFIX,pizzahut.com.cn # 必胜客中国官方网站，用于菜单展示、在线点餐、门店查询与品牌信息服务
-
-# > Domino’s Pizza 达美乐中国官方网站
-
-DOMAIN-SUFFIX,dominos.com.cn # Domino’s Pizza 中国官网域名，用于在线点餐、菜单展示、门店查询与品牌信息发布
-
-# > Freshchat 在线客服服务（Freshworks）
-
-DOMAIN-SUFFIX,freshchat.com # Freshworks 在线客服平台域名，用于网站与 App 内嵌客服会话服务
-DOMAIN-SUFFIX,assetscdn-wchat.freshchat.com # Freshchat WebChat 静态资源 CDN 域名，用于加载聊天脚本、样式与前端交互资源
-DOMAIN-SUFFIX,freshworksapi.com # Freshworks 官方 API 服务域名，用于客服系统接口调用与数据交互
-DOMAIN-SUFFIX,rts-static-prod.freshworksapi.com # Freshworks 实时通信静态资源域名，用于加载 WebSocket 相关脚本与前端实时会话组件
-DOMAIN-SUFFIX,freshbots.ai # Freshworks Freshbots AI 客服机器人平台域名，用于智能问答、自动回复与会话流程管理
-DOMAIN-SUFFIX,cdn.freshbots.ai # Freshbots 静态资源 CDN 域名，用于加载聊天脚本、前端组件与机器人交互资源
-
-# > 东方财富（Eastmoney）相关域名
-
-DOMAIN-SUFFIX,eastmoney.com # 东方财富网中国大陆主站（金融资讯与证券数据平台）
-DOMAIN-SUFFIX,push2.eastmoney.com # 东方财富实时行情推送与数据接口域名（股票、基金、指数数据 API）
-DOMAIN-SUFFIX,emdata.eastmoney.com # 东方财富数据服务子域（行情与财务数据接口）
-DOMAIN-SUFFIX,guba.eastmoney.com # 东方财富股吧社区平台
-DOMAIN-SUFFIX,so.eastmoney.com # 东方财富站内搜索服务
-DOMAIN-SUFFIX,choice.eastmoney.com # 东方财富 Choice 金融终端与数据服务平台
-
-# > 飞凡金融（Faisys）支付与结算相关域名
-
-DOMAIN-SUFFIX,faisys.com # 飞凡金融科技（Faisys）主域名（支付清算与金融科技服务）
-DOMAIN-SUFFIX,fe.faisys.com # 飞凡金融前端接口域名（支付流程与交易结算前端服务）
-
-# > Godot Hub 游戏引擎社区和资源平台
-
-DOMAIN-SUFFIX,godothub.com # Godot Hub 网站，提供 Godot 游戏引擎社区交流、教程及资源下载镜像，用于游戏开发者学习与分享
-DOMAIN-SUFFIX,godothub.atomgit.net # Godot Hub 镜像域名，用于提供 Godot 引擎社区交流与资源同步访
-
-# > Linux.cn 开源技术社区与资讯平台 (2026.02.01停止运营)
-
-DOMAIN-SUFFIX,linux.cn # Linux.cn 官方网站，提供 Linux 及开源技术资讯、教程与社区交流内容（当前已停止更新）
-
-# > openKylin 开放麒麟开源社区与操作系统官网
-
-DOMAIN-SUFFIX,openkylin.top # openKylin 社区官网，开放原子开源基金会孵化运营的开源桌面操作系统与社区平台，提供系统资讯、下载和技术交流
-
-# > 微信 12321 网络不良与垃圾信息举报受理中心
-
-DOMAIN-SUFFIX,wechat12321.cn # 微信平台配合12321网络不良与垃圾信息举报受理中心的官方通道，用于诈骗、骚扰及违法信息举报
-
-# > 财联社（CLS）财经资讯平台
-
-DOMAIN-SUFFIX,cls.cn # 财联社财经新闻与金融信息服务平台主域名，提供资本市场资讯、A股电报、宏观经济新闻与金融数据服务
-DOMAIN-SUFFIX,cailianpress.com # 财联社财经新闻与金融资讯平台
-DOMAIN-SUFFIX,image.cailianpress.com # 财联社图片资源服务
+DOMAIN-SUFFIX,cls.cn # 财联社主域名
+DOMAIN-SUFFIX,cailianpress.com # 财联社服务域名
+DOMAIN-SUFFIX,image.cailianpress.com # 财联社图片资源域名
