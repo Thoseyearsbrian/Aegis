@@ -2031,107 +2031,77 @@ DOMAIN-SUFFIX,api-ios.zhipin.com # BOSS 直聘接口域名
 DOMAIN-SUFFIX,img.bosszhipin.com # BOSS 直聘图片资源域名
 DOMAIN-SUFFIX,img2.bosszhipin.com # BOSS 直聘图片资源域名
 
-# > 国内内容与信息服务平台通信节点
+# > Tencent Turing CAPTCHA（腾讯验证码）相关域名
+# - 校对时间：2026-03-25
 
-IP-CIDR,61.170.81.214/24 # 百科类内容平台移动端访问节点点
-IP-CIDR,58.215.50.243/24 # 百科类内容查询与页面访问服务节点
-IP-CIDR,122.228.195.19/24 # 百科类内容查询与页面访问服务节点
-IP-CIDR,114.80.179.165/24 # 百科类内容查询与页面访问服务节点
-IP-CIDR,180.97.232.65/24 # 百科类内容查询与页面访问服务节点
+DOMAIN-SUFFIX,turing.captcha.gtimg.com # 腾讯验证码服务域名
 
-# > Paddle SaaS 支付与订阅平台静态资源分发服务
+# > ZCOOL（站酷）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,cdn.paddle.com # Paddle 官方静态资源与前端组件 CDN
+DOMAIN-SUFFIX,dancf.com # 站酷主域名
+DOMAIN-SUFFIX,cdn.dancf.com # 站酷内容分发域名
 
-# > Tencent Turing 人机验证（CAPTCHA）服务
+# > Gaoding（稿定设计）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,turing.captcha.gtimg.com # 腾讯 Turing 人机验证服务，用于登录、注册与关键操作的滑块/验证码校验
+DOMAIN-SUFFIX,gaoding.com # 稿定设计主域名
+DOMAIN-SUFFIX,gaoding.net # 稿定设计服务域名
+DOMAIN-SUFFIX,gdstatic.com # 稿定设计静态资源域名
+DOMAIN-SUFFIX,fingerprint.gaoding.com # 稿定设计风控服务域名
 
-# > 站酷（ZCOOL）设计社区与内容资源分发服务
+# > Wind（万得信息）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,dancf.com # 站酷（ZCOOL）设计社区主域名，用于作品展示、创意内容浏览与社区访问
-DOMAIN-SUFFIX,cdn.dancf.com # 站酷（ZCOOL）前端静态资源与媒体内容 CDN，用于图片、脚本与样式等资源分发
+DOMAIN-SUFFIX,hlgdata.com # 万得信息数据服务域名
+DOMAIN-SUFFIX,wind.hlgdata.com # 万得信息行情服务域名
 
-# > 稿定设计（Gaoding）在线设计与素材服务平台
+# > Huaban（花瓣网）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,gaoding.com # 稿定设计官方主域名，提供在线平面设计、视频编辑、模板与素材服务，属国内设计工具平台
-DOMAIN-SUFFIX,gaoding.net # 稿定设计相关服务域名，用于静态资源、接口或业务扩展访问
-DOMAIN-SUFFIX,gdstatic.com # 稿定设计静态资源与素材 CDN 域名，用于图片、模板与前端资源加载
-DOMAIN-SUFFIX,fingerprint.gaoding.com # 稿定设计风控与设备指纹识别接口，用于账号安全与反刷校验
+DOMAIN-SUFFIX,huaban.com # 花瓣网主域名
+DOMAIN-SUFFIX,grocery-cdn.huaban.com # 花瓣网内容分发域名
 
-# > Wind 金融终端数据服务节点（万得信息）
+# > Huke88（虎课网）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,wind.hlgdata.com # Wind 金融终端行情与数据分发节点，用于金融市场数据推送与查询服务
-DOMAIN-SUFFIX,hlgdata.com # Wind 相关数据服务基础域名，承载金融行情、指标与数据接口通信
+DOMAIN-SUFFIX,huke88.com # 虎课网主域名
 
-# > 花瓣网（Huaban）图片与设计素材 CDN 资源分发服务
+# > 91 Assistant（91 手机助手）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,huaban.com # 花瓣网主站与设计内容社区服务
-DOMAIN-SUFFIX,grocery-cdn.huaban.com # 花瓣网静态资源与图片素材 CDN 分发节点
+DOMAIN-SUFFIX,91.com # 91 服务域名
+DOMAIN-SUFFIX,zs.91.com # 91 手机助手主域名
+DOMAIN-SUFFIX,apk.91.com # 91 手机助手下载服务域名
+DOMAIN-SUFFIX,down.91.com # 91 手机助手下载服务域名
+DOMAIN-SUFFIX,static.91img.com # 91 手机助手静态资源域名
 
-# > 虎课网（Huke88）设计学习与在线教育平台
+# > Wandoujia（豌豆荚）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,huke88.com # 虎课网主站，用于设计、摄影、剪辑等在线课程与教学内容访问
+DOMAIN-SUFFIX,wandoujia.com # 豌豆荚主域名
+DOMAIN-SUFFIX,download.wandoujia.com # 豌豆荚下载服务域名
+DOMAIN-SUFFIX,static.wandoujia.com # 豌豆荚静态资源域名
+DOMAIN-SUFFIX,api.wandoujia.com # 豌豆荚接口域名
 
-# > Char123 中文内容与静态资源服务
+# > Azure China Storage（Azure 中国存储服务）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,static.char123.com # Char123（查字典/中文内容平台）静态资源域名，用于页面样式、脚本与图片等前端资源加载
+DOMAIN-SUFFIX,blob.core.chinacloudapi.cn # Azure 中国对象存储域名
+DOMAIN-SUFFIX,web.core.chinacloudapi.cn # Azure 中国静态网站域名
+DOMAIN-SUFFIX,core.chinacloudapi.cn # Azure 中国云服务域名
 
-# > JSInfo 网络测速与诊断服务
+# > Beisen（北森）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,speedtest4.jsinfo.net # JSInfo 网络测速与链路诊断服务节点，用于带宽测试、延迟检测与网络质量评估
-DOMAIN-SUFFIX,speedauto.jsinfo.net # JSInfo 网络测速与诊断日志服务域名，用于测速结果记录、链路分析与网络质量评估
-IP-CIDR,61.160.167.78/24 # JSInfo 网络测速与诊断服务后端节点，用于测速结果回传与网络质量分析
-IP-CIDR,58.222.181.206/24 # JSInfo 网络测速与诊断服务后端节点，用于跨域测速数据回传与诊断请求
+DOMAIN-SUFFIX,stcms.beisen.com # 北森服务域名
 
-# > jsDelivr 第三方国内镜像节点（kai233）
+# > Kuaishou Game（快手游戏）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,jsd.kai233.top # jsDelivr 第三方国内镜像域名，用于前端脚本与静态资源加速加载
-
-# > 第三方静态资源与图片托管服务
-
-DOMAIN-SUFFIX,img.kai233.top # 第三方图片静态资源托管域名，用于博客或个人站点的图片加载与前端资源引用
-DOMAIN-SUFFIX,img.lehinet.com # 第三方图片静态资源托管域名，用于博客、内容站点或页面素材加载
-
-# > 工商网监电子标识（EBS）官方校验服务
-
-DOMAIN-SUFFIX,szcert.ebs.org.cn # 工商网监电子标识（EBS）官方校验与认证服务域名，用于网站主体资质核验与监管合规验证
-
-# > 91手机助手（91 Assistant）应用商店与服务平台
-
-DOMAIN-SUFFIX,91.com # 91域名主站，用于多项91系列产品与服务入口
-DOMAIN-SUFFIX,zs.91.com # 91手机助手主域名（安卓/苹果应用市场与软件管理）
-DOMAIN-SUFFIX,apk.91.com # 91应用市场 APK 下载与静态资源服务
-DOMAIN-SUFFIX,down.91.com # 91助手下载安装与软件中心资源下载
-DOMAIN-SUFFIX,static.91img.com # 91助手静态资源 CDN，用于界面脚本/样式等资源分发
-
-# > 豌豆荚（Wandoujia）第三方应用市场
-
-DOMAIN-SUFFIX,wandoujia.com # 豌豆荚官方入口域名，用于应用市场访问与信息展示
-DOMAIN-SUFFIX,download.wandoujia.com # 豌豆荚应用下载与安装包分发
-DOMAIN-SUFFIX,static.wandoujia.com # 豌豆荚静态资源 CDN，用于前端界面组件与脚本/样式加载
-DOMAIN-SUFFIX,api.wandoujia.com # 豌豆荚 API 接口域名，用于搜索、更新、应用信息查询等业务逻辑
-
-# > Microsoft Azure Blob Storage（中国）对象存储服务
-
-DOMAIN-SUFFIX,blob.core.chinacloudapi.cn # Azure Blob Storage 对象存储公共终端域，用于访问托管的 blob 对象与静态资源
-DOMAIN-SUFFIX,web.core.chinacloudapi.cn # Azure Blob Storage 静态网站/资源访问终端（支持 Web 访问模式）
-DOMAIN-SUFFIX,core.chinacloudapi.cn # Azure 中国云通用 API 域名后缀
-
-# > 北森 Beisen 企业级服务域名
-
-DOMAIN-SUFFIX,stcms.beisen.com # 北森 Beisen 企业级人才管理/CRM 平台业务子域，用于 SaaS 平台组件与业务交互服务
-
-# > 快手游戏（Kuaishou Game）Web 游戏与业务入口
-
-DOMAIN-SUFFIX,kgw.com # 快手游戏业务主域名，用于 Web 游戏入口、游戏页面访问及相关服务请求
-DOMAIN-SUFFIX,var.kgw.com # 快手游戏 Web 端参数/资源域名，用于游戏页面配置加载、业务脚本与资源访问
-DOMAIN-SUFFIX,ks-game-web.kgw.com # 快手游戏 Web 平台组件子域，用于游戏入口页面与前端资源请求
-
-# > 科创爱（kechuangai.com）企业服务与业务接口域名
-
-DOMAIN-SUFFIX,kechuangai.com # 科创爱主域名，用于企业/服务展示、业务访问页面与数据交互接口
-DOMAIN-SUFFIX,v1-kling.kechuangai.com # 科创爱业务接口子域，用于版本 v1 业务服务访问及组件交互
+DOMAIN-SUFFIX,kgw.com # 快手游戏主域名
+DOMAIN-SUFFIX,var.kgw.com # 快手游戏资源域名
+DOMAIN-SUFFIX,ks-game-web.kgw.com # 快手游戏 Web 服务域名
 
 # > 哈啰出行（HelloBike）业务与平台服务
 
