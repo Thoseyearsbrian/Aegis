@@ -1481,12 +1481,13 @@ DOMAIN-SUFFIX,httpdns.yunxinfw.com # 网易质云 HTTPDNS 服务域名
 DOMAIN-SUFFIX,game.163.com # 网易游戏服务域名
 DOMAIN-SUFFIX,timejs.game.163.com # 网易游戏脚本服务域名
 
-# > WisdomIR 投资者关系在线服务
+# > WisdomIR（投资者关系在线服务）相关域名
+# - 校对时间：2026-03-25
 
-DOMAIN-SUFFIX,wisdomir.com # WisdomIR 投资者关系服务主域，用于企业公告、业绩披露与信息管理平台访问
-DOMAIN-SUFFIX,website.wisdomir.com # WisdomIR 企业网站支撑域，用于内容展示与交互页面资源
-DOMAIN-SUFFIX,stockticker.website.wisdomir.com # WisdomIR 股票行情图表服务域名，用于投资者关系页面中股票走势展示与图形组件
-DOMAIN-SUFFIX,analytics2.website.wisdomir.com # WisdomIR 页面统计与分析支持域名，用于投资者关系网站访问指标采集与展示
+DOMAIN-SUFFIX,wisdomir.com # WisdomIR 主域名
+DOMAIN-SUFFIX,website.wisdomir.com # WisdomIR 网站服务域名
+DOMAIN-SUFFIX,stockticker.website.wisdomir.com # WisdomIR 行情服务域名
+DOMAIN-SUFFIX,analytics2.website.wisdomir.com # WisdomIR 统计服务域名
 
 # > 新浪邮箱（Sina Mail）
 
