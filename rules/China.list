@@ -1500,12 +1500,18 @@ DOMAIN-SUFFIX,login.sina.com.cn # 新浪登录服务域名
 DOMAIN-SUFFIX,passport.weibo.com # 微博登录服务域名
 DOMAIN-SUFFIX,sso.sina.com.cn # 新浪单点登录服务域名
 
+
 # > Tools & Misc Services（工具与其他服务）相关域名
 # - 校对时间：2026-03-25
 
 DOMAIN-SUFFIX,csdn.net # CSDN 技术社区域名
 DOMAIN-SUFFIX,ps.gaoding.com # 稿定设计图片处理服务域名
 DOMAIN-SUFFIX,19ego.cn # 19EGO 营销服务域名
+
+# > DigitalYCHEE（数码荔枝）相关域名
+# - 校对时间：2026-03-26
+
+DOMAIN-SUFFIX,lizhi.shop # 数码荔枝正版软件商店域名
 
 # > Gaming Services（游戏服务）相关域名
 # - 校对时间：2026-03-25
