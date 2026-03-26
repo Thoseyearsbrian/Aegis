@@ -4,8 +4,8 @@
 # - 特征：涵盖 GitHub 平台核心服务域名与基础设施节点
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-07
-# - 校对时间：2026-03-07
+# - 更新时间：2026-03-26
+# - 校对时间：2026-03-26
 
 # > GitHub Core Services（GitHub 主站与基础服务）
 
@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,status.github.com # GitHub 服务状态站点
 DOMAIN-SUFFIX,enterprise.github.com # GitHub Enterprise 服务入口
 DOMAIN-SUFFIX,github.careers # GitHub 招聘平台
 DOMAIN-SUFFIX,git.io # GitHub 短链接服务
+DOMAIN-SUFFIX,gh.io # GitHub 官方短链接服务
 
 # > GitHub API Services（GitHub API 接口服务）
 
