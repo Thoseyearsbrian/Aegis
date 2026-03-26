@@ -4,8 +4,8 @@
 # - 特征：识别广告投放、广告竞价、广告请求、广告资源分发、广告追踪及明确广告子域等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-23
-# - 校对时间：2026-03-23
+# - 更新时间：2026-03-26
+# - 校对时间：2026-03-26
 
 # > 广告相关域名
 
@@ -32,6 +32,7 @@ DOMAIN-SUFFIX,mweb-hb.presage.io # Presage 广告竞价域名
 DOMAIN-SUFFIX,p.teads.tv # Teads 视频广告域名
 DOMAIN-SUFFIX,a.mgid.com # MGID 内容推荐广告域名
 DOMAIN-SUFFIX,apdcdn.tc.qq.com # 腾讯广告资源域名
+DOMAIN-SUFFIX,tsbdy.gtimg.com # 腾讯广告资源域名
 DOMAIN-SUFFIX,admaterial.gdtimg.com # 腾讯广告素材分发域名
 DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告标识同步域名
 DOMAIN-SUFFIX,apps.rokt.com # Rokt 广告推荐域名
