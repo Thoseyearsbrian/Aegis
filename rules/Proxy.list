@@ -212,43 +212,46 @@ DOMAIN-SUFFIX,api.amz123.com # AMZ123 接口域名
 DOMAIN-SUFFIX,tool.amz123.com # AMZ123 工具服务域名
 DOMAIN-SUFFIX,forum.amz123.com # AMZ123 社区论坛域名
 
-# > KFC（肯德基）相关域名
+# > KFC 相关域名
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,kfc.com # KFC 全球主站（美国）
-DOMAIN-SUFFIX,kfc.co.uk # KFC 英国站点
-DOMAIN-SUFFIX,kfc.ca # KFC 加拿大站点
-DOMAIN-SUFFIX,kfc.com.au # KFC 澳大利亚站点
-DOMAIN-SUFFIX,kfc.co.nz # KFC 新西兰站点
-DOMAIN-SUFFIX,kfc.co.jp # KFC 日本站点
-DOMAIN-SUFFIX,kfc.com.sg # KFC 新加坡站点
-DOMAIN-SUFFIX,kfc.com.my # KFC 马来西亚站点
-DOMAIN-SUFFIX,kfc.co.th # KFC 泰国站点
-DOMAIN-SUFFIX,kfc.co.kr # KFC 韩国站点
-DOMAIN-SUFFIX,kfc.co.in # KFC 印度站点
-DOMAIN-SUFFIX,kfc.com.ph # KFC 菲律宾站点
-DOMAIN-SUFFIX,kfc.com.tw # KFC 台湾站点
-DOMAIN-SUFFIX,kfchk.com # KFC 香港与澳门在线订餐与会员服务平台
-DOMAIN-SUFFIX,global.kfc.com # KFC 全球品牌与企业信息门户
+DOMAIN-SUFFIX,kfc.com # KFC 全球主站域名
+DOMAIN-SUFFIX,kfc.co.uk # KFC 英国站点域名
+DOMAIN-SUFFIX,kfc.ca # KFC 加拿大站点域名
+DOMAIN-SUFFIX,kfc.com.au # KFC 澳大利亚站点域名
+DOMAIN-SUFFIX,kfc.co.nz # KFC 新西兰站点域名
+DOMAIN-SUFFIX,kfc.co.jp # KFC 日本站点域名
+DOMAIN-SUFFIX,kfc.com.sg # KFC 新加坡站点域名
+DOMAIN-SUFFIX,kfc.com.my # KFC 马来西亚站点域名
+DOMAIN-SUFFIX,kfc.co.th # KFC 泰国站点域名
+DOMAIN-SUFFIX,kfc.co.kr # KFC 韩国站点域名
+DOMAIN-SUFFIX,kfc.co.in # KFC 印度站点域名
+DOMAIN-SUFFIX,kfc.com.ph # KFC 菲律宾站点域名
+DOMAIN-SUFFIX,kfc.com.tw # KFC 台湾站点域名
+DOMAIN-SUFFIX,kfchk.com # KFC 港澳服务域名
+DOMAIN-SUFFIX,global.kfc.com # KFC 全球品牌域名
 
-# > McDonald’s（麦当劳）相关域名
+# > McDonald's 相关域名
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,mcdonalds.com # 麦当劳全球主站（美国）
-DOMAIN-SUFFIX,mcd.com # 麦当劳国际短链接主域（用于重定向与营销跳转）
-DOMAIN-SUFFIX,mcdonalds.ca # 麦当劳加拿大站点
-DOMAIN-SUFFIX,mcdonalds.co.uk # 麦当劳英国站点
-DOMAIN-SUFFIX,mcdonalds.de # 麦当劳德国站点
-DOMAIN-SUFFIX,mcdonalds.fr # 麦当劳法国站点
-DOMAIN-SUFFIX,mcdonalds.com.au # 麦当劳澳大利亚站点
-DOMAIN-SUFFIX,mcdonalds.com.sg # 麦当劳新加坡站点
-DOMAIN-SUFFIX,mcdonalds.co.jp # 麦当劳日本站点
-DOMAIN-SUFFIX,mcdelivery.com.sg # 麦当劳新加坡外卖服务
-DOMAIN-SUFFIX,mcdonalds.com.hk # 麦当劳香港站点
-DOMAIN-SUFFIX,experience.mcdonalds.com # 麦当劳顾客体验平台（问卷、积分等）
-DOMAIN-SUFFIX,global.mcdonalds.com # 麦当劳全球内容与品牌介绍门户
+DOMAIN-SUFFIX,mcdonalds.com # McDonald's 全球主站域名
+DOMAIN-SUFFIX,mcd.com # McDonald's 短链接域名
+DOMAIN-SUFFIX,mcdonalds.ca # McDonald's 加拿大站点域名
+DOMAIN-SUFFIX,mcdonalds.co.uk # McDonald's 英国站点域名
+DOMAIN-SUFFIX,mcdonalds.de # McDonald's 德国站点域名
+DOMAIN-SUFFIX,mcdonalds.fr # McDonald's 法国站点域名
+DOMAIN-SUFFIX,mcdonalds.com.au # McDonald's 澳大利亚站点域名
+DOMAIN-SUFFIX,mcdonalds.com.sg # McDonald's 新加坡站点域名
+DOMAIN-SUFFIX,mcdonalds.co.jp # McDonald's 日本站点域名
+DOMAIN-SUFFIX,mcdelivery.com.sg # McDonald's 新加坡外送服务域名
+DOMAIN-SUFFIX,mcdonalds.com.hk # McDonald's 香港站点域名
+DOMAIN-SUFFIX,experience.mcdonalds.com # McDonald's 客户体验服务域名
+DOMAIN-SUFFIX,global.mcdonalds.com # McDonald's 全球品牌域名
 
-# > Papa John’s 披萨官方网站
+# > Papa John's 相关域名
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,papajohns.com # Papa John’s 全球官方网站域名，用于品牌信息发布、在线点餐与门店查询
+DOMAIN-SUFFIX,papajohns.com # Papa John's 官方主站域名
 
 # > Temu（拼多多旗下海外电商平台）相关域名
 
