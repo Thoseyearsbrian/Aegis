@@ -254,77 +254,80 @@ DOMAIN-SUFFIX,global.mcdonalds.com # McDonald's 全球品牌域名
 DOMAIN-SUFFIX,papajohns.com # Papa John's 官方主站域名
 
 # > Temu（拼多多旗下海外电商平台）相关域名
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,temu.com # Temu 官方网站主域（美国、加拿大、欧洲等）
-DOMAIN-SUFFIX,temu.ca # Temu 加拿大国家域名
-DOMAIN-SUFFIX,temu.co.uk # Temu 英国站点
-DOMAIN-SUFFIX,temuapp.com # Temu 移动端 App 回连与接口调用主域
-DOMAIN-SUFFIX,temu.cn # Temu 备案使用的中国域名（与拼多多相关联）
-DOMAIN-SUFFIX,temu.io # Temu 技术测试与接口域名（部分服务后台调用）
-DOMAIN-SUFFIX,temu-cdn.com # Temu 静态资源 CDN 域名（图像、CSS、JS 等）
-DOMAIN-SUFFIX,img.temu.com # Temu 商品图片与前端静态资源域名
-DOMAIN-SUFFIX,api.temu.com # Temu 移动端 API 请求接口（需境外访问支持）
-DOMAIN-SUFFIX,log.temu.com # Temu 数据统计与客户端日志上报接口
+DOMAIN-SUFFIX,temu.com # Temu 主站域名
+DOMAIN-SUFFIX,temu.ca # Temu 加拿大站点域名
+DOMAIN-SUFFIX,temu.co.uk # Temu 英国站点域名
+DOMAIN-SUFFIX,temuapp.com # Temu 应用服务域名
+DOMAIN-SUFFIX,temu.cn # Temu 关联域名
+DOMAIN-SUFFIX,temu.io # Temu 服务域名
+DOMAIN-SUFFIX,temu-cdn.com # Temu 静态资源域名
+DOMAIN-SUFFIX,img.temu.com # Temu 图片资源域名
+DOMAIN-SUFFIX,api.temu.com # Temu 接口域名
+DOMAIN-SUFFIX,log.temu.com # Temu 日志上报域名
 
 # > CapCut（剪映国际版）相关域名
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,capcut.com # CapCut 官方网站主域，用于网页版剪辑、登录等功能
-DOMAIN-SUFFIX,capcut.net # CapCut 技术接口与静态资源服务域
-DOMAIN-SUFFIX,api.capcut.net # CapCut 移动端与网页剪辑 API 接口
-DOMAIN-SUFFIX,lf3-capcut.faceulv.com # CapCut 素材与特效资源下载（Lark File CDN）
-DOMAIN-SUFFIX,lf6-capcut.faceulv.com # CapCut 视频模板与滤镜资源 CDN 域
-DOMAIN-SUFFIX,lf9-capcut.faceulv.com # CapCut 预设特效与剪辑组件资源
-DOMAIN-SUFFIX,static.capcut.net # CapCut 静态资源加载（CSS / JS / 图片等）
-DOMAIN-SUFFIX,ugcapcut.com # CapCut 用户内容分享短链服务
-DOMAIN-SUFFIX,v-cdn.capcut.com # CapCut 视频内容分发 CDN（预览视频、输出视频加载）
-IP-CIDR,161.117.0.0/16 # CapCut 所属 Bytedance 新加坡网络段（主服务器部署区域）
+DOMAIN-SUFFIX,capcut.com # CapCut 主站域名
+DOMAIN-SUFFIX,capcut.net # CapCut 服务域名
+DOMAIN-SUFFIX,api.capcut.net # CapCut 接口域名
+DOMAIN-SUFFIX,lf3-capcut.faceulv.com # CapCut 静态资源域名
+DOMAIN-SUFFIX,lf6-capcut.faceulv.com # CapCut 静态资源域名
+DOMAIN-SUFFIX,lf9-capcut.faceulv.com # CapCut 静态资源域名
+DOMAIN-SUFFIX,static.capcut.net # CapCut 静态资源域名
+DOMAIN-SUFFIX,ugcapcut.com # CapCut 分享服务域名
+DOMAIN-SUFFIX,v-cdn.capcut.com # CapCut 视频资源域名
 
 # > Uber（优步）相关域名
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,uber.com # Uber 官方主站，用于注册、叫车、用户登录等功能
-DOMAIN-SUFFIX,uberstatic.com # Uber 静态资源加载域（JS / CSS / 图片等）
-DOMAIN-SUFFIX,maps.uberinternal.com # Uber 内部地图服务接口（调度、路线计算等）
-DOMAIN-SUFFIX,api.uber.com # Uber 移动端与网页 API 接口（打车、订单、状态更新等）
-DOMAIN-SUFFIX,riders.uber.com # Uber 乘客子域，订单与账户管理入口
-DOMAIN-SUFFIX,partners.uber.com # Uber 司机端入口，用于登录、订单管理等
-DOMAIN-SUFFIX,auth.uber.com # Uber 登录与授权系统
-DOMAIN-SUFFIX,profile.uber.com # Uber 用户资料中心
-DOMAIN-SUFFIX,safety.uber.com # Uber 安全中心与投诉系统
-DOMAIN-SUFFIX,delivery.uber.com # Uber Eats（优食）入口与配送功能页面
-DOMAIN-SUFFIX,ubereats.com # Uber Eats 官方主站（外卖服务）
-DOMAIN-SUFFIX,cdn.uber.com # Uber 内容分发网络（CDN 资源）
-IP-CIDR,143.204.0.0/16 # Uber 使用的 AWS CloudFront 节点 IP 段之一（用于内容分发）
+DOMAIN-SUFFIX,uber.com # Uber 主站域名
+DOMAIN-SUFFIX,uberstatic.com # Uber 静态资源域名
+DOMAIN-SUFFIX,maps.uberinternal.com # Uber 地图服务域名
+DOMAIN-SUFFIX,api.uber.com # Uber 接口域名
+DOMAIN-SUFFIX,riders.uber.com # Uber 乘客服务域名
+DOMAIN-SUFFIX,partners.uber.com # Uber 司机服务域名
+DOMAIN-SUFFIX,auth.uber.com # Uber 授权服务域名
+DOMAIN-SUFFIX,profile.uber.com # Uber 账户服务域名
+DOMAIN-SUFFIX,safety.uber.com # Uber 安全服务域名
+DOMAIN-SUFFIX,delivery.uber.com # Uber 配送服务域名
+DOMAIN-SUFFIX,ubereats.com # Uber Eats 主站域名
+DOMAIN-SUFFIX,cdn.uber.com # Uber 静态资源域名
 
 # > Lemon8 图文社区平台相关域名（字节跳动旗下）
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,lemon8-app.com # Lemon8 主站及 API 接口域名
-DOMAIN-SUFFIX,api.lemon8-app.com # 主 API 请求接口，用于内容加载、评论、用户资料等
-DOMAIN-SUFFIX,web.lemon8-app.com # Web 端内容展示服务
-DOMAIN-SUFFIX,sg-image.lemon8-app.com # 图文内容图片 CDN（新加坡节点）
-DOMAIN-SUFFIX,jp-image.lemon8-app.com # 图文内容图片 CDN（日本节点）
-DOMAIN-SUFFIX,us-image.lemon8-app.com # 图文内容图片 CDN（美国节点）
-DOMAIN-SUFFIX,tiktokcdn.com # 依赖共用 TikTok CDN 的媒体资源
+DOMAIN-SUFFIX,lemon8-app.com # Lemon8 平台主域名
+DOMAIN-SUFFIX,api.lemon8-app.com # Lemon8 API 接口域名
+DOMAIN-SUFFIX,web.lemon8-app.com # Lemon8 Web 服务域名
+DOMAIN-SUFFIX,sg-image.lemon8-app.com # Lemon8 图片资源域名
+DOMAIN-SUFFIX,jp-image.lemon8-app.com # Lemon8 图片资源域名
+DOMAIN-SUFFIX,us-image.lemon8-app.com # Lemon8 图片资源域名
+DOMAIN-SUFFIX,tiktokcdn.com # 字节跳动媒体资源域名
 
 # > FOX Sports 体育平台相关域名
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,foxsports.com # FOX Sports 主站，用于比赛直播、体育新闻等
-DOMAIN-SUFFIX,foxsportsgo.com # FOX Sports Go 平台（移动/OTT 端体育流媒体）
-DOMAIN-SUFFIX,login.foxsports.com # 登录认证服务域名
-DOMAIN-SUFFIX,api.foxsports.com # 数据与内容 API（比分、新闻、赛程）
-DOMAIN-SUFFIX,images.foxsports.com # 体育内容图像资源
-DOMAIN-SUFFIX,video.foxsports.com # 视频内容流媒体节点
-DOMAIN-SUFFIX,foxsports-fan.awsevents.com # AWS 上托管的交互/活动服务接口
-DOMAIN-SUFFIX,foxdcg.com # FOX Digital Consumer Group，内容分发与广告系统域名
+DOMAIN-SUFFIX,foxsports.com # FOX Sports 官方主站
+DOMAIN-SUFFIX,foxsportsgo.com # FOX Sports 流媒体服务域名
+DOMAIN-SUFFIX,login.foxsports.com # FOX Sports 登录服务域名
+DOMAIN-SUFFIX,api.foxsports.com # FOX Sports 数据接口域名
+DOMAIN-SUFFIX,images.foxsports.com # FOX Sports 图片资源域名
+DOMAIN-SUFFIX,video.foxsports.com # FOX Sports 视频服务域名
+DOMAIN-SUFFIX,foxsports-fan.awsevents.com # FOX Sports 互动活动服务域名
+DOMAIN-SUFFIX,foxdcg.com # FOX Sports 数字服务相关域名
 
 # > TikTok 相关域名
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,tiktok.com # TikTok 主站与账号服务（含主页、视频浏览、创作者功能等）
-DOMAIN-SUFFIX,tiktokcdn.com # TikTok 静态资源 CDN（视频文件、图像封面、脚本加载）
-DOMAIN-SUFFIX,tiktokv.com # TikTok 视频内容短链跳转域名（用于外链视频分享）
-DOMAIN-SUFFIX,ttwstatic.com # TikTok 第三方托管静态资源域名（脚本、插件组件等）
-DOMAIN-SUFFIX,muscdn.com # TikTok 历史内容分发域（旧版本视频、音频资源）
-DOMAIN-SUFFIX,byteoversea.com # 字节跳动国际服务平台域名（TikTok 母公司海外 CDN 与接口）
-IP-CIDR,161.117.0.0/16 # TikTok / ByteDance 海外服务通信段（新加坡集群）
+DOMAIN-SUFFIX,tiktok.com # TikTok 主站域名
+DOMAIN-SUFFIX,tiktokcdn.com # TikTok 静态资源域名
+DOMAIN-SUFFIX,tiktokv.com # TikTok 视频服务域名
+DOMAIN-SUFFIX,ttwstatic.com # TikTok 静态资源域名
+DOMAIN-SUFFIX,muscdn.com # TikTok 媒体资源域名
+DOMAIN-SUFFIX,byteoversea.com # 字节跳动海外服务域名
 
 # > 字节跳动视频通话与多媒体通信服务域名（VCS）
 
