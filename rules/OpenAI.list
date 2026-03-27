@@ -5,7 +5,7 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-15
+# - 更新时间：2026-03-27
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -25,6 +25,8 @@ DOMAIN-SUFFIX,oaistatic.com # OpenAI 静态资源服务
 DOMAIN-SUFFIX,persistent.oaistatic.com # OpenAI 持久化静态资源
 DOMAIN-SUFFIX,openaiusercontent.com # OpenAI 用户资源托管
 DOMAIN-SUFFIX,docs.openai.com # OpenAI 开发者文档站点
+DOMAIN-SUFFIX,auth0.openai.com # OpenAI 身份认证服务域名
+DOMAIN-SUFFIX,openaipublic.blob.core.windows.net # OpenAI 公共资源托管域名
 
 # > OpenAI ChatGPT Actions Egress Network (ChatGPT Actions 官方出口网络（Azure）)
 # - 数据来源：https://openai.com/chatgpt-actions.json

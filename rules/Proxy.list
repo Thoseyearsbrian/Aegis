@@ -212,16 +212,6 @@ DOMAIN-SUFFIX,api.amz123.com # AMZ123 接口域名
 DOMAIN-SUFFIX,tool.amz123.com # AMZ123 工具服务域名
 DOMAIN-SUFFIX,forum.amz123.com # AMZ123 社区论坛域名
 
-# > Sora by OpenAI 相关域名
-
-DOMAIN-SUFFIX,openai.com # OpenAI 主站，包括 Sora 所在入口页面
-DOMAIN-SUFFIX,chat.openai.com # ChatGPT 页面，Sora 视频生成功能或入口可能接入
-DOMAIN-SUFFIX,platform.openai.com # OpenAI 平台服务，API 与用户面板通用入口
-DOMAIN-SUFFIX,auth0.openai.com # OpenAI 身份认证系统，用于登录、权限校验
-DOMAIN-SUFFIX,openaipublic.blob.core.windows.net # OpenAI 视频内容或媒体分发（托管于 Azure Blob）
-DOMAIN-SUFFIX,sentry.io # OpenAI 使用的异常上报平台（含 Sora/ChatGPT）
-DOMAIN-SUFFIX,oaiusercontent.com # Sora/ChatGPT 返回内容静态资源托管（含图像/视频）
-
 # > KFC（肯德基）相关域名
 
 DOMAIN-SUFFIX,kfc.com # KFC 全球主站（美国）
