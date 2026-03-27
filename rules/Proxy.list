@@ -4,7 +4,7 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-26
+# - 更新时间：2026-03-27
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -80,62 +80,50 @@ DOMAIN-SUFFIX,speed.misaka.one # Misaka 自定义测速服务域名
 DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 静态资源域名
 
 # > OpenSpeedTest 网络测速服务
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,openspeedtest.com # OpenSpeedTest 网络测速平台，用于浏览器 WebSocket / HTML5 带宽测速与网络性能测试
-DOMAIN-SUFFIX,raxcdn.com # OpenSpeedTest 静态资源分发 CDN（Rackspace CDN），用于加载测速相关脚本与资源
+DOMAIN-SUFFIX,openspeedtest.com # OpenSpeedTest 网络测速平台域名
 
 # > Test-IPv6 服务域名（IPv6 网络连通性测试平台）
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,test-ipv6.com # Test-IPv6 官方测试域名，用于检测客户端对 IPv6 网络协议的支持能力与连通性评估
-DOMAIN-SUFFIX,cdn.cookielaw.org # CookieLaw 内容分发域名，用于加载 Cookie 合规弹窗与隐私政策模块 
-DOMAIN-SUFFIX,pg.ziffstatic.com # Ziff Davis 静态资源域名，主要用于技术与媒体网站的内容加载（如 PCMag、IGN） 
-DOMAIN-SUFFIX,mtu1280.losangeles.test-ipv6.com # Test-IPv6 美国洛杉矶 MTU 检测子域，用于 IPv6 网络最大传输单元测试 
-DOMAIN-SUFFIX,ipv6.losangeles.test-ipv6.com # Test-IPv6 洛杉矶节点 IPv6 连通性测试域名，若设备不支持 IPv6，可能触发 “Testing rules failed due to a DNS error” 报错提示
-DOMAIN-SUFFIX,ds.v6ns.losangeles.test-ipv6.com # Test-IPv6 洛杉矶节点 DNSSEC 验证测试域名 
-DOMAIN-SUFFIX,ipv6.lookup.test-ipv6.com # Test-IPv6 域名解析行为测试子域，用于 IPv6 优先级与响应行为分析 
+DOMAIN-SUFFIX,test-ipv6.com # Test-IPv6 官方测试域名
+DOMAIN-SUFFIX,mtu1280.losangeles.test-ipv6.com # Test-IPv6 洛杉矶节点 MTU 测试域名
+DOMAIN-SUFFIX,ipv6.losangeles.test-ipv6.com # Test-IPv6 洛杉矶节点 IPv6 连通性测试域名
+DOMAIN-SUFFIX,ds.v6ns.losangeles.test-ipv6.com # Test-IPv6 洛杉矶节点 DNSSEC 测试域名
+DOMAIN-SUFFIX,ipv6.lookup.test-ipv6.com # Test-IPv6 域名解析测试子域
 
-# > Whoer 服务域名（匿名性检测平台主功能与测试服务）
- 
-DOMAIN-SUFFIX,500px.com # 500px 摄影平台主站域名，Whoer 页面引用，用于图像展示测试 
-DOMAIN-SUFFIX,medium.com # Medium 博客平台域名，Whoer 页面引用，用于嵌入测试与内容加载 
-DOMAIN-SUFFIX,expedia.de # Expedia 德国站域名，Whoer 页面引用，用于跨境兼容性检测 
-DOMAIN-SUFFIX,de.foursquare.com # Foursquare 德国子域名，Whoer 页面用于地理定位测试 
-DOMAIN-SUFFIX,academia.edu # Academia 学术资源平台，Whoer 页面引用用于环境兼容性测试 
-DOMAIN-SUFFIX,secure.meetup.com # Meetup 安全登录子域名，Whoer 页面用于会话测试与安全验证 
+# > Whoer 服务域名（匿名性检测平台）
+# - 校对时间：2026-03-27
+
+DOMAIN-SUFFIX,whoer.net # Whoer 匿名性检测平台主域名
 
 # > Academia 教育平台主域名（学术论文访问与学术资源交流）
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,academia.edu # Academia 学术社交平台主域名，用于论文发布、学术交流与研究资料访问
-DOMAIN-SUFFIX,a.academia-assets.com # Academia 教育平台静态资源子域，用于加载图像、脚本与样式等前端依赖
-DOMAIN-SUFFIX,secure.academia.edu # Academia 安全连接域名，用于登录、注册等敏感操作的 HTTPS 认证流程
-DOMAIN-SUFFIX,a.academia-assets.com # Academia 静态资源域名，用于加载样式、脚本与前端组件等网页依赖 
-DOMAIN-SUFFIX,0.academia-photos.com # Academia 图像内容资源域名，用于加载用户上传的论文图像与预览内容
-IP-CIDR,65.8.76.64 # Academia 图像资源 CDN 节点，归属 AWS CloudFront（0.academia-photos.com） 
-IP-CIDR,65.8.76.121 # Academia 图像资源 CDN 节点，归属 AWS CloudFront（0.academia-photos.com） 
+DOMAIN-SUFFIX,academia.edu # Academia 学术平台主域名
+DOMAIN-SUFFIX,a.academia-assets.com # Academia 静态资源域名
+DOMAIN-SUFFIX,secure.academia.edu # Academia 安全连接域名
+DOMAIN-SUFFIX,0.academia-photos.com # Academia 图片资源域名
+IP-CIDR,65.8.76.64/32 # Academia 图片资源 CDN 节点（0.academia-photos.com）
+IP-CIDR,65.8.76.121/32 # Academia 图片资源 CDN 节点（0.academia-photos.com）
 
 # > IT狗（ITdog）网络运维工具平台域名
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,itdog.cn # IT狗主域名，用于在线 ping/tcping 、网站测速、HTTP/API 测速、DNS 污染检测 等网络运维工具服务 
+DOMAIN-SUFFIX,itdog.cn # IT狗网络运维工具平台域名
 
-# > 3UE 数字营销平台域名
+# > 3UE 数字营销平台域名
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,3ue.com  # 3UE 主域名，用于数字营销、数据分析与服务产品展示
-DOMAIN-SUFFIX,dash.3ue.com  # 3UE Dashboard 子域，用于用户登录、数据可视化及营销报告页面
+DOMAIN-SUFFIX,3ue.com # 3UE 主站域名
+DOMAIN-SUFFIX,dash.3ue.com # 3UE 控制台域名
 
 # > 和兴国际通关查询服务域名（E-KC 编码查询平台）
+# - 校对时间：2026-03-27
 
-DOMAIN-SUFFIX,e-kc.vip # 和兴国际货运平台主域名，用于展示公司服务、物流方案与通关工具入口 
-DOMAIN-SUFFIX,inspection.e-kc.vip # 深圳市和兴国际货运代理有限公司 “个人通关编码查询”服务域名，用于进口/出口通关信息查询 
-
-# > Google Fiber 主服务域名（GFiber / Google 宽带）
-
-DOMAIN-SUFFIX,gstaticcnapps.cn # GFiber CDN 中国节点域名，主要用于资源分发与测速验证 
-DOMAIN-SUFFIX,fiber.google.com # Google Fiber 主官网域名，用于服务介绍与用户登录 
-DOMAIN-SUFFIX,gigabit.google.com # GFiber 旧版本访问入口域名，部分地区仍在使用 
-DOMAIN-SUFFIX,fiberstatus.com # Google Fiber 网络状态查询平台，用于服务中断信息公告 
-DOMAIN-SUFFIX,gfiber.com # Google Fiber 品牌辅助域名，早期注册用于重定向或宣传页 
-DOMAIN-SUFFIX,gfiber.tv # GFiber 电视服务相关域名，主要用于流媒体与点播业务 
-DOMAIN-SUFFIX,gfiber.speedtestcustom.com # GFiber 定制测速平台域名，用于测速页面与回传数据通信 
+DOMAIN-SUFFIX,e-kc.vip # 和兴国际通关服务平台域名
+DOMAIN-SUFFIX,inspection.e-kc.vip # 和兴国际个人通关编码查询域名
 
 # > Speedtest 测速平台域名（Ookla / Fast / Cloudflare）
 
@@ -6842,26 +6830,26 @@ DOMAIN-SUFFIX,mirrors.iu13.net # IU13 开源软件镜像与分发服务域名
 
 # > 第三方博客网站
 
-DOMAIN-SUFFIX,freedidi.com # 零度博客，用于发布个人文章、技术记录与观点分享
-DOMAIN-SUFFIX,skk.moe # Sukka 维护的网络规则分发平台，提供 Surge / Clash / QuantumultX 等客户端使用的规则列表与分流数据
-DOMAIN-SUFFIX,blog.skk.moe # Sukka 的技术博客，内容涵盖前端开发、网络优化、DNS 解析与代理工具使用
-DOMAIN-SUFFIX,cdn.skk.moe # skk.moe 静态资源 CDN 域名，用于托管图片、图标、样式等前端静态文件
-DOMAIN-SUFFIX,img.skk.moe # skk.moe 图片资源加载域名，用于站点内图片和媒体内容分发
-DOMAIN-SUFFIX,disqus.skk.moe # skk.moe 站点使用的 Disqus 评论系统代理子域，用于加载评论组件与用户交互内容
-DOMAIN-SUFFIX,blog.1ris.win # Blog 1RIS 个人博客主域名，用于技术分享、日志发布与项目更新
-DOMAIN-SUFFIX,beyondwickedmapping.org # 信息安全研究博客域名，用于发布网络威胁分析、Botnet 行为追踪与攻击路径溯源文章
-DOMAIN-SUFFIX,joeyblog.net # JoeyBlog 个人博客网站，用于发布个人文章、技术记录与观点分享
-DOMAIN-SUFFIX,bulianglin.com # Bulianglin 中文内容站点，用于信息整理、内容发布与网页访问
-DOMAIN-SUFFIX,ygkkk.blogspot.com # 甬哥侃侃侃 博客站点域名
-DOMAIN-SUFFIX,sorkai.com # Sorkai 博客站点域名
-DOMAIN-SUFFIX,bestoko.cc # Toko 的个人技术博客，分享 Linux、Docker、系统折腾等内容
-DOMAIN-SUFFIX,blog.cpen.top # Cpen 个人博客，记录技术文章与学习笔记
-DOMAIN-SUFFIX,steipete.me # Peter Steinberger（PSPDFKit 创始人）个人官网与技术博客，用于开源项目、开发文章与技术分享
-DOMAIN-SUFFIX,mscrmtools.blogspot.com # Microsoft CRM Tools 博客，用于 Dynamics 365 / XrmToolBox 插件工具分享与技术内容展示
-DOMAIN-SUFFIX,easys.cc.cd # “茉灵智库” 学术/技术教程与资源分享网站
-DOMAIN-SUFFIX,mashiro.pro # Mashiro 个人技术博客域名，主要发布开发技术、建站经验与资源分享内容，属于独立站点性质
-DOMAIN-SUFFIX,qichiyu.com # 七尺宇 个人技术博客域名，主要发布开发技术、建站经验与资源分享等内容
-DOMAIN-SUFFIX,sev7en.blog # Sev7en 个人技术博客域名，主要发布开发技术、建站经验与资源分享等内容
+DOMAIN-SUFFIX,freedidi.com # 零度博客技术内容网站
+DOMAIN-SUFFIX,skk.moe # Sukka 技术内容与规则分发网站
+DOMAIN-SUFFIX,blog.skk.moe # Sukka 技术博客网站
+DOMAIN-SUFFIX,cdn.skk.moe # skk.moe 静态资源域名
+DOMAIN-SUFFIX,img.skk.moe # skk.moe 图片资源域名
+DOMAIN-SUFFIX,disqus.skk.moe # skk.moe 评论组件代理域名
+DOMAIN-SUFFIX,blog.1ris.win # 1RIS 个人技术博客网站
+DOMAIN-SUFFIX,beyondwickedmapping.org # 信息安全研究博客网站
+DOMAIN-SUFFIX,joeyblog.net # JoeyBlog 个人博客网站
+DOMAIN-SUFFIX,bulianglin.com # Bulianglin 内容分享网站
+DOMAIN-SUFFIX,ygkkk.blogspot.com # 甬哥侃侃侃博客网站
+DOMAIN-SUFFIX,sorkai.com # Sorkai 博客网站
+DOMAIN-SUFFIX,bestoko.cc # Toko 个人技术博客网站
+DOMAIN-SUFFIX,blog.cpen.top # Cpen 个人技术博客网站
+DOMAIN-SUFFIX,steipete.me # Peter Steinberger 个人官网与技术博客
+DOMAIN-SUFFIX,mscrmtools.blogspot.com # Microsoft CRM Tools 技术博客网站
+DOMAIN-SUFFIX,easys.cc.cd # 茉灵智库教程与资源分享网站
+DOMAIN-SUFFIX,mashiro.pro # Mashiro 个人技术博客网站
+DOMAIN-SUFFIX,qichiyu.com # 七尺宇个人技术博客网站
+DOMAIN-SUFFIX,sev7en.blog # Sev7en 个人技术博客网站
 DOMAIN-SUFFIX,v2ray-agent.com # V2Ray Agent 教程与技术博客网站
 
 # > 第三方独立站

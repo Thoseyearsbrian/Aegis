@@ -5,10 +5,11 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-10
-# - 校对时间：2026-03-10
+# - 更新时间：2026-03-27
+# - 校对时间：2026-03-27
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,google.com # Google 全球搜索主站
 DOMAIN-SUFFIX,google.com.hk # Google 香港地区搜索入口
@@ -43,6 +44,7 @@ DOMAIN-SUFFIX,google.ru # Google 俄罗斯地区搜索入口
 DOMAIN-SUFFIX,google.cn # Google 中国历史域名
 
 # > Google Platform Infrastructure（Google 平台基础服务）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,gmail.com # Gmail 邮箱服务
 DOMAIN-SUFFIX,googlemail.com # Gmail 历史备用域名
@@ -56,6 +58,7 @@ DOMAIN-SUFFIX,domains.google # Google 域名服务官网
 DOMAIN-SUFFIX,googledomains.com # Google Domains 历史官网入口
 
 # > Google APIs & Backend Services（Google 后端接口服务）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,googleapis.com # Google 官方 API 网关
 DOMAIN-SUFFIX,proto.googleapis.com # Google API Protobuf 传输服务
@@ -68,6 +71,7 @@ DOMAIN-SUFFIX,subscriptionsmobile-pa.googleapis.com # Google 移动订阅接口
 DOMAIN-SUFFIX,addons-pa.googleapis.com # Google Add-ons 插件接口
 
 # > Google Workspace（Google 办公与协作平台）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,docs.google.com # Google Docs 在线文档
 DOMAIN-SUFFIX,drive.google.com # Google Drive 文件存储
@@ -82,6 +86,7 @@ DOMAIN-SUFFIX,classroom.google.com # Google Classroom 教育平台
 DOMAIN-SUFFIX,workspace.google.com # Google Workspace 控制台
 
 # > Google Media Platform（Google 媒体平台服务）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,photos.google.com # Google Photos 图片服务
 DOMAIN-SUFFIX,ggpht.com # Google 图片资源 CDN
@@ -89,6 +94,7 @@ DOMAIN-SUFFIX,yt3.ggpht.com # YouTube 头像与封面资源
 DOMAIN-SUFFIX,lh3.googleusercontent.com # Google Photos 图片资源
 
 # > YouTube Platform（YouTube 视频平台）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,youtube.com # YouTube 主站
 DOMAIN-SUFFIX,youtu.be # YouTube 短链接
@@ -98,6 +104,7 @@ DOMAIN-SUFFIX,googlevideo.com # YouTube 视频 CDN
 DOMAIN-SUFFIX,s.youtube.com # YouTube 服务接口
 
 # > Chrome & Chromium（Chrome 浏览器生态）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,chrome.com # Chrome 浏览器官网
 DOMAIN-SUFFIX,googlechrome.com # Chrome 产品站点
@@ -109,6 +116,7 @@ DOMAIN-SUFFIX,chromium.googlesource.com # Chromium 源码托管
 DOMAIN-SUFFIX,crbug.com # Chromium Bug 跟踪
 
 # > Android & Google Play（Android 与应用分发）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,android.com # Android 官方站点
 DOMAIN-SUFFIX,googleplay.com # Google Play 官网
@@ -118,6 +126,7 @@ DOMAIN-SUFFIX,gvt1.com # Google CDN 内容分发
 DOMAIN-SUFFIX,gvt2.com # Google CDN 内容分发
 
 # > Google Cloud Platform（Google 云服务）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,cloud.google.com # Google Cloud 平台
 DOMAIN-SUFFIX,appspot.com # Google App Engine 托管
@@ -130,12 +139,14 @@ DOMAIN-SUFFIX,storage.cloud.google.com # Cloud Storage 控制台
 DOMAIN-SUFFIX,run.app # Google Cloud Run 服务域名
 
 # > Google Developer Platform（Google 开发者平台）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,developers.google.com # Google 开发者文档
 DOMAIN-SUFFIX,google.dev # Google 开发者社区
 DOMAIN-SUFFIX,web.dev # Web 开发最佳实践平台
 
 # > Google Fonts & Assets（Google 字体与静态资源）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,fonts.googleapis.com # Google Fonts API
 DOMAIN-SUFFIX,fonts.gstatic.com # Google 字体 CDN
@@ -143,6 +154,7 @@ DOMAIN-SUFFIX,gstatic.com # Google 静态资源 CDN
 DOMAIN-SUFFIX,cdn.ampproject.org # Google AMP CDN
 
 # > Google Identity & Security（Google 身份与安全服务）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,accounts.google.com # Google 账号认证
 DOMAIN-SUFFIX,oauth2.googleapis.com # Google OAuth2 授权
@@ -151,18 +163,21 @@ DOMAIN-SUFFIX,recaptcha.net # Google reCAPTCHA 验证服务
 DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com # Google Safe Browsing 隐私查询中继
 
 # > Google Merchant Center（Google 商户平台）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,merchants.google.com # Merchant Center 控制台
 DOMAIN-SUFFIX,merchant-center.googleapis.com # Merchant Center API
 DOMAIN-SUFFIX,shoppingcontent.googleapis.com # Google Shopping Content API
 
 # > Google Custom Search（Google 自定义搜索服务）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,cse.google.com # Google Custom Search 接口
 DOMAIN-SUFFIX,cse.googleusercontent.com # CSE 静态资源
 DOMAIN-SUFFIX,programmablesearchengine.google.com # Programmable Search 控制台
 
 # > Google Blogger Platform（Google Blogger 博客平台）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,blogblog.com # Blogger 基础服务域名
 DOMAIN-SUFFIX,blogger.com # Blogger 官方站点
@@ -172,13 +187,24 @@ DOMAIN-SUFFIX,blogger.googleblog.com # Blogger 官方博客
 DOMAIN-SUFFIX,bp.blogspot.com # Blogspot 图片 CDN
 
 # > Google Public DNS（Google 公共 DNS 服务）
+# - 校对时间：2026-03-06
 
 IP-CIDR,8.8.8.8/32 # Google Public DNS
 IP-CIDR,8.8.4.4/32 # Google Public DNS 备用地址
 IP-CIDR6,2001:4860:4860::8888/128 # Google Public DNS IPv6
 IP-CIDR6,2001:4860:4860::8844/128 # Google Public DNS IPv6 备用地址
 
+# > Google Fiber / GFiber（Google 宽带服务）
+# - 校对时间：2026-03-27
+
+DOMAIN-SUFFIX,fiber.google.com # Google Fiber 官方服务域名
+DOMAIN-SUFFIX,gigabit.google.com # Google Fiber 历史入口域名
+DOMAIN-SUFFIX,fiberstatus.com # Google Fiber 服务状态页面域名
+DOMAIN-SUFFIX,gfiber.com # GFiber 官方服务域名
+DOMAIN-SUFFIX,gfiber.speedtestcustom.com # GFiber 定制测速服务域名
+
 # > Google Network（Google 官方网络）
+# - 校对时间：2026-03-06
 
 IP-ASN,15169 # Google LLC
 
@@ -312,6 +338,7 @@ IP-CIDR6,2a00:1450::/32 # Google 官方 IPv6 网络段
 IP-CIDR6,2c0f:fb50::/32 # Google 官方 IPv6 网络段
 
 # > Google Advertising Services（Google 广告与营销服务）
+# - 校对时间：2026-03-06
 
 DOMAIN-SUFFIX,pagead2.googlesyndication.com # Google Ads 投放服务
 DOMAIN-SUFFIX,googleads.g.doubleclick.net # Google Ads 服务接口
@@ -336,6 +363,7 @@ DOMAIN-SUFFIX,ade.googlesyndication.com # Google Ads 实验服务
 DOMAIN-SUFFIX,doubleclick.net # DoubleClick 广告平台
 
 # > 已列入 BehaviorDomain.list明细:
+# - 校对时间：2026-03-06
 
 # DOMAIN-SUFFIX,merchant-center-analytics.goog # Merchant Center 分析
 # DOMAIN-SUFFIX,video-stats.video.google.com # YouTube 广告统计
