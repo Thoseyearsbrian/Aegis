@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-27
+# - 更新时间：2026-03-28
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-03-23
@@ -32,7 +32,7 @@ DOMAIN-SUFFIX,pass.1688.com # 1688 账号认证服务域名
 DOMAIN-SUFFIX,pages-fast.1688.com # 1688 页面服务域名
 
 # > AliPay（支付宝）相关域名
-# - 校对时间：2026-03-16
+# - 校对时间：2026-03-28
 
 DOMAIN-SUFFIX,alipay.com # 支付宝主域名
 DOMAIN-SUFFIX,alipayobjects.com # 支付宝静态资源域名
@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,ashort.alipay.com.cn # 支付宝短链服务域名
 DOMAIN-SUFFIX,datagw-edge.alipay.com # 支付宝数据网关边缘服务域名
 DOMAIN-SUFFIX,amdc-thirdparty.alipay.com # 支付宝第三方接入辅助接口域名
 DOMAIN-SUFFIX,render.alipay.com # 支付宝页面渲染服务
+IP-CIDR,58.222.18.39/32 # AliPay render 服务节点（render.alipay.com）
 IP-CIDR,58.222.29.198/32 # AliPay render 服务节点（render.alipay.com）
 IP-CIDR,58.222.35.97/32 # AliPay 数据网关边缘服务节点（datagw-edge.alipay.com）
 IP-CIDR,58.222.35.99/32 # AliPay 数据网关边缘服务节点（datagw-edge.alipay.com）
@@ -62,6 +63,8 @@ IP-CIDR,106.38.254.72/32 # AliPay 静态资源服务节点（mdn.alipayobjects.c
 IP-CIDR,106.38.254.73/32 # AliPay 前端资源网关服务节点（gw.alipayobjects.com）
 IP-CIDR,117.85.69.215/32 # AliPay 静态资源服务节点（mdn.alipayobjects.com）
 IP-CIDR,117.85.69.216/32 # AliPay 静态资源服务节点（mdn.alipayobjects.com）
+IP-CIDR,117.85.69.218/32 # AliPay 静态资源服务节点（mdn.alicdn.com）
+IP-CIDR,117.85.70.221/32 # AliPay 静态资源服务节点（mdn.alipayobjects.com）
 IP-CIDR,117.85.70.222/32 # AliPay render 服务节点（render.alipay.com）
 IP-CIDR,121.228.130.243/32 # AliPay 静态资源服务节点（mdn.alipayobjects.com）
 IP-CIDR,122.225.209.199/32 # AliPay render 服务节点（render.alipay.com）
