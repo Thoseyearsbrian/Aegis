@@ -168,6 +168,7 @@ IP-CIDR,58.223.168.65/32 # 字节跳动对象存储服务节点（lf3-pitaya.byt
 IP-CIDR,58.223.168.69/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,58.223.168.70/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,58.222.51.88/32 # 抖音直播流媒体分发节点（FLV 直连）
+IP-CIDR,58.222.51.245/32 # 抖音直播通信节点（webcast5-normal-m-yz.amemv.com）
 IP-CIDR,59.36.97.212/32 # 抖音直播内容分发节点（lf9-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,59.36.97.222/32 # 字节跳动图片资源服务节点（p9-dy-gm-yp-sign.byteimg.com）
 IP-CIDR,59.36.97.227/32 # 字节跳动图片资源服务节点（p9-dy-gm-yp-sign.byteimg.com）
@@ -240,6 +241,7 @@ IP-CIDR,111.47.235.20/32 # 字节跳动对象存储服务节点（lf9-pitaya.byt
 IP-CIDR,111.170.168.96/32 # 抖音内容分发节点（lf-normal-gr-sourcecdn.bytegecko.com）
 IP-CIDR,111.170.168.115/32 # 字节跳动文档资源服务节点（lf3-static.bytednsdoc.com）
 IP-CIDR,111.224.8.59/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
+IP-CIDR,113.24.210.43/32 # 抖音前端通信服务节点（frontier-aweme.snssdk.com）
 IP-CIDR,113.142.162.67/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,113.142.162.70/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,113.142.162.71/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
@@ -335,6 +337,7 @@ IP-CIDR,123.235.40.66/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com
 IP-CIDR,123.235.40.68/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,123.235.40.69/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,123.235.40.71/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
+IP-CIDR,124.129.4.42/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,124.129.4.44/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
 IP-CIDR,124.167.222.55/32 # 字节跳动对象存储服务节点（lf6-pitaya.bytetos.com）
 IP-CIDR,124.167.222.56/32 # 字节跳动对象存储服务节点（lf6-pitaya.bytetos.com）
@@ -578,6 +581,7 @@ IP-CIDR,221.229.209.49/32 # 字节跳动 MSSDK 服务节点（mssdk3-normal-hj.z
 IP-CIDR,221.229.209.50/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
 IP-CIDR,221.229.209.58/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
 IP-CIDR,221.230.244.88/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
+IP-CIDR,221.230.244.109/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
 IP-CIDR,221.230.244.110/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
 IP-CIDR,221.230.244.91/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
 IP-CIDR,221.230.244.92/32 # 字节跳动日志上报接口节点（log-lq.snssdk.com）
