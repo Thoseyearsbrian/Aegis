@@ -7441,8 +7441,13 @@ DOMAIN-SUFFIX,crdf.fr # CRDF Labs 官方主域名
 # - 校对时间：2026-03-29
 
 DOMAIN-SUFFIX,rutube.ru # Rutube 视频平台域名
+
+# > PREMIER Video Platform（PREMIER 视频平台）相关域名
+# - 校对时间：2026-03-29
+
 DOMAIN-SUFFIX,static.rtbcdn.ru # Rutube 静态资源分发节点
 DOMAIN-SUFFIX,pic.rtbcdn.ru # Rutube 图片资源分发节点
+DOMAIN-SUFFIX,premier-static.rtbcdn.ru # PREMIER 静态资源分发节点
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
