@@ -2395,4 +2395,5 @@ DOMAIN-SUFFIX,inspection.e-kc.vip # 和兴国际个人通关编码查询域名
 # > LCSW / Saobei Aggregated Payment（扫呗聚合支付）相关域名
 # - 校对时间：2026-03-29
 
+DOMAIN-SUFFIX,lcsw.cn # 扫呗官网
 DOMAIN-SUFFIX,wxpay.lcsw.cn # 扫呗微信支付接口域名
