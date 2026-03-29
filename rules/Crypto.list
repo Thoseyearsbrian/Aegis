@@ -1,1283 +1,1454 @@
 # > Crypto.list（加密资产与区块链服务识别规则集）
 # - 分类：加密货币平台 / 区块链服务 / 策略识别用途
-# - 来源：主流交易所域名整理 / 社区规则补充 / 实测抓包验证
+# - 来源：官方文档 / 本地流量行为分析 / 手动校验 / 持续自维护
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-02-08
-
-# > Binance 加密资产交易所相关域名
-
-DOMAIN-SUFFIX,binance.com # Binance 主站
-DOMAIN-SUFFIX,binance.org # Binance 子域
-DOMAIN-SUFFIX,binance.us # Binance 美国站
-DOMAIN-SUFFIX,binancezh.cc # Binance 中文镜像
-DOMAIN-SUFFIX,bnbstatic.com # Binance 静态资源
-DOMAIN-SUFFIX,static.bscdnweb.com # Binance 前端静态资源（CDN）
-DOMAIN-SUFFIX,image.binance.vision # Binance 图像与媒体资源分发域名
-DOMAIN-SUFFIX,frontend-m.binance.cloud # Binance 移动端前端资源域名
-DOMAIN-SUFFIX,binance.charity # Binance Charity 官方公益平台
-DOMAIN-SUFFIX,data.binance.vision # Binance 数据与分析资源分发域名
-DOMAIN-SUFFIX,log.bntrace.com # Binance 前端与后端日志收集接口
-DOMAIN-SUFFIX,sensors.binance.cloud # Binance 前端监测与传感数据上报接口
-DOMAIN-SUFFIX,public.nftstatic.com # Binance NFT 公共静态资源（CDN）
-DOMAIN-SUFFIX,nbstream.binance.info # Binance 官方行情推送与实时数据流服务域名，用于市场行情、K 线与交易数据的实时分发
-DOMAIN-SUFFIX,nbstream.binance.com # Binance 官方实时行情与市场数据推送服务，用于 Web / App 端的价格更新、K 线与盘口数据的流式分发
-IP-CIDR,54.250.232.27/32 # Binance NBStream 行情推送服务公网 IP（AWS 东京区域），用于实时市场数据的长连接通信
-IP-CIDR,120.24.233.110/32 # Binance 使用的云端基础设施节点（阿里云），常见于账户、交易或风控相关后端服务通信
-IP-CIDR,120.76.205.62/32 # Binance 使用的云端基础设施节点（阿里云），用于核心业务接口或内部系统通信
-IP-CIDR,120.78.229.149/32 # Binance 云端服务节点（阿里云），可能承担交易、账户或数据处理相关请求
-IP-CIDR,120.79.3.17/32 # Binance 云端基础设施节点（阿里云），用于平台核心服务或 API 后端通信
-
-# > BNB Chain（原 Binance Smart Chain）区块链网络官方平台
-
-DOMAIN-SUFFIX,bnbchain.org # BNB Chain 官方网站，用于区块链网络介绍、技术文档、生态项目与开发者资源入口
-DOMAIN-SUFFIX,docs.bnbchain.org # BNB Chain 官方技术文档站点，用于开发文档、API 说明与协议规范
-DOMAIN-SUFFIX,explorer.bnbchain.org # BNB Chain 官方区块链浏览器入口，用于区块、交易与地址查询
-DOMAIN-SUFFIX,dapp-server.bnbchain.world # BNB Chain 官方 DApp 后端服务节点，用于生态 DApp 的接口请求、数据交互与链上服务支持
-DOMAIN-SUFFIX,bnbchain.ghost.io # BNB Chain 官方博客与内容发布平台（Ghost），用于技术文章、公告与生态动态发布
-
-# > NodeReal BNB Chain / Binance 官方区块链 RPC 基础设施
-
-DOMAIN-SUFFIX,binance.nodereal.io # NodeReal 提供的 Binance / BNB Chain 官方 RPC 服务节点，用于区块链节点访问、交易广播与链上数据查询
-DOMAIN-SUFFIX,nodereal.io # NodeReal 官方平台域名，用于区块链 RPC、节点服务与基础设施介绍
-
-# > BSC 公共 RPC 与节点访问服务
-
-DOMAIN-SUFFIX,bscrpc.com # BNB Smart Chain 公共 RPC 服务域名，用于区块链节点访问与交易广播
-DOMAIN-SUFFIX,bsc-dataseed2.ninicoin.io # 第三方提供的 BSC 公共 RPC 节点，用于链上数据查询与节点连接
-DOMAIN-SUFFIX,ninicoin.io # Ninicoin 提供的区块链基础设施与 RPC 服务平台
-
-# > PublicNode 多链区块链公共 RPC 服务
-
-DOMAIN-SUFFIX,ethereum-rpc.publicnode.com # PublicNode 提供的以太坊公共 RPC 节点，用于交易、区块与合约数据访问
-DOMAIN-SUFFIX,publicnode.com # PublicNode 官方平台域名，用于多链公共 RPC 与节点服务说明
-
-# > Celer Network 跨链与 Layer2 网络官方服务
-
-DOMAIN-SUFFIX,get.celer.app # Celer Network 官方应用入口，用于跨链桥、Layer2 网络与链上交互服务
-DOMAIN-SUFFIX,celer.network # Celer Network 官方主站，用于跨链协议、Layer2 架构与生态信息展示
-
-# > deBridge 跨链流动性与资产桥接协议
-
-DOMAIN-SUFFIX,debridge.com # deBridge 官方平台主域名，用于去中心化跨链桥服务、跨链资产桥接与链间流动性协议功能入口
-DOMAIN-SUFFIX,app.debridge.com # deBridge 官方应用子域，用于跨链资产桥接页面、交易交互与用户操作界面
-DOMAIN-SUFFIX,explorer.debridge.com # deBridge 跨链桥统计与操作状态浏览器，用于跨链交易状态查询与桥接记录查看
-DOMAIN-SUFFIX,tokens.debridge.finance # deBridge 官方代币与资产信息接口，用于跨链资产映射与协议数据查询
-DOMAIN-SUFFIX,debridge.finance # deBridge 官方主站，用于跨链协议、流动性网络与产品介绍
-DOMAIN-SUFFIX,debridge.peopleforce.io # deBridge 使用的 PeopleForce 招聘与人力资源管理子域，用于职位发布、候选人投递与招聘流程管理
-DOMAIN-SUFFIX,peopleforce.io # PeopleForce 官方人力资源与招聘管理平台主域名，用于招聘系统、候选人管理与 HR 流程支持
-
-# > BNB Chain 官方跨链桥（Canonical Bridge）服务
-
-DOMAIN-SUFFIX,canonical-bridge-api.bnbchain.world # BNB Chain 官方跨链桥 API，用于资产跨链、桥接状态与链上交互支持
-DOMAIN-SUFFIX,bnbchain.world # BNB Chain 官方生态与基础设施域名，用于跨链、RPC 与网络服务入口
-
-# > Bitget 加密资产交易平台
-
-DOMAIN-SUFFIX,bitget.com # Bitget 官方主站与加密资产交易服务入口
-DOMAIN-SUFFIX,img.bgstatic.com # Bitget 前端图片与界面静态资源分发（CDN）
-DOMAIN-SUFFIX,cdn.bitkeep.vip # BitKeep（Bitget Wallet）前端静态资源分发（CDN）
-DOMAIN-SUFFIX,static.bgbstatic.com # Bitget 前端静态资源与页面组件分发（CDN）
-DOMAIN-SUFFIX,api-data.bitkeep.com # BitKeep 官方 API 数据接口，用于钱包服务与链上数据交互
-DOMAIN-SUFFIX,bgw.live # Bitget Wallet 相关交易与支付入口域名
-DOMAIN-SUFFIX,qrc.bgstatic.com # Bitget 前端二维码及静态资源分发（CDN）
-DOMAIN-SUFFIX,img.bitgetimg.com # Bitget 前端图片与多媒体资源分发（CDN）
-DOMAIN-SUFFIX,qrc.bitgetimg.com # Bitget 二维码相关图片与前端静态资源分发（CDN）
-DOMAIN-SUFFIX,mpc-prod-23-s6uit34pua-ue.a.run.app # 基于 Google Cloud Run 的 MPC 钱包后端计算与签名服务
+# - 更新时间：2026-03-29
+# - 校对时间：2026-03-29
+
+# > Binance Exchange Platform（Binance 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,binance.com # Binance 平台主域
+DOMAIN-SUFFIX,binance.us # Binance US 站点域名
+DOMAIN-SUFFIX,binancezh.cc # Binance 中文入口域名
+DOMAIN-SUFFIX,bnbstatic.com # Binance 静态资源域名
+DOMAIN-SUFFIX,static.bscdnweb.com # Binance 静态资源域名
+DOMAIN-SUFFIX,image.binance.vision # Binance 图片资源域名
+DOMAIN-SUFFIX,frontend-m.binance.cloud # Binance 移动端资源域名
+DOMAIN-SUFFIX,binance.charity # Binance Charity 平台域名
+DOMAIN-SUFFIX,data.binance.vision # Binance 数据资源域名
+DOMAIN-SUFFIX,log.bntrace.com # Binance 日志上报接口
+DOMAIN-SUFFIX,sensors.binance.cloud # Binance 数据采集接口
+DOMAIN-SUFFIX,public.nftstatic.com # Binance NFT 静态资源域名
+DOMAIN-SUFFIX,nbstream.binance.info # Binance 行情推送域名
+DOMAIN-SUFFIX,nbstream.binance.com # Binance 行情推送域名
+IP-CIDR,54.250.232.27/32 # Binance 服务节点
+IP-CIDR,120.24.233.110/32 # Binance 服务节点
+IP-CIDR,120.76.205.62/32 # Binance 服务节点
+IP-CIDR,120.78.229.149/32 # Binance 服务节点
+IP-CIDR,120.79.3.17/32 # Binance 服务节点
+
+# > NodeReal BNB Chain RPC Infrastructure（NodeReal BNB Chain RPC 基础设施）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,binance.nodereal.io # NodeReal BNB Chain RPC 节点
+DOMAIN-SUFFIX,nodereal.io # NodeReal 平台主域
+
+# > BSC Public RPC Service（BSC 公共 RPC 服务）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,bscrpc.com # BSC 公共 RPC 域名
+DOMAIN-SUFFIX,bsc-dataseed2.ninicoin.io # BSC 公共 RPC 节点
+DOMAIN-SUFFIX,ninicoin.io # Ninicoin 平台主域
+
+# > PublicNode Multi-Chain RPC Service（PublicNode 多链公共 RPC 服务）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,ethereum-rpc.publicnode.com # PublicNode 以太坊 RPC 节点
+DOMAIN-SUFFIX,publicnode.com # PublicNode 平台主域
+
+# > Celer Network Service（Celer Network 跨链服务）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,get.celer.app # Celer Network 应用入口
+DOMAIN-SUFFIX,celer.network # Celer Network 主域名
+
+# > deBridge Cross-Chain Protocol（deBridge 跨链协议）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,debridge.com # deBridge 平台主域
+DOMAIN-SUFFIX,app.debridge.com # deBridge 应用入口
+DOMAIN-SUFFIX,explorer.debridge.com # deBridge 区块浏览器
+DOMAIN-SUFFIX,tokens.debridge.finance # deBridge 资产接口域名
+DOMAIN-SUFFIX,debridge.finance # deBridge 协议主域
+DOMAIN-SUFFIX,debridge.peopleforce.io # deBridge 招聘平台域名
+DOMAIN-SUFFIX,peopleforce.io # PeopleForce 招聘平台域名
+
+# > BNB Chain Network（BNB Chain 区块链网络）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,bnbchain.org # BNB Chain 主域名
+DOMAIN-SUFFIX,binance.org # BNB Chain 跳转域名
+DOMAIN-SUFFIX,docs.bnbchain.org # BNB Chain 文档站点
+DOMAIN-SUFFIX,explorer.bnbchain.org # BNB Chain 区块浏览器
+DOMAIN-SUFFIX,dapp-server.bnbchain.world # BNB Chain DApp 接口域名
+DOMAIN-SUFFIX,bnbchain.ghost.io # BNB Chain 官方博客
+
+# > Bitget Exchange Platform（Bitget 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,bitget.com # Bitget 平台主域
+DOMAIN-SUFFIX,img.bgstatic.com # Bitget 图片资源域名
+DOMAIN-SUFFIX,cdn.bitkeep.vip # Bitget 静态资源域名
+DOMAIN-SUFFIX,static.bgbstatic.com # Bitget 静态资源域名
+DOMAIN-SUFFIX,api-data.bitkeep.com # Bitget Wallet 数据接口
+DOMAIN-SUFFIX,bgw.live # Bitget Wallet 业务域名
+DOMAIN-SUFFIX,qrc.bgstatic.com # Bitget 二维码资源域名
+DOMAIN-SUFFIX,img.bitgetimg.com # Bitget 图片资源域名
+DOMAIN-SUFFIX,qrc.bitgetimg.com # Bitget 二维码资源域名
+DOMAIN-SUFFIX,mpc-prod-23-s6uit34pua-ue.a.run.app # Bitget Wallet MPC 接口
+
+# > Bitfinex Exchange Platform（Bitfinex 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,bitfinex.com # Bitfinex 平台主域
+DOMAIN-SUFFIX,api.bitfinex.com # Bitfinex API 接口
+DOMAIN-SUFFIX,static.bitfinex.com # Bitfinex 静态资源域名
+DOMAIN-SUFFIX,blog.bitfinex.com # Bitfinex 官方博客
+IP-CIDR,104.16.168.90/32 # Bitfinex 服务节点（api.bitfinex.com）
+
+# > Bithumb Exchange Platform（Bithumb 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,bithumb.com # Bithumb 平台主域
+DOMAIN-SUFFIX,api.bithumb.com # Bithumb API 接口
+DOMAIN-SUFFIX,static.bithumb.com # Bithumb 静态资源域名
+DOMAIN-SUFFIX,bithumbcorp.com # Bithumb 企业域名
+DOMAIN-SUFFIX,safebithumb.com # Bithumb 安全验证域名
 
-# > Bitfinex 加密资产交易平台
+# > BitBay Market Platform（BitBay 市场平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,bitfinex.com # Bitfinex 官方主站与加密资产交易服务入口
-DOMAIN-SUFFIX,api.bitfinex.com # Bitfinex 官方交易 API，用于行情查询、下单与账户相关接口
-DOMAIN-SUFFIX,static.bitfinex.com # Bitfinex 前端静态资源域，用于页面脚本、样式与组件加载
-DOMAIN-SUFFIX,blog.bitfinex.com # Bitfinex 官方博客与公告发布平台，用于产品更新与市场公告
-IP-CIDR,104.16.168.90/32 # Bitfinex 官方 API（api.bitfinex.com）经 Cloudflare 的服务出口节点
+DOMAIN-SUFFIX,bitbay.net # BitBay 平台主域名
+DOMAIN-SUFFIX,bitbay.market # BitBay 市场平台域名
+DOMAIN-SUFFIX,api.bitbay.net # BitBay API 接口
+DOMAIN-SUFFIX,static.bitbay.net # BitBay 静态资源域名
 
-# > Bithumb 加密资产交易平台核心服务域名
+# > BigONE Exchange Platform（BigONE 加密资产交易平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,bithumb.com # Bithumb 官方主站与加密资产交易服务入口
-DOMAIN-SUFFIX,api.bithumb.com # Bithumb 官方交易 API，用于行情查询、下单与账户相关接口
-DOMAIN-SUFFIX,static.bithumb.com # Bithumb 前端静态资源域，用于页面脚本、样式与组件加载
-DOMAIN-SUFFIX,bithumbcorp.com # Bithumb 交易所企业集团官网与官方信息披露平台
-DOMAIN-SUFFIX,safebithumb.com # Bithumb 官方反钓鱼与安全验证域名，用于提示用户识别假冒网站与确认官方访问来源
+DOMAIN-SUFFIX,big.one # BigONE 平台主域
+DOMAIN-SUFFIX,api.big.one # BigONE API 接口
+DOMAIN-SUFFIX,static.big.one # BigONE 静态资源域名
+DOMAIN-SUFFIX,blog.big.one # BigONE 官方博客
 
-# > BitBay 加密资产交易平台核心服务域名
+# > Bybit Exchange Platform（Bybit 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,bybit.com # Bybit 平台主域
+DOMAIN-SUFFIX,api.bybit.com # Bybit API 接口
+DOMAIN-SUFFIX,static.bybit.com # Bybit 静态资源域名
+DOMAIN-SUFFIX,blog.bybit.com # Bybit 官方博客
+DOMAIN-SUFFIX,help.bybit.com # Bybit 帮助中心域名
+DOMAIN-SUFFIX,announcements.bybit.com # Bybit 公告域名
+DOMAIN-SUFFIX,learn.bybit.com # Bybit 学习中心域名
+DOMAIN-SUFFIX,careers.bybit.com # Bybit 招聘域名
+DOMAIN-SUFFIX,download.bybit.com # Bybit 官方下载域名
+DOMAIN-SUFFIX,assets.bybit.com # Bybit 静态资源域名
+
+# > HackenProof Security Platform（HackenProof 区块链安全平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,bitbay.net # BitBay 官方主站与加密资产交易平台入口
-DOMAIN-SUFFIX,bitbay.market # BitBay 交易市场与前端业务展示域名
-DOMAIN-SUFFIX,api.bitbay.net # BitBay 官方交易 API，用于行情查询、交易请求与账户相关接口
-DOMAIN-SUFFIX,static.bitbay.net # BitBay 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,hackenproof.com # HackenProof 平台主域
+DOMAIN-SUFFIX,api.hackenproof.com # HackenProof API 接口
+DOMAIN-SUFFIX,static.hackenproof.com # HackenProof 静态资源域名
 
-# > BigONE 加密资产交易平台核心服务域名
+# > Bibox Exchange Platform（Bibox 加密资产交易平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,big.one # BigONE 官方主站与加密资产交易服务入口
-DOMAIN-SUFFIX,api.big.one # BigONE 官方交易 API，用于行情查询、下单与账户相关接口
-DOMAIN-SUFFIX,static.big.one # BigONE 前端静态资源域，用于页面脚本、样式与组件加载
-DOMAIN-SUFFIX,blog.big.one # BigONE 官方公告与博客平台，用于平台更新与信息披露
+DOMAIN-SUFFIX,bibox.com # Bibox 平台主域
+DOMAIN-SUFFIX,bibox.win # Bibox 备用域名
+DOMAIN-SUFFIX,img.bibox360.com # Bibox 图片资源域名
+DOMAIN-SUFFIX,ires.bibox360.com # Bibox 静态资源域名
+DOMAIN-SUFFIX,npush.bibox360.com # Bibox 消息推送域名
+DOMAIN-SUFFIX,bi-n.bibox360.com # Bibox 业务接口域名
+DOMAIN-SUFFIX,i.bibox360.com # Bibox 图片资源域名
+DOMAIN-SUFFIX,statistical.bibox360.com # Bibox 统计接口
+DOMAIN-SUFFIX,mopush.bibox360.com # Bibox 消息推送域名
+DOMAIN-SUFFIX,sc-datasink.ffbbbdc6d3c353211fe2ba39c9f744cd.com # Bibox 数据上报域名
+DOMAIN-SUFFIX,monitor-frontend-collector.ffbbbdc6d3c353211fe2ba39c9f744cd.com # Bibox 监控上报域名
 
-# > Bybit 加密资产交易平台核心服务域名
+# > BTC.com Mining And Data Platform（BTC.com 比特币矿池与区块链数据服务平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,bybit.com # Bybit 官方主站与加密资产交易平台核心服务入口
-DOMAIN-SUFFIX,api.bybit.com # Bybit 官方交易 API，用于行情查询、下单、账户与合约相关接口
-DOMAIN-SUFFIX,static.bybit.com # Bybit 前端静态资源域，用于页面脚本、样式与组件加载
-DOMAIN-SUFFIX,blog.bybit.com # Bybit 官方公告与博客平台，用于平台更新、活动与信息披露
-DOMAIN-SUFFIX,help.bybit.com # Bybit 帮助中心与用户支持文档站点
-DOMAIN-SUFFIX,announcements.bybit.com # Bybit 官方公告与系统通知发布域名
-DOMAIN-SUFFIX,learn.bybit.com # Bybit 学习中心，用于交易教程与产品知识内容访问
-DOMAIN-SUFFIX,careers.bybit.com # Bybit 官方招聘页面，用于岗位信息与人才招募
-DOMAIN-SUFFIX,download.bybit.com # Bybit 客户端与相关工具下载分发域名
-DOMAIN-SUFFIX,assets.bybit.com # Bybit 前端媒体与静态资源子域，用于图像、图标等资源加载
+DOMAIN-SUFFIX,btc.com # BTC.com 官方平台
+DOMAIN-SUFFIX,api.btc.com # BTC.com 官方 API 接口
+DOMAIN-SUFFIX,static.btc.com # BTC.com 静态资源域名
 
-# > HackenProof 区块链安全审计与漏洞赏金平台
+# > BTCScan Bitcoin Explorer（BTCScan 比特币区块链浏览器）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,hackenproof.com # HackenProof 官方平台，用于区块链项目安全审计、漏洞赏金计划与安全披露
-DOMAIN-SUFFIX,api.hackenproof.com # HackenProof 官方 API，用于漏洞提交、项目信息与赏金计划相关接口
-DOMAIN-SUFFIX,static.hackenproof.com # HackenProof 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,btcscan.org # BTCScan 比特币区块链浏览器
+DOMAIN-SUFFIX,api.btcscan.org # BTCScan API 接口
+DOMAIN-SUFFIX,static.btcscan.org # BTCScan 静态资源域名
 
-# > Bibox 加密资产交易平台核心服务域名
+# > ETHScan Ethereum Explorer（ETHScan 以太坊区块链浏览器）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,bibox.com # Bibox 官方主站与加密资产交易服务入口
-DOMAIN-SUFFIX,bibox.win # Bibox 交易平台备用网址与区域访问入口
-DOMAIN-SUFFIX,img.bibox360.com # Bibox 平台前端图片与多媒体资源分发（CDN）
-DOMAIN-SUFFIX,ires.bibox360.com # Bibox 平台前端静态资源与组件加载服务
-DOMAIN-SUFFIX,npush.bibox360.com # Bibox 平台消息推送与通知服务（行情/订单/系统通知）
-DOMAIN-SUFFIX,bi-n.bibox360.com # Bibox 平台业务节点与后端接口通信服务
-DOMAIN-SUFFIX,i.bibox360.com # Bibox 平台前端图片与多媒体资源分发（CDN）
-DOMAIN-SUFFIX,statistical.bibox360.com # Bibox 平台内部访问与功能使用统计接口
-DOMAIN-SUFFIX,mopush.bibox360.com # Bibox 移动端消息推送与通知服务（订单/行情/系统消息）
-DOMAIN-SUFFIX,sc-datasink.ffbbbdc6d3c353211fe2ba39c9f744cd.com # 前端数据汇聚与事件上报（Data Sink）
-DOMAIN-SUFFIX,monitor-frontend-collector.ffbbbdc6d3c353211fe2ba39c9f744cd.com # 前端监控数据采集与性能指标上报
+DOMAIN-SUFFIX,ethscan.org # ETHScan 以太坊区块链浏览器
+DOMAIN-SUFFIX,api.ethscan.org # ETHScan API 接口
 
-# > BTC.com 比特币矿池与区块链数据服务平台
+# > XMRScan Monero Explorer（XMRScan 门罗币区块链浏览器）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,btc.com # BTC.com 官方平台，用于比特币矿池服务、区块链浏览与链上数据查询
-DOMAIN-SUFFIX,api.btc.com # BTC.com 官方 API 接口，用于区块、交易、地址与矿池数据查询
-DOMAIN-SUFFIX,static.btc.com # BTC.com 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,xmrscan.org # XMRScan 门罗币区块链浏览器
+DOMAIN-SUFFIX,api.xmrscan.org # XMRScan API 接口
 
-# > BTC Explorer 比特币区块链浏览器
+# > Monero Explorer（Monero 区块链浏览器）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,btcscan.org # BTCScan 比特币区块链浏览器，用于交易、区块、高度与地址等链上数据查询
-DOMAIN-SUFFIX,api.btcscan.org # BTCScan 官方 API 接口，用于区块链数据查询与第三方集成
-DOMAIN-SUFFIX,static.btcscan.org # BTCScan 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,moneroexplorer.org # Monero 官方区块链浏览器
+DOMAIN-SUFFIX,api.moneroexplorer.org # Monero 官方 API 接口
 
-# > ETHScan 以太坊区块链浏览器
+# > MoneroVision Analytics Platform（MoneroVision 门罗币链上数据分析平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,ethscan.org # ETHScan 以太坊区块链浏览器，用于以太坊交易、区块、地址与合约等链上数据查询
-DOMAIN-SUFFIX,api.ethscan.org # ETHScan 官方 API 接口，用于以太坊链上数据查询与开发者集成
+DOMAIN-SUFFIX,monerovision.com # MoneroVision 官方网站与服务域名
 
-# > XMRScan 门罗币（Monero）区块链浏览器
+# > BTC Mempool Fee Analytics（BTC Mempool 比特币内存池与手续费分析平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,xmrscan.org # XMRScan 门罗币区块链浏览器，用于 Monero 交易、区块、高度与网络状态等链上数据查询
-DOMAIN-SUFFIX,api.xmrscan.org # XMRScan 官方 API 接口，用于门罗币链上数据查询与开发者集成
+DOMAIN-SUFFIX,btcmempool.org # BTC Mempool 比特币内存池可视化平台
+DOMAIN-SUFFIX,api.btcmempool.org # BTC Mempool API 接口
 
-# > Monero Explorer 门罗币区块链浏览器
+# > BTC Fees Analytics（BTC Fees 比特币手续费分析平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,btcfees.org # BTC Fees 官方平台
+DOMAIN-SUFFIX,btcfee.org # BTC Fees 备用网址域名
 
-DOMAIN-SUFFIX,moneroexplorer.org # Monero 官方区块链浏览器，用于门罗币（XMR）交易、区块高度、地址与网络状态查询
-DOMAIN-SUFFIX,api.moneroexplorer.org # Monero Explorer 官方 API 接口，用于区块、交易与网络数据的程序化查询
+# > MyCrypto Wallet Platform（MyCrypto 非托管钱包平台）
+# - 校对时间：2026-03-29
 
-# > MoneroVision 门罗币链上数据分析与可视化平台
+DOMAIN-SUFFIX,mycrypto.com # MyCrypto 平台主域
+DOMAIN-SUFFIX,api.mycryptoapi.com # MyCrypto 官方 API 接口
+DOMAIN-SUFFIX,static.mycrypto.com # MyCrypto 静态资源域名
+DOMAIN-SUFFIX,mycryptoapi.com # MyCryptoAPI 主域
+DOMAIN-SUFFIX,proxy.mycryptoapi.com # MyCryptoAPI 代理接口
 
-DOMAIN-SUFFIX,monerovision.com # MoneroVision 官方网站与服务域名，用于 Monero（XMR）链上数据分析、统计指标与可视化展示
+# > QuickNode Infrastructure API Service（QuickNode 基础设施 API 服务）
+# - 校对时间：2026-03-29
 
-# > BTC Mempool 比特币内存池与手续费可视化分析平台
+DOMAIN-SUFFIX,quicknode.com # QuickNode 官方平台
+DOMAIN-SUFFIX,api.quicknode.com # QuickNode 官方 API 接口
+DOMAIN-SUFFIX,docs.quicknode.com # QuickNode 文档站点
+DOMAIN-SUFFIX,quiknode.net # QuickNode 基础域名
+DOMAIN-SUFFIX,infra.quiknode.net # QuickNode 基础设施子域
+DOMAIN-SUFFIX,quicklee-api.infra.quiknode.net # QuickNode 内部基础设施 API 服务域名
 
-DOMAIN-SUFFIX,btcmempool.org # BTC Mempool 比特币内存池可视化平台，用于交易拥堵状态、手续费水平与打包优先级分析
-DOMAIN-SUFFIX,api.btcmempool.org # BTC Mempool 官方 API 接口，用于比特币 mempool、手续费与区块状态数据查询
+# > QuickNode RPC Platform（QuickNode 区块链 RPC 与 Web3 基础设施平台）
+# - 校对时间：2026-03-29
 
-# > BTC Fees 比特币手续费与交易成本分析平台
+DOMAIN-SUFFIX,quiknode.io # QuickNode 官方平台
+DOMAIN-SUFFIX,api.quiknode.io # QuickNode API 接口
+DOMAIN-SUFFIX,dashboard.quiknode.io # QuickNode 控制台
+DOMAIN-SUFFIX,docs.quiknode.io # QuickNode 文档站点
 
-DOMAIN-SUFFIX,btcfees.org # BTC Fees 官方平台，用于比特币交易手续费水平、区块容量与打包成本分析
-DOMAIN-SUFFIX,btcfee.org # BTC Fees 备用网址域名，用于提供相同的比特币手续费与网络状态分析服务
+# > FindETH Address Lookup Tool（FindETH 地址与 ENS 查询工具）
+# - 校对时间：2026-03-29
 
-# > MyCrypto 非托管以太坊钱包与链上资产管理平台
+DOMAIN-SUFFIX,findeth.io # FindETH 官方平台
 
-DOMAIN-SUFFIX,crypto.com # Crypto.com 官方加密资产交易与金融服务平台主域名，用于数字资产交易、支付、钱包与平台核心功能
-DOMAIN-SUFFIX,accounts.crypto.com # Crypto.com 官方账户与身份认证服务域名，用于用户登录、账户管理与安全验证
-DOMAIN-SUFFIX,mycrypto.com # MyCrypto 官方网站，用于非托管钱包工具、资产管理与安全文档访问
-DOMAIN-SUFFIX,api.mycryptoapi.com # MyCrypto 官方后端 API 服务，用于链上数据查询、交易广播与钱包功能支持
-DOMAIN-SUFFIX,static.mycrypto.com # MyCrypto 官方前端静态资源域，用于网页工具与界面资源加载
-DOMAIN-SUFFIX,mycryptoapi.com # MyCryptoAPI 官方平台，用于区块链数据服务、RPC 接口说明与开发者文档
-DOMAIN-SUFFIX,proxy.mycryptoapi.com # MyCryptoAPI 提供的区块链 RPC 与数据代理服务，用于交易、区块与地址数据查询
+# > CryptoScamDB Risk Database（CryptoScamDB 加密诈骗与风险数据库）
+# - 校对时间：2026-03-29
 
-# > QuickNode 基础设施内部 API 服务（区块链 RPC / 后端支撑）
+DOMAIN-SUFFIX,cryptoscamdb.org # CryptoScamDB 官方平台
+DOMAIN-SUFFIX,api.cryptoscamdb.org # CryptoScamDB 官方 API 接口
 
-DOMAIN-SUFFIX,quicknode.com # QuickNode 官方区块链基础设施服务主站，用于多链 RPC、节点托管与开发者平台入口
-DOMAIN-SUFFIX,api.quicknode.com # QuickNode 官方 API 服务接口，用于账户管理、项目配置与节点调用
-DOMAIN-SUFFIX,docs.quicknode.com # QuickNode 官方文档站点，用于 RPC 接入说明、SDK 文档与开发者指南
-DOMAIN-SUFFIX,quiknode.net # QuickNode 官方基础域名之一，用于平台内部服务、节点基础设施与后端系统通信
-DOMAIN-SUFFIX,infra.quiknode.net # QuickNode 基础设施子域，用于区块链节点、RPC 服务与内部平台支撑
-DOMAIN-SUFFIX,quicklee-api.infra.quiknode.net # QuickNode 内部基础设施 API 服务域名，用于区块链节点、RPC 请求与平台后端支撑
+# > Unstoppable Domains Platform（Unstoppable Domains 去中心化域名平台）
+# - 校对时间：2026-03-29
 
-# > FindETH 以太坊地址与 ENS 查询工具
+DOMAIN-SUFFIX,unstoppabledomains.com # Unstoppable Domains 官方网站
+DOMAIN-SUFFIX,api.unstoppabledomains.com # Unstoppable Domains API 接口
 
-DOMAIN-SUFFIX,findeth.io # FindETH 官方网站与服务域名，用于以太坊地址、ENS 名称及基础链上信息查询
+# > LitecoinSpace Explorer（LitecoinSpace 莱特币区块链浏览器）
+# - 校对时间：2026-03-29
 
-# > CryptoScamDB 加密诈骗与风险地址数据库
+DOMAIN-SUFFIX,litecoinspace.org # LitecoinSpace 莱特币区块链浏览器
+DOMAIN-SUFFIX,api.litecoinspace.org # LitecoinSpace 官方 API 接口
+DOMAIN-SUFFIX,static.litecoinspace.org # LitecoinSpace 静态资源域名
 
-DOMAIN-SUFFIX,cryptoscamdb.org # CryptoScamDB 官方平台，用于收集、查询与披露加密诈骗域名、地址与相关风险情报
-DOMAIN-SUFFIX,api.cryptoscamdb.org # CryptoScamDB 官方 API 接口，用于程序化查询加密诈骗域名、地址与安全风险数据
+# > Kaspa Explorer（Kaspa 官方区块链浏览器）
+# - 校对时间：2026-03-29
 
-# > Unstoppable Domains Web3 去中心化域名服务平台
+DOMAIN-SUFFIX,explorer.kaspa.org # Kaspa 区块浏览器
+DOMAIN-SUFFIX,api.kaspa.org # 官方 API 接口
+DOMAIN-SUFFIX,static.kaspa.org # 静态资源域名
 
-DOMAIN-SUFFIX,unstoppabledomains.com # Unstoppable Domains 官方网站，用于 Web3 去中心化域名注册、管理与区块链身份服务
-DOMAIN-SUFFIX,api.unstoppabledomains.com # Unstoppable Domains 官方 API，用于域名解析、钱包地址映射与 Web3 身份查询
+# > ETC Blockscout Explorer（ETC Blockscout 区块链浏览器）
+# - 校对时间：2026-03-29
 
-# > QuickNode 区块链 RPC 与 Web3 基础设施服务平台
+DOMAIN-SUFFIX,ethereumclassic.org # Ethereum Classic 官方网站
+DOMAIN-SUFFIX,etc.blockscout.com # Ethereum Classic 区块浏览器
+DOMAIN-SUFFIX,blockscout.com # Blockscout 官方平台
+DOMAIN-SUFFIX,eth.blockscout.com # Ethereum 区块浏览器
+IP-CIDR,108.160.165.139/32 # Blockscout 服务节点
+IP-CIDR,208.31.254.33/32 # Blockscout 服务节点
 
-DOMAIN-SUFFIX,quiknode.io # QuickNode 官方网站，用于多链 RPC、节点服务与 Web3 基础设施接入
-DOMAIN-SUFFIX,api.quiknode.io # QuickNode 官方 API 接口，用于账户管理、节点配置与服务调用
-DOMAIN-SUFFIX,dashboard.quiknode.io # QuickNode 用户控制台，用于节点管理、密钥配置与用量查看
-DOMAIN-SUFFIX,docs.quiknode.io # QuickNode 官方文档站点，用于开发者接入指南与技术说明
+# > Bitcoin Project Website（Bitcoin 官方项目主站）
+# - 校对时间：2026-03-29
 
-# > LTC Explorer 莱特币区块链浏览器
+DOMAIN-SUFFIX,bitcoin.org # Bitcoin 官方网站
+DOMAIN-SUFFIX,static.bitcoin.org # 静态资源域名
 
-DOMAIN-SUFFIX,litecoinspace.org # LitecoinSpace 莱特币区块链浏览器，用于交易、区块、高度与地址等链上数据查询
-DOMAIN-SUFFIX,api.litecoinspace.org # LitecoinSpace 官方 API 接口，用于莱特币链上数据查询与第三方集成
-DOMAIN-SUFFIX,static.litecoinspace.org # LitecoinSpace 前端静态资源域，用于页面脚本、样式与组件加载
+# > Trezor Hardware Wallet Platform（Trezor 硬件钱包与自托管平台）
+# - 校对时间：2026-03-29
 
-# > Kas Explorer 官方区块链浏览器
+DOMAIN-SUFFIX,trezor.io # Trezor 官方平台
+DOMAIN-SUFFIX,connect.trezor.io # Trezor Connect 接口
+DOMAIN-SUFFIX,suite.trezor.io # Trezor Suite 服务域名
+DOMAIN-SUFFIX,data.trezor.io # Trezor 数据接口
+DOMAIN-SUFFIX,api.trezor.io # Trezor API 接口
 
-DOMAIN-SUFFIX,explorer.kaspa.org # Kaspa 官方区块链浏览器，用于交易、区块、高度与地址等链上数据查询
-DOMAIN-SUFFIX,api.kaspa.org # Kaspa 官方区块链 API，用于交易、区块、地址与网络状态等链上数据查询
-DOMAIN-SUFFIX,static.kaspa.org # Kaspa 官方前端静态资源域，用于区块浏览器页面脚本、样式与组件加载
+# > Ledger Hardware Wallet Platform（Ledger 硬件钱包与自托管平台）
+# - 校对时间：2026-03-29
 
-# > ETC Explorer 区块链浏览器（Blockscout）
+DOMAIN-SUFFIX,ledger.com # Ledger 官方平台
+DOMAIN-SUFFIX,live.ledger.com # Ledger Live 服务域名
+DOMAIN-SUFFIX,cdn.ledger.com # 静态资源域名
+DOMAIN-SUFFIX,api.ledger.com # 官方 API 接口
+DOMAIN-SUFFIX,ledgerwallet.com # 历史主域名
+DOMAIN-SUFFIX,ledgerstore.myshopify.com # 官方商店域名
+DOMAIN-SUFFIX,ledger-enterprise-api-portal.redoc.ly # Ledger API 文档站点
+DOMAIN-SUFFIX,ledger.my.site.com # Ledger 支持门户
+DOMAIN-SUFFIX,ledgercustomersuccess.my.site.com # Ledger 支持门户
+DOMAIN-SUFFIX,ledgercustomersuccess.file.force.com # 文件分发域名
 
-DOMAIN-SUFFIX,ethereumclassic.org # Ethereum Classic 官方项目网站，用于项目介绍、生态信息与技术文档发布
-DOMAIN-SUFFIX,etc.blockscout.com # Blockscout 提供的 Ethereum Classic 区块链浏览器，用于交易、区块与地址数据查询
-DOMAIN-SUFFIX,blockscout.com # Blockscout 官方主站与多链区块链浏览器服务平台
-DOMAIN-SUFFIX,eth.blockscout.com # Blockscout 提供的以太坊（Ethereum）区块链浏览器与链上数据查询服务
-IP-CIDR,108.160.165.139/32 # Blockscout 提供的 Ethereum Classic 区块链浏览器服务节点
-IP-CIDR,208.31.254.33/32 # Blockscout 提供的 Ethereum Classic 区块链浏览器服务节点
+# > FBTC Bitcoin Layer2 Network（FBTC 比特币 Layer2 网络）
+# - 校对时间：2026-03-29
 
-# > Bitcoin 官方区块链项目主站
+DOMAIN-SUFFIX,fbtc.com # FBTC 官方项目网站
+DOMAIN-SUFFIX,static.fbtc.com # 静态资源域名
 
-DOMAIN-SUFFIX,bitcoin.org # Bitcoin 官方项目网站，用于协议介绍、客户端下载、技术文档与社区信息发布
-DOMAIN-SUFFIX,static.bitcoin.org # Bitcoin 官方前端静态资源域，用于样式、脚本与图片等内容加载
+# > Wrapped Bitcoin Custody Protocol（WBTC 比特币跨链资产与托管协议）
+# - 校对时间：2026-03-29
 
-# > Trezor 硬件钱包与加密资产自托管服务平台
+DOMAIN-SUFFIX,wbtc.network # WBTC 官方网站
+DOMAIN-SUFFIX,app.wbtc.network # 官方应用入口
+DOMAIN-SUFFIX,docs.wbtc.network # 官方文档站点
 
-DOMAIN-SUFFIX,trezor.io # Trezor 官方硬件钱包与加密资产自托管平台主站，用于产品信息、钱包管理与安全服务
-DOMAIN-SUFFIX,connect.trezor.io # Trezor Connect Web 接口，用于浏览器与硬件钱包通信
-DOMAIN-SUFFIX,suite.trezor.io # Trezor Suite Web 钱包与资产管理界面
-DOMAIN-SUFFIX,data.trezor.io # Trezor 钱包后端数据与区块链信息接口服务
-DOMAIN-SUFFIX,api.trezor.io # Trezor 官方 API 接口，用于设备、资产与网络数据查询
+# > tBTC Bridge Protocol（tBTC 去中心化比特币跨链资产协议）
+# - 校对时间：2026-03-29
 
-# > Ledger 硬件钱包与加密资产自托管服务平台
+DOMAIN-SUFFIX,tbtc.network # tBTC 官方网站
+DOMAIN-SUFFIX,app.tbtc.network # 官方应用入口
+DOMAIN-SUFFIX,docs.tbtc.network # 官方文档站点
+DOMAIN-SUFFIX,tbtcscan.com # tBTC 专用区块链浏览器
 
-DOMAIN-SUFFIX,ledger.com # Ledger 官方硬件钱包与加密资产自托管平台主站，用于产品信息、钱包服务、安全公告与生态内容
-DOMAIN-SUFFIX,live.ledger.com # Ledger Live 官方钱包 Web 入口，用于资产管理、账户查看与应用交互
-DOMAIN-SUFFIX,cdn.ledger.com # Ledger 官方前端静态资源与内容分发（JS / CSS / 图片）
-DOMAIN-SUFFIX,api.ledger.com # Ledger 官方 API 接口，用于钱包服务、账户数据与生态功能支持
-DOMAIN-SUFFIX,ledgerwallet.com # Ledger 历史主域与钱包相关服务域名（兼容与跳转用途）
-DOMAIN-SUFFIX,ledgerstore.myshopify.com # Ledger 官方 Shopify 商店实例，用于硬件钱包产品的官方销售与订单处理
-DOMAIN-SUFFIX,ledgerstore.myshopify.com # Ledger 官方 Shopify 商店实例，用于硬件钱包产品的官方销售与订单处理
-DOMAIN-SUFFIX,ledger-enterprise-api-portal.redoc.ly # Ledger Enterprise 官方 API 文档门户，用于企业级钱包与托管服务的接口说明与开发者参考
-DOMAIN-SUFFIX,ledger.my.site.com # Ledger 使用 Salesforce Site 托管的企业官网或支持门户页面，用于企业服务信息与客户支持
-DOMAIN-SUFFIX,ledgercustomersuccess.my.site.com # Ledger 客户成功与官方支持门户（Salesforce Site 托管），用于帮助文档、服务指引与客户支持
-DOMAIN-SUFFIX,ledgercustomersuccess.file.force.com # Ledger 客户成功相关文件与资源分发服务（Salesforce File 托管），用于支持文档与附件下载
-DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务，用于 Ledger 国际订单的价格、税费与支付处理
+# > iBTC / BitSafe Platform（iBTC / BitSafe 平台）
+# - 校对时间：2026-03-29
 
-# > FBTC 比特币 Layer2 扩展网络与基础设施项目
+DOMAIN-SUFFIX,ibtc.network # BitSafe 跳转域名
+DOMAIN-SUFFIX,app.ibtc.network # 官方应用入口
+DOMAIN-SUFFIX,docs.ibtc.network # 官方文档站点
 
-DOMAIN-SUFFIX,fbtc.com # FBTC 官方项目网站，用于比特币 Layer2 网络介绍、技术架构说明与生态信息展示
-DOMAIN-SUFFIX,static.fbtc.com # FBTC 官方前端静态资源域，用于样式、脚本与图片等资源加载
+# > BitSafe Asset Security Platform（BitSafe 资产安全平台）
+# - 校对时间：2026-03-29
 
-# > WBTC（Wrapped Bitcoin）比特币跨链资产与托管协议
+DOMAIN-SUFFIX,bitsafe.finance # BitSafe 官方网站
+DOMAIN-SUFFIX,app.bitsafe.finance # 官方应用入口
+DOMAIN-SUFFIX,docs.bitsafe.finance # 官方文档站点
 
-DOMAIN-SUFFIX,wbtc.network # WBTC 官方网站，用于 Wrapped Bitcoin 跨链资产机制介绍、托管模式说明与生态合作信息发布
-DOMAIN-SUFFIX,app.wbtc.network # WBTC 官方应用入口，用于查看 WBTC 铸造、赎回流程与相关链上数据
-DOMAIN-SUFFIX,docs.wbtc.network # WBTC 官方文档站点，用于协议说明、技术文档与开发者参考
+# > Immunefi Security Bounty Platform（Immunefi 安全漏洞赏金平台）
+# - 校对时间：2026-03-29
 
-# > tBTC 去中心化比特币跨链资产协议（Threshold Network）
+DOMAIN-SUFFIX,immunefi.com # Immunefi 官方网站
+DOMAIN-SUFFIX,app.immunefi.com # 官方应用入口
+DOMAIN-SUFFIX,docs.immunefi.com # 官方文档站点
 
-DOMAIN-SUFFIX,tbtc.network # tBTC 官方网站，用于去中心化比特币跨链资产机制说明、托管模型介绍与 Threshold Network 生态信息发布
-DOMAIN-SUFFIX,app.tbtc.network # tBTC 官方应用入口，用于跨链资产铸造、赎回与状态交互
-DOMAIN-SUFFIX,docs.tbtc.network # tBTC 官方文档站点，用于协议原理、技术架构与开发者文档说明
-DOMAIN-SUFFIX,tbtcscan.com # tBTC 专用区块链浏览器，用于 tBTC 跨链资产的交易、地址与链上状态查询
+# > Threshold Network Governance Platform（Threshold Network 协议与治理平台）
+# - 校对时间：2026-03-29
 
-# > iBTC 比特币跨链资产与锚定协议
+DOMAIN-SUFFIX,threshold.network # Threshold Network 官方主站
+DOMAIN-SUFFIX,app.threshold.network # 官方应用入口
+DOMAIN-SUFFIX,dashboard.threshold.network # 官方控制台
+DOMAIN-SUFFIX,threshold-black.vercel.app # 前端预览站点
+DOMAIN-SUFFIX,threshold-network.ghost.io # 官方博客
 
-DOMAIN-SUFFIX,ibtc.network # iBTC 官方网站，用于比特币跨链锚定资产机制说明、协议设计与生态信息发布
-DOMAIN-SUFFIX,app.ibtc.network # iBTC 官方应用入口，用于跨链资产铸造、赎回与状态交互
-DOMAIN-SUFFIX,docs.ibtc.network # iBTC 官方文档站点，用于协议原理、技术架构与开发者说明
+# > Slush / SatoshiLabs Wallet Infrastructure（Slush / SatoshiLabs 钱包与基础设施服务）
+# - 校对时间：2026-03-29
 
-# > BitSafe 加密资产金融服务与资产安全平台
+DOMAIN-SUFFIX,api.slush.app # Slush API 接口
+DOMAIN-SUFFIX,slush.app # Slush 官方平台
+DOMAIN-SUFFIX,satoshilabs.com # SatoshiLabs 官方网站
+DOMAIN-SUFFIX,blog.satoshilabs.com # SatoshiLabs 官方博客
 
-DOMAIN-SUFFIX,bitsafe.finance # BitSafe 官方网站，用于加密资产金融服务、资产安全解决方案与产品信息发布
-DOMAIN-SUFFIX,app.bitsafe.finance # BitSafe 官方应用入口，用于账户访问、资产管理与相关金融服务操作
-DOMAIN-SUFFIX,docs.bitsafe.finance # BitSafe 官方文档与说明站点，用于产品说明、技术文档与使用指南
+# > Onchain Infrastructure Platform（Onchain 区块链基础设施平台）
+# - 校对时间：2026-03-29
 
-# > Immunefi 加密资产安全漏洞披露与赏金平台
+DOMAIN-SUFFIX,onchain.org # Onchain 官方网站
 
-DOMAIN-SUFFIX,immunefi.com # Immunefi 官方网站，用于区块链与加密资产项目的安全漏洞披露、漏洞赏金计划与安全研究协作
-DOMAIN-SUFFIX,app.immunefi.com # Immunefi 官方平台应用入口，用于漏洞提交、赏金管理与项目安全协作
-DOMAIN-SUFFIX,docs.immunefi.com # Immunefi 官方文档站点，用于漏洞披露流程、安全规范与研究指南说明
+# > MarkFi DeFi Platform（MarkFi DeFi 协议平台）
+# - 校对时间：2026-03-29
 
-# > Threshold Network 去中心化加密资产协议与治理平台
+DOMAIN-SUFFIX,markfi.xyz # MarkFi 官方项目主站
+DOMAIN-SUFFIX,a.markfi.xyz # MarkFi 官方应用前端入口（App）
+DOMAIN-SUFFIX,cdn.markfi.xyz # 静态资源域名
 
-DOMAIN-SUFFIX,threshold.network # Threshold Network 官方主站，用于去中心化加密资产协议（如 tBTC）介绍、治理机制说明与生态信息发布
-DOMAIN-SUFFIX,app.threshold.network # Threshold Network 官方应用前端，用于 tBTC 等协议的资产操作、质押、治理参与与链上交互
-DOMAIN-SUFFIX,dashboard.threshold.network # Threshold Network 官方仪表盘，用于 tBTC 等协议的资产管理、质押操作、治理参与与状态查询
-DOMAIN-SUFFIX,threshold-black.vercel.app # Threshold Network 使用 Vercel 部署的前端预览/测试站点，用于新版本界面或功能验证
-DOMAIN-SUFFIX,threshold-network.ghost.io # Threshold Network 官方博客站点，用于发布协议更新、研究文章与生态公告
+# > f(x) Protocol Derivatives Platform（f(x) Protocol 链上衍生品协议）
+# - 校对时间：2026-03-29
 
-# > Slush / SatoshiLabs 加密资产钱包与基础设施后端服务
+DOMAIN-SUFFIX,fxn.xyz # f(x) Protocol 官方网站
 
-DOMAIN-SUFFIX,api.slush.app # Slush（SatoshiLabs）官方后端 API，用于加密资产钱包应用的数据同步、账户状态查询与链上交互支持
-DOMAIN-SUFFIX,slush.app # Slush 官方钱包与服务入口域名，用于加密资产管理与用户访问
-DOMAIN-SUFFIX,satoshilabs.com # SatoshiLabs 官方公司网站，Trezor 硬件钱包背后的加密资产安全技术公司
-DOMAIN-SUFFIX,blog.satoshilabs.com # SatoshiLabs 官方博客，用于发布安全研究、产品更新与技术公告
+# > Merkle RPC Infrastructure（Merkle 链上数据与基础设施服务）
+# - 校对时间：2026-03-29
 
-# > Onchain 区块链与加密资产生态基础设施平台
+DOMAIN-SUFFIX,eth.merkle.io # Merkle 提供的以太坊链上数据与 RPC 基础设施服务接口
+DOMAIN-SUFFIX,merkle.io # Merkle 官方网站
 
-DOMAIN-SUFFIX,onchain.org # Onchain 官方网站，用于区块链与加密资产相关基础设施、生态项目与技术信息展示
+# > Web3Modal Wallet Connection Service（Web3Modal 钱包连接服务）
+# - 校对时间：2026-03-29
 
-# > MarkFi 去中心化金融协议前端与官方资源服务
+DOMAIN-SUFFIX,api.web3modal.org # 官方 API 接口
+DOMAIN-SUFFIX,web3modal.org # Web3Modal 官方网站
 
-DOMAIN-SUFFIX,markfi.xyz # MarkFi 官方项目主站，用于去中心化金融协议介绍、文档与生态信息展示
-DOMAIN-SUFFIX,a.markfi.xyz # MarkFi 官方应用前端入口（App），用于 DeFi 协议的用户交互、资产操作与功能访问
-DOMAIN-SUFFIX,cdn.markfi.xyz # MarkFi 官方前端静态资源分发（CDN），用于协议网站与应用的脚本、样式与媒体资源加载
+# > Coinbase Content Delivery Service（Coinbase 静态资源与公共内容分发服务）
+# - 校对时间：2026-03-29
 
-# > f(x) Protocol 去中心化金融与链上衍生品协议
+DOMAIN-SUFFIX,coinbase.com # Coinbase 官方主站
+DOMAIN-SUFFIX,public.cstatic.us # Coinbase 静态资源域名
+DOMAIN-SUFFIX,cca-lite.coinbase.com # Coinbase 账户合规接口
+DOMAIN-SUFFIX,ctf-images-01.coinbasecdn.net # Coinbase 图片资源域名
+DOMAIN-SUFFIX,ctf-videos-01.coinbasecdn.net # Coinbase 视频资源域名
+DOMAIN-SUFFIX,api.coinbase.com # Coinbase 官方 API 接口
+DOMAIN-SUFFIX,status.coinbase.com # Coinbase 官方服务状态页
+IP-CIDR,52.68.117.1/32 # Coinbase 服务节点
+IP-CIDR,54.150.106.1/32 # Coinbase 服务节点
+IP-CIDR,13.248.135.87/32 # Coinbase 边缘服务节点
 
-DOMAIN-SUFFIX,fxn.xyz # f(x) Protocol 官方网站，用于去中心化金融协议介绍、机制说明与链上衍生品相关服务入口
+# > Mantle CMS Service（Mantle 官方内容管理服务）
+# - 校对时间：2026-03-29
 
-# > Merkle 以太坊链上数据与基础设施服务
+DOMAIN-SUFFIX,mantle.xyz # Mantle Layer2 官方网站
+DOMAIN-SUFFIX,cms.mantle.xyz # Mantle 官方内容管理系统（CMS）
 
-DOMAIN-SUFFIX,eth.merkle.io # Merkle 提供的以太坊链上数据与 RPC 基础设施服务接口，用于链上查询、交易广播与 DApp 交互
-DOMAIN-SUFFIX,merkle.io # Merkle 官方网站，用于区块链基础设施服务介绍、文档与生态信息
+# > Dune Analytics Platform（Dune 链上数据分析平台）
+# - 校对时间：2026-03-29
 
-# > Web3Modal 去中心化钱包连接与会话管理服务
+DOMAIN-SUFFIX,dune.com # Dune Analytics 官方平台
+DOMAIN-SUFFIX,api.dune.com # Dune Analytics 官方 API 接口
+DOMAIN-SUFFIX,static.dune.com # Dune Analytics 静态资源域名
 
-DOMAIN-SUFFIX,api.web3modal.org # Web3Modal 官方 API，用于 DApp 与去中心化钱包之间的连接、会话管理与标准化交互
-DOMAIN-SUFFIX,web3modal.org # Web3Modal 官方网站，用于协议介绍、文档说明与开发者资源访问
+# > Reown Frontend Infrastructure（Reown Web3 前端基础设施）
+# - 校对时间：2026-03-29
 
-# > Coinbase 加密资产交易所静态资源与公共内容分发服务
+DOMAIN-SUFFIX,fonts.reown.com # 字体资源域名
+DOMAIN-SUFFIX,reown.com # Reown 官方网站
 
-DOMAIN-SUFFIX,coinbase.com # Coinbase 官方主站，用于加密资产交易、账户管理、法币出入金、合规信息与平台服务入口
-DOMAIN-SUFFIX,public.cstatic.us # Coinbase 公共静态资源（CDN）
-DOMAIN-SUFFIX,cca-lite.coinbase.com # Coinbase 账户合规校验与风控辅助接口，用于轻量级合规检查与账户状态验证
-DOMAIN-SUFFIX,ctf-images-01.coinbasecdn.net # Coinbase 官方 CDN 提供的前端图片与媒体资源分发，用于页面展示、内容插图与视觉资源加载
-DOMAIN-SUFFIX,ctf-videos-01.coinbasecdn.net # Coinbase 官方 CDN 提供的前端视频与媒体资源分发，用于页面视频内容展示、媒体加载与播放
-DOMAIN-SUFFIX,api.coinbase.com # Coinbase 官方 API 接口域名，用于交易请求、行情接口与交易账户通信
-DOMAIN-SUFFIX,status.coinbase.com # Coinbase 官方平台状态监控页面域名，用于实时服务状态展示与事件公告
-IP-CIDR,52.68.117.1/32 # Coinbase 云端基础设施节点（AWS），常用于核心 API 或账户相关服务通信
-IP-CIDR,54.150.106.1/32 # Coinbase 云端基础设施节点（AWS），用于交易、账户或风控相关后端服务
-IP-CIDR,13.248.135.87/32 # Coinbase 使用的 CDN / 边缘网络节点，用于静态资源或 API 边缘加速
+# > Global-e Payment Service（Global-e 跨境支付与本地化结算服务）
+# - 校对时间：2026-03-29
 
-# > Mantle Layer2 区块链网络官方内容与生态管理服务
+DOMAIN-SUFFIX,global-e.com # Global-e 官方平台
+DOMAIN-SUFFIX,web.global-e.com # Global-e 支付服务接口
+DOMAIN-SUFFIX,static.global-e.com # Global-e 静态资源域名
 
-DOMAIN-SUFFIX,mantle.xyz # Mantle Layer2 官方网站，用于网络介绍、技术文档、生态项目与治理信息发布
-DOMAIN-SUFFIX,cms.mantle.xyz # Mantle 官方内容管理系统（CMS），用于官网内容、生态信息与公告页面的后台管理
+# > MoonPay Fiat Onramp Service（MoonPay 法币入金服务）
+# - 校对时间：2026-03-29
 
-# > Dune Analytics 链上数据分析与可视化平台
+DOMAIN-SUFFIX,moonpay.com # MoonPay 官方平台
+DOMAIN-SUFFIX,static.moonpay.com # 静态资源域名
+DOMAIN-SUFFIX,api.moonpay.com # 官方 API 接口
+DOMAIN-SUFFIX,buy.moonpay.com # 官方应用入口
 
-DOMAIN-SUFFIX,dune.com # Dune Analytics 官方平台，用于区块链链上数据查询、SQL 分析、可视化仪表盘与研究报告发布
-DOMAIN-SUFFIX,api.dune.com # Dune Analytics 官方 API，用于链上数据查询、仪表盘数据获取与开发者集成
-DOMAIN-SUFFIX,static.dune.com # Dune Analytics 前端静态资源域，用于页面脚本、样式与可视化组件加载
+# > Very Good Security（VGS）（VGS 支付数据脱敏与合规采集基础设施）
+# - 校对时间：2026-03-29
 
-# > Reown Web3 基础设施前端资源与字体分发服务
+DOMAIN-SUFFIX,verygoodsecurity.com # VGS 官方网站
+DOMAIN-SUFFIX,js.verygoodvault.com # 前端 SDK 域名
+DOMAIN-SUFFIX,api.verygoodvault.com # 官方 API 接口
 
-DOMAIN-SUFFIX,fonts.reown.com # Reown 提供的前端字体资源分发服务，用于 Web3Modal、WalletConnect 等 Web3 基础设施界面渲染
-DOMAIN-SUFFIX,reown.com # Reown 官方网站，用于 Web3 基础设施项目介绍、文档与生态信息发布
+# > Riskified Fraud Prevention Service（Riskified 支付风控服务）
+# - 校对时间：2026-03-29
 
-# > Global-e 跨境电商结算与本地化支付服务
+DOMAIN-SUFFIX,riskified.com # Riskified 官方网站
+DOMAIN-SUFFIX,c.riskified.com # Riskified 客户端风险信号采集接口
+DOMAIN-SUFFIX,img.riskified.com # 图片资源域名
+DOMAIN-SUFFIX,api.riskified.com # 官方 API 接口
 
-DOMAIN-SUFFIX,global-e.com # Global-e 官方平台，用于跨境电商本地化定价、税费计算与支付结算服务说明
-DOMAIN-SUFFIX,web.global-e.com # Global-e 跨境电商本地化结算与支付服务接口，用于国际订单价格、税费与支付处理
-DOMAIN-SUFFIX,static.global-e.com # Global-e 跨境电商结算服务前端静态资源分发（JS / CSS / UI 组件）
+# > GrowThePie Layer2 Analytics（GrowThePie Layer2 生态数据分析平台）
+# - 校对时间：2026-03-29
 
-# > MoonPay 法币入金与加密资产购买服务
+DOMAIN-SUFFIX,growthepie.com # GrowThePie 官方平台
+DOMAIN-SUFFIX,api.growthepie.com # 官方 API 接口
+DOMAIN-SUFFIX,static.growthepie.com # 静态资源域名
 
-DOMAIN-SUFFIX,moonpay.com # MoonPay 官方主站与法币入金服务入口
-DOMAIN-SUFFIX,static.moonpay.com # MoonPay 法币入金与加密资产购买服务的前端静态资源分发（JS / CSS / 图片）
-DOMAIN-SUFFIX,api.moonpay.com # MoonPay 法币入金与加密资产购买的核心 API 接口服务
-DOMAIN-SUFFIX,buy.moonpay.com # MoonPay 嵌入式法币入金与加密资产购买页面入口
+# > Bitcoin Unlimited Explorer（Bitcoin Unlimited 社区区块链浏览器）
+# - 校对时间：2026-03-29
 
-# > Very Good Security（VGS）支付数据脱敏与合规采集基础设施
+DOMAIN-SUFFIX,explorer.bitcoinunlimited.info # 官方区块浏览器
+DOMAIN-SUFFIX,bitcoinunlimited.info # Bitcoin Unlimited 官方项目网站
 
-DOMAIN-SUFFIX,verygoodsecurity.com # VGS 官方网站，用于支付数据脱敏、合规采集与 PCI 合规解决方案介绍
-DOMAIN-SUFFIX,js.verygoodvault.com # VGS 前端 JavaScript SDK，用于支付与法币入金流程中的敏感数据脱敏与合规采集
-DOMAIN-SUFFIX,api.verygoodvault.com # VGS 官方 API 服务，用于安全数据代理、令牌化与后端合规数据处理
+# > Base Layer2 Network（Base 以太坊 Layer2 区块链网络）
+# - 校对时间：2026-03-29
 
-# > Riskified 电商支付反欺诈与风险评估基础设施服务
+DOMAIN-SUFFIX,base.org # Base 官方网站
+DOMAIN-SUFFIX,docs.base.org # 官方文档站点
+DOMAIN-SUFFIX,bridge.base.org # 官方跨链桥入口
+DOMAIN-SUFFIX,explorer.base.org # 官方区块浏览器
 
-DOMAIN-SUFFIX,riskified.com # Riskified 官方网站，用于支付反欺诈、交易风险评估与风控解决方案说明
-DOMAIN-SUFFIX,c.riskified.com # Riskified 客户端风险信号采集接口，用于交易风控、设备指纹与欺诈识别
-DOMAIN-SUFFIX,img.riskified.com # Riskified 前端风控相关静态资源分发，用于反欺诈像素、设备识别组件加载
-DOMAIN-SUFFIX,api.riskified.com # Riskified 官方 API 服务，用于交易风控决策、风险评分与后端系统集成
+# > BlockSec Research Initiative（BlockSec 研究与生态规范组织）
+# - 校对时间：2026-03-29
 
-# > GrowThePie 以太坊 Layer2 / Rollup 生态数据分析平台
+DOMAIN-SUFFIX,blocksec.com # 官方网站
+DOMAIN-SUFFIX,openlabelsinitiative.org # 官方网站
 
-DOMAIN-SUFFIX,growthepie.com # GrowThePie 官方平台，用于以太坊 Layer2 与 Rollup 生态的链上数据分析、指标统计与可视化研究
-DOMAIN-SUFFIX,api.growthepie.com # GrowThePie 官方 API，用于 Layer2 生态数据查询、指标获取与研究数据集成
-DOMAIN-SUFFIX,static.growthepie.com # GrowThePie 前端静态资源域，用于页面脚本、样式与数据可视化组件加载
+# > dRPC Multi-Chain RPC Service（dRPC 多链 RPC 基础设施服务）
+# - 校对时间：2026-03-29
 
-# > BTC Explorer 社区区块链浏览器（Bitcoin Unlimited）
+DOMAIN-SUFFIX,drpc.org # dRPC 官方网站
+DOMAIN-SUFFIX,api.drpc.org # 官方 API 接口
 
-DOMAIN-SUFFIX,explorer.bitcoinunlimited.info # Bitcoin Unlimited 提供的比特币区块链浏览器，用于交易、区块与地址等链上数据查询
-DOMAIN-SUFFIX,bitcoinunlimited.info # Bitcoin Unlimited 官方项目网站，用于客户端、文档与社区项目信息发布
+# > Sourcify Contract Verification Service（Sourcify 合约源码验证服务）
+# - 校对时间：2026-03-29
 
-# > Base 以太坊 Layer 2 区块链网络（Coinbase 生态）
+DOMAIN-SUFFIX,sourcify.dev # Sourcify 官方平台
+DOMAIN-SUFFIX,repo.sourcify.dev # Sourcify 合约源码与元数据存储服务
+DOMAIN-SUFFIX,api.sourcify.dev # 官方 API 接口
 
-DOMAIN-SUFFIX,base.org # Base 官方网站，用于介绍由 Coinbase 推出的以太坊 Layer 2 网络 Base 的技术架构、生态项目与开发者资源
-DOMAIN-SUFFIX,docs.base.org # Base 官方开发者文档与技术说明，用于协议文档、API 说明与开发指南
-DOMAIN-SUFFIX,bridge.base.org # Base 官方跨链桥服务入口，用于资产在以太坊主网与 Base 网络之间的跨链转移
-DOMAIN-SUFFIX,explorer.base.org # Base 官方区块浏览器入口，用于区块、交易与地址等链上数据查询
+# > Web3 MPC Backend Service（Web3 钱包 MPC 后端服务）
+# - 校对时间：2026-03-29
 
-# > 区块链安全研究与生态规范倡议组织
+DOMAIN-SUFFIX,mpc-prod-16-s6uit34pua-uk.a.run.app # MPC 后端服务域名
 
-DOMAIN-SUFFIX,blocksec.com # BlockSec 区块链安全研究机构，提供智能合约审计、安全分析与风险研究服务
-DOMAIN-SUFFIX,openlabelsinitiative.org # Open Labels Initiative 区块链生态标签与风险披露规范倡议组织
+# > Banxa Fiat Onramp Service（Banxa 法币入金与加密资产购买服务）
+# - 校对时间：2026-03-29
 
-# > dRPC 去中心化多链 RPC 基础设施服务平台
+DOMAIN-SUFFIX,bibox.banxa.com # Banxa 入金服务域名
+DOMAIN-SUFFIX,bibox.banxa-sandbox.com # Banxa 入金沙盒域名
 
-DOMAIN-SUFFIX,drpc.org # dRPC 官方网站，用于多链 RPC 基础设施介绍、文档与开发者资源访问
-DOMAIN-SUFFIX,api.drpc.org # dRPC 官方 API 接口，用于多链区块链 RPC 请求、节点访问与开发者调用
+# > Mercuryo Fiat Onramp Service（Mercuryo 法币入金与支付服务）
+# - 校对时间：2026-03-29
 
-# > Sourcify 智能合约源码验证与元数据服务平台
+DOMAIN-SUFFIX,mercuryo.io # Mercuryo 官方平台
+DOMAIN-SUFFIX,widget.mercuryo.io # Mercuryo 嵌入式支付组件
+DOMAIN-SUFFIX,api.mercuryo.io # 官方 API 接口
 
-DOMAIN-SUFFIX,sourcify.dev # Sourcify 官方平台，用于以太坊等 EVM 链智能合约源码验证、元数据发布与可验证性支持
-DOMAIN-SUFFIX,repo.sourcify.dev # Sourcify 合约源码与元数据存储服务，用于已验证合约源码与编译产物的公开托管
-DOMAIN-SUFFIX,api.sourcify.dev # Sourcify 官方 API 接口，用于合约验证、元数据查询与开发者集成
+# > Peatio Exchange Service（Peatio 交易平台核心服务）
+# - 校对时间：2026-03-29
 
-# > Web3 钱包 MPC 多方计算后端服务（Google Cloud Run）
+DOMAIN-SUFFIX,b.peatio.com # Peatio 业务接口域名
+DOMAIN-SUFFIX,static.peatio.com # Peatio 静态资源域名
+DOMAIN-SUFFIX,assets.peatio.com # Peatio 静态资源域名
 
-DOMAIN-SUFFIX,mpc-prod-16-s6uit34pua-uk.a.run.app # Web3 钱包多方计算（MPC）签名与安全计算后端服务，用于私钥分片签名、交易授权与账户安全操作
-DOMAIN-SUFFIX,a.run.app # Google Cloud Run 平台域名，用于承载 Web3 钱包 MPC 后端计算服务实例
+# > TradingView Market Data Service（TradingView 金融与加密行情服务）
+# - 校对时间：2026-03-29
 
-# > Banxa 法币入金与加密资产购买服务（Bibox 集成）
+DOMAIN-SUFFIX,s.tradingview.com # TradingView 图表组件域名
+DOMAIN-SUFFIX,pine-facade.tradingview.com # TradingView 图表接口
+DOMAIN-SUFFIX,s3-symbol-logo.tradingview.com # TradingView 图标资源域名
+DOMAIN-SUFFIX,tradingview-widget.com # TradingView 小组件服务域名
+DOMAIN-SUFFIX,widgetdata-backup.tradingview.com # TradingView 组件数据备份接口
+DOMAIN-SUFFIX,widgetdata.tradingview.com # TradingView 组件数据接口
+DOMAIN-SUFFIX,pushstream.tradingview.com # TradingView 实时数据推送接口
+DOMAIN-SUFFIX,telemetry.tradingview.com # TradingView 遥测接口
+DOMAIN-SUFFIX,s3.tradingview.com # TradingView 静态资源域名
+DOMAIN-SUFFIX,scanner-backend.tradingview.com # TradingView 行情扫描服务接口
 
-DOMAIN-SUFFIX,bibox.banxa.com # Banxa 为 Bibox 提供的法币入金与加密资产购买网关服务
-DOMAIN-SUFFIX,bibox.banxa-sandbox.com # Banxa 为 Bibox 提供的法币入金沙盒测试环境域名
+# > Blockchain.com Service Platform（Blockchain.com 区块链浏览器与加密资产服务平台）
+# - 校对时间：2026-03-29
 
-# > Mercuryo 法币入金与加密资产支付基础设施服务
+DOMAIN-SUFFIX,blockchain.com # Blockchain.com 官方平台
+DOMAIN-SUFFIX,blockchain.info # 历史主域名
+DOMAIN-SUFFIX,api.blockchain.com # 官方 API 接口
+DOMAIN-SUFFIX,charts.blockchain.com # Blockchain.com 图表服务域名
+DOMAIN-SUFFIX,explorer.blockchain.com # Blockchain.com 区块浏览器
+DOMAIN-SUFFIX,docs.blockchain.com # 官方文档站点
+DOMAIN-SUFFIX,api.blockchair.com # 官方 API 接口
 
-DOMAIN-SUFFIX,mercuryo.io # Mercuryo 官方平台，用于法币入金、加密资产购买、支付解决方案与合规服务介绍
-DOMAIN-SUFFIX,widget.mercuryo.io # Mercuryo 嵌入式支付组件，用于法币入金与加密资产购买流程的前端集成
-DOMAIN-SUFFIX,api.mercuryo.io # Mercuryo 官方 API 服务，用于支付请求、订单处理、合规校验与后台系统集成
+# > Web3 / NFT Frontend Resources（Web3 / NFT 前端资源服务）
+# - 校对时间：2026-03-29
 
-# > Peatio 加密资产交易平台核心服务与前端资源
+DOMAIN-SUFFIX,gurenla.com # Web3 / NFT 平台域名
+DOMAIN-SUFFIX,img.gurenla.com # 图片资源域名
 
-DOMAIN-SUFFIX,b.peatio.com # Peatio 交易平台业务接口与后台服务
-DOMAIN-SUFFIX,static.peatio.com # Peatio 交易平台前端静态资源分发（CDN）
-DOMAIN-SUFFIX,assets.peatio.com # Peatio 交易系统前端静态资源分发（JS / CSS / 图片）
+# > Noxiaohao Logging Service（Noxiaohao 日志与数据统计服务）
+# - 校对时间：2026-03-29
 
-# > TradingView 金融与加密资产行情平台前端静态资源服务
+DOMAIN-SUFFIX,noxiaohao.com # Noxiaohao 官方平台
+DOMAIN-SUFFIX,log.noxiaohao.com # Noxiaohao 平台内部日志上报与数据统计接口
 
-DOMAIN-SUFFIX,s.tradingview.com # TradingView 图表组件与前端静态资源分发服务
-DOMAIN-SUFFIX,pine-facade.tradingview.com # TradingView Pine Script 执行与图表渲染接口
-DOMAIN-SUFFIX,s3-symbol-logo.tradingview.com # TradingView 行情品种图标与标识资源（CDN）
-DOMAIN-SUFFIX,tradingview-widget.com # TradingView 嵌入式行情图表与小组件服务
-DOMAIN-SUFFIX,widgetdata-backup.tradingview.com # TradingView 行情组件数据备份与容灾接口（Widget 数据冗余）
-DOMAIN-SUFFIX,widgetdata.tradingview.com # TradingView 行情组件主数据接口，用于图表与嵌入式 Widget 数据获取
-DOMAIN-SUFFIX,pushstream.tradingview.com # TradingView 实时行情与图表数据推送（WebSocket / 流式服务）
-DOMAIN-SUFFIX,telemetry.tradingview.com # TradingView 平台遥测数据与使用情况统计接口
-DOMAIN-SUFFIX,s3.tradingview.com # TradingView 前端静态资源与数据文件分发（CDN）
-DOMAIN-SUFFIX,scanner-backend.tradingview.com # TradingView 行情扫描与筛选后台服务（Screener 后端）
+# > BWB Resource Distribution Platform（BWB 文件分享与资源分发服务）
+# - 校对时间：2026-03-29
 
-# > Blockchain.com 区块链浏览器与加密资产服务平台
+DOMAIN-SUFFIX,bwb.online # BWB 官方平台
+DOMAIN-SUFFIX,newshare.bwb.online # BWB 文件共享与资源分发子域
 
-DOMAIN-SUFFIX,blockchain.com # Blockchain.com 官方平台，用于区块链浏览、钱包服务与加密资产相关功能
-DOMAIN-SUFFIX,blockchain.info # Blockchain.com 区块链浏览器与加密资产查询服务
-DOMAIN-SUFFIX,api.blockchair.com # Blockchair 区块链浏览器链上数据查询与分析 API 接口
+# > Onramper Fiat Onramp Gateway（Onramper 法币入金网关服务）
+# - 校对时间：2026-03-29
 
-# > Web3 / NFT 平台前端静态资源服务（Bitget Web3 生态）
+DOMAIN-SUFFIX,buy.onramper.com # 官方应用入口
+DOMAIN-SUFFIX,api.onramper.com # 官方 API 接口
+DOMAIN-SUFFIX,cdn.onramper.com # 静态资源域名
+DOMAIN-SUFFIX,check-cookie.onramper.tech # Cookie 校验接口
 
-DOMAIN-SUFFIX,gurenla.com # Web3 / NFT 平台相关官方网站或内容入口，用于项目信息与前端页面访问
-DOMAIN-SUFFIX,img.gurenla.com # Web3 / NFT 平台前端图片与静态资源分发域名，用于页面展示与媒体资源加载
+# > BitKeep / Bitget Wallet Platform（BitKeep / Bitget Wallet 官方钱包平台）
+# - 校对时间：2026-03-29
 
-# > Noxiaohao 平台日志与数据统计服务（Bitget Web3 生态）
+DOMAIN-SUFFIX,bitkeep.com # BitKeep 官方网站及钱包平台入口
+DOMAIN-SUFFIX,api.bitkeep.com # 官方 API 接口
+DOMAIN-SUFFIX,static.bitkeep.com # 静态资源域名
 
-DOMAIN-SUFFIX,noxiaohao.com # Noxiaohao 官方平台或服务入口，用于平台级日志、运行数据与技术服务说明
-DOMAIN-SUFFIX,log.noxiaohao.com # Bitget Web3 平台内部日志上报与数据统计接口，用于系统运行监控与问题排查
+# > SaaSExch Trading Gateway Service（SaaSExch 交易与支付网关服务）
+# - 校对时间：2026-03-29
 
-# > BWB 文件分享平台与 Web3 资源分发服务
-
-DOMAIN-SUFFIX,bwb.online # BWB 官方平台主域名，用于文件分享服务入口与平台信息展示
-DOMAIN-SUFFIX,newshare.bwb.online # BWB 文件共享与资源分发子域，用于 Web3 相关文件、资源与内容分发
-
-# > Onramper 加密资产法币入金与支付网关服务
-
-DOMAIN-SUFFIX,buy.onramper.com # Onramper 平台法币入金与交易网关接口
-DOMAIN-SUFFIX,api.onramper.com # Onramper API 接口，用于法币入金与交易网关
-DOMAIN-SUFFIX,cdn.onramper.com # Onramper 前端静态资源 CDN，用于交易网关页面加载
-DOMAIN-SUFFIX,check-cookie.onramper.tech # Onramper Cookie 校验接口，用于交易与支付流程
-
-# > BitKeep / Bitget Wallet 官方加密资产钱包平台
-
-DOMAIN-SUFFIX,bitkeep.com # BitKeep 官方网站及钱包平台入口，用于钱包产品介绍、下载与账户访问
-DOMAIN-SUFFIX,api.bitkeep.com # BitKeep 钱包后端 API 服务，用于账户、资产、链上交互与业务请求
-DOMAIN-SUFFIX,static.bitkeep.com # BitKeep 官方前端静态资源域，用于网站与钱包相关页面资源加载
-
-# > SaaSExch 加密资产交易与支付网关服务
-
-DOMAIN-SUFFIX,api.saasexch.com # SaaSExch API 接口
-DOMAIN-SUFFIX,api.saasexch.co # SaaSExch API 接口
-DOMAIN-SUFFIX,api.saasexch.info # SaaSExch API 接口
+DOMAIN-SUFFIX,api.saasexch.com # 官方 API 接口
+DOMAIN-SUFFIX,api.saasexch.co # 官方 API 接口
+DOMAIN-SUFFIX,api.saasexch.info # 官方 API 接口
 DOMAIN-SUFFIX,festream.saasexch.cc # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,festream.saasexch.co # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,festream.saasexch.io # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,festream.saasexch.com # SaaSExch 实时数据流接口
 DOMAIN-SUFFIX,public.saasexch.com # SaaSExch 公共服务与前端共享资源
-DOMAIN-SUFFIX,sensors.saasexch.com # SaaSExch 平台客户端监测与风控通信子域，用于运行状态检测、环境校验与平台安全相关通信
+DOMAIN-SUFFIX,sensors.saasexch.com # SaaSExch 平台客户端监测与风控通信子域
 
-# > WalletConnect 去中心化钱包连接协议与通信基础设施服务
+# > WalletConnect Communication Service（WalletConnect 钱包连接通信服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通信服务
-DOMAIN-SUFFIX,relay.walletconnect.com # WalletConnect 消息中继与会话通信服务
-DOMAIN-SUFFIX,verify.walletconnect.org # WalletConnect 会话校验与安全验证接口
+DOMAIN-SUFFIX,relay.walletconnect.org # 消息中继服务
+DOMAIN-SUFFIX,relay.walletconnect.com # 消息中继服务
+DOMAIN-SUFFIX,verify.walletconnect.org # 会话验证接口
 DOMAIN-SUFFIX,explorer-api.walletconnect.com # WalletConnect Explorer API 接口
-DOMAIN-SUFFIX,verify.walletconnect.com # WalletConnect 会话校验与安全验证接口
-DOMAIN-SUFFIX,pulse.walletconnect.org # WalletConnect Pulse 服务，用于钱包连接生态的运行状态、网络健康与服务监控信息展示
-DOMAIN-SUFFIX,relay.walletconnect.org # WalletConnect 消息中继与会话通信服务
+DOMAIN-SUFFIX,verify.walletconnect.com # 会话验证接口
+DOMAIN-SUFFIX,pulse.walletconnect.org # 服务状态域名
 
-# > YZi Labs 区块链与加密资产研究及孵化机构
+# > YZi Labs Research Platform（YZi Labs 研究与孵化机构）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,yzilabs.io # 品牌跳转域名
+DOMAIN-SUFFIX,yzilabs.com # YZi Labs 官方研究平台
+DOMAIN-SUFFIX,yzi-labs.ghost.io # 官方博客
 
-DOMAIN-SUFFIX,yzilabs.io # YZi Labs 官方研究与生态孵化平台
-DOMAIN-SUFFIX,yzilabs.com # YZi Labs 官方研究与生态孵化平台
-DOMAIN-SUFFIX,yzi-labs.ghost.io # YZi Labs 官方博客与研究内容发布站点
+# > CommonService Wallet Infrastructure（CommonService 钱包基础通信服务）
+# - 校对时间：2026-03-29
 
-# > 加密钱包与跨平台基础通信服务
+DOMAIN-SUFFIX,commonservice.io # CommonService 官方平台
+DOMAIN-SUFFIX,api.commonservice.io # CommonService API 接口
 
-DOMAIN-SUFFIX,commonservice.io # 加密钱包与 Web3 平台通用基础服务主域，用于跨平台账户、配置与基础通信支持
-DOMAIN-SUFFIX,api.commonservice.io # 加密钱包与平台通用后端 API 接口，用于基础数据同步、状态查询与服务通信
+# > BTC Bank Official Website（BTC Bank 美国社区商业银行官网）
+# - 校对时间：2026-03-29
 
-# > BTC Bank 美国社区商业银行官网
+DOMAIN-SUFFIX,btcbank.bank # BTC Bank 官方网站
+DOMAIN-SUFFIX,api.btcbank.bank # BTC Bank API 接口
+DOMAIN-SUFFIX,static.btcbank.bank # BTC Bank 静态资源域名
+
+# > Banno Digital Banking Platform（Banno 数字银行平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,banno.com # Banno 官方平台
+DOMAIN-SUFFIX,api.banno.com # Banno API 接口
+DOMAIN-SUFFIX,static.banno.com # Banno 静态资源域名
+
+# > C3Pool Mining Pool Service（C3Pool 矿池服务）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,c3pool.com # C3Pool 官方挖矿池主域名
+DOMAIN-SUFFIX,api.c3pool.com # 官方 API 接口
+
+# > CEX.IO Exchange Platform（CEX.IO 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,cex.io # CEX.IO 官方加密资产交易平台主域名
+DOMAIN-SUFFIX,api.cex.io # 官方 API 接口
+DOMAIN-SUFFIX,trade.cex.io # CEX.IO 官方交易前端入口
+DOMAIN-SUFFIX,static.cex.io # 静态资源域名
+
+# > CoinEx Exchange Platform（CoinEx 数字资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,coinex.com # CoinEx 官方加密资产交易平台主域名
+DOMAIN-SUFFIX,file.coinexstatic.com # 静态资源域名
+
+# > Coinrail Exchange Platform（Coinrail 韩国数字资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,coinrail.co.kr # Coinrail（韩国）数字货币交易所官方主域名
+DOMAIN-SUFFIX,api.coinrail.co.kr # 官方 API 接口
+DOMAIN-SUFFIX,static.coinrail.co.kr # 静态资源域名
+
+# > COINUT Exchange Platform（COINUT 数字资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,coinut.com # COINUT 官方数字货币交易平台主域名
+DOMAIN-SUFFIX,api.coinut.com # 官方 API 接口
+DOMAIN-SUFFIX,static.coinut.com # 静态资源域名
+
+# > Cruxpool Mining Pool Service（Cruxpool 矿池平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,cruxpool.com # Cruxpool 官方矿池平台主域名
+DOMAIN-SUFFIX,api.cruxpool.com # 官方 API 接口
+DOMAIN-SUFFIX,static.cruxpool.com # 静态资源域名
+
+# > Hydro Protocol / DDEX Platform（Hydro Protocol / DDEX 协议与平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,hydroprotocol.io # Hydro Protocol 官方网站域名
+DOMAIN-SUFFIX,ddex.io # DDEX 去中心化交易平台官方域名（历史项目）
+DOMAIN-SUFFIX,margin-docs.ddex.io # DDEX 保证金交易文档子域
+
+# > EXMO Exchange Platform（EXMO 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,exmo.com # EXMO 加密货币交易所官方域名
+
+# > Gate.io Exchange Platform（Gate.io 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,gatescan.org # Gate 生态区块浏览器
+DOMAIN-SUFFIX,gate.com # Gate.io 官方主域名
+DOMAIN-SUFFIX,gimg2.gateimg.com # Gate 图片资源域名
+DOMAIN-SUFFIX,icon.gateimg.com # Gate 静态资源域名
+DOMAIN-SUFFIX,social-cdn.gposts.net # Gate 社区静态资源域名
+DOMAIN-SUFFIX,gavatar.staticimgs.com # Gate 图片资源域名
+DOMAIN-SUFFIX,brokerapi.gateperps.com # Gate 合约交易 API 接口
+DOMAIN-SUFFIX,web.gatetrace.com # Gate 链上数据服务域名
+DOMAIN-SUFFIX,web3-fomox-ws-prod.gateweb3.cc # Gate Web3 实时通信服务域名
+DOMAIN-SUFFIX,prd-web-imgs.s3.gateapis.com # Gate 图片资源域名
+DOMAIN-SUFFIX,image.gatedataimg.com # 图片资源域名
+DOMAIN-SUFFIX,webws.gateio.live # Gate.io WebSocket 服务域名
+DOMAIN-SUFFIX,snssdk.gatedata.org # Gate 数据采集接口
+DOMAIN-SUFFIX,cdn.mytoken.org # Gate 静态资源域名
+DOMAIN-SUFFIX,api.gateio.ws # 官方 API 接口
+DOMAIN-SUFFIX,web3-fomox-api-prod.ldd678.com # Gate Web3 API 接口
+DOMAIN-SUFFIX,h-download.gateapp.online # Gate 下载服务域名
+DOMAIN-SUFFIX,img.gatenft.io # 图片资源域名
+DOMAIN-SUFFIX,did.gatexsecurity.com # Gate 身份验证服务域名
+
+# > GateChain Network Platform（GateChain 公链与区块链基础设施平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,gatechain.io # GateChain 官方公链网站
+DOMAIN-SUFFIX,explorer.gatechain.io # 官方区块浏览器
+DOMAIN-SUFFIX,api.gatechain.io # 官方 API 接口
+
+# > Gate Web3 API Service（Web3 加密资产交易 API 与实时通信服务）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,apipro.w3-api.com # Web3 API 接口
+DOMAIN-SUFFIX,fx-webws.wsbridge.com # 衍生品实时通信服务域名
+DOMAIN-SUFFIX,spot-webws.wsbridge.com # 现货实时通信服务域名
+DOMAIN-SUFFIX,auth.turnkey.com # Turnkey 认证服务域名
+DOMAIN-SUFFIX,static.wrgsb.com # Web3 静态资源域名
+DOMAIN-SUFFIX,static-web3.w3-api.com # Web3 静态资源域名
+DOMAIN-SUFFIX,gatelayer-mainnet.gatenode.cc # GateLayer 主网节点服务域名
+
+# > HTX Exchange Platform（HTX 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,htx.com # HTX 平台主域名
+DOMAIN-SUFFIX,api.htx.com # HTX API 接口
+DOMAIN-SUFFIX,static.htx.com # HTX 静态资源域名
+DOMAIN-SUFFIX,download.htx.com # HTX 下载服务域名
+DOMAIN-SUFFIX,report.daumoon.com # HTX 数据上报域名
+DOMAIN-SUFFIX,file.hbfile.net # HTX 静态资源域名
+DOMAIN-SUFFIX,hbg-fed-static-prd.hbfile.net # HTX 静态资源域名
+DOMAIN-SUFFIX,huobi.com # Huobi 历史主域名
+DOMAIN-SUFFIX,api.huobi.com # Huobi API 接口
+DOMAIN-SUFFIX,static.huobi.com # Huobi 静态资源域名
+DOMAIN-SUFFIX,download.hbfile.net # HTX 下载服务域名
+DOMAIN-SUFFIX,otc-static.hbfile.net # HTX OTC 静态资源域名
+DOMAIN-SUFFIX,hbg-prod-fed-public.hbfile.net # HTX 公共资源域名
+DOMAIN-SUFFIX,otc-file.hbfile.net # HTX OTC 文件资源域名
+DOMAIN-SUFFIX,nft-static.hbfile.net # HTX NFT 静态资源域名
+DOMAIN-SUFFIX,saving-doc.hbfile.net # HTX 理财文档资源域名
+
+# > Kraken Exchange Platform（Kraken 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,kraken.com # Kraken 官方加密货币交易所主域名
+DOMAIN-SUFFIX,api.kraken.com # 官方 API 接口
+DOMAIN-SUFFIX,ws.kraken.com # Kraken 实时 WebSocket 接口
+DOMAIN-SUFFIX,futures.kraken.com # Kraken Futures 合约交易平台
+DOMAIN-SUFFIX,assets.kraken.com # 静态资源域名
+
+# > MEXC Exchange Platform（MEXC 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,mexc.com # MEXC 官方交易平台主域名
+DOMAIN-SUFFIX,api.mexc.com # 官方 API 接口
+DOMAIN-SUFFIX,contract.mexc.com # MEXC 合约交易服务子域
+DOMAIN-SUFFIX,spot.mexc.com # MEXC 现货交易服务子域
+DOMAIN-SUFFIX,assets.mexc.com # 静态资源域名
+
+# > OKX Web3 Platform（OKX 加密资产交易与 Web3 平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,okx.com # OKX 官方平台主域名
+DOMAIN-SUFFIX,api.okx.com # 官方 API 接口
+DOMAIN-SUFFIX,ws.okx.com # OKX 实时 WebSocket 接口
+DOMAIN-SUFFIX,static.okx.com # 静态资源域名
+
+# > Pionex Quant Trading Platform（Pionex 量化交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,pionex.com # Pionex 官方平台主域名
+DOMAIN-SUFFIX,api.pionex.com # 官方 API 接口
+DOMAIN-SUFFIX,ws.pionex.com # Pionex 实时 WebSocket 服务
+DOMAIN-SUFFIX,assets.pionex.com # 静态资源域名
+
+# > AEX Exchange Platform（AEX 加密资产交易平台）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,aex.com # AEX 官方加密货币交易平台主域名
+DOMAIN-SUFFIX,api.aex.com # 官方 API 接口
+DOMAIN-SUFFIX,ws.aex.com # AEX 实时 WebSocket 通信接口
+DOMAIN-SUFFIX,assets.aex.com # 静态资源域名
+
+# > AntPool Mining Pool Service（AntPool 矿池服务）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,antpool.com # AntPool 官方矿池服务主域名
+DOMAIN-SUFFIX,pool.antpool.com # AntPool 主矿池服务节点
+DOMAIN-SUFFIX,api.antpool.com # 官方 API 接口
+DOMAIN-SUFFIX,static.antpool.com # 静态资源域名
+
+# > Electrum Wallet Service（Electrum 比特币轻钱包服务）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,electrum.org # Electrum 官方网站
+DOMAIN-SUFFIX,download.electrum.org # 官方下载域名
+DOMAIN-SUFFIX,check.electrum.org # Electrum 官方版本校验与更新检查服务
+
+# > ElectrumSV Wallet Service（ElectrumSV 比特币 SV 钱包）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,electrum-sv.org # ElectrumSV 官方钱包网站
+DOMAIN-SUFFIX,download.electrum-sv.org # 官方下载域名
+
+# > Sparrow Wallet Service（Sparrow 比特币桌面钱包）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,sparrowwallet.com # Sparrow Wallet 官方网站
+DOMAIN-SUFFIX,sparrowwallet.io # Sparrow Wallet 官方镜像站点
+DOMAIN-SUFFIX,download.sparrowwallet.com # 官方下载域名
+
+# > Keystone Hardware Wallet Service（Keystone 硬件钱包与固件服务）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,keyst.one # Keystone 官方平台
+DOMAIN-SUFFIX,download.keyst.one # 官方下载域名
+DOMAIN-SUFFIX,s3.keyst.one # Keystone 固件与资源 CDN
+DOMAIN-SUFFIX,update.keyst.one # Keystone 硬件钱包 OTA 固件更新接口
+
+# > Trust Wallet Platform（Trust Wallet 多链钱包）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,trustwalletapp.com # Trust Wallet 官方网站
+DOMAIN-SUFFIX,assets.trustwalletapp.com # 静态资源域名
+DOMAIN-SUFFIX,download.trustwalletapp.com # 官方下载域名
+
+# > TokenPocket Wallet Platform（TokenPocket 多链钱包）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,tokenpocket.pro # TokenPocket 官方钱包平台
+DOMAIN-SUFFIX,download.tokenpocket.pro # 官方下载域名
+DOMAIN-SUFFIX,assets.tokenpocket.pro # 静态资源域名
+
+# > MyEtherWallet Platform（MyEtherWallet 以太坊钱包服务）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,myetherwallet.com # MyEtherWallet 官方网站
+DOMAIN-SUFFIX,download.myetherwallet.com # 官方下载域名
+DOMAIN-SUFFIX,assets.myetherwallet.com # 静态资源域名
+
+# > Phantom Wallet Platform（Phantom 多链钱包）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,phantom.app # Phantom 官方钱包网站
+DOMAIN-SUFFIX,download.phantom.app # 官方下载域名
+DOMAIN-SUFFIX,assets.phantom.app # 静态资源域名
+
+# > MetaMask Wallet Platform（MetaMask 加密钱包）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,metamask.io # MetaMask 官方网站
+DOMAIN-SUFFIX,download.metamask.io # 官方下载域名
+DOMAIN-SUFFIX,assets.metamask.io # 静态资源域名
+
+# > Etherscan Explorer Service（Etherscan 区块链浏览器与链上数据服务）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,etherscan.io # Etherscan 官方以太坊区块浏览器
+DOMAIN-SUFFIX,etherscan.com # Etherscan 官方域名变体
+DOMAIN-SUFFIX,api.etherscan.io # 官方 API 接口
+DOMAIN-SUFFIX,cn.etherscan.com # Etherscan 中文站点
+DOMAIN-SUFFIX,docs.etherscan.io # 官方文档站点
+
+# > BscScan Explorer Service（BscScan 区块链浏览器）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,btcbank.bank # BTC Bank 官方网站，用于在线银行、账户管理与金融服务
-DOMAIN-SUFFIX,api.btcbank.bank # BTCBank 平台后端 API 接口，用于账户、交易与业务数据交互
-DOMAIN-SUFFIX,static.btcbank.bank # BTCBank 前端静态资源域名，用于加载网页样式、脚本与媒体资源
+DOMAIN-SUFFIX,bscscan.com # BscScan 官方区块浏览器
+DOMAIN-SUFFIX,api.bscscan.com # 官方 API 接口
+DOMAIN-SUFFIX,docs.bscscan.com # 官方文档站点
 
-# > Banno 数字银行平台与金融机构在线服务系统（Jack Henry 旗下）
+# > TRONSCAN Explorer Service（TRONSCAN 区块链浏览器）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,banno.com # Banno 数字银行平台主域名，用于金融机构在线账户访问与数字银行服务入口
-DOMAIN-SUFFIX,api.banno.com # Banno 银行服务后端 API 接口，用于账户数据、交易与银行业务通信
-DOMAIN-SUFFIX,static.banno.com # Banno 前端静态资源分发域名，用于加载样式、脚本与应用组件
+DOMAIN-SUFFIX,tronscan.org # TRONSCAN 官方区块浏览器
+DOMAIN-SUFFIX,api.tronscan.org # 官方 API 接口
+DOMAIN-SUFFIX,docs.tronscan.org # 官方文档站点
 
-# > C3Pool 加密货币挖矿池与算力聚合服务
+# > Infura Web3 Infrastructure（Infura 区块链 API 与 Web3 基础设施）
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,infura.io # Infura 官方平台
+DOMAIN-SUFFIX,docs.infura.io # 官方文档站点
+
+# > ETH Gas Station Analytics（ETH Gas Station Gas 费用信息平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,c3pool.com # C3Pool 官方挖矿池主域名，用于提供加密货币挖矿、算力统计与矿工服务入口
-DOMAIN-SUFFIX,api.c3pool.com # C3Pool 后端 API 接口，用于矿工状态、算力数据与收益信息查询
-
-# > CEX.IO 加密资产交易平台与数字金融服务
-
-DOMAIN-SUFFIX,cex.io # CEX.IO 官方加密资产交易平台主域名，用于数字货币交易、账户访问与金融服务
-DOMAIN-SUFFIX,api.cex.io # CEX.IO 官方后端 API 接口，用于交易请求、账户管理与行情数据通信
-DOMAIN-SUFFIX,trade.cex.io # CEX.IO 官方交易前端入口，用于现货与相关交易功能访问
-DOMAIN-SUFFIX,static.cex.io # CEX.IO 前端静态资源域，用于页面脚本、样式与基础组件加载
-
-# > CoinEx 数字资产交易平台与官方前端资源服务
+DOMAIN-SUFFIX,ethgasstation.info # ETH Gas Station 官方网站
+DOMAIN-SUFFIX,api.ethgasstation.info # 官方 API 接口
 
-DOMAIN-SUFFIX,coinex.com # CoinEx 官方加密资产交易平台主域名，用于提供数字货币交易、账户访问、资产管理与平台核心服务
-DOMAIN-SUFFIX,file.coinexstatic.com # CoinEx 官方前端静态资源 CDN 域名，用于加载网站样式、脚本与图片等静态资源
+# > IPFS Content Network（IPFS 分布式文件与内容寻址网络）
+# - 校对时间：2026-03-29
 
-# > Coinrail 韩国数字货币交易平台
-
-DOMAIN-SUFFIX,coinrail.co.kr # Coinrail（韩国）数字货币交易所官方主域名，用于加密资产交易服务、账户访问与平台相关信息展示
-DOMAIN-SUFFIX,api.coinrail.co.kr # Coinrail 官方后端 API 接口，用于交易请求、账户操作与平台业务通信
-DOMAIN-SUFFIX,static.coinrail.co.kr # Coinrail 前端静态资源域名，用于网站脚本、样式与图片等资源加载
-
-# > COINUT 数字货币交易平台（台湾）
+DOMAIN-SUFFIX,ipfs.io # IPFS 官方平台
+DOMAIN-SUFFIX,gateway.ipfs.io # IPFS 官方公共网关服务
+DOMAIN-SUFFIX,docs.ipfs.io # 官方文档站点
 
-DOMAIN-SUFFIX,coinut.com # COINUT 官方数字货币交易平台主域名，用于加密资产交易、账户访问与平台服务入口
-DOMAIN-SUFFIX,api.coinut.com # COINUT 官方后端 API 接口，用于交易请求、账户操作与平台业务通信
-DOMAIN-SUFFIX,static.coinut.com # COINUT 官方前端静态资源域名，用于网站脚本、样式与图片资源加载
+# > Filecoin Storage Platform（Filecoin 去中心化存储网络）
+# - 校对时间：2026-03-29
 
-# > Cruxpool 加密货币矿池平台
+DOMAIN-SUFFIX,filecoin.io # Filecoin 官方网站
+DOMAIN-SUFFIX,docs.filecoin.io # 官方文档站点
+DOMAIN-SUFFIX,explorer.filecoin.io # 官方区块浏览器
+
+# > 1inch Aggregation Protocol（1inch 去中心化交易聚合协议）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,cruxpool.com # Cruxpool 官方矿池平台主域名，用于加密货币挖矿服务、矿工管理与收益统计
-DOMAIN-SUFFIX,api.cruxpool.com # Cruxpool 官方矿池后端 API，用于矿工状态、算力数据与收益信息查询
-DOMAIN-SUFFIX,static.cruxpool.com # Cruxpool 官方前端静态资源域名，用于网站脚本、样式与界面资源加载
-
-# > Hydro Protocol 与 DDEX 去中心化交易协议与平台（以太坊生态）
+DOMAIN-SUFFIX,1inch.io # 1inch 官方平台
+DOMAIN-SUFFIX,api.1inch.io # 官方 API 接口
+DOMAIN-SUFFIX,docs.1inch.io # 官方文档站点
+DOMAIN-SUFFIX,gov.1inch.io # 1inch 官方治理平台
+
+# > Aave Lending Protocol（Aave 去中心化借贷协议）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,hydroprotocol.io # Hydro Protocol 官方网站域名，用于去中心化交易协议介绍、技术文档与开发者资源
-DOMAIN-SUFFIX,ddex.io # DDEX 去中心化交易平台官方域名（历史项目），用于加密资产交易与协议服务入口
-DOMAIN-SUFFIX,margin-docs.ddex.io # DDEX 保证金交易文档子域，用于交易机制说明与技术文档访问
-DOMAIN-SUFFIX,hydroprotocol.io # Hydro Protocol 官方网站域名，用于以太坊生态去中心化交易协议介绍、技术文档与开发者资源
+DOMAIN-SUFFIX,aave.com # Aave 官方平台
+DOMAIN-SUFFIX,app.aave.com # 官方应用入口
+DOMAIN-SUFFIX,docs.aave.com # 官方文档站点
+DOMAIN-SUFFIX,governance.aave.com # Aave 官方治理平台
+
+# > Arbitrum Layer2 Network（Arbitrum Layer2 网络）
+# - 校对时间：2026-03-29
 
-# > EXMO 中心化加密资产交易平台
+DOMAIN-SUFFIX,arbitrum.io # Arbitrum 官方网站
+DOMAIN-SUFFIX,bridge.arbitrum.io # 官方跨链桥入口
+DOMAIN-SUFFIX,docs.arbitrum.io # 官方文档站点
+DOMAIN-SUFFIX,governance.arbitrum.io # Arbitrum 官方治理平台
 
-DOMAIN-SUFFIX,exmo.com # EXMO 加密货币交易所官方域名，用于数字资产交易、账户管理与平台服务入口
-DOMAIN-SUFFIX,webws.gateio.live # Gate.io WebSocket 实时通信服务，用于行情推送、盘口更新与实时交易数据传输
-DOMAIN-SUFFIX,snssdk.gatedata.org # Gate.io 数据采集与统计 SDK 服务域名，用于平台使用数据与基础运行指标上报
+# > Avalanche Network Platform（Avalanche 公链与子网生态平台）
+# - 校对时间：2026-03-29
 
-# > Gate.io 加密货币交易平台
+DOMAIN-SUFFIX,avax.network # Avalanche 官方网站
+DOMAIN-SUFFIX,explorer.avax.network # Avalanche 区块浏览器
+DOMAIN-SUFFIX,docs.avax.network # 官方文档站点
+DOMAIN-SUFFIX,subnets.avax.network # Avalanche 子网服务入口
+DOMAIN-SUFFIX,avalanche.public-rpc.com # 公共 RPC 节点
 
-DOMAIN-SUFFIX,gatescan.org # Gate 生态区块链浏览器服务，用于区块、交易、地址与合约等链上数据的查询与可视化展示
-DOMAIN-SUFFIX,gate.com # Gate.io 官方主域名，用于加密资产交易、账户访问、行情查询与平台服务入口
-DOMAIN-SUFFIX,gimg2.gateimg.com # Gate.io 前端图片资源分发域名，用于页面内容图片加载与展示
-DOMAIN-SUFFIX,icon.gateimg.com # Gate.io 前端图标与 UI 资源分发域名，用于界面图标与基础视觉元素加载
-DOMAIN-SUFFIX,social-cdn.gposts.net # Gate 平台社交模块与社区内容相关的静态资源 CDN，用于图片、帖子附件等内容分发
-DOMAIN-SUFFIX,gavatar.staticimgs.com # Gate 平台用户头像与图片资源的静态 CDN 分发域名
-DOMAIN-SUFFIX,brokerapi.gateperps.com # Gate 永续合约（Perps）核心交易与经纪 API 接口，用于合约下单、仓位管理、账户撮合与交易指令通信
-DOMAIN-SUFFIX,web.gatetrace.com # Gate 生态链上数据追踪与交易分析前端服务，用于区块浏览、交易查询与数据可视化展示
-DOMAIN-SUFFIX,web3-fomox-ws-prod.gateweb3.cc # Gate Web3 实时 WebSocket 通信服务，用于行情推送、链上交互与 Web3 应用实时数据传输
-DOMAIN-SUFFIX,prd-web-imgs.s3.gateapis.com # Gate 官方前端图片资源存储服务（AWS S3），用于网站与 Web3 页面图片素材加载
-DOMAIN-SUFFIX,image.gatedataimg.com # Gate 数据与行情相关前端图片资源域名，用于图表、市场信息与可视化内容展示
-DOMAIN-SUFFIX,web3-fomox-ws-prod.gateweb3.cc # Gate Web3 实时 WebSocket 通信服务，用于行情推送、链上交互与 Web3 应用实时数据传输
-DOMAIN-SUFFIX,cdn.mytoken.org # MyToken 加密资产行情与市场数据平台前端 CDN，用于加密货币价格与市场信息展示
-DOMAIN-SUFFIX,api.gateio.ws # Gate.io 官方 WebSocket API 服务，用于行情订阅、交易状态推送与账户实时数据通信
-DOMAIN-SUFFIX,web3-fomox-api-prod.ldd678.com # Gate Web3 Fomox 相关后端 API 服务，用于 Web3 应用交互与交易业务接口通信
-DOMAIN-SUFFIX,h-download.gateapp.online # Gate 官方 App 安装包下载与更新分发域名，用于移动端应用安装、版本更新与下载引导
-DOMAIN-SUFFIX,img.gatenft.io # Gate NFT 平台前端图片与媒体资源 CDN，用于 NFT 作品展示、封面预览与内容加载
-DOMAIN-SUFFIX,did.gatexsecurity.com # Gate 安全体系下的去中心化身份（DID）与账户安全校验服务，用于身份标识、风险控制与安全验证通信
+# > Curve AMM Protocol（Curve 稳定币 AMM 协议）
+# - 校对时间：2026-03-29
 
-# > GateChain 公链与区块链基础设施平台（Gate 生态）
+DOMAIN-SUFFIX,curve.fi # Curve 官方平台
+DOMAIN-SUFFIX,api.curve.fi # 官方 API 接口
+DOMAIN-SUFFIX,app.curve.fi # 官方应用入口
+DOMAIN-SUFFIX,docs.curve.fi # 官方文档站点
 
-DOMAIN-SUFFIX,gatechain.io # GateChain 官方公链网站，用于区块链协议介绍、技术文档、节点信息与生态项目展示
-DOMAIN-SUFFIX,explorer.gatechain.io # GateChain 官方区块链浏览器，用于交易、区块、地址与链上数据查询
-DOMAIN-SUFFIX,api.gatechain.io # GateChain 官方区块链 API 接口，用于链上数据查询、节点交互与开发者集成
+# > DappRadar Analytics Platform（DappRadar 去中心化应用数据平台）
+# - 校对时间：2026-03-29
 
-# > Web3 加密资产交易 API 与实时 WebSocket 通信服务
+DOMAIN-SUFFIX,dappradar.com # DappRadar 官方平台
+DOMAIN-SUFFIX,api.dappradar.com # 官方 API 接口
+DOMAIN-SUFFIX,static.dappradar.com # 静态资源域名
+
+# > DeFiLlama Analytics Platform（DeFiLlama DeFi 数据聚合平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,apipro.w3-api.com # Web3 加密资产相关后端 API 服务域名，用于交易请求、账户操作与业务接口通信
-DOMAIN-SUFFIX,fx-webws.wsbridge.com # 加密资产衍生品（合约）交易实时 WebSocket 服务，用于行情推送与交易状态更新
-DOMAIN-SUFFIX,spot-webws.wsbridge.com # 加密资产现货交易实时 WebSocket 服务，用于盘口、行情与交易数据实时推送
-DOMAIN-SUFFIX,auth.turnkey.com # Turnkey Web3 钱包认证与密钥管理服务，用于去中心化应用的钱包登录、签名与账户安全验证
-DOMAIN-SUFFIX,static.wrgsb.com # Web3 平台前端静态资源分发域名，用于加载页面样式、脚本与基础组件资源
-DOMAIN-SUFFIX,static-web3.w3-api.com # Web3 应用前端静态资源与接口支撑域名，用于 Web3 页面与应用组件加载
-DOMAIN-SUFFIX,gatelayer-mainnet.gatenode.cc # Gate Layer 主网区块链节点服务，用于主网 RPC 通信、区块同步与链上交互
+DOMAIN-SUFFIX,defillama.com # DeFiLlama 官方平台
+DOMAIN-SUFFIX,api.defillama.com # 官方 API 接口
+DOMAIN-SUFFIX,static.defillama.com # 静态资源域名
 
-# > HTX（原 Huobi）加密资产交易平台官方服务
+# > MDEX DEX Protocol（MDEX 去中心化交易协议）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,htx.com # HTX（原 Huobi）官方主域名，用于加密资产交易、账户访问、平台服务入口与生态相关功能
-DOMAIN-SUFFIX,api.htx.com # HTX 官方后端 API 服务域名，用于交易请求、账户操作、行情获取与平台业务接口通信
-DOMAIN-SUFFIX,static.htx.com # HTX 官方前端静态资源域名，用于网站与交易界面的脚本、样式及图片资源加载
-DOMAIN-SUFFIX,download.htx.com # HTX 官方客户端与应用下载服务域名，用于桌面端与移动端应用分发与更新
-DOMAIN-SUFFIX,report.daumoon.com # HTX（原 Huobi）平台内部数据上报与监控服务域名，用于业务状态、运行指标与系统数据的内部汇总
-DOMAIN-SUFFIX,file.hbfile.net # HTX（原 Huobi）官方文件与静态资源存储域名，用于前端资源、配置文件与业务相关静态内容分发
-DOMAIN-SUFFIX,hbg-fed-static-prd.hbfile.net # HTX（原 Huobi）前端生产环境静态资源域名，用于交易页面与平台功能的脚本、样式及资源加载
-DOMAIN-SUFFIX,huobi.com # Huobi（HTX 前身）官方主域名，用于加密资产交易、账户访问与平台服务入口
-DOMAIN-SUFFIX,api.huobi.com # Huobi 官方后端 API 服务域名，用于交易请求、账户操作、行情获取与平台业务接口通信
-DOMAIN-SUFFIX,static.huobi.com # Huobi 官方前端静态资源域名，用于交易页面与平台功能的脚本、样式及图片资源加载
-DOMAIN-SUFFIX,download.hbfile.net # HTX（原 Huobi）官方客户端下载与资源分发域名，用于客户端安装包、更新文件及相关资源的下载
-DOMAIN-SUFFIX,otc-static.hbfile.net # HTX（原 Huobi）OTC 场外交易模块静态资源 CDN，用于加载前端页面所需的脚本、样式与界面资源
-DOMAIN-SUFFIX,hbg-prod-fed-public.hbfile.net # HTX（原 Huobi）生产环境前端公共资源分发域，用于官网与交易相关页面的 JS、CSS 等基础前端资源加载
-DOMAIN-SUFFIX,otc-file.hbfile.net # HTX（原 Huobi）OTC 场外交易模块文件与资源分发域，用于 OTC 页面相关的静态资源与业务文件加载
-DOMAIN-SUFFIX,nft-static.hbfile.net # HTX（原 Huobi）NFT 业务模块静态资源分发域，用于 NFT 页面图片、脚本、样式等前端资源加载
-DOMAIN-SUFFIX,saving-doc.hbfile.net # HTX（原 Huobi）理财 / 储蓄（Saving / Earn）业务相关文档与说明资源分发域，用于产品规则、协议与说明页面加载
-DOMAIN-SUFFIX,hbabit.com # Huobi 相关品牌与历史业务辅助站点域名，用于活动页面、品牌展示或区域性入口，不涉及核心交易接口
+DOMAIN-SUFFIX,mdex.com # MDEX 官方平台
+DOMAIN-SUFFIX,api.mdex.com # 官方 API 接口
+DOMAIN-SUFFIX,static.mdex.com # 静态资源域名
 
-# > Kraken 加密资产交易所与数字资产服务平台
+# > Raydium AMM Platform（Raydium Solana AMM 协议）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,kraken.com # Kraken 官方加密货币交易所主域名，用于数字资产交易、账户管理与平台服务访问
-DOMAIN-SUFFIX,api.kraken.com # Kraken 官方交易与账户后端 API，用于行情查询、交易下单与账户操作
-DOMAIN-SUFFIX,ws.kraken.com # Kraken 实时 WebSocket 接口，用于行情推送、订单状态与实时数据订阅
-DOMAIN-SUFFIX,futures.kraken.com # Kraken Futures 合约交易平台，用于衍生品与期货交易服务
-DOMAIN-SUFFIX,assets.kraken.com # Kraken 前端静态资源与资产加载域名，用于页面与客户端资源分发
+DOMAIN-SUFFIX,raydium.io # Raydium 官方平台
+DOMAIN-SUFFIX,api.raydium.io # 官方 API 接口
+DOMAIN-SUFFIX,static.raydium.io # 静态资源域名
 
-# > MEXC 全球加密资产交易平台
+# > SushiSwap DeFi Platform（SushiSwap 多链 DEX 与 DeFi 协议）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,mexc.com # MEXC 官方交易平台主域名，用于加密资产交易、合约服务与账户访问
-DOMAIN-SUFFIX,api.mexc.com # MEXC 官方后端 API 接口，用于行情查询、交易下单与账户操作
-DOMAIN-SUFFIX,contract.mexc.com # MEXC 合约交易服务子域，用于永续合约与衍生品交易
-DOMAIN-SUFFIX,spot.mexc.com # MEXC 现货交易服务子域，用于币币交易与市场操作
-DOMAIN-SUFFIX,assets.mexc.com # MEXC 前端静态资源与页面资产加载域名
+DOMAIN-SUFFIX,sushiswap.org # SushiSwap 官方平台
+DOMAIN-SUFFIX,app.sushi.com # 官方应用入口
+DOMAIN-SUFFIX,api.sushi.com # 官方 API 接口
+DOMAIN-SUFFIX,static.sushi.com # 静态资源域名
 
-# > OKX 加密资产交易与 Web3 生态平台
+# > Uniswap AMM Platform（Uniswap 去中心化交易协议）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,okx.com # OKX 官方平台主域名，用于数字资产交易、Web3 服务与账户管理
-DOMAIN-SUFFIX,api.okx.com # OKX 官方后端 API 接口，用于行情查询、交易下单、账户与资产操作
-DOMAIN-SUFFIX,ws.okx.com # OKX 实时 WebSocket 接口，用于行情推送、订单状态与实时数据订阅
-DOMAIN-SUFFIX,static.okx.com # OKX 前端静态资源与页面资产加载域名
+DOMAIN-SUFFIX,uniswap.org # Uniswap 官方平台
+DOMAIN-SUFFIX,app.uniswap.org # 官方应用入口
+DOMAIN-SUFFIX,api.uniswap.org # 官方 API 接口
+DOMAIN-SUFFIX,static.uniswap.org # 静态资源域名
 
-# > Pionex 加密货币量化交易与机器人交易平台
+# > Zapper Portfolio Analytics（Zapper DeFi 资产分析平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,pionex.com # Pionex 官方平台主域名，用于量化交易、自动化交易机器人与账户服务
-DOMAIN-SUFFIX,api.pionex.com # Pionex 官方后端 API 接口，用于行情获取、机器人策略执行与账户操作
-DOMAIN-SUFFIX,ws.pionex.com # Pionex 实时 WebSocket 服务，用于行情推送、订单状态与机器人实时数据通信
-DOMAIN-SUFFIX,assets.pionex.com # Pionex 前端静态资源与页面资产加载域名
+DOMAIN-SUFFIX,zapper.fi # Zapper 官方平台
+DOMAIN-SUFFIX,api.zapper.fi # 官方 API 接口
+DOMAIN-SUFFIX,static.zapper.fi # 静态资源域名
 
-# > ADCEX 历史加密货币交易平台（已停止运营）
+# > CoinMarketCap Market Data Platform（CoinMarketCap 加密资产行情数据平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,adcex.com # ADCEX 历史加密资产交易平台主域名，平台已停止运营，仅用于规则识别与历史访问兼容
-DOMAIN-SUFFIX,api.adcex.com # ADCEX 历史后端 API 接口域名，可能被旧客户端或历史程序调用（平台已停运）
-DOMAIN-SUFFIX,static.adcex.com # ADCEX 历史前端静态资源域名，用于旧页面或缓存资源加载（平台已停运）
+DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 官方平台
+DOMAIN-SUFFIX,api.coinmarketcap.com # 官方 API 接口
+DOMAIN-SUFFIX,static.coinmarketcap.com # 静态资源域名
+DOMAIN-SUFFIX,files.coinmarketcap.com # CoinMarketCap 媒体与数据资源分发域
 
-# > AEX 加密资产交易平台
+# > CoinGecko Market Data Platform（CoinGecko 加密资产行情数据平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,aex.com # AEX 官方加密货币交易平台主域名，用于数字资产交易、账户访问与平台服务入口
-DOMAIN-SUFFIX,api.aex.com # AEX 官方后端 API 接口，用于行情查询、交易请求与账户相关操作
-DOMAIN-SUFFIX,ws.aex.com # AEX 实时 WebSocket 通信接口，用于行情推送、订单状态与实时交易数据
-DOMAIN-SUFFIX,assets.aex.com # AEX 前端静态资源与页面资产加载域名
+DOMAIN-SUFFIX,coingecko.com # CoinGecko 官方平台
+DOMAIN-SUFFIX,api.coingecko.com # 官方 API 接口
+DOMAIN-SUFFIX,static.coingecko.com # 静态资源域名
+DOMAIN-SUFFIX,assets.coingecko.com # 静态资源域名
 
-# > Allcoin 历史加密资产交易平台
+# > Nansen Onchain Analytics Platform（Nansen 链上数据分析平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,allcoin.com # Allcoin 历史数字货币交易平台主域名，平台已停止主流运营，仅用于规则识别与历史访问
-DOMAIN-SUFFIX,api.allcoin.com # Allcoin 历史后端 API 接口域名，可能被旧客户端或历史程序调用（平台已停运）
-DOMAIN-SUFFIX,static.allcoin.com # Allcoin 历史前端静态资源域名，用于旧页面或缓存资源加载（平台已停运）
+DOMAIN-SUFFIX,nansen.ai # Nansen 官方平台
+DOMAIN-SUFFIX,api.nansen.ai # 官方 API 接口
+DOMAIN-SUFFIX,static.nansen.ai # 静态资源域名
+DOMAIN-SUFFIX,assets.nansen.ai # 静态资源域名
 
-# > AntPool 加密货币矿池与算力服务平台
+# > BitcoinWorld News Platform（BitcoinWorld 区块链资讯平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,antpool.com # AntPool 官方矿池服务主域名，用于矿工算力接入、收益统计与矿池管理
-DOMAIN-SUFFIX,pool.antpool.com # AntPool 主矿池服务节点，用于矿机连接、算力提交与挖矿任务分发
-DOMAIN-SUFFIX,api.antpool.com # AntPool 官方后端 API 接口，用于收益查询、账户信息与矿池状态获取
-DOMAIN-SUFFIX,static.antpool.com # AntPool 前端静态资源域名，用于控制台页面与矿池管理界面资源加载
+DOMAIN-SUFFIX,bitcoinworld.com # BitcoinWorld 官方网站
+DOMAIN-SUFFIX,static.bitcoinworld.com # 静态资源域名
+DOMAIN-SUFFIX,cdn.bitcoinworld.com # 静态资源域名
 
-# > Electrum 比特币轻钱包与官方服务
+# > BlockCN News Platform（BlockCN 区块链中文资讯平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,electrum.org # Electrum 官方网站，用于钱包软件下载、文档与项目信息
-DOMAIN-SUFFIX,download.electrum.org # Electrum 官方钱包安装包下载服务，用于客户端程序分发
-DOMAIN-SUFFIX,check.electrum.org # Electrum 官方版本校验与更新检查服务，用于客户端安全更新验证
+DOMAIN-SUFFIX,blockcn.com # BlockCN 官方平台
+DOMAIN-SUFFIX,static.blockcn.com # BlockCN 静态资源域名
+DOMAIN-SUFFIX,cdn.blockcn.com # BlockCN 内容分发域名
 
-# > ElectrumSV 比特币 SV 钱包
+# > OpenSea NFT Marketplace（OpenSea NFT 交易市场）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,electrum-sv.org # ElectrumSV 官方钱包网站，用于 Bitcoin SV（BSV）钱包软件下载、文档与项目说明
-DOMAIN-SUFFIX,download.electrum-sv.org # ElectrumSV 官方钱包客户端安装包下载服务
+DOMAIN-SUFFIX,opensea.io # OpenSea 官方 NFT 市场平台
+DOMAIN-SUFFIX,api.opensea.io # 官方 API 接口
+DOMAIN-SUFFIX,static.opensea.io # 静态资源域名
+DOMAIN-SUFFIX,assets.opensea.io # 静态资源域名
 
-# > Sparrow 比特币桌面钱包
+# > Tether Service Platform（Tether 稳定币官方服务平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,sparrowwallet.com # Sparrow Wallet 官方网站，用于钱包软件下载、文档与项目说明
-DOMAIN-SUFFIX,sparrowwallet.io # Sparrow Wallet 官方镜像站点，用于内容分发与备用访问
-DOMAIN-SUFFIX,download.sparrowwallet.com # Sparrow Wallet 官方客户端安装包下载服务
+DOMAIN-SUFFIX,tether.to # Tether 官方网站
+DOMAIN-SUFFIX,assets.tether.to # 静态资源域名
+DOMAIN-SUFFIX,blog.tether.to # 官方博客
+DOMAIN-SUFFIX,api.tether.io # 官方 API 接口
+DOMAIN-SUFFIX,tether.io # Tether 稳定币生态相关官方域名
+DOMAIN-SUFFIX,tetherfacts.com # TetherFacts 官方信息披露网站
 
-# > Keystone 硬件钱包与固件更新服务
+# > RedotPay Payment Platform（RedotPay 加密支付与虚拟卡平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,keyst.one # Keystone 官方硬件钱包网站，用于产品信息、文档与用户支持
-DOMAIN-SUFFIX,download.keyst.one # Keystone 官方固件与配套资源下载服务，用于设备初始化与离线更新
-DOMAIN-SUFFIX,s3.keyst.one # Keystone 固件与资源 CDN，用于硬件钱包固件与校验文件分发
-DOMAIN-SUFFIX,update.keyst.one # Keystone 硬件钱包 OTA 固件更新接口，用于设备在线升级与版本校验
+DOMAIN-SUFFIX,redotpay.com # RedotPay 官方平台
+DOMAIN-SUFFIX,api.redotpay.com # 官方 API 接口
+DOMAIN-SUFFIX,static.redotpay.com # 静态资源域名
 
-# > Trust Wallet 多链加密钱包
+# > WalletLink Connection Service（WalletLink / Coinbase Wallet 连接服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,trustwalletapp.com # Trust Wallet 官方网站，用于钱包应用下载、产品介绍与用户文档
-DOMAIN-SUFFIX,assets.trustwalletapp.com # Trust Wallet 官方前端静态资源域名，用于页面与应用相关资源加载
-DOMAIN-SUFFIX,download.trustwalletapp.com # Trust Wallet 官方应用与安装包下载服务，用于客户端分发
+DOMAIN-SUFFIX,walletlink.org # WalletLink 官方域名
+DOMAIN-SUFFIX,link.walletlink.org # WalletLink 连接服务域名
 
-# > TokenPocket 多链数字资产钱包
+# > Ankr RPC Infrastructure（Ankr 区块链 RPC 基础设施）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,tokenpocket.pro # TokenPocket 官方钱包平台，用于多链资产管理、钱包下载与 DApp 访问
-DOMAIN-SUFFIX,download.tokenpocket.pro # TokenPocket 官方客户端与安装包下载服务
-DOMAIN-SUFFIX,assets.tokenpocket.pro # TokenPocket 官方前端静态资源域名，用于页面与应用资源加载
+DOMAIN-SUFFIX,rpc.ankr.com # Ankr 官方区块链 RPC 服务接口
+DOMAIN-SUFFIX,ankr.com # Ankr 官方平台域名
+DOMAIN-SUFFIX,strapi.ankr.network # Ankr 内容管理域名
+DOMAIN-SUFFIX,ankr.substack.com # 官方博客
+DOMAIN-SUFFIX,assets.ankr.network # 静态资源域名
+DOMAIN-SUFFIX,ankr-pbc.breezy.hr # 官方招聘平台
 
-# > MyEtherWallet 以太坊钱包服务
+# > AnkrScan Explorer Service（AnkrScan 区块链浏览器与链上数据服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,myetherwallet.com # MyEtherWallet 官方网站，用于以太坊钱包管理、工具服务与文档说明
-DOMAIN-SUFFIX,download.myetherwallet.com # MyEtherWallet 官方客户端下载与安装包分发服务
-DOMAIN-SUFFIX,assets.myetherwallet.com # MyEtherWallet 前端静态资源域名，用于页面与应用资源加载
+DOMAIN-SUFFIX,ankrscan.io # Ankr 官方区块链浏览器
+DOMAIN-SUFFIX,ankrscan.enterprise.onerpc.com # AnkrScan 企业服务域名
 
-# > Phantom Solana / 多链钱包
+# > OneRPC Network Directory（OneRPC 网络与 RPC 配置服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,phantom.app # Phantom 官方钱包网站，用于 Solana 等多链钱包服务、产品介绍与文档
-DOMAIN-SUFFIX,download.phantom.app # Phantom 官方钱包客户端与浏览器插件下载服务
-DOMAIN-SUFFIX,assets.phantom.app # Phantom 官方前端静态资源域名，用于页面与应用资源加载
+DOMAIN-SUFFIX,chainlist.onerpc.com # 网络目录服务
+DOMAIN-SUFFIX,api.onerpc.com # OneRPC API 接口
 
-# > MetaMask 浏览器插件与移动端加密钱包
+# > Multi-RPC Backoffice Service（Multi-RPC 基础设施管理后台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,metamask.io # MetaMask 官方网站，用于钱包插件与移动端应用下载、文档与开发者资源
-DOMAIN-SUFFIX,download.metamask.io # MetaMask 官方插件与移动端客户端分发下载服务
-DOMAIN-SUFFIX,assets.metamask.io # MetaMask 官方前端静态资源域名，用于页面与应用资源加载
+DOMAIN-SUFFIX,backoffice.shark.multi-rpc.com # Multi-RPC 后台接口
+DOMAIN-SUFFIX,multi-rpc.com # 官方平台
 
-# > Etherscan 以太坊区块链浏览器与链上数据服务
+# > dCellar Storage Platform（dCellar 去中心化存储平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,etherscan.io # Etherscan 官方以太坊区块浏览器，用于交易、区块、地址与合约查询
-DOMAIN-SUFFIX,etherscan.com # Etherscan 官方域名变体，用于浏览器访问与服务入口
-DOMAIN-SUFFIX,api.etherscan.io # Etherscan 官方 API 接口，用于链上数据查询与开发者集成
-DOMAIN-SUFFIX,cn.etherscan.com # Etherscan 中文站点，用于中文用户访问与内容展示
-DOMAIN-SUFFIX,docs.etherscan.io # Etherscan 官方开发者文档站点，用于 API 使用说明与技术文档
+DOMAIN-SUFFIX,dcellar.io # dCellar 官方网站
 
-# > BscScan BNB Smart Chain 区块链浏览器
+# > APRO Web3 Platform（APRO DeFi 与 Web3 应用平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,bscscan.com # BscScan 官方区块浏览器，用于 BNB Smart Chain 链上交易、区块、地址与合约查询
-DOMAIN-SUFFIX,api.bscscan.com # BscScan 官方 API 接口，用于链上数据、合约与交易信息查询
-DOMAIN-SUFFIX,docs.bscscan.com # BscScan 官方开发者文档站点，用于 API 使用说明与技术文档
+DOMAIN-SUFFIX,apro.com # APRO 官方平台
 
-# > TRONSCAN TRON 区块链浏览器
+# > Coin.Space Wallet Platform（Coin.Space 多链钱包平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,tronscan.org # TRONSCAN 官方区块浏览器，用于 TRON 链交易、区块、账户与合约信息查询
-DOMAIN-SUFFIX,api.tronscan.org # TRONSCAN 官方 API 接口，用于 TRON 链上数据查询与开发者集成
-DOMAIN-SUFFIX,docs.tronscan.org # TRONSCAN 官方开发者文档站点，用于 API 使用说明与技术文档
+DOMAIN-SUFFIX,coin.space # Coin.Space 官方钱包平台
 
-# > Blockchain.com 区块链浏览器与钱包服务平台
+# > Anima Reputation Protocol（Anima BNB Chain 声誉与身份协议）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,blockchain.com # Blockchain.com 官方平台，用于区块链浏览、钱包服务与链上数据访问
-DOMAIN-SUFFIX,api.blockchain.com # Blockchain.com 官方 API 接口，用于区块链数据查询与服务集成
-DOMAIN-SUFFIX,charts.blockchain.com # Blockchain.com 官方链上数据与统计图表服务，用于区块链网络指标展示
-DOMAIN-SUFFIX,explorer.blockchain.com # Blockchain.com 区块链浏览器子站，用于交易、区块与地址查询
-DOMAIN-SUFFIX,docs.blockchain.com # Blockchain.com 官方开发者文档站点，用于 API 使用说明与技术文档
+DOMAIN-SUFFIX,reputation-bnb.anima.io # Anima BNB Chain 声誉服务接口
+DOMAIN-SUFFIX,anima.io # Anima 官方平台
 
-# > Infura 区块链 API 与 Web3 基础设施服务
+# > Strapi Content Delivery Service（Strapi 托管内容分发服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,infura.io # Infura 官方区块链 API 与 Web3 基础设施平台，用于以太坊及多链 RPC 接入
-DOMAIN-SUFFIX,docs.infura.io # Infura 官方开发者文档站点，用于 API、RPC 与 Web3 服务使用说明
+DOMAIN-SUFFIX,media.strapiapp.com # Strapi 托管的前端媒体与内容分发服务
 
-# > ETH Gas Station 以太坊 Gas 费用信息平台
+# > CodexField Web3 Development Platform（CodexField Web3 数据与开发平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,ethgasstation.info # ETH Gas Station 官方网站，用于以太坊 Gas 费用、网络状态与拥堵情况信息查询
-DOMAIN-SUFFIX,api.ethgasstation.info # ETH Gas Station 官方 API 接口，用于 Gas 价格与网络状态数据获取
+DOMAIN-SUFFIX,codexfield.com # CodexField 官方网站
 
-# > IPFS 分布式文件系统与内容寻址网络
+# > DeFiBIT Greenfield Gateway（DeFiBIT BNB Greenfield 存储网关）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,ipfs.io # IPFS 官方项目网站与公共网关入口，用于分布式内容访问与协议说明
-DOMAIN-SUFFIX,gateway.ipfs.io # IPFS 官方公共网关服务，用于通过 HTTP 方式访问 IPFS 内容
-DOMAIN-SUFFIX,docs.ipfs.io # IPFS 官方文档站点，用于协议说明、使用指南与开发者文档
+DOMAIN-SUFFIX,greenfield-sp.defibit.io # DeFiBIT Greenfield 存储网关
+DOMAIN-SUFFIX,defibit.io # DeFiBIT 官方平台
 
-# > Filecoin 去中心化存储网络与生态平台
+# > MoveSpace Ecosystem Platform（MoveSpace Move 生态项目平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,filecoin.io # Filecoin 官方网站，用于去中心化存储网络介绍、协议说明与生态信息
-DOMAIN-SUFFIX,docs.filecoin.io # Filecoin 官方文档站点，用于协议规范、开发指南与技术文档
-DOMAIN-SUFFIX,explorer.filecoin.io # Filecoin 官方区块浏览器，用于存储交易、区块与网络状态查询
+DOMAIN-SUFFIX,movespace.xyz # MoveSpace 官方平台
 
-# > 1inch 去中心化交易聚合协议
+# > Stability World AI / DeFi Platform（Stability World AI 与 DeFi 实验平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,1inch.io # 1inch 官方平台，用于去中心化交易聚合、路由与协议入口
-DOMAIN-SUFFIX,api.1inch.io # 1inch 官方 API，用于链上报价、最优路径计算与聚合查询
-DOMAIN-SUFFIX,docs.1inch.io # 1inch 官方文档站点，用于协议说明、API 文档与开发者参考
-DOMAIN-SUFFIX,gov.1inch.io # 1inch 官方治理平台，用于 DAO 治理提案与投票
+DOMAIN-SUFFIX,stabilityworld.ai # Stability World 官方平台
 
-# > Aave 去中心化借贷协议
+# > Fetch.ai Agent Network（Fetch.ai 去中心化 AI 与自治代理网络）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,aave.com # Aave 官方平台，用于去中心化借贷协议介绍、生态信息与入口
-DOMAIN-SUFFIX,app.aave.com # Aave 官方 Web 应用，用于借贷、存款、质押与协议交互
-DOMAIN-SUFFIX,docs.aave.com # Aave 官方文档站点，用于协议说明、开发者文档与技术参考
-DOMAIN-SUFFIX,governance.aave.com # Aave 官方治理平台，用于 DAO 提案、治理讨论与投票
+DOMAIN-SUFFIX,fetch.ai # Fetch.ai 官方平台
 
-# > Arbitrum 以太坊 Layer 2 扩展网络
+# > DIN Social Identity Platform（DIN Web3 社交与身份项目）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,arbitrum.io # Arbitrum 官方网站，用于 Layer 2 网络介绍、生态项目与开发者入口
-DOMAIN-SUFFIX,bridge.arbitrum.io # Arbitrum 官方跨链桥，用于以太坊 L1 与 Arbitrum L2 之间的资产跨链
-DOMAIN-SUFFIX,docs.arbitrum.io # Arbitrum 官方文档站点，用于协议说明、开发者文档与技术规范
-DOMAIN-SUFFIX,governance.arbitrum.io # Arbitrum 官方治理平台，用于 DAO 提案、治理讨论与投票
+DOMAIN-SUFFIX,din.lol # DIN 官方平台
 
-# > Avalanche 公链与子网生态平台
+# > NFTrade NFT Marketplace（NFTrade 多链 NFT 聚合市场）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,avax.network # Avalanche 官方网站，用于公链介绍、生态项目与开发者入口
-DOMAIN-SUFFIX,explorer.avax.network # Avalanche 官方区块浏览器，用于链上交易、区块与地址查询
-DOMAIN-SUFFIX,docs.avax.network # Avalanche 官方文档站点，用于协议说明、子网开发与技术文档
-DOMAIN-SUFFIX,subnets.avax.network # Avalanche 官方子网生态入口，用于子网介绍、工具与资源访问
-DOMAIN-SUFFIX,avalanche.public-rpc.com # Avalanche 公共 RPC 服务节点
+DOMAIN-SUFFIX,nftrade.com # NFTrade 官方 NFT 市场平台
 
-# > Curve 去中心化稳定币 AMM 协议
+# > MPCVault Documentation Service（MPCVault 多方计算钱包文档服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,curve.fi # Curve 官方平台，用于稳定币 AMM 交易、流动性提供与池管理
-DOMAIN-SUFFIX,api.curve.fi # Curve 官方 API，用于获取流动性池、交易对与协议状态数据
-DOMAIN-SUFFIX,app.curve.fi # Curve 官方 Web 应用入口，用于用户交互式交易与流动性操作
-DOMAIN-SUFFIX,docs.curve.fi # Curve 官方文档站点，用于协议机制、池参数与开发者文档说明
+DOMAIN-SUFFIX,docs.mpcvault.com # 官方文档站点
+DOMAIN-SUFFIX,mpcvault.com # MPCVault 官方平台
 
-# > DappRadar 去中心化应用数据与排行平台
+# > LayerZero Messaging Protocol（LayerZero 跨链通信协议）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,dappradar.com # DappRadar 官方平台，用于去中心化应用（DApp）数据统计、生态分析与排行榜展示
-DOMAIN-SUFFIX,api.dappradar.com # DappRadar 官方 API 接口，用于 DApp 数据、链上指标与排行榜信息查询
-DOMAIN-SUFFIX,static.dappradar.com # DappRadar 前端静态资源域，用于页面样式、脚本与前端组件加载
+DOMAIN-SUFFIX,layerzero.network # LayerZero 官方平台
 
-# > DeFiLlama 去中心化金融（DeFi）数据聚合平台
+# > Transak Payment Service（Transak 法币入金与加密支付服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,defillama.com # DeFiLlama 官方平台，用于 DeFi 协议 TVL、资金流向与生态数据聚合展示
-DOMAIN-SUFFIX,api.defillama.com # DeFiLlama 官方 API 接口，用于 DeFi 协议 TVL、链上指标与历史数据查询
-DOMAIN-SUFFIX,static.defillama.com # DeFiLlama 前端静态资源域，用于页面样式、脚本与前端组件加载
+DOMAIN-SUFFIX,assets.transak.com # Transak 静态资源域名
+DOMAIN-SUFFIX,transak.com # Transak 官方平台
 
-# > MDEX 去中心化交易所（DEX）协议
+# > RedStone Oracle Service（RedStone 去中心化预言机服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,mdex.com # MDEX 官方平台，用于去中心化交易、流动性挖矿与协议入口
-DOMAIN-SUFFIX,api.mdex.com # MDEX 官方后端 API，用于交易数据、池信息与链上状态查询
-DOMAIN-SUFFIX,static.mdex.com # MDEX 前端静态资源域，用于页面脚本、样式与组件加载
-DOMAIN-KEYWORD,mdex # MDEX 协议关键词，用于协议识别与访问匹配
+DOMAIN-SUFFIX,redstone.finance # RedStone 官方平台
 
-# > Raydium Solana 生态 AMM 与流动性协议
+# > Band Protocol Oracle Network（Band Protocol 去中心化预言机网络）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,raydium.io # Raydium 官方平台，用于 Solana AMM 交易、流动性池与协议入口
-DOMAIN-SUFFIX,api.raydium.io # Raydium 官方 API 接口，用于池信息、交易数据与链上状态查询
-DOMAIN-SUFFIX,static.raydium.io # Raydium 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,bandprotocol.com # Band Protocol 官方平台
 
-# > SushiSwap 多链去中心化交易（DEX）与 DeFi 协议
+# > Web3Games Gaming Platform（Web3Games 区块链游戏生态）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,sushiswap.org # SushiSwap 官方平台，用于多链 AMM、DeFi 协议介绍与入口
-DOMAIN-SUFFIX,app.sushi.com # SushiSwap 官方 Web 应用，用于去中心化交易、流动性提供与协议交互
-DOMAIN-SUFFIX,api.sushi.com # SushiSwap 官方 API 接口，用于池数据、链上状态与协议信息查询
-DOMAIN-SUFFIX,static.sushi.com # SushiSwap 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,web3games.com # Web3Games 官方平台
 
-# > Uniswap 去中心化交易（DEX）与 AMM 协议
+# > Dagora NFT Platform（Dagora NFT 市场）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,uniswap.org # Uniswap 官方平台，用于 AMM 协议介绍、文档与生态入口
-DOMAIN-SUFFIX,app.uniswap.org # Uniswap 官方 Web 应用，用于去中心化交易与流动性操作
-DOMAIN-SUFFIX,api.uniswap.org # Uniswap 官方 API 接口，用于交易路由、报价与链上数据查询
-DOMAIN-SUFFIX,static.uniswap.org # Uniswap 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,dagora.xyz # Dagora 官方 NFT 市场
 
-# > Zapper DeFi 资产管理与组合分析平台
+# > OrboFi AI Web3 Platform（OrboFi AI 与 Web3 应用平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,zapper.fi # Zapper 官方平台，用于 DeFi 资产聚合、投资组合分析与协议交互入口
-DOMAIN-SUFFIX,api.zapper.fi # Zapper 官方 API 接口，用于 DeFi 资产、协议与投资组合数据查询
-DOMAIN-SUFFIX,static.zapper.fi # Zapper 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,orbofi.com # OrboFi 官方平台
 
-# > CoinMarketCap 加密资产市值排行与行情数据平台
+# > MEET48 Social Entertainment Platform（MEET48 Web3 娱乐与社交项目）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,coinmarketcap.com # CoinMarketCap 官方平台，用于加密资产市值排行、价格行情与市场数据展示
-DOMAIN-SUFFIX,api.coinmarketcap.com # CoinMarketCap 官方 API，用于行情数据、资产信息与市场指标查询
-DOMAIN-SUFFIX,static.coinmarketcap.com # CoinMarketCap 前端静态资源域，用于页面脚本、样式与组件加载
-DOMAIN-SUFFIX,files.coinmarketcap.com # CoinMarketCap 媒体与数据资源分发域，用于图标、资产标识与静态数据加
+DOMAIN-SUFFIX,meet48.xyz # MEET48 官方平台
+DOMAIN-SUFFIX,meet48.com # MEET48 官方平台
 
-# > CoinGecko 加密资产行情与数据分析平台
+# > Colyseus Realtime Backend Framework（Colyseus 实时多人游戏与 Web3 后端框架）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,coingecko.com # CoinGecko 官方平台，用于加密资产行情、市值数据与生态信息展示
-DOMAIN-SUFFIX,api.coingecko.com # CoinGecko 官方 API 接口，用于价格、市场指标与资产数据查询
-DOMAIN-SUFFIX,static.coingecko.com # CoinGecko 前端静态资源域，用于页面脚本、样式与组件加载
-DOMAIN-SUFFIX,assets.coingecko.com # CoinGecko 媒体与资产资源分发域，用于代币图标与静态数据加载
+DOMAIN-SUFFIX,colyseus.io # Colyseus 官方平台
 
-# > Nansen 区块链链上数据分析与智能资金追踪平台
+# > Infura IPFS Gateway（Infura IPFS 网关）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,nansen.ai # Nansen 官方平台，用于链上数据分析、智能资金追踪与研究服务
-DOMAIN-SUFFIX,api.nansen.ai # Nansen 官方 API 接口，用于链上指标、地址标签与分析数据查询
-DOMAIN-SUFFIX,static.nansen.ai # Nansen 前端静态资源域，用于页面组件、图表与可视化资源加载
-DOMAIN-SUFFIX,assets.nansen.ai # Nansen 媒体与前端资源域，用于图标、图片与静态数据资源加载
+DOMAIN-SUFFIX,ccgateway.infura-ipfs.io # IPFS 网关域名
 
-# > BitcoinWorld 区块链与加密资产新闻资讯平台
+# > Vulcan Forged Gaming Platform（Vulcan Forged Web3 游戏生态）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,bitcoinworld.com # BitcoinWorld 官方网站，用于发布比特币与加密资产相关新闻、市场分析与行业资讯
-DOMAIN-SUFFIX,static.bitcoinworld.com # BitcoinWorld 前端静态资源域，用于新闻页面样式、图片与多媒体内容加载
-DOMAIN-SUFFIX,cdn.bitcoinworld.com # BitcoinWorld 官方内容分发域，用于文章图片与媒体资源加速访问
+DOMAIN-SUFFIX,cdn.vulcanforged.com # 静态资源域名
+DOMAIN-SUFFIX,vulcanforged.com # Vulcan Forged 官方平台
 
-# > BlockCN 区块链中文资讯与行业信息平台
+# > Web3Auth Identity Service（Web3Auth 身份与钱包登录服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,blockcn.com # BlockCN 官方网站，用于区块链与加密资产中文资讯发布、行业报道与内容阅读
-DOMAIN-SUFFIX,static.blockcn.com # BlockCN 前端静态资源域，用于页面样式、图片与文章内容加载
-DOMAIN-SUFFIX,cdn.blockcn.com # BlockCN 官方内容分发域，用于新闻配图与多媒体资源加速访问
+DOMAIN-SUFFIX,web3auth.io # Web3Auth 官方平台
 
-# > OpenSea NFT 数字资产交易市场
+# > Element NFT Marketplace（Element NFT 多链交易市场）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,opensea.io # OpenSea 官方 NFT 市场平台，用于 NFT 交易、资产展示与账户管理
-DOMAIN-SUFFIX,api.opensea.io # OpenSea 官方 API 接口，用于 NFT 资产、订单、报价与市场数据查询
-DOMAIN-SUFFIX,static.opensea.io # OpenSea 前端静态资源域，用于页面脚本、样式与组件加载
-DOMAIN-SUFFIX,assets.opensea.io # OpenSea 官方媒体与资源域，用于 NFT 图片、图标与静态资源加载
+DOMAIN-SUFFIX,element.market # Element 官方 NFT 市场
 
-# > Tether 稳定币发行方与官方服务平台
+# > DeFiWay Payment Platform（DeFiWay 跨链支付与资产转移服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,tether.to # Tether 官方网站，用于 USDT 稳定币信息披露、合规说明与官方公告
-DOMAIN-SUFFIX,assets.tether.to # Tether 官方静态资源域，用于白皮书、审计报告与文档文件分发
-DOMAIN-SUFFIX,blog.tether.to # Tether 官方博客与公告发布平台，用于项目更新与透明度披露
-DOMAIN-SUFFIX,api.tether.io # Tether 官方 API 接口，用于稳定币状态、发行信息与相关数据服务
-DOMAIN-SUFFIX,tether.io # Tether 稳定币生态相关官方域名，用于技术服务、产品入口或生态系统相关功能支持
-DOMAIN-SUFFIX,tetherfacts.com # TetherFacts 官方信息披露网站，用于发布与澄清 Tether（USDT）相关事实、数据与公众说明内容
+DOMAIN-SUFFIX,fs.defiway.com # DeFiWay 官方文件与服务接口
+DOMAIN-SUFFIX,defiway.com # DeFiWay 官方平台
 
-# > RedotPay 加密资产支付与虚拟卡平台
+# > VoltBot Greenfield Storage Provider（VoltBot BNB Greenfield 存储节点）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,redotpay.com # RedotPay 官方平台，用于加密资产支付、虚拟卡发行与法币桥接服务
-DOMAIN-SUFFIX,api.redotpay.com # RedotPay 官方 API 接口，用于支付请求、账户操作与卡服务通信
-DOMAIN-SUFFIX,static.redotpay.com # RedotPay 前端静态资源域，用于页面脚本、样式与组件加载
+DOMAIN-SUFFIX,greenfield-sp.voltbot.io # VoltBot Greenfield 存储节点
+DOMAIN-SUFFIX,voltbot.io # VoltBot 官方平台
 
-# > WalletLink / Coinbase Wallet 钱包连接与通信服务
+# > Nariox Greenfield Storage Provider（Nariox BNB Greenfield 存储节点）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,walletlink.org # WalletLink 官方通信域名，用于 DApp 与 Coinbase Wallet 之间的钱包连接、会话建立与交易签名通信
-DOMAIN-SUFFIX,link.walletlink.org # WalletLink 钱包连接子域，用于连接流程与会话管理支持
+DOMAIN-SUFFIX,greenfield-sp.nariox.org # Nariox Greenfield 存储节点
+DOMAIN-SUFFIX,nariox.org # Nariox 官方平台
 
-# > Ankr 区块链 RPC 与多链基础设施服务
+# > LumiBot Greenfield Storage Provider（LumiBot BNB Greenfield 存储节点）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,rpc.ankr.com # Ankr 官方区块链 RPC 服务接口，用于多链节点访问、交易广播与链上数据查询
-DOMAIN-SUFFIX,ankr.com # Ankr 官方平台域名，用于区块链基础设施服务说明与开发者入口
-DOMAIN-SUFFIX,strapi.ankr.network # Ankr 官方 Strapi CMS 后端，用于官网内容、文档与生态信息管理
-DOMAIN-SUFFIX,strapi.ankr.network # Ankr Network 使用的 Strapi 内容管理系统，用于官网内容、生态信息与技术文档的后台管理
-DOMAIN-SUFFIX,ankr.substack.com # Ankr 官方 Substack 博客，用于发布技术文章、生态更新与项目公告，不涉及交易或用户行为采集
-DOMAIN-SUFFIX,assets.ankr.network # Ankr 官方前端静态资源域，用于网站与控制台加载脚本、样式、图片等资源
-DOMAIN-SUFFIX,ankr-pbc.breezy.hr # Ankr 使用的 Breezy HR 招聘系统子域，用于职位发布、招聘流程与候选人管理
+DOMAIN-SUFFIX,greenfield-sp.lumibot.org # LumiBot Greenfield 存储节点
+DOMAIN-SUFFIX,lumibot.org # LumiBot 官方平台
 
-# > AnkrScan 企业级区块链浏览器与链上数据服务
+# > 4EVERLAND Greenfield Storage Provider（4EVERLAND BNB Greenfield 存储节点）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,ankrscan.io # Ankr 官方区块链浏览器，用于多链交易、区块与地址等链上数据查询
-DOMAIN-SUFFIX,ankrscan.enterprise.onerpc.com # Ankr 企业级区块链浏览与监控服务入口，用于企业客户的链上数据查询、监控与可视化分析
-DOMAIN-SUFFIX,ankrscan.enterprise.onerpc.com # Ankr 企业级区块链浏览与链上数据查询服务，基于 OneRPC 基础设施提供
+DOMAIN-SUFFIX,gnfd-mainnet-sp.4everland.org # 4EVERLAND Greenfield 存储节点
+DOMAIN-SUFFIX,4everland.org # 4EVERLAND 官方平台
 
-# > OneRPC 区块链网络与 RPC 节点配置服务（ChainList）
+# > BNB ChainList Network Directory（BNB ChainList 网络配置与 RPC 发现服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,chainlist.onerpc.com # OneRPC 提供的区块链网络与 RPC 节点列表服务，用于链 ID、RPC 端点与网络配置发现
-DOMAIN-SUFFIX,api.onerpc.com # OneRPC 官方 API 服务，用于提供链配置、RPC 节点与网络元数据查询
+DOMAIN-SUFFIX,bnbchainlist.org # BNB ChainList 官方网站
 
-# > Multi-RPC 区块链基础设施内部管理后台
+# > Binplorer Explorer Service（Binplorer 区块链浏览器）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,backoffice.shark.multi-rpc.com # Multi-RPC 区块链节点与 RPC 聚合服务的内部后台管理接口
-DOMAIN-SUFFIX,multi-rpc.com # Multi-RPC 官方区块链 RPC 聚合与多链节点基础设施服务平台
+DOMAIN-SUFFIX,binplorer.com # Binplorer 区块链浏览器平台
+DOMAIN-SUFFIX,api.binplorer.com # 官方 API 接口
+DOMAIN-SUFFIX,static.binplorer.com # 静态资源域名
 
-# > dCellar 去中心化存储与 Web3 数据管理平台
-
-DOMAIN-SUFFIX,dcellar.io # dCellar 官方网站，用于去中心化存储协议介绍、Web3 数据管理与生态信息
-
-# > APRO 去中心化金融协议与 Web3 应用平台
-
-DOMAIN-SUFFIX,apro.com # APRO 官方平台，用于 DeFi 协议、Web3 应用与生态服务展示
-
-# > Coin.Space 多链加密钱包服务平台
-
-DOMAIN-SUFFIX,coin.space # Coin.Space 官方钱包平台，用于多链加密资产管理与钱包服务
-
-# > Anima BNB Chain 声誉与身份协议
-
-DOMAIN-SUFFIX,reputation-bnb.anima.io # Anima 在 BNB Chain 上的链上声誉与身份系统服务接口
-DOMAIN-SUFFIX,anima.io # Anima 官方平台，用于去中心化身份与链上声誉协议介绍
-
-# > Strapi 托管内容分发服务（Web3 项目使用）
-
-DOMAIN-SUFFIX,media.strapiapp.com # Strapi 托管的前端媒体与内容分发服务，用于 Web3 项目内容加载
-
-# > CodexField Web3 数据与区块链开发平台
-
-DOMAIN-SUFFIX,codexfield.com # CodexField 官方网站，用于区块链开发、数据工具与 Web3 服务介绍
-
-# > BNB Greenfield 存储网关（DeFiBIT 集成）
-
-DOMAIN-SUFFIX,greenfield-sp.defibit.io # DeFiBIT 提供的 BNB Greenfield 存储服务访问网关
-DOMAIN-SUFFIX,defibit.io # DeFiBIT 官方平台，用于区块链基础设施与存储服务
-
-# > MoveSpace Web3 / Move 生态项目平台
-
-DOMAIN-SUFFIX,movespace.xyz # MoveSpace 官方平台，用于 Move 语言生态、Web3 项目与社区信息
-
-# > Stability World AI 与去中心化金融实验平台
-
-DOMAIN-SUFFIX,stabilityworld.ai # Stability World 官方平台，用于 AI + DeFi 实验性协议与研究展示
-
-# > Fetch.ai 去中心化 AI 与自治代理网络
-
-DOMAIN-SUFFIX,fetch.ai # Fetch.ai 官方平台，用于去中心化 AI、自治代理与区块链基础设施
-
-# > DIN Web3 社交与身份项目
-
-DOMAIN-SUFFIX,din.lol # DIN 官方平台，用于 Web3 社交、身份与社区项目展示
-
-# > NFTrade 多链 NFT 聚合交易市场
-
-DOMAIN-SUFFIX,nftrade.com # NFTrade 官方 NFT 市场平台，用于多链 NFT 交易与聚合服务
-
-# > MPCVault 多方计算钱包文档服务
-
-DOMAIN-SUFFIX,docs.mpcvault.com # MPCVault 官方文档站点，用于 MPC 钱包与安全架构说明
-DOMAIN-SUFFIX,mpcvault.com # MPCVault 官方平台，用于多方计算钱包与安全托管服务
-
-# > LayerZero 跨链通信协议与基础设施
-
-DOMAIN-SUFFIX,layerzero.network # LayerZero 官方平台，用于跨链消息协议、全链互操作基础设施
-
-# > Transak 法币入金与加密支付服务（静态资源）
-
-DOMAIN-SUFFIX,assets.transak.com # Transak 官方前端静态资源域，用于法币入金与支付组件加载
-DOMAIN-SUFFIX,transak.com # Transak 官方平台，用于法币与加密资产支付服务
-
-# > RedStone 去中心化预言机与数据服务
-
-DOMAIN-SUFFIX,redstone.finance # RedStone 官方平台，用于去中心化预言机与链上数据服务
-
-# > Band Protocol 去中心化预言机网络
-
-DOMAIN-SUFFIX,bandprotocol.com # Band Protocol 官方平台，用于跨链预言机与数据服务
-
-# > Web3Games 区块链游戏生态平台
-
-DOMAIN-SUFFIX,web3games.com # Web3Games 官方平台，用于区块链游戏生态与项目聚合
-
-# > Dagora NFT 市场与数字资产平台
-
-DOMAIN-SUFFIX,dagora.xyz # Dagora 官方 NFT 市场，用于数字藏品交易与 NFT 生态服务
-
-# > OrboFi 去中心化 AI 与 Web3 应用平台
-
-DOMAIN-SUFFIX,orbofi.com # OrboFi 官方平台，用于 AI 驱动的 Web3 应用与基础设施
-
-# > MEET48 Web3 娱乐与社交项目
-
-DOMAIN-SUFFIX,meet48.xyz # MEET48 官方平台，用于 Web3 娱乐、社交与社区项目
-DOMAIN-SUFFIX,meet48.com # MEET48 官方平台，用于 Web3 社交、内容发布与生态项目展示
-
-# > Colyseus 实时多人游戏与 Web3 后端框架
-
-DOMAIN-SUFFIX,colyseus.io # Colyseus 官方平台，用于实时多人游戏与 Web3 后端框架
-
-# > Infura IPFS 网关（内容寻址存储）
-
-DOMAIN-SUFFIX,ccgateway.infura-ipfs.io # Infura 提供的 IPFS 内容网关服务，用于去中心化内容访问
-
-# > Vulcan Forged Web3 游戏生态（静态资源）
-
-DOMAIN-SUFFIX,cdn.vulcanforged.com # Vulcan Forged Web3 游戏生态前端静态资源分发
-DOMAIN-SUFFIX,vulcanforged.com # Vulcan Forged 官方平台，用于区块链游戏与 NFT 生态
-
-# > Web3Auth 去中心化身份与钱包登录服务
-
-DOMAIN-SUFFIX,web3auth.io # Web3Auth 官方平台，用于去中心化身份认证与钱包登录
-
-# > Element NFT 多链交易市场
-
-DOMAIN-SUFFIX,element.market # Element 官方 NFT 市场，用于多链 NFT 交易与聚合
-
-# > DeFiWay 跨链支付与资产转移服务
-
-DOMAIN-SUFFIX,fs.defiway.com # DeFiWay 官方文件与服务接口，用于跨链支付与资产管理
-DOMAIN-SUFFIX,defiway.com # DeFiWay 官方平台，用于跨链金融与支付基础设施
-
-# > VoltBot BNB Greenfield 存储服务节点（SP）
-
-DOMAIN-SUFFIX,greenfield-sp.voltbot.io # VoltBot 提供的 BNB Greenfield Storage Provider（SP）节点，用于去中心化对象存储与链上数据访问
-DOMAIN-SUFFIX,voltbot.io # VoltBot 官方平台，用于 Web3 基础设施与自动化服务
-
-# > Nariox BNB Greenfield 存储服务节点（SP）
-
-DOMAIN-SUFFIX,greenfield-sp.nariox.org # Nariox 提供的 BNB Greenfield Storage Provider（SP）节点，用于去中心化存储与数据服务
-DOMAIN-SUFFIX,nariox.org # Nariox 官方平台，用于区块链基础设施与节点服务
-
-# > LumiBot BNB Greenfield 存储服务节点（SP）
-
-DOMAIN-SUFFIX,greenfield-sp.lumibot.org # LumiBot 提供的 BNB Greenfield Storage Provider（SP）节点，用于去中心化对象存储与链上数据访问
-DOMAIN-SUFFIX,lumibot.org # LumiBot 官方平台，用于 Web3 自动化与区块链服务
-
-# > 4EVERLAND BNB Greenfield 主网存储服务节点（SP）
-
-DOMAIN-SUFFIX,gnfd-mainnet-sp.4everland.org # 4EVERLAND 提供的 BNB Greenfield 主网 Storage Provider（SP）节点，用于去中心化存储服务
-DOMAIN-SUFFIX,4everland.org # 4EVERLAND 官方平台，用于 Web3 去中心化存储、托管与基础设施服务
-
-# > BNB ChainList 区块链网络配置与 RPC 节点发现服务
-
-DOMAIN-SUFFIX,bnbchainlist.org # BNB ChainList 官方网站，用于 BNB Chain 及 EVM 网络的 Chain ID、RPC 节点与网络配置发现，常用于钱包与 DApp 网络添加
-
-# > Binplorer 区块链浏览器与链上数据查询平台
-
-DOMAIN-SUFFIX,binplorer.com # Binplorer 区块链浏览器平台，用于区块、交易、地址等链上数据查询与可视化展示
-DOMAIN-SUFFIX,api.binplorer.com # Binplorer 区块链浏览器后端 API 接口，用于链上数据查询与前端调用
-DOMAIN-SUFFIX,static.binplorer.com # Binplorer 前端静态资源域，用于页面脚本、样式与可视化组件加载
-
-# > 非官方 Binance 行情推送镜像域名
+# > Binance Quote Mirror（非官方 Binance 行情镜像域名）
+# - 校对时间：2026-03-29
 
 DOMAIN-SUFFIX,nbstream.yshyqxx.com # 非官方 Binance 行情推送镜像域名
 
-# > Pinata 去中心化存储与 IPFS 网关服务（Liteflow 集成）
+# > Pinata IPFS Gateway Service（Pinata IPFS 网关服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,liteflow.mypinata.cloud # Pinata 提供的 IPFS 网关子域，用于 Liteflow 等 Web3 / NFT 平台进行去中心化内容分发与资源访问
+DOMAIN-SUFFIX,liteflow.mypinata.cloud # Pinata 提供的 IPFS 网关子域
 
-# > Rhino.fi 去中心化跨链交易与资产桥接协议
+# > Rhino.fi Bridge Platform（Rhino.fi 跨链交易与资产桥接平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,rhino.fi # Rhino.fi 官方平台，用于跨链交易、资产桥接与 Layer2 / DeFi 生态交互
+DOMAIN-SUFFIX,rhino.fi # Rhino.fi 官方平台
 
-# > TraceMove 区块链交易追踪与合规分析平台
+# > TraceMove Compliance Analytics（TraceMove 交易追踪与合规分析平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,tracemove.io # TraceMove 官方平台，用于区块链交易追踪、地址关联分析与合规风控研究，常用于反洗钱（AML）与链上行为审计
+DOMAIN-SUFFIX,tracemove.io # TraceMove 官方平台
 
-# > BSCTrace BNB Smart Chain 区块链浏览器
+# > BSCTrace Explorer Service（BSCTrace 区块链浏览器）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,bsctrace.com # BSCTrace 区块链浏览器，用于 BNB Smart Chain（BSC）上的交易、区块、地址与合约数据查询
+DOMAIN-SUFFIX,bsctrace.com # BSCTrace 区块链浏览器
 
-# > GreenfieldScan BNB Greenfield 去中心化存储链浏览器
+# > GreenfieldScan Explorer Service（GreenfieldScan BNB Greenfield 浏览器）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,greenfieldscan.com # GreenfieldScan 官方浏览器，用于 BNB Greenfield 去中心化存储网络的区块、对象、交易与链上状态查询
+DOMAIN-SUFFIX,greenfieldscan.com # GreenfieldScan 官方浏览器
 
-# > B2 Network 公共 RPC 区块链节点与基础设施服务
+# > B2 Network Public RPC Service（B2 Network 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,b2-rpc.com # B2 Network 提供的公共区块链 RPC 节点服务，用于 B2 Network 生态中的节点访问、交易广播、区块与合约数据查询，常被钱包与 DApp 用作链上基础通信接口
+DOMAIN-SUFFIX,b2-rpc.com # B2 Network 公共 RPC 节点
 
-# > Bahamut 区块链公共 RPC 节点与链上基础设施服务
+# > Bahamut Public RPC Service（Bahamut 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,bahamut-rpc.com # Bahamut Network 提供的公共区块链 RPC 节点服务，用于 Bahamut 链的节点访问、交易广播、区块与合约数据查询，常被钱包与 DApp 用作链上基础通信接口
+DOMAIN-SUFFIX,bahamut-rpc.com # Bahamut 公共 RPC 节点
 
-# > Bitlayer 比特币 Layer2 网络公共 RPC 节点与链上基础设施服务
+# > Bitlayer Public RPC Service（Bitlayer 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,bitlayer-rpc.com # Bitlayer Network 提供的公共区块链 RPC 节点服务，用于 Bitlayer（Bitcoin Layer2）网络的节点访问、交易广播、区块与合约数据查询，常被钱包、DApp 与跨链组件作为链上基础通信接口
+DOMAIN-SUFFIX,bitlayer-rpc.com # Bitlayer 公共 RPC 节点
 
-# > Gravity 区块链网络公共 RPC 节点与链上基础设施服务
+# > Gravity Public RPC Service（Gravity 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,gravity-rpc.com # Gravity Network 提供的公共区块链 RPC 节点服务，用于 Gravity 网络的节点访问、交易广播、区块与链上状态查询，供钱包与 DApp 使用
+DOMAIN-SUFFIX,gravity-rpc.com # Gravity 公共 RPC 节点
 
-# > Flare 公链公共 RPC 节点与链上基础设施服务
+# > Flare Public RPC Service（Flare 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,flare.public-rpc.com # Flare Network 提供的公共 RPC 节点服务，用于 Flare 公链的交易广播、区块查询与链上数据访问
+DOMAIN-SUFFIX,flare.public-rpc.com # Flare 公共 RPC 节点
 
-# > Filecoin 去中心化存储网络公共 RPC 节点服务
+# > Filecoin Public RPC Service（Filecoin 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,filecoin.public-rpc.com # Filecoin Network 提供的公共 RPC 节点服务，用于去中心化存储网络的链上数据查询、交易与状态访问
+DOMAIN-SUFFIX,filecoin.public-rpc.com # Filecoin 公共 RPC 节点
 
-# > Fantom 公链官方公共 RPC 节点服务
+# > Fantom Public RPC Service（Fantom 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,rpc.ftm.tools # Fantom 官方提供的公共 RPC 节点服务，用于 Fantom 网络的交易广播、区块查询与智能合约交互
+DOMAIN-SUFFIX,rpc.ftm.tools # Fantom 公共 RPC 节点
 
-# > Ethereum 公链公共 RPC 聚合服务
+# > Ethereum Public RPC Service（Ethereum 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,eth.public-rpc.com # 以太坊公共 RPC 聚合节点服务，用于 ETH 主网的交易广播、区块与合约状态查询，供钱包与 DApp 使用
+DOMAIN-SUFFIX,eth.public-rpc.com # Ethereum 公共 RPC 节点
 
-# > Electroneum 区块链网络公共 RPC 节点服务
+# > Electroneum Public RPC Service（Electroneum 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,electroneum-rpc.com # Electroneum Network 提供的公共 RPC 节点服务，用于 Electroneum 公链的链上数据访问与交易广播
+DOMAIN-SUFFIX,electroneum-rpc.com # Electroneum 公共 RPC 节点
 
-# > Corn 区块链网络公共 RPC 节点服务
+# > Corn Public RPC Service（Corn 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,corn-rpc.com # Corn Network 提供的公共区块链 RPC 节点服务，用于网络节点访问、交易广播与链上状态查询
+DOMAIN-SUFFIX,corn-rpc.com # Corn 公共 RPC 节点
 
-# > CORE 区块链网络公共 RPC 节点服务
+# > CORE Public RPC Service（CORE 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,core.public-rpc.com # CORE Network 提供的公共 RPC 节点服务，用于 CORE 公链的交易、区块与链上数据访问
+DOMAIN-SUFFIX,core.public-rpc.com # CORE 公共 RPC 节点
 
-# > Chiliz 公链公共 RPC 节点与链上基础设施服务
+# > Chiliz Public RPC Service（Chiliz 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,chiliz.public-rpc.com # Chiliz Network 提供的公共 RPC 节点服务，用于 Chiliz 公链的交易广播、区块查询与链上数据访问
+DOMAIN-SUFFIX,chiliz.public-rpc.com # Chiliz 公共 RPC 节点
 
-# > Horizen EON EVM 网络公共 RPC 节点服务
+# > Horizen EON Public RPC Service（Horizen EON 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,horizen-eon.public-rpc.com # Horizen EON（EVM 兼容网络）提供的公共 RPC 节点服务，用于交易广播、区块查询与智能合约交互
+DOMAIN-SUFFIX,horizen-eon.public-rpc.com # Horizen EON 公共 RPC 节点
 
-# > IOTA EVM 网络公共 RPC 节点服务
+# > IOTA EVM Public RPC Service（IOTA EVM 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,iotaevm-rpc.com # IOTA EVM 网络提供的公共 RPC 节点服务，用于 EVM 兼容链上交易、区块与合约状态访问
+DOMAIN-SUFFIX,iotaevm-rpc.com # IOTA EVM 公共 RPC 节点
 
-# > Kava 公链公共 RPC 节点服务
+# > Kava Public RPC Service（Kava 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,kava-rpc.com # Kava Network 提供的公共 RPC 节点服务，用于 Kava 公链的交易广播、区块查询与链上数据访问
+DOMAIN-SUFFIX,kava-rpc.com # Kava 公共 RPC 节点
 
-# > Kinto 区块链网络公共 RPC 节点服务
+# > Kinto Public RPC Service（Kinto 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,kinto-rpc.com # Kinto Network 提供的公共 RPC 节点服务，用于区块链节点访问、交易广播与链上状态查询
+DOMAIN-SUFFIX,kinto-rpc.com # Kinto 公共 RPC 节点
 
-# > Klaytn 公链公共 RPC 节点服务
+# > Klaytn Public RPC Service（Klaytn 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,klaytn.public-rpc.com # Klaytn Network 提供的公共 RPC 节点服务，用于 Klaytn 公链的交易广播、区块查询与智能合约交互
+DOMAIN-SUFFIX,klaytn.public-rpc.com # Klaytn 公共 RPC 节点
 
-# > Mantle Layer2 网络公共 RPC 节点服务
+# > Mantle Public RPC Service（Mantle 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,mantle.public-rpc.com # Mantle Layer2 网络提供的公共 RPC 节点服务，用于交易、区块与链上状态查询
+DOMAIN-SUFFIX,mantle.public-rpc.com # Mantle 公共 RPC 节点
 
-# > NEAR 公链公共 RPC 节点服务
+# > NEAR Public RPC Service（NEAR 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,near.public-rpc.com # NEAR Protocol 提供的公共 RPC 节点服务，用于 NEAR 公链的交易广播、区块查询与链上数据访问
+DOMAIN-SUFFIX,near.public-rpc.com # NEAR 公共 RPC 节点
 
-# > Polygon 公链与 zkEVM 网络公共 RPC 节点服务
+# > Polygon Public RPC Service（Polygon 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,polygon-rpc.com # Polygon Network 提供的公共 RPC 节点服务，覆盖 Polygon PoS 及 zkEVM 网络的交易广播、区块与合约状态查询
+DOMAIN-SUFFIX,polygon-rpc.com # Polygon 公共 RPC 节点
 
-# > Celer Network 跨链桥核心服务（cBridge）
+# > Celer cBridge Service（Celer cBridge 跨链桥服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,cbridge-prod2.celer.app # Celer Network 官方 cBridge 生产环境服务域名，用于跨链资产桥接、交易路由与链上状态交互
+DOMAIN-SUFFIX,cbridge-prod2.celer.app # 跨链桥服务域名
 
-# > Torus / Web3Auth 钱包身份与密钥管理服务
+# > Celer Recruitment Platform（Celer 招聘与组织管理平台）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,app.tor.us # Torus（Web3Auth）官方应用入口，用于去中心化钱包登录、密钥管理与身份认证服务
+DOMAIN-SUFFIX,celer-network-5d8f644bd292.breezy.hr # 官方招聘平台
 
-# > Celer Network 招聘与组织管理平台
+# > Flow RPC Service（Flow 主网 RPC 与节点服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,celer-network-5d8f644bd292.breezy.hr # Celer Network 官方招聘与组织管理平台子域，用于职位发布与人才招聘
+DOMAIN-SUFFIX,rest-mainnet.onflow.org # 主网 REST API 接口
 
-# > Flow 区块链主网 RPC 与节点服务
+# > Circle API Service（Circle 金融基础设施 API 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,rest-mainnet.onflow.org # Flow 区块链官方主网 REST API 接口，用于链上数据查询、交易提交与节点交互
+DOMAIN-SUFFIX,iris-api.circle.com # 官方 API 接口
 
-# > Circle 稳定币与金融基础设施 API 服务
+# > Torus Identity Service（Torus 无私钥登录与身份管理服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,iris-api.circle.com # Circle 官方后端 API 服务，用于 USDC 等稳定币、账户、风控与金融基础设施相关业务接口
+DOMAIN-SUFFIX,app.tor.us # 官方应用入口
+DOMAIN-SUFFIX,api.tor.us # 官方 API 接口
+DOMAIN-SUFFIX,tor.us # Torus 官方平台主域名
 
-# > Torus Web3 钱包无私钥登录与身份管理后端服务
+# > Blocto Wallet Service（Blocto 多链钱包服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,api.tor.us # Torus 官方后端 API，用于 Web3 钱包的无私钥登录、身份恢复、密钥分片管理与 OAuth 登录流程支持
-DOMAIN-SUFFIX,tor.us # Torus 官方平台主域名，用于 Web3 登录基础设施与开发者文档
+DOMAIN-SUFFIX,wallet-v2.blocto.app # Blocto 钱包服务域名
+DOMAIN-SUFFIX,blocto.app # Blocto 官方钱包平台主域名
 
-# > Blocto 多链 Web3 钱包核心前端与业务服务
+# > dln.trade Analytics API（dln.trade 链上统计 API 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,wallet-v2.blocto.app # Blocto 钱包 V2 版本前端与业务接口域名，用于多链钱包访问、账户管理、交易签名与资产操作
-DOMAIN-SUFFIX,blocto.app # Blocto 官方钱包平台主域名，用于钱包入口、产品信息与生态服务
+DOMAIN-SUFFIX,stats-api.dln.trade # dln.trade 统计 API 接口
+DOMAIN-SUFFIX,dln.trade # dln.trade 官方平台
 
-# > dln.trade 链上统计与数据分析 API 服务
+# > BlastAPI BSC RPC Service（BlastAPI BNB Smart Chain 公共 RPC 服务）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,stats-api.dln.trade # dln.trade 提供的统计与数据分析后端 API 域名，用于链上数据聚合、交易统计与协议指标查询
-DOMAIN-SUFFIX,dln.trade # dln.trade 官方主域名，用于协议信息、数据展示与开发者接口入口
+DOMAIN-SUFFIX,bsc-mainnet.public.blastapi.io # BNB Smart Chain 公共 RPC 节点
+DOMAIN-SUFFIX,blastapi.io # BlastAPI 官方区块链 RPC 基础设施服务平台
 
-# > BlastAPI BNB Smart Chain（BSC）主网公共 RPC 服务
+# > Thesis Research Studio（Thesis 加密投资与 Web3 研究机构）
+# - 校对时间：2026-03-29
 
-DOMAIN-SUFFIX,bsc-mainnet.public.blastapi.io # BlastAPI 提供的 BNB Smart Chain 主网公共 RPC 节点，用于区块、交易、合约调用与链上数据访问
-DOMAIN-SUFFIX,blastapi.io # BlastAPI 官方区块链 RPC 基础设施服务平台，用于多链节点与开发者接入
-
-# > Thesis 去中心化加密投资工作室与 Web3 研究机构
-
-DOMAIN-SUFFIX,thesis.co # Thesis 官方网站，用于加密资产投资研究、DAO 项目孵化、协议介绍与生态信息发布
+DOMAIN-SUFFIX,thesis.co # Thesis 官方平台
