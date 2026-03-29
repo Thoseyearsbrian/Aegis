@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-28
+# - 更新时间：2026-03-29
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-03-23
@@ -2391,3 +2391,8 @@ DOMAIN-SUFFIX,dash.3ue.com # 3UE 控制台域名
 
 DOMAIN-SUFFIX,e-kc.vip # 和兴国际通关服务平台域名
 DOMAIN-SUFFIX,inspection.e-kc.vip # 和兴国际个人通关编码查询域名
+
+# > LCSW / Saobei Aggregated Payment（扫呗聚合支付）相关域名
+# - 校对时间：2026-03-29
+
+DOMAIN-SUFFIX,wxpay.lcsw.cn # 扫呗微信支付接口域名
