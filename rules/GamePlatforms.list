@@ -50,6 +50,7 @@ IP-CIDR,180.127.11.186/32 # 和平精英实时对战通信节点
 
 DOMAIN-SUFFIX,down.bdy.tcdnos.com # 英雄联盟手游资源下载域名
 DOMAIN-SUFFIX,down.bytes.tcdnos.com # 英雄联盟手游资源下载域名
+IP-CIDR,180.105.204.17 # 腾讯游戏服务节点
 
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
