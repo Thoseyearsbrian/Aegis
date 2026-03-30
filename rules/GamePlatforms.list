@@ -45,6 +45,11 @@ IP-CIDR,222.184.48.140/32 # 和平精英实时对战通信节点
 IP-CIDR,112.13.114.142/32 # 和平精英实时对战通信节点
 IP-CIDR,180.127.11.186/32 # 和平精英实时对战通信节点
 
+# > League of Legends: Wild Rift Services（英雄联盟手游游戏服务）
+# - 校对时间：2026-03-30
+
+DOMAIN-SUFFIX,down.bdy.tcdnos.com # 英雄联盟手游资源下载域名
+
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
 
