@@ -127,6 +127,12 @@ DOMAIN-SUFFIX,wework.qpic.cn # 企业微信图像资源域名
 DOMAIN-SUFFIX,isdspeed.qq.com # SDK 网络测速与质量评估上传接口
 DOMAIN-SUFFIX,support.weixin.qq.com # 微信开放平台支持与文档页面
 
+# > Tencent Push Notification Service（腾讯移动推送服务）
+
+DOMAIN-SUFFIX,guid.tpns.sh.tencent.com # 腾讯移动推送服务域名
+DOMAIN-SUFFIX,access1.tpns.sh.tencent.com # 腾讯移动推送接入域名
+IP-CIDR,61.151.229.52/32 # 腾讯 iTop 服务节点（itop.qq.com）
+
 # > Security & Safe Browsing（微信安全与链接防护）
 
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com # 腾讯安全浏览钓鱼与恶意链接拦截服务
@@ -157,7 +163,6 @@ IP-CIDR,140.207.54.0/24 # 微信 API 网关服务器
 IP-CIDR,101.91.0.0/16 # 微信服务器回调来源网络
 
 # > WeChat Media CDN（微信图片与消息资源 CDN）
-# - 数据来源：本地流量分析 / CDN 网络解析
 
 IP-CIDR,113.96.12.0/24 # 微信图片与消息资源 CDN
 IP-CIDR,113.96.16.89/32 # 微信图片与消息资源 CDN（cmmsns.qpic.cn）
@@ -217,7 +222,6 @@ IP-CIDR,182.40.121.0/24 # 微信图片与消息资源 CDN
 IP-CIDR,183.131.39.0/24 # 微信图片与消息资源 CDN
 
 # > WeChat Mini Program CDN（微信小程序资源 CDN）
-# - 数据来源：本地流量分析
 
 IP-CIDR,61.170.59.0/24 # 微信小程序资源 CDN
 IP-CIDR,61.170.65.0/24 # 微信小程序资源 CDN
@@ -244,7 +248,6 @@ IP-CIDR,223.247.74.0/24 # 微信小程序资源 CDN
 IP-CIDR,219.144.91.0/24 # 微信小程序资源 CDN
 
 # > WeChat Client Update CDN（微信客户端更新与下载 CDN）
-# - 数据来源：本地流量分析
 
 IP-CIDR,58.216.30.0/24 # 微信客户端更新 CDN
 IP-CIDR,114.80.149.0/24 # 微信客户端下载 CDN
@@ -256,7 +259,6 @@ IP-CIDR,180.153.82.0/24 # 微信客户端下载 CDN
 IP-CIDR,222.186.162.0/24 # 微信客户端下载 CDN
 
 # > WeChat Core Communication Network（微信核心通信网络）
-# - 数据来源：本地流量分析
 
 IP-CIDR,61.151.230.185/32 # 微信 MMTLS 通信接入节点
 IP-CIDR,61.151.230.226/32 # 微信 MMTLS 通信接入节点
@@ -272,11 +274,9 @@ IP-CIDR,180.101.242.212/32 # 微信 MMTLS 通信接入节点
 IP-CIDR,180.101.242.227/32 # 微信 MMTLS 通信接入节点
 
 # > WeChat Pay API Network（微信支付接口网络）
-# - 数据来源：本地流量分析
 
 IP-CIDR,1.13.37.0/24 # 微信支付接口节点
 
 # > WeChat QUIC Communication Network（微信 QUIC 通信网络）
-# - 数据来源：本地流量分析
 
 IP-CIDR,101.227.131.254/32 # 微信 QUIC 通信节点（shquic.weixin.qq.com）
