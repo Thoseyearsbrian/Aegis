@@ -2412,4 +2412,5 @@ DOMAIN-SUFFIX,wxpay.lcsw.cn # 扫呗微信支付接口域名
 
 DOMAIN-SUFFIX,iyoudui.cn # 有兜主域名
 DOMAIN-SUFFIX,ctopmweb-cdn.iyoudui.com # 有兜前端内容分发域名
+DOMAIN-SUFFIX,csopmweb-cdn.iyoudui.com # 有兜业务图片与前端内容分发域名
 DOMAIN-SUFFIX,xiaojinhe-cdn.iyoudui.cn # 有兜小金盒内容分发域名
