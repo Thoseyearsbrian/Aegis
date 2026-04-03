@@ -204,7 +204,6 @@ DOMAIN-SUFFIX,btrace.qq.com # QQ 运行状态上报域名
 DOMAIN-SUFFIX,isdspeed.qq.com # QQ 网络质量接口域名
 DOMAIN-SUFFIX,sngapm.qq.com # QQ 性能监控服务域名
 DOMAIN-SUFFIX,connect.qq.com # QQ 互联授权域名
-DOMAIN-SUFFIX,ovscdns.com # 腾讯调度服务域名
 DOMAIN-SUFFIX,qlogo.cn # QQ 头像资源域名
 DOMAIN-SUFFIX,icq.com # ICQ 服务域名
 DOMAIN-SUFFIX,privacy.qq.com # 腾讯隐私说明域名
@@ -1469,7 +1468,6 @@ DOMAIN-SUFFIX,nstool.laiqukankan.com # 来去看看网络工具域名
 # - 校对时间：2026-03-25
 
 DOMAIN-SUFFIX,yunxinfw.com # 网易质云主域名
-DOMAIN-SUFFIX,httpdns.yunxinfw.com # 网易质云 HTTPDNS 服务域名
 
 # > NetEase Games（网易游戏）相关域名
 # - 校对时间：2026-03-25

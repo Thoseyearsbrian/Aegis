@@ -7434,6 +7434,11 @@ DOMAIN-SUFFIX,static.rtbcdn.ru # Rutube 静态资源分发节点
 DOMAIN-SUFFIX,pic.rtbcdn.ru # Rutube 图片资源分发节点
 DOMAIN-SUFFIX,premier-static.rtbcdn.ru # PREMIER 静态资源分发节点
 
+# > NetEase YXFW HTTPDNS Service（网易质云 HTTPDNS 解析服务）
+# - 校对时间：2026-04-03
+
+DOMAIN-SUFFIX,httpdns.yunxinfw.com # 网易质云 HTTPDNS 服务域名
+
 # > ByteDance Dispatch Infrastructure（字节跳动调度与内容分发基础设施）
 # - 校对时间：2026-04-03
 
@@ -7441,6 +7446,12 @@ DOMAIN-SUFFIX,bytedns.net # 字节跳动调度与加速服务域名
 DOMAIN-SUFFIX,bytednsdoc.com # 字节跳动文档资源服务域
 DOMAIN-SUFFIX,smtcdns.com # 字节跳动内容调度 CDN
 DOMAIN-SUFFIX,smtcdns.net # 字节跳动内容调度服务域名
+IP-CIDR,58.211.83.135/32 # 字节跳动文档资源服务节点（lf3-static.bytednsdoc.com）
+IP-CIDR,58.211.83.156/32 # 字节跳动文档资源服务节点（lf3-static.bytednsdoc.com）
+IP-CIDR,111.170.168.115/32 # 字节跳动文档资源服务节点（lf3-static.bytednsdoc.com）
+IP-CIDR,180.97.171.98/32 # 字节跳动文档资源服务节点（lf3-static.bytednsdoc.com）
+IP-CIDR,180.97.248.187/32 # 字节跳动文档资源服务节点（lf3-static.bytednsdoc.com）
+IP-CIDR,180.119.119.150/32 # 字节跳动文档资源服务节点（lf3-static.bytednsdoc.com）
 
 # > AliDNS（阿里云公共 DNS）基础解析服务
 # - 校对时间：2026-03-23
@@ -7453,6 +7464,7 @@ IP-CIDR6,2400:3200:baba::1/128 # 阿里云公共 DNS IPv6 解析节点
 # > Tencent DNSPod（DNS 解析与链路探测接口）
 # - 校对时间：2026-03-24
 
+DOMAIN-SUFFIX,ovscdns.com # 腾讯调度服务域名
 DOMAIN-SUFFIX,dnspod.cn # 腾讯 DNSPod 服务域名
 IP-CIDR,119.29.29.90/32 # 腾讯 DNSPod 公共 DNS 解析节点
 IP-CIDR,119.29.29.98/32 # 腾讯 DNSPod 公共 DNS 解析节点
