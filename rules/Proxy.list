@@ -7434,6 +7434,14 @@ DOMAIN-SUFFIX,static.rtbcdn.ru # Rutube 静态资源分发节点
 DOMAIN-SUFFIX,pic.rtbcdn.ru # Rutube 图片资源分发节点
 DOMAIN-SUFFIX,premier-static.rtbcdn.ru # PREMIER 静态资源分发节点
 
+# > ByteDance Dispatch Infrastructure（字节跳动调度与内容分发基础设施）
+# - 校对时间：2026-04-03
+
+DOMAIN-SUFFIX,bytedns.net # 字节跳动调度与加速服务域名
+DOMAIN-SUFFIX,bytednsdoc.com # 字节跳动文档资源服务域
+DOMAIN-SUFFIX,smtcdns.com # 字节跳动内容调度 CDN
+DOMAIN-SUFFIX,smtcdns.net # 字节跳动内容调度服务域名
+
 # > AliDNS（阿里云公共 DNS）基础解析服务
 # - 校对时间：2026-03-23
 
