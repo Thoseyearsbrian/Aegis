@@ -151,7 +151,6 @@ DOMAIN-SUFFIX,dscache.tencent-cloud.cn # 腾讯云调度缓存服务域名
 DOMAIN-SUFFIX,dscache.tencent-cloud.com # 腾讯云调度缓存服务域名
 DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播服务域名
 DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云视频服务域名
-DOMAIN-SUFFIX,dnspod.cn # 腾讯 DNSPod 服务域名
 
 # > Tencent Mail（QQ 邮箱）
 # - 校对时间：2026-03-24
