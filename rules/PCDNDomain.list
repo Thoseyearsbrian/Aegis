@@ -21,7 +21,7 @@ DOMAIN-SUFFIX,p2p-ali.douyucdn.cn # P2P 分发节点
 DOMAIN-SUFFIX,p2pchunk-hw.douyucdn.cn # P2P 分片节点
 DOMAIN-SUFFIX,p2pchunk-table.douyucdn.cn # P2P 调度节点
 DOMAIN-SUFFIX,p2pchunk-ws.douyucdn.cn # P2P WebSocket 节点
-DOMAIN-SUFFIX,p2perrorlog.douyucdn.cn # P2P 日志上报节点
+DOMAIN-SUFFIX,p2perrorlog.douyucdn.cn # P2P 日志上报
 DOMAIN-SUFFIX,p2plive-ali.douyucdn.cn # P2P 直播节点
 DOMAIN-SUFFIX,p2plive-ws.douyucdn.cn # P2P WebSocket 节点
 DOMAIN-SUFFIX,p2plog.douyucdn.cn # P2P 日志上报节点
