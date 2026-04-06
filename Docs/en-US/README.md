@@ -1,33 +1,33 @@
 <!-- Aegis Logo -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/Aegis_Cover_Image.png" alt="Aegis Cover Image"/>
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/logos/aegis-logo.png" alt="Aegis Logo"/>
 </p>
 
 <h1 align="center">Aegis</h1>
-A personal digital firewall ruleset for Surge, designed to help users achieve precise local traffic identification and classification on iOS and macOS, and define traffic policies according to their own needs.
+Personal digital firewall ruleset for Surge, designed to help users achieve precise local traffic identification and classification on iOS and macOS, and define traffic policies according to their own needs.
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-1.png"
+    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/screenshots/group-policy-mobile-en-1.png"
     width="300"
     alt="Surge iOS: Aegis_EN configuration overview interface screenshot"
   />
   <img
-    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/group-policy-mobile-en-2.png"
+    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/screenshots/group-policy-mobile-en-2.png"
     width="300"
     alt="Surge iOS: Aegis_EN policy group interface screenshot"
   />
 </p>
 
 <p align="center">
-  [<a href="https://github.com/Thoseyearsbrian/Aegis/tree/main/Docs/zh-CN/README.md">简体中文</a>]
-  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/zh-TC/README.md">繁體中文</a>]
-  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/Docs/en-US/README.md">English</a>]
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/docs/zh-CN/README.md">简体中文</a>]
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/docs/zh-TC/README.md">繁體中文</a>]
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/docs/en-US/README.md">English</a>]
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0" />
-  <img src="https://github.com/Thoseyearsbrian/GeoIP2-Country/actions/workflows/update.yml/badge.svg" alt="GeoIP Auto Update Status" />
+  <img src="https://github.com/Thoseyearsbrian/GeoIP2-Country/actions/workflows/update.yml/badge.svg" alt="GeoIP2-Country Auto Update Status" />
   <img src="https://img.shields.io/github/v/release/Thoseyearsbrian/Aegis?include_prereleases&label=version" alt="Version" />
   <img src="https://img.shields.io/github/last-commit/Thoseyearsbrian/Aegis" alt="Last Commit" />
   <img src="https://img.shields.io/github/stars/Thoseyearsbrian/Aegis?style=social" alt="GitHub stars" />
@@ -92,23 +92,23 @@ If configuration auto-reload is not enabled, you can manually refresh external r
 
 ### Versioning
 
-Aegis follows [Semantic Versioning](https://semver.org/): vMAJOR.MINOR.PATCH (e.g., Aegis v3.0.1; MAJOR=3, MINOR=0, PATCH=1).
+Aegis follows [Semantic Versioning](https://semver.org/): `vMAJOR.MINOR.PATCH`.
 
-MAJOR (X): Major changes in structure or compatibility  👉 Requires re-downloading the configuration and re-adding nodes
+Example: Aegis v3.0.1, where MAJOR=3, MINOR=0, and PATCH=1.
 
-MINOR (Y): New policy groups, new modules, or new features  👉 Recommended to re-download the configuration and re-add nodes
-
-PATCH (Z): Rule fixes, annotation updates, minor improvements  👉 No need to re-download the configuration; updating external resources is sufficient
+MAJOR (X): Major structural or compatibility changes 👉 You must re-download the configuration and re-add the nodes.
+MINOR (Y): New policy groups, new modules, or new features 👉 It is recommended to re-download the configuration and re-add the nodes.
+PATCH (Z): Rule fixes, annotation updates, or minor optimizations 👉 No need to re-download the configuration; updating external resources is sufficient.
 
 > [!IMPORTANT]
 > It is recommended to enable 「Automatically reload if the profile was modified externally/remotely」. This option only applies to automatic reloading when the configuration file (.conf) changes. PATCH updates still require manually refreshing external resources (RULE-SET) to take effect.
 
 > [!NOTE]
-> Current version: Aegis v2.0.0. Previous version: Aegis v1.3.4. This is a MAJOR update (MAJOR = 2). You must re-download the configuration and re-add nodes. External resources will be updated automatically.
+> Current version: Aegis v2.0.0. Previous version: Aegis v1.3.4. This is a MAJOR update (MAJOR = 2). You must re-download the configuration and re-add the nodes. External resources will be updated automatically.
 >
-> Current version: Aegis v2.3.0. Previous version: Aegis v2.2.4. This is a MINOR update (MINOR = 3). It is recommended to re-download the configuration and re-add nodes. External resources will be updated automatically.
+> Current version: Aegis v2.3.0. Previous version: Aegis v2.2.4. This is a MINOR update (MINOR = 3). It is recommended to re-download the configuration and re-add the nodes. External resources will be updated automatically.
 >
-> Current version: Aegis v3.3.4. Previous version: Aegis v3.3.3. This is a PATCH update (PATCH = 4). No need to re-download the configuration. You only need to manually refresh external resources (RULE-SET).
+> Current version: Aegis v3.3.4. Previous version: Aegis v3.3.3. This is a PATCH update (PATCH = 4). No need to re-download the configuration. You only need to refresh external resources.
 
 > [!TIP]
 > As long as you re-download the configuration file (.conf) and re-add the nodes, external resources will be updated automatically if the option 「Automatically reload if the profile was modified externally/remotely」 is enabled.
@@ -117,19 +117,19 @@ PATCH (Z): Rule fixes, annotation updates, minor improvements  👉 No need to r
 
 ## Surge IPv4 Configuration Links
 
-Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_CN.conf
+Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_CN.conf
 
-Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_TC.conf
+Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_TC.conf
 
-Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_EN.conf
+Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_EN.conf
 
 ## Surge IPv6 Configuration Links
 
-Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_IPv6_CN.conf
+Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_CN.conf
 
-Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_IPv6_TC.conf 
+Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_TC.conf
 
-Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Surge/config/Spec/Aegis_IPv6_EN.conf
+Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_EN.conf
 
 > [!WARNING]
 > Please choose the appropriate configuration based on your network environment. If your network natively supports IPv6, use the IPv6 version; otherwise, use the IPv4 version. 
@@ -141,7 +141,7 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/surge-config-import-guide-step-by-step-en.png"
+    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/screenshots/surge-config-import-guide-step-by-step-en.png"
     width="600"
     alt="Surge iOS: Aegis_EN ruleset import step-by-step diagram (English)"
   >
@@ -204,7 +204,7 @@ Beginner-Friendly Surge Guide · iOS (4K) ｜ Click the cover image to watch on 
 
 <p align="center">
 <a href="https://youtu.be/cKhRdQF5FTo">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/beginner-friendly-surge-guide-ios-4k.png"
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/covers/beginner-friendly-surge-guide-ios-4k.png"
        alt="Beginner-Friendly Surge Guide · iOS (4K)"
        width="600" />
 </a>
@@ -214,7 +214,7 @@ Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch o
 
 <p align="center">
 <a href="https://youtu.be/ano6ysBlD5s">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/Icons/Groups/beginner-friendly-surge-guide-macos-4k.png"
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/covers/beginner-friendly-surge-guide-macos-4k.png"
        alt="Beginner-Friendly Surge Guide · macOS (4K)"
        width="600" />
 </a>
@@ -222,16 +222,16 @@ Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch o
 
 ## ⚠️ Important Notes
 
-1. **Rule Mode is mandatory — Aegis cannot perform any filtering, routing, or protection without it**
+1. **Rule Mode is mandatory — otherwise, Aegis’s rule-based identification, routing, and protection capabilities may not function properly**
 
    ```bash
    Aegis is a personal digital firewall system built entirely on Surge’s Rule Mode. It relies on rule-based matching to classify domains, enforce policies, and block malicious traffic.
 
-   Full functionality is only available when Surge is running in **Rule Mode**. If you switch to Global Mode or Direct Mode, while network access may still work, all rule matching will be bypassed, leading to the following risks:
+   Full functionality is only available when Surge is running in **Rule Mode**. If you switch to Global Mode or Direct Mode, network access may still work, but some identification, classification, and policy-based routing capabilities that rely on rule matching may not function properly, resulting in the following risks:
 
-   • Domains and IPs will not be classified correctly  
-   • All filtering mechanisms and strategy modules will be disabled  
-   • Core functions like traffic splitting, threat protection, and ad blocking will stop working
+   - Domains and IPs may not be identified or classified according to rules
+   - Module strategies that rely on rule matching may not function properly
+   - Aegis’s routing, protection, and identification capabilities may not work in full
 
    If you encounter a domain temporarily inaccessible due to unmatched rules, you may **switch to Global Mode or Direct Mode temporarily** to regain access. However, we strongly recommend submitting an Issue immediately, so we can update the corresponding rule set and prevent future disruption.
    ```
@@ -247,9 +247,9 @@ Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch o
 3. **Supports GEOIP query rules for countries outside mainland China, as the current database supports global country IP ranges.**
 
    ```bash
-   GEOIP,US, Proxy   # Valid
-   GEOIP,AU, Proxy   # Valid
-   GEOIP,CN, DIRECT  # Valid
+   GEOIP,US,Proxy   # Valid
+   GEOIP,AU,Proxy   # Valid
+   GEOIP,CN,DIRECT  # Valid
    ```
 
 4. **Explanation for the message “tun-excluded-routes parameter configured, may cause issues after switching networks”**
@@ -323,8 +323,6 @@ To ensure the security, integrity, and auditability of the rule sets, and to sup
 > - Overlooking newly added threat intelligence or false-positive fixes;
 > - Increased maintenance burden and trust risks.
 
-## 🙌 Community Support
+## 🙌 Project Support
 
-If you find value in this project, please consider giving it a ⭐️ Star. Relevant Chinese update notes will be published simultaneously via the [Telegram](https://telegram.org) notification channel — feel free to subscribe and stay informed.
-
-**Telegram Update Channel** – <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a>: Publishes the latest rule versions, changelogs, and important announcements.
+If you find value in this project, please consider giving it a ⭐️ Star.
