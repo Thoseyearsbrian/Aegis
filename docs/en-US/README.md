@@ -323,6 +323,10 @@ To ensure the security, integrity, and auditability of the rule sets, and to sup
 > - Overlooking newly added threat intelligence or false-positive fixes;
 > - Increased maintenance burden and trust risks.
 
-## 🙌 Project Support
+## ⭐ Star History
 
-If you find value in this project, please consider giving it a ⭐️ Star.
+<p align="center">
+  <a href="https://star-history.com/#Thoseyearsbrian/Aegis&Date">
+    <img src="https://api.star-history.com/svg?repos=Thoseyearsbrian/Aegis&type=Date" />
+  </a>
+</p>
