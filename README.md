@@ -97,7 +97,9 @@ Aegis follows [Semantic Versioning](https://semver.org/): `vMAJOR.MINOR.PATCH`.
 Example: Aegis v3.0.1, where MAJOR=3, MINOR=0, and PATCH=1.
 
 MAJOR (X): Major structural or compatibility changes 👉 You must re-download the configuration and re-add the nodes.
+
 MINOR (Y): New policy groups, new modules, or new features 👉 It is recommended to re-download the configuration and re-add the nodes.
+
 PATCH (Z): Rule fixes, annotation updates, or minor optimizations 👉 No need to re-download the configuration; updating external resources is sufficient.
 
 > [!IMPORTANT]
