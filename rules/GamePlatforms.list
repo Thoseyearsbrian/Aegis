@@ -57,6 +57,9 @@ IP-CIDR,180.105.204.17/32 # 腾讯游戏服务节点
 
 DOMAIN-SUFFIX,dir.500638030-2-1.gcloudsvcs.com # 三角洲行动目录服务域名
 DOMAIN-SUFFIX,puffer.500638030-11-1.gcloudsvcs.com # 三角洲行动传输服务域名
+DOMAIN-SUFFIX,df-gcloud.ajy.tcdnos.com # 三角洲行动资源下载域名
+DOMAIN-SUFFIX,df-gcloud.csysw.tcdnos.com # 三角洲行动资源下载域名
+DOMAIN-SUFFIX,df-gcloud.bdy.tcdnos.com # 三角洲行动资源下载域名
 DOMAIN-SUFFIX,df-gcloud.bytes.tcdnos.com # 三角洲行动资源下载域名
 DOMAIN-SUFFIX,df-gcloud.ajy.tcdnos.com # 三角洲行动资源下载域名
 DOMAIN-SUFFIX,df-gcloud.bytes.tcdnos.com # 三角洲行动资源下载域名
