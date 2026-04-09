@@ -4,8 +4,8 @@
 # - 特征：涵盖 Steam、Epic、PlayStation、Nintendo 等主流游戏平台与相关服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-30
-# - 校对时间：2026-03-30
+# - 更新时间：2026-04-09
+# - 校对时间：2026-04-09
 
 # > Honor of Kings Services（王者荣耀游戏服务）
 # - 校对时间：2026-03-30
@@ -51,6 +51,12 @@ IP-CIDR,180.127.11.186/32 # 和平精英实时对战通信节点
 DOMAIN-SUFFIX,down.bdy.tcdnos.com # 英雄联盟手游资源下载域名
 DOMAIN-SUFFIX,down.bytes.tcdnos.com # 英雄联盟手游资源下载域名
 IP-CIDR,180.105.204.17/32 # 腾讯游戏服务节点
+
+# > Delta Force Services（三角洲行动游戏服务）
+# - 校对时间：2026-04-09
+
+DOMAIN-SUFFIX,dir.500638030-2-1.gcloudsvcs.com # 三角洲行动目录服务域名
+DOMAIN-SUFFIX,puffer.500638030-11-1.gcloudsvcs.com # 三角洲行动传输服务域名
 
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
