@@ -20,9 +20,9 @@ Personal digital firewall ruleset for Surge, designed to help users achieve prec
 </p>
 
 <p align="center">
-  [<a href="https://github.com/Thoseyearsbrian/Aegis/tree/main/docs/zh-CN">简体中文</a>]
-  [<a href="https://github.com/Thoseyearsbrian/Aegis/tree/main/docs/zh-TC">繁體中文</a>]
-  [<a href="https://github.com/Thoseyearsbrian/Aegis/tree/main/docs/en-US">English</a>]
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/docs/zh-CN/README.md">简体中文</a>]
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/docs/zh-TC/README.md">繁體中文</a>]
+  [<a href="https://github.com/Thoseyearsbrian/Aegis/blob/main/docs/en-US/README.md">English</a>]
 </p>
 
 <p align="center">
