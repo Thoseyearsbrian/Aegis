@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">Aegis</h1>
-Personal digital firewall ruleset for Surge, designed to help users achieve precise local traffic identification and classification on iOS and macOS, and define traffic policies according to their own needs.
+Personal digital firewall ruleset for Surge on iOS and macOS, built for precise local traffic identification and policy control, with multilingual support for global deployment and flexible use.
 
 <p align="center">
   <img
