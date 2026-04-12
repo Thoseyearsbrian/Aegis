@@ -4,10 +4,10 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-11
+# - 更新时间：2026-04-12
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
-# - 校对时间：2026-04-11
+# - 校对时间：2026-04-12
 
 DOMAIN-SUFFIX,douyin.com # 抖音官方主域名
 DOMAIN-SUFFIX,iesdouyin.com # 抖音核心业务域名
@@ -317,6 +317,7 @@ IP-CIDR,111.77.199.16/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
 IP-CIDR,111.123.59.138/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,111.170.168.96/32 # 抖音内容分发节点（lf-normal-gr-sourcecdn.bytegecko.com）
 IP-CIDR,111.170.168.113/32 # 抖音视频点播 CDN 节点（v5-gzb-x.douyinvod.com）
+IP-CIDR,111.174.12.214/32 # 抖音图片资源 CDN 节点（p5-sign.douyinpic.com）
 IP-CIDR,111.224.8.59/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,112.5.62.241/32 # 抖音视频点播 CDN 节点（v95-hzyy-thr-daily-colda.douyinvod.com）
 IP-CIDR,112.20.82.70/32 # 抖音视频点播 CDN 节点（v5-coldn.douyinvod.com）
@@ -567,6 +568,7 @@ IP-CIDR,182.40.50.195/32 # 抖音视频点播 CDN 节点（v5-gzb-wha.douyinvod.
 IP-CIDR,182.40.50.196/32 # 抖音视频点播 CDN 节点（v5-gzb-x.douyinvod.com）
 IP-CIDR,182.40.51.53/32 # 抖音直播图片资源节点（p3-webcast-sign.douyinpic.com）
 IP-CIDR,182.40.63.25/32 # 抖音静态资源分发节点（v6-daily-music.douyinstatic.com）
+IP-CIDR,182.40.63.29/32 # 抖音静态资源分发节点（v6-daily-music.douyinstatic.com）
 IP-CIDR,182.40.63.31/32 # 抖音静态资源分发节点（v6-daily-music.douyinstatic.com）
 IP-CIDR,182.40.143.101/32 # 抖音内容分发质量控制节点（lf-dy-sourcecdn-tos-qos-control.bytegecko.com）
 IP-CIDR,182.84.202.11/32 # 字节跳动对象存储服务节点（lf3-pitaya.bytetos.com）
@@ -677,6 +679,7 @@ IP-CIDR,222.186.177.145/32 # 抖音平台服务节点（api5-lq.qishui.com）
 IP-CIDR,222.188.8.48/32 # 字节跳动对象存储服务节点（lf6-pitaya.bytetos.com）
 IP-CIDR,222.188.8.49/32 # 字节跳动图片资源服务节点（p6-dy-gm-yp-sign.byteimg.com）
 IP-CIDR,222.188.8.51/32 # 字节跳动对象存储服务节点（lf6-pitaya.bytetos.com）
+IP-CIDR,222.188.8.57/32 # 抖音视频点播 CDN 节点（v6-x.douyinvod.com）
 IP-CIDR,222.188.8.70/32 # 抖音直播流媒体分发节点（FLV 直连）
 IP-CIDR,222.218.190.83/32 # 抖音静态资源分发节点（sf5-hl-ali-cdn-tos.douyinstatic.com）
 IP-CIDR,223.111.116.20/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
