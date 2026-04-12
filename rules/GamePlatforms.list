@@ -67,10 +67,13 @@ DOMAIN-SUFFIX,df-gcloud.bytes.tcdnos.com # 三角洲行动资源下载域名
 # > Genshin Impact Services（原神游戏服务）
 # - 校对时间：2026-04-12
 
+DOMAIN-SUFFIX,mihoyo.com # 米哈游官网及相关服务域名
+DOMAIN-SUFFIX,yuanshen.com # 原神官方网站及游戏服务域名
 DOMAIN-SUFFIX,autopatchcn.yuanshen.com # 原神国服自动更新服务域名
 DOMAIN-SUFFIX,sdk-static.mihoyo.com # 米哈游 SDK 静态资源域名
 DOMAIN-SUFFIX,webstatic.mihoyo.com # 米哈游网页静态资源域名
 DOMAIN-SUFFIX,hk4e-sdk-s.mihoyo.com # 原神 SDK 服务域名
+DOMAIN-SUFFIX,hk4e-ann-api.mihoyo.com # 原神公告与活动接口服务域名
 DOMAIN-SUFFIX,h5log-api-dualstack.mihoyo.com # 米哈游日志接口服务域名
 DOMAIN-SUFFIX,ys-log-upload.mihoyo.com # 原神日志上传服务域名
 DOMAIN-SUFFIX,h5log-api-dualstack.mihoyo.com # 米哈游日志接口服务域名
