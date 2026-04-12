@@ -4,8 +4,8 @@
 # - 特征：涵盖 Steam、Epic、PlayStation、Nintendo 等主流游戏平台与相关服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-12
-# - 校对时间：2026-04-12
+# - 更新时间：2026-04-13
+# - 校对时间：2026-04-13
 
 # > Honor of Kings Services（王者荣耀游戏服务）
 # - 校对时间：2026-03-30
@@ -81,6 +81,15 @@ DOMAIN-SUFFIX,apm-log-upload-v6.mihoyo.com # 米哈游性能日志上传域名
 DOMAIN-SUFFIX,log-upload-v6.mihoyo.com # 米哈游日志上传域名
 DOMAIN-SUFFIX,ad-log-upload.mihoyo.com # 米哈游广告日志上传域名
 DOMAIN-SUFFIX,sdk-log-upload.mihoyo.com # 米哈游 SDK 日志上传域名
+
+# > Minecraft Mobile Services（我的世界移动版游戏服务）
+# - 校对时间：2026-04-13
+
+DOMAIN-SUFFIX,data-detect.nie.netease.com # 网易移动端游戏数据检测服务域名
+DOMAIN-SUFFIX,drpf-g79.proxima.nie.netease.com # 网易移动端游戏资源与协议通信域名
+DOMAIN-SUFFIX,applog.matrix.netease.com # 网易移动端游戏日志上传服务域名
+DOMAIN-SUFFIX,sdkgate.pushv3.netease.com # 网易移动端游戏推送服务域名
+DOMAIN-SUFFIX,g79.update.netease.com # 网易移动端游戏更新分发域名
 
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
