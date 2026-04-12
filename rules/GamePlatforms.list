@@ -70,6 +70,7 @@ DOMAIN-SUFFIX,df-gcloud.bytes.tcdnos.com # 三角洲行动资源下载域名
 DOMAIN-SUFFIX,autopatchcn.yuanshen.com # 原神国服自动更新服务域名
 DOMAIN-SUFFIX,ys-log-upload.mihoyo.com # 原神日志上传服务域名
 DOMAIN-SUFFIX,sdk-log-upload.mihoyo.com # 米哈游 SDK 日志上传域名
+DOMAIN-SUFFIX,h5log-api-dualstack.mihoyo.com # 米哈游日志接口服务域名
 
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
