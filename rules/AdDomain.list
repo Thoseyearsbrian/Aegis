@@ -4,8 +4,8 @@
 # - 特征：识别广告投放、广告竞价、广告请求、广告资源分发、广告追踪及明确广告子域等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-26
-# - 校对时间：2026-03-26
+# - 更新时间：2026-04-13
+# - 校对时间：2026-04-13
 
 # > 广告相关域名
 
@@ -50,7 +50,6 @@ DOMAIN-SUFFIX,adashx4yt.m.taobao.com # 淘宝广告日志域名
 DOMAIN-SUFFIX,track.alicdn.com # 阿里广告追踪域名
 DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志域名
 DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告监测域名
-DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com # 穿山甲广告 SDK 接入域名
 DOMAIN-SUFFIX,ad.doubleclick.net # DoubleClick 广告服务域名
 DOMAIN-SUFFIX,doubleclick-cn.net # DoubleClick 广告服务域名
 DOMAIN-SUFFIX,2mdn.net # DoubleClick 广告素材分发域名
