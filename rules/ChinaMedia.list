@@ -709,6 +709,7 @@ DOMAIN-SUFFIX,bytedapm.com # 字节跳动 APM 性能监控主域
 DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com # 字节跳动 APM 上报节点
 DOMAIN-SUFFIX,toblog.ctobsnssdk.com # 抖音 / 今日头条统计与日志上报服务域名
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com # 今日头条 Pangolin SDK API 接口域名
+DOMAIN-SUFFIX,gromore.pangolin-sdk-toutiao.com # 今日头条 Pangolin SDK 广告与统计接口域名
 IP-CIDR,49.79.134.229/32 # 抖音日志上报通信节点（log0-misc-hl.amemv.com）
 IP-CIDR,49.79.134.230/32 # 抖音日志回传通信节点（logbk.amemv.com）
 IP-CIDR,49.79.134.231/32 # 抖音日志上报通信节点（log0-misc-hl.amemv.com）
