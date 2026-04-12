@@ -4,7 +4,7 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-12
+# - 更新时间：2026-04-13
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
 # - 校对时间：2026-04-12
@@ -692,7 +692,7 @@ IP-CIDR,223.244.13.64/32 # 抖音视频点播 CDN 节点（v5-se-zjjxtc-coldn.do
 IP-CIDR,223.244.13.72/32 # 抖音视频点播 CDN 节点（v5-se-zjwztc-x.douyinvod.com）
 
 # > ByteDance Behavioral Fingerprinting（字节跳动相关行为指纹，当前采用 ChinaMedia 路由策略）
-# - 校对时间：2026-04-11
+# - 校对时间：2026-04-13
 
 DOMAIN-SUFFIX,lf3-config.bytetcc.com # 字节跳动配置下发域名
 DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com # 穿山甲广告 SDK 日志接口
@@ -707,6 +707,8 @@ DOMAIN-SUFFIX,mssdk.volces.com # 火山引擎 MSSDK 数据接口
 DOMAIN-SUFFIX,is.snssdk.com # 今日头条内容推荐接口
 DOMAIN-SUFFIX,bytedapm.com # 字节跳动 APM 性能监控主域
 DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com # 字节跳动 APM 上报节点
+DOMAIN-SUFFIX,toblog.ctobsnssdk.com # 抖音 / 今日头条统计与日志上报服务域名
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com # 今日头条 Pangolin SDK API 接口域名
 IP-CIDR,49.79.134.229/32 # 抖音日志上报通信节点（log0-misc-hl.amemv.com）
 IP-CIDR,49.79.134.230/32 # 抖音日志回传通信节点（logbk.amemv.com）
 IP-CIDR,49.79.134.231/32 # 抖音日志上报通信节点（log0-misc-hl.amemv.com）
