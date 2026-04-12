@@ -85,12 +85,15 @@ DOMAIN-SUFFIX,sdk-log-upload.mihoyo.com # 米哈游 SDK 日志上传域名
 # > Minecraft Mobile Services（我的世界移动版游戏服务）
 # - 校对时间：2026-04-13
 
+DOMAIN-SUFFIX,netease.com # 网易移动端游戏平台主域名
+DOMAIN-SUFFIX,minecraft.cn # 我的世界移动版官网及服务域名
 DOMAIN-SUFFIX,data-detect.nie.netease.com # 网易移动端游戏数据检测服务域名
 DOMAIN-SUFFIX,drpf-g79.proxima.nie.netease.com # 网易移动端游戏资源与协议通信域名
 DOMAIN-SUFFIX,tdid.netease.com # 网易移动版 MyWorld 游戏统计与标识服务
 DOMAIN-SUFFIX,service.mkey.163.com # 网易移动版 MyWorld 游戏身份验证与密钥管理
 DOMAIN-SUFFIX,g79apigatewayobt.minecraft.cn # 网易移动版 MyWorld 游戏 API 网关
 DOMAIN-SUFFIX,g79mclobt.minecraft.cn # 我的世界移动版客户端 API 接入网关域名
+DOMAIN-SUFFIX,g79obtapigtcoregray.minecraft.cn # 我的世界移动版客户端 API 核心接入域名
 DOMAIN-SUFFIX,sdkgate.pushv3.netease.com # 网易移动端游戏推送服务域名
 DOMAIN-SUFFIX,g79.update.netease.com # 网易移动端游戏更新分发域名
 DOMAIN-SUFFIX,hunter.nie.netease.com # 网易数据上报与分析服务域名
@@ -101,6 +104,7 @@ DOMAIN-SUFFIX,x19.update.netease.com # 网易移动端游戏更新分发域名
 DOMAIN-SUFFIX,applog.matrix.netease.com # 网易移动端游戏日志上传服务域名
 DOMAIN-SUFFIX,drpf-summer.proxima.nie.netease.com # 网易 Proxima SDK 数据与日志上传接口域名
 DOMAIN-SUFFIX,gate-gz.hunter.netease.com # 网易移动端游戏数据分析与日志收集服务域名
+DOMAIN-SUFFIX,g79.appdump.nie.netease.com # 我的世界移动版客户端数据上传与分析域名
 
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
