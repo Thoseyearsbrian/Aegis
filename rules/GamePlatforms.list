@@ -116,8 +116,10 @@ DOMAIN-SUFFIX,applog.matrix.netease.com # 网易应用日志服务域名
 DOMAIN-SUFFIX,netlink-sigma.proxima.nie.netease.com # 梦幻西游网络连接服务域名
 DOMAIN-SUFFIX,sigma-performance-g18.proxima.nie.netease.com # 梦幻西游性能日志服务域名
 DOMAIN-SUFFIX,my.update.netease.com # 梦幻西游更新服务域名
+DOMAIN-SUFFIX,mailbox.g.mkey.163.com # 梦幻西游邮件服务域名
 IP-CIDR,42.186.117.184/32 # 梦幻西游游戏服务节点
 IP-CIDR,42.186.198.203/32 # 梦幻西游游戏服务节点
+IP-CIDR,42.186.213.220/32 # 梦幻西游游戏服务节点
 IP-CIDR,42.186.213.221/32 # 梦幻西游游戏服务节点
 IP-CIDR,42.186.213.234/32 # 梦幻西游游戏服务节点
 IP-CIDR,103.71.201.4/32 # 梦幻西游游戏服务节点
