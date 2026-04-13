@@ -7,7 +7,7 @@
 # - 更新时间：2026-04-13
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
-# - 校对时间：2026-04-12
+# - 校对时间：2026-04-13
 
 DOMAIN-SUFFIX,douyin.com # 抖音官方主域名
 DOMAIN-SUFFIX,iesdouyin.com # 抖音核心业务域名
@@ -578,6 +578,7 @@ IP-CIDR,182.106.149.189/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.
 IP-CIDR,182.106.149.192/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,182.106.149.208/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,182.106.195.146/32 # 抖音图片资源 CDN 节点（p5-ex-gddgtc-sign.douyinpic.com）
+IP-CIDR,183.36.7.189/32 # 抖音视频点播 CDN 节点（v95-bj-x.douyinvod.com）
 IP-CIDR,183.36.28.56/32 # 抖音视频点播 CDN 节点（v95-bj-x.douyinvod.com）
 IP-CIDR,183.61.173.121/32 # 抖音直播内容分发节点（lf9-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,183.61.184.193/32 # 抖音视频点播 CDN 节点（v95-sz-cold.douyinvod.com）
