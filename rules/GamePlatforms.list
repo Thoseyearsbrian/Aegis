@@ -134,6 +134,8 @@ IP-CIDR,103.71.201.0/24 # 网易官方 IPv4 网络段
 # - 校对时间：2026-04-13
 
 DOMAIN-SUFFIX,download.3.366423425.tc.gcloudgbs.com # QQ飞车移动端游戏资源分发域名
+DOMAIN-SUFFIX,qsm-30034.sz.gfp.tencent-cloud.com # QQ飞车移动端游戏记录资源域名
+DOMAIN-SUFFIX,access1.tpns.tencent.com # 腾讯推送服务接入域名
 
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
