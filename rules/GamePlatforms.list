@@ -130,6 +130,11 @@ IP-CIDR,42.186.128.0/17 # 网易官方 IPv4 网络段
 IP-CIDR,45.253.176.0/20 # 网易官方 IPv4 网络段
 IP-CIDR,103.71.201.0/24 # 网易官方 IPv4 网络段
 
+# > QQ Speed Mobile Services（QQ飞车移动端游戏服务）
+# - 校对时间：2026-04-13
+
+DOMAIN-SUFFIX,download.3.366423425.tc.gcloudgbs.com # QQ飞车移动端游戏资源分发域名
+
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
 
