@@ -137,6 +137,24 @@ DOMAIN-SUFFIX,download.3.366423425.tc.gcloudgbs.com # QQ飞车移动端游戏资
 DOMAIN-SUFFIX,qsm-30034.sz.gfp.tencent-cloud.com # QQ飞车移动端游戏记录资源域名
 DOMAIN-SUFFIX,access1.tpns.tencent.com # 腾讯推送服务接入域名
 
+# > Tencent Game-Related IPv4（腾讯游戏相关 IPv4 网络段）
+# - 数据来源：https://ipinfo.io/AS45090
+# - 辅助校验：https://bgp.tools/as/45090
+# - 校对时间：2026-04-13
+
+IP-CIDR,1.12.0.0/14 # 腾讯游戏相关 IPv4 网络段
+IP-CIDR,43.148.0.0/14 # 腾讯游戏相关 IPv4 网络段
+IP-CIDR,43.176.0.0/12 # 腾讯游戏相关 IPv4 网络段
+IP-CIDR,49.232.0.0/14 # 腾讯游戏相关 IPv4 网络段
+IP-CIDR,94.191.0.0/20 # 腾讯游戏相关 IPv4 网络段
+IP-CIDR,101.34.64.0/18 # 腾讯游戏相关 IPv4 网络段
+IP-CIDR,118.24.64.0/22 # 腾讯游戏相关 IPv4 网络段
+IP-CIDR,121.51.68.0/23 # 腾讯游戏相关 IPv4 网络段
+IP-CIDR,121.51.70.0/23 # 腾讯游戏相关 IPv4 网络段
+IP-CIDR,121.51.72.0/23 # 腾讯游戏相关 IPv4 网络段
+IP-CIDR,121.51.80.0/22 # 腾讯游戏相关 IPv4 网络段
+IP-CIDR,139.155.0.0/16 # 腾讯游戏相关 IPv4 网络段
+
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
 
