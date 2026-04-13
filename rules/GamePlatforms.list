@@ -111,6 +111,12 @@ DOMAIN-SUFFIX,g79.appdump.nie.netease.com # 我的世界移动版客户端数据
 
 DOMAIN-SUFFIX,mpay-translation.g.mkey.163.com # 梦幻西游支付翻译接口域名
 DOMAIN-SUFFIX,whoami.nie.tx163.com # 梦幻西游游戏身份识别与会话管理域名
+DOMAIN-SUFFIX,drpf-g18.proxima.nie.netease.com # 梦幻西游移动端游戏资源与协议通信域名
+DOMAIN-SUFFIX,whoami.nie.tx163.com # 梦幻西游游戏身份识别与会话管理域名
+DOMAIN-SUFFIX,applog.matrix.netease.com # 梦幻西游移动端游戏日志上传服务域名
+DOMAIN-SUFFIX,netlink-sigma.proxima.nie.netease.com # 梦幻西游 Proxima SDK 网络通信域名
+DOMAIN-SUFFIX,sigma-performance-g18.proxima.nie.netease.com # 梦幻西游性能日志上传接口域名
+DOMAIN-SUFFIX,my.update.netease.com # 梦幻西游移动端游戏更新分发域名
 
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
