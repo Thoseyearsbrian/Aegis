@@ -85,40 +85,42 @@ DOMAIN-SUFFIX,sdk-log-upload.mihoyo.com # 米哈游 SDK 日志上传域名
 # > Minecraft Mobile Services（我的世界移动版游戏服务）
 # - 校对时间：2026-04-13
 
-DOMAIN-SUFFIX,netease.com # 网易移动端游戏平台主域名
-DOMAIN-SUFFIX,minecraft.cn # 我的世界移动版官网及服务域名
-DOMAIN-SUFFIX,data-detect.nie.netease.com # 网易移动端游戏数据检测服务域名
-DOMAIN-SUFFIX,drpf-g79.proxima.nie.netease.com # 网易移动端游戏资源与协议通信域名
-DOMAIN-SUFFIX,tdid.netease.com # 网易移动版 MyWorld 游戏统计与标识服务
-DOMAIN-SUFFIX,service.mkey.163.com # 网易移动版 MyWorld 游戏身份验证与密钥管理
-DOMAIN-SUFFIX,g79apigatewayobt.minecraft.cn # 网易移动版 MyWorld 游戏 API 网关
-DOMAIN-SUFFIX,g79mclobt.minecraft.cn # 我的世界移动版客户端 API 接入网关域名
-DOMAIN-SUFFIX,g79obtapigtcoregray.minecraft.cn # 我的世界移动版客户端 API 核心接入域名
-DOMAIN-SUFFIX,sdkgate.pushv3.netease.com # 网易移动端游戏推送服务域名
-DOMAIN-SUFFIX,g79.update.netease.com # 网易移动端游戏更新分发域名
-DOMAIN-SUFFIX,hunter.nie.netease.com # 网易数据上报与分析服务域名
-DOMAIN-SUFFIX,nstool.netease.com # 网易 SDK 工具与协议通信域名
-DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com # 今日头条 Pangolin SDK API 接口域名
-DOMAIN-SUFFIX,client.discovery.minecraft-services.net # 我的世界移动版客户端服务发现接口域名
-DOMAIN-SUFFIX,x19.update.netease.com # 网易移动端游戏更新分发域名
-DOMAIN-SUFFIX,applog.matrix.netease.com # 网易移动端游戏日志上传服务域名
-DOMAIN-SUFFIX,drpf-summer.proxima.nie.netease.com # 网易 Proxima SDK 数据与日志上传接口域名
-DOMAIN-SUFFIX,gate-gz.hunter.netease.com # 网易移动端游戏数据分析与日志收集服务域名
-DOMAIN-SUFFIX,g79.appdump.nie.netease.com # 我的世界移动版客户端数据上传与分析域名
+DOMAIN-SUFFIX,netease.com # 网易相关平台服务主域名
+DOMAIN-SUFFIX,minecraft.cn # 我的世界中国版官网及相关服务域名
+DOMAIN-SUFFIX,data-detect.nie.netease.com # 网易游戏数据服务域名
+DOMAIN-SUFFIX,drpf-g79.proxima.nie.netease.com # 我的世界移动版资源与连接服务域名
+DOMAIN-SUFFIX,tdid.netease.com # 网易终端标识服务域名
+DOMAIN-SUFFIX,service.mkey.163.com # 网易账号认证与密钥服务域名
+DOMAIN-SUFFIX,g79apigatewayobt.minecraft.cn # 我的世界移动版 API 网关域名
+DOMAIN-SUFFIX,g79mclobt.minecraft.cn # 我的世界移动版客户端接入域名
+DOMAIN-SUFFIX,g79obtapigtcoregray.minecraft.cn # 我的世界移动版核心接入域名
+DOMAIN-SUFFIX,sdkgate.pushv3.netease.com # 网易推送服务网关域名
+DOMAIN-SUFFIX,g79.update.netease.com # 我的世界移动版更新服务域名
+DOMAIN-SUFFIX,hunter.nie.netease.com # 网易业务数据服务域名
+DOMAIN-SUFFIX,nstool.netease.com # 网易 SDK 工具服务域名
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com # 穿山甲 SDK 接口域名
+DOMAIN-SUFFIX,client.discovery.minecraft-services.net # Minecraft 客户端服务发现域名
+DOMAIN-SUFFIX,x19.update.netease.com # 网易更新服务域名
+DOMAIN-SUFFIX,applog.matrix.netease.com # 网易应用日志服务域名
+DOMAIN-SUFFIX,drpf-summer.proxima.nie.netease.com # 网易 Proxima 连接与数据服务域名
+DOMAIN-SUFFIX,gate-gz.hunter.netease.com # 网易业务数据接入域名
+DOMAIN-SUFFIX,g79.appdump.nie.netease.com # 我的世界移动版客户端数据服务域名
 
 # > Fantasy Westward Journey Mobile Services（梦幻西游移动端游戏服务）
 # - 校对时间：2026-04-13
 
-DOMAIN-SUFFIX,mpay-translation.g.mkey.163.com # 梦幻西游支付翻译接口域名
-DOMAIN-SUFFIX,whoami.nie.tx163.com # 梦幻西游游戏身份识别与会话管理域名
-DOMAIN-SUFFIX,drpf-g18.proxima.nie.netease.com # 梦幻西游移动端游戏资源与协议通信域名
-DOMAIN-SUFFIX,whoami.nie.tx163.com # 梦幻西游游戏身份识别与会话管理域名
-DOMAIN-SUFFIX,applog.matrix.netease.com # 梦幻西游移动端游戏日志上传服务域名
-DOMAIN-SUFFIX,netlink-sigma.proxima.nie.netease.com # 梦幻西游 Proxima SDK 网络通信域名
-DOMAIN-SUFFIX,sigma-performance-g18.proxima.nie.netease.com # 梦幻西游性能日志上传接口域名
-DOMAIN-SUFFIX,my.update.netease.com # 梦幻西游移动端游戏更新分发域名
-IP-CIDR,103.71.201.4/32 # 梦幻西游移动端游戏通信节点
-IP-CIDR,42.186.213.221/32 # 梦幻西游移动端游戏通信节点
+DOMAIN-SUFFIX,mpay-translation.g.mkey.163.com # 梦幻西游支付服务接口域名
+DOMAIN-SUFFIX,whoami.nie.tx163.com # 梦幻西游身份识别服务域名
+DOMAIN-SUFFIX,drpf-g18.proxima.nie.netease.com # 梦幻西游资源与连接域名
+DOMAIN-SUFFIX,applog.matrix.netease.com # 网易应用日志服务域名
+DOMAIN-SUFFIX,netlink-sigma.proxima.nie.netease.com # 梦幻西游网络连接服务域名
+DOMAIN-SUFFIX,sigma-performance-g18.proxima.nie.netease.com # 梦幻西游性能日志服务域名
+DOMAIN-SUFFIX,my.update.netease.com # 梦幻西游更新服务域名
+IP-CIDR,42.186.117.184/32 # 梦幻西游游戏服务节点
+IP-CIDR,42.186.198.203/32 # 梦幻西游游戏服务节点
+IP-CIDR,42.186.213.221/32 # 梦幻西游游戏服务节点
+IP-CIDR,42.186.213.234/32 # 梦幻西游游戏服务节点
+IP-CIDR,103.71.201.4/32 # 梦幻西游游戏服务节点
 
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
