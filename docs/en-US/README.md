@@ -188,7 +188,7 @@ Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch o
    - Module strategies that rely on rule matching may not function properly
    - Aegis’s routing, protection, and identification capabilities may not work in full
 
-   If you encounter a domain temporarily inaccessible due to unmatched rules, you may **switch to Global Mode or Direct Mode temporarily** to regain access. However, we strongly recommend submitting an Issue immediately, so we can update the corresponding rule set and prevent future disruption.
+   If you encounter a domain temporarily inaccessible due to unmatched rules, you may **switch to Global Mode or Direct Mode temporarily** to regain access.
    ```
 
 2. **It is recommended to combine China.list (for domain matching) and GEOIP,CN (for IP segments) for accurate detection of Chinese traffic:**
