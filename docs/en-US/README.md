@@ -4,7 +4,9 @@
 </p>
 
 <h1 align="center">Aegis</h1>
+<p align="center">
 Personal digital firewall ruleset for Surge on iOS and macOS, built for precise local traffic identification and policy control, with multilingual support for global deployment and flexible use.
+</p>
 
 <p align="center">
   <img
@@ -36,30 +38,11 @@ Personal digital firewall ruleset for Surge on iOS and macOS, built for precise 
   </a>
 </p>
 
-## Overview
-
-Personal digital firewall ruleset for [Surge](https://nssurge.com), focused on identifying potential communication threats at both the application layer and transport layer. It covers a broad range of suspicious behaviors including [DNS poisoning](https://en.wikipedia.org/wiki/DNS_hijacking), [Malware IOC](https://en.wikipedia.org/wiki/Malware), [SDK telemetry](https://en.wikipedia.org/wiki/Software_development_kit), [backdoor communication](https://en.wikipedia.org/wiki/Back_door), [PCDN relay communication](https://en.wikipedia.org/wiki/P2P_caching), [C2 controllers](https://en.wikipedia.org/?redirect=no&title=Command_and_control), and other potentially malicious communications.
-
-The project also expands domain-based identification to major global advertising platforms, behavioral tracking services, and adult content sites. It helps users achieve precise local traffic identification and classification on iOS and macOS, and define routing strategies based on their own needs.
-
-In addition, the project incorporates rule sets targeting globally recognized high-risk threat infrastructures, including detection strategies for [Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware)) spyware and its associated command-and-control infrastructure.
-
-The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
-
 ## Key Features
-
-The Aegis rule set is dedicated to identifying and classifying the following high-risk communication behaviors:
-
-- Ad domain identification, behavioral tracking, and surveillance-style CDN nodes
-- PCDN relay traffic and shared-bandwidth transmission
-- Botnets, remote access Trojans, and malware C2 channels
-- SDK telemetry and behavioral fingerprinting
-- APT command-and-control (C2) infrastructure
-- DNS poisoning / injection / hijacking behavior
 
 Aegis is purpose-built for the Surge platform, fully compatible with both iOS and macOS. It offers high readability, auditability, and modular deployment — making it suitable for policy-based routing, communication analysis, and enhanced security configurations.
 
-An optional advanced module `CA_Block.list` is also available, designed to block globally controversial or publicly revoked root certificate authorities, OCSP responders, and CRL domains. This module is intended for users with heightened digital trust requirements and provides additional protection against man-in-the-middle attacks and malicious certificate chains.
+The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
 
 ## Philosophy
 
@@ -90,33 +73,6 @@ Aegis is hosted on [GitHub](https://github.com) with an automated update mechani
 
 If configuration auto-reload is not enabled, you can manually refresh external resources or reload the profile to ensure the ruleset stays up to date.
 
-### Versioning
-
-Aegis follows [Semantic Versioning](https://semver.org/): `vMAJOR.MINOR.PATCH`.
-
-Example: Aegis v3.0.1, where MAJOR=3, MINOR=0, and PATCH=1.
-
-MAJOR (X): Major structural or compatibility changes 👉 You must re-download the configuration and re-add the nodes.
-
-MINOR (Y): New policy groups, new modules, or new features 👉 It is recommended to re-download the configuration and re-add the nodes.
-
-PATCH (Z): Rule fixes, annotation updates, or minor optimizations 👉 No need to re-download the configuration; updating external resources is sufficient.
-
-> [!IMPORTANT]
-> It is recommended to enable 「Automatically reload if the profile was modified externally/remotely」. This option only applies to automatic reloading when the configuration file (.conf) changes. PATCH updates still require manually refreshing external resources (RULE-SET) to take effect.
-
-> [!NOTE]
-> Current version: Aegis v2.0.0. Previous version: Aegis v1.3.4. This is a MAJOR update (MAJOR = 2). You must re-download the configuration and re-add the nodes. External resources will be updated automatically.
->
-> Current version: Aegis v2.3.0. Previous version: Aegis v2.2.4. This is a MINOR update (MINOR = 3). It is recommended to re-download the configuration and re-add the nodes. External resources will be updated automatically.
->
-> Current version: Aegis v3.3.4. Previous version: Aegis v3.3.3. This is a PATCH update (PATCH = 4). No need to re-download the configuration. You only need to refresh external resources.
-
-> [!TIP]
-> As long as you re-download the configuration file (.conf) and re-add the nodes, external resources will be updated automatically if the option 「Automatically reload if the profile was modified externally/remotely」 is enabled.
->
-> For PATCH version updates, you still need to manually refresh external resources (RULE-SET) for the changes to take effect.
-
 ## Surge IPv4 Configuration Links
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_CN.conf
@@ -134,8 +90,7 @@ Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_EN.conf
 
 > [!WARNING]
-> Please choose the appropriate configuration based on your network environment. If your network natively supports IPv6, use the IPv6 version; otherwise, use the IPv4 version. 
-> Do not mix configurations, as this may result in request failures or DNS resolution issues.
+> Please choose the appropriate configuration based on your network environment. If your network natively supports IPv6, use the IPv6 version; otherwise, use the IPv4 version. Do not mix configurations, as this may result in request failures or DNS resolution issues.
 
 ## Configuration Guide
 
@@ -149,7 +104,7 @@ Copy the configuration link → Open Surge → Download from URL → Paste the l
   >
 </p>
 
-### Enable the GeoIP Database
+### GeoIP Database
 
 Follow the steps below to enable the GeoIP database for the first time:
 
@@ -168,25 +123,25 @@ GEOIP,CN,DIRECT # GEOIP match for Mainland China
 To simplify international traffic routing for general users and reduce access issues, Aegis provides an optional regional routing feature supporting the following regions:
 
 ```bash
-# GEOIP,US,Proxy # Route US region traffic through proxy (enables access to US-based sites)
+GEOIP,US,Proxy # Route US region traffic through proxy
 
-# GEOIP,GB,Proxy # Route UK region traffic through proxy (enables access to UK-based sites)
+GEOIP,GB,Proxy # Route UK region traffic through proxy
 
-# GEOIP,FR,Proxy # Route France region traffic through proxy (enables access to France-based sites)
+GEOIP,FR,Proxy # Route France region traffic through proxy
 
-# GEOIP,DE,Proxy # Route Germany region traffic through proxy (enables access to Germany-based sites)
+GEOIP,DE,Proxy # Route Germany region traffic through proxy
 
-# GEOIP,RU,Proxy # Route Russia region traffic through proxy (enables access to Russia-based sites)
+GEOIP,RU,Proxy # Route Russia region traffic through proxy
 
-# GEOIP,EU,Proxy # Route EU region traffic through proxy (enables access to most Europe-based sites)
+GEOIP,EU,Proxy # Route EU region traffic through proxy
 
-# GEOIP,AU,Proxy # Route Australia region traffic through proxy (enables access to Australia-based sites)
+GEOIP,AU,Proxy # Route Australia region traffic through proxy
 
-# GEOIP,JP,Proxy # Route Japan region traffic through proxy (enables access to Japan-based sites)
+GEOIP,JP,Proxy # Route Japan region traffic through proxy
 
-# GEOIP,KR,Proxy # Route South Korea region traffic through proxy (enables access to Korea-based sites)
+GEOIP,KR,Proxy # Route South Korea region traffic through proxy
 
-# GEOIP,SG,Proxy # Route Singapore region traffic through proxy (common Southeast Asia node)
+GEOIP,SG,Proxy # Route Singapore region traffic through proxy
 ```
 
 Activation steps:
@@ -311,19 +266,11 @@ This project is a non-profit, open-source security rule set aimed at helping use
 
 Additionally, the Aegis project has enabled [GPG](https://gnupg.org) commit signing to ensure the authenticity and integrity of its codebase. You may verify each commit through its GPG signature to gain higher assurance that the code has not been tampered with.
 
-To ensure the security, integrity, and auditability of the rule sets, and to support long-term maintenance and continuous validation, we recommend distributing and using them via remote reference:
-
 > [!NOTE]
-> - Prefer using `RULE-SET` or the official configuration subscription links.
-> - Avoid directly copying and statically maintaining the full rule contents over time.
-> - If repackaging or integrating the rules, please retain the original reference source to ensure users can access the latest rule data.
+> To ensure the security, integrity, and auditability of the rule sets, and to support long-term maintenance and continuous validation, we recommend distributing and using them via remote reference.
 
 > [!WARNING]
-> Directly copying and statically maintaining the rule contents may lead to:
-> - Version drift and rule invalidation;
-> - Missing critical security updates;
-> - Overlooking newly added threat intelligence or false-positive fixes;
-> - Increased maintenance burden and trust risks.
+> Directly copying and statically maintaining the rule contents may lead to: Version drift and rule invalidation, Missing critical security updates, Overlooking newly added threat intelligence or false-positive fixes, Increased maintenance burden and trust risks.
 
 ## ⭐ Star History
 
