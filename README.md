@@ -182,13 +182,13 @@ Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch o
    ```bash
    Aegis is a personal digital firewall system built entirely on Surge’s Rule Mode. It relies on rule-based matching to classify domains, enforce policies, and block malicious traffic.
 
-   Full functionality is only available when Surge is running in **Rule Mode**. If you switch to Global Mode or Direct Mode, network access may still work, but some identification, classification, and policy-based routing capabilities that rely on rule matching may not function properly, resulting in the following risks:
+   Full functionality is only available when Surge is running in Rule Mode. If you switch to Global Mode or Direct Mode, network access may still work, but some identification, classification, and policy-based routing capabilities that rely on rule matching may not function properly, resulting in the following risks:
 
    - Domains and IPs may not be identified or classified according to rules
-   - Module strategies that rely on rule matching may not function properly
+   - Module strategies that rely on rule matching may not 
    - Aegis’s routing, protection, and identification capabilities may not work in full
 
-   If you encounter a domain temporarily inaccessible due to unmatched rules, you may **switch to Global Mode or Direct Mode temporarily** to regain access. 
+   If you encounter a domain temporarily inaccessible due to unmatched rules, you may switch to Global Mode or Direct Mode temporarily to regain access.
    ```
 
 2. **It is recommended to combine China.list (for domain matching) and GEOIP,CN (for IP segments) for accurate detection of Chinese traffic:**
