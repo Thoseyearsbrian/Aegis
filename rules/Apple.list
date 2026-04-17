@@ -128,6 +128,7 @@ DOMAIN-SUFFIX,register.appattest.apple.com # Apple App Attest 注册服务
 
 DOMAIN-SUFFIX,itools.info # Apple Captive Portal 历史检测域名
 DOMAIN-SUFFIX,airport.us # Apple Captive Portal 历史检测域名
+DOMAIN-SUFFIX,ibook.info # Apple Captive Portal 历史检测域名
 DOMAIN-SUFFIX,appleiphonecell.com # Apple Captive Portal 历史检测域名
 DOMAIN-SUFFIX,thinkdifferent.us # Apple Captive Portal 历史检测域名
 
