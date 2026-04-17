@@ -5,8 +5,8 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-16
-# - 校对时间：2026-03-16
+# - 更新时间：2026-04-17
+# - 校对时间：2026-04-17
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -123,6 +123,13 @@ DOMAIN-SUFFIX,nq.apple.com # Apple NetworkQuality 测试接口
 DOMAIN-SUFFIX,init.ess.apple.com # Apple 设备安全服务（ESS）初始化接口
 DOMAIN-SUFFIX,identity.ess.apple.com # Apple 设备与账户身份确认服务（ESS）
 DOMAIN-SUFFIX,register.appattest.apple.com # Apple App Attest 注册服务
+
+# > Apple Captive Portal Legacy Detection（Apple 历史门户认证检测域名）
+
+DOMAIN-SUFFIX,itools.info # Apple Captive Portal 历史检测域名
+DOMAIN-SUFFIX,airport.us # Apple Captive Portal 历史检测域名
+DOMAIN-SUFFIX,appleiphonecell.com # Apple Captive Portal 历史检测域名
+DOMAIN-SUFFIX,thinkdifferent.us # Apple Captive Portal 历史检测域名
 
 # > Apple Network Diagnostics（Apple 网络诊断服务）
 
