@@ -78,6 +78,7 @@ DOMAIN-SUFFIX,ooklaserver.net # Ookla 测速节点域名
 DOMAIN-SUFFIX,speedtestcustom.com # Ookla 自定义测速服务域名
 DOMAIN-SUFFIX,speed.misaka.one # Misaka 自定义测速服务域名
 DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 静态资源域名
+DOMAIN-SUFFIX,speedtest.sjc.sonic.net # Sonic 网络测速服务
 
 # > OpenSpeedTest（OpenSpeedTest 网络测速服务）
 # - 校对时间：2026-03-27
@@ -4332,18 +4333,19 @@ DOMAIN-SUFFIX,fast.fonts.net # 字体分发域名
 DOMAIN-SUFFIX,cloud.typography.com # 字体托管域名
 
 # > Akamai Infrastructure Services（Akamai 全球 CDN 与边缘计算基础设施）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-18
 
-DOMAIN-SUFFIX,akamai.com # 官网主域名
-DOMAIN-SUFFIX,akamai.net # 边缘网络域名
-DOMAIN-SUFFIX,akamaized.net # 内容分发域名
-DOMAIN-SUFFIX,akamaitechnologies.com # 企业服务域名
-DOMAIN-SUFFIX,akamaiedge.net # 边缘节点域名
+DOMAIN-SUFFIX,akamai.com # Akamai 官网主域名
+DOMAIN-SUFFIX,akamai.net # Akamai 边缘网络域名
+DOMAIN-SUFFIX,akamaized.net # Akamai 内容分发域名
+DOMAIN-SUFFIX,akamaitechnologies.com # Akamai 企业服务域名
+DOMAIN-SUFFIX,akamaiedge.net # Akamai 边缘节点域名
 DOMAIN-SUFFIX,edgekey.net # 边缘加速域名
 DOMAIN-SUFFIX,edgesuite.net # 内容分发域名
-DOMAIN-SUFFIX,akadns.net # DNS 服务域名
-DOMAIN-SUFFIX,akadns.com # DNS 服务域名
+DOMAIN-SUFFIX,akadns.net # Akamai DNS 服务域名
+DOMAIN-SUFFIX,akadns.com # Akamai DNS 服务域名
 DOMAIN-SUFFIX,akamaicloud.net # 云平台域名
+DOMAIN-SUFFIX,qsearch-a.akamaihd.net # Akamai 内容分发网络
 
 # > LarkSuite Resource Service（LarkSuite 海外招聘资源分发）
 # - 校对时间：2026-03-28
