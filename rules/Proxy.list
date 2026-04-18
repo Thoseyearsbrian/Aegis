@@ -7554,6 +7554,11 @@ DOMAIN-SUFFIX,dnspod.cn # 腾讯 DNSPod 服务域名
 IP-CIDR,119.29.29.90/32 # 腾讯 DNSPod 公共 DNS 解析节点
 IP-CIDR,119.29.29.98/32 # 腾讯 DNSPod 公共 DNS 解析节点
 
+# > CacheFly CDN 加速服务
+# - 校对时间：2026-04-18
+
+DOMAIN-SUFFIX,open.cachefly.net # CacheFly 公共 CDN 节点加速资源
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
