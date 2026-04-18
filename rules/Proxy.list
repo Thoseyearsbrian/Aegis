@@ -237,6 +237,15 @@ IP-CIDR,3.5.139.23/32 # Dr.Web 更新节点
 IP-CIDR,52.219.75.79/32 # Dr.Web 更新节点
 IP-CIDR,52.219.169.1/32 # Dr.Web 更新节点
 
+# > Dr.Web Official Network IPv4（Dr.Web 官方 IPv4 网络段）
+# - 数据来源：https://ipinfo.io/AS59446?utm_source=chatgpt.com
+# - 数据来源：https://ipinfo.io/AS49238?utm_source=chatgpt.com
+# - 校对时间：2026-04-18
+
+IP-CIDR,194.85.20.0/24 # Dr.Web 官方 IPv4 网络段 （AS59446 – Doctor Web Ltd）
+IP-CIDR,195.88.252.0/24 # Dr.Web 官方 IPv4 网络段（AS49238 – Doctor Web LLC）
+IP-CIDR,195.88.253.0/24 # Dr.Web 官方 IPv4 网络段（AS49238 – Doctor Web LLC） 
+
 # > VPN and Self-Hosted Proxy Tools（VPN 与自建代理工具相关域名）
 # - 校对时间：2026-03-27
 
