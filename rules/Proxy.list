@@ -7557,7 +7557,12 @@ IP-CIDR,119.29.29.98/32 # 腾讯 DNSPod 公共 DNS 解析节点
 # > CacheFly CDN 加速服务
 # - 校对时间：2026-04-18
 
-DOMAIN-SUFFIX,open.cachefly.net # CacheFly 公共 CDN 节点加速资源
+DOMAIN-SUFFIX,open.cachefly.net # CacheFly CDN 加速服务域名
+
+# > Rackspace CDN 加速服务
+# - 校对时间：2026-04-18
+
+DOMAIN-SUFFIX,ost-cdn2.scdn1.secure.raxcdn.com # Rackspace CDN 加速服务域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
