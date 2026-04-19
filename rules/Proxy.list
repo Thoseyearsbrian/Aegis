@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-18
-# - 校对时间：2026-04-18
+# - 更新时间：2026-04-19
+# - 校对时间：2026-04-19
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -71,7 +71,7 @@ IP-CIDR6,2a06:98c0::/29 # Cloudflare IPv6 边缘网络
 IP-CIDR6,2c0f:f248::/32 # Cloudflare IPv6 边缘网络
 
 # > Speedtest by Ookla（Speedtest 网络测速平台）
-# - 校对时间：2026-03-24
+# - 校对时间：2026-04-19
 
 DOMAIN-SUFFIX,speedtest.net # Speedtest 主域名
 DOMAIN-SUFFIX,ooklaserver.net # Ookla 测速节点域名
@@ -79,6 +79,9 @@ DOMAIN-SUFFIX,speedtestcustom.com # Ookla 自定义测速服务域名
 DOMAIN-SUFFIX,speed.misaka.one # Misaka 自定义测速服务域名
 DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 静态资源域名
 DOMAIN-SUFFIX,speedtest.sjc.sonic.net # Sonic 网络测速服务
+DOMAIN-SUFFIX,lg-sea.fdcservers.net # FDCServers 芝加哥节点加速与测速服务
+DOMAIN-SUFFIX,sp-sea-01.ezeefiber.net # EzeeFiber 西雅图节点测速服务
+DOMAIN-SUFFIX,seattle.speedtest.centurylink.net # CenturyLink 西雅图 Speedtest 节点
 
 # > OpenSpeedTest（OpenSpeedTest 网络测速服务）
 # - 校对时间：2026-03-27
