@@ -4,8 +4,8 @@
 # - 特征：识别广告投放、广告竞价、广告请求、广告资源分发、广告追踪及明确广告子域等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-19
-# - 校对时间：2026-04-19
+# - 更新时间：2026-04-20
+# - 校对时间：2026-04-20
 
 # > 广告相关域名
 
@@ -15,6 +15,11 @@ DOMAIN-SUFFIX,direct.adsrvr.org # The Trade Desk 广告投放服务域名
 DOMAIN-SUFFIX,prebid-server.rubiconproject.com # Magnite 广告竞价服务域名
 DOMAIN-SUFFIX,safeframe.googlesyndication.com # Google SafeFrame 广告容器域名
 DOMAIN-SUFFIX,static.googleadsserving.cn # Google 广告投放域名
+DOMAIN-SUFFIX,ad.doubleclick.net # DoubleClick 广告服务域名
+DOMAIN-SUFFIX,doubleclick-cn.net # DoubleClick 广告服务域名
+DOMAIN-SUFFIX,2mdn.net # DoubleClick 广告素材分发域名
+DOMAIN-SUFFIX,fls.doubleclick.net # DoubleClick 广告追踪域名
+DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告标识同步域名
 DOMAIN-SUFFIX,agkn.com # 广告追踪域名
 DOMAIN-SUFFIX,dynamic.criteo.com # Criteo 广告域名
 DOMAIN-SUFFIX,po.funshion.com # 风行网广告接口域名
@@ -37,7 +42,6 @@ DOMAIN-SUFFIX,a.mgid.com # MGID 内容推荐广告域名
 DOMAIN-SUFFIX,apdcdn.tc.qq.com # 腾讯广告资源域名
 DOMAIN-SUFFIX,tsbdy.gtimg.com # 腾讯广告资源域名
 DOMAIN-SUFFIX,admaterial.gdtimg.com # 腾讯广告素材分发域名
-DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告标识同步域名
 DOMAIN-SUFFIX,apps.rokt.com # Rokt 广告推荐域名
 DOMAIN-SUFFIX,elb.the-ozone-project.com # Ozone 广告竞价域名
 DOMAIN-SUFFIX,prebid.the-ozone-project.com # Ozone 广告竞价域名
@@ -53,10 +57,6 @@ DOMAIN-SUFFIX,adashx4yt.m.taobao.com # 淘宝广告日志域名
 DOMAIN-SUFFIX,track.alicdn.com # 阿里广告追踪域名
 DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志域名
 DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告监测域名
-DOMAIN-SUFFIX,ad.doubleclick.net # DoubleClick 广告服务域名
-DOMAIN-SUFFIX,doubleclick-cn.net # DoubleClick 广告服务域名
-DOMAIN-SUFFIX,2mdn.net # DoubleClick 广告素材分发域名
-DOMAIN-SUFFIX,fls.doubleclick.net # DoubleClick 广告追踪域名
 DOMAIN-SUFFIX,gum.criteo.com # Criteo 广告标识同步域名
 DOMAIN-SUFFIX,rtax.criteo.com # Criteo 广告交换域名
 DOMAIN-SUFFIX,bidder.criteo.com # Criteo 广告竞价域名

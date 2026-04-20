@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-30
-# - 校对时间：2026-03-30
+# - 更新时间：2026-04-20
+# - 校对时间：2026-04-20
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 # - 校对时间：2026-03-06
@@ -363,6 +363,16 @@ DOMAIN-SUFFIX,googlesyndication.com # Google 广告分发与内容投放网络
 DOMAIN-SUFFIX,googletagmanager.com # Google Tag Manager 标签管理平台
 DOMAIN-SUFFIX,ade.googlesyndication.com # Google Ads 实验服务
 DOMAIN-SUFFIX,doubleclick.net # DoubleClick 广告平台
+
+# > 已列入AdDomain.list明细:
+
+# DOMAIN-SUFFIX,safeframe.googlesyndication.com # Google SafeFrame 广告容器域名
+# DOMAIN-SUFFIX,static.googleadsserving.cn # Google 广告投放域名
+# DOMAIN-SUFFIX,ad.doubleclick.net # DoubleClick 广告服务域名
+# DOMAIN-SUFFIX,doubleclick-cn.net # DoubleClick 广告服务域名
+# DOMAIN-SUFFIX,2mdn.net # DoubleClick 广告素材分发域名
+# DOMAIN-SUFFIX,fls.doubleclick.net # DoubleClick 广告追踪域名
+# DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告标识同步域名
 
 # > 已列入 BehaviorDomain.list明细:
 # - 校对时间：2026-03-06
