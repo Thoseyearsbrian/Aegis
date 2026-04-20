@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-19
-# - 校对时间：2026-04-19
+# - 更新时间：2026-04-20
+# - 校对时间：2026-04-20
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -284,6 +284,11 @@ DOMAIN-SUFFIX,cdn.amz123.com # AMZ123 静态资源域名
 DOMAIN-SUFFIX,api.amz123.com # AMZ123 接口域名
 DOMAIN-SUFFIX,tool.amz123.com # AMZ123 工具服务域名
 DOMAIN-SUFFIX,forum.amz123.com # AMZ123 社区论坛域名
+
+# > 知识星球（知识社区及付费内容分发平台）
+# - 校对时间：2026-04-20
+
+DOMAIN-SUFFIX,zsxq.com # 知识星球域名
 
 # > KFC 相关域名
 # - 校对时间：2026-03-27
