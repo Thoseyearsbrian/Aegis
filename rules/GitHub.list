@@ -4,8 +4,8 @@
 # - 特征：涵盖 GitHub 平台核心服务域名与基础设施节点
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-26
-# - 校对时间：2026-03-26
+# - 更新时间：2026-04-21
+# - 校对时间：2026-04-21
 
 # > GitHub Core Services（GitHub 主站与基础服务）
 
@@ -130,9 +130,3 @@ IP-CIDR,143.55.64.0/20 # GitHub 平台基础设施网络
 
 IP-CIDR6,2a0a:a440::/29 # GitHub IPv6 网络段
 IP-CIDR6,2606:50c0::/32 # GitHub Pages IPv6 网络
-
-# > GitHub Network（GitHub 官方网络）
-
-IP-ASN,36459 # GitHub ASN
-IP-ASN,54113 # GitHub ASN
-IP-ASN,14061 # GitHub ASN
