@@ -656,7 +656,7 @@ DOMAIN-SUFFIX,tacobelluk.co.uk # 区域站点域名
 DOMAIN-SUFFIX,api.tacobell.com # API 接口域名
 
 # > PayPal Payment Platform（PayPal 支付平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-21
 
 DOMAIN-SUFFIX,paypal.com # 平台主域名
 DOMAIN-SUFFIX,paypalobjects.com # 静态资源域名
@@ -670,7 +670,6 @@ IP-CIDR,64.4.240.0/21 # PayPal 网络段
 IP-CIDR,66.211.160.0/19 # PayPal 网络段
 IP-CIDR,173.0.80.0/20 # PayPal 网络段
 IP-CIDR,91.243.72.0/22 # PayPal 网络段
-IP-ASN,17012 # PayPal ASN
 
 # > Canva Design Platform（Canva 设计平台）
 # - 校对时间：2026-03-28
