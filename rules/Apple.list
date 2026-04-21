@@ -5,8 +5,8 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-17
-# - 校对时间：2026-04-17
+# - 更新时间：2026-04-21
+# - 校对时间：2026-04-21
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -589,7 +589,6 @@ IP-CIDR,65.199.22.0/23 # Apple Relay 与配置服务段
 
 # > Apple Autonomous System Network（Apple 官方网络）
 
-IP-ASN,714 # Apple Inc. Autonomous System
 IP-CIDR,17.0.0.0/8 # Apple Inc. Autonomous System
 
 # > Apple CDN Network（Apple 内容分发网络）
