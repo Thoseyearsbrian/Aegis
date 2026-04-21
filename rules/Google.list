@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-20
-# - 校对时间：2026-04-20
+# - 更新时间：2026-04-21
+# - 校对时间：2026-04-21
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 # - 校对时间：2026-03-06
@@ -204,11 +204,6 @@ DOMAIN-SUFFIX,gigabit.google.com # Google Fiber 历史入口域名
 DOMAIN-SUFFIX,fiberstatus.com # Google Fiber 服务状态页面域名
 DOMAIN-SUFFIX,gfiber.com # GFiber 官方服务域名
 DOMAIN-SUFFIX,gfiber.speedtestcustom.com # GFiber 定制测速服务域名
-
-# > Google Network（Google 官方网络）
-# - 校对时间：2026-03-06
-
-IP-ASN,15169 # Google LLC
 
 # > Google Mail Infrastructure Network（Google 邮件基础设施网络）
 # - 数据来源：dig TXT _netblocks.google.com
