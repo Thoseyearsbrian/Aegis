@@ -4,10 +4,11 @@
 # - 特征：识别 Telegram 相关的域名、IP 地址段与 ASN
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-08
-# - 校对时间：2026-03-08
+# - 更新时间：2026-04-21
+# - 校对时间：2026-04-21
 
-# > Telegram 域名规则
+# > Telegram 相关域名
+# - 校对时间：2026-04-21
 
 DOMAIN-SUFFIX,telegram.org # Telegram 主站域名
 DOMAIN-SUFFIX,t.me # Telegram 短链服务（频道、用户跳转）
@@ -29,15 +30,9 @@ DOMAIN-SUFFIX,tg.dev # Telegram 开发者平台服务
 DOMAIN-SUFFIX,telegram.space # Telegram 备用跳转域名
 DOMAIN-SUFFIX,telegramdownload.com # Telegram 客户端下载安装地址
 
-# > Telegram ASN
-
-IP-ASN,44907 # Telegram ASN
-IP-ASN,59930 # Telegram ASN
-IP-ASN,62014 # Telegram ASN
-IP-ASN,62041 # Telegram ASN
-IP-ASN,211157 # Telegram ASN
-
-# > Telegram IPv4
+# > Telegram IPv4（Telegram 官方 IPv4 网络段）
+# - 数据来源：https://core.telegram.org/resources/cidr.txt
+# - 校对时间：2026-04-21
 
 IP-CIDR,91.105.192.0/23 # Telegram 官方基础设施网段
 IP-CIDR,91.108.4.0/22 # Telegram 官方通信节点网段
@@ -49,7 +44,9 @@ IP-CIDR,91.108.56.0/22 # Telegram 官方通信节点网段
 IP-CIDR,149.154.160.0/20 # Telegram 官方通信节点网段
 IP-CIDR,185.76.151.0/24 # Telegram 官方通信节点网段
 
-# > Telegram IPv6
+# > Telegram IPv6（Telegram 官方 IPv6 网络段）
+# - 数据来源：https://core.telegram.org/resources/cidr.txt
+# - 校对时间：2026-04-21
 
 IP-CIDR6,2001:67c:4e8::/48 # Telegram 官方 IPv6 通信节点
 IP-CIDR6,2001:b28:f23c::/48 # Telegram 官方 IPv6 通信节点
