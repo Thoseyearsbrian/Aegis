@@ -776,3 +776,8 @@ DOMAIN-SUFFIX,pubmatic.com # PubMatic  广告行为追踪
 # - 校对时间：2026-04-21
 
 DOMAIN-SUFFIX,sr-client-cfg.amplitude.com # Amplitude 客户端配置与事件追踪域名
+
+# > TechLab CDN（TechLab 行为追踪与数据收集 CDN）
+# - 校对时间：2026-04-21
+
+DOMAIN-SUFFIX,p11.techlab-cdn.com # TechLab CDN 用于行为数据回传和资源分发
