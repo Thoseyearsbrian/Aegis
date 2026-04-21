@@ -445,20 +445,24 @@ DOMAIN-SUFFIX,cdninstagram.net # 静态资源域名
 DOMAIN-SUFFIX,igcdn.com # 媒体资源域名
 DOMAIN-SUFFIX,instagram.fxx.fbcdn.net # 图片资源域名
 
-# > Amazon E-Commerce Platform（Amazon 电商平台）
-# - 校对时间：2026-03-28
+# > Amazon E‑Commerce Platform（Amazon 电商平台地区站点）
+# - 校对时间：2026‑04‑21
 
-DOMAIN-SUFFIX,amazon.com # 平台主域名
-DOMAIN-SUFFIX,amazon.co.uk # 区域站点域名
-DOMAIN-SUFFIX,amazon.de # 区域站点域名
-DOMAIN-SUFFIX,amazon.co.jp # 区域站点域名
-DOMAIN-SUFFIX,amazon.ca # 区域站点域名
-DOMAIN-SUFFIX,amazon.fr # 区域站点域名
-DOMAIN-SUFFIX,amazon.it # 区域站点域名
-DOMAIN-SUFFIX,amazon.es # 区域站点域名
-IP-CIDR,176.32.103.0/24 # Amazon 网络段
-DOMAIN-SUFFIX,m.media-amazon.com # 媒体资源域名
-DOMAIN-SUFFIX,images-na.ssl-images-amazon.com # 图片资源域名
+DOMAIN-SUFFIX,amazon.com # 美国 Amazon 主站
+DOMAIN-SUFFIX,amazon.co.uk # 英国 Amazon 站
+DOMAIN-SUFFIX,amazon.de # 德国 Amazon 站
+DOMAIN-SUFFIX,amazon.co.jp # 日本 Amazon 站
+DOMAIN-SUFFIX,amazon.ca # 加拿大 Amazon 站
+DOMAIN-SUFFIX,amazon.fr # 法国 Amazon 站
+DOMAIN-SUFFIX,amazon.it # 意大利 Amazon 站
+DOMAIN-SUFFIX,amazon.es # 西班牙 Amazon 站
+DOMAIN-SUFFIX,m.media-amazon.com # Amazon 媒体资源与内容分发
+DOMAIN-SUFFIX,images-na.ssl-images-amazon.com # Amazon 图像/图片资源 CDN
+
+# > Amazon CloudFront CDN（Amazon CloudFront 内容分发网络）
+# - 校对时间：2026-04-21
+
+DOMAIN-SUFFIX,cloudfront.net # AWS CloudFront CDN 通用内容分发域名
 
 # > Walmart Retail Platform（Walmart 零售平台）
 # - 校对时间：2026-03-28
