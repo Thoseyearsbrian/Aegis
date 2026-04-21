@@ -284,7 +284,7 @@ DOMAIN-SUFFIX,forum.amz123.com # AMZ123 社区论坛域名
 DOMAIN-SUFFIX,zsxq.com # 知识星球域名
 
 # > KFC 相关域名
-# - 校对时间：2026-03-27
+# - 校对时间：2026-04-21
 
 DOMAIN-SUFFIX,kfc.com # KFC 全球主站域名
 DOMAIN-SUFFIX,kfc.co.uk # KFC 英国站点域名
@@ -301,6 +301,7 @@ DOMAIN-SUFFIX,kfc.com.ph # KFC 菲律宾站点域名
 DOMAIN-SUFFIX,kfc.com.tw # KFC 台湾站点域名
 DOMAIN-SUFFIX,kfchk.com # KFC 港澳服务域名
 DOMAIN-SUFFIX,global.kfc.com # KFC 全球品牌域名
+DOMAIN-SUFFIX,kfcshop.com # KFC 官方周边商品在线商店域名
 
 # > McDonald's 相关域名
 # - 校对时间：2026-03-27
