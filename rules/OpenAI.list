@@ -5,7 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-27
+# - 更新时间：2026-04-21
+# - 校对时间：2026-04-21
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -164,20 +165,24 @@ IP-CIDR,191.235.98.144/28 # ChatGPT Actions 官方出口网络（Azure）
 IP-CIDR,191.237.249.64/28 # ChatGPT Actions 官方出口网络（Azure）
 
 # > Sora（OpenAI 视频生成服务）
+# - 校对时间：2026-03-05
 
 DOMAIN-SUFFIX,sora.com # OpenAI Sora 视频生成服务域名
 
 # > OpenAI Speech（语音合成与音频服务）
+# - 校对时间：2026-03-05
 
 DOMAIN-SUFFIX,tts.openai.com # OpenAI 文本转语音服务
 DOMAIN-SUFFIX,voice.openai.com # OpenAI 语音交互服务
 DOMAIN-SUFFIX,audio.openai.com # OpenAI 音频处理服务
 
 # > OpenAI Whisper（语音识别服务）
+# - 校对时间：2026-03-05
 
 DOMAIN-SUFFIX,whisper.openai.com # OpenAI Whisper 语音识别服务
 
 # > OpenAI Media Services（OpenAI 媒体与文件资源服务）
+# - 校对时间：2026-03-05
 
 DOMAIN-SUFFIX,images.openai.com # OpenAI 图像生成与图像资源服务
 DOMAIN-SUFFIX,files.openai.com # OpenAI 文件资源与附件下载服务
@@ -234,10 +239,6 @@ IP-CIDR,160.79.104.0/21 # Anthropic Claude API 网络
 # - 校对时间：2026-03-09
 
 IP-CIDR6,2607:6bc0::/48 # Anthropic Claude IPv6 API 网络
-
-# > Anthropic Claude Network（Anthropic Claude 官方网络）
-
-IP-ASN,399358 # Anthropic Claude ASN
 
 # > Anthropic Platform Infrastructure（Anthropic 平台基础设施域名）
 
