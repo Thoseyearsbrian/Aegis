@@ -5,8 +5,8 @@
 # - 说明：微信客户端大量使用自研 mmtls 长连接通信协议，部分服务节点通过自有 DNS 与 CDN 分发
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-31
-# - 校对时间：2026-03-31
+# - 更新时间：2026-04-21
+# - 校对时间：2026-04-21
 
 # > Core Communication（核心通信服务）
 
@@ -143,14 +143,6 @@ DOMAIN-SUFFIX,urlsec.qq.com # 腾讯 URL 安全检测服务
 DOMAIN-SUFFIX,tcb.qcloud.la # 微信小程序云开发服务
 DOMAIN-SUFFIX,cloudbase.net # 微信小程序 CloudBase 服务
 DOMAIN-SUFFIX,wx.cloud.tencent.com # 微信小程序云托管服务
-
-# > Tencent ASN（腾讯网络自治系统）
-
-IP-ASN,132203 # Tencent Cloud 网络
-IP-ASN,45090 # Tencent 网络
-IP-ASN,55990 # Tencent 网络
-IP-ASN,37963 # Tencent 网络
-IP-ASN,132591 # Tencent Cloud 网络
 
 # > WeChat Official API / Callback Network（微信官方 API 与回调服务器网络）
 # - 数据来源：https://developers.weixin.qq.com/doc/subscription/api/base/api_getapidomainip.html
