@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-18
-# - 校对时间：2026-04-18
+# - 更新时间：2026-04-21
+# - 校对时间：2026-04-21
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -766,7 +766,13 @@ DOMAIN-SUFFIX,ali-stats.jpush.cn # JPush 统计服务域名
 # - 校对时间：2026-04-18
 
 DOMAIN-SUFFIX,criteo.com # Criteo 广告行为追踪
+
 # > PubMatic 行为追踪服务
 # - 校对时间：2026-04-18
 
 DOMAIN-SUFFIX,pubmatic.com # PubMatic  广告行为追踪
+
+# > Amplitude（Amplitude 数据分析与行为追踪平台）
+# - 校对时间：2026-04-21
+
+DOMAIN-SUFFIX,sr-client-cfg.amplitude.com # Amplitude 客户端配置与事件追踪域名
