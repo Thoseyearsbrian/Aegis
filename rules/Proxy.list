@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-20
-# - 校对时间：2026-04-20
+# - 更新时间：2026-04-21
+# - 校对时间：2026-04-21
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -103,13 +103,6 @@ DOMAIN-SUFFIX,ipv6.lookup.test-ipv6.com # Test-IPv6 域名解析测试子域
 DOMAIN-SUFFIX,whoer.net # Whoer 匿名性检测平台主域名
 
 # > Scamalytics（Scamalytics IP 风险检测平台）
-# - 校对时间：2026-03-27
-
-DOMAIN-SUFFIX,scamalytics.com # Scamalytics IP 风险检测平台主域名
-DOMAIN-SUFFIX,api.scamalytics.com # Scamalytics IP 风险检测接口域名
-DOMAIN-SUFFIX,cdn.scamalytics.com # Scamalytics 静态资源域名
-
-# > Academia（Academia 学术论文访问与学术资源交流平台）
 # - 校对时间：2026-03-27
 
 DOMAIN-SUFFIX,scamalytics.com # Scamalytics IP 风险检测平台主域名
