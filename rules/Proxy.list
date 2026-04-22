@@ -124,7 +124,6 @@ IP-CIDR,65.8.76.121/32 # Academia 图片资源 CDN 节点（0.academia-photos.co
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,kaspersky.com # 卡巴斯基官方主域名
-DOMAIN-SUFFIX,kaspersky.com.cn # 卡巴斯基中国站点域名
 DOMAIN-SUFFIX,kaspersky-labs.com # 卡巴斯基历史服务域名
 DOMAIN-SUFFIX,kaspersky-lab.com # 卡巴斯基历史服务域名
 DOMAIN-SUFFIX,kasperskycontent.com # 卡巴斯基内容分发域名
