@@ -2754,7 +2754,7 @@ DOMAIN-SUFFIX,mail.yandex.ru # 邮件服务域名
 DOMAIN-SUFFIX,yastatic.net # 静态资源域名
 
 # > Bing Search Platform（Bing 搜索平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,bing.com # 平台主域名
 DOMAIN-SUFFIX,bing.net # 服务域名
