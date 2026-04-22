@@ -6380,12 +6380,6 @@ DOMAIN-SUFFIX,iconic.dynamic-static-assets.com # Dynamic 静态资源子域
 
 DOMAIN-SUFFIX,ledgercustomersuccess.my.salesforce-scrt.com # Ledger 客户成功与支持系统子域
 
-# > Hitokoto Service（Hitokoto 一言语句 API 与内容分发服务）
-# - 校对时间：2026-03-28
-
-DOMAIN-SUFFIX,hitokoto.cn # Hitokoto 官方服务主域名
-DOMAIN-SUFFIX,v1.hitokoto.cn # Hitokoto 一言语句 API v1 接口
-
 # > JHB Service Domains（JHB 后端 API 服务域名）
 # - 校对时间：2026-03-28
 
