@@ -257,14 +257,13 @@ DOMAIN-SUFFIX,sub-web.vercel.app # Sub-Web 前端部署域名
 DOMAIN-SUFFIX,sub.pmsub.me # 订阅服务域名
 
 # > Subscription Distribution and Node Services（订阅分发与节点服务相关域名）
-# - 校对时间：2026-03-27
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,cfmem.com # 节点分发相关域名
 DOMAIN-SUFFIX,nexitally.com # 节点服务相关域名
 DOMAIN-SUFFIX,v2rayssr.com # 节点配置相关域名
 DOMAIN-SUFFIX,VK6kTpJBIO.solastme.cc # 节点服务相关域名
 DOMAIN-SUFFIX,vk6tpjbio.solastme.cc # 节点服务相关域名
-DOMAIN-SUFFIX,mylac.cn # 节点服务相关域名
 
 # > AMZ123 跨境电商平台相关域名
 # - 校对时间：2026-03-27
@@ -323,13 +322,12 @@ DOMAIN-SUFFIX,global.mcdonalds.com # McDonald's 全球品牌域名
 DOMAIN-SUFFIX,papajohns.com # Papa John's 官方主站域名
 
 # > Temu（拼多多旗下海外电商平台）相关域名
-# - 校对时间：2026-03-27
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,temu.com # Temu 主站域名
 DOMAIN-SUFFIX,temu.ca # Temu 加拿大站点域名
 DOMAIN-SUFFIX,temu.co.uk # Temu 英国站点域名
 DOMAIN-SUFFIX,temuapp.com # Temu 应用服务域名
-DOMAIN-SUFFIX,temu.cn # Temu 关联域名
 DOMAIN-SUFFIX,temu.io # Temu 服务域名
 DOMAIN-SUFFIX,temu-cdn.com # Temu 静态资源域名
 DOMAIN-SUFFIX,img.temu.com # Temu 图片资源域名

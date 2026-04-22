@@ -2409,12 +2409,17 @@ DOMAIN-SUFFIX,xiaojinhe-cdn.iyoudui.cn # 有兜小金盒内容分发域名
 
 DOMAIN-SUFFIX,user.jpush.cn # 极光推送服务域名
 
-# > Kaspersky（卡巴斯基）相关域名
+# > Kaspersky（卡巴斯基）中国站点
 # - 校对时间：2026-04-23
 
-DOMAIN-SUFFIX,kaspersky.com.cn # 卡巴斯基中国站点域名
+DOMAIN-SUFFIX,kaspersky.com.cn # 官方中国站点域名
 
-# > Dr.Web 相关域名
+# > Dr.Web 中国站点
 # - 校对时间：2026-04-23
 
-DOMAIN-SUFFIX,drweb.cn # Dr.Web 中文站点域名
+DOMAIN-SUFFIX,drweb.cn # 官方中国站点域名
+
+# > Temu（拼多多旗下海外电商平台）中国站点
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,temu.cn # 官方中国站点域名
