@@ -2512,3 +2512,9 @@ DOMAIN-SUFFIX,anker.com.cn # 官方中国站点域名
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,assets.immersivetranslate.cn # 官方中国静态资源域名
+
+# > ZVO Service（ZVO 机器翻译 API 服务）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,api.translate.zvo.cn # ZVO 提供的机器翻译 API 服务接口
+DOMAIN-SUFFIX,america.api.translate.zvo.cn # ZVO 机器翻译 API 的美洲区域节点
