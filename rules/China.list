@@ -2529,3 +2529,8 @@ DOMAIN-SUFFIX,cn.tgstat.com # 官方中文站点域名
 
 DOMAIN-SUFFIX,hitokoto.cn # Hitokoto 官方服务主域名
 DOMAIN-SUFFIX,v1.hitokoto.cn # Hitokoto 一言语句 API v1 接口
+
+# > ThreatBook China Site（ThreatBook 中国官网）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,threatbook.cn # 官方中国官网域名（威胁情报与安全分析平台）

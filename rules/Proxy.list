@@ -7343,10 +7343,9 @@ DOMAIN-SUFFIX,web.archive.org # Wayback Machine 子域名
 DOMAIN-SUFFIX,starchart.cc # StarChart 官方网站
 
 # > ThreatBook Threat Intelligence Platform（ThreatBook 威胁情报平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,threatbook.com # 微步在线 ThreatBook 官方主域（威胁情报服务与平台入口）
-DOMAIN-SUFFIX,threatbook.cn # 微步在线（ThreatBook）中国官网域名（威胁情报与安全分析平台）
 DOMAIN-SUFFIX,s.threatbook.com # 微步在线 ThreatBook 在线威胁情报查询与分析平台主域名
 DOMAIN-SUFFIX,x.threatbook.com # 微步在线 ThreatBook 威胁情报扩展子域（安全情报查询与辅助服务）
 
