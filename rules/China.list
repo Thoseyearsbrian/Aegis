@@ -2464,3 +2464,10 @@ DOMAIN-SUFFIX,int.yw56.com.cn # 官方中国国际服务域名
 DOMAIN-SUFFIX,api.yw56.com.cn # 官方中国 API 接口域名
 DOMAIN-SUFFIX,img.yw56.com.cn # 官方中国图片资源域名
 DOMAIN-SUFFIX,cdn.yw56.com.cn # 官方中国静态资源域名
+
+# > Newegg China Site（新蛋中国站点）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,newegg.cn # 官方中国站点域名
+DOMAIN-SUFFIX,img.newegg.cn # 官方中国图片资源域名
+DOMAIN-SUFFIX,static.newegg.cn # 官方中国静态资源域名

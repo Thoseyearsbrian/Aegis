@@ -2135,12 +2135,11 @@ DOMAIN-SUFFIX,api.hotwire.com # API 接口域名
 DOMAIN-SUFFIX,images.hotwire.com # 图片资源域名
 
 # > Priceline Travel Platform（Priceline 旅游平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,priceline.com # 平台主域名
 DOMAIN-SUFFIX,secure.priceline.com # 安全服务域名
 DOMAIN-SUFFIX,api.priceline.com # API 接口域名
-DOMAIN-SUFFIX,priceline-cn.com # 区域服务域名
 
 # > Hostelworld Accommodation Booking Platform（Hostelworld 住宿预订平台）
 # - 校对时间：2026-03-28
@@ -2377,13 +2376,6 @@ DOMAIN-SUFFIX,media.kaufland.de # 媒体资源域名
 DOMAIN-SUFFIX,rakuten.fr # 区域站点域名
 DOMAIN-SUFFIX,api.rakuten.tv # 服务接口域名
 DOMAIN-SUFFIX,img.rakuten.tv # 图片资源域名
-
-# > Newegg China E-Commerce Platform（新蛋中国电商平台）
-# - 校对时间：2026-03-28
-
-DOMAIN-SUFFIX,newegg.cn # 平台主域名
-DOMAIN-SUFFIX,img.newegg.cn # 图片资源域名
-DOMAIN-SUFFIX,static.newegg.cn # 静态资源域名
 
 # > HBX E-Commerce Platform（HBX 电商平台）
 # - 校对时间：2026-03-28
