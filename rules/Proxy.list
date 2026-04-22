@@ -6134,10 +6134,9 @@ DOMAIN-SUFFIX,telemetr.io # Telemetr.io Telegram 频道与群分析服务
 DOMAIN-SUFFIX,img.telemetr.io # Telemetr 提供的图片资源域名
 
 # > TGStat Telegram Analytics Platform（TGStat Telegram 频道与社群数据统计分析平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,tgstat.ru # TGStat 官方统计平台
-DOMAIN-SUFFIX,cn.tgstat.com # TGStat 中文站点
 
 # > Selectel CDN（Selectel 内容分发与云资源加速服务）
 # - 校对时间：2026-03-28
