@@ -701,13 +701,11 @@ IP-CIDR,192.160.215.0/24 # PayPal 官方 IP 网络段
 IP-CIDR,198.54.216.0/23 # PayPal 官方 IP 网络段
 
 # > Canva Design Platform（Canva 设计平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,canva.com # 平台主域名
 DOMAIN-SUFFIX,api.canva.com # API 接口域名
 DOMAIN-SUFFIX,static.canva.com # 静态资源域名
-DOMAIN-SUFFIX,canva-apps.cn # 服务域名
-DOMAIN-SUFFIX,canva.cn # 官方主域名
 
 # > Affinity Design Software Platform（Affinity 设计软件平台）
 # - 校对时间：2026-03-28
