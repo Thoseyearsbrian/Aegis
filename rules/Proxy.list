@@ -3402,11 +3402,10 @@ DOMAIN-SUFFIX,dockerstatic.com # 静态资源域名
 DOMAIN-SUFFIX,dockerstatus.com # 状态服务域名
 
 # > Anker Brand Service（Anker 品牌服务）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,anker.com # 品牌主域名
 DOMAIN-SUFFIX,anker-in.com # 企业服务域名
-DOMAIN-SUFFIX,anker.com.cn # 区域站点域名
 DOMAIN-SUFFIX,anker.com.sg # 区域站点域名
 DOMAIN-SUFFIX,ankerjapan.com # 区域站点域名
 DOMAIN-SUFFIX,soundcore.com # 品牌服务域名

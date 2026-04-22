@@ -2502,3 +2502,8 @@ DOMAIN-SUFFIX,xlpan.cn # 云盘服务域名
 DOMAIN-SUFFIX,xlpanfile.com # 文件服务域名
 DOMAIN-SUFFIX,xlpanimg.com # 图片资源域名
 DOMAIN-SUFFIX,xunleiweb.com # 服务域名
+
+# > Anker China Site（Anker 中国站点）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,anker.com.cn # 官方中国站点域名
