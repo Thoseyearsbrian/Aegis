@@ -2449,3 +2449,8 @@ DOMAIN-SUFFIX,airbnb.cn # 官方中国站点域名
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,booking.cn # 官方中国站点域名
+
+# > Skyscanner China Site（Skyscanner 中国站点）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,skyscn.com # 官方中国资源域名

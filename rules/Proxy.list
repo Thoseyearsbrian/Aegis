@@ -1629,14 +1629,12 @@ DOMAIN-SUFFIX,api.remoteok.com # API 接口域名
 DOMAIN-SUFFIX,cdn.remoteok.com # 静态资源域名
 
 # > Skyscanner Travel Search Platform（Skyscanner 旅游搜索平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,skyscanner.net # 平台主域名
 DOMAIN-SUFFIX,api.skyscanner.net # API 接口域名
 DOMAIN-SUFFIX,partners.skyscanner.net # 合作服务域名
-DOMAIN-SUFFIX,images.skyscn.com # 图片资源域名
 DOMAIN-SUFFIX,cookies.skyscanner.net # 设置服务域名
-DOMAIN-SUFFIX,skyscn.com # 资源服务域名
 
 # > KAYAK Travel Search Platform（KAYAK 旅游搜索平台）
 # - 校对时间：2026-03-28
