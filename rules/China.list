@@ -2423,3 +2423,8 @@ DOMAIN-SUFFIX,drweb.cn # 官方中国站点域名
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,temu.cn # 官方中国站点域名
+
+# > PayPal 中国站点（PayPal China Site）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,paypal.cn # 官方中国站点域名

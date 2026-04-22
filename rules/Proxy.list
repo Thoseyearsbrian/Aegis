@@ -651,7 +651,8 @@ DOMAIN-SUFFIX,tacobelluk.co.uk # 区域站点域名
 DOMAIN-SUFFIX,api.tacobell.com # API 接口域名
 
 # > PayPal Payment Platform（PayPal 支付平台）
-# - 校对时间：2026-04-21
+# - 数据来源：https://www.paypal.com/us/cshelp/article/¿cuáles-son-las-direcciones-de-internet-protocol-ip-protocolo-de-internet-para-los-puntos-de-conexión-de-servidor-de-paypal-ts1056?locale.x=es_US
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,paypal.com # 平台主域名
 DOMAIN-SUFFIX,paypalobjects.com # 静态资源域名
@@ -659,12 +660,45 @@ DOMAIN-SUFFIX,paypal.me # 短链接域名
 DOMAIN-SUFFIX,pypl.com # 官方主域名
 DOMAIN-SUFFIX,braintreegateway.com # 支付服务域名
 DOMAIN-SUFFIX,paypal.co.uk # 区域站点域名
-DOMAIN-SUFFIX,paypal.cn # 区域站点域名
 DOMAIN-SUFFIX,paypal-support.com # 支持站点域名
-IP-CIDR,64.4.240.0/21 # PayPal 网络段
-IP-CIDR,66.211.160.0/19 # PayPal 网络段
-IP-CIDR,173.0.80.0/20 # PayPal 网络段
-IP-CIDR,91.243.72.0/22 # PayPal 网络段
+DOMAIN-SUFFIX,api.paypal.com # PayPal 官方 API 端点
+DOMAIN-SUFFIX,api-3t.paypal.com # PayPal 官方 API 3T 端点
+DOMAIN-SUFFIX,svcs.paypal.com # PayPal 官方服务端点
+DOMAIN-SUFFIX,Ipnpb.paypal.com # PayPal IPN 通知端点
+DOMAIN-SUFFIX,accounts.paypal.com # PayPal SFTP 账户服务端点
+DOMAIN-SUFFIX,batch.paypal.com # PayPal 批量处理服务端点
+DOMAIN-SUFFIX,disputes.paypal.com # PayPal 争议管理服务端点
+DOMAIN-SUFFIX,reports.paypal.com # PayPal 报表服务端点
+DOMAIN-SUFFIX,manager.paypal.com # Payflow 管理控制端点
+DOMAIN-SUFFIX,payflowlink.paypal.com # Payflow Link 支付端点
+DOMAIN-SUFFIX,payflowpro.paypal.com # Payflow Pro 支付端点
+DOMAIN-SUFFIX,partnermanager.paypal.com # Payflow 合作伙伴管理端点
+DOMAIN-SUFFIX,payments-reports.paypal.com # Payflow 支付报表端点
+DOMAIN-SUFFIX,paypalmanager.paypal.com # Payflow 管理控制端点
+DOMAIN-SUFFIX,registration.paypal.com # Payflow 注册端点
+DOMAIN-SUFFIX,xml-reg.paypal.com # Payflow XML 注册端点
+DOMAIN-SUFFIX,notify.paypal.com # PayPal 信息通知域名
+DOMAIN-SUFFIX,api.sandbox.paypal.com # PayPal Sandbox API 端点
+DOMAIN-SUFFIX,api-3t.sandbox.paypal.com # PayPal Sandbox API 3T 端点
+DOMAIN-SUFFIX,svcs.sandbox.paypal.com # PayPal Sandbox 服务端点
+DOMAIN-SUFFIX,Ipnpb.sandbox.paypal.com # PayPal Sandbox IPN 通知端点
+DOMAIN-SUFFIX,accounts.sandbox.paypal.com # Sandbox SFTP 账户服务端点
+DOMAIN-SUFFIX,batch.sandbox.paypal.com # Sandbox 批量处理服务端点
+DOMAIN-SUFFIX,disputes.sandbox.paypal.com # Sandbox 争议管理端点
+DOMAIN-SUFFIX,dropzone.sandbox.paypal.com # Sandbox 文件上传端点
+DOMAIN-SUFFIX,reports.sandbox.paypal.com # Sandbox 报表端点
+DOMAIN-SUFFIX,pilot-payflowpro.paypal.com # Sandbox Payflow Pro 支付端点
+DOMAIN-SUFFIX,pilot-payflowlink.paypal.com # Sandbox Payflow Link 支付端点
+DOMAIN-SUFFIX,payments-reports.paypal.com # Sandbox 支付报表测试端点
+DOMAIN-SUFFIX,ipn.sandbox.paypal.com # Sandbox IPN 通知端点
+IP-CIDR,64.4.240.0/21 # PayPal 官方 IP 网络段
+IP-CIDR,66.211.160.0/19 # PayPal 官方 IP 网络段
+IP-CIDR,173.0.80.0/20 # PayPal 官方 IP 网络段
+IP-CIDR,91.243.72.0/22 # PayPal 官方 IP 网络段
+IP-CIDR,173.0.80.0/20 # PayPal 官方 IP 网络段
+IP-CIDR,185.177.52.0/22 # PayPal 官方 IP 网络段
+IP-CIDR,192.160.215.0/24 # PayPal 官方 IP 网络段
+IP-CIDR,198.54.216.0/23 # PayPal 官方 IP 网络段
 
 # > Canva Design Platform（Canva 设计平台）
 # - 校对时间：2026-03-28
