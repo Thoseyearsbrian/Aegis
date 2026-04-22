@@ -3186,13 +3186,12 @@ DOMAIN-SUFFIX,ka-p.fontawesome.com # CDN 节点域名
 DOMAIN-SUFFIX,fonts.bunny.net # 字体服务域名
 
 # > Subscription Tools（订阅与模块服务）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,mieqq.com # 托管服务域名
 DOMAIN-SUFFIX,cdn.jsdelivr.net # CDN 域名
 DOMAIN-SUFFIX,ghproxy.com # 镜像服务域名
 DOMAIN-SUFFIX,ghps.cc # 代理服务域名
-DOMAIN-SUFFIX,jsd.cdn.zzko.cn # 镜像服务域名
 DOMAIN-SUFFIX,raw.fastgit.org # 镜像服务域名
 DOMAIN-SUFFIX,fastly.jsdelivr.net # CDN 节点域名
 DOMAIN-SUFFIX,mirror.ghproxy.com # 镜像服务域名
