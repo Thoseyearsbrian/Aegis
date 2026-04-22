@@ -2507,3 +2507,8 @@ DOMAIN-SUFFIX,xunleiweb.com # 服务域名
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,anker.com.cn # 官方中国站点域名
+
+# > Immersive Translate China Site（Immersive Translate 中国站点）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,assets.immersivetranslate.cn # 官方中国静态资源域名

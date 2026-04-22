@@ -5437,7 +5437,7 @@ DOMAIN-SUFFIX,login.q4inc.com # Q4 登录页面域名
 DOMAIN-SUFFIX,widgets.q4app.com # Q4 平台组件资源域名
 
 # > Immersive Translate Translation Service（Immersive Translate 沉浸式翻译）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,immersivetranslate.com # 沉浸式翻译官方主站与核心服务域名
 DOMAIN-SUFFIX,onboarding.immersivetranslate.com # 沉浸式翻译新手引导页面域名
@@ -5445,7 +5445,6 @@ DOMAIN-SUFFIX,ai.immersivetranslate.com # 沉浸式翻译 AI 模型服务域名
 DOMAIN-SUFFIX,api2.immersivetranslate.com # 沉浸式翻译主 API 接口域名
 DOMAIN-SUFFIX,worker.immersivetranslate.com # 沉浸式翻译任务分发与处理域名
 DOMAIN-SUFFIX,s.immersivetranslate.com # 沉浸式翻译静态资源服务域名
-DOMAIN-SUFFIX,assets.immersivetranslate.cn # 沉浸式翻译中国大陆静态资源域名
 
 # > Ghost Static Asset Service（Ghost 官方静态资源域名）
 # - 校对时间：2026-03-28
