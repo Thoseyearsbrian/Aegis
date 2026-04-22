@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-21
-# - 校对时间：2026-04-21
+# - 更新时间：2026-04-23
+# - 校对时间：2026-04-23
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -121,7 +121,7 @@ IP-CIDR,65.8.76.121/32 # Academia 图片资源 CDN 节点（0.academia-photos.co
 
 # > Kaspersky（卡巴斯基）相关域名
 # - 数据来源：https://support.kaspersky.com/us/common/start/6105
-# - 校对时间：2026-04-17
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,kaspersky.com # 卡巴斯基官方主域名
 DOMAIN-SUFFIX,kaspersky.com.cn # 卡巴斯基中国站点域名
@@ -133,7 +133,6 @@ DOMAIN-SUFFIX,kasperskyupdate.com # 卡巴斯基更新服务域名
 DOMAIN-SUFFIX,kasperskylabs.net # 卡巴斯基服务域名
 DOMAIN-SUFFIX,kaspersky.ru # 卡巴斯基俄罗斯站点域名
 DOMAIN-SUFFIX,kas.pr # 卡巴斯基短链接域名
-DOMAIN-SUFFIX,telemetry.kaspersky.com # 卡巴斯基遥测上报域名
 DOMAIN-SUFFIX,ssl.kaspersky-labs.com # 卡巴斯基安全更新域名
 DOMAIN-SUFFIX,redirect.kaspersky-labs.com # 卡巴斯基跳转服务域名
 DOMAIN-SUFFIX,rthosts.kaspersky-labs.com # 卡巴斯基威胁情报服务域名
