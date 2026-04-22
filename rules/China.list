@@ -2454,3 +2454,13 @@ DOMAIN-SUFFIX,booking.cn # 官方中国站点域名
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,skyscn.com # 官方中国资源域名
+
+# > Yanwen China Site（Yanwen 中国站点）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,yw56.com.cn # 官方中国站点域名
+DOMAIN-SUFFIX,track.yw56.com.cn # 官方中国追踪服务域名
+DOMAIN-SUFFIX,int.yw56.com.cn # 官方中国国际服务域名
+DOMAIN-SUFFIX,api.yw56.com.cn # 官方中国 API 接口域名
+DOMAIN-SUFFIX,img.yw56.com.cn # 官方中国图片资源域名
+DOMAIN-SUFFIX,cdn.yw56.com.cn # 官方中国静态资源域名

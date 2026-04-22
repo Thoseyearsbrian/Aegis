@@ -1967,16 +1967,10 @@ DOMAIN-SUFFIX,mercadopago.com # 支付服务域名
 
 DOMAIN-SUFFIX,blinq.com # 平台主域名
 
-# > Yanwen Logistics Platform（Yanwen 物流平台）
-# - 校对时间：2026-03-28
+# > Yanwen 物流平台（Yanwen Logistics Platform）
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,yanwen.com # 官方主域名
-DOMAIN-SUFFIX,yw56.com.cn # 服务主域名
-DOMAIN-SUFFIX,track.yw56.com.cn # 追踪服务域名
-DOMAIN-SUFFIX,int.yw56.com.cn # 国际服务域名
-DOMAIN-SUFFIX,api.yw56.com.cn # API 接口域名
-DOMAIN-SUFFIX,img.yw56.com.cn # 图片资源域名
-DOMAIN-SUFFIX,cdn.yw56.com.cn # 静态资源域名
 
 # > UBI Smart Parcel Logistics Platform（UBI Smart Parcel 物流平台）
 # - 校对时间：2026-03-28
