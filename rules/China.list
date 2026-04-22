@@ -2424,13 +2424,18 @@ DOMAIN-SUFFIX,drweb.cn # 官方中国站点域名
 
 DOMAIN-SUFFIX,temu.cn # 官方中国站点域名
 
-# > PayPal 中国站点（PayPal China Site）
+# > PayPal China Site（PayPal 中国站点）
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,paypal.cn # 官方中国站点域名
 
-# > Canva 中国站点（Canva China Site）
+# > Canva China Site（Canva 中国站点）
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,canva.cn # 官方中国站点域名
 DOMAIN-SUFFIX,canva-apps.cn # 官方中国服务域名
+
+# > Duolingo China Site（Duolingo 中国站点）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,duolingo.cn # 官方中国站点域名

@@ -760,10 +760,9 @@ DOMAIN-SUFFIX,ecapi.tlife.com.tw # API 接口域名
 DOMAIN-SUFFIX,login.tlife.com.tw # 登录服务域名
 
 # > Duolingo Language Learning Platform（Duolingo 语言学习平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,duolingo.com # 平台主域名
-DOMAIN-SUFFIX,duolingo.cn # 区域站点域名
 DOMAIN-SUFFIX,duolingo.net # 静态资源域名
 DOMAIN-SUFFIX,duolingo.io # 服务域名
 
