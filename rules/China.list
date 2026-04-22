@@ -2481,3 +2481,8 @@ DOMAIN-SUFFIX,msn.cn # 官方中国站点域名
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,cn.bing.com # 官方中国站点域名
+
+# > Evernote China Site（Evernote 中国站点）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,evernote.com.cn # 官方中国站点域名

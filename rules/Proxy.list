@@ -2977,12 +2977,11 @@ DOMAIN-SUFFIX,status.notion.so # 状态服务域名
 DOMAIN-SUFFIX,app.notion.com # Web 应用域名
 
 # > Evernote Platform（Evernote 笔记平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,evernote.com # 平台主域名
 DOMAIN-SUFFIX,evernoteusercontent.com # 用户内容域名
 DOMAIN-SUFFIX,evernote-staging.com # 服务域名
-DOMAIN-SUFFIX,evernote.com.cn # 区域服务域名
 DOMAIN-SUFFIX,evernote.net # 后端服务域名
 DOMAIN-SUFFIX,evernoteapi.com # API 接口域名
 DOMAIN-SUFFIX,evernote.s3.amazonaws.com # 文件存储域名
