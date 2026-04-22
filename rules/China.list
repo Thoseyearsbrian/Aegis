@@ -2471,3 +2471,8 @@ DOMAIN-SUFFIX,cdn.yw56.com.cn # 官方中国静态资源域名
 DOMAIN-SUFFIX,newegg.cn # 官方中国站点域名
 DOMAIN-SUFFIX,img.newegg.cn # 官方中国图片资源域名
 DOMAIN-SUFFIX,static.newegg.cn # 官方中国静态资源域名
+
+# > MSN China Site（MSN 中国站点）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,msn.cn # 官方中国站点域名

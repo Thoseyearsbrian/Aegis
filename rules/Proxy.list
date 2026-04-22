@@ -2430,11 +2430,10 @@ DOMAIN-SUFFIX,api.skype.com # API 接口域名
 DOMAIN-SUFFIX,swx.cdn.skype.com # 静态资源域名
 
 # > MSN Portal Platform（MSN 门户平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,msn.com # 平台主域名
 DOMAIN-SUFFIX,assets.msn.com # 静态资源域名
-DOMAIN-SUFFIX,msn.cn # 区域站点域名
 DOMAIN-SUFFIX,edge.msn.com # 服务子域名
 
 # > IRC Service（IRC 聊天服务）
