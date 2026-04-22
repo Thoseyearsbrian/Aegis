@@ -2444,3 +2444,8 @@ DOMAIN-SUFFIX,duolingo.cn # 官方中国站点域名
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,airbnb.cn # 官方中国站点域名
+
+# > Booking.com China Site（Booking.com 中国站点）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,booking.cn # 官方中国站点域名
