@@ -2759,7 +2759,6 @@ DOMAIN-SUFFIX,yastatic.net # 静态资源域名
 DOMAIN-SUFFIX,bing.com # 平台主域名
 DOMAIN-SUFFIX,bing.net # 服务域名
 DOMAIN-SUFFIX,api.bing.com # API 接口域名
-DOMAIN-SUFFIX,cn.bing.com # 区域站点域名
 DOMAIN-SUFFIX,ssl.bing.com # 安全服务域名
 DOMAIN-SUFFIX,bingads.microsoft.com # 广告服务域名
 DOMAIN-SUFFIX,bingapis.com # API 服务域名
