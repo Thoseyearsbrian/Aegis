@@ -2491,3 +2491,14 @@ DOMAIN-SUFFIX,evernote.com.cn # 官方中国站点域名
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,jsd.cdn.zzko.cn # 官方中国 CDN/镜像服务域名
+
+# > Xunlei Download and Cloud Service（Xunlei 下载与云服务）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,xunlei.com # 平台主域名
+DOMAIN-SUFFIX,sandai.net # 关联服务域名
+DOMAIN-SUFFIX,xlpan.com # 云盘服务域名
+DOMAIN-SUFFIX,xlpan.cn # 云盘服务域名
+DOMAIN-SUFFIX,xlpanfile.com # 文件服务域名
+DOMAIN-SUFFIX,xlpanimg.com # 图片资源域名
+DOMAIN-SUFFIX,xunleiweb.com # 服务域名

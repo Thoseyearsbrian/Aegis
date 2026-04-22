@@ -3316,17 +3316,6 @@ DOMAIN-SUFFIX,brew.sh # 项目域名
 DOMAIN-SUFFIX,homebrew.sh # 平台主域名
 DOMAIN-SUFFIX,formulae.brew.sh # 查询服务域名
 
-# > Xunlei Download and Cloud Service（Xunlei 下载与云服务）
-# - 校对时间：2026-03-28
-
-DOMAIN-SUFFIX,xunlei.com # 平台主域名
-DOMAIN-SUFFIX,sandai.net # 关联服务域名
-DOMAIN-SUFFIX,xlpan.com # 云盘服务域名
-DOMAIN-SUFFIX,xlpan.cn # 云盘服务域名
-DOMAIN-SUFFIX,xlpanfile.com # 文件服务域名
-DOMAIN-SUFFIX,xlpanimg.com # 图片资源域名
-DOMAIN-SUFFIX,xunleiweb.com # 服务域名
-
 # > IDM Download Tool（IDM 下载工具）
 # - 校对时间：2026-03-28
 
