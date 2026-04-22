@@ -2439,3 +2439,8 @@ DOMAIN-SUFFIX,canva-apps.cn # 官方中国服务域名
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,duolingo.cn # 官方中国站点域名
+
+# > Airbnb China Site（Airbnb 中国站点）
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,airbnb.cn # 官方中国站点域名

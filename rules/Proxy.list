@@ -907,13 +907,12 @@ DOMAIN-SUFFIX,targetoptical.com # 服务站点域名
 DOMAIN-SUFFIX,cartwheel.target.com # 优惠服务域名
 
 # > Airbnb Platform（Airbnb 短租平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,airbnb.com # 平台主域名
 DOMAIN-SUFFIX,api.airbnb.com # API 接口域名
 DOMAIN-SUFFIX,assets.airbnb.com # 静态资源域名
 DOMAIN-SUFFIX,a0.muscache.com # 图片资源域名
-DOMAIN-SUFFIX,airbnb.cn # 区域站点域名
 DOMAIN-SUFFIX,airbnb.fr # 区域站点域名
 DOMAIN-SUFFIX,airbnb.co.uk # 区域站点域名
 DOMAIN-SUFFIX,airbnb.de # 区域站点域名
