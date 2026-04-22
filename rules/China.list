@@ -2413,3 +2413,8 @@ DOMAIN-SUFFIX,user.jpush.cn # 极光推送服务域名
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,kaspersky.com.cn # 卡巴斯基中国站点域名
+
+# > Dr.Web 相关域名
+# - 校对时间：2026-04-23
+
+DOMAIN-SUFFIX,drweb.cn # Dr.Web 中文站点域名

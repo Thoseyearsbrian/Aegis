@@ -216,11 +216,10 @@ DOMAIN-SUFFIX,ocsp.kaspersky.com # OCSP 验证
 DOMAIN-SUFFIX,moebius.kaspersky-labs.com # 内部镜像服务
 
 # > Dr.Web 相关域名
-# - 校对时间：2026-03-27
+# - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,drweb.com # Dr.Web 官方主域名
 DOMAIN-SUFFIX,update.geo.drweb.com # Dr.Web 更新服务域名
-DOMAIN-SUFFIX,drweb.cn # Dr.Web 中文站点域名
 DOMAIN-SUFFIX,forum.drweb.com # Dr.Web 官方论坛域名
 IP-CIDR,95.216.203.236/32 # Dr.Web 更新节点
 IP-CIDR,3.5.134.254/32 # Dr.Web 更新节点
