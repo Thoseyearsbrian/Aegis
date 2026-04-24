@@ -119,6 +119,103 @@ DOMAIN-SUFFIX,0.academia-photos.com # Academia 图片资源域名
 IP-CIDR,65.8.76.64/32 # Academia 图片资源 CDN 节点（0.academia-photos.com）
 IP-CIDR,65.8.76.121/32 # Academia 图片资源 CDN 节点（0.academia-photos.com）
 
+# > Kaspersky（卡巴斯基）相关域名
+# - 数据来源：https://support.kaspersky.com/us/common/start/6105
+# - 校对时间：2026-04-24
+
+DOMAIN-SUFFIX,kaspersky.com # 卡巴斯基官方主域名
+DOMAIN-SUFFIX,kaspersky-labs.com # 卡巴斯基历史服务域名
+DOMAIN-SUFFIX,kaspersky-lab.com # 卡巴斯基历史服务域名
+DOMAIN-SUFFIX,kasperskycontent.com # 卡巴斯基内容分发域名
+DOMAIN-SUFFIX,kasperskyapi.com # 卡巴斯基接口服务域名
+DOMAIN-SUFFIX,kasperskyupdate.com # 卡巴斯基更新服务域名
+DOMAIN-SUFFIX,kasperskylabs.net # 卡巴斯基服务域名
+DOMAIN-SUFFIX,kaspersky.ru # 卡巴斯基俄罗斯站点域名
+DOMAIN-SUFFIX,kas.pr # 卡巴斯基短链接域名
+DOMAIN-SUFFIX,ssl.kaspersky-labs.com # 卡巴斯基安全更新域名
+DOMAIN-SUFFIX,redirect.kaspersky-labs.com # 卡巴斯基跳转服务域名
+DOMAIN-SUFFIX,rthosts.kaspersky-labs.com # 卡巴斯基威胁情报服务域名
+DOMAIN-SUFFIX,login.kaspersky.com # 卡巴斯基账户登录域名
+DOMAIN-SUFFIX,activation-v2.kaspersky.com # 卡巴斯基授权激活域名
+DOMAIN-SUFFIX,screenshots-v2.kaspersky.com # 卡巴斯基远程分析服务域名
+DOMAIN-SUFFIX,telemetry.kaspersky.com # 卡巴斯基遥测上报域名
+DOMAIN-SUFFIX,ds.kaspersky.com # 主更新域名
+DOMAIN-SUFFIX,dnl-01.geo.kaspersky.com # 下载节点 01
+DOMAIN-SUFFIX,dnl-02.geo.kaspersky.com # 下载节点 02
+DOMAIN-SUFFIX,dnl-03.geo.kaspersky.com # 下载节点 03
+DOMAIN-SUFFIX,dnl-04.geo.kaspersky.com # 下载节点 04
+DOMAIN-SUFFIX,dnl-05.geo.kaspersky.com # 下载节点 05
+DOMAIN-SUFFIX,dnl-06.geo.kaspersky.com # 下载节点 06
+DOMAIN-SUFFIX,dnl-07.geo.kaspersky.com # 下载节点 07
+DOMAIN-SUFFIX,dnl-08.geo.kaspersky.com # 下载节点 08
+DOMAIN-SUFFIX,dnl-09.geo.kaspersky.com # 下载节点 09
+DOMAIN-SUFFIX,dnl-10.geo.kaspersky.com # 下载节点 10
+DOMAIN-SUFFIX,dnl-11.geo.kaspersky.com # 下载节点 11
+DOMAIN-SUFFIX,dnl-12.geo.kaspersky.com # 下载节点 12
+DOMAIN-SUFFIX,dnl-13.geo.kaspersky.com # 下载节点 13
+DOMAIN-SUFFIX,dnl-14.geo.kaspersky.com # 下载节点 14
+DOMAIN-SUFFIX,dnl-15.geo.kaspersky.com # 下载节点 15
+DOMAIN-SUFFIX,dnl-16.geo.kaspersky.com # 下载节点 16
+DOMAIN-SUFFIX,dnl-17.geo.kaspersky.com # 下载节点 17
+DOMAIN-SUFFIX,dnl-18.geo.kaspersky.com # 下载节点 18
+DOMAIN-SUFFIX,dnl-19.geo.kaspersky.com # 下载节点 19
+DOMAIN-SUFFIX,dnl-00.geo.kaspersky.com # 下载节点 00
+DOMAIN-SUFFIX,downloads0.kaspersky-labs.com # 下载镜像 0
+DOMAIN-SUFFIX,downloads1.kaspersky-labs.com # 下载镜像 1
+DOMAIN-SUFFIX,downloads2.kaspersky-labs.com # 下载镜像 2
+DOMAIN-SUFFIX,downloads3.kaspersky-labs.com # 下载镜像 3
+DOMAIN-SUFFIX,downloads4.kaspersky-labs.com # 下载镜像 4
+DOMAIN-SUFFIX,downloads5.kaspersky-labs.com # 下载镜像 5
+DOMAIN-SUFFIX,downloads6.kaspersky-labs.com # 下载镜像 6
+DOMAIN-SUFFIX,downloads7.kaspersky-labs.com # 下载镜像 7
+DOMAIN-SUFFIX,downloads8.kaspersky-labs.com # 下载镜像 8
+DOMAIN-SUFFIX,downloads9.kaspersky-labs.com # 下载镜像 9
+DOMAIN-SUFFIX,s00.upd.kaspersky.com # 更新服务器 00
+DOMAIN-SUFFIX,s01.upd.kaspersky.com # 更新服务器 01
+DOMAIN-SUFFIX,s02.upd.kaspersky.com # 更新服务器 02
+DOMAIN-SUFFIX,s03.upd.kaspersky.com # 更新服务器 03
+DOMAIN-SUFFIX,s04.upd.kaspersky.com # 更新服务器 04
+DOMAIN-SUFFIX,s05.upd.kaspersky.com # 更新服务器 05
+DOMAIN-SUFFIX,s06.upd.kaspersky.com # 更新服务器 06
+DOMAIN-SUFFIX,s07.upd.kaspersky.com # 更新服务器 07
+DOMAIN-SUFFIX,s08.upd.kaspersky.com # 更新服务器 08
+DOMAIN-SUFFIX,s09.upd.kaspersky.com # 更新服务器 09
+DOMAIN-SUFFIX,s10.upd.kaspersky.com # 更新服务器 10
+DOMAIN-SUFFIX,s11.upd.kaspersky.com # 更新服务器 11
+DOMAIN-SUFFIX,s12.upd.kaspersky.com # 更新服务器 12
+DOMAIN-SUFFIX,s13.upd.kaspersky.com # 更新服务器 13
+DOMAIN-SUFFIX,s14.upd.kaspersky.com # 更新服务器 14
+DOMAIN-SUFFIX,s15.upd.kaspersky.com # 更新服务器 15
+DOMAIN-SUFFIX,s16.upd.kaspersky.com # 更新服务器 16
+DOMAIN-SUFFIX,s17.upd.kaspersky.com # 更新服务器 17
+DOMAIN-SUFFIX,s18.upd.kaspersky.com # 更新服务器 18
+DOMAIN-SUFFIX,s19.upd.kaspersky.com # 更新服务器 19
+DOMAIN-SUFFIX,p00.upd.kaspersky.com # 更新服务器 P00
+DOMAIN-SUFFIX,p01.upd.kaspersky.com # 更新服务器 P01
+DOMAIN-SUFFIX,p02.upd.kaspersky.com # 更新服务器 P02
+DOMAIN-SUFFIX,p03.upd.kaspersky.com # 更新服务器 P03
+DOMAIN-SUFFIX,p04.upd.kaspersky.com # 更新服务器 P04
+DOMAIN-SUFFIX,p05.upd.kaspersky.com # 更新服务器 P05
+DOMAIN-SUFFIX,p06.upd.kaspersky.com # 更新服务器 P06
+DOMAIN-SUFFIX,p07.upd.kaspersky.com # 更新服务器 P07
+DOMAIN-SUFFIX,p08.upd.kaspersky.com # 更新服务器 P08
+DOMAIN-SUFFIX,p09.upd.kaspersky.com # 更新服务器 P09
+DOMAIN-SUFFIX,p10.upd.kaspersky.com # 更新服务器 P10
+DOMAIN-SUFFIX,p11.upd.kaspersky.com # 更新服务器 P11
+DOMAIN-SUFFIX,p12.upd.kaspersky.com # 更新服务器 P12
+DOMAIN-SUFFIX,p13.upd.kaspersky.com # 更新服务器 P13
+DOMAIN-SUFFIX,p14.upd.kaspersky.com # 更新服务器 P14
+DOMAIN-SUFFIX,p15.upd.kaspersky.com # 更新服务器 P15
+DOMAIN-SUFFIX,p16.upd.kaspersky.com # 更新服务器 P16
+DOMAIN-SUFFIX,p17.upd.kaspersky.com # 更新服务器 P17
+DOMAIN-SUFFIX,p18.upd.kaspersky.com # 更新服务器 P18
+DOMAIN-SUFFIX,p19.upd.kaspersky.com # 更新服务器 P19
+DOMAIN-SUFFIX,downloads.kaspersky-labs.com # 下载主域
+DOMAIN-SUFFIX,downloads.upd.kaspersky.com # 更新下载主域
+DOMAIN-SUFFIX,crl.kaspersky.com # CRL 验证
+DOMAIN-SUFFIX,ocsp.kaspersky.com # OCSP 验证
+DOMAIN-SUFFIX,moebius.kaspersky-labs.com # 内部镜像服务
+
 # > Dr.Web 相关域名
 # - 校对时间：2026-04-23
 
