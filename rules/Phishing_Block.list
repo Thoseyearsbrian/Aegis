@@ -5,8 +5,45 @@
 # - 提示：本模块用于识别与拦截已被确认的钓鱼攻击目标，默认启用
 # - 用途：本规则集用于防御性安全策略部署，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-15
-# - 校对时间：2026-03-15
+# - 更新时间：2026-04-25
+# - 校对时间：2026-04-25
+
+# > Silver Fox AtlasCross Phishing Delivery Infrastructure（银狐木马 AtlasCross 钓鱼投递基础设施）
+# - 数据来源：https://s.threatbook.com/blog/attack/2044637702980997120.html
+# - 校对时间：2026-04-25
+
+DOMAIN-SUFFIX,jackadmin1.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,jackadmin2.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,jackadmin3.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,jackadmin4.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,jackadmin5.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,jackbank1.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,jackbank2.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,jackbank3.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,jackbank4.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,jackbank5.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,trnebaiek.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,eijmdixci.cn # 银狐木马相关钓鱼投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,360news1.icu # 银狐木马相关仿冒新闻投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,360news3.icu # 银狐木马相关仿冒新闻投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,360news4.icu # 银狐木马相关仿冒新闻投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,360news5.icu # 银狐木马相关仿冒新闻投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,360news6.icu # 银狐木马相关仿冒新闻投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,360news7.icu # 银狐木马相关仿冒新闻投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,360news8.icu # 银狐木马相关仿冒新闻投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,360news11.icu # 银狐木马相关仿冒新闻投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,qqmusic2.com # 银狐木马相关仿冒 QQ 音乐投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,qqmusic4.com # 银狐木马相关仿冒 QQ 音乐投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,job3.trnebaiek.cn # 银狐木马相关钓鱼投递子域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,telegrtam.com.cn # 银狐木马相关仿冒 Telegram 投递域名（微步在线公开情报披露）
+IP-CIDR,47.86.49.173/32 # 银狐木马相关通信节点（微步在线公开情报披露）
+IP-CIDR,47.242.113.81/32 # 银狐木马相关通信节点（微步在线公开情报披露）
+IP-CIDR,47.57.10.173/32 # 银狐木马相关通信节点（微步在线公开情报披露）
+IP-CIDR,47.86.53.59/32 # 银狐木马相关通信节点（微步在线公开情报披露）
+IP-CIDR,47.239.165.230/32 # 银狐木马相关通信节点（微步在线公开情报披露）
+IP-CIDR,8.217.201.7/32 # 银狐木马相关通信节点（微步在线公开情报披露）
+IP-CIDR,95.173.197.195/32 # 银狐木马相关通信节点（微步在线公开情报披露）
+IP-CIDR,119.28.137.199/32 # 银狐木马相关通信节点（微步在线公开情报披露）
 
 # > 银狐木马（Silver Fox / FoxMalware）后门控制与投递基础设施
 # - 校对时间：2026-03-15
