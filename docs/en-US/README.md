@@ -185,7 +185,7 @@ Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch o
    Full functionality is only available when Surge is running in Rule Mode. If you switch to Global Mode or Direct Mode, network access may still work, but some identification, classification, and policy-based routing capabilities that rely on rule matching may not function properly, resulting in the following risks:
 
    - Domains and IPs may not be identified or classified according to rules
-   - Module strategies that rely on rule matching may not function properly
+   - Module strategies that rely on rule matching may not 
    - Aegis’s routing, protection, and identification capabilities may not work in full
 
    If you encounter a domain temporarily inaccessible due to unmatched rules, you may switch to Global Mode or Direct Mode temporarily to regain access.
@@ -228,6 +228,8 @@ To meet personal cybersecurity requirements, this project has been deeply custom
 [@AmnestyTech](https://github.com/AmnestyTech) 👉 Provided [Pegasus](https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt)–related `IOC` data, serving as a key intelligence source for rule construction ([CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/)).
 
 [@ESET](https://github.com/eset) 👉 Provides data from the public [malware-ioc](https://github.com/eset/malware-ioc) repository, serving as an important source of intelligence for `IOC` related rule development ([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE)).
+
+[ThreatBook](https://s.threatbook.com/cybercrime/silverfox) 👉 Provides public threat intelligence and attack activity analysis related to the Silver Fox malware, serving as an important intelligence source for Silver Fox related rules in `Phishing_Block.list` and `Backdoor_Block.list`.
 
 ### 🎖️ Major Contributors
 

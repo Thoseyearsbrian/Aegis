@@ -229,6 +229,8 @@ To meet personal cybersecurity requirements, this project has been deeply custom
 
 [@ESET](https://github.com/eset) 👉 Provides data from the public [malware-ioc](https://github.com/eset/malware-ioc) repository, serving as an important source of intelligence for `IOC` related rule development ([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE)).
 
+[ThreatBook](https://s.threatbook.com/cybercrime/silverfox) 👉 Provides public threat intelligence and attack activity analysis related to the Silver Fox malware, serving as an important intelligence source for Silver Fox related rules in `Phishing_Block.list` and `Backdoor_Block.list`.
+
 ### 🎖️ Major Contributors
 
 [@mieqq](https://github.com/mieqq) 👉 A key contributor to the Chinese Surge community. The [mieqq repository](https://github.com/mieqq/mieqq) has consistently maintained a variety of rules and modules, playing a significant role in the early development and promotion of the ecosystem.
