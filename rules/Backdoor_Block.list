@@ -4,8 +4,8 @@
 # - 特征：封锁具备反连、心跳、远程控制特征的通信节点，涵盖 RAT、Sliver、Metasploit 等常见后门工具所依赖的 C2 基础设施
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-26
-# - 校对时间：2026-03-26
+# - 更新时间：2026-04-25
+# - 校对时间：2026-04-25
 
 # > Silver Fox RAT Delivery and C2 Infrastructure（银狐木马投递与远控基础设施）
 # - 校对时间：2026-03-26
@@ -27,3 +27,9 @@ DOMAIN-SUFFIX,a8.share-dns.com # 银狐木马相关动态 DNS 通信域名（微
 DOMAIN-SUFFIX,b8.share-dns.net # 银狐木马相关动态 DNS 通信域名（微步在线公开情报披露）
 IP-CIDR,137.220.153.175/32 # 银狐木马相关通信节点（微步在线公开情报披露）
 IP-CIDR,103.115.56.66/32 # 银狐木马相关通信节点（微步在线公开情报披露）
+
+# > Silver Fox Payload Delivery Infrastructure（银狐木马载荷投递基础设施）
+# - 数据来源：https://s.threatbook.com/blog/attack/2043514695680065536.html
+# - 校对时间：2026-04-25
+
+DOMAIN-SUFFIX,pan.tenire.com # 银狐木马相关载荷投递域名（微步在线公开情报披露）
