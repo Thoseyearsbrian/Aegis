@@ -117,3 +117,13 @@ DOMAIN-SUFFIX,play-lust.com # 网络钓鱼域名 (来源于公开安全分析报
 DOMAIN-SUFFIX,awaitinggirl.net # 网络钓鱼域名 (来源于公开安全分析报告与威胁情报)
 DOMAIN-SUFFIX,vlc-player.net # 仿冒 VLC 官方下载站点域名，存在投毒与恶意软件下载风险,来源于社区举报
 
+# > Silver Fox Tax-Themed Phishing Infrastructure（银狐木马税务主题钓鱼基础设施）
+# - 数据来源：https://s.threatbook.com/blog/attack/2036537994517413888.html
+# - 校对时间：2026-04-25
+
+DOMAIN-SUFFIX,googlevip.icu # 银狐木马相关税务主题钓鱼域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,xqwmwru.top # 银狐木马 Python 窃密程序数据回传域名（微步在线公开情报披露）
+IP-CIDR,154.201.87.75/32 # 银狐木马相关钓鱼站点托管节点（微步在线公开情报披露）
+IP-CIDR,154.201.87.124/32 # 银狐木马 Python 窃密程序 C2 节点（微步在线公开情报披露）
+IP-CIDR,45.119.55.66/32 # 银狐木马 RMM 远控通信节点（微步在线公开情报披露）
+
