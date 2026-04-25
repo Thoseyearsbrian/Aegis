@@ -250,6 +250,7 @@ DOMAIN-SUFFIX,expressvpn.com # ExpressVPN 官方域名
 DOMAIN-SUFFIX,privateinternetaccess.com # PIA 官方域名
 DOMAIN-SUFFIX,protonvpn.com # ProtonVPN 官方主域名
 DOMAIN-SUFFIX,mullvad.net # Mullvad VPN 官方主域名
+DOMAIN-SUFFIX,ivpn.net # IVPN 官方域名
 
 # > Subscription Conversion and Frontend Tools（订阅转换与前端工具相关域名）
 # - 校对时间：2026-03-27
