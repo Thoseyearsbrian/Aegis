@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-24
-# - 校对时间：2026-04-24
+# - 更新时间：2026-04-25
+# - 校对时间：2026-04-25
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -241,13 +241,15 @@ IP-CIDR,195.88.252.0/24 # Dr.Web 官方 IPv4 网络段（AS49238 – Doctor Web 
 IP-CIDR,195.88.253.0/24 # Dr.Web 官方 IPv4 网络段（AS49238 – Doctor Web LLC） 
 
 # > VPN and Self-Hosted Proxy Tools（VPN 与自建代理工具相关域名）
-# - 校对时间：2026-03-27
+# - 校对时间：2026-04-25
 
 DOMAIN-SUFFIX,getoutline.org # Outline 官方域名
 DOMAIN-SUFFIX,surfshark.com # Surfshark 官方域名
 DOMAIN-SUFFIX,nordvpn.com # NordVPN 官方域名
 DOMAIN-SUFFIX,expressvpn.com # ExpressVPN 官方域名
 DOMAIN-SUFFIX,privateinternetaccess.com # PIA 官方域名
+DOMAIN-SUFFIX,protonvpn.com # ProtonVPN 官方主域名
+DOMAIN-SUFFIX,mullvad.net # Mullvad VPN 官方主域名
 
 # > Subscription Conversion and Frontend Tools（订阅转换与前端工具相关域名）
 # - 校对时间：2026-03-27
