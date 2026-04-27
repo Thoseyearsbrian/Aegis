@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,ashort.alipay.com.cn # 支付宝短链服务域名
 DOMAIN-SUFFIX,datagw-edge.alipay.com # 支付宝数据网关边缘服务域名
 DOMAIN-SUFFIX,amdc-thirdparty.alipay.com # 支付宝第三方接入辅助接口域名
 DOMAIN-SUFFIX,render.alipay.com # 支付宝页面渲染服务
+DOMAIN-SUFFIX,mum.alibabachengdun.com # 阿里巴巴集团风控域名
 IP-CIDR,49.79.229.64/32 # AliPay 静态资源服务节点（mdn.alipayobjects.com）
 IP-CIDR,49.79.229.65/32 # AliPay 静态资源服务节点（mdn.alipayobjects.com）
 IP-CIDR,58.221.77.138/32 # AliPay 静态资源服务节点（mdn-bs.alipayobjects.com）
