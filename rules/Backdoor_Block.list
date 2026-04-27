@@ -8,15 +8,16 @@
 # - 校对时间：2026-04-27
 
 # > Silver Fox RAT Delivery and C2 Infrastructure（银狐木马投递与远控基础设施）
-# - 校对时间：2026-03-26
+# - 数据来源：https://s.threatbook.com/blog/attack/2030842959356522496.html
+# - 校对时间：2026-04-27
 
-DOMAIN-SUFFIX,time.googledns.io # 银狐木马 C2 通信域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,time.googledns.io # 银狐木马 DNS C2 通信域名（微步在线公开情报披露）
 DOMAIN-SUFFIX,time.micrsofthost.com # 银狐木马 C2 通信域名（微步在线公开情报披露）
 DOMAIN-SUFFIX,time.wkossclsaleklddeff.is # 银狐木马 C2 通信域名（微步在线公开情报披露）
 DOMAIN-SUFFIX,time.secssl.com # 银狐木马 C2 通信域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,xiazaiabcd5.cyou # 银狐木马载荷投递域名（微步在线公开情报披露）
-DOMAIN-SUFFIX,yandibaiji0203.com # 银狐木马载荷投递域名（微步在线公开情报披露）
-IP-CIDR,103.117.103.11/32 # 银狐木马载荷下载节点（微步在线公开情报披露）
+DOMAIN-SUFFIX,xiazaiabcd5.cyou # 银狐木马恶意下载投递域名（微步在线公开情报披露）
+DOMAIN-SUFFIX,yandibaiji0203.com # 银狐木马恶意下载投递域名（微步在线公开情报披露）
+IP-CIDR,103.117.103.11/32 # 银狐木马二阶段载荷下载节点（微步在线公开情报披露）
 
 # > Silver Fox Phishing Delivery and Backdoor Infrastructure（银狐木马钓鱼投递与后门基础设施）
 # - 数据来源：https://s.threatbook.com/blog/attack/2046112394325569536.html
