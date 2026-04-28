@@ -460,6 +460,7 @@ DOMAIN-SUFFIX,amazon.es # 西班牙 Amazon 站
 DOMAIN-SUFFIX,m.media-amazon.com # Amazon 媒体资源与内容分发
 DOMAIN-SUFFIX,images-na.ssl-images-amazon.com # Amazon 北美图像资源 CDN
 DOMAIN-SUFFIX,images-eu.ssl-images-amazon.com # Amazon 欧洲图像资源 CDN
+DOMAIN-SUFFIX,images-fe.ssl-images-amazon.com # Amazon 远东图像资源 CDN
 
 # > Amazon CloudFront CDN（Amazon CloudFront 内容分发网络）
 # - 校对时间：2026-04-28
