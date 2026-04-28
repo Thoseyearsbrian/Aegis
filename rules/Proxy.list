@@ -7558,6 +7558,14 @@ DOMAIN-SUFFIX,open.cachefly.net # CacheFly CDN 加速服务域名
 
 DOMAIN-SUFFIX,ost-cdn2.scdn1.secure.raxcdn.com # Rackspace CDN 加速服务域名
 
+# > PartnerPage Partner Directory Platform（PartnerPage 合作伙伴目录平台）
+# - 校对时间：2026-04-28
+
+DOMAIN-SUFFIX,partnerpage.io # PartnerPage 平台主域名
+DOMAIN-SUFFIX,assets.partnerpage.io # PartnerPage 静态资源域名
+DOMAIN-SUFFIX,directory.static.partnerpage.io # PartnerPage 目录静态资源域名
+DOMAIN-SUFFIX,content.partnerpage.io # PartnerPage 内容服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
