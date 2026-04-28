@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-27
+# - 更新时间：2026-04-28
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-03-23
@@ -425,7 +425,7 @@ DOMAIN-SUFFIX,alog.umeng.com # 高德日志上报接口域名
 DOMAIN-SUFFIX,log.amap.com # 高德日志服务域名
 
 # > Baidu（百度）相关域名
-# - 校对时间：2026-03-24
+# - 校对时间：2026-04-28
 
 DOMAIN-SUFFIX,baidu.com # 百度主域名
 DOMAIN-SUFFIX,baidustatic.com # 百度静态资源服务域名
@@ -454,6 +454,7 @@ DOMAIN-SUFFIX,su.bdimg.com # 百度图片资源域名
 DOMAIN-SUFFIX,img.baidu.com # 百度图片服务域名
 DOMAIN-SUFFIX,m.baeapps.com # 百度应用引擎服务域名
 DOMAIN-SUFFIX,zhida.baidu.com # 百度知道服务域名
+DOMAIN-SUFFIX,ms.bdimg.com # 百度静态资源服务域名
 
 # > 16map（第三方地图嵌入与位置服务平台）
 # - 校对时间：2026-03-24
