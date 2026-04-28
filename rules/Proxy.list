@@ -2234,12 +2234,13 @@ DOMAIN-SUFFIX,api.octobrowser.net # API 接口域名
 DOMAIN-SUFFIX,static.octobrowser.net # 静态资源域名
 
 # > DeepL Platform（DeepL 翻译平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-04-28
 
 DOMAIN-SUFFIX,deepl.com # 平台主域名
 DOMAIN-SUFFIX,api.deepl.com # API 接口域名
 DOMAIN-SUFFIX,static.deepl.com # 静态资源域名
 DOMAIN-SUFFIX,login.deepl.com # 登录服务域名
+DOMAIN-SUFFIX,marketplace.deepl-partners.com # DeepL 合作伙伴市场域名
 
 # > Ozon E-Commerce Platform（Ozon 电商平台）
 # - 校对时间：2026-03-28
