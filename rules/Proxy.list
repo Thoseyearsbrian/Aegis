@@ -457,6 +457,7 @@ DOMAIN-SUFFIX,amazon.ca # 加拿大 Amazon 站
 DOMAIN-SUFFIX,amazon.fr # 法国 Amazon 站
 DOMAIN-SUFFIX,amazon.it # 意大利 Amazon 站
 DOMAIN-SUFFIX,amazon.es # 西班牙 Amazon 站
+DOMAIN-SUFFIX,amazon.com.mx # 墨西哥 Amazon 站
 DOMAIN-SUFFIX,m.media-amazon.com # Amazon 媒体资源与内容分发
 DOMAIN-SUFFIX,images-na.ssl-images-amazon.com # Amazon 北美图像资源 CDN
 DOMAIN-SUFFIX,images-eu.ssl-images-amazon.com # Amazon 欧洲图像资源 CDN
