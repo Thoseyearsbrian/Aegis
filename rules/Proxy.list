@@ -462,9 +462,10 @@ DOMAIN-SUFFIX,images-na.ssl-images-amazon.com # Amazon 北美图像资源 CDN
 DOMAIN-SUFFIX,images-eu.ssl-images-amazon.com # Amazon 欧洲图像资源 CDN
 
 # > Amazon CloudFront CDN（Amazon CloudFront 内容分发网络）
-# - 校对时间：2026-04-21
+# - 校对时间：2026-04-28
 
 DOMAIN-SUFFIX,cloudfront.net # AWS CloudFront CDN 通用内容分发域名
+DOMAIN-SUFFIX,redirect.prod.experiment.routing.cloudfront.aws.a2z.com # Amazon CloudFront 实验路由重定向服务域名
 
 # > Walmart Retail Platform（Walmart 零售平台）
 # - 校对时间：2026-03-28
