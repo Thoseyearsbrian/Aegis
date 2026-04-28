@@ -2542,3 +2542,8 @@ DOMAIN-SUFFIX,v1.hitokoto.cn # Hitokoto 一言语句 API v1 接口
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,threatbook.cn # 官方中国官网域名（威胁情报与安全分析平台）
+
+# > Amazon China Image CDN（Amazon 中国图像资源 CDN）
+# - 校对时间：2026-04-28
+
+DOMAIN-SUFFIX,images-cn.ssl-images-amazon.cn # Amazon 中国图像资源 CDN
