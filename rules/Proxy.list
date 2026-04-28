@@ -475,6 +475,25 @@ DOMAIN-SUFFIX,images-fe.ssl-images-amazon.com # Amazon 远东图像资源 CDN
 DOMAIN-SUFFIX,cloudfront.net # AWS CloudFront CDN 通用内容分发域名
 DOMAIN-SUFFIX,redirect.prod.experiment.routing.cloudfront.aws.a2z.com # Amazon CloudFront 实验路由重定向服务域名
 
+# > Amazon S3 Storage Service（Amazon S3 对象存储服务）
+# - 校对时间：2026-04-28
+
+DOMAIN-SUFFIX,s3-us-west-1.amazonaws.com # Amazon S3 美国西部（北加州）区域存储服务域名
+
+# > Amazon Lightsail Cloud Service（Amazon Lightsail 云服务）
+# - 校对时间：2026-03-28
+
+DOMAIN-SUFFIX,lightsail.aws.amazon.com # 控制台域名
+DOMAIN-SUFFIX,lightsail.com # 品牌域名
+DOMAIN-SUFFIX,amazonlightsail.com # 品牌站点域名
+DOMAIN-SUFFIX,api.lightsail.aws.amazon.com # API 接口域名
+DOMAIN-SUFFIX,static-lightsail.aws.amazon.com # 静态资源域名
+DOMAIN-SUFFIX,lightsail.amazonaws.com # 兼容接口域名
+DOMAIN-SUFFIX,us-west-1.lightsail.aws.amazon.com # 区域节点域名
+DOMAIN-SUFFIX,ap-northeast-1.lightsail.aws.amazon.com # 区域节点域名
+DOMAIN-SUFFIX,cdn.lightsail.com # 静态资源域名
+DOMAIN-SUFFIX,lightsail-status.aws.amazon.com # 状态页域名
+
 # > Walmart Retail Platform（Walmart 零售平台）
 # - 校对时间：2026-03-28
 
@@ -3636,20 +3655,6 @@ DOMAIN-SUFFIX,oc-signin.oraclecloud.com # 登录前端域名
 DOMAIN-SUFFIX,cdn.oracle.com # 静态资源域名
 DOMAIN-SUFFIX,oc-cdn.oraclecloud.com # 静态资源域名
 DOMAIN-SUFFIX,oraclecloud.com # 平台主域名
-
-# > Amazon Lightsail Cloud Service（Amazon Lightsail 云服务）
-# - 校对时间：2026-03-28
-
-DOMAIN-SUFFIX,lightsail.aws.amazon.com # 控制台域名
-DOMAIN-SUFFIX,lightsail.com # 品牌域名
-DOMAIN-SUFFIX,amazonlightsail.com # 品牌站点域名
-DOMAIN-SUFFIX,api.lightsail.aws.amazon.com # API 接口域名
-DOMAIN-SUFFIX,static-lightsail.aws.amazon.com # 静态资源域名
-DOMAIN-SUFFIX,lightsail.amazonaws.com # 兼容接口域名
-DOMAIN-SUFFIX,us-west-1.lightsail.aws.amazon.com # 区域节点域名
-DOMAIN-SUFFIX,ap-northeast-1.lightsail.aws.amazon.com # 区域节点域名
-DOMAIN-SUFFIX,cdn.lightsail.com # 静态资源域名
-DOMAIN-SUFFIX,lightsail-status.aws.amazon.com # 状态页域名
 
 # > GreenCloud VPS Cloud Service（GreenCloud VPS 云服务）
 # - 校对时间：2026-03-28
