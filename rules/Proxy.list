@@ -463,6 +463,7 @@ DOMAIN-SUFFIX,static.siege-amazon.com # Amazon 认证门户静态脚本域名
 DOMAIN-SUFFIX,sellercentral.amazon.in # 印度 Amazon Seller Central 卖家后台域名
 DOMAIN-SUFFIX,sellercentral.amazon.ae # 阿联酋 Amazon Seller Central 卖家后台域名
 DOMAIN-SUFFIX,sellercentral.amazon.sa # 沙特阿拉伯 Amazon Seller Central 卖家后台域名
+DOMAIN-SUFFIX,sellercentral.amazon.com.au # 澳大利亚 Amazon Seller Central 卖家后台域名
 DOMAIN-SUFFIX,images-na.ssl-images-amazon.com # Amazon 北美图像资源 CDN
 DOMAIN-SUFFIX,images-eu.ssl-images-amazon.com # Amazon 欧洲图像资源 CDN
 DOMAIN-SUFFIX,images-fe.ssl-images-amazon.com # Amazon 远东图像资源 CDN
