@@ -5,8 +5,8 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-21
-# - 校对时间：2026-04-21
+# - 更新时间：2026-04-29
+# - 校对时间：2026-04-29
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -123,6 +123,18 @@ DOMAIN-SUFFIX,nq.apple.com # Apple NetworkQuality 测试接口
 DOMAIN-SUFFIX,init.ess.apple.com # Apple 设备安全服务（ESS）初始化接口
 DOMAIN-SUFFIX,identity.ess.apple.com # Apple 设备与账户身份确认服务（ESS）
 DOMAIN-SUFFIX,register.appattest.apple.com # Apple App Attest 注册服务
+
+# > Apple Captive Portal China Nodes（Apple 强制门户中国连接检测节点）
+# - 校对时间：2026-04-29
+
+IP-CIDR,58.215.50.244/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
+IP-CIDR,59.52.142.11/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
+IP-CIDR,61.131.131.63/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
+IP-CIDR,106.227.101.208/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
+IP-CIDR,120.39.195.214/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
+IP-CIDR,120.39.195.242/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
+IP-CIDR,121.204.250.29/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
+IP-CIDR,125.77.141.141/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
 
 # > Apple Captive Portal Legacy Detection（Apple 历史门户认证检测域名）
 
