@@ -4,19 +4,11 @@
 </p>
 
 <h1 align="center">Aegis</h1>
-Personal digital firewall ruleset for Surge on iOS and macOS, built for precise local traffic identification and policy control, with multilingual support for global deployment and flexible use.
+Surge 个人数字防火墙规则集，帮助用户在 iOS 与 macOS 本地实现流量的精准识别与分类，并根据自身需求自主设定流量策略。支持简体中文、繁體中文与 English 三种语言，助力全球用户快速部署与灵活使用。
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/screenshots/group-policy-mobile-en-1.png"
-    width="300"
-    alt="Surge iOS: Aegis_EN configuration overview interface screenshot"
-  />
-  <img
-    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/screenshots/group-policy-mobile-en-2.png"
-    width="300"
-    alt="Surge iOS: Aegis_EN policy group interface screenshot"
-  />
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/screenshots/group-policy-mobile-1.png" width="300" alt="Surge iOS：Aegis_CN 配置概览界面截图" />
+<img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/screenshots/group-policy-mobile-2.png" width="300" alt="Surge iOS：Aegis_CN 策略组界面截图" />
 </p>
 
 <p align="center">
@@ -36,42 +28,42 @@ Personal digital firewall ruleset for Surge on iOS and macOS, built for precise 
   </a>
 </p>
 
-## Key Features
+## 项目优势
 
-Aegis is purpose-built for the Surge platform, fully compatible with both iOS and macOS. It offers high readability, auditability, and modular deployment — making it suitable for policy-based routing, communication analysis, and enhanced security configurations.
+Aegis 专为 Surge 平台设计，全面兼容 iOS 与 macOS 系统，具备良好的可读性、可审计性与模块化部署能力，适用于策略分流、通信识别与安全辅助配置等多种应用场景。
 
-The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
+本项目全面采用加密 DNS，拒绝明文请求，确保通信加密与隐私安全。即便在如 iPhone 等缺乏传统安全软件支持的设备上，亦可提供流量层级的有效防护。
 
-## Philosophy
+## 项目理念
 
-Aegis adheres to technical neutrality, information transparency, and independent autonomy. I firmly believe every individual has the right to understand and control their network traffic. Therefore, Aegis does not accept any form of commercial investment or capital control. To ensure purity, trust, and security, all configurations are handcrafted and audited by me, with complete annotations to guarantee every rule is transparent, verifiable, and pollution-free.
+Aegis 是一个坚持技术中立、信息透明、独立自主的安全规则项目。我坚信每个人都应拥有对其网络流量的知情权与控制权。因此，Aegis 不接受任何形式的商业投资或资本控制，为保持纯粹的独立性与安全可信性，所有配置文件完全由本人手工编写与审计，并附带完整注释，以确保每一条拦截规则都公开、真实、可控、无污染。
 
-## Aegis Main Rule Modules
+## Aegis 主规则模块列表
 
-| Module ID | Module Name | File Name | Description | Criteria |
-| :-------: | :---------: | :------------------------: | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ① | Untrusted Certificate Authorities | CA_Block.list | Flags CA root certificates, OCSP endpoints, and CRL domains with known incidents of misuse or revocation. Recommended for scenarios requiring enhanced digital trust. (Advanced Module – Disabled by Default) | Involves cases of certificate misuse, unauthorized issuance, or public revocation records |
-| ② | Advertising Domain Detection | AdDomain.list | Covers domains used in commercial advertising delivery, social pixel tracking, behavioral analytics, and third-party SDK statistics (Identification Module - Disabled by Default) | Identified based on behavioral patterns and data collection models, distinguished from telemetry-related communications |
-| ③ | Adult Content Domain Detection | AdultDomain.list | Covers domains related to major global adult content platforms (Identification Module - Disabled by default) | Domains directly associated with adult content distribution |
-| ④ | PCDN Communication Detection | PCDNDomain.list | Identifies link behaviors suspected to use “shared bandwidth” models, involving device relays, cache nodes, and distributed delivery networks (Identification Module - Disabled by Default) | Identified based on traffic patterns and node distribution consistent with multi-hop relay and cache characteristics |
-| ⑤ | Traffic Inspection & Node Detection | InspectionDomain.list | Detects active network-level interventions such as DPI probing, DNS poisoning, HTTP injection, and MITM eavesdropping (Identification Module - Disabled by Default) | Identified based on traffic anomalies like tampering, redirection, and injection, commonly seen in manipulated network environments |
-| ⑥ | Behavioral Analytics / Telemetry Node Detection | BehaviorDomain.list | Flags cloud service nodes with identifiable behavioral fingerprinting, including telemetry SDKs, analytics platforms, and behavioral modeling services (Identification Module - Disabled by Default) | Focused on behavior-analytic SDK communication patterns via DNS/TLS traffic; excludes ad or data-upload SDKs |
-| ⑦ | Background Reconnections & Silent Communication Blocking | Background_Block.list | Identifies domains used by IoT, NAS, or SDKs for config uploads or device callbacks, aiding detection of stealth telemetry communications (Blocking Module – Enabled by Default) | Focused on background connection behavior via callback frequency, paths, and data uploads; excludes ad and analytics SDKs |
-| ⑧ | Backdoor Control & Implant Communication Blocking | Backdoor_Block.list | Blocks known malicious infrastructure involving remote access tools (RATs), reverse shells, heartbeat signals, etc. (Blocking Module – Enabled by Default) | Clearly associated with malicious traffic or exploit backdoors |
-| ⑨ | Botnet & Command Node Blocking | Botnet_Block.list | Blocks known botnet controllers, DDoS nodes, and mass-control infrastructure (Blocking Module – Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
-| ⑩ | Malware IOC Blocking | Malware_IOC_Block.list | Blocks communication domains, IPs, and control infrastructure associated with known malware families, toolchains, and related attack activities (Blocking Module – Enabled by Default) | Derived from public threat intelligence, malware sample analysis, and verifiable research data |
-| ⑪ | Pegasus Spyware Communication Blocking | Pegasus_Block.list | Contains domains disclosed by Amnesty used by Pegasus spyware for C2 communication (Blocking Module – Enabled by Default) | Based on Amnesty’s public disclosures of Pegasus C2 infrastructure, indicating high surveillance risk |
-| ⑫ | Phishing Domain Blocking | Phishing_Block.list | Blocks domains associated with phishing attacks, including spoofed login pages, fake official sites, and links in deceptive emails. Typical targets of social engineering campaigns. (Blocking Module – Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
-| ⑬ | Scam Domain Blocking | Scam_Block.list | Blocks suspicious domains with extremely low reputation, reported fraud, fake services, or user complaints. (Blocking Module – Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs | 
-| ⑭ | Risk Communication Observation List | Quarantine_Block.list | Covers domains and IPs that are not yet confirmed as malicious but exhibit anomalous communication behaviors, including opaque purposes or the use of non-public protocols or non-standard ports. A quarantine-based blocking strategy is applied by default to mitigate potential risks.(Observation Module – Enabled by Default) | Identified through anomalous communication behavior analysis; the risk has not been conclusively classified as malicious and is placed under isolation and observation for further review |
+| 模块编号 | 模块名称 | 文件名 | 模块说明 | 判定标准 |
+| :------: | :------: | :------------------------: | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ① | 不受信任的证书机构 | CA_Block.list | 标记存在滥发或吊销记录的 CA 根证书、OCSP 接口与吊销列表（CRL）域名，适用于强化数字信任链场景（高级模块-默认不启用） | 存在证书滥发、伪造签发或被吊销的行为记录 |
+| ② | 广告域名识别 | AdDomain.list | 涵盖商业广告投放、社交像素追踪、行为分析与第三方统计 SDK 等域名识别（识别模块-默认不启用） | 依据投放行为特征与数据收集模式进行识别，区分于遥测监听类通信 |
+| ③ | 成人内容识别 | AdultDomain.list | 涵盖全球主流成人平台相关域名识别（识别模块-默认不启用） | 与成人内容传播直接关联的域名 |
+| ④ | PCDN 通信识别 | PCDNDomain.list | 疑似“共享带宽”架构的链路通信行为，涉及设备转发、缓存中继与分布式分发节点识别（识别模块-默认不启用） | 依据通信路径与节点分布模式，涉及多级链路的中继、缓存与转发特征 |
+| ⑤ | 监听节点识别 | InspectionDomain.list | 链路层或出口级别的主动干预行为，包括 DPI 探测、DNS 污染、HTTP 注入与中间人监听等识别（识别模块-默认不启用） | 依据通信异常特征识别流量篡改、重定向与注入行为，常见于链路干预环境 |
+| ⑥ | 行为分析 / 遥测节点识别 | BehaviorDomain.list | 具备行为指纹特征的云服务节点，包含遥测 SDK、分析平台及行为建模服务。依据 DNS 模式、TLS 握手、CDN 请求等特征识别（识别模块-默认不启用） | 聚焦行为分析型 SDK 的通信特征，依据 DNS/TLS 报文与行为模式判断识别，排除广告类与后台上传类 SDK。|
+| ⑦ | 后台回连与静默通信节点拦截 | Background_Block.list | 识别 IoT、NAS 或 SDK 中具备配置上传、设备回连等特征的域名，协助识别监听类静默通信（拦截模块-默认启用） | 聚焦监听型 SDK 的后台连接行为，依据通信频率、回连路径与数据上传特征识别，排除广告与行为建模类 SDK。|
+| ⑧ | 后门控制与植入通信节点拦截 | Backdoor_Block.list | 默认拦截具有远控、反连、心跳等恶意特征的通信行为，如 RAT、Sliver、Metasploit 等基础设施（拦截模块-默认启用） | 明确具备恶意通信模式或与植入攻击行为直接关联 |
+| ⑨ | 僵尸网络与控制节点拦截 | Botnet_Block.list | 默认拦截已知 Botnet 控制源、DDoS 节点、批量控制基础设施等通信路径（拦截模块-默认启用） | 来源于公开报告，具备明确归属与可验证情报链 |
+| ⑩ | 恶意软件 IOC 拦截 | Malware_IOC_Block.list | 默认拦截已知恶意软件家族、工具链与相关攻击活动涉及的通信域名、IP 及控制基础设施（拦截模块-默认启用） | 来源于公开威胁情报、样本分析与可验证研究数据 |
+| ⑪ | Pegasus 间谍软件通信节点拦截 | Pegasus_Block.list | 收录 Amnesty 公布的 Pegasus 控制器与命令节点，用于识别极高风险监听通信（拦截模块-默认启用） | 基于 Amnesty 公开披露的 Pegasus 控制节点，具监听风险 |
+| ⑫ | 网络钓鱼拦截 | Phishing_Block.list | 默认拦截网络钓鱼攻击相关域名，涵盖假冒登录页面、伪装官网、钓鱼邮件链接等典型社会工程攻击行为（拦截模块-默认启用） | 来源于公开报告，具备明确归属与可验证情报链 |
+| ⑬ | 网络欺诈拦截 | Scam_Block.list | 默认拦截声誉极低、存在欺诈、虚假服务或用户举报的可疑网站域名（拦截模块-默认启用） | 来源于公开报告，具备明确归属与可验证情报链 |
+| ⑭ | 风险通信观察列表 | Quarantine_Block.list | 用于纳入尚未确认恶意、但具备异常通信特征的域名与 IP，涵盖用途不透明或使用非公开协议、非常规端口的通信行为，并采取防御性阻断策略以降低潜在风险（观察模块-默认启用）| 基于异常通信行为特征识别，风险尚未完全确认，采取隔离观察策略以便后续分析与校验 |
 
-## Auto Update
+## 自动化更新
 
-Aegis is hosted on [GitHub](https://github.com) with an automated update mechanism, ensuring that all rule sets remain up-to-date and are fully compatible with remote subscription in Surge.
+Aegis 采用 [GitHub](https://github.com) 托管实现自动更新机制，确保数据始终处于最新状态，支持 Surge 远程订阅使用。
 
-If configuration auto-reload is not enabled, you can manually refresh external resources or reload the profile to ensure the ruleset stays up to date.
+若未启用配置变更自动重载功能，亦可手动刷新外部资源或重新载入配置，以确保规则集保持最新状态。
 
-## Surge IPv4 Configuration Links
+## Surge IPv4 配置链接
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_CN.conf
 
@@ -79,7 +71,7 @@ Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_EN.conf
 
-## Surge IPv6 Configuration Links
+## Surge IPv6 配置链接
 
 Aegis (CN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_CN.conf
 
@@ -88,191 +80,190 @@ Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_EN.conf
 
 > [!WARNING]
-> Please choose the appropriate configuration based on your network environment. If your network natively supports IPv6, use the IPv6 version; otherwise, use the IPv4 version. Do not mix configurations, as this may result in request failures or DNS resolution issues.
+> 请根据网络环境选择对应配置。如您的网络环境原生支持 IPv6，请使用 IPv6 配置；否则请使用 IPv4 配置。严禁混用，否则有可能导致请求异常或 DNS 解析失败。
 
-## Configuration Guide
+## 配置方式
 
-Copy the configuration link → Open Surge → Download from URL → Paste the link → Edit in Text Mode → Replace your node with the correct parameter → Done!
+复制配置链接 -> 打开 Surge -> 从 URL 下载配置 -> 粘贴链接 -> 在文本模式中编辑 -> 修改“你的节点”至对应参数 -> 完成!
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/screenshots/surge-config-import-guide-step-by-step-en.png"
+    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/screenshots/surge-config-import-guide-step-by-step.png"
     width="600"
-    alt="Surge iOS: Aegis_EN ruleset import step-by-step diagram (English)"
+    alt="Surge iOS：Aegis_CN 规则集配置导入步骤示意图（简体中文）"
   >
 </p>
 
-### GeoIP Database
+### GeoIP 数据库
 
-Follow the steps below to enable the GeoIP database for the first time:
+首次启用 GeoIP 数据库方式如下：
 
-Open Surge -> More -> General -> GeoIP Database -> Update Now -> Done!
+打开 Surge -> 更多 -> 通用 -> GeoIP 数据库 -> 现在更新 -> 完成!
 
-Aegis supports GEOIP lookup rules for countries outside mainland China, as the current database covers global IP ranges.
+Aegis 支持使用非中国大陆国家的 GEOIP 查询规则，因为目前使用的数据库支持全球国家 IP 段。
 
-Aegis enables by default:
-
-```bash
-GEOIP,CN,DIRECT # GEOIP match for Mainland China
-```
-
-### Optional Regional Routing
-
-To simplify international traffic routing for general users and reduce access issues, Aegis provides an optional regional routing feature supporting the following regions:
+Aegis 默认开启:
 
 ```bash
-GEOIP,US,Proxy # Route US region traffic through proxy
-
-GEOIP,GB,Proxy # Route UK region traffic through proxy
-
-GEOIP,FR,Proxy # Route France region traffic through proxy
-
-GEOIP,DE,Proxy # Route Germany region traffic through proxy
-
-GEOIP,RU,Proxy # Route Russia region traffic through proxy
-
-GEOIP,EU,Proxy # Route EU region traffic through proxy
-
-GEOIP,AU,Proxy # Route Australia region traffic through proxy
-
-GEOIP,JP,Proxy # Route Japan region traffic through proxy
-
-GEOIP,KR,Proxy # Route South Korea region traffic through proxy
-
-GEOIP,SG,Proxy # Route Singapore region traffic through proxy
+GEOIP,CN,DIRECT # GEOIP 匹配中国大陆
 ```
 
-Activation steps:
+### 可选区域分流功能
 
-macOS: Open Surge -> Rules -> Optional Regional Routing -> Check the desired country entries -> Done!
+为普通用户提供简化的国际分流能力，减少访问受阻情况，Aegis 支持可选区域分流功能，支持以下地区的分流能力：
 
-iOS: Open Surge -> Aegis Configuration -> Edit in Text Mode -> Optional Regional Routing -> Remove the “# ” before the corresponding country rule -> Done!
+```bash
+GEOIP,US,Proxy # 美国区域流量走代理
+
+GEOIP,GB,Proxy # 英国区域流量走代理
+
+GEOIP,FR,Proxy # 法国区域流量走代理
+
+GEOIP,DE,Proxy # 德国区域流量走代理
+
+GEOIP,RU,Proxy # 俄罗斯区域流量走代理
+
+GEOIP,EU,Proxy # 欧盟区域流量走代理
+
+GEOIP,AU,Proxy # 澳大利亚区域流量走代理
+
+GEOIP,JP,Proxy # 日本区域流量走代理
+
+GEOIP,KR,Proxy # 韩国区域流量走代理
+
+GEOIP,SG,Proxy # 新加坡区域流量走代理
+```
+
+启用方式如下：
+
+Mac 端：打开 Surge -> 规则 -> 可选区域分流功能 -> 勾选对应国家分流条目 -> 完成!
+
+iOS 端：打开 Surge -> Aegis 配置 -> 在文本模式中编辑 -> 可选区域分流功能 -> 删除对应国家分流条目规则前的 “# ” -> 完成!
 
 > [!TIP]
-> If the country you want is not listed above, you can manually add the corresponding country code at the end of the configuration, as the current database supports global GEOIP lookups.
+> 当前所使用的数据库支持全球国家 GEOIP 查询，若上述可选区域分流列表中未包含您需要的国家代码，可在配置文件后自行添加对应国家的 GEOIP 规则。
 
-### Video Tutorial
+### 视频教程
 
-Please select the platform you are using and visit the corresponding video tutorial page:
+请选择你所使用的平台，进入对应的视频教程页面：
 
-Beginner-Friendly Surge Guide · iOS (4K) ｜ Click the cover image to watch on YouTube
+零基础 Surge 教程 · iOS（4K）｜点击封面跳转至 YouTube 观看
 
 <p align="center">
 <a href="https://youtu.be/cKhRdQF5FTo">
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/covers/beginner-friendly-surge-guide-ios-4k.png"
-       alt="Beginner-Friendly Surge Guide · iOS (4K)"
+       alt="零基础 Surge 教程 · iOS（4K）"
        width="600" />
 </a>
 </p>
 
-Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch on YouTube
+零基础 Surge 教程 · macOS（4K）｜点击封面跳转至 YouTube 观看
 
 <p align="center">
 <a href="https://youtu.be/ano6ysBlD5s">
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/covers/beginner-friendly-surge-guide-macos-4k.png"
-       alt="Beginner-Friendly Surge Guide · macOS (4K)"
+       alt="零基础 Surge 教程 · macOS（4K）"
        width="600" />
 </a>
 </p>
 
-## ⚠️ Important Notes
+## ⚠️ 注意事项
 
-1. **Rule Mode is mandatory — otherwise, Aegis’s rule-based identification, routing, and protection capabilities may not function properly**
-
-   ```bash
-   Aegis is a personal digital firewall system built entirely on Surge’s Rule Mode. It relies on rule-based matching to classify domains, enforce policies, and block malicious traffic.
-
-   Full functionality is only available when Surge is running in Rule Mode. If you switch to Global Mode or Direct Mode, network access may still work, but some identification, classification, and policy-based routing capabilities that rely on rule matching may not function properly, resulting in the following risks:
-
-   - Domains and IPs may not be identified or classified according to rules
-   - Module strategies that rely on rule matching may not 
-   - Aegis’s routing, protection, and identification capabilities may not work in full
-
-   If you encounter a domain temporarily inaccessible due to unmatched rules, you may switch to Global Mode or Direct Mode temporarily to regain access.
-   ```
-
-2. **It is recommended to combine China.list (for domain matching) and GEOIP,CN (for IP segments) for accurate detection of Chinese traffic:**
+1. **务必启用规则模式（Rule Mode），否则 Aegis 依赖规则匹配实现的识别、分流与防护能力可能无法正常生效**
 
    ```bash
-   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list, DIRECT   # Precisely matches Chinese domains
-   GEOIP,CN,DIRECT                                                                                  # Matches traffic from Chinese IPs not in domain list
-   FINAL,REJECT                                                                                     # Final fallback rule (do NOT place GEOIP below this)
+   Aegis 是一套基于规则模式构建的个人数字防火墙体系，依赖 Surge 的规则匹配机制进行域名分类、策略分流与恶意拦截。
+
+   仅在启用规则模式（Rule Mode）时，Aegis 才能实现完整功能。若使用“全局模式”或“直连模式”，仍可访问外部网络，但部分依赖规则匹配的识别、分类与策略分流能力可能无法正常生效，进而带来以下风险：
+
+   - 域名与 IP 可能无法按规则进行识别与分类
+   - 依赖规则匹配的模块策略可能无法正常生效
+   - Aegis 的分流、防护与识别能力可能无法完整发挥
+
+   如遇某些域名因规则匹配失败而暂时无法访问，可**临时切换为“全局模式”或“直连模式”**应急处理。
    ```
 
-3. **Supports GEOIP query rules for countries outside mainland China, as the current database supports global country IP ranges.**
+2. **推荐将 `China.list`（域名）与 `GEOIP,CN`（IP 段）规则组合使用，以提高对中国流量的匹配准确性：**
 
    ```bash
-   GEOIP,US,Proxy   # Valid
-   GEOIP,AU,Proxy   # Valid
-   GEOIP,CN,DIRECT  # Valid
+   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list, DIRECT   # 精确匹配中国域名
+   GEOIP,CN,DIRECT                                                                                  # 匹配未在域名规则中出现的中国大陆 IP
+   FINAL,REJECT                                                                                     # 最终默认拒绝规则（请勿将 GEOIP 放于其后）
    ```
 
-4. **Explanation for the message “tun-excluded-routes parameter configured, may cause issues after switching networks”**
+3. **支持使用非中国大陆国家的 GEOIP 查询规则，因为目前使用的数据库支持全球国家 IP 段**
 
    ```bash
-   This message is not an error or conflict but a system-level reminder from Surge.  
-   It can be safely ignored in a fixed network environment.  
-   If you experience temporary LAN communication issues (e.g., AirDrop, Bonjour, or NAS) after switching networks such as Wi-Fi ↔ hotspot, select “Stop Proxy” → “Start Proxy” in the menu to rebuild the routing table and restore connectivity.
+   GEOIP,US,Proxy   # 正确
+   GEOIP,AU,Proxy   # 正确
+   GEOIP,CN,DIRECT  # 正确
    ```
 
-## 🌟 Special Thanks
+4. **出现 “tun-excluded-routes 参数已配置，该参数可能导致切换网络后出现异常，请谨慎使用” 的说明**
 
-This project is built upon inspiration and reference from numerous outstanding open-source initiatives within the [GitHub](https://github.com) community. We extend our sincere gratitude to all developers who have contributed to the open-source ecosystem.
+   ```bash
+   该提示并非错误或冲突，而是 Surge 的系统级提醒。在固定网络环境下，此提示可安全忽略。
+   若切换网络（如 Wi-Fi ↔ 热点）后出现 AirDrop、Bonjour、NAS 等局域网通信异常，可在菜单中选择「停止代理」→「启动代理」以重建路由表并恢复连接。
+   ```
 
-To meet personal cybersecurity requirements, this project has been deeply customized and optimized for enhanced security based on existing rule sets. In order to ensure the integrity, safety, and long-term availability of the project, all materials and rule files are self-hosted within this repository, thereby avoiding issues such as update failures or trust concerns arising from third-party dependencies.
+## 🌟 特别致谢
 
-### ✍️ Foundational References
+本项目在设计与整理过程中，参考并借鉴了 [GitHub](https://github.com) 社区中众多优秀开源项目，谨向所有为开源社区作出贡献的开发者致以诚挚感谢。
 
-[@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 The primary reference for the overall project architecture and rule logic. The current version has undergone extensive restructuring and security adaptation based on this foundation.
+为满足个人网络安全防护需求，本项目在既有规则基础上进行了深度定制与安全优化。为保障项目的完整性、安全性与长期可用性，所有使用的素材与规则均通过本仓库自托管，避免因依赖第三方源而引发的更新失效或信任风险。
 
-[@AmnestyTech](https://github.com/AmnestyTech) 👉 Provided [Pegasus](https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt)–related `IOC` data, serving as a key intelligence source for rule construction ([CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/)).
+### ✍️ 核心框架参考
 
-[@ESET](https://github.com/eset) 👉 Provides data from the public [malware-ioc](https://github.com/eset/malware-ioc) repository, serving as an important source of intelligence for `IOC` related rule development ([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE)).
+[@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 项目整体架构与规则逻辑的主要参考来源，当前版本在此基础上进行了深度重构与安全适配。
 
-[ThreatBook](https://s.threatbook.com/cybercrime/silverfox) 👉 Provides public threat intelligence and attack activity analysis related to the Silver Fox malware, serving as an important intelligence source for Silver Fox related rules in `Phishing_Block.list` and `Backdoor_Block.list`.
+[@AmnestyTech](https://github.com/AmnestyTech) 👉 提供 [Pegasus](https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt) 相关 `IOC` 数据，作为规则构建的重要信息源([CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/))。
 
-### 🎖️ Major Contributors
+[@ESET](https://github.com/eset) 👉 提供 [malware-ioc](https://github.com/eset/malware-ioc) 公共仓库数据，作为 `IOC` 相关规则的重要信息源([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE))。
 
-[@mieqq](https://github.com/mieqq) 👉 A key contributor to the Chinese Surge community. The [mieqq repository](https://github.com/mieqq/mieqq) has consistently maintained a variety of rules and modules, playing a significant role in the early development and promotion of the ecosystem.
+[ThreatBook 微步在线](https://s.threatbook.com/cybercrime/silverfox) 👉 提供银狐木马相关公开威胁情报与攻击活动分析资料，作为 `Phishing_Block.list` 与 `Backdoor_Block.list` 中银狐相关规则的重要信息源。
 
-[@Sukka](https://github.com/SukkaW) 👉 A key developer in rule engineering and distribution infrastructure. The [ruleset.skk.moe](https://ruleset.skk.moe) project provides high-quality rule distribution services for multiple clients and has played an important role in the structural development of the ruleset ecosystem.
+### 🎖️ 重要贡献者
 
-The above acknowledgements are listed in no particular order. If you believe your work is missing from the acknowledgements, please feel free to contact me — I will add it promptly.
+[@mieqq](https://github.com/mieqq) 👉 Surge 中文社区的重要推动者，其仓库 [mieqq](https://github.com/mieqq/mieqq) 长期维护多种规则与模块，对早期生态建设与推广使用做出突出贡献。
 
-## 🔐 Disclaimer
+[@Sukka](https://github.com/SukkaW) 👉 规则工程化与分发体系的重要开发者，其项目 [ruleset.skk.moe](https://ruleset.skk.moe) 为多客户端提供高质量规则分发服务，对规则生态的结构化建设具有重要影响。
 
-This project is a non-profit, open-source security rule set aimed at helping users enhance their network defense capabilities. By using this project, you acknowledge that you have read, understood, and agreed to the following terms:
+以上引用内容排名不分先后，若有遗漏您的项目或贡献，敬请谅解并欢迎联系我，我将第一时间补充致谢。
 
-1. **Third-Party Source Notice**: Portions of this project reference publicly available threat intelligence (e.g., security community reports, threat databases, GitHub projects). All such references are properly cited. If you believe there is an issue, please contact us for correction or removal.
-2. **Module Activation Statement**: This project adheres to the principles of technical neutrality, information transparency, and independent autonomy. The rule set is designed to assist users in identifying potentially risky communication behaviors. All identification modules are disabled by default. The formulation and activation of related strategies are entirely at the user’s own discretion. The project author assumes no responsibility for any communication risks resulting from user configurations.
-3. **False Positive Warning**: As the rule sets may include generalized blocking strategies, users are advised to conduct thorough testing before deployment to ensure normal business operations are not affected. The project author bears no responsibility for connection disruptions, functional issues, or other consequences caused by false positives.
-4. **Commercial Use Notice**: This project is released under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE). You are free to use it for both commercial and non-commercial purposes, provided you comply with the license terms, including attribution and documentation requirements. We strongly oppose abuse of the rule set for closed-source development, infringement of public interest, or any actions contrary to the spirit of open-source.
-5. **No Warranty Clause**: This project is provided “as is” without any express or implied warranties regarding its completeness, accuracy, timeliness, or suitability. Users must assess applicability on their own and bear all associated risks.
-6. **Usage Restrictions**: All rules and configuration files are intended solely for lawful purposes such as network defense, traffic identification, and security research. Any use for offensive actions, reverse engineering, audit bypassing, or illegal activities is strictly prohibited.
-7. **Limitation of Liability**: The project author shall not be held liable for any direct or indirect damages (including but not limited to data breaches, business disruption, or security failures) resulting from the use, replication, or distribution of this project.
-8. **Right to Modify**: The project author reserves the right to update, modify, or remove any content or disclaimer clauses at any time without prior notice. It is recommended that users periodically review the repository for the latest version.
+## 🔐 免责声明
 
-**Author’s Statement**: This project does not engage in malicious activities, does not include hidden backdoors or monitoring mechanisms, does not promote proxy services, and contains no obfuscated or harmful logic. All rule contents are written in plain text, fully commented, structured clearly, and hosted solely within this repository for community review, audit, and traceability.
+本项目为公益性质的开源安全规则集，旨在帮助用户提升网络安全防护能力，使用本项目即表示您已阅读、理解并同意以下条款：
 
-## 🏅 License
+1. **第三方来源说明**：本项目部分内容参考公开威胁情报（如安全社区报告、威胁数据库、GitHub 项目等），所有相关引用均已注明出处。如有异议，请联系我进行修正或删除。
+2. **识别模块启用声明**：本项目坚持技术中立、信息透明、独立自主的原则，规则集旨在辅助用户识别潜在风险通信行为。所有识别模块默认不启用，相关策略制定与启用完全由用户自主决定，项目作者不对因用户配置所导致的通信风险承担任何责任。
+3. **误杀风险提示**：鉴于规则集中可能涉及通用封锁策略，使用者应在部署前充分测试，确保不影响正常业务。如因误拦截造成连接异常、功能缺失或其他后果，项目作者不承担任何责任。
+4. **商业用途说明**：本项目以 [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE) 协议开源发布，您可以自由用于商业与非商业目的，但请务必遵守许可证条款，保留原始作者署名与注释说明。我们反对滥用规则集用于闭源、侵害公共利益或违背开源精神的商业行为。
+5. **无担保条款**：本项目以“按现状”形式提供，不对其完整性、准确性、实时性或适配性做出任何明示或暗示的担保。使用者应自行判断适用性并承担所有使用风险。
+6. **用途限定**：所有规则与配置文件仅供用于合法的网络防御、流量识别与安全研究。严禁将本项目用于任何攻击性行为、逆向工程、绕过审计等违法或灰色用途。
+7. **责任限制**：对因使用、复制或传播本项目内容所产生的任何直接或间接损失（包括但不限于数据泄漏、业务中断、安全故障等），项目作者不承担任何法律责任。
+8. **变更权利**：项目作者保留随时更新、修改或删除项目内容与本免责声明的权利，恕不另行通知。建议您定期检查仓库以获取最新版本。
 
-**Copyright and Distribution Notice:** This project is licensed under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE). You may use, modify, and distribute this project — including for commercial purposes — provided that you comply with the terms of the license.
+**本人郑重声明**：本项目不作恶、不夹带私货，不推荐任何代理节点部署、不涉及流量劫持或监听机制，亦不包含任何恶意逻辑或隐藏行为。所有规则内容均以明文形式提供，结构清晰、注释完整、不依赖第三方源，所有规则文件均托管于本仓库，便于社区成员审阅、溯源与监督。
 
-**This project upholds the principles of open source and advocates for a healthy, sustainable open-source ecosystem:**
+## 🏅 版权声明
 
-- Please retain the original author attribution and license notice.
-- Please preserve key annotations and source references to ensure auditability and traceability.
-- Do not misuse the rule set in ways that violate the spirit of open source or harm the public interest.
+**版权与分发说明**：本项目采用 [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE) 授权。你可以在遵守许可证条款的前提下，自由使用、修改与分发本项目内容，包括用于商业用途。
 
-Additionally, the Aegis project has enabled [GPG](https://gnupg.org) commit signing to ensure the authenticity and integrity of its codebase. You may verify each commit through its GPG signature to gain higher assurance that the code has not been tampered with.
+**本项目秉持开源理念，并倡导社区共同维护健康、可持续的开源生态：**
+
+- 请保留原始作者署名及许可证声明信息；
+- 请保留关键注释与来源信息，以保障规则的可审计性与可追溯性；
+- 不将规则集用于违背开源精神或损害公共利益的行为。
+
+此外，Aegis 项目已启用 [GPG](https://gnupg.org) 签名机制，以确保项目代码来源真实可信、未被篡改。你可通过 GPG 签名验证每一次提交操作的完整性，从而获得更高的安全保障。
 
 > [!NOTE]
-> To ensure the security, integrity, and auditability of the rule sets, and to support long-term maintenance and continuous validation, we recommend distributing and using them via remote reference.
+> 为确保规则集的安全性、完整性与可审计性，并保障长期维护与持续校对能力，建议通过远程引用方式分发与使用本项目规则集。
 
 > [!WARNING]
-> Directly copying and statically maintaining the rule contents may lead to: Version drift and rule invalidation, Missing critical security updates, Overlooking newly added threat intelligence or false-positive fixes, Increased maintenance burden and trust risks.
+> 直接复制规则内容并长期静态使用，可能带来以下风险：版本漂移与规则失效，无法及时获取安全更新，错过新增威胁情报或误判修复，增加维护成本与信任风险。
 
-## ⭐ Star History
+## ⭐ Star 趋势
 
 <p align="center">
   <a href="https://star-history.com/#Thoseyearsbrian/Aegis&Date">
