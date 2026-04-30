@@ -4,8 +4,8 @@
 # - 特征：识别受出口地区、服务政策、区域可用性或功能限制影响的国际服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-28
-# - 校对时间：2026-04-28
+# - 更新时间：2026-04-30
+# - 校对时间：2026-04-30
 
 # > Kaspersky（卡巴斯基）相关域名
 # - 数据来源：https://support.kaspersky.com/us/common/start/6105
@@ -105,3 +105,8 @@ DOMAIN-SUFFIX,downloads.upd.kaspersky.com # 更新下载主域
 DOMAIN-SUFFIX,crl.kaspersky.com # CRL 验证
 DOMAIN-SUFFIX,ocsp.kaspersky.com # OCSP 验证
 DOMAIN-SUFFIX,moebius.kaspersky-labs.com # 内部镜像服务
+
+# > Kaspersky Security Network（Kaspersky KSN 云安全网络）
+# - 校对时间：2026-04-30
+
+IP-CIDR,79.133.169.139/32 # Kaspersky KSN 云安全网络节点（dc1-st.ksn.kaspersky-labs.com）
