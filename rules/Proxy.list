@@ -1072,6 +1072,26 @@ DOMAIN-SUFFIX,signal.me # 联系链接域名
 DOMAIN-SUFFIX,signal.art # 贴纸与资源域名
 DOMAIN-SUFFIX,signal.tube # 媒体内容域名
 
+# > Rust Programming Language Platform（Rust 编程语言平台）
+# - 校对时间：2026-05-01
+
+DOMAIN-SUFFIX,rust-lang.org # Rust 官方主站与文档服务域名
+DOMAIN-SUFFIX,play.rust-lang.org # Rust 官方在线代码运行环境域名
+DOMAIN-SUFFIX,users.rust-lang.org # Rust 官方用户社区论坛域名
+DOMAIN-SUFFIX,foundation.rust-lang.org # Rust Foundation 历史政策与资源入口域名
+DOMAIN-SUFFIX,social.rust-lang.org # Rust 官方 Mastodon 社交实例域名
+DOMAIN-SUFFIX,crates.io # Rust crates.io 包注册表域名
+DOMAIN-SUFFIX,index.crates.io # Rust crates.io 包索引服务域名
+DOMAIN-SUFFIX,static.crates.io # Rust crates.io 包文件与静态资源域名
+DOMAIN-SUFFIX,static.rust-lang.org # Rust 工具链与组件分发域名
+DOMAIN-SUFFIX,rustup.rs # Rustup 工具链安装入口域名
+DOMAIN-SUFFIX,sh.rustup.rs # Rustup 安装脚本服务域名
+
+# > Bluesky Social Platform（Bluesky 社交平台）
+# - 校对时间：2026-05-01
+
+DOMAIN-SUFFIX,bsky.app # Bluesky Web 应用域名
+
 # > GnuPG / OpenPGP Key Service（GnuPG / OpenPGP 密钥服务）
 # - 校对时间：2026-03-28
 
