@@ -215,6 +215,12 @@ Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch o
    If you experience temporary LAN communication issues (e.g., AirDrop, Bonjour, or NAS) after switching networks such as Wi-Fi ↔ hotspot, select “Stop Proxy” → “Start Proxy” in the menu to rebuild the routing table and restore connectivity.
    ```
 
+5. **Usage notes for domain rules and IP network segment rules**
+
+   ```bash
+   It is recommended to prioritize DOMAIN-SUFFIX domain rules for identifying specific services and business affiliation, while using IP-CIDR and IP-CIDR6 rules as references for network hosting and infrastructure ownership. Large platform network ranges may host third-party services or open-source project resources, and they do not necessarily represent specific services or business affiliation. Service identity and hosting infrastructure should not be confused.
+   ```
+
 ## 🌟 Special Thanks
 
 This project is built upon inspiration and reference from numerous outstanding open-source initiatives within the [GitHub](https://github.com) community. We extend our sincere gratitude to all developers who have contributed to the open-source ecosystem.
