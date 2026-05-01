@@ -7474,10 +7474,15 @@ DOMAIN-SUFFIX,assets.partnerpage.io # PartnerPage 静态资源域名
 DOMAIN-SUFFIX,directory.static.partnerpage.io # PartnerPage 目录静态资源域名
 DOMAIN-SUFFIX,content.partnerpage.io # PartnerPage 内容服务域名
 
-# > Rust Package Registry（Rust 包注册表）
+# > Rust Programming Language Platform（Rust 编程语言平台）
 # - 校对时间：2026-05-01
 
+DOMAIN-SUFFIX,rust-lang.org # Rust 官方主站与文档服务域名
+DOMAIN-SUFFIX,crates.io # Rust crates.io 包注册表域名
 DOMAIN-SUFFIX,index.crates.io # Rust crates.io 包索引服务域名
+DOMAIN-SUFFIX,static.crates.io # Rust crates.io 包文件与静态资源域名
+DOMAIN-SUFFIX,static.rust-lang.org # Rust 工具链与组件分发域名
+DOMAIN-SUFFIX,rustup.rs # Rustup 工具链安装入口域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
