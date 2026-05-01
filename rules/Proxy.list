@@ -1098,6 +1098,12 @@ DOMAIN-SUFFIX,bsky.app # Bluesky Web 应用域名
 
 DOMAIN-SUFFIX,sea1.discourse-cdn.com # Discourse 托管论坛静态资源 CDN 域名
 
+# > Mastodon Federated Social Platform（Mastodon 联邦式社交平台相关域名）
+# - 校对时间：2026-05-01
+
+DOMAIN-SUFFIX,masto.host # Masto.host 托管 Mastodon 实例服务主域名
+DOMAIN-SUFFIX,cdn.masto.host # Masto.host 托管 Mastodon 媒体 CDN 域名
+
 # > GnuPG / OpenPGP Key Service（GnuPG / OpenPGP 密钥服务）
 # - 校对时间：2026-03-28
 
