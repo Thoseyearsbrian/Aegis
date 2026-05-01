@@ -1076,6 +1076,7 @@ DOMAIN-SUFFIX,signal.tube # 媒体内容域名
 # - 校对时间：2026-05-01
 
 DOMAIN-SUFFIX,rust-lang.org # Rust 官方主站与文档服务域名
+DOMAIN-SUFFIX,rustfoundation.org # Rust Foundation 官方主域名
 DOMAIN-SUFFIX,play.rust-lang.org # Rust 官方在线代码运行环境域名
 DOMAIN-SUFFIX,users.rust-lang.org # Rust 官方用户社区论坛域名
 DOMAIN-SUFFIX,foundation.rust-lang.org # Rust Foundation 历史政策与资源入口域名
@@ -1091,6 +1092,11 @@ DOMAIN-SUFFIX,sh.rustup.rs # Rustup 安装脚本服务域名
 # - 校对时间：2026-05-01
 
 DOMAIN-SUFFIX,bsky.app # Bluesky Web 应用域名
+
+# > Discourse Forum CDN（Discourse 论坛静态资源 CDN）
+# - 校对时间：2026-05-01
+
+DOMAIN-SUFFIX,sea1.discourse-cdn.com # Discourse 托管论坛静态资源 CDN 域名
 
 # > GnuPG / OpenPGP Key Service（GnuPG / OpenPGP 密钥服务）
 # - 校对时间：2026-03-28
