@@ -7306,6 +7306,11 @@ DOMAIN-SUFFIX,videolan.org # VLC 媒体播放器开源项目官方网站
 DOMAIN-SUFFIX,archive.org # Internet Archive 主域名
 DOMAIN-SUFFIX,web.archive.org # Wayback Machine 子域名
 
+# > MoinMoin Wiki Engine（MoinMoin Wiki 引擎）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,moinmo.in # MoinMoin Wiki 引擎官方项目域名
+
 # > StarChart Analytics Platform（StarChart GitHub 项目趋势与统计分析平台）
 # - 校对时间：2026-03-28
 
