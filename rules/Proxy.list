@@ -7712,6 +7712,8 @@ DOMAIN-SUFFIX,repo.maven.apache.org # Maven Central 官方仓库服务域名
 DOMAIN-SUFFIX,repo1.maven.org # Maven Central 历史仓库服务域名
 DOMAIN-SUFFIX,search.maven.org # Maven Central 包检索服务域名
 DOMAIN-SUFFIX,central.sonatype.com # Sonatype Central Portal 包检索与发布平台域名
+DOMAIN-SUFFIX,sonatype.org # Sonatype 开源仓库文档与支持主域名
+DOMAIN-SUFFIX,central.sonatype.org # Sonatype Central Repository 支持文档域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
