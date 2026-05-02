@@ -7637,6 +7637,11 @@ DOMAIN-SUFFIX,linuxfoundation.org # Linux Foundation 官方主域名
 DOMAIN-SUFFIX,platform.linuxfoundation.org # Linux Foundation 平台服务域名
 DOMAIN-SUFFIX,cdn.dev.platform.linuxfoundation.org # Linux Foundation 平台开发环境静态资源 CDN 域名
 
+# > OpenJS Foundation（OpenJS 基金会）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,openjsf.org # OpenJS Foundation 官方主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
