@@ -7670,6 +7670,14 @@ DOMAIN-SUFFIX,atlassian.net # Atlassian Cloud 产品服务域名
 DOMAIN-SUFFIX,atl-paas.net # Atlassian Cloud 平台基础设施域名
 DOMAIN-SUFFIX,ds-cdn.prod-east.frontend.public.atl-paas.net # Atlassian Cloud 前端静态资源 CDN 域名
 
+# > LivePerson Customer Messaging Platform（LivePerson 客户沟通平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,liveperson.net # LivePerson 客户沟通平台主服务域名
+DOMAIN-SUFFIX,lpsnmedia.net # LivePerson 媒体与静态资源服务域名
+DOMAIN-SUFFIX,accdn.lpsnmedia.net # LivePerson 前端静态资源 CDN 域名
+DOMAIN-SUFFIX,lptag.liveperson.net # LivePerson 前端标签脚本服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
