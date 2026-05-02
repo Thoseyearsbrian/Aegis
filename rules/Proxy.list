@@ -7562,6 +7562,7 @@ DOMAIN-SUFFIX,python.org # Python 官方主站与文档服务域名
 DOMAIN-SUFFIX,docs.python.org # Python 官方文档服务域名
 DOMAIN-SUFFIX,peps.python.org # Python PEP 提案文档域名
 DOMAIN-SUFFIX,packaging.python.org # Python 打包与分发文档域名
+DOMAIN-SUFFIX,brochure.getpython.info # PSF Python Brochure 宣传资料域名
 DOMAIN-SUFFIX,pypi.org # Python PyPI 包注册表域名
 DOMAIN-SUFFIX,files.pythonhosted.org # Python PyPI 包文件分发域名
 DOMAIN-SUFFIX,pythonhosted.org # Python 项目文档托管历史域名
