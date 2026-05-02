@@ -7602,6 +7602,12 @@ DOMAIN-SUFFIX,pythonguis.com # Python GUI 开发教程与学习资源域名
 DOMAIN-SUFFIX,tryton.org # Tryton 官方主域名
 DOMAIN-SUFFIX,discuss-cdn.tryton.org # Tryton 论坛静态资源 CDN 域名
 
+# > Python Library / Mouse Vs Python Blog（Python Library / Mouse Vs Python 博客）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,pythonlibrary.org # Python Library 项目与资源主域名
+DOMAIN-SUFFIX,blog.pythonlibrary.org # Mouse Vs Python / Python Library 博客域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
