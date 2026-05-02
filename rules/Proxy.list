@@ -7549,6 +7549,11 @@ DOMAIN-SUFFIX,pkg.go.dev # Go 包文档服务域名
 DOMAIN-SUFFIX,proxy.golang.org # Go Module Proxy 服务域名
 DOMAIN-SUFFIX,sum.golang.org # Go Checksum Database 服务域名
 
+# > Golang Weekly Newsletter（Golang Weekly 周刊）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,golangweekly.com # Golang Weekly Go 语言开发者周刊域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
