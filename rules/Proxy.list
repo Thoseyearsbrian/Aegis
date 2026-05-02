@@ -7512,6 +7512,17 @@ DOMAIN-SUFFIX,assets.partnerpage.io # PartnerPage 静态资源域名
 DOMAIN-SUFFIX,directory.static.partnerpage.io # PartnerPage 目录静态资源域名
 DOMAIN-SUFFIX,content.partnerpage.io # PartnerPage 内容服务域名
 
+# > Nift Gift Discovery Platform（Nift 礼品发现平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,cdn.nift.me # Nift 礼品发现平台静态资源 CDN 域名
+
+# > Meetup Community Event Platform（Meetup 社群活动平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,secure-content.meetupstatic.com # Meetup 活动图片与内容资源域名
+DOMAIN-SUFFIX,secure.meetupstatic.com # Meetup 图片与媒体资源域名
+
 # > Rust Programming Language Platform（Rust 编程语言平台）
 # - 校对时间：2026-05-01
 
