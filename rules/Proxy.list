@@ -1088,6 +1088,11 @@ DOMAIN-SUFFIX,static.rust-lang.org # Rust 工具链与组件分发域名
 DOMAIN-SUFFIX,rustup.rs # Rustup 工具链安装入口域名
 DOMAIN-SUFFIX,sh.rustup.rs # Rustup 安装脚本服务域名
 
+# > Gophers Slack Community（Gophers Slack 社区）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,invite.slack.golangbridge.org # Gophers Slack 社区邀请入口域名
+
 # > Bluesky Social Platform（Bluesky 社交平台）
 # - 校对时间：2026-05-02
 
