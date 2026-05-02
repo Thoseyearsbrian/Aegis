@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-01
-# - 校对时间：2026-05-01
+# - 更新时间：2026-05-02
+# - 校对时间：2026-05-02
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -7521,6 +7521,15 @@ DOMAIN-SUFFIX,index.crates.io # Rust crates.io 包索引服务域名
 DOMAIN-SUFFIX,static.crates.io # Rust crates.io 包文件与静态资源域名
 DOMAIN-SUFFIX,static.rust-lang.org # Rust 工具链与组件分发域名
 DOMAIN-SUFFIX,rustup.rs # Rustup 工具链安装入口域名
+
+# > Go Programming Language Platform（Go 编程语言平台）
+# - 校对时间：2026-05-01
+
+DOMAIN-SUFFIX,go.dev # Go 官方主站与开发者文档域名
+DOMAIN-SUFFIX,golang.org # Go 历史官方主域名
+DOMAIN-SUFFIX,pkg.go.dev # Go 包文档服务域名
+DOMAIN-SUFFIX,proxy.golang.org # Go Module Proxy 服务域名
+DOMAIN-SUFFIX,sum.golang.org # Go Checksum Database 服务域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
