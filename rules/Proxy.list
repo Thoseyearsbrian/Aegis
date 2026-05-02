@@ -1106,9 +1106,10 @@ DOMAIN-SUFFIX,cdn.masto.host # Masto.host 托管 Mastodon 媒体 CDN 域名
 DOMAIN-SUFFIX,hachyderm.io # Hachyderm Mastodon 技术社区实例域名
 
 # > Stack Overflow Developer Q&A Platform（Stack Overflow 开发者问答平台）
-# - 校对时间：2026-05-01
+# - 校对时间：2026-05-02
 
 DOMAIN-SUFFIX,stackoverflow.com # Stack Overflow 开发者问答社区主域名
+DOMAIN-SUFFIX,i.sstatic.net # Stack Overflow / Stack Exchange 图片与静态资源域名
 
 # > GnuPG / OpenPGP Key Service（GnuPG / OpenPGP 密钥服务）
 # - 校对时间：2026-03-28
