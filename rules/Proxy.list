@@ -7645,6 +7645,7 @@ DOMAIN-SUFFIX,openjsf.org # OpenJS Foundation 官方主域名
 DOMAIN-SUFFIX,javascriptlandia.com # OpenJS Foundation JavaScriptLandia 项目域名
 DOMAIN-SUFFIX,openvisualization.org # OpenJS Open Visualization 协作空间域名
 DOMAIN-SUFFIX,openjsf.cdn.prismic.io # OpenJS Foundation Prismic 内容资源 CDN 域名
+DOMAIN-SUFFIX,open-visualization.cdn.prismic.io # OpenJS Open Visualization Prismic 内容资源 CDN 域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
