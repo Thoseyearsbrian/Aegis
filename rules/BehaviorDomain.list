@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-28
-# - 校对时间：2026-04-28
+# - 更新时间：2026-05-02
+# - 校对时间：2026-05-02
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -796,3 +796,8 @@ DOMAIN-SUFFIX,spm.iyoudui.com # 有兜埋点追踪服务域名
 # - 校对时间：2026-04-28
 
 DOMAIN-SUFFIX,amazonservices.122.2o7.net # Amazon Adobe Analytics 访问统计域名
+
+# > Oracle Adobe Analytics Tracking（Oracle Adobe Analytics 跟踪服务）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,oracle.sc.omtrdc.net # Oracle Adobe Analytics 行为分析采集域名
