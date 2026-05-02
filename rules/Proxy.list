@@ -570,6 +570,13 @@ DOMAIN-SUFFIX,pinterest.fr # 区域站点域名
 DOMAIN-SUFFIX,pinterest.se # 区域站点域名
 DOMAIN-SUFFIX,pinterest.at # 区域站点域名
 
+# > Flickr Photo Sharing Platform（Flickr 图片分享平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,flickr.com # Flickr 图片分享平台主域名
+DOMAIN-SUFFIX,staticflickr.com # Flickr 图片与静态资源域名
+DOMAIN-SUFFIX,live.staticflickr.com # Flickr 图片资源 CDN 域名
+
 # > Venmo Payment Platform（Venmo 支付平台）
 # - 校对时间：2026-03-28
 
