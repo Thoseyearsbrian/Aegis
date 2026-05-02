@@ -7720,6 +7720,11 @@ DOMAIN-SUFFIX,central.sonatype.org # Sonatype Central Repository 支持文档域
 
 DOMAIN-SUFFIX,polyfill-fastly.io # Fastly Polyfill 浏览器兼容性填充服务域名
 
+# > Sonatype Software Supply Chain Platform（Sonatype 软件供应链平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,sonatype.com # Sonatype 官方主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
