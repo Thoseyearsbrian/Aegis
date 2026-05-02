@@ -7662,6 +7662,14 @@ DOMAIN-SUFFIX,prismic.io # Prismic 内容管理平台主域名
 DOMAIN-SUFFIX,static.cdn.prismic.io # Prismic 静态内容资源 CDN 域名
 DOMAIN-SUFFIX,openjsf.prismic.io # OpenJS Foundation Prismic 内容管理服务域名
 
+# > Atlassian Cloud Platform（Atlassian 云协作平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,atlassian.com # Atlassian 官方主域名
+DOMAIN-SUFFIX,atlassian.net # Atlassian Cloud 产品服务域名
+DOMAIN-SUFFIX,atl-paas.net # Atlassian Cloud 平台基础设施域名
+DOMAIN-SUFFIX,ds-cdn.prod-east.frontend.public.atl-paas.net # Atlassian Cloud 前端静态资源 CDN 域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
