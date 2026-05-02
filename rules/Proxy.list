@@ -7652,6 +7652,7 @@ DOMAIN-SUFFIX,open-visualization.cdn.prismic.io # OpenJS Open Visualization Pris
 
 DOMAIN-SUFFIX,prismic.io # Prismic 内容管理平台主域名
 DOMAIN-SUFFIX,static.cdn.prismic.io # Prismic 静态内容资源 CDN 域名
+DOMAIN-SUFFIX,openjsf.prismic.io # OpenJS Foundation Prismic 内容管理服务域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
