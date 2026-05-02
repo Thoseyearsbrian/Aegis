@@ -1089,9 +1089,10 @@ DOMAIN-SUFFIX,rustup.rs # Rustup 工具链安装入口域名
 DOMAIN-SUFFIX,sh.rustup.rs # Rustup 安装脚本服务域名
 
 # > Bluesky Social Platform（Bluesky 社交平台）
-# - 校对时间：2026-05-01
+# - 校对时间：2026-05-02
 
 DOMAIN-SUFFIX,bsky.app # Bluesky Web 应用域名
+DOMAIN-SUFFIX,bsky.social # Bluesky 官方主站与账号句柄域名
 
 # > Discourse Forum CDN（Discourse 论坛静态资源 CDN）
 # - 校对时间：2026-05-01
