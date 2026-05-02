@@ -7687,6 +7687,26 @@ DOMAIN-SUFFIX,lpsnmedia.net # LivePerson 媒体与静态资源服务域名
 DOMAIN-SUFFIX,accdn.lpsnmedia.net # LivePerson 前端静态资源 CDN 域名
 DOMAIN-SUFFIX,lptag.liveperson.net # LivePerson 前端标签脚本服务域名
 
+# > Java Programming Language Platform（Java 编程语言平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,java.com # Java 官方主站域名
+DOMAIN-SUFFIX,dev.java # Java 官方开发者资源域名
+DOMAIN-SUFFIX,openjdk.org # OpenJDK 官方项目域名
+DOMAIN-SUFFIX,jdk.java.net # OpenJDK JDK 构建与早期访问版本域名
+DOMAIN-SUFFIX,jcp.org # Java Community Process 官方规范流程域名
+DOMAIN-SUFFIX,docs.oracle.com # Oracle Java 官方文档服务域名
+DOMAIN-SUFFIX,download.oracle.com # Oracle Java 下载资源域名
+
+# > Maven Central Repository（Maven Central 中央仓库）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,maven.org # Apache Maven 官方主域名
+DOMAIN-SUFFIX,repo.maven.apache.org # Maven Central 官方仓库服务域名
+DOMAIN-SUFFIX,repo1.maven.org # Maven Central 历史仓库服务域名
+DOMAIN-SUFFIX,search.maven.org # Maven Central 包检索服务域名
+DOMAIN-SUFFIX,central.sonatype.com # Sonatype Central Portal 包检索与发布平台域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
