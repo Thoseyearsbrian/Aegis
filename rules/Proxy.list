@@ -7608,6 +7608,28 @@ DOMAIN-SUFFIX,discuss-cdn.tryton.org # Tryton 论坛静态资源 CDN 域名
 DOMAIN-SUFFIX,pythonlibrary.org # Python Library 项目与资源主域名
 DOMAIN-SUFFIX,blog.pythonlibrary.org # Mouse Vs Python / Python Library 博客域名
 
+# > Node.js JavaScript Runtime Platform（Node.js JavaScript 运行时平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,nodejs.org # Node.js 官方主站、文档与下载服务域名
+
+# > npm JavaScript Package Registry（npm JavaScript 包注册表）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,npmjs.com # npm 官方主站与包管理平台域名
+DOMAIN-SUFFIX,registry.npmjs.org # npm 包注册表 API 与依赖解析域名
+
+# > TypeScript Programming Language Platform（TypeScript 编程语言平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,typescriptlang.org # TypeScript 官方主站与文档服务域名
+
+# > ECMAScript Standards and TC39（ECMAScript 标准与 TC39 提案平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,tc39.es # TC39 ECMAScript 标准与提案文档域名
+DOMAIN-SUFFIX,ecma-international.org # Ecma International 官方标准组织域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
