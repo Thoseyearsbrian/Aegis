@@ -102,6 +102,16 @@ DOMAIN-SUFFIX,ipv6.lookup.test-ipv6.com # Test-IPv6 域名解析测试子域
 
 DOMAIN-SUFFIX,whoer.net # Whoer 匿名性检测平台主域名
 
+# > IPLeak Privacy Leak Test（IPLeak 隐私泄露检测平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,ipleak.net # IP 地址、DNS 与 WebRTC 泄露检测平台主域名
+
+# > DNSCheck DNS Diagnostic Tool（DNSCheck DNS 诊断工具）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,dnscheck.tools # DNS 解析、出口与泄露检测工具主域名
+
 # > Scamalytics（Scamalytics IP 风险检测平台）
 # - 校对时间：2026-03-27
 
