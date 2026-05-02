@@ -7625,6 +7625,7 @@ DOMAIN-SUFFIX,nodejs.org # Node.js 官方主站、文档与下载服务域名
 
 DOMAIN-SUFFIX,npmjs.com # npm 官方主站与包管理平台域名
 DOMAIN-SUFFIX,registry.npmjs.org # npm 包注册表 API 与依赖解析域名
+DOMAIN-SUFFIX,status.npmjs.org # npm 官方服务状态页面域名
 
 # > TypeScript Programming Language Platform（TypeScript 编程语言平台）
 # - 校对时间：2026-05-02
