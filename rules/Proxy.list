@@ -7574,6 +7574,34 @@ DOMAIN-SUFFIX,pypi.org # Python PyPI 包注册表域名
 DOMAIN-SUFFIX,files.pythonhosted.org # Python PyPI 包文件分发域名
 DOMAIN-SUFFIX,pythonhosted.org # Python 项目文档托管历史域名
 
+# > mathspp Python Education Blog（mathspp Python 教育博客）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,mathspp.com # mathspp Python 编程与数学教育博客域名
+
+# > JetBrains Developer Platform（JetBrains 开发者平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,jetbrains.com # JetBrains 官方主域名
+DOMAIN-SUFFIX,blog.jetbrains.com # JetBrains 官方开发者博客域名
+
+# > EuroPython Conference Platform（EuroPython 大会平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,europython.eu # EuroPython 大会官方主域名
+DOMAIN-SUFFIX,blog.europython.eu # EuroPython 大会官方博客域名
+
+# > Python GUIs Learning Platform（Python GUIs 图形界面开发学习平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,pythonguis.com # Python GUI 开发教程与学习资源域名
+
+# > Tryton Application Platform（Tryton 应用平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,tryton.org # Tryton 官方主域名
+DOMAIN-SUFFIX,discuss-cdn.tryton.org # Tryton 论坛静态资源 CDN 域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
