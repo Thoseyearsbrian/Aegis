@@ -4478,12 +4478,10 @@ DOMAIN-SUFFIX,api.axept.io # API 接口域名
 DOMAIN-SUFFIX,axeptio.imgix.net # 图片资源域名
 
 # > Privacy Compliance Services（Privacy Compliance 数据保护与隐私合规）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-02
 
 DOMAIN-SUFFIX,prighter.com # 平台主域名
 DOMAIN-SUFFIX,api.prighter.com # API 接口域名
-DOMAIN-SUFFIX,trustarc.com # 平台主域名
-DOMAIN-SUFFIX,privacy.trustarc.com # 隐私门户域名
 DOMAIN-SUFFIX,onetrust.com # 平台主域名
 DOMAIN-SUFFIX,trust.oneprivacy.com # 处理服务域名
 DOMAIN-SUFFIX,osano.com # 平台主域名
@@ -5222,6 +5220,14 @@ DOMAIN-SUFFIX,w.hcaptcha.com # hCaptcha 前端验证组件与资源分发
 DOMAIN-SUFFIX,consent.cookiebot.com # Cookiebot API 域名
 DOMAIN-SUFFIX,consentcdn.cookiebot.com # Cookiebot 静态资源 CDN
 DOMAIN-SUFFIX,imgsct.cookiebot.com # Cookiebot 静态资源域名
+
+# > TrustArc Consent Management Platform（TrustArc 同意管理平台）
+# - 校对时间：2026-05-02
+
+DOMAIN-SUFFIX,trustarc.com # 平台主域名
+DOMAIN-SUFFIX,privacy.trustarc.com # 隐私门户域名
+DOMAIN-SUFFIX,truste.com # TrustArc / TRUSTe 隐私认证与同意管理服务主域名
+DOMAIN-SUFFIX,consent.truste.com # TrustArc 同意管理服务域名
 
 # > Fern Domains（Fern 文档平台资源加载域名）
 # - 校对时间：2026-03-28
