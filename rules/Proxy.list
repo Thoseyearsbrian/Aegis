@@ -7878,6 +7878,7 @@ DOMAIN-SUFFIX,swift.org # Swift 官方主站、文档、社区与工具链资源
 # - 校对时间：2026-05-03
 
 DOMAIN-SUFFIX,swiftpackageindex.com # Swift Package Index 社区包索引与检索平台域名
+DOMAIN-SUFFIX,swiftpackageindexing.transistor.fm # Swift Package Indexing 播客托管域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
