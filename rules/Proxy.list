@@ -1176,6 +1176,12 @@ DOMAIN-SUFFIX,2023dpesummit.splashthat.com # DPE Summit 2023 活动页面域名
 DOMAIN-SUFFIX,stackoverflow.com # Stack Overflow 开发者问答社区主域名
 DOMAIN-SUFFIX,i.sstatic.net # Stack Overflow / Stack Exchange 图片与静态资源域名
 
+# > MDN Web Docs Developer Documentation（MDN Web Docs 开发者文档平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,developer.mozilla.org # MDN Web Docs 官方开发者文档域名
+DOMAIN-SUFFIX,mdn.dev # MDN Web Docs 开发与预览服务域名
+
 # > GnuPG / OpenPGP Key Service（GnuPG / OpenPGP 密钥服务）
 # - 校对时间：2026-03-28
 
