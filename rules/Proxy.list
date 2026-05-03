@@ -7814,6 +7814,20 @@ DOMAIN-SUFFIX,rubycentral.org # Ruby Central 官方主域名
 
 DOMAIN-SUFFIX,ruby.social # Ruby.social Rubyist Mastodon 社区实例域名
 
+# > .NET and C# Developer Platform（.NET 与 C# 开发者平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,dotnet.microsoft.com # .NET 官方主站、文档与下载入口域名
+DOMAIN-SUFFIX,dot.net # .NET 官方短域名与跳转入口
+DOMAIN-SUFFIX,dotnetfoundation.org # .NET Foundation 官方主域名
+
+# > NuGet Package Registry（NuGet 包注册表）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,nuget.org # NuGet 官方包注册表主域名
+DOMAIN-SUFFIX,api.nuget.org # NuGet 官方包注册表 API 与依赖解析域名
+DOMAIN-SUFFIX,globalcdn.nuget.org # NuGet 官方包文件 CDN 分发域名
+
 # > Plausible Analytics（Plausible 隐私友好型网站分析服务）
 # - 校对时间：2026-05-03
 
