@@ -7857,6 +7857,13 @@ DOMAIN-SUFFIX,downloads.php.net # PHP 官方下载镜像服务域名
 DOMAIN-SUFFIX,pecl.php.net # PECL PHP 扩展仓库域名
 DOMAIN-SUFFIX,pear.php.net # PEAR PHP 扩展与应用仓库域名
 
+# > Packagist PHP Package Repository（Packagist PHP 包仓库）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,packagist.org # Packagist 公共 Composer / PHP 包注册表域名
+DOMAIN-SUFFIX,repo.packagist.org # Packagist Composer 包元数据仓库服务域名
+DOMAIN-SUFFIX,packagist.com # Private Packagist 私有 Composer / PHP 包仓库服务域名
+
 # > Composer PHP Dependency Manager（Composer PHP 依赖管理工具）
 # - 校对时间：2026-05-03
 
