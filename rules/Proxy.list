@@ -7838,6 +7838,31 @@ DOMAIN-SUFFIX,globalcdn.nuget.org # NuGet 官方包文件 CDN 分发域名
 
 DOMAIN-SUFFIX,plausible.io # Plausible 隐私友好型网站分析服务主域名
 
+# > C Programming Language Standards（C 编程语言标准）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,open-std.org # ISO C / C++ 标准委员会文档主域名
+DOMAIN-SUFFIX,www.open-std.org # ISO C / C++ 标准委员会文档服务域名
+
+# > C++ Programming Language Platform（C++ 编程语言平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,isocpp.org # Standard C++ 官方主站与标准化资讯域名
+DOMAIN-SUFFIX,cppreference.com # C / C++ 语言与标准库参考文档域名
+DOMAIN-SUFFIX,cplusplus.com # C++ 教程与参考文档社区域名
+
+# > GNU Compiler Collection（GNU 编译器集合）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,gcc.gnu.org # GCC 官方主站、文档与发布服务域名
+
+# > LLVM and Clang Compiler Infrastructure（LLVM 与 Clang 编译器基础设施）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,llvm.org # LLVM 官方主站、文档与发布服务域名
+DOMAIN-SUFFIX,clang.llvm.org # Clang C / C++ 编译器官方文档域名
+DOMAIN-SUFFIX,releases.llvm.org # LLVM / Clang 官方版本发布与下载服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
