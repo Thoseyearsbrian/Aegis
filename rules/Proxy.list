@@ -3444,6 +3444,11 @@ DOMAIN-SUFFIX,dockerstatus.com # Docker 服务状态页面域名
 DOMAIN-SUFFIX,kubernetes.io # Kubernetes 官方主站、文档与发布说明域名
 DOMAIN-SUFFIX,k8s.io # Kubernetes 官方基础设施、下载、镜像仓库与软件包仓库域名
 
+# > Testcontainers Development Testing Platform（Testcontainers 开发测试平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,testcontainers.com # Testcontainers 官方主站、文档、模块与桌面应用服务域名
+
 # > Anker Brand Service（Anker 品牌服务）
 # - 校对时间：2026-04-23
 
