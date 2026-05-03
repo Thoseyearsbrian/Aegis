@@ -7842,7 +7842,8 @@ DOMAIN-SUFFIX,plausible.io # Plausible 隐私友好型网站分析服务主域�
 # - 校对时间：2026-05-03
 
 DOMAIN-SUFFIX,open-std.org # ISO C / C++ 标准委员会文档主域名
-DOMAIN-SUFFIX,www.open-std.org # ISO C / C++ 标准委员会文档服务域名
+DOMAIN-SUFFIX,www7.open-std.org # ISO C / C++ 标准委员会文档镜像站域名
+DOMAIN-SUFFIX,www9.open-std.org # ISO C / C++ 标准委员会 HTTPS 文档镜像站域名
 
 # > C++ Programming Language Platform（C++ 编程语言平台）
 # - 校对时间：2026-05-03
