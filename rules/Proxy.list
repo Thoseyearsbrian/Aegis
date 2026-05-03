@@ -5528,6 +5528,12 @@ DOMAIN-SUFFIX,gitlab.net # GitLab 平台服务域名
 DOMAIN-SUFFIX,gitlab.io # GitLab Pages 静态站点托管域名
 DOMAIN-SUFFIX,status.gitlab.com # GitLab 官方服务状态页面域名
 
+# > Arkose Labs Fraud Prevention Service（Arkose Labs 风控验证服务）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,arkoselabs.com # Arkose Labs 风控验证服务主域名
+DOMAIN-SUFFIX,gitlab-api.arkoselabs.com # GitLab 使用的 Arkose Labs 风控验证服务域名
+
 # > Koala Inspector Service Domains（Koala Inspector 电商监控与竞品分析工具相关域名）
 # - 校对时间：2026-03-28
 
