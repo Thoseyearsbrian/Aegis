@@ -1206,6 +1206,11 @@ DOMAIN-SUFFIX,docusaurus.io # Docusaurus 官方主域名与文档站点生成框
 
 DOMAIN-SUFFIX,sphinx-doc.org # Sphinx 官方主域名与 Python 文档生成器入口
 
+# > MkDocs Documentation Site Generator（MkDocs 文档站点生成器）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,mkdocs.org # MkDocs 官方主域名与 Markdown 文档站点生成器入口
+
 # > Fundraise Up Digital Fundraising Platform（Fundraise Up 在线捐赠与筹款平台）
 # - 校对时间：2026-05-03
 
