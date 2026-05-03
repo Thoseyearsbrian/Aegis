@@ -1183,6 +1183,12 @@ DOMAIN-SUFFIX,developer.mozilla.org # MDN Web Docs 官方开发者文档域名
 DOMAIN-SUFFIX,mdn.dev # MDN Web Docs 开发与预览服务域名
 DOMAIN-SUFFIX,mdnplay.dev # MDN Playground 在线代码实验环境域名
 
+# > Mozilla Foundation Asset Hosting（Mozilla Foundation 资源托管服务）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,mofoprod.net # Mozilla Foundation 文档与媒体资源托管主域名
+DOMAIN-SUFFIX,assets.mofoprod.net # Mozilla Foundation 文档与媒体资源托管域名
+
 # > GnuPG / OpenPGP Key Service（GnuPG / OpenPGP 密钥服务）
 # - 校对时间：2026-03-28
 
