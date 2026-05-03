@@ -4,7 +4,7 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-28
+# - 更新时间：2026-05-03
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-03-23
@@ -2551,3 +2551,9 @@ DOMAIN-SUFFIX,images-cn.ssl-images-amazon.cn # Amazon 中国图像资源 CDN
 DOMAIN-SUFFIX,images-cn.ssl-images-amazon.com # Amazon 中国图像资源 CDN
 DOMAIN-SUFFIX,fls-cn.amazon.cn # Amazon 中国前端日志服务域名
 DOMAIN-SUFFIX,unagi.amazon.cn # Amazon 中国客户端指标上报域名
+
+# > Ruby China Community（Ruby China 中文社区）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,ruby-china.com # Ruby China 中文社区主域名
+DOMAIN-SUFFIX,l.ruby-china.com # Ruby China 链接跳转服务域名
