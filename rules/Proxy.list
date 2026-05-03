@@ -7864,6 +7864,16 @@ DOMAIN-SUFFIX,llvm.org # LLVM 官方主站、文档与发布服务域名
 DOMAIN-SUFFIX,clang.llvm.org # Clang C / C++ 编译器官方文档域名
 DOMAIN-SUFFIX,releases.llvm.org # LLVM / Clang 官方版本发布与下载服务域名
 
+# > Swift Programming Language Platform（Swift 编程语言平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,swift.org # Swift 官方主站、文档、社区与工具链资源域名
+
+# > Swift Package Index（Swift Package Index 包索引平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,swiftpackageindex.com # Swift Package Index 社区包索引与检索平台域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
