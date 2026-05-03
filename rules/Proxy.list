@@ -7931,6 +7931,8 @@ DOMAIN-SUFFIX,eepurl.com # Mailchimp EepURL 邮件营销链接跳转与统计服
 DOMAIN-SUFFIX,nuget.org # NuGet 官方包注册表主域名
 DOMAIN-SUFFIX,api.nuget.org # NuGet 官方包注册表 API 与依赖解析域名
 DOMAIN-SUFFIX,globalcdn.nuget.org # NuGet 官方包文件 CDN 分发域名
+DOMAIN-SUFFIX,dist.nuget.org # NuGet 客户端工具与发行资源分发域名
+DOMAIN-SUFFIX,symbols.nuget.org # NuGet 符号包与调试符号服务域名
 
 # > Plausible Analytics（Plausible 隐私友好型网站分析服务）
 # - 校对时间：2026-05-03
