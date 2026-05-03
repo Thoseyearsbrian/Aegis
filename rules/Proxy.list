@@ -3335,11 +3335,12 @@ DOMAIN-SUFFIX,registry.npmjs.org # 注册服务域名
 DOMAIN-SUFFIX,api.npmjs.com # API 接口域名
 
 # > Homebrew Package Manager（Homebrew 包管理器）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-03
 
-DOMAIN-SUFFIX,brew.sh # 项目域名
-DOMAIN-SUFFIX,homebrew.sh # 平台主域名
-DOMAIN-SUFFIX,formulae.brew.sh # 查询服务域名
+DOMAIN-SUFFIX,brew.sh # Homebrew 官方主站域名
+DOMAIN-SUFFIX,docs.brew.sh # Homebrew 官方文档服务域名
+DOMAIN-SUFFIX,formulae.brew.sh # Homebrew Formulae 查询与 JSON API 服务域名
+DOMAIN-SUFFIX,homebrew.sh # Homebrew 历史入口域名
 
 # > IDM Download Tool（IDM 下载工具）
 # - 校对时间：2026-03-28
