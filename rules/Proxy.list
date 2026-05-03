@@ -7766,6 +7766,12 @@ DOMAIN-SUFFIX,getcomposer.org # Composer 官方主站、文档与安装器域名
 DOMAIN-SUFFIX,packagist.org # Packagist 公共 PHP 包仓库域名
 DOMAIN-SUFFIX,packagist.com # Private Packagist 私有 PHP 包仓库服务域名
 
+# > Datadog Observability Platform（Datadog 可观测性平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,datadoghq.com # Datadog 官方主域名
+DOMAIN-SUFFIX,p.datadoghq.com # Datadog 公共监控面板与可观测性页面域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
