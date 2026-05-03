@@ -5516,14 +5516,17 @@ DOMAIN-SUFFIX,s.immersivetranslate.com # 沉浸式翻译静态资源服务域名
 DOMAIN-SUFFIX,ghost.org # Ghost 博客域名主域名
 DOMAIN-SUFFIX,static.ghost.org # Ghost 博客域名的官方静态资源域名
 
-# > GitLab Domains（GitLab 官方服务域名）
-# - 校对时间：2026-03-28
+# > GitLab DevSecOps Platform（GitLab DevSecOps 平台）
+# - 校对时间：2026-05-03
 
-DOMAIN-SUFFIX,gitlab.com # GitLab 官方主域名
-DOMAIN-SUFFIX,about.gitlab.com # GitLab 公司官网及项目介绍页面
+DOMAIN-SUFFIX,gitlab.com # GitLab 官方主域名与 SaaS 服务域名
 DOMAIN-SUFFIX,docs.gitlab.com # GitLab 官方文档中心域名
 DOMAIN-SUFFIX,registry.gitlab.com # GitLab 容器镜像与构建产物注册中心域名
 DOMAIN-SUFFIX,jwpcdn.gitlab.com # GitLab 媒体资源加速域名
+DOMAIN-SUFFIX,gitlab-static.net # GitLab 前端静态资源域名
+DOMAIN-SUFFIX,gitlab.net # GitLab 平台服务域名
+DOMAIN-SUFFIX,gitlab.io # GitLab Pages 静态站点托管域名
+DOMAIN-SUFFIX,status.gitlab.com # GitLab 官方服务状态页面域名
 
 # > Koala Inspector Service Domains（Koala Inspector 电商监控与竞品分析工具相关域名）
 # - 校对时间：2026-03-28
