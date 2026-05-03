@@ -7801,6 +7801,11 @@ DOMAIN-SUFFIX,bundler.io # Bundler 官方主站与文档服务域名
 
 DOMAIN-SUFFIX,rubycentral.org # Ruby Central 官方主域名
 
+# > Plausible Analytics（Plausible 隐私友好型网站分析服务）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,plausible.io # Plausible 隐私友好型网站分析服务主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
