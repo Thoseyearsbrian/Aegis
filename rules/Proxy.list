@@ -7984,6 +7984,12 @@ DOMAIN-SUFFIX,gitforwindows.org # Git for Windows 官方主站域名
 DOMAIN-SUFFIX,kernel.org # Linux Kernel Archives 与 Kernel.org 官方主域名
 DOMAIN-SUFFIX,git.kernel.org # Kernel.org Git 仓库浏览与源码托管服务域名
 
+# > Weblate Localization Platform（Weblate 本地化协作平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,weblate.org # Weblate 官方主站与文档服务域名
+DOMAIN-SUFFIX,hosted.weblate.org # Weblate 托管翻译协作平台域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
