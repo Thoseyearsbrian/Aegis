@@ -2432,6 +2432,12 @@ DOMAIN-SUFFIX,upload.wikimedia.org # 媒体资源域名
 DOMAIN-SUFFIX,meta.wikimedia.org # 协作平台域名
 DOMAIN-SUFFIX,commons.wikimedia.org # 媒体资料库域名
 
+# > Chaos Computer Club Media Archive（Chaos Computer Club 媒体档案平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,ccc.de # Chaos Computer Club 官方主域名
+DOMAIN-SUFFIX,media.ccc.de # Chaos Computer Club 视频与音频档案平台域名
+
 # > Skype Communication Tool（Skype 通讯工具）
 # - 校对时间：2026-03-28
 
