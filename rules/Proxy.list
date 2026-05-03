@@ -7822,6 +7822,7 @@ DOMAIN-SUFFIX,central.sonatype.org # Sonatype Central Repository 支持文档域
 
 DOMAIN-SUFFIX,gradle.org # Gradle 官方主站、文档、发布与服务域名
 DOMAIN-SUFFIX,go.gradle.com # Gradle 官方活动、发布说明与营销内容页面域名
+DOMAIN-SUFFIX,dpeuniversity.gradle.com # Gradle DPE University 自助培训平台域名
 DOMAIN-SUFFIX,services.gradle.org # Gradle 发行版、Wrapper 与服务元数据分发域名
 DOMAIN-SUFFIX,plugins.gradle.org # Gradle Plugin Portal 插件检索与依赖解析域名
 DOMAIN-SUFFIX,downloads.gradle.org # Gradle 下载资源域名
