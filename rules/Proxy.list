@@ -3351,12 +3351,13 @@ DOMAIN-SUFFIX,voidsec.com # 平台主域名
 
 DOMAIN-SUFFIX,ididhub.com # 平台主域名
 
-# > npm Package Service（npm 软件包服务）
-# - 校对时间：2026-03-28
+# > npm JavaScript Package Registry（npm JavaScript 包注册表）
+# - 校对时间：2026-05-03
 
-DOMAIN-SUFFIX,npmjs.com # 平台主域名
-DOMAIN-SUFFIX,registry.npmjs.org # 注册服务域名
-DOMAIN-SUFFIX,api.npmjs.com # API 接口域名
+DOMAIN-SUFFIX,npmjs.com # npm 官方主站与包管理平台域名
+DOMAIN-SUFFIX,registry.npmjs.org # npm 公共包注册表与依赖解析服务域名
+DOMAIN-SUFFIX,api.npmjs.com # npm API 服务域名
+DOMAIN-SUFFIX,status.npmjs.org # npm 官方服务状态页面域名
 
 # > Homebrew Package Manager（Homebrew 包管理器）
 # - 校对时间：2026-05-03
