@@ -1191,6 +1191,11 @@ DOMAIN-SUFFIX,mdnplay.dev # MDN Playground 在线代码实验环境域名
 DOMAIN-SUFFIX,mofoprod.net # Mozilla Foundation 文档与媒体资源托管主域名
 DOMAIN-SUFFIX,assets.mofoprod.net # Mozilla Foundation 文档与媒体资源托管域名
 
+# > DevDocs API Documentation Browser（DevDocs API 文档聚合浏览器）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,devdocs.io # DevDocs API 文档聚合与离线浏览平台主域名
+
 # > GnuPG / OpenPGP Key Service（GnuPG / OpenPGP 密钥服务）
 # - 校对时间：2026-03-28
 
