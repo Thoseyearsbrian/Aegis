@@ -1181,6 +1181,7 @@ DOMAIN-SUFFIX,i.sstatic.net # Stack Overflow / Stack Exchange 图片与静态资
 
 DOMAIN-SUFFIX,developer.mozilla.org # MDN Web Docs 官方开发者文档域名
 DOMAIN-SUFFIX,mdn.dev # MDN Web Docs 开发与预览服务域名
+DOMAIN-SUFFIX,mdnplay.dev # MDN Playground 在线代码实验环境域名
 
 # > GnuPG / OpenPGP Key Service（GnuPG / OpenPGP 密钥服务）
 # - 校对时间：2026-03-28
