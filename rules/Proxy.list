@@ -7689,6 +7689,7 @@ DOMAIN-SUFFIX,planetpython.org # Planet Python 社区博客聚合域名
 DOMAIN-SUFFIX,pypi.org # Python PyPI 包注册表域名
 DOMAIN-SUFFIX,files.pythonhosted.org # Python PyPI 包文件分发域名
 DOMAIN-SUFFIX,pythonhosted.org # Python 项目文档托管历史域名
+DOMAIN-SUFFIX,psfmember.org # Python Software Foundation 会员与捐赠服务域名
 
 # > PyPI Python Package Registry（PyPI Python 包注册表）
 # - 校对时间：2026-05-03
