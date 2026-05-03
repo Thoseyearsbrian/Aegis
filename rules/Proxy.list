@@ -7678,7 +7678,7 @@ DOMAIN-SUFFIX,sum.golang.org # Go Checksum Database 服务域名
 DOMAIN-SUFFIX,golangweekly.com # Golang Weekly Go 语言开发者周刊域名
 
 # > Python Programming Language Platform（Python 编程语言平台）
-# - 校对时间：2026-05-02
+# - 校对时间：2026-05-03
 
 DOMAIN-SUFFIX,python.org # Python 官方主站与文档服务域名
 DOMAIN-SUFFIX,docs.python.org # Python 官方文档服务域名
@@ -7816,6 +7816,14 @@ DOMAIN-SUFFIX,search.maven.org # Maven Central 包检索服务域名
 DOMAIN-SUFFIX,central.sonatype.com # Sonatype Central Portal 包检索与发布平台域名
 DOMAIN-SUFFIX,sonatype.org # Sonatype 开源仓库文档与支持主域名
 DOMAIN-SUFFIX,central.sonatype.org # Sonatype Central Repository 支持文档域名
+
+# > Gradle Build Tool and Plugin Portal（Gradle 构建工具与插件门户）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,gradle.org # Gradle 官方主站、文档、发布与服务域名
+DOMAIN-SUFFIX,services.gradle.org # Gradle 发行版、Wrapper 与服务元数据分发域名
+DOMAIN-SUFFIX,plugins.gradle.org # Gradle Plugin Portal 插件检索与依赖解析域名
+DOMAIN-SUFFIX,downloads.gradle.org # Gradle 下载资源域名
 
 # > Fastly Polyfill Service（Fastly Polyfill 浏览器兼容性填充服务）
 # - 校对时间：2026-05-02
