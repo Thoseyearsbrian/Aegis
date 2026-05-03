@@ -7855,6 +7855,7 @@ DOMAIN-SUFFIX,packagist.com # Private Packagist 私有 PHP 包仓库服务域名
 # - 校对时间：2026-05-03
 
 DOMAIN-SUFFIX,datadoghq.com # Datadog 官方主域名
+DOMAIN-SUFFIX,dtdg.co # Datadog 官方短链接域名
 DOMAIN-SUFFIX,p.datadoghq.com # Datadog 公共监控面板与可观测性页面域名
 
 # > Honeybadger Application Monitoring Platform（Honeybadger 应用监控平台）
