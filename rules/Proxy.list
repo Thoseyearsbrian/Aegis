@@ -1140,6 +1140,23 @@ DOMAIN-SUFFIX,hachyderm.io # Hachyderm Mastodon 社区实例域名
 
 DOMAIN-SUFFIX,fosstodon.org # Fosstodon Mastodon 开源社区实例域名
 
+# > Manning Technical Publishing Platform（Manning 技术出版与学习平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,manning.com # Manning 技术图书、课程与开发者学习平台主域名
+
+# > O'Reilly Learning Platform（O'Reilly 在线学习平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,oreilly.com # O'Reilly 官方主域名
+DOMAIN-SUFFIX,learning.oreilly.com # O'Reilly 在线学习平台域名
+
+# > Springer Nature Publishing Platform（Springer Nature 学术出版平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,springernature.com # Springer Nature 官方主域名
+DOMAIN-SUFFIX,media.springernature.com # Springer Nature 媒体与出版资源域名
+
 # > Stack Overflow Developer Q&A Platform（Stack Overflow 开发者问答平台）
 # - 校对时间：2026-05-02
 
