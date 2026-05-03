@@ -7690,6 +7690,12 @@ DOMAIN-SUFFIX,pypi.org # Python PyPI 包注册表域名
 DOMAIN-SUFFIX,files.pythonhosted.org # Python PyPI 包文件分发域名
 DOMAIN-SUFFIX,pythonhosted.org # Python 项目文档托管历史域名
 
+# > PyPI Python Package Registry（PyPI Python 包注册表）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,pypi.org # PyPI 官方 Python 包注册表域名
+DOMAIN-SUFFIX,files.pythonhosted.org # PyPI 包文件分发域名
+
 # > mathspp Python Education Blog（mathspp Python 教育博客）
 # - 校对时间：2026-05-02
 
