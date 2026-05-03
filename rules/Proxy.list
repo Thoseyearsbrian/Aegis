@@ -7814,6 +7814,11 @@ DOMAIN-SUFFIX,rubycentral.org # Ruby Central 官方主域名
 
 DOMAIN-SUFFIX,ruby.social # Ruby.social Rubyist Mastodon 社区实例域名
 
+# > Mastodon.social Official Community Instance（Mastodon.social 官方社区实例）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,mastodon.social # Mastodon.social 官方社区实例域名
+
 # > .NET and C# Developer Platform（.NET 与 C# 开发者平台）
 # - 校对时间：2026-05-03
 
