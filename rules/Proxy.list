@@ -7743,6 +7743,17 @@ DOMAIN-SUFFIX,npmjs.com # npm 官方主站与包管理平台域名
 DOMAIN-SUFFIX,registry.npmjs.org # npm 包注册表 API 与依赖解析域名
 DOMAIN-SUFFIX,status.npmjs.org # npm 官方服务状态页面域名
 
+# > Maven Central Repository（Maven Central 中央仓库）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,maven.org # Apache Maven 官方主域名
+DOMAIN-SUFFIX,maven.apache.org # Apache Maven 官方项目与文档域名
+DOMAIN-SUFFIX,repo.maven.apache.org # Maven Central 官方仓库服务域名
+DOMAIN-SUFFIX,repo1.maven.org # Maven Central 历史仓库服务域名
+DOMAIN-SUFFIX,search.maven.org # Maven Central 包检索服务域名
+DOMAIN-SUFFIX,central.sonatype.com # Sonatype Central Portal 包检索与发布平台域名
+DOMAIN-SUFFIX,central.sonatype.org # Maven Central 官方文档与支持服务域名
+
 # > TypeScript Programming Language Platform（TypeScript 编程语言平台）
 # - 校对时间：2026-05-02
 
