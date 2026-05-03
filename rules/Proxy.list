@@ -1164,6 +1164,12 @@ DOMAIN-SUFFIX,swiftype.com # Swiftype 站内搜索服务主域名
 DOMAIN-SUFFIX,swiftypecdn.com # Swiftype 站内搜索静态资源 CDN 主域名
 DOMAIN-SUFFIX,s.swiftypecdn.com # Swiftype 站内搜索前端静态资源 CDN 域名
 
+# > SplashThat Event Platform（SplashThat 活动页面平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,splashthat.com # SplashThat 活动页面托管平台主域名
+DOMAIN-SUFFIX,2023dpesummit.splashthat.com # DPE Summit 2023 活动页面域名
+
 # > Stack Overflow Developer Q&A Platform（Stack Overflow 开发者问答平台）
 # - 校对时间：2026-05-02
 
