@@ -7772,6 +7772,28 @@ DOMAIN-SUFFIX,packagist.com # Private Packagist 私有 PHP 包仓库服务域名
 DOMAIN-SUFFIX,datadoghq.com # Datadog 官方主域名
 DOMAIN-SUFFIX,p.datadoghq.com # Datadog 公共监控面板与可观测性页面域名
 
+# > Ruby Programming Language Platform（Ruby 编程语言平台）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,ruby-lang.org # Ruby 官方主站、文档与下载服务域名
+DOMAIN-SUFFIX,docs.ruby-lang.org # Ruby 官方文档服务域名
+
+# > RubyGems Package Registry（RubyGems 包注册表）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,rubygems.org # RubyGems 官方包注册表域名
+DOMAIN-SUFFIX,guides.rubygems.org # RubyGems 官方指南文档域名
+
+# > Bundler Ruby Dependency Manager（Bundler Ruby 依赖管理工具）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,bundler.io # Bundler 官方主站与文档服务域名
+
+# > Ruby Central Community Organization（Ruby Central 社区组织）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,rubycentral.org # Ruby Central 官方主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
