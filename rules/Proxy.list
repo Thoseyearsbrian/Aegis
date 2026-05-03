@@ -7809,6 +7809,11 @@ DOMAIN-SUFFIX,bundler.io # Bundler 官方主站与文档服务域名
 
 DOMAIN-SUFFIX,rubycentral.org # Ruby Central 官方主域名
 
+# > Ruby.social Mastodon Community Instance（Ruby.social Mastodon 社区实例）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,ruby.social # Ruby.social Rubyist Mastodon 社区实例域名
+
 # > Plausible Analytics（Plausible 隐私友好型网站分析服务）
 # - 校对时间：2026-05-03
 
