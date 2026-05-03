@@ -7739,6 +7739,7 @@ DOMAIN-SUFFIX,sonatype.com # Sonatype 官方主域名
 # - 校对时间：2026-05-03
 
 DOMAIN-SUFFIX,php.net # PHP 官方主站、文档与下载服务域名
+DOMAIN-SUFFIX,thephp.foundation # The PHP Foundation 官方主域名
 DOMAIN-SUFFIX,windows.php.net # PHP Windows 官方构建与下载服务域名
 DOMAIN-SUFFIX,downloads.php.net # PHP 官方下载镜像服务域名
 
