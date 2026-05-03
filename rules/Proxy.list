@@ -1804,17 +1804,25 @@ DOMAIN-SUFFIX,widget-mediator.zopim.com # 消息服务域名
 IP-CIDR,52.74.150.160/32 # 组件服务节点
 
 # > Stripe Payment Platform（Stripe 支付平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-03
 
-DOMAIN-SUFFIX,stripe.com # 平台主域名
-DOMAIN-SUFFIX,api.stripe.com # API 接口域名
-DOMAIN-SUFFIX,checkout.stripe.com # 支付服务域名
-DOMAIN-SUFFIX,pay.stripe.com # 支付服务域名
-DOMAIN-SUFFIX,js.stripe.com # SDK 域名
-DOMAIN-SUFFIX,m.stripe.network # 网络服务域名
-DOMAIN-SUFFIX,stripe.network # 网络服务域名
-DOMAIN-SUFFIX,images.stripe.com # 图片资源域名
-DOMAIN-SUFFIX,stripe-camo.global.ssl.fastly.net # CDN 域名
+DOMAIN-SUFFIX,stripe.com # Stripe 官方主域名
+DOMAIN-SUFFIX,api.stripe.com # Stripe API 接口域名
+DOMAIN-SUFFIX,checkout.stripe.com # Stripe Checkout 支付页面域名
+DOMAIN-SUFFIX,pay.stripe.com # Stripe 支付页面域名
+DOMAIN-SUFFIX,js.stripe.com # Stripe.js 支付 SDK 域名
+DOMAIN-SUFFIX,stripecdn.com # Stripe 静态资源 CDN 主域名
+DOMAIN-SUFFIX,b.stripecdn.com # Stripe 支付与文档静态资源 CDN 域名
+DOMAIN-SUFFIX,m.stripe.network # Stripe 支付风控与网络服务域名
+DOMAIN-SUFFIX,stripe.network # Stripe 支付网络服务域名
+DOMAIN-SUFFIX,images.stripe.com # Stripe 图片资源域名
+DOMAIN-SUFFIX,stripe-camo.global.ssl.fastly.net # Stripe 代理图片资源 CDN 域名
+
+# > Link by Stripe Payment Service（Stripe Link 快捷支付服务）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,link.com # Link by Stripe 官方主域名
+DOMAIN-SUFFIX,checkout-cookies.link.com # Link by Stripe Checkout Cookie 服务域名
 
 # > Klaviyo Marketing Platform（Klaviyo 营销平台）
 # - 校对时间：2026-03-28
