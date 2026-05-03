@@ -389,10 +389,11 @@ DOMAIN-SUFFIX,cloudfront.net # AWS CloudFront CDN 通用内容分发域名
 DOMAIN-SUFFIX,redirect.prod.experiment.routing.cloudfront.aws.a2z.com # Amazon CloudFront 实验路由重定向服务域名
 
 # > Amazon S3 Storage Service（Amazon S3 对象存储服务）
-# - 校对时间：2026-05-02
+# - 校对时间：2026-05-03
 
 DOMAIN-SUFFIX,s3.amazonaws.com # Amazon S3 通用对象存储服务域名
 DOMAIN-SUFFIX,s3-us-west-1.amazonaws.com # Amazon S3 美国西部（北加州）区域存储服务域名
+DOMAIN-SUFFIX,s3-us-west-2.amazonaws.com # Amazon S3 美国西部（俄勒冈）区域存储服务域名
 DOMAIN-SUFFIX,s3.dualstack.us-east-2.amazonaws.com # Amazon S3 美国东部（俄亥俄）双栈区域存储服务域名
 
 # > Amazon Lightsail Cloud Service（Amazon Lightsail 云服务）
