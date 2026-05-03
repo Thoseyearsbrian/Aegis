@@ -7921,6 +7921,23 @@ DOMAIN-SUFFIX,kotlinlang.org # Kotlin 官方主站、文档、博客与在线 Pl
 
 DOMAIN-SUFFIX,kotlinfoundation.org # Kotlin Foundation 官方主域名
 
+# > Git Version Control System（Git 版本控制系统）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,git-scm.com # Git 官方主站、文档、下载与 Pro Git 图书域名
+DOMAIN-SUFFIX,git.github.io # Git 官方文档镜像域名
+
+# > Git for Windows（Git for Windows 项目）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,gitforwindows.org # Git for Windows 官方主站域名
+
+# > Kernel.org Git Repository Service（Kernel.org Git 仓库服务）
+# - 校对时间：2026-05-03
+
+DOMAIN-SUFFIX,kernel.org # Linux Kernel Archives 与 Kernel.org 官方主域名
+DOMAIN-SUFFIX,git.kernel.org # Kernel.org Git 仓库浏览与源码托管服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
