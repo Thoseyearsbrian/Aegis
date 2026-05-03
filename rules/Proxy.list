@@ -3415,16 +3415,28 @@ DOMAIN-SUFFIX,cdn.bandisoft.com # 静态资源域名
 DOMAIN-SUFFIX,icon.bandisoft.com # 图标服务域名
 
 # > Docker Platform（Docker 容器平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-03
 
-DOMAIN-SUFFIX,docker.com # 平台主域名
-DOMAIN-SUFFIX,docker.io # 仓库服务域名
-DOMAIN-SUFFIX,hub.docker.com # 仓库服务域名
-DOMAIN-SUFFIX,registry-1.docker.io # 镜像服务域名
-DOMAIN-SUFFIX,auth.docker.io # 认证服务域名
-DOMAIN-SUFFIX,index.docker.io # 索引服务域名
-DOMAIN-SUFFIX,dockerstatic.com # 静态资源域名
-DOMAIN-SUFFIX,dockerstatus.com # 状态服务域名
+DOMAIN-SUFFIX,docker.com # Docker 官方主域名
+DOMAIN-SUFFIX,docker.io # Docker Hub 仓库服务主域名
+DOMAIN-SUFFIX,hub.docker.com # Docker Hub Web 服务域名
+DOMAIN-SUFFIX,docs.docker.com # Docker 官方文档服务域名
+DOMAIN-SUFFIX,download.docker.com # Docker Engine 与 CLI 软件包下载域名
+DOMAIN-SUFFIX,desktop.docker.com # Docker Desktop 更新服务域名
+DOMAIN-SUFFIX,login.docker.com # Docker 账户登录服务域名
+DOMAIN-SUFFIX,auth.docker.com # Docker 认证服务域名
+DOMAIN-SUFFIX,api.docker.com # Docker API 服务域名
+DOMAIN-SUFFIX,registry-1.docker.io # Docker Hub 镜像拉取与推送服务域名
+DOMAIN-SUFFIX,auth.docker.io # Docker Hub 镜像仓库认证服务域名
+DOMAIN-SUFFIX,index.docker.io # Docker Hub 索引服务域名
+DOMAIN-SUFFIX,production.cloudflare.docker.com # Docker Hub 镜像拉取与推送 CDN 域名
+DOMAIN-SUFFIX,docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com # Docker Hub 镜像层分发存储域名
+DOMAIN-SUFFIX,docker-pinata-support.s3.amazonaws.com # Docker Desktop 故障排查支持资源域名
+DOMAIN-SUFFIX,api.dso.docker.com # Docker Scout 服务 API 域名
+DOMAIN-SUFFIX,dhi.io # Docker Hardened Images 服务域名
+DOMAIN-SUFFIX,registry.scout.docker.com # Docker Scout DHI 证明注册服务域名
+DOMAIN-SUFFIX,dockerstatic.com # Docker 静态资源域名
+DOMAIN-SUFFIX,dockerstatus.com # Docker 服务状态页面域名
 
 # > Anker Brand Service（Anker 品牌服务）
 # - 校对时间：2026-04-23
@@ -7890,6 +7902,8 @@ DOMAIN-SUFFIX,kotlinlang.org # Kotlin 官方主站、文档、博客与在线 Pl
 # - 校对时间：2026-05-03
 
 DOMAIN-SUFFIX,kotlinfoundation.org # Kotlin Foundation 官方主域名
+
+
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
