@@ -8257,6 +8257,37 @@ DOMAIN-SUFFIX,cmake.org # CMake 官方主域名、构建系统文档与下载入
 
 DOMAIN-SUFFIX,llvm.org # LLVM 官方主域名、编译器基础设施与项目文档入口
 
+# > Jenkins Automation Server（Jenkins 自动化服务）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,jenkins.io # Jenkins 官方主域名、自动化服务器文档与下载入口
+DOMAIN-SUFFIX,updates.jenkins.io # Jenkins 插件、更新中心与组件分发服务域名
+DOMAIN-SUFFIX,plugins.jenkins.io # Jenkins 插件目录与插件文档服务域名
+
+# > CircleCI Continuous Integration Platform（CircleCI 持续集成平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,circleci.com # CircleCI 官方主域名与持续集成平台入口
+DOMAIN-SUFFIX,circleci.io # CircleCI 构建服务与平台资源域名
+
+# > Travis CI Continuous Integration Platform（Travis CI 持续集成平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,travis-ci.com # Travis CI 官方主域名与持续集成平台入口
+DOMAIN-SUFFIX,travis-ci.org # Travis CI 历史开源项目持续集成服务域名
+
+# > Buildkite Continuous Integration Platform（Buildkite 持续集成平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,buildkite.com # Buildkite 官方主域名与持续集成平台入口
+DOMAIN-SUFFIX,buildkiteassets.com # Buildkite 前端静态资源与构建界面资源域名
+
+# > AppVeyor Continuous Integration Platform（AppVeyor 持续集成平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,appveyor.com # AppVeyor 官方主域名与持续集成平台入口
+DOMAIN-SUFFIX,ci.appveyor.com # AppVeyor CI 构建控制台与项目服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
