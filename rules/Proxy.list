@@ -8321,6 +8321,30 @@ DOMAIN-SUFFIX,uploader.codecov.io # Codecov 覆盖率上传工具下载与分发
 DOMAIN-SUFFIX,coveralls.io # Coveralls 官方主域名与代码覆盖率报告平台入口
 DOMAIN-SUFFIX,coverallsapp.com # Coveralls 应用服务与平台资源域名
 
+# > Postman API Development Platform（Postman API 开发平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,postman.com # Postman 官方主域名与 API 开发协作平台入口
+DOMAIN-SUFFIX,postman.co # Postman 短域名与平台跳转服务域名
+DOMAIN-SUFFIX,postmanlabs.com # Postman Labs 历史品牌与开发资源域名
+DOMAIN-SUFFIX,postman-echo.com # Postman Echo API 测试与请求调试服务域名
+
+# > Insomnia API Client（Insomnia API 客户端）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,insomnia.rest # Insomnia 官方主域名与 API 客户端文档入口
+
+# > Hoppscotch API Development Platform（Hoppscotch API 开发平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,hoppscotch.io # Hoppscotch 官方主域名与开源 API 调试平台入口
+
+# > Swagger / OpenAPI Documentation Ecosystem（Swagger / OpenAPI 文档生态）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,swagger.io # Swagger 官方主域名与 API 文档工具入口
+DOMAIN-SUFFIX,openapis.org # OpenAPI Initiative 官方主域名与 OpenAPI 规范入口
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
