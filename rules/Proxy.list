@@ -8170,6 +8170,87 @@ DOMAIN-SUFFIX,hosted.weblate.org # Weblate 托管翻译协作平台域名
 
 DOMAIN-SUFFIX,pragprog.com # The Pragmatic Bookshelf 技术图书、电子书与开发者学习资源平台主域名
 
+# > R Programming Language Ecosystem（R 编程语言生态）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,r-project.org # R 官方主域名与语言文档入口
+DOMAIN-SUFFIX,cran.r-project.org # CRAN 官方包仓库与 R 语言软件分发入口
+
+# > Posit Data Science Platform（Posit 数据科学平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,posit.co # Posit 官方主域名与 RStudio、Shiny、Quarto 等数据科学工具入口
+DOMAIN-SUFFIX,rstudio.com # RStudio 历史品牌域名与数据科学工具资源入口
+
+# > Julia Programming Language Ecosystem（Julia 编程语言生态）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,julialang.org # Julia 官方主域名、语言文档与科学计算生态入口
+DOMAIN-SUFFIX,pkg.julialang.org # Julia 官方包注册表与包索引服务域名
+
+# > Elixir Programming Language Ecosystem（Elixir 编程语言生态）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,elixir-lang.org # Elixir 官方主域名与语言文档入口
+
+# > Erlang Programming Language Ecosystem（Erlang 编程语言生态）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,erlang.org # Erlang 官方主域名、语言文档与运行时资源入口
+
+# > Hex BEAM Package Registry（Hex BEAM 包注册表）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,hex.pm # Elixir 与 Erlang BEAM 生态官方包注册表主域名
+DOMAIN-SUFFIX,repo.hex.pm # Hex 包文件与仓库分发服务域名
+
+# > Lua Programming Language Ecosystem（Lua 编程语言生态）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,lua.org # Lua 官方主域名与语言文档入口
+
+# > LuaRocks Lua Package Manager（LuaRocks Lua 包管理器）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,luarocks.org # LuaRocks 官方主域名与 Lua 包管理入口
+
+# > OpenResty Web Platform（OpenResty Web 平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,openresty.org # OpenResty 官方主域名与 Nginx / Lua Web 平台文档入口
+
+# > Perl Programming Language Ecosystem（Perl 编程语言生态）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,perl.org # Perl 官方主域名与语言文档入口
+
+# > CPAN Perl Package Repository（CPAN Perl 包仓库）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,cpan.org # CPAN Perl 模块仓库主域名
+DOMAIN-SUFFIX,metacpan.org # MetaCPAN Perl 模块搜索与文档平台主域名
+
+# > Haskell Programming Language Ecosystem（Haskell 编程语言生态）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,haskell.org # Haskell 官方主域名与语言文档入口
+
+# > Hackage Haskell Package Repository（Hackage Haskell 包仓库）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,hackage.haskell.org # Hackage Haskell 官方包仓库域名
+DOMAIN-SUFFIX,stackage.org # Stackage Haskell 稳定包集合与文档平台主域名
+
+# > CMake Build System（CMake 构建系统）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,cmake.org # CMake 官方主域名、构建系统文档与下载入口
+
+# > LLVM Compiler Infrastructure（LLVM 编译器基础设施）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,llvm.org # LLVM 官方主域名、编译器基础设施与项目文档入口
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
