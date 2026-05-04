@@ -1303,6 +1303,12 @@ DOMAIN-SUFFIX,lasecurecrute.fr # La Sécu recrute 法国社会保障招聘与职
 
 DOMAIN-SUFFIX,cloud.com # Cloud Software Group 官方主域名与企业软件平台入口
 
+# > Matomo Cloud Web Analytics Platform（Matomo Cloud 网站分析平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,matomo.cloud # Matomo Cloud 网站分析与托管统计服务主域名
+DOMAIN-SUFFIX,cdn.matomo.cloud # Matomo Cloud 前端脚本与静态资源 CDN 域名
+
 # > Workshub Developer Jobs Platform（Workshub 开发者招聘平台）
 # - 校对时间：2026-05-04
 
