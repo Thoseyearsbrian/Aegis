@@ -1178,6 +1178,13 @@ DOMAIN-SUFFIX,stackexchange.com # Stack Exchange 问答网络主域名
 DOMAIN-SUFFIX,sstatic.net # Stack Overflow / Stack Exchange 静态资源域名
 DOMAIN-SUFFIX,stackoverflow.blog # Stack Overflow 官方博客域名
 
+# > Codeberg Open Source Code Hosting Platform（Codeberg 开源代码托管平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,codeberg.org # Codeberg 官方主域名与开源代码托管协作平台入口
+DOMAIN-SUFFIX,codeberg.page # Codeberg Pages 静态网站托管默认域名
+DOMAIN-SUFFIX,codebergusercontent.com # Codeberg 用户内容、附件与资源分发域名
+
 # > MDN Web Docs Developer Documentation（MDN Web Docs 开发者文档平台）
 # - 校对时间：2026-05-03
 
