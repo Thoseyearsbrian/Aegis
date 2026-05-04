@@ -8548,6 +8548,19 @@ DOMAIN-SUFFIX,frontendmasters.com # Frontend Masters 前端开发课程与学习
 
 DOMAIN-SUFFIX,egghead.io # Egghead 开发者短课程与技术学习平台主域名
 
+# > SourceHut Open Source Development Platform（SourceHut 开源开发协作平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,sr.ht # SourceHut 官方主域名与开源开发协作平台入口
+DOMAIN-SUFFIX,git.sr.ht # SourceHut Git 代码托管服务域名
+DOMAIN-SUFFIX,hg.sr.ht # SourceHut Mercurial 代码托管服务域名
+DOMAIN-SUFFIX,builds.sr.ht # SourceHut 持续集成与构建服务域名
+DOMAIN-SUFFIX,lists.sr.ht # SourceHut 邮件列表与项目讨论服务域名
+DOMAIN-SUFFIX,todo.sr.ht # SourceHut 任务跟踪与工单管理服务域名
+DOMAIN-SUFFIX,man.sr.ht # SourceHut 项目文档与手册托管服务域名
+DOMAIN-SUFFIX,meta.sr.ht # SourceHut 账户、项目元数据与平台管理服务域名
+DOMAIN-SUFFIX,srht.site # SourceHut Pages 静态站点托管默认域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
