@@ -1273,6 +1273,21 @@ DOMAIN-SUFFIX,ocaml.org # OCaml 官方主域名、语言文档与 OPAM 包管理
 DOMAIN-SUFFIX,ocaml.ci.dev # OCaml-CI 官方持续集成服务入口域名
 DOMAIN-SUFFIX,plausible.ci.dev # OCaml-CI 站点 Plausible 访问统计服务域名
 
+# > Clojure Programming Language Ecosystem（Clojure 编程语言生态）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,clojure.org # Clojure 官方主域名与语言文档入口
+
+# > ClojureScript Programming Language Ecosystem（ClojureScript 编程语言生态）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,clojurescript.org # ClojureScript 官方主域名与 JavaScript 编译生态入口
+
+# > Clojars Clojure Package Repository（Clojars Clojure 包仓库）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,clojars.org # Clojure 与 ClojureScript 社区包仓库主域名
+
 # > Inria French National Research Institute（Inria 法国国家数字科学与技术研究院）
 # - 校对时间：2026-05-04
 
