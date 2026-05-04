@@ -1232,6 +1232,11 @@ DOMAIN-SUFFIX,pub.dev # Dart 与 Flutter 官方包注册表主域名
 
 DOMAIN-SUFFIX,scala-lang.org # Scala 官方主域名与语言文档入口
 
+# > Scala Center at EPFL（EPFL Scala Center）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,scala.epfl.ch # EPFL Scala Center 开源协作、教育资源与社区项目入口
+
 # > sbt Scala Build Tool（sbt Scala 构建工具）
 # - 校对时间：2026-05-04
 
