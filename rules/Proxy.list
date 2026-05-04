@@ -1273,6 +1273,21 @@ DOMAIN-SUFFIX,ocaml.org # OCaml 官方主域名、语言文档与 OPAM 包管理
 DOMAIN-SUFFIX,ocaml.ci.dev # OCaml-CI 官方持续集成服务入口域名
 DOMAIN-SUFFIX,plausible.ci.dev # OCaml-CI 站点 Plausible 访问统计服务域名
 
+# > Inria French National Research Institute（Inria 法国国家数字科学与技术研究院）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,inria.fr # Inria 官方主域名与数字科学技术研究资源入口
+
+# > La Sécu recrute Social Security Recruitment Platform（La Sécu recrute 法国社会保障招聘平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,lasecurecrute.fr # La Sécu recrute 法国社会保障招聘与职位信息平台主域名
+
+# > Cloud Software Group Enterprise Software Platform（Cloud Software Group 企业软件平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,cloud.com # Cloud Software Group 官方主域名与企业软件平台入口
+
 # > Fundraise Up Digital Fundraising Platform（Fundraise Up 在线捐赠与筹款平台）
 # - 校对时间：2026-05-03
 
