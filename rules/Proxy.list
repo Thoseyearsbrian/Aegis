@@ -1288,6 +1288,17 @@ DOMAIN-SUFFIX,lasecurecrute.fr # La Sécu recrute 法国社会保障招聘与职
 
 DOMAIN-SUFFIX,cloud.com # Cloud Software Group 官方主域名与企业软件平台入口
 
+# > Workshub Developer Jobs Platform（Workshub 开发者招聘平台）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,workshub.com # Workshub 开发者招聘与技术职位平台主域名
+DOMAIN-SUFFIX,workshub.imgix.net # Workshub 站点图片资源与 Imgix CDN 加速域名
+
+# > Chris Armstrong Developer Website（Chris Armstrong 个人开发者网站）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,chrisarmstrong.dev # Chris Armstrong 个人开发者网站主域名
+
 # > Fundraise Up Digital Fundraising Platform（Fundraise Up 在线捐赠与筹款平台）
 # - 校对时间：2026-05-03
 
