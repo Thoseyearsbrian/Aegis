@@ -1247,6 +1247,21 @@ DOMAIN-SUFFIX,scala-sbt.org # sbt 官方主域名与 Scala 构建工具文档入
 
 DOMAIN-SUFFIX,scaladex.com # Scaladex Scala 库与包索引平台主域名
 
+# > Zig Programming Language Ecosystem（Zig 编程语言生态）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,ziglang.org # Zig 官方主域名、语言文档与工具链下载入口
+
+# > Zig Software Foundation（Zig 软件基金会）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,zigsoftwarefoundation.org # Zig Software Foundation 官方主域名与项目治理入口
+
+# > Zigistry Zig Package Registry（Zigistry Zig 包注册表）
+# - 校对时间：2026-05-04
+
+DOMAIN-SUFFIX,zigistry.dev # Zigistry Zig 包与程序索引平台主域名
+
 # > Fundraise Up Digital Fundraising Platform（Fundraise Up 在线捐赠与筹款平台）
 # - 校对时间：2026-05-03
 
