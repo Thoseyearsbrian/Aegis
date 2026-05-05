@@ -2154,6 +2154,12 @@ DOMAIN-SUFFIX,v2.zopim.com # 聊天组件域名
 DOMAIN-SUFFIX,widget-mediator.zopim.com # 消息服务域名
 IP-CIDR,52.74.150.160/32 # 组件服务节点
 
+# > Crisp Customer Messaging Platform（Crisp 客服消息平台）
+# - 校对时间：2026-05-05
+
+DOMAIN-SUFFIX,crisp.chat # Crisp 官方主域名与客服聊天、消息协作平台入口
+DOMAIN-SUFFIX,client.relay.crisp.chat # Crisp 客户端实时消息中继与聊天连接服务域名
+
 # > Stripe Payment Platform（Stripe 支付平台）
 # - 校对时间：2026-05-03
 
