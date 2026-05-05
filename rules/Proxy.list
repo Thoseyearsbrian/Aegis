@@ -8575,6 +8575,7 @@ DOMAIN-SUFFIX,srht.site # SourceHut Pages 静态站点托管默认域名
 DOMAIN-SUFFIX,huggingface.co # Hugging Face 官方主域名、模型、数据集与 Spaces 应用入口
 DOMAIN-SUFFIX,hf.co # Hugging Face 短链接、模型资源与平台跳转服务域名
 DOMAIN-SUFFIX,huggingfaceusercontent.com # Hugging Face 用户内容、Spaces 静态资源与托管应用资源域名
+DOMAIN-SUFFIX,fast.hf.co # HuggingFast / Hugging Face Hub 模型与数据集下载速度测试服务域名
 
 # > PostHog Product OS and Analytics Platform（PostHog 产品开发与分析平台）
 # - 校对时间：2026-05-05
