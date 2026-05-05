@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-04
-# - 校对时间：2026-05-04
+# - 更新时间：2026-05-05
+# - 校对时间：2026-05-05
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -8560,6 +8560,13 @@ DOMAIN-SUFFIX,todo.sr.ht # SourceHut 任务跟踪与工单管理服务域名
 DOMAIN-SUFFIX,man.sr.ht # SourceHut 项目文档与手册托管服务域名
 DOMAIN-SUFFIX,meta.sr.ht # SourceHut 账户、项目元数据与平台管理服务域名
 DOMAIN-SUFFIX,srht.site # SourceHut Pages 静态站点托管默认域名
+
+# > Hugging Face AI Model Hub（Hugging Face AI 模型协作平台）
+# - 校对时间：2026-05-05
+
+DOMAIN-SUFFIX,huggingface.co # Hugging Face 官方主域名、模型、数据集与 Spaces 应用入口
+DOMAIN-SUFFIX,hf.co # Hugging Face 短链接、模型资源与平台跳转服务域名
+DOMAIN-SUFFIX,huggingfaceusercontent.com # Hugging Face 用户内容、Spaces 静态资源与托管应用资源域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
