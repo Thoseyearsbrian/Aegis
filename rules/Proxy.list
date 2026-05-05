@@ -8576,6 +8576,11 @@ DOMAIN-SUFFIX,huggingface.co # Hugging Face 官方主域名、模型、数据集
 DOMAIN-SUFFIX,hf.co # Hugging Face 短链接、模型资源与平台跳转服务域名
 DOMAIN-SUFFIX,huggingfaceusercontent.com # Hugging Face 用户内容、Spaces 静态资源与托管应用资源域名
 
+# > PostHog Product OS and Analytics Platform（PostHog 产品开发与分析平台）
+# - 校对时间：2026-05-05
+
+DOMAIN-SUFFIX,posthog.com # PostHog 官方主域名与 Product OS、产品分析、功能实验和开发者文档入口
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
