@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-03
-# - 校对时间：2026-05-03
+# - 更新时间：2026-05-06
+# - 校对时间：2026-05-06
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -838,3 +838,14 @@ DOMAIN-SUFFIX,mutinycdn.com # Mutiny 网站个性化服务 CDN 域名
 # - 校对时间：2026-05-03
 
 DOMAIN-SUFFIX,pi.pardot.com # Salesforce Pardot 访客行为跟踪采集域名
+
+# > Bazaarvoice Web Analytics Service（Bazaarvoice 网页分析服务）
+# - 校对时间：2026-05-06
+
+DOMAIN-SUFFIX,mczbf.com # Bazaarvoice 相关网页分析、Cookie 状态与会话关联服务域名
+
+# > Demandbase Account-Based Marketing Tag（Demandbase 账户制营销识别标签）
+# - 校对时间：2026-05-06
+
+DOMAIN-SUFFIX,demandbase.com # Demandbase 官方主域名与账户制营销、访客识别和企业数据平台入口
+DOMAIN-SUFFIX,tag.demandbase.com # Demandbase Tag 前端识别脚本、访客公司识别与营销分析服务域名
