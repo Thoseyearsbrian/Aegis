@@ -88,6 +88,12 @@ DOMAIN-SUFFIX,seattle.speedtest.centurylink.net # CenturyLink 西雅图 Speedtes
 
 DOMAIN-SUFFIX,openspeedtest.com # OpenSpeedTest 网络测速平台域名
 
+# > SpeedCurve Web Performance Monitoring Platform（SpeedCurve Web 性能监控平台）
+# - 校对时间：2026-05-06
+
+DOMAIN-SUFFIX,speedcurve.com # SpeedCurve 官方主域名与 Web 性能监控、前端性能分析平台入口
+DOMAIN-SUFFIX,cdn.speedcurve.com # SpeedCurve 前端性能监控脚本、静态资源与 RUM 数据采集组件加载域名
+
 # > Test-IPv6（Test-IPv6 网络连通性测试平台）
 # - 校对时间：2026-03-27
 
