@@ -5597,6 +5597,13 @@ DOMAIN-SUFFIX,slack-files.com # Slack 文件上传、附件访问与工作区文
 DOMAIN-SUFFIX,slack-imgs.com # Slack 图片、表情与媒体资源分发域名
 DOMAIN-SUFFIX,slackb.com # Slack 链接跳转、工作区邀请与辅助服务域名
 
+# > Salesforce Trailhead Academy Learning Platform（Salesforce Trailhead Academy 学习平台）
+# - 校对时间：2026-05-06
+
+DOMAIN-SUFFIX,salesforce.com # Salesforce 官方主域名与企业云平台入口
+DOMAIN-SUFFIX,trailhead.salesforce.com # Salesforce Trailhead 在线学习、认证与开发者培训平台入口
+DOMAIN-SUFFIX,trailheadacademy.salesforce.com # Salesforce Trailhead Academy 官方培训课程与认证学习资源域名
+
 # > Ashby Recruiting Application API（Ashby 招聘管理系统职位投递接口）
 # - 校对时间：2026-03-28
 
