@@ -5610,6 +5610,7 @@ DOMAIN-SUFFIX,salesforcestore.com # Salesforce 官方品牌商品、周边商店
 DOMAIN-SUFFIX,sfdcstatic.com # Salesforce 官方静态内容、文档资料、PDF、图片与媒体资源托管主域名
 DOMAIN-SUFFIX,a.sfdcstatic.com # Salesforce 官网、Trailhead、认证资料与产品文档静态资源托管域名
 DOMAIN-SUFFIX,sfdcstatic.com # Salesforce 官方静态内容、文档资料、PDF、图片与媒体资源托管主域名
+DOMAIN-SUFFIX,wp.sfdcdigital.com # Salesforce WordPress 内容站点、营销页面与数字内容资源域名
 
 # > Ashby Recruiting Application API（Ashby 招聘管理系统职位投递接口）
 # - 校对时间：2026-03-28
