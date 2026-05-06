@@ -5588,6 +5588,7 @@ DOMAIN-SUFFIX,slack.com # Slack 官方主域名、团队协作、工作区与开
 DOMAIN-SUFFIX,slack.dev # Slack 开发者平台、API 文档与应用集成资源主域名
 DOMAIN-SUFFIX,docs.slack.dev # Slack 开发者文档、API 参考与平台集成指南域名
 DOMAIN-SUFFIX,slackhq.com # Slack 官方品牌、活动页面与辅助入口域名
+DOMAIN-SUFFIX,slackcertified.com # Slack 官方认证、培训课程与学习资源入口域名
 DOMAIN-SUFFIX,slack-edge.com # Slack 边缘资源、客户端组件与平台服务主域名
 DOMAIN-SUFFIX,a.slack-edge.com # Slack 前端资源、脚本与应用界面资源分发域名
 DOMAIN-SUFFIX,avatars.slack-edge.com # Slack 用户头像、工作区头像与图片资源域名
