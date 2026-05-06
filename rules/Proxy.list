@@ -5600,6 +5600,12 @@ DOMAIN-SUFFIX,slack-imgs.com # Slack 图片、表情与媒体资源分发域名
 DOMAIN-SUFFIX,slackb.com # Slack 链接跳转、工作区邀请与辅助服务域名
 DOMAIN-SUFFIX,downloads.slack-edge.com # Slack 客户端安装包、桌面应用更新与下载分发服务域名
 
+# > Salesforce Static Content Hosting（Salesforce 静态内容托管服务）
+# - 校对时间：2026-05-06
+
+DOMAIN-SUFFIX,sfdcstatic.com # Salesforce 官方静态内容、文档资料、PDF、图片与媒体资源托管主域名
+DOMAIN-SUFFIX,a.sfdcstatic.com # Salesforce 官网、Trailhead、认证资料与产品文档静态资源托管域名
+
 # > Salesforce Trailhead Academy Learning Platform（Salesforce Trailhead Academy 学习平台）
 # - 校对时间：2026-05-06
 
