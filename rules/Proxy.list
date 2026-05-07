@@ -1196,6 +1196,11 @@ DOMAIN-SUFFIX,stackexchange.com # Stack Exchange 问答网络主域名
 DOMAIN-SUFFIX,sstatic.net # Stack Overflow / Stack Exchange 静态资源域名
 DOMAIN-SUFFIX,stackoverflow.blog # Stack Overflow 官方博客域名
 
+# > DEV Community Developer Platform（DEV Community 开发者社区平台）
+# - 校对时间：2026-05-07
+
+DOMAIN-SUFFIX,dev.to # DEV Community 官方开发者社区主域名
+
 # > Codeberg Open Source Code Hosting Platform（Codeberg 开源代码托管平台）
 # - 校对时间：2026-05-04
 
