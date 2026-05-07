@@ -1262,6 +1262,11 @@ DOMAIN-SUFFIX,svelte.dev # Svelte 官方主域名与前端框架文档入口
 
 DOMAIN-SUFFIX,vite.dev # Vite 官方主域名与前端构建工具文档入口
 
+# > ViteConf Amsterdam Developer Conference（ViteConf Amsterdam 开发者会议）
+# - 校对时间：2026-05-07
+
+DOMAIN-SUFFIX,viteconf.amsterdam # ViteConf Amsterdam 官方会议活动域名
+
 # > webpack Module Bundler（webpack 模块打包工具）
 # - 校对时间：2026-05-04
 
