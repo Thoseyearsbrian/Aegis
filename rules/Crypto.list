@@ -1457,3 +1457,9 @@ DOMAIN-SUFFIX,thesis.co # Thesis 官方平台
 # - 校对时间：2026-05-07
 
 DOMAIN-SUFFIX,worldlibertyfinancial.com # World Liberty Financial 官方平台主域名
+
+# > OneRPC Web3 RPC Service（OneRPC Web3 RPC 服务）
+# - 校对时间：2026-05-07
+
+DOMAIN-SUFFIX,onerpc.com # OneRPC 官方平台主域名
+DOMAIN-SUFFIX,enterprise.onerpc.com # OneRPC 企业级 RPC 服务域名
