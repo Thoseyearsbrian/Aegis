@@ -1126,9 +1126,11 @@ DOMAIN-SUFFIX,bsky.app # Bluesky Web 应用域名
 DOMAIN-SUFFIX,bsky.social # Bluesky 官方主站与账号句柄域名
 
 # > Discourse Forum CDN（Discourse 论坛静态资源 CDN）
-# - 校对时间：2026-05-01
+# - 校对时间：2026-05-07
 
-DOMAIN-SUFFIX,sea1.discourse-cdn.com # Discourse 托管论坛静态资源 CDN 域名
+DOMAIN-SUFFIX,discourse-cdn.com # Discourse 托管论坛静态资源 CDN 主域名
+DOMAIN-SUFFIX,sea1.discourse-cdn.com # Discourse 托管论坛静态资源 CDN 节点域名
+DOMAIN-SUFFIX,yyz2.discourse-cdn.com # Discourse 托管论坛静态资源 CDN 节点域名
 
 # > Masto.host Managed Mastodon Hosting（Masto.host 托管 Mastodon 服务）
 # - 校对时间：2026-05-02
