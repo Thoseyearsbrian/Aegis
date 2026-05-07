@@ -676,3 +676,14 @@ DOMAIN-SUFFIX,ollama.com # Ollama 官方平台主域名
 DOMAIN-SUFFIX,worldclaw.ai # WorldClaw 官方平台主域名
 DOMAIN-SUFFIX,worldrouter.ai # WorldRouter AI 模型路由服务主域名
 DOMAIN-SUFFIX,auth.worldrouter.ai # WorldRouter 身份认证服务域名
+
+# > B.AI AI Agent Infrastructure Platform（B.AI AI Agent 基础设施平台）
+# - 校对时间：2026-05-07
+
+DOMAIN-SUFFIX,b.ai # B.AI 官方平台主域名
+DOMAIN-SUFFIX,baiclaw.b.ai # BAIclaw AI 客户端服务域名
+
+# > EasyRouter AI Model Gateway Platform（EasyRouter AI 模型网关平台）
+# - 校对时间：2026-05-07
+
+DOMAIN-SUFFIX,easyrouter.io # EasyRouter 官方平台主域名
