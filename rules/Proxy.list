@@ -5667,6 +5667,12 @@ DOMAIN-SUFFIX,consent.cookiebot.com # Cookiebot API 域名
 DOMAIN-SUFFIX,consentcdn.cookiebot.com # Cookiebot 静态资源 CDN
 DOMAIN-SUFFIX,imgsct.cookiebot.com # Cookiebot 静态资源域名
 
+# > CookieHub Consent Management Platform（CookieHub 同意管理平台）
+# - 校对时间：2026-05-07
+
+DOMAIN-SUFFIX,cookiehub.eu # CookieHub 官方平台主域名
+DOMAIN-SUFFIX,cdn.cookiehub.eu # CookieHub 同意管理组件 CDN 域名
+
 # > TrustArc Consent Management Platform（TrustArc 同意管理平台）
 # - 校对时间：2026-05-02
 
