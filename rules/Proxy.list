@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-06
-# - 校对时间：2026-05-06
+# - 更新时间：2026-05-07
+# - 校对时间：2026-05-07
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -5205,11 +5205,13 @@ DOMAIN-SUFFIX,okta.com # 平台主域名
 DOMAIN-SUFFIX,oktacdn.com # 静态资源域名
 
 # > Tencent Cloud CloudCache Acceleration Service（Tencent 国际加速节点）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-07
 
 DOMAIN-SUFFIX,staticintl.cloudcachetci.com # 静态资源域名
 DOMAIN-SUFFIX,dscache-intl.cloudcachetci.com # 加速节点域名
 DOMAIN-SUFFIX,tci18n.cloudcachetci.com # 国际 CDN 域名
+DOMAIN-SUFFIX,tencent-cloud.com # Tencent Cloud 国际服务主域名
+DOMAIN-SUFFIX,cloudcache.tencent-cloud.com # Tencent Cloud 缓存与静态资源服务域名
 
 # > Adobe Service（Adobe 国际服务）
 # - 校对时间：2026-03-28
