@@ -1172,6 +1172,16 @@ DOMAIN-SUFFIX,swiftype.com # Swiftype 站内搜索服务主域名
 DOMAIN-SUFFIX,swiftypecdn.com # Swiftype 站内搜索静态资源 CDN 主域名
 DOMAIN-SUFFIX,s.swiftypecdn.com # Swiftype 站内搜索前端静态资源 CDN 域名
 
+# > jsDelivr Open Source CDN（jsDelivr 开源 CDN）
+# - 校对时间：2026-05-07
+
+DOMAIN-SUFFIX,jsdelivr.com # jsDelivr 官方平台主域名
+DOMAIN-SUFFIX,jsdelivr.net # jsDelivr 开源项目静态资源 CDN 主域名
+DOMAIN-SUFFIX,data.jsdelivr.com # jsDelivr 数据接口与包统计服务域名
+DOMAIN-SUFFIX,cdn.jsdelivr.net # jsDelivr 公共 CDN 资源分发域名
+DOMAIN-SUFFIX,cf.jsdelivr.net # jsDelivr Cloudflare 线路资源分发域名
+DOMAIN-SUFFIX,fastly.jsdelivr.net # jsDelivr Fastly 线路资源分发域名
+
 # > SplashThat Event Platform（SplashThat 活动页面平台）
 # - 校对时间：2026-05-03
 
@@ -3581,16 +3591,13 @@ DOMAIN-SUFFIX,ka-p.fontawesome.com # CDN 节点域名
 DOMAIN-SUFFIX,fonts.bunny.net # 字体服务域名
 
 # > Subscription Tools（订阅与模块服务）
-# - 校对时间：2026-04-23
+# - 校对时间：2026-05-07
 
 DOMAIN-SUFFIX,mieqq.com # 托管服务域名
-DOMAIN-SUFFIX,cdn.jsdelivr.net # CDN 域名
 DOMAIN-SUFFIX,ghproxy.com # 镜像服务域名
 DOMAIN-SUFFIX,ghps.cc # 代理服务域名
 DOMAIN-SUFFIX,raw.fastgit.org # 镜像服务域名
-DOMAIN-SUFFIX,fastly.jsdelivr.net # CDN 节点域名
 DOMAIN-SUFFIX,mirror.ghproxy.com # 镜像服务域名
-DOMAIN-SUFFIX,cf.jsdelivr.net # CDN 节点域名
 
 # > IINA Video Player（IINA 视频播放器）
 # - 校对时间：2026-03-28
@@ -7871,9 +7878,8 @@ DOMAIN-SUFFIX,gravatar.com # Gravatar 头像服务主域名
 DOMAIN-SUFFIX,worldmonitor.app # WorldMonitor 平台主域名
 
 # > GitHub Third-Party Services（GitHub 生态第三方服务）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-07
 
-DOMAIN-SUFFIX,jsdelivr.net # jsDelivr 开源资源 CDN 域名
 DOMAIN-SUFFIX,recloudstream.github.io # GitHub Pages 站点域名
 DOMAIN-SUFFIX,rawgithub.com # GitHub Raw 文件镜像域名
 DOMAIN-SUFFIX,githubmemory.com # GitHub 镜像站域名
