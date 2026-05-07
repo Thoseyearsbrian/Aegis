@@ -673,6 +673,6 @@ DOMAIN-SUFFIX,ollama.com # Ollama 官方平台主域名
 # > WorldClaw AI Model Routing and Agent Platform（WorldClaw AI 模型路由与 Agent 平台）
 # - 校对时间：2026-05-07
 
-DOMAIN-SUFFIX,worldclaw.ai # WorldClaw 官方主域名、AI Agent 应用与平台控制台入口
-DOMAIN-SUFFIX,worldrouter.ai # WorldRouter 多模型路由、AI API 聚合与平台服务主域名
-DOMAIN-SUFFIX,auth.worldrouter.ai # WorldRouter 身份认证、登录授权与账户访问服务域名
+DOMAIN-SUFFIX,worldclaw.ai # WorldClaw 官方平台主域名
+DOMAIN-SUFFIX,worldrouter.ai # WorldRouter AI 模型路由服务主域名
+DOMAIN-SUFFIX,auth.worldrouter.ai # WorldRouter 身份认证服务域名
