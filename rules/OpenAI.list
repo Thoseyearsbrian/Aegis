@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-21
-# - 校对时间：2026-04-21
+# - 更新时间：2026-05-07
+# - 校对时间：2026-05-07
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -669,3 +669,8 @@ DOMAIN-SUFFIX,langflow.org # Langflow 官方平台主域名
 # - 校对时间：2026-03-15
 
 DOMAIN-SUFFIX,ollama.com # Ollama 官方平台主域名
+
+# > WorldClaw AI Agent Platform（WorldClaw AI Agent 平台）
+# - 校对时间：2026-05-07
+
+DOMAIN-SUFFIX,worldclaw.ai # WorldClaw 官方主域名
