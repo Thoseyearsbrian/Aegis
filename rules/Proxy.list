@@ -1189,9 +1189,10 @@ DOMAIN-SUFFIX,splashthat.com # SplashThat 活动页面托管平台主域名
 DOMAIN-SUFFIX,2023dpesummit.splashthat.com # DPE Summit 2023 活动页面域名
 
 # > Stack Overflow / Stack Exchange Developer Q&A Platform（Stack Overflow / Stack Exchange 开发者问答平台）
-# - 校对时间：2026-05-03
+# - 校对时间：2026-05-07
 
 DOMAIN-SUFFIX,stackoverflow.com # Stack Overflow 开发者问答社区主域名
+DOMAIN-SUFFIX,stackoverflow.co # Stack Overflow 官方品牌与企业服务入口域名
 DOMAIN-SUFFIX,stackexchange.com # Stack Exchange 问答网络主域名
 DOMAIN-SUFFIX,sstatic.net # Stack Overflow / Stack Exchange 静态资源域名
 DOMAIN-SUFFIX,stackoverflow.blog # Stack Overflow 官方博客域名
