@@ -8630,6 +8630,12 @@ DOMAIN-SUFFIX,posthog.com # PostHog 官方主域名与 Product OS、产品分析
 DOMAIN-SUFFIX,betterstack.com # Better Stack 官方主域名与可观测性、日志、监控和事件管理平台入口
 DOMAIN-SUFFIX,betterstack.net # Better Stack 平台服务、日志接入与可观测性基础设施域名
 
+# > FOSSA Open Source Compliance Platform（FOSSA 开源合规平台）
+# - 校对时间：2026-05-07
+
+DOMAIN-SUFFIX,fossa.com # FOSSA 官方平台主域名
+DOMAIN-SUFFIX,app.fossa.com # FOSSA 应用控制台域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
