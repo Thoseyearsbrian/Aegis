@@ -8675,6 +8675,13 @@ DOMAIN-SUFFIX,app.fossa.com # FOSSA 应用控制台域名
 DOMAIN-SUFFIX,aapls.com # Aapls 服务主域名
 DOMAIN-SUFFIX,rules.aapls.com # Aapls 规则与订阅资源服务域名
 
+# > Gelato E-commerce Production Platform（Gelato 电商生产平台）
+# - 校对时间：2026-05-08
+
+DOMAIN-SUFFIX,gelato.com # Gelato 官方平台主域名
+DOMAIN-SUFFIX,gelato.tech # Gelato 平台技术服务主域名
+DOMAIN-SUFFIX,ecommerce-editor-connector.live.gelato.tech # Gelato 电商编辑器连接服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
