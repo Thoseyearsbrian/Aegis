@@ -1179,7 +1179,7 @@ DOMAIN-SUFFIX,swiftypecdn.com # Swiftype 站内搜索静态资源 CDN 主域名
 DOMAIN-SUFFIX,s.swiftypecdn.com # Swiftype 站内搜索前端静态资源 CDN 域名
 
 # > jsDelivr Open Source CDN（jsDelivr 开源 CDN）
-# - 校对时间：2026-05-07
+# - 校对时间：2026-05-08
 
 DOMAIN-SUFFIX,jsdelivr.com # jsDelivr 官方平台主域名
 DOMAIN-SUFFIX,jsdelivr.net # jsDelivr 开源项目静态资源 CDN 主域名
@@ -1187,6 +1187,13 @@ DOMAIN-SUFFIX,data.jsdelivr.com # jsDelivr 数据接口与包统计服务域名
 DOMAIN-SUFFIX,cdn.jsdelivr.net # jsDelivr 公共 CDN 资源分发域名
 DOMAIN-SUFFIX,cf.jsdelivr.net # jsDelivr Cloudflare 线路资源分发域名
 DOMAIN-SUFFIX,fastly.jsdelivr.net # jsDelivr Fastly 线路资源分发域名
+DOMAIN-SUFFIX,jsdelivr.b-cdn.net # jsDelivr Bunny CDN 线路资源分发域名
+
+# > NS1 Pulsar CDN Routing Service（NS1 Pulsar CDN 路由服务）
+# - 校对时间：2026-05-08
+
+DOMAIN-SUFFIX,ns1pcdn.net # NS1 Pulsar CDN 路由服务主域名
+DOMAIN-SUFFIX,1xtsor1-m.ns1pcdn.net # NS1 Pulsar CDN 路由节点域名
 
 # > SplashThat Event Platform（SplashThat 活动页面平台）
 # - 校对时间：2026-05-03
