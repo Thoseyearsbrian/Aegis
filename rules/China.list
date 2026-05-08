@@ -1908,7 +1908,7 @@ DOMAIN-SUFFIX,download.xfyun.cn # 讯飞下载服务域名
 DOMAIN-SUFFIX,static.xfyun.cn # 讯飞静态资源域名
 
 # > MiniMax（MiniMax / 海螺）相关域名
-# - 校对时间：2026-03-25
+# - 校对时间：2026-05-08
 
 DOMAIN-SUFFIX,minimax.io # MiniMax 国际服务域名
 DOMAIN-SUFFIX,minimax.ai # MiniMax 主域名
@@ -1922,6 +1922,8 @@ DOMAIN-SUFFIX,cdn.minimax.ai # MiniMax 静态资源域名
 DOMAIN-SUFFIX,assets.minimax.ai # MiniMax 资源域名
 DOMAIN-SUFFIX,passport.minimax.ai # MiniMax 账号服务域名
 DOMAIN-SUFFIX,auth.minimax.ai # MiniMax 认证服务域名
+DOMAIN-SUFFIX,hailuoai.video # 海螺 AI 视频生成服务主域名
+DOMAIN-SUFFIX,cdn.hailuoai.video # 海螺 AI 视频资源 CDN 域名
 
 # > Zhipu AI / BigModel（智谱 AI / BigModel）相关域名
 # - 校对时间：2026-03-25
