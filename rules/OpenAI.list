@@ -671,6 +671,12 @@ DOMAIN-SUFFIX,langflow.org # Langflow 官方平台主域名
 
 DOMAIN-SUFFIX,ollama.com # Ollama 官方平台主域名
 
+# > Nous Research AI Platform（Nous Research AI 平台）
+# - 校对时间：2026-05-08
+
+DOMAIN-SUFFIX,nousresearch.com # Nous Research 官方平台主域名
+DOMAIN-SUFFIX,hermes-agent.nousresearch.com # Nous Research Hermes Agent 服务域名
+
 # > WorldClaw AI Model Routing and Agent Platform（WorldClaw AI 模型路由与 Agent 平台）
 # - 校对时间：2026-05-07
 
