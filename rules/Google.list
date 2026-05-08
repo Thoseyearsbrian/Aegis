@@ -5,11 +5,11 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-21
-# - 校对时间：2026-04-21
+# - 更新时间：2026-05-09
+# - 校对时间：2026-05-09
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
-# - 校对时间：2026-03-06
+# - 校对时间：2026-05-09
 
 DOMAIN-SUFFIX,google.com # Google 全球搜索主站
 DOMAIN-SUFFIX,google.com.hk # Google 香港地区搜索入口
@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,google.co.kr # Google 韩国地区搜索入口
 DOMAIN-SUFFIX,google.co.uk # Google 英国地区搜索入口
 DOMAIN-SUFFIX,google.fr # Google 法国地区搜索入口
 DOMAIN-SUFFIX,google.de # Google 德国地区搜索入口
+DOMAIN-SUFFIX,google.gr # Google 希腊地区搜索入口
 DOMAIN-SUFFIX,google.it # Google 意大利地区搜索入口
 DOMAIN-SUFFIX,google.es # Google 西班牙地区搜索入口
 DOMAIN-SUFFIX,google.nl # Google 荷兰地区搜索入口
