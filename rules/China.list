@@ -2575,3 +2575,6 @@ DOMAIN-SUFFIX,nange.cn # 楠格个人互联网笔记与技术博客域名
 # - 校对时间：2026-05-08
 
 DOMAIN-SUFFIX,ifdian.net # 爱发电创作者主页、赞助与付费内容平台域名
+DOMAIN-SUFFIX,afdiancdn.com # 爱发电内容资源 CDN 主域名
+DOMAIN-SUFFIX,static.afdiancdn.com # 爱发电静态资源 CDN 域名
+DOMAIN-SUFFIX,pic1.afdiancdn.com # 爱发电图片资源 CDN 域名
