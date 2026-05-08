@@ -188,6 +188,12 @@ DOMAIN-SUFFIX,v2rayssr.com # 节点配置相关域名
 DOMAIN-SUFFIX,VK6kTpJBIO.solastme.cc # 节点服务相关域名
 DOMAIN-SUFFIX,vk6tpjbio.solastme.cc # 节点服务相关域名
 
+# > Bitly URL Shortening Service（Bitly 短链接服务）
+# - 校对时间：2026-05-08
+
+DOMAIN-SUFFIX,bitly.com # Bitly 官方平台主域名
+DOMAIN-SUFFIX,bit.ly # Bitly 短链接跳转服务域名
+
 # > AMZ123 跨境电商平台相关域名
 # - 校对时间：2026-04-28
 
