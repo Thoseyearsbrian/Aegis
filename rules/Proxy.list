@@ -8678,7 +8678,7 @@ DOMAIN-SUFFIX,rocketgirlsclub.com # RocketGirlsClub 独立站主域名
 IP-CIDR,167.179.90.104 # RocketGirlsClub 资源节点
 
 # > Third-Party Blogs（第三方博客）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-08
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客技术博客域名
 DOMAIN-SUFFIX,skk.moe # Sukka 主站域名
@@ -8701,3 +8701,4 @@ DOMAIN-SUFFIX,mashiro.pro # Mashiro 个人技术博客域名
 DOMAIN-SUFFIX,qichiyu.com # 七尺宇个人技术博客域名
 DOMAIN-SUFFIX,sev7en.blog # Sev7en 技术博客域名
 DOMAIN-SUFFIX,v2ray-agent.com # V2Ray Agent 教程与技术博客域名
+DOMAIN-SUFFIX,hackl0us.com # Hackl0us 个人技术站点与规则资源域名
