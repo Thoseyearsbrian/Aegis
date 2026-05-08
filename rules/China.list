@@ -2585,3 +2585,8 @@ DOMAIN-SUFFIX,pic1.afdiancdn.com # 爱发电图片资源 CDN 域名
 DOMAIN-SUFFIX,z.ai # Z.ai 官方平台主域名
 DOMAIN-SUFFIX,autoglm.z.ai # Z.ai AutoGLM 服务域名
 DOMAIN-SUFFIX,autoglm-api.autoglm.ai # AutoGLM API 服务域名
+
+# > Accio AI Business Agent Platform（Accio AI 商业 Agent 平台）
+# - 校对时间：2026-05-08
+
+DOMAIN-SUFFIX,accio.com # Accio 官方平台主域名
