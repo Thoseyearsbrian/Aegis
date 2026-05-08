@@ -677,6 +677,12 @@ DOMAIN-SUFFIX,ollama.com # Ollama 官方平台主域名
 DOMAIN-SUFFIX,nousresearch.com # Nous Research 官方平台主域名
 DOMAIN-SUFFIX,hermes-agent.nousresearch.com # Nous Research Hermes Agent 服务域名
 
+# > Psyche Decentralized AI Training Network（Psyche 去中心化 AI 训练网络）
+# - 校对时间：2026-05-08
+
+DOMAIN-SUFFIX,psyche.network # Psyche 官方网络主域名
+DOMAIN-SUFFIX,docs.psyche.network # Psyche 官方文档域名
+
 # > WorldClaw AI Model Routing and Agent Platform（WorldClaw AI 模型路由与 Agent 平台）
 # - 校对时间：2026-05-07
 
