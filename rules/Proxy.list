@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-08
-# - 校对时间：2026-05-08
+# - 更新时间：2026-05-09
+# - 校对时间：2026-05-09
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -134,6 +134,24 @@ DOMAIN-SUFFIX,secure.academia.edu # Academia 安全连接域名
 DOMAIN-SUFFIX,0.academia-photos.com # Academia 图片资源域名
 IP-CIDR,65.8.76.64/32 # Academia 图片资源 CDN 节点（0.academia-photos.com）
 IP-CIDR,65.8.76.121/32 # Academia 图片资源 CDN 节点（0.academia-photos.com）
+
+# > Khan TED Institute Higher Education Initiative（Khan TED Institute 高等教育项目）
+# - 校对时间：2026-05-09
+
+DOMAIN-SUFFIX,khanted.org # Khan TED Institute 官方主域名
+
+# > Khan Academy Learning Platform（Khan Academy 在线学习平台）
+# - 校对时间：2026-05-09
+
+DOMAIN-SUFFIX,khanacademy.org # Khan Academy 官方学习平台主域名
+DOMAIN-SUFFIX,kastatic.org # Khan Academy 静态资源域名
+DOMAIN-SUFFIX,kasandbox.org # Khan Academy 交互练习与代码沙盒域名
+
+# > TED Ideas and Education Platform（TED 演讲与教育内容平台）
+# - 校对时间：2026-05-09
+
+DOMAIN-SUFFIX,ted.com # TED 官方平台主域名
+DOMAIN-SUFFIX,tedcdn.com # TED 媒体与静态资源 CDN 域名
 
 # > Dr.Web 相关域名
 # - 校对时间：2026-04-23
