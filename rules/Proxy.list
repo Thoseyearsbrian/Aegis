@@ -8718,6 +8718,11 @@ DOMAIN-SUFFIX,gelato.com # Gelato 官方平台主域名
 DOMAIN-SUFFIX,gelato.tech # Gelato 平台技术服务主域名
 DOMAIN-SUFFIX,ecommerce-editor-connector.live.gelato.tech # Gelato 电商编辑器连接服务域名
 
+# > Certificates.dev Developer Skills Certification Platform（Certificates.dev 开发者技能认证平台）
+# - 校对时间：2026-05-09
+
+DOMAIN-SUFFIX,certificates.dev # Certificates.dev 官方认证平台主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
