@@ -9,6 +9,7 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,match.adsrvr.org # The Trade Desk AdsRvr 广告匹配服务域名
 DOMAIN-SUFFIX,cdn.carbonads.com # Carbon Ads 广告分发 CDN 域名
 DOMAIN-SUFFIX,ads-twitter.com # X / Twitter Ads 广告域名
 DOMAIN-SUFFIX,phx.creativecdn.com # Creative 广告分发 CDN 域名
