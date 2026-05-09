@@ -865,3 +865,8 @@ DOMAIN-SUFFIX,posthog.prd.ainft.com # AINFT PostHog 事件采集服务域名
 # - 校对时间：2026-05-09
 
 DOMAIN-SUFFIX,ingesteer.services-prod.nsvcs.net # Datadog RUM 数据接入路由服务域名
+
+# > ConvertBox On-Site Marketing Platform（ConvertBox 站内营销平台）
+# - 校对时间：2026-05-09
+
+DOMAIN-SUFFIX,cdn.convertbox.com # ConvertBox 站内营销组件 CDN 域名
