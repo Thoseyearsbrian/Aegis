@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-08
-# - 校对时间：2026-05-08
+# - 更新时间：2026-05-09
+# - 校对时间：2026-05-09
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-03-05
@@ -705,3 +705,9 @@ DOMAIN-SUFFIX,easyrouter.io # EasyRouter 官方平台主域名
 # - 校对时间：2026-05-07
 
 DOMAIN-SUFFIX,ainft.com # AINFT 官方平台主域名
+
+# > Base44 AI App Builder Platform（Base44 AI 应用构建平台）
+# - 校对时间：2026-05-09
+
+DOMAIN-SUFFIX,base44.com # Base44 官方平台主域名
+DOMAIN-SUFFIX,media.base44.com # Base44 媒体资源服务域名
