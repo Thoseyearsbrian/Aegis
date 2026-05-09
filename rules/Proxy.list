@@ -135,6 +135,24 @@ DOMAIN-SUFFIX,0.academia-photos.com # Academia 图片资源域名
 IP-CIDR,65.8.76.64/32 # Academia 图片资源 CDN 节点（0.academia-photos.com）
 IP-CIDR,65.8.76.121/32 # Academia 图片资源 CDN 节点（0.academia-photos.com）
 
+# > The San Francisco Standard News Platform（The San Francisco Standard 新闻平台）
+# - 校对时间：2026-05-09
+
+DOMAIN-SUFFIX,sfstandard.com # The San Francisco Standard 官方主域名
+DOMAIN-SUFFIX,assets.sfstandard.com # The San Francisco Standard 媒体资源域名
+
+# > Fortune Business Media Platform（Fortune 商业财经媒体平台）
+# - 校对时间：2026-05-09
+
+DOMAIN-SUFFIX,fortune.com # Fortune 官方主域名
+
+# > CNBC Business News Platform（CNBC 商业财经新闻平台）
+# - 校对时间：2026-05-09
+
+DOMAIN-SUFFIX,cnbc.com # CNBC 官方主域名
+DOMAIN-SUFFIX,cnbcfm.com # CNBC 媒体资源 CDN 主域名
+DOMAIN-SUFFIX,image.cnbcfm.com # CNBC 图片资源 CDN 域名
+
 # > Khan TED Institute Higher Education Initiative（Khan TED Institute 高等教育项目）
 # - 校对时间：2026-05-09
 
