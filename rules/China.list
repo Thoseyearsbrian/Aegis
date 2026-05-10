@@ -2597,3 +2597,9 @@ DOMAIN-SUFFIX,accio.com # Accio 官方平台主域名
 # - 校对时间：2026-05-10
 
 DOMAIN-SUFFIX,1panel.cn # 1Panel 中文官网主域名
+
+# > FIT2CLOUD Technology Community（FIT2CLOUD 飞致云技术社区）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,fit2cloud.com # FIT2CLOUD 飞致云官方主域名
+DOMAIN-SUFFIX,community.fit2cloud.com # FIT2CLOUD 飞致云技术社区域名
