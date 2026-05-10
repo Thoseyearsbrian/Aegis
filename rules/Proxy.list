@@ -125,6 +125,11 @@ DOMAIN-SUFFIX,scamalytics.com # Scamalytics IP 风险检测平台主域名
 DOMAIN-SUFFIX,api.scamalytics.com # Scamalytics IP 风险检测接口域名
 DOMAIN-SUFFIX,cdn.scamalytics.com # Scamalytics 静态资源域名
 
+# > Netify Network Intelligence Platform（Netify 网络情报平台）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,netify.ai # Netify 官方平台主域名
+
 # > Academia（Academia 学术论文访问与学术资源交流平台）
 # - 校对时间：2026-03-27
 
