@@ -170,6 +170,12 @@ DOMAIN-SUFFIX,khanacademy.org # Khan Academy 官方学习平台主域名
 DOMAIN-SUFFIX,kastatic.org # Khan Academy 静态资源域名
 DOMAIN-SUFFIX,kasandbox.org # Khan Academy 交互练习与代码沙盒域名
 
+# > Skilljar Customer Education Platform（Skilljar 客户教育平台）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,sj-cdn.net # Skilljar 课程内容 CDN 主域名
+DOMAIN-SUFFIX,cc.sj-cdn.net # Skilljar 课程内容 CDN 域名
+
 # > TED Ideas and Education Platform（TED 演讲与教育内容平台）
 # - 校对时间：2026-05-09
 
@@ -1157,6 +1163,12 @@ DOMAIN-SUFFIX,ssl.reddit.com # 安全服务域名
 DOMAIN-SUFFIX,redditinc.com # 公司主域名
 DOMAIN-SUFFIX,reddit.my.site.com # 支持服务域名
 DOMAIN-SUFFIX,reddit.my.salesforce-scrt.com # 支持服务域名
+
+# > inSided Customer Community Platform（inSided 客户社区平台）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,insided.com # inSided 客户社区平台主域名
+DOMAIN-SUFFIX,cdn-euw1.insided.com # inSided 欧洲区社区资源 CDN 域名
 
 # > Sift Risk Control Service（Sift 风控服务）
 # - 校对时间：2026-03-28
