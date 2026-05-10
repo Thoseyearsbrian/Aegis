@@ -436,6 +436,12 @@ DOMAIN-SUFFIX,images-fe.ssl-images-amazon.com # Amazon 远东图像资源 CDN
 DOMAIN-SUFFIX,cloudfront.net # AWS CloudFront CDN 通用内容分发域名
 DOMAIN-SUFFIX,redirect.prod.experiment.routing.cloudfront.aws.a2z.com # Amazon CloudFront 实验路由重定向服务域名
 
+# > AWS Static Assets Service（AWS 静态资源服务）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,awsstatic.com # AWS 官方静态资源主域名
+DOMAIN-SUFFIX,a0.awsstatic.com # AWS 官方静态资源服务域名
+
 # > Amazon S3 Storage Service（Amazon S3 对象存储服务）
 # - 校对时间：2026-05-03
 
