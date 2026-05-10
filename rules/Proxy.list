@@ -388,6 +388,11 @@ DOMAIN-SUFFIX,api.whatnot.com # API 接口域名
 DOMAIN-SUFFIX,auth.whatnot.com # 登录服务域名
 DOMAIN-SUFFIX,checkout.whatnot.com # 支付服务域名
 
+# > Cotton Bureau Merchandise Platform（Cotton Bureau 周边商品平台）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,cottonbureau.com # Cotton Bureau 官方平台主域名
+
 # > WhatsApp Instant Messaging Platform（WhatsApp 即时通信平台）
 # - 校对时间：2026-03-28
 
