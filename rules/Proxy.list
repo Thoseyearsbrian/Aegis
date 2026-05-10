@@ -442,6 +442,11 @@ DOMAIN-SUFFIX,press.aboutamazon.com # Amazon 官方媒体中心域名
 DOMAIN-SUFFIX,builder.aws.com # AWS Builder Center 开发者社区域名
 DOMAIN-SUFFIX,api.builder.aws.com # AWS Builder Center API 服务域名
 
+# > AWS re:Post Knowledge Community（AWS re:Post 知识社区）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,repost.aws # AWS re:Post 官方知识社区域名
+
 # > AWS Shortbread Tools Service（AWS Shortbread 工具服务）
 # - 校对时间：2026-05-10
 
