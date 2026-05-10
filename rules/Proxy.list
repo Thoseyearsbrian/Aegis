@@ -3480,17 +3480,17 @@ DOMAIN-SUFFIX,runivers.ru # 平台主域名
 # > Notion Platform（Notion 文档协作平台）
 # - 校对时间：2026-05-10
 
-DOMAIN-SUFFIX,notion.so # 平台主域名
-DOMAIN-SUFFIX,notion.site # 页面托管域名
-DOMAIN-SUFFIX,notion-static.com # 静态资源域名
-DOMAIN-SUFFIX,notionusercontent.com # 用户内容域名
-DOMAIN-SUFFIX,notion-uploads.com # 上传服务域名
-DOMAIN-SUFFIX,notion-newtab.com # 扩展服务域名
-DOMAIN-SUFFIX,notion.services # 后端服务域名
-DOMAIN-SUFFIX,api.notion.com # API 接口域名
-DOMAIN-SUFFIX,status.notion.so # 状态服务域名
-DOMAIN-SUFFIX,app.notion.com # Web 应用域名
-DOMAIN-SUFFIX,notion.so # Notion 官方平台主域名
+DOMAIN-SUFFIX,notion.com # Notion 官方平台主域名
+DOMAIN-SUFFIX,notion.so # Notion 历史主域名
+DOMAIN-SUFFIX,notion.site # Notion 页面托管域名
+DOMAIN-SUFFIX,notion-static.com # Notion 静态资源域名
+DOMAIN-SUFFIX,notionusercontent.com # Notion 用户内容域名
+DOMAIN-SUFFIX,notion-uploads.com # Notion 上传服务域名
+DOMAIN-SUFFIX,notion-newtab.com # Notion 扩展服务域名
+DOMAIN-SUFFIX,notion.services # Notion 后端服务域名
+DOMAIN-SUFFIX,api.notion.com # Notion API 服务域名
+DOMAIN-SUFFIX,status.notion.so # Notion 状态服务域名
+DOMAIN-SUFFIX,app.notion.com # Notion Web 应用域名
 
 # > Evernote Platform（Evernote 笔记平台）
 # - 校对时间：2026-04-23
