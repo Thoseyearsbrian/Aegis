@@ -349,6 +349,12 @@ DOMAIN-SUFFIX,taas.cn # 测试服务平台域名
 DOMAIN-SUFFIX,robotics.ac.cn # 机器人研究服务域名
 DOMAIN-SUFFIX,cstc.org.cn # 通信标准服务域名
 
+# > Chinaz Webmaster Tools（站长之家站长工具）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,chinaz.com # 站长之家官方主域名
+DOMAIN-SUFFIX,tool.chinaz.com # 站长之家站长工具服务域名
+
 # > Telecom Regulation and Network Services（通信监管与基础网络服务）相关域名
 # - 校对时间：2026-03-24
 
