@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-09
-# - 校对时间：2026-05-09
+# - 更新时间：2026-05-10
+# - 校对时间：2026-05-10
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 # - 校对时间：2026-05-09
@@ -60,9 +60,10 @@ DOMAIN-SUFFIX,tools.google.com # Google 工具服务域名
 DOMAIN-SUFFIX,googledomains.com # Google Domains 历史官网入口
 
 # > Google APIs & Backend Services（Google 后端接口服务）
-# - 校对时间：2026-03-06
+# - 校对时间：2026-05-10
 
 DOMAIN-SUFFIX,googleapis.com # Google 官方 API 网关
+DOMAIN-SUFFIX,clientservices.googleapis.com # Google 客户端服务接口
 DOMAIN-SUFFIX,proto.googleapis.com # Google API Protobuf 传输服务
 DOMAIN-SUFFIX,notifications-pa.googleapis.com # Google 通知推送接口
 DOMAIN-SUFFIX,content-autofill.googleapis.com # Google 自动填充服务接口
@@ -106,7 +107,7 @@ DOMAIN-SUFFIX,googlevideo.com # YouTube 视频 CDN
 DOMAIN-SUFFIX,s.youtube.com # YouTube 服务接口
 
 # > Chrome & Chromium（Chrome 浏览器生态）
-# - 校对时间：2026-03-06
+# - 校对时间：2026-05-10
 
 DOMAIN-SUFFIX,chrome.com # Chrome 浏览器官网
 DOMAIN-SUFFIX,googlechrome.com # Chrome 产品站点
@@ -116,13 +117,16 @@ DOMAIN-SUFFIX,chromium.org # Chromium 项目官网
 DOMAIN-SUFFIX,chromestatus.com # Chromium 功能状态
 DOMAIN-SUFFIX,chromium.googlesource.com # Chromium 源码托管
 DOMAIN-SUFFIX,crbug.com # Chromium Bug 跟踪
+DOMAIN-SUFFIX,clients2.google.com # Google 客户端更新服务域名
 
 # > Android & Google Play（Android 与应用分发）
-# - 校对时间：2026-03-06
+# - 校对时间：2026-05-10
 
 DOMAIN-SUFFIX,android.com # Android 官方站点
 DOMAIN-SUFFIX,googleplay.com # Google Play 官网
 DOMAIN-SUFFIX,play.google.com # Google Play 应用服务
+DOMAIN-SUFFIX,android.clients.google.com # Android 客户端服务域名
+DOMAIN-SUFFIX,update.googleapis.com # Android 与 Google 客户端更新接口
 DOMAIN-SUFFIX,play-lh.googleusercontent.com # Google Play 应用资源 CDN
 DOMAIN-SUFFIX,gvt1.com # Google CDN 内容分发
 DOMAIN-SUFFIX,gvt2.com # Google CDN 内容分发
@@ -157,10 +161,11 @@ DOMAIN-SUFFIX,dl.google.com # Google 下载服务域名
 DOMAIN-SUFFIX,cdn.ampproject.org # Google AMP CDN
 
 # > Google Identity & Security（Google 身份与安全服务）
-# - 校对时间：2026-03-06
+# - 校对时间：2026-05-10
 
 DOMAIN-SUFFIX,accounts.google.com # Google 账号认证
 DOMAIN-SUFFIX,oauth2.googleapis.com # Google OAuth2 授权
+DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com # Google OAuth 账户管理接口
 DOMAIN-SUFFIX,dns.google # Google 加密 DNS 服务
 DOMAIN-SUFFIX,recaptcha.net # Google reCAPTCHA 验证服务
 DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com # Google Safe Browsing 隐私查询中继
