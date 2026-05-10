@@ -430,6 +430,12 @@ DOMAIN-SUFFIX,images-na.ssl-images-amazon.com # Amazon 北美图像资源 CDN
 DOMAIN-SUFFIX,images-eu.ssl-images-amazon.com # Amazon 欧洲图像资源 CDN
 DOMAIN-SUFFIX,images-fe.ssl-images-amazon.com # Amazon 远东图像资源 CDN
 
+# > Amazon Corporate News and Press Center（Amazon 企业新闻与媒体中心）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,aboutamazon.com # Amazon 官方新闻与企业信息主域名
+DOMAIN-SUFFIX,press.aboutamazon.com # Amazon 官方媒体中心域名
+
 # > Amazon CloudFront CDN（Amazon CloudFront 内容分发网络）
 # - 校对时间：2026-04-28
 
