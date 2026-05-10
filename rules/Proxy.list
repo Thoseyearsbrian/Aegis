@@ -3507,6 +3507,7 @@ DOMAIN-SUFFIX,notion-newtab.com # Notion 扩展服务域名
 DOMAIN-SUFFIX,notion.services # Notion 后端服务域名
 DOMAIN-SUFFIX,api.notion.com # Notion API 服务域名
 DOMAIN-SUFFIX,status.notion.so # Notion 状态服务域名
+DOMAIN-SUFFIX,notion-status.com # Notion 官方状态页域名
 DOMAIN-SUFFIX,app.notion.com # Notion Web 应用域名
 
 # > Evernote Platform（Evernote 笔记平台）
