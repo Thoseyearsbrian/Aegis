@@ -436,6 +436,11 @@ DOMAIN-SUFFIX,images-fe.ssl-images-amazon.com # Amazon 远东图像资源 CDN
 DOMAIN-SUFFIX,aboutamazon.com # Amazon 官方新闻与企业信息主域名
 DOMAIN-SUFFIX,press.aboutamazon.com # Amazon 官方媒体中心域名
 
+# > AWS Builder Center（AWS Builder Center 开发者社区）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,builder.aws.com # AWS Builder Center 开发者社区域名
+
 # > Amazon CloudFront CDN（Amazon CloudFront 内容分发网络）
 # - 校对时间：2026-04-28
 
