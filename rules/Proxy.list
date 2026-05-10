@@ -7737,13 +7737,15 @@ DOMAIN-SUFFIX,meraki.com # Cisco Meraki 云管理网络平台主域名
 DOMAIN-SUFFIX,duo.com # Cisco Duo 零信任身份认证平台主域名
 
 # > Oracle Platform（Oracle 全球企业软件与云计算基础设施平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-10
 
 DOMAIN-SUFFIX,oracle.com # Oracle 官方主域名
 DOMAIN-SUFFIX,docs.oracle.com # Oracle 官方文档平台
 DOMAIN-SUFFIX,login.oracle.com # Oracle 统一身份认证域名
 DOMAIN-SUFFIX,education.oracle.com # Oracle Education 平台主域名
 DOMAIN-SUFFIX,apex.oracle.com # Oracle APEX 低代码开发平台主域名
+DOMAIN-SUFFIX,ocic-static.com # Oracle Cloud 静态资源 CDN 主域名
+DOMAIN-SUFFIX,lf-cdn.ocic-static.com # Oracle Cloud 静态资源 CDN 域名
 
 # > NVIDIA Platform（NVIDIA 全球 GPU 与 AI 计算基础设施平台）
 # - 校对时间：2026-03-28
