@@ -440,6 +440,23 @@ DOMAIN-SUFFIX,press.aboutamazon.com # Amazon 官方媒体中心域名
 # - 校对时间：2026-05-10
 
 DOMAIN-SUFFIX,builder.aws.com # AWS Builder Center 开发者社区域名
+DOMAIN-SUFFIX,api.builder.aws.com # AWS Builder Center API 服务域名
+
+# > AWS Shortbread Tools Service（AWS Shortbread 工具服务）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,tools.shortbread.aws.dev # AWS Shortbread 工具服务主域名
+DOMAIN-SUFFIX,prod.tools.shortbread.aws.dev # AWS Shortbread 生产工具服务域名
+
+# > AWS Security Token Service（AWS 安全令牌服务）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,sts.us-east-1.amazonaws.com # AWS STS 美国东部区域服务域名
+
+# > Amazon Cognito Identity Service（Amazon Cognito 身份服务）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com # Amazon Cognito Identity 美国东部区域服务域名
 
 # > Amazon CloudFront CDN（Amazon CloudFront 内容分发网络）
 # - 校对时间：2026-04-28
