@@ -711,3 +711,9 @@ DOMAIN-SUFFIX,ainft.com # AINFT 官方平台主域名
 
 DOMAIN-SUFFIX,base44.com # Base44 官方平台主域名
 DOMAIN-SUFFIX,media.base44.com # Base44 媒体资源服务域名
+
+# > TailorHQ AI Workflow Platform（TailorHQ AI 工作流平台）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,tailorhq.ai # TailorHQ 官方平台主域名
+DOMAIN-SUFFIX,app.tailorhq.ai # TailorHQ Web 应用服务域名
