@@ -8742,6 +8742,11 @@ DOMAIN-SUFFIX,media.bitterbrains.com # BitterBrains 媒体资源服务域名
 DOMAIN-SUFFIX,helpscout.net # Help Scout 服务主域名
 DOMAIN-SUFFIX,beacon-v2.helpscout.net # Help Scout Beacon 客服组件服务域名
 
+# > LXware Open Source Software Store（LXware 开源软件商店）
+# - 校对时间：2026-05-10
+
+DOMAIN-SUFFIX,lxware.hk # LXware 官方平台主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
