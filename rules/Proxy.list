@@ -3496,7 +3496,6 @@ DOMAIN-SUFFIX,notion.services # Notion 后端服务域名
 DOMAIN-SUFFIX,api.notion.com # Notion API 服务域名
 DOMAIN-SUFFIX,status.notion.so # Notion 状态服务域名
 DOMAIN-SUFFIX,app.notion.com # Notion Web 应用域名
-DOMAIN-SUFFIX,http-inputs-notion.splunkcloud.com # Notion Splunk Cloud 日志接入服务域名
 
 # > Evernote Platform（Evernote 笔记平台）
 # - 校对时间：2026-04-23
