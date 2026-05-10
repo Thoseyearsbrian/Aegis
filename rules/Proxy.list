@@ -3478,7 +3478,7 @@ DOMAIN-SUFFIX,mkrf.ru # 服务域名
 DOMAIN-SUFFIX,runivers.ru # 平台主域名
 
 # > Notion Platform（Notion 文档协作平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-10
 
 DOMAIN-SUFFIX,notion.so # 平台主域名
 DOMAIN-SUFFIX,notion.site # 页面托管域名
@@ -3490,6 +3490,7 @@ DOMAIN-SUFFIX,notion.services # 后端服务域名
 DOMAIN-SUFFIX,api.notion.com # API 接口域名
 DOMAIN-SUFFIX,status.notion.so # 状态服务域名
 DOMAIN-SUFFIX,app.notion.com # Web 应用域名
+DOMAIN-SUFFIX,notion.so # Notion 官方平台主域名
 
 # > Evernote Platform（Evernote 笔记平台）
 # - 校对时间：2026-04-23
