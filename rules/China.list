@@ -1601,19 +1601,17 @@ DOMAIN-SUFFIX,assets.yuque.com # 语雀静态资源域名
 DOMAIN-SUFFIX,public.yuque.com # 语雀公共内容域名
 DOMAIN-SUFFIX,office.yuque.com # 语雀在线办公服务域名
 
-# > Feishu Docs / Lark（飞书文档）相关域名
+# > Feishu Docs（飞书文档）相关域名
 # - 校对时间：2026-05-10
 
 DOMAIN-SUFFIX,feishu.cn # 飞书中国区主域名
 DOMAIN-SUFFIX,feishuapp.cn # 飞书应用服务域名
-DOMAIN-SUFFIX,larkoffice.com # 飞书国际服务域名
 DOMAIN-SUFFIX,feishucdn.com # 飞书静态资源域名
 DOMAIN-SUFFIX,feishustatic.com # 飞书静态资源域名
 DOMAIN-SUFFIX,feishucontent.com # 飞书内容存储域名
 DOMAIN-SUFFIX,open.feishu.cn # 飞书开放平台域名
 DOMAIN-SUFFIX,api.feishu.cn # 飞书接口域名
 DOMAIN-SUFFIX,cdn.nlark.com # 飞书文档静态资源域名
-DOMAIN-SUFFIX,larksuitecdn.com # Lark Suite 静态资源 CDN 主域名
 
 # > Tencent Docs（腾讯文档）相关域名
 # - 校对时间：2026-03-25
