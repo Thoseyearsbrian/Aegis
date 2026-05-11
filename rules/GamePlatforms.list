@@ -4,8 +4,19 @@
 # - 特征：涵盖 Steam、Epic、PlayStation、Nintendo 等主流游戏平台与相关服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-13
-# - 校对时间：2026-04-13
+# - 更新时间：2026-05-11
+# - 校对时间：2026-05-11
+
+# > Tencent Games Common Services（腾讯游戏通用服务）
+# - 校对时间：2026-05-11
+
+DOMAIN-SUFFIX,tencentgames.com # 腾讯游戏主域名
+DOMAIN-SUFFIX,igame.qq.com # 腾讯游戏平台域名
+DOMAIN-SUFFIX,gamecenter.qq.com # 腾讯游戏中心域名
+DOMAIN-SUFFIX,gvoice.tencent.com # 腾讯语音通信服务域名
+DOMAIN-SUFFIX,dlied1.qq.com # 腾讯游戏下载服务域名
+DOMAIN-SUFFIX,dlied2.qq.com # 腾讯游戏下载服务域名
+DOMAIN-SUFFIX,egame.qq.com # 腾讯游戏服务域名
 
 # > Honor of Kings Services（王者荣耀游戏服务）
 # - 校对时间：2026-03-30
