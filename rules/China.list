@@ -5,6 +5,7 @@
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
 # - 更新时间：2026-05-11
+# - 校对时间：2026-05-11
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-03-23
@@ -143,7 +144,7 @@ DOMAIN-SUFFIX,v.koubei.com # 口碑页面服务域名
 DOMAIN-SUFFIX,i.antfin.com # 蚂蚁集团基础服务域名
 
 # > Tencent Cloud（腾讯云）
-# - 校对时间：2026-03-24
+# - 校对时间：2026-05-11
 
 DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云主域名
 DOMAIN-SUFFIX,cloud.tencent.cn # 腾讯云中国站域名
@@ -159,49 +160,32 @@ DOMAIN-SUFFIX,dscache.tencent-cloud.cn # 腾讯云调度缓存服务域名
 DOMAIN-SUFFIX,dscache.tencent-cloud.com # 腾讯云调度缓存服务域名
 DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播服务域名
 DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云视频服务域名
+DOMAIN-SUFFIX,tcb-api.tencentcloudapi.com # 腾讯云开发接口域名
 
-# > Tencent Mail（QQ 邮箱）
-# - 校对时间：2026-03-24
+# > Weiyun（腾讯微云）相关域名
+# - 校对时间：2026-05-11
 
-DOMAIN-SUFFIX,mail.qq.com # QQ 邮箱主域名
-DOMAIN-SUFFIX,foxmail.com # Foxmail 邮件服务域名
-DOMAIN-SUFFIX,mywebmail.mail.qq.com # QQ 邮箱网页服务域名
-DOMAIN-SUFFIX,imgcache.qq.com # QQ 邮箱图片缓存域名
+DOMAIN-SUFFIX,weiyun.com # 微云主域名
+DOMAIN-SUFFIX,share.weiyun.com # 微云分享服务域名
+DOMAIN-SUFFIX,api.weiyun.com # 微云接口域名
+DOMAIN-SUFFIX,static.weiyun.com # 微云静态资源域名
+DOMAIN-SUFFIX,pc.weiyun.com # 微云应用服务域名
+DOMAIN-SUFFIX,cdnweiyun.com # 微云内容分发域名
+DOMAIN-SUFFIX,huatuocode.weiyun.com # 腾讯微云技术支持域名
 
-# > Tencent Maps（腾讯地图）相关域名
-# - 校对时间：2026-03-24
+# > CODING（腾讯云 DevOps）相关域名
+# - 校对时间：2026-05-11
 
-DOMAIN-SUFFIX,map.qq.com # 腾讯地图主域名
-DOMAIN-SUFFIX,apis.map.qq.com # 腾讯地图 API 域名
-DOMAIN-SUFFIX,mapsdk.map.qq.com # 腾讯地图 SDK 域名
-DOMAIN-SUFFIX,confinfo.map.qq.com # 腾讯地图配置服务域名
-DOMAIN-SUFFIX,poi.map.qq.com # 腾讯地图兴趣点服务域名
-DOMAIN-SUFFIX,rtq.map.qq.com # 腾讯地图实时交通服务域名
-DOMAIN-SUFFIX,tracking.map.qq.com # 腾讯地图轨迹服务域名
-DOMAIN-SUFFIX,ugc.map.qq.com # 腾讯地图用户内容服务域名
-DOMAIN-SUFFIX,nav.map.qq.com # 腾讯地图导航服务域名
-DOMAIN-SUFFIX,photo.map.qq.com # 腾讯地图街景图片服务域名
-DOMAIN-SUFFIX,conf.map.qq.com # 腾讯地图组件配置域名
-
-# > Tencent Games（王者荣耀 / 和平精英）相关域名
-# - 校对时间：2026-03-24
-
-DOMAIN-SUFFIX,tencentgames.com # 腾讯游戏主域名
-DOMAIN-SUFFIX,igame.qq.com # 腾讯游戏平台域名
-DOMAIN-SUFFIX,gamecenter.qq.com # 腾讯游戏中心域名
-DOMAIN-SUFFIX,kgame.qq.com # 王者荣耀服务域名
-DOMAIN-SUFFIX,king.qq.com # 王者荣耀主域名
-DOMAIN-SUFFIX,api.kg.qq.com # 王者荣耀接口域名
-DOMAIN-SUFFIX,pg.qq.com # 和平精英主域名
-DOMAIN-SUFFIX,fp.ps.qq.com # 和平精英安全服务域名
-DOMAIN-SUFFIX,syzs.qq.com # 和平精英实名服务域名
-DOMAIN-SUFFIX,gvoice.tencent.com # 腾讯语音通信服务域名
-DOMAIN-SUFFIX,dlied1.qq.com # 腾讯游戏下载服务域名
-DOMAIN-SUFFIX,dlied2.qq.com # 腾讯游戏下载服务域名
-DOMAIN-SUFFIX,egame.qq.com # 腾讯游戏服务域名
+DOMAIN-SUFFIX,coding.net # CODING 主域名
+DOMAIN-SUFFIX,coding.me # CODING 展示服务域名
+DOMAIN-SUFFIX,api.coding.net # CODING 接口域名
+DOMAIN-SUFFIX,static.coding.net # CODING 静态资源域名
+DOMAIN-SUFFIX,coding-page.com # CODING Pages 服务域名
+DOMAIN-SUFFIX,codimg.cn # CODING 图片资源域名
+DOMAIN-SUFFIX,codetencent.com # CODING 关联服务域名
 
 # > QQ（腾讯 QQ）相关域名
-# - 校对时间：2026-03-24
+# - 校对时间：2026-05-11
 
 DOMAIN-SUFFIX,qq.com # QQ 主域名
 DOMAIN-SUFFIX,myqq.com # QQ 账号服务域名
@@ -215,28 +199,62 @@ DOMAIN-SUFFIX,connect.qq.com # QQ 互联授权域名
 DOMAIN-SUFFIX,qlogo.cn # QQ 头像资源域名
 DOMAIN-SUFFIX,icq.com # ICQ 服务域名
 DOMAIN-SUFFIX,privacy.qq.com # 腾讯隐私说明域名
+DOMAIN-SUFFIX,team.qq.com # 腾讯 TIM 服务域名
+DOMAIN-SUFFIX,support.qq.com # QQ 用户支持服务域名
+DOMAIN-SUFFIX,turing.captcha.gtimg.com # 腾讯验证码服务域名
+DOMAIN-SUFFIX,mail.qq.com # QQ 邮箱主域名
+DOMAIN-SUFFIX,foxmail.com # Foxmail 邮件服务域名
+DOMAIN-SUFFIX,mywebmail.mail.qq.com # QQ 邮箱网页服务域名
+DOMAIN-SUFFIX,imgcache.qq.com # QQ 邮箱图片缓存域名
+
+# > Tencent Maps（腾讯地图）相关域名
+# - 校对时间：2026-05-11
+
+DOMAIN-SUFFIX,map.qq.com # 腾讯地图主域名
+DOMAIN-SUFFIX,apis.map.qq.com # 腾讯地图 API 域名
+DOMAIN-SUFFIX,mapsdk.map.qq.com # 腾讯地图 SDK 域名
+DOMAIN-SUFFIX,confinfo.map.qq.com # 腾讯地图配置服务域名
+DOMAIN-SUFFIX,poi.map.qq.com # 腾讯地图兴趣点服务域名
+DOMAIN-SUFFIX,rtq.map.qq.com # 腾讯地图实时交通服务域名
+DOMAIN-SUFFIX,tracking.map.qq.com # 腾讯地图轨迹服务域名
+DOMAIN-SUFFIX,ugc.map.qq.com # 腾讯地图用户内容服务域名
+DOMAIN-SUFFIX,nav.map.qq.com # 腾讯地图导航服务域名
+DOMAIN-SUFFIX,photo.map.qq.com # 腾讯地图街景图片服务域名
+DOMAIN-SUFFIX,conf.map.qq.com # 腾讯地图组件配置域名
 
 # > MyApp（腾讯应用宝）应用管理与分发服务
-# - 校对时间：2026-03-24
+# - 校对时间：2026-05-11
 
 DOMAIN-SUFFIX,sj.qq.com # 腾讯应用宝主域名
 DOMAIN-SUFFIX,myapp.com # 腾讯应用宝服务域名
 DOMAIN-SUFFIX,pm.myapp.com # 腾讯应用宝管理服务域名
 
-# > TIM（腾讯 TIM）团队协作办公服务
-# - 校对时间：2026-03-24
+# > Tencent Docs（腾讯文档）相关域名
+# - 校对时间：2026-05-11
 
-DOMAIN-SUFFIX,team.qq.com # 腾讯 TIM 服务域名
+DOMAIN-SUFFIX,docs.qq.com # 腾讯文档主域名
+DOMAIN-SUFFIX,doc.weixin.qq.com # 微信文档服务域名
+DOMAIN-SUFFIX,tdoc.qq.com # 腾讯文档服务域名
+DOMAIN-SUFFIX,wpscdnqq.com # 腾讯文档静态资源域名
+DOMAIN-SUFFIX,docsfile.qq.com # 腾讯文档附件服务域名
+DOMAIN-SUFFIX,cdn-docs.qq.com # 腾讯文档内容分发域名
 
-# > QQ Support（腾讯 QQ 用户支持与帮助中心）
-# - 校对时间：2026-03-24
+# > TAPD（腾讯敏捷研发协作平台）相关域名
+# - 校对时间：2026-05-11
 
-DOMAIN-SUFFIX,support.qq.com # QQ 用户支持服务域名
+DOMAIN-SUFFIX,tapd.cn # TAPD 主域名
+DOMAIN-SUFFIX,api.tapd.cn # TAPD 接口域名
+DOMAIN-SUFFIX,static.tapd.cn # TAPD 静态资源域名
+DOMAIN-SUFFIX,tapdfile.cn # TAPD 文件服务域名
+DOMAIN-SUFFIX,tapdcustom.com # TAPD 自定义域名服务
 
-# > Weiyun（腾讯微云）代码与技术支持服务
-# - 校对时间：2026-03-24
+# > Tencent Hunyuan（腾讯混元）相关域名
+# - 校对时间：2026-05-11
 
-DOMAIN-SUFFIX,huatuocode.weiyun.com # 腾讯微云技术支持域名
+DOMAIN-SUFFIX,hunyuan.tencent.com # 腾讯混元主域名
+DOMAIN-SUFFIX,api.hunyuan.tencent.com # 腾讯混元接口域名
+DOMAIN-SUFFIX,console.hunyuan.tencent.com # 腾讯混元控制台域名
+DOMAIN-SUFFIX,cdn.hunyuan.tencent.com # 腾讯混元静态资源域名
 
 # > ByteDance AI and Infrastructure Services（字节跳动 AI 与基础服务）
 # - 校对时间：2026-05-11
@@ -1622,16 +1640,6 @@ DOMAIN-SUFFIX,cdn.nlark.com # 飞书文档静态资源域名
 
 DOMAIN-SUFFIX,bytegoofy.com # 字节跳动短链与静态资源服务主域名
 
-# > Tencent Docs（腾讯文档）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,docs.qq.com # 腾讯文档主域名
-DOMAIN-SUFFIX,doc.weixin.qq.com # 微信文档服务域名
-DOMAIN-SUFFIX,tdoc.qq.com # 腾讯文档服务域名
-DOMAIN-SUFFIX,wpscdnqq.com # 腾讯文档静态资源域名
-DOMAIN-SUFFIX,docsfile.qq.com # 腾讯文档附件服务域名
-DOMAIN-SUFFIX,cdn-docs.qq.com # 腾讯文档内容分发域名
-
 # > WPS Docs（WPS 云文档）相关域名
 # - 校对时间：2026-03-25
 
@@ -1694,17 +1702,6 @@ DOMAIN-SUFFIX,push.mockingbot.com # 墨刀推送服务域名
 DOMAIN-SUFFIX,mockingbot-cdn.com # 墨刀内容分发域名
 DOMAIN-SUFFIX,mbusercontent.com # 墨刀用户内容域名
 
-# > CODING（腾讯云 DevOps）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,coding.net # CODING 主域名
-DOMAIN-SUFFIX,coding.me # CODING 展示服务域名
-DOMAIN-SUFFIX,api.coding.net # CODING 接口域名
-DOMAIN-SUFFIX,static.coding.net # CODING 静态资源域名
-DOMAIN-SUFFIX,coding-page.com # CODING Pages 服务域名
-DOMAIN-SUFFIX,codimg.cn # CODING 图片资源域名
-DOMAIN-SUFFIX,codetencent.com # CODING 关联服务域名
-
 # > PingCode（研发协作平台）相关域名
 # - 校对时间：2026-03-25
 
@@ -1715,15 +1712,6 @@ DOMAIN-SUFFIX,static.pingcode.com # PingCode 静态资源域名
 DOMAIN-SUFFIX,pcusercontent.com # PingCode 用户内容域名
 DOMAIN-SUFFIX,pc-cdn.com # PingCode 内容分发域名
 DOMAIN-SUFFIX,pingcodeimg.com # PingCode 图片资源域名
-
-# > TAPD（腾讯敏捷研发协作平台）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,tapd.cn # TAPD 主域名
-DOMAIN-SUFFIX,api.tapd.cn # TAPD 接口域名
-DOMAIN-SUFFIX,static.tapd.cn # TAPD 静态资源域名
-DOMAIN-SUFFIX,tapdfile.cn # TAPD 文件服务域名
-DOMAIN-SUFFIX,tapdcustom.com # TAPD 自定义域名服务
 
 # > Youdao Note（有道云笔记）相关域名
 # - 校对时间：2026-03-25
@@ -1789,16 +1777,6 @@ DOMAIN-SUFFIX,wolaipublic.com # Wolai 公共资源域名
 DOMAIN-SUFFIX,wolaiusercontent.com # Wolai 用户内容域名
 DOMAIN-SUFFIX,api.wolai.com # Wolai 接口域名
 DOMAIN-SUFFIX,wolaiimg.com # Wolai 图片资源域名
-
-# > Weiyun（腾讯微云）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,weiyun.com # 微云主域名
-DOMAIN-SUFFIX,share.weiyun.com # 微云分享服务域名
-DOMAIN-SUFFIX,api.weiyun.com # 微云接口域名
-DOMAIN-SUFFIX,static.weiyun.com # 微云静态资源域名
-DOMAIN-SUFFIX,pc.weiyun.com # 微云应用服务域名
-DOMAIN-SUFFIX,cdnweiyun.com # 微云内容分发域名
 
 # > MasterGo（在线设计协作平台）相关域名
 # - 校对时间：2026-03-25
@@ -1898,15 +1876,6 @@ DOMAIN-SUFFIX,docs.qwenlm.ai # 通义千问文档域名
 DOMAIN-SUFFIX,dashscope.aliyuncs.com # 灵积接口域名
 DOMAIN-SUFFIX,modelscope.cn # ModelScope 服务域名
 DOMAIN-SUFFIX,api.alicloudapi.com # 阿里云统一 API 域名
-
-# > Tencent Hunyuan（腾讯混元）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,hunyuan.tencent.com # 腾讯混元主域名
-DOMAIN-SUFFIX,api.hunyuan.tencent.com # 腾讯混元接口域名
-DOMAIN-SUFFIX,console.hunyuan.tencent.com # 腾讯混元控制台域名
-DOMAIN-SUFFIX,cdn.hunyuan.tencent.com # 腾讯混元静态资源域名
-DOMAIN-SUFFIX,tcb-api.tencentcloudapi.com # 腾讯云开发接口域名
 
 # > SparkDesk / iFlytek（讯飞星火 / 科大讯飞）相关域名
 # - 校对时间：2026-03-25
@@ -2051,11 +2020,6 @@ DOMAIN-SUFFIX,bosszhipin.com # BOSS 直聘服务域名
 DOMAIN-SUFFIX,api-ios.zhipin.com # BOSS 直聘接口域名
 DOMAIN-SUFFIX,img.bosszhipin.com # BOSS 直聘图片资源域名
 DOMAIN-SUFFIX,img2.bosszhipin.com # BOSS 直聘图片资源域名
-
-# > Tencent Turing CAPTCHA（腾讯验证码）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,turing.captcha.gtimg.com # 腾讯验证码服务域名
 
 # > ZCOOL（站酷）相关域名
 # - 校对时间：2026-03-25
