@@ -8,7 +8,7 @@
 # - 校对时间：2026-05-11
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
-# - 校对时间：2026-03-23
+# - 校对时间：2026-05-11
 
 DOMAIN-SUFFIX,alibaba.com.cn # 阿里巴巴中国站主域名
 DOMAIN-SUFFIX,1688.com # 1688 平台主域名
@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,pass.1688.com # 1688 账号认证服务域名
 DOMAIN-SUFFIX,pages-fast.1688.com # 1688 页面服务域名
 
 # > AliPay（支付宝）相关域名
-# - 校对时间：2026-04-27
+# - 校对时间：2026-05-11
 
 DOMAIN-SUFFIX,alipay.com # 支付宝主域名
 DOMAIN-SUFFIX,alipayobjects.com # 支付宝静态资源域名
@@ -104,7 +104,7 @@ IP-CIDR,221.231.92.61/32 # Alipay 数据网关边缘服务节点（datagw-edge.a
 IP-CIDR,221.231.92.219/32 # AliPay 静态资源服务节点（mdn.alicdn.com）
 
 # > Aliyun Drive（阿里云盘）相关域名
-# - 校对时间：2026-03-23
+# - 校对时间：2026-05-11
 
 DOMAIN-SUFFIX,alipan.com # 阿里云盘品牌域名
 DOMAIN-SUFFIX,aliyundrive.com # 阿里云盘主域名
@@ -115,14 +115,14 @@ DOMAIN-SUFFIX,aliyunpds.com # 阿里云盘认证服务域名
 DOMAIN-SUFFIX,aliyundrive.cloud # 阿里云盘下载服务域名
 
 # > Taobao / Alibaba Group（淘宝 / 阿里巴巴集团）相关域名
-# - 校对时间：2026-04-01
+# - 校对时间：2026-05-11
 
 DOMAIN-SUFFIX,taobao.com # 淘宝主域名
 DOMAIN-SUFFIX,taobaocdn.com # 淘宝内容分发域名
 DOMAIN-SUFFIX,mmstat.com # 阿里电商统计服务域名
 
 # > Xianyu / Alibaba Group（闲鱼 / 阿里巴巴二手交易）相关域名
-# - 校对时间：2026-03-23
+# - 校对时间：2026-05-11
 
 DOMAIN-SUFFIX,goofish.com # 闲鱼主域名
 DOMAIN-SUFFIX,xianyuapp.com # 闲鱼服务域名
@@ -131,7 +131,7 @@ DOMAIN-SUFFIX,xiangyu.m.taobao.com # 闲鱼移动服务域名
 DOMAIN-SUFFIX,video.goofish.com # 闲鱼视频服务域名
 
 # > Koubei / Alibaba Local Services（口碑 / 阿里本地生活）
-# - 校对时间：2026-03-24
+# - 校对时间：2026-05-11
 
 DOMAIN-SUFFIX,koubei.com # 口碑主域名
 DOMAIN-SUFFIX,e.koubei.com # 口碑业务服务域名
@@ -139,9 +139,70 @@ DOMAIN-SUFFIX,agw.koubei.com # 口碑接口网关域名
 DOMAIN-SUFFIX,v.koubei.com # 口碑页面服务域名
 
 # > Ant Group（蚂蚁集团）内部与基础服务域名
-# - 校对时间：2026-03-24
+# - 校对时间：2026-05-11
 
 DOMAIN-SUFFIX,i.antfin.com # 蚂蚁集团基础服务域名
+
+# > Qwen / DashScope（通义千问 / 灵积）相关域名
+# - 校对时间：2026-05-11
+
+DOMAIN-SUFFIX,qwen.ai # 通义千问主域名
+DOMAIN-SUFFIX,chat.qwen.ai # 通义千问对话服务域名
+DOMAIN-SUFFIX,api.qwen.ai # 通义千问接口域名
+DOMAIN-SUFFIX,console.qwen.ai # 通义千问控制台域名
+DOMAIN-SUFFIX,docs.qwenlm.ai # 通义千问文档域名
+DOMAIN-SUFFIX,dashscope.aliyuncs.com # 灵积接口域名
+DOMAIN-SUFFIX,modelscope.cn # ModelScope 服务域名
+DOMAIN-SUFFIX,api.alicloudapi.com # 阿里云统一 API 域名
+
+# > DingTalk Docs（钉钉文档）相关域名
+# - 校对时间：2026-05-11
+
+DOMAIN-SUFFIX,dingtalk.com # 钉钉主域名
+DOMAIN-SUFFIX,alidocs.com # 钉钉文档主域名
+DOMAIN-SUFFIX,dtstatic.com # 钉钉静态资源域名
+DOMAIN-SUFFIX,aliwork.com # 阿里协作服务域名
+
+# > Yuque（语雀）相关域名
+# - 校对时间：2026-05-11
+
+DOMAIN-SUFFIX,yuque.com # 语雀主域名
+DOMAIN-SUFFIX,cdn.yuque.com # 语雀静态资源域名
+DOMAIN-SUFFIX,api.yuque.com # 语雀接口域名
+DOMAIN-SUFFIX,assets.yuque.com # 语雀静态资源域名
+DOMAIN-SUFFIX,public.yuque.com # 语雀公共内容域名
+DOMAIN-SUFFIX,office.yuque.com # 语雀在线办公服务域名
+
+# > Hema Fresh by Alibaba（盒马鲜生）相关域名
+# - 校对时间：2026-05-11
+
+DOMAIN-SUFFIX,hemaos.com # 盒马鲜生主域名
+DOMAIN-SUFFIX,hemaapp.com # 盒马鲜生应用服务域名
+DOMAIN-SUFFIX,himalaya-h5.hemaos.com # 盒马鲜生 H5 服务域名
+DOMAIN-SUFFIX,api.hemaos.com # 盒马鲜生接口域名
+DOMAIN-SUFFIX,cdn.hemaos.com # 盒马鲜生内容分发域名
+DOMAIN-SUFFIX,passport.hemaos.com # 盒马鲜生账号服务域名
+DOMAIN-SUFFIX,log.hemaos.com # 盒马鲜生日志服务域名
+DOMAIN-SUFFIX,track.hemaos.com # 盒马鲜生轨迹服务域名
+DOMAIN-SUFFIX,alilog.hemaos.com # 盒马鲜生日志服务域名
+DOMAIN-SUFFIX,ucdl.hemamax.com # 盒马鲜生客户端下载服务域名
+
+# > Cainiao（菜鸟网络）相关域名
+# - 校对时间：2026-05-11
+
+DOMAIN-SUFFIX,cainiao.com # 菜鸟网络主域名
+DOMAIN-SUFFIX,global.cainiao.com # 菜鸟国际服务域名
+DOMAIN-SUFFIX,track.cainiao.com # 菜鸟轨迹服务域名
+DOMAIN-SUFFIX,logistics.cainiao.com # 菜鸟物流服务域名
+DOMAIN-SUFFIX,gw.cainiao.com # 菜鸟接口网关域名
+DOMAIN-SUFFIX,img.cainiao.com # 菜鸟图片资源域名
+DOMAIN-SUFFIX,cnalbs.com # 菜鸟内容分发域名
+DOMAIN-SUFFIX,alilogistics.com # 阿里物流服务域名
+
+# > Iconfont（阿里巴巴图标字体平台）相关域名
+# - 校对时间：2026-05-11
+
+DOMAIN-SUFFIX,iconfont.cn # Iconfont 主域名
 
 # > Tencent Cloud（腾讯云）
 # - 校对时间：2026-05-11
@@ -648,20 +709,6 @@ DOMAIN-SUFFIX,track.missfresh.cn # 每日优鲜轨迹服务域名
 DOMAIN-SUFFIX,log.missfresh.cn # 每日优鲜日志服务域名
 DOMAIN-SUFFIX,wx.missfresh.cn # 每日优鲜微信服务域名
 DOMAIN-SUFFIX,passport.missfresh.cn # 每日优鲜账号服务域名
-
-# > Hema Fresh by Alibaba（盒马鲜生）相关域名
-# - 校对时间：2026-03-24
-
-DOMAIN-SUFFIX,hemaos.com # 盒马鲜生主域名
-DOMAIN-SUFFIX,hemaapp.com # 盒马鲜生应用服务域名
-DOMAIN-SUFFIX,himalaya-h5.hemaos.com # 盒马鲜生 H5 服务域名
-DOMAIN-SUFFIX,api.hemaos.com # 盒马鲜生接口域名
-DOMAIN-SUFFIX,cdn.hemaos.com # 盒马鲜生内容分发域名
-DOMAIN-SUFFIX,passport.hemaos.com # 盒马鲜生账号服务域名
-DOMAIN-SUFFIX,log.hemaos.com # 盒马鲜生日志服务域名
-DOMAIN-SUFFIX,track.hemaos.com # 盒马鲜生轨迹服务域名
-DOMAIN-SUFFIX,alilog.hemaos.com # 盒马鲜生日志服务域名
-DOMAIN-SUFFIX,ucdl.hemamax.com # 盒马鲜生客户端下载服务域名
 
 # > Dingdong Maicai（叮咚买菜）相关域名
 # - 校对时间：2026-03-24
@@ -1366,18 +1413,6 @@ DOMAIN-SUFFIX,jdl.cn # 京东物流服务域名
 DOMAIN-SUFFIX,jdl.com # 京东物流国际服务域名
 DOMAIN-SUFFIX,logistics.jd.com # 京东物流接口域名
 
-# > Cainiao（菜鸟网络）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,cainiao.com # 菜鸟网络主域名
-DOMAIN-SUFFIX,global.cainiao.com # 菜鸟国际服务域名
-DOMAIN-SUFFIX,track.cainiao.com # 菜鸟轨迹服务域名
-DOMAIN-SUFFIX,logistics.cainiao.com # 菜鸟物流服务域名
-DOMAIN-SUFFIX,gw.cainiao.com # 菜鸟接口网关域名
-DOMAIN-SUFFIX,img.cainiao.com # 菜鸟图片资源域名
-DOMAIN-SUFFIX,cnalbs.com # 菜鸟内容分发域名
-DOMAIN-SUFFIX,alilogistics.com # 阿里物流服务域名
-
 # > EMS（中国邮政速递）相关域名
 # - 校对时间：2026-03-25
 
@@ -1594,11 +1629,6 @@ DOMAIN-SUFFIX,track.yunexpress.com # 云途物流轨迹服务域名
 
 DOMAIN-SUFFIX,runoob.com # 菜鸟教程主域名
 
-# > Iconfont（阿里巴巴图标字体平台）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,iconfont.cn # Iconfont 主域名
-
 # > Moka / Mokahr（招聘管理系统）相关域名
 # - 校对时间：2026-03-25
 
@@ -1613,16 +1643,6 @@ DOMAIN-SUFFIX,docs.qingque.cn # 轻雀文档主域名
 DOMAIN-SUFFIX,passport.qingque.cn # 轻雀文档账号服务域名
 DOMAIN-SUFFIX,docs-fe.qingque.cn # 轻雀文档前端服务域名
 
-# > Yuque（语雀）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,yuque.com # 语雀主域名
-DOMAIN-SUFFIX,cdn.yuque.com # 语雀静态资源域名
-DOMAIN-SUFFIX,api.yuque.com # 语雀接口域名
-DOMAIN-SUFFIX,assets.yuque.com # 语雀静态资源域名
-DOMAIN-SUFFIX,public.yuque.com # 语雀公共内容域名
-DOMAIN-SUFFIX,office.yuque.com # 语雀在线办公服务域名
-
 # > Feishu Docs（飞书文档）相关域名
 # - 校对时间：2026-05-10
 
@@ -1634,11 +1654,6 @@ DOMAIN-SUFFIX,feishucontent.com # 飞书内容存储域名
 DOMAIN-SUFFIX,open.feishu.cn # 飞书开放平台域名
 DOMAIN-SUFFIX,api.feishu.cn # 飞书接口域名
 DOMAIN-SUFFIX,cdn.nlark.com # 飞书文档静态资源域名
-
-# > ByteDance Short Link and Static Asset Service（字节跳动短链与静态资源服务）
-# - 校对时间：2026-05-11
-
-DOMAIN-SUFFIX,bytegoofy.com # 字节跳动短链与静态资源服务主域名
 
 # > WPS Docs（WPS 云文档）相关域名
 # - 校对时间：2026-03-25
@@ -1735,14 +1750,6 @@ DOMAIN-SUFFIX,static.yinxiang.com # 印象笔记静态资源域名
 DOMAIN-SUFFIX,evernote.com # Evernote 服务域名
 DOMAIN-SUFFIX,evernoteusercontent.com # Evernote 用户内容域名
 DOMAIN-SUFFIX,evernote.com.cn # Evernote 中国区历史域名
-
-# > DingTalk Docs（钉钉文档）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,dingtalk.com # 钉钉主域名
-DOMAIN-SUFFIX,alidocs.com # 钉钉文档主域名
-DOMAIN-SUFFIX,dtstatic.com # 钉钉静态资源域名
-DOMAIN-SUFFIX,aliwork.com # 阿里协作服务域名
 
 # > FlowUs（知识库协作平台）相关域名
 # - 校对时间：2026-03-25
@@ -1864,18 +1871,6 @@ DOMAIN-SUFFIX,qianfan.cloud # 千帆平台服务域名
 DOMAIN-SUFFIX,qianfanapi.com # 千帆接口域名
 DOMAIN-SUFFIX,aip.baidubce.com # 百度 AI 开放平台接口域名
 DOMAIN-SUFFIX,bcebos.com # 百度对象存储服务域名
-
-# > Qwen / DashScope（通义千问 / 灵积）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,qwen.ai # 通义千问主域名
-DOMAIN-SUFFIX,chat.qwen.ai # 通义千问对话服务域名
-DOMAIN-SUFFIX,api.qwen.ai # 通义千问接口域名
-DOMAIN-SUFFIX,console.qwen.ai # 通义千问控制台域名
-DOMAIN-SUFFIX,docs.qwenlm.ai # 通义千问文档域名
-DOMAIN-SUFFIX,dashscope.aliyuncs.com # 灵积接口域名
-DOMAIN-SUFFIX,modelscope.cn # ModelScope 服务域名
-DOMAIN-SUFFIX,api.alicloudapi.com # 阿里云统一 API 域名
 
 # > SparkDesk / iFlytek（讯飞星火 / 科大讯飞）相关域名
 # - 校对时间：2026-03-25
@@ -2359,11 +2354,6 @@ DOMAIN-SUFFIX,cls.cn # 财联社主域名
 DOMAIN-SUFFIX,cailianpress.com # 财联社服务域名
 DOMAIN-SUFFIX,image.cailianpress.com # 财联社图片资源域名
 
-# > ITdog（ITdog 网络运维工具平台）
-# - 校对时间：2026-03-27
-
-DOMAIN-SUFFIX,itdog.cn # IT狗网络运维工具平台域名
-
 # > 3UE（3UE 数字营销平台）
 # - 校对时间：2026-03-27
 
@@ -2469,11 +2459,6 @@ DOMAIN-SUFFIX,msn.cn # 官方中国站点域名
 # - 校对时间：2026-04-23
 
 DOMAIN-SUFFIX,cn.bing.com # 官方中国站点域名
-
-# > Evernote China Site（Evernote 中国站点）
-# - 校对时间：2026-04-23
-
-DOMAIN-SUFFIX,evernote.com.cn # 官方中国站点域名
 
 # > Subscription Tools China（订阅与模块服务 中国站点）
 # - 校对时间：2026-04-23
