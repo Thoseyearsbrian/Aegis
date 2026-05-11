@@ -736,8 +736,8 @@ DOMAIN-SUFFIX,passport.dada.cn # 达达账号服务域名
 DOMAIN-SUFFIX,report.dada.cn # 达达报表服务域名
 DOMAIN-SUFFIX,appdl.dada.cn # 达达客户端下载服务域名
 
-# > SF Express Rider（顺丰骑士）相关域名
-# - 校对时间：2026-03-24
+# > SF Express（顺丰速运）相关域名
+# - 校对时间：2026-03-25
 
 DOMAIN-SUFFIX,sfrexpress.com # 顺丰速运主域名
 DOMAIN-SUFFIX,sf-express.com # 顺丰速运服务域名
@@ -746,6 +746,10 @@ DOMAIN-SUFFIX,courier.sf-express.com # 顺丰骑士服务域名
 DOMAIN-SUFFIX,courierapp.sf-express.com # 顺丰骑士应用服务域名
 DOMAIN-SUFFIX,dl-cdn.sf-express.com # 顺丰客户端下载服务域名
 DOMAIN-SUFFIX,app.sf-express.com # 顺丰客户端服务域名
+DOMAIN-SUFFIX,api.sf-express.com # 顺丰速运接口域名
+DOMAIN-SUFFIX,api.sf-express.cn # 顺丰速运接口域名
+DOMAIN-SUFFIX,sf-airlines.com # 顺丰航空服务域名
+DOMAIN-SUFFIX,sfbest.com # 顺丰优选服务域名
 
 # > Shansong Express（闪送）相关域名
 # - 校对时间：2026-03-24
@@ -1344,16 +1348,6 @@ DOMAIN-SUFFIX,harmonyos.com # 鸿蒙系统服务域名
 DOMAIN-SUFFIX,dbankcloud.cn # 华为云资源服务域名
 DOMAIN-SUFFIX,update.dbankcdn.com # 华为更新服务域名
 DOMAIN-SUFFIX,download.dbankcdn.com # 华为下载服务域名
-
-# > SF Express（顺丰速运）相关域名
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,sf-express.com # 顺丰速运主域名
-DOMAIN-SUFFIX,sf-express.cn # 顺丰速运服务域名
-DOMAIN-SUFFIX,api.sf-express.com # 顺丰速运接口域名
-DOMAIN-SUFFIX,api.sf-express.cn # 顺丰速运接口域名
-DOMAIN-SUFFIX,sf-airlines.com # 顺丰航空服务域名
-DOMAIN-SUFFIX,sfbest.com # 顺丰优选服务域名
 
 # > ZTO Express（中通快递）相关域名
 # - 校对时间：2026-03-25
