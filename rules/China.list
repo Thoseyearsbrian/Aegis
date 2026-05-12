@@ -324,8 +324,9 @@ DOMAIN-SUFFIX,doubao.com # 豆包主域名
 DOMAIN-SUFFIX,volcengine.com # 火山引擎主域名
 DOMAIN-SUFFIX,volcengineapi.com # 火山引擎 API 域名
 DOMAIN-SUFFIX,volces.com # 火山引擎资源服务域名
-DOMAIN-SUFFIX,volccdn.com # 火山引擎内容分发服务域名
+DOMAIN-SUFFIX,volccdn.com # 火山引擎内容分发域名
 DOMAIN-SUFFIX,vlabvod.com # 字节跳动视频点播资源服务域名
+DOMAIN-SUFFIX,open-douyin.com # 抖音开放平台服务域名
 DOMAIN-SUFFIX,zijieapi.com # 字节跳动 API 服务域名
 DOMAIN-SUFFIX,mcs.zijieapi.com # 字节跳动多媒体服务域名
 DOMAIN-SUFFIX,bytecdn.com # 字节跳动商业系统资源服务域名
