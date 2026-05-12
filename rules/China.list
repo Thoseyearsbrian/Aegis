@@ -336,6 +336,8 @@ DOMAIN-SUFFIX,byted-ug.com # 字节跳动用户增长资源服务域名
 # - 校对时间：2026-05-12
 
 DOMAIN-SUFFIX,capcut.cn # CapCut / 剪映中国区主域名
+DOMAIN-SUFFIX,jianying.com # 剪映服务主域名
+DOMAIN-SUFFIX,jimeng.jianying.com # 即梦 AI 创作服务域名
 
 # > China Telecom（中国电信）服务相关域名
 # - 校对时间：2026-03-24
@@ -1579,6 +1581,12 @@ DOMAIN-SUFFIX,sso.sina.com.cn # 新浪单点登录服务域名
 DOMAIN-SUFFIX,csdn.net # CSDN 技术社区域名
 DOMAIN-SUFFIX,ps.gaoding.com # 稿定设计图片处理服务域名
 DOMAIN-SUFFIX,19ego.cn # 19EGO 营销服务域名
+
+# > Char123 Static Asset Service（Char123 静态资源服务）
+# - 校对时间：2026-05-12
+
+DOMAIN-SUFFIX,char123.com # Char123 服务主域名
+DOMAIN-SUFFIX,static.char123.com # Char123 静态资源服务域名
 
 # > DigitalYCHEE（数码荔枝）相关域名
 # - 校对时间：2026-03-26
