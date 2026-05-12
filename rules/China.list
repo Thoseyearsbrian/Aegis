@@ -342,6 +342,7 @@ DOMAIN-SUFFIX,byted-ug.com # 字节跳动用户增长资源服务域名
 DOMAIN-SUFFIX,capcut.cn # CapCut / 剪映中国区主域名
 DOMAIN-SUFFIX,jianying.com # 剪映服务主域名
 DOMAIN-SUFFIX,jimeng.jianying.com # 即梦 AI 创作服务域名
+DOMAIN-SUFFIX,ulikecam.com # 剪映 / 轻颜相机服务主域名
 
 # > China Telecom（中国电信）服务相关域名
 # - 校对时间：2026-03-24
