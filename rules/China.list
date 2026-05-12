@@ -318,13 +318,14 @@ DOMAIN-SUFFIX,console.hunyuan.tencent.com # 腾讯混元控制台域名
 DOMAIN-SUFFIX,cdn.hunyuan.tencent.com # 腾讯混元静态资源域名
 
 # > ByteDance AI and Infrastructure Services（字节跳动 AI 与基础服务）
-# - 校对时间：2026-05-11
+# - 校对时间：2026-05-12
 
 DOMAIN-SUFFIX,doubao.com # 豆包主域名
 DOMAIN-SUFFIX,volcengine.com # 火山引擎主域名
 DOMAIN-SUFFIX,volcengineapi.com # 火山引擎 API 域名
 DOMAIN-SUFFIX,volces.com # 火山引擎资源服务域名
 DOMAIN-SUFFIX,volccdn.com # 火山引擎内容分发服务域名
+DOMAIN-SUFFIX,vlabvod.com # 字节跳动视频点播资源服务域名
 DOMAIN-SUFFIX,zijieapi.com # 字节跳动 API 服务域名
 DOMAIN-SUFFIX,mcs.zijieapi.com # 字节跳动多媒体服务域名
 DOMAIN-SUFFIX,bytecdn.com # 字节跳动商业系统资源服务域名
