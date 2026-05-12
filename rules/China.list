@@ -328,6 +328,7 @@ DOMAIN-SUFFIX,volccdn.com # 火山引擎内容分发域名
 DOMAIN-SUFFIX,vlabvod.com # 字节跳动视频点播资源服务域名
 DOMAIN-SUFFIX,open-douyin.com # 抖音开放平台服务域名
 DOMAIN-SUFFIX,draftstatic.com # 字节跳动协议与静态文档资源域名
+DOMAIN-SUFFIX,dahhxxttxs.com # 字节跳动备案服务域名
 DOMAIN-SUFFIX,zijieapi.com # 字节跳动 API 服务域名
 DOMAIN-SUFFIX,mcs.zijieapi.com # 字节跳动多媒体服务域名
 DOMAIN-SUFFIX,bytecdn.com # 字节跳动商业系统资源服务域名
