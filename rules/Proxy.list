@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-10
-# - 校对时间：2026-05-10
+# - 更新时间：2026-05-15
+# - 校对时间：2026-05-15
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -8819,6 +8819,11 @@ DOMAIN-SUFFIX,lxware.hk # LXware 官方平台主域名
 DOMAIN-SUFFIX,larksuite.com # Lark Suite 国际服务主域名
 DOMAIN-SUFFIX,larkoffice.com # Lark 国际服务域名
 DOMAIN-SUFFIX,larksuitecdn.com # Lark Suite 静态资源 CDN 主域名
+
+# > Skyline Webcams Live Streaming Platform（Skyline Webcams 实时网络摄像头直播平台）
+# - 校对时间：2026-05-15
+
+DOMAIN-SUFFIX,skylinewebcams.com # Skyline Webcams 官方平台主域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
