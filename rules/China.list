@@ -2579,3 +2579,8 @@ DOMAIN-SUFFIX,1panel.cn # 1Panel 中文官网主域名
 
 DOMAIN-SUFFIX,fit2cloud.com # FIT2CLOUD 飞致云官方主域名
 DOMAIN-SUFFIX,community.fit2cloud.com # FIT2CLOUD 飞致云技术社区域名
+
+# > Tesla China Site（Tesla 中国站点）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,tesla.cn # Tesla 中国站点主域名
