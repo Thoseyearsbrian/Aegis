@@ -2599,3 +2599,8 @@ DOMAIN-SUFFIX,audi.cn # Audi 中国站点主域名
 # - 校对时间：2026-05-16
 
 DOMAIN-SUFFIX,mercedes-benz.com.cn # Mercedes-Benz 中国站点主域名
+
+# > Porsche China Site（Porsche 中国站点）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,porsche.cn # Porsche 中国站点主域名
