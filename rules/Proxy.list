@@ -8859,6 +8859,11 @@ DOMAIN-SUFFIX,starlink.com # Starlink 官方主域名
 
 DOMAIN-SUFFIX,boringcompany.com # The Boring Company 官方主域名
 
+# > Neuralink Neurotechnology Company（Neuralink 神经技术公司）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,neuralink.com # Neuralink 官方主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
