@@ -7484,7 +7484,7 @@ DOMAIN-SUFFIX,sbsem.ulb.be # Solvay Brussels School of Economics and Management 
 DOMAIN-SUFFIX,n1cloudcdnct.inter.71edge.com # 71Edge CDN 电信线路国际节点
 DOMAIN-SUFFIX,bscdnct.inter.71edge.com # 71Edge CDN 电信线路国际节点
 
-# > Broadcom（博通）相关域名
+# > Broadcom（博通相关域名）
 # - 校对时间：2026-05-16
 
 DOMAIN-SUFFIX,broadcom.com # Broadcom 官方主域名
