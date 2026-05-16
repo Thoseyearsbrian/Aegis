@@ -8865,6 +8865,23 @@ DOMAIN-SUFFIX,boringcompany.com # The Boring Company 官方主域名
 
 DOMAIN-SUFFIX,neuralink.com # Neuralink 官方主域名
 
+# > BMW Related Domains（BMW 相关域名）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,bmw.com # BMW 国际官网主域名
+DOMAIN-SUFFIX,bmwusa.com # BMW 美国站点主域名
+DOMAIN-SUFFIX,bmw.co.jp # BMW 日本站点主域名
+DOMAIN-SUFFIX,bmw.co.uk # BMW 英国站点主域名
+DOMAIN-SUFFIX,bmw.de # BMW 德国站点主域名
+DOMAIN-SUFFIX,bmw.ca # BMW 加拿大站点主域名
+DOMAIN-SUFFIX,bmw.com.au # BMW 澳大利亚站点主域名
+DOMAIN-SUFFIX,bmw.co.nz # BMW 新西兰站点主域名
+DOMAIN-SUFFIX,bmw.ie # BMW 爱尔兰站点主域名
+DOMAIN-SUFFIX,bmw.co.za # BMW 南非站点主域名
+DOMAIN-SUFFIX,bmw-m.com # BMW M 官方主域名
+DOMAIN-SUFFIX,bmwgroup.com # BMW Group 官方主域名
+DOMAIN-SUFFIX,lifestyle.bmw.com # BMW Lifestyle 官方商店域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
