@@ -8849,6 +8849,11 @@ DOMAIN-SUFFIX,tesla.com # Tesla 官方主域名
 
 DOMAIN-SUFFIX,spacex.com # SpaceX 官方主域名
 
+# > Starlink Satellite Internet Service（Starlink 卫星互联网服务）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,starlink.com # Starlink 官方主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
