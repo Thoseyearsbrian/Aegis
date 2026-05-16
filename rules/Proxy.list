@@ -7800,6 +7800,8 @@ DOMAIN-SUFFIX,cfvod.kaltura.com # Kaltura 基于 CloudFront 的视频点播 CDN 
 # - 校对时间：2026-05-16
 
 DOMAIN-SUFFIX,brightcove.net # Brightcove 视频播放器与媒体分发服务主域名
+DOMAIN-SUFFIX,brightcove.com # Brightcove 官方平台主域名
+DOMAIN-SUFFIX,api.brightcove.com # Brightcove API 服务主域名
 
 # > Amnesty Tech / Security Lab Platform（Amnesty Tech / 技术研究与安全分析平台）
 # - 校对时间：2026-03-28
