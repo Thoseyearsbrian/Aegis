@@ -8839,6 +8839,11 @@ DOMAIN-SUFFIX,sublimetext.com # Sublime Text 官方主域名
 DOMAIN-SUFFIX,sublimehq.com # Sublime HQ 官方服务主域名
 DOMAIN-SUFFIX,packagecontrol.io # Sublime Text Package Control 插件管理服务域名
 
+# > Tesla Electric Vehicle Platform（Tesla 电动汽车平台）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,tesla.com # Tesla 官方主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
