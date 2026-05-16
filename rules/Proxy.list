@@ -8915,6 +8915,12 @@ DOMAIN-SUFFIX,porsche.ca # Porsche 加拿大站点主域名
 DOMAIN-SUFFIX,porsche.com.au # Porsche 澳大利亚站点主域名
 DOMAIN-SUFFIX,porsche.co.jp # Porsche 日本站点主域名
 
+# > Lamborghini Related Domains（Lamborghini 相关域名）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,lamborghini.com # Lamborghini 国际官网主域名
+DOMAIN-SUFFIX,lamborghinistore.com # Lamborghini 官方商店主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
