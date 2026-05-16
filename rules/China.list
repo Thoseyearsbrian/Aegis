@@ -2594,3 +2594,8 @@ DOMAIN-SUFFIX,bmw.com.cn # BMW 中国站点主域名
 # - 校对时间：2026-05-16
 
 DOMAIN-SUFFIX,audi.cn # Audi 中国站点主域名
+
+# > Mercedes-Benz China Site（梅赛德斯-奔驰 中国站点）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,mercedes-benz.com.cn # Mercedes-Benz 中国站点主域名
