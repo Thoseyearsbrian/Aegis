@@ -8904,6 +8904,17 @@ DOMAIN-SUFFIX,mercedes-benz.ca # Mercedes-Benz 加拿大站点主域名
 DOMAIN-SUFFIX,mercedes-benz.com.au # Mercedes-Benz 澳大利亚站点主域名
 DOMAIN-SUFFIX,mercedes-benz.co.jp # Mercedes-Benz 日本站点主域
 
+# > Porsche Related Domains（Porsche 相关域名）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,porsche.com # Porsche 国际官网主域名
+DOMAIN-SUFFIX,porscheusa.com # Porsche 美国站点主域名
+DOMAIN-SUFFIX,porsche.de # Porsche 德国站点主域名
+DOMAIN-SUFFIX,porsche.co.uk # Porsche 英国站点主域名
+DOMAIN-SUFFIX,porsche.ca # Porsche 加拿大站点主域名
+DOMAIN-SUFFIX,porsche.com.au # Porsche 澳大利亚站点主域名
+DOMAIN-SUFFIX,porsche.co.jp # Porsche 日本站点主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
