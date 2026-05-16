@@ -4,11 +4,12 @@
 # - 特征：识别广告投放、广告竞价、广告请求、广告资源分发、广告追踪及明确广告子域等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-10
-# - 校对时间：2026-05-10
+# - 更新时间：2026-05-16
+# - 校对时间：2026-05-16
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,adsrvr.org # The Trade Desk AdsRvr 广告域名
 DOMAIN-SUFFIX,trkn.us # Claritas Clicktracker 广告域名
 DOMAIN-SUFFIX,match.adsrvr.org # The Trade Desk AdsRvr 广告匹配服务域名
 DOMAIN-SUFFIX,cdn.carbonads.com # Carbon Ads 广告分发 CDN 域名
