@@ -2589,3 +2589,8 @@ DOMAIN-SUFFIX,tesla.cn # Tesla 中国站点主域名
 # - 校对时间：2026-05-16
 
 DOMAIN-SUFFIX,bmw.com.cn # BMW 中国站点主域名
+
+# > Audi China Site（Audi 中国站点）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,audi.cn # Audi 中国站点主域名
