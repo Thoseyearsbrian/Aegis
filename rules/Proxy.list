@@ -7796,6 +7796,11 @@ DOMAIN-SUFFIX,api.kaltura.com # Kaltura 平台 API 接口域名
 DOMAIN-SUFFIX,player.kaltura.com # Kaltura Web 播放器域名
 DOMAIN-SUFFIX,cfvod.kaltura.com # Kaltura 基于 CloudFront 的视频点播 CDN 节点
 
+# > Brightcove Video Platform（Brightcove 视频平台）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,brightcove.net # Brightcove 视频播放器与媒体分发服务主域名
+
 # > Amnesty Tech / Security Lab Platform（Amnesty Tech / 技术研究与安全分析平台）
 # - 校对时间：2026-03-28
 
