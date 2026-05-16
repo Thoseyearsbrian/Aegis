@@ -8893,6 +8893,17 @@ DOMAIN-SUFFIX,audi.ca # Audi 加拿大站点主域名
 DOMAIN-SUFFIX,audi.com.au # Audi 澳大利亚站点主域名
 DOMAIN-SUFFIX,audi.co.jp # Audi 日本站点主域名
 
+# > Mercedes-Benz Related Domains（梅赛德斯-奔驰 相关域名）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,mercedes-benz.com # Mercedes-Benz 国际官网主域名
+DOMAIN-SUFFIX,mbusa.com # Mercedes-Benz 美国站点主域名
+DOMAIN-SUFFIX,mercedes-benz.de # Mercedes-Benz 德国站点主域名
+DOMAIN-SUFFIX,mercedes-benz.co.uk # Mercedes-Benz 英国站点主域名
+DOMAIN-SUFFIX,mercedes-benz.ca # Mercedes-Benz 加拿大站点主域名
+DOMAIN-SUFFIX,mercedes-benz.com.au # Mercedes-Benz 澳大利亚站点主域名
+DOMAIN-SUFFIX,mercedes-benz.co.jp # Mercedes-Benz 日本站点主域
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
