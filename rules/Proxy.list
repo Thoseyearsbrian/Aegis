@@ -8854,6 +8854,11 @@ DOMAIN-SUFFIX,spacex.com # SpaceX 官方主域名
 
 DOMAIN-SUFFIX,starlink.com # Starlink 官方主域名
 
+# > The Boring Company Tunnel Infrastructure（The Boring Company 隧道基础设施）
+# - 校对时间：2026-05-16
+
+DOMAIN-SUFFIX,boringcompany.com # The Boring Company 官方主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
