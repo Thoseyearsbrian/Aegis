@@ -8848,6 +8848,7 @@ DOMAIN-SUFFIX,tesla.com # Tesla 官方主域名
 # - 校对时间：2026-05-16
 
 DOMAIN-SUFFIX,spacex.com # SpaceX 官方主域名
+DOMAIN-SUFFIX,sxcontent9668.azureedge.us # SpaceX 内容分发服务域名
 
 # > Starlink Satellite Internet Service（Starlink 卫星互联网服务）
 # - 校对时间：2026-05-16
