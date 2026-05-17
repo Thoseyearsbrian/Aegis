@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-16
-# - 校对时间：2026-05-16
+# - 更新时间：2026-05-17
+# - 校对时间：2026-05-17
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -8920,6 +8920,13 @@ DOMAIN-SUFFIX,porsche.co.jp # Porsche 日本站点主域名
 
 DOMAIN-SUFFIX,lamborghini.com # Lamborghini 国际官网主域名
 DOMAIN-SUFFIX,lamborghinistore.com # Lamborghini 官方商店主域名
+
+# > Volvo Related Domains（Volvo 相关域名）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,volvocars.com # Volvo Cars 国际官网主域名
+DOMAIN-SUFFIX,volvo.com # Volvo 官方主域名
+DOMAIN-SUFFIX,volvogroup.com # Volvo Group 官方主域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
