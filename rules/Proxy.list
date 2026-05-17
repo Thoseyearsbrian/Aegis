@@ -9065,6 +9065,17 @@ DOMAIN-SUFFIX,mazda.co.uk # Mazda 英国站点主域名
 DOMAIN-SUFFIX,mazda.ca # Mazda 加拿大站点主域名
 DOMAIN-SUFFIX,mazda.com.au # Mazda 澳大利亚站点主域名
 
+# > Subaru Related Domains（Subaru 相关域名）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,subaru.com # Subaru 美国站点主域名
+DOMAIN-SUFFIX,subaru.co.jp # Subaru 日本官方主域名
+DOMAIN-SUFFIX,subaru-global.com # Subaru 全球信息站点主域名
+DOMAIN-SUFFIX,subaru.co.uk # Subaru 英国站点主域名
+DOMAIN-SUFFIX,subaru.ca # Subaru 加拿大站点主域名
+DOMAIN-SUFFIX,subaru.com.au # Subaru 澳大利亚站点主域名
+DOMAIN-SUFFIX,subaru.asia # Subaru 亚洲区域站点主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
