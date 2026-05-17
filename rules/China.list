@@ -2614,3 +2614,8 @@ DOMAIN-SUFFIX,volvocars.com.cn # Volvo Cars 中国站点主域名
 # - 校对时间：2026-05-17
 
 DOMAIN-SUFFIX,volkswagen.com.cn # Volkswagen 中国站点主域名
+
+# > Toyota China Site（Toyota 中国站点）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,toyota.com.cn # Toyota 中国站点主域名
