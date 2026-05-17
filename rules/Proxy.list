@@ -9046,15 +9046,6 @@ DOMAIN-SUFFIX,hyundai.co.jp # Hyundai 日本站点主域名
 DOMAIN-SUFFIX,hyundaimotorgroup.com # Hyundai Motor Group 官方主域名
 DOMAIN-SUFFIX,hyundainews.com # Hyundai 官方新闻站点主域名
 
-# > Independent Sites（第三方独立站）
-# - 校对时间：2026-03-28
-
-DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站主域名
-DOMAIN-SUFFIX,yotobike.com # Yotobike 独立站主域名
-DOMAIN-SUFFIX,onemilebike.com # OneMile 独立站主域名
-DOMAIN-SUFFIX,rocketgirlsclub.com # RocketGirlsClub 独立站主域名
-IP-CIDR,167.179.90.104 # RocketGirlsClub 资源节点
-
 # > Kia Related Domains（Kia 相关域名）
 # - 校对时间：2026-05-17
 
@@ -9063,6 +9054,25 @@ DOMAIN-SUFFIX,kia.co.uk # Kia 英国站点主域名
 DOMAIN-SUFFIX,kia.ca # Kia 加拿大站点主域名
 DOMAIN-SUFFIX,kia.com.au # Kia 澳大利亚站点主域名
 DOMAIN-SUFFIX,kianewscenter.com # Kia 官方新闻站点主域名
+
+# > Mazda Related Domains（Mazda 相关域名）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,mazda.com # Mazda 国际官网主域名
+DOMAIN-SUFFIX,mazdausa.com # Mazda 美国站点主域名
+DOMAIN-SUFFIX,mazda.co.jp # Mazda 日本站点主域名
+DOMAIN-SUFFIX,mazda.co.uk # Mazda 英国站点主域名
+DOMAIN-SUFFIX,mazda.ca # Mazda 加拿大站点主域名
+DOMAIN-SUFFIX,mazda.com.au # Mazda 澳大利亚站点主域名
+
+# > Independent Sites（第三方独立站）
+# - 校对时间：2026-03-28
+
+DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站主域名
+DOMAIN-SUFFIX,yotobike.com # Yotobike 独立站主域名
+DOMAIN-SUFFIX,onemilebike.com # OneMile 独立站主域名
+DOMAIN-SUFFIX,rocketgirlsclub.com # RocketGirlsClub 独立站主域名
+IP-CIDR,167.179.90.104 # RocketGirlsClub 资源节点
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-05-08
