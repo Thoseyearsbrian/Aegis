@@ -9017,6 +9017,23 @@ DOMAIN-SUFFIX,ferrari.co.uk # Ferrari 英国站点主域名
 DOMAIN-SUFFIX,ferrari.com.au # Ferrari 澳大利亚站点主域名
 DOMAIN-SUFFIX,ferrariworldabudhabi.com # Ferrari World Abu Dhabi 官方主域名
 
+# > Jaguar Land Rover Related Domains（Jaguar Land Rover 相关域名）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,jlr.com # Jaguar Land Rover 官方主域名
+DOMAIN-SUFFIX,jaguar.com # Jaguar 国际官网主域名
+DOMAIN-SUFFIX,landrover.com # Land Rover 国际官网主域名
+DOMAIN-SUFFIX,jaguarusa.com # Jaguar 美国站点主域名
+DOMAIN-SUFFIX,landroverusa.com # Land Rover 美国站点主域名
+DOMAIN-SUFFIX,jaguar.co.uk # Jaguar 英国站点主域名
+DOMAIN-SUFFIX,landrover.co.uk # Land Rover 英国站点主域名
+DOMAIN-SUFFIX,jaguar.ca # Jaguar 加拿大站点主域名
+DOMAIN-SUFFIX,landrover.ca # Land Rover 加拿大站点主域名
+DOMAIN-SUFFIX,jaguar.com.au # Jaguar 澳大利亚站点主域名
+DOMAIN-SUFFIX,landrover.com.au # Land Rover 澳大利亚站点主域名
+DOMAIN-SUFFIX,jaguar.co.jp # Jaguar 日本站点主域名
+DOMAIN-SUFFIX,landrover.co.jp # Land Rover 日本站点主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
