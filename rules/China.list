@@ -2655,3 +2655,9 @@ DOMAIN-SUFFIX,chevrolet.com.cn # Chevrolet 中国站点主域名
 # - 校对时间：2026-05-17
 
 DOMAIN-SUFFIX,ferrari.com.cn # Ferrari 中国站点主域名
+
+# > Jaguar Land Rover China Sites（Jaguar Land Rover 中国站点）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,jaguar.com.cn # Jaguar 中国站点主域名
+DOMAIN-SUFFIX,landrover.com.cn # Land Rover 中国站点主域名
