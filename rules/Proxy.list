@@ -8940,6 +8940,18 @@ DOMAIN-SUFFIX,volkswagen.com.au # Volkswagen 澳大利亚站点主域名
 DOMAIN-SUFFIX,volkswagen.co.jp # Volkswagen 日本站点主域名
 DOMAIN-SUFFIX,volkswagengroup.com # Volkswagen Group 官方主域名
 
+# > Toyota Related Domains（Toyota 相关域名）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,toyota.com # Toyota 国际官网主域名
+DOMAIN-SUFFIX,toyota.jp # Toyota 日本站点主域名
+DOMAIN-SUFFIX,toyota.co.jp # Toyota 日本企业站点主域名
+DOMAIN-SUFFIX,toyota.eu # Toyota 欧洲站点主域名
+DOMAIN-SUFFIX,toyota.co.uk # Toyota 英国站点主域名
+DOMAIN-SUFFIX,toyota.ca # Toyota 加拿大站点主域名
+DOMAIN-SUFFIX,toyota.com.au # Toyota 澳大利亚站点主域名
+DOMAIN-SUFFIX,toyotaglobal.com # Toyota 全球企业信息主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
