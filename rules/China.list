@@ -2694,3 +2694,8 @@ DOMAIN-SUFFIX,mitsubishi-motors.com.cn # Mitsubishi Motors 中国站点主域名
 # - 校对时间：2026-05-17
 
 DOMAIN-SUFFIX,suzuki-china.com # Suzuki 中国站点主域名
+
+# > Renault China Site（Renault 中国站点）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,renault.com.cn # Renault 中国站点主域名
