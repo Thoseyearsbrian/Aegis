@@ -2650,3 +2650,8 @@ DOMAIN-SUFFIX,saic-gm.com # 上汽通用汽车官方主域名
 DOMAIN-SUFFIX,buick.com.cn # Buick 中国站点主域名
 DOMAIN-SUFFIX,cadillac.com.cn # Cadillac 中国站点主域名
 DOMAIN-SUFFIX,chevrolet.com.cn # Chevrolet 中国站点主域名
+
+# > Ferrari China Site（Ferrari 中国站点）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,ferrari.com.cn # Ferrari 中国站点主域名
