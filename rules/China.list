@@ -2678,3 +2678,9 @@ DOMAIN-SUFFIX,kia.cn # Kia 中国站点主域名
 
 DOMAIN-SUFFIX,mazda.com.cn # Mazda 中国站点主域名
 DOMAIN-SUFFIX,changan-mazda.com.cn # 长安马自达中国站点主域名
+
+# > Subaru China Site（Subaru 中国站点）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,subaru-china.cn # Subaru 中国官网主域名
+DOMAIN-SUFFIX,subaru.cn # Subaru 中国站点服务域名
