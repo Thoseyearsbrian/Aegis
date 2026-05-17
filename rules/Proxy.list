@@ -9107,6 +9107,16 @@ DOMAIN-SUFFIX,renault.de # Renault 德国站点主域名
 DOMAIN-SUFFIX,renault.com.au # Renault 澳大利亚站点主域名
 DOMAIN-SUFFIX,renaultgroup.com # Renault Group 官方主域名
 
+# > Peugeot Related Domains（Peugeot 相关域名）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,peugeot.com # Peugeot 国际官网主域名
+DOMAIN-SUFFIX,peugeot.fr # Peugeot 法国站点主域名
+DOMAIN-SUFFIX,peugeot.co.uk # Peugeot 英国站点主域名
+DOMAIN-SUFFIX,peugeot.de # Peugeot 德国站点主域名
+DOMAIN-SUFFIX,peugeot.com.au # Peugeot 澳大利亚站点主域名
+DOMAIN-SUFFIX,stellantis.com # Stellantis 官方主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
