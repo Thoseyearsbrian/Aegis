@@ -2624,3 +2624,8 @@ DOMAIN-SUFFIX,toyota.com.cn # Toyota 中国站点主域名
 # - 校对时间：2026-05-17
 
 DOMAIN-SUFFIX,lexus.com.cn # Lexus 中国站点主域名
+
+# > Honda China Site（Honda 中国站点）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,honda.com.cn # Honda 中国站点主域名
