@@ -2641,3 +2641,12 @@ DOMAIN-SUFFIX,dongfeng-nissan.com.cn # 东风日产中国站点主域名
 
 DOMAIN-SUFFIX,ford.com.cn # Ford 中国站点主域名
 DOMAIN-SUFFIX,changanford.com.cn # 长安福特中国站点主域名
+
+# > General Motors China Sites（General Motors 中国站点）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,gmchina.com # General Motors 中国站点主域名
+DOMAIN-SUFFIX,saic-gm.com # 上汽通用汽车官方主域名
+DOMAIN-SUFFIX,buick.com.cn # Buick 中国站点主域名
+DOMAIN-SUFFIX,cadillac.com.cn # Cadillac 中国站点主域名
+DOMAIN-SUFFIX,chevrolet.com.cn # Chevrolet 中国站点主域名
