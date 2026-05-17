@@ -2672,3 +2672,9 @@ DOMAIN-SUFFIX,beijing-hyundai.com.cn # 北京现代中国站点主域名
 # - 校对时间：2026-05-17
 
 DOMAIN-SUFFIX,kia.cn # Kia 中国站点主域名
+
+# > Mazda China Site（Mazda 中国站点）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,mazda.com.cn # Mazda 中国站点主域名
+DOMAIN-SUFFIX,changan-mazda.com.cn # 长安马自达中国站点主域名
