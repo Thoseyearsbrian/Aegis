@@ -8995,6 +8995,19 @@ DOMAIN-SUFFIX,ford.de # Ford 德国站点主域名
 DOMAIN-SUFFIX,ford.eu # Ford 欧洲站点主域名
 DOMAIN-SUFFIX,media.ford.com # Ford 官方新闻媒体站点主域名
 
+# > General Motors Related Domains（General Motors 相关域名）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,gm.com # General Motors 官方主域名
+DOMAIN-SUFFIX,gmc.com # GMC 官方主域名
+DOMAIN-SUFFIX,chevrolet.com # Chevrolet 官方主域名
+DOMAIN-SUFFIX,buick.com # Buick 官方主域名
+DOMAIN-SUFFIX,cadillac.com # Cadillac 官方主域名
+DOMAIN-SUFFIX,gm.ca # General Motors 加拿大站点主域名
+DOMAIN-SUFFIX,chevrolet.ca # Chevrolet 加拿大站点主域名
+DOMAIN-SUFFIX,buick.ca # Buick 加拿大站点主域名
+DOMAIN-SUFFIX,cadillac.ca # Cadillac 加拿大站点主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
