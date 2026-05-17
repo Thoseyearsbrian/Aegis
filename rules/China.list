@@ -2704,3 +2704,9 @@ DOMAIN-SUFFIX,renault.com.cn # Renault 中国站点主域名
 # - 校对时间：2026-05-17
 
 DOMAIN-SUFFIX,peugeot.com.cn # Peugeot 中国站点主域名
+
+# > Citroën China Site（Citroën 中国站点）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,citroen.com.cn # Citroën 中国站点主域名
+DOMAIN-SUFFIX,dpca.com.cn # 神龙汽车中国站点主域名
