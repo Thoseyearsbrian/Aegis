@@ -2720,3 +2720,11 @@ DOMAIN-SUFFIX,jeep.com.cn # Jeep 中国站点主域名
 # - 校对时间：2026-05-17
 
 DOMAIN-SUFFIX,maserati.com.cn # Maserati 中国站点主域名
+
+# > ZXMOTO China Site（张雪机车中国站点）
+
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,cqzxmoto.com # 张雪机车中国官网主域名
+
+DOMAIN-SUFFIX,zxmoto.com # ZXMOTO 官方站点主域名
