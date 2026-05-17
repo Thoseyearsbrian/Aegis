@@ -9055,6 +9055,15 @@ DOMAIN-SUFFIX,onemilebike.com # OneMile 独立站主域名
 DOMAIN-SUFFIX,rocketgirlsclub.com # RocketGirlsClub 独立站主域名
 IP-CIDR,167.179.90.104 # RocketGirlsClub 资源节点
 
+# > Kia Related Domains（Kia 相关域名）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,kia.com # Kia 国际官网主域名
+DOMAIN-SUFFIX,kia.co.uk # Kia 英国站点主域名
+DOMAIN-SUFFIX,kia.ca # Kia 加拿大站点主域名
+DOMAIN-SUFFIX,kia.com.au # Kia 澳大利亚站点主域名
+DOMAIN-SUFFIX,kianewscenter.com # Kia 官方新闻站点主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-05-08
 
