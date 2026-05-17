@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-16
-# - 校对时间：2026-05-16
+# - 更新时间：2026-05-17
+# - 校对时间：2026-05-17
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
@@ -2604,3 +2604,8 @@ DOMAIN-SUFFIX,mercedes-benz.com.cn # Mercedes-Benz 中国站点主域名
 # - 校对时间：2026-05-16
 
 DOMAIN-SUFFIX,porsche.cn # Porsche 中国站点主域名
+
+# > Volvo China Site（Volvo 中国站点）
+# - 校对时间：2026-05-17
+
+DOMAIN-SUFFIX,volvocars.com.cn # Volvo Cars 中国站点主域名
