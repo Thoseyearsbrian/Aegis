@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-17
-# - 校对时间：2026-05-17
+# - 更新时间：2026-05-19
+# - 校对时间：2026-05-19
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -9152,6 +9152,14 @@ DOMAIN-SUFFIX,maserati.ca # Maserati 加拿大站点主域名
 DOMAIN-SUFFIX,maserati.com.au # Maserati 澳大利亚站点主域名
 DOMAIN-SUFFIX,maserati.it # Maserati 意大利站点主域名
 DOMAIN-SUFFIX,maserati.co.jp # Maserati 日本站点主域名
+
+# > Bitbucket Code Hosting Platform（Bitbucket 代码托管平台）
+# - 校对时间：2026-05-19
+
+DOMAIN-SUFFIX,bitbucket.org # Bitbucket 官方代码托管平台主域名
+DOMAIN-SUFFIX,bitbucket.io # Bitbucket Pages 静态站点托管域名
+DOMAIN-SUFFIX,bitbucket.com # Bitbucket 官方辅助服务域名
+DOMAIN-SUFFIX,bitbucketstatus.com # Bitbucket 官方服务状态页面域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
