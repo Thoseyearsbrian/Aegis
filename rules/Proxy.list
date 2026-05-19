@@ -9174,6 +9174,15 @@ DOMAIN-SUFFIX,bitbucket.io # Bitbucket Pages 静态站点托管域名
 DOMAIN-SUFFIX,bitbucket.com # Bitbucket 官方辅助服务域名
 DOMAIN-SUFFIX,bitbucketstatus.com # Bitbucket 官方服务状态页面域名
 
+# > Oracle Dyn DNS Service（Oracle Dyn DNS 服务）
+# - 校对时间：2026-05-19
+
+DOMAIN-SUFFIX,dyn.com # Oracle Dyn 官方主域名
+DOMAIN-SUFFIX,account.dyn.com # Oracle Dyn 账户服务域名
+DOMAIN-SUFFIX,oci.dyn.com # Oracle Dyn / OCI DNS 服务入口域名
+DOMAIN-SUFFIX,dyndns.org # DynDNS 动态 DNS 服务域名
+DOMAIN-SUFFIX,dynect.net # Oracle Dyn Managed DNS 服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
