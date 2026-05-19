@@ -7457,6 +7457,11 @@ DOMAIN-SUFFIX,ctfassets.net # Contentful 静态资源与媒体文件分发域名
 DOMAIN-SUFFIX,contentfulassets.net # Contentful 资源分发服务域名
 DOMAIN-SUFFIX,cdn-mr.contentful.com # Contentful 媒体资源 CDN 域名
 
+# > Orange Logic Digital Asset Management Platform（Orange Logic 数字资产管理平台）
+# - 校对时间：2026-05-19
+
+DOMAIN-SUFFIX,orangelogic.com # Orange Logic 数字资产管理平台主域名
+
 # > Chili Piper Service（Chili Piper 销售线索调度与会议预约服务）
 # - 校对时间：2026-03-28
 
