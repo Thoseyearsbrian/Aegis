@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-19
-# - 校对时间：2026-05-19
+# - 更新时间：2026-05-20
+# - 校对时间：2026-05-20
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -9182,6 +9182,14 @@ DOMAIN-SUFFIX,account.dyn.com # Oracle Dyn 账户服务域名
 DOMAIN-SUFFIX,oci.dyn.com # Oracle Dyn / OCI DNS 服务入口域名
 DOMAIN-SUFFIX,dyndns.org # DynDNS 动态 DNS 服务域名
 DOMAIN-SUFFIX,dynect.net # Oracle Dyn Managed DNS 服务域名
+
+# > NVIDIA Related Domains（NVIDIA 相关域名）
+# - 校对时间：2026-05-19
+
+DOMAIN-SUFFIX,nvidia.com # NVIDIA 国际官网主域名
+DOMAIN-SUFFIX,nvidia.ai # NVIDIA AI 相关服务域名
+DOMAIN-SUFFIX,nvidiaassets.com # NVIDIA 静态资源服务域名
+DOMAIN-SUFFIX,geforce.com # NVIDIA GeForce 品牌服务域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
