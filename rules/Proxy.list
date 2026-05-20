@@ -9184,7 +9184,7 @@ DOMAIN-SUFFIX,dyndns.org # DynDNS 动态 DNS 服务域名
 DOMAIN-SUFFIX,dynect.net # Oracle Dyn Managed DNS 服务域名
 
 # > NVIDIA Related Domains（NVIDIA 相关域名）
-# - 校对时间：2026-05-19
+# - 校对时间：2026-05-20
 
 DOMAIN-SUFFIX,nvidia.com # NVIDIA 国际官网主域名
 DOMAIN-SUFFIX,nvidia.ai # NVIDIA AI 相关服务域名

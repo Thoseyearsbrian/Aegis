@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-17
-# - 校对时间：2026-05-17
+# - 更新时间：2026-05-20
+# - 校对时间：2026-05-20
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
@@ -2728,3 +2728,8 @@ DOMAIN-SUFFIX,maserati.com.cn # Maserati 中国站点主域名
 DOMAIN-SUFFIX,cqzxmoto.com # 张雪机车中国官网主域名
 
 DOMAIN-SUFFIX,zxmoto.com # ZXMOTO 官方站点主域名
+
+# > NVIDIA China Site（NVIDIA 中国站点）
+# - 校对时间：2026-05-20
+
+DOMAIN-SUFFIX,nvidia.cn # NVIDIA 中国站点主域名
