@@ -9192,6 +9192,7 @@ DOMAIN-SUFFIX,nvidia.ai # NVIDIA AI 相关服务域名
 DOMAIN-SUFFIX,nventures.ai # NVIDIA NVentures 风险投资平台主域名
 DOMAIN-SUFFIX,nvidiaassets.com # NVIDIA 静态资源服务域名
 DOMAIN-SUFFIX,nvidiagrid.net # NVIDIA GRID / 云图形服务资源域名
+DOMAIN-SUFFIX,nvidiablog.disqus.com # NVIDIA Blog 使用的 Disqus 评论服务域名
 DOMAIN-SUFFIX,geforce.com # NVIDIA GeForce 品牌服务域名
 
 # > Queue-it Virtual Waiting Room Platform（Queue-it 虚拟排队服务平台）
