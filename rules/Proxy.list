@@ -9191,6 +9191,7 @@ DOMAIN-SUFFIX,nvidia.com # NVIDIA 国际官网主域名
 DOMAIN-SUFFIX,nvidia.ai # NVIDIA AI 相关服务域名
 DOMAIN-SUFFIX,nventures.ai # NVIDIA NVentures 风险投资平台主域名
 DOMAIN-SUFFIX,nvidiaassets.com # NVIDIA 静态资源服务域名
+DOMAIN-SUFFIX,nvidiagrid.net # NVIDIA GRID / 云图形服务资源域名
 DOMAIN-SUFFIX,geforce.com # NVIDIA GeForce 品牌服务域名
 
 # > Independent Sites（第三方独立站）
