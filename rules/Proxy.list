@@ -9200,6 +9200,14 @@ DOMAIN-SUFFIX,geforce.com # NVIDIA GeForce 品牌服务域名
 
 DOMAIN-SUFFIX,queue-it.net # Queue-it 虚拟排队平台静态资源服务域名
 
+# > RedteaGo eSIM Service（RedteaGo eSIM 服务）
+# - 校对时间：2026-05-21
+
+DOMAIN-SUFFIX,redteago.com # 平台主域名
+DOMAIN-SUFFIX,api.redteago.com # API 接口域名
+DOMAIN-SUFFIX,img.redteago.com # 图片资源域名
+DOMAIN-SUFFIX,h5.redteago.com # 移动服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
