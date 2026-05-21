@@ -9219,6 +9219,11 @@ DOMAIN-SUFFIX,h5.redteago.com # 移动服务域名
 
 DOMAIN-SUFFIX,airalo.com # Airalo eSIM 服务主域名
 
+# > Holafly eSIM Service（Holafly eSIM 服务）
+# - 校对时间：2026-05-21
+
+DOMAIN-SUFFIX,holafly.com # Holafly eSIM 服务主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
