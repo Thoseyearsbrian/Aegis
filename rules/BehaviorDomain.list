@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-10
-# - 校对时间：2026-05-10
+# - 更新时间：2026-05-21
+# - 校对时间：2026-05-21
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -875,3 +875,8 @@ DOMAIN-SUFFIX,cdn.convertbox.com # ConvertBox 站内营销组件 CDN 域名
 # - 校对时间：2026-05-10
 
 DOMAIN-SUFFIX,http-inputs-notion.splunkcloud.com # Notion Splunk Cloud 日志接入服务域名
+
+# > NVIDIA Analytics Services（NVIDIA 分析服务）
+# - 校对时间：2026-05-21
+
+DOMAIN-SUFFIX,nvidia.tt.omtrdc.net # NVIDIA Adobe Analytics / Omniture 数据采集服务域名
