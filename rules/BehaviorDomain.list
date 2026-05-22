@@ -885,3 +885,8 @@ DOMAIN-SUFFIX,nvidia.tt.omtrdc.net # NVIDIA Adobe Analytics / Omniture 数据采
 # - 校对时间：2026-05-22
 
 DOMAIN-SUFFIX,abtasty.com # AB Tasty 体验优化与 A/B 测试服务域名
+
+# > SoftBank Data Marketing Service（SoftBank 数据营销服务）
+# - 校对时间：2026-05-22
+
+DOMAIN-SUFFIX,dm.slim02.jp # SoftBank 数据营销与行为分析服务域名
