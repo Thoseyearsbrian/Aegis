@@ -3610,6 +3610,7 @@ DOMAIN-SUFFIX,accounts.zoho.com.au # 区域账户域名
 DOMAIN-SUFFIX,accounts.zohocloud.ca # 区域账户域名
 DOMAIN-SUFFIX,zohotagmanager.cdn-in.pagesense.io # 标签管理域名
 DOMAIN-SUFFIX,accounts.zoho.uk # 区域账户域名
+DOMAIN-SUFFIX,zohopublic.com # Zoho SalesIQ 公共资源与客服聊天组件服务域名
 
 # > Oracle Platform Services（Oracle 平台服务）
 # - 校对时间：2026-03-28
