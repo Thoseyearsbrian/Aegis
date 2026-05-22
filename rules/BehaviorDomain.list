@@ -890,3 +890,8 @@ DOMAIN-SUFFIX,abtasty.com # AB Tasty 体验优化与 A/B 测试服务域名
 # - 校对时间：2026-05-22
 
 DOMAIN-SUFFIX,dm.slim02.jp # SoftBank 数据营销与行为分析服务域名
+
+# > CHEQ Invalid Traffic Detection Service（CHEQ 无效流量检测服务）
+# - 校对时间：2026-05-22
+
+DOMAIN-SUFFIX,euob.protoroundprince.com # CHEQ 欧盟区域无效流量检测与广告验证服务域名
