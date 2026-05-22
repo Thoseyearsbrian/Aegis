@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-21
-# - 校对时间：2026-05-21
+# - 更新时间：2026-05-22
+# - 校对时间：2026-05-22
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -9228,6 +9228,11 @@ DOMAIN-SUFFIX,holafly.com # Holafly eSIM 服务主域名
 # - 校对时间：2026-05-21
 
 DOMAIN-SUFFIX,getnomad.app # Nomad eSIM 服务主域名
+
+# > Ubigi eSIM Service（Ubigi eSIM 服务）
+# - 校对时间：2026-05-22
+
+DOMAIN-SUFFIX,ubigi.com # Ubigi eSIM 服务主域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
