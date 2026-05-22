@@ -9291,6 +9291,11 @@ DOMAIN-SUFFIX,bnesim.com # BNESIM eSIM 服务主域名
 
 DOMAIN-SUFFIX,bytesim.com # ByteSIM eSIM 服务主域名
 
+# > IP2C IP Geolocation Service（IP2C IP 地理位置查询服务）
+# - 校对时间：2026-05-22
+
+DOMAIN-SUFFIX,ip2c.org # IP2C IP 地理位置查询服务主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-05-08
 
