@@ -9265,6 +9265,11 @@ DOMAIN-SUFFIX,dent.app # Dent 应用服务域名
 
 DOMAIN-SUFFIX,mobimatter.com # MobiMatter eSIM 市场主域名
 
+# > Maya Mobile eSIM Service（Maya Mobile eSIM 服务）
+# - 校对时间：2026-05-22
+
+DOMAIN-SUFFIX,maya.net # Maya Mobile eSIM 服务主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-05-08
 
