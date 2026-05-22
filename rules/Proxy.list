@@ -9260,6 +9260,11 @@ DOMAIN-SUFFIX,yesim.app # Yesim eSIM 服务主域名
 DOMAIN-SUFFIX,dentwireless.com # Dent Wireless eSIM 服务主域名
 DOMAIN-SUFFIX,dent.app # Dent 应用服务域名
 
+# > MobiMatter eSIM Marketplace（MobiMatter eSIM 市场）
+# - 校对时间：2026-05-22
+
+DOMAIN-SUFFIX,mobimatter.com # MobiMatter eSIM 市场主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-05-08
 
