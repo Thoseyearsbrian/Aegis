@@ -9244,6 +9244,11 @@ DOMAIN-SUFFIX,gigsky.com # GigSky eSIM 服务主域名
 
 DOMAIN-SUFFIX,alosim.com # aloSIM eSIM 服务主域名
 
+# > Saily eSIM Service（Saily eSIM 服务）
+# - 校对时间：2026-05-22
+
+DOMAIN-SUFFIX,saily.com # Saily eSIM 服务主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-05-08
 
