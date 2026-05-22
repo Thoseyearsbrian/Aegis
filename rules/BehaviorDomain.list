@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-21
-# - 校对时间：2026-05-21
+# - 更新时间：2026-05-22
+# - 校对时间：2026-05-22
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -880,3 +880,8 @@ DOMAIN-SUFFIX,http-inputs-notion.splunkcloud.com # Notion Splunk Cloud 日志接
 # - 校对时间：2026-05-21
 
 DOMAIN-SUFFIX,nvidia.tt.omtrdc.net # NVIDIA Adobe Analytics / Omniture 数据采集服务域名
+
+# > AB Tasty Experience Optimization Platform（AB Tasty 体验优化平台）
+# - 校对时间：2026-05-22
+
+DOMAIN-SUFFIX,abtasty.com # AB Tasty 体验优化与 A/B 测试服务域名
