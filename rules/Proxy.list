@@ -9234,14 +9234,10 @@ DOMAIN-SUFFIX,getnomad.app # Nomad eSIM 服务主域名
 
 DOMAIN-SUFFIX,ubigi.com # Ubigi eSIM 服务主域名
 
-# > Independent Sites（第三方独立站）
-# - 校对时间：2026-03-28
+# > GigSky eSIM Service（GigSky eSIM 服务）
+# - 校对时间：2026-05-22
 
-DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站主域名
-DOMAIN-SUFFIX,yotobike.com # Yotobike 独立站主域名
-DOMAIN-SUFFIX,onemilebike.com # OneMile 独立站主域名
-DOMAIN-SUFFIX,rocketgirlsclub.com # RocketGirlsClub 独立站主域名
-IP-CIDR,167.179.90.104 # RocketGirlsClub 资源节点
+DOMAIN-SUFFIX,gigsky.com # GigSky eSIM 服务主域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-05-08
