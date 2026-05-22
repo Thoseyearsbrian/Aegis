@@ -9226,9 +9226,9 @@ DOMAIN-SUFFIX,airalo.com # Airalo eSIM 服务主域名
 DOMAIN-SUFFIX,holafly.com # Holafly eSIM 服务主域名
 
 # > Nomad eSIM Service（Nomad eSIM 服务）
-# - 校对时间：2026-05-21
+# - 校对时间：2026-05-22
 
-DOMAIN-SUFFIX,getnomad.app # Nomad eSIM 服务主域名
+DOMAIN-SUFFIX,nomadesim.com # Nomad eSIM 服务主域名
 
 # > Ubigi eSIM Service（Ubigi eSIM 服务）
 # - 校对时间：2026-05-22
