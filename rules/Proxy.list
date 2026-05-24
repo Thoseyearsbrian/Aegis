@@ -9304,6 +9304,11 @@ DOMAIN-SUFFIX,ip2c.org # IP2C IP 地理位置查询服务主域名
 
 DOMAIN-SUFFIX,intercom-messenger.com # Intercom Messenger 实时客服消息连接服务域名
 
+# > Student Beans Student Discount Platform（Student Beans 学生优惠平台）
+# - 校对时间：2026-05-24
+
+DOMAIN-SUFFIX,studentbeans.com # Student Beans 学生优惠与身份验证平台主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-05-08
 
