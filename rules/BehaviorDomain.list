@@ -900,3 +900,8 @@ DOMAIN-SUFFIX,euob.protoroundprince.com # CHEQ 欧盟区域无效流量检测与
 # - 校对时间：2026-05-24
 
 DOMAIN-SUFFIX,contentsquare.net # Contentsquare 前端行为分析与会话回放脚本服务域名
+
+# > AppsFlyer Web SDK Attribution Service（AppsFlyer Web SDK 归因服务）
+# - 校对时间：2026-05-24
+
+DOMAIN-SUFFIX,websdk.appsflyersdk.com # AppsFlyer Web SDK 访问、事件与转化归因采集服务域名
