@@ -9335,6 +9335,11 @@ DOMAIN-SUFFIX,cache.dga.jp # Digital Garage 站内搜索脚本与缓存服务域
 
 DOMAIN-SUFFIX,artisan.co # Artisan AI 销售自动化平台主域名
 
+# > OptinMonster Lead Generation Platform（OptinMonster 潜在客户转化平台）
+# - 校对时间：2026-05-24
+
+DOMAIN-SUFFIX,omappapi.com # OptinMonster 营销弹窗、活动数据与线索提交服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-05-08
 
