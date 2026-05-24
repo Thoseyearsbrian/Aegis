@@ -9238,6 +9238,11 @@ DOMAIN-SUFFIX,cms.getnomad.app # Nomad eSIM 内容管理服务域名
 
 DOMAIN-SUFFIX,ubigi.com # Ubigi eSIM 服务主域名
 
+# > Transatel eSIM and Connectivity Service（Transatel eSIM 与连接服务）
+# - 校对时间：2026-05-24
+
+DOMAIN-SUFFIX,transatel.com # Transatel eSIM、移动连接与客户支持服务主域名
+
 # > GigSky eSIM Service（GigSky eSIM 服务）
 # - 校对时间：2026-05-22
 
