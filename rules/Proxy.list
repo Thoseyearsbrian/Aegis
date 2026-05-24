@@ -9230,6 +9230,7 @@ DOMAIN-SUFFIX,holafly.com # Holafly eSIM 服务主域名
 
 DOMAIN-SUFFIX,nomadesim.com # Nomad eSIM 服务主域名
 DOMAIN-SUFFIX,api.getnomad.app # Nomad eSIM API 服务域名
+DOMAIN-SUFFIX,cms.getnomad.app # Nomad eSIM 内容管理服务域名
 
 # > Ubigi eSIM Service（Ubigi eSIM 服务）
 # - 校对时间：2026-05-22
