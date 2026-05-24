@@ -2285,18 +2285,19 @@ DOMAIN-SUFFIX,app.goaffpro.com # 应用服务域名
 DOMAIN-SUFFIX,track.goaffpro.com # 跟踪服务域名
 
 # > Zendesk Customer Support Platform（Zendesk 客服平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-24
 
-DOMAIN-SUFFIX,zendesk.com # 平台主域名
-DOMAIN-SUFFIX,api.zendesk.com # API 接口域名
-DOMAIN-SUFFIX,static.zdassets.com # 静态资源域名
-DOMAIN-SUFFIX,theme.zdassets.com # 主题资源域名
-DOMAIN-SUFFIX,widget.zdassets.com # 组件服务域名
-DOMAIN-SUFFIX,ekr.zdassets.com # 托管资源域名
-DOMAIN-SUFFIX,zendesk.io # 服务域名
-DOMAIN-SUFFIX,zendeskcdn.com # 静态资源域名
-DOMAIN-SUFFIX,zendesk-mail.com # 邮件服务域名
-DOMAIN-SUFFIX,v2.zopim.com # 聊天组件域名
+DOMAIN-SUFFIX,zendesk.com # Zendesk 客服平台主域名
+DOMAIN-SUFFIX,api.zendesk.com # Zendesk API 接口域名
+DOMAIN-SUFFIX,static.zdassets.com # Zendesk 静态资源域名
+DOMAIN-SUFFIX,p6.zdassets.com # Zendesk Help Center 页面资源服务域名
+DOMAIN-SUFFIX,theme.zdassets.com # Zendesk 主题资源域名
+DOMAIN-SUFFIX,widget.zdassets.com # Zendesk Web Widget 组件服务域名
+DOMAIN-SUFFIX,ekr.zdassets.com # Zendesk Web Widget 托管资源域名
+DOMAIN-SUFFIX,zendesk.io # Zendesk 服务域名
+DOMAIN-SUFFIX,zendeskcdn.com # Zendesk 静态资源 CDN 域名
+DOMAIN-SUFFIX,zendesk-mail.com # Zendesk 邮件服务域名
+DOMAIN-SUFFIX,v2.zopim.com # Zendesk Chat 聊天组件域名
 
 # > Zendesk Chat Customer Support Widget（Zendesk Chat 客服组件）
 # - 校对时间：2026-03-28
