@@ -7576,7 +7576,7 @@ DOMAIN-SUFFIX,render-assets.com # Render 静态资源加载域
 DOMAIN-SUFFIX,renderusercontent.com # Render 用户内容与构建产物托管域（日志、构建文件等）
 
 # > Sentry Platform（Sentry 应用监控与错误追踪平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-24
 
 DOMAIN-SUFFIX,sentry.io # Sentry 官方 SaaS 平台主域名
 DOMAIN-SUFFIX,getsentry.com # Sentry 官方网站
@@ -7584,6 +7584,7 @@ DOMAIN-SUFFIX,ingest.sentry.io # Sentry 数据接收端点
 DOMAIN-SUFFIX,o0.ingest.sentry.io # Sentry 多租户事件采集节点
 DOMAIN-SUFFIX,o1.ingest.sentry.io # Sentry 多区域数据接入节点
 DOMAIN-SUFFIX,cdn.ravenjs.com # Sentry Raven.js CDN
+DOMAIN-SUFFIX,sentry-cdn.com # Sentry Browser SDK 与前端监控脚本 CDN 域名
 
 # > Vercel Platform（Vercel 云部署与 Serverless 平台）
 # - 校对时间：2026-03-28
