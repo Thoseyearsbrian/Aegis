@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-22
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-24
+# - 校对时间：2026-05-24
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -895,3 +895,8 @@ DOMAIN-SUFFIX,dm.slim02.jp # SoftBank 数据营销与行为分析服务域名
 # - 校对时间：2026-05-22
 
 DOMAIN-SUFFIX,euob.protoroundprince.com # CHEQ 欧盟区域无效流量检测与广告验证服务域名
+
+# > Contentsquare Digital Experience Analytics（Contentsquare 数字体验分析服务）
+# - 校对时间：2026-05-24
+
+DOMAIN-SUFFIX,contentsquare.net # Contentsquare 前端行为分析与会话回放脚本服务域名
