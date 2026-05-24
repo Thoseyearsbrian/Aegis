@@ -9319,6 +9319,10 @@ DOMAIN-SUFFIX,studentbeans.com # Student Beans 学生优惠与身份验证平台
 
 DOMAIN-SUFFIX,group.ntt # NTT Group 全球企业站点主域名
 
+# > Euroland IR Tools（Euroland 投资者关系工具）
+# - 校对时间：2026-05-24
+
+DOMAIN-SUFFIX,asia.tools.euroland.com # Euroland 亚洲区域投资者关系工具服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-05-08
