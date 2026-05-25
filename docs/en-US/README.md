@@ -266,7 +266,7 @@ This project is licensed under the [Apache License 2.0](https://github.com/Those
 
 You may freely use, modify, and distribute this project, including for commercial purposes, provided that you comply with the terms of the license.
 
-When using or redistributing this project, please retain the original author attribution, license notice, key annotations, and source information to ensure the auditability and traceability of the rules.
+When using or redistributing this project, please retain the original author attribution, authorization notice, key annotations, and source information to ensure that the rules remain source-traceable, auditable, and verifiable.
 
 We recommend distributing and updating the rules through remote references. Directly copying and maintaining static rule contents over the long term may lead to version drift, missed security updates, outdated threat intelligence, and increased maintenance costs and trust risks.
 
