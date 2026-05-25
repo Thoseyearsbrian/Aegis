@@ -262,21 +262,15 @@ This project is a non-profit, open-source security rule set aimed at helping use
 
 ## 🏅 License
 
-**Copyright and Distribution Notice:** This project is licensed under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE). You may use, modify, and distribute this project — including for commercial purposes — provided that you comply with the terms of the license.
+This project is licensed under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE).
 
-**This project upholds the principles of open source and advocates for a healthy, sustainable open-source ecosystem:**
+You may freely use, modify, and distribute this project, including for commercial purposes, provided that you comply with the terms of the license.
 
-- Please retain the original author attribution and license notice.
-- Please preserve key annotations and source references to ensure auditability and traceability.
-- Do not misuse the rule set in ways that violate the spirit of open source or harm the public interest.
+When using or redistributing this project, please retain the original author attribution, license notice, key annotations, and source information to ensure the auditability and traceability of the rules.
 
-Additionally, the Aegis project has enabled [GPG](https://gnupg.org) commit signing to ensure the authenticity and integrity of its codebase. You may verify each commit through its GPG signature to gain higher assurance that the code has not been tampered with.
+We recommend distributing and updating the rules through remote references. Directly copying and maintaining static rule contents over the long term may lead to version drift, missed security updates, outdated threat intelligence, and increased maintenance costs and trust risks.
 
-> [!NOTE]
-> To ensure the security, integrity, and auditability of the rule sets, and to support long-term maintenance and continuous validation, we recommend distributing and using them via remote reference.
-
-> [!WARNING]
-> Directly copying and statically maintaining the rule contents may lead to: Version drift and rule invalidation, Missing critical security updates, Overlooking newly added threat intelligence or false-positive fixes, Increased maintenance burden and trust risks.
+This project uses [GPG](https://gnupg.org) signed commits where applicable to help verify the authenticity and integrity of project changes.
 
 ## ⭐ Star History
 
