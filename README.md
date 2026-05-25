@@ -233,7 +233,7 @@ To meet personal cybersecurity requirements, this project has been deeply custom
 
 [@AmnestyTech](https://github.com/AmnestyTech) 👉 Provided [Pegasus](https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt)–related `IOC` data, serving as a key intelligence source for rule construction ([CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/)).
 
-[@ESET](https://github.com/eset) 👉 Provides data from the public [malware-ioc](https://github.com/eset/malware-ioc) repository, serving as an important source of intelligence for `IOC` related rule development ([BSD 2‑Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE)).
+[@ESET](https://github.com/eset) 👉 Provides data from the public [malware-ioc](https://github.com/eset/malware-ioc) repository, serving as an important intelligence source for malware IOC rules in `Malware_IOC_Block.list` ([BSD 2-Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE)).
 
 [ThreatBook](https://s.threatbook.com/cybercrime/silverfox) 👉 Provides public threat intelligence and attack activity analysis related to the Silver Fox malware, serving as an important intelligence source for Silver Fox related rules in `Phishing_Block.list` and `Backdoor_Block.list`.
 
