@@ -94,4 +94,4 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 ## License
 
-- See [Aegis Wiki Routing License](https://github.com/Thoseyearsbrian/Aegis/wiki/License)
+- See [Aegis Wiki License](https://github.com/Thoseyearsbrian/Aegis/wiki/License)
