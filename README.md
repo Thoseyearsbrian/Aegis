@@ -78,7 +78,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 ## Quick Start
 
-- See [Aegis Wiki Routing Policy](https://github.com/Thoseyearsbrian/Aegis/wiki/Routing-Policy)
+- See [Aegis Wiki Quick Start](https://github.com/Thoseyearsbrian/Aegis/wiki/Quick-Start)
 
 ## Important Notes
 
