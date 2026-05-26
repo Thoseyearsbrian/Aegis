@@ -38,32 +38,13 @@ Personal digital firewall ruleset for Surge on iOS & macOS, built for precise lo
 
 ## Key Features
 
-Aegis is purpose-built for the Surge platform, fully compatible with both iOS and macOS. It offers high readability, auditability, and modular deployment — making it suitable for policy-based routing, communication analysis, and enhanced security configurations.
+Aegis is purpose-built for the [Surge](https://nssurge.com) platform, fully compatible with both iOS and macOS. It offers high readability, auditability, and modular deployment — making it suitable for policy-based routing, communication analysis, and enhanced security configurations.
 
 The project fully enforces encrypted DNS, rejecting plaintext queries to ensure secure and private communications. Even on devices lacking traditional security software — such as iPhones — Aegis provides effective protection at the network traffic layer.
 
 ## Philosophy
 
 Aegis adheres to technical neutrality, information transparency, and independent autonomy. I firmly believe every individual has the right to understand and control their network traffic. Therefore, Aegis does not accept any form of commercial investment or capital control. To ensure purity, trust, and security, all configurations are handcrafted and audited by me, with complete annotations to guarantee every rule is transparent, verifiable, and pollution-free.
-
-## Aegis Main Rule Modules
-
-| Module ID | Module Name | File Name | Description | Criteria |
-| :-------: | :---------: | :------------------------: | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ① | Untrusted Certificate Authorities | CA_Block.list | Flags CA root certificates, OCSP endpoints, and CRL domains with known incidents of misuse or revocation. Recommended for scenarios requiring enhanced digital trust. (Advanced Module – Disabled by Default) | Involves cases of certificate misuse, unauthorized issuance, or public revocation records |
-| ② | Advertising Domain Detection | AdDomain.list | Covers domains used in commercial advertising delivery, social pixel tracking, behavioral analytics, and third-party SDK statistics (Identification Module - Disabled by Default) | Identified based on behavioral patterns and data collection models, distinguished from telemetry-related communications |
-| ③ | Adult Content Domain Detection | AdultDomain.list | Covers domains related to major global adult content platforms (Identification Module - Disabled by default) | Domains directly associated with adult content distribution |
-| ④ | PCDN Communication Detection | PCDNDomain.list | Identifies link behaviors suspected to use “shared bandwidth” models, involving device relays, cache nodes, and distributed delivery networks (Identification Module - Disabled by Default) | Identified based on traffic patterns and node distribution consistent with multi-hop relay and cache characteristics |
-| ⑤ | Traffic Inspection & Node Detection | InspectionDomain.list | Detects active network-level interventions such as DPI probing, DNS poisoning, HTTP injection, and MITM eavesdropping (Identification Module - Disabled by Default) | Identified based on traffic anomalies like tampering, redirection, and injection, commonly seen in manipulated network environments |
-| ⑥ | Behavioral Analytics / Telemetry Node Detection | BehaviorDomain.list | Flags cloud service nodes with identifiable behavioral fingerprinting, including telemetry SDKs, analytics platforms, and behavioral modeling services (Identification Module - Disabled by Default) | Focused on behavior-analytic SDK communication patterns via DNS/TLS traffic; excludes ad or data-upload SDKs |
-| ⑦ | Background Reconnections & Silent Communication Blocking | Background_Block.list | Identifies domains used by IoT, NAS, or SDKs for config uploads or device callbacks, aiding detection of stealth telemetry communications (Blocking Module – Enabled by Default) | Focused on background connection behavior via callback frequency, paths, and data uploads; excludes ad and analytics SDKs |
-| ⑧ | Backdoor Control & Implant Communication Blocking | Backdoor_Block.list | Blocks known malicious infrastructure involving remote access tools (RATs), reverse shells, heartbeat signals, etc. (Blocking Module – Enabled by Default) | Clearly associated with malicious traffic or exploit backdoors |
-| ⑨ | Botnet & Command Node Blocking | Botnet_Block.list | Blocks known botnet controllers, DDoS nodes, and mass-control infrastructure (Blocking Module – Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
-| ⑩ | Malware IOC Blocking | Malware_IOC_Block.list | Blocks communication domains, IPs, and control infrastructure associated with known malware families, toolchains, and related attack activities (Blocking Module – Enabled by Default) | Derived from public threat intelligence, malware sample analysis, and verifiable research data |
-| ⑪ | Pegasus Spyware Communication Blocking | Pegasus_Block.list | Contains domains disclosed by Amnesty used by Pegasus spyware for C2 communication (Blocking Module – Enabled by Default) | Based on Amnesty’s public disclosures of Pegasus C2 infrastructure, indicating high surveillance risk |
-| ⑫ | Phishing Domain Blocking | Phishing_Block.list | Blocks domains associated with phishing attacks, including spoofed login pages, fake official sites, and links in deceptive emails. Typical targets of social engineering campaigns. (Blocking Module – Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs |
-| ⑬ | Scam Domain Blocking | Scam_Block.list | Blocks suspicious domains with extremely low reputation, reported fraud, fake services, or user complaints. (Blocking Module – Enabled by Default) | Based on public threat intelligence with confirmed attribution and verifiable IoCs | 
-| ⑭ | Risk Communication Observation List | Quarantine_Block.list | Covers domains and IPs that are not yet confirmed as malicious but exhibit anomalous communication behaviors, including opaque purposes or the use of non-public protocols or non-standard ports. A quarantine-based blocking strategy is applied by default to mitigate potential risks.(Observation Module – Enabled by Default) | Identified through anomalous communication behavior analysis; the risk has not been conclusively classified as malicious and is placed under isolation and observation for further review |
 
 ## Auto Update
 
@@ -90,192 +71,30 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 > [!WARNING]
 > Please choose the appropriate configuration based on your network environment. If your network natively supports IPv6, use the IPv6 version; otherwise, use the IPv4 version. Do not mix configurations, as this may result in request failures or DNS resolution issues.
 
-## Configuration Guide
+## Rule Modules
 
-Copy the configuration link → Open Surge → Download from URL → Paste the link → Edit in Text Mode → Replace your node with the correct parameter → Done!
+- See [Aegis Wiki Rule Modules](https://github.com/Thoseyearsbrian/Aegis/wiki/Rule-Modules)
 
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/screenshots/surge-config-import-guide-step-by-step-en.png"
-    width="600"
-    alt="Surge iOS: Aegis_EN ruleset import step-by-step diagram (English)"
-  >
-</p>
+## Routing Policy
 
-### GeoIP Database
+- See [Aegis Wiki Routing Policy](https://github.com/Thoseyearsbrian/Aegis/wiki/Routing-Policy)
 
-Follow the steps below to enable the GeoIP database for the first time:
+## Quick Start
 
-Open Surge -> More -> General -> GeoIP Database -> Update Now -> Done!
+- See [Aegis Wiki Routing Policy](https://github.com/Thoseyearsbrian/Aegis/wiki/Routing-Policy)
 
-Aegis supports GEOIP lookup rules for countries outside mainland China, as the current database covers global IP ranges.
+## Important Notes
 
-Aegis enables by default:
+- See [Aegis Wiki Important Notes](https://github.com/Thoseyearsbrian/Aegis/wiki/Important-Notes)
 
-```bash
-GEOIP,CN,DIRECT # GEOIP match for Mainland China
-```
+## Special Thanks
 
-### Optional Regional Routing
+- See [Aegis Wiki Special Thanks](https://github.com/Thoseyearsbrian/Aegis/wiki/Special-Thanks)
 
-To simplify international traffic routing for general users and reduce access issues, Aegis provides an optional regional routing feature supporting the following regions:
+## Disclaimer
 
-```bash
-GEOIP,US,Proxy # Route US region traffic through proxy
+- See [Aegis Wiki Disclaimer](https://github.com/Thoseyearsbrian/Aegis/wiki/Disclaimer)
 
-GEOIP,GB,Proxy # Route UK region traffic through proxy
+## License
 
-GEOIP,FR,Proxy # Route France region traffic through proxy
-
-GEOIP,DE,Proxy # Route Germany region traffic through proxy
-
-GEOIP,RU,Proxy # Route Russia region traffic through proxy
-
-GEOIP,EU,Proxy # Route EU region traffic through proxy
-
-GEOIP,AU,Proxy # Route Australia region traffic through proxy
-
-GEOIP,JP,Proxy # Route Japan region traffic through proxy
-
-GEOIP,KR,Proxy # Route South Korea region traffic through proxy
-
-GEOIP,SG,Proxy # Route Singapore region traffic through proxy
-```
-
-Activation steps:
-
-macOS: Open Surge -> Rules -> Optional Regional Routing -> Check the desired country entries -> Done!
-
-iOS: Open Surge -> Aegis Configuration -> Edit in Text Mode -> Optional Regional Routing -> Remove the “# ” before the corresponding country rule -> Done!
-
-> [!TIP]
-> If the country you want is not listed above, you can manually add the corresponding country code at the end of the configuration, as the current database supports global GEOIP lookups.
-
-### Video Tutorial
-
-Please select the platform you are using and visit the corresponding video tutorial page:
-
-Beginner-Friendly Surge Guide · iOS (4K) ｜ Click the cover image to watch on YouTube
-
-<p align="center">
-<a href="https://youtu.be/cKhRdQF5FTo">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/covers/beginner-friendly-surge-guide-ios-4k.png"
-       alt="Beginner-Friendly Surge Guide · iOS (4K)"
-       width="600" />
-</a>
-</p>
-
-Beginner-Friendly Surge Guide · macOS (4K) ｜ Click the cover image to watch on YouTube
-
-<p align="center">
-<a href="https://youtu.be/ano6ysBlD5s">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/covers/beginner-friendly-surge-guide-macos-4k.png"
-       alt="Beginner-Friendly Surge Guide · macOS (4K)"
-       width="600" />
-</a>
-</p>
-
-## ⚠️ Important Notes
-
-1. **Rule Mode is mandatory — otherwise, Aegis’s rule-based identification, routing, and protection capabilities may not function properly**
-
-   ```bash
-   Aegis is a personal digital firewall system built entirely on Surge’s Rule Mode. It relies on rule-based matching to classify domains, enforce policies, and block malicious traffic.
-
-   Full functionality is only available when Surge is running in Rule Mode. If you switch to Global Mode or Direct Mode, network access may still work, but some identification, classification, and policy-based routing capabilities that rely on rule matching may not function properly, resulting in the following risks:
-
-   - Domains and IPs may not be identified or classified according to rules
-   - Module strategies that rely on rule matching may not 
-   - Aegis’s routing, protection, and identification capabilities may not work in full
-
-   If you encounter a domain temporarily inaccessible due to unmatched rules, you may switch to Global Mode or Direct Mode temporarily to regain access.
-   ```
-
-2. **It is recommended to combine China.list (for domain matching) and GEOIP,CN (for IP segments) for accurate detection of Chinese traffic:**
-
-   ```bash
-   RULE-SET,https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/rules/China.list, DIRECT   # Precisely matches Chinese domains
-   GEOIP,CN,DIRECT                                                                                  # Matches traffic from Chinese IPs not in domain list
-   FINAL,REJECT                                                                                     # Final fallback rule (do NOT place GEOIP below this)
-   ```
-
-3. **Supports GEOIP query rules for countries outside mainland China, as the current database supports global country IP ranges.**
-
-   ```bash
-   GEOIP,US,Proxy   # Valid
-   GEOIP,AU,Proxy   # Valid
-   GEOIP,CN,DIRECT  # Valid
-   ```
-
-4. **Explanation for the message “tun-excluded-routes parameter configured, may cause issues after switching networks”**
-
-   ```bash
-   This message is not an error or conflict but a system-level reminder from Surge.  
-   It can be safely ignored in a fixed network environment.  
-   If you experience temporary LAN communication issues (e.g., AirDrop, Bonjour, or NAS) after switching networks such as Wi-Fi ↔ hotspot, select “Stop Proxy” → “Start Proxy” in the menu to rebuild the routing table and restore connectivity.
-   ```
-
-5. **Usage notes for domain rules and IP network segment rules**
-
-   ```bash
-   It is recommended to prioritize DOMAIN-SUFFIX domain rules for identifying specific services and business affiliation, while using IP-CIDR and IP-CIDR6 rules as references for network hosting and infrastructure ownership. Large platform network ranges may host third-party services or open-source project resources, and they do not necessarily represent specific services or business affiliation. Service identity and hosting infrastructure should not be confused.
-   ```
-
-## 🌟 Special Thanks
-
-This project is built upon inspiration and reference from numerous outstanding open-source initiatives within the [GitHub](https://github.com) community. We extend our sincere gratitude to all developers who have contributed to the open-source ecosystem.
-
-To meet personal cybersecurity requirements, this project has been deeply customized and optimized for enhanced security based on existing rule sets. In order to ensure the integrity, safety, and long-term availability of the project, all materials and rule files are self-hosted within this repository, thereby avoiding issues such as update failures or trust concerns arising from third-party dependencies.
-
-### ✍️ Foundational References
-
-[@Rabbit-Spec](https://github.com/Rabbit-Spec) 👉 The primary reference for the overall project architecture and rule logic. The current version has undergone extensive restructuring and security adaptation based on this foundation.
-
-[@AmnestyTech](https://github.com/AmnestyTech) 👉 Provided [Pegasus](https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt)–related `IOC` data, serving as a key intelligence source for rule construction ([CC BY 2.0 License](https://creativecommons.org/licenses/by/2.0/)).
-
-[@ESET](https://github.com/eset) 👉 Provides data from the public [malware-ioc](https://github.com/eset/malware-ioc) repository, serving as an important intelligence source for malware IOC rules in `Malware_IOC_Block.list` ([BSD 2-Clause License](https://github.com/eset/malware-ioc/blob/master/LICENSE)).
-
-[ThreatBook](https://s.threatbook.com/cybercrime/silverfox) 👉 Provides public threat intelligence and attack activity analysis related to the Silver Fox malware, serving as an important intelligence source for Silver Fox related rules in `Phishing_Block.list` and `Backdoor_Block.list`.
-
-### 🎖️ Major Contributors
-
-[@mieqq](https://github.com/mieqq) 👉 A key contributor to the Chinese Surge community. The [mieqq repository](https://github.com/mieqq/mieqq) has consistently maintained a variety of rules and modules, playing a significant role in the early development and promotion of the ecosystem.
-
-[@Sukka](https://github.com/SukkaW) 👉 A key developer in rule engineering and distribution infrastructure. The [ruleset.skk.moe](https://ruleset.skk.moe) project provides high-quality rule distribution services for multiple clients and has played an important role in the structural development of the ruleset ecosystem.
-
-The above acknowledgements are listed in no particular order. If you believe your work is missing from the acknowledgements, please feel free to contact me — I will add it promptly.
-
-## 🔐 Disclaimer
-
-This project is a non-profit, open-source security rule set aimed at helping users enhance their network defense capabilities. By using this project, you acknowledge that you have read, understood, and agreed to the following terms:
-
-1. **Third-Party Source Notice**: Portions of this project reference publicly available threat intelligence (e.g., security community reports, threat databases, GitHub projects). All such references are properly cited. If you believe there is an issue, please contact us for correction or removal.
-2. **Module Activation Statement**: This project adheres to the principles of technical neutrality, information transparency, and independent autonomy. The rule set is designed to assist users in identifying potentially risky communication behaviors. All identification modules are disabled by default. The formulation and activation of related strategies are entirely at the user’s own discretion. The project author assumes no responsibility for any communication risks resulting from user configurations.
-3. **False Positive Warning**: As the rule sets may include generalized blocking strategies, users are advised to conduct thorough testing before deployment to ensure normal business operations are not affected. The project author bears no responsibility for connection disruptions, functional issues, or other consequences caused by false positives.
-4. **Commercial Use Notice**: This project is released under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE). You are free to use it for both commercial and non-commercial purposes, provided you comply with the license terms, including attribution and documentation requirements. We strongly oppose abuse of the rule set for closed-source development, infringement of public interest, or any actions contrary to the spirit of open-source.
-5. **No Warranty Clause**: This project is provided “as is” without any express or implied warranties regarding its completeness, accuracy, timeliness, or suitability. Users must assess applicability on their own and bear all associated risks.
-6. **Usage Restrictions**: All rules and configuration files are intended solely for lawful purposes such as network defense, traffic identification, and security research. Any use for offensive actions, reverse engineering, audit bypassing, or illegal activities is strictly prohibited.
-7. **Limitation of Liability**: The project author shall not be held liable for any direct or indirect damages (including but not limited to data breaches, business disruption, or security failures) resulting from the use, replication, or distribution of this project.
-8. **Right to Modify**: The project author reserves the right to update, modify, or remove any content or disclaimer clauses at any time without prior notice. It is recommended that users periodically review the repository for the latest version.
-
-**Author’s Statement**: This project does not engage in malicious activities, does not include hidden backdoors or monitoring mechanisms, does not promote proxy services, and contains no obfuscated or harmful logic. All rule contents are written in plain text, fully commented, structured clearly, and hosted solely within this repository for community review, audit, and traceability.
-
-## 🏅 License
-
-This project is licensed under the [Apache License 2.0](https://github.com/Thoseyearsbrian/Aegis/blob/main/LICENSE).
-
-You may freely use, modify, and distribute this project, including for commercial purposes, provided that you comply with the terms of the license.
-
-When using or redistributing this project, please retain the original author attribution, authorization notice, key annotations, and source information to ensure that the rules remain source-traceable, auditable, and verifiable.
-
-We recommend distributing and updating the rules through remote references. Directly copying and maintaining static rule contents over the long term may lead to version drift, missed security updates, outdated threat intelligence, and increased maintenance costs and trust risks.
-
-This project uses [GPG](https://gnupg.org) signed commits where applicable to help verify the authenticity and integrity of project changes.
-
-## ⭐ Star History
-
-<p align="center">
-  <a href="https://star-history.com/#Thoseyearsbrian/Aegis&Date">
-    <img src="https://api.star-history.com/svg?repos=Thoseyearsbrian/Aegis&type=Date" />
-  </a>
-</p>
+- See [Aegis Wiki Routing License](https://github.com/Thoseyearsbrian/Aegis/wiki/License)
