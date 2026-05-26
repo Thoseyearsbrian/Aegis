@@ -61,7 +61,7 @@ Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_EN.conf
 
 > [!WARNING]
-> 請根據網路環境選擇對應設定，如您的網路環境原生支援 IPv6，請使用 IPv6 設定；否則請使用 IPv4 設定。禁止混用，否則有可能導致請求異常或 DNS 解析失敗。
+> 請根據目前網路環境選擇 IPv4 或 IPv6 配置。請勿混用不同版本配置，以避免請求異常或 DNS 解析失敗。
 
 ## 規則模組
 

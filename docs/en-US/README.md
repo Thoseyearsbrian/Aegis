@@ -69,7 +69,7 @@ Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_EN.conf
 
 > [!WARNING]
-> Please choose the appropriate configuration based on your network environment. If your network natively supports IPv6, use the IPv6 version; otherwise, use the IPv4 version. Do not mix configurations, as this may result in request failures or DNS resolution issues.
+> Choose the IPv4 or IPv6 configuration according to your current network environment. Do not mix configuration versions to avoid request errors or DNS resolution failures.
 
 ## Rule Modules
 
