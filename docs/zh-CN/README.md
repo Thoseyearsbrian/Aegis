@@ -60,9 +60,6 @@ Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_EN.conf
 
-> [!WARNING]
-> 请根据当前网络环境选择 IPv4 或 IPv6 配置。请勿混用不同版本配置，以避免请求异常或 DNS 解析失败。
-
 ## 规则模块
 
 - 请参阅 [Aegis Wiki 规则模块](https://github.com/Thoseyearsbrian/Aegis/wiki/规则模块)

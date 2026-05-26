@@ -68,9 +68,6 @@ Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_EN.conf
 
-> [!WARNING]
-> Choose the IPv4 or IPv6 configuration according to your current network environment. Do not mix configuration versions to avoid request errors or DNS resolution failures.
-
 ## Rule Modules
 
 - See [Aegis Wiki Rule Modules](https://github.com/Thoseyearsbrian/Aegis/wiki/Rule-Modules)
