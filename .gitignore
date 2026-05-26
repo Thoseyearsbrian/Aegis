@@ -6,7 +6,7 @@
 # macOS 文件服务元数据
 ._*
 
-# macOS 文件夹自定义设置（如背景图）
+# macOS 文件夹自定义设置
 Icons/.DS_Store
 Icons/Groups/.DS_Store
 Icons/Flags/.DS_Store
@@ -21,15 +21,15 @@ Thumbs.db
 # assets/
 *.assets/
 
-# Surge 临时缓存或错误日志（如有）
+# Surge 临时缓存或错误日志
 *.log
 *.tmp
 
-# Node.js / npm 临时缓存（如你以后使用）
+# Node.js / npm 临时缓存
 node_modules/
 npm-debug.log*
 
-# Python 虚拟环境（如果用 Python 工具处理规则）
+# Python 虚拟环境
 __pycache__/
 *.py[cod]
 *.egg-info/
