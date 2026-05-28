@@ -514,7 +514,7 @@ DOMAIN-SUFFIX,cdn.lightsail.com # 静态资源域名
 DOMAIN-SUFFIX,lightsail-status.aws.amazon.com # 状态页域名
 
 # > Walmart Retail Platform（Walmart 零售平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-28
 
 DOMAIN-SUFFIX,walmart.com # 平台主域名
 DOMAIN-SUFFIX,walmartimages.com # 图片资源域名
@@ -524,7 +524,6 @@ DOMAIN-SUFFIX,samsclubresources.com # 静态资源域名
 DOMAIN-SUFFIX,asda.com # 区域站点域名
 DOMAIN-SUFFIX,walmartmobile.com # 移动服务域名
 DOMAIN-SUFFIX,walmartcontacts.com # 服务域名
-IP-CIDR,161.170.244.0/24 # Walmart 网络段
 
 # > X Social Platform（X 社交平台）
 # - 校对时间：2026-03-28
@@ -600,7 +599,7 @@ DOMAIN-SUFFIX,identity.ticketmaster.com # 登录服务域名
 DOMAIN-SUFFIX,app.ticketmaster.com # 应用服务域名
 
 # > Facebook Social Platform（Facebook 社交平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-05-28
 
 DOMAIN-SUFFIX,facebook.com # 平台主域名
 DOMAIN-SUFFIX,fb.com # 短链接域名
@@ -627,7 +626,6 @@ DOMAIN-SUFFIX,about.fb.com # 资讯站点域名
 DOMAIN-SUFFIX,newsroom.fb.com # 新闻站点域名
 DOMAIN-SUFFIX,research.fb.com # 研究站点域名
 DOMAIN-SUFFIX,facebookmail.com # 邮件服务域名
-IP-CIDR,31.13.94.41/32 # Meta 通信节点
 
 # > Messenger Instant Messaging Platform（Messenger 即时通信平台）
 # - 校对时间：2026-03-28
