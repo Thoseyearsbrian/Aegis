@@ -32,7 +32,7 @@ DOMAIN-SUFFIX,cloudflarestream.com # Cloudflare Stream 视频托管平台
 DOMAIN-SUFFIX,embed.cloudflarestream.com # Cloudflare Stream 视频嵌入加载服务
 DOMAIN-SUFFIX,speed.cloudflare.com # Cloudflare 网络测速服务
 DOMAIN-SUFFIX,cloudflareclient.com # Cloudflare WARP 与 Zero Trust 客户端服务
-DOMAIN-SUFFIX,ws.support-chat.cloudflare.dev # Cloudflare 支持聊天 WebSocket 服务
+DOMAIN-SUFFIX,support-chat.cloudflare.dev # Cloudflare 支持聊天服务域名
 
 # > Cloudflare Public DNS（Cloudflare 公共 DNS 服务）
 
