@@ -9359,6 +9359,11 @@ DOMAIN-SUFFIX,us.kg # US.KG 免费域名注册与公共命名空间服务域名
 
 DOMAIN-SUFFIX,cloudns.net # ClouDNS 免费 DNS、托管 DNS、GeoDNS 与域名注册服务平台主域名
 
+# > Public Suffix List Project（Public Suffix List 公共后缀列表项目）
+# - 校对时间：2026-05-28
+
+DOMAIN-SUFFIX,publicsuffix.org # Public Suffix List 公共后缀列表项目官方主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
