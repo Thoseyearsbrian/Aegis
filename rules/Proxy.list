@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-25
-# - 校对时间：2026-05-25
+# - 更新时间：2026-05-28
+# - 校对时间：2026-05-28
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-04-18
@@ -9338,6 +9338,11 @@ DOMAIN-SUFFIX,artisan.co # Artisan AI 销售自动化平台主域名
 # - 校对时间：2026-05-24
 
 DOMAIN-SUFFIX,omappapi.com # OptinMonster 营销弹窗、活动数据与线索提交服务域名
+
+# > Cloud Mail Serverless Email Service（Cloud Mail 无服务器邮箱服务）
+# - 校对时间：2026-05-28
+
+DOMAIN-SUFFIX,skymail.ink # Cloud Mail 无服务器邮箱服务与项目文档域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
