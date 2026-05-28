@@ -5,8 +5,8 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-29
-# - 校对时间：2026-04-29
+# - 更新时间：2026-05-28
+# - 校对时间：2026-05-28
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -552,7 +552,6 @@ DOMAIN-SUFFIX,apple-mapkit.com # Apple MapKit 地图服务
 DOMAIN-SUFFIX,configuration.apple-mapkit.com # Apple MapKit 配置服务
 DOMAIN-SUFFIX,tiles.apple.com # Apple 地图瓦片服务
 DOMAIN-SUFFIX,mapkitjs.apple.com # Apple MapKit JS 服务
-IP-CIDR,63.92.224.0/19 # Apple Maps / CDN 服务段
 
 # > Game Center Services（Apple Game Center 服务）
 
