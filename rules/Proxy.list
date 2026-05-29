@@ -159,6 +159,14 @@ DOMAIN-SUFFIX,cnbc.com # CNBC 官方主域名
 DOMAIN-SUFFIX,cnbcfm.com # CNBC 媒体资源 CDN 主域名
 DOMAIN-SUFFIX,image.cnbcfm.com # CNBC 图片资源 CDN 域名
 
+# > iFanr Technology Media Platform（爱范儿科技媒体平台）
+# - 校对时间：2026-05-29
+
+DOMAIN-SUFFIX,ifanr.com # 爱范儿科技媒体与数字生活内容平台主域名
+DOMAIN-SUFFIX,media.ifanrusercontent.com # 爱范儿媒体内容与图片资源域名
+DOMAIN-SUFFIX,images.ifanr.cn # 爱范儿图片资源域名
+DOMAIN-SUFFIX,cdn.ifanr.cn # 爱范儿静态资源与内容分发域名
+
 # > Khan TED Institute Higher Education Initiative（Khan TED Institute 高等教育项目）
 # - 校对时间：2026-05-09
 
