@@ -5,8 +5,15 @@
 # - 提示：本模块识别与拦截已被确认的网络欺诈行为，默认启用
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-09
-# - 校对时间：2026-04-09
+# - 更新时间：2026-05-29
+# - 校对时间：2026-05-29
+
+# > High-Risk Ideological and Promotional Websites（高风险意识形态与宣传类网站）
+# - 校对时间：2026-05-29
+
+DOMAIN-SUFFIX,epochtimes.com
+DOMAIN-SUFFIX,theepochtimes.com
+DOMAIN-SUFFIX,minghui.org
 
 # > 台湾内政部警政署反诈中心（下列域名默认视为诈骗通信，仅按字母排序，不作额外注释）
 
