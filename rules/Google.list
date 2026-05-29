@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-28
-# - 校对时间：2026-05-28
+# - 更新时间：2026-05-29
+# - 校对时间：2026-05-29
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 # - 校对时间：2026-05-09
@@ -89,12 +89,13 @@ DOMAIN-SUFFIX,classroom.google.com # Google Classroom 教育平台
 DOMAIN-SUFFIX,workspace.google.com # Google Workspace 控制台
 
 # > Google Media Platform（Google 媒体平台服务）
-# - 校对时间：2026-03-06
+# - 校对时间：2026-05-29
 
 DOMAIN-SUFFIX,photos.google.com # Google Photos 图片服务
 DOMAIN-SUFFIX,ggpht.com # Google 图片资源 CDN
 DOMAIN-SUFFIX,yt3.ggpht.com # YouTube 头像与封面资源
 DOMAIN-SUFFIX,lh3.googleusercontent.com # Google Photos 图片资源
+DOMAIN-SUFFIX,yt3.googleusercontent.com # YouTube 频道头像、用户头像与资料图片资源域名
 
 # > YouTube Platform（YouTube 视频平台）
 # - 校对时间：2026-03-06
