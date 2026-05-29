@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-24
-# - 校对时间：2026-05-24
+# - 更新时间：2026-05-29
+# - 校对时间：2026-05-29
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -733,12 +733,6 @@ DOMAIN-SUFFIX,pcap.funshion.com # Funshion 日志采集接口
 # - 校对时间：2026-03-25
 
 DOMAIN-SUFFIX,eum-appdynamics.com # AppDynamics EUM 数据采集接口
-
-# > GitHub 错误与遥测服务
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,collector.github.com # GitHub 遥测采集接口
-DOMAIN-SUFFIX,collector-cdn.github.com # GitHub 遥测接收域名
 
 # > Anthropic / Claude 行为遥测服务
 # - 校对时间：2026-03-25
