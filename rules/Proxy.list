@@ -8,7 +8,7 @@
 # - 校对时间：2026-06-03
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
-# - 校对时间：2026-05-28
+# - 校对时间：2026-06-03
 
 DOMAIN-SUFFIX,cloudflare.com # Cloudflare 官方主站
 DOMAIN-SUFFIX,cloudflare.net # Cloudflare 网络基础设施与核心服务域名
@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,cloudflarestatus.com # Cloudflare 官方服务状态监控页面
 DOMAIN-SUFFIX,cdnjs.cloudflare.com # Cloudflare CDNJS 开源前端资源 CDN
 DOMAIN-SUFFIX,workers.dev # Cloudflare Workers Serverless 平台域名
 DOMAIN-SUFFIX,pages.dev # Cloudflare Pages 静态网站托管平台域名
+DOMAIN-SUFFIX,cloudflare.dev # Cloudflare 开发、测试与平台辅助服务域名
 DOMAIN-SUFFIX,cf-ipfs.com # Cloudflare IPFS 网关服务，用于访问 IPFS 网络内容
 DOMAIN-SUFFIX,cloudflare-ipfs.com # Cloudflare IPFS 网关备用域名
 DOMAIN-SUFFIX,cf.cloudflare.com # Cloudflare 静态资源服务
