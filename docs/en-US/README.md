@@ -95,3 +95,8 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 ## License
 
 - See [Aegis Wiki License](https://github.com/Thoseyearsbrian/Aegis/wiki/License)
+
+## Community Support
+
+- [Telegram Channel](https://t.me/AegisUpdates): For Aegis project updates, rule maintenance notes, and important announcements.
+- [Telegram Group](https://t.me/aegisdiscussion): Bug Reports: Report Aegis-related issues.

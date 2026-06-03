@@ -87,3 +87,8 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 ## 版權聲明
 
 - 請參閱 [Aegis Wiki 版權聲明](https://github.com/Thoseyearsbrian/Aegis/wiki/版權聲明)
+
+## 社群支援
+
+- [Telegram 頻道](https://t.me/AegisUpdates)：用於發布 Aegis 專案更新、規則維護說明與重要通知。
+- [Telegram 群組](https://t.me/aegisdiscussion)：錯誤報告：回報 Aegis 相關問題。
