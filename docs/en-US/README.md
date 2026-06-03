@@ -98,5 +98,5 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 ## Community Support
 
-- [Telegram Channel](https://t.me/AegisUpdates): For Aegis project updates, rule maintenance notes, and important announcements.
-- [Telegram Group](https://t.me/aegisdiscussion): Bug Reports: Report Aegis-related issues.
+- Telegram Version Updates Channel - [Aegis Updates](https://t.me/AegisUpdates): For latest releases, changelogs, and important announcements
+- Telegram User Collaboration Group - [Aegis Discussion](https://t.me/aegisdiscussion): For usage suggestions, issue feedback, and community collaboration

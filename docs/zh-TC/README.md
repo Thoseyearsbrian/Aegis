@@ -90,5 +90,5 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 ## 社群支援
 
-- [Telegram 頻道](https://t.me/AegisUpdates)：用於發布 Aegis 專案更新、規則維護說明與重要通知。
-- [Telegram 群組](https://t.me/aegisdiscussion)：錯誤報告：回報 Aegis 相關問題。
+- Telegram 版本更新頻道 - [Aegis Updates](https://t.me/AegisUpdates)：用於發布最新版本、更新日誌、重要公告
+- Telegram 使用者共建群組 - [Aegis Discussion](https://t.me/aegisdiscussion)：用於提交使用建議、回饋問題、社群共建
