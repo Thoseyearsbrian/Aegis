@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-20
-# - 校对时间：2026-05-20
+# - 更新时间：2026-06-04
+# - 校对时间：2026-06-04
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
@@ -480,6 +480,11 @@ DOMAIN-SUFFIX,ysfclient.cn # 云闪付客户端接口域名
 DOMAIN-SUFFIX,ysfjr.com # 云闪付金融服务域名
 DOMAIN-SUFFIX,ysfapp.com # 云闪付应用服务域名
 DOMAIN-SUFFIX,ysfpay.com # 云闪付支付服务域名
+
+# > XTransfer China Site（XTransfer 中国站点）
+# - 校对时间：2026-06-04
+
+DOMAIN-SUFFIX,xtransfer.cn # XTransfer 中国站点与跨境 B2B 支付服务域名
 
 # > Tenpay & QQ Wallet（财付通 / QQ 钱包）相关域名
 # - 校对时间：2026-03-24
