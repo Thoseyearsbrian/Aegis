@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-03
-# - 校对时间：2026-06-03
+# - 更新时间：2026-06-04
+# - 校对时间：2026-06-04
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -2089,6 +2089,11 @@ DOMAIN-SUFFIX,api.payoneer.com # API 接口域名
 DOMAIN-SUFFIX,secure.payoneer.com # 安全服务域名
 DOMAIN-SUFFIX,resources.payoneer.com # 资源服务域名
 DOMAIN-SUFFIX,cdn.payoneer.com # 静态资源域名
+
+# > XTransfer Cross-Border B2B Payment Platform（XTransfer 跨境 B2B 支付平台）
+# - 校对时间：2026-06-04
+
+DOMAIN-SUFFIX,xtransfer.com # XTransfer 跨境 B2B 支付与收款服务平台主域名
 
 # > WorldRemit Cross-Border Remittance Platform（WorldRemit 跨境汇款平台）
 # - 校对时间：2026-03-28
