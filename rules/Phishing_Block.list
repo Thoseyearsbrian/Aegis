@@ -5,8 +5,8 @@
 # - 提示：本模块用于识别与拦截已被确认的钓鱼攻击目标，默认启用
 # - 用途：本规则集用于防御性安全策略部署，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-04-27
-# - 校对时间：2026-04-27
+# - 更新时间：2026-06-05
+# - 校对时间：2026-06-05
 
 # > Silver Fox AtlasCross Phishing Delivery Infrastructure（银狐木马 AtlasCross 钓鱼投递基础设施）
 # - 数据来源：https://s.threatbook.com/blog/attack/2044637702980997120.html
@@ -181,3 +181,20 @@ DOMAIN-SUFFIX,sougou-browser.com # 银狐仿冒搜狗浏览器下载钓鱼域名
 # - 校对时间：2026-04-27
 
 DOMAIN-SUFFIX,zh.wps-offce.cn # 银狐木马仿冒 WPS 下载钓鱼域名（微步在线公开情报披露）
+
+# > 12321 May 2026 Top Phishing Sites（12321 2026年5月被投诉钓鱼网站）
+# - 数据来源：https://mp.weixin.qq.com/s/KEN2ECaMr877PAMmfscyEw
+# - 校对时间：2026-06-05
+
+DOMAIN-SUFFIX,qlknus.top # 仿冒腾讯公司钓鱼认证域名（12321 受理中心公开披露）
+DOMAIN-SUFFIX,vgoiih.cn # 仿冒国家人社部社保申报钓鱼域名（12321 受理中心公开披露）
+DOMAIN-SUFFIX,5wo.cc # 仿冒公检法立案通知钓鱼域名（12321 受理中心公开披露）
+DOMAIN-SUFFIX,applse.cc # 仿冒 Apple 账户验证钓鱼域名（12321 受理中心公开披露）
+DOMAIN-SUFFIX,bocceeltd.vip # 仿冒中国银行登录认证钓鱼域名（12321 受理中心公开披露）
+DOMAIN-SUFFIX,xxwangrui.com # 仿冒航空公司退改签钓鱼域名（12321 受理中心公开披露）
+IP-CIDR,106.75.249.79/32 # 仿冒建设银行钓鱼站点 IP（12321 受理中心公开披露）
+IP-CIDR,103.88.34.164/32 # 仿冒工商银行钓鱼站点 IP（12321 受理中心公开披露）
+IP-CIDR,42.194.0.203/32 # 仿冒平安银行钓鱼站点 IP（12321 受理中心公开披露）
+IP-CIDR,211.159.144.9/32 # 仿冒农业银行钓鱼站点 IP（12321 受理中心公开披露）
+
+
