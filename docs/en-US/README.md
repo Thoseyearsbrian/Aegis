@@ -68,6 +68,10 @@ Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_EN.conf
 
+## Quick Start
+
+- See [Aegis Wiki Quick Start](https://github.com/Thoseyearsbrian/Aegis/wiki/Quick-Start)
+
 ## Rule Modules
 
 - See [Aegis Wiki Rule Modules](https://github.com/Thoseyearsbrian/Aegis/wiki/Rule-Modules)
@@ -76,9 +80,9 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 - See [Aegis Wiki Routing Policy](https://github.com/Thoseyearsbrian/Aegis/wiki/Routing-Policy)
 
-## Quick Start
+## Versioning
 
-- See [Aegis Wiki Quick Start](https://github.com/Thoseyearsbrian/Aegis/wiki/Quick-Start)
+- See [Aegis Wiki Versioning](https://github.com/Thoseyearsbrian/Aegis/wiki/Versioning)
 
 ## Important Notes
 

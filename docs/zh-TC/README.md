@@ -60,6 +60,10 @@ Aegis (TC): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/Aegis_IPv6_EN.conf
 
+## 快速開始
+
+- 請參閱 [Aegis Wiki 快速開始](https://github.com/Thoseyearsbrian/Aegis/wiki/快速開始)
+
 ## 規則模組
 
 - 請參閱 [Aegis Wiki 規則模組](https://github.com/Thoseyearsbrian/Aegis/wiki/規則模組)
@@ -68,9 +72,9 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 - 請參閱 [Aegis Wiki 路由策略](https://github.com/Thoseyearsbrian/Aegis/wiki/路由策略)
 
-## 快速開始
+## 版本說明
 
-- 請參閱 [Aegis Wiki 快速開始](https://github.com/Thoseyearsbrian/Aegis/wiki/快速開始)
+- 請參閱 [Aegis Wiki 版本說明](https://github.com/Thoseyearsbrian/Aegis/wiki/版本說明)
 
 ## 注意事項
 
