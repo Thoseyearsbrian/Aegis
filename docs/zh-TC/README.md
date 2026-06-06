@@ -91,3 +91,7 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 ## 社群支援
 
 - 請參閱 [Aegis Wiki 社群支援](https://github.com/Thoseyearsbrian/Aegis/wiki/社群支援)
+
+## 常見問題
+
+- 請參閱 [Aegis Wiki 常見問題](https://github.com/Thoseyearsbrian/Aegis/wiki/常見問題)
