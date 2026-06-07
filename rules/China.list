@@ -2740,3 +2740,10 @@ DOMAIN-SUFFIX,zxmoto.com # ZXMOTO 官方站点主域名
 # - 校对时间：2026-05-20
 
 DOMAIN-SUFFIX,nvidia.cn # NVIDIA 中国站点主域名
+
+# > AsiaInfo Security（亚信安全）相关域名
+# - 校对时间：2026-06-07
+
+DOMAIN-SUFFIX,asiainfo-sec.com # 亚信安全官方主站、产品服务与安全解决方案域名
+DOMAIN-SUFFIX,esupport.asiainfo-sec.com # 亚信安全客户支持、产品注册与服务支持域名
+DOMAIN-SUFFIX,asm.asiainfo-sec.com # 亚信安全攻击面管理与安全服务平台域名
