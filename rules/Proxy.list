@@ -1118,9 +1118,9 @@ DOMAIN-SUFFIX,lnkd.in # 短链接域名
 DOMAIN-SUFFIX,linkedin.sc.omtrdc.net # 统计服务域名
 
 # > NBA Platform（NBA 体育平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-06-07
 
-DOMAIN-SUFFIX,nba.com # 平台主域名
+DOMAIN-SUFFIX,nba.com # NBA 官方主站、NBA ID 账号与平台服务主域名
 DOMAIN-SUFFIX,watch.nba.com # 播放服务域名
 DOMAIN-SUFFIX,api.nba.com # API 接口域名
 DOMAIN-SUFFIX,assets.nba.com # 静态资源域名
