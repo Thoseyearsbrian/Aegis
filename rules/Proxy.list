@@ -9426,6 +9426,16 @@ DOMAIN-SUFFIX,epicgames.dev # Epic Games 开发者服务与平台文档域名
 DOMAIN-SUFFIX,epicgamescdn.com # Epic Games 静态资源与内容分发服务域名
 DOMAIN-SUFFIX,unrealengine.com # Unreal Engine 官方主站与 Epic Games 关联开发者服务域名
 
+# > Garena Gaming Platform（Garena 游戏平台）
+# - 校对时间：2026-06-07
+
+DOMAIN-SUFFIX,garena.com # Garena 官方主站、账号与游戏服务主域名
+DOMAIN-SUFFIX,garena.sg # Garena 新加坡区域站点与游戏服务域名
+DOMAIN-SUFFIX,garena.co.id # Garena 印尼区域站点与游戏服务域名
+DOMAIN-SUFFIX,garena.co.th # Garena 泰国区域站点与游戏服务域名
+DOMAIN-SUFFIX,garena.vn # Garena 越南区域站点与游戏服务域名
+DOMAIN-SUFFIX,garenanow.com # Garena 历史品牌与游戏服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
