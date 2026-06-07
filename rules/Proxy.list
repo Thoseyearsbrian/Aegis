@@ -799,6 +799,12 @@ IP-CIDR,3.175.207.59/32 # 服务节点
 IP-CIDR,185.18.139.0/24 # Serif 网络段
 IP-CIDR,185.18.138.0/24 # Serif 网络段
 
+# > Charlie Monroe Software（Charlie Monroe 独立软件平台）
+# - 校对时间：2026-06-07
+
+DOMAIN-SUFFIX,charliemonroesoftware.com # Charlie Monroe Software 历史站点与软件服务域名
+DOMAIN-SUFFIX,charliemonroe.net # Charlie Monroe Software 官方主站、应用下载、授权与支持服务域名
+
 # > Dave's Hot Chicken Restaurant Brand（Dave's Hot Chicken 餐饮品牌）
 # - 校对时间：2026-03-28
 
