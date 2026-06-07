@@ -9455,6 +9455,16 @@ DOMAIN-SUFFIX,moonton.com # MOONTON 官方主站、账号与游戏服务域名
 
 DOMAIN-SUFFIX,nfl.com # NFL 官方主站、NFL ID 账号与平台服务主域名
 
+# > Riot Games Gaming Platform（Riot Games 游戏平台）
+# - 校对时间：2026-06-07
+
+DOMAIN-SUFFIX,riotgames.com # Riot Games 官方主站、账号与游戏服务主域名
+DOMAIN-SUFFIX,riotcdn.net # Riot Games 静态资源与内容分发服务域名
+DOMAIN-SUFFIX,leagueoflegends.com # League of Legends 官方主站与游戏服务域名
+DOMAIN-SUFFIX,valorant.com # VALORANT 官方主站与游戏服务域名
+DOMAIN-SUFFIX,playvalorant.com # VALORANT 官方游戏服务与品牌站点域名
+DOMAIN-SUFFIX,playruneterra.com # Legends of Runeterra 官方游戏服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
