@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-05
-# - 校对时间：2026-06-05
+# - 更新时间：2026-06-07
+# - 校对时间：2026-06-07
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
@@ -246,11 +246,12 @@ DOMAIN-SUFFIX,codimg.cn # CODING 图片资源域名
 DOMAIN-SUFFIX,codetencent.com # CODING 关联服务域名
 
 # > QQ（腾讯 QQ）相关域名
-# - 校对时间：2026-05-11
+# - 校对时间：2026-06-07
 
 DOMAIN-SUFFIX,qq.com # QQ 主域名
 DOMAIN-SUFFIX,myqq.com # QQ 账号服务域名
 DOMAIN-SUFFIX,qpic.cn # QQ 图片资源域名
+DOMAIN-SUFFIX,gtimg.com # 腾讯静态资源、图片与前端内容服务域名
 DOMAIN-SUFFIX,qqmail.com # QQ 邮箱服务域名
 DOMAIN-SUFFIX,aq.qq.com # QQ 安全服务域名
 DOMAIN-SUFFIX,btrace.qq.com # QQ 运行状态上报域名
