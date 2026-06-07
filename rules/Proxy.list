@@ -9436,6 +9436,14 @@ DOMAIN-SUFFIX,garena.co.th # Garena 泰国区域站点与游戏服务域名
 DOMAIN-SUFFIX,garena.vn # Garena 越南区域站点与游戏服务域名
 DOMAIN-SUFFIX,garenanow.com # Garena 历史品牌与游戏服务域名
 
+# > KRAFTON Gaming Platform（KRAFTON 游戏平台）
+# - 校对时间：2026-06-07
+
+DOMAIN-SUFFIX,krafton.com # KRAFTON 官方主站、账号与游戏服务主域名
+DOMAIN-SUFFIX,pubg.com # PUBG: BATTLEGROUNDS 官方主站、账号与游戏服务域名
+DOMAIN-SUFFIX,pubgmobile.com # PUBG MOBILE 官方主站、账号与游戏服务域名
+DOMAIN-SUFFIX,battlegroundsmobileindia.com # Battlegrounds Mobile India 官方游戏服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
