@@ -9465,6 +9465,13 @@ DOMAIN-SUFFIX,valorant.com # VALORANT 官方主站与游戏服务域名
 DOMAIN-SUFFIX,playvalorant.com # VALORANT 官方游戏服务与品牌站点域名
 DOMAIN-SUFFIX,playruneterra.com # Legends of Runeterra 官方游戏服务域名
 
+# > Ubisoft Gaming Platform（Ubisoft 游戏平台）
+# - 校对时间：2026-06-07
+
+DOMAIN-SUFFIX,ubisoft.com # Ubisoft 官方主站、账号与游戏服务主域名
+DOMAIN-SUFFIX,ubi.com # Ubisoft 短域名、账号与游戏服务域名
+DOMAIN-SUFFIX,ubisoftconnect.com # Ubisoft Connect 启动器、账号与游戏联机服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
