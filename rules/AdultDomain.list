@@ -4,7 +4,7 @@
 # - 特征：涵盖常见成人内容相关网站与域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-17
+# - 更新时间：2026-06-08
 
 # > 成人广告推广平台
 
@@ -19961,7 +19961,6 @@ DOMAIN-SUFFIX,91porn.com # 成人相关域名
 DOMAIN-SUFFIX,91porny.com # 成人相关域名
 DOMAIN-SUFFIX,8teenxxx.com # 成人相关域名
 DOMAIN-SUFFIX,aisex.com # 成人相关域名
-DOMAIN-SUFFIX,adult\uc0\u8209 sex\u8209 games.com # 成人相关域名
 DOMAIN-SUFFIX,adult.friendfinder.com # 成人相关域名
 DOMAIN-SUFFIX,adultfriendfinder.com # 成人相关域名
 DOMAIN-SUFFIX,adultkeep.net # 成人相关域名
@@ -19984,8 +19983,6 @@ DOMAIN-SUFFIX,catfightpayperview.xxx # 成人相关域名
 DOMAIN-SUFFIX,chinatopsex.com # 成人相关域名
 DOMAIN-SUFFIX,daftporn.com # 成人相关域名
 DOMAIN-SUFFIX,bigjapanesesex.com # 成人相关域名
-DOMAIN-SUFFIX,e\uc0\u8209 hentai.org # 成人相关域名
-DOMAIN-SUFFIX,e\uc0\u8209 hentaidb.com # 成人相关域名
 DOMAIN-SUFFIX,eporner.com # 成人相关域名
 DOMAIN-SUFFIX,eroticsaloon.net # 成人相关域名
 DOMAIN-SUFFIX,exhentai.org # 成人相关域名
