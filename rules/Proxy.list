@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-04
-# - 校对时间：2026-06-04
+# - 更新时间：2026-06-07
+# - 校对时间：2026-06-07
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -9404,6 +9404,12 @@ DOMAIN-SUFFIX,ifanr.com # 爱范儿科技媒体与数字生活内容平台主域
 
 DOMAIN-SUFFIX,yarnpkg.com # Yarn 包注册表与依赖包下载服务域名
 DOMAIN-SUFFIX,registry.yarnpkg.com # Yarn 包注册表与依赖包下载服务域名
+
+# > Battle.net / Blizzard Gaming Platform（Battle.net / Blizzard 游戏平台）
+# - 校对时间：2026-06-07
+
+DOMAIN-SUFFIX,battle.net # Battle.net 游戏平台、账号与启动器服务主域名
+DOMAIN-SUFFIX,blizzard.com # Blizzard 官方主站、账号与游戏服务域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
