@@ -2732,7 +2732,12 @@ DOMAIN-SUFFIX,maserati.com.cn # Maserati 中国站点主域名
 # > ZXMOTO China Site（张雪机车中国站点）
 # - 校对时间：2026-06-09
 
-DOMAIN-SUFFIX,zhangxuejiche.net # 张雪机车品牌官网与中国站点服务域名
+DOMAIN-SUFFIX,cqzxmoto.com # 张雪机车中国官网主域名
+
+# > Zhangxue Jiche Fan Site（张雪机车非官方粉丝资讯站）
+# - 校对时间：2026-06-09
+
+DOMAIN-SUFFIX,zhangxuejiche.net # 张雪机车非官方粉丝资讯站域名
 
 # > NVIDIA China Site（NVIDIA 中国站点）
 # - 校对时间：2026-05-20
