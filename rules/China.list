@@ -246,7 +246,7 @@ DOMAIN-SUFFIX,codimg.cn # CODING 图片资源域名
 DOMAIN-SUFFIX,codetencent.com # CODING 关联服务域名
 
 # > QQ（腾讯 QQ）相关域名
-# - 校对时间：2026-06-07
+# - 校对时间：2026-06-09
 
 DOMAIN-SUFFIX,qq.com # QQ 主域名
 DOMAIN-SUFFIX,myqq.com # QQ 账号服务域名
@@ -258,7 +258,7 @@ DOMAIN-SUFFIX,btrace.qq.com # QQ 运行状态上报域名
 DOMAIN-SUFFIX,isdspeed.qq.com # QQ 网络质量接口域名
 DOMAIN-SUFFIX,sngapm.qq.com # QQ 性能监控服务域名
 DOMAIN-SUFFIX,connect.qq.com # QQ 互联授权域名
-DOMAIN-SUFFIX,qlogo.cn # QQ 头像资源域名
+DOMAIN-SUFFIX,qlogo.cn # QQ 头像与用户头像资源服务域名
 DOMAIN-SUFFIX,icq.com # ICQ 服务域名
 DOMAIN-SUFFIX,privacy.qq.com # 腾讯隐私说明域名
 DOMAIN-SUFFIX,team.qq.com # 腾讯 TIM 服务域名
