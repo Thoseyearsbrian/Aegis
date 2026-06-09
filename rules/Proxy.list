@@ -7975,6 +7975,11 @@ DOMAIN-SUFFIX,sub.store # Sub-Store 官方订阅转换服务域名
 
 DOMAIN-SUFFIX,images.unsplash.com # Unsplash 图片静态资源 CDN 域名
 
+# > Pixabay Stock Media Platform（Pixabay 免费素材平台）
+# - 校对时间：2026-06-09
+
+DOMAIN-SUFFIX,pixabay.com # Pixabay 免费图片、视频、音乐与素材资源平台主域名
+
 # > Paddle Service（Paddle 订阅验证与支付校验服务）
 # - 校对时间：2026-03-28
 
