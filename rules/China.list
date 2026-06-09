@@ -1464,7 +1464,7 @@ DOMAIN-SUFFIX,ie.sogou.com # 搜狗推广服务域名
 DOMAIN-SUFFIX,sogoucdn.com # 搜狗内容分发域名
 
 # > 360 Search（360 搜索）相关域名
-# - 校对时间：2026-03-25
+# - 校对时间：2026-06-09
 
 DOMAIN-SUFFIX,so.com # 360 搜索主域名
 DOMAIN-SUFFIX,s.360.cn # 360 搜索服务域名
@@ -1478,6 +1478,7 @@ DOMAIN-SUFFIX,api.so.360.cn # 360 搜索接口域名
 DOMAIN-SUFFIX,p4papi.so.360.cn # 360 搜索广告服务域名
 DOMAIN-SUFFIX,srpapi.so.com # 360 搜索结果接口域名
 DOMAIN-SUFFIX,click.so.360.cn # 360 搜索点击统计域名
+DOMAIN-SUFFIX,qhimg.com # 360 图片与静态资源服务域名
 
 # > Shenma Search（神马搜索）相关域名
 # - 校对时间：2026-03-25
