@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-09
-# - 校对时间：2026-06-09
+# - 更新时间：2026-06-10
+# - 校对时间：2026-06-10
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
@@ -2755,3 +2755,8 @@ DOMAIN-SUFFIX,qqiwu.cn # QQiwu 个人博客与个人主页域名
 # - 校对时间：2026-06-09
 
 DOMAIN-SUFFIX,zets.cn # 七云个人博客、接口服务与技术资源域名
+
+# > FEEI Cybersecurity Personal Blog（FEEI 网络安全个人博客）
+# - 校对时间：2026-06-10
+
+DOMAIN-SUFFIX,feei.cn # FEEI 网络安全、AI 安全与个人博客内容域名
