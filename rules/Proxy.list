@@ -9231,7 +9231,7 @@ DOMAIN-SUFFIX,queue-it.com # Queue-it 虚拟排队服务域名
 DOMAIN-SUFFIX,queue-it.net # Queue-it 静态资源服务域名
 
 # > ON24 Webinar Platform（ON24 网络研讨会平台）
-# - 校对时间：2026-05-21
+# - 更新时间：2026-05-21
 
 DOMAIN-SUFFIX,on24.com # ON24 网络研讨会平台域名
 
@@ -9244,12 +9244,12 @@ DOMAIN-SUFFIX,img.redteago.com # RedteaGo 图片资源域名
 DOMAIN-SUFFIX,h5.redteago.com # RedteaGo 移动服务域名
 
 # > Airalo eSIM Service（Airalo eSIM 服务）
-# - 校对时间：2026-05-21
+# - 更新时间：2026-05-21
 
 DOMAIN-SUFFIX,airalo.com # Airalo eSIM 服务主域名
 
 # > Holafly eSIM Service（Holafly eSIM 服务）
-# - 校对时间：2026-05-21
+# - 更新时间：2026-05-21
 
 DOMAIN-SUFFIX,holafly.com # Holafly eSIM 服务主域名
 
@@ -9261,12 +9261,12 @@ DOMAIN-SUFFIX,api.getnomad.app # Nomad eSIM API 服务域名
 DOMAIN-SUFFIX,cms.getnomad.app # Nomad eSIM 内容服务域名
 
 # > Ubigi eSIM Service（Ubigi eSIM 服务）
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-22
 
 DOMAIN-SUFFIX,ubigi.com # Ubigi eSIM 服务主域名
 
 # > Transatel eSIM and Connectivity Service（Transatel eSIM 与连接服务）
-# - 校对时间：2026-05-24
+# - 更新时间：2026-05-24
 
 DOMAIN-SUFFIX,transatel.com # Transatel eSIM 服务主域名
 
@@ -9277,17 +9277,17 @@ DOMAIN-SUFFIX,gigsky.com # GigSky eSIM 服务主域名
 DOMAIN-SUFFIX,gigsky.sng.link # GigSky 深度链接服务域名
 
 # > aloSIM eSIM Service（aloSIM eSIM 服务）
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-22
 
 DOMAIN-SUFFIX,alosim.com # aloSIM eSIM 服务主域名
 
 # > Saily eSIM Service（Saily eSIM 服务）
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-22
 
 DOMAIN-SUFFIX,saily.com # Saily eSIM 服务主域名
 
 # > Yesim eSIM Service（Yesim eSIM 服务）
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-22
 
 DOMAIN-SUFFIX,yesim.app # Yesim eSIM 服务主域名
 
@@ -9298,122 +9298,122 @@ DOMAIN-SUFFIX,dentwireless.com # Dent Wireless eSIM 服务主域名
 DOMAIN-SUFFIX,dent.app # Dent 应用服务域名
 
 # > MobiMatter eSIM Marketplace（MobiMatter eSIM 市场）
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-22
 
 DOMAIN-SUFFIX,mobimatter.com # MobiMatter eSIM 市场域名
 
 # > Maya Mobile eSIM Service（Maya Mobile eSIM 服务）
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-22
 
 DOMAIN-SUFFIX,maya.net # Maya Mobile eSIM 服务主域名
 
 # > Jetpac eSIM Service（Jetpac eSIM 服务）
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-22
 
 DOMAIN-SUFFIX,jetpacglobal.com # Jetpac eSIM 服务主域名
 
 # > Roamless eSIM Service（Roamless eSIM 服务）
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-22
 
 DOMAIN-SUFFIX,roamless.com # Roamless eSIM 服务主域名
 
 # > BNESIM eSIM Service（BNESIM eSIM 服务）
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-22
 
 DOMAIN-SUFFIX,bnesim.com # BNESIM eSIM 服务主域名
 
 # > ByteSIM eSIM Service（ByteSIM eSIM 服务）
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-22
 
 DOMAIN-SUFFIX,bytesim.com # ByteSIM eSIM 服务主域名
 
 # > IP2C IP Geolocation Service（IP2C IP 地理位置查询服务）
-# - 校对时间：2026-05-22
+# - 更新时间：2026-05-22
 
 DOMAIN-SUFFIX,ip2c.org # IP2C IP 地理位置查询域名
 
 # > Intercom Messenger Customer Messaging Platform（Intercom Messenger 客户消息平台）
-# - 校对时间：2026-05-24
+# - 更新时间：2026-05-24
 
 DOMAIN-SUFFIX,intercom-messenger.com # Intercom Messenger 客户消息域名
 
 # > Student Beans Student Discount Platform（Student Beans 学生优惠平台）
-# - 校对时间：2026-05-24
+# - 更新时间：2026-05-24
 
 DOMAIN-SUFFIX,studentbeans.com # Student Beans 学生优惠平台域名
 
 # > NTT Group Global Website（NTT Group 全球站点）-JP
-# - 校对时间：2026-05-24
+# - 更新时间：2026-05-24
 
 DOMAIN-SUFFIX,group.ntt # NTT Group 全球站点域名
 
 # > Euroland IR Tools（Euroland 投资者关系工具）
-# - 校对时间：2026-05-24
+# - 更新时间：2026-05-24
 
 DOMAIN-SUFFIX,asia.tools.euroland.com # Euroland 投资者关系工具域名
 
 # > Digital Garage Site Search Cache Service（Digital Garage 站内搜索缓存服务）
-# - 校对时间：2026-05-24
+# - 更新时间：2026-05-24
 
 DOMAIN-SUFFIX,cache.dga.jp # Digital Garage 站内搜索缓存域名
 
 # > Artisan AI Sales Platform（Artisan AI 销售自动化平台）
-# - 校对时间：2026-05-24
+# - 更新时间：2026-05-24
 
 DOMAIN-SUFFIX,artisan.co # Artisan AI 销售自动化平台域名
 
 # > OptinMonster Lead Generation Platform（OptinMonster 潜在客户转化平台）
-# - 校对时间：2026-05-24
+# - 更新时间：2026-05-24
 
 DOMAIN-SUFFIX,omappapi.com # OptinMonster 线索转化服务域名
 
 # > Cloud Mail Serverless Email Service（Cloud Mail 无服务器邮箱服务）
-# - 校对时间：2026-05-28
+# - 更新时间：2026-05-28
 
 DOMAIN-SUFFIX,skymail.ink # Cloud Mail 无服务器邮箱域名
 
 # > DNSHE Cloud and Domain Service Platform（DNSHE 云服务与域名服务平台）
-# - 校对时间：2026-05-28
+# - 更新时间：2026-05-28
 
 DOMAIN-SUFFIX,dnshe.com # DNSHE 云服务与域名平台域名
 
 # > US.KG Free Domain Namespace（US.KG 免费域名命名空间）
-# - 校对时间：2026-05-28
+# - 更新时间：2026-05-28
 
 DOMAIN-SUFFIX,us.kg # US.KG 免费域名服务域名
 
 # > ClouDNS DNS Hosting Platform（ClouDNS DNS 托管服务平台）
-# - 校对时间：2026-05-28
+# - 更新时间：2026-05-28
 
 DOMAIN-SUFFIX,cloudns.net # ClouDNS DNS 托管服务域名
 
 # > Public Suffix List Project（Public Suffix List 公共后缀列表项目）
-# - 校对时间：2026-05-28
+# - 更新时间：2026-05-28
 
 DOMAIN-SUFFIX,publicsuffix.org # Public Suffix List 项目域名
 
 # > NameSilo Domain Registrar and Web Hosting Platform（NameSilo 域名注册与网站托管平台）
-# - 校对时间：2026-05-28
+# - 更新时间：2026-05-28
 
 DOMAIN-SUFFIX,namesilo.com # NameSilo 域名注册服务域名
 
 # > Sectigo Certificate Authority（Sectigo 证书颁发机构）
-# - 校对时间：2026-05-28
+# - 更新时间：2026-05-28
 
 DOMAIN-SUFFIX,sectigo.com # Sectigo 证书服务域名
 
 # > LinkGraph SEO and Digital Marketing Platform（LinkGraph SEO 与数字营销平台）
-# - 校对时间：2026-05-29
+# - 更新时间：2026-05-29
 
 DOMAIN-SUFFIX,dashboard.linkgraph.com # LinkGraph SEO 控制台域名
 
 # > Kalicube Pro Digital Brand Intelligence Platform（Kalicube Pro 数字品牌智能平台）
-# - 校对时间：2026-06-10
+# - 更新时间：2026-06-10
 
 DOMAIN-SUFFIX,kalicube.pro # Kalicube Pro 数字品牌平台域名
 
 # > iFanr Technology Media Platform（爱范儿科技媒体平台）
-# - 校对时间：2026-05-29
+# - 更新时间：2026-05-29
 
 DOMAIN-SUFFIX,ifanr.com # 爱范儿科技媒体域名
 
@@ -9469,7 +9469,7 @@ DOMAIN-SUFFIX,mobilelegends.com # Mobile Legends 游戏平台域名
 DOMAIN-SUFFIX,moonton.com # MOONTON 游戏服务域名
 
 # > NFL Platform（NFL 体育平台）
-# - 校对时间：2026-06-07
+# - 更新时间：2026-06-07
 
 DOMAIN-SUFFIX,nfl.com # NFL 平台主域名
 
@@ -9499,27 +9499,27 @@ DOMAIN-SUFFIX,yahoofantasysports.com # Yahoo Fantasy Sports 应用域名
 DOMAIN-SUFFIX,yimg.com # Yahoo 静态资源域名
 
 # > Attio CRM Platform（Attio 客户关系管理平台）
-# - 校对时间：2026-06-11
+# - 更新时间：2026-06-11
 
 DOMAIN-SUFFIX,attio.com # Attio CRM 平台域名
 
 # > Carta CRM Platform（Carta 客户关系管理平台）
-# - 校对时间：2026-06-11
+# - 更新时间：2026-06-11
 
 DOMAIN-SUFFIX,carta.com # Carta CRM 平台域名
 
 # > Demandbase GTM Intelligence Platform（Demandbase GTM 智能平台）
-# - 校对时间：2026-06-11
+# - 更新时间：2026-06-11
 
 DOMAIN-SUFFIX,demandbase.com # Demandbase GTM 平台域名
 
 # > Pipedrive CRM Platform（Pipedrive 客户关系管理平台）
-# - 校对时间：2026-06-11
+# - 更新时间：2026-06-11
 
 DOMAIN-SUFFIX,pipedrive.com # Pipedrive CRM 平台域名
 
 # > Streak CRM Platform（Streak Gmail 客户关系管理平台）
-# - 校对时间：2026-06-11
+# - 更新时间：2026-06-11
 
 DOMAIN-SUFFIX,streak.com # Streak Gmail CRM 平台域名
 
