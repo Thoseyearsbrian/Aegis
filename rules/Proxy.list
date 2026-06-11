@@ -9523,6 +9523,11 @@ DOMAIN-SUFFIX,pipedrive.com # Pipedrive CRM 平台域名
 
 DOMAIN-SUFFIX,streak.com # Streak Gmail CRM 平台域名
 
+# > ZoomInfo GTM Intelligence Platform（ZoomInfo GTM 智能平台）
+# - 更新时间：2026-06-11
+
+DOMAIN-SUFFIX,zoominfo.com # ZoomInfo GTM 平台域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
