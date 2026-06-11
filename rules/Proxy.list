@@ -4998,7 +4998,7 @@ DOMAIN-SUFFIX,cdn.sanity.io # 静态资源域名
 DOMAIN-SUFFIX,static.vanta.com # 静态资源域名
 
 # > HubSpot Service（HubSpot 营销与表单服务）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-06-11
 
 DOMAIN-SUFFIX,js.hsforms.net # 表单脚本域名
 DOMAIN-SUFFIX,forms.hsforms.com # 表单接口域名
@@ -5024,7 +5024,7 @@ DOMAIN-SUFFIX,ai21-25575448.hs-sites-eu1.com # 托管页面域名
 DOMAIN-SUFFIX,8040338.fs1.hubspotusercontent-na1.net # 文件资源域名
 DOMAIN-SUFFIX,hubspotusercontent-na1.net # 用户内容域名
 DOMAIN-SUFFIX,26563514.fs1.hubspotusercontent-eu1.net # 文件资源域名
-DOMAIN-SUFFIX,api.hubapi.com # API 接口域名
+DOMAIN-SUFFIX,hubapi.com # API 接口域名
 
 # > Claydar Service（Claydar 前端资源服务）
 # - 校对时间：2026-03-28
