@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-07
-# - 校对时间：2026-06-07
+# - 更新时间：2026-06-11
+# - 校对时间：2026-06-11
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 # - 校对时间：2026-05-09
@@ -108,11 +108,11 @@ DOMAIN-SUFFIX,googlevideo.com # YouTube 视频 CDN
 DOMAIN-SUFFIX,s.youtube.com # YouTube 服务接口
 
 # > Chrome & Chromium（Chrome 浏览器生态）
-# - 校对时间：2026-06-07
+# - 校对时间：2026-06-11
 
-DOMAIN-SUFFIX,chrome.com # Chrome 浏览器官网
-DOMAIN-SUFFIX,googlechrome.com # Chrome 产品站点
-DOMAIN-SUFFIX,chromewebstore.com # Chrome 扩展商店
+DOMAIN-SUFFIX,chrome.com # Chrome 浏览器官网与浏览器产品服务域名
+DOMAIN-SUFFIX,googlechrome.com # Chrome 产品站点与客户端下载服务域名
+DOMAIN-SUFFIX,chromewebstore.com # Chrome 扩展商店与 Codex Chrome 扩展安装服务域名
 DOMAIN-SUFFIX,chromecast.com # Chromecast 服务
 DOMAIN-SUFFIX,chromium.org # Chromium 项目官网
 DOMAIN-SUFFIX,chromestatus.com # Chromium 功能状态
