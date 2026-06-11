@@ -9533,6 +9533,11 @@ DOMAIN-SUFFIX,zoominfo.com # ZoomInfo GTM 平台域名
 
 DOMAIN-SUFFIX,close.com # Close CRM 平台域名
 
+# > Apollo Sales Intelligence Platform（Apollo 销售智能平台）
+# - 更新时间：2026-06-11
+
+DOMAIN-SUFFIX,apollo.io # Apollo 销售智能平台域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
