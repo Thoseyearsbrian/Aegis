@@ -9332,9 +9332,11 @@ DOMAIN-SUFFIX,bytesim.com # ByteSIM eSIM 服务主域名
 
 DOMAIN-SUFFIX,ip2c.org # IP2C IP 地理位置查询域名
 
-# > Intercom Messenger Customer Messaging Platform（Intercom Messenger 客户消息平台）
-# - 更新时间：2026-05-24
+# > Intercom Customer Messaging Platform（Intercom 客户消息平台）
+# - 校对时间：2026-06-11
 
+DOMAIN-SUFFIX,intercom.com # Intercom 客户消息平台域名
+DOMAIN-SUFFIX,api.intercom.io # Intercom API 接口域名
 DOMAIN-SUFFIX,intercom-messenger.com # Intercom Messenger 客户消息域名
 
 # > Student Beans Student Discount Platform（Student Beans 学生优惠平台）
