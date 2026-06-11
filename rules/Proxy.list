@@ -9513,6 +9513,11 @@ DOMAIN-SUFFIX,carta.com # Carta 官方主站、CRM、API 与私募市场 ERP 平
 
 DOMAIN-SUFFIX,demandbase.com # Demandbase 官方主站、开发者文档、API 与 MCP 集成服务域名
 
+# > Pipedrive CRM Platform（Pipedrive 客户关系管理平台）
+# - 校对时间：2026-06-11
+
+DOMAIN-SUFFIX,pipedrive.com # Pipedrive 官方主站、CRM 工作区、API 与销售流程管理平台服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
