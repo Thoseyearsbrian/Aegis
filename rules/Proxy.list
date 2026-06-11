@@ -9590,3 +9590,6 @@ DOMAIN-SUFFIX,sev7en.blog # Sev7en 技术博客域名
 DOMAIN-SUFFIX,v2ray-agent.com # V2Ray Agent 教程与技术博客域名
 DOMAIN-SUFFIX,hackl0us.com # Hackl0us 个人技术站点与规则资源域名
 DOMAIN-SUFFIX,jason-trost.medium.com # Jason Trost 网络安全博客域名
+DOMAIN-SUFFIX,cdn-client.medium.com # Medium 客户端资源域名
+DOMAIN-SUFFIX,miro.medium.com # Medium 图片资源域名
+DOMAIN-SUFFIX,glyph.medium.com # Medium 字体资源域名
