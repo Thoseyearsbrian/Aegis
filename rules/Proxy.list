@@ -501,13 +501,10 @@ DOMAIN-SUFFIX,redirect.prod.experiment.routing.cloudfront.aws.a2z.com # Amazon C
 DOMAIN-SUFFIX,awsstatic.com # AWS 官方静态资源主域名
 DOMAIN-SUFFIX,a0.awsstatic.com # AWS 官方静态资源服务域名
 
-# > Amazon S3 Storage Service（Amazon S3 对象存储服务）
-# - 校对时间：2026-05-03
+# > Amazon Web Services Infrastructure（Amazon Web Services 云服务基础设施）
+# - 校对时间：2026-06-13
 
-DOMAIN-SUFFIX,s3.amazonaws.com # Amazon S3 通用对象存储服务域名
-DOMAIN-SUFFIX,s3-us-west-1.amazonaws.com # Amazon S3 美国西部（北加州）区域存储服务域名
-DOMAIN-SUFFIX,s3-us-west-2.amazonaws.com # Amazon S3 美国西部（俄勒冈）区域存储服务域名
-DOMAIN-SUFFIX,s3.dualstack.us-east-2.amazonaws.com # Amazon S3 美国东部（俄亥俄）双栈区域存储服务域名
+DOMAIN-SUFFIX,amazonaws.com # AWS 云服务基础设施域名
 
 # > Amazon Lightsail Cloud Service（Amazon Lightsail 云服务）
 # - 校对时间：2026-03-28
@@ -9331,6 +9328,7 @@ DOMAIN-SUFFIX,bytesim.com # ByteSIM eSIM 服务主域名
 # - 更新时间：2026-06-13
 
 DOMAIN-SUFFIX,giffgaff.com # Giffgaff 移动通信服务域名
+DOMAIN-SUFFIX,giffgaff.design # Giffgaff 设计系统域名
 
 # > IP2C IP Geolocation Service（IP2C IP 地理位置查询服务）
 # - 更新时间：2026-05-22
