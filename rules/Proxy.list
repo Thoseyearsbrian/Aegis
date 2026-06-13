@@ -7837,8 +7837,9 @@ DOMAIN-SUFFIX,brightcove.com # Brightcove 官方平台主域名
 DOMAIN-SUFFIX,api.brightcove.com # Brightcove API 服务主域名
 
 # > THEOplayer Video Player Platform（THEOplayer 视频播放器平台）
-# - 更新时间：2026-06-13
+# - 校对时间：2026-06-13
 
+DOMAIN-SUFFIX,theoplayer.com # THEOplayer 视频播放器平台域名
 DOMAIN-SUFFIX,license.theoplayer.com # THEOplayer 授权验证服务域名
 
 # > Amnesty Tech / Security Lab Platform（Amnesty Tech / 技术研究与安全分析平台）
