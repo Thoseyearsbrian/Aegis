@@ -1468,3 +1468,8 @@ DOMAIN-SUFFIX,enterprise.onerpc.com # OneRPC 企业级 RPC 服务域名
 # - 更新时间：2026-06-13
 
 DOMAIN-SUFFIX,polymarket.com # Polymarket 预测市场平台域名
+
+# > Magic Authentication Platform（Magic 身份认证与钱包登录平台）
+# - 更新时间：2026-06-13
+
+DOMAIN-SUFFIX,magic.link # Magic 身份认证与钱包登录平台域名
