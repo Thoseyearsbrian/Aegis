@@ -1191,6 +1191,11 @@ DOMAIN-SUFFIX,cdn.siftscience.com # 静态资源域名
 
 DOMAIN-SUFFIX,cookielaw.org # OneTrust Cookie 同意管理服务域名
 
+# > PingOne Identity Platform（PingOne 身份认证平台）
+# - 更新时间：2026-06-13
+
+DOMAIN-SUFFIX,pingone.com # PingOne 身份认证平台域名
+
 # > Expedia Travel Platform（Expedia 旅游平台）
 # - 校对时间：2026-03-28
 
