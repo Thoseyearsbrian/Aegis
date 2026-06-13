@@ -1186,6 +1186,11 @@ DOMAIN-SUFFIX,cdn-euw1.insided.com # inSided 欧洲区社区资源 CDN 域名
 
 DOMAIN-SUFFIX,cdn.siftscience.com # 静态资源域名
 
+# > OneTrust Cookie Consent Platform（OneTrust Cookie 同意管理平台）
+# - 更新时间：2026-06-13
+
+DOMAIN-SUFFIX,cookielaw.org # OneTrust Cookie 同意管理服务域名
+
 # > Expedia Travel Platform（Expedia 旅游平台）
 # - 校对时间：2026-03-28
 
