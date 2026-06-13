@@ -7908,6 +7908,11 @@ DOMAIN-SUFFIX,limits.minmaxify.com # MinMaxify “Order Limits” Shopify 应用
 
 DOMAIN-SUFFIX,octocaptcha.com # OctoCaptcha 官方人机验证/CAPTCHA 服务域名
 
+# > DataDome CAPTCHA Delivery Service（DataDome CAPTCHA 验证服务）
+# - 更新时间：2026-06-13
+
+DOMAIN-SUFFIX,captcha-delivery.com # DataDome CAPTCHA 验证服务域名
+
 # > Arkose Labs Verification API Domains（Arkose Labs 验证 API 域名）
 # - 校对时间：2026-03-28
 
