@@ -1415,9 +1415,10 @@ DOMAIN-SUFFIX,angular.dev # Angular 官方主域名与 Web 应用框架文档入
 DOMAIN-SUFFIX,angular.io # Angular 历史文档与兼容访问域名
 
 # > Svelte Frontend Framework（Svelte 前端框架）
-# - 校对时间：2026-05-04
+# - 校对时间：2026-06-14
 
 DOMAIN-SUFFIX,svelte.dev # Svelte 官方主域名与前端框架文档入口
+DOMAIN-SUFFIX,sveltebits.xyz # Svelte Bits 动效 UI 组件库域名
 
 # > Vite Frontend Build Tool（Vite 前端构建工具）
 # - 校对时间：2026-05-04
