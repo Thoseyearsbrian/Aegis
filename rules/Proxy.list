@@ -80,7 +80,7 @@ DOMAIN-SUFFIX,ooklaserver.net # Ookla 测速节点域名
 DOMAIN-SUFFIX,speedtestcustom.com # Ookla 自定义测速服务域名
 DOMAIN-SUFFIX,speed.misaka.one # Misaka 自定义测速服务域名
 DOMAIN-SUFFIX,cdnst.net # Ookla Speedtest 静态资源 CDN 域名
-DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 静态资源域名
+DOMAIN-SUFFIX,ziffstatic.com # Ziff Davis 静态资源域名
 DOMAIN-SUFFIX,speedtest.sjc.sonic.net # Sonic 网络测速服务
 DOMAIN-SUFFIX,lg-sea.fdcservers.net # FDCServers 芝加哥节点加速与测速服务
 DOMAIN-SUFFIX,sp-sea-01.ezeefiber.net # EzeeFiber 西雅图节点测速服务
