@@ -803,6 +803,11 @@ IP-CIDR,3.175.207.59/32 # 服务节点
 IP-CIDR,185.18.139.0/24 # Serif 网络段
 IP-CIDR,185.18.138.0/24 # Serif 网络段
 
+# > Bending Spoons Digital Product Platform（Bending Spoons 数字产品运营平台）
+# - 更新时间：2026-06-14
+
+DOMAIN-SUFFIX,bendingspoons.com # Bending Spoons 数字产品运营平台域名
+
 # > Charlie Monroe Software（Charlie Monroe 独立软件平台）
 # - 校对时间：2026-06-07
 
