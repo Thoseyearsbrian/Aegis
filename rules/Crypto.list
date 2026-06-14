@@ -4,8 +4,8 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-13
-# - 校对时间：2026-06-13
+# - 更新时间：2026-06-14
+# - 校对时间：2026-06-14
 
 # > Binance Exchange Platform（Binance 加密资产交易平台）
 # - 校对时间：2026-03-29
@@ -1473,3 +1473,11 @@ DOMAIN-SUFFIX,polymarket.com # Polymarket 预测市场平台域名
 # - 更新时间：2026-06-13
 
 DOMAIN-SUFFIX,magic.link # Magic 身份认证与钱包登录平台域名
+
+# > IPFS Content Network（IPFS 分布式文件与内容寻址网络）
+# - 校对时间：2026-06-14
+
+DOMAIN-SUFFIX,ipfs.io # IPFS 官方平台
+DOMAIN-SUFFIX,gateway.ipfs.io # IPFS 官方公共网关服务
+DOMAIN-SUFFIX,docs.ipfs.io # 官方文档站点
+DOMAIN-SUFFIX,ipfs.sintral.me # IPFS 公共网关服务域名
