@@ -9649,6 +9649,11 @@ DOMAIN-SUFFIX,spaceship.com # Spaceship 域名与 Web 服务平台域名
 
 DOMAIN-SUFFIX,zudoku.dev # Zudoku API 文档框架域名
 
+# > Obsidian Knowledge Base App（Obsidian 知识库笔记应用）
+# - 更新时间：2026-06-14
+
+DOMAIN-SUFFIX,obsidian.md # Obsidian 官方主域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
