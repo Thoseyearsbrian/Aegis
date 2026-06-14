@@ -9,6 +9,7 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,hb.openwebmp.com # OpenWeb Header Bidding 广告竞价服务域名
 DOMAIN-SUFFIX,hb.yellowblue.io # YellowBlue Header Bidding 广告竞价服务域名
 DOMAIN-SUFFIX,rtb.openx.net # OpenX 实时广告竞价服务域名
 DOMAIN-SUFFIX,htlb.casalemedia.com # Casale Media 广告竞价服务域名
