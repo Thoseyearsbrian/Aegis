@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-13
-# - 校对时间：2026-06-13
+# - 更新时间：2026-06-14
+# - 校对时间：2026-06-14
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -7948,20 +7948,10 @@ DOMAIN-SUFFIX,yibao.233h.com # 易保服务平台主域名
 
 DOMAIN-SUFFIX,hotkeycheatsheet.com # Hotkey Cheatsheet 平台主域名
 
-# > Apothecary Blog（Apothecary 技术与资讯博客）
-# - 校对时间：2026-03-28
-
-DOMAIN-SUFFIX,apothecary.tips # Apothecary 博客/技术资讯网站
-
 # > Ninth Feast Cook Platform（Ninth Feast Cook 文档与开发指南平台）
 # - 校对时间：2026-03-28
 
 DOMAIN-SUFFIX,docs.cook.ninthfeast.com # Ninth Feast Cook 文档站域名
-
-# > Simhaoka Blog（Simhaoka 个人/技术博客与资源分享站）
-# - 校对时间：2026-03-28
-
-DOMAIN-SUFFIX,simhaoka.com # Simhaoka 博客与资源分享域名
 
 # > NoCode.Host Platform（NoCode.Host 站点托管与内容展示平台）
 # - 校对时间：2026-03-28
@@ -9630,7 +9620,7 @@ DOMAIN-SUFFIX,rocketgirlsclub.com # RocketGirlsClub 独立站主域名
 IP-CIDR,167.179.90.104 # RocketGirlsClub 资源节点
 
 # > Third-Party Blogs（第三方博客）
-# - 校对时间：2026-06-11
+# - 校对时间：2026-06-14
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客技术博客域名
 DOMAIN-SUFFIX,skk.moe # Sukka 主站域名
@@ -9655,6 +9645,5 @@ DOMAIN-SUFFIX,sev7en.blog # Sev7en 技术博客域名
 DOMAIN-SUFFIX,v2ray-agent.com # V2Ray Agent 教程与技术博客域名
 DOMAIN-SUFFIX,hackl0us.com # Hackl0us 个人技术站点与规则资源域名
 DOMAIN-SUFFIX,jason-trost.medium.com # Jason Trost 网络安全博客域名
-DOMAIN-SUFFIX,cdn-client.medium.com # Medium 客户端资源域名
-DOMAIN-SUFFIX,miro.medium.com # Medium 图片资源域名
-DOMAIN-SUFFIX,glyph.medium.com # Medium 字体资源域名
+DOMAIN-SUFFIX,apothecary.tips # Apothecary 博客/技术资讯网站
+DOMAIN-SUFFIX,simhaoka.com # Simhaoka 博客与资源分享域名
