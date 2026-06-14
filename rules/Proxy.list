@@ -73,12 +73,13 @@ IP-CIDR,1.0.0.1/32 # Cloudflare 公共 DNS 备用地址
  # IP-CIDR6,2c0f:f248::/32 # Cloudflare IPv6 边缘网络
 
 # > Speedtest by Ookla（Speedtest 网络测速平台）
-# - 校对时间：2026-04-19
+# - 校对时间：2026-06-14
 
 DOMAIN-SUFFIX,speedtest.net # Speedtest 主域名
 DOMAIN-SUFFIX,ooklaserver.net # Ookla 测速节点域名
 DOMAIN-SUFFIX,speedtestcustom.com # Ookla 自定义测速服务域名
 DOMAIN-SUFFIX,speed.misaka.one # Misaka 自定义测速服务域名
+DOMAIN-SUFFIX,cdnst.net # Ookla Speedtest 静态资源 CDN 域名
 DOMAIN-SUFFIX,cdn.ziffstatic.com # Ziff Davis 静态资源域名
 DOMAIN-SUFFIX,speedtest.sjc.sonic.net # Sonic 网络测速服务
 DOMAIN-SUFFIX,lg-sea.fdcservers.net # FDCServers 芝加哥节点加速与测速服务
