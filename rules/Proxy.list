@@ -98,6 +98,11 @@ DOMAIN-SUFFIX,openspeedtest.com # OpenSpeedTest 网络测速平台域名
 DOMAIN-SUFFIX,speedcurve.com # SpeedCurve 官方主域名与 Web 性能监控、前端性能分析平台入口
 DOMAIN-SUFFIX,cdn.speedcurve.com # SpeedCurve 前端性能监控脚本、静态资源与 RUM 数据采集组件加载域名
 
+# > Statsig Feature Management Platform（Statsig 功能开关与实验配置平台）
+# - 更新时间：2026-06-14
+
+DOMAIN-SUFFIX,statsigapi.net # Statsig 功能开关与实验配置 API 域名
+
 # > Test-IPv6（Test-IPv6 网络连通性测试平台）
 # - 校对时间：2026-03-27
 
