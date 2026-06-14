@@ -1654,6 +1654,11 @@ DOMAIN-SUFFIX,cloud.com # Cloud Software Group 官方主域名与企业软件平
 DOMAIN-SUFFIX,matomo.cloud # Matomo Cloud 网站分析与托管统计服务主域名
 DOMAIN-SUFFIX,cdn.matomo.cloud # Matomo Cloud 前端脚本与静态资源 CDN 域名
 
+# > ActiveCampaign Marketing Automation Platform（ActiveCampaign 营销自动化平台）
+# - 更新时间：2026-06-14
+
+DOMAIN-SUFFIX,diffuser-cdn.app-us1.com # ActiveCampaign 内容分发 CDN 域名
+
 # > Workshub Developer Jobs Platform（Workshub 开发者招聘平台）
 # - 校对时间：2026-05-04
 
