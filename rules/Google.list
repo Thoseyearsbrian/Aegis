@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-12
-# - 校对时间：2026-06-12
+# - 更新时间：2026-06-14
+# - 校对时间：2026-06-14
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 # - 校对时间：2026-05-09
@@ -152,11 +152,12 @@ DOMAIN-SUFFIX,google.dev # Google 开发者社区
 DOMAIN-SUFFIX,web.dev # Web 开发最佳实践平台
 
 # > Google Fonts & Assets（Google 字体与静态资源）
-# - 校对时间：2026-03-06
+# - 校对时间：2026-06-14
 
 DOMAIN-SUFFIX,fonts.googleapis.com # Google Fonts API
 DOMAIN-SUFFIX,fonts.gstatic.com # Google 字体 CDN
 DOMAIN-SUFFIX,gstatic.com # Google 静态资源 CDN
+DOMAIN-SUFFIX,gstatic.cn # Google 静态资源中国区域域名
 DOMAIN-SUFFIX,dl.google.com # Google 下载服务域名
 DOMAIN-SUFFIX,cdn.ampproject.org # Google AMP CDN
 
