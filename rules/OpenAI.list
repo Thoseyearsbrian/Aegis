@@ -11,6 +11,9 @@
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-06-14
 
+# > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
+# - 校对时间：2026-06-14
+
 DOMAIN-SUFFIX,openai.com # OpenAI 官方主站、Codex 产品页面与开发者服务域名
 DOMAIN-SUFFIX,chat.openai.com # ChatGPT Web 服务入口
 DOMAIN-SUFFIX,api.openai.com # OpenAI API 接口
@@ -28,6 +31,7 @@ DOMAIN-SUFFIX,persistent.oaistatic.com # OpenAI 持久化静态资源
 DOMAIN-SUFFIX,openaiusercontent.com # OpenAI 用户资源托管
 DOMAIN-SUFFIX,docs.openai.com # OpenAI 开发者文档站点
 DOMAIN-SUFFIX,auth0.openai.com # OpenAI 身份认证服务域名
+DOMAIN-SUFFIX,openaifoundation.org # OpenAI Foundation 公益项目平台域名
 DOMAIN-SUFFIX,openaipublic.blob.core.windows.net # OpenAI 公共资源托管域名
 
 # > OpenAI ChatGPT Actions Egress Network (ChatGPT Actions 官方出口网络（Azure）)
