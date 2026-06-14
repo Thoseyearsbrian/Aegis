@@ -9,6 +9,7 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,t.adx.opera.com # Opera 广告投放服务域名
 DOMAIN-SUFFIX,ad.turn.com # Turn 广告投放服务域名
 DOMAIN-SUFFIX,6sc.co # 6sense 广告域名
 DOMAIN-SUFFIX,adsrvr.org # The Trade Desk AdsRvr 广告域名
