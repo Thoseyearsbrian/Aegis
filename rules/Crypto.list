@@ -31,6 +31,11 @@ IP-CIDR,120.76.205.62/32 # Binance 服务节点
 IP-CIDR,120.78.229.149/32 # Binance 服务节点
 IP-CIDR,120.79.3.17/32 # Binance 服务节点
 
+# > Four.Meme Memecoin Launchpad（Four.Meme Meme 币发行平台）
+# - 更新时间：2026-06-14
+
+DOMAIN-SUFFIX,four.meme # Four.Meme Meme 币发行平台域名
+
 # > NodeReal BNB Chain RPC Infrastructure（NodeReal BNB Chain RPC 基础设施）
 # - 校对时间：2026-03-29
 
