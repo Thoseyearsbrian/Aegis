@@ -1204,9 +1204,10 @@ DOMAIN-SUFFIX,walls.io # Walls.io 社交墙平台域名
 DOMAIN-SUFFIX,cdn.siftscience.com # 静态资源域名
 
 # > HUMAN Bot Protection Service（HUMAN 机器人防护服务）
-# - 更新时间：2026-06-14
+# - 校对时间：2026-06-14
 
 DOMAIN-SUFFIX,protechts.net # HUMAN 机器人防护服务域名
+DOMAIN-SUFFIX,px-cloud.net # HUMAN 机器人防护采集服务域名
 
 # > OneTrust Cookie Consent Platform（OneTrust Cookie 同意管理平台）
 # - 更新时间：2026-06-13
