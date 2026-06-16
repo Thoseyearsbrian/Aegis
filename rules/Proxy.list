@@ -9670,6 +9670,11 @@ DOMAIN-SUFFIX,uptimerobot.com # UptimeRobot 网站可用性监控平台域名
 
 DOMAIN-SUFFIX,vanta.com # Vanta 信任管理与合规自动化平台域名
 
+# > Storylane Product Demo Platform（Storylane 产品演示平台）
+# - 更新时间：2026-06-16
+
+DOMAIN-SUFFIX,storylane.io # Storylane 产品演示平台域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
