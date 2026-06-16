@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-14
-# - 校对时间：2026-06-14
+# - 更新时间：2026-06-16
+# - 校对时间：2026-06-16
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -8253,6 +8253,11 @@ DOMAIN-SUFFIX,partnerpage.io # PartnerPage 平台主域名
 DOMAIN-SUFFIX,assets.partnerpage.io # PartnerPage 静态资源域名
 DOMAIN-SUFFIX,directory.static.partnerpage.io # PartnerPage 目录静态资源域名
 DOMAIN-SUFFIX,content.partnerpage.io # PartnerPage 内容服务域名
+
+# > G2 Software Marketplace And Review Platform（G2 软件市场与评价平台）
+# - 更新时间：2026-06-16
+
+DOMAIN-SUFFIX,g2.com # G2 软件市场与评价平台域名
 
 # > Nift Gift Discovery Platform（Nift 礼品发现平台）
 # - 校对时间：2026-05-02
