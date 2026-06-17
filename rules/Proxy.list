@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-16
-# - 校对时间：2026-06-16
+# - 更新时间：2026-06-17
+# - 校对时间：2026-06-17
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -9674,6 +9674,11 @@ DOMAIN-SUFFIX,vanta.com # Vanta 信任管理与合规自动化平台域名
 # - 更新时间：2026-06-16
 
 DOMAIN-SUFFIX,storylane.io # Storylane 产品演示平台域名
+
+# > Ramp Spend Management Platform（Ramp 企业支出管理平台）
+# - 更新时间：2026-06-17
+
+DOMAIN-SUFFIX,ramp.com # Ramp 企业支出管理平台域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
