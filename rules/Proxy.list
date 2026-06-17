@@ -9680,6 +9680,11 @@ DOMAIN-SUFFIX,storylane.io # Storylane 产品演示平台域名
 
 DOMAIN-SUFFIX,ramp.com # Ramp 企业支出管理平台域名
 
+# > CloudBees Feature Management Platform（CloudBees 功能开关管理平台）
+# - 更新时间：2026-06-17
+
+DOMAIN-SUFFIX,cloudbees.io # CloudBees 功能开关配置服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
