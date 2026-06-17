@@ -9685,6 +9685,11 @@ DOMAIN-SUFFIX,ramp.com # Ramp 企业支出管理平台域名
 
 DOMAIN-SUFFIX,cloudbees.io # CloudBees 功能开关配置服务域名
 
+# > Will Codex Reset Quota Forecast Site（Will Codex Reset 配额重置预测站点）
+# - 更新时间：2026-06-17
+
+DOMAIN-SUFFIX,willcodexquotareset.com # Will Codex Reset 配额重置预测站点域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
