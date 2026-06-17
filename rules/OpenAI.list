@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-14
-# - 校对时间：2026-06-14
+# - 更新时间：2026-06-17
+# - 校对时间：2026-06-17
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-06-14
@@ -378,6 +378,11 @@ DOMAIN-SUFFIX,media.runwayml.com # Runway 媒体资源域名
 DOMAIN-SUFFIX,files.runwayml.com # Runway 文件服务端点
 DOMAIN-SUFFIX,genmo.runwayml.com # Runway 模型推理服务端点
 DOMAIN-SUFFIX,render.runwayml.com # Runway 渲染任务服务
+
+# > Flimify AI Video Editing Platform（Flimify AI 视频编辑平台）
+# - 更新时间：2026-06-17
+
+DOMAIN-SUFFIX,flimify.com # Flimify AI 视频编辑平台域名
 
 # > Stability AI Platform（Stable Diffusion 生成式 AI 平台）
 # - 校对时间：2026-03-13
