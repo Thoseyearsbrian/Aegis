@@ -4,11 +4,12 @@
 # - 特征：识别广告投放、广告竞价、广告请求、广告资源分发、广告追踪及明确广告子域等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-14
-# - 校对时间：2026-06-14
+# - 更新时间：2026-06-17
+# - 校对时间：2026-06-17
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,live.primis.tech # Primis 视频广告播放服务域名
 DOMAIN-SUFFIX,hb.openwebmp.com # OpenWeb Header Bidding 广告竞价服务域名
 DOMAIN-SUFFIX,hb.yellowblue.io # YellowBlue Header Bidding 广告竞价服务域名
 DOMAIN-SUFFIX,rtb.openx.net # OpenX 实时广告竞价服务域名
