@@ -4,8 +4,8 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-14
-# - 校对时间：2026-06-14
+# - 更新时间：2026-06-17
+# - 校对时间：2026-06-17
 
 # > Binance Exchange Platform（Binance 加密资产交易平台）
 # - 校对时间：2026-06-14
@@ -1492,3 +1492,8 @@ DOMAIN-SUFFIX,ipfs.io # IPFS 官方平台
 DOMAIN-SUFFIX,gateway.ipfs.io # IPFS 官方公共网关服务
 DOMAIN-SUFFIX,docs.ipfs.io # 官方文档站点
 DOMAIN-SUFFIX,ipfs.sintral.me # IPFS 公共网关服务域名
+
+# > Privy Web3 Authentication And Wallet Infrastructure（Privy Web3 认证与钱包基础设施）
+# - 更新时间：2026-06-17
+
+DOMAIN-SUFFIX,privy.io # Privy Web3 认证与嵌入式钱包基础设施域名
