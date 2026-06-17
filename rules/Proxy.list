@@ -1357,6 +1357,11 @@ DOMAIN-SUFFIX,stackoverflow.blog # Stack Overflow 官方博客域名
 DOMAIN-SUFFIX,dev.to # DEV Community 官方开发者社区主域名
 DOMAIN-SUFFIX,forem.com # Forem 开源社区平台域名
 
+# > Cursor Origin Git Forge Platform（Cursor Origin AI 时代 Git 托管平台）
+# - 更新时间：2026-06-17
+
+DOMAIN-SUFFIX,cursor.com # Cursor Origin Git 托管平台与 AI 编程工具域名
+
 # > Codeberg Open Source Code Hosting Platform（Codeberg 开源代码托管平台）
 # - 校对时间：2026-05-04
 
