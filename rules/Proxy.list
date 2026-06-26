@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-17
-# - 校对时间：2026-06-17
+# - 更新时间：2026-06-26
+# - 校对时间：2026-06-26
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -9694,6 +9694,11 @@ DOMAIN-SUFFIX,cloudbees.io # CloudBees 功能开关配置服务域名
 # - 校对时间：2026-06-17
 
 DOMAIN-SUFFIX,willcodexquotareset.com # Will Codex Reset 配额重置预测站点域名
+
+# > CMLiussss SOCKS5 Proxy Checker（CMLiussss SOCKS5 代理检测工具）
+# - 更新时间：2026-06-26
+
+DOMAIN-SUFFIX,check.socks5.cmliussss.net # CMLiussss SOCKS5 代理检测工具域名
 
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
