@@ -76,6 +76,10 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 - 请参阅 [Aegis Wiki 版本说明](https://github.com/Thoseyearsbrian/Aegis/wiki/版本说明)
 
+## 视频教程
+
+- 请参阅 [Aegis Wiki 视频教程](https://github.com/Thoseyearsbrian/Aegis/wiki/视频教程)
+
 ## 注意事项
 
 - 请参阅 [Aegis Wiki 注意事项](https://github.com/Thoseyearsbrian/Aegis/wiki/注意事项)

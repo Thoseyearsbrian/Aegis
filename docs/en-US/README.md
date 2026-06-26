@@ -84,6 +84,10 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 - See [Aegis Wiki Versioning](https://github.com/Thoseyearsbrian/Aegis/wiki/Versioning)
 
+## Video Tutorials
+
+- 请参阅 [Aegis Wiki Video Tutorials](https://github.com/Thoseyearsbrian/Aegis/wiki/Video-Tutorials)
+
 ## Important Notes
 
 - See [Aegis Wiki Important Notes](https://github.com/Thoseyearsbrian/Aegis/wiki/Important-Notes)
