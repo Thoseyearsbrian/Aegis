@@ -9710,6 +9710,11 @@ DOMAIN-SUFFIX,mirrors.cicku.me # CICKU 开源软件镜像服务域名
 
 DOMAIN-SUFFIX,alipayplus.com # Alipay+ 跨境支付网关与 API 服务域名
 
+# > Kaptcha CAPTCHA Security Service（Kaptcha 验证码安全服务）
+# - 更新时间：2026-06-27
+
+DOMAIN-SUFFIX,kaptcha.com # CAPTCHA 验证与反机器人安全服务域名
+
 # > Independent Sites（第三方独立站）
 # - 校对时间：2026-03-28
 
