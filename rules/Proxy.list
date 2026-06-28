@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-27
-# - 校对时间：2026-06-27
+# - 更新时间：2026-06-28
+# - 校对时间：2026-06-28
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -9714,15 +9714,6 @@ DOMAIN-SUFFIX,alipayplus.com # Alipay+ 跨境支付网关与 API 服务域名
 # - 更新时间：2026-06-27
 
 DOMAIN-SUFFIX,kaptcha.com # CAPTCHA 验证与反机器人安全服务域名
-
-# > Independent Sites（第三方独立站）
-# - 校对时间：2026-03-28
-
-DOMAIN-SUFFIX,olymmons.com # Olymmons 独立站主域名
-DOMAIN-SUFFIX,yotobike.com # Yotobike 独立站主域名
-DOMAIN-SUFFIX,onemilebike.com # OneMile 独立站主域名
-DOMAIN-SUFFIX,rocketgirlsclub.com # RocketGirlsClub 独立站主域名
-IP-CIDR,167.179.90.104 # RocketGirlsClub 资源节点
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-06-14
