@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-17
-# - 校对时间：2026-06-17
+# - 更新时间：2026-06-28
+# - 校对时间：2026-06-28
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-06-14
@@ -236,17 +236,18 @@ DOMAIN-SUFFIX,uploads.claudeusercontent.com # Claude 文件上传服务接口
 
 # > Anthropic Claude Official Network IPv4（Anthropic Claude IPv4 官方网络节点）
 # - 数据来源：ARIN / BGP ASN 信息 / api.anthropic.com DNS 解析
-# - 校对时间：2026-03-09
+# - 校对时间：2026-06-28
 
-IP-CIDR,160.79.104.0/21 # Anthropic Claude API 网络
+# IP-CIDR,160.79.104.0/21 # Anthropic Claude API 网络
 
 # > Anthropic Claude Official Network IPv6（Anthropic Claude IPv6 官方网络节点）
 # - 数据来源：ARIN / BGP ASN 信息 / api.anthropic.com DNS 解析
-# - 校对时间：2026-03-09
+# - 校对时间：2026-06-28
 
-IP-CIDR6,2607:6bc0::/48 # Anthropic Claude IPv6 API 网络
+# IP-CIDR6,2607:6bc0::/48 # Anthropic Claude IPv6 API 网络
 
 # > Anthropic Platform Infrastructure（Anthropic 平台基础设施域名）
+# - 校对时间：2026-06-28
 
 DOMAIN-SUFFIX,anthropic.com # Anthropic 官方主站
 DOMAIN-SUFFIX,trust.anthropic.com # Anthropic 信任与安全中心
