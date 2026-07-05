@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-28
-# - 校对时间：2026-06-28
+# - 更新时间：2026-07-05
+# - 校对时间：2026-07-05
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -9714,6 +9714,11 @@ DOMAIN-SUFFIX,alipayplus.com # Alipay+ 跨境支付网关与 API 服务域名
 # - 更新时间：2026-06-27
 
 DOMAIN-SUFFIX,kaptcha.com # CAPTCHA 验证与反机器人安全服务域名
+
+# > Cultural Exchange & Work Exchange Platforms（文化交流与工作交换平台）
+# - 校对时间：2026-07-05
+
+DOMAIN-SUFFIX,workaway.info # 全球文化交换与志愿者换宿平台（食宿交换型旅行平台）
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-06-14
