@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-05
-# - 校对时间：2026-07-05
+# - 更新时间：2026-07-06
+# - 校对时间：2026-07-06
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -9720,6 +9720,11 @@ DOMAIN-SUFFIX,kaptcha.com # CAPTCHA 验证与反机器人安全服务域名
 
 DOMAIN-SUFFIX,workaway.info # 全球文化交换与志愿者换宿平台（食宿交换型旅行平台）
 DOMAIN-SUFFIX,helpx.net # 全球文化交换与志愿者换宿平台（食宿交换型旅行平台）
+
+# > Payment Payout Infrastructure（支付批量分发基础设施）
+# - 校对时间：2026-07-06
+
+DOMAIN-SUFFIX,hyperwallet.com # PayPal 批量付款与全球资金分发平台
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-06-14
