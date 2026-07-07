@@ -9737,7 +9737,12 @@ DOMAIN-SUFFIX,alfa.com.tw # ALFA Network 无线网络设备、驱动文档与 Op
 DOMAIN-SUFFIX,wireshark.org # Wireshark 网络协议分析工具平台域名
 DOMAIN-SUFFIX,2.na.dl.wireshark.org # Wireshark 下载服务域名
 DOMAIN-SUFFIX,wiresharkfoundation.org # Wireshark Foundation 基金会与社区平台域名
-DOMAIN-SUFFIX,myspreadshop.com # Wireshark 品牌周边商城服务域名
+
+# > Spreadshirt Commerce Platform（Spreadshirt 电商与媒体资源平台）
+# - 校对时间：2026-07-07
+
+DOMAIN-SUFFIX,spreadshirtmedia.com # Spreadshirt 商品图片与媒体资源 CDN
+DOMAIN-SUFFIX,myspreadshop.com # Spreadshop 品牌周边商城与商品销售平台
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-06-14
