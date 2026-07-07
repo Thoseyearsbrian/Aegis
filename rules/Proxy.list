@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-07
-# - 校对时间：2026-07-07
+# - 更新时间：2026-07-08
+# - 校对时间：2026-07-08
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -9752,7 +9752,7 @@ DOMAIN-SUFFIX,myspreadshop.com # Spreadshop 品牌周边商城与商品销售平
 DOMAIN-SUFFIX,myspreadshop.co.uk # Spreadshop 英国区域品牌周边商城域名
 
 # > Third-Party Blogs（第三方博客）
-# - 校对时间：2026-06-14
+# - 校对时间：2026-07-08
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客技术博客域名
 DOMAIN-SUFFIX,skk.moe # Sukka 主站域名
@@ -9781,3 +9781,4 @@ DOMAIN-SUFFIX,apothecary.tips # Apothecary 博客/技术资讯网站
 DOMAIN-SUFFIX,simhaoka.com # Simhaoka 博客与资源分享域名
 DOMAIN-SUFFIX,bushidotoken.net # BushidoToken 威胁情报博客域名
 DOMAIN-SUFFIX,yachen.com # Yachen's Blog 个人博客域名
+DOMAIN-SUFFIX,wpme.pl # rafalohaki 个人站点域名
