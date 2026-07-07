@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-06
-# - 校对时间：2026-07-06
+# - 更新时间：2026-07-07
+# - 校对时间：2026-07-07
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -7219,11 +7219,12 @@ DOMAIN-SUFFIX,vecpea.com # Vecpea 官方在线矢量图形与 SVG 编辑工具
 DOMAIN-SUFFIX,kali.org # Kali Linux 官网及更新服务
 DOMAIN-SUFFIX,kali.download # Kali Linux 官方镜像与下载服务域名
 
-# > Kali Linux Service（Kali Linux 安全发行版镜像服务）
-# - 校对时间：2026-03-28
+# > Kali Linux Mirror Services（Kali Linux 第三方镜像服务）
+# - 校对时间：2026-07-06
 
-DOMAIN-SUFFIX,darklab.sh # Darklab 安全研究与渗透测试相关服务域名
-DOMAIN-SUFFIX,kali.darklab.sh # Kali Linux 第三方镜像站
+DOMAIN-SUFFIX,kali.darklab.sh # Darklab 提供的 Kali Linux 第三方镜像站
+DOMAIN-SUFFIX,ftp.riken.jp # RIKEN Kali Linux 镜像仓库与软件包分发服务
+DOMAIN-SUFFIX,kali.cs.nycu.edu.tw # NYCU 提供的 Kali Linux 镜像与教学资源服务
 
 # > FCIX Service（FCIX 开源软件镜像与内容分发服务）
 # - 校对时间：2026-03-28
@@ -7240,11 +7241,6 @@ DOMAIN-SUFFIX,nocix.mm.fcix.net # NOCIX 在 FCIX（Fremont Cabal Internet Exchan
 # - 校对时间：2026-03-28
 
 DOMAIN-SUFFIX,ftp2.osuosl.org # OSUOSL 提供的开源软件镜像 FTP 服务
-
-# > NYCU Kali Linux Service（NYCU Kali Linux 官方镜像与教学资源服务）
-# - 校对时间：2026-03-28
-
-DOMAIN-SUFFIX,kali.cs.nycu.edu.tw # 国立阳明交通大学（NYCU）提供的 Kali Linux 官方镜像与网络安全教学资源站点
 
 # > UC Berkeley OCF Service（UC Berkeley OCF 开源软件镜像服务）
 # - 校对时间：2026-03-28
