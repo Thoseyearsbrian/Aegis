@@ -3718,9 +3718,6 @@ DOMAIN-SUFFIX,choosealicense.com # 项目域名
 # - 校对时间：2026-07-07
 
 DOMAIN-SUFFIX,gpgtools.com # 平台主域名
-DOMAIN-SUFFIX,wireshark.org # Wireshark 网络协议分析工具平台主域名
-DOMAIN-SUFFIX,2.na.dl.wireshark.org # 下载服务域名
-DOMAIN-SUFFIX,wiresharkfoundation.org # Wireshark Foundation 基金会与社区支持平台域名
 DOMAIN-SUFFIX,sw-update.obdev.at # 更新服务域名
 DOMAIN-SUFFIX,geolocation.obdev.at # 定位服务域名
 DOMAIN-SUFFIX,nektony.com # 平台主域名
@@ -9733,6 +9730,14 @@ DOMAIN-SUFFIX,eightfold.ai # Eightfold AI HR 人才智能平台
 # - 校对时间：2026-07-07
 
 DOMAIN-SUFFIX,alfa.com.tw # ALFA Network 无线网络设备、驱动文档与 OpenWrt/Kali Linux 兼容资源服务
+
+# > Wireshark Network Analysis Platform（Wireshark 网络分析平台）
+# - 校对时间：2026-07-07
+
+DOMAIN-SUFFIX,wireshark.org # Wireshark 网络协议分析工具平台域名
+DOMAIN-SUFFIX,2.na.dl.wireshark.org # Wireshark 下载服务域名
+DOMAIN-SUFFIX,wiresharkfoundation.org # Wireshark Foundation 基金会与社区平台域名
+DOMAIN-SUFFIX,myspreadshop.com # Wireshark 品牌周边商城服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-06-14
