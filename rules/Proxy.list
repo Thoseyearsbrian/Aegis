@@ -139,6 +139,11 @@ DOMAIN-SUFFIX,cdn.scamalytics.com # Scamalytics 静态资源域名
 
 DOMAIN-SUFFIX,netify.ai # Netify 官方平台主域名
 
+# > IPinfo IP Intelligence Platform（IPinfo IP 情报平台）
+# - 校对时间：2026-07-07
+
+DOMAIN-SUFFIX,ipinfo.io # IP 地址、ASN 与网络情报查询平台域名
+
 # > Academia（Academia 学术论文访问与学术资源交流平台）
 # - 校对时间：2026-03-27
 
