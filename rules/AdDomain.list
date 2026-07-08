@@ -4,8 +4,8 @@
 # - 特征：识别广告投放、广告竞价、广告请求、广告资源分发、广告追踪及明确广告子域等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-17
-# - 校对时间：2026-06-17
+# - 更新时间：2026-07-09
+# - 校对时间：2026-07-09
 
 # > 广告相关域名
 
@@ -26,13 +26,6 @@ DOMAIN-SUFFIX,phx.creativecdn.com # Creative 广告分发 CDN 域名
 DOMAIN-SUFFIX,openads-cdn.adsrvr.org # adsrvr 广告分发 CDN 域名
 DOMAIN-SUFFIX,direct.adsrvr.org # The Trade Desk 广告投放服务域名
 DOMAIN-SUFFIX,prebid-server.rubiconproject.com # Magnite 广告竞价服务域名
-DOMAIN-SUFFIX,safeframe.googlesyndication.com # Google SafeFrame 广告容器域名
-DOMAIN-SUFFIX,static.googleadsserving.cn # Google 广告投放域名
-DOMAIN-SUFFIX,ad.doubleclick.net # DoubleClick 广告服务域名
-DOMAIN-SUFFIX,doubleclick-cn.net # DoubleClick 广告服务域名
-DOMAIN-SUFFIX,2mdn.net # DoubleClick 广告素材分发域名
-DOMAIN-SUFFIX,fls.doubleclick.net # DoubleClick 广告追踪域名
-DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告标识同步域名
 DOMAIN-SUFFIX,agkn.com # 广告追踪域名
 DOMAIN-SUFFIX,dynamic.criteo.com # Criteo 广告域名
 DOMAIN-SUFFIX,po.funshion.com # 风行网广告接口域名

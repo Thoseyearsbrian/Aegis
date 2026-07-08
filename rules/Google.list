@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-14
-# - 校对时间：2026-06-14
+# - 更新时间：2026-07-09
+# - 校对时间：2026-07-09
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 # - 校对时间：2026-05-09
@@ -343,18 +343,18 @@ IP-CIDR,209.85.128.0/17 # Google Mail 发送网络（SPF）
 # IP-CIDR6,2c0f:fb50::/32 # Google 官方 IPv6 网络段
 
 # > Google Advertising Services（Google 广告与营销服务）
-# - 校对时间：2026-03-06
+# - 校对时间：2026-07-09
 
 DOMAIN-SUFFIX,pagead2.googlesyndication.com # Google Ads 投放服务
-DOMAIN-SUFFIX,googleads.g.doubleclick.net # Google Ads 服务接口
+DOMAIN-SUFFIX,googleads.g.doubleclick.net # Google Ads 广告投放接口
 DOMAIN-SUFFIX,tpc.googlesyndication.com # Google Ads 内容服务
 DOMAIN-SUFFIX,securepubads.g.doubleclick.net # Google Ads 广告调度
 DOMAIN-SUFFIX,g.doubleclick.net # DoubleClick 广告服务
-DOMAIN-SUFFIX,googleadservices.com # Google Ads 跟踪服务
+DOMAIN-SUFFIX,googleadservices.com # Google Ads 广告跳转与转化归因服务
 DOMAIN-SUFFIX,googleadapis.l.google.com # Google Ads API
 DOMAIN-SUFFIX,googleadservices-cn.com # Google Ads 中国接口
-DOMAIN-SUFFIX,adservice.google.com # Google Ads 跳转服务
-DOMAIN-SUFFIX,adservice.google.cn # Google Ads 中国跳转
+DOMAIN-SUFFIX,adservice.google.com # Google Ads 广告服务入口
+DOMAIN-SUFFIX,adservice.google.cn # Google Ads 中国广告服务入口
 DOMAIN-SUFFIX,googleads.g.doubleclick.com # Google Ads 服务
 DOMAIN-SUFFIX,adtrafficquality.google # Google Ads 流量质量检测
 DOMAIN-SUFFIX,googletagservices-cn.com # Google Ads 标签服务
@@ -366,20 +366,27 @@ DOMAIN-SUFFIX,googlesyndication.com # Google 广告分发与内容投放网络
 DOMAIN-SUFFIX,googletagmanager.com # Google Tag Manager 标签管理平台
 DOMAIN-SUFFIX,ade.googlesyndication.com # Google Ads 实验服务
 DOMAIN-SUFFIX,doubleclick.net # DoubleClick 广告平台
-
-# > 已列入AdDomain.list明细:
-
-# DOMAIN-SUFFIX,safeframe.googlesyndication.com # Google SafeFrame 广告容器域名
-# DOMAIN-SUFFIX,static.googleadsserving.cn # Google 广告投放域名
-# DOMAIN-SUFFIX,ad.doubleclick.net # DoubleClick 广告服务域名
-# DOMAIN-SUFFIX,doubleclick-cn.net # DoubleClick 广告服务域名
-# DOMAIN-SUFFIX,2mdn.net # DoubleClick 广告素材分发域名
-# DOMAIN-SUFFIX,fls.doubleclick.net # DoubleClick 广告追踪域名
-# DOMAIN-SUFFIX,cm.g.doubleclick.net # DoubleClick 广告标识同步域名
+DOMAIN-SUFFIX,ad.doubleclick.net # DoubleClick 广告服务域名
+DOMAIN-SUFFIX,doubleclick-cn.net # DoubleClick 广告服务域名
+DOMAIN-SUFFIX,2mdn.net # DoubleClick 广告素材分发域名
+DOMAIN-SUFFIX,safeframe.googlesyndication.com # Google SafeFrame 广告容器域名
+DOMAIN-SUFFIX,static.googleadsserving.cn # Google 广告投放域名
 
 # > 已列入 BehaviorDomain.list明细:
-# - 校对时间：2026-03-06
+# - 校对时间：2026-07-09
 
-# DOMAIN-SUFFIX,merchant-center-analytics.goog # Merchant Center 分析
-# DOMAIN-SUFFIX,video-stats.video.google.com # YouTube 广告统计
-# DOMAIN-SUFFIX,google-analytics.com # Google Analytics 行为分析与访问统计服务
+# DOMAIN-SUFFIX,app-measurement.com # Google 应用测量服务域名
+# DOMAIN-SUFFIX,config.app-measurement.com # Google 应用测量配置域名
+# DOMAIN-SUFFIX,firebaseinstallations.googleapis.com # Firebase 安装标识接口
+# DOMAIN-SUFFIX,firebase-settings.crashlytics.com # Crashlytics 配置接口
+# DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com # Crashlytics 崩溃数据上报接口
+# DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com # Google 客户端指标采集接口
+# DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com # Firebase 日志采集接口
+# DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com # Firebase 动态链接服务域名
+# DOMAIN-SUFFIX,app-analytics-services.com # 应用行为统计接口
+# DOMAIN-SUFFIX,www-google-analytics.l.google.com # Google Analytics 测量服务域名
+# DOMAIN-SUFFIX,merchant-center-analytics.goog # Merchant Center 分析域名
+# DOMAIN-SUFFIX,video-stats.video.google.com # YouTube 视频统计域名
+# DOMAIN-SUFFIX,google-analytics.com # Google Analytics 行为分析服务域名
+# DOMAIN-SUFFIX,fls.doubleclick.net # Google DoubleClick 广告转化追踪服务
+# DOMAIN-SUFFIX,cm.g.doubleclick.net # Google DoubleClick 广告标识同步服务

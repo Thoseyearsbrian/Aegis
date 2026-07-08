@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-17
-# - 校对时间：2026-06-17
+# - 更新时间：2026-07-09
+# - 校对时间：2026-07-09
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -54,8 +54,8 @@ IP-CIDR,203.209.244.173/32 # 支付宝移动端数据采集与性能日志上报
 IP-CIDR,110.76.16.70/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
 IP-CIDR,203.209.244.141/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
 
-# > Google / Firebase / Crashlytics 行为遥测服务
-# - 校对时间：2026-03-25
+# > Google 行为分析与遥测服务
+# - 校对时间：2026-07-09
 
 DOMAIN-SUFFIX,app-measurement.com # Google 应用测量服务域名
 DOMAIN-SUFFIX,config.app-measurement.com # Google 应用测量配置域名
@@ -65,11 +65,13 @@ DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com # Crashlytics 崩溃数据上
 DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com # Google 客户端指标采集接口
 DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com # Firebase 日志采集接口
 DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com # Firebase 动态链接服务域名
-DOMAIN-SUFFIX,app-analytics-services.com # YouTube 应用行为统计接口
+DOMAIN-SUFFIX,app-analytics-services.com # 应用行为统计接口
 DOMAIN-SUFFIX,www-google-analytics.l.google.com # Google Analytics 测量服务域名
 DOMAIN-SUFFIX,merchant-center-analytics.goog # Merchant Center 分析域名
 DOMAIN-SUFFIX,video-stats.video.google.com # YouTube 视频统计域名
 DOMAIN-SUFFIX,google-analytics.com # Google Analytics 行为分析服务域名
+DOMAIN-SUFFIX,fls.doubleclick.net # Google DoubleClick 广告转化追踪服务
+DOMAIN-SUFFIX,cm.g.doubleclick.net # Google DoubleClick 广告标识同步服务
 
 # > Datadog 行为遥测服务
 # - 校对时间：2026-03-25
