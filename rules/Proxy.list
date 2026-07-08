@@ -86,6 +86,7 @@ DOMAIN-SUFFIX,fdcservers.net # FDCServers Speedtest 测速节点域名
 DOMAIN-SUFFIX,sp-sea-01.ezeefiber.net # EzeeFiber 西雅图节点测速服务
 DOMAIN-SUFFIX,seattle.speedtest.centurylink.net # CenturyLink 西雅图 Speedtest 节点
 DOMAIN-SUFFIX,mbspeed.net # Ookla Speedtest 测速节点域名
+DOMAIN-SUFFIX,speed.udx.icscoe.jp # Ookla Speedtest 日本东京测速节点
 
 # > OpenSpeedTest（OpenSpeedTest 网络测速服务）
 # - 校对时间：2026-03-27
