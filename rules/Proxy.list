@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-08
-# - 校对时间：2026-07-08
+# - 更新时间：2026-07-13
+# - 校对时间：2026-07-13
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -3751,7 +3751,7 @@ DOMAIN-SUFFIX,translate.googleapis.com # API 接口域名
 DOMAIN-SUFFIX,translate.google.com # Web 服务域名
 
 # > Surge Tool（Surge 代理工具）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-07-13
 
 DOMAIN-SUFFIX,nssurge.com # 平台主域名
 DOMAIN-SUFFIX,cdn.nssurge.com # 静态资源域名
@@ -3768,6 +3768,7 @@ DOMAIN-SUFFIX,nssurge.zendesk.com # 支持服务域名
 DOMAIN-SUFFIX,divineengine.net # 关联服务域名
 DOMAIN-SUFFIX,surge.mitsea.com # 社区文档域名
 DOMAIN-SUFFIX,surge-activation.com # 激活服务域名
+DOMAIN-SUFFIX,community.nssurge.com # Surge 社区服务域名
 
 # > GitBook Documentation Platform（GitBook 文档平台）
 # - 校对时间：2026-03-28
