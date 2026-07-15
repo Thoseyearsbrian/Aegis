@@ -9788,10 +9788,11 @@ DOMAIN-SUFFIX,zapsplat.com # ZapSplat 免费音效库、声音素材与创意资
 
 DOMAIN-SUFFIX,quiverquant.com # 另类数据、股票研究与市场情报分析平台域名
 
-# > UserAgents.io User-Agent Database Tool（UserAgents.io User-Agent 解析与数据库工具）
+# > User-Agent Database Tools（User-Agent 解析与数据库工具）
 # - 校对时间：2026-07-15
 
 DOMAIN-SUFFIX,useragents.io # UserAgents.io User-Agent 解析与数据库查询工具域名
+DOMAIN-SUFFIX,udger.com # Udger User-Agent 与 IP 地址解析工具域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
