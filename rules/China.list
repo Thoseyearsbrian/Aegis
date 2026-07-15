@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-09
-# - 校对时间：2026-07-09
+# - 更新时间：2026-07-15
+# - 校对时间：2026-07-15
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
@@ -1347,9 +1347,10 @@ DOMAIN-SUFFIX,micloud.xiaomi.net # 小米云服务域名
 DOMAIN-SUFFIX,miliao.com # 小米历史通信服务域名
 
 # > Huawei / HarmonyOS / Huawei Cloud（华为 / 鸿蒙 / 华为云）相关域名
-# - 校对时间：2026-03-25
+# - 校对时间：2026-07-15
 
 DOMAIN-SUFFIX,huawei.com # 华为主域名
+DOMAIN-SUFFIX,huawei.cn # 华为中国区主域名
 DOMAIN-SUFFIX,servicesupport.huawei.com # 华为客户支持服务域名
 DOMAIN-SUFFIX,huaweicloud.com # 华为云主域名
 DOMAIN-SUFFIX,huaweicloud.cn # 华为云中国区服务域名
