@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-15
-# - 校对时间：2026-07-15
+# - 更新时间：2026-07-16
+# - 校对时间：2026-07-16
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -73,7 +73,7 @@ IP-CIDR,1.0.0.1/32 # Cloudflare 公共 DNS 备用地址
 # IP-CIDR6,2c0f:f248::/32 # Cloudflare IPv6 边缘网络
 
 # > Speedtest by Ookla（Speedtest 网络测速平台）
-# - 校对时间：2026-07-08
+# - 校对时间：2026-07-16
 
 DOMAIN-SUFFIX,speedtest.net # Speedtest 主域名
 DOMAIN-SUFFIX,ooklaserver.net # Ookla 测速节点域名
@@ -87,6 +87,7 @@ DOMAIN-SUFFIX,sp-sea-01.ezeefiber.net # EzeeFiber 西雅图节点测速服务
 DOMAIN-SUFFIX,seattle.speedtest.centurylink.net # CenturyLink 西雅图 Speedtest 节点
 DOMAIN-SUFFIX,mbspeed.net # Ookla Speedtest 测速节点域名
 DOMAIN-SUFFIX,speed.udx.icscoe.jp # Ookla Speedtest 日本东京测速节点
+DOMAIN-SUFFIX,tyo.speedtest.contabo.net # Contabo 东京 Speedtest 测速节点域名
 
 # > OpenSpeedTest（OpenSpeedTest 网络测速服务）
 # - 校对时间：2026-03-27
