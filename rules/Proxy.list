@@ -3758,6 +3758,7 @@ DOMAIN-SUFFIX,nssurge.com # 平台主域名
 DOMAIN-SUFFIX,kb.nssurge.com # 知识库域名
 DOMAIN-SUFFIX,manual.nssurge.com # 文档服务域名
 DOMAIN-SUFFIX,community.nssurge.com # Surge 社区服务域名
+DOMAIN-SUFFIX,surge-activation.com # Surge 许可证激活与授权校验服务域名
 
 # > Surge Third-Party Documentation（Surge 第三方文档）
 # - 校对时间：2026-07-17
