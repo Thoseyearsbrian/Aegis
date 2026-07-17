@@ -5041,34 +5041,33 @@ DOMAIN-SUFFIX,intellimizeio.com # 服务域名
 
 DOMAIN-SUFFIX,static.vanta.com # 静态资源域名
 
-# > HubSpot Service（HubSpot 营销与表单服务）
-# - 校对时间：2026-06-11
+# > HubSpot Marketing and Content Service（HubSpot 营销、表单与内容服务）
+# - 校对时间：2026-07-17
 
-DOMAIN-SUFFIX,js.hsforms.net # 表单脚本域名
-DOMAIN-SUFFIX,forms.hsforms.com # 表单接口域名
-DOMAIN-SUFFIX,api.hsforms.com # 表单 API 域名
-DOMAIN-SUFFIX,js.hs-scripts.com # 脚本域名
-DOMAIN-SUFFIX,hubspot.com # 平台主域名
-DOMAIN-SUFFIX,hubspot.net # 服务域名
-DOMAIN-SUFFIX,hsappstatic.net # 静态资源域名
-DOMAIN-SUFFIX,hs-banner.com # 横幅资源域名
-DOMAIN-SUFFIX,hsleadflows.net # Lead Flows 域名
-DOMAIN-SUFFIX,forms-na1.hsforms.com # 表单区域域名
-DOMAIN-SUFFIX,hubspotonwebflow.com # 集成域名
-DOMAIN-SUFFIX,hs-scripts.com # 脚本域名
-DOMAIN-SUFFIX,js-na2.hs-scripts.com # 脚本区域域名
-DOMAIN-SUFFIX,26117460.hs-sites-eu1.com # 托管页面域名
-DOMAIN-SUFFIX,perf-eu1.hsforms.com # 表单性能域名
-DOMAIN-SUFFIX,js-eu1.hsforms.net # 表单脚本域名
-DOMAIN-SUFFIX,hsforms.com # 表单服务域名
-DOMAIN-SUFFIX,hsforms.net # 表单资源域名
-DOMAIN-SUFFIX,hubspotusercontent.net # 用户内容域名
-DOMAIN-SUFFIX,fs1.hubspotusercontent.net # 文件资源域名
-DOMAIN-SUFFIX,ai21-25575448.hs-sites-eu1.com # 托管页面域名
-DOMAIN-SUFFIX,8040338.fs1.hubspotusercontent-na1.net # 文件资源域名
-DOMAIN-SUFFIX,hubspotusercontent-na1.net # 用户内容域名
-DOMAIN-SUFFIX,26563514.fs1.hubspotusercontent-eu1.net # 文件资源域名
-DOMAIN-SUFFIX,hubapi.com # API 接口域名
+DOMAIN-SUFFIX,js.hsforms.net # HubSpot 表单脚本域名
+DOMAIN-SUFFIX,forms.hsforms.com # HubSpot 表单提交服务域名
+DOMAIN-SUFFIX,api.hsforms.com # HubSpot 表单 API 服务域名
+DOMAIN-SUFFIX,js.hs-scripts.com # HubSpot 跟踪代码脚本域名
+DOMAIN-SUFFIX,hubspot.com # HubSpot 平台主域名
+DOMAIN-SUFFIX,hubspot.net # HubSpot 文件与资源服务域名
+DOMAIN-SUFFIX,hsappstatic.net # HubSpot 应用静态资源域名
+DOMAIN-SUFFIX,hs-banner.com # HubSpot Cookie 横幅服务域名
+DOMAIN-SUFFIX,hsleadflows.net # HubSpot 弹出表单服务域名
+DOMAIN-SUFFIX,forms-na1.hsforms.com # HubSpot 北美区域表单服务域名
+DOMAIN-SUFFIX,hubspotonwebflow.com # HubSpot 与 Webflow 集成域名
+DOMAIN-SUFFIX,hs-scripts.com # HubSpot 跟踪脚本服务域名
+DOMAIN-SUFFIX,js-na2.hs-scripts.com # HubSpot 北美区域跟踪脚本域名
+DOMAIN-SUFFIX,hs-sites-eu1.com # HubSpot 欧洲区域系统页面托管域名
+DOMAIN-SUFFIX,perf-eu1.hsforms.com # HubSpot 欧洲区域表单性能接口域名
+DOMAIN-SUFFIX,js-eu1.hsforms.net # HubSpot 欧洲区域表单脚本域名
+DOMAIN-SUFFIX,hsforms.com # HubSpot 表单服务域名
+DOMAIN-SUFFIX,hsforms.net # HubSpot 表单脚本与资源域名
+DOMAIN-SUFFIX,hubspotusercontent.net # HubSpot 用户内容与文件资源域名
+DOMAIN-SUFFIX,fs1.hubspotusercontent.net # HubSpot 文件资源域名
+DOMAIN-SUFFIX,hubspotusercontent-na1.net # HubSpot 北美区域用户文件资源域名
+DOMAIN-SUFFIX,hubspotusercontent-eu1.net # HubSpot 欧洲区域用户文件资源域名
+DOMAIN-SUFFIX,hubapi.com # HubSpot API 调用域名
+DOMAIN-SUFFIX,hubs.ly # HubSpot 短链接跳转域名
 
 # > Claydar Service（Claydar 前端资源服务）
 # - 校对时间：2026-03-28
