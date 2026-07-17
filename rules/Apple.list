@@ -5,8 +5,8 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-08
-# - 校对时间：2026-06-08
+# - 更新时间：2026-07-17
+# - 校对时间：2026-07-17
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -68,7 +68,6 @@ DOMAIN-SUFFIX,music.apple.com # Apple Music Web 服务
 DOMAIN-SUFFIX,radio.itunes.apple.com # Apple Music 广播服务
 DOMAIN-SUFFIX,probe.apple.com # Apple 网络探测与连通性验证服务
 DOMAIN-SUFFIX,init.apple.com # Apple 系统初始化服务
-DOMAIN-SUFFIX,setupicloud.apple.com # Apple iCloud 初始化配置服务
 DOMAIN-SUFFIX,appleid-validation.apple.com # Apple ID 校验服务
 DOMAIN-SUFFIX,init-p01st.apple.com # Apple 系统初始化服务节点
 
@@ -234,6 +233,8 @@ DOMAIN-SUFFIX,smtp.mail.icloud.com # iCloud SMTP 邮件发送服务
 DOMAIN-SUFFIX,imap.mail.icloud.com # iCloud IMAP 邮件访问服务
 DOMAIN-SUFFIX,caldav.mail.icloud.com # iCloud 邮件日历同步接口
 DOMAIN-SUFFIX,p212-imap.mail.icloud.com.cn # iCloud IMAP 服务
+DOMAIN-SUFFIX,setupicloud.com # Apple iCloud 初始化配置服务
+DOMAIN-SUFFIX,setupicloud.apple.com # Apple iCloud 初始化配置服务
 
 # > Apple Internal Service Mesh（Apple 内部服务网关）
 
