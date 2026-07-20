@@ -9809,6 +9809,11 @@ DOMAIN-SUFFIX,w3.org # W3C Web 标准组织官方主域名
 
 DOMAIN-SUFFIX,macpaw.com # MacPaw 官方主域名
 
+# > Setapp Subscription Software Platform（Setapp 软件订阅平台）
+# - 更新时间：2026-07-20
+
+DOMAIN-SUFFIX,setapp.com # Setapp 官方软件订阅平台主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
