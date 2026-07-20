@@ -9814,6 +9814,12 @@ DOMAIN-SUFFIX,macpaw.com # MacPaw 官方主域名
 
 DOMAIN-SUFFIX,setapp.com # Setapp 官方软件订阅平台主域名
 
+# > Public IP Lookup Services（公网 IP 查询服务）
+# - 校对时间：2026-07-20
+
+DOMAIN-SUFFIX,ipify.org # 公网 IP 地址查询服务域名
+DOMAIN-SUFFIX,icanhazip.com # 公网 IP 地址查询服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
