@@ -576,7 +576,6 @@ DOMAIN-SUFFIX,api.smoot.apple.cn # 中国区透明性平台 API
 DOMAIN-SUFFIX,relay.icloud.com # iCloud Private Relay 路由服务
 DOMAIN-SUFFIX,mask.apple-dns.net # Private Relay DNS 路由域名
 DOMAIN-SUFFIX,mask.icloud.com # iCloud Private Relay 主入口
-IP-CIDR,65.199.22.0/23 # Apple Relay 与配置服务段
 
 # > 已列入AdDomain.list明细:
 
