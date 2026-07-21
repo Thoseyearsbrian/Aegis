@@ -4,8 +4,8 @@
 # - 特征：涵盖 GitHub 平台核心服务域名与基础设施节点
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-29
-# - 校对时间：2026-05-29
+# - 更新时间：2026-07-21
+# - 校对时间：2026-07-21
 
 # > GitHub Core Services（GitHub 主站与基础服务）
 
@@ -114,22 +114,6 @@ DOMAIN-SUFFIX,github.community # GitHub 社区论坛
 # > GitHub Commerce Services（GitHub 官方商品商店）
 
 DOMAIN-SUFFIX,thegithubshop.com # GitHub 官方商店
-
-# > GitHub Official Network IPv4（GitHub IPv4 官方网络节点）
-# - 数据来源：https://api.github.com/meta
-# - 校对时间：2026-05-28
-
-# IP-CIDR,192.30.252.0/22 # GitHub 官方网络段
-# IP-CIDR,185.199.108.0/22 # GitHub Pages 与 CDN 网络
-# IP-CIDR,140.82.112.0/20 # GitHub Edge 网络节点
-# IP-CIDR,143.55.64.0/20 # GitHub 平台基础设施网络
-
-# > GitHub Official Network IPv6（GitHub IPv6 官方网络节点）
-# - 数据来源：https://api.github.com/meta
-# - 校对时间：2026-05-28
-
-# IP-CIDR6,2a0a:a440::/29 # GitHub IPv6 网络段
-# IP-CIDR6,2606:50c0::/32 # GitHub Pages IPv6 网络
 
 # > GitHub Telemetry and Analytics Services（GitHub 遥测与分析服务）
 # - 校对时间：2026-05-29
