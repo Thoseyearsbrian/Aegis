@@ -294,13 +294,11 @@ DOMAIN-SUFFIX,p-fmip.icloud.com # Find My iPhone 推送接口
 DOMAIN-SUFFIX,fmfmobile.icloud.com # Find My Friends 移动接口
 DOMAIN-SUFFIX,findmyfriends.icloud.com # Apple 查找朋友服务
 
-# > Apple Push Infrastructure（Apple 推送网络基础设施）
+# > Apple Push Notification Service（Apple 推送通知服务）
+# - 校对时间：2026-07-21
 
-DOMAIN-SUFFIX,push-apple.com # Apple Push 兼容备用域（历史）
-
-# > Apple Push Services（Apple 推送服务）
-
-DOMAIN-SUFFIX,push.apple.com # Apple 推送主域名
+DOMAIN-SUFFIX,push.apple.com # Apple Push 主域名
+DOMAIN-SUFFIX,push-apple.com # Apple Push 历史兼容备用域
 DOMAIN-SUFFIX,push.apple.com.cdn-apple.com # Apple Push CDN 入口
 DOMAIN-SUFFIX,api.push.apple.com # Apple Push API
 DOMAIN-SUFFIX,registration.push.apple.com # Apple Push 设备注册服务
