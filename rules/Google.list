@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-09
-# - 校对时间：2026-07-09
+# - 更新时间：2026-07-21
+# - 校对时间：2026-07-21
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 # - 校对时间：2026-05-09
@@ -220,127 +220,6 @@ DOMAIN-SUFFIX,gfiber.speedtestcustom.com # GFiber 定制测速服务域名
 
 IP-CIDR,74.125.0.0/16 # Google Mail 发送网络（SPF）
 IP-CIDR,209.85.128.0/17 # Google Mail 发送网络（SPF）
-
-# > Google Network IPv4（Google 官方 IPv4 网络段）
-# - 数据来源：https://www.gstatic.com/ipranges/goog.json
-# - 校对时间：2026-05-28
-
-# IP-CIDR,8.8.4.0/24 # Google 官方 IPv4 网络段
-# IP-CIDR,8.8.8.0/24 # Google 官方 IPv4 网络段
-# IP-CIDR,8.34.208.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,8.35.192.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,8.228.0.0/14 # Google 官方 IPv4 网络段
-# IP-CIDR,8.232.0.0/14 # Google 官方 IPv4 网络段
-# IP-CIDR,8.236.0.0/15 # Google 官方 IPv4 网络段
-# IP-CIDR,23.236.48.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,23.251.128.0/19 # Google 官方 IPv4 网络段
-# IP-CIDR,34.0.0.0/15 # Google 官方 IPv4 网络段
-# IP-CIDR,34.2.0.0/16 # Google 官方 IPv4 网络段
-# IP-CIDR,34.3.0.0/23 # Google 官方 IPv4 网络段
-# IP-CIDR,34.3.3.0/24 # Google 官方 IPv4 网络段
-# IP-CIDR,34.3.4.0/24 # Google 官方 IPv4 网络段
-# IP-CIDR,34.3.8.0/21 # Google 官方 IPv4 网络段
-# IP-CIDR,34.3.16.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,34.3.32.0/19 # Google 官方 IPv4 网络段
-# IP-CIDR,34.3.64.0/18 # Google 官方 IPv4 网络段
-# IP-CIDR,34.4.0.0/14 # Google 官方 IPv4 网络段
-# IP-CIDR,34.8.0.0/13 # Google 官方 IPv4 网络段
-# IP-CIDR,34.16.0.0/12 # Google 官方 IPv4 网络段
-# IP-CIDR,34.32.0.0/11 # Google 官方 IPv4 网络段
-# IP-CIDR,34.64.0.0/10 # Google 官方 IPv4 网络段
-# IP-CIDR,34.128.0.0/10 # Google 官方 IPv4 网络段
-# IP-CIDR,35.184.0.0/13 # Google 官方 IPv4 网络段
-# IP-CIDR,35.192.0.0/14 # Google 官方 IPv4 网络段
-# IP-CIDR,35.196.0.0/15 # Google 官方 IPv4 网络段
-# IP-CIDR,35.198.0.0/16 # Google 官方 IPv4 网络段
-# IP-CIDR,35.199.0.0/17 # Google 官方 IPv4 网络段
-# IP-CIDR,35.199.128.0/18 # Google 官方 IPv4 网络段
-# IP-CIDR,35.200.0.0/13 # Google 官方 IPv4 网络段
-# IP-CIDR,35.208.0.0/12 # Google 官方 IPv4 网络段
-# IP-CIDR,35.224.0.0/12 # Google 官方 IPv4 网络段
-# IP-CIDR,35.240.0.0/13 # Google 官方 IPv4 网络段
-# IP-CIDR,35.252.0.0/14 # Google 官方 IPv4 网络段
-# IP-CIDR,64.15.112.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,64.233.160.0/19 # Google 官方 IPv4 网络段
-# IP-CIDR,66.102.0.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,66.249.64.0/19 # Google 官方 IPv4 网络段
-# IP-CIDR,70.32.128.0/19 # Google 官方 IPv4 网络段
-# IP-CIDR,72.14.192.0/18 # Google 官方 IPv4 网络段
-# IP-CIDR,74.114.24.0/21 # Google 官方 IPv4 网络段
-# IP-CIDR,74.125.0.0/16 # Google 官方 IPv4 网络段
-# IP-CIDR,104.154.0.0/15 # Google 官方 IPv4 网络段
-# IP-CIDR,104.196.0.0/14 # Google 官方 IPv4 网络段
-# IP-CIDR,104.237.160.0/19 # Google 官方 IPv4 网络段
-# IP-CIDR,107.167.160.0/19 # Google 官方 IPv4 网络段
-# IP-CIDR,107.178.192.0/18 # Google 官方 IPv4 网络段
-# IP-CIDR,108.59.80.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,108.170.192.0/18 # Google 官方 IPv4 网络段
-# IP-CIDR,108.177.0.0/17 # Google 官方 IPv4 网络段
-# IP-CIDR,130.211.0.0/16 # Google 官方 IPv4 网络段
-# IP-CIDR,136.22.2.0/23 # Google 官方 IPv4 网络段
-# IP-CIDR,136.22.4.0/23 # Google 官方 IPv4 网络段
-# IP-CIDR,136.22.8.0/22 # Google 官方 IPv4 网络段
-# IP-CIDR,136.22.160.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,136.22.176.0/21 # Google 官方 IPv4 网络段
-# IP-CIDR,136.22.184.0/23 # Google 官方 IPv4 网络段
-# IP-CIDR,136.22.186.0/24 # Google 官方 IPv4 网络段
-# IP-CIDR,136.23.48.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,136.23.64.0/18 # Google 官方 IPv4 网络段
-# IP-CIDR,136.64.0.0/11 # Google 官方 IPv4 网络段
-# IP-CIDR,136.107.0.0/16 # Google 官方 IPv4 网络段
-# IP-CIDR,136.108.0.0/14 # Google 官方 IPv4 网络段
-# IP-CIDR,136.112.0.0/13 # Google 官方 IPv4 网络段
-# IP-CIDR,136.120.0.0/22 # Google 官方 IPv4 网络段
-# IP-CIDR,136.124.0.0/15 # Google 官方 IPv4 网络段
-# IP-CIDR,142.250.0.0/15 # Google 官方 IPv4 网络段
-# IP-CIDR,146.148.0.0/17 # Google 官方 IPv4 网络段
-# IP-CIDR,162.120.128.0/17 # Google 官方 IPv4 网络段
-# IP-CIDR,162.216.148.0/22 # Google 官方 IPv4 网络段
-# IP-CIDR,162.222.176.0/21 # Google 官方 IPv4 网络段
-# IP-CIDR,172.110.32.0/21 # Google 官方 IPv4 网络段
-# IP-CIDR,172.217.0.0/16 # Google 官方 IPv4 网络段
-# IP-CIDR,172.253.0.0/16 # Google 官方 IPv4 网络段
-# IP-CIDR,173.194.0.0/16 # Google 官方 IPv4 网络段
-# IP-CIDR,173.255.112.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,192.104.160.0/23 # Google 官方 IPv4 网络段
-# IP-CIDR,192.158.28.0/22 # Google 官方 IPv4 网络段
-# IP-CIDR,192.178.0.0/15 # Google 官方 IPv4 网络段
-# IP-CIDR,193.186.4.0/24 # Google 官方 IPv4 网络段
-# IP-CIDR,199.36.154.0/23 # Google 官方 IPv4 网络段
-# IP-CIDR,199.36.156.0/24 # Google 官方 IPv4 网络段
-# IP-CIDR,199.192.112.0/22 # Google 官方 IPv4 网络段
-# IP-CIDR,199.223.232.0/21 # Google 官方 IPv4 网络段
-# IP-CIDR,207.175.0.0/16 # Google 官方 IPv4 网络段
-# IP-CIDR,207.223.160.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,208.65.152.0/22 # Google 官方 IPv4 网络段
-# IP-CIDR,208.68.108.0/22 # Google 官方 IPv4 网络段
-# IP-CIDR,208.81.188.0/22 # Google 官方 IPv4 网络段
-# IP-CIDR,208.117.224.0/19 # Google 官方 IPv4 网络段
-# IP-CIDR,209.85.128.0/17 # Google 官方 IPv4 网络段
-# IP-CIDR,216.58.192.0/19 # Google 官方 IPv4 网络段
-# IP-CIDR,216.73.80.0/20 # Google 官方 IPv4 网络段
-# IP-CIDR,216.239.32.0/19 # Google 官方 IPv4 网络段
-# IP-CIDR,216.252.220.0/22 # Google 官方 IPv4 网络段
-
-# > Google Network IPv6（Google 官方 IPv6 网络段）
-# - 数据来源：https://www.gstatic.com/ipranges/goog.json
-# - 校对时间：2026-05-28
-
-# IP-CIDR6,2001:4860::/32 # Google 官方 IPv6 网络段
-# IP-CIDR6,2404:6800::/32 # Google 官方 IPv6 网络段
-# IP-CIDR6,2404:f340::/32 # Google 官方 IPv6 网络段
-# IP-CIDR6,2600:1900::/28 # Google 官方 IPv6 网络段
-# IP-CIDR6,2605:ef80::/32 # Google 官方 IPv6 网络段
-# IP-CIDR6,2606:40::/32 # Google 官方 IPv6 网络段
-# IP-CIDR6,2606:73c0::/32 # Google 官方 IPv6 网络段
-# IP-CIDR6,2607:1c0:241:40::/60 # Google 官方 IPv6 网络段
-# IP-CIDR6,2607:1c0:300::/40 # Google 官方 IPv6 网络段
-# IP-CIDR6,2607:f8b0::/32 # Google 官方 IPv6 网络段
-# IP-CIDR6,2620:11a:a000::/40 # Google 官方 IPv6 网络段
-# IP-CIDR6,2620:120:e000::/40 # Google 官方 IPv6 网络段
-# IP-CIDR6,2800:3f0::/32 # Google 官方 IPv6 网络段
-# IP-CIDR6,2a00:1450::/32 # Google 官方 IPv6 网络段
-# IP-CIDR6,2c0f:fb50::/32 # Google 官方 IPv6 网络段
 
 # > Google Advertising Services（Google 广告与营销服务）
 # - 校对时间：2026-07-09
