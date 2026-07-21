@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-20
-# - 校对时间：2026-07-20
+# - 更新时间：2026-07-21
+# - 校对时间：2026-07-21
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -39,38 +39,6 @@ DOMAIN-SUFFIX,support-chat.cloudflare.dev # Cloudflare 支持聊天服务域名
 
 IP-CIDR,1.1.1.1/32 # Cloudflare 公共 DNS 服务地址
 IP-CIDR,1.0.0.1/32 # Cloudflare 公共 DNS 备用地址
-
-# > Cloudflare Edge Network（Cloudflare 边缘网络节点）
-# - 数据来源：https://www.cloudflare.com/zh-cn/ips
-# - 校对时间：2026-05-28
-
-# > Cloudflare Edge Network IPv4（Cloudflare IPv4 边缘网络节点）
-
-# IP-CIDR,103.21.244.0/22 # Cloudflare 边缘网络节点
-# IP-CIDR,103.22.200.0/22 # Cloudflare 边缘网络节点
-# IP-CIDR,103.31.4.0/22 # Cloudflare 边缘网络节点
-# IP-CIDR,104.16.0.0/13 # Cloudflare 边缘网络节点
-# IP-CIDR,104.24.0.0/14 # Cloudflare 边缘网络节点
-# IP-CIDR,108.162.192.0/18 # Cloudflare 边缘网络节点
-# IP-CIDR,131.0.72.0/22 # Cloudflare 边缘网络节点
-# IP-CIDR,141.101.64.0/18 # Cloudflare 边缘网络节点
-# IP-CIDR,162.158.0.0/15 # Cloudflare 边缘网络节点
-# IP-CIDR,172.64.0.0/13 # Cloudflare 边缘网络节点
-# IP-CIDR,173.245.48.0/20 # Cloudflare 边缘网络节点
-# IP-CIDR,188.114.96.0/20 # Cloudflare 边缘网络节点
-# IP-CIDR,190.93.240.0/20 # Cloudflare 边缘网络节点
-# IP-CIDR,197.234.240.0/22 # Cloudflare 边缘网络节点
-# IP-CIDR,198.41.128.0/17 # Cloudflare 边缘网络节点
-
-# > Cloudflare Edge Network IPv6（Cloudflare IPv6 边缘网络节点）
-
-# IP-CIDR6,2400:cb00::/32 # Cloudflare IPv6 边缘网络
-# IP-CIDR6,2606:4700::/32 # Cloudflare IPv6 边缘网络
-# IP-CIDR6,2803:f800::/32 # Cloudflare IPv6 边缘网络
-# IP-CIDR6,2405:b500::/32 # Cloudflare IPv6 边缘网络
-# IP-CIDR6,2405:8100::/32 # Cloudflare IPv6 边缘网络
-# IP-CIDR6,2a06:98c0::/29 # Cloudflare IPv6 边缘网络
-# IP-CIDR6,2c0f:f248::/32 # Cloudflare IPv6 边缘网络
 
 # > Speedtest by Ookla（Speedtest 网络测速平台）
 # - 校对时间：2026-07-16
@@ -731,7 +699,7 @@ DOMAIN-SUFFIX,api.tacobell.com # API 接口域名
 
 # > PayPal Payment Platform（PayPal 支付平台）
 # - 数据来源：https://www.paypal.com/us/cshelp/article/¿cuáles-son-las-direcciones-de-internet-protocol-ip-protocolo-de-internet-para-los-puntos-de-conexión-de-servidor-de-paypal-ts1056?locale.x=es_US
-# - 校对时间：2026-04-23
+# - 校对时间：2026-07-21
 
 DOMAIN-SUFFIX,paypal.com # 平台主域名
 DOMAIN-SUFFIX,paypalobjects.com # 静态资源域名
@@ -770,14 +738,8 @@ DOMAIN-SUFFIX,pilot-payflowpro.paypal.com # Sandbox Payflow Pro 支付端点
 DOMAIN-SUFFIX,pilot-payflowlink.paypal.com # Sandbox Payflow Link 支付端点
 DOMAIN-SUFFIX,payments-reports.paypal.com # Sandbox 支付报表测试端点
 DOMAIN-SUFFIX,ipn.sandbox.paypal.com # Sandbox IPN 通知端点
-IP-CIDR,64.4.240.0/21 # PayPal 官方 IP 网络段
-IP-CIDR,66.211.160.0/19 # PayPal 官方 IP 网络段
-IP-CIDR,173.0.80.0/20 # PayPal 官方 IP 网络段
-IP-CIDR,91.243.72.0/22 # PayPal 官方 IP 网络段
-IP-CIDR,173.0.80.0/20 # PayPal 官方 IP 网络段
-IP-CIDR,185.177.52.0/22 # PayPal 官方 IP 网络段
-IP-CIDR,192.160.215.0/24 # PayPal 官方 IP 网络段
-IP-CIDR,198.54.216.0/23 # PayPal 官方 IP 网络段
+DOMAIN-SUFFIX,hyperwallet.com # PayPal 批量付款与全球资金分发平台
+DOMAIN-SUFFIX,paylution.com # PayPal 批量支付结算系统前端与工具服务
 
 # > Canva Design Platform（Canva 设计平台）
 # - 校对时间：2026-04-23
@@ -1022,7 +984,7 @@ DOMAIN-SUFFIX,dunkin.app.link # 应用跳转域名
 DOMAIN-SUFFIX,dunkinrewards.com # 会员服务域名
 
 # > ESPN Platform（ESPN 体育媒体平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-07-21
 
 DOMAIN-SUFFIX,espn.com # 平台主域名
 DOMAIN-SUFFIX,secure.espn.com # 登录服务域名
@@ -1033,7 +995,6 @@ DOMAIN-SUFFIX,espn.net # 服务域名
 DOMAIN-SUFFIX,espnplus.com # 订阅服务域名
 DOMAIN-SUFFIX,espn.go.com # 历史服务域名
 DOMAIN-SUFFIX,bamgrid.com # 播放服务域名
-IP-CIDR,199.181.132.0/22 # ESPN 网络段
 
 # > Waze Navigation Platform（Waze 导航平台）
 # - 校对时间：2026-03-28
@@ -1761,7 +1722,6 @@ DOMAIN-SUFFIX,ttvnw.net # 媒体资源域名
 DOMAIN-SUFFIX,jtvnw.net # 兼容资源域名
 DOMAIN-SUFFIX,twitchcdn.net # 资源分发域名
 DOMAIN-SUFFIX,ext-twitch.tv # 扩展服务域名
-IP-CIDR,52.223.192.0/18 # Twitch 网络段
 
 # > Dropbox Cloud Storage Platform（Dropbox 云存储平台）
 # - 校对时间：2026-03-28
@@ -4928,7 +4888,7 @@ DOMAIN-SUFFIX,virscan.org # 平台主域名
 DOMAIN-SUFFIX,static.geetest.com # 静态资源域名
 
 # > ASUS Device and Account Services（ASUS 设备与账户服务）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-07-21
 
 DOMAIN-SUFFIX,asus.com # 官网主域名
 DOMAIN-SUFFIX,account.asus.com # 账户域名
@@ -4939,7 +4899,6 @@ DOMAIN-SUFFIX,liveupdate01.asus.com.edgekey.net # 更新加速域名
 DOMAIN-SUFFIX,asushwidsupport.asus.com # 支持域名
 DOMAIN-SUFFIX,openvpn.asus.com # VPN 服务域名
 DOMAIN-SUFFIX,router.asus.com # 路由器管理域名
-IP-CIDR,103.10.4.0/24 # 服务网段（asus.com）
 
 # > Monotype Service（Monotype 字体资源与服务）
 # - 校对时间：2026-03-28
@@ -9721,12 +9680,6 @@ DOMAIN-SUFFIX,kaptcha.com # CAPTCHA 验证与反机器人安全服务域名
 
 DOMAIN-SUFFIX,workaway.info # 全球文化交换与志愿者换宿平台（食宿交换型旅行平台）
 DOMAIN-SUFFIX,helpx.net # 全球文化交换与志愿者换宿平台（食宿交换型旅行平台）
-
-# > Payment Payout Infrastructure（支付批量分发基础设施）
-# - 校对时间：2026-07-06
-
-DOMAIN-SUFFIX,hyperwallet.com # PayPal 批量付款与全球资金分发平台
-DOMAIN-SUFFIX,paylution.com # PayPal 批量支付结算系统前端与工具服务
 
 # > HR Tech & Talent Intelligence Platforms（人力资源与人才智能平台）
 # - 更新时间：2026-07-06
