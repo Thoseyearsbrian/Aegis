@@ -312,7 +312,10 @@ DOMAIN-SUFFIX,47-courier.push.apple.com # Apple Push Courier 节点
 DOMAIN-SUFFIX,48-courier.push.apple.com # Apple Push Courier 节点
 DOMAIN-SUFFIX,gateway.push.apple.com # 推送通信网关
 DOMAIN-SUFFIX,init.push.apple.com # 初始推送配置服务
-DOMAIN-SUFFIX,2-courier.push.apple.com # 推送通知服务子域
+DOMAIN-SUFFIX,push-token.apple.com # Apple Push 设备令牌服务
+DOMAIN-SUFFIX,push-auth.apple.com # Apple Push 身份验证服务
+DOMAIN-SUFFIX,push-id.apple.com # Apple Push 设备标识服务
+DOMAIN-SUFFIX,push-device.apple.com # Apple Push 设备注册服务
 DOMAIN-SUFFIX,push-edge.apple.com # Apple Push 边缘节点
 DOMAIN-SUFFIX,push-gateway.apple.com # Apple Push 网关节点
 DOMAIN-SUFFIX,push-routing.apple.com # Apple Push 路由服务
@@ -326,16 +329,6 @@ DOMAIN-SUFFIX,push-geo.apple.com # Apple Push 地理路由服务
 DOMAIN-SUFFIX,push-edge-cdn.apple.com # Apple Push CDN 边缘接入节点
 DOMAIN-SUFFIX,push-router.apple.com # Apple Push 路由控制服务
 DOMAIN-SUFFIX,push-edge-routing.apple.com # Apple Push 边缘路由节点
-
-# > APNs Device Registration / Token Infrastructure（Apple 推送设备注册与令牌服务）
-
-DOMAIN-SUFFIX,push-token.apple.com # Apple Push 设备令牌服务
-DOMAIN-SUFFIX,push-auth.apple.com # Apple Push 身份验证服务
-DOMAIN-SUFFIX,push-id.apple.com # Apple Push 设备标识服务
-DOMAIN-SUFFIX,push-device.apple.com # Apple Push 设备注册服务
-
-# > APNs Legacy / Compatibility Layer（Apple Push 兼容层与旧版路由）
-
 DOMAIN-SUFFIX,push.apple.com.edgesuite.net # Apple Push CDN 兼容分发节点（Akamai）
 DOMAIN-SUFFIX,push.apple.com.edgekey.net # Apple Push CDN 边缘入口（Akamai）
 DOMAIN-SUFFIX,push.apple.com.akadns.net # Apple Push DNS 调度节点（Akamai）
