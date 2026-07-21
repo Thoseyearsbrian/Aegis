@@ -4,8 +4,8 @@
 # - 特征：涵盖 Steam、Epic、PlayStation、Nintendo 等主流游戏平台与相关服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-05-11
-# - 校对时间：2026-05-11
+# - 更新时间：2026-07-21
+# - 校对时间：2026-07-21
 
 # > Tencent Games Common Services（腾讯游戏通用服务）
 # - 校对时间：2026-05-11
@@ -131,40 +131,12 @@ DOMAIN-SUFFIX,mailbox.g.mkey.163.com # 梦幻西游邮件服务域名
 DOMAIN-SUFFIX,skyshow.res.queniukx.cn # 梦幻西游相关资源域名
 IP-CIDR,45.253.137.97/32 # 梦幻西游相关服务节点
 
-# > NetEase Game Network IPv4（网易游戏相关 IPv4 网络段）
-# - 数据来源：https://ipinfo.io/AS45062
-# - 辅助校验：https://bgp.tools/as/45062
-# - 校对时间：2026-04-13
-
-IP-CIDR,42.186.0.0/17 # 网易官方 IPv4 网络段
-IP-CIDR,42.186.128.0/17 # 网易官方 IPv4 网络段
-IP-CIDR,45.253.176.0/20 # 网易官方 IPv4 网络段
-IP-CIDR,103.71.201.0/24 # 网易官方 IPv4 网络段
-
 # > QQ Speed Mobile Services（QQ飞车移动端游戏服务）
 # - 校对时间：2026-04-13
 
 DOMAIN-SUFFIX,download.3.366423425.tc.gcloudgbs.com # QQ飞车移动端游戏资源分发域名
 DOMAIN-SUFFIX,qsm-30034.sz.gfp.tencent-cloud.com # QQ飞车移动端游戏记录资源域名
 DOMAIN-SUFFIX,access1.tpns.tencent.com # 腾讯推送服务接入域名
-
-# > Tencent Game-Related IPv4（腾讯游戏相关 IPv4 网络段）
-# - 数据来源：https://ipinfo.io/AS45090
-# - 辅助校验：https://bgp.tools/as/45090
-# - 校对时间：2026-04-13
-
-IP-CIDR,1.12.0.0/14 # 腾讯游戏相关 IPv4 网络段
-IP-CIDR,43.148.0.0/14 # 腾讯游戏相关 IPv4 网络段
-IP-CIDR,43.176.0.0/12 # 腾讯游戏相关 IPv4 网络段
-IP-CIDR,49.232.0.0/14 # 腾讯游戏相关 IPv4 网络段
-IP-CIDR,94.191.0.0/20 # 腾讯游戏相关 IPv4 网络段
-IP-CIDR,101.34.64.0/18 # 腾讯游戏相关 IPv4 网络段
-IP-CIDR,118.24.64.0/22 # 腾讯游戏相关 IPv4 网络段
-IP-CIDR,121.51.68.0/23 # 腾讯游戏相关 IPv4 网络段
-IP-CIDR,121.51.70.0/23 # 腾讯游戏相关 IPv4 网络段
-IP-CIDR,121.51.72.0/23 # 腾讯游戏相关 IPv4 网络段
-IP-CIDR,121.51.80.0/22 # 腾讯游戏相关 IPv4 网络段
-IP-CIDR,139.155.0.0/16 # 腾讯游戏相关 IPv4 网络段
 
 # > Steam Platform（Steam 平台）
 # - 校对时间：2026-03-30
