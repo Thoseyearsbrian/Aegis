@@ -295,7 +295,6 @@ DOMAIN-SUFFIX,fmfmobile.icloud.com # Find My Friends 移动接口
 DOMAIN-SUFFIX,findmyfriends.icloud.com # Apple 查找朋友服务
 
 # > Apple Push Notification Service（Apple 推送通知服务）
-# - 校对时间：2026-07-21
 
 DOMAIN-SUFFIX,push.apple.com # Apple Push 主域名
 DOMAIN-SUFFIX,push-apple.com # Apple Push 历史兼容备用域
@@ -306,6 +305,7 @@ DOMAIN-SUFFIX,feedback.push.apple.com # Apple Push 反馈服务
 DOMAIN-SUFFIX,courier.push.apple.com # Apple Push 中继节点
 DOMAIN-SUFFIX,18-courier.push.apple.com # Apple Push Courier 节点
 DOMAIN-SUFFIX,37-courier.push.apple.com # Apple Push Courier 节点
+DOMAIN-SUFFIX,39-courier.push.apple.com # Apple Push Courier 节点
 DOMAIN-SUFFIX,42-courier.push.apple.com # Apple Push Courier 节点
 DOMAIN-SUFFIX,45-courier.push.apple.com # Apple Push Courier 节点
 DOMAIN-SUFFIX,47-courier.push.apple.com # Apple Push Courier 节点
