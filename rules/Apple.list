@@ -123,17 +123,10 @@ DOMAIN-SUFFIX,init.ess.apple.com # Apple 设备安全服务（ESS）初始化接
 DOMAIN-SUFFIX,identity.ess.apple.com # Apple 设备与账户身份确认服务（ESS）
 DOMAIN-SUFFIX,register.appattest.apple.com # Apple App Attest 注册服务
 
-# > Apple Captive Portal China Nodes（Apple 强制门户中国连接检测节点）
-# - 校对时间：2026-04-29
+# > Apple Captive Portal（Apple 强制门户）
+# - 校对时间：2026-07-21
 
-IP-CIDR,58.215.50.244/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
-IP-CIDR,59.52.142.11/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
-IP-CIDR,61.131.131.63/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
-IP-CIDR,106.227.101.208/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
-IP-CIDR,120.39.195.214/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
-IP-CIDR,120.39.195.242/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
-IP-CIDR,121.204.250.29/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
-IP-CIDR,125.77.141.141/32 # Apple 强制门户中国连接检测节点（captive.apple.com）
+DOMAIN-SUFFIX,captive.apple.com # Apple 网络连通性检测服务
 
 # > Apple Captive Portal Legacy Detection（Apple 历史门户认证检测域名）
 
