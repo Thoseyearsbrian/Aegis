@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-20
-# - 校对时间：2026-07-20
+# - 更新时间：2026-07-23
+# - 校对时间：2026-07-23
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
@@ -2758,6 +2758,11 @@ DOMAIN-SUFFIX,noisedh.cn # NOISE导航综合类网址导航主域名
 
 DOMAIN-SUFFIX,10jqka.com.cn # 同花顺官方主域名，提供金融数据、行情与证券服务
 DOMAIN-SUFFIX,cnapm.hexin.cn # 同花顺云服务与应用性能监控服务域名
+
+# > FaceU Content Delivery Service（FaceU 内容分发服务）
+# - 校对时间：2026-07-23
+
+DOMAIN-SUFFIX,faceu.com # FaceU 官方内容分发与资源服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
