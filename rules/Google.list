@@ -68,6 +68,7 @@ DOMAIN-SUFFIX,learning.google # Google 官方学习与教育资源平台域名
 DOMAIN-SUFFIX,publicpolicy.google # Google 官方公共政策与技术政策平台域名
 DOMAIN-SUFFIX,sustainability.google # Google 官方可持续发展与环境项目平台域名
 DOMAIN-SUFFIX,labs.google # Google 官方实验项目域名
+DOMAIN-SUFFIX,safety.google # Google 官方安全中心与安全服务平台域名
 
 # > Google APIs & Backend Services（Google 后端接口服务）
 # - 校对时间：2026-05-10
