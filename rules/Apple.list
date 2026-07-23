@@ -5,8 +5,8 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-21
-# - 校对时间：2026-07-21
+# - 更新时间：2026-07-23
+# - 校对时间：2026-07-23
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -400,6 +400,8 @@ DOMAIN-SUFFIX,activation.edge.apple.com # Apple 激活边缘节点
 
 # > Apple System Update Infrastructure（Apple 系统更新基础设施）
 
+DOMAIN-SUFFIX,gdmf.apple.com # Apple GDMF 配置服务
+DOMAIN-SUFFIX,gdmf-ados.apple.com # Apple GDMF 策略服务
 DOMAIN-SUFFIX,swquery.apple.com # Apple 软件更新查询接口
 DOMAIN-SUFFIX,swscan.apple.com # Apple 系统更新索引服务
 DOMAIN-SUFFIX,swdist.apple.com # Apple 系统软件分发服务
