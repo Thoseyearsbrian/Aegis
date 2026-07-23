@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-21
-# - 校对时间：2026-07-21
+# - 更新时间：2026-07-23
+# - 校对时间：2026-07-23
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-06-14
@@ -115,7 +115,7 @@ DOMAIN-SUFFIX,assets.anthropic.com # Anthropic 静态资源服务
 DOMAIN-SUFFIX,cdn.anthropic.com # Anthropic 内容分发网络
 
 # > Gemini / Bard（Google 生成式 AI 平台）
-# - 校对时间：2026-03-10
+# - 校对时间：2026-07-23
 
 DOMAIN-SUFFIX,gemini.google.com # Google Gemini Web 服务入口
 DOMAIN-SUFFIX,bard.google.com # Google Bard 历史入口域名
@@ -126,6 +126,7 @@ DOMAIN-SUFFIX,makersuite.google.com # Google MakerSuite 开发工具
 DOMAIN-SUFFIX,ai.googleblog.com # Google AI 官方技术博客
 DOMAIN-SUFFIX,deepmind.google # Google DeepMind 官方域名
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com # Google AI Studio / MakerSuite 后端服务接口
+DOMAIN-SUFFIX,ai.google # Google 官方人工智能平台与研究服务域名
 
 # > Microsoft Copilot Platform（Microsoft 生成式 AI / Copilot 平台相关域名）
 # - 校对时间：2026-03-11
