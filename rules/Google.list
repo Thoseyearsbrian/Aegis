@@ -61,6 +61,7 @@ DOMAIN-SUFFIX,googledomains.com # Google Domains 历史官网入口
 DOMAIN-SUFFIX,about.google # Google 官方品牌介绍与企业信息服务
 DOMAIN-SUFFIX,blog.google # Google 官方博客与资讯服务域名
 DOMAIN-SUFFIX,belonging.google # Google 官方品牌与社区项目服务域名
+DOMAIN-SUFFIX,crisisresponse.google # Google 官方危机响应与公益服务平台域名
 
 # > Google APIs & Backend Services（Google 后端接口服务）
 # - 校对时间：2026-05-10
