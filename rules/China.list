@@ -2760,6 +2760,9 @@ DOMAIN-SUFFIX,hexin.cn # 同花顺官方应用服务域名
 DOMAIN-SUFFIX,10jqka.com.cn # 同花顺官方主域名
 DOMAIN-SUFFIX,123ths.com # 同花顺客户端服务域名
 DOMAIN-SUFFIX,cnapm.hexin.cn # 同花顺云服务与应用性能监控服务域名
+DOMAIN-SUFFIX,abtest.10jqka.com.cn # 同花顺 A/B 测试服务域名
+DOMAIN-SUFFIX,hawkeye.10jqka.com.cn # 同花顺监控与分析服务域名
+DOMAIN-SUFFIX,cloud.10jqka.com.cn # 同花顺云服务域名
 IP-CIDR,8.132.233.59/32 # 同花顺客户端服务通信节点
 IP-CIDR,8.134.96.60/32 # 同花顺客户端服务通信节点
 IP-CIDR,8.134.108.105/32 # 同花顺客户端服务通信节点
