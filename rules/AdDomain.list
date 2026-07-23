@@ -9,6 +9,7 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,bidswitch.net # BidSwitch 程序化广告交易与竞价服务域名
 DOMAIN-SUFFIX,admaster.cc # AdMaster 广告监测与效果分析服务域名
 DOMAIN-SUFFIX,creativecdn.com # RTB House 广告素材分发与追踪服务域名
 DOMAIN-SUFFIX,analytics.pangle-ads.com # Pangle 广告分析与效果追踪服务域名
