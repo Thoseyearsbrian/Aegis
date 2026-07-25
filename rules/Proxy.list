@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-23
-# - 校对时间：2026-07-23
+# - 更新时间：2026-07-25
+# - 校对时间：2026-07-25
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -9782,6 +9782,11 @@ DOMAIN-SUFFIX,vectcut.com # VectCut 官方文档与资源服务域名
 # - 更新时间：2026-07-23
 
 DOMAIN-SUFFIX,cside.com # cside 官方安全分析与脚本目录服务域名
+
+# > Video Copilot Motion Design & Visual Effects Platform（Video Copilot 动效设计与视觉特效平台）
+# - 更新时间：2026-07-25
+
+DOMAIN-SUFFIX,videocopilot.net # Video Copilot 官方动效设计、视觉特效与创作资源平台主域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
