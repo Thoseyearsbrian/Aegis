@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-25
-# - 校对时间：2026-07-25
+# - 更新时间：2026-07-26
+# - 校对时间：2026-07-26
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-06-03
@@ -9807,6 +9807,11 @@ DOMAIN-SUFFIX,mixkit.co # Mixkit 官方免费视频、音效、音乐与创意�
 # - 更新时间：2026-07-25
 
 DOMAIN-SUFFIX,videoeditingsfx.com # Video Editing SFX 官方视频剪辑音效与创意音效资源平台主域名
+
+# > CreatorMix Creative Assets Platform（CreatorMix 创意资源平台）
+# - 更新时间：2026-07-26
+
+DOMAIN-SUFFIX,creatormix.com # CreatorMix 官方免版权音乐、音效与创意素材资源平台主域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
