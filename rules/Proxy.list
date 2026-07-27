@@ -9835,6 +9835,24 @@ DOMAIN-SUFFIX,iperf.fr # iPerf 官方网络测速工具、测试节点与性能�
 DOMAIN-SUFFIX,budman.pw # iPerf3 Windows 编译版本与二进制文件分发服务域名
 DOMAIN-SUFFIX,lafibre.info # LaFibre.info 网络技术社区与 iPerf 测试资源服务域名
 
+# > iPerf Public Test Servers（iPerf 公共测试服务器）
+# - 校对时间：2026-07-27
+
+DOMAIN-SUFFIX,online.net # Scaleway 官方网络测试节点服务域名
+DOMAIN-SUFFIX,moji.fr # Moji iPerf3 公共测试服务器域名
+DOMAIN-SUFFIX,milkywan.fr # MilkyWan 网络测试服务域名
+DOMAIN-SUFFIX,bytel.fr # Bouygues Telecom iPerf3 测试节点服务域名
+DOMAIN-SUFFIX,serverius.net # Serverius 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,014.fr # 014.fr 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,eenet.ee # EENet 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,astra.in.ua # Astra Lviv 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,volia.net # Volia 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,angolacables.co.ao # Angola Cables 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,uztelecom.uz # Uztelecom 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,biznetnetworks.com # Biznet Networks 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,vetta.online # Vetta Online 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,he.net # Hurricane Electric 公共 iPerf3 测试服务器域名
+
 # > 2ip Network Information Service（2ip 网络信息查询服务）
 # - 更新时间：2026-07-27
 
