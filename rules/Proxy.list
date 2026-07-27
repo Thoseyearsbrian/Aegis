@@ -9828,9 +9828,10 @@ DOMAIN-SUFFIX,opnsense.org # OPNsense 官方开源防火墙、路由与网络安
 DOMAIN-SUFFIX,shop.opnsense.com # OPNsense 官方商城与硬件设备购买服务域名
 
 # > iPerf Network Performance Testing Platform（iPerf 网络性能测试平台）
-# - 更新时间：2026-07-27
+# - 校对时间：2026-07-27
 
 DOMAIN-SUFFIX,iperf.fr # iPerf 官方网络测速工具、测试节点与性能评估资源平台主域名
+DOMAIN-SUFFIX,budman.pw # iPerf3 Windows 编译版本与二进制文件分发服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
