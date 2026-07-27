@@ -7214,7 +7214,7 @@ DOMAIN-SUFFIX,ocf.berkeley.edu # 加州大学伯克利分校 OCF（Open Computin
 DOMAIN-SUFFIX,mirrors.ocf.berkeley.edu # UC Berkeley OCF 公共开源软件镜像站
 
 # > Ubuntu Service（Ubuntu 官方网站与系统生态服务）
-# - 校对时间：2026-05-10
+# - 校对时间：2026-07-27
 
 DOMAIN-SUFFIX,ubuntu.com # Ubuntu 官方主域名
 DOMAIN-SUFFIX,assets.ubuntu.com # Ubuntu 官方静态资源域名
@@ -7227,6 +7227,7 @@ DOMAIN-SUFFIX,releases.ubuntu.com # Ubuntu 官方版本发布与更新信息站�
 DOMAIN-SUFFIX,ntp.ubuntu.com # Ubuntu 官方 NTP 时间同步服务
 DOMAIN-SUFFIX,connectivity-check.ubuntu.com # Ubuntu 网络连通性检测服务
 DOMAIN-SUFFIX,login.ubuntu.com # Canonical / Ubuntu 官方统一身份认证服务
+DOMAIN-SUFFIX,launchpad.net # Ubuntu 官方软件包、源代码与开发协作平台域名
 
 # > fwupd Linux Service（fwupd Linux 固件更新服务 CDN）
 # - 校对时间：2026-03-28
