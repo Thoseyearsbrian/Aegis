@@ -9821,6 +9821,11 @@ DOMAIN-SUFFIX,creatormix.com # CreatorMix 官方免版权音乐、音效与创�
 
 DOMAIN-SUFFIX,vidiq.com # vidIQ 官方 YouTube 数据分析、SEO 优化与频道增长工具平台主域名
 
+# > OPNsense Open Source Firewall Platform（OPNsense 开源防火墙平台）
+# - 更新时间：2026-07-27
+
+DOMAIN-SUFFIX,opnsense.org # OPNsense 官方开源防火墙、路由与网络安全平台主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
