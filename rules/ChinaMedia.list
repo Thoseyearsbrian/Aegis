@@ -4,7 +4,8 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-28
+# - 更新时间：2026-07-27
+# - 校对时间：2026-07-27
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
 # - 校对时间：2026-06-28
@@ -849,7 +850,7 @@ IP-CIDR,119.45.249.168/32 # 小红书搜索服务节点（search.xiaohongshu.com
 IP-CIDR,180.112.45.148/32 # 小红书视频资源服务节点（sns-video-hs.xhscdn.com）
 
 # > Bilibili（哔哩哔哩）相关域名
-# - 校对时间：2026-03-22
+# - 校对时间：2026-07-27
 
 DOMAIN-SUFFIX,bilibili.com # Bilibili 主站域名
 DOMAIN-SUFFIX,hdslb.com # Bilibili 静态资源域名
@@ -874,6 +875,7 @@ DOMAIN-SUFFIX,biligame.com # Bilibili 游戏服务域名
 DOMAIN-SUFFIX,passport.biligame.com # Bilibili 游戏登录与认证服务域名
 DOMAIN-SUFFIX,chat.bilibili.com # Bilibili 实时聊天服务域名
 DOMAIN-SUFFIX,mountaintoys.cn # Bilibili 视频分发服务域名
+DOMAIN-SUFFIX,passport.bilibili.cn # Bilibili 官方账户登录与身份认证服务域名
 IP-CIDR,61.170.65.76/32 # Bilibili 静态资源服务节点（upos-sz-staticcos.bilivideo.com）
 IP-CIDR,117.44.77.5/32 # Bilibili 视频分发服务节点（upos-sz-mirrorcos.bilivideo.com）
 IP-CIDR,150.139.228.139/32 # Bilibili 视频分发服务节点（upos-sz-mirrorcos.bilivideo.com）
