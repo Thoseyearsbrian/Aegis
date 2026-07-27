@@ -9834,6 +9834,11 @@ DOMAIN-SUFFIX,shop.opnsense.com # OPNsense 官方商城与硬件设备购买服�
 DOMAIN-SUFFIX,iperf.fr # iPerf 官方网络测速工具、测试节点与性能评估资源平台主域名
 DOMAIN-SUFFIX,budman.pw # iPerf3 Windows 编译版本与二进制文件分发服务域名
 
+# > 2ip Network Information Service（2ip 网络信息查询服务）
+# - 更新时间：2026-07-27
+
+DOMAIN-SUFFIX,2ip.io # 2ip 官方 IP 地址、网络信息与安全检测查询服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
