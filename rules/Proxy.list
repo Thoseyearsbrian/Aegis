@@ -7837,11 +7837,12 @@ DOMAIN-SUFFIX,player.kaltura.com # Kaltura Web 播放器域名
 DOMAIN-SUFFIX,cfvod.kaltura.com # Kaltura 基于 CloudFront 的视频点播 CDN 节点
 
 # > Brightcove Video Platform（Brightcove 视频平台）
-# - 校对时间：2026-05-16
+# - 校对时间：2026-07-27
 
 DOMAIN-SUFFIX,brightcove.net # Brightcove 视频播放器与媒体分发服务主域名
 DOMAIN-SUFFIX,brightcove.com # Brightcove 官方平台主域名
 DOMAIN-SUFFIX,api.brightcove.com # Brightcove API 服务主域名
+DOMAIN-SUFFIX,boltdns.net # Brightcove 官方视频播放 CDN 与媒体清单服务域名
 
 # > THEOplayer Video Player Platform（THEOplayer 视频播放器平台）
 # - 校对时间：2026-06-13
