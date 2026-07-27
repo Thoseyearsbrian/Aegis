@@ -2754,6 +2754,11 @@ DOMAIN-SUFFIX,asm.asiainfo-sec.com # 亚信安全攻击面管理与安全服务�
 DOMAIN-SUFFIX,noisedh.cn # NOISE导航综合类网址导航主域名
 DOMAIN-SUFFIX,noisedh.link # NOISE导航综合类网址导航服务域名
 
+# > Injahow Media API Service（Injahow 媒体 API 服务）
+# - 更新时间：2026-07-27
+
+DOMAIN-SUFFIX,injahow.cn # Injahow 媒体 API、音乐解析与视频服务接口域名
+
 # > Hexin Securities Services（同花顺金融服务）
 # - 校对时间：2026-07-23
 
