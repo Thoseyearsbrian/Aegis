@@ -9838,10 +9838,11 @@ DOMAIN-SUFFIX,lafibre.info # LaFibre.info 网络技术社区与 iPerf 测试资�
 # > iPerf Public Test Servers（iPerf 公共测试服务器）
 # - 校对时间：2026-07-27
 
-DOMAIN-SUFFIX,online.net # Scaleway 官方网络测试节点服务域名
-DOMAIN-SUFFIX,moji.fr # Moji iPerf3 公共测试服务器域名
-DOMAIN-SUFFIX,milkywan.fr # MilkyWan 网络测试服务域名
-DOMAIN-SUFFIX,bytel.fr # Bouygues Telecom iPerf3 测试节点服务域名
+DOMAIN-SUFFIX,online.net # Scaleway 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,moji.fr # Moji 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,milkywan.fr # MilkyWan 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,as49434.net # Harmony Hosting 公共 iPerf3 测试服务器域名
+DOMAIN-SUFFIX,bytel.fr # Bouygues Telecom 公共 iPerf3 测试服务器域名
 DOMAIN-SUFFIX,serverius.net # Serverius 公共 iPerf3 测试服务器域名
 DOMAIN-SUFFIX,014.fr # 014.fr 公共 iPerf3 测试服务器域名
 DOMAIN-SUFFIX,eenet.ee # EENet 公共 iPerf3 测试服务器域名
