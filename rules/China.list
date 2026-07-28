@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-27
-# - 校对时间：2026-07-27
+# - 更新时间：2026-07-28
+# - 校对时间：2026-07-28
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
@@ -506,7 +506,7 @@ DOMAIN-SUFFIX,wap.tenpay.com # 财付通 WAP 支付域名
 DOMAIN-SUFFIX,qpay.qq.com # QQ 钱包服务域名
 
 # > AutoNavi / AMap（高德地图）相关域名
-# - 校对时间：2026-03-24
+# - 校对时间：2026-07-28
 
 DOMAIN-SUFFIX,amap.com # 高德地图主域名
 DOMAIN-SUFFIX,autonavi.com # 高德地图服务域名
@@ -529,6 +529,7 @@ DOMAIN-SUFFIX,qchannel01.cn # 高德内容分发域名
 DOMAIN-SUFFIX,cache.gaode.com # 高德缓存服务域名
 DOMAIN-SUFFIX,shift.is.autonavi.com # 高德调度服务域名
 DOMAIN-SUFFIX,fp.amap.com # 高德前端定位服务域名
+DOMAIN-SUFFIX,autonavi.com # 高德地图官方地图数据、导航与位置服务域名
 DOMAIN-SUFFIX,alog.umeng.com # 高德日志上报接口域名
 DOMAIN-SUFFIX,log.amap.com # 高德日志服务域名
 
