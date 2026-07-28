@@ -530,6 +530,7 @@ DOMAIN-SUFFIX,cache.gaode.com # 高德缓存服务域名
 DOMAIN-SUFFIX,shift.is.autonavi.com # 高德调度服务域名
 DOMAIN-SUFFIX,fp.amap.com # 高德前端定位服务域名
 DOMAIN-SUFFIX,autonavi.com # 高德地图官方地图数据、导航与位置服务域名
+DOMAIN-SUFFIX,mapdownload.autonavi.com # 高德地图离线地图数据下载服务域名
 DOMAIN-SUFFIX,alog.umeng.com # 高德日志上报接口域名
 DOMAIN-SUFFIX,log.amap.com # 高德日志服务域名
 
