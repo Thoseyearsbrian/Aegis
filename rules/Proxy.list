@@ -4,11 +4,11 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-26
-# - 校对时间：2026-07-26
+# - 更新时间：2026-07-28
+# - 校对时间：2026-07-28
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
-# - 校对时间：2026-06-03
+# - 校对时间：2026-07-28
 
 DOMAIN-SUFFIX,cloudflare.com # Cloudflare 官方主站
 DOMAIN-SUFFIX,cloudflare.net # Cloudflare 网络基础设施与核心服务域名
@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,embed.cloudflarestream.com # Cloudflare Stream 视频嵌入加载�
 DOMAIN-SUFFIX,speed.cloudflare.com # Cloudflare 网络测速服务
 DOMAIN-SUFFIX,cloudflareclient.com # Cloudflare WARP 与 Zero Trust 客户端服务
 DOMAIN-SUFFIX,support-chat.cloudflare.dev # Cloudflare 支持聊天服务域名
+DOMAIN-SUFFIX,cfapi.net # Cloudflare API 与身份认证服务域名
 
 # > Cloudflare Public DNS（Cloudflare 公共 DNS 服务）
 
