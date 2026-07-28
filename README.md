@@ -104,10 +104,6 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 - See [Aegis Wiki License](https://github.com/Thoseyearsbrian/Aegis/wiki/License)
 
-## Community Support
-
-- See [Aegis Wiki Community Support](https://github.com/Thoseyearsbrian/Aegis/wiki/Community-Support)
-
 ## FAQ
 
 - See [Aegis Wiki FAQ](https://github.com/Thoseyearsbrian/Aegis/wiki/FAQ)

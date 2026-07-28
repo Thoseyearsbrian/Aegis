@@ -96,10 +96,6 @@ Aegis (EN): https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/config/
 
 - 请参阅 [Aegis Wiki 版权声明](https://github.com/Thoseyearsbrian/Aegis/wiki/版权声明)
 
-## 社区支持
-
-- 请参阅 [Aegis Wiki 社区支持](https://github.com/Thoseyearsbrian/Aegis/wiki/社区支持)
-
 ## 常见问题
 
 - 请参阅 [Aegis Wiki 常见问题](https://github.com/Thoseyearsbrian/Aegis/wiki/常见问题)
