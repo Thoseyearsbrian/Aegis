@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-09
-# - 校对时间：2026-07-09
+# - 更新时间：2026-07-29
+# - 校对时间：2026-07-29
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -921,3 +921,8 @@ DOMAIN-SUFFIX,clicktale.net # ClickTale 用户行为分析与会话回放服务�
 # - 更新时间：2026-06-17
 
 DOMAIN-SUFFIX,lgrckt-in.com # LogRocket 会话回放与前端行为采集 CDN 域名
+
+# > Effirst Tracking Service（Effirst 数据分析与追踪服务）
+# - 更新时间：2026-07-29
+
+DOMAIN-SUFFIX,effirst.com # Effirst 网站分析、统计与用户行为追踪服务域名
