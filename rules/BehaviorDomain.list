@@ -931,3 +931,4 @@ DOMAIN-SUFFIX,effirst.com # Effirst 网站分析、统计与用户行为追踪�
 # - 更新时间：2026-07-30
 
 DOMAIN,js.hsadspixel.net # HubSpot Ads Pixel JavaScript 脚本加载与广告转化追踪服务域名
+DOMAIN,js.hs-analytics.net # HubSpot Analytics JavaScript 脚本加载与网站访问行为分析服务域名
