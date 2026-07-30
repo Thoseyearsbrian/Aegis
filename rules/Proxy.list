@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-28
-# - 校对时间：2026-07-28
+# - 更新时间：2026-07-30
+# - 校对时间：2026-07-30
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-07-28
@@ -9860,6 +9860,11 @@ DOMAIN-SUFFIX,he.net # Hurricane Electric 公共 iPerf3 测试服务器域名
 # - 更新时间：2026-07-27
 
 DOMAIN-SUFFIX,2ip.io # 2ip 官方 IP 地址、网络信息与安全检测查询服务域名
+
+# > Fort Awesome Icon Kit CDN（Fort Awesome 图标套件 CDN）
+# - 更新时间：2026-07-30
+
+DOMAIN,use.fortawesome.com # Fort Awesome 图标套件相关静态资源加载域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
