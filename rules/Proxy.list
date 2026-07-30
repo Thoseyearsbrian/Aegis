@@ -9866,6 +9866,11 @@ DOMAIN-SUFFIX,2ip.io # 2ip 官方 IP 地址、网络信息与安全检测查询�
 
 DOMAIN,use.fortawesome.com # Fort Awesome 图标套件相关静态资源加载域名
 
+# > Press Ranger AI PR Platform（Press Ranger AI 公关平台）
+# - 更新时间：2026-07-30
+
+DOMAIN-SUFFIX,pressranger.com # Press Ranger 媒体联络与新闻稿分发平台域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
