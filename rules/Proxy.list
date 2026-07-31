@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-31
-# - 校对时间：2026-07-31
+# - 更新时间：2026-08-01
+# - 校对时间：2026-08-01
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-07-28
@@ -9906,6 +9906,11 @@ DOMAIN-SUFFIX,motioncanvas.io # Motion Canvas 动画开发平台域名
 # - 更新时间：2026-07-31
 
 DOMAIN-SUFFIX,unavatar.io # Unavatar 用户头像服务域名
+
+# > Astral Python Toolchain Platform（Astral Python 工具链平台）
+# - 更新时间：2026-08-01
+
+DOMAIN-SUFFIX,astral.sh # Astral Python 开发工具平台域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
