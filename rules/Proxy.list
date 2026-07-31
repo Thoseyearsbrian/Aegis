@@ -9871,6 +9871,11 @@ DOMAIN,use.fortawesome.com # Fort Awesome 图标套件相关静态资源加载�
 
 DOMAIN-SUFFIX,pressranger.com # Press Ranger 媒体联络与新闻稿分发平台域名
 
+# > WorkOS Identity Platform（WorkOS 身份认证平台）
+# - 更新时间：2026-07-31
+
+DOMAIN-SUFFIX,workos.com # WorkOS 企业身份认证与开发者平台主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
