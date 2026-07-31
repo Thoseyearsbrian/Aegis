@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-30
-# - 校对时间：2026-07-30
+# - 更新时间：2026-07-31
+# - 校对时间：2026-07-31
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -937,3 +937,8 @@ DOMAIN,js.hs-analytics.net # HubSpot Analytics JavaScript 脚本加载与网站�
 # - 更新时间：2026-07-30
 
 DOMAIN,cdn.visibilitykit.ai # Visibility Kit AI 引荐流量追踪脚本分发域名
+
+# > Conceptual HQ Tracking Service（Conceptual HQ 追踪服务）
+# - 更新时间：2026-07-31
+
+DOMAIN-SUFFIX,p.conceptualhq.com # Conceptual HQ 像素追踪与数据采集服务域名
