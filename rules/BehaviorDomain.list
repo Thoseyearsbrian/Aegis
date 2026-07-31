@@ -947,3 +947,8 @@ DOMAIN-SUFFIX,ip.conceptualhq.com # Conceptual HQ 像素追踪与数据采集服
 # - 更新时间：2026-07-31
 
 DOMAIN-SUFFIX,analytics.roadwayai.com # Roadway AI 使用统计与访问分析服务域名
+
+# > Tapad Tracking Service（Tapad 追踪服务）
+# - 更新时间：2026-07-31
+
+DOMAIN-SUFFIX,pixel.tapad.com # Tapad 广告追踪像素与用户匹配服务域名
