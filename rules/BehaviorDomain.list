@@ -942,3 +942,8 @@ DOMAIN,cdn.visibilitykit.ai # Visibility Kit AI 引荐流量追踪脚本分发�
 # - 更新时间：2026-07-31
 
 DOMAIN-SUFFIX,p.conceptualhq.com # Conceptual HQ 像素追踪与数据采集服务域名
+
+# > Roadway AI Analytics Service（Roadway AI 数据分析服务）
+# - 更新时间：2026-07-31
+
+DOMAIN-SUFFIX,analytics.roadwayai.com # Roadway AI 使用统计与访问分析服务域名
