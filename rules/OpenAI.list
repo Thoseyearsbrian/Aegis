@@ -586,3 +586,8 @@ DOMAIN-SUFFIX,app.tailorhq.ai # TailorHQ Web 应用服务域名
 # - 更新时间：2026-07-31
 
 DOMAIN-SUFFIX,arena.ai # Arena AI 模型评测服务域名
+
+# > CrawlChat AI Platform（CrawlChat AI 平台）
+# - 更新时间：2026-07-31
+
+DOMAIN-SUFFIX,crawlchat.app # CrawlChat AI 对话与知识检索平台域名
