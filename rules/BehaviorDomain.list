@@ -952,3 +952,8 @@ DOMAIN-SUFFIX,analytics.roadwayai.com # Roadway AI 使用统计与访问分析�
 # - 更新时间：2026-07-31
 
 DOMAIN-SUFFIX,pixel.tapad.com # Tapad 广告追踪像素与用户匹配服务域名
+
+# > Litix Analytics Service（Litix 分析服务）
+# - 更新时间：2026-07-31
+
+DOMAIN-SUFFIX,inferred.litix.io # Litix 数据分析与遥测服务域名
