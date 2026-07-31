@@ -74,12 +74,13 @@ DOMAIN-SUFFIX,fls.doubleclick.net # Google DoubleClick 广告转化追踪服务
 DOMAIN-SUFFIX,cm.g.doubleclick.net # Google DoubleClick 广告标识同步服务
 
 # > Datadog 行为遥测服务
-# - 校对时间：2026-03-25
+# - 校对时间：2026-07-31
 
 DOMAIN-SUFFIX,datadoghq-browser-agent.com # Datadog 浏览器代理域名
 DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com # Datadog 浏览器数据采集域名
 DOMAIN-SUFFIX,csp-report.browser-intake-datadoghq.eu # Datadog CSP 报告采集域名
 DOMAIN-SUFFIX,browser-intake-datadoghq.com # Datadog 浏览器数据采集主域名
+DOMAIN-SUFFIX,browser-intake-us3-datadoghq.com # Datadog 浏览器监控数据采集服务域名
 IP-CIDR,3.233.158.112/32 # Datadog 浏览器数据采集节点（browser-intake-datadoghq.com）
 IP-CIDR6,2600:1f18:24e6:b901:fbdc:7182:a89c:6101/128 # Datadog 浏览器数据采集节点（browser-intake-datadoghq.com）
 
