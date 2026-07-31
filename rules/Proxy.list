@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-30
-# - 校对时间：2026-07-30
+# - 更新时间：2026-07-31
+# - 校对时间：2026-07-31
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-07-28
@@ -1180,7 +1180,7 @@ DOMAIN-SUFFIX,protechts.net # HUMAN 机器人防护服务域名
 DOMAIN-SUFFIX,px-cloud.net # HUMAN 机器人防护采集服务域
 
 # > OneTrust Cookie Consent Platform（OneTrust Cookie 同意管理平台）
-# - 更新时间：2026-06-13
+# - 校对间：2026-07-31
 
 DOMAIN-SUFFIX,cookielaw.org # OneTrust Cookie 同意管理服务域名
 
