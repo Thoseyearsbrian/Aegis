@@ -1185,9 +1185,9 @@ DOMAIN-SUFFIX,px-cloud.net # HUMAN 机器人防护采集服务域
 DOMAIN-SUFFIX,cookielaw.org # OneTrust Cookie 同意管理服务域名
 
 # > PingOne Identity Platform（PingOne 身份认证平台）
-# - 更新时间：2026-06-13
+# - 校对时间：2026-07-31
 
-DOMAIN-SUFFIX,pingone.com # PingOne 身份认证平台域名
+DOMAIN-SUFFIX,pingone.com # PingOne 企业身份认证与访问管理平台域名
 
 # > Expedia Travel Platform（Expedia 旅游平台）
 # - 校对时间：2026-03-28
