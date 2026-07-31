@@ -9901,6 +9901,11 @@ DOMAIN-SUFFIX,docs.manim.community # Manim 动画引擎文档服务域名
 
 DOMAIN-SUFFIX,motioncanvas.io # Motion Canvas 动画开发平台域名
 
+# > Unavatar Avatar Service（Unavatar 头像服务）
+# - 更新时间：2026-07-31
+
+DOMAIN-SUFFIX,unavatar.io # Unavatar 用户头像服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
