@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,speed.cloudflare.com # Cloudflare 网络测速服务
 DOMAIN-SUFFIX,cloudflareclient.com # Cloudflare WARP 与 Zero Trust 客户端服务
 DOMAIN-SUFFIX,support-chat.cloudflare.dev # Cloudflare 支持聊天服务域名
 DOMAIN-SUFFIX,cfapi.net # Cloudflare API 与身份认证服务域名
+DOMAIN-SUFFIX,r2.dev # Cloudflare R2 公共对象存储服务域名
 
 # > Cloudflare Public DNS（Cloudflare 公共 DNS 服务）
 
