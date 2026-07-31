@@ -957,3 +957,8 @@ DOMAIN-SUFFIX,pixel.tapad.com # Tapad 广告追踪像素与用户匹配服务域
 # - 更新时间：2026-07-31
 
 DOMAIN-SUFFIX,inferred.litix.io # Litix 数据分析与遥测服务域名
+
+# > CDNex Reporting Service（CDNex 报告服务）
+# - 校对时间：2026-07-31
+
+DOMAIN-SUFFIX,reporting.cdndex.io # CDNex 数据报告与遥测服务域名
