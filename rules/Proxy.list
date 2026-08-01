@@ -9917,6 +9917,11 @@ DOMAIN-SUFFIX,astral.sh # Astral Python 开发工具平台域名
 
 DOMAIN-SUFFIX,skills.sh # Skills.sh AI Agent 技能平台域名
 
+# > MotionSound Audio Platform（MotionSound 音效资源平台）
+# - 更新时间：2026-08-01
+
+DOMAIN-SUFFIX,motionsound.io # MotionSound 音效资源服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
