@@ -9927,6 +9927,11 @@ DOMAIN-SUFFIX,motionsound.io # MotionSound 音效资源服务域名
 
 DOMAIN-SUFFIX,freesound.org # Freesound 开放音效资源平台域名
 
+# > qBittorrent Open Source Project（qBittorrent 开源项目）
+# - 更新时间：2026-08-01
+
+DOMAIN-SUFFIX,qbittorrent.org # qBittorrent 开源项目服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
