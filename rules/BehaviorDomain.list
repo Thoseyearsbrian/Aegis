@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-31
-# - 校对时间：2026-07-31
+# - 更新时间：2026-08-02
+# - 校对时间：2026-08-02
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -963,3 +963,8 @@ DOMAIN-SUFFIX,inferred.litix.io # Litix 数据分析与遥测服务域名
 # - 校对时间：2026-07-31
 
 DOMAIN-SUFFIX,reporting.cdndex.io # CDNex 数据报告与遥测服务域名
+
+# > AppsFlyer Mobile Analytics（AppsFlyer 移动分析服务）
+# - 更新时间：2026-08-02
+
+DOMAIN-SUFFIX,inapps.appsflyer.com # AppsFlyer 应用内事件采集接口
