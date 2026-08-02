@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-02
-# - 校对时间：2026-08-02
+# - 更新时间：2026-08-03
+# - 校对时间：2026-08-03
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-08-02
@@ -602,3 +602,8 @@ DOMAIN-SUFFIX,comfy.org # ComfyUI AI 工作流平台域名
 # - 更新时间：2026-08-02
 
 DOMAIN-SUFFIX,mulerun.com # MuleRun AI Agent 平台域名
+
+# > LM Studio Local AI Platform（LM Studio 本地 AI 平台）
+# - 更新时间：2026-08-03
+
+DOMAIN-SUFFIX,lmstudio.ai # LM Studio 本地 AI 模型平台域名
