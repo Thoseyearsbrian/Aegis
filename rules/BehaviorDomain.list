@@ -973,3 +973,8 @@ DOMAIN-SUFFIX,inapps.appsflyer.com # AppsFlyer 应用内事件采集接口
 # - 更新时间：2026-08-04
 
 DOMAIN-SUFFIX,ph.mintlify.com # Mintlify PostHog 产品分析、用户行为与会话记录代理域名
+
+# > Rewardful Referral Attribution（Rewardful 推荐归因分析）
+# - 更新时间：2026-08-04
+
+DOMAIN-SUFFIX,r.wdfl.co # Rewardful 推荐访问、跨域追踪与转化归因分析服务域名
