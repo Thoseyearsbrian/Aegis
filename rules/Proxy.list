@@ -9976,6 +9976,11 @@ DOMAIN-SUFFIX,suricata.io # Suricata 官方项目域名
 
 DOMAIN-SUFFIX,icons8.com # Icons8 图标、图片与设计资源服务域名
 
+# > Tikolu Web Application Platform（Tikolu 网页应用平台）
+# - 更新时间：2026-08-03
+
+DOMAIN-SUFFIX,tikolu.net # Tikolu 网页应用、在线工具与个人项目服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
