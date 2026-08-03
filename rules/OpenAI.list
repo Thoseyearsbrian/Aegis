@@ -613,3 +613,8 @@ DOMAIN-SUFFIX,lmstudio.ai # LM Studio 本地 AI 模型平台域名
 # - 更新时间：2026-08-03
 
 DOMAIN-SUFFIX,protogaia.com # GAIA 多模态生成式 AI 创作与资源服务域名
+
+# > Chaos AI Art Community（Chaos AI 艺术创作社区）
+# - 更新时间：2026-08-03
+
+DOMAIN-SUFFIX,chaosaiart.de # Chaos AI Art 社区、Stable Diffusion 教程与 ComfyUI 扩展资源域名
