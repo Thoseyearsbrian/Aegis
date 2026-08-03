@@ -607,3 +607,9 @@ DOMAIN-SUFFIX,mulerun.com # MuleRun AI Agent 平台域名
 # - 更新时间：2026-08-03
 
 DOMAIN-SUFFIX,lmstudio.ai # LM Studio 本地 AI 模型平台域名
+
+# > Z.ai GLM AI Platform（Z.ai GLM 人工智能平台）
+# - 更新时间：2026-08-03
+
+DOMAIN-SUFFIX,z.ai # Z.ai GLM 大模型服务平台域名
+DOMAIN-SUFFIX,zcode.z.ai # Z.ai AI 编程服务平台域名
