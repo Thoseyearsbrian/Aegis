@@ -593,10 +593,11 @@ DOMAIN-SUFFIX,arena.ai # Arena AI 模型评测服务域名
 
 DOMAIN-SUFFIX,crawlchat.app # CrawlChat AI 对话与知识检索平台域名
 
-# > ComfyUI AI Workflow Platform（ComfyUI AI 工作流平台）
-# - 更新时间：2026-08-02
+# > ComfyUI AI Workflow Ecosystem（ComfyUI AI 工作流生态）
+# - 校对时间：2026-08-03
 
-DOMAIN-SUFFIX,comfy.org # ComfyUI AI 工作流平台域名
+DOMAIN-SUFFIX,comfy.org # ComfyUI 官方 AI 工作流平台域名
+DOMAIN-SUFFIX,comfy.rgthree.com # rgthree ComfyUI 自定义节点与扩展资源域名
 
 # > MuleRun AI Agent Platform（MuleRun AI Agent 平台）
 # - 更新时间：2026-08-02
