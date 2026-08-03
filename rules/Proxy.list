@@ -9972,6 +9972,11 @@ DOMAIN-SUFFIX,nftables.org # nftables 防火墙项目域名
 
 DOMAIN-SUFFIX,clamav.net # ClamAV 官方项目域名
 
+# > Suricata IDS/IPS Framework（Suricata 入侵检测框架）
+# - 更新时间：2026-08-03
+
+DOMAIN-SUFFIX,suricata.io # Suricata 官方项目域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
