@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-28
-# - 校对时间：2026-07-28
+# - 更新时间：2026-08-03
+# - 校对时间：2026-08-03
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
@@ -1927,7 +1927,7 @@ DOMAIN-SUFFIX,hailuoai.video # 海螺 AI 视频生成服务主域名
 DOMAIN-SUFFIX,cdn.hailuoai.video # 海螺 AI 视频资源 CDN 域名
 
 # > Zhipu AI / BigModel（智谱 AI / BigModel）相关域名
-# - 校对时间：2026-03-25
+# - 校对时间：2026-08-03
 
 DOMAIN-SUFFIX,zhipuai.cn # 智谱 AI 主域名
 DOMAIN-SUFFIX,zhipuai.com # 智谱 AI 国际服务域名
@@ -1943,6 +1943,7 @@ DOMAIN-SUFFIX,static.bigmodel.cn # BigModel 静态资源域名
 DOMAIN-SUFFIX,docs.bigmodel.cn # BigModel 文档域名
 DOMAIN-SUFFIX,passport.zhipuai.cn # 智谱 AI 账号服务域名
 DOMAIN-SUFFIX,login.zhipuai.cn # 智谱 AI 登录服务域名
+DOMAIN-SUFFIX,z.ai # 智谱 AI 旗下 Z.ai GLM 服务平台域名
 
 # > 01.AI / Yi（零一万物 / Yi）相关域名
 # - 校对时间：2026-03-25
