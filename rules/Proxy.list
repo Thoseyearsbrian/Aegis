@@ -9967,6 +9967,11 @@ DOMAIN-SUFFIX,todesktop.com # ToDesktop 桌面应用开发平台域名
 
 DOMAIN-SUFFIX,nftables.org # nftables 防火墙项目域名
 
+# > ClamAV Antivirus Project（ClamAV 开源杀毒项目）
+# - 更新时间：2026-08-03
+
+DOMAIN-SUFFIX,clamav.net # ClamAV 官方项目域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
