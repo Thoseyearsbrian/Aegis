@@ -2816,6 +2816,11 @@ DOMAIN-SUFFIX,asus.com.cn # ASUS 中国官方产品、服务与支持平台主�
 
 DOMAIN-SUFFIX,ipc.fmprc.gov.cn # 外国记者新闻中心服务域名
 
+# > TV Helper Service（电视盒子助手服务）
+# - 更新时间：2026-08-03
+
+DOMAIN-SUFFIX,tvhelper.cpolar.cn # 电视盒子助手服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
