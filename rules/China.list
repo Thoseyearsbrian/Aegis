@@ -2826,6 +2826,11 @@ DOMAIN-SUFFIX,tvhelper.cpolar.cn # 电视盒子助手服务域名
 
 DOMAIN-SUFFIX,aipan.me # 爱盼网盘搜索与影音资源聚合平台域名
 
+# > GitCode Repository Hosting Platform（GitCode 代码托管平台）
+# - 更新时间：2026-08-03
+
+DOMAIN-SUFFIX,gitcode.com # GitCode 代码托管与原始文件分发服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
