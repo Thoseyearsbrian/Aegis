@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-03
-# - 校对时间：2026-08-03
+# - 更新时间：2026-08-04
+# - 校对时间：2026-08-04
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-07-28
@@ -9980,6 +9980,11 @@ DOMAIN-SUFFIX,icons8.com # Icons8 图标、图片与设计资源服务域名
 # - 更新时间：2026-08-03
 
 DOMAIN-SUFFIX,tikolu.net # Tikolu 网页应用、在线工具与个人项目服务域名
+
+# > Audio Library Free Music Platform（Audio Library 免费音乐平台）
+# - 更新时间：2026-08-04
+
+DOMAIN-SUFFIX,audiolibrary.com.co # Audio Library 免费音乐与创作者音乐资源服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
