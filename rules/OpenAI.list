@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-03
-# - 校对时间：2026-08-03
+# - 更新时间：2026-08-04
+# - 校对时间：2026-08-04
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-08-02
@@ -653,3 +653,8 @@ DOMAIN-SUFFIX,nuvulabs.ai # Nuvu Labs 影视与视觉特效生成式 AI 工作�
 # - 更新时间：2026-08-03
 
 DOMAIN-SUFFIX,nuvulabs.ai # Nuvu 影视与视觉特效生成式 AI 工作流平台域名
+
+# > Topview AI Video Generation Platform（Topview AI 视频生成平台）
+# - 更新时间：2026-08-04
+
+DOMAIN-SUFFIX,topview.ai # Topview AI 视频生成与营销内容创作平台域名
