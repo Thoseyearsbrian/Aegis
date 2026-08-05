@@ -2836,6 +2836,11 @@ DOMAIN-SUFFIX,gitcode.com # GitCode 代码托管与原始文件分发服务域�
 
 DOMAIN-SUFFIX,qweather.com # 和风天气预报与气象数据服务域名
 
+# > LikeFont Font Recognition Platform（识字体在线字体识别平台）
+# - 更新时间：2026-08-05
+
+DOMAIN-SUFFIX,likefont.com # 识字体在线字体识别与字体资源服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
