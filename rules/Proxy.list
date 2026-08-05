@@ -9986,6 +9986,11 @@ DOMAIN-SUFFIX,tikolu.net # Tikolu 网页应用、在线工具与个人项目服�
 
 DOMAIN-SUFFIX,audiolibrary.com.co # Audio Library 免费音乐与创作者音乐资源服务域名
 
+# > Kaspersky Third-Party Support Chat（卡巴斯基第三方在线支持）
+# - 更新时间：2026-08-05
+
+DOMAIN-SUFFIX,kp-chat.craft-talk.com # CraftTalk 承载的卡巴斯基第三方在线客服与技术支持聊天服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
 
