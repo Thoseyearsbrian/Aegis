@@ -2980,11 +2980,12 @@ DOMAIN-SUFFIX,secure.tumblr.com # 安全服务域名
 DOMAIN-SUFFIX,va.tumblr.com # 服务子域名
 DOMAIN-SUFFIX,assets.tumblr.com # 静态资源域名
 
-# > Wikipedia / Wikimedia Knowledge Platform（Wikipedia / Wikimedia 知识平台）
+# > Wikipedia / Wikimedia Ecosystem（Wikipedia / Wikimedia 生态）
 # - 校对时间：2026-08-06
 
 DOMAIN-SUFFIX,wikipedia.org # Wikipedia 在线百科全书服务域名
 DOMAIN-SUFFIX,wikimedia.org # Wikimedia 认证、媒体资源与协作项目服务域名
+DOMAIN-SUFFIX,mediawiki.org # MediaWiki 官方软件文档与开发资源服务域名
 
 # > Chaos Computer Club Media Archive（Chaos Computer Club 媒体档案平台）
 # - 校对时间：2026-05-03
