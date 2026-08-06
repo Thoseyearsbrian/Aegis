@@ -2986,6 +2986,7 @@ DOMAIN-SUFFIX,assets.tumblr.com # 静态资源域名
 DOMAIN-SUFFIX,wikipedia.org # Wikipedia 在线百科全书服务域名
 DOMAIN-SUFFIX,wikimedia.org # Wikimedia 认证、媒体资源与协作项目服务域名
 DOMAIN-SUFFIX,mediawiki.org # MediaWiki 官方软件文档与开发资源服务域名
+DOMAIN-SUFFIX,translatewiki.net # MediaWiki 与开源项目本地化翻译平台域名
 
 # > Chaos Computer Club Media Archive（Chaos Computer Club 媒体档案平台）
 # - 校对时间：2026-05-03
