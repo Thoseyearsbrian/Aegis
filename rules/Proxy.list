@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-04
-# - 校对时间：2026-08-04
+# - 更新时间：2026-08-06
+# - 校对时间：2026-08-06
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-07-28
@@ -9995,6 +9995,11 @@ DOMAIN-SUFFIX,kp-chat.craft-talk.com # CraftTalk 承载的卡巴斯基第三方�
 # - 更新时间：2026-08-05
 
 DOMAIN-SUFFIX,klsupsite.foquz.ru # FOQUZ 承载的卡巴斯基第三方客户反馈调查服务域名
+
+# > Free Stock Music Platform（免版税音乐平台）
+# - 更新时间：2026-08-06
+
+DOMAIN-SUFFIX,free-stock-music.com # 免版税音乐与创作者音频资源服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
