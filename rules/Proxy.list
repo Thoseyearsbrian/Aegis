@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-06
-# - 校对时间：2026-08-06
+# - 更新时间：2026-08-07
+# - 校对时间：2026-08-07
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-07-28
@@ -10000,6 +10000,11 @@ DOMAIN-SUFFIX,klsupsite.foquz.ru # FOQUZ 承载的卡巴斯基第三方客户反
 # - 更新时间：2026-08-06
 
 DOMAIN-SUFFIX,free-stock-music.com # 免版税音乐与创作者音频资源服务域名
+
+# > IANA Registry Data Service（IANA 注册表数据服务）
+# - 更新时间：2026-08-07
+
+DOMAIN-SUFFIX,data.iana.org # IANA 互联网技术注册表与基础数据发布服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
