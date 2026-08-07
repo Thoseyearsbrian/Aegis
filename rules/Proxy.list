@@ -10001,10 +10001,10 @@ DOMAIN-SUFFIX,klsupsite.foquz.ru # FOQUZ 承载的卡巴斯基第三方客户反
 
 DOMAIN-SUFFIX,free-stock-music.com # 免版税音乐与创作者音频资源服务域名
 
-# > IANA Registry Data Service（IANA 注册表数据服务）
+# > Internet Assigned Numbers Authority（IANA 互联网号码分配机构）
 # - 更新时间：2026-08-07
 
-DOMAIN-SUFFIX,data.iana.org # IANA 互联网技术注册表与基础数据发布服务域名
+DOMAIN-SUFFIX,iana.org # IANA DNS 根区、互联网号码资源与协议参数注册管理服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-08
