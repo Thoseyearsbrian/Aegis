@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-04
-# - 校对时间：2026-08-04
+# - 更新时间：2026-08-10
+# - 校对时间：2026-08-10
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -27,7 +27,7 @@ DOMAIN-SUFFIX,metrics.apple.com # Apple 网络与性能诊断接口
 DOMAIN-SUFFIX,news-events.apple.com # 新闻模块事件数据域名
 
 # > Alibaba / Ant / UC 行为遥测服务
-# - 校对时间：2026-03-25
+# - 校对时间：2026-08-10
 
 DOMAIN-SUFFIX,xlog.snssdk.com # 闲鱼行为日志上报接口
 DOMAIN-SUFFIX,alog.umeng.com # 友盟行为日志上报接口
@@ -49,10 +49,11 @@ DOMAIN-SUFFIX,arms-retcode.aliyuncs.com # 阿里云 ARMS 错误上报接口
 DOMAIN-SUFFIX,s9.cnzz.com # CNZZ 统计上报节点
 DOMAIN-SUFFIX,adashx.m.taobao.com # 淘宝移动端行为分析接口
 DOMAIN-SUFFIX,umdc.alibaba-inc.com # 阿里移动数据采集接口
-IP-CIDR,119.42.251.214/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
-IP-CIDR,203.209.244.173/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
+IP-CIDR,110.76.3.58/32 # 支付宝移动端埋点数据采集与日志上报节点（mdap.alipay.com）
 IP-CIDR,110.76.16.70/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
+IP-CIDR,119.42.251.214/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
 IP-CIDR,203.209.244.141/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
+IP-CIDR,203.209.244.173/32 # 支付宝移动端数据采集与性能日志上报节点（mdap.alipay.com）
 
 # > Google 行为分析与遥测服务
 # - 校对时间：2026-07-09
