@@ -237,6 +237,7 @@ IP-CIDR,183.131.39.0/24 # 微信图片与消息资源 CDN
 
 # > WeChat Mini Program CDN（微信小程序资源 CDN）
 
+IP-CIDR,59.53.162.211/32 # 微信小程序资源 CDN 节点（res.servicewechat.com）
 IP-CIDR,61.170.59.0/24 # 微信小程序资源 CDN
 IP-CIDR,61.170.65.0/24 # 微信小程序资源 CDN
 IP-CIDR,117.68.71.0/24 # 微信小程序资源 CDN
