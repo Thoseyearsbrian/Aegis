@@ -91,6 +91,7 @@ IP-CIDR,180.101.199.235/32 # Alipay render 服务节点（render.alipay.com）
 IP-CIDR,180.101.218.46/32 # AliPay 数据网关边缘服务节点（datagw-edge.alipay.com）
 IP-CIDR,202.102.11.150/32 # AliPay render 服务节点（render.alipay.com）
 IP-CIDR,203.209.230.34/32 # AliPay 数据网关服务节点（mgw.alipay.com）
+IP-CIDR,203.209.255.221/32 # AliPay 短链服务节点（ashort.alipay.com.cn）
 IP-CIDR,203.209.255.222/32 # AliPay 数据网关服务节点（mgw.alipay.com）
 IP-CIDR,203.209.255.245/32 # AliPay QUIC 网关服务节点（aquic.alipay.com）
 IP-CIDR,221.229.203.220/32 # AliPay render 服务节点（render.alipay.com）
