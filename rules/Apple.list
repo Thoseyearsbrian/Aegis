@@ -124,14 +124,14 @@ DOMAIN-SUFFIX,identity.ess.apple.com # Apple 设备与账户身份确认服务�
 DOMAIN-SUFFIX,register.appattest.apple.com # Apple App Attest 注册服务
 
 # > Apple Captive Portal Detection（Apple 强制门户检测）
-# - 校对时间：2026-07-21
+# - 校对时间：2026-08-11
 
 DOMAIN-SUFFIX,captive.apple.com # Apple 网络连通性检测服务
 DOMAIN-SUFFIX,itools.info # Apple 历史网络连通性检测域名
 DOMAIN-SUFFIX,airport.us # Apple 历史网络连通性检测域名
 DOMAIN-SUFFIX,ibook.info # Apple 历史网络连通性检测域名
-DOMAIN-SUFFIX,appleiphonecell.com # Apple 历史网络连通性检测域名
-DOMAIN-SUFFIX,thinkdifferent.us # Apple 历史网络连通性检测域名
+DOMAIN-SUFFIX,appleiphonecell.com # Apple 网络连通性检测域名
+DOMAIN-SUFFIX,thinkdifferent.us # Apple 网络连通性检测域名
 
 # > Apple Network Diagnostics（Apple 网络诊断服务）
 
