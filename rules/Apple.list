@@ -5,8 +5,8 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-30
-# - 校对时间：2026-07-30
+# - 更新时间：2026-08-11
+# - 校对时间：2026-08-11
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -207,7 +207,8 @@ DOMAIN-SUFFIX,p05-ckdatabasews.icloud.com # CloudKit 区域节点
 DOMAIN-SUFFIX,p06-ckdatabasews.icloud.com # CloudKit 区域节点
 DOMAIN-SUFFIX,caldav.icloud.com # Apple iCloud 日历同步服务
 DOMAIN-SUFFIX,contacts.icloud.com # Apple iCloud 通讯录服务
-DOMAIN-SUFFIX,gateway.icloud.com # iCloud 通信中继
+DOMAIN-SUFFIX,gateway.icloud.com # iCloud 服务网关
+DOMAIN-SUFFIX,gateway.icloud.com.cn # iCloud 中国区服务网关域名
 DOMAIN-SUFFIX,p212-contacts.icloud.com.cn # iCloud 通讯录同步
 DOMAIN-SUFFIX,p212-quota.icloud.com.cn # iCloud 配额服务
 DOMAIN-SUFFIX,p212-mcc.icloud.com.cn # iCloud 配置节点
