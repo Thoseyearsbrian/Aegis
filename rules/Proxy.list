@@ -10012,7 +10012,7 @@ DOMAIN-SUFFIX,iana.org # IANA DNS 根区、互联网号码资源与协议参数�
 DOMAIN-SUFFIX,clickup.com # ClickUp 项目管理与团队协作平台官方域名
 
 # > Third-Party Blogs（第三方博客）
-# - 校对时间：2026-07-08
+# - 校对时间：2026-08-13
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客技术博客域名
 DOMAIN-SUFFIX,skk.moe # Sukka 主站域名
@@ -10041,4 +10041,3 @@ DOMAIN-SUFFIX,apothecary.tips # Apothecary 博客/技术资讯网站
 DOMAIN-SUFFIX,simhaoka.com # Simhaoka 博客与资源分享域名
 DOMAIN-SUFFIX,bushidotoken.net # BushidoToken 威胁情报博客域名
 DOMAIN-SUFFIX,yachen.com # Yachen's Blog 个人博客域名
-DOMAIN-SUFFIX,wpme.pl # rafalohaki 个人站点域名
