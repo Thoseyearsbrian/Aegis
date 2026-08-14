@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-13
-# - 校对时间：2026-08-13
+# - 更新时间：2026-08-14
+# - 校对时间：2026-08-14
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-07-28
@@ -3688,12 +3688,11 @@ DOMAIN-SUFFIX,addthisedge.com # 边缘服务域名
 DOMAIN-SUFFIX,choosealicense.com # 项目域名
 
 # > Security Tools（安全工具）
-# - 校对时间：2026-07-07
+# - 校对时间：2026-08-14
 
 DOMAIN-SUFFIX,gpgtools.com # 平台主域名
 DOMAIN-SUFFIX,sw-update.obdev.at # 更新服务域名
 DOMAIN-SUFFIX,geolocation.obdev.at # 定位服务域名
-DOMAIN-SUFFIX,nektony.com # 平台主域名
 DOMAIN-SUFFIX,tails.net # 平台主域名
 DOMAIN-SUFFIX,gpgtools.org # 平台主域名
 DOMAIN-SUFFIX,openpgp.org # 平台主域名
