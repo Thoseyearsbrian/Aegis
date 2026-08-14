@@ -4,11 +4,11 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-27
-# - 校对时间：2026-07-27
+# - 更新时间：2026-08-14
+# - 校对时间：2026-08-14
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
-# - 校对时间：2026-06-28
+# - 校对时间：2026-08-14
 
 DOMAIN-SUFFIX,douyin.com # 抖音官方主域名
 DOMAIN-SUFFIX,iesdouyin.com # 抖音核心业务域名
@@ -134,6 +134,7 @@ IP-CIDR,58.215.145.228/32 # 抖音前端通信服务节点（frontier-im.douyin.
 IP-CIDR,58.215.210.146/32 # 抖音内容分发质量控制节点（lf-dy-sourcecdn-tos-qos-control.bytegecko.com）
 IP-CIDR,58.215.210.148/32 # 抖音直播内容分发节点（lf-webcast-sourcecdn-tos.bytegecko.com）
 IP-CIDR,58.215.210.151/32 # 抖音视频点播 CDN 节点（v5-ncdn-80iaas-wha.douyinvod.com）
+IP-CIDR,58.215.210.227/32 # 抖音 PC 客户端与 Web 静态资源 CDN 节点（lf-douyin-pc-web.douyinstatic.com）
 IP-CIDR,58.216.6.14/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,58.216.7.74/32 # 抖音视频点播 CDN 节点（v5-se-zjwztc-wha.douyinvod.com）
 IP-CIDR,58.216.7.79/32 # 抖音视频点播 CDN 节点（v5-gzb-hl-qn2-wha.douyinvod.com）
