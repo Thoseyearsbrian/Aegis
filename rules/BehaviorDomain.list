@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-10
-# - 校对时间：2026-08-10
+# - 更新时间：2026-08-16
+# - 校对时间：2026-08-16
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -109,11 +109,6 @@ DOMAIN-SUFFIX,clarity.ms # Microsoft Clarity 行为分析域名
 DOMAIN-SUFFIX,hispace.hicloud.com # 华为应用统计服务域名
 DOMAIN-SUFFIX,logservice.hicloud.com # 华为日志上报服务域名
 DOMAIN-SUFFIX,metrics1.data.hicloud.com # 华为指标采集服务域名
-
-# > Cloudflare 行为遥测服务
-# - 校对时间：2026-03-25
-
-DOMAIN-SUFFIX,cloudflareinsights.com # Cloudflare Insights 分析域名
 
 # > Sentry 错误与遥测服务
 # - 校对时间：2026-03-25
