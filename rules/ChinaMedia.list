@@ -4,11 +4,11 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-14
-# - 校对时间：2026-08-14
+# - 更新时间：2026-08-16
+# - 校对时间：2026-08-16
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
-# - 校对时间：2026-08-14
+# - 校对时间：2026-08-16
 
 DOMAIN-SUFFIX,douyin.com # 抖音官方主域名
 DOMAIN-SUFFIX,iesdouyin.com # 抖音核心业务域名
@@ -65,6 +65,7 @@ DOMAIN-SUFFIX,ecombdimg.com # 字节跳动电商图片资源域名
 DOMAIN-SUFFIX,xingtu.cn # 巨量星图图片资源域名
 DOMAIN-SUFFIX,yhgfb-cn-static.com # 字节跳动静态资源服务域名
 DOMAIN-SUFFIX,lf-ad-growth.byteadverts.com # 字节跳动广告增长服务域名
+DOMAIN-SUFFIX,zjcdn.com # 字节跳动内容分发服务域名
 IP-CIDR,1.81.2.170/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,1.193.215.153/32 # 抖音静态资源节点（lf3-static.bytednsdoc.com）
 IP-CIDR,1.194.27.56/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
