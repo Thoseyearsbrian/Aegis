@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-15
-# - 校对时间：2026-08-15
+# - 更新时间：2026-08-19
+# - 校对时间：2026-08-19
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
@@ -1262,7 +1262,7 @@ DOMAIN-SUFFIX,hljzwfw.gov.cn # 黑龙江政务服务域名
 DOMAIN-SUFFIX,xzzwfw.gov.cn # 西藏政务服务域名
 
 # > JD.com（京东）相关域名
-# - 校对时间：2026-03-25
+# - 校对时间：2026-08-19
 
 DOMAIN-SUFFIX,jd.com # 京东主域名
 DOMAIN-SUFFIX,360buy.com # 京东服务域名
@@ -1275,6 +1275,7 @@ DOMAIN-SUFFIX,jdcloud.com # 京东云服务域名
 DOMAIN-SUFFIX,api.jdcloud.com # 京东云 API 域名
 DOMAIN-SUFFIX,static.jdcloud.com # 京东云静态资源域名
 DOMAIN-SUFFIX,jdcloudedge.com # 京东云边缘服务域名
+DOMAIN-SUFFIX,360buyimg.com # 京东图片与静态资源服务域名
 
 # > Tmall（天猫）相关域名
 # - 校对时间：2026-03-25
