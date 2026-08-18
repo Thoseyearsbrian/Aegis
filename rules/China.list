@@ -1276,6 +1276,7 @@ DOMAIN-SUFFIX,api.jdcloud.com # 京东云 API 域名
 DOMAIN-SUFFIX,static.jdcloud.com # 京东云静态资源域名
 DOMAIN-SUFFIX,jdcloudedge.com # 京东云边缘服务域名
 DOMAIN-SUFFIX,360buyimg.com # 京东图片与静态资源服务域名
+DOMAIN-SUFFIX,300hu.com # 京东旗下红番茄视频与媒体内容分发服务域名
 
 # > Tmall（天猫）相关域名
 # - 校对时间：2026-03-25
