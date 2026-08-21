@@ -4,8 +4,8 @@
 # - 特征：P2P 分发 / NAT 穿透 / 节点调度 / 分片交换 / 日志回传
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-14
-# - 校对时间：2026-03-14
+# - 更新时间：2026-08-22
+# - 校对时间：2026-08-22
 
 # > 哔哩哔哩 PCDN 节点
 
@@ -82,3 +82,7 @@ DOMAIN-SUFFIX,seeds-darwin.xycdn.com # PCDN 种子节点
 # > 金山云 PCDN 节点
 
 DOMAIN-SUFFIX,yfp2p.net # P2P 服务节点
+
+# > Baidu Netdisk（百度网盘）PCDN 服务
+
+DOMAIN-SUFFIX,antpcdn.com # 百度网盘 PCDN 分发节点
