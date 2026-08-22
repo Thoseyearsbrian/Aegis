@@ -5,8 +5,8 @@
 # - 说明：微信客户端大量使用自研 mmtls 长连接通信协议，部分服务节点通过自有 DNS 与 CDN 分发
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-16
-# - 校对时间：2026-08-16
+# - 更新时间：2026-08-22
+# - 校对时间：2026-08-22
 
 # > Core Communication（核心通信服务）
 
@@ -302,3 +302,9 @@ IP-CIDR,1.13.37.0/24 # 微信支付接口节点
 # > WeChat QUIC Communication Network（微信 QUIC 通信网络）
 
 IP-CIDR,101.227.131.254/32 # 微信 QUIC 通信节点（shquic.weixin.qq.com）
+
+# > WeChat（微信）CDN SNI 接入节点
+# - 校对时间：2026-08-22
+
+IP-CIDR,180.60.168.19/32 # 微信 CDN TLS SNI 接入节点 (sni.cdn.weixin.qq.com)
+IP-CIDR,180.60.168.83/32 # 微信 CDN TLS SNI 接入节点 (sni.cdn.weixin.qq.com)
