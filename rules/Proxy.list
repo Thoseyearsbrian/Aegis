@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-22
-# - 校对时间：2026-08-22
+# - 更新时间：2026-08-23
+# - 校对时间：2026-08-23
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-08-22
@@ -10021,6 +10021,11 @@ DOMAIN-SUFFIX,nic.us.kg # US.KG 免费域名注册与管理服务域名
 # - 更新时间：2026-08-22
 
 DOMAIN-SUFFIX,fischnet.ch # FischNet VPS 云服务器托管与管理服务官方域名
+
+# > Vercel Official Platform（Vercel 官方云部署平台）
+# - 更新时间：2026-08-23
+
+DOMAIN-SUFFIX,vercel.com # Vercel Web 应用部署、托管与云基础设施平台官方域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
