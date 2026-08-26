@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-23
-# - 校对时间：2026-08-23
+# - 更新时间：2026-08-26
+# - 校对时间：2026-08-26
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-08-22
@@ -4842,9 +4842,10 @@ DOMAIN-SUFFIX,member.fofa.info # 会员服务域名
 DOMAIN-SUFFIX,link.fofa.info # 跳转域名
 
 # > Mozilla Access Service（Mozilla 访问服务）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-08-26
 
 DOMAIN-SUFFIX,mozilla.org # 官网主域名
+DOMAIN-SUFFIX,mozilla.com # 官网主域名
 DOMAIN-SUFFIX,firefox.com # Firefox 主域名
 DOMAIN-SUFFIX,addons.mozilla.org # 扩展商店域名
 DOMAIN-SUFFIX,monitor.mozilla.org # 监测服务域名
