@@ -331,6 +331,11 @@ DOMAIN-SUFFIX,api.hunyuan.tencent.com # 腾讯混元接口域名
 DOMAIN-SUFFIX,console.hunyuan.tencent.com # 腾讯混元控制台域名
 DOMAIN-SUFFIX,cdn.hunyuan.tencent.com # 腾讯混元静态资源域名
 
+# > Tencent Security Services（腾讯安全服务）
+# - 更新时间：2026-08-26
+
+DOMAIN-SUFFIX,x.security.tencent.com # 腾讯安全资料与文件资源服务域名
+
 # > ByteDance AI and Infrastructure Services（字节跳动 AI 与基础服务）
 # - 校对时间：2026-06-17
 
