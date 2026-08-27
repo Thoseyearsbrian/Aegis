@@ -10033,6 +10033,11 @@ DOMAIN-SUFFIX,fischnet.ch # FischNet VPS 云服务器托管与管理服务官方
 
 DOMAIN-SUFFIX,vercel.com # Vercel Web 应用部署、托管与云基础设施平台官方域名
 
+# > V2Fly Network Proxy Platform（V2Fly 网络代理平台）
+# - 更新时间：2026-08-27
+
+DOMAIN-SUFFIX,v2fly.org # V2Fly 网络代理与 V2Ray 开源项目官方服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
