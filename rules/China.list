@@ -2868,12 +2868,13 @@ DOMAIN-SUFFIX,likefont.com # 识字体在线字体识别与字体资源服务域
 DOMAIN-SUFFIX,gl-inet.cn # GL.iNet 中国站主域名
 
 # > NetEase Qiyu Customer Service Platform（网易七鱼智能客服平台）
-# - 校对时间：2026-08-26
+# - 校对时间：2026-08-27
 
 DOMAIN-SUFFIX,qiyukf.com # 网易七鱼智能客服与开放接口服务域名
 DOMAIN-SUFFIX,qiyukf.net # 网易七鱼静态资源与前端内容分发域名
 DOMAIN-SUFFIX,ysf.nosdn.127.net # 网易七鱼客服系统资源存储与 CDN 分发域名
 DOMAIN-SUFFIX,qiyukf.nosdn.127.net # 网易七鱼客服平台静态资源 CDN 域名
+DOMAIN-SUFFIX,lbs-qiyu.netease.im # 网易七鱼客服 IM 接入节点发现与连接调度服务域名
 
 # > NetEase Qiyu Third-Party API Documentation（网易七鱼第三方 API 文档）
 # - 更新时间：2026-08-26
