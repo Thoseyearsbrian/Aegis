@@ -2882,9 +2882,10 @@ DOMAIN-SUFFIX,weblink-qiyu.netease.im # 网易七鱼 Web 在线客服会话连�
 
 DOMAIN-SUFFIX,qiyukf.apifox.cn # Apifox 承载的网易七鱼第三方 API 文档与接口调试服务域名
 
-# > NetEase CommsEase Developer Documentation（网易云信开发者文档）
-# - 更新时间：2026-08-26
+# > NetEase Yunxin Communication Platform（网易云信通信平台）
+# - 更新时间：2026-08-27
 
+DOMAIN-SUFFIX,netease.im # 网易云信即时通讯与实时音视频服务域名
 DOMAIN-SUFFIX,doc.commsease.com # 网易云信通信服务 SDK、API 与开发文档域名
 
 # > 知识星球（知识社区及付费内容分发平台）
