@@ -242,6 +242,11 @@ DOMAIN-SUFFIX,bit.ly # Bitly 短链接跳转服务域名
 
 DOMAIN-SUFFIX,qr-code-generator.com # QR Code Generator 二维码生成与管理平台域名
 
+# > UserWay Web Accessibility Platform（UserWay 网站无障碍平台）
+# - 更新时间：2026-08-27
+
+DOMAIN-SUFFIX,userway.org # UserWay 网站无障碍辅助与合规检测服务域名
+
 # > AMZ123 跨境电商平台相关域名
 # - 校对时间：2026-04-28
 
