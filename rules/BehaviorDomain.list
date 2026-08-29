@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-27
-# - 校对时间：2026-08-27
+# - 更新时间：2026-08-29
+# - 校对时间：2026-08-29
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -984,3 +984,8 @@ DOMAIN-SUFFIX,s.go-mpulse.net # Akamai mPulse 性能遥测与用户体验数据�
 # - 更新时间：2026-08-27
 
 DOMAIN-SUFFIX,s.union.360.cn # 360 网站访问统计与推广效果分析服务域名
+
+# > Split Feature Management Platform（Split 功能开关与实验管理平台）
+# - 更新时间：2026-08-29
+
+DOMAIN-SUFFIX,split.io # Split 功能开关与实验管理平台域名
