@@ -256,6 +256,11 @@ DOMAIN-SUFFIX,semantic-ui.vcs.cimpress.io # Cimpress Semantic UI 前端组件服
 
 DOMAIN-SUFFIX,survey.survicate.com # Survicate 在线问卷调查与用户反馈服务域名
 
+# > Cimpress VistaPrint Service Platform（Cimpress VistaPrint 服务平台）
+# - 更新时间：2026-08-29
+
+DOMAIN-SUFFIX,vpsvc.com # Cimpress VistaPrint 平台服务域名
+
 # > UserWay Web Accessibility Platform（UserWay 网站无障碍平台）
 # - 更新时间：2026-08-27
 
