@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-27
-# - 校对时间：2026-08-27
+# - 更新时间：2026-08-29
+# - 校对时间：2026-08-29
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-08-22
@@ -232,15 +232,12 @@ DOMAIN-SUFFIX,VK6kTpJBIO.solastme.cc # 节点服务相关域名
 DOMAIN-SUFFIX,vk6tpjbio.solastme.cc # 节点服务相关域名
 
 # > Bitly URL Shortening Service（Bitly 短链接服务）
-# - 校对时间：2026-08-27
+# - 校对时间：2026-08-29
 
 DOMAIN-SUFFIX,bitly.com # Bitly 官方平台主域名
 DOMAIN-SUFFIX,bit.ly # Bitly 短链接跳转服务域名
-
-# > QR Code Generator（二维码生成工具）
-# - 更新时间：2026-08-27
-
-DOMAIN-SUFFIX,qr-code-generator.com # QR Code Generator 二维码生成与管理平台域名
+DOMAIN-SUFFIX,qr-code-generator.com # Bitly 旗下二维码创建、管理与扫描分析平台域名
+DOMAIN-SUFFIX,qr-code-generator.ourproshop.com # QRCG by Bitly 第三方 Vistaprint Corporate ProShop 服务域名
 
 # > UserWay Web Accessibility Platform（UserWay 网站无障碍平台）
 # - 更新时间：2026-08-27
