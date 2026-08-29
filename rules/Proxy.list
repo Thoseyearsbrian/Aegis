@@ -237,7 +237,7 @@ DOMAIN-SUFFIX,vk6tpjbio.solastme.cc # 节点服务相关域名
 DOMAIN-SUFFIX,bitly.com # Bitly 官方平台主域名
 DOMAIN-SUFFIX,bit.ly # Bitly 短链接跳转服务域名
 DOMAIN-SUFFIX,qr-code-generator.com # Bitly 旗下二维码创建、管理与扫描分析平台域名
-DOMAIN-SUFFIX,qr-code-generator.ourproshop.com # QRCG by Bitly 第三方 Vistaprint Corporate ProShop 服务域名
+DOMAIN-SUFFIX,qr-code-generator.ourproshop.com # QRCG by Bitly 第三方 ProShop 服务域名
 
 # > Survicate Customer Feedback Platform（Survicate 用户反馈平台）
 # - 更新时间：2026-08-29
