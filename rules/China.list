@@ -163,6 +163,9 @@ DOMAIN-SUFFIX,i.antfin.com # 蚂蚁集团基础服务域名
 # - 更新时间：2026-08-31
 
 IP-CIDR,203.119.206.9/32 # 阿里云 HTTPDNS 域名解析节点（nexusedgeio.com）
+IP-CIDR,203.119.206.8/32 # 阿里云 HTTPDNS 域名解析节点（mall.bilibili.com）
+IP-CIDR,203.119.204.80/32 # 阿里云 HTTPDNS 域名解析节点（upos-sz-staticcos.bilivideo.com）
+IP-CIDR,203.119.238.194/32 # 阿里云 HTTPDNS 域名解析节点（member.bilibili.com）
 
 # > Qwen / DashScope（通义千问 / 灵积）相关域名
 # - 校对时间：2026-05-11
