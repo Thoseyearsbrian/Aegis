@@ -885,10 +885,13 @@ IP-CIDR,61.147.236.102/32 # Bilibili 应用服务节点（app.bilibili.com）
 IP-CIDR,61.147.236.103/32 # Bilibili 应用服务节点（app.bilibili.com）
 IP-CIDR,61.147.236.104/32 # Bilibili 应用服务节点（app.bilibili.com）
 IP-CIDR,61.170.65.76/32 # Bilibili 静态资源服务节点（upos-sz-staticcos.bilivideo.com）
+IP-CIDR,112.64.218.119/32 # Bilibili HTTPDNS 域名解析节点（i2.hdslb.com / miniapp.bilibili.com）
+IP-CIDR,114.116.215.110/32 # Bilibili HTTPDNS 域名解析节点（upos-sz-staticcos.bilivideo.com）
 IP-CIDR,114.230.222.141/32 # Bilibili 核心服务接口节点（api.bilibili.com）
 IP-CIDR,114.230.222.142/32 # Bilibili 应用与会员购服务节点（app.bilibili.com / mall.bilibili.com）
 IP-CIDR,114.230.222.172/32 # Bilibili 核心服务接口节点（api.bilibili.com）
 IP-CIDR,114.230.222.173/32 # Bilibili 应用服务节点（app.bilibili.com）
+IP-CIDR,116.63.10.31/32 # Bilibili HTTPDNS 域名解析节点（miniapp.bilibili.com）
 IP-CIDR,116.207.163.63/32 # Bilibili 应用服务节点（app.bilibili.com）
 IP-CIDR,116.207.163.64/32 # Bilibili gRPC 服务接口节点（grpc.biliapi.net）
 IP-CIDR,116.207.163.65/32 # Bilibili 核心服务接口节点（api.bilibili.com）
@@ -904,6 +907,7 @@ IP-CIDR,175.4.62.129/32 # Bilibili 核心服务接口节点（api.bilibili.com�
 IP-CIDR,183.131.147.27/32 # Bilibili 应用服务节点（app.bilibili.com）
 IP-CIDR,183.131.147.30/32 # Bilibili 账户登录与认证服务节点（passport.bilibili.com）
 IP-CIDR,183.131.147.48/32 # Bilibili 应用服务节点（app.bilibili.com）
+IP-CIDR,203.119.238.240/32 # Bilibili HTTPDNS 域名解析节点（i2.hdslb.com）
 
 # > Bilibili Analytics Domains（Bilibili 行为分析服务域名，当前采用 ChinaMedia 路由策略）
 
