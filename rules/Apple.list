@@ -5,8 +5,8 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-11
-# - 校对时间：2026-08-11
+# - 更新时间：2026-08-31
+# - 校对时间：2026-08-31
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -553,8 +553,9 @@ DOMAIN-SUFFIX,getsupport.apple.com # Apple 官方技术支持入口，用于预�
 
 # > Apple News & Stocks（Apple 新闻与股票服务）
 
-DOMAIN-SUFFIX,news.apple.com # Apple 新闻服务主域名
-DOMAIN-SUFFIX,stocks.apple.com # iOS 股票应用服务接口域名
+DOMAIN-SUFFIX,news.apple.com # Apple News 新闻内容服务域名
+DOMAIN-SUFFIX,apple.news # Apple News 内容分发与跳转服务域名
+DOMAIN-SUFFIX,stocks.apple.com # Apple 股票应用服务接口域名
 
 # > Apple Health & Fitness（Apple 健康与健身服务）
 
