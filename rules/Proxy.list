@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-29
-# - 校对时间：2026-08-29
+# - 更新时间：2026-08-31
+# - 校对时间：2026-08-31
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-08-22
@@ -10062,6 +10062,11 @@ DOMAIN-SUFFIX,vercel.com # Vercel Web 应用部署、托管与云基础设施平
 # - 更新时间：2026-08-27
 
 DOMAIN-SUFFIX,v2fly.org # V2Fly 网络代理与 V2Ray 开源项目官方服务域名
+
+# > IPAddress.com Network Lookup Service（IPAddress.com 网络查询服务）
+# - 更新时间：2026-08-31
+
+DOMAIN-SUFFIX,ipaddress.com # IPAddress.com IP 与域名信息查询服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
