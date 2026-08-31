@@ -90,3 +90,7 @@ DOMAIN-SUFFIX,antpcdn.com # 百度网盘 PCDN 分发节点
 # > PPIO PCDN Service（派欧云 PCDN 服务）
 
 DOMAIN-SUFFIX,nexusedgeio.com # 派欧云 PCDN 分发服务域名
+
+# > Jiangsu Yiru Edge Computing Service（江苏意如边缘计算服务）
+
+DOMAIN-SUFFIX,yirujs.com # 江苏意如边缘计算与内容分发服务域名
