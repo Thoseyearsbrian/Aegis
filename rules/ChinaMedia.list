@@ -4,8 +4,8 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-16
-# - 校对时间：2026-08-16
+# - 更新时间：2026-08-31
+# - 校对时间：2026-08-31
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
 # - 校对时间：2026-08-16
@@ -892,6 +892,10 @@ DOMAIN-SUFFIX,ali-web-player-tracker.biliapi.net # Bilibili 网页播放器接�
 DOMAIN-SUFFIX,cm.bilibili.com # Bilibili 客户端统计接口域名
 DOMAIN-SUFFIX,impression.biligame.com # Bilibili 游戏曝光统计接口域名
 DOMAIN-SUFFIX,line3-log.biligame.net # Bilibili 游戏日志接口域名
+IP-CIDR,114.230.222.178/32 # Bilibili Dataflow 数据上报节点 (dataflow.biliapi.com)
+IP-CIDR,114.230.222.179/32 # Bilibili Dataflow 数据上报节点 (dataflow.biliapi.com)
+IP-CIDR,114.230.222.145/32 # Bilibili Dataflow 数据上报节点 (dataflow.biliapi.com)
+IP-CIDR,183.131.155.9/32 # Bilibili Dataflow 数据上报节点 (dataflow.biliapi.com)
 
 # > iQIYI（爱奇艺）相关域名
 # - 校对时间：2026-03-21
