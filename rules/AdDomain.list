@@ -4,11 +4,12 @@
 # - 特征：识别广告投放、广告竞价、广告请求、广告资源分发、广告追踪及明确广告子域等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-23
-# - 校对时间：2026-07-23
+# - 更新时间：2026-08-31
+# - 校对时间：2026-08-31
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,idsequoia.ai # Sequoia ID 广告受众识别与定向服务域名
 DOMAIN-SUFFIX,bidswitch.net # BidSwitch 程序化广告交易与竞价服务域名
 DOMAIN-SUFFIX,admaster.cc # AdMaster 广告监测与效果分析服务域名
 DOMAIN-SUFFIX,creativecdn.com # RTB House 广告素材分发与追踪服务域名
