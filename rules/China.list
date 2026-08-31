@@ -70,6 +70,8 @@ IP-CIDR,58.222.35.55/32 # AliPay 静态资源服务节点（mdn.alipayobjects.co
 IP-CIDR,58.222.35.97/32 # AliPay 数据网关边缘服务节点（datagw-edge.alipay.com）
 IP-CIDR,58.222.35.99/32 # AliPay 数据网关边缘服务节点（datagw-edge.alipay.com）
 IP-CIDR,58.222.35.101/32 # AliPay 数据网关边缘服务节点（datagw-edge.alipay.com）
+IP-CIDR,59.82.34.147/32 # 阿里巴巴 AMDC 移动调度服务节点（AMDC）
+IP-CIDR,59.82.113.219/32 # 阿里巴巴 AMDC 移动调度服务节点（AMDC）
 IP-CIDR,106.38.254.72/32 # AliPay 静态资源服务节点（mdn.alipayobjects.com）
 IP-CIDR,106.38.254.73/32 # AliPay 前端资源网关服务节点（gw.alipayobjects.com）
 IP-CIDR,110.76.24.139/32 # AliPay 静态资源服务节点（mdn.alicdn.com）
