@@ -890,12 +890,14 @@ IP-CIDR,114.230.222.142/32 # Bilibili 应用与会员购服务节点（app.bilib
 IP-CIDR,114.230.222.172/32 # Bilibili 核心服务接口节点（api.bilibili.com）
 IP-CIDR,114.230.222.173/32 # Bilibili 应用服务节点（app.bilibili.com）
 IP-CIDR,116.207.163.63/32 # Bilibili 应用服务节点（app.bilibili.com）
+IP-CIDR,116.207.163.64/32 # Bilibili gRPC 服务接口节点（grpc.biliapi.net）
 IP-CIDR,116.207.163.65/32 # Bilibili 核心服务接口节点（api.bilibili.com）
 IP-CIDR,116.207.163.66/32 # Bilibili 核心服务接口节点（api.bilibili.com）
 IP-CIDR,117.21.179.19/32 # Bilibili 核心服务接口节点（api.bilibili.com）
 IP-CIDR,117.21.179.20/32 # Bilibili 核心服务接口节点（api.bilibili.com）
 IP-CIDR,117.44.77.5/32 # Bilibili 视频分发服务节点（upos-sz-mirrorcos.bilivideo.com）
 IP-CIDR,117.92.139.35/32 # 哔哩哔哩 HDSLB 图片静态资源 CDN 节点 (i2.hdslb.com)
+IP-CIDR,122.9.13.79/32 # Bilibili HTTPDNS 域名解析节点（dataflow.biliapi.com）
 IP-CIDR,150.139.228.139/32 # Bilibili 视频分发服务节点（upos-sz-mirrorcos.bilivideo.com）
 IP-CIDR,175.4.62.128/32 # Bilibili 会员购服务节点（mall.bilibili.com）
 IP-CIDR,175.4.62.129/32 # Bilibili 核心服务接口节点（api.bilibili.com）
@@ -911,9 +913,10 @@ DOMAIN-SUFFIX,ali-web-player-tracker.biliapi.net # Bilibili 网页播放器接�
 DOMAIN-SUFFIX,cm.bilibili.com # Bilibili 客户端统计接口域名
 DOMAIN-SUFFIX,impression.biligame.com # Bilibili 游戏曝光统计接口域名
 DOMAIN-SUFFIX,line3-log.biligame.net # Bilibili 游戏日志接口域名
+IP-CIDR,114.230.222.145/32 # Bilibili Dataflow 数据上报节点 (dataflow.biliapi.com)
+IP-CIDR,114.230.222.146/32 # Bilibili Dataflow 数据上报节点（dataflow.biliapi.com）
 IP-CIDR,114.230.222.178/32 # Bilibili Dataflow 数据上报节点 (dataflow.biliapi.com)
 IP-CIDR,114.230.222.179/32 # Bilibili Dataflow 数据上报节点 (dataflow.biliapi.com)
-IP-CIDR,114.230.222.145/32 # Bilibili Dataflow 数据上报节点 (dataflow.biliapi.com)
 IP-CIDR,183.131.155.9/32 # Bilibili Dataflow 数据上报节点 (dataflow.biliapi.com)
 
 # > iQIYI（爱奇艺）相关域名
