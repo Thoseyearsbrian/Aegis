@@ -588,7 +588,6 @@ DOMAIN-SUFFIX,mask.icloud.com # iCloud Private Relay 主入口
 # DOMAIN-SUFFIX,api-adservices.apple.com # Apple AdServices 广告归因接口
 # DOMAIN-SUFFIX,iadsdk.apple.com # Apple iAd 广告 SDK 服务
 # DOMAIN-SUFFIX,iad.apple.com # Apple iAd 广告平台域名
-# DOMAIN-SUFFIX,ca.iadsdk.apple.com # Apple iAd 广告归因节点
 
 # > 已列入 BehaviorDomain.list明细:
 
