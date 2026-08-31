@@ -159,6 +159,11 @@ DOMAIN-SUFFIX,v.koubei.com # 口碑页面服务域名
 
 DOMAIN-SUFFIX,i.antfin.com # 蚂蚁集团基础服务域名
 
+# > HTTPDNS Domain Resolution Service（HTTPDNS 域名解析服务）
+# - 更新时间：2026-08-31
+
+IP-CIDR,203.119.206.9/32 # 阿里云 HTTPDNS 域名解析节点（nexusedgeio.com）
+
 # > Qwen / DashScope（通义千问 / 灵积）相关域名
 # - 校对时间：2026-05-11
 
