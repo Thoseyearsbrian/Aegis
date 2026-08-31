@@ -270,7 +270,7 @@ DOMAIN-SUFFIX,codimg.cn # CODING 图片资源域名
 DOMAIN-SUFFIX,codetencent.com # CODING 关联服务域名
 
 # > QQ（腾讯 QQ）相关域名
-# - 校对时间：2026-06-09
+# - 校对时间：2026-08-31
 
 DOMAIN-SUFFIX,qq.com # QQ 主域名
 DOMAIN-SUFFIX,myqq.com # QQ 账号服务域名
@@ -292,6 +292,7 @@ DOMAIN-SUFFIX,mail.qq.com # QQ 邮箱主域名
 DOMAIN-SUFFIX,foxmail.com # Foxmail 邮件服务域名
 DOMAIN-SUFFIX,mywebmail.mail.qq.com # QQ 邮箱网页服务域名
 DOMAIN-SUFFIX,imgcache.qq.com # QQ 邮箱图片缓存域名
+DOMAIN-SUFFIX,cdn-go.cn # 腾讯 CDN-Go Web 静态资源服务域名
 
 # > Tencent Maps（腾讯地图）相关域名
 # - 校对时间：2026-05-11
