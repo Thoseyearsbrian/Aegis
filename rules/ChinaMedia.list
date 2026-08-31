@@ -880,8 +880,10 @@ DOMAIN-SUFFIX,passport.biligame.com # Bilibili 游戏登录与认证服务域名
 DOMAIN-SUFFIX,chat.bilibili.com # Bilibili 实时聊天服务域名
 DOMAIN-SUFFIX,mountaintoys.cn # Bilibili 视频分发服务域名
 DOMAIN-SUFFIX,passport.bilibili.cn # Bilibili 官方账户登录与身份认证服务域名
+IP-CIDR,59.63.201.98/32 # 哔哩哔哩 HDSLB 图片静态资源 CDN 节点 (i2.hdslb.com)
 IP-CIDR,61.170.65.76/32 # Bilibili 静态资源服务节点（upos-sz-staticcos.bilivideo.com）
 IP-CIDR,117.44.77.5/32 # Bilibili 视频分发服务节点（upos-sz-mirrorcos.bilivideo.com）
+IP-CIDR,117.92.139.35/32 # 哔哩哔哩 HDSLB 图片静态资源 CDN 节点 (i2.hdslb.com)
 IP-CIDR,150.139.228.139/32 # Bilibili 视频分发服务节点（upos-sz-mirrorcos.bilivideo.com）
 
 # > Bilibili Analytics Domains（Bilibili 行为分析服务域名，当前采用 ChinaMedia 路由策略）
