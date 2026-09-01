@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-31
-# - 校对时间：2026-08-31
+# - 更新时间：2026-09-01
+# - 校对时间：2026-09-01
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-08-22
@@ -4161,7 +4161,7 @@ DOMAIN-SUFFIX,vpsbench.net # 测试服务域名
 DOMAIN-SUFFIX,letshost.pw # 服务域名
 
 # > Vultr Cloud Service（Vultr 云服务）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-09-01
 
 DOMAIN-SUFFIX,vultr.com # 平台主域名
 DOMAIN-SUFFIX,api.vultr.com # API 接口域名
@@ -4180,6 +4180,7 @@ DOMAIN-SUFFIX,ipv6.vultr.com # IPv6 测试域名
 DOMAIN-SUFFIX,smtp.vultr.com # 邮件网关域名
 DOMAIN-SUFFIX,dns.vultr.com # DNS 服务域名
 DOMAIN-SUFFIX,mirror.vultr.com # 镜像站域名
+DOMAIN-SUFFIX,vultrdevrel.com # Vultr 开发者关系静态资源服务域名
 
 # > Linode Cloud Service（Linode 云服务）
 # - 校对时间：2026-03-28
