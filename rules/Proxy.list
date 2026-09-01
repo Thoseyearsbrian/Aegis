@@ -1716,14 +1716,15 @@ DOMAIN-SUFFIX,boogdan.com # Bogdan 个人开发者网站主域名
 DOMAIN-SUFFIX,fundraiseup.com # Fundraise Up 在线捐赠与筹款平台主域名
 DOMAIN-SUFFIX,sentry.fundraiseup.com # Fundraise Up 错误监控与前端异常上报服务域名
 
-# > GnuPG / OpenPGP Key Service（GnuPG / OpenPGP 密钥服务）
-# - 校对时间：2026-05-10
+# > GnuPG / OpenPGP Key Services（GnuPG / OpenPGP 密钥服务）
+# - 校对时间：2026-09-01
 
-DOMAIN-SUFFIX,gnupg.org # 官方主域名
-DOMAIN-SUFFIX,keys.gnupg.net # 历史密钥服务域名
-DOMAIN-SUFFIX,keys.openpgp.org # 密钥服务域名
-DOMAIN-SUFFIX,pgp.mit.edu # 密钥服务域名
-DOMAIN-SUFFIX,keys.mailvelope.com # 密钥服务域名
+DOMAIN-SUFFIX,gnupg.org # GnuPG 官方项目域名
+DOMAIN-SUFFIX,gnu.org # GNU 自由软件项目官方网站域名
+DOMAIN-SUFFIX,keys.gnupg.net # GnuPG 历史密钥服务器域名
+DOMAIN-SUFFIX,keys.openpgp.org # OpenPGP 公共密钥服务器域名
+DOMAIN-SUFFIX,pgp.mit.edu # MIT OpenPGP 公共密钥服务器域名
+DOMAIN-SUFFIX,keys.mailvelope.com # Mailvelope OpenPGP 公共密钥服务器域名
 
 # > DoorDash Delivery Platform（DoorDash 配送平台）
 # - 校对时间：2026-03-28
