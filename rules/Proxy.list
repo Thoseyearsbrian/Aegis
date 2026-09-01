@@ -10070,6 +10070,11 @@ DOMAIN-SUFFIX,v2fly.org # V2Fly 网络代理与 V2Ray 开源项目官方服务�
 
 DOMAIN-SUFFIX,ipaddress.com # IPAddress.com IP 与域名信息查询服务域名
 
+# > Ant International Cloud Service（蚂蚁国际云服务）
+# - 更新时间：2026-09-01
+
+DOMAIN-SUFFIX,marmot-cloud.com # 蚂蚁国际业务云服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
