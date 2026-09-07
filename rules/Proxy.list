@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-09-06
-# - 校对时间：2026-09-06
+# - 更新时间：2026-09-07
+# - 校对时间：2026-09-07
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-09-06
@@ -10075,6 +10075,11 @@ DOMAIN-SUFFIX,ipaddress.com # IPAddress.com IP 与域名信息查询服务域名
 # - 更新时间：2026-09-01
 
 DOMAIN-SUFFIX,marmot-cloud.com # 蚂蚁国际业务云服务域名
+
+# > 2Checkout by Verifone（2Checkout 全球支付平台）
+# - 更新时间：2026-09-07
+
+DOMAIN-SUFFIX,2checkout.com # 2Checkout 全球支付与数字商务服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
