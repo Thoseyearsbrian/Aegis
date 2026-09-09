@@ -3728,6 +3728,12 @@ DOMAIN-SUFFIX,gnupg.org # GnuPG 官方项目与文档服务域名
 DOMAIN-SUFFIX,gnu.org # GNU 自由软件项目官方网站域名
 DOMAIN-SUFFIX,keys.gnupg.net # GnuPG 历史 OpenPGP 公钥服务器域名
 
+# > GPG Suite for macOS（macOS GPG Suite）
+# - 校对时间：2026-09-09
+
+DOMAIN-SUFFIX,gpgtools.org # GPGTools 官方 GPG Suite 服务域名
+DOMAIN-SUFFIX,gpgtools.com # GPGTools 官方 GPG Suite 服务域名
+
 # > Security Tools（安全工具）
 # - 校对时间：2026-09-09
 
