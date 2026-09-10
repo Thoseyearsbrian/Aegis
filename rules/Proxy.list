@@ -243,6 +243,7 @@ DOMAIN-SUFFIX,qr-code-generator.ourproshop.com # QRCG by Bitly 第三方 ProShop
 # > VistaPrint Corporate ProShop（VistaPrint 企业定制商店平台）
 # - 校对时间：2026-09-10
 
+DOMAIN-SUFFIX,vistaprint.com # VistaPrint 在线印刷与定制服务域名
 DOMAIN-SUFFIX,ourproshop.com # VistaPrint Corporate ProShop 服务域名
 DOMAIN-SUFFIX,vistaprintcorporate.com # VistaPrint 企业定制印刷与品牌服务域名
 
