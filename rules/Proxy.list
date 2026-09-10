@@ -10106,6 +10106,11 @@ DOMAIN-SUFFIX,edit.site # Edit.Site 网站构建与静态资源服务域名
 
 DOMAIN-SUFFIX,akamaihd.net # Akamai CDN 内容与媒体资源分发服务域名
 
+# > Vista Small Business Platform（Vista 小型企业设计与营销平台）
+# - 更新时间：2026-09-10
+
+DOMAIN-SUFFIX,vista.com # Vista 小型企业设计、品牌与营销服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
