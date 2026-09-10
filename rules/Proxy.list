@@ -241,10 +241,10 @@ DOMAIN-SUFFIX,qr-code-generator.com # Bitly 旗下二维码创建、管理与扫
 DOMAIN-SUFFIX,qr-code-generator.ourproshop.com # QRCG by Bitly 第三方 ProShop 服务域名
 
 # > VistaPrint Corporate ProShop（VistaPrint 企业定制商店平台）
-# - 更新时间：2026-08-29
+# - 校对时间：2026-09-10
 
 DOMAIN-SUFFIX,ourproshop.com # VistaPrint Corporate ProShop 服务域名
-DOMAIN-SUFFIX,prd.cdn.ourproshop.com # VistaPrint Corporate ProShop CDN 服务域名
+DOMAIN-SUFFIX,vistaprintcorporate.com # VistaPrint 企业定制印刷与品牌服务域名
 
 # > Cimpress Mass Customization Platform（Cimpress 大规模定制平台）
 # - 校对时间：2026-09-10
@@ -261,7 +261,7 @@ DOMAIN-SUFFIX,survicate.com # Survicate 在线问卷调查与用户反馈服务�
 DOMAIN-SUFFIX,survicate-cdn.com # Survicate 问卷静态资源 CDN 域名
 
 # > Whois.com Domain Lookup Service（Whois.com 域名查询服务）
-# - 更新时间：2026-08-29
+# - 校对时间：2026-09-10
 
 DOMAIN-SUFFIX,whois.com # Whois.com 域名 WHOIS 查询服务域名
 
