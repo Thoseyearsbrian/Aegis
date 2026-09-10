@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-09-09
-# - 校对时间：2026-09-09
+# - 更新时间：2026-09-10
+# - 校对时间：2026-09-10
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-09-06
@@ -253,9 +253,9 @@ DOMAIN-SUFFIX,cimpress.io # Cimpress 大规模定制平台服务域名
 DOMAIN-SUFFIX,semantic-ui.vcs.cimpress.io # Cimpress Semantic UI 前端组件服务域名
 
 # > Survicate Customer Feedback Platform（Survicate 用户反馈平台）
-# - 更新时间：2026-08-29
+# - 校对时间：2026-09-10
 
-DOMAIN-SUFFIX,survey.survicate.com # Survicate 在线问卷调查与用户反馈服务域名
+DOMAIN-SUFFIX,survicate.com # Survicate 在线问卷调查与用户反馈服务域名
 DOMAIN-SUFFIX,survicate-cdn.com # Survicate 问卷静态资源 CDN 域名
 
 # > Cimpress VistaPrint Service Platform（Cimpress VistaPrint 服务平台）
