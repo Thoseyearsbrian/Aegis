@@ -10111,6 +10111,11 @@ DOMAIN-SUFFIX,akamaihd.net # Akamai CDN 内容与媒体资源分发服务域名
 
 DOMAIN-SUFFIX,vista.com # Vista 小型企业设计、品牌与营销服务域名
 
+# > Markit On Demand Financial Data Services（Markit On Demand 金融数据服务）
+# - 更新时间：2026-09-10
+
+DOMAIN-SUFFIX,wallst.com # Markit On Demand 金融市场数据与投资工具服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
