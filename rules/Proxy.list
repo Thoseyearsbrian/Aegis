@@ -10101,6 +10101,11 @@ DOMAIN-SUFFIX,ipapi.co # IPAPI IP 地理位置与网络信息查询服务域名
 
 DOMAIN-SUFFIX,edit.site # Edit.Site 网站构建与静态资源服务域名
 
+# > Akamai CDN（Akamai 内容分发网络）
+# - 更新时间：2026-09-10
+
+DOMAIN-SUFFIX,akamaihd.net # Akamai CDN 内容与媒体资源分发服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
