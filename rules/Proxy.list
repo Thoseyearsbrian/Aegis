@@ -249,6 +249,7 @@ DOMAIN-SUFFIX,prd.cdn.ourproshop.com # VistaPrint Corporate ProShop CDN 服务�
 # > Cimpress Mass Customization Platform（Cimpress 大规模定制平台）
 # - 更新时间：2026-09-10
 
+DOMAIN-SUFFIX,cimpress.com # Cimpress 企业官方网站域名
 DOMAIN-SUFFIX,cimpress.io # Cimpress 大规模定制平台服务域名
 DOMAIN-SUFFIX,semantic-ui.vcs.cimpress.io # Cimpress Semantic UI 前端组件服务域名
 DOMAIN-SUFFIX,vpsvc.com # Cimpress VistaPrint 平台服务域名
