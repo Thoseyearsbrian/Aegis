@@ -48,6 +48,7 @@ DOMAIN-SUFFIX,trafficmanager.net # Azure 流量管理器
 DOMAIN-SUFFIX,cloudapp.net # Azure 云应用托管
 DOMAIN-SUFFIX,windowsazure.com # Windows Azure 旧版域名
 DOMAIN-SUFFIX,azure.microsoft.com # Azure 官方站点与文档
+DOMAIN-SUFFIX,service.signalr.net # Microsoft Azure SignalR 实时连接与消息路由服务域名
 
 # > Microsoft 365 Platform（Microsoft 365 办公平台）
 
