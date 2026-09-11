@@ -10156,6 +10156,7 @@ DOMAIN-SUFFIX,mtcaptcha.com # MTCaptcha CAPTCHA 验证与自动化机器人防�
 # - 更新时间：2026-09-11
 
 DOMAIN-SUFFIX,liferay.com # Liferay 数字体验平台与企业服务域名
+DOMAIN-SUFFIX,lfr.cloud # Liferay 云平台项目、应用与基础设施服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
