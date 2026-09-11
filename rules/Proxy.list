@@ -10152,6 +10152,11 @@ DOMAIN-SUFFIX,halo.com # HALO 企业品牌商品、定制服装与员工认可�
 
 DOMAIN-SUFFIX,mtcaptcha.com # MTCaptcha CAPTCHA 验证与自动化机器人防护服务域名
 
+# > Liferay Digital Experience Platform（Liferay 数字体验平台）
+# - 更新时间：2026-09-11
+
+DOMAIN-SUFFIX,liferay.com # Liferay 数字体验平台与企业服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
