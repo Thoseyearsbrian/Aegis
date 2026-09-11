@@ -4,8 +4,8 @@
 # - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-21
-# - 校对时间：2026-07-21
+# - 更新时间：2026-09-11
+# - 校对时间：2026-09-11
 
 # > Microsoft Visual Studio Code 主程序与资源服务
 
@@ -115,6 +115,7 @@ DOMAIN-SUFFIX,aka.ms # 微软官方短链
 DOMAIN-SUFFIX,visualstudio.com # Visual Studio 开发平台
 DOMAIN-SUFFIX,nuget.org # 微软开源包管理器 NuGet
 DOMAIN-SUFFIX,codeplex.com # 旧版微软开源项目托管平台
+DOMAIN-SUFFIX,aspnetcdn.com # Microsoft ASP.NET Ajax 与前端开发库 CDN 服务域名
 
 # > Miscellaneous Microsoft Services（其他 Microsoft 服务）
 
