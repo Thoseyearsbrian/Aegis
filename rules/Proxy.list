@@ -10131,6 +10131,11 @@ DOMAIN-SUFFIX,mybrandmall.com # MyBrandMall 企业品牌商品与定制周边商
 
 DOMAIN-SUFFIX,memberstack.com # Memberstack 会员管理与身份认证服务域名
 
+# > Salesforce Trailhead Learning Platform（Salesforce Trailhead 学习平台）
+# - 更新时间：2026-09-11
+
+DOMAIN-SUFFIX,trailhead.com # Salesforce Trailhead 在线学习与技能培训平台域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
