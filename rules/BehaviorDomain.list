@@ -994,3 +994,8 @@ DOMAIN-SUFFIX,split.io # Split 功能开关与实验管理平台域名
 # - 更新时间：2026-09-10
 
 DOMAIN-SUFFIX,vpdcp.com # VistaPrint 用户行为追踪服务域名
+
+# > Parse.ly Content Analytics Platform（Parse.ly 内容与行为分析平台）
+# - 更新时间：2026-09-11
+
+DOMAIN-SUFFIX,parsely.com # Parse.ly 网站访问、内容表现与用户行为分析服务域名
