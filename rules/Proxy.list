@@ -10163,6 +10163,11 @@ DOMAIN-SUFFIX,lfr.cloud # Liferay 云平台项目、应用与基础设施服务�
 
 DOMAIN-SUFFIX,connectedcommunity.org # Higher Logic 在线社区托管、成员协作与通知邮件服务域名
 
+# > Vidyard Video Platform（Vidyard 企业视频平台）
+# - 更新时间：2026-09-11
+
+DOMAIN-SUFFIX,vidyard.com # Vidyard 企业视频托管、播放与视频消息服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
