@@ -10147,6 +10147,11 @@ DOMAIN-SUFFIX,salesforceliveagent.com # Salesforce 在线客服与实时聊天�
 
 DOMAIN-SUFFIX,halo.com # HALO 企业品牌商品、定制服装与员工认可服务域名
 
+# > MTCaptcha Bot Protection Service（MTCaptcha 机器人防护服务）
+# - 更新时间：2026-09-11
+
+DOMAIN-SUFFIX,mtcaptcha.com # MTCaptcha CAPTCHA 验证与自动化机器人防护服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
