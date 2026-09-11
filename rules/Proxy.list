@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-09-10
-# - 校对时间：2026-09-10
+# - 更新时间：2026-09-11
+# - 校对时间：2026-09-11
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-09-06
@@ -10120,6 +10120,11 @@ DOMAIN-SUFFIX,wallst.com # Markit On Demand 金融市场数据与投资工具服
 # - 更新时间：2026-09-10
 
 DOMAIN-SUFFIX,photorank.me # Olapic 用户生成内容与媒体数据服务域名
+
+# > MyBrandMall Corporate Merchandise Platform（MyBrandMall 企业品牌商品商城平台）
+# - 更新时间：2026-09-11
+
+DOMAIN-SUFFIX,mybrandmall.com # MyBrandMall 企业品牌商品与定制周边商城服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
