@@ -3761,13 +3761,14 @@ DOMAIN-SUFFIX,translate.googleapis.com # API 接口域名
 DOMAIN-SUFFIX,translate.google.com # Web 服务域名
 
 # > Surge Official Service（Surge 官方服务）
-# - 校对时间：2026-07-17
+# - 校对时间：2026-09-11
 
 DOMAIN-SUFFIX,nssurge.com # 平台主域名
 DOMAIN-SUFFIX,kb.nssurge.com # 知识库域名
 DOMAIN-SUFFIX,manual.nssurge.com # 文档服务域名
 DOMAIN-SUFFIX,community.nssurge.com # Surge 社区服务域名
 DOMAIN-SUFFIX,surge-activation.com # Surge 许可证激活与授权校验服务域名
+DOMAIN-SUFFIX,sgupd.com # Surge 客户端版本检查与软件更新服务域名
 
 # > Surge Third-Party Documentation（Surge 第三方文档）
 # - 校对时间：2026-07-17
