@@ -10196,6 +10196,11 @@ DOMAIN-SUFFIX,headlesscms.guide # Headless CMS 选型、内容架构与企业内
 
 DOMAIN-SUFFIX,opensourcepledge.com # Open Source Pledge 企业开源维护者资助与开源生态倡议服务域名
 
+# > Servd Asset Platform（Servd 静态资源分发平台）
+# - 更新时间：2026-09-12
+
+DOMAIN-SUFFIX,svdcdn.com # Servd 项目静态文件、图片转换与 CDN 分发服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
