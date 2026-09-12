@@ -1576,6 +1576,7 @@ DOMAIN-SUFFIX,railway.com # Railway 品牌主域名与平台入口
 
 DOMAIN-SUFFIX,sanity.io # Sanity Headless CMS 内容管理平台域名
 DOMAIN-SUFFIX,snty.link # Sanity 官方短链接与内容跳转服务域名
+DOMAIN-SUFFIX,sanity.market # Sanity 官方品牌周边商城与 Headless Commerce 展示服务域名
 
 # > Supabase Backend-as-a-Service Platform（Supabase 后端即服务平台）
 # - 校对时间：2026-05-04
