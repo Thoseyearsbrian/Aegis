@@ -3646,7 +3646,7 @@ DOMAIN-SUFFIX,de.freedif.org # 区域镜像域名
 DOMAIN-SUFFIX,mirror.freedif.org # 镜像服务域名
 
 # > Telestream Service（Telestream 媒体服务平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-09-29
 
 DOMAIN-SUFFIX,telestream.net # 平台主域名
 DOMAIN-SUFFIX,cloud.telestream.net # 云服务域名
@@ -3654,6 +3654,7 @@ DOMAIN-SUFFIX,license.telestream.net # 授权服务域名
 DOMAIN-SUFFIX,static.telestream.net # 静态资源域名
 DOMAIN-SUFFIX,inapp.telestream.net # 应用服务域名
 DOMAIN-SUFFIX,cws.telestream.net # 云服务域名
+DOMAIN-SUFFIX,telestream.channeltivity.com # Telestream 基于 Channeltivity 的合作伙伴门户服务域名
 
 # > Zoho Service（Zoho 企业服务平台）
 # - 校对时间：2026-03-28
