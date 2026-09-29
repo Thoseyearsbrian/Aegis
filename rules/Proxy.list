@@ -10218,6 +10218,12 @@ DOMAIN-SUFFIX,crawlstop.com # Cloudflare AI 爬虫控制与 robots.txt 配置示
 
 DOMAIN-SUFFIX,channeltivity.com # Channeltivity 企业合作伙伴门户与渠道关系管理平台域名
 
+# > Tillo Gift Card & Rewards Platform（Tillo 礼品卡与奖励平台）
+# - 更新时间：2026-09-29
+
+DOMAIN-SUFFIX,tillo.com # Tillo 礼品卡、奖励与激励平台官方域名
+DOMAIN-SUFFIX,tillo.io # Tillo 平台账户、API 与静态资源服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
