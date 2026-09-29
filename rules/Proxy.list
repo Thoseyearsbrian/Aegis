@@ -10202,6 +10202,11 @@ DOMAIN-SUFFIX,opensourcepledge.com # Open Source Pledge 企业开源维护者资
 
 DOMAIN-SUFFIX,svdcdn.com # Servd 项目静态文件、图片转换与 CDN 分发服务域名
 
+# > TLS Encrypted Client Hello Test Site（TLS ECH 加密客户端问候测试站点）
+# - 校对时间：2026-09-29
+
+DOMAIN-SUFFIX,tls-ech.dev # TLS ECH 加密 ClientHello 支持状态与协议兼容性测试域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
