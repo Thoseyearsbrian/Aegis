@@ -4,8 +4,8 @@
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-17
-# - 校对时间：2026-06-17
+# - 更新时间：2026-06-29
+# - 校对时间：2026-06-29
 
 # > Binance Exchange Platform（Binance 加密资产交易平台）
 # - 校对时间：2026-06-14
@@ -1497,3 +1497,8 @@ DOMAIN-SUFFIX,ipfs.sintral.me # IPFS 公共网关服务域名
 # - 更新时间：2026-06-17
 
 DOMAIN-SUFFIX,privy.io # Privy Web3 认证与嵌入式钱包基础设施域名
+
+# > NOWPayments Crypto Payment Gateway（NOWPayments 加密货币支付平台）
+# - 更新时间：2026-09-29
+
+DOMAIN-SUFFIX,nowpayments.io # NOWPayments 加密货币支付与商户收款服务域名
