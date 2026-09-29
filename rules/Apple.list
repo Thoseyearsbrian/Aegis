@@ -5,8 +5,8 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-31
-# - 校对时间：2026-08-31
+# - 更新时间：2026-09-29
+# - 校对时间：2026-09-29
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -212,8 +212,6 @@ DOMAIN-SUFFIX,gateway.icloud.com.cn # iCloud 中国区服务网关域名
 DOMAIN-SUFFIX,p212-contacts.icloud.com.cn # iCloud 通讯录同步
 DOMAIN-SUFFIX,p212-quota.icloud.com.cn # iCloud 配额服务
 DOMAIN-SUFFIX,p212-mcc.icloud.com.cn # iCloud 配置节点
-DOMAIN-SUFFIX,mask-h2.icloud.com # iCloud 隐私邮箱通道
-DOMAIN-SUFFIX,mask-api.icloud.com # iCloud Private Relay API
 DOMAIN-SUFFIX,mask-h3.icloud.com # iCloud Private Relay 通道
 DOMAIN-SUFFIX,relay-edge.icloud.com # Private Relay 边缘节点
 DOMAIN-SUFFIX,mask-relay.apple.com # Apple Relay 服务节点
@@ -581,7 +579,9 @@ DOMAIN-SUFFIX,apple-relay.cloudflare.com # 中继节点（Cloudflare）
 DOMAIN-SUFFIX,api.smoot.apple.cn # 中国区透明性平台 API
 DOMAIN-SUFFIX,relay.icloud.com # iCloud Private Relay 路由服务
 DOMAIN-SUFFIX,mask.apple-dns.net # Private Relay DNS 路由域名
-DOMAIN-SUFFIX,mask.icloud.com # iCloud Private Relay 主入口
+DOMAIN-SUFFIX,mask.icloud.com # iCloud Private Relay 服务域名
+DOMAIN-SUFFIX,mask-h2.icloud.com # iCloud Private Relay 服务域名
+DOMAIN-SUFFIX,mask-api.icloud.com # iCloud Private Relay API 服务域名
 
 # > 已列入AdDomain.list明细:
 
