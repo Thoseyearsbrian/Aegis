@@ -226,6 +226,8 @@ DOMAIN-SUFFIX,setupicloud.com # Apple iCloud 初始化配置服务
 DOMAIN-SUFFIX,setupicloud.apple.com # Apple iCloud 初始化配置服务
 DOMAIN-SUFFIX,p212-acsegateway.icloud.com.cn # iCloud 中国区设备授权与账户访问控制网关域名
 DOMAIN-SUFFIX,p212-quota.icloud.com.cn # iCloud 中国区存储配额查询服务域名
+DOMAIN-SUFFIX,probe.icloud.com # iCloud 网络连接测试服务域名
+DOMAIN-SUFFIX,pong.icloud.com # iCloud 网络连接测试服务域名
 
 # > Apple Internal Service Mesh（Apple 内部服务网关）
 
