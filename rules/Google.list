@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-01
-# - 校对时间：2026-08-01
+# - 更新时间：2026-09-29
+# - 校对时间：2026-09-29
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 # - 校对时间：2026-05-09
@@ -131,6 +131,11 @@ DOMAIN-SUFFIX,chromium.googlesource.com # Chromium 源码托管
 DOMAIN-SUFFIX,crbug.com # Chromium Bug 跟踪
 DOMAIN-SUFFIX,clients2.google.com # Google 客户端更新服务域名
 DOMAIN-SUFFIX,clients2.googleusercontent.com # Google 客户端资源与内容服务域名
+
+# > Google Chrome Enterprise（Google Chrome 企业服务）
+# - 更新时间：2026-09-29
+
+DOMAIN-SUFFIX,chromeenterprise.google # Google Chrome 企业浏览器管理、安全策略与企业服务域名
 
 # > Android & Google Play（Android 与应用分发）
 # - 校对时间：2026-05-10
