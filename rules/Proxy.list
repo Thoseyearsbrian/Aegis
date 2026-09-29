@@ -3654,7 +3654,7 @@ DOMAIN-SUFFIX,license.telestream.net # 授权服务域名
 DOMAIN-SUFFIX,static.telestream.net # 静态资源域名
 DOMAIN-SUFFIX,inapp.telestream.net # 应用服务域名
 DOMAIN-SUFFIX,cws.telestream.net # 云服务域名
-DOMAIN-SUFFIX,telestream.channeltivity.com # Telestream 基于 Channeltivity 的合作伙伴门户服务域名
+DOMAIN-SUFFIX,telestream.channeltivity.com # Telestream 合作伙伴门户服务域名
 
 # > Zoho Service（Zoho 企业服务平台）
 # - 校对时间：2026-03-28
@@ -10212,6 +10212,11 @@ DOMAIN-SUFFIX,tls-ech.dev # TLS ECH 加密 ClientHello 支持状态与协议兼�
 # - 更新时间：2026-09-29
 
 DOMAIN-SUFFIX,crawlstop.com # Cloudflare AI 爬虫控制与 robots.txt 配置示例测试域名
+
+# > Channeltivity Partner Relationship Management（Channeltivity 合作伙伴关系管理平台）
+# - 更新时间：2026-09-29
+
+DOMAIN-SUFFIX,channeltivity.com # Channeltivity 企业合作伙伴门户与渠道关系管理平台域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
