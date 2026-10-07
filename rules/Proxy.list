@@ -2345,7 +2345,7 @@ DOMAIN-SUFFIX,sc-static.net # 静态资源域名
 DOMAIN-SUFFIX,forms.shopifyapps.com # 表单服务域名
 DOMAIN-SUFFIX,shop.app # 应用域名
 DOMAIN-SUFFIX,shopify.dev # Shopify API、应用、主题与开发者工具服务域名
-DOMAIN-SUFFIX,otlp-http-production.shopifysvc.com # 遥测服务域名
+DOMAIN-SUFFIX,shopifysvc.com # Shopify 平台与后端服务基础设施域名
 
 # > Customily Platform（Customily 个性化定制平台）
 # - 校对时间：2026-03-28
