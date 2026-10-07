@@ -10249,6 +10249,11 @@ DOMAIN-SUFFIX,impact.com # impact.com 联盟营销与合作伙伴管理平台域
 DOMAIN-SUFFIX,pcipro.co # TokenEx PCI Pro 支付卡数据令牌化服务域名
 DOMAIN-SUFFIX,tokenex.com # TokenEx 支付数据令牌化与安全处理服务域名
 
+# > SM.MS Image Hosting（SM.MS 图床服务）
+# - 更新时间：2026-10-07
+
+DOMAIN-SUFFIX,sm.ms # SM.MS 图床与图片分享服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
