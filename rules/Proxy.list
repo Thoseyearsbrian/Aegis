@@ -10253,6 +10253,7 @@ DOMAIN-SUFFIX,tokenex.com # TokenEx 支付数据令牌化与安全处理服务�
 # - 更新时间：2026-10-07
 
 DOMAIN-SUFFIX,sm.ms # SM.MS 图床与图片分享服务域名
+DOMAIN-SUFFIX,loli.net # SM.MS 图床图片存储与 CDN 分发服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
