@@ -777,11 +777,12 @@ DOMAIN-SUFFIX,hyperwallet.com # PayPal 批量付款与全球资金分发平台
 DOMAIN-SUFFIX,paylution.com # PayPal 批量支付结算系统前端与工具服务
 
 # > Canva Design Platform（Canva 设计平台）
-# - 校对时间：2026-04-23
+# - 校对时间：2026-10-07
 
 DOMAIN-SUFFIX,canva.com # 平台主域名
 DOMAIN-SUFFIX,api.canva.com # API 接口域名
 DOMAIN-SUFFIX,static.canva.com # 静态资源域名
+DOMAIN-SUFFIX,canva-apps.com # Canva 应用托管与媒体资源服务域名
 
 # > Affinity Design Software Platform（Affinity 设计软件平台）
 # - 校对时间：2026-03-28
