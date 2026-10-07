@@ -2330,7 +2330,7 @@ DOMAIN-SUFFIX,cdn.bolt.eu # 静态资源域名
 DOMAIN-SUFFIX,assets.bolt.eu # 静态资源域名
 
 # > Shopify E-Commerce Website Builder Platform（Shopify 电商建站平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-10-07
 
 DOMAIN-SUFFIX,shopify.com # 平台主域名
 DOMAIN-SUFFIX,accounts.shopify.com # 账户服务域名
@@ -2344,6 +2344,7 @@ DOMAIN-SUFFIX,shopifycs.com # 客服服务域名
 DOMAIN-SUFFIX,sc-static.net # 静态资源域名
 DOMAIN-SUFFIX,forms.shopifyapps.com # 表单服务域名
 DOMAIN-SUFFIX,shop.app # 应用域名
+DOMAIN-SUFFIX,shopify.dev # Shopify API、应用、主题与开发者工具服务域名
 DOMAIN-SUFFIX,otlp-http-production.shopifysvc.com # 遥测服务域名
 
 # > Customily Platform（Customily 个性化定制平台）
