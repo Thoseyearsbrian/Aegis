@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-09-29
-# - 校对时间：2026-09-29
+# - 更新时间：2026-10-07
+# - 校对时间：2026-10-07
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-09-29
@@ -5059,7 +5059,7 @@ DOMAIN-SUFFIX,intellimizeio.com # 服务域名
 DOMAIN-SUFFIX,static.vanta.com # 静态资源域名
 
 # > HubSpot Marketing and Content Service（HubSpot 营销、表单与内容服务）
-# - 校对时间：2026-07-17
+# - 校对时间：2026-10-07
 
 DOMAIN-SUFFIX,js.hsforms.net # HubSpot 表单脚本域名
 DOMAIN-SUFFIX,forms.hsforms.com # HubSpot 表单提交服务域名
@@ -5085,6 +5085,7 @@ DOMAIN-SUFFIX,hubspotusercontent-na1.net # HubSpot 北美区域用户文件资�
 DOMAIN-SUFFIX,hubspotusercontent-eu1.net # HubSpot 欧洲区域用户文件资源域名
 DOMAIN-SUFFIX,hubapi.com # HubSpot API 调用域名
 DOMAIN-SUFFIX,hubs.ly # HubSpot 短链接跳转域名
+DOMAIN-SUFFIX,hscollectedforms.net # HubSpot 非原生表单采集与提交服务域名
 
 # > Claydar Service（Claydar 前端资源服务）
 # - 校对时间：2026-03-28
