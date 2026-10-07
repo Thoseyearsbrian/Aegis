@@ -10243,6 +10243,11 @@ DOMAIN-SUFFIX,transcend-cdn.com # Transcend 隐私同意管理组件 CDN 服务�
 
 DOMAIN-SUFFIX,impact.com # impact.com 联盟营销与合作伙伴管理平台域名
 
+# > TokenEx PCI Pro Tokenization Service（TokenEx PCI Pro 支付令牌化服务）
+# - 更新时间：2026-10-07
+
+DOMAIN-SUFFIX,pcipro.co # TokenEx PCI Pro 支付卡数据令牌化服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
