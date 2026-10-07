@@ -10257,6 +10257,11 @@ DOMAIN-SUFFIX,sm.ms # SM.MS 图床与图片分享服务域名
 DOMAIN-SUFFIX,smms.app # SM.MS 备用上传与访问服务域名
 DOMAIN-SUFFIX,loli.net # SM.MS 图床图片存储与 CDN 分发服务域名
 
+# > Webflow Asset Delivery Platform（Webflow 静态资源分发平台）
+# - 更新时间：2026-10-07
+
+DOMAIN-SUFFIX,website-files.com # Webflow 静态资源与代码组件 CDN 服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
