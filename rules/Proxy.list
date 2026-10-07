@@ -1768,7 +1768,7 @@ DOMAIN-SUFFIX,twitchcdn.net # 资源分发域名
 DOMAIN-SUFFIX,ext-twitch.tv # 扩展服务域名
 
 # > Dropbox Cloud Storage Platform（Dropbox 云存储平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-10-07
 
 DOMAIN-SUFFIX,dropbox.com # 平台主域名
 DOMAIN-SUFFIX,dl.dropbox.com # 下载服务域名
@@ -1776,6 +1776,7 @@ DOMAIN-SUFFIX,dl.dropboxusercontent.com # 内容下载域名
 DOMAIN-SUFFIX,dropboxapi.com # API 接口域名
 DOMAIN-SUFFIX,dropboxstatic.com # 静态资源域名
 DOMAIN-SUFFIX,dropboxusercontent.com # 内容资源域名
+DOMAIN-SUFFIX,docsend.com # Dropbox DocSend 文档共享服务域名
 
 # > Flighty Flight Tracking App（Flighty 航班追踪应用）
 # - 校对时间：2026-03-28
