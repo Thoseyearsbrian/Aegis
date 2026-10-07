@@ -10267,6 +10267,11 @@ DOMAIN-SUFFIX,website-files.com # Webflow 静态资源与代码组件 CDN 服务
 
 DOMAIN-SUFFIX,mit.edu # 麻省理工学院教学、科研与校园服务官方域名
 
+# > Imperial College London（帝国理工学院）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,imperial.ac.uk # 帝国理工学院教学、科研与校园服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
