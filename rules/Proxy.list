@@ -10230,6 +10230,12 @@ DOMAIN-SUFFIX,tillo.io # Tillo 平台账户、API 与静态资源服务域名
 
 DOMAIN-SUFFIX,default.com # Default 潜客采集、销售分配与工作流自动化平台域名
 
+# > Transcend Privacy & Consent Management Platform（Transcend 隐私与同意管理平台）
+# - 更新时间：2026-10-07
+
+DOMAIN-SUFFIX,transcend.io # Transcend 隐私治理、同意管理与数据权利服务官方域名
+DOMAIN-SUFFIX,transcend-cdn.com # Transcend 隐私同意管理组件 CDN 服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
