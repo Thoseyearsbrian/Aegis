@@ -154,6 +154,11 @@ DOMAIN-SUFFIX,msauth.net # Microsoft 身份认证与登录资源服务域名
 
 DOMAIN-SUFFIX,static2.sharepointonline.com # SharePoint Online 静态资源服务域名
 
+# > Microsoft Content Security Policy Reporting（Microsoft 内容安全策略报告服务）
+# - 更新时间：2026-10-07
+
+DOMAIN-SUFFIX,cspv2.core.microsoft # Microsoft CSP 安全策略违规报告服务域名
+
 # > Microsoft Telemetry & Diagnostics（Microsoft 诊断与遥测服务）
 
 DOMAIN-SUFFIX,settings-win.data.microsoft.com # Windows 诊断与遥测服务
