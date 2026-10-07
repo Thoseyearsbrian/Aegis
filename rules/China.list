@@ -2796,6 +2796,10 @@ DOMAIN-SUFFIX,noisedh.cn # NOISE导航综合类网址导航主域名
 DOMAIN-SUFFIX,noisedh.link # NOISE导航综合类网址导航服务域名
 DOMAIN-SUFFIX,noisework.cn # NOISE 导航、MCP、搜索 API 及相关服务
 DOMAIN-SUFFIX,noiseyp.top # NOISE 资源分享与网盘搜索服务域名
+DOMAIN-SUFFIX,noisedaohang.netlify.app # NOISE 导航 Netlify 备用访问域名
+DOMAIN-SUFFIX,daohang-c5k.pages.dev # NOISE 导航 Cloudflare Pages 备用访问域名
+DOMAIN-SUFFIX,noisedh.vercel.app # NOISE 导航 Vercel 备用访问域名
+DOMAIN-SUFFIX,noisedh.maozi.io # NOISE 导航备用访问域名
 
 # > Injahow Media API Service（Injahow 媒体 API 服务）
 # - 更新时间：2026-07-27
