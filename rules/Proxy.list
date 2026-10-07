@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-07
-# - 校对时间：2026-10-07
+# - 更新时间：2026-10-08
+# - 校对时间：2026-10-08
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-09-29
@@ -10261,6 +10261,11 @@ DOMAIN-SUFFIX,loli.net # SM.MS 图床图片存储与 CDN 分发服务域名
 # - 更新时间：2026-10-07
 
 DOMAIN-SUFFIX,website-files.com # Webflow 静态资源与代码组件 CDN 服务域名
+
+# > Massachusetts Institute of Technology（麻省理工学院）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,mit.edu # 麻省理工学院教学、科研与校园服务官方域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
