@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-09-06
-# - 校对时间：2026-09-06
+# - 更新时间：2026-10-07
+# - 校对时间：2026-10-07
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
@@ -2919,6 +2919,11 @@ DOMAIN-SUFFIX,type.fun # 打字星球在线打字练习与课程学习平台域�
 # - 更新时间：2026-09-06
 
 DOMAIN-SUFFIX,broadcom.cn # Broadcom 中国官方网站域名
+
+# > NOISE jsDelivr CDN Accelerator（NOISE jsDelivr CDN 加速服务）
+# - 更新时间：2026-10-07
+
+DOMAIN-SUFFIX,jsd.cdn.noisework.cn # NOISE jsDelivr GitHub 与 npm 资源加速服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
