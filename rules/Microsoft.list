@@ -160,6 +160,11 @@ DOMAIN-SUFFIX,static2.sharepointonline.com # SharePoint Online 静态资源服�
 
 DOMAIN-SUFFIX,cspv2.core.microsoft # Microsoft CSP 安全策略违规报告服务域名
 
+# > Microsoft Entra Seamless SSO（Microsoft Entra 无缝单点登录）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,microsoftazuread-sso.com # Microsoft Entra 无缝单点登录与 Kerberos 身份认证服务域名
+
 # > Microsoft Telemetry & Diagnostics（Microsoft 诊断与遥测服务）
 
 DOMAIN-SUFFIX,settings-win.data.microsoft.com # Windows 诊断与遥测服务
