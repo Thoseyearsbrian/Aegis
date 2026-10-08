@@ -10516,6 +10516,11 @@ DOMAIN-SUFFIX,zencdn.net # Brightcove Video.js 播放器与静态资源 CDN 域�
 
 DOMAIN-SUFFIX,technolutions.net # Technolutions Slate 平台与邮件基础设施服务域名
 
+# > LightWidget Instagram Widget Platform（LightWidget Instagram 嵌入组件平台）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,lightwidget.com # LightWidget Instagram Feed 嵌入与组件服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
