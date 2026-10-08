@@ -10427,6 +10427,11 @@ DOMAIN-SUFFIX,ed.ac.uk # 爱丁堡大学教学、研究与校园服务官方域�
 
 DOMAIN-SUFFIX,kcl.ac.uk # 伦敦国王学院教学、科研与校园服务官方域名
 
+# > Seoul National University（首尔大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,snu.ac.kr # 首尔大学官网、招生与教学研究服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
