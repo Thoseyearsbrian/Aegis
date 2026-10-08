@@ -10357,6 +10357,11 @@ DOMAIN-SUFFIX,berkeley.edu # 加州大学伯克利分校官方教育、研究与
 
 DOMAIN-SUFFIX,jhu.edu # 约翰斯·霍普金斯大学教学、科研与校园服务官方域名
 
+# > University of Melbourne（墨尔本大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,unimelb.edu.au # 墨尔本大学教育、研究与校园服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
