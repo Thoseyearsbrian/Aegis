@@ -2941,6 +2941,11 @@ DOMAIN-SUFFIX,pku.edu.cn # 北京大学教学、科研与校园服务官方域�
 
 DOMAIN-SUFFIX,tsinghua.edu.cn # 清华大学官方网站与教育科研服务域名
 
+# > Fudan University（复旦大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,fudan.edu.cn # 复旦大学官方网站与校园服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
