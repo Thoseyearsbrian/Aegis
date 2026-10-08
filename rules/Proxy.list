@@ -10332,6 +10332,11 @@ DOMAIN-SUFFIX,online.engineering.upenn.edu # Penn Engineering 在线学位与专
 
 DOMAIN-SUFFIX,yale.edu # 耶鲁大学官方网站与教育科研服务域名
 
+# > Cornell University（康奈尔大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,cornell.edu # 康奈尔大学教学、科研与校园服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
