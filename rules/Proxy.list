@@ -10412,6 +10412,11 @@ DOMAIN-SUFFIX,utoronto.ca # 多伦多大学教学、科研与校务服务官方�
 
 DOMAIN-SUFFIX,hkust.edu.hk # 香港科技大学教学、科研与校园服务官方域名
 
+# > Université PSL（巴黎文理研究大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,psl.eu # 巴黎文理研究大学教育、科研与学生服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
