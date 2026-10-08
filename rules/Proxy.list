@@ -10526,6 +10526,11 @@ DOMAIN-SUFFIX,lightwidget.com # LightWidget Instagram Feed 嵌入与组件服务
 
 DOMAIN-SUFFIX,coursedog.com # Coursedog 高校课程、排课与学术运营管理服务域名
 
+# > OnlineWebFonts Font Platform（OnlineWebFonts 在线字体平台）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,onlinewebfonts.com # OnlineWebFonts 字体下载与 Web Font CDN 服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
