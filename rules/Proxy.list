@@ -10317,6 +10317,11 @@ DOMAIN-SUFFIX,nus.edu.sg # 新加坡国立大学教学、科研与校园服务�
 
 DOMAIN-SUFFIX,hku.hk # 香港大学教学、科研与校园服务官方域名
 
+# > Nanyang Technological University Singapore（新加坡南洋理工大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,ntu.edu.sg # 新加坡南洋理工大学教育、科研与校园服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
