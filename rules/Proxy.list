@@ -10502,6 +10502,11 @@ DOMAIN-SUFFIX,terminalfour.net # Terminalfour 高校内容管理与媒体 CDN �
 
 DOMAIN-SUFFIX,wpmucdn.com # WPMU DEV / CampusPress 静态资源 CDN 域名
 
+# > Brightcove Video.js CDN（Brightcove Video.js 内容分发服务）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,zencdn.net # Brightcove Video.js 播放器与静态资源 CDN 域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
