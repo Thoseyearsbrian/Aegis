@@ -10467,6 +10467,11 @@ DOMAIN-SUFFIX,ip-paris.fr # 巴黎理工学院高等教育、科研与学术服�
 
 DOMAIN-SUFFIX,ubc.ca # 不列颠哥伦比亚大学教学、研究与校园服务官方域名
 
+# > Northwestern University（美国西北大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,northwestern.edu # 美国西北大学教学、研究与校园服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
