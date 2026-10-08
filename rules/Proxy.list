@@ -10457,6 +10457,11 @@ DOMAIN-SUFFIX,yonsei.ac.kr # 韩国延世大学官方教育、学术与校园服
 
 DOMAIN-SUFFIX,columbia.edu # 哥伦比亚大学教学、研究与校园服务官方域名
 
+# > Institut Polytechnique de Paris（巴黎理工学院）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,ip-paris.fr # 巴黎理工学院高等教育、科研与学术服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
