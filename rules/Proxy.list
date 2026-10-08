@@ -10407,6 +10407,11 @@ DOMAIN-SUFFIX,monash.edu # 莫纳什大学教育、研究与学生服务官方�
 
 DOMAIN-SUFFIX,utoronto.ca # 多伦多大学教学、科研与校务服务官方域名
 
+# > Hong Kong University of Science and Technology（香港科技大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,hkust.edu.hk # 香港科技大学教学、科研与校园服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
