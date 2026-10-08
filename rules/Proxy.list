@@ -10497,6 +10497,11 @@ DOMAIN-SUFFIX,appzi.io # Appzi 网站反馈与在线问卷服务域名
 
 DOMAIN-SUFFIX,terminalfour.net # Terminalfour 高校内容管理与媒体 CDN 服务域名
 
+# > WPMU DEV / CampusPress CDN（WPMU DEV / CampusPress 内容分发网络）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,wpmucdn.com # WPMU DEV / CampusPress 静态资源 CDN 域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
