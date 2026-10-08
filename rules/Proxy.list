@@ -10442,6 +10442,11 @@ DOMAIN-SUFFIX,u-tokyo.ac.jp # 东京大学教育、科研与校园服务官方�
 
 DOMAIN-SUFFIX,manchester.ac.uk # 英国曼彻斯特大学教学、研究与校园服务官方域名
 
+# > The University of Queensland（澳大利亚昆士兰大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,uq.edu.au # 澳大利亚昆士兰大学教学、科研与校园服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
