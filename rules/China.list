@@ -2956,6 +2956,11 @@ DOMAIN-SUFFIX,sjtu.edu.cn # 上海交通大学官网、教学与科研服务域�
 
 DOMAIN-SUFFIX,zju.edu.cn # 浙江大学教学、科研与校园服务官方域名
 
+# > CNKI Academic Database（中国知网学术数据库）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,cnki.net # 中国知网学术文献检索与知识服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
