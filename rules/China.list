@@ -2936,6 +2936,11 @@ DOMAIN-SUFFIX,jsd.cdn.noisework.cn # NOISE jsDelivr GitHub 与 npm 资源加速�
 
 DOMAIN-SUFFIX,pku.edu.cn # 北京大学教学、科研与校园服务官方域名
 
+# > Tsinghua University（清华大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,tsinghua.edu.cn # 清华大学官方网站与教育科研服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
