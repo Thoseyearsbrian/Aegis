@@ -10347,6 +10347,11 @@ DOMAIN-SUFFIX,cuhk.edu.hk # 香港中文大学教学、研究与校园服务官�
 
 DOMAIN-SUFFIX,unsw.edu.au # 新南威尔士大学教学、科研与校园服务官方域名
 
+# > University of California, Berkeley（加州大学伯克利分校）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,berkeley.edu # 加州大学伯克利分校官方教育、研究与校园服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
