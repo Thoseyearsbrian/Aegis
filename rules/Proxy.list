@@ -10282,6 +10282,11 @@ DOMAIN-SUFFIX,stanford.edu # 斯坦福大学教学、科研与校园服务官方
 
 DOMAIN-SUFFIX,ox.ac.uk # 牛津大学教学、研究与公共服务官方域名
 
+# > Harvard University（哈佛大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,harvard.edu # 哈佛大学官方教学、研究与公共服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
