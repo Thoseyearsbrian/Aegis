@@ -10372,6 +10372,11 @@ DOMAIN-SUFFIX,epfl.ch # 洛桑联邦理工学院教育、科研与校园服务�
 
 DOMAIN-SUFFIX,uchicago.edu # 芝加哥大学教学、研究与校园服务官方域名
 
+# > Technical University of Munich（慕尼黑工业大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,tum.de # 慕尼黑工业大学教学、科研与校园服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
