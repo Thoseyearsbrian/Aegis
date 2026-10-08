@@ -10312,6 +10312,11 @@ DOMAIN-SUFFIX,ucl.ac.uk # 伦敦大学学院教育、研究与校园服务官方
 
 DOMAIN-SUFFIX,nus.edu.sg # 新加坡国立大学教学、科研与校园服务官方域名
 
+# > The University of Hong Kong（香港大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,hku.hk # 香港大学教学、科研与校园服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
