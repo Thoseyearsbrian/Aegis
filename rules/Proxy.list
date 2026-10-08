@@ -10511,6 +10511,11 @@ DOMAIN-SUFFIX,wpmucdn.com # WPMU DEV / CampusPress 静态资源 CDN 域名
 
 DOMAIN-SUFFIX,zencdn.net # Brightcove Video.js 播放器与静态资源 CDN 域名
 
+# > Technolutions Slate Platform（Technolutions Slate 平台）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,technolutions.net # Technolutions Slate 平台与邮件基础设施服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
