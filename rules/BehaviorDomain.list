@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-09-10
-# - 校对时间：2026-09-10
+# - 更新时间：2026-10-08
+# - 校对时间：2026-10-08
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -999,3 +999,8 @@ DOMAIN-SUFFIX,vpdcp.com # VistaPrint 用户行为追踪服务域名
 # - 更新时间：2026-09-11
 
 DOMAIN-SUFFIX,parsely.com # Parse.ly 网站访问、内容表现与用户行为分析服务域名
+
+# > VWO Experience Optimization Platform（VWO 体验优化与行为分析平台）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,visualwebsiteoptimizer.com # VWO A/B 测试、行为分析与转化追踪服务域名
