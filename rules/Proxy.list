@@ -10297,6 +10297,11 @@ DOMAIN-SUFFIX,cam.ac.uk # 剑桥大学官网、院系与研究机构服务域名
 
 DOMAIN-SUFFIX,caltech.edu # 加州理工学院科研、教育与学术服务域名
 
+# > ETH Zurich（苏黎世联邦理工学院）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,ethz.ch # ETH Zurich 教学、科研与校园服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
