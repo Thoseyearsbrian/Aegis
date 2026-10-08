@@ -10287,6 +10287,11 @@ DOMAIN-SUFFIX,ox.ac.uk # 牛津大学教学、研究与公共服务官方域名
 
 DOMAIN-SUFFIX,harvard.edu # 哈佛大学官方教学、研究与公共服务域名
 
+# > University of Cambridge（剑桥大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,cam.ac.uk # 剑桥大学官网、院系与研究机构服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
