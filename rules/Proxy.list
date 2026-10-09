@@ -10612,6 +10612,11 @@ DOMAIN-SUFFIX,presspage.com # Presspage 企业新闻发布、媒体关系与内�
 DOMAIN-SUFFIX,embed.ly # Embedly 富媒体嵌入与内容处理平台域名
 DOMAIN-SUFFIX,cdn.embedly.com # Embedly 富媒体组件与脚本 CDN 域名
 
+# > PageUp Talent Acquisition Platform（PageUp 人才招聘与管理平台）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,pageuppeople.com # PageUp 企业招聘、人才管理与平台服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
