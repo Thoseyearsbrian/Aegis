@@ -10294,7 +10294,7 @@ DOMAIN-SUFFIX,conference-oxford.com # 牛津大学会议、活动与场地预订
 DOMAIN-SUFFIX,oxford.shorthandstories.com # 牛津大学数字专题与故事内容托管服务域名
 
 # > Harvard University（哈佛大学）
-# - 校对时间：2026-10-08
+# - 校对时间：2026-10-09
 
 DOMAIN-SUFFIX,harvard.edu # 哈佛大学官方教学、研究与公共服务域名
 
@@ -10562,6 +10562,11 @@ DOMAIN-SUFFIX,mazemap.com # MazeMap 室内地图、定位与导航服务域名
 # - 更新时间：2026-10-09
 
 DOMAIN-SUFFIX,theconversation.com # The Conversation 学术新闻、研究解读与知识传播服务域名
+
+# > Trumba Event Calendar Platform（Trumba 活动日历平台）
+# - 更新时间：2026-10-09
+
+DOMAIN-SUFFIX,trumba.com # Trumba 活动日历管理、发布与报名服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
