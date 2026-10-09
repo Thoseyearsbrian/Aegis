@@ -1219,6 +1219,11 @@ DOMAIN-SUFFIX,px-cloud.net # HUMAN 机器人防护采集服务域
 
 DOMAIN-SUFFIX,cookielaw.org # OneTrust Cookie 同意管理服务域名
 
+# > CIVIC Cookie Control（CIVIC Cookie 同意管理服务）
+# - 更新时间：2026-10-09
+
+DOMAIN-SUFFIX,apikeys.civiccomputing.com # CIVIC Cookie Control API 密钥验证服务域名
+
 # > PingOne Identity Platform（PingOne 身份认证平台）
 # - 校对时间：2026-07-31
 
