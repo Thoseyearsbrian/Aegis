@@ -10536,6 +10536,11 @@ DOMAIN-SUFFIX,onlinewebfonts.com # OnlineWebFonts 字体下载与 Web Font CDN �
 
 DOMAIN-SUFFIX,iconsultants.wpengine.com # WP Engine 托管的 iConsultants WordPress 环境域名
 
+# > Stanford Health Care（Stanford Health Care 医疗服务）
+# - 更新时间：2026-10-09
+
+DOMAIN-SUFFIX,stanfordhealthcare.org # Stanford Health Care 医疗与患者服务官方域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
