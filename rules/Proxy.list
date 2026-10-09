@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-08
-# - 校对时间：2026-10-08
+# - 更新时间：2026-10-09
+# - 校对时间：2026-10-09
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-09-29
@@ -10530,6 +10530,11 @@ DOMAIN-SUFFIX,coursedog.com # Coursedog 高校课程、排课与学术运营管�
 # - 更新时间：2026-10-08
 
 DOMAIN-SUFFIX,onlinewebfonts.com # OnlineWebFonts 字体下载与 Web Font CDN 服务域名
+
+# > WP Engine Hosted WordPress Environment（WP Engine WordPress 托管环境）
+# - 更新时间：2026-10-09
+
+DOMAIN-SUFFIX,iconsultants.wpengine.com # WP Engine 托管的 iConsultants WordPress 环境域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
