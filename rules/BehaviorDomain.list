@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-08
-# - 校对时间：2026-10-08
+# - 更新时间：2026-10-09
+# - 校对时间：2026-10-09
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -1004,3 +1004,8 @@ DOMAIN-SUFFIX,parsely.com # Parse.ly 网站访问、内容表现与用户行为�
 # - 更新时间：2026-10-08
 
 DOMAIN-SUFFIX,visualwebsiteoptimizer.com # VWO A/B 测试、行为分析与转化追踪服务域名
+
+# > Lucky Orange Behavior Analytics Platform（Lucky Orange 用户行为分析平台）
+# - 更新时间：2026-10-09
+
+DOMAIN-SUFFIX,luckyorange.com # Lucky Orange 会话录制、热图与用户行为分析服务域名
