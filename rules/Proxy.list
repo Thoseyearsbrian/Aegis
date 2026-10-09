@@ -10606,6 +10606,12 @@ DOMAIN-SUFFIX,libanswers.com # Springshare 图书馆咨询、工单与在线聊�
 
 DOMAIN-SUFFIX,presspage.com # Presspage 企业新闻发布、媒体关系与内容分发服务域名
 
+# > Embedly Rich Media Platform（Embedly 富媒体嵌入平台）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,embed.ly # Embedly 富媒体嵌入与内容处理平台域名
+DOMAIN-SUFFIX,cdn.embedly.com # Embedly 富媒体组件与脚本 CDN 域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
