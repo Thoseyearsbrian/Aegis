@@ -10632,6 +10632,11 @@ DOMAIN-SUFFIX,sharethis.com # ShareThis 内容分享、平台管理与数据服�
 
 DOMAIN-SUFFIX,maglr.com # Maglr 互动内容创建、发布与嵌入服务域名
 
+# > DialogShield Admission CX（DialogShield 招生客户体验服务）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,admission-cx.dialogshield.ai # DialogShield 招生客户体验服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
