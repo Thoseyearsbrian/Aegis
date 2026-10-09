@@ -10337,7 +10337,7 @@ DOMAIN-SUFFIX,nus.edu.sg # 新加坡国立大学教学、科研与校园服务�
 DOMAIN-SUFFIX,nusx.edu.sg # NUSX 创新创业、科研转化与深科技孵化服务域名
 
 # > The University of Hong Kong（香港大学）
-# - 校对时间：2026-10-08
+# - 校对时间：2026-10-10
 
 DOMAIN-SUFFIX,hku.hk # 香港大学教学、科研与校园服务官方域名
 
@@ -10616,6 +10616,11 @@ DOMAIN-SUFFIX,cdn.embedly.com # Embedly 富媒体组件与脚本 CDN 域名
 # - 更新时间：2026-10-10
 
 DOMAIN-SUFFIX,pageuppeople.com # PageUp 企业招聘、人才管理与平台服务域名
+
+# > Usetiful Digital Adoption Platform（Usetiful 数字化采用平台）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,usetiful.com # Usetiful 用户引导、产品导览与数字化采用服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
