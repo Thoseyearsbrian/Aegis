@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-09
-# - 校对时间：2026-10-09
+# - 更新时间：2026-10-10
+# - 校对时间：2026-10-10
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-09-29
@@ -10597,6 +10597,11 @@ DOMAIN-SUFFIX,glassdoor.co.uk # Glassdoor 英国职位搜索、企业评价与�
 # - 更新时间：2026-10-09
 
 DOMAIN-SUFFIX,libanswers.com # Springshare 图书馆咨询、工单与在线聊天服务域名
+
+# > Presspage PR & Communications Platform（Presspage 公关与传播平台）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,presspage.com # Presspage 企业新闻发布、媒体关系与内容分发服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
