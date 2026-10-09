@@ -1006,3 +1006,8 @@ DOMAIN-SUFFIX,visualwebsiteoptimizer.com # VWO A/B 测试、行为分析与转�
 # - 更新时间：2026-10-09
 
 DOMAIN-SUFFIX,luckyorange.com # Lucky Orange 会话录制、热图与用户行为分析服务域名
+
+# > Piano Analytics（Piano 行为分析平台）
+# - 更新时间：2026-10-09
+
+DOMAIN-SUFFIX,aticdn.net # Piano Analytics 行为分析脚本与 SDK CDN 域名
