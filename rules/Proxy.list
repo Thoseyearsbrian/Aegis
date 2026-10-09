@@ -5448,7 +5448,7 @@ DOMAIN-SUFFIX,tencent-cloud.com # Tencent Cloud 国际服务主域名
 DOMAIN-SUFFIX,cloudcache.tencent-cloud.com # Tencent Cloud 缓存与静态资源服务域名
 
 # > Adobe Service（Adobe 国际服务）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-10-09
 
 DOMAIN-SUFFIX,adobe.com # 官网主域名
 DOMAIN-SUFFIX,adobelogin.com # 登录域名
@@ -5476,6 +5476,7 @@ DOMAIN-SUFFIX,uploads-us-west-2.insided.com # Adobe 社区（Insided 平台）�
 DOMAIN-SUFFIX,static.customer-hub.northpass.com # Adobe Customer Hub 学习与客户支持平台静态资源域名（Northpass）
 DOMAIN-SUFFIX,acrobat.com # Adobe Acrobat 在线 PDF 服务域名，用于文档处理、共享与协作
 DOMAIN-SUFFIX,documentcloud.adobe.com # Adobe Document Cloud 服务域名，用于 PDF 存储、同步与管理
+DOMAIN-SUFFIX,typekit.com # Adobe Fonts / Typekit Web 字体与资源服务域名
 
 # > AllOrigins Service Domains（AllOrigins 公共代理 API 服务域名）
 # - 校对时间：2026-03-28
