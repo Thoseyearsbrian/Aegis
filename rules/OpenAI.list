@@ -684,3 +684,8 @@ DOMAIN-SUFFIX,global-cx.dialogshield.ai # DialogShield AI 客户体验服务域�
 # - 更新时间：2026-10-10
 
 DOMAIN-SUFFIX,wonderchat.io # Wonderchat AI Agent、RAG Chatbot 与智能客服服务域名
+
+# > Ivy.ai Generative AI Chatbot Platform（Ivy.ai 生成式 AI 聊天机器人平台）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,ivy.ai # Ivy.ai 生成式 AI 聊天机器人与智能客服服务域名
