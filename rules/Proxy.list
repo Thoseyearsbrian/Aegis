@@ -10359,6 +10359,7 @@ DOMAIN-SUFFIX,upenn.edu # 宾夕法尼亚大学官方教育与校园服务域名
 
 DOMAIN-SUFFIX,yale.edu # 耶鲁大学官方网站与教育科研服务域名
 DOMAIN-SUFFIX,yale-webfonts.yalespace.org # 耶鲁大学官方 Web 字体资源服务域名
+DOMAIN-SUFFIX,collections.yale.edu # 耶鲁大学数字馆藏检索与文化遗产资源服务域名
 
 # > Cornell University（康奈尔大学）
 # - 更新时间：2026-10-08
