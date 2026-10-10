@@ -10667,6 +10667,11 @@ DOMAIN-SUFFIX,arcgisonline.com # Esri ArcGIS 在线地图与地理信息服务�
 
 DOMAIN-SUFFIX,cornellbotanicgardens.org # 康奈尔植物园、科研教育与自然保护服务域名
 
+# > Curator Social Media Aggregator（Curator 社交媒体聚合平台）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,curator.io # Curator 社交媒体聚合与嵌入式内容展示服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
