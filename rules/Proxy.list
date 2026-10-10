@@ -10684,6 +10684,11 @@ DOMAIN-SUFFIX,canto.global # Canto 全球区域数字资产管理平台服务域
 
 DOMAIN-SUFFIX,altmetric.com # Altmetric 科研成果关注度追踪与影响力分析服务域名
 
+# > PlumX Research Metrics Platform（PlumX 科研影响力指标平台）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,plu.mx # PlumX 科研成果影响力与替代计量服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
