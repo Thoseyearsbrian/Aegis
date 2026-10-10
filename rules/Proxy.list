@@ -10367,9 +10367,10 @@ DOMAIN-SUFFIX,collections.yale.edu # 耶鲁大学数字馆藏检索与文化遗�
 DOMAIN-SUFFIX,cornell.edu # 康奈尔大学教学、科研与校园服务官方域名
 
 # > The Chinese University of Hong Kong（香港中文大学）
-# - 更新时间：2026-10-08
+# - 更新时间：2026-10-10
 
 DOMAIN-SUFFIX,cuhk.edu.hk # 香港中文大学教学、研究与校园服务官方域名
+DOMAIN-SUFFIX,cuhk.canto.global # 香港中文大学 Canto 数字媒体资源库服务域名
 
 # > University of New South Wales（新南威尔士大学）
 # - 更新时间：2026-10-08
