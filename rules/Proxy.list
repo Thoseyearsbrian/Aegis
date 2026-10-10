@@ -10641,6 +10641,11 @@ DOMAIN-SUFFIX,maglr.com # Maglr 互动内容创建、发布与嵌入服务域名
 
 DOMAIN-SUFFIX,admission-cx.dialogshield.ai # DialogShield 招生客户体验服务域名
 
+# > Datawrapper Visualization CDN（Datawrapper 数据可视化 CDN）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,dwcdn.net # Datawrapper 图表、地图与可视化资源 CDN 域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
