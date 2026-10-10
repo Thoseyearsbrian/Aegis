@@ -10347,9 +10347,10 @@ DOMAIN-SUFFIX,hku.hk # 香港大学教学、科研与校园服务官方域名
 DOMAIN-SUFFIX,ntu.edu.sg # 新加坡南洋理工大学教育、科研与校园服务官方域名
 
 # > Penn Engineering Online（宾夕法尼亚大学工程学院在线教育平台）
-# - 更新时间：2026-10-08
+# - 更新时间：2026-10-10
 
 DOMAIN-SUFFIX,online.engineering.upenn.edu # Penn Engineering 在线学位与专业教育服务域名
+DOMAIN-SUFFIX,gradadmissions.seas.upenn.edu # Penn Engineering 研究生招生与申请服务域名
 
 # > Yale University（耶鲁大学）
 # - 更新时间：2026-10-08
