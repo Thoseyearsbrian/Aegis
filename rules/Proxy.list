@@ -10689,6 +10689,11 @@ DOMAIN-SUFFIX,altmetric.com # Altmetric 科研成果关注度追踪与影响力�
 
 DOMAIN-SUFFIX,plu.mx # PlumX 科研成果影响力与替代计量服务域名
 
+# > Elsevier Academic Publishing Platform（Elsevier 学术出版平台）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,elsevier.com # Elsevier 学术出版、科研信息与专业内容服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
