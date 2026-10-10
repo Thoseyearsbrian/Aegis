@@ -10662,6 +10662,11 @@ DOMAIN-SUFFIX,nmcdn.io # NMC 网站静态资源与媒体文件 CDN 域名
 
 DOMAIN-SUFFIX,arcgisonline.com # Esri ArcGIS 在线地图与地理信息服务域名
 
+# > Cornell Botanic Gardens（康奈尔植物园）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,cornellbotanicgardens.org # 康奈尔植物园、科研教育与自然保护服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
