@@ -690,3 +690,9 @@ DOMAIN-SUFFIX,wonderchat.io # Wonderchat AI Agent、RAG Chatbot 与智能客服�
 
 DOMAIN-SUFFIX,ivy.ai # Ivy.ai 生成式 AI 聊天机器人与智能客服服务域名
 DOMAIN-SUFFIX,ivy-cdn.com # Ivy.ai 聊天机器人静态资源 CDN 域名
+
+# > Scribe Workflow AI Platform（Scribe AI 工作流平台）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,scribe.com # Scribe AI 工作流与流程文档平台官方域名
+DOMAIN-SUFFIX,scribehow.com # Scribe 工作流捕获、文档生成与平台服务域名
