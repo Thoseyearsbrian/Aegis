@@ -1011,3 +1011,8 @@ DOMAIN-SUFFIX,luckyorange.com # Lucky Orange 会话录制、热图与用户行�
 # - 更新时间：2026-10-09
 
 DOMAIN-SUFFIX,aticdn.net # Piano Analytics 行为分析脚本与 SDK CDN 域名
+
+# > MyFonts Web Font Tracking（MyFonts Web 字体使用统计）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,hello.myfonts.net # MyFonts Web 字体页面浏览统计服务域名
