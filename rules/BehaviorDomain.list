@@ -1021,3 +1021,8 @@ DOMAIN-SUFFIX,hello.myfonts.net # MyFonts Web 字体页面浏览统计服务域�
 # - 更新时间：2026-10-10
 
 DOMAIN-SUFFIX,smetrics.elsevier.com # Elsevier Adobe Analytics 网站访问与行为分析服务域名
+
+# > Elsevier Adobe Analytics（Elsevier Adobe 行为分析服务）
+# - 更新时间：2026-10-10
+
+DOMAIN-SUFFIX,smetrics.elsevier.com # Elsevier Adobe Analytics 用户访问与行为分析服务域名
