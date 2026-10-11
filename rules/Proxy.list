@@ -10730,6 +10730,11 @@ DOMAIN-SUFFIX,static.srcspot.com # SrcSpot 第三方 JavaScript 静态资源 CDN
 
 DOMAIN-SUFFIX,geo.admin.ch # 瑞士联邦官方地理数据与地图服务域名
 
+# > SWITCHcast Video Platform（SWITCHcast 教育视频平台）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,cast.switch.ch # SWITCHcast 教育视频管理、API 与流媒体服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
