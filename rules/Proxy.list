@@ -1229,6 +1229,11 @@ DOMAIN-SUFFIX,apikeys.civiccomputing.com # CIVIC Cookie Control API 密钥验证
 
 DOMAIN-SUFFIX,consentmo.com # Consentmo 隐私合规与 Cookie 同意管理服务域名
 
+# > iubenda Privacy Compliance Platform（iubenda 隐私合规平台）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,iubenda.com # iubenda 隐私合规、Cookie 与同意管理服务域名
+
 # > PingOne Identity Platform（PingOne 身份认证平台）
 # - 校对时间：2026-07-31
 
