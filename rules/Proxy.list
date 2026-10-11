@@ -10799,6 +10799,11 @@ DOMAIN-SUFFIX,concept3d.com # Concept3D 互动地图、虚拟导览与数字体�
 
 DOMAIN-SUFFIX,alertable.ca # Alertable 紧急警报与公共安全通知服务域名
 
+# > SAP SuccessFactors HCM Platform（SAP SuccessFactors 人力资源管理平台）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,sapsf.com # SAP SuccessFactors HCM 平台与数据中心服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
