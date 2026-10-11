@@ -4170,9 +4170,9 @@ DOMAIN-SUFFIX,status.rapidssl.com # 状态服务域名
 DOMAIN-SUFFIX,globalsign.com # 平台主域名
 
 # > DigiCert OCSP Certificate Service（DigiCert OCSP 证书服务）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-10-11
 
-DOMAIN-SUFFIX,ocsp.digicert.com # OCSP 服务域名
+DOMAIN-SUFFIX,digicert.com # DigiCert TLS/SSL 证书、PKI 与数字信任服务域名
 
 # > Shields.io Service（Shields.io 徽章服务）
 # - 校对时间：2026-03-28
