@@ -1042,3 +1042,8 @@ DOMAIN-SUFFIX,secure.inventive52intuitive.com # B2B 网站访客识别与追踪�
 # - 更新时间：2026-10-11
 
 DOMAIN-SUFFIX,snippet.maze.co # Maze 网站测试与用户行为分析脚本域名
+
+# > Statcounter Web Analytics Platform（Statcounter 网站行为分析平台）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,statcounter.com # Statcounter 网站流量与访客行为分析服务域名
