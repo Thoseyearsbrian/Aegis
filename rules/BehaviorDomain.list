@@ -370,11 +370,12 @@ DOMAIN-SUFFIX,bigdata.talkie-ai.com # Talkie-AI 数据分析服务域名
 DOMAIN-SUFFIX,api.keen.io # Keen 数据采集接口
 
 # > Adobe / Gainsight 行为遥测服务
-# - 校对时间：2026-03-25
+# - 校对时间：2026-10-11
 
 DOMAIN-SUFFIX,dcs.adobedc.net # Adobe 数据采集接口
 DOMAIN-SUFFIX,rum.hlx.page # Adobe RUM 遥测服务域名
 DOMAIN-SUFFIX,web-sdk.aptrinsic.com # Gainsight PX 行为分析接口
+DOMAIN-SUFFIX,tt.omtrdc.net # Adobe Target A/B 测试与内容个性化服务域名
 
 # > Datadog Browser Intake 遥测节点
 # - 校对时间：2026-03-25
