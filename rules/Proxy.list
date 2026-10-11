@@ -10783,6 +10783,11 @@ DOMAIN-SUFFIX,myworkday.com # Workday 企业租户登录与云应用服务域名
 
 DOMAIN-SUFFIX,brightspace.com # D2L Brightspace 在线学习与课程管理服务域名
 
+# > Squiz Funnelback Search（Squiz Funnelback 网站搜索服务）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,funnelback.squiz.cloud # Squiz Funnelback 网站搜索与内容检索服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
