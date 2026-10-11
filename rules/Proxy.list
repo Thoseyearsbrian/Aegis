@@ -10804,6 +10804,11 @@ DOMAIN-SUFFIX,alertable.ca # Alertable 紧急警报与公共安全通知服务�
 
 DOMAIN-SUFFIX,sapsf.com # SAP SuccessFactors HCM 平台与数据中心服务域名
 
+# > Digital Accessibility Recognition Scheme（香港数码无障碍嘉许计划）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,digital-accessibility.hk # 香港数码无障碍嘉许计划官方服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
