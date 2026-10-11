@@ -10752,6 +10752,11 @@ DOMAIN-SUFFIX,unbounce.com # Unbounce 落地页构建与营销优化平台域名
 
 DOMAIN-SUFFIX,collab.dvb.bayern # BayernCollab 高校项目、知识管理与协作服务域名
 
+# > SAP Careers Platform（SAP 招聘与职业平台）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,sap-careers-cdn.happydance.website # SAP Careers 招聘站点静态资源 CDN 域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
