@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-09
-# - 校对时间：2026-10-09
+# - 更新时间：2026-10-11
+# - 校对时间：2026-10-11
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 # - 校对时间：2026-05-09
@@ -45,12 +45,13 @@ DOMAIN-SUFFIX,google.ru # Google 俄罗斯地区搜索入口
 DOMAIN-SUFFIX,google.cn # Google 中国历史域名
 
 # > Google Platform Infrastructure（Google 平台基础服务）
-# - 校对时间：2026-10-09
+# - 校对时间：2026-10-11
 
 DOMAIN-SUFFIX,gmail.com # Gmail 邮箱服务
 DOMAIN-SUFFIX,googlemail.com # Gmail 历史备用域名
 DOMAIN-SUFFIX,g.co # Google 官方短链接
 DOMAIN-SUFFIX,goo.gle # Google 官方短链接
+DOMAIN-SUFFIX,goo.gl # Google 官方短链接
 DOMAIN-SUFFIX,abc.xyz # Alphabet 公司官网
 DOMAIN-SUFFIX,research.google # Google Research 研究项目
 DOMAIN-SUFFIX,withgoogle.com # Google 官方品牌项目平台
