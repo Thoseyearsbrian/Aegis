@@ -10387,9 +10387,10 @@ DOMAIN-SUFFIX,calbears.com # UC Berkeley 校际体育新闻、赛程与赛事服
 DOMAIN-SUFFIX,escholarship.org # 加州大学开放获取学术出版与机构知识库服务域名
 
 # > Johns Hopkins University（约翰斯·霍普金斯大学）
-# - 更新时间：2026-10-08
+# - 更新时间：2026-10-11
 
 DOMAIN-SUFFIX,jhu.edu # 约翰斯·霍普金斯大学教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,johnshopkins.edu # Johns Hopkins 教育、医疗与信息技术服务域名
 
 # > University of Melbourne（墨尔本大学）
 # - 更新时间：2026-10-08
