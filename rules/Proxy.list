@@ -10809,6 +10809,11 @@ DOMAIN-SUFFIX,sapsf.com # SAP SuccessFactors HCM 平台与数据中心服务域�
 
 DOMAIN-SUFFIX,digital-accessibility.hk # 香港数码无障碍嘉许计划官方服务域名
 
+# > Caring Company Scheme（香港商界展关怀计划）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,caringcompany.org.hk # 香港社联商界展关怀与企业社会责任服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
