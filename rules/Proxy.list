@@ -10725,6 +10725,11 @@ DOMAIN-SUFFIX,fevo.com # FEVO 活动票务、社交结账与电商服务域名
 
 DOMAIN-SUFFIX,static.srcspot.com # SrcSpot 第三方 JavaScript 静态资源 CDN 域名
 
+# > Swiss Federal Geoportal（瑞士联邦地理信息平台）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,geo.admin.ch # 瑞士联邦官方地理数据与地图服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
