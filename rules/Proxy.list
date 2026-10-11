@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-10
-# - 校对时间：2026-10-10
+# - 更新时间：2026-10-11
+# - 校对时间：2026-10-11
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-09-29
@@ -10380,9 +10380,10 @@ DOMAIN-SUFFIX,unsw.edu.au # 新南威尔士大学教学、科研与校园服务�
 DOMAIN-SUFFIX,unsw-search.funnelback.squiz.cloud # UNSW 基于 Squiz Funnelback 的站内搜索服务域名
 
 # > University of California, Berkeley（加州大学伯克利分校）
-# - 更新时间：2026-10-08
+# - 更新时间：2026-10-11
 
 DOMAIN-SUFFIX,berkeley.edu # 加州大学伯克利分校官方教育、研究与校园服务域名
+DOMAIN-SUFFIX,calbears.com # UC Berkeley 校际体育新闻、赛程与赛事服务域名
 
 # > Johns Hopkins University（约翰斯·霍普金斯大学）
 # - 更新时间：2026-10-08
