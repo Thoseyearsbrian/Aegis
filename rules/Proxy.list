@@ -10393,9 +10393,10 @@ DOMAIN-SUFFIX,jhu.edu # 约翰斯·霍普金斯大学教学、科研与校园服
 DOMAIN-SUFFIX,johnshopkins.edu # Johns Hopkins 教育、医疗与信息技术服务域名
 
 # > University of Melbourne（墨尔本大学）
-# - 更新时间：2026-10-08
+# - 更新时间：2026-10-11
 
 DOMAIN-SUFFIX,unimelb.edu.au # 墨尔本大学教育、研究与校园服务官方域名
+DOMAIN-SUFFIX,uom-search.funnelback.squiz.cloud # 墨尔本大学基于 Squiz Funnelback 的站内搜索服务域名
 
 # > École Polytechnique Fédérale de Lausanne（洛桑联邦理工学院）
 # - 更新时间：2026-10-08
