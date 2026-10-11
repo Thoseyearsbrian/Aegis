@@ -10768,6 +10768,11 @@ DOMAIN-SUFFIX,sap-careers-cdn.happydance.website # SAP Careers 招聘站点静�
 
 DOMAIN-SUFFIX,dvb.bayern # 巴伐利亚高校数字联盟协作与身份服务域名
 
+# > Mapbox Location Platform（Mapbox 地图与位置服务平台）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,mapbox.com # Mapbox 地图、导航与位置服务平台域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
