@@ -1031,3 +1031,8 @@ DOMAIN-SUFFIX,smetrics.elsevier.com # Elsevier Adobe Analytics 用户访问与�
 # - 更新时间：2026-10-11
 
 DOMAIN-SUFFIX,blueconic.net # BlueConic 用户行为采集与客户画像服务域名
+
+# > B2B Visitor Tracking Pixel（B2B 网站访客追踪服务）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,secure.inventive52intuitive.com # B2B 网站访客识别与追踪像素服务域名
