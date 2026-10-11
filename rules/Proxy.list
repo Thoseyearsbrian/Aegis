@@ -10718,6 +10718,11 @@ DOMAIN-SUFFIX,sidearmdev.com # SIDEARM Sports 网站托管、图片与媒体资�
 
 DOMAIN-SUFFIX,fevo.com # FEVO 活动票务、社交结账与电商服务域名
 
+# > SrcSpot JavaScript CDN（SrcSpot JavaScript 静态资源服务）
+# - 更新时间：2026-10-11
+
+DOMAIN-SUFFIX,static.srcspot.com # SrcSpot 第三方 JavaScript 静态资源 CDN 域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
