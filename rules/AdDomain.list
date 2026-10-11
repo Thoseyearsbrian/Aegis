@@ -4,8 +4,8 @@
 # - 特征：识别广告投放、广告竞价、广告请求、广告资源分发、广告追踪及明确广告子域等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-10
-# - 校对时间：2026-10-10
+# - 更新时间：2026-10-11
+# - 校对时间：2026-10-11
 
 # > 广告相关域名
 
@@ -392,3 +392,4 @@ DOMAIN-SUFFIX,personagraph.com # 广告数据平台域名
 DOMAIN-SUFFIX,pixel.sojern.com # 广告追踪子域
 DOMAIN-SUFFIX,pokkt.com # 移动广告平台域名
 DOMAIN-SUFFIX,servedby-buysellads.com # 广告分发域名
+DOMAIN-SUFFIX,sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws # Meta 广告分发域名
