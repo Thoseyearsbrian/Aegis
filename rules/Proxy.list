@@ -10862,6 +10862,11 @@ DOMAIN-SUFFIX,geckochat.io # Gecko 在线聊天与实时会话服务域名
 
 DOMAIN-SUFFIX,jwplayer.com # JW Player 视频托管、播放与内容分发服务域名
 
+# > H5P Interactive Learning Platform（H5P 互动学习平台）
+# - 更新时间：2026-10-12
+
+DOMAIN-SUFFIX,h5p.com # H5P 互动学习内容创建与 LMS 集成服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
