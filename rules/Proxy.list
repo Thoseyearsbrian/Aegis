@@ -10867,6 +10867,11 @@ DOMAIN-SUFFIX,jwplayer.com # JW Player 视频托管、播放与内容分发服�
 
 DOMAIN-SUFFIX,h5p.com # H5P 互动学习内容创建与 LMS 集成服务域名
 
+# > Friendly Captcha Bot Protection Service（Friendly Captcha 机器人防护服务）
+# - 更新时间：2026-10-12
+
+DOMAIN-SUFFIX,frcapi.com # Friendly Captcha CAPTCHA 验证与机器人防护 API 服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
