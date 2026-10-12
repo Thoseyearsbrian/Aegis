@@ -10837,6 +10837,11 @@ DOMAIN-SUFFIX,ifworlddesignguide.com # iF WORLD DESIGN GUIDE 历史官方设计�
 
 DOMAIN-SUFFIX,elsevierpure.com # Elsevier Pure 科研信息管理与研究成果展示平台域名
 
+# > Kakao Daum CDN（Kakao Daum 内容分发网络）
+# - 更新时间：2026-10-12
+
+DOMAIN-SUFFIX,daumcdn.net # Kakao 地图、静态资源与内容分发 CDN 域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
