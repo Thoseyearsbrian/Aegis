@@ -5,7 +5,7 @@
 # - 说明：YouTube 域名已迁移至 Google.list 统一管理
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-16
+# - 更新时间：2026-10-13
 
 # > TikTok / ByteDance Platform Infrastructure（TikTok 与字节跳动平台通信基础设施）
 
@@ -154,6 +154,11 @@ DOMAIN-SUFFIX,dnitv.com # Discovery 静态内容分发域
 
 DOMAIN-SUFFIX,crunchyroll.com # Crunchyroll 日本动漫流媒体
 DOMAIN-SUFFIX,crunchyrollcdn.com # Crunchyroll CDN 静态服务
+
+# > Spotify Megaphone Podcast Platform（Spotify Megaphone 播客平台）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,megaphone.fm # Spotify Megaphone 播客托管、播放与分发服务域名
 
 # > U-NEXT（日本）
 
