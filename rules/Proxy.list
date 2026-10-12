@@ -10878,6 +10878,12 @@ DOMAIN-SUFFIX,frcapi.com # Friendly Captcha CAPTCHA 验证与机器人防护 API
 
 DOMAIN-SUFFIX,dcard.tw # Dcard 社群讨论与内容服务域名
 
+# > Curator Social Media Aggregator（Curator 社交媒体内容聚合平台）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,curator.io # Curator 社交媒体内容聚合与展示平台域名
+DOMAIN-SUFFIX,curator-assets.b-cdn.net # Curator 社交媒体图片与媒体资源 CDN 域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
