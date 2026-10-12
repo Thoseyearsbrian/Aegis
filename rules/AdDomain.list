@@ -395,3 +395,4 @@ DOMAIN-SUFFIX,pixel.sojern.com # 广告追踪子域
 DOMAIN-SUFFIX,pokkt.com # 移动广告平台域名
 DOMAIN-SUFFIX,servedby-buysellads.com # 广告分发域名
 DOMAIN-SUFFIX,sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws # Meta 广告分发域名
+DOMAIN-SUFFIX,7s-d309b5b93ece4e188e0aa4e9c7906f0f.ecs.us-west-1.on.aws # Meta CAPI 广告转化追踪事件服务域名
