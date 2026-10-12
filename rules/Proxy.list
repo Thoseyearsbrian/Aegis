@@ -10847,6 +10847,11 @@ DOMAIN-SUFFIX,daumcdn.net # Kakao 地图、静态资源与内容分发 CDN 域�
 
 DOMAIN-SUFFIX,pstatic.net # NAVER 图片、字体与静态资源 CDN 服务域名
 
+# > SyncSearch Site Search Platform（SyncSearch 站内搜索平台）
+# - 更新时间：2026-10-12
+
+DOMAIN-SUFFIX,syncsearch.jp # SyncSearch 企业站内搜索服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
