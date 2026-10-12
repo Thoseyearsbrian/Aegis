@@ -10470,9 +10470,10 @@ DOMAIN-SUFFIX,ed.ac.uk # 爱丁堡大学教学、研究与校园服务官方域�
 DOMAIN-SUFFIX,edin.ac # 爱丁堡大学官方短链接服务域名
 
 # > King's College London（伦敦国王学院）
-# - 更新时间：2026-10-08
+# - 更新时间：2026-10-12
 
 DOMAIN-SUFFIX,kcl.ac.uk # 伦敦国王学院教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,kclsu.org # 伦敦国王学院学生会与校园学生服务域名
 
 # > Seoul National University（首尔大学）
 # - 更新时间：2026-10-08
