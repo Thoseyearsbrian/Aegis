@@ -9,6 +9,7 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,dx.mountain.com # MNTN 广告受众追踪与转化归因服务域名
 DOMAIN-SUFFIX,s.zzcdn.me # Zalo Ads Pixel 广告转化追踪脚本域名
 DOMAIN-SUFFIX,consentag.eu # Crimtan 广告同意管理与受众识别服务域名
 DOMAIN-SUFFIX,adnxs.com # Microsoft Advertising 广告投放、素材分发与追踪服务域名
