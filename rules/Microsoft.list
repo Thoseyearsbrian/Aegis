@@ -4,8 +4,8 @@
 # - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-08
-# - 校对时间：2026-10-08
+# - 更新时间：2026-10-12
+# - 校对时间：2026-10-12
 
 # > Microsoft Visual Studio Code 主程序与资源服务
 
@@ -164,6 +164,11 @@ DOMAIN-SUFFIX,cspv2.core.microsoft # Microsoft CSP 安全策略违规报告服�
 # - 更新时间：2026-10-08
 
 DOMAIN-SUFFIX,microsoftazuread-sso.com # Microsoft Entra 无缝单点登录与 Kerberos 身份认证服务域名
+
+# > Microsoft Power Apps（Microsoft 低代码应用平台）
+# - 更新时间：2026-10-12
+
+DOMAIN-SUFFIX,powerapps.com # Microsoft Power Apps 低代码应用开发与运行服务域名
 
 # > Microsoft Telemetry & Diagnostics（Microsoft 诊断与遥测服务）
 
