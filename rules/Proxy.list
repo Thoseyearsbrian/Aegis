@@ -10856,6 +10856,11 @@ DOMAIN-SUFFIX,secomtrust.net # SECOM Trust Systems 数字证书、认证机构�
 
 DOMAIN-SUFFIX,geckochat.io # Gecko 在线聊天与实时会话服务域名
 
+# > JW Player Video Platform（JW Player 视频平台）
+# - 更新时间：2026-10-12
+
+DOMAIN-SUFFIX,jwplayer.com # JW Player 视频托管、播放与内容分发服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
