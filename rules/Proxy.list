@@ -10851,6 +10851,11 @@ DOMAIN-SUFFIX,syncsearch.jp # SyncSearch 企业站内搜索服务域名
 
 DOMAIN-SUFFIX,secomtrust.net # SECOM Trust Systems 数字证书、认证机构与信任服务域名
 
+# > Gecko Chat Platform（Gecko 在线聊天平台）
+# - 更新时间：2026-10-12
+
+DOMAIN-SUFFIX,geckochat.io # Gecko 在线聊天与实时会话服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
