@@ -10852,6 +10852,11 @@ DOMAIN-SUFFIX,pstatic.net # NAVER 图片、字体与静态资源 CDN 服务域�
 
 DOMAIN-SUFFIX,syncsearch.jp # SyncSearch 企业站内搜索服务域名
 
+# > SECOM Trust Systems（SECOM Trust Systems 信任服务平台）
+# - 更新时间：2026-10-12
+
+DOMAIN-SUFFIX,secomtrust.net # SECOM Trust Systems 数字证书、认证机构与信任服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
