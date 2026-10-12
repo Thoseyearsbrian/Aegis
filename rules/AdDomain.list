@@ -9,6 +9,7 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,consentag.eu # Crimtan 广告同意管理与受众识别服务域名
 DOMAIN-SUFFIX,adnxs.com # Microsoft Advertising 广告投放、素材分发与追踪服务域名
 DOMAIN-SUFFIX,turn.com # Turn / Amobee 广告投放、受众追踪与程序化营销服务域名
 DOMAIN-SUFFIX,demdex.net # Adobe 受众识别、数据采集与广告定向服务域名
