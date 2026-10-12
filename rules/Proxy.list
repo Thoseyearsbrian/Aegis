@@ -6308,11 +6308,10 @@ DOMAIN-SUFFIX,bitfinex.recruitee.com # Bitfinex 官方招聘页面与职位管�
 
 DOMAIN-SUFFIX,careers.recruiteecdn.com # Recruitee 招聘站点页面与静态资源分发（CDN）
 
-# > Kakao / Daum Front-End Static Asset Distribution Service（Kakao / Daum 平台前端静态资源分发服务）
-# - 校对时间：2026-03-28
+# > Kakao / Daum CDN（Kakao / Daum 内容分发网络）
+# - 更新时间：2026-10-12
 
-DOMAIN-SUFFIX,t1.daumcdn.net # Kakao（Daum）平台图片、脚本等前端静态资源分发（CDN）
-DOMAIN-SUFFIX,img1.daumcdn.net # Daum / Kakao 官方图片 CDN
+DOMAIN-SUFFIX,daumcdn.net # Kakao 地图、静态资源与内容分发 CDN 域名
 
 # > 7moor Customer Support Service（7moor 七陌客服）
 # - 校对时间：2026-03-28
@@ -10836,11 +10835,6 @@ DOMAIN-SUFFIX,ifworlddesignguide.com # iF WORLD DESIGN GUIDE 历史官方设计�
 # - 更新时间：2026-10-12
 
 DOMAIN-SUFFIX,elsevierpure.com # Elsevier Pure 科研信息管理与研究成果展示平台域名
-
-# > Kakao Daum CDN（Kakao Daum 内容分发网络）
-# - 更新时间：2026-10-12
-
-DOMAIN-SUFFIX,daumcdn.net # Kakao 地图、静态资源与内容分发 CDN 域名
 
 # > NAVER Static Content Delivery Network（NAVER 静态资源分发服务）
 # - 更新时间：2026-10-12
