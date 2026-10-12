@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-12
-# - 校对时间：2026-10-12
+# - 更新时间：2026-10-13
+# - 校对时间：2026-10-13
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-09-29
@@ -10496,7 +10496,7 @@ DOMAIN-SUFFIX,uq.edu.au # 澳大利亚昆士兰大学教学、科研与校园服
 DOMAIN-SUFFIX,uq.net.au # 昆士兰大学网站与静态资源服务域名
 
 # > Yonsei University（韩国延世大学）
-# - 更新时间：2026-10-13
+# - 校对时间：2026-10-13
 
 DOMAIN-SUFFIX,yonsei.ac.kr # 韩国延世大学官方教育、学术与校园服务域名
 DOMAIN-SUFFIX,yonsein.net # 延世大学校友门户与校友服务官方域名
