@@ -10989,6 +10989,11 @@ DOMAIN-SUFFIX,entry.domains # 共享图片、媒体与静态资源分发服务�
 
 DOMAIN-SUFFIX,tudelft.nl # 代尔夫特理工大学官网、教学与校园服务域名
 
+# > Flockler Social Media Aggregator（Flockler 社交媒体聚合平台）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,flockler.com # Flockler 社交媒体聚合、UGC 与内容嵌入服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
