@@ -11043,6 +11043,11 @@ DOMAIN-SUFFIX,ctctcdn.com # Constant Contact 表单组件与静态资源 CDN 域
 
 DOMAIN-SUFFIX,fullstory.com # Fullstory 数字体验分析与会话回放平台官方域名
 
+# > Panopto Video Learning Platform（Panopto 视频学习平台）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,panopto.com # Panopto 教学视频录制、托管与学习平台域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
