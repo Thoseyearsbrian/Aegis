@@ -11004,6 +11004,12 @@ DOMAIN-SUFFIX,speechstream.net # SpeechStream 在线语音合成与辅助阅读�
 
 DOMAIN-SUFFIX,tintup.com # TINT 用户生成内容与品牌社区服务域名
 
+# > Syrenis Consent & Preference Management（Syrenis 隐私同意与偏好管理平台）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,syrenis.com # Syrenis 隐私同意与偏好管理平台官方域名
+DOMAIN-SUFFIX,syrenis.io # Syrenis 隐私同意管理服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
