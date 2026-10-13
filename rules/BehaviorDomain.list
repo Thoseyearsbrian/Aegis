@@ -1052,3 +1052,8 @@ DOMAIN-SUFFIX,statcounter.com # Statcounter 网站流量与访客行为分析服
 # - 更新时间：2026-10-13
 
 DOMAIN-SUFFIX,matomo-ip-paris.netcomdev2.com # IP Paris Matomo 网站访问与行为分析服务域名
+
+# > Google Optimize（Google 网站实验与优化工具）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,googleoptimize.com # Google Optimize 网站 A/B 测试与实验分析域名（已停用）
