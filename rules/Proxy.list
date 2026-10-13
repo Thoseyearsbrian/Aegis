@@ -1234,6 +1234,11 @@ DOMAIN-SUFFIX,consentmo.com # Consentmo 隐私合规与 Cookie 同意管理服�
 
 DOMAIN-SUFFIX,iubenda.com # iubenda 隐私合规、Cookie 与同意管理服务域名
 
+# > CookieFirst Consent Management Platform（CookieFirst 隐私同意管理平台）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,cookiefirst.com # CookieFirst Cookie 同意与隐私管理平台域名
+
 # > PingOne Identity Platform（PingOne 身份认证平台）
 # - 校对时间：2026-07-31
 
@@ -10509,7 +10514,7 @@ DOMAIN-SUFFIX,columbiabookstore.com # 哥伦比亚大学校园书店与教材零
 DOMAIN-SUFFIX,cupblog.org # 哥伦比亚大学出版社学术出版与文化资讯博客域名
 
 # > Institut Polytechnique de Paris（巴黎理工学院）
-# - 更新时间：2026-10-08
+# - 更新时间：2026-10-13
 
 DOMAIN-SUFFIX,ip-paris.fr # 巴黎理工学院高等教育、科研与学术服务域名
 
