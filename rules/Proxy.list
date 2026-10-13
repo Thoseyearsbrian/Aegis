@@ -10936,12 +10936,12 @@ DOMAIN-SUFFIX,accor.com # 雅高酒店预订、会员与集团服务官方域名
 # - 更新时间：2026-10-13
 
 DOMAIN-SUFFIX,ecoledesponts.fr # 法国国立路桥学校教育、科研与校园服务域名
+DOMAIN-SUFFIX,enpc.fr # 法国国立路桥学校教学、科研与校园服务域名
 
 # > ENSTA Engineering Institute（ENSTA 法国国立高等先进技术学校）
 # - 更新时间：2026-10-14
 
 DOMAIN-SUFFIX,ensta.fr # ENSTA 工程教育、科研与院校服务官方域名
-DOMAIN-SUFFIX,enpc.fr # 法国国立路桥学校教学、科研与校园服务域名
 
 # > École Polytechnique（巴黎综合理工学院）
 # - 更新时间：2026-10-13
@@ -11090,6 +11090,11 @@ DOMAIN-SUFFIX,feroot.com # Feroot 网页脚本监控与客户端安全防护服�
 # - 更新时间：2026-10-14
 
 DOMAIN-SUFFIX,imodules.com # iModules 校友门户、活动报名与在线捐赠服务域名
+
+# > HAL Open Science Archive（HAL 开放科学档案平台）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,hal.science # HAL 科研成果与学术文献开放存储服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
