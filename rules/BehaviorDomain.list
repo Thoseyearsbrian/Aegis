@@ -1057,3 +1057,8 @@ DOMAIN-SUFFIX,matomo-ip-paris.netcomdev2.com # IP Paris Matomo 网站访问与�
 # - 更新时间：2026-10-13
 
 DOMAIN-SUFFIX,googleoptimize.com # Google Optimize 网站 A/B 测试与实验分析域名（已停用）
+
+# > Siteimprove Analytics（Siteimprove 网站行为分析服务）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,siteimproveanalytics.com # Siteimprove 网站访问与用户行为分析服务域名
