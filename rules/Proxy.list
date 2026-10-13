@@ -10969,6 +10969,11 @@ DOMAIN-SUFFIX,common.gmc-cloud.net # GMC Cloud CloudFront 资源分发域名
 
 DOMAIN-SUFFIX,campusreel.org # CampusReel 虚拟校园参观与高校招生服务域名
 
+# > ReachDeck Web Accessibility Service（ReachDeck 网站无障碍服务）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,browsealoud.com # ReachDeck 网站朗读、翻译与无障碍辅助服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
