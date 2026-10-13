@@ -1062,3 +1062,8 @@ DOMAIN-SUFFIX,googleoptimize.com # Google Optimize 网站 A/B 测试与实验分
 # - 更新时间：2026-10-13
 
 DOMAIN-SUFFIX,siteimproveanalytics.com # Siteimprove 网站访问与用户行为分析服务域名
+
+# > True Anthem Social Analytics（True Anthem 社交内容分析服务）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,tru.am # True Anthem 网站流量与社交内容表现分析域名
