@@ -9,6 +9,7 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,mookie1.com # WPP Media Xaxis 广告追踪与受众定向服务域名
 DOMAIN-SUFFIX,mmtro.com # Numberly 广告追踪与受众分析服务域名
 DOMAIN-SUFFIX,s7.addthis.com # AddThis 社交分享与广告追踪脚本服务域名
 DOMAIN-SUFFIX,dx.mountain.com # MNTN 广告受众追踪与转化归因服务域名
