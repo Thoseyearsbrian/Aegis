@@ -11031,6 +11031,12 @@ DOMAIN-SUFFIX,jit.si # Jitsi Meet 在线视频会议与实时协作服务域名
 
 DOMAIN-SUFFIX,geckoengage.com # Gecko 学生互动、在线咨询与 CRM 服务域名
 
+# > Constant Contact Marketing Platform（Constant Contact 营销平台）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,constantcontact.com # Constant Contact 邮件营销与营销自动化平台域名
+DOMAIN-SUFFIX,ctctcdn.com # Constant Contact 表单组件与静态资源 CDN 域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
