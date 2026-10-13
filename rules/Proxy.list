@@ -10946,6 +10946,11 @@ DOMAIN-SUFFIX,thecdm.ca # 加拿大数字媒体教育、技术培训与产业合
 
 DOMAIN-SUFFIX,guim.co.uk # The Guardian 图片与静态媒体资源 CDN 域名
 
+# > CBC/Radio-Canada Media Platform（加拿大广播公司媒体平台）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,cbc.ca # CBC 新闻、广播、电视与媒体资源服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
