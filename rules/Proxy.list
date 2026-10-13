@@ -11107,6 +11107,11 @@ DOMAIN-SUFFIX,harica.gr # HARICA 数字证书签发、分发与验证服务域�
 
 DOMAIN-SUFFIX,presses-des-ponts.fr # Presses des Ponts 工程与科技专业图书出版服务域名
 
+# > Fondation des Ponts（法国路桥学院基金会）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,fondationdesponts.fr # 法国路桥学院基金会教育科研与公益资助服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
