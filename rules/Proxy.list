@@ -10549,6 +10549,8 @@ DOMAIN-SUFFIX,uclahealth.org # UCLA Health 医疗服务、临床研究与健康�
 DOMAIN-SUFFIX,uclabruins.com # UCLA 棕熊队体育赛事与官方资讯服务域名
 DOMAIN-SUFFIX,uclaextension.edu # UCLA 继续教育、职业培训与专业证书课程服务域名
 DOMAIN-SUFFIX,uclastore.com # UCLA 官方校园商店、教材与品牌商品服务域名
+DOMAIN-SUFFIX,ucla-ocr.caseiq.app # UCLA 基于 Case IQ 的民权事务与案件管理服务域名
+DOMAIN-SUFFIX,universityofcalifornia.edu # 加利福尼亚大学官方教育、科研与公共服务域名
 
 # > The Hong Kong Polytechnic University（香港理工大学）
 # - 更新时间：2026-10-08
@@ -11013,11 +11015,6 @@ DOMAIN-SUFFIX,tintup.com # TINT 用户生成内容与品牌社区服务域名
 
 DOMAIN-SUFFIX,syrenis.com # Syrenis 隐私同意与偏好管理平台官方域名
 DOMAIN-SUFFIX,syrenis.io # Syrenis 隐私同意管理服务域名
-
-# > University of California（加利福尼亚大学）
-# - 更新时间：2026-10-13
-
-DOMAIN-SUFFIX,universityofcalifornia.edu # 加利福尼亚大学官方教育、科研与公共服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
