@@ -2443,7 +2443,7 @@ DOMAIN-SUFFIX,click.klaviyo.com # 跳转服务域名
 DOMAIN-SUFFIX,track.klaviyo.com # 跟踪服务域名
 
 # > Mailchimp Marketing Platform（Mailchimp 邮件营销平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-10-13
 
 DOMAIN-SUFFIX,mailchimp.com # 平台主域名
 DOMAIN-SUFFIX,login.mailchimp.com # 登录服务域名
@@ -2453,6 +2453,7 @@ DOMAIN-SUFFIX,track.mailchimp.com # 跟踪服务域名
 DOMAIN-SUFFIX,click.mailchimp.com # 跳转服务域名
 DOMAIN-SUFFIX,list-manage.com # 分发服务域名
 DOMAIN-SUFFIX,mcsv.net # 分发服务域名
+DOMAIN-SUFFIX,chimpstatic.com # Mailchimp 订阅表单与营销脚本 CDN 服务域名
 
 # > Banggood E-Commerce Platform（Banggood 电商平台）
 # - 校对时间：2026-03-28
