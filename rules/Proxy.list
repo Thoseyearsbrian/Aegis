@@ -11060,6 +11060,11 @@ DOMAIN-SUFFIX,blackbaudcdn.net # Blackbaud 平台前端组件与静态资源 CDN
 
 DOMAIN-SUFFIX,instructure.com # Instructure Canvas 在线教学与学习管理平台域名
 
+# > iModules Encompass Platform（iModules Encompass 校友互动平台）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,imodules.com # iModules 校友互动、在线捐赠与活动管理服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
