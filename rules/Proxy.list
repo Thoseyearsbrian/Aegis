@@ -11049,9 +11049,10 @@ DOMAIN-SUFFIX,panopto.com # Panopto 教学视频录制、托管与学习平台�
 
 DOMAIN-SUFFIX,jenzabarcloud.com # Jenzabar 高校教务与学生信息管理云服务域名
 
-# > Blackbaud Content Delivery Network（Blackbaud 内容分发网络）
+# > Blackbaud Cloud Software Platform（Blackbaud 云软件服务平台）
 # - 更新时间：2026-10-14
 
+DOMAIN-SUFFIX,blackbaud.com # Blackbaud 公益组织管理、筹款与云软件服务域名
 DOMAIN-SUFFIX,blackbaudcdn.net # Blackbaud 平台前端组件与静态资源 CDN 域名
 
 # > Third-Party Blogs（第三方博客）
