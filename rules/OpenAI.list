@@ -83,7 +83,7 @@ DOMAIN-SUFFIX,about.fb.com # Meta 官方技术博客
 DOMAIN-SUFFIX,developers.facebook.com # Meta 开发者平台
 
 # > Claude Platform Infrastructure（Claude 平台基础设施域名）
-# - 校对时间：2026-05-08
+# - 校对时间：2026-10-13
 
 DOMAIN-SUFFIX,claude.com # Claude 官方品牌与服务入口域名
 DOMAIN-SUFFIX,claude.ai # Claude Web 应用主域名
@@ -98,6 +98,7 @@ DOMAIN-SUFFIX,status.anthropic.com # Anthropic 官方服务状态页面
 DOMAIN-SUFFIX,claude.io # Claude 官方 Web 入口域名（Anthropic Claude 平台）
 DOMAIN-SUFFIX,files.claudeusercontent.com # Claude 文件附件下载资源域名
 DOMAIN-SUFFIX,uploads.claudeusercontent.com # Claude 文件上传服务接口
+DOMAIN-SUFFIX,claude.dev # Anthropic Claude 开发者技术与工程实践服务域名
 
 # > Anthropic Platform Infrastructure（Anthropic 平台基础设施域名）
 # - 校对时间：2026-06-28
