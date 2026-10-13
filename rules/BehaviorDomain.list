@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-13
-# - 校对时间：2026-10-13
+# - 更新时间：2026-10-14
+# - 校对时间：2026-10-14
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -1067,3 +1067,8 @@ DOMAIN-SUFFIX,siteimproveanalytics.com # Siteimprove 网站访问与用户行为
 # - 更新时间：2026-10-13
 
 DOMAIN-SUFFIX,tru.am # True Anthem 网站流量与社交内容表现分析域名
+
+# > Coralogix Real User Monitoring（Coralogix 真实用户监控服务）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,rum-ingress-coralogix.com # Coralogix 用户体验监测与前端遥测服务域名
