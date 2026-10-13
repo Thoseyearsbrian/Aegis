@@ -11021,6 +11021,11 @@ DOMAIN-SUFFIX,syrenis.io # Syrenis 隐私同意管理服务域名
 
 DOMAIN-SUFFIX,uconnectlabs.com # uConnect 高校职业发展平台与资源分发服务域名
 
+# > Jitsi Meet Video Conferencing（Jitsi Meet 视频会议平台）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,jit.si # Jitsi Meet 在线视频会议与实时协作服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
