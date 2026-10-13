@@ -11097,6 +11097,11 @@ DOMAIN-SUFFIX,imodules.com # iModules 校友门户、活动报名与在线捐赠
 
 DOMAIN-SUFFIX,hal.science # HAL 科研成果与学术文献开放存储服务域名
 
+# > HARICA Certificate Authority（HARICA 数字证书认证机构）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,harica.gr # HARICA 数字证书签发、分发与验证服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
