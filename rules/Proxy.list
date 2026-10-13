@@ -11044,6 +11044,11 @@ DOMAIN-SUFFIX,fullstory.com # Fullstory 数字体验分析与会话回放平台�
 
 DOMAIN-SUFFIX,panopto.com # Panopto 教学视频录制、托管与学习平台域名
 
+# > Jenzabar Higher Education Cloud Platform（Jenzabar 高等教育云服务平台）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,jenzabarcloud.com # Jenzabar 高校教务与学生信息管理云服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
