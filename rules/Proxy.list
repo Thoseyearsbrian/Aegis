@@ -10377,9 +10377,10 @@ DOMAIN-SUFFIX,yale-webfonts.yalespace.org # 耶鲁大学官方 Web 字体资源�
 DOMAIN-SUFFIX,collections.yale.edu # 耶鲁大学数字馆藏检索与文化遗产资源服务域名
 
 # > Cornell University（康奈尔大学）
-# - 校对时间：2026-10-10
+# - 校对时间：2026-10-14
 
 DOMAIN-SUFFIX,cornell.edu # 康奈尔大学教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,cornellbotanicgardens.org # 康奈尔植物园、科研教育与自然保护服务域名
 
 # > The Chinese University of Hong Kong（香港中文大学）
 # - 校对时间：2026-10-10
@@ -10703,11 +10704,6 @@ DOMAIN-SUFFIX,nmcdn.io # NMC 网站静态资源与媒体文件 CDN 域名
 # - 更新时间：2026-10-10
 
 DOMAIN-SUFFIX,arcgisonline.com # Esri ArcGIS 在线地图与地理信息服务域名
-
-# > Cornell Botanic Gardens（康奈尔植物园）
-# - 更新时间：2026-10-10
-
-DOMAIN-SUFFIX,cornellbotanicgardens.org # 康奈尔植物园、科研教育与自然保护服务域名
 
 # > Curator Social Media Aggregator（Curator 社交媒体聚合平台）
 # - 更新时间：2026-10-10
