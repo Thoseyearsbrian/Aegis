@@ -160,6 +160,11 @@ DOMAIN-SUFFIX,crunchyrollcdn.com # Crunchyroll CDN 静态服务
 
 DOMAIN-SUFFIX,megaphone.fm # Spotify Megaphone 播客托管、播放与分发服务域名
 
+# > Saooti Podcast & Audio Platform（Saooti 播客与数字音频平台）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,saooti.com # Saooti 播客托管、分发与数字音频服务域名
+
 # > U-NEXT（日本）
 
 DOMAIN-SUFFIX,unext.jp # U-NEXT 日本视频平台
