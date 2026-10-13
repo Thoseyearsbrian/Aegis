@@ -11085,6 +11085,11 @@ DOMAIN-SUFFIX,descopecdn.com # Descope 身份认证 SDK 与登录组件 CDN 服�
 
 DOMAIN-SUFFIX,feroot.com # Feroot 网页脚本监控与客户端安全防护服务域名
 
+# > iModules Encompass Platform（iModules 校友关系管理平台）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,imodules.com # iModules 校友门户、活动报名与在线捐赠服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-08-13
 
