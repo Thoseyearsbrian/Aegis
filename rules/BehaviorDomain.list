@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-11
-# - 校对时间：2026-10-11
+# - 更新时间：2026-10-13
+# - 校对时间：2026-10-13
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -1047,3 +1047,8 @@ DOMAIN-SUFFIX,snippet.maze.co # Maze 网站测试与用户行为分析脚本域�
 # - 更新时间：2026-10-11
 
 DOMAIN-SUFFIX,statcounter.com # Statcounter 网站流量与访客行为分析服务域名
+
+# > IP Paris Matomo Analytics（IP Paris Matomo 网站分析服务）
+# - 更新时间：2026-10-13
+
+DOMAIN-SUFFIX,matomo-ip-paris.netcomdev2.com # IP Paris Matomo 网站访问与行为分析服务域名
