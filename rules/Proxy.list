@@ -7,6 +7,276 @@
 # - 更新时间：2026-10-14
 # - 校对时间：2026-10-14
 
+# > Massachusetts Institute of Technology（麻省理工学院）
+# - 校对时间：2026-10-08
+
+DOMAIN-SUFFIX,mit.edu # 麻省理工学院教学、科研与校园服务官方域名
+
+# > Imperial College London（帝国理工学院）
+# - 校对时间：2026-10-08
+
+DOMAIN-SUFFIX,imperial.ac.uk # 帝国理工学院教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,imperial.nhs.uk # Imperial College Healthcare NHS Trust 医疗与患者服务域名
+DOMAIN-SUFFIX,ahsc.org.uk # 帝国理工学院医疗研究、临床转化与医学教育服务域名
+DOMAIN-SUFFIX,imperialcollegehealthpartners.com # NHS 医疗创新、健康研究与合作服务域名
+DOMAIN-SUFFIX,imperial-consultants.co.uk # Imperial College London 学术与科研咨询服务域名
+
+# > Stanford University（斯坦福大学）
+# - 校对时间：2026-10-08
+
+DOMAIN-SUFFIX,stanford.edu # 斯坦福大学教学、科研与校园服务官方域名
+
+# > University of Oxford（牛津大学）
+# - 校对时间：2026-10-08
+
+DOMAIN-SUFFIX,ox.ac.uk # 牛津大学教学、研究与公共服务官方域名
+DOMAIN-SUFFIX,conference-oxford.com # 牛津大学会议、活动与场地预订服务域名
+DOMAIN-SUFFIX,oxford.shorthandstories.com # 牛津大学数字专题与故事内容托管服务域名
+
+# > Harvard University（哈佛大学）
+# - 校对时间：2026-10-09
+
+DOMAIN-SUFFIX,harvard.edu # 哈佛大学官方教学、研究与公共服务域名
+
+# > University of Cambridge（剑桥大学）
+# - 校对时间：2026-10-09
+
+DOMAIN-SUFFIX,cam.ac.uk # 剑桥大学官网、院系与研究机构服务域名
+DOMAIN-SUFFIX,map.cam.ac.uk # 剑桥大学校园地图与位置查询服务域名
+DOMAIN-SUFFIX,cambridge.org # 剑桥大学学术出版、教育与评估服务域名
+
+# > California Institute of Technology（加州理工学院）
+# - 校对时间：2026-10-09
+
+DOMAIN-SUFFIX,caltech.edu # 加州理工学院科研、教育与学术服务域名
+DOMAIN-SUFFIX,digitalaccessibility.caltech.edu # Caltech 数字无障碍政策、指南与支持服务域名
+
+# > ETH Zurich（苏黎世联邦理工学院）
+# - 校对时间：2026-10-09
+
+DOMAIN-SUFFIX,ethz.ch # ETH Zurich 教学、科研与校园服务官方域名
+
+# > University College London（伦敦大学学院）
+# - 校对时间：2026-10-09
+
+DOMAIN-SUFFIX,ucl.ac.uk # 伦敦大学学院教育、研究与校园服务官方域名
+DOMAIN-SUFFIX,studentsunionucl.org # UCL 学生会、社团活动与学生支持服务域名
+
+# > National University of Singapore（新加坡国立大学）
+# - 校对时间：2026-10-10
+
+DOMAIN-SUFFIX,nus.edu # 新加坡国立大学官方服务域名
+DOMAIN-SUFFIX,nus.edu.sg # 新加坡国立大学教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,nusx.edu.sg # NUSX 创新创业、科研转化与深科技孵化服务域名
+
+# > The University of Hong Kong（香港大学）
+# - 校对时间：2026-10-10
+
+DOMAIN-SUFFIX,hku.hk # 香港大学教学、科研与校园服务官方域名
+
+# > Nanyang Technological University Singapore（新加坡南洋理工大学）
+# - 校对时间：2026-10-10
+
+DOMAIN-SUFFIX,ntu.edu.sg # 新加坡南洋理工大学教育、科研与校园服务官方域名
+
+# > Penn Engineering Online（宾夕法尼亚大学工程学院在线教育平台）
+# - 校对时间：2026-10-10
+
+DOMAIN-SUFFIX,online.engineering.upenn.edu # Penn Engineering 在线学位与专业教育服务域名
+DOMAIN-SUFFIX,online-education.seas.upenn.edu # Penn Engineering 在线学位与课程服务域名
+DOMAIN-SUFFIX,gradadmissions.seas.upenn.edu # Penn Engineering 研究生招生与申请服务域名
+DOMAIN-SUFFIX,upenn.edu # 宾夕法尼亚大学官方教育与校园服务域名
+
+# > Yale University（耶鲁大学）
+# - 校对时间：2026-10-10
+
+DOMAIN-SUFFIX,yale.edu # 耶鲁大学官方网站与教育科研服务域名
+DOMAIN-SUFFIX,yale-webfonts.yalespace.org # 耶鲁大学官方 Web 字体资源服务域名
+DOMAIN-SUFFIX,collections.yale.edu # 耶鲁大学数字馆藏检索与文化遗产资源服务域名
+
+# > Cornell University（康奈尔大学）
+# - 校对时间：2026-10-14
+
+DOMAIN-SUFFIX,cornell.edu # 康奈尔大学教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,cornellbotanicgardens.org # 康奈尔植物园、科研教育与自然保护服务域名
+
+# > The Chinese University of Hong Kong（香港中文大学）
+# - 校对时间：2026-10-10
+
+DOMAIN-SUFFIX,cuhk.edu.hk # 香港中文大学教学、研究与校园服务官方域名
+DOMAIN-SUFFIX,cuhk.canto.global # 香港中文大学 Canto 数字媒体资源库服务域名
+DOMAIN-SUFFIX,admission.cuhk.edu.hk # 香港中文大学本科招生与入学申请服务域名
+
+# > University of New South Wales（新南威尔士大学）
+# - 校对时间：2026-10-10
+
+DOMAIN-SUFFIX,unsw.edu.au # 新南威尔士大学教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,unsw-search.funnelback.squiz.cloud # UNSW 基于 Squiz Funnelback 的站内搜索服务域名
+
+# > University of California, Berkeley（加州大学伯克利分校）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,berkeley.edu # 加州大学伯克利分校官方教育、研究与校园服务域名
+DOMAIN-SUFFIX,calbears.com # UC Berkeley 校际体育新闻、赛程与赛事服务域名
+DOMAIN-SUFFIX,escholarship.org # 加州大学开放获取学术出版与机构知识库服务域名
+
+# > Johns Hopkins University（约翰斯·霍普金斯大学）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,jhu.edu # 约翰斯·霍普金斯大学教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,johnshopkins.edu # Johns Hopkins 教育、医疗与信息技术服务域名
+
+# > University of Melbourne（墨尔本大学）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,unimelb.edu.au # 墨尔本大学教育、研究与校园服务官方域名
+DOMAIN-SUFFIX,uom-search.funnelback.squiz.cloud # 墨尔本大学基于 Squiz Funnelback 的站内搜索服务域名
+
+# > École Polytechnique Fédérale de Lausanne（洛桑联邦理工学院）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,epfl.ch # 洛桑联邦理工学院教育、科研与校园服务官方域名
+DOMAIN-SUFFIX,epflalumni.ch # EPFL 校友社区、职业发展与活动服务域名
+
+# > The University of Chicago（芝加哥大学）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,uchicago.edu # 芝加哥大学教学、研究与校园服务官方域名
+
+# > Technical University of Munich（慕尼黑工业大学）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,tum.de # 慕尼黑工业大学教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,mytum.de # 慕尼黑工业大学学生与教职员工门户服务域名
+DOMAIN-SUFFIX,tum-universitaetsstiftung.de # TUM 科研、教育与大学发展基金会官方域名
+
+# > Princeton University（普林斯顿大学）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,princeton.edu # 普林斯顿大学教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,goprincetontigers.com # 普林斯顿大学校队赛事、新闻与体育服务域名
+
+# > The University of Sydney（悉尼大学）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,sydney.edu.au # 悉尼大学教学、研究与校园服务官方域名
+
+# > Australian National University（澳大利亚国立大学）
+# - 校对时间：2026-10-08
+
+DOMAIN-SUFFIX,anu.edu.au # 澳大利亚国立大学教育、研究与学生服务官方域名
+
+# > McGill University（麦吉尔大学）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,mcgill.ca # 麦吉尔大学官网、教学、科研与校园服务域名
+
+# > Monash University（莫纳什大学）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,monash.edu # 莫纳什大学教育、研究与学生服务官方域名
+DOMAIN-SUFFIX,study.monash # 蒙纳士大学课程查询、招生与申请服务域名
+
+# > University of Toronto（多伦多大学）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,utoronto.ca # 多伦多大学教学、科研与校务服务官方域名
+
+# > Hong Kong University of Science and Technology（香港科技大学）
+# - 校对时间：2026-10-11
+
+DOMAIN-SUFFIX,hkust.edu.hk # 香港科技大学教学、科研与校园服务官方域名
+
+# > Université PSL（巴黎文理研究大学）
+# - 校对时间：2026-10-12
+
+DOMAIN-SUFFIX,psl.eu # 巴黎文理研究大学教育、科研与学生服务官方域名
+
+# > The University of Edinburgh（爱丁堡大学）
+# - 校对时间：2026-10-12
+
+DOMAIN-SUFFIX,ed.ac.uk # 爱丁堡大学教学、研究与校园服务官方域名
+DOMAIN-SUFFIX,edin.ac # 爱丁堡大学官方短链接服务域名
+
+# > King's College London（伦敦国王学院）
+# - 校对时间：2026-10-12
+
+DOMAIN-SUFFIX,kcl.ac.uk # 伦敦国王学院教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,kclsu.org # 伦敦国王学院学生会与校园学生服务域名
+
+# > Seoul National University（首尔大学）
+# - 校对时间：2026-10-12
+
+DOMAIN-SUFFIX,snu.ac.kr # 首尔大学官网、招生与教学研究服务域名
+
+# > The University of Tokyo（东京大学）
+# - 校对时间：2026-10-12
+
+DOMAIN-SUFFIX,u-tokyo.ac.jp # 东京大学教育、科研与校园服务官方域名
+
+# > The University of Manchester（英国曼彻斯特大学）
+# - 校对时间：2026-10-12
+
+DOMAIN-SUFFIX,manchester.ac.uk # 英国曼彻斯特大学教学、研究与校园服务官方域名
+
+# > The University of Queensland（澳大利亚昆士兰大学）
+# - 校对时间：2026-10-12
+
+DOMAIN-SUFFIX,uq.edu.au # 澳大利亚昆士兰大学教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,uq.net.au # 昆士兰大学网站与静态资源服务域名
+
+# > Yonsei University（韩国延世大学）
+# - 校对时间：2026-10-13
+
+DOMAIN-SUFFIX,yonsei.ac.kr # 韩国延世大学官方教育、学术与校园服务域名
+DOMAIN-SUFFIX,yonsein.net # 延世大学校友门户与校友服务官方域名
+
+# > Columbia University（哥伦比亚大学）
+# - 校对时间：2026-10-13
+
+DOMAIN-SUFFIX,columbia.edu # 哥伦比亚大学教学、研究与校园服务官方域名
+DOMAIN-SUFFIX,columbiabookstore.com # 哥伦比亚大学校园书店与教材零售服务域名
+DOMAIN-SUFFIX,cupblog.org # 哥伦比亚大学出版社学术出版与文化资讯博客域名
+
+# > Institut Polytechnique de Paris（巴黎理工学院）
+# - 校对时间：2026-10-13
+
+DOMAIN-SUFFIX,ip-paris.fr # 巴黎理工学院高等教育、科研与学术服务域名
+
+# > The University of British Columbia（不列颠哥伦比亚大学）
+# - 校对时间：2026-10-13
+
+DOMAIN-SUFFIX,ubc.ca # 不列颠哥伦比亚大学教学、研究与校园服务官方域名
+
+# > Northwestern University（美国西北大学）
+# - 校对时间：2026-10-13
+
+DOMAIN-SUFFIX,northwestern.edu # 美国西北大学教学、研究与校园服务官方域名
+DOMAIN-SUFFIX,northwestern.bkstr.com # Northwestern University 官方校园书店服务域名
+DOMAIN-SUFFIX,nusports.com # 美国西北大学 Wildcats 校队体育与赛事资讯官方域名
+DOMAIN-SUFFIX,libcal.com # Springshare LibCal 图书馆活动与空间预约服务域名
+
+# > Delft University of Technology（代尔夫特理工大学）
+# - 校对时间：2026-10-13
+
+DOMAIN-SUFFIX,tudelft.nl # 代尔夫特理工大学教学、科研与校园服务官方域名
+
+# > University of California, Los Angeles（加州大学洛杉矶分校）
+# - 校对时间：2026-10-13
+
+DOMAIN-SUFFIX,ucla.edu # UCLA 官方网站、院系与学术服务域名
+DOMAIN-SUFFIX,uclahealth.org # UCLA Health 医疗服务、临床研究与健康教育平台域名
+DOMAIN-SUFFIX,uclabruins.com # UCLA 棕熊队体育赛事与官方资讯服务域名
+DOMAIN-SUFFIX,uclaextension.edu # UCLA 继续教育、职业培训与专业证书课程服务域名
+DOMAIN-SUFFIX,uclastore.com # UCLA 官方校园商店、教材与品牌商品服务域名
+DOMAIN-SUFFIX,ucla-ocr.caseiq.app # UCLA 基于 Case IQ 的民权事务与案件管理服务域名
+DOMAIN-SUFFIX,universityofcalifornia.edu # 加利福尼亚大学官方教育、科研与公共服务域名
+
+# > The Hong Kong Polytechnic University（香港理工大学）
+# - 校对时间：2026-10-14
+
+DOMAIN-SUFFIX,polyu.edu.hk # 香港理工大学官方教育、科研与校园服务域名
+
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
 # - 校对时间：2026-09-29
 
@@ -10288,276 +10558,6 @@ DOMAIN-SUFFIX,loli.net # SM.MS 图床图片存储与 CDN 分发服务域名
 # - 更新时间：2026-10-07
 
 DOMAIN-SUFFIX,website-files.com # Webflow 静态资源与代码组件 CDN 服务域名
-
-# > Massachusetts Institute of Technology（麻省理工学院）
-# - 校对时间：2026-10-08
-
-DOMAIN-SUFFIX,mit.edu # 麻省理工学院教学、科研与校园服务官方域名
-
-# > Imperial College London（帝国理工学院）
-# - 校对时间：2026-10-08
-
-DOMAIN-SUFFIX,imperial.ac.uk # 帝国理工学院教学、科研与校园服务官方域名
-DOMAIN-SUFFIX,imperial.nhs.uk # Imperial College Healthcare NHS Trust 医疗与患者服务域名
-DOMAIN-SUFFIX,ahsc.org.uk # 帝国理工学院医疗研究、临床转化与医学教育服务域名
-DOMAIN-SUFFIX,imperialcollegehealthpartners.com # NHS 医疗创新、健康研究与合作服务域名
-DOMAIN-SUFFIX,imperial-consultants.co.uk # Imperial College London 学术与科研咨询服务域名
-
-# > Stanford University（斯坦福大学）
-# - 校对时间：2026-10-08
-
-DOMAIN-SUFFIX,stanford.edu # 斯坦福大学教学、科研与校园服务官方域名
-
-# > University of Oxford（牛津大学）
-# - 校对时间：2026-10-08
-
-DOMAIN-SUFFIX,ox.ac.uk # 牛津大学教学、研究与公共服务官方域名
-DOMAIN-SUFFIX,conference-oxford.com # 牛津大学会议、活动与场地预订服务域名
-DOMAIN-SUFFIX,oxford.shorthandstories.com # 牛津大学数字专题与故事内容托管服务域名
-
-# > Harvard University（哈佛大学）
-# - 校对时间：2026-10-09
-
-DOMAIN-SUFFIX,harvard.edu # 哈佛大学官方教学、研究与公共服务域名
-
-# > University of Cambridge（剑桥大学）
-# - 校对时间：2026-10-09
-
-DOMAIN-SUFFIX,cam.ac.uk # 剑桥大学官网、院系与研究机构服务域名
-DOMAIN-SUFFIX,map.cam.ac.uk # 剑桥大学校园地图与位置查询服务域名
-DOMAIN-SUFFIX,cambridge.org # 剑桥大学学术出版、教育与评估服务域名
-
-# > California Institute of Technology（加州理工学院）
-# - 校对时间：2026-10-09
-
-DOMAIN-SUFFIX,caltech.edu # 加州理工学院科研、教育与学术服务域名
-DOMAIN-SUFFIX,digitalaccessibility.caltech.edu # Caltech 数字无障碍政策、指南与支持服务域名
-
-# > ETH Zurich（苏黎世联邦理工学院）
-# - 校对时间：2026-10-09
-
-DOMAIN-SUFFIX,ethz.ch # ETH Zurich 教学、科研与校园服务官方域名
-
-# > University College London（伦敦大学学院）
-# - 校对时间：2026-10-09
-
-DOMAIN-SUFFIX,ucl.ac.uk # 伦敦大学学院教育、研究与校园服务官方域名
-DOMAIN-SUFFIX,studentsunionucl.org # UCL 学生会、社团活动与学生支持服务域名
-
-# > National University of Singapore（新加坡国立大学）
-# - 校对时间：2026-10-10
-
-DOMAIN-SUFFIX,nus.edu # 新加坡国立大学官方服务域名
-DOMAIN-SUFFIX,nus.edu.sg # 新加坡国立大学教学、科研与校园服务官方域名
-DOMAIN-SUFFIX,nusx.edu.sg # NUSX 创新创业、科研转化与深科技孵化服务域名
-
-# > The University of Hong Kong（香港大学）
-# - 校对时间：2026-10-10
-
-DOMAIN-SUFFIX,hku.hk # 香港大学教学、科研与校园服务官方域名
-
-# > Nanyang Technological University Singapore（新加坡南洋理工大学）
-# - 校对时间：2026-10-10
-
-DOMAIN-SUFFIX,ntu.edu.sg # 新加坡南洋理工大学教育、科研与校园服务官方域名
-
-# > Penn Engineering Online（宾夕法尼亚大学工程学院在线教育平台）
-# - 校对时间：2026-10-10
-
-DOMAIN-SUFFIX,online.engineering.upenn.edu # Penn Engineering 在线学位与专业教育服务域名
-DOMAIN-SUFFIX,online-education.seas.upenn.edu # Penn Engineering 在线学位与课程服务域名
-DOMAIN-SUFFIX,gradadmissions.seas.upenn.edu # Penn Engineering 研究生招生与申请服务域名
-DOMAIN-SUFFIX,upenn.edu # 宾夕法尼亚大学官方教育与校园服务域名
-
-# > Yale University（耶鲁大学）
-# - 校对时间：2026-10-10
-
-DOMAIN-SUFFIX,yale.edu # 耶鲁大学官方网站与教育科研服务域名
-DOMAIN-SUFFIX,yale-webfonts.yalespace.org # 耶鲁大学官方 Web 字体资源服务域名
-DOMAIN-SUFFIX,collections.yale.edu # 耶鲁大学数字馆藏检索与文化遗产资源服务域名
-
-# > Cornell University（康奈尔大学）
-# - 校对时间：2026-10-14
-
-DOMAIN-SUFFIX,cornell.edu # 康奈尔大学教学、科研与校园服务官方域名
-DOMAIN-SUFFIX,cornellbotanicgardens.org # 康奈尔植物园、科研教育与自然保护服务域名
-
-# > The Chinese University of Hong Kong（香港中文大学）
-# - 校对时间：2026-10-10
-
-DOMAIN-SUFFIX,cuhk.edu.hk # 香港中文大学教学、研究与校园服务官方域名
-DOMAIN-SUFFIX,cuhk.canto.global # 香港中文大学 Canto 数字媒体资源库服务域名
-DOMAIN-SUFFIX,admission.cuhk.edu.hk # 香港中文大学本科招生与入学申请服务域名
-
-# > University of New South Wales（新南威尔士大学）
-# - 校对时间：2026-10-10
-
-DOMAIN-SUFFIX,unsw.edu.au # 新南威尔士大学教学、科研与校园服务官方域名
-DOMAIN-SUFFIX,unsw-search.funnelback.squiz.cloud # UNSW 基于 Squiz Funnelback 的站内搜索服务域名
-
-# > University of California, Berkeley（加州大学伯克利分校）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,berkeley.edu # 加州大学伯克利分校官方教育、研究与校园服务域名
-DOMAIN-SUFFIX,calbears.com # UC Berkeley 校际体育新闻、赛程与赛事服务域名
-DOMAIN-SUFFIX,escholarship.org # 加州大学开放获取学术出版与机构知识库服务域名
-
-# > Johns Hopkins University（约翰斯·霍普金斯大学）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,jhu.edu # 约翰斯·霍普金斯大学教学、科研与校园服务官方域名
-DOMAIN-SUFFIX,johnshopkins.edu # Johns Hopkins 教育、医疗与信息技术服务域名
-
-# > University of Melbourne（墨尔本大学）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,unimelb.edu.au # 墨尔本大学教育、研究与校园服务官方域名
-DOMAIN-SUFFIX,uom-search.funnelback.squiz.cloud # 墨尔本大学基于 Squiz Funnelback 的站内搜索服务域名
-
-# > École Polytechnique Fédérale de Lausanne（洛桑联邦理工学院）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,epfl.ch # 洛桑联邦理工学院教育、科研与校园服务官方域名
-DOMAIN-SUFFIX,epflalumni.ch # EPFL 校友社区、职业发展与活动服务域名
-
-# > The University of Chicago（芝加哥大学）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,uchicago.edu # 芝加哥大学教学、研究与校园服务官方域名
-
-# > Technical University of Munich（慕尼黑工业大学）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,tum.de # 慕尼黑工业大学教学、科研与校园服务官方域名
-DOMAIN-SUFFIX,mytum.de # 慕尼黑工业大学学生与教职员工门户服务域名
-DOMAIN-SUFFIX,tum-universitaetsstiftung.de # TUM 科研、教育与大学发展基金会官方域名
-
-# > Princeton University（普林斯顿大学）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,princeton.edu # 普林斯顿大学教学、科研与校园服务官方域名
-DOMAIN-SUFFIX,goprincetontigers.com # 普林斯顿大学校队赛事、新闻与体育服务域名
-
-# > The University of Sydney（悉尼大学）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,sydney.edu.au # 悉尼大学教学、研究与校园服务官方域名
-
-# > Australian National University（澳大利亚国立大学）
-# - 校对时间：2026-10-08
-
-DOMAIN-SUFFIX,anu.edu.au # 澳大利亚国立大学教育、研究与学生服务官方域名
-
-# > McGill University（麦吉尔大学）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,mcgill.ca # 麦吉尔大学官网、教学、科研与校园服务域名
-
-# > Monash University（莫纳什大学）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,monash.edu # 莫纳什大学教育、研究与学生服务官方域名
-DOMAIN-SUFFIX,study.monash # 蒙纳士大学课程查询、招生与申请服务域名
-
-# > University of Toronto（多伦多大学）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,utoronto.ca # 多伦多大学教学、科研与校务服务官方域名
-
-# > Hong Kong University of Science and Technology（香港科技大学）
-# - 校对时间：2026-10-11
-
-DOMAIN-SUFFIX,hkust.edu.hk # 香港科技大学教学、科研与校园服务官方域名
-
-# > Université PSL（巴黎文理研究大学）
-# - 校对时间：2026-10-12
-
-DOMAIN-SUFFIX,psl.eu # 巴黎文理研究大学教育、科研与学生服务官方域名
-
-# > The University of Edinburgh（爱丁堡大学）
-# - 校对时间：2026-10-12
-
-DOMAIN-SUFFIX,ed.ac.uk # 爱丁堡大学教学、研究与校园服务官方域名
-DOMAIN-SUFFIX,edin.ac # 爱丁堡大学官方短链接服务域名
-
-# > King's College London（伦敦国王学院）
-# - 校对时间：2026-10-12
-
-DOMAIN-SUFFIX,kcl.ac.uk # 伦敦国王学院教学、科研与校园服务官方域名
-DOMAIN-SUFFIX,kclsu.org # 伦敦国王学院学生会与校园学生服务域名
-
-# > Seoul National University（首尔大学）
-# - 校对时间：2026-10-12
-
-DOMAIN-SUFFIX,snu.ac.kr # 首尔大学官网、招生与教学研究服务域名
-
-# > The University of Tokyo（东京大学）
-# - 校对时间：2026-10-12
-
-DOMAIN-SUFFIX,u-tokyo.ac.jp # 东京大学教育、科研与校园服务官方域名
-
-# > The University of Manchester（英国曼彻斯特大学）
-# - 校对时间：2026-10-12
-
-DOMAIN-SUFFIX,manchester.ac.uk # 英国曼彻斯特大学教学、研究与校园服务官方域名
-
-# > The University of Queensland（澳大利亚昆士兰大学）
-# - 校对时间：2026-10-12
-
-DOMAIN-SUFFIX,uq.edu.au # 澳大利亚昆士兰大学教学、科研与校园服务官方域名
-DOMAIN-SUFFIX,uq.net.au # 昆士兰大学网站与静态资源服务域名
-
-# > Yonsei University（韩国延世大学）
-# - 校对时间：2026-10-13
-
-DOMAIN-SUFFIX,yonsei.ac.kr # 韩国延世大学官方教育、学术与校园服务域名
-DOMAIN-SUFFIX,yonsein.net # 延世大学校友门户与校友服务官方域名
-
-# > Columbia University（哥伦比亚大学）
-# - 校对时间：2026-10-13
-
-DOMAIN-SUFFIX,columbia.edu # 哥伦比亚大学教学、研究与校园服务官方域名
-DOMAIN-SUFFIX,columbiabookstore.com # 哥伦比亚大学校园书店与教材零售服务域名
-DOMAIN-SUFFIX,cupblog.org # 哥伦比亚大学出版社学术出版与文化资讯博客域名
-
-# > Institut Polytechnique de Paris（巴黎理工学院）
-# - 校对时间：2026-10-13
-
-DOMAIN-SUFFIX,ip-paris.fr # 巴黎理工学院高等教育、科研与学术服务域名
-
-# > The University of British Columbia（不列颠哥伦比亚大学）
-# - 校对时间：2026-10-13
-
-DOMAIN-SUFFIX,ubc.ca # 不列颠哥伦比亚大学教学、研究与校园服务官方域名
-
-# > Northwestern University（美国西北大学）
-# - 校对时间：2026-10-13
-
-DOMAIN-SUFFIX,northwestern.edu # 美国西北大学教学、研究与校园服务官方域名
-DOMAIN-SUFFIX,northwestern.bkstr.com # Northwestern University 官方校园书店服务域名
-DOMAIN-SUFFIX,nusports.com # 美国西北大学 Wildcats 校队体育与赛事资讯官方域名
-DOMAIN-SUFFIX,libcal.com # Springshare LibCal 图书馆活动与空间预约服务域名
-
-# > Delft University of Technology（代尔夫特理工大学）
-# - 校对时间：2026-10-13
-
-DOMAIN-SUFFIX,tudelft.nl # 代尔夫特理工大学教学、科研与校园服务官方域名
-
-# > University of California, Los Angeles（加州大学洛杉矶分校）
-# - 校对时间：2026-10-13
-
-DOMAIN-SUFFIX,ucla.edu # UCLA 官方网站、院系与学术服务域名
-DOMAIN-SUFFIX,uclahealth.org # UCLA Health 医疗服务、临床研究与健康教育平台域名
-DOMAIN-SUFFIX,uclabruins.com # UCLA 棕熊队体育赛事与官方资讯服务域名
-DOMAIN-SUFFIX,uclaextension.edu # UCLA 继续教育、职业培训与专业证书课程服务域名
-DOMAIN-SUFFIX,uclastore.com # UCLA 官方校园商店、教材与品牌商品服务域名
-DOMAIN-SUFFIX,ucla-ocr.caseiq.app # UCLA 基于 Case IQ 的民权事务与案件管理服务域名
-DOMAIN-SUFFIX,universityofcalifornia.edu # 加利福尼亚大学官方教育、科研与公共服务域名
-
-# > The Hong Kong Polytechnic University（香港理工大学）
-# - 校对时间：2026-10-14
-
-DOMAIN-SUFFIX,polyu.edu.hk # 香港理工大学官方教育、科研与校园服务域名
 
 # > Appzi User Feedback Platform（Appzi 用户反馈平台）
 # - 更新时间：2026-10-08
