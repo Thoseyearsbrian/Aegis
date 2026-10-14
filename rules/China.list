@@ -186,6 +186,11 @@ DOMAIN-SUFFIX,sysu.edu.cn # 中山大学官方网站及教学科研服务域名
 
 DOMAIN-SUFFIX,scut.edu.cn # 华南理工大学官方教育与科研服务域名
 
+# > Sichuan University（四川大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,scu.edu.cn # 四川大学官方教育、科研与校园服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
