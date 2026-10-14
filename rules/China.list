@@ -81,6 +81,11 @@ DOMAIN-SUFFIX,bnu.edu.cn # 北京师范大学官方网站与教育服务域名
 
 DOMAIN-SUFFIX,muc.edu.cn # 中央民族大学官方教育与校园服务域名
 
+# > Nankai University（南开大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,nankai.edu.cn # 南开大学官方教育与校园服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
