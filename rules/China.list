@@ -61,6 +61,11 @@ DOMAIN-SUFFIX,ruc.edu.cn # 中国人民大学官方服务域名
 
 DOMAIN-SUFFIX,buaa.edu.cn # 北京航空航天大学官方服务域名
 
+# > Beijing Institute of Technology（北京理工大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,bit.edu.cn # 北京理工大学官方服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
