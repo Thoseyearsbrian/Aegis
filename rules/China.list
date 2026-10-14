@@ -2992,6 +2992,11 @@ DOMAIN-SUFFIX,gpowersoft.com # 通元软件 CMS、网站群与媒资管理服务
 
 DOMAIN-SUFFIX,cldisk.com # 超星学习通云盘与教学资源分发服务域名
 
+# > EastWonder E-Government Cloud Platform（东方怡动电子政务应用云平台）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,ewdcloud.com # 东方怡动政务云平台与网站应用服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
