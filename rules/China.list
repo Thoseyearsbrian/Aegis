@@ -2997,6 +2997,11 @@ DOMAIN-SUFFIX,cldisk.com # 超星学习通云盘与教学资源分发服务域�
 
 DOMAIN-SUFFIX,ewdcloud.com # 东方怡动政务云平台与网站应用服务域名
 
+# > Aishu Cloud ERP（爱书云图书电商管理平台）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,tushu.cloud # 爱书云图书电商、库存与订单管理服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
