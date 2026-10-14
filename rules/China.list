@@ -3002,6 +3002,11 @@ DOMAIN-SUFFIX,ewdcloud.com # 东方怡动政务云平台与网站应用服务域
 
 DOMAIN-SUFFIX,tushu.cloud # 爱书云图书电商、库存与订单管理服务域名
 
+# > BG Online Service（BG Online 服务）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,jxgy.bg-online.com.cn # BG Online 服务域名（具体用途待核实）
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
