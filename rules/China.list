@@ -201,6 +201,11 @@ DOMAIN-SUFFIX,uestc.edu.cn # 电子科技大学官方教育与科研服务域名
 
 DOMAIN-SUFFIX,cqu.edu.cn # 重庆大学官方教育、科研与校园服务域名
 
+# > Xi'an Jiaotong University（西安交通大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,xjtu.edu.cn # 西安交通大学官方教育与科研服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
