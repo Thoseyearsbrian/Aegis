@@ -1077,3 +1077,8 @@ DOMAIN-SUFFIX,rum-ingress-coralogix.com # Coralogix 用户体验监测与前端�
 # - 更新时间：2026-10-14
 
 DOMAIN-SUFFIX,matomo.eolas-services.com # Eolas Matomo 网站访问与用户行为分析服务域名
+
+# > Proof Pulse Conversion Analytics（Proof Pulse 转化分析服务）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,cdn.useproof.com # Proof Pulse 访客行为追踪与转化分析脚本 CDN 域名
