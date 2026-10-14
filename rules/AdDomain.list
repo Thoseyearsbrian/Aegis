@@ -4,11 +4,12 @@
 # - 特征：识别广告投放、广告竞价、广告请求、广告资源分发、广告追踪及明确广告子域等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-13
-# - 校对时间：2026-10-13
+# - 更新时间：2026-10-14
+# - 校对时间：2026-10-14
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,conversionsapigateway.com # Meta 广告转化事件采集与归因服务域名
 DOMAIN-SUFFIX,ipredictive.com # Viant Adelphic 广告追踪、受众识别与归因服务域名
 DOMAIN-SUFFIX,mookie1.com # WPP Media Xaxis 广告追踪与受众定向服务域名
 DOMAIN-SUFFIX,mmtro.com # Numberly 广告追踪与受众分析服务域名
