@@ -2933,6 +2933,11 @@ DOMAIN-SUFFIX,broadcom.cn # Broadcom 中国官方网站域名
 
 DOMAIN-SUFFIX,jsd.cdn.noisework.cn # NOISE jsDelivr GitHub 与 npm 资源加速服务域名
 
+# > Harbin Institute of Technology（哈尔滨工业大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,hit.edu.cn # 哈尔滨工业大学官网及教学科研服务域名
+
 # > Peking University（北京大学）
 # - 更新时间：2026-10-14
 
