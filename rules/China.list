@@ -91,6 +91,11 @@ DOMAIN-SUFFIX,nankai.edu.cn # 南开大学官方教育与校园服务域名
 
 DOMAIN-SUFFIX,tju.edu.cn # 天津大学官方教育、科研与校园服务域名
 
+# > Dalian University of Technology（大连理工大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,dlut.edu.cn # 大连理工大学官方服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
