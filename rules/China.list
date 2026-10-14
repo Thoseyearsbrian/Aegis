@@ -56,6 +56,11 @@ DOMAIN-SUFFIX,zju.edu.cn # 浙江大学教学、科研与校园服务官方域�
 
 DOMAIN-SUFFIX,ruc.edu.cn # 中国人民大学官方服务域名
 
+# > Beihang University（北京航空航天大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,buaa.edu.cn # 北京航空航天大学官方服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
