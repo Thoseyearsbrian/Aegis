@@ -7,6 +7,48 @@
 # - 更新时间：2026-10-14
 # - 校对时间：2026-10-14
 
+# > Harbin Institute of Technology（哈尔滨工业大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,hit.edu.cn # 哈尔滨工业大学官网及教学科研服务域名
+DOMAIN-SUFFIX,ihwrm.com # 华文融媒云电子报刊与融媒体内容发布服务域名
+
+# > Peking University（北京大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,pku.edu.cn # 北京大学教学、科研与校园服务官方域名
+DOMAIN-SUFFIX,pkuef.org # 北京大学教育基金会公益捐赠与教育资助服务域名
+DOMAIN-SUFFIX,liveclass.org.cn # 北京大学燕云直播与在线教学服务域名
+DOMAIN-SUFFIX,bjmu.edu.cn # 北京大学医学部医学教育、科研与医疗服务域名
+DOMAIN-SUFFIX,pku.org.cn # 北京大学校友会官方服务域名
+DOMAIN-SUFFIX,chinesemooc.org # 北京大学华文慕课在线教育与课程学习服务域名
+
+# > Tsinghua University（清华大学）
+# - 校对时间：2026-10-14
+
+DOMAIN-SUFFIX,tsinghua.edu.cn # 清华大学官方网站与教育科研服务域名
+DOMAIN-SUFFIX,tsinghua.org.cn # 清华大学校友联络、活动与服务平台官方域名
+
+# > Fudan University（复旦大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,fudan.edu.cn # 复旦大学官方网站与校园服务域名
+
+# > Shanghai Jiao Tong University（上海交通大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,sjtu.edu.cn # 上海交通大学官网、教学与科研服务域名
+
+# > Zhejiang University（浙江大学）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,zju.edu.cn # 浙江大学教学、科研与校园服务官方域名
+
+# > CNKI Academic Database（中国知网学术数据库）
+# - 更新时间：2026-10-08
+
+DOMAIN-SUFFIX,cnki.net # 中国知网学术文献检索与知识服务域名
+
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
 
@@ -2932,47 +2974,6 @@ DOMAIN-SUFFIX,broadcom.cn # Broadcom 中国官方网站域名
 # - 更新时间：2026-10-07
 
 DOMAIN-SUFFIX,jsd.cdn.noisework.cn # NOISE jsDelivr GitHub 与 npm 资源加速服务域名
-
-# > Harbin Institute of Technology（哈尔滨工业大学）
-# - 更新时间：2026-10-14
-
-DOMAIN-SUFFIX,hit.edu.cn # 哈尔滨工业大学官网及教学科研服务域名
-
-# > Peking University（北京大学）
-# - 更新时间：2026-10-14
-
-DOMAIN-SUFFIX,pku.edu.cn # 北京大学教学、科研与校园服务官方域名
-DOMAIN-SUFFIX,pkuef.org # 北京大学教育基金会公益捐赠与教育资助服务域名
-DOMAIN-SUFFIX,liveclass.org.cn # 北京大学燕云直播与在线教学服务域名
-DOMAIN-SUFFIX,bjmu.edu.cn # 北京大学医学部医学教育、科研与医疗服务域名
-DOMAIN-SUFFIX,pku.org.cn # 北京大学校友会官方服务域名
-DOMAIN-SUFFIX,chinesemooc.org # 北京大学华文慕课在线教育与课程学习服务域名
-
-# > Tsinghua University（清华大学）
-# - 校对时间：2026-10-14
-
-DOMAIN-SUFFIX,tsinghua.edu.cn # 清华大学官方网站与教育科研服务域名
-DOMAIN-SUFFIX,tsinghua.org.cn # 清华大学校友联络、活动与服务平台官方域名
-
-# > Fudan University（复旦大学）
-# - 更新时间：2026-10-08
-
-DOMAIN-SUFFIX,fudan.edu.cn # 复旦大学官方网站与校园服务域名
-
-# > Shanghai Jiao Tong University（上海交通大学）
-# - 更新时间：2026-10-08
-
-DOMAIN-SUFFIX,sjtu.edu.cn # 上海交通大学官网、教学与科研服务域名
-
-# > Zhejiang University（浙江大学）
-# - 更新时间：2026-10-08
-
-DOMAIN-SUFFIX,zju.edu.cn # 浙江大学教学、科研与校园服务官方域名
-
-# > CNKI Academic Database（中国知网学术数据库）
-# - 更新时间：2026-10-08
-
-DOMAIN-SUFFIX,cnki.net # 中国知网学术文献检索与知识服务域名
 
 # > Gpower Software Platform（通元软件服务平台）
 # - 更新时间：2026-10-14
