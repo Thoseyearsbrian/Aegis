@@ -171,6 +171,11 @@ DOMAIN-SUFFIX,hnu.edu.cn # 湖南大学官方教育与校园服务域名
 
 DOMAIN-SUFFIX,csu.edu.cn # 中南大学官方网站与校园服务域名
 
+# > National University of Defense Technology（国防科技大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,nudt.edu.cn # 国防科技大学官方教育与科研服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
