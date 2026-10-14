@@ -1082,3 +1082,8 @@ DOMAIN-SUFFIX,matomo.eolas-services.com # Eolas Matomo 网站访问与用户行�
 # - 更新时间：2026-10-14
 
 DOMAIN-SUFFIX,cdn.useproof.com # Proof Pulse 访客行为追踪与转化分析脚本 CDN 域名
+
+# > Umeng+ CNZZ Website Analytics（友盟+ CNZZ 网站统计服务）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,cnzz.com # 友盟+ CNZZ 网站流量统计与用户行为分析服务域名
