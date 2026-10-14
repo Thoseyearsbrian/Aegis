@@ -156,6 +156,11 @@ DOMAIN-SUFFIX,ouc.edu.cn # 中国海洋大学教学、科研与校园服务官�
 
 DOMAIN-SUFFIX,whu.edu.cn # 武汉大学官方网站与校级服务域名
 
+# > Huazhong University of Science and Technology（华中科技大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,hust.edu.cn # 华中科技大学官方教育、科研与校园服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
