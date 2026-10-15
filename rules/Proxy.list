@@ -2379,7 +2379,7 @@ DOMAIN-SUFFIX,icdn.global.jd.com # 图片资源域名
 DOMAIN-SUFFIX,api.jd.hk # API 接口域名
 
 # > Coupang E-Commerce Platform（Coupang 电商平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-10-15
 
 DOMAIN-SUFFIX,coupang.com # 平台主域名
 DOMAIN-SUFFIX,thacoupang.com # 区域站点域名
@@ -2388,6 +2388,7 @@ DOMAIN-SUFFIX,image.coupangcdn.com # 图片资源域名
 DOMAIN-SUFFIX,affiliate.coupang.com # 联盟服务域名
 DOMAIN-SUFFIX,ads.coupang.com # 广告服务域名
 DOMAIN-SUFFIX,api.coupang.com # API 接口域名
+DOMAIN-SUFFIX,coupangcdn.com # Coupang 商品图片与静态资源 CDN 服务域名
 
 # > 17TRACK Parcel Tracking Platform（17TRACK 物流追踪平台）
 # - 校对时间：2026-03-28
