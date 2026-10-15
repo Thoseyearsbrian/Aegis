@@ -222,6 +222,11 @@ DOMAIN-SUFFIX,nwafu.edu.cn # 西北农林科技大学校园服务域名
 
 DOMAIN-SUFFIX,bjtu.edu.cn # 北京交通大学官方教育、科研与校园服务域名
 
+# > Beijing University of Posts and Telecommunications（北京邮电大学）
+# - 更新时间：2026-10-15
+
+DOMAIN-SUFFIX,bupt.edu.cn # 北京邮电大学官方网站与教育服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
