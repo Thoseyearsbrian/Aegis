@@ -267,6 +267,11 @@ DOMAIN-SUFFIX,neau.edu.cn # 东北农业大学官方教育与科研服务域名
 
 DOMAIN-SUFFIX,smmu.edu.cn # 海军军医大学（第二军医大学）官方教育服务域名
 
+# > Shanghai International Studies University（上海外国语大学）
+# - 更新时间：2026-10-15
+
+DOMAIN-SUFFIX,shisu.edu.cn # 上海外国语大学官方网站与教学科研服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
