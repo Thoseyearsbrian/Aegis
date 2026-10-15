@@ -217,6 +217,11 @@ DOMAIN-SUFFIX,nwpu.edu.cn # 西北工业大学官方教育与科研服务域名
 DOMAIN-SUFFIX,nwsuaf.edu.cn # 西北农林科技大学官方服务域名
 DOMAIN-SUFFIX,nwafu.edu.cn # 西北农林科技大学校园服务域名
 
+# > Beijing Jiaotong University（北京交通大学）
+# - 更新时间：2026-10-15
+
+DOMAIN-SUFFIX,bjtu.edu.cn # 北京交通大学官方教育、科研与校园服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
