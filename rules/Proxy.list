@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-14
-# - 校对时间：2026-10-14
+# - 更新时间：2026-10-15
+# - 校对时间：2026-10-15
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -4296,12 +4296,13 @@ DOMAIN-SUFFIX,hellogithub.com # 平台主域名
 DOMAIN-SUFFIX,rsms.me # 项目域名
 
 # > Bandisoft Software Service（Bandisoft 软件服务）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-10-15
 
 DOMAIN-SUFFIX,bandisoft.com # 平台主域名
 DOMAIN-SUFFIX,bz.aegis.download # 下载服务域名
 DOMAIN-SUFFIX,cdn.bandisoft.com # 静态资源域名
 DOMAIN-SUFFIX,icon.bandisoft.com # 图标服务域名
+DOMAIN-SUFFIX,bandisoft.app # Bandisoft Windows 应用更新服务域名
 
 # > Docker Platform（Docker 容器平台）
 # - 校对时间：2026-05-03
