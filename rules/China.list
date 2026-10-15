@@ -242,6 +242,11 @@ DOMAIN-SUFFIX,cupl.edu.cn # 中国政法大学官方教学与科研服务域名
 
 DOMAIN-SUFFIX,bsu.edu.cn # 北京体育大学官方教育、科研与校园服务域名
 
+# > Hebei University of Technology（河北工业大学）
+# - 更新时间：2026-10-15
+
+DOMAIN-SUFFIX,hebut.edu.cn # 河北工业大学官方网站与教育服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
