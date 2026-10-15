@@ -237,6 +237,11 @@ DOMAIN-SUFFIX,cuc.edu.cn # 中国传媒大学官方网站与教育服务域名
 
 DOMAIN-SUFFIX,cupl.edu.cn # 中国政法大学官方教学与科研服务域名
 
+# > Beijing Sport University（北京体育大学）
+# - 更新时间：2026-10-15
+
+DOMAIN-SUFFIX,bsu.edu.cn # 北京体育大学官方教育、科研与校园服务域名
+
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-10-08
 
