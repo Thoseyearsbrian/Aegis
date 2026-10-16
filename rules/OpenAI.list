@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-13
-# - 校对时间：2026-10-13
+# - 更新时间：2026-10-16
+# - 校对时间：2026-10-16
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-09-29
@@ -723,3 +723,8 @@ DOMAIN-SUFFIX,ivo.ai # Ivo AI 合同审查与合同智能服务域名
 # - 更新时间：2026-10-13
 
 DOMAIN-SUFFIX,texttoquant.com # TextToQuant AI 量化策略分析与回测服务域名
+
+# > ArtCraft AI Creative Platform（ArtCraft AI 创作平台）
+# - 更新时间：2026-10-16
+
+DOMAIN-SUFFIX,getartcraft.com # ArtCraft AI 内容生成与创意工具平台域名
