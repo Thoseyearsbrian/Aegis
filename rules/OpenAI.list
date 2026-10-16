@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,openaipublic.blob.core.windows.net # OpenAI 公共资源托管域�
 DOMAIN-SUFFIX,openai.gallerycdn.vsassets.io # OpenAI Codex IDE 扩展安装包、清单与静态资源分发域名
 DOMAIN-SUFFIX,tidal-rush-paradise-gp.skirano.chatgpt.site # ChatGPT Sites 托管的 Tidal Rush 竞速 Web 应用域名
 DOMAIN-SUFFIX,codex-cloud-environments.chatgpt.com # OpenAI Codex 云环境命令与执行结果通信域名
+DOMAIN-SUFFIX,codex-cloud-backend.chatgpt.com # OpenAI Codex 云端任务与持久连接后端服务域名
 IP-CIDR,104.244.43.229/32 # ChatGPT 服务节点（chatgpt.com）
 
 # > Claude Platform Infrastructure（Claude 平台基础设施域名）
