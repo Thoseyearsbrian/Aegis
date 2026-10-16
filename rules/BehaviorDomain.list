@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-14
-# - 校对时间：2026-10-14
+# - 更新时间：2026-10-16
+# - 校对时间：2026-10-16
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -1087,3 +1087,8 @@ DOMAIN-SUFFIX,cdn.useproof.com # Proof Pulse 访客行为追踪与转化分析�
 # - 更新时间：2026-10-14
 
 DOMAIN-SUFFIX,cnzz.com # 友盟+ CNZZ 网站流量统计与用户行为分析服务域名
+
+# > Mixpanel Product Analytics（Mixpanel 产品与用户行为分析平台）
+# - 更新时间：2026-10-16
+
+DOMAIN-SUFFIX,mxpnl.com # Mixpanel 用户行为分析与追踪 SDK 服务域名
