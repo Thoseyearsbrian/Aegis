@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-17
-# - 校对时间：2026-10-17
+# - 更新时间：2026-10-18
+# - 校对时间：2026-10-18
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -278,7 +278,7 @@ DOMAIN-SUFFIX,universityofcalifornia.edu # 加利福尼亚大学官方教育、�
 DOMAIN-SUFFIX,polyu.edu.hk # 香港理工大学官方教育、科研与校园服务域名
 
 # > Cloudflare Platform Infrastructure（Cloudflare 平台基础设施域名）
-# - 校对时间：2026-09-29
+# - 校对时间：2026-10-18
 
 DOMAIN-SUFFIX,cloudflare.com # Cloudflare 官方主站
 DOMAIN-SUFFIX,cloudflare.net # Cloudflare 网络基础设施与核心服务域名
@@ -310,9 +310,7 @@ DOMAIN-SUFFIX,cloudflareinsights.com # Cloudflare 网站性能分析服务域名
 DOMAIN-SUFFIX,cloudflare.pay # Cloudflare Wallet 钱包标识预留与 AI Agent 身份服务官方域名
 DOMAIN-SUFFIX,cloudflareaccess.com # Cloudflare Access 身份认证与访问控制服务域名
 DOMAIN-SUFFIX,cloudflare-ech.com # Cloudflare ECH 加密 TLS ClientHello 与公共 SNI 服务域名
-
-# > Cloudflare Public DNS（Cloudflare 公共 DNS 服务）
-
+IP-CIDR,104.16.249.249/32 # Cloudflare DoH 服务节点（cloudflare-dns.com）
 IP-CIDR,1.1.1.1/32 # Cloudflare 公共 DNS 服务地址
 IP-CIDR,1.0.0.1/32 # Cloudflare 公共 DNS 备用地址
 
