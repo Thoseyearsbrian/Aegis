@@ -5,8 +5,8 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-17
-# - 校对时间：2026-10-17
+# - 更新时间：2026-10-18
+# - 校对时间：2026-10-18
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -589,6 +589,12 @@ DOMAIN-SUFFIX,mask.apple-dns.net # Private Relay DNS 路由域名
 DOMAIN-SUFFIX,mask.icloud.com # iCloud Private Relay 服务域名
 DOMAIN-SUFFIX,mask-h2.icloud.com # iCloud Private Relay 服务域名
 DOMAIN-SUFFIX,mask-api.icloud.com # iCloud Private Relay API 服务域名
+
+# > Apple QUIC Service Nodes（Apple QUIC 服务节点）
+# - 更新时间：2026-10-18
+
+IP-CIDR,17.253.145.10/32 # Apple QUIC 服务节点
+IP-CIDR,17.253.150.10/32 # Apple QUIC 服务节点
 
 # > 已列入AdDomain.list明细:
 
