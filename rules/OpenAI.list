@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-16
-# - 校对时间：2026-10-16
+# - 更新时间：2026-10-17
+# - 校对时间：2026-10-17
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-10-16
@@ -731,3 +731,8 @@ DOMAIN-SUFFIX,texttoquant.com # TextToQuant AI 量化策略分析与回测服务
 
 DOMAIN-SUFFIX,getartcraft.com # ArtCraft AI 内容生成与创意工具平台域名
 DOMAIN-SUFFIX,storyteller.ai # ArtCraft / Storyteller AI 图像、视频与媒体生成服务域名
+
+# > REA Reverse Engineering for Coding Agents（REA AI 编程智能体逆向工程工具）
+# - 更新时间：2026-10-17
+
+DOMAIN-SUFFIX,rea.tools # REA AI 编程智能体逆向工程工具官方域名
