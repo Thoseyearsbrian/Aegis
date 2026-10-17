@@ -5,8 +5,8 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-09-29
-# - 校对时间：2026-09-29
+# - 更新时间：2026-10-17
+# - 校对时间：2026-10-17
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -61,7 +61,6 @@ DOMAIN-SUFFIX,radar.apple.com # Apple Bug Reporter 服务
 DOMAIN-SUFFIX,download.apple.com # Apple 官方软件下载入口
 DOMAIN-SUFFIX,images.apple.com # Apple 官方图片资源服务
 DOMAIN-SUFFIX,maps.apple.com # Apple 地图服务主域名
-DOMAIN-SUFFIX,weather.apple.com # Apple 天气服务入口
 DOMAIN-SUFFIX,appstoreconnect.apple.com # Apple App Store Connect 管理平台
 DOMAIN-SUFFIX,api.appstoreconnect.apple.com # App Store Connect API 接口
 DOMAIN-SUFFIX,music.apple.com # Apple Music Web 服务
@@ -114,7 +113,6 @@ DOMAIN-SUFFIX,cl1-cn.apple.com # Apple 中国区内容分发与服务接入节�
 DOMAIN-SUFFIX,cl2-cn.apple.com # Apple 中国区内容分发与服务接入节点
 DOMAIN-SUFFIX,cl3-cn.apple.com # Apple 中国区内容分发与服务接入节点
 DOMAIN-SUFFIX,cl4-cn.apple.com # Apple 中国区内容分发与服务接入节点
-DOMAIN-SUFFIX,weatherkit.apple.com # Apple WeatherKit 官方天气服务接口
 DOMAIN-SUFFIX,iphone-ld.apple.com # Apple 系统加载服务
 DOMAIN-SUFFIX,swallow.apple.com # Apple 网络质量检测
 DOMAIN-SUFFIX,networkquality.apple.com # Apple 网络质量检测服务
@@ -148,7 +146,6 @@ DOMAIN-SUFFIX,tdms.apple.com # Apple 遥测与诊断服务
 DOMAIN-SUFFIX,sse-ws-p189.apple.com # Apple SSE/WebSocket 服务
 DOMAIN-SUFFIX,gdmf-ados.apple.com # Apple GDMF 策略服务
 DOMAIN-SUFFIX,pds-init.ess.apple.com # Apple ESS 初始化服务
-DOMAIN-SUFFIX,weather-edge.apple.com # Apple 天气服务边缘接入节点
 DOMAIN-SUFFIX,sf-saas.cdn-apple.com # Apple SaaS 服务 CDN
 
 # > Apple Voice Intelligence（Siri / 语音听写服务）
@@ -524,7 +521,6 @@ DOMAIN-SUFFIX,geo-dispatch.apple.com # Apple 地理服务调度节点
 DOMAIN-SUFFIX,geo-bootstrap.apple.com # Apple 地理服务初始化节点
 DOMAIN-SUFFIX,geo-config.apple.com # Apple 地理服务配置接口
 DOMAIN-SUFFIX,gs-loc-cn.apple.com # Apple 中国区定位接口
-DOMAIN-SUFFIX,weather-map2.apple.com # Apple 天气地图服务节点
 
 # > Apple Location Services（Apple 定位服务）
 
@@ -568,6 +564,15 @@ DOMAIN-SUFFIX,activity.apple.com # Apple Watch 活动数据记录与进度追踪
 DOMAIN-SUFFIX,classroom.apple.com # Apple Classroom 远程教学服务入口
 DOMAIN-SUFFIX,school.apple.com # Apple School 管理平台域名，用于设备配置与教学资源同步
 DOMAIN-SUFFIX,education.apple.com # Apple 教育资源主入口，涵盖课堂管理与学习平台服务
+
+# > Apple Weather Services（Apple 天气服务）
+# - 校对时间：2026-10-17
+
+DOMAIN-SUFFIX,weather.apple.com # Apple 天气服务入口
+DOMAIN-SUFFIX,weather-edge.apple.com # Apple 天气服务边缘接入节点
+DOMAIN-SUFFIX,weatherkit.apple.com # Apple WeatherKit 官方天气服务接口
+DOMAIN-SUFFIX,weather-map2.apple.com # Apple 天气地图服务节点
+DOMAIN-SUFFIX,tether.edge.apple # Apple 天气 QUIC 边缘通信服务域名
 
 # > Privacy Relay Services（Apple 隐私中继服务）
 
