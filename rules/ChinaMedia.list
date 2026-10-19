@@ -502,6 +502,7 @@ IP-CIDR,180.97.171.110/32 # 字节跳动特效资源服务节点（lf26-effect-3
 IP-CIDR,180.97.171.112/32 # 字节跳动对象存储服务节点（lf26-pitaya.bytetos.com）
 IP-CIDR,180.97.171.113/32 # 字节跳动对象存储服务节点（lf26-pitaya.bytetos.com）
 IP-CIDR,180.97.171.114/32 # 字节跳动对象存储服务节点（lf26-pitaya.bytetos.com）
+IP-CIDR,180.97.172.227/32 # 抖音视频播放服务 IP（api-play.amemv.com）
 IP-CIDR,180.97.174.238/32 # 字节跳动策略与调度服务节点（polaris3-normal-lq.zijieapi.com）
 IP-CIDR,180.97.177.231/32 # 抖音视频点播 CDN 节点（v5-gzb2-x-hl-qn2.douyinvod.com）
 IP-CIDR,180.97.198.41/32 # 抖音视频点播 CDN 节点（v13-x.douyinvod.com）
