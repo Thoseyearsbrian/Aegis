@@ -178,6 +178,8 @@ IP-CIDR,58.216.32.187/32 # 抖音图片资源 CDN 节点（p26-sign.douyinpic.co
 IP-CIDR,58.216.32.191/32 # 抖音图片资源 CDN 节点（p26-sign.douyinpic.com）
 IP-CIDR,58.216.32.200/32 # 抖音图片资源 CDN 节点（p26-sign.douyinpic.com）
 IP-CIDR,58.216.32.201/32 # 抖音图片资源 CDN 节点（p26.douyinpic.com）
+IP-CIDR,58.216.46.8/32 # 抖音音乐资源分发服务节点 IP（v95-se-zjwztc-awememusicpgc.amemv.com）
+IP-CIDR,58.216.46.9/32 # 抖音音乐资源分发服务节点 IP（v95-se-zjwztc-awememusicpgc.amemv.com）
 IP-CIDR,58.216.84.52/32 # 抖音图片资源 CDN 节点（p11.douyinpic.com）
 IP-CIDR,58.216.84.136/32 # 抖音图片资源 CDN 节点（p11.douyinpic.com）
 IP-CIDR,58.216.102.26/32 # 抖音开放平台内容分发节点（lf-douyin-open-2c-cdn.open-douyin.com）
