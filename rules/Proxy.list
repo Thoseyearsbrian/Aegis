@@ -11144,6 +11144,11 @@ DOMAIN-SUFFIX,recordly.dev # Recordly 屏幕录制与视频编辑服务域名
 
 DOMAIN-SUFFIX,ko-fi.com # Ko-fi 创作者赞助、会员与数字商品服务域名
 
+# > Bazaarvoice（用户生成内容与商品评价平台）相关域名
+# - 校对时间：2026-10-19
+
+DOMAIN-SUFFIX,display.ugc.bazaarvoice.com # Bazaarvoice 用户评价与商品评分展示服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-16
 
