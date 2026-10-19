@@ -11149,6 +11149,11 @@ DOMAIN-SUFFIX,ko-fi.com # Ko-fi 创作者赞助、会员与数字商品服务域
 
 DOMAIN-SUFFIX,display.ugc.bazaarvoice.com # Bazaarvoice 用户评价与商品评分展示服务域名
 
+# > CJ Affiliate（联盟营销）相关域名
+# - 校对时间：2026-10-19
+
+DOMAIN-SUFFIX,public.cj.com # CJ Affiliate 联盟营销服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-16
 
