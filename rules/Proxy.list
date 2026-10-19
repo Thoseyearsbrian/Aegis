@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-18
-# - 校对时间：2026-10-18
+# - 更新时间：2026-10-20
+# - 校对时间：2026-10-20
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11154,6 +11154,11 @@ DOMAIN-SUFFIX,display.ugc.bazaarvoice.com # Bazaarvoice 用户评价与商品评
 # - 校对时间：2026-10-19
 
 DOMAIN-SUFFIX,public.cj.com # CJ Affiliate 联盟营销服务域名
+
+# > Workable（招聘管理与求职申请平台）相关域名
+# - 校对时间：2026-10-20
+
+DOMAIN-SUFFIX,apply.workable.com # Workable 职位发布与在线求职申请服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-16
