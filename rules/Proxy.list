@@ -5599,6 +5599,7 @@ DOMAIN-SUFFIX,tmqa.trendmicro.com # 趋势科技质量/检测分析域名，用�
 DOMAIN-SUFFIX,tmcloud.trendmicro.com # 云安全服务节点，用于样本分析、信誉查询与实时威胁拦截策略同步
 DOMAIN-SUFFIX,ws.trendmicro.com # 趋势科技 Web 服务端点，用于 cloud reputation、URL 分析与安全规则更新
 DOMAIN-SUFFIX,trendlife.com # Trend Micro TrendLife 数字安全与用户支持服务域名
+DOMAIN-SUFFIX,powerbox-na-file.trend.org # 趋势科技技术支持文档与附件下载服务域名
 
 # > ESET Threat Intelligence（ESET 恶意软件分析 / 威胁信誉服务）
 # - 校对时间：2026-03-28
