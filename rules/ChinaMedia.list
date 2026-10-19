@@ -69,6 +69,7 @@ DOMAIN-SUFFIX,feelgood.cn # FeelGood 用户体验评估平台域名
 DOMAIN-SUFFIX,bytemaimg.com # 字节跳动图片资源服务域名
 DOMAIN-SUFFIX,api-play.amemv.com # 抖音视频播放服务域名
 DOMAIN-SUFFIX,lf26-stark-cdn.bdgp.cc # 字节跳动 Stark 静态资源分发域名
+DOMAIN-SUFFIX,lf3-developer.bytemastatic.com # 抖音开放平台开发者静态资源分发域名
 DOMAIN-SUFFIX,lf-ad-growth.byteadverts.com # 字节跳动广告增长服务域名
 IP-CIDR,1.81.2.170/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,1.193.215.153/32 # 抖音静态资源节点（lf3-static.bytednsdoc.com）
