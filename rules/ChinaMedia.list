@@ -406,6 +406,7 @@ IP-CIDR,119.167.135.76/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
 IP-CIDR,119.167.135.72/32 # 抖音内容分发质量控制节点（lf-dy-sourcecdn-tos-qos-control.bytegecko.com）
 IP-CIDR,119.167.135.73/32 # 抖音内容分发质量控制节点（lf-dy-sourcecdn-tos-qos-control.bytegecko.com）
 IP-CIDR,119.167.135.75/32 # 抖音直播内容分发节点（lf-webcast-gr-sourcecdn.bytegecko.com）
+IP-CIDR,119.167.237.41/32 # 抖音视频点播分发服务节点 IP（v13-wha.douyinvod.com）
 IP-CIDR,120.39.201.19/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,120.39.201.21/32 # 字节跳动图片资源服务节点（p3-im-emoticon-sign.byteimg.com）
 IP-CIDR,120.39.195.241/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
