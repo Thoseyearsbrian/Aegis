@@ -5588,7 +5588,7 @@ DOMAIN-SUFFIX,abuse-sslbl.abuse.ch # SSLBL 附属查询端点，用于恶意证�
 DOMAIN-SUFFIX,api.abuse.ch # Abuse.ch 综合 API 端点，用于威胁数据抓取、项目查询与自动化安全集成
 
 # > Trend Micro Smart Protection Network（Trend Micro Smart Protection 云安全情报 / 威胁分析）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-10-19
 
 DOMAIN-SUFFIX,trendmicro.com # 趋势科技官方网站，用于产品信息、威胁更新与云安全服务访问
 DOMAIN-SUFFIX,smartprotectionnetwork.com # Smart Protection Network 主域名，用于恶意软件情报、信誉评分与实时威胁查询
@@ -5598,6 +5598,7 @@ DOMAIN-SUFFIX,cloudone.trendmicro.com # Trend Micro Cloud One 平台，用于云
 DOMAIN-SUFFIX,tmqa.trendmicro.com # 趋势科技质量/检测分析域名，用于威胁分析、信誉数据与安全验证
 DOMAIN-SUFFIX,tmcloud.trendmicro.com # 云安全服务节点，用于样本分析、信誉查询与实时威胁拦截策略同步
 DOMAIN-SUFFIX,ws.trendmicro.com # 趋势科技 Web 服务端点，用于 cloud reputation、URL 分析与安全规则更新
+DOMAIN-SUFFIX,trendlife.com # Trend Micro TrendLife 数字安全与用户支持服务域名
 
 # > ESET Threat Intelligence（ESET 恶意软件分析 / 威胁信誉服务）
 # - 校对时间：2026-03-28
@@ -11142,11 +11143,6 @@ DOMAIN-SUFFIX,recordly.dev # Recordly 屏幕录制与视频编辑服务域名
 # - 校对时间：2026-10-16
 
 DOMAIN-SUFFIX,ko-fi.com # Ko-fi 创作者赞助、会员与数字商品服务域名
-
-# > TrendLife Digital Safety Platform（TrendLife 数字安全平台）
-# - 更新时间：2026-10-17
-
-DOMAIN-SUFFIX,trendlife.com # Trend Micro TrendLife 数字安全与用户支持服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-16
