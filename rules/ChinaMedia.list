@@ -461,6 +461,10 @@ IP-CIDR,123.13.185.84/32 # 字节跳动对象存储服务节点（lf6-pitaya.byt
 IP-CIDR,123.13.185.85/32 # 抖音视频点播 CDN 节点（v6-whb.douyinvod.com）
 IP-CIDR,123.13.185.86/32 # 抖音图片资源 CDN 节点（p6.douyinpic.com）
 IP-CIDR,123.13.185.92/32 # 抖音图片资源 CDN 节点（p6.douyinpic.com）
+IP-CIDR,123.54.192.46/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
+IP-CIDR,123.54.192.47/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
+IP-CIDR,123.54.192.48/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
+IP-CIDR,123.54.192.49/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
 IP-CIDR,123.54.196.222/32 # 字节跳动对象存储服务节点（lf3-pitaya.bytetos.com）
 IP-CIDR,123.54.210.137/32 # 抖音视频点播 CDN 节点（v5-x.douyinvod.com）
 IP-CIDR,123.184.218.55/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
@@ -481,6 +485,8 @@ IP-CIDR,123.235.40.66/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com
 IP-CIDR,123.235.40.68/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,123.235.40.69/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,123.235.40.71/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
+IP-CIDR,123.246.87.64/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
+IP-CIDR,123.246.87.65/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
 IP-CIDR,123.246.87.72/32 # 抖音视频点播 CDN 节点（v6-daily-colda.douyinvod.com）
 IP-CIDR,124.129.4.42/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,124.129.4.44/32 # 抖音图片资源 CDN 节点（p3.douyinpic.com）
@@ -493,6 +499,8 @@ IP-CIDR,124.239.239.79/32 # 字节跳动电商图片资源节点（p3-item.ecomb
 IP-CIDR,125.124.253.72/32 # 抖音视频点播 CDN 节点（v5-se-zjjxtc-coldn.douyinvod.com）
 IP-CIDR,125.124.253.73/32 # 抖音视频点播 CDN 节点（v5-se-zjjxtc-coldn.douyinvod.com）
 IP-CIDR,140.249.8.19/32 # 抖音直播图片资源节点（p3-webcast-sign.douyinpic.com）
+IP-CIDR,140.249.99.22/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
+IP-CIDR,140.249.99.23/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
 IP-CIDR,140.249.107.98/32 # 抖音直播图片资源节点（p11-webcast-sign.douyinpic.com）
 IP-CIDR,140.249.149.124/32 # 抖音视频点播 CDN 节点（v6-whb.douyinvod.com）
 IP-CIDR,150.138.86.41/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
@@ -602,6 +610,8 @@ IP-CIDR,182.106.149.189/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.
 IP-CIDR,182.106.149.192/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,182.106.149.208/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
 IP-CIDR,182.106.195.146/32 # 抖音图片资源 CDN 节点（p5-ex-gddgtc-sign.douyinpic.com）
+IP-CIDR,182.242.215.41/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
+IP-CIDR,182.242.215.42/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
 IP-CIDR,183.36.7.189/32 # 抖音视频点播 CDN 节点（v95-bj-x.douyinvod.com）
 IP-CIDR,183.36.28.56/32 # 抖音视频点播 CDN 节点（v95-bj-x.douyinvod.com）
 IP-CIDR,183.61.173.121/32 # 抖音直播内容分发节点（lf9-webcast-cdn-tos-ncdn.bytegecko.com）
