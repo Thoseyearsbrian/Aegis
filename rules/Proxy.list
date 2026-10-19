@@ -11160,6 +11160,11 @@ DOMAIN-SUFFIX,public.cj.com # CJ Affiliate 联盟营销服务域名
 
 DOMAIN-SUFFIX,apply.workable.com # Workable 职位发布与在线求职申请服务域名
 
+# > Better Stack（可观测性与日志管理平台）相关域名
+# - 校对时间：2026-10-20
+
+DOMAIN-SUFFIX,betterstackdata.com # Better Stack 可观测性数据接收服务节点
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-16
 
