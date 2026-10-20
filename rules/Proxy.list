@@ -11166,7 +11166,7 @@ DOMAIN-SUFFIX,apply.workable.com # Workable 职位发布与在线求职申请服
 DOMAIN-SUFFIX,betterstackdata.com # Better Stack 可观测性数据接收服务节点
 
 # > Third-Party Blogs（第三方博客）
-# - 校对时间：2026-10-16
+# - 校对时间：2026-10-20
 
 DOMAIN-SUFFIX,freedidi.com # 零度博客技术博客域名
 DOMAIN-SUFFIX,skk.moe # Sukka 主站域名
@@ -11196,3 +11196,4 @@ DOMAIN-SUFFIX,simhaoka.com # Simhaoka 博客与资源分享域名
 DOMAIN-SUFFIX,bushidotoken.net # BushidoToken 威胁情报博客域名
 DOMAIN-SUFFIX,yachen.com # Yachen's Blog 个人博客域名
 DOMAIN-SUFFIX,morluto.bearblog.dev # Morluto AI、机器学习与 Agent 研究博客域名
+DOMAIN-SUFFIX,blog.imouto.in # Tianling's Blog 技术博客域名
