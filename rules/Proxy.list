@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-20
-# - 校对时间：2026-10-20
+# - 更新时间：2026-10-22
+# - 校对时间：2026-10-22
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11164,6 +11164,11 @@ DOMAIN-SUFFIX,apply.workable.com # Workable 职位发布与在线求职申请服
 # - 校对时间：2026-10-20
 
 DOMAIN-SUFFIX,betterstackdata.com # Better Stack 可观测性数据接收服务节点
+
+# > Yubico（硬件安全密钥与身份认证解决方案）相关域名
+# - 更新时间：2026-10-22
+
+DOMAIN-SUFFIX,yubico.com # Yubico 官方网站与 YubiKey 安全认证服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
