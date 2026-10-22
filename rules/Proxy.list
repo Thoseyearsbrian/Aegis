@@ -11187,6 +11187,11 @@ DOMAIN-SUFFIX,apis.spline.design # Spline 平台 API 通信服务域名
 DOMAIN-SUFFIX,webglreport.com # WebGL 浏览器图形能力与 GPU 信息检测服务域名
 DOMAIN-SUFFIX,get.webgl.org # WebGL 浏览器兼容性与图形渲染支持检测域名
 
+# > Staqlab（电商应用与营销自动化服务）相关域名
+# - 更新时间：2026-10-22
+
+DOMAIN-SUFFIX,js-server.staqlab.com # Staqlab 电商应用 JavaScript 脚本服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
