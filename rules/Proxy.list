@@ -11197,6 +11197,11 @@ DOMAIN-SUFFIX,js-server.staqlab.com # Staqlab 电商应用 JavaScript 脚本服�
 
 DOMAIN-SUFFIX,s1.staq-cdn.com # Staqlab CartBite 电商应用脚本分发域名
 
+# > Nitro Apps（Shopify 电商应用与店铺优化平台）相关域名
+# - 更新时间：2026-10-22
+
+DOMAIN-SUFFIX,cdn.nitroapps.co # Nitro Apps 电商应用 CDN 资源分发域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
