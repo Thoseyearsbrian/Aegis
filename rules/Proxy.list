@@ -11192,6 +11192,11 @@ DOMAIN-SUFFIX,get.webgl.org # WebGL 浏览器兼容性与图形渲染支持检�
 
 DOMAIN-SUFFIX,js-server.staqlab.com # Staqlab 电商应用 JavaScript 脚本服务域名
 
+# > Staqlab（电商应用与营销自动化服务）相关域名
+# - 更新时间：2026-10-22
+
+DOMAIN-SUFFIX,s1.staq-cdn.com # Staqlab CartBite 电商应用脚本分发域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
