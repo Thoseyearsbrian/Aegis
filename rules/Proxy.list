@@ -11170,6 +11170,11 @@ DOMAIN-SUFFIX,betterstackdata.com # Better Stack 可观测性数据接收服务�
 
 DOMAIN-SUFFIX,yubico.com # Yubico 官方网站与 YubiKey 安全认证服务域名
 
+# > Sequel（在线研讨会与视频活动平台）相关域名
+# - 校对时间：2026-10-22
+
+DOMAIN-SUFFIX,prod-assets.sequelvideo.com # Sequel 视频活动资源分发域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
