@@ -11181,6 +11181,11 @@ DOMAIN-SUFFIX,prod-assets.sequelvideo.com # Sequel 视频活动资源分发域�
 DOMAIN-SUFFIX,app.spline.design # Spline 在线 3D 设计编辑器与协作服务域名
 DOMAIN-SUFFIX,apis.spline.design # Spline 平台 API 通信服务域名
 
+# > WebGL Report（浏览器 WebGL 图形能力检测工具）相关域名
+# - 更新时间：2026-10-22
+
+DOMAIN-SUFFIX,webglreport.com # WebGL 浏览器图形能力与 GPU 信息检测服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
