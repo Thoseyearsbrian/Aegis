@@ -11207,6 +11207,11 @@ DOMAIN-SUFFIX,s1.staq-cdn.com # Staqlab CartBite 电商应用脚本分发域名
 
 DOMAIN-SUFFIX,cdn.nitroapps.co # Nitro Apps 电商应用 CDN 资源分发域名
 
+# > Palash Debnath（开源软件开发者与技术博客）相关域名
+# - 更新时间：2026-10-23
+
+DOMAIN-SUFFIX,palash.dev # Palash Debnath 个人官方网站与开源软件项目展示域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
