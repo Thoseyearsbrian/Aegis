@@ -688,6 +688,8 @@ IP-CIDR,218.57.238.45/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com
 IP-CIDR,218.91.182.1/32 # 抖音视频点播 CDN 节点（v5-ali-northeast.douyinvod.com）
 IP-CIDR,218.91.225.98/32 # 字节跳动特效资源服务节点（lf5-effect-302.byteeffecttos.com）
 IP-CIDR,218.91.225.103/32 # 抖音媒体资源分发服务节点 IP（sf6-cdn-tos.douyinstatic.com）
+IP-CIDR,218.91.225.105/32 # 抖音视频点播分发服务节点 IP（v5-wha.douyinvod.com）
+IP-CIDR,218.91.225.109/32 # 抖音视频点播分发服务节点 IP（v5-wha.douyinvod.com）
 IP-CIDR,218.92.141.103/32 # 抖音图片资源 CDN 节点（p11.douyinpic.com）
 IP-CIDR,218.92.226.123/32 # 字节跳动对象存储服务节点（lf6-pitaya.bytetos.com）
 IP-CIDR,218.92.226.129/32 # 字节跳动对象存储服务节点（lf6-pitaya.bytetos.com）
