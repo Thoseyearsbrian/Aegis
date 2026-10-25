@@ -276,6 +276,7 @@ IP-CIDR,222.186.162.0/24 # 微信客户端下载 CDN
 # > WeChat Core Communication Network（微信核心通信网络）
 # - 校对时间：2026-10-25
 
+IP-CIDR,1.13.35.122/32 # 微信 MMTLS 通信接入节点
 IP-CIDR,1.13.35.125/32 # 微信 MMTLS 通信接入节点
 IP-CIDR,1.13.36.127/32 # 微信 MMTLS 通信接入节点
 IP-CIDR,1.13.132.122/32 # 微信 MMTLS 通信接入节点
