@@ -9,6 +9,7 @@
 # - 校对时间：2026-10-25
 
 # > Core Communication（核心通信服务）
+# - 校对时间：2026-10-25
 
 DOMAIN-SUFFIX,weixin.qq.com # 微信核心服务域名
 DOMAIN-SUFFIX,api.weixin.qq.com # 微信官方 API 网关
@@ -30,7 +31,6 @@ DOMAIN-SUFFIX,mp.weixin.qq.com # 微信公众平台服务
 DOMAIN-SUFFIX,dldir1v6.qq.com # 腾讯客户端资源下载 CDN
 DOMAIN-SUFFIX,res.wx.qq.com # 微信前端静态资源
 DOMAIN-SUFFIX,res2.wx.qq.com # 微信前端静态资源（备用节点）
-DOMAIN-SUFFIX,res.wx.qq.com.cn # 微信 JS SDK 静态资源（兼容节点）
 DOMAIN-SUFFIX,gtimg.wechatpay.cn # 微信支付静态资源 CDN
 DOMAIN-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn # 腾讯云 COS 对象存储
 DOMAIN-SUFFIX,dldir1.qq.com # 腾讯客户端资源下载
@@ -109,6 +109,7 @@ DOMAIN-SUFFIX,dl.stream.qqmusic.qq.com # 音频文件资源调用接口
 DOMAIN-SUFFIX,dl.music.qq.com # 音乐小程序音频资源加载域名
 
 # > WeChat Desktop & Web（微信 PC / Web）
+# - 校对时间：2026-10-25
 
 DOMAIN-SUFFIX,login.weixin.qq.com # 微信网页登录入口
 DOMAIN-SUFFIX,login.wx.qq.com # 微信 Web 登录二维码接口
@@ -121,11 +122,7 @@ DOMAIN-SUFFIX,filehelper.weixin.qq.com # 文件助手 Web 接口
 DOMAIN-SUFFIX,update.wechat.com # 微信客户端更新检查接口
 DOMAIN-SUFFIX,dl.wechat.com # 微信客户端安装包下载服务
 DOMAIN-SUFFIX,wework.qpic.cn # 企业微信图像资源域名
-
-# > WeChat SDKs & Tracking（微信 SDK 接口）
-
-DOMAIN-SUFFIX,isdspeed.qq.com # SDK 网络测速与质量评估上传接口
-DOMAIN-SUFFIX,support.weixin.qq.com # 微信开放平台支持与文档页面
+DOMAIN-SUFFIX,support.weixin.qq.com # 微信帮助、反馈与政策文档服务域名
 
 # > Tencent Push Notification Service（腾讯移动推送服务）
 
@@ -326,3 +323,10 @@ IP-CIDR,101.226.99.142/32 # 微信业务数据上报服务节点 IP（cube.weixi
 IP-CIDR,101.226.99.155/32 # 微信业务数据上报服务节点 IP（cube.weixinbridge.com）
 IP-CIDR,101.227.134.157/32 # 微信业务数据上报服务节点 IP（cube.weixinbridge.com）
 IP-CIDR,101.226.100.232/32 # 微信业务数据上报服务节点 IP（cube.weixinbridge.com）
+
+# > WeChat SDKs & Tracking（微信 SDK 接口）
+# - 校对时间：2026-10-25
+
+DOMAIN-SUFFIX,isdspeed.qq.com # SDK 网络测速与质量评估上传接口
+DOMAIN-SUFFIX,res.wx.qq.com.cn # 微信 JS SDK 静态资源（兼容节点）
+DOMAIN-SUFFIX,report-online.sh.wxgateway.com # 微信小程序 SDK 数据上报服务域名
