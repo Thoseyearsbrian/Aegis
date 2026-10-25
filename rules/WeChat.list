@@ -318,3 +318,11 @@ IP-CIDR,101.227.131.254/32 # 微信 QUIC 通信节点（shquic.weixin.qq.com）
 
 IP-CIDR,180.60.168.19/32 # 微信 CDN TLS SNI 接入节点 (sni.cdn.weixin.qq.com)
 IP-CIDR,180.60.168.83/32 # 微信 CDN TLS SNI 接入节点 (sni.cdn.weixin.qq.com)
+
+# > WeChat Business Data Reporting（微信业务数据上报）相关 IP
+# - 校对时间：2026-10-25
+
+IP-CIDR,101.226.99.142/32 # 微信业务数据上报服务节点 IP（cube.weixinbridge.com）
+IP-CIDR,101.226.99.155/32 # 微信业务数据上报服务节点 IP（cube.weixinbridge.com）
+IP-CIDR,101.227.134.157/32 # 微信业务数据上报服务节点 IP（cube.weixinbridge.com）
+IP-CIDR,101.226.100.232/32 # 微信业务数据上报服务节点 IP（cube.weixinbridge.com）
