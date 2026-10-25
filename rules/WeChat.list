@@ -299,9 +299,13 @@ IP-CIDR,123.151.48.193/32 # 微信 MMTLS 通信节点
 IP-CIDR,180.101.242.212/32 # 微信 MMTLS 通信接入节点
 IP-CIDR,180.101.242.227/32 # 微信 MMTLS 通信接入节点
 
-# > WeChat Pay API Network（微信支付接口网络）
+# > WeChat Pay（微信支付）相关 IP
+# - 校对时间：2026-10-25
 
 IP-CIDR,1.13.37.0/24 # 微信支付接口节点
+IP-CIDR,1.13.131.49/32 # 微信支付服务接入节点 IP（pay.wechatpay.cn）
+IP-CIDR,1.13.107.253/32 # 微信支付服务接入节点 IP（pay.wechatpay.cn）
+IP-CIDR,1.13.56.97/32 # 微信支付服务接入节点 IP（pay.wechatpay.cn）
 
 # > WeChat QUIC Communication Network（微信 QUIC 通信网络）
 
