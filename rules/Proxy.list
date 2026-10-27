@@ -11227,6 +11227,11 @@ DOMAIN-SUFFIX,api.ip.sb # IP.SB 公网 IP 查询与地理位置解析 API 服务
 
 DOMAIN-SUFFIX,ipapi.co # ipapi 公网 IP、地理位置及 ASN 信息查询 API 服务域名
 
+# > HackerOne（漏洞赏金与安全漏洞披露平台）相关域名
+# - 更新时间：2026-10-27
+
+DOMAIN-SUFFIX,hackerone.com # HackerOne 漏洞赏金与安全漏洞披露平台主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
