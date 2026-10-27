@@ -11217,6 +11217,11 @@ DOMAIN-SUFFIX,palash.dev # Palash Debnath 个人官方网站与开源软件项�
 
 DOMAIN-SUFFIX,toprak.sh # Dusty 开源项目与开发者官方网站域名
 
+# > IP.SB（公网 IP 地址与网络信息查询平台）相关域名
+# - 更新时间：2026-10-27
+
+DOMAIN-SUFFIX,api.ip.sb # IP.SB 公网 IP 查询与地理位置解析 API 服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
