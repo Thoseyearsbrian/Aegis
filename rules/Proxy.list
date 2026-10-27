@@ -11222,6 +11222,11 @@ DOMAIN-SUFFIX,toprak.sh # Dusty 开源项目与开发者官方网站域名
 
 DOMAIN-SUFFIX,api.ip.sb # IP.SB 公网 IP 查询与地理位置解析 API 服务域名
 
+# > ipapi（公网 IP 地址与地理位置信息查询平台）相关域名
+# - 更新时间：2026-10-27
+
+DOMAIN-SUFFIX,ipapi.co # ipapi 公网 IP、地理位置及 ASN 信息查询 API 服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
