@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-23
-# - 校对时间：2026-10-23
+# - 更新时间：2026-10-27
+# - 校对时间：2026-10-27
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11211,6 +11211,11 @@ DOMAIN-SUFFIX,cdn.nitroapps.co # Nitro Apps 电商应用 CDN 资源分发域名
 # - 更新时间：2026-10-23
 
 DOMAIN-SUFFIX,palash.dev # Palash Debnath 个人官方网站与开源软件项目展示域名
+
+# > Dusty（开源 macOS 磁盘清理工具）相关域名
+# - 更新时间：2026-10-27
+
+DOMAIN-SUFFIX,toprak.sh # Dusty 开源项目与开发者官方网站域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
