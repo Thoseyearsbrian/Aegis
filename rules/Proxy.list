@@ -11237,6 +11237,11 @@ DOMAIN-SUFFIX,hackerone.com # HackerOne 漏洞赏金与安全漏洞披露平台�
 
 DOMAIN-SUFFIX,gumroad.com # Gumroad 数字商品销售与创作者商店平台主域名
 
+# > CGTrader（3D 模型与数字资产交易平台）相关域名
+# - 更新时间：2026-10-28
+
+DOMAIN-SUFFIX,cgtrader.com # CGTrader 3D 模型与数字资产交易平台主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
