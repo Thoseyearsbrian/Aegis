@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-27
-# - 校对时间：2026-10-27
+# - 更新时间：2026-10-28
+# - 校对时间：2026-10-28
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11231,6 +11231,11 @@ DOMAIN-SUFFIX,ipapi.co # ipapi 公网 IP、地理位置及 ASN 信息查询 API 
 # - 更新时间：2026-10-27
 
 DOMAIN-SUFFIX,hackerone.com # HackerOne 漏洞赏金与安全漏洞披露平台主域名
+
+# > Gumroad（数字商品销售与创作者电商平台）相关域名
+# - 更新时间：2026-10-28
+
+DOMAIN-SUFFIX,gumroad.com # Gumroad 数字商品销售与创作者商店平台主域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
