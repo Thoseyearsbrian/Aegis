@@ -4,11 +4,11 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-25
-# - 校对时间：2026-10-25
+# - 更新时间：2026-10-28
+# - 校对时间：2026-10-28
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
-# - 校对时间：2026-10-25
+# - 校对时间：2026-10-28
 
 DOMAIN-SUFFIX,douyin.com # 抖音官方主域名
 DOMAIN-SUFFIX,iesdouyin.com # 抖音核心业务域名
@@ -116,6 +116,7 @@ IP-CIDR,49.67.72.171/32 # 字节跳动特效资源服务节点（lf5-hl-hw-effec
 IP-CIDR,49.67.72.180/32 # 抖音播放服务节点（api-play-hj.amemv.com）
 IP-CIDR,49.67.72.181/32 # 抖音平台聚合通信节点（aggr5-normal-s19.amemv.com）
 IP-CIDR,49.67.73.135/32 # 抖音视频点播 CDN 节点（v5-gzb2-x.douyinvod.com）
+IP-CIDR,49.67.73.160/32 # 抖音 HTTP-FLV 直播流分发服务节点 IP（/third/stream-*.flv）
 IP-CIDR,49.67.73.200/32 # 字节跳动电商 API 服务节点（ecom5-normal-lq.ecombdapi.com）
 IP-CIDR,49.67.73.202/32 # 抖音平台服务节点（klink5-hj.amemv.com）
 IP-CIDR,49.67.73.209/32 # 抖音平台服务节点（api5-lq.qishui.com）
@@ -218,6 +219,7 @@ IP-CIDR,58.220.178.138/32 # 抖音图片资源 CDN 节点（p26-sign.douyinpic.c
 IP-CIDR,58.220.178.139/32 # 抖音图片资源 CDN 节点（p26.douyinpic.com）
 IP-CIDR,58.220.179.75/32 # 抖音 HTTP-FLV 直播流分发服务节点 IP（/fantasy/stream-*.flv）
 IP-CIDR,58.220.179.188/32 # 抖音 HTTP-FLV 直播流备用分发节点 IP（/fantasy-bak/stream-*.flv）
+IP-CIDR,58.220.179.192/32 # 抖音 HTTP-FLV 直播流分发服务节点 IP（/stage/stream-*.flv）
 IP-CIDR,58.221.32.41/32 # 抖音视频点播 CDN 节点（v5-se-bd-traffic-x.douyinvod.com）
 IP-CIDR,58.221.45.248/32 # 抖音图片资源 CDN 节点（p11.douyinpic.com）
 IP-CIDR,58.221.54.26/32 # 抖音直播流媒体分发节点（FLV 直连）
@@ -250,6 +252,7 @@ IP-CIDR,59.47.237.100/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos
 IP-CIDR,59.47.237.101/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,59.47.237.105/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,59.53.192.167/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.com）
+IP-CIDR,59.63.201.182/32 # 抖音 HTTP-FLV 直播流分发服务节点 IP（/third/stream-*.flv）
 IP-CIDR,59.63.238.80/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
 IP-CIDR,60.25.102.6/32 # 抖音直播内容分发节点（lf6-webcastcdn-tos.douyinstatic.com）
 IP-CIDR,60.163.166.63/32 # 抖音播放服务节点（api-play-hj.amemv.com）
