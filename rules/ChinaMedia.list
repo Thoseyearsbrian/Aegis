@@ -277,6 +277,7 @@ IP-CIDR,61.147.235.136/32 # 抖音视频点播 CDN 节点（v5-x.douyinvod.com�
 IP-CIDR,61.147.235.146/32 # 抖音媒体资源分发服务节点 IP（sf6-cdn-tos.douyinstatic.com）
 IP-CIDR,61.147.235.166/32 # 字节跳动平台服务节点（ma5-normal-lq.zijieapi.com）
 IP-CIDR,61.147.237.41/32 # 抖音视频点播 CDN 节点（v13-x.douyinvod.com）
+IP-CIDR,61.153.154.124/32 # 字节跳动 HTTPDNS 域名解析服务节点 IP（dig.bdurl.net）
 IP-CIDR,61.155.39.13/32 # 抖音平台服务节点（frontier-aweme-hj-ipainner.amemv.com）
 IP-CIDR,61.155.39.14/32 # 抖音平台服务节点（frontier-aweme-hj-ipainner.amemv.com）
 IP-CIDR,61.156.12.77/32 # 抖音图片资源 CDN 节点（p3-sign.douyinpic.com）
