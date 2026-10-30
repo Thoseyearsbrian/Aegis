@@ -4,8 +4,8 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-28
-# - 校对时间：2026-10-28
+# - 更新时间：2026-10-30
+# - 校对时间：2026-10-30
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
 # - 校对时间：2026-10-28
@@ -661,6 +661,7 @@ IP-CIDR,182.106.149.208/32 # 抖音图片资源 CDN 节点（p11-sign.douyinpic.
 IP-CIDR,182.106.195.146/32 # 抖音图片资源 CDN 节点（p5-ex-gddgtc-sign.douyinpic.com）
 IP-CIDR,182.242.215.41/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
 IP-CIDR,182.242.215.42/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
+IP-CIDR,182.242.215.43/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
 IP-CIDR,183.36.7.189/32 # 抖音视频点播 CDN 节点（v95-bj-x.douyinvod.com）
 IP-CIDR,183.36.28.56/32 # 抖音视频点播 CDN 节点（v95-bj-x.douyinvod.com）
 IP-CIDR,183.61.173.121/32 # 抖音直播内容分发节点（lf9-webcast-cdn-tos-ncdn.bytegecko.com）
