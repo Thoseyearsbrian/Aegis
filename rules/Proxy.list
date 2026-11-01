@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-01
-# - 校对时间：2026-11-01
+# - 更新时间：2026-11-02
+# - 校对时间：2026-11-02
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11262,6 +11262,11 @@ DOMAIN-SUFFIX,xcbx.io # Community Brands 会员门户组件与网站资源服务
 # - 更新时间：2026-11-01
 
 DOMAIN-SUFFIX,mosaic-apps.com # Mosaic Apps 会员门户与线上活动管理服务域名
+
+# > AOL（美国互联网门户与电子邮件服务平台）相关域名
+# - 更新时间：2026-11-02
+
+DOMAIN-SUFFIX,aol.com # AOL 新闻资讯、电子邮件与互联网门户服务主域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
