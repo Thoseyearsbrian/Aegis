@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-30
-# - 校对时间：2026-10-30
+# - 更新时间：2026-11-01
+# - 校对时间：2026-11-01
 
 # > Harbin Institute of Technology（哈尔滨工业大学）
 # - 校对时间：2026-10-14
@@ -3323,6 +3323,11 @@ DOMAIN-SUFFIX,7ca7da12.ydycdn.com # 亿点云边缘计算服务节点域名
 # - 校对时间：2026-10-19
 
 DOMAIN-SUFFIX,47izcuwobl0waat32num33yuv5b5liu.z.cjjd14.com # 明赋云边缘网络服务节点域名
+
+# > Sosho（社汇校友管理与服务平台）相关域名
+# - 更新时间：2026-11-01
+
+DOMAIN-SUFFIX,ow.sosho.cn # 社汇校友会网站与校友服务平台域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
