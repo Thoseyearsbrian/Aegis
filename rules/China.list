@@ -1909,8 +1909,9 @@ DOMAIN-SUFFIX,track.uc.cn # UC 数据追踪域名
 DOMAIN-SUFFIX,uc.ucweb.com # UC 配置服务域名
 
 # > NetEase Mail（网易邮箱）相关域名
-# - 校对时间：2026-03-25
+# - 校对时间：2026-11-02
 
+DOMAIN-SUFFIX,163.com # 网易企业邮箱服务域名
 DOMAIN-SUFFIX,mail.163.com # 网易 163 邮箱服务域名
 DOMAIN-SUFFIX,mail.126.com # 网易 126 邮箱服务域名
 DOMAIN-SUFFIX,yeah.net # 网易 yeah.net 邮箱服务域名
