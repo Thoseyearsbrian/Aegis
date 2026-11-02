@@ -1352,3 +1352,8 @@ DOMAIN-SUFFIX,static.mudu.tv # 目睹直播静态资源域名
 DOMAIN-SUFFIX,ixigua.com # 西瓜视频主域名
 IP-CIDR,60.163.166.67/32 # 抖音播放服务节点（api-play-hj.amemv.com）
 IP-CIDR,60.169.2.213/32 # 抖音播放服务节点（api-play-hj.amemv.com）
+
+# > China Daily（中国日报）相关域名
+# - 更新时间：2026-11-02
+
+DOMAIN-SUFFIX,chinadaily.com.cn # 中国日报新闻资讯、专题报道与多媒体内容服务主域名
