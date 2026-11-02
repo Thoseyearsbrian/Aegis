@@ -4,8 +4,8 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-01
-# - 校对时间：2026-11-01
+# - 更新时间：2026-11-02
+# - 校对时间：2026-11-02
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
 # - 校对时间：2026-11-01
@@ -1271,7 +1271,7 @@ DOMAIN-SUFFIX,s2.xmcdn.com # 喜马拉雅资源域名
 DOMAIN-SUFFIX,ws.xmcdn.com # 喜马拉雅资源域名
 
 # > Kuaishou（快手）短视频与直播平台
-# - 校对时间：2026-03-22
+# - 校对时间：2026-11-02
 
 DOMAIN-SUFFIX,kuaishou.com # 快手主域名
 DOMAIN-SUFFIX,gifshow.com # 快手服务域名
@@ -1284,6 +1284,7 @@ DOMAIN-SUFFIX,pull.yximgs.com # 快手直播拉流服务域名
 DOMAIN-SUFFIX,ksapisrv.com # 快手接口服务域名
 DOMAIN-SUFFIX,kwai.com # 快手国际服务域名
 DOMAIN-SUFFIX,kwaicdn.com # 快手内容分发服务域名
+DOMAIN-SUFFIX,wskwai.com # 快手平台静态资源与内容分发服务域名
 
 # > AcFun（A站）视频平台与媒体资源服务
 # - 校对时间：2026-03-22
