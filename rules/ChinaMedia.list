@@ -517,6 +517,11 @@ IP-CIDR,123.54.192.48/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-co
 IP-CIDR,123.54.192.49/32 # 抖音视频点播分发服务节点 IP（v5-se-ws-cold.douyinvod.com）
 IP-CIDR,123.54.196.222/32 # 字节跳动对象存储服务节点（lf3-pitaya.bytetos.com）
 IP-CIDR,123.54.210.137/32 # 抖音视频点播 CDN 节点（v5-x.douyinvod.com）
+IP-CIDR,123.88.176.122/32 # 抖音视频点播分发服务节点 IP（v5-se-qn-daily-cm-cold.douyinvod.com）
+IP-CIDR,123.88.176.123/32 # 抖音视频点播分发服务节点 IP（v5-se-qn-daily-cm-cold.douyinvod.com）
+IP-CIDR,123.88.176.124/32 # 抖音视频点播分发服务节点 IP（v5-se-qn-daily-cm-cold.douyinvod.com）
+IP-CIDR,123.88.176.125/32 # 抖音视频点播分发服务节点 IP（v5-se-qn-daily-cm-cold.douyinvod.com）
+IP-CIDR,123.88.176.126/32 # 抖音视频点播分发服务节点 IP（v5-se-qn-daily-cm-cold.douyinvod.com）
 IP-CIDR,123.184.218.55/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,123.184.218.56/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
 IP-CIDR,123.184.218.58/32 # 抖音直播内容分发节点（lf85-webcast-cdn-tos-ncdn.bytegecko.com）
