@@ -1286,6 +1286,7 @@ DOMAIN-SUFFIX,kwai.com # 快手国际服务域名
 DOMAIN-SUFFIX,kwaicdn.com # 快手内容分发服务域名
 DOMAIN-SUFFIX,wskwai.com # 快手平台静态资源与内容分发服务域名
 DOMAIN-SUFFIX,wsbkwai.com # 快手相关网络通信服务域名
+DOMAIN-SUFFIX,kuaishouzt.cn # 快手平台业务验证与网络服务域名
 
 # > AcFun（A站）视频平台与媒体资源服务
 # - 校对时间：2026-03-22
