@@ -3361,6 +3361,11 @@ DOMAIN-SUFFIX,7x24cc.com # 合力亿捷智能客服、呼叫中心与客户管�
 DOMAIN-SUFFIX,dangdang.com # 当当网图书零售与综合电子商务平台主域名
 DOMAIN-SUFFIX,ddimg.cn # 当当网商品图片与静态资源分发服务域名
 
+# > Zhengde Education（教育项目与技术支持服务）相关域名
+# - 更新时间：2026-11-02
+
+DOMAIN-SUFFIX,zhengdeedu.cn # 教育项目与技术支持相关服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
