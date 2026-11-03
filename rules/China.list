@@ -3400,6 +3400,11 @@ DOMAIN-SUFFIX,qikan.cqvip.com # 维普中文学术期刊检索、文献全文获
 
 DOMAIN-SUFFIX,metel.cn # MeTeL 高校多媒体课程、教学资源与在线学习服务主域名
 
+# > Wanfang Data（万方数据知识服务平台）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,wanfangdata.com.cn # 万方数据学术期刊、学位论文与科研文献服务主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
