@@ -11381,6 +11381,11 @@ DOMAIN-SUFFIX,onlinelibrary.wiley.com # Wiley 学术期刊、科研论文与电�
 
 DOMAIN-SUFFIX,proquest.com # ProQuest 学术文献、学位论文与科研数据库服务主域名
 
+# > Gale（盖尔学术数据库）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,gale.com # Gale 学术文献、研究数据库与电子图书服务主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
