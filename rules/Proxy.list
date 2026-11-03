@@ -11412,10 +11412,10 @@ DOMAIN-SUFFIX,academic.oup.com # 牛津大学出版社学术期刊、科研论�
 
 DOMAIN-SUFFIX,westlaw.com # Westlaw 法律研究数据库、判例检索与法律文献服务主域名
 
-# > Journal Citation Reports（科睿唯安期刊引证报告）相关域名
+# > Essential Science Indicators（科睿唯安基本科学指标数据库）相关域名
 # - 更新时间：2026-11-03
 
-DOMAIN-SUFFIX,jcr.clarivate.com # JCR 学术期刊影响因子、引文分析与期刊评价服务域名
+DOMAIN-SUFFIX,esi.clarivate.com # ESI 科研绩效分析、高被引论文与研究前沿评价服务域名
 
 # > Clarivate（科睿唯安）相关域名
 # - 更新时间：2026-11-03
