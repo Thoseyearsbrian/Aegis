@@ -11310,10 +11310,10 @@ DOMAIN-SUFFIX,proquest.com # ProQuest 学术文献、学位论文与科研数据
 
 DOMAIN-SUFFIX,ieeexplore.ieee.org # IEEE 学术论文检索、期刊文献与技术标准服务域名
 
-# > OpenAthens（学术资源身份认证平台）相关域名
+# > IOPscience（英国物理学会出版社学术平台）相关域名
 # - 更新时间：2026-11-03
 
-DOMAIN-SUFFIX,connect.openathens.net # OpenAthens 学术资源联合身份认证与单点登录服务域名
+DOMAIN-SUFFIX,iopscience.iop.org # IOPscience 物理科学研究、学术期刊与科研论文服务域名
 
 # > Nature（自然学术期刊）相关域名
 # - 更新时间：2026-11-03
