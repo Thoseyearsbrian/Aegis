@@ -3389,6 +3389,11 @@ DOMAIN-SUFFIX,udesk.cn # Udesk 在线客服、智能客服与前端资源服务�
 
 DOMAIN-SUFFIX,elong.com # 同程旅行酒店住宿、交通票务与旅游预订服务域名
 
+# > CQVIP（维普中文期刊服务平台）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,qikan.cqvip.com # 维普中文学术期刊检索、文献全文获取与期刊评价服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
