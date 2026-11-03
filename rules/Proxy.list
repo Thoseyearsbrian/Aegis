@@ -11376,6 +11376,11 @@ DOMAIN-SUFFIX,osapress.com # OSA Press 学术期刊出版、论文编辑与科�
 
 DOMAIN-SUFFIX,onlinelibrary.wiley.com # Wiley 学术期刊、科研论文与电子图书服务域名
 
+# > ProQuest（博睿学术数据库）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,proquest.com # ProQuest 学术文献、学位论文与科研数据库服务主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
