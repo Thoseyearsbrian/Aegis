@@ -597,8 +597,9 @@ DOMAIN-SUFFIX,alilogistics.com # 阿里物流服务域名
 DOMAIN-SUFFIX,iconfont.cn # Iconfont 主域名
 
 # > Tencent Cloud（腾讯云）
-# - 校对时间：2026-05-11
+# - 校对时间：2026-11-03
 
+DOMAIN-SUFFIX,tencent.com # 腾讯集团官方网站与企业服务主域名
 DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云主域名
 DOMAIN-SUFFIX,cloud.tencent.cn # 腾讯云中国站域名
 DOMAIN-SUFFIX,tencentcloud.com # 腾讯云国际站域名
@@ -614,6 +615,11 @@ DOMAIN-SUFFIX,dscache.tencent-cloud.com # 腾讯云调度缓存服务域名
 DOMAIN-SUFFIX,datacenter.live.qcloud.com # 腾讯云直播服务域名
 DOMAIN-SUFFIX,playvideo.qcloud.com # 腾讯云视频服务域名
 DOMAIN-SUFFIX,tcb-api.tencentcloudapi.com # 腾讯云开发接口域名
+
+# > Tencent Meeting（腾讯会议）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,meeting.tencent.com # 腾讯会议视频会议与在线协作服务域名
 
 # > Weiyun（腾讯微云）相关域名
 # - 校对时间：2026-05-11
@@ -3371,11 +3377,6 @@ DOMAIN-SUFFIX,zhengdeedu.cn # 教育项目与技术支持相关服务域名
 # - 更新时间：2026-11-03
 
 DOMAIN-SUFFIX,udesk.cn # Udesk 在线客服、智能客服与前端资源服务域名
-
-# > Tencent Meeting（腾讯会议）相关域名
-# - 更新时间：2026-11-03
-
-DOMAIN-SUFFIX,meeting.tencent.com # 腾讯会议视频会议与在线协作服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
