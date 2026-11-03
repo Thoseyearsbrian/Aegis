@@ -11330,10 +11330,10 @@ DOMAIN-SUFFIX,rsc.org # 英国皇家化学会学术期刊、化学研究与教�
 
 DOMAIN-SUFFIX,sciencedirect.com # ScienceDirect 学术期刊、科研论文与电子图书服务主域名
 
-# > Springer Nature（施普林格·自然学术出版集团）相关域名
+# > Springer Nature Link（施普林格·自然学术文献平台）相关域名
 # - 更新时间：2026-11-03
 
-DOMAIN-SUFFIX,fsso.springer.com # Springer Nature 学术资源机构身份认证与单点登录服务域名
+DOMAIN-SUFFIX,link.springer.com # Springer Nature 学术期刊、科研论文与电子图书服务域名
 
 # > Elsevier（爱思唯尔学术出版集团）相关域名
 # - 更新时间：2026-11-03
