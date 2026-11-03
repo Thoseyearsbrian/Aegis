@@ -11310,6 +11310,11 @@ DOMAIN-SUFFIX,shibboleth-sp.prod.proquest.com # ProQuest 学术数据库机构�
 
 DOMAIN-SUFFIX,ieeexplore.ieee.org # IEEE 学术论文检索、期刊文献与技术标准服务域名
 
+# > OpenAthens（学术资源身份认证平台）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,connect.openathens.net # OpenAthens 学术资源联合身份认证与单点登录服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
