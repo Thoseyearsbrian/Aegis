@@ -11300,6 +11300,11 @@ DOMAIN-SUFFIX,ipv6forum.com # 全球 IPv6 技术推广、网络部署指导、�
 
 DOMAIN-SUFFIX,shibboleth.ebscohost.com # EBSCOhost 学术数据库机构身份认证与单点登录服务域名
 
+# > ProQuest（博睿学术数据库）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,shibboleth-sp.prod.proquest.com # ProQuest 学术数据库机构身份认证与单点登录服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
