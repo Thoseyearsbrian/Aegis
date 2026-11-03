@@ -3395,6 +3395,11 @@ DOMAIN-SUFFIX,elong.com # 同程旅行酒店住宿、交通票务与旅游预订
 
 DOMAIN-SUFFIX,qikan.cqvip.com # 维普中文学术期刊检索、文献全文获取与期刊评价服务域名
 
+# > MeTeL（国道多媒体教学资源平台）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,metel.cn # MeTeL 高校多媒体课程、教学资源与在线学习服务主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
