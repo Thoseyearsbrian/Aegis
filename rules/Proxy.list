@@ -11371,10 +11371,10 @@ DOMAIN-SUFFIX,pubs.acs.org # 美国化学会化学研究、学术期刊与科研
 
 DOMAIN-SUFFIX,tandfonline.com # Taylor & Francis 学术期刊、科研论文与文献检索服务主域名
 
-# > OSA Press（Open Source Academic Press）相关域名
+# > Optica Publishing Group（原美国光学学会 OSA 出版平台）相关域名
 # - 更新时间：2026-11-03
 
-DOMAIN-SUFFIX,osapress.com # OSA Press 学术期刊出版、论文编辑与科研传播服务主域名
+DOMAIN-SUFFIX,opg.optica.org # Optica 光学研究、光子学期刊与科研论文服务域名
 
 # > Wiley Online Library（威立在线学术文献数据库）相关域名
 # - 更新时间：2026-11-03
