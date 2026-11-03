@@ -618,6 +618,7 @@ DOMAIN-SUFFIX,tcb-api.tencentcloudapi.com # 腾讯云开发接口域名
 DOMAIN-SUFFIX,tencentcs.cn # 腾讯云控制台静态资源与云存储服务域名
 DOMAIN-SUFFIX,woa.com # 腾讯企业内部系统与业务协作服务域名
 DOMAIN-SUFFIX,qcloudimg.com # 腾讯云开发者社区图片与静态资源分发域名
+DOMAIN-SUFFIX,voovmeeting.com # 腾讯会议国际版视频会议与在线协作服务域名
 
 # > Tencent Meeting（腾讯会议）相关域名
 # - 更新时间：2026-11-03
