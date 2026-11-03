@@ -11340,6 +11340,11 @@ DOMAIN-SUFFIX,fsso.springer.com # Springer Nature 学术资源机构身份认证
 
 DOMAIN-SUFFIX,auth.elsevier.com # Elsevier 学术资源机构身份认证与单点登录服务域名
 
+# > Reaxys（爱思唯尔化学研究数据库）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,reaxys.com # Reaxys 化学文献检索、化合物数据与化学反应研究服务主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
