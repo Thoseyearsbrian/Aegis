@@ -11417,6 +11417,11 @@ DOMAIN-SUFFIX,westlaw.com # Westlaw 法律研究数据库、判例检索与法�
 
 DOMAIN-SUFFIX,esi.clarivate.com # ESI 科研绩效分析、高被引论文与研究前沿评价服务域名
 
+# > InCites（科睿唯安科研评价分析平台）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,incites.clarivate.com # InCites 科研绩效评价、机构分析与学术影响力评估服务域名
+
 # > Clarivate（科睿唯安）相关域名
 # - 更新时间：2026-11-03
 
