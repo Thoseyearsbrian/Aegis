@@ -178,7 +178,9 @@ DOMAIN-SUFFIX,powerapps.com # Microsoft Power Apps 低代码应用开发与运�
 DOMAIN-SUFFIX,thesourcemediaassets.com # 微软新闻资讯、媒体素材与报告文件分发域名
 
 # > Microsoft Telemetry & Diagnostics（Microsoft 诊断与遥测服务）
+# - 更新时间：2026-11-03
 
 DOMAIN-SUFFIX,settings-win.data.microsoft.com # Windows 诊断与遥测服务
 DOMAIN-SUFFIX,vortex.data.microsoft.com # Microsoft 数据收集服务
+DOMAIN-SUFFIX,applicationinsights.azure.cn # Azure 中国区应用遥测与监控数据接收服务域名
 
