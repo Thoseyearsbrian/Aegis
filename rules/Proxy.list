@@ -11366,10 +11366,10 @@ DOMAIN-SUFFIX,emerald.com # Emerald 学术期刊、科研文献与电子图书�
 
 DOMAIN-SUFFIX,pubs.acs.org # 美国化学会化学研究、学术期刊与科研论文服务域名
 
-# > Taylor & Francis（泰勒与弗朗西斯学术出版集团）相关域名
+# > Taylor & Francis Online（泰勒与弗朗西斯学术期刊平台）相关域名
 # - 更新时间：2026-11-03
 
-DOMAIN-SUFFIX,taylorandfrancis.com # Taylor & Francis 学术出版、科研期刊与电子图书服务主域名
+DOMAIN-SUFFIX,tandfonline.com # Taylor & Francis 学术期刊、科研论文与文献检索服务主域名
 
 # > OSA Press（Open Source Academic Press）相关域名
 # - 更新时间：2026-11-03
