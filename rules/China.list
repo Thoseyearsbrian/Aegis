@@ -361,9 +361,10 @@ DOMAIN-SUFFIX,xju.edu.cn # 新疆大学官方教育与科研服务域名
 DOMAIN-SUFFIX,smbu.edu.cn # 深圳北理莫斯科大学官方网站与教学科研服务域名
 
 # > CNKI Academic Database（中国知网学术数据库）
-# - 校对时间：2026-10-08
+# - 校对时间：2026-11-03
 
 DOMAIN-SUFFIX,cnki.net # 中国知网学术文献检索与知识服务域名
+DOMAIN-SUFFIX,fsso.cnki.net # 中国知网学术资源机构身份认证与校外访问服务域名
 
 # > Alibaba Group - China（阿里巴巴中国站）相关域名
 # - 校对时间：2026-05-11
