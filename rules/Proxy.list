@@ -11361,10 +11361,10 @@ DOMAIN-SUFFIX,clarivate.com # 科睿唯安学术研究、科研评价与知识�
 
 DOMAIN-SUFFIX,emerald.com # Emerald 学术期刊、科研文献与电子图书服务主域名
 
-# > American Chemical Society（美国化学会）相关域名
+# > ACS Publications（美国化学会学术出版平台）相关域名
 # - 更新时间：2026-11-03
 
-DOMAIN-SUFFIX,acs.org # 美国化学会学术期刊、化学研究与教育资源服务主域名
+DOMAIN-SUFFIX,pubs.acs.org # 美国化学会化学研究、学术期刊与科研论文服务域名
 
 # > Taylor & Francis（泰勒与弗朗西斯学术出版集团）相关域名
 # - 更新时间：2026-11-03
