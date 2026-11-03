@@ -11335,6 +11335,11 @@ DOMAIN-SUFFIX,sciencedirect.com # ScienceDirect 学术期刊、科研论文与�
 
 DOMAIN-SUFFIX,fsso.springer.com # Springer Nature 学术资源机构身份认证与单点登录服务域名
 
+# > Elsevier（爱思唯尔学术出版集团）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,auth.elsevier.com # Elsevier 学术资源机构身份认证与单点登录服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
