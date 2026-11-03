@@ -3415,6 +3415,11 @@ DOMAIN-SUFFIX,lib.uibe.edu.cn # 对外经济贸易大学图书馆学术文献、
 
 DOMAIN-SUFFIX,clarivate.com.cn # 科睿唯安中国学术研究、科研评价与知识产权信息服务主域名
 
+# > PQDT（国外学位论文中国集团全文检索平台）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,pqdtcn.com # PQDT 国外博硕士学位论文检索、全文获取与文献荐购服务主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
