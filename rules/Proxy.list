@@ -11303,7 +11303,7 @@ DOMAIN-SUFFIX,ebscohost.com # EBSCOhost 学术文献检索、期刊全文与研�
 # > ProQuest（博睿学术数据库）相关域名
 # - 更新时间：2026-11-03
 
-DOMAIN-SUFFIX,shibboleth-sp.prod.proquest.com # ProQuest 学术数据库机构身份认证与单点登录服务域名
+DOMAIN-SUFFIX,proquest.com # ProQuest 学术文献、学位论文与科研数据库服务主域名
 
 # > IEEE Xplore（IEEE 学术文献数据库）相关域名
 # - 更新时间：2026-11-03
