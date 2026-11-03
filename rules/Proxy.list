@@ -11402,6 +11402,11 @@ DOMAIN-SUFFIX,jove.com # JoVE 科学实验视频、学术研究与教学资源�
 
 DOMAIN-SUFFIX,westlaw.com # Westlaw 法律研究数据库、判例检索与法律文献服务主域名
 
+# > Journal Citation Reports（科睿唯安期刊引证报告）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,jcr.clarivate.com # JCR 学术期刊影响因子、引文分析与期刊评价服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
