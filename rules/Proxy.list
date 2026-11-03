@@ -11402,6 +11402,11 @@ DOMAIN-SUFFIX,degruyterbrill.com # De Gruyter Brill 学术期刊、科研文献�
 
 DOMAIN-SUFFIX,jove.com # JoVE 科学实验视频、学术研究与教学资源服务主域名
 
+# > Oxford Academic（牛津大学出版社学术期刊平台）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,academic.oup.com # 牛津大学出版社学术期刊、科研论文与学术研究资源服务域名
+
 # > Westlaw（汤森路透法律研究数据库）相关域名
 # - 更新时间：2026-11-03
 
