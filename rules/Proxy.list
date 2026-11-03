@@ -11344,11 +11344,12 @@ DOMAIN-SUFFIX,auth.elsevier.com # Elsevier 学术资源机构身份认证与单�
 # - 更新时间：2026-11-03
 
 DOMAIN-SUFFIX,reaxys.com # Reaxys 化学文献检索、化合物数据与化学反应研究服务主域名
+DOMAIN-SUFFIX,scopus.com # Scopus 学术文献检索、引文分析与科研评价服务主域名
 
-# > Scopus（爱思唯尔学术文献数据库）相关域名
+# > Clarivate（科睿唯安）相关域名
 # - 更新时间：2026-11-03
 
-DOMAIN-SUFFIX,scopus.com # Scopus 学术文献检索、引文分析与科研评价服务主域名
+DOMAIN-SUFFIX,clarivate.com # 科睿唯安学术研究、科研评价与知识产权信息服务主域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
