@@ -138,6 +138,7 @@ DOMAIN-SUFFIX,graph.microsoft.com # Microsoft Graph API 统一接口
 # - 更新时间：2026-11-03
 
 DOMAIN-SUFFIX,s-microsoft.com # 微软网站图片、字体与静态资源分发域名
+DOMAIN-SUFFIX,onestore.ms # 微软网站与 Microsoft 365 前端静态资源分发域名
 
 # > Microsoft Power BI Platform（Microsoft Power BI 数据分析平台）
 
