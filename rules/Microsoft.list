@@ -171,6 +171,11 @@ DOMAIN-SUFFIX,microsoftazuread-sso.com # Microsoft Entra 无缝单点登录与 K
 
 DOMAIN-SUFFIX,powerapps.com # Microsoft Power Apps 低代码应用开发与运行服务域名
 
+# > Microsoft（微软新闻与媒体资源服务）相关域名
+# - 更新时间：2026-11-03
+
+DOMAIN-SUFFIX,thesourcemediaassets.com # 微软新闻资讯、媒体素材与报告文件分发域名
+
 # > Microsoft Telemetry & Diagnostics（Microsoft 诊断与遥测服务）
 
 DOMAIN-SUFFIX,settings-win.data.microsoft.com # Windows 诊断与遥测服务
