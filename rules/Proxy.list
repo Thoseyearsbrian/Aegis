@@ -11437,6 +11437,11 @@ DOMAIN-SUFFIX,aip.org # 美国物理研究所物理科学研究、学术资讯�
 
 DOMAIN-SUFFIX,netcatty.app # Netcatty 开源 SSH 终端管理工具主域名
 
+# > BNTU Confucius Institute（白俄罗斯国立技术大学科技孔子学院）相关域名
+# - 更新时间：2026-11-04
+
+DOMAIN-SUFFIX,cist.bntu.by # 白俄罗斯国立技术大学科技孔子学院中文教育服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
