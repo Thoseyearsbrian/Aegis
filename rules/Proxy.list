@@ -11453,6 +11453,11 @@ DOMAIN-SUFFIX,icims.tools # iCIMS 企业招聘互动与访问统计服务主域�
 
 DOMAIN-SUFFIX,bmp.ovh # ImgURL 图片托管与资源分发服务主域名
 
+# > New York University（纽约大学）相关域名
+# - 更新时间：2026-11-04
+
+DOMAIN-SUFFIX,nyu.edu # 纽约大学教学、科研与校园服务主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
