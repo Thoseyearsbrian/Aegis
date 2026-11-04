@@ -117,9 +117,10 @@ DOMAIN-SUFFIX,tongji.edu.cn # 同济大学官方教育、科研与校园服务�
 DOMAIN-SUFFIX,tjzj.edu.cn # 同济大学浙江学院官方教育与校园服务主域名
 
 # > East China Normal University（华东师范大学）
-# - 更新时间：2026-10-14
+# - 更新时间：2026-11-04
 
 DOMAIN-SUFFIX,ecnu.edu.cn # 华东师范大学官方教育、科研与校园服务域名
+DOMAIN-SUFFIX,jobs.ecnu.edu.cn # 华东师范大学人才招聘服务域名
 
 # > Nanjing University（南京大学）
 # - 更新时间：2026-10-14
