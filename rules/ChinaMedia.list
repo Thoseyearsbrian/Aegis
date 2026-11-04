@@ -1374,3 +1374,8 @@ DOMAIN-SUFFIX,pdnews.cn # 人民日报客户端新闻资讯与多媒体服务主
 # - 更新时间：2026-11-04
 
 DOMAIN-SUFFIX,shobserver.com # 上观新闻资讯与多媒体内容服务主域名
+
+# > RMNY（融媒体内容管理平台）相关域名
+# - 更新时间：2026-11-04
+
+DOMAIN-SUFFIX,rmny.tech # RMNY 融媒体内容管理服务主域名
