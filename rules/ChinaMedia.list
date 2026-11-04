@@ -1369,3 +1369,8 @@ DOMAIN-SUFFIX,chinadaily.com.cn # 中国日报新闻资讯、专题报道与多�
 # - 更新时间：2026-11-04
 
 DOMAIN-SUFFIX,pdnews.cn # 人民日报客户端新闻资讯与多媒体服务主域名
+
+# > Shanghai Observer（上观新闻）相关域名
+# - 更新时间：2026-11-04
+
+DOMAIN-SUFFIX,shobserver.com # 上观新闻资讯与多媒体内容服务主域名
