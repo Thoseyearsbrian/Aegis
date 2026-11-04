@@ -3427,6 +3427,11 @@ DOMAIN-SUFFIX,answer.eol.cn # 中国教育在线招生咨询与智能问答服�
 
 DOMAIN-SUFFIX,720yun.com # 720云 VR 全景制作、3D 空间漫游与数字内容展示服务主域名
 
+# > Youzy（优志愿高考志愿填报平台）相关域名
+# - 更新时间：2026-11-04
+
+DOMAIN-SUFFIX,youzy.cn # 优志愿高考志愿填报与升学规划服务主域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
