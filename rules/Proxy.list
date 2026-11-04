@@ -11442,6 +11442,11 @@ DOMAIN-SUFFIX,netcatty.app # Netcatty 开源 SSH 终端管理工具主域名
 
 DOMAIN-SUFFIX,cist.bntu.by # 白俄罗斯国立技术大学科技孔子学院中文教育服务域名
 
+# > iCIMS Jibe（企业招聘网站内容分发平台）相关域名
+# - 更新时间：2026-11-04
+
+DOMAIN-SUFFIX,jibecdn.com # iiCIMS Jibe 企业招聘资源分发服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
