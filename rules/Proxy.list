@@ -11495,6 +11495,11 @@ DOMAIN-SUFFIX,starchart.cc # GitHub 仓库 Star 增长趋势与数据可视化�
 
 DOMAIN-SUFFIX,pierre.computer # Pierre Git 代码基础设施与开发工具服务域名
 
+# > Code Storage（Pierre Git 代码存储平台）相关域名
+# - 更新时间：2026-11-05
+
+DOMAIN-SUFFIX,code.storage # Code Storage Git 代码存储与管理服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
