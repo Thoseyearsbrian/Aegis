@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-04
-# - 校对时间：2026-11-04
+# - 更新时间：2026-11-05
+# - 校对时间：2026-11-05
 
 # > Harbin Institute of Technology（哈尔滨工业大学）
 # - 校对时间：2026-10-14
@@ -129,9 +129,10 @@ DOMAIN-SUFFIX,giving.ecnu.edu.cn # 华东师范大学教育发展基金会公益
 DOMAIN-SUFFIX,nju.edu.cn # 南京大学官方教育、科研与校园服务域名
 
 # > Southeast University（东南大学）
-# - 更新时间：2026-10-14
+# - 更新时间：2026-11-05
 
 DOMAIN-SUFFIX,seu.edu.cn # 东南大学官网、教学科研与校园服务域名
+DOMAIN-SUFFIX,seu.91job.org.cn # 东南大学毕业生就业与招聘服务域名
 
 # > University of Science and Technology of China（中国科学技术大学）
 # - 更新时间：2026-10-14
