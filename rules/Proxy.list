@@ -11466,6 +11466,11 @@ DOMAIN-SUFFIX,nyu.edu # 纽约大学教学、科研与校园服务主域名
 
 DOMAIN-SUFFIX,docs.rw # Remnawave 技术文档域名
 
+# > TLS Fingerprint（TLS/QUIC 指纹检测平台）相关域名
+# - 更新时间：2026-11-05
+
+DOMAIN-SUFFIX,tlsfingerprint.io # TLS/QUIC 握手指纹检测与网络安全研究服务域名
+
 # - 更新时间：2026-11-05
 
 DOMAIN-SUFFIX,starchart.cc # GitHub 仓库 Star 增长趋势与数据可视化服务域名
