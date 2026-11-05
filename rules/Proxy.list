@@ -11481,6 +11481,11 @@ DOMAIN-SUFFIX,shadowsocks.org # Shadowsocks 代理协议与技术文档服务域
 
 DOMAIN-SUFFIX,happ.su # Happ 代理客户端与技术文档服务域名
 
+# > BlancVPN（VPN 代理服务平台）相关域名
+# - 更新时间：2026-11-05
+
+DOMAIN-SUFFIX,blanc.link # BlancVPN 代理服务与客户端下载域名
+
 # - 更新时间：2026-11-05
 
 DOMAIN-SUFFIX,starchart.cc # GitHub 仓库 Star 增长趋势与数据可视化服务域名
