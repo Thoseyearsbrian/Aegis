@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-19
-# - 校对时间：2026-10-19
+# - 更新时间：2026-11-05
+# - 校对时间：2026-11-05
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-10-16
@@ -741,3 +741,8 @@ DOMAIN-SUFFIX,rea.tools # REA AI 编程智能体逆向工程工具官方域名
 # - 校对时间：2026-10-19
 
 DOMAIN-SUFFIX,voicebox.sh # Voicebox 官方主域名
+
+# > Devin（AI 软件工程智能体）相关域名
+# - 更新时间：2026-11-05
+
+DOMAIN-SUFFIX,devin.ai # Devin AI 软件开发与 API 服务域名
