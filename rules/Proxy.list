@@ -11460,6 +11460,12 @@ DOMAIN-SUFFIX,bmp.ovh # ImgURL 图片托管与资源分发服务主域名
 DOMAIN-SUFFIX,nyu.edu # 纽约大学教学、科研与校园服务主域名
 
 # > Star Charts（GitHub 仓库 Star 趋势统计平台）相关域名
+
+# > Remnawave 技术文档相关域名
+# - 更新时间：2026-11-05
+
+DOMAIN-SUFFIX,docs.rw # Remnawave 技术文档域名
+
 # - 更新时间：2026-11-05
 
 DOMAIN-SUFFIX,starchart.cc # GitHub 仓库 Star 增长趋势与数据可视化服务域名
