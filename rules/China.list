@@ -1498,7 +1498,7 @@ DOMAIN-SUFFIX,zhixing.court.gov.cn # 中国执行信息公开网域名
 DOMAIN-SUFFIX,rmfysszc.gov.cn # 人民法院诉讼资产网域名
 
 # > Ministry of Education / CHSI（教育部 / 学信网）相关域名
-# - 校对时间：2026-03-25
+# - 校对时间：2026-11-05
 
 DOMAIN-SUFFIX,moe.gov.cn # 教育部主域名
 DOMAIN-SUFFIX,chsi.com.cn # 学信网主域名
@@ -1511,6 +1511,7 @@ DOMAIN-SUFFIX,pubedu.chsi.com.cn # 学信网教育服务域名
 DOMAIN-SUFFIX,kaoyan.chsi.com.cn # 学信网考研服务域名
 DOMAIN-SUFFIX,xueli.chsi.com.cn # 学信网学历服务域名
 DOMAIN-SUFFIX,yjsy.chsi.com.cn # 学信网研究生教育服务域名
+DOMAIN-SUFFIX,chei.com.cn # 学信网静态资源分发服务域名
 
 # > National Health Services（国家卫生健康服务）相关域名
 # - 校对时间：2026-03-25
