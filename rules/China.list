@@ -3427,9 +3427,10 @@ DOMAIN-SUFFIX,clarivate.com.cn # 科睿唯安中国学术研究、科研评价�
 DOMAIN-SUFFIX,pqdtcn.com # PQDT 国外博硕士学位论文检索、全文获取与文献荐购服务主域名
 
 # > EOL（中国教育在线招生咨询平台）相关域名
-# - 更新时间：2026-11-04
+# - 更新时间：2026-11-05
 
 DOMAIN-SUFFIX,answer.eol.cn # 中国教育在线招生咨询与智能问答服务域名
+DOMAIN-SUFFIX,eol.cn # 中国教育在线招生咨询与教育资讯服务域名
 
 # > Youzy（优志愿高考志愿填报平台）相关域名
 # - 更新时间：2026-11-04
