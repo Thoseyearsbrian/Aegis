@@ -158,15 +158,11 @@ DOMAIN-SUFFIX,sdu.edu.cn # 山东大学官方教育、科研与校园服务域�
 
 DOMAIN-SUFFIX,ouc.edu.cn # 中国海洋大学教学、科研与校园服务官方域名
 
-# > Wuhan University（武汉大学）
-# - 更新时间：2026-10-14
-
-DOMAIN-SUFFIX,whu.edu.cn # 武汉大学官方网站与校级服务域名
-
 # > Huazhong University of Science and Technology（华中科技大学）
-# - 更新时间：2026-10-14
+# - 更新时间：2026-11-05
 
 DOMAIN-SUFFIX,hust.edu.cn # 华中科技大学官方教育、科研与校园服务域名
+DOMAIN-SUFFIX,tjmu.edu.cn # 华中科技大学同济医学院医学教育与科研服务域名
 
 # > Hunan University（湖南大学）
 # - 更新时间：2026-10-14
@@ -363,6 +359,11 @@ DOMAIN-SUFFIX,xju.edu.cn # 新疆大学官方教育与科研服务域名
 # - 更新时间：2026-11-02
 
 DOMAIN-SUFFIX,smbu.edu.cn # 深圳北理莫斯科大学官方网站与教学科研服务域名
+
+# > Wuhan University（武汉大学）
+# - 更新时间：2026-10-14
+
+DOMAIN-SUFFIX,whu.edu.cn # 武汉大学官方网站与校级服务域名
 
 # > CNKI Academic Database（中国知网学术数据库）
 # - 校对时间：2026-11-03
