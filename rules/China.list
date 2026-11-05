@@ -603,8 +603,8 @@ DOMAIN-SUFFIX,alilogistics.com # 阿里物流服务域名
 
 DOMAIN-SUFFIX,iconfont.cn # Iconfont 主域名
 
-# > Tencent（腾讯集团）相关域名
-# - 校对时间：2026-11-03
+# > Tencent（腾讯）相关域名
+# - 校对时间：2026-11-05
 
 DOMAIN-SUFFIX,tencent.com # 腾讯集团官方网站与企业服务主域名
 DOMAIN-SUFFIX,cloud.tencent.com # 腾讯云主域名
@@ -626,6 +626,7 @@ DOMAIN-SUFFIX,tencentcs.cn # 腾讯云控制台静态资源与云存储服务域
 DOMAIN-SUFFIX,woa.com # 腾讯企业内部系统与业务协作服务域名
 DOMAIN-SUFFIX,qcloudimg.com # 腾讯云开发者社区图片与静态资源分发域名
 DOMAIN-SUFFIX,voovmeeting.com # 腾讯会议国际版视频会议与在线协作服务域名
+DOMAIN-SUFFIX,idqqimg.com # 腾讯 QQ 图片与静态资源分发主域名
 
 # > Tencent Meeting（腾讯会议）相关域名
 # - 更新时间：2026-11-03
