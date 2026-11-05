@@ -11471,6 +11471,11 @@ DOMAIN-SUFFIX,docs.rw # Remnawave 技术文档域名
 
 DOMAIN-SUFFIX,tlsfingerprint.io # TLS/QUIC 握手指纹检测与网络安全研究服务域名
 
+# > Shadowsocks（开源加密代理协议）相关域名
+# - 更新时间：2026-11-05
+
+DOMAIN-SUFFIX,shadowsocks.org # Shadowsocks 代理协议与技术文档服务域名
+
 # - 更新时间：2026-11-05
 
 DOMAIN-SUFFIX,starchart.cc # GitHub 仓库 Star 增长趋势与数据可视化服务域名
