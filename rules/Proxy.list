@@ -11500,6 +11500,11 @@ DOMAIN-SUFFIX,pierre.computer # Pierre Git 代码基础设施与开发工具服�
 
 DOMAIN-SUFFIX,code.storage # Code Storage Git 代码存储与管理服务域名
 
+# > Pierre Diffs（开源代码差异渲染工具）相关域名
+# - 更新时间：2026-11-05
+
+DOMAIN-SUFFIX,diffs.com # Pierre Diffs 代码差异对比与可视化服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
