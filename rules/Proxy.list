@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-04
-# - 校对时间：2026-11-04
+# - 更新时间：2026-11-05
+# - 校对时间：2026-11-05
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -719,7 +719,7 @@ DOMAIN-SUFFIX,igcdn.com # 媒体资源域名
 DOMAIN-SUFFIX,instagram.fxx.fbcdn.net # 图片资源域名
 
 # > Amazon E‑Commerce Platform（Amazon 电商平台地区站点）
-# - 校对时间：2026‑04‑28
+# - 校对时间：2026‑11‑05
 
 DOMAIN-SUFFIX,amazon.com # 美国 Amazon 主站
 DOMAIN-SUFFIX,amazon.co.uk # 英国 Amazon 站
@@ -740,6 +740,7 @@ DOMAIN-SUFFIX,sellercentral.amazon.sg # 新加坡 Amazon Seller Central 卖家�
 DOMAIN-SUFFIX,images-na.ssl-images-amazon.com # Amazon 北美图像资源 CDN
 DOMAIN-SUFFIX,images-eu.ssl-images-amazon.com # Amazon 欧洲图像资源 CDN
 DOMAIN-SUFFIX,images-fe.ssl-images-amazon.com # Amazon 远东图像资源 CDN
+DOMAIN-SUFFIX,amzn.to # 亚马逊商品短链接与联盟推广跳转服务域名
 
 # > Amazon Corporate News and Press Center（Amazon 企业新闻与媒体中心）
 # - 校对时间：2026-05-10
