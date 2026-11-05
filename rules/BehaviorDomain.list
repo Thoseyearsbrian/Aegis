@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-16
-# - 校对时间：2026-10-16
+# - 更新时间：2026-11-06
+# - 校对时间：2026-11-06
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -27,12 +27,10 @@ DOMAIN-SUFFIX,metrics.apple.com # Apple 网络与性能诊断接口
 DOMAIN-SUFFIX,news-events.apple.com # 新闻模块事件数据域名
 
 # > Alibaba / Ant / UC 行为遥测服务
-# - 校对时间：2026-08-10
+# - 校对时间：2026-11-06
 
 DOMAIN-SUFFIX,xlog.snssdk.com # 闲鱼行为日志上报接口
-DOMAIN-SUFFIX,alog.umeng.com # 友盟行为日志上报接口
 DOMAIN-SUFFIX,applog.uc.cn # UC 行为日志上报接口
-DOMAIN-SUFFIX,errlog.umeng.com # 友盟错误日志上报接口
 DOMAIN-SUFFIX,acjs.aliyun.com # 阿里云前端日志采集接口
 DOMAIN-SUFFIX,trace.aliyun.com # 阿里追踪服务域名
 DOMAIN-SUFFIX,spm.aliyun.com # 阿里埋点追踪服务域名
@@ -1084,9 +1082,12 @@ DOMAIN-SUFFIX,matomo.eolas-services.com # Eolas Matomo 网站访问与用户行�
 DOMAIN-SUFFIX,cdn.useproof.com # Proof Pulse 访客行为追踪与转化分析脚本 CDN 域名
 
 # > Umeng+ CNZZ Website Analytics（友盟+ CNZZ 网站统计服务）
-# - 更新时间：2026-10-14
+# - 更新时间：2026-11-06
 
+DOMAIN-SUFFIX,alog.umeng.com # 友盟行为日志上报接口
+DOMAIN-SUFFIX,errlog.umeng.com # 友盟错误日志上报接口
 DOMAIN-SUFFIX,cnzz.com # 友盟+ CNZZ 网站流量统计与用户行为分析服务域名
+DOMAIN-SUFFIX,shujupie.com # 友盟+用户行为统计与数据采集服务域名
 
 # > Mixpanel Product Analytics（Mixpanel 产品与用户行为分析平台）
 # - 更新时间：2026-10-16
