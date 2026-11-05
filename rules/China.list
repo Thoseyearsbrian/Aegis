@@ -185,9 +185,10 @@ DOMAIN-SUFFIX,nudt.edu.cn # 国防科技大学官方教育与科研服务域名
 DOMAIN-SUFFIX,learning.mil.cn # 军职在线军事职业教育与在线学习服务域名
 
 # > Sun Yat-sen University（中山大学）
-# - 更新时间：2026-10-14
+# - 更新时间：2026-11-05
 
 DOMAIN-SUFFIX,sysu.edu.cn # 中山大学官方网站及教学科研服务域名
+DOMAIN-SUFFIX,gzsys.org.cn # 中山大学孙逸仙纪念医院医疗与科研服务域名
 
 # > South China University of Technology（华南理工大学）
 # - 更新时间：2026-10-14
