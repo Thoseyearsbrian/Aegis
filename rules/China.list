@@ -179,6 +179,11 @@ DOMAIN-SUFFIX,csu.edu.cn # 中南大学官方网站与校园服务域名
 
 DOMAIN-SUFFIX,nudt.edu.cn # 国防科技大学官方教育与科研服务域名
 
+# > Junzhi Online（军职在线）相关域名
+# - 更新时间：2026-11-05
+
+DOMAIN-SUFFIX,learning.mil.cn # 军职在线军事职业教育与在线学习服务域名
+
 # > Sun Yat-sen University（中山大学）
 # - 更新时间：2026-10-14
 
