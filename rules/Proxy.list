@@ -748,63 +748,21 @@ DOMAIN-SUFFIX,amzn.to # 亚马逊商品短链接与联盟推广跳转服务域�
 DOMAIN-SUFFIX,aboutamazon.com # Amazon 官方新闻与企业信息主域名
 DOMAIN-SUFFIX,press.aboutamazon.com # Amazon 官方媒体中心域名
 
-# > AWS Builder Center（AWS Builder Center 开发者社区）
-# - 校对时间：2026-05-10
+# > Amazon Web Services（亚马逊云科技）相关域名
+# - 校对时间：2026-11-06
 
 DOMAIN-SUFFIX,builder.aws.com # AWS Builder Center 开发者社区域名
-DOMAIN-SUFFIX,api.builder.aws.com # AWS Builder Center API 服务域名
-
-# > AWS re:Post Knowledge Community（AWS re:Post 知识社区）
-# - 校对时间：2026-05-10
-
-DOMAIN-SUFFIX,repost.aws # AWS re:Post 官方知识社区域名
-
-# > AWS Shortbread Tools Service（AWS Shortbread 工具服务）
-# - 校对时间：2026-05-10
-
-DOMAIN-SUFFIX,tools.shortbread.aws.dev # AWS Shortbread 工具服务主域名
-DOMAIN-SUFFIX,prod.tools.shortbread.aws.dev # AWS Shortbread 生产工具服务域名
-
-# > AWS Security Token Service（AWS 安全令牌服务）
-# - 校对时间：2026-05-10
-
-DOMAIN-SUFFIX,sts.us-east-1.amazonaws.com # AWS STS 美国东部区域服务域名
-
-# > Amazon Cognito Identity Service（Amazon Cognito 身份服务）
-# - 校对时间：2026-05-10
-
-DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com # Amazon Cognito Identity 美国东部区域服务域名
-
-# > Amazon CloudFront CDN（Amazon CloudFront 内容分发网络）
-# - 校对时间：2026-04-28
-
-DOMAIN-SUFFIX,cloudfront.net # AWS CloudFront CDN 通用内容分发域名
-DOMAIN-SUFFIX,redirect.prod.experiment.routing.cloudfront.aws.a2z.com # Amazon CloudFront 实验路由重定向服务域名
-
-# > AWS Static Assets Service（AWS 静态资源服务）
-# - 校对时间：2026-05-10
-
-DOMAIN-SUFFIX,awsstatic.com # AWS 官方静态资源主域名
-DOMAIN-SUFFIX,a0.awsstatic.com # AWS 官方静态资源服务域名
-
-# > Amazon Web Services Infrastructure（Amazon Web Services 云服务基础设施）
-# - 校对时间：2026-06-13
-
+DOMAIN-SUFFIX,repost.aws # AWS re:Post 知识社区域名
+DOMAIN-SUFFIX,tools.shortbread.aws.dev # AWS Shortbread 工具服务域名
 DOMAIN-SUFFIX,amazonaws.com # AWS 云服务基础设施域名
-
-# > Amazon Lightsail Cloud Service（Amazon Lightsail 云服务）
-# - 校对时间：2026-03-28
-
-DOMAIN-SUFFIX,lightsail.aws.amazon.com # 控制台域名
-DOMAIN-SUFFIX,lightsail.com # 品牌域名
-DOMAIN-SUFFIX,amazonlightsail.com # 品牌站点域名
-DOMAIN-SUFFIX,api.lightsail.aws.amazon.com # API 接口域名
-DOMAIN-SUFFIX,static-lightsail.aws.amazon.com # 静态资源域名
-DOMAIN-SUFFIX,lightsail.amazonaws.com # 兼容接口域名
-DOMAIN-SUFFIX,us-west-1.lightsail.aws.amazon.com # 区域节点域名
-DOMAIN-SUFFIX,ap-northeast-1.lightsail.aws.amazon.com # 区域节点域名
-DOMAIN-SUFFIX,cdn.lightsail.com # 静态资源域名
-DOMAIN-SUFFIX,lightsail-status.aws.amazon.com # 状态页域名
+DOMAIN-SUFFIX,cloudfront.net # AWS CloudFront CDN 内容分发域名
+DOMAIN-SUFFIX,redirect.prod.experiment.routing.cloudfront.aws.a2z.com # AWS CloudFront 实验路由服务域名
+DOMAIN-SUFFIX,awsstatic.com # AWS 官方静态资源服务域名
+DOMAIN-SUFFIX,aws.amazon.com # AWS 官方云服务与身份认证域名
+DOMAIN-SUFFIX,lightsail.com # Amazon Lightsail 云服务域名
+DOMAIN-SUFFIX,amazonlightsail.com # Amazon Lightsail 品牌服务域名
+DOMAIN-SUFFIX,awswaf.com # AWS WAF 安全验证与令牌服务域名
+DOMAIN-SUFFIX,auth.aws.amazon.com # AWS Builder ID 身份认证与单点登录服务域名
 
 # > Walmart Retail Platform（Walmart 零售平台）
 # - 校对时间：2026-05-28
@@ -5434,16 +5392,6 @@ DOMAIN-SUFFIX,privacyportal.osano.com # 隐私门户域名
 DOMAIN-SUFFIX,dataprotection.com # 服务域名
 DOMAIN-SUFFIX,dsarhub.com # DSAR 平台域名
 DOMAIN-SUFFIX,gdprform.io # 隐私请求域名
-
-# > AWS WAF CAPTCHA Verification Service（AWS WAF CAPTCHA 风控验证服务）
-# - 校对时间：2026-05-05
-
-DOMAIN-SUFFIX,awswaf.com # AWS WAF Web 应用防火墙边缘风控与挑战服务主域名
-DOMAIN-SUFFIX,edge.sdk.awswaf.com # AWS WAF Edge SDK 客户端风控、挑战验证与令牌交互服务域名
-DOMAIN-SUFFIX,edge.captcha-sdk.awswaf.com # Captcha 资源域名
-DOMAIN-SUFFIX,token.awswaf.com # 令牌域名
-DOMAIN-SUFFIX,aa91ab2ba082.3f34d406.us-west-1.token.awswaf.com # 令牌节点域名
-DOMAIN-SUFFIX,aa91ab2ba082.3f34d406.us-west-1.captcha.awswaf.com # Captcha 节点域名
 
 # > ScamAdviser Website Reputation Assessment Website（ScamAdviser 网站信誉评估）
 # - 校对时间：2026-03-28
