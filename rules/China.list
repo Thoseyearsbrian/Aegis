@@ -3507,6 +3507,11 @@ DOMAIN-SUFFIX,ai.vipslib.com # 维普智图 AI 学术问答与智能图书馆服
 DOMAIN-SUFFIX,5any.com # 重庆大学网络教育与在线学习服务域名
 DOMAIN-SUFFIX,cqu.cqbys.com # 重庆大学毕业生就业与校园招聘服务域名
 
+# > CNMRMS（爱迪科森教育资源平台）相关域名
+# - 更新时间：2026-11-07
+
+DOMAIN-SUFFIX,cnmrms.com # 爱迪科森数字教育资源与平台服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
