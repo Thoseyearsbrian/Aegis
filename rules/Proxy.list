@@ -11295,12 +11295,12 @@ DOMAIN-SUFFIX,engineeringvillage.com # Engineering Village 工程文献检索、
 DOMAIN-SUFFIX,reaxys.com # Reaxys 化学文献检索、化合物数据与化学反应研究服务主域名
 DOMAIN-SUFFIX,scopus.com # Scopus 学术文献检索、引文分析与科研评价服务主域名
 
-# > Clarivate（科睿唯安）相关域名
+# > Clarivate（科睿唯安学术研究与科研评价平台）相关域名
 # - 更新时间：2026-11-08
 
-DOMAIN-SUFFIX,clarivate.com # 科睿唯安学术研究、科研评价与知识产权信息服务主域名
+DOMAIN-SUFFIX,clarivate.com # 科睿唯安学术研究、科研评价与知识产权服务域名
+DOMAIN-SUFFIX,webofscience.com # Web of Science 学术文献检索与引文分析服务域名
 DOMAIN-SUFFIX,incites.thomsonreuters.com # InCites 旧版科研绩效分析与访问认证服务域名
-DOMAIN-SUFFIX,webofscience.com # Web of Science 学术文献检索、科学引文索引与科研分析服务主域名
 
 # > Emerald Publishing（爱墨瑞得学术出版集团）相关域名
 # - 更新时间：2026-11-03
@@ -11357,21 +11357,6 @@ DOMAIN-SUFFIX,academic.oup.com # 牛津大学出版社学术期刊、科研论�
 # - 更新时间：2026-11-03
 
 DOMAIN-SUFFIX,westlaw.com # Westlaw 法律研究数据库、判例检索与法律文献服务主域名
-
-# > Essential Science Indicators（科睿唯安基本科学指标数据库）相关域名
-# - 更新时间：2026-11-03
-
-DOMAIN-SUFFIX,esi.clarivate.com # ESI 科研绩效分析、高被引论文与研究前沿评价服务域名
-
-# > InCites（科睿唯安科研评价分析平台）相关域名
-# - 更新时间：2026-11-03
-
-DOMAIN-SUFFIX,incites.clarivate.com # InCites 科研绩效评价、机构分析与学术影响力评估服务域名
-
-# > Clarivate（科睿唯安）相关域名
-# - 更新时间：2026-11-03
-
-DOMAIN-SUFFIX,clarivate.com # 科睿唯安学术研究、引文分析、科研评价与知识产权服务主域名
 
 # > American Institute of Physics（美国物理学会联合会／美国物理研究所）相关域名
 # - 更新时间：2026-11-03
