@@ -3556,6 +3556,12 @@ DOMAIN-SUFFIX,tsg.gzgs.org.cn # 广州工商学院图书馆学术数据库访问
 
 DOMAIN-SUFFIX,fifedu.com # FiF 外语学习、在线课程与口语训练服务域名
 
+# > Wanfang Data（万方数据知识服务平台）相关域名
+# - 更新时间：2026-11-08
+
+DOMAIN-SUFFIX,wanfangdata.com.cn # 万方数据学术文献检索与知识服务域名
+DOMAIN-SUFFIX,wanfangdata.com.hk # 万方数据海外学术文献与知识服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
