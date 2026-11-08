@@ -52,9 +52,10 @@ DOMAIN-SUFFIX,sjtu.edu.cn # 上海交通大学官网、教学与科研服务域�
 DOMAIN-SUFFIX,zju.edu.cn # 浙江大学教学、科研与校园服务官方域名
 
 # > Renmin University of China（中国人民大学）
-# - 校对时间：2026-11-02
+# - 校对时间：2026-11-08
 
 DOMAIN-SUFFIX,ruc.edu.cn # 中国人民大学官方服务域名
+DOMAIN-SUFFIX,exuezhe.com # 人大复印报刊资料学术文献检索与全文服务域名
 
 # > Beihang University（北京航空航天大学）
 # - 校对时间：2026-11-02
