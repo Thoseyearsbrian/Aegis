@@ -3551,6 +3551,11 @@ DOMAIN-SUFFIX,koocdn.com # 新东方在线教育资源与静态内容分发域�
 
 DOMAIN-SUFFIX,tsg.gzgs.org.cn # 广州工商学院图书馆学术数据库访问服务域名
 
+# > FiF（讯飞外语学习资源平台）相关域名
+# - 更新时间：2026-11-08
+
+DOMAIN-SUFFIX,fifedu.com # FiF 外语学习、在线课程与口语训练服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
