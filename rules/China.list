@@ -3588,6 +3588,11 @@ DOMAIN-SUFFIX,bigan.net # 笔杆网学术论文写作与查重服务域名
 
 DOMAIN-SUFFIX,scholarmate.com # 科研之友学术成果管理与科研协作服务域名
 
+# > HiResearch（海研全球科研项目数据库）相关域名
+# - 更新时间：2026-11-08
+
+DOMAIN-SUFFIX,hiresearch.cn # 海研全球科研项目检索与科研成果分析服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
