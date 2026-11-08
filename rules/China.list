@@ -3531,6 +3531,11 @@ DOMAIN-SUFFIX,zhizhen.com # 超星学术文献检索与知识发现服务域名
 
 DOMAIN-SUFFIX,carsi.edu.cn # CARSI 高校联合身份认证与学术资源共享服务域名
 
+# > CIDP（制造业数字资源平台）相关域名
+# - 更新时间：2026-11-08
+
+DOMAIN-SUFFIX,digitalmechanical.com.cn # CIDP 机械工程数字资源与技术文献服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
