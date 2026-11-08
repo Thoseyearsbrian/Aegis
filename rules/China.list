@@ -3541,6 +3541,11 @@ DOMAIN-SUFFIX,digitalmechanical.com.cn # CIDP 机械工程数字资源与技术�
 
 DOMAIN-SUFFIX,spischolar.com # SpiScholar 学术文献检索与期刊评价服务域名
 
+# > Koolearn（新东方在线教育平台）相关域名
+# - 更新时间：2026-11-08
+
+DOMAIN-SUFFIX,koocdn.com # 新东方在线教育资源与静态内容分发域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
