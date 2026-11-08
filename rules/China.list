@@ -3562,6 +3562,11 @@ DOMAIN-SUFFIX,fifedu.com # FiF 外语学习、在线课程与口语训练服务�
 DOMAIN-SUFFIX,wanfangdata.com.cn # 万方数据学术文献检索与知识服务域名
 DOMAIN-SUFFIX,wanfangdata.com.hk # 万方数据海外学术文献与知识服务域名
 
+# > ScholarMate（科研之友学术科研协作平台）相关域名
+# - 更新时间：2026-11-08
+
+DOMAIN-SUFFIX,scholarmate.com # 科研之友学术成果管理与科研协作服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
