@@ -3567,6 +3567,11 @@ DOMAIN-SUFFIX,wanfangdata.com.hk # 万方数据海外学术文献与知识服务
 
 DOMAIN-SUFFIX,scholarmate.com # 科研之友学术成果管理与科研协作服务域名
 
+# > OAKD（国际开放获取知识发现平台）相关域名
+# - 更新时间：2026-11-08
+
+DOMAIN-SUFFIX,witnew.net # OAKD 开放获取学术文献检索与知识发现服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
