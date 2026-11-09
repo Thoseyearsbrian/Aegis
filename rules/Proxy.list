@@ -4338,9 +4338,10 @@ DOMAIN-SUFFIX,forum.v2ex.com # 社区服务域名
 DOMAIN-SUFFIX,cdn.v2ex.com # 静态资源域名
 
 # > Linux DO Community Platform（Linux DO 社区平台）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-11-09
 
 DOMAIN-SUFFIX,linux.do # 平台主域名
+DOMAIN-SUFFIX,cdn3.ldstatic.com # LINUX DO 社区图片与静态资源分发域名
 
 # > Hostloc Community Platform（Hostloc 社区平台）
 # - 校对时间：2026-03-28
