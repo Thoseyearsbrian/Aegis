@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-08
-# - 校对时间：2026-11-08
+# - 更新时间：2026-11-09
+# - 校对时间：2026-11-09
 
 # > Harbin Institute of Technology（哈尔滨工业大学）
 # - 校对时间：2026-10-14
@@ -236,9 +236,10 @@ DOMAIN-SUFFIX,bjtu.edu.cn # 北京交通大学官方教育、科研与校园服�
 DOMAIN-SUFFIX,ecard.bjtu.edu.cn # 北京交通大学校园一卡通与自助服务域名
 
 # > Beijing University of Posts and Telecommunications（北京邮电大学）
-# - 更新时间：2026-10-15
+# - 更新时间：2026-11-09
 
 DOMAIN-SUFFIX,bupt.edu.cn # 北京邮电大学官方网站与教育服务域名
+DOMAIN-SUFFIX,my.bupt.edu.cn # 北京邮电大学信息门户与校园综合服务域名
 
 # > Communication University of China（中国传媒大学）
 # - 更新时间：2026-10-15
