@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-08
-# - 校对时间：2026-11-08
+# - 更新时间：2026-11-09
+# - 校对时间：2026-11-09
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11460,6 +11460,11 @@ DOMAIN-SUFFIX,meiqia.com # 美洽智能客服与在线咨询服务域名
 # - 更新时间：2026-11-08
 
 DOMAIN-SUFFIX,springer.com # Springer 学术期刊、电子图书与科研出版服务域名
+
+# > Zotero（学术文献与参考文献管理平台）相关域名
+# - 更新时间：2026-11-09
+
+DOMAIN-SUFFIX,zotero.org # Zotero 学术文献管理、参考文献引用与数据同步服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
