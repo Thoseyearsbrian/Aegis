@@ -36,10 +36,24 @@ DOMAIN-SUFFIX,codex-cloud-environments.chatgpt.com # OpenAI Codex 云环境命�
 DOMAIN-SUFFIX,codex-cloud-backend.chatgpt.com # OpenAI Codex 云端任务与持久连接后端服务域名
 IP-CIDR,104.244.43.229/32 # ChatGPT 服务节点（chatgpt.com）
 
+# > Anthropic Platform Infrastructure（Anthropic 平台基础设施域名）
+# - 校对时间：2026-11-11
+
+DOMAIN-SUFFIX,anthropic.com # Anthropic 官方主站
+DOMAIN-SUFFIX,cdn.anthropic.com # Anthropic 内容分发网络
+DOMAIN-SUFFIX,trust.anthropic.com # Anthropic 信任与安全中心
+DOMAIN-SUFFIX,legal.anthropic.com # Anthropic 法律与服务条款页面
+DOMAIN-SUFFIX,privacy.anthropic.com # Anthropic 隐私政策页面
+DOMAIN-SUFFIX,status.anthropic.com # Anthropic 服务状态页面
+DOMAIN-SUFFIX,console.anthropic.com # Anthropic API 控制台
+DOMAIN-SUFFIX,developer.anthropic.com # Anthropic 开发者平台
+DOMAIN-SUFFIX,docs.anthropic.com # Anthropic 技术文档站点
+DOMAIN-SUFFIX,resources.anthropic.com # Anthropic 官方资源中心
+DOMAIN-SUFFIX,assets.anthropic.com # Anthropic 静态资源服务
+
 # > Claude Platform Infrastructure（Claude 平台基础设施域名）
 # - 校对时间：2026-11-11
 
-DOMAIN-SUFFIX,anthropic.com # Anthropic 官方网站、API 与平台服务域名
 DOMAIN-SUFFIX,claude.com # Claude 官方品牌与平台服务域名
 DOMAIN-SUFFIX,claude.ai # Claude Web 应用与客户端资源服务域名
 DOMAIN-SUFFIX,claudeusercontent.com # Claude 用户内容与文件附件资源域名
@@ -51,6 +65,10 @@ DOMAIN-SUFFIX,anthropic.auth0.com # Anthropic Auth0 登录认证相关域名
 DOMAIN-SUFFIX,anthropic-com.ghost.io # Anthropic Ghost 博客内容托管相关域名
 DOMAIN-SUFFIX,anthropic.com.cdn.cloudflare.net # Anthropic Cloudflare CDN 相关域名
 DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net # Anthropic 网站 BunnyCDN 静态资源相关域名
+IP-CIDR,160.79.104.0/23 # Anthropic 官方 IPv4 服务接入网段
+IP-CIDR,153.61.224.0/22 # Anthropic 官方 IPv4 服务接入网段
+IP-CIDR6,2607:6bc0::/48 # Anthropic 官方 IPv6 服务接入网段
+IP-ASN,399358 # Anthropic ASN
 
 # > Sora（OpenAI 视频生成服务）
 # - 校对时间：2026-03-05
@@ -99,21 +117,6 @@ DOMAIN-SUFFIX,ai.facebook.com # Facebook AI Research 历史站点
 DOMAIN-SUFFIX,research.fb.com # Meta 技术研究站点
 DOMAIN-SUFFIX,about.fb.com # Meta 官方技术博客
 DOMAIN-SUFFIX,developers.facebook.com # Meta 开发者平台
-
-# > Anthropic Platform Infrastructure（Anthropic 平台基础设施域名）
-# - 校对时间：2026-06-28
-
-DOMAIN-SUFFIX,anthropic.com # Anthropic 官方主站
-DOMAIN-SUFFIX,trust.anthropic.com # Anthropic 信任与安全中心
-DOMAIN-SUFFIX,legal.anthropic.com # Anthropic 法律与服务条款页面
-DOMAIN-SUFFIX,privacy.anthropic.com # Anthropic 隐私政策页面
-DOMAIN-SUFFIX,status.anthropic.com # Anthropic 服务状态页面
-DOMAIN-SUFFIX,console.anthropic.com # Anthropic API 控制台
-DOMAIN-SUFFIX,developer.anthropic.com # Anthropic 开发者平台
-DOMAIN-SUFFIX,docs.anthropic.com # Anthropic 技术文档站点
-DOMAIN-SUFFIX,resources.anthropic.com # Anthropic 官方资源中心
-DOMAIN-SUFFIX,assets.anthropic.com # Anthropic 静态资源服务
-DOMAIN-SUFFIX,cdn.anthropic.com # Anthropic 内容分发网络
 
 # > Gemini / Bard（Google 生成式 AI 平台）
 # - 校对时间：2026-07-25
