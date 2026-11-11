@@ -4,11 +4,11 @@
 # - 特征：涵盖常用大陆视频、音乐、电台平台域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-08
-# - 校对时间：2026-11-08
+# - 更新时间：2026-11-11
+# - 校对时间：2026-11-11
 
 # > Douyin / ByteDance Platform（抖音 / 字节跳动平台相关域名）
-# - 校对时间：2026-11-08
+# - 校对时间：2026-11-11
 
 DOMAIN-SUFFIX,douyin.com # 抖音官方主域名
 DOMAIN-SUFFIX,iesdouyin.com # 抖音核心业务域名
@@ -822,6 +822,11 @@ IP-CIDR,222.186.17.240/32 # 抖音静态资源分发节点（v5-bd-daily-music.d
 IP-CIDR,222.186.17.241/32 # 抖音视频点播 CDN 节点（v5-se-bd-daily-cold.douyinvod.com）
 IP-CIDR,222.186.39.152/32 # 抖音视频点播 CDN 节点（v5-gzb-x-hl-qn2.douyinvod.com）
 IP-CIDR,222.185.228.93/32 # 抖音视频点播 CDN 节点（v5-gzb2-x-hl-tc.douyinvod.com）
+IP-CIDR,222.186.132.108/32 # 抖音视频 CDN 节点（v6-wha.douyinvod.com）
+IP-CIDR,222.186.132.109/32 # 抖音视频 CDN 节点（v6-wha.douyinvod.com）
+IP-CIDR,222.186.132.110/32 # 抖音视频 CDN 节点（v6-wha.douyinvod.com）
+IP-CIDR,222.186.132.111/32 # 抖音视频 CDN 节点（v6-wha.douyinvod.com）
+IP-CIDR,222.186.132.112/32 # 抖音视频 CDN 节点（v6-wha.douyinvod.com）
 IP-CIDR,222.186.153.105/32 # 抖音视频点播分发服务节点 IP（v5-gzb2-wha.douyinvod.com）
 IP-CIDR,222.186.163.48/32 # 抖音音乐内容服务节点（v5-se-zjwztc-awememusicpgc.amemv.com）
 IP-CIDR,222.186.163.66/32 # 抖音图片资源 CDN 节点（p95-bj-sign.douyinpic.com）
