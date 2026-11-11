@@ -11479,8 +11479,8 @@ DOMAIN-SUFFIX,pencil.evolus.vn # Pencil Project 界面原型设计工具官网�
 DOMAIN-SUFFIX,net.coffee # Net.Coffee IP 检测与网络工具服务域名
 DOMAIN-SUFFIX,ip.net.coffee # IP 查询、网络连通性与代理分流检测域名
 
-# > Nintendo（任天堂游戏与网络服务）相关域名
-# - 校对时间：2026-11-11
+# > Nintendo（任天堂）相关域名
+# - 更新时间：2026-11-11
 
 DOMAIN-SUFFIX,nintendo.com # 任天堂全球官网、账号与平台服务域名
 DOMAIN-SUFFIX,nintendo.net # 任天堂游戏网络与内容分发服务域名
@@ -11493,6 +11493,17 @@ DOMAIN-SUFFIX,nintendo.com.hk # 任天堂香港地区官方服务域名
 DOMAIN-SUFFIX,nintendo.tw # 任天堂台湾地区官方服务域名
 DOMAIN-SUFFIX,nintendo.com.au # 任天堂澳大利亚地区官方服务域名
 DOMAIN-SUFFIX,nintendowifi.net # 任天堂网络连接检测与旧平台服务域名
+
+# > SoftBank（日本软银集团）相关域名
+# - 更新时间：2026-11-11
+
+DOMAIN-SUFFIX,softbank.jp # 软银日本通信、移动网络与客户服务域名
+DOMAIN-SUFFIX,group.softbank # 软银集团官方网站与企业信息服务域名
+DOMAIN-SUFFIX,softbank.co.jp # 软银集团历史企业网站域名
+DOMAIN-SUFFIX,softbankgroup.com # 软银集团相关企业域名
+DOMAIN-SUFFIX,softbankbb.co.jp # 软银宽带网络与客户支持服务域名
+DOMAIN-SUFFIX,softbank.ne.jp # 软银移动通信邮件服务域名
+DOMAIN-SUFFIX,sbb-sys.info # 软银宽带业务系统相关服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
