@@ -747,3 +747,12 @@ DOMAIN-SUFFIX,voicebox.sh # Voicebox 官方主域名
 # - 更新时间：2026-11-05
 
 DOMAIN-SUFFIX,devin.ai # Devin AI 软件开发与 API 服务域名
+
+# > PixTV（AI 视频生成与无限画布创作平台）相关域名
+# - 更新时间：2026-11-11
+
+DOMAIN-SUFFIX,pixtv.ai # PixTV AI 视频生成与创作平台国际站域名
+DOMAIN-SUFFIX,pixtv.im # PixTV 国际站跳转入口域名
+DOMAIN-SUFFIX,static.pixtv.media # PixTV 平台静态资源分发域名
+DOMAIN-SUFFIX,storage.pixtv.media # PixTV 图片与视频素材存储域名
+DOMAIN-SUFFIX,static.pixpix.media # PixTV 平台共享静态资源域名
