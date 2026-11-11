@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-10
-# - 校对时间：2026-11-10
+# - 更新时间：2026-11-11
+# - 校对时间：2026-11-11
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11472,6 +11472,11 @@ DOMAIN-SUFFIX,zbib.org # ZoteroBib 参考文献生成与学术引用格式管理
 # - 更新时间：2026-11-10
 
 DOMAIN,pencil.evolus.vn # Pencil Project 界面原型设计工具官网域名
+
+# > Net.Coffee（网络咖啡 IP 检测）相关域名
+# - 更新时间：2026-11-11
+
+DOMAIN,net.coffee # Net.Coffee 网络检测工具官方网站域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
