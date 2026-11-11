@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-05
-# - 校对时间：2026-11-05
+# - 更新时间：2026-11-11
+# - 校对时间：2026-11-11
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-10-16
@@ -37,22 +37,20 @@ DOMAIN-SUFFIX,codex-cloud-backend.chatgpt.com # OpenAI Codex 云端任务与持�
 IP-CIDR,104.244.43.229/32 # ChatGPT 服务节点（chatgpt.com）
 
 # > Claude Platform Infrastructure（Claude 平台基础设施域名）
-# - 校对时间：2026-10-13
+# - 校对时间：2026-11-11
 
-DOMAIN-SUFFIX,claude.com # Claude 官方品牌与服务入口域名
-DOMAIN-SUFFIX,claude.ai # Claude Web 应用主域名
-DOMAIN-SUFFIX,downloads.claude.ai # Claude 客户端下载服务域名
-DOMAIN-SUFFIX,api.anthropic.com # Anthropic Claude API 服务接口
-DOMAIN-SUFFIX,api.claude.ai # Claude API 接口（新统一端点）
-DOMAIN-SUFFIX,api.claude.com # Claude API 兼容接口
-DOMAIN-SUFFIX,claudeusercontent.com # Claude 用户内容与附件资源域名
-DOMAIN-SUFFIX,assets.claude.ai # Claude 前端静态资源域名
-DOMAIN-SUFFIX,cdn.claude.ai # Claude 静态资源 CDN
-DOMAIN-SUFFIX,status.anthropic.com # Anthropic 官方服务状态页面
-DOMAIN-SUFFIX,claude.io # Claude 官方 Web 入口域名（Anthropic Claude 平台）
-DOMAIN-SUFFIX,files.claudeusercontent.com # Claude 文件附件下载资源域名
-DOMAIN-SUFFIX,uploads.claudeusercontent.com # Claude 文件上传服务接口
-DOMAIN-SUFFIX,claude.dev # Anthropic Claude 开发者技术与工程实践服务域名
+DOMAIN-SUFFIX,anthropic.com # Anthropic 官方网站、API 与平台服务域名
+DOMAIN-SUFFIX,claude.com # Claude 官方品牌与平台服务域名
+DOMAIN-SUFFIX,claude.ai # Claude Web 应用与客户端资源服务域名
+DOMAIN-SUFFIX,claudeusercontent.com # Claude 用户内容与文件附件资源域名
+DOMAIN-SUFFIX,claude.dev # Anthropic 开发者技术博客与工程实践域名
+DOMAIN-SUFFIX,clau.de # Claude 短链接与重定向服务相关域名
+DOMAIN-SUFFIX,claudemcpclient.com # Claude MCP 客户端通信相关域名
+DOMAIN-SUFFIX,claudemcpcontent.com # Claude MCP 内容与资源分发相关域名
+DOMAIN-SUFFIX,anthropic.auth0.com # Anthropic Auth0 登录认证相关域名
+DOMAIN-SUFFIX,anthropic-com.ghost.io # Anthropic Ghost 博客内容托管相关域名
+DOMAIN-SUFFIX,anthropic.com.cdn.cloudflare.net # Anthropic Cloudflare CDN 相关域名
+DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net # Anthropic 网站 BunnyCDN 静态资源相关域名
 
 # > Sora（OpenAI 视频生成服务）
 # - 校对时间：2026-03-05
