@@ -2203,19 +2203,15 @@ DOMAIN-SUFFIX,cdn.kik.com # 静态资源域名
 DOMAIN-SUFFIX,chat.kik.com # 聊天服务域名
 
 # > LINE Messaging App（LINE 通讯应用）
-# - 校对时间：2026-03-28
+# - 校对时间：2026-11-10
 
-DOMAIN-SUFFIX,line.me # 平台主域名
-DOMAIN-SUFFIX,line.naver.jp # 区域服务域名
-DOMAIN-SUFFIX,api.line.me # API 接口域名
-DOMAIN-SUFFIX,dl.profile.line.naver.jp # 资料图片域名
-DOMAIN-SUFFIX,obs.line-apps.com # 消息服务域名
-DOMAIN-SUFFIX,store.line.me # 商店服务域名
-DOMAIN-SUFFIX,scdn.line-apps.com # 静态资源域名
-DOMAIN-SUFFIX,dl.stickershop.line.naver.jp # 贴图服务域名
-DOMAIN-SUFFIX,access.line.me # 授权服务域名
-DOMAIN-SUFFIX,line-scdn.net # 静态资源域名
-DOMAIN-SUFFIX,ad.line.me # 广告服务域名
+DOMAIN-SUFFIX,line.me # LINE 官方网站、即时通信与账号服务域名
+DOMAIN-SUFFIX,line-apps.com # LINE 应用程序与平台接口服务域名
+DOMAIN-SUFFIX,line-scdn.net # LINE 静态资源与内容分发服务域名
+DOMAIN-SUFFIX,line.naver.jp # LINE 消息通信与应用资源服务域名
+DOMAIN-SUFFIX,line.biz # LINE 企业服务与开发者平台域名
+DOMAIN-SUFFIX,lin.ee # LINE 官方账号与内容分享短链接域名
+DOMAIN-SUFFIX,linecorp.com # LINE 企业信息与技术服务域名
 
 # > Zalo Messaging App（Zalo 通讯应用）
 # - 校对时间：2026-03-28
