@@ -11479,6 +11479,21 @@ DOMAIN-SUFFIX,pencil.evolus.vn # Pencil Project 界面原型设计工具官网�
 DOMAIN-SUFFIX,net.coffee # Net.Coffee IP 检测与网络工具服务域名
 DOMAIN-SUFFIX,ip.net.coffee # IP 查询、网络连通性与代理分流检测域名
 
+# > Nintendo（任天堂游戏与网络服务）相关域名
+# - 校对时间：2026-11-11
+
+DOMAIN-SUFFIX,nintendo.com # 任天堂全球官网、账号与平台服务域名
+DOMAIN-SUFFIX,nintendo.net # 任天堂游戏网络与内容分发服务域名
+DOMAIN-SUFFIX,nintendo.co.jp # 任天堂日本公司与官方服务域名
+DOMAIN-SUFFIX,nintendo-europe.com # 任天堂欧洲地区官方服务域名
+DOMAIN-SUFFIX,nintendo.co.uk # 任天堂英国地区官方服务域名
+DOMAIN-SUFFIX,nintendo.eu # 任天堂欧洲地区企业服务域名
+DOMAIN-SUFFIX,nintendo.co.kr # 任天堂韩国地区官方服务域名
+DOMAIN-SUFFIX,nintendo.com.hk # 任天堂香港地区官方服务域名
+DOMAIN-SUFFIX,nintendo.tw # 任天堂台湾地区官方服务域名
+DOMAIN-SUFFIX,nintendo.com.au # 任天堂澳大利亚地区官方服务域名
+DOMAIN-SUFFIX,nintendowifi.net # 任天堂网络连接检测与旧平台服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
