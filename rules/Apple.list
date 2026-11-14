@@ -5,8 +5,36 @@
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-18
-# - 校对时间：2026-10-18
+# - 更新时间：2026-11-14
+# - 校对时间：2026-11-14
+
+# > Apple Siri（Siri 语音助手与相关服务）
+# - 更新时间：2026-11-14
+
+DOMAIN-SUFFIX,siri.apple.com # Apple Siri 服务
+DOMAIN-SUFFIX,dictation.apple.com # Apple 语音听写服务
+DOMAIN-SUFFIX,guzzoni.apple.com # Apple Siri 语音服务域名
+DOMAIN-SUFFIX,guzzoni.smoot.apple.com # Apple Siri 内部服务
+DOMAIN-SUFFIX,assistant-routing.apple.com # Apple Siri 请求路由
+DOMAIN-SUFFIX,siri-config.apple.com # Apple Siri 配置服务
+DOMAIN-SUFFIX,siri-bootstrap.apple.com # Apple Siri 初始化服务
+DOMAIN-SUFFIX,siri-routing.apple.com # Apple Siri 请求路由
+DOMAIN-SUFFIX,siri-dispatch.apple.com # Apple Siri 请求调度
+DOMAIN-SUFFIX,api.siri.apple.com # Siri API 服务接口
+DOMAIN-SUFFIX,siri-edge.apple.com # Siri 边缘接入节点
+DOMAIN-SUFFIX,siri-query.apple.com # Siri 查询接口
+DOMAIN-SUFFIX,speech.apple.com # Apple 语音识别服务
+DOMAIN-SUFFIX,voice.apple.com # Apple 语音处理服务
+DOMAIN-SUFFIX,sequoia.apple.com # Apple Siri 与系统翻译相关服务域名
+DOMAIN-SUFFIX,sequoia.cdn-apple.com # Apple Sequoia 相关内容分发域名
+
+# > Apple Intelligence（苹果智能与私有云计算服务）
+# - 更新时间：2026-11-14
+
+DOMAIN-SUFFIX,assistant.apple.com # Apple 智能助手后端服务
+DOMAIN-SUFFIX,assistant-edge.apple.com # Apple 智能助手边缘节点
+DOMAIN-SUFFIX,cp4.cloudflare.com # Apple Intelligence 私有云计算服务域名
+DOMAIN-SUFFIX,apple-relay.apple.com # Apple Intelligence 智能扩展服务域名
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 
@@ -40,12 +68,9 @@ DOMAIN-SUFFIX,valid.apple.com # Apple 证书验证服务
 DOMAIN-SUFFIX,certs.apple.com # Apple 证书分发服务  
 DOMAIN-SUFFIX,trust.apple.com # Apple 信任与证书链发布服务
 DOMAIN-SUFFIX,safebrowsing.apple.com # Apple Safe Browsing 服务
-DOMAIN-SUFFIX,guzzoni.apple.com # Apple Siri 服务节点
 DOMAIN-SUFFIX,time-ios.apple.com # iOS 时间同步接口
 DOMAIN-SUFFIX,time-macos.apple.com # macOS 时间同步服务
 DOMAIN-SUFFIX,translation.apple.com # Apple 翻译主服务
-DOMAIN-SUFFIX,sequoia.apple.com # Apple 翻译服务接口
-DOMAIN-SUFFIX,sequoia.cdn-apple.com # Apple 翻译服务 CDN 节点
 DOMAIN-SUFFIX,sylvan.apple.com # Apple 壁纸与屏保服务
 DOMAIN-SUFFIX,tv.apple.com # Apple TV+ 视频服务
 DOMAIN-SUFFIX,streaming.apple.com # Apple 媒体流服务
@@ -148,22 +173,6 @@ DOMAIN-SUFFIX,gdmf-ados.apple.com # Apple GDMF 策略服务
 DOMAIN-SUFFIX,pds-init.ess.apple.com # Apple ESS 初始化服务
 DOMAIN-SUFFIX,sf-saas.cdn-apple.com # Apple SaaS 服务 CDN
 
-# > Apple Voice Intelligence（Siri / 语音听写服务）
-
-DOMAIN-SUFFIX,siri.apple.com # Apple Siri 服务
-DOMAIN-SUFFIX,dictation.apple.com # Apple 语音听写服务
-DOMAIN-SUFFIX,guzzoni.smoot.apple.com # Apple Siri 内部服务
-
-# > Apple Intelligence / Siri Backend（Apple 智能与 Siri 后端服务）
-
-DOMAIN-SUFFIX,assistant.apple.com # Apple 智能助手后端服务
-DOMAIN-SUFFIX,api.siri.apple.com # Siri API 服务接口
-DOMAIN-SUFFIX,siri-edge.apple.com # Siri 边缘接入节点
-DOMAIN-SUFFIX,assistant-edge.apple.com # Apple 智能助手边缘节点
-DOMAIN-SUFFIX,siri-query.apple.com # Siri 查询接口
-DOMAIN-SUFFIX,speech.apple.com # Apple 语音识别服务
-DOMAIN-SUFFIX,voice.apple.com # Apple 语音处理服务
-
 # > Apple AI / ML Services（Apple 机器学习与模型服务）
 
 DOMAIN-SUFFIX,ml.apple.com # Apple 机器学习服务
@@ -247,9 +256,6 @@ DOMAIN-SUFFIX,ckdatabase-edge.apple.com # Apple CloudKit 边缘节点
 DOMAIN-SUFFIX,mesh-routing.apple.com # Apple 内部服务网格路由
 DOMAIN-SUFFIX,mesh-dispatch.apple.com # Apple 服务网格调度
 DOMAIN-SUFFIX,service-routing.apple.com # Apple 内部服务路由
-DOMAIN-SUFFIX,assistant-routing.apple.com # Apple Siri 请求路由
-DOMAIN-SUFFIX,siri-config.apple.com # Apple Siri 配置服务
-DOMAIN-SUFFIX,siri-bootstrap.apple.com # Apple Siri 初始化服务
 DOMAIN-SUFFIX,ai-edge.apple.com # Apple AI 边缘推理节点
 DOMAIN-SUFFIX,ml-routing.apple.com # Apple 机器学习请求路由
 DOMAIN-SUFFIX,ml-dispatch.apple.com # Apple 模型分发服务
@@ -264,8 +270,6 @@ DOMAIN-SUFFIX,device-auth-edge.apple.com # Apple 设备认证边缘节点
 DOMAIN-SUFFIX,cloudkit-edge.apple.com # Apple CloudKit 边缘节点
 DOMAIN-SUFFIX,cloudkit-routing.apple.com # Apple CloudKit 请求路由
 DOMAIN-SUFFIX,cloudkit-dispatch.apple.com # Apple CloudKit 调度服务
-DOMAIN-SUFFIX,siri-routing.apple.com # Apple Siri 请求路由
-DOMAIN-SUFFIX,siri-dispatch.apple.com # Apple Siri 请求调度
 DOMAIN-SUFFIX,edge-dispatch.apple.com # Apple 边缘节点调度
 DOMAIN-SUFFIX,edge-bootstrap.apple.com # Apple 边缘网络初始化
 
