@@ -11504,6 +11504,7 @@ DOMAIN-SUFFIX,sbb-sys.info # 软银宽带业务系统相关服务域名
 # > Crystal Dew World（磁盘健康监控与性能测试工具）相关域名
 # - 更新时间：2026-11-20
 
+DOMAIN-SUFFIX,crystalmark.jp # CrystalMark 官方企业网站、软件发行与技术支持服务域名
 DOMAIN-SUFFIX,crystalmark.info # CrystalDiskInfo 与 CrystalDiskMark 官方网站及软件下载服务域名
 
 # > Hatena（日本 Hatena 网络服务与 API 接口）相关域名
