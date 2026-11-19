@@ -11506,6 +11506,11 @@ DOMAIN-SUFFIX,sbb-sys.info # 软银宽带业务系统相关服务域名
 
 DOMAIN-SUFFIX,crystalmark.info # CrystalDiskInfo 与 CrystalDiskMark 官方网站及软件下载服务域名
 
+# > Hatena（日本 Hatena 网络服务与 API 接口）相关域名
+# - 更新时间：2026-11-19
+
+DOMAIN-SUFFIX,hatenaapis.com # Hatena 平台 API 服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
