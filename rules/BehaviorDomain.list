@@ -4,8 +4,8 @@
 # - 特征：结合 DNS、TLS 与请求路径等通信特征，对行为遥测、数据采集及分析服务节点进行识别与归类
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-08
-# - 校对时间：2026-11-08
+# - 更新时间：2026-11-20
+# - 校对时间：2026-11-20
 
 # > WeChat（微信）行为遥测服务
 # - 校对时间：2026-03-25
@@ -1098,3 +1098,8 @@ DOMAIN-SUFFIX,mxpnl.com # Mixpanel 用户行为分析与追踪 SDK 服务域名
 # - 更新时间：2026-11-08
 
 DOMAIN-SUFFIX,web.propfuel.com # PropFuel 网站互动、用户行为追踪与会员画像分析域名
+
+# > ClustrMaps（网站访客统计与地理位置分析服务）相关域名
+# - 更新时间：2026-11-20
+
+DOMAIN-SUFFIX,clustrmaps.com # ClustrMaps 网站访客统计与地理位置追踪服务域名
