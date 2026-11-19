@@ -1103,3 +1103,8 @@ DOMAIN-SUFFIX,web.propfuel.com # PropFuel 网站互动、用户行为追踪与�
 # - 更新时间：2026-11-20
 
 DOMAIN-SUFFIX,clustrmaps.com # ClustrMaps 网站访客统计与地理位置追踪服务域名
+
+# > Countoon（Twitter 社交分享次数统计服务）相关域名
+# - 更新时间：2026-11-20
+
+DOMAIN-SUFFIX,countoon.com # Twitter 社交分享次数统计服务域名
