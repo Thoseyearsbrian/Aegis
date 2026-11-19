@@ -466,6 +466,7 @@ IP-CIDR,117.85.69.216/32 # AliPay 静态资源服务节点（mdn.alipayobjects.c
 IP-CIDR,117.85.69.218/32 # AliPay 静态资源服务节点（mdn.alicdn.com）
 IP-CIDR,117.85.70.221/32 # AliPay 静态资源服务节点（mdn.alipayobjects.com）
 IP-CIDR,117.85.70.222/32 # AliPay render 服务节点（render.alipay.com）
+IP-CIDR,119.42.231.13/32 # 支付宝 RTMS 实时消息通信节点（rtms.alipay.com）
 IP-CIDR,119.42.251.199/32 # AliPay 数据采集与日志网关服务节点（mdap.alipay.com）
 IP-CIDR,119.42.251.220/32 # AliPay 数据采集与日志网关服务节点（mdap.alipay.com）
 IP-CIDR,121.228.130.243/32 # AliPay 静态资源服务节点（mdn.alipayobjects.com）
