@@ -11512,6 +11512,11 @@ DOMAIN-SUFFIX,crystalmark.info # CrystalDiskInfo 与 CrystalDiskMark 官方网�
 
 DOMAIN-SUFFIX,hatenaapis.com # Hatena 平台 API 服务域名
 
+# > Contra（全球自由职业者与企业项目协作平台）相关域名
+# - 更新时间：2026-11-20
+
+DOMAIN-SUFFIX,contra.com # Contra 自由职业招聘、项目协作与支付服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
 
