@@ -3663,6 +3663,11 @@ DOMAIN-SUFFIX,sport.org.cn # 中华全国体育总会官方网站与体育组织
 
 DOMAIN-SUFFIX,chinasfa.net # 中国大众体育网群众体育与全民健身信息服务域名
 
+# > Beijing Anti-Doping Laboratory（北京兴奋剂检测实验室）相关域名
+# - 更新时间：2026-11-20
+
+DOMAIN-SUFFIX,beijingadl.org.cn # 北京兴奋剂检测实验室相关网站域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
