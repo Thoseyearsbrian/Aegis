@@ -3649,9 +3649,14 @@ DOMAIN-SUFFIX,itgeeker.net # 技术奇客网络技术、开源工具与软件教
 DOMAIN-SUFFIX,olympic.cn # 中国奥林匹克委员会官方网站与奥林匹克运动信息服务域名
 
 # > China Sport Science Society（中国体育科学学会）相关域名
-# - 更新时间：2026-11-20
+# - 更新时间：2026-11-21
 
 DOMAIN-SUFFIX,csss.cn # 中国体育科学学会官方网站、学术交流与体育科学研究服务域名
+
+# > All-China Sports Federation（中华全国体育总会）相关域名
+# - 更新时间：2026-11-21
+
+DOMAIN-SUFFIX,sport.org.cn # 中华全国体育总会官方网站与体育组织、赛事信息服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
