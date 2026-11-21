@@ -3693,6 +3693,11 @@ DOMAIN-SUFFIX,17wanxiao.com # 完美校园校园一卡通、生活缴费与校�
 
 DOMAIN-SUFFIX,gaokao.cn # 掌上高考高校招生、院校查询与志愿填报服务域名
 
+# > Blackboard China（高校在线教学管理平台）相关域名
+# - 更新时间：2026-11-21
+
+DOMAIN-SUFFIX,blackboardchina.cn # Blackboard 高校在线课程教学与学习管理服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
