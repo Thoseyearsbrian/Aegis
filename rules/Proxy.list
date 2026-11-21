@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-20
-# - 校对时间：2026-11-20
+# - 更新时间：2026-11-21
+# - 校对时间：2026-11-21
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11521,6 +11521,11 @@ DOMAIN-SUFFIX,contra.com # Contra 自由职业招聘、项目协作与支付服�
 # - 更新时间：2026-11-20
 
 DOMAIN-SUFFIX,calendly.com # Calendly 在线会议预约、日程管理与自动化调度服务域名
+
+# > LongTail Video / JW Player（在线视频播放与流媒体服务）相关域名
+# - 更新时间：2026-11-21
+
+DOMAIN-SUFFIX,longtailvideo.com # JW Player 视频播放、流媒体与相关平台服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
