@@ -282,7 +282,7 @@ DOMAIN-SUFFIX,qikanzhongxin.neau.edu.cn # 东北农业大学期刊中心官方�
 DOMAIN-SUFFIX,gjjl.neau.edu.cn # 东北农业大学国际交流合作处官方网站与国际交流合作服务域名
 
 # > Naval Medical University（海军军医大学）
-# - 更新时间：2026-10-15
+# - 校对时间：2026-10-15
 
 DOMAIN-SUFFIX,smmu.edu.cn # 海军军医大学（第二军医大学）官方教育服务域名
 
@@ -3457,8 +3457,8 @@ DOMAIN-SUFFIX,pqdtcn.com # PQDT 国外博硕士学位论文检索、全文获取
 # > EOL（中国教育在线招生咨询平台）相关域名
 # - 更新时间：2026-11-05
 
-DOMAIN-SUFFIX,answer.eol.cn # 中国教育在线招生咨询与智能问答服务域名
 DOMAIN-SUFFIX,eol.cn # 中国教育在线招生咨询与教育资讯服务域名
+DOMAIN-SUFFIX,answer.eol.cn # 中国教育在线招生咨询与智能问答服务域名
 
 # > Youzy（优志愿高考志愿填报平台）相关域名
 # - 更新时间：2026-11-04
