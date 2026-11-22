@@ -3713,6 +3713,11 @@ DOMAIN-SUFFIX,91job.org.cn # 江苏省大学生智慧就业、校园招聘与高
 
 DOMAIN-SUFFIX,ctyunapi.cn # 天翼云云服务 API 与对象存储（OOS）访问域名
 
+# > Admissions Q&A System（招生智能问答系统）相关域名
+# - 更新时间：2026-11-22
+
+DOMAIN-SUFFIX,fzdx.suoyoubao.top # 高校招生智能问答系统访问域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
