@@ -3723,6 +3723,11 @@ DOMAIN-SUFFIX,fzdx.suoyoubao.top # 高校招生智能问答系统访问域名
 
 DOMAIN-SUFFIX,5read.com # 超星移动图书馆电子图书阅读、馆藏查询与文献检索服务域名
 
+# > DCloud（数字天堂）相关域名
+# - 更新时间：2026-11-22
+
+DOMAIN-SUFFIX,dcloud.net.cn # DCloud uni-app、HBuilderX 开发工具、云服务与静态资源分发域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
