@@ -3745,6 +3745,11 @@ DOMAIN-SUFFIX,kjt.jiangxi.gov.cn # 江西省科学技术厅官方网站、科技
 
 DOMAIN-SUFFIX,jyt.jiangxi.gov.cn # 江西省教育厅官方网站、教育政策与教育管理服务域名
 
+# > Wisweb（图书馆网站静态资源服务）相关域名
+# - 更新时间：2026-11-22
+
+DOMAIN-SUFFIX,wisweb.com # 高校及公共图书馆网站静态资源服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
