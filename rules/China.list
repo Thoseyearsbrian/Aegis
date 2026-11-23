@@ -331,6 +331,7 @@ DOMAIN-SUFFIX,gxu.edu.cn # 广西大学官方教育与科研服务域名
 DOMAIN-SUFFIX,alumni.gxu.edu.cn # 广西大学校友总会官方网站、校友联络与返校预约服务域名
 DOMAIN-SUFFIX,prof.gxu.edu.cn # 广西大学教师信息网、教师个人资料与科研信息展示域名
 DOMAIN-SUFFIX,net.gxu.edu.cn # 广西大学信息网络中心官方网站、校园网络管理与信息化服务域名
+DOMAIN-SUFFIX,hpc.gxu.edu.cn # 广西大学超级并行计算平台、高性能计算资源与科研服务域名
 
 # > Hainan University（海南大学）
 # - 更新时间：2026-10-15
