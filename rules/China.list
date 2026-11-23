@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-22
-# - 校对时间：2026-11-22
+# - 更新时间：2026-11-23
+# - 校对时间：2026-11-23
 
 # > Harbin Institute of Technology（哈尔滨工业大学）
 # - 校对时间：2026-10-14
@@ -3750,6 +3750,11 @@ DOMAIN-SUFFIX,jyt.jiangxi.gov.cn # 江西省教育厅官方网站、教育政策
 # - 更新时间：2026-11-22
 
 DOMAIN-SUFFIX,wisweb.com # 高校及公共图书馆网站静态资源服务域名
+
+# > Chaitin SafeLine（长亭科技雷池 WAF）相关域名
+# - 更新时间：2026-11-23
+
+DOMAIN-SUFFIX,challenge.rivers.chaitin.cn # 长亭雷池 WAF 安全服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
