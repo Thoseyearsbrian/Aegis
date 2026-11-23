@@ -334,7 +334,7 @@ DOMAIN-SUFFIX,net.gxu.edu.cn # 广西大学信息网络中心官方网站、校�
 DOMAIN-SUFFIX,hpc.gxu.edu.cn # 广西大学超级并行计算平台、高性能计算资源与科研服务域名
 
 # > Hainan University（海南大学）
-# - 校对时间：2026-11-22
+# - 校对时间：2026-11-23
 
 DOMAIN-SUFFIX,hainanu.edu.cn # 海南大学官方教育、科研与校园服务域名
 
@@ -3764,6 +3764,11 @@ DOMAIN-SUFFIX,challenge.rivers.chaitin.cn # 长亭雷池 WAF 安全服务域名
 # - 更新时间：2026-11-23
 
 DOMAIN-SUFFIX,hnftp.gov.cn # 海南自由贸易港官方网站、政策法规、政务资讯与投资服务信息域名
+
+# > Smart Education of China（国家智慧教育公共服务平台）相关域名
+# - 更新时间：2026-11-22
+
+DOMAIN-SUFFIX,smartedu.cn # 国家智慧教育公共服务平台、在线课程与数字教育资源服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
