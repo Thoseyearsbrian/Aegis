@@ -3783,6 +3783,11 @@ DOMAIN-SUFFIX,eduyun.cn # 教育部教育技术与资源发展中心（中央电
 
 DOMAIN-SUFFIX,chinaedu.net # 弘成教育在线教学、继续教育及网站静态资源服务域名
 
+# > cnTrus（数字证书认证服务）相关域名
+# - 更新时间：2026-11-23
+
+DOMAIN-SUFFIX,cntrus.oemssl.cn # cnTrus SSL 数字证书中间 CA 证书下载与证书链验证相关服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
