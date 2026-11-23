@@ -325,9 +325,10 @@ DOMAIN-SUFFIX,zzup.cn # 郑州大学出版社官方网站、图书出版与学�
 DOMAIN-SUFFIX,zuel.edu.cn # 中南财经政法大学官方教育与学术服务域名
 
 # > Guangxi University（广西大学）
-# - 更新时间：2026-10-15
+# - 更新时间：2026-11-23
 
 DOMAIN-SUFFIX,gxu.edu.cn # 广西大学官方教育与科研服务域名
+DOMAIN-SUFFIX,alumni.gxu.edu.cn # 广西大学校友总会官方网站、校友联络与返校预约服务域名
 
 # > Hainan University（海南大学）
 # - 更新时间：2026-10-15
