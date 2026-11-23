@@ -3760,6 +3760,11 @@ DOMAIN-SUFFIX,wisweb.com # 高校及公共图书馆网站静态资源服务域�
 
 DOMAIN-SUFFIX,challenge.rivers.chaitin.cn # 长亭雷池 WAF 安全服务域名
 
+# > Hainan Free Trade Port（海南自由贸易港）相关域名
+# - 更新时间：2026-11-23
+
+DOMAIN-SUFFIX,hnftp.gov.cn # 海南自由贸易港官方网站、政策法规、政务资讯与投资服务信息域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
