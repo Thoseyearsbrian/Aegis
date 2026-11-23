@@ -3776,6 +3776,11 @@ DOMAIN-SUFFIX,smartedu.cn # 国家智慧教育公共服务平台、在线课程�
 DOMAIN-SUFFIX,cbern.com.cn # 国家基础教育资源网、国家中小学智慧教育平台课程教学与数字教育资源服务域名
 DOMAIN-SUFFIX,chinaooc.com.cn # 国家高等教育智慧教育平台在线课程、数字教学资源与教育服务域名
 
+# > ChinaEdu（弘成教育）相关域名
+# - 更新时间：2026-11-23
+
+DOMAIN-SUFFIX,chinaedu.net # 弘成教育在线教学、继续教育及网站静态资源服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
