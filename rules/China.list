@@ -351,9 +351,10 @@ DOMAIN-SUFFIX,sicau.edu.cn # 四川农业大学官方网站与教育科研服务
 DOMAIN-SUFFIX,cnzx.info # 四川农业大学继续教育学院官方网站、招生信息与继续教育服务域名
 
 # > Tibet University（西藏大学）
-# - 更新时间：2026-10-15
+# - 更新时间：2026-11-24
 
 DOMAIN-SUFFIX,xzu.edu.cn # 西藏大学官方教育与学术服务域名
+DOMAIN-SUFFIX,utibet.edu.cn # 西藏大学官方网站、教学科研、招生就业与校园信息服务域名
 
 # > Xidian University（西安电子科技大学）
 # - 校对时间：2026-11-23
