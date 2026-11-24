@@ -402,7 +402,8 @@ DOMAIN-SUFFIX,nchu.bysjy.com.cn # 南昌航空大学毕业生就业与校园招�
 # > Duke Kunshan University（昆山杜克大学）相关域名
 # - 更新时间：2026-11-24
 
-DOMAIN-SUFFIX,dukekunshan.edu.cn # 昆山杜克大学官方网站、教学科研、招生就业与校园信息服务域名
+DOMAIN-SUFFIX,dukekunshan.edu.cn # 昆山杜克大学官方网站域名
+DOMAIN-SUFFIX,dku-web-admissions.s3.cn-north-1.amazonaws.com.cn # 昆山杜克大学网站文档、图片与视频资源存储服务域名
 
 # > Wuhan University（武汉大学）
 # - 更新时间：2026-10-14
