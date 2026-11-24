@@ -3806,6 +3806,11 @@ DOMAIN-SUFFIX,sports.cn # 华奥星空体育资讯、赛事视频点播与媒体
 
 DOMAIN-SUFFIX,rainier.net.cn # 北京润尼尔科技股份有限公司虚拟仿真实验教学与数字教育服务域名
 
+# > OWVLab（润尼尔虚拟仿真实验教学平台）相关域名
+# - 更新时间：2026-11-24
+
+DOMAIN-SUFFIX,owvlab.net # 北京润尼尔科技虚拟仿真实验教学与管理平台服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
