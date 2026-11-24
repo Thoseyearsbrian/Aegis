@@ -3795,6 +3795,11 @@ DOMAIN-SUFFIX,cntrus.oemssl.cn # cnTrus SSL 数字证书中间 CA 证书下载�
 
 DOMAIN-SUFFIX,crlocsp.cn # SSL/TLS 数字证书状态查询与吊销验证服务域名
 
+# > Sports.cn（华奥星空）相关域名
+# - 更新时间：2026-11-24
+
+DOMAIN-SUFFIX,sports.cn # 华奥星空体育资讯、赛事视频点播与媒体资源服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
