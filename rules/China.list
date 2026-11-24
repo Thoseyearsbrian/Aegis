@@ -399,6 +399,11 @@ DOMAIN-SUFFIX,env.paas.nchu.edu.cn # 南昌航空大学 PaaS 平台环境服务�
 DOMAIN-SUFFIX,go.nchu.edu.cn # 南昌航空大学教务管理与教学服务域名
 DOMAIN-SUFFIX,nchu.bysjy.com.cn # 南昌航空大学毕业生就业与校园招聘服务域名
 
+# > Duke Kunshan University（昆山杜克大学）相关域名
+# - 更新时间：2026-11-24
+
+DOMAIN-SUFFIX,dukekunshan.edu.cn # 昆山杜克大学官方网站、教学科研、招生就业与校园信息服务域名
+
 # > Wuhan University（武汉大学）
 # - 更新时间：2026-10-14
 
