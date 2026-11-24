@@ -3801,6 +3801,11 @@ DOMAIN-SUFFIX,crlocsp.cn # SSL/TLS 数字证书状态查询与吊销验证服务
 
 DOMAIN-SUFFIX,sports.cn # 华奥星空体育资讯、赛事视频点播与媒体资源服务域名
 
+# > Rainier（北京润尼尔科技股份有限公司）相关域名
+# - 更新时间：2026-11-24
+
+DOMAIN-SUFFIX,rainier.net.cn # 北京润尼尔科技股份有限公司虚拟仿真实验教学与数字教育服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
