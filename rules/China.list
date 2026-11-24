@@ -403,6 +403,7 @@ DOMAIN-SUFFIX,nchu.bysjy.com.cn # 南昌航空大学毕业生就业与校园招�
 # - 更新时间：2026-11-24
 
 DOMAIN-SUFFIX,dukekunshan.edu.cn # 昆山杜克大学官方网站域名
+DOMAIN-SUFFIX,dku.edu.cn # 昆山杜克大学学生信息管理、课程注册与教务服务域名
 DOMAIN-SUFFIX,dku-web-admissions.s3.cn-north-1.amazonaws.com.cn # 昆山杜克大学网站文档、图片与视频资源存储服务域名
 DOMAIN-SUFFIX,dku-videos.s3.cn-north-1.amazonaws.com.cn # 昆山杜克大学 Amazon S3 视频资源存储服务域名
 
