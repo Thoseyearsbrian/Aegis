@@ -3789,6 +3789,11 @@ DOMAIN-SUFFIX,chinaedu.net # 弘成教育在线教学、继续教育及网站静
 
 DOMAIN-SUFFIX,cntrus.oemssl.cn # cnTrus SSL 数字证书中间 CA 证书下载与证书链验证相关服务域名
 
+# > WoTrus（沃通电子认证）相关域名
+# - 更新时间：2026-11-24
+
+DOMAIN-SUFFIX,crlocsp.cn # SSL/TLS 数字证书状态查询与吊销验证服务域名
+
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
 
