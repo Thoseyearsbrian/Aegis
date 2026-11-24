@@ -4,8 +4,8 @@
 # - 特征：涵盖搜索引擎、电商平台、社交媒体、支付服务、地图导航、云服务、内容平台、工具服务等典型服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-23
-# - 校对时间：2026-11-23
+# - 更新时间：2026-11-24
+# - 校对时间：2026-11-24
 
 # > Harbin Institute of Technology（哈尔滨工业大学）
 # - 校对时间：2026-10-14
@@ -374,9 +374,10 @@ DOMAIN-SUFFIX,120.lzu.edu.cn # 兰州大学专题网站域名
 DOMAIN-SUFFIX,qhu.edu.cn # 青海大学官方教育与科研服务域名
 
 # > Ningxia University（宁夏大学）
-# - 更新时间：2026-10-15
+# - 更新时间：2026-11-24
 
 DOMAIN-SUFFIX,nxu.edu.cn # 宁夏大学官方网站与教育科研服务域名
+DOMAIN-SUFFIX,nxbys.cn # 宁夏高校毕业生就业创业一体化平台、高校就业信息、校园招聘与就业服务域名
 
 # > Xinjiang University（新疆大学）
 # - 更新时间：2026-10-15
