@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-24
-# - 校对时间：2026-11-24
+# - 更新时间：2026-11-25
+# - 校对时间：2026-11-25
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11576,6 +11576,11 @@ DOMAIN-SUFFIX,comohotels.com # COMO 酒店域名
 # - 更新时间：2026-11-25
 
 DOMAIN-SUFFIX,sixsenses.com # 六善酒店域名
+
+# > Alila Hotels and Resorts（阿丽拉酒店）相关域名
+# - 更新时间：2026-11-25
+
+DOMAIN-SUFFIX,alilahotels.com # 阿丽拉酒店域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
