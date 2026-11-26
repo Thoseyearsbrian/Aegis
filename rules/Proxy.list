@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-25
-# - 校对时间：2026-11-25
+# - 更新时间：2026-11-26
+# - 校对时间：2026-11-26
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11531,6 +11531,11 @@ DOMAIN-SUFFIX,longtailvideo.com # JW Player 视频播放、流媒体与相关平
 # - 更新时间：2026-11-24
 
 DOMAIN-SUFFIX,duke.edu # 美国杜克大学官方网站、统一身份认证与教学科研服务域名
+
+# > Launch Gift Cards（数字礼品卡服务平台）相关域名
+# - 更新时间：2026-11-26
+
+DOMAIN-SUFFIX,launchgiftcards.com # 数字礼品卡购买与发送服务域名
 
 # > Aman（安缦酒店）相关域名
 # - 更新时间：2026-11-25
