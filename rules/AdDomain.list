@@ -9,6 +9,7 @@
 
 # > 广告相关域名
 
+DOMAIN-SUFFIX,pxf.io # impact 广告域名
 DOMAIN-SUFFIX,impct.site # impact 广告域名
 DOMAIN-SUFFIX,ad.line.me # LINE 广告域名
 DOMAIN-SUFFIX,conversionsapigateway.com # Meta 广告域名
