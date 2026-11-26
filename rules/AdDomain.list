@@ -1,407 +1,408 @@
 # > AdDomain.list（广告识别规则集） 
-# - 分类：广告投放 / 广告竞价 / 广告请求 / 广告资源 / 广告追踪 / 明确广告子域
+# - 分类：广告投放 / 广告竞价 / 广告请求 / 广告资源 / 广告追踪 / 明确广告域名
 # - 来源：官方文档 / 本地流量行为分析 / 手动校验 / 持续自维护
-# - 特征：识别广告投放、广告竞价、广告请求、广告资源分发、广告追踪及明确广告子域等通信特征
+# - 特征：识别广告投放、广告竞价、广告请求、广告资源分发、广告追踪及明确广告域名等通信特征
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-10
-# - 校对时间：2026-11-10
+# - 更新时间：2026-11-26
+# - 校对时间：2026-11-26
 
 # > 广告相关域名
 
-DOMAIN-SUFFIX,ad.line.me # LINE 广告服务域名
-DOMAIN-SUFFIX,conversionsapigateway.com # Meta 广告转化事件采集与归因服务域名
-DOMAIN-SUFFIX,ipredictive.com # Viant Adelphic 广告追踪、受众识别与归因服务域名
-DOMAIN-SUFFIX,mookie1.com # WPP Media Xaxis 广告追踪与受众定向服务域名
-DOMAIN-SUFFIX,mmtro.com # Numberly 广告追踪与受众分析服务域名
-DOMAIN-SUFFIX,s7.addthis.com # AddThis 社交分享与广告追踪脚本服务域名
-DOMAIN-SUFFIX,dx.mountain.com # MNTN 广告受众追踪与转化归因服务域名
-DOMAIN-SUFFIX,s.zzcdn.me # Zalo Ads Pixel 广告转化追踪脚本域名
-DOMAIN-SUFFIX,consentag.eu # Crimtan 广告同意管理与受众识别服务域名
-DOMAIN-SUFFIX,adnxs.com # Microsoft Advertising 广告投放、素材分发与追踪服务域名
-DOMAIN-SUFFIX,turn.com # Turn / Amobee 广告投放、受众追踪与程序化营销服务域名
-DOMAIN-SUFFIX,demdex.net # Adobe 受众识别、数据采集与广告定向服务域名
-DOMAIN-SUFFIX,quantserve.com # Quantcast 广告测量、转化追踪与受众定向服务域名
-DOMAIN-SUFFIX,pixel.byspotify.com # Spotify 广告转化追踪与归因 Pixel 服务域名
-DOMAIN-SUFFIX,pixel.ad # Apartena 营销追踪与广告效果衡量服务域名
-DOMAIN-SUFFIX,hsadspixel.net # HubSpot 广告像素与广告追踪脚本服务域名
-OMAIN-SUFFIX,company-target.com # Demandbase B2B 广告受众识别、追踪与定向服务域名
-DOMAIN-SUFFIX,idsequoia.ai # Sequoia ID 广告受众识别与定向服务域名
-DOMAIN-SUFFIX,bidswitch.net # BidSwitch 程序化广告交易与竞价服务域名
-DOMAIN-SUFFIX,admaster.cc # AdMaster 广告监测与效果分析服务域名
-DOMAIN-SUFFIX,creativecdn.com # RTB House 广告素材分发与追踪服务域名
-DOMAIN-SUFFIX,analytics.pangle-ads.com # Pangle 广告分析与效果追踪服务域名
-DOMAIN-SUFFIX,travelaudience.com # TravelAudience 广告投放与受众分析服务域名
-DOMAIN-SUFFIX,live.primis.tech # Primis 视频广告播放服务域名
-DOMAIN-SUFFIX,hb.openwebmp.com # OpenWeb Header Bidding 广告竞价服务域名
-DOMAIN-SUFFIX,hb.yellowblue.io # YellowBlue Header Bidding 广告竞价服务域名
-DOMAIN-SUFFIX,rtb.openx.net # OpenX 实时广告竞价服务域名
-DOMAIN-SUFFIX,htlb.casalemedia.com # Casale Media 广告竞价服务域名
-DOMAIN-SUFFIX,t.adx.opera.com # Opera 广告投放服务域名
-DOMAIN-SUFFIX,ad.turn.com # Turn 广告投放服务域名
+DOMAIN-SUFFIX,impct.site # impact 广告域名
+DOMAIN-SUFFIX,ad.line.me # LINE 广告域名
+DOMAIN-SUFFIX,conversionsapigateway.com # Meta 广告域名
+DOMAIN-SUFFIX,ipredictive.com # Viant Adelphic 广告域名
+DOMAIN-SUFFIX,mookie1.com # WPP Media Xaxis 广告域名
+DOMAIN-SUFFIX,mmtro.com # Numberly 广告域名
+DOMAIN-SUFFIX,s7.addthis.com # AddThis 广告域名
+DOMAIN-SUFFIX,dx.mountain.com # MNTN 广告域名
+DOMAIN-SUFFIX,s.zzcdn.me # Zalo Ads Pixel 广告域名
+DOMAIN-SUFFIX,consentag.eu # Crimtan 广告域名
+DOMAIN-SUFFIX,adnxs.com # Microsoft Advertising 广告域名
+DOMAIN-SUFFIX,turn.com # Turn / Amobee 广告域名
+DOMAIN-SUFFIX,demdex.net # Adobe 广告域名
+DOMAIN-SUFFIX,quantserve.com # Quantcast 广告域名
+DOMAIN-SUFFIX,pixel.byspotify.com # Spotify 广告域名
+DOMAIN-SUFFIX,pixel.ad # Apartena 广告域名
+DOMAIN-SUFFIX,hsadspixel.net # HubSpot 广告域名
+OMAIN-SUFFIX,company-target.com # Demandbase B2B 广告域名
+DOMAIN-SUFFIX,idsequoia.ai # Sequoia ID 广告域名
+DOMAIN-SUFFIX,bidswitch.net # BidSwitch 广告域名
+DOMAIN-SUFFIX,admaster.cc # AdMaster 广告域名
+DOMAIN-SUFFIX,creativecdn.com # RTB House 广告域名
+DOMAIN-SUFFIX,analytics.pangle-ads.com # Pangle 广告域名
+DOMAIN-SUFFIX,travelaudience.com # TravelAudience 广告域名
+DOMAIN-SUFFIX,live.primis.tech # Primis 广告域名
+DOMAIN-SUFFIX,hb.openwebmp.com # OpenWeb Header Bidding 广告域名
+DOMAIN-SUFFIX,hb.yellowblue.io # YellowBlue Header Bidding 广告域名
+DOMAIN-SUFFIX,rtb.openx.net # OpenX 广告域名
+DOMAIN-SUFFIX,htlb.casalemedia.com # Casale Media 广告域名
+DOMAIN-SUFFIX,t.adx.opera.com # Opera 广告域名
+DOMAIN-SUFFIX,ad.turn.com # Turn 广告域名
 DOMAIN-SUFFIX,6sc.co # 6sense 广告域名
 DOMAIN-SUFFIX,adsrvr.org # The Trade Desk AdsRvr 广告域名
 DOMAIN-SUFFIX,trkn.us # Claritas Clicktracker 广告域名
-DOMAIN-SUFFIX,match.adsrvr.org # The Trade Desk AdsRvr 广告匹配服务域名
-DOMAIN-SUFFIX,cdn.carbonads.com # Carbon Ads 广告分发 CDN 域名
+DOMAIN-SUFFIX,match.adsrvr.org # The Trade Desk AdsRvr 广告域名
+DOMAIN-SUFFIX,cdn.carbonads.com # Carbon Ads 广告域名
 DOMAIN-SUFFIX,ads-twitter.com # X / Twitter Ads 广告域名
-DOMAIN-SUFFIX,phx.creativecdn.com # Creative 广告分发 CDN 域名
-DOMAIN-SUFFIX,openads-cdn.adsrvr.org # adsrvr 广告分发 CDN 域名
-DOMAIN-SUFFIX,direct.adsrvr.org # The Trade Desk 广告投放服务域名
-DOMAIN-SUFFIX,prebid-server.rubiconproject.com # Magnite 广告竞价服务域名
-DOMAIN-SUFFIX,agkn.com # 广告追踪域名
+DOMAIN-SUFFIX,phx.creativecdn.com # Creative 广告域名
+DOMAIN-SUFFIX,openads-cdn.adsrvr.org # adsrvr 广告域名
+DOMAIN-SUFFIX,direct.adsrvr.org # The Trade Desk 广告域名
+DOMAIN-SUFFIX,prebid-server.rubiconproject.com # Magnite 广告域名
+DOMAIN-SUFFIX,agkn.com # 广告域名
 DOMAIN-SUFFIX,dynamic.criteo.com # Criteo 广告域名
-DOMAIN-SUFFIX,po.funshion.com # 风行网广告接口域名
-DOMAIN-SUFFIX,m.cn.miaozhen.com # 秒针广告监测域名
-DOMAIN-SUFFIX,a.ads.rmbl.ws # Rumble 广告统计域名
-DOMAIN-SUFFIX,asc-a.hbwrapper.com # 广告竞价域名
-DOMAIN-SUFFIX,api.hypelab.com # Hypelab 广告接口域名
-DOMAIN-SUFFIX,eus.rubiconproject.com # Rubicon 广告竞价域名
-DOMAIN-SUFFIX,fastlane.rubiconproject.com # Rubicon 广告竞价域名
-DOMAIN-SUFFIX,ap.lijit.com # Lijit 广告竞价域名
-DOMAIN-SUFFIX,navvy.media.net # Media.net 广告分发域名
-DOMAIN-SUFFIX,prebid.media.net # Media.net 广告竞价域名
-DOMAIN-SUFFIX,prg-apac.smartadserver.com # Smart AdServer 广告投放域名
-DOMAIN-SUFFIX,exchange.alkimi-onboarding.com # Alkimi 广告竞价域名
-DOMAIN-SUFFIX,zz43641cpr.pub.tappx.com # Tappx 移动广告平台域名
-DOMAIN-SUFFIX,ms-cookie-sync.presage.io # Presage 广告标识同步域名
-DOMAIN-SUFFIX,mweb-hb.presage.io # Presage 广告竞价域名
-DOMAIN-SUFFIX,p.teads.tv # Teads 视频广告域名
-DOMAIN-SUFFIX,a.mgid.com # MGID 内容推荐广告域名
-DOMAIN-SUFFIX,apdcdn.tc.qq.com # 腾讯广告资源域名
-DOMAIN-SUFFIX,tsbdy.gtimg.com # 腾讯广告资源域名
-DOMAIN-SUFFIX,admaterial.gdtimg.com # 腾讯广告素材分发域名
-DOMAIN-SUFFIX,apps.rokt.com # Rokt 广告推荐域名
-DOMAIN-SUFFIX,elb.the-ozone-project.com # Ozone 广告竞价域名
-DOMAIN-SUFFIX,prebid.the-ozone-project.com # Ozone 广告竞价域名
-DOMAIN-SUFFIX,applovin.com # AppLovin 广告平台域名
-DOMAIN-SUFFIX,iadsdk.apple.com # Apple iAd SDK 域名
-DOMAIN-SUFFIX,iad.apple.com # Apple iAd 平台域名
-DOMAIN-SUFFIX,adashx.m.taobao.com # 淘宝广告监测域名
-DOMAIN-SUFFIX,atanx.alicdn.com # 阿里妈妈广告素材分发域名
-DOMAIN-SUFFIX,open-adash.alipay.com # 支付宝广告监测域名
-DOMAIN-SUFFIX,g-adashx.ut.taobao.com # 淘宝广告追踪域名
-DOMAIN-SUFFIX,adash-c.ut.taobao.com # 淘宝广告 SDK 域名
-DOMAIN-SUFFIX,adashx4yt.m.taobao.com # 淘宝广告日志域名
-DOMAIN-SUFFIX,track.alicdn.com # 阿里广告追踪域名
-DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告日志域名
-DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告监测域名
-DOMAIN-SUFFIX,gum.criteo.com # Criteo 广告标识同步域名
-DOMAIN-SUFFIX,rtax.criteo.com # Criteo 广告交换域名
-DOMAIN-SUFFIX,bidder.criteo.com # Criteo 广告竞价域名
-DOMAIN-SUFFIX,tracking.criteo.com # Criteo 广告追踪域名
-DOMAIN-SUFFIX,delivery.criteo.com # Criteo 广告分发域名
-DOMAIN-SUFFIX,rlcdn.com # 广告数据平台域名
-DOMAIN-SUFFIX,pixel.rlcdn.com # LiveRamp 像素追踪域名
-DOMAIN-SUFFIX,ads.rlcdn.com # LiveRamp 广告接口域名
-DOMAIN-SUFFIX,sync.rlcdn.com # LiveRamp 身份同步域名
-DOMAIN-SUFFIX,ads-i4.xhscdn.com # 小红书广告资源分发域名
-DOMAIN-SUFFIX,scripts.pubnation.com # PubNation 广告脚本域名
-DOMAIN-SUFFIX,gtrace.mediago.io # MediaGo 广告追踪域名
-DOMAIN-SUFFIX,gdtimg.com # 腾讯广告资源域名
-DOMAIN-SUFFIX,qzs.gdtimg.com # 腾讯广告资源域名
-DOMAIN-SUFFIX,union.gdtimg.com # 腾讯广告资源域名
-DOMAIN-SUFFIX,adnet.qq.com # 腾讯广告平台域名
-DOMAIN-SUFFIX,report.gdtimg.com # 腾讯广告上报域名
-DOMAIN-SUFFIX,sdk.gdtimg.com # 腾讯广告 SDK 资源域名
-DOMAIN-SUFFIX,ads.qq.com # 腾讯广告接口域名
-DOMAIN-SUFFIX,tracking.gdtimg.com # 腾讯广告追踪域名
-DOMAIN-SUFFIX,win.gdt.qq.com # 腾讯广告投放域名
-DOMAIN-SUFFIX,xc.gdt.qq.com # 腾讯广告控制域名
-DOMAIN-SUFFIX,rpt.gdt.qq.com # 腾讯广告上报域名
-DOMAIN-SUFFIX,c2.gdt.qq.com # 腾讯广告控制域名
-DOMAIN-SUFFIX,adsmind.gdtimg.com # 腾讯广告资源分发域名
-DOMAIN-SUFFIX,adsfile.qq.com # 腾讯广告资源域名
-DOMAIN-SUFFIX,adsmind.ugdtimg.com # 腾讯广告资源分发域名
-DOMAIN-SUFFIX,xs.l.qq.com # 腾讯广告资源域名
-DOMAIN-SUFFIX,wxsnsad.tc.qq.com # 微信广告投放域名
-DOMAIN-SUFFIX,wxsnsdy.tc.qq.com # 微信广告资源域名
-DOMAIN-SUFFIX,btlr.sharethrough.com # Sharethrough 原生广告接口域名
-DOMAIN-SUFFIX,rp.liadm.com # LIADM 广告跳转域名
-DOMAIN-SUFFIX,i.liadm.com # LIADM 广告资源域名
-DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com # 穿山甲广告 SDK 接入域名
-DOMAIN-SUFFIX,data.video.ptqy.gitv.tv # 爱奇艺广告接口域名
-DOMAIN-SUFFIX,sdk-cache.video.ptqy.gitv.tv # 爱奇艺广告资源域名
-DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv # 爱奇艺广告接口域名
-DOMAIN-SUFFIX,ads.raidrive.com # RaiDrive 广告展示域名
-DOMAIN-SUFFIX,adx.appsdk.com.cn # appsdk 广告接口域名
-DOMAIN-SUFFIX,adx-server.ad.cmvideo.cn # 咪咕广告竞价域名
-DOMAIN-SUFFIX,adx-drcn.op.dbankcloud.cn # 华为广告平台域名
-DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn # vivo 广告日志域名
-DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com # 字节跳动广告接口域名
-DOMAIN-SUFFIX,advertising-api-fe.amazon.com # Amazon Ads 接口域名
-DOMAIN-SUFFIX,ads.pubmatic.com # PubMatic 广告平台域名
-DOMAIN-SUFFIX,s.amazon-adsystem.com # Amazon 广告平台域名
-DOMAIN-SUFFIX,adcolony.com # AdColony 广告平台域名
-DOMAIN-SUFFIX,gemini.yahoo.com # Yahoo 广告平台域名
-DOMAIN-SUFFIX,advertising-api.amazon.com # Amazon Ads 接口域名
-DOMAIN-SUFFIX,advertising.apple.com # Apple Ads 平台域名
-DOMAIN-SUFFIX,bingads.microsoft.com # Microsoft 广告平台域名
-DOMAIN-SUFFIX,adservice.sigmob.cn # Sigmob 广告接口域名
-DOMAIN-SUFFIX,adx.ads.oppomobile.com # OPPO 广告平台域名
-DOMAIN-SUFFIX,adview.cn # AdView 广告平台域名
-DOMAIN-SUFFIX,advertising-api-eu.amazon.com # Amazon Ads 接口域名
-DOMAIN-SUFFIX,ads.pinterest.com # Pinterest 广告服务域名
-DOMAIN-SUFFIX,ads.service.kugou.com # 酷狗广告接口域名
-DOMAIN-SUFFIX,res1.applovin.com # AppLovin 广告素材分发域名
-DOMAIN-SUFFIX,canvas-cdn.gdt.qq.com # 腾讯广告素材分发域名
-DOMAIN-SUFFIX,click.liftoff.io # Liftoff 广告追踪域名
-DOMAIN-SUFFIX,click.chinaliftoff.io # Liftoff 广告追踪域名
-DOMAIN-SUFFIX,cdn.liftoff-creatives.io # Liftoff 广告资源域名
-DOMAIN-SUFFIX,cdn.chinaliftoff-creatives.io # Liftoff 广告资源域名
-DOMAIN-SUFFIX,cbjs.baidu.com # 百度广告组件域名
-DOMAIN-SUFFIX,skdisplay.jd.com # 京东广告接口域名
-DOMAIN-SUFFIX,cdn-ad.wtzw.com # 广告资源分发域名
-DOMAIN-SUFFIX,cdn.ad.wtzw.com # 广告资源分发域名
-DOMAIN-SUFFIX,cn-api.anythinktech.com # AnyThink 广告接口域名
-DOMAIN-SUFFIX,ck.ads.oppomobile.com # OPPO 广告点击追踪域名
-DOMAIN-SUFFIX,config.unityads.unity3d.com # Unity Ads 配置域名
-DOMAIN-SUFFIX,data.ads.oppomobile.com # OPPO 广告接口域名
-DOMAIN-SUFFIX,edge.ads.twitch.tv # Twitch 广告资源域名
-DOMAIN-SUFFIX,litchiads.com # 荔枝广告平台域名
-DOMAIN-SUFFIX,mobads-logs.baidu.com # 百度广告日志域名
-DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com # 百度广告资源域名
-DOMAIN-SUFFIX,rt.applovin.com # AppLovin 实时广告接口域名
-DOMAIN-SUFFIX,rt.applvn.com # AppLovin 实时广告接口域名
-DOMAIN-SUFFIX,saad.ms.zhangyue.net # 掌阅广告接口域名
-DOMAIN-SUFFIX,impression-asia.chinaliftoff.io # Liftoff 广告统计域名
-DOMAIN-SUFFIX,impression-asia.liftoff.io # Liftoff 广告统计域名
-DOMAIN-SUFFIX,adserver.unityads.unity3d.com # Unity Ads 广告服务器域名
-DOMAIN-SUFFIX,adsmart.konka.com # 康佳广告平台域名
-DOMAIN-SUFFIX,images.outbrainimg.com # Outbrain 广告资源域名
-DOMAIN-SUFFIX,adsfilebssdlbig.ali.kugou.com # 酷狗广告资源域名
-DOMAIN-SUFFIX,adserviceretry.kugou.com # 酷狗广告接口域名
-DOMAIN-SUFFIX,ads.95516.com # 银联广告接口域名
-DOMAIN-SUFFIX,ads.inmobi.com # InMobi 广告平台域名
-DOMAIN-SUFFIX,ads.linkedin.com # LinkedIn 广告服务域名
-DOMAIN-SUFFIX,adsebs.ximalaya.com # 喜马拉雅广告上报域名
-DOMAIN-SUFFIX,adsdk.vivo.com.cn # vivo 广告 SDK 域名
-DOMAIN-SUFFIX,v.adx.hubcloud.com.cn # HubCloud 广告子域
-DOMAIN-SUFFIX,vungle.com # 移动广告平台域名
-DOMAIN-SUFFIX,webtrack.ad.intl.xiaomi.com # 小米广告追踪域名
-DOMAIN-SUFFIX,y.applovin.com # AppLovin 广告子域
-DOMAIN-SUFFIX,yeahmobi.com # 移动广告平台域名
-DOMAIN-SUFFIX,yes.youmi.net # 有米移动广告平台域名
-DOMAIN-SUFFIX,yt-adapter.bytedance.com # 字节广告接口域名
-DOMAIN-SUFFIX,zeus.adsprediction.com # 广告预测域名
-DOMAIN-SUFFIX,zeus.int.sigmob.net # Sigmob 广告预测域名
-DOMAIN-SUFFIX,zs.adfurikun.jp # Adfurikun 广告子域
-DOMAIN-SUFFIX,2mdn-cn.net # 2mdn 广告素材分发域名
-DOMAIN-SUFFIX,33across.com # 33Across 广告平台域名
-DOMAIN-SUFFIX,360yield.com # 360 Yield 广告平台域名
-DOMAIN-SUFFIX,3lift.com # TripleLift 广告平台域名
-DOMAIN-SUFFIX,a-ads.com # 广告平台域名
-DOMAIN-SUFFIX,acuityplatform.com # AcuityAds 广告平台域名
-DOMAIN-SUFFIX,ad-maven.com # AdMaven 广告平台域名
+DOMAIN-SUFFIX,po.funshion.com # 风行网广告域名
+DOMAIN-SUFFIX,m.cn.miaozhen.com # 秒针广告域名
+DOMAIN-SUFFIX,a.ads.rmbl.ws # Rumble 广告域名
+DOMAIN-SUFFIX,asc-a.hbwrapper.com # 广告域名
+DOMAIN-SUFFIX,api.hypelab.com # Hypelab 广告域名
+DOMAIN-SUFFIX,eus.rubiconproject.com # Rubicon 广告域名
+DOMAIN-SUFFIX,fastlane.rubiconproject.com # Rubicon 广告域名
+DOMAIN-SUFFIX,ap.lijit.com # Lijit 广告域名
+DOMAIN-SUFFIX,navvy.media.net # Media.net 广告域名
+DOMAIN-SUFFIX,prebid.media.net # Media.net 广告域名
+DOMAIN-SUFFIX,prg-apac.smartadserver.com # Smart AdServer 广告域名
+DOMAIN-SUFFIX,exchange.alkimi-onboarding.com # Alkimi 广告域名
+DOMAIN-SUFFIX,zz43641cpr.pub.tappx.com # Tappx 广告域名
+DOMAIN-SUFFIX,ms-cookie-sync.presage.io # Presage 广告域名
+DOMAIN-SUFFIX,mweb-hb.presage.io # Presage 广告域名
+DOMAIN-SUFFIX,p.teads.tv # Teads 广告域名
+DOMAIN-SUFFIX,a.mgid.com # MGID 广告域名
+DOMAIN-SUFFIX,apdcdn.tc.qq.com # 腾讯广告域名
+DOMAIN-SUFFIX,tsbdy.gtimg.com # 腾讯广告域名
+DOMAIN-SUFFIX,admaterial.gdtimg.com # 腾讯广告域名
+DOMAIN-SUFFIX,apps.rokt.com # Rokt 广告域名
+DOMAIN-SUFFIX,elb.the-ozone-project.com # Ozone 广告域名
+DOMAIN-SUFFIX,prebid.the-ozone-project.com # Ozone 广告域名
+DOMAIN-SUFFIX,applovin.com # AppLovin 广告域名
+DOMAIN-SUFFIX,iadsdk.apple.com # Apple 广告域名
+DOMAIN-SUFFIX,iad.apple.com # Apple 广告域名
+DOMAIN-SUFFIX,adashx.m.taobao.com # 淘宝广告域名
+DOMAIN-SUFFIX,atanx.alicdn.com # 阿里妈妈广告域名
+DOMAIN-SUFFIX,open-adash.alipay.com # 支付宝广告域名
+DOMAIN-SUFFIX,g-adashx.ut.taobao.com # 淘宝广告域名
+DOMAIN-SUFFIX,adash-c.ut.taobao.com # 淘宝广告域名
+DOMAIN-SUFFIX,adashx4yt.m.taobao.com # 淘宝广告域名
+DOMAIN-SUFFIX,track.alicdn.com # 阿里广告域名
+DOMAIN-SUFFIX,m-adash.cn-hangzhou.log.aliyuncs.com # 阿里广告域名
+DOMAIN-SUFFIX,wgo.mmstat.com # 阿里妈妈广告域名
+DOMAIN-SUFFIX,gum.criteo.com # Criteo 广告域名
+DOMAIN-SUFFIX,rtax.criteo.com # Criteo 广告域名
+DOMAIN-SUFFIX,bidder.criteo.com # Criteo 广告域名
+DOMAIN-SUFFIX,tracking.criteo.com # Criteo 广告域名
+DOMAIN-SUFFIX,delivery.criteo.com # Criteo 广告域名
+DOMAIN-SUFFIX,rlcdn.com # 广告域名
+DOMAIN-SUFFIX,pixel.rlcdn.com # LiveRamp 广告域名
+DOMAIN-SUFFIX,ads.rlcdn.com # LiveRamp 广告域名
+DOMAIN-SUFFIX,sync.rlcdn.com # LiveRamp 广告域名
+DOMAIN-SUFFIX,ads-i4.xhscdn.com # 小红书广告域名
+DOMAIN-SUFFIX,scripts.pubnation.com # PubNation 广告域名
+DOMAIN-SUFFIX,gtrace.mediago.io # MediaGo 广告域名
+DOMAIN-SUFFIX,gdtimg.com # 腾讯广告域名
+DOMAIN-SUFFIX,qzs.gdtimg.com # 腾讯广告域名
+DOMAIN-SUFFIX,union.gdtimg.com # 腾讯广告域名
+DOMAIN-SUFFIX,adnet.qq.com # 腾讯广告域名
+DOMAIN-SUFFIX,report.gdtimg.com # 腾讯广告域名
+DOMAIN-SUFFIX,sdk.gdtimg.com # 腾讯广告域名
+DOMAIN-SUFFIX,ads.qq.com # 腾讯广告域名
+DOMAIN-SUFFIX,tracking.gdtimg.com # 腾讯广告域名
+DOMAIN-SUFFIX,win.gdt.qq.com # 腾讯广告域名
+DOMAIN-SUFFIX,xc.gdt.qq.com # 腾讯广告域名
+DOMAIN-SUFFIX,rpt.gdt.qq.com # 腾讯广告域名
+DOMAIN-SUFFIX,c2.gdt.qq.com # 腾讯广告域名
+DOMAIN-SUFFIX,adsmind.gdtimg.com # 腾讯广告域名
+DOMAIN-SUFFIX,adsfile.qq.com # 腾讯广告域名
+DOMAIN-SUFFIX,adsmind.ugdtimg.com # 腾讯广告域名
+DOMAIN-SUFFIX,xs.l.qq.com # 腾讯广告域名
+DOMAIN-SUFFIX,wxsnsad.tc.qq.com # 微信广告域名
+DOMAIN-SUFFIX,wxsnsdy.tc.qq.com # 微信广告域名
+DOMAIN-SUFFIX,btlr.sharethrough.com # Sharethrough 广告域名
+DOMAIN-SUFFIX,rp.liadm.com # LIADM 广告域名
+DOMAIN-SUFFIX,i.liadm.com # LIADM 广告域名
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com # 穿山甲广告域名
+DOMAIN-SUFFIX,data.video.ptqy.gitv.tv # 爱奇艺广告域名
+DOMAIN-SUFFIX,sdk-cache.video.ptqy.gitv.tv # 爱奇艺广告域名
+DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv # 爱奇艺广告域名
+DOMAIN-SUFFIX,ads.raidrive.com # RaiDrive 广告域名
+DOMAIN-SUFFIX,adx.appsdk.com.cn # appsdk 广告域名
+DOMAIN-SUFFIX,adx-server.ad.cmvideo.cn # 咪咕广告域名
+DOMAIN-SUFFIX,adx-drcn.op.dbankcloud.cn # 华为广告域名
+DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn # vivo 广告域名
+DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com # 字节跳动广告域名
+DOMAIN-SUFFIX,advertising-api-fe.amazon.com # Amazon 广告域名
+DOMAIN-SUFFIX,ads.pubmatic.com # PubMatic 广告域名
+DOMAIN-SUFFIX,s.amazon-adsystem.com # Amazon 广告域名
+DOMAIN-SUFFIX,adcolony.com # AdColony 广告域名广告域名
+DOMAIN-SUFFIX,gemini.yahoo.com # Yahoo 广告域名
+DOMAIN-SUFFIX,advertising-api.amazon.com # Amazon 广告域名
+DOMAIN-SUFFIX,advertising.apple.com # Apple 广告域名
+DOMAIN-SUFFIX,bingads.microsoft.com # Microsoft 广告域名
+DOMAIN-SUFFIX,adservice.sigmob.cn # Sigmob 广告域名
+DOMAIN-SUFFIX,adx.ads.oppomobile.com # OPPO 广告域名
+DOMAIN-SUFFIX,adview.cn # AdView 广告域名
+DOMAIN-SUFFIX,advertising-api-eu.amazon.com # Amazon 广告域名
+DOMAIN-SUFFIX,ads.pinterest.com # Pinterest 广告域名
+DOMAIN-SUFFIX,ads.service.kugou.com # 酷狗广告域名
+DOMAIN-SUFFIX,res1.applovin.com # AppLovin 广告域名
+DOMAIN-SUFFIX,canvas-cdn.gdt.qq.com # 腾讯广告域名
+DOMAIN-SUFFIX,click.liftoff.io # Liftoff 广告域名
+DOMAIN-SUFFIX,click.chinaliftoff.io # Liftoff 广告域名
+DOMAIN-SUFFIX,cdn.liftoff-creatives.io # Liftoff 广告域名
+DOMAIN-SUFFIX,cdn.chinaliftoff-creatives.io # Liftoff 广告域名
+DOMAIN-SUFFIX,cbjs.baidu.com # 百度广告域名
+DOMAIN-SUFFIX,skdisplay.jd.com # 京东广告域名
+DOMAIN-SUFFIX,cdn-ad.wtzw.com # 广告域名
+DOMAIN-SUFFIX,cdn.ad.wtzw.com # 广告域名
+DOMAIN-SUFFIX,cn-api.anythinktech.com # AnyThink 广告域名
+DOMAIN-SUFFIX,ck.ads.oppomobile.com # OPPO 广告域名
+DOMAIN-SUFFIX,config.unityads.unity3d.com # Unity 广告域名
+DOMAIN-SUFFIX,data.ads.oppomobile.com # OPPO 广告域名
+DOMAIN-SUFFIX,edge.ads.twitch.tv # Twitch 广告域名
+DOMAIN-SUFFIX,litchiads.com # 荔枝广告域名
+DOMAIN-SUFFIX,mobads-logs.baidu.com # 百度广告域名
+DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com # 百度广告域名
+DOMAIN-SUFFIX,rt.applovin.com # AppLovin 广告域名
+DOMAIN-SUFFIX,rt.applvn.com # AppLovin 广告域名
+DOMAIN-SUFFIX,saad.ms.zhangyue.net # 掌阅广告域名
+DOMAIN-SUFFIX,impression-asia.chinaliftoff.io # Liftoff 广告域名
+DOMAIN-SUFFIX,impression-asia.liftoff.io # Liftoff 广告域名
+DOMAIN-SUFFIX,adserver.unityads.unity3d.com # Unity Ads 广告域名
+DOMAIN-SUFFIX,adsmart.konka.com # 康佳广告域名
+DOMAIN-SUFFIX,images.outbrainimg.com # Outbrain 广告域名
+DOMAIN-SUFFIX,adsfilebssdlbig.ali.kugou.com # 酷狗广告域名
+DOMAIN-SUFFIX,adserviceretry.kugou.com # 酷狗广告域名
+DOMAIN-SUFFIX,ads.95516.com # 银联广告域名
+DOMAIN-SUFFIX,ads.inmobi.com # InMobi 广告域名
+DOMAIN-SUFFIX,ads.linkedin.com # LinkedIn 广告域名
+DOMAIN-SUFFIX,adsebs.ximalaya.com # 喜马拉雅广告域名
+DOMAIN-SUFFIX,adsdk.vivo.com.cn # vivo 广告域名
+DOMAIN-SUFFIX,v.adx.hubcloud.com.cn # HubCloud 广告域名
+DOMAIN-SUFFIX,vungle.com # 移动广告域名
+DOMAIN-SUFFIX,webtrack.ad.intl.xiaomi.com # 小米广告域名
+DOMAIN-SUFFIX,y.applovin.com # AppLovin 广告域名
+DOMAIN-SUFFIX,yeahmobi.com # 移动广告域名
+DOMAIN-SUFFIX,yes.youmi.net # 有米移动广告域名
+DOMAIN-SUFFIX,yt-adapter.bytedance.com # 字节广告域名
+DOMAIN-SUFFIX,zeus.adsprediction.com # 广告域名
+DOMAIN-SUFFIX,zeus.int.sigmob.net # Sigmob 广告域名
+DOMAIN-SUFFIX,zs.adfurikun.jp # Adfurikun 广告域名
+DOMAIN-SUFFIX,2mdn-cn.net # 2mdn 广告域名
+DOMAIN-SUFFIX,33across.com # 33Across 广告域名
+DOMAIN-SUFFIX,360yield.com # 360 Yield 广告域名
+DOMAIN-SUFFIX,3lift.com # TripleLift 广告域名
+DOMAIN-SUFFIX,a-ads.com # 广告域名
+DOMAIN-SUFFIX,acuityplatform.com # AcuityAds 广告域名
+DOMAIN-SUFFIX,ad-maven.com # AdMaven 广告域名
 DOMAIN-SUFFIX,ad-score.com # 广告技术域名
-DOMAIN-SUFFIX,ad-stir.com # AdStir 广告平台域名
-DOMAIN-SUFFIX,ad.plus # Ad.Plus 广告平台域名
-DOMAIN-SUFFIX,ad4game.com # 游戏广告平台域名
-DOMAIN-SUFFIX,adacado.com # 广告平台域名
-DOMAIN-SUFFIX,adapex.io # 广告平台域名
-DOMAIN-SUFFIX,adbutler.com # 广告服务器域名
-DOMAIN-SUFFIX,adcash.com # 广告平台域名
-DOMAIN-SUFFIX,adikteev.com # 广告平台域名
-DOMAIN-SUFFIX,adkernel.com # AdKernel 广告技术平台域名
-DOMAIN-SUFFIX,admixer.net # Admixer 广告技术平台域名
-DOMAIN-SUFFIX,admost.com # 移动广告平台域名
-DOMAIN-SUFFIX,adnuntius.com # 广告技术平台域名
-DOMAIN-SUFFIX,adoperator.com # 广告平台域名
-DOMAIN-SUFFIX,adpushup.com # 广告平台域名
-DOMAIN-SUFFIX,adroll.com # AdRoll 广告平台域名
-DOMAIN-SUFFIX,adswizz.com # AdsWizz 音频广告平台域名
-DOMAIN-SUFFIX,adtelligent.com # Adtelligent 广告技术平台域名
-DOMAIN-SUFFIX,adsales.snidigital.com # 广告子域
-DOMAIN-SUFFIX,adsame.com # 广告平台域名
-DOMAIN-SUFFIX,adscale.de # 广告平台域名
-DOMAIN-SUFFIX,adsdk.bing.net # 广告 SDK 域名
-DOMAIN-SUFFIX,adsdk.microsoft.com # 广告 SDK 域名
-DOMAIN-SUFFIX,adserving.unibet.com # 广告投放子域
-DOMAIN-SUFFIX,adslot.com # 广告平台域名
-DOMAIN-SUFFIX,adspeed.com # 广告服务器域名
-DOMAIN-SUFFIX,adspeed.net # 广告服务器域名
-DOMAIN-SUFFIX,adsterra.com # 广告平台域名
-DOMAIN-SUFFIX,adsupply.com # 广告平台域名
-DOMAIN-SUFFIX,adtegrity.net # 广告平台域名
-DOMAIN-SUFFIX,adthrive.com # 广告平台域名
-DOMAIN-SUFFIX,adventori.com # 广告技术平台域名
-DOMAIN-SUFFIX,adversal.com # 广告平台域名
-DOMAIN-SUFFIX,alimama.com # 广告平台域名
-DOMAIN-SUFFIX,amazon-adsystem.com # 广告平台域名
-DOMAIN-SUFFIX,amobee.com # 广告平台域名
-DOMAIN-SUFFIX,aniview.com # 视频广告平台域名
-DOMAIN-SUFFIX,anzu.io # 游戏广告平台域名
-DOMAIN-SUFFIX,api.140proof.com # 广告平台接口域名
-DOMAIN-SUFFIX,appnext.com # 广告平台域名
-DOMAIN-SUFFIX,audioad.zenomedia.com # 音频广告平台接口域名
-DOMAIN-SUFFIX,auditude.com # 视频广告平台域名
-DOMAIN-SUFFIX,automatad.com # 广告平台域名
-DOMAIN-SUFFIX,avazu.net # 广告平台域名
-DOMAIN-SUFFIX,avazutracking.net # 广告追踪域名
-DOMAIN-SUFFIX,bidvertiser.com # 广告平台域名
-DOMAIN-SUFFIX,buysellads.com # 广告平台域名
-DOMAIN-SUFFIX,buysellads.net # 广告平台域名
-DOMAIN-SUFFIX,clickadu.com # 广告平台域名
-DOMAIN-SUFFIX,connexity.net # 广告平台域名
-DOMAIN-SUFFIX,criteo.net # 广告平台域名
-DOMAIN-SUFFIX,districtm.io # 广告平台域名
-DOMAIN-SUFFIX,doubleclick.com # 广告平台域名
-DOMAIN-SUFFIX,flashtalking.com # 广告平台域名
-DOMAIN-SUFFIX,mozoo.com # 广告平台域名
-DOMAIN-SUFFIX,n.gemini.yahoo.com # Yahoo 广告平台子域
-DOMAIN-SUFFIX,optad360.io # 广告平台域名
-DOMAIN-SUFFIX,optad360.net # 广告平台域名
-DOMAIN-SUFFIX,paid.outbrain.com # 内容推荐广告子域
-DOMAIN-SUFFIX,pips.taboola.com # 内容推荐广告子域
-DOMAIN-SUFFIX,popads.media # 广告平台域名
-DOMAIN-SUFFIX,popads.net # 广告平台域名
-DOMAIN-SUFFIX,powerlinks.com # 广告平台域名
-DOMAIN-SUFFIX,propeller-tracking.com # 广告追踪域名
-DOMAIN-SUFFIX,propellerads.com # 广告平台域名
-DOMAIN-SUFFIX,pushnami.com # 推送广告平台域名
-DOMAIN-SUFFIX,revcontent.com # 内容推荐广告平台域名
+DOMAIN-SUFFIX,ad-stir.com # AdStir 广告域名
+DOMAIN-SUFFIX,ad.plus # Ad.Plus 广告域名
+DOMAIN-SUFFIX,ad4game.com # 游戏广告域名
+DOMAIN-SUFFIX,adacado.com # 广告域名
+DOMAIN-SUFFIX,adapex.io # 广告域名
+DOMAIN-SUFFIX,adbutler.com # 广告域名
+DOMAIN-SUFFIX,adcash.com # 广告域名
+DOMAIN-SUFFIX,adikteev.com # 广告域名
+DOMAIN-SUFFIX,adkernel.com # AdKernel 广告域名
+DOMAIN-SUFFIX,admixer.net # Admixer 广告域名
+DOMAIN-SUFFIX,admost.com # 移动广告域名
+DOMAIN-SUFFIX,adnuntius.com # 广告域名
+DOMAIN-SUFFIX,adoperator.com # 广告域名
+DOMAIN-SUFFIX,adpushup.com # 广告域名
+DOMAIN-SUFFIX,adroll.com # AdRoll 广告域名
+DOMAIN-SUFFIX,adswizz.com # AdsWizz 音频广告域名
+DOMAIN-SUFFIX,adtelligent.com # Adtelligent 广告域名
+DOMAIN-SUFFIX,adsales.snidigital.com # 广告域名
+DOMAIN-SUFFIX,adsame.com # 广告域名
+DOMAIN-SUFFIX,adscale.de # 广告域名
+DOMAIN-SUFFIX,adsdk.bing.net # 广告域名
+DOMAIN-SUFFIX,adsdk.microsoft.com # 广告域名
+DOMAIN-SUFFIX,adserving.unibet.com # 广告域名
+DOMAIN-SUFFIX,adslot.com # 广告域名
+DOMAIN-SUFFIX,adspeed.com # 广告域名
+DOMAIN-SUFFIX,adspeed.net # 广告域名
+DOMAIN-SUFFIX,adsterra.com # 广告域名
+DOMAIN-SUFFIX,adsupply.com # 广告域名
+DOMAIN-SUFFIX,adtegrity.net # 广告域名
+DOMAIN-SUFFIX,adthrive.com # 广告域名
+DOMAIN-SUFFIX,adventori.com # 广告域名
+DOMAIN-SUFFIX,adversal.com # 广告域名
+DOMAIN-SUFFIX,alimama.com # 广告域名
+DOMAIN-SUFFIX,amazon-adsystem.com # 广告域名
+DOMAIN-SUFFIX,amobee.com # 广告域名
+DOMAIN-SUFFIX,aniview.com # 广告域名
+DOMAIN-SUFFIX,anzu.io # 游戏广告域名
+DOMAIN-SUFFIX,api.140proof.com # 广告域名
+DOMAIN-SUFFIX,appnext.com # 广告域名
+DOMAIN-SUFFIX,audioad.zenomedia.com # 音频广告域名
+DOMAIN-SUFFIX,auditude.com # 广告域名
+DOMAIN-SUFFIX,automatad.com # 广告域名
+DOMAIN-SUFFIX,avazu.net # 广告域名
+DOMAIN-SUFFIX,avazutracking.net # 广告域名
+DOMAIN-SUFFIX,bidvertiser.com # 广告域名
+DOMAIN-SUFFIX,buysellads.com # 广告域名
+DOMAIN-SUFFIX,buysellads.net # 广告域名
+DOMAIN-SUFFIX,clickadu.com # 广告域名
+DOMAIN-SUFFIX,connexity.net # 广告域名
+DOMAIN-SUFFIX,criteo.net # 广告域名
+DOMAIN-SUFFIX,districtm.io # 广告域名
+DOMAIN-SUFFIX,doubleclick.com # 广告域名
+DOMAIN-SUFFIX,flashtalking.com # 广告域名
+DOMAIN-SUFFIX,mozoo.com # 广告域名
+DOMAIN-SUFFIX,n.gemini.yahoo.com # Yahoo 广告域名
+DOMAIN-SUFFIX,optad360.io # 广告域名
+DOMAIN-SUFFIX,optad360.net # 广告域名
+DOMAIN-SUFFIX,paid.outbrain.com # 广告域名
+DOMAIN-SUFFIX,pips.taboola.com # 广告域名
+DOMAIN-SUFFIX,popads.media # 广告域名
+DOMAIN-SUFFIX,popads.net # 广告域名
+DOMAIN-SUFFIX,powerlinks.com # 广告域名
+DOMAIN-SUFFIX,propeller-tracking.com # 广告域名
+DOMAIN-SUFFIX,propellerads.com # 广告域名
+DOMAIN-SUFFIX,pushnami.com # 推送广告域名
+DOMAIN-SUFFIX,revcontent.com # 广告域名
 DOMAIN-SUFFIX,revrtb.net # 广告竞价平台域名
-DOMAIN-SUFFIX,seedtag.com # 广告平台域名
-DOMAIN-SUFFIX,sekindo.com # 广告平台域名
-DOMAIN-SUFFIX,setupad.net # 广告平台域名
-DOMAIN-SUFFIX,sonobi.com # 广告平台域名
-DOMAIN-SUFFIX,sponsormob.com # 移动广告平台域名
-DOMAIN-SUFFIX,sponsorpay.com # 激励广告平台域名
-DOMAIN-SUFFIX,spotx.tv # 视频广告平台域名
-DOMAIN-SUFFIX,spotxcdn.com # 广告资源域名
-DOMAIN-SUFFIX,spotxchange.com # 视频广告平台域名
-DOMAIN-SUFFIX,springserve.com # 广告服务器域名
-DOMAIN-SUFFIX,stackadapt.com # 广告平台域名
-DOMAIN-SUFFIX,taboola.com # 内容推荐广告平台域名
-DOMAIN-SUFFIX,tacoda.net # 广告数据平台域名
-DOMAIN-SUFFIX,tapjoyads.com # 移动广告平台域名
-DOMAIN-SUFFIX,targeting.vdo.ai # 视频广告子域
-DOMAIN-SUFFIX,targetspot.com # 音频广告平台域名
-DOMAIN-SUFFIX,trackvoluum.com # 广告追踪域名
-DOMAIN-SUFFIX,trafficfactory.biz # 广告平台域名
-DOMAIN-SUFFIX,trafficjunky.com # 广告平台域名
-DOMAIN-SUFFIX,trafficstars.com # 广告平台域名
-DOMAIN-SUFFIX,tribalfusion.com # 广告平台域名
-DOMAIN-SUFFIX,triplelift.com # 广告平台域名
-DOMAIN-SUFFIX,valueclick.cc # 广告平台域名
-DOMAIN-SUFFIX,valueclick.com # 广告平台域名
-DOMAIN-SUFFIX,valueclickmedia.com # 广告平台域名
-DOMAIN-SUFFIX,xad.com # 广告平台域名
-DOMAIN-SUFFIX,yieldmo.com # 广告平台域名
-DOMAIN-SUFFIX,yllix.com # 广告平台域名
-DOMAIN-SUFFIX,yoc-adserver.com # 广告服务器域名
-DOMAIN-SUFFIX,adn.lrb.co.uk # 站点广告子域
-DOMAIN-SUFFIX,adnet.asahi.com # 站点广告子域
-DOMAIN-SUFFIX,adnews.maddog2000.de # 站点广告子域
-DOMAIN-SUFFIX,ads-backend.chaincliq.com # 站点广告子域
-DOMAIN-SUFFIX,ads-dev.pinterest.com # 站点广告子域
-DOMAIN-SUFFIX,ads-img.mozilla.org # 站点广告子域
-DOMAIN-SUFFIX,ads-portal-cdn.vidaatv.net # 站点广告子域
-DOMAIN-SUFFIX,ads-trk.vidible.tv # 站点广告子域
-DOMAIN-SUFFIX,ads.365.mk # 站点广告子域
-DOMAIN-SUFFIX,ads.5ci.lt # 站点广告子域
-DOMAIN-SUFFIX,ads.73dpi.com # 站点广告子域
-DOMAIN-SUFFIX,ads.aavv.com # 站点广告子域
-DOMAIN-SUFFIX,ads.abovetopsecret.com # 站点广告子域
-DOMAIN-SUFFIX,ads.aceweb.net # 站点广告子域
-DOMAIN-SUFFIX,ads.acpc.cat # 站点广告子域
-DOMAIN-SUFFIX,ads.acrosspf.com # 站点广告子域
-DOMAIN-SUFFIX,ads.activestate.com # 站点广告子域
-DOMAIN-SUFFIX,ads.adfox.ru # 站点广告子域
-DOMAIN-SUFFIX,ads.administrator.de # 站点广告子域
-DOMAIN-SUFFIX,ads.adred.de # 站点广告子域
-DOMAIN-SUFFIX,ads.adstream.com.ro # 站点广告子域
-DOMAIN-SUFFIX,ads.advance.net # 站点广告子域
-DOMAIN-SUFFIX,ads.adverline.com # 站点广告子域
-DOMAIN-SUFFIX,ads.alive.com # 站点广告子域
-DOMAIN-SUFFIX,ads.alt.com # 站点广告子域
-DOMAIN-SUFFIX,ads.amdmb.com # 站点广告子域
-DOMAIN-SUFFIX,ads.amigos.com # 站点广告子域
-DOMAIN-SUFFIX,ads.annabac.com # 站点广告子域
-DOMAIN-SUFFIX,ads.apn.co.nz # 站点广告子域
-DOMAIN-SUFFIX,ads.appsgeyser.com # 站点广告子域
-DOMAIN-SUFFIX,ads.as4x.tmcs.net # 站点广告子域
-DOMAIN-SUFFIX,ads.as4x.tmcs.ticketmaster.com # 站点广告子域
-DOMAIN-SUFFIX,ads.asiafriendfinder.com # 站点广告子域
-DOMAIN-SUFFIX,ads.avazu.net # 站点广告子域
-DOMAIN-SUFFIX,ads.bb59.ru # 站点广告子域
-DOMAIN-SUFFIX,ads.bigchurch.com # 站点广告子域
-DOMAIN-SUFFIX,ads.bigfoot.com # 站点广告子域
-DOMAIN-SUFFIX,ads.bing.com # 站点广告子域
-DOMAIN-SUFFIX,ads.bittorrent.com # 站点广告子域
-DOMAIN-SUFFIX,ads.blog.com # 站点广告子域
-DOMAIN-SUFFIX,ads.bluemountain.com # 站点广告子域
-DOMAIN-SUFFIX,ads.boerding.com # 站点广告子域
-DOMAIN-SUFFIX,ads.boylesports.com # 站点广告子域
-DOMAIN-SUFFIX,ads.brabys.com # 站点广告子域
-DOMAIN-SUFFIX,ads.canalblog.com # 站点广告子域
-DOMAIN-SUFFIX,ads.casinocity.com # 站点广告子域
-DOMAIN-SUFFIX,ads.casumoaffiliates.com # 站点广告子域
-DOMAIN-SUFFIX,ads.cbc.ca # 站点广告子域
-DOMAIN-SUFFIX,ads.cc-dt.com # 站点广告子域
-DOMAIN-SUFFIX,ads.centraliprom.com # 站点广告子域
-DOMAIN-SUFFIX,ads.channel4.com # 站点广告子域
-DOMAIN-SUFFIX,ads.cheabit.com # 站点广告子域
-DOMAIN-SUFFIX,ads.citymagazine.si # 站点广告子域
-DOMAIN-SUFFIX,ads.clasificadox.com # 站点广告子域
-DOMAIN-SUFFIX,ads.co.com # 站点广告子域
-DOMAIN-SUFFIX,ads.colombiaonline.com # 站点广告子域
-DOMAIN-SUFFIX,ads.com.com # 站点广告子域
-DOMAIN-SUFFIX,ads.comeon.com # 站点广告子域
-DOMAIN-SUFFIX,ads.creative-serving.com # 站点广告子域
-DOMAIN-SUFFIX,ads.cybersales.cz # 站点广告子域
-DOMAIN-SUFFIX,ads.dada.it # 站点广告子域
-DOMAIN-SUFFIX,ads.dailycamera.com # 站点广告子域
-DOMAIN-SUFFIX,ads.deltha.hu # 站点广告子域
-DOMAIN-SUFFIX,ads.dennisnet.co.uk # 站点广告子域
-DOMAIN-SUFFIX,ads.desmoinesregister.com # 站点广告子域
-DOMAIN-SUFFIX,ads.deviantart.com # 站点广告子域
-DOMAIN-SUFFIX,ads.digital-digest.com # 站点广告子域
-DOMAIN-SUFFIX,ads.digitalmedianet.com # 站点广告子域
-DOMAIN-SUFFIX,ads.digitalpoint.com # 站点广告子域
-DOMAIN-SUFFIX,ads.doit.com.cn # 站点广告子域
-DOMAIN-SUFFIX,ebayadvertising.com # 广告平台域名
-DOMAIN-SUFFIX,fastclick.com # 广告追踪域名
-DOMAIN-SUFFIX,fastclick.com.edgesuite.net # 广告资源域名
-DOMAIN-SUFFIX,knorex.com # 广告平台域名
-DOMAIN-SUFFIX,krxd.net # 广告数据平台域名
-DOMAIN-SUFFIX,ligatus.de # 广告平台域名
-DOMAIN-SUFFIX,linkvertise.com # 广告平台域名
-DOMAIN-SUFFIX,liveintent.com # 广告平台域名
-DOMAIN-SUFFIX,lkqd.com # 视频广告平台域名
-DOMAIN-SUFFIX,loopme.com # 广告平台域名
-DOMAIN-SUFFIX,marketingsolutions.yahoo.com # Yahoo 广告子域
-DOMAIN-SUFFIX,mediamath.com # 广告平台域名
-DOMAIN-SUFFIX,mediasmart.io # 广告平台域名
-DOMAIN-SUFFIX,metadsp.co.uk # 广告平台域名
-DOMAIN-SUFFIX,mintegral.com # 广告平台域名
-DOMAIN-SUFFIX,mobclix.com # 移动广告平台域名
-DOMAIN-SUFFIX,mobfox.com # 移动广告平台域名
-DOMAIN-SUFFIX,mobilefuse.com # 移动广告平台域名
-DOMAIN-SUFFIX,navegg.com # 广告数据平台域名
-DOMAIN-SUFFIX,nend.net # 广告平台域名
-DOMAIN-SUFFIX,newopenx.detik.com # OpenX 广告投放子域
-DOMAIN-SUFFIX,ng3.ads.warnerbros.com # 站点广告子域
-DOMAIN-SUFFIX,offer.fyber.com # 广告平台子域
-DOMAIN-SUFFIX,offer.sponsorpay.com # 激励广告平台子域
-DOMAIN-SUFFIX,ogury.com # 广告平台域名
-DOMAIN-SUFFIX,openad.tf1.fr # 广告投放子域
-DOMAIN-SUFFIX,openad.travelnow.com # 广告投放子域
-DOMAIN-SUFFIX,openads.friendfinder.com # 广告投放子域
-DOMAIN-SUFFIX,openbid.pubmatic.com # 广告竞价子域
-DOMAIN-SUFFIX,openx.angelsgroup.org.uk # OpenX 广告投放子域
-DOMAIN-SUFFIX,openx.cairo360.com # OpenX 广告投放子域
-DOMAIN-SUFFIX,openx.skinet.cz # OpenX 广告投放子域
-DOMAIN-SUFFIX,openx.smcaen.fr # OpenX 广告投放子域
-DOMAIN-SUFFIX,openx2.kytary.cz # OpenX 广告投放子域
-DOMAIN-SUFFIX,ow.pubmatic.com # 广告竞价子域
-DOMAIN-SUFFIX,owneriq.net # 广告数据平台域名
-DOMAIN-SUFFIX,paa-reporting-advertising.amazon # Amazon 广告子域
-DOMAIN-SUFFIX,permutive.com # 广告数据平台域名
-DOMAIN-SUFFIX,personagraph.com # 广告数据平台域名
-DOMAIN-SUFFIX,pixel.sojern.com # 广告追踪子域
-DOMAIN-SUFFIX,pokkt.com # 移动广告平台域名
-DOMAIN-SUFFIX,servedby-buysellads.com # 广告分发域名
-DOMAIN-SUFFIX,sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws # 广告分发域名
-DOMAIN-SUFFIX,7s-d309b5b93ece4e188e0aa4e9c7906f0f.ecs.us-west-1.on.aws # 广告分发域名
-DOMAIN-SUFFIX,ca-5c7c10a9949e4b3b90178c8d5794a519.ecs.eu-west-1.on.aws # 广告分发域名
+DOMAIN-SUFFIX,seedtag.com # 广告域名
+DOMAIN-SUFFIX,sekindo.com # 广告域名
+DOMAIN-SUFFIX,setupad.net # 广告域名
+DOMAIN-SUFFIX,sonobi.com # 广告域名
+DOMAIN-SUFFIX,sponsormob.com # 移动广告域名
+DOMAIN-SUFFIX,sponsorpay.com # 激励广告域名
+DOMAIN-SUFFIX,spotx.tv # 广告域名
+DOMAIN-SUFFIX,spotxcdn.com # 广告域名
+DOMAIN-SUFFIX,spotxchange.com # 广告域名
+DOMAIN-SUFFIX,springserve.com # 广告域名
+DOMAIN-SUFFIX,stackadapt.com # 广告域名
+DOMAIN-SUFFIX,taboola.com # 广告域名
+DOMAIN-SUFFIX,tacoda.net # 广告域名
+DOMAIN-SUFFIX,tapjoyads.com # 移动广告域名
+DOMAIN-SUFFIX,targeting.vdo.ai # 广告域名
+DOMAIN-SUFFIX,targetspot.com # 音频广告域名
+DOMAIN-SUFFIX,trackvoluum.com # 广告域名
+DOMAIN-SUFFIX,trafficfactory.biz # 广告域名
+DOMAIN-SUFFIX,trafficjunky.com # 广告域名
+DOMAIN-SUFFIX,trafficstars.com # 广告域名
+DOMAIN-SUFFIX,tribalfusion.com # 广告域名
+DOMAIN-SUFFIX,triplelift.com # 广告域名
+DOMAIN-SUFFIX,valueclick.cc # 广告域名
+DOMAIN-SUFFIX,valueclick.com # 广告域名
+DOMAIN-SUFFIX,valueclickmedia.com # 广告域名
+DOMAIN-SUFFIX,xad.com # 广告域名
+DOMAIN-SUFFIX,yieldmo.com # 广告域名
+DOMAIN-SUFFIX,yllix.com # 广告域名
+DOMAIN-SUFFIX,yoc-adserver.com # 广告域名
+DOMAIN-SUFFIX,adn.lrb.co.uk # 广告域名
+DOMAIN-SUFFIX,adnet.asahi.com # 广告域名
+DOMAIN-SUFFIX,adnews.maddog2000.de # 广告域名
+DOMAIN-SUFFIX,ads-backend.chaincliq.com # 广告域名
+DOMAIN-SUFFIX,ads-dev.pinterest.com # 广告域名
+DOMAIN-SUFFIX,ads-img.mozilla.org # 广告域名
+DOMAIN-SUFFIX,ads-portal-cdn.vidaatv.net # 广告域名
+DOMAIN-SUFFIX,ads-trk.vidible.tv # 广告域名
+DOMAIN-SUFFIX,ads.365.mk # 广告域名
+DOMAIN-SUFFIX,ads.5ci.lt # 广告域名
+DOMAIN-SUFFIX,ads.73dpi.com # 广告域名
+DOMAIN-SUFFIX,ads.aavv.com # 广告域名
+DOMAIN-SUFFIX,ads.abovetopsecret.com # 广告域名
+DOMAIN-SUFFIX,ads.aceweb.net # 广告域名
+DOMAIN-SUFFIX,ads.acpc.cat # 广告域名
+DOMAIN-SUFFIX,ads.acrosspf.com # 广告域名
+DOMAIN-SUFFIX,ads.activestate.com # 广告域名
+DOMAIN-SUFFIX,ads.adfox.ru # 广告域名
+DOMAIN-SUFFIX,ads.administrator.de # 广告域名
+DOMAIN-SUFFIX,ads.adred.de # 广告域名
+DOMAIN-SUFFIX,ads.adstream.com.ro # 广告域名
+DOMAIN-SUFFIX,ads.advance.net # 广告域名
+DOMAIN-SUFFIX,ads.adverline.com # 广告域名
+DOMAIN-SUFFIX,ads.alive.com # 广告域名
+DOMAIN-SUFFIX,ads.alt.com # 广告域名
+DOMAIN-SUFFIX,ads.amdmb.com # 广告域名
+DOMAIN-SUFFIX,ads.amigos.com # 广告域名
+DOMAIN-SUFFIX,ads.annabac.com # 广告域名
+DOMAIN-SUFFIX,ads.apn.co.nz # 广告域名
+DOMAIN-SUFFIX,ads.appsgeyser.com # 广告域名
+DOMAIN-SUFFIX,ads.as4x.tmcs.net # 广告域名
+DOMAIN-SUFFIX,ads.as4x.tmcs.ticketmaster.com # 广告域名
+DOMAIN-SUFFIX,ads.asiafriendfinder.com # 广告域名
+DOMAIN-SUFFIX,ads.avazu.net # 广告域名
+DOMAIN-SUFFIX,ads.bb59.ru # 广告域名
+DOMAIN-SUFFIX,ads.bigchurch.com # 广告域名
+DOMAIN-SUFFIX,ads.bigfoot.com # 广告域名
+DOMAIN-SUFFIX,ads.bing.com # 广告域名
+DOMAIN-SUFFIX,ads.bittorrent.com # 广告域名
+DOMAIN-SUFFIX,ads.blog.com # 广告域名
+DOMAIN-SUFFIX,ads.bluemountain.com # 广告域名
+DOMAIN-SUFFIX,ads.boerding.com # 广告域名
+DOMAIN-SUFFIX,ads.boylesports.com # 广告域名
+DOMAIN-SUFFIX,ads.brabys.com # 广告域名
+DOMAIN-SUFFIX,ads.canalblog.com # 广告域名
+DOMAIN-SUFFIX,ads.casinocity.com # 广告域名
+DOMAIN-SUFFIX,ads.casumoaffiliates.com # 广告域名
+DOMAIN-SUFFIX,ads.cbc.ca # 广告域名
+DOMAIN-SUFFIX,ads.cc-dt.com # 广告域名
+DOMAIN-SUFFIX,ads.centraliprom.com # 广告域名
+DOMAIN-SUFFIX,ads.channel4.com # 广告域名
+DOMAIN-SUFFIX,ads.cheabit.com # 广告域名
+DOMAIN-SUFFIX,ads.citymagazine.si # 广告域名
+DOMAIN-SUFFIX,ads.clasificadox.com # 广告域名
+DOMAIN-SUFFIX,ads.co.com # 广告域名
+DOMAIN-SUFFIX,ads.colombiaonline.com # 广告域名
+DOMAIN-SUFFIX,ads.com.com # 广告域名
+DOMAIN-SUFFIX,ads.comeon.com # 广告域名
+DOMAIN-SUFFIX,ads.creative-serving.com # 广告域名
+DOMAIN-SUFFIX,ads.cybersales.cz # 广告域名
+DOMAIN-SUFFIX,ads.dada.it # 广告域名
+DOMAIN-SUFFIX,ads.dailycamera.com # 广告域名
+DOMAIN-SUFFIX,ads.deltha.hu # 广告域名
+DOMAIN-SUFFIX,ads.dennisnet.co.uk # 广告域名
+DOMAIN-SUFFIX,ads.desmoinesregister.com # 广告域名
+DOMAIN-SUFFIX,ads.deviantart.com # 广告域名
+DOMAIN-SUFFIX,ads.digital-digest.com # 广告域名
+DOMAIN-SUFFIX,ads.digitalmedianet.com # 广告域名
+DOMAIN-SUFFIX,ads.digitalpoint.com # 广告域名
+DOMAIN-SUFFIX,ads.doit.com.cn # 广告域名
+DOMAIN-SUFFIX,ebayadvertising.com # 广告域名
+DOMAIN-SUFFIX,fastclick.com # 广告域名
+DOMAIN-SUFFIX,fastclick.com.edgesuite.net # 广告域名
+DOMAIN-SUFFIX,knorex.com # 广告域名
+DOMAIN-SUFFIX,krxd.net # 广告域名
+DOMAIN-SUFFIX,ligatus.de # 广告域名
+DOMAIN-SUFFIX,linkvertise.com # 广告域名
+DOMAIN-SUFFIX,liveintent.com # 广告域名
+DOMAIN-SUFFIX,lkqd.com # 广告域名
+DOMAIN-SUFFIX,loopme.com # 广告域名
+DOMAIN-SUFFIX,marketingsolutions.yahoo.com # Yahoo 广告域名
+DOMAIN-SUFFIX,mediamath.com # 广告域名
+DOMAIN-SUFFIX,mediasmart.io # 广告域名
+DOMAIN-SUFFIX,metadsp.co.uk # 广告域名
+DOMAIN-SUFFIX,mintegral.com # 广告域名
+DOMAIN-SUFFIX,mobclix.com # 移动广告域名
+DOMAIN-SUFFIX,mobfox.com # 移动广告域名
+DOMAIN-SUFFIX,mobilefuse.com # 移动广告域名
+DOMAIN-SUFFIX,navegg.com # 广告域名
+DOMAIN-SUFFIX,nend.net # 广告域名
+DOMAIN-SUFFIX,newopenx.detik.com # OpenX 广告域名
+DOMAIN-SUFFIX,ng3.ads.warnerbros.com # 广告域名
+DOMAIN-SUFFIX,offer.fyber.com # 广告域名
+DOMAIN-SUFFIX,offer.sponsorpay.com # 激励广告域名
+DOMAIN-SUFFIX,ogury.com # 广告域名
+DOMAIN-SUFFIX,openad.tf1.fr # 广告域名
+DOMAIN-SUFFIX,openad.travelnow.com # 广告域名
+DOMAIN-SUFFIX,openads.friendfinder.com # 广告域名
+DOMAIN-SUFFIX,openbid.pubmatic.com # 广告域名
+DOMAIN-SUFFIX,openx.angelsgroup.org.uk # OpenX 广告域名
+DOMAIN-SUFFIX,openx.cairo360.com # OpenX 广告域名
+DOMAIN-SUFFIX,openx.skinet.cz # OpenX 广告域名
+DOMAIN-SUFFIX,openx.smcaen.fr # OpenX 广告域名
+DOMAIN-SUFFIX,openx2.kytary.cz # OpenX 广告域名
+DOMAIN-SUFFIX,ow.pubmatic.com # 广告域名
+DOMAIN-SUFFIX,owneriq.net # 广告域名
+DOMAIN-SUFFIX,paa-reporting-advertising.amazon # Amazon 广告域名
+DOMAIN-SUFFIX,permutive.com # 广告域名
+DOMAIN-SUFFIX,personagraph.com # 广告域名
+DOMAIN-SUFFIX,pixel.sojern.com # 广告域名
+DOMAIN-SUFFIX,pokkt.com # 移动广告域名
+DOMAIN-SUFFIX,servedby-buysellads.com # 广告域名
+DOMAIN-SUFFIX,sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws # 广告域名
+DOMAIN-SUFFIX,7s-d309b5b93ece4e188e0aa4e9c7906f0f.ecs.us-west-1.on.aws # 广告域名
+DOMAIN-SUFFIX,ca-5c7c10a9949e4b3b90178c8d5794a519.ecs.eu-west-1.on.aws # 广告域名
