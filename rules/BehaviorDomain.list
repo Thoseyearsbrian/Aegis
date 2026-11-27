@@ -1133,3 +1133,8 @@ DOMAIN-SUFFIX,g594253006.co # Geo Targetly 用户地理位置采集与定向脚�
 # - 更新时间：2026-11-27
 
 DOMAIN-SUFFIX,microapps.bigcommerce.com # BigCommerce 电商用户行为分析与事件采集脚本域名
+
+# > Shogun 相关域名
+# - 更新时间：2026-11-27
+
+DOMAIN-SUFFIX,shgcdn3.com # Shogun 用户行为分析与事件采集服务域名
