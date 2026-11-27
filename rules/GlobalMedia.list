@@ -5,7 +5,7 @@
 # - 说明：YouTube 域名已迁移至 Google.list 统一管理
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-13
+# - 更新时间：2026-11-27
 
 # > TikTok / ByteDance Platform Infrastructure（TikTok 与字节跳动平台通信基础设施）
 
@@ -276,3 +276,8 @@ DOMAIN-SUFFIX,vimeo.bynder.com # Vimeo 与 Bynder 品牌管理平台集成域名
 DOMAIN-SUFFIX,vimeocdn.com # Vimeo 官方媒体内容分发网络主域，用于视频与静态资源加速
 DOMAIN-SUFFIX,player.vimeo.com # Vimeo 嵌入式播放器域名，用于加载 iframe 视频播放器组件 
 DOMAIN-SUFFIX,extend.vimeocdn.com # Vimeo 官方视频内容分发 CDN，用于嵌入式视频播放与媒体资源加载 
+
+# > rednote（小红书国际版）相关域名
+# - 更新时间：2026-11-27
+
+DOMAIN-SUFFIX,rednote.com # 小红书国际版官方服务域名
