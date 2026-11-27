@@ -709,6 +709,7 @@ DOMAIN-SUFFIX,mmg.whatsapp.net # 媒体网关域名
 DOMAIN-SUFFIX,web.whatsapp.com # Web 入口域名
 DOMAIN-SUFFIX,chat.whatsapp.com # 群组邀请域名
 DOMAIN-SUFFIX,wa.me # WhatsApp 即时通信短链接服务域名
+DOMAIN-SUFFIX,whatsappbusiness.com # WhatsApp 企业即时通信与商业消息服务域名
 
 # > Instagram Photo Social Platform（Instagram 图片社交平台）
 # - 校对时间：2026-03-28
