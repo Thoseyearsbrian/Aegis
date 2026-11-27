@@ -5,8 +5,8 @@
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-20
-# - 校对时间：2026-11-20
+# - 更新时间：2026-11-27
+# - 校对时间：2026-11-27
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-10-16
@@ -761,3 +761,8 @@ DOMAIN-SUFFIX,static.pixpix.media # PixTV 平台共享静态资源域名
 # - 更新时间：2026-11-20
 
 DOMAIN-SUFFIX,contralabs.com # Contra Labs 创意 AI 模型评估与人类数据研究服务域名
+
+# > T3 Code 相关域名
+# - 更新时间：2026-11-26
+
+DOMAIN-SUFFIX,t3.codes # T3 Code 开源 AI 编程智能体管理平台域名
