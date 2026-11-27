@@ -11547,6 +11547,11 @@ DOMAIN-SUFFIX,anyns.io # AnyNS 权威 DNS 托管与域名解析服务域名
 
 DOMAIN-SUFFIX,shgcdn2.com # Shogun 前端静态资源 CDN 域名
 
+# > BigCommerce 相关域名
+# - 更新时间：2026-11-27
+
+DOMAIN-SUFFIX,bigcommerce.com # BigCommerce 电商平台与 CDN 资源分发服务域名
+
 # > Aman（安缦酒店）相关域名
 # - 更新时间：2026-11-27
 
