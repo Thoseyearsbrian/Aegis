@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-26
-# - 校对时间：2026-11-26
+# - 更新时间：2026-11-27
+# - 校对时间：2026-11-27
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11667,6 +11667,11 @@ DOMAIN-SUFFIX,banyantree.com # 悦榕庄酒店域名
 # - 更新时间：2026-11-25
 
 DOMAIN-SUFFIX,luxresorts.com # 美誉酒店域名
+
+# > Winc 相关域名
+# - 更新时间：2026-11-26
+
+DOMAIN-SUFFIX,winc.si # Winc 代码编辑器域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-10-20
