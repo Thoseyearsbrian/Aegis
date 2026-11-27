@@ -11542,6 +11542,11 @@ DOMAIN-SUFFIX,launchgiftcards.com # 数字礼品卡购买与发送服务域名
 
 DOMAIN-SUFFIX,anyns.io # AnyNS 权威 DNS 托管与域名解析服务域名
 
+# > Shogun 相关域名
+# - 更新时间：2026-11-27
+
+DOMAIN-SUFFIX,shgcdn2.com # Shogun 前端静态资源 CDN 域名
+
 # > Aman（安缦酒店）相关域名
 # - 更新时间：2026-11-27
 
