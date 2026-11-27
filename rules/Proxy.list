@@ -852,7 +852,7 @@ DOMAIN-SUFFIX,identity.ticketmaster.com # 登录服务域名
 DOMAIN-SUFFIX,app.ticketmaster.com # 应用服务域名
 
 # > Facebook Social Platform（Facebook 社交平台）
-# - 校对时间：2026-05-28
+# - 校对时间：2026-11-27
 
 DOMAIN-SUFFIX,facebook.com # 平台主域名
 DOMAIN-SUFFIX,fb.com # 短链接域名
@@ -879,6 +879,7 @@ DOMAIN-SUFFIX,about.fb.com # 资讯站点域名
 DOMAIN-SUFFIX,newsroom.fb.com # 新闻站点域名
 DOMAIN-SUFFIX,research.fb.com # 研究站点域名
 DOMAIN-SUFFIX,facebookmail.com # 邮件服务域名
+DOMAIN-SUFFIX,metacareers.com # Meta 官方招聘与职业发展服务域名
 
 # > Messenger Instant Messaging Platform（Messenger 即时通信平台）
 # - 校对时间：2026-03-28
