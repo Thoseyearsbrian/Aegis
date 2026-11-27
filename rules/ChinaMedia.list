@@ -534,6 +534,7 @@ IP-CIDR,120.220.18.170/32 # 抖音直播内容分发节点（lf85-webcast-cdn-to
 IP-CIDR,120.226.71.137/32 # 抖音视频点播 CDN 节点（v6-cold1.douyinvod.com）
 IP-CIDR,121.204.250.32/32 # 抖音直播图片资源节点（p3-webcast-sign.douyinpic.com）
 IP-CIDR,121.204.250.90/32 # 抖音视频点播分发服务节点 IP（n98-v-ncdnwha.douyinvod.com）
+IP-CIDR,121.226.246.5/32 # 抖音视频点播 CDN 节点（v27-cold.douyinvod.com）
 IP-CIDR,121.228.130.82/32 # 抖音视频播放服务节点 IP（api-play-hj.amemv.com）
 IP-CIDR,121.228.130.188/32 # 抖音视频播放接口节点（api-play-hj.amemv.com）
 IP-CIDR,121.228.190.74/32 # 抖音视频点播 CDN 节点（v5-gzb2-hl-tc-wha.douyinvod.com）
