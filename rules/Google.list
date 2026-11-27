@@ -5,8 +5,8 @@
 # - 注意：广告识别相关域名已独立归类至 AdDomain.list，未包含在本规则中
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-10-13
-# - 校对时间：2026-10-13
+# - 更新时间：2026-11-27
+# - 校对时间：2026-11-27
 
 # > Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 # - 校对时间：2026-05-09
@@ -198,6 +198,11 @@ DOMAIN-SUFFIX,ohttp-relay-safebrowsing-chrome.google.fastly-edge.com # Chrome Sa
 DOMAIN-SUFFIX,merchants.google.com # Merchant Center 控制台
 DOMAIN-SUFFIX,merchant-center.googleapis.com # Merchant Center API
 DOMAIN-SUFFIX,shoppingcontent.googleapis.com # Google Shopping Content API
+
+# > Google Maps（谷歌地图）相关域名
+# - 更新时间：2026-11-27
+
+DOMAIN-SUFFIX,g.page # Google 商家资料与地图位置短链接服务域名
 
 # > Google Custom Search（Google 自定义搜索服务）
 # - 校对时间：2026-03-06
