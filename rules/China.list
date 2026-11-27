@@ -3828,6 +3828,7 @@ DOMAIN-SUFFIX,ip138.com # IP138 IP 地址归属地与网络信息查询服务域
 # - 更新时间：2026-11-27
 
 DOMAIN-SUFFIX,dongchedi.com # 懂车帝汽车资讯、车型评测与汽车交易服务域名
+DOMAIN-SUFFIX,dcarimg.com # 懂车帝图片资源 CDN 域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
