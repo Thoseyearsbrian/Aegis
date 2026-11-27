@@ -3832,6 +3832,7 @@ DOMAIN-SUFFIX,dcarimg.com # 懂车帝图片资源 CDN 域名
 DOMAIN-SUFFIX,dcarstatic.com # 懂车帝静态资源 CDN 域名
 DOMAIN-SUFFIX,judongche.com # 巨懂车汽车营销与数字化经营服务域名
 DOMAIN-SUFFIX,dongchejuguang.com # 懂车聚光汽车达人合作与内容营销服务域名
+DOMAIN-SUFFIX,dcdapp.com # 懂车帝应用下载与平台服务域名
 
 # > Third-Party Blogs（第三方博客）
 # - 校对时间：2026-07-09
