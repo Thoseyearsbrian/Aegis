@@ -3830,6 +3830,7 @@ DOMAIN-SUFFIX,ip138.com # IP138 IP 地址归属地与网络信息查询服务域
 DOMAIN-SUFFIX,dongchedi.com # 懂车帝汽车资讯、车型评测与汽车交易服务域名
 DOMAIN-SUFFIX,dcarimg.com # 懂车帝图片资源 CDN 域名
 DOMAIN-SUFFIX,dcarstatic.com # 懂车帝静态资源 CDN 域名
+DOMAIN-SUFFIX,dcarapi.com # 懂车帝 API 接口与应用服务域名
 DOMAIN-SUFFIX,judongche.com # 巨懂车汽车营销与数字化经营服务域名
 DOMAIN-SUFFIX,dongchejuguang.com # 懂车聚光汽车达人合作与内容营销服务域名
 DOMAIN-SUFFIX,dcdapp.com # 懂车帝应用下载与平台服务域名
