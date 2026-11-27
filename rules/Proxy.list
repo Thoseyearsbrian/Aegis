@@ -11567,6 +11567,11 @@ DOMAIN-SUFFIX,techsembly.com # Techsembly 酒店电商与礼品卡服务域名
 
 DOMAIN-SUFFIX,azds.com # AZDS 酒店在线预订与数字化服务域名
 
+# > Localize 相关域名
+# - 更新时间：2026-11-27
+
+DOMAIN-SUFFIX,localizecdn.com # Localize 网站多语言翻译与本地化服务 CDN 域名
+
 # > Aman（安缦酒店）相关域名
 # - 更新时间：2026-11-27
 
