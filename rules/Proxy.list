@@ -11552,6 +11552,11 @@ DOMAIN-SUFFIX,shgcdn2.com # Shogun 前端静态资源 CDN 域名
 
 DOMAIN-SUFFIX,bigcommerce.com # BigCommerce 电商平台与 CDN 资源分发服务域名
 
+# > IPstack 相关域名
+# - 更新时间：2026-11-27
+
+DOMAIN-SUFFIX,ipstack.com # IPstack IP 地理位置与网络信息查询服务域名
+
 # > Aman（安缦酒店）相关域名
 # - 更新时间：2026-11-27
 
