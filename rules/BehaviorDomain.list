@@ -1128,3 +1128,8 @@ DOMAIN-SUFFIX,quantummetric.com # 用户行为追踪、会话回放与数字体�
 # - 更新时间：2026-11-27
 
 DOMAIN-SUFFIX,g594253006.co # Geo Targetly 用户地理位置采集与定向脚本服务域名
+
+# > BigCommerce 相关域名
+# - 更新时间：2026-11-27
+
+DOMAIN-SUFFIX,microapps.bigcommerce.com # BigCommerce 电商用户行为分析与事件采集脚本域名
