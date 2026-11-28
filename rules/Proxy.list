@@ -4,8 +4,8 @@
 # - 特征：覆盖需依赖代理访问的高频主流服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
 # - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-11-27
-# - 校对时间：2026-11-27
+# - 更新时间：2026-11-28
+# - 校对时间：2026-11-28
 
 # > Massachusetts Institute of Technology（麻省理工学院）
 # - 校对时间：2026-10-08
@@ -11589,9 +11589,10 @@ DOMAIN-SUFFIX,atma.com # 安缦集团旗下 ATMA 奢华酒店与康养服务域�
 DOMAIN-SUFFIX,janu.com # 迦努酒店域名
 
 # > Capella Hotels and Resorts（嘉佩乐酒店）相关域名
-# - 更新时间：2026-11-25
+# - 更新时间：2026-11-28
 
 DOMAIN-SUFFIX,capellahotels.com # 嘉佩乐酒店域名
+DOMAIN-SUFFIX,capellahotelgroup.com # 嘉佩乐酒店集团域名
 
 # > Mandarin Oriental（文华东方酒店）相关域名
 # - 更新时间：2026-11-25
